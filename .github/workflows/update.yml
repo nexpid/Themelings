@@ -1,0 +1,21 @@
+name: update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: update={bun run check}
