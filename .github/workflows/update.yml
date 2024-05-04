@@ -2,6 +2,8 @@ name: update
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "20 6 * * *" # this is right after Discord pushes a new alpha
 
 jobs:
   check-update:
@@ -24,11 +26,15 @@ jobs:
       - name: Check for version
         id: versioner
         working-directory: main
-        run: echo "version=$(bun run check)" >> $GITHUB_ENV
+        run: echo "version=$(bun run check)" >> $GITHUB_OUTPUT
 
       - name: Update
+        if: steps.versioner.outcome.version != 'false'
+        env:
+          code_webhook: ${{ secrets.CODE_WEBHOOK }}
+          color_webhook: ${{ secrets.COLOR_WEBHOOK }}
+          icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
         working-directory: main
-        if: ${{ env.version != 'false' }}
         run: bun run update
 
       - name: Publish changes

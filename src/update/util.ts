@@ -51,7 +51,7 @@ export function makeProgress(
           process.stdout.write(logs[i]);
           process.stdout.moveCursor(-500, j);
         }
-    } else console.log("qn" + logs.join("\n"));
+    } else console.log("\n" + logs.join("\n"));
   };
 
   reprint();
