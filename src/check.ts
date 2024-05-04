@@ -4,10 +4,10 @@ if (!tracker.ok || tracker.status !== 200)
 
 const alpha = (await tracker.json()).latest.alpha.toString();
 
-const file = Bun.file("data/version.txt");
+const file = Bun.file("../data/version.txt");
 const latest = (await file.exists()) && (await file.text());
 
 if (latest !== alpha) {
-  await Bun.write("data/version.txt", alpha);
-  process.stdout.write("true");
+  await Bun.write("../data/version.txt", alpha);
+  process.stdout.write(alpha);
 } else process.stdout.write("false");

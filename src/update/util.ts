@@ -7,11 +7,12 @@ export function makeProgress(
   type Key = keyof typeof data;
   const keys = Object.keys(data);
 
-  const failed = new Set<Key>();
-  const success = new Set<Key>();
-  const paused = new Set<Key>();
+  const result = new Map<
+    Key,
+    "failed" | "success" | "paused" | "idle" | "skipped"
+  >();
   const errors = new Map<Key, any>();
-  if (startPaused) keys.forEach((key) => paused.add(key));
+  if (startPaused) keys.forEach((key) => result.set(key, "paused"));
 
   let logs = new Array<string>();
   const reprint = () => {
@@ -26,13 +27,13 @@ export function makeProgress(
         otherKeys.findIndex((x) => x === key) === otherKeys.length - 1;
 
       return `${rootKey ? (isLast ? " ╚═ " : " ╠═ ") : ""}${
-        failed.has(key)
-          ? "❌"
-          : success.has(key)
-          ? "✅"
-          : paused.has(key)
-          ? "🎯"
-          : "🕑"
+        {
+          success: "✅",
+          failed: "❌",
+          skipped: "💫",
+          paused: "🔔",
+          idle: "⏰",
+        }[result.get(key) || "idle"]
       } ${data[key]}`;
     });
 
@@ -50,33 +51,54 @@ export function makeProgress(
 
   reprint();
 
+  const bKeyer = (keys: Key[]) => {
+    const bKeys = new Array<Key>();
+    for (const k of keys)
+      bKeys.push(k, ...keys.filter((x) => x.startsWith(`${k}_`)));
+    return bKeys;
+  };
+
   return {
-    update(key: Key, result: boolean, error?: any) {
-      if (!result) failed.add(key);
-      else success.add(key);
+    update(key: Key, value: boolean | null, error?: any) {
+      if (value === true) result.set(key, "success");
+      else if (value === false) result.set(key, "failed");
+      else if (value === null) result.set(key, "skipped");
 
       if (error) errors.set(key, error);
       reprint();
     },
     start(key: Key) {
-      paused.delete(key);
+      result.set(key, "idle");
+      reprint();
+    },
+    pause(key: Key) {
+      result.set(key, "paused");
       reprint();
     },
 
-    anyFailed: () => failed.size > 0,
-    anyAvailable: () => keys.length - failed.size - success.size > 0,
+    anyFailed: () => [...result.values()].some((x) => x === "failed"),
+    someFailed: (...keys: Key[]) =>
+      bKeyer(keys).some((k) => result.get(k) === "failed"),
+    isFinished: (key: Key) =>
+      ["success", "failed", "skipped"].some((x) => result.get(key) === x),
 
     keys,
     errors,
-    prettyErrors() {
-      return [...errors.entries()].map(([k, v]) => `${k} => ${v}`).join("\n");
+    prettyErrors(...keys: Key[]) {
+      const bKeys = bKeyer(keys);
+      let err = [...errors.entries()];
+
+      if (keys[0]) err = err.filter(([k]) => bKeys.includes(k));
+      return err.map(([k, v]) => `${k} => ${v}`).join("\n");
     },
   };
 }
 
+export type Progress = ReturnType<typeof makeProgress>;
+
 export async function wrapPromise(
   promise: Promise<any>,
-  progress: ReturnType<typeof makeProgress>,
+  progress: Progress,
   key: string
 ) {
   progress.start(key);
@@ -90,12 +112,12 @@ export async function wrapPromise(
   }
 }
 
-export function handleShellErr(out: ShellOutput) {
+export function handleShellErr(out: ShellOutput): ShellOutput {
   if (out.exitCode !== 0 && out.exitCode !== 11)
     throw new Error(
       `${
         out.stdout.toString().trim() + "\n" + out.stderr.toString().trim()
       } (exit code ${out.exitCode})`
     );
-  else return;
+  else return out;
 }

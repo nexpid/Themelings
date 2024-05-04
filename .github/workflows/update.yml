@@ -17,5 +17,25 @@ jobs:
           path: data
 
       - uses: oven-sh/setup-bun@v1
-      - run: bun install
-      - run: update={bun run check}
+
+      - working-directory: main
+        run: bun install
+
+      - name: Check for version
+        id: versioner
+        working-directory: main
+        run: echo "version=$(bun run check)" >> $GITHUB_OUTPUT
+
+      - name: Update
+        working-directory: main
+        if: ${{ steps.versioner.outputs.version != 'false' }}
+        run: bun run update
+
+      - name: Publish changes
+        working-directory: data
+        run: |
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add . || true
+          git commit -m "chore: update for version ${{ steps.versioner.outputs.version }}"
+          git push

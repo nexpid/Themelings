@@ -1,6 +1,6 @@
 // this code includes a lot of scary regexes, be warned
 
-import type { makeProgress } from "../util";
+import type { Progress } from "../util";
 
 const iterate = (
   code: string[],
@@ -21,10 +21,7 @@ const iterate = (
   else if (full) return { line: line + startOff, full, matched: didDefine };
 };
 
-const colorsRaw = async (
-  progress: ReturnType<typeof makeProgress>,
-  code: string[]
-) => {
+const colorsRaw = async (progress: Progress, code: string[]) => {
   progress.start("colors_raw");
   const rawColorsHookLine = code.findIndex((l) =>
     l.includes("/config/colors/generated/Colors.tsx")
@@ -54,15 +51,12 @@ const colorsRaw = async (
     .join("}");
 
   const rawColors = (0, eval)(`({${rawColorsObj}})`);
-  await Bun.write("data/raw.json", JSON.stringify(rawColors, null, 2));
+  await Bun.write("../data/raw.json", JSON.stringify(rawColors, null, 2));
 
   // semantic colors
   progress.update("colors_raw", true);
 };
-const colorsSemantic = async (
-  progress: ReturnType<typeof makeProgress>,
-  code: string[]
-) => {
+const colorsSemantic = async (progress: Progress, code: string[]) => {
   progress.start("colors_semantic");
 
   const semanticColorsHookLine = code.findIndex((l) =>
@@ -206,16 +200,13 @@ const colorsSemantic = async (
   }
 
   await Bun.write(
-    "data/semantic.json",
+    "../data/semantic.json",
     JSON.stringify(semanticColors, null, 2)
   );
   progress.update("colors_semantic", true);
 };
 
-export default async function colors(
-  progress: ReturnType<typeof makeProgress>,
-  code: string[]
-) {
+export default async function colors(progress: Progress, code: string[]) {
   await Promise.all([
     colorsRaw(progress, code),
     colorsSemantic(progress, code),

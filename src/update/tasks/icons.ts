@@ -1,9 +1,9 @@
 import { join } from "path";
-import { readdir, writeFile, mkdir, copyFile } from "fs/promises";
-import type { makeProgress } from "../util";
+import { readdir, writeFile, mkdir, copyFile, rm } from "node:fs/promises";
+import type { Progress } from "../util";
 
 export default async function icons(
-  progress: ReturnType<typeof makeProgress>,
+  progress: Progress,
   code: string[],
   ...paths: string[]
 ) {
@@ -52,7 +52,8 @@ export default async function icons(
 
       if (
         ["httpServerLocation", "hash", "name", "type"].every((x) => obj[x]) &&
-        ["svg", "png", "lottie"].includes(obj.type)
+        ["svg", "png", "lottie"].includes(obj.type) &&
+        !obj.httpServerLocation.includes("node_modules/.pnpm")
       ) {
         lookForFiles.push(obj);
         continue;
@@ -117,13 +118,15 @@ export default async function icons(
   progress.update("icons_getting", true);
   progress.start("icons_copying");
 
-  await writeFile("data/icons.json", JSON.stringify(icons, null, 2));
+  await rm("../data/icons", { recursive: true, force: true });
+
+  await writeFile("../data/icons.json", JSON.stringify(icons, null, 2));
   await Promise.all(
     toMove
       .map(([og, actual]) => [
-        mkdir(join("data/icons", actual.split("/").slice(0, -1).join("/")), {
+        mkdir(join("../data/icons", actual.split("/").slice(0, -1).join("/")), {
           recursive: true,
-        }).then(() => copyFile(og, join("data/icons", actual))),
+        }).then(() => copyFile(og, join("../data/icons", actual))),
       ])
       .flat()
   );

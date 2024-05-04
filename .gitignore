@@ -176,5 +176,4 @@ dist
 
 # Custom
 tmp
-main
-data
+.env
