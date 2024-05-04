@@ -38,7 +38,11 @@ export function makeProgress(
     });
 
     if (!oldLogs.length) console.log(logs.join("\n"));
-    else if (oldLogs.length === logs.length)
+    else if (
+      oldLogs.length === logs.length &&
+      process.stdout.moveCursor &&
+      process.stdout.clearLine
+    ) {
       for (let i = 0; i < logs.length; i++)
         if (logs[i] !== oldLogs[i]) {
           const j = logs.length - i;
@@ -47,6 +51,7 @@ export function makeProgress(
           process.stdout.write(logs[i]);
           process.stdout.moveCursor(-500, j);
         }
+    } else console.log("qn" + logs.join("\n"));
   };
 
   reprint();

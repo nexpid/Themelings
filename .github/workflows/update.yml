@@ -24,11 +24,11 @@ jobs:
       - name: Check for version
         id: versioner
         working-directory: main
-        run: echo "version=$(bun run check)" >> $GITHUB_OUTPUT
+        run: echo "version=$(bun run check)" >> $GITHUB_ENV
 
       - name: Update
         working-directory: main
-        if: ${{ steps.versioner.outputs.version != 'false' }}
+        if: ${{ env.version != 'false' }}
         run: bun run update
 
       - name: Publish changes
