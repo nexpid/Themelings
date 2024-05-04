@@ -794,28 +794,6 @@
     "width": 24,
     "height": 24
   },
-  "back-icon": {
-    "file": "../node_modules/.pnpm/@react-navigation+elements@1.3.30_@react-navigation+native@6.1.7_react-native-safe-area-conte_ia6ibg7l5eir2i4ramt2if6rum/node_modules/@react-navigation/elements/src/assets/back-icon.png",
-    "hash": "a364dc7a784101f7c8f6791c7b4514ce",
-    "scales": [
-      1,
-      1.5,
-      2,
-      3,
-      4
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "back-icon-mask": {
-    "file": "../node_modules/.pnpm/@react-navigation+elements@1.3.30_@react-navigation+native@6.1.7_react-native-safe-area-conte_ia6ibg7l5eir2i4ramt2if6rum/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png",
-    "hash": "5223c8d9b0d08b82a5670fb5f71faf78",
-    "scales": [
-      1
-    ],
-    "width": 50,
-    "height": 85
-  },
   "img_nitro_classic_icon_white_80px": {
     "file": "images/native/img_nitro_classic_icon_white_80px.png",
     "hash": "d6c65250c1813722d34dd286c312a88f",
