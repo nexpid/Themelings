@@ -1,6 +1,7 @@
 import { prevFiles } from "..";
 import { handleShellErr, type Progress } from "../util";
 import { join } from "path";
+import Color from "color";
 
 export type OutDiffs = NonNullable<Awaited<ReturnType<typeof diffs>>>;
 
@@ -74,11 +75,16 @@ const diffSemantic = async (progress: Progress) => {
     join("../data", "semantic.json")
   ).json()) as SemanticColors;
 
-  const colorify = (clr: SemanticColors[string][string]) => clr.raw;
-  const allVars = (sem: SemanticColors[string], added: boolean) =>
+  const raw = (await Bun.file(join("../data", "raw.json")).json()) as RawColors;
+
+  const colorify = (clr: SemanticColors[string][string]) =>
+    raw[clr.raw]
+      ? `${new Color(raw[clr.raw]).alpha(clr.opacity).hex()} (${clr.raw})`
+      : `unknown (${clr.raw})`;
+  const allVars = (key: string, sem: SemanticColors[string], added: boolean) =>
     Object.entries(sem).forEach(([k, v]) =>
       changes.set(
-        `${sem}.${k}`,
+        `${key}.${k}`,
         added
           ? { change: DiffEnum.Added, cur: colorify(v) }
           : { change: DiffEnum.Removed }
@@ -87,7 +93,7 @@ const diffSemantic = async (progress: Progress) => {
 
   const changes = new Map<string, Diff>();
   for (const sem of Object.keys(newSemantic))
-    if (!oldSemantic[sem]) allVars(newSemantic[sem], true);
+    if (!oldSemantic[sem]) allVars(sem, newSemantic[sem], true);
     else
       for (const clir of Object.keys(newSemantic[sem]))
         if (!oldSemantic[sem][clir])
@@ -105,7 +111,7 @@ const diffSemantic = async (progress: Progress) => {
           });
 
   for (const sem of Object.keys(oldSemantic))
-    if (!newSemantic[sem]) allVars(oldSemantic[sem], false);
+    if (!newSemantic[sem]) allVars(sem, oldSemantic[sem], false);
     else
       for (const clir of Object.keys(oldSemantic[sem]))
         if (!newSemantic[sem][clir])
