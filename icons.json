@@ -4876,6 +4876,16 @@
     "width": 16,
     "height": 16
   },
+  "system-dm-wumpus": {
+    "file": "modules/system_dm/native/images/system-dm-wumpus.png",
+    "hash": "2d197f6def5db71602d9cd8f4607facd",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
   "PlusMediumIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/PlusMediumIcon.png",
     "hash": "390443ad927531f41058d038a38cd2a4",
@@ -7294,16 +7304,6 @@
     ],
     "width": 13,
     "height": 12
-  },
-  "system-dm-wumpus": {
-    "file": "modules/system_dm/native/images/system-dm-wumpus.png",
-    "hash": "2d197f6def5db71602d9cd8f4607facd",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
   },
   "boost": {
     "file": "modules/guild_profile/native/images/boost.png",
@@ -14072,6 +14072,106 @@
     "width": 24,
     "height": 24
   },
+  "KeyIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/KeyIcon.png",
+    "hash": "2b13ea14f6a95f892e42fe15087182c0",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "LaptopPhoneIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/LaptopPhoneIcon.png",
+    "hash": "5589b6221b8d30ab55e1d9f2b3a8e183",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "PuzzlePieceIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/PuzzlePieceIcon.png",
+    "hash": "c9723dcf88631332d49bf7468e432787",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "AccessibilityIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/AccessibilityIcon.png",
+    "hash": "49b9a3e63a4a5d9b9479a0685e4a2654",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "LanguageIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/LanguageIcon.png",
+    "hash": "c1ff77cbe803598656ac23a30668b8cd",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "ImageTextIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/ImageTextIcon.png",
+    "hash": "b9d049be04c0383699880ae2d0d363ff",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "GlobeEarthIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/GlobeEarthIcon.png",
+    "hash": "c495f465518397a5b115983f4354cc3c",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "StaffBadgeIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/StaffBadgeIcon.png",
+    "hash": "992c1b5b27dae6711495d70cabb98bb7",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "ic_audit_log_24px": {
+    "file": "images/native/icons/ic_audit_log_24px.png",
+    "hash": "b3ead669706ddcf312f4ef0d7e2c13ef",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "ClipboardListIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/ClipboardListIcon.png",
+    "hash": "e2eb9088118b523d643f98c4a2437132",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
   "ShopIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/ShopIcon.png",
     "hash": "5e3f48f00b50c9b0da730224832525e8",
@@ -14095,16 +14195,6 @@
   "ic_sync_24px": {
     "file": "images/native/icons/ic_sync_24px.png",
     "hash": "de0b312c32a89e1e232479c7e9ea3666",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ic_audit_log_24px": {
-    "file": "images/native/icons/ic_audit_log_24px.png",
-    "hash": "b3ead669706ddcf312f4ef0d7e2c13ef",
     "scales": [
       2,
       3
@@ -14248,6 +14338,16 @@
     "width": 128,
     "height": 128
   },
+  "AppLauncherShop": {
+    "file": "modules/app_launcher/native/images/AppLauncherShop.png",
+    "hash": "ae42fb94f487ec55e6a86121b853d3b2",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 14,
+    "height": 13.5
+  },
   "app_dock_not_found_light": {
     "file": "images/native/empties/app_dock_not_found_light.png",
     "hash": "c33f756102321d3bc5f9e5ab58474c78",
@@ -14344,96 +14444,6 @@
     ],
     "width": 343,
     "height": 236
-  },
-  "KeyIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/KeyIcon.png",
-    "hash": "2b13ea14f6a95f892e42fe15087182c0",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "LaptopPhoneIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/LaptopPhoneIcon.png",
-    "hash": "5589b6221b8d30ab55e1d9f2b3a8e183",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "PuzzlePieceIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/PuzzlePieceIcon.png",
-    "hash": "c9723dcf88631332d49bf7468e432787",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "AccessibilityIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/AccessibilityIcon.png",
-    "hash": "49b9a3e63a4a5d9b9479a0685e4a2654",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "LanguageIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/LanguageIcon.png",
-    "hash": "c1ff77cbe803598656ac23a30668b8cd",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ImageTextIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/ImageTextIcon.png",
-    "hash": "b9d049be04c0383699880ae2d0d363ff",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "GlobeEarthIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/GlobeEarthIcon.png",
-    "hash": "c495f465518397a5b115983f4354cc3c",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "StaffBadgeIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/StaffBadgeIcon.png",
-    "hash": "992c1b5b27dae6711495d70cabb98bb7",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ClipboardListIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/ClipboardListIcon.png",
-    "hash": "e2eb9088118b523d643f98c4a2437132",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
   },
   "icon-afk": {
     "file": "images/native/icon-afk.png",
