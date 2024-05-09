@@ -3617,6 +3617,78 @@
       "opacity": 0.7
     }
   },
+  "CONTENT_INVENTORY_OVERLAY_UI_MOD_BG": {
+    "dark": {
+      "raw": "BLACK_500",
+      "opacity": 0.1
+    },
+    "light": {
+      "raw": "BLACK_500",
+      "opacity": 0.1
+    },
+    "midnight": {
+      "raw": "BLACK_500",
+      "opacity": 0.1
+    },
+    "darker": {
+      "raw": "BLACK_500",
+      "opacity": 0.1
+    }
+  },
+  "CONTENT_INVENTORY_OVERLAY_UI_MOD": {
+    "dark": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "light": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "midnight": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "darker": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    }
+  },
+  "CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY": {
+    "dark": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "light": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "midnight": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    },
+    "darker": {
+      "raw": "WHITE_500",
+      "opacity": 0.7
+    }
+  },
+  "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
+    "dark": {
+      "raw": "WHITE_500",
+      "opacity": 0.85
+    },
+    "light": {
+      "raw": "WHITE_500",
+      "opacity": 0.85
+    },
+    "midnight": {
+      "raw": "WHITE_500",
+      "opacity": 0.85
+    },
+    "darker": {
+      "raw": "WHITE_500",
+      "opacity": 0.85
+    }
+  },
   "CONTENT_INVENTORY_MEDIA_SEEKBAR_CONTAINER": {
     "dark": {
       "raw": "PLUM_6",

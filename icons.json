@@ -7910,16 +7910,6 @@
     "width": 24,
     "height": 24
   },
-  "nearby_scan": {
-    "file": "components_native/add_friend/images/nearby_scan.png",
-    "hash": "9624db2b6759a9bcb54371b23e0b69d1",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 40,
-    "height": 40
-  },
   "yellow-alert": {
     "file": "images/native/yellow-alert.png",
     "hash": "15e03876f801e9afaa79da402a66b5b6",
