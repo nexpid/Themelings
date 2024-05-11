@@ -2945,6 +2945,16 @@
     "width": 60,
     "height": 60
   },
+  "BlurpleTwilightIcon": {
+    "file": "images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
+    "hash": "134e081f670e6849275dbf6af89d9956",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
   "BrandInvertedIcon": {
     "file": "images/native/custom_app_icons/BrandInvertedIcon/BrandInvertedIcon.png",
     "hash": "4f2b80be0ed433e0c6fef059ea6e7407",
@@ -4827,6 +4837,16 @@
     "width": 24,
     "height": 24
   },
+  "LockIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
+    "hash": "7906f46c8a4c2174f9772335aed486ca",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
   "img_nitro_icon_filled": {
     "file": "images/native/premium/nitro_icons/img_nitro_icon_filled.png",
     "hash": "e31ee2ef368806b54cff2e8c81e8cd97",
@@ -4885,16 +4905,6 @@
     ],
     "width": 60,
     "height": 60
-  },
-  "PlusMediumIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/PlusMediumIcon.png",
-    "hash": "390443ad927531f41058d038a38cd2a4",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
   },
   "img_search_empty_dark": {
     "file": "images/native/img_search_empty_dark.png",
@@ -5558,16 +5568,6 @@
     ],
     "width": 216,
     "height": 80
-  },
-  "LockIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
-    "hash": "7906f46c8a4c2174f9772335aed486ca",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
   },
   "ic_crown_16px": {
     "file": "images/native/icons/ic_crown_16px.png",
@@ -11599,9 +11599,9 @@
     "width": 20,
     "height": 20
   },
-  "welcome-bg-redesign": {
-    "file": "images/native/welcome-bg-redesign.png",
-    "hash": "6a47e96d43108a3209ee1e4ed9f3eb39",
+  "welcome-bg-refresh": {
+    "file": "images/native/welcome-bg-refresh.png",
+    "hash": "5391a7f0e5e75aa4764e30ee0b389b3f",
     "scales": [
       3
     ],
