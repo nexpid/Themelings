@@ -665,6 +665,24 @@
       "opacity": 1
     }
   },
+  "STAGE_CARD_PILL_BG": {
+    "dark": {
+      "raw": "PRIMARY_630",
+      "opacity": 1
+    },
+    "light": {
+      "raw": "WHITE_500",
+      "opacity": 1
+    },
+    "midnight": {
+      "raw": "PLUM_25",
+      "opacity": 1
+    },
+    "darker": {
+      "raw": "PLUM_19",
+      "opacity": 1
+    }
+  },
   "SPOILER_REVEALED_BACKGROUND": {
     "dark": {
       "raw": "PRIMARY_660",
@@ -5720,24 +5738,6 @@
     },
     "darker": {
       "raw": "PRIMARY_700",
-      "opacity": 1
-    }
-  },
-  "ACTION_SHEET_GRADIENT_BG": {
-    "dark": {
-      "raw": "PRIMARY_630",
-      "opacity": 1
-    },
-    "light": {
-      "raw": "PRIMARY_130",
-      "opacity": 1
-    },
-    "midnight": {
-      "raw": "BLACK_500",
-      "opacity": 1
-    },
-    "darker": {
-      "raw": "PLUM_20",
       "opacity": 1
     }
   }

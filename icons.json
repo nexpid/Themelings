@@ -2945,6 +2945,36 @@
     "width": 60,
     "height": 60
   },
+  "InRainbowsIcon": {
+    "file": "images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
+    "hash": "ad3943a04648939c937250001e2a00dd",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MidnightPrismIcon": {
+    "file": "images/native/custom_app_icons/MidnightPrismIcon/MidnightPrismIcon.png",
+    "hash": "2dbac022be95dcd42913fc045722eb85",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "ColorWaveIcon": {
+    "file": "images/native/custom_app_icons/ColorWaveIcon/ColorWaveIcon.png",
+    "hash": "8b9a598210aed17b89ac455de547c19b",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
   "BlurpleTwilightIcon": {
     "file": "images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
     "hash": "134e081f670e6849275dbf6af89d9956",
@@ -4837,26 +4867,6 @@
     "width": 24,
     "height": 24
   },
-  "LockIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
-    "hash": "7906f46c8a4c2174f9772335aed486ca",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_icon_filled": {
-    "file": "images/native/premium/nitro_icons/img_nitro_icon_filled.png",
-    "hash": "e31ee2ef368806b54cff2e8c81e8cd97",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 16,
-    "height": 16
-  },
   "register-background-dark": {
     "file": "modules/auth/native/images/register-background-dark.png",
     "hash": "b25b2e24db6c14f15201cb7533aed65e",
@@ -4905,6 +4915,26 @@
     ],
     "width": 60,
     "height": 60
+  },
+  "LockIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
+    "hash": "7906f46c8a4c2174f9772335aed486ca",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_icon_filled": {
+    "file": "images/native/premium/nitro_icons/img_nitro_icon_filled.png",
+    "hash": "e31ee2ef368806b54cff2e8c81e8cd97",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 16,
+    "height": 16
   },
   "img_search_empty_dark": {
     "file": "images/native/img_search_empty_dark.png",
@@ -5155,6 +5185,16 @@
     ],
     "width": 24,
     "height": 24
+  },
+  "ic_nitro_wheel_gradient_purple": {
+    "file": "images/native/icons/ic_nitro_wheel_gradient_purple.png",
+    "hash": "516f7c1489d8b584b5af7fbc4d319205",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 16,
+    "height": 16
   },
   "AnalyticsIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/AnalyticsIcon.png",
@@ -7335,16 +7375,6 @@
     "width": 24,
     "height": 24
   },
-  "ic_nitro_wheel_gradient_purple": {
-    "file": "images/native/icons/ic_nitro_wheel_gradient_purple.png",
-    "hash": "516f7c1489d8b584b5af7fbc4d319205",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 16,
-    "height": 16
-  },
   "ic_soundboard": {
     "file": "images/native/icons/ic_soundboard.png",
     "hash": "5843eb1a77923527e9e974d6d9366f8f",
@@ -8236,6 +8266,16 @@
     ],
     "width": 88,
     "height": 80
+  },
+  "WindowLaunchIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/WindowLaunchIcon.png",
+    "hash": "02ac34e94ec71cea72b4a6496a86874a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
   },
   "ChevronSmallRightIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/ChevronSmallRightIcon.png",
@@ -10280,16 +10320,6 @@
   "ChevronSmallDownIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/ChevronSmallDownIcon.png",
     "hash": "c19d82e73fa9c83aa776c05e407de409",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "WindowLaunchIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/WindowLaunchIcon.png",
-    "hash": "02ac34e94ec71cea72b4a6496a86874a",
     "scales": [
       2,
       3
@@ -13767,6 +13797,16 @@
     "width": 24,
     "height": 24.5
   },
+  "GlobeEarthIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/GlobeEarthIcon.png",
+    "hash": "c495f465518397a5b115983f4354cc3c",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
   "megaphone": {
     "file": "images/native/soundboard/megaphone.png",
     "hash": "d77805e94d3fd3a0faba264c0232916a",
@@ -14115,16 +14155,6 @@
   "ImageTextIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/ImageTextIcon.png",
     "hash": "b9d049be04c0383699880ae2d0d363ff",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "GlobeEarthIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/GlobeEarthIcon.png",
-    "hash": "c495f465518397a5b115983f4354cc3c",
     "scales": [
       2,
       3
@@ -14539,6 +14569,17 @@
     ],
     "width": 24,
     "height": 24
+  },
+  "app_icons_new_styles_banner": {
+    "file": "images/native/app_icons_new_styles_banner.png",
+    "hash": "06c9fd5ebfd500bfed0a4743c16da5d7",
+    "scales": [
+      1,
+      2,
+      3
+    ],
+    "width": 244,
+    "height": 126
   },
   "ic_call_status_green_24px": {
     "file": "images/native/ic_call_status_green_24px.png",
