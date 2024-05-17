@@ -4966,6 +4966,16 @@
     "width": 80,
     "height": 64
   },
+  "ic_nitro_wheel_gradient_purple": {
+    "file": "images/native/icons/ic_nitro_wheel_gradient_purple.png",
+    "hash": "516f7c1489d8b584b5af7fbc4d319205",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 16,
+    "height": 16
+  },
   "ic_trophy_filled": {
     "file": "images/native/icons/ic_trophy_filled.png",
     "hash": "e098cf14a18e07cf510f4b7494632476",
@@ -5185,16 +5195,6 @@
     ],
     "width": 24,
     "height": 24
-  },
-  "ic_nitro_wheel_gradient_purple": {
-    "file": "images/native/icons/ic_nitro_wheel_gradient_purple.png",
-    "hash": "516f7c1489d8b584b5af7fbc4d319205",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 16,
-    "height": 16
   },
   "AnalyticsIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/AnalyticsIcon.png",
@@ -5861,6 +5861,26 @@
     "width": 24,
     "height": 24
   },
+  "ic_globe_24px": {
+    "file": "images/native/icons/settings/ic_globe_24px.png",
+    "hash": "0f54ff948d2e40a623c6ef03fe00940a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "EmbedIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/EmbedIcon.png",
+    "hash": "65211e93c0c9f63634b523b435f8046f",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
   "ic_link_24px": {
     "file": "images/native/icons/ic_link_24px.png",
     "hash": "2fa45a03c3a861b71b83441c299cc157",
@@ -5894,26 +5914,6 @@
   "ic_robot_24px": {
     "file": "images/native/icons/ic_robot_24px.png",
     "hash": "f01d19e4bd751180a86f1d87f587bc33",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ic_globe_24px": {
-    "file": "images/native/icons/settings/ic_globe_24px.png",
-    "hash": "0f54ff948d2e40a623c6ef03fe00940a",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "EmbedIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/EmbedIcon.png",
-    "hash": "65211e93c0c9f63634b523b435f8046f",
     "scales": [
       2,
       3
@@ -5994,16 +5994,6 @@
   "VideoIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/VideoIcon.png",
     "hash": "dd5f13aab9ed325f2d67137dfcd135e2",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ic_add_friend": {
-    "file": "images/native/icons/ic_add_friend.png",
-    "hash": "5d542a14647174fcaaf5899e9030c3ea",
     "scales": [
       2,
       3
@@ -6875,6 +6865,16 @@
   "ic_settings": {
     "file": "images/native/chat_sidebar/ic_settings.png",
     "hash": "c0d7195f1a47742034be311c1f70ceed",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "GroupPlusIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/GroupPlusIcon.png",
+    "hash": "3a0e9060dff48f79fa5fe73c836750f4",
     "scales": [
       2,
       3
@@ -10516,16 +10516,6 @@
     "width": 46,
     "height": 33.5
   },
-  "ic_person_add": {
-    "file": "images/native/icons/ic_person_add.png",
-    "hash": "152a1c86dd1be4552e04b121bec0ad81",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 16,
-    "height": 16
-  },
   "ic_group_message": {
     "file": "images/native/ic_group_message.png",
     "hash": "c7f798240ed4018bc0ed4e812cd0eff2",
@@ -12010,17 +12000,6 @@
     ],
     "width": 20,
     "height": 20
-  },
-  "ic_person_add_18px": {
-    "file": "images/native/icons/ic_person_add_18px.png",
-    "hash": "6d5d2bd48bfbdd107f9c47bc7563f220",
-    "scales": [
-      1,
-      2,
-      3
-    ],
-    "width": 18,
-    "height": 18
   },
   "icon-summaries": {
     "file": "modules/main_tabs_v2/native/images/icon-summaries.png",
@@ -14072,17 +14051,6 @@
   "icon-new-group": {
     "file": "modules/main_tabs_v2/native/shared_components/user_list/images/icon-new-group.png",
     "hash": "a7182f0f94a36e3c4d169065a673c788",
-    "scales": [
-      2,
-      3,
-      4
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "icon-invite": {
-    "file": "modules/main_tabs_v2/native/shared_components/user_list/images/icon-invite.png",
-    "hash": "ba789a7abefe99d49cb78b7e361b13c6",
     "scales": [
       2,
       3,
