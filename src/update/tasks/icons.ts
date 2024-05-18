@@ -1,6 +1,6 @@
 import { join } from "path";
 import { readdir, writeFile, mkdir, copyFile, rm } from "node:fs/promises";
-import type { Progress } from "../util";
+import { sortObj, type Progress } from "../util";
 
 export default async function icons(
   progress: Progress,
@@ -120,7 +120,11 @@ export default async function icons(
 
   await rm("../data/icons", { recursive: true, force: true });
 
-  await writeFile("../data/icons.json", JSON.stringify(icons, null, 2));
+  // make sure
+  await writeFile(
+    "../data/icons.json",
+    JSON.stringify(sortObj(icons), undefined, 4)
+  );
   await Promise.all(
     toMove
       .map(([og, actual]) => [

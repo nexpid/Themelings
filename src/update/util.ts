@@ -1,5 +1,11 @@
 import type { ShellOutput } from "bun";
 
+export function sortObj(obj: Record<string | number | symbol, any>) {
+  return Object.fromEntries(
+    Object.entries(obj).sort(([a], [b]) => (a < b ? -1 : b < a ? 1 : 0))
+  );
+}
+
 export function makeProgress(
   data: Record<string, string>,
   startPaused: boolean = false

@@ -1,6 +1,6 @@
 // this code includes a lot of scary regexes, be warned
 
-import type { Progress } from "../util";
+import { sortObj, type Progress } from "../util";
 
 const iterate = (
   code: string[],
@@ -51,7 +51,10 @@ const colorsRaw = async (progress: Progress, code: string[]) => {
     .join("}");
 
   const rawColors = (0, eval)(`({${rawColorsObj}})`);
-  await Bun.write("../data/raw.json", JSON.stringify(rawColors, null, 2));
+  await Bun.write(
+    "../data/raw.json",
+    JSON.stringify(sortObj(rawColors), null, 2)
+  );
 
   // semantic colors
   progress.update("colors_raw", true);
@@ -201,7 +204,7 @@ const colorsSemantic = async (progress: Progress, code: string[]) => {
 
   await Bun.write(
     "../data/semantic.json",
-    JSON.stringify(semanticColors, null, 2)
+    JSON.stringify(sortObj(semanticColors), null, 2)
   );
   progress.update("colors_semantic", true);
 };
