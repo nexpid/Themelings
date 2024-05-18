@@ -2935,335 +2935,319 @@
     "width": 49,
     "height": 48.5
   },
-  "AppIcon": {
-    "file": "images/native/custom_app_icons/AppIcon/AppIcon.png",
-    "hash": "7dbf38ca448aa0ee30d977dfdf42a9a4",
+  "sparkle_star_pointed": {
+    "file": "modules/guild_boosting/native/images/sparkle_star_pointed.png",
+    "hash": "dc018ce302b0357451a31422d7180d84",
     "scales": [
       2,
       3
     ],
-    "width": 60,
-    "height": 60
+    "width": 18,
+    "height": 15
   },
-  "InRainbowsIcon": {
-    "file": "images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
-    "hash": "ad3943a04648939c937250001e2a00dd",
+  "img_clouds_header_tier_0": {
+    "file": "images/native/premium/illustrations/img_clouds_header_tier_0.png",
+    "hash": "e57f303ebad0114b5b8bca4157b1f288",
     "scales": [
       2,
       3
     ],
-    "width": 60,
-    "height": 60
+    "width": 397,
+    "height": 97
   },
-  "MidnightPrismIcon": {
-    "file": "images/native/custom_app_icons/MidnightPrismIcon/MidnightPrismIcon.png",
-    "hash": "2dbac022be95dcd42913fc045722eb85",
+  "img_clouds_header_tier_2": {
+    "file": "images/native/premium/illustrations/img_clouds_header_tier_2.png",
+    "hash": "a2e0a9a7d22cfbea84b0f0ba4456a26c",
     "scales": [
       2,
       3
     ],
-    "width": 60,
-    "height": 60
+    "width": 343,
+    "height": 112
   },
-  "ColorWaveIcon": {
-    "file": "images/native/custom_app_icons/ColorWaveIcon/ColorWaveIcon.png",
-    "hash": "8b9a598210aed17b89ac455de547c19b",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "BlurpleTwilightIcon": {
-    "file": "images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
-    "hash": "134e081f670e6849275dbf6af89d9956",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "BrandInvertedIcon": {
-    "file": "images/native/custom_app_icons/BrandInvertedIcon/BrandInvertedIcon.png",
-    "hash": "4f2b80be0ed433e0c6fef059ea6e7407",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "BrandDarkIcon": {
-    "file": "images/native/custom_app_icons/BrandDarkIcon/BrandDarkIcon.png",
-    "hash": "21b46d74b3e6c1d214fdc62f93efb1cf",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "MatteDarkIcon": {
-    "file": "images/native/custom_app_icons/MatteDarkIcon/MatteDarkIcon.png",
-    "hash": "2123361f1dca17c93f4909833d25b11b",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "MatteLightIcon": {
-    "file": "images/native/custom_app_icons/MatteLightIcon/MatteLightIcon.png",
-    "hash": "48b20531c981b1c34a7a77462307b7d9",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "PastelIcon": {
-    "file": "images/native/custom_app_icons/PastelIcon/PastelIcon.png",
-    "hash": "dec49354734ef067ad6940e703fe7b67",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "PirateIcon": {
-    "file": "images/native/custom_app_icons/PirateIcon/PirateIcon.png",
-    "hash": "d0113a72bf154d59368723ebef60bc17",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "CamoIcon": {
-    "file": "images/native/custom_app_icons/CamoIcon/CamoIcon.png",
-    "hash": "da44ab8483fe25675692e2a86e51e273",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "SunsetIcon": {
-    "file": "images/native/custom_app_icons/SunsetIcon/SunsetIcon.png",
-    "hash": "f46c20d6774caa7aaae3a038b2f8009a",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "GalaxyIcon": {
-    "file": "images/native/custom_app_icons/GalaxyIcon/GalaxyIcon.png",
-    "hash": "770100cde318cbf6d8e5deca192e3cd6",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "Y2KIcon": {
-    "file": "images/native/custom_app_icons/Y2KIcon/Y2KIcon.png",
-    "hash": "bc309a6367fce700501146a23d7a7c36",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "CherryBlossomIcon": {
-    "file": "images/native/custom_app_icons/CherryBlossomIcon/CherryBlossomIcon.png",
-    "hash": "5e15a72fd397c32b9e0e0052b3d3d28a",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "BeanieIcon": {
-    "file": "images/native/custom_app_icons/BeanieIcon/BeanieIcon.png",
-    "hash": "ef564ad381441f5290a85f5dd5cc3be8",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "GamingIcon": {
-    "file": "images/native/custom_app_icons/GamingIcon/GamingIcon.png",
-    "hash": "e6ec626d5797d6ca3a0fa6d0b976534e",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "CircuitIcon": {
-    "file": "images/native/custom_app_icons/CircuitIcon/CircuitIcon.png",
-    "hash": "97731816b93815878a4890e9f3631f17",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "HoloWavesIcon": {
-    "file": "images/native/custom_app_icons/HoloWavesIcon/HoloWavesIcon.png",
-    "hash": "adee4eed4bf034319e47ed3b2c238507",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "BlushIcon": {
-    "file": "images/native/custom_app_icons/BlushIcon/BlushIcon.png",
-    "hash": "0df029489ba279275018823eb307099b",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "AngryIcon": {
-    "file": "images/native/custom_app_icons/AngryIcon/AngryIcon.png",
-    "hash": "ddbb79de3f4a685b552068a9dcb5c448",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "MangaIcon": {
-    "file": "images/native/custom_app_icons/MangaIcon/MangaIcon.png",
-    "hash": "e83d1c385c69058418da8394cc7eebf6",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "ControllerIcon": {
-    "file": "images/native/custom_app_icons/ControllerIcon/ControllerIcon.png",
-    "hash": "04e0aec72e391056182711ab79399cc9",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "MushroomIcon": {
-    "file": "images/native/custom_app_icons/MushroomIcon/MushroomIcon.png",
-    "hash": "04f1ab18ad184bf1adb01b278e0c08f2",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
-  },
-  "guild_identity_education_dark": {
-    "file": "modules/guild_identity/images/guild_identity_education_dark.png",
-    "hash": "977038e35a08043eb799ac3c20093988",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 295,
-    "height": 190
-  },
-  "guild_identity_education_light": {
-    "file": "modules/guild_identity/images/guild_identity_education_light.png",
-    "hash": "af6f5b1f2e3f6f41820436ec96e0f065",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 303,
-    "height": 198
-  },
-  "img_profile_upsell": {
-    "file": "images/native/premium/upsell/img_profile_upsell.png",
-    "hash": "5b8c79f4b6bf973f89af900cf09ef089",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 247.5,
-    "height": 194
-  },
-  "empty": {
-    "file": "modules/stickers/native/images/empty.png",
-    "hash": "215c6cf6cc2b74cad508b12b0e602266",
+  "img_logo_nitro_basic_stacked": {
+    "file": "images/native/premium/logos/img_logo_nitro_basic_stacked.png",
+    "hash": "6ef8be13b5e9d32b725f6f66a7d891e7",
     "scales": [
       2,
       3
     ],
     "width": 77.5,
-    "height": 72
+    "height": 30
   },
-  "img_nitro_longer_message_upsell_dark": {
-    "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_dark.png",
-    "hash": "6de72582acbac29012f9473c84bfdfe3",
+  "img_logo_nitro_classic_stacked": {
+    "file": "images/native/premium/logos/img_logo_nitro_classic_stacked.png",
+    "hash": "6cac935eaaf1cc3e301068e99edbf5e5",
     "scales": [
       2,
       3
     ],
-    "width": 261.5,
-    "height": 152
+    "width": 89.5,
+    "height": 35.5
   },
-  "img_nitro_longer_message_upsell_light": {
-    "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_light.png",
-    "hash": "61d87f323908d1201a1932c47c902089",
+  "img_logo_nitro_tier_2_horizontal_dark": {
+    "file": "images/native/premium/logos/img_logo_nitro_tier_2_horizontal_dark.png",
+    "hash": "35f9255383b18fb10575d4a82c7f3a78",
     "scales": [
       2,
       3
     ],
-    "width": 261.5,
-    "height": 152
+    "width": 81,
+    "height": 20
   },
-  "img_guild_cap_upsell_dark": {
-    "file": "images/native/premium/upsell/img_guild_cap_upsell_dark.png",
-    "hash": "917aa9cf94a2b34535cd15823e63dd9b",
+  "img_tier_0_mobile": {
+    "file": "images/native/premium/illustrations/img_tier_0_mobile.png",
+    "hash": "f77665ea641a0dd8cb1a4c2c9ff4f019",
     "scales": [
       2,
       3
     ],
-    "width": 240,
-    "height": 152
+    "width": 88,
+    "height": 106
   },
-  "img_guild_cap_upsell_light": {
-    "file": "images/native/premium/upsell/img_guild_cap_upsell_light.png",
-    "hash": "65fab57ec8e87791716eb50ecb52bf82",
+  "img_wumpus_lightro": {
+    "file": "images/native/premium/illustrations/img_wumpus_lightro.png",
+    "hash": "8adc71627783595fda9c4fa6cd893aad",
     "scales": [
       2,
       3
     ],
-    "width": 240,
-    "height": 152
+    "width": 87,
+    "height": 100
+  },
+  "img_wumpus_nitro": {
+    "file": "images/native/premium/plan_selection/img_wumpus_nitro.png",
+    "hash": "e2676a24ea3247f11452fad9b442341d",
+    "scales": [
+      1
+    ],
+    "width": 80,
+    "height": 80
+  },
+  "img_nitro_boosted": {
+    "file": "images/native/premium/perks/img_nitro_boosted.png",
+    "hash": "886ace0d81615d7844e6de47b53e3627",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "UploadIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/UploadIcon.png",
+    "hash": "f395f490375f890df5e4a4955b9c93c7",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_remixing": {
+    "file": "images/native/premium/perks/img_nitro_remixing.png",
+    "hash": "c85f620d527a3db1c5cf8bf92702786e",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 25,
+    "height": 24
+  },
+  "PencilSparkleIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/PencilSparkleIcon.png",
+    "hash": "594fb0a1241bc5e1444338430fd74c1d",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_emojis": {
+    "file": "images/native/premium/perks/img_nitro_emojis.png",
+    "hash": "2666658b667680175099d1a28aff29f3",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 20,
+    "height": 20
+  },
+  "ReactionIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
+    "hash": "f1a659c91bd36b4a0872e9b8ddf8ad85",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "NitroWheelIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/NitroWheelIcon.png",
+    "hash": "5aeeb195ecdf9e1468b75d0b4c3932e9",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_stream": {
+    "file": "images/native/premium/perks/img_nitro_stream.png",
+    "hash": "d86af6d9554ca97bed02487dd6be465c",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "ScreenStreamIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/ScreenStreamIcon.png",
+    "hash": "ee553fc91eb60dabc0c8b5eb8ebf4eb8",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_premium_guilds": {
+    "file": "images/native/premium/perks/img_nitro_premium_guilds.png",
+    "hash": "4a6ad798a975c6883d0288e724cd1e24",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "BoostTier2Icon": {
+    "file": "design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
+    "hash": "0dd1a70729095aaa89958733a2ecd26f",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_nitro_server_avatar": {
+    "file": "images/native/premium/perks/img_nitro_server_avatar.png",
+    "hash": "40caee181f0f21be9c5cfda0d43da80a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "UserSquareIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/UserSquareIcon.png",
+    "hash": "6b35abdc6e61eaea0188cfdb6a7d4228",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "img_logo_nitro_tier_0_horizontal_dark": {
+    "file": "images/native/premium/logos/img_logo_nitro_tier_0_horizontal_dark.png",
+    "hash": "17165364e133447a29e8004ac81d39d4",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 163.5,
+    "height": 20
+  },
+  "img_tier_0_clouds_bigger": {
+    "file": "images/native/premium/illustrations/img_tier_0_clouds_bigger.png",
+    "hash": "00e9411606068089130e402471b29712",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 188.5,
+    "height": 121
+  },
+  "img_tier_0_clouds": {
+    "file": "images/native/premium/illustrations/img_tier_0_clouds.png",
+    "hash": "bd3f97d43bfb17c4aaa2664a5e789e75",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 153,
+    "height": 121
+  },
+  "img_tier_2_clouds_bigger": {
+    "file": "images/native/premium/illustrations/img_tier_2_clouds_bigger.png",
+    "hash": "79e3752c76345e56fc16678ff6b5c90a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 271,
+    "height": 163
+  },
+  "img_tier_2_clouds": {
+    "file": "images/native/premium/illustrations/img_tier_2_clouds.png",
+    "hash": "8116f3e783c5899abef6a6d856e08a70",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 189,
+    "height": 163
+  },
+  "premium_gift_plan_selection_header": {
+    "file": "modules/premium/native/images/premium_gift_plan_selection_header.png",
+    "hash": "d4dee0bf06f611edf76d87d479448258",
+    "scales": [
+      1
+    ],
+    "width": 375,
+    "height": 460
+  },
+  "gift_box": {
+    "file": "modules/premium/native/images/gift_box.png",
+    "hash": "a0ba9708fbdcdba7719ed1fe5e516890",
+    "scales": [
+      1
+    ],
+    "width": 216,
+    "height": 115
+  },
+  "gift_cake": {
+    "file": "modules/premium/native/images/gift_cake.png",
+    "hash": "6aec591fd331d7a257e3dc97a1b2a4c2",
+    "scales": [
+      1
+    ],
+    "width": 216,
+    "height": 115
+  },
+  "gift_chest": {
+    "file": "modules/premium/native/images/gift_chest.png",
+    "hash": "ac18ecef6a4188530e3bbe95eefb7a2b",
+    "scales": [
+      1
+    ],
+    "width": 216,
+    "height": 115
+  },
+  "gift_coffee": {
+    "file": "modules/premium/native/images/gift_coffee.png",
+    "hash": "fe842af4f5691380d31cd9c08c20f016",
+    "scales": [
+      1
+    ],
+    "width": 216,
+    "height": 115
   },
   "img_tier_0_subheader_mobile": {
     "file": "images/native/premium/backgrounds/img_tier_0_subheader_mobile.png",
@@ -3314,26 +3298,6 @@
     ],
     "width": 411,
     "height": 134
-  },
-  "img_tier_0_mobile": {
-    "file": "images/native/premium/illustrations/img_tier_0_mobile.png",
-    "hash": "f77665ea641a0dd8cb1a4c2c9ff4f019",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 88,
-    "height": 106
-  },
-  "img_wumpus_lightro": {
-    "file": "images/native/premium/illustrations/img_wumpus_lightro.png",
-    "hash": "8adc71627783595fda9c4fa6cd893aad",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 87,
-    "height": 100
   },
   "img_wumpus_nitro_rev": {
     "file": "images/native/premium/illustrations/img_wumpus_nitro_rev.png",
@@ -3504,300 +3468,6 @@
     ],
     "width": 101,
     "height": 19
-  },
-  "img_nitro_boosted": {
-    "file": "images/native/premium/perks/img_nitro_boosted.png",
-    "hash": "886ace0d81615d7844e6de47b53e3627",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "UploadIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/UploadIcon.png",
-    "hash": "f395f490375f890df5e4a4955b9c93c7",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_remixing": {
-    "file": "images/native/premium/perks/img_nitro_remixing.png",
-    "hash": "c85f620d527a3db1c5cf8bf92702786e",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 25,
-    "height": 24
-  },
-  "PencilSparkleIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/PencilSparkleIcon.png",
-    "hash": "594fb0a1241bc5e1444338430fd74c1d",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_emojis": {
-    "file": "images/native/premium/perks/img_nitro_emojis.png",
-    "hash": "2666658b667680175099d1a28aff29f3",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 20,
-    "height": 20
-  },
-  "ReactionIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
-    "hash": "f1a659c91bd36b4a0872e9b8ddf8ad85",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "NitroWheelIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/NitroWheelIcon.png",
-    "hash": "5aeeb195ecdf9e1468b75d0b4c3932e9",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_stream": {
-    "file": "images/native/premium/perks/img_nitro_stream.png",
-    "hash": "d86af6d9554ca97bed02487dd6be465c",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "ScreenStreamIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/ScreenStreamIcon.png",
-    "hash": "ee553fc91eb60dabc0c8b5eb8ebf4eb8",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_premium_guilds": {
-    "file": "images/native/premium/perks/img_nitro_premium_guilds.png",
-    "hash": "4a6ad798a975c6883d0288e724cd1e24",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "BoostTier2Icon": {
-    "file": "design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
-    "hash": "0dd1a70729095aaa89958733a2ecd26f",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_nitro_server_avatar": {
-    "file": "images/native/premium/perks/img_nitro_server_avatar.png",
-    "hash": "40caee181f0f21be9c5cfda0d43da80a",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "UserSquareIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/UserSquareIcon.png",
-    "hash": "6b35abdc6e61eaea0188cfdb6a7d4228",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "img_logo_nitro_tier_0_horizontal_dark": {
-    "file": "images/native/premium/logos/img_logo_nitro_tier_0_horizontal_dark.png",
-    "hash": "17165364e133447a29e8004ac81d39d4",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 163.5,
-    "height": 20
-  },
-  "img_logo_nitro_tier_2_horizontal_dark": {
-    "file": "images/native/premium/logos/img_logo_nitro_tier_2_horizontal_dark.png",
-    "hash": "35f9255383b18fb10575d4a82c7f3a78",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 81,
-    "height": 20
-  },
-  "img_tier_0_clouds_bigger": {
-    "file": "images/native/premium/illustrations/img_tier_0_clouds_bigger.png",
-    "hash": "00e9411606068089130e402471b29712",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 188.5,
-    "height": 121
-  },
-  "img_tier_0_clouds": {
-    "file": "images/native/premium/illustrations/img_tier_0_clouds.png",
-    "hash": "bd3f97d43bfb17c4aaa2664a5e789e75",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 153,
-    "height": 121
-  },
-  "img_wumpus_nitro": {
-    "file": "images/native/premium/plan_selection/img_wumpus_nitro.png",
-    "hash": "e2676a24ea3247f11452fad9b442341d",
-    "scales": [
-      1
-    ],
-    "width": 80,
-    "height": 80
-  },
-  "img_tier_2_clouds_bigger": {
-    "file": "images/native/premium/illustrations/img_tier_2_clouds_bigger.png",
-    "hash": "79e3752c76345e56fc16678ff6b5c90a",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 271,
-    "height": 163
-  },
-  "img_tier_2_clouds": {
-    "file": "images/native/premium/illustrations/img_tier_2_clouds.png",
-    "hash": "8116f3e783c5899abef6a6d856e08a70",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 189,
-    "height": 163
-  },
-  "sparkle_star_pointed": {
-    "file": "modules/guild_boosting/native/images/sparkle_star_pointed.png",
-    "hash": "dc018ce302b0357451a31422d7180d84",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 18,
-    "height": 15
-  },
-  "img_clouds_header_tier_0": {
-    "file": "images/native/premium/illustrations/img_clouds_header_tier_0.png",
-    "hash": "e57f303ebad0114b5b8bca4157b1f288",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 397,
-    "height": 97
-  },
-  "img_clouds_header_tier_2": {
-    "file": "images/native/premium/illustrations/img_clouds_header_tier_2.png",
-    "hash": "a2e0a9a7d22cfbea84b0f0ba4456a26c",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 343,
-    "height": 112
-  },
-  "img_logo_nitro_basic_stacked": {
-    "file": "images/native/premium/logos/img_logo_nitro_basic_stacked.png",
-    "hash": "6ef8be13b5e9d32b725f6f66a7d891e7",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 77.5,
-    "height": 30
-  },
-  "img_logo_nitro_classic_stacked": {
-    "file": "images/native/premium/logos/img_logo_nitro_classic_stacked.png",
-    "hash": "6cac935eaaf1cc3e301068e99edbf5e5",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 89.5,
-    "height": 35.5
-  },
-  "premium_gift_plan_selection_header": {
-    "file": "modules/premium/native/images/premium_gift_plan_selection_header.png",
-    "hash": "d4dee0bf06f611edf76d87d479448258",
-    "scales": [
-      1
-    ],
-    "width": 375,
-    "height": 460
-  },
-  "gift_box": {
-    "file": "modules/premium/native/images/gift_box.png",
-    "hash": "a0ba9708fbdcdba7719ed1fe5e516890",
-    "scales": [
-      1
-    ],
-    "width": 216,
-    "height": 115
-  },
-  "gift_cake": {
-    "file": "modules/premium/native/images/gift_cake.png",
-    "hash": "6aec591fd331d7a257e3dc97a1b2a4c2",
-    "scales": [
-      1
-    ],
-    "width": 216,
-    "height": 115
-  },
-  "gift_chest": {
-    "file": "modules/premium/native/images/gift_chest.png",
-    "hash": "ac18ecef6a4188530e3bbe95eefb7a2b",
-    "scales": [
-      1
-    ],
-    "width": 216,
-    "height": 115
-  },
-  "gift_coffee": {
-    "file": "modules/premium/native/images/gift_coffee.png",
-    "hash": "fe842af4f5691380d31cd9c08c20f016",
-    "scales": [
-      1
-    ],
-    "width": 216,
-    "height": 115
   },
   "img_subheader_error_mobile": {
     "file": "images/native/premium/backgrounds/img_subheader_error_mobile.png",
@@ -4776,6 +4446,346 @@
     "width": 185,
     "height": 32
   },
+  "system-dm-wumpus": {
+    "file": "modules/system_dm/native/images/system-dm-wumpus.png",
+    "hash": "2d197f6def5db71602d9cd8f4607facd",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "AppIcon": {
+    "file": "images/native/custom_app_icons/AppIcon/AppIcon.png",
+    "hash": "7dbf38ca448aa0ee30d977dfdf42a9a4",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "InRainbowsIcon": {
+    "file": "images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
+    "hash": "ad3943a04648939c937250001e2a00dd",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MidnightPrismIcon": {
+    "file": "images/native/custom_app_icons/MidnightPrismIcon/MidnightPrismIcon.png",
+    "hash": "2dbac022be95dcd42913fc045722eb85",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "ColorWaveIcon": {
+    "file": "images/native/custom_app_icons/ColorWaveIcon/ColorWaveIcon.png",
+    "hash": "8b9a598210aed17b89ac455de547c19b",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "BlurpleTwilightIcon": {
+    "file": "images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
+    "hash": "134e081f670e6849275dbf6af89d9956",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "BrandInvertedIcon": {
+    "file": "images/native/custom_app_icons/BrandInvertedIcon/BrandInvertedIcon.png",
+    "hash": "4f2b80be0ed433e0c6fef059ea6e7407",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "BrandDarkIcon": {
+    "file": "images/native/custom_app_icons/BrandDarkIcon/BrandDarkIcon.png",
+    "hash": "21b46d74b3e6c1d214fdc62f93efb1cf",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MatteDarkIcon": {
+    "file": "images/native/custom_app_icons/MatteDarkIcon/MatteDarkIcon.png",
+    "hash": "2123361f1dca17c93f4909833d25b11b",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MatteLightIcon": {
+    "file": "images/native/custom_app_icons/MatteLightIcon/MatteLightIcon.png",
+    "hash": "48b20531c981b1c34a7a77462307b7d9",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "PastelIcon": {
+    "file": "images/native/custom_app_icons/PastelIcon/PastelIcon.png",
+    "hash": "dec49354734ef067ad6940e703fe7b67",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "PirateIcon": {
+    "file": "images/native/custom_app_icons/PirateIcon/PirateIcon.png",
+    "hash": "d0113a72bf154d59368723ebef60bc17",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "CamoIcon": {
+    "file": "images/native/custom_app_icons/CamoIcon/CamoIcon.png",
+    "hash": "da44ab8483fe25675692e2a86e51e273",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "SunsetIcon": {
+    "file": "images/native/custom_app_icons/SunsetIcon/SunsetIcon.png",
+    "hash": "f46c20d6774caa7aaae3a038b2f8009a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "GalaxyIcon": {
+    "file": "images/native/custom_app_icons/GalaxyIcon/GalaxyIcon.png",
+    "hash": "770100cde318cbf6d8e5deca192e3cd6",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "Y2KIcon": {
+    "file": "images/native/custom_app_icons/Y2KIcon/Y2KIcon.png",
+    "hash": "bc309a6367fce700501146a23d7a7c36",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "CherryBlossomIcon": {
+    "file": "images/native/custom_app_icons/CherryBlossomIcon/CherryBlossomIcon.png",
+    "hash": "5e15a72fd397c32b9e0e0052b3d3d28a",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "BeanieIcon": {
+    "file": "images/native/custom_app_icons/BeanieIcon/BeanieIcon.png",
+    "hash": "ef564ad381441f5290a85f5dd5cc3be8",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "GamingIcon": {
+    "file": "images/native/custom_app_icons/GamingIcon/GamingIcon.png",
+    "hash": "e6ec626d5797d6ca3a0fa6d0b976534e",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "CircuitIcon": {
+    "file": "images/native/custom_app_icons/CircuitIcon/CircuitIcon.png",
+    "hash": "97731816b93815878a4890e9f3631f17",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "HoloWavesIcon": {
+    "file": "images/native/custom_app_icons/HoloWavesIcon/HoloWavesIcon.png",
+    "hash": "adee4eed4bf034319e47ed3b2c238507",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "BlushIcon": {
+    "file": "images/native/custom_app_icons/BlushIcon/BlushIcon.png",
+    "hash": "0df029489ba279275018823eb307099b",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "AngryIcon": {
+    "file": "images/native/custom_app_icons/AngryIcon/AngryIcon.png",
+    "hash": "ddbb79de3f4a685b552068a9dcb5c448",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MangaIcon": {
+    "file": "images/native/custom_app_icons/MangaIcon/MangaIcon.png",
+    "hash": "e83d1c385c69058418da8394cc7eebf6",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "ControllerIcon": {
+    "file": "images/native/custom_app_icons/ControllerIcon/ControllerIcon.png",
+    "hash": "04e0aec72e391056182711ab79399cc9",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "MushroomIcon": {
+    "file": "images/native/custom_app_icons/MushroomIcon/MushroomIcon.png",
+    "hash": "04f1ab18ad184bf1adb01b278e0c08f2",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 60,
+    "height": 60
+  },
+  "guild_identity_education_dark": {
+    "file": "modules/guild_identity/images/guild_identity_education_dark.png",
+    "hash": "977038e35a08043eb799ac3c20093988",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 295,
+    "height": 190
+  },
+  "guild_identity_education_light": {
+    "file": "modules/guild_identity/images/guild_identity_education_light.png",
+    "hash": "af6f5b1f2e3f6f41820436ec96e0f065",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 303,
+    "height": 198
+  },
+  "img_profile_upsell": {
+    "file": "images/native/premium/upsell/img_profile_upsell.png",
+    "hash": "5b8c79f4b6bf973f89af900cf09ef089",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 247.5,
+    "height": 194
+  },
+  "empty": {
+    "file": "modules/stickers/native/images/empty.png",
+    "hash": "215c6cf6cc2b74cad508b12b0e602266",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 77.5,
+    "height": 72
+  },
+  "img_nitro_longer_message_upsell_dark": {
+    "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_dark.png",
+    "hash": "6de72582acbac29012f9473c84bfdfe3",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 261.5,
+    "height": 152
+  },
+  "img_nitro_longer_message_upsell_light": {
+    "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_light.png",
+    "hash": "61d87f323908d1201a1932c47c902089",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 261.5,
+    "height": 152
+  },
+  "img_guild_cap_upsell_dark": {
+    "file": "images/native/premium/upsell/img_guild_cap_upsell_dark.png",
+    "hash": "917aa9cf94a2b34535cd15823e63dd9b",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 240,
+    "height": 152
+  },
+  "img_guild_cap_upsell_light": {
+    "file": "images/native/premium/upsell/img_guild_cap_upsell_light.png",
+    "hash": "65fab57ec8e87791716eb50ecb52bf82",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 240,
+    "height": 152
+  },
   "ic_send": {
     "file": "images/native/icons/ic_send.png",
     "hash": "4a70f7aa7e8a3ecde1dcede1f7baaaa2",
@@ -4905,16 +4915,6 @@
     ],
     "width": 16,
     "height": 16
-  },
-  "system-dm-wumpus": {
-    "file": "modules/system_dm/native/images/system-dm-wumpus.png",
-    "hash": "2d197f6def5db71602d9cd8f4607facd",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 60,
-    "height": 60
   },
   "LockIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
@@ -7385,6 +7385,16 @@
     "width": 24,
     "height": 24
   },
+  "SuperReactionIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/SuperReactionIcon.png",
+    "hash": "50404531be8ff46585a30371c161be53",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
   "wumpus-luigi": {
     "file": "images/native/wumpus/wumpus-luigi.png",
     "hash": "335fadca766239317e6219099484e470",
@@ -7447,16 +7457,6 @@
     ],
     "width": 84,
     "height": 66
-  },
-  "SuperReactionIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/SuperReactionIcon.png",
-    "hash": "50404531be8ff46585a30371c161be53",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
   },
   "ic_reaction_smile": {
     "file": "images/native/ic_reaction_smile.png",
@@ -13861,6 +13861,17 @@
     "width": 24,
     "height": 24
   },
+  "activity": {
+    "file": "modules/voice_panel/native/images/activity.png",
+    "hash": "598eae58374f117327bf305567066027",
+    "scales": [
+      2,
+      3,
+      4
+    ],
+    "width": 24,
+    "height": 24
+  },
   "WrenchIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/WrenchIcon.png",
     "hash": "cf65141ffa117774ae28707d64761548",
@@ -13871,30 +13882,9 @@
     "width": 24,
     "height": 24
   },
-  "PaintPaletteIcon": {
-    "file": "design/components/Icon/native/redesign/generated/images/PaintPaletteIcon.png",
-    "hash": "a86a3cb74b5e3d032d8089a1ec7c8893",
-    "scales": [
-      2,
-      3
-    ],
-    "width": 24,
-    "height": 24
-  },
   "deafen": {
     "file": "modules/voice_panel/native/images/deafen.png",
     "hash": "10d4fca455cecd708fd329431845cd33",
-    "scales": [
-      2,
-      3,
-      4
-    ],
-    "width": 24,
-    "height": 24
-  },
-  "activity": {
-    "file": "modules/voice_panel/native/images/activity.png",
-    "hash": "598eae58374f117327bf305567066027",
     "scales": [
       2,
       3,
@@ -14093,6 +14083,16 @@
   "PuzzlePieceIcon": {
     "file": "design/components/Icon/native/redesign/generated/images/PuzzlePieceIcon.png",
     "hash": "c9723dcf88631332d49bf7468e432787",
+    "scales": [
+      2,
+      3
+    ],
+    "width": 24,
+    "height": 24
+  },
+  "PaintPaletteIcon": {
+    "file": "design/components/Icon/native/redesign/generated/images/PaintPaletteIcon.png",
+    "hash": "a86a3cb74b5e3d032d8089a1ec7c8893",
     "scales": [
       2,
       3
