@@ -10161,35 +10161,26 @@
         "height": 100
     },
     "img_account_sync_battlenet_light_and_dark": {
-        "file": "images/platforms/img_account_sync_battlenet_light_and_dark.svg",
-        "hash": "37f15a06d062bdd0fc252d2b35d0b0bb",
+        "file": "images/platforms/img_account_sync_battlenet_light_and_dark.png",
+        "hash": "cffa90139c00ffff34d30b638f70a355",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_battlenet_white": {
-        "file": "images/platforms/img_account_sync_battlenet_white.svg",
-        "hash": "8bea966c76d9501485b69d4596d29fec",
+        "file": "images/platforms/img_account_sync_battlenet_white.png",
+        "hash": "0ce8be8360f5035c344d5d232c5dcf84",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_crunchyroll_light_and_dark": {
-        "file": "images/platforms/img_account_sync_crunchyroll_light_and_dark.svg",
-        "hash": "a197fd38c7ef04d3996f5afadaef2593",
-        "scales": [
-            1
-        ],
-        "width": 500,
-        "height": 500
-    },
-    "img_account_sync_crunchyroll_white": {
-        "file": "images/platforms/img_account_sync_crunchyroll_white.svg",
-        "hash": "a197fd38c7ef04d3996f5afadaef2593",
+        "file": "images/platforms/img_account_sync_crunchyroll_light_and_dark.png",
+        "hash": "86410ba29aabe4c5e200cbcaaf4c85c5",
         "scales": [
             1
         ],
@@ -10197,8 +10188,8 @@
         "height": 500
     },
     "img_account_sync_ebay_light_and_dark": {
-        "file": "images/platforms/img_account_sync_ebay_light_and_dark.svg",
-        "hash": "2b138cd479a1b7e0854c0a5bcb5d3cb4",
+        "file": "images/platforms/img_account_sync_ebay_light_and_dark.png",
+        "hash": "dbdb9625e95a74745921281df77c1bc6",
         "scales": [
             1
         ],
@@ -10206,8 +10197,8 @@
         "height": 255
     },
     "img_account_sync_ebay_white": {
-        "file": "images/platforms/img_account_sync_ebay_white.svg",
-        "hash": "5b58324ebbbfef70b71f92d8b7ce0baf",
+        "file": "images/platforms/img_account_sync_ebay_white.png",
+        "hash": "dd951df57fa446711f46f320466cea89",
         "scales": [
             1
         ],
@@ -10215,8 +10206,8 @@
         "height": 255
     },
     "img_account_sync_epic_dark_and_white": {
-        "file": "images/platforms/img_account_sync_epic_dark_and_white.svg",
-        "hash": "db9e2406158133f91e1fe24bb56425c2",
+        "file": "images/platforms/img_account_sync_epic_dark_and_white.png",
+        "hash": "a280d605afe52cc315e8fe577d428bf1",
         "scales": [
             1
         ],
@@ -10224,8 +10215,8 @@
         "height": 255
     },
     "img_account_sync_epic_light": {
-        "file": "images/platforms/img_account_sync_epic_light.svg",
-        "hash": "ffa3415a151587879c5537015fa59521",
+        "file": "images/platforms/img_account_sync_epic_light.png",
+        "hash": "b5d5f2f07269fe5806c2b4c5ffd6d765",
         "scales": [
             1
         ],
@@ -10233,13 +10224,13 @@
         "height": 255
     },
     "img_account_sync_facebook_light_and_dark": {
-        "file": "images/platforms/img_account_sync_facebook_light_and_dark.svg",
-        "hash": "32045743cb7670855ae726743c949e0c",
+        "file": "images/platforms/img_account_sync_facebook_light_and_dark.png",
+        "hash": "86331190660744555b125a34b47921dc",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_facebook_white": {
         "file": "images/native/platforms/img_account_sync_facebook_white.png",
@@ -10252,62 +10243,62 @@
         "height": 85
     },
     "img_account_sync_github_light": {
-        "file": "images/platforms/img_account_sync_github_light.svg",
-        "hash": "3ff98ad75ac94fa883af5ed62d17c459",
+        "file": "images/platforms/img_account_sync_github_light.png",
+        "hash": "90e68d1a42d62119711a50fd53f38797",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_github_white": {
-        "file": "images/platforms/img_account_sync_github_white.svg",
-        "hash": "6a853b4c87fce386cbfef4a2efbacb09",
+        "file": "images/platforms/img_account_sync_github_white.png",
+        "hash": "e6fbf21eac7d502dede01ed00d92bd5b",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_instagram_light_and_dark": {
-        "file": "images/platforms/img_account_sync_instagram_light_and_dark.svg",
-        "hash": "b26b06a7d802713aeb9c229999236b93",
+        "file": "images/platforms/img_account_sync_instagram_light_and_dark.png",
+        "hash": "4c5dda7e4861e7cb0ff4a02859dce022",
         "scales": [
             1
         ],
-        "width": 1005,
-        "height": 1005
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_instagram_white": {
-        "file": "images/platforms/img_account_sync_instagram_white.svg",
-        "hash": "8d399960b5774e2f549c0d7c386454c0",
+        "file": "images/platforms/img_account_sync_instagram_white.png",
+        "hash": "378c2805cebb3fcf7e9e76fd57adb947",
         "scales": [
             1
         ],
-        "width": 1000,
-        "height": 1000
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_league_of_legends_light_and_dark": {
-        "file": "images/platforms/img_account_sync_league_of_legends_light_and_dark.svg",
-        "hash": "94dc6f30a819026fa295d85f1f72b4ab",
+        "file": "images/platforms/img_account_sync_league_of_legends_light_and_dark.png",
+        "hash": "e2499c2c83c34c3b7f3385e3fdb007b8",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_league_of_legends_white": {
-        "file": "images/platforms/img_account_sync_league_of_legends_white.svg",
-        "hash": "2159f2022fb7a51c8a5cec5a1eaa20b9",
+        "file": "images/platforms/img_account_sync_league_of_legends_white.png",
+        "hash": "00aaf722bd37b51155aad30494748c0e",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_paypal_light_and_dark": {
-        "file": "images/platforms/img_account_sync_paypal_light_and_dark.svg",
-        "hash": "cd538a7ff4cdd66dc377863e809c33bb",
+        "file": "images/platforms/img_account_sync_paypal_light_and_dark.png",
+        "hash": "6fc797e98544770f41987fe994e037fc",
         "scales": [
             1
         ],
@@ -10315,8 +10306,8 @@
         "height": 255
     },
     "img_account_sync_paypal_white": {
-        "file": "images/platforms/img_account_sync_paypal_white.svg",
-        "hash": "9fa4266779aa184adfc44af1a793bb5d",
+        "file": "images/platforms/img_account_sync_paypal_white.png",
+        "hash": "43a83e5d0ed1d0916932cfc7ff435bfa",
         "scales": [
             1
         ],
@@ -10324,134 +10315,134 @@
         "height": 255
     },
     "img_account_sync_playstation_light": {
-        "file": "images/platforms/img_account_sync_playstation_light.svg",
-        "hash": "8b20979429c0e2d40e0d620f939989cf",
+        "file": "images/platforms/img_account_sync_playstation_light.png",
+        "hash": "6da0cc4664d25756763becb72d1a13db",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_playstation_white": {
-        "file": "images/platforms/img_account_sync_playstation_white.svg",
-        "hash": "7bab4490382024b0c8c29b5378eeaf8f",
+        "file": "images/platforms/img_account_sync_playstation_white.png",
+        "hash": "213da92b1cc514df81b1af718ef5aef4",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_reddit_light_and_dark": {
-        "file": "images/platforms/img_account_sync_reddit_light_and_dark.svg",
-        "hash": "f3224f560c8f5974355596a4f7e9ce19",
+        "file": "images/platforms/img_account_sync_reddit_light_and_dark.png",
+        "hash": "5e7bec9b42953c67d90a7e30fd9e54d6",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_reddit_white": {
-        "file": "images/platforms/img_account_sync_reddit_white.svg",
-        "hash": "8721eec9b4d662fc9a405d0ab82f837a",
+        "file": "images/platforms/img_account_sync_reddit_white.png",
+        "hash": "f0eb05932df8b92a41980f9cd918efb3",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_riot_light_and_dark": {
-        "file": "images/platforms/img_account_sync_riot_light_and_dark.svg",
-        "hash": "b5f1b2f99801cae913e1181bcab0153c",
+        "file": "images/platforms/img_account_sync_riot_light_and_dark.png",
+        "hash": "ad2f1f28dc5501dfbbc9cf25c530580a",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_riot_white": {
-        "file": "images/platforms/img_account_sync_riot_white.svg",
-        "hash": "991f3682123857c83ad3252a30023b1a",
+        "file": "images/platforms/img_account_sync_riot_white.png",
+        "hash": "e162c21fd038a425e8bd0b5c21c43bbb",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_samsung_light_and_dark": {
-        "file": "images/platforms/img_account_sync_samsung_light_and_dark.svg",
-        "hash": "55756313f22e0871d81c45d7dcc50aec",
+        "file": "images/platforms/img_account_sync_samsung_light_and_dark.png",
+        "hash": "0bb27de2f1b5a855e060166d68a98581",
         "scales": [
             1
         ],
-        "width": 628,
-        "height": 167
+        "width": 228,
+        "height": 60
     },
     "img_account_sync_samsung_white": {
-        "file": "images/platforms/img_account_sync_samsung_white.svg",
-        "hash": "87dcaca9679ceb1e78d3b15aba4c2917",
+        "file": "images/platforms/img_account_sync_samsung_white.png",
+        "hash": "2eb13f77e28909e6d4362017fcce3105",
         "scales": [
             1
         ],
-        "width": 628,
-        "height": 167
+        "width": 228,
+        "height": 60
     },
     "img_account_sync_skype_light_and_dark": {
-        "file": "images/platforms/img_account_sync_skype_light_and_dark.svg",
-        "hash": "316ed923548387f8983e28a3804e6712",
+        "file": "images/platforms/img_account_sync_skype_light_and_dark.png",
+        "hash": "03ea572c627910238910519fffc5cc5e",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_skype_white": {
-        "file": "images/platforms/img_account_sync_skype_white.svg",
-        "hash": "8366373bc912a3dd6c9979b6c25e1579",
+        "file": "images/platforms/img_account_sync_skype_white.png",
+        "hash": "5f24d20df3dc2ce5536dded8f4b26e5b",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_spotify_light_and_dark": {
-        "file": "images/platforms/img_account_sync_spotify_light_and_dark.svg",
-        "hash": "eaeac24163b35f7526704a3d9b3c7722",
+        "file": "images/platforms/img_account_sync_spotify_light_and_dark.png",
+        "hash": "2e95d528c960fde0f3ebc6682695c789",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_spotify_white": {
-        "file": "images/platforms/img_account_sync_spotify_white.svg",
-        "hash": "7de278a52eade6edde1f4ca9130e3dad",
+        "file": "images/platforms/img_account_sync_spotify_white.png",
+        "hash": "b08c676ff152fa6f4392976d0c1ac1f5",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_steam_light": {
-        "file": "images/platforms/img_account_sync_steam_light.svg",
-        "hash": "1f07067017f955a0cde4e994e945f417",
+        "file": "images/platforms/img_account_sync_steam_light.png",
+        "hash": "5c7414100e294486b00622c0ae6c54c3",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_steam_white": {
-        "file": "images/platforms/img_account_sync_steam_white.svg",
-        "hash": "d897626dfa2016ea3ad0af935acb6070",
+        "file": "images/platforms/img_account_sync_steam_white.png",
+        "hash": "de91951486b06ab4b7ab525075799151",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_tiktok_dark": {
-        "file": "images/platforms/img_account_sync_tiktok_dark.svg",
-        "hash": "56af141a14749c045405b832cd1b3241",
+        "file": "images/platforms/img_account_sync_tiktok_dark.png",
+        "hash": "46fd986874f0bfb0d2e2607ab0615a20",
         "scales": [
             1
         ],
@@ -10459,8 +10450,8 @@
         "height": 255
     },
     "img_account_sync_tiktok_light": {
-        "file": "images/platforms/img_account_sync_tiktok_light.svg",
-        "hash": "e8981477c97b2470ea4767031fec1085",
+        "file": "images/platforms/img_account_sync_tiktok_light.png",
+        "hash": "d26858b97dd939013743479c42bcac31",
         "scales": [
             1
         ],
@@ -10468,31 +10459,31 @@
         "height": 255
     },
     "img_account_sync_twitch_light_and_dark": {
-        "file": "images/platforms/img_account_sync_twitch_light_and_dark.svg",
-        "hash": "ca71e0b8818221eea1deebbaf8dc6518",
+        "file": "images/platforms/img_account_sync_twitch_light_and_dark.png",
+        "hash": "7f287a95c1b0cb61a440d7edc3f96c62",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_twitch_white": {
-        "file": "images/platforms/img_account_sync_twitch_white.svg",
-        "hash": "25c49f8727e80033a37a7fad01e6046c",
+        "file": "images/platforms/img_account_sync_twitch_white.png",
+        "hash": "74682c0f4cee36154d2422ab5ecfbb50",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_twitter_light_and_dark": {
-        "file": "images/platforms/img_account_sync_twitter_light_and_dark.svg",
-        "hash": "85cf2b49d2a185c98ec8e383ad5a05d6",
+        "file": "images/platforms/img_account_sync_twitter_light_and_dark.png",
+        "hash": "0071b143ac44242336585a4e0cd8c840",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_twitter_white": {
         "file": "images/native/platforms/img_account_sync_twitter_white.png",
@@ -10505,8 +10496,8 @@
         "height": 85
     },
     "img_account_sync_x_dark": {
-        "file": "images/platforms/img_account_sync_x_dark.svg",
-        "hash": "4643b9da67226d176c1c988a94b1f1ec",
+        "file": "images/platforms/img_account_sync_x_dark.png",
+        "hash": "69cffc91154a264677d69452c8bb56cd",
         "scales": [
             1
         ],
@@ -10514,8 +10505,8 @@
         "height": 255
     },
     "img_account_sync_x_light": {
-        "file": "images/platforms/img_account_sync_x_light.svg",
-        "hash": "0ef9c1dd967f03859144a42402b01e53",
+        "file": "images/platforms/img_account_sync_x_light.png",
+        "hash": "4ad40a52d39e433bf94269799f3d9402",
         "scales": [
             1
         ],
@@ -10523,8 +10514,8 @@
         "height": 255
     },
     "img_account_sync_x_white": {
-        "file": "images/platforms/img_account_sync_x_white.svg",
-        "hash": "4643b9da67226d176c1c988a94b1f1ec",
+        "file": "images/platforms/img_account_sync_x_white.png",
+        "hash": "69cffc91154a264677d69452c8bb56cd",
         "scales": [
             1
         ],
@@ -10541,44 +10532,44 @@
         "height": 255
     },
     "img_account_sync_xbox_light": {
-        "file": "images/platforms/img_account_sync_xbox_light.svg",
-        "hash": "cab5339904e625728f75e3b7bc32a347",
+        "file": "images/platforms/img_account_sync_xbox_light.png",
+        "hash": "b8ca3bffea05fc94ffed0323eaab2a87",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_xbox_white": {
-        "file": "images/platforms/img_account_sync_xbox_white.svg",
-        "hash": "1fa6585cbb8c0fe21188e26d19fc6609",
+        "file": "images/platforms/img_account_sync_xbox_white.png",
+        "hash": "7aaf5e085bf9c1627eef9cef50c50183",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_youtube_light_and_dark": {
-        "file": "images/platforms/img_account_sync_youtube_light_and_dark.svg",
-        "hash": "57ee9535485efae7eb923ed4893abb57",
+        "file": "images/platforms/img_account_sync_youtube_light_and_dark.png",
+        "hash": "67863c7ce0746de3e3f18240e61b3125",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_account_sync_youtube_white": {
-        "file": "images/platforms/img_account_sync_youtube_white.svg",
-        "hash": "2139da8835972fc7755306136f047d21",
+        "file": "images/platforms/img_account_sync_youtube_white.png",
+        "hash": "2eaff20be2a75be7ccdd4c6f19f0eb36",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_amazon_music": {
-        "file": "images/platforms/img_amazon_music.svg",
-        "hash": "6a547519d609d16386296b07f256bc9b",
+        "file": "images/platforms/img_amazon_music.png",
+        "hash": "eb9bd9e97de4adf854b08373e7ce1772",
         "scales": [
             1
         ],
@@ -10813,8 +10804,8 @@
         "height": 152
     },
     "img_bungie_dark": {
-        "file": "images/platforms/img_bungie_dark.svg",
-        "hash": "1f348e6efaab76f30618b8237503c2a3",
+        "file": "images/platforms/img_bungie_dark.png",
+        "hash": "fe591f74225ceb1914f81ee15d9fba54",
         "scales": [
             1
         ],
@@ -10822,8 +10813,8 @@
         "height": 256
     },
     "img_bungie_light": {
-        "file": "images/platforms/img_bungie_light.svg",
-        "hash": "e4eaf43a3a23cd606d512106c4ab10a2",
+        "file": "images/platforms/img_bungie_light.png",
+        "hash": "00cdbfc3bb4a435666595d0be7868ac1",
         "scales": [
             1
         ],
@@ -10831,8 +10822,8 @@
         "height": 256
     },
     "img_bungie_white": {
-        "file": "images/platforms/img_bungie_white.svg",
-        "hash": "1f348e6efaab76f30618b8237503c2a3",
+        "file": "images/platforms/img_bungie_white.png",
+        "hash": "fe591f74225ceb1914f81ee15d9fba54",
         "scales": [
             1
         ],
@@ -11020,22 +11011,22 @@
         "height": 244.5
     },
     "img_domain_dark": {
-        "file": "images/platforms/img_domain_dark.svg",
-        "hash": "e1e96d89e192de1997f73730db26e94f",
+        "file": "images/platforms/img_domain_dark.png",
+        "hash": "c73e0e7863a1f24b83eafc398ed6159c",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_domain_light": {
-        "file": "images/platforms/img_domain_light.svg",
-        "hash": "730f58bcfd5a57a5e22460c445a0c6cf",
+        "file": "images/platforms/img_domain_light.png",
+        "hash": "2206c8441b7af5e1e9061ad94eac7469",
         "scales": [
             1
         ],
-        "width": 24,
-        "height": 24
+        "width": 255,
+        "height": 255
     },
     "img_empty_audience": {
         "file": "modules/stage_channels/native/images/img_empty_audience.png",
@@ -12219,31 +12210,31 @@
         "height": 108
     },
     "img_roblox_dark": {
-        "file": "images/platforms/img_roblox_dark.svg",
-        "hash": "4686b3b7fab5b893126c51fb60db0919",
+        "file": "images/platforms/img_roblox_dark.png",
+        "hash": "6765211a1735ce3a547e811756e96f4c",
         "scales": [
             1
         ],
-        "width": 267,
-        "height": 267
+        "width": 256,
+        "height": 256
     },
     "img_roblox_light": {
-        "file": "images/platforms/img_roblox_light.svg",
-        "hash": "3903c55346409a3456d35123ba91f787",
+        "file": "images/platforms/img_roblox_light.png",
+        "hash": "480b7e494e4f1299ccf99d1721b72454",
         "scales": [
             1
         ],
-        "width": 267,
-        "height": 267
+        "width": 256,
+        "height": 256
     },
     "img_roblox_white": {
-        "file": "images/platforms/img_roblox_white.svg",
-        "hash": "4686b3b7fab5b893126c51fb60db0919",
+        "file": "images/platforms/img_roblox_white.png",
+        "hash": "6765211a1735ce3a547e811756e96f4c",
         "scales": [
             1
         ],
-        "width": 267,
-        "height": 267
+        "width": 256,
+        "height": 256
     },
     "img_search_empty_dark": {
         "file": "images/native/img_search_empty_dark.png",
