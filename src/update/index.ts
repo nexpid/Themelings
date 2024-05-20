@@ -10,7 +10,7 @@ import { webhook } from "./tasks/webhook";
 const version = await Bun.file("../data/version.txt").text();
 const api = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
 
-const mediaFiles = ["res", "*.{lottie,png,jpg,svg}"] as [string, string];
+const mediaFiles = ["res", "*.{png,jpg,lottie}"] as [string, string];
 
 const apksToDownload = ["base", "config.xxhdpi", "config.hdpi"] as const;
 const apkStuffToDownload = {
