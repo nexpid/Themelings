@@ -13738,46 +13738,6 @@
         "width": 96,
         "height": 97
     },
-    "polls_coachmark_dark": {
-        "file": "design/components/Illustration/native/redesign/generated/images/polls_coachmark_dark.png",
-        "hash": "99fa43056a918723b662f380bb79321d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 158,
-        "height": 40
-    },
-    "polls_coachmark_darker": {
-        "file": "design/components/Illustration/native/redesign/generated/images/polls_coachmark_darker.png",
-        "hash": "bb0c20599b30b945cf79bb77b9a9e186",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 158,
-        "height": 40
-    },
-    "polls_coachmark_light": {
-        "file": "design/components/Illustration/native/redesign/generated/images/polls_coachmark_light.png",
-        "hash": "84bf4847a4741798b8b1bb61ea6e2381",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 158,
-        "height": 40
-    },
-    "polls_coachmark_midnight": {
-        "file": "design/components/Illustration/native/redesign/generated/images/polls_coachmark_midnight.png",
-        "hash": "65b14c63fb9649cd8569ff3834ab8126",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 158,
-        "height": 40
-    },
     "pomelo_cards_native": {
         "file": "modules/pomelo/images/pomelo_cards_native.png",
         "hash": "a1a0fc0c1581493075de254e2919a066",
