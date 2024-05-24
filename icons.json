@@ -97,6 +97,16 @@
         "width": 60,
         "height": 60
     },
+    "AppLauncherLearnMore": {
+        "file": "modules/app_launcher/native/images/AppLauncherLearnMore.png",
+        "hash": "078d09740d6686d7c414125df62b21ef",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 80.5,
+        "height": 80
+    },
     "AppLauncherShop": {
         "file": "modules/app_launcher/native/images/AppLauncherShop.png",
         "hash": "ae42fb94f487ec55e6a86121b853d3b2",
@@ -2105,6 +2115,16 @@
     "QrCodeCameraIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/QrCodeCameraIcon.png",
         "hash": "1411d6dd689e23f6e27595950e516413",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "QuestsIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/QuestsIcon.png",
+        "hash": "5b549235a7185b8af6704dd220cc0278",
         "scales": [
             2,
             3
@@ -10960,6 +10980,15 @@
         "width": 48,
         "height": 48
     },
+    "img_credential": {
+        "file": "modules/webauthn/native/images/img_credential.png",
+        "hash": "5985a032ce7867df6bb6e8414710271c",
+        "scales": [
+            1
+        ],
+        "width": 218,
+        "height": 150
+    },
     "img_custom_app_icons": {
         "file": "images/native/premium/upsell/img_custom_app_icons.png",
         "hash": "39e46756fc162e286d29849699ac2d49",
@@ -11259,6 +11288,15 @@
         ],
         "width": 256,
         "height": 128
+    },
+    "img_keychain": {
+        "file": "modules/mfa/native/images/img_keychain.png",
+        "hash": "e8d550faf4e256dff3cc4faddf07f107",
+        "scales": [
+            1
+        ],
+        "width": 380,
+        "height": 290
     },
     "img_kick_member": {
         "file": "images/native/img_kick_member.png",
