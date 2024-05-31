@@ -12,7 +12,7 @@ const formatDiff = (diffs: Map<string, Diff>) => {
       .map((x) => `+ ${x.name}: ${x.cur}`),
     Changed: entries
       .filter((x) => x.change === DiffEnum.Changed)
-      .map((x) => `- ${x.name}: ${x.old}\n- ${x.name}: ${x.cur}`),
+      .map((x) => `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`),
     Removed: entries
       .filter((x) => x.change === DiffEnum.Removed)
       .map((x) => `- ${x.name}`),
