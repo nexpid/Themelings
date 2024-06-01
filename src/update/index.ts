@@ -17,6 +17,8 @@ const oprevFiles = [
 ] as const;
 export const prevFiles = new Map<(typeof oprevFiles)[number], ArrayBuffer>();
 
+const isMock = process.argv.includes("--mock");
+
 const version = await Bun.file("../data/version.txt").text();
 const api = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
 
@@ -33,7 +35,7 @@ const apkStuffToDownload = {
 >;
 
 const canReuseFolder =
-  process.env.NODE_ENV === "test" ||
+  isMock ||
   (
     await Promise.allSettled([
       ...Object.entries(apkStuffToDownload)
@@ -155,7 +157,7 @@ const taskProgress = makeProgress(
 );
 let outDiffs: OutDiffs | null;
 
-if (process.env.NODE_ENV !== "test") {
+if (!isMock) {
   // discard changes
   try {
     taskProgress.start("preinit");

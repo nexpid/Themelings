@@ -1,28 +1,34 @@
-import { DiffEnum, type Diff, type OutDiffs } from "./types";
+import { DiffEnum, type OutDiffs } from "./types";
 
-// mock data for "bun run update:test"
+const randomColor = () =>
+  "#" +
+  Math.floor(Math.random() * 0xffffff)
+    .toString(16)
+    .padStart(6, "0");
+
+// mock data for "bun run update:mock"
 export default {
   semantic: new Map([
     [
       "MOCK_COLOR_SAMPLE_1",
       {
         change: DiffEnum.Added,
-        cur: "#7ee7f7",
+        cur: randomColor(),
       },
     ],
     [
       "MOCK_COLOR_SAMPLE_2",
       {
         change: DiffEnum.Changed,
-        old: "#7ee7f7",
-        cur: "#d4d7fc",
+        old: randomColor(),
+        cur: randomColor(),
       },
     ],
     [
       "MOCK_COLOR_SAMPLE_3",
       {
         change: DiffEnum.Removed,
-        old: "#58f39c",
+        old: randomColor(),
       },
     ],
   ]),

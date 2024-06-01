@@ -11,6 +11,7 @@
   "scripts": {
     "check": "bun run src/check.ts",
     "update": "bun run src/update/index.ts",
+    "update:mock": "bun run --env-file local.env src/update/index.ts --mock",
     "update:test": "bun run --env-file local.env src/update/index.ts",
     "canvas:test": "bun run src/canvas/test.ts"
   },
