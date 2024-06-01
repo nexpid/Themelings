@@ -27,3 +27,14 @@ export type OutDiffs = Record<
   "semantic" | "raw" | "icons" | "code",
   Map<string, Diff> | undefined
 >;
+
+export type Icons = Record<
+  string,
+  {
+    file: string;
+    hash: string;
+    scales: number[];
+    width: number | null;
+    height: number | null;
+  }
+>;

@@ -169,6 +169,9 @@ if (process.env.NODE_ENV !== "test") {
       .nothrow()
       .quiet()
       .then(handleShellErr);
+    if (await exists(join("../data", "oldicons")))
+      await rm(join("../data", "oldicons"), { force: true, recursive: true });
+
     taskProgress.update("preinit_discard", true);
 
     taskProgress.start("preinit_save");
@@ -240,6 +243,8 @@ if (process.env.NODE_ENV !== "test") {
 } else {
   outDiffs = mock;
 }
+
+await rm("../data/oldicons", { force: true, recursive: true });
 
 if (outDiffs) {
   try {

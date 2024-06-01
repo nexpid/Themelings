@@ -2,7 +2,7 @@ import { prevFiles } from "..";
 import { handleShellErr, type Progress } from "../util";
 import { join } from "path";
 import Color from "color";
-import { DiffEnum, type Diff } from "../../types";
+import { DiffEnum, type Diff, type Icons } from "../../types";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -104,7 +104,6 @@ const diffSemantic = async (progress: Progress) => {
   return changes;
 };
 
-type Icons = Record<string, { hash: string }>;
 const diffIcons = async (progress: Progress) => {
   progress.start("diff_icons");
   if (!prevFiles.has("icons.json")) {
@@ -119,19 +118,34 @@ const diffIcons = async (progress: Progress) => {
     join("../data", "icons.json")
   ).json()) as Icons;
 
+  const iconDir = {
+    old: join("../data", "oldicons"),
+    new: join("../data", "icons"),
+  };
+
   const changes = new Map<string, Diff>();
   for (const icon of Object.keys(newIcons))
     if (!oldIcons[icon])
-      changes.set(icon, { change: DiffEnum.Added, cur: newIcons[icon].hash });
+      changes.set(icon, {
+        change: DiffEnum.Added,
+        cur: newIcons[icon].hash,
+        curFile: join(iconDir.new, newIcons[icon].file),
+      });
     else if (newIcons[icon].hash !== oldIcons[icon].hash)
       changes.set(icon, {
         change: DiffEnum.Changed,
         old: oldIcons[icon].hash,
+        oldFile: join(iconDir.old, oldIcons[icon].file),
         cur: newIcons[icon].hash,
+        curFile: join(iconDir.new, newIcons[icon].file),
       });
   for (const icon of Object.keys(oldIcons))
     if (!newIcons[icon])
-      changes.set(icon, { change: DiffEnum.Removed, old: oldIcons[icon].hash });
+      changes.set(icon, {
+        change: DiffEnum.Removed,
+        old: oldIcons[icon].hash,
+        oldFile: join(iconDir.old, oldIcons[icon].file),
+      });
 
   progress.update("diff_icons", true);
   return changes;
@@ -144,7 +158,10 @@ const diffCode = async (progress: Progress) => {
 
 export default async function diffs(progress: Progress) {
   const txt = (
-    await Bun.$`git status -z`.cwd("../data").quiet().then(handleShellErr)
+    await Bun.$`git status -z -- ':!oldicons' ':!icons'`
+      .cwd("../data")
+      .quiet()
+      .then(handleShellErr)
   )
     .text()
     .split("\x00")
