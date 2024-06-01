@@ -2,28 +2,7 @@ import { prevFiles } from "..";
 import { handleShellErr, type Progress } from "../util";
 import { join } from "path";
 import Color from "color";
-
-export type OutDiffs = NonNullable<Awaited<ReturnType<typeof diffs>>>;
-
-export enum DiffEnum {
-  Added,
-  Changed,
-  Removed,
-}
-
-export type Diff =
-  | {
-      change: DiffEnum.Added;
-      cur: string;
-    }
-  | {
-      change: DiffEnum.Changed;
-      old: string;
-      cur: string;
-    }
-  | {
-      change: DiffEnum.Removed;
-    };
+import { DiffEnum, type Diff } from "../../types";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -51,7 +30,8 @@ const diffRaw = async (progress: Progress) => {
         cur: newRaw[raw],
       });
   for (const raw of Object.keys(oldRaw))
-    if (!newRaw[raw]) changes.set(raw, { change: DiffEnum.Removed });
+    if (!newRaw[raw])
+      changes.set(raw, { change: DiffEnum.Removed, old: oldRaw[raw] });
 
   progress.update("diff_raw", true);
   return changes;
@@ -87,7 +67,7 @@ const diffSemantic = async (progress: Progress) => {
         `${key}.${k}`,
         added
           ? { change: DiffEnum.Added, cur: colorify(v) }
-          : { change: DiffEnum.Removed }
+          : { change: DiffEnum.Removed, old: colorify(v) }
       )
     );
 
@@ -117,6 +97,7 @@ const diffSemantic = async (progress: Progress) => {
         if (!newSemantic[sem][clir])
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Removed,
+            old: colorify(oldSemantic[sem][clir]),
           });
 
   progress.update("diff_semantic", true);
@@ -149,7 +130,8 @@ const diffIcons = async (progress: Progress) => {
         cur: newIcons[icon].hash,
       });
   for (const icon of Object.keys(oldIcons))
-    if (!newIcons[icon]) changes.set(icon, { change: DiffEnum.Removed });
+    if (!newIcons[icon])
+      changes.set(icon, { change: DiffEnum.Removed, old: oldIcons[icon].hash });
 
   progress.update("diff_icons", true);
   return changes;

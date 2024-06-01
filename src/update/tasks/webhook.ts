@@ -1,4 +1,6 @@
-import { DiffEnum, type Diff, type OutDiffs } from "./diffs";
+import type { Canvas } from "skia-canvas";
+import draw, { convertDiffs } from "../../canvas";
+import { DiffEnum, type Diff, type OutDiffs } from "../../types";
 
 const formatDiff = (diffs: Map<string, Diff>) => {
   const entries = [...diffs.entries()].map(([k, v]) => ({
@@ -36,7 +38,7 @@ const formatVersion = (version: string) => {
   } ${major}.${Number(min)}`;
 };
 
-const triggerWebhook = (
+const triggerWebhook = async (
   webhook: string,
   {
     role,
@@ -45,27 +47,47 @@ const triggerWebhook = (
   }: {
     role?: string;
     version: string;
-    embeds: { title: string; body: string }[];
+    embeds: { title: string; body: string; image?: Canvas }[];
   }
-) =>
-  fetch(webhook, {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
+) => {
+  const images = embeds.filter((x) => x.image).map((x) => x.image);
+
+  const formData = new FormData();
+
+  for (let i = 0; i < images.length; i++) {
+    const img = await images[i]!.toBuffer("png");
+    formData.append(
+      `files[${i}]`,
+      new Blob([img], { type: "image/png" }),
+      `${i}.png`
+    );
+  }
+
+  formData.append(
+    "payload_json",
+    JSON.stringify({
       content: role ? `<@&${role}>` : null,
-      embeds: embeds.map(({ title, body }) => ({
+      embeds: embeds.map(({ title, body, image }) => ({
         title,
         description: body,
         color: null,
         author: {
           name: `${version} (${formatVersion(version)})`,
         },
+        image: image && {
+          url: `attachment://${images.indexOf(image)}.png`,
+        },
       })),
-      allowed_mentions: { roles: [role] },
-    }),
+      allowed_mentions:
+        process.env.NODE_ENV === "test" ? { parse: [] } : { roles: [role] },
+    })
+  );
+
+  return fetch(webhook, {
+    method: "POST",
+    body: formData,
   });
+};
 
 export async function webhook(version: string, diffs: OutDiffs) {
   await triggerWebhook(process.env.color_webhook!, {
@@ -75,10 +97,16 @@ export async function webhook(version: string, diffs: OutDiffs) {
       {
         title: "Raw colors",
         body: diffs.raw ? formatDiff(diffs.raw) : "No changes",
+        image: diffs.raw
+          ? await draw(convertDiffs(diffs.raw, true))
+          : undefined,
       },
       {
         title: "Semantic colors",
         body: diffs.semantic ? formatDiff(diffs.semantic) : "No changes",
+        image: diffs.semantic
+          ? await draw(convertDiffs(diffs.semantic, true))
+          : undefined,
       },
     ],
   });
@@ -90,6 +118,7 @@ export async function webhook(version: string, diffs: OutDiffs) {
       {
         title: "Icons",
         body: diffs.icons ? formatDiff(diffs.icons) : "No changes",
+        image: diffs.icons ? await draw(convertDiffs(diffs.icons)) : undefined,
       },
     ],
   });
