@@ -10,16 +10,10 @@
   },
   "scripts": {
     "check": "bun run src/check.ts",
-    "update": "bun run src/update/index.ts",
-    "update:test": "bun run --env-file local.env src/update/index.ts",
-    "canvas:test": "bun run src/canvas/test.ts"
+    "update": "bun run src/update/index.ts"
   },
   "dependencies": {
     "color": "^4.2.3",
-    "fflate": "^0.8.2",
-    "skia-canvas": "^1.0.1"
-  },
-  "trustedDependencies": [
-    "skia-canvas"
-  ]
+    "fflate": "^0.8.2"
+  }
 }

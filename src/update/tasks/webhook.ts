@@ -1,6 +1,4 @@
-import type { Canvas } from "skia-canvas";
-import draw, { convertDiffs } from "../../canvas";
-import { DiffEnum, type Diff, type OutDiffs } from "../../types";
+import { DiffEnum, type Diff, type OutDiffs } from "./diffs";
 
 const formatDiff = (diffs: Map<string, Diff>) => {
   const entries = [...diffs.entries()].map(([k, v]) => ({
@@ -14,7 +12,7 @@ const formatDiff = (diffs: Map<string, Diff>) => {
       .map((x) => `+ ${x.name}: ${x.cur}`),
     Changed: entries
       .filter((x) => x.change === DiffEnum.Changed)
-      .map((x) => `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`),
+      .map((x) => `- ${x.name}: ${x.old}\n- ${x.name}: ${x.cur}`),
     Removed: entries
       .filter((x) => x.change === DiffEnum.Removed)
       .map((x) => `- ${x.name}`),
@@ -38,7 +36,7 @@ const formatVersion = (version: string) => {
   } ${major}.${Number(min)}`;
 };
 
-const triggerWebhook = async (
+const triggerWebhook = (
   webhook: string,
   {
     role,
@@ -47,47 +45,27 @@ const triggerWebhook = async (
   }: {
     role?: string;
     version: string;
-    embeds: { title: string; body: string; image?: Canvas }[];
+    embeds: { title: string; body: string }[];
   }
-) => {
-  const images = embeds.filter((x) => x.image).map((x) => x.image);
-
-  const formData = new FormData();
-
-  for (let i = 0; i < images.length; i++) {
-    const img = await images[i]!.toBuffer("png");
-    formData.append(
-      `files[${i}]`,
-      new Blob([img], { type: "image/png" }),
-      `${i}.png`
-    );
-  }
-
-  formData.append(
-    "payload_json",
-    JSON.stringify({
+) =>
+  fetch(webhook, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
       content: role ? `<@&${role}>` : null,
-      embeds: embeds.map(({ title, body, image }) => ({
+      embeds: embeds.map(({ title, body }) => ({
         title,
         description: body,
         color: null,
         author: {
           name: `${version} (${formatVersion(version)})`,
         },
-        image: image && {
-          url: `attachment://${images.indexOf(image)}.png`,
-        },
       })),
-      allowed_mentions:
-        process.env.NODE_ENV === "test" ? { parse: [] } : { roles: [role] },
-    })
-  );
-
-  return fetch(webhook, {
-    method: "POST",
-    body: formData,
+      allowed_mentions: { roles: [role] },
+    }),
   });
-};
 
 export async function webhook(version: string, diffs: OutDiffs) {
   await triggerWebhook(process.env.color_webhook!, {
@@ -97,16 +75,10 @@ export async function webhook(version: string, diffs: OutDiffs) {
       {
         title: "Raw colors",
         body: diffs.raw ? formatDiff(diffs.raw) : "No changes",
-        image: diffs.raw
-          ? await draw(convertDiffs(diffs.raw, true))
-          : undefined,
       },
       {
         title: "Semantic colors",
         body: diffs.semantic ? formatDiff(diffs.semantic) : "No changes",
-        image: diffs.semantic
-          ? await draw(convertDiffs(diffs.semantic, true))
-          : undefined,
       },
     ],
   });
@@ -118,7 +90,6 @@ export async function webhook(version: string, diffs: OutDiffs) {
       {
         title: "Icons",
         body: diffs.icons ? formatDiff(diffs.icons) : "No changes",
-        image: diffs.icons ? await draw(convertDiffs(diffs.icons)) : undefined,
       },
     ],
   });
