@@ -7,7 +7,10 @@ interface DataEntry {
   file?: string;
 }
 
-FontLibrary.use("gg-sans", ["src/canvas/fonts/ggsans/*.ttf"]);
+FontLibrary.use({
+  "gg-sans": ["src/canvas/fonts/ggsans/*.ttf"],
+  "gg-mono": ["src/canvas/fonts/ggmono/*.ttf"],
+});
 
 const colors = {
   bgMain: "#1c1d23", // BACKGROUND_PRIMARY
@@ -26,7 +29,7 @@ export function convertDiffs(
   } as Record<string, DataEntry[][]>;
 
   for (const [label, change] of diffs.entries()) {
-    if (change.change === DiffEnum.Added && change.curFile) {
+    if (change.change === DiffEnum.Added) {
       if (!color && !change.curFile) continue;
 
       obj.Added[0].push({
@@ -59,7 +62,7 @@ export function convertDiffs(
   }
 
   return Object.fromEntries(
-    Object.entries(obj).filter(([_, entries]) => entries.length > 0)
+    Object.entries(obj).filter(([_, entries]) => entries[0].length > 0)
   );
 }
 
@@ -78,7 +81,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 
   const measureCtx = new Canvas(1, 1).getContext("2d");
 
-  const assetTitleFont = `400 ${assetTitleFontSize}px gg-sans`;
+  const assetTitleFont = `400 ${assetTitleFontSize}px gg-mono`;
   measureCtx.font = assetTitleFont;
 
   const imageMap = new Map<string, any>();
@@ -213,7 +216,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
   }
 
   // watermark :3
-  ctx.font = `500 ${padding / 2}px gg-sans`;
+  ctx.font = `400 ${padding / 2}px gg-sans`;
   const watermarkText = "Themelings";
   const watermarkTextWidth = ctx.measureText(watermarkText).width;
 
