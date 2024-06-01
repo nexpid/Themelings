@@ -4,18 +4,8 @@ import { join } from "path";
 import decompile from "./tasks/decompile";
 import colors from "./tasks/colors";
 import icons from "./tasks/icons";
-import diffs from "./tasks/diffs";
+import diffs, { type OutDiffs } from "./tasks/diffs";
 import { webhook } from "./tasks/webhook";
-import mock from "../mock";
-import type { OutDiffs } from "../types";
-
-const oprevFiles = [
-  "semantic.json",
-  "raw.json",
-  "icons.json",
-  "code.gzipped.js",
-] as const;
-export const prevFiles = new Map<(typeof oprevFiles)[number], ArrayBuffer>();
 
 const version = await Bun.file("../data/version.txt").text();
 const api = `https://tracker.vendetta.rocks/tracker/download/${version}/`;
@@ -32,21 +22,19 @@ const apkStuffToDownload = {
   ([string, string] | [string])[]
 >;
 
-const canReuseFolder =
-  process.env.NODE_ENV === "test" ||
-  (
-    await Promise.allSettled([
-      ...Object.entries(apkStuffToDownload)
-        .map(([apk, x]) => x.map(([y]) => join("tmp", apk, y)))
-        .flat()
-        .map(
-          (p) => exists(p) // Bun's Bun.file().exists doesn't support folders
-        ),
-      Bun.file("tmp/ver")
-        .text()
-        .then((x) => x === version),
-    ])
-  ).every((x) => x.status === "fulfilled" && x.value);
+const canReuseFolder = (
+  await Promise.allSettled([
+    ...Object.entries(apkStuffToDownload)
+      .map(([apk, x]) => x.map(([y]) => join("tmp", apk, y)))
+      .flat()
+      .map(
+        (p) => exists(p) // Bun's Bun.file().exists doesn't support folders
+      ),
+    Bun.file("tmp/ver")
+      .text()
+      .then((x) => x === version),
+  ])
+).every((x) => x.status === "fulfilled" && x.value);
 
 // Temp folder yippee!
 
@@ -153,92 +141,96 @@ const taskProgress = makeProgress(
   },
   true
 );
-let outDiffs: OutDiffs | null;
 
-if (process.env.NODE_ENV !== "test") {
-  // discard changes
-  try {
-    taskProgress.start("preinit");
+const oprevFiles = [
+  "semantic.json",
+  "raw.json",
+  "icons.json",
+  "code.gzipped.js",
+] as const;
+export const prevFiles = new Map<(typeof oprevFiles)[number], ArrayBuffer>();
 
-    taskProgress.start("preinit_discard");
-    // no need to discard icons folder as it gets discarded in the icons task
-    await Bun.$`git checkout -- ${{
-      raw: oprevFiles.map((x) => Bun.$.escape(x)).join(" "),
-    }}`
-      .cwd("../data")
-      .nothrow()
-      .quiet()
-      .then(handleShellErr);
-    taskProgress.update("preinit_discard", true);
+// discard changes
+try {
+  taskProgress.start("preinit");
 
-    taskProgress.start("preinit_save");
-    for (const oprev of oprevFiles) {
-      const file = Bun.file(join("../data", oprev));
-      if (await file.exists()) prevFiles.set(oprev, await file.arrayBuffer());
-    }
-    taskProgress.update("preinit_save", true);
-    taskProgress.update("preinit", true);
-  } catch (e) {
-    taskProgress.update("preinit", false);
-    throw new Error(`Failed to discard changes!\n${e}`);
+  taskProgress.start("preinit_discard");
+  // no need to discard icons folder as it gets discarded in the icons task
+  await Bun.$`git checkout -- ${{
+    raw: oprevFiles.map((x) => Bun.$.escape(x)).join(" "),
+  }}`
+    .cwd("../data")
+    .nothrow()
+    .quiet()
+    .then(handleShellErr);
+  taskProgress.update("preinit_discard", true);
+
+  taskProgress.start("preinit_save");
+  for (const oprev of oprevFiles) {
+    const file = Bun.file(join("../data", oprev));
+    if (await file.exists()) prevFiles.set(oprev, await file.arrayBuffer());
   }
+  taskProgress.update("preinit_save", true);
+  taskProgress.update("preinit", true);
+} catch (e) {
+  taskProgress.update("preinit", false);
+  throw new Error(`Failed to discard changes!\n${e}`);
+}
 
-  let pathToJs: string;
-  try {
-    taskProgress.start("decompile");
-    pathToJs = await decompile(
+let pathToJs: string;
+try {
+  taskProgress.start("decompile");
+  pathToJs = await decompile(
+    taskProgress,
+    join(tempFolder, "base", "assets", "index.android.bundle"),
+    tempFolder
+  );
+  taskProgress.update("decompile", true);
+} catch (e) {
+  taskProgress.update("decompile", false);
+  throw new Error(`Failed to decompile!\n${e}`);
+}
+
+const code = (await Bun.file(pathToJs).text()).split("\n");
+
+await Promise.allSettled([
+  wrapPromise(colors(taskProgress, code), taskProgress, "colors"),
+  wrapPromise(
+    icons(
       taskProgress,
-      join(tempFolder, "base", "assets", "index.android.bundle"),
-      tempFolder
-    );
-    taskProgress.update("decompile", true);
-  } catch (e) {
-    taskProgress.update("decompile", false);
-    throw new Error(`Failed to decompile!\n${e}`);
-  }
-
-  const code = (await Bun.file(pathToJs).text()).split("\n");
-
-  await Promise.allSettled([
-    wrapPromise(colors(taskProgress, code), taskProgress, "colors"),
-    wrapPromise(
-      icons(
-        taskProgress,
-        code,
-        ...apksToDownload.map((apk) => join(tempFolder, apk))
-      ),
-      taskProgress,
-      "icons"
+      code,
+      ...apksToDownload.map((apk) => join(tempFolder, apk))
     ),
-  ]);
-  if (taskProgress.someFailed("colors", "icons"))
-    throw new Error(
-      `Failed at the colors + icons task!\n${taskProgress.prettyErrors(
-        "colors",
-        "icons"
-      )}`
-    );
+    taskProgress,
+    "icons"
+  ),
+]);
+if (taskProgress.someFailed("colors", "icons"))
+  throw new Error(
+    `Failed at the colors + icons task!\n${taskProgress.prettyErrors(
+      "colors",
+      "icons"
+    )}`
+  );
 
-  while (!taskProgress.isFinished("decompile_gzip")) {
-    await Bun.sleep(1000);
-  }
+while (!taskProgress.isFinished("decompile_gzip")) {
+  await Bun.sleep(1000);
+}
 
-  if (taskProgress.someFailed("decompile_gzip"))
-    throw new Error(
-      `Failed at the decompile gzip task!\n${taskProgress.prettyErrors(
-        "decompile_gzip"
-      )}`
-    );
+if (taskProgress.someFailed("decompile_gzip"))
+  throw new Error(
+    `Failed at the decompile gzip task!\n${taskProgress.prettyErrors(
+      "decompile_gzip"
+    )}`
+  );
 
-  try {
-    taskProgress.start("diff");
-    outDiffs = await diffs(taskProgress);
-  } catch (e) {
-    taskProgress.update("diff", false);
-    throw new Error(`Failed to generate diffs!\n${e}`);
-  }
-} else {
-  outDiffs = mock;
+let outDiffs: OutDiffs | null;
+try {
+  taskProgress.start("diff");
+  outDiffs = await diffs(taskProgress);
+} catch (e) {
+  taskProgress.update("diff", false);
+  throw new Error(`Failed to generate diffs!\n${e}`);
 }
 
 if (outDiffs) {
