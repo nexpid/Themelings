@@ -6,7 +6,7 @@ const randomColor = () =>
     .toString(16)
     .padStart(6, "0");
 
-// mock data for "bun run update:mock"
+// mock data for "bun run update:mock" and "bun run canvas:test"
 export default {
   semantic: new Map([
     [
