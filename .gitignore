@@ -176,4 +176,5 @@ dist
 
 # Custom
 tmp
-.env
+*.env
+src/canvas/mock/*
