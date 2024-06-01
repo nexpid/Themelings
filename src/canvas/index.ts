@@ -26,35 +26,34 @@ export function convertDiffs(
   } as Record<string, DataEntry[][]>;
 
   for (const [label, change] of diffs.entries()) {
-    if (change.change === DiffEnum.Added) {
-      const cur = change.curFile ?? change.cur;
+    if (change.change === DiffEnum.Added && change.curFile) {
+      if (!color && !change.curFile) continue;
 
       obj.Added[0].push({
         label,
-        file: color ? undefined : cur,
-        color: color ? cur : undefined,
+        file: !color ? change.curFile : undefined,
+        color: color ? change.cur : undefined,
       });
     } else if (change.change === DiffEnum.Changed) {
-      const old = change.oldFile ?? change.old;
-      const cur = change.curFile ?? change.cur;
+      if (!color && (!change.curFile || !change.oldFile)) continue;
 
       obj.Changed[0].push({
         label: `${label} — old`,
-        file: color ? undefined : old,
-        color: color ? old : undefined,
+        file: !color ? change.oldFile : undefined,
+        color: color ? change.old : undefined,
       });
       obj.Changed[1].push({
         label: `${label} — new`,
-        file: color ? undefined : cur,
-        color: color ? cur : undefined,
+        file: !color ? change.curFile : undefined,
+        color: color ? change.cur : undefined,
       });
     } else if (change.change === DiffEnum.Removed) {
-      const old = change.oldFile ?? change.old;
+      if (!color && !change.oldFile) continue;
 
       obj.Removed[0].push({
         label,
-        file: color ? undefined : old,
-        color: color ? old : undefined,
+        file: !color ? change.oldFile : undefined,
+        color: color ? change.old : undefined,
       });
     }
   }
