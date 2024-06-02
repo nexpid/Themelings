@@ -3387,7 +3387,7 @@
         "height": 24
     },
     "bg": {
-        "file": "../discord_common/js/shared/images/flags/bg.png",
+        "file": "_/discord_common/js/shared/images/flags/bg.png",
         "hash": "d24e290703f8b31b56744a69df613fcb",
         "scales": [
             1
@@ -4016,7 +4016,7 @@
         "height": 104
     },
     "cs": {
-        "file": "../discord_common/js/shared/images/flags/cs.png",
+        "file": "_/discord_common/js/shared/images/flags/cs.png",
         "hash": "44a7840b2161275358742595c9257e76",
         "scales": [
             1
@@ -4065,7 +4065,7 @@
         "height": 80
     },
     "da": {
-        "file": "../discord_common/js/shared/images/flags/da.png",
+        "file": "_/discord_common/js/shared/images/flags/da.png",
         "hash": "3590df6f2ae2f7202dab15c0bd3aca9a",
         "scales": [
             1
@@ -4104,7 +4104,7 @@
         "height": 275
     },
     "de": {
-        "file": "../discord_common/js/shared/images/flags/de.png",
+        "file": "_/discord_common/js/shared/images/flags/de.png",
         "hash": "7fa2adf98f26db34178bb30a63dabe8c",
         "scales": [
             1
@@ -4357,7 +4357,7 @@
         "height": 360
     },
     "el": {
-        "file": "../discord_common/js/shared/images/flags/el.png",
+        "file": "_/discord_common/js/shared/images/flags/el.png",
         "hash": "d19290ba3158e138bb241ae669a3bc37",
         "scales": [
             1
@@ -4634,7 +4634,7 @@
         "height": 110
     },
     "en-GB": {
-        "file": "../discord_common/js/shared/images/flags/en-GB.png",
+        "file": "_/discord_common/js/shared/images/flags/en-GB.png",
         "hash": "6bf3cf5d375d7561cb3b9bf74212ed45",
         "scales": [
             1
@@ -4643,7 +4643,7 @@
         "height": 47
     },
     "en-US": {
-        "file": "../discord_common/js/shared/images/flags/en-US.png",
+        "file": "_/discord_common/js/shared/images/flags/en-US.png",
         "hash": "e6d6b255259ac878d00819a9555072ad",
         "scales": [
             1
@@ -4652,7 +4652,7 @@
         "height": 47
     },
     "es-419": {
-        "file": "../discord_common/js/shared/images/flags/es-419.png",
+        "file": "_/discord_common/js/shared/images/flags/es-419.png",
         "hash": "43a01bb0fa7bd2e9d7fb4172be185309",
         "scales": [
             1
@@ -4661,7 +4661,7 @@
         "height": 47
     },
     "es-ES": {
-        "file": "../discord_common/js/shared/images/flags/es-ES.png",
+        "file": "_/discord_common/js/shared/images/flags/es-ES.png",
         "hash": "10bb7b2e55f0a34f23d903121de6b9bc",
         "scales": [
             1
@@ -4907,7 +4907,7 @@
         "height": 122
     },
     "fi": {
-        "file": "../discord_common/js/shared/images/flags/fi.png",
+        "file": "_/discord_common/js/shared/images/flags/fi.png",
         "hash": "02e75e392ab5d5a8ed5ab4f8fcae9c77",
         "scales": [
             1
@@ -4946,7 +4946,7 @@
         "height": 24
     },
     "fr": {
-        "file": "../discord_common/js/shared/images/flags/fr.png",
+        "file": "_/discord_common/js/shared/images/flags/fr.png",
         "hash": "8d1d548a64761f0c5b1d7c9e00ae66a6",
         "scales": [
             1
@@ -5314,7 +5314,7 @@
         "height": 24
     },
     "hi": {
-        "file": "../discord_common/js/shared/images/flags/hi.png",
+        "file": "_/discord_common/js/shared/images/flags/hi.png",
         "hash": "78cbfbf0381b8c7f5a192c4a46bd0b0e",
         "scales": [
             1
@@ -5343,7 +5343,7 @@
         "height": 24
     },
     "hr": {
-        "file": "../discord_common/js/shared/images/flags/hr.png",
+        "file": "_/discord_common/js/shared/images/flags/hr.png",
         "hash": "cfc9643cb00e44fae64bfeda3556bfd9",
         "scales": [
             1
@@ -5352,7 +5352,7 @@
         "height": 47
     },
     "hu": {
-        "file": "../discord_common/js/shared/images/flags/hu.png",
+        "file": "_/discord_common/js/shared/images/flags/hu.png",
         "hash": "08d0c70a708cd25acecb7a8b0cb0eb23",
         "scales": [
             1
@@ -12960,7 +12960,7 @@
         "height": 105
     },
     "it": {
-        "file": "../discord_common/js/shared/images/flags/it.png",
+        "file": "_/discord_common/js/shared/images/flags/it.png",
         "hash": "cbf50c2e3287d2118f741e827a3ddaf5",
         "scales": [
             1
@@ -12969,7 +12969,7 @@
         "height": 47
     },
     "ja": {
-        "file": "../discord_common/js/shared/images/flags/ja.png",
+        "file": "_/discord_common/js/shared/images/flags/ja.png",
         "hash": "f23c5c28c4429691f7c54af93876d661",
         "scales": [
             1
@@ -12978,7 +12978,7 @@
         "height": 47
     },
     "ko": {
-        "file": "../discord_common/js/shared/images/flags/ko.png",
+        "file": "_/discord_common/js/shared/images/flags/ko.png",
         "hash": "ab02db863b7edeaa46bf4cd49b6646a9",
         "scales": [
             1
@@ -13200,7 +13200,7 @@
         "height": 120
     },
     "lt": {
-        "file": "../discord_common/js/shared/images/flags/lt.png",
+        "file": "_/discord_common/js/shared/images/flags/lt.png",
         "hash": "7eb9487d4dac00095f8ed2d2c80b21a8",
         "scales": [
             1
@@ -13470,7 +13470,7 @@
         "height": 24
     },
     "nl": {
-        "file": "../discord_common/js/shared/images/flags/nl.png",
+        "file": "_/discord_common/js/shared/images/flags/nl.png",
         "hash": "c9f51873ae719a6b4b8c6724362e999e",
         "scales": [
             1
@@ -13479,7 +13479,7 @@
         "height": 47
     },
     "no": {
-        "file": "../discord_common/js/shared/images/flags/no.png",
+        "file": "_/discord_common/js/shared/images/flags/no.png",
         "hash": "fcdf14841cd468de3f43704be16fa303",
         "scales": [
             1
@@ -13748,7 +13748,7 @@
         "height": 160
     },
     "pl": {
-        "file": "../discord_common/js/shared/images/flags/pl.png",
+        "file": "_/discord_common/js/shared/images/flags/pl.png",
         "hash": "894cceea2dd5b523936930d1d7e333c5",
         "scales": [
             1
@@ -13936,7 +13936,7 @@
         "height": 70
     },
     "pt-BR": {
-        "file": "../discord_common/js/shared/images/flags/pt-BR.png",
+        "file": "_/discord_common/js/shared/images/flags/pt-BR.png",
         "hash": "7beab7b17eaa9ff7ceed3e5b1af274c2",
         "scales": [
             1
@@ -14084,7 +14084,7 @@
         "height": 12.5
     },
     "ro": {
-        "file": "../discord_common/js/shared/images/flags/ro.png",
+        "file": "_/discord_common/js/shared/images/flags/ro.png",
         "hash": "d5073ab2ca9ee7c06c3f4d761968ac44",
         "scales": [
             1
@@ -14203,7 +14203,7 @@
         "height": 92.5
     },
     "ru": {
-        "file": "../discord_common/js/shared/images/flags/ru.png",
+        "file": "_/discord_common/js/shared/images/flags/ru.png",
         "hash": "64f37efd5319b9b581557604864f042a",
         "scales": [
             1
@@ -14754,7 +14754,7 @@
         "height": 23
     },
     "sv-SE": {
-        "file": "../discord_common/js/shared/images/flags/sv-SE.png",
+        "file": "_/discord_common/js/shared/images/flags/sv-SE.png",
         "hash": "2ac1239c26c4ae1d27817a9d7b85dc53",
         "scales": [
             1
@@ -14792,7 +14792,7 @@
         "height": 52
     },
     "th": {
-        "file": "../discord_common/js/shared/images/flags/th.png",
+        "file": "_/discord_common/js/shared/images/flags/th.png",
         "hash": "da07da4bde6f81f16366b62e8fcc90ec",
         "scales": [
             1
@@ -14981,7 +14981,7 @@
         "height": 254
     },
     "tr": {
-        "file": "../discord_common/js/shared/images/flags/tr.png",
+        "file": "_/discord_common/js/shared/images/flags/tr.png",
         "hash": "8e1cf1f1cf2a1a917002b8b583270c32",
         "scales": [
             1
@@ -15010,7 +15010,7 @@
         "height": 52
     },
     "uk": {
-        "file": "../discord_common/js/shared/images/flags/uk.png",
+        "file": "_/discord_common/js/shared/images/flags/uk.png",
         "hash": "d52ce383ca6d8eb53588bcc042574cae",
         "scales": [
             1
@@ -15115,7 +15115,7 @@
         "height": 80
     },
     "vi": {
-        "file": "../discord_common/js/shared/images/flags/vi.png",
+        "file": "_/discord_common/js/shared/images/flags/vi.png",
         "hash": "b1309f8892f138383d8b0b6ff8e23463",
         "scales": [
             1
@@ -15588,7 +15588,7 @@
         "height": 24
     },
     "zh-CN": {
-        "file": "../discord_common/js/shared/images/flags/zh-CN.png",
+        "file": "_/discord_common/js/shared/images/flags/zh-CN.png",
         "hash": "b2da62f020089ccee92860e4defafdb4",
         "scales": [
             1
@@ -15597,7 +15597,7 @@
         "height": 47
     },
     "zh-TW": {
-        "file": "../discord_common/js/shared/images/flags/zh-TW.png",
+        "file": "_/discord_common/js/shared/images/flags/zh-TW.png",
         "hash": "4db0790f7a81e49025d7fbfb9aeb182c",
         "scales": [
             1
