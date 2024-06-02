@@ -37,10 +37,7 @@ const diffRaw = async (progress: Progress) => {
   return changes;
 };
 
-type SemanticColors = Record<
-  string,
-  Record<string, { raw: string; opacity: number }>
->;
+type SemanticColors = Record<string, Record<string, string>>;
 const diffSemantic = async (progress: Progress) => {
   progress.start("diff_semantic");
   if (!prevFiles.has("semantic.json")) {
@@ -55,19 +52,13 @@ const diffSemantic = async (progress: Progress) => {
     join("../data", "semantic.json")
   ).json()) as SemanticColors;
 
-  const raw = (await Bun.file(join("../data", "raw.json")).json()) as RawColors;
-
-  const colorify = (clr: SemanticColors[string][string]) =>
-    raw[clr.raw]
-      ? `${new Color(raw[clr.raw]).alpha(clr.opacity).hex()} (${clr.raw})`
-      : `unknown (${clr.raw})`;
   const allVars = (key: string, sem: SemanticColors[string], added: boolean) =>
     Object.entries(sem).forEach(([k, v]) =>
       changes.set(
         `${key}.${k}`,
         added
-          ? { change: DiffEnum.Added, cur: colorify(v) }
-          : { change: DiffEnum.Removed, old: colorify(v) }
+          ? { change: DiffEnum.Added, cur: v }
+          : { change: DiffEnum.Removed, old: v }
       )
     );
 
@@ -79,15 +70,15 @@ const diffSemantic = async (progress: Progress) => {
         if (!oldSemantic[sem][clir])
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Added,
-            cur: colorify(newSemantic[sem][clir]),
+            cur: newSemantic[sem][clir],
           });
         else if (
           !Bun.deepEquals(oldSemantic[sem][clir], newSemantic[sem][clir])
         )
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Changed,
-            old: colorify(oldSemantic[sem][clir]),
-            cur: colorify(oldSemantic[sem][clir]),
+            old: oldSemantic[sem][clir],
+            cur: oldSemantic[sem][clir],
           });
 
   for (const sem of Object.keys(oldSemantic))
@@ -97,7 +88,7 @@ const diffSemantic = async (progress: Progress) => {
         if (!newSemantic[sem][clir])
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Removed,
-            old: colorify(oldSemantic[sem][clir]),
+            old: oldSemantic[sem][clir],
           });
 
   progress.update("diff_semantic", true);

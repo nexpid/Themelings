@@ -1,5 +1,6 @@
 // this code includes a lot of scary regexes, be warned
 
+import Color from "color";
 import { sortObj, type Progress } from "../util";
 
 const iterate = (
@@ -58,8 +59,13 @@ const colorsRaw = async (progress: Progress, code: string[]) => {
 
   // semantic colors
   progress.update("colors_raw", true);
+  return rawColors;
 };
-const colorsSemantic = async (progress: Progress, code: string[]) => {
+const colorsSemantic = async (
+  progress: Progress,
+  code: string[],
+  raw: Record<string, string>
+) => {
   progress.start("colors_semantic");
 
   const semanticColorsHookLine = code.findIndex((l) =>
@@ -153,10 +159,7 @@ const colorsSemantic = async (progress: Progress, code: string[]) => {
   if (!lastLookForLine)
     throw new Error("Failed to find any color definitions (lookFors)!");
 
-  const semanticColors = {} as Record<
-    string,
-    Record<string, { raw: string; opacity: number }>
-  >;
+  const semanticColors = {} as Record<string, Record<string, string>>;
 
   const lookForLineLimit = lastLookForLine - 5300;
   for (let i = lastLookForLine; i >= lookForLineLimit; i--) {
@@ -198,7 +201,11 @@ const colorsSemantic = async (progress: Progress, code: string[]) => {
         eval)(`(${object.matched})`);
       }
 
-      semanticColors[lookFor.color] = shitass;
+      semanticColors[lookFor.color] = {};
+      for (const key of Object.keys(shitass))
+        semanticColors[lookFor.color][key] = Color(raw[shitass[key].raw])
+          .alpha(shitass[key].opacity)
+          .hex();
     }
   }
 
@@ -210,10 +217,7 @@ const colorsSemantic = async (progress: Progress, code: string[]) => {
 };
 
 export default async function colors(progress: Progress, code: string[]) {
-  await Promise.all([
-    colorsRaw(progress, code),
-    colorsSemantic(progress, code),
-  ]);
+  await colorsSemantic(progress, code, await colorsRaw(progress, code));
 }
 
 // sidenote: im really proud of this code even thought most of it is unreadable spaghetti garbage
