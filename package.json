@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "color": "^4.2.3",
-    "fflate": "^0.8.2",
     "skia-canvas": "^1.0.1"
   },
   "trustedDependencies": [
