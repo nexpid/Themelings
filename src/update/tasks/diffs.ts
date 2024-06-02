@@ -2,28 +2,7 @@ import { prevFiles } from "..";
 import { handleShellErr, type Progress } from "../util";
 import { join } from "path";
 import Color from "color";
-
-export type OutDiffs = NonNullable<Awaited<ReturnType<typeof diffs>>>;
-
-export enum DiffEnum {
-  Added,
-  Changed,
-  Removed,
-}
-
-export type Diff =
-  | {
-      change: DiffEnum.Added;
-      cur: string;
-    }
-  | {
-      change: DiffEnum.Changed;
-      old: string;
-      cur: string;
-    }
-  | {
-      change: DiffEnum.Removed;
-    };
+import { DiffEnum, type Diff, type Icons } from "../../types";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -51,16 +30,14 @@ const diffRaw = async (progress: Progress) => {
         cur: newRaw[raw],
       });
   for (const raw of Object.keys(oldRaw))
-    if (!newRaw[raw]) changes.set(raw, { change: DiffEnum.Removed });
+    if (!newRaw[raw])
+      changes.set(raw, { change: DiffEnum.Removed, old: oldRaw[raw] });
 
   progress.update("diff_raw", true);
   return changes;
 };
 
-type SemanticColors = Record<
-  string,
-  Record<string, { raw: string; opacity: number }>
->;
+type SemanticColors = Record<string, Record<string, string>>;
 const diffSemantic = async (progress: Progress) => {
   progress.start("diff_semantic");
   if (!prevFiles.has("semantic.json")) {
@@ -75,19 +52,13 @@ const diffSemantic = async (progress: Progress) => {
     join("../data", "semantic.json")
   ).json()) as SemanticColors;
 
-  const raw = (await Bun.file(join("../data", "raw.json")).json()) as RawColors;
-
-  const colorify = (clr: SemanticColors[string][string]) =>
-    raw[clr.raw]
-      ? `${new Color(raw[clr.raw]).alpha(clr.opacity).hex()} (${clr.raw})`
-      : `unknown (${clr.raw})`;
   const allVars = (key: string, sem: SemanticColors[string], added: boolean) =>
     Object.entries(sem).forEach(([k, v]) =>
       changes.set(
         `${key}.${k}`,
         added
-          ? { change: DiffEnum.Added, cur: colorify(v) }
-          : { change: DiffEnum.Removed }
+          ? { change: DiffEnum.Added, cur: v }
+          : { change: DiffEnum.Removed, old: v }
       )
     );
 
@@ -99,15 +70,15 @@ const diffSemantic = async (progress: Progress) => {
         if (!oldSemantic[sem][clir])
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Added,
-            cur: colorify(newSemantic[sem][clir]),
+            cur: newSemantic[sem][clir],
           });
         else if (
           !Bun.deepEquals(oldSemantic[sem][clir], newSemantic[sem][clir])
         )
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Changed,
-            old: colorify(oldSemantic[sem][clir]),
-            cur: colorify(oldSemantic[sem][clir]),
+            old: oldSemantic[sem][clir],
+            cur: oldSemantic[sem][clir],
           });
 
   for (const sem of Object.keys(oldSemantic))
@@ -117,13 +88,13 @@ const diffSemantic = async (progress: Progress) => {
         if (!newSemantic[sem][clir])
           changes.set(`${sem}.${clir}`, {
             change: DiffEnum.Removed,
+            old: oldSemantic[sem][clir],
           });
 
   progress.update("diff_semantic", true);
   return changes;
 };
 
-type Icons = Record<string, { hash: string }>;
 const diffIcons = async (progress: Progress) => {
   progress.start("diff_icons");
   if (!prevFiles.has("icons.json")) {
@@ -138,18 +109,34 @@ const diffIcons = async (progress: Progress) => {
     join("../data", "icons.json")
   ).json()) as Icons;
 
+  const iconDir = {
+    old: join("../data", "oldicons"),
+    new: join("../data", "icons"),
+  };
+
   const changes = new Map<string, Diff>();
   for (const icon of Object.keys(newIcons))
     if (!oldIcons[icon])
-      changes.set(icon, { change: DiffEnum.Added, cur: newIcons[icon].hash });
+      changes.set(icon, {
+        change: DiffEnum.Added,
+        cur: newIcons[icon].hash,
+        curFile: join(iconDir.new, newIcons[icon].file),
+      });
     else if (newIcons[icon].hash !== oldIcons[icon].hash)
       changes.set(icon, {
         change: DiffEnum.Changed,
         old: oldIcons[icon].hash,
+        oldFile: join(iconDir.old, oldIcons[icon].file),
         cur: newIcons[icon].hash,
+        curFile: join(iconDir.new, newIcons[icon].file),
       });
   for (const icon of Object.keys(oldIcons))
-    if (!newIcons[icon]) changes.set(icon, { change: DiffEnum.Removed });
+    if (!newIcons[icon])
+      changes.set(icon, {
+        change: DiffEnum.Removed,
+        old: oldIcons[icon].hash,
+        oldFile: join(iconDir.old, oldIcons[icon].file),
+      });
 
   progress.update("diff_icons", true);
   return changes;
@@ -162,7 +149,10 @@ const diffCode = async (progress: Progress) => {
 
 export default async function diffs(progress: Progress) {
   const txt = (
-    await Bun.$`git status -z`.cwd("../data").quiet().then(handleShellErr)
+    await Bun.$`git status -z -- ':!oldicons' ':!icons'`
+      .cwd("../data")
+      .quiet()
+      .then(handleShellErr)
   )
     .text()
     .split("\x00")

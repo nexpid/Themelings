@@ -1,6 +1,7 @@
 import { join } from "path";
-import { readdir, writeFile, mkdir, copyFile, rm } from "node:fs/promises";
+import { readdir, writeFile, mkdir, copyFile, rename } from "node:fs/promises";
 import { sortObj, type Progress } from "../util";
+import type { Icons } from "../../types";
 
 export default async function icons(
   progress: Progress,
@@ -75,16 +76,7 @@ export default async function icons(
     .map((f) => f.value)
     .flat();
 
-  const icons = {} as Record<
-    string,
-    {
-      file: string;
-      hash: string;
-      scales: number[];
-      width: number | null;
-      height: number | null;
-    }
-  >;
+  const icons = {} as Icons;
   const toMove = new Array<[string, string]>();
   for (const lookFor of lookForFiles) {
     const path =
@@ -96,10 +88,10 @@ export default async function icons(
 
     const filePath = listed.find((f) => f.endsWith(`/${path}`));
     if (filePath) {
-      const actualPath = join(
-        lookFor.httpServerLocation.split("/").slice(2).join("/"),
-        `${lookFor.name}.${lookFor.type}`
-      );
+      let root = lookFor.httpServerLocation.split("/").slice(2).join("/");
+      if (root.startsWith("../")) root = `_/${root.slice(3)}`;
+
+      const actualPath = join(root, `${lookFor.name}.${lookFor.type}`);
       icons[lookFor.name] = {
         file: actualPath,
         hash: lookFor.hash,
@@ -108,19 +100,16 @@ export default async function icons(
         height: lookFor.height ?? null,
       };
 
-      toMove.push([
-        filePath,
-        actualPath.startsWith("../") ? `_/${actualPath.slice(3)}` : actualPath,
-      ]);
+      toMove.push([filePath, actualPath]);
     }
   }
 
   progress.update("icons_getting", true);
   progress.start("icons_copying");
 
-  await rm("../data/icons", { recursive: true, force: true });
+  // don't delete old icons just yet so we can display the old images
+  await rename("../data/icons", "../data/oldicons");
 
-  // make sure
   await writeFile(
     "../data/icons.json",
     JSON.stringify(sortObj(icons), undefined, 4)
