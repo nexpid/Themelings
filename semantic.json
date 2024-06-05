@@ -1,10 +1,4 @@
 {
-  "ACTIVITY_CARD_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#FFFFFF",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
-  },
   "ACTIVITY_CARD_ICON_OVERLAY": {
     "dark": "#313338",
     "light": "#313338",
@@ -34,6 +28,12 @@
     "light": "#000000",
     "midnight": "#FFFFFF",
     "darker": "#FFFFFF"
+  },
+  "AUTOCOMPLETE_BG": {
+    "dark": "#2B2D31",
+    "light": "#F9F9F9",
+    "midnight": "#2B2D31",
+    "darker": "#2B2D31"
   },
   "BACKGROUND_ACCENT": {
     "dark": "#41434A",

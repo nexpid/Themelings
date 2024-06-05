@@ -2072,6 +2072,16 @@
         "width": 24,
         "height": 24
     },
+    "PlaystationIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PlaystationIcon.png",
+        "hash": "b5b289e7af762ffdd7bbeb96869f28e9",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PlusLargeIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PlusLargeIcon.png",
         "hash": "a98ec07a12c3fb7ab42bccbc29869e4e",
