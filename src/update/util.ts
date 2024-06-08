@@ -117,8 +117,8 @@ export async function wrapPromise(
     const x = await promise;
     progress.update(key, true);
     return x;
-  } catch (e) {
-    progress.update(key, false, e);
+  } catch (e: any) {
+    progress.update(key, false, e.stack);
     throw e;
   }
 }

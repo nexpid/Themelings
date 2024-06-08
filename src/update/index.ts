@@ -238,9 +238,9 @@ if (!isMock) {
   try {
     taskProgress.start("diff");
     outDiffs = await diffs(taskProgress);
-  } catch (e) {
+  } catch (e: any) {
     taskProgress.update("diff", false);
-    throw new Error(`Failed to generate diffs!\n${e}`);
+    throw new Error(`Failed to generate diffs!\n${e.stack}`);
   }
 } else {
   outDiffs = mock;
@@ -253,9 +253,9 @@ if (outDiffs) {
     taskProgress.start("webhook");
     await webhook(version, outDiffs);
     taskProgress.update("webhook", true);
-  } catch (e) {
+  } catch (e: any) {
     taskProgress.update("webhook", false);
-    throw new Error(`Failed to send webhook messages!\n${e}`);
+    throw new Error(`Failed to send webhook messages!\n${e.stack}`);
   }
 } else {
   taskProgress.update("webhook", null);
