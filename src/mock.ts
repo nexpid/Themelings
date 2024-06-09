@@ -9,28 +9,37 @@ const randomColor = () =>
 // mock data for "bun run update:mock" and "bun run canvas:test"
 export default {
   semantic: new Map([
-    [
-      "MOCK_COLOR_SAMPLE_1",
-      {
-        change: DiffEnum.Added,
-        cur: randomColor(),
-      },
-    ],
-    [
-      "MOCK_COLOR_SAMPLE_2",
-      {
-        change: DiffEnum.Changed,
-        old: randomColor(),
-        cur: randomColor(),
-      },
-    ],
-    [
-      "MOCK_COLOR_SAMPLE_3",
-      {
-        change: DiffEnum.Removed,
-        old: randomColor(),
-      },
-    ],
+    ...new Array(10).fill(0).map(
+      (_, i) =>
+        [
+          `MOCK_SEMANTIC_SAMPLE_${i + 1}`,
+          {
+            change: DiffEnum.Added,
+            cur: randomColor(),
+          },
+        ] as any
+    ),
+    ...new Array(10).fill(0).map(
+      (_, i) =>
+        [
+          `MOCK_SEMANTIC_SAMPLE_${i + 11}`,
+          {
+            change: DiffEnum.Changed,
+            old: randomColor(),
+            cur: randomColor(),
+          },
+        ] as any
+    ),
+    ...new Array(10).fill(0).map(
+      (_, i) =>
+        [
+          `MOCK_SEMANTIC_SAMPLE_${i + 21}`,
+          {
+            change: DiffEnum.Removed,
+            old: randomColor(),
+          },
+        ] as any
+    ),
   ]),
   raw: undefined,
   icons: new Map([

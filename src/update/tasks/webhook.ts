@@ -1,6 +1,17 @@
 import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { DiffEnum, type Diff, type OutDiffs } from "../../types";
+import { maxChangesThreshold } from "../util";
+
+const cap = (arr: string[], stuff: string) =>
+  arr.length > maxChangesThreshold
+    ? [
+        ...arr.slice(0, maxChangesThreshold),
+        `(+${arr.length - maxChangesThreshold} ${stuff}${
+          arr.length - maxChangesThreshold > 1 ? "s" : ""
+        })`,
+      ]
+    : arr;
 
 const formatDiff = (diffs: Map<string, Diff>) => {
   const entries = [...diffs.entries()].map(([k, v]) => ({
@@ -9,15 +20,24 @@ const formatDiff = (diffs: Map<string, Diff>) => {
   })) as any[];
 
   const sections = {
-    Added: entries
-      .filter((x) => x.change === DiffEnum.Added)
-      .map((x) => `+ ${x.name}: ${x.cur}`),
-    Changed: entries
-      .filter((x) => x.change === DiffEnum.Changed)
-      .map((x) => `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`),
-    Removed: entries
-      .filter((x) => x.change === DiffEnum.Removed)
-      .map((x) => `- ${x.name}`),
+    Added: cap(
+      entries
+        .filter((x) => x.change === DiffEnum.Added)
+        .map((x) => `+ ${x.name}: ${x.cur}`),
+      "addition"
+    ),
+    Changed: cap(
+      entries
+        .filter((x) => x.change === DiffEnum.Changed)
+        .map((x) => `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`),
+      "change"
+    ),
+    Removed: cap(
+      entries
+        .filter((x) => x.change === DiffEnum.Removed)
+        .map((x) => `- ${x.name}`),
+      "removal"
+    ),
   };
 
   return Object.entries(sections)
@@ -83,10 +103,17 @@ const triggerWebhook = async (
     })
   );
 
-  return fetch(webhook, {
+  const res = await fetch(webhook, {
     method: "POST",
     body: formData,
   });
+
+  if (!res.ok)
+    throw new Error(
+      `Failed to send webhook message with embeds ${embeds
+        .map((x) => x.title)
+        .join(", ")}: ${await res.text()}`
+    );
 };
 
 export async function webhook(version: string, diffs: OutDiffs) {

@@ -1,11 +1,14 @@
 import { Canvas, FontLibrary, loadImage } from "skia-canvas";
 import { DiffEnum, type Diff } from "../types";
+import { getLines } from "./util";
+import { maxChangesThreshold } from "../update/util";
 
-interface DataEntry {
+type DataEntry = {
   label: string;
   color?: string;
   file?: string;
-}
+  important?: boolean;
+};
 
 FontLibrary.use({
   "gg-sans": ["src/canvas/fonts/ggsans/*.ttf"],
@@ -16,6 +19,7 @@ const colors = {
   bgMain: "#1c1d23", // BACKGROUND_PRIMARY
   bgSecondary: "#26272f", // BACKGROUND_SECONDARY
   textNormal: "#c7c8ce", // TEXT_NORMAL
+  importantBg: "#eeeeee05", // custom, something like BG_MOD_**********
 };
 
 export function convertDiffs(
@@ -28,36 +32,90 @@ export function convertDiffs(
     Removed: [[]],
   } as Record<string, DataEntry[][]>;
 
-  for (const [label, change] of diffs.entries()) {
-    if (change.change === DiffEnum.Added) {
+  const changesCounter = {
+    Added: 0,
+    Changed: 0,
+    Removed: 0,
+  };
+
+  const entries = [...diffs.entries()];
+  for (const [label, change] of entries) {
+    if (
+      change.change === DiffEnum.Added &&
+      maxChangesThreshold >= changesCounter.Added
+    ) {
       if (!color && !change.curFile) continue;
 
-      obj.Added[0].push({
-        label,
-        file: !color ? change.curFile : undefined,
-        color: color ? change.cur : undefined,
-      });
-    } else if (change.change === DiffEnum.Changed) {
+      if (changesCounter.Added === maxChangesThreshold) {
+        const count =
+          entries.filter(([_, x]) => x.change === DiffEnum.Added).length -
+          changesCounter.Added;
+
+        obj.Added[0].push({
+          label: `(+${count} addition${count > 1 ? "s" : ""})`,
+          important: true,
+        });
+      } else {
+        obj.Added[0].push({
+          label,
+          file: !color ? change.curFile : undefined,
+          color: color ? change.cur : undefined,
+        });
+      }
+      changesCounter.Added++;
+    } else if (
+      change.change === DiffEnum.Changed &&
+      maxChangesThreshold >= changesCounter.Changed
+    ) {
       if (!color && (!change.curFile || !change.oldFile)) continue;
 
-      obj.Changed[0].push({
-        label: `${label} — old`,
-        file: !color ? change.oldFile : undefined,
-        color: color ? change.old : undefined,
-      });
-      obj.Changed[1].push({
-        label: `${label} — new`,
-        file: !color ? change.curFile : undefined,
-        color: color ? change.cur : undefined,
-      });
-    } else if (change.change === DiffEnum.Removed) {
+      if (changesCounter.Changed === maxChangesThreshold) {
+        const count =
+          entries.filter(([_, x]) => x.change === DiffEnum.Changed).length -
+          changesCounter.Changed;
+        const obja = {
+          label: `(+${count} change${count > 1 ? "s" : ""})`,
+          important: true,
+        };
+
+        obj.Changed[0].push(obja);
+        obj.Changed[1].push(obja);
+      } else {
+        obj.Changed[0].push({
+          label: `${label} — old`,
+          file: !color ? change.oldFile : undefined,
+          color: color ? change.old : undefined,
+        });
+        obj.Changed[1].push({
+          label: `${label} — new`,
+          file: !color ? change.curFile : undefined,
+          color: color ? change.cur : undefined,
+        });
+      }
+      changesCounter.Changed++;
+    } else if (
+      change.change === DiffEnum.Removed &&
+      maxChangesThreshold >= changesCounter.Removed
+    ) {
       if (!color && !change.oldFile) continue;
 
-      obj.Removed[0].push({
-        label,
-        file: !color ? change.oldFile : undefined,
-        color: color ? change.old : undefined,
-      });
+      if (changesCounter.Removed === maxChangesThreshold) {
+        const count =
+          entries.filter(([_, x]) => x.change === DiffEnum.Removed).length -
+          changesCounter.Removed;
+
+        obj.Removed[0].push({
+          label: `(+${count} removal${count > 1 ? "s" : ""})`,
+          important: true,
+        });
+      } else {
+        obj.Removed[0].push({
+          label,
+          file: !color ? change.oldFile : undefined,
+          color: color ? change.old : undefined,
+        });
+      }
+      changesCounter.Removed++;
     }
   }
 
@@ -72,10 +130,12 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
   // constants
   const labelFontSize = 24;
   const assetTitleFontSize = 18;
+  const importantTextFontSize = 20;
 
   const padding = 16;
   const textHei = assetTitleFontSize + padding / 4;
   const itemHei = 128;
+  const importantTextItemWid = itemHei + 3 + textHei;
 
   // measures the width of images & text
 
@@ -102,12 +162,25 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
   const textMeasurements = new Array<number>();
   const textWidthMap = new Map<string, number>();
 
+  const widForAsset = (asset: DataEntry) =>
+    asset.file
+      ? imageWidths.get(asset.file!)!
+      : asset.important
+      ? importantTextItemWid
+      : asset.color
+      ? itemHei
+      : 0;
+
   for (const [_, changes] of entries) {
     for (const row of changes) {
       let rowLen = 0;
       for (const text of row) {
-        const m = measureCtx.measureText(text.label).width;
-        const wid = text.file ? Math.max(m, imageWidths.get(text.file)!) : m;
+        let wid = 0;
+        if (text.important) wid = importantTextItemWid;
+        else {
+          const m = measureCtx.measureText(text.label).width;
+          wid = Math.max(m, widForAsset(text));
+        }
 
         rowLen += wid;
         textWidthMap.set(text.label, wid);
@@ -177,12 +250,15 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
       for (let i = 0; i < changes[0].length; i++) {
         const asset = row[i];
         const textWid = textWids[i];
+        const itemWid = widForAsset(asset);
 
-        ctx.fillStyle = colors.textNormal;
-        ctx.font = assetTitleFont;
-        ctx.fillText(asset.label, x + spacing, y);
+        const midX = x + textWid / 2 - itemWid / 2;
 
-        const midX = textWid > textWid ? x - textWid / 2 + textWid / 2 : x;
+        if (!asset.important) {
+          ctx.fillStyle = colors.textNormal;
+          ctx.font = assetTitleFont;
+          ctx.fillText(asset.label, x + spacing, y);
+        }
 
         if (asset.color) {
           ctx.fillStyle = asset.color;
@@ -203,6 +279,37 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
             imageWidths.get(asset.file)!,
             itemHei
           );
+        } else if (asset.important) {
+          ctx.fillStyle = colors.importantBg;
+          ctx.beginPath();
+          ctx.roundRect(
+            x + spacing,
+            y,
+            importantTextItemWid,
+            importantTextItemWid,
+            25
+          );
+          ctx.fill();
+
+          ctx.fillStyle = colors.textNormal;
+          ctx.font = `600 ${importantTextFontSize}px gg-sans`;
+
+          const lines = getLines(ctx, asset.label, importantTextItemWid);
+
+          const startY =
+            y +
+            importantTextItemWid / 2 -
+            (lines.length * (importantTextFontSize + 1)) / 2;
+          for (let l = 0; l < lines.length; l++) {
+            const textWid = ctx.measureText(lines[l]).width;
+            const setX = x + spacing + importantTextItemWid / 2 - textWid / 2;
+
+            ctx.fillText(
+              lines[l],
+              setX,
+              startY + l * (importantTextFontSize + 1)
+            );
+          }
         }
 
         spacing += textWid + padding;
