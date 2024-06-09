@@ -163,10 +163,9 @@ if (!isMock) {
     taskProgress.start("preinit");
 
     taskProgress.start("preinit_discard");
-    // no need to discard icons folder as it gets discarded in the icons task
     await Bun.$`git checkout -- ${{
       raw: oprevFiles.map((x) => Bun.$.escape(x)).join(" "),
-    }}`
+    }} icons`
       .cwd("../data")
       .nothrow()
       .quiet()
@@ -246,8 +245,6 @@ if (!isMock) {
   outDiffs = mock;
 }
 
-await rm("../data/oldicons", { force: true, recursive: true });
-
 if (outDiffs) {
   try {
     taskProgress.start("webhook");
@@ -260,4 +257,7 @@ if (outDiffs) {
 } else {
   taskProgress.update("webhook", null);
 }
+
+await rm("../data/oldicons", { force: true, recursive: true });
+
 console.log("✅ Done");
