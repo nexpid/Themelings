@@ -3405,16 +3405,6 @@
         "width": 70,
         "height": 47
     },
-    "block_channels": {
-        "file": "modules/guild_home/native/images/block_channels.png",
-        "hash": "083ddc88b760782826d7c65be426f968",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 293,
-        "height": 157
-    },
     "blocked-purchases-dark": {
         "file": "modules/billing/native/images/blocked-purchases-dark.png",
         "hash": "f5aa8d22ffc464d3c9704d96fbbd1afa",
@@ -4123,16 +4113,6 @@
         "width": 240,
         "height": 105
     },
-    "dark_feature_empty": {
-        "file": "modules/guild_home/native/images/dark_feature_empty.png",
-        "hash": "b71ea669ce94e31c07e6f79ff6f11df7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
     "dark_home_header_placeholder": {
         "file": "modules/guild_home/native/images/dark_home_header_placeholder.png",
         "hash": "ba87a4f1a3775c9189bf0599d24fcb24",
@@ -4729,36 +4709,6 @@
         "width": 70,
         "height": 47
     },
-    "expired_green": {
-        "file": "modules/guild_home/native/images/expired_green.png",
-        "hash": "c8b1870cacc94ac3dfb8609878357afc",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
-    "expired_red": {
-        "file": "modules/guild_home/native/images/expired_red.png",
-        "hash": "46104817769756c0370ea77821e897fe",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
-    "expired_yellow": {
-        "file": "modules/guild_home/native/images/expired_yellow.png",
-        "hash": "162466ff15c42619c9f51253fe4c0b51",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "failure-header": {
         "file": "images/native/oauth2/failure-header.png",
         "hash": "118e914321321b15506a73d46c214571",
@@ -4832,26 +4782,6 @@
         ],
         "width": 343,
         "height": 149
-    },
-    "feature_messages": {
-        "file": "modules/guild_home/native/images/feature_messages.png",
-        "hash": "54250a3ae92fd88ab40779f5b734d29b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 293,
-        "height": 157
-    },
-    "feature_star": {
-        "file": "modules/guild_home/native/images/feature_star.png",
-        "hash": "06a7164b4d708f80866526041a71589d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 12,
-        "height": 12
     },
     "feedback": {
         "file": "images/native/notifications/feedback.png",
@@ -6147,16 +6077,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_chat": {
-        "file": "modules/guild_home/native/images/ic_chat.png",
-        "hash": "b72facd07a803590eb54f1820b91bcd3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_chat_24px": {
         "file": "images/native/audit_logs/ic_chat_24px.png",
         "hash": "a789375728483df91494413da0a7d5c5",
@@ -6280,14 +6200,14 @@
         "height": 24
     },
     "ic_clock": {
-        "file": "modules/guild_home/native/images/ic_clock.png",
-        "hash": "cbb4b2cac7aba0cc1568ddad06f91c2f",
+        "file": "images/native/icons/user_profile/ic_clock.png",
+        "hash": "50a11b05117d31e1ad224516819cbd87",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 24,
+        "height": 24
     },
     "ic_clock_timeout_16px": {
         "file": "images/native/icons/ic_clock_timeout_16px.png",
@@ -7373,16 +7293,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_hide": {
-        "file": "modules/guild_home/native/images/ic_hide.png",
-        "hash": "4d5f011310dcab03d41facff050972b5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_hide_24px": {
         "file": "images/native/icons/ic_hide_24px.png",
         "hash": "b9997656a6ea3bbba288fa094cb46f69",
@@ -7427,27 +7337,6 @@
     "ic_home": {
         "file": "images/native/icons/ic_home.png",
         "hash": "9a553b5676f66b916dad899877998f41",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_home_event": {
-        "file": "modules/guild_home/native/images/ic_home_event.png",
-        "hash": "af175dc8f9ee3fdcb10421d257a32da0",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
-    "ic_home_remove": {
-        "file": "images/native/icons/ic_home_remove.png",
-        "hash": "2bab604984c2aade4c5083465e7a9a7c",
         "scales": [
             1,
             2,
@@ -9644,16 +9533,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_unread_checkmark": {
-        "file": "modules/guild_home/native/images/ic_unread_checkmark.png",
-        "hash": "b17342a9aa201e264970c944d8e8bcef",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24.5
-    },
     "ic_update_profile": {
         "file": "images/native/icons/ic_update_profile.png",
         "hash": "9b2d7ede4e6a66812c53739302a187c3",
@@ -11096,56 +10975,6 @@
         ],
         "width": 89,
         "height": 80
-    },
-    "img_feed_empty_dark": {
-        "file": "modules/guild_home/native/images/img_feed_empty_dark.png",
-        "hash": "8fa43c14a8a39c3bef1059c3298f209a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
-    "img_feed_empty_light": {
-        "file": "modules/guild_home/native/images/img_feed_empty_light.png",
-        "hash": "e49bf44bc6d4e22a009b399a7c2b0bd5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
-    "img_feed_error_dark": {
-        "file": "modules/guild_home/native/images/img_feed_error_dark.png",
-        "hash": "af657cccec16bb920f24e066a006e72a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 80,
-        "height": 80
-    },
-    "img_feed_error_light": {
-        "file": "modules/guild_home/native/images/img_feed_error_light.png",
-        "hash": "9843aa778dbcd2903718f7c330010728",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 80,
-        "height": 80
-    },
-    "img_fishing": {
-        "file": "modules/guild_home/native/images/img_fishing.png",
-        "hash": "119d14cfc8528a0a7afba1b8501f2a3b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 200,
-        "height": 170.5
     },
     "img_forum_empty_state_dark": {
         "file": "modules/forums/native/images/img_forum_empty_state_dark.png",
@@ -13128,16 +12957,6 @@
         "width": 16.5,
         "height": 15
     },
-    "light_feature_empty": {
-        "file": "modules/guild_home/native/images/light_feature_empty.png",
-        "hash": "2117b4777c41bb175748d53b9763e24c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
     "light_home_header_placeholder": {
         "file": "modules/guild_home/native/images/light_home_header_placeholder.png",
         "hash": "2350a6e29ab96dbf4682611d6fbf7bcc",
@@ -13686,17 +13505,6 @@
         "width": 192,
         "height": 108
     },
-    "nux_card": {
-        "file": "modules/guild_home/native/images/nux_card.png",
-        "hash": "dfa3e418a0953c97495444edd9dcb211",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 343,
-        "height": 112
-    },
     "nux_gaming": {
         "file": "modules/video_calls/native/images/nux_gaming.png",
         "hash": "87d5f6910cd4834593faa4b25724711b",
@@ -14082,16 +13890,6 @@
         ],
         "width": 400,
         "height": 200
-    },
-    "remove_messages": {
-        "file": "modules/guild_home/native/images/remove_messages.png",
-        "hash": "500957c608e579221d60e15601eebeca",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 293,
-        "height": 157
     },
     "report": {
         "file": "modules/video_calls/native/images/report.png",
