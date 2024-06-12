@@ -2152,6 +2152,16 @@
         "width": 24,
         "height": 24
     },
+    "RefreshIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/RefreshIcon.png",
+        "hash": "136df0847d0486488a50fcc0194b3f3c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "RetryIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/RetryIcon.png",
         "hash": "3281c6d8ce8412159d83850c1810e69a",
@@ -3295,17 +3305,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "auth-logo": {
-        "file": "modules/auth/native/images/auth-logo.png",
-        "hash": "ff4f68ed101d960be86b9dff66dcbff4",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 219,
-        "height": 41
     },
     "auto_moderation_avatar": {
         "file": "images/native/auto_moderation/auto_moderation_avatar.png",
@@ -12818,8 +12817,8 @@
         "width": 32,
         "height": 32
     },
-    "invite-bg-refresh": {
-        "file": "images/native/invite-bg-refresh.png",
+    "invite-bg": {
+        "file": "images/native/invite-bg.png",
         "hash": "e9dc3df9d4b7e938060f7bdde21fd235",
         "scales": [
             3
@@ -15171,23 +15170,14 @@
         "width": 292,
         "height": 182
     },
-    "welcome-bg-refresh": {
-        "file": "images/native/welcome-bg-refresh.png",
+    "welcome-bg": {
+        "file": "images/native/welcome-bg.png",
         "hash": "696b38889be952e7a00a192dd5376eea",
         "scales": [
             3
         ],
         "width": 192.33333333333334,
         "height": 416
-    },
-    "welcome-splash-art": {
-        "file": "modules/auth/native/images/welcome-splash-art.png",
-        "hash": "fc8bb453ece1db197b1a535cb7723633",
-        "scales": [
-            1
-        ],
-        "width": 1500,
-        "height": 1750
     },
     "whatsapp": {
         "file": "modules/instant_invite/native/images/whatsapp.png",
@@ -15292,6 +15282,15 @@
         ],
         "width": 251,
         "height": 153
+    },
+    "wumpus_couch_gaming": {
+        "file": "modules/quests/images/wumpus_couch_gaming.png",
+        "hash": "0137c9e4438d53242640eb0e7d4abc71",
+        "scales": [
+            1
+        ],
+        "width": 248,
+        "height": 121
     },
     "wumpus_cup_premium120": {
         "file": "images/native/gifting/wumpus_cup_premium120.png",
