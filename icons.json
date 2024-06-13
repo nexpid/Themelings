@@ -137,16 +137,6 @@
         "width": 24,
         "height": 24
     },
-    "ArrowAngleRightUpIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ArrowAngleRightUpIcon.png",
-        "hash": "c0b7b8fd143e9736dfb2b8f48ffb33a1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ArrowLargeDownIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowLargeDownIcon.png",
         "hash": "31d729eec39d0a471cc9c520d2b01730",
@@ -499,6 +489,16 @@
     "ChatAlertIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatAlertIcon.png",
         "hash": "183dc6c7ed2b65db0ffc441abb094aaf",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ChatArrowRightIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChatArrowRightIcon.png",
+        "hash": "9928a50745c95802a6f83dbb43decf94",
         "scales": [
             2,
             3
@@ -14201,7 +14201,7 @@
         "height": 20
     },
     "search_empty_state": {
-        "file": "modules/hub/native/images/search_empty_state.png",
+        "file": "modules/directory_channels/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
