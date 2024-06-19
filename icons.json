@@ -1575,6 +1575,16 @@
         "width": 24,
         "height": 24
     },
+    "LinkExternalMediumIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/LinkExternalMediumIcon.png",
+        "hash": "1ffdd611855b0438d4489a159cf4b5be",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "LinkExternalSmallIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/LinkExternalSmallIcon.png",
         "hash": "96ab65dc26bfd3ab1ec641a576551741",
@@ -2314,6 +2324,16 @@
     "ShieldIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ShieldIcon.png",
         "hash": "b061cf2b791ecaf754bfa1a59cdc30f6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ShieldLockIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ShieldLockIcon.png",
+        "hash": "f0eee004694364b9f1e2fb524275e6bc",
         "scales": [
             2,
             3
@@ -7081,14 +7101,14 @@
         "height": 24
     },
     "ic_gift": {
-        "file": "images/native/icons/ic_gift.png",
-        "hash": "25b28a12657775964c80c08fa4bc3ce7",
+        "file": "modules/chat_input/native/images/ic_gift.png",
+        "hash": "3bb810feeef725cdc166c3d0641bd889",
         "scales": [
             2,
             3
         ],
-        "width": 16,
-        "height": 16
+        "width": 24,
+        "height": 24
     },
     "ic_gift_24px": {
         "file": "images/native/icons/settings/ic_gift_24px.png",
@@ -9772,6 +9792,17 @@
         "file": "images/native/audit_logs/ic_webhook_24px.png",
         "hash": "8c00be1141cb84cb642baa0c8be8dc1e",
         "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ic_wreath": {
+        "file": "modules/quests/native/images/ic_wreath.png",
+        "hash": "d34103fd5e89ba1cd4ca70f2429c1570",
+        "scales": [
+            1,
             2,
             3
         ],
@@ -14708,14 +14739,14 @@
         "height": 23
     },
     "tier_1_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_1_32px.png",
-        "hash": "b352e1ffa0afe53b75c17fb675b513d6",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_1_32px.png",
+        "hash": "e7624f04ed4a80ca86e10402e935320b",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "tier_2_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_2_24px.png",
@@ -14728,14 +14759,14 @@
         "height": 23
     },
     "tier_2_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_2_32px.png",
-        "hash": "d9ada236b866307c8985fc87fdd51c88",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_2_32px.png",
+        "hash": "8f9077e5b37bff7706de677d0f3debbe",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "tier_3_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_3_24px.png",
@@ -14748,14 +14779,14 @@
         "height": 23
     },
     "tier_3_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_3_32px.png",
-        "hash": "1b3ea47fa559c5b08fa13d985346d3b8",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_3_32px.png",
+        "hash": "81c4c8246b195a90d6f5bb90212bbc6a",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "tips": {
         "file": "modules/self_mod/inappropriate_conversation/images/tips.png",
@@ -15188,6 +15219,17 @@
         ],
         "width": 52,
         "height": 52
+    },
+    "wreath": {
+        "file": "modules/quests/native/images/wreath.png",
+        "hash": "0a1e6b06d14b5f4b07f6cd276f16646e",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 48,
+        "height": 45
     },
     "wumpus-ash": {
         "file": "images/native/wumpus/wumpus-ash.png",
