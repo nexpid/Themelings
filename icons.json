@@ -177,6 +177,16 @@
         "width": 24,
         "height": 24
     },
+    "ArrowSmallRightIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallRightIcon.png",
+        "hash": "06767027300484a1b3b4b3f2f045c28c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ArrowSmallUpIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallUpIcon.png",
         "hash": "66e9aea4e8448b79caec86b51a818715",
@@ -1165,6 +1175,16 @@
         "width": 24,
         "height": 24
     },
+    "FlashIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FlashIcon.png",
+        "hash": "ccf98b2abca3da8ca2582b092e3870e6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "FolderIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/FolderIcon.png",
         "hash": "1ede61eb388c1bde59d5c2bfab383c99",
@@ -1852,6 +1872,16 @@
         "width": 24,
         "height": 24
     },
+    "NewUserLargeIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/NewUserLargeIcon.png",
+        "hash": "a5ce9c062221258072afdd0b03e340ec",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "NitroGem1": {
         "file": "design/components/LottieIcon/native/generated/lotties/NitroGem1.lottie",
         "hash": "6a5cd110534b64950591f570afc3306f",
@@ -2155,6 +2185,16 @@
     "ReactionIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
         "hash": "f1a659c91bd36b4a0872e9b8ddf8ad85",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "RecordPlayerIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
+        "hash": "d8085aec4aeb71d8649b817c49c715bf",
         "scales": [
             2,
             3
@@ -2702,6 +2742,16 @@
         "width": 24,
         "height": 24
     },
+    "TimerIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TimerIcon.png",
+        "hash": "42a9fac3781f146a23310b60f204f810",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "TopicsIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TopicsIcon.png",
         "hash": "94b9d63d3ea97367969168e616b8a537",
@@ -2735,6 +2785,16 @@
     "TrophyIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TrophyIcon.png",
         "hash": "36bb5572df50584a8c4f9d8d779b84e4",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "TvIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TvIcon.png",
+        "hash": "2e8948de891f375ed0a153c48a350d59",
         "scales": [
             2,
             3
@@ -3423,6 +3483,16 @@
         ],
         "width": 70,
         "height": 47
+    },
+    "bg-fade": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/bg-fade.png",
+        "hash": "c1f77b9ce53e19e1dbe23e49aab04cfc",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 393,
+        "height": 314
     },
     "blocked-purchases-dark": {
         "file": "modules/billing/native/images/blocked-purchases-dark.png",
@@ -5290,6 +5360,26 @@
         ],
         "width": 215.5,
         "height": 135
+    },
+    "header-image-dark": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-dark.png",
+        "hash": "8eb9f5e80d403051aeebb70d36d678c0",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 393,
+        "height": 332
+    },
+    "header-image-light": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-light.png",
+        "hash": "6b7627b4b095ef7396f153c06a2d1164",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 393,
+        "height": 332
     },
     "header_arrow_right": {
         "file": "images/native/icons/header_arrow_right.png",
@@ -12850,7 +12940,7 @@
     },
     "invite-bg": {
         "file": "images/native/invite-bg.png",
-        "hash": "e9dc3df9d4b7e938060f7bdde21fd235",
+        "hash": "313fd6dabf823cbd5c0b9608bb8b54d4",
         "scales": [
             3
         ],
@@ -15203,7 +15293,7 @@
     },
     "welcome-bg": {
         "file": "images/native/welcome-bg.png",
-        "hash": "696b38889be952e7a00a192dd5376eea",
+        "hash": "38957e8b938c7ee2a40f1e8c893feb71",
         "scales": [
             3
         ],
