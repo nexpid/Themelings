@@ -556,6 +556,16 @@
         "width": 24,
         "height": 24
     },
+    "ChatXIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChatXIcon.png",
+        "hash": "55c12b99036a3767128249c5ba991795",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "Check": {
         "file": "images/native/icons/Check.png",
         "hash": "cda3a003be131c8b7dcff249dd205483",
@@ -2192,16 +2202,6 @@
         "width": 24,
         "height": 24
     },
-    "RecordPlayerIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
-        "hash": "d8085aec4aeb71d8649b817c49c715bf",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "RefreshIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/RefreshIcon.png",
         "hash": "136df0847d0486488a50fcc0194b3f3c",
@@ -2785,16 +2785,6 @@
     "TrophyIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TrophyIcon.png",
         "hash": "36bb5572df50584a8c4f9d8d779b84e4",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "TvIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/TvIcon.png",
-        "hash": "2e8948de891f375ed0a153c48a350d59",
         "scales": [
             2,
             3
@@ -4571,16 +4561,6 @@
         ],
         "width": 1088,
         "height": 888
-    },
-    "empty_dms": {
-        "file": "images/native/empties/empty_dms.png",
-        "hash": "9070e8654cf28103978100f11d116139",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 200,
-        "height": 180
     },
     "empty_dms_activities": {
         "file": "images/native/empties/empty_dms_activities.png",
@@ -7140,16 +7120,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_friends_list_24px": {
-        "file": "images/native/icons/ic_friends_list_24px.png",
-        "hash": "694ad4482e6ae637e0b8128307d40fbb",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_full_server_gating_24px": {
         "file": "modules/guild_role_subscriptions/native/images/ic_full_server_gating_24px.png",
         "hash": "ed13dc1c27325d7ffd6ba2403047329c",
@@ -8216,17 +8186,6 @@
         "width": 18,
         "height": 18
     },
-    "ic_new_chat": {
-        "file": "images/native/icons/ic_new_chat.png",
-        "hash": "26b8c002dfc9aed6cfa98fc1f16f500b",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_new_group": {
         "file": "images/native/icons/ic_new_group.png",
         "hash": "4bd6c538247139e62012105bba755f6b",
@@ -8918,17 +8877,6 @@
         "file": "images/native/icons/ic_search_24px.png",
         "hash": "684396f8a11c6f9f471d257db09787a7",
         "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_search_items_24px": {
-        "file": "images/native/icons/ic_search_items_24px.png",
-        "hash": "d134bc28513a7c71fc88549484c477fe",
-        "scales": [
-            1,
             2,
             3
         ],
