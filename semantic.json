@@ -1,10 +1,4 @@
 {
-  "ACTIVITY_CARD_ICON_OVERLAY": {
-    "dark": "#313338",
-    "light": "#313338",
-    "midnight": "#313338",
-    "darker": "#313338"
-  },
   "ALERT_BG": {
     "dark": "#313338",
     "light": "#FFFFFF",
@@ -1168,6 +1162,12 @@
     "light": "#5865F2",
     "midnight": "#5865F2",
     "darker": "#5865F2"
+  },
+  "PREMIUM_NITRO_PINK_TEXT": {
+    "dark": "#C269C3",
+    "light": "#B64AB7",
+    "midnight": "#C269C3",
+    "darker": "#C269C3"
   },
   "PROFILE_GRADIENT_CARD_BACKGROUND": {
     "dark": "#000000",

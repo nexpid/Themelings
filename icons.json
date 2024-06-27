@@ -137,6 +137,16 @@
         "width": 24,
         "height": 24
     },
+    "ArrowAngleRightUpIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ArrowAngleRightUpIcon.png",
+        "hash": "c0b7b8fd143e9736dfb2b8f48ffb33a1",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ArrowLargeDownIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowLargeDownIcon.png",
         "hash": "31d729eec39d0a471cc9c520d2b01730",
@@ -577,6 +587,16 @@
         "width": 16,
         "height": 16
     },
+    "CheckmarkBoldIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CheckmarkBoldIcon.png",
+        "hash": "22291d09068e066a92bcc29646b02cf0",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CheckmarkLargeIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CheckmarkLargeIcon.png",
         "hash": "9d641779c749800b149fc6eb9fccfc0d",
@@ -917,6 +937,16 @@
         "width": 24,
         "height": 24
     },
+    "CloseLargeBoldIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CloseLargeBoldIcon.png",
+        "hash": "af1fd926ca82426740ac350dc57bbc71",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CloseLargeIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CloseLargeIcon.png",
         "hash": "3b352f682fa71f9019ca78f5cab33ee6",
@@ -966,6 +996,16 @@
         ],
         "width": 60,
         "height": 60
+    },
+    "CompassIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CompassIcon.png",
+        "hash": "d6fe85c696b38ae5afd8f9ef30a6e31f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "ConnectionAverageIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ConnectionAverageIcon.png",
