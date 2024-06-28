@@ -137,16 +137,6 @@
         "width": 24,
         "height": 24
     },
-    "ArrowAngleRightUpIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ArrowAngleRightUpIcon.png",
-        "hash": "c0b7b8fd143e9736dfb2b8f48ffb33a1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ArrowLargeDownIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowLargeDownIcon.png",
         "hash": "31d729eec39d0a471cc9c520d2b01730",
@@ -1855,6 +1845,16 @@
     "MobilePhoneIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MobilePhoneIcon.png",
         "hash": "aad07e8ebf4cfb5e04a12721cdeafb36",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "MobilePhoneShareIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MobilePhoneShareIcon.png",
+        "hash": "40f3d4a49b93568bef914990d598e7f9",
         "scales": [
             2,
             3
@@ -5034,6 +5034,16 @@
         "width": 88,
         "height": 80
     },
+    "flash": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/flash.png",
+        "hash": "5632bfe1a4a64d6acc9af32af7b3ab38",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 77,
+        "height": 95.5
+    },
     "fr": {
         "file": "_/discord_common/js/shared/images/flags/fr.png",
         "hash": "8d1d548a64761f0c5b1d7c9e00ae66a6",
@@ -5383,23 +5393,23 @@
     },
     "header-image-dark": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-dark.png",
-        "hash": "8eb9f5e80d403051aeebb70d36d678c0",
+        "hash": "fd9ded67628358483927158abb21d6b6",
         "scales": [
             2,
             3
         ],
         "width": 393,
-        "height": 332
+        "height": 312
     },
     "header-image-light": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-light.png",
-        "hash": "6b7627b4b095ef7396f153c06a2d1164",
+        "hash": "c95bebfcb730b96e2dc7350a0d7321bd",
         "scales": [
             2,
             3
         ],
         "width": 393,
-        "height": 332
+        "height": 312
     },
     "header_arrow_right": {
         "file": "images/native/icons/header_arrow_right.png",
@@ -9958,50 +9968,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "icon-qs-files": {
-        "file": "modules/main_tabs_v2/native/images/icon-qs-files.png",
-        "hash": "8ada35ed58c233a2b1e99fcd8e1fdddc",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "icon-qs-links": {
-        "file": "modules/main_tabs_v2/native/images/icon-qs-links.png",
-        "hash": "3d2875d42b88f7f61867ad676f0b4889",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "icon-qs-media": {
-        "file": "modules/main_tabs_v2/native/images/icon-qs-media.png",
-        "hash": "e80f06f095d7ddd68f72041dcd91115d",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "icon-qs-messages": {
-        "file": "modules/main_tabs_v2/native/images/icon-qs-messages.png",
-        "hash": "5ed6827ef2bb9f4a56dc712d0886a2cf",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 22,
-        "height": 21
     },
     "icon-search": {
         "file": "modules/main_tabs_v2/native/channel/header/images/icon-search.png",
