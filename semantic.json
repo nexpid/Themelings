@@ -1250,7 +1250,7 @@
   "REDESIGN_ACTIVITY_CARD_OVERFLOW_BACKGROUND": {
     "dark": "#2B2D31",
     "light": "#DBDEE1",
-    "midnight": "#2B2D31",
+    "midnight": "#2C2D35",
     "darker": "#2C2D35"
   },
   "REDESIGN_BUTTON_ACTIVE_BACKGROUND": {

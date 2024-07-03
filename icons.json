@@ -247,16 +247,6 @@
         "width": 24,
         "height": 24
     },
-    "BadgeIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/BadgeIcon.png",
-        "hash": "09812babf8807fd68efa8ea98bd6d1ae",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "BeakerIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/BeakerIcon.png",
         "hash": "a160bbc53d118b994b49dde8caed0bee",
@@ -3958,7 +3948,7 @@
         "height": 175
     },
     "close": {
-        "file": "modules/search_v3/native/images/close.png",
+        "file": "modules/search_v2/native/images/close.png",
         "hash": "4775c59d484c7d09cb86e825bfc0bbbf",
         "scales": [
             2,
@@ -14266,7 +14256,7 @@
         "height": 16
     },
     "search": {
-        "file": "modules/search_v3/native/images/search.png",
+        "file": "modules/search_v2/native/images/search.png",
         "hash": "f1a015be6870f4be31810fc8f6ed6550",
         "scales": [
             2,
