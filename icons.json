@@ -3564,6 +3564,15 @@
         "width": 433,
         "height": 231.5
     },
+    "blue_wumpus": {
+        "file": "modules/collectibles/images/blue_wumpus.png",
+        "hash": "5f63cdada22acac3f5cf0bfef66d7b32",
+        "scales": [
+            1
+        ],
+        "width": 296,
+        "height": 296
+    },
     "boost": {
         "file": "modules/guild_profile/native/images/boost.png",
         "hash": "0e02f6accc59d44ac3827104886762f1",
@@ -3621,6 +3630,24 @@
         ],
         "width": 161,
         "height": 160
+    },
+    "butterflies_dark_mode": {
+        "file": "modules/collectibles/images/butterflies_dark_mode.png",
+        "hash": "7c073d6c908f6e36c0c748c4ce9cef36",
+        "scales": [
+            1
+        ],
+        "width": 1500,
+        "height": 1000
+    },
+    "butterflies_light_mode": {
+        "file": "modules/collectibles/images/butterflies_light_mode.png",
+        "hash": "561abde59b0f39500a81da5a4d43cc0e",
+        "scales": [
+            1
+        ],
+        "width": 1500,
+        "height": 1000
     },
     "cactus": {
         "file": "modules/guild_role_subscriptions/native/images/cactus.png",
@@ -5063,6 +5090,15 @@
         ],
         "width": 24,
         "height": 24
+    },
+    "galaxy_wumpus": {
+        "file": "modules/collectibles/images/galaxy_wumpus.png",
+        "hash": "0baadacf66519134507f06493b6a121f",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
     },
     "game-empty-state": {
         "file": "modules/main_tabs_v2/native/images/game-empty-state.png",
@@ -13670,6 +13706,15 @@
         "width": 32,
         "height": 32
     },
+    "petal_confetti": {
+        "file": "modules/collectibles/images/petal_confetti.png",
+        "hash": "e98beb1addad883a4bef04de67db52d7",
+        "scales": [
+            1
+        ],
+        "width": 600,
+        "height": 600
+    },
     "phibi_1": {
         "file": "images/native/avatars/phibi_1.png",
         "hash": "b002cec8fdbd5414b4068fe272d35071",
@@ -13865,6 +13910,15 @@
         ],
         "width": 70,
         "height": 47
+    },
+    "puppy": {
+        "file": "modules/collectibles/images/puppy.png",
+        "hash": "d17aab7c352afd6cd9bcfe1461a9e431",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
     },
     "quests_embed_mobile_missing": {
         "file": "modules/quests/images/quests_embed_mobile_missing.png",
@@ -14384,6 +14438,15 @@
         "width": 24,
         "height": 24
     },
+    "shop_profile_upsell_galaxy": {
+        "file": "modules/collectibles/web/images/shop_profile_upsell_galaxy.png",
+        "hash": "b45c135400710790ffe2f23c5b2b3b1a",
+        "scales": [
+            1
+        ],
+        "width": 313,
+        "height": 265
+    },
     "sparkle_star_elongated": {
         "file": "modules/guild_boosting/native/images/sparkle_star_elongated.png",
         "hash": "05cd5f5720d5fb81034c2d2412372f33",
@@ -14721,6 +14784,33 @@
         ],
         "width": 20,
         "height": 20
+    },
+    "tide_avatar": {
+        "file": "modules/collectibles/images/tide_avatar.png",
+        "hash": "4a99cd0f0b62f95267bc143dd24b03b6",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
+    },
+    "tide_countdown_icon": {
+        "file": "modules/collectibles/images/tide_countdown_icon.png",
+        "hash": "d97726ef6028342d4f6ff420257b5e08",
+        "scales": [
+            1
+        ],
+        "width": 80,
+        "height": 80
+    },
+    "tide_upsell_banner_art": {
+        "file": "modules/collectibles/web/images/tide_upsell_banner_art.png",
+        "hash": "d365d4ee38bd7e95d7a3276a88ec2cf6",
+        "scales": [
+            1
+        ],
+        "width": 369,
+        "height": 285
     },
     "tier_0_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_0_24px.png",
@@ -15401,6 +15491,15 @@
         "width": 229,
         "height": 140
     },
+    "wumpus_omen": {
+        "file": "modules/collectibles/images/wumpus_omen.png",
+        "hash": "cd3fc33372a27f4bef66f16c351e6ada",
+        "scales": [
+            1
+        ],
+        "width": 222,
+        "height": 222
+    },
     "wumpus_snowglobe_premium120": {
         "file": "images/native/gifting/wumpus_snowglobe_premium120.png",
         "hash": "79c6466cf28ca8f6510b4a84fb435a2a",
@@ -15499,6 +15598,15 @@
         ],
         "width": 24,
         "height": 24
+    },
+    "yellow_wumpus": {
+        "file": "modules/collectibles/images/yellow_wumpus.png",
+        "hash": "32fef6c1f4951690e58ad223a02174fa",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
     },
     "youtube_icon": {
         "file": "modules/guild_role_subscriptions/native/images/youtube_icon.png",

@@ -98,7 +98,7 @@
   "BACKGROUND_MODIFIER_ACCENT": {
     "dark": "#4E5058",
     "light": "#80848E",
-    "midnight": "#A5B0E9",
+    "midnight": "#BCBCF0",
     "darker": "#6C6F7C"
   },
   "BACKGROUND_MODIFIER_ACCENT_2": {
@@ -1028,7 +1028,7 @@
   "INPUT_BACKGROUND": {
     "dark": "#1E1F22",
     "light": "#000000",
-    "midnight": "#A5B0E9",
+    "midnight": "#BCBCF0",
     "darker": "#0F1014"
   },
   "INPUT_FOCUSED_BORDER": {
@@ -1538,7 +1538,7 @@
   "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
     "dark": "#232428",
     "light": "#000000",
-    "midnight": "#A5B0E9",
+    "midnight": "#BCBCF0",
     "darker": "#6C6F7C"
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
@@ -1586,7 +1586,7 @@
   "REDESIGN_CHAT_INPUT_BACKGROUND": {
     "dark": "#1E1F22",
     "light": "#000000",
-    "midnight": "#A5B0E9",
+    "midnight": "#BCBCF0",
     "darker": "#6C6F7C"
   },
   "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
