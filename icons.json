@@ -2742,6 +2742,16 @@
         "width": 24,
         "height": 24
     },
+    "ThreadLockIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ThreadLockIcon.png",
+        "hash": "5d26414bbc9183ca5b9ccc70e41f943d",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ThreadPlusIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ThreadPlusIcon.png",
         "hash": "89b2337745e01c346e0bafee6d84e42b",
@@ -6221,17 +6231,6 @@
         "width": 20,
         "height": 20
     },
-    "ic_channel_lock_16px": {
-        "file": "images/native/icons/ic_channel_lock_16px.png",
-        "hash": "44f373e5fb3ee90809f26fbd3c4b0b89",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "ic_channels_24px": {
         "file": "images/native/audit_logs/ic_channels_24px.png",
         "hash": "db11f4006dfc90ac34fd2e8ebce52b2c",
@@ -6660,16 +6659,6 @@
     "ic_discoverable_guild_badge_premium_24px": {
         "file": "images/native/icons/ic_discoverable_guild_badge_premium_24px.png",
         "hash": "4f276c9d37ed9e072482570ea4ab1799",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_dm": {
-        "file": "images/native/icons/ic_dm.png",
-        "hash": "81d821245a942eb7f9c2ac48d1acc3a4",
         "scales": [
             2,
             3
@@ -7110,16 +7099,6 @@
     "ic_forum_channel_locked": {
         "file": "modules/forums/native/images/ic_forum_channel_locked.png",
         "hash": "7764377b2ff47b151fa7e95e293e7bc6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_forum_channel_nsfw": {
-        "file": "modules/forums/native/images/ic_forum_channel_nsfw.png",
-        "hash": "1e80fd9558a603e4cc83ec3901f5eb3d",
         "scales": [
             2,
             3
@@ -7811,16 +7790,6 @@
         "width": 20,
         "height": 20
     },
-    "ic_media_channel_nsfw": {
-        "file": "modules/media_channel/native/images/ic_media_channel_nsfw.png",
-        "hash": "4a3da0c21ee30d7f3dc487bc3ae3f70e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
     "ic_media_post_share_prompt": {
         "file": "modules/media_channel/native/images/ic_media_post_share_prompt.png",
         "hash": "83d9ad6473cb40e1d6825c7dbdb7f70f",
@@ -7845,17 +7814,6 @@
     "ic_megaphone_lock_16px": {
         "file": "images/native/icons/ic_megaphone_lock_16px.png",
         "hash": "e0b3a56ebcfbd2bb71a4eab80fb5f8b4",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
-    "ic_megaphone_nsfw_16px": {
-        "file": "images/native/icons/ic_megaphone_nsfw_16px.png",
-        "hash": "a871b74baa2529301a99789709517057",
         "scales": [
             1,
             2,
@@ -9512,17 +9470,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_text_channel_nsfw_16px": {
-        "file": "images/native/icons/ic_text_channel_nsfw_16px.png",
-        "hash": "7eaa698b5d64adbe3d38c6a9fdd0b7f8",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "ic_text_image_24px": {
         "file": "images/native/icons/settings/ic_text_image_24px.png",
         "hash": "522393c6be59ae643238403e7795ff3f",
@@ -9566,16 +9513,6 @@
     "ic_thread_normal_24px": {
         "file": "images/native/icons/ic_thread_normal_24px.png",
         "hash": "4ed2ea2d3d7e303d25c3ac6998e6054c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_thread_private_24px": {
-        "file": "images/native/icons/ic_thread_private_24px.png",
-        "hash": "05992820d999e77963faae73b6c2f5aa",
         "scales": [
             2,
             3
@@ -9823,16 +9760,6 @@
     "ic_voice_channel_locked_24px": {
         "file": "images/native/icons/ic_voice_channel_locked_24px.png",
         "hash": "37b0d51532b10fba604bb5131d77003b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_voice_channel_nsfw_24px": {
-        "file": "images/native/icons/ic_voice_channel_nsfw_24px.png",
-        "hash": "d5c96b93fa5ded725ba003049aa43b0d",
         "scales": [
             2,
             3
