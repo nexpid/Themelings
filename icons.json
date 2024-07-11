@@ -3984,6 +3984,15 @@
         "width": 300.5,
         "height": 175
     },
+    "client_themes_upsell": {
+        "file": "modules/premium/roadblocks/native/images/client_themes_upsell.png",
+        "hash": "1972c83640b2372678355737257db889",
+        "scales": [
+            1
+        ],
+        "width": 185,
+        "height": 117
+    },
     "close": {
         "file": "modules/search_v2/native/images/close.png",
         "hash": "4775c59d484c7d09cb86e825bfc0bbbf",
