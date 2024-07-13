@@ -1754,16 +1754,6 @@
         "width": null,
         "height": null
     },
-    "Messages": {
-        "file": "images/native/main_tabs/Messages.png",
-        "hash": "d9f982a17408d5d5122b5ab6ac47d62d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "MessagesTab": {
         "file": "design/components/LottieIcon/native/generated/lotties/MessagesTab.lottie",
         "hash": "99f159454017c9a8930c299b70fe8f24",
@@ -9900,16 +9890,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "icon-fl": {
-        "file": "images/native/icon-fl.png",
-        "hash": "fc370e22a1b365e81a3d89a193d6bb7b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 50,
-        "height": 50
     },
     "icon-group": {
         "file": "images/native/icon-group.png",
