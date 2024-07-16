@@ -9,24 +9,6 @@
         "width": 24,
         "height": 24
     },
-    "ActiveNow-dark@2X": {
-        "file": "images/native/icons/ActiveNow-dark@2X.png",
-        "hash": "80b41420703fbedc6c49203f7a593f71",
-        "scales": [
-            1
-        ],
-        "width": 48,
-        "height": 48
-    },
-    "ActiveNow-light@2X": {
-        "file": "images/native/icons/ActiveNow-light@2X.png",
-        "hash": "d2da8ffefbabccbc909b67f9c7d356cc",
-        "scales": [
-            1
-        ],
-        "width": 48,
-        "height": 48
-    },
     "ActivitiesIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ActivitiesIcon.png",
         "hash": "e08351b69e498c6336a00bd87a09eb38",
