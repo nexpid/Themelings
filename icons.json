@@ -3613,18 +3613,18 @@
         "width": 161,
         "height": 160
     },
-    "butterflies_dark_mode": {
-        "file": "modules/collectibles/images/butterflies_dark_mode.png",
-        "hash": "7c073d6c908f6e36c0c748c4ce9cef36",
+    "bubbles_dark_mode": {
+        "file": "modules/collectibles/images/bubbles_dark_mode.png",
+        "hash": "a3970e416b0b3d4b029b492501bc6027",
         "scales": [
             1
         ],
         "width": 1500,
         "height": 1000
     },
-    "butterflies_light_mode": {
-        "file": "modules/collectibles/images/butterflies_light_mode.png",
-        "hash": "561abde59b0f39500a81da5a4d43cc0e",
+    "bubbles_light_mode": {
+        "file": "modules/collectibles/images/bubbles_light_mode.png",
+        "hash": "253a18cc281b8c0efba5db1901d95dcb",
         "scales": [
             1
         ],
@@ -5082,15 +5082,6 @@
         "width": 24,
         "height": 24
     },
-    "galaxy_wumpus": {
-        "file": "modules/collectibles/images/galaxy_wumpus.png",
-        "hash": "0baadacf66519134507f06493b6a121f",
-        "scales": [
-            1
-        ],
-        "width": 148,
-        "height": 148
-    },
     "game-empty-state": {
         "file": "modules/main_tabs_v2/native/images/game-empty-state.png",
         "hash": "cfc308b460ac1d3ba90f4c87676a03fe",
@@ -5377,6 +5368,15 @@
         ],
         "width": 193.5,
         "height": 205.5
+    },
+    "hans": {
+        "file": "modules/collectibles/images/hans.png",
+        "hash": "d144b0b75f083e9a8d77604fe7b5a93a",
+        "scales": [
+            1
+        ],
+        "width": 714,
+        "height": 272
     },
     "hd_video": {
         "file": "modules/premium/native/images/perks/hd_video.png",
@@ -7267,17 +7267,6 @@
         "width": 18,
         "height": 18
     },
-    "ic_group_message": {
-        "file": "images/native/ic_group_message.png",
-        "hash": "1a2503e510a90fdacb1331ad2201cfc4",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 32,
-        "height": 32
-    },
     "ic_guild_grid_24px": {
         "file": "images/native/icons/ic_guild_grid_24px.png",
         "hash": "55929208ca176923ba23d97478360818",
@@ -7640,16 +7629,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_link_share_32px": {
-        "file": "images/native/icons/ic_link_share_32px.png",
-        "hash": "e95f3b410cf9f7fbf93a562aff281e95",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 32,
-        "height": 32
     },
     "ic_list": {
         "file": "modules/polls/native/images/ic_list.png",
@@ -13613,6 +13592,15 @@
         "width": 600,
         "height": 600
     },
+    "phibi": {
+        "file": "modules/collectibles/images/phibi.png",
+        "hash": "acb375390e1408eab60a28a551d1154e",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
+    },
     "phibi_1": {
         "file": "images/native/avatars/phibi_1.png",
         "hash": "b002cec8fdbd5414b4068fe272d35071",
@@ -13809,15 +13797,6 @@
         "width": 70,
         "height": 47
     },
-    "puppy": {
-        "file": "modules/collectibles/images/puppy.png",
-        "hash": "d17aab7c352afd6cd9bcfe1461a9e431",
-        "scales": [
-            1
-        ],
-        "width": 148,
-        "height": 148
-    },
     "quests_embed_mobile_missing": {
         "file": "modules/quests/images/quests_embed_mobile_missing.png",
         "hash": "6936c050862daceed7175a327466cd4a",
@@ -13955,6 +13934,42 @@
         ],
         "width": 70,
         "height": 47
+    },
+    "robert_shop_button_dark_mode": {
+        "file": "modules/collectibles/images/robert_shop_button_dark_mode.png",
+        "hash": "50b8faa433f115b902d01ec7fbaba3a0",
+        "scales": [
+            1
+        ],
+        "width": 448,
+        "height": 84
+    },
+    "robert_shop_button_light_mode": {
+        "file": "modules/collectibles/images/robert_shop_button_light_mode.png",
+        "hash": "c7d4b2187f5feee3f3693c2233de3371",
+        "scales": [
+            1
+        ],
+        "width": 448,
+        "height": 84
+    },
+    "robert_upsell_banner": {
+        "file": "modules/collectibles/web/images/robert_upsell_banner.png",
+        "hash": "be8e8064c305f1c347fde0d4e1c10eaf",
+        "scales": [
+            1
+        ],
+        "width": 1387,
+        "height": 240
+    },
+    "robert_upsell_banner_art": {
+        "file": "modules/collectibles/web/images/robert_upsell_banner_art.png",
+        "hash": "b8d16383364669e427502d75f36fbba6",
+        "scales": [
+            1
+        ],
+        "width": 332,
+        "height": 306
     },
     "role": {
         "file": "images/native/premium/guild_boosting/perks/role.png",
@@ -15389,15 +15404,6 @@
         "width": 229,
         "height": 140
     },
-    "wumpus_omen": {
-        "file": "modules/collectibles/images/wumpus_omen.png",
-        "hash": "cd3fc33372a27f4bef66f16c351e6ada",
-        "scales": [
-            1
-        ],
-        "width": 222,
-        "height": 222
-    },
     "wumpus_snowglobe_premium120": {
         "file": "images/native/gifting/wumpus_snowglobe_premium120.png",
         "hash": "79c6466cf28ca8f6510b4a84fb435a2a",
@@ -15496,15 +15502,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "yellow_wumpus": {
-        "file": "modules/collectibles/images/yellow_wumpus.png",
-        "hash": "32fef6c1f4951690e58ad223a02174fa",
-        "scales": [
-            1
-        ],
-        "width": 148,
-        "height": 148
     },
     "youtube_icon": {
         "file": "modules/guild_role_subscriptions/native/images/youtube_icon.png",
