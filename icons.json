@@ -1029,6 +1029,16 @@
         "width": 24,
         "height": 24
     },
+    "CrunchyrollNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CrunchyrollNeutralIcon.png",
+        "hash": "83dab624059bfec2d650d69ad6d454ee",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "Discord": {
         "file": "images/native/main_tabs/Discord.png",
         "hash": "a6de40e8388b714e9153c727bc648e49",
@@ -1240,16 +1250,6 @@
     "ForumWarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ForumWarningIcon.png",
         "hash": "b44a422126221824d81628fa7cd55245",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "Friends": {
-        "file": "images/native/main_tabs/Friends.png",
-        "hash": "f08d1cf16d1f1c24fb318c6e3e7e41e0",
         "scales": [
             2,
             3
@@ -2267,16 +2267,6 @@
     "ScreenXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ScreenXIcon.png",
         "hash": "2f4e9741872b7517c796ee0b6ae52698",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "Search": {
-        "file": "images/native/main_tabs/Search.png",
-        "hash": "752963f7a90f00c95004b00dd57f0b89",
         "scales": [
             2,
             3
@@ -3966,14 +3956,15 @@
         "height": 117
     },
     "close": {
-        "file": "modules/search_v2/native/images/close.png",
-        "hash": "4775c59d484c7d09cb86e825bfc0bbbf",
+        "file": "modules/voice_panel/native/images/close.png",
+        "hash": "87af1eac5f6e8ada6427505502b6d55f",
         "scales": [
             2,
-            3
+            3,
+            4
         ],
-        "width": 16,
-        "height": 16
+        "width": 24,
+        "height": 24
     },
     "clyde-avatar": {
         "file": "modules/clyde_ai/assets/clyde-avatar.png",
@@ -6284,15 +6275,14 @@
         "height": 12
     },
     "ic_checkmark": {
-        "file": "modules/self_mod/shared/images/ic_checkmark.png",
-        "hash": "14b22d9802a30c868ea3cf94b0508717",
+        "file": "images/native/icons/ic_checkmark.png",
+        "hash": "d4d023fcd230d5f7401c0e512db37851",
         "scales": [
-            1,
             2,
             3
         ],
-        "width": 25,
-        "height": 24
+        "width": 40,
+        "height": 40
     },
     "ic_chevron_down_24px": {
         "file": "images/native/icons/ic_chevron_down_24px.png",
@@ -6498,16 +6488,6 @@
     "ic_compose_24px": {
         "file": "images/native/icons/ic_compose_24px.png",
         "hash": "f4a54de7b37d469e8444f7ab2a3de795",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_contact_sync": {
-        "file": "modules/contact_sync/native/images/ic_contact_sync.png",
-        "hash": "8962144d87d8d5b66671949ba9380086",
         "scales": [
             2,
             3
@@ -8300,16 +8280,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_notif_off_light": {
-        "file": "images/native/chat_sidebar/ic_notif_off_light.png",
-        "hash": "dceb4bd8b7d541ec63d5ff61655a7453",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_notification_settings": {
         "file": "images/native/icons/ic_notification_settings.png",
         "hash": "70b5d298077f16f0a53765e9197e3054",
@@ -8858,14 +8828,14 @@
         "height": 24
     },
     "ic_search": {
-        "file": "images/native/chat_sidebar/ic_search.png",
-        "hash": "a6904c47e694ce4fbf09d4ba5e6649b1",
+        "file": "images/native/icons/ic_search.png",
+        "hash": "1fc80ed9161ce0486dd043fae651488d",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 16,
+        "height": 16
     },
     "ic_search_24px": {
         "file": "images/native/icons/ic_search_24px.png",
@@ -13236,7 +13206,7 @@
     },
     "mobile_shop_marketing_banner": {
         "file": "images/native/mobile_shop_marketing_banner.png",
-        "hash": "3db78515aa140b5a806692030d4fa98e",
+        "hash": "0429472c7be4d2790ff5cd04dd5e66f6",
         "scales": [
             1,
             2,
@@ -13935,6 +13905,26 @@
         "width": 70,
         "height": 47
     },
+    "robert_coachmark_image": {
+        "file": "images/native/robert_coachmark_image.png",
+        "hash": "a4bdc0c0a67dd7b90ef9a77b3feeec79",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 90,
+        "height": 90
+    },
+    "robert_pdp_logo": {
+        "file": "modules/collectibles/images/robert_pdp_logo.png",
+        "hash": "00a74ae13fb30e37e3030fdb324acf5b",
+        "scales": [
+            1
+        ],
+        "width": 158,
+        "height": 120
+    },
     "robert_shop_button_dark_mode": {
         "file": "modules/collectibles/images/robert_shop_button_dark_mode.png",
         "hash": "50b8faa433f115b902d01ec7fbaba3a0",
@@ -14233,7 +14223,7 @@
         "height": 20
     },
     "search_empty_state": {
-        "file": "modules/directory_channels/native/images/search_empty_state.png",
+        "file": "modules/hub/native/images/search_empty_state.png",
         "hash": "8a1b4cbcf69c94f39bb256787c4e1df8",
         "scales": [
             2,
@@ -14776,14 +14766,14 @@
         "height": 23
     },
     "tier_1_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_1_32px.png",
-        "hash": "e7624f04ed4a80ca86e10402e935320b",
+        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_1_32px.png",
+        "hash": "b352e1ffa0afe53b75c17fb675b513d6",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "tier_2_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_2_24px.png",
@@ -14796,14 +14786,14 @@
         "height": 23
     },
     "tier_2_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_2_32px.png",
-        "hash": "8f9077e5b37bff7706de677d0f3debbe",
+        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_2_32px.png",
+        "hash": "d9ada236b866307c8985fc87fdd51c88",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "tier_3_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_3_24px.png",
@@ -14816,14 +14806,14 @@
         "height": 23
     },
     "tier_3_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_3_32px.png",
-        "hash": "81c4c8246b195a90d6f5bb90212bbc6a",
+        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_3_32px.png",
+        "hash": "1b3ea47fa559c5b08fa13d985346d3b8",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 32,
+        "height": 32
     },
     "tips": {
         "file": "modules/self_mod/inappropriate_conversation/images/tips.png",
