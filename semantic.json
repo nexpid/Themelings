@@ -1,40 +1,4 @@
 {
-  "ALERT_BG": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
-  },
-  "ANDROID_NAVIGATION_BAR_BACKGROUND": {
-    "dark": "#0C0C0D",
-    "light": "#F9F9F9",
-    "midnight": "#0F1014",
-    "darker": "#0F1014"
-  },
-  "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
-    "dark": "#0C0C0D",
-    "light": "#F9F9F9",
-    "midnight": "#0F1014",
-    "darker": "#0F1014"
-  },
-  "ANDROID_RIPPLE": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
-  },
-  "AUTOCOMPLETE_BG": {
-    "dark": "#2B2D31",
-    "light": "#F9F9F9",
-    "midnight": "#2B2D31",
-    "darker": "#2B2D31"
-  },
-  "BACKGROUND_ACCENT": {
-    "dark": "#41434A",
-    "light": "#6D6F78",
-    "midnight": "#2C2D35",
-    "darker": "#383A43"
-  },
   "BACKGROUND_FLOATING": {
     "dark": "#111214",
     "light": "#FFFFFF",
@@ -154,6 +118,18 @@
     "light": "#E3E5E8",
     "midnight": "#212229",
     "darker": "#31323B"
+  },
+  "BADGE_BRAND_BG": {
+    "dark": "#C9CDFB",
+    "light": "#C9CDFB",
+    "midnight": "#C9CDFB",
+    "darker": "#C9CDFB"
+  },
+  "BADGE_BRAND_TEXT": {
+    "dark": "#5865F2",
+    "light": "#5865F2",
+    "midnight": "#5865F2",
+    "darker": "#5865F2"
   },
   "BG_BACKDROP": {
     "dark": "#000000",
@@ -1115,6 +1091,30 @@
     "midnight": "#D4D7FC",
     "darker": "#D4D7FC"
   },
+  "MENU_ITEM_DANGER_ACTIVE_BG": {
+    "dark": "#8F2022",
+    "light": "#8F2022",
+    "midnight": "#8F2022",
+    "darker": "#8F2022"
+  },
+  "MENU_ITEM_DANGER_HOVER_BG": {
+    "dark": "#DA373C",
+    "light": "#DA373C",
+    "midnight": "#DA373C",
+    "darker": "#DA373C"
+  },
+  "MENU_ITEM_DEFAULT_ACTIVE_BG": {
+    "dark": "#4752C4",
+    "light": "#4752C4",
+    "midnight": "#4752C4",
+    "darker": "#4752C4"
+  },
+  "MENU_ITEM_DEFAULT_HOVER_BG": {
+    "dark": "#5865F2",
+    "light": "#5865F2",
+    "midnight": "#5865F2",
+    "darker": "#5865F2"
+  },
   "MODAL_BACKGROUND": {
     "dark": "#313338",
     "light": "#FFFFFF",
@@ -1659,7 +1659,7 @@
     "dark": "#2B2D31",
     "light": "#EBEDEF",
     "midnight": "#0C0C10",
-    "darker": "#2C2D35"
+    "darker": "#212229"
   },
   "SCROLLBAR_THIN_THUMB": {
     "dark": "#1A1B1E",

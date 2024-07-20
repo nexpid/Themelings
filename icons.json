@@ -2804,6 +2804,16 @@
         "width": 24,
         "height": 24
     },
+    "UnknownGameIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
+        "hash": "42919fff0718d00a7f7425d1afca1abe",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "UploadIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UploadIcon.png",
         "hash": "f395f490375f890df5e4a4955b9c93c7",
@@ -3264,6 +3274,15 @@
         ],
         "width": 244,
         "height": 126
+    },
+    "app_icons_upsell": {
+        "file": "modules/premium/roadblocks/images/app_icons_upsell.png",
+        "hash": "1653812d24f945a581bfdacd052d1cd9",
+        "scales": [
+            1
+        ],
+        "width": 488,
+        "height": 240
     },
     "app_installed_check": {
         "file": "modules/user_settings/images/app_installed_check.png",
@@ -3947,13 +3966,13 @@
         "height": 175
     },
     "client_themes_upsell": {
-        "file": "modules/premium/roadblocks/native/images/client_themes_upsell.png",
-        "hash": "1972c83640b2372678355737257db889",
+        "file": "modules/premium/roadblocks/images/client_themes_upsell.png",
+        "hash": "f59c66d6f542b08761b44d6d5de547c8",
         "scales": [
             1
         ],
-        "width": 185,
-        "height": 117
+        "width": 552,
+        "height": 336
     },
     "close": {
         "file": "modules/voice_panel/native/images/close.png",
@@ -15247,9 +15266,20 @@
         "width": 52,
         "height": 52
     },
-    "wreath": {
-        "file": "modules/quests/native/images/wreath.png",
-        "hash": "0a1e6b06d14b5f4b07f6cd276f16646e",
+    "wreath_dark": {
+        "file": "modules/quests/native/images/wreath_dark.png",
+        "hash": "c5d12ec01d5a82b43884ceb5bc673c98",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 48,
+        "height": 45
+    },
+    "wreath_light": {
+        "file": "modules/quests/native/images/wreath_light.png",
+        "hash": "fb99def53a2e7c887031d561bd6a6700",
         "scales": [
             1,
             2,
