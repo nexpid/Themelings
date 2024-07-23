@@ -759,6 +759,26 @@
         "width": 24,
         "height": 24
     },
+    "CirclePlayIcon-primary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CirclePlayIcon-primary.png",
+        "hash": "92f38330ead9e561ed97e7c47cfa507b",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CirclePlayIcon-secondary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CirclePlayIcon-secondary.png",
+        "hash": "e85fec13a6ab123ede5bfb7b894b825f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CirclePlusIcon-primary": {
         "file": "design/components/Icon/native/redesign/generated/images/CirclePlusIcon-primary.png",
         "hash": "79b0e8a92b5c31755597b55fd2d5881b",
@@ -1180,6 +1200,16 @@
     "FiltersHorizontalIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/FiltersHorizontalIcon.png",
         "hash": "123a46637ce270f7fca290f744b7c9ac",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "FireIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FireIcon.png",
+        "hash": "4e66e3efb09534ef7fbbf5c5bc782e14",
         "scales": [
             2,
             3
@@ -1807,16 +1837,6 @@
     "MobilePhoneIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MobilePhoneIcon.png",
         "hash": "aad07e8ebf4cfb5e04a12721cdeafb36",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "MobilePhoneShareIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/MobilePhoneShareIcon.png",
-        "hash": "40f3d4a49b93568bef914990d598e7f9",
         "scales": [
             2,
             3
@@ -2874,6 +2894,16 @@
         "width": 24,
         "height": 24
     },
+    "UserStatusIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UserStatusIcon.png",
+        "hash": "36d3470cbaffe1c74651ecf1de7f512d",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "VideoIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/VideoIcon.png",
         "hash": "dd5f13aab9ed325f2d67137dfcd135e2",
@@ -3577,16 +3607,6 @@
     "border_left_radius": {
         "file": "images/native/icons/border_left_radius.png",
         "hash": "eb7cec3c2a3f7afb7ae72078a1d4c422",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 40,
-        "height": 40
-    },
-    "border_right_radius": {
-        "file": "images/native/icons/border_right_radius.png",
-        "hash": "cb67b697339eff7dfb29f2a2ec57f5ea",
         "scales": [
             2,
             3
@@ -13183,16 +13203,6 @@
         "width": 10,
         "height": 10
     },
-    "midnight_border_right_radius": {
-        "file": "images/native/icons/midnight_border_right_radius.png",
-        "hash": "42a50232ad7174a47d36a9ff5ac534ae",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
     "minimize": {
         "file": "modules/video_calls/native/images/minimize.png",
         "hash": "d23999b5166ea7acbdb11a0c3d8265f8",
@@ -13934,15 +13944,6 @@
         ],
         "width": 90,
         "height": 90
-    },
-    "robert_pdp_logo": {
-        "file": "modules/collectibles/images/robert_pdp_logo.png",
-        "hash": "00a74ae13fb30e37e3030fdb324acf5b",
-        "scales": [
-            1
-        ],
-        "width": 158,
-        "height": 120
     },
     "robert_shop_button_dark_mode": {
         "file": "modules/collectibles/images/robert_shop_button_dark_mode.png",
