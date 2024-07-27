@@ -1864,6 +1864,16 @@
         "width": 24,
         "height": 24
     },
+    "MoreVerticalIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MoreVerticalIcon.png",
+        "hash": "fdccf80011b6e36941ed35372087ee37",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "MushroomIcon": {
         "file": "images/native/custom_app_icons/MushroomIcon/MushroomIcon.png",
         "hash": "d0258153ad64bd0da42bc5243da496aa",
@@ -3294,17 +3304,6 @@
         "width": 259,
         "height": 93
     },
-    "app_icons_new_styles_banner": {
-        "file": "images/native/app_icons_new_styles_banner.png",
-        "hash": "a5d62ccfb77ba60ed02131907ce2df82",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 244,
-        "height": 126
-    },
     "app_icons_upsell": {
         "file": "modules/premium/roadblocks/images/app_icons_upsell.png",
         "hash": "1653812d24f945a581bfdacd052d1cd9",
@@ -4730,6 +4729,17 @@
         "width": 200,
         "height": 80
     },
+    "empty_quest_home": {
+        "file": "images/native/empties/empty_quest_home.png",
+        "hash": "33688e5a17ba6d5d12db0d817e82285c",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 375,
+        "height": 229
+    },
     "empty_quick_switcher": {
         "file": "images/native/empties/empty_quick_switcher.png",
         "hash": "2d906861c73988d1392c3f207cda799f",
@@ -5440,7 +5450,7 @@
     },
     "header-image-dark": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-dark.png",
-        "hash": "fd9ded67628358483927158abb21d6b6",
+        "hash": "76e0ce03bf6b5923ca1143462a541436",
         "scales": [
             2,
             3
@@ -5450,7 +5460,7 @@
     },
     "header-image-light": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-light.png",
-        "hash": "c95bebfcb730b96e2dc7350a0d7321bd",
+        "hash": "849540ab2f3ffb8f939be54014298b88",
         "scales": [
             2,
             3
