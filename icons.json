@@ -3976,7 +3976,7 @@
     },
     "client_theme": {
         "file": "modules/premium/native/images/perks/client_theme.png",
-        "hash": "2424960ca1345ebb8304883d46b103a6",
+        "hash": "034593f3dac51b7d85899e7191ac5a9f",
         "scales": [
             2,
             3
@@ -4202,7 +4202,7 @@
     },
     "custom_icons": {
         "file": "modules/premium/native/images/perks/custom_icons.png",
-        "hash": "3f0e08381aa756ce871400f8c94071c4",
+        "hash": "fe4737c3dd5ab570ff8c05c7dd4152ca",
         "scales": [
             2,
             3
@@ -4212,7 +4212,7 @@
     },
     "custom_profile": {
         "file": "modules/premium/native/images/perks/custom_profile.png",
-        "hash": "2b373d8032a84dbc9e93bc1c489ad234",
+        "hash": "c407143bbf75b6a7311c87db68c9cbca",
         "scales": [
             2,
             3
@@ -4222,7 +4222,7 @@
     },
     "custom_sounds": {
         "file": "modules/premium/native/images/perks/custom_sounds.png",
-        "hash": "b114cc0a8a04d15fed025596058fb6d8",
+        "hash": "67d5ffa8705bc838eb19bd17c2eff4ab",
         "scales": [
             2,
             3
@@ -4494,7 +4494,7 @@
     },
     "early_access": {
         "file": "modules/premium/native/images/perks/early_access.png",
-        "hash": "cb984dbdbe804f3f3d15013c27df7f2a",
+        "hash": "d422ef91f74da1b3cc395d635485063d",
         "scales": [
             2,
             3
@@ -4840,7 +4840,7 @@
     },
     "entrace_sounds": {
         "file": "modules/premium/native/images/perks/entrace_sounds.png",
-        "hash": "dccb01b8de0edefdcbc90878c1fb210f",
+        "hash": "cb2a2e3b1b856419d08252c8139a8321",
         "scales": [
             2,
             3
@@ -5420,7 +5420,7 @@
     },
     "hd_video": {
         "file": "modules/premium/native/images/perks/hd_video.png",
-        "hash": "4ad7d467ac0a71d13692d3f6e09bbc50",
+        "hash": "b10c11253ea31418fc5b5f03e59f065a",
         "scales": [
             2,
             3
@@ -10670,7 +10670,7 @@
     },
     "img_boost_subheader_error_mobile": {
         "file": "images/native/premium/backgrounds/img_boost_subheader_error_mobile.png",
-        "hash": "4bc7428e13b5cddc861859fa25bb2b1f",
+        "hash": "9bb60b01d276e09f678fc61b96446517",
         "scales": [
             2,
             3
@@ -10787,7 +10787,7 @@
     },
     "img_classic_subheader_mobile": {
         "file": "images/native/premium/backgrounds/img_classic_subheader_mobile.png",
-        "hash": "34c5dd4020cdbf2348673bf5285a9a31",
+        "hash": "68fc474265691715b1946d199d680a26",
         "scales": [
             2,
             3
@@ -11035,7 +11035,7 @@
     },
     "img_guild_cap_upsell_dark": {
         "file": "images/native/premium/upsell/img_guild_cap_upsell_dark.png",
-        "hash": "bae61f0a5f71ee47e9ab6002ac134fbe",
+        "hash": "99a0c83db7ec93ecc4f9138bd68cba05",
         "scales": [
             2,
             3
@@ -11045,7 +11045,7 @@
     },
     "img_guild_cap_upsell_light": {
         "file": "images/native/premium/upsell/img_guild_cap_upsell_light.png",
-        "hash": "1da69430fd38a71d6393678234ad21aa",
+        "hash": "1c56c6a8d7541177ea8c3d88699db89c",
         "scales": [
             2,
             3
@@ -11406,7 +11406,7 @@
     },
     "img_marketing_profiles": {
         "file": "images/native/premium/illustrations/img_marketing_profiles.png",
-        "hash": "ec8c68d97f744e404ee086fca1c9901c",
+        "hash": "8f1d829bee3b017ccff2f53d55809f29",
         "scales": [
             2,
             3
@@ -11416,7 +11416,7 @@
     },
     "img_marketing_uploads_light_border": {
         "file": "images/native/premium/illustrations/img_marketing_uploads_light_border.png",
-        "hash": "4717b0561aea24d3d7b5926e6e8dca6d",
+        "hash": "286d809a177e5dc702067fdd57e25871",
         "scales": [
             2,
             3
@@ -11456,7 +11456,7 @@
     },
     "img_nitro_basic": {
         "file": "images/native/premium/perks/img_nitro_basic.png",
-        "hash": "43456a985788eb23bb1bbc3fc8f9e072",
+        "hash": "e13d0771e6631382db321c9c579edd39",
         "scales": [
             1,
             2,
@@ -11467,7 +11467,7 @@
     },
     "img_nitro_basic_free_trial_stamp": {
         "file": "images/native/premium/perks/img_nitro_basic_free_trial_stamp.png",
-        "hash": "ec6c507551bb75bf1d005711f16f9111",
+        "hash": "8d87b187972cc84fc26424b2298179dc",
         "scales": [
             1,
             2,
@@ -11568,7 +11568,7 @@
     },
     "img_nitro_longer_message_upsell_dark": {
         "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_dark.png",
-        "hash": "48ab0679f790931098b6cf25117e2320",
+        "hash": "2e477535efb98674ba22b5552594b6ab",
         "scales": [
             2,
             3
@@ -11578,7 +11578,7 @@
     },
     "img_nitro_longer_message_upsell_light": {
         "file": "images/native/premium/upsell/img_nitro_longer_message_upsell_light.png",
-        "hash": "b7bf53b5bec714420e5352957fad0373",
+        "hash": "5691c33dd2c3544121435e1c3a569b50",
         "scales": [
             2,
             3
@@ -11638,7 +11638,7 @@
     },
     "img_nitro_standard": {
         "file": "images/native/premium/perks/img_nitro_standard.png",
-        "hash": "236544fa41f7014a9ce748c0f7ba70ef",
+        "hash": "78169e1ffaedb26fecee6771c828d634",
         "scales": [
             1,
             2,
@@ -11649,7 +11649,7 @@
     },
     "img_nitro_standard_free_trial_stamp": {
         "file": "images/native/premium/perks/img_nitro_standard_free_trial_stamp.png",
-        "hash": "2318780feba1067bb950ecd824ee01c0",
+        "hash": "517dbe62e49996980f8195d419393d07",
         "scales": [
             1,
             2,
@@ -11680,7 +11680,7 @@
     },
     "img_nitro_subheader_mobile": {
         "file": "images/native/premium/backgrounds/img_nitro_subheader_mobile.png",
-        "hash": "c70c82ed8af57e4d47a88d68856efa8c",
+        "hash": "44a779cd60ac7d5dac850e6fc886896f",
         "scales": [
             2,
             3
@@ -12061,7 +12061,7 @@
     },
     "img_profile_upsell": {
         "file": "images/native/premium/upsell/img_profile_upsell.png",
-        "hash": "b0ecc6f3070dd908778719f0007227df",
+        "hash": "ea30e86096b674f657e18d24dc0df08d",
         "scales": [
             2,
             3
@@ -12263,7 +12263,7 @@
     },
     "img_subheader_error_mobile": {
         "file": "images/native/premium/backgrounds/img_subheader_error_mobile.png",
-        "hash": "754a4d9067bf6bac51f59142f753984b",
+        "hash": "1e7b4b86ff7b632a5724a01e406c1753",
         "scales": [
             2,
             3
@@ -12473,7 +12473,7 @@
     },
     "img_tier_0_subheader_mobile": {
         "file": "images/native/premium/backgrounds/img_tier_0_subheader_mobile.png",
-        "hash": "967fef3079a670fcd1c54edd68c3faa4",
+        "hash": "d8c3e4c6e3c94e3724597aef8c906754",
         "scales": [
             2,
             3
@@ -12925,7 +12925,7 @@
     },
     "large_uploads": {
         "file": "modules/premium/native/images/perks/large_uploads.png",
-        "hash": "f2ca574658da3474661bdf940a0fa335",
+        "hash": "9fd167b3326279649df94a86f059e292",
         "scales": [
             2,
             3
@@ -13155,7 +13155,7 @@
     },
     "member_pricing": {
         "file": "modules/premium/native/images/perks/member_pricing.png",
-        "hash": "4b9c85c31f2b6876a3ab91f2a85674a3",
+        "hash": "f171afff980c8e21add7808b4b6646ed",
         "scales": [
             2,
             3
@@ -13326,7 +13326,7 @@
     },
     "nitro_home_banner": {
         "file": "modules/premium/native/images/nitro_home_banner.png",
-        "hash": "06b60c812af0d0ba90bf7a5ed2614b7d",
+        "hash": "84a21c838928df371966fa4ffd9053d1",
         "scales": [
             2,
             3
@@ -13680,7 +13680,7 @@
     },
     "premium_gift_plan_selection_header": {
         "file": "modules/premium/native/images/premium_gift_plan_selection_header.png",
-        "hash": "d4dee0bf06f611edf76d87d479448258",
+        "hash": "c8d53ba30e41e7296c825f2501df590c",
         "scales": [
             1
         ],
@@ -14333,7 +14333,7 @@
     },
     "server_boosts": {
         "file": "modules/premium/native/images/perks/server_boosts.png",
-        "hash": "368c89e5b87bd0e32d7f39bc92825c6d",
+        "hash": "767971903774f3e283939a2d77b5c958",
         "scales": [
             2,
             3
@@ -14643,7 +14643,7 @@
     },
     "super_reaction": {
         "file": "modules/premium/native/images/perks/super_reaction.png",
-        "hash": "e7ae8a97c3bdc702afda457942e2c172",
+        "hash": "7e68c2960201e89a20761843ca26d40b",
         "scales": [
             2,
             3
