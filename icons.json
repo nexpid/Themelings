@@ -12069,6 +12069,15 @@
         "width": 247.5,
         "height": 194
     },
+    "img_register_header": {
+        "file": "modules/mfa/native/images/img_register_header.png",
+        "hash": "685e4a9eb5133a148de7ce27d400a483",
+        "scales": [
+            1
+        ],
+        "width": 762,
+        "height": 525
+    },
     "img_remote_auth_loaded": {
         "file": "images/native/img_remote_auth_loaded.png",
         "hash": "0abf9581567470a391d7233deb0a4631",
