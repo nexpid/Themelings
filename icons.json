@@ -13953,17 +13953,6 @@
         "width": 70,
         "height": 47
     },
-    "robert_coachmark_image": {
-        "file": "images/native/robert_coachmark_image.png",
-        "hash": "a4bdc0c0a67dd7b90ef9a77b3feeec79",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 90,
-        "height": 90
-    },
     "robert_shop_button_dark_mode": {
         "file": "modules/collectibles/images/robert_shop_button_dark_mode.png",
         "hash": "50b8faa433f115b902d01ec7fbaba3a0",
