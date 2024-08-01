@@ -159,16 +159,6 @@
         "width": 24,
         "height": 24
     },
-    "ArrowSmallRightIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallRightIcon.png",
-        "hash": "06767027300484a1b3b4b3f2f045c28c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ArrowSmallUpIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallUpIcon.png",
         "hash": "66e9aea4e8448b79caec86b51a818715",
@@ -1857,16 +1847,6 @@
     "MoreHorizontalIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MoreHorizontalIcon.png",
         "hash": "10d9217f0fa46f6e63a48ca754bf2363",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "MoreVerticalIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/MoreVerticalIcon.png",
-        "hash": "fdccf80011b6e36941ed35372087ee37",
         "scales": [
             2,
             3
