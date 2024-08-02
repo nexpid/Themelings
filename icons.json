@@ -1049,6 +1049,16 @@
         "width": 24,
         "height": 24
     },
+    "DenyIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/DenyIcon.png",
+        "hash": "6bbe163e4f4c7ee69b11fb7ae001d268",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "Discord": {
         "file": "images/native/main_tabs/Discord.png",
         "hash": "a6de40e8388b714e9153c727bc648e49",
@@ -4549,6 +4559,36 @@
             3
         ],
         "width": 24,
+        "height": 24
+    },
+    "emoji-negative": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-negative.png",
+        "hash": "a692f6253251f9fe746d0f8f18ea6506",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24.5,
+        "height": 24
+    },
+    "emoji-neutral": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-neutral.png",
+        "hash": "3cf5a51dc666d7c555c80c9ed4abe457",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24.5,
+        "height": 24
+    },
+    "emoji-positive": {
+        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-positive.png",
+        "hash": "a1e96fa42ed165c4e29093c1832d1123",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24.5,
         "height": 24
     },
     "empty": {
@@ -15038,7 +15078,7 @@
     },
     "vibing_wumpus_rings": {
         "file": "modules/self_mod/inappropriate_conversation/images/vibing_wumpus_rings.png",
-        "hash": "45dcd1b77ad378e8cf6931baf1e1c0c8",
+        "hash": "b033af5495ac778a49adec13082b9f99",
         "scales": [
             1,
             2,
