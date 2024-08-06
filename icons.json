@@ -3649,6 +3649,15 @@
         "width": 1500,
         "height": 1000
     },
+    "butterfly_confetti": {
+        "file": "modules/collectibles/images/butterfly_confetti.png",
+        "hash": "f231c002b58843b9280b93f692aeba11",
+        "scales": [
+            1
+        ],
+        "width": 600,
+        "height": 600
+    },
     "cactus": {
         "file": "modules/guild_role_subscriptions/native/images/cactus.png",
         "hash": "67e9bc8b12cbc0fed84dfc34cd178623",
@@ -14389,15 +14398,6 @@
         "width": 24,
         "height": 24
     },
-    "shop_profile_upsell_galaxy": {
-        "file": "modules/collectibles/web/images/shop_profile_upsell_galaxy.png",
-        "hash": "b45c135400710790ffe2f23c5b2b3b1a",
-        "scales": [
-            1
-        ],
-        "width": 313,
-        "height": 265
-    },
     "sparkle_star_elongated": {
         "file": "modules/guild_boosting/native/images/sparkle_star_elongated.png",
         "hash": "05cd5f5720d5fb81034c2d2412372f33",
@@ -14555,6 +14555,33 @@
         ],
         "width": 90,
         "height": 90
+    },
+    "storm_upsell_banner": {
+        "file": "modules/collectibles/web/images/storm_upsell_banner.png",
+        "hash": "97b0f912ba47de3ee62f8576ccd6ede9",
+        "scales": [
+            1
+        ],
+        "width": 1386,
+        "height": 200
+    },
+    "storm_upsell_banner_art": {
+        "file": "modules/collectibles/web/images/storm_upsell_banner_art.png",
+        "hash": "7fb8351b413ab7f9ea8bf6bec81e34bf",
+        "scales": [
+            1
+        ],
+        "width": 332,
+        "height": 300
+    },
+    "storm_vines": {
+        "file": "modules/collectibles/images/storm_vines.png",
+        "hash": "3957da2f1b92d44e393fd824962d6b0e",
+        "scales": [
+            1
+        ],
+        "width": 600,
+        "height": 600
     },
     "stream": {
         "file": "modules/voice_panel/native/images/stream.png",
@@ -15116,6 +15143,15 @@
         "width": 350,
         "height": 350
     },
+    "vine": {
+        "file": "modules/collectibles/images/vine.png",
+        "hash": "d452afb52287c71028fc09c8e181a94c",
+        "scales": [
+            1
+        ],
+        "width": 448,
+        "height": 84
+    },
     "vm_bottom_sparkles": {
         "file": "modules/voice_messages/native/images/vm_bottom_sparkles.png",
         "hash": "23f292b34550cc44caeddaa5d832e760",
@@ -15472,6 +15508,15 @@
         ],
         "width": 59,
         "height": 55
+    },
+    "wumpus_with_headset": {
+        "file": "modules/collectibles/images/wumpus_with_headset.png",
+        "hash": "e5e4e8747bd168d2c247e0ed4db9709e",
+        "scales": [
+            1
+        ],
+        "width": 148,
+        "height": 148
     },
     "xbox": {
         "file": "modules/voice_panel/native/images/xbox.png",
