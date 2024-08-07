@@ -1914,6 +1914,16 @@
         "width": 24,
         "height": 24
     },
+    "NintendoSwitchNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/NintendoSwitchNeutralIcon.png",
+        "hash": "096b8c86a158d8fd7d66d3d96531442a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "NitroGem1": {
         "file": "design/components/LottieIcon/native/generated/lotties/NitroGem1.lottie",
         "hash": "6a5cd110534b64950591f570afc3306f",
@@ -2247,6 +2257,16 @@
     "RobotIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/RobotIcon.png",
         "hash": "4a56fbaeb872eca82ee3941e74d90eee",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ScienceIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ScienceIcon.png",
+        "hash": "c9d946f40ef2bce068e6c2019f2444e8",
         "scales": [
             2,
             3
@@ -13559,16 +13579,6 @@
         "width": 24,
         "height": 24
     },
-    "pause": {
-        "file": "modules/media_viewer/native/images/pause.png",
-        "hash": "9b355a7ca61c2e1f42b16301c0873279",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "pencil": {
         "file": "modules/directory_channels/native/images/pencil.png",
         "hash": "eda2f7f843135c48a72b75bf505c607d",
@@ -13665,16 +13675,6 @@
         ],
         "width": 70,
         "height": 47
-    },
-    "play": {
-        "file": "modules/media_viewer/native/images/play.png",
-        "hash": "ed017c4aa7a8bb2f84bba1fb0c92c77f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
     },
     "pointer_hand": {
         "file": "modules/nuf/native/components/notification/pointer_hand.png",
