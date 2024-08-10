@@ -119,6 +119,16 @@
         "width": 24,
         "height": 24
     },
+    "ArrowAngleRightUpIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ArrowAngleRightUpIcon.png",
+        "hash": "c0b7b8fd143e9736dfb2b8f48ffb33a1",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ArrowLargeDownIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowLargeDownIcon.png",
         "hash": "31d729eec39d0a471cc9c520d2b01730",
@@ -458,16 +468,6 @@
         "width": 24,
         "height": 24
     },
-    "ChatAlertIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ChatAlertIcon.png",
-        "hash": "183dc6c7ed2b65db0ffc441abb094aaf",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ChatArrowRightIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatArrowRightIcon.png",
         "hash": "9928a50745c95802a6f83dbb43decf94",
@@ -518,6 +518,16 @@
         "width": 24,
         "height": 24
     },
+    "ChatWarningIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChatWarningIcon.png",
+        "hash": "183dc6c7ed2b65db0ffc441abb094aaf",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ChatXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatXIcon.png",
         "hash": "55c12b99036a3767128249c5ba991795",
@@ -539,8 +549,8 @@
         "width": 16,
         "height": 16
     },
-    "CheckmarkBoldIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CheckmarkBoldIcon.png",
+    "CheckmarkLargeBoldIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CheckmarkLargeBoldIcon.png",
         "hash": "22291d09068e066a92bcc29646b02cf0",
         "scales": [
             2,
@@ -669,36 +679,6 @@
         "width": 24,
         "height": 24
     },
-    "CircleExclamationPointIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleExclamationPointIcon.png",
-        "hash": "90880341226bf6a74cd373d584683b5f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CircleExclamationPointIcon-primary": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleExclamationPointIcon-primary.png",
-        "hash": "6045970bf05db8d3c23e909355f725cf",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CircleExclamationPointIcon-secondary": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleExclamationPointIcon-secondary.png",
-        "hash": "e85fec13a6ab123ede5bfb7b894b825f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "CircleInformationIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleInformationIcon.png",
         "hash": "2b90fa368e2983d6a86016ac6242dd39",
@@ -819,6 +799,36 @@
         "width": 24,
         "height": 24
     },
+    "CircleWarningIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon.png",
+        "hash": "90880341226bf6a74cd373d584683b5f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CircleWarningIcon-primary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-primary.png",
+        "hash": "6045970bf05db8d3c23e909355f725cf",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CircleWarningIcon-secondary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-secondary.png",
+        "hash": "e85fec13a6ab123ede5bfb7b894b825f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CircleXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleXIcon.png",
         "hash": "647212fe1b3f868d4bbbc1eb3c85ea5d",
@@ -902,46 +912,6 @@
     "ClockXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ClockXIcon.png",
         "hash": "6e97824011bbebb3f233b11d5b3a6465",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CloseLargeBoldIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CloseLargeBoldIcon.png",
-        "hash": "af1fd926ca82426740ac350dc57bbc71",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CloseLargeIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CloseLargeIcon.png",
-        "hash": "3b352f682fa71f9019ca78f5cab33ee6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CloseSmallBoldIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CloseSmallBoldIcon.png",
-        "hash": "7f3778d8172034f8353d98ffe5155255",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CloseSmallIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CloseSmallIcon.png",
-        "hash": "1e8298c90ff5d5b7d3edc4f9ca1263bf",
         "scales": [
             2,
             3
@@ -1167,8 +1137,8 @@
         "width": 24,
         "height": 24
     },
-    "FacebookIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/FacebookIcon.png",
+    "FacebookNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FacebookNeutralIcon.png",
         "hash": "02c1c5e9977be14067078594e932805a",
         "scales": [
             2,
@@ -1577,8 +1547,8 @@
         "width": 60,
         "height": 60
     },
-    "InstagramIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/InstagramIcon.png",
+    "InstagramNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/InstagramNeutralIcon.png",
         "hash": "948060f702172e7c2e7935085f594ebd",
         "scales": [
             2,
@@ -1904,8 +1874,8 @@
         "width": 24,
         "height": 24
     },
-    "NewUserLargeIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/NewUserLargeIcon.png",
+    "NewUserIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/NewUserIcon.png",
         "hash": "a5ce9c062221258072afdd0b03e340ec",
         "scales": [
             2,
@@ -2154,8 +2124,8 @@
         "width": 24,
         "height": 24
     },
-    "PlaystationIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/PlaystationIcon.png",
+    "PlaystationNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PlaystationNeutralIcon.png",
         "hash": "b5b289e7af762ffdd7bbeb96869f28e9",
         "scales": [
             2,
@@ -2204,8 +2174,8 @@
         "width": 24,
         "height": 24
     },
-    "QrCodeCameraIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/QrCodeCameraIcon.png",
+    "QrCodeIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/QrCodeIcon.png",
         "hash": "1411d6dd689e23f6e27595950e516413",
         "scales": [
             2,
@@ -2644,8 +2614,8 @@
         "width": 24,
         "height": 24
     },
-    "StickerWinkIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/StickerWinkIcon.png",
+    "StickerWink2Icon": {
+        "file": "design/components/Icon/native/redesign/generated/images/StickerWink2Icon.png",
         "hash": "babe4dab4001521b770e829dbddc5b09",
         "scales": [
             2,
@@ -2774,8 +2744,8 @@
         "width": 24,
         "height": 24
     },
-    "TikTokIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/TikTokIcon.png",
+    "TiktokNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TiktokNeutralIcon.png",
         "hash": "84bcb4bf7c1b6ce2f63a58eae716a600",
         "scales": [
             2,
@@ -2834,8 +2804,8 @@
         "width": 24,
         "height": 24
     },
-    "TwitterIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/TwitterIcon.png",
+    "TwitterNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TwitterNeutralIcon.png",
         "hash": "91243889b427f1399856aac0df2d5572",
         "scales": [
             2,
@@ -3024,8 +2994,48 @@
         "width": 24,
         "height": 24
     },
-    "XboxIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/XboxIcon.png",
+    "XLargeBoldIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/XLargeBoldIcon.png",
+        "hash": "af1fd926ca82426740ac350dc57bbc71",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "XLargeIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/XLargeIcon.png",
+        "hash": "3b352f682fa71f9019ca78f5cab33ee6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "XSmallBoldIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/XSmallBoldIcon.png",
+        "hash": "7f3778d8172034f8353d98ffe5155255",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "XSmallIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/XSmallIcon.png",
+        "hash": "1e8298c90ff5d5b7d3edc4f9ca1263bf",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "XboxNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/XboxNeutralIcon.png",
         "hash": "d68f4c512b2f8acd5374593fb232b062",
         "scales": [
             2,
@@ -3053,8 +3063,8 @@
         "width": null,
         "height": null
     },
-    "YouTubeIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/YouTubeIcon.png",
+    "YoutubeNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/YoutubeNeutralIcon.png",
         "hash": "96fe519344d2ebd5806ad9e3a2e50ad0",
         "scales": [
             2,
