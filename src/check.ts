@@ -1,6 +1,6 @@
 const tracker = await fetch("https://tracker.vendetta.rocks/tracker/index");
 if (!tracker.ok || tracker.status !== 200)
-  throw new Error("Failed to get verison from tracker!");
+  throw new Error("Failed to get version from tracker!");
 
 const alpha = (await tracker.json()).latest.alpha.toString();
 
