@@ -89,16 +89,6 @@
         "width": 80.5,
         "height": 80
     },
-    "AppLauncherShop": {
-        "file": "modules/app_launcher/native/images/AppLauncherShop.png",
-        "hash": "ae42fb94f487ec55e6a86121b853d3b2",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 14,
-        "height": 13.5
-    },
     "AppsIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/AppsIcon.png",
         "hash": "48024324dbfafa23829372a8ada20b9f",
@@ -289,6 +279,16 @@
         "width": 24,
         "height": 24
     },
+    "BillIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BillIcon.png",
+        "hash": "8d5481fdf4766b73f74124ff1c299052",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BlurpleTwilightIcon": {
         "file": "images/native/custom_app_icons/BlurpleTwilightIcon/BlurpleTwilightIcon.png",
         "hash": "f385b38a044809a0b451d707fc7cd058",
@@ -312,6 +312,16 @@
     "BookCheckIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/BookCheckIcon.png",
         "hash": "3b6e42e811694406a9a1b71a98925c1a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "BookmarkIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BookmarkIcon.png",
+        "hash": "84ba8cea5406077f0f1ada1fc3b1f02f",
         "scales": [
             2,
             3
