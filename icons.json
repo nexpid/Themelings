@@ -329,6 +329,16 @@
         "width": 24,
         "height": 24
     },
+    "BookmarkOutlineIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BookmarkOutlineIcon.png",
+        "hash": "3340ce0f240e89af6a4a53d8e5731cf5",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BoostTier2Icon": {
         "file": "design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
         "hash": "0dd1a70729095aaa89958733a2ecd26f",
@@ -9991,17 +10001,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "icon-summaries": {
-        "file": "modules/main_tabs_v2/native/images/icon-summaries.png",
-        "hash": "ae81d6627473aef451de5a75e0024c94",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
     },
     "icon0": {
         "file": "images/group_dms/icon0.png",
