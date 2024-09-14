@@ -1,25 +1,25 @@
 {
-  "name": "themelings",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/color": "^3.0.6"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "scripts": {
-    "check": "bun run src/check.ts",
-    "update": "bun run src/update/index.ts",
-    "update:mock": "bun run --env-file local.env src/update/index.ts --mock",
-    "update:test": "bun run --env-file local.env src/update/index.ts",
-    "canvas:test": "bun run src/canvas/test.ts"
-  },
-  "dependencies": {
-    "color": "^4.2.3",
-    "skia-canvas": "^1.0.1"
-  },
-  "trustedDependencies": [
-    "skia-canvas"
-  ]
+	"name": "themelings",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.0",
+		"@types/bun": "latest",
+		"@types/color": "^3.0.6"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"check": "bun run src/check.ts",
+		"update": "bun run src/update/index.ts",
+		"update:mock": "bun run --env-file local.env src/update/index.ts --mock",
+		"update:test": "bun run --env-file local.env src/update/index.ts",
+		"canvas:test": "bun run src/canvas/test.ts",
+		"format": "biome check --fix ."
+	},
+	"dependencies": {
+		"color": "^4.2.3",
+		"skia-canvas": "^1.0.2"
+	},
+	"trustedDependencies": ["@biomejs/biome", "skia-canvas"]
 }
