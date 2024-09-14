@@ -1,41 +1,44 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.9.0/schema.json",
-	"vcs": {
-		"enabled": true,
-		"clientKind": "git",
-		"useIgnoreFile": true
-	},
 	"files": {
-		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": [],
+		"ignoreUnknown": false
 	},
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"
 	},
-	"organizeImports": {
-		"enabled": true
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"suspicious": {
-				"noExplicitAny": "off",
-				"noAssignInExpressions": "off"
-			},
-			"security": {
-				"noGlobalEval": "off"
-			},
-			"style": {
-				"noNonNullAssertion": "off",
-				"noCommaOperator": "off"
-			}
-		}
-	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double"
 		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"performance": {
+				"noDelete": "off"
+			},
+			"recommended": true,
+			"security": {
+				"noGlobalEval": "off"
+			},
+			"style": {
+				"noCommaOperator": "off",
+				"noNonNullAssertion": "off"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "off",
+				"noExplicitAny": "off"
+			}
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"vcs": {
+		"clientKind": "git",
+		"enabled": true,
+		"useIgnoreFile": true
 	}
 }

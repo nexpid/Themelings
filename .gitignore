@@ -177,4 +177,5 @@ dist
 # Custom
 tmp
 *.env
-src/canvas/mock/*
+src/colors.png
+src/files.png
