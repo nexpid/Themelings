@@ -1,1916 +1,9842 @@
 {
+  "ACTION_SHEET_GRADIENT_BG": {
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
+  },
+  "ACTIVITY_CARD_BACKGROUND": {
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ]
+  },
+  "ACTIVITY_CARD_ICON_OVERLAY": {
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 0.85
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 0.85
+      }
+    ],
+    "midnight": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 0.85
+      }
+    ],
+    "darker": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 0.85
+      }
+    ]
+  },
+  "ALERT_BG": {
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
+  },
+  "ANDROID_NAVIGATION_BAR_BACKGROUND": {
+    "dark": [
+      "#0C0C0D",
+      {
+        "raw": "PRIMARY_830",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 1
+      }
+    ]
+  },
+  "ANDROID_NAVIGATION_SCRIM_BACKGROUND": {
+    "dark": [
+      "#0C0C0D",
+      {
+        "raw": "PRIMARY_830",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 0.5
+      }
+    ],
+    "midnight": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 0.5
+      }
+    ]
+  },
+  "ANDROID_RIPPLE": {
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.07
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.12
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.07
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.07
+      }
+    ]
+  },
+  "AUTOCOMPLETE_BG": {
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ]
+  },
+  "BACKGROUND_ACCENT": {
+    "dark": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#383A43",
+      {
+        "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ]
+  },
   "BACKGROUND_FLOATING": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#131318",
-    "darker": "#26272F"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_MENTIONED": {
-    "dark": "#F0B232",
-    "light": "#F0B232",
-    "midnight": "#FCC145",
-    "darker": "#FCC145"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#FCC145",
+      {
+        "raw": "YELLOW_260",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#FCC145",
+      {
+        "raw": "YELLOW_260",
+        "opacity": 0.08
+      }
+    ]
   },
   "BACKGROUND_MENTIONED_HOVER": {
-    "dark": "#F0B232",
-    "light": "#F0B232",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.08
+      }
+    ]
   },
   "BACKGROUND_MESSAGE_AUTOMOD": {
-    "dark": "#F23F43",
-    "light": "#F23F43",
-    "midnight": "#FA777B",
-    "darker": "#FA777B"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.05
+      }
+    ],
+    "light": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.05
+      }
+    ],
+    "midnight": [
+      "#FA777B",
+      {
+        "raw": "RED_345",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#FA777B",
+      {
+        "raw": "RED_345",
+        "opacity": 0.08
+      }
+    ]
   },
   "BACKGROUND_MESSAGE_AUTOMOD_HOVER": {
-    "dark": "#F23F43",
-    "light": "#F23F43",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ]
   },
   "BACKGROUND_MESSAGE_HIGHLIGHT": {
-    "dark": "#949CF7",
-    "light": "#949CF7",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.08
+      }
+    ]
   },
   "BACKGROUND_MESSAGE_HIGHLIGHT_HOVER": {
-    "dark": "#949CF7",
-    "light": "#949CF7",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.06
+      }
+    ],
+    "light": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.06
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 0.06
+      }
+    ]
   },
   "BACKGROUND_MESSAGE_HOVER": {
-    "dark": "#020202",
-    "light": "#020202",
-    "midnight": "#18191F",
-    "darker": "#18191F"
+    "dark": [
+      "#020202",
+      {
+        "raw": "PRIMARY_900",
+        "opacity": 0.06
+      }
+    ],
+    "light": [
+      "#020202",
+      {
+        "raw": "PRIMARY_900",
+        "opacity": 0.03
+      }
+    ],
+    "midnight": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_MOBILE_PRIMARY": {
-    "dark": "#313338",
-    "light": "#F9F9F9",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_MOBILE_SECONDARY": {
-    "dark": "#2B2D31",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_MODIFIER_ACCENT": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#BCBCF0",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#BCBCF0",
+      {
+        "raw": "PLUM_23_ALPHA",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "BACKGROUND_MODIFIER_ACCENT_2": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ]
   },
   "BACKGROUND_MODIFIER_ACTIVE": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.48
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.48
+      }
+    ]
   },
   "BACKGROUND_MODIFIER_HOVER": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.3
+      }
+    ]
   },
   "BACKGROUND_MODIFIER_SELECTED": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.6
+      }
+    ]
   },
   "BACKGROUND_NESTED_FLOATING": {
-    "dark": "#2B2D31",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#16161C"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#16161C",
+      {
+        "raw": "PLUM_22",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_PRIMARY": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_SECONDARY": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#131318",
-    "darker": "#26272F"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_SECONDARY_ALT": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#2C2D35",
-    "darker": "#383A43"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#383A43",
+      {
+        "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ]
   },
   "BACKGROUND_TERTIARY": {
-    "dark": "#1E1F22",
-    "light": "#E3E5E8",
-    "midnight": "#212229",
-    "darker": "#31323B"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
   },
   "BADGE_BRAND_BG": {
-    "dark": "#C9CDFB",
-    "light": "#C9CDFB",
-    "midnight": "#C9CDFB",
-    "darker": "#C9CDFB"
+    "dark": [
+      "#C9CDFB",
+      {
+        "raw": "BRAND_260",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C9CDFB",
+      {
+        "raw": "BRAND_260",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#C9CDFB",
+      {
+        "raw": "BRAND_260",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C9CDFB",
+      {
+        "raw": "BRAND_260",
+        "opacity": 1
+      }
+    ]
   },
   "BADGE_BRAND_TEXT": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ]
   },
   "BG_BACKDROP": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#212229",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.75
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ]
   },
   "BG_BACKDROP_NO_OPACITY": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#212229",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ]
   },
   "BG_BASE_PRIMARY": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "BG_BASE_SECONDARY": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "BG_BASE_TERTIARY": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#000000",
-    "darker": "#131318"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ]
   },
   "BG_BRAND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "BG_MOD_FAINT": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "BG_MOD_STRONG": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.54
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ]
   },
   "BG_MOD_SUBTLE": {
-    "dark": "#4E5058",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ]
   },
   "BG_SURFACE_OVERLAY": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#212229",
-    "darker": "#2C2D35"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "BG_SURFACE_OVERLAY_TMP": {
-    "dark": "#111214",
-    "light": "#F2F3F5",
-    "midnight": "#18191F",
-    "darker": "#2C2D35"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "BG_SURFACE_RAISED": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#131318",
-    "darker": "#26272F"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "BLACK": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ]
   },
   "BLUR_FALLBACK": {
-    "dark": "#1E1F22",
-    "light": "#41434A",
-    "midnight": "#212229",
-    "darker": "#2C2D35"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.96
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 0.96
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.96
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 0.96
+      }
+    ]
   },
   "BLUR_FALLBACK_PRESSED": {
-    "dark": "#1A1B1E",
-    "light": "#383A40",
-    "midnight": "#1C1D23",
-    "darker": "#26272F"
+    "dark": [
+      "#1A1B1E",
+      {
+        "raw": "PRIMARY_730",
+        "opacity": 0.96
+      }
+    ],
+    "light": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 0.96
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 0.96
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 0.96
+      }
+    ]
   },
   "BORDER_FAINT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.03
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.04
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ]
   },
   "BORDER_STRONG": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.22
+      }
+    ]
   },
   "BORDER_SUBTLE": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#131318",
-    "darker": "#131318"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.6
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 0.6
+      }
+    ]
   },
   "BUTTON_CREATOR_REVENUE_BACKGROUND": {
-    "dark": "#207A8D",
-    "light": "#207A8D",
-    "midnight": "#207A8D",
-    "darker": "#207A8D"
+    "dark": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_DANGER_BACKGROUND": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_DANGER_BACKGROUND_ACTIVE": {
-    "dark": "#8F2022",
-    "light": "#8F2022",
-    "midnight": "#8F2022",
-    "darker": "#8F2022"
+    "dark": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_DANGER_BACKGROUND_DISABLED": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_DANGER_BACKGROUND_HOVER": {
-    "dark": "#A12829",
-    "light": "#A12829",
-    "midnight": "#A12829",
-    "darker": "#A12829"
+    "dark": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": {
-    "dark": "#4752C4",
-    "light": "#4752C4",
-    "midnight": "#4752C4",
-    "darker": "#4752C4"
+    "dark": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BORDER": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": {
-    "dark": "#4752C4",
-    "light": "#4752C4",
-    "midnight": "#4752C4",
-    "darker": "#4752C4"
+    "dark": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_BORDER_HOVER": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_TEXT_ACTIVE": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_BRAND_TEXT_HOVER": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BACKGROUND_ACTIVE": {
-    "dark": "#BB3033",
-    "light": "#BB3033",
-    "midnight": "#BB3033",
-    "darker": "#BB3033"
+    "dark": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BACKGROUND_HOVER": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BORDER": {
-    "dark": "#F23F43",
-    "light": "#DA373C",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BORDER_ACTIVE": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_BORDER_HOVER": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_TEXT_ACTIVE": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_DANGER_TEXT_HOVER": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BACKGROUND_ACTIVE": {
-    "dark": "#15562B",
-    "light": "#15562B",
-    "midnight": "#15562B",
-    "darker": "#15562B"
+    "dark": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BACKGROUND_HOVER": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BORDER": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BORDER_ACTIVE": {
-    "dark": "#15562B",
-    "light": "#15562B",
-    "midnight": "#15562B",
-    "darker": "#15562B"
+    "dark": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_BORDER_HOVER": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_TEXT_ACTIVE": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_POSITIVE_TEXT_HOVER": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": {
-    "dark": "#6D6F78",
-    "light": "#313338",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": {
-    "dark": "#4E5058",
-    "light": "#41434A",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BORDER": {
-    "dark": "#4E5058",
-    "light": "#41434A",
-    "midnight": "#4E5058",
-    "darker": "#4E5058"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": {
-    "dark": "#6D6F78",
-    "light": "#313338",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": {
-    "dark": "#4E5058",
-    "light": "#41434A",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_TEXT_ACTIVE": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_OUTLINE_PRIMARY_TEXT_HOVER": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_POSITIVE_BACKGROUND": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_POSITIVE_BACKGROUND_ACTIVE": {
-    "dark": "#15562B",
-    "light": "#15562B",
-    "midnight": "#15562B",
-    "darker": "#15562B"
+    "dark": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_POSITIVE_BACKGROUND_DISABLED": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_POSITIVE_BACKGROUND_HOVER": {
-    "dark": "#1A6334",
-    "light": "#15562B",
-    "midnight": "#15562B",
-    "darker": "#1A6334"
+    "dark": [
+      "#1A6334",
+      {
+        "raw": "GREEN_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#15562B",
+      {
+        "raw": "GREEN_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1A6334",
+      {
+        "raw": "GREEN_500",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_SECONDARY_BACKGROUND": {
-    "dark": "#4E5058",
-    "light": "#6D6F78",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_SECONDARY_BACKGROUND_ACTIVE": {
-    "dark": "#80848E",
-    "light": "#41434A",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_SECONDARY_BACKGROUND_DISABLED": {
-    "dark": "#4E5058",
-    "light": "#6D6F78",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "BUTTON_SECONDARY_BACKGROUND_HOVER": {
-    "dark": "#6D6F78",
-    "light": "#4E5058",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "CARD_GRADIENT_BG": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.4
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.4
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.4
+      }
+    ]
   },
   "CARD_GRADIENT_PRESSED_BG": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.5
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.5
+      }
+    ]
   },
   "CARD_PRIMARY_BG": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#131318",
-    "darker": "#26272F"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "CARD_PRIMARY_PRESSED_BG": {
-    "dark": "#282A2E",
-    "light": "#EBEDEF",
-    "midnight": "#0C0C10",
-    "darker": "#212229"
+    "dark": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ]
   },
   "CARD_SECONDARY_BG": {
-    "dark": "#2B2D31",
-    "light": "#FFFFFF",
-    "midnight": "#0C0C10",
-    "darker": "#212229"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ]
   },
   "CARD_SECONDARY_PRESSED_BG": {
-    "dark": "#282A2E",
-    "light": "#EBEDEF",
-    "midnight": "#08080B",
-    "darker": "#18191F"
-  },
-  "CHANNELS_DEFAULT": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#9597A3",
-    "darker": "#9597A3"
-  },
-  "CHANNELTEXTAREA_BACKGROUND": {
-    "dark": "#383A40",
-    "light": "#EBEDEF",
-    "midnight": "#131318",
-    "darker": "#383A43"
+    "dark": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#08080B",
+      {
+        "raw": "PLUM_26",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
   },
   "CHANNEL_ICON": {
-    "dark": "#80848E",
-    "light": "#6D6F78",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "CHANNEL_TEXT_AREA_PLACEHOLDER": {
-    "dark": "#6D6F78",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHANNELS_DEFAULT": {
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHANNELTEXTAREA_BACKGROUND": {
+    "dark": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#383A43",
+      {
+        "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#31323B"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_BANNER_BG": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_BORDER": {
-    "dark": "#1E1F22",
-    "light": "#E3E5E8",
-    "midnight": "#1C1D23",
-    "darker": "#1C1D23"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_INPUT_CONTAINER_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#31323B",
-    "darker": "#31323B"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_SWIPE_TO_REPLY_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#16161C",
-    "darker": "#16161C"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#16161C",
+      {
+        "raw": "PLUM_22",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#16161C",
+      {
+        "raw": "PLUM_22",
+        "opacity": 1
+      }
+    ]
   },
   "CHAT_SWIPE_TO_REPLY_GRADIENT_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.4
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ]
   },
   "COACHMARK_BG": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#212229",
-    "darker": "#2C2D35"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "CONTENT_INVENTORY_MEDIA_SEEKBAR_CONTAINER": {
-    "dark": "#C7C8CE",
-    "light": "#C7C8CE",
-    "midnight": "#C7C8CE",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 0.24
+      }
+    ]
   },
   "CONTENT_INVENTORY_OVERLAY_TEXT_PRIMARY": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.85
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.85
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.85
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.85
+      }
+    ]
   },
   "CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ]
   },
   "CONTENT_INVENTORY_OVERLAY_UI_MOD": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ]
   },
   "CONTENT_INVENTORY_OVERLAY_UI_MOD_BG": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ]
   },
   "CONTEXT_MENU_BACKDROP_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ]
   },
   "CONTROL_BRAND_FOREGROUND": {
-    "dark": "#949CF7",
-    "light": "#5865F2",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "CONTROL_BRAND_FOREGROUND_NEW": {
-    "dark": "#949CF7",
-    "light": "#5865F2",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "CREATOR_REVENUE_ICON_GRADIENT_END": {
-    "dark": "#207A8D",
-    "light": "#248DA1",
-    "midnight": "#207A8D",
-    "darker": "#207A8D"
+    "dark": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 1
+      }
+    ]
   },
   "CREATOR_REVENUE_ICON_GRADIENT_START": {
-    "dark": "#289FB6",
-    "light": "#2EB0C9",
-    "midnight": "#289FB6",
-    "darker": "#289FB6"
+    "dark": [
+      "#289FB6",
+      {
+        "raw": "TEAL_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#2EB0C9",
+      {
+        "raw": "TEAL_345",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#289FB6",
+      {
+        "raw": "TEAL_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#289FB6",
+      {
+        "raw": "TEAL_360",
+        "opacity": 1
+      }
+    ]
   },
   "CREATOR_REVENUE_INFO_BOX_BACKGROUND": {
-    "dark": "#207A8D",
-    "light": "#207A8D",
-    "midnight": "#207A8D",
-    "darker": "#207A8D"
+    "dark": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#207A8D",
+      {
+        "raw": "TEAL_430",
+        "opacity": 0.1
+      }
+    ]
   },
   "CREATOR_REVENUE_INFO_BOX_BORDER": {
-    "dark": "#248DA1",
-    "light": "#248DA1",
-    "midnight": "#248DA1",
-    "darker": "#248DA1"
+    "dark": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ]
   },
   "CREATOR_REVENUE_LOCKED_CHANNEL_ICON": {
-    "dark": "#2EB0C9",
-    "light": "#248DA1",
-    "midnight": "#2EB0C9",
-    "darker": "#2EB0C9"
+    "dark": [
+      "#2EB0C9",
+      {
+        "raw": "TEAL_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2EB0C9",
+      {
+        "raw": "TEAL_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2EB0C9",
+      {
+        "raw": "TEAL_345",
+        "opacity": 1
+      }
+    ]
   },
   "CREATOR_REVENUE_PROGRESS_BAR": {
-    "dark": "#248DA1",
-    "light": "#2EB0C9",
-    "midnight": "#248DA1",
-    "darker": "#248DA1"
+    "dark": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#2EB0C9",
+      {
+        "raw": "TEAL_345",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248DA1",
+      {
+        "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_CARD_BG": {
-    "dark": "#1E1F22",
-    "light": "#F9F9F9",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.6
+      }
+    ]
   },
   "DEPRECATED_CARD_EDITABLE_BG": {
-    "dark": "#1E1F22",
-    "light": "#F9F9F9",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 0.6
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.3
+      }
+    ]
   },
   "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": {
-    "dark": "#80848E",
-    "light": "#FFFFFF",
-    "midnight": "#80848E",
-    "darker": "#80848E"
+    "dark": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": {
-    "dark": "#FFFFFF",
-    "light": "#4E5058",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.3
+      }
+    ]
   },
   "DEPRECATED_STORE_BG": {
-    "dark": "#313338",
-    "light": "#F9F9F9",
-    "midnight": "#313338",
-    "darker": "#313338"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_TEXT_INPUT_BG": {
-    "dark": "#1E1F22",
-    "light": "#E3E5E8",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_TEXT_INPUT_BORDER": {
-    "dark": "#000000",
-    "light": "#4E5058",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ]
   },
   "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": {
-    "dark": "#1E1F22",
-    "light": "#E3E5E8",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_TEXT_INPUT_BORDER_HOVER": {
-    "dark": "#020202",
-    "light": "#C4C9CE",
-    "midnight": "#020202",
-    "darker": "#020202"
+    "dark": [
+      "#020202",
+      {
+        "raw": "PRIMARY_900",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C4C9CE",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#020202",
+      {
+        "raw": "PRIMARY_900",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#020202",
+      {
+        "raw": "PRIMARY_900",
+        "opacity": 1
+      }
+    ]
   },
   "DEPRECATED_TEXT_INPUT_PREFIX": {
-    "dark": "#E3E5E8",
-    "light": "#C4C9CE",
-    "midnight": "#E3E5E8",
-    "darker": "#E3E5E8"
+    "dark": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C4C9CE",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ]
   },
   "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#FFFFFF",
-    "midnight": "#1C1D23",
-    "darker": "#1C1D23"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.5
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 0.5
+      }
+    ]
   },
   "DIVIDER_STRONG": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.22
+      }
+    ]
   },
   "DIVIDER_SUBTLE": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "EMBED_BACKGROUND": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#131318",
-    "darker": "#26272F"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#131318",
+      {
+        "raw": "PLUM_23",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "EMBED_BACKGROUND_ALTERNATE": {
-    "dark": "#313338",
-    "light": "#E3E5E8",
-    "midnight": "#313338",
-    "darker": "#313338"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ]
   },
   "EMBED_TITLE": {
-    "dark": "#F2F3F5",
-    "light": "#060607",
-    "midnight": "#ECEDEF",
-    "darker": "#E4E5E8"
+    "dark": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ECEDEF",
+      {
+        "raw": "PLUM_2",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#E4E5E8",
+      {
+        "raw": "PLUM_3",
+        "opacity": 1
+      }
+    ]
   },
   "EXPRESSION_PICKER_BG": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "FOCUS_PRIMARY": {
-    "dark": "#00AAFC",
-    "light": "#0097F2",
-    "midnight": "#00AAFC",
-    "darker": "#00AAFC"
+    "dark": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#0097F2",
+      {
+        "raw": "BLUE_360",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ]
   },
   "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#212229",
-    "darker": "#212229"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.8
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 0.8
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.8
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.8
+      }
+    ]
   },
   "FORUM_POST_TAG_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#212229",
-    "darker": "#212229"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.9
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 0.9
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.9
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 0.9
+      }
+    ]
   },
   "GUILD_ICON_INACTIVE_BG": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "GUILD_ICON_INACTIVE_NESTED_BG": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#FFFFFF",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ]
   },
   "HALO_POSITIVE": {
-    "dark": "#23A55A",
-    "light": "#23A55A",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.24
+      }
+    ]
   },
   "HEADER_MUTED": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "HEADER_PRIMARY": {
-    "dark": "#F2F3F5",
-    "light": "#060607",
-    "midnight": "#ECEDEF",
-    "darker": "#E4E5E8"
+    "dark": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ECEDEF",
+      {
+        "raw": "PLUM_2",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#E4E5E8",
+      {
+        "raw": "PLUM_3",
+        "opacity": 1
+      }
+    ]
   },
   "HEADER_SECONDARY": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#A8AAB4",
-    "darker": "#9597A3"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#A8AAB4",
+      {
+        "raw": "PLUM_8",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "HOME_BACKGROUND": {
-    "dark": "#282A2E",
-    "light": "#F9F9F9",
-    "midnight": "#26272F",
-    "darker": "#26272F"
+    "dark": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F9F9F9",
+      {
+        "raw": "PRIMARY_100",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#26272F",
+      {
+        "raw": "PLUM_18",
+        "opacity": 1
+      }
+    ]
   },
   "HOME_CARD_RESTING_BORDER": {
-    "dark": "#000000",
-    "light": "#80848E",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ]
   },
   "ICON_MUTED": {
-    "dark": "#80848E",
-    "light": "#80848E",
-    "midnight": "#5B5E6A",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5B5E6A",
+      {
+        "raw": "PLUM_12",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "ICON_PRIMARY": {
-    "dark": "#F2F3F5",
-    "light": "#060607",
-    "midnight": "#D3D5D9",
-    "darker": "#DDDEE1"
+    "dark": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#D3D5D9",
+      {
+        "raw": "PLUM_5",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ]
   },
   "ICON_SECONDARY": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#9597A3",
-    "darker": "#9597A3"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "ICON_TRANSPARENT": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ]
   },
   "INFO_BOX_BACKGROUND": {
-    "dark": "#00AAFC",
-    "light": "#00AAFC",
-    "midnight": "#00AAFC",
-    "darker": "#00AAFC"
+    "dark": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ]
   },
   "INFO_DANGER_BACKGROUND": {
-    "dark": "#F23F43",
-    "light": "#DA373C",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 0.1
+      }
+    ]
   },
   "INFO_DANGER_FOREGROUND": {
-    "dark": "#F23F43",
-    "light": "#DA373C",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_DANGER_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_HELP_BACKGROUND": {
-    "dark": "#00AAFC",
-    "light": "#006BE7",
-    "midnight": "#00AAFC",
-    "darker": "#00AAFC"
+    "dark": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#006BE7",
+      {
+        "raw": "BLUE_430",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 0.1
+      }
+    ]
   },
   "INFO_HELP_FOREGROUND": {
-    "dark": "#00AAFC",
-    "light": "#006BE7",
-    "midnight": "#00AAFC",
-    "darker": "#00AAFC"
+    "dark": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#006BE7",
+      {
+        "raw": "BLUE_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_HELP_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_POSITIVE_BACKGROUND": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 0.05
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.1
+      }
+    ]
   },
   "INFO_POSITIVE_FOREGROUND": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_POSITIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_WARNING_BACKGROUND": {
-    "dark": "#F0B232",
-    "light": "#AF7615",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#AF7615",
+      {
+        "raw": "YELLOW_400",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 0.1
+      }
+    ]
   },
   "INFO_WARNING_FOREGROUND": {
-    "dark": "#F0B232",
-    "light": "#AF7615",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#AF7615",
+      {
+        "raw": "YELLOW_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ]
   },
   "INFO_WARNING_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "INPUT_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#000000",
-    "midnight": "#BCBCF0",
-    "darker": "#0F1014"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#BCBCF0",
+      {
+        "raw": "PLUM_23_ALPHA",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 0.85
+      }
+    ]
   },
   "INPUT_FOCUSED_BORDER": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ]
   },
   "INPUT_PLACEHOLDER_TEXT": {
-    "dark": "#87898C",
-    "light": "#5C5E66",
-    "midnight": "#9597A3",
-    "darker": "#818491"
+    "dark": [
+      "#87898C",
+      {
+        "raw": "INPUT_PLACEHOLDER_TEXT_DARK",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "INTERACTIVE_ACTIVE": {
-    "dark": "#FFFFFF",
-    "light": "#060607",
-    "midnight": "#E4E5E8",
-    "darker": "#F3F3F4"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#E4E5E8",
+      {
+        "raw": "PLUM_3",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F3F3F4",
+      {
+        "raw": "PLUM_1",
+        "opacity": 1
+      }
+    ]
   },
   "INTERACTIVE_HOVER": {
-    "dark": "#DBDEE1",
-    "light": "#313338",
-    "midnight": "#DDDEE1",
-    "darker": "#DDDEE1"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ]
   },
   "INTERACTIVE_MUTED": {
-    "dark": "#4E5058",
-    "light": "#C4C9CE",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C4C9CE",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "INTERACTIVE_NORMAL": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#C7C8CE",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ]
   },
   "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
-    "dark": "#232428",
-    "light": "#F2F3F5",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ]
   },
   "LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.025
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.25
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.025
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.025
+      }
+    ]
   },
   "LEGACY_BLUR_FALLBACK_DEFAULT": {
-    "dark": "#232428",
-    "light": "#DBDEE1",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.975
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 0.975
+      }
+    ],
+    "midnight": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.975
+      }
+    ],
+    "darker": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.975
+      }
+    ]
   },
   "LEGACY_BLUR_FALLBACK_ULTRA_THIN": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.95
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.95
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.95
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.95
+      }
+    ]
   },
   "LIVE_STAGE_TILE_BORDER": {
-    "dark": "#4E5058",
-    "light": "#6D6F78",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 0.15
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 0.6
+      }
+    ]
   },
   "LOGO_PRIMARY": {
-    "dark": "#FFFFFF",
-    "light": "#5865F2",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "MENTION_BACKGROUND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.15
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.5
+      }
+    ]
   },
   "MENTION_FOREGROUND": {
-    "dark": "#C9CDFB",
-    "light": "#5865F2",
-    "midnight": "#D4D7FC",
-    "darker": "#D4D7FC"
+    "dark": [
+      "#C9CDFB",
+      {
+        "raw": "BRAND_260",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#D4D7FC",
+      {
+        "raw": "BRAND_230",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#D4D7FC",
+      {
+        "raw": "BRAND_230",
+        "opacity": 1
+      }
+    ]
   },
   "MENU_ITEM_DANGER_ACTIVE_BG": {
-    "dark": "#8F2022",
-    "light": "#8F2022",
-    "midnight": "#8F2022",
-    "darker": "#8F2022"
+    "dark": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#8F2022",
+      {
+        "raw": "RED_530",
+        "opacity": 1
+      }
+    ]
   },
   "MENU_ITEM_DANGER_HOVER_BG": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "MENU_ITEM_DEFAULT_ACTIVE_BG": {
-    "dark": "#4752C4",
-    "light": "#4752C4",
-    "midnight": "#4752C4",
-    "darker": "#4752C4"
+    "dark": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ]
   },
   "MENU_ITEM_DEFAULT_HOVER_BG": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "MODAL_BACKGROUND": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#31323B",
-    "darker": "#31323B"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
   },
   "MODAL_FOOTER_BACKGROUND": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#2C2D35",
-    "darker": "#2C2D35"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "NAVIGATOR_HEADER_TINT": {
-    "dark": "#FFFFFF",
-    "light": "#4E5058",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "PANEL_BG": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#0F1014",
-    "darker": "#1C1D23"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0F1014",
+      {
+        "raw": "PLUM_24",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "POLLS_NORMAL_FILL_HOVER": {
-    "dark": "#313338",
-    "light": "#DBDEE1",
-    "midnight": "#313338",
-    "darker": "#313338"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ]
   },
   "POLLS_NORMAL_IMAGE_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#FFFFFF",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ]
   },
   "POLLS_VICTOR_FILL": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.2
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 0.2
+      }
+    ]
   },
   "POLLS_VOTED_FILL": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.2
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.2
+      }
+    ]
   },
   "PREMIUM_NITRO_PINK_TEXT": {
-    "dark": "#C269C3",
-    "light": "#B64AB7",
-    "midnight": "#C269C3",
-    "darker": "#C269C3"
+    "dark": [
+      "#C269C3",
+      {
+        "raw": "PREMIUM_NITRO_PINK_LIGHT",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#B64AB7",
+      {
+        "raw": "PREMIUM_NITRO_PINK_DARK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#C269C3",
+      {
+        "raw": "PREMIUM_NITRO_PINK_LIGHT",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C269C3",
+      {
+        "raw": "PREMIUM_NITRO_PINK_LIGHT",
+        "opacity": 1
+      }
+    ]
   },
   "PROFILE_GRADIENT_CARD_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.7
+      }
+    ]
   },
   "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
-    "dark": "#4E5058",
-    "light": "#6D6F78",
-    "midnight": "#4E5058",
-    "darker": "#4E5058"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ],
+    "darker": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.48
+      }
+    ]
   },
   "PROFILE_GRADIENT_NOTE_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.3
+      }
+    ]
   },
   "PROFILE_GRADIENT_OVERLAY": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.6
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.6
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.6
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.6
+      }
+    ]
   },
   "PROFILE_GRADIENT_OVERLAY_SYNCED_WITH_USER_THEME": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.8
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.8
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.8
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.8
+      }
+    ]
   },
   "PROFILE_GRADIENT_PROFILE_BODY_BACKGROUND_HOVER": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.16
+      }
+    ]
   },
   "PROFILE_GRADIENT_ROLE_PILL_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#FFFFFF",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.5
+      }
+    ],
+    "midnight": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.5
+      }
+    ]
   },
   "PROFILE_GRADIENT_ROLE_PILL_BORDER": {
-    "dark": "#FFFFFF",
-    "light": "#232428",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.2
+      }
+    ],
+    "light": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 0.2
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.2
+      }
+    ]
   },
   "PROFILE_GRADIENT_SECTION_BOX": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.45
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.45
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.45
+      }
+    ]
   },
   "REDESIGN_ACTIVITY_CARD_BACKGROUND": {
-    "dark": "#383A40",
-    "light": "#FFFFFF",
-    "midnight": "#383A40",
-    "darker": "#383A40"
+    "dark": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": {
-    "dark": "#2B2D31",
-    "light": "#EBEDEF",
-    "midnight": "#2B2D31",
-    "darker": "#2B2D31"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
-    "dark": "#949BA4",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#818491"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ACTIVITY_CARD_BORDER": {
-    "dark": "#FFFFFF",
-    "light": "#80848E",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.02
+      }
+    ],
+    "light": [
+      "#80848E",
+      {
+        "raw": "PRIMARY_400",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ]
   },
   "REDESIGN_ACTIVITY_CARD_OVERFLOW_BACKGROUND": {
-    "dark": "#2B2D31",
-    "light": "#DBDEE1",
-    "midnight": "#2C2D35",
-    "darker": "#2C2D35"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_ACTIVE_BACKGROUND": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_ACTIVE_PRESSED_BACKGROUND": {
-    "dark": "#1F703C",
-    "light": "#1F703C",
-    "midnight": "#1F703C",
-    "darker": "#1F703C"
+    "dark": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_ACTIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DANGER_BACKGROUND": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DANGER_PRESSED_BACKGROUND": {
-    "dark": "#BB3033",
-    "light": "#BB3033",
-    "midnight": "#BB3033",
-    "darker": "#BB3033"
+    "dark": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DANGER_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DESTRUCTIVE_BACKGROUND": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DESTRUCTIVE_PRESSED_BACKGROUND": {
-    "dark": "#BB3033",
-    "light": "#BB3033",
-    "midnight": "#BB3033",
-    "darker": "#BB3033"
+    "dark": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#BB3033",
+      {
+        "raw": "RED_460",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_DESTRUCTIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_ALPHA_PRESSED_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_ALPHA_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_PRESSED_BACKGROUND": {
-    "dark": "#DBDEE1",
-    "light": "#DBDEE1",
-    "midnight": "#DBDEE1",
-    "darker": "#DBDEE1"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_OVERLAY_TEXT": {
-    "dark": "#060607",
-    "light": "#060607",
-    "midnight": "#060607",
-    "darker": "#060607"
+    "dark": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_POSITIVE_BACKGROUND": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_POSITIVE_PRESSED_BACKGROUND": {
-    "dark": "#1F703C",
-    "light": "#1F703C",
-    "midnight": "#1F703C",
-    "darker": "#1F703C"
+    "dark": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1F703C",
+      {
+        "raw": "GREEN_460",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_POSITIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_BORDER": {
-    "dark": "#949CF7",
-    "light": "#5865F2",
-    "midnight": "#7984F5",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BACKGROUND": {
-    "dark": "#505CDC",
-    "light": "#505CDC",
-    "midnight": "#505CDC",
-    "darker": "#505CDC"
+    "dark": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 0
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_BORDER": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BACKGROUND": {
-    "dark": "#505CDC",
-    "light": "#505CDC",
-    "midnight": "#505CDC",
-    "darker": "#505CDC"
+    "dark": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_PRESSED_BORDER": {
-    "dark": "#949CF7",
-    "light": "#949CF7",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_ON_BLURPLE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BACKGROUND": {
-    "dark": "#232861",
-    "light": "#5865F2",
-    "midnight": "#232861",
-    "darker": "#232861"
+    "dark": [
+      "#232861",
+      {
+        "raw": "BRAND_700",
+        "opacity": 0.16
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.06
+      }
+    ],
+    "midnight": [
+      "#232861",
+      {
+        "raw": "BRAND_700",
+        "opacity": 0.16
+      }
+    ],
+    "darker": [
+      "#232861",
+      {
+        "raw": "BRAND_700",
+        "opacity": 0.16
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_BORDER": {
-    "dark": "#7984F5",
-    "light": "#A8AFF8",
-    "midnight": "#7984F5",
-    "darker": "#7984F5"
+    "dark": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#A8AFF8",
+      {
+        "raw": "BRAND_330",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 0.5
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_PRESSED_TEXT": {
-    "dark": "#949CF7",
-    "light": "#4752C4",
-    "midnight": "#949CF7",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_TEXT": {
-    "dark": "#949CF7",
-    "light": "#5865F2",
-    "midnight": "#7984F5",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_BACKGROUND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_ON_BLURPLE_PRESSED_TEXT": {
-    "dark": "#505CDC",
-    "light": "#505CDC",
-    "midnight": "#505CDC",
-    "darker": "#505CDC"
+    "dark": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#505CDC",
+      {
+        "raw": "BRAND_530",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_OVERLAY_BACKGROUND": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_OVERLAY_PRESSED_BACKGROUND": {
-    "dark": "#DBDEE1",
-    "light": "#DBDEE1",
-    "midnight": "#DDDEE1",
-    "darker": "#DDDEE1"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_OVERLAY_TEXT": {
-    "dark": "#060607",
-    "light": "#060607",
-    "midnight": "#0C0C10",
-    "darker": "#0C0C10"
+    "dark": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": {
-    "dark": "#4752C4",
-    "light": "#4752C4",
-    "midnight": "#4752C4",
-    "darker": "#4752C4"
+    "dark": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4752C4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_PRIMARY_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_BACKGROUND": {
-    "dark": "#5C5E66",
-    "light": "#FFFFFF",
-    "midnight": "#2C2D35",
-    "darker": "#383A43"
+    "dark": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#383A43",
+      {
+        "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_BORDER": {
-    "dark": "#FFFFFF",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.54
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_OVERLAY_PRESSED_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.64
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_OVERLAY_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_PRESSED_BACKGROUND": {
-    "dark": "#4E5058",
-    "light": "#F2F3F5",
-    "midnight": "#383A43",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#383A43",
+      {
+        "raw": "PLUM_15",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_PRESSED_BORDER": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#000000",
+      {
+        "raw": "TRANSPARENT",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.04
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ]
   },
   "REDESIGN_BUTTON_SECONDARY_TEXT": {
-    "dark": "#DBDEE1",
-    "light": "#313338",
-    "midnight": "#DDDEE1",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_SELECTED_BACKGROUND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.24
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.24
+      }
+    ]
   },
   "REDESIGN_BUTTON_SELECTED_PRESSED_BACKGROUND": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.28
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.24
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.28
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.28
+      }
+    ]
   },
   "REDESIGN_BUTTON_SELECTED_TEXT": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_TERTIARY_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#000000",
-    "midnight": "#BCBCF0",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#BCBCF0",
+      {
+        "raw": "PLUM_23_ALPHA",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_BACKGROUND": {
-    "dark": "#383A40",
-    "light": "#000000",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#383A40",
+      {
+        "raw": "PRIMARY_560",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.16
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.2
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.2
+      }
+    ]
   },
   "REDESIGN_BUTTON_TERTIARY_PRESSED_TEXT": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#C7C8CE",
-    "darker": "#D3D5D9"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#D3D5D9",
+      {
+        "raw": "PLUM_5",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_BUTTON_TERTIARY_TEXT": {
-    "dark": "#DBDEE1",
-    "light": "#313338",
-    "midnight": "#DDDEE1",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#A8AAB4",
-    "darker": "#9597A3"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#A8AAB4",
+      {
+        "raw": "PLUM_8",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_CHANNEL_MESSAGE_PREVIEW_TEXT": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_CHANNEL_NAME_TEXT": {
-    "dark": "#F2F3F5",
-    "light": "#060607",
-    "midnight": "#ECEDEF",
-    "darker": "#E4E5E8"
+    "dark": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#060607",
+      {
+        "raw": "PRIMARY_860",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ECEDEF",
+      {
+        "raw": "PLUM_2",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#E4E5E8",
+      {
+        "raw": "PLUM_3",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_CHAT_INPUT_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#000000",
-    "midnight": "#BCBCF0",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#BCBCF0",
+      {
+        "raw": "PLUM_23_ALPHA",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.12
+      }
+    ]
   },
   "REDESIGN_IMAGE_BUTTON_PRESSED_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.08
+      }
+    ]
   },
   "REDESIGN_INPUT_CONTROL_ACTIVE_BG": {
-    "dark": "#282A2E",
-    "light": "#FFFFFF",
-    "midnight": "#2C2D35",
-    "darker": "#31323B"
+    "dark": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_INPUT_CONTROL_SELECTED": {
-    "dark": "#5865F2",
-    "light": "#5865F2",
-    "midnight": "#5865F2",
-    "darker": "#5865F2"
+    "dark": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ONLY_BACKGROUND_ACTIVE": {
-    "dark": "#41434A",
-    "light": "#6D6F78",
-    "midnight": "#41434A",
-    "darker": "#41434A"
+    "dark": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ONLY_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#FFFFFF",
-    "midnight": "#313338",
-    "darker": "#313338"
+    "dark": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ONLY_BACKGROUND_OVERLAY": {
-    "dark": "#282A2E",
-    "light": "#EBEDEF",
-    "midnight": "#282A2E",
-    "darker": "#282A2E"
+    "dark": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#282A2E",
+      {
+        "raw": "PRIMARY_645",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ONLY_BACKGROUND_RAISED": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#2B2D31",
-    "darker": "#2B2D31"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ]
   },
   "REDESIGN_ONLY_BACKGROUND_SUNKEN": {
-    "dark": "#232428",
-    "light": "#E3E5E8",
-    "midnight": "#232428",
-    "darker": "#232428"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {
-    "dark": "#1A1B1E",
-    "light": "#DBDEE1",
-    "midnight": "#1C1D23",
-    "darker": "#18191F"
+    "dark": [
+      "#1A1B1E",
+      {
+        "raw": "PRIMARY_730",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_AUTO_SCROLLBAR_COLOR_TRACK": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#2C2D35",
-    "darker": "#2C2D35"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_AUTO_THUMB": {
-    "dark": "#1A1B1E",
-    "light": "#C4C9CE",
-    "midnight": "#31323B",
-    "darker": "#18191F"
+    "dark": [
+      "#1A1B1E",
+      {
+        "raw": "PRIMARY_730",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C4C9CE",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#31323B",
+      {
+        "raw": "PLUM_16",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_AUTO_TRACK": {
-    "dark": "#2B2D31",
-    "light": "#EBEDEF",
-    "midnight": "#0C0C10",
-    "darker": "#212229"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_THIN_THUMB": {
-    "dark": "#1A1B1E",
-    "light": "#4E5058",
-    "midnight": "#1C1D23",
-    "darker": "#18191F"
+    "dark": [
+      "#1A1B1E",
+      {
+        "raw": "PRIMARY_730",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#18191F",
+      {
+        "raw": "PLUM_21",
+        "opacity": 1
+      }
+    ]
   },
   "SCROLLBAR_THIN_TRACK": {
-    "dark": "#000000",
-    "light": "#000000",
-    "midnight": "#000000",
-    "darker": "#000000"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0
+      }
+    ]
   },
   "SPOILER_HIDDEN_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#E3E5E8",
-    "midnight": "#41434D",
-    "darker": "#41434D"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#E3E5E8",
+      {
+        "raw": "PRIMARY_200",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#41434D",
+      {
+        "raw": "PLUM_14",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#41434D",
+      {
+        "raw": "PLUM_14",
+        "opacity": 1
+      }
+    ]
   },
   "SPOILER_REVEALED_BACKGROUND": {
-    "dark": "#232428",
-    "light": "#EBEDEF",
-    "midnight": "#6C6F7C",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#232428",
+      {
+        "raw": "PRIMARY_660",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#EBEDEF",
+      {
+        "raw": "PRIMARY_160",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.16
+      }
+    ]
   },
   "STAGE_CARD_PILL_BG": {
-    "dark": "#2B2D31",
-    "light": "#FFFFFF",
-    "midnight": "#0C0C10",
-    "darker": "#212229"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#0C0C10",
+      {
+        "raw": "PLUM_25",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_DANGER": {
-    "dark": "#F23F43",
-    "light": "#DA373C",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_DANGER_BACKGROUND": {
-    "dark": "#DA373C",
-    "light": "#DA373C",
-    "midnight": "#DA373C",
-    "darker": "#DA373C"
+    "dark": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_DANGER_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_DND": {
-    "dark": "#F23F43",
-    "light": "#DA373C",
-    "midnight": "#F23F43",
-    "darker": "#F23F43"
+    "dark": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#DA373C",
+      {
+        "raw": "RED_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F23F43",
+      {
+        "raw": "RED_400",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_IDLE": {
-    "dark": "#F0B232",
-    "light": "#AF7615",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#AF7615",
+      {
+        "raw": "YELLOW_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_OFFLINE": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#9597A3",
-    "darker": "#9597A3"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_ONLINE": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_POSITIVE": {
-    "dark": "#23A55A",
-    "light": "#24934E",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#24934E",
+      {
+        "raw": "GREEN_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_POSITIVE_BACKGROUND": {
-    "dark": "#248045",
-    "light": "#248045",
-    "midnight": "#248045",
-    "darker": "#248045"
+    "dark": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_POSITIVE_TEXT": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_SPEAKING": {
-    "dark": "#23A55A",
-    "light": "#23A55A",
-    "midnight": "#23A55A",
-    "darker": "#23A55A"
+    "dark": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#23A55A",
+      {
+        "raw": "GREEN_360",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_WARNING": {
-    "dark": "#F0B232",
-    "light": "#AF7615",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#AF7615",
+      {
+        "raw": "YELLOW_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_WARNING_BACKGROUND": {
-    "dark": "#F0B232",
-    "light": "#AF7615",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#AF7615",
+      {
+        "raw": "YELLOW_400",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ]
   },
   "STATUS_WARNING_TEXT": {
-    "dark": "#000000",
-    "light": "#FFFFFF",
-    "midnight": "#000000",
-    "darker": "#000000"
-  },
-  "TEXTBOX_MARKDOWN_SYNTAX": {
-    "dark": "#949BA4",
-    "light": "#41434A",
-    "midnight": "#9597A3",
-    "darker": "#9597A3"
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_BRAND": {
-    "dark": "#949CF7",
-    "light": "#5865F2",
-    "midnight": "#7984F5",
-    "darker": "#949CF7"
+    "dark": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865F2",
+      {
+        "raw": "BRAND_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#7984F5",
+      {
+        "raw": "BRAND_400",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#949CF7",
+      {
+        "raw": "BRAND_360",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_DANGER": {
-    "dark": "#FA777B",
-    "light": "#A12829",
-    "midnight": "#FA777B",
-    "darker": "#FA777B"
+    "dark": [
+      "#FA777B",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FA777B",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FA777B",
+      {
+        "raw": "RED_345",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_LINK": {
-    "dark": "#00AAFC",
-    "light": "#006BE7",
-    "midnight": "#00AAFC",
-    "darker": "#00AAFC"
+    "dark": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#006BE7",
+      {
+        "raw": "BLUE_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#00AAFC",
+      {
+        "raw": "BLUE_345",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_LINK_LOW_SATURATION": {
-    "dark": "#2EB6FF",
-    "light": "#006BE7",
-    "midnight": "#2EB6FF",
-    "darker": "#2EB6FF"
+    "dark": [
+      "#2EB6FF",
+      {
+        "raw": "BLUE_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#006BE7",
+      {
+        "raw": "BLUE_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2EB6FF",
+      {
+        "raw": "BLUE_330",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2EB6FF",
+      {
+        "raw": "BLUE_330",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_LOW_CONTRAST": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#5B5E6A",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5B5E6A",
+      {
+        "raw": "PLUM_12",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_MESSAGE_PREVIEW_LOW_SAT": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#9597A3",
-    "darker": "#6C6F7C"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_MUTED": {
-    "dark": "#949BA4",
-    "light": "#5C5E66",
-    "midnight": "#818491",
-    "darker": "#818491"
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5C5E66",
+      {
+        "raw": "PRIMARY_460",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#818491",
+      {
+        "raw": "PLUM_10",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_MUTED_ON_DEFAULT": {
-    "dark": "#B5BAC1",
-    "light": "#6D6F78",
-    "midnight": "#B5BAC1",
-    "darker": "#B5BAC1"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#6D6F78",
+      {
+        "raw": "PRIMARY_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_NORMAL": {
-    "dark": "#DBDEE1",
-    "light": "#313338",
-    "midnight": "#DDDEE1",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_POSITIVE": {
-    "dark": "#2DC771",
-    "light": "#248045",
-    "midnight": "#2DC771",
-    "darker": "#2DC771"
+    "dark": [
+      "#2DC771",
+      {
+        "raw": "GREEN_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#248045",
+      {
+        "raw": "GREEN_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2DC771",
+      {
+        "raw": "GREEN_330",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2DC771",
+      {
+        "raw": "GREEN_330",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_PRIMARY": {
-    "dark": "#DBDEE1",
-    "light": "#313338",
-    "midnight": "#DDDEE1",
-    "darker": "#C7C8CE"
+    "dark": [
+      "#DBDEE1",
+      {
+        "raw": "PRIMARY_230",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#313338",
+      {
+        "raw": "PRIMARY_600",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#DDDEE1",
+      {
+        "raw": "PLUM_4",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#C7C8CE",
+      {
+        "raw": "PLUM_6",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_SECONDARY": {
-    "dark": "#B5BAC1",
-    "light": "#4E5058",
-    "midnight": "#A8AAB4",
-    "darker": "#9597A3"
+    "dark": [
+      "#B5BAC1",
+      {
+        "raw": "PRIMARY_330",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#A8AAB4",
+      {
+        "raw": "PLUM_8",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "TEXT_WARNING": {
-    "dark": "#F0B232",
-    "light": "#9A650D",
-    "midnight": "#F0B232",
-    "darker": "#F0B232"
+    "dark": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#9A650D",
+      {
+        "raw": "YELLOW_430",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F0B232",
+      {
+        "raw": "YELLOW_300",
+        "opacity": 1
+      }
+    ]
+  },
+  "TEXTBOX_MARKDOWN_SYNTAX": {
+    "dark": [
+      "#949BA4",
+      {
+        "raw": "PRIMARY_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#41434A",
+      {
+        "raw": "PRIMARY_530",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#9597A3",
+      {
+        "raw": "PLUM_9",
+        "opacity": 1
+      }
+    ]
   },
   "THEME_LOCKED_BLUR_FALLBACK": {
-    "dark": "#1E1F22",
-    "light": "#1E1F22",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.96
+      }
+    ],
+    "light": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.96
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.96
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.96
+      }
+    ]
   },
   "THREAD_CHANNEL_SPINE": {
-    "dark": "#4E5058",
-    "light": "#C4C9CE",
-    "midnight": "#4D505B",
-    "darker": "#4D505B"
+    "dark": [
+      "#4E5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#C4C9CE",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4D505B",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
   },
   "TOAST_BG": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#212229",
-    "darker": "#2C2D35"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   },
   "TYPING_INDICATOR_BG": {
-    "dark": "#2B2D31",
-    "light": "#F2F3F5",
-    "midnight": "#000000",
-    "darker": "#1C1D23"
+    "dark": [
+      "#2B2D31",
+      {
+        "raw": "PRIMARY_630",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F2F3F5",
+      {
+        "raw": "PRIMARY_130",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 1
+      }
+    ]
   },
   "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": {
-    "dark": "#1E1F22",
-    "light": "#FFFFFF",
-    "midnight": "#1C1D23",
-    "darker": "#1C1D23"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.5
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 0.5
+      }
+    ],
+    "midnight": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 0.5
+      }
+    ],
+    "darker": [
+      "#1C1D23",
+      {
+        "raw": "PLUM_20",
+        "opacity": 0.5
+      }
+    ]
   },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
-    "dark": "#2C2D35",
-    "light": "#2C2D35",
-    "midnight": "#2C2D35",
-    "darker": "#2C2D35"
+    "dark": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 0.4
+      }
+    ],
+    "light": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 0.4
+      }
+    ],
+    "midnight": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 0.4
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 0.4
+      }
+    ]
   },
   "VOICE_VIDEO_VIDEO_TILE_BLUR_FALLBACK": {
-    "dark": "#1E1F22",
-    "light": "#1E1F22",
-    "midnight": "#1E1F22",
-    "darker": "#1E1F22"
+    "dark": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.48
+      }
+    ],
+    "light": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.48
+      }
+    ],
+    "midnight": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.48
+      }
+    ],
+    "darker": [
+      "#1E1F22",
+      {
+        "raw": "PRIMARY_700",
+        "opacity": 0.48
+      }
+    ]
   },
   "WHITE": {
-    "dark": "#FFFFFF",
-    "light": "#FFFFFF",
-    "midnight": "#FFFFFF",
-    "darker": "#FFFFFF"
+    "dark": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
   },
   "YOU_BAR_BG": {
-    "dark": "#111214",
-    "light": "#FFFFFF",
-    "midnight": "#212229",
-    "darker": "#2C2D35"
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
+        "opacity": 1
+      }
+    ]
   }
 }
