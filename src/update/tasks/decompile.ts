@@ -19,7 +19,7 @@ export default async function decompile(
 		progress.update("decompile_downloading", true);
 	} else progress.update("decompile_downloading", null);
 
-	const { exitCode: hasPython } = await Bun.$`py --version`.nothrow().quiet();
+	const { exitCode: hasPython } = await Bun.$`python --version`.nothrow().quiet();
 	if (hasPython !== 0)
 		throw new Error("Cannot use Python! Are you sure it's installed?");
 
@@ -27,7 +27,7 @@ export default async function decompile(
 
 	progress.start("decompile_decompiling");
 	if (!(await Bun.file(pathToJs).exists())) {
-		await Bun.$`py ${join(
+		await Bun.$`python ${join(
 			pathToDecompiler,
 			"hbc_decompiler.py",
 		)} ${pathToBundle} ${pathToJs}`

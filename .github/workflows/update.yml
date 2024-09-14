@@ -18,6 +18,10 @@ jobs:
           ref: data
           path: data
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12.4"
+
       - uses: oven-sh/setup-bun@v1
 
       - working-directory: main
