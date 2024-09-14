@@ -1,9 +1,9 @@
-name: update
+name: update (hourly)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 6 * * *" # this is right after Discord pushes a new alpha
+    - cron: "30 * * * *"
 
 jobs:
   check-update:
