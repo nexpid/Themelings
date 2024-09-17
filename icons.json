@@ -968,6 +968,16 @@
         "width": 161,
         "height": 160
     },
+    "BugIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BugIcon.png",
+        "hash": "b60bb7d3a8630c4d8876f62d222160cd",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "cactus": {
         "file": "modules/guild_role_subscriptions/native/images/cactus.png",
         "hash": "67e9bc8b12cbc0fed84dfc34cd178623",
@@ -12963,6 +12973,16 @@
     "ReactionIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
         "hash": "f1a659c91bd36b4a0872e9b8ddf8ad85",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "RecordPlayerIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
+        "hash": "d8085aec4aeb71d8649b817c49c715bf",
         "scales": [
             2,
             3
