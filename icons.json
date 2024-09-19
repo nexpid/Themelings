@@ -2718,46 +2718,6 @@
         "width": 311,
         "height": 175
     },
-    "empty_expanded_friend_list_dark": {
-        "file": "images/native/empties/empty_expanded_friend_list_dark.png",
-        "hash": "7f22d18cb510a72bbe8d0a7e73be2fc7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
-    "empty_expanded_friend_list_light": {
-        "file": "images/native/empties/empty_expanded_friend_list_light.png",
-        "hash": "419e2b1b55ad7eb5ea636c8427124372",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 120,
-        "height": 96
-    },
-    "empty_friends": {
-        "file": "images/native/empties/empty_friends.png",
-        "hash": "fc0e5fbe8c4114674d47dcbbcfff96df",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 220,
-        "height": 200
-    },
-    "empty_friends_cta": {
-        "file": "images/native/empties/empty_friends_cta.png",
-        "hash": "2fa9a27e2e58f1b095933e9b228ca9c2",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 40,
-        "height": 40
-    },
     "empty_instant_invite_friends": {
         "file": "images/native/empties/empty_instant_invite_friends.png",
         "hash": "922fc9869c3ee0ed3aedef0f0ad9cb7d",
@@ -4913,16 +4873,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_compose_24px": {
-        "file": "images/native/icons/ic_compose_24px.png",
-        "hash": "f4a54de7b37d469e8444f7ab2a3de795",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_content_warning_32px": {
         "file": "images/native/icons/ic_content_warning_32px.png",
         "hash": "734284ee8ee685c008e508365f6e733e",
@@ -5738,16 +5688,6 @@
     "ic_header_members_24px": {
         "file": "images/native/icons/ic_header_members_24px.png",
         "hash": "76fb8109cdd9e459537ee050fc2f3187",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_header_members_add_24px": {
-        "file": "images/native/icons/ic_header_members_add_24px.png",
-        "hash": "99bb39dcfc29b575ead0a51e6dee394a",
         "scales": [
             2,
             3
