@@ -123,12 +123,12 @@ const triggerWebhook = async (
 };
 
 export async function webhook(version: string, diffs: OutDiffs) {
-	if (diffs.raw || diffs.semantic)
+	if (diffs.raw?.size || diffs.semantic?.size)
 		await triggerWebhook(process.env.color_webhook!, {
 			role: "1227327297795657850",
 			version,
 			embeds: [
-				...(diffs.raw
+				...(diffs.raw?.size
 					? [
 							{
 								title: "Raw colors",
@@ -137,7 +137,7 @@ export async function webhook(version: string, diffs: OutDiffs) {
 							},
 						]
 					: []),
-				...(diffs.semantic
+				...(diffs.semantic?.size
 					? [
 							{
 								title: "Semantic colors",
@@ -149,7 +149,7 @@ export async function webhook(version: string, diffs: OutDiffs) {
 			],
 		});
 
-	if (diffs.icons)
+	if (diffs.icons?.size)
 		await triggerWebhook(process.env.icons_webhook!, {
 			role: "1227327765079003217",
 			version,
