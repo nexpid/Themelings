@@ -1,8 +1,8 @@
 // this code includes a lot of scary regexes, be warned
 
 import Color from "color";
-import { sortObj } from "../util";
 import type { SemanticColors } from "../../types";
+import { sortObj } from "../util";
 
 export function evalModule(
 	code: string[],
@@ -54,7 +54,10 @@ export function getInternalRawColors(code: string[]) {
 	return internalModule.default;
 }
 
-export function getInternalSemanticColors(code: string[], raw: Record<string, string>): SemanticColors {
+export function getInternalSemanticColors(
+	code: string[],
+	raw: Record<string, string>,
+): SemanticColors {
 	const moduleLine = code.findIndex((l) =>
 		l.includes("colors/generated/generated-definitions.tsx'"),
 	);
@@ -65,7 +68,7 @@ export function getInternalSemanticColors(code: string[], raw: Record<string, st
 			SemanticColors: Record<
 				string,
 				Record<string, { raw: string; opacity: number }>
-			>
+			>;
 		};
 	} = {} as any;
 
@@ -97,13 +100,14 @@ export function getInternalSemanticColors(code: string[], raw: Record<string, st
 	}
 
 	const sem = internalModule._private.SemanticColors as any;
-	for (const key of Object.keys(sem)) 
+	for (const key of Object.keys(sem))
 		for (const theme of Object.keys(sem[key])) {
 			const clr = raw[sem[key][theme].raw];
 			if (clr)
-				sem[key][theme] = [Color(clr)
-					.alpha(sem[key][theme].opacity)
-					.hex(), sem[key][theme]];
+				sem[key][theme] = [
+					Color(clr).alpha(sem[key][theme].opacity).hex(),
+					sem[key][theme],
+				];
 			else delete sem[key][theme];
 		}
 
@@ -124,7 +128,8 @@ export default async function colors(code: string[]) {
 	for (const key of Object.keys(simpleSemantic)) {
 		simpleSemantic[key] = { ...simpleSemantic[key] };
 
-		for (const theme of Object.keys(simpleSemantic[key])) simpleSemantic[key][theme] = semantic[key][theme][0];
+		for (const theme of Object.keys(simpleSemantic[key]))
+			simpleSemantic[key][theme] = semantic[key][theme][0];
 	}
 	await Bun.write(
 		"../data/semantic_simple.json",

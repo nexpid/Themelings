@@ -178,6 +178,13 @@ const diffIcons = async (progress: Progress) => {
 		new: join("../data", "icons"),
 	};
 
+	const matchDir = (iconDir: string, file: string) =>
+		file.endsWith(".svg")
+			? join("src", "svgplaceholder.png")
+			: file.endsWith(".lottie")
+				? join("src", "lottieplaceholder.png")
+				: join(iconDir, file);
+
 	const renamed = new Set<string>();
 
 	const changes = new Map<string, Diff>();
@@ -193,28 +200,28 @@ const diffIcons = async (progress: Progress) => {
 						change: DiffEnum.Renamed,
 						old: renamedIcon,
 						cur: newIcons[icon].hash,
-						curFile: join(iconDir.new, newIcons[icon].file),
+						curFile: matchDir(iconDir.new, newIcons[icon].file),
 					});
 			else
 				changes.set(icon, {
 					change: DiffEnum.Added,
 					cur: newIcons[icon].hash,
-					curFile: join(iconDir.new, newIcons[icon].file),
+					curFile: matchDir(iconDir.new, newIcons[icon].file),
 				});
 		} else if (newIcons[icon].hash !== oldIcons[icon].hash)
 			changes.set(icon, {
 				change: DiffEnum.Changed,
 				old: oldIcons[icon].hash,
-				oldFile: join(iconDir.old, oldIcons[icon].file),
+				oldFile: matchDir(iconDir.old, oldIcons[icon].file),
 				cur: newIcons[icon].hash,
-				curFile: join(iconDir.new, newIcons[icon].file),
+				curFile: matchDir(iconDir.new, newIcons[icon].file),
 			});
 	for (const icon of Object.keys(oldIcons))
 		if (!newIcons[icon] && !renamed.has(icon))
 			changes.set(icon, {
 				change: DiffEnum.Removed,
 				old: oldIcons[icon].hash,
-				oldFile: join(iconDir.old, oldIcons[icon].file),
+				oldFile: matchDir(iconDir.old, oldIcons[icon].file),
 			});
 
 	progress.update("diff_icons", true);

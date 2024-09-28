@@ -19,7 +19,9 @@ export default async function decompile(
 		progress.update("decompile_downloading", true);
 	} else progress.update("decompile_downloading", null);
 
-	const { exitCode: hasPython } = await Bun.$`python --version`.nothrow().quiet();
+	const { exitCode: hasPython } = await Bun.$`python --version`
+		.nothrow()
+		.quiet();
 	if (hasPython !== 0)
 		throw new Error("Cannot use Python! Are you sure it's installed?");
 
