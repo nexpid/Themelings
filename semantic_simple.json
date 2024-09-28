@@ -779,6 +779,12 @@
     "midnight": "#248DA1",
     "darker": "#248DA1"
   },
+  "CUSTOM_STATUS_BUBBLE_BG": {
+    "dark": "#111214",
+    "light": "#FFFFFF",
+    "midnight": "#212229",
+    "darker": "#2C2D35"
+  },
   "DEPRECATED_CARD_BG": {
     "dark": "#1E1F22",
     "light": "#F9F9F9",

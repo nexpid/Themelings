@@ -3735,6 +3735,24 @@
         "width": 193.5,
         "height": 205.5
     },
+    "HalloweenAction": {
+        "file": "design/components/LottieIcon/native/generated/lotties/HalloweenAction.lottie",
+        "hash": "ccc9341e055ce685bdbaae868fb52291",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "HalloweenIdle": {
+        "file": "design/components/LottieIcon/native/generated/lotties/HalloweenIdle.lottie",
+        "hash": "ca2d9c1142149bccd322818ba4627876",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
     "HammerIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/HammerIcon.png",
         "hash": "d795f60ea5b57ad7a79724a5ddee71cd",
@@ -14648,6 +14666,16 @@
     "UploadIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UploadIcon.png",
         "hash": "f395f490375f890df5e4a4955b9c93c7",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "UserCheckIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UserCheckIcon.png",
+        "hash": "e1450c453998550731fe57b7ba6cf66f",
         "scales": [
             2,
             3

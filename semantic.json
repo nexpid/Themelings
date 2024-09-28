@@ -1128,7 +1128,7 @@
       "#6C6F7C",
       {
         "raw": "PLUM_11",
-        "opacity": 0.08
+        "opacity": 0.16
       }
     ],
     "darker": [
@@ -1398,7 +1398,7 @@
       "#6C6F7C",
       {
         "raw": "PLUM_11",
-        "opacity": 0.06
+        "opacity": 0.08
       }
     ],
     "darker": [
@@ -1458,7 +1458,7 @@
       "#6C6F7C",
       {
         "raw": "PLUM_11",
-        "opacity": 0.12
+        "opacity": 0.14
       }
     ],
     "darker": [
@@ -3895,6 +3895,36 @@
       "#248DA1",
       {
         "raw": "TEAL_400",
+        "opacity": 1
+      }
+    ]
+  },
+  "CUSTOM_STATUS_BUBBLE_BG": {
+    "dark": [
+      "#111214",
+      {
+        "raw": "PRIMARY_800",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#FFFFFF",
+      {
+        "raw": "WHITE",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#212229",
+      {
+        "raw": "PLUM_19",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2C2D35",
+      {
+        "raw": "PLUM_17",
         "opacity": 1
       }
     ]
@@ -7668,7 +7698,7 @@
       "#6C6F7C",
       {
         "raw": "PLUM_11",
-        "opacity": 0.12
+        "opacity": 0.14
       }
     ],
     "darker": [
@@ -7818,7 +7848,7 @@
       "#6C6F7C",
       {
         "raw": "PLUM_11",
-        "opacity": 0.06
+        "opacity": 0.08
       }
     ],
     "darker": [
