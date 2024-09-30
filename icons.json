@@ -14876,26 +14876,6 @@
         "width": 24,
         "height": 24
     },
-    "vm_bottom_sparkles": {
-        "file": "modules/voice_messages/native/images/vm_bottom_sparkles.png",
-        "hash": "23f292b34550cc44caeddaa5d832e760",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 31.5,
-        "height": 23.5
-    },
-    "vm_upsell_banner": {
-        "file": "modules/voice_messages/native/images/vm_upsell_banner.png",
-        "hash": "bfa94822893ef6db3e4daa01de1769e8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 195,
-        "height": 70.5
-    },
     "voice_bar_bluetooth": {
         "file": "images/native/icons/voice_calls/voice_bar_bluetooth.png",
         "hash": "6ac82e47fbd4ea8331f749e0f8f68b4b",
