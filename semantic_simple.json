@@ -1067,6 +1067,30 @@
     "midnight": "#BCBCF0",
     "darker": "#0F1014"
   },
+  "INPUT_BORDER": {
+    "dark": "#6C6F7C",
+    "light": "#6C6F7C",
+    "midnight": "#6C6F7C",
+    "darker": "#6C6F7C"
+  },
+  "INPUT_ERROR_BACKGROUND": {
+    "dark": "#A12829",
+    "light": "#A12829",
+    "midnight": "#A12829",
+    "darker": "#A12829"
+  },
+  "INPUT_ERROR_BORDER": {
+    "dark": "#F85B5F",
+    "light": "#F85B5F",
+    "midnight": "#F85B5F",
+    "darker": "#F85B5F"
+  },
+  "INPUT_ERROR_TEXT": {
+    "dark": "#FBBABB",
+    "light": "#501012",
+    "midnight": "#FBBABB",
+    "darker": "#FBBABB"
+  },
   "INPUT_FOCUSED_BORDER": {
     "dark": "#FFFFFF",
     "light": "#000000",

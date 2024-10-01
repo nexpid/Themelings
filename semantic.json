@@ -5339,6 +5339,126 @@
       }
     ]
   },
+  "INPUT_BORDER": {
+    "dark": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ],
+    "light": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ],
+    "midnight": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ],
+    "darker": [
+      "#6C6F7C",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.32
+      }
+    ]
+  },
+  "INPUT_ERROR_BACKGROUND": {
+    "dark": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 0.12
+      }
+    ],
+    "light": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 0.12
+      }
+    ],
+    "midnight": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 0.12
+      }
+    ],
+    "darker": [
+      "#A12829",
+      {
+        "raw": "RED_500",
+        "opacity": 0.12
+      }
+    ]
+  },
+  "INPUT_ERROR_BORDER": {
+    "dark": [
+      "#F85B5F",
+      {
+        "raw": "RED_360",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#F85B5F",
+      {
+        "raw": "RED_360",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#F85B5F",
+      {
+        "raw": "RED_360",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#F85B5F",
+      {
+        "raw": "RED_360",
+        "opacity": 1
+      }
+    ]
+  },
+  "INPUT_ERROR_TEXT": {
+    "dark": [
+      "#FBBABB",
+      {
+        "raw": "RED_260",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#501012",
+      {
+        "raw": "RED_700",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#FBBABB",
+      {
+        "raw": "RED_260",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#FBBABB",
+      {
+        "raw": "RED_260",
+        "opacity": 1
+      }
+    ]
+  },
   "INPUT_FOCUSED_BORDER": {
     "dark": [
       "#FFFFFF",

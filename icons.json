@@ -2342,6 +2342,60 @@
         "width": 256,
         "height": 256
     },
+    "default_provisional_avatar_0": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_0.png",
+        "hash": "9aedf52dcd9c6fec7c1074de40f17b88",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
+    "default_provisional_avatar_1": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_1.png",
+        "hash": "aedb4c161a8b10bd63dac9d5860c62fe",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
+    "default_provisional_avatar_2": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_2.png",
+        "hash": "76a844d17fcdbbb8dd91d3757efd431a",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
+    "default_provisional_avatar_3": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_3.png",
+        "hash": "a596b7b1c5591bc84dec5104138dc6b9",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
+    "default_provisional_avatar_4": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_4.png",
+        "hash": "ffe52daac60a8380b844bea02dece12e",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
+    "default_provisional_avatar_5": {
+        "file": "images/provisional_account_avatars/default_provisional_avatar_5.png",
+        "hash": "fb3b5529cfb55c06f1bdff816af8a17a",
+        "scales": [
+            1
+        ],
+        "width": 320,
+        "height": 320
+    },
     "default-banner-dark": {
         "file": "images/native/default-banner-dark.png",
         "hash": "43d13b609976c178de45b88199724ff6",
