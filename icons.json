@@ -471,6 +471,16 @@
         "width": 24,
         "height": 24
     },
+    "ArrowSmallRightIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallRightIcon.png",
+        "hash": "06767027300484a1b3b4b3f2f045c28c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ArrowSmallUpIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ArrowSmallUpIcon.png",
         "hash": "66e9aea4e8448b79caec86b51a818715",
@@ -752,7 +762,7 @@
     },
     "bg-fade": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/bg-fade.png",
-        "hash": "c1f77b9ce53e19e1dbe23e49aab04cfc",
+        "hash": "b619f558bf59711a5d2fbf97320ac81e",
         "scales": [
             2,
             3
@@ -2676,7 +2686,7 @@
     },
     "emoji-negative": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-negative.png",
-        "hash": "a692f6253251f9fe746d0f8f18ea6506",
+        "hash": "1c9607c514ba0cca490ff85ef6b52d0d",
         "scales": [
             2,
             3
@@ -2686,7 +2696,7 @@
     },
     "emoji-neutral": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-neutral.png",
-        "hash": "3cf5a51dc666d7c555c80c9ed4abe457",
+        "hash": "684bf0782561b9ed2466dcb8144cf582",
         "scales": [
             2,
             3
@@ -2696,7 +2706,7 @@
     },
     "emoji-positive": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-positive.png",
-        "hash": "a1e96fa42ed165c4e29093c1832d1123",
+        "hash": "17237a5c49ea745b655cbec7c093406d",
         "scales": [
             2,
             3
@@ -3304,7 +3314,7 @@
     },
     "flash": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/flash.png",
-        "hash": "5632bfe1a4a64d6acc9af32af7b3ab38",
+        "hash": "ebbb7db0461de915440e3bdd6a8249c9",
         "scales": [
             2,
             3
@@ -3880,7 +3890,7 @@
     },
     "header-image-dark": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-dark.png",
-        "hash": "76e0ce03bf6b5923ca1143462a541436",
+        "hash": "5bd1e2383d5707a9521e76ccfa792948",
         "scales": [
             2,
             3
@@ -3890,7 +3900,7 @@
     },
     "header-image-light": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-light.png",
-        "hash": "849540ab2f3ffb8f939be54014298b88",
+        "hash": "164980046e2e0cfba4ea5537d5523a32",
         "scales": [
             2,
             3
@@ -14780,16 +14790,6 @@
     "UserSquareIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UserSquareIcon.png",
         "hash": "6b35abdc6e61eaea0188cfdb6a7d4228",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "UserStatusIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/UserStatusIcon.png",
-        "hash": "36d3470cbaffe1c74651ecf1de7f512d",
         "scales": [
             2,
             3
