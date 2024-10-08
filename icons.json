@@ -12555,6 +12555,16 @@
         "width": 24,
         "height": 24
     },
+    "PaperPlusIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PaperPlusIcon.png",
+        "hash": "361e1ba4ec356158dc0f6fe9f27873a3",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "partner_icon": {
         "file": "modules/guild_role_subscriptions/native/images/partner_icon.png",
         "hash": "e831387e9387034c87c9b5bc784cf6eb",
