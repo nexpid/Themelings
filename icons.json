@@ -4784,16 +4784,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_clear_all_24px": {
-        "file": "images/native/icons/ic_clear_all_24px.png",
-        "hash": "1f039718dedb9377ec4c420e258fe1c0",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_clip_24px": {
         "file": "images/native/icons/settings/ic_clip_24px.png",
         "hash": "1a0c43abba92f3248d07401bd0093a80",
@@ -5036,16 +5026,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_disclosure_grey": {
-        "file": "images/native/ic_disclosure_grey.png",
-        "hash": "db5810c90aa1c7fc36ae5e9699a95f39",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 8,
-        "height": 13
     },
     "ic_discoverable_globe_guild_badge_light": {
         "file": "images/native/icons/ic_discoverable_globe_guild_badge_light.png",
