@@ -7399,6 +7399,16 @@
         "width": 24,
         "height": 24
     },
+    "ic_shield_lock_24px": {
+        "file": "images/native/icons/settings/ic_shield_lock_24px.png",
+        "hash": "09cf85b6453fb490524b1be11397c516",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ic_show_password": {
         "file": "images/native/icons/ic_show_password.png",
         "hash": "5150b233942dc6f429a27a73fff2408c",
@@ -14337,16 +14347,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "thread": {
-        "file": "images/native/premium/guild_boosting/perks/thread.png",
-        "hash": "7513fd6f16895773d2c9735d3f8e2af3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
     },
     "ThreadIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ThreadIcon.png",
