@@ -11840,6 +11840,16 @@
         "width": 20,
         "height": 20
     },
+    "MedalIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MedalIcon.png",
+        "hash": "d7b25ab43059287e8f20f32118e13f3e",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "megaphone": {
         "file": "images/native/soundboard/megaphone.png",
         "hash": "8613656ff2e88907eeec6eb47ca5fa81",
@@ -12525,6 +12535,16 @@
         "width": 327,
         "height": 285
     },
+    "PaintbrushThinIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PaintbrushThinIcon.png",
+        "hash": "308f97374b9287b92b9d6046eeebbfa7",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PaintPaletteIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PaintPaletteIcon.png",
         "hash": "a86a3cb74b5e3d032d8089a1ec7c8893",
@@ -12688,6 +12708,16 @@
     "PhoneHangUpIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PhoneHangUpIcon.png",
         "hash": "15b55144c8828b48ef095361b4422276",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "PiggyBankIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PiggyBankIcon.png",
+        "hash": "bee7608edfef9b15b5e73379ce2d3dd3",
         "scales": [
             2,
             3

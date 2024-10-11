@@ -1261,9 +1261,9 @@
   },
   "BG_SURFACE_RAISED": {
     "dark": [
-      "#313338",
+      "#383A40",
       {
-        "raw": "PRIMARY_600",
+        "raw": "PRIMARY_560",
         "opacity": 1
       }
     ],
