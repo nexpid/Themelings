@@ -53,6 +53,24 @@
     "midnight": "#2C2D35",
     "darker": "#383A43"
   },
+  "BACKGROUND_BASE_LOW": {
+    "dark": "#2A2A2F",
+    "light": "#080809",
+    "midnight": "#FFFFFF",
+    "darker": "#17171A"
+  },
+  "BACKGROUND_BASE_LOWER": {
+    "dark": "#2A2A2F",
+    "light": "#111114",
+    "midnight": "#FFFFFF",
+    "darker": "#1D1D20"
+  },
+  "BACKGROUND_BASE_LOWEST": {
+    "dark": "#2A2A2F",
+    "light": "#080809",
+    "midnight": "#FFFFFF",
+    "darker": "#111114"
+  },
   "BACKGROUND_FLOATING": {
     "dark": "#111214",
     "light": "#FFFFFF",
@@ -166,6 +184,24 @@
     "light": "#EBEDEF",
     "midnight": "#2C2D35",
     "darker": "#383A43"
+  },
+  "BACKGROUND_SURFACE_HIGH": {
+    "dark": "#313137",
+    "light": "#F0F0F1",
+    "midnight": "#0C0C0E",
+    "darker": "#232328"
+  },
+  "BACKGROUND_SURFACE_HIGHER": {
+    "dark": "#393940",
+    "light": "#FFFFFF",
+    "midnight": "#111114",
+    "darker": "#2A2A2F"
+  },
+  "BACKGROUND_SURFACE_HIGHEST": {
+    "dark": "#42424A",
+    "light": "#FFFFFF",
+    "midnight": "#17171A",
+    "darker": "#313137"
   },
   "BACKGROUND_TERTIARY": {
     "dark": "#1E1F22",

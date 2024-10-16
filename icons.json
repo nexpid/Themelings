@@ -5211,7 +5211,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "modules/parent_tools/images/ic_eye.png",
+        "file": "modules/notification_center/native/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -11673,15 +11673,14 @@
         "height": 24
     },
     "lock": {
-        "file": "modules/user_settings/images/lock.png",
-        "hash": "6fbfa0aa2194635b21a8ebd068b44d0c",
+        "file": "images/native/premium/guild_boosting/lock.png",
+        "hash": "54ed58b5b2d02aabe1b1b19fc7b3ba09",
         "scales": [
-            1,
             2,
             3
         ],
-        "width": 121,
-        "height": 90
+        "width": 24,
+        "height": 24
     },
     "locke_2": {
         "file": "images/native/avatars/locke_2.png",
