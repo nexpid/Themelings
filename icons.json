@@ -5017,16 +5017,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_custom_color": {
-        "file": "images/native/ic_custom_color.png",
-        "hash": "9147b612ff63dffa6c4457d011a85dee",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_discoverable_globe_guild_badge_light": {
         "file": "images/native/icons/ic_discoverable_globe_guild_badge_light.png",
         "hash": "bb7105b98490d0f2f1f6d3bd526a9b60",
