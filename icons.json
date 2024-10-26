@@ -30,16 +30,6 @@
         "width": 36,
         "height": 36
     },
-    "activate_device_splash": {
-        "file": "modules/activate_device/images/activate_device_splash.png",
-        "hash": "8fe87e4475db77da269505c1b7e8bf77",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 393,
-        "height": 852
-    },
     "ActivitiesIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ActivitiesIcon.png",
         "hash": "2840dd0bc0ba9b7185215e915329744e",
@@ -12176,17 +12166,6 @@
         ],
         "width": 161,
         "height": 160
-    },
-    "nelly-pointing": {
-        "file": "modules/private_channel_integrations/native/images/nelly-pointing.png",
-        "hash": "bf3d7b22b70b1fb57647f9631b003100",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 217,
-        "height": 121.5
     },
     "NewUserIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/NewUserIcon.png",
