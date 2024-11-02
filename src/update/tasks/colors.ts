@@ -51,7 +51,11 @@ export function getInternalRawColors(code: string[]) {
 		{},
 	);
 
-	return internalModule.default;
+	const raw = internalModule.default;
+	for (const key of Object.keys(raw))
+		raw[key] = Color(raw[key]).hex().toLowerCase();
+
+	return raw;
 }
 
 export function getInternalSemanticColors(
@@ -105,7 +109,7 @@ export function getInternalSemanticColors(
 			const clr = raw[sem[key][theme].raw];
 			if (clr)
 				sem[key][theme] = [
-					Color(clr).alpha(sem[key][theme].opacity).hex(),
+					Color(clr).alpha(sem[key][theme].opacity).hex().toLowerCase(),
 					sem[key][theme],
 				];
 			else delete sem[key][theme];
