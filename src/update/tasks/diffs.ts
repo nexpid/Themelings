@@ -40,7 +40,7 @@ const diffRaw = async (progress: Progress) => {
 						cur: raw,
 					});
 			else changes.set(raw, { change: DiffEnum.Added, cur: newRaw[raw] });
-		} else if (oldRaw[raw] !== newRaw[raw])
+		} else if (oldRaw[raw].toLowerCase() !== newRaw[raw].toLowerCase())
 			changes.set(raw, {
 				change: DiffEnum.Changed,
 				old: oldRaw[raw],
@@ -137,11 +137,11 @@ const diffSemantic = async (progress: Progress) => {
 						change: DiffEnum.Added,
 						cur: transform(newSemantic[sem][clir]),
 					});
-				else if (oldSemantic[sem][clir][0] !== newSemantic[sem][clir][0])
+				else if (oldSemantic[sem][clir][0].toLowerCase() !== newSemantic[sem][clir][0].toLowerCase())
 					changes.set(`${sem}.${clir}`, {
 						change: DiffEnum.Changed,
 						old: transform(oldSemantic[sem][clir]),
-						cur: transform(oldSemantic[sem][clir]),
+						cur: transform(newSemantic[sem][clir]),
 					});
 
 	for (const sem of Object.keys(oldSemantic))
