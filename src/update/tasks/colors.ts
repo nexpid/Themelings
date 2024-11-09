@@ -4,6 +4,8 @@ import Color from "color";
 import type { SemanticColors } from "../../types";
 import { sortObj } from "../util";
 
+Object.freeze = (obj: any) => obj;
+
 export function evalModule(
 	code: string[],
 	hookLine: number,
