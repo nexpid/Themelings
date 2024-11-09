@@ -622,13 +622,14 @@
         "height": 132
     },
     "background": {
-        "file": "modules/voice_panel/native/images/background.png",
-        "hash": "3873fa050338099e04f812269c513d06",
+        "file": "images/native/oauth2/background.png",
+        "hash": "9f0466452ea774e0a27ad50f4f806303",
         "scales": [
-            1
+            2,
+            3
         ],
-        "width": 1000,
-        "height": 1000
+        "width": 375,
+        "height": 812
     },
     "background-splash-mobile": {
         "file": "images/auth/background-splash-mobile.png",
@@ -662,14 +663,14 @@
         "height": 12
     },
     "badge": {
-        "file": "images/native/premium/guild_boosting/perks/badge.png",
-        "hash": "6d92319c85fd42e305e389df8a64c64a",
+        "file": "modules/premium/native/images/perks/badge.png",
+        "hash": "7d09a15a2a5682035199dcfee2a26d08",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "badge_2": {
         "file": "images/native/premium/guild_boosting/perks/badge_2.png",
@@ -680,16 +681,6 @@
         ],
         "width": 34,
         "height": 34
-    },
-    "BeakerIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/BeakerIcon.png",
-        "hash": "52dd6e1951e8fcb584c15260b9091131",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "BeanieIcon": {
         "file": "images/native/custom_app_icons/BeanieIcon/BeanieIcon.png",
@@ -909,16 +900,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "border_left_radius": {
-        "file": "images/native/icons/border_left_radius.png",
-        "hash": "eb7cec3c2a3f7afb7ae72078a1d4c422",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 40,
-        "height": 40
     },
     "box_idle": {
         "file": "images/native/gifting/seasonal/box_idle.png",
@@ -1527,6 +1508,16 @@
     "ChevronLargeLeftIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChevronLargeLeftIcon.png",
         "hash": "801cfd1cdb8635da2a5d7cb56f502b7b",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ChevronLargeRightIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChevronLargeRightIcon.png",
+        "hash": "bd352adec1efefc926fa9dd864f8d8a8",
         "scales": [
             2,
             3
@@ -2665,14 +2656,14 @@
         "height": 24
     },
     "emoji": {
-        "file": "images/native/premium/guild_boosting/perks/emoji.png",
-        "hash": "6ce9cfa41f5b080fb1f9fac04190337a",
+        "file": "modules/premium/native/images/perks/emoji.png",
+        "hash": "337f717407aa04f32bdedf504de7310b",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 300,
+        "height": 175
     },
     "emoji-negative": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-negative.png",
@@ -4622,16 +4613,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_cell_remove": {
-        "file": "images/native/ic_cell_remove.png",
-        "hash": "9262ea778c65b7fdc6f84b38fe06040a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 22,
-        "height": 22
-    },
     "ic_channel_arrow": {
         "file": "images/native/icons/ic_channel_arrow.png",
         "hash": "77f70d67a495166d7b55949a3fa57226",
@@ -4705,8 +4686,8 @@
         "height": 32
     },
     "ic_check_18px": {
-        "file": "images/native/uikit/ic_check_18px.png",
-        "hash": "b1593fdc9e59f19aeb3fd9a550216915",
+        "file": "images/native/icons/ic_check_18px.png",
+        "hash": "0b73baa146c1e8e06b259fb4eb1affa0",
         "scales": [
             2,
             3
@@ -5850,14 +5831,13 @@
         "height": 24
     },
     "ic_image": {
-        "file": "images/native/icons/ic_image.png",
-        "hash": "e71bfb9b43d4bbd3706e078113315f40",
+        "file": "modules/polls/native/images/ic_image.png",
+        "hash": "98bac6d960f3d3373ce154b0b26cfa7b",
         "scales": [
-            2,
-            3
+            1
         ],
-        "width": 16,
-        "height": 16
+        "width": 32,
+        "height": 32
     },
     "ic_image_upload": {
         "file": "images/native/icons/ic_image_upload.png",
@@ -6540,16 +6520,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_neutral_status_18px": {
-        "file": "images/native/icons/ic_neutral_status_18px.png",
-        "hash": "5da80f99ba02d5932457185164e8492f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 18,
-        "height": 18
     },
     "ic_new_group": {
         "file": "images/native/icons/ic_new_group.png",
@@ -11977,16 +11947,6 @@
         "width": 24,
         "height": 24
     },
-    "midnight_border_left_radius": {
-        "file": "images/native/icons/midnight_border_left_radius.png",
-        "hash": "7aa53f8412d79fc54a80cd73840010f7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 10,
-        "height": 10
-    },
     "MidnightPrismIcon": {
         "file": "images/native/custom_app_icons/MidnightPrismIcon/MidnightPrismIcon.png",
         "hash": "44efb56cf36c8202533bcbc557ebf8e5",
@@ -13747,6 +13707,16 @@
         "width": 24,
         "height": 24
     },
+    "SlashIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/SlashIcon.png",
+        "hash": "b265b57576db6b3ce5c544b64fc948f5",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "Small": {
         "file": "images/native/icons/Small.png",
         "hash": "cb49d7446dbcac5ce6ba16b6a9b83961",
@@ -14057,14 +14027,14 @@
         "height": 16
     },
     "sticker": {
-        "file": "images/native/premium/guild_boosting/perks/sticker.png",
-        "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
+        "file": "modules/premium/native/images/perks/sticker.png",
+        "hash": "fac2e3b3b87c5c331642c571eab831c9",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "sticker_search_empty": {
         "file": "modules/stickers/native/images/sticker_search_empty.png",
@@ -14871,11 +14841,12 @@
         "height": 1320
     },
     "video": {
-        "file": "images/native/icons/voice_calls/video.png",
-        "hash": "c902e6fcc190a5ea75515cf2b526309d",
+        "file": "modules/voice_panel/native/images/video.png",
+        "hash": "a9d9f17a82c0681a83d7c3c4c21e6009",
         "scales": [
             2,
-            3
+            3,
+            4
         ],
         "width": 24,
         "height": 24
