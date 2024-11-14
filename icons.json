@@ -1584,6 +1584,16 @@
         "width": 24,
         "height": 24
     },
+    "CircleCheckIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon.png",
+        "hash": "3ea2413003e32160d87cc835bc172dee",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "CircleCheckIcon-primary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon-primary.png",
         "hash": "192b682f0f60829dda48ccb2a9917421",
@@ -2465,16 +2475,6 @@
         "width": 303,
         "height": 48
     },
-    "discover": {
-        "file": "images/native/discover/discover.png",
-        "hash": "ad62d7413124bc0de1f250889f1c38d5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "discoverability-header": {
         "file": "modules/nuf/native/images/discoverability-header.png",
         "hash": "3a31ec2d5aeb0eedce9411671227bdc1",
@@ -2495,26 +2495,6 @@
         ],
         "width": 20,
         "height": 20
-    },
-    "discovery_header": {
-        "file": "modules/discover/native/images/discovery_header.png",
-        "hash": "7ca7be858acf56dcb7eca3552c17c513",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 375,
-        "height": 300
-    },
-    "discovery_header_ipad": {
-        "file": "modules/discover/native/images/discovery_header_ipad.png",
-        "hash": "6d1b034895faa34296a6b2447b34410d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 750,
-        "height": 300
     },
     "discriminator": {
         "file": "modules/pomelo/images/discriminator.png",
@@ -7342,16 +7322,6 @@
     "ic_shield_24px": {
         "file": "images/native/icons/ic_shield_24px.png",
         "hash": "7b7fda4b104811c7ab69187b97a7e04e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_shield_lock_24px": {
-        "file": "images/native/icons/settings/ic_shield_lock_24px.png",
-        "hash": "09cf85b6453fb490524b1be11397c516",
         "scales": [
             2,
             3
