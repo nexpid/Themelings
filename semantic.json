@@ -269,96 +269,6 @@
       }
     ]
   },
-  "BACKGROUND_BASE_LOW": {
-    "dark": [
-      "#34343a",
-      {
-        "raw": "NEUTRAL_68",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#121214",
-      {
-        "raw": "NEUTRAL_92",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#ffffff",
-      {
-        "raw": "NEUTRAL_1",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#232327",
-      {
-        "raw": "NEUTRAL_80",
-        "opacity": 1
-      }
-    ]
-  },
-  "BACKGROUND_BASE_LOWER": {
-    "dark": [
-      "#34343a",
-      {
-        "raw": "NEUTRAL_68",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#1d1d21",
-      {
-        "raw": "NEUTRAL_84",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#ffffff",
-      {
-        "raw": "NEUTRAL_1",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#28282d",
-      {
-        "raw": "NEUTRAL_76",
-        "opacity": 1
-      }
-    ]
-  },
-  "BACKGROUND_BASE_LOWEST": {
-    "dark": [
-      "#34343a",
-      {
-        "raw": "NEUTRAL_68",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#121214",
-      {
-        "raw": "NEUTRAL_92",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#ffffff",
-      {
-        "raw": "NEUTRAL_1",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#1d1d21",
-      {
-        "raw": "NEUTRAL_84",
-        "opacity": 1
-      }
-    ]
-  },
   "BACKGROUND_FLOATING": {
     "dark": [
       "#111214",
@@ -686,36 +596,6 @@
       {
         "raw": "PLUM_11",
         "opacity": 0.12
-      }
-    ]
-  },
-  "BACKGROUND_MODIFIER_ACCENT_2": {
-    "dark": [
-      "#4e5058",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 0.48
-      }
-    ],
-    "light": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 0.16
-      }
-    ],
-    "midnight": [
-      "#6c6f7c",
-      {
-        "raw": "PLUM_11",
-        "opacity": 0.32
-      }
-    ],
-    "darker": [
-      "#6c6f7c",
-      {
-        "raw": "PLUM_11",
-        "opacity": 0.24
       }
     ]
   },
@@ -4229,96 +4109,6 @@
       }
     ]
   },
-  "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": {
-    "dark": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 1
-      }
-    ]
-  },
-  "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": {
-    "dark": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 0.3
-      }
-    ],
-    "light": [
-      "#4e5058",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 0.3
-      }
-    ],
-    "midnight": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 0.3
-      }
-    ],
-    "darker": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 0.3
-      }
-    ]
-  },
-  "DEPRECATED_STORE_BG": {
-    "dark": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#f9f9f9",
-      {
-        "raw": "PRIMARY_100",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ]
-  },
   "DEPRECATED_TEXT_INPUT_BG": {
     "dark": [
       "#1e1f22",
@@ -4435,36 +4225,6 @@
       "#020202",
       {
         "raw": "PRIMARY_900",
-        "opacity": 1
-      }
-    ]
-  },
-  "DEPRECATED_TEXT_INPUT_PREFIX": {
-    "dark": [
-      "#e3e5e8",
-      {
-        "raw": "PRIMARY_200",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#c4c9ce",
-      {
-        "raw": "PRIMARY_300",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#e3e5e8",
-      {
-        "raw": "PRIMARY_200",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#e3e5e8",
-      {
-        "raw": "PRIMARY_200",
         "opacity": 1
       }
     ]
@@ -4769,66 +4529,6 @@
       }
     ]
   },
-  "GUILD_ICON_INACTIVE_BG": {
-    "dark": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#f2f3f5",
-      {
-        "raw": "PRIMARY_130",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#000000",
-      {
-        "raw": "BLACK",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#1c1d23",
-      {
-        "raw": "PLUM_20",
-        "opacity": 1
-      }
-    ]
-  },
-  "GUILD_ICON_INACTIVE_NESTED_BG": {
-    "dark": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#000000",
-      {
-        "raw": "BLACK",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#1c1d23",
-      {
-        "raw": "PLUM_20",
-        "opacity": 1
-      }
-    ]
-  },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
     "dark": [
       "#1e1f22",
@@ -4856,36 +4556,6 @@
       {
         "raw": "PRIMARY_700",
         "opacity": 1
-      }
-    ]
-  },
-  "HALO_POSITIVE": {
-    "dark": [
-      "#23a55a",
-      {
-        "raw": "GREEN_360",
-        "opacity": 0.24
-      }
-    ],
-    "light": [
-      "#23a55a",
-      {
-        "raw": "GREEN_360",
-        "opacity": 0.24
-      }
-    ],
-    "midnight": [
-      "#23a55a",
-      {
-        "raw": "GREEN_360",
-        "opacity": 0.24
-      }
-    ],
-    "darker": [
-      "#23a55a",
-      {
-        "raw": "GREEN_360",
-        "opacity": 0.24
       }
     ]
   },
@@ -5006,36 +4676,6 @@
       {
         "raw": "PLUM_18",
         "opacity": 1
-      }
-    ]
-  },
-  "HOME_CARD_RESTING_BORDER": {
-    "dark": [
-      "#000000",
-      {
-        "raw": "TRANSPARENT",
-        "opacity": 0
-      }
-    ],
-    "light": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 0.24
-      }
-    ],
-    "midnight": [
-      "#000000",
-      {
-        "raw": "TRANSPARENT",
-        "opacity": 0
-      }
-    ],
-    "darker": [
-      "#000000",
-      {
-        "raw": "TRANSPARENT",
-        "opacity": 0
       }
     ]
   },
@@ -6509,36 +6149,6 @@
       }
     ]
   },
-  "PROFILE_GRADIENT_CARD_BACKGROUND": {
-    "dark": [
-      "#000000",
-      {
-        "raw": "BLACK",
-        "opacity": 0.7
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 0.7
-      }
-    ],
-    "midnight": [
-      "#000000",
-      {
-        "raw": "BLACK",
-        "opacity": 0.7
-      }
-    ],
-    "darker": [
-      "#000000",
-      {
-        "raw": "BLACK",
-        "opacity": 0.7
-      }
-    ]
-  },
   "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
     "dark": [
       "#4e5058",
@@ -6779,66 +6389,6 @@
       }
     ]
   },
-  "REDESIGN_ACTIVITY_CARD_BACKGROUND": {
-    "dark": [
-      "#383a40",
-      {
-        "raw": "PRIMARY_560",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#383a40",
-      {
-        "raw": "PRIMARY_560",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#383a40",
-      {
-        "raw": "PRIMARY_560",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": {
-    "dark": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ebedef",
-      {
-        "raw": "PRIMARY_160",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ]
-  },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
     "dark": [
       "#949ba4",
@@ -6865,66 +6415,6 @@
       "#818491",
       {
         "raw": "PLUM_10",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ACTIVITY_CARD_BORDER": {
-    "dark": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 0.02
-      }
-    ],
-    "light": [
-      "#80848e",
-      {
-        "raw": "PRIMARY_400",
-        "opacity": 0.24
-      }
-    ],
-    "midnight": [
-      "#6c6f7c",
-      {
-        "raw": "PLUM_11",
-        "opacity": 0.12
-      }
-    ],
-    "darker": [
-      "#6c6f7c",
-      {
-        "raw": "PLUM_11",
-        "opacity": 0.06
-      }
-    ]
-  },
-  "REDESIGN_ACTIVITY_CARD_OVERFLOW_BACKGROUND": {
-    "dark": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#dbdee1",
-      {
-        "raw": "PRIMARY_230",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#2c2d35",
-      {
-        "raw": "PLUM_17",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#2c2d35",
-      {
-        "raw": "PLUM_17",
         "opacity": 1
       }
     ]
@@ -7315,36 +6805,6 @@
       "#ffffff",
       {
         "raw": "WHITE",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_BUTTON_OVERLAY_PRESSED_BACKGROUND": {
-    "dark": [
-      "#dbdee1",
-      {
-        "raw": "PRIMARY_230",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#dbdee1",
-      {
-        "raw": "PRIMARY_230",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#dbdee1",
-      {
-        "raw": "PRIMARY_230",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#dbdee1",
-      {
-        "raw": "PRIMARY_230",
         "opacity": 1
       }
     ]
@@ -8459,66 +7919,6 @@
       }
     ]
   },
-  "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": {
-    "dark": [
-      "#b5bac1",
-      {
-        "raw": "PRIMARY_330",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#4e5058",
-      {
-        "raw": "PRIMARY_500",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#a8aab4",
-      {
-        "raw": "PLUM_8",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#9597a3",
-      {
-        "raw": "PLUM_9",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_CHANNEL_MESSAGE_PREVIEW_TEXT": {
-    "dark": [
-      "#949ba4",
-      {
-        "raw": "PRIMARY_360",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#5c5e66",
-      {
-        "raw": "PRIMARY_460",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#818491",
-      {
-        "raw": "PLUM_10",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#818491",
-      {
-        "raw": "PLUM_10",
-        "opacity": 1
-      }
-    ]
-  },
   "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
     "dark": [
       "#949ba4",
@@ -8695,156 +8095,6 @@
       "#5865f2",
       {
         "raw": "BRAND_500",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ONLY_BACKGROUND_ACTIVE": {
-    "dark": [
-      "#41434a",
-      {
-        "raw": "PRIMARY_530",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#6d6f78",
-      {
-        "raw": "PRIMARY_430",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#41434a",
-      {
-        "raw": "PRIMARY_530",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#41434a",
-      {
-        "raw": "PRIMARY_530",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ONLY_BACKGROUND_DEFAULT": {
-    "dark": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#313338",
-      {
-        "raw": "PRIMARY_600",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ONLY_BACKGROUND_OVERLAY": {
-    "dark": [
-      "#282a2e",
-      {
-        "raw": "PRIMARY_645",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ebedef",
-      {
-        "raw": "PRIMARY_160",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#282a2e",
-      {
-        "raw": "PRIMARY_645",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#282a2e",
-      {
-        "raw": "PRIMARY_645",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ONLY_BACKGROUND_RAISED": {
-    "dark": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#f2f3f5",
-      {
-        "raw": "PRIMARY_130",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#2b2d31",
-      {
-        "raw": "PRIMARY_630",
-        "opacity": 1
-      }
-    ]
-  },
-  "REDESIGN_ONLY_BACKGROUND_SUNKEN": {
-    "dark": [
-      "#232428",
-      {
-        "raw": "PRIMARY_660",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#e3e5e8",
-      {
-        "raw": "PRIMARY_200",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#232428",
-      {
-        "raw": "PRIMARY_660",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#232428",
-      {
-        "raw": "PRIMARY_660",
         "opacity": 1
       }
     ]
@@ -10195,36 +9445,6 @@
       "#ffffff",
       {
         "raw": "WHITE",
-        "opacity": 1
-      }
-    ]
-  },
-  "YOU_BAR_BG": {
-    "dark": [
-      "#111214",
-      {
-        "raw": "PRIMARY_800",
-        "opacity": 1
-      }
-    ],
-    "light": [
-      "#ffffff",
-      {
-        "raw": "WHITE",
-        "opacity": 1
-      }
-    ],
-    "midnight": [
-      "#212229",
-      {
-        "raw": "PLUM_19",
-        "opacity": 1
-      }
-    ],
-    "darker": [
-      "#2c2d35",
-      {
-        "raw": "PLUM_17",
         "opacity": 1
       }
     ]

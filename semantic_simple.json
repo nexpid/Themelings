@@ -53,24 +53,6 @@
     "midnight": "#2c2d35",
     "darker": "#383a43"
   },
-  "BACKGROUND_BASE_LOW": {
-    "dark": "#34343a",
-    "light": "#121214",
-    "midnight": "#ffffff",
-    "darker": "#232327"
-  },
-  "BACKGROUND_BASE_LOWER": {
-    "dark": "#34343a",
-    "light": "#1d1d21",
-    "midnight": "#ffffff",
-    "darker": "#28282d"
-  },
-  "BACKGROUND_BASE_LOWEST": {
-    "dark": "#34343a",
-    "light": "#121214",
-    "midnight": "#ffffff",
-    "darker": "#1d1d21"
-  },
   "BACKGROUND_FLOATING": {
     "dark": "#111214",
     "light": "#ffffff",
@@ -135,12 +117,6 @@
     "dark": "#4e5058",
     "light": "#80848e",
     "midnight": "#bcbcf0",
-    "darker": "#6c6f7c"
-  },
-  "BACKGROUND_MODIFIER_ACCENT_2": {
-    "dark": "#4e5058",
-    "light": "#80848e",
-    "midnight": "#6c6f7c",
     "darker": "#6c6f7c"
   },
   "BACKGROUND_MODIFIER_ACTIVE": {
@@ -845,24 +821,6 @@
     "midnight": "#1e1f22",
     "darker": "#1e1f22"
   },
-  "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": {
-    "dark": "#80848e",
-    "light": "#ffffff",
-    "midnight": "#80848e",
-    "darker": "#80848e"
-  },
-  "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": {
-    "dark": "#ffffff",
-    "light": "#4e5058",
-    "midnight": "#ffffff",
-    "darker": "#ffffff"
-  },
-  "DEPRECATED_STORE_BG": {
-    "dark": "#313338",
-    "light": "#f9f9f9",
-    "midnight": "#313338",
-    "darker": "#313338"
-  },
   "DEPRECATED_TEXT_INPUT_BG": {
     "dark": "#1e1f22",
     "light": "#e3e5e8",
@@ -886,12 +844,6 @@
     "light": "#c4c9ce",
     "midnight": "#020202",
     "darker": "#020202"
-  },
-  "DEPRECATED_TEXT_INPUT_PREFIX": {
-    "dark": "#e3e5e8",
-    "light": "#c4c9ce",
-    "midnight": "#e3e5e8",
-    "darker": "#e3e5e8"
   },
   "DISPLAY_BANNER_OVERFLOW_BACKGROUND": {
     "dark": "#1e1f22",
@@ -953,29 +905,11 @@
     "midnight": "#212229",
     "darker": "#212229"
   },
-  "GUILD_ICON_INACTIVE_BG": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
-  },
-  "GUILD_ICON_INACTIVE_NESTED_BG": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#1c1d23"
-  },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
     "dark": "#1e1f22",
     "light": "#ffffff",
     "midnight": "#1e1f22",
     "darker": "#1e1f22"
-  },
-  "HALO_POSITIVE": {
-    "dark": "#23a55a",
-    "light": "#23a55a",
-    "midnight": "#23a55a",
-    "darker": "#23a55a"
   },
   "HEADER_MUTED": {
     "dark": "#949ba4",
@@ -1000,12 +934,6 @@
     "light": "#f9f9f9",
     "midnight": "#26272f",
     "darker": "#26272f"
-  },
-  "HOME_CARD_RESTING_BORDER": {
-    "dark": "#000000",
-    "light": "#80848e",
-    "midnight": "#000000",
-    "darker": "#000000"
   },
   "ICON_MUTED": {
     "dark": "#80848e",
@@ -1301,12 +1229,6 @@
     "midnight": "#c269c3",
     "darker": "#c269c3"
   },
-  "PROFILE_GRADIENT_CARD_BACKGROUND": {
-    "dark": "#000000",
-    "light": "#ffffff",
-    "midnight": "#000000",
-    "darker": "#000000"
-  },
   "PROFILE_GRADIENT_MESSAGE_INPUT_BORDER": {
     "dark": "#4e5058",
     "light": "#6d6f78",
@@ -1355,35 +1277,11 @@
     "midnight": "#000000",
     "darker": "#000000"
   },
-  "REDESIGN_ACTIVITY_CARD_BACKGROUND": {
-    "dark": "#383a40",
-    "light": "#ffffff",
-    "midnight": "#383a40",
-    "darker": "#383a40"
-  },
-  "REDESIGN_ACTIVITY_CARD_BACKGROUND_PRESSED": {
-    "dark": "#2b2d31",
-    "light": "#ebedef",
-    "midnight": "#2b2d31",
-    "darker": "#2b2d31"
-  },
   "REDESIGN_ACTIVITY_CARD_BADGE_ICON": {
     "dark": "#949ba4",
     "light": "#80848e",
     "midnight": "#6c6f7c",
     "darker": "#818491"
-  },
-  "REDESIGN_ACTIVITY_CARD_BORDER": {
-    "dark": "#ffffff",
-    "light": "#80848e",
-    "midnight": "#6c6f7c",
-    "darker": "#6c6f7c"
-  },
-  "REDESIGN_ACTIVITY_CARD_OVERFLOW_BACKGROUND": {
-    "dark": "#2b2d31",
-    "light": "#dbdee1",
-    "midnight": "#2c2d35",
-    "darker": "#2c2d35"
   },
   "REDESIGN_BUTTON_ACTIVE_BACKGROUND": {
     "dark": "#248045",
@@ -1462,12 +1360,6 @@
     "light": "#ffffff",
     "midnight": "#ffffff",
     "darker": "#ffffff"
-  },
-  "REDESIGN_BUTTON_OVERLAY_PRESSED_BACKGROUND": {
-    "dark": "#dbdee1",
-    "light": "#dbdee1",
-    "midnight": "#dbdee1",
-    "darker": "#dbdee1"
   },
   "REDESIGN_BUTTON_OVERLAY_TEXT": {
     "dark": "#060607",
@@ -1691,18 +1583,6 @@
     "midnight": "#dddee1",
     "darker": "#c7c8ce"
   },
-  "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": {
-    "dark": "#b5bac1",
-    "light": "#4e5058",
-    "midnight": "#a8aab4",
-    "darker": "#9597a3"
-  },
-  "REDESIGN_CHANNEL_MESSAGE_PREVIEW_TEXT": {
-    "dark": "#949ba4",
-    "light": "#5c5e66",
-    "midnight": "#818491",
-    "darker": "#818491"
-  },
   "REDESIGN_CHANNEL_NAME_MUTED_TEXT": {
     "dark": "#949ba4",
     "light": "#5c5e66",
@@ -1738,36 +1618,6 @@
     "light": "#5865f2",
     "midnight": "#5865f2",
     "darker": "#5865f2"
-  },
-  "REDESIGN_ONLY_BACKGROUND_ACTIVE": {
-    "dark": "#41434a",
-    "light": "#6d6f78",
-    "midnight": "#41434a",
-    "darker": "#41434a"
-  },
-  "REDESIGN_ONLY_BACKGROUND_DEFAULT": {
-    "dark": "#313338",
-    "light": "#ffffff",
-    "midnight": "#313338",
-    "darker": "#313338"
-  },
-  "REDESIGN_ONLY_BACKGROUND_OVERLAY": {
-    "dark": "#282a2e",
-    "light": "#ebedef",
-    "midnight": "#282a2e",
-    "darker": "#282a2e"
-  },
-  "REDESIGN_ONLY_BACKGROUND_RAISED": {
-    "dark": "#2b2d31",
-    "light": "#f2f3f5",
-    "midnight": "#2b2d31",
-    "darker": "#2b2d31"
-  },
-  "REDESIGN_ONLY_BACKGROUND_SUNKEN": {
-    "dark": "#232428",
-    "light": "#e3e5e8",
-    "midnight": "#232428",
-    "darker": "#232428"
   },
   "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {
     "dark": "#1a1b1e",
@@ -2038,11 +1888,5 @@
     "light": "#ffffff",
     "midnight": "#ffffff",
     "darker": "#ffffff"
-  },
-  "YOU_BAR_BG": {
-    "dark": "#111214",
-    "light": "#ffffff",
-    "midnight": "#212229",
-    "darker": "#2c2d35"
   }
 }
