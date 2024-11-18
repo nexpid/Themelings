@@ -1103,6 +1103,12 @@
     "midnight": "#c7c8ce",
     "darker": "#c7c8ce"
   },
+  "LEADERBOARD_LEAGUE_BRAND_TEXT": {
+    "dark": "#cbaa62",
+    "light": "#94620f",
+    "midnight": "#cbaa62",
+    "darker": "#cbaa62"
+  },
   "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
     "dark": "#232428",
     "light": "#f2f3f5",

@@ -5519,6 +5519,36 @@
       }
     ]
   },
+  "LEADERBOARD_LEAGUE_BRAND_TEXT": {
+    "dark": [
+      "#cbaa62",
+      {
+        "raw": "LOL_TEXT_LIGHT",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#94620f",
+      {
+        "raw": "LOL_TEXT_DARK",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#cbaa62",
+      {
+        "raw": "LOL_TEXT_LIGHT",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#cbaa62",
+      {
+        "raw": "LOL_TEXT_LIGHT",
+        "opacity": 1
+      }
+    ]
+  },
   "LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT": {
     "dark": [
       "#232428",
