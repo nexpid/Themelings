@@ -161,24 +161,6 @@
     "midnight": "#2c2d35",
     "darker": "#383a43"
   },
-  "BACKGROUND_SURFACE_HIGH": {
-    "dark": "#3a3a41",
-    "light": "#f3f3f4",
-    "midnight": "#18181b",
-    "darker": "#2e2e34"
-  },
-  "BACKGROUND_SURFACE_HIGHER": {
-    "dark": "#404048",
-    "light": "#ffffff",
-    "midnight": "#1d1d21",
-    "darker": "#34343a"
-  },
-  "BACKGROUND_SURFACE_HIGHEST": {
-    "dark": "#46474f",
-    "light": "#ffffff",
-    "midnight": "#232327",
-    "darker": "#3a3a41"
-  },
   "BACKGROUND_TERTIARY": {
     "dark": "#1e1f22",
     "light": "#e3e5e8",
@@ -352,6 +334,90 @@
     "light": "#a12829",
     "midnight": "#a12829",
     "darker": "#a12829"
+  },
+  "BUTTON_DANGER_BORDER": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_BRAND_BACKGROUND": {
+    "dark": "#5865f2",
+    "light": "#5865f2",
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
+  },
+  "BUTTON_FILLED_BRAND_BACKGROUND_ACTIVE": {
+    "dark": "#3c45a5",
+    "light": "#3c45a5",
+    "midnight": "#3c45a5",
+    "darker": "#3c45a5"
+  },
+  "BUTTON_FILLED_BRAND_BACKGROUND_HOVER": {
+    "dark": "#4752c4",
+    "light": "#4752c4",
+    "midnight": "#4752c4",
+    "darker": "#4752c4"
+  },
+  "BUTTON_FILLED_BRAND_BORDER": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_BRAND_INVERTED_BACKGROUND": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_BRAND_INVERTED_BACKGROUND_ACTIVE": {
+    "dark": "#dee0fc",
+    "light": "#dee0fc",
+    "midnight": "#dee0fc",
+    "darker": "#dee0fc"
+  },
+  "BUTTON_FILLED_BRAND_INVERTED_BACKGROUND_HOVER": {
+    "dark": "#f7f7fe",
+    "light": "#f7f7fe",
+    "midnight": "#f7f7fe",
+    "darker": "#f7f7fe"
+  },
+  "BUTTON_FILLED_BRAND_INVERTED_TEXT": {
+    "dark": "#5865f2",
+    "light": "#5865f2",
+    "midnight": "#5865f2",
+    "darker": "#5865f2"
+  },
+  "BUTTON_FILLED_BRAND_TEXT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_WHITE_BACKGROUND": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_WHITE_BACKGROUND_ACTIVE": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_WHITE_BACKGROUND_HOVER": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_FILLED_WHITE_TEXT": {
+    "dark": "#4e5058",
+    "light": "#4e5058",
+    "midnight": "#4e5058",
+    "darker": "#4e5058"
   },
   "BUTTON_OUTLINE_BRAND_BACKGROUND": {
     "dark": "#ffffff",
@@ -593,6 +659,12 @@
     "midnight": "#15562b",
     "darker": "#1a6334"
   },
+  "BUTTON_POSITIVE_BORDER": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
   "BUTTON_SECONDARY_BACKGROUND": {
     "dark": "#4e5058",
     "light": "#6d6f78",
@@ -616,6 +688,36 @@
     "light": "#4e5058",
     "midnight": "#6c6f7c",
     "darker": "#6c6f7c"
+  },
+  "BUTTON_SECONDARY_TEXT": {
+    "dark": "#ffffff",
+    "light": "#ffffff",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_TRANSPARENT_BACKGROUND": {
+    "dark": "#ffffff",
+    "light": "#80848e",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_TRANSPARENT_BACKGROUND_ACTIVE": {
+    "dark": "#ffffff",
+    "light": "#80848e",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_TRANSPARENT_BACKGROUND_HOVER": {
+    "dark": "#ffffff",
+    "light": "#80848e",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_TRANSPARENT_TEXT": {
+    "dark": "#f2f3f5",
+    "light": "#060607",
+    "midnight": "#ecedef",
+    "darker": "#e4e5e8"
   },
   "CARD_GRADIENT_BG": {
     "dark": "#000000",
