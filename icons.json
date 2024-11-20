@@ -1615,7 +1615,7 @@
     },
     "CircleCheckIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1645,7 +1645,7 @@
     },
     "CircleInformationIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleInformationIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1665,7 +1665,7 @@
     },
     "CircleMinusIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleMinusIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1685,7 +1685,7 @@
     },
     "CirclePlayIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CirclePlayIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1705,7 +1705,7 @@
     },
     "CirclePlusIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CirclePlusIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1735,7 +1735,7 @@
     },
     "CircleQuestionIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleQuestionIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1765,7 +1765,7 @@
     },
     "CircleWarningIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -1795,7 +1795,7 @@
     },
     "CircleXIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleXIcon-secondary.png",
-        "hash": "efbd5e4b1349cea4428796333985d3be",
+        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
         "scales": [
             2,
             3
@@ -3594,6 +3594,26 @@
         ],
         "width": 161,
         "height": 161
+    },
+    "grey_badge": {
+        "file": "modules/premium/native/images/perks/grey_badge.png",
+        "hash": "69d07b73ba14be901804955fa84a0ead",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 300,
+        "height": 175
+    },
+    "grey_server_boosts": {
+        "file": "modules/premium/native/images/perks/grey_server_boosts.png",
+        "hash": "cd214b5502d42e0d86b5bf4c01260ed5",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 300.5,
+        "height": 175
     },
     "grid": {
         "file": "modules/video_calls/native/images/grid.png",
