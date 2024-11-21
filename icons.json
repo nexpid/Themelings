@@ -4715,16 +4715,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_checked": {
-        "file": "modules/notification_center/native/images/ic_checked.png",
-        "hash": "bab63ebca1b5ec9ed3efbf0ecd27150b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 12,
-        "height": 12
-    },
     "ic_checkmark": {
         "file": "images/native/icons/ic_checkmark.png",
         "hash": "d4d023fcd230d5f7401c0e512db37851",
@@ -5182,7 +5172,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "modules/notification_center/native/images/ic_eye.png",
+        "file": "modules/parent_tools/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -6531,16 +6521,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_new_group": {
-        "file": "images/native/icons/ic_new_group.png",
-        "hash": "4bd6c538247139e62012105bba755f6b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_new_pins": {
         "file": "images/native/chat_sidebar/ic_new_pins.png",
         "hash": "2c51a090577d843d3bcf2148c9e634bc",
@@ -7338,16 +7318,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_share_screen": {
-        "file": "modules/notification_center/native/images/ic_share_screen.png",
-        "hash": "6073cb8abb04e671fd5b1e765dcdb6e3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 12,
-        "height": 12
     },
     "ic_shield_24px": {
         "file": "images/native/icons/ic_shield_24px.png",
