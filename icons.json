@@ -1248,16 +1248,6 @@
         "width": 24,
         "height": 24
     },
-    "channels_example": {
-        "file": "modules/nuf_channels/native/images/channels_example.png",
-        "hash": "3d2ca3005e79cee28110e3b4327d0d82",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 273,
-        "height": 162
-    },
     "channels-empty": {
         "file": "modules/main_tabs_v2/native/tabs/guilds/empty_states/images/channels-empty.png",
         "hash": "0068bea3a7b26b1d06c599bf3096c534",
@@ -2615,16 +2605,6 @@
         "width": 70,
         "height": 47
     },
-    "email_header": {
-        "file": "modules/hub/native/images/email_header.png",
-        "hash": "deb2ce44605b2aff79f61050be83207a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 155,
-        "height": 83
-    },
     "EmbedIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/EmbedIcon.png",
         "hash": "3106eab174b28feb25d4f94d636ccc20",
@@ -3859,16 +3839,6 @@
         "width": 16,
         "height": 16
     },
-    "header-art": {
-        "file": "modules/contact_sync/native/images/header-art.png",
-        "hash": "4e083f6d4a30ec02e9e755fa742e915f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 300,
-        "height": 144
-    },
     "header-art-onboarding": {
         "file": "modules/contact_sync/native/images/header-art-onboarding.png",
         "hash": "fad7ba73a3f13e1d6de72f833c30efc1",
@@ -4044,15 +4014,6 @@
         ],
         "width": 72,
         "height": 72
-    },
-    "hub-back-to-school": {
-        "file": "modules/hub/native/images/hub-back-to-school.png",
-        "hash": "b5e6127f54f044753bf196d62a0ea068",
-        "scales": [
-            3
-        ],
-        "width": 217,
-        "height": 142
     },
     "hub-discovery": {
         "file": "modules/hub/native/images/hub-discovery.png",
@@ -4978,16 +4939,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_custom_app_icons_24px": {
-        "file": "images/native/icons/ic_custom_app_icons_24px.png",
-        "hash": "4b7f1239dd7ef272f043c570634f9751",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_discoverable_globe_guild_badge_light": {
         "file": "images/native/icons/ic_discoverable_globe_guild_badge_light.png",
         "hash": "bb7105b98490d0f2f1f6d3bd526a9b60",
@@ -5145,16 +5096,6 @@
         "hash": "9a9bbdc70f61ec2f6dad7a457855d73e",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_expression": {
-        "file": "modules/chat_input/native/images/ic_expression.png",
-        "hash": "5e86b9413b972fdc89a8e43a0333b974",
-        "scales": [
             2,
             3
         ],
@@ -6184,16 +6125,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_menu_24px": {
-        "file": "images/native/icons/ic_menu_24px.png",
-        "hash": "a3b7fd1dff609e97deeafa3a9354985e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_message": {
         "file": "images/native/icons/ic_message.png",
         "hash": "f508ffa8fec7b43f0c7e1765658cd955",
@@ -6514,26 +6445,6 @@
     "ic_network_offline_light_24px": {
         "file": "modules/connectivity/native/images/ic_network_offline_light_24px.png",
         "hash": "4ea196e70a55865066bc0efed4aeb7cd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_new_pins": {
-        "file": "images/native/chat_sidebar/ic_new_pins.png",
-        "hash": "2c51a090577d843d3bcf2148c9e634bc",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_new_pins_light": {
-        "file": "images/native/chat_sidebar/ic_new_pins_light.png",
-        "hash": "b9f41080d1d11d97f808d6cb30943ffa",
         "scales": [
             2,
             3
@@ -7616,16 +7527,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_sticker_icon_tilted": {
-        "file": "modules/chat_input/native/images/ic_sticker_icon_tilted.png",
-        "hash": "9683ac964947c3f74dd855d44ce47436",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24.5,
-        "height": 24.5
     },
     "ic_stop_stream_24px": {
         "file": "images/native/icons/ic_stop_stream_24px.png",
@@ -10826,26 +10727,6 @@
         "width": 120,
         "height": 80
     },
-    "img_thread_browser_empty_state": {
-        "file": "images/native/img_thread_browser_empty_state.png",
-        "hash": "7661dcce908fabd332b153645fb2e181",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 88,
-        "height": 80
-    },
-    "img_thread_browser_empty_state_light": {
-        "file": "images/native/img_thread_browser_empty_state_light.png",
-        "hash": "88260991f6d6c8603759d8a20bae7993",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 88,
-        "height": 80
-    },
     "img_tier_0_clouds": {
         "file": "images/native/premium/illustrations/img_tier_0_clouds.png",
         "hash": "285e979e530f2dfb10749ec34ebaf83a",
@@ -12361,16 +12242,6 @@
         "width": 301,
         "height": 128
     },
-    "notification_sparkles": {
-        "file": "modules/nuf/native/components/notification/notification_sparkles.png",
-        "hash": "c9ded15a09aa793e3af9f7773368cfdb",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 653,
-        "height": 474
-    },
     "notification_upsell": {
         "file": "modules/nuf/native/components/notification/notification_upsell.png",
         "hash": "21f19c3533062eebc26337b4e7ba590a",
@@ -12737,16 +12608,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "pointer_hand": {
-        "file": "modules/nuf/native/components/notification/pointer_hand.png",
-        "hash": "8aad3d7a38916872826cb5b4dea72049",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 96,
-        "height": 97
     },
     "PollsIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PollsIcon.png",
