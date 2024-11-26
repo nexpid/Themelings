@@ -1409,36 +1409,6 @@
       }
     ]
   },
-  "BORDER_NORMAL": {
-    "dark": [
-      "#97979f",
-      {
-        "raw": "OPACITY_6",
-        "opacity": 0.2
-      }
-    ],
-    "light": [
-      "#97979f",
-      {
-        "raw": "OPACITY_8",
-        "opacity": 0.28
-      }
-    ],
-    "midnight": [
-      "#97979f",
-      {
-        "raw": "OPACITY_6",
-        "opacity": 0.2
-      }
-    ],
-    "darker": [
-      "#97979f",
-      {
-        "raw": "OPACITY_6",
-        "opacity": 0.2
-      }
-    ]
-  },
   "BORDER_STRONG": {
     "dark": [
       "#ffffff",
@@ -7465,6 +7435,96 @@
       "#ffffff",
       {
         "raw": "WHITE",
+        "opacity": 1
+      }
+    ]
+  },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_BLUE_FOR_GRADIENT": {
+    "dark": [
+      "#1776cf",
+      {
+        "raw": "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1776cf",
+      {
+        "raw": "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1776cf",
+      {
+        "raw": "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1776cf",
+      {
+        "raw": "PREMIUM_TIER_0_BLUE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ]
+  },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
+    "dark": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "light": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ],
+    "darker": [
+      "#000000",
+      {
+        "raw": "BLACK",
+        "opacity": 0.1
+      }
+    ]
+  },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
+    "dark": [
+      "#5865f2",
+      {
+        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5865f2",
+      {
+        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865f2",
+      {
+        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5865f2",
+      {
+        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
         "opacity": 1
       }
     ]
