@@ -682,6 +682,16 @@
         "width": 34,
         "height": 34
     },
+    "BeakerIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/BeakerIcon.png",
+        "hash": "52dd6e1951e8fcb584c15260b9091131",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "BeanieIcon": {
         "file": "images/native/custom_app_icons/BeanieIcon/BeanieIcon.png",
         "hash": "5ed4f057d69445a6e4a7fd8ca936d32a",
@@ -1329,6 +1339,16 @@
     "ChatCheckIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatCheckIcon.png",
         "hash": "2183da4d9b7155b20e41950d24f112b7",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ChatDotsIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChatDotsIcon.png",
+        "hash": "77d9e4c38c6e63d55c765a7490361ed6",
         "scales": [
             2,
             3
@@ -3213,6 +3233,16 @@
         "width": 24,
         "height": 24
     },
+    "FileWarningIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FileWarningIcon.png",
+        "hash": "e300a3f40981ec262ea6991a006348e2",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "FiltersHorizontalIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/FiltersHorizontalIcon.png",
         "hash": "49db3aef4d4700402c64f1cd777829b2",
@@ -3595,6 +3625,16 @@
         ],
         "width": 20,
         "height": 20
+    },
+    "GridHorizontalIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/GridHorizontalIcon.png",
+        "hash": "d294949337c5e4c6fd557237f10ac7cf",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "group": {
         "file": "modules/video_calls/native/images/group.png",
@@ -5632,16 +5672,6 @@
     "ic_guild_voice_24px": {
         "file": "images/native/icons/ic_guild_voice_24px.png",
         "hash": "9055490a5df5abd5b4d009687b826923",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_hammer_and_chisel_24px": {
-        "file": "images/native/icons/ic_hammer_and_chisel_24px.png",
-        "hash": "8e1db67060d5449d165bf7486f8e5ee0",
         "scales": [
             2,
             3
@@ -10055,6 +10085,16 @@
         "width": 411,
         "height": 134
     },
+    "img_nitro_ticket_bg": {
+        "file": "images/native/premium/backgrounds/img_nitro_ticket_bg.png",
+        "hash": "6767aee50457385555e7e15b59dff5c6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 195,
+        "height": 95
+    },
     "img_nitro_tier_0_activated_dark": {
         "file": "images/native/premium/activated/img_nitro_tier_0_activated_dark.png",
         "hash": "6fb4e1fb24dfc4b551fb510bb467f897",
@@ -11895,6 +11935,16 @@
         "width": 24,
         "height": 24
     },
+    "MobilePhoneSettingsIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MobilePhoneSettingsIcon.png",
+        "hash": "0508b75da11d41e6a59d74b297f47e46",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ModerationIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ModerationIcon.png",
         "hash": "8ec02acb2ee85d2f51e86d0ed393cd51",
@@ -12677,6 +12727,16 @@
         ],
         "width": 16,
         "height": 16
+    },
+    "PrivacyAndSafetyIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PrivacyAndSafetyIcon.png",
+        "hash": "c5d0323aa30788b3b59c6c7d7954b430",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "profile-placeholder-dark": {
         "file": "images/native/profile-placeholder-dark.png",
@@ -15241,6 +15301,17 @@
         ],
         "width": 36,
         "height": 36
+    },
+    "xbox_warning": {
+        "file": "images/consoles/xbox_warning.png",
+        "hash": "733c44d5cffb308b228836de9e11fe13",
+        "scales": [
+            1,
+            2,
+            3
+        ],
+        "width": 40,
+        "height": 42
     },
     "XboxNeutralIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/XboxNeutralIcon.png",
