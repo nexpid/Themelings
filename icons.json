@@ -1346,16 +1346,6 @@
         "width": 24,
         "height": 24
     },
-    "ChatDotsIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/ChatDotsIcon.png",
-        "hash": "77d9e4c38c6e63d55c765a7490361ed6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ChatIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatIcon.png",
         "hash": "cf84a31e0b6331e3eee2a7c92a8ee926",
@@ -3625,16 +3615,6 @@
         ],
         "width": 20,
         "height": 20
-    },
-    "GridHorizontalIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/GridHorizontalIcon.png",
-        "hash": "d294949337c5e4c6fd557237f10ac7cf",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "group": {
         "file": "modules/video_calls/native/images/group.png",
@@ -12727,16 +12707,6 @@
         ],
         "width": 16,
         "height": 16
-    },
-    "PrivacyAndSafetyIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/PrivacyAndSafetyIcon.png",
-        "hash": "c5d0323aa30788b3b59c6c7d7954b430",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "profile-placeholder-dark": {
         "file": "images/native/profile-placeholder-dark.png",
