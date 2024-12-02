@@ -3838,6 +3838,16 @@
         "width": 24,
         "height": 24
     },
+    "HashmarkIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/HashmarkIcon.png",
+        "hash": "51000ccaece735437bf112faac3853e7",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "hd_video": {
         "file": "modules/premium/native/images/perks/hd_video.png",
         "hash": "b10c11253ea31418fc5b5f03e59f065a",
@@ -14133,6 +14143,16 @@
         ],
         "width": 240,
         "height": 240
+    },
+    "TagIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TagIcon.png",
+        "hash": "3d0558d4b5e14f8add06ba9c39ec1eae",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "telegram": {
         "file": "modules/instant_invite/native/images/telegram.png",
