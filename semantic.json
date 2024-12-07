@@ -7469,6 +7469,36 @@
       }
     ]
   },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
+    "dark": [
+      "#ab5d8a",
+      {
+        "raw": "PREMIUM_TIER_2_PINK_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ab5d8a",
+      {
+        "raw": "PREMIUM_TIER_2_PINK_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ab5d8a",
+      {
+        "raw": "PREMIUM_TIER_2_PINK_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#ab5d8a",
+      {
+        "raw": "PREMIUM_TIER_2_PINK_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ]
+  },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
     "dark": [
       "#000000",
@@ -7501,30 +7531,60 @@
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
     "dark": [
-      "#5865f2",
+      "#8547c6",
       {
-        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS",
         "opacity": 1
       }
     ],
     "light": [
-      "#5865f2",
+      "#8547c6",
       {
-        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS",
         "opacity": 1
       }
     ],
     "midnight": [
-      "#5865f2",
+      "#8547c6",
       {
-        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS",
         "opacity": 1
       }
     ],
     "darker": [
-      "#5865f2",
+      "#8547c6",
       {
-        "raw": "PREMIUM_TIER_0_PURPLE_FOR_GRADIENTS",
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS",
+        "opacity": 1
+      }
+    ]
+  },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT_2": {
+    "dark": [
+      "#b845c1",
+      {
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#b845c1",
+      {
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#b845c1",
+      {
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#b845c1",
+      {
+        "raw": "PREMIUM_TIER_2_PURPLE_FOR_GRADIENTS_2",
         "opacity": 1
       }
     ]

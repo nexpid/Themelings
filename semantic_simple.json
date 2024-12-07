@@ -1493,6 +1493,12 @@
     "midnight": "#1776cf",
     "darker": "#1776cf"
   },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PINK_FOR_GRADIENT": {
+    "dark": "#ab5d8a",
+    "light": "#ab5d8a",
+    "midnight": "#ab5d8a",
+    "darker": "#ab5d8a"
+  },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PRESSED_BACKGROUND": {
     "dark": "#000000",
     "light": "#000000",
@@ -1500,10 +1506,16 @@
     "darker": "#000000"
   },
   "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT": {
-    "dark": "#5865f2",
-    "light": "#5865f2",
-    "midnight": "#5865f2",
-    "darker": "#5865f2"
+    "dark": "#8547c6",
+    "light": "#8547c6",
+    "midnight": "#8547c6",
+    "darker": "#8547c6"
+  },
+  "REDESIGN_BUTTON_PREMIUM_PRIMARY_PURPLE_FOR_GRADIENT_2": {
+    "dark": "#b845c1",
+    "light": "#b845c1",
+    "midnight": "#b845c1",
+    "darker": "#b845c1"
   },
   "REDESIGN_BUTTON_PRIMARY_ALT_BACKGROUND": {
     "dark": "#5865f2",

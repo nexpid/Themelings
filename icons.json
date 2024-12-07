@@ -6885,26 +6885,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_ps4_24px": {
-        "file": "images/consoles/ic_ps4_24px.png",
-        "hash": "fb205686c9800c59c37fca2468aa4555",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24.5
-    },
-    "ic_ps5_24px": {
-        "file": "images/consoles/ic_ps5_24px.png",
-        "hash": "8ce053cc5996c3700f5c76e94020f4a7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24.5
-    },
     "ic_public": {
         "file": "images/native/icons/ic_public.png",
         "hash": "c34a0c861b7d42ccaa05d56a524cbcd8",
