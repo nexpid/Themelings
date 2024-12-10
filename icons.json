@@ -4105,17 +4105,6 @@
         "width": 375,
         "height": 120
     },
-    "ic_1password_24px": {
-        "file": "images/native/icons/ic_1password_24px.png",
-        "hash": "1054730a25313d8819868dd255935a61",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_accessibility_24px": {
         "file": "images/native/icons/settings/ic_accessibility_24px.png",
         "hash": "5d764222e06601a525317de01c1e7523",
@@ -12748,26 +12737,6 @@
         "width": 161,
         "height": 52
     },
-    "ps_connect": {
-        "file": "images/consoles/ps_connect.png",
-        "hash": "cedb0eb2e0343d7f986c923dcc72d422",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 125,
-        "height": 75
-    },
-    "ps_link_intro": {
-        "file": "images/consoles/ps_link_intro.png",
-        "hash": "3ae48004e4b652f7f9e77ee9ca4c3eeb",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 249,
-        "height": 150
-    },
     "ps_link_success": {
         "file": "images/consoles/ps_link_success.png",
         "hash": "e6fe6721eef6baadb178e897e0c66033",
@@ -15231,26 +15200,6 @@
         ],
         "width": 59,
         "height": 85.5
-    },
-    "xbox_connect": {
-        "file": "images/consoles/xbox_connect.png",
-        "hash": "c704b18eed5ae453d518f0ed8d7302f6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 152,
-        "height": 124
-    },
-    "xbox_link_intro": {
-        "file": "images/consoles/xbox_link_intro.png",
-        "hash": "88f234f7baf39804c7f988c6dccf660b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 234,
-        "height": 152
     },
     "xbox_upsell": {
         "file": "images/consoles/xbox_upsell.png",
