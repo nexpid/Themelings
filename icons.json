@@ -12737,16 +12737,6 @@
         "width": 161,
         "height": 52
     },
-    "ps_link_success": {
-        "file": "images/consoles/ps_link_success.png",
-        "hash": "e6fe6721eef6baadb178e897e0c66033",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 225,
-        "height": 110
-    },
     "ps_relink_upsell": {
         "file": "images/consoles/ps_relink_upsell.png",
         "hash": "f2b2ae790fb60abfa40be44fab4eb6fc",
