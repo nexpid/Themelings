@@ -511,6 +511,16 @@
         "width": 343,
         "height": 193
     },
+    "asset_nitro_ticket": {
+        "file": "modules/premium/referral_program/native/images/asset_nitro_ticket.png",
+        "hash": "fbbee3b1c0716eaa554a8f9a94badc67",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 200.5,
+        "height": 114
+    },
     "asset_role_subscription_earnings": {
         "file": "modules/guild_role_subscriptions/native/guild_settings/welcome/images/asset_role_subscription_earnings.png",
         "hash": "4932e4c7d6568b95e72c98ec5bd9e9c7",
@@ -3615,6 +3625,16 @@
         ],
         "width": 20,
         "height": 20
+    },
+    "GridSquareIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/GridSquareIcon.png",
+        "hash": "8092c4f3e379f358ee9c54b0aa75c315",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "group": {
         "file": "modules/video_calls/native/images/group.png",
