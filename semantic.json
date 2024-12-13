@@ -8939,6 +8939,36 @@
       }
     ]
   },
+  "SPINE_DEFAULT": {
+    "dark": [
+      "#4e5058",
+      {
+        "raw": "PRIMARY_500",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#c4c9ce",
+      {
+        "raw": "PRIMARY_300",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#4d505b",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#4d505b",
+      {
+        "raw": "PLUM_13",
+        "opacity": 1
+      }
+    ]
+  },
   "SPOILER_HIDDEN_BACKGROUND": {
     "dark": [
       "#1e1f22",

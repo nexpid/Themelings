@@ -1787,6 +1787,12 @@
     "midnight": "#000000",
     "darker": "#000000"
   },
+  "SPINE_DEFAULT": {
+    "dark": "#4e5058",
+    "light": "#c4c9ce",
+    "midnight": "#4d505b",
+    "darker": "#4d505b"
+  },
   "SPOILER_HIDDEN_BACKGROUND": {
     "dark": "#1e1f22",
     "light": "#e3e5e8",

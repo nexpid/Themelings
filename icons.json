@@ -6682,16 +6682,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_person": {
-        "file": "modules/guild_settings/roles/native/images/ic_person.png",
-        "hash": "d08c38923a7ab157a20d0eea10570283",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "ic_person_shield": {
         "file": "images/native/icons/ic_person_shield.png",
         "hash": "571b1cf067821ef4949e09c037a195b6",
@@ -7107,16 +7097,6 @@
         ],
         "width": 16,
         "height": 16
-    },
-    "ic_search_24px": {
-        "file": "images/native/icons/ic_search_24px.png",
-        "hash": "684396f8a11c6f9f471d257db09787a7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_select_all_24px": {
         "file": "modules/guild_role_subscriptions/native/images/ic_select_all_24px.png",
