@@ -7703,16 +7703,6 @@
         "width": 21,
         "height": 20
     },
-    "ic_timer_24px": {
-        "file": "images/native/icons/ic_timer_24px.png",
-        "hash": "bd9d3cb1ce6afd8382f578f56021bc55",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_trash_24px": {
         "file": "images/native/icons/ic_trash_24px.png",
         "hash": "ca5ed05660659bd429f0c8e3c3fa0755",
