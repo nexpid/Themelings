@@ -652,7 +652,7 @@
     },
     "BackspaceIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/BackspaceIcon.png",
-        "hash": "5fe585aecf2b91b2eff46d9c716b71f6",
+        "hash": "29e4007567c07aef134be6251b5ad7c6",
         "scales": [
             2,
             3
@@ -1348,7 +1348,7 @@
     },
     "ChatCheckIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ChatCheckIcon.png",
-        "hash": "2183da4d9b7155b20e41950d24f112b7",
+        "hash": "248df3545aedf0186054b320d9499354",
         "scales": [
             2,
             3
@@ -1596,7 +1596,7 @@
     },
     "CircleCheckIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon.png",
-        "hash": "3ea2413003e32160d87cc835bc172dee",
+        "hash": "5ac054fb5ed630a5e8474b3b805caefb",
         "scales": [
             2,
             3
@@ -1626,7 +1626,7 @@
     },
     "CircleInformationIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleInformationIcon.png",
-        "hash": "a8831ba2bb28766ee6cb45e5145295c7",
+        "hash": "54bf1c1e7d989724b70cd9bd40a24c35",
         "scales": [
             2,
             3
@@ -1716,7 +1716,7 @@
     },
     "CircleQuestionIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleQuestionIcon.png",
-        "hash": "631b007ce4b043b8cd4f978dd890853a",
+        "hash": "25efd53120be258b76212ddd86ab726c",
         "scales": [
             2,
             3
@@ -1746,7 +1746,7 @@
     },
     "CircleWarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon.png",
-        "hash": "e91d36c20ac1f419aca0b82c9e2ae02b",
+        "hash": "8b24fd8a0ac773747887de17d0acd9f3",
         "scales": [
             2,
             3
@@ -1776,7 +1776,7 @@
     },
     "CircleXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleXIcon.png",
-        "hash": "b505a474134226dcb0dc2f21513d8e0c",
+        "hash": "8453778d3bcb32aede2fd9dd69176d8f",
         "scales": [
             2,
             3
@@ -3345,7 +3345,7 @@
     },
     "ForumLockIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ForumLockIcon.png",
-        "hash": "dda2e1b069e9a400ac2be889bbfef9b4",
+        "hash": "e3ccc6efe86169d15907b8e146769d89",
         "scales": [
             2,
             3
@@ -3355,7 +3355,7 @@
     },
     "ForumWarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ForumWarningIcon.png",
-        "hash": "c8a2f3f7130f8395c07bc644d55f50c5",
+        "hash": "8ac9415a18546fa96dfecb5a0cb694f8",
         "scales": [
             2,
             3
@@ -12956,7 +12956,7 @@
     },
     "RobotIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/RobotIcon.png",
-        "hash": "88a0a6604360175b5dae0d4e65b2d6ec",
+        "hash": "1c48572d91d29ec9aa512397cade997b",
         "scales": [
             2,
             3
@@ -13166,7 +13166,7 @@
     },
     "ScienceIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ScienceIcon.png",
-        "hash": "b76fe8baef5c13db25d5ccc38229b852",
+        "hash": "8a4a1069bf57ea1e4fd89f15b14de70e",
         "scales": [
             2,
             3
@@ -13485,7 +13485,7 @@
     },
     "ShieldLockIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ShieldLockIcon.png",
-        "hash": "ffb55451216f63e36786cdd65de1aa56",
+        "hash": "8e3bfd8f982ca8f242bf0d6778e237a9",
         "scales": [
             2,
             3
@@ -13566,7 +13566,7 @@
     },
     "SoundboardIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/SoundboardIcon.png",
-        "hash": "50f139a68b5cc1b9107ec9b18ce91447",
+        "hash": "2e1acef4727f11d8c6f47c5cd540eac0",
         "scales": [
             2,
             3
@@ -14194,7 +14194,7 @@
     },
     "TicketIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TicketIcon.png",
-        "hash": "5f9f9e622452fbf867f57a14ebf7b364",
+        "hash": "daf75da995e37397f78dbdb504098655",
         "scales": [
             2,
             3
