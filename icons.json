@@ -52,8 +52,8 @@
         "height": 24
     },
     "add": {
-        "file": "modules/directory_channels/native/images/add.png",
-        "hash": "c926c140b13a4a646e1d29f5c5803466",
+        "file": "modules/video_calls/native/images/add.png",
+        "hash": "db76c9ef21a10a502ae95ae16e345521",
         "scales": [
             2,
             3
@@ -5048,17 +5048,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_duplicate": {
-        "file": "images/native/icons/ic_duplicate.png",
-        "hash": "60a4bd07e930d574cf533da89af5922b",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_edit_20px": {
         "file": "modules/guild_role_subscriptions/native/images/ic_edit_20px.png",
         "hash": "ea574b18a4e86e7c3f2414396c66bd23",
@@ -5152,7 +5141,7 @@
         "height": 24
     },
     "ic_eye": {
-        "file": "modules/parent_tools/images/ic_eye.png",
+        "file": "modules/media_viewer/native/images/ic_eye.png",
         "hash": "87391322b2483c883b3f5fd1ac4080a9",
         "scales": [
             2,
@@ -5352,16 +5341,6 @@
     "ic_filter_24px": {
         "file": "images/native/icons/ic_filter_24px.png",
         "hash": "236930eea5f18524f4633fff5702240b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_flag_24px": {
-        "file": "images/native/icons/ic_flag_24px.png",
-        "hash": "2e87f5858258ae5926066ad669e22ce1",
         "scales": [
             2,
             3
@@ -6592,17 +6571,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_notification_settings_light": {
-        "file": "images/native/icons/ic_notification_settings_light.png",
-        "hash": "169b70949814e365dbcbbf87f04dc39e",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_onboarding_white_24px": {
         "file": "images/native/audit_logs/ic_onboarding_white_24px.png",
         "hash": "250d69395849cdedabfbaefeb9a6fe85",
@@ -6847,16 +6815,6 @@
     "ic_privacy_24px": {
         "file": "images/native/icons/settings/ic_privacy_24px.png",
         "hash": "a38150be2c186064632eb1f7143b0cc4",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_profile_24px": {
-        "file": "images/native/icons/ic_profile_24px.png",
-        "hash": "e01a11e94f319991a9788eb799c5714c",
         "scales": [
             2,
             3
