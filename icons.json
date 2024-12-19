@@ -8057,17 +8057,6 @@
         "width": 60,
         "height": 60
     },
-    "icon-arrow-right": {
-        "file": "modules/main_tabs_v2/native/shared_components/user_list/images/icon-arrow-right.png",
-        "hash": "c4ed00f871ff32c8b695959971354efe",
-        "scales": [
-            2,
-            3,
-            4
-        ],
-        "width": 16,
-        "height": 16
-    },
     "icon-call": {
         "file": "modules/main_tabs_v2/native/sidebar/images/icon-call.png",
         "hash": "5be7f14768f9acc824d9e93779c75d9c",
