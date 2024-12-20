@@ -4289,8 +4289,8 @@
         "height": 16
     },
     "ic_arrow": {
-        "file": "modules/chat_input/native/images/ic_arrow.png",
-        "hash": "0ffafa8a8a85ff4978bd20bf39c89e7b",
+        "file": "images/native/icons/user_profile/ic_arrow.png",
+        "hash": "edefaa7b105418ac79e91df5e7252965",
         "scales": [
             2,
             3
