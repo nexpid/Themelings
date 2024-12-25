@@ -2,6 +2,12 @@ name: update (hourly)
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: Force update regardless of "bun run check"
+        default: false
+        required: false
+        type: boolean
   schedule:
     - cron: "30 * * * *"
 
@@ -30,10 +36,13 @@ jobs:
       - name: Check for version
         id: versioner
         working-directory: main
-        run: echo "version=$(bun run check)" >> $GITHUB_OUTPUT
+        run: |
+          version=$(bun run check ${{ github.event.inputs.force && '--force' || '' }})
+          echo "[DEBUG]: Check result: $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
 
       - name: Update
-        if: steps.versioner.outcome.version != 'false'
+        if: ${{ steps.versioner.outputs.version != 'false' }}
         env:
           code_webhook: ${{ secrets.CODE_WEBHOOK }}
           color_webhook: ${{ secrets.COLOR_WEBHOOK }}
@@ -42,6 +51,7 @@ jobs:
         run: bun run update
 
       - name: Publish changes
+        if: ${{ steps.versioner.outputs.version != 'false' }}
         working-directory: data
         run: |
           git config user.name github-actions

@@ -7,7 +7,7 @@ const alpha = (await tracker.json()).latest.alpha.toString();
 const file = Bun.file("../data/version.txt");
 const latest = (await file.exists()) && (await file.text());
 
-if (latest !== alpha) {
+if (latest !== alpha || process.argv.includes("--force")) {
 	await Bun.write("../data/version.txt", alpha);
 	process.stdout.write(alpha);
 } else process.stdout.write("false");
