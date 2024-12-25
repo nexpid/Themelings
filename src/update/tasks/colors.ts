@@ -109,12 +109,13 @@ export function getInternalSemanticColors(
 	for (const key of Object.keys(sem))
 		for (const theme of Object.keys(sem[key])) {
 			const clr = raw[sem[key][theme].raw];
-			if (clr)
+			if (clr) {
+				const color = Color(clr).alpha(sem[key][theme].opacity);
 				sem[key][theme] = [
-					Color(clr).alpha(sem[key][theme].opacity).hex().toLowerCase(),
+					(color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase(),
 					sem[key][theme],
 				];
-			else delete sem[key][theme];
+			} else delete sem[key][theme];
 		}
 
 	return sem;
