@@ -6490,16 +6490,6 @@
         "width": 12,
         "height": 12
     },
-    "ic_nitro_wheel_gradient": {
-        "file": "images/native/icons/ic_nitro_wheel_gradient.png",
-        "hash": "08453f953a5df631bd3cb50a7b2b3105",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "ic_nitro_wheel_gradient_purple": {
         "file": "images/native/icons/ic_nitro_wheel_gradient_purple.png",
         "hash": "31757ea45ee4fb60779fd700caf7d93e",
