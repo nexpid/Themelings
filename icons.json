@@ -1406,6 +1406,16 @@
         "width": 24,
         "height": 24
     },
+    "ChatXIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ChatXIcon.png",
+        "hash": "56add29c46f823ae1398092c7b2416ed",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "check": {
         "file": "modules/age_gate/native/images/check.png",
         "hash": "d591eaa154611b58ebc00af8c514af58",
@@ -12456,6 +12466,16 @@
         "width": 24,
         "height": 24
     },
+    "PhoneIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PhoneIcon.png",
+        "hash": "582e1570d605d054414cbc00863790ca",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PiggyBankIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PiggyBankIcon.png",
         "hash": "d173df27fe58df55e38d3e4f4fe71785",
@@ -14436,6 +14456,16 @@
         ],
         "width": 251,
         "height": 167
+    },
+    "UndoIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UndoIcon.png",
+        "hash": "323498ae21a1f1cd52570d9622a76094",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "UnknownGameIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
