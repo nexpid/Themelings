@@ -12466,16 +12466,6 @@
         "width": 24,
         "height": 24
     },
-    "PhoneIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/PhoneIcon.png",
-        "hash": "582e1570d605d054414cbc00863790ca",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "PiggyBankIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PiggyBankIcon.png",
         "hash": "d173df27fe58df55e38d3e4f4fe71785",
@@ -13223,14 +13213,14 @@
         "height": 16
     },
     "search": {
-        "file": "modules/search_v2/native/images/search.png",
-        "hash": "f1a015be6870f4be31810fc8f6ed6550",
+        "file": "modules/hub/native/images/search.png",
+        "hash": "177e027c49aef54101f627b7e13847cf",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 24,
+        "height": 24
     },
     "search_empty_state": {
         "file": "modules/hub/native/images/search_empty_state.png",
@@ -14456,16 +14446,6 @@
         ],
         "width": 251,
         "height": 167
-    },
-    "UndoIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/UndoIcon.png",
-        "hash": "323498ae21a1f1cd52570d9622a76094",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "UnknownGameIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
