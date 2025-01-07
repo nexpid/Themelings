@@ -2220,16 +2220,6 @@
         "width": 300,
         "height": 175
     },
-    "custom-status-illustration": {
-        "file": "images/native/custom_status/custom-status-illustration.png",
-        "hash": "5fe068222eef61dc98fe97a9bc835787",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 311,
-        "height": 186
-    },
     "customize_empty": {
         "file": "images/native/community/customize_empty.png",
         "hash": "038b9efde4d99e1d058963891646a79a",
