@@ -4008,6 +4008,16 @@
         "width": 24,
         "height": 24
     },
+    "HourglassIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/HourglassIcon.png",
+        "hash": "479b66c21e09d8e14899d0db0865bc89",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "hr": {
         "file": "_/discord_common/js/shared/images/flags/hr.png",
         "hash": "cfc9643cb00e44fae64bfeda3556bfd9",
@@ -15137,17 +15147,6 @@
         ],
         "width": 36,
         "height": 36
-    },
-    "xbox_warning": {
-        "file": "images/consoles/xbox_warning.png",
-        "hash": "733c44d5cffb308b228836de9e11fe13",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 40,
-        "height": 42
     },
     "XboxNeutralIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/XboxNeutralIcon.png",
