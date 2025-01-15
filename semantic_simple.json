@@ -1277,6 +1277,18 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "MESSAGE_REACTED_BACKGROUND": {
+    "dark": "#5865f226",
+    "light": "#5865f226",
+    "midnight": "#5865f226",
+    "darker": "#5865f226"
+  },
+  "MESSAGE_REACTED_TEXT": {
+    "dark": "#dee0fc",
+    "light": "#4752c4",
+    "midnight": "#dee0fc",
+    "darker": "#dee0fc"
+  },
   "MODAL_BACKGROUND": {
     "dark": "#313338",
     "light": "#ffffff",

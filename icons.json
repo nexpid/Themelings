@@ -11294,26 +11294,6 @@
         "width": 300,
         "height": 175
     },
-    "left_green_sparkle": {
-        "file": "modules/remixing/native/images/left_green_sparkle.png",
-        "hash": "46c632833caca154fbe72805cdd92be3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 9,
-        "height": 14.5
-    },
-    "left_yellow_sparkle": {
-        "file": "modules/remixing/native/images/left_yellow_sparkle.png",
-        "hash": "06ba2263f1fc3c49ea015aec6011ee65",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16.5,
-        "height": 15
-    },
     "light_home_header_placeholder": {
         "file": "modules/guild_home/native/images/light_home_header_placeholder.png",
         "hash": "2350a6e29ab96dbf4682611d6fbf7bcc",
@@ -12823,16 +12803,6 @@
         "width": 56,
         "height": 65
     },
-    "remix_early_access_upsell": {
-        "file": "modules/remixing/native/images/remix_early_access_upsell.png",
-        "hash": "0c664dc4e021615f65784372bc8d01f9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 79,
-        "height": 68
-    },
     "remix_marketing_tile_400x200": {
         "file": "modules/remixing/images/remix_marketing_tile_400x200.png",
         "hash": "ab7d44a2d932de51897a8057faeee302",
@@ -12871,26 +12841,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "right_green_sparkle": {
-        "file": "modules/remixing/native/images/right_green_sparkle.png",
-        "hash": "f73bda87e27b41fc489cabfb1983af65",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 9.5,
-        "height": 15.5
-    },
-    "right_pink_sparkle": {
-        "file": "modules/remixing/native/images/right_pink_sparkle.png",
-        "hash": "0c536a6394f1700700d7bf94e104c52a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 7,
-        "height": 12.5
     },
     "ro": {
         "file": "_/discord_common/js/shared/images/flags/ro.png",
@@ -14040,6 +13990,16 @@
         "width": 52,
         "height": 52
     },
+    "TextControllerIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/TextControllerIcon.png",
+        "hash": "946301eb6511b125db1d62995d8eef49",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "TextIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TextIcon.png",
         "hash": "d698fa33703653fb919422bd873d6a67",
@@ -15029,7 +14989,7 @@
     },
     "wumpus_wave": {
         "file": "modules/guilds_bar/native/images/wumpus_wave.png",
-        "hash": "0dedb946f09d4b7ccfe029ba76883865",
+        "hash": "31b62f25cfc0f3a2d3cb5b6aaaef4788",
         "scales": [
             3
         ],

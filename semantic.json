@@ -6389,6 +6389,66 @@
       }
     ]
   },
+  "MESSAGE_REACTED_BACKGROUND": {
+    "dark": [
+      "#5865f226",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.15
+      }
+    ],
+    "light": [
+      "#5865f226",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.15
+      }
+    ],
+    "midnight": [
+      "#5865f226",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.15
+      }
+    ],
+    "darker": [
+      "#5865f226",
+      {
+        "raw": "BRAND_500",
+        "opacity": 0.15
+      }
+    ]
+  },
+  "MESSAGE_REACTED_TEXT": {
+    "dark": [
+      "#dee0fc",
+      {
+        "raw": "BRAND_200",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#4752c4",
+      {
+        "raw": "BRAND_560",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#dee0fc",
+      {
+        "raw": "BRAND_200",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#dee0fc",
+      {
+        "raw": "BRAND_200",
+        "opacity": 1
+      }
+    ]
+  },
   "MODAL_BACKGROUND": {
     "dark": [
       "#313338",
