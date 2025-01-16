@@ -124,36 +124,6 @@
         "width": 16,
         "height": 16
     },
-    "all_dark": {
-        "file": "images/native/empties/all_dark.png",
-        "hash": "02333f57b501a671d7975ed6acede9f6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 376.5,
-        "height": 162.5
-    },
-    "all_darker": {
-        "file": "design/components/Illustration/native/redesign/generated/images/all_darker.png",
-        "hash": "48a4f215e21026341e6c88d88f6847e3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 376,
-        "height": 162
-    },
-    "all_light": {
-        "file": "images/native/empties/all_light.png",
-        "hash": "e36b3526c2d2aa7ae267757f53707396",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 376,
-        "height": 162.5
-    },
     "amanda": {
         "file": "modules/nuf_channels/native/images/amanda.png",
         "hash": "b269fec2e8135bbc2e2d49cb182b352b",
@@ -2685,16 +2655,6 @@
         "width": 77.5,
         "height": 72
     },
-    "empty_add_recipient": {
-        "file": "images/native/empties/empty_add_recipient.png",
-        "hash": "922fc9869c3ee0ed3aedef0f0ad9cb7d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 173,
-        "height": 90
-    },
     "empty_castle": {
         "file": "modules/media_keyboard/native/images/empty_castle.png",
         "hash": "86035f94bc8c78da758eed4788f623cf",
@@ -3675,16 +3635,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "groups-full": {
-        "file": "images/native/groups-full.png",
-        "hash": "c189c456aa20f8556c1131fa1724af82",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 258,
-        "height": 138
     },
     "grubbin": {
         "file": "modules/hang_status/images/native/grubbin.png",
@@ -14481,6 +14431,16 @@
     "UserMinusIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UserMinusIcon.png",
         "hash": "2c4c3a7cfa64491da77dc75efb3b52a0",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "UserPlatformIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UserPlatformIcon.png",
+        "hash": "41352513734e3fac4d0369c2fdf2f8cf",
         "scales": [
             2,
             3
