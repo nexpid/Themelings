@@ -1,15 +1,4 @@
 {
-    "about_me_onboarding": {
-        "file": "modules/main_tabs_v2/native/tabs/you/images/about_me_onboarding.png",
-        "hash": "4ed95929d346e1a244edf87bf575f091",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 74,
-        "height": 75
-    },
     "AccessibilityIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/AccessibilityIcon.png",
         "hash": "11939c431af9c635d50a69abcb5864bc",
@@ -471,6 +460,42 @@
         "width": 284,
         "height": 189
     },
+    "asset_bronze_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_bronze_badge_small.png",
+        "hash": "dde7386c50b296c0100deb163d7be8d9",
+        "scales": [
+            3
+        ],
+        "width": 41.333333333333336,
+        "height": 41
+    },
+    "asset_diamond_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_diamond_badge_small.png",
+        "hash": "7cfd94c1171ec3d7e50b8f79073c678b",
+        "scales": [
+            3
+        ],
+        "width": 51.666666666666664,
+        "height": 45
+    },
+    "asset_emerald_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_emerald_badge_small.png",
+        "hash": "9b11844377b693fdb4c66a7e467cde36",
+        "scales": [
+            3
+        ],
+        "width": 56.333333333333336,
+        "height": 46
+    },
+    "asset_gold_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_gold_badge_small.png",
+        "hash": "20888b821220e154d6a675c4936f30a4",
+        "scales": [
+            3
+        ],
+        "width": 43.333333333333336,
+        "height": 43
+    },
     "asset_gradient": {
         "file": "images/native/guild_settings/overview/asset_gradient.png",
         "hash": "14f8bd930afc02eff31d9dfb6640a712",
@@ -490,6 +515,24 @@
         ],
         "width": 200.5,
         "height": 114
+    },
+    "asset_opal_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_opal_badge_small.png",
+        "hash": "3dc523c9192d74de1553551cf26036dc",
+        "scales": [
+            3
+        ],
+        "width": 72.33333333333333,
+        "height": 48
+    },
+    "asset_platinum_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_platinum_badge_small.png",
+        "hash": "2ad89b02ae7a5e8d01fef7dd4fac5029",
+        "scales": [
+            3
+        ],
+        "width": 44.666666666666664,
+        "height": 44
     },
     "asset_role_subscription_earnings": {
         "file": "modules/guild_role_subscriptions/native/guild_settings/welcome/images/asset_role_subscription_earnings.png",
@@ -520,6 +563,24 @@
         ],
         "width": 71,
         "height": 54
+    },
+    "asset_ruby_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_ruby_badge_small.png",
+        "hash": "05e981977519c08025bf643842fce37e",
+        "scales": [
+            3
+        ],
+        "width": 68,
+        "height": 47
+    },
+    "asset_silver_badge_small": {
+        "file": "modules/premium/tiered_tenure_badging/native/images/asset_silver_badge_small.png",
+        "hash": "4d1d94fcb02c20004b5be7b34536eac3",
+        "scales": [
+            3
+        ],
+        "width": 42.333333333333336,
+        "height": 42
     },
     "AtIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/AtIcon.png",
@@ -580,17 +641,6 @@
         ],
         "width": 256,
         "height": 256
-    },
-    "avatar_onboarding": {
-        "file": "modules/main_tabs_v2/native/tabs/you/images/avatar_onboarding.png",
-        "hash": "464d8225cc5727202383352e7215e7ca",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 72,
-        "height": 72
     },
     "avatar_placeholder": {
         "file": "images/avatar_placeholder.png",
@@ -773,7 +823,7 @@
     },
     "blocked_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/blocked_darker.png",
-        "hash": "5b891080aa19581e77cf9c233537b514",
+        "hash": "a255589f0ef23e06a175ac0fc6767b9f",
         "scales": [
             2,
             3
@@ -1168,7 +1218,7 @@
     },
     "channel_setup_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/channel_setup_darker.png",
-        "hash": "0f5e742aa73c32418436d6357c715d9f",
+        "hash": "6d22576d9f7927048034966be0fe9d4c",
         "scales": [
             2,
             3
@@ -2676,7 +2726,7 @@
     },
     "empty_channel_no_text_channels_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/empty_channel_no_text_channels_darker.png",
-        "hash": "fc621727f6f21e2cdc1a7f817eddb20d",
+        "hash": "af58a6d0b570acbbc599390dbd501477",
         "scales": [
             2,
             3
@@ -2712,16 +2762,6 @@
         ],
         "width": 173,
         "height": 90
-    },
-    "empty_mentions": {
-        "file": "images/native/empties/empty_mentions.png",
-        "hash": "6a01c165940b16971b59d84d9e3adc5f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 200,
-        "height": 125
     },
     "empty_permission": {
         "file": "modules/media_keyboard/native/images/empty_permission.png",
@@ -2776,7 +2816,7 @@
     },
     "empty_server_settings_audit_log_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/empty_server_settings_audit_log_darker.png",
-        "hash": "1d1870b3b674caa5c8f57d0d55d5eb61",
+        "hash": "5caead087954d63c5b0957a35bf9e208",
         "scales": [
             2,
             3
@@ -2806,7 +2846,7 @@
     },
     "empty_server_settings_emoji_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/empty_server_settings_emoji_darker.png",
-        "hash": "26b33729e2e3c17398c462b6c7fd77be",
+        "hash": "d170615f8db6e5f7f55a15bde87cb516",
         "scales": [
             2,
             3
@@ -3094,7 +3134,7 @@
     },
     "feedback-modal-happy-desaturated_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/feedback-modal-happy-desaturated_darker.png",
-        "hash": "dfdeb03e78c7d22b584c72a9546793af",
+        "hash": "4b534b4720ff304cea2a2b72b308859f",
         "scales": [
             2,
             3
@@ -3125,7 +3165,7 @@
     },
     "feedback-modal-neutral-desaturated_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/feedback-modal-neutral-desaturated_darker.png",
-        "hash": "8f50a8940c9dd3137a30efbc534ddce1",
+        "hash": "047af24ad7333177fbe250a3bbe8025e",
         "scales": [
             2,
             3
@@ -3156,7 +3196,7 @@
     },
     "feedback-modal-sad-desaturated_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/feedback-modal-sad-desaturated_darker.png",
-        "hash": "0181f83097a75d457be8e77b4f019338",
+        "hash": "8011f85c511bc539d06f3c7f5cbb3598",
         "scales": [
             2,
             3
@@ -3431,16 +3471,6 @@
         "width": 60,
         "height": 60
     },
-    "generic-screenshare-icon": {
-        "file": "images/native/generic-screenshare-icon.png",
-        "hash": "578247954d7ff4336a03f373e758edbb",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 40,
-        "height": 40
-    },
     "gif": {
         "file": "images/native/gif.png",
         "hash": "bde7994716d98a3897a327489b8b2f6d",
@@ -3699,7 +3729,7 @@
     },
     "guild_subscription_no_guilds_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/guild_subscription_no_guilds_darker.png",
-        "hash": "d2b156fe53db7b849572b55fd1ee714a",
+        "hash": "ca47b5bc4b94bd1dd969b5ea6e31ef36",
         "scales": [
             2,
             3
@@ -3730,7 +3760,7 @@
     },
     "guild_subscription_removal_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/guild_subscription_removal_darker.png",
-        "hash": "500dd2404264a61d92b88286c9cef55e",
+        "hash": "91b8f5f85a023591658822c0d3091e54",
         "scales": [
             2,
             3
@@ -4705,16 +4735,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_clear": {
-        "file": "images/native/icons/ic_clear.png",
-        "hash": "f79d2b9d7230345799238f579dfad157",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "ic_clip_24px": {
         "file": "images/native/icons/settings/ic_clip_24px.png",
         "hash": "1a0c43abba92f3248d07401bd0093a80",
@@ -5298,16 +5318,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_filter_24px": {
-        "file": "images/native/icons/ic_filter_24px.png",
-        "hash": "236930eea5f18524f4633fff5702240b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_flower_star_18px": {
         "file": "images/native/ic_flower_star_18px.png",
         "hash": "8ff35f733b0827b805a729f75828334f",
@@ -5465,16 +5475,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_funnel": {
-        "file": "images/native/icons/ic_funnel.png",
-        "hash": "e32da46b45a9dc39ef84243071c1a452",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 21,
-        "height": 27
     },
     "ic_gear": {
         "file": "images/native/icons/ic_gear.png",
@@ -8756,7 +8756,7 @@
     },
     "img_app_crash_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_app_crash_darker.png",
-        "hash": "ce12914c8fce660652f60066f6201636",
+        "hash": "82ae7189682c36bee3dc3a129ab02a11",
         "scales": [
             2,
             3
@@ -8795,7 +8795,7 @@
     },
     "img_baddies_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_baddies_darker.png",
-        "hash": "474ce5dd8b494fd91dd6420a9abb9f41",
+        "hash": "a138d9cb66939b237abe291d5a8f85ba",
         "scales": [
             2,
             3
@@ -8834,7 +8834,7 @@
     },
     "img_bans_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_bans_empty_darker.png",
-        "hash": "f17b8498c05622c4c2d9eb5b1d592e16",
+        "hash": "13ff76500b381861f2432b0c193716ac",
         "scales": [
             2,
             3
@@ -9090,7 +9090,7 @@
     },
     "img_connection_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_connection_empty_darker.png",
-        "hash": "5f39301da1e523ae0e0cbb41ee3fc921",
+        "hash": "bcfd77d8b012fc8617dae77ca780e9ac",
         "scales": [
             2,
             3
@@ -9369,7 +9369,7 @@
     },
     "img_invite_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_invite_empty_darker.png",
-        "hash": "0f40b7dcbcdb18322272e44cd271a05b",
+        "hash": "5bbcc6438e9b5eafb60d2e7f478ed717",
         "scales": [
             2,
             3
@@ -10023,7 +10023,7 @@
     },
     "img_no_results_alt_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_no_results_alt_darker.png",
-        "hash": "345f5bab2295093e59bc3a5bd80bb7e5",
+        "hash": "85840ade8b69557ffa30f1445cbffe12",
         "scales": [
             2,
             3
@@ -10053,7 +10053,7 @@
     },
     "img_no_results_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_no_results_darker.png",
-        "hash": "854cab7b4e93f799ab01fe0b3f8b2574",
+        "hash": "abf5b4249ea38c96687799aa130b2321",
         "scales": [
             2,
             3
@@ -10092,7 +10092,7 @@
     },
     "img_nsfw_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_nsfw_darker.png",
-        "hash": "38b2fc401cf2e05ded9021eb4534b695",
+        "hash": "030fdaa60bf651c6c41e4a5273da352e",
         "scales": [
             2,
             3
@@ -10141,7 +10141,7 @@
     },
     "img_pins_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_pins_empty_darker.png",
-        "hash": "59a9cc46f0bdf7749fc96850db7f7370",
+        "hash": "2b30198fe845921d5b5c1d22d39e750e",
         "scales": [
             2,
             3
@@ -10243,7 +10243,7 @@
     },
     "img_premium_embed_background_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_premium_embed_background_darker.png",
-        "hash": "448083b3686ccdde3eb761d2a1f4c9d9",
+        "hash": "4b788fe2fa791eaba90efe49b6973c8f",
         "scales": [
             2,
             3
@@ -10403,7 +10403,7 @@
     },
     "img_search_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_search_empty_darker.png",
-        "hash": "e8f2388017e34b75ff72641bc88da91a",
+        "hash": "f9c127df442a3e2592e404fc380b1a52",
         "scales": [
             2,
             3
@@ -10444,7 +10444,7 @@
     },
     "img_spotify_error_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_spotify_error_darker.png",
-        "hash": "40229c5980d867158d3f2f5afbc47e53",
+        "hash": "7f1f540bdc3ed6c16cbc60dddbe9b12b",
         "scales": [
             2,
             3
@@ -10475,7 +10475,7 @@
     },
     "img_stream_ended_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_stream_ended_darker.png",
-        "hash": "e2fe72c1736ced5785ddf63f30fe7886",
+        "hash": "a5f6ed280bfa7452913e665fb649bb9c",
         "scales": [
             2,
             3
@@ -10495,7 +10495,7 @@
     },
     "img_stream_failed_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_stream_failed_darker.png",
-        "hash": "cffdae470bfe71dbb38e93a3a63fc766",
+        "hash": "b1d330bd5ccfa2833454c026755830a6",
         "scales": [
             2,
             3
@@ -10595,7 +10595,7 @@
     },
     "img_text_in_voice_empty_state_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_text_in_voice_empty_state_darker.png",
-        "hash": "d1725cb75064a7d79cb31369169bc3cf",
+        "hash": "2d6a33bf9850fa6d9b96ea97041fb2b9",
         "scales": [
             2,
             3
@@ -10755,7 +10755,7 @@
     },
     "img_top_pattern_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_top_pattern_darker.png",
-        "hash": "f31ceafd1af57477f926cda7543a10fb",
+        "hash": "7326675c9312971f0f528c74fa69a335",
         "scales": [
             2,
             3
@@ -10814,7 +10814,7 @@
     },
     "img_verify_phone_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_verify_phone_darker.png",
-        "hash": "c84d2663d88d3355b6af9ecad13fe992",
+        "hash": "ce32488238d2e7b00e66ed407523473c",
         "scales": [
             2,
             3
@@ -10883,7 +10883,7 @@
     },
     "img_what_you_lose_profile_tier1_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_what_you_lose_profile_tier1_darker.png",
-        "hash": "47b571e15e632e585aa545e2510ddebd",
+        "hash": "b78926d791a6ae551c895470cfd808a1",
         "scales": [
             2,
             3
@@ -10923,7 +10923,7 @@
     },
     "img_wump_trash_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/img_wump_trash_darker.png",
-        "hash": "1050e174c3ebe90b98db21a4cbdd491a",
+        "hash": "2a93fa6b4a038d5a151d558000723423",
         "scales": [
             2,
             3
@@ -11057,7 +11057,7 @@
     },
     "intro_header_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/intro_header_darker.png",
-        "hash": "3070e2b781bb70a9c3d888c8a88b601c",
+        "hash": "ed3a2617f9b5f5cc8eac96d446f7dd22",
         "scales": [
             2,
             3
@@ -12050,7 +12050,7 @@
     },
     "no_mutual_friends_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/no_mutual_friends_darker.png",
-        "hash": "4890801be4c72fb40ab20773b12548a4",
+        "hash": "4a0bc494eeca38c1cab5c56f66dbf1f3",
         "scales": [
             2,
             3
@@ -12080,7 +12080,7 @@
     },
     "no_mutual_servers_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/no_mutual_servers_darker.png",
-        "hash": "187526c6a992ed307e33a4b717d60ce2",
+        "hash": "bf9007773f0fafb040422c6eba8b56d6",
         "scales": [
             2,
             3
@@ -12328,7 +12328,7 @@
     },
     "pending_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/pending_darker.png",
-        "hash": "7cca5168145893aae7313e5c502a227b",
+        "hash": "f00fcaea4a34903a201c81fe65a7bcce",
         "scales": [
             2,
             3
@@ -13803,7 +13803,7 @@
     },
     "subscription_placeholder_pattern_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/subscription_placeholder_pattern_darker.png",
-        "hash": "231269895c37195197acdb38fe25dc03",
+        "hash": "e2e6d0edbd6c916cde4ea4f22a6f794c",
         "scales": [
             2,
             3
@@ -14081,7 +14081,7 @@
     },
     "tier_0_48px_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/tier_0_48px_darker.png",
-        "hash": "e60a6c7c5fe19cfe1a8e88ef9c86b6d8",
+        "hash": "375e827d318b23a5d1a3b7afbb840275",
         "scales": [
             2,
             3
@@ -14774,7 +14774,7 @@
     },
     "webhook_empty_darker": {
         "file": "design/components/Illustration/native/redesign/generated/images/webhook_empty_darker.png",
-        "hash": "61dcbb43bb876507de89f271a4828efa",
+        "hash": "580ec4f595fa69a80ec70eff21ac3c71",
         "scales": [
             2,
             3
