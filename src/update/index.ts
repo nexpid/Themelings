@@ -55,7 +55,7 @@ const canReuseFolder =
 
 const tempFolder = "tmp";
 if (!canReuseFolder) await rm(tempFolder, { force: true, recursive: true });
-await mkdir(tempFolder, { recursive: true });
+if (!(await exists(tempFolder))) await mkdir(tempFolder, { recursive: true });
 
 if (!canReuseFolder) {
 	// Download the APKs
