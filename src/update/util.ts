@@ -121,7 +121,7 @@ export async function wrapPromise(
 		progress.update(key, true);
 		return x;
 	} catch (e: any) {
-		progress.update(key, false, e.stack);
+		progress.update(key, false, e?.stack ?? e?.message ?? String(e));
 		throw e;
 	}
 }
