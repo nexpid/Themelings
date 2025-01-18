@@ -4115,16 +4115,6 @@
         "width": 375,
         "height": 120
     },
-    "ic_accessibility_24px": {
-        "file": "images/native/icons/settings/ic_accessibility_24px.png",
-        "hash": "5d764222e06601a525317de01c1e7523",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_activity_24px": {
         "file": "images/native/icons/ic_activity_24px.png",
         "hash": "875c1e3f1c12db23a720914b8f89ca06",
@@ -4340,16 +4330,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_audio": {
-        "file": "images/native/icons/user_profile/ic_audio.png",
-        "hash": "a22a21e706fe5a8fb75b3b31dfb2a0a8",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_audit_create_24px": {
         "file": "images/native/audit_logs/ic_audit_create_24px.png",
         "hash": "6cae386612a05fa05fa9c172e944297a",
@@ -4383,16 +4363,6 @@
     "ic_audit_update_24px": {
         "file": "images/native/audit_logs/ic_audit_update_24px.png",
         "hash": "d8654e85ab963a57d73460b14bc376cd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_authed_apps_24px": {
-        "file": "images/native/icons/settings/ic_authed_apps_24px.png",
-        "hash": "1258f7d2d351684954abf491d9bd326d",
         "scales": [
             2,
             3
@@ -4443,16 +4413,6 @@
     "ic_ban_24px": {
         "file": "images/native/icons/ic_ban_24px.png",
         "hash": "9272076a22ce20af5ed2a9b3c7c3557c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_behavior_24px": {
-        "file": "images/native/icons/settings/ic_behavior_24px.png",
-        "hash": "e95bc342336a7111ae7668eab2cb8243",
         "scales": [
             2,
             3
@@ -4728,16 +4688,6 @@
     "ic_chevron_up_24px": {
         "file": "images/native/icons/ic_chevron_up_24px.png",
         "hash": "1d50df91ce51c58144df2405936b8ee3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_clip_24px": {
-        "file": "images/native/icons/settings/ic_clip_24px.png",
-        "hash": "1a0c43abba92f3248d07401bd0093a80",
         "scales": [
             2,
             3
@@ -5506,26 +5456,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_gift_24px": {
-        "file": "images/native/icons/settings/ic_gift_24px.png",
-        "hash": "22125514b46200511888b6095c77a439",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_globe_24px": {
-        "file": "images/native/icons/settings/ic_globe_24px.png",
-        "hash": "28775a20369f37a0d9649079f63ba886",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_grid_24px": {
         "file": "images/native/icons/ic_grid_24px.png",
         "hash": "5a61674458225d52c00e676ff4f1684a",
@@ -5660,16 +5590,6 @@
     "ic_headset_neutral": {
         "file": "images/native/icons/ic_headset_neutral.png",
         "hash": "455a164c9b4dae0f0a0a75aaf6c4170d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_help_24px": {
-        "file": "images/native/icons/settings/ic_help_24px.png",
-        "hash": "b2478eb6d523f8921bfa793952ee13cd",
         "scales": [
             2,
             3
@@ -5939,16 +5859,6 @@
         "width": 30,
         "height": 30
     },
-    "ic_locale_24px": {
-        "file": "images/native/icons/settings/ic_locale_24px.png",
-        "hash": "89e7978c9e62bc96257bac62f053a450",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_lock": {
         "file": "images/native/icons/ic_lock.png",
         "hash": "e0e70b148b33d67bf7c7b1d0419e39c9",
@@ -5969,16 +5879,6 @@
         ],
         "width": 16,
         "height": 16.5
-    },
-    "ic_logout_24px": {
-        "file": "images/native/icons/settings/ic_logout_24px.png",
-        "hash": "fea615999cd3b8d0d2fd7248b085645a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_mail": {
         "file": "images/native/icons/ic_mail.png",
@@ -6390,16 +6290,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_my_account_24px": {
-        "file": "images/native/icons/settings/ic_my_account_24px.png",
-        "hash": "982e8183b630c73314dea6a3b04f7682",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_network_offline_24px": {
         "file": "modules/connectivity/native/images/ic_network_offline_24px.png",
         "hash": "6fd29bb691b35af3e9cf50d6ec36b1f5",
@@ -6429,16 +6319,6 @@
         ],
         "width": 32,
         "height": 32
-    },
-    "ic_nitro_rep_24px": {
-        "file": "images/native/icons/settings/ic_nitro_rep_24px.png",
-        "hash": "b9e5f7062daf76e2660f6e501e68affa",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_nitro_wheel": {
         "file": "images/native/icons/ic_nitro_wheel.png",
@@ -6505,16 +6385,6 @@
         "hash": "70b5d298077f16f0a53765e9197e3054",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_notification_settings_24px": {
-        "file": "images/native/icons/settings/ic_notification_settings_24px.png",
-        "hash": "52652bb5fe83a02874abc9c62592f88a",
-        "scales": [
             2,
             3
         ],
@@ -6630,16 +6500,6 @@
         ],
         "width": 20,
         "height": 20
-    },
-    "ic_phonelink_24px": {
-        "file": "images/native/icons/settings/ic_phonelink_24px.png",
-        "hash": "93f7d994bfde8c59731489d2bf5474f9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_pins": {
         "file": "images/native/chat_sidebar/ic_pins.png",
@@ -6762,16 +6622,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_privacy_24px": {
-        "file": "images/native/icons/settings/ic_privacy_24px.png",
-        "hash": "a38150be2c186064632eb1f7143b0cc4",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_profile_badge_active_developer": {
         "file": "images/native/badge/ic_profile_badge_active_developer.png",
         "hash": "394e48046e846651a339ee88e4f1b0b4",
@@ -6781,16 +6631,6 @@
         ],
         "width": 30,
         "height": 30
-    },
-    "ic_progress_wrench_24px": {
-        "file": "images/native/icons/settings/ic_progress_wrench_24px.png",
-        "hash": "a8fb903ca51c13afa8c06f1ca4b2f901",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_public": {
         "file": "images/native/icons/ic_public.png",
@@ -7070,16 +6910,6 @@
     "ic_settings": {
         "file": "images/native/chat_sidebar/ic_settings.png",
         "hash": "c0d7195f1a47742034be311c1f70ceed",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_settings_boost_24px": {
-        "file": "images/native/icons/settings/ic_settings_boost_24px.png",
-        "hash": "e961a2c3a62e02cc8075234146746d82",
         "scales": [
             2,
             3
@@ -7395,16 +7225,6 @@
         "width": 17,
         "height": 16
     },
-    "ic_status_24px": {
-        "file": "images/native/icons/settings/ic_status_24px.png",
-        "hash": "c4837cf728cee4656b9bc671f1f1a4ab",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_sticker_24px": {
         "file": "images/native/icons/ic_sticker_24px.png",
         "hash": "efc7df36de437c3f1595567d5ebedccf",
@@ -7430,16 +7250,6 @@
         "hash": "bed3256ccaf0e78cd27d637be4c78d04",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_subscriptions_ticket": {
-        "file": "modules/guild_role_subscriptions/native/images/ic_subscriptions_ticket.png",
-        "hash": "a6efc72534014bf0d05c1be38d05f30e",
-        "scales": [
             2,
             3
         ],
@@ -7539,29 +7349,9 @@
         "width": 16,
         "height": 16
     },
-    "ic_text_image_24px": {
-        "file": "images/native/icons/settings/ic_text_image_24px.png",
-        "hash": "522393c6be59ae643238403e7795ff3f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_text_in_voice_24px": {
         "file": "images/native/icons/ic_text_in_voice_24px.png",
         "hash": "456f425cbb5592c677bebe2b3b5f83ae",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_theme_24px": {
-        "file": "images/native/icons/settings/ic_theme_24px.png",
-        "hash": "5e292bd421b57b55920c831f71963031",
         "scales": [
             2,
             3
@@ -7809,16 +7599,6 @@
     "ic_voice_channel_locked_24px": {
         "file": "images/native/icons/ic_voice_channel_locked_24px.png",
         "hash": "37b0d51532b10fba604bb5131d77003b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_voice_settings_24px": {
-        "file": "images/native/icons/settings/ic_voice_settings_24px.png",
-        "hash": "a0dc88b31de84405b8a51824bd965d6d",
         "scales": [
             2,
             3
@@ -11243,6 +11023,16 @@
         ],
         "width": 300,
         "height": 175
+    },
+    "LettersIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/LettersIcon.png",
+        "hash": "0bd753c3d3bd127a211013f385021411",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "light_home_header_placeholder": {
         "file": "modules/guild_home/native/images/light_home_header_placeholder.png",
