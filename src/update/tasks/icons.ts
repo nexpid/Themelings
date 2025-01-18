@@ -115,8 +115,11 @@ export default async function icons(
 		toMove.flatMap(([og, actual]) => [
 			mkdir(join("../data/icons", actual.split("/").slice(0, -1).join("/")), {
 				recursive: true,
-			}).then(() => copyFile(og, join("../data/icons", actual))),
+			})
+				.catch((e) => (e?.code === "EEXIST" ? void e : (e?.message ?? e)))
+				.then(() => copyFile(og, join("../data/icons", actual))),
 		]),
 	);
+
 	progress.update("icons_copying", true);
 }
