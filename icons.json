@@ -462,39 +462,39 @@
     },
     "asset_bronze_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_bronze_badge_small.png",
-        "hash": "dde7386c50b296c0100deb163d7be8d9",
+        "hash": "1df6ee7cceb670ae2dfd3feed8d2acfc",
         "scales": [
             3
         ],
-        "width": 41.333333333333336,
-        "height": 41
+        "width": 57,
+        "height": 56.666666666666664
     },
     "asset_diamond_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_diamond_badge_small.png",
-        "hash": "7cfd94c1171ec3d7e50b8f79073c678b",
+        "hash": "ebeff25c9c1d6559128af4dec63d3c8d",
         "scales": [
             3
         ],
-        "width": 51.666666666666664,
-        "height": 45
+        "width": 66.66666666666667,
+        "height": 59
     },
     "asset_emerald_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_emerald_badge_small.png",
-        "hash": "9b11844377b693fdb4c66a7e467cde36",
+        "hash": "f5c4d9fde9a55ad09e91263f9bebf46a",
         "scales": [
             3
         ],
-        "width": 56.333333333333336,
-        "height": 46
+        "width": 78,
+        "height": 63.666666666666664
     },
     "asset_gold_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_gold_badge_small.png",
-        "hash": "20888b821220e154d6a675c4936f30a4",
+        "hash": "98f28dd3128f04f38057757d2f825a42",
         "scales": [
             3
         ],
-        "width": 43.333333333333336,
-        "height": 43
+        "width": 59.666666666666664,
+        "height": 59.666666666666664
     },
     "asset_gradient": {
         "file": "images/native/guild_settings/overview/asset_gradient.png",
@@ -518,21 +518,21 @@
     },
     "asset_opal_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_opal_badge_small.png",
-        "hash": "3dc523c9192d74de1553551cf26036dc",
+        "hash": "0fef0a9d83d27dc691bf77b0bdae0680",
         "scales": [
             3
         ],
-        "width": 72.33333333333333,
-        "height": 48
+        "width": 99.66666666666667,
+        "height": 66.66666666666667
     },
     "asset_platinum_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_platinum_badge_small.png",
-        "hash": "2ad89b02ae7a5e8d01fef7dd4fac5029",
+        "hash": "a162bb51b9ed292f4f10e545ed35e2e3",
         "scales": [
             3
         ],
-        "width": 44.666666666666664,
-        "height": 44
+        "width": 61,
+        "height": 61
     },
     "asset_role_subscription_earnings": {
         "file": "modules/guild_role_subscriptions/native/guild_settings/welcome/images/asset_role_subscription_earnings.png",
@@ -566,21 +566,21 @@
     },
     "asset_ruby_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_ruby_badge_small.png",
-        "hash": "05e981977519c08025bf643842fce37e",
+        "hash": "c4946770ab3c50ce3672b0e2087496ae",
         "scales": [
             3
         ],
-        "width": 68,
-        "height": 47
+        "width": 93.33333333333333,
+        "height": 65
     },
     "asset_silver_badge_small": {
         "file": "modules/premium/tiered_tenure_badging/native/images/asset_silver_badge_small.png",
-        "hash": "4d1d94fcb02c20004b5be7b34536eac3",
+        "hash": "99ffc81e67285d18182e87dbce7ba5f1",
         "scales": [
             3
         ],
-        "width": 42.333333333333336,
-        "height": 42
+        "width": 58.333333333333336,
+        "height": 58.333333333333336
     },
     "AtIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/AtIcon.png",
