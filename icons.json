@@ -4846,17 +4846,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_content_warning_32px": {
-        "file": "images/native/icons/ic_content_warning_32px.png",
-        "hash": "734284ee8ee685c008e508365f6e733e",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 33,
-        "height": 32
-    },
     "ic_controller_24px": {
         "file": "images/native/icons/ic_controller_24px.png",
         "hash": "2847796c0590926d37bd1a974db48307",
@@ -4941,16 +4930,6 @@
     "ic_discoverable_guild_badge_premium_24px": {
         "file": "images/native/icons/ic_discoverable_guild_badge_premium_24px.png",
         "hash": "4f276c9d37ed9e072482570ea4ab1799",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_dm_user": {
-        "file": "images/native/ic_dm_user.png",
-        "hash": "ac056602e7d11c35209149afbed1f3e6",
         "scales": [
             2,
             3
@@ -5372,15 +5351,6 @@
         "hash": "0471629372ee3ad22e707090e9424bd6",
         "scales": [
             2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_forward_24px": {
-        "file": "images/native/icons/ic_forward_24px.png",
-        "hash": "d4e10407e6b904ff85a8230240c9ecd2",
-        "scales": [
             3
         ],
         "width": 24,
@@ -5890,16 +5860,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_mark_unread": {
-        "file": "images/native/ic_mark_unread.png",
-        "hash": "0220bff30ed6e87073b9043c989feb5b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 36,
-        "height": 36
-    },
     "ic_media_channel": {
         "file": "modules/media_channel/native/images/ic_media_channel.png",
         "hash": "88711bcb7e64f12e5b4885102e049807",
@@ -5929,17 +5889,6 @@
         ],
         "width": 49,
         "height": 50
-    },
-    "ic_megaphone_16px": {
-        "file": "images/native/icons/ic_megaphone_16px.png",
-        "hash": "17b02cea41a4b665f8b563e921c84700",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
     },
     "ic_megaphone_lock_16px": {
         "file": "images/native/icons/ic_megaphone_lock_16px.png",
@@ -5977,16 +5926,6 @@
         "hash": "0cbd606a7d77f46a42c156cab0771b02",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_mention_user": {
-        "file": "images/native/ic_mention_user.png",
-        "hash": "5fc10077a00ad0d6d9c298270956a9d4",
-        "scales": [
             2,
             3
         ],
@@ -6756,16 +6695,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_reply_24px": {
-        "file": "images/native/icons/ic_reply_24px.png",
-        "hash": "446a3ec4e4fe55f75a134c88a623f51c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_report_message": {
         "file": "images/native/ic_report_message.png",
         "hash": "fe638ed5adb730b6284af1a6c528af46",
@@ -6785,16 +6714,6 @@
         ],
         "width": 12,
         "height": 12
-    },
-    "ic_robot_24px": {
-        "file": "images/native/icons/ic_robot_24px.png",
-        "hash": "84cb57b4bbbd150266ae4ed7d43156d3",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_roles_24px": {
         "file": "images/native/audit_logs/ic_roles_24px.png",
