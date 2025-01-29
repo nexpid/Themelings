@@ -5039,6 +5039,15 @@
         "width": 24,
         "height": 24
     },
+    "ic_experimental_confetti_24px": {
+        "file": "images/native/icons/ic_experimental_confetti_24px.png",
+        "hash": "9f1271331251d9a72c4540385055628c",
+        "scales": [
+            1
+        ],
+        "width": 48,
+        "height": 48
+    },
     "ic_expression_plus": {
         "file": "modules/forums/native/images/ic_expression_plus.png",
         "hash": "cb7cde1cca1943c590d96075078f6356",
