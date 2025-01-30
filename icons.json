@@ -970,16 +970,6 @@
         "width": 60,
         "height": 60
     },
-    "brb": {
-        "file": "modules/hang_status/images/native/brb.png",
-        "hash": "65ce4cd7efdc981ffd646aef46137c41",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "breaddog_1": {
         "file": "images/native/avatars/breaddog_1.png",
         "hash": "539778d237b9fff9f8baff59e260a9fa",
@@ -1604,16 +1594,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "chillin": {
-        "file": "modules/hang_status/images/native/chillin.png",
-        "hash": "c355ef6dfe7860a2b82435d06d9dbe07",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "circle_check": {
         "file": "modules/self_mod/inappropriate_conversation/images/circle_check.png",
@@ -3451,16 +3431,6 @@
         "width": 24,
         "height": 24
     },
-    "gaming": {
-        "file": "modules/hang_status/images/native/gaming.png",
-        "hash": "eb23062e780fc5d408a39e11ec6562ed",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "GamingIcon": {
         "file": "images/native/custom_app_icons/GamingIcon/GamingIcon.png",
         "hash": "27dc2bbcf6aa3b0cbef53a5212edf486",
@@ -3665,16 +3635,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "grubbin": {
-        "file": "modules/hang_status/images/native/grubbin.png",
-        "hash": "a805cc98738f5a950c990d1ca5d89d53",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "gtm-announcement-wumpus": {
         "file": "modules/main_tabs_v2/native/images/gtm-announcement-wumpus.png",
@@ -6668,16 +6628,6 @@
         "hash": "bb061f50f0c26bcf1817896eee7a9443",
         "scales": [
             1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_reaction_smile": {
-        "file": "images/native/ic_reaction_smile.png",
-        "hash": "f7ffec41c9bbe61d134e1fd8fcff0768",
-        "scales": [
             2,
             3
         ],
@@ -10723,16 +10673,6 @@
         "width": 100,
         "height": 100
     },
-    "in-the-zone": {
-        "file": "modules/hang_status/images/native/in-the-zone.png",
-        "hash": "77e1f8e38cc58776523a4ce4aa77951a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 29,
-        "height": 28
-    },
     "InRainbowsIcon": {
         "file": "images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
         "hash": "83afa6ade4bb460402841be8438f6e52",
@@ -14440,16 +14380,6 @@
         "width": 24,
         "height": 24
     },
-    "wandering": {
-        "file": "modules/hang_status/images/native/wandering.png",
-        "hash": "5876083d9fe870373a696c4880c04304",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "WarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/WarningIcon.png",
         "hash": "ba2e75015b1baf3aa35bb6efd5d517fa",
@@ -14469,16 +14399,6 @@
         ],
         "width": 18,
         "height": 18
-    },
-    "watching": {
-        "file": "modules/hang_status/images/native/watching.png",
-        "hash": "e542848f31a546220f994e0ce46e7836",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "webhook_empty_dark": {
         "file": "images/native/empties/webhook_empty_dark.png",
