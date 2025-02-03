@@ -239,6 +239,54 @@
     "midnight": "#6c6f7c1f",
     "darker": "#6c6f7c29"
   },
+  "BG_MODAL_GRADIENT_GREEN_END": {
+    "dark": "#00663873",
+    "light": "#8af7b5",
+    "midnight": "#00663840",
+    "darker": "#0066384d"
+  },
+  "BG_MODAL_GRADIENT_GREEN_START": {
+    "dark": "#20bb6373",
+    "light": "#e5fff0",
+    "midnight": "#20bb6340",
+    "darker": "#20bb634d"
+  },
+  "BG_MODAL_GRADIENT_LAVENDER_END": {
+    "dark": "#3e168973",
+    "light": "#ca9ef9",
+    "midnight": "#3e168940",
+    "darker": "#3e16894d"
+  },
+  "BG_MODAL_GRADIENT_LAVENDER_START": {
+    "dark": "#a056f273",
+    "light": "#dec2fc",
+    "midnight": "#a056f240",
+    "darker": "#a056f24d"
+  },
+  "BG_MODAL_GRADIENT_MAGENTA_END": {
+    "dark": "#66006673",
+    "light": "#fd99e9",
+    "midnight": "#66006640",
+    "darker": "#6600664d"
+  },
+  "BG_MODAL_GRADIENT_MAGENTA_START": {
+    "dark": "#b3269c73",
+    "light": "#fbe6ff",
+    "midnight": "#b3269c40",
+    "darker": "#b3269c4d"
+  },
+  "BG_MODAL_GRADIENT_NAVY_END": {
+    "dark": "#161a8a73",
+    "light": "#a0a9fa",
+    "midnight": "#161a8a40",
+    "darker": "#161a8a4d"
+  },
+  "BG_MODAL_GRADIENT_NAVY_START": {
+    "dark": "#5865f273",
+    "light": "#c3c8fc",
+    "midnight": "#5865f240",
+    "darker": "#5865f24d"
+  },
   "BG_SURFACE_OVERLAY": {
     "dark": "#111214",
     "light": "#ffffff",
@@ -256,6 +304,18 @@
     "light": "#ffffff",
     "midnight": "#131318",
     "darker": "#26272f"
+  },
+  "BG_TILE_GRADIENT_MAGENTA_END": {
+    "dark": "#6600664d",
+    "light": "#fd99e94d",
+    "midnight": "#6600664d",
+    "darker": "#6600664d"
+  },
+  "BG_TILE_GRADIENT_MAGENTA_START": {
+    "dark": "#b3269c4d",
+    "light": "#fbe6ff4d",
+    "midnight": "#b3269c4d",
+    "darker": "#b3269c4d"
   },
   "BLACK": {
     "dark": "#000000",

@@ -1199,6 +1199,246 @@
       }
     ]
   },
+  "BG_MODAL_GRADIENT_GREEN_END": {
+    "dark": [
+      "#00663873",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_2",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#8af7b5",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_LIGHT_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#00663840",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_2",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#0066384d",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_2",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_GREEN_START": {
+    "dark": [
+      "#20bb6373",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_1",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#e5fff0",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_LIGHT_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#20bb6340",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_1",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#20bb634d",
+      {
+        "raw": "BG_MODAL_GRADIENT_GREEN_DARK_1",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_LAVENDER_END": {
+    "dark": [
+      "#3e168973",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_2",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#ca9ef9",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_LIGHT_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3e168940",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_2",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#3e16894d",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_2",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_LAVENDER_START": {
+    "dark": [
+      "#a056f273",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_1",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#dec2fc",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_LIGHT_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#a056f240",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_1",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#a056f24d",
+      {
+        "raw": "BG_MODAL_GRADIENT_LAVENDER_DARK_1",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_MAGENTA_END": {
+    "dark": [
+      "#66006673",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#fd99e9",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_LIGHT_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#66006640",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#6600664d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_MAGENTA_START": {
+    "dark": [
+      "#b3269c73",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#fbe6ff",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_LIGHT_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#b3269c40",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#b3269c4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_NAVY_END": {
+    "dark": [
+      "#161a8a73",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_2",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#a0a9fa",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_LIGHT_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#161a8a40",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_2",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#161a8a4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_2",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_MODAL_GRADIENT_NAVY_START": {
+    "dark": [
+      "#5865f273",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_1",
+        "opacity": 0.45
+      }
+    ],
+    "light": [
+      "#c3c8fc",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_LIGHT_1",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5865f240",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_1",
+        "opacity": 0.25
+      }
+    ],
+    "darker": [
+      "#5865f24d",
+      {
+        "raw": "BG_MODAL_GRADIENT_NAVY_DARK_1",
+        "opacity": 0.3
+      }
+    ]
+  },
   "BG_SURFACE_OVERLAY": {
     "dark": [
       "#111214",
@@ -1286,6 +1526,66 @@
       {
         "raw": "PLUM_18",
         "opacity": 1
+      }
+    ]
+  },
+  "BG_TILE_GRADIENT_MAGENTA_END": {
+    "dark": [
+      "#6600664d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#fd99e94d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_LIGHT_2",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#6600664d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#6600664d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_2",
+        "opacity": 0.3
+      }
+    ]
+  },
+  "BG_TILE_GRADIENT_MAGENTA_START": {
+    "dark": [
+      "#b3269c4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.3
+      }
+    ],
+    "light": [
+      "#fbe6ff4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_LIGHT_1",
+        "opacity": 0.3
+      }
+    ],
+    "midnight": [
+      "#b3269c4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.3
+      }
+    ],
+    "darker": [
+      "#b3269c4d",
+      {
+        "raw": "BG_MODAL_GRADIENT_MAGENTA_DARK_1",
+        "opacity": 0.3
       }
     ]
   },
