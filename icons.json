@@ -5546,16 +5546,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_hide_password": {
-        "file": "images/native/icons/ic_hide_password.png",
-        "hash": "318a90c99d060b86356ebe8dd69a4864",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_highlight": {
         "file": "modules/notification_center/native/images/ic_highlight.png",
         "hash": "6840fde776aba6730d4f566b68c449e7",
