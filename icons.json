@@ -8726,36 +8726,6 @@
         "width": 20.5,
         "height": 20
     },
-    "img_connection_empty_dark": {
-        "file": "images/native/empties/img_connection_empty_dark.png",
-        "hash": "de0d7bbb7c288a50337890de96f21d6f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 300,
-        "height": 194
-    },
-    "img_connection_empty_darker": {
-        "file": "design/components/Illustration/native/redesign/generated/images/img_connection_empty_darker.png",
-        "hash": "bcfd77d8b012fc8617dae77ca780e9ac",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 294,
-        "height": 192
-    },
-    "img_connection_empty_light": {
-        "file": "images/native/empties/img_connection_empty_light.png",
-        "hash": "d589d74e5313c3dc3ba340cfaa182e56",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 300,
-        "height": 194
-    },
     "img_create_guild": {
         "file": "images/native/guild_sidebar/img_create_guild.png",
         "hash": "0c5fc89e7aade04cc67760e861a24e0c",
