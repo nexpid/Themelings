@@ -2526,6 +2526,16 @@
         "width": 24,
         "height": 24
     },
+    "DoubleCheckmarkIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/DoubleCheckmarkIcon.png",
+        "hash": "071892191446bc61a526af305b2bc356",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "down_arrow": {
         "file": "modules/directory_channels/native/images/down_arrow.png",
         "hash": "a0f3644f68fd05225c82decd1816d2c4",
@@ -10956,6 +10966,16 @@
     "ListBulletsIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ListBulletsIcon.png",
         "hash": "3bbd7c25f5e235701ec3ccec20676f13",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ListViewIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ListViewIcon.png",
+        "hash": "687dbae2ee79854ea38d16ea70b34252",
         "scales": [
             2,
             3
