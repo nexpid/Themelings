@@ -1,0 +1,176 @@
+// app/modules/guild_member_verification/native/components/form_fields/UserVerification.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot3 = golf;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.Fragment;
+    var _closure1_slot4 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot5 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    offset = 8;
+    verify['marginTop'] = offset;
+    tango['emailPhoneNote'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot6 = tango;
+    tango = 7;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_member_verification/native/components/form_fields/UserVerification.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: UserVerification
+        _fun88566: for(var _fun88566_ip = 0; ; ) switch(_fun88566_ip) {
+ 0:
+            entity = argFoo;
+            output = entity.verification;
+            mike = entity.field;
+            entity = _closure1_slot6;
+            report = undefined;
+            kilo = entity.bind(report)();
+            zulu = mike.platform;
+            entity = null;
+            if(!(entity != zulu)) { _fun88566_ip = 500; continue _fun88566 }
+ 43:
+            romeo = mike.platform;
+            tango = _closure1_slot5;
+            zulu = _closure1_slot4;
+            mike = {};
+            golf = _closure1_slot0;
+            oscar = _closure1_slot2;
+            backup = 3;
+            oscar = oscar[backup];
+            oscar = golf.bind(report)(oscar);
+            oscar = oscar.UserVerificationFieldPlatforms;
+            oscar = oscar.PHONE;
+            golf = romeo === oscar;
+            if(!golf) { _fun88566_ip = 190; continue _fun88566 }
+ 98:
+            verify = _closure1_slot3;
+            options = _closure1_slot1;
+            offset = _closure1_slot2;
+            oscar = 4;
+            oscar = offset[oscar];
+            options = options.bind(report)(oscar);
+            oscar = {};
+            foxtrot = _closure1_slot0;
+            sizing = offset[backup];
+            sizing = foxtrot.bind(report)(sizing);
+            sizing = sizing.UserVerificationFieldPlatforms;
+            sizing = sizing.PHONE;
+            sizing = output[sizing];
+            oscar['passesVerification'] = sizing;
+            offset = offset[backup];
+            offset = foxtrot.bind(report)(offset);
+            offset = offset.UserVerificationFieldPlatforms;
+            offset = offset.PHONE;
+            oscar['platform'] = offset;
+            golf = verify.bind(report)(options, oscar);
+ 190:
+            oscar = new Array(3);
+            oscar[0] = golf;
+            verify = _closure1_slot3;
+            options = _closure1_slot1;
+            offset = _closure1_slot2;
+            golf = 4;
+            golf = offset[golf];
+            options = options.bind(report)(golf);
+            golf = {};
+            foxtrot = _closure1_slot0;
+            sizing = offset[backup];
+            sizing = foxtrot.bind(report)(sizing);
+            sizing = sizing.UserVerificationFieldPlatforms;
+            sizing = sizing.EMAIL;
+            sizing = output[sizing];
+            golf['passesVerification'] = sizing;
+            sizing = offset[backup];
+            sizing = foxtrot.bind(report)(sizing);
+            sizing = sizing.UserVerificationFieldPlatforms;
+            sizing = sizing.EMAIL;
+            golf['platform'] = sizing;
+            golf = verify.bind(report)(options, golf);
+            oscar[1] = golf;
+            golf = 5;
+            golf = offset[golf];
+            golf = foxtrot.bind(report)(golf);
+            options = golf.Text;
+            golf = {'style': null, 'variant': 'heading-deprecated-12/medium', 'color': 'header-secondary'};
+            kilo = kilo.emailPhoneNote;
+            golf['style'] = kilo;
+            offset = offset[backup];
+            offset = foxtrot.bind(report)(offset);
+            offset = offset.UserVerificationFieldPlatforms;
+            offset = offset.PHONE;
+            if(!(romeo !== offset)) { _fun88566_ip = 419; continue _fun88566 }
+ 362:
+            backup = _closure1_slot0;
+            kilo = _closure1_slot2;
+            offset = 6;
+            romeo = kilo[offset];
+            romeo = backup.bind(report)(romeo);
+            foxtrot = romeo.intl;
+            romeo = foxtrot.string;
+            offset = kilo[offset];
+            offset = backup.bind(report)(offset);
+            offset = offset.t;
+            offset = offset.Vgv9io;
+            offset = romeo.bind(foxtrot)(offset);
+            _fun88566_ip = 474; continue _fun88566;
+ 419:
+            backup = _closure1_slot0;
+            kilo = _closure1_slot2;
+            yankee = 6;
+            romeo = kilo[yankee];
+            romeo = backup.bind(report)(romeo);
+            foxtrot = romeo.intl;
+            romeo = foxtrot.string;
+            yankee = kilo[yankee];
+            yankee = backup.bind(report)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.jMh+TU;
+            offset = romeo.bind(foxtrot)(yankee);
+ 474:
+            golf['children'] = offset;
+            golf = verify.bind(report)(options, golf);
+            oscar[2] = golf;
+            mike['children'] = oscar;
+            mike = tango.bind(report)(zulu, mike);
+            return mike;
+ 500:
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

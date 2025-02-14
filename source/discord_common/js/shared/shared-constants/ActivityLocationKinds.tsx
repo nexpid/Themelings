@@ -1,0 +1,34 @@
+// discord_common/js/shared/shared-constants/ActivityLocationKinds.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'gc';
+    mike['GUILD_CHANNEL'] = entity;
+    entity = 'gcm';
+    mike['GUILD_CHANNEL_MESSAGE'] = entity;
+    entity = 'pc';
+    mike['PRIVATE_CHANNEL'] = entity;
+    entity = 'pcm';
+    mike['PRIVATE_CHANNEL_MESSAGE'] = entity;
+    entity = 'cl';
+    mike['CONTEXTLESS'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/ActivityLocationKinds.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['ActivityLocationKinds'] = mike;
+    return entity;
+})();

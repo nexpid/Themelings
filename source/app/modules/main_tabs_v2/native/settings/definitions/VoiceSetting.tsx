@@ -1,0 +1,156 @@
+// app/modules/main_tabs_v2/native/settings/definitions/VoiceSetting.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, mike);
+    entity = 0;
+    golf = oscar[entity];
+    mike = argBaz;
+    entity = undefined;
+    mike = mike.bind(entity)(golf);
+    var _closure1_slot2 = mike;
+    mike = 1;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    golf = mike.RendererType;
+    mike = 2;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    options = mike.InputModes;
+    var _closure1_slot3 = options;
+    options = mike.UserSettingsSections;
+    mike = {};
+    golf = golf.ROUTE;
+    mike['type'] = golf;
+    golf = function() { // Original name: title
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 4;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.K3lovL;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    mike['title'] = golf;
+    golf = null;
+    mike['parent'] = golf;
+    golf = 5;
+    golf = oscar[golf];
+    golf = report.bind(entity)(golf);
+    golf = golf.MicrophoneIcon;
+    mike['IconComponent'] = golf;
+    golf = function() { // Original name: useVoiceSettingTrailing
+        _fun96988: for(var _fun96988_ip = 0; ; ) switch(_fun96988_ip) {
+ 0:
+            zulu = _closure1_slot0;
+            tango = _closure1_slot1;
+            entity = 3;
+            entity = tango[entity];
+            oscar = undefined;
+            report = zulu.bind(oscar)(entity);
+            tango = report.useStateFromStores;
+            entity = _closure1_slot2;
+            zulu = new Array(1);
+            zulu[0] = entity;
+            entity = function() {
+                mike = _closure1_slot2;
+                entity = mike.getMode;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            zulu = tango.bind(report)(zulu, entity);
+            entity = _closure1_slot3;
+            entity = entity.PUSH_TO_TALK;
+            if(!(zulu !== entity)) { _fun96988_ip = 128; continue _fun96988 }
+ 71:
+            report = _closure1_slot0;
+            golf = _closure1_slot1;
+            entity = 4;
+            zulu = golf[entity];
+            zulu = report.bind(oscar)(zulu);
+            tango = zulu.intl;
+            zulu = tango.string;
+            entity = golf[entity];
+            entity = report.bind(oscar)(entity);
+            entity = entity.t;
+            entity = entity.cHCEOD;
+            entity = zulu.bind(tango)(entity);
+            _fun96988_ip = 183; continue _fun96988;
+ 128:
+            report = _closure1_slot0;
+            golf = _closure1_slot1;
+            mike = 4;
+            zulu = golf[mike];
+            zulu = report.bind(oscar)(zulu);
+            tango = zulu.intl;
+            zulu = tango.string;
+            mike = golf[mike];
+            mike = report.bind(oscar)(mike);
+            mike = mike.t;
+            mike = mike.Q8gkVF;
+            entity = zulu.bind(tango)(mike);
+ 183:
+            return entity;
+        }
+    };
+    mike['useTrailing'] = golf;
+    golf = {};
+    options = options.VOICE;
+    golf['route'] = options;
+    options = function() { // Original name: getComponent
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 6;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        entity = entity.default;
+        return entity;
+    };
+    golf['getComponent'] = options;
+    mike['screen'] = golf;
+    tango = function() { // Original name: additionalSearchTerms
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 4;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.nuFtHB;
+        mike = mike.bind(zulu)(entity);
+        entity = new Array(1);
+        entity[0] = mike;
+        return entity;
+    };
+    mike['additionalSearchTerms'] = tango;
+    tango = 7;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/settings/definitions/VoiceSetting.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

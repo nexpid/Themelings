@@ -1,0 +1,106 @@
+// app/modules/share/native/ShareScreenFooter.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot3 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/share/native/ShareScreenFooter.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: ShareScreenFooter
+        _fun107671: for(var _fun107671_ip = 0; ; ) switch(_fun107671_ip) {
+ 0:
+            entity = argFoo;
+            kilo = entity.text;
+            backup = entity.setText;
+            golf = entity.preview;
+            update = entity.sendLabel;
+            echo = entity.canSend;
+            result = entity.isSending;
+            verify = entity.onSend;
+            options = _closure1_slot0;
+            source = _closure1_slot2;
+            output = 2;
+            entity = source[output];
+            tango = undefined;
+            mike = options.bind(tango)(entity);
+            entity = mike.useShareChatInputActions;
+            entity = entity.bind(mike)(backup);
+            sizing = entity.textInputRef;
+            report = entity.isInputFocused;
+            foxtrot = entity.handleSelectionChange;
+            romeo = entity.handleMessageFocus;
+            yankee = entity.handleMessageBlur;
+            offset = entity.handlePressEmoji;
+            zulu = _closure1_slot3;
+            mike = _closure1_slot1;
+            entity = 3;
+            entity = source[entity];
+            mike = mike.bind(tango)(entity);
+            entity = {};
+            entity['preview'] = golf;
+            golf = 4;
+            golf = source[golf];
+            golf = options.bind(tango)(golf);
+            options = golf.Button;
+            golf = {'variant': 'primary', 'size': 'md'};
+            golf['text'] = update;
+            echo = !echo;
+            golf['disabled'] = echo;
+            echo = undefined;
+            if(result) { _fun107671_ip = 190; continue _fun107671 }
+ 187:
+            echo = verify;
+ 190:
+            golf['onPress'] = echo;
+            golf['loading'] = result;
+            golf = zulu.bind(tango)(options, golf);
+            entity['sendButton'] = golf;
+            options = _closure1_slot3;
+            golf = _closure1_slot1;
+            oscar = _closure1_slot2;
+            oscar = oscar[output];
+            golf = golf.bind(tango)(oscar);
+            oscar = {};
+            oscar['inputRef'] = sizing;
+            oscar['text'] = kilo;
+            oscar['onChange'] = backup;
+            oscar['onSelectionChange'] = foxtrot;
+            oscar['onFocus'] = romeo;
+            oscar['onBlur'] = yankee;
+            oscar['onPressEmoji'] = offset;
+            oscar['onSend'] = verify;
+            oscar = options.bind(tango)(golf, oscar);
+            entity['chatInput'] = oscar;
+            entity['avoidKeyboard'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

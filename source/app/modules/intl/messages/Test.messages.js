@@ -1,0 +1,147 @@
+// app/modules/intl/messages/Test.messages.js
+module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    var _closure1_slot0 = oscar;
+    var _closure1_slot1 = golf;
+    mike = global;
+    verify = mike.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    yankee = {};
+    entity = function() { // Original name: fr
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 0;
+        entity = oscar[entity];
+        tango = undefined;
+        zulu = report.bind(tango)(entity);
+        mike = zulu.loadJsonAsset;
+        entity = 1;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        zulu = mike.bind(zulu)(entity);
+        mike = zulu.then;
+        entity = function(argFoo) {
+            entity = {};
+            mike = argFoo;
+            entity['default'] = mike;
+            return entity;
+        };
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    yankee['fr'] = entity;
+    entity = function() { // Original name: en-US
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 0;
+        entity = oscar[entity];
+        tango = undefined;
+        zulu = report.bind(tango)(entity);
+        mike = zulu.loadJsonAsset;
+        entity = 2;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        zulu = mike.bind(zulu)(entity);
+        mike = zulu.then;
+        entity = function(argFoo) {
+            entity = {};
+            mike = argFoo;
+            entity['default'] = mike;
+            return entity;
+        };
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    yankee['en-US'] = entity;
+    tango = {};
+    entity = function(argFoo) { // Original name: uczI4u
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'uczI4u';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['uczI4u'] = entity;
+    entity = function(argFoo) { // Original name: JJ0wpK
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'JJ0wpK';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['JJ0wpK'] = entity;
+    entity = function(argFoo) { // Original name: Q+eyqq
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'Q+eyqq';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['Q+eyqq'] = entity;
+    entity = function(argFoo) { // Original name: HMvECw
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'HMvECw';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['HMvECw'] = entity;
+    entity = function(argFoo) { // Original name: rdfRys
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'rdfRys';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['rdfRys'] = entity;
+    entity = function(argFoo) { // Original name: rmps8/
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'rmps8/';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['rmps8/'] = entity;
+    entity = function(argFoo) { // Original name: XOdbAw
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'XOdbAw';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['XOdbAw'] = entity;
+    entity = 3;
+    options = golf[entity];
+    entity = undefined;
+    offset = oscar.bind(entity)(options);
+    verify = offset.createLoader;
+    options = mike.Object;
+    mike = options.keys;
+    options = mike.bind(options)(tango);
+    mike = 'en-US';
+    mike = verify.bind(offset)(options, yankee, mike);
+    var _closure1_slot2 = mike;
+    report = 4;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/intl/messages/Test.messages.js';
+    report = oscar.bind(golf)(report);
+    zulu['default'] = tango;
+    zulu['messagesLoader'] = mike;
+    return entity;
+})();

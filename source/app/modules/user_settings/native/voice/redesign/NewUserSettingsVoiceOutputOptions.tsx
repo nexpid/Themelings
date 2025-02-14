@@ -1,0 +1,290 @@
+// app/modules/user_settings/native/voice/redesign/NewUserSettingsVoiceOutputOptions.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    options = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(options);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot6 = tango;
+    offset = 4;
+    tango = oscar[offset];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot7 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.MediaEngineContextTypes;
+    var _closure1_slot8 = tango;
+    tango = 6;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot9 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot10 = tango;
+    tango = 7;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    verify['marginTop'] = offset;
+    tango['slider'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot11 = tango;
+    tango = 15;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_settings/native/voice/redesign/NewUserSettingsVoiceOutputOptions.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: NewUserSettingsVoiceOutputOptions
+        _fun103108: for(var _fun103108_ip = 0; ; ) switch(_fun103108_ip) {
+ 0:
+            entity = _closure1_slot11;
+            tango = undefined;
+            output = entity.bind(tango)();
+            echo = _closure1_slot0;
+            result = _closure1_slot2;
+            mike = 8;
+            entity = result[mike];
+            golf = echo.bind(tango)(entity);
+            oscar = golf.useStateFromStores;
+            entity = _closure1_slot7;
+            report = new Array(1);
+            report[0] = entity;
+            zulu = function() {
+                mike = _closure1_slot7;
+                entity = mike.getOutputVolume;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            source = oscar.bind(golf)(report, zulu);
+            zulu = result[mike];
+            golf = echo.bind(tango)(zulu);
+            oscar = golf.useStateFromStores;
+            zulu = _closure1_slot5;
+            report = new Array(2);
+            report[0] = zulu;
+            zulu = _closure1_slot6;
+            report[1] = zulu;
+            zulu = function() {
+                _fun103110: for(var _fun103110_ip = 0; ; ) switch(_fun103110_ip) {
+ 0:
+                    mike = _closure1_slot5;
+                    entity = mike.getLastActiveStream;
+                    mike = entity.bind(mike)();
+                    report = null;
+                    tango = report != mike;
+                    entity = null;
+                    if(!tango) { _fun103110_ip = 57; continue _fun103110 }
+ 28:
+                    tango = mike.ownerId;
+                    oscar = _closure1_slot6;
+                    zulu = oscar.getId;
+                    zulu = zulu.bind(oscar)();
+                    entity = null;
+                    if(!(tango !== zulu)) { _fun103110_ip = 57; continue _fun103110 }
+ 54:
+                    entity = mike;
+ 57:
+                    return entity;
+                }
+            };
+            options = oscar.bind(golf)(report, zulu);
+            var _closure2_slot0 = options;
+            mike = result[mike];
+            report = echo.bind(tango)(mike);
+            zulu = report.useStateFromStores;
+            mike = new Array(1);
+            mike[0] = entity;
+            entity = function() {
+                _fun103111: for(var _fun103111_ip = 0; ; ) switch(_fun103111_ip) {
+ 0:
+                    mike = _closure2_slot0;
+                    entity = null;
+                    mike = entity != mike;
+                    entity = 0;
+                    if(!mike) { _fun103111_ip = 57; continue _fun103111 }
+ 18:
+                    report = _closure1_slot7;
+                    tango = report.getLocalVolume;
+                    zulu = _closure2_slot0;
+                    zulu = zulu.ownerId;
+                    mike = _closure1_slot8;
+                    mike = mike.STREAM;
+                    entity = tango.bind(report)(zulu, mike);
+ 57:
+                    return entity;
+                }
+            };
+            kilo = zulu.bind(report)(mike, entity);
+            report = _closure1_slot3;
+            zulu = report.useCallback;
+            mike = new Array(1);
+            mike[0] = options;
+            entity = function(argFoo) {
+                report = _closure1_slot1;
+                oscar = _closure1_slot2;
+                entity = 9;
+                zulu = oscar[entity];
+                entity = undefined;
+                options = report.bind(entity)(zulu);
+                zulu = _closure2_slot0;
+                tango = null;
+                golf = tango != zulu;
+                tango = 'Can not set stream volume without active stream';
+                tango = options.bind(entity)(golf, tango);
+                tango = 10;
+                tango = oscar[tango];
+                oscar = report.bind(entity)(tango);
+                report = oscar.setLocalVolume;
+                tango = zulu.ownerId;
+                mike = _closure1_slot8;
+                zulu = mike.STREAM;
+                mike = argFoo;
+                mike = report.bind(oscar)(tango, mike, zulu);
+                return entity;
+            };
+            backup = zulu.bind(report)(entity, mike);
+            zulu = _closure1_slot10;
+            entity = 11;
+            entity = result[entity];
+            entity = echo.bind(tango)(entity);
+            mike = entity.NewUserSettingsTableRowGroup;
+            entity = {};
+            offset = 12;
+            report = result[offset];
+            report = echo.bind(tango)(report);
+            golf = report.intl;
+            oscar = golf.string;
+            report = result[offset];
+            report = echo.bind(tango)(report);
+            report = report.t;
+            report = report.UXxPGB;
+            report = oscar.bind(golf)(report);
+            entity['title'] = report;
+            verify = _closure1_slot9;
+            golf = 13;
+            report = result[golf];
+            report = echo.bind(tango)(report);
+            oscar = report.TableRow;
+            report = {};
+            yankee = result[offset];
+            yankee = echo.bind(tango)(yankee);
+            sizing = yankee.intl;
+            romeo = sizing.string;
+            yankee = result[offset];
+            yankee = echo.bind(tango)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.xPHVBg;
+            yankee = romeo.bind(sizing)(yankee);
+            report['label'] = yankee;
+            romeo = _closure1_slot4;
+            yankee = {};
+            sizing = output.slider;
+            yankee['style'] = sizing;
+            echo = _closure1_slot1;
+            sizing = 14;
+            result = result[sizing];
+            echo = echo.bind(tango)(result);
+            result = {};
+            control = output.slider;
+            result['style'] = control;
+            result['value'] = source;
+            update = function(argFoo) { // Original name: onValueChange
+                zulu = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 10;
+                mike = mike[entity];
+                entity = undefined;
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.setOutputVolume;
+                entity = argFoo;
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            result['onValueChange'] = update;
+            result = verify.bind(tango)(echo, result);
+            yankee['children'] = result;
+            yankee = verify.bind(tango)(romeo, yankee);
+            report['subLabel'] = yankee;
+            oscar = verify.bind(tango)(oscar, report);
+            report = new Array(2);
+            report[0] = oscar;
+            oscar = null;
+            oscar = oscar != options;
+            if(!oscar) { _fun103108_ip = 579; continue _fun103108 }
+ 435:
+            verify = _closure1_slot9;
+            echo = _closure1_slot0;
+            romeo = _closure1_slot2;
+            golf = romeo[golf];
+            golf = echo.bind(tango)(golf);
+            options = golf.TableRow;
+            golf = {};
+            yankee = romeo[offset];
+            yankee = echo.bind(tango)(yankee);
+            result = yankee.intl;
+            yankee = result.string;
+            offset = romeo[offset];
+            offset = echo.bind(tango)(offset);
+            offset = offset.t;
+            offset = offset.pEAl4e;
+            offset = yankee.bind(result)(offset);
+            golf['label'] = offset;
+            yankee = _closure1_slot4;
+            offset = {};
+            output = output.slider;
+            offset['style'] = output;
+            foxtrot = _closure1_slot1;
+            romeo = romeo[sizing];
+            foxtrot = foxtrot.bind(tango)(romeo);
+            romeo = {};
+            romeo['value'] = kilo;
+            romeo['onValueChange'] = backup;
+            romeo = verify.bind(tango)(foxtrot, romeo);
+            offset['children'] = romeo;
+            offset = verify.bind(tango)(yankee, offset);
+            golf['subLabel'] = offset;
+            oscar = verify.bind(tango)(options, golf);
+ 579:
+            report[1] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

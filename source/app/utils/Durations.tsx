@@ -1,0 +1,34 @@
+// app/utils/Durations.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    mike = {};
+    oscar = entity.Object;
+    report = oscar.freeze;
+    tango = {'HALF_SECOND': 500, 'SECOND': 1000, 'MINUTE': 60000, 'HOUR': 3600000, 'DAY': 86400000, 'WEEK': 604800000, 'DAYS_30': 2592000000.0};
+    tango = report.bind(oscar)(tango);
+    mike['Millis'] = tango;
+    report = entity.Object;
+    tango = report.freeze;
+    entity = {'SECOND': 1, 'MINUTE': 60, 'HOUR': 3600, 'DAY': 86400, 'WEEK': 604800, 'DAYS_30': 2592000};
+    entity = tango.bind(report)(entity);
+    mike['Seconds'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'utils/Durations.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

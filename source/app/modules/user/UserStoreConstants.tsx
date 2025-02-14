@@ -1,0 +1,32 @@
+// app/modules/user/UserStoreConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'staging';
+    mike['STAGING'] = entity;
+    entity = 'development';
+    mike['DEVELOPMENT'] = entity;
+    entity = 'production';
+    mike['PRODUCTION'] = entity;
+    entity = 'test';
+    mike['TEST'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user/UserStoreConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['Environments'] = mike;
+    return entity;
+})();

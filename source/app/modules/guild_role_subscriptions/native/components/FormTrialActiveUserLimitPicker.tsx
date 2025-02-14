@@ -1,0 +1,137 @@
+// app/modules/guild_role_subscriptions/native/components/FormTrialActiveUserLimitPicker.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot3 = tango;
+    tango = 8;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_role_subscriptions/native/components/FormTrialActiveUserLimitPicker.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: FormTrialActiveUserLimitPicker
+        _fun127154: for(var _fun127154_ip = 0; ; ) switch(_fun127154_ip) {
+ 0:
+            entity = argFoo;
+            verify = entity.activeTrialUserlimit;
+            var _closure2_slot0 = verify;
+            mike = entity.onChange;
+            var _closure2_slot1 = mike;
+            report = entity.disabled;
+            mike = _closure1_slot1;
+            golf = _closure1_slot2;
+            entity = 2;
+            entity = golf[entity];
+            tango = undefined;
+            entity = mike.bind(tango)(entity);
+            entity = entity.bind(tango)();
+            var _closure2_slot2 = entity;
+            zulu = _closure1_slot3;
+            entity = 3;
+            entity = golf[entity];
+            mike = mike.bind(tango)(entity);
+            entity = {};
+            golf = null;
+            if(!(golf != verify)) { _fun127154_ip = 98; continue _fun127154 }
+ 87:
+            golf = verify.toString;
+            golf = golf.bind(verify)();
+            _fun127154_ip = 153; continue _fun127154;
+ 98:
+            yankee = _closure1_slot0;
+            romeo = _closure1_slot2;
+            options = 4;
+            verify = romeo[options];
+            verify = yankee.bind(tango)(verify);
+            offset = verify.intl;
+            verify = offset.string;
+            options = romeo[options];
+            options = yankee.bind(tango)(options);
+            options = options.t;
+            options = options.zHfL6u;
+            golf = verify.bind(offset)(options);
+ 153:
+            entity['label'] = golf;
+            oscar = function() { // Original name: onPress
+                tango = _closure1_slot1;
+                offset = _closure1_slot2;
+                entity = 5;
+                zulu = offset[entity];
+                entity = undefined;
+                oscar = tango.bind(entity)(zulu);
+                report = oscar.openLazy;
+                verify = _closure1_slot0;
+                mike = 7;
+                mike = offset[mike];
+                tango = verify.bind(entity)(mike);
+                mike = 6;
+                zulu = offset[mike];
+                mike = offset.paths;
+                tango = tango.bind(entity)(zulu, mike);
+                zulu = {};
+                mike = 4;
+                golf = offset[mike];
+                golf = verify.bind(entity)(golf);
+                options = golf.intl;
+                golf = options.string;
+                mike = offset[mike];
+                mike = verify.bind(entity)(mike);
+                mike = mike.t;
+                mike = mike./JD9oa;
+                mike = golf.bind(options)(mike);
+                zulu['title'] = mike;
+                golf = _closure2_slot2;
+                zulu['items'] = golf;
+                golf = function(argFoo) { // Original name: onItemSelect
+                    zulu = _closure2_slot1;
+                    entity = undefined;
+                    mike = argFoo;
+                    mike = zulu.bind(entity)(mike);
+                    zulu = _closure1_slot1;
+                    tango = _closure1_slot2;
+                    mike = 5;
+                    mike = tango[mike];
+                    tango = zulu.bind(entity)(mike);
+                    zulu = tango.hideActionSheet;
+                    mike = 'GuildRoleSubscriptionTrialActiveUserLimitSelect';
+                    mike = zulu.bind(tango)(mike);
+                    return entity;
+                };
+                zulu['onItemSelect'] = golf;
+                mike = _closure2_slot0;
+                zulu['selectedItem'] = mike;
+                mike = 'GuildRoleSubscriptionTrialActiveUserLimitSelect';
+                mike = report.bind(oscar)(tango, mike, zulu);
+                return entity;
+            };
+            entity['onPress'] = oscar;
+            entity['disabled'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

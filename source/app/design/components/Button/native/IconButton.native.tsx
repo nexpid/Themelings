@@ -1,0 +1,184 @@
+// app/design/components/Button/native/IconButton.native.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = 1;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsx;
+    var _closure1_slot3 = options;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = function(argFoo) {
+        _fun77393: for(var _fun77393_ip = 0; ; ) switch(_fun77393_ip) {
+ 0:
+            entity = {};
+            mike = {};
+            report = _closure1_slot1;
+            oscar = _closure1_slot2;
+            zulu = 3;
+            golf = oscar[zulu];
+            tango = undefined;
+            golf = report.bind(tango)(golf);
+            golf = golf.spacing;
+            golf = golf.PX_4;
+            mike['paddingBottom'] = golf;
+            zulu = oscar[zulu];
+            zulu = report.bind(tango)(zulu);
+            zulu = zulu.spacing;
+            zulu = zulu.PX_8;
+            mike['gap'] = zulu;
+            zulu = 'center';
+            mike['alignItems'] = zulu;
+            mike['alignSelf'] = zulu;
+            report = argFoo;
+            tango = 0;
+            if(!report) { _fun77393_ip = 94; continue _fun77393 }
+ 91:
+            tango = 1;
+ 94:
+            mike['flexGrow'] = tango;
+            entity['labelPressable'] = mike;
+            mike = {};
+            mike['textAlign'] = zulu;
+            entity['label'] = mike;
+            return entity;
+        }
+    };
+    tango = options.bind(verify)(tango);
+    var _closure1_slot5 = tango;
+    tango = golf.forwardRef;
+    mike = function(argFoo, argBar) {
+        _fun77394: for(var _fun77394_ip = 0; ; ) switch(_fun77394_ip) {
+ 0:
+            report = argFoo;
+            output = argBar;
+            offset = report.label;
+            zulu = report.grow;
+            golf = report.accessibilityLabel;
+            yankee = report.maxFontSizeMultiplier;
+            tango = {'label': 0, 'grow': 0, 'accessibilityLabel': 0, 'maxFontSizeMultiplier': 0};
+            entity = null;
+            update = tango;
+            echo = null;
+            mike = silentSetPrototypeOf(update, echo);
+            update = {};
+            echo = report;
+            result = tango;
+            backup = copyDataProperties(update, echo, result);
+            mike = _closure1_slot5;
+            report = undefined;
+            romeo = mike.bind(report)(zulu);
+            if(!(entity == offset)) { _fun77394_ip = 154; continue _fun77394 }
+ 79:
+            zulu = _closure1_slot3;
+            mike = _closure1_slot0;
+            tango = _closure1_slot2;
+            entity = 5;
+            entity = tango[entity];
+            entity = mike.bind(report)(entity);
+            mike = entity.BaseIconButton;
+            entity = {};
+            entity['ref'] = output;
+            update = entity;
+            echo = backup;
+            tango = copyDataProperties(update, echo);
+            tango = 'accessibilityLabel';
+            entity[tango] = golf;
+            tango = 'maxFontSizeMultiplier';
+            entity[tango] = yankee;
+            entity = zulu.bind(report)(mike, entity);
+            _fun77394_ip = 396; continue _fun77394;
+ 154:
+            tango = _closure1_slot4;
+            options = _closure1_slot0;
+            foxtrot = _closure1_slot2;
+            mike = 4;
+            mike = foxtrot[mike];
+            mike = options.bind(report)(mike);
+            zulu = mike.BaseButton;
+            mike = {};
+            verify = romeo.labelPressable;
+            mike['style'] = verify;
+            update = mike;
+            echo = backup;
+            verify = copyDataProperties(update, echo);
+            sizing = 'none';
+            verify = 'variant';
+            mike[verify] = sizing;
+            kilo = 'accessibilityLabel';
+            mike[kilo] = golf;
+            verify = _closure1_slot3;
+            oscar = 5;
+            oscar = foxtrot[oscar];
+            oscar = options.bind(report)(oscar);
+            golf = oscar.BaseIconButton;
+            oscar = {};
+            oscar['ref'] = output;
+            update = oscar;
+            echo = backup;
+            backup = copyDataProperties(update, echo);
+            backup = 'accessibilityRole';
+            oscar[backup] = sizing;
+            backup = '';
+            oscar[kilo] = backup;
+            kilo = 'lg';
+            backup = 'size';
+            oscar[backup] = kilo;
+            backup = 'maxFontSizeMultiplier';
+            oscar[backup] = yankee;
+            oscar = verify.bind(report)(golf, oscar);
+            golf = new Array(2);
+            golf[0] = oscar;
+            oscar = 6;
+            oscar = foxtrot[oscar];
+            oscar = options.bind(report)(oscar);
+            options = oscar.Text;
+            oscar = {'style': null, 'variant': 'text-xs/medium', 'color': 'interactive-normal'};
+            romeo = romeo.label;
+            oscar['style'] = romeo;
+            oscar['maxFontSizeMultiplier'] = yankee;
+            oscar['children'] = offset;
+            oscar = verify.bind(report)(options, oscar);
+            golf[1] = oscar;
+            oscar = 'children';
+            mike[oscar] = golf;
+            entity = tango.bind(report)(zulu, mike);
+ 396:
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 7;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/components/Button/native/IconButton.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['IconButton'] = mike;
+    return entity;
+})();

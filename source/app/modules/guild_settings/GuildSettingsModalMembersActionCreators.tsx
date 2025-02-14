@@ -1,0 +1,286 @@
+// app/modules/guild_settings/GuildSettingsModalMembersActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    golf = mike.Endpoints;
+    var _closure1_slot3 = golf;
+    mike = mike.ME;
+    var _closure1_slot4 = mike;
+    mike = {};
+    golf = function(argFoo, argBar) { // Original name: startEditingRoles
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 1;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'GUILD_SETTINGS_MODAL_MEMBERS_START_EDITING';
+        mike['type'] = report;
+        report = argFoo;
+        mike['guildId'] = report;
+        report = argBar;
+        mike['userId'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['startEditingRoles'] = golf;
+    golf = function() { // Original name: stopEditingRoles
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 1;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'GUILD_SETTINGS_MODAL_MEMBERS_STOP_EDITING';
+        mike['type'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['stopEditingRoles'] = golf;
+    golf = function(argFoo, argBar) { // Original name: toggleRole
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 1;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'GUILD_SETTINGS_MODAL_MEMBERS_TOGGLE_ROLE';
+        mike['type'] = report;
+        report = argFoo;
+        mike['roleId'] = report;
+        report = argBar;
+        mike['state'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['toggleRole'] = golf;
+    golf = function(argFoo, argBar, argBaz) { // Original name: updateMemberRoles
+        zulu = _closure1_slot1;
+        report = _closure1_slot2;
+        entity = 1;
+        mike = report[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        golf = 'GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE';
+        mike['type'] = golf;
+        mike = zulu.bind(tango)(mike);
+        tango = function() { // Original name: onEnd
+            zulu = _closure1_slot1;
+            mike = _closure1_slot2;
+            entity = 1;
+            mike = mike[entity];
+            entity = undefined;
+            zulu = zulu.bind(entity)(mike);
+            mike = zulu.dispatch;
+            entity = {};
+            tango = 'GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE_COMPLETE';
+            entity['type'] = tango;
+            entity = mike.bind(zulu)(entity);
+            return entity;
+        };
+        zulu = _closure1_slot0;
+        mike = 2;
+        mike = report[mike];
+        mike = zulu.bind(entity)(mike);
+        report = mike.HTTP;
+        zulu = report.patch;
+        mike = {};
+        verify = _closure1_slot3;
+        options = verify.GUILD_MEMBER;
+        golf = argFoo;
+        oscar = argBar;
+        oscar = options.bind(verify)(golf, oscar);
+        mike['url'] = oscar;
+        oscar = {};
+        golf = argBaz;
+        oscar['roles'] = golf;
+        mike['body'] = oscar;
+        oscar = true;
+        mike['oldFormErrors'] = oscar;
+        mike['rejectWithError'] = oscar;
+        zulu = zulu.bind(report)(mike);
+        mike = zulu.then;
+        mike = mike.bind(zulu)(tango, tango);
+        return entity;
+    };
+    mike['updateMemberRoles'] = golf;
+    golf = function() { // Original name: startEditingNickname
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 1;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'GUILD_SETTINGS_MODAL_MEMBERS_START_EDITING_NICKNAME';
+        mike['type'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['startEditingNickname'] = golf;
+    tango = function(argFoo, argBar, argBaz) { // Original name: changeNickname
+        _fun81698: for(var _fun81698_ip = 0; ; ) switch(_fun81698_ip) {
+ 0:
+            report = argFoo;
+            tango = argBar;
+            var _closure2_slot0 = tango;
+            entity = null;
+            if(!(entity != tango)) { _fun81698_ip = 39; continue _fun81698 }
+ 18:
+            zulu = _closure1_slot3;
+            entity = zulu.GUILD_MEMBER;
+            oscar = entity.bind(zulu)(report, tango);
+            _fun81698_ip = 62; continue _fun81698;
+ 39:
+            tango = _closure1_slot3;
+            zulu = tango.GUILD_MEMBER_NICK;
+            entity = _closure1_slot4;
+            oscar = zulu.bind(tango)(report, entity);
+ 62:
+            golf = _closure1_slot1;
+            report = _closure1_slot2;
+            entity = 1;
+            tango = report[entity];
+            entity = undefined;
+            options = golf.bind(entity)(tango);
+            golf = options.dispatch;
+            tango = {};
+            verify = 'GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME';
+            tango['type'] = verify;
+            tango = golf.bind(options)(tango);
+            tango = _closure1_slot0;
+            zulu = 2;
+            zulu = report[zulu];
+            zulu = tango.bind(entity)(zulu);
+            report = zulu.HTTP;
+            tango = report.patch;
+            zulu = {};
+            zulu['url'] = oscar;
+            oscar = {};
+            golf = argBaz;
+            oscar['nick'] = golf;
+            zulu['body'] = oscar;
+            oscar = true;
+            zulu['oldFormErrors'] = oscar;
+            oscar = false;
+            zulu['rejectWithError'] = oscar;
+            report = tango.bind(report)(zulu);
+            tango = report.then;
+            zulu = function() {
+                zulu = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 1;
+                mike = mike[entity];
+                entity = undefined;
+                tango = zulu.bind(entity)(mike);
+                zulu = tango.dispatch;
+                mike = {};
+                report = 'GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME_SUCCESS';
+                mike['type'] = report;
+                mike = zulu.bind(tango)(mike);
+                return entity;
+            };
+            mike = function(argFoo) {
+                _fun81700: for(var _fun81700_ip = 0; ; ) switch(_fun81700_ip) {
+ 0:
+                    oscar = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    options = 3;
+                    tango = zulu[options];
+                    entity = undefined;
+                    tango = oscar.bind(entity)(tango);
+                    report = tango.intl;
+                    tango = report.string;
+                    zulu = zulu[options];
+                    zulu = oscar.bind(entity)(zulu);
+                    zulu = zulu.t;
+                    zulu = zulu.5LO/Sk;
+                    report = tango.bind(report)(zulu);
+                    tango = _closure2_slot0;
+                    zulu = null;
+                    if(!(zulu != tango)) { _fun81700_ip = 125; continue _fun81700 }
+ 73:
+                    golf = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    tango = zulu[options];
+                    tango = golf.bind(entity)(tango);
+                    oscar = tango.intl;
+                    tango = oscar.string;
+                    zulu = zulu[options];
+                    zulu = golf.bind(entity)(zulu);
+                    zulu = zulu.t;
+                    zulu = zulu.rJfW6e;
+                    report = tango.bind(oscar)(zulu);
+ 125:
+                    zulu = argFoo;
+                    tango = zulu.status;
+                    zulu = 403;
+                    if(!(zulu === tango)) { _fun81700_ip = 199; continue _fun81700 }
+ 143:
+                    tango = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    oscar = zulu[options];
+                    oscar = tango.bind(entity)(oscar);
+                    golf = oscar.intl;
+                    oscar = golf.formatToMarkdownString;
+                    zulu = zulu[options];
+                    zulu = tango.bind(entity)(zulu);
+                    zulu = zulu.t;
+                    tango = zulu.Izf9jI;
+                    zulu = {};
+                    report = oscar.bind(golf)(tango, zulu);
+ 199:
+                    zulu = _closure1_slot1;
+                    tango = _closure1_slot2;
+                    mike = 1;
+                    mike = tango[mike];
+                    tango = zulu.bind(entity)(mike);
+                    zulu = tango.dispatch;
+                    mike = {};
+                    oscar = 'GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME_FAILURE';
+                    mike['type'] = oscar;
+                    mike['error'] = report;
+                    mike = zulu.bind(tango)(mike);
+                    return entity;
+                }
+            };
+            mike = tango.bind(report)(zulu, mike);
+            return entity;
+        }
+    };
+    mike['changeNickname'] = tango;
+    tango = 4;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_settings/GuildSettingsModalMembersActionCreators.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

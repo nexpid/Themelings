@@ -1,0 +1,53 @@
+// app/modules/headless_tasks/HeadlessTaskUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    mike = mike.TOKEN_KEY;
+    var _closure1_slot2 = mike;
+    mike = {};
+    tango = function(argFoo) { // Original name: awaitStorage
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        report = _closure1_slot0;
+        tango = _closure1_slot1;
+        entity = 1;
+        tango = tango[entity];
+        entity = undefined;
+        tango = report.bind(entity)(tango);
+        report = tango.Storage;
+        tango = report.asyncGet;
+        zulu = _closure1_slot2;
+        mike = function() {
+            mike = _closure2_slot0;
+            entity = undefined;
+            mike = mike.bind(entity)();
+            return entity;
+        };
+        mike = tango.bind(report)(zulu, mike);
+        return entity;
+    };
+    mike['awaitStorage'] = tango;
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/headless_tasks/HeadlessTaskUtils.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

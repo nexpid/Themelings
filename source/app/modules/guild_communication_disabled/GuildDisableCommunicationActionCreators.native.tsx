@@ -1,0 +1,140 @@
+// app/modules/guild_communication_disabled/GuildDisableCommunicationActionCreators.native.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    options = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(options);
+    tango = 1;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot4 = tango;
+    tango = 8;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_communication_disabled/GuildDisableCommunicationActionCreators.native.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: openDisableCommunication
+        _fun81702: for(var _fun81702_ip = 0; ; ) switch(_fun81702_ip) {
+ 0:
+            entity = argFoo;
+            golf = entity.guildId;
+            tango = entity.userId;
+            report = entity.cancelButtonCallback;
+            zulu = _closure1_slot3;
+            entity = zulu.getUser;
+            oscar = entity.bind(zulu)(tango);
+            entity = null;
+            if(!(entity != oscar)) { _fun81702_ip = 126; continue _fun81702 }
+ 43:
+            tango = _closure1_slot1;
+            entity = _closure1_slot2;
+            zulu = 3;
+            zulu = entity[zulu];
+            verify = undefined;
+            tango = tango.bind(verify)(zulu);
+            zulu = tango.pushLazy;
+            options = _closure1_slot0;
+            mike = 5;
+            mike = entity[mike];
+            options = options.bind(verify)(mike);
+            mike = 4;
+            mike = entity[mike];
+            entity = entity.paths;
+            mike = options.bind(verify)(mike, entity);
+            entity = {};
+            entity['guildId'] = golf;
+            entity['user'] = oscar;
+            entity['cancelButtonCallback'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+ 126:
+            entity = undefined;
+            return entity;
+        }
+    };
+    zulu['openDisableCommunication'] = tango;
+    mike = function(argFoo) { // Original name: openEnableCommunication
+        entity = argFoo;
+        mike = entity.guildId;
+        var _closure2_slot0 = mike;
+        mike = entity.userId;
+        var _closure2_slot1 = mike;
+        entity = entity.cancelButtonCallback;
+        var _closure2_slot2 = entity;
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 6;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.openLazy;
+        mike = {};
+        report = function() { // Original name: importer
+            zulu = _closure1_slot0;
+            entity = _closure1_slot2;
+            mike = 5;
+            mike = entity[mike];
+            tango = undefined;
+            zulu = zulu.bind(tango)(mike);
+            mike = 7;
+            mike = entity[mike];
+            entity = entity.paths;
+            zulu = zulu.bind(tango)(mike, entity);
+            mike = zulu.then;
+            entity = function(argFoo) {
+                mike = argFoo;
+                mike = mike.default;
+                var _closure4_slot0 = mike;
+                entity = function(argFoo) {
+                    tango = _closure1_slot4;
+                    zulu = _closure4_slot0;
+                    mike = {};
+                    golf = argFoo;
+                    options = mike;
+                    entity = copyDataProperties(options, golf);
+                    oscar = _closure2_slot0;
+                    report = 'guildId';
+                    mike[report] = oscar;
+                    oscar = _closure2_slot1;
+                    report = 'userId';
+                    mike[report] = oscar;
+                    report = _closure2_slot2;
+                    entity = 'onCancel';
+                    mike[entity] = report;
+                    entity = undefined;
+                    entity = tango.bind(entity)(zulu, mike);
+                    return entity;
+                };
+                return entity;
+            };
+            entity = mike.bind(zulu)(entity);
+            return entity;
+        };
+        mike['importer'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    zulu['openEnableCommunication'] = mike;
+    return entity;
+})();

@@ -1,0 +1,198 @@
+// app/modules/user_profile/native/UserProfileVoiceActivityIcon.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    options = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(options);
+    tango = 1;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.Permissions;
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot5 = tango;
+    tango = 12;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_profile/native/UserProfileVoiceActivityIcon.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: UserProfileVoiceActivityIcon
+        _fun79716: for(var _fun79716_ip = 0; ; ) switch(_fun79716_ip) {
+ 0:
+            tango = argFoo;
+            oscar = tango.channel;
+            var _closure2_slot0 = oscar;
+            entity = null;
+            zulu = Object.create(entity);
+            entity = 0;
+            zulu['channel'] = entity;
+            romeo = {};
+            yankee = tango;
+            offset = zulu;
+            report = copyDataProperties(romeo, yankee, offset);
+            golf = _closure1_slot0;
+            tango = _closure1_slot2;
+            zulu = 4;
+            zulu = tango[zulu];
+            tango = undefined;
+            options = golf.bind(tango)(zulu);
+            golf = options.useStateFromStores;
+            verify = _closure1_slot3;
+            zulu = new Array(1);
+            zulu[0] = verify;
+            mike = function() {
+                _fun79717: for(var _fun79717_ip = 0; ; ) switch(_fun79717_ip) {
+ 0:
+                    zulu = _closure2_slot0;
+                    entity = zulu.isPrivate;
+                    entity = entity.bind(zulu)();
+                    if(entity) { _fun79717_ip = 53; continue _fun79717 }
+ 20:
+                    report = _closure1_slot3;
+                    tango = report.can;
+                    zulu = _closure1_slot4;
+                    zulu = zulu.CONNECT;
+                    mike = _closure2_slot0;
+                    entity = tango.bind(report)(zulu, mike);
+ 53:
+                    return entity;
+                }
+            };
+            mike = golf.bind(options)(zulu, mike);
+            zulu = oscar.isDM;
+            zulu = zulu.bind(oscar)();
+            if(zulu) { _fun79716_ip = 404; continue _fun79716 }
+ 108:
+            zulu = oscar.isGroupDM;
+            zulu = zulu.bind(oscar)();
+            if(zulu) { _fun79716_ip = 404; continue _fun79716 }
+ 124:
+            zulu = oscar.isGuildStageVoice;
+            zulu = zulu.bind(oscar)();
+            mike = !mike;
+            if(mike) { _fun79716_ip = 165; continue _fun79716 }
+ 140:
+            options = _closure1_slot1;
+            verify = _closure1_slot2;
+            golf = 6;
+            golf = verify[golf];
+            golf = options.bind(tango)(golf);
+            mike = golf.bind(tango)(oscar);
+ 165:
+            if(!zulu) { _fun79716_ip = 174; continue _fun79716 }
+ 168:
+            if(mike) { _fun79716_ip = 354; continue _fun79716 }
+ 174:
+            if(zulu) { _fun79716_ip = 304; continue _fun79716 }
+ 180:
+            zulu = oscar.isNSFW;
+            zulu = zulu.bind(oscar)();
+            golf = _closure1_slot5;
+            oscar = _closure1_slot0;
+            options = _closure1_slot2;
+            if(zulu) { _fun79716_ip = 266; continue _fun79716 }
+ 205:
+            if(mike) { _fun79716_ip = 228; continue _fun79716 }
+ 208:
+            mike = 11;
+            mike = options[mike];
+            mike = oscar.bind(tango)(mike);
+            zulu = mike.VoiceNormalIcon;
+            _fun79716_ip = 246; continue _fun79716;
+ 228:
+            mike = 10;
+            mike = options[mike];
+            mike = oscar.bind(tango)(mike);
+            zulu = mike.VoiceLockIcon;
+ 246:
+            mike = {};
+            romeo = mike;
+            yankee = report;
+            verify = copyDataProperties(romeo, yankee);
+            mike = golf.bind(tango)(zulu, mike);
+            _fun79716_ip = 302; continue _fun79716;
+ 266:
+            zulu = 9;
+            zulu = options[zulu];
+            zulu = oscar.bind(tango)(zulu);
+            oscar = zulu.VoiceWarningIcon;
+            zulu = {};
+            romeo = zulu;
+            yankee = report;
+            options = copyDataProperties(romeo, yankee);
+            mike = golf.bind(tango)(oscar, zulu);
+ 302:
+            _fun79716_ip = 352; continue _fun79716;
+ 304:
+            golf = _closure1_slot5;
+            oscar = _closure1_slot0;
+            options = _closure1_slot2;
+            zulu = 8;
+            zulu = options[zulu];
+            zulu = oscar.bind(tango)(zulu);
+            oscar = zulu.StageIcon;
+            zulu = {};
+            romeo = zulu;
+            yankee = report;
+            options = copyDataProperties(romeo, yankee);
+            mike = golf.bind(tango)(oscar, zulu);
+ 352:
+            _fun79716_ip = 402; continue _fun79716;
+ 354:
+            golf = _closure1_slot5;
+            oscar = _closure1_slot0;
+            options = _closure1_slot2;
+            zulu = 7;
+            zulu = options[zulu];
+            zulu = oscar.bind(tango)(zulu);
+            oscar = zulu.StageLockIcon;
+            zulu = {};
+            romeo = zulu;
+            yankee = report;
+            options = copyDataProperties(romeo, yankee);
+            mike = golf.bind(tango)(oscar, zulu);
+ 402:
+            return mike;
+ 404:
+            zulu = _closure1_slot5;
+            mike = _closure1_slot0;
+            oscar = _closure1_slot2;
+            entity = 5;
+            entity = oscar[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.PhoneCallIcon;
+            entity = {};
+            romeo = entity;
+            yankee = report;
+            report = copyDataProperties(romeo, yankee);
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

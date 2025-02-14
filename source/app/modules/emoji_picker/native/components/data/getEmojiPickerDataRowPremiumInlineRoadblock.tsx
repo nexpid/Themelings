@@ -1,0 +1,42 @@
+// app/modules/emoji_picker/native/components/data/getEmojiPickerDataRowPremiumInlineRoadblock.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    entity = true;
+    oscar['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 1;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowPremiumInlineRoadblock.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: getEmojiPickerDataRowPremiumInlineRoadblock
+        entity = {};
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        mike = 0;
+        zulu = zulu[mike];
+        mike = undefined;
+        mike = tango.bind(mike)(zulu);
+        mike = mike.EmojiPickerFlashListItemType;
+        mike = mike.PREMIUM_INLINE_ROADBLOCK;
+        entity['type'] = mike;
+        mike = argFoo;
+        entity['position'] = mike;
+        mike = true;
+        entity['isSectionNitroLocked'] = mike;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

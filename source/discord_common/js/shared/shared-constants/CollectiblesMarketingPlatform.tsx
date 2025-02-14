@@ -1,0 +1,31 @@
+// discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['DESKTOP'] = tango;
+    entity = 'DESKTOP';
+    mike[tango] = entity;
+    report = 1;
+    mike['MOBILE'] = report;
+    entity = 'MOBILE';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['CollectiblesMarketingPlatform'] = mike;
+    return entity;
+})();

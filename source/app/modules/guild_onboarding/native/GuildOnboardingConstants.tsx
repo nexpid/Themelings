@@ -1,0 +1,36 @@
+// app/modules/guild_onboarding/native/GuildOnboardingConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'cover';
+    mike['COVER'] = entity;
+    entity = 'prompt';
+    mike['PROMPT'] = entity;
+    entity = 'completed';
+    mike['COMPLETED'] = entity;
+    entity = 'rules';
+    mike['RULES'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_onboarding/native/GuildOnboardingConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = 'GUILD_ONBOARDING_MODAL_KEY';
+    zulu['GUILD_ONBOARDING_MODAL_KEY'] = tango;
+    tango = 'CHANNELS_AND_ROLES_MODAL_KEY';
+    zulu['CHANNELS_AND_ROLES_MODAL_KEY'] = tango;
+    zulu['GuildOnboardingModalStates'] = mike;
+    return entity;
+})();

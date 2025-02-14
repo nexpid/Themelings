@@ -1,0 +1,615 @@
+// app/modules/directory_channels/native/components/GuildDirectoryRow.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    backup = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = backup;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    romeo = 0;
+    tango = oscar[romeo];
+    entity = undefined;
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    yankee = 1;
+    tango = oscar[yankee];
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    tango = argCorge;
+    golf = tango.bind(entity)(golf);
+    var _closure1_slot5 = golf;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot6 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot7 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot8 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot9 = tango;
+    tango = 7;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.JoinGuildSources;
+    var _closure1_slot10 = tango;
+    tango = 8;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsx;
+    var _closure1_slot11 = options;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.Fragment;
+    var _closure1_slot12 = options;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot13 = tango;
+    tango = 9;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    kilo = 16;
+    offset = {'flexDirection': 'row', 'padding': 16};
+    tango['container'] = offset;
+    offset = {};
+    foxtrot = 'column';
+    offset['flexDirection'] = foxtrot;
+    tango['guildInfoContainer'] = offset;
+    offset = {};
+    foxtrot = 10;
+    sizing = oscar[foxtrot];
+    sizing = backup.bind(entity)(sizing);
+    sizing = sizing.radii;
+    sizing = sizing.sm;
+    offset['borderRadius'] = sizing;
+    offset['marginRight'] = kilo;
+    tango['guildIcon'] = offset;
+    offset = {};
+    offset['flex'] = yankee;
+    tango['guildWrapper'] = offset;
+    offset = {'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};
+    tango['guildCountsWrapper'] = offset;
+    offset = {};
+    kilo = 'visible';
+    offset['overflow'] = kilo;
+    tango['guildBadgeIcon'] = offset;
+    offset = {};
+    offset['flex'] = yankee;
+    tango['guildName'] = offset;
+    offset = {'flexShrink': 1, 'marginBottom': 8};
+    tango['guildDescription'] = offset;
+    offset = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 8};
+    tango['memberInfo'] = offset;
+    offset = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4};
+    kilo = oscar[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.radii;
+    kilo = kilo.sm;
+    offset['borderRadius'] = kilo;
+    kilo = oscar[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.unsafe_rawColors;
+    kilo = kilo.GREEN_360;
+    offset['backgroundColor'] = kilo;
+    tango['dotOnline'] = offset;
+    offset = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4, 'marginLeft': 16};
+    kilo = oscar[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.radii;
+    kilo = kilo.sm;
+    offset['borderRadius'] = kilo;
+    kilo = oscar[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.unsafe_rawColors;
+    kilo = kilo.PRIMARY_400;
+    offset['backgroundColor'] = kilo;
+    tango['dotOffline'] = offset;
+    offset = {};
+    foxtrot = oscar[foxtrot];
+    foxtrot = backup.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.BACKGROUND_ACCENT;
+    offset['backgroundColor'] = foxtrot;
+    tango['grey'] = offset;
+    offset = {'flexDirection': 'row', 'marginBottom': 4};
+    tango['titleContainer'] = offset;
+    offset = {};
+    offset['flexGrow'] = romeo;
+    tango['cta'] = offset;
+    offset = {};
+    offset['flex'] = yankee;
+    tango['flex'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot14 = tango;
+    tango = golf.memo;
+    mike = function(argFoo) {
+        _fun79303: for(var _fun79303_ip = 0; ; ) switch(_fun79303_ip) {
+ 0:
+            entity = argFoo;
+            vacuum = entity.entry;
+            var _closure2_slot0 = vacuum;
+            entity = _closure1_slot14;
+            tango = undefined;
+            output = entity.bind(tango)();
+            config = vacuum.name;
+            echo = vacuum.description;
+            variable37 = vacuum.approximateMemberCount;
+            variable36 = vacuum.approximatePresenceCount;
+            mike = _closure1_slot0;
+            zulu = _closure1_slot2;
+            entity = 11;
+            entity = zulu[entity];
+            golf = mike.bind(tango)(entity);
+            oscar = golf.useStateFromStores;
+            entity = _closure1_slot9;
+            mike = new Array(1);
+            mike[0] = entity;
+            entity = function() {
+                zulu = _closure1_slot9;
+                mike = zulu.getGuild;
+                entity = _closure2_slot0;
+                entity = entity.guildId;
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            entity = oscar.bind(golf)(mike, entity);
+            verify = null;
+            result = verify != entity;
+            var _closure2_slot1 = result;
+            mike = _closure1_slot5;
+            entity = mike.useState;
+            kilo = false;
+            oscar = entity.bind(mike)(kilo);
+            mike = _closure1_slot4;
+            entity = 2;
+            mike = mike.bind(tango)(oscar, entity);
+            entity = 0;
+            sizing = mike[entity];
+            entity = 1;
+            entity = mike[entity];
+            var _closure2_slot2 = entity;
+            entity = function() {
+                tango = _closure1_slot3;
+                zulu = undefined;
+                mike = function* () {
+                    entity = function* () { // Original name: ?anon_0_
+                        _fun79307: for(var _fun79307_ip = 0; ; ) switch(_fun79307_ip) {
+ 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(mike) { _fun79307_ip = 345; continue _fun79307 }
+ 10:
+                            report = undefined;
+                            oscar = undefined;
+                            tango = _closure2_slot2;
+                            mike = true;
+                            mike = tango.bind(report)(mike);
+ 28: // try_start_0
+                            tango = _closure2_slot1;
+                            if(tango) { _fun79307_ip = 274; continue _fun79307 }
+ 41:
+                            golf = _closure1_slot1;
+                            options = _closure1_slot2;
+                            tango = 13;
+                            tango = options[tango];
+                            verify = golf.bind(report)(tango);
+                            options = verify.joinGuild;
+                            tango = _closure2_slot0;
+                            golf = tango.guildId;
+                            tango = {};
+                            offset = _closure1_slot10;
+                            offset = offset.DIRECTORY_ENTRY;
+                            tango['source'] = offset;
+                            tango = options.bind(verify)(golf, tango);
+                            SaveGenerator(address=102);
+ 100:
+                            return tango;
+ 102:
+                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                            if(golf) { _fun79307_ip = 260; continue _fun79307 }
+ 111:
+                            verify = _closure1_slot8;
+                            options = verify.getChannel;
+                            golf = _closure2_slot0;
+                            golf = golf.channelId;
+                            golf = options.bind(verify)(golf);
+                            oscar = golf;
+                            offset = null;
+                            if(!(offset != golf)) { _fun79307_ip = 246; continue _fun79307 }
+ 143:
+                            options = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            golf = 14;
+                            golf = verify[golf];
+                            verify = options.bind(report)(golf);
+                            options = verify.setHubProgressActionComplete;
+                            golf = oscar;
+                            offset = offset == golf;
+                            golf = undefined;
+                            if(offset) { _fun79307_ip = 194; continue _fun79307 }
+ 181:
+                            offset = oscar;
+                            oscar = offset.getGuildId;
+                            golf = oscar.bind(offset)();
+ 194:
+                            offset = _closure1_slot0;
+                            yankee = _closure1_slot2;
+                            oscar = 15;
+                            oscar = yankee[oscar];
+                            oscar = offset.bind(report)(oscar);
+                            oscar = oscar.HubProgressStep;
+                            oscar = oscar.JOIN_GUILD;
+                            oscar = options.bind(verify)(golf, oscar);
+ 232: // try_end0
+                            golf = _closure2_slot2;
+                            oscar = false;
+                            oscar = golf.bind(report)(oscar);
+                            return report;
+ 246:
+                            golf = _closure2_slot2;
+                            oscar = false;
+                            oscar = golf.bind(report)(oscar);
+                            return report;
+ 260:
+                            golf = _closure2_slot2;
+                            oscar = false;
+                            oscar = golf.bind(report)(oscar);
+                            return tango;
+ 274: // try_start_1
+                            tango = _closure1_slot0;
+                            oscar = _closure1_slot2;
+                            mike = 12;
+                            mike = oscar[mike];
+                            oscar = tango.bind(report)(mike);
+                            tango = oscar.transitionToGuild;
+                            mike = _closure2_slot0;
+                            mike = mike.guildId;
+                            mike = tango.bind(oscar)(mike);
+ 314: // try_end1
+                            oscar = _closure2_slot2;
+                            tango = false;
+                            tango = oscar.bind(report)(tango);
+                            mike = undefined;
+                            return mike;
+ 330: // catch_target0 // catch_target1
+                            CatchBlockStart(arg_register=1);
+                            tango = _closure2_slot2;
+                            zulu = false;
+                            zulu = tango.bind(report)(zulu);
+                            throw mike;
+ 345:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                mike = tango.bind(zulu)(mike);
+                var _closure3_slot0 = mike;
+                entity = function() {
+                    entity = undefined;
+                    tango = _closure3_slot0;
+                    zulu = tango.apply;
+                    entity = arguments;
+                    mike = entity;
+                    entity = this;
+                    entity = zulu.bind(tango)(entity, mike);
+                    return entity;
+                };
+                return entity;
+            };
+            backup = entity.bind(tango)();
+            mike = _closure1_slot1;
+            entity = 16;
+            entity = zulu[entity];
+            zulu = mike.bind(tango)(entity);
+            mike = zulu.getGuildIconURL;
+            entity = {};
+            oscar = vacuum.guildId;
+            entity['id'] = oscar;
+            oscar = vacuum.icon;
+            entity['icon'] = oscar;
+            oscar = 40;
+            entity['size'] = oscar;
+            entity = mike.bind(zulu)(entity);
+            mike = verify != entity;
+            update = undefined;
+            if(!mike) { _fun79303_ip = 233; continue _fun79303 }
+ 230:
+            update = entity;
+ 233:
+            oscar = _closure1_slot0;
+            entity = _closure1_slot2;
+            variable38 = 17;
+            mike = entity[variable38];
+            mike = oscar.bind(tango)(mike);
+            zulu = mike.intl;
+            mike = zulu.string;
+            entity = entity[variable38];
+            entity = oscar.bind(tango)(entity);
+            entity = entity.t;
+            entity = entity.VJlc0d;
+            romeo = mike.bind(zulu)(entity);
+            if(!result) { _fun79303_ip = 343; continue _fun79303 }
+ 291:
+            oscar = _closure1_slot0;
+            entity = _closure1_slot2;
+            mike = entity[variable38];
+            mike = oscar.bind(tango)(mike);
+            zulu = mike.intl;
+            mike = zulu.string;
+            entity = entity[variable38];
+            entity = oscar.bind(tango)(entity);
+            entity = entity.t;
+            entity = entity.cqWE2d;
+            romeo = mike.bind(zulu)(entity);
+ 343:
+            zulu = _closure1_slot11;
+            yankee = _closure1_slot1;
+            source = _closure1_slot2;
+            entity = 18;
+            entity = source[entity];
+            mike = yankee.bind(tango)(entity);
+            entity = {};
+            report = function() { // Original name: onLongPress
+                report = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 19;
+                tango = mike[entity];
+                entity = undefined;
+                oscar = report.bind(entity)(tango);
+                report = oscar.openLazy;
+                tango = _closure1_slot0;
+                zulu = 21;
+                zulu = mike[zulu];
+                tango = tango.bind(entity)(zulu);
+                zulu = 20;
+                zulu = mike[zulu];
+                mike = mike.paths;
+                tango = tango.bind(entity)(zulu, mike);
+                zulu = {};
+                mike = _closure2_slot0;
+                zulu['entry'] = mike;
+                mike = 'GuildDirectoryMoreActionSheet';
+                mike = report.bind(oscar)(tango, mike, zulu);
+                return entity;
+            };
+            entity['onLongPress'] = report;
+            report = output.container;
+            entity['style'] = report;
+            golf = _closure1_slot13;
+            oscar = _closure1_slot6;
+            report = {};
+            options = output.guildWrapper;
+            report['style'] = options;
+            options = {};
+            offset = output.titleContainer;
+            options['style'] = offset;
+            offset = 22;
+            offset = source[offset];
+            yankee = yankee.bind(tango)(offset);
+            offset = {};
+            source = output.guildIcon;
+            offset['style'] = source;
+            offset['icon'] = update;
+            source = verify == update;
+            update = undefined;
+            if(!source) { _fun79303_ip = 486; continue _fun79303 }
+ 459:
+            source = _closure1_slot7;
+            control = source.prototype;
+            control = Object.create(control, {constructor: {value: source}});
+            variable41 = control;
+            variable40 = vacuum;
+            source = new variable41[source](variable40, variable39);
+            update = source instanceof Object ? source : control;
+ 486:
+            offset['guild'] = update;
+            offset['selected'] = kilo;
+            yankee = zulu.bind(tango)(yankee, offset);
+            offset = new Array(2);
+            offset[0] = yankee;
+            source = _closure1_slot13;
+            kilo = _closure1_slot6;
+            yankee = {};
+            update = output.guildInfoContainer;
+            yankee['style'] = update;
+            sequence = _closure1_slot11;
+            vacuum = _closure1_slot0;
+            control = _closure1_slot2;
+            update = 23;
+            control = control[update];
+            control = vacuum.bind(tango)(control);
+            vacuum = control.Text;
+            control = {'style': null, 'variant': 'text-md/semibold', 'color': 'header-primary'};
+            record = output.guildName;
+            control['style'] = record;
+            control['children'] = config;
+            vacuum = sequence.bind(tango)(vacuum, control);
+            control = new Array(2);
+            control[0] = vacuum;
+            vacuum = {};
+            sequence = output.memberInfo;
+            vacuum['style'] = sequence;
+            sequence = verify != variable36;
+            config = null;
+            if(!sequence) { _fun79303_ip = 782; continue _fun79303 }
+ 626:
+            context = _closure1_slot13;
+            record = _closure1_slot12;
+            sequence = {};
+            sierra = _closure1_slot11;
+            target = _closure1_slot6;
+            papa = {};
+            status = output.dotOnline;
+            papa['style'] = status;
+            target = sierra.bind(tango)(target, papa);
+            papa = new Array(2);
+            papa[0] = target;
+            whiskey = _closure1_slot0;
+            lima = _closure1_slot2;
+            target = lima[update];
+            target = whiskey.bind(tango)(target);
+            status = target.Text;
+            target = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            equality = lima[variable38];
+            equality = whiskey.bind(tango)(equality);
+            quebec = equality.intl;
+            equality = quebec.format;
+            lima = lima[variable38];
+            lima = whiskey.bind(tango)(lima);
+            lima = lima.t;
+            whiskey = lima.LC+S+v;
+            lima = {};
+            lima['membersOnline'] = variable36;
+            lima = equality.bind(quebec)(whiskey, lima);
+            target['children'] = lima;
+            target = sierra.bind(tango)(status, target);
+            papa[1] = target;
+            sequence['children'] = papa;
+            config = context.bind(tango)(record, sequence);
+ 782:
+            sequence = new Array(2);
+            sequence[0] = config;
+            record = verify != variable37;
+            config = null;
+            if(!record) { _fun79303_ip = 957; continue _fun79303 }
+ 802:
+            papa = _closure1_slot13;
+            context = _closure1_slot12;
+            record = {};
+            lima = _closure1_slot11;
+            status = _closure1_slot6;
+            target = {};
+            sierra = output.dotOffline;
+            target['style'] = sierra;
+            status = lima.bind(tango)(status, target);
+            target = new Array(2);
+            target[0] = status;
+            equality = _closure1_slot0;
+            whiskey = _closure1_slot2;
+            status = whiskey[update];
+            status = equality.bind(tango)(status);
+            sierra = status.Text;
+            status = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
+            quebec = whiskey[variable38];
+            quebec = equality.bind(tango)(quebec);
+            variable36 = quebec.intl;
+            quebec = variable36.format;
+            whiskey = whiskey[variable38];
+            whiskey = equality.bind(tango)(whiskey);
+            whiskey = whiskey.t;
+            equality = whiskey.zRl6XV;
+            whiskey = {};
+            whiskey['count'] = variable37;
+            whiskey = quebec.bind(variable36)(equality, whiskey);
+            status['children'] = whiskey;
+            status = lima.bind(tango)(sierra, status);
+            target[1] = status;
+            record['children'] = target;
+            config = papa.bind(tango)(context, record);
+ 957:
+            sequence[1] = config;
+            vacuum['children'] = sequence;
+            vacuum = source.bind(tango)(kilo, vacuum);
+            control[1] = vacuum;
+            yankee['children'] = control;
+            yankee = source.bind(tango)(kilo, yankee);
+            offset[1] = yankee;
+            options['children'] = offset;
+            offset = golf.bind(tango)(oscar, options);
+            options = new Array(4);
+            options[0] = offset;
+            verify = verify != echo;
+            if(!verify) { _fun79303_ip = 1022; continue _fun79303 }
+ 1014:
+            offset = '';
+            verify = offset !== echo;
+ 1022:
+            if(!verify) { _fun79303_ip = 1087; continue _fun79303 }
+ 1025:
+            kilo = _closure1_slot11;
+            yankee = _closure1_slot0;
+            offset = _closure1_slot2;
+            offset = offset[update];
+            offset = yankee.bind(tango)(offset);
+            yankee = offset.Text;
+            offset = {'lineClamp': 3, 'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            update = output.guildDescription;
+            offset['style'] = update;
+            offset['children'] = echo;
+            verify = kilo.bind(tango)(yankee, offset);
+ 1087:
+            options[1] = verify;
+            yankee = _closure1_slot11;
+            offset = _closure1_slot6;
+            verify = {};
+            kilo = output.flex;
+            verify['style'] = kilo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[2] = verify;
+            offset = _closure1_slot1;
+            verify = _closure1_slot2;
+            kilo = 24;
+            verify = verify[kilo];
+            offset = offset.bind(tango)(verify);
+            verify = {};
+            verify['loading'] = sizing;
+            verify['onPress'] = backup;
+            sizing = output.cta;
+            backup = new Array(2);
+            backup[0] = sizing;
+            sizing = undefined;
+            if(!result) { _fun79303_ip = 1176; continue _fun79303 }
+ 1170:
+            sizing = output.grey;
+ 1176:
+            backup[1] = sizing;
+            verify['style'] = backup;
+            backup = _closure1_slot1;
+            foxtrot = _closure1_slot2;
+            foxtrot = foxtrot[kilo];
+            foxtrot = backup.bind(tango)(foxtrot);
+            foxtrot = foxtrot.Colors;
+            foxtrot = foxtrot.GREEN;
+            verify['color'] = foxtrot;
+            verify['text'] = romeo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[3] = verify;
+            report['children'] = options;
+            report = golf.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 25;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/directory_channels/native/components/GuildDirectoryRow.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

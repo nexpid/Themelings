@@ -1,0 +1,34 @@
+// app/modules/main_tabs_v2/native/tabs/gravity/info_modal/ICYMIInfoModalTypes.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'default';
+    mike['DEFAULT'] = entity;
+    entity = 'topics_cloud';
+    mike['TOPICS_CLOUD'] = entity;
+    entity = 'join_guilds';
+    mike['JOIN_GUILDS'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/tabs/gravity/info_modal/ICYMIInfoModalTypes.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = 'icymi-info-modal';
+    zulu['ICYMI_INFO_MODAL_KEY'] = tango;
+    tango = 48;
+    zulu['ICYMI_DISCOVERABLE_GUILDS_PAGE_SIZE'] = tango;
+    zulu['ICYMIInfoScreens'] = mike;
+    return entity;
+})();

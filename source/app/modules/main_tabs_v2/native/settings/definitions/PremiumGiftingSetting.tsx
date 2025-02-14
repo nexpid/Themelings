@@ -1,0 +1,136 @@
+// app/modules/main_tabs_v2/native/settings/definitions/PremiumGiftingSetting.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    tango = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    tango = mike.RendererType;
+    mike = 1;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    options = mike.UserSettingsSections;
+    mike = 2;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    mike = mike.jsx;
+    var _closure1_slot3 = mike;
+    mike = {};
+    tango = tango.ROUTE;
+    mike['type'] = tango;
+    tango = function() { // Original name: title
+        report = _closure1_slot0;
+        oscar = _closure1_slot2;
+        entity = 7;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.Oba8Sk;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    mike['title'] = tango;
+    tango = null;
+    mike['parent'] = tango;
+    tango = 8;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.GiftIcon;
+    mike['IconComponent'] = tango;
+    tango = function() { // Original name: canNavigateToPaymentSetting
+        _fun96148: for(var _fun96148_ip = 0; ; ) switch(_fun96148_ip) {
+ 0:
+            mike = _closure1_slot1;
+            tango = _closure1_slot2;
+            entity = 3;
+            entity = tango[entity];
+            tango = undefined;
+            golf = mike.bind(tango)(entity);
+            oscar = golf.getCurrentConfig;
+            report = {};
+            entity = 'ddafe5_1';
+            report['location'] = entity;
+            entity = {};
+            mike = false;
+            entity['autoTrackExposure'] = mike;
+            entity = oscar.bind(golf)(report, entity);
+            entity = entity.paymentsBlocked;
+            entity = !entity;
+            if(entity) { _fun96148_ip = 96; continue _fun96148 }
+ 70:
+            report = _closure1_slot1;
+            oscar = _closure1_slot2;
+            zulu = 4;
+            zulu = oscar[zulu];
+            zulu = report.bind(tango)(zulu);
+            zulu = zulu.bind(tango)();
+            entity = false;
+ 96:
+            return entity;
+        }
+    };
+    mike['preNavigationAction'] = tango;
+    tango = function() { // Original name: usePremiumGiftingSettingTrailing
+        zulu = _closure1_slot0;
+        oscar = _closure1_slot2;
+        mike = 5;
+        mike = oscar[mike];
+        tango = undefined;
+        zulu = zulu.bind(tango)(mike);
+        mike = zulu.useUnseenOutboundPromotions;
+        report = mike.bind(zulu)();
+        zulu = _closure1_slot3;
+        mike = _closure1_slot1;
+        entity = 6;
+        entity = oscar[entity];
+        mike = mike.bind(tango)(entity);
+        entity = {};
+        report = report.length;
+        entity['value'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    mike['useTrailing'] = tango;
+    tango = {};
+    options = options.PREMIUM_GIFTING;
+    tango['route'] = options;
+    golf = function() { // Original name: getComponent
+        zulu = _closure1_slot0;
+        mike = _closure1_slot2;
+        entity = 9;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        entity = entity.default;
+        return entity;
+    };
+    tango['getComponent'] = golf;
+    mike['screen'] = tango;
+    tango = 10;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/settings/definitions/PremiumGiftingSetting.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

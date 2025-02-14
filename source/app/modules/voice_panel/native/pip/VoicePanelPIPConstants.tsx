@@ -1,0 +1,38 @@
+// app/modules/voice_panel/native/pip/VoicePanelPIPConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'IN_APP';
+    mike['IN_APP'] = entity;
+    entity = 'IN_PANEL';
+    mike['IN_PANEL'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/voice_panel/native/pip/VoicePanelPIPConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['VoicePanelPIPModes'] = mike;
+    mike = 44;
+    zulu['PIP_OFFSET_BOTTOM'] = mike;
+    mike = {'width': 200, 'height': 200};
+    zulu['PIPReferenceDimensions'] = mike;
+    mike = {'width': 120, 'height': 120};
+    zulu['SquarePIPReferenceDimensions'] = mike;
+    mike = {'width': 96, 'height': 96};
+    zulu['SquareActivityPIPReferenceDimensions'] = mike;
+    mike = 72;
+    zulu['DEFAULT_PIP_POSITION_OFFSET'] = mike;
+    return entity;
+})();

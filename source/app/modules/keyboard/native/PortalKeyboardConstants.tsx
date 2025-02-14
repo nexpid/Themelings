@@ -1,0 +1,31 @@
+// app/modules/keyboard/native/PortalKeyboardConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    entity = 0;
+    mike = golf[entity];
+    entity = undefined;
+    options = oscar.bind(entity)(mike);
+    report = options.getKeyboardAnimationConfigs;
+    mike = 'keyboard';
+    tango = 250;
+    mike = report.bind(options)(mike, tango);
+    report = 1;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/keyboard/native/PortalKeyboardConstants.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['KEYBOARD_ANIMATION_DURATION'] = tango;
+    zulu['KEYBOARD_ANIMATION_CONFIG'] = mike;
+    return entity;
+})();

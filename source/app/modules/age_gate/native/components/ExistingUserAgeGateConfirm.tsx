@@ -1,0 +1,258 @@
+// app/modules/age_gate/native/components/ExistingUserAgeGateConfirm.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    tango = argCorge;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.HelpdeskArticles;
+    var _closure1_slot6 = tango;
+    tango = 4;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot7 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot8 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {'padding': 16, 'flex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
+    tango['container'] = verify;
+    verify = {'textAlign': 'center', 'marginBottom': 8};
+    tango['header'] = verify;
+    verify = {'textAlign': 'center', 'lineHeight': 20, 'marginBottom': 16};
+    tango['body'] = verify;
+    verify = {'width': '100%', 'flexGrow': 0};
+    tango['button'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot9 = tango;
+    tango = 13;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/age_gate/native/components/ExistingUserAgeGateConfirm.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: ExistingUserAgeGateConfirm
+        entity = argFoo;
+        result = entity.age;
+        entity = entity.onConfirm;
+        var _closure2_slot0 = entity;
+        tango = undefined;
+        var _closure2_slot1 = tango;
+        var _closure2_slot2 = tango;
+        entity = function() { // Original name: _handleConfirm
+            tango = undefined;
+            entity = undefined;
+            zulu = _closure1_slot3;
+            mike = function* () {
+                entity = function* () { // Original name: ?anon_0_
+                    _fun123068: for(var _fun123068_ip = 0; ; ) switch(_fun123068_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(mike) { _fun123068_ip = 99; continue _fun123068 }
+ 7:
+                        report = _closure2_slot2;
+                        mike = undefined;
+                        tango = true;
+                        tango = report.bind(mike)(tango);
+ 23: // try_start_0
+                        tango = _closure2_slot0;
+                        tango = tango.bind(mike)();
+                        SaveGenerator(address=35);
+ 33:
+                        return tango;
+ 35:
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                        if(report) { _fun123068_ip = 66; continue _fun123068 }
+ 41:
+                        report = tango.shouldShowError;
+                        if(!report) { _fun123068_ip = 64; continue _fun123068 }
+ 50:
+                        oscar = _closure2_slot1;
+                        report = oscar.pop;
+                        report = report.bind(oscar)();
+ 64: // try_end0
+                        _fun123068_ip = 85; continue _fun123068;
+ 66:
+                        return tango;
+ 69: // catch_target0
+                        CatchBlockStart(arg_register=3);
+                        report = _closure2_slot1;
+                        tango = report.pop;
+                        tango = tango.bind(report)();
+ 85:
+                        tango = _closure2_slot2;
+                        zulu = false;
+                        zulu = tango.bind(mike)(zulu);
+                        return mike;
+ 99:
+                        return entity;
+                    }
+                };
+                return entity;
+            };
+            tango = zulu.bind(tango)(mike);
+            _closure2_slot3 = tango;
+            zulu = tango.apply;
+            entity = arguments;
+            mike = entity;
+            entity = this;
+            entity = zulu.bind(tango)(entity, mike);
+            return entity;
+        };
+        var _closure2_slot3 = entity;
+        entity = _closure1_slot9;
+        yankee = entity.bind(tango)();
+        foxtrot = _closure1_slot0;
+        backup = _closure1_slot2;
+        entity = 6;
+        entity = backup[entity];
+        mike = foxtrot.bind(tango)(entity);
+        entity = mike.useNavigation;
+        entity = entity.bind(mike)();
+        _closure2_slot1 = entity;
+        zulu = _closure1_slot5;
+        mike = zulu.useState;
+        entity = false;
+        zulu = mike.bind(zulu)(entity);
+        mike = _closure1_slot4;
+        entity = 2;
+        mike = mike.bind(tango)(zulu, entity);
+        entity = 0;
+        romeo = mike[entity];
+        entity = 1;
+        entity = mike[entity];
+        _closure2_slot2 = entity;
+        zulu = _closure1_slot8;
+        entity = 7;
+        entity = backup[entity];
+        entity = foxtrot.bind(tango)(entity);
+        mike = entity.SafeAreaPaddingView;
+        entity = {};
+        report = true;
+        entity['top'] = report;
+        report = yankee.container;
+        entity['style'] = report;
+        options = _closure1_slot7;
+        report = 8;
+        report = backup[report];
+        report = foxtrot.bind(tango)(report);
+        oscar = report.Text;
+        report = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+        golf = yankee.header;
+        report['style'] = golf;
+        offset = 9;
+        golf = backup[offset];
+        golf = foxtrot.bind(tango)(golf);
+        output = golf.intl;
+        sizing = output.format;
+        golf = backup[offset];
+        golf = foxtrot.bind(tango)(golf);
+        golf = golf.t;
+        kilo = golf.wumolZ;
+        golf = {};
+        golf['age'] = result;
+        golf = sizing.bind(output)(kilo, golf);
+        report['children'] = golf;
+        oscar = options.bind(tango)(oscar, report);
+        report = new Array(3);
+        report[0] = oscar;
+        oscar = 10;
+        oscar = backup[oscar];
+        oscar = foxtrot.bind(tango)(oscar);
+        kilo = oscar.TextWithIOSLinkWorkaround;
+        oscar = {'style': null, 'variant': 'text-md/medium', 'color': 'interactive-normal'};
+        golf = yankee.body;
+        oscar['style'] = golf;
+        golf = backup[offset];
+        golf = foxtrot.bind(tango)(golf);
+        echo = golf.intl;
+        result = echo.format;
+        golf = backup[offset];
+        golf = foxtrot.bind(tango)(golf);
+        golf = golf.t;
+        output = golf.n3QjDA;
+        sizing = {};
+        golf = _closure1_slot1;
+        source = 11;
+        source = backup[source];
+        control = golf.bind(tango)(source);
+        source = control.getArticleURL;
+        update = _closure1_slot6;
+        update = update.AGE_GATE;
+        update = source.bind(control)(update);
+        sizing['helpURL'] = update;
+        sizing = result.bind(echo)(output, sizing);
+        oscar['children'] = sizing;
+        oscar = options.bind(tango)(kilo, oscar);
+        report[1] = oscar;
+        oscar = 12;
+        oscar = backup[oscar];
+        golf = golf.bind(tango)(oscar);
+        oscar = {};
+        oscar['loading'] = romeo;
+        yankee = yankee.button;
+        oscar['style'] = yankee;
+        yankee = backup[offset];
+        yankee = foxtrot.bind(tango)(yankee);
+        romeo = yankee.intl;
+        yankee = romeo.string;
+        offset = backup[offset];
+        offset = foxtrot.bind(tango)(offset);
+        offset = offset.t;
+        offset = offset.6tahio;
+        offset = yankee.bind(romeo)(offset);
+        oscar['text'] = offset;
+        verify = function() { // Original name: handleConfirm
+            entity = undefined;
+            tango = _closure2_slot3;
+            zulu = tango.apply;
+            entity = arguments;
+            mike = entity;
+            entity = this;
+            entity = zulu.bind(tango)(entity, mike);
+            return entity;
+        };
+        oscar['onPress'] = verify;
+        oscar = options.bind(tango)(golf, oscar);
+        report[2] = oscar;
+        entity['children'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

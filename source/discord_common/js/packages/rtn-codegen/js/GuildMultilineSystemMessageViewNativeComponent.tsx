@@ -1,0 +1,40 @@
+// discord_common/js/packages/rtn-codegen/js/GuildMultilineSystemMessageViewNativeComponent.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    mike = {};
+    report = true;
+    mike['value'] = report;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, mike);
+    mike = {};
+    verify = 'DCDGuildMultilineSystemMessageView';
+    mike['uiViewClassName'] = verify;
+    entity = {};
+    entity['row'] = report;
+    mike['validAttributes'] = entity;
+    var _closure1_slot0 = mike;
+    entity = 0;
+    report = golf[entity];
+    entity = undefined;
+    options = oscar.bind(entity)(report);
+    report = options.get;
+    tango = function() {
+        entity = _closure1_slot0;
+        return entity;
+    };
+    tango = report.bind(options)(verify, tango);
+    report = 1;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = '../discord_common/js/packages/rtn-codegen/js/GuildMultilineSystemMessageViewNativeComponent.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['default'] = tango;
+    zulu['__INTERNAL_VIEW_CONFIG'] = mike;
+    return entity;
+})();

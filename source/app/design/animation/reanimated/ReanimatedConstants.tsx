@@ -1,0 +1,30 @@
+// app/design/animation/reanimated/ReanimatedConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    mike = {};
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.ReduceMotion;
+    tango = tango.Always;
+    mike['reduceMotion'] = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/animation/reanimated/ReanimatedConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['CONFIG_NEVER_ANIMATE'] = mike;
+    return entity;
+})();

@@ -1,0 +1,35 @@
+// app/modules/rpc/native/server/NativeRPCServerManager.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    tango = argBaz;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    mike = report[entity];
+    entity = undefined;
+    oscar = tango.bind(entity)(mike);
+    mike = 1;
+    mike = report[mike];
+    offset = tango.bind(entity)(mike);
+    tango = oscar.prototype;
+    tango = Object.create(tango, {constructor: {value: oscar}});
+    yankee = tango;
+    mike = new yankee[oscar](offset, verify);
+    mike = mike instanceof Object ? mike : tango;
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/rpc/native/server/NativeRPCServerManager.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

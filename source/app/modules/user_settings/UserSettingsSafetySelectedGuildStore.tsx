@@ -1,0 +1,81 @@
+// app/modules/user_settings/UserSettingsSafetySelectedGuildStore.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    golf = argBar;
+    zulu = argFred;
+    options = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = {};
+    report = '0';
+    entity['selectedGuildId'] = report;
+    var _closure1_slot0 = entity;
+    entity = 0;
+    tango = options[entity];
+    entity = undefined;
+    verify = golf.bind(entity)(tango);
+    oscar = verify.create;
+    tango = function(argFoo) {
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        entity = {};
+        report = _closure1_slot0;
+        oscar = entity;
+        zulu = copyDataProperties(oscar, report);
+        tango = function(argFoo) { // Original name: setSelectedGuildId
+            zulu = _closure2_slot0;
+            mike = {};
+            entity = argFoo;
+            mike['selectedGuildId'] = entity;
+            entity = undefined;
+            mike = zulu.bind(entity)(mike);
+            return entity;
+        };
+        zulu = 'setSelectedGuildId';
+        entity[zulu] = tango;
+        zulu = function() { // Original name: reset
+            zulu = _closure2_slot0;
+            mike = _closure1_slot0;
+            entity = undefined;
+            mike = zulu.bind(entity)(mike);
+            return entity;
+        };
+        mike = 'reset';
+        entity[mike] = zulu;
+        return entity;
+    };
+    tango = oscar.bind(verify)(tango);
+    var _closure1_slot1 = tango;
+    oscar = 1;
+    oscar = options[oscar];
+    options = golf.bind(entity)(oscar);
+    golf = options.fileFinishedImporting;
+    oscar = 'modules/user_settings/UserSettingsSafetySelectedGuildStore.tsx';
+    oscar = golf.bind(options)(oscar);
+    zulu['GUILD_SELECT_ALL_SERVERS_OPTION_ID'] = report;
+    zulu['useUserSafetySettingsSelectedGuildStore'] = tango;
+    tango = function(argFoo) { // Original name: setSelectedGuildId
+        zulu = _closure1_slot1;
+        mike = zulu.setState;
+        entity = {};
+        tango = argFoo;
+        entity['selectedGuildId'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['setSelectedGuildId'] = tango;
+    mike = function() { // Original name: getSelectedGuildId
+        mike = _closure1_slot1;
+        entity = mike.getState;
+        entity = entity.bind(mike)();
+        entity = entity.selectedGuildId;
+        return entity;
+    };
+    zulu['getSelectedGuildId'] = mike;
+    return entity;
+})();

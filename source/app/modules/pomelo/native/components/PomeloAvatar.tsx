@@ -1,0 +1,122 @@
+// app/modules/pomelo/native/components/PomeloAvatar.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    options = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(options);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot5 = tango;
+    tango = 9;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/pomelo/native/components/PomeloAvatar.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: PomeloAvatar
+        _fun94369: for(var _fun94369_ip = 0; ; ) switch(_fun94369_ip) {
+ 0:
+            entity = argFoo;
+            offset = entity.user;
+            report = _closure1_slot0;
+            yankee = _closure1_slot2;
+            entity = 4;
+            entity = yankee[entity];
+            tango = undefined;
+            oscar = report.bind(tango)(entity);
+            zulu = oscar.useStateFromStores;
+            entity = _closure1_slot4;
+            mike = new Array(1);
+            mike[0] = entity;
+            entity = function() {
+                entity = _closure1_slot4;
+                entity = entity.useReducedMotion;
+                return entity;
+            };
+            options = zulu.bind(oscar)(mike, entity);
+            entity = 5;
+            entity = yankee[entity];
+            zulu = report.bind(tango)(entity);
+            mike = zulu.memoizedImageSource;
+            entity = 6;
+            entity = yankee[entity];
+            oscar = report.bind(tango)(entity);
+            report = oscar.getUserAvatarURLForPomelo;
+            entity = !options;
+            entity = report.bind(oscar)(offset, entity);
+            golf = mike.bind(zulu)(entity);
+            zulu = _closure1_slot5;
+            mike = _closure1_slot3;
+            entity = {};
+            oscar = _closure1_slot1;
+            report = 7;
+            report = yankee[report];
+            oscar = oscar.bind(tango)(report);
+            report = null;
+            if(!(report != golf)) { _fun94369_ip = 199; continue _fun94369 }
+ 147:
+            report = {};
+            report['source'] = golf;
+            yankee = _closure1_slot0;
+            romeo = _closure1_slot2;
+            golf = 8;
+            golf = romeo[golf];
+            golf = yankee.bind(tango)(golf);
+            golf = golf.AvatarSizes;
+            golf = golf.XXLARGE;
+            report['size'] = golf;
+            golf = !options;
+            report['animate'] = golf;
+            _fun94369_ip = 256; continue _fun94369;
+ 199:
+            golf = {};
+            golf['user'] = offset;
+            golf['guildId'] = tango;
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            verify = 8;
+            verify = yankee[verify];
+            verify = offset.bind(tango)(verify);
+            verify = verify.AvatarSizes;
+            verify = verify.XXLARGE;
+            golf['size'] = verify;
+            options = !options;
+            golf['animate'] = options;
+            report = golf;
+ 256:
+            report = zulu.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

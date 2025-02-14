@@ -1,0 +1,82 @@
+// app/modules/launch_welcome/native/useLaunchWelcomeNux.tsx
+export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot2 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.create;
+    tango = function() {
+        entity = {};
+        mike = false;
+        entity['isNuxVisible'] = mike;
+        return entity;
+    };
+    tango = golf.bind(options)(tango);
+    var _closure1_slot3 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/launch_welcome/native/useLaunchWelcomeNux.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: useLaunchWelcomeNuxVisible
+        report = _closure1_slot3;
+        tango = undefined;
+        zulu = function(argFoo) {
+            entity = argFoo;
+            entity = entity.isNuxVisible;
+            return entity;
+        };
+        zulu = report.bind(tango)(zulu);
+        report = _closure1_slot2;
+        tango = report.useCallback;
+        mike = function(argFoo) {
+            mike = argFoo;
+            var _closure3_slot0 = mike;
+            tango = _closure1_slot0;
+            zulu = _closure1_slot1;
+            mike = 2;
+            zulu = zulu[mike];
+            mike = undefined;
+            zulu = tango.bind(mike)(zulu);
+            mike = zulu.batchUpdates;
+            entity = function() {
+                zulu = _closure1_slot3;
+                mike = zulu.setState;
+                entity = {};
+                tango = _closure3_slot0;
+                entity['isNuxVisible'] = tango;
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            entity = mike.bind(zulu)(entity);
+            return entity;
+        };
+        entity = new Array(0);
+        mike = tango.bind(report)(mike, entity);
+        entity = {};
+        entity['isNuxVisible'] = zulu;
+        entity['setNuxVisible'] = mike;
+        return entity;
+    };
+    zulu['useLaunchWelcomeNuxVisible'] = mike;
+    return entity;
+})();

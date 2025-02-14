@@ -1,0 +1,34 @@
+// app/design/animation/reanimated/spring/springPresets.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'design/animation/reanimated/spring/springPresets.tsx';
+    mike = tango.bind(report)(mike);
+    mike = {'mass': 1, 'damping': 27, 'stiffness': 300};
+    zulu['SUBTLE_SPRING'] = mike;
+    mike = {'mass': 1, 'overshootClamping': true, 'damping': 27, 'stiffness': 300};
+    zulu['ON_PRESS_SPRING'] = mike;
+    mike = {'mass': 1, 'damping': 30, 'stiffness': 380};
+    zulu['springSlow'] = mike;
+    mike = {'mass': 0.35, 'damping': 13, 'stiffness': 250};
+    zulu['springUnclamped'] = mike;
+    mike = {'mass': 0.3, 'damping': 13, 'stiffness': 250};
+    zulu['springUnclampedBounce'] = mike;
+    mike = {'mass': 0.35, 'damping': 13, 'stiffness': 250, 'overshootClamping': true};
+    zulu['springStandard'] = mike;
+    return entity;
+})();

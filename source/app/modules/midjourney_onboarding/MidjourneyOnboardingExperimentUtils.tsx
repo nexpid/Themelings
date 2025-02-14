@@ -1,0 +1,58 @@
+// app/modules/midjourney_onboarding/MidjourneyOnboardingExperimentUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    entity = true;
+    oscar['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 1;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/midjourney_onboarding/MidjourneyOnboardingExperimentUtils.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: useIsEligibleForMidjourneyOnboarding
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        zulu = entity.MidjourneyOnboardingExperiment;
+        mike = zulu.useExperiment;
+        entity = {};
+        tango = argFoo;
+        entity['location'] = tango;
+        entity = mike.bind(zulu)(entity);
+        entity = entity.enabled;
+        return entity;
+    };
+    zulu['useIsEligibleForMidjourneyOnboarding'] = tango;
+    mike = function(argFoo) { // Original name: isEligibleForMidjourneyOnboarding
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        zulu = entity.MidjourneyOnboardingExperiment;
+        mike = zulu.getCurrentConfig;
+        entity = {};
+        tango = argFoo;
+        entity['location'] = tango;
+        entity = mike.bind(zulu)(entity);
+        entity = entity.enabled;
+        return entity;
+    };
+    zulu['isEligibleForMidjourneyOnboarding'] = mike;
+    return entity;
+})();

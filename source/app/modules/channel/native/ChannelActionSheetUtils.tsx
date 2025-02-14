@@ -1,0 +1,48 @@
+// app/modules/channel/native/ChannelActionSheetUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    entity = true;
+    oscar['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 3;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/channel/native/ChannelActionSheetUtils.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo, argBar) { // Original name: copyGuildChannelOrThreadLink
+        zulu = _closure1_slot0;
+        tango = _closure1_slot1;
+        entity = 0;
+        mike = tango[entity];
+        entity = undefined;
+        golf = zulu.bind(entity)(mike);
+        oscar = golf.getChannelPermalink;
+        report = argFoo;
+        mike = argBar;
+        oscar = oscar.bind(golf)(report, mike);
+        mike = 1;
+        mike = tango[mike];
+        report = zulu.bind(entity)(mike);
+        mike = report.copy;
+        mike = mike.bind(report)(oscar);
+        mike = 2;
+        mike = tango[mike];
+        zulu = zulu.bind(entity)(mike);
+        mike = zulu.presentLinkCopied;
+        mike = mike.bind(zulu)();
+        return entity;
+    };
+    zulu['copyGuildChannelOrThreadLink'] = mike;
+    return entity;
+})();

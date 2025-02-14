@@ -1,0 +1,32 @@
+// app/modules/notification_center/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/notification_center/Constants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = '#83DDC5';
+    zulu['PROFILE_BACKGROUND'] = mike;
+    mike = '#F47FFF';
+    zulu['FRIEND_BACKGROUND'] = mike;
+    mike = '#FFDE4D';
+    zulu['MESSAGE_BACKGROUND'] = mike;
+    mike = '#DA373C';
+    zulu['MENTION_BACKGROUND'] = mike;
+    mike = '#3498DB';
+    zulu['REPLY_BACKGROUND'] = mike;
+    return entity;
+})();

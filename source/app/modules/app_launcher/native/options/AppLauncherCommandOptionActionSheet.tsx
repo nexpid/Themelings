@@ -1,0 +1,203 @@
+// app/modules/app_launcher/native/options/AppLauncherCommandOptionActionSheet.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    foxtrot = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = foxtrot;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    offset = 1;
+    tango = oscar[offset];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    yankee = tango.DEFAULT_CONTENT_PADDING;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot4 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    romeo = 5;
+    romeo = oscar[romeo];
+    romeo = foxtrot.bind(entity)(romeo);
+    romeo = romeo.colors;
+    romeo = romeo.BG_BASE_SECONDARY;
+    verify['backgroundColor'] = romeo;
+    tango['actionSheetBackground'] = verify;
+    verify = {};
+    romeo = 'transparent';
+    verify['backgroundColor'] = romeo;
+    tango['titleContainer'] = verify;
+    verify = {};
+    romeo = 'center';
+    verify['alignItems'] = romeo;
+    tango['titleWrapper'] = verify;
+    verify = {'paddingHorizontal': 12, 'textAlign': 'center'};
+    tango['subtitleWrapper'] = verify;
+    verify = {};
+    verify['paddingHorizontal'] = yankee;
+    verify['paddingTop'] = yankee;
+    verify['flex'] = offset;
+    tango['contentContainer'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot5 = tango;
+    tango = 11;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_launcher/native/options/AppLauncherCommandOptionActionSheet.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: AppLauncherCommandOptionActionSheet
+        _fun113430: for(var _fun113430_ip = 0; ; ) switch(_fun113430_ip) {
+ 0:
+            tango = argFoo;
+            entity = tango.option;
+            options = tango.children;
+            offset = tango.contentContainerStyles;
+            yankee = tango.scrollable;
+            report = undefined;
+            if(!(yankee === report)) { _fun113430_ip = 36; continue _fun113430 }
+ 34:
+            yankee = true;
+ 36:
+            golf = tango.startExpanded;
+            if(!(golf === report)) { _fun113430_ip = 48; continue _fun113430 }
+ 46:
+            golf = true;
+ 48:
+            zulu = {'option': 0, 'children': 0, 'contentContainerStyles': 0, 'scrollable': 0, 'startExpanded': 0};
+            update = null;
+            source = zulu;
+            mike = silentSetPrototypeOf(source, update);
+            source = {};
+            update = tango;
+            echo = zulu;
+            oscar = copyDataProperties(source, update, echo);
+            var _closure2_slot0 = oscar;
+            mike = _closure1_slot5;
+            verify = mike.bind(report)();
+            tango = _closure1_slot4;
+            sizing = _closure1_slot0;
+            backup = _closure1_slot2;
+            mike = 6;
+            mike = backup[mike];
+            mike = sizing.bind(report)(mike);
+            zulu = mike.BottomSheet;
+            mike = {};
+            source = mike;
+            update = oscar;
+            oscar = copyDataProperties(source, update);
+            foxtrot = verify.actionSheetBackground;
+            oscar = 'backgroundStyles';
+            mike[oscar] = foxtrot;
+            oscar = 'scrollable';
+            mike[oscar] = yankee;
+            oscar = 'startExpanded';
+            mike[oscar] = golf;
+            oscar = 7;
+            oscar = backup[oscar];
+            oscar = sizing.bind(report)(oscar);
+            yankee = oscar.BottomSheetTitleHeader;
+            oscar = {};
+            golf = verify.titleContainer;
+            oscar['titleContainerStyle'] = golf;
+            golf = verify.titleWrapper;
+            oscar['titleWrapperStyle'] = golf;
+            golf = verify.subtitleWrapper;
+            oscar['subtitleStyle'] = golf;
+            golf = _closure1_slot3;
+            foxtrot = {};
+            kilo = {};
+            result = 'flex-start';
+            kilo['alignSelf'] = result;
+            foxtrot['style'] = kilo;
+            kilo = 8;
+            kilo = backup[kilo];
+            kilo = sizing.bind(report)(kilo);
+            sizing = kilo.ActionSheetCloseButton;
+            kilo = {};
+            output = function() { // Original name: onPress
+                _fun113431: for(var _fun113431_ip = 0; ; ) switch(_fun113431_ip) {
+ 0:
+                    zulu = _closure1_slot1;
+                    mike = _closure1_slot2;
+                    entity = 9;
+                    mike = mike[entity];
+                    entity = undefined;
+                    zulu = zulu.bind(entity)(mike);
+                    mike = zulu.hideActionSheet;
+                    mike = mike.bind(zulu)();
+                    zulu = _closure2_slot0;
+                    tango = zulu.onDismiss;
+                    zulu = null;
+                    if(!(zulu != tango)) { _fun113431_ip = 68; continue _fun113431 }
+ 54:
+                    zulu = _closure2_slot0;
+                    mike = zulu.onDismiss;
+                    mike = mike.bind(zulu)();
+ 68:
+                    return entity;
+                }
+            };
+            kilo['onPress'] = output;
+            kilo = tango.bind(report)(sizing, kilo);
+            foxtrot['children'] = kilo;
+            foxtrot = tango.bind(report)(golf, foxtrot);
+            oscar['leading'] = foxtrot;
+            foxtrot = entity.displayName;
+            oscar['title'] = foxtrot;
+            foxtrot = entity.displayDescription;
+            oscar['subtitle'] = foxtrot;
+            foxtrot = _closure1_slot1;
+            romeo = 10;
+            romeo = backup[romeo];
+            foxtrot = foxtrot.bind(report)(romeo);
+            romeo = {};
+            backup = 24;
+            romeo['size'] = backup;
+            romeo = tango.bind(report)(foxtrot, romeo);
+            oscar['trailing'] = romeo;
+            yankee = tango.bind(report)(yankee, oscar);
+            oscar = 'header';
+            mike[oscar] = yankee;
+            oscar = {};
+            yankee = verify.contentContainer;
+            verify = new Array(2);
+            verify[0] = yankee;
+            verify[1] = offset;
+            oscar['style'] = verify;
+            oscar['children'] = options;
+            golf = tango.bind(report)(golf, oscar);
+            oscar = 'children';
+            mike[oscar] = golf;
+            entity = entity.name;
+            entity = tango.bind(report)(zulu, mike, entity);
+            return entity;
+        }
+    };
+    zulu['AppLauncherCommandOptionActionSheet'] = mike;
+    return entity;
+})();

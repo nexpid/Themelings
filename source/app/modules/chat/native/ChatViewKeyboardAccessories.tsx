@@ -1,0 +1,201 @@
+// app/modules/chat/native/ChatViewKeyboardAccessories.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot6 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot7 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot8 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    offset = 7;
+    offset = oscar[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_72;
+    verify['marginBottom'] = offset;
+    tango['placeholder'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot9 = tango;
+    tango = 13;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/chat/native/ChatViewKeyboardAccessories.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: ChatViewKeyboardCloser
+        _fun89469: for(var _fun89469_ip = 0; ; ) switch(_fun89469_ip) {
+ 0:
+            entity = argFoo;
+            zulu = entity.channelId;
+            var _closure2_slot0 = zulu;
+            report = entity.children;
+            oscar = entity.style;
+            golf = _closure1_slot0;
+            tango = _closure1_slot2;
+            zulu = 8;
+            zulu = tango[zulu];
+            tango = undefined;
+            options = golf.bind(tango)(zulu);
+            golf = options.useStateFromStores;
+            verify = _closure1_slot5;
+            zulu = new Array(2);
+            zulu[0] = verify;
+            verify = _closure1_slot6;
+            zulu[1] = verify;
+            mike = function() {
+                tango = _closure1_slot0;
+                zulu = _closure1_slot2;
+                mike = 9;
+                zulu = zulu[mike];
+                mike = undefined;
+                report = tango.bind(mike)(zulu);
+                tango = report.isAlertOrActionSheetOpen;
+                zulu = _closure2_slot0;
+                mike = _closure1_slot5;
+                entity = _closure1_slot6;
+                entity = tango.bind(report)(zulu, mike, entity);
+                return entity;
+            };
+            golf = golf.bind(options)(zulu, mike);
+            zulu = _closure1_slot8;
+            mike = _closure1_slot4;
+            entity = {};
+            entity['style'] = oscar;
+            oscar = 'auto';
+            if(!golf) { _fun89469_ip = 112; continue _fun89469 }
+ 108:
+            oscar = 'none';
+ 112:
+            entity['pointerEvents'] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['ChatViewKeyboardCloser'] = tango;
+    mike = function(argFoo) { // Original name: ChatViewKeyboardAdjustedPlaceholder
+        entity = argFoo;
+        verify = entity.visible;
+        mike = _closure1_slot9;
+        tango = undefined;
+        options = mike.bind(tango)();
+        oscar = _closure1_slot0;
+        golf = _closure1_slot2;
+        mike = 8;
+        mike = golf[mike];
+        yankee = oscar.bind(tango)(mike);
+        offset = yankee.useStateFromStores;
+        mike = _closure1_slot7;
+        report = new Array(1);
+        report[0] = mike;
+        mike = function() {
+            entity = _closure1_slot7;
+            entity = entity.keyboardHeight;
+            return entity;
+        };
+        foxtrot = offset.bind(yankee)(report, mike);
+        var _closure2_slot0 = foxtrot;
+        mike = _closure1_slot1;
+        report = 10;
+        report = golf[report];
+        report = mike.bind(tango)(report);
+        report = report.bind(tango)();
+        romeo = report.bottom;
+        var _closure2_slot1 = romeo;
+        yankee = _closure1_slot3;
+        offset = yankee.useMemo;
+        report = new Array(2);
+        report[0] = foxtrot;
+        report[1] = romeo;
+        zulu = function() {
+            _fun89473: for(var _fun89473_ip = 0; ; ) switch(_fun89473_ip) {
+ 0:
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 11;
+                mike = mike[entity];
+                entity = undefined;
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.isAndroid;
+                mike = mike.bind(zulu)();
+                if(mike) { _fun89473_ip = 81; continue _fun89473 }
+ 37:
+                mike = {};
+                zulu = global;
+                oscar = zulu.Math;
+                report = oscar.max;
+                tango = _closure2_slot0;
+                zulu = _closure2_slot1;
+                tango = tango - zulu;
+                zulu = 0;
+                zulu = report.bind(oscar)(zulu, tango);
+                mike['marginBottom'] = zulu;
+                return mike;
+ 81:
+                return entity;
+            }
+        };
+        report = offset.bind(yankee)(zulu, report);
+        zulu = _closure1_slot8;
+        entity = 12;
+        entity = golf[entity];
+        mike = mike.bind(tango)(entity);
+        entity = {};
+        entity['visible'] = verify;
+        options = options.placeholder;
+        entity['style'] = options;
+        entity['containerStyle'] = report;
+        report = 11;
+        report = golf[report];
+        oscar = oscar.bind(tango)(report);
+        report = oscar.isAndroid;
+        report = report.bind(oscar)();
+        entity['keyboardAware'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    zulu['ChatViewKeyboardAdjustedPlaceholder'] = mike;
+    return entity;
+})();

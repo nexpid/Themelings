@@ -1,0 +1,743 @@
+// app/modules/auth/native/components/RegisterAgeGate.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    romeo = 1;
+    tango = oscar[romeo];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 2;
+    options = oscar[tango];
+    tango = argCorge;
+    tango = tango.bind(entity)(options);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot6 = tango;
+    yankee = 4;
+    tango = oscar[yankee];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot7 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    options = tango.setRegistrationErrors;
+    var _closure1_slot8 = options;
+    options = tango.updateRegistrationOptions;
+    var _closure1_slot9 = options;
+    tango = tango.useRegistrationUIStore;
+    var _closure1_slot10 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    options = tango.RegisterTransitionSteps;
+    var _closure1_slot11 = options;
+    tango = tango.RegistrationTransitionActionTypes;
+    var _closure1_slot12 = tango;
+    tango = 7;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsx;
+    var _closure1_slot13 = options;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsxs;
+    var _closure1_slot14 = options;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.Fragment;
+    var _closure1_slot15 = tango;
+    backup = 8;
+    tango = oscar[backup];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    foxtrot = 16;
+    offset = {'marginTop': 32, 'marginBottom': 16};
+    tango['inputGroup'] = offset;
+    offset = {};
+    offset['marginBottom'] = backup;
+    tango['inputGroupConsentRequired'] = offset;
+    offset = {};
+    offset['marginTop'] = foxtrot;
+    tango['buttonConsentRequired'] = offset;
+    offset = {};
+    offset['flexGrow'] = romeo;
+    tango['flexGrow'] = offset;
+    offset = {'flexGrow': 0, 'marginBottom': 4, 'flexDirection': 'column'};
+    tango['button'] = offset;
+    offset = {};
+    offset['marginTop'] = yankee;
+    tango['privacyHint'] = offset;
+    offset = {};
+    yankee = 9;
+    yankee = oscar[yankee];
+    yankee = golf.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.INTERACTIVE_NORMAL;
+    offset['color'] = yankee;
+    tango['datePickerButton'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot16 = tango;
+    tango = 10;
+    tango = oscar[tango];
+    golf = golf.bind(entity)(tango);
+    tango = golf.utc;
+    golf = tango.bind(golf)();
+    var _closure1_slot17 = golf;
+    tango = golf.toDate;
+    tango = tango.bind(golf)();
+    var _closure1_slot18 = tango;
+    tango = golf.clone;
+    options = tango.bind(golf)();
+    golf = options.endOf;
+    tango = 'year';
+    golf = golf.bind(options)(tango);
+    tango = golf.toDate;
+    tango = tango.bind(golf)();
+    var _closure1_slot19 = tango;
+    tango = 31;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/auth/native/components/RegisterAgeGate.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: RegisterAgeGate
+        _fun111831: for(var _fun111831_ip = 0; ; ) switch(_fun111831_ip) {
+ 0:
+            entity = function() { // Original name: _handleSubmit
+                tango = undefined;
+                entity = undefined;
+                zulu = _closure1_slot3;
+                mike = function* () {
+                    entity = function* () { // Original name: ?anon_0_
+                        _fun111834: for(var _fun111834_ip = 0; ; ) switch(_fun111834_ip) {
+ 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(mike) { _fun111834_ip = 477; continue _fun111834 }
+ 10:
+                            mike = undefined;
+                            offset = undefined;
+                            oscar = _closure1_slot1;
+                            golf = _closure1_slot2;
+                            tango = 17;
+                            tango = golf[tango];
+                            options = oscar.bind(mike)(tango);
+                            golf = _closure2_slot2;
+                            oscar = null;
+                            golf = oscar != golf;
+                            oscar = 'birthday was not null';
+                            oscar = options.bind(mike)(golf, oscar);
+                            golf = _closure1_slot9;
+                            oscar = {};
+                            options = _closure2_slot2;
+                            oscar['birthday'] = options;
+                            verify = _closure2_slot4;
+                            options = verify;
+                            if(verify) { _fun111834_ip = 94; continue _fun111834 }
+ 87:
+                            verify = _closure2_slot8;
+                            options = !verify;
+ 94:
+                            oscar['consent'] = options;
+                            oscar = golf.bind(mike)(oscar);
+                            golf = _closure1_slot10;
+                            oscar = golf.getState;
+                            oscar = oscar.bind(golf)();
+                            offset = oscar.registrationOptions;
+                            golf = _closure2_slot1;
+                            oscar = {};
+                            verify = _closure1_slot11;
+                            options = verify.AGE_GATE;
+                            oscar['step'] = options;
+                            options = _closure1_slot12;
+                            yankee = options.SUBMITTED;
+                            oscar['actionType'] = yankee;
+                            oscar = golf.bind(mike)(oscar);
+                            golf = _closure2_slot1;
+                            oscar = {};
+                            verify = verify.AGE_GATE;
+                            oscar['step'] = verify;
+                            options = options.SUCCESS;
+                            oscar['actionType'] = options;
+                            oscar = golf.bind(mike)(oscar);
+                            golf = _closure2_slot7;
+                            oscar = true;
+                            oscar = golf.bind(mike)(oscar);
+                            golf = _closure1_slot8;
+                            oscar = {};
+                            oscar = golf.bind(mike)(oscar);
+ 220: // try_start_0
+                            golf = _closure1_slot0;
+                            options = _closure1_slot2;
+                            oscar = 18;
+                            oscar = options[oscar];
+                            options = golf.bind(mike)(oscar);
+                            golf = options.registerFull;
+                            oscar = {};
+                            backup = offset;
+                            kilo = oscar;
+                            verify = copyDataProperties(kilo, backup);
+                            oscar = golf.bind(options)(oscar);
+                            SaveGenerator(address=267);
+ 265:
+                            return oscar;
+ 267:
+                            ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
+                            if(golf) { _fun111834_ip = 336; continue _fun111834 }
+ 273:
+                            options = _closure2_slot1;
+                            golf = {};
+                            verify = _closure1_slot11;
+                            verify = verify.REGISTER;
+                            golf['step'] = verify;
+                            verify = _closure1_slot12;
+                            verify = verify.SUCCESS;
+                            golf['actionType'] = verify;
+                            verify = {};
+                            backup = offset;
+                            kilo = verify;
+                            offset = copyDataProperties(kilo, backup);
+                            golf['overrideRegistrationOptions'] = verify;
+                            golf = options.bind(mike)(golf);
+ 331: // try_end0
+                            _fun111834_ip = 474; continue _fun111834;
+ 336:
+                            return oscar;
+ 339: // catch_target0
+                            CatchBlockStart(arg_register=6);
+                            report = golf;
+                            options = _closure2_slot7;
+                            oscar = false;
+                            oscar = options.bind(mike)(oscar);
+                            options = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            oscar = 19;
+                            oscar = verify[oscar];
+                            oscar = options.bind(mike)(oscar);
+                            oscar = oscar.APIError;
+                            oscar = golf instanceof oscar;
+                            if(oscar) { _fun111834_ip = 391; continue _fun111834 }
+ 388:
+                            return mike;
+ 391:
+                            golf = _closure1_slot0;
+                            options = _closure1_slot2;
+                            oscar = 20;
+                            oscar = options[oscar];
+                            golf = golf.bind(mike)(oscar);
+                            oscar = golf.getAuthenticationErrorsFromAPIError;
+                            golf = oscar.bind(golf)(report);
+                            report = _closure1_slot8;
+                            report = report.bind(mike)(golf);
+                            oscar = _closure1_slot1;
+                            report = 21;
+                            report = options[report];
+                            oscar = oscar.bind(mike)(report);
+                            kilo = _closure2_slot0;
+                            backup = _closure2_slot1;
+                            zulu = _closure1_slot11;
+                            romeo = zulu.AGE_GATE;
+                            sizing = undefined;
+                            foxtrot = golf;
+                            zulu = sizing[oscar](kilo, backup, foxtrot, romeo, yankee);
+ 474:
+                            return mike;
+ 477:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                tango = zulu.bind(tango)(mike);
+                _closure2_slot9 = tango;
+                zulu = tango.apply;
+                entity = arguments;
+                mike = entity;
+                entity = this;
+                entity = zulu.bind(tango)(entity, mike);
+                return entity;
+            };
+            var _closure2_slot9 = entity;
+            entity = _closure1_slot16;
+            tango = undefined;
+            verify = entity.bind(tango)();
+            result = _closure1_slot0;
+            golf = _closure1_slot2;
+            entity = 11;
+            entity = golf[entity];
+            mike = result.bind(tango)(entity);
+            entity = mike.useThemeContext;
+            entity = entity.bind(mike)();
+            sizing = entity.theme;
+            entity = 12;
+            entity = golf[entity];
+            mike = result.bind(tango)(entity);
+            entity = mike.useNavigation;
+            entity = entity.bind(mike)();
+            var _closure2_slot0 = entity;
+            report = _closure1_slot5;
+            mike = report.useContext;
+            entity = 13;
+            entity = golf[entity];
+            entity = result.bind(tango)(entity);
+            entity = entity.TrackRegistrationContext;
+            entity = mike.bind(report)(entity);
+            var _closure2_slot1 = entity;
+            mike = report.useState;
+            foxtrot = null;
+            mike = mike.bind(report)(foxtrot);
+            backup = _closure1_slot4;
+            options = 2;
+            mike = backup.bind(tango)(mike, options);
+            oscar = 0;
+            lima = mike[oscar];
+            var _closure2_slot2 = lima;
+            zulu = 1;
+            mike = mike[zulu];
+            var _closure2_slot3 = mike;
+            mike = report.useState;
+            output = false;
+            mike = mike.bind(report)(output);
+            mike = backup.bind(tango)(mike, options);
+            vacuum = mike[oscar];
+            var _closure2_slot4 = vacuum;
+            mike = mike[zulu];
+            var _closure2_slot5 = mike;
+            kilo = report.useMemo;
+            romeo = new Array(1);
+            romeo[0] = lima;
+            mike = function() {
+                _fun111835: for(var _fun111835_ip = 0; ; ) switch(_fun111835_ip) {
+ 0:
+                    zulu = _closure2_slot2;
+                    entity = null;
+                    zulu = entity == zulu;
+                    entity = undefined;
+                    if(zulu) { _fun111835_ip = 32; continue _fun111835 }
+ 18:
+                    zulu = _closure2_slot2;
+                    mike = zulu.toDate;
+                    entity = mike.bind(zulu)();
+ 32:
+                    return entity;
+                }
+            };
+            romeo = kilo.bind(report)(mike, romeo);
+            mike = report.useState;
+            mike = mike.bind(report)(output);
+            mike = backup.bind(tango)(mike, options);
+            kilo = mike[oscar];
+            mike = mike[zulu];
+            var _closure2_slot6 = mike;
+            mike = report.useState;
+            mike = mike.bind(report)(output);
+            mike = backup.bind(tango)(mike, options);
+            context = mike[oscar];
+            mike = mike[zulu];
+            var _closure2_slot7 = mike;
+            mike = 14;
+            mike = golf[mike];
+            options = result.bind(tango)(mike);
+            oscar = options.useStateFromStores;
+            mike = _closure1_slot7;
+            zulu = new Array(1);
+            zulu[0] = mike;
+            mike = function() {
+                mike = _closure1_slot7;
+                entity = mike.getAuthenticationConsentRequired;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            config = oscar.bind(options)(zulu, mike);
+            var _closure2_slot8 = config;
+            zulu = _closure1_slot10;
+            mike = function(argFoo) {
+                entity = argFoo;
+                entity = entity.errors;
+                return entity;
+            };
+            update = zulu.bind(tango)(mike);
+            oscar = _closure1_slot1;
+            mike = 15;
+            mike = golf[mike];
+            zulu = oscar.bind(tango)(mike);
+            mike = _closure1_slot11;
+            mike = mike.ACCOUNT_INFORMATION;
+            mike = zulu.bind(tango)(mike);
+            zulu = report.useEffect;
+            mike = new Array(1);
+            mike[0] = entity;
+            entity = function() {
+                zulu = _closure2_slot1;
+                mike = {};
+                tango = _closure1_slot11;
+                tango = tango.AGE_GATE;
+                mike['step'] = tango;
+                entity = _closure1_slot12;
+                entity = entity.VIEWED;
+                mike['actionType'] = entity;
+                entity = undefined;
+                mike = zulu.bind(entity)(mike);
+                return entity;
+            };
+            entity = zulu.bind(report)(entity, mike);
+            entity = 16;
+            entity = golf[entity];
+            entity = oscar.bind(tango)(entity);
+            entity = entity.bind(tango)(lima);
+            record = !entity;
+            zulu = _closure1_slot14;
+            mike = _closure1_slot15;
+            entity = {};
+            report = 22;
+            report = golf[report];
+            oscar = oscar.bind(tango)(report);
+            report = {};
+            backup = 23;
+            options = golf[backup];
+            options = result.bind(tango)(options);
+            output = options.intl;
+            options = output.string;
+            golf = golf[backup];
+            golf = result.bind(tango)(golf);
+            golf = golf.t;
+            golf = golf.NgL2GR;
+            golf = options.bind(output)(golf);
+            report['headerText'] = golf;
+            golf = verify.flexGrow;
+            report['contentStyle'] = golf;
+            output = _closure1_slot13;
+            options = _closure1_slot6;
+            golf = {};
+            echo = verify.inputGroup;
+            result = new Array(2);
+            result[0] = echo;
+            echo = null;
+            if(!config) { _fun111831_ip = 548; continue _fun111831 }
+ 542:
+            echo = verify.inputGroupConsentRequired;
+ 548:
+            result[1] = echo;
+            golf['style'] = result;
+            source = _closure1_slot13;
+            target = _closure1_slot0;
+            control = _closure1_slot2;
+            result = 24;
+            result = control[result];
+            result = target.bind(tango)(result);
+            echo = result.Input;
+            result = {};
+            sequence = control[backup];
+            sequence = target.bind(tango)(sequence);
+            papa = sequence.intl;
+            sequence = papa.string;
+            control = control[backup];
+            control = target.bind(tango)(control);
+            control = control.t;
+            control = control.xNpFJy;
+            control = sequence.bind(papa)(control);
+            result['label'] = control;
+            control = null;
+            if(!record) { _fun111831_ip = 702; continue _fun111831 }
+ 641:
+            sequence = foxtrot != lima;
+            control = null;
+            if(!sequence) { _fun111831_ip = 702; continue _fun111831 }
+ 650:
+            status = _closure1_slot0;
+            sequence = _closure1_slot2;
+            papa = sequence[backup];
+            papa = status.bind(tango)(papa);
+            target = papa.intl;
+            papa = target.string;
+            sequence = sequence[backup];
+            sequence = status.bind(tango)(sequence);
+            sequence = sequence.t;
+            sequence = sequence.udnqh4;
+            control = papa.bind(target)(sequence);
+ 702:
+            result['errorMessage'] = control;
+            papa = _closure1_slot13;
+            sequence = _closure1_slot0;
+            target = _closure1_slot2;
+            control = 25;
+            control = target[control];
+            control = sequence.bind(tango)(control);
+            sequence = control.InputButton;
+            control = {};
+            status = foxtrot == lima;
+            target = undefined;
+            if(status) { _fun111831_ip = 762; continue _fun111831 }
+ 748:
+            sierra = lima.format;
+            status = 'L';
+            target = sierra.bind(lima)(status);
+ 762:
+            control['value'] = target;
+            sierra = _closure1_slot17;
+            status = sierra.format;
+            target = 'L';
+            target = status.bind(sierra)(target);
+            control['text'] = target;
+            target = function() { // Original name: onPress
+                zulu = _closure2_slot6;
+                mike = undefined;
+                entity = true;
+                entity = zulu.bind(mike)(entity);
+                return entity;
+            };
+            control['onPress'] = target;
+            lima = _closure1_slot0;
+            target = _closure1_slot2;
+            status = target[backup];
+            status = lima.bind(tango)(status);
+            whiskey = status.intl;
+            sierra = whiskey.string;
+            status = target[backup];
+            status = lima.bind(tango)(status);
+            status = status.t;
+            status = status.xNpFJy;
+            status = sierra.bind(whiskey)(status);
+            control['accessibilityLabel'] = status;
+            status = target[backup];
+            status = lima.bind(tango)(status);
+            sierra = status.intl;
+            status = sierra.string;
+            target = target[backup];
+            target = lima.bind(tango)(target);
+            target = target.t;
+            target = target.hZaF/P;
+            target = status.bind(sierra)(target);
+            control['accessibilityHint'] = target;
+            control = papa.bind(tango)(sequence, control);
+            result['children'] = control;
+            result = source.bind(tango)(echo, result);
+            golf['children'] = result;
+            golf = output.bind(tango)(options, golf);
+            result = new Array(4);
+            result[0] = golf;
+            output = _closure1_slot13;
+            options = _closure1_slot6;
+            golf = {};
+            source = verify.button;
+            echo = new Array(2);
+            echo[0] = source;
+            source = null;
+            if(!config) { _fun111831_ip = 973; continue _fun111831 }
+ 967:
+            source = verify.buttonConsentRequired;
+ 973:
+            echo[1] = source;
+            golf['style'] = echo;
+            control = _closure1_slot13;
+            papa = _closure1_slot0;
+            sequence = _closure1_slot2;
+            echo = 26;
+            echo = sequence[echo];
+            echo = papa.bind(tango)(echo);
+            source = echo.Button;
+            echo = {};
+            target = 'lg';
+            echo['size'] = target;
+            echo['loading'] = context;
+            echo['disabled'] = record;
+            record = function() { // Original name: onPress
+                mike = function() { // Original name: handleSubmit
+                    entity = undefined;
+                    tango = _closure2_slot9;
+                    zulu = tango.apply;
+                    entity = arguments;
+                    mike = entity;
+                    entity = this;
+                    entity = zulu.bind(tango)(entity, mike);
+                    return entity;
+                };
+                entity = undefined;
+                entity = mike.bind(entity)();
+                return entity;
+            };
+            echo['onPress'] = record;
+            record = sequence[backup];
+            record = papa.bind(tango)(record);
+            context = record.intl;
+            record = context.string;
+            sequence = sequence[backup];
+            sequence = papa.bind(tango)(sequence);
+            sequence = sequence.t;
+            sequence = sequence.wC4TlZ;
+            sequence = record.bind(context)(sequence);
+            echo['text'] = sequence;
+            echo = control.bind(tango)(source, echo);
+            golf['children'] = echo;
+            golf = output.bind(tango)(options, golf);
+            result[1] = golf;
+            golf = update.message;
+            options = foxtrot != golf;
+            golf = null;
+            if(!options) { _fun111831_ip = 1179; continue _fun111831 }
+ 1123:
+            output = update.message;
+            options = '';
+            golf = null;
+            if(!(options !== output)) { _fun111831_ip = 1179; continue _fun111831 }
+ 1138:
+            echo = _closure1_slot13;
+            output = _closure1_slot1;
+            source = _closure1_slot2;
+            options = 27;
+            options = source[options];
+            output = output.bind(tango)(options);
+            options = {};
+            update = update.message;
+            options['children'] = update;
+            golf = echo.bind(tango)(output, options);
+ 1179:
+            result[2] = golf;
+            options = _closure1_slot13;
+            update = _closure1_slot6;
+            echo = {};
+            golf = verify.privacyHint;
+            echo['style'] = golf;
+            golf = _closure1_slot1;
+            output = _closure1_slot2;
+            source = 28;
+            source = output[source];
+            control = golf.bind(tango)(source);
+            source = {};
+            sequence = global;
+            sequence = sequence.Boolean;
+            sequence = sequence.bind(tango)(config);
+            source['consentRequired'] = sequence;
+            source['consent'] = vacuum;
+            vacuum = function() { // Original name: onToggleConsent
+                zulu = _closure2_slot5;
+                mike = undefined;
+                entity = function(argFoo) {
+                    entity = argFoo;
+                    entity = !entity;
+                    return entity;
+                };
+                entity = zulu.bind(mike)(entity);
+                return entity;
+            };
+            source['onToggleConsent'] = vacuum;
+            source = options.bind(tango)(control, source);
+            echo['children'] = source;
+            echo = options.bind(tango)(update, echo);
+            result[3] = echo;
+            report['children'] = result;
+            oscar = zulu.bind(tango)(oscar, report);
+            report = new Array(2);
+            report[0] = oscar;
+            oscar = 29;
+            oscar = output[oscar];
+            golf = golf.bind(tango)(oscar);
+            oscar = {};
+            result = true;
+            oscar['modal'] = result;
+            oscar['open'] = kilo;
+            kilo = _closure1_slot0;
+            result = output[backup];
+            result = kilo.bind(tango)(result);
+            echo = result.intl;
+            result = echo.string;
+            backup = output[backup];
+            backup = kilo.bind(tango)(backup);
+            backup = backup.t;
+            backup = backup.xNpFJy;
+            backup = result.bind(echo)(backup);
+            oscar['title'] = backup;
+            backup = 'date';
+            oscar['mode'] = backup;
+            backup = 30;
+            backup = output[backup];
+            kilo = kilo.bind(tango)(backup);
+            backup = kilo.isThemeLight;
+            kilo = backup.bind(kilo)(sizing);
+            backup = 'dark';
+            if(!kilo) { _fun111831_ip = 1418; continue _fun111831 }
+ 1414:
+            backup = 'light';
+ 1418:
+            oscar['theme'] = backup;
+            if(!(foxtrot == romeo)) { _fun111831_ip = 1431; continue _fun111831 }
+ 1427:
+            romeo = _closure1_slot18;
+ 1431:
+            oscar['date'] = romeo;
+            yankee = _closure1_slot19;
+            oscar['maximumDate'] = yankee;
+            yankee = function(argFoo) { // Original name: onConfirm
+                tango = _closure2_slot6;
+                entity = undefined;
+                zulu = false;
+                zulu = tango.bind(entity)(zulu);
+                zulu = _closure2_slot3;
+                tango = _closure1_slot1;
+                report = _closure1_slot2;
+                mike = 10;
+                mike = report[mike];
+                tango = tango.bind(entity)(mike);
+                mike = argFoo;
+                mike = tango.bind(entity)(mike);
+                mike = zulu.bind(entity)(mike);
+                return entity;
+            };
+            oscar['onConfirm'] = yankee;
+            yankee = function(argFoo) { // Original name: onDateChange
+                zulu = _closure2_slot3;
+                tango = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 10;
+                mike = mike[entity];
+                entity = undefined;
+                tango = tango.bind(entity)(mike);
+                mike = argFoo;
+                mike = tango.bind(entity)(mike);
+                mike = zulu.bind(entity)(mike);
+                return entity;
+            };
+            oscar['onDateChange'] = yankee;
+            offset = function() { // Original name: onCancel
+                zulu = _closure2_slot6;
+                mike = undefined;
+                entity = false;
+                entity = zulu.bind(mike)(entity);
+                return entity;
+            };
+            oscar['onCancel'] = offset;
+            verify = verify.datePickerButton;
+            verify = verify.color;
+            oscar['buttonColor'] = verify;
+            oscar = options.bind(tango)(golf, oscar);
+            report[1] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

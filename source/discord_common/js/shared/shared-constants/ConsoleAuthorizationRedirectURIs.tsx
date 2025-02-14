@@ -1,0 +1,38 @@
+// discord_common/js/shared/shared-constants/ConsoleAuthorizationRedirectURIs.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    tango = {};
+    mike = 'https://discord.com/connections/playstation/link';
+    tango['PLAYSTATION'] = mike;
+    mike = 'https://discord.com/connections/playstation-stg/link';
+    tango['PLAYSTATION_STAGING'] = mike;
+    mike = {};
+    oscar = entity.Set;
+    entity = oscar.prototype;
+    report = Object.create(entity, {constructor: {value: oscar}});
+    offset = ['https://discord.com/connections/playstation-stg/link', 'https://discord.com/connections/playstation/link'];
+    yankee = report;
+    entity = new yankee[oscar](offset, verify);
+    entity = entity instanceof Object ? entity : report;
+    mike['ALL'] = entity;
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = '../discord_common/js/shared/shared-constants/ConsoleAuthorizationRedirectURIs.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['ConsoleAuthorizationRedirectURIs'] = tango;
+    zulu['ConsoleAuthorizationRedirectURIsSets'] = mike;
+    return entity;
+})();

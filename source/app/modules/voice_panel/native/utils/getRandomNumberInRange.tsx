@@ -1,0 +1,43 @@
+// app/modules/voice_panel/native/utils/getRandomNumberInRange.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    entity = {};
+    mike = 'function getRandomNumberInRange_getRandomNumberInRangeTsx1(min,max){return Math.random()*(max-min)+min;}';
+    entity['code'] = mike;
+    mike = function(argFoo, argBar) { // Original name: n
+        mike = argFoo;
+        entity = global;
+        zulu = entity.Math;
+        entity = zulu.random;
+        zulu = entity.bind(zulu)();
+        entity = argBar;
+        entity = entity - mike;
+        entity = zulu * entity;
+        entity = entity + mike;
+        return entity;
+    };
+    tango = {};
+    mike['__closure'] = tango;
+    tango = 3489295446061.0;
+    mike['__workletHash'] = tango;
+    mike['__initData'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/voice_panel/native/utils/getRandomNumberInRange.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

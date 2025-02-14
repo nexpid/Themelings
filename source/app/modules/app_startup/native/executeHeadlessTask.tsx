@@ -1,0 +1,376 @@
+// app/modules/app_startup/native/executeHeadlessTask.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    entity = argCorge;
+    var _closure1_slot2 = entity;
+    var _closure1_slot3 = oscar;
+    entity = function() { // Original name: _executeHeadlessTask
+        report = undefined;
+        entity = undefined;
+        tango = _closure1_slot4;
+        zulu = function* (argFoo, argBar, argBaz) {
+            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
+                _fun128022: for(var _fun128022_ip = 0; ; ) switch(_fun128022_ip) {
+ 0:
+                    StartGenerator();
+                    output = argFoo;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(mike) { _fun128022_ip = 1163; continue _fun128022 }
+ 13:
+                    kilo = output;
+                    offset = argBar;
+                    verify = argBaz;
+                    oscar = undefined;
+                    tango = undefined;
+                    romeo = undefined;
+                    backup = undefined;
+                    report = _closure1_slot1;
+                    golf = _closure1_slot3;
+                    mike = 3;
+                    mike = golf[mike];
+                    yankee = report.bind(oscar)(mike);
+                    foxtrot = global;
+                    mike = foxtrot.HermesInternal;
+                    options = mike.concat;
+                    mike = 'Task ';
+                    source = options.bind(mike)(output);
+                    options = yankee.prototype;
+                    options = Object.create(options, {constructor: {value: yankee}});
+                    control = options;
+                    mike = new control[yankee](source, update);
+                    tango = mike instanceof Object ? mike : options;
+                    options = foxtrot.Date;
+                    mike = options.now;
+                    romeo = mike.bind(options)();
+                    options = 4;
+                    mike = golf[options];
+                    yankee = report.bind(oscar)(mike);
+                    report = yankee.addBreadcrumb;
+                    mike = {};
+                    sizing = 'Executing headless task.';
+                    mike['message'] = sizing;
+                    sizing = {};
+                    sizing['name'] = output;
+                    mike['data'] = sizing;
+                    mike = report.bind(yankee)(mike);
+                    report = _closure1_slot0;
+                    mike = 5;
+                    mike = golf[mike];
+                    report = report.bind(oscar)(mike);
+                    mike = report.closeFastConnectSocket;
+                    mike = mike.bind(report)();
+                    report = false;
+                    backup = false;
+ 187: // try_start_0
+                    golf = _closure1_slot1;
+                    mike = _closure1_slot3;
+                    yankee = 6;
+                    mike = mike[yankee];
+                    mike = golf.bind(oscar)(mike);
+                    mike = mike.wasEverActive;
+                    if(mike) { _fun128022_ip = 247; continue _fun128022 }
+ 216:
+                    golf = _closure1_slot1;
+                    mike = _closure1_slot3;
+                    mike = mike[yankee];
+                    mike = golf.bind(oscar)(mike);
+                    golf = mike.extraProperties;
+                    mike = true;
+                    golf['headless_task_ran'] = mike;
+ 247:
+                    mike = _closure1_slot5;
+                    golf = mike.currentState;
+                    mike = 'active';
+                    if(!(mike !== golf)) { _fun128022_ip = 318; continue _fun128022 }
+ 265:
+                    yankee = tango;
+                    golf = yankee.log;
+                    mike = 'Pausing socket in headless task because app state is not active';
+                    mike = golf.bind(yankee)(mike);
+                    golf = _closure1_slot2;
+                    yankee = _closure1_slot3;
+                    mike = 7;
+                    mike = yankee[mike];
+                    yankee = golf.bind(oscar)(mike);
+                    golf = yankee.setIsPaused;
+                    mike = true;
+                    mike = golf.bind(yankee)(mike);
+ 318:
+                    mike = _closure1_slot6;
+                    mike = mike.bind(oscar)();
+                    SaveGenerator(address=330);
+ 328:
+                    return mike;
+ 330:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+                    if(golf) { _fun128022_ip = 881; continue _fun128022 }
+ 339:
+                    sizing = tango;
+                    yankee = sizing.log;
+                    golf = 'initHeadlessTask completed';
+                    golf = yankee.bind(sizing)(golf);
+                    golf = _closure1_slot7;
+                    golf = golf.promise;
+                    SaveGenerator(address=373);
+ 371:
+                    return golf;
+ 373:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=10);
+                    if(yankee) { _fun128022_ip = 736; continue _fun128022 }
+ 382:
+                    output = tango;
+                    sizing = output.log;
+                    yankee = 'Flux Initialized';
+                    yankee = sizing.bind(output)(yankee);
+                    offset = offset.bind(oscar)();
+                    verify = offset.bind(oscar)(verify);
+                    SaveGenerator(address=415);
+ 413:
+                    return verify;
+ 415:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
+                    if(offset) { _fun128022_ip = 591; continue _fun128022 }
+ 424:
+                    backup = true;
+                    sizing = tango;
+                    yankee = sizing.log;
+                    offset = 'Task completed successfully';
+                    offset = yankee.bind(sizing)(offset);
+ 446: // try_end0
+                    yankee = _closure1_slot1;
+                    sizing = _closure1_slot3;
+                    offset = sizing[options];
+                    output = yankee.bind(oscar)(offset);
+                    yankee = output.addBreadcrumb;
+                    offset = {};
+                    result = 'Finished headless task.';
+                    offset['message'] = result;
+                    result = {};
+                    echo = kilo;
+                    result['name'] = echo;
+                    echo = backup;
+                    result['success'] = echo;
+                    update = foxtrot.Date;
+                    echo = update.now;
+                    update = echo.bind(update)();
+                    echo = romeo;
+                    update = update - echo;
+                    echo = 'ms';
+                    echo = update + echo;
+                    result['duration'] = echo;
+                    offset['data'] = result;
+                    offset = yankee.bind(output)(offset);
+                    output = tango;
+                    yankee = output.log;
+                    offset = 'Unpausing socket';
+                    offset = yankee.bind(output)(offset);
+                    yankee = _closure1_slot2;
+                    offset = 7;
+                    offset = sizing[offset];
+                    yankee = yankee.bind(oscar)(offset);
+                    offset = yankee.setIsPaused;
+                    offset = offset.bind(yankee)(report);
+                    return oscar;
+ 591:
+                    yankee = _closure1_slot1;
+                    sizing = _closure1_slot3;
+                    offset = sizing[options];
+                    output = yankee.bind(oscar)(offset);
+                    yankee = output.addBreadcrumb;
+                    offset = {};
+                    result = 'Finished headless task.';
+                    offset['message'] = result;
+                    result = {};
+                    echo = kilo;
+                    result['name'] = echo;
+                    echo = backup;
+                    result['success'] = echo;
+                    update = foxtrot.Date;
+                    echo = update.now;
+                    update = echo.bind(update)();
+                    echo = romeo;
+                    update = update - echo;
+                    echo = 'ms';
+                    echo = update + echo;
+                    result['duration'] = echo;
+                    offset['data'] = result;
+                    offset = yankee.bind(output)(offset);
+                    output = tango;
+                    yankee = output.log;
+                    offset = 'Unpausing socket';
+                    offset = yankee.bind(output)(offset);
+                    yankee = _closure1_slot2;
+                    offset = 7;
+                    offset = sizing[offset];
+                    yankee = yankee.bind(oscar)(offset);
+                    offset = yankee.setIsPaused;
+                    offset = offset.bind(yankee)(report);
+                    return verify;
+ 736:
+                    offset = _closure1_slot1;
+                    yankee = _closure1_slot3;
+                    verify = yankee[options];
+                    sizing = offset.bind(oscar)(verify);
+                    offset = sizing.addBreadcrumb;
+                    verify = {};
+                    output = 'Finished headless task.';
+                    verify['message'] = output;
+                    output = {};
+                    result = kilo;
+                    output['name'] = result;
+                    result = backup;
+                    output['success'] = result;
+                    echo = foxtrot.Date;
+                    result = echo.now;
+                    echo = result.bind(echo)();
+                    result = romeo;
+                    echo = echo - result;
+                    result = 'ms';
+                    result = echo + result;
+                    output['duration'] = result;
+                    verify['data'] = output;
+                    verify = offset.bind(sizing)(verify);
+                    sizing = tango;
+                    offset = sizing.log;
+                    verify = 'Unpausing socket';
+                    verify = offset.bind(sizing)(verify);
+                    offset = _closure1_slot2;
+                    verify = 7;
+                    verify = yankee[verify];
+                    offset = offset.bind(oscar)(verify);
+                    verify = offset.setIsPaused;
+                    verify = verify.bind(offset)(report);
+                    return golf;
+ 881:
+                    verify = _closure1_slot1;
+                    offset = _closure1_slot3;
+                    golf = offset[options];
+                    yankee = verify.bind(oscar)(golf);
+                    verify = yankee.addBreadcrumb;
+                    golf = {};
+                    sizing = 'Finished headless task.';
+                    golf['message'] = sizing;
+                    sizing = {};
+                    output = kilo;
+                    sizing['name'] = output;
+                    output = backup;
+                    sizing['success'] = output;
+                    result = foxtrot.Date;
+                    output = result.now;
+                    result = output.bind(result)();
+                    output = romeo;
+                    result = result - output;
+                    output = 'ms';
+                    output = result + output;
+                    sizing['duration'] = output;
+                    golf['data'] = sizing;
+                    golf = verify.bind(yankee)(golf);
+                    yankee = tango;
+                    verify = yankee.log;
+                    golf = 'Unpausing socket';
+                    golf = verify.bind(yankee)(golf);
+                    verify = _closure1_slot2;
+                    golf = 7;
+                    golf = offset[golf];
+                    verify = verify.bind(oscar)(golf);
+                    golf = verify.setIsPaused;
+                    golf = golf.bind(verify)(report);
+                    return mike;
+ 1026: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    verify = _closure1_slot1;
+                    golf = _closure1_slot3;
+                    options = golf[options];
+                    offset = verify.bind(oscar)(options);
+                    verify = offset.addBreadcrumb;
+                    options = {};
+                    yankee = 'Finished headless task.';
+                    options['message'] = yankee;
+                    yankee = {};
+                    yankee['name'] = kilo;
+                    yankee['success'] = backup;
+                    backup = foxtrot.Date;
+                    foxtrot = backup.now;
+                    foxtrot = foxtrot.bind(backup)();
+                    foxtrot = foxtrot - romeo;
+                    romeo = 'ms';
+                    romeo = foxtrot + romeo;
+                    yankee['duration'] = romeo;
+                    options['data'] = yankee;
+                    options = verify.bind(offset)(options);
+                    verify = tango;
+                    options = verify.log;
+                    tango = 'Unpausing socket';
+                    tango = options.bind(verify)(tango);
+                    tango = _closure1_slot2;
+                    zulu = 7;
+                    zulu = golf[zulu];
+                    tango = tango.bind(oscar)(zulu);
+                    zulu = tango.setIsPaused;
+                    zulu = zulu.bind(tango)(report);
+                    throw mike;
+ 1163:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tango = tango.bind(report)(zulu);
+        _closure1_slot8 = tango;
+        zulu = tango.apply;
+        entity = arguments;
+        mike = entity;
+        entity = this;
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    var _closure1_slot8 = entity;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.AppState;
+    var _closure1_slot5 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.initHeadlessTask;
+    var _closure1_slot6 = golf;
+    tango = tango.applicationReady;
+    var _closure1_slot7 = tango;
+    tango = 8;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_startup/native/executeHeadlessTask.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: executeHeadlessTask
+        entity = undefined;
+        tango = _closure1_slot8;
+        zulu = tango.apply;
+        entity = arguments;
+        mike = entity;
+        entity = this;
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

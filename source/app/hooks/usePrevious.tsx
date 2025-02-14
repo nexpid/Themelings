@@ -1,0 +1,51 @@
+// app/hooks/usePrevious.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    golf = tango.useRef;
+    var _closure1_slot0 = golf;
+    tango = tango.useEffect;
+    var _closure1_slot1 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'hooks/usePrevious.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: usePrevious
+        oscar = argFoo;
+        var _closure2_slot0 = oscar;
+        entity = _closure1_slot0;
+        report = undefined;
+        entity = entity.bind(report)();
+        var _closure2_slot1 = entity;
+        tango = _closure1_slot1;
+        zulu = new Array(1);
+        zulu[0] = oscar;
+        mike = function() {
+            mike = _closure2_slot1;
+            entity = _closure2_slot0;
+            mike['current'] = entity;
+            entity = undefined;
+            return entity;
+        };
+        mike = tango.bind(report)(mike, zulu);
+        entity = entity.current;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

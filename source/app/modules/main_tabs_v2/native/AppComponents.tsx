@@ -1,0 +1,204 @@
+// app/modules/main_tabs_v2/native/AppComponents.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    _fun121140: for(var _fun121140_ip = 0; ; ) switch(_fun121140_ip) {
+ 0:
+        options = argBar;
+        foxtrot = argBaz;
+        zulu = argFred;
+        verify = argPlugh;
+        var _closure1_slot0 = options;
+        var _closure1_slot1 = verify;
+        entity = global;
+        oscar = entity.Object;
+        report = oscar.defineProperty;
+        tango = {};
+        entity = true;
+        tango['value'] = entity;
+        entity = '__esModule';
+        entity = report.bind(oscar)(zulu, entity, tango);
+        tango = 0;
+        report = verify[tango];
+        entity = undefined;
+        report = options.bind(entity)(report);
+        backup = report.jsx;
+        report = verify[tango];
+        report = options.bind(entity)(report);
+        offset = report.jsxs;
+        tango = verify[tango];
+        tango = options.bind(entity)(tango);
+        report = tango.Fragment;
+        tango = 1;
+        tango = verify[tango];
+        tango = options.bind(entity)(tango);
+        oscar = tango.PortalKeyboardRenderer;
+        tango = {};
+        tango = backup.bind(entity)(oscar, tango);
+        var _closure1_slot2 = tango;
+        golf = 2;
+        tango = verify[golf];
+        oscar = options.bind(entity)(tango);
+        tango = oscar.isIOS;
+        tango = tango.bind(oscar)();
+        if(tango) { _fun121140_ip = 164; continue _fun121140 }
+ 155:
+        sizing = function() {
+            entity = _closure1_slot2;
+            return entity;
+        };
+        _fun121140_ip = 171; continue _fun121140;
+ 164:
+        sizing = function() {
+            _fun121141: for(var _fun121141_ip = 0; ; ) switch(_fun121141_ip) {
+ 0:
+                tango = _closure1_slot0;
+                zulu = _closure1_slot1;
+                entity = 3;
+                zulu = zulu[entity];
+                entity = undefined;
+                zulu = tango.bind(entity)(zulu);
+                entity = zulu.useIsModalOpen;
+                zulu = entity.bind(zulu)();
+                entity = null;
+                if(zulu) { _fun121141_ip = 44; continue _fun121141 }
+ 40:
+                entity = _closure1_slot2;
+ 44:
+                return entity;
+            }
+        };
+ 171:
+        mike = 4;
+        tango = verify[mike];
+        oscar = foxtrot.bind(entity)(tango);
+        tango = {};
+        yankee = ['external-pip'];
+        tango['lockKeys'] = yankee;
+        romeo = 5;
+        yankee = verify[romeo];
+        yankee = options.bind(entity)(yankee);
+        kilo = yankee.PictureInPictureGlobalContainer;
+        yankee = {};
+        kilo = backup.bind(entity)(kilo, yankee);
+        yankee = new Array(11);
+        yankee[0] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        output = kilo.NotificationsContainer;
+        kilo = {};
+        kilo = backup.bind(entity)(output, kilo);
+        yankee[1] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        output = kilo.BurstReactionAnimationContainer;
+        kilo = {};
+        kilo = backup.bind(entity)(output, kilo);
+        yankee[2] = kilo;
+        kilo = 6;
+        kilo = verify[kilo];
+        output = foxtrot.bind(entity)(kilo);
+        kilo = {};
+        kilo = backup.bind(entity)(output, kilo);
+        yankee[3] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        output = kilo.MenuContainer;
+        kilo = {};
+        kilo = backup.bind(entity)(output, kilo);
+        yankee[4] = kilo;
+        kilo = 7;
+        kilo = verify[kilo];
+        kilo = options.bind(entity)(kilo);
+        output = kilo.PortalKeyboardHost;
+        kilo = {};
+        kilo = backup.bind(entity)(output, kilo);
+        yankee[5] = kilo;
+        kilo = {};
+        kilo = backup.bind(entity)(sizing, kilo);
+        yankee[6] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        sizing = kilo.ActionSheetContainer;
+        kilo = {};
+        kilo = backup.bind(entity)(sizing, kilo);
+        yankee[7] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        sizing = kilo.Alerts;
+        kilo = {};
+        kilo = backup.bind(entity)(sizing, kilo);
+        yankee[8] = kilo;
+        kilo = verify[romeo];
+        kilo = options.bind(entity)(kilo);
+        sizing = kilo.SoundPlayer;
+        kilo = {};
+        kilo = backup.bind(entity)(sizing, kilo);
+        yankee[9] = kilo;
+        romeo = verify[romeo];
+        romeo = options.bind(entity)(romeo);
+        kilo = romeo.MainViewTooltipActionSheets;
+        romeo = {};
+        romeo = backup.bind(entity)(kilo, romeo);
+        yankee[10] = romeo;
+        tango['children'] = yankee;
+        oscar = offset.bind(entity)(oscar, tango);
+        tango = {};
+        golf = verify[golf];
+        yankee = options.bind(entity)(golf);
+        golf = yankee.isAndroid;
+        yankee = golf.bind(yankee)();
+        golf = null;
+        if(!yankee) { _fun121140_ip = 550; continue _fun121140 }
+ 524:
+        yankee = 8;
+        yankee = verify[yankee];
+        yankee = options.bind(entity)(yankee);
+        romeo = yankee.AccessibilityAnnouncerLiveRegion;
+        yankee = {};
+        golf = backup.bind(entity)(romeo, yankee);
+ 550:
+        tango['children'] = golf;
+        report = backup.bind(entity)(report, tango);
+        tango = 9;
+        tango = verify[tango];
+        golf = foxtrot.bind(entity)(tango);
+        tango = {};
+        tango = backup.bind(entity)(golf, tango);
+        mike = verify[mike];
+        golf = foxtrot.bind(entity)(mike);
+        mike = {};
+        yankee = ['external-pip'];
+        mike['lockKeys'] = yankee;
+        yankee = 10;
+        yankee = verify[yankee];
+        romeo = foxtrot.bind(entity)(yankee);
+        yankee = {};
+        romeo = backup.bind(entity)(romeo, yankee);
+        yankee = new Array(3);
+        yankee[0] = romeo;
+        romeo = 11;
+        romeo = verify[romeo];
+        kilo = foxtrot.bind(entity)(romeo);
+        romeo = {};
+        romeo = backup.bind(entity)(kilo, romeo);
+        yankee[1] = romeo;
+        romeo = 12;
+        romeo = verify[romeo];
+        foxtrot = foxtrot.bind(entity)(romeo);
+        romeo = {};
+        romeo = backup.bind(entity)(foxtrot, romeo);
+        yankee[2] = romeo;
+        mike['children'] = yankee;
+        mike = offset.bind(entity)(golf, mike);
+        golf = 13;
+        golf = verify[golf];
+        verify = options.bind(entity)(golf);
+        options = verify.fileFinishedImporting;
+        golf = 'modules/main_tabs_v2/native/AppComponents.tsx';
+        golf = options.bind(verify)(golf);
+        zulu['APP_EXTRA_COMPONENTS'] = oscar;
+        zulu['APP_EXTRA_COMPONENTS_NEVER_FREEZE'] = report;
+        zulu['APP_EXTRA_COMPONENTS_EXTERNAL_PIP'] = tango;
+        zulu['APP_EXTRA_COMPONENTS_VOICE_AND_VIDEO'] = mike;
+        return entity;
+    }
+})();

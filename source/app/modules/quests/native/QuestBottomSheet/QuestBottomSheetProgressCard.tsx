@@ -1,0 +1,490 @@
+// app/modules/quests/native/QuestBottomSheet/QuestBottomSheetProgressCard.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    offset = 0;
+    golf = oscar[offset];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot3 = tango;
+    foxtrot = 1;
+    tango = oscar[foxtrot];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot5 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot6 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    verify['padding'] = offset;
+    tango['card'] = verify;
+    verify = {};
+    yankee = 4;
+    offset = oscar[yankee];
+    offset = romeo.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_16;
+    verify['padding'] = offset;
+    tango['content'] = verify;
+    verify = {'padding': 12, 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+    offset = 'center';
+    backup = oscar[yankee];
+    backup = romeo.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BG_MOD_FAINT;
+    verify['backgroundColor'] = backup;
+    backup = oscar[yankee];
+    backup = romeo.bind(entity)(backup);
+    backup = backup.radii;
+    backup = backup.lg;
+    verify['borderBottomLeftRadius'] = backup;
+    backup = oscar[yankee];
+    backup = romeo.bind(entity)(backup);
+    backup = backup.radii;
+    backup = backup.lg;
+    verify['borderBottomRightRadius'] = backup;
+    verify['borderWidth'] = foxtrot;
+    foxtrot = oscar[yankee];
+    foxtrot = romeo.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.BORDER_FAINT;
+    verify['borderColor'] = foxtrot;
+    tango['footer'] = verify;
+    verify = {};
+    yankee = oscar[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.spacing;
+    yankee = yankee.PX_12;
+    verify['marginTop'] = yankee;
+    verify['textAlign'] = offset;
+    tango['instructionsText'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot7 = tango;
+    tango = 13;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/quests/native/QuestBottomSheet/QuestBottomSheetProgressCard.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: ProgressCard
+        _fun96522: for(var _fun96522_ip = 0; ; ) switch(_fun96522_ip) {
+ 0:
+            mike = argFoo;
+            sizing = mike.quest;
+            var _closure2_slot0 = sizing;
+            tango = undefined;
+            var _closure2_slot3 = tango;
+            var _closure2_slot4 = tango;
+            var _closure2_slot5 = tango;
+            var _closure2_slot6 = tango;
+            var _closure2_slot7 = tango;
+            var _closure2_slot8 = tango;
+            mike = _closure1_slot7;
+            romeo = mike.bind(tango)();
+            zulu = _closure1_slot0;
+            mike = _closure1_slot2;
+            report = 5;
+            oscar = mike[report];
+            golf = zulu.bind(tango)(oscar);
+            oscar = golf.useQuestTaskDetails;
+            backup = oscar.bind(golf)(sizing);
+            var _closure2_slot1 = backup;
+            mike = mike[report];
+            zulu = zulu.bind(tango)(mike);
+            mike = zulu.useIsQuestProgressing;
+            oscar = mike.bind(zulu)(sizing);
+            var _closure2_slot2 = oscar;
+            golf = sizing.userStatus;
+            zulu = null;
+            options = zulu == golf;
+            mike = undefined;
+            if(options) { _fun96522_ip = 134; continue _fun96522 }
+ 128:
+            mike = golf.completedAt;
+ 134:
+            foxtrot = zulu != mike;
+            _closure2_slot3 = foxtrot;
+            golf = sizing.userStatus;
+            options = zulu == golf;
+            mike = undefined;
+            if(options) { _fun96522_ip = 163; continue _fun96522 }
+ 157:
+            mike = golf.claimedAt;
+ 163:
+            result = zulu != mike;
+            _closure2_slot4 = result;
+            golf = _closure1_slot3;
+            options = golf.useMemo;
+            zulu = new Array(1);
+            zulu[0] = sizing;
+            mike = function() {
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 6;
+                mike = mike[entity];
+                entity = undefined;
+                entity = zulu.bind(entity)(mike);
+                zulu = entity.SharedQuestFields;
+                mike = zulu.build;
+                entity = _closure2_slot0;
+                entity = entity.config;
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            zulu = options.bind(golf)(mike, zulu);
+            mike = _closure1_slot0;
+            output = _closure1_slot2;
+            options = 7;
+            options = output[options];
+            verify = mike.bind(tango)(options);
+            options = verify.supportedTaskPlatforms;
+            verify = options.bind(verify)(sizing);
+            _closure2_slot5 = verify;
+            report = output[report];
+            offset = mike.bind(tango)(report);
+            options = offset.useQuestFormattedDate;
+            report = zulu.rewardsExpireAt;
+            options = options.bind(offset)(report);
+            _closure2_slot6 = options;
+            report = sizing.config;
+            report = report.messages;
+            kilo = report.gameTitle;
+            _closure2_slot7 = kilo;
+            zulu = zulu.defaultReward;
+            zulu = zulu.messages;
+            offset = zulu.name;
+            _closure2_slot8 = offset;
+            report = golf.useMemo;
+            zulu = new Array(8);
+            zulu[0] = backup;
+            zulu[1] = foxtrot;
+            zulu[2] = result;
+            zulu[3] = kilo;
+            zulu[4] = offset;
+            zulu[5] = oscar;
+            zulu[6] = verify;
+            zulu[7] = options;
+            entity = function() {
+                _fun96524: for(var _fun96524_ip = 0; ; ) switch(_fun96524_ip) {
+ 0:
+                    mike = _closure2_slot3;
+                    if(!mike) { _fun96524_ip = 107; continue _fun96524 }
+ 12:
+                    mike = _closure2_slot4;
+                    if(mike) { _fun96524_ip = 107; continue _fun96524 }
+ 19:
+                    golf = _closure1_slot0;
+                    options = _closure1_slot2;
+                    mike = 8;
+                    tango = options[mike];
+                    zulu = undefined;
+                    tango = golf.bind(zulu)(tango);
+                    oscar = tango.intl;
+                    tango = oscar.format;
+                    mike = options[mike];
+                    mike = golf.bind(zulu)(mike);
+                    mike = mike.t;
+                    zulu = mike.e3OlfH;
+                    mike = {};
+                    golf = function() { // Original name: rewardHook
+                        tango = _closure1_slot5;
+                        mike = _closure1_slot0;
+                        zulu = _closure1_slot2;
+                        entity = 9;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        entity = mike.bind(zulu)(entity);
+                        mike = entity.Text;
+                        entity = {'variant': 'text-sm/semibold', 'color': 'text-primary'};
+                        report = _closure2_slot8;
+                        entity['children'] = report;
+                        entity = tango.bind(zulu)(mike, entity);
+                        return entity;
+                    };
+                    mike['rewardHook'] = golf;
+                    golf = _closure2_slot6;
+                    mike['date'] = golf;
+                    mike = tango.bind(oscar)(zulu, mike);
+                    return mike;
+ 107:
+                    mike = _closure2_slot2;
+                    if(mike) { _fun96524_ip = 571; continue _fun96524 }
+ 117:
+                    mike = _closure2_slot5;
+                    zulu = mike.length;
+                    mike = 1;
+                    if(!(!(zulu > mike))) { _fun96524_ip = 497; continue _fun96524 }
+ 136:
+                    mike = _closure2_slot1;
+                    tango = mike.taskType;
+                    golf = _closure1_slot0;
+                    mike = _closure1_slot2;
+                    oscar = 10;
+                    mike = mike[oscar];
+                    options = undefined;
+                    mike = golf.bind(options)(mike);
+                    mike = mike.FirstPartyQuestTaskTypes;
+                    mike = mike.STREAM_ON_DESKTOP;
+                    if(!(tango !== mike)) { _fun96524_ip = 428; continue _fun96524 }
+ 190:
+                    mike = _closure2_slot1;
+                    tango = mike.taskType;
+                    golf = _closure1_slot0;
+                    mike = _closure1_slot2;
+                    mike = mike[oscar];
+                    mike = golf.bind(options)(mike);
+                    mike = mike.FirstPartyQuestTaskTypes;
+                    mike = mike.PLAY_ON_DESKTOP;
+                    if(!(tango !== mike)) { _fun96524_ip = 359; continue _fun96524 }
+ 236:
+                    tango = _closure1_slot0;
+                    mike = _closure1_slot2;
+                    mike = mike[oscar];
+                    mike = tango.bind(options)(mike);
+                    mike = mike.FirstPartyQuestTaskTypesSets;
+                    oscar = mike.CONSOLE;
+                    tango = oscar.has;
+                    mike = _closure2_slot1;
+                    mike = mike.taskType;
+                    tango = tango.bind(oscar)(mike);
+                    mike = null;
+                    if(!tango) { _fun96524_ip = 357; continue _fun96524 }
+ 290:
+                    oscar = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    tango = 8;
+                    golf = offset[tango];
+                    golf = oscar.bind(options)(golf);
+                    verify = golf.intl;
+                    golf = verify.formatToPlainString;
+                    tango = offset[tango];
+                    tango = oscar.bind(options)(tango);
+                    tango = tango.t;
+                    oscar = tango.+8JB6e;
+                    tango = {};
+                    offset = _closure2_slot7;
+                    tango['gameTitle'] = offset;
+                    mike = golf.bind(verify)(oscar, tango);
+ 357:
+                    _fun96524_ip = 426; continue _fun96524;
+ 359:
+                    oscar = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    tango = 8;
+                    golf = offset[tango];
+                    golf = oscar.bind(options)(golf);
+                    verify = golf.intl;
+                    golf = verify.formatToPlainString;
+                    tango = offset[tango];
+                    tango = oscar.bind(options)(tango);
+                    tango = tango.t;
+                    oscar = tango.9PeldX;
+                    tango = {};
+                    offset = _closure2_slot7;
+                    tango['gameName'] = offset;
+                    mike = golf.bind(verify)(oscar, tango);
+ 426:
+                    _fun96524_ip = 495; continue _fun96524;
+ 428:
+                    tango = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    zulu = 8;
+                    oscar = verify[zulu];
+                    oscar = tango.bind(options)(oscar);
+                    golf = oscar.intl;
+                    oscar = golf.formatToPlainString;
+                    zulu = verify[zulu];
+                    zulu = tango.bind(options)(zulu);
+                    zulu = zulu.t;
+                    tango = zulu.boMftL;
+                    zulu = {};
+                    options = _closure2_slot7;
+                    zulu['gameName'] = options;
+                    mike = oscar.bind(golf)(tango, zulu);
+ 495:
+                    _fun96524_ip = 569; continue _fun96524;
+ 497:
+                    options = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    zulu = 8;
+                    oscar = verify[zulu];
+                    tango = undefined;
+                    oscar = options.bind(tango)(oscar);
+                    golf = oscar.intl;
+                    oscar = golf.formatToPlainString;
+                    zulu = verify[zulu];
+                    zulu = options.bind(tango)(zulu);
+                    zulu = zulu.t;
+                    tango = zulu.E2R8VV;
+                    zulu = {};
+                    options = _closure2_slot7;
+                    zulu['gameName'] = options;
+                    mike = oscar.bind(golf)(tango, zulu);
+ 569:
+                    return mike;
+ 571:
+                    entity = _closure2_slot1;
+                    mike = entity.targetSeconds;
+                    entity = entity.progressSeconds;
+                    tango = mike - entity;
+                    entity = global;
+                    zulu = entity.Math;
+                    mike = zulu.ceil;
+                    entity = 60;
+                    entity = tango / entity;
+                    oscar = mike.bind(zulu)(entity);
+                    golf = _closure1_slot0;
+                    options = _closure1_slot2;
+                    entity = 8;
+                    zulu = options[entity];
+                    mike = undefined;
+                    zulu = golf.bind(mike)(zulu);
+                    tango = zulu.intl;
+                    zulu = tango.format;
+                    entity = options[entity];
+                    entity = golf.bind(mike)(entity);
+                    entity = entity.t;
+                    mike = entity.aFaRsr;
+                    entity = {};
+                    entity['minutesLeft'] = oscar;
+                    report = function(argFoo) { // Original name: minutesHook
+                        tango = _closure1_slot5;
+                        mike = _closure1_slot0;
+                        zulu = _closure1_slot2;
+                        entity = 9;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        entity = mike.bind(zulu)(entity);
+                        mike = entity.Text;
+                        entity = {'variant': 'text-sm/semibold', 'color': 'text-primary'};
+                        report = argFoo;
+                        entity['children'] = report;
+                        entity = tango.bind(zulu)(mike, entity);
+                        return entity;
+                    };
+                    entity['minutesHook'] = report;
+                    entity = zulu.bind(tango)(mike, entity);
+                    return entity;
+                }
+            };
+            kilo = report.bind(golf)(entity, zulu);
+            zulu = _closure1_slot6;
+            entity = 11;
+            entity = output[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.Card;
+            entity = {};
+            report = romeo.card;
+            entity['style'] = report;
+            report = 'subtle';
+            entity['border'] = report;
+            golf = _closure1_slot4;
+            report = {};
+            options = romeo.content;
+            report['style'] = options;
+            offset = _closure1_slot5;
+            verify = _closure1_slot1;
+            options = 12;
+            options = output[options];
+            verify = verify.bind(tango)(options);
+            options = {};
+            options['quest'] = sizing;
+            output = 'lg';
+            options['size'] = output;
+            backup = backup.percentComplete;
+            options['progress'] = backup;
+            if(foxtrot) { _fun96522_ip = 474; continue _fun96522 }
+ 471:
+            foxtrot = oscar;
+ 474:
+            foxtrot = !foxtrot;
+            options['loading'] = foxtrot;
+            foxtrot = true;
+            options['hasConfetti'] = foxtrot;
+            verify = offset.bind(tango)(verify, options);
+            options = new Array(2);
+            options[0] = verify;
+            backup = _closure1_slot5;
+            foxtrot = _closure1_slot0;
+            verify = _closure1_slot2;
+            offset = 9;
+            verify = verify[offset];
+            verify = foxtrot.bind(tango)(verify);
+            foxtrot = verify.Text;
+            verify = {'style': null, 'variant': 'text-sm/semibold', 'color': 'text-secondary'};
+            output = romeo.instructionsText;
+            verify['style'] = output;
+            verify['children'] = kilo;
+            verify = backup.bind(tango)(foxtrot, verify);
+            options[1] = verify;
+            report['children'] = options;
+            golf = zulu.bind(tango)(golf, report);
+            report = new Array(2);
+            report[0] = golf;
+            if(!oscar) { _fun96522_ip = 744; continue _fun96522 }
+ 596:
+            verify = _closure1_slot5;
+            options = _closure1_slot4;
+            golf = {};
+            romeo = romeo.footer;
+            golf['style'] = romeo;
+            foxtrot = _closure1_slot0;
+            output = _closure1_slot2;
+            offset = output[offset];
+            offset = foxtrot.bind(tango)(offset);
+            yankee = offset.Text;
+            offset = {'color': 'text-positive', 'variant': 'text-sm/semibold'};
+            romeo = 8;
+            backup = output[romeo];
+            backup = foxtrot.bind(tango)(backup);
+            kilo = backup.intl;
+            backup = kilo.format;
+            romeo = output[romeo];
+            romeo = foxtrot.bind(tango)(romeo);
+            romeo = romeo.t;
+            foxtrot = romeo.lIFg6O;
+            romeo = {};
+            sizing = sizing.config;
+            sizing = sizing.messages;
+            sizing = sizing.gameTitle;
+            romeo['gameName'] = sizing;
+            romeo = backup.bind(kilo)(foxtrot, romeo);
+            offset['children'] = romeo;
+            offset = verify.bind(tango)(yankee, offset);
+            golf['children'] = offset;
+            oscar = verify.bind(tango)(options, golf);
+ 744:
+            report[1] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

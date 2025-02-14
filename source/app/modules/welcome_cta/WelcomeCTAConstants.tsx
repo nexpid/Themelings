@@ -1,0 +1,36 @@
+// app/modules/welcome_cta/WelcomeCTAConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/welcome_cta/WelcomeCTAConstants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = new Array(6);
+    tango = {'id': '749054660769218631', 'format_type': 3, 'description': 'Wumpus waves hello', 'name': 'Wave'};
+    mike[0] = tango;
+    tango = {'id': '751606379340365864', 'format_type': 3, 'description': 'Nelly peeks around a wall and waves hello', 'name': 'Wave'};
+    mike[1] = tango;
+    tango = {'id': '754108890559283200', 'format_type': 3, 'description': 'Clyde cheerfully waving', 'name': 'Wave'};
+    mike[2] = tango;
+    tango = {'id': '781291131828699156', 'format_type': 2, 'description': 'Choco waves in greeting', 'name': 'Wave'};
+    mike[3] = tango;
+    tango = {'id': '816087792291282944', 'format_type': 3, 'description': 'Doggo spins and greets you', 'name': 'Sup'};
+    mike[4] = tango;
+    tango = {'id': '819128604311027752', 'format_type': 3, 'description': 'Peach raising her arms in distress', 'name': 'Scream'};
+    mike[5] = tango;
+    zulu['WELCOME_STICKERS'] = mike;
+    return entity;
+})();

@@ -1,0 +1,35 @@
+// app/modules/fastest_list/props/FastestListPropsPlaceholder.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['NONE'] = tango;
+    entity = 'NONE';
+    mike[tango] = entity;
+    report = 1;
+    mike['SHAPE'] = report;
+    entity = 'SHAPE';
+    mike[report] = entity;
+    report = 2;
+    mike['FEED_ITEM'] = report;
+    entity = 'FEED_ITEM';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/fastest_list/props/FastestListPropsPlaceholder.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['FastestListPropsPlaceholderType'] = mike;
+    return entity;
+})();

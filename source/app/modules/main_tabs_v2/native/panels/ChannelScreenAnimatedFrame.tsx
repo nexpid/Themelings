@@ -1,0 +1,241 @@
+// app/modules/main_tabs_v2/native/panels/ChannelScreenAnimatedFrame.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    foxtrot = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = foxtrot;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    offset = tango.HEADER_CORNER_RADIUS;
+    yankee = tango.MIDNIGHT_BORDER_WIDTH;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.ThemeTypes;
+    var _closure1_slot4 = tango;
+    tango = 4;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot5 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot6 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {'position': 'absolute', 'zIndex': 1, 'top': 0, 'width': '100%'};
+    romeo = 6;
+    backup = oscar[romeo];
+    backup = foxtrot.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BG_BASE_PRIMARY;
+    verify['backgroundColor'] = backup;
+    tango['container'] = verify;
+    verify = {};
+    romeo = oscar[romeo];
+    romeo = foxtrot.bind(entity)(romeo);
+    romeo = romeo.colors;
+    romeo = romeo.BORDER_STRONG;
+    verify['borderLeftColor'] = romeo;
+    verify['borderLeftWidth'] = yankee;
+    yankee = -yankee;
+    verify['marginLeft'] = yankee;
+    tango['midnightContainer'] = verify;
+    verify = {};
+    verify['height'] = offset;
+    tango['additionalHeight'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot7 = tango;
+    tango = {};
+    golf = 'function ChannelScreenAnimatedFrameTsx1(){const{translateX,maxWidth,isChatLockedOpen,withTiming,STANDARD_EASING,SIDE_PANEL_CLOSE_DURATION_MS,SIDE_PANEL_OPEN_DURATION_MS}=this.__closure;const hide=translateX.get()===maxWidth||isChatLockedOpen;return{opacity:withTiming(hide?0:1,{easing:STANDARD_EASING,duration:hide?SIDE_PANEL_CLOSE_DURATION_MS:SIDE_PANEL_OPEN_DURATION_MS})};}';
+    tango['code'] = golf;
+    var _closure1_slot8 = tango;
+    tango = 14;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/panels/ChannelScreenAnimatedFrame.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: ChannelScreenAnimatedFrame
+        _fun118239: for(var _fun118239_ip = 0; ; ) switch(_fun118239_ip) {
+ 0:
+            entity = argFoo;
+            sizing = entity.translateX;
+            var _closure2_slot0 = sizing;
+            kilo = entity.maxWidth;
+            var _closure2_slot1 = kilo;
+            backup = entity.isChatLockedOpen;
+            var _closure2_slot2 = backup;
+            entity = _closure1_slot7;
+            tango = undefined;
+            verify = entity.bind(tango)();
+            mike = _closure1_slot1;
+            report = _closure1_slot2;
+            entity = 7;
+            entity = report[entity];
+            entity = mike.bind(tango)(entity);
+            romeo = entity.bind(tango)();
+            entity = _closure1_slot4;
+            yankee = entity.MIDNIGHT;
+            options = _closure1_slot0;
+            entity = 8;
+            golf = report[entity];
+            offset = options.bind(tango)(golf);
+            golf = offset.useAnimatedStyle;
+            zulu = function() { // Original name: D
+                _fun118240: for(var _fun118240_ip = 0; ; ) switch(_fun118240_ip) {
+ 0:
+                    zulu = _closure2_slot0;
+                    mike = zulu.get;
+                    zulu = mike.bind(zulu)();
+                    mike = _closure2_slot1;
+                    oscar = zulu === mike;
+                    if(oscar) { _fun118240_ip = 31; continue _fun118240 }
+ 27:
+                    oscar = _closure2_slot2;
+ 31:
+                    entity = {};
+                    zulu = _closure1_slot0;
+                    tango = _closure1_slot2;
+                    mike = 9;
+                    mike = tango[mike];
+                    verify = undefined;
+                    report = zulu.bind(verify)(mike);
+                    tango = report.withTiming;
+                    zulu = 1;
+                    if(!oscar) { _fun118240_ip = 71; continue _fun118240 }
+ 69:
+                    zulu = 0;
+ 71:
+                    mike = {};
+                    offset = _closure1_slot0;
+                    yankee = _closure1_slot2;
+                    options = 10;
+                    options = yankee[options];
+                    options = offset.bind(verify)(options);
+                    options = options.STANDARD_EASING;
+                    mike['easing'] = options;
+                    options = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    golf = 11;
+                    golf = offset[golf];
+                    golf = options.bind(verify)(golf);
+                    if(oscar) { _fun118240_ip = 135; continue _fun118240 }
+ 127:
+                    oscar = golf.SIDE_PANEL_OPEN_DURATION_MS;
+                    _fun118240_ip = 141; continue _fun118240;
+ 135:
+                    oscar = golf.SIDE_PANEL_CLOSE_DURATION_MS;
+ 141:
+                    mike['duration'] = oscar;
+                    mike = tango.bind(report)(zulu, mike);
+                    entity['opacity'] = mike;
+                    return entity;
+                }
+            };
+            foxtrot = {};
+            foxtrot['translateX'] = sizing;
+            foxtrot['maxWidth'] = kilo;
+            foxtrot['isChatLockedOpen'] = backup;
+            backup = 9;
+            backup = report[backup];
+            backup = options.bind(tango)(backup);
+            backup = backup.withTiming;
+            foxtrot['withTiming'] = backup;
+            backup = 10;
+            backup = report[backup];
+            backup = options.bind(tango)(backup);
+            backup = backup.STANDARD_EASING;
+            foxtrot['STANDARD_EASING'] = backup;
+            backup = 11;
+            kilo = report[backup];
+            kilo = options.bind(tango)(kilo);
+            kilo = kilo.SIDE_PANEL_CLOSE_DURATION_MS;
+            foxtrot['SIDE_PANEL_CLOSE_DURATION_MS'] = kilo;
+            backup = report[backup];
+            backup = options.bind(tango)(backup);
+            backup = backup.SIDE_PANEL_OPEN_DURATION_MS;
+            foxtrot['SIDE_PANEL_OPEN_DURATION_MS'] = backup;
+            zulu['__closure'] = foxtrot;
+            foxtrot = 9063010717249.0;
+            zulu['__workletHash'] = foxtrot;
+            foxtrot = _closure1_slot8;
+            zulu['__initData'] = foxtrot;
+            golf = golf.bind(offset)(zulu);
+            zulu = 12;
+            zulu = report[zulu];
+            options = options.bind(tango)(zulu);
+            zulu = options.useGradientTop;
+            options = zulu.bind(options)();
+            zulu = _closure1_slot6;
+            entity = report[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.View;
+            entity = {};
+            report = 'none';
+            entity['pointerEvents'] = report;
+            offset = verify.container;
+            report = new Array(4);
+            report[0] = offset;
+            offset = undefined;
+            if(!(romeo === yankee)) { _fun118239_ip = 328; continue _fun118239 }
+ 322:
+            offset = verify.midnightContainer;
+ 328:
+            report[1] = offset;
+            report[2] = options;
+            report[3] = golf;
+            entity['style'] = report;
+            options = _closure1_slot5;
+            golf = _closure1_slot0;
+            offset = _closure1_slot2;
+            report = 13;
+            report = offset[report];
+            report = golf.bind(tango)(report);
+            golf = report.SafeAreaPaddingView;
+            report = {};
+            offset = true;
+            report['top'] = offset;
+            golf = options.bind(tango)(golf, report);
+            report = new Array(2);
+            report[0] = golf;
+            golf = _closure1_slot3;
+            oscar = {};
+            verify = verify.additionalHeight;
+            oscar['style'] = verify;
+            oscar = options.bind(tango)(golf, oscar);
+            report[1] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

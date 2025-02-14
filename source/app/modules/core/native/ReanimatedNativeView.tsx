@@ -1,0 +1,32 @@
+// app/modules/core/native/ReanimatedNativeView.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    golf = argBaz;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    tango = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(oscar)(zulu, entity, mike);
+    entity = 0;
+    mike = report[entity];
+    entity = undefined;
+    oscar = golf.bind(entity)(mike);
+    tango = oscar.createAnimatedComponent;
+    mike = 1;
+    mike = report[mike];
+    mike = golf.bind(entity)(mike);
+    mike = tango.bind(oscar)(mike);
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/core/native/ReanimatedNativeView.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

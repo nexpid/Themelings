@@ -1,0 +1,126 @@
+// app/modules/messages/BurstReactionEffectUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    golf = argBar;
+    zulu = argFred;
+    options = argPlugh;
+    var _closure1_slot0 = golf;
+    var _closure1_slot1 = options;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscar)(zulu, entity, mike);
+    report = {};
+    entity = 'out of burst reactions modal';
+    report['OUT_OF_BURSTS'] = entity;
+    entity = 1;
+    mike = options[entity];
+    entity = undefined;
+    verify = golf.bind(entity)(mike);
+    oscar = verify.memoize;
+    mike = function(argFoo) {
+        _fun44568: for(var _fun44568_ip = 0; ; ) switch(_fun44568_ip) {
+ 0:
+            oscar = argFoo;
+            entity = oscar.length;
+            zulu = 0;
+            entity = zulu < entity;
+            report = 5;
+            tango = 0;
+            mike = 0;
+            if(!entity) { _fun44568_ip = 62; continue _fun44568 }
+ 24:
+            entity = oscar.charCodeAt;
+            golf = entity.bind(oscar)(mike);
+            entity = tango << report;
+            entity = entity - tango;
+            tango = entity + golf;
+            mike = mike + 1;
+            entity = oscar.length;
+            zulu = tango;
+            if(mike < entity) { _fun44568_ip = 24; continue _fun44568 }
+ 62:
+            entity = global;
+            mike = entity.Math;
+            entity = mike.abs;
+            entity = entity.bind(mike)(zulu);
+            return entity;
+        }
+    };
+    mike = oscar.bind(verify)(mike);
+    oscar = 2;
+    oscar = options[oscar];
+    options = golf.bind(entity)(oscar);
+    golf = options.fileFinishedImporting;
+    oscar = 'modules/messages/BurstReactionEffectUtils.tsx';
+    oscar = golf.bind(options)(oscar);
+    zulu['BurstAnalyticTypes'] = report;
+    tango = function(argFoo, argBar) {
+        romeo = argFoo;
+        tango = argBar;
+        zulu = _closure1_slot0;
+        entity = _closure1_slot1;
+        oscar = 0;
+        mike = entity[oscar];
+        entity = undefined;
+        zulu = zulu.bind(entity)(mike);
+        mike = zulu.getComplimentaryPaletteForColor;
+        report = tango.r;
+        entity = new Array(3);
+        entity[0] = report;
+        report = tango.g;
+        entity[1] = report;
+        tango = tango.b;
+        entity[2] = tango;
+        offset = 2;
+        yankee = mike.bind(zulu)(entity, offset);
+        report = romeo.replace;
+        entity = yankee[oscar];
+        entity = entity[oscar];
+        verify = 255;
+        update = entity / verify;
+        entity = yankee[oscar];
+        mike = 1;
+        entity = entity[mike];
+        result = entity / verify;
+        entity = yankee[oscar];
+        entity = entity[offset];
+        sizing = entity / verify;
+        entity = global;
+        zulu = entity.HermesInternal;
+        zulu = zulu.concat;
+        options = '[';
+        golf = ',';
+        source = options;
+        echo = golf;
+        output = golf;
+        kilo = golf;
+        tango = source[zulu](update, echo, result, output, sizing, kilo, backup);
+        zulu = /(\[1,0,0,)/g;
+        tango = report.bind(romeo)(zulu, tango);
+        zulu = tango.replace;
+        report = yankee[mike];
+        report = report[oscar];
+        update = report / verify;
+        report = yankee[mike];
+        report = report[mike];
+        result = report / verify;
+        mike = yankee[mike];
+        mike = mike[offset];
+        sizing = mike / verify;
+        entity = entity.HermesInternal;
+        entity = entity.concat;
+        source = options;
+        echo = golf;
+        mike = source[entity](update, echo, result, output, sizing, kilo, backup);
+        entity = /\[0,0,1,/g;
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    zulu['replaceAnimationColors'] = tango;
+    zulu['getBurstAnimationHash'] = mike;
+    return entity;
+})();

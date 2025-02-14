@@ -1,0 +1,43 @@
+// app/modules/auth/makePasswordResetLink.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.Routes;
+    var _closure1_slot0 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/auth/makePasswordResetLink.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: makePasswordResetLink
+        entity = global;
+        mike = entity.window;
+        mike = mike.GLOBAL_ENV;
+        offset = mike.WEBAPP_ENDPOINT;
+        mike = _closure1_slot0;
+        verify = mike.RESET;
+        entity = entity.HermesInternal;
+        tango = entity.concat;
+        yankee = 'https:';
+        options = '#token=';
+        golf = argFoo;
+        entity = yankee[tango](offset, verify, options, golf, oscar);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

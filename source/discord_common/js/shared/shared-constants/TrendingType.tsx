@@ -1,0 +1,31 @@
+// discord_common/js/shared/shared-constants/TrendingType.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['TRENDING_TYPE_UNSPECIFIED'] = tango;
+    entity = 'TRENDING_TYPE_UNSPECIFIED';
+    mike[tango] = entity;
+    report = 1;
+    mike['GLOBAL'] = report;
+    entity = 'GLOBAL';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/TrendingType.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['TrendingType'] = mike;
+    return entity;
+})();

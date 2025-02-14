@@ -1,0 +1,165 @@
+// app/modules/voice_panel/native/VoicePanelContainer.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    options = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = options;
+    var _closure1_slot2 = oscar;
+    entity = function(argFoo) { // Original name: VoicePanel
+        golf = argFoo;
+        var _closure2_slot0 = golf;
+        mike = _closure1_slot0;
+        verify = _closure1_slot2;
+        entity = 4;
+        entity = verify[entity];
+        tango = undefined;
+        options = mike.bind(tango)(entity);
+        zulu = options.useStateFromStores;
+        entity = _closure1_slot4;
+        mike = new Array(1);
+        mike[0] = entity;
+        entity = function() {
+            _fun121407: for(var _fun121407_ip = 0; ; ) switch(_fun121407_ip) {
+ 0:
+                zulu = _closure1_slot4;
+                mike = zulu.getChannel;
+                entity = _closure2_slot0;
+                entity = entity.channelId;
+                mike = mike.bind(zulu)(entity);
+                entity = null;
+                zulu = entity == mike;
+                entity = undefined;
+                if(zulu) { _fun121407_ip = 45; continue _fun121407 }
+ 40:
+                entity = mike.guild_id;
+ 45:
+                return entity;
+            }
+        };
+        options = zulu.bind(options)(mike, entity);
+        zulu = _closure1_slot6;
+        mike = _closure1_slot1;
+        entity = 5;
+        entity = verify[entity];
+        mike = mike.bind(tango)(entity);
+        entity = {};
+        yankee = entity;
+        offset = golf;
+        golf = copyDataProperties(yankee, offset);
+        golf = 'guildId';
+        entity[golf] = options;
+        options = _closure1_slot3;
+        golf = options.useMemo;
+        oscar = function() {
+            tango = _closure1_slot6;
+            mike = _closure1_slot1;
+            zulu = _closure1_slot2;
+            entity = 6;
+            entity = zulu[entity];
+            zulu = undefined;
+            mike = mike.bind(zulu)(entity);
+            entity = {};
+            entity = tango.bind(zulu)(mike, entity);
+            return entity;
+        };
+        report = new Array(0);
+        oscar = golf.bind(options)(oscar, report);
+        report = 'children';
+        entity[report] = oscar;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    var _closure1_slot7 = entity;
+    entity = function(argFoo) { // Original name: getChannelKey
+        entity = argFoo;
+        return entity;
+    };
+    var _closure1_slot8 = entity;
+    entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: renderVoicePanel
+        report = argBar;
+        tango = _closure1_slot6;
+        zulu = _closure1_slot7;
+        mike = {};
+        mike['channelId'] = report;
+        entity = argBaz;
+        mike['transitionState'] = entity;
+        entity = argCorge;
+        mike['transitionCleanUp'] = entity;
+        entity = undefined;
+        entity = tango.bind(entity)(zulu, mike, report);
+        return entity;
+    };
+    var _closure1_slot9 = entity;
+    entity = global;
+    verify = entity.Object;
+    golf = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    var _closure1_slot3 = golf;
+    tango = 1;
+    tango = oscar[tango];
+    tango = options.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = options.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot6 = tango;
+    tango = golf.memo;
+    mike = function() { // Original name: VoicePanelContainer
+        oscar = _closure1_slot5;
+        mike = _closure1_slot0;
+        golf = _closure1_slot2;
+        entity = 7;
+        entity = golf[entity];
+        tango = undefined;
+        entity = mike.bind(tango)(entity);
+        zulu = entity.shallow;
+        entity = function(argFoo) {
+            entity = argFoo;
+            zulu = entity.channels;
+            entity = global;
+            mike = entity.Array;
+            entity = mike.from;
+            entity = entity.bind(mike)(zulu);
+            return entity;
+        };
+        oscar = oscar.bind(tango)(entity, zulu);
+        zulu = _closure1_slot6;
+        entity = 8;
+        entity = golf[entity];
+        entity = mike.bind(tango)(entity);
+        mike = entity.TransitionGroup;
+        entity = {};
+        entity['items'] = oscar;
+        oscar = _closure1_slot8;
+        entity['getItemKey'] = oscar;
+        report = _closure1_slot9;
+        entity['renderItem'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 9;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/voice_panel/native/VoicePanelContainer.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

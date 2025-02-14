@@ -1,0 +1,32 @@
+// app/modules/app_database/modules/KvCacheVersionConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/app_database/modules/KvCacheVersionConstants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 'hello';
+    zulu['HELLO_KEY'] = mike;
+    mike = 'version';
+    zulu['VERSION_TO_SKIP_READING_THE_DATABASE_KEY'] = mike;
+    mike = 'force-resync-version';
+    zulu['VERSION_TO_FORCE_RESYNCING_ALL_DATA_KEY'] = mike;
+    mike = 3;
+    zulu['VERSION_TO_SKIP_READING_THE_DATABASE'] = mike;
+    mike = 'stable-53';
+    zulu['VERSION_TO_FORCE_RESYNCING_ALL_DATA'] = mike;
+    return entity;
+})();

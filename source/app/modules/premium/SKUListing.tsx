@@ -1,0 +1,45 @@
+// app/modules/premium/SKUListing.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    golf = argBaz;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    options = entity.Object;
+    tango = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = report[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(mike);
+    mike = 1;
+    mike = report[mike];
+    mike = golf.bind(entity)(mike);
+    var _closure1_slot0 = mike;
+    mike = function(argFoo, argBar) { // Original name: SKUListing
+        zulu = this;
+        tango = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = undefined;
+        mike = tango.bind(entity)(zulu, mike);
+        mike = argFoo;
+        zulu['skuId'] = mike;
+        mike = argBar;
+        zulu['skuFeatures'] = mike;
+        return entity;
+    };
+    var _closure1_slot1 = mike;
+    mike = tango.bind(entity)(mike);
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/premium/SKUListing.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

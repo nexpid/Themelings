@@ -1,0 +1,190 @@
+// app/modules/main_tabs_v2/native/tabs/guilds/GuildProgressButton.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.TABLE_ROW_PADDING;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot5 = tango;
+    tango = 10;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/tabs/guilds/GuildProgressButton.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: GuildProgressButton
+        mike = argFoo;
+        yankee = mike.guild;
+        var _closure2_slot0 = yankee;
+        foxtrot = _closure1_slot0;
+        options = _closure1_slot2;
+        mike = 4;
+        mike = options[mike];
+        tango = undefined;
+        zulu = foxtrot.bind(tango)(mike);
+        mike = zulu.useGuildProgressStep;
+        mike = mike.bind(zulu)(yankee);
+        golf = mike.percentComplete;
+        verify = mike.subtitle;
+        offset = mike.completed;
+        var _closure2_slot1 = offset;
+        report = _closure1_slot3;
+        romeo = report.useEffect;
+        zulu = new Array(2);
+        zulu[0] = offset;
+        mike = yankee.id;
+        zulu[1] = mike;
+        mike = function() {
+            _fun115653: for(var _fun115653_ip = 0; ; ) switch(_fun115653_ip) {
+ 0:
+                mike = _closure2_slot1;
+                if(!mike) { _fun115653_ip = 55; continue _fun115653 }
+ 10:
+                tango = _closure1_slot1;
+                zulu = _closure1_slot2;
+                mike = 5;
+                zulu = zulu[mike];
+                mike = undefined;
+                zulu = tango.bind(mike)(zulu);
+                mike = zulu.markCompletedProgressSeen;
+                entity = _closure2_slot0;
+                entity = entity.id;
+                entity = mike.bind(zulu)(entity);
+ 55:
+                entity = undefined;
+                return entity;
+            }
+        };
+        mike = romeo.bind(report)(mike, zulu);
+        zulu = report.useCallback;
+        mike = new Array(2);
+        mike[0] = yankee;
+        mike[1] = offset;
+        entity = function() {
+            _fun115654: for(var _fun115654_ip = 0; ; ) switch(_fun115654_ip) {
+ 0:
+                entity = _closure2_slot1;
+                if(entity) { _fun115654_ip = 55; continue _fun115654 }
+ 10:
+                tango = _closure1_slot1;
+                zulu = _closure1_slot2;
+                entity = 5;
+                zulu = zulu[entity];
+                entity = undefined;
+                tango = tango.bind(entity)(zulu);
+                zulu = tango.createProgress;
+                entity = _closure2_slot0;
+                entity = entity.id;
+                entity = zulu.bind(tango)(entity);
+ 55:
+                tango = _closure1_slot0;
+                zulu = _closure1_slot2;
+                entity = 4;
+                zulu = zulu[entity];
+                entity = undefined;
+                tango = tango.bind(entity)(zulu);
+                zulu = tango.openActionSheet;
+                mike = _closure2_slot0;
+                mike = zulu.bind(tango)(mike);
+                return entity;
+            }
+        };
+        report = zulu.bind(report)(entity, mike);
+        zulu = _closure1_slot5;
+        offset = 6;
+        entity = options[offset];
+        entity = foxtrot.bind(tango)(entity);
+        mike = entity.RowButton;
+        entity = {};
+        offset = options[offset];
+        offset = foxtrot.bind(tango)(offset);
+        offset = offset.RowButton;
+        yankee = offset.Icon;
+        offset = {};
+        oscar = _closure1_slot1;
+        romeo = 7;
+        romeo = options[romeo];
+        romeo = oscar.bind(tango)(romeo);
+        offset['source'] = romeo;
+        romeo = 'blurple';
+        offset['variant'] = romeo;
+        offset = zulu.bind(tango)(yankee, offset);
+        entity['icon'] = offset;
+        offset = 8;
+        yankee = options[offset];
+        yankee = foxtrot.bind(tango)(yankee);
+        romeo = yankee.intl;
+        yankee = romeo.string;
+        offset = options[offset];
+        offset = foxtrot.bind(tango)(offset);
+        offset = offset.t;
+        offset = offset.o3HK3d;
+        offset = yankee.bind(romeo)(offset);
+        entity['label'] = offset;
+        entity['subLabel'] = verify;
+        entity['onPress'] = report;
+        report = 9;
+        report = options[report];
+        oscar = oscar.bind(tango)(report);
+        report = {};
+        report['percent'] = golf;
+        report = zulu.bind(tango)(oscar, report);
+        entity['trailing'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    zulu['default'] = tango;
+    mike = function(argFoo) { // Original name: getScaledGuildProgressButtonHeight
+        tango = argFoo;
+        mike = _closure1_slot4;
+        oscar = _closure1_slot0;
+        golf = _closure1_slot2;
+        entity = 3;
+        zulu = golf[entity];
+        report = undefined;
+        zulu = oscar.bind(report)(zulu);
+        zulu = zulu.TextStyleSheet;
+        zulu = zulu.text-md/semibold;
+        zulu = zulu.lineHeight;
+        zulu = zulu * tango;
+        zulu = mike + zulu;
+        entity = golf[entity];
+        entity = oscar.bind(report)(entity);
+        entity = entity.TextStyleSheet;
+        entity = entity.text-xs/medium;
+        report = entity.lineHeight;
+        entity = 2;
+        entity = entity * report;
+        entity = entity * tango;
+        entity = zulu + entity;
+        entity = entity + mike;
+        return entity;
+    };
+    zulu['getScaledGuildProgressButtonHeight'] = mike;
+    return entity;
+})();

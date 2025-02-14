@@ -1,0 +1,105 @@
+// app/design/components/Sheet/native/ActionSheetCloseButton.native.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    tango = global;
+    verify = tango.Object;
+    options = verify.defineProperty;
+    golf = {};
+    entity = true;
+    golf['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, golf);
+    entity = 0;
+    options = oscar[entity];
+    golf = argCorge;
+    entity = undefined;
+    golf = golf.bind(entity)(options);
+    golf = 1;
+    golf = oscar[golf];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot3 = golf;
+    verify = tango.Object;
+    options = verify.freeze;
+    golf = {};
+    offset = 12;
+    golf['radius'] = offset;
+    golf = options.bind(verify)(golf);
+    var _closure1_slot4 = golf;
+    options = tango.Object;
+    golf = options.freeze;
+    tango = {'top': 8, 'right': 8, 'bottom': 8, 'left': 8};
+    tango = golf.bind(options)(tango);
+    var _closure1_slot5 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/components/Sheet/native/ActionSheetCloseButton.native.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: ActionSheetCloseButton
+        _fun48764: for(var _fun48764_ip = 0; ; ) switch(_fun48764_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.onPress;
+            offset = entity.variant;
+            tango = _closure1_slot3;
+            oscar = _closure1_slot0;
+            golf = _closure1_slot2;
+            entity = 2;
+            entity = golf[entity];
+            zulu = undefined;
+            entity = oscar.bind(zulu)(entity);
+            mike = entity.PressableOpacity;
+            entity = {};
+            verify = 'button';
+            entity['accessibilityRole'] = verify;
+            verify = 3;
+            yankee = golf[verify];
+            yankee = oscar.bind(zulu)(yankee);
+            romeo = yankee.intl;
+            yankee = romeo.string;
+            verify = golf[verify];
+            verify = oscar.bind(zulu)(verify);
+            verify = verify.t;
+            verify = verify.cpT0Cg;
+            verify = yankee.bind(romeo)(verify);
+            entity['accessibilityLabel'] = verify;
+            verify = _closure1_slot5;
+            entity['hitSlop'] = verify;
+            verify = _closure1_slot4;
+            entity['androidRippleConfig'] = verify;
+            entity['onPress'] = report;
+            report = 4;
+            report = golf[report];
+            report = oscar.bind(zulu)(report);
+            oscar = report.XSmallIcon;
+            report = {};
+            verify = 'overlay';
+            golf = undefined;
+            if(!(verify === offset)) { _fun48764_ip = 192; continue _fun48764 }
+ 161:
+            verify = _closure1_slot1;
+            offset = _closure1_slot2;
+            options = 5;
+            options = offset[options];
+            options = verify.bind(zulu)(options);
+            options = options.colors;
+            golf = options.WHITE;
+ 192:
+            report['color'] = golf;
+            report = tango.bind(zulu)(oscar, report);
+            entity['children'] = report;
+            entity = tango.bind(zulu)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['ActionSheetCloseButton'] = mike;
+    return entity;
+})();

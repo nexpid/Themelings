@@ -1,0 +1,37 @@
+// app/design/components/ContextMenu/native/ContextMenuConstants.native.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'design/components/ContextMenu/native/ContextMenuConstants.native.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 12;
+    zulu['CONTEXT_MENU_ITEM_PADDING'] = mike;
+    tango = 42;
+    zulu['CONTEXT_MENU_ITEM_BASE_HEIGHT'] = tango;
+    tango = 4;
+    zulu['CONTEXT_MENU_DIVIDER_HEIGHT'] = tango;
+    zulu['CONTEXT_MENU_EDGE_OFFSET'] = mike;
+    mike = 220;
+    zulu['CONTEXT_MENU_MIN_WIDTH'] = mike;
+    mike = 10;
+    zulu['CONTEXT_MENU_OFFSET'] = mike;
+    mike = 0.5;
+    zulu['CONTEXT_MENU_MIN_SCALE'] = mike;
+    mike = {'mass': 0.3, 'damping': 20, 'stiffness': 200, 'overshootClamping': true, 'restDisplacementThreshold': 0.001};
+    zulu['CONTEXT_MENU_SPRING'] = mike;
+    return entity;
+})();

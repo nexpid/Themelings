@@ -1,0 +1,30 @@
+// app/modules/activate_device/native/ActivateDeviceSharedStyles.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/activate_device/native/ActivateDeviceSharedStyles.tsx';
+    mike = tango.bind(report)(mike);
+    mike = {};
+    report = 'center';
+    tango = {'flexDirection': 'column', 'gap': 8, 'alignItems': 'center'};
+    mike['innerContent'] = tango;
+    tango = {};
+    tango['textAlign'] = report;
+    mike['centerText'] = tango;
+    zulu['default'] = mike;
+    return entity;
+})();

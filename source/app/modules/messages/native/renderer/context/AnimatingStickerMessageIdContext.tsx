@@ -1,0 +1,30 @@
+// app/modules/messages/native/renderer/context/AnimatingStickerMessageIdContext.tsx
+export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    tango = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(oscar)(zulu, entity, mike);
+    entity = 0;
+    tango = report[entity];
+    mike = argCorge;
+    entity = undefined;
+    oscar = mike.bind(entity)(tango);
+    tango = oscar.createContext;
+    mike = null;
+    mike = tango.bind(oscar)(mike);
+    tango = 1;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/messages/native/renderer/context/AnimatingStickerMessageIdContext.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

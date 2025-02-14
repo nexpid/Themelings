@@ -1,0 +1,43 @@
+// app/modules/markup/native/MarkupSearchResultLinkPreviewReactRules.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    entity = true;
+    oscar['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 2;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/markup/native/MarkupSearchResultLinkPreviewReactRules.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: createSearchResultLinkPreviewReactRules
+        oscar = _closure1_slot0;
+        golf = _closure1_slot1;
+        entity = 0;
+        entity = golf[entity];
+        report = undefined;
+        zulu = oscar.bind(report)(entity);
+        mike = zulu.createMessagePreviewReactRules;
+        entity = {'iconColor': 'header-primary', 'iconSize': 'xs', 'channelIconSize': null, 'customEmojiSize': 16};
+        tango = 1;
+        tango = golf[tango];
+        tango = oscar.bind(report)(tango);
+        tango = tango.IconSizes;
+        tango = tango.SMALL_14;
+        entity['channelIconSize'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['createSearchResultLinkPreviewReactRules'] = mike;
+    return entity;
+})();

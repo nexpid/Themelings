@@ -1,0 +1,44 @@
+// app/modules/voice_overlay/native/MobileVoiceOverlayActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    tango = argPlugh;
+    mike = argBaz;
+    var _closure1_slot0 = mike;
+    var _closure1_slot1 = tango;
+    mike = global;
+    golf = mike.Object;
+    oscar = golf.defineProperty;
+    report = {};
+    mike = true;
+    report['value'] = mike;
+    mike = '__esModule';
+    mike = oscar.bind(golf)(zulu, mike, report);
+    mike = {};
+    entity = function(argFoo) { // Original name: setEnabled
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'MOBILE_VOICE_OVERLAY_STATE_CHANGED';
+        mike['type'] = report;
+        report = argFoo;
+        mike['enabled'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['setEnabled'] = entity;
+    entity = 1;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/voice_overlay/native/MobileVoiceOverlayActionCreators.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

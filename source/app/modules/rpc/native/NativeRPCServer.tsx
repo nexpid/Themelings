@@ -1,0 +1,47 @@
+// app/modules/rpc/native/NativeRPCServer.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 1;
+    golf = oscar[entity];
+    tango = argBaz;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = golf.prototype;
+    tango = Object.create(tango, {constructor: {value: golf}});
+    yankee = function() {
+        entity = global;
+        zulu = entity.Promise;
+        mike = zulu.resolve;
+        report = _closure1_slot0;
+        tango = _closure1_slot1;
+        entity = 0;
+        tango = tango[entity];
+        entity = undefined;
+        entity = report.bind(entity)(tango);
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    romeo = tango;
+    mike = new romeo[golf](yankee, offset);
+    mike = mike instanceof Object ? mike : tango;
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/rpc/native/NativeRPCServer.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

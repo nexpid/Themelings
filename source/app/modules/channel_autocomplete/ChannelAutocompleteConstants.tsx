@@ -1,0 +1,33 @@
+// app/modules/channel_autocomplete/ChannelAutocompleteConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/channel_autocomplete/ChannelAutocompleteConstants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = '@';
+    zulu['MENTION_SENTINEL'] = mike;
+    mike = '#';
+    zulu['CHANNEL_SENTINEL'] = mike;
+    mike = ':';
+    zulu['EMOJI_SENTINEL'] = mike;
+    tango = '+:';
+    zulu['REACTION_START_SENTINEL'] = tango;
+    zulu['REACTION_END_SENTINEL'] = mike;
+    mike = '/';
+    zulu['COMMAND_SENTINEL'] = mike;
+    return entity;
+})();

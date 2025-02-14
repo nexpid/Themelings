@@ -1,0 +1,48 @@
+// app/modules/user_settings/native/connections/ConnectionsTracking.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.AnalyticEvents;
+    var _closure1_slot2 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_settings/native/connections/ConnectionsTracking.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: trackEmptyStateCardClicked
+        entity = argFoo;
+        oscar = entity.platformType;
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        entity = 1;
+        zulu = zulu[entity];
+        entity = undefined;
+        report = tango.bind(entity)(zulu);
+        tango = report.track;
+        mike = _closure1_slot2;
+        zulu = mike.CONNECTIONS_EMPTY_STATE_CARD_CLICKED;
+        mike = {};
+        mike['platform_type'] = oscar;
+        mike = tango.bind(report)(zulu, mike);
+        return entity;
+    };
+    zulu['trackEmptyStateCardClicked'] = mike;
+    return entity;
+})();

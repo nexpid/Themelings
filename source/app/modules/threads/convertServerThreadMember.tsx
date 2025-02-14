@@ -1,0 +1,40 @@
+// app/modules/threads/convertServerThreadMember.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/threads/convertServerThreadMember.tsx';
+    mike = tango.bind(report)(mike);
+    mike = function(argFoo) { // Original name: convertServerThreadMember
+        mike = argFoo;
+        entity = {};
+        zulu = mike.id;
+        entity['id'] = zulu;
+        zulu = mike.user_id;
+        entity['userId'] = zulu;
+        zulu = mike.flags;
+        entity['flags'] = zulu;
+        zulu = mike.muted;
+        entity['muted'] = zulu;
+        zulu = mike.mute_config;
+        entity['muteConfig'] = zulu;
+        mike = mike.join_timestamp;
+        entity['joinTimestamp'] = mike;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

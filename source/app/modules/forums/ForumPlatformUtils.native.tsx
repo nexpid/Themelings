@@ -1,0 +1,43 @@
+// app/modules/forums/ForumPlatformUtils.native.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    mike = global;
+    options = mike.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    mike = true;
+    oscar['value'] = mike;
+    mike = '__esModule';
+    mike = golf.bind(options)(zulu, mike, oscar);
+    mike = {};
+    entity = function() { // Original name: getForumChannelPermissionText
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 0;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.LG9VAg;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    mike['getForumChannelPermissionText'] = entity;
+    entity = 1;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/forums/ForumPlatformUtils.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

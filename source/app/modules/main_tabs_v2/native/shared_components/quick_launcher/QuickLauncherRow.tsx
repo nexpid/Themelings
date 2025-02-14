@@ -1,0 +1,575 @@
+// app/modules/main_tabs_v2/native/shared_components/quick_launcher/QuickLauncherRow.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = oscar;
+    entity = function(argFoo) { // Original name: FrecentApp
+        _fun115386: for(var _fun115386_ip = 0; ; ) switch(_fun115386_ip) {
+ 0:
+            mike = argFoo;
+            romeo = mike.application;
+            var _closure2_slot0 = romeo;
+            zulu = mike.loadingAppId;
+            golf = mike.setLoadingAppId;
+            var _closure2_slot1 = golf;
+            tango = undefined;
+            var _closure2_slot2 = tango;
+            var _closure2_slot3 = tango;
+            var _closure2_slot4 = tango;
+            mike = _closure1_slot14;
+            verify = mike.bind(tango)();
+            oscar = _closure1_slot0;
+            offset = _closure1_slot2;
+            mike = 10;
+            options = offset[mike];
+            backup = oscar.bind(tango)(options);
+            foxtrot = backup.useStateFromStores;
+            options = _closure1_slot8;
+            yankee = new Array(1);
+            yankee[0] = options;
+            options = function() {
+                _fun115387: for(var _fun115387_ip = 0; ; ) switch(_fun115387_ip) {
+ 0:
+                    zulu = _closure1_slot8;
+                    mike = zulu.getDMFromUserId;
+                    entity = _closure2_slot0;
+                    tango = entity.bot;
+                    entity = null;
+                    report = entity == tango;
+                    entity = undefined;
+                    if(report) { _fun115387_ip = 42; continue _fun115387 }
+ 37:
+                    entity = tango.id;
+ 42:
+                    entity = mike.bind(zulu)(entity);
+                    return entity;
+                }
+            };
+            yankee = foxtrot.bind(backup)(yankee, options);
+            mike = offset[mike];
+            backup = oscar.bind(tango)(mike);
+            foxtrot = backup.useStateFromStores;
+            mike = _closure1_slot7;
+            options = new Array(1);
+            options[0] = mike;
+            mike = function() {
+                mike = _closure1_slot7;
+                entity = mike.getCurrentEmbeddedActivity;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            options = foxtrot.bind(backup)(options, mike);
+            mike = 11;
+            mike = offset[mike];
+            oscar = oscar.bind(tango)(mike);
+            mike = oscar.useIsContextlessActivitiesExperimentEnabled;
+            oscar = mike.bind(oscar)();
+            if(!oscar) { _fun115386_ip = 216; continue _fun115386 }
+ 169:
+            offset = _closure1_slot0;
+            foxtrot = _closure1_slot2;
+            mike = 12;
+            mike = foxtrot[mike];
+            backup = offset.bind(tango)(mike);
+            foxtrot = backup.hasFlag;
+            offset = romeo.flags;
+            mike = _closure1_slot10;
+            mike = mike.CONTEXTLESS_ACTIVITY;
+            oscar = foxtrot.bind(backup)(offset, mike);
+ 216:
+            mike = null;
+            offset = mike != options;
+            if(!offset) { _fun115386_ip = 239; continue _fun115386 }
+ 225:
+            backup = options.applicationId;
+            foxtrot = romeo.id;
+            offset = backup === foxtrot;
+ 239:
+            if(!offset) { _fun115386_ip = 288; continue _fun115386 }
+ 242:
+            if(oscar) { _fun115386_ip = 285; continue _fun115386 }
+ 245:
+            backup = _closure1_slot0;
+            kilo = _closure1_slot2;
+            foxtrot = 13;
+            foxtrot = kilo[foxtrot];
+            backup = backup.bind(tango)(foxtrot);
+            foxtrot = backup.getEmbeddedActivityLocationChannelId;
+            options = options.location;
+            options = foxtrot.bind(backup)(options);
+            oscar = options === yankee;
+ 285:
+            offset = oscar;
+ 288:
+            _closure2_slot2 = offset;
+            options = _closure1_slot1;
+            yankee = _closure1_slot2;
+            oscar = 14;
+            oscar = yankee[oscar];
+            foxtrot = options.bind(tango)(oscar);
+            oscar = 15;
+            oscar = yankee[oscar];
+            oscar = options.bind(tango)(oscar);
+            oscar = oscar.APP_DMS_QUICK_LAUNCHER;
+            oscar = foxtrot.bind(tango)(oscar);
+            foxtrot = oscar.analyticsLocations;
+            _closure2_slot3 = foxtrot;
+            oscar = 16;
+            oscar = yankee[oscar];
+            yankee = options.bind(tango)(oscar);
+            options = yankee.getApplicationIconSource;
+            oscar = {};
+            backup = romeo.id;
+            oscar['id'] = backup;
+            backup = romeo.icon;
+            oscar['icon'] = backup;
+            kilo = mike == romeo;
+            backup = undefined;
+            if(kilo) { _fun115386_ip = 398; continue _fun115386 }
+ 392:
+            backup = romeo.bot;
+ 398:
+            oscar['bot'] = backup;
+            backup = true;
+            oscar['botIconFirst'] = backup;
+            options = options.bind(yankee)(oscar);
+            yankee = mike != zulu;
+            _closure2_slot4 = yankee;
+            oscar = _closure1_slot4;
+            zulu = oscar.useCallback;
+            mike = new Array(5);
+            mike[0] = foxtrot;
+            mike[1] = romeo;
+            mike[2] = yankee;
+            mike[3] = offset;
+            mike[4] = golf;
+            entity = function() {
+                _fun115389: for(var _fun115389_ip = 0; ; ) switch(_fun115389_ip) {
+ 0:
+                    mike = _closure2_slot2;
+                    if(mike) { _fun115389_ip = 14; continue _fun115389 }
+ 10:
+                    mike = _closure2_slot4;
+ 14:
+                    if(mike) { _fun115389_ip = 67; continue _fun115389 }
+ 17:
+                    tango = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    mike = 17;
+                    zulu = zulu[mike];
+                    mike = undefined;
+                    report = tango.bind(mike)(zulu);
+                    tango = report.openAndLaunchAppDM;
+                    zulu = _closure2_slot0;
+                    mike = _closure2_slot1;
+                    entity = _closure2_slot3;
+                    entity = tango.bind(report)(zulu, mike, entity);
+ 67:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            oscar = zulu.bind(oscar)(entity, mike);
+            zulu = _closure1_slot12;
+            mike = _closure1_slot0;
+            offset = _closure1_slot2;
+            entity = 18;
+            entity = offset[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.PressableOpacity;
+            entity = {};
+            golf = _closure1_slot11;
+            entity['androidRippleConfig'] = golf;
+            golf = verify.appItem;
+            entity['style'] = golf;
+            entity['onPress'] = oscar;
+            golf = _closure1_slot12;
+            oscar = _closure1_slot1;
+            report = 19;
+            report = offset[report];
+            oscar = oscar.bind(tango)(report);
+            report = {};
+            offset = verify.appIcon;
+            verify = new Array(1);
+            verify[0] = offset;
+            report['style'] = verify;
+            report['source'] = options;
+            report = golf.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    var _closure1_slot15 = entity;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    golf = oscar[tango];
+    tango = argCorge;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.useWindowDimensions;
+    var _closure1_slot5 = golf;
+    tango = tango.View;
+    var _closure1_slot6 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot7 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot8 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.AnalyticEvents;
+    var _closure1_slot9 = golf;
+    tango = tango.ApplicationFlags;
+    var _closure1_slot10 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.ANDROID_FOREGROUND_RIPPLE;
+    var _closure1_slot11 = tango;
+    tango = 7;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot12 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot13 = tango;
+    tango = 8;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    offset = 9;
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.spacing;
+    romeo = romeo.PX_12;
+    verify['gap'] = romeo;
+    tango['container'] = verify;
+    verify = {'flexDirection': 'row', 'justifyContent': 'space-between'};
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.spacing;
+    romeo = romeo.PX_12;
+    verify['paddingHorizontal'] = romeo;
+    tango['headerContainer'] = verify;
+    verify = {'width': 24, 'height': 24, 'alignItems': 'center', 'justifyContent': 'center'};
+    tango['moreButtonWrapper'] = verify;
+    verify = {'borderRadius': null, 'borderWidth': 1, 'borderColor': null, 'overflow': 'hidden', 'width': 48, 'height': 48};
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.radii;
+    romeo = romeo.md;
+    verify['borderRadius'] = romeo;
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.colors;
+    romeo = romeo.BORDER_SUBTLE;
+    verify['borderColor'] = romeo;
+    tango['appItem'] = verify;
+    verify = {'width': 48, 'height': 48};
+    tango['appIcon'] = verify;
+    verify = {};
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.spacing;
+    romeo = romeo.PX_12;
+    verify['paddingLeft'] = romeo;
+    offset = oscar[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_12;
+    verify['paddingRight'] = offset;
+    tango['appsListContentContainer'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot14 = tango;
+    tango = 29;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/shared_components/quick_launcher/QuickLauncherRow.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: QuickLauncherRow
+        entity = _closure1_slot14;
+        tango = undefined;
+        romeo = entity.bind(tango)();
+        zulu = _closure1_slot4;
+        mike = zulu.useRef;
+        entity = false;
+        entity = mike.bind(zulu)(entity);
+        var _closure2_slot0 = entity;
+        mike = _closure1_slot4;
+        entity = mike.useState;
+        zulu = entity.bind(mike)(tango);
+        mike = _closure1_slot3;
+        entity = 2;
+        zulu = mike.bind(tango)(zulu, entity);
+        entity = 0;
+        entity = zulu[entity];
+        var _closure2_slot1 = entity;
+        mike = 1;
+        mike = zulu[mike];
+        var _closure2_slot2 = mike;
+        golf = _closure1_slot0;
+        sizing = _closure1_slot2;
+        mike = 17;
+        mike = sizing[mike];
+        zulu = golf.bind(tango)(mike);
+        mike = zulu.useAppDMFrecentApps;
+        mike = mike.bind(zulu)();
+        var _closure2_slot3 = mike;
+        oscar = _closure1_slot4;
+        report = oscar.useMemo;
+        zulu = new Array(1);
+        zulu[0] = mike;
+        mike = function() {
+            zulu = _closure2_slot3;
+            mike = zulu.filter;
+            report = _closure1_slot0;
+            tango = _closure1_slot2;
+            entity = 20;
+            tango = tango[entity];
+            entity = undefined;
+            entity = report.bind(entity)(tango);
+            entity = entity.isNotNullish;
+            tango = mike.bind(zulu)(entity);
+            zulu = tango.slice;
+            mike = 0;
+            entity = 8;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        };
+        yankee = report.bind(oscar)(mike, zulu);
+        var _closure2_slot4 = yankee;
+        oscar = _closure1_slot4;
+        report = oscar.useLayoutEffect;
+        zulu = new Array(1);
+        zulu[0] = yankee;
+        mike = function() {
+            _fun115392: for(var _fun115392_ip = 0; ; ) switch(_fun115392_ip) {
+ 0:
+                entity = _closure2_slot0;
+                entity = entity.current;
+                if(entity) { _fun115392_ip = 115; continue _fun115392 }
+ 15:
+                mike = _closure2_slot0;
+                entity = true;
+                mike['current'] = entity;
+                tango = _closure1_slot1;
+                zulu = _closure1_slot2;
+                mike = 21;
+                zulu = zulu[mike];
+                mike = undefined;
+                tango = tango.bind(mike)(zulu);
+                zulu = tango.track;
+                entity = _closure1_slot9;
+                mike = entity.APP_DMS_QUICK_LAUNCHER_IMPRESSION;
+                entity = {};
+                golf = _closure2_slot4;
+                oscar = golf.map;
+                report = function(argFoo) {
+                    entity = global;
+                    zulu = entity.Number;
+                    entity = argFoo;
+                    mike = entity.id;
+                    entity = undefined;
+                    entity = zulu.bind(entity)(mike);
+                    return entity;
+                };
+                report = oscar.bind(golf)(report);
+                oscar = null;
+                if(!(oscar == report)) { _fun115392_ip = 102; continue _fun115392 }
+ 98:
+                report = new Array(0);
+ 102:
+                entity['apps_dm_quick_launcher_application_ids'] = report;
+                entity = zulu.bind(tango)(mike, entity);
+ 115:
+                entity = undefined;
+                return entity;
+            }
+        };
+        mike = report.bind(oscar)(mike, zulu);
+        report = _closure1_slot4;
+        zulu = report.useCallback;
+        mike = new Array(1);
+        mike[0] = entity;
+        entity = function(argFoo) {
+            entity = argFoo;
+            entity = entity.item;
+            tango = _closure1_slot12;
+            zulu = _closure1_slot15;
+            mike = {};
+            mike['application'] = entity;
+            report = _closure2_slot1;
+            mike['loadingAppId'] = report;
+            entity = _closure2_slot2;
+            mike['setLoadingAppId'] = entity;
+            entity = undefined;
+            entity = tango.bind(entity)(zulu, mike);
+            return entity;
+        };
+        offset = zulu.bind(report)(entity, mike);
+        entity = _closure1_slot5;
+        entity = entity.bind(tango)();
+        backup = entity.width;
+        report = _closure1_slot4;
+        zulu = report.useCallback;
+        mike = function() {
+            report = _closure1_slot1;
+            mike = _closure1_slot2;
+            entity = 22;
+            tango = mike[entity];
+            entity = undefined;
+            report = report.bind(entity)(tango);
+            tango = report.openLazy;
+            oscar = _closure1_slot0;
+            zulu = 24;
+            zulu = mike[zulu];
+            oscar = oscar.bind(entity)(zulu);
+            zulu = 23;
+            zulu = mike[zulu];
+            mike = mike.paths;
+            zulu = oscar.bind(entity)(zulu, mike);
+            mike = 'QuickLauncherMoreActionSheet';
+            mike = tango.bind(report)(zulu, mike);
+            return entity;
+        };
+        entity = new Array(0);
+        result = zulu.bind(report)(mike, entity);
+        zulu = _closure1_slot13;
+        mike = _closure1_slot6;
+        entity = {};
+        report = romeo.container;
+        entity['style'] = report;
+        report = {};
+        oscar = romeo.headerContainer;
+        report['style'] = oscar;
+        kilo = _closure1_slot12;
+        oscar = 25;
+        oscar = sizing[oscar];
+        oscar = golf.bind(tango)(oscar);
+        options = oscar.Text;
+        oscar = {'variant': 'heading-md/semibold', 'color': 'header-primary'};
+        output = 26;
+        echo = sizing[output];
+        echo = golf.bind(tango)(echo);
+        update = echo.intl;
+        echo = update.string;
+        output = sizing[output];
+        output = golf.bind(tango)(output);
+        output = output.t;
+        output = output.vayAzs;
+        output = echo.bind(update)(output);
+        oscar['children'] = output;
+        options = kilo.bind(tango)(options, oscar);
+        oscar = new Array(2);
+        oscar[0] = options;
+        output = _closure1_slot12;
+        options = 18;
+        options = sizing[options];
+        options = golf.bind(tango)(options);
+        kilo = options.PressableOpacity;
+        options = {};
+        echo = romeo.moreButtonWrapper;
+        options['style'] = echo;
+        options['onPress'] = result;
+        update = _closure1_slot12;
+        result = 27;
+        result = sizing[result];
+        result = golf.bind(tango)(result);
+        echo = result.MoreHorizontalIcon;
+        result = {};
+        source = 'md';
+        result['size'] = source;
+        result = update.bind(tango)(echo, result);
+        options['children'] = result;
+        options = output.bind(tango)(kilo, options);
+        oscar[1] = options;
+        report['children'] = oscar;
+        oscar = zulu.bind(tango)(mike, report);
+        report = new Array(2);
+        report[0] = oscar;
+        options = _closure1_slot12;
+        oscar = 28;
+        oscar = sizing[oscar];
+        oscar = golf.bind(tango)(oscar);
+        golf = oscar.FlashList;
+        oscar = {'horizontal': true, 'estimatedListSize': null, 'estimatedItemSize': null, 'decelerationRate': 'fast', 'disableHorizontalListHeightMeasurement': true, 'showsHorizontalScrollIndicator': false};
+        kilo = {};
+        kilo['width'] = backup;
+        backup = 48;
+        kilo['height'] = backup;
+        oscar['estimatedListSize'] = kilo;
+        kilo = _closure1_slot1;
+        foxtrot = 9;
+        foxtrot = sizing[foxtrot];
+        foxtrot = kilo.bind(tango)(foxtrot);
+        foxtrot = foxtrot.spacing;
+        foxtrot = foxtrot.PX_12;
+        foxtrot = backup + foxtrot;
+        oscar['estimatedItemSize'] = foxtrot;
+        romeo = romeo.appsListContentContainer;
+        oscar['contentContainerStyle'] = romeo;
+        oscar['data'] = yankee;
+        oscar['renderItem'] = offset;
+        offset = function(argFoo) { // Original name: keyExtractor
+            entity = argFoo;
+            entity = entity.id;
+            return entity;
+        };
+        oscar['keyExtractor'] = offset;
+        verify = function() { // Original name: ItemSeparatorComponent
+            tango = _closure1_slot12;
+            zulu = _closure1_slot6;
+            mike = {};
+            report = {};
+            golf = _closure1_slot1;
+            oscar = _closure1_slot2;
+            entity = 9;
+            oscar = oscar[entity];
+            entity = undefined;
+            oscar = golf.bind(entity)(oscar);
+            oscar = oscar.spacing;
+            oscar = oscar.PX_12;
+            report['width'] = oscar;
+            mike['style'] = report;
+            entity = tango.bind(entity)(zulu, mike);
+            return entity;
+        };
+        oscar['ItemSeparatorComponent'] = verify;
+        oscar = options.bind(tango)(golf, oscar);
+        report[1] = oscar;
+        entity['children'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

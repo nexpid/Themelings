@@ -1,0 +1,41 @@
+// app/modules/rpc/helpers/getCurrentEmbeddedActivityChannel.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    oscar = argBaz;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = report[entity];
+    entity = undefined;
+    tango = oscar.bind(entity)(tango);
+    var _closure1_slot0 = tango;
+    tango = 1;
+    tango = report[tango];
+    tango = oscar.bind(entity)(tango);
+    var _closure1_slot1 = tango;
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/rpc/helpers/getCurrentEmbeddedActivityChannel.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: getCurrentEmbeddedActivityChannel
+        zulu = _closure1_slot0;
+        mike = zulu.getConnectedActivityChannelId;
+        zulu = mike.bind(zulu)();
+        mike = _closure1_slot1;
+        entity = mike.getChannel;
+        entity = entity.bind(mike)(zulu);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,61 @@
+// app/design/components/Navigator/native/useNavigation.native.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    report = argPlugh;
+    var _closure1_slot0 = oscar;
+    var _closure1_slot1 = report;
+    tango = function() { // Original name: useNavigation
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        mike = zulu.bind(entity)(mike);
+        entity = mike.useNavigation;
+        entity = entity.bind(mike)();
+        return entity;
+    };
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    golf = {};
+    entity = true;
+    golf['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, golf);
+    entity = 1;
+    report = report[entity];
+    entity = undefined;
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'design/components/Navigator/native/useNavigation.native.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['useNavigation'] = tango;
+    report = function() { // Original name: useNativeStackNavigation
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        mike = zulu.bind(entity)(mike);
+        entity = mike.useNavigation;
+        entity = entity.bind(mike)();
+        return entity;
+    };
+    zulu['useNativeStackNavigation'] = report;
+    zulu['useStackNavigation'] = tango;
+    mike = function() { // Original name: useTabNavigation
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        mike = zulu.bind(entity)(mike);
+        entity = mike.useNavigation;
+        entity = entity.bind(mike)();
+        return entity;
+    };
+    zulu['useTabNavigation'] = mike;
+    return entity;
+})();

@@ -1,0 +1,41 @@
+// app/modules/premium/referral_program/experiments/ReferralProgramExperimentUtils.native.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = tango;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    entity = true;
+    oscar['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 1;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/premium/referral_program/experiments/ReferralProgramExperimentUtils.native.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: useIsEligibleSenderForReferralProgramExperiment
+        entity = {};
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        mike = 0;
+        zulu = zulu[mike];
+        mike = undefined;
+        tango = tango.bind(mike)(zulu);
+        zulu = tango.useIsReferralProgramSenderMobileExperimentEnabled;
+        mike = argFoo;
+        mike = zulu.bind(tango)(mike);
+        entity['enabled'] = mike;
+        mike = true;
+        entity['eligibleToFetch'] = mike;
+        return entity;
+    };
+    zulu['useIsEligibleSenderForReferralProgramExperiment'] = mike;
+    return entity;
+})();

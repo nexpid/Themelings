@@ -1,0 +1,56 @@
+// app/modules/polls/chat/buildPollResources.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 1;
+    tango = oscar[entity];
+    entity = undefined;
+    options = report.bind(entity)(tango);
+    golf = options.memoize;
+    tango = function(argFoo) { // Original name: buildPollResources
+        entity = argFoo;
+        tango = entity.theme;
+        zulu = entity.layoutType;
+        report = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        mike = report.bind(entity)(mike);
+        entity = mike.buildPlatformPollResources;
+        entity = entity.bind(mike)(tango, zulu);
+        return entity;
+    };
+    mike = function(argFoo) {
+        entity = argFoo;
+        report = entity.theme;
+        tango = entity.layoutType;
+        entity = global;
+        entity = entity.HermesInternal;
+        zulu = entity.concat;
+        mike = '';
+        entity = ':';
+        entity = zulu.bind(mike)(report, entity, tango);
+        return entity;
+    };
+    mike = golf.bind(options)(tango, mike);
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/polls/chat/buildPollResources.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

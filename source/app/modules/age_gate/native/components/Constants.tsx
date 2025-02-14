@@ -1,0 +1,31 @@
+// app/modules/age_gate/native/components/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['MODAL'] = tango;
+    entity = 'MODAL';
+    mike[tango] = entity;
+    report = 1;
+    mike['GUILD_SIDEBAR'] = report;
+    entity = 'GUILD_SIDEBAR';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/age_gate/native/components/Constants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['NsfwGateSource'] = mike;
+    return entity;
+})();

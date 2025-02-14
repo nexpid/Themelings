@@ -1,0 +1,38 @@
+// app/design/components/experimental/ActionSheetDragHandle/native/ActionSheetDragHandleConstants.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    tango = argBaz;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscar)(zulu, entity, mike);
+    mike = 0;
+    report = golf[mike];
+    entity = undefined;
+    report = tango.bind(entity)(report);
+    report = report.spacing;
+    report = report.PX_4;
+    mike = golf[mike];
+    mike = tango.bind(entity)(mike);
+    mike = mike.spacing;
+    tango = mike.PX_4;
+    mike = 2;
+    mike = mike * tango;
+    mike = mike + report;
+    oscar = 1;
+    golf = golf[oscar];
+    oscar = argBar;
+    options = oscar.bind(entity)(golf);
+    golf = options.fileFinishedImporting;
+    oscar = 'design/components/experimental/ActionSheetDragHandle/native/ActionSheetDragHandleConstants.tsx';
+    oscar = golf.bind(options)(oscar);
+    zulu['DRAG_HANDLE_BAR_HEIGHT'] = report;
+    zulu['DRAG_HANDLE_PADDING'] = tango;
+    zulu['DRAG_HANDLE_HEIGHT'] = mike;
+    return entity;
+})();

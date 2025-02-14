@@ -1,0 +1,42 @@
+// app/modules/global_discovery_servers/GlobalDiscoveryServersSearchUIStore.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    golf = global;
+    verify = golf.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.createZustandStore;
+    options = 1;
+    options = oscar[options];
+    options = report.bind(entity)(options);
+    offset = options.DISCOVERY_ALL_CATEGORIES_ID;
+    verify = golf.Object;
+    options = verify.freeze;
+    golf = {'query': '', 'languageCode': null, 'categoryId': null, 'fetchedQuery': '', 'resultsQuery': '', 'resultsInitialCategoryId': null, 'scrollPosition': null};
+    golf['categoryId'] = offset;
+    golf = options.bind(verify)(golf);
+    var _closure1_slot0 = golf;
+    mike = function() {
+        entity = _closure1_slot0;
+        return entity;
+    };
+    mike = tango.bind(entity)(mike);
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/global_discovery_servers/GlobalDiscoveryServersSearchUIStore.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

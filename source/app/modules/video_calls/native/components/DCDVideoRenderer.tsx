@@ -1,0 +1,35 @@
+// app/modules/video_calls/native/components/DCDVideoRenderer.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    golf = argBaz;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    tango = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(oscar)(zulu, entity, mike);
+    entity = 0;
+    mike = report[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(mike);
+    mike = {};
+    oscar = 'DCDVideoRenderer';
+    mike['componentName'] = oscar;
+    oscar = 1;
+    oscar = report[oscar];
+    oscar = golf.bind(entity)(oscar);
+    mike['componentFoundInstance'] = oscar;
+    mike = tango.bind(entity)(mike);
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/video_calls/native/components/DCDVideoRenderer.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

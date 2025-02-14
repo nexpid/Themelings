@@ -1,0 +1,31 @@
+// discord_common/js/shared/shared-constants/SearchAppsRequestSource.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['APP_DIRECTORY'] = tango;
+    entity = 'APP_DIRECTORY';
+    mike[tango] = entity;
+    report = 1;
+    mike['APP_LAUNCHER'] = report;
+    entity = 'APP_LAUNCHER';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/SearchAppsRequestSource.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['SearchAppsRequestSource'] = mike;
+    return entity;
+})();

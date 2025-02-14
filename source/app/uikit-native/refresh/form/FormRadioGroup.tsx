@@ -1,0 +1,144 @@
+// app/uikit-native/refresh/form/FormRadioGroup.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot5 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot6 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'uikit-native/refresh/form/FormRadioGroup.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: FormRadioGroup
+        _fun63778: for(var _fun63778_ip = 0; ; ) switch(_fun63778_ip) {
+ 0:
+            zulu = argFoo;
+            kilo = zulu.title;
+            sizing = zulu.hasIcons;
+            backup = zulu.accessibilityLabel;
+            foxtrot = zulu.children;
+            output = zulu.value;
+            yankee = zulu.hint;
+            oscar = zulu.icon;
+            mike = {'title': 0, 'hasIcons': 0, 'accessibilityLabel': 0, 'children': 0, 'value': 0, 'hint': 0, 'icon': 0};
+            golf = null;
+            source = mike;
+            update = null;
+            entity = silentSetPrototypeOf(source, update);
+            source = {};
+            update = zulu;
+            echo = mike;
+            tango = copyDataProperties(source, update, echo);
+            zulu = _closure1_slot3;
+            mike = zulu.useContext;
+            verify = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 3;
+            entity = report[entity];
+            report = undefined;
+            entity = verify.bind(report)(entity);
+            entity = entity.RedesignCompatContext;
+            entity = mike.bind(zulu)(entity);
+            if(entity) { _fun63778_ip = 209; continue _fun63778 }
+ 126:
+            zulu = _closure1_slot5;
+            mike = _closure1_slot1;
+            verify = _closure1_slot2;
+            entity = 5;
+            entity = verify[entity];
+            mike = mike.bind(report)(entity);
+            entity = {};
+            entity['title'] = kilo;
+            verify = 'radiogroup';
+            entity['accessibilityRole'] = verify;
+            entity['accessibilityLabel'] = kilo;
+            entity['hint'] = yankee;
+            entity['icon'] = oscar;
+            source = entity;
+            update = tango;
+            tango = copyDataProperties(source, update);
+            tango = 'children';
+            entity[tango] = foxtrot;
+            entity = zulu.bind(report)(mike, entity);
+            _fun63778_ip = 372; continue _fun63778;
+ 209:
+            tango = _closure1_slot6;
+            zulu = _closure1_slot4;
+            mike = {};
+            oscar = {'marginBottom': 24, 'marginHorizontal': 12};
+            mike['style'] = oscar;
+            verify = _closure1_slot5;
+            oscar = {};
+            romeo = _closure1_slot0;
+            result = _closure1_slot2;
+            offset = 4;
+            offset = result[offset];
+            offset = romeo.bind(report)(offset);
+            romeo = offset.TableRadioGroup;
+            offset = {};
+            offset['value'] = output;
+            offset['hasIcons'] = sizing;
+            offset['title'] = kilo;
+            offset['accessibilityLabel'] = backup;
+            offset['children'] = foxtrot;
+            offset = verify.bind(report)(romeo, offset);
+            oscar['children'] = offset;
+            verify = verify.bind(report)(zulu, oscar);
+            oscar = new Array(2);
+            oscar[0] = verify;
+            verify = golf != yankee;
+            golf = null;
+            if(!verify) { _fun63778_ip = 358; continue _fun63778 }
+ 325:
+            offset = _closure1_slot5;
+            verify = _closure1_slot4;
+            options = {};
+            romeo = {};
+            foxtrot = 8;
+            romeo['marginTop'] = foxtrot;
+            options['style'] = romeo;
+            options['children'] = yankee;
+            golf = offset.bind(report)(verify, options);
+ 358:
+            oscar[1] = golf;
+            mike['children'] = oscar;
+            entity = tango.bind(report)(zulu, mike);
+ 372:
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

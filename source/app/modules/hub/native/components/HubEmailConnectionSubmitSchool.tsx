@@ -1,0 +1,513 @@
+// app/modules/hub/native/components/HubEmailConnectionSubmitSchool.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    romeo = 2;
+    golf = oscar[romeo];
+    tango = argCorge;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.View;
+    var _closure1_slot6 = golf;
+    tango = tango.ScrollView;
+    var _closure1_slot7 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot8 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.HubEmailConnectionSteps;
+    var _closure1_slot9 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    offset = tango.Fonts;
+    tango = 7;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot10 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot11 = tango;
+    foxtrot = 8;
+    tango = oscar[foxtrot];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    backup = 16;
+    verify['paddingHorizontal'] = backup;
+    tango['container'] = verify;
+    verify = {'fontFamily': null, 'color': null, 'fontSize': 24, 'textAlign': 'center', 'marginBottom': 8};
+    offset = offset.PRIMARY_BOLD;
+    verify['fontFamily'] = offset;
+    offset = 9;
+    backup = oscar[offset];
+    backup = yankee.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.HEADER_PRIMARY;
+    verify['color'] = backup;
+    tango['title'] = verify;
+    verify = {'textAlign': 'center', 'marginBottom': 24};
+    tango['description'] = verify;
+    verify = {};
+    verify['flexGrow'] = romeo;
+    tango['scrollViewContainer'] = verify;
+    verify = {};
+    verify['marginBottom'] = foxtrot;
+    tango['input'] = verify;
+    verify = {};
+    foxtrot = oscar[offset];
+    foxtrot = yankee.bind(entity)(foxtrot);
+    foxtrot = foxtrot.radii;
+    foxtrot = foxtrot.lg;
+    verify['borderRadius'] = foxtrot;
+    tango['redesignTextInput'] = verify;
+    verify = {};
+    verify['flexGrow'] = romeo;
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.spacing;
+    romeo = romeo.PX_24;
+    verify['minHeight'] = romeo;
+    tango['redesignGrowSpacing'] = verify;
+    verify = {};
+    offset = oscar[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_16;
+    verify['paddingHorizontal'] = offset;
+    tango['redesignSubmit'] = verify;
+    verify = {'flexGrow': 0, 'marginBottom': 8};
+    tango['submit'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot12 = tango;
+    tango = 22;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/hub/native/components/HubEmailConnectionSubmitSchool.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: HubEmailConnectionSubmitSchool
+        _fun93729: for(var _fun93729_ip = 0; ; ) switch(_fun93729_ip) {
+ 0:
+            entity = argFoo;
+            mike = entity.onClose;
+            var _closure2_slot0 = mike;
+            entity = entity.email;
+            var _closure2_slot1 = entity;
+            entity = _closure1_slot12;
+            tango = undefined;
+            foxtrot = entity.bind(tango)();
+            mike = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 10;
+            entity = report[entity];
+            zulu = mike.bind(tango)(entity);
+            entity = zulu.useNavigation;
+            entity = entity.bind(zulu)();
+            var _closure2_slot2 = entity;
+            backup = _closure1_slot5;
+            zulu = backup.useState;
+            entity = false;
+            entity = zulu.bind(backup)(entity);
+            verify = _closure1_slot4;
+            golf = 2;
+            entity = verify.bind(tango)(entity, golf);
+            oscar = 0;
+            sizing = entity[oscar];
+            zulu = 1;
+            entity = entity[zulu];
+            var _closure2_slot3 = entity;
+            entity = backup.useState;
+            source = null;
+            entity = entity.bind(backup)(source);
+            entity = verify.bind(tango)(entity, golf);
+            vacuum = entity[oscar];
+            entity = entity[zulu];
+            var _closure2_slot4 = entity;
+            options = _closure1_slot1;
+            entity = 11;
+            entity = report[entity];
+            entity = options.bind(tango)(entity);
+            entity = entity.bind(tango)();
+            offset = entity.bottom;
+            entity = backup.useRef;
+            options = entity.bind(backup)(source);
+            var _closure2_slot5 = options;
+            yankee = backup.useState;
+            entity = '';
+            entity = yankee.bind(backup)(entity);
+            entity = verify.bind(tango)(entity, golf);
+            record = entity[oscar];
+            var _closure2_slot6 = record;
+            control = entity[zulu];
+            entity = 12;
+            entity = report[entity];
+            golf = mike.bind(tango)(entity);
+            oscar = golf.useStateFromStores;
+            entity = _closure1_slot8;
+            zulu = new Array(1);
+            zulu[0] = entity;
+            entity = function() {
+                entity = _closure1_slot8;
+                entity = entity.keyboardOpen;
+                return entity;
+            };
+            kilo = oscar.bind(golf)(zulu, entity);
+            entity = function() {
+                tango = _closure1_slot3;
+                zulu = undefined;
+                mike = function* () {
+                    entity = function* () { // Original name: ?anon_0_
+                        _fun93733: for(var _fun93733_ip = 0; ; ) switch(_fun93733_ip) {
+ 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(mike) { _fun93733_ip = 243; continue _fun93733 }
+ 10:
+                            tango = _closure2_slot4;
+                            report = undefined;
+                            mike = null;
+                            mike = tango.bind(report)(mike);
+ 26: // try_start_0 // try_start_1
+                            tango = _closure2_slot3;
+                            mike = true;
+                            mike = tango.bind(report)(mike);
+                            oscar = _closure1_slot1;
+                            golf = _closure1_slot2;
+                            mike = 13;
+                            mike = golf[mike];
+                            options = oscar.bind(report)(mike);
+                            golf = options.signup;
+                            oscar = _closure2_slot1;
+                            mike = _closure2_slot6;
+                            mike = golf.bind(options)(oscar, mike);
+                            SaveGenerator(address=84);
+ 82:
+                            return mike;
+ 84:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                            if(oscar) { _fun93733_ip = 137; continue _fun93733 }
+ 90:
+                            options = _closure2_slot2;
+                            golf = options.push;
+                            tango = _closure1_slot9;
+                            oscar = tango.EMAIL_WAITLIST;
+                            tango = {};
+                            verify = _closure2_slot6;
+                            tango['school'] = verify;
+                            verify = _closure2_slot0;
+                            tango['onClose'] = verify;
+                            tango = golf.bind(options)(oscar, tango);
+ 135: // try_end0
+                            _fun93733_ip = 214; continue _fun93733;
+ 137: // try_end1
+                            oscar = _closure2_slot3;
+                            tango = false;
+                            tango = oscar.bind(report)(tango);
+                            return mike;
+ 151: // try_start_2 // catch_target0
+                            CatchBlockStart(arg_register=6);
+                            tango = _closure2_slot4;
+                            oscar = _closure1_slot0;
+                            options = _closure1_slot2;
+                            mike = 14;
+                            mike = options[mike];
+                            mike = oscar.bind(report)(mike);
+                            mike = mike.APIError;
+                            oscar = mike.prototype;
+                            oscar = Object.create(oscar, {constructor: {value: mike}});
+                            romeo = oscar;
+                            yankee = golf;
+                            mike = new romeo[mike](yankee, offset);
+                            mike = mike instanceof Object ? mike : oscar;
+                            mike = tango.bind(report)(mike);
+ 214: // try_end2
+                            tango = _closure2_slot3;
+                            mike = false;
+                            mike = tango.bind(report)(mike);
+                            return report;
+ 228: // catch_target1 // catch_target2
+                            CatchBlockStart(arg_register=1);
+                            tango = _closure2_slot3;
+                            zulu = false;
+                            zulu = tango.bind(report)(zulu);
+                            throw mike;
+ 243:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                mike = tango.bind(zulu)(mike);
+                var _closure3_slot0 = mike;
+                entity = function() {
+                    entity = undefined;
+                    tango = _closure3_slot0;
+                    zulu = tango.apply;
+                    entity = arguments;
+                    mike = entity;
+                    entity = this;
+                    entity = zulu.bind(tango)(entity, mike);
+                    return entity;
+                };
+                return entity;
+            };
+            backup = entity.bind(tango)();
+            zulu = _closure1_slot10;
+            entity = 15;
+            entity = report[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.HubEmailConnectionScreen;
+            entity = {};
+            golf = _closure1_slot11;
+            oscar = _closure1_slot7;
+            report = {};
+            report['ref'] = options;
+            options = 'handled';
+            report['keyboardShouldPersistTaps'] = options;
+            verify = foxtrot.scrollViewContainer;
+            options = new Array(2);
+            options[0] = verify;
+            verify = {};
+            output = _closure1_slot1;
+            result = _closure1_slot2;
+            yankee = 9;
+            yankee = result[yankee];
+            yankee = output.bind(tango)(yankee);
+            yankee = yankee.spacing;
+            yankee = yankee.PX_16;
+            if(kilo) { _fun93729_ip = 375; continue _fun93729 }
+ 369:
+            offset = offset + yankee;
+            _fun93729_ip = 378; continue _fun93729;
+ 375:
+            offset = yankee;
+ 378:
+            verify['paddingBottom'] = offset;
+            options[1] = verify;
+            report['contentContainerStyle'] = options;
+            offset = _closure1_slot11;
+            verify = _closure1_slot6;
+            options = {};
+            yankee = foxtrot.container;
+            options['style'] = yankee;
+            result = _closure1_slot10;
+            sequence = _closure1_slot0;
+            config = _closure1_slot2;
+            yankee = 16;
+            yankee = config[yankee];
+            yankee = sequence.bind(tango)(yankee);
+            kilo = yankee.LegacyText;
+            yankee = {};
+            output = foxtrot.title;
+            yankee['style'] = output;
+            output = 'header';
+            yankee['accessibilityRole'] = output;
+            echo = 17;
+            output = config[echo];
+            output = sequence.bind(tango)(output);
+            papa = output.intl;
+            context = papa.string;
+            output = config[echo];
+            output = sequence.bind(tango)(output);
+            output = output.t;
+            output = output.2FNWBA;
+            output = context.bind(papa)(output);
+            yankee['children'] = output;
+            kilo = result.bind(tango)(kilo, yankee);
+            yankee = new Array(3);
+            yankee[0] = kilo;
+            kilo = 18;
+            kilo = config[kilo];
+            kilo = sequence.bind(tango)(kilo);
+            output = kilo.Text;
+            kilo = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            context = foxtrot.description;
+            kilo['style'] = context;
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            target = context.intl;
+            papa = target.string;
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            context = context.t;
+            context = context./4y6o6;
+            context = papa.bind(target)(context);
+            kilo['children'] = context;
+            kilo = result.bind(tango)(output, kilo);
+            yankee[1] = kilo;
+            output = _closure1_slot1;
+            kilo = 19;
+            kilo = config[kilo];
+            output = output.bind(tango)(kilo);
+            kilo = {};
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            target = context.intl;
+            papa = target.string;
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            context = context.t;
+            context = context.L+AfJi;
+            context = papa.bind(target)(context);
+            kilo['label'] = context;
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            target = context.intl;
+            papa = target.string;
+            context = config[echo];
+            context = sequence.bind(tango)(context);
+            context = context.t;
+            context = context.Y1btJS;
+            context = papa.bind(target)(context);
+            kilo['placeholder'] = context;
+            kilo['value'] = record;
+            kilo['onChangeText'] = control;
+            control = foxtrot.input;
+            kilo['style'] = control;
+            control = foxtrot.redesignTextInput;
+            kilo['textStyle'] = control;
+            control = 20;
+            control = config[control];
+            control = sequence.bind(tango)(control);
+            control = control.ClearButtonVisibility;
+            control = control.WITH_CONTENT;
+            kilo['clearButtonVisibility'] = control;
+            control = source == vacuum;
+            source = undefined;
+            if(control) { _fun93729_ip = 818; continue _fun93729 }
+ 808:
+            control = vacuum.getAnyErrorMessage;
+            source = control.bind(vacuum)();
+ 818:
+            kilo['error'] = source;
+            source = function() { // Original name: onFocus
+                entity = global;
+                tango = entity.setTimeout;
+                entity = undefined;
+                zulu = function() {
+                    _fun93736: for(var _fun93736_ip = 0; ; ) switch(_fun93736_ip) {
+ 0:
+                        entity = _closure2_slot5;
+                        mike = entity.current;
+                        entity = null;
+                        if(!(entity != mike)) { _fun93736_ip = 28; continue _fun93736 }
+ 18:
+                        entity = mike.scrollToEnd;
+                        entity = entity.bind(mike)();
+ 28:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                mike = 100;
+                mike = tango.bind(entity)(zulu, mike);
+                return entity;
+            };
+            kilo['onFocus'] = source;
+            update = function() { // Original name: onBlur
+                entity = global;
+                tango = entity.setTimeout;
+                entity = undefined;
+                zulu = function() {
+                    _fun93738: for(var _fun93738_ip = 0; ; ) switch(_fun93738_ip) {
+ 0:
+                        entity = _closure2_slot5;
+                        mike = entity.current;
+                        entity = null;
+                        if(!(entity != mike)) { _fun93738_ip = 28; continue _fun93738 }
+ 18:
+                        entity = mike.scrollToEnd;
+                        entity = entity.bind(mike)();
+ 28:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                mike = 100;
+                mike = tango.bind(entity)(zulu, mike);
+                return entity;
+            };
+            kilo['onBlur'] = update;
+            kilo = result.bind(tango)(output, kilo);
+            yankee[2] = kilo;
+            options['children'] = yankee;
+            verify = offset.bind(tango)(verify, options);
+            options = new Array(3);
+            options[0] = verify;
+            yankee = _closure1_slot10;
+            offset = _closure1_slot6;
+            verify = {};
+            kilo = foxtrot.redesignGrowSpacing;
+            verify['style'] = kilo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[1] = verify;
+            verify = {};
+            foxtrot = foxtrot.redesignSubmit;
+            verify['style'] = foxtrot;
+            result = _closure1_slot0;
+            kilo = _closure1_slot2;
+            romeo = 21;
+            romeo = kilo[romeo];
+            romeo = result.bind(tango)(romeo);
+            foxtrot = romeo.Button;
+            romeo = {};
+            output = 'lg';
+            romeo['size'] = output;
+            romeo['loading'] = sizing;
+            sizing = kilo[echo];
+            sizing = result.bind(tango)(sizing);
+            output = sizing.intl;
+            sizing = output.string;
+            kilo = kilo[echo];
+            kilo = result.bind(tango)(kilo);
+            kilo = kilo.t;
+            kilo = kilo.PDsYAg;
+            kilo = sizing.bind(output)(kilo);
+            romeo['text'] = kilo;
+            romeo['onPress'] = backup;
+            romeo = yankee.bind(tango)(foxtrot, romeo);
+            verify['children'] = romeo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[2] = verify;
+            report['children'] = options;
+            report = golf.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,198 @@
+// app/modules/app_launcher/native/onboarding/banner/ApplicationsImage.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    oscar = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    golf = argPlugh;
+    var _closure1_slot0 = oscar;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = golf;
+    entity = global;
+    options = entity.Object;
+    report = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(options)(zulu, entity, mike);
+    entity = 0;
+    report = golf[entity];
+    mike = argCorge;
+    entity = undefined;
+    mike = mike.bind(entity)(report);
+    mike = 1;
+    mike = golf[mike];
+    mike = oscar.bind(entity)(mike);
+    mike = mike.View;
+    var _closure1_slot3 = mike;
+    mike = 2;
+    report = golf[mike];
+    report = oscar.bind(entity)(report);
+    report = report.jsx;
+    var _closure1_slot4 = report;
+    report = golf[mike];
+    report = oscar.bind(entity)(report);
+    report = report.Fragment;
+    var _closure1_slot5 = report;
+    mike = golf[mike];
+    mike = oscar.bind(entity)(mike);
+    mike = mike.jsxs;
+    var _closure1_slot6 = mike;
+    romeo = 3;
+    mike = golf[romeo];
+    verify = oscar.bind(entity)(mike);
+    options = verify.createStyles;
+    report = {};
+    offset = {};
+    mike = 4;
+    foxtrot = golf[mike];
+    foxtrot = yankee.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.BG_BRAND;
+    offset['backgroundColor'] = foxtrot;
+    foxtrot = golf[mike];
+    foxtrot = yankee.bind(entity)(foxtrot);
+    foxtrot = foxtrot.radii;
+    foxtrot = foxtrot.sm;
+    foxtrot = foxtrot + romeo;
+    offset['borderRadius'] = foxtrot;
+    foxtrot = 'absolute';
+    offset['position'] = foxtrot;
+    offset['padding'] = romeo;
+    report['appIconContainer'] = offset;
+    offset = {};
+    foxtrot = {};
+    romeo = '-10deg';
+    foxtrot['rotate'] = romeo;
+    romeo = new Array(1);
+    romeo[0] = foxtrot;
+    offset['transform'] = romeo;
+    report['appIconLeftContainer'] = offset;
+    offset = {};
+    romeo = golf[mike];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.spacing;
+    romeo = romeo.PX_32;
+    offset['left'] = romeo;
+    foxtrot = {};
+    romeo = '15deg';
+    foxtrot['rotate'] = romeo;
+    romeo = new Array(1);
+    romeo[0] = foxtrot;
+    offset['transform'] = romeo;
+    report['appIconRightContainer'] = offset;
+    offset = {'borderRadius': null, 'width': 36, 'height': 36};
+    mike = golf[mike];
+    mike = yankee.bind(entity)(mike);
+    mike = mike.radii;
+    mike = mike.sm;
+    offset['borderRadius'] = mike;
+    mike = 36;
+    report['appIcon'] = offset;
+    report = options.bind(verify)(report);
+    var _closure1_slot7 = report;
+    report = 7;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/app_launcher/native/onboarding/banner/ApplicationsImage.tsx';
+    report = oscar.bind(golf)(report);
+    tango = function(argFoo) { // Original name: ApplicationsImage
+        _fun118448: for(var _fun118448_ip = 0; ; ) switch(_fun118448_ip) {
+ 0:
+            entity = argFoo;
+            golf = entity.firstApplication;
+            oscar = entity.secondApplication;
+            entity = _closure1_slot7;
+            tango = undefined;
+            yankee = entity.bind(tango)();
+            entity = null;
+            mike = entity != golf;
+            options = null;
+            if(!mike) { _fun118448_ip = 70; continue _fun118448 }
+ 39:
+            zulu = _closure1_slot0;
+            verify = _closure1_slot2;
+            mike = 5;
+            mike = verify[mike];
+            zulu = zulu.bind(tango)(mike);
+            mike = zulu.getAppLauncherIconSource;
+            options = mike.bind(zulu)(golf);
+ 70:
+            mike = entity != oscar;
+            golf = null;
+            if(!mike) { _fun118448_ip = 110; continue _fun118448 }
+ 79:
+            zulu = _closure1_slot0;
+            verify = _closure1_slot2;
+            mike = 5;
+            mike = verify[mike];
+            zulu = zulu.bind(tango)(mike);
+            mike = zulu.getAppLauncherIconSource;
+            golf = mike.bind(zulu)(oscar);
+ 110:
+            verify = entity != options;
+            if(!verify) { _fun118448_ip = 163; continue _fun118448 }
+ 117:
+            oscar = _closure1_slot4;
+            zulu = _closure1_slot1;
+            offset = _closure1_slot2;
+            mike = 6;
+            mike = offset[mike];
+            zulu = zulu.bind(tango)(mike);
+            mike = {};
+            offset = yankee.appIcon;
+            mike['style'] = offset;
+            mike['source'] = options;
+            verify = oscar.bind(tango)(zulu, mike);
+ 163:
+            oscar = entity != golf;
+            if(!oscar) { _fun118448_ip = 216; continue _fun118448 }
+ 170:
+            zulu = _closure1_slot4;
+            mike = _closure1_slot1;
+            options = _closure1_slot2;
+            entity = 6;
+            entity = options[entity];
+            mike = mike.bind(tango)(entity);
+            entity = {};
+            options = yankee.appIcon;
+            entity['style'] = options;
+            entity['source'] = golf;
+            oscar = zulu.bind(tango)(mike, entity);
+ 216:
+            zulu = _closure1_slot6;
+            mike = _closure1_slot5;
+            entity = {};
+            options = _closure1_slot4;
+            golf = _closure1_slot3;
+            report = {};
+            romeo = yankee.appIconContainer;
+            offset = new Array(2);
+            offset[0] = romeo;
+            romeo = yankee.appIconLeftContainer;
+            offset[1] = romeo;
+            report['style'] = offset;
+            report['children'] = oscar;
+            oscar = options.bind(tango)(golf, report);
+            report = new Array(2);
+            report[0] = oscar;
+            oscar = {};
+            romeo = yankee.appIconContainer;
+            offset = new Array(2);
+            offset[0] = romeo;
+            yankee = yankee.appIconRightContainer;
+            offset[1] = yankee;
+            oscar['style'] = offset;
+            oscar['children'] = verify;
+            oscar = options.bind(tango)(golf, oscar);
+            report[1] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = tango;
+    zulu['APP_ICON_SIZE'] = mike;
+    return entity;
+})();

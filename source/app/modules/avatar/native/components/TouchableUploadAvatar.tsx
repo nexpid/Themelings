@@ -1,0 +1,213 @@
+// app/modules/avatar/native/components/TouchableUploadAvatar.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot4 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {'display': 'flex', 'paddingTop': 24};
+    tango['avatarContainer'] = verify;
+    verify = {};
+    yankee = 4;
+    offset = oscar[yankee];
+    offset = romeo.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.INTERACTIVE_NORMAL;
+    verify['tintColor'] = offset;
+    offset = 96;
+    verify['width'] = offset;
+    tango['defaultLogoStyle'] = verify;
+    verify = {'width': 200, 'height': 200, 'borderRadius': 100, 'position': 'relative'};
+    tango['uploadedAvatarStyle'] = verify;
+    verify = {'borderColor': null, 'borderStyle': 'dashed', 'borderWidth': 2, 'borderRadius': null, 'width': 200, 'height': 200, 'justifyContent': 'center', 'alignItems': 'center', 'position': 'relative', 'overflow': 'visible'};
+    offset = oscar[yankee];
+    offset = romeo.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.INTERACTIVE_MUTED;
+    verify['borderColor'] = offset;
+    offset = oscar[yankee];
+    offset = romeo.bind(entity)(offset);
+    offset = offset.radii;
+    offset = offset.round;
+    verify['borderRadius'] = offset;
+    offset = 'center';
+    tango['avatarWrapper'] = verify;
+    verify = {'backgroundColor': null, 'borderRadius': null, 'tintColor': null, 'position': 'absolute', 'right': 10, 'top': 10, 'width': 40, 'height': 40, 'flex': 1, 'justifyContent': 'center'};
+    foxtrot = oscar[yankee];
+    foxtrot = romeo.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.BG_BRAND;
+    verify['backgroundColor'] = foxtrot;
+    foxtrot = oscar[yankee];
+    foxtrot = romeo.bind(entity)(foxtrot);
+    foxtrot = foxtrot.radii;
+    foxtrot = foxtrot.round;
+    verify['borderRadius'] = foxtrot;
+    foxtrot = oscar[yankee];
+    foxtrot = romeo.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.BACKGROUND_PRIMARY;
+    verify['tintColor'] = foxtrot;
+    tango['uploadAvatarWrapper'] = verify;
+    verify = {};
+    yankee = oscar[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.WHITE;
+    verify['tintColor'] = yankee;
+    verify['alignSelf'] = offset;
+    tango['uploadAvatarIcon'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot6 = tango;
+    tango = 11;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/avatar/native/components/TouchableUploadAvatar.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: TouchableUploadAvatar
+        _fun124248: for(var _fun124248_ip = 0; ; ) switch(_fun124248_ip) {
+ 0:
+            zulu = argFoo;
+            mike = zulu.avatarSource;
+            entity = zulu.showPendingAvatar;
+            tango = undefined;
+            if(!(entity === tango)) { _fun124248_ip = 23; continue _fun124248 }
+ 21:
+            entity = false;
+ 23:
+            golf = zulu.onSelectAvatar;
+            zulu = _closure1_slot6;
+            foxtrot = zulu.bind(tango)();
+            if(!entity) { _fun124248_ip = 52; continue _fun124248 }
+ 43:
+            zulu = null;
+            yankee = mike;
+            if(!(zulu == yankee)) { _fun124248_ip = 72; continue _fun124248 }
+ 52:
+            report = _closure1_slot1;
+            oscar = _closure1_slot2;
+            zulu = 5;
+            zulu = oscar[zulu];
+            yankee = report.bind(tango)(zulu);
+ 72:
+            if(!entity) { _fun124248_ip = 81; continue _fun124248 }
+ 75:
+            entity = null;
+            if(!(entity == mike)) { _fun124248_ip = 89; continue _fun124248 }
+ 81:
+            romeo = foxtrot.defaultLogoStyle;
+            _fun124248_ip = 95; continue _fun124248;
+ 89:
+            romeo = foxtrot.uploadedAvatarStyle;
+ 95:
+            zulu = _closure1_slot4;
+            mike = _closure1_slot3;
+            entity = {};
+            report = foxtrot.avatarContainer;
+            entity['style'] = report;
+            backup = _closure1_slot0;
+            sizing = _closure1_slot2;
+            report = 6;
+            report = sizing[report];
+            report = backup.bind(tango)(report);
+            oscar = report.PressableOpacity;
+            report = {};
+            report['onPress'] = golf;
+            golf = 'button';
+            report['accessibilityRole'] = golf;
+            golf = 7;
+            options = sizing[golf];
+            options = backup.bind(tango)(options);
+            offset = options.intl;
+            options = offset.string;
+            golf = sizing[golf];
+            golf = backup.bind(tango)(golf);
+            golf = golf.t;
+            golf = golf.70lEQU;
+            golf = options.bind(offset)(golf);
+            report['accessibilityLabel'] = golf;
+            options = _closure1_slot5;
+            golf = {};
+            offset = foxtrot.avatarWrapper;
+            golf['style'] = offset;
+            kilo = _closure1_slot1;
+            verify = 8;
+            verify = sizing[verify];
+            offset = kilo.bind(tango)(verify);
+            verify = {};
+            backup = 'contain';
+            verify['resizeMode'] = backup;
+            verify['style'] = romeo;
+            verify['source'] = yankee;
+            offset = zulu.bind(tango)(offset, verify);
+            verify = new Array(2);
+            verify[0] = offset;
+            offset = {};
+            yankee = foxtrot.uploadAvatarWrapper;
+            offset['style'] = yankee;
+            backup = 9;
+            yankee = sizing[backup];
+            romeo = kilo.bind(tango)(yankee);
+            yankee = {};
+            backup = sizing[backup];
+            backup = kilo.bind(tango)(backup);
+            backup = backup.Sizes;
+            backup = backup.MEDIUM;
+            yankee['size'] = backup;
+            backup = 10;
+            backup = sizing[backup];
+            backup = kilo.bind(tango)(backup);
+            yankee['source'] = backup;
+            foxtrot = foxtrot.uploadAvatarIcon;
+            yankee['style'] = foxtrot;
+            yankee = zulu.bind(tango)(romeo, yankee);
+            offset['children'] = yankee;
+            offset = zulu.bind(tango)(mike, offset);
+            verify[1] = offset;
+            golf['children'] = verify;
+            golf = options.bind(tango)(mike, golf);
+            report['children'] = golf;
+            report = zulu.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

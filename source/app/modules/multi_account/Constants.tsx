@@ -1,0 +1,30 @@
+// app/modules/multi_account/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/multi_account/Constants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 5;
+    zulu['MAX_ACCOUNTS'] = mike;
+    mike = 'switch-accounts-modal';
+    zulu['SWITCH_ACCOUNTS_MODAL_KEY'] = mike;
+    mike = 'multiaccount_cta_tooltip_seen';
+    zulu['MULTIACCOUNT_TOOLTIP_SEEN_KEY'] = mike;
+    mike = 200;
+    zulu['MANAGE_EDIT_TRANSITION_DURATION'] = mike;
+    return entity;
+})();

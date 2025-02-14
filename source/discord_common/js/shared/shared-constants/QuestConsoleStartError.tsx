@@ -1,0 +1,38 @@
+// discord_common/js/shared/shared-constants/QuestConsoleStartError.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'no_game_online';
+    mike['NO_GAME_ONLINE'] = entity;
+    entity = 'no_game_offline';
+    mike['NO_GAME_OFFLINE'] = entity;
+    entity = 'no_game_unknown';
+    mike['NO_GAME_UNKNOWN'] = entity;
+    entity = 'no_game_cloacked';
+    mike['NO_GAME_CLOAKED'] = entity;
+    entity = 'locked_account';
+    mike['LOCKED_ACCOUNT'] = entity;
+    entity = 'expired_credential';
+    mike['EXPIRED_CREDENTIAL'] = entity;
+    entity = 'provider_unavailable';
+    mike['PROVIDER_UNAVAILABLE'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/QuestConsoleStartError.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['QuestConsoleStartError'] = mike;
+    return entity;
+})();

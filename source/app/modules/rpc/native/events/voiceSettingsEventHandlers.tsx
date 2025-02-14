@@ -1,0 +1,35 @@
+// app/modules/rpc/native/events/voiceSettingsEventHandlers.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    tango = oscar[entity];
+    mike = argBaz;
+    entity = undefined;
+    golf = mike.bind(entity)(tango);
+    mike = 1;
+    tango = oscar[mike];
+    tango = report.bind(entity)(tango);
+    tango = tango.getDeprecatedVoiceSettings;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    mike = mike.getVoiceSettings;
+    mike = golf.bind(entity)(tango, mike);
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/rpc/native/events/voiceSettingsEventHandlers.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['voiceSettingsEventHandlers'] = mike;
+    return entity;
+})();

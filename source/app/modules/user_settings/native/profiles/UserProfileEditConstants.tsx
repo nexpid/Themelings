@@ -1,0 +1,34 @@
+// app/modules/user_settings/native/profiles/UserProfileEditConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'AVATAR';
+    mike['AVATAR'] = entity;
+    entity = 'BIO';
+    mike['BIO'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_settings/native/profiles/UserProfileEditConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['UserProfileEditAutoFocusElement'] = mike;
+    mike = 150;
+    zulu['KEYBOARD_DELAY_MS'] = mike;
+    mike = ['rgba(0, 0, 0, 0)', '#000'];
+    zulu['DEFAULT_UPSELL_GRADIENT_COLORS'] = mike;
+    mike = [0, 0.95];
+    zulu['DEFAULT_UPSELL_GRADIENT_LOCATIONS'] = mike;
+    return entity;
+})();

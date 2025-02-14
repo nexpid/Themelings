@@ -1,0 +1,47 @@
+// app/modules/gateway/createWebSocket.android.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/gateway/createWebSocket.android.tsx';
+    mike = tango.bind(report)(mike);
+    mike = function(argFoo, argBar) { // Original name: createWebSocket
+        mike = global;
+        report = mike.WebSocket;
+        tango = {};
+        entity = {};
+        mike = mike.window;
+        mike = mike.GLOBAL_ENV;
+        golf = mike.WEBAPP_ENDPOINT;
+        oscar = golf.replace;
+        zulu = '//';
+        mike = '';
+        mike = oscar.bind(golf)(zulu, mike);
+        entity['Origin'] = mike;
+        tango['headers'] = entity;
+        entity = report.prototype;
+        mike = Object.create(entity, {constructor: {value: report}});
+        offset = argFoo;
+        verify = argBar;
+        yankee = mike;
+        options = tango;
+        entity = new yankee[report](offset, verify, options, golf);
+        entity = entity instanceof Object ? entity : mike;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,30 @@
+// app/modules/guild_role_subscriptions/edit_state/Contants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    mike = {'id': '0', 'name': '', 'mentionable': false, 'position': 0, 'hoist': false, 'permissions': null, 'color': 0, 'colorString': '0', 'icon': null, 'unicodeEmoji': null, 'flags': 0};
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.Permissions;
+    tango = tango.SEND_MESSAGES;
+    mike['permissions'] = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_role_subscriptions/edit_state/Contants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['DEFAULT_PREVIEW_ROLE'] = mike;
+    return entity;
+})();

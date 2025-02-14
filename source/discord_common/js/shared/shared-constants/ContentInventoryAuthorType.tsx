@@ -1,0 +1,31 @@
+// discord_common/js/shared/shared-constants/ContentInventoryAuthorType.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['AUTHOR_TYPE_UNSPECIFIED'] = tango;
+    entity = 'AUTHOR_TYPE_UNSPECIFIED';
+    mike[tango] = entity;
+    report = 1;
+    mike['USER'] = report;
+    entity = 'USER';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/ContentInventoryAuthorType.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['ContentInventoryAuthorType'] = mike;
+    return entity;
+})();

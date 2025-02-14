@@ -1,0 +1,118 @@
+// app/modules/experiments/trigger_points/Helpers.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot0 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot1 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.CommonTriggerPoints;
+    mike = function() {
+        tango = _closure1_slot1;
+        zulu = function(argFoo, argBar, argBaz) { // Original name: CommonTriggerPointConfiguration
+            zulu = this;
+            tango = _closure1_slot0;
+            mike = _closure2_slot0;
+            entity = undefined;
+            mike = tango.bind(entity)(zulu, mike);
+            mike = argFoo;
+            zulu['experiments'] = mike;
+            mike = argBar;
+            zulu['triggerPoint'] = mike;
+            mike = argBaz;
+            zulu['params'] = mike;
+            return entity;
+        };
+        var _closure2_slot0 = zulu;
+        entity = {};
+        mike = 'registeredExperimentIds';
+        entity['key'] = mike;
+        mike = function() { // Original name: value
+            entity = this;
+            zulu = entity.experiments;
+            mike = zulu.map;
+            entity = function(argFoo) {
+                entity = argFoo;
+                entity = entity.definition;
+                entity = entity.id;
+                return entity;
+            };
+            entity = mike.bind(zulu)(entity);
+            return entity;
+        };
+        entity['value'] = mike;
+        mike = new Array(3);
+        mike[0] = entity;
+        entity = {};
+        oscar = 'trigger';
+        entity['key'] = oscar;
+        oscar = function() { // Original name: value
+            entity = this;
+            mike = entity.triggerPoint;
+            tango = entity.experiments;
+            zulu = entity.params;
+            mike = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
+                zulu = argBar;
+                mike = argBaz;
+                var _closure4_slot0 = mike;
+                mike = zulu.forEach;
+                entity = function(argFoo) {
+                    zulu = argFoo;
+                    mike = zulu.trackExposure;
+                    entity = _closure4_slot0;
+                    entity = mike.bind(zulu)(entity);
+                    entity = undefined;
+                    return entity;
+                };
+                entity = mike.bind(zulu)(entity);
+                entity = undefined;
+                return entity;
+            };
+            entity = undefined;
+            mike = mike.bind(entity)(entity, tango, zulu);
+            return entity;
+        };
+        entity['value'] = oscar;
+        mike[1] = entity;
+        entity = {};
+        oscar = 'getExperiments';
+        entity['key'] = oscar;
+        report = function() { // Original name: value
+            entity = this;
+            entity = entity.experiments;
+            return entity;
+        };
+        entity['value'] = report;
+        mike[2] = entity;
+        entity = undefined;
+        entity = tango.bind(entity)(zulu, mike);
+        return entity;
+    };
+    mike = mike.bind(entity)();
+    tango = 3;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/experiments/trigger_points/Helpers.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['CommonTriggerPointConfiguration'] = mike;
+    return entity;
+})();

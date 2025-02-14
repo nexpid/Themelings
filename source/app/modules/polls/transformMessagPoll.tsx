@@ -1,0 +1,44 @@
+// app/modules/polls/transformMessagPoll.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    tango = argPlugh;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tango;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = 1;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/polls/transformMessagPoll.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: transformMessagePoll
+        mike = argFoo;
+        entity = {};
+        golf = entity;
+        oscar = mike;
+        zulu = copyDataProperties(golf, oscar);
+        report = _closure1_slot0;
+        tango = _closure1_slot1;
+        zulu = 0;
+        zulu = tango[zulu];
+        tango = undefined;
+        zulu = report.bind(tango)(zulu);
+        mike = mike.expiry;
+        zulu = zulu.bind(tango)(mike);
+        mike = 'expiry';
+        entity[mike] = zulu;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

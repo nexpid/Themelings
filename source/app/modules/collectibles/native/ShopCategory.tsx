@@ -1,0 +1,578 @@
+// app/modules/collectibles/native/ShopCategory.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    golf = argBar;
+    foxtrot = argBaz;
+    zulu = argFred;
+    options = argPlugh;
+    var _closure1_slot0 = golf;
+    var _closure1_slot1 = foxtrot;
+    var _closure1_slot2 = options;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscar)(zulu, entity, tango);
+    entity = 0;
+    report = options[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(report);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = options[tango];
+    tango = golf.bind(entity)(tango);
+    report = tango.Image;
+    var _closure1_slot4 = report;
+    tango = tango.View;
+    var _closure1_slot5 = tango;
+    tango = 2;
+    tango = options[tango];
+    tango = foxtrot.bind(entity)(tango);
+    var _closure1_slot6 = tango;
+    tango = 3;
+    tango = options[tango];
+    tango = golf.bind(entity)(tango);
+    tango = tango.UserSettingsSections;
+    var _closure1_slot7 = tango;
+    tango = 4;
+    report = options[tango];
+    report = golf.bind(entity)(report);
+    report = report.jsx;
+    var _closure1_slot8 = report;
+    report = options[tango];
+    report = golf.bind(entity)(report);
+    report = report.jsxs;
+    var _closure1_slot9 = report;
+    tango = options[tango];
+    tango = golf.bind(entity)(tango);
+    tango = tango.Fragment;
+    var _closure1_slot10 = tango;
+    tango = 5;
+    tango = options[tango];
+    tango = golf.bind(entity)(tango);
+    report = tango.COLLECTIBLES_SHOP_CARD_HEIGHT;
+    tango = 100;
+    report = tango + report;
+    backup = 6;
+    tango = options[backup];
+    offset = golf.bind(entity)(tango);
+    verify = offset.createStyles;
+    oscar = {};
+    yankee = {};
+    tango = 24;
+    yankee['marginBottom'] = tango;
+    oscar['categoryContainer'] = yankee;
+    yankee = {};
+    yankee['height'] = report;
+    oscar['categoryContainerRegular'] = yankee;
+    yankee = {};
+    romeo = 310;
+    yankee['height'] = romeo;
+    oscar['categoryContainerCondensed'] = yankee;
+    yankee = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center', 'marginBottom': 16, 'marginHorizontal': 16, 'borderRadius': null, 'overflow': 'hidden', 'borderWidth': 1, 'height': 84, 'padding': 20};
+    romeo = 7;
+    kilo = options[romeo];
+    kilo = foxtrot.bind(entity)(kilo);
+    kilo = kilo.radii;
+    kilo = kilo.sm;
+    yankee['borderRadius'] = kilo;
+    oscar['categoryHeader'] = yankee;
+    yankee = {};
+    kilo = options[romeo];
+    kilo = foxtrot.bind(entity)(kilo);
+    kilo = kilo.unsafe_rawColors;
+    kilo = kilo.PRIMARY_660;
+    yankee['borderColor'] = kilo;
+    oscar['categoryHeaderBorderDark'] = yankee;
+    yankee = {};
+    kilo = options[romeo];
+    kilo = foxtrot.bind(entity)(kilo);
+    kilo = kilo.colors;
+    kilo = kilo.BACKGROUND_TERTIARY;
+    yankee['borderColor'] = kilo;
+    oscar['categoryHeaderBorderLight'] = yankee;
+    yankee = {'resizeMode': 'cover', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'position': 'absolute'};
+    oscar['imageBackground'] = yankee;
+    yankee = {};
+    kilo = options[romeo];
+    kilo = foxtrot.bind(entity)(kilo);
+    kilo = kilo.colors;
+    kilo = kilo.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+    yankee['backgroundColor'] = kilo;
+    yankee['padding'] = backup;
+    romeo = options[romeo];
+    romeo = foxtrot.bind(entity)(romeo);
+    romeo = romeo.radii;
+    romeo = romeo.round;
+    yankee['borderRadius'] = romeo;
+    oscar['viewAllIcon'] = yankee;
+    oscar = verify.bind(offset)(oscar);
+    var _closure1_slot11 = oscar;
+    oscar = function() { // Original name: Spacing
+        tango = _closure1_slot8;
+        zulu = _closure1_slot5;
+        mike = {};
+        entity = {};
+        report = 10;
+        entity['width'] = report;
+        mike['style'] = entity;
+        entity = undefined;
+        entity = tango.bind(entity)(zulu, mike);
+        return entity;
+    };
+    var _closure1_slot12 = oscar;
+    oscar = function() { // Original name: HeaderAndFooterSpacing
+        tango = _closure1_slot8;
+        zulu = _closure1_slot5;
+        mike = {};
+        entity = {};
+        report = 16;
+        entity['width'] = report;
+        mike['style'] = entity;
+        entity = undefined;
+        entity = tango.bind(entity)(zulu, mike);
+        return entity;
+    };
+    var _closure1_slot13 = oscar;
+    oscar = 22;
+    oscar = options[oscar];
+    options = golf.bind(entity)(oscar);
+    golf = options.fileFinishedImporting;
+    oscar = 'modules/collectibles/native/ShopCategory.tsx';
+    oscar = golf.bind(options)(oscar);
+    zulu['CATEGORY_CONTAINER_HEIGHT'] = report;
+    zulu['CATEGORY_CONTAINER_BOTTOM_MARGIN'] = tango;
+    mike = function(argFoo) {
+        _fun99576: for(var _fun99576_ip = 0; ; ) switch(_fun99576_ip) {
+ 0:
+            entity = argFoo;
+            oscar = entity.index;
+            options = entity.item;
+            var _closure2_slot0 = options;
+            echo = entity.isDarkTheme;
+            tango = undefined;
+            var _closure2_slot4 = tango;
+            var _closure2_slot5 = tango;
+            var _closure2_slot6 = tango;
+            entity = _closure1_slot11;
+            sizing = entity.bind(tango)();
+            mike = _closure1_slot0;
+            zulu = _closure1_slot2;
+            entity = 8;
+            entity = zulu[entity];
+            report = mike.bind(tango)(entity);
+            entity = report.useNavigation;
+            entity = entity.bind(report)();
+            var _closure2_slot1 = entity;
+            golf = options.products;
+            entity = options.unpublishedAt;
+            var _closure2_slot2 = entity;
+            entity = 9;
+            entity = zulu[entity];
+            report = mike.bind(tango)(entity);
+            entity = report.usePurchasedProductsSort;
+            control = entity.bind(report)(golf);
+            var _closure2_slot3 = control;
+            kilo = 10;
+            entity = zulu[kilo];
+            verify = mike.bind(tango)(entity);
+            golf = verify.useStateFromStores;
+            entity = _closure1_slot6;
+            report = new Array(1);
+            report[0] = entity;
+            entity = function() {
+                mike = _closure1_slot6;
+                entity = mike.getWidth;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            golf = golf.bind(verify)(report, entity);
+            entity = 11;
+            entity = zulu[entity];
+            report = mike.bind(tango)(entity);
+            zulu = report.getCollectiblesAssetURL;
+            yankee = null;
+            entity = yankee == options;
+            mike = undefined;
+            if(entity) { _fun99576_ip = 204; continue _fun99576 }
+ 198:
+            mike = options.mobileBanner;
+ 204:
+            if(!(yankee == mike)) { _fun99576_ip = 226; continue _fun99576 }
+ 208:
+            verify = yankee == options;
+            entity = undefined;
+            if(verify) { _fun99576_ip = 223; continue _fun99576 }
+ 217:
+            entity = options.banner;
+ 223:
+            mike = entity;
+ 226:
+            entity = {};
+            entity['size'] = golf;
+            golf = 'webp';
+            entity['format'] = golf;
+            record = zulu.bind(report)(mike, entity);
+            mike = _closure1_slot1;
+            zulu = _closure1_slot2;
+            entity = 12;
+            entity = zulu[entity];
+            mike = mike.bind(tango)(entity);
+            entity = {};
+            report = 'ShopCategory';
+            entity['location'] = report;
+            entity = mike.bind(tango)(entity);
+            verify = entity.enabled;
+            mike = _closure1_slot0;
+            entity = 13;
+            entity = zulu[entity];
+            zulu = mike.bind(tango)(entity);
+            mike = zulu.useCollectiblesShopDeepLinkProps;
+            entity = {};
+            entity['products'] = control;
+            entity = mike.bind(zulu)(entity);
+            romeo = entity.productIndex;
+            report = _closure1_slot3;
+            zulu = report.useMemo;
+            mike = function() {
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 14;
+                mike = mike[entity];
+                entity = undefined;
+                mike = zulu.bind(entity)(mike);
+                entity = mike.isIOS;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            entity = new Array(0);
+            entity = zulu.bind(report)(mike, entity);
+            _closure2_slot4 = entity;
+            if(!verify) { _fun99576_ip = 375; continue _fun99576 }
+ 361:
+            entity = 2;
+            mike = oscar % entity;
+            entity = 1;
+            verify = mike === entity;
+ 375:
+            _closure2_slot5 = verify;
+            report = _closure1_slot3;
+            zulu = report.useMemo;
+            mike = new Array(2);
+            mike[0] = verify;
+            mike[1] = control;
+            entity = function() {
+                _fun99579: for(var _fun99579_ip = 0; ; ) switch(_fun99579_ip) {
+ 0:
+                    entity = _closure2_slot5;
+                    if(entity) { _fun99579_ip = 16; continue _fun99579 }
+ 10:
+                    entity = new Array(0);
+                    _fun99579_ip = 60; continue _fun99579;
+ 16:
+                    report = _closure1_slot1;
+                    tango = _closure1_slot2;
+                    zulu = 15;
+                    tango = tango[zulu];
+                    zulu = undefined;
+                    report = report.bind(zulu)(tango);
+                    tango = report.chunk;
+                    zulu = _closure2_slot3;
+                    mike = 2;
+                    entity = tango.bind(report)(zulu, mike);
+ 60:
+                    return entity;
+                }
+            };
+            result = zulu.bind(report)(entity, mike);
+            mike = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 16;
+            zulu = report[entity];
+            golf = mike.bind(tango)(zulu);
+            zulu = golf.useCollectiblesAnalyticsContext;
+            zulu = zulu.bind(golf)();
+            _closure2_slot6 = zulu;
+            zulu = _closure1_slot8;
+            entity = report[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.CollectiblesAnalyticsProvider;
+            entity = {};
+            report = {};
+            report['categoryPosition'] = oscar;
+            entity['newValue'] = report;
+            golf = _closure1_slot9;
+            oscar = _closure1_slot5;
+            report = {};
+            output = sizing.categoryContainer;
+            offset = new Array(2);
+            offset[0] = output;
+            if(verify) { _fun99576_ip = 515; continue _fun99576 }
+ 507:
+            output = sizing.categoryContainerRegular;
+            _fun99576_ip = 521; continue _fun99576;
+ 515:
+            output = sizing.categoryContainerCondensed;
+ 521:
+            offset[1] = output;
+            report['style'] = offset;
+            source = _closure1_slot9;
+            output = _closure1_slot0;
+            update = _closure1_slot2;
+            offset = 17;
+            offset = update[offset];
+            offset = output.bind(tango)(offset);
+            update = offset.PressableOpacity;
+            offset = {'style': null, 'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
+            vacuum = sizing.categoryHeader;
+            output = new Array(2);
+            output[0] = vacuum;
+            if(echo) { _fun99576_ip = 598; continue _fun99576 }
+ 590:
+            echo = sizing.categoryHeaderBorderLight;
+            _fun99576_ip = 604; continue _fun99576;
+ 598:
+            echo = sizing.categoryHeaderBorderDark;
+ 604:
+            output[1] = echo;
+            offset['style'] = output;
+            vacuum = _closure1_slot0;
+            config = _closure1_slot2;
+            echo = 18;
+            output = config[echo];
+            output = vacuum.bind(tango)(output);
+            context = output.intl;
+            sequence = context.formatToPlainString;
+            output = config[echo];
+            output = vacuum.bind(tango)(output);
+            output = output.t;
+            vacuum = output.hEsdAw;
+            output = {};
+            papa = options.name;
+            output['category'] = papa;
+            output = sequence.bind(context)(vacuum, output);
+            offset['accessibilityLabel'] = output;
+            output = {};
+            sequence = _closure1_slot1;
+            vacuum = 7;
+            vacuum = config[vacuum];
+            vacuum = sequence.bind(tango)(vacuum);
+            vacuum = vacuum.radii;
+            vacuum = vacuum.lg;
+            output['radius'] = vacuum;
+            offset['androidRippleConfig'] = output;
+            output = function() { // Original name: onPress
+                oscar = _closure2_slot0;
+                tango = _closure2_slot1;
+                zulu = tango.push;
+                entity = _closure1_slot7;
+                mike = entity.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
+                entity = {};
+                entity['category'] = oscar;
+                report = _closure2_slot6;
+                entity['analyticsContext'] = report;
+                entity = zulu.bind(tango)(mike, entity);
+                entity = undefined;
+                return entity;
+            };
+            offset['onPress'] = output;
+            yankee = yankee != record;
+            if(!yankee) { _fun99576_ip = 781; continue _fun99576 }
+ 745:
+            sequence = _closure1_slot8;
+            vacuum = _closure1_slot4;
+            output = {};
+            config = {};
+            config['uri'] = record;
+            output['source'] = config;
+            config = sizing.imageBackground;
+            output['style'] = config;
+            yankee = sequence.bind(tango)(vacuum, output);
+ 781:
+            vacuum = new Array(2);
+            vacuum[0] = yankee;
+            yankee = _closure1_slot8;
+            config = _closure1_slot5;
+            sequence = {};
+            sizing = sizing.viewAllIcon;
+            sequence['style'] = sizing;
+            sizing = _closure1_slot0;
+            output = _closure1_slot2;
+            record = 19;
+            record = output[record];
+            record = sizing.bind(tango)(record);
+            context = record.ChevronSmallRightIcon;
+            record = {'size': 'sm', 'color': 'white'};
+            record = yankee.bind(tango)(context, record);
+            sequence['children'] = record;
+            sequence = yankee.bind(tango)(config, sequence);
+            vacuum[1] = sequence;
+            offset['children'] = vacuum;
+            options = options.storeListingId;
+            offset = source.bind(tango)(update, offset, options);
+            options = new Array(2);
+            options[0] = offset;
+            offset = 20;
+            offset = output[offset];
+            offset = sizing.bind(tango)(offset);
+            offset = offset.FlashList;
+            if(verify) { _fun99576_ip = 1079; continue _fun99576 }
+ 914:
+            verify = {};
+            sizing = true;
+            verify['horizontal'] = sizing;
+            output = _closure1_slot0;
+            update = _closure1_slot2;
+            sizing = update[echo];
+            sizing = output.bind(tango)(sizing);
+            vacuum = sizing.intl;
+            source = vacuum.string;
+            sizing = update[echo];
+            sizing = output.bind(tango)(sizing);
+            sizing = sizing.t;
+            sizing = sizing.pWG4zc;
+            sizing = source.bind(vacuum)(sizing);
+            verify['accessibilityLabel'] = sizing;
+            source = control.filter;
+            sizing = function(argFoo) {
+                _fun99583: for(var _fun99583_ip = 0; ; ) switch(_fun99583_ip) {
+ 0:
+                    entity = _closure2_slot4;
+                    if(entity) { _fun99583_ip = 49; continue _fun99583 }
+ 10:
+                    tango = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    mike = 21;
+                    zulu = zulu[mike];
+                    mike = undefined;
+                    tango = tango.bind(mike)(zulu);
+                    zulu = tango.isGPlaySynced;
+                    mike = argFoo;
+                    entity = zulu.bind(tango)(mike);
+ 49:
+                    return entity;
+                }
+            };
+            sizing = source.bind(control)(sizing);
+            verify['data'] = sizing;
+            sizing = function(argFoo) { // Original name: renderItem
+                entity = argFoo;
+                golf = entity.item;
+                verify = entity.index;
+                tango = _closure1_slot8;
+                mike = _closure1_slot0;
+                options = _closure1_slot2;
+                entity = 16;
+                entity = options[entity];
+                zulu = undefined;
+                entity = mike.bind(zulu)(entity);
+                mike = entity.CollectiblesAnalyticsProvider;
+                entity = {};
+                oscar = {};
+                oscar['tilePosition'] = verify;
+                entity['newValue'] = oscar;
+                oscar = _closure1_slot1;
+                report = 5;
+                report = options[report];
+                oscar = oscar.bind(zulu)(report);
+                report = {};
+                report['product'] = golf;
+                golf = _closure2_slot2;
+                report['unpublishedAt'] = golf;
+                report = tango.bind(zulu)(oscar, report);
+                entity['children'] = report;
+                entity = tango.bind(zulu)(mike, entity);
+                return entity;
+            };
+            verify['renderItem'] = sizing;
+            sizing = 5;
+            sizing = update[sizing];
+            sizing = output.bind(tango)(sizing);
+            sizing = sizing.COLLECTIBLES_SHOP_CARD_WIDTH;
+            sizing = sizing + kilo;
+            verify['estimatedItemSize'] = sizing;
+            sizing = false;
+            verify['showsHorizontalScrollIndicator'] = sizing;
+            sizing = _closure1_slot13;
+            verify['ListHeaderComponent'] = sizing;
+            verify['ListFooterComponent'] = sizing;
+            sizing = _closure1_slot12;
+            verify['ItemSeparatorComponent'] = sizing;
+            verify['initialScrollIndex'] = romeo;
+            _fun99576_ip = 1211; continue _fun99576;
+ 1079:
+            romeo = {};
+            sizing = true;
+            romeo['horizontal'] = sizing;
+            sizing = _closure1_slot0;
+            output = _closure1_slot2;
+            update = output[echo];
+            update = sizing.bind(tango)(update);
+            source = update.intl;
+            update = source.string;
+            echo = output[echo];
+            echo = sizing.bind(tango)(echo);
+            echo = echo.t;
+            echo = echo.pWG4zc;
+            echo = update.bind(source)(echo);
+            romeo['accessibilityLabel'] = echo;
+            romeo['data'] = result;
+            backup = function(argFoo) { // Original name: renderItem
+                entity = argFoo;
+                oscar = entity.item;
+                tango = _closure1_slot8;
+                zulu = _closure1_slot10;
+                mike = {};
+                report = oscar.map;
+                entity = function(argFoo, argBar) {
+                    report = _closure1_slot8;
+                    mike = _closure1_slot1;
+                    zulu = _closure1_slot2;
+                    entity = 5;
+                    entity = zulu[entity];
+                    tango = undefined;
+                    zulu = mike.bind(tango)(entity);
+                    mike = {};
+                    entity = argFoo;
+                    mike['product'] = entity;
+                    entity = true;
+                    mike['condensed'] = entity;
+                    entity = argBar;
+                    entity = report.bind(tango)(zulu, mike, entity);
+                    return entity;
+                };
+                entity = report.bind(oscar)(entity);
+                mike['children'] = entity;
+                entity = undefined;
+                entity = tango.bind(entity)(zulu, mike);
+                return entity;
+            };
+            romeo['renderItem'] = backup;
+            backup = 5;
+            backup = output[backup];
+            backup = sizing.bind(tango)(backup);
+            backup = backup.COLLECTIBLES_SHOP_CARD_WIDTH;
+            backup = backup + kilo;
+            romeo['estimatedItemSize'] = backup;
+            backup = false;
+            romeo['showsHorizontalScrollIndicator'] = backup;
+            foxtrot = _closure1_slot12;
+            romeo['ListHeaderComponent'] = foxtrot;
+            romeo['ItemSeparatorComponent'] = foxtrot;
+            verify = romeo;
+ 1211:
+            verify = yankee.bind(tango)(offset, verify);
+            options[1] = verify;
+            report['children'] = options;
+            report = golf.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['ShopCategory'] = mike;
+    return entity;
+})();

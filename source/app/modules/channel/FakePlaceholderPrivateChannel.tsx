@@ -1,0 +1,37 @@
+// app/modules/channel/FakePlaceholderPrivateChannel.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    entity = 0;
+    mike = golf[entity];
+    entity = undefined;
+    mike = oscar.bind(entity)(mike);
+    report = mike.createChannelRecord;
+    mike = {'id': '131', 'type': null, 'name': 'Placeholder Channel'};
+    tango = '131';
+    options = 1;
+    options = golf[options];
+    options = oscar.bind(entity)(options);
+    options = options.ChannelTypes;
+    options = options.DM;
+    mike['type'] = options;
+    mike = report.bind(entity)(mike);
+    report = 2;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/channel/FakePlaceholderPrivateChannel.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID'] = tango;
+    zulu['FAKE_PLACEHOLDER_PRIVATE_CHANNEL'] = mike;
+    return entity;
+})();

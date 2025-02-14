@@ -1,0 +1,34 @@
+// discord_common/js/shared/shared-constants/GuildProfileLimits.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = '../discord_common/js/shared/shared-constants/GuildProfileLimits.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 5;
+    zulu['MAX_TRAITS'] = mike;
+    mike = 24;
+    zulu['MAX_TRAIT_LABEL_LENGTH'] = mike;
+    mike = 2;
+    zulu['TAG_MIN_LENGTH'] = mike;
+    mike = 4;
+    zulu['TAG_MAX_LENGTH'] = mike;
+    mike = 20;
+    zulu['MAX_GAMES'] = mike;
+    mike = 300;
+    zulu['MAX_DESCRIPTION_LENGTH'] = mike;
+    return entity;
+})();

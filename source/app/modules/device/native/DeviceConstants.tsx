@@ -1,0 +1,32 @@
+// app/modules/device/native/DeviceConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    report = entity.Object;
+    tango = report.freeze;
+    mike = {'VIDEO': 'ALAssetTypeVideo', 'PHOTO': 'ALAssetTypePhoto'};
+    tango = tango.bind(report)(mike);
+    report = entity.Object;
+    mike = report.freeze;
+    entity = {'VIDEO': 'video', 'IMAGE': 'image'};
+    mike = mike.bind(report)(entity);
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/device/native/DeviceConstants.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['ALAssetsType'] = tango;
+    zulu['DeviceMediaType'] = mike;
+    return entity;
+})();

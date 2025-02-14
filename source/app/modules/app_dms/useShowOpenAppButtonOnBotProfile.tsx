@@ -1,0 +1,40 @@
+// app/modules/app_dms/useShowOpenAppButtonOnBotProfile.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    tango = argPlugh;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tango;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = 1;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_dms/useShowOpenAppButtonOnBotProfile.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: useShowOpenAppButtonOnBotProfile
+        entity = argFoo;
+        tango = entity.context;
+        mike = _closure1_slot0;
+        zulu = _closure1_slot1;
+        entity = 0;
+        entity = zulu[entity];
+        zulu = undefined;
+        mike = mike.bind(zulu)(entity);
+        entity = {};
+        entity['context'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

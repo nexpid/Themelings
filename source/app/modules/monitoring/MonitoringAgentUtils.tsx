@@ -1,0 +1,62 @@
+// app/modules/monitoring/MonitoringAgentUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    tango = {};
+    entity = 0;
+    golf = oscar[entity];
+    entity = undefined;
+    golf = report.bind(entity)(golf);
+    golf = golf.DesignIds;
+    golf = golf.DESIGN_TABS_IA;
+    tango['design_id'] = golf;
+    var _closure1_slot0 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/monitoring/MonitoringAgentUtils.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo, argBar) { // Original name: addGlobalTag
+        zulu = _closure1_slot0;
+        mike = argBar;
+        entity = argFoo;
+        zulu[entity] = mike;
+        entity = undefined;
+        return entity;
+    };
+    zulu['addGlobalTag'] = tango;
+    mike = function() { // Original name: getGlobalTagsArray
+        entity = global;
+        zulu = entity.Object;
+        mike = zulu.keys;
+        entity = _closure1_slot0;
+        zulu = mike.bind(zulu)(entity);
+        mike = zulu.map;
+        entity = function(argFoo) {
+            report = argFoo;
+            entity = _closure1_slot0;
+            tango = entity[report];
+            entity = global;
+            entity = entity.HermesInternal;
+            zulu = entity.concat;
+            mike = '';
+            entity = ':';
+            entity = zulu.bind(mike)(report, entity, tango);
+            return entity;
+        };
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['getGlobalTagsArray'] = mike;
+    return entity;
+})();

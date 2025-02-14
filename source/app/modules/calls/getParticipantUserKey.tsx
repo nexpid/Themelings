@@ -1,0 +1,40 @@
+// app/modules/calls/getParticipantUserKey.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/calls/getParticipantUserKey.tsx';
+    mike = tango.bind(report)(mike);
+    mike = function(argFoo, argBar) { // Original name: getParticipantUserKey
+        mike = argFoo;
+        entity = mike.toLowerCase;
+        tango = entity.bind(mike)();
+        zulu = tango.padEnd;
+        mike = 32;
+        entity = '!';
+        tango = zulu.bind(tango)(mike, entity);
+        entity = argBar;
+        zulu = entity.id;
+        entity = global;
+        entity = entity.HermesInternal;
+        mike = entity.concat;
+        entity = '';
+        entity = mike.bind(entity)(tango, zulu);
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,393 @@
+// app/modules/premium/native/gifting/PremiumGiftModal.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    oscar = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    golf = argPlugh;
+    var _closure1_slot0 = oscar;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = golf;
+    entity = global;
+    options = entity.Object;
+    report = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = golf[entity];
+    entity = undefined;
+    mike = romeo.bind(entity)(mike);
+    var _closure1_slot3 = mike;
+    mike = 1;
+    report = golf[mike];
+    mike = argCorge;
+    mike = mike.bind(entity)(report);
+    var _closure1_slot4 = mike;
+    mike = 2;
+    mike = golf[mike];
+    mike = oscar.bind(entity)(mike);
+    mike = mike.jsx;
+    var _closure1_slot5 = mike;
+    mike = {};
+    report = 'PremiumGiftPlanSelect';
+    mike['PLAN_SELECT'] = report;
+    report = 'PremiumGiftCustomization';
+    mike['CUSTOMIZATION'] = report;
+    report = 'PremiumGiftSuccess';
+    mike['SUCCESS'] = report;
+    var _closure1_slot6 = mike;
+    report = {};
+    offset = mike.PLAN_SELECT;
+    options = 3;
+    verify = golf[options];
+    verify = oscar.bind(entity)(verify);
+    verify = verify.PaymentFlowStep;
+    verify = verify.SKU_SELECT;
+    report[offset] = verify;
+    offset = mike.CUSTOMIZATION;
+    verify = golf[options];
+    verify = oscar.bind(entity)(verify);
+    verify = verify.PaymentFlowStep;
+    verify = verify.PLAN_SELECT;
+    report[offset] = verify;
+    verify = mike.SUCCESS;
+    options = golf[options];
+    options = oscar.bind(entity)(options);
+    options = options.PaymentFlowStep;
+    options = options.CONFIRM;
+    report[verify] = options;
+    var _closure1_slot7 = report;
+    report = 4;
+    report = golf[report];
+    verify = oscar.bind(entity)(report);
+    options = verify.createStyles;
+    report = {};
+    offset = {};
+    yankee = 5;
+    yankee = golf[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.BACKGROUND_PRIMARY;
+    offset['backgroundColor'] = yankee;
+    yankee = 'transparent';
+    offset['shadowColor'] = yankee;
+    report['header'] = offset;
+    report = options.bind(verify)(report);
+    var _closure1_slot8 = report;
+    report = 17;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/premium/native/gifting/PremiumGiftModal.tsx';
+    report = oscar.bind(golf)(report);
+    tango = function(argFoo) { // Original name: PremiumGiftModal
+        _fun87729: for(var _fun87729_ip = 0; ; ) switch(_fun87729_ip) {
+ 0:
+            entity = argFoo;
+            result = entity.recipientUserId;
+            kilo = entity.premiumType;
+            options = entity.planInterval;
+            offset = entity.analyticsLocation;
+            var _closure2_slot0 = offset;
+            mike = entity.analyticsLocations;
+            var _closure2_slot1 = mike;
+            foxtrot = entity.initialRoute;
+            tango = undefined;
+            var _closure2_slot3 = tango;
+            oscar = _closure1_slot1;
+            verify = _closure1_slot2;
+            entity = 10;
+            zulu = verify[entity];
+            zulu = oscar.bind(tango)(zulu);
+            zulu = zulu.bind(tango)(mike);
+            report = zulu.analyticsLocations;
+            zulu = 11;
+            zulu = verify[zulu];
+            oscar = oscar.bind(tango)(zulu);
+            zulu = function() {
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 12;
+                mike = mike[entity];
+                entity = undefined;
+                mike = zulu.bind(entity)(mike);
+                entity = mike.v4;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            romeo = oscar.bind(tango)(zulu);
+            var _closure2_slot2 = romeo;
+            verify = _closure1_slot4;
+            oscar = verify.useMemo;
+            zulu = new Array(3);
+            zulu[0] = romeo;
+            zulu[1] = offset;
+            zulu[2] = mike;
+            mike = function() {
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 3;
+                mike = mike[entity];
+                entity = undefined;
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.getBasePurchaseFlowAnalyticsFields;
+                entity = {};
+                tango = true;
+                entity['isGift'] = tango;
+                report = _closure2_slot2;
+                entity['analyticsLoadId'] = report;
+                report = _closure2_slot0;
+                entity['analyticsLocation'] = report;
+                tango = _closure2_slot1;
+                entity['analyticsLocations'] = tango;
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            echo = oscar.bind(verify)(mike, zulu);
+            mike = null;
+            if(!(mike == foxtrot)) { _fun87729_ip = 190; continue _fun87729 }
+ 161:
+            if(!(mike == kilo)) { _fun87729_ip = 177; continue _fun87729 }
+ 165:
+            mike = _closure1_slot6;
+            mike = mike.PLAN_SELECT;
+            _fun87729_ip = 187; continue _fun87729;
+ 177:
+            zulu = _closure1_slot6;
+            mike = zulu.CUSTOMIZATION;
+ 187:
+            foxtrot = mike;
+ 190:
+            oscar = _closure1_slot4;
+            verify = oscar.useCallback;
+            zulu = function() {
+                zulu = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 13;
+                mike = mike[entity];
+                entity = undefined;
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.pop;
+                mike = mike.bind(zulu)();
+                return entity;
+            };
+            mike = new Array(0);
+            output = verify.bind(oscar)(zulu, mike);
+            mike = function(argFoo, argBar) { // Original name: useGetScreens
+                _fun87733: for(var _fun87733_ip = 0; ; ) switch(_fun87733_ip) {
+ 0:
+                    yankee = argFoo;
+                    options = argBar;
+                    var _closure3_slot0 = options;
+                    entity = _closure1_slot8;
+                    verify = undefined;
+                    report = entity.bind(verify)();
+                    entity = {};
+                    offset = _closure1_slot6;
+                    zulu = offset.PLAN_SELECT;
+                    mike = {'title': '', 'headerLeft': null, 'headerTransparent': true};
+                    golf = '';
+                    romeo = offset.PLAN_SELECT;
+                    offset = undefined;
+                    if(!(yankee === romeo)) { _fun87733_ip = 74; continue _fun87733 }
+ 67:
+                    offset = function(argFoo) {
+                        tango = argFoo;
+                        mike = _closure1_slot0;
+                        zulu = _closure1_slot2;
+                        entity = 6;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        report = mike.bind(zulu)(entity);
+                        mike = report.getHeaderCloseButton;
+                        entity = _closure3_slot0;
+                        mike = mike.bind(report)(entity);
+                        entity = {};
+                        verify = entity;
+                        options = tango;
+                        report = copyDataProperties(verify, options);
+                        tango = tango.labelStyle;
+                        oscar = new Array(2);
+                        oscar[0] = tango;
+                        tango = {};
+                        report = 'white';
+                        tango['color'] = report;
+                        oscar[1] = tango;
+                        tango = 'labelStyle';
+                        entity[tango] = oscar;
+                        tango = 'tintColor';
+                        entity[tango] = report;
+                        entity = mike.bind(zulu)(entity);
+                        return entity;
+                    };
+ 74:
+                    mike['headerLeft'] = offset;
+                    offset = function() { // Original name: render
+                        tango = _closure1_slot5;
+                        mike = _closure1_slot1;
+                        zulu = _closure1_slot2;
+                        entity = 7;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        mike = mike.bind(zulu)(entity);
+                        entity = {};
+                        entity = tango.bind(zulu)(mike, entity);
+                        return entity;
+                    };
+                    mike['render'] = offset;
+                    entity[zulu] = mike;
+                    offset = _closure1_slot6;
+                    zulu = offset.CUSTOMIZATION;
+                    mike = {};
+                    mike['title'] = golf;
+                    offset = offset.CUSTOMIZATION;
+                    if(!(yankee !== offset)) { _fun87733_ip = 155; continue _fun87733 }
+ 123:
+                    yankee = _closure1_slot0;
+                    romeo = _closure1_slot2;
+                    offset = 6;
+                    offset = romeo[offset];
+                    yankee = yankee.bind(verify)(offset);
+                    offset = yankee.getHeaderBackButton;
+                    offset = offset.bind(yankee)();
+                    _fun87733_ip = 186; continue _fun87733;
+ 155:
+                    romeo = _closure1_slot0;
+                    foxtrot = _closure1_slot2;
+                    yankee = 6;
+                    yankee = foxtrot[yankee];
+                    romeo = romeo.bind(verify)(yankee);
+                    yankee = romeo.getHeaderCloseButton;
+                    offset = yankee.bind(romeo)(options);
+ 186:
+                    mike['headerLeft'] = offset;
+                    offset = report.header;
+                    mike['headerStyle'] = offset;
+                    offset = function() { // Original name: render
+                        tango = _closure1_slot5;
+                        mike = _closure1_slot1;
+                        zulu = _closure1_slot2;
+                        entity = 8;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        mike = mike.bind(zulu)(entity);
+                        entity = {};
+                        entity = tango.bind(zulu)(mike, entity);
+                        return entity;
+                    };
+                    mike['render'] = offset;
+                    entity[zulu] = mike;
+                    mike = _closure1_slot6;
+                    zulu = mike.SUCCESS;
+                    mike = {};
+                    mike['title'] = golf;
+                    golf = _closure1_slot0;
+                    offset = _closure1_slot2;
+                    oscar = 6;
+                    oscar = offset[oscar];
+                    golf = golf.bind(verify)(oscar);
+                    oscar = golf.getHeaderCloseButton;
+                    oscar = oscar.bind(golf)(options);
+                    mike['headerLeft'] = oscar;
+                    report = report.header;
+                    mike['headerStyle'] = report;
+                    tango = function() { // Original name: render
+                        tango = _closure1_slot5;
+                        mike = _closure1_slot1;
+                        zulu = _closure1_slot2;
+                        entity = 9;
+                        entity = zulu[entity];
+                        zulu = undefined;
+                        mike = mike.bind(zulu)(entity);
+                        entity = {};
+                        entity = tango.bind(zulu)(mike, entity);
+                        return entity;
+                    };
+                    mike['render'] = tango;
+                    entity[zulu] = mike;
+                    return entity;
+                }
+            };
+            romeo = mike.bind(tango)(foxtrot, output);
+            zulu = oscar.useState;
+            mike = _closure1_slot7;
+            mike = mike[foxtrot];
+            oscar = zulu.bind(oscar)(mike);
+            zulu = _closure1_slot3;
+            mike = 2;
+            zulu = zulu.bind(tango)(oscar, mike);
+            mike = 0;
+            verify = zulu[mike];
+            mike = 1;
+            sizing = zulu[mike];
+            _closure2_slot3 = sizing;
+            zulu = _closure1_slot5;
+            offset = _closure1_slot0;
+            backup = _closure1_slot2;
+            entity = backup[entity];
+            entity = offset.bind(tango)(entity);
+            mike = entity.AnalyticsLocationProvider;
+            entity = {};
+            entity['value'] = report;
+            report = 14;
+            report = backup[report];
+            report = offset.bind(tango)(report);
+            oscar = report.NativeGiftContextProvider;
+            report = {};
+            report['basePurchaseAnalytics'] = echo;
+            report['recipientUserId'] = result;
+            report['onClose'] = output;
+            report['setCurrentAnalyticsStep'] = sizing;
+            report['premiumType'] = kilo;
+            report['planInterval'] = options;
+            options = _closure1_slot1;
+            golf = 15;
+            golf = backup[golf];
+            options = options.bind(tango)(golf);
+            golf = {};
+            golf['currentStep'] = verify;
+            verify = 16;
+            verify = backup[verify];
+            verify = offset.bind(tango)(verify);
+            offset = verify.Navigator;
+            verify = {};
+            verify['initialRouteName'] = foxtrot;
+            verify['screens'] = romeo;
+            yankee = function(argFoo) { // Original name: onStateChange
+                _fun87738: for(var _fun87738_ip = 0; ; ) switch(_fun87738_ip) {
+ 0:
+                    entity = argFoo;
+                    mike = null;
+                    if(!(mike != entity)) { _fun87738_ip = 54; continue _fun87738 }
+ 9:
+                    mike = entity.routes;
+                    entity = entity.index;
+                    entity = mike[entity];
+                    mike = entity.name;
+                    zulu = _closure2_slot3;
+                    entity = _closure1_slot7;
+                    mike = entity[mike];
+                    entity = undefined;
+                    entity = zulu.bind(entity)(mike);
+ 54:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            verify['onStateChange'] = yankee;
+            verify = zulu.bind(tango)(offset, verify);
+            golf['children'] = verify;
+            golf = zulu.bind(tango)(options, golf);
+            report['children'] = golf;
+            report = zulu.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = tango;
+    zulu['PremiumGiftScreens'] = mike;
+    return entity;
+})();

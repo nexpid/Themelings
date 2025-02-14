@@ -1,0 +1,36 @@
+// app/modules/self_mod/inappropriate_conversation/InappropriateConversationsConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    tango = {};
+    entity = 'play';
+    tango['PLAY'] = entity;
+    entity = 'pause';
+    tango['PAUSE'] = entity;
+    entity = 'back_to_conversation';
+    tango['BACK_TO_CONVERSATION'] = entity;
+    mike = {};
+    entity = 'inappropriate_conversation';
+    mike['INAPPROPRIATE_CONVERSATION'] = entity;
+    entity = 'keybind';
+    mike['KEYBIND'] = entity;
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/self_mod/inappropriate_conversation/InappropriateConversationsConstants.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['VibingWumpusAction'] = tango;
+    zulu['VibingWumpusSource'] = mike;
+    return entity;
+})();

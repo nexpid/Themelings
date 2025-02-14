@@ -1,0 +1,36 @@
+// discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 1;
+    mike['NORMAL'] = tango;
+    entity = 'NORMAL';
+    mike[tango] = entity;
+    tango = 2;
+    mike['PREMIUM_EXTENSION'] = tango;
+    entity = 'PREMIUM_EXTENSION';
+    mike[tango] = entity;
+    tango = 3;
+    mike['PREMIUM_PERMANENT'] = tango;
+    entity = 'PREMIUM_PERMANENT';
+    mike[tango] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['QuestRewardExpirationMode'] = mike;
+    return entity;
+})();

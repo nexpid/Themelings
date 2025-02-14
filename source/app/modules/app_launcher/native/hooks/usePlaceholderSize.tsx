@@ -1,0 +1,53 @@
+// app/modules/app_launcher/native/hooks/usePlaceholderSize.tsx
+export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = 0;
+    oscar = report[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(oscar);
+    var _closure1_slot0 = tango;
+    tango = 1;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_launcher/native/hooks/usePlaceholderSize.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo, argBar) { // Original name: usePlaceholderWidth
+        oscar = argFoo;
+        report = argBar;
+        var _closure2_slot0 = oscar;
+        var _closure2_slot1 = report;
+        tango = _closure1_slot0;
+        zulu = tango.useMemo;
+        mike = new Array(2);
+        mike[0] = oscar;
+        mike[1] = report;
+        entity = function() {
+            entity = global;
+            mike = entity.Math;
+            entity = mike.random;
+            zulu = entity.bind(mike)();
+            entity = _closure2_slot1;
+            mike = _closure2_slot0;
+            entity = entity - mike;
+            entity = zulu * entity;
+            entity = entity + mike;
+            return entity;
+        };
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    zulu['usePlaceholderWidth'] = mike;
+    return entity;
+})();

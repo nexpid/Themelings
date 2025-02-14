@@ -1,0 +1,30 @@
+// app/modules/main_tabs_v2/native/tabs/gravity/ICYMIContext.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    golf = 0;
+    mike = oscar[golf];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    tango = mike.createContext;
+    mike = {};
+    mike['width'] = golf;
+    mike = tango.bind(entity)(mike);
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/tabs/gravity/ICYMIContext.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['ICYMIContext'] = mike;
+    return entity;
+})();

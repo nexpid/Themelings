@@ -1,0 +1,100 @@
+// app/design/components/TextField/native/TextField.native.tsx
+export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot2 = tango;
+    tango = golf.forwardRef;
+    mike = function(argFoo, argBar) {
+        _fun63659: for(var _fun63659_ip = 0; ; ) switch(_fun63659_ip) {
+ 0:
+            options = argFoo;
+            zulu = _closure1_slot0;
+            golf = _closure1_slot1;
+            mike = 2;
+            mike = golf[mike];
+            tango = undefined;
+            oscar = zulu.bind(tango)(mike);
+            report = oscar.useTextField;
+            mike = argBar;
+            mike = report.bind(oscar)(options, mike);
+            verify = mike.innerRef;
+            report = mike.inputProps;
+            oscar = mike.state;
+            mike = 3;
+            mike = golf[mike];
+            zulu = zulu.bind(tango)(mike);
+            mike = zulu.useInputClearButtonConfig;
+            zulu = mike.bind(zulu)(options, oscar);
+            mike = null;
+            mike = mike != zulu;
+            golf = undefined;
+            if(!mike) { _fun63659_ip = 121; continue _fun63659 }
+ 95:
+            mike = {};
+            oscar = zulu.content;
+            mike['trailing'] = oscar;
+            zulu = zulu.pressableProps;
+            mike['trailingPressableProps'] = zulu;
+            golf = mike;
+ 121:
+            mike = _closure1_slot0;
+            offset = _closure1_slot1;
+            zulu = 4;
+            zulu = offset[zulu];
+            oscar = mike.bind(tango)(zulu);
+            zulu = oscar.useInputAttachments;
+            zulu = zulu.bind(oscar)(options, golf);
+            options = zulu.leading;
+            golf = zulu.trailing;
+            oscar = zulu.inputStyle;
+            zulu = _closure1_slot2;
+            entity = 5;
+            entity = offset[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.BaseTextField;
+            entity = {};
+            romeo = entity;
+            yankee = report;
+            report = copyDataProperties(romeo, yankee);
+            report = 'ref';
+            entity[report] = verify;
+            report = 'leading';
+            entity[report] = options;
+            report = 'trailing';
+            entity[report] = golf;
+            report = 'inputStyle';
+            entity[report] = oscar;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 6;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/components/TextField/native/TextField.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['TextField'] = mike;
+    return entity;
+})();

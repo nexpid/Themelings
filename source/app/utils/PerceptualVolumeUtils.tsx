@@ -1,0 +1,31 @@
+// app/utils/PerceptualVolumeUtils.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    tango = argBar;
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    mike = report[entity];
+    entity = undefined;
+    golf = tango.bind(entity)(mike);
+    oscar = golf.fileFinishedImporting;
+    mike = 'utils/PerceptualVolumeUtils.tsx';
+    mike = oscar.bind(golf)(mike);
+    mike = 1;
+    oscar = report[mike];
+    oscar = tango.bind(entity)(oscar);
+    oscar = oscar.perceptualToAmplitude;
+    zulu['perceptualToAmplitude'] = oscar;
+    mike = report[mike];
+    mike = tango.bind(entity)(mike);
+    mike = mike.amplitudeToPerceptual;
+    zulu['amplitudeToPerceptual'] = mike;
+    return entity;
+})();

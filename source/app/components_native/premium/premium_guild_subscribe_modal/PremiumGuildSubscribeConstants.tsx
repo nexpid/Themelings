@@ -1,0 +1,30 @@
+// app/components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'guild_select';
+    mike['GUILD_SELECT'] = entity;
+    entity = 'overview';
+    mike['OVERVIEW'] = entity;
+    entity = 'confirmation';
+    mike['CONFIRMATION'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['PremiumGuildSubscribeModalScenes'] = mike;
+    return entity;
+})();

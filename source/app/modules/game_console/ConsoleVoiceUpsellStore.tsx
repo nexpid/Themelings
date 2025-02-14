@@ -1,0 +1,88 @@
+// app/modules/game_console/ConsoleVoiceUpsellStore.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    var _closure1_slot0 = oscar;
+    var _closure1_slot1 = golf;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    report = {};
+    tango = true;
+    report['value'] = tango;
+    tango = '__esModule';
+    tango = options.bind(verify)(zulu, tango, report);
+    report = entity.Object;
+    tango = report.freeze;
+    entity = {'voiceUpsellDismissed': false, 'showSparkles': false};
+    entity = tango.bind(report)(entity);
+    var _closure1_slot2 = entity;
+    entity = 0;
+    tango = golf[entity];
+    entity = undefined;
+    options = oscar.bind(entity)(tango);
+    report = options.create;
+    tango = function() {
+        entity = _closure1_slot2;
+        return entity;
+    };
+    tango = report.bind(options)(tango);
+    var _closure1_slot3 = tango;
+    report = 2;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/game_console/ConsoleVoiceUpsellStore.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['useConsoleVoiceUpsellStore'] = tango;
+    tango = function(argFoo) {
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        entity = 1;
+        zulu = zulu[entity];
+        entity = undefined;
+        tango = tango.bind(entity)(zulu);
+        zulu = tango.batchUpdates;
+        mike = function() {
+            zulu = _closure1_slot3;
+            mike = zulu.setState;
+            entity = {};
+            tango = _closure2_slot0;
+            entity['showSparkles'] = tango;
+            entity = mike.bind(zulu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    zulu['setShowConsoleVoiceSparkles'] = tango;
+    mike = function(argFoo) {
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        entity = 1;
+        zulu = zulu[entity];
+        entity = undefined;
+        tango = tango.bind(entity)(zulu);
+        zulu = tango.batchUpdates;
+        mike = function() {
+            zulu = _closure1_slot3;
+            mike = zulu.setState;
+            entity = {};
+            tango = _closure2_slot0;
+            entity['voiceUpsellDismissed'] = tango;
+            entity = mike.bind(zulu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    zulu['setVoiceUpsellDismissed'] = mike;
+    return entity;
+})();

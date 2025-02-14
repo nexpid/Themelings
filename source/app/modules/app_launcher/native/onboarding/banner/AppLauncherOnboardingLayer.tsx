@@ -1,0 +1,110 @@
+// app/modules/app_launcher/native/onboarding/banner/AppLauncherOnboardingLayer.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    offset = {'opacity': 1, 'width': '100%', 'position': 'absolute', 'left': 0, 'top': 0};
+    yankee = 4;
+    yankee = oscar[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.BG_BACKDROP;
+    offset['backgroundColor'] = yankee;
+    tango['container'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot5 = tango;
+    tango = golf.memo;
+    mike = function(argFoo) {
+        _fun118441: for(var _fun118441_ip = 0; ; ) switch(_fun118441_ip) {
+ 0:
+            entity = argFoo;
+            verify = entity.context;
+            options = entity.visibleContent;
+            romeo = entity.bottomOffset;
+            entity = _closure1_slot5;
+            report = undefined;
+            golf = entity.bind(report)();
+            mike = _closure1_slot0;
+            zulu = _closure1_slot2;
+            entity = 5;
+            entity = zulu[entity];
+            zulu = mike.bind(report)(entity);
+            mike = zulu.useChatInputManager;
+            entity = function(argFoo) {
+                entity = argFoo;
+                entity = entity.chatInputContainerHeight;
+                return entity;
+            };
+            yankee = mike.bind(zulu)(entity);
+            entity = null;
+            mike = entity != options;
+            if(!mike) { _fun118441_ip = 170; continue _fun118441 }
+ 82:
+            tango = _closure1_slot4;
+            zulu = _closure1_slot3;
+            mike = {};
+            offset = golf.container;
+            golf = new Array(2);
+            golf[0] = offset;
+            offset = {};
+            yankee = yankee + romeo;
+            offset['bottom'] = yankee;
+            golf[1] = offset;
+            mike['style'] = golf;
+            golf = _closure1_slot1;
+            offset = _closure1_slot2;
+            oscar = 6;
+            oscar = offset[oscar];
+            golf = golf.bind(report)(oscar);
+            oscar = {};
+            oscar['context'] = verify;
+            oscar['visibleContent'] = options;
+            oscar = tango.bind(report)(golf, oscar);
+            mike['children'] = oscar;
+            entity = tango.bind(report)(zulu, mike);
+ 170:
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 7;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_launcher/native/onboarding/banner/AppLauncherOnboardingLayer.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

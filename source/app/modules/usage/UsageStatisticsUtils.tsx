@@ -1,0 +1,53 @@
+// app/modules/usage/UsageStatisticsUtils.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscar)(zulu, entity, tango);
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/usage/UsageStatisticsUtils.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: isInstallFrequentlyUsed
+        entity = global;
+        zulu = entity.Object;
+        mike = zulu.keys;
+        entity = argFoo;
+        entity = mike.bind(zulu)(entity);
+        mike = entity.length;
+        entity = 17;
+        entity = mike >= entity;
+        return entity;
+    };
+    zulu['isInstallFrequentlyUsed'] = tango;
+    mike = function(argFoo) { // Original name: getDateOfTimestamp
+        entity = global;
+        zulu = entity.Date;
+        entity = zulu.prototype;
+        mike = Object.create(entity, {constructor: {value: zulu}});
+        tango = argFoo;
+        report = mike;
+        entity = new report[zulu](tango, zulu);
+        mike = entity instanceof Object ? entity : mike;
+        entity = mike.toISOString;
+        zulu = entity.bind(mike)();
+        mike = zulu.split;
+        entity = 'T';
+        mike = mike.bind(zulu)(entity);
+        entity = 0;
+        entity = mike[entity];
+        return entity;
+    };
+    zulu['getDateOfTimestamp'] = mike;
+    return entity;
+})();

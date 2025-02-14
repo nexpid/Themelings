@@ -1,0 +1,183 @@
+// app/modules/webauthn/PasskeyUpsellActionCreators.native.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    tango = argPlugh;
+    var _closure1_slot0 = report;
+    mike = argBaz;
+    var _closure1_slot1 = mike;
+    var _closure1_slot2 = tango;
+    mike = global;
+    options = mike.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    mike = true;
+    oscar['value'] = mike;
+    mike = '__esModule';
+    mike = golf.bind(options)(zulu, mike, oscar);
+    mike = {};
+    oscar = function() { // Original name: openPasskeyUpsell
+        _fun92823: for(var _fun92823_ip = 0; ; ) switch(_fun92823_ip) {
+ 0:
+            zulu = this;
+            verify = _closure1_slot0;
+            report = _closure1_slot2;
+            tango = 0;
+            oscar = report[tango];
+            entity = undefined;
+            options = verify.bind(entity)(oscar);
+            oscar = options.isDismissibleContentDismissed;
+            golf = 1;
+            report = report[golf];
+            report = verify.bind(entity)(report);
+            report = report.DismissibleContent;
+            report = report.PASSWORDLESS_UPSELL;
+            report = oscar.bind(options)(report);
+            if(report) { _fun92823_ip = 201; continue _fun92823 }
+ 68:
+            oscar = _closure1_slot1;
+            options = _closure1_slot2;
+            report = 2;
+            report = options[report];
+            options = oscar.bind(entity)(report);
+            oscar = options.getCurrentConfig;
+            report = {};
+            verify = 'PasskeyUpsellActionCreators';
+            report['location'] = verify;
+            report = oscar.bind(options)(report);
+            options = new Array(1);
+            options[0] = report;
+            oscar = options.some;
+            report = function(argFoo) {
+                zulu = _closure1_slot0;
+                mike = _closure1_slot2;
+                entity = 3;
+                mike = mike[entity];
+                entity = undefined;
+                entity = zulu.bind(entity)(mike);
+                entity = entity.PasskeyUpsellOnLoginExperimentState;
+                mike = entity.Sheet;
+                entity = argFoo;
+                entity = entity === mike;
+                return entity;
+            };
+            report = oscar.bind(options)(report);
+            if(!report) { _fun92823_ip = 201; continue _fun92823 }
+ 142:
+            oscar = _closure1_slot0;
+            mike = _closure1_slot2;
+            tango = mike[tango];
+            report = oscar.bind(entity)(tango);
+            tango = report.requestMarkDismissibleContentAsShown;
+            mike = mike[golf];
+            mike = oscar.bind(entity)(mike);
+            mike = mike.DismissibleContent;
+            mike = mike.PASSWORDLESS_UPSELL;
+            mike = tango.bind(report)(mike);
+            mike = zulu.openPasskeyUpsellPromoSheet;
+            mike = mike.bind(zulu)();
+ 201:
+            return entity;
+        }
+    };
+    mike['openPasskeyUpsell'] = oscar;
+    oscar = function() { // Original name: openPasskeyUpsellModal
+        report = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 4;
+        tango = mike[entity];
+        entity = undefined;
+        report = report.bind(entity)(tango);
+        tango = report.pushLazy;
+        oscar = _closure1_slot0;
+        zulu = 6;
+        zulu = mike[zulu];
+        oscar = oscar.bind(entity)(zulu);
+        zulu = 5;
+        zulu = mike[zulu];
+        mike = mike.paths;
+        zulu = oscar.bind(entity)(zulu, mike);
+        mike = 'PASSKEY_UPSELL_KEY';
+        mike = tango.bind(report)(zulu, entity, mike);
+        return entity;
+    };
+    mike['openPasskeyUpsellModal'] = oscar;
+    oscar = function() { // Original name: closePasskeyUpsellModal
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 4;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.popWithKey;
+        mike = 'PASSKEY_UPSELL_KEY';
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['closePasskeyUpsellModal'] = oscar;
+    oscar = function() { // Original name: openPasskeyUpsellPromoSheet
+        report = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 7;
+        tango = mike[entity];
+        entity = undefined;
+        report = report.bind(entity)(tango);
+        tango = report.openLazy;
+        oscar = _closure1_slot0;
+        zulu = 6;
+        zulu = mike[zulu];
+        oscar = oscar.bind(entity)(zulu);
+        zulu = 8;
+        zulu = mike[zulu];
+        mike = mike.paths;
+        zulu = oscar.bind(entity)(zulu, mike);
+        mike = 'PASSKEY_UPSELL_KEY';
+        mike = tango.bind(report)(zulu, mike);
+        return entity;
+    };
+    mike['openPasskeyUpsellPromoSheet'] = oscar;
+    oscar = function() { // Original name: closePasskeyUpsellPromoSheet
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 7;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.hideActionSheet;
+        mike = 'PASSKEY_UPSELL_KEY';
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['closePasskeyUpsellPromoSheet'] = oscar;
+    entity = function(argFoo) { // Original name: openPasskeyUpsellPromoModal
+        report = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 4;
+        tango = mike[entity];
+        entity = undefined;
+        oscar = report.bind(entity)(tango);
+        report = oscar.pushLazy;
+        tango = _closure1_slot0;
+        zulu = 6;
+        zulu = mike[zulu];
+        tango = tango.bind(entity)(zulu);
+        zulu = 9;
+        zulu = mike[zulu];
+        mike = mike.paths;
+        tango = tango.bind(entity)(zulu, mike);
+        zulu = argFoo;
+        mike = 'PASSKEY_UPSELL_KEY';
+        mike = report.bind(oscar)(tango, zulu, mike);
+        return entity;
+    };
+    mike['openPasskeyUpsellPromoModal'] = entity;
+    entity = 10;
+    tango = tango[entity];
+    entity = undefined;
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/webauthn/PasskeyUpsellActionCreators.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

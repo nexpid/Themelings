@@ -1,0 +1,164 @@
+// app/uikit-native/refresh/card/CardSection.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot2 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    verify = tango.Fonts;
+    tango = 3;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot3 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot4 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    offset = {'paddingTop': 16, 'paddingHorizontal': 16};
+    tango['container'] = offset;
+    offset = 5;
+    offset = oscar[offset];
+    kilo = yankee.bind(entity)(offset);
+    backup = verify.DISPLAY_EXTRABOLD;
+    offset = 6;
+    verify = oscar[offset];
+    verify = yankee.bind(entity)(verify);
+    verify = verify.colors;
+    result = verify.HEADER_SECONDARY;
+    output = 12;
+    sizing = {'uppercase': true, 'marginBottom': 6};
+    update = undefined;
+    echo = backup;
+    verify = update[kilo](echo, result, output, sizing, kilo);
+    tango['title'] = verify;
+    verify = {};
+    romeo = oscar[offset];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.radii;
+    romeo = romeo.xs;
+    verify['borderRadius'] = romeo;
+    romeo = 'hidden';
+    verify['overflow'] = romeo;
+    offset = oscar[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.colors;
+    offset = offset.BACKGROUND_TERTIARY;
+    verify['backgroundColor'] = offset;
+    tango['card'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot5 = tango;
+    tango = 8;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'uikit-native/refresh/card/CardSection.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: _default
+        _fun62411: for(var _fun62411_ip = 0; ; ) switch(_fun62411_ip) {
+ 0:
+            entity = argFoo;
+            kilo = entity.title;
+            offset = entity.children;
+            verify = entity.headerComponent;
+            output = entity.titleStyle;
+            romeo = entity.cardStyle;
+            foxtrot = entity.style;
+            oscar = entity.accessibilityRole;
+            report = entity.accessibilityLabel;
+            entity = _closure1_slot5;
+            tango = undefined;
+            yankee = entity.bind(tango)();
+            zulu = _closure1_slot4;
+            mike = _closure1_slot2;
+            entity = {};
+            backup = yankee.container;
+            options = new Array(2);
+            options[0] = backup;
+            options[1] = foxtrot;
+            entity['style'] = options;
+            entity['accessibilityRole'] = oscar;
+            entity['accessibilityLabel'] = report;
+            oscar = null;
+            report = oscar != kilo;
+            options = null;
+            if(!report) { _fun62411_ip = 180; continue _fun62411 }
+ 109:
+            backup = _closure1_slot3;
+            foxtrot = _closure1_slot0;
+            sizing = _closure1_slot1;
+            report = 7;
+            report = sizing[report];
+            report = foxtrot.bind(tango)(report);
+            foxtrot = report.LegacyText;
+            report = {};
+            result = yankee.title;
+            sizing = new Array(2);
+            sizing[0] = result;
+            sizing[1] = output;
+            report['style'] = sizing;
+            sizing = 'header';
+            report['accessibilityRole'] = sizing;
+            report['children'] = kilo;
+            options = backup.bind(tango)(foxtrot, report);
+ 180:
+            report = new Array(3);
+            report[0] = options;
+            foxtrot = oscar != verify;
+            options = null;
+            if(!foxtrot) { _fun62411_ip = 200; continue _fun62411 }
+ 197:
+            options = verify;
+ 200:
+            report[1] = options;
+            options = oscar != offset;
+            oscar = null;
+            if(!options) { _fun62411_ip = 255; continue _fun62411 }
+ 213:
+            verify = _closure1_slot3;
+            options = _closure1_slot2;
+            golf = {};
+            foxtrot = yankee.card;
+            yankee = new Array(2);
+            yankee[0] = foxtrot;
+            yankee[1] = romeo;
+            golf['style'] = yankee;
+            golf['children'] = offset;
+            oscar = verify.bind(tango)(options, golf);
+ 255:
+            report[2] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

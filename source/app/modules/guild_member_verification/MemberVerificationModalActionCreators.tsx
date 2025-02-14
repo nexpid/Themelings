@@ -1,0 +1,37 @@
+// app/modules/guild_member_verification/MemberVerificationModalActionCreators.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    report = 0;
+    mike = golf[report];
+    entity = undefined;
+    mike = oscar.bind(entity)(mike);
+    mike = mike.default;
+    tango = mike.openMemberVerificationModal;
+    mike = golf[report];
+    mike = oscar.bind(entity)(mike);
+    mike = mike.default;
+    mike = mike.closeMemberVerificationModal;
+    options = 1;
+    options = golf[options];
+    offset = oscar.bind(entity)(options);
+    verify = offset.fileFinishedImporting;
+    options = 'modules/guild_member_verification/MemberVerificationModalActionCreators.tsx';
+    options = verify.bind(offset)(options);
+    report = golf[report];
+    report = oscar.bind(entity)(report);
+    report = report.default;
+    zulu['default'] = report;
+    zulu['openMemberVerificationModal'] = tango;
+    zulu['closeMemberVerificationModal'] = mike;
+    return entity;
+})();

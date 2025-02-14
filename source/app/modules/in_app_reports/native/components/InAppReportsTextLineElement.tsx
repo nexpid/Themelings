@@ -1,0 +1,412 @@
+// app/modules/in_app_reports/native/components/InAppReportsTextLineElement.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    golf = argCorge;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = golf;
+    var _closure1_slot3 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot4 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot6 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.View;
+    var _closure1_slot7 = golf;
+    golf = tango.Linking;
+    var _closure1_slot8 = golf;
+    tango = tango.Platform;
+    tango = 4;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    romeo = tango.Fonts;
+    tango = 5;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot9 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot10 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    offset = 16;
+    verify = {'marginBottom': 16, 'paddingHorizontal': 16};
+    tango['container'] = verify;
+    verify = {};
+    foxtrot = 8;
+    verify['marginBottom'] = foxtrot;
+    tango['header'] = verify;
+    verify = {};
+    verify['marginBottom'] = offset;
+    tango['description'] = verify;
+    verify = {'paddingHorizontal': 8, 'flexGrow': 0};
+    tango['trailingButton'] = verify;
+    verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    tango['smsInfoContainer'] = verify;
+    verify = {'flex': 1, 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between', 'borderRadius': null, 'borderColor': null, 'borderWidth': 1, 'padding': 8, 'backgroundColor': null, 'marginBottom': 8};
+    offset = 7;
+    backup = oscar[offset];
+    backup = yankee.bind(entity)(backup);
+    backup = backup.radii;
+    backup = backup.xs;
+    verify['borderRadius'] = backup;
+    backup = oscar[offset];
+    backup = yankee.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BACKGROUND_TERTIARY;
+    verify['borderColor'] = backup;
+    backup = oscar[offset];
+    backup = yankee.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.BACKGROUND_PRIMARY;
+    verify['backgroundColor'] = backup;
+    tango['smsNumberContainer'] = verify;
+    verify = {};
+    backup = oscar[offset];
+    backup = yankee.bind(entity)(backup);
+    backup = backup.colors;
+    backup = backup.STATUS_POSITIVE_BACKGROUND;
+    verify['borderColor'] = backup;
+    tango['smsNumberContainerSuccess'] = verify;
+    verify = {};
+    foxtrot = oscar[foxtrot];
+    foxtrot = yankee.bind(entity)(foxtrot);
+    romeo = romeo.DISPLAY_SEMIBOLD;
+    offset = oscar[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.colors;
+    yankee = offset.INTERACTIVE_ACTIVE;
+    offset = 14;
+    sizing = foxtrot.bind(entity)(romeo, yankee, offset);
+    output = verify;
+    offset = copyDataProperties(output, sizing);
+    tango['smsNumberText'] = verify;
+    verify = {'paddingHorizontal': 12, 'marginBottom': 8, 'marginLeft': 12};
+    tango['startButton'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot11 = tango;
+    tango = 18;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/in_app_reports/native/components/InAppReportsTextLineElement.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: TextLineElement
+        _fun68982: for(var _fun68982_ip = 0; ; ) switch(_fun68982_ip) {
+ 0:
+            entity = argFoo;
+            entity = entity.element;
+            entity = entity.data;
+            update = entity.title;
+            result = entity.body;
+            sizing = entity.sms;
+            var _closure2_slot0 = sizing;
+            mike = entity.sms_body;
+            var _closure2_slot1 = mike;
+            entity = entity.is_localized;
+            mike = _closure1_slot11;
+            tango = undefined;
+            backup = mike.bind(tango)();
+            report = _closure1_slot6;
+            zulu = report.useState;
+            mike = false;
+            report = zulu.bind(report)(mike);
+            zulu = _closure1_slot5;
+            mike = 2;
+            zulu = zulu.bind(tango)(report, mike);
+            mike = 0;
+            kilo = zulu[mike];
+            mike = 1;
+            mike = zulu[mike];
+            var _closure2_slot2 = mike;
+            zulu = _closure1_slot1;
+            report = _closure1_slot3;
+            mike = 9;
+            mike = report[mike];
+            zulu = zulu.bind(tango)(mike);
+            mike = function() {
+                zulu = _closure1_slot2;
+                mike = _closure1_slot3;
+                entity = 10;
+                mike = mike[entity];
+                entity = undefined;
+                mike = zulu.bind(entity)(mike);
+                entity = mike.getParser;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            options = zulu.bind(tango)(mike);
+            if(entity) { _fun68982_ip = 152; continue _fun68982 }
+ 148:
+            entity = null;
+            return entity;
+ 152:
+            entity = function() {
+                tango = _closure1_slot4;
+                zulu = undefined;
+                mike = function* () {
+                    entity = function* () { // Original name: ?anon_0_
+                        _fun68986: for(var _fun68986_ip = 0; ; ) switch(_fun68986_ip) {
+ 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(mike) { _fun68986_ip = 169; continue _fun68986 }
+ 10:
+                            report = _closure2_slot0;
+                            golf = _closure2_slot1;
+                            tango = global;
+                            mike = tango.HermesInternal;
+                            zulu = mike.concat;
+                            mike = 'sms:';
+                            zulu = zulu.bind(mike)(report);
+                            mike = null;
+                            report = mike != golf;
+                            mike = '';
+                            if(!report) { _fun68986_ip = 93; continue _fun68986 }
+ 58:
+                            oscar = tango.encodeURIComponent;
+                            report = undefined;
+                            oscar = oscar.bind(report)(golf);
+                            tango = tango.HermesInternal;
+                            report = tango.concat;
+                            tango = '?body=';
+                            mike = report.bind(tango)(oscar);
+ 93:
+                            report = zulu + mike;
+                            tango = _closure1_slot8;
+                            mike = tango.canOpenURL;
+                            mike = mike.bind(tango)(report);
+                            SaveGenerator(address=119);
+ 117:
+                            return mike;
+ 119:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(tango) { _fun68986_ip = 166; continue _fun68986 }
+ 125:
+                            if(!mike) { _fun68986_ip = 161; continue _fun68986 }
+ 128:
+                            oscar = _closure1_slot1;
+                            tango = _closure1_slot3;
+                            zulu = 11;
+                            tango = tango[zulu];
+                            zulu = undefined;
+                            tango = oscar.bind(zulu)(tango);
+                            zulu = tango.openURL;
+                            zulu = zulu.bind(tango)(report);
+ 161:
+                            zulu = undefined;
+                            return zulu;
+ 166:
+                            return mike;
+ 169:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                mike = tango.bind(zulu)(mike);
+                var _closure3_slot0 = mike;
+                entity = function() {
+                    entity = undefined;
+                    tango = _closure3_slot0;
+                    zulu = tango.apply;
+                    entity = arguments;
+                    mike = entity;
+                    entity = this;
+                    entity = zulu.bind(tango)(entity, mike);
+                    return entity;
+                };
+                return entity;
+            };
+            foxtrot = entity.bind(tango)();
+            if(kilo) { _fun68982_ip = 170; continue _fun68982 }
+ 166:
+            output = {};
+            _fun68982_ip = 176; continue _fun68982;
+ 170:
+            output = backup.smsNumberContainerSuccess;
+ 176:
+            zulu = _closure1_slot10;
+            mike = _closure1_slot7;
+            entity = {};
+            report = backup.container;
+            entity['style'] = report;
+            yankee = _closure1_slot9;
+            offset = _closure1_slot0;
+            verify = _closure1_slot3;
+            oscar = 12;
+            report = verify[oscar];
+            report = offset.bind(tango)(report);
+            golf = report.Text;
+            report = {'style': null, 'variant': 'heading-md/extrabold', 'color': 'header-primary'};
+            source = backup.header;
+            report['style'] = source;
+            report['children'] = update;
+            golf = yankee.bind(tango)(golf, report);
+            report = new Array(3);
+            report[0] = golf;
+            oscar = verify[oscar];
+            oscar = offset.bind(tango)(oscar);
+            golf = oscar.Text;
+            oscar = {};
+            update = backup.description;
+            oscar['style'] = update;
+            update = 'text-md/medium';
+            oscar['variant'] = update;
+            options = options.bind(tango)(result);
+            oscar['children'] = options;
+            oscar = yankee.bind(tango)(golf, oscar);
+            report[1] = oscar;
+            oscar = {};
+            golf = backup.smsInfoContainer;
+            oscar['style'] = golf;
+            golf = {};
+            result = backup.smsNumberContainer;
+            options = new Array(2);
+            options[0] = result;
+            options[1] = output;
+            golf['style'] = options;
+            options = 13;
+            options = verify[options];
+            options = offset.bind(tango)(options);
+            offset = options.LegacyText;
+            options = {};
+            output = backup.smsNumberText;
+            options['style'] = output;
+            options['children'] = sizing;
+            offset = yankee.bind(tango)(offset, options);
+            options = new Array(2);
+            options[0] = offset;
+            offset = _closure1_slot1;
+            output = 14;
+            verify = verify[output];
+            offset = offset.bind(tango)(verify);
+            verify = {};
+            control = _closure1_slot0;
+            sizing = _closure1_slot3;
+            result = 15;
+            update = sizing[result];
+            update = control.bind(tango)(update);
+            source = update.intl;
+            update = source.string;
+            sizing = sizing[result];
+            sizing = control.bind(tango)(sizing);
+            sizing = sizing.t;
+            if(kilo) { _fun68982_ip = 481; continue _fun68982 }
+ 468:
+            kilo = sizing.OpuAlJ;
+            kilo = update.bind(source)(kilo);
+            _fun68982_ip = 492; continue _fun68982;
+ 481:
+            sizing = sizing.t5VZ8/;
+            kilo = update.bind(source)(sizing);
+ 492:
+            verify['text'] = kilo;
+            sizing = _closure1_slot1;
+            kilo = _closure1_slot3;
+            update = kilo[output];
+            update = sizing.bind(tango)(update);
+            update = update.Sizes;
+            update = update.SMALL;
+            verify['size'] = update;
+            update = backup.trailingButton;
+            verify['style'] = update;
+            romeo = function() { // Original name: onPress
+                tango = _closure1_slot0;
+                report = _closure1_slot3;
+                entity = 16;
+                mike = report[entity];
+                entity = undefined;
+                golf = tango.bind(entity)(mike);
+                oscar = golf.copy;
+                zulu = _closure2_slot0;
+                zulu = oscar.bind(golf)(zulu);
+                zulu = 17;
+                zulu = report[zulu];
+                tango = tango.bind(entity)(zulu);
+                zulu = tango.presentCopiedToClipboard;
+                zulu = zulu.bind(tango)();
+                zulu = _closure2_slot2;
+                mike = true;
+                mike = zulu.bind(entity)(mike);
+                return entity;
+            };
+            verify['onPress'] = romeo;
+            romeo = kilo[output];
+            romeo = sizing.bind(tango)(romeo);
+            romeo = romeo.Colors;
+            romeo = romeo.GREY;
+            verify['color'] = romeo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[1] = verify;
+            golf['children'] = options;
+            options = zulu.bind(tango)(mike, golf);
+            golf = new Array(2);
+            golf[0] = options;
+            offset = _closure1_slot9;
+            verify = _closure1_slot7;
+            options = {};
+            yankee = kilo[output];
+            romeo = sizing.bind(tango)(yankee);
+            yankee = {};
+            source = _closure1_slot0;
+            echo = kilo[result];
+            echo = source.bind(tango)(echo);
+            update = echo.intl;
+            echo = update.string;
+            result = kilo[result];
+            result = source.bind(tango)(result);
+            result = result.t;
+            result = result.BDYHSU;
+            result = echo.bind(update)(result);
+            yankee['text'] = result;
+            kilo = kilo[output];
+            kilo = sizing.bind(tango)(kilo);
+            kilo = kilo.Sizes;
+            kilo = kilo.MEDIUM;
+            yankee['size'] = kilo;
+            backup = backup.startButton;
+            yankee['style'] = backup;
+            yankee['onPress'] = foxtrot;
+            yankee = offset.bind(tango)(romeo, yankee);
+            options['children'] = yankee;
+            options = offset.bind(tango)(verify, options);
+            golf[1] = options;
+            oscar['children'] = golf;
+            oscar = zulu.bind(tango)(mike, oscar);
+            report[2] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,75 @@
+// app/design/utils/native/useFocus.native.tsx
+export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, tango);
+    entity = 0;
+    oscar = report[entity];
+    tango = argBaz;
+    entity = undefined;
+    tango = tango.bind(entity)(oscar);
+    var _closure1_slot0 = tango;
+    tango = 1;
+    oscar = report[tango];
+    tango = argCorge;
+    tango = tango.bind(entity)(oscar);
+    var _closure1_slot1 = tango;
+    tango = 2;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/utils/native/useFocus.native.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function() { // Original name: useFocus
+        oscar = _closure1_slot1;
+        tango = oscar.useState;
+        mike = false;
+        report = tango.bind(oscar)(mike);
+        tango = _closure1_slot0;
+        mike = undefined;
+        entity = 2;
+        tango = tango.bind(mike)(report, entity);
+        entity = 0;
+        mike = tango[entity];
+        entity = 1;
+        entity = tango[entity];
+        var _closure2_slot0 = entity;
+        entity = {};
+        report = oscar.useMemo;
+        tango = function() {
+            entity = {};
+            zulu = function() { // Original name: onFocus
+                zulu = _closure2_slot0;
+                mike = undefined;
+                entity = true;
+                entity = zulu.bind(mike)(entity);
+                return entity;
+            };
+            entity['onFocus'] = zulu;
+            mike = function() { // Original name: onBlur
+                zulu = _closure2_slot0;
+                mike = undefined;
+                entity = false;
+                entity = zulu.bind(mike)(entity);
+                return entity;
+            };
+            entity['onBlur'] = mike;
+            return entity;
+        };
+        zulu = new Array(0);
+        zulu = report.bind(oscar)(tango, zulu);
+        entity['focusProps'] = zulu;
+        entity['isFocused'] = mike;
+        return entity;
+    };
+    zulu['useFocus'] = mike;
+    return entity;
+})();

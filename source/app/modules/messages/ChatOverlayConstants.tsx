@@ -1,0 +1,30 @@
+// app/modules/messages/ChatOverlayConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'new_messages';
+    mike['NEW_MESSAGES'] = entity;
+    entity = 'opt_in_channel';
+    mike['OPT_IN_CHANNEL'] = entity;
+    entity = 'summaries';
+    mike['SUMMARIES'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/messages/ChatOverlayConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['ChatOverlays'] = mike;
+    return entity;
+})();

@@ -1,0 +1,217 @@
+// app/modules/multi_account/native/MultiAccountManagerNative.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    mike = mike.SWITCH_ACCOUNTS_MODAL_KEY;
+    var _closure1_slot3 = mike;
+    mike = 1;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    mike = mike.Routes;
+    var _closure1_slot4 = mike;
+    mike = null;
+    var _closure1_slot5 = mike;
+    mike = 2;
+    mike = oscar[mike];
+    golf = golf.bind(entity)(mike);
+    mike = {};
+    options = function() { // Original name: onSwitchStart
+        _fun124085: for(var _fun124085_ip = 0; ; ) switch(_fun124085_ip) {
+ 0:
+            report = _closure1_slot1;
+            mike = _closure1_slot2;
+            entity = 3;
+            tango = mike[entity];
+            entity = undefined;
+            golf = report.bind(entity)(tango);
+            oscar = golf.pushLazy;
+            report = _closure1_slot0;
+            tango = 5;
+            tango = mike[tango];
+            report = report.bind(entity)(tango);
+            tango = 4;
+            tango = mike[tango];
+            mike = mike.paths;
+            report = report.bind(entity)(tango, mike);
+            tango = {};
+            mike = 'switch-accounts-spinner-modal';
+            mike = oscar.bind(golf)(report, tango, mike);
+            tango = _closure1_slot5;
+            mike = null;
+            if(!(mike !== tango)) { _fun124085_ip = 107; continue _fun124085 }
+ 90:
+            mike = global;
+            tango = mike.clearTimeout;
+            mike = _closure1_slot5;
+            mike = tango.bind(entity)(mike);
+ 107:
+            mike = global;
+            report = mike.setTimeout;
+            tango = function() {
+                zulu = _closure1_slot1;
+                mike = _closure1_slot2;
+                entity = 3;
+                mike = mike[entity];
+                entity = undefined;
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.popWithKey;
+                entity = 'switch-accounts-spinner-modal';
+                entity = mike.bind(zulu)(entity);
+                return entity;
+            };
+            mike = 15000;
+            mike = report.bind(entity)(tango, mike);
+            _closure1_slot5 = mike;
+            return entity;
+        }
+    };
+    mike['onSwitchStart'] = options;
+    options = function(argFoo, argBar) { // Original name: onSwitchSuccess
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        entity = argBar;
+        var _closure2_slot1 = entity;
+        entity = global;
+        tango = entity.setTimeout;
+        entity = undefined;
+        zulu = function() {
+            _fun124088: for(var _fun124088_ip = 0; ; ) switch(_fun124088_ip) {
+ 0:
+                entity = _closure2_slot1;
+                if(!entity) { _fun124088_ip = 56; continue _fun124088 }
+ 10:
+                tango = _closure1_slot0;
+                zulu = _closure1_slot2;
+                mike = 6;
+                zulu = zulu[mike];
+                mike = undefined;
+                zulu = tango.bind(mike)(zulu);
+                mike = zulu.transitionTo;
+                entity = _closure1_slot4;
+                entity = entity.ME;
+                entity = mike.bind(zulu)(entity);
+ 56:
+                oscar = _closure1_slot1;
+                golf = _closure1_slot2;
+                entity = 7;
+                mike = golf[entity];
+                entity = undefined;
+                tango = oscar.bind(entity)(mike);
+                zulu = tango.open;
+                mike = {};
+                options = 'SWITCH_ACCOUNTS_TOAST_LOGIN_SUCCESS';
+                mike['key'] = options;
+                options = _closure1_slot0;
+                report = 8;
+                verify = golf[report];
+                verify = options.bind(entity)(verify);
+                offset = verify.intl;
+                verify = offset.formatToPlainString;
+                report = golf[report];
+                report = options.bind(entity)(report);
+                report = report.t;
+                options = report.wx7O3N;
+                report = {};
+                yankee = _closure2_slot0;
+                yankee = yankee.username;
+                report['username'] = yankee;
+                report = verify.bind(offset)(options, report);
+                mike['content'] = report;
+                report = 9;
+                report = golf[report];
+                report = oscar.bind(entity)(report);
+                mike['icon'] = report;
+                mike = zulu.bind(tango)(mike);
+                return entity;
+            }
+        };
+        mike = 100;
+        mike = tango.bind(entity)(zulu, mike);
+        return entity;
+    };
+    mike['onSwitchSuccess'] = options;
+    options = function() { // Original name: onSwitchError
+        oscar = _closure1_slot1;
+        golf = _closure1_slot2;
+        entity = 7;
+        mike = golf[entity];
+        entity = undefined;
+        tango = oscar.bind(entity)(mike);
+        zulu = tango.open;
+        mike = {};
+        options = 'SWITCH_ACCOUNTS_TOAST_LOGIN_ERROR';
+        mike['key'] = options;
+        offset = _closure1_slot0;
+        report = 8;
+        options = golf[report];
+        options = offset.bind(entity)(options);
+        verify = options.intl;
+        options = verify.string;
+        report = golf[report];
+        report = offset.bind(entity)(report);
+        report = report.t;
+        report = report.pqvKWF;
+        report = options.bind(verify)(report);
+        mike['content'] = report;
+        report = 9;
+        report = golf[report];
+        report = oscar.bind(entity)(report);
+        mike['icon'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    mike['onSwitchError'] = options;
+    tango = function() { // Original name: onTokenSet
+        tango = _closure1_slot1;
+        report = _closure1_slot2;
+        zulu = 3;
+        oscar = report[zulu];
+        entity = undefined;
+        options = tango.bind(entity)(oscar);
+        golf = options.popWithKey;
+        oscar = _closure1_slot3;
+        oscar = golf.bind(options)(oscar);
+        zulu = report[zulu];
+        report = tango.bind(entity)(zulu);
+        tango = report.popWithKey;
+        zulu = 'switch-accounts-spinner-modal';
+        zulu = tango.bind(report)(zulu);
+        zulu = global;
+        zulu = zulu.clearTimeout;
+        mike = _closure1_slot5;
+        mike = zulu.bind(entity)(mike);
+        return entity;
+    };
+    mike['onTokenSet'] = tango;
+    tango = golf.prototype;
+    tango = Object.create(tango, {constructor: {value: golf}});
+    foxtrot = tango;
+    romeo = mike;
+    mike = new foxtrot[golf](romeo, yankee);
+    mike = mike instanceof Object ? mike : tango;
+    tango = 10;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/multi_account/native/MultiAccountManagerNative.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,31 @@
+// app/modules/guild_products/GuildProductConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/guild_products/GuildProductConstants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 'guild-product-edit-modal';
+    zulu['GUILD_PRODUCT_EDIT_MODAL_KEY'] = mike;
+    mike = 1073741824;
+    zulu['MAX_ATTACHMENT_UPLOAD_FILESIZE_BYTES'] = mike;
+    zulu['MAX_ATTACHMENT_UPLOAD_TOTAL_FILESIZE_BYTES'] = mike;
+    mike = 10;
+    zulu['MAX_ATTACHMENT_UPLOAD_COUNT'] = mike;
+    mike = 30;
+    zulu['MAX_PUBLISHED_GUILD_PRODUCT_LISTINGS'] = mike;
+    return entity;
+})();

@@ -1,0 +1,47 @@
+// app/modules/explicit_media_redaction/ExplicitMediaFalsePositiveActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    mike = argBaz;
+    var _closure1_slot0 = mike;
+    var _closure1_slot1 = report;
+    mike = function(argFoo, argBar) { // Original name: disableFalsePositiveButton
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT';
+        mike['type'] = report;
+        report = argBar;
+        mike['messageId'] = report;
+        report = argFoo;
+        mike['channelId'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, tango);
+    tango = {};
+    tango['disableFalsePositiveButton'] = mike;
+    entity = 1;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/explicit_media_redaction/ExplicitMediaFalsePositiveActionCreators.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['default'] = tango;
+    zulu['disableFalsePositiveButton'] = mike;
+    return entity;
+})();

@@ -1,0 +1,36 @@
+// app/design/components/Input/native/InputTypes.native.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 32;
+    mike['SM'] = tango;
+    entity = 'SM';
+    mike[tango] = entity;
+    tango = 40;
+    mike['MD'] = tango;
+    entity = 'MD';
+    mike[tango] = entity;
+    tango = 48;
+    mike['LG'] = tango;
+    entity = 'LG';
+    mike[tango] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'design/components/Input/native/InputTypes.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['InputHeights'] = mike;
+    return entity;
+})();

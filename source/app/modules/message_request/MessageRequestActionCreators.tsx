@@ -1,0 +1,235 @@
+// app/modules/message_request/MessageRequestActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = function() { // Original name: _acceptMessageRequest
+        report = undefined;
+        entity = undefined;
+        tango = _closure1_slot3;
+        zulu = function* (argFoo) {
+            entity = function* (argFoo) { // Original name: ?anon_0_
+                _fun79562: for(var _fun79562_ip = 0; ; ) switch(_fun79562_ip) {
+ 0:
+                    StartGenerator();
+                    golf = argFoo;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(mike) { _fun79562_ip = 176; continue _fun79562 }
+ 13:
+                    offset = _closure1_slot0;
+                    yankee = _closure1_slot2;
+                    mike = 2;
+                    mike = yankee[mike];
+                    zulu = undefined;
+                    mike = offset.bind(zulu)(mike);
+                    oscar = mike.HTTP;
+                    report = oscar.put;
+                    mike = {};
+                    verify = _closure1_slot4;
+                    options = verify.CHANNEL_RECIPIENT_ME;
+                    options = options.bind(verify)(golf);
+                    mike['url'] = options;
+                    options = {};
+                    verify = 3;
+                    verify = yankee[verify];
+                    verify = offset.bind(zulu)(verify);
+                    verify = verify.MessageRequestConsentStatusTypes;
+                    verify = verify.ACCEPTED;
+                    options['consent_status'] = verify;
+                    mike['body'] = options;
+                    options = false;
+                    mike['rejectWithError'] = options;
+                    mike = report.bind(oscar)(mike);
+                    SaveGenerator(address=120);
+ 118:
+                    return mike;
+ 120:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(report) { _fun79562_ip = 173; continue _fun79562 }
+ 126:
+                    report = _closure1_slot1;
+                    oscar = _closure1_slot2;
+                    tango = 4;
+                    tango = oscar[tango];
+                    oscar = report.bind(zulu)(tango);
+                    report = oscar.dispatch;
+                    tango = {};
+                    options = 'MESSAGE_REQUEST_ACCEPT_OPTIMISTIC';
+                    tango['type'] = options;
+                    tango['channelId'] = golf;
+                    tango = report.bind(oscar)(tango);
+                    return zulu;
+ 173:
+                    return mike;
+ 176:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tango = tango.bind(report)(zulu);
+        _closure1_slot5 = tango;
+        zulu = tango.apply;
+        entity = arguments;
+        mike = entity;
+        entity = this;
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    var _closure1_slot5 = entity;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.Endpoints;
+    var _closure1_slot4 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/message_request/MessageRequestActionCreators.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function() { // Original name: acceptMessageRequest
+        entity = undefined;
+        tango = _closure1_slot5;
+        zulu = tango.apply;
+        entity = arguments;
+        mike = entity;
+        entity = this;
+        entity = zulu.bind(tango)(entity, mike);
+        return entity;
+    };
+    zulu['acceptMessageRequest'] = tango;
+    tango = function(argFoo) { // Original name: clearMessageRequestState
+        golf = _closure1_slot0;
+        options = _closure1_slot2;
+        entity = 2;
+        entity = options[entity];
+        oscar = undefined;
+        entity = golf.bind(oscar)(entity);
+        zulu = entity.HTTP;
+        mike = zulu.put;
+        entity = {};
+        verify = _closure1_slot4;
+        report = verify.CHANNEL_RECIPIENT_ME;
+        tango = argFoo;
+        tango = report.bind(verify)(tango);
+        entity['url'] = tango;
+        tango = {};
+        report = 3;
+        report = options[report];
+        report = golf.bind(oscar)(report);
+        report = report.MessageRequestConsentStatusTypes;
+        report = report.UNSPECIFIED;
+        tango['consent_status'] = report;
+        entity['body'] = tango;
+        tango = false;
+        entity['rejectWithError'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['clearMessageRequestState'] = tango;
+    tango = function(argFoo) { // Original name: markAsMessageRequest
+        golf = _closure1_slot0;
+        options = _closure1_slot2;
+        entity = 2;
+        entity = options[entity];
+        oscar = undefined;
+        entity = golf.bind(oscar)(entity);
+        zulu = entity.HTTP;
+        mike = zulu.put;
+        entity = {};
+        verify = _closure1_slot4;
+        report = verify.CHANNEL_RECIPIENT_ME;
+        tango = argFoo;
+        tango = report.bind(verify)(tango);
+        entity['url'] = tango;
+        tango = {};
+        report = 3;
+        report = options[report];
+        report = golf.bind(oscar)(report);
+        report = report.MessageRequestConsentStatusTypes;
+        report = report.PENDING;
+        tango['consent_status'] = report;
+        entity['body'] = tango;
+        tango = false;
+        entity['rejectWithError'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['markAsMessageRequest'] = tango;
+    tango = function(argFoo) { // Original name: rejectMessageRequest
+        zulu = _closure1_slot0;
+        mike = _closure1_slot2;
+        entity = 2;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        zulu = entity.HTTP;
+        mike = zulu.del;
+        entity = {};
+        oscar = _closure1_slot4;
+        report = oscar.CHANNEL_RECIPIENT_ME;
+        tango = argFoo;
+        tango = report.bind(oscar)(tango);
+        entity['url'] = tango;
+        tango = false;
+        entity['rejectWithError'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['rejectMessageRequest'] = tango;
+    tango = function(argFoo) { // Original name: rejectMessageRequestBatch
+        zulu = _closure1_slot0;
+        mike = _closure1_slot2;
+        entity = 2;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        zulu = entity.HTTP;
+        mike = zulu.put;
+        entity = {};
+        report = _closure1_slot4;
+        tango = report.CHANNEL_RECIPIENT_REJECT_BATCH;
+        tango = tango.bind(report)();
+        entity['url'] = tango;
+        tango = {};
+        report = argFoo;
+        tango['channel_ids'] = report;
+        entity['body'] = tango;
+        tango = false;
+        entity['rejectWithError'] = tango;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['rejectMessageRequestBatch'] = tango;
+    mike = function() { // Original name: fetchUserCountryCode
+        zulu = _closure1_slot1;
+        mike = _closure1_slot2;
+        entity = 5;
+        mike = mike[entity];
+        entity = undefined;
+        zulu = zulu.bind(entity)(mike);
+        mike = zulu.getLocationMetadata;
+        mike = mike.bind(zulu)();
+        return entity;
+    };
+    zulu['fetchUserCountryCode'] = mike;
+    return entity;
+})();

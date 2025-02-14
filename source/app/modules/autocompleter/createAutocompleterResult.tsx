@@ -1,0 +1,47 @@
+// app/modules/autocompleter/createAutocompleterResult.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    golf = tango.HeaderRecord;
+    var _closure1_slot0 = golf;
+    tango = tango.AutocompleterResultTypes;
+    var _closure1_slot1 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/autocompleter/createAutocompleterResult.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: createHeaderResult
+        entity = {};
+        zulu = _closure1_slot1;
+        zulu = zulu.HEADER;
+        entity['type'] = zulu;
+        tango = _closure1_slot0;
+        mike = tango.prototype;
+        zulu = Object.create(mike, {constructor: {value: tango}});
+        report = argFoo;
+        oscar = zulu;
+        mike = new oscar[tango](report, tango);
+        mike = mike instanceof Object ? mike : zulu;
+        entity['record'] = mike;
+        mike = 0;
+        entity['score'] = mike;
+        return entity;
+    };
+    zulu['createHeaderResult'] = mike;
+    return entity;
+})();

@@ -1,0 +1,30 @@
+// discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'block_profile_update';
+    mike['BLOCK_PROFILE_UPDATE'] = entity;
+    entity = 'quarantine_user';
+    mike['QUARANTINE_USER'] = entity;
+    entity = 'block_guest_join';
+    mike['BLOCK_GUEST_JOIN'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['AutomodQuarantineUserActionMessageEmbedKeys'] = mike;
+    return entity;
+})();

@@ -1,0 +1,40 @@
+// app/modules/global_discovery/GlobalDiscoveryUIStore.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.createZustandStore;
+    golf = {};
+    options = 1;
+    options = oscar[options];
+    options = report.bind(entity)(options);
+    options = options.GlobalDiscoveryTab;
+    options = options.SERVERS;
+    golf['selectedTab'] = options;
+    var _closure1_slot0 = golf;
+    mike = function() {
+        entity = _closure1_slot0;
+        return entity;
+    };
+    mike = tango.bind(entity)(mike);
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/global_discovery/GlobalDiscoveryUIStore.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,30 @@
+// app/modules/polls/PollTypes.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'PREPARING';
+    mike['PREPARING'] = entity;
+    entity = 'READY_TO_UPLOAD';
+    mike['READY_TO_UPLOAD'] = entity;
+    entity = 'ERROR';
+    mike['ERROR'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/polls/PollTypes.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['PollMediaUploadAttachmentStatus'] = mike;
+    return entity;
+})();

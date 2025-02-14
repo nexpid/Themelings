@@ -1,0 +1,184 @@
+// app/modules/expression_picker/native/useExpressionPickerTabData.tsx
+export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot2 = tango;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    golf = tango.ExpressionPickerOrder;
+    var _closure1_slot3 = golf;
+    tango = tango.ExpressionPickerViewType;
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/expression_picker/native/useExpressionPickerTabData.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: useExpressionPickerTabData
+        _fun84601: for(var _fun84601_ip = 0; ; ) switch(_fun84601_ip) {
+ 0:
+            mike = argFoo;
+            options = mike.expressionType;
+            golf = mike.expressionPickerTabs;
+            var _closure2_slot0 = golf;
+            tango = _closure1_slot3;
+            zulu = tango.indexOf;
+            tango = zulu.bind(tango)(options);
+            zulu = 0;
+            tango = tango >= zulu;
+            report = 0;
+            if(!tango) { _fun84601_ip = 63; continue _fun84601 }
+ 49:
+            oscar = _closure1_slot3;
+            tango = oscar.indexOf;
+            report = tango.bind(oscar)(options);
+ 63:
+            oscar = _closure1_slot2;
+            tango = oscar.useMemo;
+            mike = new Array(1);
+            mike[0] = golf;
+            entity = function() {
+                tango = {};
+                entity = {};
+                yankee = _closure1_slot0;
+                romeo = _closure1_slot1;
+                report = 2;
+                zulu = romeo[report];
+                offset = undefined;
+                zulu = yankee.bind(offset)(zulu);
+                options = zulu.intl;
+                golf = options.string;
+                zulu = romeo[report];
+                zulu = yankee.bind(offset)(zulu);
+                zulu = zulu.t;
+                zulu = zulu.Xu3wEx;
+                zulu = golf.bind(options)(zulu);
+                entity['label'] = zulu;
+                zulu = _closure1_slot4;
+                golf = zulu.EMOJI;
+                entity['viewType'] = golf;
+                options = _closure2_slot0;
+                verify = options.includes;
+                golf = zulu.EMOJI;
+                golf = verify.bind(options)(golf);
+                entity['show'] = golf;
+                oscar = _closure1_slot3;
+                verify = oscar.indexOf;
+                golf = zulu.EMOJI;
+                golf = verify.bind(oscar)(golf);
+                entity['order'] = golf;
+                tango['EMOJI'] = entity;
+                entity = {};
+                golf = romeo[report];
+                golf = yankee.bind(offset)(golf);
+                foxtrot = golf.intl;
+                verify = foxtrot.string;
+                golf = romeo[report];
+                golf = yankee.bind(offset)(golf);
+                golf = golf.t;
+                golf = golf.6gUTsb;
+                golf = verify.bind(foxtrot)(golf);
+                entity['label'] = golf;
+                golf = zulu.GIF;
+                entity['viewType'] = golf;
+                verify = options.includes;
+                golf = zulu.GIF;
+                golf = verify.bind(options)(golf);
+                entity['show'] = golf;
+                verify = oscar.indexOf;
+                golf = zulu.GIF;
+                golf = verify.bind(oscar)(golf);
+                entity['order'] = golf;
+                tango['GIF'] = entity;
+                entity = {};
+                golf = romeo[report];
+                golf = yankee.bind(offset)(golf);
+                verify = golf.intl;
+                golf = verify.string;
+                report = romeo[report];
+                report = yankee.bind(offset)(report);
+                report = report.t;
+                report = report.nf1s3t;
+                report = golf.bind(verify)(report);
+                entity['label'] = report;
+                report = zulu.STICKER;
+                entity['viewType'] = report;
+                golf = options.includes;
+                report = zulu.STICKER;
+                report = golf.bind(options)(report);
+                entity['show'] = report;
+                report = oscar.indexOf;
+                zulu = zulu.STICKER;
+                zulu = report.bind(oscar)(zulu);
+                entity['order'] = zulu;
+                tango['STICKER'] = entity;
+                entity = global;
+                zulu = entity.Object;
+                entity = zulu.values;
+                tango = entity.bind(zulu)(tango);
+                zulu = tango.filter;
+                entity = function(argFoo) {
+                    entity = argFoo;
+                    entity = entity.show;
+                    return entity;
+                };
+                tango = zulu.bind(tango)(entity);
+                zulu = tango.sort;
+                entity = function(argFoo) {
+                    entity = argFoo;
+                    entity = entity.order;
+                    return entity;
+                };
+                tango = zulu.bind(tango)(entity);
+                entity = {};
+                entity['expressionPickerTabsSorted'] = tango;
+                zulu = tango.map;
+                mike = function(argFoo) {
+                    entity = argFoo;
+                    entity = entity.label;
+                    return entity;
+                };
+                mike = zulu.bind(tango)(mike);
+                entity['expressionPickerTabStrings'] = mike;
+                return entity;
+            };
+            entity = tango.bind(oscar)(entity, mike);
+            tango = entity.expressionPickerTabsSorted;
+            mike = entity.expressionPickerTabStrings;
+            entity = {};
+            entity['expressionPickerSelectedIndex'] = report;
+            oscar = tango.length;
+            if(!(!(report < oscar))) { _fun84601_ip = 127; continue _fun84601 }
+ 121:
+            zulu = tango[zulu];
+            _fun84601_ip = 131; continue _fun84601;
+ 127:
+            zulu = tango[report];
+ 131:
+            zulu = zulu.viewType;
+            entity['expressionPickerViewType'] = zulu;
+            entity['expressionPickerTabStrings'] = mike;
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

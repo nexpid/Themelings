@@ -1,0 +1,142 @@
+// app/modules/main_tabs_v2/native/settings/definitions/AccessibilitySetting.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    tango = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(options)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    tango = mike.RendererType;
+    mike = 1;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    options = mike.UserSettingsSections;
+    mike = 2;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    mike = mike.jsx;
+    var _closure1_slot3 = mike;
+    mike = {};
+    tango = tango.ROUTE;
+    mike['type'] = tango;
+    tango = function() { // Original name: title
+        report = _closure1_slot0;
+        oscar = _closure1_slot2;
+        entity = 4;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.G0neg4;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    mike['title'] = tango;
+    tango = null;
+    mike['parent'] = tango;
+    tango = 7;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.AccessibilityIcon;
+    mike['IconComponent'] = tango;
+    tango = function() { // Original name: useTrailing
+        tango = _closure1_slot3;
+        options = _closure1_slot0;
+        verify = _closure1_slot2;
+        entity = 3;
+        entity = verify[entity];
+        zulu = undefined;
+        entity = options.bind(zulu)(entity);
+        mike = entity.TextBadge;
+        entity = {};
+        report = 4;
+        oscar = verify[report];
+        oscar = options.bind(zulu)(oscar);
+        golf = oscar.intl;
+        oscar = golf.string;
+        report = verify[report];
+        report = options.bind(zulu)(report);
+        report = report.t;
+        report = report.y2b7CA;
+        report = oscar.bind(golf)(report);
+        entity['text'] = report;
+        entity = tango.bind(zulu)(mike, entity);
+        return entity;
+    };
+    mike['useTrailing'] = tango;
+    tango = function() { // Original name: useTrailingDismissibleContent
+        _fun97485: for(var _fun97485_ip = 0; ; ) switch(_fun97485_ip) {
+ 0:
+            zulu = _closure1_slot1;
+            tango = _closure1_slot2;
+            entity = 5;
+            entity = tango[entity];
+            tango = undefined;
+            report = zulu.bind(tango)(entity);
+            zulu = report.useExperiment;
+            entity = {};
+            oscar = 'SettingsOverview';
+            entity['location'] = oscar;
+            entity = zulu.bind(report)(entity);
+            entity = entity.enabled;
+            if(entity) { _fun97485_ip = 62; continue _fun97485 }
+ 56:
+            entity = new Array(0);
+            _fun97485_ip = 105; continue _fun97485;
+ 62:
+            zulu = _closure1_slot0;
+            report = _closure1_slot2;
+            mike = 6;
+            mike = report[mike];
+            mike = zulu.bind(tango)(mike);
+            mike = mike.DismissibleContent;
+            zulu = mike.MOBILE_ACCESSIBILITY_COLOR_SETTINGS;
+            mike = new Array(1);
+            mike[0] = zulu;
+            entity = mike;
+ 105:
+            return entity;
+        }
+    };
+    mike['useTrailingDismissibleContent'] = tango;
+    tango = {};
+    options = options.ACCESSIBILITY;
+    tango['route'] = options;
+    golf = function() { // Original name: getComponent
+        zulu = _closure1_slot0;
+        mike = _closure1_slot2;
+        entity = 8;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        entity = entity.default;
+        return entity;
+    };
+    tango['getComponent'] = golf;
+    mike['screen'] = tango;
+    tango = 9;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/settings/definitions/AccessibilitySetting.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

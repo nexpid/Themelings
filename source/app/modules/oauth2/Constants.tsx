@@ -1,0 +1,34 @@
+// app/modules/oauth2/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'SELECT_INSTALL_TYPE';
+    mike['SELECT_INSTALL_TYPE'] = entity;
+    entity = 'AUTHORIZE_SCOPES';
+    mike['AUTHORIZE_SCOPES'] = entity;
+    entity = 'AUTHORIZE_BOT_PERMISSIONS';
+    mike['AUTHORIZE_BOT_PERMISSIONS'] = entity;
+    entity = 'AUTHORIZE_MFA';
+    mike['AUTHORIZE_MFA'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/oauth2/Constants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['OAuth2Steps'] = mike;
+    mike = '1f447';
+    zulu['EMOJI_POINTING_DOWN_CODE_POINT'] = mike;
+    return entity;
+})();

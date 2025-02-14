@@ -1,0 +1,147 @@
+// app/modules/user_settings/native/premium_marketing/PremiumReferralTrialPill.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    report = argBar;
+    yankee = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot2 = tango;
+    tango = 1;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot3 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    golf = {};
+    tango = {'display': 'flex', 'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'center'};
+    golf['pillParent'] = tango;
+    tango = {'display': 'flex', 'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'center', 'marginTop': 36, 'marginBottom': 20};
+    golf['pillParentExtraMargin'] = tango;
+    offset = {'backgroundColor': null, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center', 'margin': 8, 'paddingHorizontal': 8, 'overflow': 'visible'};
+    tango = 3;
+    romeo = oscar[tango];
+    romeo = yankee.bind(entity)(romeo);
+    romeo = romeo.colors;
+    romeo = romeo.WHITE;
+    offset['backgroundColor'] = romeo;
+    tango = oscar[tango];
+    tango = yankee.bind(entity)(tango);
+    tango = tango.radii;
+    tango = tango.round;
+    offset['borderRadius'] = tango;
+    tango = 8;
+    golf['pillContainer'] = offset;
+    offset = {'color': '#AC46C3', 'paddingHorizontal': 1, 'paddingBottom': 2, 'textAlign': 'center'};
+    golf['text'] = offset;
+    golf = options.bind(verify)(golf);
+    var _closure1_slot5 = golf;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_settings/native/premium_marketing/PremiumReferralTrialPill.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) {
+        _fun95906: for(var _fun95906_ip = 0; ; ) switch(_fun95906_ip) {
+ 0:
+            entity = argFoo;
+            oscar = entity.hideLeftSparkle;
+            report = entity.hasExtraMargin;
+            entity = _closure1_slot5;
+            tango = undefined;
+            foxtrot = entity.bind(tango)();
+            zulu = _closure1_slot4;
+            mike = _closure1_slot2;
+            entity = {};
+            if(report) { _fun95906_ip = 49; continue _fun95906 }
+ 41:
+            report = foxtrot.pillParent;
+            _fun95906_ip = 55; continue _fun95906;
+ 49:
+            report = foxtrot.pillParentExtraMargin;
+ 55:
+            entity['style'] = report;
+            report = true;
+            oscar = report !== oscar;
+            if(!oscar) { _fun95906_ip = 106; continue _fun95906 }
+ 68:
+            options = _closure1_slot3;
+            golf = _closure1_slot0;
+            offset = _closure1_slot1;
+            report = 4;
+            report = offset[report];
+            report = golf.bind(tango)(report);
+            golf = report.SparkleLeft;
+            report = {};
+            oscar = options.bind(tango)(golf, report);
+ 106:
+            report = new Array(3);
+            report[0] = oscar;
+            options = _closure1_slot3;
+            offset = _closure1_slot2;
+            oscar = {};
+            golf = foxtrot.pillContainer;
+            oscar['style'] = golf;
+            golf = _closure1_slot0;
+            verify = _closure1_slot1;
+            yankee = 5;
+            yankee = verify[yankee];
+            yankee = golf.bind(tango)(yankee);
+            romeo = yankee.Text;
+            yankee = {};
+            backup = 'text-xs/bold';
+            yankee['variant'] = backup;
+            foxtrot = foxtrot.text;
+            yankee['style'] = foxtrot;
+            foxtrot = 6;
+            backup = verify[foxtrot];
+            backup = golf.bind(tango)(backup);
+            kilo = backup.intl;
+            backup = kilo.string;
+            foxtrot = verify[foxtrot];
+            foxtrot = golf.bind(tango)(foxtrot);
+            foxtrot = foxtrot.t;
+            foxtrot = foxtrot.Y1q7jo;
+            backup = backup.bind(kilo)(foxtrot);
+            foxtrot = backup.toUpperCase;
+            foxtrot = foxtrot.bind(backup)();
+            yankee['children'] = foxtrot;
+            yankee = options.bind(tango)(romeo, yankee);
+            oscar['children'] = yankee;
+            oscar = options.bind(tango)(offset, oscar);
+            report[1] = oscar;
+            oscar = 7;
+            oscar = verify[oscar];
+            oscar = golf.bind(tango)(oscar);
+            golf = oscar.SparkleRight;
+            oscar = {};
+            oscar = options.bind(tango)(golf, oscar);
+            report[2] = oscar;
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['PremiumReferralTrialPill'] = mike;
+    return entity;
+})();

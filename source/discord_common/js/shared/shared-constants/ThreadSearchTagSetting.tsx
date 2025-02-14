@@ -1,0 +1,38 @@
+// discord_common/js/shared/shared-constants/ThreadSearchTagSetting.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    tango = {};
+    mike = 'match_all';
+    tango['MATCH_ALL'] = mike;
+    mike = 'match_some';
+    tango['MATCH_SOME'] = mike;
+    mike = {};
+    oscar = entity.Set;
+    entity = oscar.prototype;
+    report = Object.create(entity, {constructor: {value: oscar}});
+    offset = ['match_all', 'match_some'];
+    yankee = report;
+    entity = new yankee[oscar](offset, verify);
+    entity = entity instanceof Object ? entity : report;
+    mike['ALL'] = entity;
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = '../discord_common/js/shared/shared-constants/ThreadSearchTagSetting.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['ThreadSearchTagSetting'] = tango;
+    zulu['ThreadSearchTagSettingSets'] = mike;
+    return entity;
+})();

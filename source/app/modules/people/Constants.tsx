@@ -1,0 +1,32 @@
+// app/modules/people/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/people/Constants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 64;
+    zulu['RELATIONSHIP_COUNT_ANIMATION_THRESHOLD'] = mike;
+    mike = 62;
+    zulu['PEOPLE_LIST_ITEM_HEIGHT'] = mike;
+    mike = 50;
+    zulu['PEOPLE_LIST_SECTION_HEIGHT'] = mike;
+    mike = 5;
+    zulu['MINIMUM_PENDING_INCOMING_COUNT_FOR_CLEAR_ALL'] = mike;
+    mike = 'ACCEPT_FRIEND_REQUEST_CONFIRMATION_MODAL';
+    zulu['ACCEPT_FRIEND_REQUEST_CONFIRMATION_MODAL_ID'] = mike;
+    return entity;
+})();

@@ -1,0 +1,111 @@
+// app/modules/panels/native/PanelsConfig.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    verify = argBar;
+    zulu = argFred;
+    offset = argPlugh;
+    mike = global;
+    oscar = mike.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    mike = {};
+    tango = 'function isTimingConfig_PanelsConfigTsx1(obj){return obj!=null&&obj.duration!=null;}';
+    mike['code'] = tango;
+    var _closure1_slot0 = mike;
+    mike = function() {
+        entity = function(argFoo) { // Original name: isTimingConfig
+            _fun112004: for(var _fun112004_ip = 0; ; ) switch(_fun112004_ip) {
+ 0:
+                mike = argFoo;
+                zulu = null;
+                entity = zulu != mike;
+                if(!entity) { _fun112004_ip = 21; continue _fun112004 }
+ 12:
+                mike = mike.duration;
+                entity = zulu != mike;
+ 21:
+                return entity;
+            }
+        };
+        mike = {};
+        entity['__closure'] = mike;
+        mike = 14033676769786.0;
+        entity['__workletHash'] = mike;
+        mike = _closure1_slot0;
+        entity['__initData'] = mike;
+        return entity;
+    };
+    entity = undefined;
+    golf = mike.bind(entity)();
+    tango = {'mass': 1, 'stiffness': 250, 'overshootClamping': true, 'restSpeedThreshold': 0.001, 'restDisplacementThreshold': 0.001};
+    options = 1;
+    oscar = 250;
+    yankee = {};
+    mike = 30;
+    yankee['damping'] = mike;
+    update = yankee;
+    echo = tango;
+    mike = copyDataProperties(update, echo);
+    mike = {};
+    report = 20;
+    mike['damping'] = report;
+    update = mike;
+    echo = tango;
+    tango = copyDataProperties(update, echo);
+    backup = {};
+    backup['duration'] = oscar;
+    sizing = 0;
+    tango = offset[sizing];
+    tango = verify.bind(entity)(tango);
+    tango = tango.STANDARD_EASING;
+    backup['easing'] = tango;
+    foxtrot = {};
+    report = 200;
+    foxtrot['duration'] = report;
+    tango = offset[sizing];
+    tango = verify.bind(entity)(tango);
+    tango = tango.STANDARD_EASING;
+    foxtrot['easing'] = tango;
+    tango = {};
+    tango['swipeSidePanelOpen'] = yankee;
+    tango['swipeSidePanelClose'] = mike;
+    tango['nonSwipeSidePanelOpen'] = backup;
+    tango['nonSwipeSidePanelClose'] = foxtrot;
+    romeo = 8;
+    tango['touchSlopForPanGesture'] = romeo;
+    yankee = 240;
+    tango['minFlingVelocityX'] = yankee;
+    mike = {};
+    kilo = {};
+    kilo['duration'] = oscar;
+    output = offset[sizing];
+    output = verify.bind(entity)(output);
+    output = output.DECELERATED_EASING;
+    kilo['easing'] = output;
+    mike['swipeSidePanelOpen'] = kilo;
+    kilo = {};
+    kilo['duration'] = report;
+    sizing = offset[sizing];
+    sizing = verify.bind(entity)(sizing);
+    sizing = sizing.DECELERATED_EASING;
+    kilo['easing'] = sizing;
+    mike['swipeSidePanelClose'] = kilo;
+    mike['nonSwipeSidePanelOpen'] = backup;
+    mike['nonSwipeSidePanelClose'] = foxtrot;
+    mike['touchSlopForPanGesture'] = romeo;
+    mike['minFlingVelocityX'] = yankee;
+    options = offset[options];
+    offset = verify.bind(entity)(options);
+    verify = offset.fileFinishedImporting;
+    options = 'modules/panels/native/PanelsConfig.tsx';
+    options = verify.bind(offset)(options);
+    zulu['isTimingConfig'] = golf;
+    zulu['SIDE_PANEL_OPEN_DURATION_MS'] = oscar;
+    zulu['SIDE_PANEL_CLOSE_DURATION_MS'] = report;
+    zulu['DEFAULT_PANELS_ANIMATION_CONFIG'] = tango;
+    zulu['ANDROID_PANELS_ANIMATION_CONFIG'] = mike;
+    return entity;
+})();

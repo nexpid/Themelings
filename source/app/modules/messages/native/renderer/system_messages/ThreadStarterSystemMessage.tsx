@@ -1,0 +1,180 @@
+// app/modules/messages/native/renderer/system_messages/ThreadStarterSystemMessage.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    options = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = options;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    golf = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    golf = oscar[tango];
+    golf = options.bind(entity)(golf);
+    var _closure1_slot3 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.ReferencedMessageState;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.MessageTypes;
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot6 = tango;
+    tango = 9;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/messages/native/renderer/system_messages/ThreadStarterSystemMessage.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function(argFoo) { // Original name: ThreadStarterSystemMessage
+        _fun72449: for(var _fun72449_ip = 0; ; ) switch(_fun72449_ip) {
+ 0:
+            mike = argFoo;
+            golf = mike.row;
+            mike = golf.message;
+            verify = mike.messageReference;
+            var _closure2_slot0 = verify;
+            offset = mike.type;
+            zulu = _closure1_slot1;
+            tango = _closure1_slot2;
+            mike = 4;
+            mike = tango[mike];
+            report = undefined;
+            options = zulu.bind(report)(mike);
+            mike = _closure1_slot5;
+            mike = mike.THREAD_STARTER_MESSAGE;
+            zulu = global;
+            zulu = zulu.HermesInternal;
+            yankee = zulu.concat;
+            zulu = 'cannot call createThreadStarterSystemMessage on a message of type ';
+            zulu = yankee.bind(zulu)(offset);
+            mike = offset === mike;
+            mike = options.bind(report)(mike, zulu);
+            zulu = _closure1_slot0;
+            mike = 7;
+            mike = tango[mike];
+            options = zulu.bind(report)(mike);
+            tango = options.useStateFromStores;
+            mike = _closure1_slot3;
+            zulu = new Array(1);
+            zulu[0] = mike;
+            mike = new Array(1);
+            mike[0] = verify;
+            entity = function() {
+                zulu = _closure1_slot3;
+                mike = zulu.getMessageByReference;
+                entity = _closure2_slot0;
+                entity = mike.bind(zulu)(entity);
+                entity = entity.state;
+                return entity;
+            };
+            zulu = tango.bind(options)(zulu, entity, mike);
+            entity = _closure1_slot4;
+            mike = entity.LOADED;
+            entity = null;
+            if(!(zulu !== mike)) { _fun72449_ip = 263; continue _fun72449 }
+ 171:
+            tango = _closure1_slot6;
+            zulu = _closure1_slot1;
+            offset = _closure1_slot2;
+            mike = 8;
+            mike = offset[mike];
+            zulu = zulu.bind(report)(mike);
+            mike = {};
+            mike['row'] = golf;
+            verify = _closure1_slot0;
+            oscar = 5;
+            golf = offset[oscar];
+            golf = verify.bind(report)(golf);
+            options = golf.intl;
+            golf = options.string;
+            oscar = offset[oscar];
+            oscar = verify.bind(report)(oscar);
+            oscar = oscar.t;
+            oscar = oscar.OCs36O;
+            oscar = golf.bind(options)(oscar);
+            mike['content'] = oscar;
+            entity = tango.bind(report)(zulu, mike);
+ 263:
+            return entity;
+        }
+    };
+    zulu['default'] = tango;
+    mike = function(argFoo) { // Original name: createThreadStarterSystemMessage
+        _fun72451: for(var _fun72451_ip = 0; ; ) switch(_fun72451_ip) {
+ 0:
+            report = argFoo;
+            entity = report.message;
+            oscar = entity.messageReference;
+            options = entity.type;
+            mike = _closure1_slot1;
+            tango = _closure1_slot2;
+            entity = 4;
+            entity = tango[entity];
+            tango = undefined;
+            golf = mike.bind(tango)(entity);
+            entity = _closure1_slot5;
+            entity = entity.THREAD_STARTER_MESSAGE;
+            mike = global;
+            mike = mike.HermesInternal;
+            verify = mike.concat;
+            mike = 'cannot call createThreadStarterSystemMessage on a message of type ';
+            mike = verify.bind(mike)(options);
+            entity = options === entity;
+            entity = golf.bind(tango)(entity, mike);
+            mike = _closure1_slot3;
+            entity = mike.getMessageByReference;
+            entity = entity.bind(mike)(oscar);
+            oscar = entity.state;
+            entity = _closure1_slot4;
+            mike = entity.LOADED;
+            entity = null;
+            if(!(oscar !== mike)) { _fun72451_ip = 216; continue _fun72451 }
+ 124:
+            mike = {};
+            offset = _closure1_slot0;
+            golf = _closure1_slot2;
+            oscar = 5;
+            options = golf[oscar];
+            options = offset.bind(tango)(options);
+            verify = options.intl;
+            options = verify.string;
+            oscar = golf[oscar];
+            oscar = offset.bind(tango)(oscar);
+            oscar = oscar.t;
+            oscar = oscar.OCs36O;
+            oscar = options.bind(verify)(oscar);
+            mike['content'] = oscar;
+            oscar = _closure1_slot1;
+            zulu = 6;
+            zulu = golf[zulu];
+            zulu = oscar.bind(tango)(zulu);
+            yankee = zulu.bind(tango)(report);
+            romeo = mike;
+            zulu = copyDataProperties(romeo, yankee);
+            entity = mike;
+ 216:
+            return entity;
+        }
+    };
+    zulu['createThreadStarterSystemMessage'] = mike;
+    return entity;
+})();

@@ -1,0 +1,35 @@
+// app/modules/global_discovery_apps/GlobalDiscoveryAppsConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'about';
+    mike['ABOUT'] = entity;
+    entity = 'store';
+    mike['STORE'] = entity;
+    entity = argPlugh;
+    tango = 0;
+    oscar = entity[tango];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/global_discovery_apps/GlobalDiscoveryAppsConstants.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['GLOBAL_DISCOVERY_APPS_FEATURED_CATEGORY_ID'] = tango;
+    tango = '';
+    zulu['EMPTY_QUERY'] = tango;
+    tango = 100;
+    zulu['MAX_PAGES'] = tango;
+    tango = 48;
+    zulu['PAGE_SIZE'] = tango;
+    zulu['GlobalDiscoveryAppsSections'] = mike;
+    return entity;
+})();

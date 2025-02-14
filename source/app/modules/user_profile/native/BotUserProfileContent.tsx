@@ -1,0 +1,718 @@
+// app/modules/user_profile/native/BotUserProfileContent.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    var _closure1_slot3 = golf;
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = romeo.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    options = tango.PROFILE_CONTENT_BOTTOM_PADDING;
+    var _closure1_slot6 = options;
+    tango = tango.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
+    var _closure1_slot7 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot8 = tango;
+    tango = 5;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsx;
+    var _closure1_slot9 = options;
+    options = oscar[tango];
+    options = report.bind(entity)(options);
+    options = options.jsxs;
+    var _closure1_slot10 = options;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.Fragment;
+    var _closure1_slot11 = tango;
+    tango = 6;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    offset = {'height': 40, 'marginTop': 0, 'marginRight': 0};
+    yankee = 7;
+    yankee = oscar[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.radii;
+    yankee = yankee.round;
+    offset['borderRadius'] = yankee;
+    tango['applicationButton'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot12 = tango;
+    tango = golf.memo;
+    mike = function(argFoo) { // Original name: BotUserProfileContent
+        _fun77769: for(var _fun77769_ip = 0; ; ) switch(_fun77769_ip) {
+ 0:
+            entity = argFoo;
+            backup = entity.user;
+            var _closure2_slot0 = backup;
+            romeo = entity.channel;
+            var _closure2_slot1 = romeo;
+            record = entity.displayProfile;
+            papa = entity.showUserProfileActionSheet;
+            variable40 = entity.disableMessage;
+            report = undefined;
+            var _closure2_slot3 = report;
+            var _closure2_slot4 = report;
+            entity = _closure1_slot12;
+            quebec = entity.bind(report)();
+            mike = _closure1_slot1;
+            zulu = _closure1_slot2;
+            entity = 8;
+            entity = zulu[entity];
+            entity = mike.bind(report)(entity);
+            offset = entity.bind(report)();
+            entity = 9;
+            entity = zulu[entity];
+            tango = mike.bind(report)(entity);
+            entity = _closure1_slot8;
+            sizing = tango.bind(report)(entity);
+            entity = 10;
+            entity = zulu[entity];
+            entity = mike.bind(report)(entity);
+            entity = entity.bind(report)();
+            sequence = entity.bottom;
+            tango = _closure1_slot0;
+            entity = 11;
+            entity = zulu[entity];
+            oscar = tango.bind(report)(entity);
+            entity = oscar.useUserProfileAnalyticsContext;
+            entity = entity.bind(oscar)();
+            entity = entity.trackUserProfileAction;
+            var _closure2_slot2 = entity;
+            entity = 12;
+            entity = zulu[entity];
+            options = tango.bind(report)(entity);
+            oscar = options.useStateFromStores;
+            entity = _closure1_slot5;
+            tango = new Array(1);
+            tango[0] = entity;
+            entity = function() {
+                mike = _closure1_slot5;
+                entity = mike.getCurrentUser;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            equality = oscar.bind(options)(tango, entity);
+            entity = 13;
+            entity = zulu[entity];
+            oscar = mike.bind(report)(entity);
+            tango = oscar.useName;
+            entity = null;
+            mike = entity == record;
+            zulu = undefined;
+            if(mike) { _fun77769_ip = 240; continue _fun77769 }
+ 235:
+            zulu = record.guildId;
+ 240:
+            options = entity == romeo;
+            mike = undefined;
+            if(options) { _fun77769_ip = 254; continue _fun77769 }
+ 249:
+            mike = romeo.id;
+ 254:
+            context = tango.bind(oscar)(zulu, mike, backup);
+            zulu = _closure1_slot1;
+            mike = _closure1_slot2;
+            variable41 = 14;
+            mike = mike[variable41];
+            zulu = zulu.bind(report)(mike);
+            mike = zulu.useUserTag;
+            mike = mike.bind(zulu)(backup);
+            _closure2_slot3 = mike;
+            mike = entity == record;
+            foxtrot = undefined;
+            if(mike) { _fun77769_ip = 310; continue _fun77769 }
+ 305:
+            foxtrot = record.application;
+ 310:
+            mike = entity == romeo;
+            whiskey = undefined;
+            if(mike) { _fun77769_ip = 324; continue _fun77769 }
+ 319:
+            whiskey = romeo.guild_id;
+ 324:
+            _closure2_slot4 = whiskey;
+            oscar = _closure1_slot3;
+            tango = oscar.useMemo;
+            zulu = new Array(2);
+            zulu[0] = whiskey;
+            zulu[1] = backup;
+            mike = function() {
+                _fun77771: for(var _fun77771_ip = 0; ; ) switch(_fun77771_ip) {
+ 0:
+                    entity = _closure2_slot4;
+                    mike = null;
+                    if(!(mike != entity)) { _fun77771_ip = 21; continue _fun77771 }
+ 13:
+                    entity = _closure2_slot0;
+                    if(!(mike == entity)) { _fun77771_ip = 25; continue _fun77771 }
+ 21:
+                    entity = {};
+                    _fun77771_ip = 56; continue _fun77771;
+ 25:
+                    mike = {};
+                    tango = _closure2_slot4;
+                    zulu = _closure2_slot0;
+                    report = zulu.id;
+                    zulu = new Array(1);
+                    zulu[0] = report;
+                    mike[tango] = zulu;
+                    entity = mike;
+ 56:
+                    return entity;
+                }
+            };
+            options = tango.bind(oscar)(mike, zulu);
+            zulu = _closure1_slot0;
+            tango = _closure1_slot2;
+            mike = 15;
+            mike = tango[mike];
+            oscar = zulu.bind(report)(mike);
+            mike = oscar.useSubscribeGuildMembers;
+            mike = mike.bind(oscar)(options);
+            oscar = _closure1_slot1;
+            mike = 16;
+            mike = tango[mike];
+            options = oscar.bind(report)(mike);
+            mike = backup.id;
+            vacuum = options.bind(report)(mike);
+            mike = 17;
+            mike = tango[mike];
+            oscar = oscar.bind(report)(mike);
+            mike = {};
+            mike['user'] = backup;
+            mike['displayProfile'] = record;
+            mike = oscar.bind(report)(mike);
+            oscar = mike.theme;
+            control = mike.primaryColor;
+            yankee = mike.secondaryColor;
+            mike = 18;
+            mike = tango[mike];
+            tango = zulu.bind(report)(mike);
+            zulu = tango.useUserProfileColors;
+            mike = {};
+            mike['theme'] = oscar;
+            mike['primaryColor'] = control;
+            mike['secondaryColor'] = yankee;
+            mike = zulu.bind(tango)(mike);
+            kilo = mike.gradientFallbackBackground;
+            update = mike.avatarBackground;
+            verify = mike.containerBackground;
+            if(!(entity != backup)) { _fun77769_ip = 2002; continue _fun77769 }
+ 530:
+            if(!(entity != equality)) { _fun77769_ip = 2002; continue _fun77769 }
+ 537:
+            target = function() { // Original name: handleCopyUsername
+                tango = _closure2_slot2;
+                zulu = {};
+                entity = 'COPY_USERNAME';
+                zulu['action'] = entity;
+                entity = undefined;
+                zulu = tango.bind(entity)(zulu);
+                zulu = _closure1_slot0;
+                tango = _closure1_slot2;
+                report = 19;
+                report = tango[report];
+                oscar = zulu.bind(entity)(report);
+                report = oscar.copy;
+                mike = _closure2_slot3;
+                mike = report.bind(oscar)(mike);
+                mike = 20;
+                mike = tango[mike];
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.presentUsernameCopied;
+                mike = mike.bind(zulu)();
+                return entity;
+            };
+            tango = _closure1_slot10;
+            zulu = _closure1_slot11;
+            mike = {};
+            echo = _closure1_slot9;
+            result = _closure1_slot1;
+            source = _closure1_slot2;
+            oscar = 21;
+            oscar = source[oscar];
+            options = result.bind(report)(oscar);
+            oscar = {};
+            oscar['displayProfile'] = record;
+            oscar['user'] = backup;
+            oscar['channel'] = romeo;
+            oscar['showUserProfile'] = papa;
+            oscar['bannerHeight'] = sizing;
+            options = echo.bind(report)(options, oscar);
+            oscar = new Array(3);
+            oscar[0] = options;
+            sizing = _closure1_slot4;
+            options = {};
+            output = 22;
+            output = source[output];
+            result = result.bind(report)(output);
+            output = {};
+            output['user'] = backup;
+            source = entity == record;
+            config = undefined;
+            if(source) { _fun77769_ip = 655; continue _fun77769 }
+ 650:
+            config = record.guildId;
+ 655:
+            status = entity != config;
+            source = undefined;
+            if(!status) { _fun77769_ip = 667; continue _fun77769 }
+ 664:
+            source = config;
+ 667:
+            output['guildId'] = source;
+            output['backgroundColor'] = update;
+            result = echo.bind(report)(result, output);
+            output = new Array(2);
+            output[0] = result;
+            update = _closure1_slot10;
+            echo = _closure1_slot1;
+            source = _closure1_slot2;
+            result = 23;
+            result = source[result];
+            echo = echo.bind(report)(result);
+            result = {};
+            result['fallbackBackground'] = kilo;
+            result['primaryColor'] = control;
+            result['secondaryColor'] = yankee;
+            kilo = offset.profileContent;
+            yankee = new Array(2);
+            yankee[0] = kilo;
+            kilo = {};
+            config = entity != vacuum;
+            source = 0;
+            if(config) { _fun77769_ip = 759; continue _fun77769 }
+ 755:
+            source = _closure1_slot7;
+ 759:
+            kilo['paddingTop'] = source;
+            source = _closure1_slot6;
+            source = sequence + source;
+            kilo['paddingBottom'] = source;
+            yankee[1] = kilo;
+            result['containerStyle'] = yankee;
+            config = _closure1_slot9;
+            kilo = _closure1_slot1;
+            status = _closure1_slot2;
+            yankee = 24;
+            yankee = status[yankee];
+            source = kilo.bind(report)(yankee);
+            yankee = {};
+            yankee['customStatusActivity'] = vacuum;
+            control = entity != control;
+            yankee['hasCustomProfileTheme'] = control;
+            control = function() { // Original name: onPressTruncatedStatus
+                _fun77774: for(var _fun77774_ip = 0; ; ) switch(_fun77774_ip) {
+ 0:
+                    report = _closure1_slot1;
+                    mike = _closure1_slot2;
+                    entity = 25;
+                    tango = mike[entity];
+                    entity = undefined;
+                    golf = report.bind(entity)(tango);
+                    oscar = golf.openLazy;
+                    tango = _closure1_slot0;
+                    zulu = 27;
+                    zulu = mike[zulu];
+                    tango = tango.bind(entity)(zulu);
+                    zulu = 26;
+                    zulu = mike[zulu];
+                    mike = mike.paths;
+                    report = tango.bind(entity)(zulu, mike);
+                    tango = {};
+                    mike = _closure2_slot0;
+                    tango['user'] = mike;
+                    mike = _closure2_slot4;
+                    tango['guildId'] = mike;
+                    options = _closure2_slot1;
+                    mike = null;
+                    options = mike == options;
+                    mike = undefined;
+                    if(options) { _fun77774_ip = 110; continue _fun77774 }
+ 101:
+                    zulu = _closure2_slot1;
+                    mike = zulu.id;
+ 110:
+                    tango['channelId'] = mike;
+                    yankee = 'UserProfileCustomStatusActionSheet';
+                    verify = 'stack';
+                    foxtrot = golf;
+                    romeo = report;
+                    offset = tango;
+                    mike = foxtrot[oscar](romeo, yankee, offset, verify, options);
+                    return entity;
+                }
+            };
+            yankee['onPressTruncatedStatus'] = control;
+            control = offset.customStatusBubble;
+            yankee['style'] = control;
+            control = offset.emojiOnlyCustomStatusBubble;
+            yankee['emojiOnlyStyle'] = control;
+            yankee = config.bind(report)(source, yankee);
+            source = new Array(3);
+            source[0] = yankee;
+            sequence = _closure1_slot10;
+            vacuum = _closure1_slot4;
+            control = {};
+            yankee = offset.primaryInfo;
+            control['style'] = yankee;
+            yankee = 28;
+            yankee = status[yankee];
+            kilo = kilo.bind(report)(yankee);
+            yankee = {};
+            yankee['user'] = backup;
+            yankee['guildId'] = whiskey;
+            yankee['displayName'] = context;
+            status = entity == record;
+            context = undefined;
+            if(status) { _fun77769_ip = 934; continue _fun77769 }
+ 928:
+            context = record.pronouns;
+ 934:
+            yankee['pronouns'] = context;
+            yankee['badgeContainerBackground'] = verify;
+            variable38 = _closure1_slot0;
+            context = _closure1_slot2;
+            variable37 = 29;
+            status = context[variable37];
+            status = variable38.bind(report)(status);
+            lima = status.intl;
+            sierra = lima.string;
+            status = context[variable37];
+            status = variable38.bind(report)(status);
+            status = status.t;
+            status = status.y5MwJy;
+            status = sierra.bind(lima)(status);
+            yankee['displayNameAccessibilityHint'] = status;
+            yankee['onPressDisplayName'] = target;
+            yankee['onPressUserTag'] = target;
+            target = function() { // Original name: handlePressPronouns
+                zulu = _closure2_slot2;
+                mike = {};
+                entity = 'PRESS_PRONOUNS';
+                mike['action'] = entity;
+                entity = undefined;
+                mike = zulu.bind(entity)(mike);
+                zulu = _closure1_slot0;
+                tango = _closure1_slot2;
+                mike = 20;
+                mike = tango[mike];
+                zulu = zulu.bind(entity)(mike);
+                mike = zulu.presentUserPronouns;
+                mike = mike.bind(zulu)();
+                return entity;
+            };
+            yankee['onPressPronouns'] = target;
+            variable39 = true;
+            yankee['showBadgeToastOnPress'] = variable39;
+            yankee = config.bind(report)(kilo, yankee);
+            config = new Array(3);
+            config[0] = yankee;
+            sierra = _closure1_slot9;
+            kilo = _closure1_slot1;
+            yankee = 30;
+            yankee = context[yankee];
+            target = kilo.bind(report)(yankee);
+            yankee = {};
+            yankee['user'] = backup;
+            yankee = sierra.bind(report)(target, yankee);
+            config[1] = yankee;
+            yankee = 31;
+            yankee = context[yankee];
+            status = kilo.bind(report)(yankee);
+            target = {};
+            yankee = offset.primaryButtons;
+            target['style'] = yankee;
+            yankee = _closure1_slot8;
+            target['maxWidth'] = yankee;
+            kilo = entity != foxtrot;
+            yankee = undefined;
+            if(!kilo) { _fun77769_ip = 1285; continue _fun77769 }
+ 1128:
+            context = _closure1_slot0;
+            lima = _closure1_slot2;
+            kilo = 32;
+            kilo = lima[kilo];
+            context = context.bind(report)(kilo);
+            kilo = context.canInstallApplication;
+            kilo = kilo.bind(context)(foxtrot);
+            yankee = undefined;
+            if(!kilo) { _fun77769_ip = 1285; continue _fun77769 }
+ 1164:
+            lima = _closure1_slot9;
+            context = _closure1_slot1;
+            variable38 = _closure1_slot2;
+            kilo = 33;
+            kilo = variable38[kilo];
+            context = context.bind(report)(kilo);
+            kilo = {};
+            kilo['application'] = foxtrot;
+            variable38 = backup.id;
+            kilo['botUserId'] = variable38;
+            variable42 = entity == romeo;
+            variable38 = undefined;
+            if(variable42) { _fun77769_ip = 1218; continue _fun77769 }
+ 1213:
+            variable38 = romeo.id;
+ 1218:
+            kilo['channelId'] = variable38;
+            variable42 = entity != whiskey;
+            variable38 = undefined;
+            if(!variable42) { _fun77769_ip = 1234; continue _fun77769 }
+ 1231:
+            variable38 = whiskey;
+ 1234:
+            kilo['guildId'] = variable38;
+            quebec = quebec.applicationButton;
+            kilo['style'] = quebec;
+            variable38 = _closure1_slot1;
+            variable42 = _closure1_slot2;
+            quebec = 25;
+            quebec = variable42[quebec];
+            quebec = variable38.bind(report)(quebec);
+            quebec = quebec.hideActionSheet;
+            kilo['onOpenApp'] = quebec;
+            yankee = lima.bind(report)(context, kilo);
+ 1285:
+            target['primaryButton'] = yankee;
+            kilo = _closure1_slot9;
+            variable38 = _closure1_slot0;
+            context = _closure1_slot2;
+            yankee = 34;
+            yankee = context[yankee];
+            yankee = variable38.bind(report)(yankee);
+            quebec = yankee.Button;
+            lima = {};
+            yankee = 35;
+            yankee = context[yankee];
+            yankee = variable38.bind(report)(yankee);
+            variable43 = yankee.ChatIcon;
+            variable42 = {};
+            yankee = 'sm';
+            variable42['size'] = yankee;
+            yankee = _closure1_slot1;
+            variable44 = 7;
+            variable44 = context[variable44];
+            variable44 = yankee.bind(report)(variable44);
+            variable44 = variable44.colors;
+            variable44 = variable44.REDESIGN_BUTTON_SECONDARY_TEXT;
+            variable42['color'] = variable44;
+            variable42 = kilo.bind(report)(variable43, variable42);
+            lima['icon'] = variable42;
+            variable42 = context[variable37];
+            variable42 = variable38.bind(report)(variable42);
+            variable44 = variable42.intl;
+            variable43 = variable44.string;
+            variable42 = context[variable37];
+            variable42 = variable38.bind(report)(variable42);
+            variable42 = variable42.t;
+            variable42 = variable42.zROXER;
+            variable42 = variable43.bind(variable44)(variable42);
+            lima['text'] = variable42;
+            variable42 = 'secondary';
+            lima['variant'] = variable42;
+            lima['disabled'] = variable40;
+            lima['grow'] = variable39;
+            variable39 = context[variable37];
+            variable39 = variable38.bind(report)(variable39);
+            variable40 = variable39.intl;
+            variable39 = variable40.formatToPlainString;
+            variable37 = context[variable37];
+            variable37 = variable38.bind(report)(variable37);
+            variable37 = variable37.t;
+            variable38 = variable37.zFfSFR;
+            variable37 = {};
+            variable41 = context[variable41];
+            variable42 = yankee.bind(report)(variable41);
+            variable41 = variable42.getName;
+            variable41 = variable41.bind(variable42)(backup);
+            variable37['name'] = variable41;
+            variable37 = variable39.bind(variable40)(variable38, variable37);
+            lima['accessibilityHint'] = variable37;
+            variable36 = function() { // Original name: onPress
+                tango = _closure2_slot2;
+                zulu = {};
+                entity = 'SEND_MESSAGE';
+                zulu['action'] = entity;
+                entity = undefined;
+                zulu = tango.bind(entity)(zulu);
+                tango = _closure1_slot1;
+                report = _closure1_slot2;
+                zulu = 25;
+                zulu = report[zulu];
+                oscar = tango.bind(entity)(zulu);
+                zulu = oscar.hideActionSheet;
+                zulu = zulu.bind(oscar)();
+                zulu = 36;
+                zulu = report[zulu];
+                oscar = tango.bind(entity)(zulu);
+                zulu = oscar.popAll;
+                zulu = zulu.bind(oscar)();
+                zulu = 37;
+                zulu = report[zulu];
+                tango = tango.bind(entity)(zulu);
+                zulu = tango.openPrivateChannel;
+                mike = _closure2_slot0;
+                mike = mike.id;
+                mike = zulu.bind(tango)(mike);
+                return entity;
+            };
+            lima['onPress'] = variable36;
+            lima = kilo.bind(report)(quebec, lima);
+            target['secondaryButton'] = lima;
+            target = sierra.bind(report)(status, target);
+            config[2] = target;
+            control['children'] = config;
+            control = sequence.bind(report)(vacuum, control);
+            source[1] = control;
+            target = {};
+            target['backgroundColor'] = verify;
+            sequence = _closure1_slot10;
+            vacuum = _closure1_slot4;
+            control = {};
+            verify = offset.cards;
+            control['style'] = verify;
+            verify = 38;
+            verify = context[verify];
+            config = yankee.bind(report)(verify);
+            verify = {};
+            verify['user'] = backup;
+            verify['currentUser'] = equality;
+            verify['guildId'] = whiskey;
+            verify['style'] = target;
+            verify = kilo.bind(report)(config, verify);
+            config = new Array(4);
+            config[0] = verify;
+            verify = 39;
+            verify = context[verify];
+            yankee = yankee.bind(report)(verify);
+            verify = {};
+            context = backup.id;
+            verify['userId'] = context;
+            verify['displayProfile'] = record;
+            verify['channel'] = romeo;
+            verify['style'] = target;
+            verify = kilo.bind(report)(yankee, verify);
+            config[1] = verify;
+            verify = entity != whiskey;
+            if(!verify) { _fun77769_ip = 1828; continue _fun77769 }
+ 1705:
+            record = _closure1_slot10;
+            kilo = _closure1_slot11;
+            yankee = {};
+            lima = _closure1_slot9;
+            sierra = _closure1_slot1;
+            quebec = _closure1_slot2;
+            context = 40;
+            context = quebec[context];
+            status = sierra.bind(report)(context);
+            context = {};
+            variable36 = backup.id;
+            context['userId'] = variable36;
+            context['guildId'] = whiskey;
+            context['style'] = target;
+            status = lima.bind(report)(status, context);
+            context = new Array(2);
+            context[0] = status;
+            status = 41;
+            status = quebec[status];
+            sierra = sierra.bind(report)(status);
+            status = {};
+            status['user'] = backup;
+            status['currentUser'] = equality;
+            status['guildId'] = whiskey;
+            status['showUserProfile'] = papa;
+            status['style'] = target;
+            status = lima.bind(report)(sierra, status);
+            context[1] = status;
+            yankee['children'] = context;
+            verify = record.bind(report)(kilo, yankee);
+ 1828:
+            config[2] = verify;
+            verify = _closure1_slot9;
+            yankee = _closure1_slot1;
+            kilo = _closure1_slot2;
+            record = 42;
+            record = kilo[record];
+            context = yankee.bind(report)(record);
+            record = {};
+            status = backup.id;
+            record['userId'] = status;
+            record['style'] = target;
+            record['onBack'] = papa;
+            record = verify.bind(report)(context, record);
+            config[3] = record;
+            control['children'] = config;
+            control = sequence.bind(report)(vacuum, control);
+            source[2] = control;
+            result['children'] = source;
+            result = update.bind(report)(echo, result);
+            output[1] = result;
+            options['children'] = output;
+            options = tango.bind(report)(sizing, options);
+            oscar[1] = options;
+            options = _closure1_slot4;
+            golf = {};
+            offset = offset.bannerButtons;
+            golf['style'] = offset;
+            offset = 43;
+            offset = kilo[offset];
+            yankee = yankee.bind(report)(offset);
+            offset = {};
+            offset['user'] = backup;
+            offset['application'] = foxtrot;
+            offset['channel'] = romeo;
+            offset = verify.bind(report)(yankee, offset);
+            golf['children'] = offset;
+            golf = verify.bind(report)(options, golf);
+            oscar[2] = golf;
+            mike['children'] = oscar;
+            mike = tango.bind(report)(zulu, mike);
+            return mike;
+ 2002:
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 44;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_profile/native/BotUserProfileContent.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

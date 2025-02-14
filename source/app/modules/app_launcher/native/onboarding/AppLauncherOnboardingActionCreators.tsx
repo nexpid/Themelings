@@ -1,0 +1,57 @@
+// app/modules/app_launcher/native/onboarding/AppLauncherOnboardingActionCreators.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    tango = argPlugh;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tango;
+    entity = global;
+    golf = entity.Object;
+    oscar = golf.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = 1;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/app_launcher/native/onboarding/AppLauncherOnboardingActionCreators.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = function() { // Original name: setLastSeenTimeMs
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'APP_LAUNCHER_ONBOARDING_SET_LAST_SEEN_TIME_MS';
+        mike['type'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    zulu['setLastSeenTimeMs'] = tango;
+    mike = function(argFoo) { // Original name: setTriggeredOnboardingContentMetadata
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        tango = zulu.bind(entity)(mike);
+        zulu = tango.dispatch;
+        mike = {};
+        report = 'APP_LAUNCHER_ONBOARDING_SET_TRIGGERED_ONBOARDING_CONTENT_METADATA';
+        mike['type'] = report;
+        report = argFoo;
+        mike['triggeredOnboardingContentMetadata'] = report;
+        mike = zulu.bind(tango)(mike);
+        return entity;
+    };
+    zulu['setTriggeredOnboardingContentMetadata'] = mike;
+    return entity;
+})();

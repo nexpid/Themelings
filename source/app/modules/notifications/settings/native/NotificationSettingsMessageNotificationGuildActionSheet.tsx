@@ -1,0 +1,165 @@
+// app/modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    golf = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    verify = entity.Object;
+    options = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = options.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    options = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(options);
+    tango = 1;
+    tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.UserNotificationSettings;
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.UnreadSetting;
+    var _closure1_slot5 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.GuildNotificationSettingsFlags;
+    var _closure1_slot6 = tango;
+    tango = 5;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot7 = tango;
+    tango = 12;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: NotificationSettingsMessageNotificationGuildActionSheet
+        _fun86871: for(var _fun86871_ip = 0; ; ) switch(_fun86871_ip) {
+ 0:
+            entity = argFoo;
+            var _closure2_slot0 = entity;
+            zulu = _closure1_slot0;
+            oscar = _closure1_slot2;
+            mike = 6;
+            mike = oscar[mike];
+            tango = undefined;
+            zulu = zulu.bind(tango)(mike);
+            mike = zulu.useGuildPresetSettings;
+            entity = entity.guildId;
+            entity = mike.bind(zulu)(entity);
+            verify = entity.unread;
+            var _closure2_slot1 = verify;
+            offset = entity.notification;
+            zulu = _closure1_slot7;
+            mike = _closure1_slot1;
+            entity = 7;
+            entity = oscar[entity];
+            mike = mike.bind(tango)(entity);
+            entity = {};
+            oscar = 'guild';
+            entity['context'] = oscar;
+            entity['value'] = offset;
+            oscar = _closure1_slot4;
+            options = oscar.ALL_MESSAGES;
+            oscar = undefined;
+            if(!(offset !== options)) { _fun86871_ip = 187; continue _fun86871 }
+ 116:
+            options = _closure1_slot5;
+            options = options.ALL_MESSAGES;
+            oscar = undefined;
+            if(!(verify !== options)) { _fun86871_ip = 187; continue _fun86871 }
+ 132:
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            golf = 8;
+            options = yankee[golf];
+            options = offset.bind(tango)(options);
+            verify = options.intl;
+            options = verify.string;
+            golf = yankee[golf];
+            golf = offset.bind(tango)(golf);
+            golf = golf.t;
+            golf = golf.eP8yWV;
+            oscar = options.bind(verify)(golf);
+ 187:
+            entity['allMessagesSubLabel'] = oscar;
+            report = function(argFoo) { // Original name: onChange
+                _fun86872: for(var _fun86872_ip = 0; ; ) switch(_fun86872_ip) {
+ 0:
+                    options = argFoo;
+                    oscar = {};
+                    oscar['message_notifications'] = options;
+                    entity = _closure1_slot4;
+                    entity = entity.ALL_MESSAGES;
+                    entity = options === entity;
+                    if(!entity) { _fun86872_ip = 51; continue _fun86872 }
+ 30:
+                    tango = _closure2_slot1;
+                    zulu = _closure1_slot5;
+                    zulu = zulu.ALL_MESSAGES;
+                    entity = tango !== zulu;
+ 51:
+                    if(!entity) { _fun86872_ip = 131; continue _fun86872 }
+ 54:
+                    tango = _closure1_slot0;
+                    zulu = _closure1_slot2;
+                    entity = 9;
+                    zulu = zulu[entity];
+                    entity = undefined;
+                    report = tango.bind(entity)(zulu);
+                    tango = report.withGuildUnreadFlags;
+                    golf = _closure1_slot3;
+                    zulu = golf.getGuildFlags;
+                    entity = _closure2_slot0;
+                    entity = entity.guildId;
+                    zulu = zulu.bind(golf)(entity);
+                    entity = _closure1_slot6;
+                    entity = entity.UNREADS_ALL_MESSAGES;
+                    entity = tango.bind(report)(zulu, entity);
+                    oscar['flags'] = entity;
+ 131:
+                    tango = _closure1_slot1;
+                    verify = _closure1_slot2;
+                    entity = 10;
+                    zulu = verify[entity];
+                    entity = undefined;
+                    report = tango.bind(entity)(zulu);
+                    tango = report.updateGuildNotificationSettings;
+                    zulu = _closure2_slot0;
+                    zulu = zulu.guildId;
+                    golf = _closure1_slot0;
+                    mike = 11;
+                    mike = verify[mike];
+                    mike = golf.bind(entity)(mike);
+                    golf = mike.NotificationLabel;
+                    mike = golf.notifications;
+                    mike = mike.bind(golf)(options);
+                    mike = tango.bind(report)(zulu, oscar, mike);
+                    return entity;
+                }
+            };
+            entity['onChange'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

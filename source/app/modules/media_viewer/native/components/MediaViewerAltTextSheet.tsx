@@ -1,0 +1,162 @@
+// app/modules/media_viewer/native/components/MediaViewerAltTextSheet.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    tango = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot2 = tango;
+    tango = 2;
+    golf = oscar[tango];
+    golf = report.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot3 = golf;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot4 = tango;
+    tango = 3;
+    tango = oscar[tango];
+    options = report.bind(entity)(tango);
+    golf = options.createStyles;
+    tango = {};
+    verify = {};
+    offset = 4;
+    yankee = oscar[offset];
+    offset = argBaz;
+    offset = offset.bind(entity)(yankee);
+    offset = offset.colors;
+    offset = offset.BACKGROUND_MOBILE_PRIMARY;
+    verify['backgroundColor'] = offset;
+    offset = 16;
+    verify['padding'] = offset;
+    tango['container'] = verify;
+    verify = {};
+    offset = 8;
+    verify['marginBottom'] = offset;
+    tango['title'] = verify;
+    tango = golf.bind(options)(tango);
+    var _closure1_slot5 = tango;
+    tango = 10;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/media_viewer/native/components/MediaViewerAltTextSheet.tsx';
+    tango = report.bind(oscar)(tango);
+    mike = function(argFoo) { // Original name: _default
+        _fun89987: for(var _fun89987_ip = 0; ; ) switch(_fun89987_ip) {
+ 0:
+            entity = argFoo;
+            romeo = entity.description;
+            report = entity.onClose;
+            oscar = entity.showBackdrop;
+            tango = undefined;
+            if(!(oscar === tango)) { _fun89987_ip = 28; continue _fun89987 }
+ 26:
+            oscar = false;
+ 28:
+            entity = _closure1_slot5;
+            kilo = entity.bind(tango)();
+            zulu = _closure1_slot0;
+            golf = _closure1_slot1;
+            entity = 5;
+            entity = golf[entity];
+            mike = zulu.bind(tango)(entity);
+            entity = mike.useMessagePreviewCollapsedheight;
+            mike = entity.bind(mike)();
+            entity = 6;
+            entity = golf[entity];
+            zulu = zulu.bind(tango)(entity);
+            entity = zulu.useIsScreenLandscape;
+            entity = entity.bind(zulu)();
+            yankee = 70;
+            if(entity) { _fun89987_ip = 111; continue _fun89987 }
+ 97:
+            entity = 20;
+            mike = mike + entity;
+            entity = 50;
+            yankee = mike + entity;
+ 111:
+            zulu = _closure1_slot3;
+            mike = _closure1_slot0;
+            golf = _closure1_slot1;
+            entity = 7;
+            entity = golf[entity];
+            entity = mike.bind(tango)(entity);
+            mike = entity.BottomSheet;
+            entity = {};
+            entity['onDismiss'] = report;
+            report = 0;
+            if(!oscar) { _fun89987_ip = 155; continue _fun89987 }
+ 153:
+            report = undefined;
+ 155:
+            entity['backdropOpacity'] = report;
+            golf = _closure1_slot4;
+            oscar = _closure1_slot2;
+            report = {};
+            offset = kilo.container;
+            verify = new Array(2);
+            verify[0] = offset;
+            offset = {};
+            offset['minHeight'] = yankee;
+            verify[1] = offset;
+            report['style'] = verify;
+            yankee = _closure1_slot3;
+            offset = _closure1_slot0;
+            foxtrot = _closure1_slot1;
+            verify = 8;
+            options = foxtrot[verify];
+            options = offset.bind(tango)(options);
+            backup = options.Text;
+            options = {'accessibilityRole': 'text', 'variant': 'heading-md/semibold'};
+            kilo = kilo.title;
+            options['style'] = kilo;
+            kilo = 9;
+            sizing = foxtrot[kilo];
+            sizing = offset.bind(tango)(sizing);
+            output = sizing.intl;
+            sizing = output.string;
+            kilo = foxtrot[kilo];
+            kilo = offset.bind(tango)(kilo);
+            kilo = kilo.t;
+            kilo = kilo.J3IOOz;
+            kilo = sizing.bind(output)(kilo);
+            options['children'] = kilo;
+            backup = yankee.bind(tango)(backup, options);
+            options = new Array(2);
+            options[0] = backup;
+            verify = foxtrot[verify];
+            verify = offset.bind(tango)(verify);
+            offset = verify.Text;
+            verify = {'accessibilityRole': 'text', 'variant': 'text-md/normal'};
+            verify['children'] = romeo;
+            verify = yankee.bind(tango)(offset, verify);
+            options[1] = verify;
+            report['children'] = options;
+            report = golf.bind(tango)(oscar, report);
+            entity['children'] = report;
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

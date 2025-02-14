@@ -1,0 +1,117 @@
+// app/modules/main_tabs_v2/native/channel/header/ForumChannelHeader.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    yankee = tango.MIN_HEADER_HEIGHT;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot4 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    offset = {'flex': 1, 'flexShrink': 1, 'flexDirection': 'row', 'alignItems': 'center', 'paddingStart': 4};
+    offset['height'] = yankee;
+    tango['search'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot5 = tango;
+    tango = golf.memo;
+    mike = function(argFoo) {
+        _fun79798: for(var _fun79798_ip = 0; ; ) switch(_fun79798_ip) {
+ 0:
+            entity = argFoo;
+            offset = entity.channelId;
+            zulu = entity.screenIndex;
+            verify = entity.guildId;
+            foxtrot = entity.pressable;
+            romeo = entity.isGuildMemberCountVisible;
+            yankee = entity.isNavigationScreen;
+            options = entity.searchPlaceholder;
+            entity = _closure1_slot5;
+            report = undefined;
+            golf = entity.bind(report)();
+            mike = _closure1_slot0;
+            tango = _closure1_slot2;
+            entity = 5;
+            entity = tango[entity];
+            mike = mike.bind(report)(entity);
+            entity = mike.useIsForumChannelSearchActive;
+            entity = entity.bind(mike)(offset);
+            tango = _closure1_slot4;
+            if(entity) { _fun79798_ip = 152; continue _fun79798 }
+ 94:
+            mike = _closure1_slot1;
+            backup = _closure1_slot2;
+            entity = 7;
+            entity = backup[entity];
+            mike = mike.bind(report)(entity);
+            entity = {};
+            entity['channelId'] = offset;
+            entity['guildId'] = verify;
+            entity['pressable'] = foxtrot;
+            entity['isGuildMemberCountVisible'] = romeo;
+            entity['isNavigationScreen'] = yankee;
+            entity['screenIndex'] = zulu;
+            entity = tango.bind(report)(mike, entity);
+            _fun79798_ip = 225; continue _fun79798;
+ 152:
+            zulu = _closure1_slot3;
+            mike = {};
+            golf = golf.search;
+            mike['style'] = golf;
+            golf = _closure1_slot0;
+            yankee = _closure1_slot2;
+            oscar = 6;
+            oscar = yankee[oscar];
+            oscar = golf.bind(report)(oscar);
+            golf = oscar.ForumChannelSearchInput;
+            oscar = {};
+            oscar['channelId'] = offset;
+            oscar['guildId'] = verify;
+            oscar['placeholder'] = options;
+            oscar = tango.bind(report)(golf, oscar);
+            mike['children'] = oscar;
+            entity = tango.bind(report)(zulu, mike);
+ 225:
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 8;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/channel/header/ForumChannelHeader.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

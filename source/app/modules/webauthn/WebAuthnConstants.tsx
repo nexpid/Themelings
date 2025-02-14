@@ -1,0 +1,36 @@
+// app/modules/webauthn/WebAuthnConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'MODAL_UPSELL';
+    mike['MODAL_UPSELL'] = entity;
+    entity = 'INIT';
+    mike['INIT'] = entity;
+    entity = 'EDIT';
+    mike['EDIT'] = entity;
+    entity = 'REGISTER';
+    mike['REGISTER'] = entity;
+    entity = 'NAME';
+    mike['NAME'] = entity;
+    entity = 'SUCCESS';
+    mike['SUCCESS'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/webauthn/WebAuthnConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['WebAuthnScreens'] = mike;
+    return entity;
+})();

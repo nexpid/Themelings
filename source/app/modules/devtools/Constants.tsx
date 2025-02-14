@@ -1,0 +1,33 @@
+// app/modules/devtools/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(mike);
+    mike = tango.getRadii;
+    mike = mike.bind(tango)();
+    tango = mike.xl;
+    mike = 2;
+    mike = mike * tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/devtools/Constants.tsx';
+    tango = report.bind(oscar)(tango);
+    tango = 'DevToolsLogDispatches';
+    zulu['STORAGE_KEY_LOG_DISPATCHES'] = tango;
+    zulu['DEV_WIDGET_SIZE'] = mike;
+    return entity;
+})();

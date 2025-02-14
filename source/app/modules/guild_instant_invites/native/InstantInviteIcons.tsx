@@ -1,0 +1,77 @@
+// app/modules/guild_instant_invites/native/InstantInviteIcons.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    mike = global;
+    verify = mike.Object;
+    golf = verify.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(verify)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    tango = report.bind(entity)(tango);
+    tango = tango.Platform;
+    golf = mike.Object;
+    tango = golf.freeze;
+    mike = {};
+    offset = function() { // Original name: get more
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 1;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        return entity;
+    };
+    verify = 'more';
+    Object.defineProperty(mike, verify, {get: offset, set: entity, enumerable: true});
+    offset = function() { // Original name: get share
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 2;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        return entity;
+    };
+    verify = 'share';
+    Object.defineProperty(mike, verify, {get: offset, set: entity, enumerable: true});
+    offset = function() { // Original name: get revoke
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 3;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        return entity;
+    };
+    verify = 'revoke';
+    Object.defineProperty(mike, verify, {get: offset, set: entity, enumerable: true});
+    verify = function() { // Original name: get copy
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 4;
+        mike = mike[entity];
+        entity = undefined;
+        entity = zulu.bind(entity)(mike);
+        return entity;
+    };
+    options = 'copy';
+    Object.defineProperty(mike, options, {get: verify, set: entity, enumerable: true});
+    mike = tango.bind(golf)(mike);
+    tango = 5;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/guild_instant_invites/native/InstantInviteIcons.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

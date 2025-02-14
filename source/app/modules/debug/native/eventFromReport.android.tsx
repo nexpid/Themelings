@@ -1,0 +1,42 @@
+// app/modules/debug/native/eventFromReport.android.tsx
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/debug/native/eventFromReport.android.tsx';
+    mike = tango.bind(report)(mike);
+    mike = function(argFoo) { // Original name: eventFromReport
+        mike = argFoo;
+        entity = {};
+        zulu = mike.exitReason;
+        entity['exit_reason'] = zulu;
+        zulu = mike.exitDescription;
+        entity['exit_description'] = zulu;
+        zulu = mike.tombstoneGroupHash;
+        entity['tombstone_hash'] = zulu;
+        zulu = mike.tombstoneCause;
+        entity['tombstone_cause'] = zulu;
+        zulu = mike.tombstone;
+        entity['tombstone'] = zulu;
+        zulu = mike.exceptionMessage;
+        entity['exception_message'] = zulu;
+        mike = mike.exceptionStacktrace;
+        entity['exception_stacktrace'] = mike;
+        return entity;
+    };
+    zulu['default'] = mike;
+    return entity;
+})();

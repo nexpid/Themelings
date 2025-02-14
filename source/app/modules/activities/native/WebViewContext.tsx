@@ -1,0 +1,114 @@
+// app/modules/activities/native/WebViewContext.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    oscar = argBar;
+    zulu = argFred;
+    golf = argPlugh;
+    entity = global;
+    options = entity.Object;
+    report = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(options)(zulu, entity, tango);
+    options = 0;
+    report = golf[options];
+    tango = argBaz;
+    entity = undefined;
+    tango = tango.bind(entity)(report);
+    var _closure1_slot0 = tango;
+    tango = 1;
+    report = golf[tango];
+    tango = argCorge;
+    report = tango.bind(entity)(report);
+    var _closure1_slot1 = report;
+    tango = 2;
+    tango = golf[tango];
+    tango = oscar.bind(entity)(tango);
+    verify = tango.View;
+    var _closure1_slot2 = verify;
+    verify = tango.StyleSheet;
+    tango = 3;
+    offset = golf[tango];
+    offset = oscar.bind(entity)(offset);
+    offset = offset.jsx;
+    var _closure1_slot3 = offset;
+    tango = golf[tango];
+    tango = oscar.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot4 = tango;
+    tango = report.createContext;
+    tango = tango.bind(report)(options);
+    var _closure1_slot5 = tango;
+    options = verify.create;
+    report = {};
+    offset = {'width': 2, 'height': 2, 'position': 'absolute', 'opacity': 0};
+    report['placeholderWebView'] = offset;
+    report = options.bind(verify)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = golf[report];
+    golf = oscar.bind(entity)(report);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/activities/native/WebViewContext.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['WebViewContext'] = tango;
+    mike = function(argFoo) { // Original name: WebViewContextProvider
+        mike = argFoo;
+        oscar = mike.children;
+        golf = _closure1_slot1;
+        zulu = golf.useState;
+        mike = 0;
+        options = zulu.bind(golf)(mike);
+        report = _closure1_slot0;
+        tango = undefined;
+        zulu = 2;
+        zulu = report.bind(tango)(options, zulu);
+        report = zulu[mike];
+        mike = 1;
+        options = zulu[mike];
+        var _closure2_slot0 = options;
+        zulu = golf.useCallback;
+        mike = new Array(1);
+        mike[0] = options;
+        entity = function(argFoo) {
+            _fun75935: for(var _fun75935_ip = 0; ; ) switch(_fun75935_ip) {
+ 0:
+                entity = argFoo;
+                if(!entity) { _fun75935_ip = 26; continue _fun75935 }
+ 6:
+                zulu = _closure2_slot0;
+                mike = entity._nativeTag;
+                entity = undefined;
+                entity = zulu.bind(entity)(mike);
+ 26:
+                entity = undefined;
+                return entity;
+            }
+        };
+        verify = zulu.bind(golf)(entity, mike);
+        zulu = _closure1_slot4;
+        entity = _closure1_slot5;
+        mike = entity.Provider;
+        entity = {};
+        entity['value'] = report;
+        options = _closure1_slot3;
+        golf = _closure1_slot2;
+        report = {};
+        offset = _closure1_slot6;
+        offset = offset.placeholderWebView;
+        report['style'] = offset;
+        report['ref'] = verify;
+        verify = 'none';
+        report['pointerEvents'] = verify;
+        golf = options.bind(tango)(golf, report);
+        report = new Array(2);
+        report[0] = golf;
+        report[1] = oscar;
+        entity['children'] = report;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    zulu['WebViewContextProvider'] = mike;
+    return entity;
+})();

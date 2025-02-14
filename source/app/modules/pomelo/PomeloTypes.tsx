@@ -1,0 +1,32 @@
+// app/modules/pomelo/PomeloTypes.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'AVAILABLE';
+    mike['AVAILABLE'] = entity;
+    entity = 'ERROR';
+    mike['ERROR'] = entity;
+    entity = 'RATE_LIMIT';
+    mike['RATE_LIMIT'] = entity;
+    entity = 'INTERNAL_ERROR';
+    mike['INTERNAL_ERROR'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/pomelo/PomeloTypes.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['NameValidationState'] = mike;
+    return entity;
+})();

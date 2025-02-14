@@ -1,0 +1,144 @@
+// app/modules/main_tabs_v2/native/settings/definitions/InputModeSetting.tsx
+export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, mike);
+    entity = 0;
+    golf = oscar[entity];
+    mike = argBaz;
+    entity = undefined;
+    mike = mike.bind(entity)(golf);
+    var _closure1_slot2 = mike;
+    mike = 1;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    golf = mike.MobileSetting;
+    mike = 2;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    options = mike.RendererType;
+    mike = 3;
+    mike = oscar[mike];
+    mike = report.bind(entity)(mike);
+    mike = mike.InputModes;
+    var _closure1_slot3 = mike;
+    mike = {};
+    options = options.PRESSABLE;
+    mike['type'] = options;
+    options = function() { // Original name: title
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 5;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.pS+K2N;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    mike['title'] = options;
+    golf = golf.VOICE;
+    mike['parent'] = golf;
+    golf = function() { // Original name: useInputModeSettingTrailing
+        _fun97004: for(var _fun97004_ip = 0; ; ) switch(_fun97004_ip) {
+ 0:
+            zulu = _closure1_slot0;
+            tango = _closure1_slot1;
+            entity = 4;
+            entity = tango[entity];
+            oscar = undefined;
+            report = zulu.bind(oscar)(entity);
+            tango = report.useStateFromStores;
+            entity = _closure1_slot2;
+            zulu = new Array(1);
+            zulu[0] = entity;
+            entity = function() {
+                mike = _closure1_slot2;
+                entity = mike.getMode;
+                entity = entity.bind(mike)();
+                return entity;
+            };
+            zulu = tango.bind(report)(zulu, entity);
+            entity = _closure1_slot3;
+            entity = entity.PUSH_TO_TALK;
+            if(!(zulu !== entity)) { _fun97004_ip = 128; continue _fun97004 }
+ 71:
+            report = _closure1_slot0;
+            golf = _closure1_slot1;
+            entity = 5;
+            zulu = golf[entity];
+            zulu = report.bind(oscar)(zulu);
+            tango = zulu.intl;
+            zulu = tango.string;
+            entity = golf[entity];
+            entity = report.bind(oscar)(entity);
+            entity = entity.t;
+            entity = entity.cHCEOD;
+            entity = zulu.bind(tango)(entity);
+            _fun97004_ip = 183; continue _fun97004;
+ 128:
+            report = _closure1_slot0;
+            golf = _closure1_slot1;
+            mike = 5;
+            zulu = golf[mike];
+            zulu = report.bind(oscar)(zulu);
+            tango = zulu.intl;
+            zulu = tango.string;
+            mike = golf[mike];
+            mike = report.bind(oscar)(mike);
+            mike = mike.t;
+            mike = mike.Q8gkVF;
+            entity = zulu.bind(tango)(mike);
+ 183:
+            return entity;
+        }
+    };
+    mike['useTrailing'] = golf;
+    golf = 6;
+    golf = oscar[golf];
+    golf = report.bind(entity)(golf);
+    golf = golf.handleInputModePress;
+    mike['onPress'] = golf;
+    tango = function() { // Original name: additionalSearchTerms
+        report = _closure1_slot0;
+        oscar = _closure1_slot1;
+        entity = 5;
+        mike = oscar[entity];
+        tango = undefined;
+        mike = report.bind(tango)(mike);
+        zulu = mike.intl;
+        mike = zulu.string;
+        entity = oscar[entity];
+        entity = report.bind(tango)(entity);
+        entity = entity.t;
+        entity = entity.nuFtHB;
+        mike = mike.bind(zulu)(entity);
+        entity = new Array(1);
+        entity[0] = mike;
+        return entity;
+    };
+    mike['additionalSearchTerms'] = tango;
+    tango = 7;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/main_tabs_v2/native/settings/definitions/InputModeSetting.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

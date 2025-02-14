@@ -1,0 +1,30 @@
+// discord_common/js/packages/i18n/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = '../discord_common/js/packages/i18n/Constants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = /\{.+?\}/;
+    zulu['FORMAT_RE'] = mike;
+    mike = /[~*_]{2}.+?[~*_]{2}|\[.*?\]\(.+?\)|\n\n/;
+    zulu['MARKDOWN_RE'] = mike;
+    mike = /!!/;
+    zulu['UNSAFE_RE'] = mike;
+    mike = /!!/g;
+    zulu['UNSAFE_RE_ALL'] = mike;
+    return entity;
+})();

@@ -1,0 +1,34 @@
+// app/modules/user_settings/UserSettingsMigrationsByType.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    tango = golf.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(golf)(zulu, entity, mike);
+    entity = 0;
+    mike = oscar[entity];
+    entity = undefined;
+    mike = report.bind(entity)(mike);
+    tango = mike.UserSettingsTypes;
+    mike = {};
+    options = tango.PRELOADED_USER_SETTINGS;
+    golf = new Array(0);
+    mike[options] = golf;
+    golf = tango.FRECENCY_AND_FAVORITES_SETTINGS;
+    tango = new Array(0);
+    mike[golf] = tango;
+    tango = 1;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/user_settings/UserSettingsMigrationsByType.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

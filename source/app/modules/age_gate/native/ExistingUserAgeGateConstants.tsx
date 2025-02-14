@@ -1,0 +1,34 @@
+// app/modules/age_gate/native/ExistingUserAgeGateConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'AgeGate';
+    mike['AgeGate'] = entity;
+    entity = 'AgeGateConfirm';
+    mike['AgeGateConfirm'] = entity;
+    entity = 'Blocked';
+    mike['Blocked'] = entity;
+    entity = 'NSFWBlocked';
+    mike['NSFWBlocked'] = entity;
+    entity = 'NSFWGateGuild';
+    mike['NSFWGateGuild'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/age_gate/native/ExistingUserAgeGateConstants.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['ExistingUserAgeGateScreens'] = mike;
+    return entity;
+})();

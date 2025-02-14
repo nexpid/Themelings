@@ -1,0 +1,36 @@
+// app/modules/guild_settings/TransferOwnershipConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    tango = {};
+    entity = 'TRANFSER_OWNERSHIP';
+    tango['TRANFSER_OWNERSHIP'] = entity;
+    entity = 'CONFIRM_EMAIL_CODE';
+    tango['CONFIRM_EMAIL_CODE'] = entity;
+    mike = {};
+    entity = 'mfa';
+    mike['MFA'] = entity;
+    entity = 'sms';
+    mike['SMS'] = entity;
+    entity = 'email';
+    mike['EMAIL'] = entity;
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/guild_settings/TransferOwnershipConstants.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['TransferOwnershipModalScenes'] = tango;
+    zulu['TransferOwnershipVerificationTypes'] = mike;
+    return entity;
+})();

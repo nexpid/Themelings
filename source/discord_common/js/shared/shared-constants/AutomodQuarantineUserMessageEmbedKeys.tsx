@@ -1,0 +1,34 @@
+// discord_common/js/shared/shared-constants/AutomodQuarantineUserMessageEmbedKeys.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'bio';
+    mike['BIO'] = entity;
+    entity = 'username';
+    mike['USERNAME'] = entity;
+    entity = 'nickname';
+    mike['NICKNAME'] = entity;
+    entity = 'display_name';
+    mike['GLOBAL_NAME'] = entity;
+    entity = 'clan_tag';
+    mike['CLAN_TAG'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/AutomodQuarantineUserMessageEmbedKeys.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['AutomodQuarantineUserMessageEmbedKeys'] = mike;
+    return entity;
+})();

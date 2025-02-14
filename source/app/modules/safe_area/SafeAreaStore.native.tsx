@@ -1,0 +1,42 @@
+// app/modules/safe_area/SafeAreaStore.native.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    report = argBar;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    tango = oscar[entity];
+    entity = undefined;
+    golf = report.bind(entity)(tango);
+    tango = golf.create;
+    mike = function() {
+        entity = {};
+        tango = _closure1_slot0;
+        zulu = _closure1_slot1;
+        mike = 1;
+        zulu = zulu[mike];
+        mike = undefined;
+        mike = tango.bind(mike)(zulu);
+        mike = mike.INITIAL_SAFE_AREA_INSETS;
+        entity['safeAreaInsets'] = mike;
+        return entity;
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 2;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/safe_area/SafeAreaStore.native.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

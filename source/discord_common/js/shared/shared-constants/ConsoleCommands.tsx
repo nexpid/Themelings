@@ -1,0 +1,36 @@
+// discord_common/js/shared/shared-constants/ConsoleCommands.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    oscar = entity.Object;
+    report = oscar.defineProperty;
+    tango = {};
+    mike = true;
+    tango['value'] = mike;
+    mike = '__esModule';
+    mike = report.bind(oscar)(zulu, mike, tango);
+    tango = {};
+    mike = 'connect_voice';
+    tango['CONNECT_VOICE'] = mike;
+    mike = {};
+    oscar = entity.Set;
+    entity = oscar.prototype;
+    report = Object.create(entity, {constructor: {value: oscar}});
+    offset = ['connect_voice'];
+    yankee = report;
+    entity = new yankee[oscar](offset, verify);
+    entity = entity instanceof Object ? entity : report;
+    mike['ALL'] = entity;
+    report = argPlugh;
+    entity = 0;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = '../discord_common/js/shared/shared-constants/ConsoleCommands.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['ConsoleCommands'] = tango;
+    zulu['ConsoleCommandsSets'] = mike;
+    return entity;
+})();

@@ -1,0 +1,35 @@
+// discord_common/js/shared/shared-constants/AutomodEventType.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    tango = 0;
+    mike['UNKNOWN'] = tango;
+    entity = 'UNKNOWN';
+    mike[tango] = entity;
+    report = 1;
+    mike['MESSAGE_SEND'] = report;
+    entity = 'MESSAGE_SEND';
+    mike[report] = entity;
+    report = 2;
+    mike['GUILD_MEMBER_JOIN_OR_UPDATE'] = report;
+    entity = 'GUILD_MEMBER_JOIN_OR_UPDATE';
+    mike[report] = entity;
+    entity = argPlugh;
+    report = entity[tango];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = '../discord_common/js/shared/shared-constants/AutomodEventType.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['AutomodEventType'] = mike;
+    return entity;
+})();

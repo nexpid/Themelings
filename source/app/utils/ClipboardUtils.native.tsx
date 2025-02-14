@@ -1,0 +1,52 @@
+// app/utils/ClipboardUtils.native.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = report;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
+    tango = true;
+    oscar['value'] = tango;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, oscar);
+    entity = 1;
+    oscar = report[entity];
+    report = argBar;
+    entity = undefined;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'utils/ClipboardUtils.native.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['SUPPORTS_COPY'] = tango;
+    tango = function(argFoo) { // Original name: copy
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        zulu = zulu.bind(entity)(mike);
+        mike = zulu.setString;
+        entity = argFoo;
+        entity = mike.bind(zulu)(entity);
+        entity = true;
+        return entity;
+    };
+    zulu['copy'] = tango;
+    mike = function() { // Original name: getString
+        zulu = _closure1_slot0;
+        mike = _closure1_slot1;
+        entity = 0;
+        mike = mike[entity];
+        entity = undefined;
+        mike = zulu.bind(entity)(mike);
+        entity = mike.getString;
+        entity = entity.bind(mike)();
+        return entity;
+    };
+    zulu['getString'] = mike;
+    return entity;
+})();

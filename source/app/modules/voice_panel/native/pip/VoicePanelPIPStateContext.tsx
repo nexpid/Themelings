@@ -1,0 +1,42 @@
+// app/modules/voice_panel/native/pip/VoicePanelPIPStateContext.tsx
+export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
+    zulu = argFred;
+    oscar = argPlugh;
+    entity = global;
+    golf = entity.Object;
+    report = golf.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(golf)(zulu, entity, tango);
+    entity = 0;
+    report = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(report);
+    var _closure1_slot0 = golf;
+    report = golf.createContext;
+    tango = {'id': null, 'mode': null, 'width': 0, 'height': 0, 'containerHeight': 0, 'showSecondaryPIP': false};
+    tango['id'] = entity;
+    tango['mode'] = entity;
+    tango = report.bind(golf)(tango);
+    var _closure1_slot1 = tango;
+    report = 1;
+    oscar = oscar[report];
+    report = argBar;
+    golf = report.bind(entity)(oscar);
+    oscar = golf.fileFinishedImporting;
+    report = 'modules/voice_panel/native/pip/VoicePanelPIPStateContext.tsx';
+    report = oscar.bind(golf)(report);
+    zulu['VoicePanelPIPStateContext'] = tango;
+    mike = function() { // Original name: usePIPState
+        zulu = _closure1_slot0;
+        mike = zulu.useContext;
+        entity = _closure1_slot1;
+        entity = mike.bind(zulu)(entity);
+        return entity;
+    };
+    zulu['usePIPState'] = mike;
+    return entity;
+})();

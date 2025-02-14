@@ -1,0 +1,36 @@
+// app/modules/gateway/ConnectionState.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = {};
+    entity = 'CLOSED';
+    mike['CLOSED'] = entity;
+    entity = 'WILL_RECONNECT';
+    mike['WILL_RECONNECT'] = entity;
+    entity = 'CONNECTING';
+    mike['CONNECTING'] = entity;
+    entity = 'IDENTIFYING';
+    mike['IDENTIFYING'] = entity;
+    entity = 'RESUMING';
+    mike['RESUMING'] = entity;
+    entity = 'SESSION_ESTABLISHED';
+    mike['SESSION_ESTABLISHED'] = entity;
+    tango = argPlugh;
+    entity = 0;
+    report = tango[entity];
+    tango = argBar;
+    entity = undefined;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/gateway/ConnectionState.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

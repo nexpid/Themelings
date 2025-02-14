@@ -1,0 +1,33 @@
+// app/modules/soundplayer/SoundPlayerContext.tsx
+export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
+    zulu = argFred;
+    report = argPlugh;
+    entity = global;
+    oscar = entity.Object;
+    tango = oscar.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(oscar)(zulu, entity, mike);
+    entity = 0;
+    tango = report[entity];
+    mike = argCorge;
+    entity = undefined;
+    oscar = mike.bind(entity)(tango);
+    tango = {};
+    mike = oscar.createRef;
+    mike = mike.bind(oscar)();
+    tango['audioRef'] = mike;
+    mike = oscar.createContext;
+    mike = mike.bind(oscar)(tango);
+    tango = 1;
+    report = report[tango];
+    tango = argBar;
+    oscar = tango.bind(entity)(report);
+    report = oscar.fileFinishedImporting;
+    tango = 'modules/soundplayer/SoundPlayerContext.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

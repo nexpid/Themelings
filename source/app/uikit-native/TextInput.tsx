@@ -1,0 +1,169 @@
+// app/uikit-native/TextInput.tsx
+export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
+    report = argBar;
+    romeo = argBaz;
+    zulu = argFred;
+    oscar = argPlugh;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = romeo;
+    var _closure1_slot2 = oscar;
+    entity = global;
+    options = entity.Object;
+    golf = options.defineProperty;
+    tango = {};
+    entity = true;
+    tango['value'] = entity;
+    entity = '__esModule';
+    entity = golf.bind(options)(zulu, entity, tango);
+    entity = 0;
+    golf = oscar[entity];
+    tango = argCorge;
+    entity = undefined;
+    golf = tango.bind(entity)(golf);
+    tango = 1;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.TextInput;
+    var _closure1_slot3 = tango;
+    tango = 2;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    options = tango.KeyboardThemes;
+    var _closure1_slot4 = options;
+    yankee = tango.Fonts;
+    tango = 3;
+    tango = oscar[tango];
+    tango = report.bind(entity)(tango);
+    tango = tango.jsx;
+    var _closure1_slot5 = tango;
+    tango = 4;
+    tango = oscar[tango];
+    verify = report.bind(entity)(tango);
+    options = verify.createStyles;
+    tango = {};
+    offset = {'fontSize': 16, 'alignSelf': 'center'};
+    yankee = yankee.PRIMARY_MEDIUM;
+    offset['fontFamily'] = yankee;
+    yankee = 5;
+    foxtrot = oscar[yankee];
+    foxtrot = romeo.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.TEXT_NORMAL;
+    offset['color'] = foxtrot;
+    tango['input'] = offset;
+    offset = {};
+    yankee = oscar[yankee];
+    yankee = romeo.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.INPUT_PLACEHOLDER_TEXT;
+    offset['color'] = yankee;
+    tango['placeholderTextColor'] = offset;
+    tango = options.bind(verify)(tango);
+    var _closure1_slot6 = tango;
+    tango = golf.forwardRef;
+    mike = function(argFoo, argBar) {
+        _fun47886: for(var _fun47886_ip = 0; ; ) switch(_fun47886_ip) {
+ 0:
+            zulu = argFoo;
+            verify = zulu.style;
+            entity = null;
+            mike = Object.create(entity);
+            entity = 0;
+            mike['style'] = entity;
+            sizing = {};
+            kilo = zulu;
+            backup = mike;
+            report = copyDataProperties(sizing, kilo, backup);
+            entity = _closure1_slot6;
+            tango = undefined;
+            oscar = entity.bind(tango)();
+            mike = _closure1_slot0;
+            entity = _closure1_slot2;
+            romeo = 6;
+            zulu = entity[romeo];
+            options = mike.bind(tango)(zulu);
+            zulu = options.useThemeContext;
+            zulu = zulu.bind(options)();
+            yankee = zulu.theme;
+            entity = entity[romeo];
+            mike = mike.bind(tango)(entity);
+            entity = mike.isThemeDark;
+            mike = entity.bind(mike)(yankee);
+            zulu = _closure1_slot1;
+            options = _closure1_slot2;
+            entity = 5;
+            entity = options[entity];
+            entity = zulu.bind(tango)(entity);
+            entity = entity.unsafe_rawColors;
+            if(mike) { _fun47886_ip = 136; continue _fun47886 }
+ 128:
+            offset = entity.PRIMARY_500;
+            _fun47886_ip = 142; continue _fun47886;
+ 136:
+            offset = entity.PRIMARY_100;
+ 142:
+            zulu = _closure1_slot5;
+            mike = _closure1_slot3;
+            entity = {};
+            options = argBar;
+            entity['ref'] = options;
+            foxtrot = oscar.input;
+            options = new Array(2);
+            options[0] = foxtrot;
+            options[1] = verify;
+            entity['style'] = options;
+            verify = _closure1_slot0;
+            options = _closure1_slot2;
+            options = options[romeo];
+            verify = verify.bind(tango)(options);
+            options = verify.isThemeDark;
+            options = options.bind(verify)(yankee);
+            verify = _closure1_slot4;
+            if(options) { _fun47886_ip = 224; continue _fun47886 }
+ 216:
+            options = verify.LIGHT;
+            _fun47886_ip = 230; continue _fun47886;
+ 224:
+            options = verify.DARK;
+ 230:
+            entity['keyboardAppearance'] = options;
+            oscar = oscar.placeholderTextColor;
+            oscar = oscar.color;
+            entity['placeholderTextColor'] = oscar;
+            options = _closure1_slot0;
+            verify = _closure1_slot2;
+            oscar = 7;
+            oscar = verify[oscar];
+            options = options.bind(tango)(oscar);
+            oscar = options.isAndroid;
+            options = oscar.bind(options)();
+            oscar = offset;
+            if(!options) { _fun47886_ip = 328; continue _fun47886 }
+ 286:
+            options = _closure1_slot0;
+            verify = _closure1_slot2;
+            golf = 8;
+            golf = verify[golf];
+            verify = options.bind(tango)(golf);
+            options = verify.hexWithOpacity;
+            golf = 0.5;
+            oscar = options.bind(verify)(offset, golf);
+ 328:
+            entity['selectionColor'] = oscar;
+            sizing = entity;
+            kilo = report;
+            report = copyDataProperties(sizing, kilo);
+            entity = zulu.bind(tango)(mike, entity);
+            return entity;
+        }
+    };
+    mike = tango.bind(golf)(mike);
+    tango = 9;
+    tango = oscar[tango];
+    oscar = report.bind(entity)(tango);
+    report = oscar.fileFinishedImporting;
+    tango = 'uikit-native/TextInput.tsx';
+    tango = report.bind(oscar)(tango);
+    zulu['default'] = mike;
+    return entity;
+})();

@@ -1,0 +1,30 @@
+// app/modules/video_calls/native/components/Constants.tsx
+export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
+    zulu = argFred;
+    entity = global;
+    report = entity.Object;
+    tango = report.defineProperty;
+    mike = {};
+    entity = true;
+    mike['value'] = entity;
+    entity = '__esModule';
+    entity = tango.bind(report)(zulu, entity, mike);
+    mike = argPlugh;
+    entity = 0;
+    tango = mike[entity];
+    mike = argBar;
+    entity = undefined;
+    report = mike.bind(entity)(tango);
+    tango = report.fileFinishedImporting;
+    mike = 'modules/video_calls/native/components/Constants.tsx';
+    mike = tango.bind(report)(mike);
+    mike = 2;
+    zulu['PIP_GESTURE_ACTIVE_OFFSET'] = mike;
+    mike = 16;
+    zulu['SWIPE_TO_CHAT_ACTIVE_OFFSET'] = mike;
+    mike = 1.5;
+    zulu['PIP_FOCUS_SCALE'] = mike;
+    mike = '\nOld Voice UI slated for deletion, if you are seeing\nthis error some old voice code can still run in the mobile redesign,\nand may have been deleted accidentally.\n';
+    zulu['OLD_VOICE_UI_ERROR_STRING'] = mike;
+    return entity;
+})();
