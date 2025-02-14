@@ -42,20 +42,21 @@ export default async function decompile(
 	} else progress.update("decompile_decompiling", null);
 
 	// "optional" step
+	const gzFile = "code.js.gz";
 
 	const gzipper = new Worker(gzipWorkerURL);
 	progress.start("decompile_gzip");
 	gzipper.addEventListener("message", async ({ data }) => {
 		if (data === true) {
 			await commit(
-				["code.gzipped.js"],
+				[gzFile],
 				`chore: update decompiled code for ${cuteVersion}`,
 			);
 			progress.update("decompile_gzip", true);
 		}
 		gzipper.terminate();
 	});
-	gzipper.postMessage({ path: pathToJs, target: "../data/code.gzipped.js" });
+	gzipper.postMessage({ path: pathToJs, target: join("../data", gzFile) });
 
 	return pathToJs;
 }
