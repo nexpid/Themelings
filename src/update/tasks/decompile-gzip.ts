@@ -6,5 +6,6 @@ self.addEventListener("message", async ({ data: { path, target } }) => {
 		target,
 		Bun.gzipSync(await Bun.file(path).arrayBuffer(), { level: 9 }), // slowest speed, best compression
 	);
+
 	self.postMessage(true);
 });

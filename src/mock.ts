@@ -89,5 +89,35 @@ export default {
 			},
 		],
 	]),
-	code: undefined,
+	code: new Map([
+		[
+			"app/skibidimodule.tsx",
+			{
+				change: DiffEnum.Added,
+				size: "5 KB",
+			},
+		],
+		[
+			"app/hawktuah.js",
+			{
+				change: DiffEnum.Changed,
+				sizeDiff: "-2 KB",
+			},
+		],
+		[
+			"app/ui/TypoedFile.ts",
+			{
+				change: DiffEnum.Renamed,
+				oldFile: "app/ui/TypodeFile.ts",
+				size: "8 KB",
+			},
+		],
+		[
+			"app/ui/ReallyBigCoolComponent.tsx",
+			{
+				change: DiffEnum.Removed,
+				size: "12 MB",
+			},
+		],
+	]),
 } satisfies OutDiffs;

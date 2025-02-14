@@ -1,4 +1,6 @@
 import { exists } from "node:fs/promises";
+import { commit } from "../commit";
+import { cuteVersion } from "../shared";
 import { type Progress, handleShellErr, join } from "../util";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
@@ -43,8 +45,14 @@ export default async function decompile(
 
 	const gzipper = new Worker(gzipWorkerURL);
 	progress.start("decompile_gzip");
-	gzipper.addEventListener("message", ({ data }) => {
-		if (data === true) progress.update("decompile_gzip", true);
+	gzipper.addEventListener("message", async ({ data }) => {
+		if (data === true) {
+			await commit(
+				["code.gzipped.js"],
+				`chore: update decompiled code for ${cuteVersion}`,
+			);
+			progress.update("decompile_gzip", true);
+		}
 		gzipper.terminate();
 	});
 	gzipper.postMessage({ path: pathToJs, target: "../data/code.gzipped.js" });

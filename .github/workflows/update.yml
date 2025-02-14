@@ -1,61 +1,61 @@
 name: update (hourly)
 
 on:
-  workflow_dispatch:
-    inputs:
-      force:
-        description: Force update regardless of "bun run check"
-        default: false
-        required: false
-        type: boolean
-  schedule:
-    - cron: "30 * * * *"
+    workflow_dispatch:
+        inputs:
+            force:
+                description: Force update regardless of "bun run check"
+                default: false
+                required: false
+                type: boolean
+    schedule:
+        - cron: "30 * * * *"
 
 jobs:
-  check-update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          path: main
-      - uses: actions/checkout@v4
-        with:
-          ref: data
-          path: data
+    check-update:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: main
+            - uses: actions/checkout@v4
+              with:
+                  ref: data
+                  path: data
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12.4"
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12.4"
 
-      - uses: oven-sh/setup-bun@v1
+            - uses: oven-sh/setup-bun@v1
 
-      - working-directory: main
-        run: bun install
+            - working-directory: main
+              run: bun install
 
-      - name: Check for version
-        id: versioner
-        working-directory: main
-        run: |
-          version=$(bun run check ${{ github.event.inputs.force && '--force' || '' }})
-          echo "[DEBUG]: Check result: $version"
-          echo "version=$version" >> $GITHUB_OUTPUT
+            - name: Setup Git
+              run: |
+                  git config user.name github-actions
+                  git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Update
-        if: ${{ steps.versioner.outputs.version != 'false' }}
-        env:
-          code_webhook: ${{ secrets.CODE_WEBHOOK }}
-          color_webhook: ${{ secrets.COLOR_WEBHOOK }}
-          icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
-        working-directory: main
-        run: bun run update
+            - name: Check for version
+              id: versioner
+              working-directory: main
+              run: |
+                  version=$(bun run check ${{ github.event.inputs.force && '--force' || '' }})
+                  echo "[DEBUG]: Check result: $version"
+                  echo "version=$version" >> $GITHUB_OUTPUT
 
-      - name: Publish changes
-        if: ${{ steps.versioner.outputs.version != 'false' }}
-        working-directory: data
-        run: |
-          git config user.name github-actions
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add .
-          git commit -m "chore: update for version ${{ steps.versioner.outputs.version }}" || true
-          git push
+            - name: Update
+              if: ${{ steps.versioner.outputs.version != 'false' }}
+              env:
+                  code_webhook: ${{ secrets.CODE_WEBHOOK }}
+                  color_webhook: ${{ secrets.COLOR_WEBHOOK }}
+                  icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
+              working-directory: main
+              run: bun run update:prod
+
+            - name: Publish changes
+              if: ${{ steps.versioner.outputs.version != 'false' }}
+              working-directory: data
+              run: git push

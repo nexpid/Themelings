@@ -1,6 +1,15 @@
-import { copyFile, mkdir, readdir, rename, writeFile } from "node:fs/promises";
+import { copyFile, readdir, rename, writeFile } from "node:fs/promises";
+import { dirname } from "node:path";
 import type { Icons } from "../../types";
-import { type Progress, join, sortObj } from "../util";
+import { commit } from "../commit";
+import { cuteVersion } from "../shared";
+import {
+	type Progress,
+	join,
+	mkdirSuppressed,
+	sortByHierarchy,
+	sortObj,
+} from "../util";
 
 export default async function icons(
 	progress: Progress,
@@ -97,9 +106,14 @@ export default async function icons(
 				height: lookFor.height ?? null,
 			};
 
-			toMove.push([filePath, actualPath]);
+			toMove.push([filePath, join("../data/icons", actualPath)]);
 		}
 	}
+
+	await writeFile(
+		"../data/icons.json",
+		JSON.stringify(sortObj(icons), undefined, 4),
+	);
 
 	progress.update("icons_getting", true);
 	progress.start("icons_copying");
@@ -107,19 +121,16 @@ export default async function icons(
 	// don't delete old icons just yet so we can display the old images
 	await rename("../data/icons", "../data/oldicons");
 
-	await writeFile(
-		"../data/icons.json",
-		JSON.stringify(sortObj(icons), undefined, 4),
-	);
+	const dirs = new Set(toMove.map((x) => dirname(x[1])).sort(sortByHierarchy));
 	await Promise.all(
-		toMove.flatMap(([og, actual]) => [
-			mkdir(join("../data/icons", actual.split("/").slice(0, -1).join("/")), {
-				recursive: true,
-			})
-				.catch((e) => (e?.code === "EEXIST" ? void e : (e?.message ?? e)))
-				.then(() => copyFile(og, join("../data/icons", actual))),
-		]),
+		dirs.values().map((dir) => mkdirSuppressed(dir, { recursive: true })),
 	);
 
+	await Promise.all(toMove.map(([source, file]) => copyFile(source, file)));
+
+	await commit(
+		["icons.json", "icons"],
+		`chore: update icons for ${cuteVersion}`,
+	);
 	progress.update("icons_copying", true);
 }

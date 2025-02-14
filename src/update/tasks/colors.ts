@@ -2,6 +2,8 @@
 
 import Color from "color";
 import type { SemanticColors } from "../../types";
+import { commit } from "../commit";
+import { cuteVersion } from "../shared";
 import { sortObj } from "../util";
 
 Object.freeze = (obj: any) => obj;
@@ -141,5 +143,10 @@ export default async function colors(code: string[]) {
 	await Bun.write(
 		"../data/semantic_simple.json",
 		JSON.stringify(sortObj(simpleSemantic), null, 2),
+	);
+
+	await commit(
+		["raw.json", "semantic.json", "semantic_simple.json"],
+		`chore: update colors for ${cuteVersion}`,
 	);
 }

@@ -11,15 +11,17 @@
 	},
 	"scripts": {
 		"check": "bun run src/check.ts",
-		"update": "bun run src/update/index.ts",
+		"update": "bun run --env-file local.env src/update/index.ts",
+		"update:commit": "bun run --env-file local.env src/update/index.ts --commit-anyway",
 		"update:mock": "bun run --env-file local.env src/update/index.ts --mock",
-		"update:test": "bun run --env-file local.env src/update/index.ts",
-		"canvas:test": "bun run src/canvas/test.ts",
+		"update:prod": "bun run src/update/index.ts",
+		"canvas": "bun run src/canvas/test.ts",
 		"format": "biome check --fix ."
 	},
 	"dependencies": {
 		"color": "^4.2.3",
 		"skia-canvas": "^1.0.2"
 	},
-	"trustedDependencies": ["@biomejs/biome", "skia-canvas"]
+	"trustedDependencies": ["@biomejs/biome", "skia-canvas"],
+	"packageManager": "bun@1.2.2"
 }

@@ -30,10 +30,31 @@ export type Diff =
 			oldFile?: string;
 	  };
 
+export type CodeDiff =
+	| {
+			change: DiffEnum.Added;
+			size: string;
+	  }
+	| {
+			change: DiffEnum.Changed;
+			sizeDiff: string;
+	  }
+	| {
+			change: DiffEnum.Renamed;
+			oldFile: string;
+			size: string;
+	  }
+	| {
+			change: DiffEnum.Removed;
+			size: string;
+	  };
+
 export type OutDiffs = Record<
-	"semantic" | "raw" | "icons" | "code",
+	"semantic" | "raw" | "icons",
 	Map<string, Diff> | undefined
->;
+> & {
+	code: Map<string, CodeDiff> | undefined;
+};
 
 export type Icons = Record<
 	string,

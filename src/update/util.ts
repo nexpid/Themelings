@@ -1,12 +1,24 @@
+import { mkdir } from "node:fs/promises";
 import { join as _join } from "node:path";
-import type { ShellOutput } from "bun";
+import { type ShellOutput, revision } from "bun";
 
 export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
+export const maxCodeChangesThreshold = 20;
 
 export function sortObj(obj: Record<string | number | symbol, any>) {
 	return Object.fromEntries(
 		Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)),
 	);
+}
+
+let somethingInLog = false;
+export function didSomethingInLog() {
+	somethingInLog = true;
+}
+
+export function log(...messages: any) {
+	console.log(...messages);
+	somethingInLog = true;
 }
 
 export function makeProgress(
@@ -50,7 +62,8 @@ export function makeProgress(
 		else if (
 			oldLogs.length === logs.length &&
 			process.stdout.moveCursor &&
-			process.stdout.clearLine
+			process.stdout.clearLine &&
+			!somethingInLog
 		) {
 			for (let i = 0; i < logs.length; i++)
 				if (logs[i] !== oldLogs[i]) {
@@ -60,7 +73,10 @@ export function makeProgress(
 					process.stdout.write(logs[i]);
 					process.stdout.moveCursor(-500, j);
 				}
-		} else console.log(`\n${logs.join("\n")}`);
+		} else {
+			somethingInLog = false;
+			console.log(`\n${logs.join("\n")}`);
+		}
 	};
 
 	reprint();
@@ -121,7 +137,7 @@ export async function wrapPromise(
 		progress.update(key, true);
 		return x;
 	} catch (e: any) {
-		progress.update(key, false, e?.stack ?? e?.message ?? String(e));
+		progress.update(key, false, cuteError(e));
 		throw e;
 	}
 }
@@ -135,3 +151,32 @@ export function handleShellErr(out: ShellOutput): ShellOutput {
 }
 
 export const join = (...paths: string[]) => _join(...paths).replace(/\\/g, "/");
+
+// at this bun version, warnings flood the console sometimes
+export const mkdirSuppressed = (...args: Parameters<typeof mkdir>) =>
+	mkdir(...args).catch((e) =>
+		e?.code === "EEXIST"
+			? (revision === "c1708ea6ab529a4c747a8282a24d125dc20b0a63" &&
+					didSomethingInLog(),
+				void e)
+			: cuteError(e),
+	);
+
+export function cuteError(e: any) {
+	return e?.stack ?? e?.message ?? String(e);
+}
+
+export function sortByHierarchy(a: string, b: string) {
+	return a.split("/").length - b.split("/").length;
+}
+
+export function formatBytes(bytes: number, decimals = 2): string {
+	if (bytes === 0) return "0 B";
+
+	const k = 1024;
+	const sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+
+	const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+	return `${Number.parseFloat((bytes / k ** i).toFixed(Math.max(decimals, 0)))} ${sizes[i]}`;
+}

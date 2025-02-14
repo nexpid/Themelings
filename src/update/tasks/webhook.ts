@@ -1,48 +1,62 @@
 import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
-import { type Diff, DiffEnum, type OutDiffs } from "../../types";
-import { maxChangesThreshold } from "../util";
+import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
+import { cuteVersion, version } from "../shared";
+import { maxChangesThreshold, maxCodeChangesThreshold } from "../util";
 
-const cap = (arr: string[], stuff: string) =>
-	arr.length > maxChangesThreshold
+const cap = (arr: string[], stuff: string, threshold = maxChangesThreshold) =>
+	arr.length > threshold
 		? [
-				...arr.slice(0, maxChangesThreshold),
-				`(+${arr.length - maxChangesThreshold} ${stuff}${
-					arr.length - maxChangesThreshold > 1 ? "s" : ""
+				...arr.slice(0, threshold),
+				`(+${arr.length - threshold} ${stuff}${
+					arr.length - threshold > 1 ? "s" : ""
 				})`,
 			]
 		: arr;
 
-const formatDiff = (diffs: Map<string, Diff>) => {
+const formatDiff = (diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) => {
 	const entries = [...diffs.entries()].map(([k, v]) => ({
 		name: k,
 		...v,
 	})) as any[];
 
+	const threshold = isCode ? maxCodeChangesThreshold : maxChangesThreshold;
 	const sections = {
 		Added: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Added)
-				.map((x) => `+ ${x.name}: ${x.cur}`),
+				.map((x) =>
+					isCode ? `+ ${x.name} (${x.size})` : `+ ${x.name}: ${x.cur}`,
+				),
 			"addition",
+			threshold,
 		),
 		Changed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Changed)
-				.map((x) => `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`),
+				.map((x) =>
+					isCode
+						? `${x.sizeDiff[0] === "+" ? "-" : "+"} ${x.name} (${x.sizeDiff})`
+						: `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`,
+				),
 			"change",
+			threshold,
 		),
 		Renamed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Renamed)
-				.map((x) => `- ${x.old}\n+ ${x.name}`),
+				.map((x) =>
+					isCode ? `- ${x.oldFile}\n+ ${x.name}` : `- ${x.old}\n+ ${x.name}`,
+				),
 			"rename",
+			threshold,
 		),
 		Removed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Removed)
-				.map((x) => `- ${x.name}`),
+				.map((x) => (isCode ? `- ${x.file} (${x.size})` : `- ${x.name}`)),
 			"removal",
+			threshold,
 		),
 	};
 
@@ -54,25 +68,13 @@ const formatDiff = (diffs: Map<string, Diff>) => {
 		.join("\n");
 };
 
-const formatVersion = (version: string) => {
-	const major = version.slice(0, -3);
-	const sub = version[3];
-	const min = version.slice(-2);
-
-	return `${
-		["Stable", "Beta", "Alpha"][Number(sub)] ?? "Unknown"
-	} ${major}.${Number(min)}`;
-};
-
 const triggerWebhook = async (
 	webhook: string,
 	{
 		role,
-		version,
 		embeds,
 	}: {
 		role?: string;
-		version: string;
 		embeds: { title: string; body: string; image?: Canvas }[];
 	},
 ) => {
@@ -98,7 +100,7 @@ const triggerWebhook = async (
 				description: body,
 				color: null,
 				author: {
-					name: `${version} (${formatVersion(version)})`,
+					name: `${version} (${cuteVersion})`,
 				},
 				image: image && {
 					url: `attachment://${images.indexOf(image)}.png`,
@@ -122,11 +124,10 @@ const triggerWebhook = async (
 		);
 };
 
-export async function webhook(version: string, diffs: OutDiffs) {
+export async function webhook(diffs: OutDiffs) {
 	if (diffs.raw?.size || diffs.semantic?.size)
 		await triggerWebhook(process.env.color_webhook!, {
 			role: "1227327297795657850",
-			version,
 			embeds: [
 				...(diffs.raw?.size
 					? [
@@ -152,12 +153,21 @@ export async function webhook(version: string, diffs: OutDiffs) {
 	if (diffs.icons?.size)
 		await triggerWebhook(process.env.icons_webhook!, {
 			role: "1227327765079003217",
-			version,
 			embeds: [
 				{
 					title: "Icons",
 					body: formatDiff(diffs.icons),
 					image: await draw(convertDiffs(diffs.icons)),
+				},
+			],
+		});
+	if (diffs.code?.size)
+		await triggerWebhook(process.env.code_webhook!, {
+			role: "1233861867059941387",
+			embeds: [
+				{
+					title: "Icons",
+					body: formatDiff(diffs.code, true),
 				},
 			],
 		});

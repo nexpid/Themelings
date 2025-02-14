@@ -1,12 +1,14 @@
-import { deepEquals } from "bun";
-import { prevFiles } from "..";
 import {
+	type CodeDiff,
 	type Diff,
 	DiffEnum,
 	type Icons,
+	type OutDiffs,
 	type SemanticColors,
 } from "../../types";
-import { type Progress, handleShellErr, join } from "../util";
+import { getGitChanged, gitChanged } from "../commit";
+import { diffAnyway, prevFiles } from "../shared";
+import { type Progress, formatBytes, join } from "../util";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -137,7 +139,10 @@ const diffSemantic = async (progress: Progress) => {
 						change: DiffEnum.Added,
 						cur: transform(newSemantic[sem][clir]),
 					});
-				else if (oldSemantic[sem][clir][0].toLowerCase() !== newSemantic[sem][clir][0].toLowerCase())
+				else if (
+					oldSemantic[sem][clir][0].toLowerCase() !==
+					newSemantic[sem][clir][0].toLowerCase()
+				)
 					changes.set(`${sem}.${clir}`, {
 						change: DiffEnum.Changed,
 						old: transform(oldSemantic[sem][clir]),
@@ -229,45 +234,93 @@ const diffIcons = async (progress: Progress) => {
 };
 const diffCode = async (progress: Progress) => {
 	progress.start("diff_code");
+	if (!prevFiles.has("source.jsonl")) {
+		progress.update("diff_code", false);
+		throw new Error("Missing prevFile: source.jsonl");
+	}
+
+	const jsonlToJson = (jsonl: string) =>
+		new Map(
+			(
+				JSON.parse(`[${jsonl.split("\n").join(",\n")}]`) as {
+					file: string;
+					size: number;
+				}[]
+			).map((x) => [x.file, x.size]),
+		);
+
+	const oldCode = jsonlToJson(
+		new TextDecoder().decode(prevFiles.get("source.jsonl")),
+	);
+	const newCode = jsonlToJson(
+		await Bun.file(join("../data", "source.jsonl")).text(),
+	);
+
+	const renamed = new Set<string>();
+	const changes = new Map<string, CodeDiff>();
+	for (const code of newCode.keys())
+		if (!oldCode.has(code)) {
+			const renamedCode = oldCode
+				.keys()
+				.find(
+					(vCode) =>
+						!newCode.has(vCode) && oldCode.get(vCode) === newCode.get(code),
+				);
+
+			if (renamedCode)
+				renamed.add(renamedCode),
+					changes.set(code, {
+						change: DiffEnum.Renamed,
+						oldFile: renamedCode,
+						size: formatBytes(newCode.get(code)!, 1),
+					});
+			else
+				changes.set(code, {
+					change: DiffEnum.Added,
+					size: formatBytes(newCode.get(code)!, 1),
+				});
+		} else if (newCode.get(code) !== oldCode.get(code))
+			changes.set(code, {
+				change: DiffEnum.Changed,
+				sizeDiff: (() => {
+					const diff = formatBytes(newCode.get(code)! - oldCode.get(code)!, 1);
+					return diff.startsWith("-") ? diff : `+${diff}`;
+				})(),
+			});
+	for (const code of oldCode.keys())
+		if (!newCode.has(code) && !renamed.has(code))
+			changes.set(code, {
+				change: DiffEnum.Removed,
+				size: formatBytes(oldCode.get(code)!, 1),
+			});
 
 	progress.update("diff_code", true);
+	return changes;
 };
 
 export default async function diffs(progress: Progress) {
-	const txt = (
-		await Bun.$`git status -z -- ':!oldicons' ':!icons'`
-			.cwd("../data")
-			.quiet()
-			.then(handleShellErr)
-	)
-		.text()
-		.split("\x00")
-		.filter((x) => x !== "")
-		.map((x) => x.slice(3));
-
-	if (!txt.includes("version.txt")) {
+	await getGitChanged();
+	if (!gitChanged.has("version.txt") && !diffAnyway) {
 		progress.update("diff", null);
 		for (const x of ["raw", "semantic", "icons", "code"])
 			progress.update(`diff_${x}`, null);
 		return null;
 	}
 
-	const differs = {} as Record<
-		"raw" | "semantic" | "icons" | "code",
-		Map<string, Diff> | undefined
-	>;
+	const differs = {} as OutDiffs;
+
 	await Promise.allSettled([
-		txt.includes("raw.json")
+		gitChanged.has("raw.json")
 			? diffRaw(progress).then((x) => (differs.raw = x))
 			: progress.update("diff_raw", null),
-		txt.includes("semantic.json")
+		gitChanged.has("semantic.json")
 			? diffSemantic(progress).then((x) => (differs.semantic = x))
 			: progress.update("diff_semantic", null),
-		txt.includes("icons.json")
+		gitChanged.has("icons.json")
 			? diffIcons(progress).then((x) => (differs.icons = x))
 			: progress.update("diff_icons", null),
-		txt.includes("code.gzipped.js")
-			? diffCode(progress)
+		gitChanged.has("source.jsonl")
+			? diffCode(progress).then((x) => (differs.code = x))
 			: progress.update("diff_code", null),
 	]);
 
