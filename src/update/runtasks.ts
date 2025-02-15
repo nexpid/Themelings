@@ -8,6 +8,7 @@ import {
 	isMock,
 	oprevFiles,
 	prevFiles,
+	version,
 } from "./shared";
 import codeTask from "./tasks/code";
 import colors from "./tasks/colors";
@@ -58,15 +59,18 @@ export async function runTasks(tempFolder: string) {
 		try {
 			taskProgress.start("preinit");
 
+			// reset to remote branch (without pulling latest commit)
 			taskProgress.start("preinit_discard");
-			await Bun.$`git reset --hard origin/data`
+			await Bun.$`git reset --hard $(git merge-base HEAD origin/data)`
 				.cwd("../data")
 				.nothrow()
 				.quiet()
 				.then(handleShellErr);
 			if (await exists(join("../data", "oldicons")))
 				await rm(join("../data", "oldicons"), { force: true, recursive: true });
+			await Bun.write("../data/version.txt", version); // lel
 
+			// unstage all files
 			await Bun.$`git restore --staged .`
 				.cwd("../data")
 				.nothrow()
@@ -169,6 +173,6 @@ export async function runTasks(tempFolder: string) {
 		taskProgress.update("webhook", null);
 	}
 
+	await commit(["version.txt"], `bump app version to ${cuteVersion}`);
 	await rm("../data/oldicons", { force: true, recursive: true });
-	commit(["version.txt"], `bump app version to ${cuteVersion}`);
 }
