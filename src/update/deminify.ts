@@ -55,6 +55,8 @@ const argumentNames = [
 ];
 const argumentMatch = getMatchTemplate("a");
 
+const funMatch = /(\W|^)(_fun\d+(?:_ip)?)(\W|$)/gm;
+
 export function deminify(code: string, path: string) {
 	const argumentUsage = new Map<string, number>();
 	for (const [_, __, num] of code.match(argumentMatch) ?? []) {
@@ -71,6 +73,15 @@ export function deminify(code: string, path: string) {
 	) =>
 		`${before}${variableNames[Number(num)] ?? `variable${Number(num) + 1}`}${after}`;
 
+	// weird _fun52690 & _fun52690_ip vars which are seemingly randomized
+	const funCache = new Map<string, number>();
+	const getFun = (fun: string) => {
+		const suffix = fun.split("_")[2] ? `_${fun.split("_")[2]}` : "";
+
+		if (!funCache.has(fun)) funCache.set(fun, funCache.size + 1);
+		return `_fun${funCache.get(fun)!.toString().padStart(5, "0")}${suffix}`;
+	};
+
 	let unusedRep = 0;
 	let final = code
 		.replace(
@@ -79,7 +90,11 @@ export function deminify(code: string, path: string) {
 				`${before}${argumentUsage.has(num) && argumentUsage.get(num)! > 1 ? (argumentNames[Number(num)] ?? `argument${Number(num) + 1}`) : "_".repeat(++unusedRep)}${after}`,
 		)
 		.replace(variableMatch, variableReplacer)
-		.replace(variableMatch, variableReplacer); // do 2 rounds because uhhhhhhhhh im really good at coding
+		.replace(variableMatch, variableReplacer) // do 2 rounds because uhhhhhhhhh im really good at coding
+		.replace(
+			funMatch,
+			(_, before, fun, after) => `${before}${getFun(fun)}${after}`,
+		);
 
 	final = final
 		.split(" = ")
