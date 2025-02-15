@@ -8,7 +8,7 @@ import {
 } from "../../types";
 import { getGitChanged, gitChanged } from "../commit";
 import { diffAnyway, prevFiles } from "../shared";
-import { type Progress, formatBytes, join } from "../util";
+import { type Progress, formatBytes, join, log } from "../util";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -246,7 +246,13 @@ const diffCode = async (progress: Progress) => {
 					file: string;
 					size: number;
 				}[]
-			).map((x) => [x.file, x.size]),
+			).map((x) => [
+				x.file,
+				{
+					s: x.size,
+					de: x.size - JSON.stringify(x.file).length,
+				},
+			]),
 		);
 
 	const oldCode = jsonlToJson(
@@ -264,7 +270,8 @@ const diffCode = async (progress: Progress) => {
 				.keys()
 				.find(
 					(vCode) =>
-						!newCode.has(vCode) && oldCode.get(vCode) === newCode.get(code),
+						!newCode.has(vCode) &&
+						oldCode.get(vCode)!.de === newCode.get(code)!.de,
 				);
 
 			if (renamedCode)
@@ -272,26 +279,27 @@ const diffCode = async (progress: Progress) => {
 					changes.set(code, {
 						change: DiffEnum.Renamed,
 						oldFile: renamedCode,
-						size: formatBytes(newCode.get(code)!, 1),
+						size: formatBytes(newCode.get(code)!.s, 1),
 					});
 			else
 				changes.set(code, {
 					change: DiffEnum.Added,
-					size: formatBytes(newCode.get(code)!, 1),
+					size: formatBytes(newCode.get(code)!.s, 1),
 				});
-		} else if (newCode.get(code) !== oldCode.get(code))
+		} else if (newCode.get(code)!.s !== oldCode.get(code)!.s)
 			changes.set(code, {
 				change: DiffEnum.Changed,
 				sizeDiff: (() => {
-					const diff = formatBytes(newCode.get(code)! - oldCode.get(code)!, 1);
-					return diff.startsWith("-") ? diff : `+${diff}`;
+					const numDiff = newCode.get(code)!.de - oldCode.get(code)!.de;
+					const diff = formatBytes(Math.abs(numDiff), 1);
+					return numDiff < 0 ? `-${diff}` : `+${diff}`;
 				})(),
 			});
 	for (const code of oldCode.keys())
 		if (!newCode.has(code) && !renamed.has(code))
 			changes.set(code, {
 				change: DiffEnum.Removed,
-				size: formatBytes(oldCode.get(code)!, 1),
+				size: formatBytes(oldCode.get(code)!.s, 1),
 			});
 
 	progress.update("diff_code", true);
@@ -300,6 +308,8 @@ const diffCode = async (progress: Progress) => {
 
 export default async function diffs(progress: Progress) {
 	await getGitChanged();
+	log("hello i am changed", gitChanged);
+
 	if (!gitChanged.has("version.txt") && !diffAnyway) {
 		progress.update("diff", null);
 		for (const x of ["raw", "semantic", "icons", "code"])
