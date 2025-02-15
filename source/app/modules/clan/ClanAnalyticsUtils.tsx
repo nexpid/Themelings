@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['GuildProfileCTATypes'] = tango;
     tango = function(argFoo) { // Original name: trackClanProfileViewed
-        _fun77681: for(var _fun77681_ip = 0; ; ) switch(_fun77681_ip) {
+        _fun77691: for(var _fun77691_ip = 0; ; ) switch(_fun77691_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.guildId;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = tango == report;
             entity = undefined;
             zulu = undefined;
-            if(romeo) { _fun77681_ip = 97; continue _fun77681 }
+            if(romeo) { _fun77691_ip = 97; continue _fun77691 }
  91:
             zulu = report.joinedAt;
  97:
@@ -252,40 +252,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['trackConvertSuccessModalConfirm'] = tango;
     tango = function(argFoo) { // Original name: getProgressStepAnalyticsName
-        _fun77689: for(var _fun77689_ip = 0; ; ) switch(_fun77689_ip) {
+        _fun77699: for(var _fun77699_ip = 0; ; ) switch(_fun77699_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot5;
             zulu = zulu.GAMES;
-            if(!(zulu !== entity)) { _fun77689_ip = 172; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 172; continue _fun77699 }
  23:
             zulu = _closure1_slot5;
             zulu = zulu.PLAYSTYLE;
-            if(!(zulu !== entity)) { _fun77689_ip = 166; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 166; continue _fun77699 }
  40:
             zulu = _closure1_slot5;
             zulu = zulu.UTILITY_TRAITS;
-            if(!(zulu !== entity)) { _fun77689_ip = 158; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 158; continue _fun77699 }
  54:
             zulu = _closure1_slot5;
             zulu = zulu.INTERESTS;
-            if(!(zulu !== entity)) { _fun77689_ip = 152; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 152; continue _fun77699 }
  68:
             zulu = _closure1_slot5;
             zulu = zulu.DESCRIPTION;
-            if(!(zulu !== entity)) { _fun77689_ip = 146; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 146; continue _fun77699 }
  82:
             zulu = _closure1_slot5;
             zulu = zulu.CUSTOMIZE_TAG_BADGE;
-            if(!(zulu !== entity)) { _fun77689_ip = 140; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 140; continue _fun77699 }
  96:
             zulu = _closure1_slot5;
             zulu = zulu.CUSTOMIZE_BANNER;
-            if(!(zulu !== entity)) { _fun77689_ip = 134; continue _fun77689 }
+            if(!(zulu !== entity)) { _fun77699_ip = 134; continue _fun77699 }
  110:
             mike = _closure1_slot5;
             mike = mike.MEMBER_APPLICATION;
-            if(!(mike !== entity)) { _fun77689_ip = 126; continue _fun77689 }
+            if(!(mike !== entity)) { _fun77699_ip = 126; continue _fun77699 }
  124:
             return entity;
  126:
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['trackMemberVerificationApplicationViewed'] = tango;
     tango = function(argFoo) { // Original name: trackClanSendInterviewMessage
-        _fun77693: for(var _fun77693_ip = 0; ; ) switch(_fun77693_ip) {
+        _fun77703: for(var _fun77703_ip = 0; ; ) switch(_fun77703_ip) {
  0:
             entity = argFoo;
             romeo = entity.guildId;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = tango == report;
             entity = undefined;
             zulu = undefined;
-            if(options) { _fun77693_ip = 82; continue _fun77693 }
+            if(options) { _fun77703_ip = 82; continue _fun77703 }
  76:
             zulu = report.joinedAt;
  82:
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['trackClanApplicationViewed'] = tango;
     tango = function(argFoo) { // Original name: trackClanApplyWaitlist
-        _fun77697: for(var _fun77697_ip = 0; ; ) switch(_fun77697_ip) {
+        _fun77707: for(var _fun77707_ip = 0; ; ) switch(_fun77707_ip) {
  0:
             entity = argFoo;
             backup = entity.originGuildId;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.DismissibleContent;
             mike = mike.CLAN_TAG_WAITLIST;
             mike = zulu.bind(report)(mike);
-            if(mike) { _fun77697_ip = 263; continue _fun77697 }
+            if(mike) { _fun77707_ip = 263; continue _fun77707 }
  101:
             report = _closure1_slot1;
             mike = _closure1_slot2;

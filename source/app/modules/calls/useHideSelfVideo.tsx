@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/calls/useHideSelfVideo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useHideSelfVideo
-        _fun103637: for(var _fun103637_ip = 0; ; ) switch(_fun103637_ip) {
+        _fun103629: for(var _fun103629_ip = 0; ; ) switch(_fun103629_ip) {
  0:
             oscar = argFoo;
             zulu = arguments[1];
             verify = undefined;
-            if(!(zulu === verify)) { _fun103637_ip = 27; continue _fun103637 }
+            if(!(zulu === verify)) { _fun103629_ip = 27; continue _fun103629 }
  14:
             entity = _closure1_slot6;
             zulu = entity.DEFAULT;
@@ -79,21 +79,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = new Array(1);
             yankee[0] = tango;
             entity = function() {
-                _fun103639: for(var _fun103639_ip = 0; ; ) switch(_fun103639_ip) {
- 0:
-                    tango = _closure1_slot4;
-                    zulu = tango.supports;
-                    entity = _closure1_slot7;
-                    entity = entity.DISABLE_VIDEO;
-                    entity = zulu.bind(tango)(entity);
-                    if(!entity) { _fun103639_ip = 45; continue _fun103639 }
- 31:
-                    zulu = _closure1_slot4;
-                    mike = zulu.isVideoEnabled;
-                    entity = mike.bind(zulu)();
- 45:
-                    return entity;
-                }
+                zulu = _closure1_slot4;
+                mike = zulu.supports;
+                entity = _closure1_slot7;
+                entity = entity.DISABLE_VIDEO;
+                entity = mike.bind(zulu)(entity);
+                return entity;
             };
             entity = romeo.bind(foxtrot)(yankee, entity);
             golf = offset[golf];
@@ -115,30 +106,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = options.bind(verify)(golf, zulu, tango);
             tango = null;
             tango = tango == oscar;
-            if(tango) { _fun103637_ip = 192; continue _fun103637 }
+            if(tango) { _fun103629_ip = 192; continue _fun103629 }
  188:
             tango = oscar === report;
  192:
-            if(!tango) { _fun103637_ip = 204; continue _fun103637 }
+            if(!tango) { _fun103629_ip = 198; continue _fun103629 }
  195:
-            if(entity) { _fun103637_ip = 201; continue _fun103637 }
- 198:
-            entity = zulu;
- 201:
             tango = entity;
- 204:
+ 198:
             entity = new Array(3);
             entity[0] = tango;
             entity[1] = zulu;
             mike = function(argFoo) {
-                _fun103641: for(var _fun103641_ip = 0; ; ) switch(_fun103641_ip) {
+                _fun103633: for(var _fun103633_ip = 0; ; ) switch(_fun103633_ip) {
  0:
                     mike = _closure1_slot5;
                     zulu = argFoo;
-                    if(zulu) { _fun103641_ip = 21; continue _fun103641 }
+                    if(zulu) { _fun103633_ip = 21; continue _fun103633 }
  13:
                     oscar = mike.MANUAL_ENABLED;
-                    _fun103641_ip = 27; continue _fun103641;
+                    _fun103633_ip = 27; continue _fun103633;
  21:
                     oscar = mike.DISABLED;
  27:

@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['QuestBarCopySimplification'] = tango;
     mike = function(argFoo) { // Original name: useIsQuestBarCopySimplificationEnabled
-        _fun70813: for(var _fun70813_ip = 0; ; ) switch(_fun70813_ip) {
+        _fun70819: for(var _fun70819_ip = 0; ; ) switch(_fun70819_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun70813_ip = 22; continue _fun70813 }
+            if(!(report === mike)) { _fun70819_ip = 22; continue _fun70819 }
  20:
             report = true;
  22:

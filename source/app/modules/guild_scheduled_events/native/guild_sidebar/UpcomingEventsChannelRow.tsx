@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun115924: for(var _fun115924_ip = 0; ; ) switch(_fun115924_ip) {
+        _fun115930: for(var _fun115930_ip = 0; ; ) switch(_fun115930_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
@@ -130,12 +130,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = zulu.bind(tango)(options, report);
             entity['icon'] = report;
             report = null;
-            if(golf) { _fun115924_ip = 379; continue _fun115924 }
+            if(golf) { _fun115930_ip = 379; continue _fun115930 }
  322:
             golf = 0;
             golf = verify > golf;
             report = null;
-            if(!golf) { _fun115924_ip = 379; continue _fun115924 }
+            if(!golf) { _fun115930_ip = 379; continue _fun115930 }
  333:
             options = _closure1_slot3;
             golf = _closure1_slot1;

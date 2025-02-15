@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Modal/native/ModalActionButton.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ModalActionButton
-        _fun99384: for(var _fun99384_ip = 0; ; ) switch(_fun99384_ip) {
+        _fun99394: for(var _fun99394_ip = 0; ; ) switch(_fun99394_ip) {
  0:
             zulu = argFoo;
             offset = zulu.variant;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = {};
             report = 'secondary';
             golf = report === offset;
-            if(!golf) { _fun99384_ip = 91; continue _fun99384 }
+            if(!golf) { _fun99394_ip = 91; continue _fun99394 }
  65:
             yankee = _closure1_slot3;
             options = _closure1_slot2;

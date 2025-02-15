@@ -100,24 +100,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/avatar/native/components/TouchableUploadAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TouchableUploadAvatar
-        _fun124248: for(var _fun124248_ip = 0; ; ) switch(_fun124248_ip) {
+        _fun124244: for(var _fun124244_ip = 0; ; ) switch(_fun124244_ip) {
  0:
             zulu = argFoo;
             mike = zulu.avatarSource;
             entity = zulu.showPendingAvatar;
             tango = undefined;
-            if(!(entity === tango)) { _fun124248_ip = 23; continue _fun124248 }
+            if(!(entity === tango)) { _fun124244_ip = 23; continue _fun124244 }
  21:
             entity = false;
  23:
             golf = zulu.onSelectAvatar;
             zulu = _closure1_slot6;
             foxtrot = zulu.bind(tango)();
-            if(!entity) { _fun124248_ip = 52; continue _fun124248 }
+            if(!entity) { _fun124244_ip = 52; continue _fun124244 }
  43:
             zulu = null;
             yankee = mike;
-            if(!(zulu == yankee)) { _fun124248_ip = 72; continue _fun124248 }
+            if(!(zulu == yankee)) { _fun124244_ip = 72; continue _fun124244 }
  52:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -125,13 +125,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar[zulu];
             yankee = report.bind(tango)(zulu);
  72:
-            if(!entity) { _fun124248_ip = 81; continue _fun124248 }
+            if(!entity) { _fun124244_ip = 81; continue _fun124244 }
  75:
             entity = null;
-            if(!(entity == mike)) { _fun124248_ip = 89; continue _fun124248 }
+            if(!(entity == mike)) { _fun124244_ip = 89; continue _fun124244 }
  81:
             romeo = foxtrot.defaultLogoStyle;
-            _fun124248_ip = 95; continue _fun124248;
+            _fun124244_ip = 95; continue _fun124244;
  89:
             romeo = foxtrot.uploadedAvatarStyle;
  95:

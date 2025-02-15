@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/connections/native/VerifiedRoleIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VerifiedRoleIcon
-        _fun64906: for(var _fun64906_ip = 0; ; ) switch(_fun64906_ip) {
+        _fun64911: for(var _fun64911_ip = 0; ; ) switch(_fun64911_ip) {
  0:
             entity = argFoo;
             options = entity.guildId;
@@ -83,17 +83,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             romeo = entity.bind(tango)();
             golf = null;
-            if(!(golf == zulu)) { _fun64906_ip = 79; continue _fun64906 }
+            if(!(golf == zulu)) { _fun64911_ip = 79; continue _fun64911 }
  61:
             mike = golf == output;
             entity = undefined;
-            if(mike) { _fun64906_ip = 76; continue _fun64906 }
+            if(mike) { _fun64911_ip = 76; continue _fun64911 }
  70:
             entity = output.colorString;
  76:
             zulu = entity;
  79:
-            if(!(golf == zulu)) { _fun64906_ip = 118; continue _fun64906 }
+            if(!(golf == zulu)) { _fun64911_ip = 118; continue _fun64911 }
  83:
             mike = _closure1_slot0;
             verify = _closure1_slot2;
@@ -130,10 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = backup.bind(result)(entity);
             entity = verify.bind(offset)(foxtrot, entity);
             foxtrot = zulu;
-            if(!(!(mike > entity))) { _fun64906_ip = 252; continue _fun64906 }
+            if(!(!(mike > entity))) { _fun64911_ip = 252; continue _fun64911 }
  246:
             verify = _closure1_slot8;
-            _fun64906_ip = 256; continue _fun64906;
+            _fun64911_ip = 256; continue _fun64911;
  252:
             verify = _closure1_slot7;
  256:
@@ -150,17 +150,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.useRoleIcon;
             entity = {};
             entity['guildId'] = options;
-            if(!(golf == report)) { _fun64906_ip = 327; continue _fun64906 }
+            if(!(golf == report)) { _fun64911_ip = 327; continue _fun64911 }
  310:
             result = golf == output;
             options = undefined;
-            if(result) { _fun64906_ip = 324; continue _fun64906 }
+            if(result) { _fun64911_ip = 324; continue _fun64911 }
  319:
             options = output.id;
  324:
             report = options;
  327:
-            if(!(golf == report)) { _fun64906_ip = 335; continue _fun64906 }
+            if(!(golf == report)) { _fun64911_ip = 335; continue _fun64911 }
  331:
             report = _closure1_slot5;
  335:
@@ -181,9 +181,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[2] = romeo;
             entity['style'] = options;
             options = false;
-            if(!(options !== yankee)) { _fun64906_ip = 409; continue _fun64906 }
+            if(!(options !== yankee)) { _fun64911_ip = 409; continue _fun64911 }
  405:
-            if(!(golf == report)) { _fun64906_ip = 497; continue _fun64906 }
+            if(!(golf == report)) { _fun64911_ip = 497; continue _fun64911 }
  409:
             options = _closure1_slot6;
             yankee = _closure1_slot1;

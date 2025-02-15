@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         entity = tango.all;
         mike['checked'] = entity;
         entity = function(argFoo) { // Original name: onPress
-            _fun95711: for(var _fun95711_ip = 0; ; ) switch(_fun95711_ip) {
+            _fun95721: for(var _fun95721_ip = 0; ; ) switch(_fun95721_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -112,13 +112,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = tango.updateSetting;
                 report = _closure1_slot4;
                 oscar = argFoo;
-                if(oscar) { _fun95711_ip = 66; continue _fun95711 }
+                if(oscar) { _fun95721_ip = 66; continue _fun95721 }
  47:
                 mike = _closure1_slot5;
                 mike = mike.NO_RELATION;
                 mike = ~mike;
                 mike = report & mike;
-                _fun95711_ip = 69; continue _fun95711;
+                _fun95721_ip = 69; continue _fun95721;
  66:
                 mike = report;
  69:
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         oscar = tango.mutualFriends;
         mike['checked'] = oscar;
         oscar = function(argFoo) { // Original name: onPress
-            _fun95712: for(var _fun95712_ip = 0; ; ) switch(_fun95712_ip) {
+            _fun95722: for(var _fun95722_ip = 0; ; ) switch(_fun95722_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = golf[entity];
                 golf = report.bind(oscar)(entity);
                 entity = argFoo;
-                if(entity) { _fun95712_ip = 101; continue _fun95712 }
+                if(entity) { _fun95722_ip = 101; continue _fun95722 }
  63:
                 options = golf.removeFlags;
                 oscar = _closure2_slot0;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = entity.MUTUAL_FRIENDS;
                 entity = entity.NO_RELATION;
                 entity = options.bind(golf)(oscar, report, entity);
-                _fun95712_ip = 130; continue _fun95712;
+                _fun95722_ip = 130; continue _fun95722;
  101:
                 oscar = golf.addFlag;
                 report = _closure2_slot0;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         tango = tango.mutualGuilds;
         mike['checked'] = tango;
         zulu = function(argFoo) { // Original name: onPress
-            _fun95713: for(var _fun95713_ip = 0; ; ) switch(_fun95713_ip) {
+            _fun95723: for(var _fun95723_ip = 0; ; ) switch(_fun95723_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = golf[entity];
                 golf = report.bind(oscar)(entity);
                 entity = argFoo;
-                if(entity) { _fun95713_ip = 101; continue _fun95713 }
+                if(entity) { _fun95723_ip = 101; continue _fun95723 }
  63:
                 options = golf.removeFlags;
                 oscar = _closure2_slot0;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = entity.MUTUAL_GUILDS;
                 entity = entity.NO_RELATION;
                 entity = options.bind(golf)(oscar, report, entity);
-                _fun95713_ip = 130; continue _fun95713;
+                _fun95723_ip = 130; continue _fun95723;
  101:
                 oscar = golf.addFlag;
                 report = _closure2_slot0;

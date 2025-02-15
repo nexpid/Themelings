@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/media_viewer/native/useVideoControls.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo, argBar, argBaz) { // Original name: useVideoControls
-        _fun85532: for(var _fun85532_ip = 0; ; ) switch(_fun85532_ip) {
+        _fun85549: for(var _fun85549_ip = 0; ; ) switch(_fun85549_ip) {
  0:
             romeo = argFoo;
             oscar = argBar;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot5 = tango;
             yankee = null;
             entity = yankee != verify;
-            if(!entity) { _fun85532_ip = 209; continue _fun85532 }
+            if(!entity) { _fun85549_ip = 209; continue _fun85549 }
  178:
             kilo = _closure1_slot0;
             output = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(kilo)(oscar);
  209:
             mike = oscar.portal;
-            if(!(yankee == mike)) { _fun85532_ip = 225; continue _fun85532 }
+            if(!(yankee == mike)) { _fun85549_ip = 225; continue _fun85549 }
  219:
             mike = oscar.videoURI;
  225:
@@ -166,29 +166,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[5] = tango;
             oscar[6] = romeo;
             tango = function() {
-                _fun85535: for(var _fun85535_ip = 0; ; ) switch(_fun85535_ip) {
+                _fun85552: for(var _fun85552_ip = 0; ; ) switch(_fun85552_ip) {
  0:
                     zulu = _closure2_slot5;
                     mike = _closure2_slot0;
-                    if(!(zulu !== mike)) { _fun85535_ip = 99; continue _fun85535 }
+                    if(!(zulu !== mike)) { _fun85552_ip = 99; continue _fun85552 }
  15:
                     mike = _closure2_slot5;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun85535_ip = 99; continue _fun85535 }
+                    if(!(zulu != mike)) { _fun85552_ip = 99; continue _fun85552 }
  25:
                     mike = _closure2_slot6;
-                    if(!(zulu != mike)) { _fun85535_ip = 99; continue _fun85535 }
+                    if(!(zulu != mike)) { _fun85552_ip = 99; continue _fun85552 }
  33:
                     zulu = _closure2_slot7;
                     mike = _closure2_slot6;
-                    if(!(zulu !== mike)) { _fun85535_ip = 99; continue _fun85535 }
+                    if(!(zulu !== mike)) { _fun85552_ip = 99; continue _fun85552 }
  45:
                     tango = _closure2_slot1;
                     zulu = tango.seek;
                     mike = 0;
                     mike = zulu.bind(tango)(mike);
                     zulu = _closure2_slot4;
-                    if(zulu) { _fun85535_ip = 73; continue _fun85535 }
+                    if(zulu) { _fun85552_ip = 73; continue _fun85552 }
  69:
                     zulu = _closure2_slot2;
  73:
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = oscar.bind(yankee)(zulu, tango);
             tango = mike;
-            if(entity) { _fun85532_ip = 343; continue _fun85532 }
+            if(entity) { _fun85549_ip = 343; continue _fun85549 }
  341:
             return report;
  343:
@@ -371,14 +371,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['setPausedState'] = tango;
     tango = function() { // Original name: tryPauseCurrentVideo
-        _fun85548: for(var _fun85548_ip = 0; ; ) switch(_fun85548_ip) {
+        _fun85565: for(var _fun85565_ip = 0; ; ) switch(_fun85565_ip) {
  0:
             mike = _closure1_slot9;
             entity = mike.getState;
             entity = entity.bind(mike)();
             zulu = entity.controls;
             entity = null;
-            if(!(entity != zulu)) { _fun85548_ip = 42; continue _fun85548 }
+            if(!(entity != zulu)) { _fun85565_ip = 42; continue _fun85565 }
  29:
             mike = zulu.pause;
             entity = true;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['tryPauseCurrentVideo'] = tango;
     mike = function() { // Original name: unpauseCurrentVideoIfNeeded
-        _fun85549: for(var _fun85549_ip = 0; ; ) switch(_fun85549_ip) {
+        _fun85566: for(var _fun85566_ip = 0; ; ) switch(_fun85566_ip) {
  0:
             mike = _closure1_slot9;
             entity = mike.getState;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.paused;
             entity = undefined;
             tango = undefined;
-            if(mike) { _fun85549_ip = 59; continue _fun85549 }
+            if(mike) { _fun85566_ip = 59; continue _fun85566 }
  30:
             report = _closure1_slot9;
             zulu = report.getState;
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report == zulu;
             tango = zulu;
  59:
-            if(mike) { _fun85549_ip = 75; continue _fun85549 }
+            if(mike) { _fun85566_ip = 75; continue _fun85566 }
  62:
             zulu = tango.pause;
             mike = false;

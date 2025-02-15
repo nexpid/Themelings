@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun65637: for(var _fun65637_ip = 0; ; ) switch(_fun65637_ip) {
+        _fun65642: for(var _fun65642_ip = 0; ; ) switch(_fun65642_ip) {
  0:
             zulu = argFoo;
             offset = zulu.onClose;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot3;
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot1;
-            if(report) { _fun65637_ip = 291; continue _fun65637 }
+            if(report) { _fun65642_ip = 295; continue _fun65642 }
  196:
             report = 10;
             report = foxtrot[report];
@@ -152,8 +152,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             report['children'] = backup;
             report = romeo.bind(tango)(golf, report);
-            _fun65637_ip = 327; continue _fun65637;
- 291:
+            _fun65642_ip = 331; continue _fun65642;
+ 295:
             golf = 9;
             golf = foxtrot[golf];
             golf = yankee.bind(tango)(golf);
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = verify.cancelIcon;
             golf['style'] = foxtrot;
             report = romeo.bind(tango)(yankee, golf);
- 327:
+ 331:
             entity['children'] = report;
             golf = zulu.bind(tango)(mike, entity);
             zulu = _closure1_slot4;
@@ -177,10 +177,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = yankee.isAndroid;
             report = report.bind(yankee)();
             yankee = null;
-            if(!report) { _fun65637_ip = 390; continue _fun65637 }
- 387:
+            if(!report) { _fun65642_ip = 394; continue _fun65642 }
+ 391:
             yankee = golf;
- 390:
+ 394:
             report = new Array(3);
             report[0] = yankee;
             foxtrot = _closure1_slot3;
@@ -212,10 +212,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.isAndroid;
             options = options.bind(verify)();
             oscar = null;
-            if(options) { _fun65637_ip = 532; continue _fun65637 }
- 529:
+            if(options) { _fun65642_ip = 536; continue _fun65642 }
+ 533:
             oscar = golf;
- 532:
+ 536:
             report[2] = oscar;
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);

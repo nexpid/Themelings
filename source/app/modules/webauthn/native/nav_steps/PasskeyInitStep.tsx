@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: CredentialList
-        _fun92844: for(var _fun92844_ip = 0; ; ) switch(_fun92844_ip) {
+        _fun92876: for(var _fun92876_ip = 0; ; ) switch(_fun92876_ip) {
  0:
             entity = argFoo;
             entity = entity.navigation;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             _closure2_slot3 = entity;
             entity = options.length;
-            if(!(mike !== entity)) { _fun92844_ip = 283; continue _fun92844 }
+            if(!(mike !== entity)) { _fun92876_ip = 283; continue _fun92876 }
  171:
             zulu = _closure1_slot9;
             romeo = _closure1_slot0;
@@ -396,11 +396,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/nav_steps/PasskeyInitStep.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PasskeyInitStep
-        _fun92850: for(var _fun92850_ip = 0; ; ) switch(_fun92850_ip) {
+        _fun92882: for(var _fun92882_ip = 0; ; ) switch(_fun92882_ip) {
  0:
             mike = argFoo;
             zulu = null;
-            if(!(mike != zulu)) { _fun92850_ip = 269; continue _fun92850 }
+            if(!(mike != zulu)) { _fun92882_ip = 269; continue _fun92882 }
  14:
             report = undefined;
             var _closure2_slot0 = report;
@@ -438,10 +438,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(1);
             golf[0] = tango;
             tango = function() {
-                _fun92852: for(var _fun92852_ip = 0; ; ) switch(_fun92852_ip) {
+                _fun92884: for(var _fun92884_ip = 0; ; ) switch(_fun92884_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun92852_ip = 45; continue _fun92852 }
+                    if(entity) { _fun92884_ip = 45; continue _fun92884 }
  10:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.setOptions;
                 entity = {};
                 tango = function() { // Original name: headerRight
-                    _fun92854: for(var _fun92854_ip = 0; ; ) switch(_fun92854_ip) {
+                    _fun92886: for(var _fun92886_ip = 0; ; ) switch(_fun92886_ip) {
  0:
                         zulu = _closure1_slot0;
                         tango = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = undefined;
                         mike = zulu.bind(tango)(mike);
                         mike = mike.hasWebAuthn;
-                        if(mike) { _fun92854_ip = 36; continue _fun92854 }
+                        if(mike) { _fun92886_ip = 36; continue _fun92886 }
  34:
                         return tango;
  36:

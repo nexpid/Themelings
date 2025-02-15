@@ -24,18 +24,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/holidays/setIncomingRingtone.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: setIncomingRingtone
-        _fun123789: for(var _fun123789_ip = 0; ; ) switch(_fun123789_ip) {
+        _fun123794: for(var _fun123794_ip = 0; ; ) switch(_fun123794_ip) {
  0:
             entity = _closure1_slot0;
             zulu = entity.DCDNotificationCategoryUtils;
             tango = null;
             entity = tango == zulu;
-            if(entity) { _fun123789_ip = 32; continue _fun123789 }
+            if(entity) { _fun123794_ip = 32; continue _fun123794 }
  22:
             mike = zulu.setIncomingRingtone;
             entity = tango == mike;
  32:
-            if(entity) { _fun123789_ip = 49; continue _fun123789 }
+            if(entity) { _fun123794_ip = 49; continue _fun123794 }
  35:
             mike = zulu.setIncomingRingtone;
             entity = argFoo;

@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['KeywordFilterExperiment'] = tango;
     tango = function(argFoo) { // Original name: useIsEligibleForKeywordFiltering
-        _fun68973: for(var _fun68973_ip = 0; ; ) switch(_fun68973_ip) {
+        _fun68979: for(var _fun68979_ip = 0; ; ) switch(_fun68979_ip) {
  0:
             entity = argFoo;
             entity = entity.location;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             entity = entity.enabled;
-            if(entity) { _fun68973_ip = 92; continue _fun68973 }
+            if(entity) { _fun68979_ip = 92; continue _fun68979 }
  89:
             entity = mike;
  92:
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForKeywordFiltering'] = tango;
     mike = function(argFoo) { // Original name: isEligibleForKeywordFiltering
-        _fun68974: for(var _fun68974_ip = 0; ; ) switch(_fun68974_ip) {
+        _fun68980: for(var _fun68980_ip = 0; ; ) switch(_fun68980_ip) {
  0:
             entity = argFoo;
             report = entity.location;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.enabled;
-            if(entity) { _fun68974_ip = 82; continue _fun68974 }
+            if(entity) { _fun68980_ip = 82; continue _fun68980 }
  79:
             entity = mike;
  82:

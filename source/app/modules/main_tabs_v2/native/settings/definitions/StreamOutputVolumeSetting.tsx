@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: getActiveApplicationStream
-        _fun97048: for(var _fun97048_ip = 0; ; ) switch(_fun97048_ip) {
+        _fun97058: for(var _fun97058_ip = 0; ; ) switch(_fun97058_ip) {
  0:
             mike = arguments[0];
             golf = undefined;
-            if(!(mike === golf)) { _fun97048_ip = 35; continue _fun97048 }
+            if(!(mike === golf)) { _fun97058_ip = 35; continue _fun97058 }
  9:
             tango = _closure1_slot3;
             entity = new Array(2);
@@ -28,24 +28,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             zulu = mike === golf;
             mike = undefined;
-            if(zulu) { _fun97048_ip = 60; continue _fun97048 }
+            if(zulu) { _fun97058_ip = 60; continue _fun97058 }
  57:
             mike = report;
  60:
             oscar = undefined;
-            if(zulu) { _fun97048_ip = 90; continue _fun97048 }
+            if(zulu) { _fun97058_ip = 90; continue _fun97058 }
  65:
             report = tango().value;
             tango = entity;
             tango = tango === golf;
             oscar = undefined;
             zulu = tango;
-            if(tango) { _fun97048_ip = 90; continue _fun97048 }
+            if(tango) { _fun97058_ip = 90; continue _fun97058 }
  84:
             oscar = report;
             zulu = tango;
  90:
-            if(zulu) { _fun97048_ip = 96; continue _fun97048 }
+            if(zulu) { _fun97058_ip = 96; continue _fun97058 }
  93:
             entity.return();
  96:
@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             zulu = report != mike;
             entity = null;
-            if(!zulu) { _fun97048_ip = 142; continue _fun97048 }
+            if(!zulu) { _fun97058_ip = 142; continue _fun97058 }
  117:
             tango = mike.ownerId;
             zulu = oscar.getId;
             zulu = zulu.bind(oscar)();
             entity = null;
-            if(!(tango !== zulu)) { _fun97048_ip = 142; continue _fun97048 }
+            if(!(tango !== zulu)) { _fun97058_ip = 142; continue _fun97058 }
  139:
             entity = mike;
  142:
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = _closure1_slot5;
         mike[2] = entity;
         entity = function() {
-            _fun97051: for(var _fun97051_ip = 0; ; ) switch(_fun97051_ip) {
+            _fun97061: for(var _fun97061_ip = 0; ; ) switch(_fun97061_ip) {
  0:
                 zulu = _closure1_slot6;
                 tango = _closure1_slot3;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = null;
                 tango = entity != zulu;
                 entity = 0;
-                if(!tango) { _fun97051_ip = 99; continue _fun97051 }
+                if(!tango) { _fun97061_ip = 99; continue _fun97061 }
  45:
                 report = _closure1_slot5;
                 tango = report.getLocalVolume;

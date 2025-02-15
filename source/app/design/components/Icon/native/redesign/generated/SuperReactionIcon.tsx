@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/SuperReactionIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun75629: for(var _fun75629_ip = 0; ; ) switch(_fun75629_ip) {
+        _fun75639: for(var _fun75639_ip = 0; ; ) switch(_fun75639_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun75629_ip = 53; continue _fun75629 }
+            if(!(golf === tango)) { _fun75639_ip = 53; continue _fun75639 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

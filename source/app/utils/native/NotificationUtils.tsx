@@ -40,17 +40,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(entity)(mike);
         mike = zulu.requestPermissions;
         entity = function(argFoo) {
-            _fun97782: for(var _fun97782_ip = 0; ; ) switch(_fun97782_ip) {
+            _fun97792: for(var _fun97792_ip = 0; ; ) switch(_fun97792_ip) {
  0:
                 mike = argFoo;
                 entity = mike.alert;
                 zulu = mike.badge;
                 mike = mike.sound;
-                if(entity) { _fun97782_ip = 27; continue _fun97782 }
+                if(entity) { _fun97792_ip = 27; continue _fun97792 }
  24:
                 entity = zulu;
  27:
-                if(entity) { _fun97782_ip = 33; continue _fun97782 }
+                if(entity) { _fun97792_ip = 33; continue _fun97792 }
  30:
                 entity = mike;
  33:
@@ -92,17 +92,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = zulu.bind(tango)();
         zulu = tango.then;
         mike = function(argFoo) {
-            _fun97784: for(var _fun97784_ip = 0; ; ) switch(_fun97784_ip) {
+            _fun97794: for(var _fun97794_ip = 0; ; ) switch(_fun97794_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.alert;
                 mike = entity.sound;
                 entity = entity.badge;
-                if(zulu) { _fun97784_ip = 27; continue _fun97784 }
+                if(zulu) { _fun97794_ip = 27; continue _fun97794 }
  24:
                 zulu = mike;
  27:
-                if(zulu) { _fun97784_ip = 33; continue _fun97784 }
+                if(zulu) { _fun97794_ip = 33; continue _fun97794 }
  30:
                 zulu = entity;
  33:
@@ -119,17 +119,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = 'notification';
                 mike['type'] = golf;
                 golf = 'denied';
-                if(!zulu) { _fun97784_ip = 96; continue _fun97784 }
+                if(!zulu) { _fun97794_ip = 96; continue _fun97794 }
  92:
                 golf = 'accepted';
  96:
                 mike['action'] = golf;
                 mike = report.bind(oscar)(tango, mike);
                 report = null;
-                if(!(report != zulu)) { _fun97784_ip = 132; continue _fun97784 }
+                if(!(report != zulu)) { _fun97794_ip = 132; continue _fun97794 }
  112:
                 tango = _closure2_slot0;
-                if(!(report != tango)) { _fun97784_ip = 132; continue _fun97784 }
+                if(!(report != tango)) { _fun97794_ip = 132; continue _fun97794 }
  123:
                 mike = _closure2_slot0;
                 mike = mike.bind(entity)(zulu);
@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun97787: for(var _fun97787_ip = 0; ; ) switch(_fun97787_ip) {
+                _fun97797: for(var _fun97797_ip = 0; ; ) switch(_fun97797_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun97787_ip = 12; continue _fun97787 }
+                    if(mike) { _fun97797_ip = 12; continue _fun97797 }
  7:
                     mike = undefined;
                     return mike;
@@ -172,11 +172,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['disabled'] = options;
     mike['shouldRequestNotification'] = golf;
     tango = function(argFoo) { // Original name: playNotificationSound
-        _fun97789: for(var _fun97789_ip = 0; ; ) switch(_fun97789_ip) {
+        _fun97799: for(var _fun97799_ip = 0; ; ) switch(_fun97799_ip) {
  0:
             oscar = arguments[1];
             entity = undefined;
-            if(!(oscar === entity)) { _fun97789_ip = 12; continue _fun97789 }
+            if(!(oscar === entity)) { _fun97799_ip = 12; continue _fun97799 }
  9:
             oscar = 1;
  12:

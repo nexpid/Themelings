@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report[verify] = options;
     var _closure1_slot6 = report;
     report = function(argFoo) { // Original name: stylesFor
-        _fun121878: for(var _fun121878_ip = 0; ; ) switch(_fun121878_ip) {
+        _fun121884: for(var _fun121884_ip = 0; ; ) switch(_fun121884_ip) {
  0:
             mike = _closure1_slot6;
             entity = argFoo;
@@ -67,37 +67,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = undefined;
             mike = mike === golf;
             yankee = undefined;
-            if(mike) { _fun121878_ip = 41; continue _fun121878 }
+            if(mike) { _fun121884_ip = 41; continue _fun121884 }
  38:
             yankee = zulu;
  41:
             tango = undefined;
-            if(mike) { _fun121878_ip = 71; continue _fun121878 }
+            if(mike) { _fun121884_ip = 71; continue _fun121884 }
  46:
             options = oscar().value;
             zulu = entity;
             zulu = zulu === golf;
             tango = undefined;
             mike = zulu;
-            if(zulu) { _fun121878_ip = 71; continue _fun121878 }
+            if(zulu) { _fun121884_ip = 71; continue _fun121884 }
  65:
             tango = options;
             mike = zulu;
  71:
             zulu = undefined;
-            if(mike) { _fun121878_ip = 101; continue _fun121878 }
+            if(mike) { _fun121884_ip = 101; continue _fun121884 }
  76:
             options = oscar().value;
             oscar = entity;
             oscar = oscar === golf;
             zulu = undefined;
             mike = oscar;
-            if(oscar) { _fun121878_ip = 101; continue _fun121878 }
+            if(oscar) { _fun121884_ip = 101; continue _fun121884 }
  95:
             zulu = options;
             mike = oscar;
  101:
-            if(mike) { _fun121878_ip = 107; continue _fun121878 }
+            if(mike) { _fun121884_ip = 107; continue _fun121884 }
  104:
             entity.return();
  107:

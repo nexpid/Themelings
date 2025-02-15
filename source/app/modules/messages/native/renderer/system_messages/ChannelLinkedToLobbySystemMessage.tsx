@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createChannelLinkedToLobbySystemMessage
-        _fun72581: for(var _fun72581_ip = 0; ; ) switch(_fun72581_ip) {
+        _fun72587: for(var _fun72587_ip = 0; ; ) switch(_fun72587_ip) {
  0:
             report = argFoo;
             golf = report.message;
@@ -52,12 +52,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             foxtrot = entity != yankee;
             mike = '';
-            if(!foxtrot) { _fun72581_ip = 87; continue _fun72581 }
+            if(!foxtrot) { _fun72587_ip = 87; continue _fun72587 }
  84:
             mike = yankee;
  87:
             mike = oscar.bind(offset)(mike);
-            if(!(entity != mike)) { _fun72581_ip = 445; continue _fun72581 }
+            if(!(entity != mike)) { _fun72587_ip = 445; continue _fun72587 }
  99:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -78,11 +78,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar['colorString'] = yankee;
             foxtrot = 'username';
             options = null;
-            if(!(foxtrot === romeo)) { _fun72581_ip = 187; continue _fun72581 }
+            if(!(foxtrot === romeo)) { _fun72587_ip = 187; continue _fun72587 }
  184:
             options = yankee;
  187:
-            if(!(entity == options)) { _fun72581_ip = 197; continue _fun72581 }
+            if(!(entity == options)) { _fun72587_ip = 197; continue _fun72587 }
  191:
             options = verify.defaultUsernameColor;
  197:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar['roleColor'] = yankee;
             options = 'dot';
             options = options === romeo;
-            if(!options) { _fun72581_ip = 222; continue _fun72581 }
+            if(!options) { _fun72587_ip = 222; continue _fun72587 }
  218:
             options = entity != yankee;
  222:

@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'components_native/premium/GuildBoostingUpsell.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: _default
-        _fun96092: for(var _fun96092_ip = 0; ; ) switch(_fun96092_ip) {
+        _fun96102: for(var _fun96102_ip = 0; ; ) switch(_fun96102_ip) {
  0:
             entity = argFoo;
             sizing = entity.onLearnMorePremium;
@@ -253,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = entity.bind(report)();
             entity = _closure1_slot6;
             entity = entity.NONE;
-            if(!(echo !== entity)) { _fun96092_ip = 181; continue _fun96092 }
+            if(!(echo !== entity)) { _fun96102_ip = 181; continue _fun96102 }
  170:
-            if(result) { _fun96092_ip = 181; continue _fun96092 }
+            if(result) { _fun96102_ip = 181; continue _fun96102 }
  173:
             entity = null;
-            if(!mike) { _fun96092_ip = 2122; continue _fun96092 }
+            if(!mike) { _fun96102_ip = 2122; continue _fun96102 }
  181:
             tango = _closure1_slot8;
             zulu = _closure1_slot3;
@@ -293,12 +293,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(backup)(update);
             update = _closure1_slot1;
             source = _closure1_slot2;
-            if(yankee) { _fun96092_ip = 334; continue _fun96092 }
+            if(yankee) { _fun96102_ip = 334; continue _fun96102 }
  320:
             yankee = 31;
             yankee = source[yankee];
             yankee = update.bind(report)(yankee);
-            _fun96092_ip = 346; continue _fun96092;
+            _fun96102_ip = 346; continue _fun96102;
  334:
             backup = 30;
             backup = source[backup];
@@ -545,12 +545,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = kilo.upsell;
             golf['style'] = offset;
             backup = null;
-            if(!foxtrot) { _fun96092_ip = 1505; continue _fun96092 }
+            if(!foxtrot) { _fun96102_ip = 1505; continue _fun96102 }
  1457:
             offset = _closure1_slot6;
             offset = offset.NONE;
             backup = null;
-            if(!(echo === offset)) { _fun96092_ip = 1505; continue _fun96092 }
+            if(!(echo === offset)) { _fun96102_ip = 1505; continue _fun96102 }
  1473:
             update = _closure1_slot7;
             echo = _closure1_slot1;
@@ -564,13 +564,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(3);
             offset[0] = backup;
             backup = null;
-            if(result) { _fun96092_ip = 2038; continue _fun96092 }
+            if(result) { _fun96102_ip = 2038; continue _fun96102 }
  1521:
             echo = _closure1_slot8;
             result = _closure1_slot3;
             update = {};
             sequence = _closure1_slot7;
-            if(output) { _fun96092_ip = 1785; continue _fun96092 }
+            if(output) { _fun96102_ip = 1785; continue _fun96102 }
  1541:
             source = _closure1_slot4;
             output = {};
@@ -625,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[2] = source;
             update['children'] = output;
             output = update;
-            _fun96092_ip = 2032; continue _fun96092;
+            _fun96102_ip = 2032; continue _fun96102;
  1785:
             target = _closure1_slot0;
             config = _closure1_slot2;
@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  2038:
             offset[1] = backup;
             yankee = null;
-            if(!foxtrot) { _fun96092_ip = 2094; continue _fun96092 }
+            if(!foxtrot) { _fun96102_ip = 2094; continue _fun96102 }
  2047:
             backup = _closure1_slot7;
             foxtrot = _closure1_slot1;

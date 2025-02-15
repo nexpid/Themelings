@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun70482: for(var _fun70482_ip = 0; ; ) switch(_fun70482_ip) {
+        _fun70488: for(var _fun70488_ip = 0; ; ) switch(_fun70488_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun70482_ip = 51; continue _fun70482 }
+            if(entity) { _fun70488_ip = 51; continue _fun70488 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun70482_ip = 92; continue _fun70482;
+            _fun70488_ip = 92; continue _fun70488;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun70482_ip = 71; continue _fun70482 }
+            if(oscar) { _fun70488_ip = 71; continue _fun70488 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun70483: for(var _fun70483_ip = 0; ; ) switch(_fun70483_ip) {
+        _fun70489: for(var _fun70489_ip = 0; ; ) switch(_fun70489_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun70483_ip = 76; continue _fun70483;
+            _fun70489_ip = 76; continue _fun70489;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -177,14 +177,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'getSimilarApplications';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun70489: for(var _fun70489_ip = 0; ; ) switch(_fun70489_ip) {
+            _fun70495: for(var _fun70495_ip = 0; ; ) switch(_fun70495_ip) {
  0:
                 entity = argFoo;
                 oscar = entity.applicationId;
                 report = entity.guildId;
                 mike = entity.page;
                 entity = null;
-                if(!(entity == oscar)) { _fun70489_ip = 29; continue _fun70489 }
+                if(!(entity == oscar)) { _fun70495_ip = 29; continue _fun70495 }
  25:
                 entity = undefined;
                 return entity;
@@ -209,14 +209,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getFetchState';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun70490: for(var _fun70490_ip = 0; ; ) switch(_fun70490_ip) {
+            _fun70496: for(var _fun70496_ip = 0; ; ) switch(_fun70496_ip) {
  0:
                 entity = argFoo;
                 oscar = entity.applicationId;
                 report = entity.guildId;
                 mike = entity.page;
                 entity = null;
-                if(!(entity == oscar)) { _fun70490_ip = 29; continue _fun70490 }
+                if(!(entity == oscar)) { _fun70496_ip = 29; continue _fun70496 }
  25:
                 entity = undefined;
                 return entity;

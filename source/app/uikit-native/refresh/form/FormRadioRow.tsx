@@ -33,13 +33,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormRadioRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormRadioRow
-        _fun63762: for(var _fun63762_ip = 0; ; ) switch(_fun63762_ip) {
+        _fun63767: for(var _fun63767_ip = 0; ; ) switch(_fun63767_ip) {
  0:
             zulu = argFoo;
             options = zulu.selected;
             foxtrot = zulu.align;
             report = undefined;
-            if(!(foxtrot === report)) { _fun63762_ip = 25; continue _fun63762 }
+            if(!(foxtrot === report)) { _fun63767_ip = 25; continue _fun63767 }
  21:
             foxtrot = 'left';
  25:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.RedesignCompatContext;
             entity = zulu.bind(tango)(entity);
             tango = _closure1_slot4;
-            if(entity) { _fun63762_ip = 335; continue _fun63762 }
+            if(entity) { _fun63767_ip = 335; continue _fun63767 }
  135:
             zulu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[yankee] = backup;
             yankee = 'right';
             romeo = null;
-            if(!(yankee === foxtrot)) { _fun63762_ip = 261; continue _fun63762 }
+            if(!(yankee === foxtrot)) { _fun63767_ip = 261; continue _fun63767 }
  224:
             kilo = _closure1_slot4;
             backup = _closure1_slot1;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[yankee] = romeo;
             yankee = 'left';
             romeo = offset;
-            if(!(yankee === foxtrot)) { _fun63762_ip = 318; continue _fun63762 }
+            if(!(yankee === foxtrot)) { _fun63767_ip = 318; continue _fun63767 }
  281:
             backup = _closure1_slot4;
             foxtrot = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 'leading';
             entity[yankee] = romeo;
             entity = tango.bind(report)(zulu, entity);
-            _fun63762_ip = 397; continue _fun63762;
+            _fun63767_ip = 397; continue _fun63767;
  335:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;

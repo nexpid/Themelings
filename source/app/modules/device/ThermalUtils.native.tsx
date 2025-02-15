@@ -1,6 +1,6 @@
 // app/modules/device/ThermalUtils.native.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun53174: for(var _fun53174_ip = 0; ; ) switch(_fun53174_ip) {
+    _fun53181: for(var _fun53181_ip = 0; ; ) switch(_fun53181_ip) {
  0:
         report = argBar;
         verify = argBaz;
@@ -29,10 +29,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         offset = report.bind(entity)(golf);
         golf = offset.isAndroid;
         golf = golf.bind(offset)();
-        if(golf) { _fun53174_ip = 119; continue _fun53174 }
+        if(golf) { _fun53181_ip = 119; continue _fun53181 }
  111:
         mike = mike.DCDDeviceThermalStateManager;
-        _fun53174_ip = 131; continue _fun53174;
+        _fun53181_ip = 131; continue _fun53181;
  119:
         golf = 2;
         golf = oscar[golf];
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         options = report.bind(entity)(mike);
         golf = options.create;
         mike = function(argFoo) {
-            _fun53175: for(var _fun53175_ip = 0; ; ) switch(_fun53175_ip) {
+            _fun53182: for(var _fun53182_ip = 0; ; ) switch(_fun53182_ip) {
  0:
                 mike = argFoo;
                 var _closure2_slot0 = mike;
@@ -68,12 +68,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = _closure2_slot0;
                         mike = undefined;
                         entity = function(argFoo) {
-                            _fun53178: for(var _fun53178_ip = 0; ; ) switch(_fun53178_ip) {
+                            _fun53185: for(var _fun53185_ip = 0; ; ) switch(_fun53185_ip) {
  0:
                                 entity = argFoo;
                                 tango = entity.rawThermalState;
                                 mike = _closure3_slot0;
-                                if(!(tango !== mike)) { _fun53178_ip = 34; continue _fun53178 }
+                                if(!(tango !== mike)) { _fun53185_ip = 34; continue _fun53185 }
  20:
                                 mike = {};
                                 zulu = _closure3_slot0;
@@ -98,13 +98,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(mike)(tango);
                 tango = report.isAndroid;
                 tango = tango.bind(report)();
-                if(tango) { _fun53175_ip = 77; continue _fun53175 }
+                if(tango) { _fun53182_ip = 77; continue _fun53182 }
  55:
                 tango = _closure1_slot3;
                 report = tango.DCDDeviceThermalStateManager;
                 tango = report.getThermalState;
                 report = tango.bind(report)();
-                _fun53175_ip = 196; continue _fun53175;
+                _fun53182_ip = 196; continue _fun53182;
  77:
                 golf = global;
                 options = golf.parseInt;
@@ -117,12 +117,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(verify)();
                 options = options.bind(mike)(tango);
                 tango = 29;
-                if(!(!(options >= tango))) { _fun53175_ip = 146; continue _fun53175 }
+                if(!(!(options >= tango))) { _fun53182_ip = 146; continue _fun53182 }
  127:
                 options = golf.Promise;
                 tango = options.resolve;
                 tango = tango.bind(options)(mike);
-                _fun53175_ip = 193; continue _fun53175;
+                _fun53182_ip = 193; continue _fun53182;
  146:
                 verify = golf.Promise;
                 options = verify.resolve;

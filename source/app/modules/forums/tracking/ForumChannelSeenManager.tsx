@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun76608: for(var _fun76608_ip = 0; ; ) switch(_fun76608_ip) {
+        _fun76618: for(var _fun76618_ip = 0; ; ) switch(_fun76618_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun76608_ip = 51; continue _fun76608 }
+            if(entity) { _fun76618_ip = 51; continue _fun76618 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun76608_ip = 92; continue _fun76608;
+            _fun76618_ip = 92; continue _fun76618;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun76608_ip = 71; continue _fun76608 }
+            if(oscar) { _fun76618_ip = 71; continue _fun76618 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun76609: for(var _fun76609_ip = 0; ; ) switch(_fun76609_ip) {
+        _fun76619: for(var _fun76619_ip = 0; ; ) switch(_fun76619_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun76609_ip = 76; continue _fun76609;
+            _fun76619_ip = 76; continue _fun76619;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['isForcedFlush'] = zulu;
                 var _closure4_slot0 = mike;
                 entity = function() {
-                    _fun76616: for(var _fun76616_ip = 0; ; ) switch(_fun76616_ip) {
+                    _fun76626: for(var _fun76626_ip = 0; ; ) switch(_fun76626_ip) {
  0:
                         entity = _closure4_slot0;
                         options = entity.guildId;
@@ -190,13 +190,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = 0;
                         entity = mike < entity;
                         zulu = 0;
-                        if(!entity) { _fun76616_ip = 134; continue _fun76616 }
+                        if(!entity) { _fun76626_ip = 134; continue _fun76626 }
  77:
                         foxtrot = verify[zulu];
                         romeo = yankee[foxtrot];
                         entity = romeo.computeSeenTimeDestructive;
                         romeo = entity.bind(romeo)(offset);
-                        if(!(romeo > mike)) { _fun76616_ip = 122; continue _fun76616 }
+                        if(!(romeo > mike)) { _fun76626_ip = 122; continue _fun76626 }
  102:
                         entity = report.push;
                         entity = entity.bind(report)(foxtrot);
@@ -205,10 +205,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  122:
                         zulu = zulu + 1;
                         entity = verify.length;
-                        if(zulu < entity) { _fun76616_ip = 77; continue _fun76616 }
+                        if(zulu < entity) { _fun76626_ip = 77; continue _fun76626 }
  134:
                         entity = report.length;
-                        if(!(mike !== entity)) { _fun76616_ip = 204; continue _fun76616 }
+                        if(!(mike !== entity)) { _fun76626_ip = 204; continue _fun76626 }
  143:
                         zulu = _closure1_slot0;
                         mike = _closure1_slot1;

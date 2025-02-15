@@ -28,20 +28,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/global_discovery/GlobalDiscoveryUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getGlobalDiscoveryTabTitle
-        _fun118032: for(var _fun118032_ip = 0; ; ) switch(_fun118032_ip) {
+        _fun118038: for(var _fun118038_ip = 0; ; ) switch(_fun118038_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot3;
             mike = mike.SERVERS;
-            if(!(mike !== report)) { _fun118032_ip = 204; continue _fun118032 }
+            if(!(mike !== report)) { _fun118038_ip = 204; continue _fun118038 }
  23:
             mike = _closure1_slot3;
             mike = mike.APPS;
-            if(!(mike !== report)) { _fun118032_ip = 145; continue _fun118032 }
+            if(!(mike !== report)) { _fun118038_ip = 145; continue _fun118038 }
  37:
             mike = _closure1_slot3;
             mike = mike.QUESTS;
-            if(!(mike !== report)) { _fun118032_ip = 86; continue _fun118032 }
+            if(!(mike !== report)) { _fun118038_ip = 86; continue _fun118038 }
  51:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -101,19 +101,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getGlobalDiscoveryTabTitle'] = tango;
     mike = function(argFoo) { // Original name: getSelectedTabFromPathname
-        _fun118033: for(var _fun118033_ip = 0; ; ) switch(_fun118033_ip) {
+        _fun118039: for(var _fun118039_ip = 0; ; ) switch(_fun118039_ip) {
  0:
             mike = argFoo;
             zulu = mike.startsWith;
             entity = '/discovery/applications';
             entity = zulu.bind(mike)(entity);
-            if(entity) { _fun118033_ip = 82; continue _fun118033 }
+            if(entity) { _fun118039_ip = 82; continue _fun118039 }
  23:
             entity = '/discovery/quests';
-            if(!(entity !== mike)) { _fun118033_ip = 67; continue _fun118033 }
+            if(!(entity !== mike)) { _fun118039_ip = 67; continue _fun118039 }
  33:
             entity = '/discovery/servers';
-            if(!(entity !== mike)) { _fun118033_ip = 52; continue _fun118033 }
+            if(!(entity !== mike)) { _fun118039_ip = 52; continue _fun118039 }
  43:
             entity = _closure1_slot2;
             return entity;

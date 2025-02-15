@@ -139,14 +139,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/SummarizedIconRow.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SummarizedIconRow
-        _fun75956: for(var _fun75956_ip = 0; ; ) switch(_fun75956_ip) {
+        _fun75966: for(var _fun75966_ip = 0; ; ) switch(_fun75966_ip) {
  0:
             entity = argFoo;
             golf = entity.items;
             var _closure2_slot0 = golf;
             zulu = entity.max;
             tango = undefined;
-            if(!(zulu === tango)) { _fun75956_ip = 29; continue _fun75956 }
+            if(!(zulu === tango)) { _fun75966_ip = 29; continue _fun75966 }
  26:
             zulu = 8;
  29:
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot5 = mike;
             options = entity.style;
             entity = entity.overflowComponent;
-            if(!(entity === tango)) { _fun75956_ip = 95; continue _fun75956 }
+            if(!(entity === tango)) { _fun75966_ip = 95; continue _fun75966 }
  88:
             entity = _closure1_slot5;
  95:
@@ -189,21 +189,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = golf.map;
             report = function(argFoo, argBar) {
-                _fun75957: for(var _fun75957_ip = 0; ; ) switch(_fun75957_ip) {
+                _fun75967: for(var _fun75967_ip = 0; ; ) switch(_fun75967_ip) {
  0:
                     yankee = argFoo;
                     oscar = argBar;
                     entity = _closure2_slot1;
-                    if(!(!(oscar >= entity))) { _fun75957_ip = 257; continue _fun75957 }
+                    if(!(!(oscar >= entity))) { _fun75967_ip = 257; continue _fun75967 }
  20:
                     entity = _closure2_slot1;
                     golf = 1;
                     entity = entity - golf;
-                    if(!(oscar === entity)) { _fun75957_ip = 48; continue _fun75957 }
+                    if(!(oscar === entity)) { _fun75967_ip = 48; continue _fun75967 }
  35:
                     zulu = _closure2_slot8;
                     entity = 0;
-                    if(!(!(zulu > entity))) { _fun75957_ip = 189; continue _fun75957 }
+                    if(!(!(zulu > entity))) { _fun75967_ip = 189; continue _fun75967 }
  48:
                     entity = global;
                     report = entity.Math;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.bind(report)(zulu, entity);
                     verify = entity - golf;
                     entity = null;
-                    if(!yankee) { _fun75957_ip = 187; continue _fun75957 }
+                    if(!yankee) { _fun75967_ip = 187; continue _fun75967 }
  89:
                     options = _closure1_slot3;
                     report = _closure1_slot2;
@@ -226,10 +226,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = _closure2_slot4;
                     zulu[1] = offset;
                     offset = 0;
-                    if(!(offset === oscar)) { _fun75957_ip = 138; continue _fun75957 }
+                    if(!(offset === oscar)) { _fun75967_ip = 138; continue _fun75967 }
  134:
                     offset = {};
-                    _fun75957_ip = 152; continue _fun75957;
+                    _fun75967_ip = 152; continue _fun75967;
  138:
                     romeo = {};
                     foxtrot = _closure2_slot3;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['children'] = verify;
                     entity = options.bind(zulu)(report, tango, oscar);
  187:
-                    _fun75957_ip = 255; continue _fun75957;
+                    _fun75967_ip = 255; continue _fun75967;
  189:
                     report = _closure1_slot3;
                     tango = _closure2_slot6;

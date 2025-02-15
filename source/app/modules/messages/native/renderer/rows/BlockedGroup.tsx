@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.memoize;
     tango = function(argFoo) {
-        _fun69015: for(var _fun69015_ip = 0; ; ) switch(_fun69015_ip) {
+        _fun69021: for(var _fun69021_ip = 0; ; ) switch(_fun69021_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isThemeDark;
             entity = entity.bind(zulu)(tango);
             offset = '#DBE0E4';
-            if(!entity) { _fun69015_ip = 79; continue _fun69015 }
+            if(!entity) { _fun69021_ip = 79; continue _fun69021 }
  48:
             zulu = _closure1_slot1;
             golf = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isThemeDark;
             entity = entity.bind(zulu)(tango);
             verify = '#FAFAFA';
-            if(!entity) { _fun69015_ip = 147; continue _fun69015 }
+            if(!entity) { _fun69021_ip = 147; continue _fun69021 }
  116:
             zulu = _closure1_slot1;
             golf = _closure1_slot2;
@@ -88,11 +88,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(entity);
             entity = zulu.isThemeDark;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun69015_ip = 190; continue _fun69015 }
+            if(entity) { _fun69021_ip = 190; continue _fun69021 }
  178:
             entity = _closure1_slot6;
             tango = entity.GREY1;
-            _fun69015_ip = 259; continue _fun69015;
+            _fun69021_ip = 259; continue _fun69021;
  190:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/rows/BlockedGroup.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: BlockedGroup
-        _fun69016: for(var _fun69016_ip = 0; ; ) switch(_fun69016_ip) {
+        _fun69022: for(var _fun69022_ip = 0; ; ) switch(_fun69022_ip) {
  0:
             entity = argFoo;
             entity = entity.row;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.useMessageRendererTheme;
             backup = zulu.bind(report)();
             zulu = null;
-            if(!(zulu == entity)) { _fun69016_ip = 87; continue _fun69016 }
+            if(!(zulu == entity)) { _fun69022_ip = 87; continue _fun69022 }
  82:
             entity = mike.id;
  87:
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: generateBlockedGroupRowData
-        _fun69019: for(var _fun69019_ip = 0; ; ) switch(_fun69019_ip) {
+        _fun69025: for(var _fun69025_ip = 0; ; ) switch(_fun69025_ip) {
  0:
             entity = argFoo;
             zulu = argBaz;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.TOGGLE_BLOCKED_MESSAGES;
             mike['type'] = verify;
             verify = null;
-            if(!(verify == golf)) { _fun69019_ip = 144; continue _fun69019 }
+            if(!(verify == golf)) { _fun69025_ip = 144; continue _fun69025 }
  139:
             golf = options.id;
  144:

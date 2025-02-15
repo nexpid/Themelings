@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/stage_channels/StageChannelParticipantUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: participantMemberInfo
-        _fun102998: for(var _fun102998_ip = 0; ; ) switch(_fun102998_ip) {
+        _fun102990: for(var _fun102990_ip = 0; ; ) switch(_fun102990_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -42,26 +42,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.isNewUser;
             mike = zulu.user;
             mike = tango.bind(oscar)(mike);
-            if(mike) { _fun102998_ip = 438; continue _fun102998 }
+            if(mike) { _fun102990_ip = 438; continue _fun102990 }
  50:
             mike = zulu.member;
             tango = null;
             oscar = tango == mike;
             options = undefined;
-            if(oscar) { _fun102998_ip = 73; continue _fun102998 }
+            if(oscar) { _fun102990_ip = 73; continue _fun102990 }
  67:
             options = mike.joinedAt;
  73:
-            if(!(tango != options)) { _fun102998_ip = 381; continue _fun102998 }
+            if(!(tango != options)) { _fun102990_ip = 381; continue _fun102990 }
  80:
             mike = zulu.member;
-            if(!(tango != mike)) { _fun102998_ip = 116; continue _fun102998 }
+            if(!(tango != mike)) { _fun102990_ip = 116; continue _fun102990 }
  90:
             mike = zulu.member;
             mike = mike.roles;
             oscar = mike.length;
             mike = 0;
-            if(!(!(oscar > mike))) { _fun102998_ip = 297; continue _fun102998 }
+            if(!(!(oscar > mike))) { _fun102990_ip = 297; continue _fun102990 }
  116:
             mike = global;
             oscar = mike.Date;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(golf)(options);
             oscar = oscar - mike;
             mike = _closure1_slot2;
-            if(!(!(oscar < mike))) { _fun102998_ip = 240; continue _fun102998 }
+            if(!(!(oscar < mike))) { _fun102990_ip = 240; continue _fun102990 }
  183:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.u0gUWl;
             mike = oscar.bind(golf)(mike);
-            _fun102998_ip = 295; continue _fun102998;
+            _fun102990_ip = 295; continue _fun102990;
  240:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
@@ -106,16 +106,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.IKE48v;
             mike = golf.bind(options)(oscar);
  295:
-            _fun102998_ip = 379; continue _fun102998;
+            _fun102990_ip = 379; continue _fun102990;
  297:
             oscar = zulu.role;
             golf = tango == oscar;
             zulu = undefined;
-            if(golf) { _fun102998_ip = 317; continue _fun102998 }
+            if(golf) { _fun102990_ip = 317; continue _fun102990 }
  312:
             zulu = oscar.name;
  317:
-            if(!(tango == zulu)) { _fun102998_ip = 376; continue _fun102998 }
+            if(!(tango == zulu)) { _fun102990_ip = 376; continue _fun102990 }
  321:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  376:
             mike = zulu;
  379:
-            _fun102998_ip = 436; continue _fun102998;
+            _fun102990_ip = 436; continue _fun102990;
  381:
             golf = _closure1_slot0;
             options = _closure1_slot1;

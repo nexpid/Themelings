@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun115914: for(var _fun115914_ip = 0; ; ) switch(_fun115914_ip) {
+            _fun115920: for(var _fun115920_ip = 0; ; ) switch(_fun115920_ip) {
  0:
                 mike = _closure2_slot0;
                 golf = null;
-                if(!(golf != mike)) { _fun115914_ip = 174; continue _fun115914 }
+                if(!(golf != mike)) { _fun115920_ip = 174; continue _fun115920 }
  18:
                 oscar = _closure1_slot4;
                 report = oscar.ackMessageId;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.id;
                 zulu = report.bind(oscar)(zulu);
                 var _closure3_slot0 = zulu;
-                if(!(golf != zulu)) { _fun115914_ip = 170; continue _fun115914 }
+                if(!(golf != zulu)) { _fun115920_ip = 170; continue _fun115920 }
  53:
                 zulu = global;
                 oscar = zulu.Object;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = _closure2_slot0;
                 tango = tango.id;
                 tango = options.bind(verify)(tango);
-                if(!(golf == tango)) { _fun115914_ip = 96; continue _fun115914 }
+                if(!(golf == tango)) { _fun115920_ip = 96; continue _fun115920 }
  94:
                 tango = {};
  96:

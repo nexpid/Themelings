@@ -34,7 +34,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = tango.useEffect;
         mike = function() {
-            _fun82119: for(var _fun82119_ip = 0; ; ) switch(_fun82119_ip) {
+            _fun82135: for(var _fun82135_ip = 0; ; ) switch(_fun82135_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -44,7 +44,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                 tango = tango.bind(zulu)(mike);
                 mike = tango.isIpadOS;
                 mike = mike.bind(tango)();
-                if(mike) { _fun82119_ip = 76; continue _fun82119 }
+                if(mike) { _fun82135_ip = 76; continue _fun82135 }
  38:
                 mike = _closure1_slot0;
                 tango = _closure1_slot1;
@@ -57,7 +57,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                 entity = zulu.bind(tango)(mike, entity);
  76:
                 entity = function() {
-                    _fun82120: for(var _fun82120_ip = 0; ; ) switch(_fun82120_ip) {
+                    _fun82136: for(var _fun82136_ip = 0; ; ) switch(_fun82136_ip) {
  0:
                         tango = _closure1_slot0;
                         zulu = _closure1_slot1;
@@ -67,7 +67,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                         tango = tango.bind(entity)(zulu);
                         zulu = tango.isIpadOS;
                         zulu = zulu.bind(tango)();
-                        if(zulu) { _fun82120_ip = 78; continue _fun82120 }
+                        if(zulu) { _fun82136_ip = 78; continue _fun82136 }
  38:
                         zulu = _closure1_slot0;
                         tango = _closure1_slot1;
@@ -93,7 +93,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function() {
-        _fun82121: for(var _fun82121_ip = 0; ; ) switch(_fun82121_ip) {
+        _fun82137: for(var _fun82137_ip = 0; ; ) switch(_fun82137_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.get;
@@ -104,12 +104,12 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             tango = zulu > mike;
             entity = {};
             report = zulu;
-            if(!tango) { _fun82121_ip = 46; continue _fun82121 }
+            if(!tango) { _fun82137_ip = 46; continue _fun82137 }
  43:
             report = mike;
  46:
             entity['width'] = report;
-            if(!tango) { _fun82121_ip = 56; continue _fun82121 }
+            if(!tango) { _fun82137_ip = 56; continue _fun82137 }
  53:
             mike = zulu;
  56:

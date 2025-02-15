@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/LabeledDataBlock.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: LabeledDataBlock
-        _fun96724: for(var _fun96724_ip = 0; ; ) switch(_fun96724_ip) {
+        _fun96734: for(var _fun96734_ip = 0; ; ) switch(_fun96734_ip) {
  0:
             entity = argFoo;
             offset = entity.children;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = options;
             options = null;
             options = options != sizing;
-            if(!options) { _fun96724_ip = 273; continue _fun96724 }
+            if(!options) { _fun96734_ip = 273; continue _fun96734 }
  166:
             foxtrot = _closure1_slot4;
             romeo = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'string';
             options = typeof offset;
             oscar = offset;
-            if(!(verify === options)) { _fun96724_ip = 360; continue _fun96724 }
+            if(!(verify === options)) { _fun96734_ip = 360; continue _fun96734 }
  309:
             verify = _closure1_slot4;
             options = _closure1_slot0;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun87510: for(var _fun87510_ip = 0; ; ) switch(_fun87510_ip) {
+        _fun87527: for(var _fun87527_ip = 0; ; ) switch(_fun87527_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun87510_ip = 51; continue _fun87510 }
+            if(entity) { _fun87527_ip = 51; continue _fun87527 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun87510_ip = 92; continue _fun87510;
+            _fun87527_ip = 92; continue _fun87527;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun87510_ip = 71; continue _fun87510 }
+            if(oscar) { _fun87527_ip = 71; continue _fun87527 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun87511: for(var _fun87511_ip = 0; ; ) switch(_fun87511_ip) {
+        _fun87528: for(var _fun87528_ip = 0; ; ) switch(_fun87528_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun87511_ip = 76; continue _fun87511;
+            _fun87528_ip = 76; continue _fun87528;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = '_initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun87516: for(var _fun87516_ip = 0; ; ) switch(_fun87516_ip) {
+            _fun87533: for(var _fun87533_ip = 0; ; ) switch(_fun87533_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = 'formGuidelinesStorageKey';
                 tango = zulu.bind(tango)(mike);
                 mike = null;
-                if(!(mike != tango)) { _fun87516_ip = 93; continue _fun87516 }
+                if(!(mike != tango)) { _fun87533_ip = 93; continue _fun87533 }
  53:
                 mike = global;
                 mike = mike.Set;

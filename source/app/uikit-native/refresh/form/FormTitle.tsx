@@ -1,6 +1,6 @@
 // app/uikit-native/refresh/form/FormTitle.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun63722: for(var _fun63722_ip = 0; ; ) switch(_fun63722_ip) {
+    _fun63727: for(var _fun63727_ip = 0; ; ) switch(_fun63727_ip) {
  0:
         golf = argBar;
         foxtrot = argBaz;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = oscar.isAndroid;
         oscar = tango.bind(oscar)();
         tango = 58;
-        if(!oscar) { _fun63722_ip = 184; continue _fun63722 }
+        if(!oscar) { _fun63727_ip = 184; continue _fun63727 }
  181:
         tango = 48;
  184:
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = oscar.isAndroid;
         oscar = mike.bind(oscar)();
         mike = 48;
-        if(!oscar) { _fun63722_ip = 211; continue _fun63722 }
+        if(!oscar) { _fun63727_ip = 211; continue _fun63727 }
  208:
         mike = 56;
  211:
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'uikit-native/refresh/form/FormTitle.tsx';
         oscar = golf.bind(options)(oscar);
         report = function(argFoo) { // Original name: FormTitle
-            _fun63723: for(var _fun63723_ip = 0; ; ) switch(_fun63723_ip) {
+            _fun63728: for(var _fun63728_ip = 0; ; ) switch(_fun63728_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.title;
@@ -110,22 +110,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = entity.numberOfLines;
                 offset = entity.uppercaseTitle;
                 tango = undefined;
-                if(!(offset === tango)) { _fun63723_ip = 33; continue _fun63723 }
+                if(!(offset === tango)) { _fun63728_ip = 33; continue _fun63728 }
  31:
                 offset = true;
  33:
                 sizing = entity.thinTitle;
-                if(!(sizing === tango)) { _fun63723_ip = 45; continue _fun63723 }
+                if(!(sizing === tango)) { _fun63728_ip = 45; continue _fun63728 }
  43:
                 sizing = false;
  45:
                 foxtrot = entity.error;
-                if(!(foxtrot === tango)) { _fun63723_ip = 56; continue _fun63723 }
+                if(!(foxtrot === tango)) { _fun63728_ip = 56; continue _fun63728 }
  54:
                 foxtrot = false;
  56:
                 romeo = entity.inset;
-                if(!(romeo === tango)) { _fun63723_ip = 68; continue _fun63723 }
+                if(!(romeo === tango)) { _fun63728_ip = 68; continue _fun63728 }
  66:
                 romeo = false;
  68:
@@ -139,13 +139,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 output = backup.titleWrapper;
                 golf = new Array(4);
                 golf[0] = output;
-                if(!sizing) { _fun63723_ip = 124; continue _fun63723 }
+                if(!sizing) { _fun63728_ip = 124; continue _fun63728 }
  118:
                 sizing = backup.thinTitle;
  124:
                 golf[1] = sizing;
                 romeo = !romeo;
-                if(!romeo) { _fun63723_ip = 140; continue _fun63723 }
+                if(!romeo) { _fun63728_ip = 140; continue _fun63728 }
  134:
                 romeo = backup.horizontalPadding;
  140:
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = new Array(3);
                 romeo[0] = sizing;
                 romeo[1] = kilo;
-                if(!foxtrot) { _fun63723_ip = 210; continue _fun63723 }
+                if(!foxtrot) { _fun63728_ip = 210; continue _fun63728 }
  205:
                 foxtrot = backup.error;
  210:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = 'header';
                 report['accessibilityRole'] = verify;
                 verify = yankee;
-                if(!offset) { _fun63723_ip = 247; continue _fun63723 }
+                if(!offset) { _fun63728_ip = 247; continue _fun63728 }
  237:
                 offset = yankee.toUpperCase;
                 verify = offset.bind(yankee)();

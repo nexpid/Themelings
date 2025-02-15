@@ -38,29 +38,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/rpc/server/events/subscriptionHelpers.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getInitialSubscriptionPayload
-        _fun109802: for(var _fun109802_ip = 0; ; ) switch(_fun109802_ip) {
+        _fun109808: for(var _fun109808_ip = 0; ; ) switch(_fun109808_ip) {
  0:
             entity = argFoo;
             tango = argBar;
             mike = _closure1_slot3;
             mike = mike.ACTIVITY_PIP_MODE_UPDATE;
-            if(!(mike !== tango)) { _fun109802_ip = 325; continue _fun109802 }
+            if(!(mike !== tango)) { _fun109808_ip = 325; continue _fun109808 }
  26:
             mike = _closure1_slot3;
             mike = mike.ACTIVITY_LAYOUT_MODE_UPDATE;
-            if(!(mike !== tango)) { _fun109802_ip = 259; continue _fun109802 }
+            if(!(mike !== tango)) { _fun109808_ip = 259; continue _fun109808 }
  43:
             mike = _closure1_slot3;
             mike = mike.THERMAL_STATE_UPDATE;
-            if(!(mike !== tango)) { _fun109802_ip = 188; continue _fun109802 }
+            if(!(mike !== tango)) { _fun109808_ip = 188; continue _fun109808 }
  60:
             mike = _closure1_slot3;
             mike = mike.ORIENTATION_UPDATE;
-            if(!(mike !== tango)) { _fun109802_ip = 126; continue _fun109802 }
+            if(!(mike !== tango)) { _fun109808_ip = 126; continue _fun109808 }
  74:
             mike = _closure1_slot3;
             mike = mike.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
-            if(!(mike !== tango)) { _fun109802_ip = 92; continue _fun109802 }
+            if(!(mike !== tango)) { _fun109808_ip = 92; continue _fun109808 }
  88:
             mike = null;
             return mike;
@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.getIsScreenLandscape;
             tango = tango.bind(report)();
             report = _closure1_slot5;
-            if(tango) { _fun109802_ip = 175; continue _fun109802 }
+            if(tango) { _fun109808_ip = 175; continue _fun109808 }
  167:
             tango = report.PORTRAIT;
-            _fun109802_ip = 181; continue _fun109802;
+            _fun109808_ip = 181; continue _fun109808;
  175:
             tango = report.LANDSCAPE;
  181:
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.ThermalStates;
             tango = mike.UNHANDLED;
             mike = null;
-            if(!(report !== tango)) { _fun109802_ip = 257; continue _fun109802 }
+            if(!(report !== tango)) { _fun109808_ip = 257; continue _fun109808 }
  247:
             tango = {};
             tango['thermal_state'] = report;
@@ -120,13 +120,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             report = mike == tango;
             golf = undefined;
-            if(report) { _fun109802_ip = 280; continue _fun109802 }
+            if(report) { _fun109808_ip = 280; continue _fun109808 }
  275:
             golf = tango.id;
  280:
             tango = mike != golf;
             report = null;
-            if(!tango) { _fun109802_ip = 304; continue _fun109802 }
+            if(!tango) { _fun109808_ip = 304; continue _fun109808 }
  289:
             oscar = _closure1_slot2;
             tango = oscar.getLayoutModeForApp;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  304:
             tango = mike != report;
             mike = null;
-            if(!tango) { _fun109802_ip = 323; continue _fun109802 }
+            if(!tango) { _fun109808_ip = 323; continue _fun109808 }
  313:
             tango = {};
             tango['layout_mode'] = report;
@@ -146,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == mike;
             oscar = undefined;
-            if(tango) { _fun109802_ip = 346; continue _fun109802 }
+            if(tango) { _fun109808_ip = 346; continue _fun109808 }
  341:
             oscar = mike.id;
  346:
             mike = entity != oscar;
             tango = null;
-            if(!mike) { _fun109802_ip = 370; continue _fun109802 }
+            if(!mike) { _fun109808_ip = 370; continue _fun109808 }
  355:
             report = _closure1_slot2;
             mike = report.getLayoutModeForApp;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  370:
             mike = entity != tango;
             entity = null;
-            if(!mike) { _fun109802_ip = 403; continue _fun109802 }
+            if(!mike) { _fun109808_ip = 403; continue _fun109808 }
  379:
             mike = {};
             zulu = _closure1_slot4;

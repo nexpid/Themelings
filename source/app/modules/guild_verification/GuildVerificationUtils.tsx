@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_verification/GuildVerificationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun104610: for(var _fun104610_ip = 0; ; ) switch(_fun104610_ip) {
+        _fun104602: for(var _fun104602_ip = 0; ; ) switch(_fun104602_ip) {
  0:
             oscar = argFoo;
             mike = _closure1_slot0;
@@ -49,21 +49,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = oscar.features;
             report = null;
             golf = report == verify;
-            if(entity) { _fun104610_ip = 130; continue _fun104610 }
+            if(entity) { _fun104602_ip = 130; continue _fun104602 }
  64:
             entity = undefined;
-            if(golf) { _fun104610_ip = 89; continue _fun104610 }
+            if(golf) { _fun104602_ip = 89; continue _fun104602 }
  69:
             options = verify.includes;
             mike = _closure1_slot3;
             mike = mike.MEMBER_VERIFICATION_GATE_ENABLED;
             entity = options.bind(verify)(mike);
  89:
-            if(!entity) { _fun104610_ip = 128; continue _fun104610 }
+            if(!entity) { _fun104602_ip = 128; continue _fun104602 }
  92:
             yankee = oscar.features;
             mike = report != yankee;
-            if(!mike) { _fun104610_ip = 125; continue _fun104610 }
+            if(!mike) { _fun104602_ip = 125; continue _fun104602 }
  105:
             offset = yankee.includes;
             options = _closure1_slot3;
@@ -72,22 +72,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  125:
             entity = !mike;
  128:
-            _fun104610_ip = 199; continue _fun104610;
+            _fun104602_ip = 199; continue _fun104602;
  130:
             mike = undefined;
-            if(golf) { _fun104610_ip = 155; continue _fun104610 }
+            if(golf) { _fun104602_ip = 155; continue _fun104602 }
  135:
             options = verify.includes;
             golf = _closure1_slot3;
             golf = golf.MEMBER_VERIFICATION_GATE_ENABLED;
             mike = options.bind(verify)(golf);
  155:
-            if(!mike) { _fun104610_ip = 196; continue _fun104610 }
+            if(!mike) { _fun104602_ip = 196; continue _fun104602 }
  158:
             oscar = oscar.features;
             report = report == oscar;
             zulu = undefined;
-            if(report) { _fun104610_ip = 193; continue _fun104610 }
+            if(report) { _fun104602_ip = 193; continue _fun104602 }
  173:
             report = oscar.includes;
             tango = _closure1_slot3;
@@ -103,14 +103,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['inviteGuildHasPendingMemberDisabledVerification'] = tango;
     mike = function(argFoo) {
-        _fun104611: for(var _fun104611_ip = 0; ; ) switch(_fun104611_ip) {
+        _fun104603: for(var _fun104603_ip = 0; ; ) switch(_fun104603_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot2;
             mike = zulu.getRequest;
             mike = mike.bind(zulu)(report);
             zulu = null;
-            if(!(zulu != mike)) { _fun104611_ip = 71; continue _fun104611 }
+            if(!(zulu != mike)) { _fun104603_ip = 71; continue _fun104603 }
  27:
             zulu = mike.applicationStatus;
             oscar = _closure1_slot0;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar.bind(tango)(mike);
             mike = mike.GuildJoinRequestApplicationStatuses;
             mike = mike.STARTED;
-            if(!(zulu === mike)) { _fun104611_ip = 106; continue _fun104611 }
+            if(!(zulu === mike)) { _fun104603_ip = 106; continue _fun104603 }
  71:
             oscar = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(mike)(zulu);
             mike = zulu.openMemberVerificationModal;
             mike = mike.bind(zulu)(report);
-            _fun104611_ip = 152; continue _fun104611;
+            _fun104603_ip = 152; continue _fun104603;
  106:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

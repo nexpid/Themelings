@@ -7,14 +7,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = yankee;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: getOrParseBioAST
-        _fun71577: for(var _fun71577_ip = 0; ; ) switch(_fun71577_ip) {
+        _fun71583: for(var _fun71583_ip = 0; ; ) switch(_fun71583_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot3;
             entity = mike.get;
             entity = entity.bind(mike)(report);
             mike = null;
-            if(!(mike == entity)) { _fun71577_ip = 58; continue _fun71577 }
+            if(!(mike == entity)) { _fun71583_ip = 58; continue _fun71583 }
  26:
             oscar = _closure1_slot4;
             tango = undefined;
@@ -115,14 +115,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['parseBioReact'] = oscar;
     zulu['getOrParseBioAST'] = report;
     tango = function(argFoo) { // Original name: parseBioReactWithCachedAST
-        _fun71579: for(var _fun71579_ip = 0; ; ) switch(_fun71579_ip) {
+        _fun71585: for(var _fun71585_ip = 0; ; ) switch(_fun71585_ip) {
  0:
             tango = argFoo;
             entity = tango.trim;
             entity = entity.bind(tango)();
             mike = entity.length;
             entity = 0;
-            if(!(entity !== mike)) { _fun71579_ip = 105; continue _fun71579 }
+            if(!(entity !== mike)) { _fun71585_ip = 105; continue _fun71585 }
  24:
             mike = _closure1_slot5;
             zulu = undefined;

@@ -24,11 +24,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: maybeDispatchDevOnlyDummyFriendSuggestions
-        _fun61095: for(var _fun61095_ip = 0; ; ) switch(_fun61095_ip) {
+        _fun61098: for(var _fun61098_ip = 0; ; ) switch(_fun61098_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun61095_ip = 23; continue _fun61095 }
+            if(!(report === entity)) { _fun61098_ip = 23; continue _fun61098 }
  9:
             mike = global;
             mike = mike.Number;

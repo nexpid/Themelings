@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun65644: for(var _fun65644_ip = 0; ; ) switch(_fun65644_ip) {
+        _fun65649: for(var _fun65649_ip = 0; ; ) switch(_fun65649_ip) {
  0:
             entity = argFoo;
             verify = entity.style;
@@ -91,13 +91,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             offset = entity.bind(tango)();
             entity = null;
-            if(!(entity == sizing)) { _fun65644_ip = 197; continue _fun65644 }
+            if(!(entity == sizing)) { _fun65649_ip = 197; continue _fun65649 }
  113:
-            if(!(entity == zulu)) { _fun65644_ip = 179; continue _fun65644 }
+            if(!(entity == zulu)) { _fun65649_ip = 179; continue _fun65649 }
  117:
             entity = entity != control;
             golf = undefined;
-            if(!entity) { _fun65644_ip = 279; continue _fun65644 }
+            if(!entity) { _fun65649_ip = 279; continue _fun65649 }
  129:
             echo = _closure1_slot4;
             mike = _closure1_slot1;
@@ -111,13 +111,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = source;
             entity['size'] = update;
             golf = echo.bind(tango)(mike, entity);
-            _fun65644_ip = 279; continue _fun65644;
+            _fun65649_ip = 279; continue _fun65649;
  179:
             mike = _closure1_slot4;
             entity = {};
             entity['size'] = output;
             golf = mike.bind(tango)(zulu, entity);
-            _fun65644_ip = 279; continue _fun65644;
+            _fun65649_ip = 279; continue _fun65649;
  197:
             zulu = _closure1_slot4;
             mike = _closure1_slot0;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 0.6;
             entity['activeOpacity'] = options;
             options = undefined;
-            if(!romeo) { _fun65644_ip = 373; continue _fun65644 }
+            if(!romeo) { _fun65649_ip = 373; continue _fun65649 }
  369:
             options = _closure1_slot3;
  373:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = yankee;
             options[1] = verify;
             verify = report;
-            if(!verify) { _fun65644_ip = 408; continue _fun65644 }
+            if(!verify) { _fun65649_ip = 408; continue _fun65649 }
  402:
             verify = offset.buttonDisabled;
  408:

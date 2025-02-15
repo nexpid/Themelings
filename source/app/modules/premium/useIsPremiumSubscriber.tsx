@@ -31,11 +31,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/premium/useIsPremiumSubscriber.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useIsPremiumSubscriber
-        _fun77444: for(var _fun77444_ip = 0; ; ) switch(_fun77444_ip) {
+        _fun77454: for(var _fun77454_ip = 0; ; ) switch(_fun77454_ip) {
  0:
             mike = arguments[0];
             report = undefined;
-            if(!(mike === report)) { _fun77444_ip = 24; continue _fun77444 }
+            if(!(mike === report)) { _fun77454_ip = 24; continue _fun77454 }
  11:
             zulu = _closure1_slot3;
             mike = zulu.TIER_2;

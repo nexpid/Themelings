@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isNotNullish'] = tango;
     tango = function(argFoo, argBar) { // Original name: areSetsEqual
-        _fun37434: for(var _fun37434_ip = 0; ; ) switch(_fun37434_ip) {
+        _fun37441: for(var _fun37441_ip = 0; ; ) switch(_fun37441_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
@@ -50,17 +50,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.size;
             entity = tango.size;
             entity = mike === entity;
-            if(!entity) { _fun37434_ip = 92; continue _fun37434 }
+            if(!entity) { _fun37441_ip = 92; continue _fun37441 }
  29:
             mike = oscar.size;
             report = 0;
             mike = report === mike;
-            if(!mike) { _fun37434_ip = 52; continue _fun37434 }
+            if(!mike) { _fun37441_ip = 52; continue _fun37441 }
  43:
             tango = tango.size;
             mike = report === tango;
  52:
-            if(mike) { _fun37434_ip = 89; continue _fun37434 }
+            if(mike) { _fun37441_ip = 89; continue _fun37441 }
  55:
             tango = global;
             report = tango.Array;

@@ -7,29 +7,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: convertToTransitionState
-        _fun53949: for(var _fun53949_ip = 0; ; ) switch(_fun53949_ip) {
+        _fun53956: for(var _fun53956_ip = 0; ; ) switch(_fun53956_ip) {
  0:
             zulu = argFoo;
             mike = null;
             tango = mike == zulu;
             entity = null;
-            if(tango) { _fun53949_ip = 82; continue _fun53949 }
+            if(tango) { _fun53956_ip = 82; continue _fun53956 }
  14:
             oscar = zulu.type;
             report = _closure1_slot6;
             report = report.INSTALLING;
-            if(!(oscar !== report)) { _fun53949_ip = 76; continue _fun53949 }
+            if(!(oscar !== report)) { _fun53956_ip = 76; continue _fun53956 }
  36:
             oscar = zulu.type;
             report = _closure1_slot6;
             report = report.UPDATING;
-            if(!(oscar !== report)) { _fun53949_ip = 76; continue _fun53949 }
+            if(!(oscar !== report)) { _fun53956_ip = 76; continue _fun53956 }
  55:
             report = zulu.type;
             tango = _closure1_slot6;
             tango = tango.UNINSTALLING;
             mike = null;
-            if(!(report === tango)) { _fun53949_ip = 79; continue _fun53949 }
+            if(!(report === tango)) { _fun53956_ip = 79; continue _fun53956 }
  76:
             mike = zulu;
  79:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['convertComboId'] = report;
     report = function(argFoo, argBar) { // Original name: shouldShareApplicationActivity
-        _fun53952: for(var _fun53952_ip = 0; ; ) switch(_fun53952_ip) {
+        _fun53959: for(var _fun53959_ip = 0; ; ) switch(_fun53959_ip) {
  0:
             tango = argBar;
             zulu = _closure1_slot0;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.ShowCurrentGame;
             entity = zulu.getSetting;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun53952_ip = 143; continue _fun53952 }
+            if(!entity) { _fun53959_ip = 143; continue _fun53959 }
  47:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -130,14 +130,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.bind(zulu)();
             entity = _closure1_slot7;
             entity = entity.INVISIBLE;
-            if(!(zulu !== entity)) { _fun53952_ip = 143; continue _fun53952 }
+            if(!(zulu !== entity)) { _fun53959_ip = 143; continue _fun53959 }
  94:
             zulu = tango.getActiveLibraryApplication;
             entity = argFoo;
             tango = zulu.bind(tango)(entity);
             entity = null;
             entity = entity == tango;
-            if(entity) { _fun53952_ip = 141; continue _fun53952 }
+            if(entity) { _fun53959_ip = 141; continue _fun53959 }
  117:
             zulu = tango.hasFlag;
             mike = _closure1_slot5;
@@ -153,13 +153,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['shouldShareApplicationActivity'] = report;
     report = function(argFoo, argBar) { // Original name: calculateProgressPercentage
-        _fun53953: for(var _fun53953_ip = 0; ; ) switch(_fun53953_ip) {
+        _fun53960: for(var _fun53960_ip = 0; ; ) switch(_fun53960_ip) {
  0:
             tango = argBar;
             zulu = 100;
             mike = 0;
             entity = zulu;
-            if(!(mike !== tango)) { _fun53953_ip = 26; continue _fun53953 }
+            if(!(mike !== tango)) { _fun53960_ip = 26; continue _fun53960 }
  15:
             mike = argFoo;
             mike = mike / tango;
@@ -170,17 +170,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['calculateProgressPercentage'] = report;
     report = function(argFoo, argBar, argBaz) { // Original name: shouldShowGameInLibrary
-        _fun53954: for(var _fun53954_ip = 0; ; ) switch(_fun53954_ip) {
+        _fun53961: for(var _fun53961_ip = 0; ; ) switch(_fun53961_ip) {
  0:
             tango = argBar;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun53954_ip = 72; continue _fun53954 }
+            if(!entity) { _fun53961_ip = 72; continue _fun53961 }
  12:
             mike = argBaz;
             mike = mike.enabled;
             mike = !mike;
-            if(mike) { _fun53954_ip = 53; continue _fun53954 }
+            if(mike) { _fun53961_ip = 53; continue _fun53961 }
  26:
             report = tango.hasFlag;
             zulu = _closure1_slot5;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(tango)(zulu);
             mike = !zulu;
  53:
-            if(!mike) { _fun53954_ip = 69; continue _fun53954 }
+            if(!mike) { _fun53961_ip = 69; continue _fun53961 }
  56:
             zulu = tango.isHidden;
             zulu = zulu.bind(tango)();
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = argFoo;
         zulu = tango.reduce;
         mike = function(argFoo, argBar) {
-            _fun53956: for(var _fun53956_ip = 0; ; ) switch(_fun53956_ip) {
+            _fun53963: for(var _fun53963_ip = 0; ; ) switch(_fun53963_ip) {
  0:
                 tango = argFoo;
                 report = argBar;
@@ -214,13 +214,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = entity.bind(oscar)(report);
                 golf = null;
                 entity = tango;
-                if(!(golf != zulu)) { _fun53956_ip = 122; continue _fun53956 }
+                if(!(golf != zulu)) { _fun53963_ip = 122; continue _fun53963 }
  29:
                 report = report.type;
                 mike = _closure1_slot6;
                 mike = mike.UP_TO_DATE;
                 entity = tango;
-                if(!(report !== mike)) { _fun53956_ip = 122; continue _fun53956 }
+                if(!(report !== mike)) { _fun53963_ip = 122; continue _fun53963 }
  51:
                 mike = {};
                 options = tango.total;
@@ -247,14 +247,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getCombinedProgress'] = tango;
     mike = function(argFoo) { // Original name: isUserEntitledToLibraryApplication
-        _fun53957: for(var _fun53957_ip = 0; ; ) switch(_fun53957_ip) {
+        _fun53964: for(var _fun53964_ip = 0; ; ) switch(_fun53964_ip) {
  0:
             report = argFoo;
             entity = report.isDiscordApplication;
             entity = entity.bind(report)();
             mike = !entity;
             entity = !mike;
-            if(mike) { _fun53957_ip = 56; continue _fun53957 }
+            if(mike) { _fun53964_ip = 56; continue _fun53964 }
  22:
             tango = report.isEntitled;
             oscar = _closure1_slot3;

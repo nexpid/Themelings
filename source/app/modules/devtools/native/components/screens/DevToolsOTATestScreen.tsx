@@ -77,7 +77,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/devtools/native/components/screens/DevToolsOTATestScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DevToolsOTATestScreen
-        _fun98501: for(var _fun98501_ip = 0; ; ) switch(_fun98501_ip) {
+        _fun98511: for(var _fun98511_ip = 0; ; ) switch(_fun98511_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -201,13 +201,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot['label'] = sizing;
             sizing = vacuum == echo;
             output = undefined;
-            if(sizing) { _fun98501_ip = 372; continue _fun98501 }
+            if(sizing) { _fun98511_ip = 372; continue _fun98511 }
  367:
             output = echo.source;
  372:
             result = vacuum != output;
             sizing = 'Unknown';
-            if(!result) { _fun98501_ip = 386; continue _fun98501 }
+            if(!result) { _fun98511_ip = 386; continue _fun98511 }
  383:
             sizing = output;
  386:
@@ -238,13 +238,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             kilo['icon'] = result;
             update = vacuum != echo;
             result = '{}';
-            if(!update) { _fun98501_ip = 540; continue _fun98501 }
+            if(!update) { _fun98511_ip = 540; continue _fun98511 }
  507:
             update = global;
             source = update.JSON;
             update = source.stringify;
             echo = echo.metadata;
-            if(!(vacuum == echo)) { _fun98501_ip = 533; continue _fun98501 }
+            if(!(vacuum == echo)) { _fun98511_ip = 533; continue _fun98511 }
  531:
             echo = {};
  533:
@@ -280,7 +280,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             kilo['label'] = result;
             echo = vacuum == control;
             result = 'Yes';
-            if(!echo) { _fun98501_ip = 684; continue _fun98501 }
+            if(!echo) { _fun98511_ip = 684; continue _fun98511 }
  678:
             result = 'No';
  684:
@@ -289,7 +289,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             kilo = new Array(2);
             kilo[0] = sizing;
             sizing = vacuum != control;
-            if(!sizing) { _fun98501_ip = 797; continue _fun98501 }
+            if(!sizing) { _fun98511_ip = 797; continue _fun98511 }
  710:
             echo = _closure1_slot6;
             source = _closure1_slot0;

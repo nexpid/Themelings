@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/connections/native/OfficialConnectionIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: OfficialConnectionIcon
-        _fun90364: for(var _fun90364_ip = 0; ; ) switch(_fun90364_ip) {
+        _fun90381: for(var _fun90381_ip = 0; ; ) switch(_fun90381_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -82,17 +82,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             zulu['guildId'] = mike;
             mike = null;
-            if(!(mike == foxtrot)) { _fun90364_ip = 120; continue _fun90364 }
+            if(!(mike == foxtrot)) { _fun90381_ip = 120; continue _fun90381 }
  103:
             kilo = mike == oscar;
             backup = undefined;
-            if(kilo) { _fun90364_ip = 117; continue _fun90364 }
+            if(kilo) { _fun90381_ip = 117; continue _fun90381 }
  112:
             backup = oscar.id;
  117:
             foxtrot = backup;
  120:
-            if(!(mike == foxtrot)) { _fun90364_ip = 128; continue _fun90364 }
+            if(!(mike == foxtrot)) { _fun90381_ip = 128; continue _fun90381 }
  124:
             foxtrot = _closure1_slot5;
  128:
@@ -100,21 +100,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['size'] = romeo;
             report = report.bind(yankee)(zulu);
             zulu = false;
-            if(!(zulu !== offset)) { _fun90364_ip = 155; continue _fun90364 }
+            if(!(zulu !== offset)) { _fun90381_ip = 155; continue _fun90381 }
  148:
-            if(!(mike == report)) { _fun90364_ip = 572; continue _fun90364 }
+            if(!(mike == report)) { _fun90381_ip = 572; continue _fun90381 }
  155:
-            if(!(mike == verify)) { _fun90364_ip = 177; continue _fun90364 }
+            if(!(mike == verify)) { _fun90381_ip = 177; continue _fun90381 }
  159:
             offset = mike == oscar;
             zulu = undefined;
-            if(offset) { _fun90364_ip = 174; continue _fun90364 }
+            if(offset) { _fun90381_ip = 174; continue _fun90381 }
  168:
             zulu = oscar.colorString;
  174:
             verify = zulu;
  177:
-            if(!(mike == verify)) { _fun90364_ip = 216; continue _fun90364 }
+            if(!(mike == verify)) { _fun90381_ip = 216; continue _fun90381 }
  181:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(zulu)(offset);
             mike = 0.3;
             yankee = verify;
-            if(!(zulu < mike)) { _fun90364_ip = 339; continue _fun90364 }
+            if(!(zulu < mike)) { _fun90381_ip = 339; continue _fun90381 }
  311:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;

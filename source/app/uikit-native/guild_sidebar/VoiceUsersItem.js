@@ -5,7 +5,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun115830: for(var _fun115830_ip = 0; ; ) switch(_fun115830_ip) {
+        _fun115836: for(var _fun115836_ip = 0; ; ) switch(_fun115836_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
             mike = _closure1_slot2;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun115830_ip = 51; continue _fun115830 }
+            if(entity) { _fun115836_ip = 51; continue _fun115836 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun115830_ip = 92; continue _fun115830;
+            _fun115836_ip = 92; continue _fun115836;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun115830_ip = 71; continue _fun115830 }
+            if(oscar) { _fun115836_ip = 71; continue _fun115836 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun115831: for(var _fun115831_ip = 0; ; ) switch(_fun115831_ip) {
+        _fun115837: for(var _fun115837_ip = 0; ; ) switch(_fun115837_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun115831_ip = 76; continue _fun115831;
+            _fun115837_ip = 76; continue _fun115837;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -156,7 +156,7 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
         oscar = 'render';
         report['key'] = oscar;
         entity = function() { // Original name: value
-            _fun115836: for(var _fun115836_ip = 0; ; ) switch(_fun115836_ip) {
+            _fun115842: for(var _fun115842_ip = 0; ; ) switch(_fun115842_ip) {
  0:
                 entity = this;
                 entity = entity.props;
@@ -166,14 +166,14 @@ module.exports = (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlug
                 zulu = _closure1_slot5;
                 mike = {};
                 options = !oscar;
-                if(!options) { _fun115836_ip = 48; continue _fun115836 }
+                if(!options) { _fun115842_ip = 48; continue _fun115842 }
  38:
                 report = _closure1_slot7;
                 options = report.voiceStates;
  48:
                 report = new Array(2);
                 report[0] = options;
-                if(!oscar) { _fun115836_ip = 69; continue _fun115836 }
+                if(!oscar) { _fun115842_ip = 69; continue _fun115842 }
  59:
                 golf = _closure1_slot7;
                 oscar = golf.voiceStatesCollapsed;

@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/keyboard/native/initializeKeyboardListeners.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: initializeKeyboardListeners
-        _fun111344: for(var _fun111344_ip = 0; ; ) switch(_fun111344_ip) {
+        _fun111350: for(var _fun111350_ip = 0; ; ) switch(_fun111350_ip) {
  0:
             options = _closure1_slot3;
             oscar = options.addListener;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.isAndroid;
             tango = tango.bind(report)();
             report = 'keyboardWillShow';
-            if(!tango) { _fun111344_ip = 61; continue _fun111344 }
+            if(!tango) { _fun111350_ip = 61; continue _fun111350 }
  55:
             report = 'keyboardDidShow';
  61:
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.isAndroid;
             oscar = zulu.bind(oscar)();
             zulu = 'keyboardWillHide';
-            if(!oscar) { _fun111344_ip = 125; continue _fun111344 }
+            if(!oscar) { _fun111350_ip = 125; continue _fun111350 }
  119:
             zulu = 'keyboardDidHide';
  125:

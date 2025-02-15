@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['MobileVideoQuestExperiment'] = tango;
     mike = function(argFoo) { // Original name: useIsMobileVideoQuestExperimentEnabled
-        _fun91405: for(var _fun91405_ip = 0; ; ) switch(_fun91405_ip) {
+        _fun91434: for(var _fun91434_ip = 0; ; ) switch(_fun91434_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun91405_ip = 22; continue _fun91405 }
+            if(!(report === mike)) { _fun91434_ip = 22; continue _fun91434 }
  20:
             report = true;
  22:

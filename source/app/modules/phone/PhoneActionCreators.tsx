@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['removePhone'] = options;
     options = function(argFoo) { // Original name: resendCode
-        _fun88749: for(var _fun88749_ip = 0; ; ) switch(_fun88749_ip) {
+        _fun88766: for(var _fun88766_ip = 0; ; ) switch(_fun88766_ip) {
  0:
             tango = {};
             mike = _closure1_slot4;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(mike)();
             mike = null;
             mike = mike != entity;
-            if(!mike) { _fun88749_ip = 36; continue _fun88749 }
+            if(!mike) { _fun88766_ip = 36; continue _fun88766 }
  28:
             zulu = '';
             mike = zulu !== entity;
  36:
-            if(!mike) { _fun88749_ip = 45; continue _fun88749 }
+            if(!mike) { _fun88766_ip = 45; continue _fun88766 }
  39:
             tango['X-Fingerprint'] = entity;
  45:
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['validatePhoneForSupport'] = options;
     report = function(argFoo, argBar) { // Original name: verifyPhone
-        _fun88756: for(var _fun88756_ip = 0; ; ) switch(_fun88756_ip) {
+        _fun88773: for(var _fun88773_ip = 0; ; ) switch(_fun88773_ip) {
  0:
             tango = arguments[2];
             zulu = arguments[3];
@@ -298,12 +298,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = argBar;
             var _closure2_slot1 = mike;
             mike = undefined;
-            if(!(tango === mike)) { _fun88756_ip = 30; continue _fun88756 }
+            if(!(tango === mike)) { _fun88773_ip = 30; continue _fun88773 }
  28:
             tango = true;
  30:
             var _closure2_slot2 = tango;
-            if(!(zulu === mike)) { _fun88756_ip = 40; continue _fun88756 }
+            if(!(zulu === mike)) { _fun88773_ip = 40; continue _fun88773 }
  38:
             zulu = false;
  40:
@@ -311,11 +311,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun88758: for(var _fun88758_ip = 0; ; ) switch(_fun88758_ip) {
+                    _fun88775: for(var _fun88775_ip = 0; ; ) switch(_fun88775_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun88758_ip = 283; continue _fun88758 }
+                        if(mike) { _fun88775_ip = 283; continue _fun88775 }
  10:
                         options = {};
                         zulu = _closure1_slot4;
@@ -323,17 +323,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = mike.bind(zulu)();
                         zulu = null;
                         zulu = zulu != mike;
-                        if(!zulu) { _fun88758_ip = 46; continue _fun88758 }
+                        if(!zulu) { _fun88775_ip = 46; continue _fun88775 }
  38:
                         tango = '';
                         zulu = tango !== mike;
  46:
-                        if(!zulu) { _fun88758_ip = 55; continue _fun88758 }
+                        if(!zulu) { _fun88775_ip = 55; continue _fun88775 }
  49:
                         options['X-Fingerprint'] = mike;
  55:
                         mike = _closure2_slot3;
-                        if(!mike) { _fun88758_ip = 75; continue _fun88758 }
+                        if(!mike) { _fun88775_ip = 75; continue _fun88775 }
  65:
                         mike = '';
                         options['authorization'] = mike;
@@ -375,10 +375,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  209:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun88758_ip = 280; continue _fun88758 }
+                        if(tango) { _fun88775_ip = 280; continue _fun88775 }
  215:
                         zulu = _closure2_slot2;
-                        if(!zulu) { _fun88758_ip = 272; continue _fun88758 }
+                        if(!zulu) { _fun88775_ip = 272; continue _fun88775 }
  222:
                         tango = _closure1_slot1;
                         golf = _closure1_slot2;

@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun113323: for(var _fun113323_ip = 0; ; ) switch(_fun113323_ip) {
+        _fun113329: for(var _fun113329_ip = 0; ; ) switch(_fun113329_ip) {
  0:
             entity = argFoo;
             golf = entity.visible;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 1;
             mike = verify - options;
             zulu = 0;
-            if(!(zulu < mike)) { _fun113323_ip = 186; continue _fun113323 }
+            if(!(zulu < mike)) { _fun113329_ip = 186; continue _fun113329 }
  148:
             offset = report.push;
             romeo = _closure1_slot6;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(report)(mike);
             zulu = zulu + 1;
             mike = verify - options;
-            if(zulu < mike) { _fun113323_ip = 148; continue _fun113323 }
+            if(zulu < mike) { _fun113329_ip = 148; continue _fun113329 }
  186:
             zulu = _closure1_slot6;
             mike = _closure1_slot1;

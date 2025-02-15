@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/game_console/native/GameConsoleAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SelfDismissibleAlertBody
-        _fun103221: for(var _fun103221_ip = 0; ; ) switch(_fun103221_ip) {
+        _fun103213: for(var _fun103213_ip = 0; ; ) switch(_fun103213_ip) {
  0:
             mike = argFoo;
             oscar = mike.body;
@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = verify;
             zulu[1] = options;
             entity = function() {
-                _fun103223: for(var _fun103223_ip = 0; ; ) switch(_fun103223_ip) {
+                _fun103215: for(var _fun103215_ip = 0; ; ) switch(_fun103215_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun103223_ip = 23; continue _fun103223 }
+                    if(!(mike != zulu)) { _fun103215_ip = 23; continue _fun103215 }
  13:
                     mike = _closure2_slot0;
                     entity = undefined;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = tango.bind(golf)(entity, zulu);
             entity = null;
-            if(!(entity != yankee)) { _fun103221_ip = 324; continue _fun103221 }
+            if(!(entity != yankee)) { _fun103213_ip = 324; continue _fun103213 }
  136:
             tango = _closure1_slot7;
             zulu = _closure1_slot3;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun103221_ip = 344; continue _fun103221;
+            _fun103213_ip = 344; continue _fun103213;
  324:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;

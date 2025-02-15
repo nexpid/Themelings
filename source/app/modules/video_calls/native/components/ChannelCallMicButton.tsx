@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallMicButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun103149: for(var _fun103149_ip = 0; ; ) switch(_fun103149_ip) {
+        _fun103141: for(var _fun103141_ip = 0; ; ) switch(_fun103141_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
             golf = entity.disableTint;
             tango = undefined;
-            if(!(golf === tango)) { _fun103149_ip = 24; continue _fun103149 }
+            if(!(golf === tango)) { _fun103141_ip = 24; continue _fun103141 }
  22:
             golf = false;
  24:
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun103151: for(var _fun103151_ip = 0; ; ) switch(_fun103151_ip) {
+                _fun103143: for(var _fun103143_ip = 0; ; ) switch(_fun103143_ip) {
  0:
                     tango = _closure1_slot6;
                     mike = _closure1_slot0;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['size'] = oscar;
                     oscar = _closure2_slot0;
                     report = 'mute';
-                    if(!oscar) { _fun103151_ip = 71; continue _fun103151 }
+                    if(!oscar) { _fun103143_ip = 71; continue _fun103143 }
  67:
                     report = 'unmute';
  71:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(backup)(romeo);
             entity['accessibilityLabel'] = romeo;
             yankee = function() { // Original name: onPress
-                _fun103152: for(var _fun103152_ip = 0; ; ) switch(_fun103152_ip) {
+                _fun103144: for(var _fun103144_ip = 0; ; ) switch(_fun103144_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -149,14 +149,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     mike = report == mike;
                     zulu = undefined;
-                    if(mike) { _fun103152_ip = 44; continue _fun103152 }
+                    if(mike) { _fun103144_ip = 44; continue _fun103144 }
  28:
                     tango = _closure2_slot2;
                     tango = tango.current;
                     mike = report == tango;
                     zulu = tango;
  44:
-                    if(mike) { _fun103152_ip = 57; continue _fun103152 }
+                    if(mike) { _fun103144_ip = 57; continue _fun103144 }
  47:
                     mike = zulu.play;
                     mike = mike.bind(zulu)();
@@ -168,18 +168,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = false;
             entity['disableTint'] = yankee;
             romeo = _closure1_slot3;
-            if(options) { _fun103149_ip = 323; continue _fun103149 }
+            if(options) { _fun103141_ip = 323; continue _fun103141 }
  314:
             verify = 10;
             verify = romeo[verify];
-            _fun103149_ip = 330; continue _fun103149;
+            _fun103141_ip = 330; continue _fun103141;
  323:
             yankee = 9;
             verify = romeo[yankee];
  330:
             verify = offset.bind(tango)(verify);
             entity['source'] = verify;
-            if(golf) { _fun103149_ip = 345; continue _fun103149 }
+            if(golf) { _fun103141_ip = 345; continue _fun103141 }
  342:
             golf = options;
  345:

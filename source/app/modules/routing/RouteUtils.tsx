@@ -6,16 +6,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     entity = function(argFoo, argBar) { // Original name: paramPattern
-        _fun49020: for(var _fun49020_ip = 0; ; ) switch(_fun49020_ip) {
+        _fun49027: for(var _fun49027_ip = 0; ; ) switch(_fun49027_ip) {
  0:
             entity = arguments[2];
             report = undefined;
-            if(!(entity === report)) { _fun49020_ip = 11; continue _fun49020 }
+            if(!(entity === report)) { _fun49027_ip = 11; continue _fun49027 }
  9:
             entity = {};
  11:
             entity = entity.optional;
-            if(!(entity === report)) { _fun49020_ip = 23; continue _fun49020 }
+            if(!(entity === report)) { _fun49027_ip = 23; continue _fun49027 }
  21:
             entity = false;
  23:
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = argFoo;
             options = tango.bind(report)(mike);
             golf = '';
-            if(!entity) { _fun49020_ip = 89; continue _fun49020 }
+            if(!entity) { _fun49027_ip = 89; continue _fun49027 }
  85:
             golf = '?';
  89:
@@ -84,21 +84,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot7 = mike;
     mike = {};
     report = function() { // Original name: guildId
-        _fun49021: for(var _fun49021_ip = 0; ; ) switch(_fun49021_ip) {
+        _fun49028: for(var _fun49028_ip = 0; ; ) switch(_fun49028_ip) {
  0:
             entity = arguments[0];
             report = undefined;
-            if(!(entity === report)) { _fun49021_ip = 11; continue _fun49021 }
+            if(!(entity === report)) { _fun49028_ip = 11; continue _fun49028 }
  9:
             entity = {};
  11:
             tango = entity.name;
-            if(!(tango === report)) { _fun49021_ip = 24; continue _fun49021 }
+            if(!(tango === report)) { _fun49028_ip = 24; continue _fun49028 }
  20:
             tango = 'guildId';
  24:
             oscar = entity.optional;
-            if(!(oscar === report)) { _fun49021_ip = 36; continue _fun49021 }
+            if(!(oscar === report)) { _fun49028_ip = 36; continue _fun49028 }
  34:
             oscar = false;
  36:
@@ -135,21 +135,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     mike['guildId'] = report;
     report = function() { // Original name: channelId
-        _fun49022: for(var _fun49022_ip = 0; ; ) switch(_fun49022_ip) {
+        _fun49029: for(var _fun49029_ip = 0; ; ) switch(_fun49029_ip) {
  0:
             entity = arguments[0];
             report = undefined;
-            if(!(entity === report)) { _fun49022_ip = 11; continue _fun49022 }
+            if(!(entity === report)) { _fun49029_ip = 11; continue _fun49029 }
  9:
             entity = {};
  11:
             tango = entity.name;
-            if(!(tango === report)) { _fun49022_ip = 24; continue _fun49022 }
+            if(!(tango === report)) { _fun49029_ip = 24; continue _fun49029 }
  20:
             tango = 'channelId';
  24:
             oscar = entity.optional;
-            if(!(oscar === report)) { _fun49022_ip = 36; continue _fun49022 }
+            if(!(oscar === report)) { _fun49029_ip = 36; continue _fun49029 }
  34:
             oscar = false;
  36:
@@ -190,26 +190,26 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = 'modules/routing/RouteUtils.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: isValidGuildId
-        _fun49023: for(var _fun49023_ip = 0; ; ) switch(_fun49023_ip) {
+        _fun49030: for(var _fun49030_ip = 0; ; ) switch(_fun49030_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun49023_ip = 71; continue _fun49023 }
+            if(!entity) { _fun49030_ip = 71; continue _fun49030 }
  12:
             mike = _closure1_slot4;
             mike = report === mike;
-            if(mike) { _fun49023_ip = 34; continue _fun49023 }
+            if(mike) { _fun49030_ip = 34; continue _fun49030 }
  26:
             tango = _closure1_slot3;
             mike = report === tango;
  34:
-            if(mike) { _fun49023_ip = 45; continue _fun49023 }
+            if(mike) { _fun49030_ip = 45; continue _fun49030 }
  37:
             tango = _closure1_slot2;
             mike = report === tango;
  45:
-            if(mike) { _fun49023_ip = 68; continue _fun49023 }
+            if(mike) { _fun49030_ip = 68; continue _fun49030 }
  48:
             tango = _closure1_slot7;
             zulu = tango.test;
@@ -224,19 +224,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isValidGuildId'] = report;
     tango = function(argFoo) { // Original name: isValidChannelId
-        _fun49024: for(var _fun49024_ip = 0; ; ) switch(_fun49024_ip) {
+        _fun49031: for(var _fun49031_ip = 0; ; ) switch(_fun49031_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity == report;
-            if(entity) { _fun49024_ip = 58; continue _fun49024 }
+            if(entity) { _fun49031_ip = 58; continue _fun49031 }
  12:
             tango = _closure1_slot7;
             mike = tango.test;
             mike = mike.bind(tango)(report);
             tango = !mike;
             mike = !tango;
-            if(!tango) { _fun49024_ip = 55; continue _fun49024 }
+            if(!tango) { _fun49031_ip = 55; continue _fun49031 }
  38:
             tango = _closure1_slot5;
             zulu = undefined;

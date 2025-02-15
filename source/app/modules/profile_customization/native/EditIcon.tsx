@@ -66,14 +66,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/EditIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditIcon
-        _fun93246: for(var _fun93246_ip = 0; ; ) switch(_fun93246_ip) {
+        _fun93271: for(var _fun93271_ip = 0; ; ) switch(_fun93271_ip) {
  0:
             mike = argFoo;
             options = mike.style;
             var _closure2_slot0 = options;
             golf = mike.size;
             tango = undefined;
-            if(!(golf === tango)) { _fun93246_ip = 29; continue _fun93246 }
+            if(!(golf === tango)) { _fun93271_ip = 29; continue _fun93271 }
  25:
             golf = 'xs';
  29:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = options;
             mike[2] = golf;
             entity = function() {
-                _fun93247: for(var _fun93247_ip = 0; ; ) switch(_fun93247_ip) {
+                _fun93272: for(var _fun93272_ip = 0; ; ) switch(_fun93272_ip) {
  0:
                     entity = {};
                     mike = _closure2_slot2;
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike[0] = tango;
                     report = _closure2_slot1;
                     tango = 'sm';
-                    if(!(tango !== report)) { _fun93247_ip = 47; continue _fun93247 }
+                    if(!(tango !== report)) { _fun93272_ip = 47; continue _fun93272 }
  35:
                     tango = _closure2_slot2;
                     tango = tango.xs;
-                    _fun93247_ip = 57; continue _fun93247;
+                    _fun93272_ip = 57; continue _fun93272;
  47:
                     report = _closure2_slot2;
                     tango = report.sm;

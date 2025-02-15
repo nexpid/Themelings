@@ -152,13 +152,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot6;
         entity['trackOpen'] = oscar;
         report = function(argFoo) { // Original name: trackReport
-            _fun90737: for(var _fun90737_ip = 0; ; ) switch(_fun90737_ip) {
+            _fun90766: for(var _fun90766_ip = 0; ; ) switch(_fun90766_ip) {
  0:
                 entity = argFoo;
                 report = entity.rating;
                 golf = entity.reason;
                 oscar = null;
-                if(!(oscar != report)) { _fun90737_ip = 122; continue _fun90737 }
+                if(!(oscar != report)) { _fun90766_ip = 122; continue _fun90766 }
  21:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = {};
                 options = oscar != golf;
                 oscar = null;
-                if(!options) { _fun90737_ip = 77; continue _fun90737 }
+                if(!options) { _fun90766_ip = 77; continue _fun90766 }
  72:
                 oscar = golf.value;
  77:

@@ -5,22 +5,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     verify = argPlugh;
     oscar = function(argFoo) { // Original name: canReportUser
-        _fun90984: for(var _fun90984_ip = 0; ; ) switch(_fun90984_ip) {
+        _fun91013: for(var _fun91013_ip = 0; ; ) switch(_fun91013_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun90984_ip = 66; continue _fun90984 }
+            if(!(entity != zulu)) { _fun91013_ip = 66; continue _fun91013 }
  9:
             tango = zulu.id;
             report = _closure1_slot3;
             mike = report.getCurrentUser;
             mike = mike.bind(report)();
             entity = entity != mike;
-            if(!entity) { _fun90984_ip = 64; continue _fun90984 }
+            if(!entity) { _fun91013_ip = 64; continue _fun91013 }
  37:
             mike = mike.id;
             mike = mike !== tango;
-            if(!mike) { _fun90984_ip = 61; continue _fun90984 }
+            if(!mike) { _fun91013_ip = 61; continue _fun91013 }
  49:
             tango = zulu.system;
             zulu = true;
@@ -36,12 +36,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = oscar;
     report = function(argFoo) { // Original name: canReportMessage
-        _fun90985: for(var _fun90985_ip = 0; ; ) switch(_fun90985_ip) {
+        _fun91014: for(var _fun91014_ip = 0; ; ) switch(_fun91014_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun90985_ip = 32; continue _fun90985 }
+            if(!entity) { _fun91014_ip = 32; continue _fun91014 }
  12:
             tango = _closure1_slot7;
             zulu = mike.author;
@@ -53,24 +53,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = report;
     tango = function(argFoo) { // Original name: canReportAndDeleteInChannel
-        _fun90986: for(var _fun90986_ip = 0; ; ) switch(_fun90986_ip) {
+        _fun91015: for(var _fun91015_ip = 0; ; ) switch(_fun91015_ip) {
  0:
             options = argFoo;
             zulu = _closure1_slot0;
             entity = zulu.getChannel;
             oscar = entity.bind(zulu)(options);
             entity = null;
-            if(!(entity != oscar)) { _fun90986_ip = 152; continue _fun90986 }
+            if(!(entity != oscar)) { _fun91015_ip = 152; continue _fun91015 }
  29:
             tango = oscar.type;
             zulu = _closure1_slot4;
             zulu = zulu.DM;
-            if(!(tango !== zulu)) { _fun90986_ip = 148; continue _fun90986 }
+            if(!(tango !== zulu)) { _fun91015_ip = 148; continue _fun91015 }
  48:
             tango = oscar.type;
             zulu = _closure1_slot4;
             zulu = zulu.GROUP_DM;
-            if(!(tango !== zulu)) { _fun90986_ip = 148; continue _fun90986 }
+            if(!(tango !== zulu)) { _fun91015_ip = 148; continue _fun91015 }
  67:
             golf = _closure1_slot2;
             report = golf.canWithPartialContext;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = {};
             zulu['channelId'] = options;
             zulu = report.bind(golf)(tango, zulu);
-            if(zulu) { _fun90986_ip = 106; continue _fun90986 }
+            if(zulu) { _fun91015_ip = 106; continue _fun91015 }
  102:
             zulu = false;
             return zulu;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(oscar)();
             zulu = tango.bind(report)(zulu);
             entity = entity != zulu;
-            if(!entity) { _fun90986_ip = 146; continue _fun90986 }
+            if(!entity) { _fun91015_ip = 146; continue _fun91015 }
  138:
             mike = _closure1_slot6;
             entity = zulu >= mike;
@@ -149,18 +149,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['canReportMessage'] = report;
     zulu['canReportAndDeleteInChannel'] = tango;
     mike = function(argFoo) { // Original name: canDeleteAndReportMessage
-        _fun90987: for(var _fun90987_ip = 0; ; ) switch(_fun90987_ip) {
+        _fun91016: for(var _fun91016_ip = 0; ; ) switch(_fun91016_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun90987_ip = 26; continue _fun90987 }
+            if(!entity) { _fun91016_ip = 26; continue _fun91016 }
  12:
             tango = _closure1_slot8;
             mike = undefined;
             entity = tango.bind(mike)(zulu);
  26:
-            if(!entity) { _fun90987_ip = 53; continue _fun90987 }
+            if(!entity) { _fun91016_ip = 53; continue _fun91016 }
  29:
             tango = _closure1_slot9;
             mike = zulu.getChannelId;

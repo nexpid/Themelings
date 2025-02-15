@@ -35,10 +35,10 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun116618: for(var _fun116618_ip = 0; ; ) switch(_fun116618_ip) {
+            _fun116624: for(var _fun116624_ip = 0; ; ) switch(_fun116624_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun116618_ip = 64; continue _fun116618 }
+                if(entity) { _fun116624_ip = 64; continue _fun116624 }
  10:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -63,7 +63,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun116619: for(var _fun116619_ip = 0; ; ) switch(_fun116619_ip) {
+            _fun116625: for(var _fun116625_ip = 0; ; ) switch(_fun116625_ip) {
  0:
                 entity = {};
                 mike = _closure2_slot1;
@@ -85,7 +85,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                 entity = zulu.bind(report)(entity);
                 mike['label'] = entity;
                 entity = null;
-                if(!oscar) { _fun116619_ip = 101; continue _fun116619 }
+                if(!oscar) { _fun116625_ip = 101; continue _fun116625 }
  91:
                 report = _closure1_slot3;
                 entity = report.PREMIUM;
@@ -146,7 +146,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                 yankee = new Array(6);
                 yankee[0] = golf;
                 zulu = null;
-                if(oscar) { _fun116619_ip = 367; continue _fun116619 }
+                if(oscar) { _fun116625_ip = 367; continue _fun116625 }
  357:
                 oscar = _closure1_slot3;
                 zulu = oscar.PREMIUM;

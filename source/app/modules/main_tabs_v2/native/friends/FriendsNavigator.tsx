@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = entity.Navigator;
         entity = {};
         report = function(argFoo) { // Original name: screenOptions
-            _fun118296: for(var _fun118296_ip = 0; ; ) switch(_fun118296_ip) {
+            _fun118302: for(var _fun118302_ip = 0; ; ) switch(_fun118302_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.navigation;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = golf == mike;
                 tango = undefined;
                 entity = undefined;
-                if(zulu) { _fun118296_ip = 40; continue _fun118296 }
+                if(zulu) { _fun118302_ip = 40; continue _fun118302 }
  34:
                 entity = mike.presentation;
  40:
@@ -111,15 +111,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = oscar.params;
                 offset = golf == verify;
                 options = undefined;
-                if(offset) { _fun118296_ip = 85; continue _fun118296 }
+                if(offset) { _fun118302_ip = 85; continue _fun118302 }
  79:
                 options = verify.presentation;
  85:
                 verify = null;
-                if(!(report !== options)) { _fun118296_ip = 106; continue _fun118296 }
+                if(!(report !== options)) { _fun118302_ip = 106; continue _fun118302 }
  91:
                 verify = null;
-                if(zulu) { _fun118296_ip = 106; continue _fun118296 }
+                if(zulu) { _fun118302_ip = 106; continue _fun118302 }
  96:
                 options = _closure2_slot1;
                 verify = options.contentStyle;
@@ -171,16 +171,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = verify[options];
                 verify = options.key;
                 options = oscar.key;
-                if(!(verify === options)) { _fun118296_ip = 236; continue _fun118296 }
+                if(!(verify === options)) { _fun118302_ip = 236; continue _fun118302 }
  211:
                 verify = oscar.params;
                 offset = golf == verify;
                 options = undefined;
-                if(offset) { _fun118296_ip = 232; continue _fun118296 }
+                if(offset) { _fun118302_ip = 232; continue _fun118302 }
  226:
                 options = verify.presentation;
  232:
-                if(!(report === options)) { _fun118296_ip = 272; continue _fun118296 }
+                if(!(report === options)) { _fun118302_ip = 272; continue _fun118302 }
  236:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.bind(tango)(options);
                 options = verify.getRenderModalBackImage;
                 verify = options.bind(verify)(yankee);
-                _fun118296_ip = 306; continue _fun118296;
+                _fun118302_ip = 306; continue _fun118302;
  272:
                 offset = _closure1_slot0;
                 romeo = _closure1_slot2;
@@ -204,12 +204,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.params;
                 golf = golf == oscar;
                 tango = undefined;
-                if(golf) { _fun118296_ip = 336; continue _fun118296 }
+                if(golf) { _fun118302_ip = 336; continue _fun118302 }
  330:
                 tango = oscar.presentation;
  336:
                 tango = report === tango;
-                if(tango) { _fun118296_ip = 346; continue _fun118296 }
+                if(tango) { _fun118302_ip = 346; continue _fun118302 }
  343:
                 tango = zulu;
  346:

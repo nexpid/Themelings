@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = {};
         zulu['guildId'] = golf;
         mike = function() { // Original name: onClose
-            _fun91813: for(var _fun91813_ip = 0; ; ) switch(_fun91813_ip) {
+            _fun91842: for(var _fun91842_ip = 0; ; ) switch(_fun91842_ip) {
  0:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = zulu.bind(tango)(mike);
                 tango = _closure2_slot0;
                 zulu = null;
-                if(!(zulu != tango)) { _fun91813_ip = 62; continue _fun91813 }
+                if(!(zulu != tango)) { _fun91842_ip = 62; continue _fun91842 }
  54:
                 mike = _closure2_slot0;
                 mike = mike.bind(entity)();

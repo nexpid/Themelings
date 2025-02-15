@@ -1,6 +1,6 @@
 // app/stores/billing/BraintreeStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun41943: for(var _fun41943_ip = 0; ; ) switch(_fun41943_ip) {
+    _fun41951: for(var _fun41951_ip = 0; ; ) switch(_fun41951_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot0 = report;
         var _closure1_slot1 = oscar;
         entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-            _fun41944: for(var _fun41944_ip = 0; ; ) switch(_fun41944_ip) {
+            _fun41952: for(var _fun41952_ip = 0; ; ) switch(_fun41952_ip) {
  0:
                 tango = argFoo;
                 oscar = argBaz;
@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot4;
                 entity = _closure1_slot17;
                 entity = entity.bind(zulu)();
-                if(entity) { _fun41944_ip = 51; continue _fun41944 }
+                if(entity) { _fun41952_ip = 51; continue _fun41952 }
  38:
                 entity = verify.apply;
                 entity = entity.bind(verify)(tango, oscar);
-                _fun41944_ip = 92; continue _fun41944;
+                _fun41952_ip = 92; continue _fun41952;
  51:
                 golf = global;
                 options = golf.Reflect;
                 golf = options.construct;
-                if(oscar) { _fun41944_ip = 71; continue _fun41944 }
+                if(oscar) { _fun41952_ip = 71; continue _fun41952 }
  67:
                 oscar = new Array(0);
  71:
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot16 = entity;
         entity = function() { // Original name: _isNativeReflectConstruct
-            _fun41945: for(var _fun41945_ip = 0; ; ) switch(_fun41945_ip) {
+            _fun41953: for(var _fun41953_ip = 0; ; ) switch(_fun41953_ip) {
  0:
  2: // try_start_0
                 mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = !mike;
                 var _closure2_slot0 = mike;
  70: // try_end0
-                _fun41945_ip = 74; continue _fun41945;
+                _fun41953_ip = 74; continue _fun41953;
  72: // catch_target0
                 CatchBlockStart(arg_register=1);
  74:
@@ -129,16 +129,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = report.bind(entity)(options);
         options = verify.isDesktop;
         options = options.bind(verify)();
-        if(!options) { _fun41943_ip = 268; continue _fun41943 }
+        if(!options) { _fun41951_ip = 268; continue _fun41951 }
  234:
         options = mike.window;
         mike = {};
         verify = function() { // Original name: getReturnUrlPrefix
-            _fun41948: for(var _fun41948_ip = 0; ; ) switch(_fun41948_ip) {
+            _fun41956: for(var _fun41956_ip = 0; ; ) switch(_fun41956_ip) {
  0:
                 zulu = _closure1_slot10;
                 mike = null;
-                if(!(mike != zulu)) { _fun41948_ip = 81; continue _fun41948 }
+                if(!(mike != zulu)) { _fun41956_ip = 81; continue _fun41956 }
  13:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = golf;
         golf = function(argFoo) { // Original name: handleBillingPopupBridgeCallback
-            _fun41958: for(var _fun41958_ip = 0; ; ) switch(_fun41958_ip) {
+            _fun41966: for(var _fun41966_ip = 0; ; ) switch(_fun41966_ip) {
  0:
                 entity = argFoo;
                 oscar = entity.paymentSourceType;
@@ -281,10 +281,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.query;
                 report = _closure1_slot9;
                 report = report.PAYPAL;
-                if(!(oscar === report)) { _fun41958_ip = 103; continue _fun41958 }
+                if(!(oscar === report)) { _fun41966_ip = 103; continue _fun41966 }
  42:
                 zulu = _closure1_slot10;
-                if(!(tango === zulu)) { _fun41958_ip = 103; continue _fun41958 }
+                if(!(tango === zulu)) { _fun41966_ip = 103; continue _fun41966 }
  50:
                 zulu = global;
                 zulu = zulu.window;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.onComplete;
                 report = 'function';
                 zulu = typeof tango;
-                if(!(report === zulu)) { _fun41958_ip = 103; continue _fun41958 }
+                if(!(report === zulu)) { _fun41966_ip = 103; continue _fun41966 }
  81:
                 zulu = {};
                 zulu['path'] = mike;
@@ -307,14 +307,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['BILLING_POPUP_BRIDGE_CALLBACK'] = golf;
         golf = function(argFoo) { // Original name: handleBillingPopupBridgeStateUpdate
-            _fun41959: for(var _fun41959_ip = 0; ; ) switch(_fun41959_ip) {
+            _fun41967: for(var _fun41967_ip = 0; ; ) switch(_fun41967_ip) {
  0:
                 entity = argFoo;
                 tango = entity.paymentSourceType;
                 mike = entity.state;
                 zulu = _closure1_slot9;
                 zulu = zulu.PAYPAL;
-                if(!(tango === zulu)) { _fun41959_ip = 35; continue _fun41959 }
+                if(!(tango === zulu)) { _fun41967_ip = 35; continue _fun41967 }
  31:
                 var _closure1_slot10 = mike;
  35:

@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['SensitiveContentDefault'] = report;
     zulu['SensitiveContentDefaultNewUser'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForSensitiveContentDefaults
-        _fun58499: for(var _fun58499_ip = 0; ; ) switch(_fun58499_ip) {
+        _fun58502: for(var _fun58502_ip = 0; ; ) switch(_fun58502_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot0;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             mike = mike.enabled;
-            if(entity) { _fun58499_ip = 82; continue _fun58499 }
+            if(entity) { _fun58502_ip = 82; continue _fun58502 }
  79:
             entity = mike;
  82:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForSensitiveContentDefaults'] = tango;
     tango = function(argFoo) { // Original name: useIsEligibleForSensitiveContentDefaults
-        _fun58500: for(var _fun58500_ip = 0; ; ) switch(_fun58500_ip) {
+        _fun58503: for(var _fun58503_ip = 0; ; ) switch(_fun58503_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot0;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             mike = mike.enabled;
-            if(entity) { _fun58500_ip = 78; continue _fun58500 }
+            if(entity) { _fun58503_ip = 78; continue _fun58503 }
  75:
             entity = mike;
  78:

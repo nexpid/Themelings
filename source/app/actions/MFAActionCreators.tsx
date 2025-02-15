@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun92934: for(var _fun92934_ip = 0; ; ) switch(_fun92934_ip) {
+                _fun92964: for(var _fun92964_ip = 0; ; ) switch(_fun92964_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92934_ip = 116; continue _fun92934 }
+                    if(mike) { _fun92964_ip = 116; continue _fun92964 }
  7:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  99:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun92934_ip = 113; continue _fun92934 }
+                    if(zulu) { _fun92964_ip = 113; continue _fun92964 }
  105:
                     zulu = mike.body;
                     return zulu;
@@ -151,106 +151,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         return entity;
     };
     mike['enableMFAStart'] = golf;
-    golf = function(argFoo) { // Original name: verifyEmailCode
-        mike = argFoo;
-        var _closure2_slot0 = mike;
-        zulu = _closure1_slot3;
-        mike = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun92937: for(var _fun92937_ip = 0; ; ) switch(_fun92937_ip) {
- 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92937_ip = 108; continue _fun92937 }
- 7:
-                    tango = _closure1_slot0;
-                    zulu = _closure1_slot2;
-                    mike = 4;
-                    zulu = zulu[mike];
-                    mike = undefined;
-                    mike = tango.bind(mike)(zulu);
-                    tango = mike.HTTP;
-                    zulu = tango.post;
-                    mike = {};
-                    report = _closure1_slot5;
-                    report = report.MFA_TOTP_ENABLE_VERIFY;
-                    mike['url'] = report;
-                    report = {};
-                    oscar = _closure2_slot0;
-                    report['code'] = oscar;
-                    mike['body'] = report;
-                    report = false;
-                    mike['rejectWithError'] = report;
-                    mike = zulu.bind(tango)(mike);
-                    SaveGenerator(address=91);
- 89:
-                    return mike;
- 91:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun92937_ip = 105; continue _fun92937 }
- 97:
-                    zulu = mike.body;
-                    return zulu;
- 105:
-                    return mike;
- 108:
-                    return entity;
-                }
-            };
-            return entity;
-        };
-        entity = zulu.bind(mike)(entity);
-        entity = entity.bind(mike)();
-        return entity;
-    };
-    mike['verifyEmailCode'] = golf;
-    golf = function(argFoo) { // Original name: resendEmailCode
-        zulu = _closure1_slot0;
-        mike = _closure1_slot2;
-        entity = 4;
-        mike = mike[entity];
-        entity = undefined;
-        entity = zulu.bind(entity)(mike);
-        zulu = entity.HTTP;
-        mike = zulu.post;
-        entity = {};
-        tango = _closure1_slot5;
-        tango = tango.MFA_TOTP_ENABLE_RESEND;
-        entity['url'] = tango;
-        tango = {};
-        report = argFoo;
-        tango['password'] = report;
-        entity['body'] = tango;
-        tango = false;
-        entity['rejectWithError'] = tango;
-        entity = mike.bind(zulu)(entity);
-        return entity;
-    };
-    mike['resendEmailCode'] = golf;
-    golf = function(argFoo) { // Original name: setEmailToken
-        zulu = _closure1_slot1;
-        mike = _closure1_slot2;
-        entity = 3;
-        mike = mike[entity];
-        entity = undefined;
-        tango = zulu.bind(entity)(mike);
-        zulu = tango.dispatch;
-        mike = {};
-        report = 'MFA_ENABLE_EMAIL_TOKEN';
-        mike['type'] = report;
-        report = argFoo;
-        mike['token'] = report;
-        mike = zulu.bind(tango)(mike);
-        return entity;
-    };
-    mike['setEmailToken'] = golf;
     golf = function(argFoo) { // Original name: enable
         entity = argFoo;
-        oscar = entity.password;
-        options = entity.code;
-        golf = entity.secret;
-        report = entity.emailToken;
+        report = entity.password;
+        golf = entity.code;
+        oscar = entity.secret;
         zulu = _closure1_slot0;
         mike = _closure1_slot2;
         entity = 4;
@@ -264,10 +169,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = tango.MFA_TOTP_ENABLE;
         entity['url'] = tango;
         tango = {};
-        tango['code'] = options;
-        tango['secret'] = golf;
-        tango['password'] = oscar;
-        tango['email_token'] = report;
+        tango['code'] = golf;
+        tango['secret'] = oscar;
+        tango['password'] = report;
         entity['body'] = tango;
         tango = true;
         entity['oldFormErrors'] = tango;
@@ -412,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['sendMFABackupCodesVerificationKeyEmail'] = golf;
     golf = function(argFoo, argBar) { // Original name: confirmViewBackupCodes
-        _fun92949: for(var _fun92949_ip = 0; ; ) switch(_fun92949_ip) {
+        _fun92974: for(var _fun92974_ip = 0; ; ) switch(_fun92974_ip) {
  0:
             options = argFoo;
             oscar = argBar;
@@ -422,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(zulu)();
             golf = mike.viewNonce;
             mike = mike.regenerateNonce;
-            if(!oscar) { _fun92949_ip = 49; continue _fun92949 }
+            if(!oscar) { _fun92974_ip = 49; continue _fun92974 }
  46:
             golf = mike;
  49:

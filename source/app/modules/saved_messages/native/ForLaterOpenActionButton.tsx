@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: BadgedBookmarksIcon
-        _fun116327: for(var _fun116327_ip = 0; ; ) switch(_fun116327_ip) {
+        _fun116333: for(var _fun116333_ip = 0; ; ) switch(_fun116333_ip) {
  0:
             entity = argFoo;
             report = entity.showRedDot;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             oscar = foxtrot.container;
             entity['style'] = oscar;
-            if(report) { _fun116327_ip = 174; continue _fun116327 }
+            if(report) { _fun116333_ip = 174; continue _fun116333 }
  119:
             golf = _closure1_slot6;
             oscar = _closure1_slot0;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['size'] = options;
             report['color'] = output;
             report = golf.bind(tango)(oscar, report);
-            _fun116327_ip = 331; continue _fun116327;
+            _fun116333_ip = 331; continue _fun116333;
  174:
             options = _closure1_slot8;
             golf = _closure1_slot7;
@@ -218,14 +218,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun116331: for(var _fun116331_ip = 0; ; ) switch(_fun116331_ip) {
+            _fun116337: for(var _fun116337_ip = 0; ; ) switch(_fun116337_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = undefined;
                 zulu = zulu.bind(entity)();
                 zulu = _closure2_slot1;
                 mike = 0;
-                if(!(mike === zulu)) { _fun116331_ip = 108; continue _fun116331 }
+                if(!(mike === zulu)) { _fun116337_ip = 108; continue _fun116337 }
  23:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = report[zulu];
                 zulu = tango.bind(entity)(zulu);
                 zulu = zulu.bind(entity)();
-                if(zulu) { _fun116331_ip = 108; continue _fun116331 }
+                if(zulu) { _fun116337_ip = 108; continue _fun116337 }
  53:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.EntitlementFeatureNames;
                 mike = mike.SAVED_MESSAGES;
                 mike = zulu.bind(entity)(mike);
-                _fun116331_ip = 200; continue _fun116331;
+                _fun116337_ip = 200; continue _fun116337;
  108:
                 report = _closure1_slot1;
                 mike = _closure1_slot2;

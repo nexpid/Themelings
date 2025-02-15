@@ -38,12 +38,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['TriggerDebuggingAA'] = tango;
     mike = function(argFoo) { // Original name: useTriggerDebuggingAA
-        _fun38358: for(var _fun38358_ip = 0; ; ) switch(_fun38358_ip) {
+        _fun38365: for(var _fun38365_ip = 0; ; ) switch(_fun38365_ip) {
  0:
             entity = argFoo;
             report = entity.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun38358_ip = 17; continue _fun38358 }
+            if(!(report === mike)) { _fun38365_ip = 17; continue _fun38365 }
  15:
             report = false;
  17:

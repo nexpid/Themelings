@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ExampleButton
-        _fun99090: for(var _fun99090_ip = 0; ; ) switch(_fun99090_ip) {
+        _fun99100: for(var _fun99100_ip = 0; ; ) switch(_fun99100_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.variant;
@@ -50,15 +50,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun99091: for(var _fun99091_ip = 0; ; ) switch(_fun99091_ip) {
+                _fun99101: for(var _fun99101_ip = 0; ; ) switch(_fun99101_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun99091_ip = 101; continue _fun99091 }
+                    if(!mike) { _fun99101_ip = 101; continue _fun99101 }
  10:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun99091_ip = 49; continue _fun99091 }
+                    if(!(mike != zulu)) { _fun99101_ip = 49; continue _fun99101 }
  25:
                     mike = global;
                     tango = mike.clearTimeout;
@@ -126,26 +126,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onLongPress'] = kilo;
             entity['loading'] = backup;
             entity['variant'] = foxtrot;
-            if(!(offset != romeo)) { _fun99090_ip = 269; continue _fun99090 }
+            if(!(offset != romeo)) { _fun99100_ip = 269; continue _fun99100 }
  266:
             foxtrot = romeo;
  269:
             backup = offset != foxtrot;
             romeo = '';
-            if(!backup) { _fun99090_ip = 283; continue _fun99090 }
+            if(!backup) { _fun99100_ip = 283; continue _fun99100 }
  280:
             romeo = foxtrot;
  283:
             entity['text'] = romeo;
             offset = offset != yankee;
-            if(!offset) { _fun99090_ip = 297; continue _fun99090 }
+            if(!offset) { _fun99100_ip = 297; continue _fun99100 }
  294:
             offset = yankee;
  297:
             entity['grow'] = offset;
             entity['size'] = golf;
             golf = undefined;
-            if(!verify) { _fun99090_ip = 331; continue _fun99090 }
+            if(!verify) { _fun99100_ip = 331; continue _fun99100 }
  311:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -162,13 +162,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot17 = entity;
     entity = function(argFoo) { // Original name: ExampleIconButton
-        _fun99095: for(var _fun99095_ip = 0; ; ) switch(_fun99095_ip) {
+        _fun99105: for(var _fun99105_ip = 0; ; ) switch(_fun99105_ip) {
  0:
             entity = argFoo;
             golf = entity.variant;
             yankee = entity.showLabel;
             tango = undefined;
-            if(!(yankee === tango)) { _fun99095_ip = 24; continue _fun99095 }
+            if(!(yankee === tango)) { _fun99105_ip = 24; continue _fun99105 }
  22:
             yankee = false;
  24:
@@ -208,15 +208,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun99096: for(var _fun99096_ip = 0; ; ) switch(_fun99096_ip) {
+                _fun99106: for(var _fun99106_ip = 0; ; ) switch(_fun99106_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun99096_ip = 101; continue _fun99096 }
+                    if(!mike) { _fun99106_ip = 101; continue _fun99106 }
  10:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun99096_ip = 49; continue _fun99096 }
+                    if(!(mike != zulu)) { _fun99106_ip = 49; continue _fun99106 }
  25:
                     mike = global;
                     tango = mike.clearTimeout;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.IconButton;
             report = {};
             report['disabled'] = romeo;
-            if(yankee) { _fun99095_ip = 295; continue _fun99095 }
+            if(yankee) { _fun99105_ip = 295; continue _fun99105 }
  224:
             yankee = function() { // Original name: onPress
                 mike = _closure2_slot3;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['onPress'] = yankee;
             romeo = verify != golf;
             yankee = '';
-            if(!romeo) { _fun99095_ip = 249; continue _fun99095 }
+            if(!romeo) { _fun99105_ip = 249; continue _fun99105 }
  246:
             yankee = golf;
  249:
@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = yankee.bind(tango)(entity);
             report['icon'] = entity;
             entity = report;
-            _fun99095_ip = 367; continue _fun99095;
+            _fun99105_ip = 367; continue _fun99105;
  295:
             offset = function() { // Original name: onPress
                 mike = _closure2_slot3;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['onPress'] = offset;
             offset = verify != golf;
             verify = '';
-            if(!offset) { _fun99095_ip = 320; continue _fun99095 }
+            if(!offset) { _fun99105_ip = 320; continue _fun99105 }
  317:
             verify = golf;
  320:
@@ -317,14 +317,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: ExampleImageButton
-        _fun99100: for(var _fun99100_ip = 0; ; ) switch(_fun99100_ip) {
+        _fun99110: for(var _fun99110_ip = 0; ; ) switch(_fun99110_ip) {
  0:
             entity = argFoo;
             oscar = entity.image;
             options = entity.label;
             offset = entity.showLabel;
             tango = undefined;
-            if(!(offset === tango)) { _fun99100_ip = 30; continue _fun99100 }
+            if(!(offset === tango)) { _fun99110_ip = 30; continue _fun99110 }
  28:
             offset = false;
  30:
@@ -364,15 +364,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(1);
             report[0] = zulu;
             zulu = function() {
-                _fun99101: for(var _fun99101_ip = 0; ; ) switch(_fun99101_ip) {
+                _fun99111: for(var _fun99111_ip = 0; ; ) switch(_fun99111_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun99101_ip = 101; continue _fun99101 }
+                    if(!mike) { _fun99111_ip = 101; continue _fun99111 }
  10:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun99101_ip = 49; continue _fun99101 }
+                    if(!(mike != zulu)) { _fun99111_ip = 49; continue _fun99111 }
  25:
                     mike = global;
                     tango = mike.clearTimeout;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.ImageButton;
             report = {};
             report['disabled'] = yankee;
-            if(offset) { _fun99100_ip = 264; continue _fun99100 }
+            if(offset) { _fun99110_ip = 264; continue _fun99110 }
  230:
             offset = function() { // Original name: onPress
                 mike = _closure2_slot3;
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['size'] = entity;
             report['image'] = oscar;
             entity = report;
-            _fun99100_ip = 299; continue _fun99100;
+            _fun99110_ip = 299; continue _fun99110;
  264:
             verify = function() { // Original name: onPress
                 mike = _closure2_slot3;

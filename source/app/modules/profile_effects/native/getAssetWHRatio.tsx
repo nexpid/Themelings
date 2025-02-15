@@ -10,15 +10,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = '__esModule';
     entity = report.bind(oscar)(zulu, entity, tango);
     entity = function(argFoo, argBar) { // Original name: getPositiveValue
-        _fun79969: for(var _fun79969_ip = 0; ; ) switch(_fun79969_ip) {
+        _fun79982: for(var _fun79982_ip = 0; ; ) switch(_fun79982_ip) {
  0:
             entity = argFoo;
             mike = argBar;
             zulu = null;
-            if(!(zulu != entity)) { _fun79969_ip = 18; continue _fun79969 }
+            if(!(zulu != entity)) { _fun79982_ip = 18; continue _fun79982 }
  12:
             zulu = 0;
-            if(!(entity <= zulu)) { _fun79969_ip = 21; continue _fun79969 }
+            if(!(entity <= zulu)) { _fun79982_ip = 21; continue _fun79982 }
  18:
             entity = mike;
  21:

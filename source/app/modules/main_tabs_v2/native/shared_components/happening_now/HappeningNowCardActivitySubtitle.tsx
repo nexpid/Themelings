@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardActivitySubtitle.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: HappeningNowVoiceCardSubtitle
-        _fun115296: for(var _fun115296_ip = 0; ; ) switch(_fun115296_ip) {
+        _fun115302: for(var _fun115302_ip = 0; ; ) switch(_fun115302_ip) {
  0:
             mike = argFoo;
             mike = mike.voiceState;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             offset = options != yankee;
             options = undefined;
-            if(!offset) { _fun115296_ip = 199; continue _fun115296 }
+            if(!offset) { _fun115302_ip = 199; continue _fun115302 }
  168:
             offset = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['HappeningNowVoiceCardSubtitle'] = tango;
     mike = function(argFoo) { // Original name: HappeningNowActivityCardSubtitle
-        _fun115298: for(var _fun115298_ip = 0; ; ) switch(_fun115298_ip) {
+        _fun115304: for(var _fun115304_ip = 0; ; ) switch(_fun115304_ip) {
  0:
             entity = argFoo;
             zulu = entity.activity;
@@ -147,24 +147,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             oscar = mike.bind(tango)();
             mike = null;
-            if(!(mike != zulu)) { _fun115298_ip = 56; continue _fun115298 }
+            if(!(mike != zulu)) { _fun115304_ip = 56; continue _fun115304 }
  34:
             options = zulu.type;
             golf = _closure1_slot5;
             golf = golf.CUSTOM_STATUS;
-            if(!(options !== golf)) { _fun115298_ip = 349; continue _fun115298 }
+            if(!(options !== golf)) { _fun115304_ip = 349; continue _fun115304 }
  56:
-            if(!(mike == report)) { _fun115298_ip = 259; continue _fun115298 }
+            if(!(mike == report)) { _fun115304_ip = 259; continue _fun115304 }
  63:
             golf = mike == zulu;
             report = undefined;
-            if(golf) { _fun115298_ip = 77; continue _fun115298 }
+            if(golf) { _fun115304_ip = 77; continue _fun115304 }
  72:
             report = zulu.name;
  77:
             golf = mike == report;
             report = null;
-            if(golf) { _fun115298_ip = 257; continue _fun115298 }
+            if(golf) { _fun115304_ip = 257; continue _fun115304 }
  89:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify[golf];
             golf = options.bind(tango)(golf);
             golf = golf.bind(tango)(zulu);
-            if(golf) { _fun115298_ip = 214; continue _fun115298 }
+            if(golf) { _fun115304_ip = 214; continue _fun115304 }
  117:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -180,16 +180,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify[golf];
             golf = options.bind(tango)(golf);
             golf = golf.bind(tango)(zulu);
-            if(!golf) { _fun115298_ip = 164; continue _fun115298 }
+            if(!golf) { _fun115304_ip = 164; continue _fun115304 }
  145:
             golf = zulu.details;
-            if(!(mike != golf)) { _fun115298_ip = 164; continue _fun115298 }
+            if(!(mike != golf)) { _fun115304_ip = 164; continue _fun115304 }
  155:
             golf = zulu.state;
-            if(!(mike == golf)) { _fun115298_ip = 171; continue _fun115298 }
+            if(!(mike == golf)) { _fun115304_ip = 171; continue _fun115304 }
  164:
             golf = zulu.name;
-            _fun115298_ip = 212; continue _fun115298;
+            _fun115304_ip = 212; continue _fun115304;
  171:
             romeo = zulu.details;
             yankee = zulu.state;
@@ -200,17 +200,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = ' - ';
             golf = offset.bind(verify)(romeo, options, yankee);
  212:
-            _fun115298_ip = 254; continue _fun115298;
+            _fun115304_ip = 254; continue _fun115304;
  214:
             options = zulu.details;
-            if(!(mike != options)) { _fun115298_ip = 238; continue _fun115298 }
+            if(!(mike != options)) { _fun115304_ip = 238; continue _fun115304 }
  224:
             verify = zulu.details;
             options = '';
-            if(!(options === verify)) { _fun115298_ip = 245; continue _fun115298 }
+            if(!(options === verify)) { _fun115304_ip = 245; continue _fun115304 }
  238:
             options = zulu.name;
-            _fun115298_ip = 251; continue _fun115298;
+            _fun115304_ip = 251; continue _fun115304;
  245:
             options = zulu.details;
  251:
@@ -218,17 +218,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  254:
             report = golf;
  257:
-            _fun115298_ip = 347; continue _fun115298;
+            _fun115304_ip = 347; continue _fun115304;
  259:
-            if(!(mike != zulu)) { _fun115298_ip = 289; continue _fun115298 }
+            if(!(mike != zulu)) { _fun115304_ip = 289; continue _fun115304 }
  263:
             options = zulu.type;
             golf = _closure1_slot5;
             golf = golf.PLAYING;
-            if(!(options === golf)) { _fun115298_ip = 289; continue _fun115298 }
+            if(!(options === golf)) { _fun115304_ip = 289; continue _fun115304 }
  282:
             golf = zulu.name;
-            _fun115298_ip = 344; continue _fun115298;
+            _fun115304_ip = 344; continue _fun115304;
  289:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -245,12 +245,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  344:
             report = golf;
  347:
-            _fun115298_ip = 381; continue _fun115298;
+            _fun115304_ip = 381; continue _fun115304;
  349:
             golf = zulu.state;
             golf = mike != golf;
             mike = null;
-            if(!golf) { _fun115298_ip = 378; continue _fun115298 }
+            if(!golf) { _fun115304_ip = 378; continue _fun115304 }
  363:
             golf = zulu.state;
             zulu = golf.trim;

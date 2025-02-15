@@ -35,17 +35,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot3;
         zulu = function() { // Original name: Queue
-            _fun61106: for(var _fun61106_ip = 0; ; ) switch(_fun61106_ip) {
+            _fun61109: for(var _fun61109_ip = 0; ; ) switch(_fun61109_ip) {
  0:
                 report = arguments[0];
                 tango = arguments[1];
                 zulu = this;
                 entity = undefined;
-                if(!(report === entity)) { _fun61106_ip = 22; continue _fun61106 }
+                if(!(report === entity)) { _fun61109_ip = 22; continue _fun61109 }
  15:
                 report = _closure1_slot4;
  22:
-                if(!(tango === entity)) { _fun61106_ip = 29; continue _fun61106 }
+                if(!(tango === entity)) { _fun61109_ip = 29; continue _fun61109 }
  26:
                 tango = 100;
  29:
@@ -111,22 +111,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = '_drainIfNecessary';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun61109: for(var _fun61109_ip = 0; ; ) switch(_fun61109_ip) {
+            _fun61112: for(var _fun61112_ip = 0; ; ) switch(_fun61112_ip) {
  0:
                 tango = this;
                 var _closure3_slot0 = tango;
                 zulu = tango.timeout;
                 mike = null;
-                if(!(mike === zulu)) { _fun61109_ip = 186; continue _fun61109 }
+                if(!(mike === zulu)) { _fun61112_ip = 186; continue _fun61112 }
  24:
                 mike = tango.queue;
                 zulu = mike.length;
                 mike = 0;
-                if(!(mike !== zulu)) { _fun61109_ip = 186; continue _fun61109 }
+                if(!(mike !== zulu)) { _fun61112_ip = 186; continue _fun61112 }
  44:
                 zulu = tango.draining;
                 mike = true;
-                if(!(mike !== zulu)) { _fun61109_ip = 186; continue _fun61109 }
+                if(!(mike !== zulu)) { _fun61112_ip = 186; continue _fun61112 }
  59:
                 tango['draining'] = mike;
                 zulu = tango.queue;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report.bind(oscar)(mike);
                 mike = tango.drain;
                 entity = function(argFoo, argBar) {
-                    _fun61110: for(var _fun61110_ip = 0; ; ) switch(_fun61110_ip) {
+                    _fun61113: for(var _fun61113_ip = 0; ; ) switch(_fun61113_ip) {
  0:
                         oscar = argFoo;
                         mike = argBar;
@@ -171,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = false;
                         golf['draining'] = report;
                         report = null;
-                        if(!(report != oscar)) { _fun61110_ip = 207; continue _fun61110 }
+                        if(!(report != oscar)) { _fun61113_ip = 207; continue _fun61113 }
  92:
                         verify = oscar.retryAfter;
-                        if(!(report == verify)) { _fun61110_ip = 112; continue _fun61110 }
+                        if(!(report == verify)) { _fun61113_ip = 112; continue _fun61113 }
  102:
                         report = _closure3_slot0;
                         verify = report.defaultRetryAfter;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         };
                         report = options.bind(golf)(report, verify);
                         oscar['timeout'] = report;
-                        _fun61110_ip = 262; continue _fun61110;
+                        _fun61113_ip = 262; continue _fun61113;
  207:
                         report = tango.setImmediate;
                         tango = undefined;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = _closure3_slot2;
                         mike = zulu.bind(tango)(mike);
  234: // try_end0
-                        _fun61110_ip = 262; continue _fun61110;
+                        _fun61113_ip = 262; continue _fun61113;
  236: // catch_target0
                         CatchBlockStart(arg_register=3);
                         entity = _closure3_slot0;

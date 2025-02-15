@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/WarningNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: WarningNotice
-        _fun126741: for(var _fun126741_ip = 0; ; ) switch(_fun126741_ip) {
+        _fun126737: for(var _fun126737_ip = 0; ; ) switch(_fun126737_ip) {
  0:
             entity = argFoo;
             oscar = entity.style;
@@ -162,11 +162,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             options = null;
             oscar = options != foxtrot;
-            if(!oscar) { _fun126741_ip = 278; continue _fun126741 }
+            if(!oscar) { _fun126737_ip = 278; continue _fun126737 }
  274:
             oscar = options != offset;
  278:
-            if(!oscar) { _fun126741_ip = 351; continue _fun126741 }
+            if(!oscar) { _fun126737_ip = 351; continue _fun126737 }
  281:
             verify = _closure1_slot4;
             options = _closure1_slot1;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun92907: for(var _fun92907_ip = 0; ; ) switch(_fun92907_ip) {
+        _fun92939: for(var _fun92939_ip = 0; ; ) switch(_fun92939_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -17,18 +17,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argBar;
             verify = mike.bind(zulu)(entity);
             mike = _closure1_slot5;
-            entity = _closure1_slot15;
+            entity = _closure1_slot14;
             entity = entity.bind(zulu)();
-            if(entity) { _fun92907_ip = 51; continue _fun92907 }
+            if(entity) { _fun92939_ip = 51; continue _fun92939 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun92907_ip = 92; continue _fun92907;
+            _fun92939_ip = 92; continue _fun92939;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun92907_ip = 71; continue _fun92907 }
+            if(oscar) { _fun92939_ip = 71; continue _fun92939 }
  67:
             oscar = new Array(0);
  71:
@@ -41,9 +41,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun92908: for(var _fun92908_ip = 0; ; ) switch(_fun92908_ip) {
+        _fun92940: for(var _fun92940_ip = 0; ; ) switch(_fun92940_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun92908_ip = 76; continue _fun92908;
+            _fun92940_ip = 76; continue _fun92940;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -74,13 +74,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = mike;
+            _closure1_slot14 = mike;
             entity = undefined;
             entity = mike.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     options = entity.Object;
     golf = options.defineProperty;
@@ -116,10 +116,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = golf;
     golf = '';
     var _closure1_slot10 = golf;
-    var _closure1_slot11 = golf;
-    var _closure1_slot12 = mike;
+    var _closure1_slot11 = mike;
     mike = {'viewNonce': '', 'regenerateNonce': ''};
-    var _closure1_slot13 = mike;
+    var _closure1_slot12 = mike;
     mike = 7;
     mike = report[mike];
     mike = oscar.bind(entity)(mike);
@@ -132,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot3;
             zulu = _closure2_slot0;
             oscar = oscar.bind(tango)(report, zulu);
-            mike = _closure1_slot14;
+            mike = _closure1_slot13;
             entity = arguments;
             entity = mike.bind(tango)(report, zulu, entity);
             return entity;
@@ -151,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(6);
+        entity = new Array(5);
         entity[0] = report;
         report = {};
         golf = 'getBackupCodes';
@@ -175,29 +174,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'getNonces';
         report['key'] = golf;
         golf = function() { // Original name: value
-            entity = _closure1_slot13;
+            entity = _closure1_slot12;
             return entity;
         };
         report['value'] = golf;
         entity[3] = report;
         report = {};
-        golf = 'emailToken';
-        report['key'] = golf;
-        golf = function() { // Original name: get
-            entity = _closure1_slot11;
-            return entity;
-        };
-        report['get'] = golf;
-        entity[4] = report;
-        report = {};
         golf = 'hasSeenBackupPrompt';
         report['key'] = golf;
         oscar = function() { // Original name: get
-            entity = _closure1_slot12;
+            entity = _closure1_slot11;
             return entity;
         };
         report['get'] = oscar;
-        entity[5] = report;
+        entity[4] = report;
         entity = mike.bind(zulu)(tango, entity);
         return entity;
     };
@@ -209,13 +199,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     yankee = oscar.bind(entity)(mike);
     mike = {};
     options = function(argFoo) { // Original name: handleEnableSuccess
-        _fun92919: for(var _fun92919_ip = 0; ; ) switch(_fun92919_ip) {
+        _fun92950: for(var _fun92950_ip = 0; ; ) switch(_fun92950_ip) {
  0:
             entity = argFoo;
             report = entity.token;
             zulu = entity.codes;
             entity = undefined;
-            if(!(entity !== report)) { _fun92919_ip = 55; continue _fun92919 }
+            if(!(entity !== report)) { _fun92950_ip = 55; continue _fun92950 }
  21:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -230,14 +220,6 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         }
     };
     mike['MFA_ENABLE_SUCCESS'] = options;
-    options = function(argFoo) { // Original name: handleEnableEmailToken
-        entity = argFoo;
-        mike = entity.token;
-        _closure1_slot11 = mike;
-        entity = undefined;
-        return entity;
-    };
-    mike['MFA_ENABLE_EMAIL_TOKEN'] = options;
     options = function(argFoo) { // Original name: handleDisableSuccess
         entity = argFoo;
         tango = entity.token;
@@ -294,14 +276,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = function(argFoo) { // Original name: handleSendVerificationEmail
         entity = argFoo;
         mike = entity.nonces;
-        _closure1_slot13 = mike;
+        _closure1_slot12 = mike;
         entity = undefined;
         return entity;
     };
     mike['MFA_SEND_VERIFICATION_KEY'] = options;
     tango = function() { // Original name: handleSeenBackupPrompt
         entity = true;
-        _closure1_slot12 = entity;
+        _closure1_slot11 = entity;
         entity = undefined;
         return entity;
     };

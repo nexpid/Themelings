@@ -25,11 +25,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot4 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: backspace
-        _fun100369: for(var _fun100369_ip = 0; ; ) switch(_fun100369_ip) {
+        _fun100378: for(var _fun100378_ip = 0; ; ) switch(_fun100378_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun100369_ip = 115; continue _fun100369 }
+            if(!(entity != zulu)) { _fun100378_ip = 115; continue _fun100378 }
  9:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100369_ip = 78; continue _fun100369 }
+            if(mike) { _fun100378_ip = 78; continue _fun100378 }
  46:
             mike = _closure1_slot4;
             oscar = mike.DCDChatInputManager;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(tango)(zulu);
             mike = report.bind(oscar)(mike);
-            _fun100369_ip = 115; continue _fun100369;
+            _fun100378_ip = 115; continue _fun100378;
  78:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['backspace'] = golf;
     golf = function(argFoo) { // Original name: blur
-        _fun100370: for(var _fun100370_ip = 0; ; ) switch(_fun100370_ip) {
+        _fun100379: for(var _fun100379_ip = 0; ; ) switch(_fun100379_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun100370_ip = 115; continue _fun100370 }
+            if(!(entity != zulu)) { _fun100379_ip = 115; continue _fun100379 }
  9:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100370_ip = 78; continue _fun100370 }
+            if(mike) { _fun100379_ip = 78; continue _fun100379 }
  46:
             mike = _closure1_slot4;
             oscar = mike.DCDChatInputManager;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(tango)(zulu);
             mike = report.bind(oscar)(mike);
-            _fun100370_ip = 115; continue _fun100370;
+            _fun100379_ip = 115; continue _fun100379;
  78:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['blur'] = golf;
     golf = function(argFoo) { // Original name: closeCustomKeyboard
-        _fun100371: for(var _fun100371_ip = 0; ; ) switch(_fun100371_ip) {
+        _fun100380: for(var _fun100380_ip = 0; ; ) switch(_fun100380_ip) {
  0:
             report = argFoo;
             entity = null;
-            if(!(entity != report)) { _fun100371_ip = 76; continue _fun100371 }
+            if(!(entity != report)) { _fun100380_ip = 76; continue _fun100380 }
  9:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(mike);
             mike = zulu.isAndroid;
             mike = mike.bind(zulu)();
-            if(mike) { _fun100371_ip = 80; continue _fun100371 }
+            if(mike) { _fun100380_ip = 80; continue _fun100380 }
  46:
             mike = _closure1_slot4;
             zulu = mike.DCDChatInputManager;
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['closeCustomKeyboard'] = golf;
     golf = function(argFoo, argBar) { // Original name: flushText
-        _fun100372: for(var _fun100372_ip = 0; ; ) switch(_fun100372_ip) {
+        _fun100381: for(var _fun100381_ip = 0; ; ) switch(_fun100381_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun100372_ip = 123; continue _fun100372 }
+            if(!(entity != tango)) { _fun100381_ip = 123; continue _fun100381 }
  9:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(zulu)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100372_ip = 82; continue _fun100372 }
+            if(mike) { _fun100381_ip = 82; continue _fun100381 }
  46:
             mike = global;
             oscar = mike.Error;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['flushText'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: getText
-        _fun100373: for(var _fun100373_ip = 0; ; ) switch(_fun100373_ip) {
+        _fun100382: for(var _fun100382_ip = 0; ; ) switch(_fun100382_ip) {
  0:
             oscar = argFoo;
             verify = argBar;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = verify;
             var _closure2_slot1 = options;
             entity = null;
-            if(!(entity != oscar)) { _fun100373_ip = 333; continue _fun100373 }
+            if(!(entity != oscar)) { _fun100382_ip = 333; continue _fun100382 }
  28:
             golf = _closure1_slot0;
             tango = _closure1_slot2;
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(mike)(tango);
             tango = golf.isAndroid;
             tango = tango.bind(golf)();
-            if(tango) { _fun100373_ip = 249; continue _fun100373 }
+            if(tango) { _fun100382_ip = 249; continue _fun100382 }
  68:
             tango = _closure1_slot3;
             offset = tango.bind(mike)(oscar);
-            if(!(entity != offset)) { _fun100373_ip = 182; continue _fun100373 }
+            if(!(entity != offset)) { _fun100382_ip = 182; continue _fun100382 }
  81:
             tango = _closure1_slot4;
             romeo = tango.DCDChatInputManager;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = offset.bind(mike)(tango);
             tango = tango.captureException;
             tango = golf.bind(options)(tango);
-            _fun100373_ip = 331; continue _fun100373;
+            _fun100382_ip = 331; continue _fun100382;
  182:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new kilo[yankee](backup, foxtrot);
             tango = tango instanceof Object ? tango : offset;
             tango = golf.bind(options)(tango);
-            _fun100373_ip = 331; continue _fun100373;
+            _fun100382_ip = 331; continue _fun100382;
  249:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
@@ -281,11 +281,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['getText'] = golf;
     golf = function(argFoo) { // Original name: focus
-        _fun100375: for(var _fun100375_ip = 0; ; ) switch(_fun100375_ip) {
+        _fun100384: for(var _fun100384_ip = 0; ; ) switch(_fun100384_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun100375_ip = 115; continue _fun100375 }
+            if(!(entity != zulu)) { _fun100384_ip = 115; continue _fun100384 }
  9:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100375_ip = 78; continue _fun100375 }
+            if(mike) { _fun100384_ip = 78; continue _fun100384 }
  46:
             mike = _closure1_slot4;
             oscar = mike.DCDChatInputManager;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(tango)(zulu);
             mike = report.bind(oscar)(mike);
-            _fun100375_ip = 115; continue _fun100375;
+            _fun100384_ip = 115; continue _fun100384;
  78:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -320,11 +320,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['focus'] = golf;
     golf = function(argFoo) { // Original name: openCustomKeyboard
-        _fun100376: for(var _fun100376_ip = 0; ; ) switch(_fun100376_ip) {
+        _fun100385: for(var _fun100385_ip = 0; ; ) switch(_fun100385_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun100376_ip = 119; continue _fun100376 }
+            if(!(entity != zulu)) { _fun100385_ip = 119; continue _fun100385 }
  9:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100376_ip = 82; continue _fun100376 }
+            if(mike) { _fun100385_ip = 82; continue _fun100385 }
  46:
             mike = global;
             oscar = mike.Error;
@@ -361,11 +361,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openCustomKeyboard'] = golf;
     golf = function(argFoo) { // Original name: openSystemKeyboard
-        _fun100377: for(var _fun100377_ip = 0; ; ) switch(_fun100377_ip) {
+        _fun100386: for(var _fun100386_ip = 0; ; ) switch(_fun100386_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun100377_ip = 115; continue _fun100377 }
+            if(!(entity != zulu)) { _fun100386_ip = 115; continue _fun100386 }
  9:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun100377_ip = 78; continue _fun100377 }
+            if(mike) { _fun100386_ip = 78; continue _fun100386 }
  46:
             mike = _closure1_slot4;
             oscar = mike.DCDChatInputManager;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(tango)(zulu);
             mike = report.bind(oscar)(mike);
-            _fun100377_ip = 115; continue _fun100377;
+            _fun100386_ip = 115; continue _fun100386;
  78:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -400,12 +400,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openSystemKeyboard'] = golf;
     golf = function(argFoo, argBar) { // Original name: setText
-        _fun100378: for(var _fun100378_ip = 0; ; ) switch(_fun100378_ip) {
+        _fun100387: for(var _fun100387_ip = 0; ; ) switch(_fun100387_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             entity = null;
-            if(!(entity != tango)) { _fun100378_ip = 120; continue _fun100378 }
+            if(!(entity != tango)) { _fun100387_ip = 120; continue _fun100387 }
  12:
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(report)(mike);
             mike = oscar.isAndroid;
             mike = mike.bind(oscar)();
-            if(mike) { _fun100378_ip = 82; continue _fun100378 }
+            if(mike) { _fun100387_ip = 82; continue _fun100387 }
  49:
             mike = _closure1_slot4;
             golf = mike.DCDChatInputManager;
@@ -423,7 +423,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(report)(tango);
             mike = oscar.bind(golf)(mike, zulu);
-            _fun100378_ip = 120; continue _fun100378;
+            _fun100387_ip = 120; continue _fun100387;
  82:
             mike = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -440,13 +440,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['setText'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: setSelectedRange
-        _fun100379: for(var _fun100379_ip = 0; ; ) switch(_fun100379_ip) {
+        _fun100388: for(var _fun100388_ip = 0; ; ) switch(_fun100388_ip) {
  0:
             report = argFoo;
             tango = argBar;
             zulu = argBaz;
             entity = null;
-            if(!(entity != report)) { _fun100379_ip = 125; continue _fun100379 }
+            if(!(entity != report)) { _fun100388_ip = 125; continue _fun100388 }
  15:
             golf = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(oscar)(mike);
             mike = golf.isAndroid;
             mike = mike.bind(golf)();
-            if(mike) { _fun100379_ip = 86; continue _fun100379 }
+            if(mike) { _fun100388_ip = 86; continue _fun100388 }
  52:
             mike = _closure1_slot4;
             options = mike.DCDChatInputManager;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.bind(oscar)(report);
             mike = golf.bind(options)(mike, tango, zulu);
-            _fun100379_ip = 125; continue _fun100379;
+            _fun100388_ip = 125; continue _fun100388;
  86:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
@@ -481,13 +481,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['setSelectedRange'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: updateTextBlocks
-        _fun100380: for(var _fun100380_ip = 0; ; ) switch(_fun100380_ip) {
+        _fun100389: for(var _fun100389_ip = 0; ; ) switch(_fun100389_ip) {
  0:
             report = argFoo;
             verify = argBar;
             oscar = argBaz;
             golf = null;
-            if(!(golf != report)) { _fun100380_ip = 159; continue _fun100380 }
+            if(!(golf != report)) { _fun100389_ip = 159; continue _fun100389 }
  18:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -497,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun100380_ip = 89; continue _fun100380 }
+            if(zulu) { _fun100389_ip = 89; continue _fun100389 }
  55:
             zulu = _closure1_slot4;
             options = zulu.DCDChatInputManager;
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot3;
             zulu = zulu.bind(entity)(report);
             zulu = tango.bind(options)(zulu, verify, oscar);
-            _fun100380_ip = 159; continue _fun100380;
+            _fun100389_ip = 159; continue _fun100389;
  89:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(options)(verify);
             golf = golf != oscar;
             entity = undefined;
-            if(!golf) { _fun100380_ip = 152; continue _fun100380 }
+            if(!golf) { _fun100389_ip = 152; continue _fun100389 }
  149:
             entity = oscar;
  152:
@@ -532,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['updateTextBlocks'] = golf;
     tango = function(argFoo, argBar) { // Original name: replaceRange
-        _fun100381: for(var _fun100381_ip = 0; ; ) switch(_fun100381_ip) {
+        _fun100390: for(var _fun100390_ip = 0; ; ) switch(_fun100390_ip) {
  0:
             offset = argFoo;
             mike = argBar;
@@ -541,18 +541,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = mike.text;
             romeo = mike.nodes;
             entity = undefined;
-            if(!(romeo === entity)) { _fun100381_ip = 37; continue _fun100381 }
+            if(!(romeo === entity)) { _fun100390_ip = 37; continue _fun100390 }
  33:
             romeo = new Array(0);
  37:
             oscar = mike.keepCursorPosition;
-            if(!(oscar === entity)) { _fun100381_ip = 49; continue _fun100381 }
+            if(!(oscar === entity)) { _fun100390_ip = 49; continue _fun100390 }
  47:
             oscar = false;
  49:
             report = mike.editId;
             mike = null;
-            if(!(mike != offset)) { _fun100381_ip = 227; continue _fun100381 }
+            if(!(mike != offset)) { _fun100390_ip = 227; continue _fun100390 }
  64:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun100381_ip = 151; continue _fun100381 }
+            if(zulu) { _fun100390_ip = 151; continue _fun100390 }
  99:
             zulu = _closure1_slot4;
             yankee = zulu.DCDChatInputManager;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = oscar;
             foxtrot = report;
             zulu = update[tango](echo, result, output, sizing, kilo, backup, foxtrot, romeo);
-            _fun100381_ip = 227; continue _fun100381;
+            _fun100390_ip = 227; continue _fun100390;
  151:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;

@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/launchpad/native/isGuildSelectable.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isGuildSelectable
-        _fun120989: for(var _fun120989_ip = 0; ; ) switch(_fun120989_ip) {
+        _fun120995: for(var _fun120995_ip = 0; ; ) switch(_fun120995_ip) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
@@ -44,14 +44,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.isMuted;
             entity = entity.bind(mike)(verify);
             entity = !entity;
-            if(!entity) { _fun120989_ip = 148; continue _fun120989 }
+            if(!entity) { _fun120995_ip = 148; continue _fun120995 }
  33:
             zulu = _closure1_slot2;
             mike = zulu.hasUnread;
             mike = mike.bind(zulu)(verify);
             zulu = !mike;
             mike = !zulu;
-            if(!zulu) { _fun120989_ip = 145; continue _fun120989 }
+            if(!zulu) { _fun120995_ip = 145; continue _fun120995 }
  57:
             zulu = global;
             golf = zulu.Object;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.length;
             zulu = 0;
             zulu = oscar > zulu;
-            if(zulu) { _fun120989_ip = 142; continue _fun120989 }
+            if(zulu) { _fun120995_ip = 142; continue _fun120995 }
  104:
             oscar = _closure1_slot1;
             report = oscar.getAllApplicationStreams;

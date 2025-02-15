@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activate_device/native/UserCodeInput.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun107518: for(var _fun107518_ip = 0; ; ) switch(_fun107518_ip) {
+        _fun107511: for(var _fun107511_ip = 0; ; ) switch(_fun107511_ip) {
  0:
             entity = argFoo;
             report = entity.onClose;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             options = entity != golf;
             entity = '';
-            if(!options) { _fun107518_ip = 65; continue _fun107518 }
+            if(!options) { _fun107511_ip = 65; continue _fun107511 }
  62:
             entity = golf;
  65:

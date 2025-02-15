@@ -24,28 +24,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/applications/getBotTagFromUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getBotTagTypeFromUser
-        _fun86158: for(var _fun86158_ip = 0; ; ) switch(_fun86158_ip) {
+        _fun86175: for(var _fun86175_ip = 0; ; ) switch(_fun86175_ip) {
  0:
             entity = argFoo;
             mike = entity.isSystemUser;
             mike = mike.bind(entity)();
-            if(mike) { _fun86158_ip = 70; continue _fun86158 }
+            if(mike) { _fun86175_ip = 70; continue _fun86175 }
  16:
             mike = entity.isClyde;
             mike = mike.bind(entity)();
-            if(mike) { _fun86158_ip = 55; continue _fun86158 }
+            if(mike) { _fun86175_ip = 55; continue _fun86175 }
  29:
             mike = entity.bot;
             entity = undefined;
-            if(!mike) { _fun86158_ip = 83; continue _fun86158 }
+            if(!mike) { _fun86175_ip = 83; continue _fun86175 }
  40:
             mike = _closure1_slot0;
             entity = mike.BOT;
-            _fun86158_ip = 83; continue _fun86158;
+            _fun86175_ip = 83; continue _fun86175;
  55:
             mike = _closure1_slot0;
             entity = mike.AI;
-            _fun86158_ip = 83; continue _fun86158;
+            _fun86175_ip = 83; continue _fun86175;
  70:
             mike = _closure1_slot0;
             entity = mike.SYSTEM_DM;

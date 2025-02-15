@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.GlobalDiscoveryTab;
     var _closure1_slot7 = tango;
     report = function(argFoo) { // Original name: viewReward
-        _fun91196: for(var _fun91196_ip = 0; ; ) switch(_fun91196_ip) {
+        _fun91225: for(var _fun91225_ip = 0; ; ) switch(_fun91225_ip) {
  0:
             entity = argFoo;
             options = entity.quest;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.hasQuestRewardCode;
             zulu = options.config;
             zulu = report.bind(oscar)(zulu);
-            if(zulu) { _fun91196_ip = 116; continue _fun91196 }
+            if(zulu) { _fun91225_ip = 116; continue _fun91225 }
  71:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['quest'] = options;
             zulu['product'] = verify;
             zulu = report.bind(oscar)(zulu);
-            _fun91196_ip = 211; continue _fun91196;
+            _fun91225_ip = 211; continue _fun91225;
  116:
             oscar = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun91199: for(var _fun91199_ip = 0; ; ) switch(_fun91199_ip) {
+                _fun91228: for(var _fun91228_ip = 0; ; ) switch(_fun91228_ip) {
  0:
                     StartGenerator();
                     golf = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun91199_ip = 340; continue _fun91199 }
+                    if(mike) { _fun91228_ip = 340; continue _fun91228 }
  13:
                     report = golf;
                     mike = undefined;
@@ -151,9 +151,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  187:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun91199_ip = 198; continue _fun91199 }
+                    if(report) { _fun91228_ip = 198; continue _fun91228 }
  193: // try_end0
-                    _fun91199_ip = 337; continue _fun91199;
+                    _fun91228_ip = 337; continue _fun91228;
  198:
                     return tango;
  201: // catch_target0
@@ -217,12 +217,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun91203: for(var _fun91203_ip = 0; ; ) switch(_fun91203_ip) {
+                _fun91232: for(var _fun91232_ip = 0; ; ) switch(_fun91232_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun91203_ip = 293; continue _fun91203 }
+                    if(zulu) { _fun91232_ip = 293; continue _fun91232 }
  13:
                     yankee = mike.quest;
                     offset = mike.questContent;
@@ -235,10 +235,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  49:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun91203_ip = 290; continue _fun91203 }
+                    if(tango) { _fun91232_ip = 290; continue _fun91232 }
  58:
                     tango = true;
-                    if(!(tango === report)) { _fun91203_ip = 97; continue _fun91203 }
+                    if(!(tango === report)) { _fun91232_ip = 97; continue _fun91232 }
  64:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = golf.hasQuestRewardCode;
                     report = yankee.config;
                     report = oscar.bind(golf)(report);
-                    if(report) { _fun91203_ip = 194; continue _fun91203 }
+                    if(report) { _fun91232_ip = 194; continue _fun91232 }
  139:
                     report = _closure1_slot9;
                     report = report.bind(zulu)(yankee);
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return report;
  152:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun91203_ip = 191; continue _fun91203 }
+                    if(oscar) { _fun91232_ip = 191; continue _fun91232 }
  158:
                     golf = _closure1_slot8;
                     oscar = {};
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar['questContent'] = offset;
                     oscar['questContentPosition'] = verify;
                     oscar = golf.bind(zulu)(oscar);
-                    _fun91203_ip = 287; continue _fun91203;
+                    _fun91232_ip = 287; continue _fun91232;
  191:
                     return report;
  194:
@@ -335,11 +335,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['viewReward'] = report;
     zulu['handleRewardClaimThenView'] = tango;
     mike = function() {
-        _fun91205: for(var _fun91205_ip = 0; ; ) switch(_fun91205_ip) {
+        _fun91234: for(var _fun91234_ip = 0; ; ) switch(_fun91234_ip) {
  0:
             zulu = arguments[0];
             entity = undefined;
-            if(!(zulu === entity)) { _fun91205_ip = 13; continue _fun91205 }
+            if(!(zulu === entity)) { _fun91234_ip = 13; continue _fun91234 }
  11:
             zulu = {};
  13:
@@ -360,12 +360,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'openQuestHome';
             zulu['location'] = options;
             zulu = tango.bind(golf)(zulu);
-            if(zulu) { _fun91205_ip = 116; continue _fun91205 }
+            if(zulu) { _fun91234_ip = 116; continue _fun91234 }
  90:
             zulu = global;
             tango = zulu.setTimeout;
             zulu = function() {
-                _fun91206: for(var _fun91206_ip = 0; ; ) switch(_fun91206_ip) {
+                _fun91235: for(var _fun91235_ip = 0; ; ) switch(_fun91235_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     golf = report != golf;
                     report = '';
-                    if(!golf) { _fun91206_ip = 72; continue _fun91206 }
+                    if(!golf) { _fun91235_ip = 72; continue _fun91235 }
  68:
                     report = _closure2_slot0;
  72:
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = 1;
             mike = tango.bind(entity)(zulu, mike);
-            _fun91205_ip = 175; continue _fun91205;
+            _fun91234_ip = 175; continue _fun91234;
  116:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;

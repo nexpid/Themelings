@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/PlaystationNeutralIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91227: for(var _fun91227_ip = 0; ; ) switch(_fun91227_ip) {
+        _fun91256: for(var _fun91256_ip = 0; ; ) switch(_fun91256_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun91227_ip = 53; continue _fun91227 }
+            if(!(golf === tango)) { _fun91256_ip = 53; continue _fun91256 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

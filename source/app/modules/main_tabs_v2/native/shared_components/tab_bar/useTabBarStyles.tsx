@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarStyles.tsx
 export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
-    _fun118145: for(var _fun118145_ip = 0; ; ) switch(_fun118145_ip) {
+    _fun118151: for(var _fun118151_ip = 0; ; ) switch(_fun118151_ip) {
  0:
         golf = argBar;
         foxtrot = argBaz;
@@ -105,7 +105,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         source = golf.bind(entity)(update);
         update = source.isAndroid;
         update = update.bind(source)();
-        if(!update) { _fun118145_ip = 475; continue _fun118145 }
+        if(!update) { _fun118151_ip = 475; continue _fun118151 }
  447:
         update = options[romeo];
         update = foxtrot.bind(entity)(update);
@@ -145,7 +145,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         sizing = output.isIOS;
         output = sizing.bind(output)();
         sizing = undefined;
-        if(!output) { _fun118145_ip = 620; continue _fun118145 }
+        if(!output) { _fun118151_ip = 620; continue _fun118151 }
  614:
         sizing = -1;
  620:
@@ -196,7 +196,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu['TABLET_ICON_YOU_WIDTH'] = report;
         zulu['useTabBarStyles'] = tango;
         mike = function() { // Original name: useTabBarStylesComputed
-            _fun118146: for(var _fun118146_ip = 0; ; ) switch(_fun118146_ip) {
+            _fun118152: for(var _fun118152_ip = 0; ; ) switch(_fun118152_ip) {
  0:
                 zulu = _closure1_slot6;
                 tango = undefined;
@@ -229,7 +229,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 report = zulu.primaryColor;
                 var _closure2_slot4 = report;
                 zulu = null;
-                if(!(zulu != options)) { _fun118146_ip = 141; continue _fun118146 }
+                if(!(zulu != options)) { _fun118152_ip = 141; continue _fun118152 }
  138:
                 result = options;
  141:
@@ -308,11 +308,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 mike[10] = oscar;
                 mike[11] = report;
                 entity = function() {
-                    _fun118147: for(var _fun118147_ip = 0; ; ) switch(_fun118147_ip) {
+                    _fun118153: for(var _fun118153_ip = 0; ; ) switch(_fun118153_ip) {
  0:
                         entity = _closure2_slot9;
                         zulu = undefined;
-                        if(!entity) { _fun118147_ip = 63; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 63; continue _fun118153 }
  12:
                         entity = _closure2_slot0;
                         mike = entity.tabBarNux;
@@ -320,11 +320,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         entity[0] = mike;
                         tango = _closure2_slot2;
                         mike = null;
-                        if(!(mike == tango)) { _fun118147_ip = 52; continue _fun118147 }
+                        if(!(mike == tango)) { _fun118153_ip = 52; continue _fun118153 }
  40:
                         mike = _closure2_slot0;
                         mike = mike.tabBarNuxBackground;
-                        _fun118147_ip = 56; continue _fun118147;
+                        _fun118153_ip = 56; continue _fun118153;
  52:
                         mike = _closure2_slot2;
  56:
@@ -341,7 +341,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         mike[1] = entity;
                         entity = _closure2_slot11;
                         oscar = undefined;
-                        if(!entity) { _fun118147_ip = 146; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 146; continue _fun118153 }
  104:
                         entity = _closure2_slot0;
                         tango = entity.tabBarYouTablet;
@@ -356,7 +356,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  146:
                         entity = _closure2_slot11;
                         offset = undefined;
-                        if(!entity) { _fun118147_ip = 180; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 180; continue _fun118153 }
  155:
                         entity = _closure2_slot0;
                         tango = entity.tabBarIcymTablet;
@@ -367,7 +367,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  180:
                         entity = _closure2_slot11;
                         options = undefined;
-                        if(!entity) { _fun118147_ip = 214; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 214; continue _fun118153 }
  189:
                         entity = _closure2_slot0;
                         tango = entity.tabBarNotificationsTablet;
@@ -378,7 +378,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  214:
                         entity = _closure2_slot11;
                         report = undefined;
-                        if(!entity) { _fun118147_ip = 248; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 248; continue _fun118153 }
  223:
                         entity = _closure2_slot0;
                         tango = entity.tabBarSettingsTablet;
@@ -389,7 +389,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  248:
                         entity = _closure2_slot11;
                         yankee = undefined;
-                        if(!entity) { _fun118147_ip = 267; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 267; continue _fun118153 }
  257:
                         entity = _closure2_slot0;
                         yankee = entity.tabBarGuildsTablet;
@@ -405,16 +405,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         entity = copyDataProperties(kilo, backup);
                         entity = _closure2_slot11;
                         verify = undefined;
-                        if(!entity) { _fun118147_ip = 383; continue _fun118147 }
+                        if(!entity) { _fun118153_ip = 383; continue _fun118153 }
  312:
                         entity = {};
                         romeo = _closure2_slot1;
                         tango = null;
-                        if(!(tango == romeo)) { _fun118147_ip = 336; continue _fun118147 }
+                        if(!(tango == romeo)) { _fun118153_ip = 336; continue _fun118153 }
  324:
                         tango = _closure2_slot0;
                         tango = tango.tabBarTablet;
-                        _fun118147_ip = 338; continue _fun118147;
+                        _fun118153_ip = 338; continue _fun118153;
  336:
                         tango = {};
  338:
@@ -456,11 +456,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         tango = {};
                         offset = _closure2_slot3;
                         options = null;
-                        if(!(options != offset)) { _fun118147_ip = 499; continue _fun118147 }
+                        if(!(options != offset)) { _fun118153_ip = 499; continue _fun118153 }
  487:
                         options = _closure2_slot0;
                         offset = options.tabBarYou;
-                        _fun118147_ip = 509; continue _fun118147;
+                        _fun118153_ip = 509; continue _fun118153;
  499:
                         options = _closure2_slot0;
                         offset = options.tabBar;

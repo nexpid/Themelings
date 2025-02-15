@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/InstagramNeutralIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79359: for(var _fun79359_ip = 0; ; ) switch(_fun79359_ip) {
+        _fun79369: for(var _fun79369_ip = 0; ; ) switch(_fun79369_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79359_ip = 53; continue _fun79359 }
+            if(!(golf === tango)) { _fun79369_ip = 53; continue _fun79369 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

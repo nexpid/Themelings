@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = {};
     var _closure1_slot4 = report;
     verify = function(argFoo, argBar) { // Original name: setLevels
-        _fun100202: for(var _fun100202_ip = 0; ; ) switch(_fun100202_ip) {
+        _fun100211: for(var _fun100211_ip = 0; ; ) switch(_fun100211_ip) {
  0:
             offset = argFoo;
             verify = argBar;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = offset[yankee];
                 yankee = verify + mike;
                 yankee = foxtrot.bind(entity)(romeo, yankee);
-                _fun100202_ip = 26; continue _fun100202;
+                _fun100211_ip = 26; continue _fun100211;
             }
  66:
             return entity;

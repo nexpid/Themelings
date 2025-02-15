@@ -30,18 +30,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel/useTextareaPlaceholderAndLabels.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useTextareaPlaceholderAndLabels
-        _fun100324: for(var _fun100324_ip = 0; ; ) switch(_fun100324_ip) {
+        _fun100333: for(var _fun100333_ip = 0; ; ) switch(_fun100333_ip) {
  0:
             zulu = argFoo;
             entity = zulu.channel;
             mike = zulu.isReadonly;
             golf = undefined;
-            if(!(mike === golf)) { _fun100324_ip = 22; continue _fun100324 }
+            if(!(mike === golf)) { _fun100333_ip = 22; continue _fun100333 }
  20:
             mike = false;
  22:
             tango = zulu.isCreatingThread;
-            if(!(tango === golf)) { _fun100324_ip = 34; continue _fun100324 }
+            if(!(tango === golf)) { _fun100333_ip = 34; continue _fun100333 }
  32:
             tango = false;
  34:
@@ -57,29 +57,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = false;
             verify = oscar.bind(golf)(entity, report);
             report = null;
-            if(!(report != entity)) { _fun100324_ip = 931; continue _fun100324 }
+            if(!(report != entity)) { _fun100333_ip = 931; continue _fun100333 }
  91:
-            if(!(report != foxtrot)) { _fun100324_ip = 931; continue _fun100324 }
+            if(!(report != foxtrot)) { _fun100333_ip = 931; continue _fun100333 }
  98:
-            if(tango) { _fun100324_ip = 816; continue _fun100324 }
+            if(tango) { _fun100333_ip = 816; continue _fun100333 }
  104:
-            if(mike) { _fun100324_ip = 701; continue _fun100324 }
+            if(mike) { _fun100333_ip = 701; continue _fun100333 }
  110:
             mike = entity.isForumPost;
             mike = mike.bind(entity)();
-            if(mike) { _fun100324_ip = 572; continue _fun100324 }
+            if(mike) { _fun100333_ip = 572; continue _fun100333 }
  126:
             mike = _closure1_slot4;
             report = mike.THREADS;
             tango = report.has;
             mike = entity.type;
             mike = tango.bind(report)(mike);
-            if(mike) { _fun100324_ip = 440; continue _fun100324 }
+            if(mike) { _fun100333_ip = 440; continue _fun100333 }
  157:
             mike = entity.type;
             entity = _closure1_slot3;
             entity = entity.DM;
-            if(!(mike !== entity)) { _fun100324_ip = 308; continue _fun100324 }
+            if(!(mike !== entity)) { _fun100333_ip = 308; continue _fun100333 }
  179:
             entity = {};
             tango = _closure1_slot0;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['channel'] = verify;
             mike = report.bind(oscar)(tango, mike);
             entity['accessibilityLabel'] = mike;
-            _fun100324_ip = 435; continue _fun100324;
+            _fun100333_ip = 435; continue _fun100333;
  308:
             mike = {};
             report = _closure1_slot0;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['accessibilityLabel'] = tango;
             entity = mike;
  435:
-            _fun100324_ip = 567; continue _fun100324;
+            _fun100333_ip = 567; continue _fun100333;
  440:
             mike = {};
             report = _closure1_slot0;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['accessibilityLabel'] = tango;
             entity = mike;
  567:
-            _fun100324_ip = 699; continue _fun100324;
+            _fun100333_ip = 699; continue _fun100333;
  572:
             mike = {};
             report = _closure1_slot0;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['accessibilityLabel'] = tango;
             entity = mike;
  699:
-            _fun100324_ip = 814; continue _fun100324;
+            _fun100333_ip = 814; continue _fun100333;
  701:
             mike = {};
             options = _closure1_slot0;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['accessibilityLabel'] = tango;
             entity = mike;
  814:
-            _fun100324_ip = 929; continue _fun100324;
+            _fun100333_ip = 929; continue _fun100333;
  816:
             mike = {};
             options = _closure1_slot0;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['accessibilityLabel'] = tango;
             entity = mike;
  929:
-            _fun100324_ip = 1044; continue _fun100324;
+            _fun100333_ip = 1044; continue _fun100333;
  931:
             mike = {};
             oscar = _closure1_slot0;

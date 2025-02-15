@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun76235: for(var _fun76235_ip = 0; ; ) switch(_fun76235_ip) {
+        _fun76245: for(var _fun76245_ip = 0; ; ) switch(_fun76245_ip) {
  0:
             zulu = argFoo;
             entity = {};
             mike = {};
             tango = 'row';
-            if(!zulu) { _fun76235_ip = 18; continue _fun76235 }
+            if(!zulu) { _fun76245_ip = 18; continue _fun76245 }
  14:
             tango = 'column';
  18:
@@ -54,10 +54,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             tango = oscar.bind(tango)(report);
             tango = tango.spacing;
-            if(zulu) { _fun76235_ip = 63; continue _fun76235 }
+            if(zulu) { _fun76245_ip = 63; continue _fun76245 }
  55:
             zulu = tango.PX_12;
-            _fun76235_ip = 69; continue _fun76235;
+            _fun76245_ip = 69; continue _fun76245;
  63:
             zulu = tango.PX_8;
  69:
@@ -103,14 +103,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = oscar.Children;
         oscar = golf.map;
         report = function(argFoo) {
-            _fun76237: for(var _fun76237_ip = 0; ; ) switch(_fun76237_ip) {
+            _fun76247: for(var _fun76247_ip = 0; ; ) switch(_fun76247_ip) {
  0:
                 oscar = argFoo;
                 zulu = _closure1_slot3;
                 entity = zulu.isValidElement;
                 zulu = entity.bind(zulu)(oscar);
                 entity = null;
-                if(!zulu) { _fun76237_ip = 102; continue _fun76237 }
+                if(!zulu) { _fun76247_ip = 102; continue _fun76247 }
  26:
                 tango = oscar.type;
                 options = _closure1_slot0;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = options.bind(report)(zulu);
                 zulu = zulu.Button;
                 entity = null;
-                if(!(tango === zulu)) { _fun76237_ip = 102; continue _fun76237 }
+                if(!(tango === zulu)) { _fun76247_ip = 102; continue _fun76247 }
  65:
                 tango = _closure1_slot5;
                 zulu = _closure1_slot4;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/BoostTier2Icon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun75640: for(var _fun75640_ip = 0; ; ) switch(_fun75640_ip) {
+        _fun75650: for(var _fun75650_ip = 0; ; ) switch(_fun75650_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun75640_ip = 53; continue _fun75640 }
+            if(!(golf === tango)) { _fun75650_ip = 53; continue _fun75650 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

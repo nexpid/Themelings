@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/systrace/native/JSITrace.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: isJSITraceEnabled
-        _fun98691: for(var _fun98691_ip = 0; ; ) switch(_fun98691_ip) {
+        _fun98701: for(var _fun98701_ip = 0; ; ) switch(_fun98701_ip) {
  0:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.bind(zulu)();
             zulu = !entity;
             entity = !zulu;
-            if(zulu) { _fun98691_ip = 63; continue _fun98691 }
+            if(zulu) { _fun98701_ip = 63; continue _fun98701 }
  43:
             mike = _closure1_slot3;
             zulu = mike.JSITrace;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isJSITraceEnabled'] = tango;
     tango = function(argFoo) { // Original name: setJSITraceEnabled
-        _fun98692: for(var _fun98692_ip = 0; ; ) switch(_fun98692_ip) {
+        _fun98702: for(var _fun98702_ip = 0; ; ) switch(_fun98702_ip) {
  0:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun98692_ip = 61; continue _fun98692 }
+            if(!zulu) { _fun98702_ip = 61; continue _fun98702 }
  37:
             mike = _closure1_slot3;
             tango = mike.JSITrace;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setJSITraceEnabled'] = tango;
     tango = function() { // Original name: installJSITrace
-        _fun98693: for(var _fun98693_ip = 0; ; ) switch(_fun98693_ip) {
+        _fun98703: for(var _fun98703_ip = 0; ; ) switch(_fun98703_ip) {
  0:
             tango = _closure1_slot1;
             mike = _closure1_slot2;
@@ -87,14 +87,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.bind(tango)();
             tango = !entity;
             entity = !tango;
-            if(tango) { _fun98693_ip = 77; continue _fun98693 }
+            if(tango) { _fun98703_ip = 77; continue _fun98703 }
  43:
             zulu = _closure1_slot3;
             tango = zulu.JSITrace;
             zulu = null;
             zulu = zulu == tango;
             mike = undefined;
-            if(zulu) { _fun98693_ip = 74; continue _fun98693 }
+            if(zulu) { _fun98703_ip = 74; continue _fun98703 }
  64:
             zulu = tango.install;
             mike = zulu.bind(tango)();
@@ -125,16 +125,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['beginAyncSection'] = tango;
     tango = function(argFoo) { // Original name: endSection
-        _fun98696: for(var _fun98696_ip = 0; ; ) switch(_fun98696_ip) {
+        _fun98706: for(var _fun98706_ip = 0; ; ) switch(_fun98706_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity == zulu)) { _fun98696_ip = 28; continue _fun98696 }
+            if(!(entity == zulu)) { _fun98706_ip = 28; continue _fun98706 }
  9:
             mike = _closure1_slot0;
             entity = mike.jsitrace_endSection;
             entity = entity.bind(mike)();
-            _fun98696_ip = 46; continue _fun98696;
+            _fun98706_ip = 46; continue _fun98706;
  28:
             mike = _closure1_slot0;
             entity = mike.jsitrace_endSection;

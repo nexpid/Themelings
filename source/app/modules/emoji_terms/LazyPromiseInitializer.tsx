@@ -40,12 +40,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'setParams';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun58005: for(var _fun58005_ip = 0; ; ) switch(_fun58005_ip) {
+            _fun58008: for(var _fun58008_ip = 0; ; ) switch(_fun58008_ip) {
  0:
                 entity = argFoo;
                 mike = this;
                 zulu = mike.param;
-                if(!(zulu !== entity)) { _fun58005_ip = 36; continue _fun58005 }
+                if(!(zulu !== entity)) { _fun58008_ip = 36; continue _fun58008 }
  16:
                 mike['param'] = entity;
                 entity = false;
@@ -75,19 +75,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'ensureLoaded';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun58007: for(var _fun58007_ip = 0; ; ) switch(_fun58007_ip) {
+            _fun58010: for(var _fun58010_ip = 0; ; ) switch(_fun58010_ip) {
  0:
                 tango = this;
                 var _closure3_slot0 = tango;
                 mike = tango.loaded;
-                if(mike) { _fun58007_ip = 83; continue _fun58007 }
+                if(mike) { _fun58010_ip = 83; continue _fun58010 }
  18:
                 mike = tango.loading;
-                if(mike) { _fun58007_ip = 83; continue _fun58007 }
+                if(mike) { _fun58010_ip = 83; continue _fun58010 }
  27:
                 zulu = tango.param;
                 mike = undefined;
-                if(!(mike !== zulu)) { _fun58007_ip = 83; continue _fun58007 }
+                if(!(mike !== zulu)) { _fun58010_ip = 83; continue _fun58010 }
  39:
                 zulu = tango.param;
                 var _closure3_slot1 = zulu;
@@ -97,12 +97,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike.bind(tango)(zulu);
                 mike = zulu.then;
                 entity = function(argFoo) {
-                    _fun58008: for(var _fun58008_ip = 0; ; ) switch(_fun58008_ip) {
+                    _fun58011: for(var _fun58011_ip = 0; ; ) switch(_fun58011_ip) {
  0:
                         zulu = _closure3_slot1;
                         mike = _closure3_slot0;
                         mike = mike.param;
-                        if(!(zulu === mike)) { _fun58008_ip = 50; continue _fun58008 }
+                        if(!(zulu === mike)) { _fun58011_ip = 50; continue _fun58011 }
  21:
                         mike = _closure3_slot0;
                         entity = argFoo;

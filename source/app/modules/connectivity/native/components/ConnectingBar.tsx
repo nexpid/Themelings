@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/connectivity/native/components/ConnectingBar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun103784: for(var _fun103784_ip = 0; ; ) switch(_fun103784_ip) {
+        _fun103776: for(var _fun103776_ip = 0; ; ) switch(_fun103776_ip) {
  0:
             mike = _closure1_slot8;
             tango = undefined;
@@ -239,10 +239,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = verify;
             verify = backup.bar1;
             options[1] = verify;
-            if(foxtrot) { _fun103784_ip = 212; continue _fun103784 }
+            if(foxtrot) { _fun103776_ip = 212; continue _fun103776 }
  204:
             verify = backup.barLight;
-            _fun103784_ip = 218; continue _fun103784;
+            _fun103776_ip = 218; continue _fun103776;
  212:
             verify = backup.barDark;
  218:
@@ -283,10 +283,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = backup.bar2;
             romeo[1] = kilo;
-            if(foxtrot) { _fun103784_ip = 384; continue _fun103784 }
+            if(foxtrot) { _fun103776_ip = 384; continue _fun103776 }
  376:
             kilo = backup.barLight;
-            _fun103784_ip = 390; continue _fun103784;
+            _fun103776_ip = 390; continue _fun103776;
  384:
             kilo = backup.barDark;
  390:
@@ -326,10 +326,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = backup.bar3;
             romeo[1] = kilo;
-            if(foxtrot) { _fun103784_ip = 553; continue _fun103784 }
+            if(foxtrot) { _fun103776_ip = 553; continue _fun103776 }
  545:
             foxtrot = backup.barLight;
-            _fun103784_ip = 559; continue _fun103784;
+            _fun103776_ip = 559; continue _fun103776;
  553:
             foxtrot = backup.barDark;
  559:

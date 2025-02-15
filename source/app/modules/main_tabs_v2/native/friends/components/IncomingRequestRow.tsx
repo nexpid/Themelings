@@ -114,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = mike;
         zulu[1] = yankee;
         mike = function() {
-            _fun119576: for(var _fun119576_ip = 0; ; ) switch(_fun119576_ip) {
+            _fun119582: for(var _fun119582_ip = 0; ; ) switch(_fun119582_ip) {
  0:
                 entity = _closure2_slot1;
                 zulu = {};
                 mike = _closure1_slot8;
-                if(entity) { _fun119576_ip = 232; continue _fun119576 }
+                if(entity) { _fun119582_ip = 232; continue _fun119582 }
  22:
                 entity = mike.ACCEPT;
                 zulu['name'] = entity;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = verify.bind(offset)(oscar, report);
                 tango['label'] = report;
                 entity[1] = tango;
-                _fun119576_ip = 352; continue _fun119576;
+                _fun119582_ip = 352; continue _fun119582;
  232:
                 mike = mike.WAVE;
                 zulu['name'] = mike;
@@ -210,22 +210,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[2] = offset;
         mike[3] = yankee;
         entity = function(argFoo) {
-            _fun119577: for(var _fun119577_ip = 0; ; ) switch(_fun119577_ip) {
+            _fun119583: for(var _fun119583_ip = 0; ; ) switch(_fun119583_ip) {
  0:
                 entity = argFoo;
                 entity = entity.nativeEvent;
                 zulu = entity.actionName;
                 mike = _closure1_slot8;
                 mike = mike.ACCEPT;
-                if(!(mike !== zulu)) { _fun119577_ip = 174; continue _fun119577 }
+                if(!(mike !== zulu)) { _fun119583_ip = 174; continue _fun119583 }
  34:
                 mike = _closure1_slot8;
                 mike = mike.DECLINE;
-                if(!(mike !== zulu)) { _fun119577_ip = 123; continue _fun119577 }
+                if(!(mike !== zulu)) { _fun119583_ip = 123; continue _fun119583 }
  48:
                 mike = _closure1_slot8;
                 mike = mike.WAVE;
-                if(!(mike !== zulu)) { _fun119577_ip = 66; continue _fun119577 }
+                if(!(mike !== zulu)) { _fun119583_ip = 66; continue _fun119583 }
  62:
                 mike = undefined;
                 return mike;

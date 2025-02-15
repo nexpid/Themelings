@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     mike = function() {
         report = function(argFoo) { // Original name: HeroBlockRecord
-            _fun38860: for(var _fun38860_ip = 0; ; ) switch(_fun38860_ip) {
+            _fun38867: for(var _fun38867_ip = 0; ; ) switch(_fun38867_ip) {
  0:
                 tango = argFoo;
                 zulu = this;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.unpublished_at;
                 mike = null;
                 report = mike != report;
-                if(!report) { _fun38860_ip = 229; continue _fun38860 }
+                if(!report) { _fun38867_ip = 229; continue _fun38867 }
  195:
                 report = global;
                 oscar = report.Date;

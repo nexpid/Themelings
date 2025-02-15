@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: NotificationSettingsMessageUnread
-        _fun86879: for(var _fun86879_ip = 0; ; ) switch(_fun86879_ip) {
+        _fun86896: for(var _fun86896_ip = 0; ; ) switch(_fun86896_ip) {
  0:
             result = argFoo;
             var _closure2_slot0 = result;
@@ -123,13 +123,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = null;
             config = source == sequence;
             control = undefined;
-            if(config) { _fun86879_ip = 494; continue _fun86879 }
+            if(config) { _fun86896_ip = 494; continue _fun86896 }
  489:
             control = sequence.label;
  494:
             sequence = source != control;
             source = 'unset';
-            if(!sequence) { _fun86879_ip = 508; continue _fun86879 }
+            if(!sequence) { _fun86896_ip = 508; continue _fun86896 }
  505:
             source = control;
  508:

@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Dialog/native/Dialog.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Dialog
-        _fun56675: for(var _fun56675_ip = 0; ; ) switch(_fun56675_ip) {
+        _fun56678: for(var _fun56678_ip = 0; ; ) switch(_fun56678_ip) {
  0:
             zulu = argFoo;
             golf = zulu.dialogKey;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = true;
             entity['accessibilityViewIsModal'] = offset;
             entity['onAccessibilityEscape'] = verify;
-            if(!(options != golf)) { _fun56675_ip = 128; continue _fun56675 }
+            if(!(options != golf)) { _fun56678_ip = 128; continue _fun56678 }
  125:
             oscar = golf;
  128:

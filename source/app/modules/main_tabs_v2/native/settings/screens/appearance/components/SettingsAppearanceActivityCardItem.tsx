@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceActivityCardItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityCardItem
-        _fun97295: for(var _fun97295_ip = 0; ; ) switch(_fun97295_ip) {
+        _fun97305: for(var _fun97305_ip = 0; ; ) switch(_fun97305_ip) {
  0:
             zulu = argFoo;
             sizing = zulu.kind;
@@ -222,14 +222,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = null;
             report = romeo == mike;
             zulu = undefined;
-            if(report) { _fun97295_ip = 141; continue _fun97295 }
+            if(report) { _fun97305_ip = 141; continue _fun97305 }
  125:
             golf = mike.slice;
             oscar = 0;
             report = 3;
             zulu = golf.bind(mike)(oscar, report);
  141:
-            if(!(romeo == zulu)) { _fun97295_ip = 149; continue _fun97295 }
+            if(!(romeo == zulu)) { _fun97305_ip = 149; continue _fun97305 }
  145:
             zulu = new Array(0);
  149:
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = romeo != mike;
             backup = 0;
             record = 0;
-            if(!report) { _fun97295_ip = 178; continue _fun97295 }
+            if(!report) { _fun97305_ip = 178; continue _fun97305 }
  164:
             oscar = mike.length;
             report = zulu.length;
@@ -246,11 +246,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot2 = record;
             mike = romeo != mike;
             echo = null;
-            if(!mike) { _fun97295_ip = 208; continue _fun97295 }
+            if(!mike) { _fun97305_ip = 208; continue _fun97305 }
  191:
             mike = zulu.map;
             entity = function(argFoo, argBar) {
-                _fun97297: for(var _fun97297_ip = 0; ; ) switch(_fun97297_ip) {
+                _fun97307: for(var _fun97307_ip = 0; ; ) switch(_fun97307_ip) {
  0:
                     report = argBar;
                     entity = _closure2_slot1;
@@ -279,17 +279,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = {};
                     options = 0;
                     verify = undefined;
-                    if(!(options !== report)) { _fun97297_ip = 122; continue _fun97297 }
+                    if(!(options !== report)) { _fun97307_ip = 122; continue _fun97307 }
  112:
                     yankee = _closure2_slot0;
                     verify = yankee.shiftedAvatar;
  122:
                     entity['style'] = verify;
-                    if(!(report === golf)) { _fun97297_ip = 144; continue _fun97297 }
+                    if(!(report === golf)) { _fun97307_ip = 144; continue _fun97307 }
  130:
                     golf = _closure2_slot2;
                     oscar = offset;
-                    if(!(!(golf <= options))) { _fun97297_ip = 341; continue _fun97297 }
+                    if(!(!(golf <= options))) { _fun97307_ip = 341; continue _fun97307 }
  144:
                     verify = _closure1_slot5;
                     options = _closure1_slot1;
@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = output;
             romeo = null;
-            if(!(record > backup)) { _fun97295_ip = 609; continue _fun97295 }
+            if(!(record > backup)) { _fun97305_ip = 609; continue _fun97305 }
  446:
             echo = _closure1_slot5;
             output = _closure1_slot1;
@@ -497,12 +497,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = 'stretch';
             yankee['resizeMode'] = foxtrot;
             foxtrot = 'activity';
-            if(!(foxtrot !== sizing)) { _fun97295_ip = 892; continue _fun97295 }
+            if(!(foxtrot !== sizing)) { _fun97305_ip = 892; continue _fun97305 }
  879:
             sizing = _closure1_slot2;
             foxtrot = 18;
             foxtrot = sizing[foxtrot];
-            _fun97295_ip = 903; continue _fun97295;
+            _fun97305_ip = 903; continue _fun97305;
  892:
             sizing = _closure1_slot2;
             kilo = 17;

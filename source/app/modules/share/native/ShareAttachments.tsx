@@ -127,13 +127,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/share/native/ShareAttachments.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShareAttachments
-        _fun107654: for(var _fun107654_ip = 0; ; ) switch(_fun107654_ip) {
+        _fun107647: for(var _fun107647_ip = 0; ; ) switch(_fun107647_ip) {
  0:
             entity = argFoo;
             romeo = entity.attachments;
             echo = entity.isRevamp;
             report = undefined;
-            if(!(echo === report)) { _fun107654_ip = 25; continue _fun107654 }
+            if(!(echo === report)) { _fun107647_ip = 25; continue _fun107647 }
  23:
             echo = false;
  25:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = oscar.bind(report)(golf);
             options = foxtrot.useAnimatedStyle;
             golf = function() { // Original name: y
-                _fun107655: for(var _fun107655_ip = 0; ; ) switch(_fun107655_ip) {
+                _fun107648: for(var _fun107648_ip = 0; ; ) switch(_fun107648_ip) {
  0:
                     entity = {};
                     report = _closure1_slot0;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = 0;
                     golf = zulu <= oscar;
                     zulu = 1;
-                    if(!golf) { _fun107655_ip = 62; continue _fun107655 }
+                    if(!golf) { _fun107648_ip = 62; continue _fun107648 }
  60:
                     zulu = 0;
  62:
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = oscar.bind(report)(golf);
             options = foxtrot.useAnimatedStyle;
             golf = function() { // Original name: S
-                _fun107656: for(var _fun107656_ip = 0; ; ) switch(_fun107656_ip) {
+                _fun107649: for(var _fun107649_ip = 0; ; ) switch(_fun107649_ip) {
  0:
                     entity = {};
                     report = _closure1_slot0;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.bind(golf)();
                     oscar = oscar >= zulu;
                     zulu = 1;
-                    if(!oscar) { _fun107656_ip = 90; continue _fun107656 }
+                    if(!oscar) { _fun107649_ip = 90; continue _fun107649 }
  88:
                     zulu = 0;
  90:
@@ -343,13 +343,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = tango.bind(oscar)(entity, mike);
             mike = romeo.length;
             entity = null;
-            if(!(zulu !== mike)) { _fun107654_ip = 951; continue _fun107654 }
+            if(!(zulu !== mike)) { _fun107647_ip = 951; continue _fun107647 }
  516:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
             mike = {};
             oscar = undefined;
-            if(!echo) { _fun107654_ip = 537; continue _fun107654 }
+            if(!echo) { _fun107647_ip = 537; continue _fun107647 }
  531:
             oscar = result.containerRevamp;
  537:
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(2);
             sizing[0] = output;
             output = undefined;
-            if(!echo) { _fun107654_ip = 797; continue _fun107654 }
+            if(!echo) { _fun107647_ip = 797; continue _fun107647 }
  791:
             output = result.attachmentPreviewContentContainerRevamp;
  797:

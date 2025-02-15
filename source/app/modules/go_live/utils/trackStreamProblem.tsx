@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/go_live/utils/trackStreamProblem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackStreamProblem
-        _fun103621: for(var _fun103621_ip = 0; ; ) switch(_fun103621_ip) {
+        _fun103613: for(var _fun103613_ip = 0; ; ) switch(_fun103613_ip) {
  0:
             entity = argFoo;
             romeo = entity.problem;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = entity.location;
             options = entity.rating;
             entity = undefined;
-            if(!(options === entity)) { _fun103621_ip = 52; continue _fun103621 }
+            if(!(options === entity)) { _fun103613_ip = 52; continue _fun103613 }
  50:
             options = null;
  52:
@@ -61,14 +61,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             foxtrot = offset != yankee;
             romeo = null;
-            if(!foxtrot) { _fun103621_ip = 147; continue _fun103621 }
+            if(!foxtrot) { _fun103613_ip = 147; continue _fun103613 }
  142:
             romeo = yankee.id;
  147:
             mike['application_id'] = romeo;
             romeo = offset != yankee;
             offset = null;
-            if(!romeo) { _fun103621_ip = 166; continue _fun103621 }
+            if(!romeo) { _fun103613_ip = 166; continue _fun103613 }
  161:
             offset = yankee.name;
  166:

@@ -27,14 +27,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot4 = mike;
     mike = {};
     golf = function(argFoo, argBar) { // Original name: showCaptcha
-        _fun122803: for(var _fun122803_ip = 0; ; ) switch(_fun122803_ip) {
+        _fun122809: for(var _fun122809_ip = 0; ; ) switch(_fun122809_ip) {
  0:
             mike = argFoo;
             options = arguments[2];
             entity = argBar;
             var _closure2_slot0 = entity;
             entity = undefined;
-            if(!(options === entity)) { _fun122803_ip = 23; continue _fun122803 }
+            if(!(options === entity)) { _fun122809_ip = 23; continue _fun122809 }
  21:
             options = {};
  23:
@@ -96,12 +96,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['showCaptcha'] = golf;
     golf = function(argFoo) { // Original name: showCaptchaAsync
-        _fun122806: for(var _fun122806_ip = 0; ; ) switch(_fun122806_ip) {
+        _fun122812: for(var _fun122812_ip = 0; ; ) switch(_fun122812_ip) {
  0:
             mike = argFoo;
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun122806_ip = 16; continue _fun122806 }
+            if(!(tango === zulu)) { _fun122812_ip = 16; continue _fun122812 }
  14:
             tango = {};
  16:

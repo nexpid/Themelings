@@ -37,16 +37,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = report.bind(oscar)(tango);
     zulu['AutomodAlertActionType'] = mike;
     mike = function(argFoo) { // Original name: parseAlertActionsExecution
-        _fun59638: for(var _fun59638_ip = 0; ; ) switch(_fun59638_ip) {
+        _fun59641: for(var _fun59641_ip = 0; ; ) switch(_fun59641_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun59638_ip = 123; continue _fun59638 }
+            if(!(entity != zulu)) { _fun59641_ip = 123; continue _fun59641 }
  11:
             mike = zulu;
             report = entity == zulu;
             zulu = null;
-            if(report) { _fun59638_ip = 51; continue _fun59638 }
+            if(report) { _fun59641_ip = 51; continue _fun59641 }
  23: // try_start_0
             report = global;
             oscar = report.JSON;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = report.bind(oscar)(mike);
  42: // try_end0
             zulu = mike;
-            _fun59638_ip = 51; continue _fun59638;
+            _fun59641_ip = 51; continue _fun59641;
  47: // catch_target0
             CatchBlockStart(arg_register=1);
             zulu = null;
@@ -62,12 +62,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             report = entity == zulu;
             mike = null;
-            if(report) { _fun59638_ip = 121; continue _fun59638 }
+            if(report) { _fun59641_ip = 121; continue _fun59641 }
  64:
             report = zulu.actions;
             report = entity == report;
             mike = null;
-            if(report) { _fun59638_ip = 121; continue _fun59638 }
+            if(report) { _fun59641_ip = 121; continue _fun59641 }
  79:
             report = global;
             golf = report.Object;

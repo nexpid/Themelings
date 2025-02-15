@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: I18nLink
-        _fun122773: for(var _fun122773_ip = 0; ; ) switch(_fun122773_ip) {
+        _fun122779: for(var _fun122779_ip = 0; ; ) switch(_fun122779_ip) {
  0:
             entity = argFoo;
             report = entity.node;
@@ -31,24 +31,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu.bind(tango)(options);
             zulu = report.context;
             offset = null;
-            if(!(offset != zulu)) { _fun122773_ip = 147; continue _fun122773 }
+            if(!(offset != zulu)) { _fun122779_ip = 147; continue _fun122779 }
  100:
             yankee = report.context;
             zulu = report.target;
             zulu = yankee[zulu];
-            if(!zulu) { _fun122773_ip = 127; continue _fun122773 }
+            if(!zulu) { _fun122779_ip = 127; continue _fun122779 }
  118:
             yankee = zulu.onClick;
-            if(yankee) { _fun122773_ip = 135; continue _fun122773 }
+            if(yankee) { _fun122779_ip = 135; continue _fun122779 }
  127:
             verify['onClick'] = zulu;
-            _fun122773_ip = 147; continue _fun122773;
+            _fun122779_ip = 147; continue _fun122779;
  135:
             zulu = zulu.onClick;
             verify['onClick'] = zulu;
  147:
             zulu = verify.onClick;
-            if(!(offset == zulu)) { _fun122773_ip = 170; continue _fun122773 }
+            if(!(offset == zulu)) { _fun122779_ip = 170; continue _fun122779 }
  157:
             mike = function() {
                 report = _closure1_slot1;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = oscar.bind(entity)(report);
     options = verify.createStyles;
     report = function(argFoo) {
-        _fun122775: for(var _fun122775_ip = 0; ; ) switch(_fun122775_ip) {
+        _fun122781: for(var _fun122781_ip = 0; ; ) switch(_fun122781_ip) {
  0:
             entity = {};
             mike = {};
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['color'] = zulu;
             zulu = 'none';
             tango = argFoo;
-            if(!tango) { _fun122775_ip = 58; continue _fun122775 }
+            if(!tango) { _fun122781_ip = 58; continue _fun122781 }
  54:
             zulu = 'underline';
  58:

@@ -26,12 +26,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/referral_program/hooks/useIsEligibleSenderForReferralProgram.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun104952: for(var _fun104952_ip = 0; ; ) switch(_fun104952_ip) {
+        _fun104944: for(var _fun104944_ip = 0; ; ) switch(_fun104944_ip) {
  0:
             golf = argFoo;
             options = arguments[1];
             report = undefined;
-            if(!(options === report)) { _fun104952_ip = 14; continue _fun104952 }
+            if(!(options === report)) { _fun104944_ip = 14; continue _fun104944 }
  12:
             options = false;
  14:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(report)(tango);
             tango = oscar.useMaybeFetchReferralsRemaining;
             zulu = !zulu;
-            if(zulu) { _fun104952_ip = 86; continue _fun104952 }
+            if(zulu) { _fun104944_ip = 86; continue _fun104944 }
  83:
             zulu = options;
  86:
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = tango.bind(report)(zulu, mike);
-            if(!entity) { _fun104952_ip = 150; continue _fun104952 }
+            if(!entity) { _fun104944_ip = 150; continue _fun104944 }
  147:
             entity = mike;
  150:

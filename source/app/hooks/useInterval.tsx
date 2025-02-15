@@ -54,15 +54,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = report;
         mike = function() {
-            _fun75607: for(var _fun75607_ip = 0; ; ) switch(_fun75607_ip) {
+            _fun75617: for(var _fun75617_ip = 0; ; ) switch(_fun75617_ip) {
  0:
                 zulu = _closure2_slot1;
                 tango = null;
-                if(!(tango === zulu)) { _fun75607_ip = 62; continue _fun75607 }
+                if(!(tango === zulu)) { _fun75617_ip = 62; continue _fun75617 }
  15:
                 zulu = _closure2_slot3;
                 zulu = zulu.current;
-                if(!(tango !== zulu)) { _fun75607_ip = 58; continue _fun75607 }
+                if(!(tango !== zulu)) { _fun75617_ip = 58; continue _fun75617 }
  28:
                 zulu = global;
                 golf = zulu.clearInterval;

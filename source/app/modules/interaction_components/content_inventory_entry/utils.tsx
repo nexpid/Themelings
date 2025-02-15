@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/interaction_components/content_inventory_entry/utils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isContentInventoryFallbackEmbed
-        _fun69165: for(var _fun69165_ip = 0; ; ) switch(_fun69165_ip) {
+        _fun69171: for(var _fun69171_ip = 0; ; ) switch(_fun69171_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -40,14 +40,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = null;
             golf = zulu != entity;
             zulu = 0;
-            if(!golf) { _fun69165_ip = 53; continue _fun69165 }
+            if(!golf) { _fun69171_ip = 53; continue _fun69171 }
  50:
             zulu = entity;
  53:
             entity = _closure1_slot2;
             entity = entity.IS_CONTENT_INVENTORY_ENTRY;
             entity = report.bind(oscar)(zulu, entity);
-            if(!entity) { _fun69165_ip = 107; continue _fun69165 }
+            if(!entity) { _fun69171_ip = 107; continue _fun69171 }
  72:
             zulu = _closure1_slot0;
             report = _closure1_slot1;

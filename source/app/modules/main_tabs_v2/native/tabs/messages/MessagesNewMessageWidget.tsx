@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         report = _closure1_slot3;
         zulu = report.useCallback;
         mike = function() {
-            _fun115418: for(var _fun115418_ip = 0; ; ) switch(_fun115418_ip) {
+            _fun115424: for(var _fun115424_ip = 0; ; ) switch(_fun115424_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -63,13 +63,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = null;
                 mike = tango == zulu;
                 report = zulu;
-                if(mike) { _fun115418_ip = 59; continue _fun115418 }
+                if(mike) { _fun115424_ip = 59; continue _fun115424 }
  47:
                 zulu = zulu.current;
                 mike = tango == zulu;
                 report = zulu;
  59:
-                if(mike) { _fun115418_ip = 98; continue _fun115418 }
+                if(mike) { _fun115424_ip = 98; continue _fun115424 }
  62:
                 tango = report.navigate;
                 zulu = {};

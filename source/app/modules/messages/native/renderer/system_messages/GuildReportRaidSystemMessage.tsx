@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/GuildReportRaidSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildReportRaidSystemMessage
-        _fun72547: for(var _fun72547_ip = 0; ; ) switch(_fun72547_ip) {
+        _fun72553: for(var _fun72553_ip = 0; ; ) switch(_fun72553_ip) {
  0:
             mike = argFoo;
             offset = mike.row;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = mike;
             mike = function() {
-                _fun72550: for(var _fun72550_ip = 0; ; ) switch(_fun72550_ip) {
+                _fun72556: for(var _fun72556_ip = 0; ; ) switch(_fun72556_ip) {
  0:
                     zulu = _closure1_slot6;
                     mike = zulu.getGuild;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun72550_ip = 39; continue _fun72550 }
+                    if(report) { _fun72556_ip = 39; continue _fun72556 }
  30:
                     tango = _closure2_slot4;
                     entity = tango.guild_id;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             output = oscar == sizing;
             kilo = undefined;
-            if(output) { _fun72547_ip = 331; continue _fun72547 }
+            if(output) { _fun72553_ip = 331; continue _fun72553 }
  326:
             kilo = sizing.name;
  331:
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.id;
             mike[5] = romeo;
             entity = function() {
-                _fun72551: for(var _fun72551_ip = 0; ; ) switch(_fun72551_ip) {
+                _fun72557: for(var _fun72557_ip = 0; ; ) switch(_fun72557_ip) {
  0:
                     tango = {};
                     entity = _closure2_slot6;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     oscar = 'username';
                     report = null;
-                    if(!(oscar === golf)) { _fun72551_ip = 67; continue _fun72551 }
+                    if(!(oscar === golf)) { _fun72557_ip = 67; continue _fun72557 }
  63:
                     report = _closure2_slot7;
  67:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot0;
                     report = 'dot';
                     report = report === oscar;
-                    if(!report) { _fun72551_ip = 104; continue _fun72551 }
+                    if(!report) { _fun72557_ip = 104; continue _fun72557 }
  96:
                     oscar = _closure2_slot7;
                     report = entity != oscar;
@@ -199,14 +199,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity == mike;
                     oscar = undefined;
                     mike = undefined;
-                    if(report) { _fun72551_ip = 159; continue _fun72551 }
+                    if(report) { _fun72557_ip = 159; continue _fun72557 }
  150:
                     zulu = _closure2_slot5;
                     mike = zulu.name;
  159:
                     zulu = entity != mike;
                     entity = '';
-                    if(!zulu) { _fun72551_ip = 173; continue _fun72551 }
+                    if(!zulu) { _fun72557_ip = 173; continue _fun72557 }
  170:
                     entity = mike;
  173:
@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = options;
             options = oscar != golf;
             oscar = null;
-            if(!options) { _fun72547_ip = 591; continue _fun72547 }
- 588:
+            if(!options) { _fun72553_ip = 592; continue _fun72553 }
+ 589:
             oscar = golf;
- 591:
+ 592:
             entity['usernameColor'] = oscar;
             update = entity;
             echo = report;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createGuildReportRaidSystemMessage
-        _fun72552: for(var _fun72552_ip = 0; ; ) switch(_fun72552_ip) {
+        _fun72558: for(var _fun72558_ip = 0; ; ) switch(_fun72558_ip) {
  0:
             options = argFoo;
             kilo = options.message;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             offset = report == foxtrot;
             entity = undefined;
-            if(offset) { _fun72552_ip = 100; continue _fun72552 }
+            if(offset) { _fun72558_ip = 100; continue _fun72558 }
  95:
             entity = foxtrot.guild_id;
  100:
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['colorString'] = yankee;
             golf = 'username';
             offset = null;
-            if(!(golf === romeo)) { _fun72552_ip = 222; continue _fun72552 }
+            if(!(golf === romeo)) { _fun72558_ip = 222; continue _fun72558 }
  219:
             offset = yankee;
  222:
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['roleColor'] = yankee;
             offset = 'dot';
             offset = offset === romeo;
-            if(!offset) { _fun72552_ip = 247; continue _fun72552 }
+            if(!offset) { _fun72558_ip = 247; continue _fun72558 }
  243:
             offset = report != yankee;
  247:
@@ -364,13 +364,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['usernameOnClick'] = mike;
             offset = report == entity;
             mike = undefined;
-            if(offset) { _fun72552_ip = 288; continue _fun72552 }
+            if(offset) { _fun72558_ip = 288; continue _fun72558 }
  283:
             mike = entity.name;
  288:
             offset = report != mike;
             entity = '';
-            if(!offset) { _fun72552_ip = 302; continue _fun72552 }
+            if(!offset) { _fun72558_ip = 302; continue _fun72558 }
  299:
             entity = mike;
  302:
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[golf] = oscar;
             oscar = report != tango;
             report = null;
-            if(!oscar) { _fun72552_ip = 500; continue _fun72552 }
+            if(!oscar) { _fun72558_ip = 500; continue _fun72558 }
  497:
             report = tango;
  500:

@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['resolveAlertModeColors'] = tango;
     tango = function(argFoo) { // Original name: createGuildAlertModeEnabledSystemMessage
-        _fun72537: for(var _fun72537_ip = 0; ; ) switch(_fun72537_ip) {
+        _fun72543: for(var _fun72543_ip = 0; ; ) switch(_fun72543_ip) {
  0:
             options = argFoo;
             kilo = options.message;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = 'username';
             mike = null;
-            if(!(golf === yankee)) { _fun72537_ip = 176; continue _fun72537 }
+            if(!(golf === yankee)) { _fun72543_ip = 176; continue _fun72543 }
  173:
             mike = offset;
  176:
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['roleColor'] = offset;
             mike = 'dot';
             mike = mike === yankee;
-            if(!mike) { _fun72537_ip = 201; continue _fun72537 }
+            if(!mike) { _fun72543_ip = 201; continue _fun72543 }
  197:
             mike = report != offset;
  201:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['usernameOnClick'] = entity;
             mike = kilo.content;
             entity = '';
-            if(!(entity !== mike)) { _fun72537_ip = 331; continue _fun72537 }
+            if(!(entity !== mike)) { _fun72543_ip = 331; continue _fun72543 }
  241:
             mike = global;
             romeo = mike.Date;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[golf] = oscar;
             oscar = report != tango;
             report = null;
-            if(!oscar) { _fun72537_ip = 529; continue _fun72537 }
+            if(!oscar) { _fun72543_ip = 529; continue _fun72543 }
  526:
             report = tango;
  529:
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['createGuildAlertModeEnabledSystemMessage'] = tango;
     tango = function(argFoo) { // Original name: GuildAlertModeEnabledSystemMessage
-        _fun72538: for(var _fun72538_ip = 0; ; ) switch(_fun72538_ip) {
+        _fun72544: for(var _fun72544_ip = 0; ; ) switch(_fun72544_ip) {
  0:
             entity = argFoo;
             options = entity.row;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.id;
             zulu[5] = yankee;
             mike = function() {
-                _fun72541: for(var _fun72541_ip = 0; ; ) switch(_fun72541_ip) {
+                _fun72547: for(var _fun72547_ip = 0; ; ) switch(_fun72547_ip) {
  0:
                     tango = {};
                     entity = _closure2_slot4;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     report = 'username';
                     entity = null;
-                    if(!(report === golf)) { _fun72541_ip = 67; continue _fun72541 }
+                    if(!(report === golf)) { _fun72547_ip = 67; continue _fun72547 }
  63:
                     entity = _closure2_slot5;
  67:
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot0;
                     entity = 'dot';
                     entity = entity === report;
-                    if(!entity) { _fun72541_ip = 104; continue _fun72541 }
+                    if(!entity) { _fun72547_ip = 104; continue _fun72547 }
  96:
                     report = _closure2_slot5;
                     entity = oscar != report;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['usernameOnClick'] = zulu;
                     zulu = entity.content;
                     entity = '';
-                    if(!(entity !== zulu)) { _fun72541_ip = 247; continue _fun72541 }
+                    if(!(entity !== zulu)) { _fun72547_ip = 247; continue _fun72547 }
  148:
                     zulu = global;
                     report = zulu.Date;
@@ -418,10 +418,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = oscar;
             oscar = null;
             options = oscar != golf;
-            if(!options) { _fun72538_ip = 511; continue _fun72538 }
- 508:
+            if(!options) { _fun72544_ip = 512; continue _fun72544 }
+ 509:
             oscar = golf;
- 511:
+ 512:
             entity['usernameColor'] = oscar;
             echo = entity;
             result = report;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['GuildAlertModeEnabledSystemMessage'] = tango;
     tango = function(argFoo) { // Original name: createGuildAlertModeDisabledSystemMessage
-        _fun72542: for(var _fun72542_ip = 0; ; ) switch(_fun72542_ip) {
+        _fun72548: for(var _fun72548_ip = 0; ; ) switch(_fun72548_ip) {
  0:
             options = argFoo;
             foxtrot = options.message;
@@ -468,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = 'username';
             mike = null;
-            if(!(golf === yankee)) { _fun72542_ip = 157; continue _fun72542 }
+            if(!(golf === yankee)) { _fun72548_ip = 157; continue _fun72548 }
  154:
             mike = offset;
  157:
@@ -476,7 +476,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['roleColor'] = offset;
             mike = 'dot';
             mike = mike === yankee;
-            if(!mike) { _fun72542_ip = 182; continue _fun72542 }
+            if(!mike) { _fun72548_ip = 182; continue _fun72548 }
  178:
             mike = report != offset;
  182:
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[golf] = oscar;
             oscar = report != tango;
             report = null;
-            if(!oscar) { _fun72542_ip = 402; continue _fun72542 }
+            if(!oscar) { _fun72548_ip = 402; continue _fun72548 }
  399:
             report = tango;
  402:
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['createGuildAlertModeDisabledSystemMessage'] = tango;
     mike = function(argFoo) { // Original name: GuildAlertModeDisabledSystemMessage
-        _fun72543: for(var _fun72543_ip = 0; ; ) switch(_fun72543_ip) {
+        _fun72549: for(var _fun72549_ip = 0; ; ) switch(_fun72549_ip) {
  0:
             entity = argFoo;
             options = entity.row;
@@ -617,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.id;
             zulu[4] = offset;
             mike = function() {
-                _fun72545: for(var _fun72545_ip = 0; ; ) switch(_fun72545_ip) {
+                _fun72551: for(var _fun72551_ip = 0; ; ) switch(_fun72551_ip) {
  0:
                     tango = {};
                     entity = _closure2_slot3;
@@ -634,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     report = 'username';
                     zulu = null;
-                    if(!(report === golf)) { _fun72545_ip = 67; continue _fun72545 }
+                    if(!(report === golf)) { _fun72551_ip = 67; continue _fun72551 }
  63:
                     zulu = _closure2_slot4;
  67:
@@ -644,7 +644,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot0;
                     zulu = 'dot';
                     zulu = zulu === report;
-                    if(!zulu) { _fun72545_ip = 104; continue _fun72545 }
+                    if(!zulu) { _fun72551_ip = 104; continue _fun72551 }
  96:
                     report = _closure2_slot4;
                     zulu = oscar != report;
@@ -721,10 +721,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['avatarURL'] = oscar;
             oscar = null;
             options = oscar != golf;
-            if(!options) { _fun72543_ip = 445; continue _fun72543 }
- 442:
+            if(!options) { _fun72549_ip = 446; continue _fun72549 }
+ 443:
             oscar = golf;
- 445:
+ 446:
             entity['usernameColor'] = oscar;
             result = entity;
             output = report;

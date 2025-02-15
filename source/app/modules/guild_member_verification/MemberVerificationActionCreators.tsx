@@ -65,12 +65,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun62041: for(var _fun62041_ip = 0; ; ) switch(_fun62041_ip) {
+                _fun62044: for(var _fun62044_ip = 0; ; ) switch(_fun62044_ip) {
  0:
                     StartGenerator();
                     zulu = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun62041_ip = 491; continue _fun62041 }
+                    if(mike) { _fun62044_ip = 491; continue _fun62044 }
  13:
                     oscar = argFoo;
                     mike = undefined;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = undefined;
                     golf = undefined;
                     romeo = null;
-                    if(!(romeo == zulu)) { _fun62041_ip = 53; continue _fun62041 }
+                    if(!(romeo == zulu)) { _fun62044_ip = 53; continue _fun62044 }
  32:
                     verify = _closure1_slot6;
                     options = verify.getInviteKeyForGuildId;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = oscar;
                     kilo = romeo == backup;
                     tango = undefined;
-                    if(kilo) { _fun62041_ip = 99; continue _fun62041 }
+                    if(kilo) { _fun62044_ip = 99; continue _fun62044 }
  94:
                     tango = backup.id;
  99:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = foxtrot;
                     backup = romeo != yankee;
                     yankee = undefined;
-                    if(!backup) { _fun62041_ip = 212; continue _fun62041 }
+                    if(!backup) { _fun62044_ip = 212; continue _fun62044 }
  181:
                     kilo = _closure1_slot0;
                     sizing = _closure1_slot2;
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  243:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(options) { _fun62041_ip = 437; continue _fun62041 }
+                    if(options) { _fun62044_ip = 437; continue _fun62044 }
  252:
                     report = tango;
                     options = tango.body;
-                    if(!(romeo != options)) { _fun62041_ip = 435; continue _fun62041 }
+                    if(!(romeo != options)) { _fun62044_ip = 435; continue _fun62044 }
  267:
                     options = report;
                     foxtrot = options.body;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = foxtrot.profile;
                     foxtrot = romeo != foxtrot;
                     romeo = null;
-                    if(!foxtrot) { _fun62041_ip = 417; continue _fun62041 }
+                    if(!foxtrot) { _fun62044_ip = 417; continue _fun62044 }
  377:
                     backup = _closure1_slot0;
                     kilo = _closure1_slot2;
@@ -235,12 +235,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun62045: for(var _fun62045_ip = 0; ; ) switch(_fun62045_ip) {
+                _fun62048: for(var _fun62048_ip = 0; ; ) switch(_fun62048_ip) {
  0:
                     StartGenerator();
                     golf = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun62045_ip = 212; continue _fun62045 }
+                    if(mike) { _fun62048_ip = 212; continue _fun62048 }
  13:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  113:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun62045_ip = 209; continue _fun62045 }
+                    if(report) { _fun62048_ip = 209; continue _fun62048 }
  119:
                     options = mike.body;
                     report = _closure1_slot1;
@@ -322,12 +322,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun62049: for(var _fun62049_ip = 0; ; ) switch(_fun62049_ip) {
+                _fun62052: for(var _fun62052_ip = 0; ; ) switch(_fun62052_ip) {
  0:
                     StartGenerator();
                     golf = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun62049_ip = 204; continue _fun62049 }
+                    if(mike) { _fun62052_ip = 204; continue _fun62052 }
  13:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  105:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun62049_ip = 201; continue _fun62049 }
+                    if(report) { _fun62052_ip = 201; continue _fun62052 }
  111:
                     options = mike.body;
                     report = _closure1_slot1;
@@ -407,11 +407,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun62053: for(var _fun62053_ip = 0; ; ) switch(_fun62053_ip) {
+                _fun62056: for(var _fun62056_ip = 0; ; ) switch(_fun62056_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun62053_ip = 114; continue _fun62053 }
+                    if(mike) { _fun62056_ip = 114; continue _fun62056 }
  7:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun62053_ip = 111; continue _fun62053 }
+                    if(tango) { _fun62056_ip = 111; continue _fun62056 }
  108:
                     return zulu;
  111:
@@ -472,19 +472,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun62057: for(var _fun62057_ip = 0; ; ) switch(_fun62057_ip) {
+                _fun62060: for(var _fun62060_ip = 0; ; ) switch(_fun62060_ip) {
  0:
                     StartGenerator();
                     zulu = argFoo;
                     mike = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun62057_ip = 952; continue _fun62057 }
+                    if(report) { _fun62060_ip = 952; continue _fun62060 }
  18:
                     tango = zulu;
                     var _closure4_slot0 = zulu;
                     backup = argBar;
                     zulu = undefined;
-                    if(!(mike === zulu)) { _fun62057_ip = 37; continue _fun62057 }
+                    if(!(mike === zulu)) { _fun62060_ip = 37; continue _fun62060 }
  34:
                     mike = 200;
  37:
@@ -497,13 +497,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun62057_ip = 949; continue _fun62057 }
+                    if(report) { _fun62060_ip = 949; continue _fun62060 }
  59:
                     kilo = _closure1_slot4;
                     foxtrot = kilo.isFullServerPreview;
                     oscar = tango;
                     oscar = foxtrot.bind(kilo)(oscar);
-                    if(oscar) { _fun62057_ip = 895; continue _fun62057 }
+                    if(oscar) { _fun62060_ip = 895; continue _fun62060 }
  86: // try_start_0
                     foxtrot = _closure1_slot0;
                     kilo = _closure1_slot2;
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  187:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
-                    if(foxtrot) { _fun62057_ip = 335; continue _fun62057 }
+                    if(foxtrot) { _fun62060_ip = 335; continue _fun62060 }
  196:
                     result = oscar.body;
                     verify = result;
@@ -558,13 +558,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     backup = backup.formFields;
                     backup = kilo.bind(sizing)(backup);
                     foxtrot = backup;
-                    if(!backup) { _fun62057_ip = 310; continue _fun62057 }
+                    if(!backup) { _fun62060_ip = 310; continue _fun62060 }
  297:
                     kilo = romeo;
                     backup = -1;
                     foxtrot = backup !== kilo;
  310:
-                    if(!foxtrot) { _fun62057_ip = 332; continue _fun62057 }
+                    if(!foxtrot) { _fun62060_ip = 332; continue _fun62060 }
  313:
                     foxtrot = global;
                     foxtrot = foxtrot.setTimeout;
@@ -585,10 +585,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = oscar;
                     verify = oscar.status;
                     oscar = 429;
-                    if(!(oscar !== verify)) { _fun62057_ip = 621; continue _fun62057 }
+                    if(!(oscar !== verify)) { _fun62060_ip = 621; continue _fun62060 }
  361:
                     oscar = 403;
-                    if(!(oscar !== verify)) { _fun62057_ip = 543; continue _fun62057 }
+                    if(!(oscar !== verify)) { _fun62060_ip = 543; continue _fun62060 }
  374:
                     oscar = {};
                     romeo = options;
@@ -611,14 +611,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = null;
                     romeo = offset == verify;
                     verify = undefined;
-                    if(romeo) { _fun62057_ip = 465; continue _fun62057 }
+                    if(romeo) { _fun62060_ip = 465; continue _fun62060 }
  452:
                     romeo = yankee;
                     yankee = romeo.getAnyErrorMessage;
                     verify = yankee.bind(romeo)();
  465:
                     golf = verify;
-                    if(!(offset == verify)) { _fun62057_ip = 529; continue _fun62057 }
+                    if(!(offset == verify)) { _fun62060_ip = 529; continue _fun62060 }
  472:
                     romeo = _closure1_slot0;
                     foxtrot = _closure1_slot2;
@@ -632,7 +632,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = verify.t;
                     verify = verify.R0RpRU;
                     verify = offset.bind(yankee)(verify);
-                    _fun62057_ip = 532; continue _fun62057;
+                    _fun62060_ip = 532; continue _fun62060;
  529:
                     verify = golf;
  532:

@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormRadioGroup.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormRadioGroup
-        _fun63778: for(var _fun63778_ip = 0; ; ) switch(_fun63778_ip) {
+        _fun63783: for(var _fun63783_ip = 0; ; ) switch(_fun63783_ip) {
  0:
             zulu = argFoo;
             kilo = zulu.title;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = verify.bind(report)(entity);
             entity = entity.RedesignCompatContext;
             entity = mike.bind(zulu)(entity);
-            if(entity) { _fun63778_ip = 209; continue _fun63778 }
+            if(entity) { _fun63783_ip = 209; continue _fun63783 }
  126:
             zulu = _closure1_slot5;
             mike = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 'children';
             entity[tango] = foxtrot;
             entity = zulu.bind(report)(mike, entity);
-            _fun63778_ip = 372; continue _fun63778;
+            _fun63783_ip = 372; continue _fun63783;
  209:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = verify;
             verify = golf != yankee;
             golf = null;
-            if(!verify) { _fun63778_ip = 358; continue _fun63778 }
+            if(!verify) { _fun63783_ip = 358; continue _fun63783 }
  325:
             offset = _closure1_slot5;
             verify = _closure1_slot4;

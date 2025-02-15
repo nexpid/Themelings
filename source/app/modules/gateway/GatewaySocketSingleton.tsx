@@ -1,6 +1,6 @@
 // app/modules/gateway/GatewaySocketSingleton.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun105890: for(var _fun105890_ip = 0; ; ) switch(_fun105890_ip) {
+    _fun105882: for(var _fun105882_ip = 0; ; ) switch(_fun105882_ip) {
  0:
         golf = argBar;
         offset = argBaz;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new output[mike](sizing, kilo);
         mike = mike instanceof Object ? mike : verify;
         verify = function() {
-            _fun105891: for(var _fun105891_ip = 0; ; ) switch(_fun105891_ip) {
+            _fun105883: for(var _fun105883_ip = 0; ; ) switch(_fun105883_ip) {
  0:
                 mike = _closure1_slot2;
                 entity = mike.getToken;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = 'handleIdentify called';
                 mike = oscar.bind(golf)(mike, report);
                 mike = entity == tango;
-                if(mike) { _fun105891_ip = 127; continue _fun105891 }
+                if(mike) { _fun105883_ip = 127; continue _fun105883 }
  61:
                 mike = {};
                 mike['token'] = tango;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         yankee = golf.bind(entity)(verify);
         verify = yankee.isDesktop;
         verify = verify.bind(yankee)();
-        if(!verify) { _fun105890_ip = 302; continue _fun105890 }
+        if(!verify) { _fun105882_ip = 302; continue _fun105882 }
  261:
         verify = 7;
         verify = options[verify];

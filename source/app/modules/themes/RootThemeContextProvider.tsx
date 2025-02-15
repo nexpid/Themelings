@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/themes/RootThemeContextProvider.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RootThemeContextProvider
-        _fun111376: for(var _fun111376_ip = 0; ; ) switch(_fun111376_ip) {
+        _fun111382: for(var _fun111382_ip = 0; ; ) switch(_fun111382_ip) {
  0:
             entity = argFoo;
             report = entity.children;
@@ -102,12 +102,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu != mike;
             romeo = 0;
             yankee = 0;
-            if(!zulu) { _fun111376_ip = 303; continue _fun111376 }
+            if(!zulu) { _fun111382_ip = 303; continue _fun111382 }
  172:
             zulu = mike.theme;
             mike = _closure1_slot5;
             mike = mike.LIGHT;
-            if(!(zulu !== mike)) { _fun111376_ip = 247; continue _fun111376 }
+            if(!(zulu !== mike)) { _fun111382_ip = 247; continue _fun111382 }
  192:
             verify = _closure1_slot0;
             foxtrot = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.ThemeContextFlags;
             mike = mike.MOBILE_DARK_GRADIENT_THEME_ENABLED;
             mike = zulu.bind(oscar)(romeo, mike);
-            _fun111376_ip = 300; continue _fun111376;
+            _fun111382_ip = 300; continue _fun111382;
  247:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot1;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  303:
             mike = 1;
             verify = yankee;
-            if(!(mike !== options)) { _fun111376_ip = 366; continue _fun111376 }
+            if(!(mike !== options)) { _fun111382_ip = 366; continue _fun111382 }
  313:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot1;

@@ -8,28 +8,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
     oscar = function(argFoo) { // Original name: useClydeExperiment
-        _fun61801: for(var _fun61801_ip = 0; ; ) switch(_fun61801_ip) {
+        _fun61804: for(var _fun61804_ip = 0; ; ) switch(_fun61804_ip) {
  0:
             zulu = argFoo;
             report = arguments[1];
             entity = arguments[2];
             tango = undefined;
-            if(!(report === tango)) { _fun61801_ip = 17; continue _fun61801 }
+            if(!(report === tango)) { _fun61804_ip = 17; continue _fun61804 }
  15:
             report = false;
  17:
-            if(!(entity === tango)) { _fun61801_ip = 27; continue _fun61801 }
+            if(!(entity === tango)) { _fun61804_ip = 27; continue _fun61804 }
  21:
             entity = '1e9ccc_1';
  27:
             mike = null;
             golf = mike == zulu;
             oscar = undefined;
-            if(golf) { _fun61801_ip = 43; continue _fun61801 }
+            if(golf) { _fun61804_ip = 43; continue _fun61804 }
  38:
             oscar = zulu.id;
  43:
-            if(!(mike == oscar)) { _fun61801_ip = 54; continue _fun61801 }
+            if(!(mike == oscar)) { _fun61804_ip = 54; continue _fun61804 }
  47:
             oscar = _closure1_slot6;
  54:
@@ -51,16 +51,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = oscar;
     report = function(argFoo, argBar, argBaz) { // Original name: checkClydeEnabled
-        _fun61802: for(var _fun61802_ip = 0; ; ) switch(_fun61802_ip) {
+        _fun61805: for(var _fun61805_ip = 0; ; ) switch(_fun61805_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
             mike = null;
             entity = argBar;
-            if(!(mike != entity)) { _fun61802_ip = 97; continue _fun61802 }
+            if(!(mike != entity)) { _fun61805_ip = 97; continue _fun61805 }
  15:
             entity = mike != tango;
-            if(!entity) { _fun61802_ip = 63; continue _fun61802 }
+            if(!entity) { _fun61805_ip = 63; continue _fun61805 }
  22:
             golf = _closure1_slot0;
             report = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.None;
             entity = tango !== zulu;
  63:
-            if(!entity) { _fun61802_ip = 95; continue _fun61802 }
+            if(!entity) { _fun61805_ip = 95; continue _fun61805 }
  66:
             report = _closure1_slot5;
             tango = report.can;
@@ -80,17 +80,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.USE_CLYDE_AI;
             entity = tango.bind(report)(zulu, oscar);
  95:
-            _fun61802_ip = 194; continue _fun61802;
+            _fun61805_ip = 194; continue _fun61805;
  97:
             zulu = mike == oscar;
-            if(zulu) { _fun61802_ip = 117; continue _fun61802 }
+            if(zulu) { _fun61805_ip = 117; continue _fun61805 }
  104:
             mike = oscar.isPrivate;
             mike = mike.bind(oscar)();
             zulu = !mike;
  117:
             mike = !zulu;
-            if(zulu) { _fun61802_ip = 191; continue _fun61802 }
+            if(zulu) { _fun61805_ip = 191; continue _fun61805 }
  123:
             report = oscar.hasFlag;
             zulu = _closure1_slot8;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             report = !zulu;
             zulu = !report;
-            if(!report) { _fun61802_ip = 188; continue _fun61802 }
+            if(!report) { _fun61805_ip = 188; continue _fun61805 }
  156:
             report = _closure1_slot4;
             tango = report.getGuildIds;
@@ -125,11 +125,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = report;
     tango = function(argFoo) { // Original name: getClydeExperimentEnabled
-        _fun61804: for(var _fun61804_ip = 0; ; ) switch(_fun61804_ip) {
+        _fun61807: for(var _fun61807_ip = 0; ; ) switch(_fun61807_ip) {
  0:
             report = arguments[1];
             tango = undefined;
-            if(!(report === tango)) { _fun61804_ip = 11; continue _fun61804 }
+            if(!(report === tango)) { _fun61807_ip = 11; continue _fun61807 }
  9:
             report = false;
  11:
@@ -149,17 +149,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = tango;
     entity = function(argFoo) { // Original name: getClydeExperimentState
-        _fun61805: for(var _fun61805_ip = 0; ; ) switch(_fun61805_ip) {
+        _fun61808: for(var _fun61808_ip = 0; ; ) switch(_fun61808_ip) {
  0:
             entity = argFoo;
             report = arguments[1];
             tango = undefined;
-            if(!(report === tango)) { _fun61805_ip = 14; continue _fun61805 }
+            if(!(report === tango)) { _fun61808_ip = 14; continue _fun61808 }
  12:
             report = false;
  14:
             mike = null;
-            if(!(mike != entity)) { _fun61805_ip = 91; continue _fun61805 }
+            if(!(mike != entity)) { _fun61808_ip = 91; continue _fun61808 }
  20:
             entity = entity.id;
             zulu = _closure1_slot1;
@@ -225,11 +225,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     zulu['useClydeExperiment'] = oscar;
     oscar = function(argFoo) { // Original name: useClydeExperimentEnabled
-        _fun61806: for(var _fun61806_ip = 0; ; ) switch(_fun61806_ip) {
+        _fun61809: for(var _fun61809_ip = 0; ; ) switch(_fun61809_ip) {
  0:
             report = arguments[1];
             tango = undefined;
-            if(!(report === tango)) { _fun61806_ip = 11; continue _fun61806 }
+            if(!(report === tango)) { _fun61809_ip = 11; continue _fun61809 }
  9:
             report = false;
  11:
@@ -249,11 +249,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useClydeExperimentEnabled'] = oscar;
     oscar = function(argFoo) { // Original name: useClydeProfilesEnabled
-        _fun61807: for(var _fun61807_ip = 0; ; ) switch(_fun61807_ip) {
+        _fun61810: for(var _fun61810_ip = 0; ; ) switch(_fun61810_ip) {
  0:
             oscar = arguments[1];
             tango = undefined;
-            if(!(oscar === tango)) { _fun61807_ip = 11; continue _fun61807 }
+            if(!(oscar === tango)) { _fun61810_ip = 11; continue _fun61810 }
  9:
             oscar = false;
  11:
@@ -274,12 +274,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useClydeProfilesEnabled'] = oscar;
     oscar = function(argFoo, argBar) { // Original name: useClydeEnabled
-        _fun61808: for(var _fun61808_ip = 0; ; ) switch(_fun61808_ip) {
+        _fun61811: for(var _fun61811_ip = 0; ; ) switch(_fun61811_ip) {
  0:
             report = argFoo;
             mike = arguments[2];
             tango = undefined;
-            if(!(mike === tango)) { _fun61808_ip = 14; continue _fun61808 }
+            if(!(mike === tango)) { _fun61811_ip = 14; continue _fun61811 }
  12:
             mike = false;
  14:
@@ -341,23 +341,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useIsPartOfGuildWithCustomClydeProfilesEnabled'] = oscar;
     zulu['checkClydeEnabled'] = report;
     report = function(argFoo, argBar) { // Original name: getClydeEnabled
-        _fun61812: for(var _fun61812_ip = 0; ; ) switch(_fun61812_ip) {
+        _fun61815: for(var _fun61815_ip = 0; ; ) switch(_fun61815_ip) {
  0:
             report = argFoo;
             options = arguments[2];
             tango = undefined;
-            if(!(options === tango)) { _fun61812_ip = 14; continue _fun61812 }
+            if(!(options === tango)) { _fun61815_ip = 14; continue _fun61815 }
  12:
             options = false;
  14:
             mike = null;
             zulu = mike == report;
             entity = undefined;
-            if(zulu) { _fun61812_ip = 30; continue _fun61812 }
+            if(zulu) { _fun61815_ip = 30; continue _fun61815 }
  25:
             entity = report.id;
  30:
-            if(!(mike == entity)) { _fun61812_ip = 41; continue _fun61812 }
+            if(!(mike == entity)) { _fun61815_ip = 41; continue _fun61815 }
  34:
             entity = _closure1_slot6;
  41:
@@ -405,11 +405,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getClydeExperimentBucket'] = report;
     zulu['getClydeExperimentEnabled'] = tango;
     mike = function(argFoo) { // Original name: canUseCustomClydeProfiles
-        _fun61814: for(var _fun61814_ip = 0; ; ) switch(_fun61814_ip) {
+        _fun61817: for(var _fun61817_ip = 0; ; ) switch(_fun61817_ip) {
  0:
             report = arguments[1];
             tango = undefined;
-            if(!(report === tango)) { _fun61814_ip = 11; continue _fun61814 }
+            if(!(report === tango)) { _fun61817_ip = 11; continue _fun61817 }
  9:
             report = false;
  11:

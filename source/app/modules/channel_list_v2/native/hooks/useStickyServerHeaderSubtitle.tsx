@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun115492: for(var _fun115492_ip = 0; ; ) switch(_fun115492_ip) {
+            _fun115498: for(var _fun115498_ip = 0; ; ) switch(_fun115498_ip) {
  0:
                 report = _closure2_slot0;
                 tango = report.hasFeature;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.COMMUNITY;
                 tango = tango.bind(report)(entity);
                 entity = undefined;
-                if(!tango) { _fun115492_ip = 60; continue _fun115492 }
+                if(!tango) { _fun115498_ip = 60; continue _fun115498 }
  36:
                 tango = _closure1_slot2;
                 zulu = tango.getMemberCount;

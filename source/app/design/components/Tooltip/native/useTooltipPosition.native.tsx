@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Tooltip/native/useTooltipPosition.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: useTooltipPosition
-        _fun77583: for(var _fun77583_ip = 0; ; ) switch(_fun77583_ip) {
+        _fun77593: for(var _fun77593_ip = 0; ; ) switch(_fun77593_ip) {
  0:
             options = argFoo;
             oscar = argBar;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = golf;
             var _closure2_slot3 = verify;
             mike = undefined;
-            if(!(report === mike)) { _fun77583_ip = 41; continue _fun77583 }
+            if(!(report === mike)) { _fun77593_ip = 41; continue _fun77593 }
  39:
             report = 0;
  41:
@@ -50,14 +50,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = oscar;
             mike[4] = report;
             entity = function() {
-                _fun77584: for(var _fun77584_ip = 0; ; ) switch(_fun77584_ip) {
+                _fun77594: for(var _fun77594_ip = 0; ; ) switch(_fun77594_ip) {
  0:
                     entity = _closure2_slot0;
                     mike = null;
-                    if(!(mike != entity)) { _fun77584_ip = 211; continue _fun77584 }
+                    if(!(mike != entity)) { _fun77594_ip = 211; continue _fun77594 }
  16:
                     entity = _closure2_slot1;
-                    if(!(mike != entity)) { _fun77584_ip = 211; continue _fun77584 }
+                    if(!(mike != entity)) { _fun77594_ip = 211; continue _fun77594 }
  27:
                     entity = _closure2_slot0;
                     oscar = entity.height;
@@ -79,17 +79,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = verify / entity;
                     golf = mike - entity;
                     entity = 12;
-                    if(!(!(golf < entity))) { _fun77584_ip = 146; continue _fun77584 }
+                    if(!(!(golf < entity))) { _fun77594_ip = 146; continue _fun77594 }
  118:
                     yankee = golf + verify;
                     offset = options - entity;
                     mike = 0;
-                    if(!(yankee > offset)) { _fun77584_ip = 150; continue _fun77584 }
+                    if(!(yankee > offset)) { _fun77594_ip = 150; continue _fun77594 }
  132:
                     options = options - golf;
                     options = options - verify;
                     mike = options - entity;
-                    _fun77584_ip = 150; continue _fun77584;
+                    _fun77594_ip = 150; continue _fun77594;
  146:
                     mike = entity - golf;
  150:
@@ -98,12 +98,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['tooltipX'] = golf;
                     options = _closure2_slot3;
                     golf = 'top';
-                    if(!(golf !== options)) { _fun77584_ip = 187; continue _fun77584 }
+                    if(!(golf !== options)) { _fun77594_ip = 187; continue _fun77594 }
  173:
                     golf = report + zulu;
                     zulu = _closure2_slot4;
                     zulu = golf + zulu;
-                    _fun77584_ip = 199; continue _fun77584;
+                    _fun77594_ip = 199; continue _fun77594;
  187:
                     report = report - oscar;
                     tango = _closure2_slot4;

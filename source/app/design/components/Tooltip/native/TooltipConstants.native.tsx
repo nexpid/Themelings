@@ -27,18 +27,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'design/components/Tooltip/native/TooltipConstants.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: tooltipEnterExitAnimation
-        _fun77586: for(var _fun77586_ip = 0; ; ) switch(_fun77586_ip) {
+        _fun77596: for(var _fun77596_ip = 0; ; ) switch(_fun77596_ip) {
  0:
             tango = -8;
             zulu = 'top';
             mike = argFoo;
-            if(!(zulu === mike)) { _fun77586_ip = 22; continue _fun77586 }
+            if(!(zulu === mike)) { _fun77596_ip = 22; continue _fun77596 }
  19:
             tango = 8;
  22:
             var _closure2_slot0 = tango;
             entity = function(argFoo, argBar) { // Original name: o
-                _fun77587: for(var _fun77587_ip = 0; ; ) switch(_fun77587_ip) {
+                _fun77597: for(var _fun77597_ip = 0; ; ) switch(_fun77597_ip) {
  0:
                     golf = argFoo;
                     oscar = argBar;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     yankee = romeo.withSpring;
                     tango = 1;
                     zulu = 0;
-                    if(!(tango !== golf)) { _fun77587_ip = 55; continue _fun77587 }
+                    if(!(tango !== golf)) { _fun77597_ip = 55; continue _fun77597 }
  48:
                     zulu = _closure2_slot0;
  55:

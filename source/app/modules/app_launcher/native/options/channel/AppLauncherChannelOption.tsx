@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/channel/AppLauncherChannelOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherChannelOption
-        _fun119279: for(var _fun119279_ip = 0; ; ) switch(_fun119279_ip) {
+        _fun119285: for(var _fun119285_ip = 0; ; ) switch(_fun119285_ip) {
  0:
             entity = argFoo;
             yankee = entity.style;
@@ -62,19 +62,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = _closure1_slot4;
             mike = foxtrot.useState;
             entity = function() {
-                _fun119280: for(var _fun119280_ip = 0; ; ) switch(_fun119280_ip) {
+                _fun119286: for(var _fun119286_ip = 0; ; ) switch(_fun119286_ip) {
  0:
                     entity = _closure2_slot1;
                     report = null;
                     zulu = report != entity;
                     entity = null;
-                    if(!zulu) { _fun119280_ip = 46; continue _fun119280 }
+                    if(!zulu) { _fun119286_ip = 46; continue _fun119286 }
  18:
                     zulu = _closure2_slot1;
                     tango = zulu.type;
                     zulu = 'channelMention';
                     entity = null;
-                    if(!(zulu === tango)) { _fun119280_ip = 46; continue _fun119280 }
+                    if(!(zulu === tango)) { _fun119286_ip = 46; continue _fun119286 }
  37:
                     mike = _closure2_slot1;
                     entity = mike.channelId;
@@ -119,17 +119,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = entity;
             mike[2] = offset;
             entity = function() {
-                _fun119282: for(var _fun119282_ip = 0; ; ) switch(_fun119282_ip) {
+                _fun119288: for(var _fun119288_ip = 0; ; ) switch(_fun119288_ip) {
  0:
                     mike = _closure2_slot6;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun119282_ip = 24; continue _fun119282 }
+                    if(!mike) { _fun119288_ip = 24; continue _fun119288 }
  16:
                     zulu = _closure2_slot8;
                     mike = tango == zulu;
  24:
-                    if(!mike) { _fun119282_ip = 53; continue _fun119282 }
+                    if(!mike) { _fun119288_ip = 53; continue _fun119288 }
  27:
                     mike = _closure2_slot7;
                     zulu = undefined;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['selected'] = verify;
             verify = options != offset;
             options = undefined;
-            if(!verify) { _fun119279_ip = 298; continue _fun119279 }
+            if(!verify) { _fun119285_ip = 298; continue _fun119285 }
  293:
             options = offset.name;
  298:
@@ -175,11 +175,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.bind(tango)(options, golf);
             entity['leading'] = golf;
             oscar = function() { // Original name: onPress
-                _fun119283: for(var _fun119283_ip = 0; ; ) switch(_fun119283_ip) {
+                _fun119289: for(var _fun119289_ip = 0; ; ) switch(_fun119289_ip) {
  0:
                     mike = _closure2_slot5;
                     entity = null;
-                    if(!(entity != mike)) { _fun119283_ip = 23; continue _fun119283 }
+                    if(!(entity != mike)) { _fun119289_ip = 23; continue _fun119289 }
  13:
                     mike = _closure2_slot5;
                     entity = undefined;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot4;
                     mike['channel'] = options;
                     options = function(argFoo) { // Original name: onChannelPress
-                        _fun119284: for(var _fun119284_ip = 0; ; ) switch(_fun119284_ip) {
+                        _fun119290: for(var _fun119290_ip = 0; ; ) switch(_fun119290_ip) {
  0:
                             entity = argFoo;
                             tango = entity.channel;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = entity == tango;
                             entity = undefined;
                             zulu = undefined;
-                            if(oscar) { _fun119284_ip = 33; continue _fun119284 }
+                            if(oscar) { _fun119290_ip = 33; continue _fun119290 }
  28:
                             zulu = tango.id;
  33:

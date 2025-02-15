@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun84186: for(var _fun84186_ip = 0; ; ) switch(_fun84186_ip) {
+        _fun84202: for(var _fun84202_ip = 0; ; ) switch(_fun84202_ip) {
  0:
             entity = argFoo;
             tango = entity.id;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(oscar)(entity);
             romeo = entity.bind(oscar)(tango, yankee, mike);
             entity = null;
-            if(!(entity !== yankee)) { _fun84186_ip = 377; continue _fun84186 }
+            if(!(entity !== yankee)) { _fun84202_ip = 377; continue _fun84202 }
  129:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = record[tango](config, sequence, vacuum, control, source);
             tango = entity == yankee;
             mike = null;
-            if(tango) { _fun84186_ip = 375; continue _fun84186 }
+            if(tango) { _fun84202_ip = 375; continue _fun84202 }
  209:
             report = _closure1_slot3;
             options = _closure1_slot0;

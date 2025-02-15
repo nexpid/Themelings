@@ -103,18 +103,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['getBraintreeSDK'] = tango;
     mike = function() { // Original name: collectDeviceData
-        _fun41939: for(var _fun41939_ip = 0; ; ) switch(_fun41939_ip) {
+        _fun41947: for(var _fun41947_ip = 0; ; ) switch(_fun41947_ip) {
  0:
             zulu = _closure1_slot2;
             entity = zulu.getClient;
             tango = entity.bind(zulu)();
             entity = null;
-            if(!(entity != tango)) { _fun41939_ip = 36; continue _fun41939 }
+            if(!(entity != tango)) { _fun41947_ip = 36; continue _fun41947 }
  23:
             zulu = _closure1_slot5;
             entity = undefined;
             entity = zulu.bind(entity)(tango);
-            _fun41939_ip = 63; continue _fun41939;
+            _fun41947_ip = 63; continue _fun41947;
  36:
             zulu = _closure1_slot4;
             mike = undefined;

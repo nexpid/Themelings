@@ -52,14 +52,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun70304: for(var _fun70304_ip = 0; ; ) switch(_fun70304_ip) {
+            _fun70310: for(var _fun70310_ip = 0; ; ) switch(_fun70310_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity == zulu)) { _fun70304_ip = 22; continue _fun70304 }
+                if(!(entity == zulu)) { _fun70310_ip = 22; continue _fun70310 }
  13:
                 entity = _closure1_slot4;
-                _fun70304_ip = 44; continue _fun70304;
+                _fun70310_ip = 44; continue _fun70310;
  22:
                 tango = _closure1_slot3;
                 zulu = tango.getEmbeddedActivitiesForChannel;
@@ -77,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun70305: for(var _fun70305_ip = 0; ; ) switch(_fun70305_ip) {
+            _fun70311: for(var _fun70311_ip = 0; ; ) switch(_fun70311_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
                 zulu = entity != zulu;
                 entity = undefined;
-                if(!zulu) { _fun70305_ip = 41; continue _fun70305 }
+                if(!zulu) { _fun70311_ip = 41; continue _fun70311 }
  18:
                 tango = _closure2_slot2;
                 zulu = tango.find;

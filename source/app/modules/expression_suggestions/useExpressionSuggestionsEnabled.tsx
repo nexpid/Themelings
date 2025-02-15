@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['setExpressionSuggestionsEnabled'] = report;
     zulu['useExpressionSuggestionsDisabled'] = tango;
     mike = function() { // Original name: useExpressionSuggestionsEnabled
-        _fun97699: for(var _fun97699_ip = 0; ; ) switch(_fun97699_ip) {
+        _fun97709: for(var _fun97709_ip = 0; ; ) switch(_fun97709_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = _closure1_slot2;
             entity = entity.bind(zulu)();
             entity = !entity;
-            if(!entity) { _fun97699_ip = 57; continue _fun97699 }
+            if(!entity) { _fun97709_ip = 57; continue _fun97709 }
  54:
             entity = mike;
  57:

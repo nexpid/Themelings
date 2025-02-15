@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun73096: for(var _fun73096_ip = 0; ; ) switch(_fun73096_ip) {
+        _fun73106: for(var _fun73106_ip = 0; ; ) switch(_fun73106_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot16;
             entity = entity.bind(zulu)();
-            if(entity) { _fun73096_ip = 51; continue _fun73096 }
+            if(entity) { _fun73106_ip = 51; continue _fun73106 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun73096_ip = 92; continue _fun73096;
+            _fun73106_ip = 92; continue _fun73106;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun73096_ip = 71; continue _fun73096 }
+            if(oscar) { _fun73106_ip = 71; continue _fun73106 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot15 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun73097: for(var _fun73097_ip = 0; ; ) switch(_fun73097_ip) {
+        _fun73107: for(var _fun73107_ip = 0; ; ) switch(_fun73107_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun73097_ip = 76; continue _fun73097;
+            _fun73107_ip = 76; continue _fun73107;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: setActiveAudioDevice
-        _fun73100: for(var _fun73100_ip = 0; ; ) switch(_fun73100_ip) {
+        _fun73110: for(var _fun73110_ip = 0; ; ) switch(_fun73110_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot1;
@@ -95,14 +95,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(zulu)(oscar);
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
-            if(mike) { _fun73100_ip = 77; continue _fun73100 }
+            if(mike) { _fun73110_ip = 77; continue _fun73110 }
  50:
             mike = 8;
             mike = tango[mike];
             report = zulu.bind(entity)(mike);
             mike = report.setActiveAudioDevice;
             mike = mike.bind(report)(oscar);
-            _fun73100_ip = 123; continue _fun73100;
+            _fun73110_ip = 123; continue _fun73110;
  77:
             mike = 10;
             mike = tango[mike];
@@ -324,25 +324,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     foxtrot = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handleRTCConnectionStateUpdate
-        _fun73111: for(var _fun73111_ip = 0; ; ) switch(_fun73111_ip) {
+        _fun73121: for(var _fun73121_ip = 0; ; ) switch(_fun73121_ip) {
  0:
             mike = argFoo;
             tango = mike.context;
             zulu = _closure1_slot9;
             zulu = zulu.DEFAULT;
-            if(!(tango === zulu)) { _fun73111_ip = 234; continue _fun73111 }
+            if(!(tango === zulu)) { _fun73121_ip = 234; continue _fun73121 }
  28:
             tango = mike.state;
             zulu = _closure1_slot8;
             zulu = zulu.CONNECTING;
-            if(!(zulu !== tango)) { _fun73111_ip = 117; continue _fun73111 }
+            if(!(zulu !== tango)) { _fun73121_ip = 117; continue _fun73121 }
  47:
             zulu = _closure1_slot8;
             zulu = zulu.DISCONNECTED;
-            if(!(zulu === tango)) { _fun73111_ip = 230; continue _fun73111 }
+            if(!(zulu === tango)) { _fun73121_ip = 230; continue _fun73121 }
  64:
             mike = mike.willReconnect;
-            if(mike) { _fun73111_ip = 230; continue _fun73111 }
+            if(mike) { _fun73121_ip = 230; continue _fun73121 }
  76:
             tango = false;
             _closure1_slot14 = tango;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             mike = zulu.setCommunicationModeOn;
             mike = mike.bind(zulu)(tango);
-            _fun73111_ip = 230; continue _fun73111;
+            _fun73121_ip = 230; continue _fun73121;
  117:
             report = true;
             _closure1_slot14 = report;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot12;
             mike = _closure1_slot13;
             mike = tango !== mike;
-            if(!mike) { _fun73111_ip = 214; continue _fun73111 }
+            if(!mike) { _fun73121_ip = 214; continue _fun73121 }
  171:
             tango = _closure1_slot13;
             report = tango.simpleDeviceType;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.INVALID;
             mike = report !== tango;
  214:
-            if(!mike) { _fun73111_ip = 230; continue _fun73111 }
+            if(!mike) { _fun73121_ip = 230; continue _fun73121 }
  217:
             mike = _closure1_slot17;
             entity = _closure1_slot13;
@@ -396,13 +396,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['RTC_CONNECTION_STATE'] = verify;
     tango = function(argFoo) { // Original name: handleSetActiveAudioDevice
-        _fun73112: for(var _fun73112_ip = 0; ; ) switch(_fun73112_ip) {
+        _fun73122: for(var _fun73122_ip = 0; ; ) switch(_fun73122_ip) {
  0:
             entity = argFoo;
             zulu = entity.device;
             _closure1_slot13 = zulu;
             mike = _closure1_slot14;
-            if(!mike) { _fun73112_ip = 34; continue _fun73112 }
+            if(!mike) { _fun73122_ip = 34; continue _fun73122 }
  23:
             mike = _closure1_slot17;
             entity = undefined;

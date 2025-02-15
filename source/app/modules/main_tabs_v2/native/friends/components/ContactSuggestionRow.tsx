@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/components/ContactSuggestionRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ContactSuggestionRow
-        _fun119592: for(var _fun119592_ip = 0; ; ) switch(_fun119592_ip) {
+        _fun119598: for(var _fun119598_ip = 0; ; ) switch(_fun119598_ip) {
  0:
             oscar = argFoo;
             yankee = oscar.suggestedFriend;
@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             var _closure2_slot4 = tango;
             report = yankee.friendSuggestionName;
-            if(!(echo != report)) { _fun119592_ip = 105; continue _fun119592 }
- 90:
+            if(!(echo != report)) { _fun119598_ip = 109; continue _fun119598 }
+ 94:
             report = yankee.friendSuggestionName;
             report = report.length;
-            if(!(!(report > mike))) { _fun119592_ip = 146; continue _fun119592 }
- 105:
+            if(!(!(report > mike))) { _fun119598_ip = 150; continue _fun119598 }
+ 109:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
             report = 4;
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.getName;
             report = yankee.user;
             foxtrot = oscar.bind(options)(report);
-            _fun119592_ip = 152; continue _fun119592;
- 146:
+            _fun119598_ip = 156; continue _fun119598;
+ 150:
             foxtrot = yankee.friendSuggestionName;
- 152:
+ 156:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
             offset = 5;
@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = new Array(1);
             backup[0] = zulu;
             zulu = function() {
-                _fun119594: for(var _fun119594_ip = 0; ; ) switch(_fun119594_ip) {
+                _fun119600: for(var _fun119600_ip = 0; ; ) switch(_fun119600_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun119594_ip = 100; continue _fun119594 }
+                    if(entity) { _fun119600_ip = 100; continue _fun119600 }
  10:
                     mike = {};
                     zulu = _closure1_slot10;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['label'] = entity;
                     entity = new Array(1);
                     entity[0] = mike;
-                    _fun119594_ip = 104; continue _fun119594;
+                    _fun119600_ip = 104; continue _fun119600;
  100:
                     entity = new Array(0);
  104:
@@ -175,14 +175,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = yankee.user;
             zulu[2] = entity;
             entity = function(argFoo) {
-                _fun119596: for(var _fun119596_ip = 0; ; ) switch(_fun119596_ip) {
+                _fun119602: for(var _fun119602_ip = 0; ; ) switch(_fun119602_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
                     zulu = entity.actionName;
                     entity = _closure1_slot10;
                     entity = entity.ADD;
-                    if(!(zulu !== entity)) { _fun119596_ip = 35; continue _fun119596 }
+                    if(!(zulu !== entity)) { _fun119602_ip = 35; continue _fun119602 }
  31:
                     entity = undefined;
                     return entity;
@@ -210,21 +210,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar.bind(romeo)(entity, zulu);
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun119592_ip = 347; continue _fun119592 }
- 341:
+            if(zulu) { _fun119598_ip = 351; continue _fun119598 }
+ 345:
             entity = yankee.mutualFriendsCount;
- 347:
+ 351:
             romeo = echo != entity;
-            if(!romeo) { _fun119592_ip = 373; continue _fun119592 }
- 354:
+            if(!romeo) { _fun119598_ip = 377; continue _fun119598 }
+ 358:
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun119592_ip = 369; continue _fun119592 }
- 363:
+            if(zulu) { _fun119598_ip = 373; continue _fun119598 }
+ 367:
             entity = yankee.mutualFriendsCount;
- 369:
-            romeo = entity > mike;
  373:
+            romeo = entity > mike;
+ 377:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
             entity = 9;
@@ -232,8 +232,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.getSuggestedContactNameForSuggestion;
             output = entity.bind(mike)(foxtrot, yankee);
-            if(!(echo == output)) { _fun119592_ip = 447; continue _fun119592 }
- 409:
+            if(!(echo == output)) { _fun119598_ip = 451; continue _fun119598 }
+ 413:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 4;
@@ -242,8 +242,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getUserTag;
             entity = yankee.user;
             oscar = mike.bind(zulu)(entity);
-            _fun119592_ip = 513; continue _fun119592;
- 447:
+            _fun119598_ip = 517; continue _fun119598;
+ 451:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 4;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = '';
             entity = ' · ';
             oscar = zulu.bind(mike)(sizing, entity, output);
- 513:
+ 517:
             zulu = _closure1_slot8;
             mike = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -298,8 +298,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['actioned'] = offset;
             backup['label'] = oscar;
             oscar = undefined;
-            if(!romeo) { _fun119592_ip = 751; continue _fun119592 }
- 674:
+            if(!romeo) { _fun119598_ip = 755; continue _fun119598 }
+ 678:
             sizing = _closure1_slot0;
             update = _closure1_slot2;
             romeo = 6;
@@ -314,13 +314,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             update = echo == yankee;
             echo = undefined;
-            if(update) { _fun119592_ip = 741; continue _fun119592 }
- 735:
+            if(update) { _fun119598_ip = 745; continue _fun119598 }
+ 739:
             echo = yankee.mutualFriendsCount;
- 741:
+ 745:
             romeo['count'] = echo;
             oscar = output.bind(result)(sizing, romeo);
- 751:
+ 755:
             backup['secondaryLabel'] = oscar;
             oscar = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['user'] = yankee;
             report['added'] = offset;
             verify = function(argFoo) { // Original name: onAddSuggestion
-                _fun119597: for(var _fun119597_ip = 0; ; ) switch(_fun119597_ip) {
+                _fun119603: for(var _fun119603_ip = 0; ; ) switch(_fun119603_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure1_slot1;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot3;
                     options = options.location;
                     offset = null;
-                    if(!(offset == options)) { _fun119597_ip = 97; continue _fun119597 }
+                    if(!(offset == options)) { _fun119603_ip = 97; continue _fun119603 }
  87:
                     verify = _closure1_slot6;
                     options = verify.ADD_FRIENDS_MODAL;

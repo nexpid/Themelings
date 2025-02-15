@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = oscar;
     oscar = golf.memo;
     mike = function(argFoo) { // Original name: CircleWithCutout
-        _fun122388: for(var _fun122388_ip = 0; ; ) switch(_fun122388_ip) {
+        _fun122394: for(var _fun122394_ip = 0; ; ) switch(_fun122394_ip) {
  0:
             report = argFoo;
             verify = report.fill;
@@ -48,19 +48,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = report.cutoutPositionInDegrees;
             zulu = report.alignBadgeEdgeWithCircleEdge;
             tango = undefined;
-            if(!(zulu === tango)) { _fun122388_ip = 47; continue _fun122388 }
+            if(!(zulu === tango)) { _fun122394_ip = 47; continue _fun122394 }
  45:
             zulu = false;
  47:
             mike = report.badgeRadius;
             report = report.scaleToPixelDensity;
-            if(!(report === tango)) { _fun122388_ip = 65; continue _fun122388 }
+            if(!(report === tango)) { _fun122394_ip = 65; continue _fun122394 }
  63:
             report = true;
  65:
             options = 1;
             echo = options;
-            if(!report) { _fun122388_ip = 81; continue _fun122388 }
+            if(!report) { _fun122394_ip = 81; continue _fun122394 }
  74:
             echo = _closure1_slot5;
  81:
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = null;
             report = romeo != mike;
             entity = undefined;
-            if(!report) { _fun122388_ip = 100; continue _fun122388 }
+            if(!report) { _fun122394_ip = 100; continue _fun122394 }
  96:
             entity = mike * echo;
  100:
@@ -85,13 +85,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(tango)(oscar);
             oscar = foxtrot.getCutoutCenterY;
             oscar = oscar.bind(foxtrot)(yankee, backup);
-            if(!zulu) { _fun122388_ip = 170; continue _fun122388 }
+            if(!zulu) { _fun122394_ip = 170; continue _fun122394 }
  166:
             zulu = romeo != entity;
  170:
             control = golf;
             source = oscar;
-            if(!zulu) { _fun122388_ip = 190; continue _fun122388 }
+            if(!zulu) { _fun122394_ip = 190; continue _fun122394 }
  179:
             mike = mike * yankee;
             control = mike - entity;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['r'] = yankee;
             oscar['fill'] = verify;
             verify = undefined;
-            if(!offset) { _fun122388_ip = 480; continue _fun122388 }
+            if(!offset) { _fun122394_ip = 480; continue _fun122394 }
  474:
             verify = 'url(#mask)';
  480:

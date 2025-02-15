@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/AvatarDecorationSample.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88131: for(var _fun88131_ip = 0; ; ) switch(_fun88131_ip) {
+        _fun88148: for(var _fun88148_ip = 0; ; ) switch(_fun88148_ip) {
  0:
             entity = argFoo;
             backup = entity.item;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(2);
             sizing[0] = output;
             output = offset;
-            if(!offset) { _fun88131_ip = 166; continue _fun88131 }
+            if(!offset) { _fun88148_ip = 166; continue _fun88148 }
  160:
             output = yankee.purchased;
  166:
@@ -121,24 +121,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 'contain';
             report['resizeMode'] = sizing;
             sizing = null;
-            if(!(sizing == options)) { _fun88131_ip = 232; continue _fun88131 }
+            if(!(sizing == options)) { _fun88148_ip = 233; continue _fun88148 }
  189:
-            if(kilo) { _fun88131_ip = 214; continue _fun88131 }
+            if(kilo) { _fun88148_ip = 214; continue _fun88148 }
  192:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
             kilo = 6;
             kilo = output[kilo];
             kilo = sizing.bind(tango)(kilo);
-            _fun88131_ip = 229; continue _fun88131;
+            _fun88148_ip = 230; continue _fun88148;
  214:
             sizing = {};
             output = 'https://cdn.discordapp.com/assets/content/8f769ddb3458f312150ee607633a4c76a6e7008320394b955596e7ac8e1c20df.png';
             sizing['uri'] = output;
             kilo = sizing;
- 229:
+ 230:
             options = kilo;
- 232:
+ 233:
             report['source'] = options;
             oscar = golf.bind(tango)(oscar, report);
             report = new Array(2);
@@ -146,10 +146,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot5;
             golf = _closure1_slot4;
             oscar = {};
-            if(!offset) { _fun88131_ip = 269; continue _fun88131 }
- 263:
+            if(!offset) { _fun88148_ip = 270; continue _fun88148 }
+ 264:
             offset = yankee.purchased;
- 269:
+ 270:
             oscar['style'] = offset;
             yankee = _closure1_slot5;
             offset = _closure1_slot1;

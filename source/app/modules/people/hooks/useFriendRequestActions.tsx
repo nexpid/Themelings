@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[2] = offset;
         mike[3] = golf;
         entity = function() {
-            _fun102639: for(var _fun102639_ip = 0; ; ) switch(_fun102639_ip) {
+            _fun102631: for(var _fun102631_ip = 0; ; ) switch(_fun102631_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['userId'] = oscar;
                 golf = _closure2_slot2;
                 oscar = null;
-                if(!golf) { _fun102639_ip = 57; continue _fun102639 }
+                if(!golf) { _fun102631_ip = 57; continue _fun102631 }
  53:
                 oscar = _closure2_slot1;
  57:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango[5] = options;
         tango[6] = golf;
         zulu = function() {
-            _fun102640: for(var _fun102640_ip = 0; ; ) switch(_fun102640_ip) {
+            _fun102632: for(var _fun102632_ip = 0; ; ) switch(_fun102632_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['userId'] = oscar;
                 golf = _closure2_slot2;
                 oscar = null;
-                if(!golf) { _fun102640_ip = 57; continue _fun102640 }
+                if(!golf) { _fun102632_ip = 57; continue _fun102632 }
  53:
                 oscar = _closure2_slot1;
  57:

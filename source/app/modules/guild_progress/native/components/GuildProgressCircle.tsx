@@ -56,14 +56,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_progress/native/components/GuildProgressCircle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildProgressCircle
-        _fun93452: for(var _fun93452_ip = 0; ; ) switch(_fun93452_ip) {
+        _fun93477: for(var _fun93477_ip = 0; ; ) switch(_fun93477_ip) {
  0:
             entity = argFoo;
             verify = entity.percent;
             oscar = entity.style;
             foxtrot = entity.size;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun93452_ip = 28; continue _fun93452 }
+            if(!(foxtrot === tango)) { _fun93477_ip = 28; continue _fun93477 }
  25:
             foxtrot = 32;
  28:

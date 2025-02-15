@@ -104,18 +104,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: DMChannel
-        _fun121092: for(var _fun121092_ip = 0; ; ) switch(_fun121092_ip) {
+        _fun121098: for(var _fun121098_ip = 0; ; ) switch(_fun121098_ip) {
  0:
             entity = argFoo;
             offset = entity.channel;
             sizing = entity.muted;
             zulu = undefined;
-            if(!(sizing === zulu)) { _fun121092_ip = 22; continue _fun121092 }
+            if(!(sizing === zulu)) { _fun121098_ip = 22; continue _fun121098 }
  20:
             sizing = false;
  22:
             golf = entity.navigationReplace;
-            if(!(golf === zulu)) { _fun121092_ip = 34; continue _fun121092 }
+            if(!(golf === zulu)) { _fun121098_ip = 34; continue _fun121098 }
  32:
             golf = false;
  34:
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = null;
             entity = romeo != result;
             yankee = undefined;
-            if(!entity) { _fun121092_ip = 174; continue _fun121092 }
+            if(!entity) { _fun121098_ip = 174; continue _fun121098 }
  138:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -155,10 +155,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  174:
             entity = 'text-muted';
             output = entity;
-            if(!echo) { _fun121092_ip = 198; continue _fun121092 }
+            if(!echo) { _fun121098_ip = 198; continue _fun121098 }
  186:
             output = entity;
-            if(sizing) { _fun121092_ip = 198; continue _fun121092 }
+            if(sizing) { _fun121098_ip = 198; continue _fun121098 }
  192:
             output = 'text-normal';
  198:
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = report.bind(zulu)(backup, foxtrot);
             oscar['unreadBadge'] = foxtrot;
             romeo = romeo != result;
-            if(!romeo) { _fun121092_ip = 495; continue _fun121092 }
+            if(!romeo) { _fun121098_ip = 495; continue _fun121098 }
  440:
             kilo = _closure1_slot5;
             backup = _closure1_slot0;

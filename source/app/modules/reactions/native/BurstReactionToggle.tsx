@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/reactions/native/BurstReactionToggle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BurstReactionToggle
-        _fun77935: for(var _fun77935_ip = 0; ; ) switch(_fun77935_ip) {
+        _fun77945: for(var _fun77945_ip = 0; ; ) switch(_fun77945_ip) {
  0:
             entity = argFoo;
             mike = entity.onPress;
@@ -99,10 +99,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar[entity];
             entity = zulu.bind(tango)(entity);
             entity = entity.colors;
-            if(mike) { _fun77935_ip = 73; continue _fun77935 }
+            if(mike) { _fun77945_ip = 73; continue _fun77945 }
  65:
             verify = entity.INTERACTIVE_NORMAL;
-            _fun77935_ip = 79; continue _fun77935;
+            _fun77945_ip = 79; continue _fun77945;
  73:
             verify = entity.WHITE;
  79:
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(tango)(options);
             _closure2_slot1 = entity;
             entity = function(argFoo) {
-                _fun77936: for(var _fun77936_ip = 0; ; ) switch(_fun77936_ip) {
+                _fun77946: for(var _fun77946_ip = 0; ; ) switch(_fun77946_ip) {
  0:
                     mike = argFoo;
                     oscar = _closure1_slot0;
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = verify[tango];
                     tango = options.bind(report)(tango);
                     options = tango.colors;
-                    if(mike) { _fun77936_ip = 118; continue _fun77936 }
+                    if(mike) { _fun77946_ip = 118; continue _fun77946 }
  110:
                     tango = options.INPUT_BACKGROUND;
-                    _fun77936_ip = 124; continue _fun77936;
+                    _fun77946_ip = 124; continue _fun77946;
  118:
                     tango = options.BG_BRAND;
  124:
@@ -159,13 +159,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     oscar = oscar != tango;
                     options = '';
-                    if(!oscar) { _fun77936_ip = 145; continue _fun77936 }
+                    if(!oscar) { _fun77946_ip = 145; continue _fun77946 }
  142:
                     options = tango;
  145:
                     var _closure3_slot1 = options;
                     oscar = 0;
-                    if(!mike) { _fun77936_ip = 160; continue _fun77936 }
+                    if(!mike) { _fun77946_ip = 160; continue _fun77946 }
  154:
                     oscar = 360;
  160:
@@ -187,16 +187,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = tango.bind(report)(mike);
                     tango = report.useAnimatedStyle;
                     mike = function() { // Original name: u
-                        _fun77938: for(var _fun77938_ip = 0; ; ) switch(_fun77938_ip) {
+                        _fun77948: for(var _fun77948_ip = 0; ; ) switch(_fun77948_ip) {
  0:
                             entity = {};
                             zulu = _closure3_slot0;
-                            if(zulu) { _fun77938_ip = 27; continue _fun77938 }
+                            if(zulu) { _fun77948_ip = 27; continue _fun77948 }
  12:
                             tango = _closure3_slot3;
                             zulu = tango.get;
                             zulu = zulu.bind(tango)();
-                            _fun77938_ip = 31; continue _fun77938;
+                            _fun77948_ip = 31; continue _fun77948;
  27:
                             zulu = _closure3_slot1;
  31:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = {};
                             tango = _closure3_slot0;
                             oscar = 0;
-                            if(tango) { _fun77938_ip = 59; continue _fun77938 }
+                            if(tango) { _fun77948_ip = 59; continue _fun77948 }
  46:
                             tango = _closure3_slot4;
                             mike = tango.get;

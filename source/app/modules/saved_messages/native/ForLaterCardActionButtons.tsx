@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/saved_messages/native/ForLaterCardActionButtons.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForLaterCardActionButtons
-        _fun89039: for(var _fun89039_ip = 0; ; ) switch(_fun89039_ip) {
+        _fun89056: for(var _fun89056_ip = 0; ; ) switch(_fun89056_ip) {
  0:
             entity = argFoo;
             golf = entity.savedMessage;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = golf;
             entity = function(argFoo) {
-                _fun89040: for(var _fun89040_ip = 0; ; ) switch(_fun89040_ip) {
+                _fun89057: for(var _fun89057_ip = 0; ; ) switch(_fun89057_ip) {
  0:
                     tango = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['createReminder'] = oscar;
                     offset = argFoo;
                     oscar = undefined;
-                    if(!offset) { _fun89040_ip = 96; continue _fun89040 }
+                    if(!offset) { _fun89057_ip = 96; continue _fun89057 }
  89:
                     oscar = function() {
                         mike = _closure1_slot0;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf.saveData;
             entity = entity.dueAt;
             oscar = null;
-            if(!(oscar == entity)) { _fun89039_ip = 387; continue _fun89039 }
+            if(!(oscar == entity)) { _fun89056_ip = 387; continue _fun89056 }
  93:
             entity = {};
             zulu = _closure1_slot0;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 'destructive';
             entity['variant'] = mike;
             romeo[2] = entity;
-            _fun89039_ip = 679; continue _fun89039;
+            _fun89056_ip = 679; continue _fun89056;
  387:
             mike = {};
             options = _closure1_slot0;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.dueAt;
             golf = oscar != golf;
             oscar = null;
-            if(!golf) { _fun89039_ip = 928; continue _fun89039 }
+            if(!golf) { _fun89056_ip = 928; continue _fun89056 }
  794:
             verify = _closure1_slot5;
             sizing = _closure1_slot0;

@@ -37,14 +37,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun71402: for(var _fun71402_ip = 0; ; ) switch(_fun71402_ip) {
+            _fun71408: for(var _fun71408_ip = 0; ; ) switch(_fun71408_ip) {
  0:
                 zulu = _closure1_slot2;
                 entity = zulu.getRemoteSessionId;
                 entity = entity.bind(zulu)();
                 zulu = null;
                 entity = zulu != entity;
-                if(entity) { _fun71402_ip = 44; continue _fun71402 }
+                if(entity) { _fun71408_ip = 44; continue _fun71408 }
  26:
                 tango = _closure1_slot2;
                 mike = tango.getAwaitingRemoteSessionInfo;

@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['subscribeGuild'] = report;
     zulu['subscribeChannel'] = tango;
     mike = function(argFoo) { // Original name: subscribeChannelDimensions
-        _fun72159: for(var _fun72159_ip = 0; ; ) switch(_fun72159_ip) {
+        _fun72165: for(var _fun72165_ip = 0; ; ) switch(_fun72165_ip) {
  0:
             zulu = argFoo;
             report = zulu.guildId;
@@ -144,11 +144,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.rowHeight;
             var _closure2_slot0 = zulu;
             golf = function(argFoo) { // Original name: toIndex
-                _fun72160: for(var _fun72160_ip = 0; ; ) switch(_fun72160_ip) {
+                _fun72166: for(var _fun72166_ip = 0; ; ) switch(_fun72166_ip) {
  0:
                     mike = arguments[1];
                     entity = undefined;
-                    if(!(mike === entity)) { _fun72160_ip = 11; continue _fun72160 }
+                    if(!(mike === entity)) { _fun72166_ip = 11; continue _fun72166 }
  9:
                     mike = 0;
  11:
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(entity)(mike, oscar);
             mike = 0;
             backup = offset;
-            if(!(backup > mike)) { _fun72159_ip = 130; continue _fun72159 }
+            if(!(backup > mike)) { _fun72165_ip = 130; continue _fun72165 }
  106:
             oscar = global;
             verify = oscar.Math;
@@ -225,10 +225,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = offset.bind(entity)(oscar);
             oscar = oscar.MINIMUM_RANGE;
             oscar = verify * oscar;
-            if(!(oscar <= golf)) { _fun72159_ip = 214; continue _fun72159 }
+            if(!(oscar <= golf)) { _fun72165_ip = 214; continue _fun72165 }
  205:
             oscar = options.bind(entity)(oscar);
-            if(oscar <= golf) { _fun72159_ip = 205; continue _fun72159 }
+            if(oscar <= golf) { _fun72165_ip = 205; continue _fun72165 }
  214:
             mike = _closure1_slot3;
             mike = mike.bind(entity)(report, tango, zulu);

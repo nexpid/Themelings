@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = oscar;
     report = function(argFoo) { // Original name: closeExpressionPicker
-        _fun103409: for(var _fun103409_ip = 0; ; ) switch(_fun103409_ip) {
+        _fun103401: for(var _fun103401_ip = 0; ; ) switch(_fun103401_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot4;
@@ -99,16 +99,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = tango;
             entity = undefined;
             report = entity !== golf;
-            if(!report) { _fun103409_ip = 45; continue _fun103409 }
+            if(!report) { _fun103401_ip = 45; continue _fun103401 }
  35:
             oscar = tango.activeViewType;
             report = golf !== oscar;
  45:
-            if(report) { _fun103409_ip = 98; continue _fun103409 }
+            if(report) { _fun103401_ip = 98; continue _fun103401 }
  48:
             report = tango.activeView;
             tango = null;
-            if(!(tango !== report)) { _fun103409_ip = 98; continue _fun103409 }
+            if(!(tango !== report)) { _fun103401_ip = 98; continue _fun103401 }
  60:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -141,23 +141,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['openExpressionPicker'] = oscar;
     zulu['closeExpressionPicker'] = report;
     report = function(argFoo) {
-        _fun103411: for(var _fun103411_ip = 0; ; ) switch(_fun103411_ip) {
+        _fun103403: for(var _fun103403_ip = 0; ; ) switch(_fun103403_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.getState;
             zulu = mike.bind(zulu)();
             tango = zulu.activeView;
             mike = null;
-            if(!(mike != tango)) { _fun103411_ip = 41; continue _fun103411 }
+            if(!(mike != tango)) { _fun103403_ip = 41; continue _fun103403 }
  29:
             report = _closure1_slot6;
             tango = undefined;
             tango = report.bind(tango)();
-            _fun103411_ip = 76; continue _fun103411;
+            _fun103403_ip = 76; continue _fun103403;
  41:
             tango = _closure1_slot5;
             zulu = zulu.lastActiveView;
-            if(!(mike == zulu)) { _fun103411_ip = 65; continue _fun103411 }
+            if(!(mike == zulu)) { _fun103403_ip = 65; continue _fun103403 }
  55:
             entity = _closure1_slot2;
             zulu = entity.EMOJI;
@@ -172,20 +172,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['toggleMultiExpressionPicker'] = report;
     report = function(argFoo, argBar) {
-        _fun103412: for(var _fun103412_ip = 0; ; ) switch(_fun103412_ip) {
+        _fun103404: for(var _fun103404_ip = 0; ; ) switch(_fun103404_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot4;
             mike = zulu.getState;
             mike = mike.bind(zulu)();
             mike = mike.activeView;
-            if(!(mike !== report)) { _fun103412_ip = 47; continue _fun103412 }
+            if(!(mike !== report)) { _fun103404_ip = 47; continue _fun103404 }
  30:
             tango = _closure1_slot5;
             zulu = undefined;
             mike = argBar;
             mike = tango.bind(zulu)(report, mike);
-            _fun103412_ip = 57; continue _fun103412;
+            _fun103404_ip = 57; continue _fun103404;
  47:
             mike = _closure1_slot6;
             entity = undefined;
@@ -224,13 +224,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setExpressionPickerView'] = report;
     tango = function(argFoo) {
-        _fun103415: for(var _fun103415_ip = 0; ; ) switch(_fun103415_ip) {
+        _fun103407: for(var _fun103407_ip = 0; ; ) switch(_fun103407_ip) {
  0:
             zulu = arguments[1];
             entity = argFoo;
             var _closure2_slot0 = entity;
             entity = undefined;
-            if(!(zulu === entity)) { _fun103415_ip = 20; continue _fun103415 }
+            if(!(zulu === entity)) { _fun103407_ip = 20; continue _fun103407 }
  18:
             zulu = false;
  20:

@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun85034: for(var _fun85034_ip = 0; ; ) switch(_fun85034_ip) {
+        _fun85051: for(var _fun85051_ip = 0; ; ) switch(_fun85051_ip) {
  0:
             entity = argFoo;
             backup = entity.stickerPack;
@@ -115,12 +115,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = entity.onPress;
             oscar = entity.withBanner;
             tango = undefined;
-            if(!(oscar === tango)) { _fun85034_ip = 33; continue _fun85034 }
+            if(!(oscar === tango)) { _fun85051_ip = 33; continue _fun85051 }
  31:
             oscar = false;
  33:
             verify = entity.withDescription;
-            if(!(verify === tango)) { _fun85034_ip = 45; continue _fun85034 }
+            if(!(verify === tango)) { _fun85051_ip = 45; continue _fun85051 }
  43:
             verify = false;
  45:
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.bind(tango)(result);
             result = echo.isStickerPackAnimated;
             result = result.bind(echo)(backup);
-            if(!result) { _fun85034_ip = 322; continue _fun85034 }
+            if(!result) { _fun85051_ip = 322; continue _fun85051 }
  199:
             source = _closure1_slot4;
             update = _closure1_slot3;
@@ -223,13 +223,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = kilo.bind(tango)(offset, report);
             report = new Array(3);
             report[0] = offset;
-            if(!verify) { _fun85034_ip = 495; continue _fun85034 }
+            if(!verify) { _fun85051_ip = 495; continue _fun85051 }
  484:
             kilo = backup.description;
             offset = null;
             verify = offset != kilo;
  495:
-            if(!verify) { _fun85034_ip = 549; continue _fun85034 }
+            if(!verify) { _fun85051_ip = 549; continue _fun85051 }
  498:
             sizing = _closure1_slot4;
             kilo = _closure1_slot0;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot5;
             mike = _closure1_slot6;
             entity = {};
-            if(!oscar) { _fun85034_ip = 752; continue _fun85034 }
+            if(!oscar) { _fun85051_ip = 752; continue _fun85051 }
  694:
             verify = _closure1_slot4;
             options = _closure1_slot1;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!(oscar == yankee)) { _fun85034_ip = 809; continue _fun85034 }
+            if(!(oscar == yankee)) { _fun85051_ip = 809; continue _fun85051 }
  766:
             verify = _closure1_slot4;
             options = _closure1_slot3;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = backup;
             oscar['children'] = offset;
             oscar = verify.bind(tango)(options, oscar);
-            _fun85034_ip = 884; continue _fun85034;
+            _fun85051_ip = 884; continue _fun85051;
  809:
             verify = _closure1_slot4;
             options = _closure1_slot0;

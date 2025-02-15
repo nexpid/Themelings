@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/global_discovery_servers/native/components/GlobalDiscoveryServersCardPlaceholder.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GlobalDiscoveryServersCardPlaceholder
-        _fun118013: for(var _fun118013_ip = 0; ; ) switch(_fun118013_ip) {
+        _fun118019: for(var _fun118019_ip = 0; ; ) switch(_fun118019_ip) {
  0:
             mike = argFoo;
             romeo = mike.style;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.View;
             report = {};
             offset = undefined;
-            if(yankee) { _fun118013_ip = 418; continue _fun118013 }
+            if(yankee) { _fun118019_ip = 418; continue _fun118019 }
  415:
             offset = options;
  418:

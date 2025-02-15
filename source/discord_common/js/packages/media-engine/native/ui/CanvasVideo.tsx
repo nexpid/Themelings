@@ -53,30 +53,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset[3] = foxtrot;
         offset[4] = oscar;
         zulu = function() {
-            _fun50284: for(var _fun50284_ip = 0; ; ) switch(_fun50284_ip) {
+            _fun50291: for(var _fun50291_ip = 0; ; ) switch(_fun50291_ip) {
  0:
                 zulu = _closure2_slot4;
                 yankee = zulu.current;
                 var _closure3_slot0 = yankee;
                 zulu = _closure2_slot1;
-                if(zulu) { _fun50284_ip = 351; continue _fun50284 }
+                if(zulu) { _fun50291_ip = 351; continue _fun50291 }
  28:
                 options = null;
-                if(!(options != yankee)) { _fun50284_ip = 351; continue _fun50284 }
+                if(!(options != yankee)) { _fun50291_ip = 351; continue _fun50291 }
  37:
                 zulu = false;
                 var _closure3_slot1 = zulu;
                 oscar = function(argFoo, argBar) { // Original name: frameCallback
-                    _fun50285: for(var _fun50285_ip = 0; ; ) switch(_fun50285_ip) {
+                    _fun50292: for(var _fun50292_ip = 0; ; ) switch(_fun50292_ip) {
  0:
                         tango = argFoo;
                         entity = argBar;
                         zulu = _closure3_slot1;
-                        if(zulu) { _fun50285_ip = 45; continue _fun50285 }
+                        if(zulu) { _fun50292_ip = 45; continue _fun50292 }
  16:
                         oscar = _closure2_slot2;
                         report = null;
-                        if(!(report != oscar)) { _fun50285_ip = 39; continue _fun50285 }
+                        if(!(report != oscar)) { _fun50292_ip = 39; continue _fun50292 }
  29:
                         report = _closure2_slot2;
                         zulu = undefined;
@@ -88,20 +88,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = _closure3_slot0;
                         zulu = zulu.width;
                         zulu = zulu === tango;
-                        if(!zulu) { _fun50285_ip = 74; continue _fun50285 }
+                        if(!zulu) { _fun50292_ip = 74; continue _fun50292 }
  61:
                         report = _closure3_slot0;
                         report = report.height;
                         zulu = report === entity;
  74:
-                        if(zulu) { _fun50285_ip = 127; continue _fun50285 }
+                        if(zulu) { _fun50292_ip = 127; continue _fun50292 }
  77:
                         mike = _closure3_slot0;
                         mike['width'] = tango;
                         mike['height'] = entity;
                         report = _closure2_slot3;
                         zulu = null;
-                        if(!(zulu != report)) { _fun50285_ip = 127; continue _fun50285 }
+                        if(!(zulu != report)) { _fun50292_ip = 127; continue _fun50292 }
  106:
                         zulu = _closure2_slot3;
                         mike = {};
@@ -125,37 +125,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.bind(golf)();
                 var _closure3_slot3 = report;
                 golf = report.addVideoOutputSink;
-                if(!(options == golf)) { _fun50284_ip = 323; continue _fun50284 }
+                if(!(options == golf)) { _fun50291_ip = 323; continue _fun50291 }
  104:
                 golf = global;
                 golf = golf.window;
                 offset = options == golf;
                 verify = undefined;
-                if(offset) { _fun50284_ip = 176; continue _fun50284 }
+                if(offset) { _fun50291_ip = 176; continue _fun50291 }
  121:
                 golf = golf.DiscordNative;
                 offset = options == golf;
                 verify = undefined;
-                if(offset) { _fun50284_ip = 176; continue _fun50284 }
+                if(offset) { _fun50291_ip = 176; continue _fun50291 }
  136:
                 offset = golf.app;
                 golf = options == offset;
                 verify = undefined;
-                if(golf) { _fun50284_ip = 176; continue _fun50284 }
+                if(golf) { _fun50291_ip = 176; continue _fun50291 }
  151:
                 golf = offset.getReleaseChannel;
                 golf = options == golf;
                 verify = undefined;
-                if(golf) { _fun50284_ip = 176; continue _fun50284 }
+                if(golf) { _fun50291_ip = 176; continue _fun50291 }
  166:
                 golf = offset.getReleaseChannel;
                 verify = golf.bind(offset)();
  176:
                 golf = 'canary';
-                if(!(golf !== verify)) { _fun50284_ip = 227; continue _fun50284 }
+                if(!(golf !== verify)) { _fun50291_ip = 227; continue _fun50291 }
  184:
                 golf = 'development';
-                if(!(golf !== verify)) { _fun50284_ip = 227; continue _fun50284 }
+                if(!(golf !== verify)) { _fun50291_ip = 227; continue _fun50291 }
  194:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.bind(zulu)(golf);
                 golf = verify.initRenderingContext2D;
                 golf = golf.bind(verify)(yankee);
-                _fun50284_ip = 258; continue _fun50284;
+                _fun50291_ip = 258; continue _fun50291;
  227:
                 offset = _closure1_slot0;
                 romeo = _closure1_slot2;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = verify.bind(offset)(yankee);
  258:
                 var _closure3_slot4 = golf;
-                if(!(options != golf)) { _fun50284_ip = 321; continue _fun50284 }
+                if(!(options != golf)) { _fun50291_ip = 321; continue _fun50291 }
  266:
                 golf = _closure1_slot1;
                 options = _closure1_slot2;

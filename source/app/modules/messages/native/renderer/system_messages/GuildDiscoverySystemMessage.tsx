@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getStringForType
-        _fun72419: for(var _fun72419_ip = 0; ; ) switch(_fun72419_ip) {
+        _fun72425: for(var _fun72425_ip = 0; ; ) switch(_fun72425_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.MessageTypes;
             mike = mike.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(mike !== zulu)) { _fun72419_ip = 322; continue _fun72419 }
+            if(!(mike !== zulu)) { _fun72425_ip = 322; continue _fun72425 }
  47:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.MessageTypes;
             mike = mike.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(mike !== zulu)) { _fun72419_ip = 265; continue _fun72419 }
+            if(!(mike !== zulu)) { _fun72425_ip = 265; continue _fun72425 }
  83:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.MessageTypes;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(mike !== zulu)) { _fun72419_ip = 208; continue _fun72419 }
+            if(!(mike !== zulu)) { _fun72425_ip = 208; continue _fun72425 }
  116:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.MessageTypes;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(mike !== zulu)) { _fun72419_ip = 151; continue _fun72419 }
+            if(!(mike !== zulu)) { _fun72425_ip = 151; continue _fun72425 }
  149:
             return report;
  151:

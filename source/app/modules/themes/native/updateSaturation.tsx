@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/themes/native/updateSaturation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: updateSaturation
-        _fun109312: for(var _fun109312_ip = 0; ; ) switch(_fun109312_ip) {
+        _fun109318: for(var _fun109318_ip = 0; ; ) switch(_fun109318_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(entity);
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
-            if(entity) { _fun109312_ip = 63; continue _fun109312 }
+            if(entity) { _fun109318_ip = 63; continue _fun109318 }
  40:
             entity = _closure1_slot3;
             zulu = entity.DCDTheme;
             entity = zulu.updateSaturation;
             entity = entity.bind(zulu)(tango);
-            _fun109312_ip = 94; continue _fun109312;
+            _fun109318_ip = 94; continue _fun109318;
  63:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

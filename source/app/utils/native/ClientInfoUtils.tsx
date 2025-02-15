@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'utils/native/ClientInfoUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: getConstants
-        _fun36004: for(var _fun36004_ip = 0; ; ) switch(_fun36004_ip) {
+        _fun36011: for(var _fun36011_ip = 0; ; ) switch(_fun36011_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -38,7 +38,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = tango.bind(zulu)(mike);
             mike = tango.isAndroid;
             mike = mike.bind(tango)();
-            if(mike) { _fun36004_ip = 59; continue _fun36004 }
+            if(mike) { _fun36011_ip = 59; continue _fun36011 }
  37:
             mike = _closure1_slot3;
             tango = mike.InfoDictionaryManager;
@@ -52,7 +52,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = mike[tango];
             report = report.bind(zulu)(mike);
             mike = null;
-            if(!(mike !== report)) { _fun36004_ip = 114; continue _fun36004 }
+            if(!(mike !== report)) { _fun36011_ip = 114; continue _fun36011 }
  85:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -75,14 +75,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     zulu['getConstants'] = tango;
     mike = function() { // Original name: getBuildNumberLabel
-        _fun36005: for(var _fun36005_ip = 0; ; ) switch(_fun36005_ip) {
+        _fun36012: for(var _fun36012_ip = 0; ; ) switch(_fun36012_ip) {
  0:
             mike = ['0', '123456', '1234567890'];
             entity = mike.includes;
-            report = '3668';
+            report = '3673';
             mike = entity.bind(mike)(report);
             entity = report;
-            if(!mike) { _fun36005_ip = 61; continue _fun36005 }
+            if(!mike) { _fun36012_ip = 61; continue _fun36012 }
  32:
             mike = global;
             mike = mike.HermesInternal;

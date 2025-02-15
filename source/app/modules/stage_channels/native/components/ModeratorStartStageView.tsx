@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/components/ModeratorStartStageView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ModeratorStartStageView
-        _fun76040: for(var _fun76040_ip = 0; ; ) switch(_fun76040_ip) {
+        _fun76050: for(var _fun76050_ip = 0; ; ) switch(_fun76050_ip) {
  0:
             mike = argFoo;
             output = mike.channel;
@@ -160,13 +160,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             mike = offset != entity;
             update = undefined;
-            if(!mike) { _fun76040_ip = 301; continue _fun76040 }
+            if(!mike) { _fun76050_ip = 301; continue _fun76050 }
  298:
             update = entity;
  301:
             mike = offset == kilo;
             entity = null;
-            if(mike) { _fun76040_ip = 873; continue _fun76040 }
+            if(mike) { _fun76050_ip = 873; continue _fun76050 }
  313:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;
@@ -232,11 +232,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.prompts;
             golf['style'] = foxtrot;
             foxtrot = null;
-            if(!options) { _fun76040_ip = 678; continue _fun76040 }
+            if(!options) { _fun76050_ip = 678; continue _fun76050 }
  608:
             options = offset != source;
             foxtrot = null;
-            if(!options) { _fun76040_ip = 678; continue _fun76040 }
+            if(!options) { _fun76050_ip = 678; continue _fun76050 }
  617:
             echo = _closure1_slot7;
             result = _closure1_slot0;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(4);
             options[0] = foxtrot;
             foxtrot = null;
-            if(!backup) { _fun76040_ip = 738; continue _fun76040 }
+            if(!backup) { _fun76050_ip = 738; continue _fun76050 }
  691:
             echo = _closure1_slot7;
             result = _closure1_slot0;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  738:
             options[1] = foxtrot;
             offset = null;
-            if(!yankee) { _fun76040_ip = 798; continue _fun76040 }
+            if(!yankee) { _fun76050_ip = 798; continue _fun76050 }
  747:
             backup = _closure1_slot7;
             foxtrot = _closure1_slot0;

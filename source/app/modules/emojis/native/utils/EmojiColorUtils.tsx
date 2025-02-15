@@ -10,12 +10,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot0;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun115288: for(var _fun115288_ip = 0; ; ) switch(_fun115288_ip) {
+                _fun115294: for(var _fun115294_ip = 0; ; ) switch(_fun115294_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun115288_ip = 129; continue _fun115288 }
+                    if(zulu) { _fun115294_ip = 129; continue _fun115294 }
  10:
                     options = mike.cache;
                     golf = mike.cacheKey;
@@ -28,14 +28,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return offset;
  42:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun115288_ip = 126; continue _fun115288 }
+                    if(zulu) { _fun115294_ip = 126; continue _fun115294 }
  48:
                     yankee = options;
                     tango = yankee.get;
                     zulu = golf;
                     zulu = tango.bind(yankee)(zulu);
                     tango = null;
-                    if(!(tango == zulu)) { _fun115288_ip = 123; continue _fun115288 }
+                    if(!(tango == zulu)) { _fun115294_ip = 123; continue _fun115294 }
  70: // try_start_0
                     report = verify.bind(offset)(report);
                     SaveGenerator(address=79);
@@ -43,10 +43,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return report;
  79:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun115288_ip = 115; continue _fun115288 }
+                    if(verify) { _fun115294_ip = 115; continue _fun115294 }
  85:
                     oscar = report;
-                    if(!(tango != report)) { _fun115288_ip = 112; continue _fun115288 }
+                    if(!(tango != report)) { _fun115294_ip = 112; continue _fun115294 }
  92:
                     offset = options;
                     verify = offset.set;
@@ -128,12 +128,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun115292: for(var _fun115292_ip = 0; ; ) switch(_fun115292_ip) {
+                _fun115298: for(var _fun115298_ip = 0; ; ) switch(_fun115298_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun115292_ip = 137; continue _fun115292 }
+                    if(zulu) { _fun115298_ip = 137; continue _fun115298 }
  13:
                     options = mike.emoji;
                     oscar = mike.emojiSource;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return report;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun115292_ip = 134; continue _fun115292 }
+                    if(zulu) { _fun115298_ip = 134; continue _fun115298 }
  37:
                     tango = {};
                     golf = _closure1_slot2;
@@ -172,11 +172,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun115292_ip = 131; continue _fun115292 }
+                    if(tango) { _fun115298_ip = 131; continue _fun115298 }
  115:
                     report = null;
                     tango = zulu;
-                    if(!(report == tango)) { _fun115292_ip = 128; continue _fun115292 }
+                    if(!(report == tango)) { _fun115298_ip = 128; continue _fun115298 }
  124:
                     tango = new Array(0);
  128:

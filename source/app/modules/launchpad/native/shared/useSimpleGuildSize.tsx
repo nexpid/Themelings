@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/launchpad/native/shared/useSimpleGuildSize.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useSimpleGuildSize
-        _fun120985: for(var _fun120985_ip = 0; ; ) switch(_fun120985_ip) {
+        _fun120991: for(var _fun120991_ip = 0; ; ) switch(_fun120991_ip) {
  0:
             mike = argFoo;
             golf = mike.size;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = null;
             mike = mike != golf;
             tango = 48;
-            if(!mike) { _fun120985_ip = 48; continue _fun120985 }
+            if(!mike) { _fun120991_ip = 48; continue _fun120991 }
  45:
             tango = golf;
  48:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike[1] = golf;
             mike[2] = zulu;
             entity = function() {
-                _fun120987: for(var _fun120987_ip = 0; ; ) switch(_fun120987_ip) {
+                _fun120993: for(var _fun120993_ip = 0; ; ) switch(_fun120993_ip) {
  0:
                     zulu = {};
                     entity = 'relative';
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     report = null;
                     oscar = report == entity;
                     tango = 0;
-                    if(!oscar) { _fun120987_ip = 31; continue _fun120987 }
+                    if(!oscar) { _fun120993_ip = 31; continue _fun120993 }
  28:
                     tango = 4;
  31:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     tango = _closure2_slot0;
                     tango = report == tango;
                     entity = 0;
-                    if(!tango) { _fun120987_ip = 52; continue _fun120987 }
+                    if(!tango) { _fun120993_ip = 52; continue _fun120993 }
  49:
                     entity = 4;
  52:

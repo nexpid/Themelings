@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: shouldShowTakeoverForWarnings
-        _fun79494: for(var _fun79494_ip = 0; ; ) switch(_fun79494_ip) {
+        _fun79504: for(var _fun79504_ip = 0; ; ) switch(_fun79504_ip) {
  0:
             tango = argFoo;
             zulu = tango.filter;
@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.length;
             entity = 0;
             entity = zulu > entity;
-            if(!entity) { _fun79494_ip = 54; continue _fun79494 }
+            if(!entity) { _fun79504_ip = 54; continue _fun79504 }
  36:
             zulu = tango.every;
             mike = function(argFoo) {
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/self_mod/inappropriate_conversation/InappropriateConversationUtils.tsx';
     report = oscar.bind(golf)(report);
     report = function() { // Original name: getSafetyAlertsSettingOrDefault
-        _fun79497: for(var _fun79497_ip = 0; ; ) switch(_fun79497_ip) {
+        _fun79507: for(var _fun79507_ip = 0; ; ) switch(_fun79507_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.getCurrentUser;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike == oscar;
             report = undefined;
             tango = undefined;
-            if(zulu) { _fun79497_ip = 39; continue _fun79497 }
+            if(zulu) { _fun79507_ip = 39; continue _fun79507 }
  29:
             zulu = oscar.isStaff;
             tango = zulu.bind(oscar)();
@@ -92,17 +92,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.privacy;
             golf = mike == oscar;
             tango = undefined;
-            if(golf) { _fun79497_ip = 90; continue _fun79497 }
+            if(golf) { _fun79507_ip = 90; continue _fun79507 }
  70:
             oscar = oscar.inappropriateConversationWarnings;
             golf = mike == oscar;
             tango = undefined;
-            if(golf) { _fun79497_ip = 90; continue _fun79497 }
+            if(golf) { _fun79507_ip = 90; continue _fun79507 }
  85:
             tango = oscar.value;
  90:
             mike = mike == tango;
-            if(mike) { _fun79497_ip = 100; continue _fun79497 }
+            if(mike) { _fun79507_ip = 100; continue _fun79507 }
  97:
             mike = tango;
  100:
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(entity);
             entity = tango.getUserIsTeen;
             entity = entity.bind(tango)();
-            if(entity) { _fun79497_ip = 136; continue _fun79497 }
+            if(entity) { _fun79507_ip = 136; continue _fun79507 }
  133:
             entity = zulu;
  136:
-            if(!entity) { _fun79497_ip = 142; continue _fun79497 }
+            if(!entity) { _fun79507_ip = 142; continue _fun79507 }
  139:
             entity = mike;
  142:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSafetyAlertsSettingOrDefault'] = report;
     report = function(argFoo) { // Original name: getInappropriateConversationTakeoverForChannel
-        _fun79498: for(var _fun79498_ip = 0; ; ) switch(_fun79498_ip) {
+        _fun79508: for(var _fun79508_ip = 0; ; ) switch(_fun79508_ip) {
  0:
             tango = function(argFoo) { // Original name: getTier1WarningsForChannel
                 zulu = _closure1_slot4;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.length;
             zulu = 0;
-            if(!(!(mike > zulu))) { _fun79498_ip = 84; continue _fun79498 }
+            if(!(!(mike > zulu))) { _fun79508_ip = 84; continue _fun79508 }
  47:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = mike.length;
             tango = 1;
             entity = null;
-            if(!(tango === report)) { _fun79498_ip = 82; continue _fun79498 }
+            if(!(tango === report)) { _fun79508_ip = 82; continue _fun79508 }
  78:
             entity = mike[zulu];
  82:
@@ -185,13 +185,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getInappropriateConversationTakeoverForChannel'] = report;
     tango = function(argFoo) { // Original name: shouldShowInappropriateConversationTakeoverForChannelRecord
-        _fun79503: for(var _fun79503_ip = 0; ; ) switch(_fun79503_ip) {
+        _fun79513: for(var _fun79513_ip = 0; ; ) switch(_fun79513_ip) {
  0:
             mike = argFoo;
             zulu = mike.safetyWarnings;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun79503_ip = 38; continue _fun79503 }
+            if(!entity) { _fun79513_ip = 38; continue _fun79513 }
  18:
             tango = _closure1_slot6;
             zulu = mike.safetyWarnings;

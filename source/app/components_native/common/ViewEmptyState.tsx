@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/common/ViewEmptyState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88790: for(var _fun88790_ip = 0; ; ) switch(_fun88790_ip) {
+        _fun88807: for(var _fun88807_ip = 0; ; ) switch(_fun88807_ip) {
  0:
             entity = argFoo;
             offset = entity.source;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             yankee = options != output;
             offset = null;
-            if(!yankee) { _fun88790_ip = 200; continue _fun88790 }
+            if(!yankee) { _fun88807_ip = 200; continue _fun88807 }
  138:
             kilo = _closure1_slot4;
             foxtrot = _closure1_slot0;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = offset;
             offset = options != romeo;
             options = null;
-            if(!offset) { _fun88790_ip = 283; continue _fun88790 }
+            if(!offset) { _fun88807_ip = 283; continue _fun88807 }
  213:
             yankee = _closure1_slot4;
             offset = _closure1_slot0;

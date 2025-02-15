@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['useStyles'] = tango;
     mike = function(argFoo) { // Original name: FloatingActionButton
-        _fun76249: for(var _fun76249_ip = 0; ; ) switch(_fun76249_ip) {
+        _fun76259: for(var _fun76259_ip = 0; ; ) switch(_fun76259_ip) {
  0:
             tango = argFoo;
             yankee = tango.icon;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = report;
             mike[1] = golf;
             entity = function() {
-                _fun76250: for(var _fun76250_ip = 0; ; ) switch(_fun76250_ip) {
+                _fun76260: for(var _fun76260_ip = 0; ; ) switch(_fun76260_ip) {
  0:
                     entity = _closure2_slot1;
                     mike = entity.button;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     zulu = mike != zulu;
                     mike = undefined;
-                    if(!zulu) { _fun76250_ip = 49; continue _fun76250 }
+                    if(!zulu) { _fun76260_ip = 49; continue _fun76260 }
  36:
                     zulu = {};
                     tango = _closure2_slot0;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.isValidElement;
             oscar = oscar.bind(options)(yankee);
             options = yankee;
-            if(!oscar) { _fun76249_ip = 254; continue _fun76249 }
+            if(!oscar) { _fun76259_ip = 254; continue _fun76259 }
  201:
             offset = _closure1_slot3;
             verify = offset.cloneElement;

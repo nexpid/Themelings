@@ -38,28 +38,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: computeGuildsBarCutout
-        _fun114410: for(var _fun114410_ip = 0; ; ) switch(_fun114410_ip) {
+        _fun114416: for(var _fun114416_ip = 0; ; ) switch(_fun114416_ip) {
  0:
             entity = argFoo;
             golf = entity.position;
             tango = entity.containerSize;
             offset = undefined;
-            if(!(tango === offset)) { _fun114410_ip = 27; continue _fun114410 }
+            if(!(tango === offset)) { _fun114416_ip = 27; continue _fun114416 }
  20:
             tango = _closure1_slot3;
  27:
             report = entity.width;
-            if(!(report === offset)) { _fun114410_ip = 43; continue _fun114410 }
+            if(!(report === offset)) { _fun114416_ip = 43; continue _fun114416 }
  36:
             report = _closure1_slot5;
  43:
             oscar = entity.height;
-            if(!(oscar === offset)) { _fun114410_ip = 59; continue _fun114410 }
+            if(!(oscar === offset)) { _fun114416_ip = 59; continue _fun114416 }
  52:
             oscar = _closure1_slot5;
  59:
             mike = entity.padding;
-            if(!(mike === offset)) { _fun114410_ip = 75; continue _fun114410 }
+            if(!(mike === offset)) { _fun114416_ip = 75; continue _fun114416 }
  68:
             mike = _closure1_slot4;
  75:
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['height'] = report;
             entity['cornerRadius'] = oscar;
             oscar = 'top-right';
-            if(!(oscar !== golf)) { _fun114410_ip = 258; continue _fun114410 }
+            if(!(oscar !== golf)) { _fun114416_ip = 258; continue _fun114416 }
  228:
             oscar = tango - zulu;
             oscar = oscar + mike;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = tango - report;
             report = report + mike;
             entity['y'] = report;
-            _fun114410_ip = 281; continue _fun114410;
+            _fun114416_ip = 281; continue _fun114416;
  258:
             zulu = tango - zulu;
             zulu = zulu + mike;

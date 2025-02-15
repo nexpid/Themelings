@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/premium/native/gifting/PremiumGiftModal.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: PremiumGiftModal
-        _fun87729: for(var _fun87729_ip = 0; ; ) switch(_fun87729_ip) {
+        _fun87746: for(var _fun87746_ip = 0; ; ) switch(_fun87746_ip) {
  0:
             entity = argFoo;
             result = entity.recipientUserId;
@@ -147,13 +147,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             echo = oscar.bind(verify)(mike, zulu);
             mike = null;
-            if(!(mike == foxtrot)) { _fun87729_ip = 190; continue _fun87729 }
+            if(!(mike == foxtrot)) { _fun87746_ip = 190; continue _fun87746 }
  161:
-            if(!(mike == kilo)) { _fun87729_ip = 177; continue _fun87729 }
+            if(!(mike == kilo)) { _fun87746_ip = 177; continue _fun87746 }
  165:
             mike = _closure1_slot6;
             mike = mike.PLAN_SELECT;
-            _fun87729_ip = 187; continue _fun87729;
+            _fun87746_ip = 187; continue _fun87746;
  177:
             zulu = _closure1_slot6;
             mike = zulu.CUSTOMIZATION;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(0);
             output = verify.bind(oscar)(zulu, mike);
             mike = function(argFoo, argBar) { // Original name: useGetScreens
-                _fun87733: for(var _fun87733_ip = 0; ; ) switch(_fun87733_ip) {
+                _fun87750: for(var _fun87750_ip = 0; ; ) switch(_fun87750_ip) {
  0:
                     yankee = argFoo;
                     options = argBar;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = '';
                     romeo = offset.PLAN_SELECT;
                     offset = undefined;
-                    if(!(yankee === romeo)) { _fun87733_ip = 74; continue _fun87733 }
+                    if(!(yankee === romeo)) { _fun87750_ip = 74; continue _fun87750 }
  67:
                     offset = function(argFoo) {
                         tango = argFoo;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     mike['title'] = golf;
                     offset = offset.CUSTOMIZATION;
-                    if(!(yankee !== offset)) { _fun87733_ip = 155; continue _fun87733 }
+                    if(!(yankee !== offset)) { _fun87750_ip = 155; continue _fun87750 }
  123:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee = yankee.bind(verify)(offset);
                     offset = yankee.getHeaderBackButton;
                     offset = offset.bind(yankee)();
-                    _fun87733_ip = 186; continue _fun87733;
+                    _fun87750_ip = 186; continue _fun87750;
  155:
                     romeo = _closure1_slot0;
                     foxtrot = _closure1_slot2;
@@ -356,11 +356,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['initialRouteName'] = foxtrot;
             verify['screens'] = romeo;
             yankee = function(argFoo) { // Original name: onStateChange
-                _fun87738: for(var _fun87738_ip = 0; ; ) switch(_fun87738_ip) {
+                _fun87755: for(var _fun87755_ip = 0; ; ) switch(_fun87755_ip) {
  0:
                     entity = argFoo;
                     mike = null;
-                    if(!(mike != entity)) { _fun87738_ip = 54; continue _fun87738 }
+                    if(!(mike != entity)) { _fun87755_ip = 54; continue _fun87755 }
  9:
                     mike = entity.routes;
                     entity = entity.index;

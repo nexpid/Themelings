@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = oscar;
     mike = function(argFoo) { // Original name: getOrParseMessagePreviewMarkupAST
-        _fun86984: for(var _fun86984_ip = 0; ; ) switch(_fun86984_ip) {
+        _fun87001: for(var _fun87001_ip = 0; ; ) switch(_fun87001_ip) {
  0:
             entity = argFoo;
             report = entity.content;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.get;
             entity = entity.bind(mike)(report);
             mike = null;
-            if(!(mike == entity)) { _fun86984_ip = 202; continue _fun86984 }
+            if(!(mike == entity)) { _fun87001_ip = 202; continue _fun87001 }
  69:
             tango = _closure1_slot6;
             mike = {};
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = '```';
             mike = tango.bind(report)(mike);
             tango = undefined;
-            if(mike) { _fun86984_ip = 162; continue _fun86984 }
+            if(mike) { _fun87001_ip = 162; continue _fun87001 }
  123:
             yankee = report.split;
             offset = '\n';
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = romeo.bind(offset)(yankee);
             tango = offset;
  162:
-            if(!mike) { _fun86984_ip = 168; continue _fun86984 }
+            if(!mike) { _fun87001_ip = 168; continue _fun87001 }
  165:
             tango = report;
  168:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['renderASTToReact'] = golf;
     zulu['getMessagePreviewASTParser'] = oscar;
     report = function(argFoo) { // Original name: renderMessagePreviewMarkup
-        _fun86985: for(var _fun86985_ip = 0; ; ) switch(_fun86985_ip) {
+        _fun87002: for(var _fun87002_ip = 0; ; ) switch(_fun87002_ip) {
  0:
             tango = argFoo;
             romeo = tango.content;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.channelId;
             golf = tango.layout;
             zulu = undefined;
-            if(!(golf === zulu)) { _fun86985_ip = 71; continue _fun86985 }
+            if(!(golf === zulu)) { _fun87002_ip = 71; continue _fun87002 }
  36:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -205,18 +205,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.color;
             yankee = tango.postProcessor;
             offset = tango.disableAnimatedEmoji;
-            if(!(offset === zulu)) { _fun86985_ip = 94; continue _fun86985 }
+            if(!(offset === zulu)) { _fun87002_ip = 94; continue _fun87002 }
  92:
             offset = true;
  94:
             report = tango.fontScale;
-            if(!(report === zulu)) { _fun86985_ip = 107; continue _fun86985 }
+            if(!(report === zulu)) { _fun87002_ip = 107; continue _fun87002 }
  104:
             report = 1;
  107:
             tango = tango.maxFontSizeMultiplier;
             options = '';
-            if(!(options !== romeo)) { _fun86985_ip = 274; continue _fun86985 }
+            if(!(options !== romeo)) { _fun87002_ip = 274; continue _fun87002 }
  124:
             options = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
             foxtrot = new Array(0);
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['channelId'] = entity;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun86985_ip = 180; continue _fun86985 }
+            if(!entity) { _fun87002_ip = 180; continue _fun87002 }
  177:
             entity = mike;
  180:

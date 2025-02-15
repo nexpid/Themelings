@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function(argFoo) {
-            _fun118806: for(var _fun118806_ip = 0; ; ) switch(_fun118806_ip) {
+            _fun118812: for(var _fun118812_ip = 0; ; ) switch(_fun118812_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.itemKey;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 mike = entity.current;
                 entity = mike.has;
                 entity = entity.bind(mike)(zulu);
-                if(entity) { _fun118806_ip = 233; continue _fun118806 }
+                if(entity) { _fun118812_ip = 233; continue _fun118812 }
  72:
                 entity = _closure2_slot1;
                 mike = entity.current;

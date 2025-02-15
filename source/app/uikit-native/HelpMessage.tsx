@@ -8,24 +8,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = kilo;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: getIcon
-        _fun76673: for(var _fun76673_ip = 0; ; ) switch(_fun76673_ip) {
+        _fun76683: for(var _fun76683_ip = 0; ; ) switch(_fun76683_ip) {
  0:
             mike = argFoo;
             entity = _closure1_slot7;
             entity = entity.WARNING;
-            if(!(entity !== mike)) { _fun76673_ip = 291; continue _fun76673 }
+            if(!(entity !== mike)) { _fun76683_ip = 291; continue _fun76683 }
  23:
             entity = _closure1_slot7;
             entity = entity.INFO;
-            if(!(entity !== mike)) { _fun76673_ip = 218; continue _fun76673 }
+            if(!(entity !== mike)) { _fun76683_ip = 218; continue _fun76683 }
  40:
             entity = _closure1_slot7;
             entity = entity.ERROR;
-            if(!(entity !== mike)) { _fun76673_ip = 145; continue _fun76673 }
+            if(!(entity !== mike)) { _fun76683_ip = 145; continue _fun76683 }
  54:
             entity = _closure1_slot7;
             entity = entity.SUCCESS;
-            if(!(entity !== mike)) { _fun76673_ip = 72; continue _fun76673 }
+            if(!(entity !== mike)) { _fun76683_ip = 72; continue _fun76683 }
  68:
             entity = undefined;
             return entity;
@@ -109,25 +109,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo, argBar) { // Original name: useContainerStyle
-        _fun76674: for(var _fun76674_ip = 0; ; ) switch(_fun76674_ip) {
+        _fun76684: for(var _fun76684_ip = 0; ; ) switch(_fun76684_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
             tango = _closure1_slot7;
             tango = tango.WARNING;
-            if(!(tango !== zulu)) { _fun76674_ip = 93; continue _fun76674 }
+            if(!(tango !== zulu)) { _fun76684_ip = 93; continue _fun76684 }
  23:
             tango = _closure1_slot7;
             tango = tango.INFO;
-            if(!(tango !== zulu)) { _fun76674_ip = 85; continue _fun76674 }
+            if(!(tango !== zulu)) { _fun76684_ip = 85; continue _fun76684 }
  37:
             tango = _closure1_slot7;
             tango = tango.ERROR;
-            if(!(tango !== zulu)) { _fun76674_ip = 77; continue _fun76674 }
+            if(!(tango !== zulu)) { _fun76684_ip = 77; continue _fun76684 }
  51:
             mike = _closure1_slot7;
             mike = mike.SUCCESS;
-            if(!(mike !== zulu)) { _fun76674_ip = 69; continue _fun76674 }
+            if(!(mike !== zulu)) { _fun76684_ip = 69; continue _fun76684 }
  65:
             mike = undefined;
             return mike;
@@ -293,19 +293,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'uikit-native/HelpMessage.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: HelpMessage
-        _fun76675: for(var _fun76675_ip = 0; ; ) switch(_fun76675_ip) {
+        _fun76685: for(var _fun76685_ip = 0; ; ) switch(_fun76685_ip) {
  0:
             entity = argFoo;
             verify = entity.children;
             golf = entity.messageType;
             offset = entity.textVariant;
             tango = undefined;
-            if(!(offset === tango)) { _fun76675_ip = 30; continue _fun76675 }
+            if(!(offset === tango)) { _fun76685_ip = 30; continue _fun76685 }
  26:
             offset = 'text-sm/medium';
  30:
             yankee = entity.textColor;
-            if(!(yankee === tango)) { _fun76675_ip = 46; continue _fun76675 }
+            if(!(yankee === tango)) { _fun76685_ip = 46; continue _fun76685 }
  40:
             yankee = 'text-normal';
  46:

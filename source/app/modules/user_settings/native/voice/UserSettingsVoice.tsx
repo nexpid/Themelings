@@ -32,17 +32,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/voice/UserSettingsVoice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserSettingsVoiceForm
-        _fun103094: for(var _fun103094_ip = 0; ; ) switch(_fun103094_ip) {
+        _fun103086: for(var _fun103086_ip = 0; ; ) switch(_fun103086_ip) {
  0:
             entity = argFoo;
             entity = entity.disableForm;
             report = undefined;
-            if(!(entity === report)) { _fun103094_ip = 17; continue _fun103094 }
+            if(!(entity === report)) { _fun103086_ip = 17; continue _fun103086 }
  15:
             entity = false;
  17:
             tango = _closure1_slot3;
-            if(entity) { _fun103094_ip = 91; continue _fun103094 }
+            if(entity) { _fun103086_ip = 91; continue _fun103086 }
  27:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun103094_ip = 119; continue _fun103094;
+            _fun103086_ip = 119; continue _fun103086;
  91:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

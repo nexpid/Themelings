@@ -83,20 +83,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = 'request';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun80243: for(var _fun80243_ip = 0; ; ) switch(_fun80243_ip) {
+            _fun80255: for(var _fun80255_ip = 0; ; ) switch(_fun80255_ip) {
  0:
                 tango = argFoo;
                 entity = this;
                 zulu = entity._pending;
                 mike = zulu.has;
                 mike = mike.bind(zulu)(tango);
-                if(mike) { _fun80243_ip = 41; continue _fun80243 }
+                if(mike) { _fun80255_ip = 41; continue _fun80255 }
  25:
                 report = entity._fetched;
                 zulu = report.has;
                 mike = zulu.bind(report)(tango);
  41:
-                if(mike) { _fun80243_ip = 79; continue _fun80243 }
+                if(mike) { _fun80255_ip = 79; continue _fun80255 }
  44:
                 zulu = entity._pending;
                 mike = zulu.add;
@@ -190,11 +190,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = new Array(1);
         report[0] = tango;
         tango = function() {
-            _fun80248: for(var _fun80248_ip = 0; ; ) switch(_fun80248_ip) {
+            _fun80260: for(var _fun80260_ip = 0; ; ) switch(_fun80260_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun80248_ip = 35; continue _fun80248 }
+                if(!(mike != zulu)) { _fun80260_ip = 35; continue _fun80260 }
  13:
                 zulu = _closure1_slot7;
                 mike = zulu.request;
@@ -210,13 +210,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun80249: for(var _fun80249_ip = 0; ; ) switch(_fun80249_ip) {
+            _fun80261: for(var _fun80261_ip = 0; ; ) switch(_fun80261_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = null;
                 mike = entity != mike;
                 entity = undefined;
-                if(!mike) { _fun80249_ip = 51; continue _fun80249 }
+                if(!mike) { _fun80261_ip = 51; continue _fun80261 }
  18:
                 mike = {};
                 zulu = _closure2_slot1;
@@ -242,11 +242,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun80250: for(var _fun80250_ip = 0; ; ) switch(_fun80250_ip) {
+            _fun80262: for(var _fun80262_ip = 0; ; ) switch(_fun80262_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zulu)) { _fun80250_ip = 101; continue _fun80250 }
+                if(!(entity != zulu)) { _fun80262_ip = 101; continue _fun80262 }
  13:
                 entity = {};
                 report = _closure1_slot6;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot2;
                 mike = zulu.bind(report)(tango, mike);
                 entity['coverImageUrl'] = mike;
-                _fun80250_ip = 130; continue _fun80250;
+                _fun80262_ip = 130; continue _fun80262;
  101:
                 mike = {};
                 zulu = false;

@@ -33,11 +33,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun63434: for(var _fun63434_ip = 0; ; ) switch(_fun63434_ip) {
+                _fun63439: for(var _fun63439_ip = 0; ; ) switch(_fun63439_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun63434_ip = 700; continue _fun63434 }
+                    if(mike) { _fun63439_ip = 700; continue _fun63439 }
  10:
                     backup = argFoo;
                     sizing = argBar;
@@ -53,12 +53,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = null;
                     options = verify == golf;
                     mike = undefined;
-                    if(options) { _fun63434_ip = 60; continue _fun63434 }
+                    if(options) { _fun63439_ip = 60; continue _fun63439 }
  55:
                     mike = golf.id;
  60:
                     yankee = mike;
-                    if(!(verify == mike)) { _fun63434_ip = 70; continue _fun63434 }
+                    if(!(verify == mike)) { _fun63439_ip = 70; continue _fun63439 }
  67:
                     return report;
  70:
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = backup;
                     mike = mike.bio;
                     mike = verify != mike;
-                    if(!mike) { _fun63434_ip = 125; continue _fun63434 }
+                    if(!mike) { _fun63439_ip = 125; continue _fun63439 }
  122:
                     mike = golf;
  125:
-                    if(!mike) { _fun63434_ip = 180; continue _fun63434 }
+                    if(!mike) { _fun63439_ip = 180; continue _fun63439 }
  128:
                     golf = backup;
                     options = _closure1_slot1;
@@ -111,13 +111,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = foxtrot.patch;
                     mike = {};
                     kilo = sizing;
-                    if(!(verify == kilo)) { _fun63434_ip = 286; continue _fun63434 }
+                    if(!(verify == kilo)) { _fun63439_ip = 286; continue _fun63439 }
  265:
                     result = _closure1_slot6;
                     output = result.USER_PROFILE;
                     kilo = _closure1_slot7;
                     kilo = output.bind(result)(kilo);
-                    _fun63434_ip = 309; continue _fun63434;
+                    _fun63439_ip = 309; continue _fun63439;
  286:
                     echo = _closure1_slot6;
                     result = echo.USER_GUILD_PROFILE;
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  332:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golf) { _fun63434_ip = 595; continue _fun63434 }
+                    if(golf) { _fun63439_ip = 595; continue _fun63439 }
  341:
                     tango = mike;
                     golf = mike.ok;
-                    if(golf) { _fun63434_ip = 458; continue _fun63434 }
+                    if(golf) { _fun63439_ip = 458; continue _fun63439 }
  353:
                     backup = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf['errors'] = sizing;
                     golf['apiError'] = kilo;
                     golf = foxtrot.bind(backup)(golf);
-                    _fun63434_ip = 592; continue _fun63434;
+                    _fun63439_ip = 592; continue _fun63439;
  458:
                     golf = tango;
                     golf = golf.body;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = golf;
                     foxtrot = verify == golf;
                     golf = undefined;
-                    if(foxtrot) { _fun63434_ip = 489; continue _fun63434 }
+                    if(foxtrot) { _fun63439_ip = 489; continue _fun63439 }
  484:
                     golf = romeo.id;
  489:
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = golf;
                     golf = verify == golf;
                     verify = undefined;
-                    if(golf) { _fun63434_ip = 524; continue _fun63434 }
+                    if(golf) { _fun63439_ip = 524; continue _fun63439 }
  518:
                     verify = oscar.expires_at;
  524:
@@ -334,27 +334,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['resetPendingProfileChanges'] = report;
     report = function(argFoo) { // Original name: setPendingBannerUrl
-        _fun63438: for(var _fun63438_ip = 0; ; ) switch(_fun63438_ip) {
+        _fun63443: for(var _fun63443_ip = 0; ; ) switch(_fun63443_ip) {
  0:
             tango = argFoo;
             zulu = null;
             report = zulu == tango;
             entity = undefined;
             oscar = undefined;
-            if(report) { _fun63438_ip = 33; continue _fun63438 }
+            if(report) { _fun63443_ip = 33; continue _fun63443 }
  18:
             golf = tango.startsWith;
             report = 'https:';
             oscar = golf.bind(tango)(report);
  33:
             report = true;
-            if(!(report !== oscar)) { _fun63438_ip = 57; continue _fun63438 }
+            if(!(report !== oscar)) { _fun63443_ip = 57; continue _fun63443 }
  39:
-            if(!(zulu != tango)) { _fun63438_ip = 115; continue _fun63438 }
+            if(!(zulu != tango)) { _fun63443_ip = 115; continue _fun63443 }
  43:
             zulu = _closure1_slot12;
             zulu = zulu.bind(entity)(tango);
-            _fun63438_ip = 115; continue _fun63438;
+            _fun63443_ip = 115; continue _fun63443;
  57:
             zulu = global;
             zulu = zulu.fetch;

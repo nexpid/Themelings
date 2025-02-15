@@ -1,6 +1,6 @@
 // app/stores/DeveloperExperimentStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun94763: for(var _fun94763_ip = 0; ; ) switch(_fun94763_ip) {
+    _fun94775: for(var _fun94775_ip = 0; ; ) switch(_fun94775_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot0 = report;
         var _closure1_slot1 = oscar;
         entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-            _fun94764: for(var _fun94764_ip = 0; ; ) switch(_fun94764_ip) {
+            _fun94776: for(var _fun94776_ip = 0; ; ) switch(_fun94776_ip) {
  0:
                 tango = argFoo;
                 oscar = argBaz;
@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot4;
                 entity = _closure1_slot12;
                 entity = entity.bind(zulu)();
-                if(entity) { _fun94764_ip = 51; continue _fun94764 }
+                if(entity) { _fun94776_ip = 51; continue _fun94776 }
  38:
                 entity = verify.apply;
                 entity = entity.bind(verify)(tango, oscar);
-                _fun94764_ip = 92; continue _fun94764;
+                _fun94776_ip = 92; continue _fun94776;
  51:
                 golf = global;
                 options = golf.Reflect;
                 golf = options.construct;
-                if(oscar) { _fun94764_ip = 71; continue _fun94764 }
+                if(oscar) { _fun94776_ip = 71; continue _fun94776 }
  67:
                 oscar = new Array(0);
  71:
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot11 = entity;
         entity = function() { // Original name: _isNativeReflectConstruct
-            _fun94765: for(var _fun94765_ip = 0; ; ) switch(_fun94765_ip) {
+            _fun94777: for(var _fun94777_ip = 0; ; ) switch(_fun94777_ip) {
  0:
  2: // try_start_0
                 mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = !mike;
                 var _closure2_slot0 = mike;
  72: // try_end0
-                _fun94765_ip = 76; continue _fun94765;
+                _fun94777_ip = 76; continue _fun94777;
  74: // catch_target0
                 CatchBlockStart(arg_register=1);
  76:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         yankee = verify.DEVELOPMENT;
         options = 'production';
         options = options === yankee;
-        if(options) { _fun94763_ip = 285; continue _fun94763 }
+        if(options) { _fun94775_ip = 285; continue _fun94775 }
  257:
         offset = offset.window;
         offset = offset.GLOBAL_ENV;
@@ -237,11 +237,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = 'getExperimentDescriptor';
             report['key'] = golf;
             oscar = function() { // Original name: value
-                _fun94775: for(var _fun94775_ip = 0; ; ) switch(_fun94775_ip) {
+                _fun94787: for(var _fun94787_ip = 0; ; ) switch(_fun94787_ip) {
  0:
                     mike = _closure1_slot10;
                     entity = null;
-                    if(!mike) { _fun94775_ip = 44; continue _fun94775 }
+                    if(!mike) { _fun94787_ip = 44; continue _fun94787 }
  12:
                     mike = {'type': 'developer', 'name': 'discord_dev_testing', 'revision': 1, 'override': true};
                     zulu = _closure1_slot9;

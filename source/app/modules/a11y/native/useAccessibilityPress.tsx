@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         entity = function() {
             entity = {};
             mike = function(argFoo) { // Original name: onAccessibilityAction
-                _fun76744: for(var _fun76744_ip = 0; ; ) switch(_fun76744_ip) {
+                _fun76754: for(var _fun76754_ip = 0; ; ) switch(_fun76754_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
                     mike = entity.actionName;
                     entity = 'activate';
-                    if(!(entity === mike)) { _fun76744_ip = 38; continue _fun76744 }
+                    if(!(entity === mike)) { _fun76754_ip = 38; continue _fun76754 }
  22:
                     mike = _closure2_slot2;
                     entity = mike.current;

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/self_mod/stranger_danger/hooks/useStrangerDangerWarning.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useStrangerDangerWarning
-        _fun89532: for(var _fun89532_ip = 0; ; ) switch(_fun89532_ip) {
+        _fun89549: for(var _fun89549_ip = 0; ; ) switch(_fun89549_ip) {
  0:
             verify = argFoo;
             golf = _closure1_slot0;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             options = golf == offset;
             golf = undefined;
-            if(options) { _fun89532_ip = 183; continue _fun89532 }
+            if(options) { _fun89549_ip = 183; continue _fun89549 }
  173:
             options = offset.isStaff;
             golf = options.bind(offset)();
@@ -91,16 +91,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = zulu.length;
             zulu = 0;
             zulu = options > zulu;
-            if(oscar) { _fun89532_ip = 234; continue _fun89532 }
+            if(oscar) { _fun89549_ip = 234; continue _fun89549 }
  228:
             oscar = true;
-            if(!(oscar === golf)) { _fun89532_ip = 245; continue _fun89532 }
+            if(!(oscar === golf)) { _fun89549_ip = 245; continue _fun89549 }
  234:
-            if(report) { _fun89532_ip = 245; continue _fun89532 }
+            if(report) { _fun89549_ip = 245; continue _fun89549 }
  237:
-            if(tango) { _fun89532_ip = 245; continue _fun89532 }
+            if(tango) { _fun89549_ip = 245; continue _fun89549 }
  240:
-            if(zulu) { _fun89532_ip = 245; continue _fun89532 }
+            if(zulu) { _fun89549_ip = 245; continue _fun89549 }
  243:
             return mike;
  245:

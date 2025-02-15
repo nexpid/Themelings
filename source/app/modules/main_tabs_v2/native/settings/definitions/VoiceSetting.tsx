@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     golf = golf.MicrophoneIcon;
     mike['IconComponent'] = golf;
     golf = function() { // Original name: useVoiceSettingTrailing
-        _fun96988: for(var _fun96988_ip = 0; ; ) switch(_fun96988_ip) {
+        _fun96998: for(var _fun96998_ip = 0; ; ) switch(_fun96998_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -78,7 +78,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu, entity);
             entity = _closure1_slot3;
             entity = entity.PUSH_TO_TALK;
-            if(!(zulu !== entity)) { _fun96988_ip = 128; continue _fun96988 }
+            if(!(zulu !== entity)) { _fun96998_ip = 128; continue _fun96998 }
  71:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.cHCEOD;
             entity = zulu.bind(tango)(entity);
-            _fun96988_ip = 183; continue _fun96988;
+            _fun96998_ip = 183; continue _fun96998;
  128:
             report = _closure1_slot0;
             golf = _closure1_slot1;

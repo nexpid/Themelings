@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = report;
     tango = function(argFoo) { // Original name: messageAttachmentToUnfurledMediaItem
-        _fun55302: for(var _fun55302_ip = 0; ; ) switch(_fun55302_ip) {
+        _fun55309: for(var _fun55309_ip = 0; ; ) switch(_fun55309_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot0;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = golf != entity;
             report = 0;
             zulu = 0;
-            if(!yankee) { _fun55302_ip = 55; continue _fun55302 }
+            if(!yankee) { _fun55309_ip = 55; continue _fun55309 }
  52:
             zulu = entity;
  55:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CONTAINS_EXPLICIT_MEDIA;
             entity = tango.bind(offset)(zulu, entity);
             offset = 0;
-            if(!entity) { _fun55302_ip = 90; continue _fun55302 }
+            if(!entity) { _fun55309_ip = 90; continue _fun55309 }
  76:
             entity = _closure1_slot4;
             entity = entity.EXPLICIT;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.content_scan_version;
             tango = golf == zulu;
             zulu = undefined;
-            if(tango) { _fun55302_ip = 235; continue _fun55302 }
+            if(tango) { _fun55309_ip = 235; continue _fun55309 }
  215:
             tango = {};
             yankee = oscar.content_scan_version;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.flags;
             golf = golf != oscar;
             report = 0;
-            if(!golf) { _fun55302_ip = 280; continue _fun55302 }
+            if(!golf) { _fun55309_ip = 280; continue _fun55309 }
  277:
             report = oscar;
  280:
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = tango;
     entity = function(argFoo) { // Original name: getUnfurledMediaItemType
-        _fun55303: for(var _fun55303_ip = 0; ; ) switch(_fun55303_ip) {
+        _fun55310: for(var _fun55310_ip = 0; ; ) switch(_fun55310_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.isImageContentType;
             mike = entity.contentType;
             mike = tango.bind(golf)(mike);
-            if(mike) { _fun55303_ip = 150; continue _fun55303 }
+            if(mike) { _fun55310_ip = 150; continue _fun55310 }
  48:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -124,11 +124,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.isVideoContentType;
             mike = entity.contentType;
             mike = tango.bind(oscar)(mike);
-            if(!mike) { _fun55303_ip = 138; continue _fun55303 }
+            if(!mike) { _fun55310_ip = 138; continue _fun55310 }
  85:
             tango = entity.proxyUrl;
             mike = null;
-            if(!(mike != tango)) { _fun55303_ip = 138; continue _fun55303 }
+            if(!(mike != tango)) { _fun55310_ip = 138; continue _fun55310 }
  97:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.toURLSafe;
             entity = entity.proxyUrl;
             entity = zulu.bind(tango)(entity);
-            if(!(mike == entity)) { _fun55303_ip = 144; continue _fun55303 }
+            if(!(mike == entity)) { _fun55310_ip = 144; continue _fun55310 }
  138:
             entity = 'INVALID';
             return entity;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: getMessageAttachmentMediaItemType
-        _fun55304: for(var _fun55304_ip = 0; ; ) switch(_fun55304_ip) {
+        _fun55311: for(var _fun55311_ip = 0; ; ) switch(_fun55311_ip) {
  0:
             mike = argFoo;
             tango = _closure1_slot0;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.filename;
             tango = tango.bind(golf)(entity);
             entity = 'IMAGE';
-            if(tango) { _fun55304_ip = 100; continue _fun55304 }
+            if(tango) { _fun55311_ip = 100; continue _fun55311 }
  52:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.filename;
             zulu = zulu.bind(tango)(mike);
             mike = 'INVALID';
-            if(!zulu) { _fun55304_ip = 97; continue _fun55304 }
+            if(!zulu) { _fun55311_ip = 97; continue _fun55311 }
  93:
             mike = 'VIDEO';
  97:
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['ContentScanFlags'] = oscar;
     zulu['toContentScanMetadata'] = report;
     report = function(argFoo) { // Original name: toUnfurledMediaItem
-        _fun55305: for(var _fun55305_ip = 0; ; ) switch(_fun55305_ip) {
+        _fun55312: for(var _fun55312_ip = 0; ; ) switch(_fun55312_ip) {
  0:
             oscar = argFoo;
             entity = {};
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu != mike;
             golf = undefined;
             mike = undefined;
-            if(!tango) { _fun55305_ip = 126; continue _fun55305 }
+            if(!tango) { _fun55312_ip = 126; continue _fun55312 }
  108:
             report = _closure1_slot5;
             tango = oscar.content_scan_metadata;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.flags;
             golf = zulu != oscar;
             zulu = 0;
-            if(!golf) { _fun55305_ip = 177; continue _fun55305 }
+            if(!golf) { _fun55312_ip = 177; continue _fun55312 }
  174:
             zulu = oscar;
  177:

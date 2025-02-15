@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'actions/SelectedChannelActionCreatorsAdditional.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) {
-        _fun57220: for(var _fun57220_ip = 0; ; ) switch(_fun57220_ip) {
+        _fun57223: for(var _fun57223_ip = 0; ; ) switch(_fun57223_ip) {
  0:
             golf = argFoo;
             report = arguments[2];
@@ -70,12 +70,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argBar;
             var _closure2_slot1 = entity;
             options = undefined;
-            if(!(report === options)) { _fun57220_ip = 30; continue _fun57220 }
+            if(!(report === options)) { _fun57223_ip = 30; continue _fun57223 }
  28:
             report = false;
  30:
             var _closure2_slot2 = report;
-            if(!(tango === options)) { _fun57220_ip = 40; continue _fun57220 }
+            if(!(tango === options)) { _fun57223_ip = 40; continue _fun57223 }
  38:
             tango = false;
  40:
@@ -87,17 +87,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = verify.getCurrentUser;
             verify = zulu.bind(verify)();
             zulu = null;
-            if(!(zulu != verify)) { _fun57220_ip = 398; continue _fun57220 }
+            if(!(zulu != verify)) { _fun57223_ip = 398; continue _fun57223 }
  83:
-            if(!(zulu != oscar)) { _fun57220_ip = 108; continue _fun57220 }
+            if(!(zulu != oscar)) { _fun57223_ip = 108; continue _fun57223 }
  87:
             offset = oscar.nsfw;
-            if(!offset) { _fun57220_ip = 108; continue _fun57220 }
+            if(!offset) { _fun57223_ip = 108; continue _fun57223 }
  96:
             verify = verify.nsfwAllowed;
-            if(!verify) { _fun57220_ip = 398; continue _fun57220 }
+            if(!verify) { _fun57223_ip = 398; continue _fun57223 }
  108:
-            if(!(zulu != oscar)) { _fun57220_ip = 358; continue _fun57220 }
+            if(!(zulu != oscar)) { _fun57223_ip = 358; continue _fun57223 }
  115:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.guild_id;
             yankee = offset.bind(yankee)(zulu);
             zulu = yankee.canChat;
-            if(zulu) { _fun57220_ip = 252; continue _fun57220 }
+            if(zulu) { _fun57223_ip = 252; continue _fun57223 }
  185:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = offset.bind(options)(zulu);
             zulu = offset.canLurkerListen;
             zulu = zulu.bind(offset)(oscar);
-            if(zulu) { _fun57220_ip = 252; continue _fun57220 }
+            if(zulu) { _fun57223_ip = 252; continue _fun57223 }
  219:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.isPrivate;
             zulu = zulu.bind(oscar)();
             zulu = !zulu;
-            if(!zulu) { _fun57220_ip = 297; continue _fun57220 }
+            if(!zulu) { _fun57223_ip = 297; continue _fun57223 }
  268:
             romeo = _closure1_slot6;
             yankee = romeo.can;
@@ -145,11 +145,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = yankee.bind(romeo)(offset, oscar);
             zulu = !offset;
  297:
-            if(!verify) { _fun57220_ip = 352; continue _fun57220 }
+            if(!verify) { _fun57223_ip = 352; continue _fun57223 }
  300:
             offset = oscar.isGuildStageVoice;
             offset = offset.bind(oscar)();
-            if(!offset) { _fun57220_ip = 352; continue _fun57220 }
+            if(!offset) { _fun57223_ip = 352; continue _fun57223 }
  313:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = romeo.getStageHasMedia;
             offset = oscar.id;
             offset = yankee.bind(romeo)(offset);
-            if(offset) { _fun57220_ip = 402; continue _fun57220 }
+            if(offset) { _fun57223_ip = 402; continue _fun57223 }
  352:
-            if(verify) { _fun57220_ip = 400; continue _fun57220 }
+            if(verify) { _fun57223_ip = 400; continue _fun57223 }
  355:
-            if(zulu) { _fun57220_ip = 400; continue _fun57220 }
+            if(zulu) { _fun57223_ip = 400; continue _fun57223 }
  358:
             verify = _closure1_slot1;
             offset = _closure1_slot2;

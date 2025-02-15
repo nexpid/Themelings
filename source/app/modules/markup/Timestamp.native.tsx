@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/markup/Timestamp.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Timestamp
-        _fun87022: for(var _fun87022_ip = 0; ; ) switch(_fun87022_ip) {
+        _fun87039: for(var _fun87039_ip = 0; ; ) switch(_fun87039_ip) {
  0:
             entity = argFoo;
             zulu = entity.node;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             options = options.timestamp;
             verify = null;
-            if(!(verify != options)) { _fun87022_ip = 101; continue _fun87022 }
+            if(!(verify != options)) { _fun87039_ip = 101; continue _fun87039 }
  98:
             golf = options;
  101:

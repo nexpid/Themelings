@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/useCanSeeEventsInChannelList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCanSeeEventsInChannelList
-        _fun113519: for(var _fun113519_ip = 0; ; ) switch(_fun113519_ip) {
+        _fun113525: for(var _fun113525_ip = 0; ; ) switch(_fun113525_ip) {
  0:
             oscar = argFoo;
             golf = _closure1_slot0;
@@ -41,9 +41,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = golf.bind(report)(entity);
             entity = entity.bind(report)(oscar);
             entity = !entity;
-            if(!entity) { _fun113519_ip = 87; continue _fun113519 }
+            if(!entity) { _fun113525_ip = 87; continue _fun113525 }
  72:
-            if(mike) { _fun113519_ip = 84; continue _fun113519 }
+            if(mike) { _fun113525_ip = 84; continue _fun113525 }
  75:
             zulu = zulu.length;
             mike = zulu > tango;

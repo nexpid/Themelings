@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     tango = function() { // Original name: getFavoriteStickerIds
-        _fun56070: for(var _fun56070_ip = 0; ; ) switch(_fun56070_ip) {
+        _fun56073: for(var _fun56073_ip = 0; ; ) switch(_fun56073_ip) {
  0:
             entity = _closure1_slot2;
             entity = entity.frecencyWithoutFetchingLatest;
@@ -15,11 +15,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             report = zulu == tango;
             entity = undefined;
-            if(report) { _fun56070_ip = 36; continue _fun56070 }
+            if(report) { _fun56073_ip = 36; continue _fun56073 }
  30:
             entity = tango.stickerIds;
  36:
-            if(!(zulu == entity)) { _fun56070_ip = 44; continue _fun56070 }
+            if(!(zulu == entity)) { _fun56073_ip = 44; continue _fun56073 }
  40:
             entity = _closure1_slot19;
  44:
@@ -140,13 +140,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = report instanceof Object ? report : oscar;
     var _closure1_slot16 = report;
     oscar = function(argFoo) { // Original name: getStickerPackPreviewSticker
-        _fun56071: for(var _fun56071_ip = 0; ; ) switch(_fun56071_ip) {
+        _fun56074: for(var _fun56074_ip = 0; ; ) switch(_fun56074_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
             tango = mike.cover_sticker_id;
             zulu = null;
-            if(!(zulu != tango)) { _fun56071_ip = 46; continue _fun56071 }
+            if(!(zulu != tango)) { _fun56074_ip = 46; continue _fun56074 }
  21:
             report = mike.stickers;
             tango = report.find;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             entity = tango.bind(report)(entity);
-            if(!(zulu == entity)) { _fun56071_ip = 60; continue _fun56071 }
+            if(!(zulu == entity)) { _fun56074_ip = 60; continue _fun56074 }
  46:
             zulu = mike.stickers;
             mike = 0;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot17 = oscar;
     report = function(argFoo) { // Original name: getStickerExtensionFromFormatType
-        _fun56073: for(var _fun56073_ip = 0; ; ) switch(_fun56073_ip) {
+        _fun56076: for(var _fun56076_ip = 0; ; ) switch(_fun56076_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot0;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.PNG;
-            if(!(entity !== golf)) { _fun56073_ip = 294; continue _fun56073 }
+            if(!(entity !== golf)) { _fun56076_ip = 294; continue _fun56076 }
  47:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.APNG;
-            if(!(entity !== golf)) { _fun56073_ip = 263; continue _fun56073 }
+            if(!(entity !== golf)) { _fun56076_ip = 263; continue _fun56076 }
  83:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.LOTTIE;
-            if(!(entity !== golf)) { _fun56073_ip = 232; continue _fun56073 }
+            if(!(entity !== golf)) { _fun56076_ip = 232; continue _fun56076 }
  116:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.GIF;
-            if(!(entity !== golf)) { _fun56073_ip = 201; continue _fun56073 }
+            if(!(entity !== golf)) { _fun56076_ip = 201; continue _fun56076 }
  149:
             entity = global;
             oscar = entity.Error;
@@ -256,10 +256,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[report];
             mike = zulu.bind(tango)(mike);
             mike = mike.StickerExtensions;
-            if(entity) { _fun56073_ip = 354; continue _fun56073 }
+            if(entity) { _fun56076_ip = 354; continue _fun56076 }
  346:
             entity = mike.PNG;
-            _fun56073_ip = 360; continue _fun56073;
+            _fun56076_ip = 360; continue _fun56076;
  354:
             entity = mike.WEBP;
  360:
@@ -278,23 +278,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['getStickerPackPreviewSticker'] = oscar;
     zulu['getStickerExtensionFromFormatType'] = report;
     report = function(argFoo) {
-        _fun56074: for(var _fun56074_ip = 0; ; ) switch(_fun56074_ip) {
+        _fun56077: for(var _fun56077_ip = 0; ; ) switch(_fun56077_ip) {
  0:
             tango = argFoo;
             entity = 'application/json';
-            if(!(entity !== tango)) { _fun56074_ip = 224; continue _fun56074 }
+            if(!(entity !== tango)) { _fun56077_ip = 224; continue _fun56077 }
  14:
             entity = 'image/apng';
-            if(!(entity !== tango)) { _fun56074_ip = 185; continue _fun56074 }
+            if(!(entity !== tango)) { _fun56077_ip = 185; continue _fun56077 }
  27:
             entity = 'image/png';
-            if(!(entity !== tango)) { _fun56074_ip = 146; continue _fun56074 }
+            if(!(entity !== tango)) { _fun56077_ip = 146; continue _fun56077 }
  37:
             entity = 'image/webp';
-            if(!(entity !== tango)) { _fun56074_ip = 146; continue _fun56074 }
+            if(!(entity !== tango)) { _fun56077_ip = 146; continue _fun56077 }
  45:
             entity = 'image/gif';
-            if(!(entity !== tango)) { _fun56074_ip = 107; continue _fun56074 }
+            if(!(entity !== tango)) { _fun56077_ip = 107; continue _fun56077 }
  55:
             entity = global;
             zulu = entity.Error;
@@ -352,12 +352,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getStickerFormatTypeFromFileType'] = report;
     report = function(argFoo) {
-        _fun56075: for(var _fun56075_ip = 0; ; ) switch(_fun56075_ip) {
+        _fun56078: for(var _fun56078_ip = 0; ; ) switch(_fun56078_ip) {
  0:
             mike = argFoo;
             entity = null;
             zulu = entity == mike;
-            if(zulu) { _fun56075_ip = 65; continue _fun56075 }
+            if(zulu) { _fun56078_ip = 65; continue _fun56078 }
  12:
             oscar = mike.name;
             tango = _closure1_slot18;
@@ -376,28 +376,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getFilenameForSticker'] = report;
     report = function(argFoo) {
-        _fun56076: for(var _fun56076_ip = 0; ; ) switch(_fun56076_ip) {
+        _fun56079: for(var _fun56079_ip = 0; ; ) switch(_fun56079_ip) {
  0:
             tango = argFoo;
             entity = arguments[1];
             backup = undefined;
-            if(!(entity === backup)) { _fun56076_ip = 14; continue _fun56076 }
+            if(!(entity === backup)) { _fun56079_ip = 14; continue _fun56079 }
  12:
             entity = {};
  14:
             mike = entity.isPreview;
-            if(!(mike === backup)) { _fun56076_ip = 26; continue _fun56076 }
+            if(!(mike === backup)) { _fun56079_ip = 26; continue _fun56079 }
  24:
             mike = false;
  26:
             foxtrot = entity.size;
-            if(!(foxtrot === backup)) { _fun56076_ip = 42; continue _fun56076 }
+            if(!(foxtrot === backup)) { _fun56079_ip = 42; continue _fun56079 }
  35:
             foxtrot = _closure1_slot6;
  42:
             zulu = tango.format_type;
             entity = null;
-            if(!(entity != zulu)) { _fun56076_ip = 573; continue _fun56076 }
+            if(!(entity != zulu)) { _fun56079_ip = 573; continue _fun56079 }
  57:
             oscar = tango.format_type;
             golf = tango.format_type;
@@ -409,11 +409,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.StickerFormat;
             report = report.GIF;
             report = golf === report;
-            if(!report) { _fun56076_ip = 114; continue _fun56076 }
+            if(!report) { _fun56079_ip = 114; continue _fun56079 }
  111:
             report = mike;
  114:
-            if(!report) { _fun56076_ip = 146; continue _fun56076 }
+            if(!report) { _fun56079_ip = 146; continue _fun56079 }
  117:
             golf = _closure1_slot0;
             report = _closure1_slot1;
@@ -436,13 +436,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.WEBP;
             report = '';
             yankee = report;
-            if(!(options === golf)) { _fun56076_ip = 222; continue _fun56076 }
+            if(!(options === golf)) { _fun56079_ip = 222; continue _fun56079 }
  216:
             yankee = '&quality=lossless';
  222:
             options = _closure1_slot12;
             golf = 'development';
-            if(!(golf === options)) { _fun56076_ip = 274; continue _fun56076 }
+            if(!(golf === options)) { _fun56079_ip = 274; continue _fun56079 }
  236:
             golf = global;
             options = golf.location;
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(backup)(golf);
             golf = golf.StickerFormat;
             golf = golf.LOTTIE;
-            if(!(options !== golf)) { _fun56076_ip = 535; continue _fun56076 }
+            if(!(options !== golf)) { _fun56079_ip = 535; continue _fun56079 }
  316:
             golf = tango.format_type;
             options = _closure1_slot0;
@@ -470,10 +470,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.StickerFormat;
             tango = tango.APNG;
             offset = report;
-            if(!(golf === tango)) { _fun56076_ip = 405; continue _fun56076 }
+            if(!(golf === tango)) { _fun56079_ip = 405; continue _fun56079 }
  358:
             offset = report;
-            if(!mike) { _fun56076_ip = 405; continue _fun56076 }
+            if(!mike) { _fun56079_ip = 405; continue _fun56079 }
  364:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.isAndroid;
             mike = mike.bind(tango)();
             offset = report;
-            if(mike) { _fun56076_ip = 405; continue _fun56076 }
+            if(mike) { _fun56079_ip = 405; continue _fun56079 }
  399:
             offset = '&passthrough=false';
  405:
@@ -532,13 +532,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getStickerAssetUrl'] = report;
     report = function(argFoo, argBar) {
-        _fun56077: for(var _fun56077_ip = 0; ; ) switch(_fun56077_ip) {
+        _fun56080: for(var _fun56080_ip = 0; ; ) switch(_fun56080_ip) {
  0:
             oscar = argBar;
             entity = argFoo;
             sizing = entity.banner_asset_id;
             entity = null;
-            if(!(entity != sizing)) { _fun56077_ip = 277; continue _fun56077 }
+            if(!(entity != sizing)) { _fun56080_ip = 277; continue _fun56080 }
  23:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -548,12 +548,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(golf)(mike);
             mike = mike.SUPPORTS_WEBP;
             kilo = 'png';
-            if(!mike) { _fun56077_ip = 69; continue _fun56077 }
+            if(!mike) { _fun56080_ip = 69; continue _fun56080 }
  63:
             kilo = 'webp';
  69:
             mike = _closure1_slot14;
-            if(!(entity == mike)) { _fun56077_ip = 140; continue _fun56077 }
+            if(!(entity == mike)) { _fun56080_ip = 140; continue _fun56080 }
  77:
             mike = global;
             tango = mike.location;
@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.concat;
             mike = '';
             tango = tango.bind(mike)(verify, options, report);
-            _fun56077_ip = 209; continue _fun56077;
+            _fun56080_ip = 209; continue _fun56080;
  140:
             mike = global;
             report = mike.location;
@@ -586,7 +586,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = record[yankee](config, sequence, vacuum, control, source, update, echo, result, output, sizing);
  209:
             mike = tango;
-            if(!(entity != oscar)) { _fun56077_ip = 275; continue _fun56077 }
+            if(!(entity != oscar)) { _fun56080_ip = 275; continue _fun56080 }
  216:
             report = _closure1_slot0;
             options = _closure1_slot1;
@@ -609,16 +609,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getStickerPackBannerAssetUrl'] = report;
     report = function(argFoo) {
-        _fun56078: for(var _fun56078_ip = 0; ; ) switch(_fun56078_ip) {
+        _fun56081: for(var _fun56081_ip = 0; ; ) switch(_fun56081_ip) {
  0:
             zulu = argFoo;
             mike = zulu.match;
             report = _closure1_slot12;
             entity = 'development';
-            if(!(entity === report)) { _fun56078_ip = 32; continue _fun56078 }
+            if(!(entity === report)) { _fun56081_ip = 32; continue _fun56081 }
  26:
             entity = _closure1_slot16;
-            _fun56078_ip = 36; continue _fun56078;
+            _fun56081_ip = 36; continue _fun56081;
  32:
             entity = _closure1_slot15;
  36:
@@ -634,7 +634,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = entity.stickers;
         mike = zulu.some;
         entity = function(argFoo) {
-            _fun56080: for(var _fun56080_ip = 0; ; ) switch(_fun56080_ip) {
+            _fun56083: for(var _fun56083_ip = 0; ; ) switch(_fun56083_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.format_type;
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = entity.StickerFormat;
                 entity = entity.APNG;
                 entity = zulu === entity;
-                if(entity) { _fun56080_ip = 86; continue _fun56080 }
+                if(entity) { _fun56083_ip = 86; continue _fun56083 }
  53:
                 golf = _closure1_slot0;
                 tango = _closure1_slot1;
@@ -657,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.LOTTIE;
                 entity = zulu === tango;
  86:
-                if(entity) { _fun56080_ip = 122; continue _fun56080 }
+                if(entity) { _fun56083_ip = 122; continue _fun56083 }
  89:
                 tango = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -699,13 +699,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['createStickerPackCategory'] = report;
     report = function(argFoo, argBar) {
-        _fun56082: for(var _fun56082_ip = 0; ; ) switch(_fun56082_ip) {
+        _fun56085: for(var _fun56085_ip = 0; ; ) switch(_fun56085_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
             tango = _closure1_slot8;
             tango = tango.ANIMATE_ON_INTERACTION;
-            if(!(zulu !== tango)) { _fun56082_ip = 37; continue _fun56082 }
+            if(!(zulu !== tango)) { _fun56085_ip = 37; continue _fun56085 }
  23:
             mike = _closure1_slot8;
             mike = mike.NEVER_ANIMATE;
@@ -716,7 +716,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['shouldAnimateSticker'] = report;
     report = function(argFoo, argBar, argBaz, argCorge) {
-        _fun56083: for(var _fun56083_ip = 0; ; ) switch(_fun56083_ip) {
+        _fun56086: for(var _fun56086_ip = 0; ; ) switch(_fun56086_ip) {
  0:
             report = argFoo;
             mike = argBar;
@@ -726,16 +726,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getUploadCount;
             zulu = zulu.bind(tango)(options, golf);
             tango = 0;
-            if(!(!(zulu > tango))) { _fun56083_ip = 285; continue _fun56083 }
+            if(!(!(zulu > tango))) { _fun56086_ip = 285; continue _fun56086 }
  40:
             oscar = _closure1_slot5;
             zulu = oscar.getStickerPreview;
             zulu = zulu.bind(oscar)(options, golf);
             oscar = null;
-            if(!(oscar != zulu)) { _fun56083_ip = 76; continue _fun56083 }
+            if(!(oscar != zulu)) { _fun56086_ip = 76; continue _fun56086 }
  64:
             zulu = zulu.length;
-            if(!(!(zulu > tango))) { _fun56083_ip = 281; continue _fun56083 }
+            if(!(!(zulu > tango))) { _fun56086_ip = 281; continue _fun56086 }
  76:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -745,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.StickerSelectLocation;
             zulu = zulu.STICKER_PICKER;
-            if(!(zulu !== report)) { _fun56083_ip = 261; continue _fun56083 }
+            if(!(zulu !== report)) { _fun56086_ip = 261; continue _fun56086 }
  117:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -753,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.StickerSelectLocation;
             zulu = zulu.AUTOCOMPLETE;
-            if(!(zulu !== report)) { _fun56083_ip = 216; continue _fun56083 }
+            if(!(zulu !== report)) { _fun56086_ip = 216; continue _fun56086 }
  150:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -761,7 +761,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.StickerSelectLocation;
             zulu = zulu.EXPRESSION_SUGGESTIONS;
-            if(!(zulu !== report)) { _fun56083_ip = 216; continue _fun56083 }
+            if(!(zulu !== report)) { _fun56086_ip = 216; continue _fun56086 }
  183:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -829,24 +829,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['isStandardSticker'] = report;
     report = function(argFoo) {
-        _fun56086: for(var _fun56086_ip = 0; ; ) switch(_fun56086_ip) {
+        _fun56089: for(var _fun56089_ip = 0; ; ) switch(_fun56089_ip) {
  0:
             mike = argFoo;
             entity = mike.stickerItems;
             entity = entity.length;
             zulu = 0;
-            if(!(!(entity > zulu))) { _fun56086_ip = 49; continue _fun56086 }
+            if(!(!(entity > zulu))) { _fun56089_ip = 49; continue _fun56089 }
  20:
             entity = mike.stickers;
             entity = entity.length;
-            if(!(!(entity > zulu))) { _fun56086_ip = 41; continue _fun56086 }
+            if(!(!(entity > zulu))) { _fun56089_ip = 41; continue _fun56089 }
  35:
             entity = new Array(0);
-            _fun56086_ip = 47; continue _fun56086;
+            _fun56089_ip = 47; continue _fun56089;
  41:
             entity = mike.stickers;
  47:
-            _fun56086_ip = 55; continue _fun56086;
+            _fun56089_ip = 55; continue _fun56089;
  49:
             entity = mike.stickerItems;
  55:
@@ -855,11 +855,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getMessageStickers'] = report;
     report = function(argFoo) {
-        _fun56087: for(var _fun56087_ip = 0; ; ) switch(_fun56087_ip) {
+        _fun56090: for(var _fun56090_ip = 0; ; ) switch(_fun56090_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike !== entity)) { _fun56087_ip = 39; continue _fun56087 }
+            if(!(mike !== entity)) { _fun56090_ip = 39; continue _fun56090 }
  9:
             zulu = entity.guild_id;
             mike = _closure1_slot3;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun55398: for(var _fun55398_ip = 0; ; ) switch(_fun55398_ip) {
+        _fun55405: for(var _fun55405_ip = 0; ; ) switch(_fun55405_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun55398_ip = 51; continue _fun55398 }
+            if(entity) { _fun55405_ip = 51; continue _fun55405 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun55398_ip = 92; continue _fun55398;
+            _fun55405_ip = 92; continue _fun55405;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun55398_ip = 71; continue _fun55398 }
+            if(oscar) { _fun55405_ip = 71; continue _fun55405 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun55399: for(var _fun55399_ip = 0; ; ) switch(_fun55399_ip) {
+        _fun55406: for(var _fun55406_ip = 0; ; ) switch(_fun55406_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun55399_ip = 74; continue _fun55399;
+            _fun55406_ip = 74; continue _fun55406;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.V6OrEarlierAPIError;
     mike = function(argFoo) {
         zulu = function(argFoo, argBar) { // Original name: APIErrorWithDefaultMessage
-            _fun55403: for(var _fun55403_ip = 0; ; ) switch(_fun55403_ip) {
+            _fun55410: for(var _fun55410_ip = 0; ; ) switch(_fun55410_ip) {
  0:
                 foxtrot = argBar;
                 report = this;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity[0] = oscar;
                 entity[1] = foxtrot;
                 oscar = null;
-                if(!(oscar == foxtrot)) { _fun55403_ip = 128; continue _fun55403 }
+                if(!(oscar == foxtrot)) { _fun55410_ip = 128; continue _fun55410 }
  53:
                 golf = _closure1_slot0;
                 offset = _closure1_slot1;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 offset = offset.STATUS;
                 oscar['statusPageURL'] = offset;
                 oscar = options.bind(verify)(golf, oscar);
-                _fun55403_ip = 228; continue _fun55403;
+                _fun55410_ip = 228; continue _fun55410;
  128:
                 options = _closure1_slot0;
                 romeo = _closure1_slot1;

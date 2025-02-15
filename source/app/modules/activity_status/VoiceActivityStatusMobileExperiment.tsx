@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activity_status/VoiceActivityStatusMobileExperiment.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79674: for(var _fun79674_ip = 0; ; ) switch(_fun79674_ip) {
+        _fun79684: for(var _fun79684_ip = 0; ; ) switch(_fun79684_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun79674_ip = 22; continue _fun79674 }
+            if(!(report === mike)) { _fun79684_ip = 22; continue _fun79684 }
  20:
             report = true;
  22:

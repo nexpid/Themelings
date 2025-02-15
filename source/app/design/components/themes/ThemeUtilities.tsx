@@ -34,20 +34,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isThemeLight'] = tango;
     tango = function(argFoo) { // Original name: isThemeDark
-        _fun35569: for(var _fun35569_ip = 0; ; ) switch(_fun35569_ip) {
+        _fun35576: for(var _fun35576_ip = 0; ; ) switch(_fun35576_ip) {
  0:
             mike = argFoo;
             zulu = _closure1_slot0;
             zulu = zulu.DARK;
-            if(!(zulu !== mike)) { _fun35569_ip = 52; continue _fun35569 }
+            if(!(zulu !== mike)) { _fun35576_ip = 52; continue _fun35576 }
  20:
             zulu = _closure1_slot0;
             zulu = zulu.MIDNIGHT;
-            if(!(zulu !== mike)) { _fun35569_ip = 52; continue _fun35569 }
+            if(!(zulu !== mike)) { _fun35576_ip = 52; continue _fun35576 }
  34:
             entity = _closure1_slot0;
             entity = entity.DARKER;
-            if(!(entity !== mike)) { _fun35569_ip = 52; continue _fun35569 }
+            if(!(entity !== mike)) { _fun35576_ip = 52; continue _fun35576 }
  48:
             entity = false;
             return entity;
@@ -58,11 +58,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isThemeDark'] = tango;
     mike = function(argFoo) { // Original name: getThemeClass
-        _fun35570: for(var _fun35570_ip = 0; ; ) switch(_fun35570_ip) {
+        _fun35577: for(var _fun35577_ip = 0; ; ) switch(_fun35577_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity == golf)) { _fun35570_ip = 13; continue _fun35570 }
+            if(!(entity == golf)) { _fun35577_ip = 13; continue _fun35577 }
  9:
             mike = undefined;
             return mike;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot1;
             mike = zulu.get;
             oscar = mike.bind(zulu)(golf);
-            if(!(entity == oscar)) { _fun35570_ip = 68; continue _fun35570 }
+            if(!(entity == oscar)) { _fun35577_ip = 68; continue _fun35577 }
  34:
             entity = global;
             entity = entity.HermesInternal;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = 'theme-';
             entity = ' images-';
             entity = zulu.bind(mike)(golf, entity, golf);
-            _fun35570_ip = 112; continue _fun35570;
+            _fun35577_ip = 112; continue _fun35577;
  68:
             mike = global;
             mike = mike.HermesInternal;

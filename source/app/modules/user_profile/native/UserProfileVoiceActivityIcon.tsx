@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileVoiceActivityIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileVoiceActivityIcon
-        _fun79716: for(var _fun79716_ip = 0; ; ) switch(_fun79716_ip) {
+        _fun79729: for(var _fun79729_ip = 0; ; ) switch(_fun79729_ip) {
  0:
             tango = argFoo;
             oscar = tango.channel;
@@ -65,12 +65,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = verify;
             mike = function() {
-                _fun79717: for(var _fun79717_ip = 0; ; ) switch(_fun79717_ip) {
+                _fun79730: for(var _fun79730_ip = 0; ; ) switch(_fun79730_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = zulu.isPrivate;
                     entity = entity.bind(zulu)();
-                    if(entity) { _fun79717_ip = 53; continue _fun79717 }
+                    if(entity) { _fun79730_ip = 53; continue _fun79730 }
  20:
                     report = _closure1_slot3;
                     tango = report.can;
@@ -85,16 +85,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(options)(zulu, mike);
             zulu = oscar.isDM;
             zulu = zulu.bind(oscar)();
-            if(zulu) { _fun79716_ip = 404; continue _fun79716 }
+            if(zulu) { _fun79729_ip = 404; continue _fun79729 }
  108:
             zulu = oscar.isGroupDM;
             zulu = zulu.bind(oscar)();
-            if(zulu) { _fun79716_ip = 404; continue _fun79716 }
+            if(zulu) { _fun79729_ip = 404; continue _fun79729 }
  124:
             zulu = oscar.isGuildStageVoice;
             zulu = zulu.bind(oscar)();
             mike = !mike;
-            if(mike) { _fun79716_ip = 165; continue _fun79716 }
+            if(mike) { _fun79729_ip = 165; continue _fun79729 }
  140:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -103,26 +103,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf);
             mike = golf.bind(tango)(oscar);
  165:
-            if(!zulu) { _fun79716_ip = 174; continue _fun79716 }
+            if(!zulu) { _fun79729_ip = 174; continue _fun79729 }
  168:
-            if(mike) { _fun79716_ip = 354; continue _fun79716 }
+            if(mike) { _fun79729_ip = 354; continue _fun79729 }
  174:
-            if(zulu) { _fun79716_ip = 304; continue _fun79716 }
+            if(zulu) { _fun79729_ip = 304; continue _fun79729 }
  180:
             zulu = oscar.isNSFW;
             zulu = zulu.bind(oscar)();
             golf = _closure1_slot5;
             oscar = _closure1_slot0;
             options = _closure1_slot2;
-            if(zulu) { _fun79716_ip = 266; continue _fun79716 }
+            if(zulu) { _fun79729_ip = 266; continue _fun79729 }
  205:
-            if(mike) { _fun79716_ip = 228; continue _fun79716 }
+            if(mike) { _fun79729_ip = 228; continue _fun79729 }
  208:
             mike = 11;
             mike = options[mike];
             mike = oscar.bind(tango)(mike);
             zulu = mike.VoiceNormalIcon;
-            _fun79716_ip = 246; continue _fun79716;
+            _fun79729_ip = 246; continue _fun79729;
  228:
             mike = 10;
             mike = options[mike];
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = report;
             verify = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(zulu, mike);
-            _fun79716_ip = 302; continue _fun79716;
+            _fun79729_ip = 302; continue _fun79729;
  266:
             zulu = 9;
             zulu = options[zulu];
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(oscar, zulu);
  302:
-            _fun79716_ip = 352; continue _fun79716;
+            _fun79729_ip = 352; continue _fun79729;
  304:
             golf = _closure1_slot5;
             oscar = _closure1_slot0;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = copyDataProperties(romeo, yankee);
             mike = golf.bind(tango)(oscar, zulu);
  352:
-            _fun79716_ip = 402; continue _fun79716;
+            _fun79729_ip = 402; continue _fun79729;
  354:
             golf = _closure1_slot5;
             oscar = _closure1_slot0;

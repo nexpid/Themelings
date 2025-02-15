@@ -68,10 +68,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu[0] = golf;
         zulu[1] = oscar;
         mike = function() {
-            _fun94968: for(var _fun94968_ip = 0; ; ) switch(_fun94968_ip) {
+            _fun94980: for(var _fun94980_ip = 0; ; ) switch(_fun94980_ip) {
  0:
                 mike = _closure2_slot0;
-                if(!mike) { _fun94968_ip = 45; continue _fun94968 }
+                if(!mike) { _fun94980_ip = 45; continue _fun94980 }
  10:
                 tango = _closure1_slot1;
                 zulu = tango.trackExposure;

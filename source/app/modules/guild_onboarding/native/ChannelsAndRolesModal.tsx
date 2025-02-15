@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ChannelsAndRolesScreen
-        _fun90165: for(var _fun90165_ip = 0; ; ) switch(_fun90165_ip) {
+        _fun90182: for(var _fun90182_ip = 0; ; ) switch(_fun90182_ip) {
  0:
             entity = argFoo;
             offset = entity.guildId;
@@ -42,10 +42,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot4;
             entity = mike.useState;
             oscar = null;
-            if(!(oscar == zulu)) { _fun90165_ip = 130; continue _fun90165 }
+            if(!(oscar == zulu)) { _fun90182_ip = 130; continue _fun90182 }
  119:
             options = 1;
-            if(!report) { _fun90165_ip = 127; continue _fun90165 }
+            if(!report) { _fun90182_ip = 127; continue _fun90182 }
  125:
             options = 0;
  127:
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.screen;
             entity['style'] = verify;
             oscar = null;
-            if(!report) { _fun90165_ip = 431; continue _fun90165 }
+            if(!report) { _fun90182_ip = 431; continue _fun90182 }
  359:
             romeo = _closure1_slot8;
             verify = _closure1_slot5;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = _closure1_slot7;
             oscar = oscar.CUSTOMIZE;
-            if(!(options !== oscar)) { _fun90165_ip = 491; continue _fun90165 }
+            if(!(options !== oscar)) { _fun90182_ip = 491; continue _fun90182 }
  453:
             verify = _closure1_slot8;
             options = _closure1_slot1;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             oscar['guildId'] = offset;
             oscar = verify.bind(tango)(options, oscar);
-            _fun90165_ip = 532; continue _fun90165;
+            _fun90182_ip = 532; continue _fun90182;
  491:
             verify = _closure1_slot8;
             options = _closure1_slot1;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding/native/ChannelsAndRolesModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelsAndRolesModal
-        _fun90168: for(var _fun90168_ip = 0; ; ) switch(_fun90168_ip) {
+        _fun90185: for(var _fun90185_ip = 0; ; ) switch(_fun90185_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = yankee[golf];
             golf = offset.bind(tango)(golf);
             golf = golf.t;
-            if(oscar) { _fun90168_ip = 189; continue _fun90168 }
+            if(oscar) { _fun90185_ip = 189; continue _fun90185 }
  176:
             oscar = golf.et6wam;
             oscar = options.bind(verify)(oscar);
-            _fun90168_ip = 200; continue _fun90168;
+            _fun90185_ip = 200; continue _fun90185;
  189:
             golf = golf.h9mGOD;
             oscar = options.bind(verify)(golf);

@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/native/hooks/useDefaultAppLauncherWidth.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useDefaultAppLauncherWidth
-        _fun113461: for(var _fun113461_ip = 0; ; ) switch(_fun113461_ip) {
+        _fun113467: for(var _fun113467_ip = 0; ; ) switch(_fun113467_ip) {
  0:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.TEXT;
             zulu = argFoo;
             entity = report;
-            if(!(zulu !== tango)) { _fun113461_ip = 95; continue _fun113461 }
+            if(!(zulu !== tango)) { _fun113467_ip = 95; continue _fun113467 }
  72:
             zulu = global;
             tango = zulu.Math;

@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot16 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: StickerPicker
-        _fun84895: for(var _fun84895_ip = 0; ; ) switch(_fun84895_ip) {
+        _fun84912: for(var _fun84912_ip = 0; ; ) switch(_fun84912_ip) {
  0:
             entity = argFoo;
             control = entity.channel;
@@ -175,11 +175,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = options.safeAreaBottomKeyboardAware;
             context = sizing.useCallback;
             config = function(argFoo) {
-                _fun84897: for(var _fun84897_ip = 0; ; ) switch(_fun84897_ip) {
+                _fun84914: for(var _fun84914_ip = 0; ; ) switch(_fun84914_ip) {
  0:
                     report = argFoo;
                     entity = '';
-                    if(!(entity !== report)) { _fun84897_ip = 61; continue _fun84897 }
+                    if(!(entity !== report)) { _fun84914_ip = 61; continue _fun84914 }
  11:
                     zulu = _closure2_slot4;
                     tango = _closure1_slot0;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.searchAllStickers;
                     entity = entity.bind(tango)(report);
                     entity = zulu.bind(mike)(entity);
-                    _fun84897_ip = 106; continue _fun84897;
+                    _fun84914_ip = 106; continue _fun84914;
  61:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = golf;
             options[2] = report;
             golf = function(argFoo) {
-                _fun84900: for(var _fun84900_ip = 0; ; ) switch(_fun84900_ip) {
+                _fun84917: for(var _fun84917_ip = 0; ; ) switch(_fun84917_ip) {
  0:
                     zulu = argFoo;
                     oscar = _closure1_slot0;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.bind(entity)(tango);
                     tango = tango.StickerSendability;
                     tango = tango.SENDABLE;
-                    if(!(report !== tango)) { _fun84900_ip = 465; continue _fun84900 }
+                    if(!(report !== tango)) { _fun84917_ip = 465; continue _fun84917 }
  89:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.bind(entity)(tango);
                     tango = tango.StickerSendability;
                     tango = tango.SENDABLE_WITH_PREMIUM;
-                    if(!(report === tango)) { _fun84900_ip = 474; continue _fun84900 }
+                    if(!(report === tango)) { _fun84917_ip = 474; continue _fun84917 }
  125:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(entity)(tango);
                     tango = report.isStandardSticker;
                     tango = tango.bind(report)(zulu);
-                    if(tango) { _fun84900_ip = 321; continue _fun84900 }
+                    if(tango) { _fun84917_ip = 321; continue _fun84917 }
  162:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(entity)(tango);
                     tango = report.isGuildSticker;
                     tango = tango.bind(report)(zulu);
-                    if(!tango) { _fun84900_ip = 474; continue _fun84900 }
+                    if(!tango) { _fun84917_ip = 474; continue _fun84917 }
  196:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -313,11 +313,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = _closure2_slot0;
                     offset = verify.guild_id;
                     verify = null;
-                    if(!(verify == offset)) { _fun84900_ip = 268; continue _fun84900 }
+                    if(!(verify == offset)) { _fun84917_ip = 268; continue _fun84917 }
  256:
                     verify = _closure1_slot10;
                     verify = verify.DM_CHANNEL;
-                    _fun84900_ip = 278; continue _fun84900;
+                    _fun84917_ip = 278; continue _fun84917;
  268:
                     offset = _closure1_slot10;
                     verify = offset.GUILD_CHANNEL;
@@ -330,14 +330,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot3;
                     tango['analyticsLocations'] = options;
                     tango = report.bind(oscar)(tango);
-                    _fun84900_ip = 474; continue _fun84900;
+                    _fun84917_ip = 474; continue _fun84917;
  321:
                     oscar = _closure1_slot8;
                     report = oscar.getStickerPack;
                     tango = zulu.pack_id;
                     oscar = report.bind(oscar)(tango);
                     yankee = null;
-                    if(!(yankee != oscar)) { _fun84900_ip = 463; continue _fun84900 }
+                    if(!(yankee != oscar)) { _fun84917_ip = 463; continue _fun84917 }
  348:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -348,11 +348,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = {};
                     offset = _closure2_slot0;
                     offset = offset.guild_id;
-                    if(!(yankee == offset)) { _fun84900_ip = 397; continue _fun84900 }
+                    if(!(yankee == offset)) { _fun84917_ip = 397; continue _fun84917 }
  385:
                     offset = _closure1_slot10;
                     offset = offset.DM_CHANNEL;
-                    _fun84900_ip = 407; continue _fun84900;
+                    _fun84917_ip = 407; continue _fun84917;
  397:
                     yankee = _closure1_slot10;
                     offset = yankee.GUILD_CHANNEL;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['analyticsPopoutType'] = golf;
                     tango['stickerPack'] = oscar;
                     tango = report.bind(entity)(tango);
-                    _fun84900_ip = 474; continue _fun84900;
+                    _fun84917_ip = 474; continue _fun84917;
  463:
                     return entity;
  465:
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = result.container;
             report['style'] = options;
             options = backup.length;
-            if(!(kilo !== options)) { _fun84895_ip = 633; continue _fun84895 }
+            if(!(kilo !== options)) { _fun84912_ip = 633; continue _fun84912 }
  495:
             context = _closure1_slot14;
             sizing = _closure1_slot5;
@@ -453,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  633:
             options = new Array(3);
             options[0] = yankee;
-            if(offset) { _fun84895_ip = 687; continue _fun84895 }
+            if(offset) { _fun84912_ip = 687; continue _fun84912 }
  644:
             sizing = _closure1_slot14;
             yankee = _closure1_slot6;
@@ -461,10 +461,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = result.loadingIndicator;
             offset['style'] = context;
             offset = sizing.bind(tango)(yankee, offset);
-            _fun84895_ip = 835; continue _fun84895;
+            _fun84912_ip = 835; continue _fun84912;
  687:
             yankee = backup.length;
-            if(!(kilo !== yankee)) { _fun84895_ip = 774; continue _fun84895 }
+            if(!(kilo !== yankee)) { _fun84912_ip = 774; continue _fun84912 }
  696:
             sizing = _closure1_slot14;
             kilo = _closure1_slot1;
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['inActionSheet'] = echo;
             yankee['inPortalKeyboard'] = output;
             yankee = sizing.bind(tango)(kilo, yankee);
-            _fun84895_ip = 832; continue _fun84895;
+            _fun84912_ip = 832; continue _fun84912;
  774:
             output = _closure1_slot14;
             sizing = _closure1_slot5;

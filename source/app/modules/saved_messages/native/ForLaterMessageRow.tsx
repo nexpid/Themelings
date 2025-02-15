@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = mike.bind(tango)(entity);
         entity = {'pointerEvents': 'none', 'horizontalOffset': 0};
         options = function(argFoo) { // Original name: modifyRow
-            _fun89097: for(var _fun89097_ip = 0; ; ) switch(_fun89097_ip) {
+            _fun89114: for(var _fun89114_ip = 0; ; ) switch(_fun89114_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun89097_ip = 125; continue _fun89097 }
+                if(!(mike != zulu)) { _fun89114_ip = 125; continue _fun89114 }
  13:
                 mike = {};
                 zulu = _closure2_slot0;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.isIOS;
                 tango = zulu.bind(tango)();
                 zulu = '';
-                if(!tango) { _fun89097_ip = 96; continue _fun89097 }
+                if(!tango) { _fun89114_ip = 96; continue _fun89114 }
  90:
                 zulu = '...';
  96:

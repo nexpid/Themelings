@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallBottomHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelCallBottomHeader
-        _fun104207: for(var _fun104207_ip = 0; ; ) switch(_fun104207_ip) {
+        _fun104199: for(var _fun104199_ip = 0; ; ) switch(_fun104199_ip) {
  0:
             entity = argFoo;
             tango = entity.channel;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             oscar = entity == mike;
             result = undefined;
-            if(oscar) { _fun104207_ip = 67; continue _fun104207 }
+            if(oscar) { _fun104199_ip = 67; continue _fun104199 }
  62:
             result = mike.channelId;
  67:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = verify;
             zulu = function() {
-                _fun104209: for(var _fun104209_ip = 0; ; ) switch(_fun104209_ip) {
+                _fun104201: for(var _fun104201_ip = 0; ; ) switch(_fun104201_ip) {
  0:
                     zulu = _closure1_slot6;
                     mike = zulu.getSessionById;
@@ -123,14 +123,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     oscar = entity == tango;
                     tango = undefined;
-                    if(oscar) { _fun104209_ip = 41; continue _fun104209 }
+                    if(oscar) { _fun104201_ip = 41; continue _fun104201 }
  31:
                     report = _closure2_slot0;
                     tango = report.sessionId;
  41:
                     report = entity != tango;
                     entity = '';
-                    if(!report) { _fun104209_ip = 55; continue _fun104209 }
+                    if(!report) { _fun104201_ip = 55; continue _fun104201 }
  52:
                     entity = tango;
  55:
@@ -144,21 +144,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar[zulu];
             zulu = tango.bind(report)(zulu);
             options = zulu.bind(report)(output);
-            if(!(entity == mike)) { _fun104207_ip = 193; continue _fun104207 }
+            if(!(entity == mike)) { _fun104199_ip = 193; continue _fun104199 }
  186:
-            if(!(entity != output)) { _fun104207_ip = 575; continue _fun104207 }
+            if(!(entity != output)) { _fun104199_ip = 575; continue _fun104199 }
  193:
             zulu = entity == output;
             mike = undefined;
-            if(zulu) { _fun104207_ip = 207; continue _fun104207 }
+            if(zulu) { _fun104199_ip = 207; continue _fun104199 }
  202:
             mike = output.type;
  207:
-            if(!(entity == mike)) { _fun104207_ip = 235; continue _fun104207 }
+            if(!(entity == mike)) { _fun104199_ip = 235; continue _fun104199 }
  211:
             tango = entity == sizing;
             zulu = undefined;
-            if(tango) { _fun104207_ip = 232; continue _fun104207 }
+            if(tango) { _fun104199_ip = 232; continue _fun104199 }
  220:
             tango = sizing.clientInfo;
             zulu = tango.os;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  235:
             zulu = entity != mike;
             kilo = '';
-            if(!zulu) { _fun104207_ip = 249; continue _fun104207 }
+            if(!zulu) { _fun104199_ip = 249; continue _fun104199 }
  246:
             kilo = mike;
  249:
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(report)(verify, golf);
             oscar[1] = golf;
             golf = null;
-            if(!options) { _fun104207_ip = 559; continue _fun104207 }
+            if(!options) { _fun104199_ip = 559; continue _fun104199 }
  401:
             offset = _closure1_slot7;
             verify = _closure1_slot4;

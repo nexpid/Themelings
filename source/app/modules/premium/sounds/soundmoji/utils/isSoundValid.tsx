@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/sounds/soundmoji/utils/isSoundValid.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: isSoundValid
-        _fun61862: for(var _fun61862_ip = 0; ; ) switch(_fun61862_ip) {
+        _fun61865: for(var _fun61865_ip = 0; ; ) switch(_fun61865_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot2;
@@ -55,35 +55,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report == entity;
             tango = undefined;
             golf = undefined;
-            if(mike) { _fun61862_ip = 41; continue _fun61862 }
+            if(mike) { _fun61865_ip = 41; continue _fun61865 }
  36:
             golf = entity.guildId;
  41:
             mike = _closure1_slot5;
-            if(!(golf !== mike)) { _fun61862_ip = 206; continue _fun61862 }
+            if(!(golf !== mike)) { _fun61865_ip = 206; continue _fun61865 }
  52:
             mike = report == entity;
             golf = undefined;
-            if(mike) { _fun61862_ip = 66; continue _fun61862 }
+            if(mike) { _fun61865_ip = 66; continue _fun61865 }
  61:
             golf = entity.guildId;
  66:
             options = report == oscar;
             mike = undefined;
-            if(options) { _fun61862_ip = 80; continue _fun61862 }
+            if(options) { _fun61865_ip = 80; continue _fun61865 }
  75:
             mike = oscar.guild_id;
  80:
-            if(!(golf !== mike)) { _fun61862_ip = 202; continue _fun61862 }
+            if(!(golf !== mike)) { _fun61865_ip = 202; continue _fun61865 }
  84:
             golf = report == entity;
             mike = undefined;
-            if(golf) { _fun61862_ip = 98; continue _fun61862 }
+            if(golf) { _fun61865_ip = 98; continue _fun61865 }
  93:
             mike = entity.guildId;
  98:
             entity = argBar;
-            if(!(mike !== entity)) { _fun61862_ip = 202; continue _fun61862 }
+            if(!(mike !== entity)) { _fun61865_ip = 202; continue _fun61865 }
  105:
             mike = _closure1_slot0;
             golf = _closure1_slot1;
@@ -96,12 +96,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(golf)();
             mike = mike.bind(tango)(entity);
             entity = report == oscar;
-            if(entity) { _fun61862_ip = 165; continue _fun61862 }
+            if(entity) { _fun61865_ip = 165; continue _fun61865 }
  156:
             tango = oscar.guild_id;
             entity = report == tango;
  165:
-            if(entity) { _fun61862_ip = 194; continue _fun61862 }
+            if(entity) { _fun61865_ip = 194; continue _fun61865 }
  168:
             report = _closure1_slot3;
             tango = report.can;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.USE_EXTERNAL_SOUNDS;
             entity = tango.bind(report)(zulu, oscar);
  194:
-            if(!entity) { _fun61862_ip = 200; continue _fun61862 }
+            if(!entity) { _fun61865_ip = 200; continue _fun61865 }
  197:
             entity = mike;
  200:

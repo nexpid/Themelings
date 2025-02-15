@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = output.bind(tango)(mike);
         zulu = report.useAnimatedStyle;
         mike = function() { // Original name: l
-            _fun97309: for(var _fun97309_ip = 0; ; ) switch(_fun97309_ip) {
+            _fun97319: for(var _fun97319_ip = 0; ; ) switch(_fun97319_ip) {
  0:
                 entity = _closure2_slot0;
                 zulu = entity.theme;
                 entity = _closure1_slot9;
                 entity = entity.LIGHT;
                 report = 1;
-                if(!(zulu === entity)) { _fun97309_ip = 43; continue _fun97309 }
+                if(!(zulu === entity)) { _fun97319_ip = 43; continue _fun97319 }
  33:
                 report = 0.5;
  43:
@@ -307,11 +307,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = verify.bind(report)(tango);
             foxtrot = tango.springStandard;
             tango = function(argFoo) { // Original name: s
-                _fun97315: for(var _fun97315_ip = 0; ; ) switch(_fun97315_ip) {
+                _fun97325: for(var _fun97325_ip = 0; ; ) switch(_fun97325_ip) {
  0:
                     zulu = _closure3_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun97315_ip = 27; continue _fun97315 }
+                    if(!(mike != zulu)) { _fun97325_ip = 27; continue _fun97325 }
  13:
                     zulu = _closure3_slot0;
                     mike = undefined;
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot20 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: SettingsAppearanceChannelListPreviewNitroUpsell
-        _fun97316: for(var _fun97316_ip = 0; ; ) switch(_fun97316_ip) {
+        _fun97326: for(var _fun97326_ip = 0; ; ) switch(_fun97326_ip) {
  0:
             options = argFoo;
             zulu = _closure1_slot0;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot3;
             zulu = report.useCallback;
             mike = function(argFoo, argBar) {
-                _fun97318: for(var _fun97318_ip = 0; ; ) switch(_fun97318_ip) {
+                _fun97328: for(var _fun97328_ip = 0; ; ) switch(_fun97328_ip) {
  0:
                     verify = argFoo;
                     tango = _closure1_slot10;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['pointerEvents'] = report;
                     report = null;
                     golf = report != verify;
-                    if(!golf) { _fun97318_ip = 92; continue _fun97318 }
+                    if(!golf) { _fun97328_ip = 92; continue _fun97328 }
  66:
                     options = _closure1_slot10;
                     golf = _closure1_slot21;
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['useReducedMotion'] = golf;
             verify = options.visible;
             golf = undefined;
-            if(!verify) { _fun97316_ip = 127; continue _fun97316 }
+            if(!verify) { _fun97326_ip = 127; continue _fun97326 }
  124:
             golf = options;
  127:

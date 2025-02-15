@@ -6,13 +6,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: ActionSheetRow
-        _fun77347: for(var _fun77347_ip = 0; ; ) switch(_fun77347_ip) {
+        _fun77357: for(var _fun77357_ip = 0; ; ) switch(_fun77357_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.label;
             romeo = zulu.variant;
             tango = undefined;
-            if(!(romeo === tango)) { _fun77347_ip = 23; continue _fun77347 }
+            if(!(romeo === tango)) { _fun77357_ip = 23; continue _fun77357 }
  19:
             romeo = 'default';
  23:
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = options.bind(verify)(report);
     var _closure1_slot5 = report;
     report = function(argFoo) { // Original name: ActionSheetRowIcon
-        _fun77348: for(var _fun77348_ip = 0; ; ) switch(_fun77348_ip) {
+        _fun77358: for(var _fun77358_ip = 0; ; ) switch(_fun77358_ip) {
  0:
             entity = argFoo;
             oscar = entity.source;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = null;
             options = oscar != golf;
             oscar = undefined;
-            if(!options) { _fun77348_ip = 88; continue _fun77348 }
+            if(!options) { _fun77358_ip = 88; continue _fun77358 }
  85:
             oscar = golf;
  88:

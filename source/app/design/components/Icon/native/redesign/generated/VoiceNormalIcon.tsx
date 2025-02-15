@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/VoiceNormalIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun62013: for(var _fun62013_ip = 0; ; ) switch(_fun62013_ip) {
+        _fun62016: for(var _fun62016_ip = 0; ; ) switch(_fun62016_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun62013_ip = 53; continue _fun62013 }
+            if(!(golf === tango)) { _fun62016_ip = 53; continue _fun62016 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

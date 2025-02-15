@@ -170,7 +170,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/quests/native/QuestHomeDiscovery.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: QuestHomeDiscovery
-        _fun118027: for(var _fun118027_ip = 0; ; ) switch(_fun118027_ip) {
+        _fun118033: for(var _fun118033_ip = 0; ; ) switch(_fun118033_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -184,12 +184,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = null;
             zulu = mike == entity;
             oscar = undefined;
-            if(zulu) { _fun118027_ip = 72; continue _fun118027 }
+            if(zulu) { _fun118033_ip = 72; continue _fun118033 }
  52:
             entity = entity.options;
             mike = mike == entity;
             oscar = undefined;
-            if(mike) { _fun118027_ip = 72; continue _fun118027 }
+            if(mike) { _fun118033_ip = 72; continue _fun118033 }
  66:
             oscar = entity.scrollToQuestId;
  72:

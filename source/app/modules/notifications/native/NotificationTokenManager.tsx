@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun109329: for(var _fun109329_ip = 0; ; ) switch(_fun109329_ip) {
+        _fun109335: for(var _fun109335_ip = 0; ; ) switch(_fun109335_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun109329_ip = 51; continue _fun109329 }
+            if(entity) { _fun109335_ip = 51; continue _fun109335 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun109329_ip = 92; continue _fun109329;
+            _fun109335_ip = 92; continue _fun109335;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun109329_ip = 71; continue _fun109329 }
+            if(oscar) { _fun109335_ip = 71; continue _fun109335 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun109330: for(var _fun109330_ip = 0; ; ) switch(_fun109330_ip) {
+        _fun109336: for(var _fun109336_ip = 0; ; ) switch(_fun109336_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun109330_ip = 76; continue _fun109330;
+            _fun109336_ip = 76; continue _fun109336;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -149,13 +149,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['hasRegisterEventListener'] = tango;
             entity['postConnectionOpenTimeoutID'] = zulu;
             zulu = function(argFoo) {
-                _fun109335: for(var _fun109335_ip = 0; ; ) switch(_fun109335_ip) {
+                _fun109341: for(var _fun109341_ip = 0; ; ) switch(_fun109341_ip) {
  0:
                     mike = _closure3_slot0;
                     zulu = argFoo;
                     mike['token'] = zulu;
                     mike = mike.canSync;
-                    if(!mike) { _fun109335_ip = 39; continue _fun109335 }
+                    if(!mike) { _fun109341_ip = 39; continue _fun109341 }
  25:
                     mike = _closure3_slot0;
                     entity = mike.registerToken;
@@ -167,12 +167,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleToken'] = zulu;
             zulu = function() {
-                _fun109336: for(var _fun109336_ip = 0; ; ) switch(_fun109336_ip) {
+                _fun109342: for(var _fun109342_ip = 0; ; ) switch(_fun109342_ip) {
  0:
                     mike = _closure3_slot0;
                     zulu = mike.token;
                     mike = null;
-                    if(!(mike != zulu)) { _fun109336_ip = 279; continue _fun109336 }
+                    if(!(mike != zulu)) { _fun109342_ip = 279; continue _fun109342 }
  22:
                     zulu = _closure1_slot8;
                     offset = zulu.DCDNotificationCategoryUtils;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     output = options;
                     report = result[verify](output, sizing, kilo, backup, foxtrot);
                     zulu = zulu.PushNotificationAndroid;
-                    if(!zulu) { _fun109336_ip = 238; continue _fun109336 }
+                    if(!zulu) { _fun109342_ip = 238; continue _fun109342 }
  216:
                     zulu = _closure1_slot8;
                     report = zulu.PushNotificationAndroid;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleSyncNoMultiAccountOnLoginSuccess'] = zulu;
             zulu = function() {
-                _fun109339: for(var _fun109339_ip = 0; ; ) switch(_fun109339_ip) {
+                _fun109345: for(var _fun109345_ip = 0; ; ) switch(_fun109345_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -259,11 +259,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = 'notification_token_manager';
                     mike = zulu.bind(tango)(mike);
                     zulu = _closure3_slot0;
-                    if(mike) { _fun109339_ip = 64; continue _fun109339 }
+                    if(mike) { _fun109345_ip = 64; continue _fun109345 }
  52:
                     mike = zulu.handleSyncNoMultiAccount;
                     mike = mike.bind(zulu)();
-                    _fun109339_ip = 96; continue _fun109339;
+                    _fun109345_ip = 96; continue _fun109345;
  64:
                     mike = global;
                     report = mike.setTimeout;
@@ -277,12 +277,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleSyncNoMultiAccountOnRegisterSuccess'] = zulu;
             zulu = function() {
-                _fun109340: for(var _fun109340_ip = 0; ; ) switch(_fun109340_ip) {
+                _fun109346: for(var _fun109346_ip = 0; ; ) switch(_fun109346_ip) {
  0:
                     entity = _closure3_slot0;
                     zulu = entity.postConnectionOpenTimeoutID;
                     entity = null;
-                    if(!(entity != zulu)) { _fun109340_ip = 60; continue _fun109340 }
+                    if(!(entity != zulu)) { _fun109346_ip = 60; continue _fun109346 }
  19:
                     zulu = global;
                     report = zulu.clearTimeout;
@@ -300,17 +300,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleSyncNoMultiAccountOnPostConnectionOpen'] = zulu;
             zulu = function() {
-                _fun109341: for(var _fun109341_ip = 0; ; ) switch(_fun109341_ip) {
+                _fun109347: for(var _fun109347_ip = 0; ; ) switch(_fun109347_ip) {
  0:
                     mike = _closure3_slot0;
                     mike = mike.canSync;
-                    if(!mike) { _fun109341_ip = 32; continue _fun109341 }
+                    if(!mike) { _fun109347_ip = 32; continue _fun109347 }
  16:
                     zulu = _closure1_slot9;
                     zulu = zulu.canUseMultiAccountNotifications;
                     mike = !zulu;
  32:
-                    if(!mike) { _fun109341_ip = 49; continue _fun109341 }
+                    if(!mike) { _fun109347_ip = 49; continue _fun109347 }
  35:
                     mike = _closure3_slot0;
                     entity = mike.registerToken;
@@ -322,16 +322,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleSyncNoMultiAccount'] = zulu;
             mike = function() {
-                _fun109342: for(var _fun109342_ip = 0; ; ) switch(_fun109342_ip) {
+                _fun109348: for(var _fun109348_ip = 0; ; ) switch(_fun109348_ip) {
  0:
                     mike = _closure3_slot0;
                     mike = mike.canSync;
-                    if(!mike) { _fun109342_ip = 29; continue _fun109342 }
+                    if(!mike) { _fun109348_ip = 29; continue _fun109348 }
  16:
                     zulu = _closure1_slot9;
                     mike = zulu.canUseMultiAccountNotifications;
  29:
-                    if(!mike) { _fun109342_ip = 46; continue _fun109342 }
+                    if(!mike) { _fun109348_ip = 46; continue _fun109348 }
  32:
                     mike = _closure3_slot0;
                     entity = mike.registerToken;
@@ -354,12 +354,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = '_initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun109343: for(var _fun109343_ip = 0; ; ) switch(_fun109343_ip) {
+            _fun109349: for(var _fun109349_ip = 0; ; ) switch(_fun109349_ip) {
  0:
                 mike = this;
                 zulu = mike.token;
                 entity = null;
-                if(!(entity != zulu)) { _fun109343_ip = 32; continue _fun109343 }
+                if(!(entity != zulu)) { _fun109349_ip = 32; continue _fun109349 }
  15:
                 zulu = mike.handleToken;
                 entity = mike.token;
@@ -450,11 +450,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'registerListener';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun109345: for(var _fun109345_ip = 0; ; ) switch(_fun109345_ip) {
+            _fun109351: for(var _fun109351_ip = 0; ; ) switch(_fun109351_ip) {
  0:
                 mike = this;
                 entity = mike.hasRegisterEventListener;
-                if(entity) { _fun109345_ip = 64; continue _fun109345 }
+                if(entity) { _fun109351_ip = 64; continue _fun109351 }
  12:
                 entity = true;
                 mike['hasRegisterEventListener'] = entity;
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'registerNotificationCategories';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun109346: for(var _fun109346_ip = 0; ; ) switch(_fun109346_ip) {
+            _fun109352: for(var _fun109352_ip = 0; ; ) switch(_fun109352_ip) {
  0:
                 mike = _closure1_slot8;
                 zulu = mike.DCDNotificationCategoryUtils;
@@ -494,9 +494,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.DCDNotificationCategoryUtils;
                 tango = mike.registerNotificationCategoriesAndGroups;
                 mike = null;
-                if(!(mike == tango)) { _fun109346_ip = 666; continue _fun109346 }
+                if(!(mike == tango)) { _fun109352_ip = 666; continue _fun109352 }
  42:
-                if(!(mike != report)) { _fun109346_ip = 1625; continue _fun109346 }
+                if(!(mike != report)) { _fun109352_ip = 1625; continue _fun109352 }
  49:
                 zulu = {};
                 verify = _closure1_slot0;
@@ -624,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = golf.bind(options)(oscar);
                 zulu['otherHighPriority'] = oscar;
                 mike = report.bind(mike)(zulu);
-                _fun109346_ip = 1625; continue _fun109346;
+                _fun109352_ip = 1625; continue _fun109352;
  666:
                 zulu = {};
                 options = _closure1_slot0;
@@ -844,17 +844,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'canSync';
         report['key'] = golf;
         oscar = function() { // Original name: get
-            _fun109348: for(var _fun109348_ip = 0; ; ) switch(_fun109348_ip) {
+            _fun109354: for(var _fun109354_ip = 0; ; ) switch(_fun109354_ip) {
  0:
                 entity = this;
                 entity = entity.isInitialized;
-                if(!entity) { _fun109348_ip = 29; continue _fun109348 }
+                if(!entity) { _fun109354_ip = 29; continue _fun109354 }
  12:
                 zulu = _closure1_slot10;
                 mike = zulu.isAuthenticated;
                 entity = mike.bind(zulu)();
  29:
-                if(!entity) { _fun109348_ip = 48; continue _fun109348 }
+                if(!entity) { _fun109354_ip = 48; continue _fun109354 }
  32:
                 mike = _closure1_slot9;
                 mike = mike.isSwitchingAccount;

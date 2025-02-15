@@ -63,24 +63,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun82036: for(var _fun82036_ip = 0; ; ) switch(_fun82036_ip) {
+            _fun82052: for(var _fun82052_ip = 0; ; ) switch(_fun82052_ip) {
  0:
                 entity = _closure2_slot1;
                 report = null;
                 tango = report == entity;
                 entity = undefined;
-                if(tango) { _fun82036_ip = 32; continue _fun82036 }
+                if(tango) { _fun82052_ip = 32; continue _fun82052 }
  18:
                 oscar = _closure2_slot1;
                 tango = oscar.isDM;
                 entity = tango.bind(oscar)();
  32:
-                if(entity) { _fun82036_ip = 65; continue _fun82036 }
+                if(entity) { _fun82052_ip = 65; continue _fun82052 }
  35:
                 tango = _closure2_slot1;
                 tango = report == tango;
                 mike = undefined;
-                if(tango) { _fun82036_ip = 62; continue _fun82036 }
+                if(tango) { _fun82052_ip = 62; continue _fun82052 }
  48:
                 report = _closure2_slot1;
                 tango = report.isMultiUserDM;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  62:
                 entity = mike;
  65:
-                if(entity) { _fun82036_ip = 137; continue _fun82036 }
+                if(entity) { _fun82052_ip = 137; continue _fun82052 }
  68:
                 golf = _closure1_slot3;
                 oscar = golf.can;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.SEND_MESSAGES;
                 mike = _closure2_slot1;
                 mike = oscar.bind(golf)(report, mike);
-                if(!mike) { _fun82036_ip = 134; continue _fun82036 }
+                if(!mike) { _fun82052_ip = 134; continue _fun82052 }
  104:
                 oscar = _closure1_slot3;
                 report = oscar.can;

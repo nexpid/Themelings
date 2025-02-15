@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'stores/MaskedLinkStoreMethodsAdditional.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getHostname
-        _fun67311: for(var _fun67311_ip = 0; ; ) switch(_fun67311_ip) {
+        _fun67317: for(var _fun67317_ip = 0; ; ) switch(_fun67317_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getHostname'] = tango;
     mike = function(argFoo) { // Original name: getProtocol
-        _fun67312: for(var _fun67312_ip = 0; ; ) switch(_fun67312_ip) {
+        _fun67318: for(var _fun67318_ip = 0; ; ) switch(_fun67318_ip) {
  0:
             entity = argFoo;
  3: // try_start_0

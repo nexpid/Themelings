@@ -26,7 +26,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     tango = 'modules/panels/morphable/native/useScreenNameSharedValue.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useScreenNameSharedValue
-        _fun121289: for(var _fun121289_ip = 0; ; ) switch(_fun121289_ip) {
+        _fun121295: for(var _fun121295_ip = 0; ; ) switch(_fun121295_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             golf = null;
             entity = golf == offset;
             yankee = undefined;
-            if(entity) { _fun121289_ip = 75; continue _fun121289 }
+            if(entity) { _fun121295_ip = 75; continue _fun121295 }
  65:
             entity = offset.isReady;
             yankee = entity.bind(offset)();
@@ -51,19 +51,19 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             options = 'unknown';
             verify = true;
             entity = options;
-            if(!(verify === yankee)) { _fun121289_ip = 125; continue _fun121289 }
+            if(!(verify === yankee)) { _fun121295_ip = 125; continue _fun121295 }
  88:
             verify = offset.getCurrentRoute;
             verify = verify.bind(offset)();
             offset = golf == verify;
             oscar = undefined;
-            if(offset) { _fun121289_ip = 112; continue _fun121289 }
+            if(offset) { _fun121295_ip = 112; continue _fun121295 }
  107:
             oscar = verify.name;
  112:
             golf = golf != oscar;
             entity = options;
-            if(!golf) { _fun121289_ip = 125; continue _fun121289 }
+            if(!golf) { _fun121295_ip = 125; continue _fun121295 }
  122:
             entity = oscar;
  125:
@@ -74,19 +74,19 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = entity;
             mike = function() {
-                _fun121290: for(var _fun121290_ip = 0; ; ) switch(_fun121290_ip) {
+                _fun121296: for(var _fun121296_ip = 0; ; ) switch(_fun121296_ip) {
  0:
                     report = function() { // Original name: handleStateChange
-                        _fun121291: for(var _fun121291_ip = 0; ; ) switch(_fun121291_ip) {
+                        _fun121297: for(var _fun121297_ip = 0; ; ) switch(_fun121297_ip) {
  0:
                             zulu = _closure3_slot0;
                             entity = null;
-                            if(!(entity != zulu)) { _fun121291_ip = 89; continue _fun121291 }
+                            if(!(entity != zulu)) { _fun121297_ip = 89; continue _fun121297 }
  13:
                             tango = _closure3_slot0;
                             zulu = tango.isReady;
                             zulu = zulu.bind(tango)();
-                            if(!zulu) { _fun121291_ip = 89; continue _fun121291 }
+                            if(!zulu) { _fun121297_ip = 89; continue _fun121297 }
  30:
                             zulu = _closure3_slot0;
                             mike = zulu.getCurrentRoute;
@@ -95,13 +95,13 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                             mike = zulu.set;
                             oscar = entity == report;
                             tango = undefined;
-                            if(oscar) { _fun121291_ip = 70; continue _fun121291 }
+                            if(oscar) { _fun121297_ip = 70; continue _fun121297 }
  65:
                             tango = report.name;
  70:
                             report = entity != tango;
                             entity = 'unknown';
-                            if(!report) { _fun121291_ip = 84; continue _fun121291 }
+                            if(!report) { _fun121297_ip = 84; continue _fun121297 }
  81:
                             entity = tango;
  84:
@@ -122,7 +122,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
                     tango = zulu.bind(tango)();
                     var _closure3_slot0 = tango;
                     zulu = null;
-                    if(!(zulu == tango)) { _fun121290_ip = 60; continue _fun121290 }
+                    if(!(zulu == tango)) { _fun121296_ip = 60; continue _fun121296 }
  58:
                     return mike;
  60:

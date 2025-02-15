@@ -8,22 +8,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: _activityFromSetting
-        _fun68475: for(var _fun68475_ip = 0; ; ) switch(_fun68475_ip) {
+        _fun68481: for(var _fun68481_ip = 0; ; ) switch(_fun68481_ip) {
  0:
             golf = argFoo;
             zulu = argBar;
             entity = null;
-            if(!(entity == zulu)) { _fun68475_ip = 155; continue _fun68475 }
+            if(!(entity == zulu)) { _fun68481_ip = 155; continue _fun68481 }
  15:
             mike = golf.emojiName;
             tango = entity != mike;
             mike = null;
-            if(!tango) { _fun68475_ip = 189; continue _fun68475 }
+            if(!tango) { _fun68481_ip = 189; continue _fun68481 }
  33:
             report = golf.emojiName;
             tango = '';
             mike = null;
-            if(!(tango !== report)) { _fun68475_ip = 189; continue _fun68475 }
+            if(!(tango !== report)) { _fun68481_ip = 189; continue _fun68481 }
  52:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(tango);
             tango = entity != report;
             entity = null;
-            if(!tango) { _fun68475_ip = 150; continue _fun68475 }
+            if(!tango) { _fun68481_ip = 150; continue _fun68481 }
  126:
             tango = {'id': null, 'name': null, 'animated': false};
             report = report.surrogates;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango;
  150:
             mike = entity;
-            _fun68475_ip = 189; continue _fun68475;
+            _fun68481_ip = 189; continue _fun68481;
  155:
             entity = {};
             tango = zulu.id;
@@ -76,14 +76,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = 0;
             options = oscar > tango;
             oscar = undefined;
-            if(!options) { _fun68475_ip = 265; continue _fun68475 }
+            if(!options) { _fun68481_ip = 265; continue _fun68481 }
  260:
             oscar = golf.text;
  265:
             entity['state'] = oscar;
             tango = report > tango;
             zulu = undefined;
-            if(!tango) { _fun68475_ip = 287; continue _fun68475 }
+            if(!tango) { _fun68481_ip = 287; continue _fun68481 }
  278:
             tango = {};
             tango['end'] = report;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/userSettingToActivity.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getActivityFromCustomStatus
-        _fun68476: for(var _fun68476_ip = 0; ; ) switch(_fun68476_ip) {
+        _fun68482: for(var _fun68482_ip = 0; ; ) switch(_fun68482_ip) {
  0:
             tango = argFoo;
             oscar = tango.emojiId;
@@ -133,11 +133,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             report = golf != oscar;
             mike = null;
-            if(!report) { _fun68476_ip = 54; continue _fun68476 }
+            if(!report) { _fun68482_ip = 54; continue _fun68482 }
  27:
             report = '0';
             mike = null;
-            if(!(report !== oscar)) { _fun68476_ip = 54; continue _fun68476 }
+            if(!(report !== oscar)) { _fun68482_ip = 54; continue _fun68482 }
  39:
             report = _closure1_slot4;
             entity = report.getUsableCustomEmojiById;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getActivityFromCustomStatus'] = tango;
     mike = function() { // Original name: useCustomStatusActivity
-        _fun68477: for(var _fun68477_ip = 0; ; ) switch(_fun68477_ip) {
+        _fun68483: for(var _fun68483_ip = 0; ; ) switch(_fun68483_ip) {
  0:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             report = zulu == oscar;
             zulu = undefined;
-            if(report) { _fun68477_ip = 64; continue _fun68477 }
+            if(report) { _fun68483_ip = 64; continue _fun68483 }
  58:
             zulu = oscar.emojiId;
  64:
@@ -182,18 +182,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = zulu;
             zulu = function() {
-                _fun68478: for(var _fun68478_ip = 0; ; ) switch(_fun68478_ip) {
+                _fun68484: for(var _fun68484_ip = 0; ; ) switch(_fun68484_ip) {
  0:
                     entity = _closure2_slot1;
                     report = null;
                     zulu = report != entity;
                     entity = null;
-                    if(!zulu) { _fun68478_ip = 56; continue _fun68478 }
+                    if(!zulu) { _fun68484_ip = 56; continue _fun68484 }
  18:
                     tango = _closure2_slot1;
                     zulu = '0';
                     entity = null;
-                    if(!(zulu !== tango)) { _fun68478_ip = 56; continue _fun68478 }
+                    if(!(zulu !== tango)) { _fun68484_ip = 56; continue _fun68484 }
  34:
                     tango = _closure1_slot4;
                     zulu = tango.getUsableCustomEmojiById;
@@ -210,12 +210,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike[0] = oscar;
             mike[1] = report;
             entity = function() {
-                _fun68479: for(var _fun68479_ip = 0; ; ) switch(_fun68479_ip) {
+                _fun68485: for(var _fun68485_ip = 0; ; ) switch(_fun68485_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun68479_ip = 39; continue _fun68479 }
+                    if(!zulu) { _fun68485_ip = 39; continue _fun68485 }
  16:
                     report = _closure1_slot6;
                     tango = _closure2_slot0;

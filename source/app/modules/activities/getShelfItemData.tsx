@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/getShelfItemData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getShelfItemData
-        _fun73968: for(var _fun73968_ip = 0; ; ) switch(_fun73968_ip) {
+        _fun73978: for(var _fun73978_ip = 0; ; ) switch(_fun73978_ip) {
  0:
             mike = argFoo;
             golf = mike.applicationId;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report == options;
             zulu = undefined;
-            if(mike) { _fun73968_ip = 54; continue _fun73968 }
+            if(mike) { _fun73978_ip = 54; continue _fun73978 }
  37:
             oscar = options.find;
             mike = function(argFoo) {
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = oscar.bind(options)(mike);
  54:
-            if(!(report == zulu)) { _fun73968_ip = 76; continue _fun73968 }
+            if(!(report == zulu)) { _fun73978_ip = 76; continue _fun73978 }
  58:
             oscar = _closure1_slot0;
             mike = oscar.getApplication;
@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(tango)(entity);
             mike = report == tango;
             entity = null;
-            if(mike) { _fun73968_ip = 125; continue _fun73968 }
+            if(mike) { _fun73978_ip = 125; continue _fun73978 }
  102:
             mike = report == zulu;
             entity = null;
-            if(mike) { _fun73968_ip = 125; continue _fun73968 }
+            if(mike) { _fun73978_ip = 125; continue _fun73978 }
  111:
             mike = {};
             mike['activity'] = tango;

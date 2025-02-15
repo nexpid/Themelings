@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = 300;
             mike['AUDIO_ROUTE_CHANGE_IGNORE_DURATION_MS'] = report;
             tango = function() {
-                _fun52857: for(var _fun52857_ip = 0; ; ) switch(_fun52857_ip) {
+                _fun52864: for(var _fun52864_ip = 0; ; ) switch(_fun52864_ip) {
  0:
                     mike = _closure3_slot0;
                     zulu = mike.audioRouteChangeIgnoreTimer;
                     mike = zulu.isStarted;
                     mike = mike.bind(zulu)();
-                    if(!mike) { _fun52857_ip = 46; continue _fun52857 }
+                    if(!mike) { _fun52864_ip = 46; continue _fun52864 }
  26:
                     mike = _closure3_slot0;
                     zulu = mike.audioRouteChangeIgnoreTimer;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'nativeMuteChanged';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun52859: for(var _fun52859_ip = 0; ; ) switch(_fun52859_ip) {
+            _fun52866: for(var _fun52866_ip = 0; ; ) switch(_fun52866_ip) {
  0:
                 tango = this;
                 report = _closure1_slot1;
@@ -115,13 +115,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(zulu);
                 zulu = report.hasActiveCall;
                 zulu = zulu.bind(report)();
-                if(zulu) { _fun52859_ip = 121; continue _fun52859 }
+                if(zulu) { _fun52866_ip = 121; continue _fun52866 }
  41:
                 zulu = tango.ignoreForNativeUnmute;
-                if(zulu) { _fun52859_ip = 111; continue _fun52859 }
+                if(zulu) { _fun52866_ip = 111; continue _fun52866 }
  50:
                 zulu = tango.ignoreForAudioRouteChange;
-                if(zulu) { _fun52859_ip = 109; continue _fun52859 }
+                if(zulu) { _fun52866_ip = 109; continue _fun52866 }
  59:
                 zulu = true;
                 tango['needToUnmuteNative'] = zulu;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = false;
                 zulu['playSoundEffect'] = golf;
                 zulu = report.bind(oscar)(zulu);
-                _fun52859_ip = 166; continue _fun52859;
+                _fun52866_ip = 166; continue _fun52866;
  109:
                 return entity;
  111:
@@ -164,11 +164,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'updateNativeMute';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun52860: for(var _fun52860_ip = 0; ; ) switch(_fun52860_ip) {
+            _fun52867: for(var _fun52867_ip = 0; ; ) switch(_fun52867_ip) {
  0:
                 report = this;
                 entity = report.needToUnmuteNative;
-                if(!entity) { _fun52860_ip = 121; continue _fun52860 }
+                if(!entity) { _fun52867_ip = 121; continue _fun52867 }
  12:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(zulu)(mike);
                 mike = tango.hasActiveCall;
                 mike = mike.bind(tango)();
-                if(mike) { _fun52860_ip = 121; continue _fun52860 }
+                if(mike) { _fun52867_ip = 121; continue _fun52867 }
  50:
                 tango = false;
                 report['needToUnmuteNative'] = tango;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = entity.bind(mike)();
                 mike = zulu.setNativeMuteState;
                 entity = null;
-                if(!(entity != mike)) { _fun52860_ip = 121; continue _fun52860 }
+                if(!(entity != mike)) { _fun52867_ip = 121; continue _fun52867 }
  110:
                 entity = mike.call;
                 entity = entity.bind(mike)(zulu, tango);

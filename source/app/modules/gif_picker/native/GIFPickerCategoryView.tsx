@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/gif_picker/native/GIFPickerCategoryView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GIFPickerCategoryView
-        _fun84889: for(var _fun84889_ip = 0; ; ) switch(_fun84889_ip) {
+        _fun84906: for(var _fun84906_ip = 0; ; ) switch(_fun84906_ip) {
  0:
             entity = argFoo;
             mike = entity.onSelectCategory;
@@ -182,14 +182,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.type;
             options = _closure1_slot4;
             options = options.TRENDING_GIFS;
-            if(!(offset !== options)) { _fun84889_ip = 318; continue _fun84889 }
- 208:
+            if(!(offset !== options)) { _fun84906_ip = 319; continue _fun84906 }
+ 209:
             yankee = romeo.type;
             options = _closure1_slot4;
             options = options.FAVORITES;
             offset = null;
-            if(!(yankee === options)) { _fun84889_ip = 316; continue _fun84889 }
- 229:
+            if(!(yankee === options)) { _fun84906_ip = 317; continue _fun84906 }
+ 230:
             foxtrot = _closure1_slot5;
             yankee = _closure1_slot0;
             output = _closure1_slot2;
@@ -210,9 +210,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.WHITE;
             options['color'] = kilo;
             offset = foxtrot.bind(tango)(yankee, options);
- 316:
-            _fun84889_ip = 405; continue _fun84889;
- 318:
+ 317:
+            _fun84906_ip = 406; continue _fun84906;
+ 319:
             foxtrot = _closure1_slot5;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.WHITE;
             options['color'] = backup;
             offset = foxtrot.bind(tango)(yankee, options);
- 405:
+ 406:
             options = new Array(2);
             options[0] = offset;
             yankee = _closure1_slot5;

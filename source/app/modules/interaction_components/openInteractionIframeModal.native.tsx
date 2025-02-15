@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun123847: for(var _fun123847_ip = 0; ; ) switch(_fun123847_ip) {
+                _fun123852: for(var _fun123852_ip = 0; ; ) switch(_fun123852_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun123847_ip = 103; continue _fun123847 }
+                    if(mike) { _fun123852_ip = 103; continue _fun123852 }
  7:
                     report = _closure1_slot1;
                     options = _closure1_slot2;

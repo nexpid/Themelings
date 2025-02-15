@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun88649: for(var _fun88649_ip = 0; ; ) switch(_fun88649_ip) {
+                _fun88666: for(var _fun88666_ip = 0; ; ) switch(_fun88666_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun88649_ip = 142; continue _fun88649 }
+                    if(mike) { _fun88666_ip = 142; continue _fun88666 }
  10:
                     zulu = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  125:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun88649_ip = 139; continue _fun88649 }
+                    if(zulu) { _fun88666_ip = 139; continue _fun88666 }
  131:
                     zulu = mike.body;
                     return zulu;
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/verification/ChangeEmailActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: sendConfirmationCode
-        _fun88650: for(var _fun88650_ip = 0; ; ) switch(_fun88650_ip) {
+        _fun88667: for(var _fun88667_ip = 0; ; ) switch(_fun88667_ip) {
  0:
             oscar = arguments[0];
             options = undefined;
-            if(!(oscar === options)) { _fun88650_ip = 11; continue _fun88650 }
+            if(!(oscar === options)) { _fun88667_ip = 11; continue _fun88667 }
  9:
             oscar = false;
  11:

@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/GuildScheduledEventPrompts.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ScheduleEventPrompt
-        _fun76145: for(var _fun76145_ip = 0; ; ) switch(_fun76145_ip) {
+        _fun76155: for(var _fun76155_ip = 0; ; ) switch(_fun76155_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(mike)(zulu);
             mike = entity.canCreateGuildEvent;
             entity = null;
-            if(!mike) { _fun76145_ip = 294; continue _fun76145 }
+            if(!mike) { _fun76155_ip = 294; continue _fun76155 }
  87:
             tango = _closure1_slot3;
             verify = _closure1_slot0;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ScheduleEventPrompt'] = tango;
     mike = function(argFoo) { // Original name: StartEventPrompt
-        _fun76147: for(var _fun76147_ip = 0; ; ) switch(_fun76147_ip) {
+        _fun76157: for(var _fun76157_ip = 0; ; ) switch(_fun76157_ip) {
  0:
             entity = argFoo;
             mike = entity.event;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.canManageGuildEvent;
             mike = entity.bind(report)(mike);
             entity = null;
-            if(!mike) { _fun76147_ip = 391; continue _fun76147 }
+            if(!mike) { _fun76157_ip = 391; continue _fun76157 }
  110:
             tango = _closure1_slot3;
             yankee = _closure1_slot0;

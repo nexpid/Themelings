@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/core/native/handleAppStateChanged.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: handleAppStateChanged
-        _fun127832: for(var _fun127832_ip = 0; ; ) switch(_fun127832_ip) {
+        _fun127828: for(var _fun127828_ip = 0; ; ) switch(_fun127828_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot4;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot6;
             zulu = zulu.BACKGROUND;
             tango = report === zulu;
-            if(!tango) { _fun127832_ip = 164; continue _fun127832 }
+            if(!tango) { _fun127828_ip = 164; continue _fun127828 }
  150:
             zulu = _closure1_slot6;
             zulu = zulu.ACTIVE;
@@ -91,19 +91,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot6;
             zulu = zulu.ACTIVE;
             zulu = report === zulu;
-            if(!zulu) { _fun127832_ip = 195; continue _fun127832 }
+            if(!zulu) { _fun127828_ip = 195; continue _fun127828 }
  181:
             report = _closure1_slot6;
             report = report.ACTIVE;
             zulu = oscar !== report;
  195:
-            if(!tango) { _fun127832_ip = 212; continue _fun127832 }
+            if(!tango) { _fun127828_ip = 212; continue _fun127828 }
  198:
             golf = _closure1_slot3;
             report = golf.isAuthenticated;
             tango = report.bind(golf)();
  212:
-            if(!tango) { _fun127832_ip = 252; continue _fun127832 }
+            if(!tango) { _fun127828_ip = 252; continue _fun127828 }
  215:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf.isDisconnected;
             tango = report.bind(golf)();
  252:
-            if(!tango) { _fun127832_ip = 285; continue _fun127832 }
+            if(!tango) { _fun127828_ip = 285; continue _fun127828 }
  255:
             report = _closure1_slot1;
             golf = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  285:
             tango = _closure1_slot6;
             tango = tango.ACTIVE;
-            if(!(oscar === tango)) { _fun127832_ip = 358; continue _fun127832 }
+            if(!(oscar === tango)) { _fun127828_ip = 358; continue _fun127828 }
  299:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(tango);
             tango = report.appStateChanged;
             tango = tango.bind(report)(oscar);
-            if(!zulu) { _fun127832_ip = 435; continue _fun127832 }
+            if(!zulu) { _fun127828_ip = 435; continue _fun127828 }
  392:
             tango = _closure1_slot1;
             report = _closure1_slot2;

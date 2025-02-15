@@ -30,18 +30,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_viewer/native/MediaViewerShareSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: showShareActionSheetForSource
-        _fun85894: for(var _fun85894_ip = 0; ; ) switch(_fun85894_ip) {
+        _fun85911: for(var _fun85911_ip = 0; ; ) switch(_fun85911_ip) {
  0:
             entity = argFoo;
             zulu = entity.videoURI;
             mike = null;
-            if(!(mike == zulu)) { _fun85894_ip = 22; continue _fun85894 }
+            if(!(mike == zulu)) { _fun85911_ip = 23; continue _fun85911 }
  15:
             zulu = entity.uri;
-            _fun85894_ip = 28; continue _fun85894;
- 22:
+            _fun85911_ip = 29; continue _fun85911;
+ 23:
             zulu = entity.videoURI;
- 28:
+ 29:
             golf = _closure1_slot0;
             report = _closure1_slot2;
             entity = 1;

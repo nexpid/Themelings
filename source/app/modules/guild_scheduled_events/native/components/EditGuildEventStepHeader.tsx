@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/native/components/EditGuildEventStepHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditGuildEventStepHeader
-        _fun76783: for(var _fun76783_ip = 0; ; ) switch(_fun76783_ip) {
+        _fun76793: for(var _fun76793_ip = 0; ; ) switch(_fun76793_ip) {
  0:
             entity = argFoo;
             verify = entity.title;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = null;
             options = verify != offset;
             oscar = null;
-            if(!options) { _fun76783_ip = 202; continue _fun76783 }
+            if(!options) { _fun76793_ip = 202; continue _fun76793 }
  130:
             options = '';
             oscar = null;
-            if(!(options !== offset)) { _fun76783_ip = 202; continue _fun76783 }
+            if(!(options !== offset)) { _fun76793_ip = 202; continue _fun76793 }
  140:
             verify = _closure1_slot3;
             options = _closure1_slot0;

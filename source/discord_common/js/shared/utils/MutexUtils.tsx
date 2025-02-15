@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         entity = entity.timeoutMs;
         var _closure2_slot6 = entity;
         entity = function(argFoo, argBar) { // Original name: mutex
-            _fun111295: for(var _fun111295_ip = 0; ; ) switch(_fun111295_ip) {
+            _fun111301: for(var _fun111301_ip = 0; ; ) switch(_fun111301_ip) {
  0:
                 report = argBar;
                 mike = argFoo;
@@ -83,17 +83,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 mike = _closure2_slot1;
                 tango = mike.length;
                 mike = 0;
-                if(!(!(tango > mike))) { _fun111295_ip = 59; continue _fun111295 }
+                if(!(!(tango > mike))) { _fun111301_ip = 59; continue _fun111301 }
  34:
                 mike = _closure2_slot2;
-                if(!mike) { _fun111295_ip = 81; continue _fun111295 }
+                if(!mike) { _fun111301_ip = 81; continue _fun111301 }
  41:
                 tango = _closure2_slot4;
                 mike = undefined;
                 mike = tango.bind(mike)();
                 mike = false;
                 _closure2_slot2 = mike;
-                _fun111295_ip = 81; continue _fun111295;
+                _fun111301_ip = 81; continue _fun111301;
  59:
                 oscar = _closure2_slot3;
                 tango = _closure2_slot1;
@@ -109,12 +109,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 report = null;
                 tango = report == mike;
                 mike = null;
-                if(tango) { _fun111295_ip = 150; continue _fun111295 }
+                if(tango) { _fun111301_ip = 150; continue _fun111301 }
  110:
                 tango = _closure2_slot5;
                 tango = report == tango;
                 mike = null;
-                if(tango) { _fun111295_ip = 150; continue _fun111295 }
+                if(tango) { _fun111301_ip = 150; continue _fun111301 }
  123:
                 tango = global;
                 oscar = tango.setTimeout;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 mike = zulu.prototype;
                 mike = Object.create(mike, {constructor: {value: zulu}});
                 options = function(argFoo, argBar) {
-                    _fun111297: for(var _fun111297_ip = 0; ; ) switch(_fun111297_ip) {
+                    _fun111303: for(var _fun111303_ip = 0; ; ) switch(_fun111303_ip) {
  0:
                         oscar = _closure2_slot0;
                         report = oscar.then;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                         _closure2_slot0 = tango;
                         tango = _closure3_slot2;
                         zulu = null;
-                        if(!(zulu != tango)) { _fun111297_ip = 99; continue _fun111297 }
+                        if(!(zulu != tango)) { _fun111303_ip = 99; continue _fun111303 }
  74:
                         tango = _closure2_slot0;
                         zulu = tango.then;

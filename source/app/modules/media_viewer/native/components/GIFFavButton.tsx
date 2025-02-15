@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GIFFavButton
-        _fun102262: for(var _fun102262_ip = 0; ; ) switch(_fun102262_ip) {
+        _fun102254: for(var _fun102254_ip = 0; ; ) switch(_fun102254_ip) {
  0:
             entity = argFoo;
             mike = entity.source;
@@ -37,18 +37,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = report;
             var _closure2_slot2 = report;
             entity = mike.isGIFV;
-            if(entity) { _fun102262_ip = 41; continue _fun102262 }
+            if(entity) { _fun102254_ip = 41; continue _fun102254 }
  33:
             romeo = mike.sourceURI;
-            _fun102262_ip = 47; continue _fun102262;
+            _fun102254_ip = 47; continue _fun102254;
  41:
             romeo = mike.embedURI;
  47:
             entity = null;
-            if(!(entity == romeo)) { _fun102262_ip = 58; continue _fun102262 }
+            if(!(entity == romeo)) { _fun102254_ip = 59; continue _fun102254 }
  53:
             romeo = mike.uri;
- 58:
+ 59:
             _closure2_slot1 = romeo;
             tango = _closure1_slot0;
             verify = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[4] = foxtrot;
             oscar[5] = romeo;
             zulu = function() {
-                _fun102263: for(var _fun102263_ip = 0; ; ) switch(_fun102263_ip) {
+                _fun102255: for(var _fun102255_ip = 0; ; ) switch(_fun102255_ip) {
  0:
                     tango = _closure2_slot2;
                     oscar = _closure1_slot0;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = golf[entity];
                     entity = undefined;
                     report = oscar.bind(entity)(report);
-                    if(tango) { _fun102263_ip = 270; continue _fun102263 }
+                    if(tango) { _fun102255_ip = 271; continue _fun102255 }
  38:
                     options = report.addFavoriteGIF;
                     tango = {};
@@ -106,13 +106,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = romeo[offset];
                     offset = yankee.bind(entity)(offset);
                     offset = offset.GIFType;
-                    if(verify) { _fun102263_ip = 129; continue _fun102263 }
- 121:
+                    if(verify) { _fun102255_ip = 130; continue _fun102255 }
+ 122:
                     verify = offset.IMAGE;
-                    _fun102263_ip = 135; continue _fun102263;
- 129:
+                    _fun102255_ip = 136; continue _fun102255;
+ 130:
                     verify = offset.VIDEO;
- 135:
+ 136:
                     tango['format'] = verify;
                     tango = options.bind(report)(tango);
                     options = _closure1_slot1;
@@ -142,8 +142,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset.GifIcon;
                     tango['IconComponent'] = offset;
                     tango = options.bind(verify)(tango);
-                    _fun102263_ip = 398; continue _fun102263;
- 270:
+                    _fun102255_ip = 399; continue _fun102255;
+ 271:
                     tango = report.removeFavoriteGIF;
                     zulu = _closure2_slot1;
                     zulu = tango.bind(report)(zulu);
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.GifIcon;
                     mike['IconComponent'] = report;
                     mike = zulu.bind(tango)(mike);
- 398:
+ 399:
                     return entity;
                 }
             };
@@ -182,12 +182,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(zulu);
             zulu = tango.isAnimatedImageSource;
             zulu = zulu.bind(tango)(mike);
-            if(zulu) { _fun102262_ip = 234; continue _fun102262 }
- 220:
+            if(zulu) { _fun102254_ip = 236; continue _fun102254 }
+ 222:
             mike = mike.isGIFV;
             entity = null;
-            if(!mike) { _fun102262_ip = 459; continue _fun102262 }
- 234:
+            if(!mike) { _fun102254_ip = 461; continue _fun102254 }
+ 236:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -205,28 +205,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot[verify];
             verify = offset.bind(report)(verify);
             offset = verify.t;
-            if(options) { _fun102262_ip = 320; continue _fun102262 }
- 307:
+            if(options) { _fun102254_ip = 322; continue _fun102254 }
+ 309:
             verify = offset.nIH0v7;
             verify = yankee.bind(romeo)(verify);
-            _fun102262_ip = 331; continue _fun102262;
- 320:
+            _fun102254_ip = 333; continue _fun102254;
+ 322:
             offset = offset.5/NS7+;
             verify = yankee.bind(romeo)(offset);
- 331:
+ 333:
             mike['accessibilityLabel'] = verify;
             mike['onPress'] = oscar;
             verify = _closure1_slot1;
             yankee = _closure1_slot2;
-            if(options) { _fun102262_ip = 359; continue _fun102262 }
- 350:
+            if(options) { _fun102254_ip = 361; continue _fun102254 }
+ 352:
             oscar = 11;
             oscar = yankee[oscar];
-            _fun102262_ip = 366; continue _fun102262;
- 359:
+            _fun102254_ip = 368; continue _fun102254;
+ 361:
             offset = 10;
             oscar = yankee[offset];
- 366:
+ 368:
             oscar = verify.bind(report)(oscar);
             mike['icon'] = oscar;
             verify = _closure1_slot1;
@@ -238,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.MEDIUM;
             mike['iconSize'] = oscar;
             oscar = undefined;
-            if(!options) { _fun102262_ip = 448; continue _fun102262 }
- 417:
+            if(!options) { _fun102254_ip = 450; continue _fun102254 }
+ 419:
             options = _closure1_slot1;
             verify = _closure1_slot2;
             golf = 13;
@@ -247,10 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(report)(golf);
             golf = golf.unsafe_rawColors;
             oscar = golf.YELLOW_300;
- 448:
+ 450:
             mike['iconColor'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 459:
+ 461:
             return entity;
         }
     };

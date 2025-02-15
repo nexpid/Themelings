@@ -136,10 +136,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     offset = offset.DismissibleContent;
     offset = offset.OVERLAY_OOP_WELCOME_SWITCH_FROM_IP_NUX;
     tango[offset] = verify;
+    offset = oscar[options];
+    offset = report.bind(entity)(offset);
+    offset = offset.DismissibleContent;
+    offset = offset.OVERLAY_OOP_WELCOME_BACKGROUND_SWITCH_FROM_IP_NUX;
+    tango[offset] = verify;
+    offset = oscar[options];
+    offset = report.bind(entity)(offset);
+    offset = offset.DismissibleContent;
+    offset = offset.Q1_2025_REVERSE_TRIAL;
+    tango[offset] = verify;
+    offset = oscar[options];
+    offset = report.bind(entity)(offset);
+    offset = offset.DismissibleContent;
+    offset = offset.Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER;
+    tango[offset] = verify;
     options = oscar[options];
     options = report.bind(entity)(options);
     options = options.DismissibleContent;
-    options = options.OVERLAY_OOP_WELCOME_BACKGROUND_SWITCH_FROM_IP_NUX;
+    options = options.REVERSE_TRIAL_NITRO_TAB_BADGE_V2;
     tango[options] = verify;
     var _closure1_slot5 = tango;
     tango = 3;
@@ -155,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/dismissible_content/NewUserDismissibleContentRegistry.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useNewUserDismissibleContent
-        _fun38267: for(var _fun38267_ip = 0; ; ) switch(_fun38267_ip) {
+        _fun38274: for(var _fun38274_ip = 0; ; ) switch(_fun38274_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
@@ -184,12 +199,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(options)(report, zulu);
             oscar = zulu.userId;
             zulu = zulu.newUserMinAgeRequiredOverridden;
-            if(zulu) { _fun38267_ip = 144; continue _fun38267 }
+            if(zulu) { _fun38274_ip = 144; continue _fun38274 }
  81:
             zulu = null;
             report = zulu != oscar;
             zulu = 0;
-            if(!report) { _fun38267_ip = 123; continue _fun38267 }
+            if(!report) { _fun38274_ip = 123; continue _fun38274 }
  92:
             report = _closure1_slot1;
             options = _closure1_slot2;
@@ -202,13 +217,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             zulu = entity.filter;
             mike = function(argFoo) {
-                _fun38269: for(var _fun38269_ip = 0; ; ) switch(_fun38269_ip) {
+                _fun38276: for(var _fun38276_ip = 0; ; ) switch(_fun38276_ip) {
  0:
                     zulu = _closure1_slot5;
                     mike = argFoo;
                     mike = zulu[mike];
                     zulu = null;
-                    if(!(zulu == mike)) { _fun38269_ip = 24; continue _fun38269 }
+                    if(!(zulu == mike)) { _fun38276_ip = 24; continue _fun38276 }
  20:
                     mike = _closure1_slot6;
  24:
@@ -225,12 +240,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useNewUserDismissibleContent'] = tango;
     mike = function(argFoo) { // Original name: disableNewUserDismissibleContent
-        _fun38270: for(var _fun38270_ip = 0; ; ) switch(_fun38270_ip) {
+        _fun38277: for(var _fun38277_ip = 0; ; ) switch(_fun38277_ip) {
  0:
             entity = _closure1_slot4;
             entity = entity.newUserMinAgeRequiredOverridden;
             entity = !entity;
-            if(!entity) { _fun38270_ip = 114; continue _fun38270 }
+            if(!entity) { _fun38277_ip = 114; continue _fun38277 }
  19:
             zulu = _closure1_slot3;
             mike = zulu.getId;
@@ -238,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report != mike;
             zulu = 0;
-            if(!mike) { _fun38270_ip = 91; continue _fun38270 }
+            if(!mike) { _fun38277_ip = 91; continue _fun38277 }
  44:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -255,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot5;
             mike = argFoo;
             mike = oscar[mike];
-            if(!(report == mike)) { _fun38270_ip = 110; continue _fun38270 }
+            if(!(report == mike)) { _fun38277_ip = 110; continue _fun38277 }
  106:
             mike = _closure1_slot6;
  110:

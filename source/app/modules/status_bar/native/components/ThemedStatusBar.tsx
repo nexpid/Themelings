@@ -40,7 +40,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/status_bar/native/components/ThemedStatusBar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun111430: for(var _fun111430_ip = 0; ; ) switch(_fun111430_ip) {
+        _fun111436: for(var _fun111436_ip = 0; ; ) switch(_fun111436_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -91,27 +91,27 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.bind(report)();
             oscar = 'light-content';
             report = oscar;
-            if(!options) { _fun111430_ip = 208; continue _fun111430 }
+            if(!options) { _fun111436_ip = 208; continue _fun111436 }
  152:
-            if(!options) { _fun111430_ip = 190; continue _fun111430 }
+            if(!options) { _fun111436_ip = 190; continue _fun111436 }
  155:
-            if(zulu) { _fun111430_ip = 190; continue _fun111430 }
+            if(zulu) { _fun111436_ip = 190; continue _fun111436 }
  158:
             zulu = mike.isVisible;
-            if(!zulu) { _fun111430_ip = 176; continue _fun111430 }
+            if(!zulu) { _fun111436_ip = 176; continue _fun111436 }
  167:
             mike = mike.isCustomBackground;
-            if(mike) { _fun111430_ip = 185; continue _fun111430 }
+            if(mike) { _fun111436_ip = 185; continue _fun111436 }
  176:
             mike = 'dark-content';
-            if(!golf) { _fun111430_ip = 188; continue _fun111430 }
+            if(!golf) { _fun111436_ip = 188; continue _fun111436 }
  185:
             mike = oscar;
  188:
-            _fun111430_ip = 205; continue _fun111430;
+            _fun111436_ip = 205; continue _fun111436;
  190:
             zulu = 'dark-content';
-            if(!golf) { _fun111430_ip = 202; continue _fun111430 }
+            if(!golf) { _fun111436_ip = 202; continue _fun111436 }
  199:
             zulu = oscar;
  202:

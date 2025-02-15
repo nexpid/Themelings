@@ -43,22 +43,22 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         entity = _closure1_slot2;
         mike[1] = entity;
         entity = function() {
-            _fun103705: for(var _fun103705_ip = 0; ; ) switch(_fun103705_ip) {
+            _fun103697: for(var _fun103697_ip = 0; ; ) switch(_fun103697_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.getVoiceChannelId;
                 tango = mike.bind(zulu)();
                 mike = null;
-                if(!(mike != tango)) { _fun103705_ip = 54; continue _fun103705 }
+                if(!(mike != tango)) { _fun103697_ip = 54; continue _fun103697 }
  23:
                 zulu = _closure1_slot2;
                 entity = zulu.getChannel;
                 entity = entity.bind(zulu)(tango);
-                if(!(mike != entity)) { _fun103705_ip = 54; continue _fun103705 }
+                if(!(mike != entity)) { _fun103697_ip = 54; continue _fun103697 }
  41:
                 zulu = entity.isGuildStageVoice;
                 zulu = zulu.bind(entity)();
-                if(zulu) { _fun103705_ip = 56; continue _fun103705 }
+                if(zulu) { _fun103697_ip = 56; continue _fun103697 }
  54:
                 return mike;
  56:

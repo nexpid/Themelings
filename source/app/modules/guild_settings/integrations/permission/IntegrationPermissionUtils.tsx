@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = tango;
     entity = function(argFoo, argBar) { // Original name: commandPermissions
-        _fun59703: for(var _fun59703_ip = 0; ; ) switch(_fun59703_ip) {
+        _fun59706: for(var _fun59706_ip = 0; ; ) switch(_fun59706_ip) {
  0:
             offset = argBar;
             entity = {};
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = 2;
             tango = 1;
             zulu = 0;
-            if(!mike) { _fun59703_ip = 110; continue _fun59703 }
+            if(!mike) { _fun59706_ip = 110; continue _fun59706 }
  54:
             yankee = verify[zulu];
             mike = _closure1_slot2;
@@ -44,13 +44,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = offset.includes;
             romeo = mike.type;
             romeo = foxtrot.bind(offset)(romeo);
-            if(!romeo) { _fun59703_ip = 98; continue _fun59703 }
+            if(!romeo) { _fun59706_ip = 98; continue _fun59706 }
  94:
             entity[yankee] = mike;
  98:
             zulu = zulu + 1;
             mike = verify.length;
-            if(zulu < mike) { _fun59703_ip = 54; continue _fun59703 }
+            if(zulu < mike) { _fun59706_ip = 54; continue _fun59706 }
  110:
             return entity;
         }
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo, argBar) { // Original name: commandName
-        _fun59704: for(var _fun59704_ip = 0; ; ) switch(_fun59704_ip) {
+        _fun59707: for(var _fun59707_ip = 0; ; ) switch(_fun59707_ip) {
  0:
             zulu = argBar;
             tango = _closure1_slot0;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.CHAT;
             mike = argFoo;
             entity = zulu;
-            if(!(mike === tango)) { _fun59704_ip = 58; continue _fun59704 }
+            if(!(mike === tango)) { _fun59707_ip = 58; continue _fun59707 }
  50:
             mike = '/';
             entity = mike + zulu;

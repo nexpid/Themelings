@@ -55,10 +55,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun66484: for(var _fun66484_ip = 0; ; ) switch(_fun66484_ip) {
+            _fun66490: for(var _fun66490_ip = 0; ; ) switch(_fun66490_ip) {
  0:
                 entity = _closure2_slot0;
-                if(!entity) { _fun66484_ip = 154; continue _fun66484 }
+                if(!entity) { _fun66490_ip = 154; continue _fun66490 }
  13:
                 mike = _closure1_slot1;
                 verify = _closure1_slot2;

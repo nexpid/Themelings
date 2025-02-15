@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/channel/ChannelSafeAreaBottom.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelSafeAreaBottom
-        _fun101809: for(var _fun101809_ip = 0; ; ) switch(_fun101809_ip) {
+        _fun101801: for(var _fun101801_ip = 0; ; ) switch(_fun101801_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -79,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = _closure1_slot4;
             report = report.SYSTEM;
-            if(!(golf !== report)) { _fun101809_ip = 134; continue _fun101809 }
+            if(!(golf !== report)) { _fun101801_ip = 134; continue _fun101801 }
  128:
             report = _closure1_slot7;
-            _fun101809_ip = 138; continue _fun101809;
+            _fun101801_ip = 138; continue _fun101801;
  134:
             report = _closure1_slot6;
  138:

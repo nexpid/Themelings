@@ -26,12 +26,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['GUILD_EVENTS_LIST_ACTION_SHEET_KEY'] = mike;
     zulu['GUILD_EVENT_INFO_ACTION_SHEET_KEY'] = mike;
     mike = function(argFoo, argBar) {
-        _fun76181: for(var _fun76181_ip = 0; ; ) switch(_fun76181_ip) {
+        _fun76191: for(var _fun76191_ip = 0; ; ) switch(_fun76191_ip) {
  0:
             mike = '';
             entity = argFoo;
             entity = mike !== entity;
-            if(!entity) { _fun76181_ip = 23; continue _fun76181 }
+            if(!entity) { _fun76191_ip = 23; continue _fun76191 }
  14:
             zulu = null;
             mike = argBar;

@@ -7,23 +7,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: isActivityInTextSupportedForChannel
-        _fun71601: for(var _fun71601_ip = 0; ; ) switch(_fun71601_ip) {
+        _fun71607: for(var _fun71607_ip = 0; ; ) switch(_fun71607_ip) {
  0:
             zulu = argFoo;
             report = null;
-            if(!(report != zulu)) { _fun71601_ip = 234; continue _fun71601 }
+            if(!(report != zulu)) { _fun71607_ip = 234; continue _fun71607 }
  12:
             oscar = _closure1_slot2;
             tango = oscar.getChannel;
             entity = zulu.parent_id;
             tango = tango.bind(oscar)(entity);
             entity = report == tango;
-            if(entity) { _fun71601_ip = 94; continue _fun71601 }
+            if(entity) { _fun71607_ip = 94; continue _fun71607 }
  42:
             oscar = report == tango;
             golf = undefined;
             report = undefined;
-            if(oscar) { _fun71601_ip = 58; continue _fun71601 }
+            if(oscar) { _fun71607_ip = 58; continue _fun71607 }
  53:
             report = tango.type;
  58:
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.GUILD_CATEGORY;
             entity = report === tango;
  94:
-            if(!entity) { _fun71601_ip = 232; continue _fun71601 }
+            if(!entity) { _fun71607_ip = 232; continue _fun71607 }
  100:
             tango = zulu.type;
             oscar = _closure1_slot0;
@@ -75,31 +75,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = report;
     entity = function(argFoo, argBar) { // Original name: isActivitiesInTextEnabledForChannelWithPermissions
-        _fun71602: for(var _fun71602_ip = 0; ; ) switch(_fun71602_ip) {
+        _fun71608: for(var _fun71608_ip = 0; ; ) switch(_fun71608_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             report = null;
-            if(!(report != tango)) { _fun71602_ip = 79; continue _fun71602 }
+            if(!(report != tango)) { _fun71608_ip = 79; continue _fun71608 }
  12:
             oscar = undefined;
-            if(!(oscar !== tango)) { _fun71602_ip = 79; continue _fun71602 }
+            if(!(oscar !== tango)) { _fun71608_ip = 79; continue _fun71608 }
  18:
             mike = _closure1_slot5;
             mike = mike.bind(oscar)(tango);
-            if(mike) { _fun71602_ip = 37; continue _fun71602 }
+            if(mike) { _fun71608_ip = 37; continue _fun71608 }
  33:
             mike = false;
             return mike;
  37:
             mike = tango.guild_id;
-            if(!(report != mike)) { _fun71602_ip = 75; continue _fun71602 }
+            if(!(report != mike)) { _fun71608_ip = 75; continue _fun71608 }
  46:
             mike = zulu.can;
             entity = _closure1_slot4;
             entity = entity.USE_EMBEDDED_ACTIVITIES;
             entity = mike.bind(zulu)(entity, tango);
-            if(entity) { _fun71602_ip = 75; continue _fun71602 }
+            if(entity) { _fun71608_ip = 75; continue _fun71608 }
  71:
             entity = false;
             return entity;
@@ -113,19 +113,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     tango = function(argFoo) { // Original name: getIsAppLauncherEnabled
-        _fun71603: for(var _fun71603_ip = 0; ; ) switch(_fun71603_ip) {
+        _fun71609: for(var _fun71609_ip = 0; ; ) switch(_fun71609_ip) {
  0:
             tango = argFoo;
             mike = null;
             report = mike == tango;
             zulu = undefined;
             entity = undefined;
-            if(report) { _fun71603_ip = 21; continue _fun71603 }
+            if(report) { _fun71609_ip = 21; continue _fun71609 }
  16:
             entity = tango.guild_id;
  21:
             entity = mike != entity;
-            if(entity) { _fun71603_ip = 40; continue _fun71603 }
+            if(entity) { _fun71609_ip = 40; continue _fun71609 }
  28:
             mike = _closure1_slot5;
             entity = mike.bind(zulu)(tango);
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun71608: for(var _fun71608_ip = 0; ; ) switch(_fun71608_ip) {
+            _fun71614: for(var _fun71614_ip = 0; ; ) switch(_fun71614_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getChannel;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.bind(tango)(entity);
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun71608_ip = 44; continue _fun71608 }
+                if(!entity) { _fun71614_ip = 44; continue _fun71614 }
  33:
                 zulu = _closure1_slot7;
                 mike = undefined;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsAppLauncherEnabled'] = tango;
     mike = function(argFoo, argBar) { // Original name: useShowActivitiesInOmniButtonMenu
-        _fun71609: for(var _fun71609_ip = 0; ; ) switch(_fun71609_ip) {
+        _fun71615: for(var _fun71615_ip = 0; ; ) switch(_fun71615_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == golf;
             mike = undefined;
-            if(options) { _fun71609_ip = 132; continue _fun71609 }
+            if(options) { _fun71615_ip = 132; continue _fun71615 }
  127:
             mike = golf.guild_id;
  132:
@@ -304,12 +304,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(golf)(mike, entity);
             entity = entity.enabled;
             entity = !entity;
-            if(!entity) { _fun71609_ip = 221; continue _fun71609 }
+            if(!entity) { _fun71615_ip = 221; continue _fun71615 }
  203:
             mike = tango;
-            if(!report) { _fun71609_ip = 218; continue _fun71609 }
+            if(!report) { _fun71615_ip = 218; continue _fun71615 }
  209:
-            if(!zulu) { _fun71609_ip = 215; continue _fun71609 }
+            if(!zulu) { _fun71615_ip = 215; continue _fun71615 }
  212:
             zulu = tango;
  215:

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = report.bind(entity)(golf);
     options = offset.experimental_createToken;
     golf = function(argFoo) {
-        _fun69331: for(var _fun69331_ip = 0; ; ) switch(_fun69331_ip) {
+        _fun69337: for(var _fun69337_ip = 0; ; ) switch(_fun69337_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 4;
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
-            if(entity) { _fun69331_ip = 81; continue _fun69331 }
+            if(entity) { _fun69337_ip = 81; continue _fun69337 }
  68:
             entity = mike.unsafe_rawColors;
             entity = entity.PRIMARY_200;
-            _fun69331_ip = 92; continue _fun69331;
+            _fun69337_ip = 92; continue _fun69337;
  81:
             mike = mike.colors;
             entity = mike.INTERACTIVE_NORMAL;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = report.bind(entity)(golf);
     options = offset.experimental_createToken;
     golf = function(argFoo) {
-        _fun69332: for(var _fun69332_ip = 0; ; ) switch(_fun69332_ip) {
+        _fun69338: for(var _fun69338_ip = 0; ; ) switch(_fun69338_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -83,10 +83,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69332_ip = 81; continue _fun69332 }
+            if(entity) { _fun69338_ip = 81; continue _fun69338 }
  73:
             entity = mike.PRIMARY_500;
-            _fun69332_ip = 87; continue _fun69332;
+            _fun69338_ip = 87; continue _fun69338;
  81:
             entity = mike.WHITE_500;
  87:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = report.bind(entity)(golf);
     options = offset.experimental_createToken;
     golf = function(argFoo) {
-        _fun69333: for(var _fun69333_ip = 0; ; ) switch(_fun69333_ip) {
+        _fun69339: for(var _fun69339_ip = 0; ; ) switch(_fun69339_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 4;
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
-            if(entity) { _fun69333_ip = 81; continue _fun69333 }
+            if(entity) { _fun69339_ip = 81; continue _fun69339 }
  68:
             entity = mike.colors;
             entity = entity.BACKGROUND_SECONDARY;
-            _fun69333_ip = 92; continue _fun69333;
+            _fun69339_ip = 92; continue _fun69339;
  81:
             mike = mike.unsafe_rawColors;
             entity = mike.PRIMARY_700;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     foxtrot = report.bind(entity)(golf);
     options = foxtrot.experimental_createToken;
     golf = function(argFoo) {
-        _fun69334: for(var _fun69334_ip = 0; ; ) switch(_fun69334_ip) {
+        _fun69340: for(var _fun69340_ip = 0; ; ) switch(_fun69340_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -150,10 +150,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69334_ip = 81; continue _fun69334 }
+            if(entity) { _fun69340_ip = 81; continue _fun69340 }
  73:
             entity = mike.PRIMARY_630;
-            _fun69334_ip = 87; continue _fun69334;
+            _fun69340_ip = 87; continue _fun69340;
  81:
             entity = mike.PRIMARY_300;
  87:
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     foxtrot = report.bind(entity)(golf);
     options = foxtrot.experimental_createToken;
     golf = function(argFoo) {
-        _fun69335: for(var _fun69335_ip = 0; ; ) switch(_fun69335_ip) {
+        _fun69341: for(var _fun69341_ip = 0; ; ) switch(_fun69341_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -183,10 +183,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69335_ip = 81; continue _fun69335 }
+            if(entity) { _fun69341_ip = 81; continue _fun69341 }
  73:
             entity = mike.BRAND_200;
-            _fun69335_ip = 87; continue _fun69335;
+            _fun69341_ip = 87; continue _fun69341;
  81:
             entity = mike.BRAND_260;
  87:
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(golf);
     options = verify.createNativeStyleProperties;
     golf = function(argFoo) {
-        _fun69336: for(var _fun69336_ip = 0; ; ) switch(_fun69336_ip) {
+        _fun69342: for(var _fun69342_ip = 0; ; ) switch(_fun69342_ip) {
  0:
             entity = {};
             report = _closure1_slot1;
@@ -317,10 +317,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(zulu)(tango);
             tango = zulu.colors;
             zulu = argFoo;
-            if(zulu) { _fun69336_ip = 46; continue _fun69336 }
+            if(zulu) { _fun69342_ip = 46; continue _fun69342 }
  38:
             zulu = tango.EMBED_BACKGROUND;
-            _fun69336_ip = 52; continue _fun69336;
+            _fun69342_ip = 52; continue _fun69342;
  46:
             zulu = tango.EMBED_BACKGROUND_ALTERNATE;
  52:
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyleProperties;
     tango = function(argFoo) {
-        _fun69337: for(var _fun69337_ip = 0; ; ) switch(_fun69337_ip) {
+        _fun69343: for(var _fun69343_ip = 0; ; ) switch(_fun69343_ip) {
  0:
             entity = {};
             report = _closure1_slot1;
@@ -348,10 +348,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(zulu)(tango);
             tango = zulu.colors;
             zulu = argFoo;
-            if(zulu) { _fun69337_ip = 46; continue _fun69337 }
+            if(zulu) { _fun69343_ip = 46; continue _fun69343 }
  38:
             zulu = tango.EMBED_BACKGROUND;
-            _fun69337_ip = 52; continue _fun69337;
+            _fun69343_ip = 52; continue _fun69343;
  46:
             zulu = tango.EMBED_BACKGROUND_ALTERNATE;
  52:
@@ -371,11 +371,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/resolveMessageContentColors.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: _default
-        _fun69338: for(var _fun69338_ip = 0; ; ) switch(_fun69338_ip) {
+        _fun69344: for(var _fun69344_ip = 0; ; ) switch(_fun69344_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun69338_ip = 11; continue _fun69338 }
+            if(!(tango === zulu)) { _fun69344_ip = 11; continue _fun69344 }
  9:
             tango = false;
  11:
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.bind(zulu)(entity);
             zulu = tango.reduce;
             mike = function(argFoo, argBar) {
-                _fun69341: for(var _fun69341_ip = 0; ; ) switch(_fun69341_ip) {
+                _fun69347: for(var _fun69347_ip = 0; ; ) switch(_fun69347_ip) {
  0:
                     entity = argFoo;
                     golf = argBar;
@@ -415,24 +415,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = undefined;
                     oscar = zulu === report;
                     zulu = undefined;
-                    if(oscar) { _fun69341_ip = 30; continue _fun69341 }
+                    if(oscar) { _fun69347_ip = 30; continue _fun69347 }
  27:
                     zulu = tango;
  30:
                     tango = undefined;
-                    if(oscar) { _fun69341_ip = 60; continue _fun69341 }
+                    if(oscar) { _fun69347_ip = 60; continue _fun69347 }
  35:
                     options = golf().value;
                     golf = mike;
                     golf = golf === report;
                     tango = undefined;
                     oscar = golf;
-                    if(golf) { _fun69341_ip = 60; continue _fun69341 }
+                    if(golf) { _fun69347_ip = 60; continue _fun69347 }
  54:
                     tango = options;
                     oscar = golf;
  60:
-                    if(oscar) { _fun69341_ip = 66; continue _fun69341 }
+                    if(oscar) { _fun69347_ip = 66; continue _fun69347 }
  63:
                     mike.return();
  66:

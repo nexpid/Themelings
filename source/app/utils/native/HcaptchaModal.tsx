@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = options.bind(verify)(tango);
     var _closure1_slot9 = tango;
     mike = function(argFoo) { // Original name: HcaptchaModal
-        _fun122863: for(var _fun122863_ip = 0; ; ) switch(_fun122863_ip) {
+        _fun122869: for(var _fun122869_ip = 0; ; ) switch(_fun122869_ip) {
  0:
             entity = _closure1_slot9;
             tango = undefined;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.isAndroid;
             verify = options.bind(verify)();
             options = undefined;
-            if(!verify) { _fun122863_ip = 115; continue _fun122863 }
+            if(!verify) { _fun122869_ip = 115; continue _fun122869 }
  84:
             offset = _closure1_slot1;
             romeo = _closure1_slot2;

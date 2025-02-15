@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'uikit-native/experimental/Shadows.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun48589: for(var _fun48589_ip = 0; ; ) switch(_fun48589_ip) {
+        _fun48596: for(var _fun48596_ip = 0; ; ) switch(_fun48596_ip) {
  0:
             entity = argFoo;
             options = entity.xOffset;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
             mike = {};
-            if(entity) { _fun48589_ip = 115; continue _fun48589 }
+            if(entity) { _fun48596_ip = 115; continue _fun48596 }
  83:
             entity = {};
             entity['shadowColor'] = verify;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['shadowOffset'] = mike;
             entity['shadowOpacity'] = oscar;
             entity['shadowRadius'] = report;
-            _fun48589_ip = 128; continue _fun48589;
+            _fun48596_ip = 128; continue _fun48596;
  115:
             mike['elevation'] = tango;
             mike['shadowColor'] = zulu;

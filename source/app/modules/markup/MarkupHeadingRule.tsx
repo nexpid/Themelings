@@ -29,26 +29,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = 'requiredFirstCharacters';
     mike[golf] = options;
     golf = function(argFoo, argBar, argBaz) { // Original name: match
-        _fun61889: for(var _fun61889_ip = 0; ; ) switch(_fun61889_ip) {
+        _fun61892: for(var _fun61892_ip = 0; ; ) switch(_fun61892_ip) {
  0:
             oscar = argBar;
             report = argBaz;
             mike = oscar.allowHeading;
             zulu = null;
             entity = null;
-            if(!mike) { _fun61889_ip = 117; continue _fun61889 }
+            if(!mike) { _fun61892_ip = 117; continue _fun61892 }
  19:
-            if(!(zulu != report)) { _fun61889_ip = 58; continue _fun61889 }
+            if(!(zulu != report)) { _fun61892_ip = 58; continue _fun61892 }
  23:
             mike = '';
-            if(!(mike !== report)) { _fun61889_ip = 58; continue _fun61889 }
+            if(!(mike !== report)) { _fun61892_ip = 58; continue _fun61892 }
  31:
             tango = report.match;
             mike = _closure1_slot2;
             mike = tango.bind(report)(mike);
             mike = zulu != mike;
             entity = null;
-            if(!mike) { _fun61889_ip = 117; continue _fun61889 }
+            if(!mike) { _fun61892_ip = 117; continue _fun61892 }
  58:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;

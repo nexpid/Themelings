@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun79972: for(var _fun79972_ip = 0; ; ) switch(_fun79972_ip) {
+        _fun79985: for(var _fun79985_ip = 0; ; ) switch(_fun79985_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.layerConfig;
@@ -58,15 +58,15 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu[0] = offset;
             zulu[1] = sizing;
             mike = function() {
-                _fun79973: for(var _fun79973_ip = 0; ; ) switch(_fun79973_ip) {
+                _fun79986: for(var _fun79986_ip = 0; ; ) switch(_fun79986_ip) {
  0:
                     entity = _closure2_slot0;
                     mike = _closure2_slot1;
-                    if(entity) { _fun79973_ip = 26; continue _fun79973 }
+                    if(entity) { _fun79986_ip = 26; continue _fun79986 }
  14:
                     entity = mike.stop;
                     entity = entity.bind(mike)();
-                    _fun79973_ip = 49; continue _fun79973;
+                    _fun79986_ip = 49; continue _fun79986;
  26:
                     zulu = mike.seek;
                     entity = 0;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = verify.bind(yankee)(foxtrot, romeo);
             options['height'] = verify;
             verify = 0;
-            if(!offset) { _fun79972_ip = 233; continue _fun79972 }
+            if(!offset) { _fun79985_ip = 233; continue _fun79985 }
  230:
             verify = 1;
  233:

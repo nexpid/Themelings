@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[3] = offset;
         zulu[4] = verify;
         mike = function() {
-            _fun72283: for(var _fun72283_ip = 0; ; ) switch(_fun72283_ip) {
+            _fun72289: for(var _fun72289_ip = 0; ; ) switch(_fun72289_ip) {
  0:
                 report = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = null;
                 options = 'username';
                 golf = null;
-                if(!(options === offset)) { _fun72283_ip = 129; continue _fun72283 }
+                if(!(options === offset)) { _fun72289_ip = 129; continue _fun72289 }
  125:
                 golf = _closure2_slot3;
  129:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = _closure2_slot0;
                 golf = 'dot';
                 golf = golf === options;
-                if(!golf) { _fun72283_ip = 166; continue _fun72283 }
+                if(!golf) { _fun72289_ip = 166; continue _fun72289 }
  158:
                 options = _closure2_slot3;
                 golf = verify != options;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createChannelPinnedMessageSystemMessage
-        _fun72284: for(var _fun72284_ip = 0; ; ) switch(_fun72284_ip) {
+        _fun72290: for(var _fun72290_ip = 0; ; ) switch(_fun72290_ip) {
  0:
             tango = argFoo;
             offset = tango.message;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = null;
             kilo = 'username';
             yankee = null;
-            if(!(kilo === backup)) { _fun72284_ip = 160; continue _fun72284 }
+            if(!(kilo === backup)) { _fun72290_ip = 160; continue _fun72290 }
  157:
             yankee = foxtrot;
  160:
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['roleColor'] = foxtrot;
             yankee = 'dot';
             yankee = yankee === backup;
-            if(!yankee) { _fun72284_ip = 185; continue _fun72284 }
+            if(!yankee) { _fun72290_ip = 185; continue _fun72290 }
  181:
             yankee = romeo != foxtrot;
  185:

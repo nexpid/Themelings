@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/BookCheckIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun61973: for(var _fun61973_ip = 0; ; ) switch(_fun61973_ip) {
+        _fun61976: for(var _fun61976_ip = 0; ; ) switch(_fun61976_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun61973_ip = 53; continue _fun61973 }
+            if(!(golf === tango)) { _fun61976_ip = 53; continue _fun61976 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

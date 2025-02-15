@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/isActivityParticipantCurrentUserCurrentSession.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isActivityParticipantCurrentUserCurrentSession
-        _fun54074: for(var _fun54074_ip = 0; ; ) switch(_fun54074_ip) {
+        _fun54081: for(var _fun54081_ip = 0; ; ) switch(_fun54081_ip) {
  0:
             zulu = argFoo;
             tango = arguments[1];
             oscar = undefined;
-            if(!(tango === oscar)) { _fun54074_ip = 19; continue _fun54074 }
+            if(!(tango === oscar)) { _fun54081_ip = 19; continue _fun54081 }
  12:
             tango = _closure1_slot0;
  19:
@@ -39,17 +39,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.bind(tango)();
             entity = zulu.userId;
             entity = entity === mike;
-            if(!entity) { _fun54074_ip = 92; continue _fun54074 }
+            if(!entity) { _fun54081_ip = 92; continue _fun54081 }
  51:
             report = zulu.sessionId;
             mike = null;
             mike = mike == report;
-            if(mike) { _fun54074_ip = 76; continue _fun54074 }
+            if(mike) { _fun54081_ip = 76; continue _fun54081 }
  66:
             report = zulu.sessionId;
             mike = oscar === report;
  76:
-            if(mike) { _fun54074_ip = 89; continue _fun54074 }
+            if(mike) { _fun54081_ip = 89; continue _fun54081 }
  79:
             zulu = zulu.sessionId;
             mike = zulu === tango;

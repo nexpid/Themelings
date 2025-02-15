@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activity_status/native/VoiceActivityStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoiceActivityStatus
-        _fun79714: for(var _fun79714_ip = 0; ; ) switch(_fun79714_ip) {
+        _fun79727: for(var _fun79727_ip = 0; ; ) switch(_fun79727_ip) {
  0:
             entity = argFoo;
             verify = entity.channel;
@@ -59,27 +59,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.maxFontSizeMultiplier;
             oscar = entity.hideIcon;
             report = undefined;
-            if(!(oscar === report)) { _fun79714_ip = 40; continue _fun79714 }
+            if(!(oscar === report)) { _fun79727_ip = 40; continue _fun79727 }
  38:
             oscar = false;
  40:
             golf = entity.hideText;
-            if(!(golf === report)) { _fun79714_ip = 52; continue _fun79714 }
+            if(!(golf === report)) { _fun79727_ip = 52; continue _fun79727 }
  50:
             golf = false;
  52:
             entity = _closure1_slot6;
             kilo = entity.bind(report)();
-            if(!oscar) { _fun79714_ip = 74; continue _fun79714 }
+            if(!oscar) { _fun79727_ip = 74; continue _fun79727 }
  66:
             entity = null;
-            if(golf) { _fun79714_ip = 457; continue _fun79714 }
+            if(golf) { _fun79727_ip = 457; continue _fun79727 }
  74:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;
             mike = {};
             options = !oscar;
-            if(!options) { _fun79714_ip = 161; continue _fun79714 }
+            if(!options) { _fun79727_ip = 161; continue _fun79727 }
  90:
             yankee = _closure1_slot3;
             offset = _closure1_slot1;
@@ -99,15 +99,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = options;
             golf = !golf;
-            if(!golf) { _fun79714_ip = 443; continue _fun79714 }
+            if(!golf) { _fun79727_ip = 443; continue _fun79727 }
  178:
             options = verify.isDM;
             options = options.bind(verify)();
-            if(options) { _fun79714_ip = 344; continue _fun79714 }
+            if(options) { _fun79727_ip = 344; continue _fun79727 }
  194:
             options = verify.isGroupDM;
             options = options.bind(verify)();
-            if(options) { _fun79714_ip = 344; continue _fun79714 }
+            if(options) { _fun79727_ip = 344; continue _fun79727 }
  210:
             options = verify.isGuildStageVoice;
             options = options.bind(verify)();
@@ -129,20 +129,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = echo[kilo];
             kilo = result.bind(report)(kilo);
             kilo = kilo.t;
-            if(options) { _fun79714_ip = 321; continue _fun79714 }
+            if(options) { _fun79727_ip = 321; continue _fun79727 }
  298:
-            options = kilo.bl1Mz8;
+            options = kilo.msxteH;
             options = sizing.bind(output)(options);
             verify['children'] = options;
             options = yankee.bind(report)(offset, verify);
-            _fun79714_ip = 342; continue _fun79714;
+            _fun79727_ip = 342; continue _fun79727;
  321:
-            kilo = kilo.Q1lNen;
+            kilo = kilo.QygGCA;
             kilo = sizing.bind(output)(kilo);
             verify['children'] = kilo;
             options = yankee.bind(report)(offset, verify);
  342:
-            _fun79714_ip = 440; continue _fun79714;
+            _fun79727_ip = 440; continue _fun79727;
  344:
             yankee = _closure1_slot3;
             offset = _closure1_slot1;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing[romeo];
             romeo = kilo.bind(report)(romeo);
             romeo = romeo.t;
-            romeo = romeo.bl1Mz8;
+            romeo = romeo.9FaEzs;
             romeo = foxtrot.bind(backup)(romeo);
             verify['children'] = romeo;
             options = yankee.bind(report)(offset, verify);

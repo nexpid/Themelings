@@ -38,20 +38,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/InviteErrorUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getDescriptiveInviteError
-        _fun69790: for(var _fun69790_ip = 0; ; ) switch(_fun69790_ip) {
+        _fun69796: for(var _fun69796_ip = 0; ; ) switch(_fun69796_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot4;
             entity = entity.TOO_MANY_USER_GUILDS;
-            if(!(entity !== zulu)) { _fun69790_ip = 284; continue _fun69790 }
+            if(!(entity !== zulu)) { _fun69796_ip = 284; continue _fun69796 }
  23:
             entity = _closure1_slot4;
             entity = entity.GUILD_AT_CAPACITY;
-            if(!(entity !== zulu)) { _fun69790_ip = 171; continue _fun69790 }
+            if(!(entity !== zulu)) { _fun69796_ip = 171; continue _fun69796 }
  40:
             entity = _closure1_slot4;
             entity = entity.GUILD_JOIN_INVITE_LIMITED_ACCESS;
-            if(!(entity !== zulu)) { _fun69790_ip = 58; continue _fun69790 }
+            if(!(entity !== zulu)) { _fun69796_ip = 58; continue _fun69796 }
  54:
             entity = null;
             return entity;
@@ -121,20 +121,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(oscar)(entity);
             entity = zulu.canUseIncreasedGuildCap;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun69790_ip = 363; continue _fun69790 }
+            if(entity) { _fun69796_ip = 363; continue _fun69796 }
  333:
             entity = null;
             zulu = entity == tango;
             entity = undefined;
-            if(zulu) { _fun69790_ip = 354; continue _fun69790 }
+            if(zulu) { _fun69796_ip = 354; continue _fun69796 }
  344:
             zulu = tango.isStaff;
             entity = zulu.bind(tango)();
  354:
-            if(entity) { _fun69790_ip = 363; continue _fun69790 }
+            if(entity) { _fun69796_ip = 363; continue _fun69796 }
  357:
             offset = _closure1_slot6;
-            _fun69790_ip = 367; continue _fun69790;
+            _fun69796_ip = 367; continue _fun69796;
  363:
             offset = _closure1_slot7;
  367:
@@ -169,28 +169,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getDescriptiveInviteError'] = tango;
     mike = function(argFoo) { // Original name: getInviteError
-        _fun69791: for(var _fun69791_ip = 0; ; ) switch(_fun69791_ip) {
+        _fun69797: for(var _fun69797_ip = 0; ; ) switch(_fun69797_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.TOO_MANY_USER_GUILDS;
-            if(!(mike !== zulu)) { _fun69791_ip = 428; continue _fun69791 }
+            if(!(mike !== zulu)) { _fun69797_ip = 428; continue _fun69797 }
  23:
             mike = _closure1_slot4;
             mike = mike.GUILD_AT_CAPACITY;
-            if(!(mike !== zulu)) { _fun69791_ip = 369; continue _fun69791 }
+            if(!(mike !== zulu)) { _fun69797_ip = 369; continue _fun69797 }
  40:
             mike = _closure1_slot4;
             mike = mike.INVALID_COUNTRY_CODE;
-            if(!(mike !== zulu)) { _fun69791_ip = 310; continue _fun69791 }
+            if(!(mike !== zulu)) { _fun69797_ip = 310; continue _fun69797 }
  57:
             mike = _closure1_slot4;
             mike = mike.INVALID_CANNOT_FRIEND_SELF;
-            if(!(mike !== zulu)) { _fun69791_ip = 251; continue _fun69791 }
+            if(!(mike !== zulu)) { _fun69797_ip = 251; continue _fun69797 }
  74:
             mike = _closure1_slot4;
             mike = mike.INVITES_DISABLED;
-            if(!(mike !== zulu)) { _fun69791_ip = 147; continue _fun69791 }
+            if(!(mike !== zulu)) { _fun69797_ip = 147; continue _fun69797 }
  88:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

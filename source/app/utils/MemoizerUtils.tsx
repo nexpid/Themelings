@@ -22,14 +22,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         mike = mike instanceof Object ? mike : zulu;
         var _closure2_slot1 = mike;
         entity = function(argFoo) {
-            _fun105887: for(var _fun105887_ip = 0; ; ) switch(_fun105887_ip) {
+            _fun105879: for(var _fun105879_ip = 0; ; ) switch(_fun105879_ip) {
  0:
                 report = argFoo;
                 mike = _closure2_slot1;
                 entity = mike.get;
                 entity = entity.bind(mike)(report);
                 tango = undefined;
-                if(!(tango === entity)) { _fun105887_ip = 53; continue _fun105887 }
+                if(!(tango === entity)) { _fun105879_ip = 53; continue _fun105879 }
  26:
                 mike = _closure2_slot0;
                 mike = mike.bind(tango)(report);

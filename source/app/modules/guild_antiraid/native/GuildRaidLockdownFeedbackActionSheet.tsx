@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_antiraid/native/GuildRaidLockdownFeedbackActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun91919: for(var _fun91919_ip = 0; ; ) switch(_fun91919_ip) {
+        _fun91948: for(var _fun91948_ip = 0; ; ) switch(_fun91948_ip) {
  0:
             entity = argFoo;
             entity = entity.guildId;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = function() { // Original name: onPress
                     zulu = _closure3_slot0;
                     mike = function(argFoo) { // Original name: onCheckboxChange
-                        _fun91922: for(var _fun91922_ip = 0; ; ) switch(_fun91922_ip) {
+                        _fun91951: for(var _fun91951_ip = 0; ; ) switch(_fun91951_ip) {
  0:
                             report = argFoo;
                             var _closure5_slot0 = report;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = tango.includes;
                             mike = mike.bind(tango)(report);
                             zulu = _closure2_slot2;
-                            if(mike) { _fun91922_ip = 42; continue _fun91922 }
+                            if(mike) { _fun91951_ip = 42; continue _fun91951 }
  33:
                             mike = function(argFoo) {
                                 entity = new Array(1);
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 mike = zulu + mike;
                                 return entity;
                             };
-                            _fun91922_ip = 49; continue _fun91922;
+                            _fun91951_ip = 49; continue _fun91951;
  42:
                             mike = function(argFoo) {
                                 zulu = argFoo;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.RaidLockdownFeedbackType;
             offset = offset.OTHER;
             offset = yankee.bind(romeo)(offset);
-            if(!offset) { _fun91919_ip = 950; continue _fun91919 }
+            if(!offset) { _fun91948_ip = 950; continue _fun91948 }
  838:
             backup = _closure1_slot6;
             echo = _closure1_slot0;

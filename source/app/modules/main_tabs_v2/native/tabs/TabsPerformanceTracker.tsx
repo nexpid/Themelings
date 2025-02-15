@@ -8,19 +8,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: trackForScreen
-        _fun116203: for(var _fun116203_ip = 0; ; ) switch(_fun116203_ip) {
+        _fun116209: for(var _fun116209_ip = 0; ; ) switch(_fun116209_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
             mike = entity.uiTime;
             tango = null;
             mike = tango != mike;
-            if(!mike) { _fun116203_ip = 31; continue _fun116203 }
+            if(!mike) { _fun116209_ip = 31; continue _fun116209 }
  21:
             zulu = entity.layoutUITime;
             mike = tango != zulu;
  31:
-            if(!mike) { _fun116203_ip = 282; continue _fun116203 }
+            if(!mike) { _fun116209_ip = 282; continue _fun116209 }
  37:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -122,13 +122,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: trackTabPressed
-        _fun116204: for(var _fun116204_ip = 0; ; ) switch(_fun116204_ip) {
+        _fun116210: for(var _fun116210_ip = 0; ; ) switch(_fun116210_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot6;
             tango = mike[zulu];
             mike = null;
-            if(!(mike == tango)) { _fun116204_ip = 52; continue _fun116204 }
+            if(!(mike == tango)) { _fun116210_ip = 52; continue _fun116210 }
  20:
             mike = _closure1_slot6;
             entity = {};
@@ -152,27 +152,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = report;
         mike = function() {
-            _fun116206: for(var _fun116206_ip = 0; ; ) switch(_fun116206_ip) {
+            _fun116212: for(var _fun116212_ip = 0; ; ) switch(_fun116212_ip) {
  0:
                 tango = _closure1_slot6;
                 zulu = _closure2_slot0;
                 zulu = tango[zulu];
                 var _closure3_slot0 = zulu;
                 golf = null;
-                if(!(golf != zulu)) { _fun116206_ip = 40; continue _fun116206 }
+                if(!(golf != zulu)) { _fun116212_ip = 40; continue _fun116212 }
  30:
                 tango = zulu.startTime;
-                if(!(golf == tango)) { _fun116206_ip = 67; continue _fun116206 }
+                if(!(golf == tango)) { _fun116212_ip = 67; continue _fun116212 }
  40:
                 oscar = _closure1_slot6;
                 tango = _closure2_slot0;
                 mike = oscar[tango];
-                if(!(golf == mike)) { _fun116206_ip = 58; continue _fun116206 }
+                if(!(golf == mike)) { _fun116212_ip = 58; continue _fun116212 }
  56:
                 mike = {};
  58:
                 oscar[tango] = mike;
-                _fun116206_ip = 202; continue _fun116206;
+                _fun116212_ip = 202; continue _fun116212;
  67:
                 mike = global;
                 tango = mike.performance;
@@ -236,27 +236,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun116209: for(var _fun116209_ip = 0; ; ) switch(_fun116209_ip) {
+            _fun116215: for(var _fun116215_ip = 0; ; ) switch(_fun116215_ip) {
  0:
                 tango = _closure1_slot6;
                 zulu = _closure2_slot0;
                 zulu = tango[zulu];
                 var _closure3_slot0 = zulu;
                 golf = null;
-                if(!(golf != zulu)) { _fun116209_ip = 40; continue _fun116209 }
+                if(!(golf != zulu)) { _fun116215_ip = 40; continue _fun116215 }
  30:
                 tango = zulu.startTime;
-                if(!(golf == tango)) { _fun116209_ip = 67; continue _fun116209 }
+                if(!(golf == tango)) { _fun116215_ip = 67; continue _fun116215 }
  40:
                 oscar = _closure1_slot6;
                 tango = _closure2_slot0;
                 mike = oscar[tango];
-                if(!(golf == mike)) { _fun116209_ip = 58; continue _fun116209 }
+                if(!(golf == mike)) { _fun116215_ip = 58; continue _fun116215 }
  56:
                 mike = {};
  58:
                 oscar[tango] = mike;
-                _fun116209_ip = 202; continue _fun116209;
+                _fun116215_ip = 202; continue _fun116215;
  67:
                 mike = global;
                 tango = mike.performance;

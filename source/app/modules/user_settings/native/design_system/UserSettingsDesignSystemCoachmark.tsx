@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: Content
-        _fun99310: for(var _fun99310_ip = 0; ; ) switch(_fun99310_ip) {
+        _fun99320: for(var _fun99320_ip = 0; ; ) switch(_fun99320_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot5 = control;
             update = mike[zulu];
             report = 'Show tooltip';
-            if(!entity) { _fun99310_ip = 278; continue _fun99310 }
+            if(!entity) { _fun99320_ip = 278; continue _fun99320 }
  272:
             report = 'Hide tooltip';
  278:
@@ -89,12 +89,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = output;
             mike[4] = control;
             entity = function() {
-                _fun99311: for(var _fun99311_ip = 0; ; ) switch(_fun99311_ip) {
+                _fun99321: for(var _fun99321_ip = 0; ; ) switch(_fun99321_ip) {
  0:
                     entity = {'title': 'Introducing Coachmark!', 'description': 'Coachmark is a new component that can be used to highlight new features or UI elements.'};
                     report = _closure2_slot3;
                     tango = 'top';
-                    if(!report) { _fun99311_ip = 34; continue _fun99311 }
+                    if(!report) { _fun99321_ip = 34; continue _fun99321 }
  30:
                     tango = 'bottom';
  34:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot2;
                     entity['experimental_withBlurBackground'] = report;
                     report = _closure2_slot4;
-                    if(!report) { _fun99311_ip = 111; continue _fun99311 }
+                    if(!report) { _fun99321_ip = 111; continue _fun99321 }
  105:
                     tango = 'Got it!';
  111:
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot8;
             entity = {};
             offset = _closure1_slot7;
-            if(output) { _fun99310_ip = 505; continue _fun99310 }
+            if(output) { _fun99320_ip = 505; continue _fun99320 }
  454:
             oscar = _closure1_slot5;
             report = {};
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['style'] = golf;
             report['children'] = yankee;
             oscar = offset.bind(tango)(oscar, report);
-            _fun99310_ip = 612; continue _fun99310;
+            _fun99320_ip = 612; continue _fun99320;
  505:
             golf = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = 'Button Variant';
             romeo['title'] = sequence;
             vacuum = vacuum != control;
-            if(!vacuum) { _fun99310_ip = 799; continue _fun99310 }
+            if(!vacuum) { _fun99320_ip = 799; continue _fun99320 }
  796:
             source = control;
  799:

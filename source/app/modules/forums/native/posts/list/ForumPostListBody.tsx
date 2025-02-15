@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/list/ForumPostListBody.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostListBody
-        _fun100589: for(var _fun100589_ip = 0; ; ) switch(_fun100589_ip) {
+        _fun100598: for(var _fun100598_ip = 0; ; ) switch(_fun100598_ip) {
  0:
             entity = argFoo;
             oscar = entity.containerStyle;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             options = offset.details;
             oscar['style'] = options;
-            if(!verify) { _fun100589_ip = 177; continue _fun100589 }
+            if(!verify) { _fun100598_ip = 177; continue _fun100598 }
  134:
             update = _closure1_slot5;
             yankee = _closure1_slot1;
@@ -189,15 +189,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             yankee = null;
-            if(!(yankee != romeo)) { _fun100589_ip = 444; continue _fun100589 }
+            if(!(yankee != romeo)) { _fun100598_ip = 444; continue _fun100598 }
  433:
             options = romeo.blocked;
             oscar = null;
-            if(options) { _fun100589_ip = 540; continue _fun100589 }
+            if(options) { _fun100598_ip = 540; continue _fun100598 }
  444:
             options = yankee == kilo;
             oscar = null;
-            if(options) { _fun100589_ip = 540; continue _fun100589 }
+            if(options) { _fun100598_ip = 540; continue _fun100598 }
  453:
             verify = _closure1_slot5;
             options = _closure1_slot0;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['isLocalDeviceMedia'] = foxtrot;
             foxtrot = yankee == romeo;
             yankee = undefined;
-            if(foxtrot) { _fun100589_ip = 518; continue _fun100589 }
+            if(foxtrot) { _fun100598_ip = 518; continue _fun100598 }
  513:
             yankee = romeo.id;
  518:

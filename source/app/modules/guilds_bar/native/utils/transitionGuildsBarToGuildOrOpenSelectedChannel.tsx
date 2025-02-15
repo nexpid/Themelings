@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guilds_bar/native/utils/transitionGuildsBarToGuildOrOpenSelectedChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: transitionGuildsBarToGuildOrOpenSelectedChannel
-        _fun114442: for(var _fun114442_ip = 0; ; ) switch(_fun114442_ip) {
+        _fun114448: for(var _fun114448_ip = 0; ; ) switch(_fun114448_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -35,14 +35,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = null;
             tango = zulu == verify;
             golf = undefined;
-            if(tango) { _fun114442_ip = 58; continue _fun114442 }
+            if(tango) { _fun114448_ip = 58; continue _fun114448 }
  48:
             tango = verify.isReady;
             golf = tango.bind(verify)();
  58:
             report = true;
             tango = undefined;
-            if(!(report === golf)) { _fun114442_ip = 165; continue _fun114442 }
+            if(!(report === golf)) { _fun114448_ip = 165; continue _fun114448 }
  66:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -55,28 +55,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf.bind(options)(report);
             golf = zulu != report;
             tango = undefined;
-            if(!golf) { _fun114442_ip = 165; continue _fun114442 }
+            if(!golf) { _fun114448_ip = 165; continue _fun114448 }
  116:
             options = report.params;
             verify = zulu == options;
             golf = undefined;
-            if(verify) { _fun114442_ip = 136; continue _fun114442 }
+            if(verify) { _fun114448_ip = 136; continue _fun114448 }
  131:
             golf = options.guildId;
  136:
             tango = undefined;
-            if(!(golf === oscar)) { _fun114442_ip = 165; continue _fun114442 }
+            if(!(golf === oscar)) { _fun114448_ip = 165; continue _fun114448 }
  142:
             golf = report.params;
             options = zulu == golf;
             report = undefined;
-            if(options) { _fun114442_ip = 162; continue _fun114442 }
+            if(options) { _fun114448_ip = 162; continue _fun114448 }
  157:
             report = golf.channelId;
  162:
             tango = report;
  165:
-            if(!(zulu == tango)) { _fun114442_ip = 202; continue _fun114442 }
+            if(!(zulu == tango)) { _fun114448_ip = 202; continue _fun114448 }
  169:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.bind(entity)(zulu);
             zulu = report.transitionToGuild;
             zulu = zulu.bind(report)(oscar);
-            _fun114442_ip = 233; continue _fun114442;
+            _fun114448_ip = 233; continue _fun114448;
  202:
             zulu = _closure1_slot0;
             report = _closure1_slot1;

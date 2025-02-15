@@ -1,33 +1,34 @@
 // app/hooks/useUnmountAbortSignal.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
+    report = argBar;
     zulu = argFred;
     tango = argPlugh;
+    var _closure1_slot0 = report;
     entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tango;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = tango;
     entity = global;
-    golf = entity.Object;
-    oscar = golf.defineProperty;
-    report = {};
+    options = entity.Object;
+    golf = options.defineProperty;
+    oscar = {};
     entity = true;
-    report['value'] = entity;
+    oscar['value'] = entity;
     entity = '__esModule';
-    entity = oscar.bind(golf)(zulu, entity, report);
+    entity = golf.bind(options)(zulu, entity, oscar);
     entity = 2;
-    report = tango[entity];
-    tango = argBar;
+    tango = tango[entity];
     entity = undefined;
-    oscar = tango.bind(entity)(report);
+    oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
     tango = 'hooks/useUnmountAbortSignal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useUnmountAbortSignal
-        report = _closure1_slot0;
-        oscar = _closure1_slot1;
+        tango = _closure1_slot1;
+        oscar = _closure1_slot2;
         entity = 0;
         entity = oscar[entity];
-        tango = undefined;
-        zulu = report.bind(tango)(entity);
+        report = undefined;
+        tango = tango.bind(report)(entity);
         entity = function() {
             entity = global;
             entity = entity.AbortController;
@@ -38,19 +39,18 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity instanceof Object ? entity : mike;
             return entity;
         };
-        entity = zulu.bind(tango)(entity);
+        entity = tango.bind(report)(entity);
         var _closure2_slot0 = entity;
+        tango = _closure1_slot0;
         zulu = 1;
         zulu = oscar[zulu];
-        zulu = report.bind(tango)(zulu);
+        tango = tango.bind(report)(zulu);
+        zulu = tango.useUnmountEffect;
         mike = function() {
-            entity = function() {
-                mike = _closure2_slot0;
-                entity = mike.abort;
-                entity = entity.bind(mike)();
-                entity = undefined;
-                return entity;
-            };
+            mike = _closure2_slot0;
+            entity = mike.abort;
+            entity = entity.bind(mike)();
+            entity = undefined;
             return entity;
         };
         mike = zulu.bind(tango)(mike);

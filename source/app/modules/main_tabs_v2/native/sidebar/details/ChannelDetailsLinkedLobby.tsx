@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/sidebar/details/ChannelDetailsLinkedLobby.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelDetailsLinkedLobby
-        _fun112898: for(var _fun112898_ip = 0; ; ) switch(_fun112898_ip) {
+        _fun112904: for(var _fun112904_ip = 0; ; ) switch(_fun112904_ip) {
  0:
             mike = argFoo;
             entity = mike.channel;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             verify = foxtrot == oscar;
             mike = undefined;
-            if(verify) { _fun112898_ip = 76; continue _fun112898 }
+            if(verify) { _fun112904_ip = 76; continue _fun112904 }
  70:
             mike = oscar.application_id;
  76:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.linkedLobby;
             mike = foxtrot == entity;
             entity = null;
-            if(mike) { _fun112898_ip = 499; continue _fun112898 }
+            if(mike) { _fun112904_ip = 499; continue _fun112904 }
  99:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
             romeo = _closure1_slot5;
             yankee = {};
-            if(!(foxtrot == result)) { _fun112898_ip = 241; continue _fun112898 }
+            if(!(foxtrot == result)) { _fun112904_ip = 241; continue _fun112904 }
  184:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.yQqVsr;
             backup = backup.bind(kilo)(foxtrot);
-            _fun112898_ip = 309; continue _fun112898;
+            _fun112904_ip = 309; continue _fun112904;
  241:
             kilo = _closure1_slot0;
             echo = _closure1_slot2;

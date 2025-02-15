@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/nav_steps/WebAuthnNameStep.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: WebAuthnNameStep
-        _fun92884: for(var _fun92884_ip = 0; ; ) switch(_fun92884_ip) {
+        _fun92916: for(var _fun92916_ip = 0; ; ) switch(_fun92916_ip) {
  0:
             mike = argFoo;
             zulu = mike.ticket;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike != offset;
             foxtrot = '';
             mike = foxtrot;
-            if(!yankee) { _fun92884_ip = 179; continue _fun92884 }
+            if(!yankee) { _fun92916_ip = 179; continue _fun92916 }
  176:
             mike = offset;
  179:
@@ -119,11 +119,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun92887: for(var _fun92887_ip = 0; ; ) switch(_fun92887_ip) {
+                        _fun92919: for(var _fun92919_ip = 0; ; ) switch(_fun92919_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun92887_ip = 352; continue _fun92887 }
+                            if(mike) { _fun92919_ip = 352; continue _fun92919 }
  10: // try_start_0 // try_start_1
                             tango = _closure2_slot3;
                             report = undefined;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  78:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(oscar) { _fun92887_ip = 276; continue _fun92887 }
+                            if(oscar) { _fun92919_ip = 276; continue _fun92919 }
  87: // try_end0 // try_end1
                             golf = _closure2_slot3;
                             oscar = false;

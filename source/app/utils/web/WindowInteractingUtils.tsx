@@ -35,11 +35,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setCurrentlyInteractingWindowId'] = tango;
     mike = function(argFoo) { // Original name: clearCurrentlyInteractingWindowId
-        _fun62097: for(var _fun62097_ip = 0; ; ) switch(_fun62097_ip) {
+        _fun62102: for(var _fun62102_ip = 0; ; ) switch(_fun62102_ip) {
  0:
             zulu = _closure1_slot0;
             entity = argFoo;
-            if(!(zulu === entity)) { _fun62097_ip = 20; continue _fun62097 }
+            if(!(zulu === entity)) { _fun62102_ip = 20; continue _fun62102 }
  14:
             entity = null;
             _closure1_slot0 = entity;

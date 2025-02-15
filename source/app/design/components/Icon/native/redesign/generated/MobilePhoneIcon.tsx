@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/MobilePhoneIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun95590: for(var _fun95590_ip = 0; ; ) switch(_fun95590_ip) {
+        _fun95600: for(var _fun95600_ip = 0; ; ) switch(_fun95600_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun95590_ip = 53; continue _fun95590 }
+            if(!(golf === tango)) { _fun95600_ip = 53; continue _fun95600 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/GroupArrowDownIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun81605: for(var _fun81605_ip = 0; ; ) switch(_fun81605_ip) {
+        _fun81617: for(var _fun81617_ip = 0; ; ) switch(_fun81617_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun81605_ip = 53; continue _fun81605 }
+            if(!(golf === tango)) { _fun81617_ip = 53; continue _fun81617 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

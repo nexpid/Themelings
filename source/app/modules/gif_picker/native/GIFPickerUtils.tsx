@@ -33,107 +33,105 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = /-(?:.(?!-))+$/;
     var _closure1_slot7 = tango;
     tango = function(argFoo, argBar) { // Original name: transformFavoriteGifUrl
-        _fun84835: for(var _fun84835_ip = 0; ; ) switch(_fun84835_ip) {
+        _fun84851: for(var _fun84851_ip = 0; ; ) switch(_fun84851_ip) {
  0:
-            entity = argFoo;
-            golf = argBar;
-            zulu = _closure1_slot1;
+            zulu = argFoo;
+            options = argBar;
+            mike = _closure1_slot1;
             tango = _closure1_slot2;
-            mike = 2;
-            mike = tango[mike];
-            tango = undefined;
-            zulu = zulu.bind(tango)(mike);
-            mike = zulu.toURLSafe;
-            mike = mike.bind(zulu)(entity);
-            zulu = null;
-            if(!(zulu != mike)) { _fun84835_ip = 119; continue _fun84835 }
- 48:
-            options = _closure1_slot0;
-            oscar = _closure1_slot2;
+            entity = 2;
+            entity = tango[entity];
+            report = undefined;
+            mike = mike.bind(report)(entity);
+            entity = mike.toURLSafe;
+            mike = entity.bind(mike)(zulu);
+            tango = null;
+            if(!(tango != mike)) { _fun84851_ip = 194; continue _fun84851 }
+ 51:
+            golf = _closure1_slot0;
+            entity = _closure1_slot2;
             verify = 3;
-            oscar = oscar[verify];
-            options = options.bind(tango)(oscar);
-            oscar = options.isExternalProxiedAttachmentUrl;
-            oscar = oscar.bind(options)(mike);
-            if(oscar) { _fun84835_ip = 269; continue _fun84835 }
+            entity = entity[verify];
+            golf = golf.bind(report)(entity);
+            entity = golf.isExternalProxiedAttachmentUrl;
+            entity = entity.bind(golf)(mike);
+            if(entity) { _fun84851_ip = 116; continue _fun84851 }
  85:
-            options = _closure1_slot0;
-            oscar = _closure1_slot2;
-            oscar = oscar[verify];
-            options = options.bind(tango)(oscar);
-            oscar = options.isAttachmentUrl;
-            oscar = oscar.bind(options)(mike);
-            if(oscar) { _fun84835_ip = 269; continue _fun84835 }
- 119:
-            options = _closure1_slot5;
-            oscar = options.test;
-            oscar = oscar.bind(options)(golf);
-            if(oscar) { _fun84835_ip = 184; continue _fun84835 }
- 136:
-            options = _closure1_slot6;
-            oscar = options.test;
-            oscar = oscar.bind(options)(golf);
-            if(!oscar) { _fun84835_ip = 182; continue _fun84835 }
- 153:
-            oscar = global;
-            oscar = oscar.HermesInternal;
-            verify = oscar.concat;
-            options = '';
-            oscar = '.gif';
-            entity = verify.bind(options)(golf, oscar);
- 182:
-            _fun84835_ip = 267; continue _fun84835;
- 184:
-            oscar = _closure1_slot7;
-            report = oscar.exec;
-            golf = report.bind(oscar)(golf);
-            report = zulu == golf;
-            oscar = undefined;
-            if(report) { _fun84835_ip = 236; continue _fun84835 }
- 208:
-            report = 0;
-            report = golf[report];
-            zulu = zulu == report;
-            oscar = undefined;
-            if(zulu) { _fun84835_ip = 236; continue _fun84835 }
- 223:
-            tango = report.slice;
-            zulu = 1;
-            oscar = tango.bind(report)(zulu);
- 236:
-            zulu = global;
-            zulu = zulu.HermesInternal;
-            report = zulu.concat;
-            tango = 'https://media.giphy.com/media/';
-            zulu = '/giphy.gif';
-            entity = report.bind(tango)(oscar, zulu);
- 267:
-            return entity;
- 269:
-            zulu = mike.pathname;
-            entity = zulu.toLowerCase;
-            tango = entity.bind(zulu)();
-            zulu = tango.endsWith;
+            golf = _closure1_slot0;
+            entity = _closure1_slot2;
+            entity = entity[verify];
+            golf = golf.bind(report)(entity);
+            entity = golf.isAttachmentUrl;
+            entity = entity.bind(golf)(mike);
+            if(!entity) { _fun84851_ip = 194; continue _fun84851 }
+ 116:
+            golf = mike.pathname;
+            entity = golf.toLowerCase;
+            verify = entity.bind(golf)();
+            golf = verify.endsWith;
             entity = '.webp';
-            zulu = zulu.bind(tango)(entity);
-            tango = mike.pathname;
-            entity = tango.toLowerCase;
-            report = entity.bind(tango)();
-            tango = report.endsWith;
+            golf = golf.bind(verify)(entity);
+            verify = mike.pathname;
+            entity = verify.toLowerCase;
+            offset = entity.bind(verify)();
+            verify = offset.endsWith;
             entity = '.avif';
-            entity = tango.bind(report)(entity);
-            if(zulu) { _fun84835_ip = 341; continue _fun84835 }
- 338:
-            zulu = entity;
- 341:
-            if(!zulu) { _fun84835_ip = 399; continue _fun84835 }
+            entity = verify.bind(offset)(entity);
+            if(golf) { _fun84851_ip = 344; continue _fun84851 }
+ 188:
+            if(entity) { _fun84851_ip = 344; continue _fun84851 }
+ 194:
+            verify = _closure1_slot5;
+            golf = verify.test;
+            golf = golf.bind(verify)(options);
+            if(golf) { _fun84851_ip = 259; continue _fun84851 }
+ 211:
+            verify = _closure1_slot6;
+            golf = verify.test;
+            golf = golf.bind(verify)(options);
+            if(!golf) { _fun84851_ip = 257; continue _fun84851 }
+ 228:
+            golf = global;
+            golf = golf.HermesInternal;
+            offset = golf.concat;
+            verify = '';
+            golf = '.gif';
+            zulu = offset.bind(verify)(options, golf);
+ 257:
+            _fun84851_ip = 342; continue _fun84851;
+ 259:
+            golf = _closure1_slot7;
+            oscar = golf.exec;
+            options = oscar.bind(golf)(options);
+            oscar = tango == options;
+            golf = undefined;
+            if(oscar) { _fun84851_ip = 311; continue _fun84851 }
+ 283:
+            oscar = 0;
+            oscar = options[oscar];
+            tango = tango == oscar;
+            golf = undefined;
+            if(tango) { _fun84851_ip = 311; continue _fun84851 }
+ 298:
+            report = oscar.slice;
+            tango = 1;
+            golf = report.bind(oscar)(tango);
+ 311:
+            tango = global;
+            tango = tango.HermesInternal;
+            oscar = tango.concat;
+            report = 'https://media.giphy.com/media/';
+            tango = '/giphy.gif';
+            zulu = oscar.bind(report)(golf, tango);
+ 342:
+            return zulu;
  344:
             oscar = mike.searchParams;
             report = oscar.set;
             tango = 'animated';
             zulu = 'true';
             zulu = report.bind(oscar)(tango, zulu);
-            if(!entity) { _fun84835_ip = 399; continue _fun84835 }
+            if(!entity) { _fun84851_ip = 399; continue _fun84851 }
  372:
             report = mike.searchParams;
             tango = report.set;
@@ -171,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = zulu;
         entity = function() {
-            _fun84837: for(var _fun84837_ip = 0; ; ) switch(_fun84837_ip) {
+            _fun84853: for(var _fun84853_ip = 0; ; ) switch(_fun84853_ip) {
  0:
                 entity = _closure2_slot0;
                 entity = entity.length;
@@ -179,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = entity > tango;
                 verify = undefined;
                 entity = undefined;
-                if(!mike) { _fun84837_ip = 138; continue _fun84837 }
+                if(!mike) { _fun84853_ip = 138; continue _fun84853 }
  25:
                 mike = {};
                 oscar = _closure1_slot4;

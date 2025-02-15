@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    _fun81758: for(var _fun81758_ip = 0; ; ) switch(_fun81758_ip) {
+    _fun81770: for(var _fun81770_ip = 0; ; ) switch(_fun81770_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -22,7 +22,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         verify = report.bind(entity)(options);
         options = verify.isAndroid;
         options = options.bind(verify)();
-        if(options) { _fun81758_ip = 115; continue _fun81758 }
+        if(options) { _fun81770_ip = 115; continue _fun81770 }
  78:
         options = 2;
         options = oscar[options];
@@ -30,11 +30,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         options = verify.isIpadOS;
         verify = options.bind(verify)();
         options = 'modal';
-        if(!verify) { _fun81758_ip = 113; continue _fun81758 }
+        if(!verify) { _fun81770_ip = 113; continue _fun81770 }
  107:
         options = 'fullScreenModal';
  113:
-        _fun81758_ip = 153; continue _fun81758;
+        _fun81770_ip = 153; continue _fun81770;
  115:
         verify = 1;
         verify = oscar[verify];
@@ -42,7 +42,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         verify = offset.getIsWindowLarge;
         offset = verify.bind(offset)();
         verify = 'modal';
-        if(!offset) { _fun81758_ip = 150; continue _fun81758 }
+        if(!offset) { _fun81770_ip = 150; continue _fun81770 }
  144:
         verify = 'fullScreenModal';
  150:
@@ -63,26 +63,26 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         tango = 'modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx';
         tango = report.bind(oscar)(tango);
         mike = function() { // Original name: getNavigationModalPresentation
-            _fun81759: for(var _fun81759_ip = 0; ; ) switch(_fun81759_ip) {
+            _fun81771: for(var _fun81771_ip = 0; ; ) switch(_fun81771_ip) {
  0:
                 entity = arguments[0];
                 oscar = undefined;
-                if(!(entity === oscar)) { _fun81759_ip = 16; continue _fun81759 }
+                if(!(entity === oscar)) { _fun81771_ip = 16; continue _fun81771 }
  9:
                 entity = _closure1_slot2;
  16:
                 mike = entity.presentation;
-                if(!(mike === oscar)) { _fun81759_ip = 39; continue _fun81759 }
+                if(!(mike === oscar)) { _fun81771_ip = 39; continue _fun81771 }
  26:
                 zulu = _closure1_slot2;
                 mike = zulu.presentation;
  39:
                 zulu = entity.lockOrientation;
-                if(!(zulu === oscar)) { _fun81759_ip = 78; continue _fun81759 }
+                if(!(zulu === oscar)) { _fun81771_ip = 78; continue _fun81771 }
  49:
                 entity = _closure1_slot2;
                 entity = entity.lockOrientation;
-                if(!entity) { _fun81759_ip = 75; continue _fun81759 }
+                if(!entity) { _fun81771_ip = 75; continue _fun81771 }
  65:
                 tango = 'transparentModal';
                 entity = tango !== mike;
@@ -92,7 +92,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
                 entity = {};
                 entity['presentation'] = mike;
                 mike = undefined;
-                if(!zulu) { _fun81759_ip = 161; continue _fun81759 }
+                if(!zulu) { _fun81771_ip = 161; continue _fun81771 }
  90:
                 tango = _closure1_slot0;
                 golf = _closure1_slot1;
@@ -106,7 +106,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
                 zulu = zulu.OrientationType;
                 tango = zulu.PORTRAIT;
                 zulu = 'landscape';
-                if(!(report === tango)) { _fun81759_ip = 158; continue _fun81759 }
+                if(!(report === tango)) { _fun81771_ip = 158; continue _fun81771 }
  152:
                 zulu = 'portrait';
  158:

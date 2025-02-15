@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: handleRequestSuccess
-        _fun95016: for(var _fun95016_ip = 0; ; ) switch(_fun95016_ip) {
+        _fun95027: for(var _fun95027_ip = 0; ; ) switch(_fun95027_ip) {
  0:
             entity = argFoo;
             tango = null;
             mike = tango != entity;
-            if(!mike) { _fun95016_ip = 21; continue _fun95016 }
+            if(!mike) { _fun95027_ip = 21; continue _fun95027 }
  12:
             zulu = entity.body;
             mike = tango != zulu;
  21:
-            if(!mike) { _fun95016_ip = 90; continue _fun95016 }
+            if(!mike) { _fun95027_ip = 90; continue _fun95027 }
  24:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -43,26 +43,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot4 = entity;
     entity = function(argFoo) { // Original name: handleRequestFailure
-        _fun95017: for(var _fun95017_ip = 0; ; ) switch(_fun95017_ip) {
+        _fun95028: for(var _fun95028_ip = 0; ; ) switch(_fun95028_ip) {
  0:
             entity = argFoo;
             zulu = entity.status;
             mike = 500;
-            if(!(zulu >= mike)) { _fun95017_ip = 33; continue _fun95017 }
+            if(!(zulu >= mike)) { _fun95028_ip = 33; continue _fun95028 }
  18:
             zulu = entity.status;
             mike = 599;
-            if(!(!(zulu <= mike))) { _fun95017_ip = 136; continue _fun95017 }
+            if(!(!(zulu <= mike))) { _fun95028_ip = 136; continue _fun95028 }
  33:
             zulu = null;
-            if(!(zulu != entity)) { _fun95017_ip = 62; continue _fun95017 }
+            if(!(zulu != entity)) { _fun95028_ip = 62; continue _fun95028 }
  39:
             mike = entity.body;
-            if(!(zulu != mike)) { _fun95017_ip = 62; continue _fun95017 }
+            if(!(zulu != mike)) { _fun95028_ip = 62; continue _fun95028 }
  48:
             mike = entity.body;
             mike = mike.message;
-            if(!(zulu == mike)) { _fun95017_ip = 124; continue _fun95017 }
+            if(!(zulu == mike)) { _fun95028_ip = 124; continue _fun95028 }
  62:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.cvJdtr;
             zulu = zulu.bind(tango)(mike);
-            _fun95017_ip = 134; continue _fun95017;
+            _fun95028_ip = 134; continue _fun95028;
  124:
             entity = entity.body;
             zulu = entity.message;
  134:
-            _fun95017_ip = 196; continue _fun95017;
+            _fun95028_ip = 196; continue _fun95028;
  136:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

@@ -30,11 +30,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['clearVADWarning'] = report;
     report = function() { // Original name: clearSuppressWarning
-        _fun120671: for(var _fun120671_ip = 0; ; ) switch(_fun120671_ip) {
+        _fun120677: for(var _fun120677_ip = 0; ; ) switch(_fun120677_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun120671_ip = 11; continue _fun120671 }
+            if(!(report === entity)) { _fun120677_ip = 11; continue _fun120677 }
  9:
             report = false;
  11:

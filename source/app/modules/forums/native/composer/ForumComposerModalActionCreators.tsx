@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/forums/native/composer/ForumComposerModalActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun87313: for(var _fun87313_ip = 0; ; ) switch(_fun87313_ip) {
+        _fun87330: for(var _fun87330_ip = 0; ; ) switch(_fun87330_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.isEdit;
             mike = null;
             mike = mike != tango;
-            if(!mike) { _fun87313_ip = 90; continue _fun87313 }
+            if(!mike) { _fun87330_ip = 90; continue _fun87330 }
  84:
             mike = oscar.isEdit;
  90:
-            if(mike) { _fun87313_ip = 142; continue _fun87313 }
+            if(mike) { _fun87330_ip = 142; continue _fun87330 }
  93:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -83,15 +83,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['openCreateForumPostModal'] = tango;
     mike = function() {
-        _fun87314: for(var _fun87314_ip = 0; ; ) switch(_fun87314_ip) {
+        _fun87331: for(var _fun87331_ip = 0; ; ) switch(_fun87331_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun87314_ip = 11; continue _fun87314 }
+            if(!(mike === entity)) { _fun87331_ip = 11; continue _fun87331 }
  9:
             mike = false;
  11:
-            if(mike) { _fun87314_ip = 46; continue _fun87314 }
+            if(mike) { _fun87331_ip = 46; continue _fun87331 }
  14:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;

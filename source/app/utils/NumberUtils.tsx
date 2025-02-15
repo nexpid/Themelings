@@ -21,11 +21,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'utils/NumberUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: shortenAndLocalizeNumber
-        _fun36624: for(var _fun36624_ip = 0; ; ) switch(_fun36624_ip) {
+        _fun36631: for(var _fun36631_ip = 0; ; ) switch(_fun36631_ip) {
  0:
             report = argFoo;
             entity = 1000000;
-            if(!(!(report < entity))) { _fun36624_ip = 99; continue _fun36624 }
+            if(!(!(report < entity))) { _fun36631_ip = 99; continue _fun36631 }
  13:
             zulu = report / entity;
             mike = zulu.toFixed;
@@ -68,14 +68,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['shortenAndLocalizeNumber'] = tango;
     tango = function(argFoo, argBar) { // Original name: humanizeValue
-        _fun36625: for(var _fun36625_ip = 0; ; ) switch(_fun36625_ip) {
+        _fun36632: for(var _fun36632_ip = 0; ; ) switch(_fun36632_ip) {
  0:
             golf = argFoo;
             report = 1000;
-            if(!(!(golf < report))) { _fun36625_ip = 280; continue _fun36625 }
+            if(!(!(golf < report))) { _fun36632_ip = 280; continue _fun36632 }
  16:
             options = 1000000;
-            if(!(!(golf < options))) { _fun36625_ip = 189; continue _fun36625 }
+            if(!(!(golf < options))) { _fun36632_ip = 189; continue _fun36632 }
  29:
             entity = global;
             oscar = entity.Math;
@@ -162,18 +162,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['humanizeValue'] = tango;
     tango = function(argFoo) { // Original name: parseInteger
-        _fun36626: for(var _fun36626_ip = 0; ; ) switch(_fun36626_ip) {
+        _fun36633: for(var _fun36633_ip = 0; ; ) switch(_fun36633_ip) {
  0:
             report = argFoo;
             entity = arguments[1];
             tango = undefined;
-            if(!(entity === tango)) { _fun36626_ip = 20; continue _fun36626 }
+            if(!(entity === tango)) { _fun36633_ip = 20; continue _fun36633 }
  12:
             mike = global;
             entity = mike.NaN;
  20:
             mike = null;
-            if(!(mike != report)) { _fun36626_ip = 64; continue _fun36626 }
+            if(!(mike != report)) { _fun36633_ip = 64; continue _fun36633 }
  26:
             zulu = global;
             mike = zulu.parseInt;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = zulu.Number;
             zulu = tango.isNaN;
             zulu = zulu.bind(tango)(mike);
-            if(!zulu) { _fun36626_ip = 62; continue _fun36626 }
+            if(!zulu) { _fun36633_ip = 62; continue _fun36633 }
  59:
             mike = entity;
  62:
@@ -192,11 +192,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['parseInteger'] = tango;
     mike = function(argFoo, argBar) { // Original name: formatPercent
-        _fun36627: for(var _fun36627_ip = 0; ; ) switch(_fun36627_ip) {
+        _fun36634: for(var _fun36634_ip = 0; ; ) switch(_fun36634_ip) {
  0:
             entity = arguments[2];
             mike = undefined;
-            if(!(entity === mike)) { _fun36627_ip = 11; continue _fun36627 }
+            if(!(entity === mike)) { _fun36634_ip = 11; continue _fun36634 }
  9:
             entity = {};
  11:

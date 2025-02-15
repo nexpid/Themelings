@@ -6,26 +6,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function() { // Original name: getWarningFrameRate
-        _fun75567: for(var _fun75567_ip = 0; ; ) switch(_fun75567_ip) {
+        _fun75577: for(var _fun75577_ip = 0; ; ) switch(_fun75577_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun75567_ip = 12; continue _fun75567 }
+            if(!(mike === entity)) { _fun75577_ip = 12; continue _fun75577 }
  9:
             mike = 30;
  12:
             entity = 5;
-            if(!(!(mike <= entity))) { _fun75567_ip = 44; continue _fun75567 }
+            if(!(!(mike <= entity))) { _fun75577_ip = 44; continue _fun75577 }
  19:
             entity = 15;
-            if(!(!(mike <= entity))) { _fun75567_ip = 35; continue _fun75567 }
+            if(!(!(mike <= entity))) { _fun75577_ip = 35; continue _fun75577 }
  26:
             entity = _closure1_slot3;
-            _fun75567_ip = 42; continue _fun75567;
+            _fun75577_ip = 42; continue _fun75577;
  35:
             entity = _closure1_slot4;
  42:
-            _fun75567_ip = 51; continue _fun75567;
+            _fun75577_ip = 51; continue _fun75577;
  44:
             entity = _closure1_slot5;
  51:
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = function(argFoo, argBar) { // Original name: getAverage
-        _fun75568: for(var _fun75568_ip = 0; ; ) switch(_fun75568_ip) {
+        _fun75578: for(var _fun75578_ip = 0; ; ) switch(_fun75578_ip) {
  0:
             oscar = argFoo;
             mike = {'packetsSentOrReceived': 0, 'packetsLost': 0, 'packetLossRate': 0, 'frameRate': 0, 'resolution': 0, 'numDatapoints': 0};
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.isNotNullish;
             entity = report.bind(oscar)(entity);
             report = entity.length;
-            if(!(zulu !== report)) { _fun75568_ip = 228; continue _fun75568 }
+            if(!(zulu !== report)) { _fun75578_ip = 228; continue _fun75578 }
  101:
             report = entity.forEach;
             tango = function(argFoo, argBar, argBaz) {
-                _fun75569: for(var _fun75569_ip = 0; ; ) switch(_fun75569_ip) {
+                _fun75579: for(var _fun75579_ip = 0; ; ) switch(_fun75579_ip) {
  0:
                     entity = argFoo;
                     verify = argBar;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = 0;
                     golf = verify > report;
                     zulu = 0;
-                    if(!golf) { _fun75569_ip = 64; continue _fun75569 }
+                    if(!golf) { _fun75579_ip = 64; continue _fun75579 }
  33:
                     golf = options[verify];
                     offset = golf.packetsSentOrReceived;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.packetsLost;
                     oscar = verify > report;
                     report = 0;
-                    if(!oscar) { _fun75569_ip = 124; continue _fun75569 }
+                    if(!oscar) { _fun75579_ip = 124; continue _fun75579 }
  93:
                     oscar = options[verify];
                     golf = oscar.packetsLost;
@@ -146,25 +146,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo, argBar) { // Original name: getPerfErrorFromStats
-        _fun75570: for(var _fun75570_ip = 0; ; ) switch(_fun75570_ip) {
+        _fun75580: for(var _fun75580_ip = 0; ; ) switch(_fun75580_ip) {
  0:
             mike = argFoo;
             tango = argBar;
             zulu = mike.type;
             entity = 'streamer';
-            if(!(entity !== zulu)) { _fun75570_ip = 228; continue _fun75570 }
+            if(!(entity !== zulu)) { _fun75580_ip = 228; continue _fun75580 }
  24:
             zulu = mike.packetLossRate;
             entity = 100;
             report = entity * zulu;
             zulu = _closure1_slot6;
-            if(!(!(report > zulu))) { _fun75570_ip = 149; continue _fun75570 }
+            if(!(!(report > zulu))) { _fun75580_ip = 149; continue _fun75580 }
  48:
             report = mike.frameRate;
             zulu = _closure1_slot9;
             golf = undefined;
             zulu = zulu.bind(golf)(tango);
-            if(!(report <= zulu)) { _fun75570_ip = 273; continue _fun75570 }
+            if(!(report <= zulu)) { _fun75580_ip = 273; continue _fun75580 }
  72:
             oscar = _closure1_slot8;
             verify = _closure1_slot0;
@@ -207,13 +207,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 100;
             report = entity * zulu;
             zulu = _closure1_slot6;
-            if(!(!(report > zulu))) { _fun75570_ip = 354; continue _fun75570 }
+            if(!(!(report > zulu))) { _fun75580_ip = 354; continue _fun75580 }
  252:
             zulu = mike.frameRate;
             mike = _closure1_slot9;
             report = undefined;
             mike = mike.bind(report)(tango);
-            if(!(!(zulu <= mike))) { _fun75570_ip = 277; continue _fun75570 }
+            if(!(!(zulu <= mike))) { _fun75580_ip = 277; continue _fun75580 }
  273:
             mike = null;
             return mike;
@@ -311,15 +311,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/go_live/utils/getStreamError.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getStreamError
-        _fun75572: for(var _fun75572_ip = 0; ; ) switch(_fun75572_ip) {
+        _fun75582: for(var _fun75582_ip = 0; ; ) switch(_fun75582_ip) {
  0:
             verify = argBar;
             oscar = argCorge;
             entity = argBaz;
-            if(entity) { _fun75572_ip = 215; continue _fun75572 }
+            if(entity) { _fun75582_ip = 215; continue _fun75582 }
  15:
             mike = null;
-            if(!(mike != verify)) { _fun75572_ip = 58; continue _fun75572 }
+            if(!(mike != verify)) { _fun75582_ip = 58; continue _fun75582 }
  21:
             tango = _closure1_slot10;
             report = undefined;
@@ -328,13 +328,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 30;
             tango = tango.bind(report)(verify, entity);
             entity = tango.numDatapoints;
-            if(!(!(entity >= golf))) { _fun75572_ip = 159; continue _fun75572 }
+            if(!(!(entity >= golf))) { _fun75582_ip = 159; continue _fun75582 }
  58:
             entity = _closure1_slot2;
             offset = entity.BAD;
             verify = argFoo;
             entity = null;
-            if(!(verify === offset)) { _fun75572_ip = 157; continue _fun75572 }
+            if(!(verify === offset)) { _fun75582_ip = 157; continue _fun75582 }
  80:
             yankee = _closure1_slot8;
             backup = _closure1_slot0;
@@ -359,17 +359,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot11;
             verify = mike == oscar;
             entity = undefined;
-            if(verify) { _fun75572_ip = 178; continue _fun75572 }
+            if(verify) { _fun75582_ip = 178; continue _fun75582 }
  172:
             entity = oscar.maxFrameRate;
  178:
             entity = golf.bind(report)(options, entity);
-            if(!(mike == entity)) { _fun75572_ip = 213; continue _fun75572 }
+            if(!(mike == entity)) { _fun75582_ip = 213; continue _fun75582 }
  188:
             zulu = _closure1_slot11;
             golf = mike == oscar;
             mike = undefined;
-            if(golf) { _fun75572_ip = 207; continue _fun75572 }
+            if(golf) { _fun75582_ip = 207; continue _fun75582 }
  201:
             mike = oscar.maxFrameRate;
  207:

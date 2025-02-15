@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/EmojiKeyboardNitroBasicUpsellExperiment.tsx
+// app/modules/premium/experiments/ReverseTrialLoadTestExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     report = argBar;
     zulu = argFred;
@@ -20,14 +20,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike = oscar[mike];
     golf = report.bind(entity)(mike);
     tango = golf.createExperiment;
-    mike = {'kind': 'user', 'id': '2024-11_emoji_keyboard_nitro_basic_upsell', 'label': 'Emoji Keyboard Nitro Basic Upsell'};
+    mike = {'kind': 'user', 'id': '2025-02_reverse_trial_load_test', 'label': 'Reverse Trials'};
     verify = {};
     yankee = false;
     verify['enabled'] = yankee;
     mike['defaultConfig'] = verify;
-    options = options.CONNECTION_OPEN_MOBILE;
+    options = options.CONNECTION_OPEN;
     mike['commonTriggerPoint'] = options;
-    verify = {'id': 1, 'label': 'Coachmark shown'};
+    verify = {'id': 1, 'label': 'Users receives reverse trial + 1 week follow-up offer'};
     options = {};
     options['enabled'] = offset;
     verify['config'] = options;
@@ -39,7 +39,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/experiments/EmojiKeyboardNitroBasicUpsellExperiment.tsx';
+    tango = 'modules/premium/experiments/ReverseTrialLoadTestExperiment.tsx';
     tango = report.bind(oscar)(tango);
     zulu['default'] = mike;
     return entity;

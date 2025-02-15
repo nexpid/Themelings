@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/TrophyIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun78499: for(var _fun78499_ip = 0; ; ) switch(_fun78499_ip) {
+        _fun78509: for(var _fun78509_ip = 0; ; ) switch(_fun78509_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun78499_ip = 53; continue _fun78499 }
+            if(!(golf === tango)) { _fun78509_ip = 53; continue _fun78509 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/components/StageAudienceNotificationSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: StageAudienceNotificationSheet
-        _fun67709: for(var _fun67709_ip = 0; ; ) switch(_fun67709_ip) {
+        _fun67715: for(var _fun67715_ip = 0; ; ) switch(_fun67715_ip) {
  0:
             mike = argFoo;
             mike = mike.channelId;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = null;
             mike = sizing == entity;
             echo = undefined;
-            if(mike) { _fun67709_ip = 94; continue _fun67709 }
+            if(mike) { _fun67715_ip = 94; continue _fun67715 }
  88:
             echo = entity.privacy_level;
  94:
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = sequence.bind(tango)(vacuum, control);
             backup[2] = control;
             sizing = null;
-            if(!(echo === result)) { _fun67709_ip = 1046; continue _fun67709 }
+            if(!(echo === result)) { _fun67715_ip = 1046; continue _fun67715 }
  868:
             echo = _closure1_slot7;
             context = _closure1_slot0;

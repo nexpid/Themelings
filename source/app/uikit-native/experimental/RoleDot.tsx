@@ -90,18 +90,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/experimental/RoleDot.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RoleDot
-        _fun77015: for(var _fun77015_ip = 0; ; ) switch(_fun77015_ip) {
+        _fun77025: for(var _fun77025_ip = 0; ; ) switch(_fun77025_ip) {
  0:
             entity = argFoo;
             backup = entity.color;
             tango = entity.size;
             report = undefined;
-            if(!(tango === report)) { _fun77015_ip = 23; continue _fun77015 }
+            if(!(tango === report)) { _fun77025_ip = 23; continue _fun77025 }
  19:
             tango = 'normal';
  23:
             yankee = entity.background;
-            if(!(yankee === report)) { _fun77015_ip = 35; continue _fun77015 }
+            if(!(yankee === report)) { _fun77025_ip = 35; continue _fun77025 }
  33:
             yankee = true;
  35:
@@ -116,11 +116,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useFontScale;
             sizing = entity.bind(mike)();
             entity = null;
-            if(!(entity != backup)) { _fun77015_ip = 516; continue _fun77015 }
+            if(!(entity != backup)) { _fun77025_ip = 516; continue _fun77025 }
  91:
             mike = 16;
             zulu = 'normal';
-            if(!(zulu === tango)) { _fun77015_ip = 105; continue _fun77015 }
+            if(!(zulu === tango)) { _fun77025_ip = 105; continue _fun77025 }
  102:
             mike = 20;
  105:
@@ -140,10 +140,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.bind(report)(offset);
             offset = kilo.isAndroid;
             offset = offset.bind(kilo)();
-            if(offset) { _fun77015_ip = 175; continue _fun77015 }
+            if(offset) { _fun77025_ip = 175; continue _fun77025 }
  169:
             offset = tango * sizing;
-            _fun77015_ip = 182; continue _fun77015;
+            _fun77025_ip = 182; continue _fun77025;
  175:
             kilo = 3;
             offset = kilo * sizing;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(3);
             verify[0] = offset;
             offset = null;
-            if(!yankee) { _fun77015_ip = 334; continue _fun77015 }
+            if(!yankee) { _fun77025_ip = 334; continue _fun77025 }
  329:
             offset = romeo.backgroundColor;
  334:

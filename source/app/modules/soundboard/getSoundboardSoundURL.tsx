@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/soundboard/getSoundboardSoundURL.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getSoundboardSoundURL
-        _fun103546: for(var _fun103546_ip = 0; ; ) switch(_fun103546_ip) {
+        _fun103538: for(var _fun103538_ip = 0; ; ) switch(_fun103538_ip) {
  0:
             report = argFoo;
             mike = global;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = entity.CDN_HOST;
             zulu = entity.PROJECT_ENV;
             entity = 'development';
-            if(!(entity === zulu)) { _fun103546_ip = 111; continue _fun103546 }
+            if(!(entity === zulu)) { _fun103538_ip = 111; continue _fun103538 }
  39:
             entity = mike.location;
             options = entity.protocol;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.concat;
             entity = '';
             entity = zulu.bind(entity)(options, oscar, tango);
-            _fun103546_ip = 172; continue _fun103546;
+            _fun103538_ip = 172; continue _fun103538;
  111:
             zulu = mike.location;
             oscar = zulu.protocol;

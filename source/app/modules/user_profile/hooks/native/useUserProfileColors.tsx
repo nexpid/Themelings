@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/native/useUserProfileColors.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useUserProfileColors
-        _fun77253: for(var _fun77253_ip = 0; ; ) switch(_fun77253_ip) {
+        _fun77263: for(var _fun77263_ip = 0; ; ) switch(_fun77263_ip) {
  0:
             entity = argFoo;
             oscar = entity.theme;
@@ -100,33 +100,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = mike.bind(report)(oscar);
             report = null;
             mike = report == kilo;
-            if(entity) { _fun77253_ip = 335; continue _fun77253 }
+            if(entity) { _fun77263_ip = 335; continue _fun77263 }
  322:
             golf = undefined;
-            if(mike) { _fun77253_ip = 333; continue _fun77253 }
+            if(mike) { _fun77263_ip = 333; continue _fun77263 }
  327:
             golf = kilo.overlay;
  333:
-            _fun77253_ip = 349; continue _fun77253;
+            _fun77263_ip = 349; continue _fun77263;
  335:
             entity = undefined;
-            if(mike) { _fun77253_ip = 346; continue _fun77253 }
+            if(mike) { _fun77263_ip = 346; continue _fun77263 }
  340:
             entity = kilo.overlaySyncedWithUserTheme;
  346:
             golf = entity;
  349:
             entity = tango;
-            if(!(report != options)) { _fun77253_ip = 562; continue _fun77253 }
+            if(!(report != options)) { _fun77263_ip = 562; continue _fun77263 }
  359:
             entity = tango;
-            if(!(report != backup)) { _fun77253_ip = 562; continue _fun77253 }
+            if(!(report != backup)) { _fun77263_ip = 562; continue _fun77263 }
  369:
             entity = tango;
-            if(!(report != kilo)) { _fun77253_ip = 562; continue _fun77253 }
+            if(!(report != kilo)) { _fun77263_ip = 562; continue _fun77263 }
  379:
             entity = tango;
-            if(!(report != golf)) { _fun77253_ip = 562; continue _fun77253 }
+            if(!(report != golf)) { _fun77263_ip = 562; continue _fun77263 }
  389:
             mike = {};
             result = mike;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = copyDataProperties(result, output);
             tango = report == kilo;
             oscar = undefined;
-            if(tango) { _fun77253_ip = 416; continue _fun77253 }
+            if(tango) { _fun77263_ip = 416; continue _fun77263 }
  410:
             oscar = kilo.sectionBox;
  416:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = foxtrot.calculateOverlayedColor;
             sizing = report == kilo;
             report = undefined;
-            if(sizing) { _fun77253_ip = 481; continue _fun77253 }
+            if(sizing) { _fun77263_ip = 481; continue _fun77263 }
  475:
             report = kilo.overlay;
  481:

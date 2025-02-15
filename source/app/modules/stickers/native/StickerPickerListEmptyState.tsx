@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: StickerPickerListEmptyState
-        _fun85132: for(var _fun85132_ip = 0; ; ) switch(_fun85132_ip) {
+        _fun85149: for(var _fun85149_ip = 0; ; ) switch(_fun85149_ip) {
  0:
             zulu = argFoo;
             entity = zulu.inActionSheet;
@@ -92,10 +92,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             report = report.bind(oscar)(mike, zulu);
-            if(entity) { _fun85132_ip = 87; continue _fun85132 }
+            if(entity) { _fun85149_ip = 87; continue _fun85149 }
  81:
             zulu = _closure1_slot4;
-            _fun85132_ip = 113; continue _fun85132;
+            _fun85149_ip = 113; continue _fun85149;
  87:
             mike = _closure1_slot0;
             oscar = _closure1_slot2;

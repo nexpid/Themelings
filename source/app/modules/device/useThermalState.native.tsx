@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: _getThermalState
-        _fun74864: for(var _fun74864_ip = 0; ; ) switch(_fun74864_ip) {
+        _fun74874: for(var _fun74874_ip = 0; ; ) switch(_fun74874_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike != entity)) { _fun74864_ip = 256; continue _fun74864 }
+            if(!(mike != entity)) { _fun74874_ip = 256; continue _fun74874 }
  12:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu);
             zulu = tango.isIOS;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun74864_ip = 254; continue _fun74864 }
+            if(zulu) { _fun74874_ip = 254; continue _fun74874 }
  52:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun74864_ip = 93; continue _fun74864 }
+            if(zulu) { _fun74874_ip = 93; continue _fun74874 }
  81:
             zulu = _closure1_slot3;
             zulu = zulu.UNHANDLED;
@@ -38,31 +38,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  93:
             zulu = _closure1_slot4;
             zulu = zulu.NONE;
-            if(!(zulu !== entity)) { _fun74864_ip = 242; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 242; continue _fun74874 }
  110:
             zulu = _closure1_slot4;
             zulu = zulu.LIGHT;
-            if(!(zulu !== entity)) { _fun74864_ip = 230; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 230; continue _fun74874 }
  124:
             zulu = _closure1_slot4;
             zulu = zulu.MODERATE;
-            if(!(zulu !== entity)) { _fun74864_ip = 230; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 230; continue _fun74874 }
  138:
             zulu = _closure1_slot4;
             zulu = zulu.SEVERE;
-            if(!(zulu !== entity)) { _fun74864_ip = 218; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 218; continue _fun74874 }
  152:
             zulu = _closure1_slot4;
             zulu = zulu.CRITICAL;
-            if(!(zulu !== entity)) { _fun74864_ip = 206; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 206; continue _fun74874 }
  166:
             zulu = _closure1_slot4;
             zulu = zulu.EMERGENCY;
-            if(!(zulu !== entity)) { _fun74864_ip = 206; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 206; continue _fun74874 }
  180:
             zulu = _closure1_slot4;
             zulu = zulu.SHUTDOWN;
-            if(!(zulu !== entity)) { _fun74864_ip = 206; continue _fun74864 }
+            if(!(zulu !== entity)) { _fun74874_ip = 206; continue _fun74874 }
  194:
             zulu = _closure1_slot3;
             zulu = zulu.UNHANDLED;

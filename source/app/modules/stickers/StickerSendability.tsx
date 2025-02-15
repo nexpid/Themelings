@@ -41,13 +41,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report[oscar] = tango;
     var _closure1_slot5 = report;
     tango = function(argFoo, argBar, argBaz) { // Original name: getStickerSendability
-        _fun65442: for(var _fun65442_ip = 0; ; ) switch(_fun65442_ip) {
+        _fun65447: for(var _fun65447_ip = 0; ; ) switch(_fun65447_ip) {
  0:
             tango = argFoo;
             verify = argBar;
             options = argBaz;
             oscar = null;
-            if(!(oscar != verify)) { _fun65442_ip = 333; continue _fun65442 }
+            if(!(oscar != verify)) { _fun65447_ip = 333; continue _fun65447 }
  18:
             report = _closure1_slot1;
             entity = _closure1_slot3;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(golf)(entity);
             entity = zulu.isStandardSticker;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun65442_ip = 321; continue _fun65442 }
+            if(entity) { _fun65447_ip = 321; continue _fun65447 }
  87:
             zulu = _closure1_slot0;
             entity = _closure1_slot3;
@@ -71,34 +71,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(golf)(entity);
             entity = zulu.isGuildSticker;
             entity = entity.bind(zulu)(tango);
-            if(!entity) { _fun65442_ip = 122; continue _fun65442 }
+            if(!entity) { _fun65447_ip = 122; continue _fun65447 }
  118:
-            if(!(oscar == options)) { _fun65442_ip = 137; continue _fun65442 }
+            if(!(oscar == options)) { _fun65447_ip = 137; continue _fun65447 }
  122:
             entity = _closure1_slot5;
             entity = entity.NONSENDABLE;
-            _fun65442_ip = 319; continue _fun65442;
+            _fun65447_ip = 319; continue _fun65447;
  137:
             zulu = tango.available;
-            if(zulu) { _fun65442_ip = 161; continue _fun65442 }
+            if(zulu) { _fun65447_ip = 161; continue _fun65447 }
  146:
             zulu = _closure1_slot5;
             zulu = zulu.SENDABLE_WITH_BOOSTED_GUILD;
-            _fun65442_ip = 316; continue _fun65442;
+            _fun65447_ip = 316; continue _fun65447;
  161:
             offset = options.guild_id;
-            if(!(oscar != offset)) { _fun65442_ip = 197; continue _fun65442 }
+            if(!(oscar != offset)) { _fun65447_ip = 197; continue _fun65447 }
  170:
             yankee = options.guild_id;
             offset = '';
-            if(!(offset !== yankee)) { _fun65442_ip = 197; continue _fun65442 }
+            if(!(offset !== yankee)) { _fun65447_ip = 197; continue _fun65447 }
  183:
             offset = options.guild_id;
             tango = tango.guild_id;
-            if(!(offset !== tango)) { _fun65442_ip = 303; continue _fun65442 }
+            if(!(offset !== tango)) { _fun65447_ip = 303; continue _fun65447 }
  197:
             tango = options.guild_id;
-            if(!(oscar != tango)) { _fun65442_ip = 277; continue _fun65442 }
+            if(!(oscar != tango)) { _fun65447_ip = 277; continue _fun65447 }
  206:
             oscar = _closure1_slot2;
             offset = _closure1_slot3;
@@ -113,23 +113,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['user'] = verify;
             tango['context'] = options;
             tango = oscar.bind(golf)(tango);
-            if(tango) { _fun65442_ip = 277; continue _fun65442 }
+            if(tango) { _fun65447_ip = 277; continue _fun65447 }
  265:
             tango = _closure1_slot5;
             tango = tango.NONSENDABLE;
-            _fun65442_ip = 301; continue _fun65442;
+            _fun65447_ip = 301; continue _fun65447;
  277:
             oscar = _closure1_slot5;
-            if(report) { _fun65442_ip = 292; continue _fun65442 }
+            if(report) { _fun65447_ip = 292; continue _fun65447 }
  284:
             report = oscar.SENDABLE_WITH_PREMIUM;
-            _fun65442_ip = 298; continue _fun65442;
+            _fun65447_ip = 298; continue _fun65447;
  292:
             report = oscar.SENDABLE;
  298:
             tango = report;
  301:
-            _fun65442_ip = 313; continue _fun65442;
+            _fun65447_ip = 313; continue _fun65447;
  303:
             report = _closure1_slot5;
             tango = report.SENDABLE;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  316:
             entity = zulu;
  319:
-            _fun65442_ip = 331; continue _fun65442;
+            _fun65447_ip = 331; continue _fun65447;
  321:
             mike = _closure1_slot5;
             entity = mike.SENDABLE;

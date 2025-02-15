@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GuildsBarGeoRestrictedGuild
-        _fun114570: for(var _fun114570_ip = 0; ; ) switch(_fun114570_ip) {
+        _fun114576: for(var _fun114576_ip = 0; ; ) switch(_fun114576_ip) {
  0:
             entity = argFoo;
             yankee = entity.restrictedGuild;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             zulu = report != zulu;
             offset = null;
-            if(!zulu) { _fun114570_ip = 111; continue _fun114570 }
+            if(!zulu) { _fun114576_ip = 111; continue _fun114576 }
  70:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = options;
             oscar = zulu.bind(tango)(golf, oscar);
             entity['externalChildren'] = oscar;
-            if(!(report == offset)) { _fun114570_ip = 354; continue _fun114570 }
+            if(!(report == offset)) { _fun114576_ip = 354; continue _fun114576 }
  268:
             golf = _closure1_slot4;
             oscar = _closure1_slot1;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.LARGE;
             report['size'] = options;
             report = golf.bind(tango)(oscar, report);
-            _fun114570_ip = 411; continue _fun114570;
+            _fun114576_ip = 411; continue _fun114576;
  354:
             options = _closure1_slot4;
             golf = _closure1_slot1;

@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['useTrailing'] = tango;
     tango = function() { // Original name: useTrailingDismissibleContent
-        _fun97485: for(var _fun97485_ip = 0; ; ) switch(_fun97485_ip) {
+        _fun97495: for(var _fun97495_ip = 0; ; ) switch(_fun97495_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -96,10 +96,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity['location'] = oscar;
             entity = zulu.bind(report)(entity);
             entity = entity.enabled;
-            if(entity) { _fun97485_ip = 62; continue _fun97485 }
+            if(entity) { _fun97495_ip = 62; continue _fun97495 }
  56:
             entity = new Array(0);
-            _fun97485_ip = 105; continue _fun97485;
+            _fun97495_ip = 105; continue _fun97495;
  62:
             zulu = _closure1_slot0;
             report = _closure1_slot2;

@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: ViewDebugLogsActionSheet
-        _fun98187: for(var _fun98187_ip = 0; ; ) switch(_fun98187_ip) {
+        _fun98197: for(var _fun98197_ip = 0; ; ) switch(_fun98197_ip) {
  0:
             tango = _closure1_slot3;
             offset = _closure1_slot0;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.isAndroid;
             offset = verify.bind(offset)();
             verify = null;
-            if(!offset) { _fun98187_ip = 555; continue _fun98187 }
+            if(!offset) { _fun98197_ip = 555; continue _fun98197 }
  430:
             romeo = _closure1_slot3;
             yankee = _closure1_slot6;

@@ -30,18 +30,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo, argBar) {
-        _fun76252: for(var _fun76252_ip = 0; ; ) switch(_fun76252_ip) {
+        _fun76262: for(var _fun76262_ip = 0; ; ) switch(_fun76262_ip) {
  0:
             mike = argBar;
             zulu = {};
             entity = 'sm';
-            if(!(entity !== mike)) { _fun76252_ip = 159; continue _fun76252 }
+            if(!(entity !== mike)) { _fun76262_ip = 159; continue _fun76262 }
  16:
             entity = 'md';
-            if(!(entity !== mike)) { _fun76252_ip = 97; continue _fun76252 }
+            if(!(entity !== mike)) { _fun76262_ip = 97; continue _fun76262 }
  24:
             entity = 'lg';
-            if(!(entity === mike)) { _fun76252_ip = 219; continue _fun76252 }
+            if(!(entity === mike)) { _fun76262_ip = 219; continue _fun76262 }
  35:
             entity = {};
             report = _closure1_slot0;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.LARGE_BUTTON_PADDING;
             entity['paddingVertical'] = mike;
             zulu = entity;
-            _fun76252_ip = 219; continue _fun76252;
+            _fun76262_ip = 219; continue _fun76262;
  97:
             entity = {};
             report = _closure1_slot0;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.MEDIUM_BUTTON_PADDING;
             entity['paddingVertical'] = mike;
             zulu = entity;
-            _fun76252_ip = 219; continue _fun76252;
+            _fun76262_ip = 219; continue _fun76262;
  159:
             entity = {};
             report = _closure1_slot0;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun76253: for(var _fun76253_ip = 0; ; ) switch(_fun76253_ip) {
+        _fun76263: for(var _fun76263_ip = 0; ; ) switch(_fun76263_ip) {
  0:
             source = argFoo;
             report = source.style;
@@ -122,12 +122,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = source.variant;
             backup = 'primary';
             tango = undefined;
-            if(!(tango !== entity)) { _fun76253_ip = 32; continue _fun76253 }
+            if(!(tango !== entity)) { _fun76263_ip = 32; continue _fun76263 }
  29:
             backup = entity;
  32:
             kilo = source.size;
-            if(!(tango === kilo)) { _fun76253_ip = 70; continue _fun76253 }
+            if(!(tango === kilo)) { _fun76263_ip = 70; continue _fun76263 }
  41:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = source.scaleAmountInPx;
             entity = 4;
             update = entity;
-            if(!(tango !== mike)) { _fun76253_ip = 106; continue _fun76253 }
+            if(!(tango !== mike)) { _fun76263_ip = 106; continue _fun76263 }
  103:
             update = mike;
  106:
@@ -170,17 +170,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar.bind(tango)(entity);
             control = entity.LARGE_BUTTON_HEIGHT;
             offset = 'sm';
-            if(!(offset !== kilo)) { _fun76253_ip = 254; continue _fun76253 }
+            if(!(offset !== kilo)) { _fun76263_ip = 254; continue _fun76263 }
  221:
             entity = 'md';
-            if(!(entity === kilo)) { _fun76253_ip = 277; continue _fun76253 }
+            if(!(entity === kilo)) { _fun76263_ip = 277; continue _fun76263 }
  229:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[sequence];
             entity = mike.bind(tango)(entity);
             control = entity.MEDIUM_BUTTON_HEIGHT;
-            _fun76253_ip = 277; continue _fun76253;
+            _fun76263_ip = 277; continue _fun76263;
  254:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['loading'] = verify;
             verify = 'xs';
             backup = 'lg';
-            if(!(backup === kilo)) { _fun76253_ip = 500; continue _fun76253 }
+            if(!(backup === kilo)) { _fun76263_ip = 500; continue _fun76263 }
  497:
             verify = offset;
  500:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.isValidElement;
             verify = golf.bind(verify)(yankee);
             golf = yankee;
-            if(verify) { _fun76253_ip = 567; continue _fun76253 }
+            if(verify) { _fun76263_ip = 567; continue _fun76263 }
  531:
             offset = _closure1_slot3;
             verify = _closure1_slot5;

@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/components/StageSectionHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: StageSectionHeader
-        _fun104006: for(var _fun104006_ip = 0; ; ) switch(_fun104006_ip) {
+        _fun103998: for(var _fun103998_ip = 0; ; ) switch(_fun103998_ip) {
  0:
             mike = argFoo;
             kilo = mike.label;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: y
-                _fun104007: for(var _fun104007_ip = 0; ; ) switch(_fun104007_ip) {
+                _fun103999: for(var _fun103999_ip = 0; ; ) switch(_fun103999_ip) {
  0:
                     entity = {};
                     zulu = {};
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.withTiming;
                     mike = _closure2_slot0;
                     tango = '0deg';
-                    if(!mike) { _fun104007_ip = 56; continue _fun104007 }
+                    if(!mike) { _fun103999_ip = 56; continue _fun103999 }
  50:
                     tango = '180deg';
  56:
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = verify;
             verify = null;
             verify = verify != output;
-            if(!verify) { _fun104006_ip = 299; continue _fun104006 }
+            if(!verify) { _fun103998_ip = 299; continue _fun103998 }
  270:
             kilo = _closure1_slot6;
             yankee = _closure1_slot4;

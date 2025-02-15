@@ -8,21 +8,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     tango = function(argFoo) { // Original name: getMembersTableTimestampFormatter
-        _fun59273: for(var _fun59273_ip = 0; ; ) switch(_fun59273_ip) {
+        _fun59276: for(var _fun59276_ip = 0; ; ) switch(_fun59276_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot3;
             entity = entity.JOINED_AT;
-            if(!(tango !== entity)) { _fun59273_ip = 42; continue _fun59273 }
+            if(!(tango !== entity)) { _fun59276_ip = 42; continue _fun59276 }
  20:
             entity = _closure1_slot3;
             zulu = entity.ACCOUNT_AGE;
             entity = undefined;
-            if(!(tango === zulu)) { _fun59273_ip = 40; continue _fun59273 }
+            if(!(tango === zulu)) { _fun59276_ip = 40; continue _fun59276 }
  36:
             entity = _closure1_slot5;
  40:
-            _fun59273_ip = 46; continue _fun59273;
+            _fun59276_ip = 46; continue _fun59276;
  42:
             entity = _closure1_slot4;
  46:
@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['formatDateRelativeTime'] = tango;
     mike = function(argFoo) {
-        _fun59277: for(var _fun59277_ip = 0; ; ) switch(_fun59277_ip) {
+        _fun59280: for(var _fun59280_ip = 0; ; ) switch(_fun59280_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity == tango)) { _fun59277_ip = 39; continue _fun59277 }
+            if(!(entity == tango)) { _fun59280_ip = 39; continue _fun59280 }
  9:
             entity = global;
             entity = entity.Date;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike;
             entity = new oscar[entity](report);
             mike = entity instanceof Object ? entity : mike;
-            _fun59277_ip = 70; continue _fun59277;
+            _fun59280_ip = 70; continue _fun59280;
  39:
             entity = global;
             entity = entity.Date;

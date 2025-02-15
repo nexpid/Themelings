@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         mike[1] = report;
         entity = function() {
-            _fun103587: for(var _fun103587_ip = 0; ; ) switch(_fun103587_ip) {
+            _fun103579: for(var _fun103579_ip = 0; ; ) switch(_fun103579_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getSelectedParticipantId;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.bind(tango)(entity);
                 entity = null;
                 zulu = entity != tango;
-                if(!zulu) { _fun103587_ip = 54; continue _fun103587 }
+                if(!zulu) { _fun103579_ip = 54; continue _fun103579 }
  39:
                 zulu = _closure1_slot3;
                 mike = zulu.getActiveStreamForStreamKey;

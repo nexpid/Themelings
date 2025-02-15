@@ -109,16 +109,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['chatGiftIcon'] = oscar;
     oscar = {};
     yankee = function(argFoo, argBar) { // Original name: getImageUrl
-        _fun38292: for(var _fun38292_ip = 0; ; ) switch(_fun38292_ip) {
+        _fun38299: for(var _fun38299_ip = 0; ; ) switch(_fun38299_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
             entity = argBar;
-            if(entity) { _fun38292_ip = 26; continue _fun38292 }
+            if(entity) { _fun38299_ip = 26; continue _fun38299 }
  17:
             entity = 8;
             mike = tango[entity];
-            _fun38292_ip = 33; continue _fun38292;
+            _fun38299_ip = 33; continue _fun38299;
  26:
             entity = 4;
             mike = tango[entity];

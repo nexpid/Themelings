@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getScreens
-        _fun93670: for(var _fun93670_ip = 0; ; ) switch(_fun93670_ip) {
+        _fun93695: for(var _fun93695_ip = 0; ; ) switch(_fun93695_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -18,11 +18,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = undefined;
             zulu = zulu.bind(offset)(entity);
             entity = argBar;
-            if(entity) { _fun93670_ip = 49; continue _fun93670 }
+            if(entity) { _fun93695_ip = 49; continue _fun93695 }
  36:
             entity = zulu.getHeaderCloseButton;
             golf = entity.bind(zulu)(report);
-            _fun93670_ip = 60; continue _fun93670;
+            _fun93695_ip = 60; continue _fun93695;
  49:
             entity = zulu.getHeaderBackButton;
             golf = entity.bind(zulu)(report);
@@ -313,20 +313,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = verify[zulu];
         zulu = report.bind(tango)(zulu);
         mike = function() {
-            _fun93687: for(var _fun93687_ip = 0; ; ) switch(_fun93687_ip) {
+            _fun93712: for(var _fun93712_ip = 0; ; ) switch(_fun93712_ip) {
  0:
                 oscar = function() { // Original name: handleClose
-                    _fun93688: for(var _fun93688_ip = 0; ; ) switch(_fun93688_ip) {
+                    _fun93713: for(var _fun93713_ip = 0; ; ) switch(_fun93713_ip) {
  0:
                         report = arguments[0];
                         entity = undefined;
-                        if(!(report === entity)) { _fun93688_ip = 11; continue _fun93688 }
+                        if(!(report === entity)) { _fun93713_ip = 11; continue _fun93713 }
  9:
                         report = false;
  11:
                         tango = _closure2_slot1;
                         zulu = null;
-                        if(!(zulu != tango)) { _fun93688_ip = 39; continue _fun93688 }
+                        if(!(zulu != tango)) { _fun93713_ip = 39; continue _fun93713 }
  24:
                         tango = _closure2_slot1;
                         zulu = true;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = tango.bind(entity)(zulu);
  39:
                         zulu = _closure2_slot0;
-                        if(zulu) { _fun93688_ip = 81; continue _fun93688 }
+                        if(zulu) { _fun93713_ip = 81; continue _fun93713 }
  46:
                         tango = _closure1_slot1;
                         report = _closure1_slot2;
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.bind(entity)(zulu);
                         zulu = tango.close;
                         zulu = zulu.bind(tango)();
-                        _fun93688_ip = 95; continue _fun93688;
+                        _fun93713_ip = 95; continue _fun93713;
  81:
                         zulu = _closure2_slot4;
                         mike = zulu.goBack;
@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = mike.push;
                 entity = {};
                 golf = _closure1_slot4;
-                if(options) { _fun93687_ip = 75; continue _fun93687 }
+                if(options) { _fun93712_ip = 75; continue _fun93712 }
  37:
                 options = golf.VERIFY_EMAIL;
                 entity['name'] = options;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options['onClose'] = oscar;
                 entity['params'] = options;
                 options = report.bind(mike)(entity);
-                _fun93687_ip = 102; continue _fun93687;
+                _fun93712_ip = 102; continue _fun93712;
  75:
                 golf = golf.STUDENT_PROMPT;
                 entity['name'] = golf;

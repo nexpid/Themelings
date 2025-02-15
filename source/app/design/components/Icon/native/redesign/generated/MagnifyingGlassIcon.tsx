@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/MagnifyingGlassIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun65641: for(var _fun65641_ip = 0; ; ) switch(_fun65641_ip) {
+        _fun65646: for(var _fun65646_ip = 0; ; ) switch(_fun65646_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun65641_ip = 53; continue _fun65641 }
+            if(!(golf === tango)) { _fun65646_ip = 53; continue _fun65646 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

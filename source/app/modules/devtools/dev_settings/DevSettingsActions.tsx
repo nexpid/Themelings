@@ -6,13 +6,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     tango = function(argFoo, argBar) { // Original name: toggle
-        _fun98797: for(var _fun98797_ip = 0; ; ) switch(_fun98797_ip) {
+        _fun98807: for(var _fun98807_ip = 0; ; ) switch(_fun98807_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             mike = 'boolean';
             entity = typeof report;
-            if(!(mike !== entity)) { _fun98797_ip = 37; continue _fun98797 }
+            if(!(mike !== entity)) { _fun98807_ip = 37; continue _fun98807 }
  17:
             mike = _closure1_slot2;
             entity = mike.get;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['toggle'] = tango;
     mike = function() { // Original name: clearAll
-        _fun98798: for(var _fun98798_ip = 0; ; ) switch(_fun98798_ip) {
+        _fun98808: for(var _fun98808_ip = 0; ; ) switch(_fun98808_ip) {
  0:
             mike = _closure1_slot2;
             entity = mike.all;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 offset = zulu;
                 verify = _closure1_slot3;
                 verify = verify.bind(entity)(offset, mike);
-                _fun98798_ip = 29; continue _fun98798;
+                _fun98808_ip = 29; continue _fun98808;
             }
  53:
             return entity;

@@ -104,18 +104,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['setChannelState'] = tango;
         tango = function(argFoo) {
-            _fun100463: for(var _fun100463_ip = 0; ; ) switch(_fun100463_ip) {
+            _fun100472: for(var _fun100472_ip = 0; ; ) switch(_fun100472_ip) {
  0:
                 oscar = argFoo;
                 mike = null;
-                if(!(mike != oscar)) { _fun100463_ip = 150; continue _fun100463 }
+                if(!(mike != oscar)) { _fun100472_ip = 150; continue _fun100472 }
  12:
                 zulu = _closure2_slot0;
                 entity = zulu.get;
                 entity = entity.bind(zulu)();
                 entity = entity.channelStates;
                 entity = entity[oscar];
-                if(!(mike == entity)) { _fun100463_ip = 148; continue _fun100463 }
+                if(!(mike == entity)) { _fun100472_ip = 148; continue _fun100472 }
  42:
                 report = _closure1_slot4;
                 tango = report.getChannel;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['getChannelState'] = tango;
         tango = function(argFoo, argBar) {
-            _fun100464: for(var _fun100464_ip = 0; ; ) switch(_fun100464_ip) {
+            _fun100473: for(var _fun100473_ip = 0; ; ) switch(_fun100473_ip) {
  0:
                 tango = argFoo;
                 report = argBar;
@@ -167,11 +167,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike instanceof Object ? mike : zulu;
                 mike = zulu.has;
                 mike = mike.bind(zulu)(report);
-                if(mike) { _fun100464_ip = 83; continue _fun100464 }
+                if(mike) { _fun100473_ip = 83; continue _fun100473 }
  71:
                 mike = zulu.add;
                 mike = mike.bind(zulu)(report);
-                _fun100464_ip = 93; continue _fun100464;
+                _fun100473_ip = 93; continue _fun100473;
  83:
                 mike = zulu.delete;
                 mike = mike.bind(zulu)(report);
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/forums/ForumChannelStore.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun100470: for(var _fun100470_ip = 0; ; ) switch(_fun100470_ip) {
+        _fun100479: for(var _fun100479_ip = 0; ; ) switch(_fun100479_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -307,11 +307,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             report = oscar.bind(golf)(report, entity);
             entity = null;
-            if(!(entity != report)) { _fun100470_ip = 91; continue _fun100470 }
+            if(!(entity != report)) { _fun100479_ip = 91; continue _fun100479 }
  78:
             entity = zulu.getChannelState;
             entity = entity.bind(zulu)(tango);
-            _fun100470_ip = 95; continue _fun100470;
+            _fun100479_ip = 95; continue _fun100479;
  91:
             entity = _closure1_slot6;
  95:

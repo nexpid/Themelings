@@ -59,14 +59,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure2_slot0;
             tango = report.reduce;
             mike = function(argFoo, argBar) {
-                _fun79996: for(var _fun79996_ip = 0; ; ) switch(_fun79996_ip) {
+                _fun80009: for(var _fun80009_ip = 0; ; ) switch(_fun80009_ip) {
  0:
                     entity = argFoo;
                     mike = argBar;
                     tango = entity.includes;
                     zulu = mike.src;
                     zulu = tango.bind(entity)(zulu);
-                    if(zulu) { _fun79996_ip = 41; continue _fun79996 }
+                    if(zulu) { _fun80009_ip = 41; continue _fun80009 }
  25:
                     zulu = entity.push;
                     mike = mike.src;
@@ -92,11 +92,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[0] = tango;
         report[1] = options;
         entity = function() {
-            _fun79997: for(var _fun79997_ip = 0; ; ) switch(_fun79997_ip) {
+            _fun80010: for(var _fun80010_ip = 0; ; ) switch(_fun80010_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = 0;
-                if(!(mike === zulu)) { _fun79997_ip = 23; continue _fun79997 }
+                if(!(mike === zulu)) { _fun80010_ip = 23; continue _fun80010 }
  13:
                 mike = _closure2_slot1;
                 entity = undefined;

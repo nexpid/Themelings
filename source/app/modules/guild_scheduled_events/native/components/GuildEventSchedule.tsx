@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/GuildEventSchedule.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildEventSchedule
-        _fun76209: for(var _fun76209_ip = 0; ; ) switch(_fun76209_ip) {
+        _fun76219: for(var _fun76219_ip = 0; ; ) switch(_fun76219_ip) {
  0:
             mike = argFoo;
             oscar = mike.guildEvent;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.MAX_DAYS_AHEAD_AN_EVENT_CAN_END;
             yankee = zulu.bind(report)(mike, verify);
             verify = null;
-            if(!(verify != entity)) { _fun76209_ip = 261; continue _fun76209 }
+            if(!(verify != entity)) { _fun76219_ip = 261; continue _fun76219 }
  197:
             offset = backup.add;
             report = _closure1_slot0;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = offset;
             oscar = oscar.scheduled_end_time;
             oscar = verify != oscar;
-            if(!oscar) { _fun76209_ip = 633; continue _fun76209 }
+            if(!oscar) { _fun76219_ip = 633; continue _fun76219 }
  467:
             verify = _closure1_slot4;
             foxtrot = _closure1_slot0;

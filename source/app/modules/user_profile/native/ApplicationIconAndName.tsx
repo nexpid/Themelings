@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/native/ApplicationIconAndName.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ApplicationIconAndName
-        _fun101681: for(var _fun101681_ip = 0; ; ) switch(_fun101681_ip) {
+        _fun101673: for(var _fun101673_ip = 0; ; ) switch(_fun101673_ip) {
  0:
             entity = argFoo;
             offset = entity.application;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = entity.iconSize;
             verify = entity.useComma;
             tango = undefined;
-            if(!(verify === tango)) { _fun101681_ip = 34; continue _fun101681 }
+            if(!(verify === tango)) { _fun101673_ip = 34; continue _fun101673 }
  32:
             verify = false;
  34:
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             sizing = romeo != kilo;
             romeo = '';
             backup = romeo;
-            if(!sizing) { _fun101681_ip = 133; continue _fun101681 }
+            if(!sizing) { _fun101673_ip = 133; continue _fun101673 }
  130:
             backup = kilo;
  133:
@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar['variant'] = yankee;
             yankee = offset.name;
             offset = romeo;
-            if(!verify) { _fun101681_ip = 220; continue _fun101681 }
- 214:
+            if(!verify) { _fun101673_ip = 221; continue _fun101673 }
+ 215:
             offset = ', ';
- 220:
+ 221:
             verify = global;
             verify = verify.HermesInternal;
             verify = verify.concat;

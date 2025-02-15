@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/roadblocks/native/views/PremiumEmojiFeatureUpsell.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumEmojiFeatureUpsell
-        _fun78459: for(var _fun78459_ip = 0; ; ) switch(_fun78459_ip) {
+        _fun78469: for(var _fun78469_ip = 0; ; ) switch(_fun78469_ip) {
  0:
             mike = argFoo;
             verify = mike.inActionSheet;
@@ -119,24 +119,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(zulu);
             zulu = tango.useDerivedValue;
             entity = function() { // Original name: c
-                _fun78461: for(var _fun78461_ip = 0; ; ) switch(_fun78461_ip) {
+                _fun78471: for(var _fun78471_ip = 0; ; ) switch(_fun78471_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = mike.get;
                     entity = entity.bind(mike)();
-                    if(!entity) { _fun78461_ip = 96; continue _fun78461 }
+                    if(!entity) { _fun78471_ip = 96; continue _fun78471 }
  19:
                     tango = _closure2_slot2;
                     mike = tango.get;
                     tango = mike.bind(tango)();
                     mike = 1;
                     mike = mike === tango;
-                    if(mike) { _fun78461_ip = 49; continue _fun78461 }
+                    if(mike) { _fun78471_ip = 49; continue _fun78471 }
  42:
                     tango = _closure2_slot0;
                     mike = !tango;
  49:
-                    if(mike) { _fun78461_ip = 93; continue _fun78461 }
+                    if(mike) { _fun78471_ip = 93; continue _fun78471 }
  52:
                     tango = global;
                     report = tango.Math;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['__initData'] = golf;
             verify = zulu.bind(tango)(entity);
             entity = null;
-            if(mike) { _fun78459_ip = 358; continue _fun78459 }
+            if(mike) { _fun78469_ip = 358; continue _fun78469 }
  263:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;

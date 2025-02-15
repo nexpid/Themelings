@@ -6,32 +6,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     report = function(argFoo) { // Original name: getFriendlyDurationString
-        _fun43923: for(var _fun43923_ip = 0; ; ) switch(_fun43923_ip) {
+        _fun43931: for(var _fun43931_ip = 0; ; ) switch(_fun43931_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.DURATION_60_SEC;
-            if(!(mike !== zulu)) { _fun43923_ip = 447; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 447; continue _fun43931 }
  23:
             mike = _closure1_slot2;
             mike = mike.DURATION_5_MIN;
-            if(!(mike !== zulu)) { _fun43923_ip = 377; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 377; continue _fun43931 }
  40:
             mike = _closure1_slot2;
             mike = mike.DURATION_10_MIN;
-            if(!(mike !== zulu)) { _fun43923_ip = 307; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 307; continue _fun43931 }
  57:
             mike = _closure1_slot2;
             mike = mike.DURATION_1_HOUR;
-            if(!(mike !== zulu)) { _fun43923_ip = 240; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 240; continue _fun43931 }
  74:
             mike = _closure1_slot2;
             mike = mike.DURATION_1_DAY;
-            if(!(mike !== zulu)) { _fun43923_ip = 173; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 173; continue _fun43931 }
  88:
             mike = _closure1_slot2;
             mike = mike.DURATION_1_WEEK;
-            if(!(mike !== zulu)) { _fun43923_ip = 106; continue _fun43923 }
+            if(!(mike !== zulu)) { _fun43931_ip = 106; continue _fun43931 }
  102:
             mike = undefined;
             return mike;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.map;
         entity = function(argFoo) {
-            _fun43926: for(var _fun43926_ip = 0; ; ) switch(_fun43926_ip) {
+            _fun43934: for(var _fun43934_ip = 0; ; ) switch(_fun43934_ip) {
  0:
                 zulu = argFoo;
                 entity = {};
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = null;
                 oscar = tango != report;
                 tango = '';
-                if(!oscar) { _fun43926_ip = 43; continue _fun43926 }
+                if(!oscar) { _fun43934_ip = 43; continue _fun43934 }
  40:
                 tango = report;
  43:

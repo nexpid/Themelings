@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/BellIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79340: for(var _fun79340_ip = 0; ; ) switch(_fun79340_ip) {
+        _fun79350: for(var _fun79350_ip = 0; ; ) switch(_fun79350_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79340_ip = 53; continue _fun79340 }
+            if(!(golf === tango)) { _fun79350_ip = 53; continue _fun79350 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

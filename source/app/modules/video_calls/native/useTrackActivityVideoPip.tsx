@@ -76,25 +76,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[2] = golf;
         zulu[3] = oscar;
         mike = function() {
-            _fun75972: for(var _fun75972_ip = 0; ; ) switch(_fun75972_ip) {
+            _fun75982: for(var _fun75982_ip = 0; ; ) switch(_fun75982_ip) {
  0:
                 entity = _closure2_slot3;
                 mike = null;
-                if(!(mike != entity)) { _fun75972_ip = 149; continue _fun75972 }
+                if(!(mike != entity)) { _fun75982_ip = 149; continue _fun75982 }
  16:
                 entity = _closure2_slot2;
-                if(!(mike != entity)) { _fun75972_ip = 149; continue _fun75972 }
+                if(!(mike != entity)) { _fun75982_ip = 149; continue _fun75982 }
  27:
                 mike = _closure2_slot1;
                 entity = _closure2_slot2;
-                if(!(mike !== entity)) { _fun75972_ip = 149; continue _fun75972 }
+                if(!(mike !== entity)) { _fun75982_ip = 149; continue _fun75982 }
  39:
                 zulu = _closure2_slot1;
                 mike = _closure1_slot5;
-                if(zulu) { _fun75972_ip = 61; continue _fun75972 }
+                if(zulu) { _fun75982_ip = 61; continue _fun75982 }
  53:
                 tango = mike.ACTIVITY_VIDEO_PIP_HIDDEN;
-                _fun75972_ip = 67; continue _fun75972;
+                _fun75982_ip = 67; continue _fun75982;
  61:
                 tango = mike.ACTIVITY_VIDEO_PIP_SHOWN;
  67:

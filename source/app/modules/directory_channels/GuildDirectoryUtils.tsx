@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'modules/directory_channels/GuildDirectoryUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo) { // Original name: guildDirectoryEntryFromServer
-        _fun78748: for(var _fun78748_ip = 0; ; ) switch(_fun78748_ip) {
+        _fun78758: for(var _fun78758_ip = 0; ; ) switch(_fun78758_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot0;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun78748_ip = 153; continue _fun78748 }
+            if(golf) { _fun78758_ip = 153; continue _fun78758 }
  148:
             report = oscar.name;
  153:
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.guild;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun78748_ip = 176; continue _fun78748 }
+            if(golf) { _fun78758_ip = 176; continue _fun78758 }
  171:
             report = oscar.icon;
  176:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.guild;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun78748_ip = 200; continue _fun78748 }
+            if(golf) { _fun78758_ip = 200; continue _fun78758 }
  194:
             report = oscar.splash;
  200:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.guild;
             options = tango == oscar;
             report = undefined;
-            if(options) { _fun78748_ip = 233; continue _fun78748 }
+            if(options) { _fun78758_ip = 233; continue _fun78758 }
  227:
             report = oscar.features;
  233:
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.guild;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun78748_ip = 281; continue _fun78748 }
+            if(golf) { _fun78758_ip = 281; continue _fun78758 }
  275:
             report = oscar.approximate_member_count;
  281:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.guild;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun78748_ip = 306; continue _fun78748 }
+            if(golf) { _fun78758_ip = 306; continue _fun78758 }
  300:
             report = oscar.approximate_presence_count;
  306:
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.guild;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun78748_ip = 333; continue _fun78748 }
+            if(tango) { _fun78758_ip = 333; continue _fun78758 }
  325:
             mike = zulu.featurable_in_directory;
  333:

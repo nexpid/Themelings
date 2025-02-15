@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/content_inventory/friendlist/native/FriendListInventory.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun115051: for(var _fun115051_ip = 0; ; ) switch(_fun115051_ip) {
+        _fun115057: for(var _fun115057_ip = 0; ; ) switch(_fun115057_ip) {
  0:
             mike = _closure1_slot8;
             report = undefined;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot3;
             zulu = tango.useCallback;
             mike = function(argFoo) {
-                _fun115053: for(var _fun115053_ip = 0; ; ) switch(_fun115053_ip) {
+                _fun115059: for(var _fun115059_ip = 0; ; ) switch(_fun115059_ip) {
  0:
                     entity = argFoo;
                     mike = entity.item;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.ContentInventoryEntryType;
                     zulu = entity.PLAYED_GAME;
                     entity = null;
-                    if(!(tango === zulu)) { _fun115053_ip = 139; continue _fun115053 }
+                    if(!(tango === zulu)) { _fun115059_ip = 139; continue _fun115059 }
  67:
                     report = _closure1_slot7;
                     tango = _closure1_slot4;
@@ -126,14 +126,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == yankee;
             entity = null;
-            if(mike) { _fun115051_ip = 238; continue _fun115051 }
+            if(mike) { _fun115057_ip = 242; continue _fun115057 }
  105:
             mike = yankee.entries;
             tango = mike.length;
             mike = 1;
             mike = tango < mike;
             entity = null;
-            if(mike) { _fun115051_ip = 238; continue _fun115051 }
+            if(mike) { _fun115057_ip = 242; continue _fun115057 }
  128:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 238:
+ 242:
             return entity;
         }
     };

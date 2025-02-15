@@ -62,22 +62,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'updateVoiceStates';
         entity['key'] = mike;
         mike = function(argFoo, argBar) { // Original name: value
-            _fun105429: for(var _fun105429_ip = 0; ; ) switch(_fun105429_ip) {
+            _fun105421: for(var _fun105421_ip = 0; ; ) switch(_fun105421_ip) {
  0:
                 tango = argFoo;
                 oscar = argBar;
                 mike = this;
                 entity = mike.channelId;
-                if(!(oscar !== entity)) { _fun105429_ip = 95; continue _fun105429 }
+                if(!(oscar !== entity)) { _fun105421_ip = 95; continue _fun105421 }
  18:
                 zulu = null;
                 entity = zulu == oscar;
-                if(!entity) { _fun105429_ip = 37; continue _fun105429 }
+                if(!entity) { _fun105421_ip = 37; continue _fun105421 }
  27:
                 report = mike.totalSpeakers;
                 entity = tango in report;
  37:
-                if(!entity) { _fun105429_ip = 63; continue _fun105429 }
+                if(!entity) { _fun105421_ip = 63; continue _fun105421 }
  40:
                 report = mike.totalSpeakers;
                 entity = _closure1_slot4;
@@ -86,15 +86,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  63:
                 entity = mike.userId;
                 entity = tango === entity;
-                if(!entity) { _fun105429_ip = 79; continue _fun105429 }
+                if(!entity) { _fun105421_ip = 79; continue _fun105421 }
  75:
                 entity = zulu != oscar;
  79:
-                if(!entity) { _fun105429_ip = 160; continue _fun105429 }
+                if(!entity) { _fun105421_ip = 160; continue _fun105421 }
  82:
                 entity = mike.setChannelId;
                 entity = entity.bind(mike)(oscar);
-                _fun105429_ip = 160; continue _fun105429;
+                _fun105421_ip = 160; continue _fun105421;
  95:
                 zulu = mike.totalParticipants;
                 entity = zulu.add;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'setSpeaking';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun105431: for(var _fun105431_ip = 0; ; ) switch(_fun105431_ip) {
+            _fun105423: for(var _fun105423_ip = 0; ; ) switch(_fun105423_ip) {
  0:
                 oscar = argFoo;
                 mike = argBar;
@@ -157,30 +157,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 var _closure3_slot0 = entity;
                 tango = _closure1_slot4;
                 tango = tango.NONE;
-                if(!(mike === tango)) { _fun105431_ip = 73; continue _fun105431 }
+                if(!(mike === tango)) { _fun105423_ip = 73; continue _fun105423 }
  32:
                 tango = entity.totalSpeakers;
                 tango = oscar in tango;
-                if(!tango) { _fun105431_ip = 203; continue _fun105431 }
+                if(!tango) { _fun105423_ip = 203; continue _fun105423 }
  48:
                 golf = entity.totalSpeakers;
                 tango = _closure1_slot4;
                 tango = tango.NONE;
                 golf[oscar] = tango;
-                _fun105431_ip = 203; continue _fun105431;
+                _fun105423_ip = 203; continue _fun105423;
  73:
                 options = _closure1_slot2;
                 golf = options.getVoiceStateForChannel;
                 tango = entity.channelId;
                 tango = golf.bind(options)(tango, oscar);
                 golf = null;
-                if(!(golf != tango)) { _fun105431_ip = 203; continue _fun105431 }
+                if(!(golf != tango)) { _fun105423_ip = 203; continue _fun105423 }
  100:
                 golf = tango.selfMute;
-                if(golf) { _fun105431_ip = 203; continue _fun105431 }
+                if(golf) { _fun105423_ip = 203; continue _fun105423 }
  109:
                 tango = tango.mute;
-                if(tango) { _fun105431_ip = 203; continue _fun105431 }
+                if(tango) { _fun105423_ip = 203; continue _fun105423 }
  118:
                 tango = entity.totalSpeakers;
                 tango[oscar] = mike;
@@ -206,14 +206,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['maxSpeakerCount'] = tango;
  203:
                 tango = entity.userId;
-                if(!(tango === oscar)) { _fun105431_ip = 354; continue _fun105431 }
+                if(!(tango === oscar)) { _fun105423_ip = 354; continue _fun105423 }
  215:
                 tango = entity.speaking;
-                if(!(mike !== tango)) { _fun105431_ip = 358; continue _fun105431 }
+                if(!(mike !== tango)) { _fun105423_ip = 358; continue _fun105423 }
  228:
                 tango = _closure1_slot4;
                 tango = tango.NONE;
-                if(!(mike !== tango)) { _fun105431_ip = 348; continue _fun105431 }
+                if(!(mike !== tango)) { _fun105423_ip = 348; continue _fun105423 }
  242:
                 tango = global;
                 golf = tango.Object;
@@ -225,12 +225,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = oscar.bind(golf)(zulu);
                 oscar = golf.filter;
                 zulu = function(argFoo) {
-                    _fun105433: for(var _fun105433_ip = 0; ; ) switch(_fun105433_ip) {
+                    _fun105425: for(var _fun105425_ip = 0; ; ) switch(_fun105425_ip) {
  0:
                         mike = argFoo;
                         entity = mike.selfDeaf;
                         entity = !entity;
-                        if(!entity) { _fun105433_ip = 24; continue _fun105433 }
+                        if(!entity) { _fun105425_ip = 24; continue _fun105425 }
  15:
                         mike = mike.deaf;
                         entity = !mike;
@@ -272,13 +272,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'setChannelId';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun105435: for(var _fun105435_ip = 0; ; ) switch(_fun105435_ip) {
+            _fun105427: for(var _fun105427_ip = 0; ; ) switch(_fun105427_ip) {
  0:
                 entity = argFoo;
                 mike = this;
                 var _closure3_slot0 = mike;
                 zulu = mike.channelId;
-                if(!(entity !== zulu)) { _fun105435_ip = 217; continue _fun105435 }
+                if(!(entity !== zulu)) { _fun105427_ip = 217; continue _fun105427 }
  24:
                 mike['channelId'] = entity;
                 zulu = global;

@@ -29,18 +29,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/go_live/utils/StreamKeyUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: isStreamKey
-        _fun49541: for(var _fun49541_ip = 0; ; ) switch(_fun49541_ip) {
+        _fun49548: for(var _fun49548_ip = 0; ; ) switch(_fun49548_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun49541_ip = 63; continue _fun49541 }
+            if(!entity) { _fun49548_ip = 63; continue _fun49548 }
  12:
             tango = report.startsWith;
             mike = _closure1_slot1;
             mike = mike.GUILD;
             mike = tango.bind(report)(mike);
-            if(mike) { _fun49541_ip = 60; continue _fun49541 }
+            if(mike) { _fun49548_ip = 60; continue _fun49548 }
  39:
             tango = report.startsWith;
             zulu = _closure1_slot1;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isStreamKey'] = tango;
     tango = function(argFoo) { // Original name: decodeStreamKey
-        _fun49542: for(var _fun49542_ip = 0; ; ) switch(_fun49542_ip) {
+        _fun49549: for(var _fun49549_ip = 0; ; ) switch(_fun49549_ip) {
  0:
             zulu = argFoo;
             mike = zulu.split;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = report[mike];
             zulu = _closure1_slot1;
             zulu = zulu.GUILD;
-            if(!(zulu !== golf)) { _fun49542_ip = 157; continue _fun49542 }
+            if(!(zulu !== golf)) { _fun49549_ip = 157; continue _fun49549 }
  40:
             zulu = _closure1_slot1;
             zulu = zulu.CALL;
-            if(!(zulu !== golf)) { _fun49542_ip = 106; continue _fun49542 }
+            if(!(zulu !== golf)) { _fun49549_ip = 106; continue _fun49549 }
  54:
             zulu = global;
             oscar = zulu.Error;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['decodeStreamKey'] = tango;
     mike = function(argFoo) { // Original name: encodeStreamKey
-        _fun49543: for(var _fun49543_ip = 0; ; ) switch(_fun49543_ip) {
+        _fun49550: for(var _fun49550_ip = 0; ; ) switch(_fun49550_ip) {
  0:
             entity = argFoo;
             report = entity.streamType;
@@ -128,11 +128,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.ownerId;
             oscar = _closure1_slot1;
             oscar = oscar.GUILD;
-            if(!(oscar !== report)) { _fun49543_ip = 140; continue _fun49543 }
+            if(!(oscar !== report)) { _fun49550_ip = 140; continue _fun49550 }
  42:
             zulu = _closure1_slot1;
             zulu = zulu.CALL;
-            if(!(zulu !== report)) { _fun49543_ip = 108; continue _fun49543 }
+            if(!(zulu !== report)) { _fun49550_ip = 108; continue _fun49550 }
  56:
             zulu = global;
             golf = zulu.Error;

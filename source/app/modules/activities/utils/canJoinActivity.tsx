@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/canJoinActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: canJoinActivity
-        _fun80536: for(var _fun80536_ip = 0; ; ) switch(_fun80536_ip) {
+        _fun80548: for(var _fun80548_ip = 0; ; ) switch(_fun80548_ip) {
  0:
             entity = argFoo;
             sizing = entity.user;
@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.getIsActivitiesEnabledForCurrentPlatform;
             yankee = entity.bind(report)(yankee);
             entity = null;
-            if(!(entity != sizing)) { _fun80536_ip = 575; continue _fun80536 }
+            if(!(entity != sizing)) { _fun80548_ip = 575; continue _fun80548 }
  133:
-            if(!mike) { _fun80536_ip = 143; continue _fun80536 }
+            if(!mike) { _fun80548_ip = 143; continue _fun80548 }
  136:
-            if(!(entity == backup)) { _fun80536_ip = 465; continue _fun80536 }
+            if(!(entity == backup)) { _fun80548_ip = 465; continue _fun80548 }
  143:
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -72,9 +72,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             result = result.bind(tango)(report);
             report = result.isDesktop;
             report = report.bind(result)();
-            if(report) { _fun80536_ip = 183; continue _fun80536 }
+            if(report) { _fun80548_ip = 183; continue _fun80548 }
  176:
-            if(mike) { _fun80536_ip = 183; continue _fun80536 }
+            if(mike) { _fun80548_ip = 183; continue _fun80548 }
  179:
             mike = false;
             return mike;
@@ -87,12 +87,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.PARTY_PRIVACY_FRIENDS;
             mike = report.bind(tango)(kilo, mike);
-            if(!mike) { _fun80536_ip = 244; continue _fun80536 }
+            if(!mike) { _fun80548_ip = 244; continue _fun80548 }
  222:
             report = echo.isFriend;
             mike = sizing.id;
             mike = report.bind(echo)(mike);
-            if(mike) { _fun80536_ip = 461; continue _fun80536 }
+            if(mike) { _fun80548_ip = 461; continue _fun80548 }
  244:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             mike = mike.PARTY_PRIVACY_VOICE_CHANNEL;
             mike = report.bind(tango)(kilo, mike);
-            if(mike) { _fun80536_ip = 284; continue _fun80536 }
+            if(mike) { _fun80548_ip = 284; continue _fun80548 }
  280:
             mike = false;
             return mike;
@@ -110,40 +110,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = output.getVoiceChannelId;
             mike = mike.bind(output)();
             output = report.bind(offset)(mike);
-            if(!(entity != output)) { _fun80536_ip = 457; continue _fun80536 }
+            if(!(entity != output)) { _fun80548_ip = 457; continue _fun80548 }
  311:
             result = verify.isInChannel;
             report = output.id;
             mike = sizing.id;
             mike = result.bind(verify)(report, mike);
-            if(!mike) { _fun80536_ip = 457; continue _fun80536 }
+            if(!mike) { _fun80548_ip = 457; continue _fun80548 }
  336:
             report = output.type;
             mike = _closure1_slot4;
             mike = mike.DM;
-            if(!(mike !== report)) { _fun80536_ip = 453; continue _fun80536 }
+            if(!(mike !== report)) { _fun80548_ip = 453; continue _fun80548 }
  355:
             mike = _closure1_slot4;
             mike = mike.GROUP_DM;
-            if(!(mike !== report)) { _fun80536_ip = 453; continue _fun80536 }
+            if(!(mike !== report)) { _fun80548_ip = 453; continue _fun80548 }
  369:
             report = golf.getGuild;
             mike = output.getGuildId;
             mike = mike.bind(output)();
             mike = report.bind(golf)(mike);
-            if(!(entity != mike)) { _fun80536_ip = 449; continue _fun80536 }
+            if(!(entity != mike)) { _fun80548_ip = 449; continue _fun80548 }
  393:
             output = mike.hasFeature;
             report = _closure1_slot5;
             report = report.COMMUNITY;
             report = output.bind(mike)(report);
-            if(report) { _fun80536_ip = 449; continue _fun80536 }
+            if(report) { _fun80548_ip = 449; continue _fun80548 }
  417:
             report = oscar.getMemberCount;
             mike = mike.id;
             report = report.bind(oscar)(mike);
             entity = entity != report;
-            if(!entity) { _fun80536_ip = 447; continue _fun80536 }
+            if(!entity) { _fun80548_ip = 447; continue _fun80548 }
  440:
             mike = 100;
             entity = report < mike;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: areSectionsWithVoiceSummaryEqual
-        _fun116071: for(var _fun116071_ip = 0; ; ) switch(_fun116071_ip) {
+        _fun116077: for(var _fun116077_ip = 0; ; ) switch(_fun116077_ip) {
  0:
             offset = argFoo;
             verify = argBar;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(mike)(verify);
             mike = golf.length;
             entity = entity.length;
-            if(!(mike === entity)) { _fun116071_ip = 211; continue _fun116071 }
+            if(!(mike === entity)) { _fun116077_ip = 211; continue _fun116077 }
  57:
             entity = golf.length;
             oscar = 0;
@@ -28,23 +28,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = 2;
             zulu = undefined;
             mike = null;
-            if(!entity) { _fun116071_ip = 195; continue _fun116071 }
+            if(!entity) { _fun116077_ip = 195; continue _fun116077 }
  81:
             yankee = golf[oscar];
             entity = options.Number;
             entity = entity.bind(zulu)(yankee);
             yankee = offset[entity];
             entity = verify[entity];
-            if(!(mike != entity)) { _fun116071_ip = 207; continue _fun116071 }
+            if(!(mike != entity)) { _fun116077_ip = 207; continue _fun116077 }
  108:
-            if(!(mike != yankee)) { _fun116071_ip = 207; continue _fun116071 }
+            if(!(mike != yankee)) { _fun116077_ip = 207; continue _fun116077 }
  112:
             romeo = entity.category;
-            if(!(mike != romeo)) { _fun116071_ip = 203; continue _fun116071 }
+            if(!(mike != romeo)) { _fun116077_ip = 203; continue _fun116077 }
  121:
             foxtrot = yankee.category;
             romeo = entity.category;
-            if(!(foxtrot === romeo)) { _fun116071_ip = 199; continue _fun116071 }
+            if(!(foxtrot === romeo)) { _fun116077_ip = 199; continue _fun116077 }
  135:
             foxtrot = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -54,14 +54,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = yankee.activeVoiceChannels;
             entity = entity.activeVoiceChannels;
             entity = romeo.bind(foxtrot)(yankee, entity);
-            if(entity) { _fun116071_ip = 183; continue _fun116071 }
+            if(entity) { _fun116077_ip = 183; continue _fun116077 }
  179:
             entity = false;
             return entity;
  183:
             oscar = oscar + 1;
             entity = golf.length;
-            if(oscar < entity) { _fun116071_ip = 81; continue _fun116071 }
+            if(oscar < entity) { _fun116077_ip = 81; continue _fun116077 }
  195:
             entity = true;
             return entity;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu[2] = golf;
         offset = _closure1_slot4;
         romeo = function() {
-            _fun116073: for(var _fun116073_ip = 0; ; ) switch(_fun116073_ip) {
+            _fun116079: for(var _fun116079_ip = 0; ; ) switch(_fun116079_ip) {
  0:
                 entity = {};
                 tango = _closure1_slot3;
@@ -151,13 +151,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = 0;
                 tango = undefined;
                 zulu = undefined;
-                if(!mike) { _fun116073_ip = 375; continue _fun116073 }
+                if(!mike) { _fun116079_ip = 375; continue _fun116079 }
  67:
                 mike = _closure2_slot1;
                 mike = mike[report];
                 sizing = tango;
                 kilo = zulu;
-                if(!(yankee !== mike)) { _fun116073_ip = 350; continue _fun116073 }
+                if(!(yankee !== mike)) { _fun116079_ip = 350; continue _fun116079 }
  88:
                 output = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 output = result.isVoiceChannelsSection;
                 mike = _closure2_slot2;
                 mike = output.bind(result)(report, mike);
-                if(mike) { _fun116073_ip = 160; continue _fun116073 }
+                if(mike) { _fun116079_ip = 160; continue _fun116079 }
  124:
                 output = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.SECTION_INDEX_FIRST_NAMED_CATEGORY;
                 sizing = tango;
                 kilo = zulu;
-                if(!(!(report < mike))) { _fun116073_ip = 350; continue _fun116073 }
+                if(!(!(report < mike))) { _fun116079_ip = 350; continue _fun116079 }
  160:
                 output = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -188,14 +188,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.canHaveVoiceSummary;
                 sizing = tango;
                 kilo = zulu;
-                if(!mike) { _fun116073_ip = 350; continue _fun116073 }
+                if(!mike) { _fun116079_ip = 350; continue _fun116079 }
  216:
                 output = _closure2_slot2;
                 mike = output.getNamedCategoryFromSection;
                 output = mike.bind(output)(report);
                 kilo = zulu;
                 sizing = output;
-                if(!(options != sizing)) { _fun116073_ip = 350; continue _fun116073 }
+                if(!(options != sizing)) { _fun116079_ip = 350; continue _fun116079 }
  241:
                 result = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 result = mike.length;
                 sizing = output;
                 kilo = mike;
-                if(!(yankee !== result)) { _fun116073_ip = 350; continue _fun116073 }
+                if(!(yankee !== result)) { _fun116079_ip = 350; continue _fun116079 }
  329:
                 result = {};
                 result['category'] = output;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.length;
                 tango = sizing;
                 zulu = kilo;
-                if(report < mike) { _fun116073_ip = 67; continue _fun116073 }
+                if(report < mike) { _fun116079_ip = 67; continue _fun116079 }
  375:
                 return entity;
             }

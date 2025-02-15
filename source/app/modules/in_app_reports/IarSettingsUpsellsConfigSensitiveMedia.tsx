@@ -95,7 +95,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     golf[4] = options;
     mike['eligibleReportSubtypes'] = golf;
     golf = function() { // Original name: onApply
-        _fun68964: for(var _fun68964_ip = 0; ; ) switch(_fun68964_ip) {
+        _fun68970: for(var _fun68970_ip = 0; ; ) switch(_fun68970_ip) {
  0:
             yankee = _closure1_slot0;
             report = _closure1_slot1;
@@ -117,7 +117,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             report = yankee.bind(oscar)(report);
             report = report.ExplicitContentRedaction;
             report = report.SHOW;
-            if(!(offset === report)) { _fun68964_ip = 132; continue _fun68964 }
+            if(!(offset === report)) { _fun68970_ip = 132; continue _fun68970 }
  97:
             offset = _closure1_slot0;
             report = _closure1_slot1;
@@ -133,7 +133,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             report = offset.bind(oscar)(report);
             report = report.ExplicitContentRedaction;
             report = report.SHOW;
-            if(!(verify === report)) { _fun68964_ip = 200; continue _fun68964 }
+            if(!(verify === report)) { _fun68970_ip = 200; continue _fun68970 }
  165:
             verify = _closure1_slot0;
             report = _closure1_slot1;
@@ -149,7 +149,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             report = verify.bind(oscar)(report);
             report = report.ExplicitContentRedaction;
             report = report.SHOW;
-            if(!(options === report)) { _fun68964_ip = 268; continue _fun68964 }
+            if(!(options === report)) { _fun68970_ip = 268; continue _fun68970 }
  233:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -165,7 +165,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     mike['onApply'] = golf;
     tango = function() { // Original name: predicate
-        _fun68965: for(var _fun68965_ip = 0; ; ) switch(_fun68965_ip) {
+        _fun68971: for(var _fun68971_ip = 0; ; ) switch(_fun68971_ip) {
  0:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -184,7 +184,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = entity.ExplicitContentRedaction;
             entity = entity.SHOW;
             entity = tango === entity;
-            if(entity) { _fun68965_ip = 116; continue _fun68965 }
+            if(entity) { _fun68971_ip = 116; continue _fun68971 }
  83:
             options = _closure1_slot0;
             tango = _closure1_slot1;
@@ -194,7 +194,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             tango = tango.SHOW;
             entity = golf === tango;
  116:
-            if(entity) { _fun68965_ip = 152; continue _fun68965 }
+            if(entity) { _fun68971_ip = 152; continue _fun68971 }
  119:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

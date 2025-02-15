@@ -1,12 +1,10 @@
 // app/modules/main_tabs_v2/native/settings/definitions/UseDataForQuestsSetting.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
+export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = argBar;
     zulu = argFred;
     oscar = argPlugh;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscar;
+    var _closure1_slot1 = oscar;
     entity = global;
     options = entity.Object;
     golf = options.defineProperty;
@@ -20,22 +18,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = undefined;
     mike = report.bind(entity)(mike);
     golf = mike.MobileSetting;
-    mike = 1;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    options = mike.RendererType;
-    mike = 2;
-    mike = oscar[mike];
-    mike = report.bind(entity)(mike);
-    mike = mike.HelpdeskArticles;
-    var _closure1_slot3 = mike;
     mike = {};
+    options = 1;
+    options = oscar[options];
+    options = report.bind(entity)(options);
+    options = options.RendererType;
     options = options.TOGGLE;
     mike['type'] = options;
     options = function() { // Original name: title
         report = _closure1_slot0;
-        oscar = _closure1_slot2;
-        entity = 4;
+        oscar = _closure1_slot1;
+        entity = 3;
         mike = oscar[entity];
         tango = undefined;
         mike = report.bind(tango)(mike);
@@ -51,37 +44,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['title'] = options;
     golf = golf.DATA_AND_PRIVACY;
     mike['parent'] = golf;
-    golf = function() { // Original name: useDescription
-        mike = _closure1_slot0;
-        verify = _closure1_slot2;
-        entity = 4;
-        zulu = verify[entity];
-        options = undefined;
-        zulu = mike.bind(options)(zulu);
-        tango = zulu.intl;
-        zulu = tango.formatToPlainString;
-        entity = verify[entity];
-        entity = mike.bind(options)(entity);
-        entity = entity.t;
-        mike = entity.7Q2yX1;
-        entity = {};
-        golf = _closure1_slot1;
-        oscar = 5;
-        oscar = verify[oscar];
-        golf = golf.bind(options)(oscar);
-        oscar = golf.getArticleURL;
-        report = _closure1_slot3;
-        report = report.QUESTS_PRIVACY_CONTROLS;
-        report = oscar.bind(golf)(report);
-        entity['helpdeskArticle'] = report;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    mike['useDescription'] = golf;
     golf = function() { // Original name: useDataToSupportQuestsSettingValue
         zulu = _closure1_slot0;
-        mike = _closure1_slot2;
-        entity = 3;
+        mike = _closure1_slot1;
+        entity = 2;
         mike = mike[entity];
         entity = undefined;
         entity = zulu.bind(entity)(mike);
@@ -94,8 +60,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: onDataToSupportQuestsSettingValueChange
         zulu = _closure1_slot0;
-        mike = _closure1_slot2;
-        entity = 3;
+        mike = _closure1_slot1;
+        entity = 2;
         mike = mike[entity];
         entity = undefined;
         mike = zulu.bind(entity)(mike);
@@ -107,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         return entity;
     };
     mike['onValueChange'] = tango;
-    tango = 6;
+    tango = 4;
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;

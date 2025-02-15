@@ -32,17 +32,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/launchpad/native/shared/renderChannelBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: renderChannelBadge
-        _fun121025: for(var _fun121025_ip = 0; ; ) switch(_fun121025_ip) {
+        _fun121031: for(var _fun121031_ip = 0; ; ) switch(_fun121031_ip) {
  0:
             mike = argFoo;
             entity = mike.newChannel;
             report = undefined;
-            if(!(entity === report)) { _fun121025_ip = 17; continue _fun121025 }
+            if(!(entity === report)) { _fun121031_ip = 17; continue _fun121031 }
  15:
             entity = false;
  17:
             golf = mike.mentionCount;
-            if(!(golf === report)) { _fun121025_ip = 29; continue _fun121025 }
+            if(!(golf === report)) { _fun121031_ip = 29; continue _fun121031 }
  27:
             golf = 0;
  29:
@@ -52,32 +52,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.eventsMentionCount;
             backup = mike.locale;
             zulu = null;
-            if(!(zulu != golf)) { _fun121025_ip = 74; continue _fun121025 }
- 65:
+            if(!(zulu != golf)) { _fun121031_ip = 73; continue _fun121031 }
+ 64:
             mike = 0;
-            if(!(!(golf > mike))) { _fun121025_ip = 405; continue _fun121025 }
- 74:
-            if(entity) { _fun121025_ip = 368; continue _fun121025 }
- 80:
-            if(!(zulu != kilo)) { _fun121025_ip = 93; continue _fun121025 }
- 84:
+            if(!(!(golf > mike))) { _fun121031_ip = 404; continue _fun121031 }
+ 73:
+            if(entity) { _fun121031_ip = 367; continue _fun121031 }
+ 79:
+            if(!(zulu != kilo)) { _fun121031_ip = 92; continue _fun121031 }
+ 83:
             entity = 0;
-            if(!(!(kilo > entity))) { _fun121025_ip = 232; continue _fun121025 }
- 93:
-            if(!(zulu != options)) { _fun121025_ip = 103; continue _fun121025 }
- 97:
+            if(!(!(kilo > entity))) { _fun121031_ip = 231; continue _fun121031 }
+ 92:
+            if(!(zulu != options)) { _fun121031_ip = 102; continue _fun121031 }
+ 96:
             entity = 0;
-            if(!(!(options > entity))) { _fun121025_ip = 171; continue _fun121025 }
- 103:
+            if(!(!(options > entity))) { _fun121031_ip = 170; continue _fun121031 }
+ 102:
             mike = zulu != verify;
             entity = null;
-            if(!mike) { _fun121025_ip = 169; continue _fun121025 }
- 112:
+            if(!mike) { _fun121031_ip = 168; continue _fun121031 }
+ 111:
             mike = 0;
             mike = verify > mike;
             entity = null;
-            if(!mike) { _fun121025_ip = 169; continue _fun121025 }
- 123:
+            if(!mike) { _fun121031_ip = 168; continue _fun121031 }
+ 122:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -89,9 +89,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = true;
             mike['eventsMentionBadge'] = verify;
             entity = tango.bind(report)(zulu, mike);
- 169:
-            _fun121025_ip = 227; continue _fun121025;
- 171:
+ 168:
+            _fun121031_ip = 226; continue _fun121031;
+ 170:
             tango = _closure1_slot3;
             zulu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -102,9 +102,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {'variant': 'text-xs/bold', 'color': 'text-muted'};
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
- 227:
-            _fun121025_ip = 366; continue _fun121025;
- 232:
+ 226:
+            _fun121031_ip = 365; continue _fun121031;
+ 231:
             tango = _closure1_slot3;
             foxtrot = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -132,9 +132,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.bind(yankee)(verify, options);
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
- 366:
-            _fun121025_ip = 403; continue _fun121025;
- 368:
+ 365:
+            _fun121031_ip = 402; continue _fun121031;
+ 367:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -143,9 +143,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(mike);
             mike = {};
             entity = tango.bind(report)(zulu, mike);
- 403:
-            _fun121025_ip = 449; continue _fun121025;
- 405:
+ 402:
+            _fun121031_ip = 448; continue _fun121031;
+ 404:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['value'] = golf;
             mike['isMentionLowImportance'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 449:
+ 448:
             return entity;
         }
     };

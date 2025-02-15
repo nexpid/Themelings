@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/routing/getChannelIdForGuildTransition.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelIdForGuildTransition
-        _fun65310: for(var _fun65310_ip = 0; ; ) switch(_fun65310_ip) {
+        _fun65315: for(var _fun65315_ip = 0; ; ) switch(_fun65315_ip) {
  0:
             golf = argFoo;
             mike = _closure1_slot5;
@@ -56,24 +56,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu == report;
             options = undefined;
             mike = undefined;
-            if(oscar) { _fun65310_ip = 54; continue _fun65310 }
+            if(oscar) { _fun65315_ip = 54; continue _fun65315 }
  49:
             mike = report.id;
  54:
             report = _closure1_slot6;
             report = report.GUILD_ONBOARDING;
-            if(!(entity === report)) { _fun65310_ip = 88; continue _fun65310 }
+            if(!(entity === report)) { _fun65315_ip = 88; continue _fun65315 }
  68:
             oscar = _closure1_slot2;
             report = oscar.shouldShowOnboarding;
             report = report.bind(oscar)(golf);
-            if(report) { _fun65310_ip = 88; continue _fun65310 }
+            if(report) { _fun65315_ip = 88; continue _fun65315 }
  86:
             return mike;
  88:
             report = _closure1_slot6;
             report = report.GUILD_HOME;
-            if(!(entity === report)) { _fun65310_ip = 138; continue _fun65310 }
+            if(!(entity === report)) { _fun65315_ip = 138; continue _fun65315 }
  102:
             oscar = _closure1_slot0;
             verify = _closure1_slot1;
@@ -82,18 +82,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(options)(report);
             report = oscar.canSeeOnboardingHome;
             report = report.bind(oscar)(golf);
-            if(report) { _fun65310_ip = 138; continue _fun65310 }
+            if(report) { _fun65315_ip = 138; continue _fun65315 }
  136:
             return mike;
  138:
             report = _closure1_slot3;
             tango = report.getChannel;
             tango = tango.bind(report)(entity);
-            if(!(zulu != tango)) { _fun65310_ip = 169; continue _fun65310 }
+            if(!(zulu != tango)) { _fun65315_ip = 169; continue _fun65315 }
  156:
             zulu = tango.isGuildVocal;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun65310_ip = 172; continue _fun65310 }
+            if(!zulu) { _fun65315_ip = 172; continue _fun65315 }
  169:
             entity = mike;
  172:

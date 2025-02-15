@@ -14,11 +14,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = '__esModule';
     entity = report.bind(golf)(zulu, entity, tango);
     report = function() { // Original name: uid
-        _fun48715: for(var _fun48715_ip = 0; ; ) switch(_fun48715_ip) {
+        _fun48722: for(var _fun48722_ip = 0; ; ) switch(_fun48722_ip) {
  0:
             zulu = arguments[0];
             mike = undefined;
-            if(!(zulu === mike)) { _fun48715_ip = 15; continue _fun48715 }
+            if(!(zulu === mike)) { _fun48722_ip = 15; continue _fun48722 }
  9:
             zulu = 'uid_';
  15:

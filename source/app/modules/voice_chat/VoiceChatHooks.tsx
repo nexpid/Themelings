@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/voice_chat/VoiceChatHooks.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: useIsConnectedToVoiceChannel
-        _fun73321: for(var _fun73321_ip = 0; ; ) switch(_fun73321_ip) {
+        _fun73331: for(var _fun73331_ip = 0; ; ) switch(_fun73331_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot4;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity == tango;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun73321_ip = 28; continue _fun73321 }
+            if(report) { _fun73331_ip = 28; continue _fun73331 }
  23:
             entity = tango.id;
  28:

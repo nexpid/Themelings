@@ -8,24 +8,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _getIsNewMember
-        _fun60173: for(var _fun60173_ip = 0; ; ) switch(_fun60173_ip) {
+        _fun60176: for(var _fun60176_ip = 0; ; ) switch(_fun60176_ip) {
  0:
             report = argFoo;
             zulu = argBar;
             mike = argBaz;
             entity = mike.isFullServerPreview;
             entity = entity.bind(mike)(report);
-            if(entity) { _fun60173_ip = 215; continue _fun60173 }
+            if(entity) { _fun60176_ip = 215; continue _fun60176 }
  26:
             entity = zulu.getSelfMember;
             mike = entity.bind(zulu)(report);
             tango = null;
-            if(!(tango != mike)) { _fun60173_ip = 211; continue _fun60173 }
+            if(!(tango != mike)) { _fun60176_ip = 211; continue _fun60176 }
  46:
             entity = zulu.getSelfMemberJoinedAt;
             golf = entity.bind(zulu)(report);
             entity = tango != golf;
-            if(!entity) { _fun60173_ip = 209; continue _fun60173 }
+            if(!entity) { _fun60176_ip = 209; continue _fun60176 }
  69:
             options = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.flags;
             verify = tango != mike;
             tango = 0;
-            if(!verify) { _fun60173_ip = 117; continue _fun60173 }
+            if(!verify) { _fun60176_ip = 117; continue _fun60176 }
  114:
             tango = mike;
  117:
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.COMPLETED_HOME_ACTIONS;
             mike = report.bind(options)(tango, mike);
             mike = !mike;
-            if(!mike) { _fun60173_ip = 206; continue _fun60173 }
+            if(!mike) { _fun60176_ip = 206; continue _fun60176 }
  139:
             tango = global;
             report = tango.Date;

@@ -34,22 +34,22 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/SpoilerIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Spoiler
-        _fun100515: for(var _fun100515_ip = 0; ; ) switch(_fun100515_ip) {
+        _fun100524: for(var _fun100524_ip = 0; ; ) switch(_fun100524_ip) {
  0:
             zulu = argFoo;
             romeo = zulu.width;
             tango = undefined;
-            if(!(romeo === tango)) { _fun100515_ip = 17; continue _fun100515 }
+            if(!(romeo === tango)) { _fun100524_ip = 17; continue _fun100524 }
  14:
             romeo = 24;
  17:
             yankee = zulu.height;
-            if(!(yankee === tango)) { _fun100515_ip = 29; continue _fun100515 }
+            if(!(yankee === tango)) { _fun100524_ip = 29; continue _fun100524 }
  26:
             yankee = 24;
  29:
             verify = zulu.color;
-            if(!(verify === tango)) { _fun100515_ip = 44; continue _fun100515 }
+            if(!(verify === tango)) { _fun100524_ip = 44; continue _fun100524 }
  38:
             verify = 'currentColor';
  44:

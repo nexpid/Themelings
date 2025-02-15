@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getCoverImageURI
-        _fun112076: for(var _fun112076_ip = 0; ; ) switch(_fun112076_ip) {
+        _fun112082: for(var _fun112082_ip = 0; ; ) switch(_fun112082_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot2;
@@ -35,13 +35,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.bind(report)(mike);
             report = null;
             tango = report != oscar;
-            if(!tango) { _fun112076_ip = 47; continue _fun112076 }
+            if(!tango) { _fun112082_ip = 47; continue _fun112082 }
  37:
             mike = entity.cover_image_asset;
             tango = report != mike;
  47:
             mike = '';
-            if(!tango) { _fun112076_ip = 101; continue _fun112076 }
+            if(!tango) { _fun112082_ip = 101; continue _fun112082 }
  54:
             report = _closure1_slot0;
             tango = _closure1_slot1;

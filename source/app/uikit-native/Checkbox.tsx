@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/Checkbox.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun48692: for(var _fun48692_ip = 0; ; ) switch(_fun48692_ip) {
+        _fun48699: for(var _fun48699_ip = 0; ; ) switch(_fun48699_ip) {
  0:
             entity = argFoo;
             oscar = entity.style;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             golf = _closure1_slot0;
             oscar = _closure1_slot1;
-            if(mike) { _fun48692_ip = 65; continue _fun48692 }
+            if(mike) { _fun48699_ip = 65; continue _fun48699 }
  42:
             mike = 4;
             report = oscar[mike];
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(mike)(report);
             entity['source'] = mike;
             mike = entity;
-            _fun48692_ip = 86; continue _fun48692;
+            _fun48699_ip = 86; continue _fun48699;
  65:
             report = 3;
             oscar = oscar[report];

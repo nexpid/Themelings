@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/controls/buttons/VoicePanelActivitiesButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivitiesButton
-        _fun122410: for(var _fun122410_ip = 0; ; ) switch(_fun122410_ip) {
+        _fun122416: for(var _fun122416_ip = 0; ; ) switch(_fun122416_ip) {
  0:
             entity = argFoo;
             romeo = entity.props;
@@ -155,20 +155,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = yankee.iconContainer;
             mike[2] = entity;
             entity = function() {
-                _fun122412: for(var _fun122412_ip = 0; ; ) switch(_fun122412_ip) {
+                _fun122418: for(var _fun122418_ip = 0; ; ) switch(_fun122418_ip) {
  0:
                     report = _closure1_slot5;
                     mike = _closure2_slot6;
                     golf = _closure1_slot0;
                     tango = _closure1_slot2;
-                    if(mike) { _fun122412_ip = 47; continue _fun122412 }
+                    if(mike) { _fun122418_ip = 47; continue _fun122418 }
  25:
                     mike = 10;
                     zulu = tango[mike];
                     mike = undefined;
                     mike = golf.bind(mike)(zulu);
                     zulu = mike.ActivitiesIcon;
-                    _fun122412_ip = 67; continue _fun122412;
+                    _fun122418_ip = 67; continue _fun122418;
  47:
                     mike = 9;
                     tango = tango[mike];
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = golf;
             entity['props'] = romeo;
             golf = undefined;
-            if(backup) { _fun122410_ip = 328; continue _fun122410 }
+            if(backup) { _fun122416_ip = 328; continue _fun122416 }
  319:
             options = {};
             options['backgroundColor'] = foxtrot;
@@ -240,13 +240,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.iconBadgeIndicator;
             oscar[5] = verify;
             report = function() {
-                _fun122413: for(var _fun122413_ip = 0; ; ) switch(_fun122413_ip) {
+                _fun122419: for(var _fun122419_ip = 0; ; ) switch(_fun122419_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(entity) { _fun122413_ip = 19; continue _fun122413 }
+                    if(entity) { _fun122419_ip = 19; continue _fun122419 }
  10:
                     entity = _closure2_slot8;
-                    _fun122413_ip = 205; continue _fun122413;
+                    _fun122419_ip = 205; continue _fun122419;
  19:
                     report = _closure1_slot7;
                     tango = _closure1_slot6;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar[0] = verify;
                     verify = _closure2_slot8;
                     oscar[1] = verify;
-                    if(!golf) { _fun122413_ip = 191; continue _fun122413 }
+                    if(!golf) { _fun122419_ip = 191; continue _fun122419 }
  139:
                     offset = _closure1_slot5;
                     verify = _closure1_slot4;

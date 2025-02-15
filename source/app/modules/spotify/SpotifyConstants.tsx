@@ -1,6 +1,6 @@
 // app/modules/spotify/SpotifyConstants.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun67437: for(var _fun67437_ip = 0; ; ) switch(_fun67437_ip) {
+    _fun67443: for(var _fun67443_ip = 0; ; ) switch(_fun67443_ip) {
  0:
         verify = argBar;
         zulu = argFred;
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         foxtrot = kilo.bind(output)(sizing, foxtrot);
         tango['PLAYER_REPEAT'] = foxtrot;
         foxtrot = function(argFoo, argBar) { // Original name: WEB_OPEN
-            _fun67439: for(var _fun67439_ip = 0; ; ) switch(_fun67439_ip) {
+            _fun67445: for(var _fun67445_ip = 0; ; ) switch(_fun67445_ip) {
  0:
                 tango = arguments[2];
                 zulu = undefined;
-                if(!(tango === zulu)) { _fun67439_ip = 13; continue _fun67439 }
+                if(!(tango === zulu)) { _fun67445_ip = 13; continue _fun67445 }
  9:
                 tango = 'desktop';
  13:
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         tango['WEB_OPEN'] = foxtrot;
         foxtrot = function(argFoo) { // Original name: EMBED
-            _fun67440: for(var _fun67440_ip = 0; ; ) switch(_fun67440_ip) {
+            _fun67446: for(var _fun67446_ip = 0; ; ) switch(_fun67446_ip) {
  0:
                 zulu = arguments[1];
                 mike = undefined;
-                if(!(zulu === mike)) { _fun67440_ip = 13; continue _fun67440 }
+                if(!(zulu === mike)) { _fun67446_ip = 13; continue _fun67446 }
  9:
                 zulu = 'desktop';
  13:
@@ -147,16 +147,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         tango['EMBED'] = foxtrot;
         foxtrot = function(argFoo, argBar) { // Original name: PLAYER_OPEN
-            _fun67441: for(var _fun67441_ip = 0; ; ) switch(_fun67441_ip) {
+            _fun67447: for(var _fun67447_ip = 0; ; ) switch(_fun67447_ip) {
  0:
                 mike = arguments[2];
                 options = arguments[3];
                 zulu = undefined;
-                if(!(mike === zulu)) { _fun67441_ip = 14; continue _fun67441 }
+                if(!(mike === zulu)) { _fun67447_ip = 14; continue _fun67447 }
  12:
                 mike = true;
  14:
-                if(!(options === zulu)) { _fun67441_ip = 22; continue _fun67441 }
+                if(!(options === zulu)) { _fun67447_ip = 22; continue _fun67447 }
  18:
                 options = 'desktop';
  22:
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = report.bind(zulu)(tango);
                 report = '';
                 tango = report;
-                if(!mike) { _fun67441_ip = 74; continue _fun67441 }
+                if(!mike) { _fun67447_ip = 74; continue _fun67447 }
  62:
                 mike = _closure1_slot1;
                 tango = mike.bind(zulu)(options);
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         backup = romeo.bind(foxtrot)();
         romeo = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
         foxtrot = romeo;
-        if(!backup) { _fun67437_ip = 568; continue _fun67437 }
+        if(!backup) { _fun67443_ip = 568; continue _fun67443 }
  562:
         foxtrot = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
  568:
@@ -232,12 +232,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu['SPOTIFY_PARTY_PREFIX'] = options;
         zulu['SPOTIFY_PLATFORM_NAME'] = golf;
         golf = function(argFoo) { // Original name: isSpotifyParty
-            _fun67443: for(var _fun67443_ip = 0; ; ) switch(_fun67443_ip) {
+            _fun67449: for(var _fun67449_ip = 0; ; ) switch(_fun67449_ip) {
  0:
                 tango = argFoo;
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun67443_ip = 29; continue _fun67443 }
+                if(!entity) { _fun67449_ip = 29; continue _fun67449 }
  12:
                 zulu = tango.startsWith;
                 mike = 'spotify:';
@@ -253,30 +253,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu['SPOTIFY_HOSTNAMES'] = report;
         zulu['SpotifyEndpoints'] = tango;
         mike = function(argFoo) { // Original name: getSpotifyResourceType
-            _fun67444: for(var _fun67444_ip = 0; ; ) switch(_fun67444_ip) {
+            _fun67450: for(var _fun67450_ip = 0; ; ) switch(_fun67450_ip) {
  0:
                 mike = argFoo;
                 zulu = 'string';
                 entity = typeof mike;
-                if(!(zulu === entity)) { _fun67444_ip = 166; continue _fun67444 }
+                if(!(zulu === entity)) { _fun67450_ip = 166; continue _fun67450 }
  17:
                 entity = 'track';
-                if(!(entity !== mike)) { _fun67444_ip = 151; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 151; continue _fun67450 }
  28:
                 entity = 'artist';
-                if(!(entity !== mike)) { _fun67444_ip = 136; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 136; continue _fun67450 }
  36:
                 entity = 'album';
-                if(!(entity !== mike)) { _fun67444_ip = 121; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 121; continue _fun67450 }
  44:
                 entity = 'playlist';
-                if(!(entity !== mike)) { _fun67444_ip = 106; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 106; continue _fun67450 }
  54:
                 entity = 'episode';
-                if(!(entity !== mike)) { _fun67444_ip = 91; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 91; continue _fun67450 }
  64:
                 entity = 'show';
-                if(!(entity !== mike)) { _fun67444_ip = 76; continue _fun67444 }
+                if(!(entity !== mike)) { _fun67450_ip = 76; continue _fun67450 }
  72:
                 entity = null;
                 return entity;

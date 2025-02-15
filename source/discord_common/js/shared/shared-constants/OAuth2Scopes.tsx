@@ -98,6 +98,8 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango['PAYMENT_SOURCES_COUNTRY_CODE'] = mike;
     mike = 'sdk.social_layer';
     tango['SDK_SOCIAL_LAYER'] = mike;
+    mike = 'lobbies.write';
+    tango['LOBBIES'] = mike;
     mike = {};
     golf = entity.Set;
     report = golf.prototype;
@@ -110,7 +112,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     golf = entity.Set;
     report = golf.prototype;
     oscar = Object.create(report, {constructor: {value: golf}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'voice'];
+    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'lobbies.write', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'voice'];
     romeo = oscar;
     report = new romeo[golf](yankee, offset);
     report = report instanceof Object ? report : oscar;
@@ -206,7 +208,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     golf = entity.Set;
     report = golf.prototype;
     oscar = Object.create(report, {constructor: {value: golf}});
-    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'relationships.read', 'relationships.write'];
+    yankee = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeo = oscar;
     report = new romeo[golf](yankee, offset);
     report = report instanceof Object ? report : oscar;
@@ -214,7 +216,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     golf = entity.Set;
     report = golf.prototype;
     oscar = Object.create(report, {constructor: {value: golf}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'relationships.read', 'relationships.write'];
+    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeo = oscar;
     report = new romeo[golf](yankee, offset);
     report = report instanceof Object ? report : oscar;
@@ -231,7 +233,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     options = entity.Set;
     oscar = options.prototype;
     golf = Object.create(oscar, {constructor: {value: options}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify', 'relationships.read', 'relationships.write'];
+    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     romeo = golf;
     oscar = new romeo[options](yankee, offset);
     oscar = oscar instanceof Object ? oscar : golf;
@@ -240,7 +242,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     oscar = entity.Set;
     entity = oscar.prototype;
     report = Object.create(entity, {constructor: {value: oscar}});
-    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'voice', 'webhook.incoming'];
+    yankee = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'lobbies.write', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'voice', 'webhook.incoming'];
     romeo = report;
     entity = new romeo[oscar](yankee, offset);
     entity = entity instanceof Object ? entity : report;

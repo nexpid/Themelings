@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = tango;
     entity = function(argFoo) { // Original name: _rewardRedemptionInstructionsFromServer
-        _fun67270: for(var _fun67270_ip = 0; ; ) switch(_fun67270_ip) {
+        _fun67276: for(var _fun67276_ip = 0; ; ) switch(_fun67276_ip) {
  0:
             verify = argFoo;
             entity = {};
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar < mike;
             report = undefined;
             zulu = 0;
-            if(!mike) { _fun67270_ip = 115; continue _fun67270 }
+            if(!mike) { _fun67276_ip = 115; continue _fun67276 }
  44:
             mike = golf[zulu];
             offset = options.parseInt;
@@ -31,14 +31,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             romeo = yankee.QUEST_REWARD_CODE_PLATFORMS_SET;
             yankee = romeo.has;
             yankee = yankee.bind(romeo)(offset);
-            if(!yankee) { _fun67270_ip = 103; continue _fun67270 }
+            if(!yankee) { _fun67276_ip = 103; continue _fun67276 }
  95:
             mike = verify[mike];
             entity[offset] = mike;
  103:
             zulu = zulu + 1;
             mike = golf.length;
-            if(zulu < mike) { _fun67270_ip = 44; continue _fun67270 }
+            if(zulu < mike) { _fun67276_ip = 44; continue _fun67276 }
  115:
             return entity;
         }
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = '__esModule';
     entity = golf.bind(options)(zulu, entity, oscar);
     entity = function(argFoo) { // Original name: _questRewardV2FromServer
-        _fun67271: for(var _fun67271_ip = 0; ; ) switch(_fun67271_ip) {
+        _fun67277: for(var _fun67277_ip = 0; ; ) switch(_fun67277_ip) {
  0:
             zulu = argFoo;
             mike = {};
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(entity);
             entity = entity.QuestRewardTypes;
             entity = entity.REWARD_CODE;
-            if(!(entity !== tango)) { _fun67271_ip = 739; continue _fun67271 }
+            if(!(entity !== tango)) { _fun67277_ip = 739; continue _fun67277 }
  87:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(entity);
             entity = entity.QuestRewardTypes;
             entity = entity.COLLECTIBLE;
-            if(!(entity !== tango)) { _fun67271_ip = 588; continue _fun67271 }
+            if(!(entity !== tango)) { _fun67277_ip = 588; continue _fun67277 }
  123:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(entity);
             entity = entity.QuestRewardTypes;
             entity = entity.VIRTUAL_CURRENCY;
-            if(!(entity !== tango)) { _fun67271_ip = 465; continue _fun67271 }
+            if(!(entity !== tango)) { _fun67277_ip = 465; continue _fun67277 }
  159:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(entity);
             entity = entity.QuestRewardTypes;
             entity = entity.FRACTIONAL_PREMIUM;
-            if(!(entity !== tango)) { _fun67271_ip = 342; continue _fun67271 }
+            if(!(entity !== tango)) { _fun67277_ip = 342; continue _fun67277 }
  195:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(entity);
             entity = entity.QuestRewardTypes;
             entity = entity.IN_GAME;
-            if(!(entity !== tango)) { _fun67271_ip = 230; continue _fun67271 }
+            if(!(entity !== tango)) { _fun67277_ip = 230; continue _fun67277 }
  228:
             return golf;
  230:

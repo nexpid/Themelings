@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/NitroHomeCollectibleDecoPerkCard.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/NitroHomeCollectibleDecoPerkCard.tsx
 export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     report = argBar;
     zulu = argFred;
@@ -46,7 +46,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/NitroHomeCollectibleDecoPerkCard.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/NitroHomeCollectibleDecoPerkCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
         entity = _closure1_slot6;

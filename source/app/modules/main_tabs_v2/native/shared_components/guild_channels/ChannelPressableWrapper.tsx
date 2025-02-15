@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: renderChannelPressableWrapper
-        _fun116552: for(var _fun116552_ip = 0; ; ) switch(_fun116552_ip) {
+        _fun116558: for(var _fun116558_ip = 0; ; ) switch(_fun116558_ip) {
  0:
             entity = argBar;
             options = entity.layout;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = entity.isThread;
             oscar = entity.panelVariant;
             tango = undefined;
-            if(!(oscar === tango)) { _fun116552_ip = 35; continue _fun116552 }
+            if(!(oscar === tango)) { _fun116558_ip = 35; continue _fun116558 }
  33:
             oscar = false;
  35:
@@ -58,16 +58,16 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = {};
             report = report.layout;
-            if(golf) { _fun116552_ip = 108; continue _fun116552 }
+            if(golf) { _fun116558_ip = 108; continue _fun116558 }
  89:
-            if(oscar) { _fun116552_ip = 100; continue _fun116552 }
+            if(oscar) { _fun116558_ip = 100; continue _fun116558 }
  92:
             oscar = report.margin;
-            _fun116552_ip = 106; continue _fun116552;
+            _fun116558_ip = 106; continue _fun116558;
  100:
             oscar = report.marginPanels;
  106:
-            _fun116552_ip = 114; continue _fun116552;
+            _fun116558_ip = 114; continue _fun116558;
  108:
             oscar = report.marginThread;
  114:

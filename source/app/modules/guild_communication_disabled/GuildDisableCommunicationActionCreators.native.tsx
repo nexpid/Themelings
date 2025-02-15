@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_communication_disabled/GuildDisableCommunicationActionCreators.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: openDisableCommunication
-        _fun81702: for(var _fun81702_ip = 0; ; ) switch(_fun81702_ip) {
+        _fun81714: for(var _fun81714_ip = 0; ; ) switch(_fun81714_ip) {
  0:
             entity = argFoo;
             golf = entity.guildId;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.getUser;
             oscar = entity.bind(zulu)(tango);
             entity = null;
-            if(!(entity != oscar)) { _fun81702_ip = 126; continue _fun81702 }
+            if(!(entity != oscar)) { _fun81714_ip = 126; continue _fun81714 }
  43:
             tango = _closure1_slot1;
             entity = _closure1_slot2;

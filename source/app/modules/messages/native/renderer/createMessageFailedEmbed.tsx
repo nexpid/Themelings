@@ -33,14 +33,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/createMessageFailedEmbed.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: createMessageFailedEmbed
-        _fun69134: for(var _fun69134_ip = 0; ; ) switch(_fun69134_ip) {
+        _fun69140: for(var _fun69140_ip = 0; ; ) switch(_fun69140_ip) {
  0:
             entity = argFoo;
             tango = entity.uploaderFile;
             mike = entity.useAttachmentUploadPreview;
             report = entity.colors;
             entity = null;
-            if(!(entity == tango)) { _fun69134_ip = 145; continue _fun69134 }
+            if(!(entity == tango)) { _fun69140_ip = 145; continue _fun69140 }
  26:
             entity = {};
             oscar = _closure1_slot4;
@@ -67,9 +67,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['disableBackgroundColor'] = zulu;
             zulu = report.failedMessageBodyTextColor;
             entity['bodyTextColor'] = zulu;
-            _fun69134_ip = 532; continue _fun69134;
+            _fun69140_ip = 532; continue _fun69140;
  145:
-            if(mike) { _fun69134_ip = 368; continue _fun69134 }
+            if(mike) { _fun69140_ip = 368; continue _fun69140 }
  151:
             mike = {};
             zulu = _closure1_slot4;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango.currentSize;
             zulu = '';
             golf = 0;
-            if(!(golf !== verify)) { _fun69134_ip = 342; continue _fun69134 }
+            if(!(golf !== verify)) { _fun69140_ip = 342; continue _fun69140 }
  276:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['attachmentsSize'] = zulu;
             zulu = report.embedBodyTextColor;
             mike['bodyTextColor'] = zulu;
-            _fun69134_ip = 529; continue _fun69134;
+            _fun69140_ip = 529; continue _fun69140;
  368:
             zulu = {};
             oscar = _closure1_slot4;

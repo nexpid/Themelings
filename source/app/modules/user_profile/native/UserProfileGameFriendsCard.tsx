@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileGameFriendsCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileGameFriendsCard
-        _fun102678: for(var _fun102678_ip = 0; ; ) switch(_fun102678_ip) {
+        _fun102670: for(var _fun102670_ip = 0; ; ) switch(_fun102670_ip) {
  0:
             entity = argFoo;
             mike = entity.applicationIds;
@@ -71,17 +71,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = golf;
             entity = golf.length;
             zulu = 0;
-            if(!(zulu !== entity)) { _fun102678_ip = 580; continue _fun102678 }
+            if(!(zulu !== entity)) { _fun102670_ip = 580; continue _fun102670 }
  101:
             entity = 'text-md/normal';
             _closure2_slot1 = entity;
             entity = golf.length;
             mike = 1;
-            if(!(mike !== entity)) { _fun102678_ip = 354; continue _fun102678 }
+            if(!(mike !== entity)) { _fun102670_ip = 354; continue _fun102670 }
  126:
             options = golf.length;
             entity = 2;
-            if(!(entity !== options)) { _fun102678_ip = 268; continue _fun102678 }
+            if(!(entity !== options)) { _fun102670_ip = 268; continue _fun102670 }
  141:
             entity = golf.length;
             entity = entity - mike;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['applicationNameLast'] = options;
             golf = zulu.bind(golf)(mike, entity);
-            _fun102678_ip = 424; continue _fun102678;
+            _fun102670_ip = 424; continue _fun102670;
  268:
             mike = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['applicationName2'] = yankee;
             golf = zulu.bind(options)(mike, entity);
-            _fun102678_ip = 424; continue _fun102678;
+            _fun102670_ip = 424; continue _fun102670;
  354:
             mike = _closure1_slot0;
             yankee = _closure1_slot2;

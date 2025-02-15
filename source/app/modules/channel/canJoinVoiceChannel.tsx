@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/channel/canJoinVoiceChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: canJoinVoiceChannel
-        _fun54377: for(var _fun54377_ip = 0; ; ) switch(_fun54377_ip) {
+        _fun54384: for(var _fun54384_ip = 0; ; ) switch(_fun54384_ip) {
  0:
             report = argFoo;
             tango = argBar;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.type;
             entity = undefined;
             entity = oscar.bind(entity)(zulu);
-            if(entity) { _fun54377_ip = 60; continue _fun54377 }
+            if(entity) { _fun54384_ip = 60; continue _fun54384 }
  28:
             zulu = tango.canBasicChannel;
             mike = _closure1_slot1;

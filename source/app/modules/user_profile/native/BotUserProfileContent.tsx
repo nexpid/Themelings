@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: BotUserProfileContent
-        _fun77769: for(var _fun77769_ip = 0; ; ) switch(_fun77769_ip) {
+        _fun77779: for(var _fun77779_ip = 0; ; ) switch(_fun77779_ip) {
  0:
             entity = argFoo;
             backup = entity.user;
@@ -132,13 +132,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity == record;
             zulu = undefined;
-            if(mike) { _fun77769_ip = 240; continue _fun77769 }
+            if(mike) { _fun77779_ip = 240; continue _fun77779 }
  235:
             zulu = record.guildId;
  240:
             options = entity == romeo;
             mike = undefined;
-            if(options) { _fun77769_ip = 254; continue _fun77769 }
+            if(options) { _fun77779_ip = 254; continue _fun77779 }
  249:
             mike = romeo.id;
  254:
@@ -153,13 +153,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot3 = mike;
             mike = entity == record;
             foxtrot = undefined;
-            if(mike) { _fun77769_ip = 310; continue _fun77769 }
+            if(mike) { _fun77779_ip = 310; continue _fun77779 }
  305:
             foxtrot = record.application;
  310:
             mike = entity == romeo;
             whiskey = undefined;
-            if(mike) { _fun77769_ip = 324; continue _fun77769 }
+            if(mike) { _fun77779_ip = 324; continue _fun77779 }
  319:
             whiskey = romeo.guild_id;
  324:
@@ -170,17 +170,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = whiskey;
             zulu[1] = backup;
             mike = function() {
-                _fun77771: for(var _fun77771_ip = 0; ; ) switch(_fun77771_ip) {
+                _fun77781: for(var _fun77781_ip = 0; ; ) switch(_fun77781_ip) {
  0:
                     entity = _closure2_slot4;
                     mike = null;
-                    if(!(mike != entity)) { _fun77771_ip = 21; continue _fun77771 }
+                    if(!(mike != entity)) { _fun77781_ip = 21; continue _fun77781 }
  13:
                     entity = _closure2_slot0;
-                    if(!(mike == entity)) { _fun77771_ip = 25; continue _fun77771 }
+                    if(!(mike == entity)) { _fun77781_ip = 25; continue _fun77781 }
  21:
                     entity = {};
-                    _fun77771_ip = 56; continue _fun77771;
+                    _fun77781_ip = 56; continue _fun77781;
  25:
                     mike = {};
                     tango = _closure2_slot4;
@@ -230,9 +230,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = mike.gradientFallbackBackground;
             update = mike.avatarBackground;
             verify = mike.containerBackground;
-            if(!(entity != backup)) { _fun77769_ip = 2002; continue _fun77769 }
+            if(!(entity != backup)) { _fun77779_ip = 2002; continue _fun77779 }
  530:
-            if(!(entity != equality)) { _fun77769_ip = 2002; continue _fun77769 }
+            if(!(entity != equality)) { _fun77779_ip = 2002; continue _fun77779 }
  537:
             target = function() { // Original name: handleCopyUsername
                 tango = _closure2_slot2;
@@ -283,13 +283,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output['user'] = backup;
             source = entity == record;
             config = undefined;
-            if(source) { _fun77769_ip = 655; continue _fun77769 }
+            if(source) { _fun77779_ip = 655; continue _fun77779 }
  650:
             config = record.guildId;
  655:
             status = entity != config;
             source = undefined;
-            if(!status) { _fun77769_ip = 667; continue _fun77769 }
+            if(!status) { _fun77779_ip = 667; continue _fun77779 }
  664:
             source = config;
  667:
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             config = entity != vacuum;
             source = 0;
-            if(config) { _fun77769_ip = 759; continue _fun77769 }
+            if(config) { _fun77779_ip = 759; continue _fun77779 }
  755:
             source = _closure1_slot7;
  759:
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = entity != control;
             yankee['hasCustomProfileTheme'] = control;
             control = function() { // Original name: onPressTruncatedStatus
-                _fun77774: for(var _fun77774_ip = 0; ; ) switch(_fun77774_ip) {
+                _fun77784: for(var _fun77784_ip = 0; ; ) switch(_fun77784_ip) {
  0:
                     report = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     options = mike == options;
                     mike = undefined;
-                    if(options) { _fun77774_ip = 110; continue _fun77774 }
+                    if(options) { _fun77784_ip = 110; continue _fun77784 }
  101:
                     zulu = _closure2_slot1;
                     mike = zulu.id;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['displayName'] = context;
             status = entity == record;
             context = undefined;
-            if(status) { _fun77769_ip = 934; continue _fun77769 }
+            if(status) { _fun77779_ip = 934; continue _fun77779 }
  928:
             context = record.pronouns;
  934:
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target['maxWidth'] = yankee;
             kilo = entity != foxtrot;
             yankee = undefined;
-            if(!kilo) { _fun77769_ip = 1285; continue _fun77769 }
+            if(!kilo) { _fun77779_ip = 1285; continue _fun77779 }
  1128:
             context = _closure1_slot0;
             lima = _closure1_slot2;
@@ -470,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = context.canInstallApplication;
             kilo = kilo.bind(context)(foxtrot);
             yankee = undefined;
-            if(!kilo) { _fun77769_ip = 1285; continue _fun77769 }
+            if(!kilo) { _fun77779_ip = 1285; continue _fun77779 }
  1164:
             lima = _closure1_slot9;
             context = _closure1_slot1;
@@ -484,14 +484,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['botUserId'] = variable38;
             variable42 = entity == romeo;
             variable38 = undefined;
-            if(variable42) { _fun77769_ip = 1218; continue _fun77769 }
+            if(variable42) { _fun77779_ip = 1218; continue _fun77779 }
  1213:
             variable38 = romeo.id;
  1218:
             kilo['channelId'] = variable38;
             variable42 = entity != whiskey;
             variable38 = undefined;
-            if(!variable42) { _fun77769_ip = 1234; continue _fun77769 }
+            if(!variable42) { _fun77779_ip = 1234; continue _fun77779 }
  1231:
             variable38 = whiskey;
  1234:
@@ -628,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = kilo.bind(report)(yankee, verify);
             config[1] = verify;
             verify = entity != whiskey;
-            if(!verify) { _fun77769_ip = 1828; continue _fun77769 }
+            if(!verify) { _fun77779_ip = 1828; continue _fun77779 }
  1705:
             record = _closure1_slot10;
             kilo = _closure1_slot11;

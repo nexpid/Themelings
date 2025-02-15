@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/remixing/native/hooks/useCanRemixUploadItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: _default
-        _fun82024: for(var _fun82024_ip = 0; ; ) switch(_fun82024_ip) {
+        _fun82040: for(var _fun82040_ip = 0; ; ) switch(_fun82040_ip) {
  0:
             offset = argFoo;
             tango = argBar;
@@ -58,26 +58,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             entity = zulu == tango;
             romeo = undefined;
-            if(entity) { _fun82024_ip = 103; continue _fun82024 }
+            if(entity) { _fun82040_ip = 103; continue _fun82040 }
  98:
             romeo = tango.width;
  103:
             foxtrot = zulu != romeo;
             yankee = 0;
-            if(!foxtrot) { _fun82024_ip = 115; continue _fun82024 }
+            if(!foxtrot) { _fun82040_ip = 115; continue _fun82040 }
  112:
             yankee = romeo;
  115:
             mike['width'] = yankee;
             romeo = zulu == tango;
             yankee = undefined;
-            if(romeo) { _fun82024_ip = 133; continue _fun82024 }
+            if(romeo) { _fun82040_ip = 133; continue _fun82040 }
  128:
             yankee = tango.height;
  133:
             romeo = zulu != yankee;
             entity = 0;
-            if(!romeo) { _fun82024_ip = 145; continue _fun82024 }
+            if(!romeo) { _fun82040_ip = 145; continue _fun82040 }
  142:
             entity = yankee;
  145:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CHAT_INPUT;
             entity = golf.bind(verify)(offset, mike, entity);
             mike = zulu != tango;
-            if(!mike) { _fun82024_ip = 239; continue _fun82024 }
+            if(!mike) { _fun82040_ip = 240; continue _fun82040 }
  189:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
@@ -102,21 +102,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.filename;
             tango = tango.mimeType;
             mike = options.bind(verify)(golf, oscar, tango);
- 239:
-            if(!entity) { _fun82024_ip = 262; continue _fun82024 }
- 242:
+ 240:
+            if(!entity) { _fun82040_ip = 263; continue _fun82040 }
+ 243:
             zulu = zulu != report;
-            if(!zulu) { _fun82024_ip = 259; continue _fun82024 }
- 249:
+            if(!zulu) { _fun82040_ip = 260; continue _fun82040 }
+ 250:
             tango = report.isForumLikeChannel;
             zulu = tango.bind(report)();
- 259:
+ 260:
             entity = !zulu;
- 262:
-            if(!entity) { _fun82024_ip = 268; continue _fun82024 }
- 265:
+ 263:
+            if(!entity) { _fun82040_ip = 269; continue _fun82040 }
+ 266:
             entity = mike;
- 268:
+ 269:
             return entity;
         }
     };

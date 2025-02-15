@@ -1,6 +1,6 @@
 // app/components_native/common/MessageLoadingSpinner.tsx
 export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    _fun75222: for(var _fun75222_ip = 0; ; ) switch(_fun75222_ip) {
+    _fun75232: for(var _fun75232_ip = 0; ; ) switch(_fun75232_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         tango = golf.isAndroid;
         golf = tango.bind(golf)();
         tango = null;
-        if(golf) { _fun75222_ip = 145; continue _fun75222 }
+        if(golf) { _fun75232_ip = 145; continue _fun75232 }
  134:
         golf = 'DCDMessageLoadingSpinner';
         tango = options.bind(entity)(golf);
@@ -48,12 +48,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         tango = 'components_native/common/MessageLoadingSpinner.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: _default
-            _fun75223: for(var _fun75223_ip = 0; ; ) switch(_fun75223_ip) {
+            _fun75233: for(var _fun75233_ip = 0; ; ) switch(_fun75233_ip) {
  0:
                 mike = argFoo;
                 tango = _closure1_slot2;
                 entity = null;
-                if(!(entity == tango)) { _fun75223_ip = 65; continue _fun75223 }
+                if(!(entity == tango)) { _fun75233_ip = 65; continue _fun75233 }
  16:
                 oscar = _closure1_slot1;
                 report = _closure1_slot0;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = copyDataProperties(options, golf);
                 entity = undefined;
                 entity = oscar.bind(entity)(report, tango);
-                _fun75223_ip = 93; continue _fun75223;
+                _fun75233_ip = 93; continue _fun75233;
  65:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;

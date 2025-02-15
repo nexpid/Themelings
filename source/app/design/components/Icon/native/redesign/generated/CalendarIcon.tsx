@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CalendarIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun76905: for(var _fun76905_ip = 0; ; ) switch(_fun76905_ip) {
+        _fun76915: for(var _fun76915_ip = 0; ; ) switch(_fun76915_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun76905_ip = 53; continue _fun76905 }
+            if(!(golf === tango)) { _fun76915_ip = 53; continue _fun76915 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -40,11 +40,11 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun38319: for(var _fun38319_ip = 0; ; ) switch(_fun38319_ip) {
+            _fun38326: for(var _fun38326_ip = 0; ; ) switch(_fun38326_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!mike) { _fun38319_ip = 43; continue _fun38319 }
+                if(!mike) { _fun38326_ip = 43; continue _fun38326 }
  12:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -76,12 +76,12 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun38321: for(var _fun38321_ip = 0; ; ) switch(_fun38321_ip) {
+            _fun38328: for(var _fun38328_ip = 0; ; ) switch(_fun38328_ip) {
  0:
                 mike = _closure2_slot0;
                 tango = undefined;
                 entity = undefined;
-                if(!mike) { _fun38321_ip = 49; continue _fun38321 }
+                if(!mike) { _fun38328_ip = 49; continue _fun38328 }
  14:
                 zulu = _closure1_slot0;
                 report = _closure1_slot1;

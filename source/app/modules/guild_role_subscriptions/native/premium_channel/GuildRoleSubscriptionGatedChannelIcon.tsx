@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/premium_channel/GuildRoleSubscriptionGatedChannelIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SubscriptionGatedChannelIcon
-        _fun113412: for(var _fun113412_ip = 0; ; ) switch(_fun113412_ip) {
+        _fun113418: for(var _fun113418_ip = 0; ; ) switch(_fun113418_ip) {
  0:
             entity = argFoo;
             oscar = entity.locked;
@@ -53,10 +53,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf[verify];
             golf = options.bind(zulu)(golf);
             golf = golf.Sizes;
-            if(report) { _fun113412_ip = 96; continue _fun113412 }
+            if(report) { _fun113418_ip = 96; continue _fun113418 }
  88:
             report = golf.SMALL;
-            _fun113412_ip = 102; continue _fun113412;
+            _fun113418_ip = 102; continue _fun113418;
  96:
             report = golf.EXTRA_SMALL_10;
  102:

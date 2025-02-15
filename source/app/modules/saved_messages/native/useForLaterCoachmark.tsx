@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/saved_messages/native/useForLaterCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useForLaterCoachmark
-        _fun116322: for(var _fun116322_ip = 0; ; ) switch(_fun116322_ip) {
+        _fun116328: for(var _fun116328_ip = 0; ; ) switch(_fun116328_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -95,10 +95,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['location'] = golf;
             entity = zulu.bind(oscar)(entity);
             entity = entity.enabled;
-            if(entity) { _fun116322_ip = 64; continue _fun116322 }
+            if(entity) { _fun116328_ip = 64; continue _fun116328 }
  58:
             verify = new Array(0);
-            _fun116322_ip = 79; continue _fun116322;
+            _fun116328_ip = 79; continue _fun116328;
  64:
             zulu = _closure1_slot8;
             entity = new Array(1);

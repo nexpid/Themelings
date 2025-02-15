@@ -30,20 +30,20 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/refresh/form/FormLabel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormLabel
-        _fun48680: for(var _fun48680_ip = 0; ; ) switch(_fun48680_ip) {
+        _fun48687: for(var _fun48687_ip = 0; ; ) switch(_fun48687_ip) {
  0:
             entity = argFoo;
             report = entity.text;
             verify = entity.numberOfLines;
             tango = undefined;
-            if(!(verify === tango)) { _fun48680_ip = 22; continue _fun48680 }
+            if(!(verify === tango)) { _fun48687_ip = 22; continue _fun48687 }
  20:
             verify = 0;
  22:
             options = entity.style;
             oscar = entity.accessible;
             offset = entity.color;
-            if(!(offset === tango)) { _fun48680_ip = 48; continue _fun48680 }
+            if(!(offset === tango)) { _fun48687_ip = 48; continue _fun48687 }
  42:
             offset = 'header-primary';
  48:

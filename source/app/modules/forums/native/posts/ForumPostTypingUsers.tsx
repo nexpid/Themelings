@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/ForumPostTypingUsers.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostTypingUsers
-        _fun100570: for(var _fun100570_ip = 0; ; ) switch(_fun100570_ip) {
+        _fun100579: for(var _fun100579_ip = 0; ; ) switch(_fun100579_ip) {
  0:
             entity = argFoo;
             mike = entity.thread;
@@ -147,15 +147,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = tango.bind(report)(zulu);
             tango = verify.useAnimatedStyle;
             zulu = function() { // Original name: P
-                _fun100571: for(var _fun100571_ip = 0; ; ) switch(_fun100571_ip) {
+                _fun100580: for(var _fun100580_ip = 0; ; ) switch(_fun100580_ip) {
  0:
                     entity = {};
                     mike = _closure2_slot4;
                     mike = mike.value;
-                    if(mike) { _fun100571_ip = 23; continue _fun100571 }
+                    if(mike) { _fun100580_ip = 23; continue _fun100580 }
  17:
                     mike = _closure2_slot2;
-                    _fun100571_ip = 27; continue _fun100571;
+                    _fun100580_ip = 27; continue _fun100580;
  23:
                     mike = _closure2_slot3;
  27:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = tango.bind(verify)(zulu);
             var _closure2_slot5 = output;
             romeo = 'text-muted';
-            if(!entity) { _fun100570_ip = 287; continue _fun100570 }
+            if(!entity) { _fun100579_ip = 287; continue _fun100579 }
  281:
             romeo = 'text-normal';
  287:
@@ -185,12 +185,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             mike = tango == entity;
             entity = null;
-            if(mike) { _fun100570_ip = 528; continue _fun100570 }
+            if(mike) { _fun100579_ip = 528; continue _fun100579 }
  315:
             zulu = foxtrot.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun100570_ip = 528; continue _fun100570 }
+            if(!(mike !== zulu)) { _fun100579_ip = 528; continue _fun100579 }
  331:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['style'] = verify;
             verify = foxtrot.map;
             oscar = function(argFoo, argBar) {
-                _fun100572: for(var _fun100572_ip = 0; ; ) switch(_fun100572_ip) {
+                _fun100581: for(var _fun100581_ip = 0; ; ) switch(_fun100581_ip) {
  0:
                     entity = argFoo;
                     report = _closure1_slot4;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options - golf;
                     golf = argBar;
                     golf = golf === options;
-                    if(!golf) { _fun100572_ip = 104; continue _fun100572 }
+                    if(!golf) { _fun100581_ip = 104; continue _fun100581 }
  94:
                     options = _closure2_slot0;
                     golf = options.lastTypingUser;

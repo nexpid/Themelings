@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/roadblocks/native/views/PremiumUpsellGradientBackground.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumUpsellGradientBackground
-        _fun78366: for(var _fun78366_ip = 0; ; ) switch(_fun78366_ip) {
+        _fun78376: for(var _fun78376_ip = 0; ; ) switch(_fun78376_ip) {
  0:
             entity = argFoo;
             golf = entity.useTier0UpsellContent;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.END;
             entity['end'] = report;
             report = true;
-            if(!(report !== golf)) { _fun78366_ip = 152; continue _fun78366 }
+            if(!(report !== golf)) { _fun78376_ip = 152; continue _fun78376 }
  121:
             golf = _closure1_slot0;
             report = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.bind(tango)(report);
             report = report.Gradients;
             report = report.PREMIUM_TIER_2_TRI_COLOR;
-            _fun78366_ip = 181; continue _fun78366;
+            _fun78376_ip = 181; continue _fun78376;
  152:
             golf = _closure1_slot0;
             oscar = _closure1_slot2;

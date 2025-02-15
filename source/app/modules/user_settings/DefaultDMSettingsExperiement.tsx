@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['DMDefaultsNewUsers'] = report;
     zulu['DMDefaults'] = tango;
     tango = function(argFoo) {
-        _fun99902: for(var _fun99902_ip = 0; ; ) switch(_fun99902_ip) {
+        _fun99911: for(var _fun99911_ip = 0; ; ) switch(_fun99911_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot1;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             entity = entity.dmOffByDefault;
-            if(entity) { _fun99902_ip = 81; continue _fun99902 }
+            if(entity) { _fun99911_ip = 81; continue _fun99911 }
  75:
             entity = mike.dmOffByDefault;
  81:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForDMDefaultOff'] = tango;
     tango = function(argFoo) {
-        _fun99903: for(var _fun99903_ip = 0; ; ) switch(_fun99903_ip) {
+        _fun99912: for(var _fun99912_ip = 0; ; ) switch(_fun99912_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot1;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             entity = entity.dmOffByDefault;
-            if(entity) { _fun99903_ip = 81; continue _fun99903 }
+            if(entity) { _fun99912_ip = 81; continue _fun99912 }
  75:
             entity = mike.dmOffByDefault;
  81:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForDMDefaultOff'] = tango;
     tango = function(argFoo) {
-        _fun99904: for(var _fun99904_ip = 0; ; ) switch(_fun99904_ip) {
+        _fun99913: for(var _fun99913_ip = 0; ; ) switch(_fun99913_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot1;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             entity = entity.messageRequestOnByDefault;
-            if(entity) { _fun99904_ip = 81; continue _fun99904 }
+            if(entity) { _fun99913_ip = 81; continue _fun99913 }
  75:
             entity = mike.messageRequestOnByDefault;
  81:
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForMessageRequestOnByDefault'] = tango;
     mike = function(argFoo) {
-        _fun99905: for(var _fun99905_ip = 0; ; ) switch(_fun99905_ip) {
+        _fun99914: for(var _fun99914_ip = 0; ; ) switch(_fun99914_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot1;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             entity = entity.messageRequestOnByDefault;
-            if(entity) { _fun99905_ip = 81; continue _fun99905 }
+            if(entity) { _fun99914_ip = 81; continue _fun99914 }
  75:
             entity = mike.messageRequestOnByDefault;
  81:

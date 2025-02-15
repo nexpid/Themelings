@@ -55,12 +55,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/avatar/native/AddAvatarModalActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) { // Original name: handlePressNext
-        _fun124204: for(var _fun124204_ip = 0; ; ) switch(_fun124204_ip) {
+        _fun124200: for(var _fun124200_ip = 0; ; ) switch(_fun124200_ip) {
  0:
             oscar = argFoo;
             mike = argBaz;
             entity = null;
-            if(!(entity != oscar)) { _fun124204_ip = 121; continue _fun124204 }
+            if(!(entity != oscar)) { _fun124200_ip = 121; continue _fun124200 }
  12:
             options = _closure1_slot1;
             golf = _closure1_slot2;
@@ -88,13 +88,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['avatar'] = oscar;
             zulu = tango.bind(report)(zulu);
  121:
-            if(!(entity == mike)) { _fun124204_ip = 143; continue _fun124204 }
+            if(!(entity == mike)) { _fun124200_ip = 143; continue _fun124200 }
  125:
             tango = _closure1_slot5;
             zulu = undefined;
             entity = false;
             entity = tango.bind(zulu)(entity);
-            _fun124204_ip = 149; continue _fun124204;
+            _fun124200_ip = 149; continue _fun124200;
  143:
             entity = undefined;
             entity = mike.bind(entity)();
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = golf.bind(options)(oscar);
         mike['confirmText'] = oscar;
         report = function() { // Original name: onConfirm
-            _fun124206: for(var _fun124206_ip = 0; ; ) switch(_fun124206_ip) {
+            _fun124202: for(var _fun124202_ip = 0; ; ) switch(_fun124202_ip) {
  0:
                 tango = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -178,12 +178,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = null;
                 mike = mike.bind(tango)(report);
                 tango = _closure2_slot0;
-                if(!(report == tango)) { _fun124206_ip = 62; continue _fun124206 }
+                if(!(report == tango)) { _fun124202_ip = 62; continue _fun124202 }
  49:
                 tango = _closure1_slot5;
                 zulu = true;
                 zulu = tango.bind(entity)(zulu);
-                _fun124206_ip = 73; continue _fun124206;
+                _fun124202_ip = 73; continue _fun124202;
  62:
                 zulu = _closure2_slot0;
                 mike = true;

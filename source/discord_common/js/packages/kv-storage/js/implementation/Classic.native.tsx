@@ -1,6 +1,6 @@
 // discord_common/js/packages/kv-storage/js/implementation/Classic.native.tsx
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    _fun37808: for(var _fun37808_ip = 0; ; ) switch(_fun37808_ip) {
+    _fun37815: for(var _fun37815_ip = 0; ; ) switch(_fun37815_ip) {
  0:
         tango = argFoo;
         report = argBar;
@@ -21,16 +21,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         mike = mike.NativeModules;
         verify = tango.__KvStorage;
         options = null;
-        if(!(options == verify)) { _fun37808_ip = 289; continue _fun37808 }
+        if(!(options == verify)) { _fun37815_ip = 289; continue _fun37815 }
  78:
         verify = mike.KvStorage;
-        if(!(options != verify)) { _fun37808_ip = 255; continue _fun37808 }
+        if(!(options != verify)) { _fun37815_ip = 255; continue _fun37815 }
  91:
         verify = mike.KvStorage;
         offset = verify.activate;
         verify = golf.Function;
         verify = offset instanceof verify;
-        if(verify) { _fun37808_ip = 150; continue _fun37808 }
+        if(verify) { _fun37815_ip = 150; continue _fun37815 }
  116:
         yankee = golf.Error;
         verify = yankee.prototype;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         verify = mike.KvStorage;
         mike = verify.activate;
         mike = mike.bind(verify)();
-        if(mike) { _fun37808_ip = 203; continue _fun37808 }
+        if(mike) { _fun37815_ip = 203; continue _fun37815 }
  169:
         offset = golf.Error;
         mike = offset.prototype;
@@ -56,10 +56,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         throw mike;
  203:
         mike = tango.__KvStorage;
-        if(!(options != mike)) { _fun37808_ip = 221; continue _fun37808 }
+        if(!(options != mike)) { _fun37815_ip = 221; continue _fun37815 }
  213:
         mike = tango.__KvStorage;
-        _fun37808_ip = 295; continue _fun37808;
+        _fun37815_ip = 295; continue _fun37815;
  221:
         offset = golf.Error;
         options = offset.prototype;

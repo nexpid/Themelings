@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: PriceOptionRow
-        _fun127428: for(var _fun127428_ip = 0; ; ) switch(_fun127428_ip) {
+        _fun127424: for(var _fun127424_ip = 0; ; ) switch(_fun127424_ip) {
  0:
             entity = argFoo;
             echo = entity.price;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = golf;
             golf = undefined;
-            if(!options) { _fun127428_ip = 84; continue _fun127428 }
+            if(!options) { _fun127424_ip = 84; continue _fun127424 }
  78:
             golf = offset.containerSelected;
  84:
@@ -50,11 +50,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.rowStatusIcon;
             report['style'] = offset;
             yankee = _closure1_slot2;
-            if(options) { _fun127428_ip = 168; continue _fun127428 }
+            if(options) { _fun127424_ip = 168; continue _fun127424 }
  159:
             options = 11;
             options = yankee[options];
-            _fun127428_ip = 175; continue _fun127428;
+            _fun127424_ip = 175; continue _fun127424;
  168:
             offset = 10;
             options = yankee[offset];

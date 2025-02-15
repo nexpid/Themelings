@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestBottomSheet/QuestBottomSheetProgressCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ProgressCard
-        _fun96522: for(var _fun96522_ip = 0; ; ) switch(_fun96522_ip) {
+        _fun96532: for(var _fun96532_ip = 0; ; ) switch(_fun96532_ip) {
  0:
             mike = argFoo;
             sizing = mike.quest;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             options = zulu == golf;
             mike = undefined;
-            if(options) { _fun96522_ip = 134; continue _fun96522 }
+            if(options) { _fun96532_ip = 134; continue _fun96532 }
  128:
             mike = golf.completedAt;
  134:
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = sizing.userStatus;
             options = zulu == golf;
             mike = undefined;
-            if(options) { _fun96522_ip = 163; continue _fun96522 }
+            if(options) { _fun96532_ip = 163; continue _fun96532 }
  157:
             mike = golf.claimedAt;
  163:
@@ -190,13 +190,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[6] = verify;
             zulu[7] = options;
             entity = function() {
-                _fun96524: for(var _fun96524_ip = 0; ; ) switch(_fun96524_ip) {
+                _fun96534: for(var _fun96534_ip = 0; ; ) switch(_fun96534_ip) {
  0:
                     mike = _closure2_slot3;
-                    if(!mike) { _fun96524_ip = 107; continue _fun96524 }
+                    if(!mike) { _fun96534_ip = 107; continue _fun96534 }
  12:
                     mike = _closure2_slot4;
-                    if(mike) { _fun96524_ip = 107; continue _fun96524 }
+                    if(mike) { _fun96534_ip = 107; continue _fun96534 }
  19:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -233,12 +233,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  107:
                     mike = _closure2_slot2;
-                    if(mike) { _fun96524_ip = 571; continue _fun96524 }
+                    if(mike) { _fun96534_ip = 571; continue _fun96534 }
  117:
                     mike = _closure2_slot5;
                     zulu = mike.length;
                     mike = 1;
-                    if(!(!(zulu > mike))) { _fun96524_ip = 497; continue _fun96524 }
+                    if(!(!(zulu > mike))) { _fun96534_ip = 497; continue _fun96534 }
  136:
                     mike = _closure2_slot1;
                     tango = mike.taskType;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = golf.bind(options)(mike);
                     mike = mike.FirstPartyQuestTaskTypes;
                     mike = mike.STREAM_ON_DESKTOP;
-                    if(!(tango !== mike)) { _fun96524_ip = 428; continue _fun96524 }
+                    if(!(tango !== mike)) { _fun96534_ip = 428; continue _fun96534 }
  190:
                     mike = _closure2_slot1;
                     tango = mike.taskType;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = golf.bind(options)(mike);
                     mike = mike.FirstPartyQuestTaskTypes;
                     mike = mike.PLAY_ON_DESKTOP;
-                    if(!(tango !== mike)) { _fun96524_ip = 359; continue _fun96524 }
+                    if(!(tango !== mike)) { _fun96534_ip = 359; continue _fun96534 }
  236:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.taskType;
                     tango = tango.bind(oscar)(mike);
                     mike = null;
-                    if(!tango) { _fun96524_ip = 357; continue _fun96524 }
+                    if(!tango) { _fun96534_ip = 357; continue _fun96534 }
  290:
                     oscar = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['gameTitle'] = offset;
                     mike = golf.bind(verify)(oscar, tango);
  357:
-                    _fun96524_ip = 426; continue _fun96524;
+                    _fun96534_ip = 426; continue _fun96534;
  359:
                     oscar = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['gameName'] = offset;
                     mike = golf.bind(verify)(oscar, tango);
  426:
-                    _fun96524_ip = 495; continue _fun96524;
+                    _fun96534_ip = 495; continue _fun96534;
  428:
                     tango = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['gameName'] = options;
                     mike = oscar.bind(golf)(tango, zulu);
  495:
-                    _fun96524_ip = 569; continue _fun96524;
+                    _fun96534_ip = 569; continue _fun96534;
  497:
                     options = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['size'] = output;
             backup = backup.percentComplete;
             options['progress'] = backup;
-            if(foxtrot) { _fun96522_ip = 474; continue _fun96522 }
+            if(foxtrot) { _fun96532_ip = 474; continue _fun96532 }
  471:
             foxtrot = oscar;
  474:
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun96522_ip = 744; continue _fun96522 }
+            if(!oscar) { _fun96532_ip = 744; continue _fun96532 }
  596:
             verify = _closure1_slot5;
             options = _closure1_slot4;

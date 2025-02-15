@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackFriendsListViewed
-        _fun118333: for(var _fun118333_ip = 0; ; ) switch(_fun118333_ip) {
+        _fun118339: for(var _fun118339_ip = 0; ; ) switch(_fun118339_ip) {
  0:
             entity = argFoo;
             verify = entity.tab_opened;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = null;
             offset = options != verify;
             oscar = 'tabless';
-            if(!offset) { _fun118333_ip = 145; continue _fun118333 }
+            if(!offset) { _fun118339_ip = 145; continue _fun118339 }
  142:
             oscar = verify;
  145:
@@ -71,14 +71,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = golf.num_friends;
             yankee = options != offset;
             verify = 0;
-            if(!yankee) { _fun118333_ip = 168; continue _fun118333 }
+            if(!yankee) { _fun118339_ip = 168; continue _fun118339 }
  165:
             verify = offset;
  168:
             mike['num_friends'] = verify;
             offset = golf.now_playing_visible;
             verify = options != offset;
-            if(!verify) { _fun118333_ip = 189; continue _fun118333 }
+            if(!verify) { _fun118339_ip = 189; continue _fun118339 }
  186:
             verify = offset;
  189:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.now_playing_num_cards;
             options = options != golf;
             oscar = 0;
-            if(!options) { _fun118333_ip = 212; continue _fun118333 }
+            if(!options) { _fun118339_ip = 212; continue _fun118339 }
  209:
             oscar = golf;
  212:

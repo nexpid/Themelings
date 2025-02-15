@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo, argBar, argBaz) { // Original name: isFavoritesGuildVisible
-        _fun105747: for(var _fun105747_ip = 0; ; ) switch(_fun105747_ip) {
+        _fun105739: for(var _fun105739_ip = 0; ; ) switch(_fun105739_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
@@ -31,9 +31,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.bind(verify)(golf, zulu);
             zulu = golf.canShow;
             golf = golf.isFavoritesPerk;
-            if(golf) { _fun105747_ip = 216; continue _fun105747 }
+            if(golf) { _fun105739_ip = 216; continue _fun105739 }
  93:
-            if(zulu) { _fun105747_ip = 98; continue _fun105747 }
+            if(zulu) { _fun105739_ip = 98; continue _fun105739 }
  96:
             return entity;
  98:
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(report)(zulu);
             zulu = golf.isEmpty;
             zulu = zulu.bind(golf)(verify);
-            if(zulu) { _fun105747_ip = 214; continue _fun105747 }
+            if(zulu) { _fun105739_ip = 214; continue _fun105739 }
  142:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = golf.bind(options)(verify);
             golf = options.filter;
             tango = function(argFoo) {
-                _fun105748: for(var _fun105748_ip = 0; ; ) switch(_fun105748_ip) {
+                _fun105740: for(var _fun105740_ip = 0; ; ) switch(_fun105740_ip) {
  0:
                     tango = _closure2_slot0;
                     mike = tango.getChannel;
@@ -65,13 +65,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = mike.bind(tango)(entity);
                     entity = null;
                     entity = entity != oscar;
-                    if(!entity) { _fun105748_ip = 80; continue _fun105748 }
+                    if(!entity) { _fun105740_ip = 80; continue _fun105740 }
  29:
                     mike = oscar.isPrivate;
                     mike = mike.bind(oscar)();
                     tango = !mike;
                     mike = !tango;
-                    if(!tango) { _fun105748_ip = 77; continue _fun105748 }
+                    if(!tango) { _fun105740_ip = 77; continue _fun105740 }
  48:
                     report = _closure2_slot1;
                     tango = report.can;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/favorites/useIsFavoritesGuildVisible.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: useIsFavoritesGuildVisible
-        _fun105749: for(var _fun105749_ip = 0; ; ) switch(_fun105749_ip) {
+        _fun105741: for(var _fun105741_ip = 0; ; ) switch(_fun105741_ip) {
  0:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -158,10 +158,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot4;
             zulu[2] = oscar;
             mike = function() {
-                _fun105750: for(var _fun105750_ip = 0; ; ) switch(_fun105750_ip) {
+                _fun105742: for(var _fun105742_ip = 0; ; ) switch(_fun105742_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(!entity) { _fun105750_ip = 38; continue _fun105750 }
+                    if(!entity) { _fun105742_ip = 38; continue _fun105742 }
  10:
                     oscar = _closure1_slot7;
                     report = _closure1_slot5;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(zulu, mike);
             zulu = !entity;
             entity = !zulu;
-            if(!zulu) { _fun105749_ip = 130; continue _fun105749 }
+            if(!zulu) { _fun105741_ip = 130; continue _fun105741 }
  127:
             entity = mike;
  130:

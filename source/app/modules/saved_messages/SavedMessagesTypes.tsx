@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     tango = function(argFoo) { // Original name: savedMessageDataToClient
-        _fun88969: for(var _fun88969_ip = 0; ; ) switch(_fun88969_ip) {
+        _fun88986: for(var _fun88986_ip = 0; ; ) switch(_fun88986_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -32,14 +32,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = zulu.guild_id;
             golf = 0;
             report = undefined;
-            if(!(golf !== oscar)) { _fun88969_ip = 128; continue _fun88969 }
+            if(!(golf !== oscar)) { _fun88986_ip = 128; continue _fun88986 }
  123:
             report = zulu.guild_id;
  128:
             entity['guildId'] = report;
             oscar = zulu.author_id;
             report = undefined;
-            if(!(golf !== oscar)) { _fun88969_ip = 150; continue _fun88969 }
+            if(!(golf !== oscar)) { _fun88986_ip = 150; continue _fun88986 }
  144:
             report = zulu.author_id;
  150:
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = null;
             report = report != oscar;
             mike = undefined;
-            if(!report) { _fun88969_ip = 215; continue _fun88969 }
+            if(!report) { _fun88986_ip = 215; continue _fun88986 }
  183:
             report = tango.Date;
             options = zulu.due_at;
@@ -90,14 +90,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['SavedMessageSortTypes'] = report;
     zulu['savedMessageDataToClient'] = tango;
     tango = function(argFoo) { // Original name: savedMessageCreateObjectToClient
-        _fun88970: for(var _fun88970_ip = 0; ; ) switch(_fun88970_ip) {
+        _fun88987: for(var _fun88987_ip = 0; ; ) switch(_fun88987_ip) {
  0:
             mike = argFoo;
             entity = {};
             tango = mike.message;
             zulu = null;
             tango = zulu != tango;
-            if(!tango) { _fun88970_ip = 59; continue _fun88970 }
+            if(!tango) { _fun88987_ip = 59; continue _fun88987 }
  19:
             oscar = _closure1_slot0;
             report = _closure1_slot1;

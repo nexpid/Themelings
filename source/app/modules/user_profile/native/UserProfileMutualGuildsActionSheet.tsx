@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: MutualGuildRow
-        _fun80065: for(var _fun80065_ip = 0; ; ) switch(_fun80065_ip) {
+        _fun80077: for(var _fun80077_ip = 0; ; ) switch(_fun80077_ip) {
  0:
             mike = argFoo;
             zulu = mike.mutualGuild;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.mutualGuildSubLabel;
             oscar['style'] = verify;
             offset = romeo;
-            if(!romeo) { _fun80065_ip = 279; continue _fun80065 }
+            if(!romeo) { _fun80077_ip = 279; continue _fun80077 }
  205:
             sizing = _closure1_slot5;
             kilo = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = null;
             kilo = offset != foxtrot;
-            if(!kilo) { _fun80065_ip = 349; continue _fun80065 }
+            if(!kilo) { _fun80077_ip = 349; continue _fun80077 }
  296:
             result = _closure1_slot5;
             output = _closure1_slot0;
@@ -95,11 +95,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  349:
             verify[1] = kilo;
             offset = offset == foxtrot;
-            if(!offset) { _fun80065_ip = 363; continue _fun80065 }
+            if(!offset) { _fun80077_ip = 363; continue _fun80077 }
  360:
             offset = romeo;
  363:
-            if(!offset) { _fun80065_ip = 424; continue _fun80065 }
+            if(!offset) { _fun80077_ip = 424; continue _fun80077 }
  366:
             foxtrot = _closure1_slot5;
             romeo = _closure1_slot0;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileMutualGuildsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileMutualGuildsActionSheet
-        _fun80066: for(var _fun80066_ip = 0; ; ) switch(_fun80066_ip) {
+        _fun80078: for(var _fun80078_ip = 0; ; ) switch(_fun80078_ip) {
  0:
             mike = argFoo;
             entity = mike.user;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             golf = options == backup;
             report = undefined;
-            if(golf) { _fun80066_ip = 126; continue _fun80066 }
+            if(golf) { _fun80078_ip = 126; continue _fun80078 }
  121:
             report = backup.length;
  126:
@@ -226,11 +226,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             verify = foxtrot.container;
             report['style'] = verify;
-            if(!(options != backup)) { _fun80066_ip = 307; continue _fun80066 }
+            if(!(options != backup)) { _fun80078_ip = 307; continue _fun80078 }
  161:
             verify = backup.length;
             options = 0;
-            if(!(options !== verify)) { _fun80066_ip = 237; continue _fun80066 }
+            if(!(options !== verify)) { _fun80078_ip = 237; continue _fun80078 }
  172:
             offset = _closure1_slot5;
             verify = _closure1_slot0;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             options['renderItem'] = yankee;
             options = offset.bind(tango)(verify, options);
-            _fun80066_ip = 305; continue _fun80066;
+            _fun80078_ip = 305; continue _fun80078;
  237:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['children'] = backup;
             options = yankee.bind(tango)(offset, verify);
  305:
-            _fun80066_ip = 353; continue _fun80066;
+            _fun80078_ip = 353; continue _fun80078;
  307:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;

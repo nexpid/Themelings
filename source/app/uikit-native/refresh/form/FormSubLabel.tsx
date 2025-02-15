@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/refresh/form/FormSubLabel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSubLabel
-        _fun48682: for(var _fun48682_ip = 0; ; ) switch(_fun48682_ip) {
+        _fun48689: for(var _fun48689_ip = 0; ; ) switch(_fun48689_ip) {
  0:
             entity = argFoo;
             report = entity.text;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = entity.accessible;
             verify = entity.color;
             tango = undefined;
-            if(!(verify === tango)) { _fun48682_ip = 42; continue _fun48682 }
+            if(!(verify === tango)) { _fun48689_ip = 42; continue _fun48689 }
  36:
             verify = 'text-secondary';
  42:

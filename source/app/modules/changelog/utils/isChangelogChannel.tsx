@@ -29,12 +29,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/changelog/utils/isChangelogChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isChangelogChannel
-        _fun67446: for(var _fun67446_ip = 0; ; ) switch(_fun67446_ip) {
+        _fun67452: for(var _fun67452_ip = 0; ; ) switch(_fun67452_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun67446_ip = 38; continue _fun67446 }
+            if(!entity) { _fun67452_ip = 38; continue _fun67452 }
  12:
             report = _closure1_slot0;
             tango = report.getDMFromUserId;

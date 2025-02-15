@@ -45,30 +45,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_analytics/ThreadAnalyticsUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: collectThreadMetadata
-        _fun68710: for(var _fun68710_ip = 0; ; ) switch(_fun68710_ip) {
+        _fun68716: for(var _fun68716_ip = 0; ; ) switch(_fun68716_ip) {
  0:
             zulu = argFoo;
             options = arguments[1];
             golf = undefined;
-            if(!(options === golf)) { _fun68710_ip = 14; continue _fun68710 }
+            if(!(options === golf)) { _fun68716_ip = 14; continue _fun68716 }
  12:
             options = false;
  14:
             report = null;
             mike = report != zulu;
             entity = null;
-            if(!mike) { _fun68710_ip = 353; continue _fun68710 }
+            if(!mike) { _fun68716_ip = 353; continue _fun68716 }
  28:
             verify = _closure1_slot5;
             oscar = verify.has;
             mike = zulu.type;
             mike = oscar.bind(verify)(mike);
             entity = null;
-            if(!mike) { _fun68710_ip = 353; continue _fun68710 }
+            if(!mike) { _fun68716_ip = 353; continue _fun68716 }
  58:
             mike = {};
             oscar = undefined;
-            if(!options) { _fun68710_ip = 95; continue _fun68710 }
+            if(!options) { _fun68716_ip = 95; continue _fun68716 }
  65:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.threadMetadata;
             verify = report == oscar;
             options = undefined;
-            if(verify) { _fun68710_ip = 174; continue _fun68710 }
+            if(verify) { _fun68716_ip = 174; continue _fun68716 }
  168:
             options = oscar.archived;
  174:
@@ -102,12 +102,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.threadMetadata;
             verify = report == oscar;
             options = undefined;
-            if(verify) { _fun68710_ip = 208; continue _fun68710 }
+            if(verify) { _fun68716_ip = 208; continue _fun68716 }
  202:
             options = oscar.locked;
  208:
             oscar = report != options;
-            if(!oscar) { _fun68710_ip = 218; continue _fun68710 }
+            if(!oscar) { _fun68716_ip = 218; continue _fun68716 }
  215:
             oscar = options;
  218:
@@ -115,13 +115,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = zulu.threadMetadata;
             verify = report == options;
             oscar = undefined;
-            if(verify) { _fun68710_ip = 246; continue _fun68710 }
+            if(verify) { _fun68716_ip = 246; continue _fun68716 }
  240:
             oscar = options.autoArchiveDuration;
  246:
             options = report != oscar;
             report = 0;
-            if(!options) { _fun68710_ip = 258; continue _fun68710 }
+            if(!options) { _fun68716_ip = 258; continue _fun68716 }
  255:
             report = oscar;
  258:

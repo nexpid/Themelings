@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: ChannelSettingsChangeDefaultForumLayout
-        _fun120352: for(var _fun120352_ip = 0; ; ) switch(_fun120352_ip) {
+        _fun120358: for(var _fun120358_ip = 0; ; ) switch(_fun120358_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['title'] = verify;
             romeo = null;
             verify = yankee;
-            if(!(romeo == verify)) { _fun120352_ip = 269; continue _fun120352 }
+            if(!(romeo == verify)) { _fun120358_ip = 269; continue _fun120358 }
  237:
             foxtrot = _closure1_slot0;
             echo = _closure1_slot2;
@@ -231,14 +231,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = romeo.bind(tango)(verify);
             verify = verify.ForumLayout;
             verify = verify.GRID;
-            if(!(yankee !== verify)) { _fun120352_ip = 882; continue _fun120352 }
+            if(!(yankee !== verify)) { _fun120358_ip = 882; continue _fun120358 }
  860:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
             verify = 19;
             verify = romeo[verify];
             verify = yankee.bind(tango)(verify);
-            _fun120352_ip = 902; continue _fun120352;
+            _fun120358_ip = 902; continue _fun120358;
  882:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'components_native/channel_settings/ChannelSettingsChangeDefaultForumLayout.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ConnectedChannelSettingsChangeDefaultForumLayout
-        _fun120355: for(var _fun120355_ip = 0; ; ) switch(_fun120355_ip) {
+        _fun120361: for(var _fun120361_ip = 0; ; ) switch(_fun120361_ip) {
  0:
             mike = argFoo;
             mike = mike.channelId;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(oscar)(zulu, entity);
             entity = null;
             zulu = entity == oscar;
-            if(zulu) { _fun120355_ip = 98; continue _fun120355 }
+            if(zulu) { _fun120361_ip = 98; continue _fun120361 }
  78:
             tango = _closure1_slot7;
             zulu = _closure1_slot10;

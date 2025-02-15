@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = backup.bind(tango)(mike);
         options = verify.useDerivedValue;
         mike = function() { // Original name: o
-            _fun87798: for(var _fun87798_ip = 0; ; ) switch(_fun87798_ip) {
+            _fun87815: for(var _fun87815_ip = 0; ; ) switch(_fun87815_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = report.withTiming;
                 mike = _closure2_slot0;
                 zulu = 0;
-                if(!mike) { _fun87798_ip = 45; continue _fun87798 }
+                if(!mike) { _fun87815_ip = 45; continue _fun87815 }
  42:
                 zulu = 1;
  45:

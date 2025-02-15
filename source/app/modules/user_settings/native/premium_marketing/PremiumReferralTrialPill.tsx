@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/premium_marketing/PremiumReferralTrialPill.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun95906: for(var _fun95906_ip = 0; ; ) switch(_fun95906_ip) {
+        _fun95916: for(var _fun95916_ip = 0; ; ) switch(_fun95916_ip) {
  0:
             entity = argFoo;
             oscar = entity.hideLeftSparkle;
@@ -73,17 +73,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot4;
             mike = _closure1_slot2;
             entity = {};
-            if(report) { _fun95906_ip = 49; continue _fun95906 }
+            if(report) { _fun95916_ip = 49; continue _fun95916 }
  41:
             report = foxtrot.pillParent;
-            _fun95906_ip = 55; continue _fun95906;
+            _fun95916_ip = 55; continue _fun95916;
  49:
             report = foxtrot.pillParentExtraMargin;
  55:
             entity['style'] = report;
             report = true;
             oscar = report !== oscar;
-            if(!oscar) { _fun95906_ip = 106; continue _fun95906 }
+            if(!oscar) { _fun95916_ip = 106; continue _fun95916 }
  68:
             options = _closure1_slot3;
             golf = _closure1_slot0;

@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GIFPickerHeader
-        _fun84858: for(var _fun84858_ip = 0; ; ) switch(_fun84858_ip) {
+        _fun84874: for(var _fun84874_ip = 0; ; ) switch(_fun84874_ip) {
  0:
             entity = argFoo;
             output = entity.categoryType;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = _closure1_slot4;
             report = report.SEARCH;
-            if(!(output !== report)) { _fun84858_ip = 553; continue _fun84858 }
+            if(!(output !== report)) { _fun84874_ip = 553; continue _fun84874 }
  76:
             options = _closure1_slot6;
             backup = _closure1_slot0;
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {'variant': 'text-sm/semibold', 'color': 'text-normal', 'maxFontSizeMultiplier': 2};
             sizing = _closure1_slot4;
             sizing = sizing.TRENDING_GIFS;
-            if(!(output !== sizing)) { _fun84858_ip = 475; continue _fun84858 }
+            if(!(output !== sizing)) { _fun84874_ip = 475; continue _fun84874 }
  353:
             sizing = _closure1_slot4;
             sizing = sizing.FAVORITES;
-            if(!(output !== sizing)) { _fun84858_ip = 421; continue _fun84858 }
+            if(!(output !== sizing)) { _fun84874_ip = 421; continue _fun84874 }
  367:
             echo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.t;
             sizing = sizing.5h0QOD;
             sizing = output.bind(result)(sizing);
-            _fun84858_ip = 473; continue _fun84858;
+            _fun84874_ip = 473; continue _fun84874;
  421:
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.k8fFjo;
             sizing = result.bind(echo)(output);
  473:
-            _fun84858_ip = 527; continue _fun84858;
+            _fun84874_ip = 527; continue _fun84874;
  475:
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[1] = foxtrot;
             report['children'] = romeo;
             report = options.bind(tango)(golf, report);
-            _fun84858_ip = 672; continue _fun84858;
+            _fun84874_ip = 672; continue _fun84874;
  553:
             options = _closure1_slot5;
             backup = _closure1_slot0;

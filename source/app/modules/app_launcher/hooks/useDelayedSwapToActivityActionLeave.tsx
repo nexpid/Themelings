@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun118997: for(var _fun118997_ip = 0; ; ) switch(_fun118997_ip) {
+            _fun119003: for(var _fun119003_ip = 0; ; ) switch(_fun119003_ip) {
  0:
                 tango = _closure2_slot0;
                 oscar = _closure1_slot0;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = oscar.bind(report)(zulu);
                 zulu = zulu.ActivityAction;
                 zulu = zulu.LEAVE;
-                if(!(tango !== zulu)) { _fun118997_ip = 65; continue _fun118997 }
+                if(!(tango !== zulu)) { _fun119003_ip = 65; continue _fun119003 }
  50:
                 zulu = _closure2_slot1;
                 mike = _closure2_slot0;

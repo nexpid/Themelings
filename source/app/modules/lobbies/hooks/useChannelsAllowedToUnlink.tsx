@@ -7,23 +7,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: getChannelsAllowedToUnlink
-        _fun124953: for(var _fun124953_ip = 0; ; ) switch(_fun124953_ip) {
+        _fun124949: for(var _fun124949_ip = 0; ; ) switch(_fun124949_ip) {
  0:
             tango = argFoo;
             zulu = arguments[1];
             mike = arguments[2];
             report = undefined;
-            if(!(zulu === report)) { _fun124953_ip = 24; continue _fun124953 }
+            if(!(zulu === report)) { _fun124949_ip = 24; continue _fun124949 }
  17:
             zulu = _closure1_slot2;
  24:
-            if(!(mike === report)) { _fun124953_ip = 35; continue _fun124953 }
+            if(!(mike === report)) { _fun124949_ip = 35; continue _fun124949 }
  28:
             mike = _closure1_slot4;
  35:
             var _closure2_slot0 = mike;
             mike = null;
-            if(!(mike != tango)) { _fun124953_ip = 103; continue _fun124953 }
+            if(!(mike != tango)) { _fun124949_ip = 103; continue _fun124949 }
  45:
             mike = zulu.getChannels;
             zulu = mike.bind(zulu)(tango);
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
-            _fun124953_ip = 107; continue _fun124953;
+            _fun124949_ip = 107; continue _fun124949;
  103:
             entity = new Array(0);
  107:

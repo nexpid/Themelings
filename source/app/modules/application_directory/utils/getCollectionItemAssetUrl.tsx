@@ -32,14 +32,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/application_directory/utils/getCollectionItemAssetUrl.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getCollectionItemAssetUrl
-        _fun118908: for(var _fun118908_ip = 0; ; ) switch(_fun118908_ip) {
+        _fun118914: for(var _fun118914_ip = 0; ; ) switch(_fun118914_ip) {
  0:
             entity = argFoo;
             backup = entity.itemId;
             foxtrot = entity.hash;
             options = entity.containerWidth;
             report = undefined;
-            if(!(options === report)) { _fun118908_ip = 32; continue _fun118908 }
+            if(!(options === report)) { _fun118914_ip = 32; continue _fun118914 }
  26:
             options = 1024;
  32:
@@ -74,13 +74,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.SUPPORTS_WEBP;
             yankee = 'png';
-            if(!entity) { _fun118908_ip = 177; continue _fun118908 }
+            if(!entity) { _fun118914_ip = 177; continue _fun118914 }
  171:
             yankee = 'webp';
  177:
             tango = _closure1_slot4;
             entity = null;
-            if(!(entity == tango)) { _fun118908_ip = 254; continue _fun118908 }
+            if(!(entity == tango)) { _fun118914_ip = 254; continue _fun118914 }
  187:
             entity = mike.location;
             options = entity.protocol;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             sequence = golf;
             source = romeo;
             entity = record[report](config, sequence, vacuum, control, source, update);
-            _fun118908_ip = 325; continue _fun118908;
+            _fun118914_ip = 325; continue _fun118914;
  254:
             tango = mike.location;
             config = tango.protocol;

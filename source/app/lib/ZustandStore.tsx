@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         var _closure2_slot3 = report;
         tango = function(argFoo) { // Original name: getState
-            _fun91425: for(var _fun91425_ip = 0; ; ) switch(_fun91425_ip) {
+            _fun91454: for(var _fun91454_ip = 0; ; ) switch(_fun91454_ip) {
  0:
                 tango = argFoo;
                 mike = _closure2_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = entity.bind(mike)();
                 mike = null;
                 entity = zulu;
-                if(!(mike != tango)) { _fun91425_ip = 36; continue _fun91425 }
+                if(!(mike != tango)) { _fun91454_ip = 36; continue _fun91454 }
  29:
                 mike = undefined;
                 entity = tango.bind(mike)(zulu);
@@ -143,13 +143,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['useState'] = report;
         entity['getState'] = tango;
         tango = function(argFoo) { // Original name: useField
-            _fun91433: for(var _fun91433_ip = 0; ; ) switch(_fun91433_ip) {
+            _fun91462: for(var _fun91462_ip = 0; ; ) switch(_fun91462_ip) {
  0:
                 options = argFoo;
                 tango = arguments[1];
                 var _closure3_slot0 = options;
                 zulu = undefined;
-                if(!(tango === zulu)) { _fun91433_ip = 25; continue _fun91433 }
+                if(!(tango === zulu)) { _fun91462_ip = 25; continue _fun91462 }
  18:
                 tango = _closure1_slot3;
  25:

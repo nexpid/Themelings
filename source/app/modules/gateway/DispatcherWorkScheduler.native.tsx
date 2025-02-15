@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun106023: for(var _fun106023_ip = 0; ; ) switch(_fun106023_ip) {
+        _fun106015: for(var _fun106015_ip = 0; ; ) switch(_fun106015_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot5;
@@ -17,11 +17,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot14;
             entity = entity.bind(zulu)();
-            if(entity) { _fun106023_ip = 48; continue _fun106023 }
+            if(entity) { _fun106015_ip = 48; continue _fun106015 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun106023_ip = 86; continue _fun106023;
+            _fun106015_ip = 86; continue _fun106015;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun106024: for(var _fun106024_ip = 0; ; ) switch(_fun106024_ip) {
+        _fun106016: for(var _fun106016_ip = 0; ; ) switch(_fun106016_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun106024_ip = 76; continue _fun106024;
+            _fun106016_ip = 76; continue _fun106016;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -167,15 +167,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = '_queueIdleCallback';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun106030: for(var _fun106030_ip = 0; ; ) switch(_fun106030_ip) {
+            _fun106022: for(var _fun106022_ip = 0; ; ) switch(_fun106022_ip) {
  0:
                 mike = this;
                 var _closure3_slot0 = mike;
                 entity = mike._enableRequestIdleCallback;
-                if(!entity) { _fun106030_ip = 80; continue _fun106030 }
+                if(!entity) { _fun106022_ip = 80; continue _fun106022 }
  18:
                 entity = mike._criticalWorkScheduled;
-                if(entity) { _fun106030_ip = 80; continue _fun106030 }
+                if(entity) { _fun106022_ip = 80; continue _fun106022 }
  27:
                 entity = global;
                 report = entity.performance;
@@ -235,12 +235,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = '_clearIdleCallback';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun106032: for(var _fun106032_ip = 0; ; ) switch(_fun106032_ip) {
+            _fun106024: for(var _fun106024_ip = 0; ; ) switch(_fun106024_ip) {
  0:
                 mike = this;
                 zulu = mike._flushIdleHandler;
                 entity = null;
-                if(!(entity != zulu)) { _fun106032_ip = 42; continue _fun106032 }
+                if(!(entity != zulu)) { _fun106024_ip = 42; continue _fun106024 }
  15:
                 zulu = global;
                 report = zulu.clearTimeout;

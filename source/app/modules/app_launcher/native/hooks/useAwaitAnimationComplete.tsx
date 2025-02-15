@@ -60,17 +60,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['AwaitAnimationContext'] = tango;
     mike = function() { // Original name: useAwaitAnimationCompletion
-        _fun119127: for(var _fun119127_ip = 0; ; ) switch(_fun119127_ip) {
+        _fun119133: for(var _fun119133_ip = 0; ; ) switch(_fun119133_ip) {
  0:
             zulu = _closure1_slot0;
             mike = zulu.useContext;
             entity = _closure1_slot2;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun119127_ip = 36; continue _fun119127 }
+            if(!(mike != entity)) { _fun119133_ip = 36; continue _fun119133 }
  28:
             entity = entity.handleQueuedCallback;
-            _fun119127_ip = 45; continue _fun119127;
+            _fun119133_ip = 45; continue _fun119133;
  36:
             entity = function(argFoo) {
                 mike = argFoo;

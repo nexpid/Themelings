@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: QuestDockEnrolledBody
-        _fun116292: for(var _fun116292_ip = 0; ; ) switch(_fun116292_ip) {
+        _fun116298: for(var _fun116298_ip = 0; ; ) switch(_fun116298_ip) {
  0:
             mike = argFoo;
             yankee = mike.questId;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = offset;
             entity = function(argFoo) {
-                _fun116294: for(var _fun116294_ip = 0; ; ) switch(_fun116294_ip) {
+                _fun116300: for(var _fun116300_ip = 0; ; ) switch(_fun116300_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot0;
                     mike = tango.get;
                     mike = mike.bind(tango)();
-                    if(!(mike !== zulu)) { _fun116294_ip = 53; continue _fun116294 }
+                    if(!(mike !== zulu)) { _fun116300_ip = 53; continue _fun116300 }
  39:
                     mike = _closure2_slot0;
                     entity = mike.set;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot7;
             golf = _closure1_slot1;
             offset = _closure1_slot2;
-            if(report) { _fun116292_ip = 311; continue _fun116292 }
+            if(report) { _fun116298_ip = 311; continue _fun116298 }
  284:
             report = 10;
             report = offset[report];
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             report['questId'] = yankee;
             report = options.bind(tango)(oscar, report);
-            _fun116292_ip = 336; continue _fun116292;
+            _fun116298_ip = 336; continue _fun116298;
  311:
             oscar = 9;
             oscar = offset[oscar];

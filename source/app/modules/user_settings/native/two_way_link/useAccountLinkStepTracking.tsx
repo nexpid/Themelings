@@ -7,12 +7,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = entity;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: _handleStateChange
-        _fun80632: for(var _fun80632_ip = 0; ; ) switch(_fun80632_ip) {
+        _fun80644: for(var _fun80644_ip = 0; ; ) switch(_fun80644_ip) {
  0:
             golf = argFoo;
             mike = argBar;
             offset = null;
-            if(!(offset != golf)) { _fun80632_ip = 137; continue _fun80632 }
+            if(!(offset != golf)) { _fun80644_ip = 137; continue _fun80644 }
  15:
             entity = golf.index;
             report = _closure1_slot0;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['location_stack'] = verify;
             verify = mike.current;
             verify = offset != verify;
-            if(!verify) { _fun80632_ip = 97; continue _fun80632 }
+            if(!verify) { _fun80644_ip = 97; continue _fun80644 }
  82:
             offset = golf.routeNames;
             verify = mike.current;

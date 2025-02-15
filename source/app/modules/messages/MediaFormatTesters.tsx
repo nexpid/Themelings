@@ -1,6 +1,6 @@
 // app/modules/messages/MediaFormatTesters.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun54423: for(var _fun54423_ip = 0; ; ) switch(_fun54423_ip) {
+    _fun54430: for(var _fun54430_ip = 0; ; ) switch(_fun54430_ip) {
  0:
         oscar = argBar;
         zulu = argFred;
@@ -20,12 +20,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = tango.bind(entity)(report);
         var _closure1_slot0 = tango;
         tango = function(argFoo, argBar) { // Original name: urlMatchesFileExtension
-            _fun54424: for(var _fun54424_ip = 0; ; ) switch(_fun54424_ip) {
+            _fun54431: for(var _fun54431_ip = 0; ; ) switch(_fun54431_ip) {
  0:
                 report = argFoo;
                 zulu = argBar;
                 entity = null;
-                if(!(entity != report)) { _fun54424_ip = 80; continue _fun54424 }
+                if(!(entity != report)) { _fun54431_ip = 80; continue _fun54431 }
  12:
                 mike = report.split;
                 entity = /\?/;
@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot1 = tango;
         report = function(argFoo, argBar) { // Original name: contentTypeMatches
-            _fun54425: for(var _fun54425_ip = 0; ; ) switch(_fun54425_ip) {
+            _fun54432: for(var _fun54432_ip = 0; ; ) switch(_fun54432_ip) {
  0:
                 zulu = argFoo;
                 entity = null;
-                if(!(entity != zulu)) { _fun54425_ip = 63; continue _fun54425 }
+                if(!(entity != zulu)) { _fun54432_ip = 63; continue _fun54432 }
  9:
                 mike = zulu.split;
                 entity = '/';
@@ -83,20 +83,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = oscar.bind(entity)(options);
         options = verify.isIOS;
         options = options.bind(verify)();
-        if(options) { _fun54423_ip = 195; continue _fun54423 }
+        if(options) { _fun54430_ip = 195; continue _fun54430 }
  142:
         options = golf[report];
         verify = oscar.bind(entity)(options);
         options = verify.isAndroid;
         options = options.bind(verify)();
-        if(options) { _fun54423_ip = 179; continue _fun54423 }
+        if(options) { _fun54430_ip = 179; continue _fun54430 }
  163:
         options = /\.(mp3|m4a|wav|aif|aiff|ogg|opus|flac)$/i;
-        _fun54423_ip = 193; continue _fun54423;
+        _fun54430_ip = 193; continue _fun54430;
  179:
         options = /\.(mp3|m4a|wav|ogg|opus|flac)$/i;
  193:
-        _fun54423_ip = 209; continue _fun54423;
+        _fun54430_ip = 209; continue _fun54430;
  195:
         options = /\.(mp3|m4a|wav|aif|aiff|ogg|opus|flac)$/i;
  209:
@@ -105,14 +105,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = oscar.bind(entity)(options);
         options = verify.isIOS;
         options = options.bind(verify)();
-        if(options) { _fun54423_ip = 269; continue _fun54423 }
+        if(options) { _fun54430_ip = 269; continue _fun54430 }
  235:
         report = golf[report];
         options = oscar.bind(entity)(report);
         report = options.isAndroid;
         report = report.bind(options)();
         report = /\.(mp4|webm|mov)$/i;
-        _fun54423_ip = 283; continue _fun54423;
+        _fun54430_ip = 283; continue _fun54430;
  269:
         report = /\.(mp4|mov)$/i;
  283:
@@ -134,12 +134,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['isImageUrl'] = tango;
         tango = function(argFoo) {
-            _fun54427: for(var _fun54427_ip = 0; ; ) switch(_fun54427_ip) {
+            _fun54434: for(var _fun54434_ip = 0; ; ) switch(_fun54434_ip) {
  0:
                 tango = argFoo;
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun54427_ip = 29; continue _fun54427 }
+                if(!entity) { _fun54434_ip = 29; continue _fun54434 }
  12:
                 zulu = _closure1_slot3;
                 mike = zulu.test;
@@ -168,12 +168,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['isAnimatedImageUrl'] = tango;
         tango = function(argFoo) {
-            _fun54430: for(var _fun54430_ip = 0; ; ) switch(_fun54430_ip) {
+            _fun54437: for(var _fun54437_ip = 0; ; ) switch(_fun54437_ip) {
  0:
                 tango = argFoo;
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun54430_ip = 29; continue _fun54430 }
+                if(!entity) { _fun54437_ip = 29; continue _fun54437 }
  12:
                 zulu = _closure1_slot5;
                 mike = zulu.test;
@@ -193,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['isVideoUrl'] = tango;
         tango = function(argFoo) {
-            _fun54432: for(var _fun54432_ip = 0; ; ) switch(_fun54432_ip) {
+            _fun54439: for(var _fun54439_ip = 0; ; ) switch(_fun54439_ip) {
  0:
                 tango = argFoo;
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun54432_ip = 29; continue _fun54432 }
+                if(!entity) { _fun54439_ip = 29; continue _fun54439 }
  12:
                 zulu = _closure1_slot6;
                 mike = zulu.test;

@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun107128: for(var _fun107128_ip = 0; ; ) switch(_fun107128_ip) {
+        _fun107121: for(var _fun107121_ip = 0; ; ) switch(_fun107121_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun107128_ip = 51; continue _fun107128 }
+            if(entity) { _fun107121_ip = 51; continue _fun107121 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun107128_ip = 92; continue _fun107128;
+            _fun107121_ip = 92; continue _fun107121;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun107128_ip = 71; continue _fun107128 }
+            if(oscar) { _fun107121_ip = 71; continue _fun107121 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun107129: for(var _fun107129_ip = 0; ; ) switch(_fun107129_ip) {
+        _fun107122: for(var _fun107122_ip = 0; ; ) switch(_fun107122_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun107129_ip = 76; continue _fun107129;
+            _fun107122_ip = 76; continue _fun107122;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: LinkedLobbyFormSection
-        _fun120158: for(var _fun120158_ip = 0; ; ) switch(_fun120158_ip) {
+        _fun120164: for(var _fun120164_ip = 0; ; ) switch(_fun120164_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -30,14 +30,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             golf = entity == oscar;
             mike = undefined;
-            if(golf) { _fun120158_ip = 94; continue _fun120158 }
+            if(golf) { _fun120164_ip = 94; continue _fun120164 }
  88:
             mike = oscar.application_id;
  94:
             source = zulu.bind(tango)(mike);
             mike = entity == source;
             entity = null;
-            if(mike) { _fun120158_ip = 394; continue _fun120158 }
+            if(mike) { _fun120164_ip = 394; continue _fun120164 }
  111:
             tango = _closure1_slot5;
             yankee = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/channel_settings/ChannelSettingsIntegrationsOverview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ConnectedChannelSettingsIntegrationsOverview
-        _fun120160: for(var _fun120160_ip = 0; ; ) switch(_fun120160_ip) {
+        _fun120166: for(var _fun120166_ip = 0; ; ) switch(_fun120166_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             mike = foxtrot == backup;
             entity = null;
-            if(mike) { _fun120160_ip = 697; continue _fun120160 }
+            if(mike) { _fun120166_ip = 697; continue _fun120166 }
  121:
             tango = _closure1_slot5;
             golf = _closure1_slot0;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.bind(report)(oscar);
             golf = oscar.Form;
             oscar = {};
-            if(!romeo) { _fun120160_ip = 629; continue _fun120160 }
+            if(!romeo) { _fun120166_ip = 629; continue _fun120166 }
  183:
             sizing = _closure1_slot6;
             vacuum = _closure1_slot0;
@@ -322,12 +322,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  629:
             verify = new Array(2);
             verify[0] = romeo;
-            if(!offset) { _fun120160_ip = 650; continue _fun120160 }
+            if(!offset) { _fun120166_ip = 650; continue _fun120166 }
  640:
             romeo = backup.linkedLobby;
             offset = foxtrot != romeo;
  650:
-            if(!offset) { _fun120160_ip = 673; continue _fun120160 }
+            if(!offset) { _fun120166_ip = 673; continue _fun120166 }
  653:
             foxtrot = _closure1_slot5;
             romeo = _closure1_slot7;

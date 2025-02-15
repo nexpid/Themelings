@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = 'modules/settings/native/MutedUntilText.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: MutedUntilText
-        _fun86786: for(var _fun86786_ip = 0; ; ) switch(_fun86786_ip) {
+        _fun86803: for(var _fun86803_ip = 0; ; ) switch(_fun86803_ip) {
  0:
             entity = argFoo;
             yankee = entity.muteConfig;
@@ -63,26 +63,26 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = undefined;
             report = mike.bind(tango)();
             mike = null;
-            if(!(mike != yankee)) { _fun86786_ip = 46; continue _fun86786 }
+            if(!(mike != yankee)) { _fun86803_ip = 46; continue _fun86803 }
  33:
             zulu = yankee.end_time;
-            if(!(mike == zulu)) { _fun86786_ip = 406; continue _fun86786 }
+            if(!(mike == zulu)) { _fun86803_ip = 406; continue _fun86803 }
  46:
             zulu = _closure1_slot3;
             zulu = zulu.SERVER;
-            if(!(zulu !== oscar)) { _fun86786_ip = 284; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 284; continue _fun86803 }
  63:
             zulu = _closure1_slot3;
             zulu = zulu.CHANNEL;
-            if(!(zulu !== oscar)) { _fun86786_ip = 227; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 227; continue _fun86803 }
  80:
             zulu = _closure1_slot3;
             zulu = zulu.DM;
-            if(!(zulu !== oscar)) { _fun86786_ip = 170; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 170; continue _fun86803 }
  94:
             zulu = _closure1_slot3;
             zulu = zulu.CATEGORY;
-            if(!(zulu !== oscar)) { _fun86786_ip = 110; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 110; continue _fun86803 }
  108:
             return mike;
  110:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.6+wqqq;
             verify = golf.bind(options)(zulu);
-            _fun86786_ip = 339; continue _fun86786;
+            _fun86803_ip = 339; continue _fun86803;
  170:
             offset = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.jxF9en;
             verify = golf.bind(options)(zulu);
-            _fun86786_ip = 339; continue _fun86786;
+            _fun86803_ip = 339; continue _fun86803;
  227:
             offset = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.utURT0;
             verify = golf.bind(options)(zulu);
-            _fun86786_ip = 339; continue _fun86786;
+            _fun86803_ip = 339; continue _fun86803;
  284:
             offset = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -157,19 +157,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  406:
             zulu = _closure1_slot3;
             zulu = zulu.SERVER;
-            if(!(zulu !== oscar)) { _fun86786_ip = 566; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 566; continue _fun86803 }
  423:
             zulu = _closure1_slot3;
             zulu = zulu.CHANNEL;
-            if(!(zulu !== oscar)) { _fun86786_ip = 533; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 533; continue _fun86803 }
  437:
             zulu = _closure1_slot3;
             zulu = zulu.DM;
-            if(!(zulu !== oscar)) { _fun86786_ip = 500; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 500; continue _fun86803 }
  451:
             zulu = _closure1_slot3;
             zulu = zulu.CATEGORY;
-            if(!(zulu !== oscar)) { _fun86786_ip = 467; continue _fun86786 }
+            if(!(zulu !== oscar)) { _fun86803_ip = 467; continue _fun86803 }
  465:
             return mike;
  467:
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.t;
             options = mike.N2NXMT;
-            _fun86786_ip = 597; continue _fun86786;
+            _fun86803_ip = 597; continue _fun86803;
  500:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.t;
             options = mike.c4aY0N;
-            _fun86786_ip = 597; continue _fun86786;
+            _fun86803_ip = 597; continue _fun86803;
  533:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.t;
             options = mike.N/kd4+;
-            _fun86786_ip = 597; continue _fun86786;
+            _fun86803_ip = 597; continue _fun86803;
  566:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = _closure1_slot2;
         mike = zulu.addConditionalChangeListener;
         entity = function() {
-            _fun93914: for(var _fun93914_ip = 0; ; ) switch(_fun93914_ip) {
+            _fun93939: for(var _fun93939_ip = 0; ; ) switch(_fun93939_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getDefaultChannel;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 var _closure3_slot0 = zulu;
                 entity = null;
                 entity = entity == zulu;
-                if(entity) { _fun93914_ip = 64; continue _fun93914 }
+                if(entity) { _fun93939_ip = 64; continue _fun93939 }
  40:
                 zulu = global;
                 tango = zulu.setImmediate;

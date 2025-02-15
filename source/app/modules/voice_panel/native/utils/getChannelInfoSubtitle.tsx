@@ -23,26 +23,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/utils/getChannelInfoSubtitle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getChannelInfoSubtitle
-        _fun121876: for(var _fun121876_ip = 0; ; ) switch(_fun121876_ip) {
+        _fun121882: for(var _fun121882_ip = 0; ; ) switch(_fun121882_ip) {
  0:
             report = argFoo;
             tango = argBar;
             oscar = argBaz;
             romeo = arguments[3];
             golf = undefined;
-            if(!(romeo === golf)) { _fun121876_ip = 20; continue _fun121876 }
+            if(!(romeo === golf)) { _fun121882_ip = 20; continue _fun121882 }
  18:
             romeo = 0;
  20:
             mike = oscar.length;
             entity = 0;
-            if(!(entity !== mike)) { _fun121876_ip = 365; continue _fun121876 }
+            if(!(entity !== mike)) { _fun121882_ip = 365; continue _fun121882 }
  34:
             offset = 1;
-            if(!(offset !== mike)) { _fun121876_ip = 326; continue _fun121876 }
+            if(!(offset !== mike)) { _fun121882_ip = 326; continue _fun121882 }
  44:
             foxtrot = 2;
-            if(!(foxtrot !== mike)) { _fun121876_ip = 200; continue _fun121876 }
+            if(!(foxtrot !== mike)) { _fun121882_ip = 200; continue _fun121882 }
  54:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;

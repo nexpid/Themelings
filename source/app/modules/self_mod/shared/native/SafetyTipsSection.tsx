@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/shared/native/SafetyTipsSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SafetyTipsContainer
-        _fun79634: for(var _fun79634_ip = 0; ; ) switch(_fun79634_ip) {
+        _fun79644: for(var _fun79644_ip = 0; ; ) switch(_fun79644_ip) {
  0:
             entity = argFoo;
             echo = entity.description;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = {};
             kilo = offset.bannerTextContainer;
             backup['style'] = kilo;
-            if(!options) { _fun79634_ip = 339; continue _fun79634 }
+            if(!options) { _fun79644_ip = 339; continue _fun79644 }
  229:
             output = _closure1_slot5;
             control = _closure1_slot0;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = offset;
             offset = yankee.map;
             verify = function(argFoo, argBar) {
-                _fun79635: for(var _fun79635_ip = 0; ; ) switch(_fun79635_ip) {
+                _fun79645: for(var _fun79645_ip = 0; ; ) switch(_fun79645_ip) {
  0:
                     report = argBar;
                     tango = _closure1_slot5;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = entity - verify;
                     entity = undefined;
                     golf = undefined;
-                    if(!(report !== offset)) { _fun79635_ip = 53; continue _fun79635 }
+                    if(!(report !== offset)) { _fun79645_ip = 53; continue _fun79645 }
  43:
                     options = _closure2_slot1;
                     golf = options.tipRow;

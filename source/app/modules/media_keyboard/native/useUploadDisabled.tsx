@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot4;
         mike[1] = report;
         entity = function() {
-            _fun119462: for(var _fun119462_ip = 0; ; ) switch(_fun119462_ip) {
+            _fun119468: for(var _fun119468_ip = 0; ; ) switch(_fun119468_ip) {
  0:
                 oscar = _closure1_slot4;
                 zulu = oscar.getUploads;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.length;
                 entity = _closure1_slot5;
                 entity = mike >= entity;
-                if(entity) { _fun119462_ip = 154; continue _fun119462 }
+                if(entity) { _fun119468_ip = 154; continue _fun119468 }
  57:
                 mike = _closure2_slot0;
                 zulu = mike.id;
@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = golf.bind(mike)(oscar);
                 mike = mike.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
                 mike = zulu === mike;
-                if(mike) { _fun119462_ip = 151; continue _fun119462 }
+                if(mike) { _fun119468_ip = 151; continue _fun119468 }
  101:
                 oscar = _closure2_slot0;
                 zulu = oscar.isPrivate;
                 zulu = zulu.bind(oscar)();
-                if(zulu) { _fun119462_ip = 148; continue _fun119462 }
+                if(zulu) { _fun119468_ip = 148; continue _fun119468 }
  118:
                 golf = _closure1_slot3;
                 oscar = golf.can;

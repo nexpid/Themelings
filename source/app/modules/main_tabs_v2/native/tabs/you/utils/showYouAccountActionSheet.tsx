@@ -28,11 +28,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/tabs/you/utils/showYouAccountActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: showYouAccountActionSheet
-        _fun116717: for(var _fun116717_ip = 0; ; ) switch(_fun116717_ip) {
+        _fun116723: for(var _fun116723_ip = 0; ; ) switch(_fun116723_ip) {
  0:
             golf = arguments[0];
             entity = undefined;
-            if(!(golf === entity)) { _fun116717_ip = 11; continue _fun116717 }
+            if(!(golf === entity)) { _fun116723_ip = 11; continue _fun116723 }
  9:
             golf = false;
  11:

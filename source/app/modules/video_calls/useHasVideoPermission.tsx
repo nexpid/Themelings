@@ -47,17 +47,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun75460: for(var _fun75460_ip = 0; ; ) switch(_fun75460_ip) {
+            _fun75470: for(var _fun75470_ip = 0; ; ) switch(_fun75470_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun75460_ip = 88; continue _fun75460 }
+                if(!entity) { _fun75470_ip = 88; continue _fun75470 }
  16:
                 zulu = _closure2_slot0;
                 mike = zulu.isPrivate;
                 mike = mike.bind(zulu)();
-                if(mike) { _fun75460_ip = 85; continue _fun75460 }
+                if(mike) { _fun75470_ip = 85; continue _fun75470 }
  33:
                 golf = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -83,12 +83,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getVideoPermission
-        _fun75461: for(var _fun75461_ip = 0; ; ) switch(_fun75461_ip) {
+        _fun75471: for(var _fun75471_ip = 0; ; ) switch(_fun75471_ip) {
  0:
             golf = argFoo;
             entity = golf.isPrivate;
             entity = entity.bind(golf)();
-            if(entity) { _fun75461_ip = 67; continue _fun75461 }
+            if(entity) { _fun75471_ip = 67; continue _fun75471 }
  16:
             report = _closure1_slot0;
             tango = _closure1_slot1;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/GridSquareIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun120358: for(var _fun120358_ip = 0; ; ) switch(_fun120358_ip) {
+        _fun120364: for(var _fun120364_ip = 0; ; ) switch(_fun120364_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun120358_ip = 53; continue _fun120358 }
+            if(!(golf === tango)) { _fun120364_ip = 53; continue _fun120364 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

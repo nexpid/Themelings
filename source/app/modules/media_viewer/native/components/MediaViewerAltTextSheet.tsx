@@ -61,14 +61,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_viewer/native/components/MediaViewerAltTextSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun89987: for(var _fun89987_ip = 0; ; ) switch(_fun89987_ip) {
+        _fun90004: for(var _fun90004_ip = 0; ; ) switch(_fun90004_ip) {
  0:
             entity = argFoo;
             romeo = entity.description;
             report = entity.onClose;
             oscar = entity.showBackdrop;
             tango = undefined;
-            if(!(oscar === tango)) { _fun89987_ip = 28; continue _fun89987 }
+            if(!(oscar === tango)) { _fun90004_ip = 28; continue _fun90004 }
  26:
             oscar = false;
  28:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.useIsScreenLandscape;
             entity = entity.bind(zulu)();
             yankee = 70;
-            if(entity) { _fun89987_ip = 111; continue _fun89987 }
+            if(entity) { _fun90004_ip = 111; continue _fun90004 }
  97:
             entity = 20;
             mike = mike + entity;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['onDismiss'] = report;
             report = 0;
-            if(!oscar) { _fun89987_ip = 155; continue _fun89987 }
+            if(!oscar) { _fun90004_ip = 155; continue _fun90004 }
  153:
             report = undefined;
  155:

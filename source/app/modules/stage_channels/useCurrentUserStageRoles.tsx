@@ -30,13 +30,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/stage_channels/useCurrentUserStageRoles.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCurrentUserStageRoles
-        _fun76119: for(var _fun76119_ip = 0; ; ) switch(_fun76119_ip) {
+        _fun76129: for(var _fun76129_ip = 0; ; ) switch(_fun76129_ip) {
  0:
             golf = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = golf;
             report = undefined;
-            if(!(oscar === report)) { _fun76119_ip = 20; continue _fun76119 }
+            if(!(oscar === report)) { _fun76129_ip = 20; continue _fun76129 }
  18:
             oscar = false;
  20:

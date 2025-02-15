@@ -34,13 +34,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/useGuildRoleMemberCounts.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useGuildRoleMemberCounts
-        _fun62362: for(var _fun62362_ip = 0; ; ) switch(_fun62362_ip) {
+        _fun62367: for(var _fun62367_ip = 0; ; ) switch(_fun62367_ip) {
  0:
             golf = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = golf;
             report = undefined;
-            if(!(oscar === report)) { _fun62362_ip = 20; continue _fun62362 }
+            if(!(oscar === report)) { _fun62367_ip = 20; continue _fun62367 }
  18:
             oscar = 0;
  20:
@@ -68,23 +68,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = oscar;
             mike = function() {
-                _fun62364: for(var _fun62364_ip = 0; ; ) switch(_fun62364_ip) {
+                _fun62369: for(var _fun62369_ip = 0; ; ) switch(_fun62369_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = null;
-                    if(!(zulu != entity)) { _fun62364_ip = 145; continue _fun62364 }
+                    if(!(zulu != entity)) { _fun62369_ip = 145; continue _fun62369 }
  16:
                     report = _closure1_slot5;
                     tango = _closure2_slot0;
                     report = report[tango];
                     zulu = zulu != report;
-                    if(!zulu) { _fun62364_ip = 48; continue _fun62364 }
+                    if(!zulu) { _fun62369_ip = 48; continue _fun62369 }
  38:
                     oscar = _closure2_slot1;
                     tango = 0;
                     zulu = oscar > tango;
  48:
-                    if(!zulu) { _fun62364_ip = 80; continue _fun62364 }
+                    if(!zulu) { _fun62369_ip = 80; continue _fun62369 }
  51:
                     tango = global;
                     oscar = tango.Date;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot1;
                     zulu = report < tango;
  80:
-                    if(zulu) { _fun62364_ip = 145; continue _fun62364 }
+                    if(zulu) { _fun62369_ip = 145; continue _fun62369 }
  83:
                     tango = _closure1_slot5;
                     zulu = _closure2_slot0;

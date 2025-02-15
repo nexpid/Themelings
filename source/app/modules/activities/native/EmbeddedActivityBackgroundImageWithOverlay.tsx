@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/EmbeddedActivityBackgroundImageWithOverlay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmbeddedActivityBackgroundImageWithOverlay
-        _fun75952: for(var _fun75952_ip = 0; ; ) switch(_fun75952_ip) {
+        _fun75962: for(var _fun75962_ip = 0; ; ) switch(_fun75962_ip) {
  0:
             entity = argFoo;
             mike = entity.application;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = entity.borderRadius;
             romeo = entity.resizeMode;
             report = undefined;
-            if(!(romeo === report)) { _fun75952_ip = 37; continue _fun75952 }
+            if(!(romeo === report)) { _fun75962_ip = 37; continue _fun75962 }
  33:
             romeo = 'contain';
  37:
@@ -98,14 +98,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             foxtrot = offset == mike;
             backup = undefined;
-            if(foxtrot) { _fun75952_ip = 136; continue _fun75952 }
+            if(foxtrot) { _fun75962_ip = 136; continue _fun75962 }
  131:
             backup = mike.id;
  136:
             kilo = offset != backup;
             mike = '';
             foxtrot = mike;
-            if(!kilo) { _fun75952_ip = 153; continue _fun75952 }
+            if(!kilo) { _fun75962_ip = 153; continue _fun75962 }
  150:
             foxtrot = backup;
  153:
@@ -117,14 +117,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(report)(entity);
             backup = entity.url;
             entity = null;
-            if(zulu) { _fun75952_ip = 346; continue _fun75952 }
+            if(zulu) { _fun75962_ip = 347; continue _fun75962 }
  193:
             zulu = offset == backup;
             entity = null;
-            if(zulu) { _fun75952_ip = 346; continue _fun75952 }
+            if(zulu) { _fun75962_ip = 347; continue _fun75962 }
  205:
             entity = null;
-            if(!(mike !== backup)) { _fun75952_ip = 346; continue _fun75952 }
+            if(!(mike !== backup)) { _fun75962_ip = 347; continue _fun75962 }
  214:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;
@@ -133,17 +133,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             kilo = offset != backup;
             foxtrot = undefined;
-            if(!kilo) { _fun75952_ip = 243; continue _fun75952 }
+            if(!kilo) { _fun75962_ip = 243; continue _fun75962 }
  240:
             foxtrot = backup;
  243:
             romeo['uri'] = foxtrot;
             mike['source'] = romeo;
-            if(!(offset == options)) { _fun75952_ip = 265; continue _fun75952 }
- 255:
+            if(!(offset == options)) { _fun75962_ip = 266; continue _fun75962 }
+ 256:
             offset = _closure1_slot6;
             options = offset.absoluteFillObject;
- 265:
+ 266:
             mike['style'] = options;
             options = {};
             options['borderRadius'] = yankee;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 346:
+ 347:
             return entity;
         }
     };

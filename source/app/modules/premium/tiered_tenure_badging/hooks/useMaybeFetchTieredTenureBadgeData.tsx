@@ -70,28 +70,28 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         zulu = report[zulu];
         zulu = tango.bind(entity)(zulu);
         mike = function() {
-            _fun105074: for(var _fun105074_ip = 0; ; ) switch(_fun105074_ip) {
+            _fun105066: for(var _fun105066_ip = 0; ; ) switch(_fun105066_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = null;
                 report = tango == entity;
                 entity = undefined;
                 zulu = undefined;
-                if(report) { _fun105074_ip = 29; continue _fun105074 }
+                if(report) { _fun105066_ip = 29; continue _fun105066 }
  20:
                 report = _closure2_slot0;
                 zulu = report.id;
  29:
                 zulu = tango != zulu;
-                if(!zulu) { _fun105074_ip = 40; continue _fun105074 }
+                if(!zulu) { _fun105066_ip = 40; continue _fun105066 }
  36:
                 zulu = _closure2_slot1;
  40:
-                if(!zulu) { _fun105074_ip = 47; continue _fun105074 }
+                if(!zulu) { _fun105066_ip = 47; continue _fun105066 }
  43:
                 zulu = _closure2_slot2;
  47:
-                if(!zulu) { _fun105074_ip = 93; continue _fun105074 }
+                if(!zulu) { _fun105066_ip = 93; continue _fun105066 }
  50:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;

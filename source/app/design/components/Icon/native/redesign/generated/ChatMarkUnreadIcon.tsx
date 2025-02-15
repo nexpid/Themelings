@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ChatMarkUnreadIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91143: for(var _fun91143_ip = 0; ; ) switch(_fun91143_ip) {
+        _fun91172: for(var _fun91172_ip = 0; ; ) switch(_fun91172_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun91143_ip = 53; continue _fun91143 }
+            if(!(golf === tango)) { _fun91172_ip = 53; continue _fun91172 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: isActivityFocused
-        _fun73337: for(var _fun73337_ip = 0; ; ) switch(_fun73337_ip) {
+        _fun73347: for(var _fun73347_ip = 0; ; ) switch(_fun73347_ip) {
  0:
             entity = argFoo;
             tango = entity.channelId;
@@ -19,11 +19,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.bind(mike)(tango);
             tango = null;
             entity = tango != zulu;
-            if(!entity) { _fun73337_ip = 55; continue _fun73337 }
+            if(!entity) { _fun73347_ip = 55; continue _fun73347 }
  51:
             entity = tango != mike;
  55:
-            if(!entity) { _fun73337_ip = 108; continue _fun73337 }
+            if(!entity) { _fun73347_ip = 108; continue _fun73347 }
  58:
             zulu = zulu.id;
             oscar = _closure1_slot0;

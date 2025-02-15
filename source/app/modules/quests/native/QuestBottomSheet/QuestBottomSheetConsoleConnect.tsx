@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: ConsoleRow
-        _fun96512: for(var _fun96512_ip = 0; ; ) switch(_fun96512_ip) {
+        _fun96522: for(var _fun96522_ip = 0; ; ) switch(_fun96522_ip) {
  0:
             zulu = argFoo;
             entity = zulu.onPress;
@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.type;
             entity = _closure1_slot4;
             entity = entity.PLAYSTATION;
-            if(!(entity !== mike)) { _fun96512_ip = 299; continue _fun96512 }
+            if(!(entity !== mike)) { _fun96522_ip = 299; continue _fun96522 }
  66:
             entity = _closure1_slot4;
             entity = entity.XBOX;
-            if(!(entity !== mike)) { _fun96512_ip = 82; continue _fun96512 }
+            if(!(entity !== mike)) { _fun96522_ip = 82; continue _fun96522 }
  80:
             return options;
  82:
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar.account;
             offset = options != verify;
             verify = undefined;
-            if(!offset) { _fun96512_ip = 275; continue _fun96512 }
+            if(!offset) { _fun96522_ip = 275; continue _fun96522 }
  223:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.account;
             options = options != oscar;
             oscar = undefined;
-            if(!options) { _fun96512_ip = 492; continue _fun96512 }
+            if(!options) { _fun96522_ip = 492; continue _fun96522 }
  440:
             offset = _closure1_slot0;
             golf = _closure1_slot2;
@@ -348,12 +348,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = {};
         entity['consoles'] = oscar;
         report = function(argFoo) { // Original name: onConsoleSelect
-            _fun96520: for(var _fun96520_ip = 0; ; ) switch(_fun96520_ip) {
+            _fun96530: for(var _fun96530_ip = 0; ; ) switch(_fun96530_ip) {
  0:
                 report = argFoo;
                 mike = report.account;
                 entity = null;
-                if(!(entity == mike)) { _fun96520_ip = 169; continue _fun96520 }
+                if(!(entity == mike)) { _fun96530_ip = 169; continue _fun96530 }
  18:
                 golf = _closure2_slot3;
                 zulu = {};

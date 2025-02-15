@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/banner/AppLauncherOnboardingBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherOnboardingBanner
-        _fun118444: for(var _fun118444_ip = 0; ; ) switch(_fun118444_ip) {
+        _fun118450: for(var _fun118450_ip = 0; ; ) switch(_fun118450_ip) {
  0:
             entity = argFoo;
             report = entity.context;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(tango)(mike);
             mike = mike.DismissibleContent;
             mike = mike.APP_LAUNCHER_ONBOARDING_ACTIVITIES_BANNER;
-            if(!(mike !== zulu)) { _fun118444_ip = 200; continue _fun118444 }
+            if(!(mike !== zulu)) { _fun118450_ip = 200; continue _fun118450 }
  58:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(tango)(mike);
             mike = mike.DismissibleContent;
             mike = mike.APP_LAUNCHER_ONBOARDING_APPS_BANNER;
-            if(!(mike !== zulu)) { _fun118444_ip = 166; continue _fun118444 }
+            if(!(mike !== zulu)) { _fun118450_ip = 166; continue _fun118450 }
  91:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(tango)(mike);
             mike = mike.DismissibleContent;
             mike = mike.APP_LAUNCHER_ONBOARDING_BOTS_BANNER;
-            if(!(mike !== zulu)) { _fun118444_ip = 128; continue _fun118444 }
+            if(!(mike !== zulu)) { _fun118450_ip = 128; continue _fun118450 }
  124:
             mike = null;
             return mike;

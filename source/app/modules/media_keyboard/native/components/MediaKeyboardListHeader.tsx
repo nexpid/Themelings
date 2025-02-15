@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = backup.bind(tango)(mike);
         oscar = golf.useAnimatedStyle;
         mike = function() { // Original name: P
-            _fun88195: for(var _fun88195_ip = 0; ; ) switch(_fun88195_ip) {
+            _fun88212: for(var _fun88212_ip = 0; ; ) switch(_fun88212_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = mike.get;
@@ -133,23 +133,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike > entity;
                 options = 1;
                 offset = options;
-                if(!entity) { _fun88195_ip = 82; continue _fun88195 }
+                if(!entity) { _fun88212_ip = 82; continue _fun88212 }
  80:
                 offset = 0;
  82:
                 yankee = 0;
-                if(!entity) { _fun88195_ip = 90; continue _fun88195 }
+                if(!entity) { _fun88212_ip = 90; continue _fun88212 }
  87:
                 yankee = 30;
  90:
-                if(!entity) { _fun88195_ip = 103; continue _fun88195 }
+                if(!entity) { _fun88212_ip = 103; continue _fun88212 }
  93:
                 options = 0.9;
  103:
                 entity = {};
                 zulu = _closure2_slot1;
                 mike = offset;
-                if(zulu) { _fun88195_ip = 150; continue _fun88195 }
+                if(zulu) { _fun88212_ip = 150; continue _fun88212 }
  115:
                 oscar = _closure1_slot0;
                 golf = _closure1_slot2;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = {};
                 oscar = _closure2_slot1;
                 mike = yankee;
-                if(oscar) { _fun88195_ip = 201; continue _fun88195 }
+                if(oscar) { _fun88212_ip = 201; continue _fun88212 }
  166:
                 golf = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = {};
                 oscar = _closure2_slot1;
                 tango = options;
-                if(oscar) { _fun88195_ip = 261; continue _fun88195 }
+                if(oscar) { _fun88212_ip = 261; continue _fun88212 }
  226:
                 golf = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = backup.bind(tango)(mike);
         oscar = golf.useAnimatedProps;
         mike = function() { // Original name: T
-            _fun88196: for(var _fun88196_ip = 0; ; ) switch(_fun88196_ip) {
+            _fun88213: for(var _fun88213_ip = 0; ; ) switch(_fun88213_ip) {
  0:
                 entity = {};
                 tango = _closure2_slot0;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = report.bind(oscar)(tango, mike);
                 zulu = zulu < mike;
                 mike = 'none';
-                if(!zulu) { _fun88196_ip = 84; continue _fun88196 }
+                if(!zulu) { _fun88213_ip = 84; continue _fun88213 }
  80:
                 mike = 'auto';
  84:

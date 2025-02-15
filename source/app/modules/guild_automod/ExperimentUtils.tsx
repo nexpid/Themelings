@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isInMentionRaidExperiment'] = tango;
     mike = function(argFoo) { // Original name: useIsMentionRaidExperimentEnabled
-        _fun114247: for(var _fun114247_ip = 0; ; ) switch(_fun114247_ip) {
+        _fun114253: for(var _fun114253_ip = 0; ; ) switch(_fun114253_ip) {
  0:
             report = arguments[1];
             zulu = undefined;
-            if(!(report === zulu)) { _fun114247_ip = 11; continue _fun114247 }
+            if(!(report === zulu)) { _fun114253_ip = 11; continue _fun114253 }
  9:
             report = true;
  11:

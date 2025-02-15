@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: DemoScreen
-        _fun99355: for(var _fun99355_ip = 0; ; ) switch(_fun99355_ip) {
+        _fun99365: for(var _fun99365_ip = 0; ; ) switch(_fun99365_ip) {
  0:
             entity = argFoo;
             source = entity.title;
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             yankee = null;
             foxtrot = yankee != record;
-            if(!foxtrot) { _fun99355_ip = 223; continue _fun99355 }
+            if(!foxtrot) { _fun99365_ip = 223; continue _fun99365 }
  132:
             output = _closure1_slot7;
             backup = _closure1_slot5;
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!(yankee == oscar)) { _fun99355_ip = 555; continue _fun99355 }
+            if(!(yankee == oscar)) { _fun99365_ip = 555; continue _fun99365 }
  326:
             verify = _closure1_slot8;
             options = _closure1_slot0;
@@ -515,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = golf.ModalFooter;
             golf = {};
             foxtrot = yankee != result;
-            if(!foxtrot) { _fun99355_ip = 407; continue _fun99355 }
+            if(!foxtrot) { _fun99365_ip = 407; continue _fun99365 }
  365:
             output = _closure1_slot7;
             backup = _closure1_slot0;
@@ -531,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(3);
             offset[0] = foxtrot;
             foxtrot = yankee != update;
-            if(!foxtrot) { _fun99355_ip = 476; continue _fun99355 }
+            if(!foxtrot) { _fun99365_ip = 476; continue _fun99365 }
  422:
             result = _closure1_slot7;
             output = _closure1_slot0;
@@ -549,7 +549,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  476:
             offset[1] = foxtrot;
             yankee = yankee != sizing;
-            if(!yankee) { _fun99355_ip = 541; continue _fun99355 }
+            if(!yankee) { _fun99365_ip = 541; continue _fun99365 }
  487:
             backup = _closure1_slot7;
             foxtrot = _closure1_slot0;
@@ -670,12 +670,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = argFoo;
                     mike = zulu.map;
                     entity = function(argFoo, argBar) {
-                        _fun99362: for(var _fun99362_ip = 0; ; ) switch(_fun99362_ip) {
+                        _fun99372: for(var _fun99372_ip = 0; ; ) switch(_fun99372_ip) {
  0:
                             entity = argFoo;
                             zulu = _closure3_slot0;
                             mike = argBar;
-                            if(!(mike === zulu)) { _fun99362_ip = 24; continue _fun99362 }
+                            if(!(mike === zulu)) { _fun99372_ip = 24; continue _fun99372 }
  17:
                             entity = _closure4_slot0;
  24:

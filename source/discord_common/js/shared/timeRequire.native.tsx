@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = '../discord_common/js/shared/timeRequire.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: timeRequire
-        _fun59131: for(var _fun59131_ip = 0; ; ) switch(_fun59131_ip) {
+        _fun59134: for(var _fun59134_ip = 0; ; ) switch(_fun59134_ip) {
  0:
             offset = argFoo;
             mike = global;
@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(golf)();
             oscar = zulu - oscar;
             zulu = 5;
-            if(!(oscar >= zulu)) { _fun59131_ip = 277; continue _fun59131 }
+            if(!(oscar >= zulu)) { _fun59134_ip = 277; continue _fun59134 }
  60:
             golf = _closure1_slot0;
             golf = golf.getModules;
             options = 'function';
             golf = typeof golf;
-            if(!(options !== golf)) { _fun59131_ip = 149; continue _fun59131 }
+            if(!(options !== golf)) { _fun59134_ip = 149; continue _fun59134 }
  84:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(golf)(offset);
             golf = '🏃';
             golf = verify.bind(yankee)(golf, options, oscar);
-            _fun59131_ip = 277; continue _fun59131;
+            _fun59134_ip = 277; continue _fun59134;
  149:
             options = _closure1_slot0;
             golf = options.getModules;

@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/modals/GuildStageChannelSelection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildStageChannelSelection
-        _fun102879: for(var _fun102879_ip = 0; ; ) switch(_fun102879_ip) {
+        _fun102871: for(var _fun102871_ip = 0; ; ) switch(_fun102871_ip) {
  0:
             entity = argFoo;
             verify = entity.guild;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             var _closure2_slot2 = tango;
             entity = function() { // Original name: handleSelectChannel
-                _fun102880: for(var _fun102880_ip = 0; ; ) switch(_fun102880_ip) {
+                _fun102872: for(var _fun102872_ip = 0; ; ) switch(_fun102872_ip) {
  0:
                     report = _closure1_slot2;
                     foxtrot = _closure1_slot3;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['title'] = verify;
                     zulu['items'] = golf;
                     mike = function(argFoo) { // Original name: onItemSelect
-                        _fun102882: for(var _fun102882_ip = 0; ; ) switch(_fun102882_ip) {
+                        _fun102874: for(var _fun102874_ip = 0; ; ) switch(_fun102874_ip) {
  0:
                             entity = argFoo;
                             var _closure4_slot0 = entity;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             };
                             zulu = zulu.bind(tango)(mike);
                             mike = null;
-                            if(!(mike != zulu)) { _fun102882_ip = 50; continue _fun102882 }
+                            if(!(mike != zulu)) { _fun102874_ip = 50; continue _fun102874 }
  39:
                             mike = _closure2_slot1;
                             entity = undefined;
@@ -159,14 +159,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     verify = mike == golf;
                     golf = undefined;
-                    if(verify) { _fun102880_ip = 211; continue _fun102880 }
+                    if(verify) { _fun102872_ip = 211; continue _fun102872 }
  202:
                     options = _closure2_slot0;
                     golf = options.id;
  211:
                     options = mike != golf;
                     mike = undefined;
-                    if(!options) { _fun102880_ip = 223; continue _fun102880 }
+                    if(!options) { _fun102872_ip = 223; continue _fun102872 }
  220:
                     mike = golf;
  223:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = foxtrot[oscar];
             oscar = golf.bind(tango)(oscar);
             oscar = oscar.t;
-            if(entity) { _fun102879_ip = 259; continue _fun102879 }
+            if(entity) { _fun102871_ip = 259; continue _fun102871 }
  226:
             golf = oscar.S+9O7u;
             entity = {};
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = options.bind(verify)(golf, entity);
             report['children'] = entity;
             entity = report;
-            _fun102879_ip = 304; continue _fun102879;
+            _fun102871_ip = 304; continue _fun102871;
  259:
             golf = oscar.AkzLcX;
             oscar = {};

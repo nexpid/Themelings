@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun121936: for(var _fun121936_ip = 0; ; ) switch(_fun121936_ip) {
+            _fun121942: for(var _fun121942_ip = 0; ; ) switch(_fun121942_ip) {
  0:
                 tango = _closure1_slot2;
                 mike = tango.getChannel;
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = {};
                 mike = null;
                 tango = mike != golf;
-                if(!tango) { _fun121936_ip = 77; continue _fun121936 }
+                if(!tango) { _fun121942_ip = 77; continue _fun121942 }
  35:
                 report = golf.isPrivate;
                 report = report.bind(golf)();
-                if(report) { _fun121936_ip = 74; continue _fun121936 }
+                if(report) { _fun121942_ip = 74; continue _fun121942 }
  48:
                 verify = _closure1_slot4;
                 options = verify.can;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  77:
                 entity['canConnect'] = tango;
                 mike = mike == golf;
-                if(mike) { _fun121936_ip = 132; continue _fun121936 }
+                if(mike) { _fun121942_ip = 132; continue _fun121942 }
  89:
                 oscar = _closure1_slot0;
                 report = _closure1_slot1;

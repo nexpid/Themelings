@@ -156,11 +156,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         offset = _closure1_slot3;
         kilo = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun93345: for(var _fun93345_ip = 0; ; ) switch(_fun93345_ip) {
+                _fun93370: for(var _fun93370_ip = 0; ; ) switch(_fun93370_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun93345_ip = 81; continue _fun93345 }
+                    if(mike) { _fun93370_ip = 81; continue _fun93370 }
  7:
                     report = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -177,7 +177,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return mike;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun93345_ip = 78; continue _fun93345 }
+                    if(tango) { _fun93370_ip = 78; continue _fun93370 }
  60:
                     report = mike.default;
                     tango = report.openCreateGuildModal;
@@ -220,11 +220,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         oscar['color'] = yankee;
         verify = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun93347: for(var _fun93347_ip = 0; ; ) switch(_fun93347_ip) {
+                _fun93372: for(var _fun93372_ip = 0; ; ) switch(_fun93372_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun93347_ip = 81; continue _fun93347 }
+                    if(mike) { _fun93372_ip = 81; continue _fun93372 }
  7:
                     report = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return mike;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun93347_ip = 78; continue _fun93347 }
+                    if(tango) { _fun93372_ip = 78; continue _fun93372 }
  60:
                     report = mike.default;
                     tango = report.openGuildJoinServerScreen;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/DenyIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun72832: for(var _fun72832_ip = 0; ; ) switch(_fun72832_ip) {
+        _fun72838: for(var _fun72838_ip = 0; ; ) switch(_fun72838_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun72832_ip = 53; continue _fun72832 }
+            if(!(golf === tango)) { _fun72838_ip = 53; continue _fun72838 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

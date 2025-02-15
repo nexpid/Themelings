@@ -71,18 +71,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun56485: for(var _fun56485_ip = 0; ; ) switch(_fun56485_ip) {
+                _fun56488: for(var _fun56488_ip = 0; ; ) switch(_fun56488_ip) {
  0:
                     StartGenerator();
                     oscar = argFoo;
                     mike = argBar;
                     report = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun56485_ip = 277; continue _fun56485 }
+                    if(zulu) { _fun56488_ip = 277; continue _fun56488 }
  19:
                     tango = 'function';
                     zulu = typeof mike;
-                    if(!(tango === zulu)) { _fun56485_ip = 220; continue _fun56485 }
+                    if(!(tango === zulu)) { _fun56488_ip = 220; continue _fun56488 }
  33:
                     golf = _closure1_slot1;
                     options = _closure1_slot2;
@@ -102,22 +102,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun56485_ip = 217; continue _fun56485 }
+                    if(zulu) { _fun56488_ip = 217; continue _fun56488 }
  99:
                     zulu = _closure1_slot9;
                     zulu = zulu.AUTHORIZED;
                     zulu = mike === zulu;
-                    if(zulu) { _fun56485_ip = 130; continue _fun56485 }
+                    if(zulu) { _fun56488_ip = 130; continue _fun56488 }
  116:
                     golf = _closure1_slot9;
                     golf = golf.LIMITED;
                     zulu = mike === golf;
  130:
                     golf = _closure1_slot8;
-                    if(zulu) { _fun56485_ip = 145; continue _fun56485 }
+                    if(zulu) { _fun56488_ip = 145; continue _fun56488 }
  137:
                     options = golf.DENIED;
-                    _fun56485_ip = 151; continue _fun56485;
+                    _fun56488_ip = 151; continue _fun56488;
  145:
                     options = golf.ACCEPTED;
  151:
@@ -129,12 +129,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = golf.setPermission;
                     tango = tango.bind(golf)(oscar, options);
                     tango = !zulu;
-                    if(zulu) { _fun56485_ip = 200; continue _fun56485 }
+                    if(zulu) { _fun56488_ip = 200; continue _fun56488 }
  191:
                     golf = argBaz;
                     tango = golf.showAuthorizationError;
  200:
-                    if(!tango) { _fun56485_ip = 214; continue _fun56485 }
+                    if(!tango) { _fun56488_ip = 214; continue _fun56488 }
  203:
                     tango = report.showAlert;
                     tango = tango.bind(report)(oscar);
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'showAlert';
         oscar['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun56489: for(var _fun56489_ip = 0; ; ) switch(_fun56489_ip) {
+            _fun56492: for(var _fun56492_ip = 0; ; ) switch(_fun56492_ip) {
  0:
                 zulu = argFoo;
                 tango = this;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike[options] = golf;
                 golf = mike[zulu];
                 mike = null;
-                if(!(mike != golf)) { _fun56489_ip = 831; continue _fun56489 }
+                if(!(mike != golf)) { _fun56492_ip = 831; continue _fun56492 }
  648:
                 zulu = tango.openAlertModal;
                 mike = {};
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'defaultNativePermissionsRequestOptions';
         oscar['key'] = golf;
         entity = function(argFoo) { // Original name: value
-            _fun56491: for(var _fun56491_ip = 0; ; ) switch(_fun56491_ip) {
+            _fun56494: for(var _fun56494_ip = 0; ; ) switch(_fun56494_ip) {
  0:
                 zulu = argFoo;
                 tango = {};
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango['showAuthorizationError'] = entity;
                 mike = null;
                 entity = tango;
-                if(!(mike != zulu)) { _fun56491_ip = 46; continue _fun56491 }
+                if(!(mike != zulu)) { _fun56494_ip = 46; continue _fun56494 }
  21:
                 mike = {};
                 oscar = mike;

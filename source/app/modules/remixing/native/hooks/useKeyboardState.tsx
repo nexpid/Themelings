@@ -64,10 +64,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = report.addListener;
             zulu = 'keyboardDidShow';
             mike = function() {
-                _fun84547: for(var _fun84547_ip = 0; ; ) switch(_fun84547_ip) {
+                _fun84563: for(var _fun84563_ip = 0; ; ) switch(_fun84563_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun84547_ip = 23; continue _fun84547 }
+                    if(!mike) { _fun84563_ip = 23; continue _fun84563 }
  10:
                     zulu = _closure2_slot1;
                     mike = undefined;
@@ -83,10 +83,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = report.addListener;
             zulu = 'keyboardDidHide';
             mike = function() {
-                _fun84548: for(var _fun84548_ip = 0; ; ) switch(_fun84548_ip) {
+                _fun84564: for(var _fun84564_ip = 0; ; ) switch(_fun84564_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun84548_ip = 45; continue _fun84548 }
+                    if(!mike) { _fun84564_ip = 45; continue _fun84564 }
  10:
                     tango = _closure2_slot1;
                     zulu = undefined;

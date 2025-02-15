@@ -76,14 +76,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/GiftModalEmojis.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun91645: for(var _fun91645_ip = 0; ; ) switch(_fun91645_ip) {
+        _fun91674: for(var _fun91674_ip = 0; ; ) switch(_fun91674_ip) {
  0:
             mike = argFoo;
             report = mike.emojiName;
             var _closure2_slot0 = report;
             mike = mike.randomizeSizing;
             tango = undefined;
-            if(!(mike === tango)) { _fun91645_ip = 29; continue _fun91645 }
+            if(!(mike === tango)) { _fun91674_ip = 29; continue _fun91674 }
  27:
             mike = false;
  29:
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot5;
             mike = zulu.map;
             entity = function(argFoo, argBar) {
-                _fun91646: for(var _fun91646_ip = 0; ; ) switch(_fun91646_ip) {
+                _fun91675: for(var _fun91675_ip = 0; ; ) switch(_fun91675_ip) {
  0:
                     tango = _closure1_slot2;
                     report = undefined;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = offset;
                     offset = {};
                     romeo = _closure2_slot1;
-                    if(!romeo) { _fun91646_ip = 240; continue _fun91646 }
+                    if(!romeo) { _fun91675_ip = 240; continue _fun91675 }
  196:
                     foxtrot = entity.Math;
                     romeo = foxtrot.random;

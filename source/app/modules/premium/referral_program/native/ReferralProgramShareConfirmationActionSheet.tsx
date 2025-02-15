@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: SharedUser
-        _fun105047: for(var _fun105047_ip = 0; ; ) switch(_fun105047_ip) {
+        _fun105039: for(var _fun105039_ip = 0; ; ) switch(_fun105039_ip) {
  0:
             entity = argFoo;
             options = entity.user;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = entity.bind(mike)(options);
             entity = options.username;
             entity = entity !== foxtrot;
-            if(!entity) { _fun105047_ip = 111; continue _fun105047 }
+            if(!entity) { _fun105039_ip = 111; continue _fun105039 }
  75:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -45,10 +45,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.CreateReferralStatus;
             mike = mike.FAIL;
             kilo = zulu === mike;
-            if(entity) { _fun105047_ip = 264; continue _fun105047 }
+            if(entity) { _fun105039_ip = 264; continue _fun105039 }
  150:
             offset = null;
-            if(!kilo) { _fun105047_ip = 322; continue _fun105047 }
+            if(!kilo) { _fun105039_ip = 322; continue _fun105039 }
  158:
             zulu = _closure1_slot6;
             golf = _closure1_slot0;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = yankee.bind(backup)(golf, report);
             entity['children'] = report;
             offset = zulu.bind(tango)(mike, entity);
-            _fun105047_ip = 322; continue _fun105047;
+            _fun105039_ip = 322; continue _fun105039;
  264:
             zulu = _closure1_slot6;
             mike = _closure1_slot0;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = 'text-md/medium';
             verify['variant'] = backup;
             backup = 'text-link';
-            if(!kilo) { _fun105047_ip = 510; continue _fun105047 }
+            if(!kilo) { _fun105039_ip = 510; continue _fun105039 }
  504:
             backup = 'text-muted';
  510:
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/referral_program/native/ReferralProgramShareConfirmationActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ReferralProgramShareConfirmationActionSheet
-        _fun105048: for(var _fun105048_ip = 0; ; ) switch(_fun105048_ip) {
+        _fun105040: for(var _fun105040_ip = 0; ; ) switch(_fun105040_ip) {
  0:
             entity = argFoo;
             kilo = entity.selectedUsers;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.bind(zulu)(entity);
             oscar = entity.length;
             entity = 0;
-            if(!(entity !== oscar)) { _fun105048_ip = 183; continue _fun105048 }
+            if(!(entity !== oscar)) { _fun105040_ip = 183; continue _fun105040 }
  118:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['numReferrals'] = oscar;
             output = zulu.bind(report)(mike, entity);
-            _fun105048_ip = 238; continue _fun105048;
+            _fun105040_ip = 238; continue _fun105040;
  183:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -395,11 +395,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['resizeMode'] = sizing;
             sizing = {};
             source = _closure1_slot2;
-            if(result) { _fun105048_ip = 507; continue _fun105048 }
+            if(result) { _fun105040_ip = 507; continue _fun105040 }
  498:
             result = 22;
             result = source[result];
-            _fun105048_ip = 514; continue _fun105048;
+            _fun105040_ip = 514; continue _fun105040;
  507:
             update = 21;
             result = source[update];

@@ -51,29 +51,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot3;
             mike = function* (argFoo, argBar) {
                 entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                    _fun102829: for(var _fun102829_ip = 0; ; ) switch(_fun102829_ip) {
+                    _fun102821: for(var _fun102821_ip = 0; ; ) switch(_fun102821_ip) {
  0:
                         StartGenerator();
                         mike = arguments[2];
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun102829_ip = 407; continue _fun102829 }
+                        if(zulu) { _fun102821_ip = 407; continue _fun102821 }
  13:
                         verify = argFoo;
                         oscar = argBar;
                         zulu = undefined;
-                        if(!(mike === zulu)) { _fun102829_ip = 32; continue _fun102829 }
+                        if(!(mike === zulu)) { _fun102821_ip = 32; continue _fun102821 }
  25:
                         mike = _closure1_slot6;
  32:
                         golf = mike.onSuccess;
-                        if(!(golf === zulu)) { _fun102829_ip = 55; continue _fun102829 }
+                        if(!(golf === zulu)) { _fun102821_ip = 55; continue _fun102821 }
  42:
                         offset = _closure1_slot6;
                         golf = offset.onSuccess;
  55:
                         options = golf;
                         mike = mike.permissionOverwrites;
-                        if(!(mike === zulu)) { _fun102829_ip = 81; continue _fun102829 }
+                        if(!(mike === zulu)) { _fun102821_ip = 81; continue _fun102821 }
  68:
                         golf = _closure1_slot6;
                         mike = golf.permissionOverwrites;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  88:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun102829_ip = 404; continue _fun102829 }
+                        if(tango) { _fun102821_ip = 404; continue _fun102821 }
  97:
                         offset = _closure2_slot0;
                         golf = true;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  153:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golf) { _fun102829_ip = 313; continue _fun102829 }
+                        if(golf) { _fun102821_ip = 313; continue _fun102821 }
  162:
                         yankee = _closure1_slot1;
                         golf = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return oscar;
  198:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(golf) { _fun102829_ip = 310; continue _fun102829 }
+                        if(golf) { _fun102821_ip = 310; continue _fun102821 }
  204:
                         yankee = _closure1_slot0;
                         golf = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return golf;
  246:
                         ResumeGenerator(result_out_reg=6, return_bool_out_reg=10);
-                        if(yankee) { _fun102829_ip = 307; continue _fun102829 }
+                        if(yankee) { _fun102821_ip = 307; continue _fun102821 }
  252:
                         yankee = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -146,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return options;
  285:
                         ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                        if(verify) { _fun102829_ip = 304; continue _fun102829 }
+                        if(verify) { _fun102821_ip = 304; continue _fun102821 }
  291:
                         offset = _closure2_slot0;
                         verify = false;
                         verify = offset.bind(zulu)(verify);
  302: // try_end0
-                        _fun102829_ip = 390; continue _fun102829;
+                        _fun102821_ip = 390; continue _fun102821;
  304:
                         return options;
  307:

@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/hooks/useShouldShowGuildNsfwWarning.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldShowGuildNsfwWarning
-        _fun122366: for(var _fun122366_ip = 0; ; ) switch(_fun122366_ip) {
+        _fun122372: for(var _fun122372_ip = 0; ; ) switch(_fun122372_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = entity;
             entity = function() {
-                _fun122368: for(var _fun122368_ip = 0; ; ) switch(_fun122368_ip) {
+                _fun122374: for(var _fun122374_ip = 0; ; ) switch(_fun122374_ip) {
  0:
                     zulu = _closure1_slot3;
                     mike = zulu.didAgree;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun122368_ip = 40; continue _fun122368 }
+                    if(report) { _fun122374_ip = 40; continue _fun122374 }
  31:
                     tango = _closure2_slot1;
                     entity = tango.guild_id;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = options;
             zulu = function() {
-                _fun122369: for(var _fun122369_ip = 0; ; ) switch(_fun122369_ip) {
+                _fun122375: for(var _fun122375_ip = 0; ; ) switch(_fun122375_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.getCurrentUser;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = null;
                     zulu = mike == entity;
                     mike = undefined;
-                    if(zulu) { _fun122369_ip = 33; continue _fun122369 }
+                    if(zulu) { _fun122375_ip = 33; continue _fun122375 }
  27:
                     mike = entity.nsfwAllowed;
  33:
@@ -108,16 +108,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = oscar.bind(golf)(report, zulu);
             entity = !entity;
-            if(entity) { _fun122366_ip = 155; continue _fun122366 }
+            if(entity) { _fun122372_ip = 155; continue _fun122372 }
  152:
             entity = zulu;
  155:
-            if(!entity) { _fun122366_ip = 182; continue _fun122366 }
+            if(!entity) { _fun122372_ip = 182; continue _fun122372 }
  158:
             zulu = null;
             zulu = zulu == tango;
             mike = undefined;
-            if(zulu) { _fun122366_ip = 179; continue _fun122366 }
+            if(zulu) { _fun122372_ip = 179; continue _fun122372 }
  169:
             zulu = tango.isNSFW;
             mike = zulu.bind(tango)();

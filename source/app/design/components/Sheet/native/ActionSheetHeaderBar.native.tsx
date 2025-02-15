@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = oscar.bind(entity)(report);
     options = verify.createStyles;
     report = function(argFoo, argBar) {
-        _fun47628: for(var _fun47628_ip = 0; ; ) switch(_fun47628_ip) {
+        _fun47635: for(var _fun47635_ip = 0; ; ) switch(_fun47635_ip) {
  0:
             options = argFoo;
             tango = argBar;
@@ -65,12 +65,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['marginBottom'] = zulu;
             oscar = _closure1_slot10;
             oscar = oscar.FLOATING;
-            if(!(oscar !== options)) { _fun47628_ip = 50; continue _fun47628 }
+            if(!(oscar !== options)) { _fun47635_ip = 50; continue _fun47635 }
  34:
             oscar = _closure1_slot10;
             golf = oscar.OVERLAY;
             oscar = undefined;
-            if(!(golf === options)) { _fun47628_ip = 60; continue _fun47628 }
+            if(!(golf === options)) { _fun47635_ip = 60; continue _fun47635 }
  50:
             oscar = {'left': 0, 'right': 0, 'position': 'absolute'};
  60:
@@ -95,12 +95,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['backgroundColor'] = oscar;
             oscar = _closure1_slot10;
             oscar = oscar.FLOATING;
-            if(!(oscar !== options)) { _fun47628_ip = 250; continue _fun47628 }
+            if(!(oscar !== options)) { _fun47635_ip = 250; continue _fun47635 }
  167:
             oscar = _closure1_slot10;
             golf = oscar.OVERLAY;
             oscar = undefined;
-            if(!(golf === options)) { _fun47628_ip = 287; continue _fun47628 }
+            if(!(golf === options)) { _fun47635_ip = 287; continue _fun47635 }
  183:
             golf = {};
             verify = _closure1_slot1;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = golf;
             options = copyDataProperties(backup, foxtrot);
             oscar = golf;
-            _fun47628_ip = 287; continue _fun47628;
+            _fun47635_ip = 287; continue _fun47635;
  250:
             golf = {};
             verify = _closure1_slot1;
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['ActionSheetHeaderBarVariants'] = tango;
     mike = function(argFoo) { // Original name: ActionSheetHeaderBar
-        _fun47629: for(var _fun47629_ip = 0; ; ) switch(_fun47629_ip) {
+        _fun47636: for(var _fun47636_ip = 0; ; ) switch(_fun47636_ip) {
  0:
             entity = argFoo;
             yankee = entity.accessibilityLabel;
             report = undefined;
-            if(!(yankee === report)) { _fun47629_ip = 72; continue _fun47629 }
+            if(!(yankee === report)) { _fun47636_ip = 72; continue _fun47636 }
  14:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = golf;
             golf = tango.bind(report)(zulu, entity);
             entity = golf;
-            if(!mike) { _fun47629_ip = 349; continue _fun47629 }
+            if(!mike) { _fun47636_ip = 349; continue _fun47636 }
  270:
             tango = _closure1_slot9;
             zulu = _closure1_slot8;

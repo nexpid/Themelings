@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun97824: for(var _fun97824_ip = 0; ; ) switch(_fun97824_ip) {
+        _fun97834: for(var _fun97834_ip = 0; ; ) switch(_fun97834_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun97824_ip = 51; continue _fun97824 }
+            if(entity) { _fun97834_ip = 51; continue _fun97834 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun97824_ip = 92; continue _fun97824;
+            _fun97834_ip = 92; continue _fun97834;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun97824_ip = 71; continue _fun97824 }
+            if(oscar) { _fun97834_ip = 71; continue _fun97834 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun97825: for(var _fun97825_ip = 0; ; ) switch(_fun97825_ip) {
+        _fun97835: for(var _fun97835_ip = 0; ; ) switch(_fun97835_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun97825_ip = 76; continue _fun97825;
+            _fun97835_ip = 76; continue _fun97835;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -145,11 +145,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun97830: for(var _fun97830_ip = 0; ; ) switch(_fun97830_ip) {
+            _fun97840: for(var _fun97840_ip = 0; ; ) switch(_fun97840_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity != mike)) { _fun97830_ip = 81; continue _fun97830 }
+                if(!(entity != mike)) { _fun97840_ip = 81; continue _fun97840 }
  9:
                 _closure1_slot6 = mike;
                 mike = global;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot6;
                 mike = mike.soundpack;
                 mike = zulu.bind(tango)(mike);
-                if(mike) { _fun97830_ip = 81; continue _fun97830 }
+                if(mike) { _fun97840_ip = 81; continue _fun97840 }
  61:
                 mike = _closure1_slot6;
                 entity = _closure1_slot5;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     tango = function(argFoo) { // Original name: handleSetSoundpack
-        _fun97834: for(var _fun97834_ip = 0; ; ) switch(_fun97834_ip) {
+        _fun97844: for(var _fun97844_ip = 0; ; ) switch(_fun97844_ip) {
  0:
             mike = argFoo;
             entity = mike.soundpack;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = {};
             zulu['soundpack'] = entity;
             entity = undefined;
-            if(!(entity === mike)) { _fun97834_ip = 41; continue _fun97834 }
+            if(!(entity === mike)) { _fun97844_ip = 41; continue _fun97844 }
  28:
             tango = _closure1_slot6;
             mike = tango.lastSoundpackExperimentId;

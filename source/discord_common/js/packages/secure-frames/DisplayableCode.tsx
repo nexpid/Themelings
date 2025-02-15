@@ -19,20 +19,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = '../discord_common/js/packages/secure-frames/DisplayableCode.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar, argBaz) { // Original name: generateDisplayableCode
-        _fun80948: for(var _fun80948_ip = 0; ; ) switch(_fun80948_ip) {
+        _fun80960: for(var _fun80960_ip = 0; ; ) switch(_fun80960_ip) {
  0:
             romeo = argFoo;
             yankee = argBar;
             offset = argBaz;
             entity = romeo.byteLength;
-            if(!(!(entity < yankee))) { _fun80948_ip = 272; continue _fun80948 }
+            if(!(!(entity < yankee))) { _fun80960_ip = 272; continue _fun80960 }
  22:
             entity = yankee % offset;
             verify = 0;
-            if(!(entity == verify)) { _fun80948_ip = 236; continue _fun80948 }
+            if(!(entity == verify)) { _fun80960_ip = 236; continue _fun80960 }
  35:
             entity = 8;
-            if(!(!(offset > entity))) { _fun80948_ip = 200; continue _fun80948 }
+            if(!(!(offset > entity))) { _fun80960_ip = 200; continue _fun80960 }
  45:
             options = global;
             mike = options.BigInt;
@@ -47,13 +47,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = 8n;
             mike = 0;
             entity = zulu;
-            if(!foxtrot) { _fun80948_ip = 198; continue _fun80948 }
+            if(!foxtrot) { _fun80960_ip = 198; continue _fun80960 }
  96:
             foxtrot = options.BigInt;
             kilo = foxtrot.bind(golf)(verify);
             foxtrot = kilo;
             backup = offset;
-            if(!(backup > verify)) { _fun80948_ip = 158; continue _fun80948 }
+            if(!(backup > verify)) { _fun80960_ip = 158; continue _fun80960 }
  117:
             output = kilo << tango;
             result = options.BigInt;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = output | sizing;
             backup = backup - 1;
             foxtrot = kilo;
-            if(backup > verify) { _fun80948_ip = 117; continue _fun80948 }
+            if(backup > verify) { _fun80960_ip = 117; continue _fun80960 }
  158:
             backup = foxtrot % oscar;
             foxtrot = backup.toString;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu + foxtrot;
             mike = mike + offset;
             entity = zulu;
-            if(mike < yankee) { _fun80948_ip = 96; continue _fun80948 }
+            if(mike < yankee) { _fun80960_ip = 96; continue _fun80960 }
  198:
             return entity;
  200:

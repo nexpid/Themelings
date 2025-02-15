@@ -13,18 +13,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun103176: for(var _fun103176_ip = 0; ; ) switch(_fun103176_ip) {
+                _fun103168: for(var _fun103168_ip = 0; ; ) switch(_fun103168_ip) {
  0:
                     StartGenerator();
                     romeo = argFoo;
                     options = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun103176_ip = 322; continue _fun103176 }
+                    if(mike) { _fun103168_ip = 322; continue _fun103168 }
  16:
                     tango = _closure1_slot4;
                     mike = tango.has;
                     mike = mike.bind(tango)(options);
-                    if(mike) { _fun103176_ip = 65; continue _fun103176 }
+                    if(mike) { _fun103168_ip = 65; continue _fun103168 }
  36:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = undefined;
                     mike = report.bind(tango)(mike);
                     mike = mike.bind(tango)(romeo);
-                    _fun103176_ip = 172; continue _fun103176;
+                    _fun103168_ip = 172; continue _fun103168;
  65:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun103176_ip = 319; continue _fun103176 }
+                    if(tango) { _fun103168_ip = 319; continue _fun103168 }
  111:
                     report = mike.length;
                     tango = 1;
-                    if(!(tango === report)) { _fun103176_ip = 180; continue _fun103176 }
+                    if(!(tango === report)) { _fun103168_ip = 180; continue _fun103168 }
  123:
                     tango = 0;
                     oscar = mike[tango];
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  166:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun103176_ip = 177; continue _fun103176 }
+                    if(report) { _fun103168_ip = 177; continue _fun103168 }
  172:
                     report = undefined;
                     return report;

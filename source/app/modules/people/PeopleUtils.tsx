@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     golf = function(argFoo) { // Original name: acceptFriendRequest
-        _fun80865: for(var _fun80865_ip = 0; ; ) switch(_fun80865_ip) {
+        _fun80877: for(var _fun80877_ip = 0; ; ) switch(_fun80877_ip) {
  0:
             entity = argFoo;
             oscar = entity.userId;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = entity.location;
             tango = entity.friendToken;
             entity = null;
-            if(!(entity == report)) { _fun80865_ip = 89; continue _fun80865 }
+            if(!(entity == report)) { _fun80877_ip = 89; continue _fun80877 }
  30:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['location'] = golf;
             entity['context'] = tango;
             entity = mike.bind(zulu)(entity);
-            _fun80865_ip = 135; continue _fun80865;
+            _fun80877_ip = 135; continue _fun80877;
  89:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -65,14 +65,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot3 = mike;
     mike = {};
     options = function(argFoo) { // Original name: removeFriend
-        _fun80866: for(var _fun80866_ip = 0; ; ) switch(_fun80866_ip) {
+        _fun80878: for(var _fun80878_ip = 0; ; ) switch(_fun80878_ip) {
  0:
             entity = argFoo;
             report = entity.userId;
             tango = entity.applicationId;
             oscar = entity.location;
             entity = null;
-            if(!(entity == tango)) { _fun80866_ip = 69; continue _fun80866 }
+            if(!(entity == tango)) { _fun80878_ip = 69; continue _fun80878 }
  24:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['location'] = oscar;
             entity = mike.bind(zulu)(report, entity);
-            _fun80866_ip = 115; continue _fun80866;
+            _fun80878_ip = 115; continue _fun80878;
  69:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['removeFriend'] = options;
     options = function(argFoo) { // Original name: cancelFriendRequest
-        _fun80867: for(var _fun80867_ip = 0; ; ) switch(_fun80867_ip) {
+        _fun80879: for(var _fun80879_ip = 0; ; ) switch(_fun80879_ip) {
  0:
             entity = argFoo;
             oscar = entity.userId;
             report = entity.applicationId;
             tango = entity.location;
             entity = null;
-            if(!(entity == report)) { _fun80867_ip = 69; continue _fun80867 }
+            if(!(entity == report)) { _fun80879_ip = 69; continue _fun80879 }
  24:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['location'] = tango;
             entity = mike.bind(zulu)(oscar, entity);
-            _fun80867_ip = 115; continue _fun80867;
+            _fun80879_ip = 115; continue _fun80879;
  69:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['cancelFriendRequest'] = options;
     mike['acceptFriendRequest'] = golf;
     tango = function(argFoo) { // Original name: maybeConfirmFriendRequestAccept
-        _fun80868: for(var _fun80868_ip = 0; ; ) switch(_fun80868_ip) {
+        _fun80880: for(var _fun80880_ip = 0; ; ) switch(_fun80880_ip) {
  0:
             entity = argFoo;
             golf = entity.userId;
@@ -170,11 +170,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'useFriendRequestActions';
             mike = verify.bind(romeo)(mike);
             verify = null;
-            if(!(verify == oscar)) { _fun80868_ip = 177; continue _fun80868 }
+            if(!(verify == oscar)) { _fun80880_ip = 177; continue _fun80880 }
  119:
-            if(!options) { _fun80868_ip = 177; continue _fun80868 }
+            if(!options) { _fun80880_ip = 177; continue _fun80880 }
  122:
-            if(!mike) { _fun80868_ip = 177; continue _fun80868 }
+            if(!mike) { _fun80880_ip = 177; continue _fun80880 }
  125:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.openAcceptFriendRequestConfirmModal;
             mike = {};
             yankee = function() { // Original name: onConfirm
-                _fun80869: for(var _fun80869_ip = 0; ; ) switch(_fun80869_ip) {
+                _fun80881: for(var _fun80881_ip = 0; ; ) switch(_fun80881_ip) {
  0:
                     tango = _closure1_slot4;
                     zulu = {};
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = tango.bind(entity)(zulu);
                     tango = _closure2_slot4;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun80869_ip = 70; continue _fun80869 }
+                    if(!(zulu != tango)) { _fun80881_ip = 70; continue _fun80881 }
  62:
                     mike = _closure2_slot4;
                     mike = mike.bind(entity)();

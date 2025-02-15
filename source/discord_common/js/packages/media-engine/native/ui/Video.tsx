@@ -6,21 +6,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = report;
     mike = function(argFoo) { // Original name: Video
-        _fun50258: for(var _fun50258_ip = 0; ; ) switch(_fun50258_ip) {
+        _fun50265: for(var _fun50265_ip = 0; ; ) switch(_fun50265_ip) {
  0:
             report = argFoo;
             entity = _closure1_slot2;
             entity = entity.useDirectVideo;
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
-            if(entity) { _fun50258_ip = 48; continue _fun50258 }
+            if(entity) { _fun50265_ip = 48; continue _fun50265 }
  27:
             entity = 1;
             entity = tango[entity];
             zulu = undefined;
             entity = oscar.bind(zulu)(entity);
             entity = entity.bind(zulu)(report);
-            _fun50258_ip = 77; continue _fun50258;
+            _fun50265_ip = 77; continue _fun50265;
  48:
             zulu = 0;
             zulu = tango[zulu];

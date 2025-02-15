@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/common/TouchableBackground.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TouchableBackground
-        _fun79320: for(var _fun79320_ip = 0; ; ) switch(_fun79320_ip) {
+        _fun79330: for(var _fun79330_ip = 0; ; ) switch(_fun79330_ip) {
  0:
             oscar = argFoo;
             yankee = oscar.activeBackgroundColor;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function(argFoo) {
-                _fun79321: for(var _fun79321_ip = 0; ; ) switch(_fun79321_ip) {
+                _fun79331: for(var _fun79331_ip = 0; ; ) switch(_fun79331_ip) {
  0:
                     tango = _closure2_slot2;
                     entity = undefined;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(entity)(zulu);
                     tango = _closure2_slot0;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun79321_ip = 38; continue _fun79321 }
+                    if(!(zulu != tango)) { _fun79331_ip = 38; continue _fun79331 }
  26:
                     zulu = _closure2_slot0;
                     mike = argFoo;
@@ -117,11 +117,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = sizing;
             entity = function(argFoo) {
-                _fun79322: for(var _fun79322_ip = 0; ; ) switch(_fun79322_ip) {
+                _fun79332: for(var _fun79332_ip = 0; ; ) switch(_fun79332_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79322_ip = 27; continue _fun79322 }
+                    if(!(mike != zulu)) { _fun79332_ip = 27; continue _fun79332 }
  13:
                     tango = _closure2_slot1;
                     zulu = undefined;
@@ -153,10 +153,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             options = new Array(2);
             options[0] = offset;
-            if(!verify) { _fun79320_ip = 285; continue _fun79320 }
+            if(!verify) { _fun79330_ip = 285; continue _fun79330 }
  262:
             offset = {};
-            if(!(foxtrot == yankee)) { _fun79320_ip = 278; continue _fun79320 }
+            if(!(foxtrot == yankee)) { _fun79330_ip = 278; continue _fun79330 }
  268:
             romeo = romeo.default;
             yankee = romeo.backgroundColor;

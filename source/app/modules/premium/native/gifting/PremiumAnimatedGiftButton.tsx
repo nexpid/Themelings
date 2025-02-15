@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumAnimatedGiftButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumAnimatedGiftButton
-        _fun101271: for(var _fun101271_ip = 0; ; ) switch(_fun101271_ip) {
+        _fun101280: for(var _fun101280_ip = 0; ; ) switch(_fun101280_ip) {
  0:
             verify = argFoo;
             result = verify.active;
@@ -110,10 +110,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = offset;
             zulu[1] = oscar;
             mike = function() {
-                _fun101273: for(var _fun101273_ip = 0; ; ) switch(_fun101273_ip) {
+                _fun101282: for(var _fun101282_ip = 0; ; ) switch(_fun101282_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun101273_ip = 139; continue _fun101273 }
+                    if(entity) { _fun101282_ip = 139; continue _fun101282 }
  13:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -123,20 +123,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(mike)(entity);
                     entity = tango.isIOS;
                     entity = entity.bind(tango)();
-                    if(!entity) { _fun101273_ip = 95; continue _fun101273 }
+                    if(!entity) { _fun101282_ip = 95; continue _fun101282 }
  51:
                     entity = _closure2_slot0;
                     oscar = null;
                     entity = oscar == entity;
                     tango = undefined;
-                    if(entity) { _fun101273_ip = 82; continue _fun101273 }
+                    if(entity) { _fun101282_ip = 82; continue _fun101282 }
  66:
                     report = _closure2_slot0;
                     report = report.current;
                     entity = oscar == report;
                     tango = report;
  82:
-                    if(entity) { _fun101273_ip = 95; continue _fun101273 }
+                    if(entity) { _fun101282_ip = 95; continue _fun101282 }
  85:
                     entity = tango.reset;
                     entity = entity.bind(tango)();
@@ -145,14 +145,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = null;
                     entity = tango == entity;
                     mike = undefined;
-                    if(entity) { _fun101273_ip = 126; continue _fun101273 }
+                    if(entity) { _fun101282_ip = 126; continue _fun101282 }
  110:
                     zulu = _closure2_slot0;
                     zulu = zulu.current;
                     entity = tango == zulu;
                     mike = zulu;
  126:
-                    if(entity) { _fun101273_ip = 139; continue _fun101273 }
+                    if(entity) { _fun101282_ip = 139; continue _fun101282 }
  129:
                     entity = mike.play;
                     entity = entity.bind(mike)();
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.View;
             entity = {};
             report = undefined;
-            if(oscar) { _fun101271_ip = 227; continue _fun101271 }
+            if(oscar) { _fun101280_ip = 227; continue _fun101280 }
  204:
             golf = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -191,11 +191,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(3);
             offset[0] = source;
             offset[1] = update;
-            if(!result) { _fun101271_ip = 287; continue _fun101271 }
+            if(!result) { _fun101280_ip = 287; continue _fun101280 }
  284:
             result = !output;
  287:
-            if(!result) { _fun101271_ip = 293; continue _fun101271 }
+            if(!result) { _fun101280_ip = 293; continue _fun101280 }
  290:
             result = echo;
  293:

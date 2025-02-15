@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     tango = function(argFoo) { // Original name: getCountryCodeByCountryName
-        _fun54880: for(var _fun54880_ip = 0; ; ) switch(_fun54880_ip) {
+        _fun54887: for(var _fun54887_ip = 0; ; ) switch(_fun54887_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = zulu.bind(tango)(mike);
             zulu = null;
-            if(!(zulu == mike)) { _fun54880_ip = 56; continue _fun54880 }
+            if(!(zulu == mike)) { _fun54887_ip = 56; continue _fun54887 }
  54:
             return entity;
  56:
@@ -4399,7 +4399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['DEFAULT_COUNTRY_CODE_NAME'] = report;
     zulu['getCountryCodeByCountryName'] = tango;
     tango = function(argFoo) { // Original name: getCountryCodeByAlpha2
-        _fun55137: for(var _fun55137_ip = 0; ; ) switch(_fun55137_ip) {
+        _fun55144: for(var _fun55144_ip = 0; ; ) switch(_fun55144_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -4419,7 +4419,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = zulu.bind(tango)(mike);
             zulu = null;
-            if(!(zulu == mike)) { _fun55137_ip = 56; continue _fun55137 }
+            if(!(zulu == mike)) { _fun55144_ip = 56; continue _fun55144 }
  54:
             return entity;
  56:

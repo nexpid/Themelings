@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isActivitySupportedOnClientPlatform.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isActivitySupportedOnClientPlatform
-        _fun71619: for(var _fun71619_ip = 0; ; ) switch(_fun71619_ip) {
+        _fun71625: for(var _fun71625_ip = 0; ; ) switch(_fun71625_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = zulu.bind(oscar)();
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
-            if(golf) { _fun71619_ip = 111; continue _fun71619 }
+            if(golf) { _fun71625_ip = 111; continue _fun71625 }
  48:
             tango = oscar[tango];
             golf = zulu.bind(mike)(tango);
@@ -46,14 +46,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = options[entity];
             entity = golf.bind(mike)(entity);
             entity = entity.EmbeddedActivitySupportedPlatforms;
-            if(tango) { _fun71619_ip = 103; continue _fun71619 }
+            if(tango) { _fun71625_ip = 103; continue _fun71625 }
  95:
             tango = entity.WEB;
-            _fun71619_ip = 109; continue _fun71619;
+            _fun71625_ip = 109; continue _fun71625;
  103:
             tango = entity.ANDROID;
  109:
-            _fun71619_ip = 135; continue _fun71619;
+            _fun71625_ip = 135; continue _fun71625;
  111:
             entity = 1;
             entity = oscar[entity];
@@ -64,13 +64,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             zulu = entity == report;
             mike = undefined;
-            if(zulu) { _fun71619_ip = 156; continue _fun71619 }
+            if(zulu) { _fun71625_ip = 156; continue _fun71625 }
  146:
             zulu = report.includes;
             mike = zulu.bind(report)(tango);
  156:
             entity = entity != mike;
-            if(!entity) { _fun71619_ip = 166; continue _fun71619 }
+            if(!entity) { _fun71625_ip = 166; continue _fun71625 }
  163:
             entity = mike;
  166:

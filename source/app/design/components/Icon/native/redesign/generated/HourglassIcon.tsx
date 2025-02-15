@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/HourglassIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun114434: for(var _fun114434_ip = 0; ; ) switch(_fun114434_ip) {
+        _fun114440: for(var _fun114440_ip = 0; ; ) switch(_fun114440_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun114434_ip = 53; continue _fun114434 }
+            if(!(golf === tango)) { _fun114440_ip = 53; continue _fun114440 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

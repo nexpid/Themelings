@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: MediaMessagePreviewActionSheet
-        _fun102410: for(var _fun102410_ip = 0; ; ) switch(_fun102410_ip) {
+        _fun102402: for(var _fun102402_ip = 0; ; ) switch(_fun102402_ip) {
  0:
             zulu = argFoo;
             mike = zulu.channel;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.isNonUserBot;
             zulu = zulu.bind(oscar)();
             verify = !zulu;
-            if(!verify) { _fun102410_ip = 130; continue _fun102410 }
+            if(!verify) { _fun102402_ip = 130; continue _fun102402 }
  99:
             report = _closure1_slot0;
             options = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.canReportUser;
             verify = zulu.bind(report)(oscar);
  130:
-            if(!verify) { _fun102410_ip = 164; continue _fun102410 }
+            if(!verify) { _fun102402_ip = 164; continue _fun102402 }
  133:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = zulu.bind(tango)(romeo, options);
             options = new Array(3);
             options[0] = romeo;
-            if(!yankee) { _fun102410_ip = 666; continue _fun102410 }
+            if(!yankee) { _fun102402_ip = 666; continue _fun102402 }
  523:
             sizing = _closure1_slot4;
             control = _closure1_slot0;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = sizing.bind(tango)(backup, romeo);
  666:
             options[1] = yankee;
-            if(!verify) { _fun102410_ip = 827; continue _fun102410 }
+            if(!verify) { _fun102402_ip = 827; continue _fun102402 }
  676:
             romeo = _closure1_slot4;
             output = _closure1_slot0;

@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/alerts/MemberVerificationAlertCancelPending.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationAlertCancelPending
-        _fun88504: for(var _fun88504_ip = 0; ; ) switch(_fun88504_ip) {
+        _fun88521: for(var _fun88521_ip = 0; ; ) switch(_fun88521_ip) {
  0:
             tango = argFoo;
             report = tango.guildId;
@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = report;
             mike[1] = romeo;
             entity = function() {
-                _fun88505: for(var _fun88505_ip = 0; ; ) switch(_fun88505_ip) {
+                _fun88522: for(var _fun88522_ip = 0; ; ) switch(_fun88522_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun88505_ip = 23; continue _fun88505 }
+                    if(!(entity != zulu)) { _fun88522_ip = 23; continue _fun88522 }
  13:
                     zulu = _closure2_slot1;
                     entity = undefined;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(options)(report);
             report = 'header';
             entity[report] = golf;
-            if(!(sizing == oscar)) { _fun88504_ip = 260; continue _fun88504 }
+            if(!(sizing == oscar)) { _fun88521_ip = 260; continue _fun88521 }
  208:
             verify = _closure1_slot0;
             report = _closure1_slot2;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             result = 'destructive';
             options['variant'] = result;
-            if(!(sizing == kilo)) { _fun88504_ip = 377; continue _fun88504 }
+            if(!(sizing == kilo)) { _fun88521_ip = 377; continue _fun88521 }
  325:
             update = _closure1_slot0;
             sizing = _closure1_slot2;

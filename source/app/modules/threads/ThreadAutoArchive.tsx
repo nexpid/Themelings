@@ -1,104 +1,138 @@
 // app/modules/threads/ThreadAutoArchive.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    golf = argBar;
-    oscar = argBaz;
+    options = argBar;
+    golf = argBaz;
     zulu = argFred;
-    options = argPlugh;
-    var _closure1_slot0 = golf;
-    var _closure1_slot1 = oscar;
-    var _closure1_slot2 = options;
+    verify = argPlugh;
+    var _closure1_slot0 = options;
+    var _closure1_slot1 = golf;
+    var _closure1_slot2 = verify;
     report = function() { // Original name: getAutoArchiveOptions
         mike = {};
-        options = _closure1_slot0;
-        verify = _closure1_slot2;
-        tango = 1;
-        entity = verify[tango];
-        golf = undefined;
-        entity = options.bind(golf)(entity);
-        oscar = entity.intl;
-        report = oscar.string;
-        entity = verify[tango];
-        entity = options.bind(golf)(entity);
-        entity = entity.t;
-        entity = entity.cs8A1d;
-        entity = report.bind(oscar)(entity);
-        mike['label'] = entity;
-        entity = _closure1_slot4;
+        offset = _closure1_slot0;
+        oscar = _closure1_slot2;
+        golf = 2;
+        zulu = oscar[golf];
+        report = undefined;
+        zulu = offset.bind(report)(zulu);
+        options = zulu.intl;
+        tango = options.string;
+        zulu = oscar[golf];
+        zulu = offset.bind(report)(zulu);
+        zulu = zulu.t;
+        zulu = zulu.cs8A1d;
+        zulu = tango.bind(options)(zulu);
+        mike['label'] = zulu;
+        tango = _closure1_slot1;
+        zulu = 1;
+        entity = oscar[zulu];
+        entity = tango.bind(report)(entity);
+        entity = entity.Minutes;
+        entity = entity.HOUR;
         mike['value'] = entity;
         entity = new Array(4);
         entity[0] = mike;
         mike = {};
-        report = verify[tango];
-        report = options.bind(golf)(report);
-        offset = report.intl;
-        oscar = offset.string;
-        report = verify[tango];
-        report = options.bind(golf)(report);
-        report = report.t;
-        report = report.zFKbrK;
-        report = oscar.bind(offset)(report);
-        mike['label'] = report;
-        report = _closure1_slot5;
-        mike['value'] = report;
+        options = oscar[golf];
+        options = offset.bind(report)(options);
+        yankee = options.intl;
+        verify = yankee.string;
+        options = oscar[golf];
+        options = offset.bind(report)(options);
+        options = options.t;
+        options = options.zFKbrK;
+        options = verify.bind(yankee)(options);
+        mike['label'] = options;
+        options = oscar[zulu];
+        options = tango.bind(report)(options);
+        options = options.Minutes;
+        options = options.DAY;
+        mike['value'] = options;
         entity[1] = mike;
         mike = {};
-        report = verify[tango];
-        report = options.bind(golf)(report);
-        offset = report.intl;
-        oscar = offset.string;
-        report = verify[tango];
-        report = options.bind(golf)(report);
-        report = report.t;
-        report = report.TmPIZW;
-        report = oscar.bind(offset)(report);
-        mike['label'] = report;
-        report = _closure1_slot6;
-        mike['value'] = report;
+        options = oscar[golf];
+        options = offset.bind(report)(options);
+        yankee = options.intl;
+        verify = yankee.string;
+        options = oscar[golf];
+        options = offset.bind(report)(options);
+        options = options.t;
+        options = options.TmPIZW;
+        options = verify.bind(yankee)(options);
+        mike['label'] = options;
+        options = oscar[zulu];
+        options = tango.bind(report)(options);
+        options = options.Minutes;
+        verify = options.DAY;
+        options = 3;
+        options = options * verify;
+        mike['value'] = options;
         entity[2] = mike;
         mike = {};
-        report = verify[tango];
-        report = options.bind(golf)(report);
-        oscar = report.intl;
-        report = oscar.string;
-        tango = verify[tango];
-        tango = options.bind(golf)(tango);
-        tango = tango.t;
-        tango = tango./7i2en;
-        tango = report.bind(oscar)(tango);
-        mike['label'] = tango;
-        zulu = _closure1_slot7;
+        options = oscar[golf];
+        options = offset.bind(report)(options);
+        verify = options.intl;
+        options = verify.string;
+        golf = oscar[golf];
+        golf = offset.bind(report)(golf);
+        golf = golf.t;
+        golf = golf./7i2en;
+        golf = options.bind(verify)(golf);
+        mike['label'] = golf;
+        zulu = oscar[zulu];
+        zulu = tango.bind(report)(zulu);
+        zulu = zulu.Minutes;
+        zulu = zulu.WEEK;
         mike['value'] = zulu;
         entity[3] = mike;
         return entity;
     };
-    var _closure1_slot8 = report;
+    var _closure1_slot4 = report;
     entity = global;
     offset = entity.Object;
-    verify = offset.defineProperty;
+    oscar = offset.defineProperty;
     tango = {};
     entity = true;
     tango['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zulu, entity, tango);
+    entity = oscar.bind(offset)(zulu, entity, tango);
     entity = 0;
-    tango = options[entity];
+    tango = verify[entity];
     entity = undefined;
-    tango = golf.bind(entity)(tango);
+    tango = options.bind(entity)(tango);
     tango = tango.DEFAULT_AUTO_ARCHIVE_DURATION;
     var _closure1_slot3 = tango;
-    tango = 60;
-    var _closure1_slot4 = tango;
-    tango = 1440;
-    var _closure1_slot5 = tango;
-    tango = 4320;
-    var _closure1_slot6 = tango;
-    tango = 10080;
-    var _closure1_slot7 = tango;
-    tango = 2;
-    tango = options[tango];
-    oscar = oscar.bind(entity)(tango);
+    yankee = 1;
+    tango = verify[yankee];
+    tango = golf.bind(entity)(tango);
+    tango = tango.Minutes;
+    tango = tango.HOUR;
+    tango = yankee * tango;
+    oscar = new Array(4);
+    oscar[0] = tango;
+    tango = verify[yankee];
+    tango = golf.bind(entity)(tango);
+    tango = tango.Minutes;
+    tango = tango.DAY;
+    tango = yankee * tango;
+    oscar[1] = tango;
+    tango = verify[yankee];
+    tango = golf.bind(entity)(tango);
+    tango = tango.Minutes;
+    offset = tango.DAY;
+    tango = 3;
+    offset = tango * offset;
+    oscar[2] = offset;
+    offset = verify[yankee];
+    offset = golf.bind(entity)(offset);
+    offset = offset.Minutes;
+    offset = offset.WEEK;
+    offset = yankee * offset;
+    oscar[3] = offset;
+    tango = verify[tango];
+    golf = golf.bind(entity)(tango);
     tango = function() {
-        mike = _closure1_slot8;
+        mike = _closure1_slot4;
         entity = undefined;
         zulu = mike.bind(entity)();
         mike = zulu.map;
@@ -110,21 +144,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = mike.bind(zulu)(entity);
         return entity;
     };
-    tango = oscar.bind(entity)(tango);
-    oscar = 4;
-    oscar = options[oscar];
-    options = golf.bind(entity)(oscar);
-    golf = options.fileFinishedImporting;
-    oscar = 'modules/threads/ThreadAutoArchive.tsx';
-    oscar = golf.bind(options)(oscar);
+    tango = golf.bind(entity)(tango);
+    golf = 5;
+    golf = verify[golf];
+    verify = options.bind(entity)(golf);
+    options = verify.fileFinishedImporting;
+    golf = 'modules/threads/ThreadAutoArchive.tsx';
+    golf = options.bind(verify)(golf);
+    zulu['AUTO_ARCHIVE_OPTION_VALUES'] = oscar;
     zulu['getAutoArchiveOptions'] = report;
     zulu['getAutoArchiveDurations'] = tango;
     tango = function(argFoo) { // Original name: getAutoArchiveDurationText
-        _fun71473: for(var _fun71473_ip = 0; ; ) switch(_fun71473_ip) {
+        _fun71479: for(var _fun71479_ip = 0; ; ) switch(_fun71479_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
-            zulu = _closure1_slot8;
+            zulu = _closure1_slot4;
             tango = undefined;
             oscar = zulu.bind(tango)();
             zulu = oscar.find;
@@ -139,15 +174,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             golf = zulu == oscar;
             entity = undefined;
-            if(golf) { _fun71473_ip = 55; continue _fun71473 }
+            if(golf) { _fun71479_ip = 55; continue _fun71479 }
  50:
             entity = oscar.label;
  55:
-            if(!(zulu == entity)) { _fun71473_ip = 104; continue _fun71473 }
+            if(!(zulu == entity)) { _fun71479_ip = 104; continue _fun71479 }
  59:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
-            mike = 3;
+            mike = 4;
             mike = oscar[mike];
             tango = zulu.bind(tango)(mike);
             zulu = tango.duration;
@@ -161,22 +196,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getAutoArchiveDurationText'] = tango;
     mike = function(argFoo, argBar) { // Original name: getAutoArchiveDuration
-        _fun71475: for(var _fun71475_ip = 0; ; ) switch(_fun71475_ip) {
+        _fun71481: for(var _fun71481_ip = 0; ; ) switch(_fun71481_ip) {
  0:
             tango = argFoo;
             entity = argBar;
             mike = null;
-            if(!(mike == entity)) { _fun71475_ip = 30; continue _fun71475 }
+            if(!(mike == entity)) { _fun71481_ip = 30; continue _fun71481 }
  12:
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun71475_ip = 27; continue _fun71475 }
+            if(report) { _fun71481_ip = 27; continue _fun71481 }
  21:
             zulu = tango.defaultAutoArchiveDuration;
  27:
             entity = zulu;
  30:
-            if(!(mike == entity)) { _fun71475_ip = 41; continue _fun71475 }
+            if(!(mike == entity)) { _fun71481_ip = 41; continue _fun71481 }
  34:
             entity = _closure1_slot3;
  41:

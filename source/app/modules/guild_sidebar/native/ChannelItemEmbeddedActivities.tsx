@@ -69,13 +69,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/ChannelItemEmbeddedActivities.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelItemEmbeddedActivities
-        _fun115745: for(var _fun115745_ip = 0; ; ) switch(_fun115745_ip) {
+        _fun115751: for(var _fun115751_ip = 0; ; ) switch(_fun115751_ip) {
  0:
             entity = argFoo;
             verify = entity.embeddedApps;
             golf = entity.size;
             tango = undefined;
-            if(!(golf === tango)) { _fun115745_ip = 55; continue _fun115745 }
+            if(!(golf === tango)) { _fun115751_ip = 55; continue _fun115751 }
  20:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -90,11 +90,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = mike.bind(tango)();
             mike = verify.length;
             options = 0;
-            if(!(!(mike <= options))) { _fun115745_ip = 499; continue _fun115745 }
+            if(!(!(mike <= options))) { _fun115751_ip = 499; continue _fun115751 }
  86:
             mike = verify.length;
             zulu = 1;
-            if(!(zulu !== mike)) { _fun115745_ip = 434; continue _fun115745 }
+            if(!(zulu !== mike)) { _fun115751_ip = 434; continue _fun115751 }
  101:
             mike = verify[options];
             backup = mike.application;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = romeo;
             foxtrot = verify.length;
             romeo = 2;
-            if(!(romeo !== foxtrot)) { _fun115745_ip = 380; continue _fun115745 }
+            if(!(romeo !== foxtrot)) { _fun115751_ip = 380; continue _fun115751 }
  248:
             backup = _closure1_slot4;
             foxtrot = _closure1_slot3;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = backup.bind(tango)(result, kilo);
             romeo['children'] = kilo;
             romeo = backup.bind(tango)(foxtrot, romeo);
-            _fun115745_ip = 418; continue _fun115745;
+            _fun115751_ip = 418; continue _fun115751;
  380:
             kilo = _closure1_slot4;
             backup = _closure1_slot1;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.application;
             entity['game'] = options;
             entity['size'] = golf;
-            if(!report) { _fun115745_ip = 487; continue _fun115745 }
+            if(!report) { _fun115751_ip = 487; continue _fun115751 }
  481:
             report = oscar.modeMuted;
  487:

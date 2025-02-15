@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: buildBaseEmbedProps
-        _fun70533: for(var _fun70533_ip = 0; ; ) switch(_fun70533_ip) {
+        _fun70539: for(var _fun70539_ip = 0; ; ) switch(_fun70539_ip) {
  0:
             mike = argFoo;
             golf = mike.titleText;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(oscar)(entity);
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
-            if(entity) { _fun70533_ip = 248; continue _fun70533 }
+            if(entity) { _fun70539_ip = 248; continue _fun70539 }
  207:
             entity = {};
             offset = entity;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[mike] = tango;
             mike = 'subtitle';
             entity[mike] = report;
-            _fun70533_ip = 283; continue _fun70533;
+            _fun70539_ip = 283; continue _fun70539;
  248:
             mike = {};
             offset = mike;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: buildSupportedOnMobileEmbedBodyText
-        _fun70534: for(var _fun70534_ip = 0; ; ) switch(_fun70534_ip) {
+        _fun70540: for(var _fun70540_ip = 0; ; ) switch(_fun70540_ip) {
  0:
             entity = argFoo;
             report = entity.quest;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity instanceof Object ? entity : zulu;
             entity = zulu.toISOString;
             entity = entity.bind(zulu)();
-            if(!(!(mike < entity))) { _fun70534_ip = 267; continue _fun70534 }
+            if(!(!(mike < entity))) { _fun70540_ip = 267; continue _fun70540 }
  65:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -172,14 +172,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: buildQuestsEmbedProps
-        _fun70536: for(var _fun70536_ip = 0; ; ) switch(_fun70536_ip) {
+        _fun70542: for(var _fun70542_ip = 0; ; ) switch(_fun70542_ip) {
  0:
             mike = argFoo;
             oscar = mike.questId;
             entity = mike.isEligibleForQuests;
             report = mike.calculateVisibilityPercentages;
             zulu = mike.themeColors;
-            if(entity) { _fun70536_ip = 206; continue _fun70536 }
+            if(entity) { _fun70542_ip = 207; continue _fun70542 }
  36:
             golf = _closure1_slot10;
             mike = {};
@@ -219,30 +219,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['thumbnailUrl'] = options;
             entity = golf.bind(entity)(mike);
             return entity;
- 206:
+ 207:
             entity = _closure1_slot5;
             mike = entity.quests;
             entity = mike.get;
             oscar = entity.bind(mike)(oscar);
             options = null;
             mike = options == oscar;
-            if(!mike) { _fun70536_ip = 245; continue _fun70536 }
- 235:
+            if(!mike) { _fun70542_ip = 246; continue _fun70542 }
+ 236:
             entity = _closure1_slot5;
             mike = entity.isFetchingCurrentQuests;
- 245:
-            if(!mike) { _fun70536_ip = 256; continue _fun70536 }
- 248:
+ 246:
+            if(!mike) { _fun70542_ip = 257; continue _fun70542 }
+ 249:
             entity = null;
-            if(!report) { _fun70536_ip = 1053; continue _fun70536 }
- 256:
-            if(mike) { _fun70536_ip = 1032; continue _fun70536 }
- 262:
-            if(!(options != oscar)) { _fun70536_ip = 862; continue _fun70536 }
- 269:
+            if(!report) { _fun70542_ip = 1055; continue _fun70542 }
+ 257:
+            if(mike) { _fun70542_ip = 1034; continue _fun70542 }
+ 263:
+            if(!(options != oscar)) { _fun70542_ip = 863; continue _fun70542 }
+ 270:
             mike = null;
-            if(!report) { _fun70536_ip = 857; continue _fun70536 }
- 277:
+            if(!report) { _fun70542_ip = 858; continue _fun70542 }
+ 278:
             report = {};
             report['themeColors'] = zulu;
             report['quest'] = oscar;
@@ -253,10 +253,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options == verify;
             backup = undefined;
             report = undefined;
-            if(offset) { _fun70536_ip = 329; continue _fun70536 }
- 323:
+            if(offset) { _fun70542_ip = 330; continue _fun70542 }
+ 324:
             report = verify.enrolledAt;
- 329:
+ 330:
             verify = options != report;
             report = result.config;
             options = report.expiresAt;
@@ -282,13 +282,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = offset.isThemeDark;
             offset = report.bind(offset)(yankee);
             report = _closure1_slot7;
-            if(offset) { _fun70536_ip = 452; continue _fun70536 }
- 444:
+            if(offset) { _fun70542_ip = 453; continue _fun70542 }
+ 445:
             output = report.LIGHT;
-            _fun70536_ip = 458; continue _fun70536;
- 452:
+            _fun70542_ip = 459; continue _fun70542;
+ 453:
             output = report.DARK;
- 458:
+ 459:
             report = {};
             yankee = _closure1_slot10;
             offset = {};
@@ -334,10 +334,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = yankee.bind(backup)(offset);
             config = report;
             offset = copyDataProperties(config, sequence);
-            if(verify) { _fun70536_ip = 727; continue _fun70536 }
- 670:
-            if(options) { _fun70536_ip = 727; continue _fun70536 }
- 673:
+            if(verify) { _fun70542_ip = 728; continue _fun70542 }
+ 671:
+            if(options) { _fun70542_ip = 728; continue _fun70542 }
+ 674:
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
             offset = verify[kilo];
@@ -349,8 +349,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.kUQLMD;
             verify = offset.bind(yankee)(verify);
-            _fun70536_ip = 798; continue _fun70536;
- 727:
+            _fun70542_ip = 799; continue _fun70542;
+ 728:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[kilo];
@@ -360,17 +360,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset[kilo];
             offset = foxtrot.bind(backup)(offset);
             offset = offset.t;
-            if(options) { _fun70536_ip = 784; continue _fun70536 }
- 771:
+            if(options) { _fun70542_ip = 785; continue _fun70542 }
+ 772:
             options = offset.th2+0t;
             options = yankee.bind(romeo)(options);
-            _fun70536_ip = 795; continue _fun70536;
- 784:
+            _fun70542_ip = 796; continue _fun70542;
+ 785:
             offset = offset.hvVgAQ;
             options = yankee.bind(romeo)(offset);
- 795:
+ 796:
             verify = options;
- 798:
+ 799:
             options = 'acceptLabelText';
             report[options] = verify;
             options = golf.acceptBlurpleLabelBackgroundColor;
@@ -384,9 +384,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'thumbnailCornerRadius';
             report[oscar] = golf;
             mike = report;
- 857:
-            _fun70536_ip = 1030; continue _fun70536;
- 862:
+ 858:
+            _fun70542_ip = 1032; continue _fun70542;
+ 863:
             golf = _closure1_slot10;
             oscar = {};
             yankee = _closure1_slot0;
@@ -424,17 +424,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.uri;
             oscar['thumbnailUrl'] = options;
             mike = golf.bind(report)(oscar);
- 1030:
-            _fun70536_ip = 1050; continue _fun70536;
  1032:
+            _fun70542_ip = 1052; continue _fun70542;
+ 1034:
             report = _closure1_slot10;
             tango = {};
             tango['themeColors'] = zulu;
             zulu = undefined;
             mike = report.bind(zulu)(tango);
- 1050:
+ 1052:
             entity = mike;
- 1053:
+ 1055:
             return entity;
         }
     };
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestsEmbed.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: QuestsEmbed
-        _fun70537: for(var _fun70537_ip = 0; ; ) switch(_fun70537_ip) {
+        _fun70543: for(var _fun70543_ip = 0; ; ) switch(_fun70543_ip) {
  0:
             entity = argFoo;
             tango = entity.questId;
@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(report)(entity);
             entity = null;
             zulu = entity != oscar;
-            if(!zulu) { _fun70537_ip = 227; continue _fun70537 }
+            if(!zulu) { _fun70543_ip = 227; continue _fun70543 }
  185:
             tango = _closure1_slot9;
             zulu = _closure1_slot1;

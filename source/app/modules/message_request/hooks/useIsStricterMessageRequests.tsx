@@ -43,7 +43,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/message_request/hooks/useIsStricterMessageRequests.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useIsStricterMessageRequests
-        _fun101474: for(var _fun101474_ip = 0; ; ) switch(_fun101474_ip) {
+        _fun101466: for(var _fun101466_ip = 0; ; ) switch(_fun101466_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = zulu;
             zulu = function() {
-                _fun101476: for(var _fun101476_ip = 0; ; ) switch(_fun101476_ip) {
+                _fun101468: for(var _fun101468_ip = 0; ; ) switch(_fun101468_ip) {
  0:
                     mike = _closure1_slot3;
                     entity = mike.getCurrentUser;
@@ -78,7 +78,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun101476_ip = 33; continue _fun101476 }
+                    if(zulu) { _fun101468_ip = 33; continue _fun101468 }
  27:
                     entity = mike.nsfwAllowed;
  33:
@@ -91,11 +91,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = entity;
             mike = function() {
-                _fun101477: for(var _fun101477_ip = 0; ; ) switch(_fun101477_ip) {
+                _fun101469: for(var _fun101469_ip = 0; ; ) switch(_fun101469_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity == mike)) { _fun101477_ip = 48; continue _fun101477 }
+                    if(!(entity == mike)) { _fun101469_ip = 48; continue _fun101469 }
  13:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -113,7 +113,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = oscar.bind(golf)(mike, report);
             mike = null;
             mike = mike == entity;
-            if(mike) { _fun101474_ip = 162; continue _fun101474 }
+            if(mike) { _fun101466_ip = 162; continue _fun101466 }
  139:
             report = _closure1_slot5;
             tango = report.has;
@@ -122,7 +122,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = !entity;
  162:
             entity = !mike;
-            if(mike) { _fun101474_ip = 180; continue _fun101474 }
+            if(mike) { _fun101466_ip = 180; continue _fun101466 }
  168:
             mike = false;
             mike = mike === zulu;

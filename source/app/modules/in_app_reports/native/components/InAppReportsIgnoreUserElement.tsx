@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsIgnoreUserElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: IgnoreUserElement
-        _fun72745: for(var _fun72745_ip = 0; ; ) switch(_fun72745_ip) {
+        _fun72751: for(var _fun72751_ip = 0; ; ) switch(_fun72751_ip) {
  0:
             zulu = argFoo;
             mike = zulu.user;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = zulu;
             tango[1] = mike;
             zulu = function() {
-                _fun72748: for(var _fun72748_ip = 0; ; ) switch(_fun72748_ip) {
+                _fun72754: for(var _fun72754_ip = 0; ; ) switch(_fun72754_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = null;
                     oscar = golf == zulu;
                     zulu = undefined;
-                    if(oscar) { _fun72748_ip = 58; continue _fun72748 }
+                    if(oscar) { _fun72754_ip = 58; continue _fun72754 }
  49:
                     oscar = _closure2_slot3;
                     zulu = oscar.guild_id;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot3;
                     oscar = golf == oscar;
                     mike = undefined;
-                    if(oscar) { _fun72748_ip = 80; continue _fun72748 }
+                    if(oscar) { _fun72754_ip = 80; continue _fun72754 }
  71:
                     oscar = _closure2_slot3;
                     mike = oscar.id;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(golf)(entity, zulu);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun72745_ip = 496; continue _fun72745 }
+            if(mike) { _fun72751_ip = 496; continue _fun72751 }
  242:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.naWE6e;
             offset = yankee.bind(romeo)(offset);
             mike['description'] = offset;
-            if(options) { _fun72745_ip = 440; continue _fun72745 }
+            if(options) { _fun72751_ip = 440; continue _fun72751 }
  437:
             options = verify;
  440:

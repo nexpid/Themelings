@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options[1] = offset;
         offset = yankee.map;
         verify = function(argFoo) {
-            _fun95356: for(var _fun95356_ip = 0; ; ) switch(_fun95356_ip) {
+            _fun95366: for(var _fun95366_ip = 0; ; ) switch(_fun95366_ip) {
  0:
                 zulu = argFoo;
                 entity = zulu[Symbol.iterator];
@@ -408,24 +408,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = undefined;
                 mike = mike === report;
                 tango = undefined;
-                if(mike) { _fun95356_ip = 27; continue _fun95356 }
+                if(mike) { _fun95366_ip = 27; continue _fun95366 }
  24:
                 tango = oscar;
  27:
                 verify = undefined;
-                if(mike) { _fun95356_ip = 57; continue _fun95356 }
+                if(mike) { _fun95366_ip = 57; continue _fun95366 }
  32:
                 oscar = zulu().value;
                 zulu = entity;
                 zulu = zulu === report;
                 verify = undefined;
                 mike = zulu;
-                if(zulu) { _fun95356_ip = 57; continue _fun95356 }
+                if(zulu) { _fun95366_ip = 57; continue _fun95366 }
  51:
                 verify = oscar;
                 mike = zulu;
  57:
-                if(mike) { _fun95356_ip = 63; continue _fun95356 }
+                if(mike) { _fun95366_ip = 63; continue _fun95366 }
  60:
                 entity.return();
  63:
@@ -443,14 +443,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = null;
                 oscar = yankee != oscar;
                 golf = undefined;
-                if(!oscar) { _fun95356_ip = 130; continue _fun95356 }
+                if(!oscar) { _fun95366_ip = 130; continue _fun95366 }
  126:
                 golf = _closure2_slot1;
  130:
                 oscar = _closure2_slot2;
                 yankee = yankee != oscar;
                 oscar = undefined;
-                if(!yankee) { _fun95356_ip = 147; continue _fun95356 }
+                if(!yankee) { _fun95366_ip = 147; continue _fun95366 }
  143:
                 oscar = _closure2_slot2;
  147:

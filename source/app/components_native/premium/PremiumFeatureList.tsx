@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['style'] = oscar;
         oscar = golf.map;
         report = function(argFoo, argBar) {
-            _fun75664: for(var _fun75664_ip = 0; ; ) switch(_fun75664_ip) {
+            _fun75674: for(var _fun75674_ip = 0; ; ) switch(_fun75674_ip) {
  0:
                 verify = argFoo;
                 report = argBar;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset[1] = yankee;
                 oscar['style'] = offset;
                 offset = null;
-                if(!(offset == kilo)) { _fun75664_ip = 209; continue _fun75664 }
+                if(!(offset == kilo)) { _fun75674_ip = 209; continue _fun75674 }
  77:
                 backup = _closure1_slot5;
                 output = _closure1_slot1;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = verify.icon;
                 yankee['source'] = sizing;
                 romeo = backup.bind(foxtrot)(romeo, yankee);
-                _fun75664_ip = 270; continue _fun75664;
+                _fun75674_ip = 270; continue _fun75674;
  209:
                 backup = _closure1_slot5;
                 foxtrot = {};
@@ -209,16 +209,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure2_slot0;
                 yankee = offset != golf;
                 golf = null;
-                if(!yankee) { _fun75664_ip = 437; continue _fun75664 }
+                if(!yankee) { _fun75674_ip = 437; continue _fun75674 }
  406:
                 romeo = _closure2_slot0;
                 yankee = '';
                 golf = null;
-                if(!(yankee !== romeo)) { _fun75664_ip = 437; continue _fun75664 }
+                if(!(yankee !== romeo)) { _fun75674_ip = 437; continue _fun75674 }
  420:
                 verify = verify.renderSeparatorBelow;
                 golf = null;
-                if(!verify) { _fun75664_ip = 437; continue _fun75664 }
+                if(!verify) { _fun75674_ip = 437; continue _fun75674 }
  433:
                 golf = _closure2_slot0;
  437:

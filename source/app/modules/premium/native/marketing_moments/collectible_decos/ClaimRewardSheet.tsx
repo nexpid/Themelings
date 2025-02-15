@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/ClaimRewardSheet.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/ClaimRewardSheet.tsx
 export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     report = argBar;
     yankee = argBaz;
@@ -105,15 +105,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/ClaimRewardSheet.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/ClaimRewardSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ClaimRewardSheet
-        _fun104867: for(var _fun104867_ip = 0; ; ) switch(_fun104867_ip) {
+        _fun104859: for(var _fun104859_ip = 0; ; ) switch(_fun104859_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.useCallback;
             mike = function() {
-                _fun104868: for(var _fun104868_ip = 0; ; ) switch(_fun104868_ip) {
+                _fun104860: for(var _fun104860_ip = 0; ; ) switch(_fun104860_ip) {
  0:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -124,11 +124,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     zulu = tango.getRootNavigationRef;
                     report = zulu.bind(tango)();
                     zulu = null;
-                    if(!(zulu != report)) { _fun104868_ip = 89; continue _fun104868 }
+                    if(!(zulu != report)) { _fun104860_ip = 89; continue _fun104860 }
  41:
                     zulu = report.isReady;
                     zulu = zulu.bind(report)();
-                    if(!zulu) { _fun104868_ip = 89; continue _fun104868 }
+                    if(!zulu) { _fun104860_ip = 89; continue _fun104860 }
  54:
                     tango = report.navigate;
                     zulu = {};
@@ -196,12 +196,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot = foxtrot.bind(backup)(kilo);
             kilo = _closure1_slot1;
             output = _closure1_slot2;
-            if(foxtrot) { _fun104867_ip = 267; continue _fun104867 }
+            if(foxtrot) { _fun104859_ip = 267; continue _fun104859 }
  253:
             foxtrot = 14;
             foxtrot = output[foxtrot];
             foxtrot = kilo.bind(tango)(foxtrot);
-            _fun104867_ip = 279; continue _fun104867;
+            _fun104859_ip = 279; continue _fun104859;
  267:
             backup = 13;
             backup = output[backup];

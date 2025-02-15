@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     tango = function() { // Original name: useFetchPurchases
-        _fun38326: for(var _fun38326_ip = 0; ; ) switch(_fun38326_ip) {
+        _fun38333: for(var _fun38333_ip = 0; ; ) switch(_fun38333_ip) {
  0:
             romeo = arguments[0];
             foxtrot = arguments[1];
             offset = undefined;
-            if(!(romeo === offset)) { _fun38326_ip = 16; continue _fun38326 }
+            if(!(romeo === offset)) { _fun38333_ip = 16; continue _fun38333 }
  14:
             romeo = false;
  16:
@@ -126,24 +126,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options[1] = romeo;
             options[2] = yankee;
             entity = function() {
-                _fun38330: for(var _fun38330_ip = 0; ; ) switch(_fun38330_ip) {
+                _fun38337: for(var _fun38337_ip = 0; ; ) switch(_fun38337_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = true;
                     entity = entity === mike;
-                    if(!entity) { _fun38330_ip = 25; continue _fun38330 }
+                    if(!entity) { _fun38337_ip = 25; continue _fun38337 }
  16:
                     mike = _closure2_slot5;
                     entity = mike.current;
  25:
-                    if(!entity) { _fun38330_ip = 43; continue _fun38330 }
+                    if(!entity) { _fun38337_ip = 43; continue _fun38337 }
  28:
                     mike = _closure2_slot6;
                     zulu = mike.current;
                     mike = null;
                     entity = mike == zulu;
  43:
-                    if(entity) { _fun38330_ip = 101; continue _fun38330 }
+                    if(entity) { _fun38337_ip = 101; continue _fun38337 }
  46:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -176,14 +176,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = tango;
     report = function(argFoo) { // Original name: useFetchCollectiblesCategoriesAndPurchases
-        _fun38331: for(var _fun38331_ip = 0; ; ) switch(_fun38331_ip) {
+        _fun38338: for(var _fun38338_ip = 0; ; ) switch(_fun38338_ip) {
  0:
             options = argFoo;
             entity = null;
             mike = entity == options;
             report = undefined;
             oscar = undefined;
-            if(mike) { _fun38331_ip = 22; continue _fun38331 }
+            if(mike) { _fun38338_ip = 22; continue _fun38338 }
  16:
             oscar = options.paymentGateway;
  22:
@@ -206,6 +206,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu);
             zulu = {};
             zulu['paymentGateway'] = oscar;
+            golf = entity == options;
+            oscar = undefined;
+            if(golf) { _fun38338_ip = 138; continue _fun38338 }
+ 132:
+            oscar = options.noOp;
+ 138:
+            zulu['noOp'] = oscar;
             zulu = tango.bind(report)(zulu);
             offset = zulu.isFetching;
             golf = zulu.categories;
@@ -214,16 +221,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot7;
             verify = entity == options;
             mike = undefined;
-            if(verify) { _fun38331_ip = 173; continue _fun38331 }
- 165:
+            if(verify) { _fun38338_ip = 193; continue _fun38338 }
+ 185:
             mike = options.stalePurchasesOK;
- 173:
+ 193:
             verify = entity == options;
             entity = undefined;
-            if(verify) { _fun38331_ip = 187; continue _fun38331 }
- 182:
+            if(verify) { _fun38338_ip = 207; continue _fun38338 }
+ 202:
             entity = options.location;
- 187:
+ 207:
             mike = tango.bind(report)(mike, entity);
             options = mike.isClaiming;
             report = mike.fetchPurchasesError;
@@ -231,10 +238,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = mike.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun38331_ip = 228; continue _fun38331 }
- 225:
+            if(yankee) { _fun38338_ip = 248; continue _fun38338 }
+ 245:
             yankee = verify;
- 228:
+ 248:
             entity['isFetching'] = yankee;
             entity['isFetchingCategories'] = offset;
             entity['isFetchingPurchases'] = verify;
@@ -294,13 +301,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useGetOrFetchPurchases'] = tango;
     mike = function(argFoo) {
-        _fun38333: for(var _fun38333_ip = 0; ; ) switch(_fun38333_ip) {
+        _fun38340: for(var _fun38340_ip = 0; ; ) switch(_fun38340_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot8;
             mike = {};
             tango = null;
-            if(!(tango == entity)) { _fun38333_ip = 20; continue _fun38333 }
+            if(!(tango == entity)) { _fun38340_ip = 20; continue _fun38340 }
  18:
             entity = {};
  20:

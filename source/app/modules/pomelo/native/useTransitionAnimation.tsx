@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function(argFoo) {
-            _fun94354: for(var _fun94354_ip = 0; ; ) switch(_fun94354_ip) {
+            _fun94379: for(var _fun94379_ip = 0; ; ) switch(_fun94379_ip) {
  0:
                 report = _closure2_slot0;
                 tango = report.set;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 golf = zulu.UP;
                 zulu = -1;
                 oscar = argFoo;
-                if(!(oscar === golf)) { _fun94354_ip = 41; continue _fun94354 }
+                if(!(oscar === golf)) { _fun94379_ip = 41; continue _fun94379 }
  38:
                 zulu = 1;
  41:

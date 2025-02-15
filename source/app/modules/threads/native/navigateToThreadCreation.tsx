@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/threads/native/navigateToThreadCreation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: navigateToThreadCreation
-        _fun88148: for(var _fun88148_ip = 0; ; ) switch(_fun88148_ip) {
+        _fun88165: for(var _fun88165_ip = 0; ; ) switch(_fun88165_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = mike.guild_id;
             tango = mike.id;
             tango = oscar.bind(golf)(report, tango);
-            if(tango) { _fun88148_ip = 120; continue _fun88148 }
+            if(tango) { _fun88165_ip = 120; continue _fun88165 }
  84:
             tango = _closure1_slot0;
             report = _closure1_slot2;

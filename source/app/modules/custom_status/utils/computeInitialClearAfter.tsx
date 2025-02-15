@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/computeInitialClearAfter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: computeInitialClearAfter
-        _fun77836: for(var _fun77836_ip = 0; ; ) switch(_fun77836_ip) {
+        _fun77846: for(var _fun77846_ip = 0; ; ) switch(_fun77846_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.getSetting;
             report = zulu.bind(tango)();
             zulu = null;
-            if(!(zulu != report)) { _fun77836_ip = 357; continue _fun77836 }
+            if(!(zulu != report)) { _fun77846_ip = 357; continue _fun77846 }
  52:
             oscar = report.expiresAtMs;
             tango = '';
-            if(!(tango !== oscar)) { _fun77836_ip = 357; continue _fun77836 }
+            if(!(tango !== oscar)) { _fun77846_ip = 357; continue _fun77846 }
  69:
             tango = global;
             oscar = tango.Number;
@@ -71,10 +71,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(golf)(report);
             report = tango.isNaN;
             report = report.bind(golf)(oscar);
-            if(report) { _fun77836_ip = 345; continue _fun77836 }
+            if(report) { _fun77846_ip = 345; continue _fun77846 }
  105:
             report = 0;
-            if(!(report !== oscar)) { _fun77836_ip = 333; continue _fun77836 }
+            if(!(report !== oscar)) { _fun77846_ip = 333; continue _fun77846 }
  114:
             report = tango.Date;
             options = report.prototype;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = offset.getFullYear;
             report = report.bind(offset)();
             report = options === report;
-            if(!report) { _fun77836_ip = 220; continue _fun77836 }
+            if(!report) { _fun77846_ip = 220; continue _fun77846 }
  196:
             options = verify.getMonth;
             yankee = options.bind(verify)();
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = options.bind(offset)();
             report = yankee === options;
  220:
-            if(!report) { _fun77836_ip = 247; continue _fun77836 }
+            if(!report) { _fun77846_ip = 247; continue _fun77846 }
  223:
             options = verify.getDate;
             verify = options.bind(verify)();
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = options.bind(offset)();
             report = verify === options;
  247:
-            if(report) { _fun77836_ip = 262; continue _fun77836 }
+            if(report) { _fun77846_ip = 262; continue _fun77846 }
  250:
             report = _closure1_slot2;
             report = report.TODAY;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 return entity;
             };
             mike = tango.bind(report)(mike);
-            if(!(zulu == mike)) { _fun77836_ip = 331; continue _fun77836 }
+            if(!(zulu == mike)) { _fun77846_ip = 331; continue _fun77846 }
  321:
             zulu = _closure1_slot2;
             mike = zulu.TODAY;

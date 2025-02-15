@@ -30,16 +30,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function() {
-        _fun99287: for(var _fun99287_ip = 0; ; ) switch(_fun99287_ip) {
+        _fun99297: for(var _fun99297_ip = 0; ; ) switch(_fun99297_ip) {
  0:
             golf = arguments[0];
             report = arguments[1];
             oscar = undefined;
-            if(!(golf === oscar)) { _fun99287_ip = 16; continue _fun99287 }
+            if(!(golf === oscar)) { _fun99297_ip = 16; continue _fun99297 }
  12:
             golf = 'lg';
  16:
-            if(!(report === oscar)) { _fun99287_ip = 24; continue _fun99287 }
+            if(!(report === oscar)) { _fun99297_ip = 24; continue _fun99297 }
  20:
             report = 'default';
  24:
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike;
             tango = copyDataProperties(foxtrot, romeo);
             tango = 'error';
-            if(!(tango !== report)) { _fun99287_ip = 150; continue _fun99287 }
+            if(!(tango !== report)) { _fun99297_ip = 150; continue _fun99297 }
  117:
             report = _closure1_slot1;
             golf = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(oscar)(tango);
             tango = tango.colors;
             tango = tango.TEXT_NORMAL;
-            _fun99287_ip = 181; continue _fun99287;
+            _fun99297_ip = 181; continue _fun99297;
  150:
             report = _closure1_slot1;
             golf = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/TextInput/native/GhostInput.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GhostInput
-        _fun99288: for(var _fun99288_ip = 0; ; ) switch(_fun99288_ip) {
+        _fun99298: for(var _fun99298_ip = 0; ; ) switch(_fun99298_ip) {
  0:
             oscar = argFoo;
             mike = _closure1_slot0;
@@ -124,13 +124,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = zulu.bind(tango)(mike, entity);
             entity = oscar.isCentered;
             foxtrot = tango === entity;
-            if(foxtrot) { _fun99288_ip = 86; continue _fun99288 }
+            if(foxtrot) { _fun99298_ip = 86; continue _fun99298 }
  83:
             foxtrot = entity;
  86:
             entity = oscar.autoFocus;
             verify = tango === entity;
-            if(verify) { _fun99288_ip = 102; continue _fun99288 }
+            if(verify) { _fun99298_ip = 102; continue _fun99298 }
  99:
             verify = entity;
  102:
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(2);
             golf[0] = oscar;
             oscar = undefined;
-            if(!foxtrot) { _fun99288_ip = 205; continue _fun99288 }
+            if(!foxtrot) { _fun99298_ip = 205; continue _fun99298 }
  199:
             oscar = offset.centeredContainerStyle;
  205:

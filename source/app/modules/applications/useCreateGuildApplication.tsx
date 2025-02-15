@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo, argBar, argBaz, argCorge) {
                 entity = function* (argFoo, argBar, argBaz, argCorge) { // Original name: ?anon_0_
-                    _fun126927: for(var _fun126927_ip = 0; ; ) switch(_fun126927_ip) {
+                    _fun126923: for(var _fun126923_ip = 0; ; ) switch(_fun126923_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun126927_ip = 341; continue _fun126927 }
+                        if(mike) { _fun126923_ip = 341; continue _fun126923 }
  10:
                         tango = argFoo;
                         verify = argBar;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = _closure2_slot2;
                         golf = mike.current;
                         mike = null;
-                        if(!(mike == golf)) { _fun126927_ip = 146; continue _fun126927 }
+                        if(!(mike == golf)) { _fun126923_ip = 146; continue _fun126923 }
  62:
                         golf = _closure1_slot1;
                         options = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  130:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                        if(golf) { _fun126927_ip = 235; continue _fun126927 }
+                        if(golf) { _fun126923_ip = 235; continue _fun126923 }
  136:
                         golf = _closure2_slot2;
                         golf['current'] = mike;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return tango;
  201:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                        if(golf) { _fun126927_ip = 221; continue _fun126927 }
+                        if(golf) { _fun126923_ip = 221; continue _fun126923 }
  207: // try_end0 // try_end1
                         options = _closure2_slot0;
                         golf = false;

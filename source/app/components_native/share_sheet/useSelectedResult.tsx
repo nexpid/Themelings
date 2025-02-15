@@ -83,12 +83,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = mike;
         mike = function() {
-            _fun128008: for(var _fun128008_ip = 0; ; ) switch(_fun128008_ip) {
+            _fun128004: for(var _fun128004_ip = 0; ; ) switch(_fun128004_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
                 mike = entity != mike;
-                if(!mike) { _fun128008_ip = 63; continue _fun128008 }
+                if(!mike) { _fun128004_ip = 63; continue _fun128004 }
  16:
                 report = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -114,21 +114,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango[1] = golf;
         tango[2] = mike;
         mike = function() {
-            _fun128009: for(var _fun128009_ip = 0; ; ) switch(_fun128009_ip) {
+            _fun128005: for(var _fun128005_ip = 0; ; ) switch(_fun128005_ip) {
  0:
                 mike = _closure2_slot1;
                 tango = null;
                 mike = tango != mike;
-                if(mike) { _fun128009_ip = 20; continue _fun128009 }
+                if(mike) { _fun128005_ip = 20; continue _fun128005 }
  16:
                 mike = _closure2_slot3;
  20:
-                if(mike) { _fun128009_ip = 31; continue _fun128009 }
+                if(mike) { _fun128005_ip = 31; continue _fun128005 }
  23:
                 zulu = _closure2_slot5;
                 mike = tango == zulu;
  31:
-                if(mike) { _fun128009_ip = 49; continue _fun128009 }
+                if(mike) { _fun128005_ip = 49; continue _fun128005 }
  34:
                 zulu = _closure2_slot2;
                 mike = _closure2_slot5;
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = oscar.bind(report)(mike, tango);
         tango = report.useCallback;
         mike = function(argFoo) {
-            _fun128010: for(var _fun128010_ip = 0; ; ) switch(_fun128010_ip) {
+            _fun128006: for(var _fun128006_ip = 0; ; ) switch(_fun128006_ip) {
  0:
                 zulu = argFoo;
                 entity = null;
-                if(!(entity == zulu)) { _fun128010_ip = 25; continue _fun128010 }
+                if(!(entity == zulu)) { _fun128006_ip = 25; continue _fun128006 }
  9:
                 tango = _closure2_slot4;
                 mike = undefined;

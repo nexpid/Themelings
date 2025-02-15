@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun127619: for(var _fun127619_ip = 0; ; ) switch(_fun127619_ip) {
+        _fun127615: for(var _fun127615_ip = 0; ; ) switch(_fun127615_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun127619_ip = 51; continue _fun127619 }
+            if(entity) { _fun127615_ip = 51; continue _fun127615 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun127619_ip = 92; continue _fun127619;
+            _fun127615_ip = 92; continue _fun127615;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun127619_ip = 71; continue _fun127619 }
+            if(oscar) { _fun127615_ip = 71; continue _fun127615 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun127620: for(var _fun127620_ip = 0; ; ) switch(_fun127620_ip) {
+        _fun127616: for(var _fun127616_ip = 0; ; ) switch(_fun127616_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun127620_ip = 76; continue _fun127620;
+            _fun127616_ip = 76; continue _fun127616;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -161,11 +161,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = _closure1_slot3;
         oscar = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun127626: for(var _fun127626_ip = 0; ; ) switch(_fun127626_ip) {
+                _fun127622: for(var _fun127622_ip = 0; ; ) switch(_fun127622_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun127626_ip = 169; continue _fun127626 }
+                    if(mike) { _fun127622_ip = 169; continue _fun127622 }
  10:
                     mike = argFoo;
                     report = mike.channel;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun127626_ip = 166; continue _fun127626 }
+                    if(zulu) { _fun127622_ip = 166; continue _fun127622 }
  33:
                     oscar = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(tango)(zulu);
                     zulu = oscar.isEligibleForMidjourneyRedirect;
                     zulu = zulu.bind(oscar)(report);
-                    if(!zulu) { _fun127626_ip = 160; continue _fun127626 }
+                    if(!zulu) { _fun127622_ip = 160; continue _fun127622 }
  70:
                     oscar = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  106:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun127626_ip = 163; continue _fun127626 }
+                    if(oscar) { _fun127622_ip = 163; continue _fun127622 }
  112:
                     options = _closure1_slot1;
                     verify = _closure1_slot2;

@@ -68,14 +68,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/hub/native/components/progress_bar/HubProgressHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HubProgressHeader
-        _fun101998: for(var _fun101998_ip = 0; ; ) switch(_fun101998_ip) {
+        _fun101990: for(var _fun101990_ip = 0; ; ) switch(_fun101990_ip) {
  0:
             entity = argFoo;
             golf = entity.guild;
             var _closure2_slot0 = golf;
             offset = entity.onDirectoryPage;
             report = undefined;
-            if(!(offset === report)) { _fun101998_ip = 28; continue _fun101998 }
+            if(!(offset === report)) { _fun101990_ip = 28; continue _fun101990 }
  26:
             offset = false;
  28:
@@ -96,10 +96,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = entity.bind(zulu)(mike);
             _closure2_slot2 = tango;
             entity = null;
-            if(!(entity != tango)) { _fun101998_ip = 494; continue _fun101998 }
+            if(!(entity != tango)) { _fun101990_ip = 494; continue _fun101990 }
  111:
             kilo = mike.size;
-            if(!offset) { _fun101998_ip = 155; continue _fun101998 }
+            if(!offset) { _fun101990_ip = 155; continue _fun101990 }
  119:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getHubProgressTitleForStep;
             yankee = mike.bind(zulu)(tango);
             mike = _closure1_slot5;
-            if(!(!(kilo < mike))) { _fun101998_ip = 248; continue _fun101998 }
+            if(!(!(kilo < mike))) { _fun101990_ip = 248; continue _fun101990 }
  191:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.+Gyklp;
             options = zulu.bind(tango)(mike);
-            _fun101998_ip = 342; continue _fun101998;
+            _fun101990_ip = 342; continue _fun101990;
  248:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -172,10 +172,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.icon;
             oscar['iconStyle'] = foxtrot;
             romeo = function() { // Original name: onPress
-                _fun101999: for(var _fun101999_ip = 0; ; ) switch(_fun101999_ip) {
+                _fun101991: for(var _fun101991_ip = 0; ; ) switch(_fun101991_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun101999_ip = 55; continue _fun101999 }
+                    if(!entity) { _fun101991_ip = 55; continue _fun101991 }
  10:
                     zulu = _closure2_slot2;
                     report = _closure1_slot0;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.JOIN_GUILD;
                     entity = zulu === mike;
  55:
-                    if(entity) { _fun101999_ip = 155; continue _fun101999 }
+                    if(entity) { _fun101991_ip = 155; continue _fun101991 }
  58:
                     tango = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['title'] = yankee;
             oscar['subtitle'] = options;
             options = undefined;
-            if(!offset) { _fun101998_ip = 471; continue _fun101998 }
+            if(!offset) { _fun101990_ip = 471; continue _fun101990 }
  455:
             yankee = _closure1_slot6;
             offset = _closure1_slot3;

@@ -76,7 +76,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/tabs/messages/MessagesEmptyState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: MessagesEmptyState
-        _fun115420: for(var _fun115420_ip = 0; ; ) switch(_fun115420_ip) {
+        _fun115426: for(var _fun115426_ip = 0; ; ) switch(_fun115426_ip) {
  0:
             mike = _closure1_slot10;
             tango = undefined;
@@ -168,7 +168,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             update = 350;
             result = 622;
             sizing = update;
-            if(!(echo < result)) { _fun115420_ip = 347; continue _fun115420 }
+            if(!(echo < result)) { _fun115426_ip = 347; continue _fun115426 }
  339:
             output = echo / result;
             sizing = output * update;

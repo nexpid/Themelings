@@ -141,28 +141,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['CLEAR_AFTER_OPTIONS'] = tango;
     mike = function(argFoo) { // Original name: getLabelForClearAfterValue
-        _fun80008: for(var _fun80008_ip = 0; ; ) switch(_fun80008_ip) {
+        _fun80021: for(var _fun80021_ip = 0; ; ) switch(_fun80021_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot2;
             mike = mike.DONT_CLEAR;
-            if(!(mike !== report)) { _fun80008_ip = 406; continue _fun80008 }
+            if(!(mike !== report)) { _fun80021_ip = 406; continue _fun80021 }
  23:
             mike = _closure1_slot2;
             mike = mike.TODAY;
-            if(!(mike !== report)) { _fun80008_ip = 347; continue _fun80008 }
+            if(!(mike !== report)) { _fun80021_ip = 347; continue _fun80021 }
  40:
             mike = _closure1_slot2;
             mike = mike.HOURS_4;
-            if(!(mike !== report)) { _fun80008_ip = 277; continue _fun80008 }
+            if(!(mike !== report)) { _fun80021_ip = 277; continue _fun80021 }
  57:
             mike = _closure1_slot2;
             mike = mike.HOURS_1;
-            if(!(mike !== report)) { _fun80008_ip = 210; continue _fun80008 }
+            if(!(mike !== report)) { _fun80021_ip = 210; continue _fun80021 }
  74:
             mike = _closure1_slot2;
             mike = mike.MINUTES_30;
-            if(!(mike !== report)) { _fun80008_ip = 140; continue _fun80008 }
+            if(!(mike !== report)) { _fun80021_ip = 140; continue _fun80021 }
  88:
             mike = global;
             tango = mike.Error;

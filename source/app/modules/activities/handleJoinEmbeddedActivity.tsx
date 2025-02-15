@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun74940: for(var _fun74940_ip = 0; ; ) switch(_fun74940_ip) {
+                _fun74950: for(var _fun74950_ip = 0; ; ) switch(_fun74950_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun74940_ip = 1077; continue _fun74940 }
+                    if(zulu) { _fun74950_ip = 1077; continue _fun74950 }
  13:
                     context = mike.applicationId;
                     papa = mike.activityChannelId;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  107:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun74940_ip = 1074; continue _fun74940 }
+                    if(zulu) { _fun74950_ip = 1074; continue _fun74950 }
  116:
                     report = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = null;
                     zulu = offset == target;
                     report = undefined;
-                    if(zulu) { _fun74940_ip = 178; continue _fun74940 }
+                    if(zulu) { _fun74950_ip = 178; continue _fun74950 }
  168:
                     zulu = target.getGuildId;
                     report = zulu.bind(target)();
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = _closure1_slot7;
                     zulu = golf.getCurrentUser;
                     sierra = zulu.bind(golf)();
-                    if(!(offset != sierra)) { _fun74940_ip = 1069; continue _fun74940 }
+                    if(!(offset != sierra)) { _fun74950_ip = 1069; continue _fun74950 }
  198:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -72,20 +72,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf.bind(oscar)(zulu);
                     zulu = golf.getIsContextlessActivitiesExperimentEnabled;
                     verify = zulu.bind(golf)();
-                    if(verify) { _fun74940_ip = 288; continue _fun74940 }
+                    if(verify) { _fun74950_ip = 288; continue _fun74950 }
  231:
-                    if(!(offset != target)) { _fun74940_ip = 264; continue _fun74940 }
+                    if(!(offset != target)) { _fun74950_ip = 264; continue _fun74950 }
  235:
-                    if(!(offset != report)) { _fun74940_ip = 247; continue _fun74940 }
+                    if(!(offset != report)) { _fun74950_ip = 247; continue _fun74950 }
  239:
                     zulu = '';
-                    if(!(zulu === report)) { _fun74940_ip = 260; continue _fun74940 }
+                    if(!(zulu === report)) { _fun74950_ip = 260; continue _fun74950 }
  247:
                     zulu = target.isPrivate;
                     zulu = zulu.bind(target)();
-                    if(!zulu) { _fun74940_ip = 264; continue _fun74940 }
+                    if(!zulu) { _fun74950_ip = 264; continue _fun74950 }
  260:
-                    if(!(offset == papa)) { _fun74940_ip = 288; continue _fun74940 }
+                    if(!(offset == papa)) { _fun74950_ip = 288; continue _fun74950 }
  264:
                     zulu = global;
                     options = zulu.Promise;
@@ -99,19 +99,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.bind(golf)();
                     options = offset == zulu;
                     golf = undefined;
-                    if(options) { _fun74940_ip = 316; continue _fun74940 }
+                    if(options) { _fun74950_ip = 316; continue _fun74950 }
  311:
                     golf = zulu.applicationId;
  316:
                     golf = offset != golf;
                     romeo = undefined;
-                    if(!golf) { _fun74940_ip = 354; continue _fun74940 }
+                    if(!golf) { _fun74950_ip = 354; continue _fun74950 }
  325:
                     yankee = _closure1_slot4;
                     options = yankee.getApplication;
                     status = offset == zulu;
                     golf = undefined;
-                    if(status) { _fun74940_ip = 349; continue _fun74940 }
+                    if(status) { _fun74950_ip = 349; continue _fun74950 }
  344:
                     golf = zulu.applicationId;
  349:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  354:
                     golf = offset == zulu;
                     options = undefined;
-                    if(golf) { _fun74940_ip = 373; continue _fun74940 }
+                    if(golf) { _fun74950_ip = 373; continue _fun74950 }
  363:
                     golf = zulu.location;
                     options = golf.kind;
@@ -132,19 +132,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf.ActivityLocationKinds;
                     golf = golf.CONTEXTLESS;
                     golf = options === golf;
-                    if(golf) { _fun74940_ip = 430; continue _fun74940 }
+                    if(golf) { _fun74950_ip = 430; continue _fun74950 }
  412:
                     yankee = _closure1_slot6;
                     options = yankee.getVoiceChannelId;
                     options = options.bind(yankee)();
-                    if(!(options === papa)) { _fun74940_ip = 506; continue _fun74940 }
+                    if(!(options === papa)) { _fun74950_ip = 506; continue _fun74950 }
  430:
-                    if(!(offset != zulu)) { _fun74940_ip = 506; continue _fun74940 }
+                    if(!(offset != zulu)) { _fun74950_ip = 506; continue _fun74950 }
  434:
                     options = zulu.applicationId;
-                    if(!(options === context)) { _fun74940_ip = 506; continue _fun74940 }
+                    if(!(options === context)) { _fun74950_ip = 506; continue _fun74950 }
  443:
-                    if(golf) { _fun74940_ip = 1014; continue _fun74940 }
+                    if(golf) { _fun74950_ip = 1014; continue _fun74950 }
  449:
                     options = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = _closure1_slot6;
                     golf = yankee.getVoiceChannelId;
                     golf = golf.bind(yankee)();
-                    if(!(options !== golf)) { _fun74940_ip = 1014; continue _fun74940 }
+                    if(!(options !== golf)) { _fun74950_ip = 1014; continue _fun74950 }
  506:
                     options = _closure1_slot0;
                     whiskey = _closure1_slot2;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return golf;
  564:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=31);
-                    if(lima) { _fun74940_ip = 1011; continue _fun74940 }
+                    if(lima) { _fun74950_ip = 1011; continue _fun74950 }
  573:
                     options['application'] = golf;
                     options['channel'] = target;
@@ -190,18 +190,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return options;
  604:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(yankee) { _fun74940_ip = 1008; continue _fun74940 }
+                    if(yankee) { _fun74950_ip = 1008; continue _fun74950 }
  613:
-                    if(options) { _fun74940_ip = 621; continue _fun74940 }
+                    if(options) { _fun74950_ip = 621; continue _fun74950 }
  616:
                     yankee = false;
                     return yankee;
  621:
-                    if(!(offset == target)) { _fun74940_ip = 643; continue _fun74940 }
+                    if(!(offset == target)) { _fun74950_ip = 643; continue _fun74950 }
  625:
-                    if(!(offset == target)) { _fun74940_ip = 803; continue _fun74940 }
+                    if(!(offset == target)) { _fun74950_ip = 803; continue _fun74950 }
  632:
-                    if(verify) { _fun74940_ip = 803; continue _fun74940 }
+                    if(verify) { _fun74950_ip = 803; continue _fun74950 }
  638:
                     verify = false;
                     return verify;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     status = sierra.includes;
                     verify = target.type;
                     verify = status.bind(sierra)(verify);
-                    if(yankee) { _fun74940_ip = 737; continue _fun74940 }
+                    if(yankee) { _fun74950_ip = 737; continue _fun74950 }
  695:
                     status = _closure1_slot0;
                     sierra = _closure1_slot2;
@@ -226,9 +226,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     status = status.bind(oscar)(yankee);
                     yankee = status.isActivitiesInTextEnabled;
                     yankee = yankee.bind(status)(target);
-                    if(!yankee) { _fun74940_ip = 732; continue _fun74940 }
+                    if(!yankee) { _fun74950_ip = 732; continue _fun74950 }
  729:
-                    if(verify) { _fun74940_ip = 803; continue _fun74940 }
+                    if(verify) { _fun74950_ip = 803; continue _fun74950 }
  732:
                     verify = false;
                     return verify;
@@ -249,14 +249,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  786:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
-                    if(yankee) { _fun74940_ip = 1005; continue _fun74940 }
+                    if(yankee) { _fun74950_ip = 1005; continue _fun74950 }
  795:
-                    if(verify) { _fun74940_ip = 803; continue _fun74940 }
+                    if(verify) { _fun74950_ip = 803; continue _fun74950 }
  798:
                     yankee = false;
                     return yankee;
  803:
-                    if(!(offset != papa)) { _fun74940_ip = 832; continue _fun74940 }
+                    if(!(offset != papa)) { _fun74950_ip = 832; continue _fun74950 }
  807:
                     romeo = _closure1_slot1;
                     target = _closure1_slot2;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = romeo.bind(oscar)(yankee);
                     yankee = yankee.bind(oscar)(papa);
  832:
-                    if(!(offset != zulu)) { _fun74940_ip = 872; continue _fun74940 }
+                    if(!(offset != zulu)) { _fun74950_ip = 872; continue _fun74950 }
  836:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return offset;
  993:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(yankee) { _fun74940_ip = 1002; continue _fun74940 }
+                    if(yankee) { _fun74950_ip = 1002; continue _fun74950 }
  999:
                     return offset;
  1002:

@@ -2,20 +2,20 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     entity = function(argFoo) { // Original name: getUnderlyingIOSExceptionRecursively
-        _fun66255: for(var _fun66255_ip = 0; ; ) switch(_fun66255_ip) {
+        _fun66261: for(var _fun66261_ip = 0; ; ) switch(_fun66261_ip) {
  0:
             mike = argFoo;
             entity = mike.userInfo;
             entity = entity.NSUnderlyingError;
             zulu = null;
-            if(!(zulu != entity)) { _fun66255_ip = 51; continue _fun66255 }
+            if(!(zulu != entity)) { _fun66261_ip = 51; continue _fun66261 }
  21:
             report = _closure1_slot0;
             entity = mike.userInfo;
             tango = entity.NSUnderlyingError;
             entity = undefined;
             entity = report.bind(entity)(tango);
-            if(!(zulu == entity)) { _fun66255_ip = 67; continue _fun66255 }
+            if(!(zulu == entity)) { _fun66261_ip = 67; continue _fun66261 }
  51:
             mike = mike.userInfo;
             mike = mike.NSLocalizedDescription;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'utils/ErrorUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getUnderlyingIOSError
-        _fun66256: for(var _fun66256_ip = 0; ; ) switch(_fun66256_ip) {
+        _fun66262: for(var _fun66262_ip = 0; ; ) switch(_fun66262_ip) {
  0:
             entity = argFoo;
             tango = undefined;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu;
             entity = null;
             zulu = entity != zulu;
-            if(!zulu) { _fun66256_ip = 34; continue _fun66256 }
+            if(!zulu) { _fun66262_ip = 34; continue _fun66262 }
  31:
             entity = mike;
  34: // try_end0

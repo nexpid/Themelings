@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/reactions/native/useBurstToggleCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useBurstToggleCoachmark
-        _fun77943: for(var _fun77943_ip = 0; ; ) switch(_fun77943_ip) {
+        _fun77953: for(var _fun77953_ip = 0; ; ) switch(_fun77953_ip) {
  0:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -133,10 +133,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isPremium;
             entity = entity.bind(zulu)(oscar);
-            if(entity) { _fun77943_ip = 89; continue _fun77943 }
+            if(entity) { _fun77953_ip = 89; continue _fun77953 }
  83:
             options = new Array(0);
-            _fun77943_ip = 104; continue _fun77943;
+            _fun77953_ip = 104; continue _fun77953;
  89:
             zulu = _closure1_slot9;
             entity = new Array(1);

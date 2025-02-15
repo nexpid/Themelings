@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun95506: for(var _fun95506_ip = 0; ; ) switch(_fun95506_ip) {
+        _fun95516: for(var _fun95516_ip = 0; ; ) switch(_fun95516_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -17,16 +17,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun95506_ip = 51; continue _fun95506 }
+            if(entity) { _fun95516_ip = 51; continue _fun95516 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun95506_ip = 92; continue _fun95506;
+            _fun95516_ip = 92; continue _fun95516;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun95506_ip = 71; continue _fun95506 }
+            if(oscar) { _fun95516_ip = 71; continue _fun95516 }
  67:
             oscar = new Array(0);
  71:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun95507: for(var _fun95507_ip = 0; ; ) switch(_fun95507_ip) {
+        _fun95517: for(var _fun95517_ip = 0; ; ) switch(_fun95517_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun95507_ip = 76; continue _fun95507;
+            _fun95517_ip = 76; continue _fun95517;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -206,18 +206,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['OVERLAY_INITIALIZE'] = options;
     options = function(argFoo) { // Original name: handleAppConnection
-        _fun95517: for(var _fun95517_ip = 0; ; ) switch(_fun95517_ip) {
+        _fun95527: for(var _fun95527_ip = 0; ; ) switch(_fun95527_ip) {
  0:
             entity = argFoo;
             report = entity.application;
             entity = report.id;
             tango = null;
-            if(!(tango != entity)) { _fun95517_ip = 126; continue _fun95517 }
+            if(!(tango != entity)) { _fun95527_ip = 126; continue _fun95527 }
  19:
             mike = report.id;
             zulu = _closure1_slot7;
             zulu = zulu[mike];
-            if(!(tango == zulu)) { _fun95517_ip = 100; continue _fun95517 }
+            if(!(tango == zulu)) { _fun95527_ip = 100; continue _fun95527 }
  39:
             tango = _closure1_slot7;
             zulu = {};
@@ -249,21 +249,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['RPC_APP_CONNECTED'] = options;
     options = function(argFoo) { // Original name: handleAppAuthenticated
-        _fun95518: for(var _fun95518_ip = 0; ; ) switch(_fun95518_ip) {
+        _fun95528: for(var _fun95528_ip = 0; ; ) switch(_fun95528_ip) {
  0:
             entity = argFoo;
             entity = entity.application;
             mike = entity.id;
             tango = null;
             mike = tango != mike;
-            if(!mike) { _fun95518_ip = 42; continue _fun95518 }
+            if(!mike) { _fun95528_ip = 42; continue _fun95528 }
  22:
             report = _closure1_slot7;
             zulu = entity.id;
             zulu = report[zulu];
             mike = tango != zulu;
  42:
-            if(!mike) { _fun95518_ip = 69; continue _fun95518 }
+            if(!mike) { _fun95528_ip = 69; continue _fun95528 }
  45:
             mike = _closure1_slot7;
             entity = entity.id;
@@ -277,21 +277,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['RPC_APP_AUTHENTICATED'] = options;
     tango = function(argFoo) { // Original name: handleAppDisconnection
-        _fun95519: for(var _fun95519_ip = 0; ; ) switch(_fun95519_ip) {
+        _fun95529: for(var _fun95529_ip = 0; ; ) switch(_fun95529_ip) {
  0:
             entity = argFoo;
             entity = entity.application;
             mike = entity.id;
             tango = null;
             mike = tango != mike;
-            if(!mike) { _fun95519_ip = 42; continue _fun95519 }
+            if(!mike) { _fun95529_ip = 42; continue _fun95529 }
  22:
             report = _closure1_slot7;
             zulu = entity.id;
             zulu = report[zulu];
             mike = tango != zulu;
  42:
-            if(!mike) { _fun95519_ip = 112; continue _fun95519 }
+            if(!mike) { _fun95529_ip = 112; continue _fun95529 }
  45:
             tango = _closure1_slot7;
             zulu = entity.id;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango[zulu];
             tango = zulu.count;
             zulu = 0;
-            if(!(zulu === tango)) { _fun95519_ip = 112; continue _fun95519 }
+            if(!(zulu === tango)) { _fun95529_ip = 112; continue _fun95529 }
  99:
             mike = _closure1_slot7;
             entity = entity.id;

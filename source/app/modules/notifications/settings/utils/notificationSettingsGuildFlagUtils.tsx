@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/notifications/settings/utils/notificationSettingsGuildFlagUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: updateGuildPreset
-        _fun86850: for(var _fun86850_ip = 0; ; ) switch(_fun86850_ip) {
+        _fun86867: for(var _fun86867_ip = 0; ; ) switch(_fun86867_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(entity)(zulu);
             zulu = zulu.Presets;
             zulu = zulu.ALL_MESSAGES;
-            if(!(tango !== zulu)) { _fun86850_ip = 376; continue _fun86850 }
+            if(!(tango !== zulu)) { _fun86867_ip = 376; continue _fun86867 }
  65:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(entity)(zulu);
             zulu = zulu.Presets;
             zulu = zulu.MENTIONS;
-            if(!(tango !== zulu)) { _fun86850_ip = 258; continue _fun86850 }
+            if(!(tango !== zulu)) { _fun86867_ip = 258; continue _fun86867 }
  101:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(entity)(zulu);
             zulu = zulu.Presets;
             zulu = zulu.NOTHING;
-            if(!(tango === zulu)) { _fun86850_ip = 492; continue _fun86850 }
+            if(!(tango === zulu)) { _fun86867_ip = 492; continue _fun86867 }
  137:
             tango = _closure1_slot1;
             verify = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.NotificationLabels;
             zulu = zulu.PresetNothing;
             zulu = report.bind(golf)(oscar, tango, zulu);
-            _fun86850_ip = 492; continue _fun86850;
+            _fun86867_ip = 492; continue _fun86867;
  258:
             tango = _closure1_slot1;
             verify = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.NotificationLabels;
             zulu = zulu.PresetMentions;
             zulu = report.bind(golf)(oscar, tango, zulu);
-            _fun86850_ip = 492; continue _fun86850;
+            _fun86867_ip = 492; continue _fun86867;
  376:
             tango = _closure1_slot1;
             options = _closure1_slot2;

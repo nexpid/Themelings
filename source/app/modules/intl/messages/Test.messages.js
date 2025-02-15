@@ -88,15 +88,6 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         return entity;
     };
     tango['Q+eyqq'] = entity;
-    entity = function(argFoo) { // Original name: HMvECw
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'HMvECw';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['HMvECw'] = entity;
     entity = function(argFoo) { // Original name: rdfRys
         tango = _closure1_slot2;
         zulu = tango.get;
@@ -106,6 +97,15 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         return entity;
     };
     tango['rdfRys'] = entity;
+    entity = function(argFoo) { // Original name: HMvECw
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'HMvECw';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['HMvECw'] = entity;
     entity = function(argFoo) { // Original name: rmps8/
         tango = _closure1_slot2;
         zulu = tango.get;

@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         tango = zulu.impressions;
         zulu = tango.forEach;
         mike = function(argFoo) {
-            _fun35904: for(var _fun35904_ip = 0; ; ) switch(_fun35904_ip) {
+            _fun35911: for(var _fun35911_ip = 0; ; ) switch(_fun35911_ip) {
  0:
                 mike = argFoo;
                 tango = mike.type;
@@ -169,12 +169,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = report.bind(entity)(zulu);
                 zulu = zulu.ImpressionTypes;
                 zulu = zulu.PAGE;
-                if(!(tango !== zulu)) { _fun35904_ip = 69; continue _fun35904 }
+                if(!(tango !== zulu)) { _fun35911_ip = 69; continue _fun35911 }
  49:
                 tango = _closure2_slot0;
                 zulu = mike.name;
                 tango['section'] = zulu;
-                _fun35904_ip = 87; continue _fun35904;
+                _fun35911_ip = 87; continue _fun35911;
  69:
                 zulu = _closure2_slot0;
                 mike = mike.name;

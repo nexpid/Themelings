@@ -32,7 +32,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/getCurrentVoiceChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getCurrentVoiceChannel
-        _fun65627: for(var _fun65627_ip = 0; ; ) switch(_fun65627_ip) {
+        _fun65632: for(var _fun65632_ip = 0; ; ) switch(_fun65632_ip) {
  0:
             report = _closure1_slot2;
             tango = report.getVoiceStateForSession;
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = null;
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun65627_ip = 59; continue _fun65627 }
+            if(tango) { _fun65632_ip = 59; continue _fun65632 }
  54:
             zulu = mike.channelId;
  59:

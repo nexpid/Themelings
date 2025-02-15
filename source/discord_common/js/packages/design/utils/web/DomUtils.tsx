@@ -19,41 +19,41 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/design/utils/web/DomUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: isElement
-        _fun36788: for(var _fun36788_ip = 0; ; ) switch(_fun36788_ip) {
+        _fun36795: for(var _fun36795_ip = 0; ; ) switch(_fun36795_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             entity = null;
-            if(!(entity != zulu)) { _fun36788_ip = 95; continue _fun36788 }
+            if(!(entity != zulu)) { _fun36795_ip = 95; continue _fun36795 }
  12:
             oscar = entity == zulu;
             tango = undefined;
-            if(oscar) { _fun36788_ip = 42; continue _fun36788 }
+            if(oscar) { _fun36795_ip = 42; continue _fun36795 }
  21:
             oscar = zulu.ownerDocument;
             golf = entity == oscar;
             tango = undefined;
-            if(golf) { _fun36788_ip = 42; continue _fun36788 }
+            if(golf) { _fun36795_ip = 42; continue _fun36795 }
  36:
             tango = oscar.defaultView;
  42:
-            if(!(entity != tango)) { _fun36788_ip = 91; continue _fun36788 }
+            if(!(entity != tango)) { _fun36795_ip = 91; continue _fun36795 }
  46:
             oscar = entity == mike;
             report = undefined;
-            if(oscar) { _fun36788_ip = 60; continue _fun36788 }
+            if(oscar) { _fun36795_ip = 60; continue _fun36795 }
  55:
             report = mike.name;
  60:
             oscar = entity != report;
             mike = 'Element';
-            if(!oscar) { _fun36788_ip = 74; continue _fun36788 }
+            if(!oscar) { _fun36795_ip = 74; continue _fun36795 }
  71:
             mike = report;
  74:
             mike = tango[mike];
             entity = entity != mike;
-            if(!entity) { _fun36788_ip = 89; continue _fun36788 }
+            if(!entity) { _fun36795_ip = 89; continue _fun36795 }
  85:
             entity = zulu instanceof mike;
  89:
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isElement'] = tango;
     mike = function(argFoo) { // Original name: cssValueToNumber
-        _fun36789: for(var _fun36789_ip = 0; ; ) switch(_fun36789_ip) {
+        _fun36796: for(var _fun36796_ip = 0; ; ) switch(_fun36796_ip) {
  0:
             entity = global;
             report = entity.parseInt;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.isNaN;
             zulu = entity.bind(zulu)(mike);
             entity = 0;
-            if(zulu) { _fun36789_ip = 41; continue _fun36789 }
+            if(zulu) { _fun36796_ip = 41; continue _fun36796 }
  38:
             entity = mike;
  41:

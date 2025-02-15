@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: toggleFeature
-        _fun109297: for(var _fun109297_ip = 0; ; ) switch(_fun109297_ip) {
+        _fun109303: for(var _fun109303_ip = 0; ; ) switch(_fun109303_ip) {
  0:
             tango = argFoo;
             oscar = argBar;
             entity = _closure1_slot8;
-            if(oscar) { _fun109297_ip = 29; continue _fun109297 }
+            if(oscar) { _fun109303_ip = 29; continue _fun109303 }
  16:
             mike = ~tango;
             mike = entity & mike;
             _closure1_slot8 = mike;
-            _fun109297_ip = 37; continue _fun109297;
+            _fun109303_ip = 37; continue _fun109303;
  29:
             entity = entity | tango;
             _closure1_slot8 = entity;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.A11Y_FEATURE_MAP;
             report = mike[tango];
             mike = null;
-            if(!(mike != report)) { _fun109297_ip = 127; continue _fun109297 }
+            if(!(mike != report)) { _fun109303_ip = 127; continue _fun109303 }
  75:
             options = _closure1_slot1;
             mike = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['getActiveFeatures'] = golf;
     golf = function(argFoo) { // Original name: handleReduceMotionChanged
-        _fun109300: for(var _fun109300_ip = 0; ; ) switch(_fun109300_ip) {
+        _fun109306: for(var _fun109306_ip = 0; ; ) switch(_fun109306_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot9;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(entity)(mike);
             zulu = tango.systemPrefersReducedMotionChanged;
             mike = 'no-preference';
-            if(!report) { _fun109300_ip = 67; continue _fun109300 }
+            if(!report) { _fun109306_ip = 67; continue _fun109306 }
  63:
             mike = 'reduce';
  67:
@@ -231,15 +231,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['handleInvertColorsChanged'] = golf;
     golf = function(argFoo) { // Original name: handlePreferredColorSchemeChanged
-        _fun109305: for(var _fun109305_ip = 0; ; ) switch(_fun109305_ip) {
+        _fun109311: for(var _fun109311_ip = 0; ; ) switch(_fun109311_ip) {
  0:
             entity = argFoo;
             mike = entity.colorScheme;
             entity = 'dark';
-            if(!(entity !== mike)) { _fun109305_ip = 109; continue _fun109305 }
+            if(!(entity !== mike)) { _fun109311_ip = 109; continue _fun109311 }
  17:
             entity = 'light';
-            if(!(entity !== mike)) { _fun109305_ip = 66; continue _fun109305 }
+            if(!(entity !== mike)) { _fun109311_ip = 66; continue _fun109311 }
  25:
             tango = _closure1_slot9;
             entity = _closure1_slot7;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.bind(zulu)(report, mike);
             entity = entity.PREFERS_COLOR_SCHEME_LIGHT;
             entity = tango.bind(zulu)(entity, mike);
-            _fun109305_ip = 150; continue _fun109305;
+            _fun109311_ip = 150; continue _fun109311;
  66:
             tango = _closure1_slot9;
             entity = _closure1_slot7;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.PREFERS_COLOR_SCHEME_LIGHT;
             entity = true;
             entity = tango.bind(zulu)(mike, entity);
-            _fun109305_ip = 150; continue _fun109305;
+            _fun109311_ip = 150; continue _fun109311;
  109:
             tango = _closure1_slot9;
             entity = _closure1_slot7;
@@ -307,18 +307,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['handleAccessibilityStoreChanged'] = golf;
     tango = function(argFoo) { // Original name: handleAppStateChange
-        _fun109307: for(var _fun109307_ip = 0; ; ) switch(_fun109307_ip) {
+        _fun109313: for(var _fun109313_ip = 0; ; ) switch(_fun109313_ip) {
  0:
             zulu = 'active';
             mike = argFoo;
-            if(!(zulu === mike)) { _fun109307_ip = 74; continue _fun109307 }
+            if(!(zulu === mike)) { _fun109313_ip = 74; continue _fun109313 }
  13:
             zulu = _closure1_slot3;
             mike = zulu.isReduceMotionEnabled;
             report = mike.bind(zulu)();
             tango = report.then;
             mike = function(argFoo) {
-                _fun109308: for(var _fun109308_ip = 0; ; ) switch(_fun109308_ip) {
+                _fun109314: for(var _fun109314_ip = 0; ; ) switch(_fun109314_ip) {
  0:
                     report = argFoo;
                     tango = _closure1_slot9;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = zulu.bind(entity)(mike);
                     zulu = tango.systemPrefersReducedMotionChanged;
                     mike = 'no-preference';
-                    if(!report) { _fun109308_ip = 67; continue _fun109308 }
+                    if(!report) { _fun109314_ip = 67; continue _fun109314 }
  63:
                     mike = 'reduce';
  67:

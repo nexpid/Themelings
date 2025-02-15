@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: MessageNotification
-        _fun86903: for(var _fun86903_ip = 0; ; ) switch(_fun86903_ip) {
+        _fun86920: for(var _fun86920_ip = 0; ; ) switch(_fun86920_ip) {
  0:
             entity = argFoo;
             verify = entity.notification;
@@ -76,25 +76,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             report = offset == foxtrot;
             entity = undefined;
-            if(report) { _fun86903_ip = 119; continue _fun86903 }
+            if(report) { _fun86920_ip = 119; continue _fun86920 }
  113:
             entity = foxtrot.colorString;
  119:
             report = offset != entity;
             romeo = undefined;
-            if(!report) { _fun86903_ip = 131; continue _fun86903 }
+            if(!report) { _fun86920_ip = 131; continue _fun86920 }
  128:
             romeo = entity;
  131:
             entity = 'username';
             report = undefined;
-            if(!(entity === zulu)) { _fun86903_ip = 144; continue _fun86903 }
+            if(!(entity === zulu)) { _fun86920_ip = 144; continue _fun86920 }
  141:
             report = romeo;
  144:
             entity = offset != report;
             oscar = undefined;
-            if(!entity) { _fun86903_ip = 162; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 162; continue _fun86920 }
  153:
             entity = {};
             entity['color'] = report;
@@ -102,10 +102,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  162:
             entity = 'dot';
             report = undefined;
-            if(!(entity === zulu)) { _fun86903_ip = 231; continue _fun86903 }
+            if(!(entity === zulu)) { _fun86920_ip = 231; continue _fun86920 }
  172:
             report = undefined;
-            if(!(tango !== romeo)) { _fun86903_ip = 231; continue _fun86903 }
+            if(!(tango !== romeo)) { _fun86920_ip = 231; continue _fun86920 }
  178:
             golf = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -136,27 +136,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.length;
             entity = 0;
             entity = entity === zulu;
-            if(!entity) { _fun86903_ip = 312; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 312; continue _fun86920 }
  302:
             zulu = mike.interaction;
             entity = offset !== zulu;
  312:
-            if(!entity) { _fun86903_ip = 325; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 325; continue _fun86920 }
  315:
             zulu = mike.interaction;
             entity = tango !== zulu;
  325:
-            if(!entity) { _fun86903_ip = 338; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 338; continue _fun86920 }
  328:
             zulu = mike.activityInstance;
             entity = offset !== zulu;
  338:
-            if(!entity) { _fun86903_ip = 351; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 351; continue _fun86920 }
  341:
             zulu = mike.activityInstance;
             entity = tango !== zulu;
  351:
-            if(!entity) { _fun86903_ip = 474; continue _fun86903 }
+            if(!entity) { _fun86920_ip = 474; continue _fun86920 }
  354:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.interaction;
             output = offset == foxtrot;
             backup = undefined;
-            if(output) { _fun86903_ip = 441; continue _fun86903 }
+            if(output) { _fun86920_ip = 441; continue _fun86920 }
  436:
             backup = foxtrot.user;
  441:
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = verify.guild;
             kilo = offset == yankee;
             offset = undefined;
-            if(kilo) { _fun86903_ip = 558; continue _fun86903 }
+            if(kilo) { _fun86920_ip = 558; continue _fun86920 }
  553:
             offset = yankee.id;
  558:

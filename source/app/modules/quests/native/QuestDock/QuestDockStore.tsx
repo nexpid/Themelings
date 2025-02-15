@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun91288: for(var _fun91288_ip = 0; ; ) switch(_fun91288_ip) {
+        _fun91317: for(var _fun91317_ip = 0; ; ) switch(_fun91317_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun91288_ip = 51; continue _fun91288 }
+            if(entity) { _fun91317_ip = 51; continue _fun91317 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun91288_ip = 92; continue _fun91288;
+            _fun91317_ip = 92; continue _fun91317;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun91288_ip = 71; continue _fun91288 }
+            if(oscar) { _fun91317_ip = 71; continue _fun91317 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun91289: for(var _fun91289_ip = 0; ; ) switch(_fun91289_ip) {
+        _fun91318: for(var _fun91318_ip = 0; ; ) switch(_fun91318_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun91289_ip = 76; continue _fun91289;
+            _fun91318_ip = 76; continue _fun91318;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -147,11 +147,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun91294: for(var _fun91294_ip = 0; ; ) switch(_fun91294_ip) {
+            _fun91323: for(var _fun91323_ip = 0; ; ) switch(_fun91323_ip) {
  0:
                 entity = argFoo;
                 mike = null;
-                if(!(mike != entity)) { _fun91294_ip = 84; continue _fun91294 }
+                if(!(mike != entity)) { _fun91323_ip = 84; continue _fun91323 }
  9:
                 entity = entity.questDockSoftDismissedAt;
                 _closure1_slot3 = entity;
@@ -165,10 +165,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot3;
                 entity = zulu.bind(tango)(entity);
                 zulu = _closure1_slot9;
-                if(entity) { _fun91294_ip = 74; continue _fun91294 }
+                if(entity) { _fun91323_ip = 74; continue _fun91323 }
  66:
                 entity = zulu.COLLAPSED;
-                _fun91294_ip = 80; continue _fun91294;
+                _fun91323_ip = 80; continue _fun91323;
  74:
                 entity = zulu.SOFT_DISMISSED;
  80:
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handlePrevRestingQuestDockModeUpdate
-        _fun91299: for(var _fun91299_ip = 0; ; ) switch(_fun91299_ip) {
+        _fun91328: for(var _fun91328_ip = 0; ; ) switch(_fun91328_ip) {
  0:
             mike = argFoo;
             tango = mike.mode;
@@ -241,13 +241,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango !== entity;
             tango = mike.mode;
             _closure1_slot2 = tango;
-            if(!entity) { _fun91299_ip = 73; continue _fun91299 }
+            if(!entity) { _fun91328_ip = 73; continue _fun91328 }
  31:
             report = mike.mode;
             mike = _closure1_slot9;
             tango = mike.SOFT_DISMISSED;
             mike = null;
-            if(!(report === tango)) { _fun91299_ip = 69; continue _fun91299 }
+            if(!(report === tango)) { _fun91328_ip = 69; continue _fun91328 }
  52:
             tango = global;
             report = tango.Date;

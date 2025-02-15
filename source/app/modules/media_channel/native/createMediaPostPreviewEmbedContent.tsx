@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_channel/native/createMediaPostPreviewEmbedContent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createMediaPostPreviewEmbedContent
-        _fun72004: for(var _fun72004_ip = 0; ; ) switch(_fun72004_ip) {
+        _fun72010: for(var _fun72010_ip = 0; ; ) switch(_fun72010_ip) {
  0:
             golf = arguments[1];
             verify = undefined;
-            if(!(golf === verify)) { _fun72004_ip = 11; continue _fun72004 }
+            if(!(golf === verify)) { _fun72010_ip = 11; continue _fun72010 }
  9:
             golf = false;
  11:
@@ -80,25 +80,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             oscar = mike.bind(tango)(entity);
             entity = null;
-            if(!(entity != oscar)) { _fun72004_ip = 1461; continue _fun72004 }
+            if(!(entity != oscar)) { _fun72010_ip = 1462; continue _fun72010 }
  57:
             tango = _closure1_slot10;
             mike = tango.getEmbedFetchState;
             tango = mike.bind(tango)(oscar);
             mike = _closure1_slot11;
             mike = mike.FETCHED;
-            if(!(tango === mike)) { _fun72004_ip = 1459; continue _fun72004 }
+            if(!(tango === mike)) { _fun72010_ip = 1460; continue _fun72010 }
  89:
             tango = _closure1_slot10;
             mike = tango.getMediaPostEmbed;
             mike = mike.bind(tango)(oscar);
             tango = entity == mike;
             backup = undefined;
-            if(tango) { _fun72004_ip = 119; continue _fun72004 }
+            if(tango) { _fun72010_ip = 119; continue _fun72010 }
  113:
             backup = mike.media;
  119:
-            if(!(entity != backup)) { _fun72004_ip = 1457; continue _fun72004 }
+            if(!(entity != backup)) { _fun72010_ip = 1458; continue _fun72010 }
  126:
             oscar = _closure1_slot7;
             tango = oscar.getGuild;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.getGuildId;
             options = mike.bind(tango)();
             oscar = entity != yankee;
-            if(!oscar) { _fun72004_ip = 253; continue _fun72004 }
+            if(!oscar) { _fun72010_ip = 253; continue _fun72010 }
  222:
             tango = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -143,15 +143,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['selectedGuildId'] = options;
             mike['canAccess'] = oscar;
             oscar = tango.bind(report)(mike);
-            if(!(entity != oscar)) { _fun72004_ip = 1455; continue _fun72004 }
+            if(!(entity != oscar)) { _fun72010_ip = 1456; continue _fun72010 }
  323:
             mike = oscar.authorName;
-            if(!(entity != mike)) { _fun72004_ip = 571; continue _fun72004 }
+            if(!(entity != mike)) { _fun72010_ip = 571; continue _fun72010 }
  336:
             mike = oscar.channelName;
-            if(!(entity != mike)) { _fun72004_ip = 571; continue _fun72004 }
+            if(!(entity != mike)) { _fun72010_ip = 571; continue _fun72010 }
  349:
-            if(!(entity != romeo)) { _fun72004_ip = 571; continue _fun72004 }
+            if(!(entity != romeo)) { _fun72010_ip = 571; continue _fun72010 }
  356:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -163,18 +163,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.bind(report)(romeo, mike);
             tango = entity == report;
             mike = undefined;
-            if(tango) { _fun72004_ip = 409; continue _fun72004 }
+            if(tango) { _fun72010_ip = 409; continue _fun72010 }
  403:
             mike = report.colorString;
  409:
             mike = entity != mike;
             yankee = undefined;
-            if(!mike) { _fun72004_ip = 442; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 442; continue _fun72010 }
  418:
             tango = _closure1_slot4;
             options = entity == report;
             mike = undefined;
-            if(options) { _fun72004_ip = 437; continue _fun72004 }
+            if(options) { _fun72010_ip = 437; continue _fun72010 }
  431:
             mike = report.colorString;
  437:
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = oscar.channelName;
             mike['channelName'] = offset;
             report = report.bind(options)(tango, mike);
-            _fun72004_ip = 641; continue _fun72004;
+            _fun72010_ip = 641; continue _fun72010;
  571:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -227,13 +227,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  641:
             tango = oscar.canAccess;
             mike = false;
-            if(!(mike !== tango)) { _fun72004_ip = 674; continue _fun72004 }
+            if(!(mike !== tango)) { _fun72010_ip = 674; continue _fun72010 }
  653:
             tango = _closure1_slot4;
             mike = _closure1_slot12;
             mike = mike.BRAND_500;
             tango = tango.bind(verify)(mike);
-            _fun72004_ip = 693; continue _fun72004;
+            _fun72010_ip = 693; continue _fun72010;
  674:
             options = _closure1_slot4;
             mike = _closure1_slot12;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  693:
             mike = oscar.coverImage;
             options = entity != mike;
-            if(!options) { _fun72004_ip = 743; continue _fun72004 }
+            if(!options) { _fun72010_ip = 743; continue _fun72010 }
  706:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -255,20 +255,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  743:
             mike = oscar.coverImage;
             mike = entity != mike;
-            if(!mike) { _fun72004_ip = 765; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 765; continue _fun72010 }
  756:
             offset = oscar.shouldShowBlurredThumbnailImage;
             mike = !offset;
  765:
-            if(!mike) { _fun72004_ip = 771; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 771; continue _fun72010 }
  768:
             mike = options;
  771:
-            if(!mike) { _fun72004_ip = 777; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 777; continue _fun72010 }
  774:
             mike = golf;
  777:
-            if(!mike) { _fun72004_ip = 821; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 821; continue _fun72010 }
  780:
             offset = oscar.coverImage;
             mike = global;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar['coverImage'] = mike;
  821:
             mike = oscar.shouldShowBlurredThumbnailImage;
-            if(mike) { _fun72004_ip = 1370; continue _fun72004 }
+            if(mike) { _fun72010_ip = 1370; continue _fun72010 }
  833:
             options = _closure1_slot5;
             golf = options.get;
@@ -295,10 +295,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar.contentScanVersion;
             offset = golf.bind(offset)(mike);
             mike = oscar.shouldContainMediaWithBackground;
-            if(!mike) { _fun72004_ip = 912; continue _fun72004 }
+            if(!mike) { _fun72010_ip = 912; continue _fun72010 }
  899:
             mike = oscar.coverImage;
-            if(!(entity == mike)) { _fun72004_ip = 1118; continue _fun72004 }
+            if(!(entity == mike)) { _fun72010_ip = 1118; continue _fun72010 }
  912:
             mike = {};
             echo = mike;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = '';
             golf = true;
             romeo = yankee;
-            if(!(golf === foxtrot)) { _fun72004_ip = 1017; continue _fun72004 }
+            if(!(golf === foxtrot)) { _fun72010_ip = 1017; continue _fun72010 }
  952:
             kilo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  1017:
             golf = 'spoiler';
             mike[golf] = romeo;
-            if(!options) { _fun72004_ip = 1084; continue _fun72004 }
+            if(!options) { _fun72010_ip = 1084; continue _fun72010 }
  1029:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike[golf] = offset;
             golf = 'ctaButtonColor';
             mike[golf] = tango;
-            _fun72004_ip = 1368; continue _fun72004;
+            _fun72010_ip = 1368; continue _fun72010;
  1118:
             golf = {};
             echo = golf;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = '';
             romeo = true;
             foxtrot = yankee;
-            if(!(romeo === backup)) { _fun72004_ip = 1223; continue _fun72004 }
+            if(!(romeo === backup)) { _fun72010_ip = 1223; continue _fun72010 }
  1158:
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  1223:
             romeo = 'spoiler';
             golf[romeo] = foxtrot;
-            if(!options) { _fun72004_ip = 1290; continue _fun72004 }
+            if(!options) { _fun72010_ip = 1290; continue _fun72010 }
  1235:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -436,13 +436,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = 'ctaButtonColor';
             mike[zulu] = tango;
             return mike;
- 1455:
+ 1456:
             return entity;
- 1457:
+ 1458:
             return entity;
- 1459:
+ 1460:
             return entity;
- 1461:
+ 1462:
             return entity;
         }
     };

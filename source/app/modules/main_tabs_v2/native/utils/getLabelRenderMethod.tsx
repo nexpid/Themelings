@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: TabLabel
-        _fun118190: for(var _fun118190_ip = 0; ; ) switch(_fun118190_ip) {
+        _fun118196: for(var _fun118196_ip = 0; ; ) switch(_fun118196_ip) {
  0:
             entity = argFoo;
             offset = entity.focused;
@@ -25,16 +25,16 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = entity.Text;
             entity = {'variant': 'text-xxs/semibold', 'lineClamp': 1, 'color': null, 'style': null, 'maxFontSizeMultiplier': 2};
             golf = 'interactive-normal';
-            if(!offset) { _fun118190_ip = 95; continue _fun118190 }
+            if(!offset) { _fun118196_ip = 95; continue _fun118196 }
  89:
             golf = 'interactive-active';
  95:
             entity['color'] = golf;
             golf = 'beside-icon';
-            if(!(golf !== verify)) { _fun118190_ip = 119; continue _fun118190 }
+            if(!(golf !== verify)) { _fun118196_ip = 119; continue _fun118196 }
  111:
             golf = oscar.titleBelow;
-            _fun118190_ip = 125; continue _fun118190;
+            _fun118196_ip = 125; continue _fun118196;
  119:
             golf = oscar.titleBeside;
  125:

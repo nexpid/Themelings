@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot13 = tango;
     golf = options.memo;
     tango = function(argFoo) {
-        _fun115366: for(var _fun115366_ip = 0; ; ) switch(_fun115366_ip) {
+        _fun115372: for(var _fun115372_ip = 0; ; ) switch(_fun115372_ip) {
  0:
             entity = argFoo;
             verify = entity.text;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.imageSource;
             report = entity.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115366_ip = 33; continue _fun115366 }
+            if(!(report === tango)) { _fun115372_ip = 33; continue _fun115372 }
  31:
             report = false;
  33:
@@ -184,14 +184,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowActions.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: HappeningNowCardCreateChannel
-        _fun115367: for(var _fun115367_ip = 0; ; ) switch(_fun115367_ip) {
+        _fun115373: for(var _fun115373_ip = 0; ; ) switch(_fun115373_ip) {
  0:
             mike = argFoo;
             options = mike.guildId;
             var _closure2_slot0 = options;
             report = mike.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115367_ip = 28; continue _fun115367 }
+            if(!(report === tango)) { _fun115373_ip = 28; continue _fun115373 }
  26:
             report = false;
  28:
@@ -250,14 +250,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['HappeningNowCardCreateChannel'] = tango;
     tango = function(argFoo) { // Original name: HappeningNowCardCustomizeGuild
-        _fun115369: for(var _fun115369_ip = 0; ; ) switch(_fun115369_ip) {
+        _fun115375: for(var _fun115375_ip = 0; ; ) switch(_fun115375_ip) {
  0:
             mike = argFoo;
             options = mike.guildId;
             var _closure2_slot0 = options;
             report = mike.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115369_ip = 28; continue _fun115369 }
+            if(!(report === tango)) { _fun115375_ip = 28; continue _fun115375 }
  26:
             report = false;
  28:
@@ -301,14 +301,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['HappeningNowCardCustomizeGuild'] = tango;
     tango = function(argFoo) { // Original name: HappeningNowCardInvite
-        _fun115371: for(var _fun115371_ip = 0; ; ) switch(_fun115371_ip) {
+        _fun115377: for(var _fun115377_ip = 0; ; ) switch(_fun115377_ip) {
  0:
             mike = argFoo;
             options = mike.guildId;
             var _closure2_slot0 = options;
             report = mike.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115371_ip = 28; continue _fun115371 }
+            if(!(report === tango)) { _fun115377_ip = 28; continue _fun115377 }
  26:
             report = false;
  28:
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun115372: for(var _fun115372_ip = 0; ; ) switch(_fun115372_ip) {
+                _fun115378: for(var _fun115378_ip = 0; ; ) switch(_fun115378_ip) {
  0:
                     tango = _closure1_slot7;
                     zulu = tango.getGuild;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.getChannelId;
                     tango = zulu.bind(tango)(golf);
                     zulu = null;
-                    if(!(zulu != oscar)) { _fun115372_ip = 134; continue _fun115372 }
+                    if(!(zulu != oscar)) { _fun115378_ip = 134; continue _fun115378 }
  60:
                     options = _closure1_slot15;
                     zulu = _closure1_slot9;
@@ -385,14 +385,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['HappeningNowCardInvite'] = tango;
     mike = function(argFoo) { // Original name: HappeningNowStudentHubAddServer
-        _fun115373: for(var _fun115373_ip = 0; ; ) switch(_fun115373_ip) {
+        _fun115379: for(var _fun115379_ip = 0; ; ) switch(_fun115379_ip) {
  0:
             mike = argFoo;
             options = mike.guildId;
             var _closure2_slot0 = options;
             report = mike.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115373_ip = 28; continue _fun115373 }
+            if(!(report === tango)) { _fun115379_ip = 28; continue _fun115379 }
  26:
             report = false;
  28:
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun115374: for(var _fun115374_ip = 0; ; ) switch(_fun115374_ip) {
+                _fun115380: for(var _fun115380_ip = 0; ; ) switch(_fun115380_ip) {
  0:
                     tango = _closure1_slot7;
                     zulu = tango.getGuild;
@@ -412,11 +412,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = zulu.bind(tango)(oscar);
                     oscar = null;
                     zulu = oscar != report;
-                    if(!zulu) { _fun115374_ip = 52; continue _fun115374 }
+                    if(!zulu) { _fun115380_ip = 52; continue _fun115380 }
  48:
                     zulu = oscar != tango;
  52:
-                    if(!zulu) { _fun115374_ip = 144; continue _fun115374 }
+                    if(!zulu) { _fun115380_ip = 144; continue _fun115380 }
  55:
                     golf = _closure1_slot15;
                     zulu = _closure1_slot9;

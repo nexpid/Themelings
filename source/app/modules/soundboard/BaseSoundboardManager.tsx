@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun110086: for(var _fun110086_ip = 0; ; ) switch(_fun110086_ip) {
+        _fun110092: for(var _fun110092_ip = 0; ; ) switch(_fun110092_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -17,16 +17,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun110086_ip = 51; continue _fun110086 }
+            if(entity) { _fun110092_ip = 51; continue _fun110092 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun110086_ip = 92; continue _fun110086;
+            _fun110092_ip = 92; continue _fun110092;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun110086_ip = 71; continue _fun110086 }
+            if(oscar) { _fun110092_ip = 71; continue _fun110092 }
  67:
             oscar = new Array(0);
  71:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun110087: for(var _fun110087_ip = 0; ; ) switch(_fun110087_ip) {
+        _fun110093: for(var _fun110093_ip = 0; ; ) switch(_fun110093_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun110087_ip = 76; continue _fun110087;
+            _fun110093_ip = 76; continue _fun110093;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -147,12 +147,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['_stopAndClearSounds'] = zulu;
             zulu = function() {
-                _fun110094: for(var _fun110094_ip = 0; ; ) switch(_fun110094_ip) {
+                _fun110100: for(var _fun110100_ip = 0; ; ) switch(_fun110100_ip) {
  0:
                     mike = _closure1_slot8;
                     entity = mike.isDeaf;
                     entity = entity.bind(mike)();
-                    if(!entity) { _fun110094_ip = 37; continue _fun110094 }
+                    if(!entity) { _fun110100_ip = 37; continue _fun110100 }
  20:
                     mike = _closure3_slot0;
                     entity = mike._stopAndClearSounds;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['_handleToggleSelfDeafened'] = zulu;
             zulu = function(argFoo) {
-                _fun110095: for(var _fun110095_ip = 0; ; ) switch(_fun110095_ip) {
+                _fun110101: for(var _fun110101_ip = 0; ; ) switch(_fun110101_ip) {
  0:
                     entity = argFoo;
                     oscar = entity.soundId;
@@ -172,12 +172,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = entity.userId;
                     zulu = entity.channelId;
                     entity = null;
-                    if(!(entity != oscar)) { _fun110095_ip = 52; continue _fun110095 }
+                    if(!(entity != oscar)) { _fun110101_ip = 52; continue _fun110101 }
  31:
                     mike = _closure1_slot7;
                     entity = mike.getId;
                     entity = entity.bind(mike)();
-                    if(!(tango === entity)) { _fun110095_ip = 56; continue _fun110095 }
+                    if(!(tango === entity)) { _fun110101_ip = 56; continue _fun110101 }
  52:
                     entity = undefined;
                     return entity;

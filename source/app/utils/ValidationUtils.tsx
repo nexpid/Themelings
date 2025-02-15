@@ -49,18 +49,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     mike['isPhoneNumber'] = tango;
     tango = function(argFoo) { // Original name: isUserTagLike
-        _fun67463: for(var _fun67463_ip = 0; ; ) switch(_fun67463_ip) {
+        _fun67469: for(var _fun67469_ip = 0; ; ) switch(_fun67469_ip) {
  0:
             report = _closure1_slot3;
             tango = report.exec;
             zulu = argFoo;
             tango = tango.bind(report)(zulu);
             zulu = null;
-            if(!(zulu != tango)) { _fun67463_ip = 41; continue _fun67463 }
+            if(!(zulu != tango)) { _fun67469_ip = 41; continue _fun67469 }
  29:
             report = tango.length;
             zulu = 1;
-            if(!(!(report > zulu))) { _fun67463_ip = 45; continue _fun67463 }
+            if(!(!(report > zulu))) { _fun67469_ip = 45; continue _fun67469 }
  41:
             report = false;
             return report;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.includes;
             mike = mike.bind(zulu)(tango);
             entity = !entity;
-            if(!entity) { _fun67463_ip = 98; continue _fun67463 }
+            if(!entity) { _fun67469_ip = 98; continue _fun67469 }
  95:
             entity = !mike;
  98:

@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     backup = romeo.TextVariantsFlat;
     foxtrot = backup.map;
     romeo = function(argFoo) {
-        _fun47794: for(var _fun47794_ip = 0; ; ) switch(_fun47794_ip) {
+        _fun47801: for(var _fun47801_ip = 0; ; ) switch(_fun47801_ip) {
  0:
             report = argFoo;
             zulu = report.name;
             options = null;
             mike = 'code';
             entity = null;
-            if(!(mike !== zulu)) { _fun47794_ip = 206; continue _fun47794 }
+            if(!(mike !== zulu)) { _fun47801_ip = 206; continue _fun47801 }
  23:
             zulu = report.name;
             mike = new Array(2);
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['lineHeight'] = tango;
             oscar = report.uppercase;
             tango = 'none';
-            if(!oscar) { _fun47794_ip = 76; continue _fun47794 }
+            if(!oscar) { _fun47801_ip = 76; continue _fun47801 }
  72:
             tango = 'uppercase';
  76:
@@ -147,12 +147,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 'letterSpacing';
             oscar = tango in report;
             tango = undefined;
-            if(!oscar) { _fun47794_ip = 194; continue _fun47794 }
+            if(!oscar) { _fun47801_ip = 194; continue _fun47801 }
  166:
             oscar = report.letterSpacing;
             oscar = options != oscar;
             tango = undefined;
-            if(!oscar) { _fun47794_ip = 194; continue _fun47794 }
+            if(!oscar) { _fun47801_ip = 194; continue _fun47801 }
  181:
             oscar = report.letterSpacing;
             report = 10;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(report);
     verify = offset.createStyles;
     report = function(argFoo, argBar) {
-        _fun47795: for(var _fun47795_ip = 0; ; ) switch(_fun47795_ip) {
+        _fun47802: for(var _fun47802_ip = 0; ; ) switch(_fun47802_ip) {
  0:
             golf = argFoo;
             entity = {};
@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             report = 'none';
             tango = undefined;
-            if(!(report !== golf)) { _fun47795_ip = 108; continue _fun47795 }
+            if(!(report !== golf)) { _fun47802_ip = 108; continue _fun47802 }
  19:
             report = 'always-white';
-            if(!(report !== golf)) { _fun47795_ip = 71; continue _fun47795 }
+            if(!(report !== golf)) { _fun47802_ip = 71; continue _fun47802 }
  29:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot6;
             report = report[golf];
             report = oscar[report];
-            _fun47795_ip = 105; continue _fun47795;
+            _fun47802_ip = 105; continue _fun47802;
  71:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['color'] = tango;
             tango = argBar;
             zulu = undefined;
-            if(!tango) { _fun47795_ip = 130; continue _fun47795 }
+            if(!tango) { _fun47802_ip = 130; continue _fun47802 }
  120:
             zulu = ['tabular-nums'];
  130:
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot11 = report;
     report = options.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun47796: for(var _fun47796_ip = 0; ; ) switch(_fun47796_ip) {
+        _fun47803: for(var _fun47803_ip = 0; ; ) switch(_fun47803_ip) {
  0:
             verify = argFoo;
             romeo = verify.variant;
@@ -237,17 +237,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.ellipsizeMode;
             foxtrot = verify.tabularNumbers;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun47796_ip = 44; continue _fun47796 }
+            if(!(foxtrot === tango)) { _fun47803_ip = 44; continue _fun47803 }
  42:
             foxtrot = false;
  44:
             entity = verify.animated;
-            if(!(entity === tango)) { _fun47796_ip = 56; continue _fun47796 }
+            if(!(entity === tango)) { _fun47803_ip = 56; continue _fun47803 }
  54:
             entity = false;
  56:
             mike = verify.experimental_useNativeText;
-            if(!(mike === tango)) { _fun47796_ip = 68; continue _fun47796 }
+            if(!(mike === tango)) { _fun47803_ip = 68; continue _fun47803 }
  66:
             mike = false;
  68:
@@ -263,21 +263,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot11;
             kilo = oscar != backup;
             zulu = 'text-normal';
-            if(!kilo) { _fun47796_ip = 128; continue _fun47796 }
+            if(!kilo) { _fun47803_ip = 128; continue _fun47803 }
  125:
             zulu = backup;
  128:
             yankee = yankee.bind(tango)(zulu, foxtrot);
-            if(mike) { _fun47796_ip = 152; continue _fun47796 }
+            if(mike) { _fun47803_ip = 152; continue _fun47803 }
  137:
-            if(entity) { _fun47796_ip = 146; continue _fun47796 }
+            if(entity) { _fun47803_ip = 146; continue _fun47803 }
  140:
             zulu = _closure1_slot3;
-            _fun47796_ip = 150; continue _fun47796;
+            _fun47803_ip = 150; continue _fun47803;
  146:
             zulu = _closure1_slot5;
  150:
-            _fun47796_ip = 178; continue _fun47796;
+            _fun47803_ip = 178; continue _fun47803;
  152:
             mike = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['numberOfLines'] = options;
             options = oscar != golf;
             oscar = 'tail';
-            if(!options) { _fun47796_ip = 236; continue _fun47796 }
+            if(!options) { _fun47803_ip = 236; continue _fun47803 }
  233:
             oscar = golf;
  236:

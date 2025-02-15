@@ -53,25 +53,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = report.HUB_WAITLIST_SIGNUP;
         tango['event'] = report;
         report = function(argFoo) { // Original name: properties
-            _fun93709: for(var _fun93709_ip = 0; ; ) switch(_fun93709_ip) {
+            _fun93734: for(var _fun93734_ip = 0; ; ) switch(_fun93734_ip) {
  0:
                 mike = argFoo;
                 entity = null;
                 tango = entity == mike;
                 zulu = undefined;
                 report = undefined;
-                if(tango) { _fun93709_ip = 38; continue _fun93709 }
+                if(tango) { _fun93734_ip = 38; continue _fun93734 }
  16:
                 mike = mike.body;
                 tango = entity == mike;
                 report = undefined;
-                if(tango) { _fun93709_ip = 38; continue _fun93709 }
+                if(tango) { _fun93734_ip = 38; continue _fun93734 }
  30:
                 report = mike.email_domain;
  38:
                 entity = entity != report;
                 tango = false;
-                if(!entity) { _fun93709_ip = 87; continue _fun93709 }
+                if(!entity) { _fun93734_ip = 87; continue _fun93734 }
  47:
                 mike = report.split;
                 entity = '.';
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun93712: for(var _fun93712_ip = 0; ; ) switch(_fun93712_ip) {
+                _fun93737: for(var _fun93737_ip = 0; ; ) switch(_fun93737_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun93712_ip = 189; continue _fun93712 }
+                    if(mike) { _fun93737_ip = 189; continue _fun93737 }
  10:
                     zulu = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -149,19 +149,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.HUB_EMAIL_VERIFY_SEND;
                     report['event'] = oscar;
                     oscar = function(argFoo) { // Original name: properties
-                        _fun93713: for(var _fun93713_ip = 0; ; ) switch(_fun93713_ip) {
+                        _fun93738: for(var _fun93738_ip = 0; ; ) switch(_fun93738_ip) {
  0:
                             entity = argFoo;
                             mike = null;
                             report = mike == entity;
                             zulu = undefined;
                             tango = undefined;
-                            if(report) { _fun93713_ip = 36; continue _fun93713 }
+                            if(report) { _fun93738_ip = 36; continue _fun93738 }
  16:
                             entity = entity.body;
                             mike = mike == entity;
                             tango = undefined;
-                            if(mike) { _fun93713_ip = 36; continue _fun93713 }
+                            if(mike) { _fun93738_ip = 36; continue _fun93738 }
  30:
                             tango = entity.has_matching_guild;
  36:
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  172:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun93712_ip = 186; continue _fun93712 }
+                    if(zulu) { _fun93737_ip = 186; continue _fun93737 }
  178:
                     zulu = mike.body;
                     return zulu;
@@ -211,17 +211,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun93716: for(var _fun93716_ip = 0; ; ) switch(_fun93716_ip) {
+                _fun93741: for(var _fun93741_ip = 0; ; ) switch(_fun93741_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun93716_ip = 289; continue _fun93716 }
+                    if(mike) { _fun93741_ip = 289; continue _fun93741 }
  10:
                     mike = undefined;
                     report = undefined;
                     zulu = _closure2_slot0;
                     golf = null;
-                    if(!(golf != zulu)) { _fun93716_ip = 286; continue _fun93716 }
+                    if(!(golf != zulu)) { _fun93741_ip = 286; continue _fun93741 }
  30: // try_start_0
                     oscar = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -254,14 +254,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  145:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun93716_ip = 226; continue _fun93716 }
+                    if(oscar) { _fun93741_ip = 226; continue _fun93741 }
  151:
                     oscar = zulu.body;
                     oscar = oscar.guild;
                     report = oscar;
                     oscar = golf == oscar;
                     golf = undefined;
-                    if(oscar) { _fun93716_ip = 178; continue _fun93716 }
+                    if(oscar) { _fun93741_ip = 178; continue _fun93741 }
  173:
                     golf = report.id;
  178:
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['guildId'] = golf;
                     tango = report.bind(oscar)(tango);
  224: // try_end0
-                    _fun93716_ip = 286; continue _fun93716;
+                    _fun93741_ip = 286; continue _fun93741;
  226:
                     return zulu;
  229: // catch_target0
@@ -318,18 +318,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun93719: for(var _fun93719_ip = 0; ; ) switch(_fun93719_ip) {
+                _fun93744: for(var _fun93744_ip = 0; ; ) switch(_fun93744_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun93719_ip = 315; continue _fun93719 }
+                    if(mike) { _fun93744_ip = 315; continue _fun93744 }
  10:
                     report = undefined;
                     oscar = undefined;
                     zulu = undefined;
                     mike = _closure2_slot0;
                     options = null;
-                    if(!(options == mike)) { _fun93719_ip = 32; continue _fun93719 }
+                    if(!(options == mike)) { _fun93744_ip = 32; continue _fun93744 }
  29:
                     return report;
  32: // try_start_0
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  163:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golf) { _fun93719_ip = 253; continue _fun93719 }
+                    if(golf) { _fun93744_ip = 253; continue _fun93744 }
  169:
                     zulu = mike;
                     golf = mike.body;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = golf;
                     golf = options == golf;
                     options = undefined;
-                    if(golf) { _fun93719_ip = 199; continue _fun93719 }
+                    if(golf) { _fun93744_ip = 199; continue _fun93744 }
  194:
                     options = oscar.id;
  199:

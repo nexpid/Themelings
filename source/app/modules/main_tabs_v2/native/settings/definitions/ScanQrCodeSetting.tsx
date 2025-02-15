@@ -34,11 +34,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     yankee = romeo.debounce;
     mike = function* () {
         entity = function* () { // Original name: ?anon_0_
-            _fun95716: for(var _fun95716_ip = 0; ; ) switch(_fun95716_ip) {
+            _fun95726: for(var _fun95726_ip = 0; ; ) switch(_fun95726_ip) {
  0:
                 StartGenerator();
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(mike) { _fun95716_ip = 146; continue _fun95716 }
+                if(mike) { _fun95726_ip = 146; continue _fun95726 }
  10: // try_start_0
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -55,9 +55,9 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 return mike;
  60:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                if(zulu) { _fun95716_ip = 136; continue _fun95716 }
+                if(zulu) { _fun95726_ip = 136; continue _fun95726 }
  66:
-                if(!mike) { _fun95716_ip = 134; continue _fun95716 }
+                if(!mike) { _fun95726_ip = 134; continue _fun95726 }
  69:
                 report = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 zulu = golf.bind(options)(oscar, zulu);
                 zulu = tango.bind(report)(zulu);
  134: // try_end0
-                _fun95716_ip = 141; continue _fun95716;
+                _fun95726_ip = 141; continue _fun95726;
  136:
                 return mike;
  139: // catch_target0

@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/upsell_tooltip/native/PremiumUpsellTooltipActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumUpsellTooltipActionSheet
-        _fun77964: for(var _fun77964_ip = 0; ; ) switch(_fun77964_ip) {
+        _fun77974: for(var _fun77974_ip = 0; ; ) switch(_fun77974_ip) {
  0:
             entity = argFoo;
             papa = entity.title;
@@ -127,23 +127,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             update = entity.bind(tango)();
             oscar = function(argFoo) { // Original name: handleDismiss
-                _fun77965: for(var _fun77965_ip = 0; ; ) switch(_fun77965_ip) {
+                _fun77975: for(var _fun77975_ip = 0; ; ) switch(_fun77975_ip) {
  0:
                     oscar = argFoo;
                     zulu = null;
                     entity = zulu != oscar;
-                    if(!entity) { _fun77965_ip = 29; continue _fun77965 }
+                    if(!entity) { _fun77975_ip = 29; continue _fun77975 }
  12:
                     mike = _closure1_slot5;
                     mike = mike.DISMISS;
                     entity = oscar !== mike;
  29:
-                    if(entity) { _fun77965_ip = 43; continue _fun77965 }
+                    if(entity) { _fun77975_ip = 43; continue _fun77975 }
  32:
                     mike = _closure2_slot1;
                     entity = zulu == mike;
  43:
-                    if(entity) { _fun77965_ip = 59; continue _fun77965 }
+                    if(entity) { _fun77975_ip = 59; continue _fun77975 }
  46:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             options = foxtrot != romeo;
             verify = null;
-            if(!options) { _fun77964_ip = 250; continue _fun77964 }
+            if(!options) { _fun77974_ip = 250; continue _fun77974 }
  208:
             yankee = _closure1_slot6;
             offset = _closure1_slot3;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['onPress'] = output;
             control = foxtrot == source;
             output = undefined;
-            if(control) { _fun77964_ip = 530; continue _fun77964 }
+            if(control) { _fun77974_ip = 530; continue _fun77974 }
  526:
             output = source.bind(tango)();
  530:
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = foxtrot != echo;
             foxtrot = null;
-            if(!kilo) { _fun77964_ip = 627; continue _fun77964 }
+            if(!kilo) { _fun77974_ip = 627; continue _fun77974 }
  565:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
@@ -302,11 +302,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['variant'] = update;
             backup['text'] = echo;
             result = function() { // Original name: onPress
-                _fun77967: for(var _fun77967_ip = 0; ; ) switch(_fun77967_ip) {
+                _fun77977: for(var _fun77977_ip = 0; ; ) switch(_fun77977_ip) {
  0:
                     mike = _closure2_slot3;
                     entity = null;
-                    if(!(entity != mike)) { _fun77967_ip = 23; continue _fun77967 }
+                    if(!(entity != mike)) { _fun77977_ip = 23; continue _fun77977 }
  13:
                     mike = _closure2_slot3;
                     entity = undefined;

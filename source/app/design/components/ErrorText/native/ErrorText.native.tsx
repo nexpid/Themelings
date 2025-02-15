@@ -52,18 +52,18 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = yankee;
         entity = function() {
-            _fun63634: for(var _fun63634_ip = 0; ; ) switch(_fun63634_ip) {
+            _fun63639: for(var _fun63639_ip = 0; ; ) switch(_fun63639_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
                 mike = mike != zulu;
-                if(!mike) { _fun63634_ip = 28; continue _fun63634 }
+                if(!mike) { _fun63639_ip = 28; continue _fun63639 }
  16:
                 tango = _closure2_slot0;
                 zulu = '';
                 mike = zulu !== tango;
  28:
-                if(!mike) { _fun63634_ip = 77; continue _fun63634 }
+                if(!mike) { _fun63639_ip = 77; continue _fun63639 }
  31:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;

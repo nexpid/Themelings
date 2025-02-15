@@ -116,10 +116,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 var _closure4_slot0 = zulu;
                 mike = tango.forEach;
                 entity = function(argFoo, argBar) {
-                    _fun86403: for(var _fun86403_ip = 0; ; ) switch(_fun86403_ip) {
+                    _fun86420: for(var _fun86420_ip = 0; ; ) switch(_fun86420_ip) {
  0:
                         entity = argFoo;
-                        if(!entity) { _fun86403_ip = 37; continue _fun86403 }
+                        if(!entity) { _fun86420_ip = 37; continue _fun86420 }
  6:
                         zulu = _closure4_slot0;
                         mike = zulu.push;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['contentContainerStyle'] = oscar;
         oscar = golf.map;
         report = function(argFoo) {
-            _fun86404: for(var _fun86404_ip = 0; ; ) switch(_fun86404_ip) {
+            _fun86421: for(var _fun86421_ip = 0; ; ) switch(_fun86421_ip) {
  0:
                 entity = argFoo;
                 romeo = entity.fullIcon;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['maxWidth'] = golf;
                 mike['style'] = entity;
                 kilo = null;
-                if(!(kilo == romeo)) { _fun86404_ip = 198; continue _fun86404 }
+                if(!(kilo == romeo)) { _fun86421_ip = 198; continue _fun86421 }
  86:
                 verify = _closure1_slot9;
                 golf = _closure1_slot0;
@@ -187,9 +187,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = {};
                 sizing = 'secondary';
                 entity['variant'] = sizing;
-                if(!(kilo == foxtrot)) { _fun86404_ip = 159; continue _fun86404 }
+                if(!(kilo == foxtrot)) { _fun86421_ip = 159; continue _fun86421 }
  132:
-                if(!(kilo == backup)) { _fun86404_ip = 156; continue _fun86404 }
+                if(!(kilo == backup)) { _fun86421_ip = 156; continue _fun86421 }
  136:
                 sizing = _closure1_slot1;
                 output = _closure1_slot2;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = 2;
                 entity['maxFontSizeMultiplier'] = foxtrot;
                 entity = verify.bind(options)(golf, entity);
-                _fun86404_ip = 270; continue _fun86404;
+                _fun86421_ip = 270; continue _fun86421;
  198:
                 verify = _closure1_slot9;
                 golf = _closure1_slot0;

@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = entity;
     tango = function() {
         entity = function(argFoo, argBar) { // Original name: cheapWorkletShallowEqual
-            _fun73501: for(var _fun73501_ip = 0; ; ) switch(_fun73501_ip) {
+            _fun73511: for(var _fun73511_ip = 0; ; ) switch(_fun73511_ip) {
  0:
                 verify = argFoo;
                 options = argBar;
-                if(!(verify !== options)) { _fun73501_ip = 67; continue _fun73501 }
+                if(!(verify !== options)) { _fun73511_ip = 67; continue _fun73511 }
  10:
                 entity = null;
-                if(!(entity != verify)) { _fun73501_ip = 63; continue _fun73501 }
+                if(!(entity != verify)) { _fun73511_ip = 63; continue _fun73511 }
  16:
-                if(!(entity != options)) { _fun73501_ip = 63; continue _fun73501 }
+                if(!(entity != options)) { _fun73511_ip = 63; continue _fun73511 }
  20:
                 oscar = verify;
                 for(zulu in oscar)
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = zulu;
                     mike = verify[entity];
                     entity = options[entity];
-                    if(mike === entity) { _fun73501_ip = 31; continue _fun73501 }
+                    if(mike === entity) { _fun73511_ip = 31; continue _fun73511 }
  55:
                     entity = false;
                     return entity;
@@ -66,33 +66,33 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot1 = report;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: cheapWorkletArrayShallowEqual
-            _fun73503: for(var _fun73503_ip = 0; ; ) switch(_fun73503_ip) {
+            _fun73513: for(var _fun73513_ip = 0; ; ) switch(_fun73513_ip) {
  0:
                 tango = argFoo;
                 zulu = argBar;
-                if(!(tango !== zulu)) { _fun73503_ip = 88; continue _fun73503 }
+                if(!(tango !== zulu)) { _fun73513_ip = 88; continue _fun73513 }
  10:
                 entity = null;
-                if(!(entity != tango)) { _fun73503_ip = 84; continue _fun73503 }
+                if(!(entity != tango)) { _fun73513_ip = 84; continue _fun73513 }
  16:
-                if(!(entity != zulu)) { _fun73503_ip = 84; continue _fun73503 }
+                if(!(entity != zulu)) { _fun73513_ip = 84; continue _fun73513 }
  20:
                 mike = tango.length;
                 entity = zulu.length;
-                if(!(mike === entity)) { _fun73503_ip = 80; continue _fun73503 }
+                if(!(mike === entity)) { _fun73513_ip = 80; continue _fun73513 }
  34:
                 entity = tango.length;
                 mike = 0;
                 entity = mike < entity;
-                if(!entity) { _fun73503_ip = 72; continue _fun73503 }
+                if(!entity) { _fun73513_ip = 72; continue _fun73513 }
  48:
                 report = tango[mike];
                 entity = zulu[mike];
-                if(!(report === entity)) { _fun73503_ip = 76; continue _fun73503 }
+                if(!(report === entity)) { _fun73513_ip = 76; continue _fun73513 }
  60:
                 mike = mike + 1;
                 entity = tango.length;
-                if(mike < entity) { _fun73503_ip = 48; continue _fun73503 }
+                if(mike < entity) { _fun73513_ip = 48; continue _fun73513 }
  72:
                 entity = true;
                 return entity;

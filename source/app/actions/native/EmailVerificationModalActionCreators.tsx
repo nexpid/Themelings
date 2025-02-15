@@ -23,15 +23,15 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     var _closure1_slot3 = mike;
     mike = {};
     golf = function() { // Original name: open
-        _fun88576: for(var _fun88576_ip = 0; ; ) switch(_fun88576_ip) {
+        _fun88593: for(var _fun88593_ip = 0; ; ) switch(_fun88593_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun88576_ip = 11; continue _fun88576 }
+            if(!(mike === entity)) { _fun88593_ip = 11; continue _fun88593 }
  9:
             mike = false;
  11:
-            if(!mike) { _fun88576_ip = 57; continue _fun88576 }
+            if(!mike) { _fun88593_ip = 57; continue _fun88593 }
  14:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/application_commands/native/ApplicationSectionHeader.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: _default
-        _fun100923: for(var _fun100923_ip = 0; ; ) switch(_fun100923_ip) {
+        _fun100932: for(var _fun100932_ip = 0; ; ) switch(_fun100932_ip) {
  0:
             entity = argFoo;
             verify = entity.section;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityLabel'] = report;
             report = null;
             golf = report != yankee;
-            if(!golf) { _fun100923_ip = 191; continue _fun100923 }
+            if(!golf) { _fun100932_ip = 191; continue _fun100932 }
  145:
             offset = _closure1_slot4;
             options = _closure1_slot1;

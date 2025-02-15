@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: DemoActionSheet
-        _fun99413: for(var _fun99413_ip = 0; ; ) switch(_fun99413_ip) {
+        _fun99423: for(var _fun99423_ip = 0; ; ) switch(_fun99423_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.useState;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['title'] = context;
             report['subtitle'] = config;
             options = result;
-            if(!options) { _fun99413_ip = 279; continue _fun99413 }
+            if(!options) { _fun99423_ip = 279; continue _fun99423 }
  258:
             yankee = _closure1_slot7;
             offset = _closure1_slot10;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  279:
             report['trailing'] = options;
             options = sequence;
-            if(!options) { _fun99413_ip = 336; continue _fun99413 }
+            if(!options) { _fun99423_ip = 336; continue _fun99423 }
  290:
             yankee = _closure1_slot7;
             offset = _closure1_slot0;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot9 = tango;
     tango = function(argFoo) { // Original name: SelectAction
-        _fun99416: for(var _fun99416_ip = 0; ; ) switch(_fun99416_ip) {
+        _fun99426: for(var _fun99426_ip = 0; ; ) switch(_fun99426_ip) {
  0:
             entity = argFoo;
             verify = entity.showLongLabel;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Text;
             report = {'variant': 'text-md/medium', 'color': 'text-brand'};
             options = 'Label';
-            if(!verify) { _fun99416_ip = 110; continue _fun99416 }
+            if(!verify) { _fun99426_ip = 110; continue _fun99426 }
  104:
             options = 'LongLabelLong';
  110:

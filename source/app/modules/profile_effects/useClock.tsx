@@ -27,18 +27,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_effects/useClock.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun79957: for(var _fun79957_ip = 0; ; ) switch(_fun79957_ip) {
+        _fun79970: for(var _fun79970_ip = 0; ; ) switch(_fun79970_ip) {
  0:
             zulu = argFoo;
             mike = arguments[1];
             var _closure2_slot0 = zulu;
             oscar = undefined;
-            if(!(mike === oscar)) { _fun79957_ip = 20; continue _fun79957 }
+            if(!(mike === oscar)) { _fun79970_ip = 20; continue _fun79970 }
  18:
             mike = {};
  20:
             golf = mike.minInterval;
-            if(!(golf === oscar)) { _fun79957_ip = 40; continue _fun79957 }
+            if(!(golf === oscar)) { _fun79970_ip = 40; continue _fun79970 }
  30:
             golf = 41.666666666666664;
  40:
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.droppedFramesCallback;
             var _closure2_slot4 = yankee;
             foxtrot = mike.droppedFramesResetTime;
-            if(!(foxtrot === oscar)) { _fun79957_ip = 90; continue _fun79957 }
+            if(!(foxtrot === oscar)) { _fun79970_ip = 90; continue _fun79970 }
  84:
             foxtrot = 3000;
  90:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot12 = tango;
             verify = offset.useCallback;
             options = function() {
-                _fun79958: for(var _fun79958_ip = 0; ; ) switch(_fun79958_ip) {
+                _fun79971: for(var _fun79971_ip = 0; ; ) switch(_fun79971_ip) {
  0:
                     zulu = _closure2_slot11;
                     mike = 0;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot12;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79958_ip = 64; continue _fun79958 }
+                    if(!(mike != zulu)) { _fun79971_ip = 64; continue _fun79971 }
  30:
                     mike = global;
                     tango = mike.clearTimeout;
@@ -146,24 +146,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[4] = yankee;
             options[5] = zulu;
             zulu = function(argFoo) {
-                _fun79960: for(var _fun79960_ip = 0; ; ) switch(_fun79960_ip) {
+                _fun79973: for(var _fun79973_ip = 0; ; ) switch(_fun79973_ip) {
  0:
                     tango = argFoo;
                     mike = _closure2_slot10;
                     mike = mike.current;
-                    if(!mike) { _fun79960_ip = 413; continue _fun79960 }
+                    if(!mike) { _fun79973_ip = 413; continue _fun79973 }
  21:
                     mike = _closure2_slot8;
                     mike = mike.current;
                     golf = null;
-                    if(!(golf == mike)) { _fun79960_ip = 46; continue _fun79960 }
+                    if(!(golf == mike)) { _fun79973_ip = 46; continue _fun79973 }
  36:
                     mike = _closure2_slot8;
                     mike['current'] = tango;
  46:
                     mike = _closure2_slot9;
                     mike = mike.current;
-                    if(!(golf == mike)) { _fun79960_ip = 69; continue _fun79960 }
+                    if(!(golf == mike)) { _fun79973_ip = 69; continue _fun79973 }
  59:
                     mike = _closure2_slot9;
                     mike['current'] = tango;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot2;
                     mike = golf != mike;
                     options = 120;
-                    if(!mike) { _fun79960_ip = 126; continue _fun79960 }
+                    if(!mike) { _fun79973_ip = 126; continue _fun79973 }
  122:
                     options = _closure2_slot2;
  126:
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = verify.bind(offset)(options, mike);
                     mike = 1.5;
                     mike = mike * options;
-                    if(!(oscar > mike)) { _fun79960_ip = 335; continue _fun79960 }
+                    if(!(oscar > mike)) { _fun79973_ip = 335; continue _fun79973 }
  162:
                     oscar = _closure2_slot11;
                     mike = oscar.current;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['current'] = mike;
                     mike = _closure2_slot12;
                     mike = mike.current;
-                    if(!(golf != mike)) { _fun79960_ip = 219; continue _fun79960 }
+                    if(!(golf != mike)) { _fun79973_ip = 219; continue _fun79973 }
  197:
                     options = zulu.clearTimeout;
                     mike = _closure2_slot12;
@@ -214,12 +214,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = yankee.bind(oscar)(offset, mike);
                     options['current'] = mike;
                     mike = _closure2_slot3;
-                    if(!(golf != mike)) { _fun79960_ip = 335; continue _fun79960 }
+                    if(!(golf != mike)) { _fun79973_ip = 335; continue _fun79973 }
  259:
                     mike = _closure2_slot11;
                     options = mike.current;
                     mike = _closure2_slot3;
-                    if(!(options > mike)) { _fun79960_ip = 335; continue _fun79960 }
+                    if(!(options > mike)) { _fun79973_ip = 335; continue _fun79973 }
  276:
                     options = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = 'useClock - If you set a dropped frames threshold, you must provide a droppedFramesCallback to do something when that threshold is hit';
                     golf = verify.bind(oscar)(options, golf);
                     mike = mike.bind(oscar)();
-                    if(!mike) { _fun79960_ip = 335; continue _fun79960 }
+                    if(!mike) { _fun79973_ip = 335; continue _fun79973 }
  323:
                     oscar = _closure2_slot11;
                     mike = 0;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = mike.current;
                     mike = 3;
                     mike = oscar - mike;
-                    if(!(report >= mike)) { _fun79960_ip = 386; continue _fun79960 }
+                    if(!(report >= mike)) { _fun79973_ip = 386; continue _fun79973 }
  365:
                     mike = _closure2_slot9;
                     mike['current'] = tango;

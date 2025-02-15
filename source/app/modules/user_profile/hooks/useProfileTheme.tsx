@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/useProfileTheme.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useProfileTheme
-        _fun77212: for(var _fun77212_ip = 0; ; ) switch(_fun77212_ip) {
+        _fun77222: for(var _fun77222_ip = 0; ; ) switch(_fun77222_ip) {
  0:
             entity = argFoo;
             backup = entity.user;
@@ -66,16 +66,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             options = tango.bind(golf)(zulu, mike);
             golf = null;
-            if(!(golf == romeo)) { _fun77212_ip = 156; continue _fun77212 }
+            if(!(golf == romeo)) { _fun77222_ip = 156; continue _fun77222 }
  115:
             zulu = golf == backup;
             mike = undefined;
-            if(zulu) { _fun77212_ip = 153; continue _fun77212 }
+            if(zulu) { _fun77222_ip = 153; continue _fun77222 }
  124:
             offset = backup.getAvatarURL;
             zulu = golf == foxtrot;
             tango = undefined;
-            if(zulu) { _fun77212_ip = 144; continue _fun77212 }
+            if(zulu) { _fun77222_ip = 144; continue _fun77222 }
  139:
             tango = foxtrot.guildId;
  144:
@@ -107,12 +107,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = zulu[mike];
             tango = 1;
             offset = zulu[tango];
-            if(!(golf != foxtrot)) { _fun77212_ip = 270; continue _fun77212 }
+            if(!(golf != foxtrot)) { _fun77222_ip = 270; continue _fun77222 }
  259:
             zulu = foxtrot.canEditThemes;
-            if(zulu) { _fun77212_ip = 291; continue _fun77212 }
+            if(zulu) { _fun77222_ip = 291; continue _fun77222 }
  270:
-            if(entity) { _fun77212_ip = 291; continue _fun77212 }
+            if(entity) { _fun77222_ip = 291; continue _fun77222 }
  273:
             entity = {'theme': null, 'primaryColor': null, 'secondaryColor': null};
             entity['theme'] = report;
@@ -120,18 +120,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  291:
             zulu = golf == foxtrot;
             entity = undefined;
-            if(zulu) { _fun77212_ip = 313; continue _fun77212 }
+            if(zulu) { _fun77222_ip = 313; continue _fun77222 }
  300:
             zulu = foxtrot.getPreviewThemeColors;
             entity = zulu.bind(foxtrot)(yankee);
  313:
             yankee = golf == entity;
             zulu = undefined;
-            if(yankee) { _fun77212_ip = 326; continue _fun77212 }
+            if(yankee) { _fun77222_ip = 326; continue _fun77222 }
  322:
             zulu = entity[mike];
  326:
-            if(!(golf == zulu)) { _fun77212_ip = 361; continue _fun77212 }
+            if(!(golf == zulu)) { _fun77222_ip = 361; continue _fun77222 }
  330:
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -143,11 +143,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  361:
             yankee = golf == entity;
             mike = undefined;
-            if(yankee) { _fun77212_ip = 374; continue _fun77212 }
+            if(yankee) { _fun77222_ip = 374; continue _fun77222 }
  370:
             mike = entity[tango];
  374:
-            if(!(golf == mike)) { _fun77212_ip = 409; continue _fun77212 }
+            if(!(golf == mike)) { _fun77222_ip = 409; continue _fun77222 }
  378:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  409:
             entity = {};
             tango = report;
-            if(options) { _fun77212_ip = 458; continue _fun77212 }
+            if(options) { _fun77222_ip = 458; continue _fun77222 }
  417:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(verify)(oscar);
             oscar = options.getProfileTheme;
             oscar = oscar.bind(options)(zulu);
-            if(!(golf != oscar)) { _fun77212_ip = 455; continue _fun77212 }
+            if(!(golf != oscar)) { _fun77222_ip = 455; continue _fun77222 }
  452:
             report = oscar;
  455:

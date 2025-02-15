@@ -1,6 +1,6 @@
 // app/modules/stickers/native/NativeLottieView.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun69322: for(var _fun69322_ip = 0; ; ) switch(_fun69322_ip) {
+    _fun69328: for(var _fun69328_ip = 0; ; ) switch(_fun69328_ip) {
  0:
         oscar = argBar;
         report = argBaz;
@@ -39,11 +39,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         romeo = oscar.bind(entity)(mike);
         mike = romeo.isAndroid;
         mike = mike.bind(romeo)();
-        if(mike) { _fun69322_ip = 166; continue _fun69322 }
+        if(mike) { _fun69328_ip = 166; continue _fun69328 }
  153:
         mike = 'NativeLottieNode';
         mike = yankee.bind(entity)(mike);
-        _fun69322_ip = 178; continue _fun69322;
+        _fun69328_ip = 178; continue _fun69328;
  166:
         yankee = 4;
         yankee = golf[yankee];
@@ -76,47 +76,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'modules/stickers/native/NativeLottieView.tsx';
         report = oscar.bind(golf)(report);
         tango = function(argFoo) { // Original name: _default
-            _fun69323: for(var _fun69323_ip = 0; ; ) switch(_fun69323_ip) {
+            _fun69329: for(var _fun69329_ip = 0; ; ) switch(_fun69329_ip) {
  0:
                 entity = argFoo;
-                foxtrot = entity.asset;
-                romeo = entity.url;
+                romeo = entity.asset;
+                yankee = entity.url;
                 options = entity.width;
                 golf = entity.height;
                 oscar = entity.opacity;
                 tango = undefined;
-                if(!(oscar === tango)) { _fun69323_ip = 40; continue _fun69323 }
+                if(!(oscar === tango)) { _fun69329_ip = 40; continue _fun69329 }
  37:
                 oscar = 1;
  40:
                 offset = entity.renderMode;
-                if(!(offset === tango)) { _fun69323_ip = 63; continue _fun69323 }
+                if(!(offset === tango)) { _fun69329_ip = 63; continue _fun69329 }
  50:
                 zulu = _closure1_slot6;
                 offset = zulu.LOOP;
  63:
                 var _closure2_slot0 = offset;
-                yankee = entity.animating;
-                if(!(yankee === tango)) { _fun69323_ip = 79; continue _fun69323 }
+                zulu = entity.animating;
+                if(!(zulu === tango)) { _fun69329_ip = 79; continue _fun69329 }
  77:
-                yankee = true;
+                zulu = true;
  79:
-                zulu = entity.accessibilityLabel;
                 var _closure2_slot1 = tango;
                 var _closure2_slot2 = tango;
                 var _closure2_slot3 = tango;
-                backup = _closure1_slot2;
-                verify = backup.useRef;
+                foxtrot = _closure1_slot2;
+                verify = foxtrot.useRef;
                 report = null;
-                report = verify.bind(backup)(report);
+                report = verify.bind(foxtrot)(report);
                 _closure2_slot1 = report;
                 verify = {};
-                verify['asset'] = foxtrot;
-                verify['url'] = romeo;
+                verify['asset'] = romeo;
+                verify['url'] = yankee;
                 verify['width'] = options;
                 verify['height'] = golf;
-                verify['animating'] = yankee;
-                verify['accessibilityLabel'] = zulu;
+                verify['animating'] = zulu;
                 _closure2_slot2 = verify;
                 zulu = _closure1_slot1;
                 zulu = zulu.bind(tango)(verify);
@@ -133,60 +131,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = new Array(1);
                 zulu[0] = offset;
                 mike = function() {
-                    _fun69325: for(var _fun69325_ip = 0; ; ) switch(_fun69325_ip) {
+                    _fun69331: for(var _fun69331_ip = 0; ; ) switch(_fun69331_ip) {
  0:
                         mike = _closure2_slot3;
                         mike = mike.current;
-                        options = mike.asset;
-                        golf = mike.url;
-                        oscar = mike.width;
-                        report = mike.height;
-                        tango = mike.animating;
-                        zulu = mike.accessibilityLabel;
+                        golf = mike.asset;
+                        oscar = mike.url;
+                        report = mike.width;
+                        tango = mike.height;
+                        zulu = mike.animating;
                         mike = {};
-                        mike['asset'] = options;
-                        mike['url'] = golf;
-                        mike['width'] = oscar;
-                        mike['height'] = report;
-                        report = _closure2_slot0;
-                        mike['renderMode'] = report;
-                        mike['animating'] = tango;
-                        mike['accessibilityLabel'] = zulu;
-                        offset = mike.asset;
-                        verify = mike.url;
-                        options = mike.width;
-                        golf = mike.height;
-                        oscar = mike.renderMode;
-                        report = mike.animating;
-                        tango = mike.accessibilityLabel;
+                        mike['asset'] = golf;
+                        mike['url'] = oscar;
+                        mike['width'] = report;
+                        mike['height'] = tango;
+                        tango = _closure2_slot0;
+                        mike['renderMode'] = tango;
+                        mike['animating'] = zulu;
+                        verify = mike.asset;
+                        options = mike.url;
+                        golf = mike.width;
+                        oscar = mike.height;
+                        report = mike.renderMode;
+                        tango = mike.animating;
                         mike = '';
-                        mike = mike !== verify;
-                        if(!mike) { _fun69325_ip = 136; continue _fun69325 }
- 130:
-                        zulu = 0;
-                        mike = zulu !== options;
- 136:
-                        if(!mike) { _fun69325_ip = 145; continue _fun69325 }
- 139:
+                        mike = mike !== options;
+                        if(!mike) { _fun69331_ip = 122; continue _fun69331 }
+ 116:
                         zulu = 0;
                         mike = zulu !== golf;
- 145:
-                        if(!mike) { _fun69325_ip = 198; continue _fun69325 }
- 148:
+ 122:
+                        if(!mike) { _fun69331_ip = 131; continue _fun69331 }
+ 125:
+                        zulu = 0;
+                        mike = zulu !== oscar;
+ 131:
+                        if(!mike) { _fun69331_ip = 181; continue _fun69331 }
+ 134:
                         zulu = _closure1_slot5;
                         mike = zulu.setup;
                         entity = _closure2_slot1;
-                        result = entity.current;
-                        echo = zulu;
-                        output = offset;
-                        sizing = verify;
-                        kilo = options;
-                        backup = golf;
-                        foxtrot = oscar;
-                        romeo = report;
-                        yankee = tango;
-                        entity = echo[mike](result, output, sizing, kilo, backup, foxtrot, romeo, yankee, offset);
- 198:
+                        sizing = entity.current;
+                        output = zulu;
+                        kilo = verify;
+                        backup = options;
+                        foxtrot = golf;
+                        romeo = oscar;
+                        yankee = report;
+                        offset = tango;
+                        entity = output[mike](sizing, kilo, backup, foxtrot, romeo, yankee, offset, verify);
+ 181:
                         entity = undefined;
                         return entity;
                     }

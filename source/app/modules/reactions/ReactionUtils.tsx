@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: getReactionEmojiName
-        _fun44334: for(var _fun44334_ip = 0; ; ) switch(_fun44334_ip) {
+        _fun44342: for(var _fun44342_ip = 0; ; ) switch(_fun44342_ip) {
  0:
             mike = argFoo;
             zulu = mike.id;
             entity = null;
-            if(!(entity != zulu)) { _fun44334_ip = 44; continue _fun44334 }
+            if(!(entity != zulu)) { _fun44342_ip = 44; continue _fun44342 }
  14:
             tango = mike.name;
             entity = global;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.concat;
             entity = ':';
             entity = zulu.bind(entity)(tango, entity);
-            _fun44334_ip = 85; continue _fun44334;
+            _fun44342_ip = 85; continue _fun44342;
  44:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['MAX_REACTIONS'] = report;
     zulu['getReactionEmojiName'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: getAccessibleEmojiDisplayName
-        _fun44335: for(var _fun44335_ip = 0; ; ) switch(_fun44335_ip) {
+        _fun44343: for(var _fun44343_ip = 0; ; ) switch(_fun44343_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -83,21 +83,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(verify)(mike);
             mike = mike.t;
             tango = argCorge;
-            if(tango) { _fun44335_ip = 58; continue _fun44335 }
+            if(tango) { _fun44343_ip = 58; continue _fun44343 }
  39:
-            if(entity) { _fun44335_ip = 50; continue _fun44335 }
+            if(entity) { _fun44343_ip = 50; continue _fun44343 }
  42:
             tango = mike.PirBBA;
-            _fun44335_ip = 56; continue _fun44335;
+            _fun44343_ip = 56; continue _fun44343;
  50:
             tango = mike.CLuzw8;
  56:
-            _fun44335_ip = 78; continue _fun44335;
+            _fun44343_ip = 78; continue _fun44343;
  58:
-            if(entity) { _fun44335_ip = 69; continue _fun44335 }
+            if(entity) { _fun44343_ip = 69; continue _fun44343 }
  61:
             entity = mike.Z/l+qq;
-            _fun44335_ip = 75; continue _fun44335;
+            _fun44343_ip = 75; continue _fun44343;
  69:
             entity = mike.i9DXqK;
  75:
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = report == yankee;
             oscar = undefined;
-            if(golf) { _fun44335_ip = 186; continue _fun44335 }
+            if(golf) { _fun44343_ip = 186; continue _fun44343 }
  138:
             offset = yankee.replace;
             options = /[:_]/g;
@@ -126,14 +126,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.bind(yankee)(options, golf);
             golf = report == options;
             oscar = undefined;
-            if(golf) { _fun44335_ip = 186; continue _fun44335 }
+            if(golf) { _fun44343_ip = 186; continue _fun44343 }
  176:
             golf = options.trim;
             oscar = golf.bind(options)();
  186:
             golf = report != oscar;
             report = '';
-            if(!golf) { _fun44335_ip = 200; continue _fun44335 }
+            if(!golf) { _fun44343_ip = 200; continue _fun44343 }
  197:
             report = oscar;
  200:
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getAccessibleEmojiDisplayName'] = tango;
     tango = function(argFoo) { // Original name: toReactionEmoji
-        _fun44336: for(var _fun44336_ip = 0; ; ) switch(_fun44336_ip) {
+        _fun44344: for(var _fun44344_ip = 0; ; ) switch(_fun44344_ip) {
  0:
             mike = argFoo;
             entity = {};
@@ -152,26 +152,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             oscar = zulu != report;
             tango = null;
-            if(!oscar) { _fun44336_ip = 24; continue _fun44336 }
+            if(!oscar) { _fun44344_ip = 24; continue _fun44344 }
  21:
             tango = report;
  24:
             entity['id'] = tango;
             tango = mike.id;
-            if(!(zulu == tango)) { _fun44336_ip = 45; continue _fun44336 }
+            if(!(zulu == tango)) { _fun44344_ip = 45; continue _fun44344 }
  37:
             tango = mike.optionallyDiverseSequence;
-            _fun44336_ip = 50; continue _fun44336;
+            _fun44344_ip = 50; continue _fun44344;
  45:
             tango = mike.name;
  50:
-            if(!(zulu == tango)) { _fun44336_ip = 59; continue _fun44336 }
+            if(!(zulu == tango)) { _fun44344_ip = 59; continue _fun44344 }
  54:
             tango = mike.name;
  59:
             report = zulu != tango;
             zulu = '';
-            if(!report) { _fun44336_ip = 73; continue _fun44336 }
+            if(!report) { _fun44344_ip = 73; continue _fun44344 }
  70:
             zulu = tango;
  73:
@@ -187,17 +187,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['toReactionEmoji'] = tango;
     tango = function(argFoo, argBar) { // Original name: emojiEquals
-        _fun44337: for(var _fun44337_ip = 0; ; ) switch(_fun44337_ip) {
+        _fun44345: for(var _fun44345_ip = 0; ; ) switch(_fun44345_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
             mike = entity.id;
             tango = null;
-            if(!(tango == mike)) { _fun44337_ip = 45; continue _fun44337 }
+            if(!(tango == mike)) { _fun44345_ip = 45; continue _fun44345 }
  17:
             mike = zulu.id;
             mike = tango == mike;
-            if(!mike) { _fun44337_ip = 43; continue _fun44337 }
+            if(!mike) { _fun44345_ip = 43; continue _fun44345 }
  29:
             oscar = entity.name;
             report = zulu.name;
@@ -206,10 +206,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return mike;
  45:
             mike = zulu.id;
-            if(!(tango == mike)) { _fun44337_ip = 61; continue _fun44337 }
+            if(!(tango == mike)) { _fun44345_ip = 61; continue _fun44345 }
  54:
             mike = zulu.id;
-            _fun44337_ip = 88; continue _fun44337;
+            _fun44345_ip = 88; continue _fun44345;
  61:
             report = zulu.id;
             zulu = global;
@@ -230,33 +230,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['emojiEquals'] = tango;
     tango = function(argFoo) { // Original name: getBurstAnalyticsSection
-        _fun44338: for(var _fun44338_ip = 0; ; ) switch(_fun44338_ip) {
+        _fun44346: for(var _fun44346_ip = 0; ; ) switch(_fun44346_ip) {
  0:
             zulu = argFoo;
             entity = zulu.isThread;
             entity = entity.bind(zulu)();
-            if(entity) { _fun44338_ip = 77; continue _fun44338 }
+            if(entity) { _fun44346_ip = 77; continue _fun44346 }
  19:
             entity = zulu.isForumPost;
             entity = entity.bind(zulu)();
-            if(entity) { _fun44338_ip = 65; continue _fun44338 }
+            if(entity) { _fun44346_ip = 65; continue _fun44346 }
  32:
             entity = zulu.isGuildVocal;
             entity = entity.bind(zulu)();
             zulu = _closure1_slot4;
-            if(entity) { _fun44338_ip = 57; continue _fun44338 }
+            if(entity) { _fun44346_ip = 57; continue _fun44346 }
  49:
             entity = zulu.CHANNEL_TEXT_AREA;
-            _fun44338_ip = 63; continue _fun44338;
+            _fun44346_ip = 63; continue _fun44346;
  57:
             entity = zulu.TEXT_IN_VOICE;
  63:
-            _fun44338_ip = 75; continue _fun44338;
+            _fun44346_ip = 75; continue _fun44346;
  65:
             zulu = _closure1_slot4;
             entity = zulu.FORUM_CHANNEL_TEXT_AREA;
  75:
-            _fun44338_ip = 87; continue _fun44338;
+            _fun44346_ip = 87; continue _fun44346;
  77:
             mike = _closure1_slot4;
             entity = mike.THREAD_TEXT_AREA;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getBurstAnalyticsSection'] = tango;
     tango = function(argFoo) { // Original name: shouldApplyReaction
-        _fun44339: for(var _fun44339_ip = 0; ; ) switch(_fun44339_ip) {
+        _fun44347: for(var _fun44347_ip = 0; ; ) switch(_fun44347_ip) {
  0:
             entity = argFoo;
             zulu = entity.userId;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot3;
             mike = tango.getId;
             mike = mike.bind(tango)();
-            if(!entity) { _fun44339_ip = 41; continue _fun44339 }
+            if(!entity) { _fun44347_ip = 41; continue _fun44347 }
  34:
             mike = mike === zulu;
             entity = !mike;

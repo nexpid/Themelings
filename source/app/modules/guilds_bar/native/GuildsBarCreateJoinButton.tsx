@@ -24,11 +24,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun114595: for(var _fun114595_ip = 0; ; ) switch(_fun114595_ip) {
+                _fun114601: for(var _fun114601_ip = 0; ; ) switch(_fun114601_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun114595_ip = 321; continue _fun114595 }
+                    if(mike) { _fun114601_ip = 321; continue _fun114601 }
  10:
                     oscar = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return mike;
  57:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun114595_ip = 318; continue _fun114595 }
+                    if(zulu) { _fun114601_ip = 318; continue _fun114601 }
  66:
                     options = mike.default;
                     oscar = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return zulu;
  110:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun114595_ip = 315; continue _fun114595 }
+                    if(report) { _fun114601_ip = 315; continue _fun114601 }
  119:
                     oscar = zulu.default;
                     golf = options.acknowledgeTooltip;
@@ -75,11 +75,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     golf = golf.bind(tango)(report);
                     report = golf.isAtGuildCapAndNonPremium;
                     report = report.bind(golf)();
-                    if(report) { _fun114595_ip = 190; continue _fun114595 }
+                    if(report) { _fun114601_ip = 190; continue _fun114601 }
  178:
                     report = oscar.openCreateGuildModal;
                     report = report.bind(oscar)();
-                    _fun114595_ip = 312; continue _fun114595;
+                    _fun114601_ip = 312; continue _fun114601;
  190:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;

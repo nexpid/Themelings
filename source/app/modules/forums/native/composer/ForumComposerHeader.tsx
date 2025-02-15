@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/composer/ForumComposerHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumComposerHeader
-        _fun87494: for(var _fun87494_ip = 0; ; ) switch(_fun87494_ip) {
+        _fun87511: for(var _fun87511_ip = 0; ; ) switch(_fun87511_ip) {
  0:
             entity = argFoo;
             mike = entity.height;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = backup.Text;
             backup = {'lineClamp': 1, 'ellipsizeMode': 'tail', 'variant': 'text-md/semibold', 'color': 'header-primary'};
             control = '';
-            if(!(control === echo)) { _fun87494_ip = 414; continue _fun87494 }
+            if(!(control === echo)) { _fun87511_ip = 414; continue _fun87511 }
  362:
             config = _closure1_slot0;
             control = _closure1_slot2;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             foxtrot = golf == offset;
             yankee = undefined;
-            if(foxtrot) { _fun87494_ip = 536; continue _fun87494 }
+            if(foxtrot) { _fun87511_ip = 536; continue _fun87511 }
  525:
             offset = offset.topic;
             yankee = offset.length;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = 0;
             offset = yankee > offset;
             golf = null;
-            if(!offset) { _fun87494_ip = 681; continue _fun87494 }
+            if(!offset) { _fun87511_ip = 681; continue _fun87511 }
  550:
             yankee = _closure1_slot5;
             foxtrot = _closure1_slot0;

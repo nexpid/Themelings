@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/PhoneHangUpIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79461: for(var _fun79461_ip = 0; ; ) switch(_fun79461_ip) {
+        _fun79471: for(var _fun79471_ip = 0; ; ) switch(_fun79471_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79461_ip = 53; continue _fun79461 }
+            if(!(golf === tango)) { _fun79471_ip = 53; continue _fun79471 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

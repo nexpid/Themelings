@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = new Array(1);
         report[0] = zulu;
         zulu = function() {
-            _fun81263: for(var _fun81263_ip = 0; ; ) switch(_fun81263_ip) {
+            _fun81275: for(var _fun81275_ip = 0; ; ) switch(_fun81275_ip) {
  0:
                 zulu = _closure1_slot4;
                 mike = zulu.getSecureFramesState;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun81263_ip = 42; continue _fun81263 }
+                if(zulu) { _fun81275_ip = 42; continue _fun81275 }
  36:
                 entity = mike.epochAuthenticator;
  42:

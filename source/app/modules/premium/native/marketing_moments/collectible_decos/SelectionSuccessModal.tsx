@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/SelectionSuccessModal.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/SelectionSuccessModal.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
     report = argBar;
     golf = argBaz;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/SelectionSuccessModal.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/SelectionSuccessModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SelectionSuccessModal
         entity = argFoo;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot3;
         tango = oscar.useCallback;
         zulu = function() {
-            _fun104914: for(var _fun104914_ip = 0; ; ) switch(_fun104914_ip) {
+            _fun104906: for(var _fun104906_ip = 0; ; ) switch(_fun104906_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.getRootNavigationRef;
                 tango = mike.bind(zulu)();
                 mike = null;
-                if(!(mike != tango)) { _fun104914_ip = 73; continue _fun104914 }
+                if(!(mike != tango)) { _fun104906_ip = 73; continue _fun104906 }
  41:
                 mike = tango.isReady;
                 mike = mike.bind(tango)();
-                if(!mike) { _fun104914_ip = 73; continue _fun104914 }
+                if(!mike) { _fun104906_ip = 73; continue _fun104906 }
  54:
                 zulu = tango.navigate;
                 mike = 'you-modal';
@@ -84,14 +84,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = new Array(1);
         options[0] = zulu;
         oscar = function() {
-            _fun104915: for(var _fun104915_ip = 0; ; ) switch(_fun104915_ip) {
+            _fun104907: for(var _fun104907_ip = 0; ; ) switch(_fun104907_ip) {
  0:
                 mike = _closure1_slot4;
                 entity = mike.getCurrentUser;
                 mike = entity.bind(mike)();
                 entity = null;
                 zulu = entity != mike;
-                if(!zulu) { _fun104915_ip = 28; continue _fun104915 }
+                if(!zulu) { _fun104907_ip = 28; continue _fun104907 }
  25:
                 entity = mike;
  28:

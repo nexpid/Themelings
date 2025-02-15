@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChatInputGuardMessageRequest
-        _fun101427: for(var _fun101427_ip = 0; ; ) switch(_fun101427_ip) {
+        _fun101419: for(var _fun101419_ip = 0; ; ) switch(_fun101419_ip) {
  0:
             mike = argFoo;
             mike = mike.channel;
@@ -122,19 +122,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.isOptimisticAccepted;
             oscar = mike.isOptimisticRejected;
             golf = offset;
-            if(offset) { _fun101427_ip = 207; continue _fun101427 }
+            if(offset) { _fun101419_ip = 207; continue _fun101419 }
  204:
             golf = report;
  207:
-            if(golf) { _fun101427_ip = 213; continue _fun101427 }
+            if(golf) { _fun101419_ip = 213; continue _fun101419 }
  210:
             golf = romeo;
  213:
-            if(golf) { _fun101427_ip = 219; continue _fun101427 }
+            if(golf) { _fun101419_ip = 219; continue _fun101419 }
  216:
             golf = yankee;
  219:
-            if(golf) { _fun101427_ip = 225; continue _fun101427 }
+            if(golf) { _fun101419_ip = 225; continue _fun101419 }
  222:
             golf = oscar;
  225:
@@ -143,12 +143,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun101433: for(var _fun101433_ip = 0; ; ) switch(_fun101433_ip) {
+                        _fun101425: for(var _fun101425_ip = 0; ; ) switch(_fun101425_ip) {
  0:
                             StartGenerator();
                             zulu = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun101433_ip = 112; continue _fun101433 }
+                            if(mike) { _fun101425_ip = 112; continue _fun101425 }
  10:
                             mike = zulu.stopPropagation;
                             mike = mike.bind(zulu)();
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  47:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun101433_ip = 109; continue _fun101433 }
+                            if(report) { _fun101425_ip = 109; continue _fun101425 }
  53:
                             oscar = _closure1_slot0;
                             golf = _closure1_slot2;
@@ -205,12 +205,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun101437: for(var _fun101437_ip = 0; ; ) switch(_fun101437_ip) {
+                        _fun101429: for(var _fun101429_ip = 0; ; ) switch(_fun101429_ip) {
  0:
                             StartGenerator();
                             zulu = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun101437_ip = 59; continue _fun101437 }
+                            if(mike) { _fun101429_ip = 59; continue _fun101429 }
  10:
                             mike = zulu.stopPropagation;
                             mike = mike.bind(zulu)();
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  47:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun101437_ip = 56; continue _fun101437 }
+                            if(tango) { _fun101429_ip = 56; continue _fun101429 }
  53:
                             return zulu;
  56:
@@ -293,11 +293,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['buttonPrimaryText'] = kilo;
             entity['buttonPrimaryOnPress'] = backup;
             entity['buttonPrimaryDisabled'] = golf;
-            if(offset) { _fun101427_ip = 452; continue _fun101427 }
+            if(offset) { _fun101419_ip = 452; continue _fun101419 }
  449:
             offset = romeo;
  452:
-            if(offset) { _fun101427_ip = 458; continue _fun101427 }
+            if(offset) { _fun101419_ip = 458; continue _fun101419 }
  455:
             offset = yankee;
  458:
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['buttonSecondaryText'] = verify;
             entity['buttonSecondaryOnPress'] = options;
             entity['buttonSecondaryDisabled'] = golf;
-            if(report) { _fun101427_ip = 536; continue _fun101427 }
+            if(report) { _fun101419_ip = 536; continue _fun101419 }
  533:
             report = oscar;
  536:

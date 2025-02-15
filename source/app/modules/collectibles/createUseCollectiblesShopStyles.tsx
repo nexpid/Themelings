@@ -74,20 +74,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = tango;
     tango = function(argFoo, argBar) { // Original name: getBackgroundColors
-        _fun88103: for(var _fun88103_ip = 0; ; ) switch(_fun88103_ip) {
+        _fun88120: for(var _fun88120_ip = 0; ; ) switch(_fun88120_ip) {
  0:
             tango = argFoo;
             report = argBar;
             entity = report.length;
             zulu = 0;
-            if(!(zulu === entity)) { _fun88103_ip = 21; continue _fun88103 }
+            if(!(zulu === entity)) { _fun88120_ip = 21; continue _fun88120 }
  17:
             entity = undefined;
             return entity;
  21:
             entity = report.length;
             mike = 1;
-            if(!(mike !== entity)) { _fun88103_ip = 149; continue _fun88103 }
+            if(!(mike !== entity)) { _fun88120_ip = 149; continue _fun88120 }
  33:
             entity = {};
             oscar = report[zulu];
@@ -108,15 +108,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options.bind(golf)(oscar, mike);
             mike = oscar.isLight;
             mike = mike.bind(oscar)();
-            if(mike) { _fun88103_ip = 137; continue _fun88103 }
+            if(mike) { _fun88120_ip = 137; continue _fun88120 }
  129:
             mike = tango.light;
-            _fun88103_ip = 143; continue _fun88103;
+            _fun88120_ip = 143; continue _fun88120;
  137:
             mike = tango.dark;
  143:
             entity['label'] = mike;
-            _fun88103_ip = 237; continue _fun88103;
+            _fun88120_ip = 237; continue _fun88120;
  149:
             mike = {};
             oscar = report[zulu];
@@ -131,10 +131,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report[zulu];
             zulu = report.isLight;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun88103_ip = 224; continue _fun88103 }
+            if(zulu) { _fun88120_ip = 224; continue _fun88120 }
  216:
             zulu = tango.light;
-            _fun88103_ip = 230; continue _fun88103;
+            _fun88120_ip = 230; continue _fun88120;
  224:
             zulu = tango.dark;
  230:
@@ -146,20 +146,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = tango;
     tango = function(argFoo, argBar) { // Original name: getButtonColors
-        _fun88104: for(var _fun88104_ip = 0; ; ) switch(_fun88104_ip) {
+        _fun88121: for(var _fun88121_ip = 0; ; ) switch(_fun88121_ip) {
  0:
             tango = argFoo;
             report = argBar;
             entity = report.length;
             zulu = 0;
-            if(!(zulu === entity)) { _fun88104_ip = 21; continue _fun88104 }
+            if(!(zulu === entity)) { _fun88121_ip = 21; continue _fun88121 }
  17:
             entity = undefined;
             return entity;
  21:
             entity = report.length;
             mike = 1;
-            if(!(mike !== entity)) { _fun88104_ip = 109; continue _fun88104 }
+            if(!(mike !== entity)) { _fun88121_ip = 109; continue _fun88121 }
  33:
             entity = {};
             oscar = report[zulu];
@@ -173,15 +173,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options.bind(mike)(golf, oscar);
             mike = oscar.isLight;
             mike = mike.bind(oscar)();
-            if(mike) { _fun88104_ip = 97; continue _fun88104 }
+            if(mike) { _fun88121_ip = 97; continue _fun88121 }
  89:
             mike = tango.light;
-            _fun88104_ip = 103; continue _fun88104;
+            _fun88121_ip = 103; continue _fun88121;
  97:
             mike = tango.dark;
  103:
             entity['text'] = mike;
-            _fun88104_ip = 167; continue _fun88104;
+            _fun88121_ip = 167; continue _fun88121;
  109:
             mike = {};
             oscar = report[zulu];
@@ -191,10 +191,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report[zulu];
             zulu = report.isLight;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun88104_ip = 154; continue _fun88104 }
+            if(zulu) { _fun88121_ip = 154; continue _fun88121 }
  146:
             zulu = tango.light;
-            _fun88104_ip = 160; continue _fun88104;
+            _fun88121_ip = 160; continue _fun88121;
  154:
             zulu = tango.dark;
  160:
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = argFoo;
         var _closure2_slot0 = mike;
         entity = function(argFoo) {
-            _fun88107: for(var _fun88107_ip = 0; ; ) switch(_fun88107_ip) {
+            _fun88124: for(var _fun88124_ip = 0; ; ) switch(_fun88124_ip) {
  0:
                 entity = argFoo;
                 tango = _closure1_slot0;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = report.bind(golf)(tango, zulu);
                 var _closure3_slot0 = options;
                 report = null;
-                if(!(report != entity)) { _fun88107_ip = 409; continue _fun88107 }
+                if(!(report != entity)) { _fun88124_ip = 409; continue _fun88124 }
  73:
                 zulu = {};
                 golf = _closure1_slot6;
@@ -274,13 +274,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.confettiColors;
                 zulu['confettiColors'] = entity;
                 entity = 1;
-                if(!(entity !== options)) { _fun88107_ip = 392; continue _fun88107 }
+                if(!(entity !== options)) { _fun88124_ip = 392; continue _fun88124 }
  145:
                 entity = {};
                 tango = zulu.backgroundColors;
                 golf = report != tango;
                 tango = undefined;
-                if(!golf) { _fun88107_ip = 261; continue _fun88107 }
+                if(!golf) { _fun88124_ip = 261; continue _fun88124 }
  162:
                 golf = {};
                 yankee = _closure1_slot8;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.buttonColors;
                 report = report != tango;
                 tango = undefined;
-                if(!report) { _fun88107_ip = 357; continue _fun88107 }
+                if(!report) { _fun88124_ip = 357; continue _fun88124 }
  281:
                 report = {};
                 golf = _closure1_slot8;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike = tango.bind(report)(mike);
                 entity['confettiColors'] = mike;
-                _fun88107_ip = 407; continue _fun88107;
+                _fun88124_ip = 407; continue _fun88124;
  392:
                 mike = {};
                 foxtrot = mike;

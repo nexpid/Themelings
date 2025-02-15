@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/GlobeEarthIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun73927: for(var _fun73927_ip = 0; ; ) switch(_fun73927_ip) {
+        _fun73937: for(var _fun73937_ip = 0; ; ) switch(_fun73937_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun73927_ip = 53; continue _fun73927 }
+            if(!(golf === tango)) { _fun73937_ip = 53; continue _fun73937 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

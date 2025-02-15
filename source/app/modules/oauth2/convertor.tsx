@@ -22,13 +22,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/oauth2/convertor.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: convertOAuth2Authorization
-        _fun73789: for(var _fun73789_ip = 0; ; ) switch(_fun73789_ip) {
+        _fun73799: for(var _fun73799_ip = 0; ; ) switch(_fun73799_ip) {
  0:
             zulu = argFoo;
             tango = zulu.guilds;
             mike = null;
             entity = zulu;
-            if(!(mike != tango)) { _fun73789_ip = 67; continue _fun73789 }
+            if(!(mike != tango)) { _fun73799_ip = 67; continue _fun73799 }
  18:
             mike = {};
             golf = mike;

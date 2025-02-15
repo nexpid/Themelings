@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['RedesignCompatContext'] = tango;
     mike = function(argFoo) { // Original name: RedesignCompat
-        _fun48614: for(var _fun48614_ip = 0; ; ) switch(_fun48614_ip) {
+        _fun48621: for(var _fun48621_ip = 0; ; ) switch(_fun48621_ip) {
  0:
             mike = argFoo;
             entity = mike.children;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = {};
             report = null;
             report = report == oscar;
-            if(report) { _fun48614_ip = 44; continue _fun48614 }
+            if(report) { _fun48621_ip = 44; continue _fun48621 }
  41:
             report = oscar;
  44:

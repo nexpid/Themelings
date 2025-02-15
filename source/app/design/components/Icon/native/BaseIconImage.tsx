@@ -53,13 +53,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Icon/native/BaseIconImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun48677: for(var _fun48677_ip = 0; ; ) switch(_fun48677_ip) {
+        _fun48684: for(var _fun48684_ip = 0; ; ) switch(_fun48684_ip) {
  0:
             entity = argFoo;
             romeo = entity.source;
             offset = entity.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun48677_ip = 23; continue _fun48677 }
+            if(!(offset === tango)) { _fun48684_ip = 23; continue _fun48684 }
  19:
             offset = 'md';
  23:
@@ -76,22 +76,22 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = mike.useToken;
             mike = entity.bind(mike)(zulu);
             entity = null;
-            if(!(entity == mike)) { _fun48677_ip = 125; continue _fun48677 }
+            if(!(entity == mike)) { _fun48684_ip = 125; continue _fun48684 }
  90:
             entity = entity != zulu;
-            if(!entity) { _fun48677_ip = 108; continue _fun48677 }
+            if(!entity) { _fun48684_ip = 108; continue _fun48684 }
  97:
             foxtrot = 'string';
             verify = typeof zulu;
             entity = foxtrot === verify;
  108:
             verify = undefined;
-            if(!entity) { _fun48677_ip = 135; continue _fun48677 }
+            if(!entity) { _fun48684_ip = 135; continue _fun48684 }
  113:
             entity = {};
             entity['tintColor'] = zulu;
             verify = entity;
-            _fun48677_ip = 135; continue _fun48677;
+            _fun48684_ip = 135; continue _fun48684;
  125:
             entity = {};
             entity['tintColor'] = mike;

@@ -32,10 +32,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = tango.useEffect;
         mike = function() {
-            _fun111342: for(var _fun111342_ip = 0; ; ) switch(_fun111342_ip) {
+            _fun111348: for(var _fun111348_ip = 0; ; ) switch(_fun111348_ip) {
  0:
                 mike = _closure1_slot3;
-                if(mike) { _fun111342_ip = 42; continue _fun111342 }
+                if(mike) { _fun111348_ip = 42; continue _fun111348 }
  10:
                 mike = true;
                 _closure1_slot3 = mike;

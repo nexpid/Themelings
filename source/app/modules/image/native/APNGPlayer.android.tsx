@@ -47,11 +47,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function(argFoo) {
-            _fun79976: for(var _fun79976_ip = 0; ; ) switch(_fun79976_ip) {
+            _fun79989: for(var _fun79989_ip = 0; ; ) switch(_fun79989_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun79976_ip = 37; continue _fun79976 }
+                if(!(mike != zulu)) { _fun79989_ip = 37; continue _fun79989 }
  13:
                 zulu = _closure2_slot0;
                 entity = argFoo;
@@ -70,12 +70,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = function() {
             entity = {};
             zulu = function() { // Original name: play
-                _fun79978: for(var _fun79978_ip = 0; ; ) switch(_fun79978_ip) {
+                _fun79991: for(var _fun79991_ip = 0; ; ) switch(_fun79991_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79978_ip = 69; continue _fun79978 }
+                    if(!(mike != zulu)) { _fun79991_ip = 69; continue _fun79991 }
  18:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -95,12 +95,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['play'] = zulu;
             zulu = function() { // Original name: pause
-                _fun79979: for(var _fun79979_ip = 0; ; ) switch(_fun79979_ip) {
+                _fun79992: for(var _fun79992_ip = 0; ; ) switch(_fun79992_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79979_ip = 69; continue _fun79979 }
+                    if(!(mike != zulu)) { _fun79992_ip = 69; continue _fun79992 }
  18:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -120,12 +120,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['pause'] = zulu;
             zulu = function() { // Original name: stop
-                _fun79980: for(var _fun79980_ip = 0; ; ) switch(_fun79980_ip) {
+                _fun79993: for(var _fun79993_ip = 0; ; ) switch(_fun79993_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79980_ip = 103; continue _fun79980 }
+                    if(!(mike != zulu)) { _fun79993_ip = 103; continue _fun79993 }
  18:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -152,12 +152,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['stop'] = zulu;
             mike = function(argFoo) { // Original name: seek
-                _fun79981: for(var _fun79981_ip = 0; ; ) switch(_fun79981_ip) {
+                _fun79994: for(var _fun79994_ip = 0; ; ) switch(_fun79994_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79981_ip = 73; continue _fun79981 }
+                    if(!(mike != zulu)) { _fun79994_ip = 73; continue _fun79994 }
  18:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -217,18 +217,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = function() {
             entity = {};
             zulu = function() { // Original name: play
-                _fun79984: for(var _fun79984_ip = 0; ; ) switch(_fun79984_ip) {
+                _fun79997: for(var _fun79997_ip = 0; ; ) switch(_fun79997_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = mike.current;
                     mike = null;
                     mike = mike == zulu;
-                    if(mike) { _fun79984_ip = 30; continue _fun79984 }
+                    if(mike) { _fun79997_ip = 30; continue _fun79997 }
  21:
                     zulu = _closure2_slot1;
                     mike = zulu.current;
  30:
-                    if(mike) { _fun79984_ip = 64; continue _fun79984 }
+                    if(mike) { _fun79997_ip = 64; continue _fun79997 }
  33:
                     mike = _closure2_slot0;
                     zulu = mike.current;
@@ -244,18 +244,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['play'] = zulu;
             zulu = function() { // Original name: pause
-                _fun79985: for(var _fun79985_ip = 0; ; ) switch(_fun79985_ip) {
+                _fun79998: for(var _fun79998_ip = 0; ; ) switch(_fun79998_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = mike.current;
                     mike = null;
                     mike = mike != zulu;
-                    if(!mike) { _fun79985_ip = 30; continue _fun79985 }
+                    if(!mike) { _fun79998_ip = 30; continue _fun79998 }
  21:
                     zulu = _closure2_slot1;
                     mike = zulu.current;
  30:
-                    if(!mike) { _fun79985_ip = 64; continue _fun79985 }
+                    if(!mike) { _fun79998_ip = 64; continue _fun79998 }
  33:
                     mike = _closure2_slot0;
                     zulu = mike.current;
@@ -271,18 +271,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['pause'] = zulu;
             zulu = function() { // Original name: stop
-                _fun79986: for(var _fun79986_ip = 0; ; ) switch(_fun79986_ip) {
+                _fun79999: for(var _fun79999_ip = 0; ; ) switch(_fun79999_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = mike.current;
                     mike = null;
                     mike = mike != zulu;
-                    if(!mike) { _fun79986_ip = 30; continue _fun79986 }
+                    if(!mike) { _fun79999_ip = 30; continue _fun79999 }
  21:
                     zulu = _closure2_slot1;
                     mike = zulu.current;
  30:
-                    if(!mike) { _fun79986_ip = 64; continue _fun79986 }
+                    if(!mike) { _fun79999_ip = 64; continue _fun79999 }
  33:
                     mike = _closure2_slot0;
                     zulu = mike.current;
@@ -298,12 +298,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['stop'] = zulu;
             mike = function(argFoo) { // Original name: seek
-                _fun79987: for(var _fun79987_ip = 0; ; ) switch(_fun79987_ip) {
+                _fun80000: for(var _fun80000_ip = 0; ; ) switch(_fun80000_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79987_ip = 41; continue _fun79987 }
+                    if(!(mike != zulu)) { _fun80000_ip = 41; continue _fun80000 }
  18:
                     entity = _closure2_slot0;
                     zulu = entity.current;

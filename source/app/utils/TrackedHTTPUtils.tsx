@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.bind(entity)(zulu);
             tango = report.then;
             zulu = function(argFoo) {
-                _fun59589: for(var _fun59589_ip = 0; ; ) switch(_fun59589_ip) {
+                _fun59592: for(var _fun59592_ip = 0; ; ) switch(_fun59592_ip) {
  0:
                     zulu = argFoo;
                     entity = _closure2_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.properties;
                     mike = 'function';
                     entity = typeof entity;
-                    if(!(mike === entity)) { _fun59589_ip = 48; continue _fun59589 }
+                    if(!(mike === entity)) { _fun59592_ip = 48; continue _fun59592 }
  33:
                     mike = _closure2_slot1;
                     entity = mike.properties;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu);
             zulu = tango.catch;
             mike = function(argFoo) {
-                _fun59590: for(var _fun59590_ip = 0; ; ) switch(_fun59590_ip) {
+                _fun59593: for(var _fun59593_ip = 0; ; ) switch(_fun59593_ip) {
  0:
                     zulu = argFoo;
                     entity = _closure2_slot1;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.properties;
                     mike = 'function';
                     entity = typeof entity;
-                    if(!(mike === entity)) { _fun59590_ip = 48; continue _fun59590 }
+                    if(!(mike === entity)) { _fun59593_ip = 48; continue _fun59593 }
  33:
                     mike = _closure2_slot1;
                     entity = mike.properties;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = null;
                     romeo = verify == yankee;
                     offset = undefined;
-                    if(romeo) { _fun59590_ip = 122; continue _fun59590 }
+                    if(romeo) { _fun59593_ip = 122; continue _fun59593 }
  117:
                     offset = yankee.code;
  122:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = zulu.body;
                     yankee = verify == offset;
                     verify = undefined;
-                    if(yankee) { _fun59590_ip = 146; continue _fun59590 }
+                    if(yankee) { _fun59593_ip = 146; continue _fun59593 }
  141:
                     verify = offset.message;
  146:

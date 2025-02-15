@@ -3,20 +3,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar) { // Original name: getFirstSkemaFieldError
-        _fun71016: for(var _fun71016_ip = 0; ; ) switch(_fun71016_ip) {
+        _fun71022: for(var _fun71022_ip = 0; ; ) switch(_fun71022_ip) {
  0:
             report = argFoo;
             oscar = argBar;
             mike = _closure1_slot1;
             mike = report[mike];
             golf = null;
-            if(!(golf != mike)) { _fun71016_ip = 44; continue _fun71016 }
+            if(!(golf != mike)) { _fun71022_ip = 44; continue _fun71022 }
  23:
             zulu = global;
             tango = zulu.Array;
             zulu = tango.isArray;
             zulu = zulu.bind(tango)(mike);
-            if(zulu) { _fun71016_ip = 165; continue _fun71016 }
+            if(zulu) { _fun71022_ip = 165; continue _fun71022 }
  44:
             zulu = global;
             tango = zulu.Object;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = 2;
             offset = 1;
             verify = 0;
-            if(!zulu) { _fun71016_ip = 144; continue _fun71016 }
+            if(!zulu) { _fun71022_ip = 144; continue _fun71022 }
  91:
             tango = backup[verify];
             zulu = _closure1_slot0;
@@ -38,21 +38,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu[foxtrot];
             zulu = zulu[offset];
             options = _closure1_slot1;
-            if(!(tango !== options)) { _fun71016_ip = 132; continue _fun71016 }
+            if(!(tango !== options)) { _fun71022_ip = 132; continue _fun71022 }
  121:
-            if(!(golf != zulu)) { _fun71016_ip = 132; continue _fun71016 }
+            if(!(golf != zulu)) { _fun71022_ip = 132; continue _fun71022 }
  125:
             options = typeof zulu;
-            if(!(romeo !== options)) { _fun71016_ip = 146; continue _fun71016 }
+            if(!(romeo !== options)) { _fun71022_ip = 146; continue _fun71022 }
  132:
             verify = verify + 1;
             options = backup.length;
-            if(verify < options) { _fun71016_ip = 91; continue _fun71016 }
+            if(verify < options) { _fun71022_ip = 91; continue _fun71022 }
  144:
             return golf;
  146:
             entity = _closure1_slot2;
-            if(!(golf != oscar)) { _fun71016_ip = 157; continue _fun71016 }
+            if(!(golf != oscar)) { _fun71022_ip = 157; continue _fun71022 }
  154:
             tango = oscar;
  157:

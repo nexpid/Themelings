@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = golf;
     var _closure1_slot3 = oscar;
     entity = function() { // Original name: AutomatedUnderageAppealStatus
-        _fun100008: for(var _fun100008_ip = 0; ; ) switch(_fun100008_ip) {
+        _fun100017: for(var _fun100017_ip = 0; ; ) switch(_fun100017_ip) {
  0:
             tango = _closure1_slot0;
             golf = _closure1_slot3;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.type;
             entity = null;
             zulu = entity == golf;
-            if(zulu) { _fun100008_ip = 274; continue _fun100008 }
+            if(zulu) { _fun100017_ip = 274; continue _fun100017 }
  233:
             tango = _closure1_slot11;
             zulu = _closure1_slot1;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/SafetyHubPage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SafetyHubPage
-        _fun100015: for(var _fun100015_ip = 0; ; ) switch(_fun100015_ip) {
+        _fun100024: for(var _fun100024_ip = 0; ; ) switch(_fun100024_ip) {
  0:
             entity = argFoo;
             offset = entity.visible;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = verify[tango];
             golf = golf.bind(report)(tango);
             tango = function() {
-                _fun100016: for(var _fun100016_ip = 0; ; ) switch(_fun100016_ip) {
+                _fun100025: for(var _fun100025_ip = 0; ; ) switch(_fun100025_ip) {
  0:
                     zulu = _closure1_slot2;
                     mike = _closure1_slot3;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.getSafetyHubData;
                     mike = mike.bind(zulu)();
                     mike = _closure2_slot1;
-                    if(!mike) { _fun100016_ip = 159; continue _fun100016 }
+                    if(!mike) { _fun100025_ip = 159; continue _fun100025 }
  45:
                     zulu = _closure1_slot1;
                     golf = _closure1_slot3;
@@ -344,14 +344,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = mike;
             tango[1] = offset;
             zulu = function() {
-                _fun100017: for(var _fun100017_ip = 0; ; ) switch(_fun100017_ip) {
+                _fun100026: for(var _fun100026_ip = 0; ; ) switch(_fun100026_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun100017_ip = 20; continue _fun100017 }
+                    if(!mike) { _fun100026_ip = 20; continue _fun100026 }
  10:
                     mike = _closure2_slot3;
                     entity = null;
-                    if(!(entity == mike)) { _fun100017_ip = 64; continue _fun100017 }
+                    if(!(entity == mike)) { _fun100026_ip = 64; continue _fun100026 }
  20:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot3;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.hideActionSheet;
                     entity = 'SafetyHubErrorActionSheet';
                     entity = mike.bind(zulu)(entity);
-                    _fun100017_ip = 144; continue _fun100017;
+                    _fun100026_ip = 144; continue _fun100026;
  64:
                     tango = _closure1_slot1;
                     entity = _closure1_slot3;
@@ -388,11 +388,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             zulu = golf.bind(verify)(zulu, tango);
-            if(entity) { _fun100015_ip = 372; continue _fun100015 }
+            if(entity) { _fun100024_ip = 372; continue _fun100024 }
  198:
             entity = null;
             mike = entity != mike;
-            if(mike) { _fun100015_ip = 370; continue _fun100015 }
+            if(mike) { _fun100024_ip = 370; continue _fun100024 }
  210:
             tango = _closure1_slot12;
             zulu = _closure1_slot7;
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = golf;
             entity = tango.bind(report)(zulu, mike);
  370:
-            _fun100015_ip = 447; continue _fun100015;
+            _fun100024_ip = 447; continue _fun100024;
  372:
             tango = _closure1_slot11;
             zulu = _closure1_slot5;

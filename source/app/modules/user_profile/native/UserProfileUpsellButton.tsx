@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileUpsellButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun93111: for(var _fun93111_ip = 0; ; ) switch(_fun93111_ip) {
+        _fun93136: for(var _fun93136_ip = 0; ; ) switch(_fun93136_ip) {
  0:
             mike = argFoo;
             entity = mike.analyticsObject;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'active';
             entity['variant'] = golf;
             golf = null;
-            if(!(golf == oscar)) { _fun93111_ip = 209; continue _fun93111 }
+            if(!(golf == oscar)) { _fun93136_ip = 209; continue _fun93136 }
  154:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;

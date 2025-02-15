@@ -58,11 +58,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setFontSize'] = tango;
     tango = function() { // Original name: setMessageGroupSpacing
-        _fun97510: for(var _fun97510_ip = 0; ; ) switch(_fun97510_ip) {
+        _fun97520: for(var _fun97520_ip = 0; ; ) switch(_fun97520_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun97510_ip = 11; continue _fun97510 }
+            if(!(report === entity)) { _fun97520_ip = 11; continue _fun97520 }
  9:
             report = null;
  11:
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setSaturation'] = tango;
     tango = function(argFoo) { // Original name: setPrefersReducedMotion
-        _fun97524: for(var _fun97524_ip = 0; ; ) switch(_fun97524_ip) {
+        _fun97534: for(var _fun97534_ip = 0; ; ) switch(_fun97534_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.useReducedMotion;
@@ -325,9 +325,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['prefersReducedMotion'] = options;
             report = oscar.bind(golf)(report);
             tango = tango.useReducedMotion;
-            if(zulu) { _fun97524_ip = 194; continue _fun97524 }
+            if(zulu) { _fun97534_ip = 194; continue _fun97534 }
  74:
-            if(!tango) { _fun97524_ip = 194; continue _fun97524 }
+            if(!tango) { _fun97534_ip = 194; continue _fun97534 }
  77:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -356,13 +356,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['reasonKey'] = verify;
             report['animateStickers'] = options;
             report = oscar.bind(golf)(report);
-            _fun97524_ip = 248; continue _fun97524;
+            _fun97534_ip = 248; continue _fun97534;
  194:
-            if(!zulu) { _fun97524_ip = 200; continue _fun97524 }
+            if(!zulu) { _fun97534_ip = 200; continue _fun97534 }
  197:
             zulu = !tango;
  200:
-            if(!zulu) { _fun97524_ip = 248; continue _fun97524 }
+            if(!zulu) { _fun97534_ip = 248; continue _fun97534 }
  203:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;

@@ -1,6 +1,6 @@
 // app/modules/collectibles/native/CollectiblesShopCard.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun99585: for(var _fun99585_ip = 0; ; ) switch(_fun99585_ip) {
+    _fun99595: for(var _fun99595_ip = 0; ; ) switch(_fun99595_ip) {
  0:
         golf = argBar;
         foxtrot = argBaz;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = 1.78;
         mike = tango >= mike;
         tango = 282;
-        if(!mike) { _fun99585_ip = 206; continue _fun99585 }
+        if(!mike) { _fun99595_ip = 206; continue _fun99595 }
  200:
         tango = 362;
  206:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = verify.bind(offset)(oscar);
         var _closure1_slot8 = oscar;
         oscar = function(argFoo) { // Original name: CondensedCollectiblesShopCard
-            _fun99586: for(var _fun99586_ip = 0; ; ) switch(_fun99586_ip) {
+            _fun99596: for(var _fun99596_ip = 0; ; ) switch(_fun99596_ip) {
  0:
                 entity = argFoo;
                 verify = entity.product;
@@ -125,10 +125,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.bind(tango)(entity);
                 mike = entity.PressableOpacity;
                 entity = {};
-                if(foxtrot) { _fun99586_ip = 120; continue _fun99586 }
+                if(foxtrot) { _fun99596_ip = 120; continue _fun99596 }
  112:
                 offset = options.cardLightBorder;
-                _fun99586_ip = 126; continue _fun99586;
+                _fun99596_ip = 126; continue _fun99596;
  120:
                 offset = options.cardDarkBorder;
  126:
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         var _closure1_slot9 = oscar;
         oscar = function(argFoo) { // Original name: RegularCollectiblesShopCard
-            _fun99588: for(var _fun99588_ip = 0; ; ) switch(_fun99588_ip) {
+            _fun99598: for(var _fun99598_ip = 0; ; ) switch(_fun99598_ip) {
  0:
                 entity = argFoo;
                 verify = entity.product;
@@ -209,10 +209,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.bind(tango)(entity);
                 mike = entity.PressableOpacity;
                 entity = {};
-                if(backup) { _fun99588_ip = 126; continue _fun99588 }
+                if(backup) { _fun99598_ip = 126; continue _fun99598 }
  118:
                 offset = options.cardLightBorder;
-                _fun99588_ip = 132; continue _fun99588;
+                _fun99598_ip = 132; continue _fun99598;
  126:
                 offset = options.cardDarkBorder;
  132:
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['accessibilityRole'] = report;
                 report = null;
                 golf = report != yankee;
-                if(!golf) { _fun99588_ip = 227; continue _fun99588 }
+                if(!golf) { _fun99598_ip = 227; continue _fun99598 }
  190:
                 offset = _closure1_slot6;
                 options = _closure1_slot1;
@@ -277,14 +277,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'modules/collectibles/native/CollectiblesShopCard.tsx';
         oscar = golf.bind(options)(oscar);
         report = function(argFoo) { // Original name: _default
-            _fun99590: for(var _fun99590_ip = 0; ; ) switch(_fun99590_ip) {
+            _fun99600: for(var _fun99600_ip = 0; ; ) switch(_fun99600_ip) {
  0:
                 mike = argFoo;
                 options = mike.product;
                 var _closure2_slot0 = options;
                 entity = mike.condensed;
                 report = undefined;
-                if(!(entity === report)) { _fun99590_ip = 29; continue _fun99590 }
+                if(!(entity === report)) { _fun99600_ip = 29; continue _fun99600 }
  27:
                 entity = false;
  29:
@@ -357,12 +357,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = options.skuId;
                 offset[2] = backup;
                 zulu = function() {
-                    _fun99593: for(var _fun99593_ip = 0; ; ) switch(_fun99593_ip) {
+                    _fun99603: for(var _fun99603_ip = 0; ; ) switch(_fun99603_ip) {
  0:
                         mike = _closure2_slot0;
                         zulu = mike.skuId;
                         mike = _closure2_slot3;
-                        if(!(zulu === mike)) { _fun99593_ip = 31; continue _fun99593 }
+                        if(!(zulu === mike)) { _fun99603_ip = 31; continue _fun99603 }
  21:
                         mike = _closure2_slot2;
                         entity = undefined;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.bind(verify)(zulu);
                 verify = zulu.handleCardVisibilityChange;
                 tango = _closure1_slot6;
-                if(entity) { _fun99590_ip = 353; continue _fun99590 }
+                if(entity) { _fun99600_ip = 353; continue _fun99600 }
  283:
                 zulu = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = tango.bind(report)(offset, verify);
                 entity['children'] = verify;
                 entity = tango.bind(report)(zulu, entity);
-                _fun99590_ip = 379; continue _fun99590;
+                _fun99600_ip = 379; continue _fun99600;
  353:
                 zulu = _closure1_slot9;
                 mike = {};

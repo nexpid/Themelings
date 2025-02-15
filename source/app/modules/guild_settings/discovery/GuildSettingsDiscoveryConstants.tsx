@@ -2579,20 +2579,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         tango = mike.bind(zulu)();
         zulu = tango.map;
         mike = function(argFoo) {
-            _fun117309: for(var _fun117309_ip = 0; ; ) switch(_fun117309_ip) {
+            _fun117315: for(var _fun117315_ip = 0; ; ) switch(_fun117315_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.value;
                 mike = entity.name;
                 entity = 'en-US';
-                if(!(entity !== zulu)) { _fun117309_ip = 40; continue _fun117309 }
+                if(!(entity !== zulu)) { _fun117315_ip = 40; continue _fun117315 }
  21:
                 entity = {};
                 entity['value'] = zulu;
                 entity['label'] = mike;
                 mike = undefined;
                 entity['image'] = mike;
-                _fun117309_ip = 117; continue _fun117309;
+                _fun117315_ip = 117; continue _fun117315;
  40:
                 mike = {};
                 mike['value'] = zulu;

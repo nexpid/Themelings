@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'components_native/common/ItemSelectorActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ItemSelectorActionSheet
-        _fun73896: for(var _fun73896_ip = 0; ; ) switch(_fun73896_ip) {
+        _fun73906: for(var _fun73906_ip = 0; ; ) switch(_fun73906_ip) {
  0:
             entity = argFoo;
             kilo = entity.title;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf['title'] = kilo;
             verify = null;
             offset = verify != result;
-            if(!offset) { _fun73896_ip = 186; continue _fun73896 }
+            if(!offset) { _fun73906_ip = 186; continue _fun73906 }
  144:
             output = _closure1_slot3;
             romeo = _closure1_slot0;

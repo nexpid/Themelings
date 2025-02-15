@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/LocationIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun70188: for(var _fun70188_ip = 0; ; ) switch(_fun70188_ip) {
+        _fun70194: for(var _fun70194_ip = 0; ; ) switch(_fun70194_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun70188_ip = 53; continue _fun70188 }
+            if(!(golf === tango)) { _fun70194_ip = 53; continue _fun70194 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

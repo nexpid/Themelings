@@ -264,12 +264,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = entity;
         mike[1] = kilo;
         entity = function() {
-            _fun99430: for(var _fun99430_ip = 0; ; ) switch(_fun99430_ip) {
+            _fun99440: for(var _fun99440_ip = 0; ; ) switch(_fun99440_ip) {
  0:
                 mike = _closure2_slot1;
                 zulu = mike.length;
                 mike = 2;
-                if(!(zulu >= mike)) { _fun99430_ip = 81; continue _fun99430 }
+                if(!(zulu >= mike)) { _fun99440_ip = 81; continue _fun99440 }
  19:
                 zulu = _closure2_slot4;
                 mike = zulu.set;

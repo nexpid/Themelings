@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = -1;
     zulu['ADD_CONNECTIONS_SHEET_SENTINEL'] = tango;
     mike = function(argFoo) { // Original name: UserSettingsConnections
-        _fun95608: for(var _fun95608_ip = 0; ; ) switch(_fun95608_ip) {
+        _fun95618: for(var _fun95618_ip = 0; ; ) switch(_fun95618_ip) {
  0:
             entity = argFoo;
             options = entity.selectedPlatformType;
@@ -122,15 +122,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(1);
             verify[0] = options;
             options = function() {
-                _fun95611: for(var _fun95611_ip = 0; ; ) switch(_fun95611_ip) {
+                _fun95621: for(var _fun95621_ip = 0; ; ) switch(_fun95621_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun95611_ip = 164; continue _fun95611 }
+                    if(!(entity != mike)) { _fun95621_ip = 164; continue _fun95621 }
  16:
                     mike = _closure2_slot0;
                     entity = -1;
-                    if(!(entity !== mike)) { _fun95611_ip = 87; continue _fun95611 }
+                    if(!(entity !== mike)) { _fun95621_ip = 87; continue _fun95621 }
  30:
                     mike = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.USER_SETTINGS;
                     entity['location'] = tango;
                     entity = mike.bind(zulu)(entity);
-                    _fun95611_ip = 164; continue _fun95611;
+                    _fun95621_ip = 164; continue _fun95621;
  87:
                     tango = _closure1_slot1;
                     entity = _closure1_slot2;
@@ -190,11 +190,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.bind(options)(oscar, zulu);
             zulu = oscar.fetching;
             oscar = oscar.accounts;
-            if(zulu) { _fun95608_ip = 329; continue _fun95608 }
+            if(zulu) { _fun95618_ip = 329; continue _fun95618 }
  213:
             golf = oscar.length;
             zulu = 0;
-            if(!(zulu !== golf)) { _fun95608_ip = 295; continue _fun95608 }
+            if(!(zulu !== golf)) { _fun95618_ip = 295; continue _fun95618 }
  224:
             zulu = oscar.map;
             mike = function(argFoo) {

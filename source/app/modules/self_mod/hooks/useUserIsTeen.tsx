@@ -37,7 +37,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun79410: for(var _fun79410_ip = 0; ; ) switch(_fun79410_ip) {
+            _fun79420: for(var _fun79420_ip = 0; ; ) switch(_fun79420_ip) {
  0:
                 mike = _closure1_slot2;
                 entity = mike.getCurrentUser;
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun79410_ip = 33; continue _fun79410 }
+                if(zulu) { _fun79420_ip = 33; continue _fun79420 }
  27:
                 entity = mike.nsfwAllowed;
  33:

@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/soundboard/native/utils/getSoundboardEmojiUrl.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getSoundboardEmojiUrl
-        _fun100082: for(var _fun100082_ip = 0; ; ) switch(_fun100082_ip) {
+        _fun100091: for(var _fun100091_ip = 0; ; ) switch(_fun100091_ip) {
  0:
             entity = argFoo;
             report = entity.emojiId;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity == report;
             tango = undefined;
             entity = undefined;
-            if(mike) { _fun100082_ip = 75; continue _fun100082 }
+            if(mike) { _fun100091_ip = 75; continue _fun100091 }
  22:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

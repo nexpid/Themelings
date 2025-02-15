@@ -1486,6 +1486,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango['OVERLAY_OOP_SETTINGS_NUX'] = mike;
     entity = 'OVERLAY_OOP_SETTINGS_NUX';
     tango[mike] = entity;
+    mike = 506;
+    tango['Q1_2025_REVERSE_TRIAL'] = mike;
+    entity = 'Q1_2025_REVERSE_TRIAL';
+    tango[mike] = entity;
+    mike = 507;
+    tango['Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER'] = mike;
+    entity = 'Q1_2025_FOLLOW_UP_REVERSE_TRIAL_OFFER';
+    tango[mike] = entity;
     mike = {};
     mike['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

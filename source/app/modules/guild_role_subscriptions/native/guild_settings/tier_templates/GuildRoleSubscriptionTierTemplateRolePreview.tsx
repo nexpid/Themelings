@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/guild_settings/tier_templates/GuildRoleSubscriptionTierTemplateRolePreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionRolePreview
-        _fun127417: for(var _fun127417_ip = 0; ; ) switch(_fun127417_ip) {
+        _fun127413: for(var _fun127413_ip = 0; ; ) switch(_fun127413_ip) {
  0:
             entity = argFoo;
             yankee = entity.content;
             tango = undefined;
-            if(!(yankee === tango)) { _fun127417_ip = 72; continue _fun127417 }
+            if(!(yankee === tango)) { _fun127413_ip = 72; continue _fun127413 }
  14:
             oscar = _closure1_slot0;
             golf = _closure1_slot3;

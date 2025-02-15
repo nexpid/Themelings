@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'utils/UserSettingsUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function() { // Original name: getSanitizedRestrictedGuilds
-        _fun65651: for(var _fun65651_ip = 0; ; ) switch(_fun65651_ip) {
+        _fun65656: for(var _fun65656_ip = 0; ; ) switch(_fun65656_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun65651_ip = 79; continue _fun65651 }
+            if(!(entity === mike)) { _fun65656_ip = 79; continue _fun65656 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSanitizedRestrictedGuilds'] = oscar;
     oscar = function() { // Original name: getSanitizedMessageRequestRestrictedGuilds
-        _fun65653: for(var _fun65653_ip = 0; ; ) switch(_fun65653_ip) {
+        _fun65658: for(var _fun65658_ip = 0; ; ) switch(_fun65658_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun65653_ip = 79; continue _fun65653 }
+            if(!(entity === mike)) { _fun65658_ip = 79; continue _fun65658 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSanitizedMessageRequestRestrictedGuilds'] = oscar;
     oscar = function() { // Original name: getSanitizedActivityRestrictedGuilds
-        _fun65655: for(var _fun65655_ip = 0; ; ) switch(_fun65655_ip) {
+        _fun65660: for(var _fun65660_ip = 0; ; ) switch(_fun65660_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun65655_ip = 79; continue _fun65655 }
+            if(!(entity === mike)) { _fun65660_ip = 79; continue _fun65660 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSanitizedActivityRestrictedGuilds'] = oscar;
     oscar = function() { // Original name: getSanitizedActivityJoiningRestrictedGuilds
-        _fun65657: for(var _fun65657_ip = 0; ; ) switch(_fun65657_ip) {
+        _fun65662: for(var _fun65662_ip = 0; ; ) switch(_fun65662_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.totalUnavailableGuilds;
             entity = 0;
             zulu = tango;
-            if(!(entity === mike)) { _fun65657_ip = 79; continue _fun65657 }
+            if(!(entity === mike)) { _fun65662_ip = 79; continue _fun65662 }
  60:
             mike = tango.filter;
             entity = function(argFoo) {
@@ -231,12 +231,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSanitizedActivityJoiningRestrictedGuilds'] = oscar;
     oscar = function(argFoo) { // Original name: computeFlags
-        _fun65659: for(var _fun65659_ip = 0; ; ) switch(_fun65659_ip) {
+        _fun65664: for(var _fun65664_ip = 0; ; ) switch(_fun65664_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot7;
             entity = tango & zulu;
-            if(!(entity !== zulu)) { _fun65659_ip = 83; continue _fun65659 }
+            if(!(entity !== zulu)) { _fun65664_ip = 83; continue _fun65664 }
  18:
             entity = {};
             zulu = false;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.MUTUAL_GUILDS;
             mike = zulu === mike;
             entity['mutualGuilds'] = mike;
-            _fun65659_ip = 93; continue _fun65659;
+            _fun65664_ip = 93; continue _fun65664;
  83:
             entity = {'all': true, 'mutualFriends': true, 'mutualGuilds': true};
  93:
@@ -261,23 +261,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['computeFlags'] = oscar;
     oscar = function(argFoo, argBar) { // Original name: harvestDisabled
-        _fun65660: for(var _fun65660_ip = 0; ; ) switch(_fun65660_ip) {
+        _fun65665: for(var _fun65665_ip = 0; ; ) switch(_fun65665_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             entity = zulu.verified;
             entity = !entity;
-            if(entity) { _fun65660_ip = 126; continue _fun65660 }
+            if(entity) { _fun65665_ip = 126; continue _fun65665 }
  18:
             mike = zulu.isStaff;
             mike = mike.bind(zulu)();
             zulu = !mike;
             mike = !zulu;
-            if(!zulu) { _fun65660_ip = 123; continue _fun65660 }
+            if(!zulu) { _fun65665_ip = 123; continue _fun65665 }
  37:
             zulu = null;
             zulu = zulu != tango;
-            if(!zulu) { _fun65660_ip = 120; continue _fun65660 }
+            if(!zulu) { _fun65665_ip = 120; continue _fun65665 }
  46:
             report = _closure1_slot8;
             golf = global;

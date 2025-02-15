@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun123872: for(var _fun123872_ip = 0; ; ) switch(_fun123872_ip) {
+        _fun123877: for(var _fun123877_ip = 0; ; ) switch(_fun123877_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun123872_ip = 51; continue _fun123872 }
+            if(entity) { _fun123877_ip = 51; continue _fun123877 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun123872_ip = 92; continue _fun123872;
+            _fun123877_ip = 92; continue _fun123877;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun123872_ip = 71; continue _fun123872 }
+            if(oscar) { _fun123877_ip = 71; continue _fun123877 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun123873: for(var _fun123873_ip = 0; ; ) switch(_fun123873_ip) {
+        _fun123878: for(var _fun123878_ip = 0; ; ) switch(_fun123878_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun123873_ip = 76; continue _fun123873;
+            _fun123878_ip = 76; continue _fun123878;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:

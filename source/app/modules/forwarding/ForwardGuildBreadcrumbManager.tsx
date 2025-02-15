@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun127791: for(var _fun127791_ip = 0; ; ) switch(_fun127791_ip) {
+        _fun127787: for(var _fun127787_ip = 0; ; ) switch(_fun127787_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot6;
@@ -18,11 +18,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun127791_ip = 48; continue _fun127791 }
+            if(entity) { _fun127787_ip = 48; continue _fun127787 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun127791_ip = 86; continue _fun127791;
+            _fun127787_ip = 86; continue _fun127787;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun127792: for(var _fun127792_ip = 0; ; ) switch(_fun127792_ip) {
+        _fun127788: for(var _fun127788_ip = 0; ; ) switch(_fun127788_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun127792_ip = 76; continue _fun127792;
+            _fun127788_ip = 76; continue _fun127788;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: fetchForwardReferencedGuilds
-        _fun127795: for(var _fun127795_ip = 0; ; ) switch(_fun127795_ip) {
+        _fun127791: for(var _fun127791_ip = 0; ; ) switch(_fun127791_ip) {
  0:
             tango = argFoo;
             mike = tango.message_reference;
@@ -86,17 +86,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = zulu == mike;
             entity = undefined;
             oscar = undefined;
-            if(report) { _fun127795_ip = 27; continue _fun127795 }
+            if(report) { _fun127791_ip = 27; continue _fun127791 }
  22:
             oscar = mike.type;
  27:
             report = _closure1_slot8;
             report = report.FORWARD;
-            if(!(oscar === report)) { _fun127795_ip = 90; continue _fun127795 }
+            if(!(oscar === report)) { _fun127791_ip = 90; continue _fun127791 }
  44:
             tango = tango.message_reference;
             tango = tango.guild_id;
-            if(!(zulu != tango)) { _fun127795_ip = 90; continue _fun127795 }
+            if(!(zulu != tango)) { _fun127791_ip = 90; continue _fun127791 }
  59:
             zulu = _closure1_slot0;
             report = _closure1_slot2;

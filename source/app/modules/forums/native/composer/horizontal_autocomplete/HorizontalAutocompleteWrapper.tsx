@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/composer/horizontal_autocomplete/HorizontalAutocompleteWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HorizontalAutocompleteWrapper
-        _fun87566: for(var _fun87566_ip = 0; ; ) switch(_fun87566_ip) {
+        _fun87583: for(var _fun87583_ip = 0; ; ) switch(_fun87583_ip) {
  0:
             entity = argFoo;
             offset = entity.style;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = romeo;
             oscar[2] = entity;
             entity = function(argFoo, argBar) {
-                _fun87567: for(var _fun87567_ip = 0; ; ) switch(_fun87567_ip) {
+                _fun87584: for(var _fun87584_ip = 0; ; ) switch(_fun87584_ip) {
  0:
                     mike = argFoo;
                     entity = mike.stopPropagation;
@@ -90,14 +90,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = null;
                     mike = zulu != mike;
                     tango = 0;
-                    if(!mike) { _fun87567_ip = 39; continue _fun87567 }
+                    if(!mike) { _fun87584_ip = 39; continue _fun87584 }
  35:
                     tango = _closure2_slot2;
  39:
                     mike = _closure2_slot3;
                     mike = zulu != mike;
                     zulu = '';
-                    if(!mike) { _fun87567_ip = 58; continue _fun87567 }
+                    if(!mike) { _fun87584_ip = 58; continue _fun87584 }
  54:
                     zulu = _closure2_slot3;
  58:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = yankee;
             mike[1] = entity;
             entity = function(argFoo) {
-                _fun87568: for(var _fun87568_ip = 0; ; ) switch(_fun87568_ip) {
+                _fun87585: for(var _fun87585_ip = 0; ; ) switch(_fun87585_ip) {
  0:
                     entity = argFoo;
                     oscar = entity.item;
@@ -123,19 +123,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = oscar.type;
                     mike = _closure1_slot6;
                     mike = mike.USER;
-                    if(!(mike !== zulu)) { _fun87568_ip = 313; continue _fun87568 }
+                    if(!(mike !== zulu)) { _fun87585_ip = 313; continue _fun87585 }
  39:
                     mike = _closure1_slot6;
                     mike = mike.ROLE;
-                    if(!(mike !== zulu)) { _fun87568_ip = 224; continue _fun87568 }
+                    if(!(mike !== zulu)) { _fun87585_ip = 224; continue _fun87585 }
  56:
                     mike = _closure1_slot6;
                     mike = mike.CHANNEL;
-                    if(!(mike !== zulu)) { _fun87568_ip = 156; continue _fun87568 }
+                    if(!(mike !== zulu)) { _fun87585_ip = 156; continue _fun87585 }
  70:
                     mike = _closure1_slot6;
                     mike = mike.EMOJI;
-                    if(!(mike !== zulu)) { _fun87568_ip = 88; continue _fun87568 }
+                    if(!(mike !== zulu)) { _fun87585_ip = 88; continue _fun87585 }
  84:
                     mike = null;
                     return mike;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options.length;
             entity = 0;
             mike = mike > entity;
-            if(!mike) { _fun87566_ip = 246; continue _fun87566 }
+            if(!mike) { _fun87583_ip = 246; continue _fun87583 }
  243:
             entity = 1;
  246:

@@ -42,13 +42,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun76243: for(var _fun76243_ip = 0; ; ) switch(_fun76243_ip) {
+        _fun76253: for(var _fun76253_ip = 0; ; ) switch(_fun76253_ip) {
  0:
             zulu = argFoo;
             report = zulu.style;
             yankee = zulu.scaleAmountInPx;
             tango = undefined;
-            if(!(yankee === tango)) { _fun76243_ip = 23; continue _fun76243 }
+            if(!(yankee === tango)) { _fun76253_ip = 23; continue _fun76253 }
  20:
             yankee = 8;
  23:

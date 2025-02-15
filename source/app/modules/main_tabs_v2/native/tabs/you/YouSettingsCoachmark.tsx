@@ -66,12 +66,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun116663: for(var _fun116663_ip = 0; ; ) switch(_fun116663_ip) {
+            _fun116669: for(var _fun116669_ip = 0; ; ) switch(_fun116669_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 zulu = entity != zulu;
-                if(!zulu) { _fun116663_ip = 20; continue _fun116663 }
+                if(!zulu) { _fun116669_ip = 20; continue _fun116669 }
  16:
                 entity = _closure2_slot0;
  20:

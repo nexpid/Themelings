@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/AppLauncherUserAppInstallEducation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: AppLauncherUserAppInstallEducation
-        _fun101223: for(var _fun101223_ip = 0; ; ) switch(_fun101223_ip) {
+        _fun101232: for(var _fun101232_ip = 0; ; ) switch(_fun101232_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -265,19 +265,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.showsTooltip;
             tango = null;
             entity = null;
-            if(!options) { _fun101223_ip = 135; continue _fun101223 }
+            if(!options) { _fun101232_ip = 135; continue _fun101232 }
  74:
             entity = null;
-            if(!zulu) { _fun101223_ip = 135; continue _fun101223 }
+            if(!zulu) { _fun101232_ip = 135; continue _fun101232 }
  79:
             zulu = tango != golf;
             entity = null;
-            if(!zulu) { _fun101223_ip = 135; continue _fun101223 }
+            if(!zulu) { _fun101232_ip = 135; continue _fun101232 }
  88:
             zulu = golf.iconURL;
             zulu = tango != zulu;
             entity = null;
-            if(!zulu) { _fun101223_ip = 135; continue _fun101223 }
+            if(!zulu) { _fun101232_ip = 135; continue _fun101232 }
  103:
             tango = _closure1_slot7;
             zulu = _closure1_slot12;

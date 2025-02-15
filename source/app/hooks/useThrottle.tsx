@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = mike;
     mike = function(argFoo, argBar) { // Original name: useThrottledFunction
-        _fun104086: for(var _fun104086_ip = 0; ; ) switch(_fun104086_ip) {
+        _fun104078: for(var _fun104078_ip = 0; ; ) switch(_fun104078_ip) {
  0:
             verify = argFoo;
             options = argBar;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             var _closure2_slot0 = verify;
             var _closure2_slot1 = options;
             offset = undefined;
-            if(!(golf === offset)) { _fun104086_ip = 32; continue _fun104086 }
+            if(!(golf === offset)) { _fun104078_ip = 32; continue _fun104078 }
  28:
             golf = new Array(0);
  32:
@@ -75,12 +75,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = report.bind(oscar)(tango, zulu, entity);
                 mike['current'] = entity;
                 entity = function() {
-                    _fun104088: for(var _fun104088_ip = 0; ; ) switch(_fun104088_ip) {
+                    _fun104080: for(var _fun104080_ip = 0; ; ) switch(_fun104080_ip) {
  0:
                         entity = _closure2_slot3;
                         mike = entity.current;
                         entity = null;
-                        if(!(entity != mike)) { _fun104088_ip = 28; continue _fun104088 }
+                        if(!(entity != mike)) { _fun104080_ip = 28; continue _fun104080 }
  18:
                         entity = mike.cancel;
                         entity = entity.bind(mike)();
@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = 'hooks/useThrottle.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) {
-        _fun104089: for(var _fun104089_ip = 0; ; ) switch(_fun104089_ip) {
+        _fun104081: for(var _fun104081_ip = 0; ; ) switch(_fun104081_ip) {
  0:
             entity = argFoo;
             tango = argBar;
             verify = arguments[2];
             var _closure2_slot0 = entity;
             options = undefined;
-            if(!(verify === options)) { _fun104089_ip = 25; continue _fun104089 }
+            if(!(verify === options)) { _fun104081_ip = 25; continue _fun104081 }
  21:
             verify = new Array(0);
  25:
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             };
             zulu = oscar.bind(golf)(zulu, report);
             zulu = 0;
-            if(!(zulu !== tango)) { _fun104089_ip = 122; continue _fun104089 }
+            if(!(zulu !== tango)) { _fun104081_ip = 122; continue _fun104081 }
  117:
             entity = mike.current;
  122:

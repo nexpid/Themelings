@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun126155: for(var _fun126155_ip = 0; ; ) switch(_fun126155_ip) {
+                _fun126151: for(var _fun126151_ip = 0; ; ) switch(_fun126151_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun126155_ip = 234; continue _fun126155 }
+                    if(zulu) { _fun126151_ip = 234; continue _fun126151 }
  13:
                     oscar = mike.guildId;
                     sizing = mike.roleId;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return golf;
  58:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun126155_ip = 231; continue _fun126155 }
+                    if(zulu) { _fun126151_ip = 231; continue _fun126151 }
  67:
                     report = _closure1_slot0;
                     options = _closure1_slot2;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = null;
                     backup = romeo != foxtrot;
                     romeo = 0;
-                    if(!backup) { _fun126155_ip = 148; continue _fun126155 }
+                    if(!backup) { _fun126151_ip = 148; continue _fun126151 }
  145:
                     romeo = foxtrot;
  148:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  188:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun126155_ip = 228; continue _fun126155 }
+                    if(report) { _fun126151_ip = 228; continue _fun126151 }
  194:
                     report = _closure1_slot1;
                     options = _closure1_slot2;

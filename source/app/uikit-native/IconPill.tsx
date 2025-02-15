@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/IconPill.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: IconPill
-        _fun76901: for(var _fun76901_ip = 0; ; ) switch(_fun76901_ip) {
+        _fun76911: for(var _fun76911_ip = 0; ; ) switch(_fun76911_ip) {
  0:
             entity = argFoo;
             verify = entity.text;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = golf;
             entity['style'] = report;
             report = null;
-            if(!(report == foxtrot)) { _fun76901_ip = 159; continue _fun76901 }
+            if(!(report == foxtrot)) { _fun76911_ip = 159; continue _fun76911 }
  86:
             options = _closure1_slot4;
             kilo = _closure1_slot1;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = yankee.pillIcon;
             report['style'] = backup;
             golf = options.bind(tango)(golf, report);
-            _fun76901_ip = 189; continue _fun76901;
+            _fun76911_ip = 189; continue _fun76911;
  159:
             options = _closure1_slot4;
             report = {};

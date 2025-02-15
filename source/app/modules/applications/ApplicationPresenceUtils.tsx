@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/applications/ApplicationPresenceUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: shouldDisableUserPresenceInChannel
-        _fun77215: for(var _fun77215_ip = 0; ; ) switch(_fun77215_ip) {
+        _fun77225: for(var _fun77225_ip = 0; ; ) switch(_fun77225_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -34,16 +34,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(entity);
             zulu = null;
             entity = zulu != tango;
-            if(!entity) { _fun77215_ip = 44; continue _fun77215 }
+            if(!entity) { _fun77225_ip = 44; continue _fun77225 }
  38:
             entity = report.bot;
  44:
-            if(!entity) { _fun77215_ip = 57; continue _fun77215 }
+            if(!entity) { _fun77225_ip = 57; continue _fun77225 }
  47:
             report = tango.isPrivate;
             entity = report.bind(tango)();
  57:
-            if(!entity) { _fun77215_ip = 87; continue _fun77215 }
+            if(!entity) { _fun77225_ip = 87; continue _fun77225 }
  60:
             report = tango.rawRecipients;
             tango = report.find;

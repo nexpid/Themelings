@@ -148,19 +148,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['NewBadge'] = tango;
     mike = function(argFoo) {
-        _fun64054: for(var _fun64054_ip = 0; ; ) switch(_fun64054_ip) {
+        _fun64059: for(var _fun64059_ip = 0; ; ) switch(_fun64059_ip) {
  0:
             mike = argFoo;
             entity = mike.isNew;
             report = undefined;
-            if(!(entity === report)) { _fun64054_ip = 17; continue _fun64054 }
+            if(!(entity === report)) { _fun64059_ip = 17; continue _fun64059 }
  15:
             entity = false;
  17:
             options = mike.style;
             mike = _closure1_slot7;
             offset = mike.bind(report)();
-            if(entity) { _fun64054_ip = 156; continue _fun64054 }
+            if(entity) { _fun64059_ip = 156; continue _fun64059 }
  36:
             zulu = _closure1_slot5;
             mike = _closure1_slot3;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(report)(golf, tango);
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun64054_ip = 404; continue _fun64054;
+            _fun64059_ip = 404; continue _fun64059;
  156:
             tango = _closure1_slot6;
             yankee = _closure1_slot1;

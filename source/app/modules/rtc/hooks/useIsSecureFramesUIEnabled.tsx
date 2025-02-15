@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun80818: for(var _fun80818_ip = 0; ; ) switch(_fun80818_ip) {
+            _fun80830: for(var _fun80830_ip = 0; ; ) switch(_fun80830_ip) {
  0:
                 verify = _closure2_slot0;
                 mike = _closure2_slot1;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot2;
                 report[1] = entity;
                 tango = undefined;
-                if(!(report === tango)) { _fun80818_ip = 63; continue _fun80818 }
+                if(!(report === tango)) { _fun80830_ip = 63; continue _fun80830 }
  40:
                 oscar = _closure1_slot3;
                 entity = new Array(2);
@@ -90,61 +90,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = entity;
                 report = report === tango;
                 oscar = undefined;
-                if(report) { _fun80818_ip = 88; continue _fun80818 }
+                if(report) { _fun80830_ip = 88; continue _fun80830 }
  85:
                 oscar = options;
  88:
                 options = undefined;
-                if(report) { _fun80818_ip = 118; continue _fun80818 }
+                if(report) { _fun80830_ip = 118; continue _fun80830 }
  93:
                 offset = golf().value;
                 golf = entity;
                 golf = golf === tango;
                 options = undefined;
                 report = golf;
-                if(golf) { _fun80818_ip = 118; continue _fun80818 }
+                if(golf) { _fun80830_ip = 118; continue _fun80830 }
  112:
                 options = offset;
                 report = golf;
  118:
-                if(report) { _fun80818_ip = 124; continue _fun80818 }
+                if(report) { _fun80830_ip = 124; continue _fun80830 }
  121:
                 entity.return();
  124:
                 entity = false;
-                if(!mike) { _fun80818_ip = 233; continue _fun80818 }
+                if(!mike) { _fun80830_ip = 233; continue _fun80830 }
  129:
                 mike = null;
                 report = mike == verify;
                 entity = false;
-                if(report) { _fun80818_ip = 233; continue _fun80818 }
+                if(report) { _fun80830_ip = 233; continue _fun80830 }
  140:
                 report = oscar.getChannelId;
                 report = report.bind(oscar)();
                 entity = false;
-                if(!(report === verify)) { _fun80818_ip = 233; continue _fun80818 }
+                if(!(report === verify)) { _fun80830_ip = 233; continue _fun80830 }
  156:
                 report = options.getChannel;
                 options = report.bind(options)(verify);
                 report = mike == options;
                 entity = false;
-                if(report) { _fun80818_ip = 233; continue _fun80818 }
+                if(report) { _fun80830_ip = 233; continue _fun80830 }
  175:
                 report = options.isGuildStageVoice;
                 report = report.bind(options)();
                 entity = false;
-                if(report) { _fun80818_ip = 233; continue _fun80818 }
+                if(report) { _fun80830_ip = 233; continue _fun80830 }
  190:
                 report = oscar.getSecureFramesState;
                 report = report.bind(oscar)();
                 oscar = mike == report;
                 tango = undefined;
-                if(oscar) { _fun80818_ip = 215; continue _fun80818 }
+                if(oscar) { _fun80830_ip = 215; continue _fun80830 }
  209:
                 tango = report.version;
  215:
                 mike = mike != tango;
-                if(!mike) { _fun80818_ip = 230; continue _fun80818 }
+                if(!mike) { _fun80830_ip = 230; continue _fun80830 }
  222:
                 zulu = _closure1_slot4;
                 mike = tango !== zulu;

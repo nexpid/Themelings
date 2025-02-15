@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CheckmarkSmallBoldIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun73949: for(var _fun73949_ip = 0; ; ) switch(_fun73949_ip) {
+        _fun73959: for(var _fun73959_ip = 0; ; ) switch(_fun73959_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun73949_ip = 53; continue _fun73949 }
+            if(!(golf === tango)) { _fun73959_ip = 53; continue _fun73959 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

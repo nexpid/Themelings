@@ -40,14 +40,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: shouldWarnConnectedAccountTwoWay
-        _fun95677: for(var _fun95677_ip = 0; ; ) switch(_fun95677_ip) {
+        _fun95687: for(var _fun95687_ip = 0; ; ) switch(_fun95687_ip) {
  0:
             mike = argFoo;
             tango = _closure1_slot0;
             zulu = tango.has;
             entity = mike.type;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun95677_ip = 34; continue _fun95677 }
+            if(!entity) { _fun95687_ip = 34; continue _fun95687 }
  28:
             entity = mike.twoWayLink;
  34:

@@ -20,15 +20,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = tango.bind(mike)(zulu);
         mike = zulu.experimental_createToken;
         entity = function(argFoo) {
-            _fun48634: for(var _fun48634_ip = 0; ; ) switch(_fun48634_ip) {
+            _fun48641: for(var _fun48641_ip = 0; ; ) switch(_fun48641_ip) {
  0:
                 entity = argFoo;
                 mike = entity.primaryColor;
                 entity = null;
-                if(!(entity == mike)) { _fun48634_ip = 24; continue _fun48634 }
+                if(!(entity == mike)) { _fun48641_ip = 24; continue _fun48641 }
  15:
                 entity = _closure2_slot0;
-                _fun48634_ip = 31; continue _fun48634;
+                _fun48641_ip = 31; continue _fun48641;
  24:
                 entity = _closure2_slot1;
  31:
@@ -105,32 +105,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = tango.bind(mike)(zulu);
         mike = zulu.experimental_createToken;
         entity = function(argFoo) {
-            _fun48636: for(var _fun48636_ip = 0; ; ) switch(_fun48636_ip) {
+            _fun48643: for(var _fun48643_ip = 0; ; ) switch(_fun48643_ip) {
  0:
                 entity = argFoo;
                 mike = entity.gradient;
                 entity = null;
-                if(!(entity == mike)) { _fun48636_ip = 287; continue _fun48636 }
+                if(!(entity == mike)) { _fun48643_ip = 287; continue _fun48643 }
  18:
                 zulu = _closure2_slot0;
                 mike = 'none';
-                if(!(mike !== zulu)) { _fun48636_ip = 287; continue _fun48636 }
+                if(!(mike !== zulu)) { _fun48643_ip = 287; continue _fun48643 }
  36:
                 mike = _closure2_slot0;
                 entity = 'border';
-                if(!(entity !== mike)) { _fun48636_ip = 248; continue _fun48636 }
+                if(!(entity !== mike)) { _fun48643_ip = 248; continue _fun48643 }
  51:
                 entity = 'high';
-                if(!(entity !== mike)) { _fun48636_ip = 209; continue _fun48636 }
+                if(!(entity !== mike)) { _fun48643_ip = 209; continue _fun48643 }
  62:
                 entity = 'ledge';
-                if(!(entity !== mike)) { _fun48636_ip = 170; continue _fun48636 }
+                if(!(entity !== mike)) { _fun48643_ip = 170; continue _fun48643 }
  72:
                 entity = 'low';
-                if(!(entity !== mike)) { _fun48636_ip = 131; continue _fun48636 }
+                if(!(entity !== mike)) { _fun48643_ip = 131; continue _fun48643 }
  80:
                 entity = 'medium';
-                if(!(entity !== mike)) { _fun48636_ip = 92; continue _fun48636 }
+                if(!(entity !== mike)) { _fun48643_ip = 92; continue _fun48643 }
  88:
                 entity = undefined;
                 return entity;

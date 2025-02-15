@@ -44,13 +44,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun86493: for(var _fun86493_ip = 0; ; ) switch(_fun86493_ip) {
+        _fun86510: for(var _fun86510_ip = 0; ; ) switch(_fun86510_ip) {
  0:
             entity = argFoo;
             mike = entity.sendState;
             golf = entity.disabled;
             tango = undefined;
-            if(!(golf === tango)) { _fun86493_ip = 22; continue _fun86493 }
+            if(!(golf === tango)) { _fun86510_ip = 22; continue _fun86510 }
  20:
             golf = false;
  22:
@@ -71,15 +71,15 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = zulu.bind(options)(entity);
             entity = _closure1_slot3;
             entity = entity.SENDING;
-            if(!(entity !== mike)) { _fun86493_ip = 317; continue _fun86493 }
+            if(!(entity !== mike)) { _fun86510_ip = 317; continue _fun86510 }
  111:
             entity = _closure1_slot3;
             entity = entity.SENT;
-            if(!(entity !== mike)) { _fun86493_ip = 259; continue _fun86493 }
+            if(!(entity !== mike)) { _fun86510_ip = 259; continue _fun86510 }
  128:
             entity = _closure1_slot3;
             entity = entity.ERROR;
-            if(!(entity !== mike)) { _fun86493_ip = 201; continue _fun86493 }
+            if(!(entity !== mike)) { _fun86510_ip = 201; continue _fun86510 }
  142:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.jYnGPD;
             offset = mike.bind(zulu)(entity);
             options = false;
-            _fun86493_ip = 373; continue _fun86493;
+            _fun86510_ip = 373; continue _fun86510;
  201:
             yankee = _closure1_slot0;
             entity = _closure1_slot1;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = mike.bind(zulu)(entity);
             options = false;
             golf = false;
-            _fun86493_ip = 373; continue _fun86493;
+            _fun86510_ip = 373; continue _fun86510;
  259:
             yankee = _closure1_slot0;
             entity = _closure1_slot1;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = mike.bind(zulu)(entity);
             options = false;
             golf = true;
-            _fun86493_ip = 373; continue _fun86493;
+            _fun86510_ip = 373; continue _fun86510;
  317:
             yankee = _closure1_slot0;
             entity = _closure1_slot1;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = {'accessibilityRole': 'none', 'size': 'sm', 'variant': 'secondary'};
             report['text'] = offset;
             report['onPress'] = verify;
-            if(golf) { _fun86493_ip = 447; continue _fun86493 }
+            if(golf) { _fun86510_ip = 447; continue _fun86510 }
  444:
             golf = options;
  447:

@@ -26,20 +26,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/isCrosspost.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isCrosspost
-        _fun69380: for(var _fun69380_ip = 0; ; ) switch(_fun69380_ip) {
+        _fun69386: for(var _fun69386_ip = 0; ; ) switch(_fun69386_ip) {
  0:
             zulu = argFoo;
             tango = zulu.type;
             entity = _closure1_slot1;
             entity = entity.DEFAULT;
             entity = tango === entity;
-            if(!entity) { _fun69380_ip = 40; continue _fun69380 }
+            if(!entity) { _fun69386_ip = 40; continue _fun69386 }
  28:
             report = zulu.messageReference;
             tango = null;
             entity = tango != report;
  40:
-            if(!entity) { _fun69380_ip = 68; continue _fun69380 }
+            if(!entity) { _fun69386_ip = 68; continue _fun69386 }
  43:
             zulu = zulu.messageReference;
             zulu = zulu.type;

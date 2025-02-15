@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = golf.bind(options)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: o
-            _fun94158: for(var _fun94158_ip = 0; ; ) switch(_fun94158_ip) {
+            _fun94183: for(var _fun94183_ip = 0; ; ) switch(_fun94183_ip) {
  0:
                 mike = _closure2_slot3;
                 oscar = mike.inactive;
@@ -45,19 +45,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = verify.get;
                 mike = mike.bind(verify)();
                 mike = golf.bind(options)(mike);
-                if(!(report !== zulu)) { _fun94158_ip = 111; continue _fun94158 }
+                if(!(report !== zulu)) { _fun94183_ip = 111; continue _fun94183 }
  80:
-                if(tango) { _fun94158_ip = 99; continue _fun94158 }
+                if(tango) { _fun94183_ip = 99; continue _fun94183 }
  83:
-                if(!(mike === zulu)) { _fun94158_ip = 121; continue _fun94158 }
+                if(!(mike === zulu)) { _fun94183_ip = 121; continue _fun94183 }
  87:
                 mike = _closure2_slot3;
                 oscar = mike.active;
-                _fun94158_ip = 121; continue _fun94158;
+                _fun94183_ip = 121; continue _fun94183;
  99:
                 mike = _closure2_slot3;
                 oscar = mike.inactive;
-                _fun94158_ip = 121; continue _fun94158;
+                _fun94183_ip = 121; continue _fun94183;
  111:
                 entity = _closure2_slot3;
                 oscar = entity.pressed;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Tabs/native/TabItem.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TabItem
-        _fun94162: for(var _fun94162_ip = 0; ; ) switch(_fun94162_ip) {
+        _fun94187: for(var _fun94187_ip = 0; ; ) switch(_fun94187_ip) {
  0:
             tango = argFoo;
             backup = tango.label;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = output;
             output = {};
             result = 0;
-            if(!echo) { _fun94162_ip = 250; continue _fun94162 }
+            if(!echo) { _fun94187_ip = 250; continue _fun94187 }
  247:
             result = 1;
  250:
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = options;
             options = report != foxtrot;
             report = null;
-            if(!options) { _fun94162_ip = 421; continue _fun94162 }
+            if(!options) { _fun94187_ip = 421; continue _fun94187 }
  387:
             verify = _closure1_slot4;
             options = _closure1_slot15;

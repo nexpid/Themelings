@@ -57,11 +57,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[3] = golf;
         mike[4] = entity;
         entity = function() {
-            _fun89608: for(var _fun89608_ip = 0; ; ) switch(_fun89608_ip) {
+            _fun89625: for(var _fun89625_ip = 0; ; ) switch(_fun89625_ip) {
  0:
                 mike = _closure2_slot4;
                 entity = null;
-                if(!(entity != mike)) { _fun89608_ip = 23; continue _fun89608 }
+                if(!(entity != mike)) { _fun89625_ip = 23; continue _fun89625 }
  13:
                 mike = _closure2_slot4;
                 entity = undefined;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar['style'] = offset;
         offset = yankee.map;
         verify = function(argFoo, argBar) {
-            _fun89609: for(var _fun89609_ip = 0; ; ) switch(_fun89609_ip) {
+            _fun89626: for(var _fun89626_ip = 0; ; ) switch(_fun89626_ip) {
  0:
                 entity = argFoo;
                 report = _closure1_slot7;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 options = oscar != golf;
                 oscar = 'primary';
-                if(!options) { _fun89609_ip = 69; continue _fun89609 }
+                if(!options) { _fun89626_ip = 69; continue _fun89626 }
  66:
                 oscar = golf;
  69:

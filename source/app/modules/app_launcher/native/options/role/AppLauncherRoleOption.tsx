@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/role/AppLauncherRoleOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherRoleOption
-        _fun119258: for(var _fun119258_ip = 0; ; ) switch(_fun119258_ip) {
+        _fun119264: for(var _fun119264_ip = 0; ; ) switch(_fun119264_ip) {
  0:
             mike = argFoo;
             yankee = mike.style;
@@ -64,19 +64,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = _closure1_slot4;
             mike = foxtrot.useState;
             entity = function() {
-                _fun119259: for(var _fun119259_ip = 0; ; ) switch(_fun119259_ip) {
+                _fun119265: for(var _fun119265_ip = 0; ; ) switch(_fun119265_ip) {
  0:
                     entity = _closure2_slot1;
                     report = null;
                     zulu = report != entity;
                     entity = null;
-                    if(!zulu) { _fun119259_ip = 47; continue _fun119259 }
+                    if(!zulu) { _fun119265_ip = 47; continue _fun119265 }
  18:
                     zulu = _closure2_slot1;
                     tango = zulu.type;
                     zulu = 'roleMention';
                     entity = null;
-                    if(!(zulu === tango)) { _fun119259_ip = 47; continue _fun119259 }
+                    if(!(zulu === tango)) { _fun119265_ip = 47; continue _fun119265 }
  37:
                     mike = _closure2_slot1;
                     entity = mike.roleId;
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun119260: for(var _fun119260_ip = 0; ; ) switch(_fun119260_ip) {
+                _fun119266: for(var _fun119266_ip = 0; ; ) switch(_fun119266_ip) {
  0:
                     entity = _closure2_slot7;
                     zulu = null;
-                    if(!(zulu == entity)) { _fun119260_ip = 17; continue _fun119260 }
+                    if(!(zulu == entity)) { _fun119266_ip = 17; continue _fun119266 }
  13:
                     entity = undefined;
                     return entity;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot6;
                     zulu = zulu != entity;
                     entity = undefined;
-                    if(!zulu) { _fun119260_ip = 57; continue _fun119260 }
+                    if(!zulu) { _fun119266_ip = 57; continue _fun119266 }
  30:
                     report = _closure1_slot5;
                     tango = report.getRole;
@@ -138,17 +138,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = verify;
             mike[3] = entity;
             entity = function() {
-                _fun119261: for(var _fun119261_ip = 0; ; ) switch(_fun119261_ip) {
+                _fun119267: for(var _fun119267_ip = 0; ; ) switch(_fun119267_ip) {
  0:
                     zulu = _closure2_slot7;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun119261_ip = 24; continue _fun119261 }
+                    if(!zulu) { _fun119267_ip = 24; continue _fun119267 }
  16:
                     tango = _closure2_slot9;
                     zulu = entity == tango;
  24:
-                    if(!zulu) { _fun119261_ip = 45; continue _fun119261 }
+                    if(!zulu) { _fun119267_ip = 45; continue _fun119267 }
  27:
                     zulu = _closure2_slot2;
                     mike = {};
@@ -175,17 +175,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['selected'] = offset;
             offset = options != verify;
             options = undefined;
-            if(!offset) { _fun119258_ip = 307; continue _fun119258 }
+            if(!offset) { _fun119264_ip = 307; continue _fun119264 }
  302:
             options = verify.name;
  307:
             entity['selectedItemName'] = options;
             golf = function() { // Original name: onPress
-                _fun119262: for(var _fun119262_ip = 0; ; ) switch(_fun119262_ip) {
+                _fun119268: for(var _fun119268_ip = 0; ; ) switch(_fun119268_ip) {
  0:
                     mike = _closure2_slot5;
                     entity = null;
-                    if(!(entity != mike)) { _fun119262_ip = 23; continue _fun119262 }
+                    if(!(entity != mike)) { _fun119268_ip = 23; continue _fun119268 }
  13:
                     mike = _closure2_slot5;
                     entity = undefined;

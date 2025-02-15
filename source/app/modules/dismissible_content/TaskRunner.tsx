@@ -67,12 +67,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'unschedule';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun38263: for(var _fun38263_ip = 0; ; ) switch(_fun38263_ip) {
+            _fun38270: for(var _fun38270_ip = 0; ; ) switch(_fun38270_ip) {
  0:
                 mike = this;
                 entity = mike.scheduled;
                 entity = entity.bind(mike)();
-                if(!entity) { _fun38263_ip = 45; continue _fun38263 }
+                if(!entity) { _fun38270_ip = 45; continue _fun38270 }
  16:
                 entity = global;
                 tango = entity.clearTimeout;

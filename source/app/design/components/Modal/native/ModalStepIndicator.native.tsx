@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = offset;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: StepPill
-        _fun99370: for(var _fun99370_ip = 0; ; ) switch(_fun99370_ip) {
+        _fun99380: for(var _fun99380_ip = 0; ; ) switch(_fun99380_ip) {
  0:
             entity = argFoo;
             entity = entity.isActive;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.bind(tango)(golf);
             options = verify.useSharedValue;
             golf = 0;
-            if(!entity) { _fun99370_ip = 73; continue _fun99370 }
+            if(!entity) { _fun99380_ip = 73; continue _fun99380 }
  70:
             golf = 1;
  73:
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = entity;
             golf[1] = romeo;
             entity = function() {
-                _fun99371: for(var _fun99371_ip = 0; ; ) switch(_fun99371_ip) {
+                _fun99381: for(var _fun99381_ip = 0; ; ) switch(_fun99381_ip) {
  0:
                     mike = _closure2_slot0;
                     golf = 0;
-                    if(!mike) { _fun99371_ip = 15; continue _fun99371 }
+                    if(!mike) { _fun99381_ip = 15; continue _fun99381 }
  12:
                     golf = 1;
  15:
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Modal/native/ModalStepIndicator.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ModalStepIndicator
-        _fun99373: for(var _fun99373_ip = 0; ; ) switch(_fun99373_ip) {
+        _fun99383: for(var _fun99383_ip = 0; ; ) switch(_fun99383_ip) {
  0:
             entity = argFoo;
             golf = entity.currentStep;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(0);
             mike = 0;
             options = mike < zulu;
-            if(!options) { _fun99373_ip = 84; continue _fun99373 }
+            if(!options) { _fun99383_ip = 84; continue _fun99383 }
  41:
             verify = report.push;
             yankee = _closure1_slot5;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(tango)(offset, options, mike);
             options = verify.bind(report)(options);
             mike = mike + 1;
-            if(mike < zulu) { _fun99373_ip = 41; continue _fun99373 }
+            if(mike < zulu) { _fun99383_ip = 41; continue _fun99383 }
  84:
             zulu = _closure1_slot5;
             mike = _closure1_slot4;

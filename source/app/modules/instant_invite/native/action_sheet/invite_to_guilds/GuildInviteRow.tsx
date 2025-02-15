@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun102769: for(var _fun102769_ip = 0; ; ) switch(_fun102769_ip) {
+        _fun102761: for(var _fun102761_ip = 0; ; ) switch(_fun102761_ip) {
  0:
             mike = argFoo;
             entity = mike.row;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot4;
             tango = undefined;
             mike = function(argFoo) {
-                _fun102770: for(var _fun102770_ip = 0; ; ) switch(_fun102770_ip) {
+                _fun102762: for(var _fun102762_ip = 0; ; ) switch(_fun102762_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = argFoo;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     tango = entity == zulu;
                     entity = undefined;
-                    if(tango) { _fun102770_ip = 38; continue _fun102770 }
+                    if(tango) { _fun102762_ip = 38; continue _fun102762 }
  25:
                     mike = _closure2_slot3;
                     mike = mike.id;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             mike = mike.SENDING;
             golf = zulu === mike;
-            if(golf) { _fun102769_ip = 230; continue _fun102769 }
+            if(golf) { _fun102761_ip = 230; continue _fun102761 }
  216:
             mike = _closure1_slot5;
             mike = mike.SENT;

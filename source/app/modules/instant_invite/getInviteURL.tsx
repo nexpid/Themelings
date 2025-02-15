@@ -19,16 +19,16 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike = 'modules/instant_invite/getInviteURL.tsx';
     mike = tango.bind(report)(mike);
     mike = function() { // Original name: getInviteURL
-        _fun86374: for(var _fun86374_ip = 0; ; ) switch(_fun86374_ip) {
+        _fun86391: for(var _fun86391_ip = 0; ; ) switch(_fun86391_ip) {
  0:
             tango = arguments[0];
             oscar = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun86374_ip = 16; continue _fun86374 }
+            if(!(tango === entity)) { _fun86391_ip = 16; continue _fun86391 }
  12:
             tango = '';
  16:
-            if(!(oscar === entity)) { _fun86374_ip = 22; continue _fun86374 }
+            if(!(oscar === entity)) { _fun86391_ip = 22; continue _fun86391 }
  20:
             oscar = true;
  22:
@@ -42,7 +42,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             tango = zulu.bind(mike)(tango);
             zulu = '';
             mike = zulu;
-            if(!oscar) { _fun86374_ip = 107; continue _fun86374 }
+            if(!oscar) { _fun86391_ip = 107; continue _fun86391 }
  72:
             oscar = entity.location;
             options = oscar.protocol;

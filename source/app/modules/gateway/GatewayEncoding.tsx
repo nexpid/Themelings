@@ -1,6 +1,6 @@
 // app/modules/gateway/GatewayEncoding.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun105979: for(var _fun105979_ip = 0; ; ) switch(_fun105979_ip) {
+    _fun105971: for(var _fun105971_ip = 0; ; ) switch(_fun105971_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -57,12 +57,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = 'unpack';
             entity['key'] = oscar;
             oscar = function(argFoo) { // Original name: value
-                _fun105983: for(var _fun105983_ip = 0; ; ) switch(_fun105983_ip) {
+                _fun105975: for(var _fun105975_ip = 0; ; ) switch(_fun105975_ip) {
  0:
                     report = argFoo;
                     mike = typeof report;
                     entity = 'string';
-                    if(!(entity === mike)) { _fun105983_ip = 35; continue _fun105983 }
+                    if(!(entity === mike)) { _fun105975_ip = 35; continue _fun105975 }
  14:
                     entity = global;
                     zulu = entity.JSON;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = entity.Error;
                     tango = null;
                     report = tango == report;
-                    if(report) { _fun105983_ip = 55; continue _fun105983 }
+                    if(report) { _fun105975_ip = 55; continue _fun105975 }
  52:
                     tango = mike;
  55:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         tango = mike.bind(entity)();
         mike = tango;
-        if(!(entity !== golf)) { _fun105979_ip = 122; continue _fun105979 }
+        if(!(entity !== golf)) { _fun105971_ip = 122; continue _fun105971 }
  119:
         mike = golf;
  122:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         options = golf.ProcessArgs;
         golf = options.isDiscordGatewayPlaintextSet;
         golf = golf.bind(options)();
-        if(!golf) { _fun105979_ip = 156; continue _fun105979 }
+        if(!golf) { _fun105971_ip = 156; continue _fun105971 }
  153:
         mike = tango;
  156:

@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['onPress'] = options;
     mike['withArrow'] = golf;
     tango = function() { // Original name: useHasPremiumRestoreSubscriptionSetting
-        _fun96963: for(var _fun96963_ip = 0; ; ) switch(_fun96963_ip) {
+        _fun96973: for(var _fun96973_ip = 0; ; ) switch(_fun96973_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -130,11 +130,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu, entity);
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun96963_ip = 72; continue _fun96963 }
+            if(!entity) { _fun96973_ip = 72; continue _fun96973 }
  66:
             entity = zulu.verified;
  72:
-            if(!entity) { _fun96963_ip = 107; continue _fun96963 }
+            if(!entity) { _fun96973_ip = 107; continue _fun96973 }
  75:
             zulu = _closure1_slot0;
             report = _closure1_slot2;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun38204: for(var _fun38204_ip = 0; ; ) switch(_fun38204_ip) {
+        _fun38211: for(var _fun38211_ip = 0; ; ) switch(_fun38211_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun38204_ip = 51; continue _fun38204 }
+            if(entity) { _fun38211_ip = 51; continue _fun38211 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun38204_ip = 92; continue _fun38204;
+            _fun38211_ip = 92; continue _fun38211;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun38204_ip = 71; continue _fun38204 }
+            if(oscar) { _fun38211_ip = 71; continue _fun38211 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun38205: for(var _fun38205_ip = 0; ; ) switch(_fun38205_ip) {
+        _fun38212: for(var _fun38212_ip = 0; ; ) switch(_fun38212_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun38205_ip = 74; continue _fun38205;
+            _fun38212_ip = 74; continue _fun38212;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -158,17 +158,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun38210: for(var _fun38210_ip = 0; ; ) switch(_fun38210_ip) {
+            _fun38217: for(var _fun38217_ip = 0; ; ) switch(_fun38217_ip) {
  0:
                 entity = argFoo;
                 mike = null;
-                if(!(mike != entity)) { _fun38210_ip = 108; continue _fun38210 }
+                if(!(mike != entity)) { _fun38217_ip = 108; continue _fun38217 }
  9:
                 report = _closure1_slot9;
                 oscar = entity.numberOfDCsShownToday;
                 golf = mike != oscar;
                 tango = 0;
-                if(!golf) { _fun38210_ip = 34; continue _fun38210 }
+                if(!golf) { _fun38217_ip = 34; continue _fun38217 }
  31:
                 tango = oscar;
  34:
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = _closure1_slot9;
                 oscar = entity.dailyCapOverridden;
                 tango = mike != oscar;
-                if(!tango) { _fun38210_ip = 76; continue _fun38210 }
+                if(!tango) { _fun38217_ip = 76; continue _fun38217 }
  73:
                 tango = oscar;
  76:
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot9;
                 tango = entity.newUserMinAgeRequiredOverridden;
                 entity = mike != tango;
-                if(!entity) { _fun38210_ip = 102; continue _fun38210 }
+                if(!entity) { _fun38217_ip = 102; continue _fun38217 }
  99:
                 entity = tango;
  102:
@@ -267,11 +267,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'hasUserHitDCCap';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun38216: for(var _fun38216_ip = 0; ; ) switch(_fun38216_ip) {
+            _fun38223: for(var _fun38223_ip = 0; ; ) switch(_fun38223_ip) {
  0:
                 tango = argFoo;
                 zulu = null;
-                if(!(zulu != tango)) { _fun38216_ip = 72; continue _fun38216 }
+                if(!(zulu != tango)) { _fun38223_ip = 72; continue _fun38223 }
  9:
                 oscar = _closure1_slot0;
                 report = _closure1_slot2;
@@ -282,19 +282,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
                 mike = report.has;
                 mike = mike.bind(report)(tango);
-                if(mike) { _fun38216_ip = 246; continue _fun38216 }
+                if(mike) { _fun38223_ip = 246; continue _fun38223 }
  56:
                 entity = _closure1_slot9;
                 entity = entity.dailyCapOverridden;
-                if(entity) { _fun38216_ip = 246; continue _fun38216 }
+                if(entity) { _fun38223_ip = 246; continue _fun38223 }
  72:
-                if(!(zulu != tango)) { _fun38216_ip = 105; continue _fun38216 }
+                if(!(zulu != tango)) { _fun38223_ip = 105; continue _fun38223 }
  76:
                 entity = _closure1_slot9;
                 mike = entity.dismissibleContentSeenDuringSession;
                 entity = mike.has;
                 entity = entity.bind(mike)(tango);
-                if(entity) { _fun38216_ip = 242; continue _fun38216 }
+                if(entity) { _fun38223_ip = 242; continue _fun38223 }
  105:
                 entity = global;
                 entity = entity.Date;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot9;
                 mike = mike.dailyCapPeriodStart;
                 mike = zulu != mike;
-                if(!mike) { _fun38216_ip = 200; continue _fun38216 }
+                if(!mike) { _fun38223_ip = 200; continue _fun38223 }
  176:
                 report = _closure1_slot9;
                 oscar = report.dailyCapPeriodStart;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(golf)();
                 mike = oscar < report;
  200:
-                if(!mike) { _fun38216_ip = 223; continue _fun38216 }
+                if(!mike) { _fun38223_ip = 223; continue _fun38223 }
  203:
                 mike = _closure1_slot9;
                 mike['numberOfDCsShownToday'] = tango;
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['DCF_NEW_USER_MIN_AGE_REQUIRED_OVERRIDE'] = verify;
     verify = function(argFoo) { // Original name: handleDCShownToUser
-        _fun38221: for(var _fun38221_ip = 0; ; ) switch(_fun38221_ip) {
+        _fun38228: for(var _fun38228_ip = 0; ; ) switch(_fun38228_ip) {
  0:
             entity = argFoo;
             golf = entity.dismissibleContent;
@@ -437,17 +437,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
             zulu = tango.has;
             zulu = zulu.bind(tango)(golf);
-            if(zulu) { _fun38221_ip = 378; continue _fun38221 }
+            if(zulu) { _fun38228_ip = 378; continue _fun38228 }
  115:
             zulu = _closure1_slot9;
             zulu = zulu.dailyCapOverridden;
-            if(zulu) { _fun38221_ip = 378; continue _fun38221 }
+            if(zulu) { _fun38228_ip = 378; continue _fun38228 }
  131:
             zulu = _closure1_slot9;
             tango = zulu.dismissibleContentSeenDuringSession;
             zulu = tango.has;
             zulu = zulu.bind(tango)(golf);
-            if(zulu) { _fun38221_ip = 378; continue _fun38221 }
+            if(zulu) { _fun38228_ip = 378; continue _fun38228 }
  157:
             zulu = _closure1_slot9;
             tango = zulu.dismissibleContentSeenDuringSession;
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot9;
             tango = zulu.dailyCapPeriodStart;
             zulu = null;
-            if(!(zulu == tango)) { _fun38221_ip = 260; continue _fun38221 }
+            if(!(zulu == tango)) { _fun38228_ip = 260; continue _fun38228 }
  193:
             mike = mike.Date;
             zulu = mike.prototype;
@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot9;
             zulu = mike.numberOfDCsShownToday;
             mike = 3;
-            if(!(zulu > mike)) { _fun38221_ip = 378; continue _fun38221 }
+            if(!(zulu > mike)) { _fun38228_ip = 378; continue _fun38228 }
  300:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

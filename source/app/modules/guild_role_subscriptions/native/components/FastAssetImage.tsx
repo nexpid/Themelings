@@ -76,19 +76,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[1] = offset;
         zulu[2] = verify;
         mike = function() {
-            _fun96931: for(var _fun96931_ip = 0; ; ) switch(_fun96931_ip) {
+            _fun96941: for(var _fun96941_ip = 0; ; ) switch(_fun96941_ip) {
  0:
                 entity = _closure2_slot1;
                 options = null;
                 entity = options == entity;
                 oscar = undefined;
                 golf = undefined;
-                if(entity) { _fun96931_ip = 30; continue _fun96931 }
+                if(entity) { _fun96941_ip = 30; continue _fun96941 }
  20:
                 entity = _closure2_slot1;
                 golf = entity.application_id;
  30:
-                if(!(options == golf)) { _fun96931_ip = 38; continue _fun96931 }
+                if(!(options == golf)) { _fun96941_ip = 38; continue _fun96941 }
  34:
                 golf = _closure2_slot0;
  38:
@@ -97,16 +97,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = options != mike;
                 report = '';
                 mike = report;
-                if(!tango) { _fun96931_ip = 126; continue _fun96931 }
+                if(!tango) { _fun96941_ip = 126; continue _fun96941 }
  58:
                 tango = options != golf;
                 mike = report;
-                if(!tango) { _fun96931_ip = 126; continue _fun96931 }
+                if(!tango) { _fun96941_ip = 126; continue _fun96941 }
  68:
                 tango = _closure2_slot2;
                 tango = options != tango;
                 mike = report;
-                if(!tango) { _fun96931_ip = 126; continue _fun96931 }
+                if(!tango) { _fun96941_ip = 126; continue _fun96941 }
  82:
                 report = _closure1_slot0;
                 options = _closure1_slot2;

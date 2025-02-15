@@ -53,14 +53,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     verify = ['h'];
     golf['requiredFirstCharacters'] = verify;
     verify = function(argFoo) { // Original name: match
-        _fun61848: for(var _fun61848_ip = 0; ; ) switch(_fun61848_ip) {
+        _fun61851: for(var _fun61851_ip = 0; ; ) switch(_fun61851_ip) {
  0:
             tango = _closure1_slot0;
             mike = tango.exec;
             entity = argFoo;
             entity = mike.bind(tango)(entity);
             mike = null;
-            if(!(mike !== entity)) { _fun61848_ip = 64; continue _fun61848 }
+            if(!(mike !== entity)) { _fun61851_ip = 64; continue _fun61851 }
  27:
             report = _closure1_slot1;
             tango = report.getCurrentConfig;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['location'] = oscar;
             zulu = tango.bind(report)(zulu);
             zulu = zulu.enabled;
-            if(zulu) { _fun61848_ip = 64; continue _fun61848 }
+            if(zulu) { _fun61851_ip = 64; continue _fun61851 }
  62:
             return mike;
  64:

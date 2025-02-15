@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/stickers/native/StickerPackBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun85037: for(var _fun85037_ip = 0; ; ) switch(_fun85037_ip) {
+        _fun85054: for(var _fun85054_ip = 0; ; ) switch(_fun85054_ip) {
  0:
             entity = argFoo;
             golf = entity.containerStyle;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = mike.bind(zulu)(tango, entity);
             entity = null;
             mike = entity == offset;
-            if(mike) { _fun85037_ip = 131; continue _fun85037 }
+            if(mike) { _fun85054_ip = 132; continue _fun85054 }
  72:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 131:
+ 132:
             return entity;
         }
     };

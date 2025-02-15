@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/contact_sync/native/components/ContactSyncSettingsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ContactSyncSettingsActionSheet
-        _fun94898: for(var _fun94898_ip = 0; ; ) switch(_fun94898_ip) {
+        _fun94910: for(var _fun94910_ip = 0; ; ) switch(_fun94910_ip) {
  0:
             entity = _closure1_slot9;
             tango = undefined;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = entity.allowEmail;
             var _closure2_slot1 = backup;
             kilo = update;
-            if(kilo) { _fun94898_ip = 52; continue _fun94898 }
+            if(kilo) { _fun94910_ip = 52; continue _fun94910 }
  49:
             kilo = backup;
  52:

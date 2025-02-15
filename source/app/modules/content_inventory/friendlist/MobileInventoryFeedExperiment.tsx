@@ -37,11 +37,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     report = 'modules/content_inventory/friendlist/MobileInventoryFeedExperiment.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: _default
-        _fun115024: for(var _fun115024_ip = 0; ; ) switch(_fun115024_ip) {
+        _fun115030: for(var _fun115030_ip = 0; ; ) switch(_fun115030_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun115024_ip = 11; continue _fun115024 }
+            if(!(report === entity)) { _fun115030_ip = 11; continue _fun115030 }
  9:
             report = true;
  11:

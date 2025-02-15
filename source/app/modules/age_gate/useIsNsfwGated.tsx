@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/age_gate/useIsNsfwGated.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsNsfwGated
-        _fun78694: for(var _fun78694_ip = 0; ; ) switch(_fun78694_ip) {
+        _fun78704: for(var _fun78704_ip = 0; ; ) switch(_fun78704_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = zulu;
             zulu = function() {
-                _fun78695: for(var _fun78695_ip = 0; ; ) switch(_fun78695_ip) {
+                _fun78705: for(var _fun78705_ip = 0; ; ) switch(_fun78705_ip) {
  0:
                     mike = _closure1_slot3;
                     entity = mike.getCurrentUser;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun78695_ip = 33; continue _fun78695 }
+                    if(zulu) { _fun78705_ip = 33; continue _fun78705 }
  27:
                     entity = mike.nsfwAllowed;
  33:
@@ -80,9 +80,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = report.bind(oscar)(tango, mike);
             mike = !mike;
-            if(!entity) { _fun78694_ip = 130; continue _fun78694 }
+            if(!entity) { _fun78704_ip = 130; continue _fun78704 }
  121:
-            if(mike) { _fun78694_ip = 127; continue _fun78694 }
+            if(mike) { _fun78704_ip = 127; continue _fun78704 }
  124:
             mike = zulu;
  127:

@@ -60,12 +60,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         report = oscar.useRef;
         mike = {};
         golf = function() { // Original name: scrollToTop
-            _fun118019: for(var _fun118019_ip = 0; ; ) switch(_fun118019_ip) {
+            _fun118025: for(var _fun118025_ip = 0; ; ) switch(_fun118025_ip) {
  0:
                 entity = _closure2_slot1;
                 zulu = entity.current;
                 entity = null;
-                if(!(entity != zulu)) { _fun118019_ip = 50; continue _fun118019 }
+                if(!(entity != zulu)) { _fun118025_ip = 50; continue _fun118025 }
  18:
                 mike = zulu.scrollToOffset;
                 entity = {};
@@ -116,12 +116,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         report = oscar.useRef;
         mike = {};
         golf = function() { // Original name: scrollToTop
-            _fun118022: for(var _fun118022_ip = 0; ; ) switch(_fun118022_ip) {
+            _fun118028: for(var _fun118028_ip = 0; ; ) switch(_fun118028_ip) {
  0:
                 entity = _closure2_slot1;
                 zulu = entity.current;
                 entity = null;
-                if(!(entity != zulu)) { _fun118022_ip = 49; continue _fun118022 }
+                if(!(entity != zulu)) { _fun118028_ip = 49; continue _fun118028 }
  18:
                 mike = zulu.scrollTo;
                 entity = {};

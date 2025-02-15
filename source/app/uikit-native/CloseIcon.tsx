@@ -30,22 +30,22 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/CloseIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Close
-        _fun104344: for(var _fun104344_ip = 0; ; ) switch(_fun104344_ip) {
+        _fun104336: for(var _fun104336_ip = 0; ; ) switch(_fun104336_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.width;
             tango = undefined;
-            if(!(yankee === tango)) { _fun104344_ip = 17; continue _fun104344 }
+            if(!(yankee === tango)) { _fun104336_ip = 17; continue _fun104336 }
  14:
             yankee = 24;
  17:
             offset = zulu.height;
-            if(!(offset === tango)) { _fun104344_ip = 29; continue _fun104344 }
+            if(!(offset === tango)) { _fun104336_ip = 29; continue _fun104336 }
  26:
             offset = 24;
  29:
             golf = zulu.color;
-            if(!(golf === tango)) { _fun104344_ip = 44; continue _fun104344 }
+            if(!(golf === tango)) { _fun104336_ip = 44; continue _fun104336 }
  38:
             golf = 'currentColor';
  44:

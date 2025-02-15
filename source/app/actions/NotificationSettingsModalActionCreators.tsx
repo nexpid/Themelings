@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = zulu.bind(tango)(report);
         zulu = tango.forEach;
         mike = function(argFoo) {
-            _fun61504: for(var _fun61504_ip = 0; ; ) switch(_fun61504_ip) {
+            _fun61507: for(var _fun61507_ip = 0; ; ) switch(_fun61507_ip) {
  0:
                 tango = argFoo;
                 mike = tango[Symbol.iterator];
@@ -234,24 +234,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 entity = undefined;
                 zulu = zulu === entity;
                 options = undefined;
-                if(zulu) { _fun61504_ip = 27; continue _fun61504 }
+                if(zulu) { _fun61507_ip = 27; continue _fun61507 }
  24:
                 options = report;
  27:
                 golf = undefined;
-                if(zulu) { _fun61504_ip = 57; continue _fun61504 }
+                if(zulu) { _fun61507_ip = 57; continue _fun61507 }
  32:
                 report = tango().value;
                 tango = mike;
                 tango = tango === entity;
                 golf = undefined;
                 zulu = tango;
-                if(tango) { _fun61504_ip = 57; continue _fun61504 }
+                if(tango) { _fun61507_ip = 57; continue _fun61507 }
  51:
                 golf = report;
                 zulu = tango;
  57:
-                if(zulu) { _fun61504_ip = 63; continue _fun61504 }
+                if(zulu) { _fun61507_ip = 63; continue _fun61507 }
  60:
                 mike.return();
  63:
@@ -424,24 +424,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     mike['updateChannelOverrideSettingsBulk'] = golf;
     golf = function(argFoo, argBar) { // Original name: setForumThreadsCreated
-        _fun61508: for(var _fun61508_ip = 0; ; ) switch(_fun61508_ip) {
+        _fun61511: for(var _fun61511_ip = 0; ; ) switch(_fun61511_ip) {
  0:
             zulu = argFoo;
             verify = argBar;
             golf = this;
             mike = _closure1_slot6;
-            if(verify) { _fun61508_ip = 27; continue _fun61508 }
+            if(verify) { _fun61511_ip = 27; continue _fun61511 }
  19:
             options = mike.NEW_FORUM_THREADS_OFF;
-            _fun61508_ip = 33; continue _fun61508;
+            _fun61511_ip = 33; continue _fun61511;
  27:
             options = mike.NEW_FORUM_THREADS_ON;
  33:
             tango = _closure1_slot6;
-            if(verify) { _fun61508_ip = 48; continue _fun61508 }
+            if(verify) { _fun61511_ip = 48; continue _fun61511 }
  40:
             mike = tango.NEW_FORUM_THREADS_ON;
-            _fun61508_ip = 54; continue _fun61508;
+            _fun61511_ip = 54; continue _fun61511;
  48:
             mike = tango.NEW_FORUM_THREADS_OFF;
  54:
@@ -482,11 +482,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun61511: for(var _fun61511_ip = 0; ; ) switch(_fun61511_ip) {
+                _fun61514: for(var _fun61514_ip = 0; ; ) switch(_fun61514_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun61511_ip = 216; continue _fun61511 }
+                    if(mike) { _fun61514_ip = 216; continue _fun61514 }
  10:
                     mike = _closure1_slot4;
                     mike = mike.accountNotificationSettings;
@@ -521,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  140:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun61511_ip = 213; continue _fun61511 }
+                    if(report) { _fun61514_ip = 213; continue _fun61514 }
  146:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return zulu;
  201:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun61511_ip = 210; continue _fun61511 }
+                    if(report) { _fun61514_ip = 210; continue _fun61514 }
  207:
                     return tango;
  210:

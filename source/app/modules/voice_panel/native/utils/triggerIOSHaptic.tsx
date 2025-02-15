@@ -26,10 +26,10 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/utils/triggerIOSHaptic.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: triggerIOSHaptic
-        _fun121740: for(var _fun121740_ip = 0; ; ) switch(_fun121740_ip) {
+        _fun121746: for(var _fun121746_ip = 0; ; ) switch(_fun121746_ip) {
  0:
             mike = _closure1_slot2;
-            if(!mike) { _fun121740_ip = 64; continue _fun121740 }
+            if(!mike) { _fun121746_ip = 64; continue _fun121746 }
  10:
             report = _closure1_slot0;
             oscar = _closure1_slot1;

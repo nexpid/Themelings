@@ -7,21 +7,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getChannelRoleSubscriptionStatus
-        _fun61835: for(var _fun61835_ip = 0; ; ) switch(_fun61835_ip) {
+        _fun61838: for(var _fun61838_ip = 0; ; ) switch(_fun61838_ip) {
  0:
             zulu = arguments[1];
             tango = arguments[2];
             golf = arguments[3];
             entity = undefined;
-            if(!(zulu === entity)) { _fun61835_ip = 22; continue _fun61835 }
+            if(!(zulu === entity)) { _fun61838_ip = 22; continue _fun61838 }
  15:
             zulu = _closure1_slot3;
  22:
-            if(!(tango === entity)) { _fun61835_ip = 33; continue _fun61835 }
+            if(!(tango === entity)) { _fun61838_ip = 33; continue _fun61838 }
  26:
             tango = _closure1_slot2;
  33:
-            if(!(golf === entity)) { _fun61835_ip = 44; continue _fun61835 }
+            if(!(golf === entity)) { _fun61838_ip = 44; continue _fun61838 }
  37:
             golf = _closure1_slot4;
  44:
@@ -29,22 +29,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             oscar = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity != oscar)) { _fun61835_ip = 78; continue _fun61835 }
+            if(!(entity != oscar)) { _fun61838_ip = 78; continue _fun61838 }
  63:
             mike = oscar.isRoleSubscriptionTemplatePreviewChannel;
             mike = mike.bind(oscar)();
-            if(mike) { _fun61835_ip = 193; continue _fun61835 }
+            if(mike) { _fun61838_ip = 193; continue _fun61838 }
  78:
-            if(!(entity != oscar)) { _fun61835_ip = 107; continue _fun61835 }
+            if(!(entity != oscar)) { _fun61838_ip = 107; continue _fun61838 }
  82:
             zulu = tango.isChannelGated;
             mike = oscar.guild_id;
             entity = oscar.id;
             entity = zulu.bind(tango)(mike, entity);
-            if(entity) { _fun61835_ip = 116; continue _fun61835 }
+            if(entity) { _fun61838_ip = 116; continue _fun61838 }
  107:
             entity = _closure1_slot6;
-            _fun61835_ip = 191; continue _fun61835;
+            _fun61838_ip = 191; continue _fun61838;
  116:
             mike = {};
             zulu = true;
@@ -53,12 +53,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(oscar)();
             report = golf.can;
             tango = _closure1_slot5;
-            if(zulu) { _fun61835_ip = 168; continue _fun61835 }
+            if(zulu) { _fun61838_ip = 168; continue _fun61838 }
  151:
             zulu = tango.VIEW_CHANNEL;
             zulu = report.bind(golf)(zulu, oscar);
             zulu = !zulu;
-            _fun61835_ip = 183; continue _fun61835;
+            _fun61838_ip = 183; continue _fun61838;
  168:
             tango = tango.CONNECT;
             tango = report.bind(golf)(tango, oscar);
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['needSubscriptionToAccess'] = zulu;
             entity = mike;
  191:
-            _fun61835_ip = 203; continue _fun61835;
+            _fun61838_ip = 203; continue _fun61838;
  193:
             entity = {'isSubscriptionGated': true, 'needSubscriptionToAccess': true};
  203:

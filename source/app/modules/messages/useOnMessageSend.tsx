@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/useOnMessageSend.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useOnMessageSend
-        _fun118406: for(var _fun118406_ip = 0; ; ) switch(_fun118406_ip) {
+        _fun118412: for(var _fun118412_ip = 0; ; ) switch(_fun118412_ip) {
  0:
             golf = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = golf;
             entity = undefined;
-            if(!(oscar === entity)) { _fun118406_ip = 20; continue _fun118406 }
+            if(!(oscar === entity)) { _fun118412_ip = 20; continue _fun118412 }
  18:
             oscar = undefined;
  20:
@@ -50,19 +50,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = oscar;
             mike = function() {
                 report = function(argFoo) { // Original name: handleMessage
-                    _fun118408: for(var _fun118408_ip = 0; ; ) switch(_fun118408_ip) {
+                    _fun118414: for(var _fun118414_ip = 0; ; ) switch(_fun118414_ip) {
  0:
                         zulu = _closure2_slot1;
                         entity = undefined;
                         zulu = entity !== zulu;
-                        if(!zulu) { _fun118408_ip = 32; continue _fun118408 }
+                        if(!zulu) { _fun118414_ip = 32; continue _fun118414 }
  16:
                         tango = argFoo;
                         report = tango.channelId;
                         tango = _closure2_slot1;
                         zulu = report !== tango;
  32:
-                        if(zulu) { _fun118408_ip = 43; continue _fun118408 }
+                        if(zulu) { _fun118414_ip = 43; continue _fun118414 }
  35:
                         mike = _closure2_slot0;
                         mike = mike.bind(entity)();
@@ -72,11 +72,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 var _closure3_slot0 = report;
                 offset = function(argFoo) { // Original name: handleMessageCreate
-                    _fun118409: for(var _fun118409_ip = 0; ; ) switch(_fun118409_ip) {
+                    _fun118415: for(var _fun118415_ip = 0; ; ) switch(_fun118415_ip) {
  0:
                         zulu = argFoo;
                         entity = zulu.optimistic;
-                        if(entity) { _fun118409_ip = 39; continue _fun118409 }
+                        if(entity) { _fun118415_ip = 39; continue _fun118415 }
  12:
                         mike = zulu.message;
                         tango = mike.state;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = mike.SENDING;
                         entity = tango === mike;
  39:
-                        if(!entity) { _fun118409_ip = 56; continue _fun118409 }
+                        if(!entity) { _fun118415_ip = 56; continue _fun118415 }
  42:
                         mike = _closure3_slot0;
                         entity = undefined;

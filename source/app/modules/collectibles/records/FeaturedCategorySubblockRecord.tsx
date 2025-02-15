@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     mike = function() {
         report = function(argFoo) { // Original name: FeaturedCategorySubblockRecord
-            _fun38850: for(var _fun38850_ip = 0; ; ) switch(_fun38850_ip) {
+            _fun38857: for(var _fun38857_ip = 0; ; ) switch(_fun38857_ip) {
  0:
                 mike = argFoo;
                 zulu = this;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.unpublished_at;
                 tango = null;
                 report = tango != report;
-                if(!report) { _fun38850_ip = 150; continue _fun38850 }
+                if(!report) { _fun38857_ip = 150; continue _fun38857 }
  116:
                 report = global;
                 golf = report.Date;

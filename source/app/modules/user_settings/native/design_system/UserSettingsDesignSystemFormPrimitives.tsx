@@ -464,11 +464,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot10 = tango;
     tango = function() { // Original name: useSwitchState
-        _fun99450: for(var _fun99450_ip = 0; ; ) switch(_fun99450_ip) {
+        _fun99460: for(var _fun99460_ip = 0; ; ) switch(_fun99460_ip) {
  0:
             tango = arguments[0];
             oscar = undefined;
-            if(!(tango === oscar)) { _fun99450_ip = 13; continue _fun99450 }
+            if(!(tango === oscar)) { _fun99460_ip = 13; continue _fun99460 }
  11:
             tango = true;
  13:
@@ -502,11 +502,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = tango;
     tango = function() { // Original name: useCheckboxState
-        _fun99452: for(var _fun99452_ip = 0; ; ) switch(_fun99452_ip) {
+        _fun99462: for(var _fun99462_ip = 0; ; ) switch(_fun99462_ip) {
  0:
             tango = arguments[0];
             oscar = undefined;
-            if(!(tango === oscar)) { _fun99452_ip = 13; continue _fun99452 }
+            if(!(tango === oscar)) { _fun99462_ip = 13; continue _fun99462 }
  11:
             tango = true;
  13:

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel/native/openChannelPicker.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openChannelPicker
-        _fun89134: for(var _fun89134_ip = 0; ; ) switch(_fun89134_ip) {
+        _fun89151: for(var _fun89151_ip = 0; ; ) switch(_fun89151_ip) {
  0:
             report = argFoo;
             golf = report.selectedChannel;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = report.channelType;
             yankee = report.filterFn;
             entity = undefined;
-            if(!(yankee === entity)) { _fun89134_ip = 41; continue _fun89134 }
+            if(!(yankee === entity)) { _fun89151_ip = 41; continue _fun89151 }
  34:
             yankee = function() { // Original name: h
                 entity = true;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = offset.getChannels;
             report = report.bind(offset)(romeo);
             offset = report[oscar];
-            if(!(tango == offset)) { _fun89134_ip = 124; continue _fun89134 }
+            if(!(tango == offset)) { _fun89151_ip = 124; continue _fun89151 }
  120:
             offset = new Array(0);
  124:

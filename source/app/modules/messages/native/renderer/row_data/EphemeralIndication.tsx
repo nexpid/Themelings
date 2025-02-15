@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/EphemeralIndication.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: EphemeralIndication
-        _fun69546: for(var _fun69546_ip = 0; ; ) switch(_fun69546_ip) {
+        _fun69552: for(var _fun69552_ip = 0; ; ) switch(_fun69552_ip) {
  0:
             mike = argFoo;
             romeo = mike.message;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(tango)(entity);
             mike = zulu.getArticleURL;
             entity = _closure1_slot4;
-            if(report) { _fun69546_ip = 166; continue _fun69546 }
+            if(report) { _fun69552_ip = 166; continue _fun69552 }
  102:
             report = entity.EPHEMERAL_MESSAGES;
             oscar = mike.bind(zulu)(report);
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.t;
             report = report.htHOrq;
             report = options.bind(verify)(report);
-            _fun69546_ip = 228; continue _fun69546;
+            _fun69552_ip = 228; continue _fun69552;
  166:
             entity = entity.GUILD_AUTOMOD_BLOCKED_MESSAGE;
             oscar = mike.bind(zulu)(entity);
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createEphemeralIndication
-        _fun69548: for(var _fun69548_ip = 0; ; ) switch(_fun69548_ip) {
+        _fun69554: for(var _fun69554_ip = 0; ; ) switch(_fun69554_ip) {
  0:
             foxtrot = argFoo;
             mike = foxtrot.hasFlag;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.EPHEMERAL;
             entity = mike.bind(foxtrot)(entity);
             oscar = undefined;
-            if(entity) { _fun69548_ip = 34; continue _fun69548 }
+            if(entity) { _fun69554_ip = 34; continue _fun69554 }
  32:
             return oscar;
  34:
@@ -160,11 +160,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             report = entity == tango;
             mike = undefined;
-            if(report) { _fun69548_ip = 57; continue _fun69548 }
+            if(report) { _fun69554_ip = 57; continue _fun69554 }
  51:
             mike = tango.ephemerality_reason;
  57:
-            if(!(entity == mike)) { _fun69548_ip = 373; continue _fun69548 }
+            if(!(entity == mike)) { _fun69554_ip = 373; continue _fun69554 }
  64:
             mike = {};
             offset = _closure1_slot0;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.getMessage;
             tango = foxtrot.id;
             tango = golf.bind(options)(tango);
-            if(!(entity != tango)) { _fun69548_ip = 371; continue _fun69548 }
+            if(!(entity != tango)) { _fun69554_ip = 371; continue _fun69554 }
  273:
             golf = _closure1_slot1;
             tango = _closure1_slot2;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = foxtrot.interactionMetadata;
             golf = entity == report;
             entity = undefined;
-            if(golf) { _fun69548_ip = 420; continue _fun69548 }
+            if(golf) { _fun69554_ip = 420; continue _fun69554 }
  414:
             entity = report.ephemerality_reason;
  420:

@@ -24,14 +24,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/auth/QRLoginUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: findRemoteAuthFingerprint
-        _fun90477: for(var _fun90477_ip = 0; ; ) switch(_fun90477_ip) {
+        _fun90494: for(var _fun90494_ip = 0; ; ) switch(_fun90494_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
             entity = null;
-            if(!(entity != oscar)) { _fun90477_ip = 87; continue _fun90477 }
+            if(!(entity != oscar)) { _fun90494_ip = 87; continue _fun90494 }
  12:
-            if(!(entity != tango)) { _fun90477_ip = 87; continue _fun90477 }
+            if(!(entity != tango)) { _fun90494_ip = 87; continue _fun90494 }
  16:
             golf = _closure1_slot0;
             report = _closure1_slot1;
@@ -41,14 +41,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf.bind(zulu)(report);
             zulu = report.isDiscordHostname;
             zulu = zulu.bind(report)(oscar);
-            if(!zulu) { _fun90477_ip = 87; continue _fun90477 }
+            if(!zulu) { _fun90494_ip = 87; continue _fun90494 }
  54:
             zulu = tango.match;
             mike = _closure1_slot2;
             tango = zulu.bind(tango)(mike);
             zulu = entity != tango;
             mike = null;
-            if(!zulu) { _fun90477_ip = 85; continue _fun90477 }
+            if(!zulu) { _fun90494_ip = 85; continue _fun90494 }
  78:
             zulu = 1;
             mike = tango[zulu];

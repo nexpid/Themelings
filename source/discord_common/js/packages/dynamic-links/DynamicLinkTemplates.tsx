@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getDefaultDynamicLinkTemplate'] = tango;
     mike = function(argFoo) { // Original name: getChannelDynamicLinkTemplate
-        _fun104616: for(var _fun104616_ip = 0; ; ) switch(_fun104616_ip) {
+        _fun104608: for(var _fun104608_ip = 0; ; ) switch(_fun104608_ip) {
  0:
             golf = argFoo;
             entity = global;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = entity.window;
             mike = mike.GLOBAL_ENV;
             report = mike.WEBAPP_ENDPOINT;
-            if(golf) { _fun104616_ip = 44; continue _fun104616 }
+            if(golf) { _fun104608_ip = 44; continue _fun104608 }
  38:
             golf = '@me';
  44:

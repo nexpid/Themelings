@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/PremiumSubscriptionTrialUtil.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() {
-        _fun96244: for(var _fun96244_ip = 0; ; ) switch(_fun96244_ip) {
+        _fun96254: for(var _fun96254_ip = 0; ; ) switch(_fun96254_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu, mike);
             mike = null;
             tango = mike == zulu;
-            if(tango) { _fun96244_ip = 72; continue _fun96244 }
+            if(tango) { _fun96254_ip = 72; continue _fun96254 }
  66:
             entity = zulu.trialId;
  72:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useHasActiveTrial'] = tango;
     tango = function() {
-        _fun96246: for(var _fun96246_ip = 0; ; ) switch(_fun96246_ip) {
+        _fun96256: for(var _fun96256_ip = 0; ; ) switch(_fun96256_ip) {
  0:
             mike = _closure1_slot3;
             entity = mike.getPremiumTypeSubscription;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             tango = mike == zulu;
             entity = undefined;
-            if(tango) { _fun96246_ip = 34; continue _fun96246 }
+            if(tango) { _fun96256_ip = 34; continue _fun96256 }
  28:
             entity = zulu.trialId;
  34:
@@ -96,35 +96,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['hasActiveTrial'] = tango;
     tango = function(argFoo) {
-        _fun96247: for(var _fun96247_ip = 0; ; ) switch(_fun96247_ip) {
+        _fun96257: for(var _fun96257_ip = 0; ; ) switch(_fun96257_ip) {
  0:
             tango = argFoo;
             mike = null;
             zulu = mike == tango;
             entity = undefined;
-            if(zulu) { _fun96247_ip = 20; continue _fun96247 }
+            if(zulu) { _fun96257_ip = 20; continue _fun96257 }
  14:
             entity = tango.trialId;
  20:
             entity = mike != entity;
-            if(!entity) { _fun96247_ip = 98; continue _fun96247 }
+            if(!entity) { _fun96257_ip = 98; continue _fun96257 }
  27:
             report = tango.trialId;
             mike = _closure1_slot5;
             mike = report === mike;
-            if(mike) { _fun96247_ip = 61; continue _fun96247 }
+            if(mike) { _fun96257_ip = 61; continue _fun96257 }
  47:
             oscar = tango.trialId;
             report = _closure1_slot6;
             mike = oscar === report;
  61:
-            if(mike) { _fun96247_ip = 78; continue _fun96247 }
+            if(mike) { _fun96257_ip = 78; continue _fun96257 }
  64:
             oscar = tango.trialId;
             report = _closure1_slot7;
             mike = oscar === report;
  78:
-            if(mike) { _fun96247_ip = 95; continue _fun96247 }
+            if(mike) { _fun96257_ip = 95; continue _fun96257 }
  81:
             tango = tango.trialId;
             zulu = _closure1_slot8;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isEligibleTrialSub'] = tango;
     tango = function() { // Original name: useCurrentPremiumTrialTier
-        _fun96248: for(var _fun96248_ip = 0; ; ) switch(_fun96248_ip) {
+        _fun96258: for(var _fun96258_ip = 0; ; ) switch(_fun96258_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -172,17 +172,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             oscar = tango == report;
             entity = undefined;
-            if(oscar) { _fun96248_ip = 113; continue _fun96248 }
+            if(oscar) { _fun96258_ip = 113; continue _fun96258 }
  107:
             entity = report.trialId;
  113:
             report = tango != entity;
             entity = null;
-            if(!report) { _fun96248_ip = 140; continue _fun96248 }
+            if(!report) { _fun96258_ip = 140; continue _fun96258 }
  122:
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun96248_ip = 137; continue _fun96248 }
+            if(tango) { _fun96258_ip = 137; continue _fun96258 }
  131:
             mike = zulu.premiumType;
  137:
@@ -205,12 +205,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.filter;
         entity = function(argFoo) {
-            _fun96253: for(var _fun96253_ip = 0; ; ) switch(_fun96253_ip) {
+            _fun96263: for(var _fun96263_ip = 0; ; ) switch(_fun96263_ip) {
  0:
                 tango = argFoo;
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun96253_ip = 51; continue _fun96253 }
+                if(!entity) { _fun96263_ip = 51; continue _fun96263 }
  12:
                 report = _closure1_slot0;
                 zulu = _closure1_slot1;

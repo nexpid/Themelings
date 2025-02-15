@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumGiftPurchaseSuccess.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: PremiumGiftSuccessBody
-        _fun88061: for(var _fun88061_ip = 0; ; ) switch(_fun88061_ip) {
+        _fun88078: for(var _fun88078_ip = 0; ; ) switch(_fun88078_ip) {
  0:
             mike = argFoo;
             oscar = mike.giftCodeRecord;
@@ -138,12 +138,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = update;
             mike = oscar.giftStyle;
             zulu = null;
-            if(!(zulu != mike)) { _fun88061_ip = 126; continue _fun88061 }
+            if(!(zulu != mike)) { _fun88078_ip = 126; continue _fun88078 }
  120:
             foxtrot = oscar.giftStyle;
  126:
             mike = oscar.subscriptionPlanId;
-            if(!(zulu == mike)) { _fun88061_ip = 170; continue _fun88061 }
+            if(!(zulu == mike)) { _fun88078_ip = 170; continue _fun88078 }
  136:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.getPlanIdForPremiumType;
             report = mike.bind(zulu)(golf, report);
-            _fun88061_ip = 176; continue _fun88061;
+            _fun88078_ip = 176; continue _fun88078;
  170:
             report = oscar.subscriptionPlanId;
  176:
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = oscar;
             mike[1] = update;
             entity = function() {
-                _fun88062: for(var _fun88062_ip = 0; ; ) switch(_fun88062_ip) {
+                _fun88079: for(var _fun88079_ip = 0; ; ) switch(_fun88079_ip) {
  0:
                     report = _closure1_slot5;
                     tango = report.get;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.skuId;
                     oscar = tango.bind(report)(zulu);
                     zulu = null;
-                    if(!(zulu != oscar)) { _fun88062_ip = 74; continue _fun88062 }
+                    if(!(zulu != oscar)) { _fun88079_ip = 74; continue _fun88079 }
  36:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(tango)(backup);
             kilo = backup.intl;
             backup = kilo.format;
-            if(!(romeo !== yankee)) { _fun88061_ip = 529; continue _fun88061 }
+            if(!(romeo !== yankee)) { _fun88078_ip = 529; continue _fun88078 }
  499:
             romeo = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = romeo.bind(tango)(yankee);
             yankee = yankee.t;
             romeo = yankee.bUdTqK;
-            _fun88061_ip = 557; continue _fun88061;
+            _fun88078_ip = 557; continue _fun88078;
  529:
             output = _closure1_slot0;
             yankee = _closure1_slot2;

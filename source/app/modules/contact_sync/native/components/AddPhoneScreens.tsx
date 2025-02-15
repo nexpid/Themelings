@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = mike;
         mike = function() {
-            _fun94948: for(var _fun94948_ip = 0; ; ) switch(_fun94948_ip) {
+            _fun94960: for(var _fun94960_ip = 0; ; ) switch(_fun94960_ip) {
  0:
                 mike = _closure1_slot8;
                 entity = mike.getCurrentUser;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun94948_ip = 33; continue _fun94948 }
+                if(zulu) { _fun94960_ip = 33; continue _fun94960 }
  27:
                 entity = mike.phone;
  33:
@@ -250,11 +250,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[1] = options;
         zulu[2] = mike;
         mike = function() {
-            _fun94949: for(var _fun94949_ip = 0; ; ) switch(_fun94949_ip) {
+            _fun94961: for(var _fun94961_ip = 0; ; ) switch(_fun94961_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = null;
-                if(!(mike != zulu)) { _fun94949_ip = 77; continue _fun94949 }
+                if(!(mike != zulu)) { _fun94961_ip = 77; continue _fun94961 }
  13:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -312,11 +312,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun94954: for(var _fun94954_ip = 0; ; ) switch(_fun94954_ip) {
+                    _fun94966: for(var _fun94966_ip = 0; ; ) switch(_fun94966_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun94954_ip = 108; continue _fun94954 }
+                        if(mike) { _fun94966_ip = 108; continue _fun94966 }
  7:
                         zulu = _closure2_slot0;
                         oscar = undefined;
@@ -335,15 +335,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  64:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun94954_ip = 105; continue _fun94954 }
+                        if(zulu) { _fun94966_ip = 105; continue _fun94966 }
  70:
                         zulu = mike.codeIntercepted;
                         report = mike.addedPhone;
-                        if(!report) { _fun94954_ip = 88; continue _fun94954 }
+                        if(!report) { _fun94966_ip = 88; continue _fun94966 }
  85:
                         report = zulu;
  88:
-                        if(report) { _fun94954_ip = 102; continue _fun94954 }
+                        if(report) { _fun94966_ip = 102; continue _fun94966 }
  91:
                         report = _closure2_slot0;
                         tango = false;
@@ -428,7 +428,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = mike;
         mike = function() {
-            _fun94958: for(var _fun94958_ip = 0; ; ) switch(_fun94958_ip) {
+            _fun94970: for(var _fun94970_ip = 0; ; ) switch(_fun94970_ip) {
  0:
                 mike = _closure1_slot8;
                 entity = mike.getCurrentUser;
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun94958_ip = 33; continue _fun94958 }
+                if(zulu) { _fun94970_ip = 33; continue _fun94970 }
  27:
                 entity = mike.phone;
  33:
@@ -450,11 +450,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = romeo;
         zulu[1] = mike;
         mike = function() {
-            _fun94959: for(var _fun94959_ip = 0; ; ) switch(_fun94959_ip) {
+            _fun94971: for(var _fun94971_ip = 0; ; ) switch(_fun94971_ip) {
  0:
                 zulu = _closure2_slot3;
                 mike = null;
-                if(!(mike != zulu)) { _fun94959_ip = 77; continue _fun94959 }
+                if(!(mike != zulu)) { _fun94971_ip = 77; continue _fun94971 }
  13:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;

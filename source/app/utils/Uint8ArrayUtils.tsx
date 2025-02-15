@@ -2,14 +2,14 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     tango = function(argFoo, argBar) { // Original name: hasBit
-        _fun35502: for(var _fun35502_ip = 0; ; ) switch(_fun35502_ip) {
+        _fun35509: for(var _fun35509_ip = 0; ; ) switch(_fun35509_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             entity = oscar.length;
             zulu = 0;
             entity = zulu !== entity;
-            if(!entity) { _fun35502_ip = 77; continue _fun35502 }
+            if(!entity) { _fun35509_ip = 77; continue _fun35509 }
  20:
             mike = global;
             options = mike.Math;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['hasBit'] = tango;
     tango = function(argFoo, argBar) { // Original name: addBit
-        _fun35503: for(var _fun35503_ip = 0; ; ) switch(_fun35503_ip) {
+        _fun35510: for(var _fun35510_ip = 0; ; ) switch(_fun35510_ip) {
  0:
             options = argFoo;
             report = argBar;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(oscar)(entity);
             oscar = options.length;
             entity = options;
-            if(!(oscar <= zulu)) { _fun35503_ip = 97; continue _fun35503 }
+            if(!(oscar <= zulu)) { _fun35510_ip = 97; continue _fun35510 }
  48:
             golf = tango.Uint8Array;
             tango = 1;
@@ -89,14 +89,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['addBit'] = tango;
     tango = function(argFoo, argBar) { // Original name: removeBit
-        _fun35504: for(var _fun35504_ip = 0; ; ) switch(_fun35504_ip) {
+        _fun35511: for(var _fun35511_ip = 0; ; ) switch(_fun35511_ip) {
  0:
             entity = argFoo;
             report = argBar;
             tango = _closure1_slot1;
             zulu = undefined;
             zulu = tango.bind(zulu)(entity, report);
-            if(!zulu) { _fun35504_ip = 81; continue _fun35504 }
+            if(!zulu) { _fun35511_ip = 81; continue _fun35511 }
  24:
             zulu = global;
             oscar = zulu.Math;
@@ -126,18 +126,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isUint8Array'] = tango;
     mike = function(argFoo) { // Original name: isSerializedUint8Array
-        _fun35506: for(var _fun35506_ip = 0; ; ) switch(_fun35506_ip) {
+        _fun35513: for(var _fun35513_ip = 0; ; ) switch(_fun35513_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun35506_ip = 23; continue _fun35506 }
+            if(!entity) { _fun35513_ip = 23; continue _fun35513 }
  12:
             tango = 'object';
             zulu = typeof mike;
             entity = tango === zulu;
  23:
-            if(!entity) { _fun35506_ip = 44; continue _fun35506 }
+            if(!entity) { _fun35513_ip = 44; continue _fun35513 }
  26:
             zulu = mike.__tag__;
             mike = 'uint8array';

@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     golf['validation'] = verify;
     verify = function(argFoo) { // Original name: handler
-        _fun109577: for(var _fun109577_ip = 0; ; ) switch(_fun109577_ip) {
+        _fun109583: for(var _fun109583_ip = 0; ; ) switch(_fun109583_ip) {
  0:
             mike = argFoo;
             tango = mike.socket;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options[oscar];
             oscar = golf.bind(report)(oscar);
             oscar = oscar.isPlatformEmbedded;
-            if(!oscar) { _fun109577_ip = 230; continue _fun109577 }
+            if(!oscar) { _fun109583_ip = 230; continue _fun109583 }
  151:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf.shouldOpenActivityInPopoutWindow;
             oscar = oscar.bind(golf)();
             offset = null;
-            if(!oscar) { _fun109577_ip = 196; continue _fun109577 }
+            if(!oscar) { _fun109583_ip = 196; continue _fun109583 }
  186:
             oscar = _closure1_slot6;
             offset = oscar.ACTIVITY_POPOUT;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             yankee = offset == oscar;
             oscar = undefined;
-            if(yankee) { _fun109577_ip = 276; continue _fun109577 }
+            if(yankee) { _fun109583_ip = 276; continue _fun109583 }
  268:
             yankee = verify;
             oscar = yankee.applicationId;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = verify;
             offset = offset == oscar;
             oscar = undefined;
-            if(offset) { _fun109577_ip = 328; continue _fun109577 }
+            if(offset) { _fun109583_ip = 328; continue _fun109583 }
  323:
             oscar = verify.location;
  328:
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     verify[romeo] = offset;
     golf['scope'] = verify;
     verify = function(argFoo) { // Original name: handler
-        _fun109582: for(var _fun109582_ip = 0; ; ) switch(_fun109582_ip) {
+        _fun109588: for(var _fun109588_ip = 0; ; ) switch(_fun109588_ip) {
  0:
             entity = argFoo;
             mike = entity.socket;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot9;
             mike = zulu.has;
             mike = mike.bind(zulu)(report);
-            if(mike) { _fun109582_ip = 161; continue _fun109582 }
+            if(mike) { _fun109588_ip = 161; continue _fun109588 }
  93:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo[backup] = foxtrot;
     tango['scope'] = romeo;
     yankee = function(argFoo) { // Original name: handler
-        _fun109583: for(var _fun109583_ip = 0; ; ) switch(_fun109583_ip) {
+        _fun109589: for(var _fun109589_ip = 0; ; ) switch(_fun109589_ip) {
  0:
             entity = argFoo;
             zulu = entity.socket;
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(golf)(report);
             var _closure2_slot3 = oscar;
             report = null;
-            if(!(report != oscar)) { _fun109583_ip = 405; continue _fun109583 }
+            if(!(report != oscar)) { _fun109589_ip = 405; continue _fun109589 }
  130:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf.bind(tango)(oscar);
             oscar = oscar.bind(tango)();
             _closure2_slot4 = oscar;
-            if(!(report != oscar)) { _fun109583_ip = 337; continue _fun109583 }
+            if(!(report != oscar)) { _fun109589_ip = 337; continue _fun109589 }
  165:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -419,14 +419,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.flags;
             options = report != zulu;
             report = 0;
-            if(!options) { _fun109583_ip = 213; continue _fun109583 }
+            if(!options) { _fun109589_ip = 213; continue _fun109589 }
  210:
             report = zulu;
  213:
             zulu = _closure1_slot5;
             zulu = zulu.EMBEDDED;
             zulu = oscar.bind(golf)(report, zulu);
-            if(zulu) { _fun109583_ip = 300; continue _fun109583 }
+            if(zulu) { _fun109589_ip = 300; continue _fun109589 }
  232:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

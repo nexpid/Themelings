@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/app_analytics/clickstream/getClickstreamDrainEvent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getClicksteamDrainEvent
-        _fun68722: for(var _fun68722_ip = 0; ; ) switch(_fun68722_ip) {
+        _fun68728: for(var _fun68728_ip = 0; ; ) switch(_fun68728_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
@@ -38,15 +38,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             report = _closure1_slot0;
             report = report.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(report !== oscar)) { _fun68722_ip = 347; continue _fun68722 }
+            if(!(report !== oscar)) { _fun68728_ip = 347; continue _fun68728 }
  60:
             report = _closure1_slot0;
             report = report.GUILD_VIEWED_CLICKSTREAM;
-            if(!(report !== oscar)) { _fun68722_ip = 277; continue _fun68722 }
+            if(!(report !== oscar)) { _fun68728_ip = 277; continue _fun68728 }
  77:
             zulu = _closure1_slot0;
             zulu = zulu.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(zulu !== oscar)) { _fun68722_ip = 141; continue _fun68722 }
+            if(!(zulu !== oscar)) { _fun68728_ip = 141; continue _fun68728 }
  91:
             report = entity.Error;
             entity = entity.HermesInternal;

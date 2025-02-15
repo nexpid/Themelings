@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.LanguageIcon;
     mike['IconComponent'] = tango;
     tango = function() { // Original name: useLanguageSettingTrailing
-        _fun97574: for(var _fun97574_ip = 0; ; ) switch(_fun97574_ip) {
+        _fun97584: for(var _fun97584_ip = 0; ; ) switch(_fun97584_ip) {
  0:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(tango)(entity);
             entity = null;
             tango = entity != mike;
-            if(!tango) { _fun97574_ip = 147; continue _fun97574 }
+            if(!tango) { _fun97584_ip = 147; continue _fun97584 }
  109:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/user_settings/native/InfoBox.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: InfoBox
-        _fun95528: for(var _fun95528_ip = 0; ; ) switch(_fun95528_ip) {
+        _fun95538: for(var _fun95538_ip = 0; ; ) switch(_fun95538_ip) {
  0:
             entity = argFoo;
             verify = entity.children;
             options = entity.style;
             foxtrot = entity.look;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun95528_ip = 38; continue _fun95528 }
+            if(!(foxtrot === tango)) { _fun95538_ip = 38; continue _fun95538 }
  25:
             entity = _closure1_slot8;
             foxtrot = entity.INFO;

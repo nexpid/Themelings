@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/native_permissions/mobile/openPrivacySettings.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: openPrivacySettings
-        _fun56536: for(var _fun56536_ip = 0; ; ) switch(_fun56536_ip) {
+        _fun56539: for(var _fun56539_ip = 0; ; ) switch(_fun56539_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -38,13 +38,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun56536_ip = 61; continue _fun56536 }
+            if(zulu) { _fun56539_ip = 61; continue _fun56539 }
  37:
             zulu = _closure1_slot3;
             tango = zulu.DeviceSettingsManager;
             zulu = tango.openPrivacySettings;
             zulu = zulu.bind(tango)();
-            _fun56536_ip = 91; continue _fun56536;
+            _fun56539_ip = 91; continue _fun56539;
  61:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

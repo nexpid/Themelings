@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun73117: for(var _fun73117_ip = 0; ; ) switch(_fun73117_ip) {
+            _fun73127: for(var _fun73127_ip = 0; ; ) switch(_fun73127_ip) {
  0:
                 report = _closure1_slot3;
                 tango = report.countVoiceStatesForChannel;
@@ -65,19 +65,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.bind(golf)();
                 zulu = tango.bind(oscar)(zulu);
                 tango = null;
-                if(!(tango != zulu)) { _fun73117_ip = 161; continue _fun73117 }
+                if(!(tango != zulu)) { _fun73127_ip = 161; continue _fun73127 }
  60:
                 mike = _closure2_slot0;
                 mike = mike.type;
                 entity = _closure1_slot4;
                 entity = entity.GUILD_STAGE_VOICE;
-                if(!(mike !== entity)) { _fun73117_ip = 128; continue _fun73117 }
+                if(!(mike !== entity)) { _fun73127_ip = 128; continue _fun73127 }
  83:
                 entity = {};
                 tango = zulu.maxVideoChannelUsers;
                 mike = 0;
                 mike = tango > mike;
-                if(!mike) { _fun73117_ip = 110; continue _fun73117 }
+                if(!mike) { _fun73127_ip = 110; continue _fun73127 }
  100:
                 tango = zulu.maxVideoChannelUsers;
                 mike = report > tango;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['reachedLimit'] = mike;
                 mike = zulu.maxVideoChannelUsers;
                 entity['limit'] = mike;
-                _fun73117_ip = 159; continue _fun73117;
+                _fun73127_ip = 159; continue _fun73127;
  128:
                 mike = {};
                 tango = zulu.maxStageVideoChannelUsers;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['limit'] = zulu;
                 entity = mike;
  159:
-                _fun73117_ip = 171; continue _fun73117;
+                _fun73127_ip = 171; continue _fun73127;
  161:
                 entity = {'reachedLimit': false, 'limit': 4294967295};
  171:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getChannelVideoLimit
-        _fun73118: for(var _fun73118_ip = 0; ; ) switch(_fun73118_ip) {
+        _fun73128: for(var _fun73128_ip = 0; ; ) switch(_fun73128_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot3;
@@ -120,18 +120,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(mike)();
             zulu = tango.bind(oscar)(zulu);
             tango = null;
-            if(!(tango != zulu)) { _fun73118_ip = 153; continue _fun73118 }
+            if(!(tango != zulu)) { _fun73128_ip = 153; continue _fun73128 }
  56:
             mike = mike.type;
             entity = _closure1_slot4;
             entity = entity.GUILD_STAGE_VOICE;
-            if(!(mike !== entity)) { _fun73118_ip = 120; continue _fun73118 }
+            if(!(mike !== entity)) { _fun73128_ip = 120; continue _fun73128 }
  75:
             entity = {};
             tango = zulu.maxVideoChannelUsers;
             mike = 0;
             mike = tango > mike;
-            if(!mike) { _fun73118_ip = 102; continue _fun73118 }
+            if(!mike) { _fun73128_ip = 102; continue _fun73128 }
  92:
             tango = zulu.maxVideoChannelUsers;
             mike = report > tango;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['reachedLimit'] = mike;
             mike = zulu.maxVideoChannelUsers;
             entity['limit'] = mike;
-            _fun73118_ip = 151; continue _fun73118;
+            _fun73128_ip = 151; continue _fun73128;
  120:
             mike = {};
             tango = zulu.maxStageVideoChannelUsers;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['limit'] = zulu;
             entity = mike;
  151:
-            _fun73118_ip = 163; continue _fun73118;
+            _fun73128_ip = 163; continue _fun73128;
  153:
             entity = {'reachedLimit': false, 'limit': 4294967295};
  163:

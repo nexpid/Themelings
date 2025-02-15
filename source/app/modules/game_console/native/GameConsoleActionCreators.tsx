@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun103229: for(var _fun103229_ip = 0; ; ) switch(_fun103229_ip) {
+                _fun103221: for(var _fun103221_ip = 0; ; ) switch(_fun103221_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun103229_ip = 247; continue _fun103229 }
+                    if(tango) { _fun103221_ip = 247; continue _fun103221 }
  10:
                     zulu = argFoo;
                     verify = argBar;
@@ -39,9 +39,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  72:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun103229_ip = 83; continue _fun103229 }
+                    if(zulu) { _fun103221_ip = 83; continue _fun103221 }
  78: // try_end0
-                    _fun103229_ip = 242; continue _fun103229;
+                    _fun103221_ip = 242; continue _fun103221;
  83:
                     return mike;
  86: // catch_target0

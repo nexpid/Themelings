@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = kilo.bind(sizing)(romeo);
         zulu['title'] = romeo;
         romeo = function(argFoo) { // Original name: headerLeft
-            _fun66432: for(var _fun66432_ip = 0; ; ) switch(_fun66432_ip) {
+            _fun66438: for(var _fun66438_ip = 0; ; ) switch(_fun66438_ip) {
  0:
                 tango = argFoo;
                 entity = tango.canGoBack;
@@ -172,13 +172,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu[mike];
                 zulu = undefined;
                 oscar = report.bind(zulu)(mike);
-                if(entity) { _fun66432_ip = 62; continue _fun66432 }
+                if(entity) { _fun66438_ip = 62; continue _fun66438 }
  37:
                 mike = oscar.getHeaderCloseButton;
                 entity = _closure2_slot1;
                 entity = mike.bind(oscar)(entity);
                 entity = entity.bind(zulu)(tango);
-                _fun66432_ip = 85; continue _fun66432;
+                _fun66438_ip = 85; continue _fun66438;
  62:
                 report = oscar.getHeaderBackButton;
                 mike = _closure2_slot2;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/PremiumModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumModal
-        _fun66435: for(var _fun66435_ip = 0; ; ) switch(_fun66435_ip) {
+        _fun66441: for(var _fun66441_ip = 0; ; ) switch(_fun66441_ip) {
  0:
             entity = argFoo;
             output = entity.applicationId;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(zulu);
             report = mike.analyticsLocations;
             mike = null;
-            if(!(mike == options)) { _fun66435_ip = 148; continue _fun66435 }
+            if(!(mike == options)) { _fun66441_ip = 148; continue _fun66441 }
  138:
             mike = _closure1_slot3;
             options = mike.PREMIUM;

@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_settings_picker/GuildSettingsPickerFeatures.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useGuildSettingsPickerFeature
-        _fun107548: for(var _fun107548_ip = 0; ; ) switch(_fun107548_ip) {
+        _fun107541: for(var _fun107541_ip = 0; ; ) switch(_fun107541_ip) {
  0:
             verify = argFoo;
             oscar = _closure1_slot3;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = tango == verify;
             golf = undefined;
             entity = undefined;
-            if(options) { _fun107548_ip = 38; continue _fun107548 }
+            if(options) { _fun107541_ip = 38; continue _fun107541 }
  30:
             options = _closure1_slot5;
             entity = options[verify];
@@ -194,12 +194,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = zulu;
             oscar = tango == entity;
             zulu = undefined;
-            if(oscar) { _fun107548_ip = 114; continue _fun107548 }
+            if(oscar) { _fun107541_ip = 114; continue _fun107541 }
  89:
             oscar = entity.useIsGuildSupported;
             oscar = tango == oscar;
             zulu = undefined;
-            if(oscar) { _fun107548_ip = 114; continue _fun107548 }
+            if(oscar) { _fun107541_ip = 114; continue _fun107541 }
  104:
             oscar = entity.useIsGuildSupported;
             zulu = oscar.bind(entity)();
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = _closure1_slot6;
             yankee = zulu;
             report = copyDataProperties(yankee, offset);
-            if(!(tango == entity)) { _fun107548_ip = 137; continue _fun107548 }
+            if(!(tango == entity)) { _fun107541_ip = 137; continue _fun107541 }
  135:
             entity = {};
  137:
@@ -235,20 +235,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.canCreateGuild;
             entity['canCreateGuild'] = zulu;
             mike = function(argFoo, argBar) { // Original name: isGuildSupported
-                _fun107549: for(var _fun107549_ip = 0; ; ) switch(_fun107549_ip) {
+                _fun107542: for(var _fun107542_ip = 0; ; ) switch(_fun107542_ip) {
  0:
                     oscar = argFoo;
                     report = argBar;
                     entity = _closure2_slot0;
                     tango = undefined;
                     entity = entity.bind(tango)(oscar, report);
-                    if(!entity) { _fun107549_ip = 55; continue _fun107549 }
+                    if(!entity) { _fun107542_ip = 55; continue _fun107542 }
  24:
                     golf = _closure2_slot1;
                     zulu = null;
                     golf = zulu == golf;
                     zulu = undefined;
-                    if(golf) { _fun107549_ip = 49; continue _fun107549 }
+                    if(golf) { _fun107542_ip = 49; continue _fun107542 }
  39:
                     mike = _closure2_slot1;
                     zulu = mike.bind(tango)(oscar, report);

@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/go_live/utils/getStreamIssueReportOptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getStreamIssueReportOptions
-        _fun103623: for(var _fun103623_ip = 0; ; ) switch(_fun103623_ip) {
+        _fun103615: for(var _fun103615_ip = 0; ; ) switch(_fun103615_ip) {
  0:
             tango = argBar;
             mike = {};
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity[options];
             entity = report.bind(golf)(entity);
             report = entity.t;
-            if(tango) { _fun103623_ip = 84; continue _fun103623 }
+            if(tango) { _fun103615_ip = 84; continue _fun103615 }
  71:
             entity = report.fxiRNj;
             entity = oscar.bind(verify)(entity);
-            _fun103623_ip = 95; continue _fun103623;
+            _fun103615_ip = 95; continue _fun103615;
  84:
             report = report.0X5Zbm;
             entity = oscar.bind(verify)(report);
@@ -69,11 +69,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[options];
             report = oscar.bind(golf)(report);
             oscar = report.t;
-            if(tango) { _fun103623_ip = 180; continue _fun103623 }
+            if(tango) { _fun103615_ip = 180; continue _fun103615 }
  167:
             report = oscar.E8jTMD;
             report = verify.bind(offset)(report);
-            _fun103623_ip = 191; continue _fun103623;
+            _fun103615_ip = 191; continue _fun103615;
  180:
             oscar = oscar.VVPQy8;
             report = verify.bind(offset)(oscar);
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[options];
             report = oscar.bind(golf)(report);
             oscar = report.t;
-            if(tango) { _fun103623_ip = 272; continue _fun103623 }
+            if(tango) { _fun103615_ip = 272; continue _fun103615 }
  259:
             report = oscar.VoSJER;
             report = verify.bind(offset)(report);
-            _fun103623_ip = 283; continue _fun103623;
+            _fun103615_ip = 283; continue _fun103615;
  272:
             oscar = oscar.ObEHd3;
             report = verify.bind(offset)(oscar);
@@ -117,11 +117,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[options];
             report = oscar.bind(golf)(report);
             oscar = report.t;
-            if(tango) { _fun103623_ip = 364; continue _fun103623 }
+            if(tango) { _fun103615_ip = 364; continue _fun103615 }
  351:
             report = oscar.+NluQk;
             report = verify.bind(offset)(report);
-            _fun103623_ip = 375; continue _fun103623;
+            _fun103615_ip = 375; continue _fun103615;
  364:
             oscar = oscar.mYmwDw;
             report = verify.bind(offset)(oscar);
@@ -141,11 +141,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[options];
             report = oscar.bind(golf)(report);
             oscar = report.t;
-            if(tango) { _fun103623_ip = 456; continue _fun103623 }
+            if(tango) { _fun103615_ip = 456; continue _fun103615 }
  443:
             report = oscar.G2egzc;
             report = verify.bind(offset)(report);
-            _fun103623_ip = 467; continue _fun103623;
+            _fun103615_ip = 467; continue _fun103615;
  456:
             oscar = oscar.Xwv419;
             report = verify.bind(offset)(oscar);
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[options];
             report = offset.bind(golf)(report);
             report = report.t;
-            if(tango) { _fun103623_ip = 548; continue _fun103623 }
+            if(tango) { _fun103615_ip = 548; continue _fun103615 }
  535:
             tango = report.aHOfIi;
             tango = oscar.bind(verify)(tango);
-            _fun103623_ip = 559; continue _fun103623;
+            _fun103615_ip = 559; continue _fun103615;
  548:
             report = report.fHey+f;
             tango = oscar.bind(verify)(report);

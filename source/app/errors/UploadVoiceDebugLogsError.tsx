@@ -60,25 +60,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'displayMessage';
         entity['key'] = report;
         mike = function() { // Original name: get
-            _fun55448: for(var _fun55448_ip = 0; ; ) switch(_fun55448_ip) {
+            _fun55455: for(var _fun55455_ip = 0; ; ) switch(_fun55455_ip) {
  0:
                 entity = this;
                 zulu = entity.code;
                 mike = _closure1_slot4;
                 mike = mike.NO_FILE;
-                if(!(mike !== zulu)) { _fun55448_ip = 322; continue _fun55448 }
+                if(!(mike !== zulu)) { _fun55455_ip = 322; continue _fun55455 }
  28:
                 mike = _closure1_slot4;
                 mike = mike.PROGRESS;
-                if(!(mike !== zulu)) { _fun55448_ip = 263; continue _fun55448 }
+                if(!(mike !== zulu)) { _fun55455_ip = 263; continue _fun55455 }
  45:
                 mike = _closure1_slot4;
                 mike = mike.UPLOAD;
-                if(!(mike !== zulu)) { _fun55448_ip = 204; continue _fun55448 }
+                if(!(mike !== zulu)) { _fun55455_ip = 204; continue _fun55455 }
  62:
                 mike = _closure1_slot4;
                 mike = mike.READ;
-                if(!(mike !== zulu)) { _fun55448_ip = 145; continue _fun55448 }
+                if(!(mike !== zulu)) { _fun55455_ip = 145; continue _fun55455 }
  76:
                 mike = _closure1_slot4;
                 mike = mike.GENERAL;

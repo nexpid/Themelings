@@ -69,12 +69,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         golf = new Array(1);
         golf[0] = offset;
         oscar = function() {
-            _fun98845: for(var _fun98845_ip = 0; ; ) switch(_fun98845_ip) {
+            _fun98855: for(var _fun98855_ip = 0; ; ) switch(_fun98855_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 zulu = entity != zulu;
-                if(!zulu) { _fun98845_ip = 37; continue _fun98845 }
+                if(!zulu) { _fun98855_ip = 37; continue _fun98855 }
  16:
                 tango = _closure1_slot4;
                 zulu = tango.get;

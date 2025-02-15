@@ -11,11 +11,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun67317: for(var _fun67317_ip = 0; ; ) switch(_fun67317_ip) {
+                _fun67323: for(var _fun67323_ip = 0; ; ) switch(_fun67323_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun67317_ip = 299; continue _fun67317 }
+                    if(mike) { _fun67323_ip = 299; continue _fun67323 }
  10:
                     oscar = argBar;
                     report = argBaz;
@@ -29,11 +29,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     golf = mike == zulu;
                     zulu = null;
-                    if(golf) { _fun67317_ip = 140; continue _fun67317 }
+                    if(golf) { _fun67323_ip = 140; continue _fun67323 }
  54:
                     options = 'cache';
                     golf = argFoo;
-                    if(!(options !== golf)) { _fun67317_ip = 102; continue _fun67317 }
+                    if(!(options !== golf)) { _fun67323_ip = 102; continue _fun67323 }
  65:
                     options = _closure1_slot0;
                     golf = _closure1_slot1;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = options.getConstants;
                     golf = golf.bind(options)();
                     golf = golf.DocumentsDirPath;
-                    _fun67317_ip = 137; continue _fun67317;
+                    _fun67323_ip = 137; continue _fun67323;
  102:
                     offset = _closure1_slot0;
                     options = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = golf;
  140:
                     verify = zulu;
-                    if(!(mike != zulu)) { _fun67317_ip = 296; continue _fun67317 }
+                    if(!(mike != zulu)) { _fun67323_ip = 296; continue _fun67323 }
  150:
                     golf = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -73,9 +73,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  202:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golf) { _fun67317_ip = 293; continue _fun67317 }
+                    if(golf) { _fun67323_ip = 293; continue _fun67323 }
  208:
-                    if(zulu) { _fun67317_ip = 214; continue _fun67317 }
+                    if(zulu) { _fun67323_ip = 214; continue _fun67323 }
  211:
                     return mike;
  214: // try_start_0
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return report;
  255:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun67317_ip = 264; continue _fun67317 }
+                    if(oscar) { _fun67323_ip = 264; continue _fun67323 }
  261: // try_end0
                     return report;
  264:
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'utils/FileManagerUtils.android.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: writeFile
-        _fun67318: for(var _fun67318_ip = 0; ; ) switch(_fun67318_ip) {
+        _fun67324: for(var _fun67324_ip = 0; ; ) switch(_fun67324_ip) {
  0:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             tango = mike == entity;
             entity = undefined;
-            if(tango) { _fun67318_ip = 97; continue _fun67318 }
+            if(tango) { _fun67324_ip = 97; continue _fun67324 }
  36:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = tango.bind(report)(zulu);
  97:
-            if(!(mike == entity)) { _fun67318_ip = 126; continue _fun67318 }
+            if(!(mike == entity)) { _fun67324_ip = 126; continue _fun67324 }
  101:
             mike = global;
             tango = mike.Promise;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['writeFile'] = tango;
     tango = function(argFoo, argBar) { // Original name: removeFile
-        _fun67320: for(var _fun67320_ip = 0; ; ) switch(_fun67320_ip) {
+        _fun67326: for(var _fun67326_ip = 0; ; ) switch(_fun67326_ip) {
  0:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             tango = mike == entity;
             entity = undefined;
-            if(tango) { _fun67320_ip = 71; continue _fun67320 }
+            if(tango) { _fun67326_ip = 71; continue _fun67326 }
  36:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = argBar;
             entity = report.bind(oscar)(tango, zulu);
  71:
-            if(!(mike == entity)) { _fun67320_ip = 96; continue _fun67320 }
+            if(!(mike == entity)) { _fun67326_ip = 96; continue _fun67326 }
  75:
             mike = global;
             tango = mike.Promise;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['removeFile'] = tango;
     tango = function(argFoo, argBar) { // Original name: clearFolder
-        _fun67321: for(var _fun67321_ip = 0; ; ) switch(_fun67321_ip) {
+        _fun67327: for(var _fun67327_ip = 0; ; ) switch(_fun67327_ip) {
  0:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             tango = mike == entity;
             entity = undefined;
-            if(tango) { _fun67321_ip = 71; continue _fun67321 }
+            if(tango) { _fun67327_ip = 71; continue _fun67327 }
  36:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = argBar;
             entity = report.bind(oscar)(tango, zulu);
  71:
-            if(!(mike == entity)) { _fun67321_ip = 96; continue _fun67321 }
+            if(!(mike == entity)) { _fun67327_ip = 96; continue _fun67327 }
  75:
             mike = global;
             tango = mike.Promise;

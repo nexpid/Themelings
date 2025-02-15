@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = golf;
     golf = options.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun79293: for(var _fun79293_ip = 0; ; ) switch(_fun79293_ip) {
+        _fun79303: for(var _fun79303_ip = 0; ; ) switch(_fun79303_ip) {
  0:
             yankee = argFoo;
             entity = yankee.style;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot3 = mike;
             output = yankee.editable;
             tango = undefined;
-            if(!(output === tango)) { _fun79293_ip = 90; continue _fun79293 }
+            if(!(output === tango)) { _fun79303_ip = 90; continue _fun79303 }
  88:
             output = true;
  90:
@@ -182,12 +182,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = yankee.accessibilityLabel;
             oscar = yankee.accessibilityHint;
             golf = yankee.forceAccessibleContainer;
-            if(!(golf === tango)) { _fun79293_ip = 117; continue _fun79293 }
+            if(!(golf === tango)) { _fun79303_ip = 117; continue _fun79303 }
  115:
             golf = false;
  117:
             romeo = yankee.clearButtonVisibility;
-            if(!(romeo === tango)) { _fun79293_ip = 162; continue _fun79293 }
+            if(!(romeo === tango)) { _fun79303_ip = 162; continue _fun79303 }
  127:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.ClearButtonVisibility;
             report = report.ALWAYS;
             yankee = true;
-            if(!(report !== romeo)) { _fun79293_ip = 382; continue _fun79293 }
+            if(!(report !== romeo)) { _fun79303_ip = 382; continue _fun79303 }
  292:
             kilo = _closure1_slot0;
             report = _closure1_slot2;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = kilo.bind(tango)(report);
             report = report.ClearButtonVisibility;
             report = report.WITH_CONTENT;
-            if(!(report !== romeo)) { _fun79293_ip = 364; continue _fun79293 }
+            if(!(report !== romeo)) { _fun79303_ip = 364; continue _fun79303 }
  325:
             kilo = _closure1_slot0;
             report = _closure1_slot2;
@@ -246,13 +246,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.ClearButtonVisibility;
             report = report.NEVER;
             yankee = undefined;
-            if(!(report === romeo)) { _fun79293_ip = 382; continue _fun79293 }
+            if(!(report === romeo)) { _fun79303_ip = 382; continue _fun79303 }
  360:
             yankee = false;
-            _fun79293_ip = 382; continue _fun79293;
+            _fun79303_ip = 382; continue _fun79303;
  364:
             report = verify != source;
-            if(!report) { _fun79293_ip = 379; continue _fun79293 }
+            if(!report) { _fun79303_ip = 379; continue _fun79303 }
  371:
             romeo = '';
             report = romeo !== source;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = kilo[report];
             kilo = romeo.bind(tango)(report);
             report = verify != mike;
-            if(!report) { _fun79293_ip = 412; continue _fun79293 }
+            if(!report) { _fun79303_ip = 412; continue _fun79303 }
  409:
             report = output;
  412:
@@ -277,38 +277,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = new Array(3);
             romeo[0] = mike;
             mike = null;
-            if(!zulu) { _fun79293_ip = 454; continue _fun79293 }
+            if(!zulu) { _fun79303_ip = 454; continue _fun79303 }
  449:
             mike = echo.error;
  454:
             romeo[1] = mike;
             romeo[2] = entity;
             zulu = _closure1_slot7;
-            if(record) { _fun79293_ip = 475; continue _fun79293 }
+            if(record) { _fun79303_ip = 475; continue _fun79303 }
  469:
             mike = _closure1_slot4;
-            _fun79293_ip = 479; continue _fun79293;
+            _fun79303_ip = 479; continue _fun79303;
  475:
             mike = _closure1_slot6;
  479:
             entity = {};
             report = function() { // Original name: onPress
-                _fun79295: for(var _fun79295_ip = 0; ; ) switch(_fun79295_ip) {
+                _fun79305: for(var _fun79305_ip = 0; ; ) switch(_fun79305_ip) {
  0:
                     mike = _closure2_slot4;
-                    if(!mike) { _fun79295_ip = 35; continue _fun79295 }
+                    if(!mike) { _fun79305_ip = 35; continue _fun79305 }
  10:
                     mike = _closure2_slot5;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79295_ip = 35; continue _fun79295 }
+                    if(!(mike != zulu)) { _fun79305_ip = 35; continue _fun79305 }
  25:
                     mike = zulu.focus;
                     mike = mike.bind(zulu)();
  35:
                     zulu = _closure2_slot3;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79295_ip = 55; continue _fun79295 }
+                    if(!(mike != zulu)) { _fun79305_ip = 55; continue _fun79305 }
  45:
                     mike = _closure2_slot3;
                     entity = undefined;
@@ -320,26 +320,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['onPress'] = report;
             report = null;
-            if(!record) { _fun79293_ip = 500; continue _fun79293 }
+            if(!record) { _fun79303_ip = 500; continue _fun79303 }
  497:
             report = romeo;
  500:
             entity['style'] = report;
             report = undefined;
-            if(!golf) { _fun79293_ip = 513; continue _fun79293 }
+            if(!golf) { _fun79303_ip = 513; continue _fun79303 }
  509:
             report = 'button';
  513:
             entity['accessibilityRole'] = report;
             entity['accessible'] = golf;
             report = undefined;
-            if(!golf) { _fun79293_ip = 530; continue _fun79293 }
+            if(!golf) { _fun79303_ip = 530; continue _fun79303 }
  527:
             report = vacuum;
  530:
             entity['accessibilityLabel'] = report;
             report = undefined;
-            if(!golf) { _fun79293_ip = 548; continue _fun79293 }
+            if(!golf) { _fun79303_ip = 548; continue _fun79303 }
  539:
             kilo = {};
             kilo['text'] = source;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  548:
             entity['accessibilityValue'] = report;
             report = undefined;
-            if(!golf) { _fun79293_ip = 561; continue _fun79293 }
+            if(!golf) { _fun79303_ip = 561; continue _fun79303 }
  558:
             report = oscar;
  561:
@@ -355,14 +355,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot8;
             oscar = _closure1_slot5;
             report = {};
-            if(!record) { _fun79293_ip = 584; continue _fun79293 }
+            if(!record) { _fun79303_ip = 584; continue _fun79303 }
  579:
             romeo = echo.onPress;
  584:
             report['style'] = romeo;
             kilo = verify == options;
             romeo = undefined;
-            if(kilo) { _fun79293_ip = 601; continue _fun79293 }
+            if(kilo) { _fun79303_ip = 601; continue _fun79303 }
  597:
             romeo = options.bind(tango)();
  601:
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = romeo.TextInput;
             romeo = {};
             config = 'auto';
-            if(!record) { _fun79293_ip = 652; continue _fun79293 }
+            if(!record) { _fun79303_ip = 652; continue _fun79303 }
  648:
             config = 'none';
  652:
@@ -395,11 +395,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['value'] = source;
             romeo['onChangeText'] = update;
             update = function(argFoo) { // Original name: onFocus
-                _fun79296: for(var _fun79296_ip = 0; ; ) switch(_fun79296_ip) {
+                _fun79306: for(var _fun79306_ip = 0; ; ) switch(_fun79306_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79296_ip = 27; continue _fun79296 }
+                    if(!(mike != zulu)) { _fun79306_ip = 27; continue _fun79306 }
  13:
                     zulu = _closure2_slot1;
                     mike = undefined;
@@ -412,11 +412,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             romeo['onFocus'] = update;
             update = function(argFoo) { // Original name: onBlur
-                _fun79297: for(var _fun79297_ip = 0; ; ) switch(_fun79297_ip) {
+                _fun79307: for(var _fun79307_ip = 0; ; ) switch(_fun79307_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike != zulu)) { _fun79297_ip = 27; continue _fun79297 }
+                    if(!(mike != zulu)) { _fun79307_ip = 27; continue _fun79307 }
  13:
                     zulu = _closure2_slot2;
                     mike = undefined;
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = result;
             result = copyDataProperties(target, papa);
             echo = 'no-hide-descendants';
-            if(!output) { _fun79293_ip = 784; continue _fun79293 }
+            if(!output) { _fun79303_ip = 784; continue _fun79303 }
  778:
             echo = 'yes';
  784:
@@ -450,26 +450,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = romeo;
             kilo = verify == backup;
             romeo = undefined;
-            if(kilo) { _fun79293_ip = 828; continue _fun79293 }
+            if(kilo) { _fun79303_ip = 828; continue _fun79303 }
  824:
             romeo = backup.bind(tango)();
  828:
             options[2] = romeo;
             verify = null;
-            if(!yankee) { _fun79293_ip = 864; continue _fun79293 }
+            if(!yankee) { _fun79303_ip = 864; continue _fun79303 }
  837:
             romeo = _closure1_slot7;
             yankee = _closure1_slot10;
             offset = {};
             foxtrot = function() { // Original name: onPress
-                _fun79298: for(var _fun79298_ip = 0; ; ) switch(_fun79298_ip) {
+                _fun79308: for(var _fun79308_ip = 0; ; ) switch(_fun79308_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity == zulu;
                     tango = undefined;
                     entity = undefined;
-                    if(zulu) { _fun79298_ip = 33; continue _fun79298 }
+                    if(zulu) { _fun79308_ip = 33; continue _fun79308 }
  20:
                     zulu = _closure2_slot0;
                     mike = '';

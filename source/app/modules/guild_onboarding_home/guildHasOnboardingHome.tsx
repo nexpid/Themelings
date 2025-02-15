@@ -28,24 +28,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_onboarding_home/guildHasOnboardingHome.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: guildHasOnboardingHome
-        _fun60232: for(var _fun60232_ip = 0; ; ) switch(_fun60232_ip) {
+        _fun60235: for(var _fun60235_ip = 0; ; ) switch(_fun60235_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity == tango;
-            if(entity) { _fun60232_ip = 28; continue _fun60232 }
+            if(entity) { _fun60235_ip = 28; continue _fun60235 }
  12:
             zulu = tango.id;
             mike = _closure1_slot2;
             entity = zulu === mike;
  28:
-            if(entity) { _fun60232_ip = 47; continue _fun60232 }
+            if(entity) { _fun60235_ip = 47; continue _fun60235 }
  31:
             zulu = tango.id;
             mike = _closure1_slot1;
             entity = zulu === mike;
  47:
-            if(entity) { _fun60232_ip = 77; continue _fun60232 }
+            if(entity) { _fun60235_ip = 77; continue _fun60235 }
  50:
             zulu = tango.hasFeature;
             mike = _closure1_slot0;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             entity = !mike;
  77:
-            if(entity) { _fun60232_ip = 107; continue _fun60232 }
+            if(entity) { _fun60235_ip = 107; continue _fun60235 }
  80:
             zulu = tango.hasFeature;
             mike = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             entity = !mike;
  107:
-            if(entity) { _fun60232_ip = 137; continue _fun60232 }
+            if(entity) { _fun60235_ip = 137; continue _fun60235 }
  110:
             zulu = tango.hasFeature;
             mike = _closure1_slot0;

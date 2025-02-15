@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/rpc-schema/rpc-schema.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: createRPCCommand
-        _fun109589: for(var _fun109589_ip = 0; ; ) switch(_fun109589_ip) {
+        _fun109595: for(var _fun109595_ip = 0; ; ) switch(_fun109595_ip) {
  0:
             entity = argBar;
             report = entity.scope;
@@ -42,20 +42,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[tango];
             tango = null;
             oscar = tango == report;
-            if(oscar) { _fun109589_ip = 89; continue _fun109589 }
+            if(oscar) { _fun109595_ip = 89; continue _fun109595 }
  83:
             zulu = report.request;
  89:
             _closure2_slot0 = zulu;
             _closure2_slot1 = tango;
-            if(!(tango != zulu)) { _fun109589_ip = 114; continue _fun109589 }
+            if(!(tango != zulu)) { _fun109595_ip = 114; continue _fun109595 }
  101:
             mike = function(argFoo) {
-                _fun109590: for(var _fun109590_ip = 0; ; ) switch(_fun109590_ip) {
+                _fun109596: for(var _fun109596_ip = 0; ; ) switch(_fun109596_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike == zulu)) { _fun109590_ip = 31; continue _fun109590 }
+                    if(!(mike == zulu)) { _fun109596_ip = 31; continue _fun109596 }
  13:
                     tango = _closure2_slot0;
                     zulu = undefined;

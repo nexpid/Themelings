@@ -32,24 +32,24 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/channel/isRoleRequired.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isRoleRequired
-        _fun60225: for(var _fun60225_ip = 0; ; ) switch(_fun60225_ip) {
+        _fun60228: for(var _fun60228_ip = 0; ; ) switch(_fun60228_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun60225_ip = 193; continue _fun60225 }
+            if(!(entity != zulu)) { _fun60228_ip = 193; continue _fun60228 }
  12:
             oscar = zulu.type;
             mike = zulu.guild_id;
-            if(!(entity != mike)) { _fun60225_ip = 189; continue _fun60225 }
+            if(!(entity != mike)) { _fun60228_ip = 189; continue _fun60228 }
  29:
             report = _closure1_slot2;
             tango = report.has;
             tango = tango.bind(report)(oscar);
-            if(!tango) { _fun60225_ip = 189; continue _fun60225 }
+            if(!tango) { _fun60228_ip = 189; continue _fun60228 }
  52:
             tango = zulu.isGuildVocal;
             tango = tango.bind(zulu)();
-            if(!tango) { _fun60225_ip = 116; continue _fun60225 }
+            if(!tango) { _fun60228_ip = 116; continue _fun60228 }
  65:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = _closure1_slot3;
             tango = tango.CONNECT;
             tango = report.bind(oscar)(tango, zulu);
-            if(tango) { _fun60225_ip = 116; continue _fun60225 }
+            if(tango) { _fun60228_ip = 116; continue _fun60228 }
  112:
             tango = true;
             return tango;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.guild_id;
             zulu = tango[zulu];
             entity = entity != zulu;
-            if(!entity) { _fun60225_ip = 187; continue _fun60225 }
+            if(!entity) { _fun60228_ip = 187; continue _fun60228 }
  138:
             oscar = _closure1_slot0;
             report = _closure1_slot1;

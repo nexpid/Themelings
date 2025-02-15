@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingProgressBar.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ProgressBar
-        _fun105145: for(var _fun105145_ip = 0; ; ) switch(_fun105145_ip) {
+        _fun105137: for(var _fun105137_ip = 0; ; ) switch(_fun105137_ip) {
  0:
             entity = argFoo;
             offset = entity.guild;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = offset.premiumTier;
             offset = golf.TIER_3;
             golf = zulu;
-            if(!(yankee !== offset)) { _fun105145_ip = 273; continue _fun105145 }
+            if(!(yankee !== offset)) { _fun105137_ip = 273; continue _fun105137 }
  261:
             mike = mike - report;
             mike = oscar * mike;
@@ -260,31 +260,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot15;
             zulu['__initData'] = mike;
             mike = function(argFoo) { // Original name: w
-                _fun105149: for(var _fun105149_ip = 0; ; ) switch(_fun105149_ip) {
+                _fun105141: for(var _fun105141_ip = 0; ; ) switch(_fun105141_ip) {
  0:
                     tango = argFoo;
                     entity = _closure1_slot8;
                     zulu = entity.NONE;
                     entity = 28.33;
-                    if(!(tango >= entity)) { _fun105149_ip = 40; continue _fun105149 }
+                    if(!(tango >= entity)) { _fun105141_ip = 40; continue _fun105141 }
  30:
                     entity = _closure1_slot8;
                     zulu = entity.TIER_1;
  40:
                     entity = 61.67;
-                    if(!(tango >= entity)) { _fun105149_ip = 64; continue _fun105149 }
+                    if(!(tango >= entity)) { _fun105141_ip = 64; continue _fun105141 }
  54:
                     entity = _closure1_slot8;
                     zulu = entity.TIER_2;
  64:
                     entity = 95;
-                    if(!(tango >= entity)) { _fun105149_ip = 81; continue _fun105149 }
+                    if(!(tango >= entity)) { _fun105141_ip = 81; continue _fun105141 }
  71:
                     entity = _closure1_slot8;
                     zulu = entity.TIER_3;
  81:
                     tango = _closure2_slot4;
-                    if(!(zulu !== tango)) { _fun105149_ip = 133; continue _fun105149 }
+                    if(!(zulu !== tango)) { _fun105141_ip = 133; continue _fun105141 }
  92:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = oscar;
             mike[2] = entity;
             entity = function() {
-                _fun105150: for(var _fun105150_ip = 0; ; ) switch(_fun105150_ip) {
+                _fun105142: for(var _fun105142_ip = 0; ; ) switch(_fun105142_ip) {
  0:
                     tango = _closure2_slot2;
                     zulu = 100;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = -1;
                     var _closure3_slot1 = zulu;
                     zulu = _closure2_slot1;
-                    if(zulu) { _fun105150_ip = 72; continue _fun105150 }
+                    if(zulu) { _fun105142_ip = 72; continue _fun105142 }
  37:
                     zulu = global;
                     golf = zulu.setTimeout;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = 750;
                     zulu = golf.bind(oscar)(report, zulu);
                     _closure3_slot1 = zulu;
-                    _fun105150_ip = 86; continue _fun105150;
+                    _fun105142_ip = 86; continue _fun105142;
  72:
                     zulu = _closure2_slot3;
                     mike = zulu.set;
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.isThemeDark;
             kilo = kilo.bind(sizing)(output);
             sizing = '#515359';
-            if(kilo) { _fun105145_ip = 796; continue _fun105145 }
+            if(kilo) { _fun105137_ip = 796; continue _fun105137 }
  765:
             output = _closure1_slot1;
             result = _closure1_slot2;

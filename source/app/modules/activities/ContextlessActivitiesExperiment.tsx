@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsContextlessActivitiesExperimentEnabled'] = tango;
     mike = function(argFoo) { // Original name: isContextlessActivitiesEnabledForApp
-        _fun54078: for(var _fun54078_ip = 0; ; ) switch(_fun54078_ip) {
+        _fun54085: for(var _fun54085_ip = 0; ; ) switch(_fun54085_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = _closure1_slot2;
             entity = entity.CONTEXTLESS_ACTIVITY;
             entity = report.bind(oscar)(tango, entity);
-            if(!entity) { _fun54078_ip = 66; continue _fun54078 }
+            if(!entity) { _fun54085_ip = 66; continue _fun54085 }
  58:
             mike = _closure1_slot4;
             entity = mike.bind(zulu)();

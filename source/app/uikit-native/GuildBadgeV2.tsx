@@ -8,16 +8,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: resolveImageSource
-        _fun90537: for(var _fun90537_ip = 0; ; ) switch(_fun90537_ip) {
+        _fun90554: for(var _fun90554_ip = 0; ; ) switch(_fun90554_ip) {
  0:
             mike = argFoo;
             entity = argBar;
             entity = entity.premium;
-            if(!entity) { _fun90537_ip = 27; continue _fun90537 }
+            if(!entity) { _fun90554_ip = 27; continue _fun90554 }
  15:
             zulu = mike.premiumImageSource;
             entity = null;
-            if(!(entity == zulu)) { _fun90537_ip = 97; continue _fun90537 }
+            if(!(entity == zulu)) { _fun90554_ip = 97; continue _fun90554 }
  27:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -28,18 +28,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.isThemeLight;
             entity = argBaz;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun90537_ip = 81; continue _fun90537 }
+            if(!entity) { _fun90554_ip = 81; continue _fun90554 }
  69:
             zulu = mike.imageSourceLight;
             entity = null;
-            if(!(entity == zulu)) { _fun90537_ip = 89; continue _fun90537 }
+            if(!(entity == zulu)) { _fun90554_ip = 89; continue _fun90554 }
  81:
             entity = mike.imageSource;
-            _fun90537_ip = 95; continue _fun90537;
+            _fun90554_ip = 95; continue _fun90554;
  89:
             entity = mike.imageSourceLight;
  95:
-            _fun90537_ip = 103; continue _fun90537;
+            _fun90554_ip = 103; continue _fun90554;
  97:
             entity = mike.premiumImageSource;
  103:
@@ -171,13 +171,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/GuildBadgeV2.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildBadgeV2
-        _fun90538: for(var _fun90538_ip = 0; ; ) switch(_fun90538_ip) {
+        _fun90555: for(var _fun90555_ip = 0; ; ) switch(_fun90555_ip) {
  0:
             tango = argFoo;
             romeo = tango.guild;
             offset = tango.size;
             oscar = undefined;
-            if(!(offset === oscar)) { _fun90538_ip = 54; continue _fun90538 }
+            if(!(offset === oscar)) { _fun90555_ip = 54; continue _fun90555 }
  19:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.useThemeContext;
             mike = mike.bind(tango)();
             verify = mike.theme;
-            if(!(entity != romeo)) { _fun90538_ip = 291; continue _fun90538 }
+            if(!(entity != romeo)) { _fun90555_ip = 291; continue _fun90555 }
  135:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -222,13 +222,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.bind(tango)(report);
             mike = _closure1_slot5;
             tango = mike[tango];
-            if(!(entity != tango)) { _fun90538_ip = 289; continue _fun90538 }
+            if(!(entity != tango)) { _fun90555_ip = 289; continue _fun90555 }
  201:
             mike = _closure1_slot6;
             verify = mike.bind(oscar)(tango, report, verify);
             tango = entity == verify;
             mike = null;
-            if(tango) { _fun90538_ip = 287; continue _fun90538 }
+            if(tango) { _fun90555_ip = 287; continue _fun90555 }
  221:
             report = _closure1_slot3;
             tango = _closure1_slot1;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: hasGuildBadge
-        _fun90539: for(var _fun90539_ip = 0; ; ) switch(_fun90539_ip) {
+        _fun90556: for(var _fun90556_ip = 0; ; ) switch(_fun90556_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = entity[zulu];
             zulu = null;
             entity = zulu != report;
-            if(!entity) { _fun90539_ip = 97; continue _fun90539 }
+            if(!entity) { _fun90556_ip = 97; continue _fun90556 }
  79:
             tango = _closure1_slot6;
             mike = argBar;

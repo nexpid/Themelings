@@ -26,10 +26,10 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/panels/morphable/native/triggerIOSHaptic.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: triggerIOSHaptic
-        _fun121369: for(var _fun121369_ip = 0; ; ) switch(_fun121369_ip) {
+        _fun121375: for(var _fun121375_ip = 0; ; ) switch(_fun121375_ip) {
  0:
             mike = _closure1_slot2;
-            if(!mike) { _fun121369_ip = 64; continue _fun121369 }
+            if(!mike) { _fun121375_ip = 64; continue _fun121375 }
  10:
             report = _closure1_slot0;
             oscar = _closure1_slot1;

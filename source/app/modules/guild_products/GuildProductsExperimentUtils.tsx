@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_products/GuildProductsExperimentUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: useGuildEligibleForGuildProducts
-        _fun81447: for(var _fun81447_ip = 0; ; ) switch(_fun81447_ip) {
+        _fun81459: for(var _fun81459_ip = 0; ; ) switch(_fun81459_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.useExperiment;
             entity = {};
             oscar = null;
-            if(!(oscar == tango)) { _fun81447_ip = 52; continue _fun81447 }
+            if(!(oscar == tango)) { _fun81459_ip = 52; continue _fun81459 }
  48:
             tango = _closure1_slot2;
  52:
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildEligibleForGuildProducts'] = tango;
     mike = function(argFoo, argBar) { // Original name: isGuildEligibleForGuildProducts
-        _fun81448: for(var _fun81448_ip = 0; ; ) switch(_fun81448_ip) {
+        _fun81460: for(var _fun81460_ip = 0; ; ) switch(_fun81460_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.getCurrentConfig;
             entity = {};
             oscar = null;
-            if(!(oscar == tango)) { _fun81448_ip = 52; continue _fun81448 }
+            if(!(oscar == tango)) { _fun81460_ip = 52; continue _fun81460 }
  48:
             tango = _closure1_slot2;
  52:

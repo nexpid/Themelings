@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['canViewInteractionInfo'] = tango;
     mike = function(argFoo) { // Original name: isPrimaryEntryPointCommandMessage
-        _fun71725: for(var _fun71725_ip = 0; ; ) switch(_fun71725_ip) {
+        _fun71731: for(var _fun71731_ip = 0; ; ) switch(_fun71731_ip) {
  0:
             tango = argFoo;
             entity = tango.interactionMetadata;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu == entity;
             report = undefined;
             golf = undefined;
-            if(mike) { _fun71725_ip = 27; continue _fun71725 }
+            if(mike) { _fun71731_ip = 27; continue _fun71731 }
  22:
             golf = entity.type;
  27:
@@ -49,12 +49,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.InteractionTypes;
             entity = entity.APPLICATION_COMMAND;
             entity = golf === entity;
-            if(!entity) { _fun71725_ip = 122; continue _fun71725 }
+            if(!entity) { _fun71731_ip = 122; continue _fun71731 }
  68:
             tango = tango.interactionMetadata;
             golf = zulu == tango;
             zulu = undefined;
-            if(golf) { _fun71725_ip = 89; continue _fun71725 }
+            if(golf) { _fun71731_ip = 89; continue _fun71731 }
  83:
             zulu = tango.command_type;
  89:

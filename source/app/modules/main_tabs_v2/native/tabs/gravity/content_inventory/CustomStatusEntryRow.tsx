@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/gravity/content_inventory/CustomStatusEntryRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CustomStatusEntryRow
-        _fun117770: for(var _fun117770_ip = 0; ; ) switch(_fun117770_ip) {
+        _fun117776: for(var _fun117776_ip = 0; ; ) switch(_fun117776_ip) {
  0:
             entity = argFoo;
             verify = entity.content;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             offset = oscar == zulu;
             oscar = undefined;
-            if(offset) { _fun117770_ip = 94; continue _fun117770 }
+            if(offset) { _fun117776_ip = 94; continue _fun117776 }
  89:
             oscar = zulu.width;
  94:
@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = verify;
             zulu[2] = romeo;
             mike = function() {
-                _fun117772: for(var _fun117772_ip = 0; ; ) switch(_fun117772_ip) {
+                _fun117778: for(var _fun117778_ip = 0; ; ) switch(_fun117778_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike != zulu)) { _fun117772_ip = 173; continue _fun117772 }
+                    if(!(mike != zulu)) { _fun117778_ip = 173; continue _fun117778 }
  16:
                     golf = _closure1_slot0;
                     mike = _closure1_slot2;

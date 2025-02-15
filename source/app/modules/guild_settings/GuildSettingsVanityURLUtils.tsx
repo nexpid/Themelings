@@ -28,32 +28,32 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_settings/GuildSettingsVanityURLUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getErrorMessageFromErrorCode
-        _fun124946: for(var _fun124946_ip = 0; ; ) switch(_fun124946_ip) {
+        _fun124942: for(var _fun124942_ip = 0; ; ) switch(_fun124942_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.UNKNOWN_CHANNEL;
-            if(!(mike !== zulu)) { _fun124946_ip = 459; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 459; continue _fun124942 }
  23:
             mike = _closure1_slot2;
             mike = mike.INVALID_PERMISSIONS;
-            if(!(mike !== zulu)) { _fun124946_ip = 400; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 400; continue _fun124942 }
  40:
             mike = _closure1_slot2;
             mike = mike.INVALID_ACCESS;
-            if(!(mike !== zulu)) { _fun124946_ip = 341; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 341; continue _fun124942 }
  57:
             mike = _closure1_slot2;
             mike = mike.VANITY_URL_REQUIRED_FOR_PUBLISHED_GUILDS;
-            if(!(mike !== zulu)) { _fun124946_ip = 282; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 282; continue _fun124942 }
  74:
             mike = _closure1_slot2;
             mike = mike.VANITY_URL_EMPLOYEE_ONLY_GUILD_DISABLED;
-            if(!(mike !== zulu)) { _fun124946_ip = 223; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 223; continue _fun124942 }
  91:
             mike = _closure1_slot2;
             mike = mike.VANITY_URL_REQUIREMENTS_NOT_MET;
-            if(!(mike !== zulu)) { _fun124946_ip = 164; continue _fun124946 }
+            if(!(mike !== zulu)) { _fun124942_ip = 164; continue _fun124942 }
  105:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -163,20 +163,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getErrorMessageFromErrorCode'] = tango;
     mike = function(argFoo) { // Original name: canSeeVanityUrlSettings
-        _fun124947: for(var _fun124947_ip = 0; ; ) switch(_fun124947_ip) {
+        _fun124943: for(var _fun124943_ip = 0; ; ) switch(_fun124943_ip) {
  0:
             zulu = argFoo;
             tango = zulu.hasFeature;
             entity = _closure1_slot3;
             entity = entity.VANITY_URL;
             entity = tango.bind(zulu)(entity);
-            if(entity) { _fun124947_ip = 69; continue _fun124947 }
+            if(entity) { _fun124943_ip = 69; continue _fun124943 }
  30:
             tango = zulu.hasFeature;
             mike = _closure1_slot3;
             mike = mike.GUILD_WEB_PAGE_VANITY_URL;
             mike = tango.bind(zulu)(mike);
-            if(!mike) { _fun124947_ip = 66; continue _fun124947 }
+            if(!mike) { _fun124943_ip = 66; continue _fun124943 }
  54:
             tango = zulu.vanityURLCode;
             zulu = null;

@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/tiered_tenure_badging/native/hooks/useTieredTenureBadgeClickHandler.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: useTieredTenureBadgeClickHandler
-        _fun77436: for(var _fun77436_ip = 0; ; ) switch(_fun77436_ip) {
+        _fun77446: for(var _fun77446_ip = 0; ; ) switch(_fun77446_ip) {
  0:
             golf = argFoo;
             options = argBar;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 'string';
             tango = typeof golf;
             tango = report === tango;
-            if(!tango) { _fun77436_ip = 151; continue _fun77436 }
+            if(!tango) { _fun77446_ip = 151; continue _fun77446 }
  114:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -112,24 +112,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = romeo.bind(foxtrot)(yankee, report);
             report = _closure1_slot6;
             report = golf === report;
-            if(!report) { _fun77436_ip = 232; continue _fun77436 }
+            if(!report) { _fun77446_ip = 232; continue _fun77446 }
  212:
             romeo = null;
             romeo = romeo == yankee;
             offset = undefined;
-            if(romeo) { _fun77436_ip = 228; continue _fun77436 }
+            if(romeo) { _fun77446_ip = 228; continue _fun77446 }
  223:
             offset = yankee.id;
  228:
             report = options === offset;
  232:
-            if(!report) { _fun77436_ip = 238; continue _fun77436 }
+            if(!report) { _fun77446_ip = 238; continue _fun77446 }
  235:
             report = oscar;
  238:
-            if(!zulu) { _fun77436_ip = 250; continue _fun77436 }
+            if(!zulu) { _fun77446_ip = 250; continue _fun77446 }
  241:
-            if(tango) { _fun77436_ip = 247; continue _fun77436 }
+            if(tango) { _fun77446_ip = 247; continue _fun77446 }
  244:
             tango = report;
  247:
@@ -145,12 +145,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = golf;
             mike[4] = oscar;
             entity = function() {
-                _fun77438: for(var _fun77438_ip = 0; ; ) switch(_fun77438_ip) {
+                _fun77448: for(var _fun77448_ip = 0; ; ) switch(_fun77448_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = _closure1_slot9;
                     mike = mike.YOU_SCREEN;
-                    if(!(zulu !== mike)) { _fun77438_ip = 133; continue _fun77438 }
+                    if(!(zulu !== mike)) { _fun77448_ip = 133; continue _fun77448 }
  24:
                     zulu = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     backup = oscar;
                     romeo = zulu;
                     mike = kilo[golf](backup, foxtrot, romeo, yankee, offset);
-                    _fun77438_ip = 183; continue _fun77438;
+                    _fun77448_ip = 183; continue _fun77448;
  133:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.bind(tango)(mike);
  183:
                     mike = _closure2_slot4;
-                    if(!mike) { _fun77438_ip = 262; continue _fun77438 }
+                    if(!mike) { _fun77448_ip = 262; continue _fun77448 }
  190:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = tango.bind(report)(entity, mike);
             entity = null;
-            if(!zulu) { _fun77436_ip = 308; continue _fun77436 }
+            if(!zulu) { _fun77446_ip = 308; continue _fun77446 }
  305:
             entity = mike;
  308:

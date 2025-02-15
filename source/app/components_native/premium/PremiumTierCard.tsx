@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/PremiumTierCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun96352: for(var _fun96352_ip = 0; ; ) switch(_fun96352_ip) {
+        _fun96362: for(var _fun96362_ip = 0; ; ) switch(_fun96362_ip) {
  0:
             entity = argFoo;
             backup = entity.premiumType;
@@ -134,52 +134,52 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_0;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 231; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 231; continue _fun96362 }
  185:
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_1;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 223; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 223; continue _fun96362 }
  199:
             foxtrot = _closure1_slot5;
             kilo = foxtrot.TIER_2;
             foxtrot = undefined;
-            if(!(kilo === backup)) { _fun96352_ip = 237; continue _fun96352 }
+            if(!(kilo === backup)) { _fun96362_ip = 237; continue _fun96362 }
  215:
             foxtrot = verify.textLogoTier2;
-            _fun96352_ip = 237; continue _fun96352;
+            _fun96362_ip = 237; continue _fun96362;
  223:
             foxtrot = verify.textLogoTier1;
-            _fun96352_ip = 237; continue _fun96352;
+            _fun96362_ip = 237; continue _fun96362;
  231:
             foxtrot = verify.textLogoTier0;
  237:
             yankee['style'] = foxtrot;
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_0;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 329; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 329; continue _fun96362 }
  255:
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_1;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 307; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 307; continue _fun96362 }
  269:
             foxtrot = _closure1_slot5;
             kilo = foxtrot.TIER_2;
             foxtrot = undefined;
-            if(!(kilo === backup)) { _fun96352_ip = 349; continue _fun96352 }
+            if(!(kilo === backup)) { _fun96362_ip = 349; continue _fun96362 }
  285:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
             kilo = 12;
             kilo = output[kilo];
             foxtrot = sizing.bind(tango)(kilo);
-            _fun96352_ip = 349; continue _fun96352;
+            _fun96362_ip = 349; continue _fun96362;
  307:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
             kilo = 11;
             kilo = output[kilo];
             foxtrot = sizing.bind(tango)(kilo);
-            _fun96352_ip = 349; continue _fun96352;
+            _fun96362_ip = 349; continue _fun96362;
  329:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
@@ -199,22 +199,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = foxtrot;
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_0;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 453; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 453; continue _fun96362 }
  407:
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.TIER_1;
-            if(!(foxtrot !== backup)) { _fun96352_ip = 445; continue _fun96352 }
+            if(!(foxtrot !== backup)) { _fun96362_ip = 445; continue _fun96362 }
  421:
             foxtrot = _closure1_slot5;
             kilo = foxtrot.TIER_2;
             foxtrot = undefined;
-            if(!(kilo === backup)) { _fun96352_ip = 459; continue _fun96352 }
+            if(!(kilo === backup)) { _fun96362_ip = 459; continue _fun96362 }
  437:
             foxtrot = verify.wumpusLogoTier2;
-            _fun96352_ip = 459; continue _fun96352;
+            _fun96362_ip = 459; continue _fun96362;
  445:
             foxtrot = verify.wumpusLogoTier1;
-            _fun96352_ip = 459; continue _fun96352;
+            _fun96362_ip = 459; continue _fun96362;
  453:
             foxtrot = verify.wumpusLogoTier0;
  459:
@@ -222,30 +222,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = yankee;
             yankee = _closure1_slot5;
             yankee = yankee.TIER_0;
-            if(!(yankee !== backup)) { _fun96352_ip = 555; continue _fun96352 }
+            if(!(yankee !== backup)) { _fun96362_ip = 555; continue _fun96362 }
  481:
             yankee = _closure1_slot5;
             yankee = yankee.TIER_1;
-            if(!(yankee !== backup)) { _fun96352_ip = 533; continue _fun96352 }
+            if(!(yankee !== backup)) { _fun96362_ip = 533; continue _fun96362 }
  495:
             yankee = _closure1_slot5;
             foxtrot = yankee.TIER_2;
             yankee = undefined;
-            if(!(foxtrot === backup)) { _fun96352_ip = 575; continue _fun96352 }
+            if(!(foxtrot === backup)) { _fun96362_ip = 575; continue _fun96362 }
  511:
             backup = _closure1_slot1;
             kilo = _closure1_slot2;
             foxtrot = 15;
             foxtrot = kilo[foxtrot];
             yankee = backup.bind(tango)(foxtrot);
-            _fun96352_ip = 575; continue _fun96352;
+            _fun96362_ip = 575; continue _fun96362;
  533:
             backup = _closure1_slot1;
             kilo = _closure1_slot2;
             foxtrot = 14;
             foxtrot = kilo[foxtrot];
             yankee = backup.bind(tango)(foxtrot);
-            _fun96352_ip = 575; continue _fun96352;
+            _fun96362_ip = 575; continue _fun96362;
  555:
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;

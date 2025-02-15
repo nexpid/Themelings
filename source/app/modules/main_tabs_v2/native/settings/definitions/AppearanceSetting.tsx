@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     var _closure1_slot1 = report;
     var _closure1_slot2 = golf;
     mike = function() { // Original name: useAppearanceSettingTrailing
-        _fun97131: for(var _fun97131_ip = 0; ; ) switch(_fun97131_ip) {
+        _fun97141: for(var _fun97141_ip = 0; ; ) switch(_fun97141_ip) {
  0:
             oscar = _closure1_slot1;
             report = _closure1_slot2;
@@ -99,10 +99,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity[offset] = report;
             report = _closure1_slot5;
             report = report.ON;
-            if(!(options !== report)) { _fun97131_ip = 393; continue _fun97131 }
+            if(!(options !== report)) { _fun97141_ip = 393; continue _fun97141 }
  387:
             entity = entity[tango];
-            _fun97131_ip = 445; continue _fun97131;
+            _fun97141_ip = 445; continue _fun97141;
  393:
             options = _closure1_slot0;
             mike = _closure1_slot2;
@@ -119,22 +119,22 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             report = null;
             mike = report == oscar;
             tango = undefined;
-            if(mike) { _fun97131_ip = 481; continue _fun97131 }
+            if(mike) { _fun97141_ip = 481; continue _fun97141 }
  456:
             mike = oscar.getName;
             mike = report == mike;
             tango = undefined;
-            if(mike) { _fun97131_ip = 481; continue _fun97131 }
+            if(mike) { _fun97141_ip = 481; continue _fun97141 }
  471:
             mike = oscar.getName;
             tango = mike.bind(oscar)();
  481:
             mike = entity;
-            if(!(report != tango)) { _fun97131_ip = 491; continue _fun97131 }
+            if(!(report != tango)) { _fun97141_ip = 491; continue _fun97141 }
  488:
             mike = tango;
  491:
-            if(!zulu) { _fun97131_ip = 497; continue _fun97131 }
+            if(!zulu) { _fun97141_ip = 497; continue _fun97141 }
  494:
             entity = mike;
  497:

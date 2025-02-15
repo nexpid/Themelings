@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_onboarding_home/useIsSelectedResourceChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsSelectedResourceChannel
-        _fun89309: for(var _fun89309_ip = 0; ; ) switch(_fun89309_ip) {
+        _fun89326: for(var _fun89326_ip = 0; ; ) switch(_fun89326_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -57,14 +57,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = _closure1_slot3;
             zulu[1] = verify;
             entity = function() {
-                _fun89310: for(var _fun89310_ip = 0; ; ) switch(_fun89310_ip) {
+                _fun89327: for(var _fun89327_ip = 0; ; ) switch(_fun89327_ip) {
  0:
                     tango = _closure1_slot2;
                     mike = tango.getChannel;
                     entity = _closure2_slot0;
                     entity = mike.bind(tango)(entity);
                     report = null;
-                    if(!(report != entity)) { _fun89310_ip = 122; continue _fun89310 }
+                    if(!(report != entity)) { _fun89327_ip = 122; continue _fun89327 }
  30:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -77,19 +77,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure1_slot5;
                     tango = tango.IS_GUILD_RESOURCE_CHANNEL;
                     tango = golf.bind(options)(oscar, tango);
-                    if(!tango) { _fun89310_ip = 122; continue _fun89310 }
+                    if(!tango) { _fun89327_ip = 122; continue _fun89327 }
  82:
                     tango = _closure1_slot3;
                     zulu = tango.getSelectedResourceChannelId;
                     report = report == entity;
                     mike = undefined;
-                    if(report) { _fun89310_ip = 108; continue _fun89310 }
+                    if(report) { _fun89327_ip = 108; continue _fun89327 }
  103:
                     mike = entity.guild_id;
  108:
                     zulu = zulu.bind(tango)(mike);
                     mike = entity.id;
-                    if(!(zulu !== mike)) { _fun89310_ip = 126; continue _fun89310 }
+                    if(!(zulu !== mike)) { _fun89327_ip = 126; continue _fun89327 }
  122:
                     mike = undefined;
                     return mike;
@@ -105,13 +105,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.useCanSeeOnboardingHome;
             entity = null;
             mike = zulu;
-            if(!(entity == mike)) { _fun89309_ip = 103; continue _fun89309 }
+            if(!(entity == mike)) { _fun89326_ip = 103; continue _fun89326 }
  99:
             mike = _closure1_slot4;
  103:
             mike = tango.bind(report)(mike);
             entity = entity != zulu;
-            if(!entity) { _fun89309_ip = 118; continue _fun89309 }
+            if(!entity) { _fun89326_ip = 118; continue _fun89326 }
  115:
             entity = mike;
  118:

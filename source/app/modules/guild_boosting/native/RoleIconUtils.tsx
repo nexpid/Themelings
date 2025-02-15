@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_boosting/native/RoleIconUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun64854: for(var _fun64854_ip = 0; ; ) switch(_fun64854_ip) {
+        _fun64859: for(var _fun64859_ip = 0; ; ) switch(_fun64859_ip) {
  0:
             mike = argFoo;
             zulu = mike.guildId;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = oscar;
             report = mike.size;
             options = undefined;
-            if(!(report === options)) { _fun64854_ip = 38; continue _fun64854 }
+            if(!(report === options)) { _fun64859_ip = 38; continue _fun64859 }
  35:
             report = 20;
  38:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = zulu;
             zulu = function() {
-                _fun64855: for(var _fun64855_ip = 0; ; ) switch(_fun64855_ip) {
+                _fun64860: for(var _fun64860_ip = 0; ; ) switch(_fun64860_ip) {
  0:
                     entity = {};
                     oscar = _closure1_slot4;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     report = mike != report;
                     mike = undefined;
-                    if(!report) { _fun64855_ip = 60; continue _fun64855 }
+                    if(!report) { _fun64860_ip = 60; continue _fun64860 }
  41:
                     report = _closure1_slot4;
                     tango = report.getRoles;
@@ -100,17 +100,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = oscar;
             mike[3] = report;
             entity = function() {
-                _fun64856: for(var _fun64856_ip = 0; ; ) switch(_fun64856_ip) {
+                _fun64861: for(var _fun64861_ip = 0; ; ) switch(_fun64861_ip) {
  0:
                     entity = _closure2_slot3;
                     mike = null;
-                    if(!(mike != entity)) { _fun64856_ip = 166; continue _fun64856 }
+                    if(!(mike != entity)) { _fun64861_ip = 167; continue _fun64861 }
  16:
                     entity = _closure2_slot4;
-                    if(!(mike != entity)) { _fun64856_ip = 166; continue _fun64856 }
+                    if(!(mike != entity)) { _fun64861_ip = 167; continue _fun64861 }
  27:
                     entity = _closure2_slot1;
-                    if(!(mike != entity)) { _fun64856_ip = 166; continue _fun64856 }
+                    if(!(mike != entity)) { _fun64861_ip = 167; continue _fun64861 }
  38:
                     zulu = _closure2_slot4;
                     entity = _closure2_slot1;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = verify.canGuildUseRoleIcons;
                     zulu = _closure2_slot3;
                     zulu = golf.bind(verify)(zulu, oscar);
-                    if(!zulu) { _fun64856_ip = 166; continue _fun64856 }
+                    if(!zulu) { _fun64861_ip = 167; continue _fun64861 }
  94:
                     golf = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = golf.bind(tango)(zulu);
                     zulu = golf.getRoleIconData;
                     zulu = zulu.bind(golf)(oscar);
-                    if(!(mike == zulu)) { _fun64856_ip = 128; continue _fun64856 }
+                    if(!(mike == zulu)) { _fun64861_ip = 128; continue _fun64861 }
  126:
                     zulu = {};
  128:
@@ -140,19 +140,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = zulu.unicodeEmoji;
                     zulu = mike != verify;
                     options = undefined;
-                    if(!zulu) { _fun64856_ip = 158; continue _fun64856 }
+                    if(!zulu) { _fun64861_ip = 159; continue _fun64861 }
  149:
                     zulu = {};
                     zulu['uri'] = verify;
                     options = zulu;
- 158:
-                    if(!(mike == options)) { _fun64856_ip = 170; continue _fun64856 }
- 162:
-                    if(!(mike == golf)) { _fun64856_ip = 170; continue _fun64856 }
- 166:
+ 159:
+                    if(!(mike == options)) { _fun64861_ip = 171; continue _fun64861 }
+ 163:
+                    if(!(mike == golf)) { _fun64861_ip = 171; continue _fun64861 }
+ 167:
                     mike = undefined;
                     return mike;
- 170:
+ 171:
                     zulu = _closure1_slot5;
                     mike = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useRoleIcon'] = tango;
     mike = function(argFoo) { // Original name: getRoleIcon
-        _fun64857: for(var _fun64857_ip = 0; ; ) switch(_fun64857_ip) {
+        _fun64862: for(var _fun64862_ip = 0; ; ) switch(_fun64862_ip) {
  0:
             entity = argFoo;
             tango = entity.guildId;
@@ -186,15 +186,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.getGuild;
             verify = entity.bind(zulu)(tango);
             zulu = null;
-            if(!(zulu != verify)) { _fun64857_ip = 182; continue _fun64857 }
+            if(!(zulu != verify)) { _fun64862_ip = 182; continue _fun64862 }
  45:
-            if(!(zulu != golf)) { _fun64857_ip = 182; continue _fun64857 }
+            if(!(zulu != golf)) { _fun64862_ip = 182; continue _fun64862 }
  52:
             oscar = _closure1_slot4;
             tango = oscar.getRole;
             entity = verify.id;
             oscar = tango.bind(oscar)(entity, golf);
-            if(!(zulu != oscar)) { _fun64857_ip = 182; continue _fun64857 }
+            if(!(zulu != oscar)) { _fun64862_ip = 182; continue _fun64862 }
  77:
             tango = _closure1_slot0;
             entity = _closure1_slot2;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(golf)(entity);
             entity = tango.canGuildUseRoleIcons;
             entity = entity.bind(tango)(verify, oscar);
-            if(!entity) { _fun64857_ip = 182; continue _fun64857 }
+            if(!entity) { _fun64862_ip = 182; continue _fun64862 }
  114:
             tango = _closure1_slot0;
             entity = _closure1_slot2;
@@ -212,21 +212,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(golf)(entity);
             entity = tango.getRoleIconData;
             entity = entity.bind(tango)(oscar);
-            if(!(zulu == entity)) { _fun64857_ip = 148; continue _fun64857 }
+            if(!(zulu == entity)) { _fun64862_ip = 148; continue _fun64862 }
  146:
             entity = {};
  148:
             options = entity.customIconSrc;
             tango = entity.unicodeEmoji;
-            if(!(zulu == options)) { _fun64857_ip = 186; continue _fun64857 }
+            if(!(zulu == options)) { _fun64862_ip = 186; continue _fun64862 }
  164:
             verify = zulu == tango;
             entity = undefined;
-            if(verify) { _fun64857_ip = 178; continue _fun64857 }
+            if(verify) { _fun64862_ip = 178; continue _fun64862 }
  173:
             entity = tango.surrogates;
  178:
-            if(!(zulu == entity)) { _fun64857_ip = 186; continue _fun64857 }
+            if(!(zulu == entity)) { _fun64862_ip = 186; continue _fun64862 }
  182:
             entity = undefined;
             return entity;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['size'] = report;
             report = zulu == tango;
             zulu = undefined;
-            if(report) { _fun64857_ip = 219; continue _fun64857 }
+            if(report) { _fun64862_ip = 219; continue _fun64862 }
  214:
             zulu = tango.surrogates;
  219:

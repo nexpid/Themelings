@@ -61,13 +61,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         verify[0] = golf;
         verify[1] = oscar;
         oscar = function() {
-            _fun122419: for(var _fun122419_ip = 0; ; ) switch(_fun122419_ip) {
+            _fun122425: for(var _fun122425_ip = 0; ; ) switch(_fun122425_ip) {
  0:
                 zulu = _closure2_slot1;
                 mike = zulu.set;
                 tango = _closure2_slot0;
                 entity = 0;
-                if(!tango) { _fun122419_ip = 52; continue _fun122419 }
+                if(!tango) { _fun122425_ip = 52; continue _fun122425 }
  21:
                 oscar = _closure1_slot0;
                 report = _closure1_slot2;
@@ -99,13 +99,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         offset[0] = oscar;
         offset[1] = verify;
         verify = function() {
-            _fun122420: for(var _fun122420_ip = 0; ; ) switch(_fun122420_ip) {
+            _fun122426: for(var _fun122426_ip = 0; ; ) switch(_fun122426_ip) {
  0:
                 zulu = _closure2_slot3;
                 mike = zulu.set;
                 tango = _closure2_slot2;
                 entity = 0;
-                if(!tango) { _fun122420_ip = 52; continue _fun122420 }
+                if(!tango) { _fun122426_ip = 52; continue _fun122426 }
  21:
                 oscar = _closure1_slot0;
                 report = _closure1_slot2;

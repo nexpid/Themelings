@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormSliderRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSliderRow
-        _fun63780: for(var _fun63780_ip = 0; ; ) switch(_fun63780_ip) {
+        _fun63785: for(var _fun63785_ip = 0; ; ) switch(_fun63785_ip) {
  0:
             zulu = argFoo;
             sizing = zulu.label;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot8;
             offset = mike.bind(report)();
             tango = _closure1_slot6;
-            if(entity) { _fun63780_ip = 207; continue _fun63780 }
+            if(entity) { _fun63785_ip = 207; continue _fun63785 }
  103:
             mike = _closure1_slot7;
             entity = {};
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = oscar;
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun63780_ip = 385; continue _fun63780;
+            _fun63785_ip = 389; continue _fun63785;
  207:
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 385:
+ 389:
             return entity;
         }
     };

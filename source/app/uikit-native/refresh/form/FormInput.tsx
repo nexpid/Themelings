@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike['CHARACTERS'] = oscar;
     oscar = verify.forwardRef;
     report = function(argFoo, argBar) {
-        _fun63604: for(var _fun63604_ip = 0; ; ) switch(_fun63604_ip) {
+        _fun63609: for(var _fun63609_ip = 0; ; ) switch(_fun63609_ip) {
  0:
             offset = argFoo;
             update = offset.onChange;
@@ -86,43 +86,43 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.value;
             status = offset.title;
             oscar = undefined;
-            if(!(status === oscar)) { _fun63604_ip = 54; continue _fun63604 }
+            if(!(status === oscar)) { _fun63609_ip = 54; continue _fun63609 }
  50:
             status = '';
  54:
             vacuum = offset.helpText;
-            if(!(vacuum === oscar)) { _fun63604_ip = 68; continue _fun63604 }
+            if(!(vacuum === oscar)) { _fun63609_ip = 68; continue _fun63609 }
  64:
             vacuum = '';
  68:
             golf = offset.error;
             sizing = offset.placeholder;
-            if(!(sizing === oscar)) { _fun63604_ip = 87; continue _fun63604 }
+            if(!(sizing === oscar)) { _fun63609_ip = 87; continue _fun63609 }
  83:
             sizing = '';
  87:
             source = offset.secureTextEntry;
-            if(!(source === oscar)) { _fun63604_ip = 99; continue _fun63604 }
+            if(!(source === oscar)) { _fun63609_ip = 99; continue _fun63609 }
  97:
             source = false;
  99:
             backup = offset.disabled;
-            if(!(backup === oscar)) { _fun63604_ip = 110; continue _fun63604 }
+            if(!(backup === oscar)) { _fun63609_ip = 110; continue _fun63609 }
  108:
             backup = false;
  110:
             control = offset.multiline;
-            if(!(control === oscar)) { _fun63604_ip = 122; continue _fun63604 }
+            if(!(control === oscar)) { _fun63609_ip = 122; continue _fun63609 }
  120:
             control = false;
  122:
             foxtrot = offset.autoFocus;
-            if(!(foxtrot === oscar)) { _fun63604_ip = 134; continue _fun63604 }
+            if(!(foxtrot === oscar)) { _fun63609_ip = 134; continue _fun63609 }
  132:
             foxtrot = false;
  134:
             target = offset.numberOfLines;
-            if(!(target === oscar)) { _fun63604_ip = 147; continue _fun63604 }
+            if(!(target === oscar)) { _fun63609_ip = 147; continue _fun63609 }
  144:
             target = 1;
  147:
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = offset.autoCapitalize;
             yankee = offset.autoCorrect;
             papa = offset.showBorder;
-            if(!(papa === oscar)) { _fun63604_ip = 207; continue _fun63604 }
+            if(!(papa === oscar)) { _fun63609_ip = 207; continue _fun63609 }
  175:
             mike = _closure1_slot0;
             options = _closure1_slot2;
@@ -141,17 +141,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = entity.bind(mike)();
  207:
             record = offset.showCharactersRemaining;
-            if(!(record === oscar)) { _fun63604_ip = 219; continue _fun63604 }
+            if(!(record === oscar)) { _fun63609_ip = 219; continue _fun63609 }
  217:
             record = false;
  219:
             result = offset.enableAndroidSanitizedInputWorkaround;
-            if(!(result === oscar)) { _fun63604_ip = 231; continue _fun63604 }
+            if(!(result === oscar)) { _fun63609_ip = 231; continue _fun63609 }
  229:
             result = false;
  231:
             kilo = offset.allowRedesignTextInput;
-            if(!(kilo === oscar)) { _fun63604_ip = 243; continue _fun63604 }
+            if(!(kilo === oscar)) { _fun63609_ip = 243; continue _fun63609 }
  241:
             kilo = true;
  243:
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = config.useThemeContext;
             entity = entity.bind(config)();
             sierra = entity.theme;
-            if(!(options == echo)) { _fun63604_ip = 398; continue _fun63604 }
+            if(!(options == echo)) { _fun63609_ip = 398; continue _fun63609 }
  343:
             config = _closure1_slot0;
             lima = _closure1_slot2;
@@ -187,10 +187,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = config.isThemeDark;
             entity = entity.bind(config)(sierra);
             config = _closure1_slot4;
-            if(entity) { _fun63604_ip = 389; continue _fun63604 }
+            if(entity) { _fun63609_ip = 389; continue _fun63609 }
  381:
             entity = config.LIGHT;
-            _fun63604_ip = 395; continue _fun63604;
+            _fun63609_ip = 395; continue _fun63609;
  389:
             entity = config.DARK;
  395:
@@ -205,13 +205,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = lima.bind(oscar)(entity);
             entity = entity.RedesignCompatContext;
             entity = config.bind(sierra)(entity);
-            if(!entity) { _fun63604_ip = 445; continue _fun63604 }
+            if(!entity) { _fun63609_ip = 445; continue _fun63609 }
  442:
             entity = kilo;
  445:
             _closure2_slot0 = entity;
             config = !result;
-            if(config) { _fun63604_ip = 487; continue _fun63604 }
+            if(config) { _fun63609_ip = 487; continue _fun63609 }
  455:
             sierra = _closure1_slot0;
             lima = _closure1_slot2;
@@ -223,11 +223,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = !kilo;
  487:
             kilo = !config;
-            if(!config) { _fun63604_ip = 496; continue _fun63604 }
+            if(!config) { _fun63609_ip = 496; continue _fun63609 }
  493:
             kilo = source;
  496:
-            if(!result) { _fun63604_ip = 537; continue _fun63604 }
+            if(!result) { _fun63609_ip = 537; continue _fun63609 }
  499:
             source = _closure1_slot0;
             config = _closure1_slot2;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = source.isAndroid;
             source = result.bind(source)();
             result = 'visible-password';
-            if(source) { _fun63604_ip = 540; continue _fun63604 }
+            if(source) { _fun63609_ip = 540; continue _fun63609 }
  537:
             result = report;
  540:
@@ -253,13 +253,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = function() {
                 entity = {};
                 zulu = function() { // Original name: isFocused
-                    _fun63606: for(var _fun63606_ip = 0; ; ) switch(_fun63606_ip) {
+                    _fun63611: for(var _fun63611_ip = 0; ; ) switch(_fun63611_ip) {
  0:
                         entity = _closure2_slot0;
-                        if(entity) { _fun63606_ip = 16; continue _fun63606 }
+                        if(entity) { _fun63611_ip = 16; continue _fun63611 }
  10:
                         entity = _closure2_slot2;
-                        _fun63606_ip = 20; continue _fun63606;
+                        _fun63611_ip = 20; continue _fun63611;
  16:
                         entity = _closure2_slot1;
  20:
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = null;
                         entity = entity == zulu;
                         mike = undefined;
-                        if(entity) { _fun63606_ip = 46; continue _fun63606 }
+                        if(entity) { _fun63611_ip = 46; continue _fun63611 }
  36:
                         entity = zulu.isFocused;
                         mike = entity.bind(zulu)();
@@ -279,19 +279,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 entity['isFocused'] = zulu;
                 zulu = function() { // Original name: focus
-                    _fun63607: for(var _fun63607_ip = 0; ; ) switch(_fun63607_ip) {
+                    _fun63612: for(var _fun63612_ip = 0; ; ) switch(_fun63612_ip) {
  0:
                         entity = _closure2_slot0;
-                        if(entity) { _fun63607_ip = 16; continue _fun63607 }
+                        if(entity) { _fun63612_ip = 16; continue _fun63612 }
  10:
                         entity = _closure2_slot2;
-                        _fun63607_ip = 20; continue _fun63607;
+                        _fun63612_ip = 20; continue _fun63612;
  16:
                         entity = _closure2_slot1;
  20:
                         mike = entity.current;
                         entity = null;
-                        if(!(entity != mike)) { _fun63607_ip = 41; continue _fun63607 }
+                        if(!(entity != mike)) { _fun63612_ip = 41; continue _fun63612 }
  31:
                         entity = mike.focus;
                         entity = entity.bind(mike)();
@@ -302,19 +302,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 entity['focus'] = zulu;
                 mike = function() { // Original name: blur
-                    _fun63608: for(var _fun63608_ip = 0; ; ) switch(_fun63608_ip) {
+                    _fun63613: for(var _fun63613_ip = 0; ; ) switch(_fun63613_ip) {
  0:
                         entity = _closure2_slot0;
-                        if(entity) { _fun63608_ip = 16; continue _fun63608 }
+                        if(entity) { _fun63613_ip = 16; continue _fun63613 }
  10:
                         entity = _closure2_slot2;
-                        _fun63608_ip = 20; continue _fun63608;
+                        _fun63613_ip = 20; continue _fun63613;
  16:
                         entity = _closure2_slot1;
  20:
                         mike = entity.current;
                         entity = null;
-                        if(!(entity != mike)) { _fun63608_ip = 41; continue _fun63608 }
+                        if(!(entity != mike)) { _fun63613_ip = 41; continue _fun63613 }
  31:
                         entity = mike.blur;
                         entity = entity.bind(mike)();
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = config.bind(lima)(report, zulu);
             report = _closure1_slot5;
-            if(entity) { _fun63604_ip = 887; continue _fun63604 }
+            if(entity) { _fun63609_ip = 887; continue _fun63609 }
  602:
             zulu = _closure1_slot1;
             entity = _closure1_slot2;
@@ -342,14 +342,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['inputTextColor'] = sierra;
             entity['multiline'] = control;
             sierra = offset.returnKeyType;
-            if(!(options == sierra)) { _fun63604_ip = 672; continue _fun63604 }
+            if(!(options == sierra)) { _fun63609_ip = 672; continue _fun63609 }
  659:
             sierra = 'done';
-            if(!control) { _fun63604_ip = 670; continue _fun63604 }
+            if(!control) { _fun63609_ip = 670; continue _fun63609 }
  666:
             sierra = 'default';
  670:
-            _fun63604_ip = 678; continue _fun63604;
+            _fun63609_ip = 678; continue _fun63609;
  672:
             sierra = offset.returnKeyType;
  678:
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = options != golf;
             vacuum = '';
             status = vacuum;
-            if(!sierra) { _fun63604_ip = 740; continue _fun63604 }
+            if(!sierra) { _fun63609_ip = 740; continue _fun63609 }
  737:
             status = golf;
  740:
@@ -386,12 +386,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = record;
             entity['inputTextStyle'] = sequence;
             sequence = options != verify;
-            if(!sequence) { _fun63604_ip = 825; continue _fun63604 }
+            if(!sequence) { _fun63609_ip = 825; continue _fun63609 }
  822:
             vacuum = verify;
  825:
             entity['value'] = vacuum;
-            if(!control) { _fun63604_ip = 861; continue _fun63604 }
+            if(!control) { _fun63609_ip = 861; continue _fun63609 }
  832:
             sequence = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -405,11 +405,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = offset;
             tango = copyDataProperties(variable36, quebec);
             entity = report.bind(oscar)(zulu, entity);
-            _fun63604_ip = 1198; continue _fun63604;
+            _fun63609_ip = 1198; continue _fun63609;
  887:
             tango = _closure1_slot0;
             vacuum = _closure1_slot2;
-            if(control) { _fun63604_ip = 1045; continue _fun63604 }
+            if(control) { _fun63609_ip = 1045; continue _fun63609 }
  901:
             mike = 10;
             mike = vacuum[mike];
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['ref'] = source;
             sequence = 'done';
-            if(!control) { _fun63604_ip = 936; continue _fun63604 }
+            if(!control) { _fun63609_ip = 936; continue _fun63609 }
  932:
             sequence = 'default';
  936:
@@ -439,14 +439,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onEndEditing'] = sequence;
             config = options != verify;
             sequence = undefined;
-            if(!config) { _fun63604_ip = 1025; continue _fun63604 }
+            if(!config) { _fun63609_ip = 1025; continue _fun63609 }
  1022:
             sequence = verify;
  1025:
             mike['value'] = sequence;
             mike['errorMessage'] = golf;
             mike = report.bind(oscar)(zulu, mike);
-            _fun63604_ip = 1195; continue _fun63604;
+            _fun63609_ip = 1195; continue _fun63609;
  1045:
             zulu = 9;
             zulu = vacuum[zulu];
@@ -455,7 +455,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             zulu['ref'] = source;
             source = 'done';
-            if(!control) { _fun63604_ip = 1080; continue _fun63604 }
+            if(!control) { _fun63609_ip = 1080; continue _fun63609 }
  1076:
             source = 'default';
  1080:
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['onEndEditing'] = offset;
             offset = options != verify;
             options = undefined;
-            if(!offset) { _fun63604_ip = 1180; continue _fun63604 }
+            if(!offset) { _fun63609_ip = 1180; continue _fun63609 }
  1177:
             options = verify;
  1180:

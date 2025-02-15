@@ -55,24 +55,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.bind(entity)(options);
     mike['useValue'] = golf;
     golf = function(argFoo) { // Original name: onLaunchpadSettingValueChange
-        _fun98017: for(var _fun98017_ip = 0; ; ) switch(_fun98017_ip) {
+        _fun98027: for(var _fun98027_ip = 0; ; ) switch(_fun98027_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.GESTURE_FULL;
-            if(!(mike !== zulu)) { _fun98017_ip = 272; continue _fun98017 }
+            if(!(mike !== zulu)) { _fun98027_ip = 272; continue _fun98027 }
  23:
             mike = _closure1_slot2;
             mike = mike.GESTURE_EDGE;
-            if(!(mike !== zulu)) { _fun98017_ip = 207; continue _fun98017 }
+            if(!(mike !== zulu)) { _fun98027_ip = 207; continue _fun98027 }
  40:
             mike = _closure1_slot2;
             mike = mike.PULL_TAB;
-            if(!(mike !== zulu)) { _fun98017_ip = 139; continue _fun98017 }
+            if(!(mike !== zulu)) { _fun98027_ip = 139; continue _fun98027 }
  54:
             mike = _closure1_slot2;
             mike = mike.DISABLED;
-            if(!(mike === zulu)) { _fun98017_ip = 335; continue _fun98017 }
+            if(!(mike === zulu)) { _fun98027_ip = 335; continue _fun98027 }
  71:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.LaunchPadMode;
             mike = mike.LAUNCH_PAD_DISABLED;
             mike = zulu.bind(tango)(mike);
-            _fun98017_ip = 335; continue _fun98017;
+            _fun98027_ip = 335; continue _fun98027;
  139:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.LaunchPadMode;
             mike = mike.LAUNCH_PAD_PULL_TAB;
             mike = zulu.bind(tango)(mike);
-            _fun98017_ip = 335; continue _fun98017;
+            _fun98027_ip = 335; continue _fun98027;
  207:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.LaunchPadMode;
             mike = mike.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
             mike = zulu.bind(tango)(mike);
-            _fun98017_ip = 335; continue _fun98017;
+            _fun98027_ip = 335; continue _fun98027;
  272:
             report = _closure1_slot0;
             oscar = _closure1_slot1;

@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/VoiceControlsToggleNuxDismissableContent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: VoiceControlsToggleNuxDismissableContent
-        _fun103708: for(var _fun103708_ip = 0; ; ) switch(_fun103708_ip) {
+        _fun103700: for(var _fun103700_ip = 0; ; ) switch(_fun103700_ip) {
  0:
             zulu = _closure1_slot3;
             tango = undefined;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = zulu.bind(tango)(mike);
-            if(mike) { _fun103708_ip = 68; continue _fun103708 }
+            if(mike) { _fun103700_ip = 68; continue _fun103700 }
  26:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.ACTIVITIES_MOBILE_PIP_FAB_NUX;
             oscar = new Array(1);
             oscar[0] = mike;
-            _fun103708_ip = 72; continue _fun103708;
+            _fun103700_ip = 72; continue _fun103700;
  68:
             oscar = new Array(0);
  72:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['contentTypes'] = oscar;
             report = function(argFoo) { // Original name: children
-                _fun103710: for(var _fun103710_ip = 0; ; ) switch(_fun103710_ip) {
+                _fun103702: for(var _fun103702_ip = 0; ; ) switch(_fun103702_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.visibleContent;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.DismissibleContent;
                     mike = entity.ACTIVITIES_MOBILE_PIP_FAB_NUX;
                     entity = null;
-                    if(!(zulu === mike)) { _fun103710_ip = 134; continue _fun103710 }
+                    if(!(zulu === mike)) { _fun103702_ip = 134; continue _fun103702 }
  64:
                     tango = _closure1_slot5;
                     zulu = _closure1_slot0;

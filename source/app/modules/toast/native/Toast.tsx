@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ToastIcon
-        _fun105836: for(var _fun105836_ip = 0; ; ) switch(_fun105836_ip) {
+        _fun105828: for(var _fun105828_ip = 0; ; ) switch(_fun105828_ip) {
  0:
             entity = argFoo;
             verify = entity.icon;
@@ -25,31 +25,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             yankee = entity != offset;
             zulu = 'header-primary';
-            if(!yankee) { _fun105836_ip = 75; continue _fun105836 }
+            if(!yankee) { _fun105828_ip = 75; continue _fun105828 }
  72:
             zulu = offset;
  75:
             oscar = oscar.bind(options)(zulu);
             zulu = {};
-            if(golf) { _fun105836_ip = 97; continue _fun105836 }
+            if(golf) { _fun105828_ip = 97; continue _fun105828 }
  85:
             golf = true;
             zulu['disableColor'] = golf;
             offset = zulu;
-            _fun105836_ip = 104; continue _fun105836;
+            _fun105828_ip = 104; continue _fun105828;
  97:
             zulu['color'] = oscar;
             offset = zulu;
  104:
-            if(!(entity == report)) { _fun105836_ip = 211; continue _fun105836 }
+            if(!(entity == report)) { _fun105828_ip = 211; continue _fun105828 }
  108:
             golf = 'function';
             zulu = typeof verify;
-            if(!(golf !== zulu)) { _fun105836_ip = 185; continue _fun105836 }
+            if(!(golf !== zulu)) { _fun105828_ip = 185; continue _fun105828 }
  119:
             zulu = entity != verify;
             entity = null;
-            if(!zulu) { _fun105836_ip = 183; continue _fun105836 }
+            if(!zulu) { _fun105828_ip = 183; continue _fun105828 }
  128:
             options = _closure1_slot6;
             golf = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = copyDataProperties(foxtrot, romeo);
             entity = options.bind(tango)(golf, zulu);
  183:
-            _fun105836_ip = 209; continue _fun105836;
+            _fun105828_ip = 209; continue _fun105828;
  185:
             options = _closure1_slot6;
             golf = _closure1_slot7;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['children'] = verify;
             entity = options.bind(tango)(golf, zulu);
  209:
-            _fun105836_ip = 235; continue _fun105836;
+            _fun105828_ip = 235; continue _fun105828;
  211:
             zulu = _closure1_slot6;
             mike = {};
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: ToastContent
-        _fun105837: for(var _fun105837_ip = 0; ; ) switch(_fun105837_ip) {
+        _fun105829: for(var _fun105829_ip = 0; ; ) switch(_fun105829_ip) {
  0:
             entity = argFoo;
             oscar = entity.content;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.bind(report)();
             zulu = 'function';
             entity = typeof oscar;
-            if(!(zulu !== entity)) { _fun105837_ip = 107; continue _fun105837 }
+            if(!(zulu !== entity)) { _fun105829_ip = 107; continue _fun105829 }
  38:
             tango = _closure1_slot6;
             zulu = _closure1_slot0;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = options;
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun105837_ip = 141; continue _fun105837;
+            _fun105829_ip = 141; continue _fun105829;
  107:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/toast/native/Toast.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Toast
-        _fun105838: for(var _fun105838_ip = 0; ; ) switch(_fun105838_ip) {
+        _fun105830: for(var _fun105830_ip = 0; ; ) switch(_fun105830_ip) {
  0:
             entity = argFoo;
             backup = entity.icon;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = options;
             options = null;
-            if(!sizing) { _fun105838_ip = 132; continue _fun105838 }
+            if(!sizing) { _fun105830_ip = 132; continue _fun105830 }
  126:
             options = kilo.multilineContainer;
  132:

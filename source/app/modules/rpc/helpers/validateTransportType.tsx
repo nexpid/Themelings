@@ -32,16 +32,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/validateTransportType.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: validateTransportType
-        _fun109728: for(var _fun109728_ip = 0; ; ) switch(_fun109728_ip) {
+        _fun109734: for(var _fun109734_ip = 0; ; ) switch(_fun109734_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.IPC;
-            if(!(mike !== zulu)) { _fun109728_ip = 34; continue _fun109728 }
+            if(!(mike !== zulu)) { _fun109734_ip = 34; continue _fun109734 }
  20:
             mike = _closure1_slot2;
             mike = mike.POST_MESSAGE;
-            if(!(mike === zulu)) { _fun109728_ip = 38; continue _fun109728 }
+            if(!(mike === zulu)) { _fun109734_ip = 38; continue _fun109734 }
  34:
             mike = undefined;
             return mike;

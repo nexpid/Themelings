@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Pile/native/PileOverflow.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PileOverflow
-        _fun80088: for(var _fun80088_ip = 0; ; ) switch(_fun80088_ip) {
+        _fun80100: for(var _fun80100_ip = 0; ; ) switch(_fun80100_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.size;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 32;
             verify = foxtrot >= golf;
             golf = 4;
-            if(!verify) { _fun80088_ip = 137; continue _fun80088 }
+            if(!verify) { _fun80100_ip = 137; continue _fun80100 }
  134:
             golf = 8;
  137:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             foxtrot = verify != romeo;
             verify = 'text-md/semibold';
-            if(!foxtrot) { _fun80088_ip = 218; continue _fun80088 }
+            if(!foxtrot) { _fun80100_ip = 218; continue _fun80100 }
  215:
             verify = romeo;
  218:

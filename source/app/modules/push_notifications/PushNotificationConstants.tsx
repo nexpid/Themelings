@@ -1,6 +1,6 @@
 // app/modules/push_notifications/PushNotificationConstants.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    _fun63537: for(var _fun63537_ip = 0; ; ) switch(_fun63537_ip) {
+    _fun63542: for(var _fun63542_ip = 0; ; ) switch(_fun63542_ip) {
  0:
         verify = argBar;
         zulu = argFred;
@@ -22,7 +22,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         mike = report.getConstants;
         mike = mike.bind(report)();
         report = mike.Identifier;
-        if(report) { _fun63537_ip = 87; continue _fun63537 }
+        if(report) { _fun63542_ip = 87; continue _fun63542 }
  83:
         report = '';
  87:
@@ -31,13 +31,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         mike = oscar.bind(report)(mike);
         oscar = 'apns';
         golf = report;
-        if(!mike) { _fun63537_ip = 122; continue _fun63537 }
+        if(!mike) { _fun63542_ip = 122; continue _fun63542 }
  116:
         oscar = 'apns_internal';
  122:
         var _closure1_slot2 = oscar;
         report = 'apns_voip';
-        if(!mike) { _fun63537_ip = 141; continue _fun63537 }
+        if(!mike) { _fun63542_ip = 141; continue _fun63542 }
  135:
         report = 'apns_internal_voip';
  141:
@@ -60,7 +60,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         zulu['DEVICE_PUSH_PROVIDER_IOS'] = oscar;
         zulu['DEVICE_PUSH_VOIP_PROVIDER'] = report;
         tango = function() { // Original name: getDevicePushProvider
-            _fun63538: for(var _fun63538_ip = 0; ; ) switch(_fun63538_ip) {
+            _fun63543: for(var _fun63543_ip = 0; ; ) switch(_fun63543_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
                 entity = zulu.isAndroid;
                 zulu = entity.bind(zulu)();
                 entity = 'gcm';
-                if(zulu) { _fun63538_ip = 45; continue _fun63538 }
+                if(zulu) { _fun63543_ip = 45; continue _fun63543 }
  41:
                 entity = _closure1_slot2;
  45:

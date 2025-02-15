@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormIcon
-        _fun48701: for(var _fun48701_ip = 0; ; ) switch(_fun48701_ip) {
+        _fun48708: for(var _fun48708_ip = 0; ; ) switch(_fun48708_ip) {
  0:
             tango = argFoo;
             verify = tango.style;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot3;
             report = undefined;
             options = zulu.bind(report)();
-            if(!(entity == golf)) { _fun48701_ip = 138; continue _fun48701 }
+            if(!(entity == golf)) { _fun48708_ip = 138; continue _fun48708 }
  69:
             tango = _closure1_slot2;
             zulu = _closure1_slot0;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar;
             offset = copyDataProperties(kilo, backup);
             entity = tango.bind(report)(zulu, entity);
-            _fun48701_ip = 206; continue _fun48701;
+            _fun48708_ip = 206; continue _fun48708;
  138:
             tango = _closure1_slot2;
             zulu = _closure1_slot0;

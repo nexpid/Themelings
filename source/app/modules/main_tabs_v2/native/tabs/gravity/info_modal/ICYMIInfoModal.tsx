@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/gravity/info_modal/ICYMIInfoModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ICYMIInfoModal
-        _fun117066: for(var _fun117066_ip = 0; ; ) switch(_fun117066_ip) {
+        _fun117072: for(var _fun117072_ip = 0; ; ) switch(_fun117072_ip) {
  0:
             zulu = argFoo;
             entity = zulu.extendedOnboarding;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike[0] = oscar;
                 mike[1] = report;
                 entity = function() {
-                    _fun117068: for(var _fun117068_ip = 0; ; ) switch(_fun117068_ip) {
+                    _fun117074: for(var _fun117074_ip = 0; ; ) switch(_fun117074_ip) {
  0:
                         entity = {};
                         offset = _closure1_slot0;
@@ -119,11 +119,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         yankee = _closure1_slot2;
                         yankee = yankee[verify];
                         foxtrot = romeo.bind(oscar)(yankee);
-                        if(report) { _fun117068_ip = 196; continue _fun117068 }
+                        if(report) { _fun117074_ip = 196; continue _fun117074 }
  184:
                         report = foxtrot.getHeaderBackButton;
                         report = report.bind(foxtrot)();
-                        _fun117068_ip = 214; continue _fun117068;
+                        _fun117074_ip = 214; continue _fun117074;
  196:
                         romeo = foxtrot.getHeaderCloseButton;
                         yankee = function() {
@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  214:
                         zulu['headerLeft'] = report;
                         report = function() { // Original name: headerRight
-                            _fun117071: for(var _fun117071_ip = 0; ; ) switch(_fun117071_ip) {
+                            _fun117077: for(var _fun117077_ip = 0; ; ) switch(_fun117077_ip) {
  0:
                                 mike = _closure3_slot1;
                                 entity = null;
-                                if(mike) { _fun117071_ip = 119; continue _fun117071 }
+                                if(mike) { _fun117077_ip = 119; continue _fun117077 }
  12:
                                 report = _closure1_slot5;
                                 verify = _closure1_slot0;
@@ -311,10 +311,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = entity;
             zulu[1] = oscar;
             mike = function() {
-                _fun117077: for(var _fun117077_ip = 0; ; ) switch(_fun117077_ip) {
+                _fun117083: for(var _fun117083_ip = 0; ; ) switch(_fun117083_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun117077_ip = 60; continue _fun117077 }
+                    if(entity) { _fun117083_ip = 60; continue _fun117083 }
  13:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = entity.DEFAULT;
                     entity = new Array(1);
                     entity[0] = tango;
-                    _fun117077_ip = 206; continue _fun117077;
+                    _fun117083_ip = 206; continue _fun117083;
  60:
                     mike = _closure2_slot1;
                     oscar = _closure1_slot0;
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = undefined;
                     zulu = oscar.bind(report)(zulu);
                     zulu = zulu.ICYMIInfoScreens;
-                    if(mike) { _fun117077_ip = 161; continue _fun117077 }
+                    if(mike) { _fun117083_ip = 161; continue _fun117083 }
  95:
                     options = zulu.DEFAULT;
                     mike = new Array(3);
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.ICYMIInfoScreens;
                     options = options.JOIN_GUILDS;
                     mike[2] = options;
-                    _fun117077_ip = 203; continue _fun117077;
+                    _fun117083_ip = 203; continue _fun117083;
  161:
                     options = zulu.TOPICS_CLOUD;
                     zulu = new Array(2);
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
-            if(entity) { _fun117066_ip = 165; continue _fun117066 }
+            if(entity) { _fun117072_ip = 165; continue _fun117072 }
  103:
             entity = 14;
             entity = offset[entity];
@@ -387,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.DEFAULT;
             entity['initialRouteName'] = yankee;
             entity = tango.bind(report)(mike, entity);
-            _fun117066_ip = 249; continue _fun117066;
+            _fun117072_ip = 249; continue _fun117072;
  165:
             mike = 15;
             mike = offset[mike];
@@ -402,10 +402,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify[golf];
             golf = options.bind(report)(golf);
             golf = golf.ICYMIInfoScreens;
-            if(oscar) { _fun117066_ip = 232; continue _fun117066 }
+            if(oscar) { _fun117072_ip = 232; continue _fun117072 }
  224:
             oscar = golf.DEFAULT;
-            _fun117066_ip = 238; continue _fun117066;
+            _fun117072_ip = 238; continue _fun117072;
  232:
             oscar = golf.TOPICS_CLOUD;
  238:

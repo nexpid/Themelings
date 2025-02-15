@@ -4,19 +4,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     verify = argPlugh;
     report = function(argFoo) { // Original name: isGroupDMInvite
-        _fun54502: for(var _fun54502_ip = 0; ; ) switch(_fun54502_ip) {
+        _fun54509: for(var _fun54509_ip = 0; ; ) switch(_fun54509_ip) {
  0:
             zulu = argFoo;
             mike = zulu.type;
             entity = _closure1_slot3;
             entity = entity.GROUP_DM;
             entity = mike === entity;
-            if(entity) { _fun54502_ip = 66; continue _fun54502 }
+            if(entity) { _fun54509_ip = 66; continue _fun54509 }
  28:
             report = zulu.channel;
             mike = null;
             mike = mike != report;
-            if(!mike) { _fun54502_ip = 63; continue _fun54502 }
+            if(!mike) { _fun54509_ip = 63; continue _fun54509 }
  42:
             report = _closure1_slot1;
             zulu = zulu.channel;
@@ -31,19 +31,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot4 = report;
     tango = function(argFoo) { // Original name: isFriendInvite
-        _fun54503: for(var _fun54503_ip = 0; ; ) switch(_fun54503_ip) {
+        _fun54510: for(var _fun54510_ip = 0; ; ) switch(_fun54510_ip) {
  0:
             zulu = argFoo;
             mike = zulu.type;
             entity = _closure1_slot3;
             entity = entity.FRIEND;
             entity = mike === entity;
-            if(entity) { _fun54503_ip = 55; continue _fun54503 }
+            if(entity) { _fun54510_ip = 55; continue _fun54510 }
  28:
             mike = zulu.guild;
             tango = null;
             mike = tango == mike;
-            if(!mike) { _fun54503_ip = 52; continue _fun54503 }
+            if(!mike) { _fun54510_ip = 52; continue _fun54510 }
  42:
             zulu = zulu.inviter;
             mike = tango != zulu;
@@ -92,13 +92,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['InviteTypes'] = oscar;
     zulu['isGroupDMInvite'] = report;
     report = function(argFoo) { // Original name: isGuildScheduledEventInviteEmbed
-        _fun54504: for(var _fun54504_ip = 0; ; ) switch(_fun54504_ip) {
+        _fun54511: for(var _fun54511_ip = 0; ; ) switch(_fun54511_ip) {
  0:
             entity = argFoo;
             tango = entity.guild_scheduled_event;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun54504_ip = 32; continue _fun54504 }
+            if(!entity) { _fun54511_ip = 32; continue _fun54511 }
  18:
             zulu = _closure1_slot0;
             mike = undefined;
@@ -118,13 +118,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isRoleSubscriptionInvite'] = report;
     report = function(argFoo) { // Original name: isStageInviteEmbed
-        _fun54506: for(var _fun54506_ip = 0; ; ) switch(_fun54506_ip) {
+        _fun54513: for(var _fun54513_ip = 0; ; ) switch(_fun54513_ip) {
  0:
             mike = argFoo;
             entity = mike.channel;
             zulu = null;
             entity = zulu != entity;
-            if(!entity) { _fun54506_ip = 27; continue _fun54506 }
+            if(!entity) { _fun54513_ip = 27; continue _fun54513 }
  17:
             mike = mike.stage_instance;
             entity = zulu != mike;
@@ -134,14 +134,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isStageInviteEmbed'] = report;
     report = function(argFoo) { // Original name: isStreamInvite
-        _fun54507: for(var _fun54507_ip = 0; ; ) switch(_fun54507_ip) {
+        _fun54514: for(var _fun54514_ip = 0; ; ) switch(_fun54514_ip) {
  0:
             mike = argFoo;
             zulu = mike.target_type;
             entity = _closure1_slot2;
             entity = entity.STREAM;
             entity = zulu === entity;
-            if(!entity) { _fun54507_ip = 41; continue _fun54507 }
+            if(!entity) { _fun54514_ip = 41; continue _fun54514 }
  29:
             zulu = mike.target_user;
             mike = null;
@@ -162,35 +162,35 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEmbeddedApplicationInvite'] = tango;
     mike = function(argFoo) { // Original name: getInviteType
-        _fun54509: for(var _fun54509_ip = 0; ; ) switch(_fun54509_ip) {
+        _fun54516: for(var _fun54516_ip = 0; ; ) switch(_fun54516_ip) {
  0:
             mike = argFoo;
             entity = mike.type;
             zulu = 'number';
             entity = typeof entity;
-            if(!(zulu !== entity)) { _fun54509_ip = 80; continue _fun54509 }
+            if(!(zulu !== entity)) { _fun54516_ip = 80; continue _fun54516 }
  19:
             entity = _closure1_slot4;
             tango = undefined;
             entity = entity.bind(tango)(mike);
-            if(entity) { _fun54509_ip = 68; continue _fun54509 }
+            if(entity) { _fun54516_ip = 68; continue _fun54516 }
  36:
             entity = _closure1_slot5;
             entity = entity.bind(tango)(mike);
             tango = _closure1_slot3;
-            if(entity) { _fun54509_ip = 60; continue _fun54509 }
+            if(entity) { _fun54516_ip = 60; continue _fun54516 }
  52:
             entity = tango.GUILD;
-            _fun54509_ip = 66; continue _fun54509;
+            _fun54516_ip = 66; continue _fun54516;
  60:
             entity = tango.FRIEND;
  66:
-            _fun54509_ip = 78; continue _fun54509;
+            _fun54516_ip = 78; continue _fun54516;
  68:
             zulu = _closure1_slot3;
             entity = zulu.GROUP_DM;
  78:
-            _fun54509_ip = 85; continue _fun54509;
+            _fun54516_ip = 85; continue _fun54516;
  80:
             entity = mike.type;
  85:

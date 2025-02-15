@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf['TEST_CAPTCHA'] = options;
     var _closure1_slot13 = golf;
     golf = function(argFoo) { // Original name: CaptchaTestScreen
-        _fun98713: for(var _fun98713_ip = 0; ; ) switch(_fun98713_ip) {
+        _fun98723: for(var _fun98723_ip = 0; ; ) switch(_fun98723_ip) {
  0:
             mike = argFoo;
             offset = null;
-            if(!(mike != offset)) { _fun98713_ip = 656; continue _fun98713 }
+            if(!(mike != offset)) { _fun98723_ip = 656; continue _fun98723 }
  14:
             report = undefined;
             var _closure2_slot0 = report;
@@ -200,14 +200,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun98716: for(var _fun98716_ip = 0; ; ) switch(_fun98716_ip) {
+                        _fun98726: for(var _fun98726_ip = 0; ; ) switch(_fun98726_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun98716_ip = 216; continue _fun98716 }
+                            if(mike) { _fun98726_ip = 216; continue _fun98726 }
  10:
                             mike = _closure2_slot0;
-                            if(!mike) { _fun98716_ip = 211; continue _fun98716 }
+                            if(!mike) { _fun98726_ip = 211; continue _fun98726 }
  23: // try_start_0
                             tango = _closure1_slot0;
                             report = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             options = null;
                             offset = options != offset;
                             options = undefined;
-                            if(!offset) { _fun98716_ip = 79; continue _fun98716 }
+                            if(!offset) { _fun98726_ip = 79; continue _fun98726 }
  75:
                             options = _closure2_slot2;
  79:
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  96:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun98716_ip = 149; continue _fun98716 }
+                            if(tango) { _fun98726_ip = 149; continue _fun98726 }
  102:
                             tango = _closure1_slot1;
                             oscar = _closure1_slot2;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = {'key': 'captcha-test-modal-success', 'content': 'Captcha completed!'};
                             zulu = tango.bind(report)(zulu);
  147: // try_end0
-                            _fun98716_ip = 211; continue _fun98716;
+                            _fun98726_ip = 211; continue _fun98726;
  149:
                             return mike;
  152: // catch_target0
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = _closure1_slot12;
             kilo['options'] = vacuum;
             vacuum = function(argFoo) { // Original name: onChange
-                _fun98718: for(var _fun98718_ip = 0; ; ) switch(_fun98718_ip) {
+                _fun98728: for(var _fun98728_ip = 0; ; ) switch(_fun98728_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.value;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.bind(mike)(entity);
                     entity = entity.CaptchaDeciderType;
                     entity = entity.HCAPTCHA_RQDATA;
-                    if(!(zulu !== entity)) { _fun98718_ip = 63; continue _fun98718 }
+                    if(!(zulu !== entity)) { _fun98728_ip = 63; continue _fun98728 }
  49:
                     tango = _closure2_slot3;
                     entity = null;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.CaptchaDeciderType;
             options = options.HCAPTCHA_RQDATA;
             options = verify === options;
-            if(!options) { _fun98713_ip = 462; continue _fun98713 }
+            if(!options) { _fun98723_ip = 462; continue _fun98723 }
  334:
             romeo = _closure1_slot8;
             offset = _closure1_slot6;
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = _closure1_slot10;
             kilo['options'] = source;
             update = function(argFoo) { // Original name: onChange
-                _fun98719: for(var _fun98719_ip = 0; ; ) switch(_fun98719_ip) {
+                _fun98729: for(var _fun98729_ip = 0; ; ) switch(_fun98729_ip) {
  0:
                     entity = argFoo;
                     tango = entity.value;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.CaptchaDeciderType;
                     entity = entity.HCAPTCHA_RQDATA;
                     entity = report === entity;
-                    if(!entity) { _fun98719_ip = 68; continue _fun98719 }
+                    if(!entity) { _fun98729_ip = 68; continue _fun98729 }
  59:
                     mike = _closure2_slot3;
                     entity = mike.bind(zulu)(tango);

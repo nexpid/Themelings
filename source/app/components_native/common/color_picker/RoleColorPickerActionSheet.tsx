@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = new Array(1);
         golf[0] = zulu;
         zulu = function() {
-            _fun114324: for(var _fun114324_ip = 0; ; ) switch(_fun114324_ip) {
+            _fun114330: for(var _fun114330_ip = 0; ; ) switch(_fun114330_ip) {
  0:
                 entity = _closure2_slot4;
                 tango = _closure1_slot0;
@@ -141,10 +141,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = tango.bind(mike)(zulu);
                 mike = mike.styles;
                 zulu = mike.colorBlock;
-                if(entity) { _fun114324_ip = 52; continue _fun114324 }
+                if(entity) { _fun114330_ip = 52; continue _fun114330 }
  47:
                 entity = zulu;
-                _fun114324_ip = 88; continue _fun114324;
+                _fun114330_ip = 88; continue _fun114330;
  52:
                 mike = {};
                 oscar = mike;

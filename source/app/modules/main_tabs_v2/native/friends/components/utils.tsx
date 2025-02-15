@@ -13,16 +13,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun114792: for(var _fun114792_ip = 0; ; ) switch(_fun114792_ip) {
+                _fun114798: for(var _fun114798_ip = 0; ; ) switch(_fun114798_ip) {
  0:
                     StartGenerator();
                     mike = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun114792_ip = 454; continue _fun114792 }
+                    if(zulu) { _fun114798_ip = 454; continue _fun114798 }
  13:
                     oscar = argFoo;
                     verify = undefined;
-                    if(!(mike === verify)) { _fun114792_ip = 24; continue _fun114792 }
+                    if(!(mike === verify)) { _fun114798_ip = 24; continue _fun114798 }
  22:
                     mike = true;
  24:
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun114792_ip = 451; continue _fun114792 }
+                    if(zulu) { _fun114798_ip = 451; continue _fun114798 }
  45:
                     offset = _closure1_slot4;
                     options = offset.getDMFromUserId;
@@ -42,9 +42,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = options.bind(offset)(tango);
                     report = tango;
                     offset = null;
-                    if(!(offset != tango)) { _fun114792_ip = 77; continue _fun114792 }
+                    if(!(offset != tango)) { _fun114798_ip = 77; continue _fun114798 }
  75:
-                    _fun114792_ip = 127; continue _fun114792;
+                    _fun114798_ip = 127; continue _fun114798;
  77: // try_start_0
                     options = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -59,12 +59,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  115:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(options) { _fun114792_ip = 363; continue _fun114792 }
+                    if(options) { _fun114798_ip = 363; continue _fun114798 }
  124:
                     report = tango;
  127: // try_start_1 // try_end0
                     options = report;
-                    if(!(offset != options)) { _fun114792_ip = 275; continue _fun114792 }
+                    if(!(offset != options)) { _fun114798_ip = 275; continue _fun114798 }
  137:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return report;
  188:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(options) { _fun114792_ip = 277; continue _fun114792 }
+                    if(options) { _fun114798_ip = 277; continue _fun114798 }
  194:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = {};
                     options['source'] = foxtrot;
                     options = yankee.bind(romeo)(offset, options);
-                    if(!golf) { _fun114792_ip = 275; continue _fun114792 }
+                    if(!golf) { _fun114798_ip = 275; continue _fun114798 }
  244:
                     options = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = options.openPrivateChannel;
                     oscar = golf.bind(options)(oscar);
  275: // try_end1
-                    _fun114792_ip = 360; continue _fun114792;
+                    _fun114798_ip = 360; continue _fun114798;
  277:
                     return report;
  280: // catch_target1

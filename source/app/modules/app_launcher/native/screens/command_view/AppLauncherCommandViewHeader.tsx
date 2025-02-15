@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['EXPANDED_HEADER_TOTAL_CONSUMED_SPACE_IN_PARENT'] = report;
     zulu['useStyles'] = tango;
     mike = function(argFoo) { // Original name: AppLauncherCommandViewHeader
-        _fun119095: for(var _fun119095_ip = 0; ; ) switch(_fun119095_ip) {
+        _fun119101: for(var _fun119101_ip = 0; ; ) switch(_fun119101_ip) {
  0:
             mike = argFoo;
             kilo = mike.command;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun119096: for(var _fun119096_ip = 0; ; ) switch(_fun119096_ip) {
+                _fun119102: for(var _fun119102_ip = 0; ; ) switch(_fun119102_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot1;
                     report = null;
                     report = report == oscar;
-                    if(report) { _fun119096_ip = 56; continue _fun119096 }
+                    if(report) { _fun119102_ip = 56; continue _fun119102 }
  47:
                     tango = _closure2_slot1;
                     entity = tango.application;
@@ -371,27 +371,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'number';
             entity = typeof report;
             mike = report;
-            if(!(verify !== entity)) { _fun119095_ip = 486; continue _fun119095 }
+            if(!(verify !== entity)) { _fun119101_ip = 487; continue _fun119101 }
  467:
             entity = null;
             verify = entity == report;
             entity = undefined;
-            if(verify) { _fun119095_ip = 483; continue _fun119095 }
+            if(verify) { _fun119101_ip = 484; continue _fun119101 }
  478:
             entity = report.uri;
- 483:
+ 484:
             mike = entity;
- 486:
+ 487:
             backup = null;
             verify = backup != options;
             entity = '';
-            if(!verify) { _fun119095_ip = 502; continue _fun119095 }
- 499:
+            if(!verify) { _fun119101_ip = 503; continue _fun119101 }
+ 500:
             entity = options;
- 502:
+ 503:
             foxtrot = zulu.bind(tango)(mike, entity);
-            if(!(backup == report)) { _fun119095_ip = 558; continue _fun119095 }
- 512:
+            if(!(backup == report)) { _fun119101_ip = 559; continue _fun119101 }
+ 513:
             zulu = _closure1_slot6;
             mike = _closure1_slot4;
             entity = {};
@@ -402,8 +402,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = verify;
             entity['style'] = options;
             verify = zulu.bind(tango)(mike, entity);
-            _fun119095_ip = 604; continue _fun119095;
- 558:
+            _fun119101_ip = 605; continue _fun119101;
+ 559:
             zulu = _closure1_slot6;
             mike = _closure1_slot1;
             options = _closure1_slot2;
@@ -415,21 +415,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = options;
             entity['source'] = report;
             verify = zulu.bind(tango)(mike, entity);
- 604:
+ 605:
             zulu = _closure1_slot7;
             mike = _closure1_slot4;
             entity = {};
             options = offset.headerContainer;
             report = new Array(2);
             report[0] = options;
-            if(!(backup != kilo)) { _fun119095_ip = 640; continue _fun119095 }
- 632:
+            if(!(backup != kilo)) { _fun119101_ip = 641; continue _fun119101 }
+ 633:
             options = {};
             options['backgroundColor'] = foxtrot;
-            _fun119095_ip = 646; continue _fun119095;
- 640:
+            _fun119101_ip = 647; continue _fun119101;
+ 641:
             options = offset.loadingHeaderContainer;
- 646:
+ 647:
             report[1] = options;
             entity['style'] = report;
             foxtrot = _closure1_slot6;
@@ -473,10 +473,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = sizing;
             sizing = backup == kilo;
             backup = undefined;
-            if(sizing) { _fun119095_ip = 851; continue _fun119095 }
- 846:
+            if(sizing) { _fun119101_ip = 852; continue _fun119101 }
+ 847:
             backup = kilo.displayName;
- 851:
+ 852:
             golf['children'] = backup;
             golf = foxtrot.bind(tango)(options, golf);
             report[2] = golf;

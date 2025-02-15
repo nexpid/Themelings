@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ActivityShelfItemBackground
-        _fun122134: for(var _fun122134_ip = 0; ; ) switch(_fun122134_ip) {
+        _fun122140: for(var _fun122140_ip = 0; ; ) switch(_fun122140_ip) {
  0:
             entity = argFoo;
             romeo = entity.imageBackground;
@@ -77,17 +77,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = zulu;
             tango = romeo.state;
             zulu = 'not-found';
-            if(!(zulu !== tango)) { _fun122134_ip = 303; continue _fun122134 }
+            if(!(zulu !== tango)) { _fun122140_ip = 304; continue _fun122140 }
  100:
-            if(entity) { _fun122134_ip = 303; continue _fun122134 }
+            if(entity) { _fun122140_ip = 304; continue _fun122140 }
  106:
             zulu = romeo.state;
             entity = 'loading';
-            if(!(entity !== zulu)) { _fun122134_ip = 259; continue _fun122134 }
+            if(!(entity !== zulu)) { _fun122140_ip = 260; continue _fun122140 }
  122:
             entity = romeo.url;
             verify = null;
-            if(!(verify != entity)) { _fun122134_ip = 259; continue _fun122134 }
+            if(!(verify != entity)) { _fun122140_ip = 260; continue _fun122140 }
  136:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -118,16 +118,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['accessibilityRole'] = yankee;
             yankee = verify != offset;
             verify = '';
-            if(!yankee) { _fun122134_ip = 237; continue _fun122134 }
- 234:
+            if(!yankee) { _fun122140_ip = 238; continue _fun122140 }
+ 235:
             verify = offset;
- 237:
+ 238:
             golf['accessibilityLabel'] = verify;
             golf = tango.bind(report)(options, golf);
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun122134_ip = 301; continue _fun122134;
- 259:
+            _fun122140_ip = 302; continue _fun122140;
+ 260:
             golf = _closure1_slot5;
             tango = _closure1_slot0;
             options = _closure1_slot1;
@@ -138,9 +138,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = oscar.previewImage;
             zulu['style'] = options;
             entity = golf.bind(report)(tango, zulu);
- 301:
-            _fun122134_ip = 369; continue _fun122134;
- 303:
+ 302:
+            _fun122140_ip = 370; continue _fun122140;
+ 304:
             tango = _closure1_slot5;
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 369:
+ 370:
             return entity;
         }
     };

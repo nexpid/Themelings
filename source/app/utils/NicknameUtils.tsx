@@ -8,26 +8,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
     report = function(argFoo, argBar, argBaz) { // Original name: getNickname
-        _fun54435: for(var _fun54435_ip = 0; ; ) switch(_fun54435_ip) {
+        _fun54442: for(var _fun54442_ip = 0; ; ) switch(_fun54442_ip) {
  0:
             report = argFoo;
             golf = argBar;
             mike = argBaz;
             entity = null;
-            if(!(entity != mike)) { _fun54435_ip = 107; continue _fun54435 }
+            if(!(entity != mike)) { _fun54442_ip = 107; continue _fun54442 }
  15:
-            if(!(entity == report)) { _fun54435_ip = 81; continue _fun54435 }
+            if(!(entity == report)) { _fun54442_ip = 81; continue _fun54442 }
  19:
-            if(!(entity != golf)) { _fun54435_ip = 57; continue _fun54435 }
+            if(!(entity != golf)) { _fun54442_ip = 57; continue _fun54442 }
  23:
             oscar = _closure1_slot3;
             tango = oscar.getChannel;
             oscar = tango.bind(oscar)(golf);
-            if(!(entity != oscar)) { _fun54435_ip = 57; continue _fun54435 }
+            if(!(entity != oscar)) { _fun54442_ip = 57; continue _fun54442 }
  44:
             tango = oscar.isPrivate;
             tango = tango.bind(oscar)();
-            if(tango) { _fun54435_ip = 59; continue _fun54435 }
+            if(tango) { _fun54442_ip = 59; continue _fun54442 }
  57:
             return entity;
  59:
@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = report;
     tango = function(argFoo, argBar, argBaz) { // Original name: getName
-        _fun54436: for(var _fun54436_ip = 0; ; ) switch(_fun54436_ip) {
+        _fun54443: for(var _fun54443_ip = 0; ; ) switch(_fun54443_ip) {
  0:
             tango = argBaz;
             zulu = null;
-            if(!(zulu != tango)) { _fun54436_ip = 68; continue _fun54436 }
+            if(!(zulu != tango)) { _fun54443_ip = 68; continue _fun54443 }
  9:
             golf = _closure1_slot6;
             report = undefined;
             oscar = argFoo;
             entity = argBar;
             entity = golf.bind(report)(oscar, entity, tango);
-            if(!(zulu == entity)) { _fun54436_ip = 66; continue _fun54436 }
+            if(!(zulu == entity)) { _fun54443_ip = 66; continue _fun54443 }
  35:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.getName;
             entity = mike.bind(zulu)(tango);
  66:
-            _fun54436_ip = 128; continue _fun54436;
+            _fun54443_ip = 128; continue _fun54443;
  68:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

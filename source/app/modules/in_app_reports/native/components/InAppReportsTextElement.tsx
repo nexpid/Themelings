@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/in_app_reports/native/components/InAppReportsTextElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TextElement
-        _fun68995: for(var _fun68995_ip = 0; ; ) switch(_fun68995_ip) {
+        _fun69001: for(var _fun69001_ip = 0; ; ) switch(_fun69001_ip) {
  0:
             entity = argFoo;
             entity = entity.element;
@@ -81,13 +81,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             foxtrot = zulu.bind(tango)(entity);
             options = null;
             entity = null;
-            if(!mike) { _fun68995_ip = 303; continue _fun68995 }
+            if(!mike) { _fun69001_ip = 303; continue _fun69001 }
  97:
-            if(!(options == sizing)) { _fun68995_ip = 113; continue _fun68995 }
+            if(!(options == sizing)) { _fun69001_ip = 113; continue _fun69001 }
  101:
             zulu = options == backup;
             mike = null;
-            if(zulu) { _fun68995_ip = 300; continue _fun68995 }
+            if(zulu) { _fun69001_ip = 300; continue _fun69001 }
  113:
             report = _closure1_slot6;
             tango = _closure1_slot4;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = romeo.container;
             zulu['style'] = golf;
             offset = options != sizing;
-            if(!offset) { _fun68995_ip = 203; continue _fun68995 }
+            if(!offset) { _fun69001_ip = 203; continue _fun69001 }
  139:
             kilo = _closure1_slot5;
             yankee = _closure1_slot0;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = new Array(2);
             golf[0] = offset;
             options = options != backup;
-            if(!options) { _fun68995_ip = 286; continue _fun68995 }
+            if(!options) { _fun69001_ip = 286; continue _fun69001 }
  218:
             yankee = _closure1_slot5;
             offset = _closure1_slot0;

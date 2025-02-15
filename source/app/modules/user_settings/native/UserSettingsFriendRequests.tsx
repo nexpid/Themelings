@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         backup = romeo.all;
         options['value'] = backup;
         backup = function(argFoo) { // Original name: onValueChange
-            _fun119621: for(var _fun119621_ip = 0; ; ) switch(_fun119621_ip) {
+            _fun119627: for(var _fun119627_ip = 0; ; ) switch(_fun119627_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -125,13 +125,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 mike = zulu.updateSetting;
                 tango = _closure1_slot5;
                 report = argFoo;
-                if(report) { _fun119621_ip = 66; continue _fun119621 }
+                if(report) { _fun119627_ip = 66; continue _fun119627 }
  47:
                 entity = _closure1_slot6;
                 entity = entity.NO_RELATION;
                 entity = ~entity;
                 entity = tango & entity;
-                _fun119621_ip = 69; continue _fun119621;
+                _fun119627_ip = 69; continue _fun119627;
  66:
                 entity = tango;
  69:
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         kilo = romeo.mutualFriends;
         offset['value'] = kilo;
         kilo = function(argFoo) { // Original name: onValueChange
-            _fun119622: for(var _fun119622_ip = 0; ; ) switch(_fun119622_ip) {
+            _fun119628: for(var _fun119628_ip = 0; ; ) switch(_fun119628_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = golf[entity];
                 golf = report.bind(oscar)(entity);
                 entity = argFoo;
-                if(entity) { _fun119622_ip = 101; continue _fun119622 }
+                if(entity) { _fun119628_ip = 101; continue _fun119628 }
  63:
                 options = golf.removeFlags;
                 oscar = _closure2_slot0;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = entity.MUTUAL_FRIENDS;
                 entity = entity.NO_RELATION;
                 entity = options.bind(golf)(oscar, report, entity);
-                _fun119622_ip = 130; continue _fun119622;
+                _fun119628_ip = 130; continue _fun119628;
  101:
                 oscar = golf.addFlag;
                 report = _closure2_slot0;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         romeo = romeo.mutualGuilds;
         verify['value'] = romeo;
         yankee = function(argFoo) { // Original name: onValueChange
-            _fun119623: for(var _fun119623_ip = 0; ; ) switch(_fun119623_ip) {
+            _fun119629: for(var _fun119629_ip = 0; ; ) switch(_fun119629_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = golf[entity];
                 golf = report.bind(oscar)(entity);
                 entity = argFoo;
-                if(entity) { _fun119623_ip = 101; continue _fun119623 }
+                if(entity) { _fun119629_ip = 101; continue _fun119629 }
  63:
                 options = golf.removeFlags;
                 oscar = _closure2_slot0;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = entity.MUTUAL_GUILDS;
                 entity = entity.NO_RELATION;
                 entity = options.bind(golf)(oscar, report, entity);
-                _fun119623_ip = 130; continue _fun119623;
+                _fun119629_ip = 130; continue _fun119629;
  101:
                 oscar = golf.addFlag;
                 report = _closure2_slot0;

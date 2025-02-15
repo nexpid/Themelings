@@ -51,14 +51,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     options = options.NOTIFICATIONS;
     mike['parent'] = options;
     options = function() { // Original name: useAndroidNotificationVibrationsSettingValue
-        _fun97906: for(var _fun97906_ip = 0; ; ) switch(_fun97906_ip) {
+        _fun97916: for(var _fun97916_ip = 0; ; ) switch(_fun97916_ip) {
  0:
             mike = _closure1_slot2;
             entity = undefined;
             mike = mike.bind(entity)();
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun97906_ip = 25; continue _fun97906 }
+            if(!entity) { _fun97916_ip = 25; continue _fun97916 }
  22:
             entity = mike;
  25:
@@ -68,7 +68,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike['useValue'] = options;
     mike['onValueChange'] = golf;
     tango = function() { // Original name: useHasAndroidNotificationVibrationsSetting
-        _fun97907: for(var _fun97907_ip = 0; ; ) switch(_fun97907_ip) {
+        _fun97917: for(var _fun97917_ip = 0; ; ) switch(_fun97917_ip) {
  0:
             entity = _closure1_slot2;
             report = undefined;
@@ -81,7 +81,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = tango.isIOS;
             entity = entity.bind(tango)();
             entity = !entity;
-            if(!entity) { _fun97907_ip = 82; continue _fun97907 }
+            if(!entity) { _fun97917_ip = 82; continue _fun97917 }
  49:
             tango = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = mike.bind(tango)();
             entity = !mike;
  82:
-            if(!entity) { _fun97907_ip = 91; continue _fun97907 }
+            if(!entity) { _fun97917_ip = 91; continue _fun97917 }
  85:
             mike = null;
             entity = mike != zulu;

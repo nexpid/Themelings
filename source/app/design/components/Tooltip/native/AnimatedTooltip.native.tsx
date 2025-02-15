@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsx;
     var _closure1_slot6 = tango;
     tango = function(argFoo, argBar) { // Original name: renderTooltipItem
-        _fun77572: for(var _fun77572_ip = 0; ; ) switch(_fun77572_ip) {
+        _fun77582: for(var _fun77582_ip = 0; ; ) switch(_fun77582_ip) {
  0:
             verify = argFoo;
             tango = _closure1_slot6;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['pointerEvents'] = report;
             report = null;
             golf = report != verify;
-            if(!golf) { _fun77572_ip = 136; continue _fun77572 }
+            if(!golf) { _fun77582_ip = 136; continue _fun77582 }
  88:
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Tooltip/native/AnimatedTooltip.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AnimatedTooltip
-        _fun77573: for(var _fun77573_ip = 0; ; ) switch(_fun77573_ip) {
+        _fun77583: for(var _fun77583_ip = 0; ; ) switch(_fun77583_ip) {
  0:
             report = argFoo;
             romeo = report.visible;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['useReducedMotion'] = golf;
             golf = undefined;
-            if(!verify) { _fun77573_ip = 225; continue _fun77573 }
+            if(!verify) { _fun77583_ip = 225; continue _fun77583 }
  222:
             golf = options;
  225:

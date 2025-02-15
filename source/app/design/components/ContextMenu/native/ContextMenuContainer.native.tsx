@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/ContextMenu/native/ContextMenuContainer.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ContextMenuContainer
-        _fun105777: for(var _fun105777_ip = 0; ; ) switch(_fun105777_ip) {
+        _fun105769: for(var _fun105769_ip = 0; ; ) switch(_fun105769_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -100,10 +100,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.useActiveContextMenu;
             golf = mike.bind(zulu)();
             zulu = null;
-            if(!(zulu == golf)) { _fun105777_ip = 49; continue _fun105777 }
+            if(!(zulu == golf)) { _fun105769_ip = 49; continue _fun105769 }
  43:
             oscar = _closure1_slot8;
-            _fun105777_ip = 60; continue _fun105777;
+            _fun105769_ip = 60; continue _fun105769;
  49:
             mike = new Array(1);
             mike[0] = golf;
@@ -111,11 +111,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  60:
             options = zulu == golf;
             mike = undefined;
-            if(options) { _fun105777_ip = 75; continue _fun105777 }
+            if(options) { _fun105769_ip = 75; continue _fun105769 }
  69:
             mike = golf.requestClose;
  75:
-            if(!(zulu == mike)) { _fun105777_ip = 83; continue _fun105777 }
+            if(!(zulu == mike)) { _fun105769_ip = 83; continue _fun105769 }
  79:
             mike = _closure1_slot9;
  83:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = options;
             entity = function(argFoo, argBar) {
-                _fun105781: for(var _fun105781_ip = 0; ; ) switch(_fun105781_ip) {
+                _fun105773: for(var _fun105773_ip = 0; ; ) switch(_fun105773_ip) {
  0:
                     tango = _closure1_slot6;
                     mike = _closure1_slot1;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = options.length;
                     options = 'auto';
                     verify = 0;
-                    if(!(verify === offset)) { _fun105781_ip = 73; continue _fun105781 }
+                    if(!(verify === offset)) { _fun105773_ip = 73; continue _fun105773 }
  69:
                     options = 'none';
  73:

@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/burst_reactions/BurstReactionAnimation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BurstReactionAnimation
-        _fun47727: for(var _fun47727_ip = 0; ; ) switch(_fun47727_ip) {
+        _fun47734: for(var _fun47734_ip = 0; ; ) switch(_fun47734_ip) {
  0:
             golf = argFoo;
             foxtrot = golf.channelId;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.onComplete;
             oscar = golf.withFadeOut;
             report = undefined;
-            if(!(oscar === report)) { _fun47727_ip = 45; continue _fun47727 }
+            if(!(oscar === report)) { _fun47734_ip = 45; continue _fun47734 }
  43:
             oscar = true;
  45:
@@ -96,26 +96,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             offset = offset.bind(yankee)(tango, mike);
-            if(!(entity != golf)) { _fun47727_ip = 331; continue _fun47727 }
+            if(!(entity != golf)) { _fun47734_ip = 331; continue _fun47734 }
  185:
             tango = _closure1_slot1;
             romeo = _closure1_slot2;
-            if(oscar) { _fun47727_ip = 205; continue _fun47727 }
+            if(oscar) { _fun47734_ip = 205; continue _fun47734 }
  196:
             mike = 7;
             mike = romeo[mike];
-            _fun47727_ip = 212; continue _fun47727;
+            _fun47734_ip = 212; continue _fun47734;
  205:
             yankee = 6;
             mike = romeo[yankee];
  212:
             tango = tango.bind(report)(mike);
             mike = {};
-            if(oscar) { _fun47727_ip = 232; continue _fun47727 }
+            if(oscar) { _fun47734_ip = 232; continue _fun47734 }
  222:
             mike['onAnimationFinish'] = zulu;
             oscar = mike;
-            _fun47727_ip = 240; continue _fun47727;
+            _fun47734_ip = 240; continue _fun47734;
  232:
             mike['onComplete'] = zulu;
             oscar = mike;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = false;
             mike['loop'] = verify;
             verify = 1.2;
-            if(!offset) { _fun47727_ip = 289; continue _fun47727 }
+            if(!offset) { _fun47734_ip = 289; continue _fun47734 }
  279:
             verify = 0.5;
  289:

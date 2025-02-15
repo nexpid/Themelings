@@ -21,43 +21,43 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/profile_effects/native/ProfileEffectUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) {
-        _fun79966: for(var _fun79966_ip = 0; ; ) switch(_fun79966_ip) {
+        _fun79979: for(var _fun79979_ip = 0; ; ) switch(_fun79979_ip) {
  0:
             entity = argFoo;
             tango = argBar;
             mike = entity.start;
-            if(!(!(tango >= mike))) { _fun79966_ip = 19; continue _fun79966 }
+            if(!(!(tango >= mike))) { _fun79979_ip = 19; continue _fun79979 }
  15:
             mike = false;
             return mike;
  19:
             mike = entity.loop;
-            if(mike) { _fun79966_ip = 50; continue _fun79966 }
+            if(mike) { _fun79979_ip = 50; continue _fun79979 }
  28:
             zulu = entity.duration;
             mike = entity.start;
             mike = zulu + mike;
-            if(!(tango > mike)) { _fun79966_ip = 50; continue _fun79966 }
+            if(!(tango > mike)) { _fun79979_ip = 50; continue _fun79979 }
  46:
             mike = false;
             return mike;
  50:
             mike = entity.loop;
-            if(!mike) { _fun79966_ip = 131; continue _fun79966 }
+            if(!mike) { _fun79979_ip = 131; continue _fun79979 }
  59:
             mike = entity.loopDelay;
             zulu = undefined;
-            if(!(zulu !== mike)) { _fun79966_ip = 131; continue _fun79966 }
+            if(!(zulu !== mike)) { _fun79979_ip = 131; continue _fun79979 }
  71:
             report = entity.loopDelay;
             mike = 0;
-            if(!(report > mike)) { _fun79966_ip = 131; continue _fun79966 }
+            if(!(report > mike)) { _fun79979_ip = 131; continue _fun79979 }
  83:
             mike = entity.duration;
             report = null;
             report = report == entity;
             zulu = undefined;
-            if(report) { _fun79966_ip = 105; continue _fun79966 }
+            if(report) { _fun79979_ip = 105; continue _fun79979 }
  99:
             zulu = entity.loopDelay;
  105:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango - mike;
             mike = mike % zulu;
             entity = entity.duration;
-            if(!(!(mike > entity))) { _fun79966_ip = 135; continue _fun79966 }
+            if(!(!(mike > entity))) { _fun79979_ip = 135; continue _fun79979 }
  131:
             entity = true;
             return entity;

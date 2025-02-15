@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsBlockUserElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BlockUserElement
-        _fun72826: for(var _fun72826_ip = 0; ; ) switch(_fun72826_ip) {
+        _fun72832: for(var _fun72832_ip = 0; ; ) switch(_fun72832_ip) {
  0:
             zulu = argFoo;
             mike = zulu.user;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = zulu;
             tango[1] = mike;
             zulu = function() {
-                _fun72829: for(var _fun72829_ip = 0; ; ) switch(_fun72829_ip) {
+                _fun72835: for(var _fun72835_ip = 0; ; ) switch(_fun72835_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = null;
                     oscar = golf == zulu;
                     zulu = undefined;
-                    if(oscar) { _fun72829_ip = 58; continue _fun72829 }
+                    if(oscar) { _fun72835_ip = 58; continue _fun72835 }
  49:
                     oscar = _closure2_slot3;
                     zulu = oscar.guild_id;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot3;
                     oscar = golf == oscar;
                     mike = undefined;
-                    if(oscar) { _fun72829_ip = 80; continue _fun72829 }
+                    if(oscar) { _fun72835_ip = 80; continue _fun72835 }
  71:
                     oscar = _closure2_slot3;
                     mike = oscar.id;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(oscar)(entity, zulu);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun72826_ip = 483; continue _fun72826 }
+            if(mike) { _fun72832_ip = 483; continue _fun72832 }
  229:
             tango = _closure1_slot8;
             zulu = _closure1_slot1;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: OnboardingValuePropsScene
-        _fun94060: for(var _fun94060_ip = 0; ; ) switch(_fun94060_ip) {
+        _fun94085: for(var _fun94085_ip = 0; ; ) switch(_fun94085_ip) {
  0:
             entity = argFoo;
             entity = entity.onComplete;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = kilo.container;
             entity['style'] = report;
             oscar = offset;
-            if(!oscar) { _fun94060_ip = 150; continue _fun94060 }
+            if(!oscar) { _fun94085_ip = 150; continue _fun94085 }
  118:
             options = _closure1_slot5;
             golf = _closure1_slot1;

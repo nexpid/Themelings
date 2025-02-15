@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
     report = report instanceof Object ? report : oscar;
     var _closure1_slot6 = report;
     report = function(argFoo) {
-        _fun128025: for(var _fun128025_ip = 0; ; ) switch(_fun128025_ip) {
+        _fun128021: for(var _fun128021_ip = 0; ; ) switch(_fun128021_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -38,18 +38,18 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
             zulu = tango.getState;
             tango = zulu.bind(tango)();
             zulu = 'active';
-            if(!(zulu !== tango)) { _fun128025_ip = 154; continue _fun128025 }
+            if(!(zulu !== tango)) { _fun128021_ip = 154; continue _fun128021 }
  34:
             tango = _closure1_slot3;
             zulu = tango.isConnected;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun128025_ip = 67; continue _fun128025 }
+            if(zulu) { _fun128021_ip = 67; continue _fun128021 }
  51:
             report = _closure1_slot3;
             tango = report.isTryingToConnect;
             zulu = tango.bind(report)();
  67:
-            if(zulu) { _fun128025_ip = 117; continue _fun128025 }
+            if(zulu) { _fun128021_ip = 117; continue _fun128021 }
  70:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
             golf = mike;
             entity = new golf[zulu](oscar, report);
             entity = entity instanceof Object ? entity : mike;
-            _fun128025_ip = 172; continue _fun128025;
+            _fun128021_ip = 172; continue _fun128021;
  154:
             mike = global;
             zulu = mike.Promise;

@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/card/CardSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun62411: for(var _fun62411_ip = 0; ; ) switch(_fun62411_ip) {
+        _fun62416: for(var _fun62416_ip = 0; ; ) switch(_fun62416_ip) {
  0:
             entity = argFoo;
             kilo = entity.title;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             report = oscar != kilo;
             options = null;
-            if(!report) { _fun62411_ip = 180; continue _fun62411 }
+            if(!report) { _fun62416_ip = 180; continue _fun62416 }
  109:
             backup = _closure1_slot3;
             foxtrot = _closure1_slot0;
@@ -133,14 +133,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = options;
             foxtrot = oscar != verify;
             options = null;
-            if(!foxtrot) { _fun62411_ip = 200; continue _fun62411 }
+            if(!foxtrot) { _fun62416_ip = 200; continue _fun62416 }
  197:
             options = verify;
  200:
             report[1] = options;
             options = oscar != offset;
             oscar = null;
-            if(!options) { _fun62411_ip = 255; continue _fun62411 }
+            if(!options) { _fun62416_ip = 255; continue _fun62416 }
  213:
             verify = _closure1_slot3;
             options = _closure1_slot2;

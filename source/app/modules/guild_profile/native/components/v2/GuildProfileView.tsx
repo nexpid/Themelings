@@ -1,14 +1,14 @@
 // app/modules/guild_profile/native/components/v2/GuildProfileView.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    oscar = argBar;
-    foxtrot = argBaz;
+    options = argBar;
+    backup = argBaz;
     zulu = argFred;
-    golf = argPlugh;
-    var _closure1_slot0 = oscar;
-    var _closure1_slot1 = foxtrot;
-    var _closure1_slot2 = golf;
-    entity = function(argFoo, argBar) { // Original name: getBackgroundForProfile
-        _fun90611: for(var _fun90611_ip = 0; ; ) switch(_fun90611_ip) {
+    verify = argPlugh;
+    var _closure1_slot0 = options;
+    var _closure1_slot1 = backup;
+    var _closure1_slot2 = verify;
+    report = function(argFoo, argBar) { // Original name: getBackgroundForProfile
+        _fun90638: for(var _fun90638_ip = 0; ; ) switch(_fun90638_ip) {
  0:
             oscar = argBar;
             entity = new Array(2);
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             tango = mike.DARK;
             mike = argFoo;
-            if(!(mike !== tango)) { _fun90611_ip = 77; continue _fun90611 }
+            if(!(mike !== tango)) { _fun90638_ip = 77; continue _fun90638 }
  31:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.darkenColor;
             mike = 0.8;
             mike = tango.bind(report)(oscar, mike);
-            _fun90611_ip = 121; continue _fun90611;
+            _fun90638_ip = 121; continue _fun90638;
  77:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -43,110 +43,116 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot11 = report;
     mike = global;
-    verify = mike.Object;
-    options = verify.defineProperty;
-    report = {};
+    offset = mike.Object;
+    golf = offset.defineProperty;
+    tango = {};
     entity = true;
-    report['value'] = entity;
+    tango['value'] = entity;
     entity = '__esModule';
-    entity = options.bind(verify)(zulu, entity, report);
+    entity = golf.bind(offset)(zulu, entity, tango);
     entity = 0;
-    options = golf[entity];
-    report = argCorge;
+    golf = verify[entity];
+    tango = argCorge;
     entity = undefined;
-    report = report.bind(entity)(options);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    report = report.View;
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golf[report];
-    report = foxtrot.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    report = report.ThemeTypes;
-    var _closure1_slot6 = report;
-    report = 4;
-    options = golf[report];
-    options = oscar.bind(entity)(options);
-    options = options.jsx;
-    var _closure1_slot7 = options;
-    report = golf[report];
-    report = oscar.bind(entity)(report);
-    report = report.jsxs;
-    var _closure1_slot8 = report;
-    report = 7;
-    report = golf[report];
-    verify = oscar.bind(entity)(report);
-    options = verify.createStyles;
-    report = {};
-    offset = {};
-    romeo = 8;
-    yankee = golf[romeo];
-    yankee = foxtrot.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BG_BASE_PRIMARY;
-    offset['backgroundColor'] = yankee;
-    report['container'] = offset;
-    offset = {'height': 140, 'width': '100%'};
-    report['colorBanner'] = offset;
-    yankee = 'flex';
-    offset = {'paddingHorizontal': 16, 'marginTop': 4294967264, 'display': 'flex', 'flexDirection': 'column', 'gap': 0};
-    report['header'] = offset;
-    offset = {'width': 86, 'height': 86, 'borderRadius': 28.666666666666668, 'backgroundColor': null, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
-    backup = golf[romeo];
-    backup = foxtrot.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.BG_BASE_PRIMARY;
-    offset['backgroundColor'] = backup;
-    report['avatarBackground'] = offset;
-    offset = {'display': 'flex', 'flexDirection': 'row', 'gap': 8};
-    report['members'] = offset;
-    offset = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
-    report['memberCount'] = offset;
-    offset = {'width': 8, 'height': 8, 'borderRadius': 4};
-    backup = golf[romeo];
-    backup = foxtrot.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.STATUS_OFFLINE;
-    offset['backgroundColor'] = backup;
-    report['dot'] = offset;
-    offset = {'width': 8, 'height': 8, 'borderRadius': 4};
-    romeo = golf[romeo];
-    romeo = foxtrot.bind(entity)(romeo);
+    tango = tango.bind(entity)(golf);
+    var _closure1_slot3 = tango;
+    tango = 1;
+    tango = verify[tango];
+    tango = options.bind(entity)(tango);
+    tango = tango.View;
+    var _closure1_slot4 = tango;
+    tango = 2;
+    tango = verify[tango];
+    tango = backup.bind(entity)(tango);
+    var _closure1_slot5 = tango;
+    tango = 3;
+    tango = verify[tango];
+    tango = options.bind(entity)(tango);
+    tango = tango.ThemeTypes;
+    var _closure1_slot6 = tango;
+    tango = 4;
+    golf = verify[tango];
+    golf = options.bind(entity)(golf);
+    golf = golf.jsx;
+    var _closure1_slot7 = golf;
+    tango = verify[tango];
+    tango = options.bind(entity)(tango);
+    tango = tango.jsxs;
+    var _closure1_slot8 = tango;
+    tango = 7;
+    tango = verify[tango];
+    offset = options.bind(entity)(tango);
+    golf = offset.createStyles;
+    tango = {};
+    yankee = {};
+    foxtrot = 8;
+    romeo = verify[foxtrot];
+    romeo = backup.bind(entity)(romeo);
     romeo = romeo.colors;
-    romeo = romeo.STATUS_ONLINE;
-    offset['backgroundColor'] = romeo;
-    report['dotOnline'] = offset;
-    offset = {};
-    offset['display'] = yankee;
-    report['established'] = offset;
-    offset = {'marginTop': 12, 'paddingHorizontal': 16};
-    report['body'] = offset;
-    report = options.bind(verify)(report);
-    var _closure1_slot9 = report;
-    options = mike.Object;
-    report = options.freeze;
+    romeo = romeo.BG_BASE_PRIMARY;
+    yankee['backgroundColor'] = romeo;
+    tango['container'] = yankee;
+    yankee = {'height': 140, 'width': '100%'};
+    tango['colorBanner'] = yankee;
+    romeo = 'flex';
+    yankee = {'paddingHorizontal': 16, 'marginTop': 4294967264, 'display': 'flex', 'flexDirection': 'column', 'gap': 0};
+    tango['header'] = yankee;
+    yankee = {'width': 86, 'height': 86, 'borderRadius': 28.666666666666668, 'backgroundColor': null, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden'};
+    kilo = verify[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.colors;
+    kilo = kilo.BG_BASE_PRIMARY;
+    yankee['backgroundColor'] = kilo;
+    tango['avatarBackground'] = yankee;
+    yankee = {'display': 'flex', 'flexDirection': 'row', 'gap': 8};
+    tango['members'] = yankee;
+    yankee = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
+    tango['memberCount'] = yankee;
+    yankee = {'width': 8, 'height': 8, 'borderRadius': 4};
+    kilo = verify[foxtrot];
+    kilo = backup.bind(entity)(kilo);
+    kilo = kilo.colors;
+    kilo = kilo.STATUS_OFFLINE;
+    yankee['backgroundColor'] = kilo;
+    tango['dot'] = yankee;
+    yankee = {'width': 8, 'height': 8, 'borderRadius': 4};
+    foxtrot = verify[foxtrot];
+    foxtrot = backup.bind(entity)(foxtrot);
+    foxtrot = foxtrot.colors;
+    foxtrot = foxtrot.STATUS_ONLINE;
+    yankee['backgroundColor'] = foxtrot;
+    tango['dotOnline'] = yankee;
+    yankee = {};
+    yankee['display'] = romeo;
+    tango['established'] = yankee;
+    yankee = {'marginTop': 12, 'paddingHorizontal': 16};
+    tango['body'] = yankee;
+    yankee = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
+    tango['error'] = yankee;
+    yankee = {};
+    romeo = 160;
+    yankee['marginTop'] = romeo;
+    tango['buttonContainer'] = yankee;
+    tango = golf.bind(offset)(tango);
+    var _closure1_slot9 = tango;
+    offset = mike.Object;
+    golf = offset.freeze;
     mike = {};
-    verify = {'x': 0, 'y': 1};
-    mike['START'] = verify;
-    verify = {'x': 1.5, 'y': 0};
-    mike['END'] = verify;
-    mike = report.bind(options)(mike);
+    yankee = {'x': 0, 'y': 1};
+    mike['START'] = yankee;
+    yankee = {'x': 1.5, 'y': 0};
+    mike['END'] = yankee;
+    mike = golf.bind(offset)(mike);
     var _closure1_slot10 = mike;
-    report = 20;
-    report = golf[report];
-    golf = oscar.bind(entity)(report);
-    oscar = golf.fileFinishedImporting;
-    report = 'modules/guild_profile/native/components/v2/GuildProfileView.tsx';
-    report = oscar.bind(golf)(report);
-    tango = function(argFoo) { // Original name: GuildProfileView
+    golf = 20;
+    golf = verify[golf];
+    verify = options.bind(entity)(golf);
+    options = verify.fileFinishedImporting;
+    golf = 'modules/guild_profile/native/components/v2/GuildProfileView.tsx';
+    golf = options.bind(verify)(golf);
+    oscar = function(argFoo) { // Original name: GuildProfileView
         mike = argFoo;
         offset = mike.guildProfile;
         var _closure2_slot0 = offset;
@@ -178,11 +184,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = offset;
         entity = function() {
-            _fun90614: for(var _fun90614_ip = 0; ; ) switch(_fun90614_ip) {
+            _fun90641: for(var _fun90641_ip = 0; ; ) switch(_fun90641_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!(entity != mike)) { _fun90614_ip = 107; continue _fun90614 }
+                if(!(entity != mike)) { _fun90641_ip = 108; continue _fun90641 }
  13:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -205,12 +211,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = 'number';
                 tango = typeof zulu;
                 mike = null;
-                if(!(report !== tango)) { _fun90614_ip = 105; continue _fun90614 }
+                if(!(report !== tango)) { _fun90641_ip = 106; continue _fun90641 }
  100:
                 mike = zulu.uri;
- 105:
+ 106:
                 return mike;
- 107:
+ 108:
                 return entity;
             }
         };
@@ -412,7 +418,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = zulu.bind(tango)(mike, entity);
         return entity;
     };
-    zulu['default'] = tango;
+    zulu['default'] = oscar;
+    zulu['getBackgroundForProfile'] = report;
+    zulu['useStyles'] = tango;
     zulu['DiagonalGradient'] = mike;
     return entity;
 })();

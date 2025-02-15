@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/connections/native/FederatedSocialModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FederatedSocialModal
-        _fun80742: for(var _fun80742_ip = 0; ; ) switch(_fun80742_ip) {
+        _fun80754: for(var _fun80754_ip = 0; ; ) switch(_fun80754_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             report = mike == zulu;
             foxtrot = undefined;
-            if(report) { _fun80742_ip = 66; continue _fun80742 }
+            if(report) { _fun80754_ip = 66; continue _fun80754 }
  61:
             foxtrot = zulu.name;
  66:
-            if(!(mike == foxtrot)) { _fun80742_ip = 125; continue _fun80742 }
+            if(!(mike == foxtrot)) { _fun80754_ip = 125; continue _fun80754 }
  70:
             oscar = _closure1_slot0;
             verify = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = function() { // Original name: render
                 zulu = _closure2_slot0;
                 mike = function(argFoo) { // Original name: FederatedSocialModalScreen
-                    _fun80744: for(var _fun80744_ip = 0; ; ) switch(_fun80744_ip) {
+                    _fun80756: for(var _fun80756_ip = 0; ; ) switch(_fun80756_ip) {
  0:
                         mike = argFoo;
                         zulu = mike.location;
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = golf.bind(options)(report);
                         options = mike == golf;
                         config = undefined;
-                        if(options) { _fun80744_ip = 209; continue _fun80744 }
+                        if(options) { _fun80756_ip = 209; continue _fun80756 }
  204:
                         config = golf.name;
  209:
-                        if(!(mike == config)) { _fun80744_ip = 268; continue _fun80744 }
+                        if(!(mike == config)) { _fun80756_ip = 268; continue _fun80756 }
  213:
                         verify = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = undefined;
                             mike = function* () {
                                 entity = function* () { // Original name: ?anon_0_
-                                    _fun80747: for(var _fun80747_ip = 0; ; ) switch(_fun80747_ip) {
+                                    _fun80759: for(var _fun80759_ip = 0; ; ) switch(_fun80759_ip) {
  0:
                                         StartGenerator();
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                        if(mike) { _fun80747_ip = 318; continue _fun80747 }
+                                        if(mike) { _fun80759_ip = 318; continue _fun80759 }
  10:
                                         mike = undefined;
                                         oscar = undefined;
@@ -237,18 +237,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                         return tango;
  110:
                                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                                        if(golf) { _fun80747_ip = 232; continue _fun80747 }
+                                        if(golf) { _fun80759_ip = 232; continue _fun80759 }
  116:
                                         golf = tango.body;
                                         oscar = golf;
                                         verify = options == golf;
                                         golf = undefined;
-                                        if(verify) { _fun80747_ip = 141; continue _fun80747 }
+                                        if(verify) { _fun80759_ip = 141; continue _fun80759 }
  133:
                                         verify = oscar;
                                         golf = verify.url;
  141:
-                                        if(!(options != golf)) { _fun80747_ip = 202; continue _fun80747 }
+                                        if(!(options != golf)) { _fun80759_ip = 202; continue _fun80759 }
  145:
                                         options = _closure1_slot1;
                                         verify = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                         report = _closure4_slot3;
                                         report = report.bind(mike)();
  200: // try_end0
-                                        _fun80747_ip = 315; continue _fun80747;
+                                        _fun80759_ip = 315; continue _fun80759;
  202: // try_start_1
                                         report = global;
                                         report = report.Error;

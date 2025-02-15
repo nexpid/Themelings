@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun73341: for(var _fun73341_ip = 0; ; ) switch(_fun73341_ip) {
+        _fun73351: for(var _fun73351_ip = 0; ; ) switch(_fun73351_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun73341_ip = 51; continue _fun73341 }
+            if(entity) { _fun73351_ip = 51; continue _fun73351 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun73341_ip = 92; continue _fun73341;
+            _fun73351_ip = 92; continue _fun73351;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun73341_ip = 71; continue _fun73341 }
+            if(oscar) { _fun73351_ip = 71; continue _fun73351 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun73342: for(var _fun73342_ip = 0; ; ) switch(_fun73342_ip) {
+        _fun73352: for(var _fun73352_ip = 0; ; ) switch(_fun73352_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun73342_ip = 76; continue _fun73342;
+            _fun73352_ip = 76; continue _fun73352;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:

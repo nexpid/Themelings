@@ -87,7 +87,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = report.bind(entity)(tango);
     zulu['ToastContainer'] = tango;
     tango = function() { // Original name: PictureInPictureGlobalContainer
-        _fun120576: for(var _fun120576_ip = 0; ; ) switch(_fun120576_ip) {
+        _fun120582: for(var _fun120582_ip = 0; ; ) switch(_fun120582_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -132,16 +132,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = null;
             verify = tango == oscar;
             entity = null;
-            if(verify) { _fun120576_ip = 203; continue _fun120576 }
+            if(verify) { _fun120582_ip = 203; continue _fun120582 }
  152:
             entity = null;
-            if(!options) { _fun120576_ip = 203; continue _fun120576 }
+            if(!options) { _fun120582_ip = 203; continue _fun120582 }
  157:
             entity = null;
-            if(golf) { _fun120576_ip = 203; continue _fun120576 }
+            if(golf) { _fun120582_ip = 203; continue _fun120582 }
  162:
             entity = null;
-            if(zulu) { _fun120576_ip = 203; continue _fun120576 }
+            if(zulu) { _fun120582_ip = 203; continue _fun120582 }
  167:
             tango = _closure1_slot8;
             zulu = _closure1_slot1;
@@ -158,7 +158,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     zulu['PictureInPictureGlobalContainer'] = tango;
     tango = function() { // Original name: NotificationsContainer
-        _fun120578: for(var _fun120578_ip = 0; ; ) switch(_fun120578_ip) {
+        _fun120584: for(var _fun120584_ip = 0; ; ) switch(_fun120584_ip) {
  0:
             entity = _closure1_slot9;
             tango = undefined;
@@ -188,7 +188,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = oscar.notifications;
             entity['style'] = oscar;
             oscar = undefined;
-            if(!golf) { _fun120578_ip = 124; continue _fun120578 }
+            if(!golf) { _fun120584_ip = 124; continue _fun120584 }
  118:
             oscar = 'no-hide-descendants';
  124:
@@ -211,7 +211,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         report = _closure1_slot3;
         tango = report.useMemo;
         zulu = function() {
-            _fun120581: for(var _fun120581_ip = 0; ; ) switch(_fun120581_ip) {
+            _fun120587: for(var _fun120587_ip = 0; ; ) switch(_fun120587_ip) {
  0:
                 mike = {'input': 'k', 'modifierFlags': null, 'eventName': 'keyCommandShowQuickSwitcher'};
                 tango = _closure1_slot0;
@@ -222,12 +222,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = tango.bind(oscar)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun120581_ip = 69; continue _fun120581 }
+                if(zulu) { _fun120587_ip = 69; continue _fun120587 }
  51:
                 zulu = _closure1_slot4;
                 zulu = zulu.KeyCommandsView;
                 zulu = zulu.keyModifierCommand;
-                _fun120581_ip = 105; continue _fun120581;
+                _fun120587_ip = 105; continue _fun120587;
  69:
                 report = _closure1_slot1;
                 golf = _closure1_slot2;

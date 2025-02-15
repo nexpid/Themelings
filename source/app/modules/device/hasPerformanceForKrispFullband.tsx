@@ -22,7 +22,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/device/hasPerformanceForKrispFullband.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: hasPerformanceForKrispFullband
-        _fun105459: for(var _fun105459_ip = 0; ; ) switch(_fun105459_ip) {
+        _fun105451: for(var _fun105451_ip = 0; ; ) switch(_fun105451_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -33,7 +33,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = entity.bind(mike)();
             entity = null;
             entity = entity === zulu;
-            if(entity) { _fun105459_ip = 44; continue _fun105459 }
+            if(entity) { _fun105451_ip = 44; continue _fun105451 }
  37:
             mike = 31;
             entity = zulu >= mike;

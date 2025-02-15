@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: getServersSearchCategoryName
-        _fun118106: for(var _fun118106_ip = 0; ; ) switch(_fun118106_ip) {
+        _fun118112: for(var _fun118112_ip = 0; ; ) switch(_fun118112_ip) {
  0:
             tango = argFoo;
             zulu = arguments[1];
             oscar = undefined;
-            if(!(zulu === oscar)) { _fun118106_ip = 30; continue _fun118106 }
+            if(!(zulu === oscar)) { _fun118112_ip = 30; continue _fun118112 }
  12:
             mike = _closure1_slot2;
             entity = new Array(1);
@@ -25,20 +25,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             mike = mike === oscar;
             zulu = undefined;
-            if(mike) { _fun118106_ip = 55; continue _fun118106 }
+            if(mike) { _fun118112_ip = 55; continue _fun118112 }
  52:
             zulu = report;
  55:
-            if(mike) { _fun118106_ip = 61; continue _fun118106 }
+            if(mike) { _fun118112_ip = 61; continue _fun118112 }
  58:
             entity.return();
  61:
             entity = _closure1_slot3;
-            if(!(tango !== entity)) { _fun118106_ip = 87; continue _fun118106 }
+            if(!(tango !== entity)) { _fun118112_ip = 87; continue _fun118112 }
  72:
             entity = zulu.getCategoryName;
             entity = entity.bind(zulu)(tango);
-            _fun118106_ip = 142; continue _fun118106;
+            _fun118112_ip = 142; continue _fun118112;
  87:
             report = _closure1_slot0;
             golf = _closure1_slot1;

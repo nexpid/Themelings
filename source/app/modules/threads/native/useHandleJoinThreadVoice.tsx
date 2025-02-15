@@ -37,17 +37,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun115893: for(var _fun115893_ip = 0; ; ) switch(_fun115893_ip) {
+                _fun115899: for(var _fun115899_ip = 0; ; ) switch(_fun115899_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun115893_ip = 356; continue _fun115893 }
+                    if(mike) { _fun115899_ip = 356; continue _fun115899 }
  10:
                     zulu = _closure2_slot0;
                     mike = zulu.getGuildId;
                     report = mike.bind(zulu)();
                     mike = null;
-                    if(!(mike != report)) { _fun115893_ip = 75; continue _fun115893 }
+                    if(!(mike != report)) { _fun115899_ip = 75; continue _fun115899 }
  33:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(tango)(zulu);
                     zulu = oscar.shouldShowMembershipVerificationGate;
                     zulu = zulu.bind(oscar)(report);
-                    if(zulu) { _fun115893_ip = 291; continue _fun115893 }
+                    if(zulu) { _fun115899_ip = 291; continue _fun115899 }
  75:
                     verify = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -74,14 +74,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  124:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(verify) { _fun115893_ip = 288; continue _fun115893 }
+                    if(verify) { _fun115899_ip = 288; continue _fun115899 }
  133:
                     romeo = _closure1_slot4;
                     offset = romeo.hasJoined;
                     verify = _closure2_slot0;
                     verify = verify.id;
                     verify = offset.bind(romeo)(verify);
-                    if(verify) { _fun115893_ip = 212; continue _fun115893 }
+                    if(verify) { _fun115899_ip = 212; continue _fun115899 }
  160:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  203:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(!offset) { _fun115893_ip = 212; continue _fun115893 }
+                    if(!offset) { _fun115899_ip = 212; continue _fun115899 }
  209:
                     return verify;
  212:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  254:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(verify) { _fun115893_ip = 285; continue _fun115893 }
+                    if(verify) { _fun115899_ip = 285; continue _fun115899 }
  260:
                     offset = oscar.openGuildVoiceModal;
                     verify = _closure2_slot0;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  333:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun115893_ip = 353; continue _fun115893 }
+                    if(zulu) { _fun115899_ip = 353; continue _fun115899 }
  339:
                     zulu = mike.openMemberVerificationModal;
                     zulu = zulu.bind(tango)(report);

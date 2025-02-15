@@ -125,14 +125,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/channel_list_v2/native/components/ChannelListStickyHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelListStickyHeader
-        _fun115515: for(var _fun115515_ip = 0; ; ) switch(_fun115515_ip) {
+        _fun115521: for(var _fun115521_ip = 0; ; ) switch(_fun115521_ip) {
  0:
             mike = argFoo;
             offset = mike.guild;
             var _closure2_slot0 = offset;
             options = mike.showExtraButtons;
             tango = undefined;
-            if(!(options === tango)) { _fun115515_ip = 28; continue _fun115515 }
+            if(!(options === tango)) { _fun115521_ip = 28; continue _fun115521 }
  26:
             options = true;
  28:
@@ -236,12 +236,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             foxtrot = oscar != papa;
             romeo = null;
-            if(!foxtrot) { _fun115515_ip = 702; continue _fun115515 }
+            if(!foxtrot) { _fun115521_ip = 702; continue _fun115521 }
  438:
             foxtrot = 0;
             foxtrot = papa > foxtrot;
             romeo = null;
-            if(!foxtrot) { _fun115515_ip = 702; continue _fun115515 }
+            if(!foxtrot) { _fun115521_ip = 702; continue _fun115521 }
  452:
             kilo = _closure1_slot6;
             backup = _closure1_slot4;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = verify;
             oscar = null;
-            if(!options) { _fun115515_ip = 779; continue _fun115515 }
+            if(!options) { _fun115521_ip = 779; continue _fun115521 }
  729:
             verify = _closure1_slot5;
             options = _closure1_slot1;

@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/oauth2/native/GuildSelector.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GuildSelector
-        _fun73889: for(var _fun73889_ip = 0; ; ) switch(_fun73889_ip) {
+        _fun73899: for(var _fun73899_ip = 0; ; ) switch(_fun73899_ip) {
  0:
             tango = argFoo;
             kilo = tango.error;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = offset;
             report[2] = mike;
             mike = function() {
-                _fun73890: for(var _fun73890_ip = 0; ; ) switch(_fun73890_ip) {
+                _fun73900: for(var _fun73900_ip = 0; ; ) switch(_fun73900_ip) {
  0:
                     report = _closure1_slot1;
                     yankee = _closure1_slot3;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     options = mike != options;
                     mike = undefined;
-                    if(!options) { _fun73890_ip = 197; continue _fun73890 }
+                    if(!options) { _fun73900_ip = 197; continue _fun73900 }
  193:
                     mike = _closure2_slot0;
  197:
@@ -236,11 +236,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = null;
             golf = sizing != kilo;
             oscar = null;
-            if(!golf) { _fun73889_ip = 313; continue _fun73889 }
+            if(!golf) { _fun73899_ip = 313; continue _fun73899 }
  252:
             golf = '';
             oscar = null;
-            if(!(golf !== kilo)) { _fun73889_ip = 313; continue _fun73889 }
+            if(!(golf !== kilo)) { _fun73899_ip = 313; continue _fun73899 }
  262:
             romeo = _closure1_slot7;
             offset = _closure1_slot0;
@@ -266,11 +266,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             result = sizing == output;
             offset = undefined;
-            if(result) { _fun73889_ip = 363; continue _fun73889 }
+            if(result) { _fun73899_ip = 363; continue _fun73899 }
  358:
             offset = output.name;
  363:
-            if(!(sizing == offset)) { _fun73889_ip = 419; continue _fun73889 }
+            if(!(sizing == offset)) { _fun73899_ip = 419; continue _fun73899 }
  367:
             echo = _closure1_slot0;
             sizing = _closure1_slot3;

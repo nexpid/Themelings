@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = {};
         options = verify.map;
         golf = function(argFoo) {
-            _fun117037: for(var _fun117037_ip = 0; ; ) switch(_fun117037_ip) {
+            _fun117043: for(var _fun117043_ip = 0; ; ) switch(_fun117043_ip) {
  0:
                 entity = argFoo;
                 var _closure3_slot0 = entity;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 verify = oscar != verify;
                 oscar = undefined;
-                if(!verify) { _fun117037_ip = 291; continue _fun117037 }
+                if(!verify) { _fun117043_ip = 291; continue _fun117043 }
  128:
                 yankee = _closure1_slot0;
                 romeo = _closure1_slot2;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.ICYMICustomScore;
                 verify = verify.MUTED;
                 oscar = undefined;
-                if(!(offset === verify)) { _fun117037_ip = 291; continue _fun117037 }
+                if(!(offset === verify)) { _fun117043_ip = 291; continue _fun117043 }
  199:
                 verify = _closure1_slot8;
                 foxtrot = _closure1_slot0;

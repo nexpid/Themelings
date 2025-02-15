@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun126955: for(var _fun126955_ip = 0; ; ) switch(_fun126955_ip) {
+            _fun126951: for(var _fun126951_ip = 0; ; ) switch(_fun126951_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getGuild;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity != oscar;
                 entity = undefined;
-                if(!zulu) { _fun126955_ip = 66; continue _fun126955 }
+                if(!zulu) { _fun126951_ip = 66; continue _fun126951 }
  35:
                 report = _closure1_slot4;
                 tango = report.getRole;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         entity = function() {
-            _fun126956: for(var _fun126956_ip = 0; ; ) switch(_fun126956_ip) {
+            _fun126952: for(var _fun126952_ip = 0; ; ) switch(_fun126952_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
-                if(!(entity != zulu)) { _fun126956_ip = 78; continue _fun126956 }
+                if(!(entity != zulu)) { _fun126952_ip = 78; continue _fun126952 }
  13:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -101,11 +101,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = mike.permissions;
                 mike = _closure1_slot6;
                 mike = tango.bind(report)(zulu, mike);
-                if(mike) { _fun126956_ip = 78; continue _fun126956 }
+                if(mike) { _fun126952_ip = 78; continue _fun126952 }
  66:
                 entity = _closure1_slot5;
                 entity = entity.ALL_CHANNELS;
-                _fun126956_ip = 91; continue _fun126956;
+                _fun126952_ip = 91; continue _fun126952;
  78:
                 mike = _closure1_slot5;
                 entity = mike.SOME_CHANNELS;

@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/GuildStreamSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildStreamSystemMessage
-        _fun72413: for(var _fun72413_ip = 0; ; ) switch(_fun72413_ip) {
+        _fun72419: for(var _fun72419_ip = 0; ; ) switch(_fun72419_ip) {
  0:
             entity = argFoo;
             golf = entity.row;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = yankee;
             mike = output.messageReference;
             report = null;
-            if(!(report == mike)) { _fun72413_ip = 136; continue _fun72413 }
+            if(!(report == mike)) { _fun72419_ip = 136; continue _fun72419 }
  134:
             mike = {};
  136:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = yankee.id;
             verify[4] = oscar;
             oscar = function() {
-                _fun72415: for(var _fun72415_ip = 0; ; ) switch(_fun72415_ip) {
+                _fun72421: for(var _fun72421_ip = 0; ; ) switch(_fun72421_ip) {
  0:
                     entity = {};
                     mike = _closure2_slot7;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     report = 'username';
                     tango = null;
-                    if(!(report === golf)) { _fun72415_ip = 67; continue _fun72415 }
+                    if(!(report === golf)) { _fun72421_ip = 67; continue _fun72421 }
  63:
                     tango = _closure2_slot8;
  67:
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot0;
                     tango = 'dot';
                     tango = tango === report;
-                    if(!tango) { _fun72415_ip = 104; continue _fun72415 }
+                    if(!tango) { _fun72421_ip = 104; continue _fun72421 }
  96:
                     report = _closure2_slot8;
                     tango = oscar != report;
@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.id;
             oscar[5] = yankee;
             zulu = function() {
-                _fun72416: for(var _fun72416_ip = 0; ; ) switch(_fun72416_ip) {
+                _fun72422: for(var _fun72422_ip = 0; ; ) switch(_fun72422_ip) {
  0:
                     mike = _closure2_slot6;
-                    if(mike) { _fun72416_ip = 165; continue _fun72416 }
+                    if(mike) { _fun72422_ip = 165; continue _fun72422 }
  16:
                     options = {};
                     mike = 'bindJoinStream';
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createGuildStreamSystemMessage
-        _fun72417: for(var _fun72417_ip = 0; ; ) switch(_fun72417_ip) {
+        _fun72423: for(var _fun72423_ip = 0; ; ) switch(_fun72423_ip) {
  0:
             tango = argFoo;
             verify = tango.message;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.author;
             entity = verify.messageReference;
             backup = null;
-            if(!(backup == entity)) { _fun72417_ip = 34; continue _fun72417 }
+            if(!(backup == entity)) { _fun72423_ip = 34; continue _fun72423 }
  32:
             entity = {};
  34:
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['colorString'] = foxtrot;
             sizing = 'username';
             romeo = null;
-            if(!(sizing === kilo)) { _fun72417_ip = 162; continue _fun72417 }
+            if(!(sizing === kilo)) { _fun72423_ip = 162; continue _fun72423 }
  159:
             romeo = foxtrot;
  162:
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['roleColor'] = foxtrot;
             romeo = 'dot';
             romeo = romeo === kilo;
-            if(!romeo) { _fun72417_ip = 187; continue _fun72417 }
+            if(!romeo) { _fun72423_ip = 187; continue _fun72423 }
  183:
             romeo = backup != foxtrot;
  187:
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = romeo[oscar];
             oscar = golf.bind(zulu)(oscar);
             oscar = oscar.t;
-            if(report) { _fun72417_ip = 358; continue _fun72417 }
+            if(report) { _fun72423_ip = 358; continue _fun72423 }
  321:
             golf = oscar.dMmbGh;
             report = {};
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = 'onJoinStream';
             report[romeo] = foxtrot;
             report = options.bind(verify)(golf, report);
-            _fun72417_ip = 391; continue _fun72417;
+            _fun72423_ip = 391; continue _fun72423;
  358:
             golf = oscar.FP7rUF;
             oscar = {};

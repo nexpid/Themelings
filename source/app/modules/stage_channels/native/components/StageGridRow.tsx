@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun104009: for(var _fun104009_ip = 0; ; ) switch(_fun104009_ip) {
+        _fun104001: for(var _fun104001_ip = 0; ; ) switch(_fun104001_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
@@ -54,15 +54,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = mike.bind(tango)();
             zulu = 3;
             mike = 0;
-            if(!(mike === options)) { _fun104009_ip = 57; continue _fun104009 }
+            if(!(mike === options)) { _fun104001_ip = 57; continue _fun104001 }
  52:
             zulu = golf.length;
  57:
             mike = 1;
-            if(!(mike !== zulu)) { _fun104009_ip = 139; continue _fun104009 }
+            if(!(mike !== zulu)) { _fun104001_ip = 139; continue _fun104001 }
  64:
             mike = 2;
-            if(!(mike !== zulu)) { _fun104009_ip = 105; continue _fun104009 }
+            if(!(mike !== zulu)) { _fun104001_ip = 105; continue _fun104001 }
  71:
             zulu = _closure1_slot0;
             options = _closure1_slot2;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.StageTileSize;
             mike = mike.THIRD;
-            _fun104009_ip = 171; continue _fun104009;
+            _fun104001_ip = 171; continue _fun104001;
  105:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.bind(tango)(zulu);
             zulu = zulu.StageTileSize;
             mike = zulu.HALF;
-            _fun104009_ip = 171; continue _fun104009;
+            _fun104001_ip = 171; continue _fun104001;
  139:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = golf.map;
             report = function(argFoo) {
-                _fun104010: for(var _fun104010_ip = 0; ; ) switch(_fun104010_ip) {
+                _fun104002: for(var _fun104002_ip = 0; ; ) switch(_fun104002_ip) {
  0:
                     mike = argFoo;
                     tango = mike.type;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.StageChannelParticipantTypes;
                     entity = entity.STREAM;
                     entity = tango === entity;
-                    if(entity) { _fun104010_ip = 122; continue _fun104010 }
+                    if(entity) { _fun104002_ip = 122; continue _fun104002 }
  52:
                     report = mike.type;
                     golf = _closure1_slot0;
@@ -121,13 +121,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.StageChannelParticipantTypes;
                     tango = tango.VOICE;
                     tango = report === tango;
-                    if(!tango) { _fun104010_ip = 119; continue _fun104010 }
+                    if(!tango) { _fun104002_ip = 119; continue _fun104002 }
  93:
                     golf = mike.voiceState;
                     report = null;
                     options = report == golf;
                     report = undefined;
-                    if(options) { _fun104010_ip = 116; continue _fun104010 }
+                    if(options) { _fun104002_ip = 116; continue _fun104002 }
  110:
                     report = golf.selfVideo;
  116:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure1_slot4;
                     tango = _closure1_slot1;
                     golf = _closure1_slot2;
-                    if(entity) { _fun104010_ip = 213; continue _fun104010 }
+                    if(entity) { _fun104002_ip = 213; continue _fun104002 }
  137:
                     entity = 7;
                     entity = golf[entity];
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = 'stage-user-participant-';
                     entity = verify.bind(entity)(offset);
                     entity = report.bind(oscar)(options, zulu, entity);
-                    _fun104010_ip = 287; continue _fun104010;
+                    _fun104002_ip = 287; continue _fun104002;
  213:
                     zulu = 6;
                     zulu = golf[zulu];

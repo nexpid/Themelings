@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/usePrivacyLevelHelpText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: useStagePrivacyLevelSettings
-        _fun102876: for(var _fun102876_ip = 0; ; ) switch(_fun102876_ip) {
+        _fun102868: for(var _fun102868_ip = 0; ; ) switch(_fun102868_ip) {
  0:
             options = argFoo;
             oscar = argBar;
@@ -87,15 +87,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             options = golf == oscar;
             verify = undefined;
-            if(options) { _fun102876_ip = 154; continue _fun102876 }
+            if(options) { _fun102868_ip = 154; continue _fun102868 }
  148:
             verify = oscar.privacy_level;
  154:
             options = _closure1_slot6;
             options = options.PUBLIC;
-            if(!(verify !== options)) { _fun102876_ip = 421; continue _fun102876 }
+            if(!(verify !== options)) { _fun102868_ip = 421; continue _fun102868 }
  171:
-            if(mike) { _fun102876_ip = 234; continue _fun102876 }
+            if(mike) { _fun102868_ip = 234; continue _fun102868 }
  174:
             yankee = _closure1_slot0;
             romeo = _closure1_slot3;
@@ -109,9 +109,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.t;
             options = options.BOjr7u;
             options = verify.bind(offset)(options);
-            _fun102876_ip = 419; continue _fun102876;
+            _fun102868_ip = 419; continue _fun102868;
  234:
-            if(zulu) { _fun102876_ip = 294; continue _fun102876 }
+            if(zulu) { _fun102868_ip = 294; continue _fun102868 }
  237:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot3;
@@ -125,13 +125,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.E5T7a2;
             verify = offset.bind(yankee)(verify);
-            _fun102876_ip = 416; continue _fun102876;
+            _fun102868_ip = 416; continue _fun102868;
  294:
             offset = _closure1_slot6;
             romeo = offset.PUBLIC;
             yankee = argBaz;
             offset = null;
-            if(!(yankee === romeo)) { _fun102876_ip = 413; continue _fun102876 }
+            if(!(yankee === romeo)) { _fun102868_ip = 413; continue _fun102868 }
  313:
             romeo = _closure1_slot0;
             output = _closure1_slot3;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  416:
             options = verify;
  419:
-            _fun102876_ip = 476; continue _fun102876;
+            _fun102868_ip = 476; continue _fun102868;
  421:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot3;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['helpText'] = options;
             golf = golf == oscar;
             report = undefined;
-            if(golf) { _fun102876_ip = 496; continue _fun102876 }
+            if(golf) { _fun102868_ip = 496; continue _fun102868 }
  490:
             report = oscar.privacy_level;
  496:
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report === tango;
             entity['guildOnlyDisabled'] = tango;
             mike = !mike;
-            if(mike) { _fun102876_ip = 526; continue _fun102876 }
+            if(mike) { _fun102868_ip = 526; continue _fun102868 }
  523:
             mike = !zulu;
  526:

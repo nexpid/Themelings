@@ -21,19 +21,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/potions/utils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun69394: for(var _fun69394_ip = 0; ; ) switch(_fun69394_ip) {
+        _fun69400: for(var _fun69400_ip = 0; ; ) switch(_fun69400_ip) {
  0:
             mike = argFoo;
             zulu = mike.hasPotions;
             zulu = zulu.bind(mike)();
-            if(zulu) { _fun69394_ip = 22; continue _fun69394 }
+            if(zulu) { _fun69400_ip = 22; continue _fun69400 }
  18:
             zulu = false;
             return zulu;
  22:
             zulu = mike.potions;
             mike = null;
-            if(!(mike == zulu)) { _fun69394_ip = 38; continue _fun69394 }
+            if(!(mike == zulu)) { _fun69400_ip = 38; continue _fun69400 }
  34:
             zulu = new Array(0);
  38:
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = mike;
             mike = zulu.some;
             entity = function(argFoo) {
-                _fun69395: for(var _fun69395_ip = 0; ; ) switch(_fun69395_ip) {
+                _fun69401: for(var _fun69401_ip = 0; ; ) switch(_fun69401_ip) {
  0:
                     zulu = argFoo;
                     mike = zulu.type;
@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = entity.MessagePotionTypes;
                     entity = entity.CONFETTI;
                     entity = mike === entity;
-                    if(!entity) { _fun69395_ip = 91; continue _fun69395 }
+                    if(!entity) { _fun69401_ip = 91; continue _fun69401 }
  52:
                     mike = _closure2_slot0;
                     mike = !mike;
-                    if(mike) { _fun69395_ip = 88; continue _fun69395 }
+                    if(mike) { _fun69401_ip = 88; continue _fun69401 }
  65:
                     tango = zulu.emoji;
                     zulu = 0;
@@ -85,19 +85,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['messageHasConfettiPotion'] = tango;
     tango = function(argFoo) {
-        _fun69396: for(var _fun69396_ip = 0; ; ) switch(_fun69396_ip) {
+        _fun69402: for(var _fun69402_ip = 0; ; ) switch(_fun69402_ip) {
  0:
             entity = argFoo;
             mike = entity.hasPotions;
             mike = mike.bind(entity)();
-            if(mike) { _fun69396_ip = 20; continue _fun69396 }
+            if(mike) { _fun69402_ip = 20; continue _fun69402 }
  16:
             mike = undefined;
             return mike;
  20:
             zulu = entity.potions;
             entity = null;
-            if(!(entity == zulu)) { _fun69396_ip = 36; continue _fun69396 }
+            if(!(entity == zulu)) { _fun69402_ip = 36; continue _fun69402 }
  32:
             zulu = new Array(0);
  36:
@@ -122,19 +122,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getFirstConfettiPotion'] = tango;
     mike = function(argFoo) {
-        _fun69398: for(var _fun69398_ip = 0; ; ) switch(_fun69398_ip) {
+        _fun69404: for(var _fun69404_ip = 0; ; ) switch(_fun69404_ip) {
  0:
             zulu = argFoo;
             mike = zulu.id;
             entity = null;
-            if(!(entity == mike)) { _fun69398_ip = 34; continue _fun69398 }
+            if(!(entity == mike)) { _fun69404_ip = 34; continue _fun69404 }
  14:
             entity = {};
             mike = zulu.optionallyDiverseSequence;
             entity['name'] = mike;
             mike = undefined;
             entity['id'] = mike;
-            _fun69398_ip = 57; continue _fun69398;
+            _fun69404_ip = 57; continue _fun69404;
  34:
             mike = {};
             tango = zulu.id;

@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot4;
         mike[2] = report;
         entity = function() {
-            _fun121640: for(var _fun121640_ip = 0; ; ) switch(_fun121640_ip) {
+            _fun121646: for(var _fun121646_ip = 0; ; ) switch(_fun121646_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = golf.bind(options)(oscar, report);
                 oscar = null;
                 oscar = oscar != report;
-                if(!oscar) { _fun121640_ip = 80; continue _fun121640 }
+                if(!oscar) { _fun121646_ip = 80; continue _fun121646 }
  77:
                 mike = report;
  80:

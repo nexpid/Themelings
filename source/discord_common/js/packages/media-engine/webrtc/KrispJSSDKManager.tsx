@@ -26,21 +26,21 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/media-engine/webrtc/KrispJSSDKManager.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getKrispSDK
-        _fun51022: for(var _fun51022_ip = 0; ; ) switch(_fun51022_ip) {
+        _fun51029: for(var _fun51029_ip = 0; ; ) switch(_fun51029_ip) {
  0:
             entity = _closure1_slot2;
             mike = null;
-            if(!(mike == entity)) { _fun51022_ip = 42; continue _fun51022 }
+            if(!(mike == entity)) { _fun51029_ip = 42; continue _fun51029 }
  13:
             report = _closure1_slot3;
             tango = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun51024: for(var _fun51024_ip = 0; ; ) switch(_fun51024_ip) {
+                    _fun51031: for(var _fun51031_ip = 0; ; ) switch(_fun51031_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun51024_ip = 156; continue _fun51024 }
+                        if(mike) { _fun51031_ip = 156; continue _fun51031 }
  10:
                         tango = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                         return mike;
  57:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun51024_ip = 153; continue _fun51024 }
+                        if(zulu) { _fun51031_ip = 153; continue _fun51031 }
  63:
                         report = mike.default;
                         zulu = {};
@@ -78,7 +78,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                         return zulu;
  141:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(report) { _fun51024_ip = 150; continue _fun51024 }
+                        if(report) { _fun51031_ip = 150; continue _fun51031 }
  147:
                         return tango;
  150:

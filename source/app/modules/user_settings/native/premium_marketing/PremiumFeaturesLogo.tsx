@@ -37,14 +37,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/PremiumFeaturesLogo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumFeaturesLogo
-        _fun75647: for(var _fun75647_ip = 0; ; ) switch(_fun75647_ip) {
+        _fun75657: for(var _fun75657_ip = 0; ; ) switch(_fun75657_ip) {
  0:
             entity = argFoo;
             verify = entity.premiumType;
             oscar = entity.style;
             entity = _closure1_slot3;
             entity = entity.TIER_0;
-            if(!(verify !== entity)) { _fun75647_ip = 55; continue _fun75647 }
+            if(!(verify !== entity)) { _fun75657_ip = 55; continue _fun75657 }
  31:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[entity];
             entity = undefined;
             report = zulu.bind(entity)(mike);
-            _fun75647_ip = 77; continue _fun75647;
+            _fun75657_ip = 77; continue _fun75657;
  55:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;

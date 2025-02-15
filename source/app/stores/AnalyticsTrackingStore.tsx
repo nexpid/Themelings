@@ -133,14 +133,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = entity.bind(mike)();
         mike = zulu.then;
         entity = function(argFoo) {
-            _fun58779: for(var _fun58779_ip = 0; ; ) switch(_fun58779_ip) {
+            _fun58782: for(var _fun58782_ip = 0; ; ) switch(_fun58782_ip) {
  0:
                 zulu = argFoo;
                 entity = {};
                 mike = null;
                 tango = mike == zulu;
                 mike = undefined;
-                if(tango) { _fun58779_ip = 22; continue _fun58779 }
+                if(tango) { _fun58782_ip = 22; continue _fun58782 }
  16:
                 mike = zulu.uuid;
  22:

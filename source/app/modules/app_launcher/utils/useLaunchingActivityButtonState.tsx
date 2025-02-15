@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/utils/useLaunchingActivityButtonState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useLaunchingActivityButtonState
-        _fun118992: for(var _fun118992_ip = 0; ; ) switch(_fun118992_ip) {
+        _fun118998: for(var _fun118998_ip = 0; ; ) switch(_fun118998_ip) {
  0:
             mike = argFoo;
             zulu = mike.applicationId;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu.type;
             tango = 'channel';
             mike = undefined;
-            if(!(tango === options)) { _fun118992_ip = 74; continue _fun118992 }
+            if(!(tango === options)) { _fun118998_ip = 74; continue _fun118998 }
  64:
             zulu = zulu.channel;
             mike = zulu.id;
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options.bind(verify)(zulu, mike);
             zulu = null;
             zulu = zulu != mike;
-            if(!zulu) { _fun118992_ip = 146; continue _fun118992 }
+            if(!zulu) { _fun118998_ip = 146; continue _fun118998 }
  140:
             zulu = mike.isLaunching;
  146:
-            if(!zulu) { _fun118992_ip = 159; continue _fun118992 }
+            if(!zulu) { _fun118998_ip = 159; continue _fun118998 }
  149:
             mike = mike.componentId;
             zulu = mike === oscar;
@@ -98,19 +98,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[1] = mike;
             tango[2] = golf;
             entity = function() {
-                _fun118994: for(var _fun118994_ip = 0; ; ) switch(_fun118994_ip) {
+                _fun119000: for(var _fun119000_ip = 0; ; ) switch(_fun119000_ip) {
  0:
                     mike = _closure2_slot3;
                     mike = !mike;
-                    if(!mike) { _fun118994_ip = 17; continue _fun118994 }
+                    if(!mike) { _fun119000_ip = 17; continue _fun119000 }
  13:
                     mike = _closure2_slot4;
  17:
-                    if(!mike) { _fun118994_ip = 40; continue _fun118994 }
+                    if(!mike) { _fun119000_ip = 40; continue _fun119000 }
  20:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun118994_ip = 40; continue _fun118994 }
+                    if(!(mike != zulu)) { _fun119000_ip = 40; continue _fun119000 }
  30:
                     mike = _closure2_slot1;
                     entity = undefined;

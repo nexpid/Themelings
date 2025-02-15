@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ForLaterPage
-        _fun88914: for(var _fun88914_ip = 0; ; ) switch(_fun88914_ip) {
+        _fun88931: for(var _fun88931_ip = 0; ; ) switch(_fun88931_ip) {
  0:
             mike = argFoo;
             oscar = mike.handleScroll;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             options = options.bind(offset)(entity, tango);
             entity = verify.length;
-            if(!(zulu !== entity)) { _fun88914_ip = 434; continue _fun88914 }
+            if(!(zulu !== entity)) { _fun88931_ip = 434; continue _fun88931 }
  352:
             tango = _closure1_slot7;
             zulu = _closure1_slot0;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 130;
             entity['estimatedItemSize'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun88914_ip = 472; continue _fun88914;
+            _fun88931_ip = 472; continue _fun88931;
  434:
             tango = _closure1_slot7;
             zulu = _closure1_slot0;
@@ -247,11 +247,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = mike;
     tango = options.memo;
     mike = function(argFoo) {
-        _fun88920: for(var _fun88920_ip = 0; ; ) switch(_fun88920_ip) {
+        _fun88937: for(var _fun88937_ip = 0; ; ) switch(_fun88937_ip) {
  0:
             mike = argFoo;
             zulu = null;
-            if(!(mike != zulu)) { _fun88920_ip = 279; continue _fun88920 }
+            if(!(mike != zulu)) { _fun88937_ip = 279; continue _fun88937 }
  14:
             report = undefined;
             var _closure2_slot0 = report;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = verify;
             zulu = function(argFoo) {
-                _fun88921: for(var _fun88921_ip = 0; ; ) switch(_fun88921_ip) {
+                _fun88938: for(var _fun88938_ip = 0; ; ) switch(_fun88938_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = tango.set;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.y;
                     golf = mike > golf;
                     mike = 0;
-                    if(!golf) { _fun88921_ip = 73; continue _fun88921 }
+                    if(!golf) { _fun88938_ip = 73; continue _fun88938 }
  70:
                     mike = 1;
  73:

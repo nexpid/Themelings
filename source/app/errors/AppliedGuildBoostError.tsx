@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun55438: for(var _fun55438_ip = 0; ; ) switch(_fun55438_ip) {
+        _fun55445: for(var _fun55445_ip = 0; ; ) switch(_fun55445_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun55438_ip = 51; continue _fun55438 }
+            if(entity) { _fun55445_ip = 51; continue _fun55445 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun55438_ip = 92; continue _fun55438;
+            _fun55445_ip = 92; continue _fun55445;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun55438_ip = 71; continue _fun55438 }
+            if(oscar) { _fun55445_ip = 71; continue _fun55445 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun55439: for(var _fun55439_ip = 0; ; ) switch(_fun55439_ip) {
+        _fun55446: for(var _fun55446_ip = 0; ; ) switch(_fun55446_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun55439_ip = 74; continue _fun55439;
+            _fun55446_ip = 74; continue _fun55446;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = golf.bind(entity)(tango);
     mike = function(argFoo) {
         tango = function(argFoo, argBar) { // Original name: AppliedGuildBoostError
-            _fun55443: for(var _fun55443_ip = 0; ; ) switch(_fun55443_ip) {
+            _fun55450: for(var _fun55450_ip = 0; ; ) switch(_fun55450_ip) {
  0:
                 zulu = argFoo;
                 oscar = this;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = mike.bind(tango)(oscar, report, entity);
                 tango = entity.status;
                 mike = 429;
-                if(!(mike === tango)) { _fun55443_ip = 88; continue _fun55443 }
+                if(!(mike === tango)) { _fun55450_ip = 88; continue _fun55450 }
  69:
                 mike = entity._getMessageFromRateLimit;
                 mike = mike.bind(entity)(zulu);

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getGuildId
-        _fun81205: for(var _fun81205_ip = 0; ; ) switch(_fun81205_ip) {
+        _fun81217: for(var _fun81217_ip = 0; ; ) switch(_fun81217_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.getChannel;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == mike;
             entity = undefined;
-            if(zulu) { _fun81205_ip = 36; continue _fun81205 }
+            if(zulu) { _fun81217_ip = 36; continue _fun81217 }
  31:
             entity = mike.guild_id;
  36:

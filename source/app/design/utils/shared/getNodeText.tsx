@@ -24,36 +24,36 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     mike = 'design/utils/shared/getNodeText.tsx';
     mike = report.bind(oscar)(mike);
     mike = function(argFoo) { // Original name: getNodeText
-        _fun56729: for(var _fun56729_ip = 0; ; ) switch(_fun56729_ip) {
+        _fun56732: for(var _fun56732_ip = 0; ; ) switch(_fun56732_ip) {
  0:
             report = argFoo;
             zulu = typeof report;
             mike = 'string';
             entity = report;
-            if(!(mike !== zulu)) { _fun56729_ip = 120; continue _fun56729 }
+            if(!(mike !== zulu)) { _fun56732_ip = 120; continue _fun56732 }
  17:
             mike = 'number';
             entity = report;
-            if(!(mike !== zulu)) { _fun56729_ip = 120; continue _fun56729 }
+            if(!(mike !== zulu)) { _fun56732_ip = 120; continue _fun56732 }
  28:
             mike = global;
             mike = mike.Array;
             mike = report instanceof mike;
-            if(mike) { _fun56729_ip = 89; continue _fun56729 }
+            if(mike) { _fun56732_ip = 89; continue _fun56732 }
  46:
             tango = _closure1_slot0;
             mike = tango.isValidElement;
             tango = mike.bind(tango)(report);
             golf = undefined;
             mike = undefined;
-            if(!tango) { _fun56729_ip = 87; continue _fun56729 }
+            if(!tango) { _fun56732_ip = 87; continue _fun56732 }
  68:
             oscar = _closure1_slot1;
             tango = report.props;
             tango = tango.children;
             mike = oscar.bind(golf)(tango);
  87:
-            _fun56729_ip = 117; continue _fun56729;
+            _fun56732_ip = 117; continue _fun56732;
  89:
             tango = report.map;
             zulu = _closure1_slot1;

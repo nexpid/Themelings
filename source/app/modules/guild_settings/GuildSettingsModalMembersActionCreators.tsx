@@ -145,18 +145,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['startEditingNickname'] = golf;
     tango = function(argFoo, argBar, argBaz) { // Original name: changeNickname
-        _fun81698: for(var _fun81698_ip = 0; ; ) switch(_fun81698_ip) {
+        _fun81710: for(var _fun81710_ip = 0; ; ) switch(_fun81710_ip) {
  0:
             report = argFoo;
             tango = argBar;
             var _closure2_slot0 = tango;
             entity = null;
-            if(!(entity != tango)) { _fun81698_ip = 39; continue _fun81698 }
+            if(!(entity != tango)) { _fun81710_ip = 39; continue _fun81710 }
  18:
             zulu = _closure1_slot3;
             entity = zulu.GUILD_MEMBER;
             oscar = entity.bind(zulu)(report, tango);
-            _fun81698_ip = 62; continue _fun81698;
+            _fun81710_ip = 62; continue _fun81710;
  39:
             tango = _closure1_slot3;
             zulu = tango.GUILD_MEMBER_NICK;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = function(argFoo) {
-                _fun81700: for(var _fun81700_ip = 0; ; ) switch(_fun81700_ip) {
+                _fun81712: for(var _fun81712_ip = 0; ; ) switch(_fun81712_ip) {
  0:
                     oscar = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = tango.bind(report)(zulu);
                     tango = _closure2_slot0;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun81700_ip = 125; continue _fun81700 }
+                    if(!(zulu != tango)) { _fun81712_ip = 125; continue _fun81712 }
  73:
                     golf = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = argFoo;
                     tango = zulu.status;
                     zulu = 403;
-                    if(!(zulu === tango)) { _fun81700_ip = 199; continue _fun81700 }
+                    if(!(zulu === tango)) { _fun81712_ip = 199; continue _fun81712 }
  143:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;

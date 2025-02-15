@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_profile/native/components/GuildProfileProgress.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildProfileProgress
-        _fun114282: for(var _fun114282_ip = 0; ; ) switch(_fun114282_ip) {
+        _fun114288: for(var _fun114288_ip = 0; ; ) switch(_fun114288_ip) {
  0:
             entity = argFoo;
             offset = entity.guild;
@@ -89,16 +89,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.RedesignCompatContext;
             mike = mike.bind(tango)(entity);
             entity = null;
-            if(!options) { _fun114282_ip = 329; continue _fun114282 }
+            if(!options) { _fun114288_ip = 329; continue _fun114288 }
  125:
             entity = null;
-            if(report) { _fun114282_ip = 329; continue _fun114282 }
+            if(report) { _fun114288_ip = 329; continue _fun114288 }
  133:
             entity = null;
-            if(!zulu) { _fun114282_ip = 329; continue _fun114282 }
+            if(!zulu) { _fun114288_ip = 329; continue _fun114288 }
  141:
             report = _closure1_slot4;
-            if(mike) { _fun114282_ip = 228; continue _fun114282 }
+            if(mike) { _fun114288_ip = 228; continue _fun114288 }
  148:
             options = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(oscar)(options, tango);
             mike['children'] = tango;
             mike = report.bind(oscar)(zulu, mike);
-            _fun114282_ip = 326; continue _fun114282;
+            _fun114288_ip = 326; continue _fun114288;
  228:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;

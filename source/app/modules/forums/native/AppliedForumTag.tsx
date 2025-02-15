@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: AppliedForumTag
-        _fun87636: for(var _fun87636_ip = 0; ; ) switch(_fun87636_ip) {
+        _fun87653: for(var _fun87653_ip = 0; ; ) switch(_fun87653_ip) {
  0:
             entity = argFoo;
             oscar = entity.tag;
@@ -36,12 +36,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(1);
             golf[0] = mike;
             mike = function() {
-                _fun87637: for(var _fun87637_ip = 0; ; ) switch(_fun87637_ip) {
+                _fun87654: for(var _fun87654_ip = 0; ; ) switch(_fun87654_ip) {
  0:
                     zulu = _closure2_slot3;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun87637_ip = 38; continue _fun87637 }
+                    if(!zulu) { _fun87654_ip = 38; continue _fun87654 }
  16:
                     tango = _closure1_slot4;
                     zulu = tango.getUsableCustomEmojiById;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options.bind(verify)(golf, mike);
             var _closure2_slot5 = mike;
             mike = 'text-muted';
-            if(!zulu) { _fun87636_ip = 145; continue _fun87636 }
+            if(!zulu) { _fun87653_ip = 145; continue _fun87653 }
  139:
             mike = 'header-secondary';
  145:
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.id;
             entity['tagId'] = oscar;
             report = function(argFoo) { // Original name: children
-                _fun87638: for(var _fun87638_ip = 0; ; ) switch(_fun87638_ip) {
+                _fun87655: for(var _fun87655_ip = 0; ; ) switch(_fun87655_ip) {
  0:
                     tango = _closure1_slot7;
                     zulu = _closure1_slot3;
@@ -106,12 +106,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot4;
                     romeo = null;
                     golf = romeo != oscar;
-                    if(golf) { _fun87638_ip = 156; continue _fun87638 }
+                    if(golf) { _fun87655_ip = 156; continue _fun87655 }
  148:
                     oscar = _closure2_slot3;
                     golf = romeo != oscar;
  156:
-                    if(!golf) { _fun87638_ip = 326; continue _fun87638 }
+                    if(!golf) { _fun87655_ip = 326; continue _fun87655 }
  162:
                     offset = _closure1_slot6;
                     options = _closure1_slot1;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee = _closure2_slot5;
                     foxtrot = romeo != yankee;
                     yankee = undefined;
-                    if(!foxtrot) { _fun87638_ip = 292; continue _fun87638 }
+                    if(!foxtrot) { _fun87655_ip = 292; continue _fun87655 }
  227:
                     backup = _closure1_slot1;
                     kilo = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee = _closure2_slot4;
                     romeo = romeo != yankee;
                     yankee = '';
-                    if(!romeo) { _fun87638_ip = 316; continue _fun87638 }
+                    if(!romeo) { _fun87655_ip = 316; continue _fun87655 }
  312:
                     yankee = _closure2_slot4;
  316:

@@ -8,24 +8,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = report;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: convertThemeToProto
-        _fun78205: for(var _fun78205_ip = 0; ; ) switch(_fun78205_ip) {
+        _fun78215: for(var _fun78215_ip = 0; ; ) switch(_fun78215_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot6;
             mike = mike.DARK;
-            if(!(mike !== zulu)) { _fun78205_ip = 212; continue _fun78205 }
+            if(!(mike !== zulu)) { _fun78215_ip = 212; continue _fun78215 }
  23:
             mike = _closure1_slot6;
             mike = mike.LIGHT;
-            if(!(mike !== zulu)) { _fun78205_ip = 176; continue _fun78205 }
+            if(!(mike !== zulu)) { _fun78215_ip = 176; continue _fun78215 }
  40:
             mike = _closure1_slot6;
             mike = mike.DARKER;
-            if(!(mike !== zulu)) { _fun78205_ip = 140; continue _fun78205 }
+            if(!(mike !== zulu)) { _fun78215_ip = 140; continue _fun78215 }
  54:
             mike = _closure1_slot6;
             mike = mike.MIDNIGHT;
-            if(!(mike !== zulu)) { _fun78205_ip = 104; continue _fun78205 }
+            if(!(mike !== zulu)) { _fun78215_ip = 104; continue _fun78215 }
  68:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['updatedUnsyncedSettings'] = report;
     report = function(argFoo) { // Original name: setShouldSyncTextSettings
-        _fun78208: for(var _fun78208_ip = 0; ; ) switch(_fun78208_ip) {
+        _fun78218: for(var _fun78218_ip = 0; ; ) switch(_fun78218_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot1;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = {};
             oscar = {};
             oscar['shouldSync'] = golf;
-            if(golf) { _fun78208_ip = 283; continue _fun78208 }
+            if(golf) { _fun78218_ip = 283; continue _fun78218 }
  58:
             golf = {};
             verify = _closure1_slot0;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.getSetting;
             options = options.bind(verify)();
             golf['gifAutoPlay'] = options;
-            _fun78208_ip = 285; continue _fun78208;
+            _fun78218_ip = 285; continue _fun78218;
  283:
             golf = {};
  285:
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['setShouldSyncTextSettings'] = report;
     report = function(argFoo) { // Original name: setShouldSyncAppearanceSettings
-        _fun78209: for(var _fun78209_ip = 0; ; ) switch(_fun78209_ip) {
+        _fun78219: for(var _fun78219_ip = 0; ; ) switch(_fun78219_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot1;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = {};
             oscar = {};
             oscar['shouldSync'] = golf;
-            if(golf) { _fun78209_ip = 153; continue _fun78209 }
+            if(golf) { _fun78219_ip = 153; continue _fun78219 }
  55:
             golf = {};
             verify = _closure1_slot5;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun78209_ip = 100; continue _fun78209 }
+            if(romeo) { _fun78219_ip = 100; continue _fun78219 }
  95:
             offset = yankee.id;
  100:
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.getSetting;
             options = options.bind(verify)();
             golf['developerMode'] = options;
-            _fun78209_ip = 155; continue _fun78209;
+            _fun78219_ip = 155; continue _fun78219;
  153:
             golf = {};
  155:
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['updateLocale'] = report;
     report = function(argFoo) { // Original name: updateTheme
-        _fun78214: for(var _fun78214_ip = 0; ; ) switch(_fun78214_ip) {
+        _fun78224: for(var _fun78224_ip = 0; ; ) switch(_fun78224_ip) {
  0:
             offset = argFoo;
             var _closure2_slot0 = offset;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.shouldSync;
             oscar = 'appearance';
             tango = tango.bind(report)(oscar);
-            if(!tango) { _fun78214_ip = 169; continue _fun78214 }
+            if(!tango) { _fun78224_ip = 169; continue _fun78224 }
  102:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure2_slot0;
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun78218: for(var _fun78218_ip = 0; ; ) switch(_fun78218_ip) {
+                _fun78228: for(var _fun78228_ip = 0; ; ) switch(_fun78228_ip) {
  0:
                     report = argFoo;
                     zulu = _closure1_slot0;
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = zulu.bind(tango)(entity);
                     zulu = report.folderId;
                     tango = null;
-                    if(!(tango != zulu)) { _fun78218_ip = 136; continue _fun78218 }
+                    if(!(tango != zulu)) { _fun78228_ip = 136; continue _fun78228 }
  69:
                     oscar = _closure1_slot0;
                     options = _closure1_slot2;
@@ -468,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity['id'] = zulu;
  136:
                     zulu = report.folderColor;
-                    if(!(tango != zulu)) { _fun78218_ip = 213; continue _fun78218 }
+                    if(!(tango != zulu)) { _fun78228_ip = 213; continue _fun78228 }
  146:
                     oscar = _closure1_slot0;
                     options = _closure1_slot2;
@@ -488,13 +488,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  213:
                     zulu = report.folderName;
                     zulu = tango != zulu;
-                    if(!zulu) { _fun78218_ip = 240; continue _fun78218 }
+                    if(!zulu) { _fun78228_ip = 240; continue _fun78228 }
  226:
                     oscar = report.folderName;
                     tango = '';
                     zulu = tango !== oscar;
  240:
-                    if(!zulu) { _fun78218_ip = 310; continue _fun78218 }
+                    if(!zulu) { _fun78228_ip = 310; continue _fun78228 }
  243:
                     zulu = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['saveGuildFolders'] = tango;
     mike = function(argFoo) { // Original name: saveClientTheme
-        _fun78219: for(var _fun78219_ip = 0; ; ) switch(_fun78219_ip) {
+        _fun78229: for(var _fun78229_ip = 0; ; ) switch(_fun78229_ip) {
  0:
             mike = argFoo;
             report = arguments[1];
@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot1 = romeo;
             zulu = mike.useSystemTheme;
             oscar = undefined;
-            if(!(report === oscar)) { _fun78219_ip = 75; continue _fun78219 }
+            if(!(report === oscar)) { _fun78229_ip = 75; continue _fun78229 }
  40:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
@@ -549,15 +549,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'system';
             foxtrot = mike === romeo;
             tango = _closure1_slot7;
-            if(foxtrot) { _fun78219_ip = 101; continue _fun78219 }
+            if(foxtrot) { _fun78229_ip = 101; continue _fun78229 }
  93:
             kilo = tango.OFF;
-            _fun78219_ip = 107; continue _fun78219;
+            _fun78229_ip = 107; continue _fun78229;
  101:
             kilo = tango.ON;
  107:
             tango = null;
-            if(!(tango != zulu)) { _fun78219_ip = 116; continue _fun78219 }
+            if(!(tango != zulu)) { _fun78229_ip = 116; continue _fun78229 }
  113:
             kilo = zulu;
  116:
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee['backgroundGradientPresetId'] = backup;
             offset['clientThemeSettings'] = yankee;
             yankee = undefined;
-            if(foxtrot) { _fun78219_ip = 218; continue _fun78219 }
+            if(foxtrot) { _fun78229_ip = 218; continue _fun78229 }
  215:
             yankee = romeo;
  218:
@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.shouldSync;
             tango = 'appearance';
             zulu = zulu.bind(golf)(tango);
-            if(zulu) { _fun78219_ip = 267; continue _fun78219 }
+            if(zulu) { _fun78229_ip = 267; continue _fun78229 }
  265:
             return oscar;
  267:
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.PreloadedUserSettingsActionCreators;
             mike = zulu.updateAsync;
             entity = function(argFoo) {
-                _fun78220: for(var _fun78220_ip = 0; ; ) switch(_fun78220_ip) {
+                _fun78230: for(var _fun78230_ip = 0; ; ) switch(_fun78230_ip) {
  0:
                     zulu = argFoo;
                     oscar = _closure1_slot8;
@@ -628,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = null;
                     oscar = tango != oscar;
                     tango = undefined;
-                    if(!oscar) { _fun78220_ip = 108; continue _fun78220 }
+                    if(!oscar) { _fun78230_ip = 108; continue _fun78230 }
  60:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot2;

@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/stage_channels/shouldShowEndStageModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: shouldShowEndStageModal
-        _fun102973: for(var _fun102973_ip = 0; ; ) switch(_fun102973_ip) {
+        _fun102965: for(var _fun102965_ip = 0; ; ) switch(_fun102965_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
             entity = golf.isGuildStageVoice;
             entity = entity.bind(golf)();
-            if(entity) { _fun102973_ip = 26; continue _fun102973 }
+            if(entity) { _fun102965_ip = 26; continue _fun102965 }
  22:
             entity = false;
             return entity;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.isLive;
             entity = golf.id;
             entity = mike.bind(zulu)(entity);
-            if(entity) { _fun102973_ip = 56; continue _fun102973 }
+            if(entity) { _fun102965_ip = 56; continue _fun102965 }
  52:
             entity = false;
             return entity;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.bind(zulu)(options, entity);
             mike = !entity;
             entity = !mike;
-            if(mike) { _fun102973_ip = 268; continue _fun102973 }
+            if(mike) { _fun102965_ip = 268; continue _fun102965 }
  107:
             report = _closure1_slot4;
             zulu = report.isSpeaker;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(report)(options, mike);
             zulu = !mike;
             mike = !zulu;
-            if(zulu) { _fun102973_ip = 265; continue _fun102973 }
+            if(zulu) { _fun102965_ip = 265; continue _fun102965 }
  140:
             options = _closure1_slot3;
             report = options.getMutableParticipants;
@@ -84,14 +84,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = report.bind(options)(zulu);
             report = options.find;
             zulu = function(argFoo) {
-                _fun102974: for(var _fun102974_ip = 0; ; ) switch(_fun102974_ip) {
+                _fun102966: for(var _fun102966_ip = 0; ; ) switch(_fun102966_ip) {
  0:
                     zulu = argFoo;
                     entity = zulu.user;
                     tango = entity.id;
                     entity = _closure2_slot1;
                     entity = tango !== entity;
-                    if(!entity) { _fun102974_ip = 65; continue _fun102974 }
+                    if(!entity) { _fun102966_ip = 65; continue _fun102966 }
  27:
                     report = _closure1_slot4;
                     tango = report.isModerator;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(options)(zulu);
             report = null;
             zulu = report == zulu;
-            if(zulu) { _fun102973_ip = 262; continue _fun102973 }
+            if(zulu) { _fun102965_ip = 262; continue _fun102965 }
  186:
             verify = _closure1_slot3;
             options = verify.getMutableParticipants;
@@ -123,14 +123,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.bind(verify)(golf, oscar);
             oscar = golf.find;
             tango = function(argFoo) {
-                _fun102975: for(var _fun102975_ip = 0; ; ) switch(_fun102975_ip) {
+                _fun102967: for(var _fun102967_ip = 0; ; ) switch(_fun102967_ip) {
  0:
                     zulu = argFoo;
                     entity = zulu.user;
                     tango = entity.id;
                     entity = _closure2_slot1;
                     entity = tango !== entity;
-                    if(!entity) { _fun102975_ip = 65; continue _fun102975 }
+                    if(!entity) { _fun102967_ip = 65; continue _fun102967 }
  27:
                     report = _closure1_slot4;
                     tango = report.isModerator;

@@ -30,7 +30,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/premium/gifting/hooks/useGiftStyles.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun87768: for(var _fun87768_ip = 0; ; ) switch(_fun87768_ip) {
+        _fun87785: for(var _fun87785_ip = 0; ; ) switch(_fun87785_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -54,11 +54,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = zulu.useIsInSeasonalGiftingXPAndSeasonalGiftingActive;
             zulu = entity.bind(zulu)();
             entity = _closure1_slot2;
-            if(!tango) { _fun87768_ip = 100; continue _fun87768 }
+            if(!tango) { _fun87785_ip = 100; continue _fun87785 }
  96:
             entity = _closure1_slot3;
  100:
-            if(!zulu) { _fun87768_ip = 107; continue _fun87768 }
+            if(!zulu) { _fun87785_ip = 107; continue _fun87785 }
  103:
             entity = _closure1_slot4;
  107:

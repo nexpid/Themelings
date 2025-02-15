@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/auth/experiment/trackAgeGateSubmitted.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: trackAgeGateSubmitted
-        _fun111683: for(var _fun111683_ip = 0; ; ) switch(_fun111683_ip) {
+        _fun111689: for(var _fun111689_ip = 0; ; ) switch(_fun111689_ip) {
  0:
             golf = argFoo;
             verify = _closure1_slot0;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = 18;
             verify = verify < oscar;
             oscar = null;
-            if(!verify) { _fun111683_ip = 105; continue _fun111683 }
+            if(!verify) { _fun111689_ip = 105; continue _fun111689 }
  89:
             offset = golf.format;
             verify = 'YYYY-MM-DD';

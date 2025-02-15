@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/useIsPrivateChannelWithEnabledActivities.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useIsPrivateChannelWithEnabledActivities
-        _fun73529: for(var _fun73529_ip = 0; ; ) switch(_fun73529_ip) {
+        _fun73539: for(var _fun73539_ip = 0; ; ) switch(_fun73539_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -50,13 +50,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu, entity);
             entity = null;
             zulu = entity == tango;
-            if(zulu) { _fun73529_ip = 83; continue _fun73529 }
+            if(zulu) { _fun73539_ip = 83; continue _fun73539 }
  73:
             zulu = tango.isPrivate;
             mike = zulu.bind(tango)();
  83:
             entity = entity != mike;
-            if(!entity) { _fun73529_ip = 93; continue _fun73529 }
+            if(!entity) { _fun73539_ip = 93; continue _fun73539 }
  90:
             entity = mike;
  93:
@@ -65,24 +65,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: isPrivateChannelWithEnabledActivities
-        _fun73531: for(var _fun73531_ip = 0; ; ) switch(_fun73531_ip) {
+        _fun73541: for(var _fun73541_ip = 0; ; ) switch(_fun73541_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun73531_ip = 57; continue _fun73531 }
+            if(!(entity != tango)) { _fun73541_ip = 57; continue _fun73541 }
  9:
             zulu = _closure1_slot2;
             mike = zulu.getChannel;
             tango = mike.bind(zulu)(tango);
             zulu = entity == tango;
             mike = undefined;
-            if(zulu) { _fun73531_ip = 45; continue _fun73531 }
+            if(zulu) { _fun73541_ip = 45; continue _fun73541 }
  35:
             zulu = tango.isPrivate;
             mike = zulu.bind(tango)();
  45:
             entity = entity != mike;
-            if(!entity) { _fun73531_ip = 55; continue _fun73531 }
+            if(!entity) { _fun73541_ip = 55; continue _fun73541 }
  52:
             entity = mike;
  55:

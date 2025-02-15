@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/dismissible_content/useSelectedDismissibleContentShared.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useSelectedDismissibleContentShared
-        _fun77551: for(var _fun77551_ip = 0; ; ) switch(_fun77551_ip) {
+        _fun77561: for(var _fun77561_ip = 0; ; ) switch(_fun77561_ip) {
  0:
             oscar = argFoo;
             golf = argBar;
@@ -44,18 +44,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = oscar;
             var _closure2_slot1 = golf;
             entity = undefined;
-            if(!(zulu === entity)) { _fun77551_ip = 27; continue _fun77551 }
+            if(!(zulu === entity)) { _fun77561_ip = 27; continue _fun77561 }
  25:
             zulu = false;
  27:
             var _closure2_slot2 = entity;
             options = !zulu;
-            if(!options) { _fun77551_ip = 43; continue _fun77551 }
+            if(!options) { _fun77561_ip = 43; continue _fun77561 }
  37:
             zulu = null;
             options = zulu != oscar;
  43:
-            if(!options) { _fun77551_ip = 88; continue _fun77551 }
+            if(!options) { _fun77561_ip = 88; continue _fun77561 }
  46:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -76,17 +76,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[2] = oscar;
             mike = function() {
                 entity = function() {
-                    _fun77553: for(var _fun77553_ip = 0; ; ) switch(_fun77553_ip) {
+                    _fun77563: for(var _fun77563_ip = 0; ; ) switch(_fun77563_ip) {
  0:
                         mike = _closure2_slot2;
-                        if(!mike) { _fun77553_ip = 31; continue _fun77553 }
+                        if(!mike) { _fun77563_ip = 31; continue _fun77563 }
  10:
                         zulu = _closure1_slot3;
                         tango = zulu.lastDCDismissed;
                         zulu = _closure2_slot0;
                         mike = tango !== zulu;
  31:
-                        if(!mike) { _fun77553_ip = 61; continue _fun77553 }
+                        if(!mike) { _fun77563_ip = 61; continue _fun77563 }
  34:
                         tango = _closure2_slot1;
                         entity = _closure1_slot4;

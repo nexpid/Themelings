@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/guild_settings/urlPartToSettingsEnum.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: urlPartToSettingsEnum
-        _fun90479: for(var _fun90479_ip = 0; ; ) switch(_fun90479_ip) {
+        _fun90496: for(var _fun90496_ip = 0; ; ) switch(_fun90496_ip) {
  0:
             mike = argFoo;
             options = argBar;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = tango == options;
             zulu = undefined;
             entity = undefined;
-            if(report) { _fun90479_ip = 67; continue _fun90479 }
+            if(report) { _fun90496_ip = 67; continue _fun90496 }
  19:
             golf = options.replace;
             oscar = /-/g;
@@ -35,15 +35,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = golf.bind(options)(oscar, report);
             report = tango == oscar;
             entity = undefined;
-            if(report) { _fun90479_ip = 67; continue _fun90479 }
+            if(report) { _fun90496_ip = 67; continue _fun90496 }
  57:
             report = oscar.toUpperCase;
             entity = report.bind(oscar)();
  67:
-            if(!(tango != entity)) { _fun90479_ip = 78; continue _fun90479 }
+            if(!(tango != entity)) { _fun90496_ip = 78; continue _fun90496 }
  71:
             tango = entity in mike;
-            if(tango) { _fun90479_ip = 80; continue _fun90479 }
+            if(tango) { _fun90496_ip = 80; continue _fun90496 }
  78:
             return zulu;
  80:

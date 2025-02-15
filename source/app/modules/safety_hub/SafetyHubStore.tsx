@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun92442: for(var _fun92442_ip = 0; ; ) switch(_fun92442_ip) {
+        _fun92471: for(var _fun92471_ip = 0; ; ) switch(_fun92471_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot33;
             entity = entity.bind(zulu)();
-            if(entity) { _fun92442_ip = 51; continue _fun92442 }
+            if(entity) { _fun92471_ip = 51; continue _fun92471 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun92442_ip = 92; continue _fun92442;
+            _fun92471_ip = 92; continue _fun92471;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun92442_ip = 71; continue _fun92442 }
+            if(oscar) { _fun92471_ip = 71; continue _fun92471 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot32 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun92443: for(var _fun92443_ip = 0; ; ) switch(_fun92443_ip) {
+        _fun92472: for(var _fun92472_ip = 0; ; ) switch(_fun92472_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun92443_ip = 76; continue _fun92443;
+            _fun92472_ip = 76; continue _fun92472;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -82,11 +82,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot33 = entity;
     verify = function(argFoo) { // Original name: handleSafetyHubRequestAgeVerificationResetModalAction
-        _fun92446: for(var _fun92446_ip = 0; ; ) switch(_fun92446_ip) {
+        _fun92475: for(var _fun92475_ip = 0; ; ) switch(_fun92475_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun92446_ip = 34; continue _fun92446 }
+            if(!(mike != entity)) { _fun92475_ip = 34; continue _fun92475 }
  9:
             tango = '';
             _closure1_slot26 = tango;
@@ -576,11 +576,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SAFETY_HUB_APPEAL_SIGNAL_CUSTOM_INPUT_CHANGE'] = offset;
     offset = function(argFoo) { // Original name: handleSafetyHubRequestReviewStart
-        _fun92481: for(var _fun92481_ip = 0; ; ) switch(_fun92481_ip) {
+        _fun92510: for(var _fun92510_ip = 0; ; ) switch(_fun92510_ip) {
  0:
             mike = argFoo;
             zulu = null;
-            if(!(mike != zulu)) { _fun92481_ip = 26; continue _fun92481 }
+            if(!(mike != zulu)) { _fun92510_ip = 26; continue _fun92510 }
  9:
             tango = true;
             _closure1_slot21 = tango;
@@ -630,11 +630,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SAFETY_HUB_REQUEST_REVIEW_FAILURE'] = offset;
     offset = function(argFoo) { // Original name: handleSafetyHubRequestAgeVerificationStart
-        _fun92484: for(var _fun92484_ip = 0; ; ) switch(_fun92484_ip) {
+        _fun92513: for(var _fun92513_ip = 0; ; ) switch(_fun92513_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun92484_ip = 34; continue _fun92484 }
+            if(!(mike != entity)) { _fun92513_ip = 34; continue _fun92513 }
  9:
             tango = '';
             _closure1_slot26 = tango;
@@ -679,11 +679,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_OPEN'] = verify;
     mike['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_CLOSE'] = verify;
     verify = function(argFoo) { // Original name: handleSafetyHubAutomatedUnderageAppealSubmitSuccessAction
-        _fun92487: for(var _fun92487_ip = 0; ; ) switch(_fun92487_ip) {
+        _fun92516: for(var _fun92516_ip = 0; ; ) switch(_fun92516_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun92487_ip = 125; continue _fun92487 }
+            if(!(mike != entity)) { _fun92516_ip = 125; continue _fun92516 }
  9:
             entity = _closure1_slot8;
             entity = entity.LOADING;
@@ -699,7 +699,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 offset = _closure1_slot11;
                 offset = offset[yankee];
                 offset = offset.is_coppa;
-                if(!offset) { _fun92487_ip = 43; continue _fun92487 }
+                if(!offset) { _fun92516_ip = 43; continue _fun92516 }
  72:
                 offset = _closure1_slot11;
                 yankee = offset[yankee];
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = romeo.REVIEW_PENDING;
                 offset['status'] = romeo;
                 yankee['appeal_status'] = offset;
-                _fun92487_ip = 43; continue _fun92487;
+                _fun92516_ip = 43; continue _fun92516;
             }
  123:
             return entity;
@@ -726,11 +726,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_SUBMIT_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleSafetyHubAgeVerificationStartPoll
-        _fun92488: for(var _fun92488_ip = 0; ; ) switch(_fun92488_ip) {
+        _fun92517: for(var _fun92517_ip = 0; ; ) switch(_fun92517_ip) {
  0:
             mike = argFoo;
             zulu = null;
-            if(!(mike != zulu)) { _fun92488_ip = 34; continue _fun92488 }
+            if(!(mike != zulu)) { _fun92517_ip = 34; continue _fun92517 }
  9:
             tango = _closure1_slot8;
             tango = tango.LOADING;
@@ -748,11 +748,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_START_POLL'] = verify;
     verify = function(argFoo) { // Original name: handleSafetyHubCheckAgeVerificationStart
-        _fun92489: for(var _fun92489_ip = 0; ; ) switch(_fun92489_ip) {
+        _fun92518: for(var _fun92518_ip = 0; ; ) switch(_fun92518_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun92489_ip = 49; continue _fun92489 }
+            if(!(mike != entity)) { _fun92518_ip = 49; continue _fun92518 }
  9:
             tango = _closure1_slot8;
             tango = tango.LOADING;
@@ -774,24 +774,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_START'] = verify;
     verify = function(argFoo) { // Original name: handleSafetyHubCheckAgeVerificationCheckSuccess
-        _fun92490: for(var _fun92490_ip = 0; ; ) switch(_fun92490_ip) {
+        _fun92519: for(var _fun92519_ip = 0; ; ) switch(_fun92519_ip) {
  0:
             entity = argFoo;
             entity = entity.success;
-            if(entity) { _fun92490_ip = 51; continue _fun92490 }
+            if(entity) { _fun92519_ip = 51; continue _fun92519 }
  15:
             zulu = _closure1_slot27;
             entity = _closure1_slot10;
-            if(!(!(zulu < entity))) { _fun92490_ip = 39; continue _fun92490 }
+            if(!(!(zulu < entity))) { _fun92519_ip = 39; continue _fun92519 }
  27:
             entity = _closure1_slot8;
             entity = entity.FAILURE;
-            _fun92490_ip = 49; continue _fun92490;
+            _fun92519_ip = 49; continue _fun92519;
  39:
             zulu = _closure1_slot8;
             entity = zulu.LOADING;
  49:
-            _fun92490_ip = 61; continue _fun92490;
+            _fun92519_ip = 61; continue _fun92519;
  51:
             zulu = _closure1_slot8;
             entity = zulu.SUCCESS;

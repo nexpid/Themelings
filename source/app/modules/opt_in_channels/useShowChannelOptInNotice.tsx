@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/opt_in_channels/useShowChannelOptInNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShowChannelOptInNotice
-        _fun89582: for(var _fun89582_ip = 0; ; ) switch(_fun89582_ip) {
+        _fun89599: for(var _fun89599_ip = 0; ; ) switch(_fun89599_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
@@ -50,15 +50,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             verify = oscar == zulu;
             entity = undefined;
-            if(verify) { _fun89582_ip = 61; continue _fun89582 }
+            if(verify) { _fun89599_ip = 61; continue _fun89599 }
  51:
             verify = zulu.getGuildId;
             entity = verify.bind(zulu)();
  61:
-            if(!(oscar == entity)) { _fun89582_ip = 71; continue _fun89582 }
+            if(!(oscar == entity)) { _fun89599_ip = 71; continue _fun89599 }
  65:
             entity = _closure1_slot3;
-            _fun89582_ip = 76; continue _fun89582;
+            _fun89599_ip = 76; continue _fun89599;
  71:
             entity = zulu.guild_id;
  76:
@@ -73,12 +73,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = new Array(1);
             golf[0] = romeo;
             mike = function() {
-                _fun89583: for(var _fun89583_ip = 0; ; ) switch(_fun89583_ip) {
+                _fun89600: for(var _fun89600_ip = 0; ; ) switch(_fun89600_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun89583_ip = 38; continue _fun89583 }
+                    if(!entity) { _fun89600_ip = 38; continue _fun89600 }
  16:
                     tango = _closure1_slot2;
                     zulu = tango.isChannelRecordOrParentOptedIn;
@@ -95,33 +95,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.useCanSeeOnboardingHome;
             verify = oscar == zulu;
             tango = undefined;
-            if(verify) { _fun89582_ip = 163; continue _fun89582 }
+            if(verify) { _fun89599_ip = 163; continue _fun89599 }
  158:
             tango = zulu.guild_id;
  163:
-            if(!(oscar == tango)) { _fun89582_ip = 171; continue _fun89582 }
+            if(!(oscar == tango)) { _fun89599_ip = 171; continue _fun89599 }
  167:
             tango = _closure1_slot3;
  171:
             tango = golf.bind(options)(tango);
-            if(!(oscar != zulu)) { _fun89582_ip = 234; continue _fun89582 }
+            if(!(oscar != zulu)) { _fun89599_ip = 234; continue _fun89599 }
  180:
-            if(!tango) { _fun89582_ip = 204; continue _fun89582 }
+            if(!tango) { _fun89599_ip = 204; continue _fun89599 }
  183:
             oscar = zulu.hasFlag;
             report = _closure1_slot4;
             report = report.IS_GUILD_RESOURCE_CHANNEL;
             tango = oscar.bind(zulu)(report);
  204:
-            if(!entity) { _fun89582_ip = 210; continue _fun89582 }
+            if(!entity) { _fun89599_ip = 210; continue _fun89599 }
  207:
             entity = !tango;
  210:
-            if(!entity) { _fun89582_ip = 216; continue _fun89582 }
+            if(!entity) { _fun89599_ip = 216; continue _fun89599 }
  213:
             entity = !mike;
  216:
-            if(!entity) { _fun89582_ip = 232; continue _fun89582 }
+            if(!entity) { _fun89599_ip = 232; continue _fun89599 }
  219:
             mike = zulu.isThread;
             mike = mike.bind(zulu)();

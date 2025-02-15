@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['clearMessageCombo'] = tango;
     mike = function(argFoo, argBar) { // Original name: updateComboOnMessageSend
-        _fun104764: for(var _fun104764_ip = 0; ; ) switch(_fun104764_ip) {
+        _fun104756: for(var _fun104756_ip = 0; ; ) switch(_fun104756_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot2;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.getUserCombo;
             verify = mike.bind(zulu)(oscar, golf);
             options = null;
-            if(!(options != verify)) { _fun104764_ip = 118; continue _fun104764 }
+            if(!(options != verify)) { _fun104756_ip = 118; continue _fun104756 }
  42:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -140,28 +140,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = options != verify;
             zulu = 1;
             report = zulu;
-            if(!mike) { _fun104764_ip = 188; continue _fun104764 }
+            if(!mike) { _fun104756_ip = 188; continue _fun104756 }
  131:
             mike = options == verify;
             offset = undefined;
-            if(mike) { _fun104764_ip = 145; continue _fun104764 }
+            if(mike) { _fun104756_ip = 145; continue _fun104756 }
  140:
             offset = verify.value;
  145:
             mike = 0;
             offset = offset > mike;
             report = zulu;
-            if(!offset) { _fun104764_ip = 188; continue _fun104764 }
+            if(!offset) { _fun104756_ip = 188; continue _fun104756 }
  157:
             offset = options == verify;
             tango = undefined;
-            if(offset) { _fun104764_ip = 172; continue _fun104764 }
+            if(offset) { _fun104756_ip = 172; continue _fun104756 }
  166:
             tango = verify.multiplier;
  172:
             options = options != tango;
             mike = 0;
-            if(!options) { _fun104764_ip = 184; continue _fun104764 }
+            if(!options) { _fun104756_ip = 184; continue _fun104756 }
  181:
             mike = tango;
  184:

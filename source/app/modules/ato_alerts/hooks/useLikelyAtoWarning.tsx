@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/ato_alerts/hooks/useLikelyAtoWarning.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useLikelyAtoWarning
-        _fun89551: for(var _fun89551_ip = 0; ; ) switch(_fun89551_ip) {
+        _fun89568: for(var _fun89568_ip = 0; ; ) switch(_fun89568_ip) {
  0:
             options = argFoo;
             golf = _closure1_slot0;
@@ -64,13 +64,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = zulu.bind(golf)(options);
             zulu = null;
             zulu = zulu != golf;
-            if(oscar) { _fun89551_ip = 173; continue _fun89551 }
+            if(oscar) { _fun89568_ip = 173; continue _fun89568 }
  162:
-            if(report) { _fun89551_ip = 173; continue _fun89551 }
+            if(report) { _fun89568_ip = 173; continue _fun89568 }
  165:
-            if(tango) { _fun89551_ip = 173; continue _fun89551 }
+            if(tango) { _fun89568_ip = 173; continue _fun89568 }
  168:
-            if(zulu) { _fun89551_ip = 173; continue _fun89551 }
+            if(zulu) { _fun89568_ip = 173; continue _fun89568 }
  171:
             return mike;
  173:

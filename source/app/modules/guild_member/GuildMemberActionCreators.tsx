@@ -32,20 +32,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_member/GuildMemberActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: updateGuildSelfMember
-        _fun61513: for(var _fun61513_ip = 0; ; ) switch(_fun61513_ip) {
+        _fun61516: for(var _fun61516_ip = 0; ; ) switch(_fun61516_ip) {
  0:
             report = argFoo;
             oscar = argBar;
             options = arguments[2];
             entity = undefined;
-            if(!(options === entity)) { _fun61513_ip = 17; continue _fun61513 }
+            if(!(options === entity)) { _fun61516_ip = 17; continue _fun61516 }
  15:
             options = false;
  17:
             tango = _closure1_slot3;
             zulu = tango.isFullServerPreview;
             zulu = zulu.bind(tango)(report);
-            if(zulu) { _fun61513_ip = 186; continue _fun61513 }
+            if(zulu) { _fun61516_ip = 186; continue _fun61516 }
  41:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['body'] = oscar;
             verify = !options;
             options = !verify;
-            if(!verify) { _fun61513_ip = 168; continue _fun61513 }
+            if(!verify) { _fun61516_ip = 168; continue _fun61516 }
  166:
             options = undefined;
  168:

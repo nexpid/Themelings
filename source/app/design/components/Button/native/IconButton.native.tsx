@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo) {
-        _fun77393: for(var _fun77393_ip = 0; ; ) switch(_fun77393_ip) {
+        _fun77403: for(var _fun77403_ip = 0; ; ) switch(_fun77403_ip) {
  0:
             entity = {};
             mike = {};
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['alignSelf'] = zulu;
             report = argFoo;
             tango = 0;
-            if(!report) { _fun77393_ip = 94; continue _fun77393 }
+            if(!report) { _fun77403_ip = 94; continue _fun77403 }
  91:
             tango = 1;
  94:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun77394: for(var _fun77394_ip = 0; ; ) switch(_fun77394_ip) {
+        _fun77404: for(var _fun77404_ip = 0; ; ) switch(_fun77404_ip) {
  0:
             report = argFoo;
             output = argBar;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             report = undefined;
             romeo = mike.bind(report)(zulu);
-            if(!(entity == offset)) { _fun77394_ip = 154; continue _fun77394 }
+            if(!(entity == offset)) { _fun77404_ip = 154; continue _fun77404 }
  79:
             zulu = _closure1_slot3;
             mike = _closure1_slot0;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 'maxFontSizeMultiplier';
             entity[tango] = yankee;
             entity = zulu.bind(report)(mike, entity);
-            _fun77394_ip = 396; continue _fun77394;
+            _fun77404_ip = 396; continue _fun77404;
  154:
             tango = _closure1_slot4;
             options = _closure1_slot0;

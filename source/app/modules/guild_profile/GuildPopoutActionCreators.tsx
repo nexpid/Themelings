@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun90547: for(var _fun90547_ip = 0; ; ) switch(_fun90547_ip) {
+                _fun90564: for(var _fun90564_ip = 0; ; ) switch(_fun90564_ip) {
  0:
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun90547_ip = 254; continue _fun90547 }
+                    if(mike) { _fun90564_ip = 254; continue _fun90564 }
  13:
                     oscar = verify;
                     golf = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  140:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun90547_ip = 203; continue _fun90547 }
+                    if(golf) { _fun90564_ip = 203; continue _fun90564 }
  146:
                     options = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf['guild'] = offset;
                     golf = options.bind(verify)(golf);
  201: // try_end0
-                    _fun90547_ip = 251; continue _fun90547;
+                    _fun90564_ip = 251; continue _fun90564;
  203:
                     return tango;
  206: // catch_target0

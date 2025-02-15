@@ -1,6 +1,6 @@
 // app/utils/ReleaseChannelUtils.native.tsx
 export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
-    _fun36002: for(var _fun36002_ip = 0; ; ) switch(_fun36002_ip) {
+    _fun36009: for(var _fun36009_ip = 0; ; ) switch(_fun36009_ip) {
  0:
         oscar = argBar;
         zulu = argFred;
@@ -26,7 +26,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         report = oscar.bind(entity)(tango);
         tango = report.isAndroid;
         options = tango.bind(report)();
-        if(!options) { _fun36002_ip = 121; continue _fun36002 }
+        if(!options) { _fun36009_ip = 121; continue _fun36009 }
  97:
         report = mike.indexOf;
         tango = 'canary';
@@ -34,7 +34,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         tango = -1;
         options = tango === report;
  121:
-        if(!options) { _fun36002_ip = 148; continue _fun36002 }
+        if(!options) { _fun36009_ip = 148; continue _fun36009 }
  124:
         report = mike.indexOf;
         tango = 'beta';
@@ -49,7 +49,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         tango = verify.bind(mike)(tango);
         offset = -1;
         verify = offset !== tango;
-        if(verify) { _fun36002_ip = 203; continue _fun36002 }
+        if(verify) { _fun36009_ip = 203; continue _fun36009 }
  183:
         yankee = mike.indexOf;
         tango = 'developer';
@@ -57,9 +57,9 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         verify = offset !== tango;
  203:
         tango = !verify;
-        if(verify) { _fun36002_ip = 218; continue _fun36002 }
+        if(verify) { _fun36009_ip = 218; continue _fun36009 }
  209:
-        if(report) { _fun36002_ip = 215; continue _fun36002 }
+        if(report) { _fun36009_ip = 215; continue _fun36009 }
  212:
         report = options;
  215:

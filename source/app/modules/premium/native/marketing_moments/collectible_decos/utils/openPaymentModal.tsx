@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/utils/openPaymentModal.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/utils/openPaymentModal.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = argBar;
     zulu = argFred;
@@ -35,10 +35,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/utils/openPaymentModal.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/utils/openPaymentModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun105112: for(var _fun105112_ip = 0; ; ) switch(_fun105112_ip) {
+        _fun105104: for(var _fun105104_ip = 0; ; ) switch(_fun105104_ip) {
  0:
             entity = argFoo;
             zulu = entity.markAsDismissed;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar.hideActionSheet;
             mike = mike.bind(oscar)();
             mike = null;
-            if(!(mike != zulu)) { _fun105112_ip = 71; continue _fun105112 }
+            if(!(mike != zulu)) { _fun105104_ip = 71; continue _fun105104 }
  56:
             mike = _closure1_slot5;
             mike = mike.PRIMARY;

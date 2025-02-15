@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/shared/MainBannerImage.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/shared/MainBannerImage.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = argBar;
     golf = argBaz;
@@ -29,10 +29,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/shared/MainBannerImage.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/shared/MainBannerImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun104871: for(var _fun104871_ip = 0; ; ) switch(_fun104871_ip) {
+        _fun104863: for(var _fun104863_ip = 0; ; ) switch(_fun104863_ip) {
  0:
             entity = argFoo;
             oscar = entity.imageStyles;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = tango.bind(golf)(zulu, entity);
-            if(entity) { _fun104871_ip = 206; continue _fun104871 }
+            if(entity) { _fun104863_ip = 207; continue _fun104863 }
  72:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = _closure1_slot4;
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            if(entity) { _fun104871_ip = 164; continue _fun104871 }
+            if(entity) { _fun104863_ip = 165; continue _fun104863 }
  116:
             entity = 3;
             entity = offset[entity];
@@ -78,8 +78,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['source'] = tango;
             entity['style'] = oscar;
             entity = golf.bind(report)(zulu, entity);
-            _fun104871_ip = 204; continue _fun104871;
- 164:
+            _fun104863_ip = 205; continue _fun104863;
+ 165:
             zulu = 6;
             zulu = offset[zulu];
             tango = verify.bind(report)(zulu);
@@ -90,9 +90,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['url'] = options;
             zulu['style'] = oscar;
             entity = golf.bind(report)(tango, zulu);
- 204:
-            _fun104871_ip = 264; continue _fun104871;
- 206:
+ 205:
+            _fun104863_ip = 266; continue _fun104863;
+ 207:
             tango = _closure1_slot4;
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['source'] = golf;
             mike['style'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 264:
+ 266:
             return entity;
         }
     };

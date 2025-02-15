@@ -1,6 +1,6 @@
 // app/components_native/common/ImageWithPlaceholder.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun113573: for(var _fun113573_ip = 0; ; ) switch(_fun113573_ip) {
+    _fun113579: for(var _fun113579_ip = 0; ; ) switch(_fun113579_ip) {
  0:
         oscar = argBar;
         verify = argBaz;
@@ -41,11 +41,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         offset = oscar.bind(entity)(report);
         report = offset.isAndroid;
         report = report.bind(offset)();
-        if(report) { _fun113573_ip = 170; continue _fun113573 }
+        if(report) { _fun113579_ip = 170; continue _fun113579 }
  157:
         report = 'DCDImageWithThumbhashPlaceholderView';
         report = options.bind(entity)(report);
-        _fun113573_ip = 182; continue _fun113573;
+        _fun113579_ip = 182; continue _fun113579;
  170:
         options = 3;
         options = golf[options];
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = oscar.bind(golf)(report);
         zulu['ImagePlaceholderVersions'] = tango;
         mike = function(argFoo) { // Original name: ImageWithPlaceholder
-            _fun113574: for(var _fun113574_ip = 0; ; ) switch(_fun113574_ip) {
+            _fun113580: for(var _fun113580_ip = 0; ; ) switch(_fun113580_ip) {
  0:
                 tango = argFoo;
                 verify = tango.uri;
@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 output = tango;
                 sizing = zulu;
                 mike = copyDataProperties(result, output, sizing);
-                if(!(entity != options)) { _fun113574_ip = 85; continue _fun113574 }
- 68:
+                if(!(entity != options)) { _fun113580_ip = 86; continue _fun113580 }
+ 69:
                 entity = _closure1_slot5;
                 entity = entity.THUMBHASH;
-                if(!(golf !== entity)) { _fun113574_ip = 191; continue _fun113574 }
- 85:
+                if(!(golf !== entity)) { _fun113580_ip = 193; continue _fun113580 }
+ 86:
                 yankee = _closure1_slot3;
                 report = _closure1_slot2;
                 tango = {};
@@ -109,8 +109,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = 'children';
                 tango[romeo] = foxtrot;
                 entity = yankee.bind(entity)(report, tango);
-                _fun113574_ip = 264; continue _fun113574;
- 191:
+                _fun113580_ip = 266; continue _fun113580;
+ 193:
                 report = _closure1_slot3;
                 tango = _closure1_slot6;
                 zulu = {};
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu[mike] = oscar;
                 mike = undefined;
                 entity = report.bind(mike)(tango, zulu);
- 264:
+ 266:
                 return entity;
             }
         };

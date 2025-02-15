@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/tag_list_input/TagListInputTag.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TagListInputTagComponent
-        _fun76737: for(var _fun76737_ip = 0; ; ) switch(_fun76737_ip) {
+        _fun76747: for(var _fun76747_ip = 0; ; ) switch(_fun76747_ip) {
  0:
             entity = argFoo;
             verify = entity.tag;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = backup;
             backup = undefined;
-            if(!yankee) { _fun76737_ip = 195; continue _fun76737 }
+            if(!yankee) { _fun76747_ip = 195; continue _fun76747 }
  189:
             backup = romeo.highlightedTagWrapper;
  195:
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify.icon;
             golf = null;
             report = golf != report;
-            if(!report) { _fun76737_ip = 285; continue _fun76737 }
+            if(!report) { _fun76747_ip = 285; continue _fun76747 }
  250:
             offset = _closure1_slot4;
             options = _closure1_slot3;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.Text;
             oscar = {'lineClamp': 1, 'variant': 'text-sm/semibold'};
             offset = 'interactive-active';
-            if(!yankee) { _fun76737_ip = 351; continue _fun76737 }
+            if(!yankee) { _fun76747_ip = 351; continue _fun76747 }
  345:
             offset = 'always-white';
  351:

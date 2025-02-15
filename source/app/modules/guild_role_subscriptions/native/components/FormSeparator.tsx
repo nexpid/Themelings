@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/FormSeparator.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSeparator
-        _fun96708: for(var _fun96708_ip = 0; ; ) switch(_fun96708_ip) {
+        _fun96718: for(var _fun96718_ip = 0; ; ) switch(_fun96718_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = verify;
             verify = undefined;
-            if(offset) { _fun96708_ip = 61; continue _fun96708 }
+            if(offset) { _fun96718_ip = 61; continue _fun96718 }
  55:
             verify = options.margins;
  61:

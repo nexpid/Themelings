@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileCustomStatusActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileCustomStatusActionSheet
-        _fun79907: for(var _fun79907_ip = 0; ; ) switch(_fun79907_ip) {
+        _fun79920: for(var _fun79920_ip = 0; ; ) switch(_fun79920_ip) {
  0:
             mike = argFoo;
             output = mike.user;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = output;
             entity = function() {
-                _fun79908: for(var _fun79908_ip = 0; ; ) switch(_fun79908_ip) {
+                _fun79921: for(var _fun79921_ip = 0; ; ) switch(_fun79921_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.getCurrentUser;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     zulu = mike == entity;
                     mike = undefined;
-                    if(zulu) { _fun79908_ip = 32; continue _fun79908 }
+                    if(zulu) { _fun79921_ip = 32; continue _fun79921 }
  27:
                     mike = entity.id;
  32:
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options[entity];
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.intl;
-            if(mike) { _fun79907_ip = 226; continue _fun79907 }
+            if(mike) { _fun79920_ip = 226; continue _fun79920 }
  187:
             verify = zulu.formatToPlainString;
             mike = options[entity];
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['username'] = offset;
             oscar = verify.bind(zulu)(oscar, mike);
-            _fun79907_ip = 256; continue _fun79907;
+            _fun79920_ip = 256; continue _fun79920;
  226:
             mike = zulu.string;
             entity = options[entity];

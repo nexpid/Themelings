@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ChevronSmallDownIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun77433: for(var _fun77433_ip = 0; ; ) switch(_fun77433_ip) {
+        _fun77443: for(var _fun77443_ip = 0; ; ) switch(_fun77443_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun77433_ip = 53; continue _fun77433 }
+            if(!(golf === tango)) { _fun77443_ip = 53; continue _fun77443 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

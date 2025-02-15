@@ -15,12 +15,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot4;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun91441: for(var _fun91441_ip = 0; ; ) switch(_fun91441_ip) {
+                _fun91470: for(var _fun91470_ip = 0; ; ) switch(_fun91470_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun91441_ip = 203; continue _fun91441 }
+                    if(zulu) { _fun91470_ip = 203; continue _fun91470 }
  13:
                     romeo = mike.loadId;
                     foxtrot = mike.guildId;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  52:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun91441_ip = 200; continue _fun91441 }
+                    if(report) { _fun91470_ip = 200; continue _fun91470 }
  61:
                     golf = {};
                     sizing = golf;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  122:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscar) { _fun91441_ip = 197; continue _fun91441 }
+                    if(oscar) { _fun91470_ip = 197; continue _fun91470 }
  128:
                     golf = _closure1_slot1;
                     options = _closure1_slot3;
@@ -144,36 +144,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getGlobalDiscoveryServersTabTitle
-        _fun91442: for(var _fun91442_ip = 0; ; ) switch(_fun91442_ip) {
+        _fun91471: for(var _fun91471_ip = 0; ; ) switch(_fun91471_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot7;
             mike = mike.FEATURED;
-            if(!(mike !== zulu)) { _fun91442_ip = 477; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 477; continue _fun91471 }
  23:
             mike = _closure1_slot7;
             mike = mike.GAMING;
-            if(!(mike !== zulu)) { _fun91442_ip = 418; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 418; continue _fun91471 }
  40:
             mike = _closure1_slot7;
             mike = mike.MUSIC;
-            if(!(mike !== zulu)) { _fun91442_ip = 359; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 359; continue _fun91471 }
  57:
             mike = _closure1_slot7;
             mike = mike.ENTERTAINMENT;
-            if(!(mike !== zulu)) { _fun91442_ip = 300; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 300; continue _fun91471 }
  74:
             mike = _closure1_slot7;
             mike = mike.TECH;
-            if(!(mike !== zulu)) { _fun91442_ip = 241; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 241; continue _fun91471 }
  91:
             mike = _closure1_slot7;
             mike = mike.EDUCATION;
-            if(!(mike !== zulu)) { _fun91442_ip = 182; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 182; continue _fun91471 }
  105:
             mike = _closure1_slot7;
             mike = mike.HUBS;
-            if(!(mike !== zulu)) { _fun91442_ip = 123; continue _fun91442 }
+            if(!(mike !== zulu)) { _fun91471_ip = 123; continue _fun91471 }
  119:
             mike = undefined;
             return mike;
@@ -286,36 +286,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getGlobalDiscoveryServersTabTitle'] = tango;
     tango = function(argFoo) { // Original name: getGlobalDiscoveryServersBannerTitle
-        _fun91443: for(var _fun91443_ip = 0; ; ) switch(_fun91443_ip) {
+        _fun91472: for(var _fun91472_ip = 0; ; ) switch(_fun91472_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot7;
             mike = mike.FEATURED;
-            if(!(mike !== report)) { _fun91443_ip = 528; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 528; continue _fun91472 }
  23:
             mike = _closure1_slot7;
             mike = mike.GAMING;
-            if(!(mike !== report)) { _fun91443_ip = 469; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 469; continue _fun91472 }
  40:
             mike = _closure1_slot7;
             mike = mike.MUSIC;
-            if(!(mike !== report)) { _fun91443_ip = 410; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 410; continue _fun91472 }
  57:
             mike = _closure1_slot7;
             mike = mike.ENTERTAINMENT;
-            if(!(mike !== report)) { _fun91443_ip = 351; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 351; continue _fun91472 }
  74:
             mike = _closure1_slot7;
             mike = mike.TECH;
-            if(!(mike !== report)) { _fun91443_ip = 292; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 292; continue _fun91472 }
  91:
             mike = _closure1_slot7;
             mike = mike.EDUCATION;
-            if(!(mike !== report)) { _fun91443_ip = 233; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 233; continue _fun91472 }
  108:
             mike = _closure1_slot7;
             mike = mike.HUBS;
-            if(!(mike !== report)) { _fun91443_ip = 174; continue _fun91443 }
+            if(!(mike !== report)) { _fun91472_ip = 174; continue _fun91472 }
  122:
             mike = global;
             tango = mike.Error;
@@ -438,36 +438,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getGlobalDiscoveryServersBannerTitle'] = tango;
     tango = function(argFoo) { // Original name: getGlobalDiscoveryServersBannerDescription
-        _fun91444: for(var _fun91444_ip = 0; ; ) switch(_fun91444_ip) {
+        _fun91473: for(var _fun91473_ip = 0; ; ) switch(_fun91473_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot7;
             mike = mike.FEATURED;
-            if(!(mike !== report)) { _fun91444_ip = 528; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 528; continue _fun91473 }
  23:
             mike = _closure1_slot7;
             mike = mike.GAMING;
-            if(!(mike !== report)) { _fun91444_ip = 469; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 469; continue _fun91473 }
  40:
             mike = _closure1_slot7;
             mike = mike.MUSIC;
-            if(!(mike !== report)) { _fun91444_ip = 410; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 410; continue _fun91473 }
  57:
             mike = _closure1_slot7;
             mike = mike.ENTERTAINMENT;
-            if(!(mike !== report)) { _fun91444_ip = 351; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 351; continue _fun91473 }
  74:
             mike = _closure1_slot7;
             mike = mike.TECH;
-            if(!(mike !== report)) { _fun91444_ip = 292; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 292; continue _fun91473 }
  91:
             mike = _closure1_slot7;
             mike = mike.EDUCATION;
-            if(!(mike !== report)) { _fun91444_ip = 233; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 233; continue _fun91473 }
  108:
             mike = _closure1_slot7;
             mike = mike.HUBS;
-            if(!(mike !== report)) { _fun91444_ip = 174; continue _fun91444 }
+            if(!(mike !== report)) { _fun91473_ip = 174; continue _fun91473 }
  122:
             mike = global;
             tango = mike.Error;
@@ -590,32 +590,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getGlobalDiscoveryServersBannerDescription'] = tango;
     tango = function(argFoo) { // Original name: getGlobalDiscoveryServersTabSectionTitle
-        _fun91445: for(var _fun91445_ip = 0; ; ) switch(_fun91445_ip) {
+        _fun91474: for(var _fun91474_ip = 0; ; ) switch(_fun91474_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot7;
             mike = mike.FEATURED;
-            if(!(mike !== zulu)) { _fun91445_ip = 401; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 401; continue _fun91474 }
  23:
             mike = _closure1_slot7;
             mike = mike.GAMING;
-            if(!(mike !== zulu)) { _fun91445_ip = 342; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 342; continue _fun91474 }
  40:
             mike = _closure1_slot7;
             mike = mike.MUSIC;
-            if(!(mike !== zulu)) { _fun91445_ip = 283; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 283; continue _fun91474 }
  57:
             mike = _closure1_slot7;
             mike = mike.ENTERTAINMENT;
-            if(!(mike !== zulu)) { _fun91445_ip = 224; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 224; continue _fun91474 }
  74:
             mike = _closure1_slot7;
             mike = mike.TECH;
-            if(!(mike !== zulu)) { _fun91445_ip = 165; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 165; continue _fun91474 }
  88:
             mike = _closure1_slot7;
             mike = mike.EDUCATION;
-            if(!(mike !== zulu)) { _fun91445_ip = 106; continue _fun91445 }
+            if(!(mike !== zulu)) { _fun91474_ip = 106; continue _fun91474 }
  102:
             mike = null;
             return mike;
@@ -713,36 +713,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getGlobalDiscoveryServersTabSectionTitle'] = tango;
     tango = function(argFoo) { // Original name: getCategoryIdFromServerTab
-        _fun91446: for(var _fun91446_ip = 0; ; ) switch(_fun91446_ip) {
+        _fun91475: for(var _fun91475_ip = 0; ; ) switch(_fun91475_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot7;
             mike = mike.FEATURED;
-            if(!(mike !== report)) { _fun91446_ip = 214; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 214; continue _fun91475 }
  23:
             mike = _closure1_slot7;
             mike = mike.GAMING;
-            if(!(mike !== report)) { _fun91446_ip = 202; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 202; continue _fun91475 }
  40:
             mike = _closure1_slot7;
             mike = mike.MUSIC;
-            if(!(mike !== report)) { _fun91446_ip = 190; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 190; continue _fun91475 }
  57:
             mike = _closure1_slot7;
             mike = mike.ENTERTAINMENT;
-            if(!(mike !== report)) { _fun91446_ip = 178; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 178; continue _fun91475 }
  71:
             mike = _closure1_slot7;
             mike = mike.TECH;
-            if(!(mike !== report)) { _fun91446_ip = 166; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 166; continue _fun91475 }
  85:
             mike = _closure1_slot7;
             mike = mike.EDUCATION;
-            if(!(mike !== report)) { _fun91446_ip = 154; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 154; continue _fun91475 }
  99:
             mike = _closure1_slot7;
             mike = mike.HUBS;
-            if(!(mike !== report)) { _fun91446_ip = 148; continue _fun91446 }
+            if(!(mike !== report)) { _fun91475_ip = 148; continue _fun91475 }
  113:
             tango = _closure1_slot0;
             zulu = _closure1_slot3;
@@ -783,12 +783,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getCategoryIdFromServerTab'] = tango;
     tango = function(argFoo) { // Original name: isStaleFeaturedGuilds
-        _fun91447: for(var _fun91447_ip = 0; ; ) switch(_fun91447_ip) {
+        _fun91476: for(var _fun91476_ip = 0; ; ) switch(_fun91476_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity == zulu;
-            if(entity) { _fun91447_ip = 44; continue _fun91447 }
+            if(entity) { _fun91476_ip = 44; continue _fun91476 }
  12:
             mike = global;
             tango = mike.Date;
@@ -882,11 +882,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['fromDiscoverableGuildSearchResult'] = tango;
     tango = function() { // Original name: getLanguageCodeFallback
-        _fun91450: for(var _fun91450_ip = 0; ; ) switch(_fun91450_ip) {
+        _fun91479: for(var _fun91479_ip = 0; ; ) switch(_fun91479_ip) {
  0:
             report = arguments[0];
             tango = undefined;
-            if(!(report === tango)) { _fun91450_ip = 29; continue _fun91450 }
+            if(!(report === tango)) { _fun91479_ip = 29; continue _fun91479 }
  11:
             zulu = _closure1_slot5;
             mike = new Array(1);
@@ -900,11 +900,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu;
             report = mike === tango;
             mike = undefined;
-            if(report) { _fun91450_ip = 54; continue _fun91450 }
+            if(report) { _fun91479_ip = 54; continue _fun91479 }
  51:
             mike = oscar;
  54:
-            if(report) { _fun91450_ip = 60; continue _fun91450 }
+            if(report) { _fun91479_ip = 60; continue _fun91479 }
  57:
             zulu.return();
  60:
@@ -923,11 +923,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike == entity)) { _fun91450_ip = 114; continue _fun91450 }
- 108:
+            if(!(mike == entity)) { _fun91479_ip = 113; continue _fun91479 }
+ 107:
             mike = 0;
             entity = zulu[mike];
- 114:
+ 113:
             entity = entity.code;
             return entity;
         }
@@ -945,7 +945,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['navigateToGuild'] = tango;
     tango = function() { // Original name: handleTabPressPrefetch
-        _fun91453: for(var _fun91453_ip = 0; ; ) switch(_fun91453_ip) {
+        _fun91482: for(var _fun91482_ip = 0; ; ) switch(_fun91482_ip) {
  0:
             oscar = _closure1_slot6;
             mike = oscar.getError;
@@ -955,9 +955,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(oscar)(report);
             mike = oscar.getIsInitialFetchComplete;
             mike = mike.bind(oscar)(report);
-            if(mike) { _fun91453_ip = 84; continue _fun91453 }
+            if(mike) { _fun91482_ip = 84; continue _fun91482 }
  47:
-            if(zulu) { _fun91453_ip = 84; continue _fun91453 }
+            if(zulu) { _fun91482_ip = 84; continue _fun91482 }
  50:
             golf = _closure1_slot1;
             oscar = _closure1_slot3;
@@ -967,18 +967,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.bind(report)(oscar);
             report = oscar.fetchFeaturedGuilds;
             report = report.bind(oscar)();
-            _fun91453_ip = 144; continue _fun91453;
+            _fun91482_ip = 144; continue _fun91482;
  84:
-            if(!mike) { _fun91453_ip = 90; continue _fun91453 }
+            if(!mike) { _fun91482_ip = 90; continue _fun91482 }
  87:
             mike = !zulu;
  90:
-            if(!mike) { _fun91453_ip = 99; continue _fun91453 }
+            if(!mike) { _fun91482_ip = 99; continue _fun91482 }
  93:
             zulu = null;
             mike = zulu != tango;
  99:
-            if(!mike) { _fun91453_ip = 144; continue _fun91453 }
+            if(!mike) { _fun91482_ip = 144; continue _fun91482 }
  102:
             zulu = _closure1_slot1;
             mike = _closure1_slot3;

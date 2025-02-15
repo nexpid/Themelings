@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Navigator/native/PostponeRender.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PostponeRender
-        _fun65283: for(var _fun65283_ip = 0; ; ) switch(_fun65283_ip) {
+        _fun65288: for(var _fun65288_ip = 0; ; ) switch(_fun65288_ip) {
  0:
             entity = argFoo;
             verify = entity.postpone;
@@ -93,10 +93,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee[verify];
             verify = offset.bind(tango)(verify);
             options = function() {
-                _fun65284: for(var _fun65284_ip = 0; ; ) switch(_fun65284_ip) {
+                _fun65289: for(var _fun65289_ip = 0; ; ) switch(_fun65289_ip) {
  0:
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun65284_ip = 16; continue _fun65284 }
+                    if(zulu) { _fun65289_ip = 16; continue _fun65289 }
  12:
                     zulu = undefined;
                     return zulu;
@@ -119,12 +119,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.bind(report)(mike);
                     zulu['current'] = mike;
                     entity = function() {
-                        _fun65286: for(var _fun65286_ip = 0; ; ) switch(_fun65286_ip) {
+                        _fun65291: for(var _fun65291_ip = 0; ; ) switch(_fun65291_ip) {
  0:
                             entity = _closure2_slot2;
                             mike = entity.current;
                             entity = null;
-                            if(!(entity != mike)) { _fun65286_ip = 28; continue _fun65286 }
+                            if(!(entity != mike)) { _fun65291_ip = 28; continue _fun65291 }
  18:
                             entity = mike.cancel;
                             entity = entity.bind(mike)();
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             options = verify.bind(tango)(options);
-            if(!zulu) { _fun65283_ip = 173; continue _fun65283 }
+            if(!zulu) { _fun65288_ip = 173; continue _fun65288 }
  135:
             verify = _closure1_slot6;
             options = _closure1_slot0;
@@ -149,14 +149,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             report = verify.bind(tango)(options, zulu);
  173:
-            if(mike) { _fun65283_ip = 198; continue _fun65283 }
+            if(mike) { _fun65288_ip = 198; continue _fun65288 }
  176:
             zulu = _closure1_slot1;
             options = _closure1_slot2;
             mike = 9;
             mike = options[mike];
             zulu = zulu.bind(tango)(mike);
-            _fun65283_ip = 202; continue _fun65283;
+            _fun65288_ip = 202; continue _fun65288;
  198:
             zulu = _closure1_slot5;
  202:

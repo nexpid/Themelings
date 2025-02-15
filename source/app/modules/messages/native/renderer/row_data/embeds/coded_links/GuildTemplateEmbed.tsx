@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/embeds/coded_links/GuildTemplateEmbed.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildTemplateEmbed
-        _fun70308: for(var _fun70308_ip = 0; ; ) switch(_fun70308_ip) {
+        _fun70314: for(var _fun70314_ip = 0; ; ) switch(_fun70314_ip) {
  0:
             mike = argFoo;
             mike = mike.code;
@@ -87,17 +87,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != offset)) { _fun70308_ip = 1072; continue _fun70308 }
+            if(!(entity != offset)) { _fun70314_ip = 1074; continue _fun70314 }
  134:
             zulu = offset.state;
             mike = _closure1_slot5;
             mike = mike.RESOLVING;
-            if(!(zulu !== mike)) { _fun70308_ip = 926; continue _fun70308 }
+            if(!(zulu !== mike)) { _fun70314_ip = 928; continue _fun70314 }
  156:
             zulu = offset.state;
             mike = _closure1_slot5;
             mike = mike.EXPIRED;
-            if(!(zulu !== mike)) { _fun70308_ip = 581; continue _fun70308 }
+            if(!(zulu !== mike)) { _fun70314_ip = 582; continue _fun70314 }
  178:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[verify] = offset;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 581:
+ 582:
             tango = _closure1_slot7;
             sizing = _closure1_slot1;
             backup = _closure1_slot2;
@@ -245,17 +245,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(romeo)(foxtrot);
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
-            if(verify) { _fun70308_ip = 853; continue _fun70308 }
- 839:
+            if(verify) { _fun70314_ip = 854; continue _fun70314 }
+ 840:
             verify = 12;
             verify = backup[verify];
             verify = foxtrot.bind(report)(verify);
-            _fun70308_ip = 865; continue _fun70308;
- 853:
+            _fun70314_ip = 866; continue _fun70314;
+ 854:
             romeo = 11;
             romeo = backup[romeo];
             verify = foxtrot.bind(report)(romeo);
- 865:
+ 866:
             verify = offset.bind(yankee)(verify);
             offset = verify.uri;
             verify = 'thumbnailUrl';
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[verify] = offset;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 926:
+ 928:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -303,13 +303,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = copyDataProperties(update, echo);
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 1072:
+ 1074:
             return entity;
         }
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: createGuildTemplateEmbed
-        _fun70310: for(var _fun70310_ip = 0; ; ) switch(_fun70310_ip) {
+        _fun70316: for(var _fun70316_ip = 0; ; ) switch(_fun70316_ip) {
  0:
             yankee = argBar;
             mike = _closure1_slot1;
@@ -326,17 +326,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argFoo;
             golf = mike.bind(oscar)(entity);
             entity = null;
-            if(!(entity != golf)) { _fun70310_ip = 939; continue _fun70310 }
+            if(!(entity != golf)) { _fun70316_ip = 941; continue _fun70316 }
  71:
             oscar = golf.state;
             mike = _closure1_slot5;
             mike = mike.RESOLVING;
-            if(!(oscar !== mike)) { _fun70310_ip = 819; continue _fun70310 }
+            if(!(oscar !== mike)) { _fun70316_ip = 821; continue _fun70316 }
  93:
             oscar = golf.state;
             mike = _closure1_slot5;
             mike = mike.EXPIRED;
-            if(!(oscar !== mike)) { _fun70310_ip = 496; continue _fun70310 }
+            if(!(oscar !== mike)) { _fun70316_ip = 497; continue _fun70316 }
  115:
             verify = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'type';
             mike[oscar] = golf;
             return mike;
- 496:
+ 497:
             mike = {};
             result = mike;
             output = zulu;
@@ -475,17 +475,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(verify)(yankee);
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
-            if(oscar) { _fun70310_ip = 752; continue _fun70310 }
- 738:
+            if(oscar) { _fun70316_ip = 753; continue _fun70316 }
+ 739:
             oscar = 12;
             oscar = romeo[oscar];
             oscar = yankee.bind(offset)(oscar);
-            _fun70310_ip = 764; continue _fun70310;
- 752:
+            _fun70316_ip = 765; continue _fun70316;
+ 753:
             verify = 11;
             verify = romeo[verify];
             oscar = yankee.bind(offset)(verify);
- 764:
+ 765:
             oscar = golf.bind(options)(oscar);
             golf = oscar.uri;
             oscar = 'thumbnailUrl';
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'type';
             mike[oscar] = golf;
             return mike;
- 819:
+ 821:
             mike = {};
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = zulu;
             zulu = copyDataProperties(result, output);
             return mike;
- 939:
+ 941:
             return entity;
         }
     };

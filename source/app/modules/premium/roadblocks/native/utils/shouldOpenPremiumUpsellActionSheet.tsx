@@ -8,15 +8,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: _maybeOpenPremiumUpsellActionSheet
-        _fun78180: for(var _fun78180_ip = 0; ; ) switch(_fun78180_ip) {
+        _fun78190: for(var _fun78190_ip = 0; ; ) switch(_fun78190_ip) {
  0:
             oscar = argBar;
             mike = null;
             entity = mike == oscar;
-            if(entity) { _fun78180_ip = 60; continue _fun78180 }
+            if(entity) { _fun78190_ip = 60; continue _fun78190 }
  12:
             mike = mike != oscar;
-            if(!mike) { _fun78180_ip = 57; continue _fun78180 }
+            if(!mike) { _fun78190_ip = 57; continue _fun78190 }
  19:
             report = oscar.getCurrentConfig;
             tango = {};
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  57:
             entity = mike;
  60:
-            if(entity) { _fun78180_ip = 86; continue _fun78180 }
+            if(entity) { _fun78190_ip = 86; continue _fun78190 }
  63:
             tango = _closure1_slot3;
             zulu = tango.get;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  86:
             mike = !entity;
             entity = !mike;
-            if(mike) { _fun78180_ip = 130; continue _fun78180 }
+            if(mike) { _fun78190_ip = 130; continue _fun78190 }
  95:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/roadblocks/native/utils/shouldOpenPremiumUpsellActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: maybeOpenPremiumUpsellActionSheet
-        _fun78181: for(var _fun78181_ip = 0; ; ) switch(_fun78181_ip) {
+        _fun78191: for(var _fun78191_ip = 0; ; ) switch(_fun78191_ip) {
  0:
             entity = argFoo;
             tango = entity.initialUpsellKey;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.UpsellTypes;
             mike = mike.UPLOAD;
-            if(!(mike !== tango)) { _fun78181_ip = 386; continue _fun78181 }
+            if(!(mike !== tango)) { _fun78191_ip = 386; continue _fun78191 }
  53:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.UpsellTypes;
             mike = mike.GLOBAL_EMOJI;
-            if(!(mike !== tango)) { _fun78181_ip = 343; continue _fun78181 }
+            if(!(mike !== tango)) { _fun78191_ip = 343; continue _fun78191 }
  89:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.UpsellTypes;
             mike = mike.ANIMATED_EMOJI;
-            if(!(mike !== tango)) { _fun78181_ip = 300; continue _fun78181 }
+            if(!(mike !== tango)) { _fun78191_ip = 300; continue _fun78191 }
  125:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.UpsellTypes;
             mike = mike.SOUNDBOARD;
-            if(!(mike !== tango)) { _fun78181_ip = 257; continue _fun78181 }
+            if(!(mike !== tango)) { _fun78191_ip = 257; continue _fun78191 }
  158:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.UpsellTypes;
             mike = mike.APP_ICONS;
-            if(!(mike !== tango)) { _fun78181_ip = 195; continue _fun78181 }
+            if(!(mike !== tango)) { _fun78191_ip = 195; continue _fun78191 }
  191:
             mike = false;
             return mike;

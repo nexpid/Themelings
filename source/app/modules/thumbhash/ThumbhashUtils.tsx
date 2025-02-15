@@ -6,23 +6,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     mike = function(argFoo) { // Original name: thumbHashToRGBA
-        _fun117672: for(var _fun117672_ip = 0; ; ) switch(_fun117672_ip) {
+        _fun117678: for(var _fun117678_ip = 0; ; ) switch(_fun117678_ip) {
  0:
             report = argFoo;
             entity = arguments[1];
             var _closure2_slot0 = report;
             variable53 = undefined;
-            if(!(entity === variable53)) { _fun117672_ip = 20; continue _fun117672 }
+            if(!(entity === variable53)) { _fun117678_ip = 20; continue _fun117678 }
  18:
             entity = {};
  20:
             variable52 = entity.detail;
-            if(!(variable52 === variable53)) { _fun117672_ip = 33; continue _fun117672 }
+            if(!(variable52 === variable53)) { _fun117678_ip = 33; continue _fun117678 }
  30:
             variable52 = 1;
  33:
             offset = entity.pop;
-            if(!(offset === variable53)) { _fun117672_ip = 46; continue _fun117672 }
+            if(!(offset === variable53)) { _fun117678_ip = 46; continue _fun117678 }
  43:
             offset = 1;
  46:
@@ -62,33 +62,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 15;
             mike = yankee >> options;
             oscar = 7;
-            if(mike) { _fun117672_ip = 203; continue _fun117672 }
+            if(mike) { _fun117678_ip = 203; continue _fun117678 }
  197:
             verify = oscar & yankee;
-            _fun117672_ip = 215; continue _fun117672;
+            _fun117678_ip = 215; continue _fun117678;
  203:
             romeo = oscar;
-            if(!variable42) { _fun117672_ip = 212; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 212; continue _fun117678 }
  209:
             romeo = 5;
  212:
             verify = romeo;
  215:
             variable41 = variable49.bind(variable53)(variable44, verify);
-            if(mike) { _fun117672_ip = 235; continue _fun117672 }
+            if(mike) { _fun117678_ip = 235; continue _fun117678 }
  224:
             mike = oscar;
-            if(!variable42) { _fun117672_ip = 233; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 233; continue _fun117678 }
  230:
             mike = 5;
  233:
-            _fun117672_ip = 239; continue _fun117672;
+            _fun117678_ip = 239; continue _fun117678;
  235:
             mike = oscar & yankee;
  239:
             variable40 = variable49.bind(variable53)(variable44, mike);
             variable39 = variable46;
-            if(!variable42) { _fun117672_ip = 266; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 266; continue _fun117678 }
  251:
             mike = 5;
             mike = report[mike];
@@ -99,14 +99,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report[variable38];
             mike = mike >> variable43;
             oscar = variable38;
-            if(!variable42) { _fun117672_ip = 286; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 286; continue _fun117678 }
  283:
             oscar = 6;
  286:
             _closure2_slot1 = oscar;
             _closure2_slot2 = variable47;
             tango = function(argFoo, argBar, argBaz) { // Original name: decodeChannel
-                _fun117673: for(var _fun117673_ip = 0; ; ) switch(_fun117673_ip) {
+                _fun117679: for(var _fun117679_ip = 0; ; ) switch(_fun117679_ip) {
  0:
                     yankee = argFoo;
                     offset = argBar;
@@ -119,17 +119,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = 15;
                     zulu = 7.5;
                     mike = 0;
-                    if(!romeo) { _fun117673_ip = 175; continue _fun117673 }
+                    if(!romeo) { _fun117679_ip = 175; continue _fun117679 }
  49:
                     backup = oscar;
-                    if(!mike) { _fun117673_ip = 57; continue _fun117673 }
+                    if(!mike) { _fun117679_ip = 57; continue _fun117679 }
  55:
                     backup = 0;
  57:
                     foxtrot = backup * offset;
                     romeo = offset - mike;
                     romeo = yankee * romeo;
-                    if(!(foxtrot < romeo)) { _fun117673_ip = 168; continue _fun117673 }
+                    if(!(foxtrot < romeo)) { _fun117679_ip = 168; continue _fun117679 }
  73:
                     foxtrot = entity.push;
                     kilo = _closure2_slot0;
@@ -154,10 +154,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = backup * offset;
                     romeo = offset - mike;
                     romeo = yankee * romeo;
-                    if(foxtrot < romeo) { _fun117673_ip = 73; continue _fun117673 }
+                    if(foxtrot < romeo) { _fun117679_ip = 73; continue _fun117679 }
  168:
                     mike = mike + 1;
-                    if(mike < offset) { _fun117673_ip = 49; continue _fun117673 }
+                    if(mike < offset) { _fun117679_ip = 49; continue _fun117679 }
  175:
                     return entity;
                 }
@@ -181,10 +181,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify / oscar;
             verify = verify * offset;
             quebec = tango.bind(variable53)(variable44, variable44, verify);
-            if(variable42) { _fun117672_ip = 391; continue _fun117672 }
+            if(variable42) { _fun117678_ip = 391; continue _fun117678 }
  385:
             equality = new Array(0);
-            _fun117672_ip = 402; continue _fun117672;
+            _fun117678_ip = 402; continue _fun117678;
  391:
             mike = mike / options;
             equality = tango.bind(variable53)(variable38, variable38, mike);
@@ -198,14 +198,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = options > variable46;
             report = 32;
             mike = report;
-            if(tango) { _fun117672_ip = 450; continue _fun117672 }
+            if(tango) { _fun117678_ip = 450; continue _fun117678 }
  446:
             mike = report * options;
  450:
             tango = zulu.bind(variable53)(mike);
             verify = options > variable46;
             mike = report;
-            if(!verify) { _fun117672_ip = 469; continue _fun117672 }
+            if(!verify) { _fun117678_ip = 469; continue _fun117678 }
  465:
             mike = report / options;
  469:
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             report = undefined;
             entity = undefined;
-            if(!variable54) { _fun117672_ip = 1484; continue _fun117672 }
+            if(!variable54) { _fun117678_ip = 1484; continue _fun117678 }
  649:
             variable62 = variable47 < tango;
             variable61 = sequence;
@@ -277,10 +277,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = variable56;
             report = variable55;
             entity = variable54;
-            if(!variable62) { _fun117672_ip = 1474; continue _fun117672 }
+            if(!variable62) { _fun117678_ip = 1474; continue _fun117678 }
  703:
             variable62 = variable44;
-            if(!variable42) { _fun117672_ip = 712; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 712; continue _fun117678 }
  709:
             variable62 = variable38;
  712:
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable63 = variable47 < variable76;
             variable62 = 0;
             variable77 = 0;
-            if(!variable63) { _fun117672_ip = 764; continue _fun117672 }
+            if(!variable63) { _fun117678_ip = 764; continue _fun117678 }
  729:
             variable64 = variable51 / tango;
             variable63 = variable60 + target;
@@ -298,10 +298,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             whiskey[variable62] = variable63;
             variable62 = variable62 + 1;
             variable77 = variable62;
-            if(variable77 < variable76) { _fun117672_ip = 729; continue _fun117672 }
+            if(variable77 < variable76) { _fun117678_ip = 729; continue _fun117678 }
  764:
             variable62 = variable44;
-            if(!variable42) { _fun117672_ip = 773; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 773; continue _fun117678 }
  770:
             variable62 = variable38;
  773:
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable63 = variable47 < variable74;
             variable62 = 0;
             variable75 = 0;
-            if(!variable63) { _fun117672_ip = 825; continue _fun117672 }
+            if(!variable63) { _fun117678_ip = 825; continue _fun117678 }
  790:
             variable64 = variable51 / zulu;
             variable63 = config + target;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             lima[variable62] = variable63;
             variable62 = variable62 + 1;
             variable75 = variable62;
-            if(variable75 < variable74) { _fun117672_ip = 790; continue _fun117672 }
+            if(variable75 < variable74) { _fun117678_ip = 790; continue _fun117678 }
  825:
             variable65 = variable47 < variable40;
             variable64 = papa;
@@ -328,10 +328,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable81 = variable64;
             variable73 = 0;
             variable72 = 0;
-            if(!variable65) { _fun117672_ip = 1004; continue _fun117672 }
+            if(!variable65) { _fun117678_ip = 1004; continue _fun117678 }
  849:
             variable67 = variable46;
-            if(!variable63) { _fun117672_ip = 857; continue _fun117672 }
+            if(!variable63) { _fun117678_ip = 857; continue _fun117678 }
  855:
             variable67 = 0;
  857:
@@ -346,15 +346,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable69 = variable79;
             variable68 = variable78;
             variable67 = variable71;
-            if(!(variable70 < variable65)) { _fun117672_ip = 973; continue _fun117672 }
+            if(!(variable70 < variable65)) { _fun117678_ip = 973; continue _fun117678 }
  899:
             variable65 = variable71 > variable52;
-            if(variable65) { _fun117672_ip = 910; continue _fun117672 }
+            if(variable65) { _fun117678_ip = 910; continue _fun117678 }
  906:
             variable65 = variable63 > variable52;
  910:
             variable83 = variable79;
-            if(variable65) { _fun117672_ip = 936; continue _fun117672 }
+            if(variable65) { _fun117678_ip = 936; continue _fun117678 }
  916:
             variable70 = variable37[variable78];
             variable65 = whiskey[variable71];
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable69 = variable79;
             variable68 = variable78;
             variable67 = variable71;
-            if(variable70 < variable65) { _fun117672_ip = 899; continue _fun117672 }
+            if(variable70 < variable65) { _fun117678_ip = 899; continue _fun117678 }
  973:
             variable63 = variable63 + 1;
             variable64 = variable69;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable72 = variable62;
             variable58 = variable66;
             variable73 = variable63;
-            if(variable73 < variable40) { _fun117672_ip = 849; continue _fun117672 }
+            if(variable73 < variable40) { _fun117678_ip = 849; continue _fun117678 }
  1004:
             variable71 = variable59;
             variable70 = variable58;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable62 = 0;
  1020:
             variable67 = variable46;
-            if(!variable63) { _fun117672_ip = 1028; continue _fun117672 }
+            if(!variable63) { _fun117678_ip = 1028; continue _fun117678 }
  1026:
             variable67 = 0;
  1028:
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable79 = variable83;
             variable68 = variable82;
             variable67 = variable78;
-            if(!(variable67 < variable69)) { _fun117672_ip = 1126; continue _fun117672 }
+            if(!(variable67 < variable69)) { _fun117678_ip = 1126; continue _fun117678 }
  1068:
             variable69 = whiskey[variable78];
             variable85 = variable69 * variable66;
@@ -424,23 +424,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable79 = variable83;
             variable68 = variable82;
             variable67 = variable78;
-            if(variable67 < variable69) { _fun117672_ip = 1068; continue _fun117672 }
+            if(variable67 < variable69) { _fun117678_ip = 1068; continue _fun117678 }
  1126:
             variable69 = variable63 + 1;
             variable65 = variable80;
             variable64 = variable79;
             variable63 = variable69;
             variable62 = variable68;
-            if(variable69 < variable44) { _fun117672_ip = 1020; continue _fun117672 }
+            if(variable69 < variable44) { _fun117678_ip = 1020; continue _fun117678 }
  1145:
             variable65 = variable39;
             variable64 = 0;
             variable63 = 0;
             variable62 = variable65;
-            if(!variable42) { _fun117672_ip = 1271; continue _fun117672 }
+            if(!variable42) { _fun117678_ip = 1271; continue _fun117678 }
  1158:
             variable83 = variable46;
-            if(!variable64) { _fun117672_ip = 1166; continue _fun117672 }
+            if(!variable64) { _fun117678_ip = 1166; continue _fun117678 }
  1164:
             variable83 = 0;
  1166:
@@ -453,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable85 = variable88;
             variable84 = variable87;
             variable83 = variable86;
-            if(!(variable83 < variable78)) { _fun117672_ip = 1243; continue _fun117672 }
+            if(!(variable83 < variable78)) { _fun117678_ip = 1243; continue _fun117678 }
  1200:
             variable89 = equality[variable87];
             variable78 = whiskey[variable86];
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable85 = variable88;
             variable84 = variable87;
             variable83 = variable86;
-            if(variable83 < variable78) { _fun117672_ip = 1200; continue _fun117672 }
+            if(variable83 < variable78) { _fun117678_ip = 1200; continue _fun117678 }
  1243:
             variable64 = variable64 + 1;
             variable65 = variable85;
@@ -476,7 +476,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable56 = variable63;
             variable54 = variable82;
             variable57 = variable64;
-            if(variable57 < variable38) { _fun117672_ip = 1158; continue _fun117672 }
+            if(variable57 < variable38) { _fun117678_ip = 1158; continue _fun117678 }
  1271:
             variable63 = sierra * variable80;
             variable63 = variable81 - variable63;
@@ -529,10 +529,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = variable56;
             report = variable55;
             entity = variable54;
-            if(variable60 < tango) { _fun117672_ip = 703; continue _fun117672 }
+            if(variable60 < tango) { _fun117678_ip = 703; continue _fun117678 }
  1474:
             config = config + 1;
-            if(config < zulu) { _fun117672_ip = 649; continue _fun117672 }
+            if(config < zulu) { _fun117678_ip = 649; continue _fun117678 }
  1484:
             entity = {};
             entity['w'] = tango;

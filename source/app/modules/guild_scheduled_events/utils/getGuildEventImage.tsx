@@ -26,15 +26,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/utils/getGuildEventImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getGuildEventImageURL
-        _fun76899: for(var _fun76899_ip = 0; ; ) switch(_fun76899_ip) {
+        _fun76909: for(var _fun76909_ip = 0; ; ) switch(_fun76909_ip) {
  0:
             tango = argFoo;
             oscar = argBar;
             mike = tango.image;
             entity = null;
-            if(!(entity != mike)) { _fun76899_ip = 298; continue _fun76899 }
+            if(!(entity != mike)) { _fun76909_ip = 298; continue _fun76909 }
  21:
-            if(!(entity == oscar)) { _fun76899_ip = 83; continue _fun76899 }
+            if(!(entity == oscar)) { _fun76909_ip = 83; continue _fun76909 }
  25:
             mike = global;
             mike = mike.window;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = mike.window;
             oscar = oscar.GLOBAL_ENV;
             foxtrot = oscar.CDN_HOST;
-            if(!(entity == foxtrot)) { _fun76899_ip = 217; continue _fun76899 }
+            if(!(entity == foxtrot)) { _fun76909_ip = 217; continue _fun76909 }
  143:
             oscar = mike.location;
             golf = oscar.protocol;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = 'png';
             zulu = verify.bind(offset)(options, golf, zulu);
             zulu = oscar + zulu;
-            _fun76899_ip = 270; continue _fun76899;
+            _fun76909_ip = 270; continue _fun76909;
  217:
             sizing = tango.id;
             backup = tango.image;

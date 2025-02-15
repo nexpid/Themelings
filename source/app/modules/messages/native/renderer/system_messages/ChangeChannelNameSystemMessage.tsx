@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/ChangeChannelNameSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ChangeChannelNameSystemMessage
-        _fun72272: for(var _fun72272_ip = 0; ; ) switch(_fun72272_ip) {
+        _fun72278: for(var _fun72278_ip = 0; ; ) switch(_fun72278_ip) {
  0:
             entity = argFoo;
             oscar = entity.row;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(1);
             report[0] = offset;
             zulu = function() {
-                _fun72273: for(var _fun72273_ip = 0; ; ) switch(_fun72273_ip) {
+                _fun72279: for(var _fun72279_ip = 0; ; ) switch(_fun72279_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getChannel;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     mike = entity == zulu;
                     entity = undefined;
-                    if(mike) { _fun72273_ip = 45; continue _fun72273 }
+                    if(mike) { _fun72279_ip = 45; continue _fun72279 }
  35:
                     mike = zulu.isForumPost;
                     entity = mike.bind(zulu)();
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee[zulu];
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.t;
-            if(report) { _fun72272_ip = 169; continue _fun72272 }
+            if(report) { _fun72278_ip = 169; continue _fun72278 }
  161:
             yankee = zulu.XCPMEB;
-            _fun72272_ip = 175; continue _fun72272;
+            _fun72278_ip = 175; continue _fun72278;
  169:
             yankee = zulu.qa0e/v;
  175:
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createChangeChannelNameSystemMessage
-        _fun72275: for(var _fun72275_ip = 0; ; ) switch(_fun72275_ip) {
+        _fun72281: for(var _fun72281_ip = 0; ; ) switch(_fun72281_ip) {
  0:
             tango = argFoo;
             offset = tango.message;
@@ -175,10 +175,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report[yankee];
             report = golf.bind(zulu)(report);
             report = report.t;
-            if(oscar) { _fun72275_ip = 85; continue _fun72275 }
+            if(oscar) { _fun72281_ip = 85; continue _fun72281 }
  77:
             golf = report.XCPMEB;
-            _fun72275_ip = 91; continue _fun72275;
+            _fun72281_ip = 91; continue _fun72281;
  85:
             golf = report.qa0e/v;
  91:

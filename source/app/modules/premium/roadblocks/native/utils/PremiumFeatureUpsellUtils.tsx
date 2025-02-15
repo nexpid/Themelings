@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: useIsFeatureUpsellEnabled
-        _fun78225: for(var _fun78225_ip = 0; ; ) switch(_fun78225_ip) {
+        _fun78235: for(var _fun78235_ip = 0; ; ) switch(_fun78235_ip) {
  0:
             mike = argFoo;
             zulu = mike.featureEnabledPredicate;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.FeatureExperiment;
             tango = mike.experimentEnabledPredicate;
             zulu = undefined;
-            if(!(tango === zulu)) { _fun78225_ip = 40; continue _fun78225 }
+            if(!(tango === zulu)) { _fun78235_ip = 40; continue _fun78235 }
  33:
             tango = function(argFoo) { // Original name: p
                 entity = argFoo;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             oscar = report == verify;
             mike = undefined;
-            if(oscar) { _fun78225_ip = 225; continue _fun78225 }
+            if(oscar) { _fun78235_ip = 225; continue _fun78235 }
  174:
             options = verify.useExperiment;
             golf = {};
@@ -75,23 +75,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['location'] = oscar;
             oscar = {};
             romeo = !offset;
-            if(!romeo) { _fun78225_ip = 203; continue _fun78225 }
+            if(!romeo) { _fun78235_ip = 203; continue _fun78235 }
  200:
             romeo = yankee;
  203:
             oscar['autoTrackExposure'] = romeo;
-            if(offset) { _fun78225_ip = 214; continue _fun78225 }
+            if(offset) { _fun78235_ip = 214; continue _fun78235 }
  211:
             offset = !yankee;
  214:
             oscar['disable'] = offset;
             mike = options.bind(verify)(golf, oscar);
  225:
-            if(entity) { _fun78225_ip = 232; continue _fun78225 }
+            if(entity) { _fun78235_ip = 232; continue _fun78235 }
  228:
             entity = report == mike;
  232:
-            if(entity) { _fun78225_ip = 240; continue _fun78225 }
+            if(entity) { _fun78235_ip = 240; continue _fun78235 }
  235:
             entity = tango.bind(zulu)(mike);
  240:
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/roadblocks/native/utils/PremiumFeatureUpsellUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: isSoundboardSectionNitroLocked
-        _fun78229: for(var _fun78229_ip = 0; ; ) switch(_fun78229_ip) {
+        _fun78239: for(var _fun78239_ip = 0; ; ) switch(_fun78239_ip) {
  0:
             mike = argBar;
             zulu = mike.type;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.SoundboardSoundGridSectionType;
             entity = entity.GUILD;
             entity = zulu === entity;
-            if(!entity) { _fun78229_ip = 69; continue _fun78229 }
+            if(!entity) { _fun78239_ip = 69; continue _fun78239 }
  52:
             mike = mike.guild;
             zulu = mike.id;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useIsPremiumAppIconUpsellEnabled'] = tango;
     mike = function(argFoo) { // Original name: getUpsellType
-        _fun78237: for(var _fun78237_ip = 0; ; ) switch(_fun78237_ip) {
+        _fun78247: for(var _fun78247_ip = 0; ; ) switch(_fun78247_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.ANIMATED_EMOJIS;
-            if(!(mike !== oscar)) { _fun78237_ip = 518; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 518; continue _fun78247 }
  47:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.EMOJIS_EVERYWHERE;
-            if(!(mike !== oscar)) { _fun78237_ip = 484; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 484; continue _fun78247 }
  83:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.INCREASED_FILE_UPLOAD_SIZE;
-            if(!(mike !== oscar)) { _fun78237_ip = 450; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 450; continue _fun78247 }
  119:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.SOUNDBOARD_EVERYWHERE;
-            if(!(mike !== oscar)) { _fun78237_ip = 416; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 416; continue _fun78247 }
  155:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.CLIENT_THEMES;
-            if(!(mike !== oscar)) { _fun78237_ip = 382; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 382; continue _fun78247 }
  191:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.APP_ICONS;
-            if(!(mike !== oscar)) { _fun78237_ip = 348; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 348; continue _fun78247 }
  227:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(zulu)(mike);
             mike = mike.EntitlementFeatureNames;
             mike = mike.SAVED_MESSAGES;
-            if(!(mike !== oscar)) { _fun78237_ip = 314; continue _fun78237 }
+            if(!(mike !== oscar)) { _fun78247_ip = 314; continue _fun78247 }
  260:
             tango = _closure1_slot1;
             report = _closure1_slot2;

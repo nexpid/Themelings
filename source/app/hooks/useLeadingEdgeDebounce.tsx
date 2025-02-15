@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = golf;
         zulu[1] = oscar;
         mike = function() {
-            _fun75963: for(var _fun75963_ip = 0; ; ) switch(_fun75963_ip) {
+            _fun75973: for(var _fun75973_ip = 0; ; ) switch(_fun75973_ip) {
  0:
                 mike = global;
                 oscar = mike.setTimeout;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 var _closure3_slot0 = zulu;
                 zulu = _closure2_slot2;
                 zulu = zulu.current;
-                if(!zulu) { _fun75963_ip = 61; continue _fun75963 }
+                if(!zulu) { _fun75973_ip = 61; continue _fun75973 }
  48:
                 tango = _closure2_slot3;
                 zulu = _closure2_slot0;

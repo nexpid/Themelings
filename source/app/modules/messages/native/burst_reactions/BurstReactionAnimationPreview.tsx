@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/burst_reactions/BurstReactionAnimationPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BurstReactionAnimationPreview
-        _fun47724: for(var _fun47724_ip = 0; ; ) switch(_fun47724_ip) {
+        _fun47731: for(var _fun47731_ip = 0; ; ) switch(_fun47731_ip) {
  0:
             entity = argFoo;
             options = entity.channelId;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.ReactionTypes;
             zulu = entity.BURST;
             entity = null;
-            if(!(tango === zulu)) { _fun47724_ip = 120; continue _fun47724 }
+            if(!(tango === zulu)) { _fun47731_ip = 120; continue _fun47731 }
  68:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;

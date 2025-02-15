@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: isPremiumRequirement
-        _fun52843: for(var _fun52843_ip = 0; ; ) switch(_fun52843_ip) {
+        _fun52850: for(var _fun52850_ip = 0; ; ) switch(_fun52850_ip) {
  0:
             mike = argFoo;
             entity = mike.quality;
             zulu = null;
             entity = zulu != entity;
-            if(entity) { _fun52843_ip = 28; continue _fun52843 }
+            if(entity) { _fun52850_ip = 28; continue _fun52850 }
  18:
             mike = mike.guildPremiumTier;
             entity = zulu != mike;
@@ -33,25 +33,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = _closure1_slot10;
         mike = zulu.find;
         entity = function(argFoo) {
-            _fun52845: for(var _fun52845_ip = 0; ; ) switch(_fun52845_ip) {
+            _fun52852: for(var _fun52852_ip = 0; ; ) switch(_fun52852_ip) {
  0:
                 mike = argFoo;
                 zulu = mike.preset;
                 entity = null;
                 entity = entity == zulu;
-                if(entity) { _fun52845_ip = 35; continue _fun52845 }
+                if(entity) { _fun52852_ip = 35; continue _fun52852 }
  18:
                 tango = mike.preset;
                 zulu = _closure2_slot0;
                 entity = tango === zulu;
  35:
-                if(!entity) { _fun52845_ip = 55; continue _fun52845 }
+                if(!entity) { _fun52852_ip = 55; continue _fun52852 }
  38:
                 tango = mike.resolution;
                 zulu = _closure2_slot1;
                 entity = tango === zulu;
  55:
-                if(!entity) { _fun52845_ip = 75; continue _fun52845 }
+                if(!entity) { _fun52852_ip = 75; continue _fun52852 }
  58:
                 zulu = mike.fps;
                 mike = _closure2_slot2;
@@ -120,11 +120,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'utils/StreamQualityUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo) { // Original name: isPremiumResolution
-        _fun52846: for(var _fun52846_ip = 0; ; ) switch(_fun52846_ip) {
+        _fun52853: for(var _fun52853_ip = 0; ; ) switch(_fun52853_ip) {
  0:
             entity = argFoo;
             zulu = null;
-            if(!(zulu == entity)) { _fun52846_ip = 15; continue _fun52846 }
+            if(!(zulu == entity)) { _fun52853_ip = 15; continue _fun52853 }
  11:
             tango = undefined;
             return tango;
@@ -133,11 +133,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.type;
             report = _closure1_slot13;
             report = report.SOURCE;
-            if(!(oscar !== report)) { _fun52846_ip = 56; continue _fun52846 }
+            if(!(oscar !== report)) { _fun52853_ip = 56; continue _fun52853 }
  43:
             report = entity.maxResolution;
             golf = report.height;
-            _fun52846_ip = 66; continue _fun52846;
+            _fun52853_ip = 66; continue _fun52853;
  56:
             report = _closure1_slot7;
             golf = report.RESOLUTION_SOURCE;
@@ -152,25 +152,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot11;
             entity = entity.FPS_5;
             entity = report !== entity;
-            if(!entity) { _fun52846_ip = 136; continue _fun52846 }
+            if(!entity) { _fun52853_ip = 136; continue _fun52853 }
  113:
             report = _closure1_slot10;
             tango = report.find;
             mike = function(argFoo) {
-                _fun52847: for(var _fun52847_ip = 0; ; ) switch(_fun52847_ip) {
+                _fun52854: for(var _fun52854_ip = 0; ; ) switch(_fun52854_ip) {
  0:
                     tango = argFoo;
                     mike = tango.resolution;
                     entity = _closure2_slot0;
                     entity = mike === entity;
-                    if(!entity) { _fun52847_ip = 46; continue _fun52847 }
+                    if(!entity) { _fun52854_ip = 46; continue _fun52854 }
  23:
                     zulu = tango.fps;
                     mike = _closure1_slot11;
                     mike = mike.FPS_5;
                     entity = zulu !== mike;
  46:
-                    if(!entity) { _fun52847_ip = 66; continue _fun52847 }
+                    if(!entity) { _fun52854_ip = 66; continue _fun52854 }
  49:
                     zulu = _closure1_slot14;
                     mike = undefined;
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isPremiumResolution'] = oscar;
     oscar = function(argFoo) { // Original name: isPremiumFPS
-        _fun52848: for(var _fun52848_ip = 0; ; ) switch(_fun52848_ip) {
+        _fun52855: for(var _fun52855_ip = 0; ; ) switch(_fun52855_ip) {
  0:
             tango = argFoo;
             mike = null;
-            if(!(mike == tango)) { _fun52848_ip = 15; continue _fun52848 }
+            if(!(mike == tango)) { _fun52855_ip = 15; continue _fun52855 }
  11:
             zulu = undefined;
             return zulu;
@@ -205,13 +205,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot10;
             zulu = tango.find;
             entity = function(argFoo) {
-                _fun52849: for(var _fun52849_ip = 0; ; ) switch(_fun52849_ip) {
+                _fun52856: for(var _fun52856_ip = 0; ; ) switch(_fun52856_ip) {
  0:
                     tango = argFoo;
                     mike = tango.fps;
                     entity = _closure2_slot0;
                     entity = mike === entity;
-                    if(!entity) { _fun52849_ip = 40; continue _fun52849 }
+                    if(!entity) { _fun52856_ip = 40; continue _fun52856 }
  23:
                     zulu = _closure1_slot14;
                     mike = undefined;
@@ -230,13 +230,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['isPremiumRequirement'] = report;
     zulu['getPremiumRequirement'] = tango;
     tango = function(argFoo) { // Original name: getResolutionText
-        _fun52850: for(var _fun52850_ip = 0; ; ) switch(_fun52850_ip) {
+        _fun52857: for(var _fun52857_ip = 0; ; ) switch(_fun52857_ip) {
  0:
             oscar = argFoo;
             zulu = oscar.type;
             entity = _closure1_slot13;
             entity = entity.SOURCE;
-            if(!(zulu !== entity)) { _fun52850_ip = 97; continue _fun52850 }
+            if(!(zulu !== entity)) { _fun52857_ip = 97; continue _fun52857 }
  25:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.height;
             entity['resolution'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun52850_ip = 154; continue _fun52850;
+            _fun52857_ip = 154; continue _fun52857;
  97:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -295,19 +295,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getFPSText'] = tango;
     tango = function(argFoo) { // Original name: getMaxQuality
-        _fun52852: for(var _fun52852_ip = 0; ; ) switch(_fun52852_ip) {
+        _fun52859: for(var _fun52859_ip = 0; ; ) switch(_fun52859_ip) {
  0:
             zulu = argFoo;
             entity = zulu.maxResolution;
             tango = null;
             mike = tango == entity;
             entity = null;
-            if(mike) { _fun52852_ip = 62; continue _fun52852 }
+            if(mike) { _fun52859_ip = 62; continue _fun52859 }
  20:
             mike = zulu.maxFrameRate;
             mike = tango == mike;
             entity = null;
-            if(mike) { _fun52852_ip = 62; continue _fun52852 }
+            if(mike) { _fun52859_ip = 62; continue _fun52859 }
  35:
             mike = {};
             tango = zulu.maxFrameRate;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMaxQuality'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: trackStreamSettingsUpdate
-        _fun52853: for(var _fun52853_ip = 0; ; ) switch(_fun52853_ip) {
+        _fun52860: for(var _fun52860_ip = 0; ; ) switch(_fun52860_ip) {
  0:
             options = argFoo;
             golf = argBar;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = null;
             mike = verify != tango;
             foxtrot = null;
-            if(!mike) { _fun52853_ip = 77; continue _fun52853 }
+            if(!mike) { _fun52860_ip = 77; continue _fun52860 }
  63:
             zulu = _closure1_slot3;
             mike = zulu.getGuild;
@@ -355,27 +355,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = {};
             kilo = verify == backup;
             yankee = undefined;
-            if(kilo) { _fun52853_ip = 129; continue _fun52853 }
+            if(kilo) { _fun52860_ip = 129; continue _fun52860 }
  123:
             yankee = backup.premiumType;
  129:
             mike['user_premium_tier'] = yankee;
             backup = verify == foxtrot;
             yankee = undefined;
-            if(backup) { _fun52853_ip = 149; continue _fun52853 }
+            if(backup) { _fun52860_ip = 149; continue _fun52860 }
  143:
             yankee = foxtrot.premiumTier;
  149:
             mike['guild_premium_tier'] = yankee;
             foxtrot = verify == offset;
             yankee = undefined;
-            if(foxtrot) { _fun52853_ip = 171; continue _fun52853 }
+            if(foxtrot) { _fun52860_ip = 171; continue _fun52860 }
  165:
             yankee = offset.quality;
  171:
             foxtrot = verify != yankee;
             yankee = null;
-            if(!foxtrot) { _fun52853_ip = 194; continue _fun52853 }
+            if(!foxtrot) { _fun52860_ip = 194; continue _fun52860 }
  180:
             foxtrot = _closure1_slot12;
             romeo = offset.quality;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['stream_quality_user_premium_tier'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun52853_ip = 216; continue _fun52853 }
+            if(yankee) { _fun52860_ip = 216; continue _fun52860 }
  210:
             verify = offset.guildPremiumTier;
  216:

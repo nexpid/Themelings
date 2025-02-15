@@ -40,16 +40,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/useActiveGuildSubscriptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useActiveGuildSubscriptions
-        _fun96588: for(var _fun96588_ip = 0; ; ) switch(_fun96588_ip) {
+        _fun96598: for(var _fun96598_ip = 0; ; ) switch(_fun96598_ip) {
  0:
             entity = arguments[0];
             report = undefined;
-            if(!(entity === report)) { _fun96588_ip = 13; continue _fun96588 }
+            if(!(entity === report)) { _fun96598_ip = 13; continue _fun96598 }
  11:
             entity = {};
  13:
             options = entity.ensureFresh;
-            if(!(options === report)) { _fun96588_ip = 25; continue _fun96588 }
+            if(!(options === report)) { _fun96598_ip = 25; continue _fun96598 }
  23:
             options = false;
  25:
@@ -91,7 +91,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango[0] = options;
             tango[1] = golf;
             zulu = function() {
-                _fun96590: for(var _fun96590_ip = 0; ; ) switch(_fun96590_ip) {
+                _fun96600: for(var _fun96600_ip = 0; ; ) switch(_fun96600_ip) {
  0:
                     entity = {};
                     mike = _closure2_slot0;
@@ -111,36 +111,36 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     offset = golf == options;
                     entity = undefined;
                     verify = undefined;
-                    if(offset) { _fun96590_ip = 90; continue _fun96590 }
+                    if(offset) { _fun96600_ip = 90; continue _fun96600 }
  85:
                     verify = options.length;
  90:
                     offset = golf != verify;
                     options = 0;
                     golf = 0;
-                    if(!offset) { _fun96590_ip = 104; continue _fun96590 }
+                    if(!offset) { _fun96600_ip = 104; continue _fun96600 }
  101:
                     golf = verify;
  104:
                     golf = options !== golf;
-                    if(golf) { _fun96590_ip = 114; continue _fun96590 }
+                    if(golf) { _fun96600_ip = 114; continue _fun96600 }
  111:
                     golf = !tango;
  114:
                     tango = !golf;
-                    if(!golf) { _fun96590_ip = 132; continue _fun96590 }
+                    if(!golf) { _fun96600_ip = 132; continue _fun96600 }
  120:
                     oscar = !oscar;
-                    if(oscar) { _fun96590_ip = 129; continue _fun96590 }
+                    if(oscar) { _fun96600_ip = 129; continue _fun96600 }
  126:
                     oscar = report;
  129:
                     tango = !oscar;
  132:
-                    if(tango) { _fun96590_ip = 161; continue _fun96590 }
+                    if(tango) { _fun96600_ip = 161; continue _fun96600 }
  135:
                     report = !report;
-                    if(!report) { _fun96590_ip = 158; continue _fun96590 }
+                    if(!report) { _fun96600_ip = 158; continue _fun96600 }
  141:
                     golf = _closure1_slot5;
                     oscar = golf.hasFetchedSubscriptions;
@@ -149,7 +149,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  158:
                     tango = report;
  161:
-                    if(!tango) { _fun96590_ip = 206; continue _fun96590 }
+                    if(!tango) { _fun96600_ip = 206; continue _fun96600 }
  164:
                     tango = _closure2_slot2;
                     zulu = true;
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             };
             zulu = report.bind(oscar)(zulu, tango);
             zulu = null;
-            if(!(zulu == entity)) { _fun96588_ip = 188; continue _fun96588 }
+            if(!(zulu == entity)) { _fun96598_ip = 188; continue _fun96598 }
  184:
             entity = _closure1_slot7;
  188:

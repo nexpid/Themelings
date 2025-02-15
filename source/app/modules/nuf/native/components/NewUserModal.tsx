@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/NewUserModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NewUserModal
-        _fun124286: for(var _fun124286_ip = 0; ; ) switch(_fun124286_ip) {
+        _fun124282: for(var _fun124282_ip = 0; ; ) switch(_fun124282_ip) {
  0:
             entity = argFoo;
             golf = entity.initialRouteName;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu[options];
             offset = offset.bind(tango)(options);
             options = function() {
-                _fun124288: for(var _fun124288_ip = 0; ; ) switch(_fun124288_ip) {
+                _fun124284: for(var _fun124284_ip = 0; ; ) switch(_fun124284_ip) {
  0:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.getRootNavigationRef;
                     report = zulu.bind(tango)();
                     zulu = null;
-                    if(!(zulu != report)) { _fun124288_ip = 292; continue _fun124288 }
+                    if(!(zulu != report)) { _fun124284_ip = 292; continue _fun124284 }
  44:
                     zulu = report.isReady;
                     zulu = zulu.bind(report)();
-                    if(!zulu) { _fun124288_ip = 292; continue _fun124288 }
+                    if(!zulu) { _fun124284_ip = 292; continue _fun124284 }
  60:
                     zulu = report.getRootState;
                     verify = zulu.bind(report)();
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure1_slot6;
                     zulu = tango.runAfterInteractions;
                     mike = function() {
-                        _fun124289: for(var _fun124289_ip = 0; ; ) switch(_fun124289_ip) {
+                        _fun124285: for(var _fun124285_ip = 0; ; ) switch(_fun124285_ip) {
  0:
                             tango = _closure2_slot1;
                             zulu = tango.setOptions;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = oscar.isAndroid;
                             oscar = report.bind(oscar)();
                             report = 'fade';
-                            if(!oscar) { _fun124289_ip = 62; continue _fun124289 }
+                            if(!oscar) { _fun124285_ip = 62; continue _fun124285 }
  56:
                             report = 'slide_from_left';
  62:
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = romeo;
             options[1] = oscar;
             oscar = function(argFoo) {
-                _fun124290: for(var _fun124290_ip = 0; ; ) switch(_fun124290_ip) {
+                _fun124286: for(var _fun124286_ip = 0; ; ) switch(_fun124286_ip) {
  0:
                     mike = argFoo;
                     tango = _closure1_slot0;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.getNextOnboardingStep;
                     zulu = null;
                     tango = zulu != mike;
-                    if(!tango) { _fun124290_ip = 46; continue _fun124290 }
+                    if(!tango) { _fun124286_ip = 46; continue _fun124286 }
  43:
                     tango = mike;
  46:
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(oscar)(tango, zulu, mike);
                     zulu = tango.then;
                     mike = function(argFoo) {
-                        _fun124291: for(var _fun124291_ip = 0; ; ) switch(_fun124291_ip) {
+                        _fun124287: for(var _fun124287_ip = 0; ; ) switch(_fun124287_ip) {
  0:
                             entity = argFoo;
                             oscar = entity.lastShownStepIndex;
@@ -271,12 +271,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = tango.bind(entity)(report);
                             tango = _closure2_slot6;
                             tango = tango.bind(entity)(oscar);
-                            if(!zulu) { _fun124291_ip = 62; continue _fun124291 }
+                            if(!zulu) { _fun124287_ip = 62; continue _fun124287 }
  47:
                             zulu = _closure2_slot7;
                             tango = zulu.current;
                             zulu = null;
-                            if(!(zulu == tango)) { _fun124291_ip = 120; continue _fun124291 }
+                            if(!(zulu == tango)) { _fun124287_ip = 120; continue _fun124287 }
  62:
                             oscar = _closure1_slot1;
                             options = _closure1_slot2;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = golf.bind(entity)(zulu);
                             zulu = zulu.NEW_USER_MODAL_KEY;
                             zulu = tango.bind(oscar)(zulu);
-                            _fun124291_ip = 164; continue _fun124291;
+                            _fun124287_ip = 164; continue _fun124287;
  120:
                             tango = _closure1_slot0;
                             oscar = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.Navigator;
             entity = {};
             oscar = function(argFoo) { // Original name: screenOptions
-                _fun124295: for(var _fun124295_ip = 0; ; ) switch(_fun124295_ip) {
+                _fun124291: for(var _fun124291_ip = 0; ; ) switch(_fun124291_ip) {
  0:
                     entity = argFoo;
                     tango = entity.navigation;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.isAndroid;
                     tango = zulu.bind(tango)();
                     zulu = 'card';
-                    if(!tango) { _fun124295_ip = 126; continue _fun124295 }
+                    if(!tango) { _fun124291_ip = 126; continue _fun124291 }
  120:
                     zulu = 'transparentModal';
  126:
@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = oscar != golf;
             romeo = 'choose-avatar';
             oscar = romeo;
-            if(!options) { _fun124286_ip = 371; continue _fun124286 }
+            if(!options) { _fun124282_ip = 371; continue _fun124282 }
  368:
             oscar = golf;
  371:

@@ -19,15 +19,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/messages/getDisplayFilename.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: getDisplayFilename
-        _fun69366: for(var _fun69366_ip = 0; ; ) switch(_fun69366_ip) {
+        _fun69372: for(var _fun69372_ip = 0; ; ) switch(_fun69372_ip) {
  0:
             entity = argFoo;
             mike = entity.title;
             zulu = null;
-            if(!(zulu != mike)) { _fun69366_ip = 24; continue _fun69366 }
+            if(!(zulu != mike)) { _fun69372_ip = 24; continue _fun69372 }
  14:
             mike = entity.filename;
-            if(!(zulu == mike)) { _fun69366_ip = 32; continue _fun69366 }
+            if(!(zulu == mike)) { _fun69372_ip = 32; continue _fun69372 }
  24:
             mike = entity.filename;
             return mike;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = 0;
             zulu = report > mike;
             mike = '';
-            if(!zulu) { _fun69366_ip = 83; continue _fun69366 }
+            if(!zulu) { _fun69372_ip = 83; continue _fun69372 }
  66:
             tango = entity.filename;
             zulu = tango.substr;

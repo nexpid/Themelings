@@ -32,7 +32,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/settings/screens/PremiumSettingScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumScreen
-        _fun95728: for(var _fun95728_ip = 0; ; ) switch(_fun95728_ip) {
+        _fun95738: for(var _fun95738_ip = 0; ; ) switch(_fun95738_ip) {
  0:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = zulu.canGoBack;
             mike = mike.bind(zulu)();
             oscar = undefined;
-            if(mike) { _fun95728_ip = 98; continue _fun95728 }
+            if(mike) { _fun95738_ip = 98; continue _fun95738 }
  72:
             zulu = _closure1_slot1;
             golf = _closure1_slot2;

@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/AppealIngestionConfirmSubmission.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppealIngestionConfirmSubmission
-        _fun92715: for(var _fun92715_ip = 0; ; ) switch(_fun92715_ip) {
+        _fun92747: for(var _fun92747_ip = 0; ; ) switch(_fun92747_ip) {
  0:
             entity = argFoo;
             offset = entity.isDsaEligible;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = zulu.bind(tango)(entity);
             zulu = report.useSafetyHubClassification;
             entity = null;
-            if(!(entity == mike)) { _fun92715_ip = 102; continue _fun92715 }
+            if(!(entity == mike)) { _fun92747_ip = 102; continue _fun92747 }
  98:
             mike = _closure1_slot5;
  102:
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.classification;
             zulu = entity == mike;
             kilo = undefined;
-            if(zulu) { _fun92715_ip = 210; continue _fun92715 }
+            if(zulu) { _fun92747_ip = 210; continue _fun92747 }
  204:
             kilo = mike.flagged_content;
  210:
-            if(!(entity == kilo)) { _fun92715_ip = 218; continue _fun92715 }
+            if(!(entity == kilo)) { _fun92747_ip = 218; continue _fun92747 }
  214:
             kilo = new Array(0);
  218:
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(tango)(yankee, options);
             options = new Array(4);
             options[0] = yankee;
-            if(!offset) { _fun92715_ip = 687; continue _fun92715 }
+            if(!offset) { _fun92747_ip = 687; continue _fun92747 }
  496:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot0;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['onPress'] = output;
             output = sizing.length;
             sizing = 0;
-            if(!(!(output > sizing))) { _fun92715_ip = 625; continue _fun92715 }
+            if(!(!(output > sizing))) { _fun92747_ip = 625; continue _fun92747 }
  571:
             echo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.t;
             sizing = sizing.uoQFIi;
             sizing = output.bind(result)(sizing);
-            _fun92715_ip = 677; continue _fun92715;
+            _fun92747_ip = 677; continue _fun92747;
  625:
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = kilo.length;
             offset = 0;
             offset = yankee > offset;
-            if(!offset) { _fun92715_ip = 742; continue _fun92715 }
+            if(!offset) { _fun92747_ip = 742; continue _fun92747 }
  705:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot1;

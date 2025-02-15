@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/messages/native/renderer/rows/Separator.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: Separator
-        _fun72705: for(var _fun72705_ip = 0; ; ) switch(_fun72705_ip) {
+        _fun72711: for(var _fun72711_ip = 0; ; ) switch(_fun72711_ip) {
  0:
             entity = argFoo;
             mike = entity.row;
@@ -80,15 +80,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(tango)(report);
             zulu = _closure1_slot4;
             zulu = zulu.DAY;
-            if(!(zulu !== golf)) { _fun72705_ip = 302; continue _fun72705 }
+            if(!(zulu !== golf)) { _fun72711_ip = 302; continue _fun72711 }
  84:
             zulu = _closure1_slot4;
             zulu = zulu.UNREAD;
-            if(!(zulu !== golf)) { _fun72705_ip = 234; continue _fun72705 }
+            if(!(zulu !== golf)) { _fun72711_ip = 234; continue _fun72711 }
  101:
             zulu = _closure1_slot4;
             zulu = zulu.SUMMARY;
-            if(!(zulu !== golf)) { _fun72705_ip = 148; continue _fun72705 }
+            if(!(zulu !== golf)) { _fun72711_ip = 148; continue _fun72711 }
  115:
             report = _closure1_slot0;
             options = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['default'] = report;
     zulu['resolveBaseColors'] = tango;
     mike = function(argFoo, argBar) { // Original name: generateSeparatorRowData
-        _fun72706: for(var _fun72706_ip = 0; ; ) switch(_fun72706_ip) {
+        _fun72712: for(var _fun72712_ip = 0; ; ) switch(_fun72712_ip) {
  0:
             entity = argFoo;
             report = entity.rowType;
@@ -167,15 +167,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = golf.bind(zulu)(tango);
             golf = _closure1_slot4;
             golf = golf.DAY;
-            if(!(golf !== report)) { _fun72706_ip = 247; continue _fun72706 }
+            if(!(golf !== report)) { _fun72712_ip = 247; continue _fun72712 }
  49:
             golf = _closure1_slot4;
             golf = golf.UNREAD;
-            if(!(golf !== report)) { _fun72706_ip = 179; continue _fun72706 }
+            if(!(golf !== report)) { _fun72712_ip = 179; continue _fun72712 }
  63:
             golf = _closure1_slot4;
             golf = golf.SUMMARY;
-            if(!(golf !== report)) { _fun72706_ip = 110; continue _fun72706 }
+            if(!(golf !== report)) { _fun72712_ip = 110; continue _fun72712 }
  77:
             options = _closure1_slot0;
             verify = _closure1_slot2;

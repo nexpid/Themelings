@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = verify;
     tango = function() { // Original name: useJumpToChannelId
-        _fun113467: for(var _fun113467_ip = 0; ; ) switch(_fun113467_ip) {
+        _fun113473: for(var _fun113473_ip = 0; ; ) switch(_fun113473_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.params;
             zulu = null;
             zulu = zulu == mike;
-            if(zulu) { _fun113467_ip = 56; continue _fun113467 }
+            if(zulu) { _fun113473_ip = 56; continue _fun113473 }
  50:
             entity = mike.jumpToChannelId;
  56:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot5 = zulu;
         zulu = tango.useEffect;
         mike = function() {
-            _fun113472: for(var _fun113472_ip = 0; ; ) switch(_fun113472_ip) {
+            _fun113478: for(var _fun113478_ip = 0; ; ) switch(_fun113478_ip) {
  0:
                 backup = function() { // Original name: clearNavigationParams
                     tango = _closure2_slot2;
@@ -219,24 +219,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = _closure2_slot5;
                 mike = entity.current;
                 entity = _closure2_slot4;
-                if(!(mike !== entity)) { _fun113472_ip = 363; continue _fun113472 }
+                if(!(mike !== entity)) { _fun113478_ip = 363; continue _fun113478 }
  36:
                 entity = _closure2_slot5;
                 mike = _closure2_slot4;
                 entity['current'] = mike;
                 entity = null;
-                if(!(entity != mike)) { _fun113472_ip = 363; continue _fun113472 }
+                if(!(entity != mike)) { _fun113478_ip = 363; continue _fun113478 }
  59:
                 report = _closure2_slot0;
                 zulu = report.findIndex;
                 mike = function(argFoo) {
-                    _fun113474: for(var _fun113474_ip = 0; ; ) switch(_fun113474_ip) {
+                    _fun113480: for(var _fun113480_ip = 0; ; ) switch(_fun113480_ip) {
  0:
                         mike = argFoo;
                         zulu = mike.kind;
                         entity = 'channel';
                         entity = entity === zulu;
-                        if(!entity) { _fun113474_ip = 40; continue _fun113474 }
+                        if(!entity) { _fun113480_ip = 40; continue _fun113480 }
  19:
                         mike = mike.channel;
                         zulu = mike.id;
@@ -248,15 +248,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 report = zulu.bind(report)(mike);
                 mike = -1;
-                if(!(!(report > mike))) { _fun113472_ip = 102; continue _fun113472 }
+                if(!(!(report > mike))) { _fun113478_ip = 102; continue _fun113478 }
  91:
                 mike = undefined;
                 mike = backup.bind(mike)();
-                _fun113472_ip = 363; continue _fun113472;
+                _fun113478_ip = 363; continue _fun113478;
  102:
                 mike = _closure2_slot1;
                 zulu = mike.current;
-                if(!(entity != zulu)) { _fun113472_ip = 159; continue _fun113472 }
+                if(!(entity != zulu)) { _fun113478_ip = 159; continue _fun113478 }
  115:
                 mike = zulu.scrollToIndex;
                 entity = {};
@@ -291,10 +291,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = output.bind(sizing)(offset);
                 yankee = romeo.withSpring;
                 offset = function(argFoo) { // Original name: n
-                    _fun113475: for(var _fun113475_ip = 0; ; ) switch(_fun113475_ip) {
+                    _fun113481: for(var _fun113481_ip = 0; ; ) switch(_fun113481_ip) {
  0:
                         entity = argFoo;
-                        if(!entity) { _fun113475_ip = 52; continue _fun113475 }
+                        if(!entity) { _fun113481_ip = 52; continue _fun113481 }
  6:
                         zulu = _closure1_slot0;
                         mike = _closure1_slot2;

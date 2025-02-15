@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/private_channel_creation/maybeConvertPrivateChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: maybeConvertPrivateChannel
-        _fun82148: for(var _fun82148_ip = 0; ; ) switch(_fun82148_ip) {
+        _fun82164: for(var _fun82164_ip = 0; ; ) switch(_fun82164_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -37,14 +37,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = undefined;
             entity = mike.bind(report)(entity);
             entity = entity.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
-            if(!(tango === entity)) { _fun82148_ip = 100; continue _fun82148 }
+            if(!(tango === entity)) { _fun82164_ip = 100; continue _fun82164 }
  38:
             mike = _closure1_slot3;
             entity = mike.getChannel;
             mike = entity.bind(mike)(tango);
             entity = null;
             tango = entity == mike;
-            if(tango) { _fun82148_ip = 98; continue _fun82148 }
+            if(tango) { _fun82164_ip = 98; continue _fun82164 }
  61:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;

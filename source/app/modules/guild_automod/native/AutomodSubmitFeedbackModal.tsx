@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar['style'] = backup;
         backup = echo.map;
         yankee = function(argFoo, argBar) {
-            _fun91987: for(var _fun91987_ip = 0; ; ) switch(_fun91987_ip) {
+            _fun92016: for(var _fun92016_ip = 0; ; ) switch(_fun92016_ip) {
  0:
                 entity = argFoo;
                 foxtrot = entity.name;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify - golf;
                 golf = argBar;
                 golf = golf < verify;
-                if(!golf) { _fun91987_ip = 235; continue _fun91987 }
+                if(!golf) { _fun92016_ip = 235; continue _fun92016 }
  200:
                 offset = _closure1_slot7;
                 verify = _closure1_slot0;

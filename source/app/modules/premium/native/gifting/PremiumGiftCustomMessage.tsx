@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: PremiumGiftCustomMessage
-        _fun88026: for(var _fun88026_ip = 0; ; ) switch(_fun88026_ip) {
+        _fun88043: for(var _fun88043_ip = 0; ; ) switch(_fun88043_ip) {
  0:
             entity = argFoo;
             golf = entity.onFocusMessage;
@@ -92,11 +92,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[sizing];
             entity = offset.bind(tango)(entity);
             entity = entity.t;
-            if(verify) { _fun88026_ip = 162; continue _fun88026 }
+            if(verify) { _fun88043_ip = 162; continue _fun88043 }
  149:
             verify = entity.ZkOo1d;
             yankee = mike.bind(zulu)(verify);
-            _fun88026_ip = 173; continue _fun88026;
+            _fun88043_ip = 173; continue _fun88043;
  162:
             entity = entity.rX/m/f;
             yankee = mike.bind(zulu)(entity);

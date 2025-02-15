@@ -8,18 +8,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: renderActivityOrPIP
-        _fun121322: for(var _fun121322_ip = 0; ; ) switch(_fun121322_ip) {
+        _fun121328: for(var _fun121328_ip = 0; ; ) switch(_fun121328_ip) {
  0:
             report = _closure1_slot7;
             mike = _closure1_slot1;
             tango = 'pip';
             entity = argBar;
-            if(!(tango !== entity)) { _fun121322_ip = 35; continue _fun121322 }
+            if(!(tango !== entity)) { _fun121328_ip = 35; continue _fun121328 }
  22:
             tango = _closure1_slot2;
             entity = 5;
             entity = tango[entity];
-            _fun121322_ip = 46; continue _fun121322;
+            _fun121328_ip = 46; continue _fun121328;
  35:
             tango = _closure1_slot2;
             zulu = 4;
@@ -128,32 +128,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun121326: for(var _fun121326_ip = 0; ; ) switch(_fun121326_ip) {
+            _fun121332: for(var _fun121332_ip = 0; ; ) switch(_fun121332_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = _closure1_slot6;
                 mike = mike.DISCONNECTED;
-                if(!(zulu !== mike)) { _fun121326_ip = 79; continue _fun121326 }
+                if(!(zulu !== mike)) { _fun121332_ip = 79; continue _fun121332 }
  24:
                 zulu = _closure2_slot0;
                 mike = _closure1_slot6;
                 mike = mike.PIP;
-                if(!(zulu === mike)) { _fun121326_ip = 49; continue _fun121326 }
+                if(!(zulu === mike)) { _fun121332_ip = 49; continue _fun121332 }
  42:
                 mike = _closure2_slot1;
-                if(mike) { _fun121326_ip = 79; continue _fun121326 }
+                if(mike) { _fun121332_ip = 79; continue _fun121332 }
  49:
                 mike = _closure2_slot0;
                 entity = _closure1_slot6;
                 entity = entity.PIP;
-                if(!(mike !== entity)) { _fun121326_ip = 73; continue _fun121326 }
+                if(!(mike !== entity)) { _fun121332_ip = 73; continue _fun121332 }
  67:
                 offset = _closure1_slot11;
-                _fun121326_ip = 77; continue _fun121326;
+                _fun121332_ip = 77; continue _fun121332;
  73:
                 offset = _closure1_slot10;
  77:
-                _fun121326_ip = 83; continue _fun121326;
+                _fun121332_ip = 83; continue _fun121332;
  79:
                 offset = _closure1_slot9;
  83:

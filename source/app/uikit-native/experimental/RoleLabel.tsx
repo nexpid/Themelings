@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/experimental/RoleLabel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RoleLabel
-        _fun87563: for(var _fun87563_ip = 0; ; ) switch(_fun87563_ip) {
+        _fun87580: for(var _fun87580_ip = 0; ; ) switch(_fun87580_ip) {
  0:
             entity = argFoo;
             verify = entity.name;
@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             entity = 'username';
             entity = entity === golf;
-            if(!entity) { _fun87563_ip = 89; continue _fun87563 }
+            if(!entity) { _fun87580_ip = 89; continue _fun87580 }
  83:
             mike = null;
             entity = mike != romeo;
  89:
-            if(!entity) { _fun87563_ip = 101; continue _fun87563 }
+            if(!entity) { _fun87580_ip = 101; continue _fun87580 }
  92:
             entity = {};
             entity['color'] = romeo;
@@ -98,12 +98,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = 'dot';
             golf = report === golf;
-            if(!golf) { _fun87563_ip = 141; continue _fun87563 }
+            if(!golf) { _fun87580_ip = 141; continue _fun87580 }
  135:
             report = null;
             golf = report != romeo;
  141:
-            if(!golf) { _fun87563_ip = 201; continue _fun87563 }
+            if(!golf) { _fun87580_ip = 201; continue _fun87580 }
  144:
             yankee = _closure1_slot4;
             options = _closure1_slot0;

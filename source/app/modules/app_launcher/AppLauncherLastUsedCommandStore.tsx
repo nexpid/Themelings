@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun114843: for(var _fun114843_ip = 0; ; ) switch(_fun114843_ip) {
+        _fun114849: for(var _fun114849_ip = 0; ; ) switch(_fun114849_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun114843_ip = 51; continue _fun114843 }
+            if(entity) { _fun114849_ip = 51; continue _fun114849 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun114843_ip = 92; continue _fun114843;
+            _fun114849_ip = 92; continue _fun114849;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun114843_ip = 71; continue _fun114843 }
+            if(oscar) { _fun114849_ip = 71; continue _fun114849 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun114844: for(var _fun114844_ip = 0; ; ) switch(_fun114844_ip) {
+        _fun114850: for(var _fun114850_ip = 0; ; ) switch(_fun114850_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun114844_ip = 76; continue _fun114844;
+            _fun114850_ip = 76; continue _fun114850;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -143,11 +143,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun114849: for(var _fun114849_ip = 0; ; ) switch(_fun114849_ip) {
+            _fun114855: for(var _fun114855_ip = 0; ; ) switch(_fun114855_ip) {
  0:
                 entity = argFoo;
                 mike = null;
-                if(!(mike != entity)) { _fun114849_ip = 40; continue _fun114849 }
+                if(!(mike != entity)) { _fun114855_ip = 40; continue _fun114855 }
  9:
                 mike = _closure1_slot6;
                 zulu = entity.lastUsedCommandId;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getLastUsedCommandId';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun114851: for(var _fun114851_ip = 0; ; ) switch(_fun114851_ip) {
+            _fun114857: for(var _fun114857_ip = 0; ; ) switch(_fun114857_ip) {
  0:
                 entity = global;
                 mike = entity.Date;
@@ -186,19 +186,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = null;
                 zulu = tango == entity;
                 entity = null;
-                if(zulu) { _fun114851_ip = 108; continue _fun114851 }
+                if(zulu) { _fun114857_ip = 108; continue _fun114857 }
  41:
                 zulu = _closure1_slot6;
                 zulu = zulu.lastUsedCommandId;
                 zulu = tango == zulu;
                 entity = null;
-                if(zulu) { _fun114851_ip = 108; continue _fun114851 }
+                if(zulu) { _fun114857_ip = 108; continue _fun114857 }
  60:
                 zulu = _closure1_slot6;
                 oscar = zulu.lastUsedTimeMs;
                 zulu = _closure1_slot5;
                 zulu = oscar + zulu;
-                if(!(report > zulu)) { _fun114851_ip = 98; continue _fun114851 }
+                if(!(report > zulu)) { _fun114857_ip = 98; continue _fun114857 }
  82:
                 zulu = _closure1_slot6;
                 zulu['lastUsedCommandId'] = tango;

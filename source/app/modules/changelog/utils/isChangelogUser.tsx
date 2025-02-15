@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/changelog/utils/isChangelogUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isChangelogUser
-        _fun38166: for(var _fun38166_ip = 0; ; ) switch(_fun38166_ip) {
+        _fun38173: for(var _fun38173_ip = 0; ; ) switch(_fun38173_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun38166_ip = 23; continue _fun38166 }
+            if(!entity) { _fun38173_ip = 23; continue _fun38173 }
  12:
             mike = _closure1_slot0;
             entity = zulu === mike;

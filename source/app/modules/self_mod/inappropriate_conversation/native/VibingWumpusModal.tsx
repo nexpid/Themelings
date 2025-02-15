@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = golf;
     mike = function() { // Original name: VibingWumpusScreen
-        _fun79604: for(var _fun79604_ip = 0; ; ) switch(_fun79604_ip) {
+        _fun79614: for(var _fun79614_ip = 0; ; ) switch(_fun79614_ip) {
  0:
             entity = _closure1_slot15;
             tango = undefined;
@@ -157,7 +157,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             romeo = foxtrot.wumpus;
             verify['style'] = romeo;
             romeo = undefined;
-            if(!backup) { _fun79604_ip = 326; continue _fun79604 }
+            if(!backup) { _fun79614_ip = 326; continue _fun79614 }
  316:
             romeo = 0.8;
  326:
@@ -280,18 +280,18 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             echo = echo[sequence];
             echo = source.bind(tango)(echo);
             source = echo.t;
-            if(output) { _fun79604_ip = 808; continue _fun79604 }
+            if(output) { _fun79614_ip = 808; continue _fun79614 }
  795:
             echo = source.ZcgDJS;
             echo = control.bind(vacuum)(echo);
-            _fun79604_ip = 819; continue _fun79604;
+            _fun79614_ip = 819; continue _fun79614;
  808:
             source = source.RscU7O;
             echo = control.bind(vacuum)(source);
  819:
             backup['text'] = echo;
             result = function() { // Original name: onPress
-                _fun79609: for(var _fun79609_ip = 0; ; ) switch(_fun79609_ip) {
+                _fun79619: for(var _fun79619_ip = 0; ; ) switch(_fun79619_ip) {
  0:
                     zulu = _closure2_slot0;
                     oscar = _closure1_slot0;
@@ -300,7 +300,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     tango = report[entity];
                     entity = undefined;
                     tango = oscar.bind(entity)(tango);
-                    if(zulu) { _fun79609_ip = 100; continue _fun79609 }
+                    if(zulu) { _fun79619_ip = 100; continue _fun79619 }
  35:
                     zulu = tango.pauseVibingWumpusMusic;
                     zulu = zulu.bind(tango)();
@@ -316,7 +316,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     offset = offset.PAUSE;
                     zulu['action'] = offset;
                     zulu = options.bind(verify)(oscar, zulu);
-                    _fun79609_ip = 163; continue _fun79609;
+                    _fun79619_ip = 163; continue _fun79619;
  100:
                     zulu = tango.playVibingWumpusMusic;
                     zulu = zulu.bind(tango)();
@@ -334,30 +334,30 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     zulu = report.bind(oscar)(tango, zulu);
  163:
                     zulu = _closure2_slot3;
-                    if(zulu) { _fun79609_ip = 204; continue _fun79609 }
+                    if(zulu) { _fun79619_ip = 204; continue _fun79619 }
  170:
                     zulu = _closure2_slot0;
-                    if(!zulu) { _fun79609_ip = 204; continue _fun79609 }
+                    if(!zulu) { _fun79619_ip = 204; continue _fun79619 }
  177:
                     zulu = _closure2_slot2;
                     tango = zulu.current;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun79609_ip = 243; continue _fun79609 }
+                    if(!(zulu != tango)) { _fun79619_ip = 243; continue _fun79619 }
  192:
                     zulu = tango.resume;
                     zulu = zulu.bind(tango)();
-                    _fun79609_ip = 243; continue _fun79609;
+                    _fun79619_ip = 243; continue _fun79619;
  204:
                     zulu = _closure2_slot3;
-                    if(zulu) { _fun79609_ip = 243; continue _fun79609 }
+                    if(zulu) { _fun79619_ip = 243; continue _fun79619 }
  211:
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun79609_ip = 243; continue _fun79609 }
+                    if(zulu) { _fun79619_ip = 243; continue _fun79619 }
  218:
                     zulu = _closure2_slot2;
                     tango = zulu.current;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun79609_ip = 243; continue _fun79609 }
+                    if(!(zulu != tango)) { _fun79619_ip = 243; continue _fun79619 }
  233:
                     zulu = tango.pause;
                     zulu = zulu.bind(tango)();
@@ -373,13 +373,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             echo = _closure1_slot12;
             source = _closure1_slot0;
             control = _closure1_slot2;
-            if(output) { _fun79604_ip = 871; continue _fun79604 }
+            if(output) { _fun79614_ip = 871; continue _fun79614 }
  851:
             output = 21;
             output = control[output];
             output = source.bind(tango)(output);
             result = output.PauseIcon;
-            _fun79604_ip = 889; continue _fun79604;
+            _fun79614_ip = 889; continue _fun79614;
  871:
             output = 20;
             output = control[output];

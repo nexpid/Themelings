@@ -24,20 +24,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/isActivityPermanentCustomStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isActivityPermanentCustomStatus
-        _fun115016: for(var _fun115016_ip = 0; ; ) switch(_fun115016_ip) {
+        _fun115022: for(var _fun115022_ip = 0; ; ) switch(_fun115022_ip) {
  0:
             mike = argFoo;
             zulu = mike.type;
             entity = _closure1_slot0;
             entity = entity.CUSTOM_STATUS;
             entity = zulu === entity;
-            if(!entity) { _fun115016_ip = 54; continue _fun115016 }
+            if(!entity) { _fun115022_ip = 54; continue _fun115022 }
  28:
             tango = mike.timestamps;
             zulu = null;
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun115016_ip = 50; continue _fun115016 }
+            if(report) { _fun115022_ip = 50; continue _fun115022 }
  45:
             mike = tango.end;
  50:

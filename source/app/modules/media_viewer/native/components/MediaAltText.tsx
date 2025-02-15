@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_viewer/native/components/MediaAltText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MediaAltText
-        _fun102233: for(var _fun102233_ip = 0; ; ) switch(_fun102233_ip) {
+        _fun102225: for(var _fun102225_ip = 0; ; ) switch(_fun102225_ip) {
  0:
             mike = argFoo;
             offset = mike.description;
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = zulu;
             zulu = function() {
-                _fun102234: for(var _fun102234_ip = 0; ; ) switch(_fun102234_ip) {
+                _fun102226: for(var _fun102226_ip = 0; ; ) switch(_fun102226_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun102234_ip = 26; continue _fun102234 }
+                    if(!(mike != zulu)) { _fun102226_ip = 26; continue _fun102226 }
  13:
                     tango = _closure2_slot1;
                     zulu = undefined;
@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = oscar.bind(golf)(entity, zulu);
             entity = null;
-            if(!tango) { _fun102233_ip = 385; continue _fun102233 }
+            if(!tango) { _fun102225_ip = 385; continue _fun102225 }
  181:
             entity = null;
-            if(!mike) { _fun102233_ip = 385; continue _fun102233 }
+            if(!mike) { _fun102225_ip = 385; continue _fun102225 }
  189:
             tango = _closure1_slot7;
             zulu = _closure1_slot5;

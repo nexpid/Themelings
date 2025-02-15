@@ -22,11 +22,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/premium/tiered_tenure_badging/experiments/TieredTenureBadgingExperimentUtils.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useTieredTenureBadgesExperiment
-        _fun77441: for(var _fun77441_ip = 0; ; ) switch(_fun77441_ip) {
+        _fun77451: for(var _fun77451_ip = 0; ; ) switch(_fun77451_ip) {
  0:
             report = arguments[0];
             zulu = undefined;
-            if(!(report === zulu)) { _fun77441_ip = 11; continue _fun77441 }
+            if(!(report === zulu)) { _fun77451_ip = 11; continue _fun77451 }
  9:
             report = false;
  11:

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = verify;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: CoachmarkImg
-        _fun77506: for(var _fun77506_ip = 0; ; ) switch(_fun77506_ip) {
+        _fun77516: for(var _fun77516_ip = 0; ; ) switch(_fun77516_ip) {
  0:
             entity = argFoo;
             mike = entity.badge;
@@ -16,11 +16,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = undefined;
             verify = entity.bind(report)();
             entity = null;
-            if(!(entity != mike)) { _fun77506_ip = 147; continue _fun77506 }
+            if(!(entity != mike)) { _fun77516_ip = 148; continue _fun77516 }
  28:
             tango = mike.badgeVersion;
             zulu = 2;
-            if(!(zulu === tango)) { _fun77506_ip = 147; continue _fun77506 }
+            if(!(zulu === tango)) { _fun77516_ip = 148; continue _fun77516 }
  41:
             yankee = mike.id;
             tango = _closure1_slot8;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 147:
+ 148:
             return entity;
         }
     };
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/premium/tiered_tenure_badging/native/TieredTenureBadgeCoachmark.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: TieredTenureBadgeCoachmark
-        _fun77507: for(var _fun77507_ip = 0; ; ) switch(_fun77507_ip) {
+        _fun77517: for(var _fun77517_ip = 0; ; ) switch(_fun77517_ip) {
  0:
             entity = argFoo;
             report = entity.targetRef;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             zulu = entity != options;
             offset = null;
-            if(!zulu) { _fun77507_ip = 104; continue _fun77507 }
+            if(!zulu) { _fun77517_ip = 104; continue _fun77517 }
  76:
             golf = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = zulu.bind(golf)(options);
  104:
             _closure2_slot0 = offset;
-            if(!(entity == offset)) { _fun77507_ip = 118; continue _fun77507 }
+            if(!(entity == offset)) { _fun77517_ip = 118; continue _fun77517 }
  112:
             yankee = new Array(0);
-            _fun77507_ip = 161; continue _fun77507;
+            _fun77517_ip = 161; continue _fun77517;
  118:
             golf = _closure1_slot0;
             options = _closure1_slot2;

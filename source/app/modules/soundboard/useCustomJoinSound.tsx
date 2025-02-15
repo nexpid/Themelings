@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     entity = function(argFoo, argBar) { // Original name: _getCustomJoinSound
-        _fun65629: for(var _fun65629_ip = 0; ; ) switch(_fun65629_ip) {
+        _fun65634: for(var _fun65634_ip = 0; ; ) switch(_fun65634_ip) {
  0:
             oscar = argBar;
             entity = argFoo;
@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             zulu = report == mike;
             tango = undefined;
-            if(zulu) { _fun65629_ip = 27; continue _fun65629 }
+            if(zulu) { _fun65634_ip = 27; continue _fun65634 }
  21:
             tango = mike.joinSound;
  27:
@@ -22,27 +22,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar[mike];
             golf = report == mike;
             oscar = undefined;
-            if(golf) { _fun65629_ip = 53; continue _fun65629 }
+            if(golf) { _fun65634_ip = 53; continue _fun65634 }
  47:
             oscar = mike.joinSound;
  53:
-            if(!(report != tango)) { _fun65629_ip = 60; continue _fun65629 }
+            if(!(report != tango)) { _fun65634_ip = 60; continue _fun65634 }
  57:
             oscar = tango;
  60:
             mike = report != oscar;
             entity = undefined;
-            if(!mike) { _fun65629_ip = 119; continue _fun65629 }
+            if(!mike) { _fun65634_ip = 119; continue _fun65634 }
  69:
             mike = {};
             verify = mike;
             options = oscar;
             oscar = copyDataProperties(verify, options);
-            if(!(report == tango)) { _fun65629_ip = 97; continue _fun65629 }
+            if(!(report == tango)) { _fun65634_ip = 97; continue _fun65634 }
  85:
             tango = _closure1_slot4;
             tango = tango.GLOBAL;
-            _fun65629_ip = 107; continue _fun65629;
+            _fun65634_ip = 107; continue _fun65634;
  97:
             zulu = _closure1_slot4;
             tango = zulu.GUILD;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun65631: for(var _fun65631_ip = 0; ; ) switch(_fun65631_ip) {
+            _fun65636: for(var _fun65636_ip = 0; ; ) switch(_fun65636_ip) {
  0:
                 mike = _closure1_slot2;
                 mike = mike.settings;
@@ -112,11 +112,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = mike == report;
                 tango = undefined;
                 zulu = undefined;
-                if(oscar) { _fun65631_ip = 38; continue _fun65631 }
+                if(oscar) { _fun65636_ip = 38; continue _fun65636 }
  32:
                 zulu = report.guilds;
  38:
-                if(!(mike == zulu)) { _fun65631_ip = 44; continue _fun65631 }
+                if(!(mike == zulu)) { _fun65636_ip = 44; continue _fun65636 }
  42:
                 zulu = {};
  44:
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useCustomJoinSound'] = tango;
     mike = function(argFoo) { // Original name: getCustomJoinSound
-        _fun65632: for(var _fun65632_ip = 0; ; ) switch(_fun65632_ip) {
+        _fun65637: for(var _fun65637_ip = 0; ; ) switch(_fun65637_ip) {
  0:
             tango = _closure1_slot5;
             entity = _closure1_slot2;
@@ -141,11 +141,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity == report;
             zulu = undefined;
             mike = undefined;
-            if(oscar) { _fun65632_ip = 42; continue _fun65632 }
+            if(oscar) { _fun65637_ip = 42; continue _fun65637 }
  36:
             mike = report.guilds;
  42:
-            if(!(entity == mike)) { _fun65632_ip = 48; continue _fun65632 }
+            if(!(entity == mike)) { _fun65637_ip = 48; continue _fun65637 }
  46:
             mike = {};
  48:

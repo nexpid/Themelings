@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/external_pip/ExternalPipView.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ExternalPipView
-        _fun121201: for(var _fun121201_ip = 0; ; ) switch(_fun121201_ip) {
+        _fun121207: for(var _fun121207_ip = 0; ; ) switch(_fun121207_ip) {
  0:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -174,13 +174,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.bind(tango)(mike);
                 var _closure3_slot0 = mike;
                 entity = function() {
-                    _fun121210: for(var _fun121210_ip = 0; ; ) switch(_fun121210_ip) {
+                    _fun121216: for(var _fun121216_ip = 0; ; ) switch(_fun121216_ip) {
  0:
                         zulu = _closure3_slot0;
                         entity = null;
                         zulu = entity == zulu;
                         entity = undefined;
-                        if(zulu) { _fun121210_ip = 32; continue _fun121210 }
+                        if(zulu) { _fun121216_ip = 32; continue _fun121216 }
  18:
                         zulu = _closure3_slot0;
                         mike = zulu.remove;
@@ -213,13 +213,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.bind(tango)(mike);
                 var _closure3_slot0 = mike;
                 entity = function() {
-                    _fun121213: for(var _fun121213_ip = 0; ; ) switch(_fun121213_ip) {
+                    _fun121219: for(var _fun121219_ip = 0; ; ) switch(_fun121219_ip) {
  0:
                         zulu = _closure3_slot0;
                         entity = null;
                         zulu = entity == zulu;
                         entity = undefined;
-                        if(zulu) { _fun121213_ip = 32; continue _fun121213 }
+                        if(zulu) { _fun121219_ip = 32; continue _fun121219 }
  18:
                         zulu = _closure3_slot0;
                         mike = zulu.remove;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = oscar.bind(golf)(entity, tango);
             entity = null;
-            if(!zulu) { _fun121201_ip = 219; continue _fun121201 }
+            if(!zulu) { _fun121207_ip = 219; continue _fun121207 }
  187:
             tango = _closure1_slot6;
             zulu = _closure1_slot1;

@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_profile/utils/getMutualGuildsLabel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getMutualGuildsLabel
-        _fun80071: for(var _fun80071_ip = 0; ; ) switch(_fun80071_ip) {
+        _fun80083: for(var _fun80083_ip = 0; ; ) switch(_fun80083_ip) {
  0:
             report = argFoo;
             oscar = undefined;
-            if(!(oscar !== report)) { _fun80071_ip = 139; continue _fun80071 }
+            if(!(oscar !== report)) { _fun80083_ip = 139; continue _fun80083 }
  12:
             golf = 0;
-            if(!(golf !== report)) { _fun80071_ip = 82; continue _fun80071 }
+            if(!(golf !== report)) { _fun80083_ip = 82; continue _fun80083 }
  18:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             entity['count'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun80071_ip = 137; continue _fun80071;
+            _fun80083_ip = 137; continue _fun80083;
  82:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.jpY0X1;
             entity = zulu.bind(tango)(mike);
  137:
-            _fun80071_ip = 196; continue _fun80071;
+            _fun80083_ip = 196; continue _fun80083;
  139:
             report = _closure1_slot0;
             golf = _closure1_slot1;

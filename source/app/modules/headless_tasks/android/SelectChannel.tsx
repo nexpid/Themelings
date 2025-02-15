@@ -27,10 +27,10 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.awaitStorage;
             mike = function() {
-                _fun128118: for(var _fun128118_ip = 0; ; ) switch(_fun128118_ip) {
+                _fun128114: for(var _fun128114_ip = 0; ; ) switch(_fun128114_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun128118_ip = 50; continue _fun128118 }
+                    if(!entity) { _fun128114_ip = 50; continue _fun128114 }
  10:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;

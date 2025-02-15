@@ -35,7 +35,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     options = options.PRESSABLE;
     mike['type'] = options;
     options = function() { // Original name: useInternalBuildUpdateTitle
-        _fun99053: for(var _fun99053_ip = 0; ; ) switch(_fun99053_ip) {
+        _fun99063: for(var _fun99063_ip = 0; ; ) switch(_fun99063_ip) {
  0:
             report = _closure1_slot0;
             golf = _closure1_slot3;
@@ -48,7 +48,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = new Array(1);
             options[0] = oscar;
             entity = function() {
-                _fun99054: for(var _fun99054_ip = 0; ; ) switch(_fun99054_ip) {
+                _fun99064: for(var _fun99064_ip = 0; ; ) switch(_fun99064_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.latestFetchedBuild;
@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun99054_ip = 40; continue _fun99054 }
+                    if(zulu) { _fun99064_ip = 40; continue _fun99064 }
  34:
                     entity = mike.build;
  40:
@@ -81,11 +81,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = null;
             tango = mike != entity;
             entity = 'Internal Build Update Ready';
-            if(tango) { _fun99053_ip = 129; continue _fun99053 }
+            if(tango) { _fun99063_ip = 129; continue _fun99063 }
  107:
             zulu = mike != zulu;
             mike = 'Internal Build Refresh Error';
-            if(!zulu) { _fun99053_ip = 126; continue _fun99053 }
+            if(!zulu) { _fun99063_ip = 126; continue _fun99063 }
  120:
             mike = 'Internal Build Up To Date';
  126:
@@ -98,7 +98,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     options = null;
     mike['parent'] = options;
     options = function() { // Original name: InstallNativeUpdateIcon
-        _fun99056: for(var _fun99056_ip = 0; ; ) switch(_fun99056_ip) {
+        _fun99066: for(var _fun99066_ip = 0; ; ) switch(_fun99066_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot3;
@@ -123,13 +123,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = _closure1_slot5;
             report = _closure1_slot0;
             oscar = _closure1_slot3;
-            if(entity) { _fun99056_ip = 92; continue _fun99056 }
+            if(entity) { _fun99066_ip = 92; continue _fun99066 }
  72:
             entity = 8;
             entity = oscar[entity];
             entity = report.bind(tango)(entity);
             mike = entity.RefreshIcon;
-            _fun99056_ip = 110; continue _fun99056;
+            _fun99066_ip = 110; continue _fun99066;
  92:
             entity = 7;
             entity = oscar[entity];
@@ -143,7 +143,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     mike['IconComponent'] = options;
     options = function() { // Original name: useInternalBuildUpdateDescription
-        _fun99058: for(var _fun99058_ip = 0; ; ) switch(_fun99058_ip) {
+        _fun99068: for(var _fun99068_ip = 0; ; ) switch(_fun99068_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot3;
@@ -156,7 +156,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = options;
             report = function() {
-                _fun99059: for(var _fun99059_ip = 0; ; ) switch(_fun99059_ip) {
+                _fun99069: for(var _fun99069_ip = 0; ; ) switch(_fun99069_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.latestFetchedBuild;
@@ -165,7 +165,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun99059_ip = 40; continue _fun99059 }
+                    if(zulu) { _fun99069_ip = 40; continue _fun99069 }
  34:
                     entity = mike.build;
  40:
@@ -187,11 +187,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             };
             zulu = oscar.bind(golf)(zulu, entity);
             entity = null;
-            if(!(entity == report)) { _fun99058_ip = 172; continue _fun99058 }
+            if(!(entity == report)) { _fun99068_ip = 172; continue _fun99068 }
  98:
             oscar = entity != zulu;
             entity = 'Never refreshed';
-            if(!oscar) { _fun99058_ip = 170; continue _fun99058 }
+            if(!oscar) { _fun99068_ip = 170; continue _fun99068 }
  111:
             oscar = _closure1_slot1;
             golf = _closure1_slot3;
@@ -207,7 +207,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = 'Last refreshed ';
             entity = zulu.bind(mike)(tango);
  170:
-            _fun99058_ip = 203; continue _fun99058;
+            _fun99068_ip = 203; continue _fun99068;
  172:
             mike = global;
             mike = mike.HermesInternal;
@@ -221,7 +221,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     mike['useDescription'] = options;
     options = function() { // Original name: useHasInternalBuildUpdateSetting
-        _fun99061: for(var _fun99061_ip = 0; ; ) switch(_fun99061_ip) {
+        _fun99071: for(var _fun99071_ip = 0; ; ) switch(_fun99071_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot3;
@@ -233,7 +233,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.bind(zulu)();
             entity = _closure1_slot4;
             entity = entity.hasUpdatesConfigured;
-            if(!entity) { _fun99061_ip = 51; continue _fun99061 }
+            if(!entity) { _fun99071_ip = 51; continue _fun99071 }
  48:
             entity = mike;
  51:
@@ -242,19 +242,19 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     mike['usePredicate'] = options;
     golf = function() { // Original name: handleInstallNativeUpdateSettingPress
-        _fun99062: for(var _fun99062_ip = 0; ; ) switch(_fun99062_ip) {
+        _fun99072: for(var _fun99072_ip = 0; ; ) switch(_fun99072_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.latestFetchedBuild;
             mike = mike.bind(zulu)();
             zulu = mike.newBuild;
             mike = null;
-            if(!(mike === zulu)) { _fun99062_ip = 45; continue _fun99062 }
+            if(!(mike === zulu)) { _fun99072_ip = 45; continue _fun99072 }
  29:
             tango = _closure1_slot4;
             mike = tango.checkForNewerBuild;
             mike = mike.bind(tango)();
-            _fun99062_ip = 78; continue _fun99062;
+            _fun99072_ip = 78; continue _fun99072;
  45:
             tango = _closure1_slot2;
             mike = _closure1_slot3;

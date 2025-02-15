@@ -26,7 +26,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/explicit_media_redaction/hooks/useExplicitContentSettingsOrDefault.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun69149: for(var _fun69149_ip = 0; ; ) switch(_fun69149_ip) {
+        _fun69155: for(var _fun69155_ip = 0; ; ) switch(_fun69155_ip) {
  0:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -39,7 +39,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = entity;
             entity = function() {
-                _fun69150: for(var _fun69150_ip = 0; ; ) switch(_fun69150_ip) {
+                _fun69156: for(var _fun69156_ip = 0; ; ) switch(_fun69156_ip) {
  0:
                     entity = _closure1_slot2;
                     entity = entity.settings;
@@ -48,11 +48,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     oscar = zulu == report;
                     tango = undefined;
                     entity = undefined;
-                    if(oscar) { _fun69150_ip = 38; continue _fun69150 }
+                    if(oscar) { _fun69156_ip = 38; continue _fun69156 }
  32:
                     entity = report.explicitContentSettings;
  38:
-                    if(!(zulu == entity)) { _fun69150_ip = 72; continue _fun69150 }
+                    if(!(zulu == entity)) { _fun69156_ip = 72; continue _fun69156 }
  42:
                     zulu = _closure1_slot0;
                     report = _closure1_slot1;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             golf = null;
             yankee = golf == oscar;
             offset = undefined;
-            if(yankee) { _fun69149_ip = 97; continue _fun69149 }
+            if(yankee) { _fun69155_ip = 97; continue _fun69155 }
  91:
             offset = oscar.explicitContentGuilds;
  97:
@@ -90,7 +90,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = {};
             yankee = golf == oscar;
             offset = undefined;
-            if(yankee) { _fun69149_ip = 152; continue _fun69149 }
+            if(yankee) { _fun69155_ip = 152; continue _fun69155 }
  146:
             offset = oscar.explicitContentNonFriendDm;
  152:
@@ -107,7 +107,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = {'setting': null, 'isDm': true, 'isFriend': true};
             golf = golf == oscar;
             report = undefined;
-            if(golf) { _fun69149_ip = 222; continue _fun69149 }
+            if(golf) { _fun69155_ip = 222; continue _fun69155 }
  216:
             report = oscar.explicitContentFriendDm;
  222:

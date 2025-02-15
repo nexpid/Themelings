@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/create_guild/native/components/JoinServer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: JoinServerContainer
-        _fun93535: for(var _fun93535_ip = 0; ; ) switch(_fun93535_ip) {
+        _fun93560: for(var _fun93560_ip = 0; ; ) switch(_fun93560_ip) {
  0:
             mike = argFoo;
             backup = mike.initialRoute;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = backup;
             zulu[2] = entity;
             entity = function() {
-                _fun93536: for(var _fun93536_ip = 0; ; ) switch(_fun93536_ip) {
+                _fun93561: for(var _fun93561_ip = 0; ; ) switch(_fun93561_ip) {
  0:
                     zulu = _closure2_slot7;
                     mike = zulu.setOptions;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = _closure2_slot0;
                     tango = _closure1_slot5;
                     tango = tango.JOIN_SERVER;
-                    if(!(golf !== tango)) { _fun93536_ip = 80; continue _fun93536 }
+                    if(!(golf !== tango)) { _fun93561_ip = 80; continue _fun93561 }
  38:
                     options = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return entity;
                     };
                     tango = golf.bind(options)(tango);
-                    _fun93536_ip = 120; continue _fun93536;
+                    _fun93561_ip = 120; continue _fun93561;
  80:
                     options = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             report['inviteString'] = verify;
             verify = null;
-            if(!yankee) { _fun93535_ip = 366; continue _fun93535 }
+            if(!yankee) { _fun93560_ip = 366; continue _fun93560 }
  311:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
@@ -225,19 +225,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             report['onInviteChange'] = options;
             golf = function() { // Original name: onDone
-                _fun93540: for(var _fun93540_ip = 0; ; ) switch(_fun93540_ip) {
+                _fun93565: for(var _fun93565_ip = 0; ; ) switch(_fun93565_ip) {
  0:
                     zulu = _closure2_slot3;
                     entity = zulu.trim;
                     tango = entity.bind(zulu)();
                     entity = '';
-                    if(!(entity === tango)) { _fun93540_ip = 43; continue _fun93540 }
+                    if(!(entity === tango)) { _fun93565_ip = 43; continue _fun93565 }
  25:
                     report = _closure2_slot5;
                     zulu = undefined;
                     entity = true;
                     entity = report.bind(zulu)(entity);
-                    _fun93540_ip = 199; continue _fun93540;
+                    _fun93565_ip = 199; continue _fun93565;
  43:
                     zulu = _closure2_slot6;
                     oscar = undefined;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = null;
                     golf = zulu != golf;
                     zulu = 'Join Guild Modal';
-                    if(!golf) { _fun93540_ip = 143; continue _fun93540 }
+                    if(!golf) { _fun93565_ip = 143; continue _fun93565 }
  139:
                     zulu = _closure2_slot2;
  143:

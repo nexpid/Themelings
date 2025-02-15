@@ -20,22 +20,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike = argCorge;
     entity = undefined;
     options = mike.bind(entity)(report);
+    var _closure1_slot3 = options;
     mike = 1;
     mike = golf[mike];
     mike = oscar.bind(entity)(mike);
     mike = mike.View;
-    var _closure1_slot3 = mike;
+    var _closure1_slot4 = mike;
     mike = 2;
     mike = golf[mike];
     mike = oscar.bind(entity)(mike);
     mike = mike.jsx;
-    var _closure1_slot4 = mike;
+    var _closure1_slot5 = mike;
     mike = 3;
     mike = golf[mike];
     verify = oscar.bind(entity)(mike);
     report = verify.createStyles;
     mike = function(argFoo, argBar, argBaz, argCorge) {
-        _fun84876: for(var _fun84876_ip = 0; ; ) switch(_fun84876_ip) {
+        _fun84892: for(var _fun84892_ip = 0; ; ) switch(_fun84892_ip) {
  0:
             options = argBar;
             entity = {};
@@ -50,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['paddingBottom'] = zulu;
             report = 0;
             zulu = 0;
-            if(!(report !== options)) { _fun84876_ip = 81; continue _fun84876 }
+            if(!(report !== options)) { _fun84892_ip = 81; continue _fun84892 }
  51:
             offset = _closure1_slot0;
             golf = _closure1_slot2;
@@ -65,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = 1;
             golf = golf - zulu;
             report = 0;
-            if(!(options !== golf)) { _fun84876_ip = 132; continue _fun84876 }
+            if(!(options !== golf)) { _fun84892_ip = 132; continue _fun84892 }
  102:
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -107,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         }
     };
     mike = report.bind(verify)(mike);
-    var _closure1_slot5 = mike;
+    var _closure1_slot6 = mike;
     report = options.memo;
     mike = function(argFoo) {
         entity = argFoo;
@@ -115,12 +116,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = entity.height;
         yankee = entity.columns;
         offset = entity.columnIndex;
-        mike = _closure1_slot5;
+        mike = _closure1_slot6;
         tango = undefined;
         romeo = undefined;
         oscar = romeo[mike](yankee, offset, verify, options, golf);
-        zulu = _closure1_slot4;
-        mike = _closure1_slot3;
+        zulu = _closure1_slot5;
+        mike = _closure1_slot4;
         entity = {};
         report = oscar.container;
         entity['style'] = report;
@@ -133,40 +134,93 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         return entity;
     };
     mike = report.bind(options)(mike);
-    report = 8;
+    report = 9;
     report = golf[report];
     golf = oscar.bind(entity)(report);
     oscar = golf.fileFinishedImporting;
     report = 'modules/gif_picker/native/GIFPickerItemView.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: _default
-        entity = argFoo;
-        mike = entity.onPressGIF;
-        var _closure2_slot0 = mike;
-        options = entity.item;
+        mike = argFoo;
+        entity = mike.onPressGIF;
+        var _closure2_slot0 = entity;
+        options = mike.item;
         var _closure2_slot1 = options;
-        mike = entity.index;
-        var _closure2_slot2 = mike;
-        backup = entity.columns;
-        foxtrot = entity.columnIndex;
-        romeo = entity.width;
-        yankee = entity.height;
-        entity = _closure1_slot5;
+        entity = mike.index;
+        var _closure2_slot2 = entity;
+        kilo = mike.columns;
+        backup = mike.columnIndex;
+        foxtrot = mike.width;
+        romeo = mike.height;
+        mike = _closure1_slot6;
         tango = undefined;
-        kilo = undefined;
-        golf = kilo[entity](backup, foxtrot, romeo, yankee, offset);
-        zulu = _closure1_slot4;
+        sizing = undefined;
+        golf = sizing[mike](kilo, backup, foxtrot, romeo, yankee);
+        verify = _closure1_slot3;
+        zulu = verify.useMemo;
+        mike = new Array(2);
+        mike[0] = entity;
+        entity = options.src;
+        mike[1] = entity;
+        entity = function() {
+            _fun84895: for(var _fun84895_ip = 0; ; ) switch(_fun84895_ip) {
+ 0:
+                entity = _closure2_slot1;
+                zulu = entity.src;
+                mike = zulu.split;
+                entity = '/';
+                mike = mike.bind(zulu)(entity);
+                entity = mike.pop;
+                report = entity.bind(mike)();
+                mike = null;
+                zulu = mike == report;
+                golf = undefined;
+                entity = undefined;
+                if(zulu) { _fun84895_ip = 70; continue _fun84895 }
+ 50:
+                tango = report.split;
+                zulu = '.';
+                tango = tango.bind(report)(zulu);
+                zulu = 0;
+                entity = tango[zulu];
+ 70:
+                if(!(mike == entity)) { _fun84895_ip = 150; continue _fun84895 }
+ 74:
+                zulu = _closure1_slot0;
+                options = _closure1_slot2;
+                mike = 6;
+                tango = options[mike];
+                tango = zulu.bind(golf)(tango);
+                report = tango.intl;
+                tango = report.formatToPlainString;
+                mike = options[mike];
+                mike = zulu.bind(golf)(mike);
+                mike = mike.t;
+                zulu = mike.5iIGZG;
+                mike = {};
+                golf = _closure2_slot2;
+                oscar = 1;
+                oscar = golf + oscar;
+                mike['index'] = oscar;
+                entity = tango.bind(report)(zulu, mike);
+ 150:
+                return entity;
+            }
+        };
+        offset = zulu.bind(verify)(entity, mike);
+        zulu = _closure1_slot5;
         mike = _closure1_slot0;
         verify = _closure1_slot2;
-        entity = 6;
+        entity = 7;
         entity = verify[entity];
         entity = mike.bind(tango)(entity);
         mike = entity.PressableOpacity;
         entity = {};
-        offset = golf.container;
-        entity['style'] = offset;
-        offset = 'button';
-        entity['accessibilityRole'] = offset;
+        yankee = golf.container;
+        entity['style'] = yankee;
+        yankee = 'button';
+        entity['accessibilityRole'] = yankee;
+        entity['accessibilityLabel'] = offset;
         oscar = function() { // Original name: onPress
             tango = _closure2_slot0;
             zulu = _closure2_slot1;
@@ -177,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         entity['onPress'] = oscar;
         oscar = _closure1_slot1;
-        report = 7;
+        report = 8;
         report = verify[report];
         oscar = oscar.bind(tango)(report);
         report = {};

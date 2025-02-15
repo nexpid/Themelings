@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['acknowledgeTooltip'] = report;
     entity = function(argFoo) { // Original name: attemptToShowTooltip
-        _fun84851: for(var _fun84851_ip = 0; ; ) switch(_fun84851_ip) {
+        _fun84867: for(var _fun84867_ip = 0; ; ) switch(_fun84867_ip) {
  0:
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun84851_ip = 11; continue _fun84851 }
+            if(!(report === entity)) { _fun84867_ip = 11; continue _fun84867 }
  9:
             report = false;
  11:

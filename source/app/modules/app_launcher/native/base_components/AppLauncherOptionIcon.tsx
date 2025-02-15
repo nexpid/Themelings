@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/app_launcher/native/base_components/AppLauncherOptionIcon.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: AppLauncherOptionIcon
-        _fun113428: for(var _fun113428_ip = 0; ; ) switch(_fun113428_ip) {
+        _fun113434: for(var _fun113434_ip = 0; ; ) switch(_fun113434_ip) {
  0:
             entity = argFoo;
             golf = entity.wrapperStyle;
             options = entity.wrapperSize;
             tango = undefined;
-            if(!(options === tango)) { _fun113428_ip = 24; continue _fun113428 }
+            if(!(options === tango)) { _fun113434_ip = 24; continue _fun113434 }
  21:
             options = 32;
  24:

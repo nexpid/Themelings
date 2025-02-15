@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = options.prototype;
     golf = Object.create(mike, {constructor: {value: options}});
     romeo = function(argFoo) { // Original name: loadEmoji
-        _fun57998: for(var _fun57998_ip = 0; ; ) switch(_fun57998_ip) {
+        _fun58001: for(var _fun58001_ip = 0; ; ) switch(_fun58001_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -38,14 +38,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.emojiTermsImporter;
             entity = argFoo;
             mike = mike[entity];
-            if(!(zulu === mike)) { _fun57998_ip = 65; continue _fun57998 }
+            if(!(zulu === mike)) { _fun58001_ip = 65; continue _fun58001 }
  42:
             entity = global;
             report = entity.Promise;
             tango = report.resolve;
             entity = {};
             entity = tango.bind(report)(entity);
-            _fun57998_ip = 86; continue _fun57998;
+            _fun58001_ip = 86; continue _fun58001;
  65:
             tango = mike.bind(zulu)();
             zulu = tango.then;
@@ -74,16 +74,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['setEmojiLocale'] = golf;
     tango = function(argFoo) { // Original name: getTermsForEmoji
-        _fun58001: for(var _fun58001_ip = 0; ; ) switch(_fun58001_ip) {
+        _fun58004: for(var _fun58004_ip = 0; ; ) switch(_fun58004_ip) {
  0:
             mike = _closure1_slot2;
             entity = mike.get;
             zulu = entity.bind(mike)();
             entity = undefined;
-            if(!(entity === zulu)) { _fun58001_ip = 28; continue _fun58001 }
+            if(!(entity === zulu)) { _fun58004_ip = 28; continue _fun58004 }
  22:
             entity = new Array(0);
-            _fun58001_ip = 35; continue _fun58001;
+            _fun58004_ip = 35; continue _fun58004;
  28:
             mike = argFoo;
             entity = zulu[mike];

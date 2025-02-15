@@ -35,14 +35,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'forward-modal';
     zulu['FORWARD_MODAL_KEY'] = tango;
     tango = function(argFoo) { // Original name: openForwardModal
-        _fun85896: for(var _fun85896_ip = 0; ; ) switch(_fun85896_ip) {
+        _fun85913: for(var _fun85913_ip = 0; ; ) switch(_fun85913_ip) {
  0:
             zulu = argFoo;
             verify = zulu.message;
             mike = zulu.source;
             options = zulu.initialSelectedDestinations;
             entity = undefined;
-            if(!(options === entity)) { _fun85896_ip = 29; continue _fun85896 }
+            if(!(options === entity)) { _fun85913_ip = 29; continue _fun85913 }
  25:
             options = new Array(0);
  29:

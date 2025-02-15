@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/cache/ClientStateStoreStorage.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: setClientState
-        _fun108313: for(var _fun108313_ip = 0; ; ) switch(_fun108313_ip) {
+        _fun108319: for(var _fun108319_ip = 0; ; ) switch(_fun108319_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot0;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun108313_ip = 78; continue _fun108313 }
+            if(zulu) { _fun108319_ip = 78; continue _fun108319 }
  40:
             zulu = _closure1_slot3;
             oscar = zulu.DCDFastConnectManager;
@@ -47,12 +47,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             options = tango != golf;
             zulu = null;
-            if(!options) { _fun108313_ip = 70; continue _fun108313 }
+            if(!options) { _fun108319_ip = 70; continue _fun108319 }
  67:
             zulu = golf;
  70:
             zulu = report.bind(oscar)(zulu, tango);
-            _fun108313_ip = 142; continue _fun108313;
+            _fun108319_ip = 142; continue _fun108319;
  78:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -63,14 +63,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike == golf;
             report = undefined;
-            if(oscar) { _fun108313_ip = 124; continue _fun108313 }
+            if(oscar) { _fun108319_ip = 124; continue _fun108319 }
  115:
             oscar = golf.toString;
             report = oscar.bind(golf)();
  124:
             oscar = mike != report;
             mike = undefined;
-            if(!oscar) { _fun108313_ip = 136; continue _fun108313 }
+            if(!oscar) { _fun108319_ip = 136; continue _fun108319 }
  133:
             mike = report;
  136:

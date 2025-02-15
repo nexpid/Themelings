@@ -41,18 +41,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CircleMinusIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun97335: for(var _fun97335_ip = 0; ; ) switch(_fun97335_ip) {
+        _fun97345: for(var _fun97345_ip = 0; ; ) switch(_fun97345_ip) {
  0:
             zulu = argFoo;
             offset = zulu.style;
             foxtrot = zulu.secondaryColor;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun97335_ip = 24; continue _fun97335 }
+            if(!(foxtrot === tango)) { _fun97345_ip = 24; continue _fun97345 }
  20:
             foxtrot = 'transparent';
  24:
             yankee = zulu.color;
-            if(!(yankee === tango)) { _fun97335_ip = 67; continue _fun97335 }
+            if(!(yankee === tango)) { _fun97345_ip = 67; continue _fun97345 }
  33:
             mike = _closure1_slot1;
             report = _closure1_slot2;

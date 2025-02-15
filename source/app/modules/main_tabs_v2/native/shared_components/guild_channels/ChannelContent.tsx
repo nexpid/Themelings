@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelContent.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun113406: for(var _fun113406_ip = 0; ; ) switch(_fun113406_ip) {
+    _fun113412: for(var _fun113412_ip = 0; ; ) switch(_fun113412_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         result = kilo.bind(output)();
         kilo = -1;
         output = kilo;
-        if(!result) { _fun113406_ip = 238; continue _fun113406 }
+        if(!result) { _fun113412_ip = 238; continue _fun113412 }
  235:
         output = yankee;
  238:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         result = report.bind(entity)(output);
         output = result.isAndroid;
         output = output.bind(result)();
-        if(!output) { _fun113406_ip = 345; continue _fun113406 }
+        if(!output) { _fun113412_ip = 345; continue _fun113412 }
  342:
         kilo = sizing;
  345:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = kilo.isAndroid;
         kilo = backup.bind(kilo)();
         backup = 0;
-        if(!kilo) { _fun113406_ip = 414; continue _fun113406 }
+        if(!kilo) { _fun113412_ip = 414; continue _fun113412 }
  411:
         backup = yankee;
  414:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = foxtrot.isAndroid;
         romeo = romeo.bind(foxtrot)();
         offset = 0;
-        if(!romeo) { _fun113406_ip = 456; continue _fun113406 }
+        if(!romeo) { _fun113412_ip = 456; continue _fun113412 }
  453:
         offset = yankee;
  456:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelContent.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: renderChannelContent
-            _fun113407: for(var _fun113407_ip = 0; ; ) switch(_fun113407_ip) {
+            _fun113413: for(var _fun113413_ip = 0; ; ) switch(_fun113413_ip) {
  0:
                 zulu = argFoo;
                 quebec = zulu.name;
@@ -151,9 +151,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 vacuum = zulu.bind(report)(context);
                 sequence = null;
                 lima = sequence != mike;
-                if(!lima) { _fun113407_ip = 161; continue _fun113407 }
+                if(!lima) { _fun113413_ip = 161; continue _fun113413 }
  130:
-                if(entity) { _fun113407_ip = 158; continue _fun113407 }
+                if(entity) { _fun113413_ip = 158; continue _fun113413 }
  133:
                 report = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 lima = entity;
  161:
                 sierra = sequence != mike;
-                if(!sierra) { _fun113407_ip = 178; continue _fun113407 }
+                if(!sierra) { _fun113413_ip = 178; continue _fun113413 }
  168:
                 entity = mike.isNSFW;
                 sierra = entity.bind(mike)();
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = entity.bind(mike)(kilo);
                 echo = sequence != result;
                 romeo = echo;
-                if(!echo) { _fun113407_ip = 207; continue _fun113407 }
+                if(!echo) { _fun113413_ip = 207; continue _fun113413 }
  203:
                 romeo = sequence == output;
  207:
                 update = 'text-muted';
                 variable36 = update;
-                if(!control) { _fun113407_ip = 225; continue _fun113407 }
+                if(!control) { _fun113413_ip = 225; continue _fun113413 }
  219:
                 variable36 = 'interactive-muted';
  225:
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options[0] = verify;
                 verify = {};
                 yankee = 'center';
-                if(!offset) { _fun113407_ip = 304; continue _fun113407 }
+                if(!offset) { _fun113413_ip = 304; continue _fun113413 }
  298:
                 yankee = 'space-between';
  304:
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = {'flexDirection': 'row', 'paddingRight': null, 'alignItems': 'center'};
                 sizing = 0;
                 source = 0;
-                if(!romeo) { _fun113407_ip = 350; continue _fun113407 }
+                if(!romeo) { _fun113413_ip = 350; continue _fun113413 }
  347:
                 source = 30;
  350:
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup['title'] = quebec;
                 backup['muted'] = control;
                 backup['unread'] = whiskey;
-                if(!(sequence == target)) { _fun113407_ip = 414; continue _fun113407 }
+                if(!(sequence == target)) { _fun113413_ip = 414; continue _fun113413 }
  404:
                 whiskey = _closure1_slot6;
                 target = whiskey.ONLY_MENTIONS;
@@ -244,11 +244,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = new Array(2);
                 backup[0] = source;
                 source = lima;
-                if(lima) { _fun113407_ip = 452; continue _fun113407 }
+                if(lima) { _fun113413_ip = 452; continue _fun113413 }
  449:
                 source = sierra;
  452:
-                if(!source) { _fun113407_ip = 733; continue _fun113407 }
+                if(!source) { _fun113413_ip = 733; continue _fun113413 }
  458:
                 papa = _closure1_slot8;
                 context = _closure1_slot4;
@@ -260,10 +260,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 whiskey = {};
                 quebec = 1;
                 variable37 = quebec;
-                if(!lima) { _fun113407_ip = 506; continue _fun113407 }
+                if(!lima) { _fun113413_ip = 506; continue _fun113413 }
  497:
                 variable37 = quebec;
-                if(!sierra) { _fun113407_ip = 506; continue _fun113407 }
+                if(!sierra) { _fun113413_ip = 506; continue _fun113413 }
  503:
                 variable37 = 2;
  506:
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 whiskey['maxWidth'] = quebec;
                 target[1] = whiskey;
                 record['style'] = target;
-                if(!lima) { _fun113407_ip = 593; continue _fun113407 }
+                if(!lima) { _fun113413_ip = 593; continue _fun113413 }
  529:
                 quebec = _closure1_slot7;
                 whiskey = _closure1_slot0;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  593:
                 target = new Array(3);
                 target[0] = lima;
-                if(!sierra) { _fun113407_ip = 668; continue _fun113407 }
+                if(!sierra) { _fun113413_ip = 668; continue _fun113413 }
  604:
                 quebec = _closure1_slot7;
                 whiskey = _closure1_slot0;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sierra = quebec.bind(tango)(whiskey, lima);
  668:
                 target[1] = sierra;
-                if(!status) { _fun113407_ip = 719; continue _fun113407 }
+                if(!status) { _fun113413_ip = 719; continue _fun113413 }
  675:
                 whiskey = _closure1_slot7;
                 lima = _closure1_slot1;
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = new Array(2);
                 options[0] = verify;
                 verify = null;
-                if(!offset) { _fun113407_ip = 850; continue _fun113407 }
+                if(!offset) { _fun113413_ip = 850; continue _fun113413 }
  760:
                 backup = _closure1_slot7;
                 yankee = _closure1_slot4;
@@ -343,13 +343,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source = {};
                 record = sequence != config;
                 sequence = 0;
-                if(!record) { _fun113407_ip = 784; continue _fun113407 }
+                if(!record) { _fun113413_ip = 784; continue _fun113413 }
  781:
                 sequence = config;
  784:
                 sequence = sequence > sizing;
                 sizing = 0;
-                if(!sequence) { _fun113407_ip = 796; continue _fun113407 }
+                if(!sequence) { _fun113413_ip = 796; continue _fun113413 }
  793:
                 sizing = 20;
  796:
@@ -375,16 +375,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = _closure1_slot4;
                 options = {};
                 backup = _closure1_slot9;
-                if(romeo) { _fun113407_ip = 897; continue _fun113407 }
+                if(romeo) { _fun113413_ip = 897; continue _fun113413 }
  889:
                 yankee = backup.rightBox;
-                _fun113407_ip = 903; continue _fun113407;
+                _fun113413_ip = 903; continue _fun113413;
  897:
                 yankee = backup.rightContentAbsolute;
  903:
                 options['style'] = yankee;
                 backup = echo;
-                if(!echo) { _fun113407_ip = 1019; continue _fun113407 }
+                if(!echo) { _fun113413_ip = 1019; continue _fun113413 }
  913:
                 sizing = _closure1_slot7;
                 kilo = _closure1_slot0;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {};
                 source = 'text-xs/medium';
                 yankee['variant'] = source;
-                if(!control) { _fun113407_ip = 961; continue _fun113407 }
+                if(!control) { _fun113413_ip = 961; continue _fun113413 }
  955:
                 update = 'interactive-muted';
  961:
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source = 'auto';
                 update['marginLeft'] = source;
                 source = 1;
-                if(control) { _fun113407_ip = 986; continue _fun113407 }
+                if(control) { _fun113413_ip = 986; continue _fun113413 }
  982:
                 source = _closure1_slot5;
  986:
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result = new Array(2);
                 update = {'alignItems': 'center', 'paddingLeft': 4};
                 result[0] = update;
-                if(!echo) { _fun113407_ip = 1074; continue _fun113407 }
+                if(!echo) { _fun113413_ip = 1074; continue _fun113413 }
  1062:
                 update = {};
                 source = 5;
@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup['children'] = output;
                 backup = sizing.bind(tango)(kilo, backup);
                 yankee[1] = backup;
-                if(!romeo) { _fun113407_ip = 1128; continue _fun113407 }
+                if(!romeo) { _fun113413_ip = 1128; continue _fun113413 }
  1099:
                 kilo = _closure1_slot7;
                 backup = _closure1_slot4;

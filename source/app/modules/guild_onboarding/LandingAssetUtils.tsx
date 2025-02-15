@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = zulu.it;
         zulu = tango.forEach;
         mike = function(argFoo, argBar) {
-            _fun61346: for(var _fun61346_ip = 0; ; ) switch(_fun61346_ip) {
+            _fun61349: for(var _fun61349_ip = 0; ; ) switch(_fun61349_ip) {
  0:
                 tango = argBar;
                 mike = _closure2_slot0;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike[tango];
                 oscar = mike.ty;
                 mike = 'gr';
-                if(!(mike === oscar)) { _fun61346_ip = 225; continue _fun61346 }
+                if(!(mike === oscar)) { _fun61349_ip = 225; continue _fun61349 }
  64:
                 mike = _closure2_slot0;
                 oscar = mike.layers;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 mike = oscar.bind(golf)(mike);
-                if(!(mike >= report)) { _fun61346_ip = 225; continue _fun61346 }
+                if(!(mike >= report)) { _fun61349_ip = 225; continue _fun61349 }
  125:
                 mike = _closure2_slot0;
                 oscar = mike.layers;

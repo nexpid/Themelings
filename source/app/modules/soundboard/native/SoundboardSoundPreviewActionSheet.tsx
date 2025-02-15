@@ -1,6 +1,6 @@
 // app/modules/soundboard/native/SoundboardSoundPreviewActionSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun103553: for(var _fun103553_ip = 0; ; ) switch(_fun103553_ip) {
+    _fun103545: for(var _fun103545_ip = 0; ; ) switch(_fun103545_ip) {
  0:
         report = argBar;
         yankee = argBaz;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = kilo.isIOS;
         kilo = backup.bind(kilo)();
         backup = undefined;
-        if(!kilo) { _fun103553_ip = 338; continue _fun103553 }
+        if(!kilo) { _fun103545_ip = 338; continue _fun103545 }
  335:
         backup = 60;
  338:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/soundboard/native/SoundboardSoundPreviewActionSheet.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: SoundboardSoundPreviewActionSheet
-            _fun103554: for(var _fun103554_ip = 0; ; ) switch(_fun103554_ip) {
+            _fun103546: for(var _fun103546_ip = 0; ; ) switch(_fun103546_ip) {
  0:
                 mike = argFoo;
                 golf = mike.channelId;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = new Array(1);
                 oscar[0] = report;
                 report = function() {
-                    _fun103555: for(var _fun103555_ip = 0; ; ) switch(_fun103555_ip) {
+                    _fun103547: for(var _fun103547_ip = 0; ; ) switch(_fun103547_ip) {
  0:
                         mike = _closure1_slot8;
                         entity = mike.getCurrentUser;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = null;
                         zulu = entity == mike;
                         entity = undefined;
-                        if(zulu) { _fun103555_ip = 32; continue _fun103555 }
+                        if(zulu) { _fun103547_ip = 32; continue _fun103547 }
  27:
                         entity = mike.id;
  32:
@@ -182,13 +182,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = new Array(1);
                 report[0] = zulu;
                 zulu = function() {
-                    _fun103556: for(var _fun103556_ip = 0; ; ) switch(_fun103556_ip) {
+                    _fun103548: for(var _fun103548_ip = 0; ; ) switch(_fun103548_ip) {
  0:
                         entity = {};
                         tango = _closure2_slot2;
                         zulu = null;
                         zulu = zulu != tango;
-                        if(!zulu) { _fun103556_ip = 40; continue _fun103556 }
+                        if(!zulu) { _fun103548_ip = 40; continue _fun103548 }
  18:
                         oscar = _closure1_slot9;
                         report = oscar.isUserPlayingSounds;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = yankee.soundId;
                 report[1] = zulu;
                 zulu = function() {
-                    _fun103557: for(var _fun103557_ip = 0; ; ) switch(_fun103557_ip) {
+                    _fun103549: for(var _fun103549_ip = 0; ; ) switch(_fun103549_ip) {
  0:
                         zulu = _closure2_slot4;
                         report = _closure1_slot0;
@@ -226,13 +226,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango[entity];
                         entity = undefined;
                         tango = report.bind(entity)(tango);
-                        if(zulu) { _fun103557_ip = 58; continue _fun103557 }
+                        if(zulu) { _fun103549_ip = 58; continue _fun103549 }
  35:
                         report = tango.addFavoriteSound;
                         zulu = _closure2_slot1;
                         zulu = zulu.soundId;
                         zulu = report.bind(tango)(zulu);
-                        _fun103557_ip = 79; continue _fun103557;
+                        _fun103549_ip = 79; continue _fun103549;
  58:
                         zulu = tango.removeFavoriteSound;
                         mike = _closure2_slot1;
@@ -249,10 +249,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu[1] = yankee;
                 zulu[2] = control;
                 entity = function() {
-                    _fun103558: for(var _fun103558_ip = 0; ; ) switch(_fun103558_ip) {
+                    _fun103550: for(var _fun103550_ip = 0; ; ) switch(_fun103550_ip) {
  0:
                         mike = _closure2_slot3;
-                        if(mike) { _fun103558_ip = 80; continue _fun103558 }
+                        if(mike) { _fun103550_ip = 80; continue _fun103550 }
  10:
                         golf = _closure1_slot0;
                         options = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = null;
                 foxtrot = offset != romeo;
                 offset = '';
-                if(!foxtrot) { _fun103554_ip = 431; continue _fun103554 }
+                if(!foxtrot) { _fun103546_ip = 431; continue _fun103546 }
  428:
                 offset = romeo;
  431:
@@ -360,13 +360,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo['variant'] = echo;
                 sequence = _closure1_slot0;
                 context = _closure1_slot2;
-                if(output) { _fun103554_ip = 597; continue _fun103554 }
+                if(output) { _fun103546_ip = 597; continue _fun103546 }
  577:
                 echo = 19;
                 echo = context[echo];
                 echo = sequence.bind(tango)(echo);
                 update = echo.StarOutlineIcon;
-                _fun103554_ip = 615; continue _fun103554;
+                _fun103546_ip = 615; continue _fun103546;
  597:
                 echo = 18;
                 echo = context[echo];
@@ -388,11 +388,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 echo = echo[sequence];
                 echo = papa.bind(tango)(echo);
                 echo = echo.t;
-                if(output) { _fun103554_ip = 697; continue _fun103554 }
+                if(output) { _fun103546_ip = 697; continue _fun103546 }
  684:
                 output = echo.yZFibW;
                 output = update.bind(context)(output);
-                _fun103554_ip = 708; continue _fun103554;
+                _fun103546_ip = 708; continue _fun103546;
  697:
                 echo = echo.aBUcp6;
                 output = update.bind(context)(echo);
@@ -454,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = vacuum.border;
                 update = new Array(3);
                 update[0] = sequence;
-                if(!control) { _fun103554_ip = 961; continue _fun103554 }
+                if(!control) { _fun103546_ip = 961; continue _fun103546 }
  955:
                 control = vacuum.borderPlaying;
  961:

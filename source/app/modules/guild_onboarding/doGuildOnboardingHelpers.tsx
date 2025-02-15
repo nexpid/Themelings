@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot3;
             mike = zulu.addConditionalChangeListener;
             entity = function() {
-                _fun61352: for(var _fun61352_ip = 0; ; ) switch(_fun61352_ip) {
+                _fun61355: for(var _fun61355_ip = 0; ; ) switch(_fun61355_ip) {
  0:
                     report = _closure1_slot3;
                     zulu = report.getSelfMember;
@@ -60,13 +60,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     verify = report == options;
                     entity = undefined;
-                    if(verify) { _fun61352_ip = 69; continue _fun61352 }
+                    if(verify) { _fun61355_ip = 69; continue _fun61355 }
  64:
                     entity = options.flags;
  69:
                     options = report != entity;
                     report = 0;
-                    if(!options) { _fun61352_ip = 81; continue _fun61352 }
+                    if(!options) { _fun61355_ip = 81; continue _fun61355 }
  78:
                     report = entity;
  81:
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.COMPLETED_ONBOARDING;
                     entity = oscar.bind(golf)(report, entity);
                     entity = !entity;
-                    if(entity) { _fun61352_ip = 151; continue _fun61352 }
+                    if(entity) { _fun61355_ip = 151; continue _fun61355 }
  103:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;

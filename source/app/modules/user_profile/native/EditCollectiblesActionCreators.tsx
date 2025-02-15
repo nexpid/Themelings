@@ -26,7 +26,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/user_profile/native/EditCollectiblesActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun63944: for(var _fun63944_ip = 0; ; ) switch(_fun63944_ip) {
+        _fun63949: for(var _fun63949_ip = 0; ; ) switch(_fun63949_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -38,12 +38,12 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             report = zulu.bind(tango)();
             zulu = null;
             zulu = zulu != report;
-            if(!zulu) { _fun63944_ip = 54; continue _fun63944 }
+            if(!zulu) { _fun63949_ip = 54; continue _fun63949 }
  44:
             tango = report.isReady;
             zulu = tango.bind(report)();
  54:
-            if(!zulu) { _fun63944_ip = 97; continue _fun63944 }
+            if(!zulu) { _fun63949_ip = 97; continue _fun63949 }
  57:
             tango = report.navigate;
             zulu = {};

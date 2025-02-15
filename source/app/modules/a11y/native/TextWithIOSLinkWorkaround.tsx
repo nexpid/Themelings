@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/a11y/native/TextWithIOSLinkWorkaround.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TextWithIOSLinkWorkaround
-        _fun62414: for(var _fun62414_ip = 0; ; ) switch(_fun62414_ip) {
+        _fun62419: for(var _fun62419_ip = 0; ; ) switch(_fun62419_ip) {
  0:
             zulu = argFoo;
             options = zulu.children;
@@ -87,9 +87,9 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = oscar.bind(tango)(zulu);
             zulu = oscar.isIOS;
             zulu = zulu.bind(oscar)();
-            if(!zulu) { _fun62414_ip = 147; continue _fun62414 }
+            if(!zulu) { _fun62419_ip = 147; continue _fun62419 }
  144:
-            if(mike) { _fun62414_ip = 149; continue _fun62414 }
+            if(mike) { _fun62419_ip = 149; continue _fun62419 }
  147:
             return golf;
  149:

@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[6] = oscar;
         mike[7] = report;
         entity = function() {
-            _fun115470: for(var _fun115470_ip = 0; ; ) switch(_fun115470_ip) {
+            _fun115476: for(var _fun115476_ip = 0; ; ) switch(_fun115476_ip) {
  0:
                 entity = _closure2_slot4;
                 verify = 0;
-                if(!entity) { _fun115470_ip = 58; continue _fun115470 }
+                if(!entity) { _fun115476_ip = 58; continue _fun115476 }
  12:
                 entity = global;
                 report = entity.Math;

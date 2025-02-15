@@ -83,10 +83,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = verify;
         entity = function() {
-            _fun101394: for(var _fun101394_ip = 0; ; ) switch(_fun101394_ip) {
+            _fun101386: for(var _fun101386_ip = 0; ; ) switch(_fun101386_ip) {
  0:
                 mike = _closure2_slot0;
-                if(mike) { _fun101394_ip = 16; continue _fun101394 }
+                if(mike) { _fun101386_ip = 16; continue _fun101386 }
  12:
                 mike = undefined;
                 return mike;
@@ -95,12 +95,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = tango.keyboardOrCustomKeyboardOpen;
                 var _closure3_slot0 = mike;
                 zulu = function() { // Original name: keyboardChangeListener
-                    _fun101395: for(var _fun101395_ip = 0; ; ) switch(_fun101395_ip) {
+                    _fun101387: for(var _fun101387_ip = 0; ; ) switch(_fun101387_ip) {
  0:
                         zulu = _closure3_slot0;
                         mike = _closure1_slot3;
                         mike = mike.keyboardOrCustomKeyboardOpen;
-                        if(!(zulu !== mike)) { _fun101395_ip = 34; continue _fun101395 }
+                        if(!(zulu !== mike)) { _fun101387_ip = 34; continue _fun101387 }
  24:
                         mike = _closure1_slot4;
                         entity = undefined;

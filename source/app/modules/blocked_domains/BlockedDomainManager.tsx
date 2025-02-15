@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun123186: for(var _fun123186_ip = 0; ; ) switch(_fun123186_ip) {
+        _fun123191: for(var _fun123191_ip = 0; ; ) switch(_fun123191_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun123186_ip = 51; continue _fun123186 }
+            if(entity) { _fun123191_ip = 51; continue _fun123191 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun123186_ip = 92; continue _fun123186;
+            _fun123191_ip = 92; continue _fun123191;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun123186_ip = 71; continue _fun123186 }
+            if(oscar) { _fun123191_ip = 71; continue _fun123191 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun123187: for(var _fun123187_ip = 0; ; ) switch(_fun123187_ip) {
+        _fun123192: for(var _fun123192_ip = 0; ; ) switch(_fun123192_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun123187_ip = 76; continue _fun123187;
+            _fun123192_ip = 76; continue _fun123192;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:

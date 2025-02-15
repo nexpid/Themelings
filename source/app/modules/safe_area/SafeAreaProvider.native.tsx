@@ -1,6 +1,6 @@
 // app/modules/safe_area/SafeAreaProvider.native.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun111433: for(var _fun111433_ip = 0; ; ) switch(_fun111433_ip) {
+    _fun111439: for(var _fun111439_ip = 0; ; ) switch(_fun111439_ip) {
  0:
         oscar = argBar;
         verify = argBaz;
@@ -67,11 +67,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = oscar.bind(entity)(report);
         report = offset.isAndroid;
         report = report.bind(offset)();
-        if(report) { _fun111433_ip = 289; continue _fun111433 }
+        if(report) { _fun111439_ip = 289; continue _fun111439 }
  276:
         report = 'DCDSafeArea';
         report = options.bind(entity)(report);
-        _fun111433_ip = 301; continue _fun111433;
+        _fun111439_ip = 301; continue _fun111439;
  289:
         options = 6;
         options = golf[options];
@@ -91,14 +91,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot3;
             zulu = tango.useCallback;
             mike = function(argFoo) {
-                _fun111435: for(var _fun111435_ip = 0; ; ) switch(_fun111435_ip) {
+                _fun111441: for(var _fun111441_ip = 0; ; ) switch(_fun111441_ip) {
  0:
                     entity = argFoo;
                     report = entity.nativeEvent;
                     var _closure3_slot0 = report;
                     zulu = report.imeInsetsBottom;
                     entity = null;
-                    if(!(entity == zulu)) { _fun111435_ip = 34; continue _fun111435 }
+                    if(!(entity == zulu)) { _fun111441_ip = 34; continue _fun111441 }
  26:
                     entity = 0;
                     report['imeInsetsBottom'] = entity;
@@ -115,31 +115,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = oscar.bottom;
                     tango = report.bottom;
                     tango = golf === tango;
-                    if(!tango) { _fun111435_ip = 106; continue _fun111435 }
+                    if(!tango) { _fun111441_ip = 106; continue _fun111441 }
  92:
                     options = oscar.top;
                     golf = report.top;
                     tango = options === golf;
  106:
-                    if(!tango) { _fun111435_ip = 123; continue _fun111435 }
+                    if(!tango) { _fun111441_ip = 123; continue _fun111441 }
  109:
                     options = oscar.left;
                     golf = report.left;
                     tango = options === golf;
  123:
-                    if(!tango) { _fun111435_ip = 140; continue _fun111435 }
+                    if(!tango) { _fun111441_ip = 140; continue _fun111441 }
  126:
                     options = oscar.right;
                     golf = report.right;
                     tango = options === golf;
  140:
-                    if(!tango) { _fun111435_ip = 159; continue _fun111435 }
+                    if(!tango) { _fun111441_ip = 159; continue _fun111441 }
  143:
                     oscar = oscar.imeInsetsBottom;
                     report = report.imeInsetsBottom;
                     tango = oscar === report;
  159:
-                    if(tango) { _fun111435_ip = 200; continue _fun111435 }
+                    if(tango) { _fun111441_ip = 200; continue _fun111441 }
  162:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;

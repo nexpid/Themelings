@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/VoiceLockIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun62009: for(var _fun62009_ip = 0; ; ) switch(_fun62009_ip) {
+        _fun62012: for(var _fun62012_ip = 0; ; ) switch(_fun62012_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun62009_ip = 53; continue _fun62009 }
+            if(!(golf === tango)) { _fun62012_ip = 53; continue _fun62012 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

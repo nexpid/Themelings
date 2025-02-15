@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = report.bind(options)(tango);
     var _closure1_slot7 = tango;
     tango = function(argFoo) { // Original name: EmptyState
-        _fun78412: for(var _fun78412_ip = 0; ; ) switch(_fun78412_ip) {
+        _fun78422: for(var _fun78422_ip = 0; ; ) switch(_fun78422_ip) {
  0:
             entity = argFoo;
             romeo = entity.source;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             report = oscar != romeo;
             options = null;
-            if(!report) { _fun78412_ip = 145; continue _fun78412 }
+            if(!report) { _fun78422_ip = 145; continue _fun78422 }
  103:
             offset = _closure1_slot5;
             verify = _closure1_slot4;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = options;
             verify = oscar != sizing;
             options = null;
-            if(!verify) { _fun78412_ip = 225; continue _fun78412 }
+            if(!verify) { _fun78422_ip = 225; continue _fun78422 }
  162:
             romeo = _closure1_slot5;
             offset = _closure1_slot0;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = options;
             options = oscar != foxtrot;
             oscar = null;
-            if(!options) { _fun78412_ip = 422; continue _fun78412 }
+            if(!options) { _fun78422_ip = 422; continue _fun78422 }
  305:
             verify = _closure1_slot5;
             yankee = _closure1_slot1;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     mike = function(argFoo) {
-        _fun78413: for(var _fun78413_ip = 0; ; ) switch(_fun78413_ip) {
+        _fun78423: for(var _fun78423_ip = 0; ; ) switch(_fun78423_ip) {
  0:
             tango = argFoo;
             mike = tango.lightSource;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(tango)(zulu);
             zulu = golf.isThemeLight;
             zulu = zulu.bind(golf)(options);
-            if(!zulu) { _fun78413_ip = 111; continue _fun78413 }
+            if(!zulu) { _fun78423_ip = 111; continue _fun78423 }
  108:
             oscar = mike;
  111:

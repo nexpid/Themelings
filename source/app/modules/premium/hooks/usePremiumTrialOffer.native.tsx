@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: useGetTrialOffer
-        _fun66486: for(var _fun66486_ip = 0; ; ) switch(_fun66486_ip) {
+        _fun66492: for(var _fun66492_ip = 0; ; ) switch(_fun66492_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.bind(report)(entity);
             report = argBaz;
             entity = null;
-            if(!report) { _fun66486_ip = 122; continue _fun66486 }
+            if(!report) { _fun66492_ip = 122; continue _fun66492 }
  96:
             report = oscar.every;
             zulu = function(argFoo) {
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = report.bind(oscar)(zulu);
             entity = null;
-            if(!zulu) { _fun66486_ip = 122; continue _fun66486 }
+            if(!zulu) { _fun66492_ip = 122; continue _fun66492 }
  119:
             entity = mike;
  122:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/hooks/usePremiumTrialOffer.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: usePremiumTrialOffer
-        _fun66488: for(var _fun66488_ip = 0; ; ) switch(_fun66488_ip) {
+        _fun66494: for(var _fun66494_ip = 0; ; ) switch(_fun66494_ip) {
  0:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['disable'] = golf;
             mike = report.bind(oscar)(tango, mike);
             mike = mike.enabled;
-            if(offset) { _fun66488_ip = 181; continue _fun66488 }
+            if(offset) { _fun66494_ip = 181; continue _fun66494 }
  178:
             offset = mike;
  181:

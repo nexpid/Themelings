@@ -6,49 +6,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     mike = function(argFoo) { // Original name: getAudienceRequestToSpeakState
-        _fun54411: for(var _fun54411_ip = 0; ; ) switch(_fun54411_ip) {
+        _fun54418: for(var _fun54418_ip = 0; ; ) switch(_fun54418_ip) {
  0:
             mike = argFoo;
             zulu = null;
-            if(!(zulu != mike)) { _fun54411_ip = 129; continue _fun54411 }
+            if(!(zulu != mike)) { _fun54418_ip = 129; continue _fun54418 }
  9:
             entity = mike.suppress;
-            if(!entity) { _fun54411_ip = 28; continue _fun54411 }
+            if(!entity) { _fun54418_ip = 28; continue _fun54418 }
  18:
             entity = mike.requestToSpeakTimestamp;
-            if(!(zulu == entity)) { _fun54411_ip = 114; continue _fun54411 }
+            if(!(zulu == entity)) { _fun54418_ip = 114; continue _fun54418 }
  28:
             entity = mike.suppress;
-            if(entity) { _fun54411_ip = 62; continue _fun54411 }
+            if(entity) { _fun54418_ip = 62; continue _fun54418 }
  37:
             entity = mike.requestToSpeakTimestamp;
-            if(!(zulu != entity)) { _fun54411_ip = 62; continue _fun54411 }
+            if(!(zulu != entity)) { _fun54418_ip = 62; continue _fun54418 }
  47:
             entity = _closure1_slot3;
             entity = entity.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
-            _fun54411_ip = 112; continue _fun54411;
+            _fun54418_ip = 112; continue _fun54418;
  62:
             tango = mike.suppress;
-            if(tango) { _fun54411_ip = 96; continue _fun54411 }
+            if(tango) { _fun54418_ip = 96; continue _fun54418 }
  71:
             mike = mike.requestToSpeakTimestamp;
-            if(!(zulu == mike)) { _fun54411_ip = 96; continue _fun54411 }
+            if(!(zulu == mike)) { _fun54418_ip = 96; continue _fun54418 }
  81:
             mike = _closure1_slot3;
             mike = mike.ON_STAGE;
-            _fun54411_ip = 109; continue _fun54411;
+            _fun54418_ip = 109; continue _fun54418;
  96:
             zulu = _closure1_slot3;
             mike = zulu.NONE;
  109:
             entity = mike;
  112:
-            _fun54411_ip = 127; continue _fun54411;
+            _fun54418_ip = 127; continue _fun54418;
  114:
             mike = _closure1_slot3;
             entity = mike.REQUESTED_TO_SPEAK;
  127:
-            _fun54411_ip = 142; continue _fun54411;
+            _fun54418_ip = 142; continue _fun54418;
  129:
             mike = _closure1_slot3;
             entity = mike.NONE;
@@ -112,14 +112,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun54413: for(var _fun54413_ip = 0; ; ) switch(_fun54413_ip) {
+            _fun54420: for(var _fun54420_ip = 0; ; ) switch(_fun54420_ip) {
  0:
                 mike = _closure2_slot0;
                 zulu = null;
-                if(!(zulu != mike)) { _fun54413_ip = 61; continue _fun54413 }
+                if(!(zulu != mike)) { _fun54420_ip = 61; continue _fun54420 }
  13:
                 mike = _closure2_slot1;
-                if(!(zulu != mike)) { _fun54413_ip = 61; continue _fun54413 }
+                if(!(zulu != mike)) { _fun54420_ip = 61; continue _fun54420 }
  21:
                 zulu = _closure1_slot4;
                 report = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.bind(report)(mike, entity);
                 entity = undefined;
                 entity = zulu.bind(entity)(mike);
-                _fun54413_ip = 74; continue _fun54413;
+                _fun54420_ip = 74; continue _fun54420;
  61:
                 mike = _closure1_slot3;
                 entity = mike.NONE;

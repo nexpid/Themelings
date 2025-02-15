@@ -47,18 +47,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun103903: for(var _fun103903_ip = 0; ; ) switch(_fun103903_ip) {
+            _fun103895: for(var _fun103895_ip = 0; ; ) switch(_fun103895_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
-                if(!(entity != zulu)) { _fun103903_ip = 104; continue _fun103903 }
+                if(!(entity != zulu)) { _fun103895_ip = 104; continue _fun103895 }
  13:
                 zulu = _closure2_slot1;
                 report = zulu.type;
                 tango = _closure1_slot4;
                 tango = tango.ACTIVITY;
                 oscar = null;
-                if(!(report === tango)) { _fun103903_ip = 65; continue _fun103903 }
+                if(!(report === tango)) { _fun103895_ip = 65; continue _fun103895 }
  41:
                 golf = _closure1_slot3;
                 report = golf.getApplication;

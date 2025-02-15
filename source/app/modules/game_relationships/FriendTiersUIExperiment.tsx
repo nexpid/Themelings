@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['FriendTiersUIExperiment'] = tango;
     tango = function(argFoo) { // Original name: getIsFriendTiersUIEnabled
-        _fun56978: for(var _fun56978_ip = 0; ; ) switch(_fun56978_ip) {
+        _fun56981: for(var _fun56981_ip = 0; ; ) switch(_fun56981_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun56978_ip = 22; continue _fun56978 }
+            if(!(report === mike)) { _fun56981_ip = 22; continue _fun56981 }
  20:
             report = true;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getIsFriendTiersUIEnabled'] = tango;
     mike = function(argFoo) { // Original name: useIsFriendTiersUIEnabled
-        _fun56979: for(var _fun56979_ip = 0; ; ) switch(_fun56979_ip) {
+        _fun56982: for(var _fun56982_ip = 0; ; ) switch(_fun56982_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun56979_ip = 22; continue _fun56979 }
+            if(!(report === mike)) { _fun56982_ip = 22; continue _fun56982 }
  20:
             report = true;
  22:

@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/EndEventActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EndEventActionSheet
-        _fun102782: for(var _fun102782_ip = 0; ; ) switch(_fun102782_ip) {
+        _fun102774: for(var _fun102774_ip = 0; ; ) switch(_fun102774_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(entity);
             var _closure2_slot1 = mike;
             entity = null;
-            if(!(entity != mike)) { _fun102782_ip = 591; continue _fun102782 }
+            if(!(entity != mike)) { _fun102774_ip = 591; continue _fun102774 }
  80:
             echo = function() { // Original name: handleClose
                 report = _closure1_slot1;

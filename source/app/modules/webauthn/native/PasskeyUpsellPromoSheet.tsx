@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/PasskeyUpsellPromoSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PasswordlessUpsellPromoSheet
-        _fun92835: for(var _fun92835_ip = 0; ; ) switch(_fun92835_ip) {
+        _fun92867: for(var _fun92867_ip = 0; ; ) switch(_fun92867_ip) {
  0:
             tango = _closure1_slot7;
             mike = _closure1_slot5;
@@ -133,11 +133,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar[output];
             oscar = verify.bind(zulu)(oscar);
             oscar = oscar.t;
-            if(report) { _fun92835_ip = 309; continue _fun92835 }
+            if(report) { _fun92867_ip = 309; continue _fun92867 }
  296:
             report = oscar.d6uxJy;
             report = golf.bind(options)(report);
-            _fun92835_ip = 320; continue _fun92835;
+            _fun92867_ip = 320; continue _fun92867;
  309:
             oscar = oscar.7yxR9v;
             report = golf.bind(options)(oscar);
@@ -208,11 +208,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee[output];
             yankee = sizing.bind(zulu)(yankee);
             sizing = yankee.t;
-            if(romeo) { _fun92835_ip = 468; continue _fun92835 }
+            if(romeo) { _fun92867_ip = 468; continue _fun92867 }
  455:
             yankee = sizing.NIFmCA;
             yankee = result.bind(echo)(yankee);
-            _fun92835_ip = 479; continue _fun92835;
+            _fun92867_ip = 479; continue _fun92867;
  468:
             sizing = sizing.wePEBA;
             yankee = result.bind(echo)(sizing);
@@ -258,11 +258,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot[output];
             foxtrot = backup.bind(zulu)(foxtrot);
             backup = foxtrot.t;
-            if(romeo) { _fun92835_ip = 615; continue _fun92835 }
+            if(romeo) { _fun92867_ip = 615; continue _fun92867 }
  602:
             foxtrot = backup.7J6/nJ;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun92835_ip = 626; continue _fun92835;
+            _fun92867_ip = 626; continue _fun92867;
  615:
             backup = backup.wePEBA;
             foxtrot = kilo.bind(sizing)(backup);

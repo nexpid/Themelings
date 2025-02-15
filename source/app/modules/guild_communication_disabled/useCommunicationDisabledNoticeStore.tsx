@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options = report.bind(entity)(tango);
     golf = options.createStore;
     tango = function(argFoo, argBar) {
-        _fun43912: for(var _fun43912_ip = 0; ; ) switch(_fun43912_ip) {
+        _fun43920: for(var _fun43920_ip = 0; ; ) switch(_fun43920_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot3;
             report = tango.bind(report)(zulu);
             zulu = null;
-            if(!(zulu == report)) { _fun43912_ip = 73; continue _fun43912 }
+            if(!(zulu == report)) { _fun43920_ip = 73; continue _fun43920 }
  69:
             report = new Array(0);
  73:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['dismissNotification'] = zulu;
             mike = function(argFoo) { // Original name: resetNotification
-                _fun43915: for(var _fun43915_ip = 0; ; ) switch(_fun43915_ip) {
+                _fun43923: for(var _fun43923_ip = 0; ; ) switch(_fun43923_ip) {
  0:
                     tango = argFoo;
                     zulu = _closure2_slot1;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     var _closure3_slot0 = options;
                     zulu = options.has;
                     zulu = zulu.bind(options)(tango);
-                    if(!zulu) { _fun43915_ip = 123; continue _fun43915 }
+                    if(!zulu) { _fun43923_ip = 123; continue _fun43923 }
  41:
                     zulu = options.delete;
                     zulu = zulu.bind(options)(tango);

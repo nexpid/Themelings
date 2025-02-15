@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'getState';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun118225: for(var _fun118225_ip = 0; ; ) switch(_fun118225_ip) {
+            _fun118231: for(var _fun118231_ip = 0; ; ) switch(_fun118231_ip) {
  0:
                 entity = this;
                 mike = global;
@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = entity._state;
                 mike = null;
                 mike = mike === tango;
-                if(mike) { _fun118225_ip = 69; continue _fun118225 }
+                if(mike) { _fun118231_ip = 69; continue _fun118231 }
  49:
                 tango = entity._state;
                 tango = tango.timestamp;
                 tango = tango + report;
                 mike = tango < zulu;
  69:
-                if(!mike) { _fun118225_ip = 96; continue _fun118225 }
+                if(!mike) { _fun118231_ip = 96; continue _fun118231 }
  72:
                 mike = {};
                 tango = entity.tapSequenceHandlers;
@@ -130,12 +130,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'progressState';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun118226: for(var _fun118226_ip = 0; ; ) switch(_fun118226_ip) {
+            _fun118232: for(var _fun118232_ip = 0; ; ) switch(_fun118232_ip) {
  0:
                 zulu = argFoo;
                 mike = null;
                 entity = mike == zulu;
-                if(entity) { _fun118226_ip = 44; continue _fun118226 }
+                if(entity) { _fun118232_ip = 44; continue _fun118232 }
  12:
                 entity = {};
                 entity['handlers'] = zulu;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'handlePress';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun118227: for(var _fun118227_ip = 0; ; ) switch(_fun118227_ip) {
+            _fun118233: for(var _fun118233_ip = 0; ; ) switch(_fun118233_ip) {
  0:
                 entity = argFoo;
                 tango = this;
@@ -170,14 +170,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = mike == golf;
                 entity = undefined;
                 report = undefined;
-                if(oscar) { _fun118227_ip = 52; continue _fun118227 }
+                if(oscar) { _fun118233_ip = 52; continue _fun118233 }
  42:
                 oscar = golf.call;
                 report = oscar.bind(golf)(options);
  52:
                 oscar = mike != report;
                 mike = undefined;
-                if(!oscar) { _fun118227_ip = 64; continue _fun118227 }
+                if(!oscar) { _fun118233_ip = 64; continue _fun118233 }
  61:
                 mike = report;
  64:
@@ -207,16 +207,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         tango = undefined;
         entity = function() {
-            _fun118229: for(var _fun118229_ip = 0; ; ) switch(_fun118229_ip) {
+            _fun118235: for(var _fun118235_ip = 0; ; ) switch(_fun118235_ip) {
  0:
                 zulu = _closure1_slot7;
                 entity = _closure2_slot0;
                 tango = 'function';
                 entity = typeof entity;
-                if(!(tango !== entity)) { _fun118229_ip = 31; continue _fun118229 }
+                if(!(tango !== entity)) { _fun118235_ip = 31; continue _fun118235 }
  25:
                 entity = _closure2_slot0;
-                _fun118229_ip = 41; continue _fun118229;
+                _fun118235_ip = 41; continue _fun118235;
  31:
                 tango = _closure2_slot0;
                 mike = undefined;
@@ -240,17 +240,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure2_slot1 = entity;
         zulu = _closure1_slot4;
         mike = function() {
-            _fun118230: for(var _fun118230_ip = 0; ; ) switch(_fun118230_ip) {
+            _fun118236: for(var _fun118236_ip = 0; ; ) switch(_fun118236_ip) {
  0:
                 zulu = _closure2_slot1;
                 mike = zulu.setTapSequenceHandlers;
                 entity = _closure2_slot0;
                 report = 'function';
                 entity = typeof entity;
-                if(!(report !== entity)) { _fun118230_ip = 36; continue _fun118230 }
+                if(!(report !== entity)) { _fun118236_ip = 36; continue _fun118236 }
  30:
                 entity = _closure2_slot0;
-                _fun118230_ip = 46; continue _fun118230;
+                _fun118236_ip = 46; continue _fun118236;
  36:
                 report = _closure2_slot0;
                 tango = undefined;

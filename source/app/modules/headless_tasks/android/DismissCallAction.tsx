@@ -30,11 +30,11 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.awaitStorage;
             mike = function() {
-                _fun128106: for(var _fun128106_ip = 0; ; ) switch(_fun128106_ip) {
+                _fun128102: for(var _fun128102_ip = 0; ; ) switch(_fun128102_ip) {
  0:
                     entity = _closure2_slot0;
                     entity = entity.isFullscreenCallUI;
-                    if(!entity) { _fun128106_ip = 120; continue _fun128106 }
+                    if(!entity) { _fun128102_ip = 120; continue _fun128102 }
  18:
                     zulu = _closure1_slot1;
                     verify = _closure1_slot2;

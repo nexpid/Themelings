@@ -1,6 +1,6 @@
 // app/modules/remixing/native/components/RemixingFooter.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun84564: for(var _fun84564_ip = 0; ; ) switch(_fun84564_ip) {
+    _fun84580: for(var _fun84580_ip = 0; ; ) switch(_fun84580_ip) {
  0:
         report = argBar;
         yankee = argBaz;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         sizing = backup.bind(kilo)();
         backup = 'transparent';
         kilo = backup;
-        if(!sizing) { _fun84564_ip = 335; continue _fun84564 }
+        if(!sizing) { _fun84580_ip = 335; continue _fun84580 }
  329:
         kilo = 'rgba(24, 25, 28, 0.8)';
  335:
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = kilo.isAndroid;
         kilo = backup.bind(kilo)();
         backup = '0%';
-        if(!kilo) { _fun84564_ip = 502; continue _fun84564 }
+        if(!kilo) { _fun84580_ip = 502; continue _fun84580 }
  496:
         backup = '10%';
  502:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = report.bind(entity)(foxtrot);
         foxtrot = backup.isAndroid;
         foxtrot = foxtrot.bind(backup)();
-        if(!foxtrot) { _fun84564_ip = 532; continue _fun84564 }
+        if(!foxtrot) { _fun84580_ip = 532; continue _fun84580 }
  529:
         romeo = 18;
  532:
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = golf.bind(options)(tango);
         var _closure1_slot13 = tango;
         tango = function() { // Original name: BetaTag
-            _fun84565: for(var _fun84565_ip = 0; ; ) switch(_fun84565_ip) {
+            _fun84581: for(var _fun84581_ip = 0; ; ) switch(_fun84581_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.useIsRemixANitroPerk;
                 mike = entity.bind(mike)();
                 entity = null;
-                if(!mike) { _fun84565_ip = 196; continue _fun84565 }
+                if(!mike) { _fun84581_ip = 196; continue _fun84581 }
  43:
                 tango = _closure1_slot11;
                 zulu = _closure1_slot6;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun84571: for(var _fun84571_ip = 0; ; ) switch(_fun84571_ip) {
+                _fun84587: for(var _fun84587_ip = 0; ; ) switch(_fun84587_ip) {
  0:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -337,10 +337,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(mike)(zulu);
                     mike = zulu.isAndroid;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun84571_ip = 45; continue _fun84571 }
+                    if(mike) { _fun84587_ip = 45; continue _fun84587 }
  39:
                     tango = new Array(0);
-                    _fun84571_ip = 55; continue _fun84571;
+                    _fun84587_ip = 55; continue _fun84587;
  45:
                     tango = [250, 1000];
  55:
@@ -350,11 +350,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = entity.setTimeout;
                         zulu = undefined;
                         mike = function() {
-                            _fun84573: for(var _fun84573_ip = 0; ; ) switch(_fun84573_ip) {
+                            _fun84589: for(var _fun84589_ip = 0; ; ) switch(_fun84589_ip) {
  0:
                                 mike = _closure1_slot7;
                                 mike = mike.keyboardOpen;
-                                if(!mike) { _fun84573_ip = 48; continue _fun84573 }
+                                if(!mike) { _fun84589_ip = 48; continue _fun84589 }
  16:
                                 zulu = _closure1_slot0;
                                 mike = _closure1_slot2;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = vacuum.bind(sequence)(control);
             foxtrot['accessibilityLabel'] = control;
             control = function() { // Original name: onPress
-                _fun84577: for(var _fun84577_ip = 0; ; ) switch(_fun84577_ip) {
+                _fun84593: for(var _fun84593_ip = 0; ; ) switch(_fun84593_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -527,10 +527,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot3;
                     zulu = report.bind(entity)(zulu);
                     report = _closure1_slot10;
-                    if(zulu) { _fun84577_ip = 48; continue _fun84577 }
+                    if(zulu) { _fun84593_ip = 48; continue _fun84593 }
  40:
                     zulu = report.DRAW_MODE;
-                    _fun84577_ip = 54; continue _fun84577;
+                    _fun84593_ip = 54; continue _fun84593;
  48:
                     zulu = report.DEFAULT_MODE;
  54:
@@ -575,7 +575,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = vacuum.bind(sequence)(control);
             foxtrot['accessibilityLabel'] = control;
             control = function() { // Original name: onPress
-                _fun84578: for(var _fun84578_ip = 0; ; ) switch(_fun84578_ip) {
+                _fun84594: for(var _fun84594_ip = 0; ; ) switch(_fun84594_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = undefined;
@@ -584,11 +584,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot3;
                     zulu = _closure1_slot10;
                     zulu = zulu.TEXT_MODE;
-                    if(!(report !== zulu)) { _fun84578_ip = 50; continue _fun84578 }
+                    if(!(report !== zulu)) { _fun84594_ip = 50; continue _fun84594 }
  38:
                     zulu = _closure1_slot10;
                     zulu = zulu.TEXT_MODE;
-                    _fun84578_ip = 60; continue _fun84578;
+                    _fun84594_ip = 60; continue _fun84594;
  50:
                     report = _closure1_slot10;
                     zulu = report.DEFAULT_MODE;

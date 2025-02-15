@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         romeo = options;
         options = copyDataProperties(foxtrot, romeo);
         options = function() { // Original name: onDismissed
-            _fun81516: for(var _fun81516_ip = 0; ; ) switch(_fun81516_ip) {
+            _fun81528: for(var _fun81528_ip = 0; ; ) switch(_fun81528_ip) {
  0:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure2_slot1;
                 tango = zulu.onDismissed;
                 zulu = null;
-                if(!(zulu != tango)) { _fun81516_ip = 72; continue _fun81516 }
+                if(!(zulu != tango)) { _fun81528_ip = 72; continue _fun81528 }
  58:
                 zulu = _closure2_slot1;
                 mike = zulu.onDismissed;

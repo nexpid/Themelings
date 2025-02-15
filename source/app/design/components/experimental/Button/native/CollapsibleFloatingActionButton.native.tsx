@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/experimental/Button/native/CollapsibleFloatingActionButton.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CollapsibleFloatingActionButton
-        _fun76247: for(var _fun76247_ip = 0; ; ) switch(_fun76247_ip) {
+        _fun76257: for(var _fun76257_ip = 0; ; ) switch(_fun76257_ip) {
  0:
             tango = argFoo;
             backup = tango.icon;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.isValidElement;
             zulu = zulu.bind(golf)(backup);
             golf = backup;
-            if(!zulu) { _fun76247_ip = 174; continue _fun76247 }
+            if(!zulu) { _fun76257_ip = 174; continue _fun76257 }
  121:
             foxtrot = _closure1_slot3;
             options = foxtrot.cloneElement;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  174:
             options = entity != romeo;
             zulu = undefined;
-            if(!options) { _fun76247_ip = 192; continue _fun76247 }
+            if(!options) { _fun76257_ip = 192; continue _fun76257 }
  183:
             options = {};
             options['bottom'] = romeo;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = tango;
             options[1] = zulu;
-            if(!(entity == offset)) { _fun76247_ip = 348; continue _fun76247 }
+            if(!(entity == offset)) { _fun76257_ip = 348; continue _fun76257 }
  217:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 'pillStyle';
             entity[yankee] = romeo;
             entity = tango.bind(report)(zulu, entity);
-            _fun76247_ip = 410; continue _fun76247;
+            _fun76257_ip = 410; continue _fun76257;
  348:
             tango = _closure1_slot4;
             zulu = _closure1_slot9;

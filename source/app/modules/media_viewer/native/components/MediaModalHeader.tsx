@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_viewer/native/components/MediaModalHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MediaModalHeader
-        _fun102257: for(var _fun102257_ip = 0; ; ) switch(_fun102257_ip) {
+        _fun102249: for(var _fun102249_ip = 0; ; ) switch(_fun102249_ip) {
  0:
             entity = argFoo;
             sizing = entity.onClose;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = foxtrot;
             sizing = null;
             foxtrot = sizing != lima;
-            if(!foxtrot) { _fun102257_ip = 719; continue _fun102257 }
+            if(!foxtrot) { _fun102249_ip = 719; continue _fun102249 }
  458:
             echo = _closure1_slot5;
             kilo = _closure1_slot4;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = record.navbarNameInner;
             control['style'] = record;
             context = sizing != equality;
-            if(!context) { _fun102257_ip = 604; continue _fun102257 }
+            if(!context) { _fun102249_ip = 604; continue _fun102249 }
  505:
             target = _closure1_slot5;
             sierra = _closure1_slot1;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = romeo;
             yankee = !yankee;
-            if(!yankee) { _fun102257_ip = 943; continue _fun102257 }
+            if(!yankee) { _fun102249_ip = 943; continue _fun102249 }
  750:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot4;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = new Array(3);
             kilo[0] = echo;
             echo = null;
-            if(source) { _fun102257_ip = 864; continue _fun102257 }
+            if(source) { _fun102249_ip = 864; continue _fun102249 }
  823:
             vacuum = _closure1_slot5;
             control = _closure1_slot1;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  864:
             kilo[1] = echo;
             sizing = null;
-            if(result) { _fun102257_ip = 929; continue _fun102257 }
+            if(result) { _fun102249_ip = 929; continue _fun102249 }
  873:
             echo = _closure1_slot5;
             result = _closure1_slot0;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {};
             output['items'] = update;
             update = function(argFoo) { // Original name: children
-                _fun102258: for(var _fun102258_ip = 0; ; ) switch(_fun102258_ip) {
+                _fun102250: for(var _fun102250_ip = 0; ; ) switch(_fun102250_ip) {
  0:
                     tango = _closure1_slot5;
                     golf = _closure1_slot0;
@@ -318,12 +318,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(golf)();
                     golf = _closure1_slot1;
                     options = _closure1_slot2;
-                    if(report) { _fun102258_ip = 142; continue _fun102258 }
+                    if(report) { _fun102250_ip = 142; continue _fun102250 }
  128:
                     report = 21;
                     report = options[report];
                     report = golf.bind(zulu)(report);
-                    _fun102258_ip = 154; continue _fun102258;
+                    _fun102250_ip = 154; continue _fun102250;
  142:
                     oscar = 20;
                     oscar = options[oscar];

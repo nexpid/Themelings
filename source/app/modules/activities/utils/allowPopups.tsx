@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/allowPopups.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: allowPopups
-        _fun75950: for(var _fun75950_ip = 0; ; ) switch(_fun75950_ip) {
+        _fun75960: for(var _fun75960_ip = 0; ; ) switch(_fun75960_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -33,34 +33,34 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.bind(tango)(entity);
             mike = !entity;
             entity = !mike;
-            if(!mike) { _fun75950_ip = 119; continue _fun75950 }
+            if(!mike) { _fun75960_ip = 119; continue _fun75960 }
  34:
             mike = 'embeddedActivityConfig';
             mike = mike in zulu;
-            if(mike) { _fun75950_ip = 87; continue _fun75950 }
+            if(mike) { _fun75960_ip = 87; continue _fun75960 }
  45:
             mike = 'embedded_activity_config';
             mike = mike in zulu;
-            if(!mike) { _fun75950_ip = 85; continue _fun75950 }
+            if(!mike) { _fun75960_ip = 85; continue _fun75960 }
  56:
             tango = zulu.embedded_activity_config;
             report = null;
             oscar = report == tango;
             report = undefined;
-            if(oscar) { _fun75950_ip = 79; continue _fun75950 }
+            if(oscar) { _fun75960_ip = 79; continue _fun75960 }
  73:
             report = tango.displays_advertisements;
  79:
             tango = true;
             mike = tango === report;
  85:
-            _fun75950_ip = 116; continue _fun75950;
+            _fun75960_ip = 116; continue _fun75960;
  87:
             zulu = zulu.embeddedActivityConfig;
             tango = null;
             report = tango == zulu;
             tango = undefined;
-            if(report) { _fun75950_ip = 110; continue _fun75950 }
+            if(report) { _fun75960_ip = 110; continue _fun75960 }
  104:
             tango = zulu.displays_advertisements;
  110:

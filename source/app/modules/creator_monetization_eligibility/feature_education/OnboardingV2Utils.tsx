@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/creator_monetization_eligibility/feature_education/OnboardingV2Utils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useCanSeeCreatorMonetizationOnboardingV2Upsell
-        _fun116017: for(var _fun116017_ip = 0; ; ) switch(_fun116017_ip) {
+        _fun116023: for(var _fun116023_ip = 0; ; ) switch(_fun116023_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.VISIBLE;
             entity = zulu === entity;
             zulu = null;
-            if(!(zulu != oscar)) { _fun116017_ip = 208; continue _fun116017 }
+            if(!(zulu != oscar)) { _fun116023_ip = 208; continue _fun116023 }
  161:
             zulu = oscar.isOwner;
             zulu = zulu.bind(oscar)(report);
@@ -108,11 +108,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = tango.bind(report)(mike);
-            if(!entity) { _fun116017_ip = 200; continue _fun116017 }
+            if(!entity) { _fun116023_ip = 200; continue _fun116023 }
  197:
             entity = zulu;
  200:
-            if(!entity) { _fun116017_ip = 206; continue _fun116017 }
+            if(!entity) { _fun116023_ip = 206; continue _fun116023 }
  203:
             entity = mike;
  206:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useCanSeeCreatorMonetizationOnboardingV2Upsell'] = tango;
     mike = function(argFoo) { // Original name: canSeeCreatorMonetizationOnboardingV2Upsell
-        _fun116021: for(var _fun116021_ip = 0; ; ) switch(_fun116021_ip) {
+        _fun116027: for(var _fun116027_ip = 0; ; ) switch(_fun116027_ip) {
  0:
             report = _closure1_slot2;
             zulu = report.getGuild;
@@ -132,12 +132,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.bind(report)(entity);
             var _closure2_slot0 = oscar;
             entity = null;
-            if(!(entity != oscar)) { _fun116021_ip = 161; continue _fun116021 }
+            if(!(entity != oscar)) { _fun116027_ip = 161; continue _fun116027 }
  35:
             report = _closure1_slot3;
             zulu = report.getCurrentUser;
             report = zulu.bind(report)();
-            if(!(entity != report)) { _fun116021_ip = 157; continue _fun116021 }
+            if(!(entity != report)) { _fun116027_ip = 157; continue _fun116027 }
  52:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = tango.bind(report)(mike);
-            if(!entity) { _fun116021_ip = 149; continue _fun116021 }
+            if(!entity) { _fun116027_ip = 149; continue _fun116027 }
  146:
             entity = zulu;
  149:
-            if(!entity) { _fun116021_ip = 155; continue _fun116021 }
+            if(!entity) { _fun116027_ip = 155; continue _fun116027 }
  152:
             entity = mike;
  155:

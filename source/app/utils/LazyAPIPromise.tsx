@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun76198: for(var _fun76198_ip = 0; ; ) switch(_fun76198_ip) {
+                    _fun76208: for(var _fun76208_ip = 0; ; ) switch(_fun76208_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun76198_ip = 180; continue _fun76198 }
+                        if(mike) { _fun76208_ip = 180; continue _fun76208 }
  10:
                         report = undefined;
                         tango = undefined;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return oscar;
  51:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(golf) { _fun76198_ip = 80; continue _fun76198 }
+                        if(golf) { _fun76208_ip = 80; continue _fun76208 }
  57:
                         options = _closure2_slot2;
                         golf = false;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = new yankee[oscar](offset, verify);
                         tango = oscar instanceof Object ? oscar : golf;
                         oscar = _closure2_slot1;
-                        if(!(mike != oscar)) { _fun76198_ip = 157; continue _fun76198 }
+                        if(!(mike != oscar)) { _fun76208_ip = 157; continue _fun76208 }
  145:
                         golf = _closure2_slot1;
                         oscar = tango;

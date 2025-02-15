@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_icons/native/AppIconRow/AppIconRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppIconRow
-        _fun98001: for(var _fun98001_ip = 0; ; ) switch(_fun98001_ip) {
+        _fun98011: for(var _fun98011_ip = 0; ; ) switch(_fun98011_ip) {
  0:
             tango = argFoo;
             mike = tango.icon;
@@ -165,10 +165,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = backup.bind(oscar)(tango);
             tango = tango.PremiumAppIconIds;
             tango = tango.PIRATE;
-            if(!(report !== tango)) { _fun98001_ip = 130; continue _fun98001 }
+            if(!(report !== tango)) { _fun98011_ip = 130; continue _fun98011 }
  123:
             tango = mike.name;
-            _fun98001_ip = 188; continue _fun98001;
+            _fun98011_ip = 188; continue _fun98011;
  130:
             kilo = _closure1_slot6;
             output = _closure1_slot1;
@@ -198,16 +198,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.bind(oscar)(zulu);
             zulu = zulu.PremiumAppIconIds;
             zulu = zulu.BRAND_INVERTED;
-            if(!(report === zulu)) { _fun98001_ip = 260; continue _fun98001 }
+            if(!(report === zulu)) { _fun98011_ip = 260; continue _fun98011 }
  249:
-            if(entity) { _fun98001_ip = 260; continue _fun98001 }
+            if(entity) { _fun98011_ip = 260; continue _fun98011 }
  252:
             entity = null;
-            if(!yankee) { _fun98001_ip = 448; continue _fun98001 }
+            if(!yankee) { _fun98011_ip = 448; continue _fun98011 }
  260:
             mike = mike.isHidden;
             entity = null;
-            if(mike) { _fun98001_ip = 448; continue _fun98001 }
+            if(mike) { _fun98011_ip = 448; continue _fun98011 }
  274:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -246,12 +246,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onPress'] = romeo;
             romeo = 'radio';
             mike['accessibilityRole'] = romeo;
-            if(yankee) { _fun98001_ip = 393; continue _fun98001 }
+            if(yankee) { _fun98011_ip = 393; continue _fun98011 }
  385:
-            if(!offset) { _fun98001_ip = 393; continue _fun98001 }
+            if(!offset) { _fun98011_ip = 393; continue _fun98011 }
  388:
             golf = null;
-            if(!verify) { _fun98001_ip = 436; continue _fun98001 }
+            if(!verify) { _fun98011_ip = 436; continue _fun98011 }
  393:
             offset = _closure1_slot5;
             verify = _closure1_slot0;

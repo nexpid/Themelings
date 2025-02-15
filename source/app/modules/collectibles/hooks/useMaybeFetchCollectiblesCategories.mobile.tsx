@@ -23,40 +23,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMaybeFetchCollectiblesCategories
-        _fun99469: for(var _fun99469_ip = 0; ; ) switch(_fun99469_ip) {
+        _fun99479: for(var _fun99479_ip = 0; ; ) switch(_fun99479_ip) {
  0:
-            entity = argFoo;
-            mike = null;
-            mike = mike == entity;
-            zulu = undefined;
-            report = undefined;
-            if(mike) { _fun99469_ip = 22; continue _fun99469 }
+            report = argFoo;
+            oscar = null;
+            mike = oscar == report;
+            entity = undefined;
+            options = undefined;
+            if(mike) { _fun99479_ip = 22; continue _fun99479 }
  16:
-            report = entity.paymentGateway;
+            options = report.paymentGateway;
  22:
-            tango = _closure1_slot1;
-            golf = _closure1_slot2;
-            mike = 0;
-            mike = golf[mike];
-            tango = tango.bind(zulu)(mike);
-            mike = 'shop_include_unpublished';
-            oscar = tango.bind(zulu)(mike);
-            mike = _closure1_slot0;
-            entity = 1;
-            entity = golf[entity];
-            options = mike.bind(zulu)(entity);
-            tango = options.useCollectiblesMobileBundle;
-            entity = 'useMaybeFetchCollectiblesCategories';
-            tango = tango.bind(options)(entity);
-            entity = 2;
-            entity = golf[entity];
-            zulu = mike.bind(zulu)(entity);
-            mike = zulu.useMaybeFetchCollectiblesCategoriesShared;
-            entity = {};
-            entity['includeUnpublished'] = oscar;
-            entity['paymentGateway'] = report;
-            entity['includeBundles'] = tango;
-            entity = mike.bind(zulu)(entity);
+            golf = _closure1_slot1;
+            tango = _closure1_slot2;
+            zulu = 0;
+            zulu = tango[zulu];
+            golf = golf.bind(entity)(zulu);
+            zulu = 'shop_include_unpublished';
+            verify = golf.bind(entity)(zulu);
+            zulu = _closure1_slot0;
+            mike = 1;
+            mike = tango[mike];
+            offset = zulu.bind(entity)(mike);
+            golf = offset.useCollectiblesMobileBundle;
+            mike = 'useMaybeFetchCollectiblesCategories';
+            golf = golf.bind(offset)(mike);
+            mike = 2;
+            mike = tango[mike];
+            tango = zulu.bind(entity)(mike);
+            zulu = tango.useMaybeFetchCollectiblesCategoriesShared;
+            mike = {};
+            mike['includeUnpublished'] = verify;
+            mike['paymentGateway'] = options;
+            mike['includeBundles'] = golf;
+            oscar = oscar == report;
+            entity = undefined;
+            if(oscar) { _fun99479_ip = 138; continue _fun99479 }
+ 132:
+            entity = report.noOp;
+ 138:
+            entity = zulu.bind(tango)(mike, entity);
             return entity;
         }
     };

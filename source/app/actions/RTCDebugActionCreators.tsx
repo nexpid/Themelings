@@ -163,13 +163,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = zulu.bind(tango)(mike);
         zulu = tango.then;
         mike = function(argFoo) {
-            _fun50111: for(var _fun50111_ip = 0; ; ) switch(_fun50111_ip) {
+            _fun50118: for(var _fun50118_ip = 0; ; ) switch(_fun50118_ip) {
  0:
                 mike = argFoo;
                 zulu = mike.length;
                 report = '';
                 entity = 0;
-                if(!(entity !== zulu)) { _fun50111_ip = 22; continue _fun50111 }
+                if(!(entity !== zulu)) { _fun50118_ip = 22; continue _fun50118 }
  18:
                 report = mike[entity];
  22:

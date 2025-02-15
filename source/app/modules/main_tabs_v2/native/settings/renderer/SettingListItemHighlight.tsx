@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = offset;
         zulu[1] = entity;
         entity = function() {
-            _fun99966: for(var _fun99966_ip = 0; ; ) switch(_fun99966_ip) {
+            _fun99975: for(var _fun99975_ip = 0; ; ) switch(_fun99975_ip) {
  0:
                 entity = {};
                 tango = _closure2_slot0;
                 report = undefined;
                 zulu = undefined;
-                if(!tango) { _fun99966_ip = 50; continue _fun99966 }
+                if(!tango) { _fun99975_ip = 50; continue _fun99975 }
  16:
                 oscar = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['borderTopStartRadius'] = zulu;
                 tango = _closure2_slot0;
                 zulu = undefined;
-                if(!tango) { _fun99966_ip = 98; continue _fun99966 }
+                if(!tango) { _fun99975_ip = 98; continue _fun99975 }
  64:
                 oscar = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['borderTopEndRadius'] = zulu;
                 tango = _closure2_slot1;
                 zulu = undefined;
-                if(!tango) { _fun99966_ip = 146; continue _fun99966 }
+                if(!tango) { _fun99975_ip = 146; continue _fun99975 }
  112:
                 oscar = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['borderBottomStartRadius'] = zulu;
                 zulu = _closure2_slot1;
                 mike = undefined;
-                if(!zulu) { _fun99966_ip = 194; continue _fun99966 }
+                if(!zulu) { _fun99975_ip = 194; continue _fun99975 }
  160:
                 tango = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -188,10 +188,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.ease;
             options['easing'] = golf;
             golf = function(argFoo) { // Original name: t
-                _fun99968: for(var _fun99968_ip = 0; ; ) switch(_fun99968_ip) {
+                _fun99977: for(var _fun99977_ip = 0; ; ) switch(_fun99977_ip) {
  0:
                     entity = argFoo;
-                    if(!entity) { _fun99968_ip = 45; continue _fun99968 }
+                    if(!entity) { _fun99977_ip = 45; continue _fun99977 }
  6:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;

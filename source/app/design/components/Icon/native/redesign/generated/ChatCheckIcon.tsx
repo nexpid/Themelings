@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ChatCheckIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun95331: for(var _fun95331_ip = 0; ; ) switch(_fun95331_ip) {
+        _fun95341: for(var _fun95341_ip = 0; ; ) switch(_fun95341_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun95331_ip = 53; continue _fun95331 }
+            if(!(golf === tango)) { _fun95341_ip = 53; continue _fun95341 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

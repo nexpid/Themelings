@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun88010: for(var _fun88010_ip = 0; ; ) switch(_fun88010_ip) {
+        _fun88027: for(var _fun88027_ip = 0; ; ) switch(_fun88027_ip) {
  0:
             entity = {};
             mike = {'width': 78, 'height': 44, 'justifyContent': 'center'};
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['marginEnd'] = tango;
             golf = argFoo;
             tango = 0;
-            if(!(tango === golf)) { _fun88010_ip = 69; continue _fun88010 }
+            if(!(tango === golf)) { _fun88027_ip = 69; continue _fun88027 }
  66:
             tango = 20;
  69:
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumGiftBackgroundSelectTile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftBackgroundSelectTile
-        _fun88011: for(var _fun88011_ip = 0; ; ) switch(_fun88011_ip) {
+        _fun88028: for(var _fun88028_ip = 0; ; ) switch(_fun88028_ip) {
  0:
             entity = argFoo;
             zulu = entity.index;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity[mike];
             entity = null;
             mike = entity == offset;
-            if(mike) { _fun88011_ip = 188; continue _fun88011 }
+            if(mike) { _fun88028_ip = 188; continue _fun88028 }
  59:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.container;
             mike['style'] = verify;
             mike['onPress'] = oscar;
-            if(!options) { _fun88011_ip = 111; continue _fun88011 }
+            if(!options) { _fun88028_ip = 111; continue _fun88028 }
  85:
             romeo = _closure1_slot4;
             verify = _closure1_slot2;

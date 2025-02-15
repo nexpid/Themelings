@@ -7,29 +7,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getDeafStates
-        _fun103580: for(var _fun103580_ip = 0; ; ) switch(_fun103580_ip) {
+        _fun103572: for(var _fun103572_ip = 0; ; ) switch(_fun103572_ip) {
  0:
             report = argFoo;
             options = arguments[1];
             oscar = arguments[2];
             verify = arguments[3];
             zulu = undefined;
-            if(!(options === zulu)) { _fun103580_ip = 25; continue _fun103580 }
+            if(!(options === zulu)) { _fun103572_ip = 25; continue _fun103572 }
  18:
             options = _closure1_slot4;
  25:
-            if(!(oscar === zulu)) { _fun103580_ip = 36; continue _fun103580 }
+            if(!(oscar === zulu)) { _fun103572_ip = 36; continue _fun103572 }
  29:
             oscar = _closure1_slot3;
  36:
-            if(!(verify === zulu)) { _fun103580_ip = 47; continue _fun103580 }
+            if(!(verify === zulu)) { _fun103572_ip = 47; continue _fun103572 }
  40:
             verify = _closure1_slot2;
  47:
             mike = null;
             entity = mike != report;
             tango = null;
-            if(!entity) { _fun103580_ip = 90; continue _fun103580 }
+            if(!entity) { _fun103572_ip = 90; continue _fun103572 }
  58:
             golf = options.getVoiceState;
             entity = report.getGuildId;
@@ -44,12 +44,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['selfDeaf'] = report;
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun103580_ip = 122; continue _fun103580 }
+            if(report) { _fun103572_ip = 122; continue _fun103572 }
  116:
             zulu = tango.deaf;
  122:
             mike = mike != zulu;
-            if(!mike) { _fun103580_ip = 132; continue _fun103580 }
+            if(!mike) { _fun103572_ip = 132; continue _fun103572 }
  129:
             mike = zulu;
  132:

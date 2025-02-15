@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot2;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun41968: for(var _fun41968_ip = 0; ; ) switch(_fun41968_ip) {
+                _fun41976: for(var _fun41976_ip = 0; ; ) switch(_fun41976_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun41968_ip = 209; continue _fun41968 }
+                    if(tango) { _fun41976_ip = 209; continue _fun41976 }
  13:
                     offset = mike.createPromise;
                     yankee = mike.webpackId;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return verify;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun41968_ip = 206; continue _fun41968 }
+                    if(tango) { _fun41976_ip = 206; continue _fun41976 }
  44:
                     romeo = _closure1_slot8;
                     foxtrot = 0;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  69:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun41968_ip = 78; continue _fun41968 }
+                    if(report) { _fun41976_ip = 78; continue _fun41976 }
  75: // try_end0
                     return tango;
  78:
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure1_slot0;
                     tango = tango.cache;
                     tango = report in tango;
-                    if(tango) { _fun41968_ip = 204; continue _fun41968 }
+                    if(tango) { _fun41976_ip = 204; continue _fun41976 }
  103:
                     report = foxtrot;
                     tango = _closure1_slot7;
-                    if(!(!(report >= tango))) { _fun41968_ip = 199; continue _fun41968 }
+                    if(!(!(report >= tango))) { _fun41976_ip = 199; continue _fun41976 }
  114:
                     report = _closure1_slot11;
                     tango = romeo;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  130:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun41968_ip = 196; continue _fun41968 }
+                    if(report) { _fun41976_ip = 196; continue _fun41976 }
  136:
                     report = _closure1_slot10;
                     report = report.bind(verify)();
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return report;
  148:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=13);
-                    if(backup) { _fun41968_ip = 193; continue _fun41968 }
+                    if(backup) { _fun41976_ip = 193; continue _fun41976 }
  154:
                     output = golf.Math;
                     sizing = output.min;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = sizing.bind(output)(kilo, backup);
                     backup = foxtrot;
                     foxtrot = backup + 1;
-                    _fun41968_ip = 58; continue _fun41968;
+                    _fun41976_ip = 58; continue _fun41976;
  193:
                     return report;
  196:
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = report.Fragment;
     var _closure1_slot5 = report;
     report = function() { // Original name: loaderMaker
-        _fun41969: for(var _fun41969_ip = 0; ; ) switch(_fun41969_ip) {
+        _fun41977: for(var _fun41977_ip = 0; ; ) switch(_fun41977_ip) {
  0:
             mike = arguments[0];
             zulu = undefined;
-            if(!(mike === zulu)) { _fun41969_ip = 15; continue _fun41969 }
+            if(!(mike === zulu)) { _fun41977_ip = 15; continue _fun41977 }
  11:
             mike = 'transparent';
  15:
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['setAwaitOnline'] = report;
     zulu['importWithRetry'] = tango;
     tango = function(argFoo) { // Original name: makeLazy
-        _fun41975: for(var _fun41975_ip = 0; ; ) switch(_fun41975_ip) {
+        _fun41983: for(var _fun41983_ip = 0; ; ) switch(_fun41983_ip) {
  0:
             mike = argFoo;
             zulu = mike.createPromise;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.name;
             zulu = mike.memo;
             mike = undefined;
-            if(!(zulu === mike)) { _fun41975_ip = 55; continue _fun41975 }
+            if(!(zulu === mike)) { _fun41983_ip = 55; continue _fun41983 }
  53:
             zulu = false;
  55:
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.bind(golf)(tango);
             _closure2_slot3 = tango;
             tango = function(argFoo) { // Original name: Wrapper
-                _fun41977: for(var _fun41977_ip = 0; ; ) switch(_fun41977_ip) {
+                _fun41985: for(var _fun41985_ip = 0; ; ) switch(_fun41985_ip) {
  0:
                     tango = _closure1_slot4;
                     entity = _closure1_slot3;
@@ -277,13 +277,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     golf = _closure2_slot2;
                     oscar = null;
-                    if(!(oscar == golf)) { _fun41977_ip = 48; continue _fun41977 }
+                    if(!(oscar == golf)) { _fun41985_ip = 48; continue _fun41985 }
  32:
                     oscar = _closure1_slot6;
                     golf = undefined;
                     oscar = oscar.bind(golf)();
                     oscar = oscar.bind(golf)();
-                    _fun41977_ip = 58; continue _fun41977;
+                    _fun41985_ip = 58; continue _fun41985;
  48:
                     options = _closure2_slot2;
                     golf = undefined;
@@ -304,13 +304,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             entity = tango;
-            if(!zulu) { _fun41975_ip = 111; continue _fun41975 }
+            if(!zulu) { _fun41983_ip = 111; continue _fun41983 }
  97:
             zulu = _closure1_slot3;
             mike = zulu.memo;
             entity = mike.bind(zulu)(tango);
  111:
-            if(report) { _fun41975_ip = 118; continue _fun41975 }
+            if(report) { _fun41983_ip = 118; continue _fun41983 }
  114:
             report = 'Unknown';
  118:
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['makeLazy'] = tango;
     mike = function(argFoo) { // Original name: LazyLibrary
-        _fun41978: for(var _fun41978_ip = 0; ; ) switch(_fun41978_ip) {
+        _fun41986: for(var _fun41986_ip = 0; ; ) switch(_fun41986_ip) {
  0:
             entity = argFoo;
             zulu = entity.createPromise;
@@ -375,10 +375,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot4;
             mike = _closure1_slot5;
             entity = {};
-            if(!(options != report)) { _fun41978_ip = 129; continue _fun41978 }
+            if(!(options != report)) { _fun41986_ip = 129; continue _fun41986 }
  122:
             report = golf.bind(tango)(report);
-            _fun41978_ip = 133; continue _fun41978;
+            _fun41986_ip = 133; continue _fun41986;
  129:
             report = oscar.bind(tango)();
  133:

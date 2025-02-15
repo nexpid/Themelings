@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/alerts/MemberVerificationAlertSuccess.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationAlertSuccess
-        _fun88490: for(var _fun88490_ip = 0; ; ) switch(_fun88490_ip) {
+        _fun88507: for(var _fun88507_ip = 0; ; ) switch(_fun88507_ip) {
  0:
             report = argFoo;
             verify = report.guildId;
@@ -119,10 +119,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             kilo = options.bind(verify)(tango, zulu);
-            if(!(entity != echo)) { _fun88490_ip = 629; continue _fun88490 }
+            if(!(entity != echo)) { _fun88507_ip = 629; continue _fun88507 }
  174:
             options = function() { // Original name: onConfirm
-                _fun88493: for(var _fun88493_ip = 0; ; ) switch(_fun88493_ip) {
+                _fun88510: for(var _fun88510_ip = 0; ; ) switch(_fun88510_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = undefined;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot2;
                     tango = zulu.onClose;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun88493_ip = 43; continue _fun88493 }
+                    if(!(zulu != tango)) { _fun88510_ip = 43; continue _fun88510 }
  29:
                     zulu = _closure2_slot2;
                     mike = zulu.onClose;

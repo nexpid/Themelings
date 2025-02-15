@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ActualData
-        _fun72021: for(var _fun72021_ip = 0; ; ) switch(_fun72021_ip) {
+        _fun72027: for(var _fun72027_ip = 0; ; ) switch(_fun72027_ip) {
  0:
             entity = argFoo;
             oscar = entity.message;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.bind(report)(tango, zulu);
             entity = null;
             zulu = entity == oscar;
-            if(zulu) { _fun72021_ip = 123; continue _fun72021 }
+            if(zulu) { _fun72027_ip = 123; continue _fun72027 }
  97:
             tango = _closure1_slot3;
             zulu = _closure1_slot4;

@@ -84,12 +84,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionMemberPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionMemberPreview
-        _fun96940: for(var _fun96940_ip = 0; ; ) switch(_fun96940_ip) {
+        _fun96950: for(var _fun96950_ip = 0; ; ) switch(_fun96950_ip) {
  0:
             entity = argFoo;
             romeo = entity.content;
             report = undefined;
-            if(!(romeo === report)) { _fun96940_ip = 72; continue _fun96940 }
+            if(!(romeo === report)) { _fun96950_ip = 72; continue _fun96950 }
  14:
             oscar = _closure1_slot0;
             golf = _closure1_slot3;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.useName;
             entity = null;
             sizing = mike.bind(zulu)(kilo, entity, backup);
-            if(!(entity != config)) { _fun96940_ip = 850; continue _fun96940 }
+            if(!(entity != config)) { _fun96950_ip = 851; continue _fun96950 }
  195:
             zulu = _closure1_slot1;
             mike = _closure1_slot3;
@@ -143,13 +143,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.makeSource;
             oscar = entity == backup;
             mike = undefined;
-            if(oscar) { _fun96940_ip = 245; continue _fun96940 }
+            if(oscar) { _fun96950_ip = 245; continue _fun96950 }
  230:
             options = backup.getAvatarURL;
             oscar = 40;
             mike = options.bind(backup)(kilo, oscar);
  245:
-            if(!(entity == mike)) { _fun96940_ip = 278; continue _fun96940 }
+            if(!(entity == mike)) { _fun96950_ip = 278; continue _fun96950 }
  249:
             options = _closure1_slot1;
             oscar = _closure1_slot3;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = verify;
             yankee = entity != sequence;
             verify = null;
-            if(!yankee) { _fun96940_ip = 674; continue _fun96940 }
+            if(!yankee) { _fun96950_ip = 675; continue _fun96950 }
  525:
             output = _closure1_slot8;
             sizing = _closure1_slot7;
@@ -240,13 +240,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = sequence.customIconSrc;
             record = entity != config;
             config = undefined;
-            if(!record) { _fun96940_ip = 635; continue _fun96940 }
+            if(!record) { _fun96950_ip = 636; continue _fun96950 }
  620:
             record = {};
             context = sequence.customIconSrc;
             record['uri'] = context;
             config = record;
- 635:
+ 636:
             update['source'] = config;
             sequence = sequence.unicodeEmoji;
             update['unicodeEmoji'] = sequence;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo[1] = update;
             yankee['children'] = echo;
             verify = output.bind(report)(sizing, yankee);
- 674:
+ 675:
             kilo[1] = verify;
             yankee = _closure1_slot6;
             output = _closure1_slot1;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             return mike;
- 850:
+ 851:
             return entity;
         }
     };

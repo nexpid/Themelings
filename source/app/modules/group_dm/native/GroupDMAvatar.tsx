@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: FacepileGroupDMAvatar
-        _fun79789: for(var _fun79789_ip = 0; ; ) switch(_fun79789_ip) {
+        _fun79802: for(var _fun79802_ip = 0; ; ) switch(_fun79802_ip) {
  0:
             mike = argFoo;
             result = mike.style;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             echo = verify.bind(kilo)(zulu, options);
             verify = null;
-            if(!(verify == foxtrot)) { _fun79789_ip = 150; continue _fun79789 }
+            if(!(verify == foxtrot)) { _fun79802_ip = 150; continue _fun79802 }
  142:
             zulu = _closure1_slot10;
             foxtrot = zulu[report];
@@ -145,13 +145,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['guildId'] = tango;
             report['cutout'] = options;
             report['animate'] = offset;
-            if(!(verify != yankee)) { _fun79789_ip = 336; continue _fun79789 }
+            if(!(verify != yankee)) { _fun79802_ip = 336; continue _fun79802 }
  322:
             options = {};
             echo = 0;
             echo = yankee[echo];
             options['user'] = echo;
-            _fun79789_ip = 351; continue _fun79789;
+            _fun79802_ip = 351; continue _fun79802;
  336:
             echo = {};
             update = 0;
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['size'] = foxtrot;
             oscar['guildId'] = tango;
             oscar['animate'] = offset;
-            if(!(verify != yankee)) { _fun79789_ip = 464; continue _fun79789 }
+            if(!(verify != yankee)) { _fun79802_ip = 464; continue _fun79802 }
  449:
             verify = {};
             offset = 1;
             offset = yankee[offset];
             verify['user'] = offset;
-            _fun79789_ip = 480; continue _fun79789;
+            _fun79802_ip = 480; continue _fun79802;
  464:
             offset = {};
             yankee = 1;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/group_dm/native/GroupDMAvatar.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GroupDMAvatar
-        _fun79792: for(var _fun79792_ip = 0; ; ) switch(_fun79792_ip) {
+        _fun79805: for(var _fun79805_ip = 0; ; ) switch(_fun79805_ip) {
  0:
             mike = argFoo;
             yankee = mike.style;
@@ -385,19 +385,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = tango.bind(backup)(zulu, entity);
             zulu = verify.icon;
             entity = null;
-            if(!(entity == zulu)) { _fun79792_ip = 299; continue _fun79792 }
+            if(!(entity == zulu)) { _fun79805_ip = 299; continue _fun79805 }
  122:
             entity = verify.recipients;
             entity = entity.length;
             backup = 0;
-            if(!(backup !== entity)) { _fun79792_ip = 299; continue _fun79792 }
+            if(!(backup !== entity)) { _fun79805_ip = 299; continue _fun79805 }
  142:
             entity = kilo.length;
-            if(!(backup !== entity)) { _fun79792_ip = 299; continue _fun79792 }
+            if(!(backup !== entity)) { _fun79805_ip = 299; continue _fun79805 }
  154:
             zulu = kilo.length;
             entity = 1;
-            if(!(entity !== zulu)) { _fun79792_ip = 220; continue _fun79792 }
+            if(!(entity !== zulu)) { _fun79805_ip = 220; continue _fun79805 }
  166:
             tango = _closure1_slot7;
             zulu = _closure1_slot12;
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessible'] = golf;
             entity['accessibilityLabel'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun79792_ip = 297; continue _fun79792;
+            _fun79805_ip = 297; continue _fun79805;
  220:
             foxtrot = _closure1_slot7;
             tango = _closure1_slot1;
@@ -433,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['accessibilityLabel'] = oscar;
             entity = foxtrot.bind(report)(tango, zulu);
  297:
-            _fun79792_ip = 368; continue _fun79792;
+            _fun79805_ip = 368; continue _fun79805;
  299:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;

@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/design_system/UserSettingsDesignSystemBackdrop.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsDesignSystemBackdrop
-        _fun99327: for(var _fun99327_ip = 0; ; ) switch(_fun99327_ip) {
+        _fun99337: for(var _fun99337_ip = 0; ; ) switch(_fun99337_ip) {
  0:
             foxtrot = function() { // Original name: handleClose
                 zulu = _closure2_slot1;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: n
-                _fun99329: for(var _fun99329_ip = 0; ; ) switch(_fun99329_ip) {
+                _fun99339: for(var _fun99339_ip = 0; ; ) switch(_fun99339_ip) {
  0:
                     entity = {};
                     tango = _closure1_slot0;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.withSpring;
                     zulu = _closure2_slot0;
                     tango = 0;
-                    if(!zulu) { _fun99329_ip = 47; continue _fun99329 }
+                    if(!zulu) { _fun99339_ip = 47; continue _fun99339 }
  44:
                     tango = 1;
  47:
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun99327_ip = 652; continue _fun99327 }
+            if(!oscar) { _fun99337_ip = 652; continue _fun99337 }
  417:
             verify = _closure1_slot6;
             result = _closure1_slot0;

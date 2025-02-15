@@ -13,10 +13,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = zulu.useRef;
         entity = {};
         report = function() { // Original name: getApplicationCommandManager
-            _fun113454: for(var _fun113454_ip = 0; ; ) switch(_fun113454_ip) {
+            _fun113460: for(var _fun113460_ip = 0; ; ) switch(_fun113460_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun113454_ip = 46; continue _fun113454 }
+                if(entity) { _fun113460_ip = 46; continue _fun113460 }
  10:
                 entity = global;
                 zulu = entity.Error;
@@ -34,10 +34,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         };
         entity['getApplicationCommandManager'] = report;
         report = function() { // Original name: openCustomKeyboard
-            _fun113455: for(var _fun113455_ip = 0; ; ) switch(_fun113455_ip) {
+            _fun113461: for(var _fun113461_ip = 0; ; ) switch(_fun113461_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun113455_ip = 46; continue _fun113455 }
+                if(entity) { _fun113461_ip = 46; continue _fun113461 }
  10:
                 entity = global;
                 zulu = entity.Error;
@@ -55,10 +55,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         };
         entity['openCustomKeyboard'] = report;
         tango = function() { // Original name: closeCustomKeyboard
-            _fun113456: for(var _fun113456_ip = 0; ; ) switch(_fun113456_ip) {
+            _fun113462: for(var _fun113462_ip = 0; ; ) switch(_fun113462_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun113456_ip = 46; continue _fun113456 }
+                if(entity) { _fun113462_ip = 46; continue _fun113462 }
  10:
                 entity = global;
                 zulu = entity.Error;
@@ -143,14 +143,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     zulu['AppLauncherContext'] = report;
     zulu['useAppLauncherChatInputRefDummy'] = tango;
     tango = function() { // Original name: useRequiredAppLauncherContext
-        _fun113457: for(var _fun113457_ip = 0; ; ) switch(_fun113457_ip) {
+        _fun113463: for(var _fun113463_ip = 0; ; ) switch(_fun113463_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.useContext;
             entity = _closure1_slot4;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun113457_ip = 30; continue _fun113457 }
+            if(!(mike != entity)) { _fun113463_ip = 30; continue _fun113463 }
  28:
             return entity;
  30:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['useRequiredAppLauncherContext'] = tango;
     mike = function() { // Original name: useAppLauncherContext
-        _fun113458: for(var _fun113458_ip = 0; ; ) switch(_fun113458_ip) {
+        _fun113464: for(var _fun113464_ip = 0; ; ) switch(_fun113464_ip) {
  0:
             report = _closure1_slot2;
             tango = report.useRef;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             mike = zulu.bind(tango)(mike);
             zulu = null;
-            if(!(zulu != mike)) { _fun113458_ip = 203; continue _fun113458 }
+            if(!(zulu != mike)) { _fun113464_ip = 203; continue _fun113464 }
  200:
             entity = mike;
  203:

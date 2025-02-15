@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: isValidClipboardCode
-        _fun98658: for(var _fun98658_ip = 0; ; ) switch(_fun98658_ip) {
+        _fun98668: for(var _fun98668_ip = 0; ; ) switch(_fun98668_ip) {
  0:
             zulu = argFoo;
             tango = zulu.length;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf.bind(report)(entity);
             entity = entity.BACKUP_CODE_MIN_LENGTH;
             entity = tango >= entity;
-            if(!entity) { _fun98658_ip = 78; continue _fun98658 }
+            if(!entity) { _fun98668_ip = 78; continue _fun98668 }
  46:
             zulu = zulu.length;
             tango = _closure1_slot0;
@@ -105,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun98662: for(var _fun98662_ip = 0; ; ) switch(_fun98662_ip) {
+                    _fun98672: for(var _fun98672_ip = 0; ; ) switch(_fun98672_ip) {
  0:
                         StartGenerator();
                         report = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun98662_ip = 217; continue _fun98662 }
+                        if(mike) { _fun98672_ip = 217; continue _fun98672 }
  13:
                         options = report;
                         mike = undefined;
@@ -125,11 +125,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = yankee[report];
                         report = offset.bind(mike)(report);
                         report = report.BACKUP_CODE_MIN_LENGTH;
-                        if(!(golf !== report)) { _fun98662_ip = 86; continue _fun98662 }
+                        if(!(golf !== report)) { _fun98672_ip = 86; continue _fun98672 }
  72:
                         report = _closure2_slot4;
                         report = report.bind(mike)(mike);
-                        _fun98662_ip = 214; continue _fun98662;
+                        _fun98672_ip = 214; continue _fun98672;
  86:
                         golf = _closure2_slot1;
                         report = true;
@@ -146,9 +146,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  125:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golf) { _fun98662_ip = 133; continue _fun98662 }
+                        if(golf) { _fun98672_ip = 133; continue _fun98672 }
  131: // try_end0
-                        _fun98662_ip = 203; continue _fun98662;
+                        _fun98672_ip = 203; continue _fun98672;
  133:
                         return report;
  136: // catch_target0
@@ -158,22 +158,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = null;
                         offset = options == golf;
                         golf = undefined;
-                        if(offset) { _fun98662_ip = 181; continue _fun98662 }
+                        if(offset) { _fun98672_ip = 181; continue _fun98672 }
  156:
                         offset = tango;
                         offset = offset.body;
                         verify = offset;
                         offset = options == offset;
                         golf = undefined;
-                        if(offset) { _fun98662_ip = 181; continue _fun98662 }
+                        if(offset) { _fun98672_ip = 181; continue _fun98672 }
  176:
                         golf = verify.message;
  181:
                         oscar = golf;
-                        if(!(options == golf)) { _fun98662_ip = 195; continue _fun98662 }
+                        if(!(options == golf)) { _fun98672_ip = 195; continue _fun98672 }
  188:
                         tango = tango.message;
-                        _fun98662_ip = 198; continue _fun98662;
+                        _fun98672_ip = 198; continue _fun98672;
  195:
                         tango = oscar;
  198:

@@ -140,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun113272: for(var _fun113272_ip = 0; ; ) switch(_fun113272_ip) {
+                    _fun113278: for(var _fun113278_ip = 0; ; ) switch(_fun113278_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun113272_ip = 321; continue _fun113272 }
+                        if(mike) { _fun113278_ip = 321; continue _fun113278 }
  12:
                         options = argFoo;
                         mike = undefined;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = _closure1_slot8;
                         zulu = _closure2_slot0;
                         zulu = verify.bind(mike)(zulu);
-                        if(zulu) { _fun113272_ip = 318; continue _fun113272 }
+                        if(zulu) { _fun113278_ip = 318; continue _fun113278 }
  44: // try_start_0
                         yankee = _closure1_slot14;
                         offset = options;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  75:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                        if(verify) { _fun113272_ip = 272; continue _fun113272 }
+                        if(verify) { _fun113278_ip = 272; continue _fun113278 }
  84:
                         golf = zulu;
                         offset = _closure1_slot14;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return tango;
  118:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                        if(options) { _fun113272_ip = 269; continue _fun113272 }
+                        if(options) { _fun113278_ip = 269; continue _fun113278 }
  127:
                         verify = golf;
                         options = verify.map;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = golf.bind(options)(tango);
                         options = verify.map;
                         golf = function(argFoo) {
-                            _fun113274: for(var _fun113274_ip = 0; ; ) switch(_fun113274_ip) {
+                            _fun113280: for(var _fun113280_ip = 0; ; ) switch(_fun113280_ip) {
  0:
                                 zulu = argFoo;
                                 entity = {};
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 mike = zulu.id;
                                 mike = tango.bind(report)(mike);
                                 tango = null;
-                                if(!(tango == mike)) { _fun113274_ip = 44; continue _fun113274 }
+                                if(!(tango == mike)) { _fun113280_ip = 44; continue _fun113280 }
  38:
                                 mike = zulu.lastMessageId;
  44:
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report['count'] = verify;
                         report = golf.bind(options)(report);
  267: // try_end0
-                        _fun113272_ip = 318; continue _fun113272;
+                        _fun113278_ip = 318; continue _fun113278;
  269:
                         return tango;
  272:
@@ -298,10 +298,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[1] = tango;
         report[2] = zulu;
         tango = function() {
-            _fun113277: for(var _fun113277_ip = 0; ; ) switch(_fun113277_ip) {
+            _fun113283: for(var _fun113283_ip = 0; ; ) switch(_fun113283_ip) {
  0:
                 mike = _closure2_slot1;
-                if(mike) { _fun113277_ip = 14; continue _fun113277 }
+                if(mike) { _fun113283_ip = 14; continue _fun113283 }
  10:
                 mike = undefined;
                 return mike;

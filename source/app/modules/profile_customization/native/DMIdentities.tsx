@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/DMIdentities.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DMIdentities
-        _fun99666: for(var _fun99666_ip = 0; ; ) switch(_fun99666_ip) {
+        _fun99676: for(var _fun99676_ip = 0; ; ) switch(_fun99676_ip) {
  0:
             mike = argFoo;
             entity = mike.user;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.id;
             kilo = zulu.bind(tango)(entity);
             entity = null;
-            if(!mike) { _fun99666_ip = 476; continue _fun99666 }
+            if(!mike) { _fun99676_ip = 476; continue _fun99676 }
  126:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = -5;
             romeo['offsetAmount'] = kilo;
             backup = function(argFoo, argBar) { // Original name: renderItem
-                _fun99667: for(var _fun99667_ip = 0; ; ) switch(_fun99667_ip) {
+                _fun99677: for(var _fun99677_ip = 0; ; ) switch(_fun99677_ip) {
  0:
                     tango = _closure1_slot4;
                     mike = _closure1_slot1;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['size'] = report;
                     oscar = argBar;
                     report = undefined;
-                    if(oscar) { _fun99667_ip = 100; continue _fun99667 }
+                    if(oscar) { _fun99677_ip = 100; continue _fun99677 }
  86:
                     report = {'radius': 10, 'inset': 4294967295};
  100:

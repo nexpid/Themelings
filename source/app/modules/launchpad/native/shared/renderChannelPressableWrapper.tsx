@@ -52,26 +52,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/launchpad/native/shared/renderChannelPressableWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: renderChannelPressableWrapper
-        _fun121011: for(var _fun121011_ip = 0; ; ) switch(_fun121011_ip) {
+        _fun121017: for(var _fun121017_ip = 0; ; ) switch(_fun121017_ip) {
  0:
             entity = arguments[1];
             tango = undefined;
-            if(!(entity === tango)) { _fun121011_ip = 11; continue _fun121011 }
+            if(!(entity === tango)) { _fun121017_ip = 11; continue _fun121017 }
  9:
             entity = {};
  11:
             report = entity.isThread;
-            if(!(report === tango)) { _fun121011_ip = 23; continue _fun121011 }
+            if(!(report === tango)) { _fun121017_ip = 23; continue _fun121017 }
  21:
             report = false;
  23:
             zulu = _closure1_slot1;
             mike = _closure1_slot0;
             entity = {};
-            if(report) { _fun121011_ip = 45; continue _fun121011 }
+            if(report) { _fun121017_ip = 45; continue _fun121017 }
  39:
             report = _closure1_slot2;
-            _fun121011_ip = 49; continue _fun121011;
+            _fun121017_ip = 49; continue _fun121017;
  45:
             report = _closure1_slot3;
  49:

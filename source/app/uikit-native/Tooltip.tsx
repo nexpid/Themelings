@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     oscar = 'uikit-native/Tooltip.tsx';
     oscar = golf.bind(options)(oscar);
     report = function(argFoo) { // Original name: Tooltip
-        _fun85232: for(var _fun85232_ip = 0; ; ) switch(_fun85232_ip) {
+        _fun85249: for(var _fun85249_ip = 0; ; ) switch(_fun85249_ip) {
  0:
             mike = argFoo;
             report = mike.style;
@@ -123,30 +123,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = mike.children;
             sizing = mike.arrowWidth;
             tango = undefined;
-            if(!(sizing === tango)) { _fun85232_ip = 58; continue _fun85232 }
+            if(!(sizing === tango)) { _fun85249_ip = 58; continue _fun85249 }
  55:
             sizing = 16;
  58:
             backup = mike.arrowHeight;
-            if(!(backup === tango)) { _fun85232_ip = 71; continue _fun85232 }
+            if(!(backup === tango)) { _fun85249_ip = 71; continue _fun85249 }
  68:
             backup = 8;
  71:
             verify = mike.arrowOffset;
-            if(!(verify === tango)) { _fun85232_ip = 85; continue _fun85232 }
+            if(!(verify === tango)) { _fun85249_ip = 85; continue _fun85249 }
  83:
             verify = 0;
  85:
             var _closure2_slot0 = verify;
             romeo = mike.arrowPosition;
-            if(!(romeo === tango)) { _fun85232_ip = 112; continue _fun85232 }
+            if(!(romeo === tango)) { _fun85249_ip = 112; continue _fun85249 }
  99:
             zulu = _closure1_slot7;
             romeo = zulu.LEFT;
  112:
             var _closure2_slot1 = romeo;
             options = mike.arrowDirection;
-            if(!(options === tango)) { _fun85232_ip = 139; continue _fun85232 }
+            if(!(options === tango)) { _fun85249_ip = 139; continue _fun85249 }
  126:
             zulu = _closure1_slot6;
             options = zulu.UP;
@@ -160,20 +160,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = romeo;
             mike[1] = verify;
             entity = function() {
-                _fun85233: for(var _fun85233_ip = 0; ; ) switch(_fun85233_ip) {
+                _fun85250: for(var _fun85250_ip = 0; ; ) switch(_fun85250_ip) {
  0:
                     tango = _closure2_slot1;
                     zulu = _closure1_slot7;
                     zulu = zulu.LEFT;
-                    if(!(zulu !== tango)) { _fun85233_ip = 127; continue _fun85233 }
+                    if(!(zulu !== tango)) { _fun85250_ip = 127; continue _fun85250 }
  24:
                     zulu = _closure1_slot7;
                     zulu = zulu.CENTER;
-                    if(!(zulu !== tango)) { _fun85233_ip = 114; continue _fun85233 }
+                    if(!(zulu !== tango)) { _fun85250_ip = 114; continue _fun85250 }
  38:
                     zulu = _closure1_slot7;
                     zulu = zulu.RIGHT;
-                    if(!(zulu !== tango)) { _fun85233_ip = 91; continue _fun85233 }
+                    if(!(zulu !== tango)) { _fun85250_ip = 91; continue _fun85250 }
  52:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot6;
             report = report.UP;
             oscar = options === report;
-            if(!oscar) { _fun85232_ip = 295; continue _fun85232 }
+            if(!oscar) { _fun85249_ip = 295; continue _fun85249 }
  221:
             foxtrot = _closure1_slot4;
             verify = _closure1_slot3;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = null;
             kilo = result != vacuum;
             echo = null;
-            if(!kilo) { _fun85232_ip = 409; continue _fun85232 }
+            if(!kilo) { _fun85249_ip = 409; continue _fun85249 }
  350:
             source = _closure1_slot4;
             update = _closure1_slot0;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = echo;
             echo = result != control;
             result = null;
-            if(!echo) { _fun85232_ip = 489; continue _fun85232 }
+            if(!echo) { _fun85249_ip = 489; continue _fun85249 }
  426:
             source = _closure1_slot4;
             update = _closure1_slot0;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot6;
             oscar = oscar.DOWN;
             oscar = options === oscar;
-            if(!oscar) { _fun85232_ip = 602; continue _fun85232 }
+            if(!oscar) { _fun85249_ip = 602; continue _fun85249 }
  528:
             verify = _closure1_slot4;
             options = _closure1_slot3;

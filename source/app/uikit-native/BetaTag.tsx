@@ -67,20 +67,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'uikit-native/BetaTag.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: BetaTag
-        _fun73870: for(var _fun73870_ip = 0; ; ) switch(_fun73870_ip) {
+        _fun73880: for(var _fun73880_ip = 0; ; ) switch(_fun73880_ip) {
  0:
             entity = argFoo;
             yankee = entity.style;
             verify = entity.textStyle;
             zulu = entity.size;
             report = undefined;
-            if(!(zulu === report)) { _fun73870_ip = 38; continue _fun73870 }
+            if(!(zulu === report)) { _fun73880_ip = 38; continue _fun73880 }
  25:
             mike = _closure1_slot6;
             zulu = mike.MEDIUM;
  38:
             entity = entity.gradient;
-            if(!(entity === report)) { _fun73870_ip = 50; continue _fun73870 }
+            if(!(entity === report)) { _fun73880_ip = 50; continue _fun73880 }
  48:
             entity = false;
  50:
@@ -89,17 +89,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             mike = mike.SMALL;
             offset = 'text-xs/bold';
-            if(!(mike !== zulu)) { _fun73870_ip = 101; continue _fun73870 }
+            if(!(mike !== zulu)) { _fun73880_ip = 101; continue _fun73880 }
  79:
             mike = _closure1_slot6;
             mike = mike.MEDIUM;
             offset = undefined;
-            if(!(mike === zulu)) { _fun73870_ip = 101; continue _fun73870 }
+            if(!(mike === zulu)) { _fun73880_ip = 101; continue _fun73880 }
  95:
             offset = 'text-sm/bold';
  101:
             tango = _closure1_slot4;
-            if(entity) { _fun73870_ip = 272; continue _fun73870 }
+            if(entity) { _fun73880_ip = 272; continue _fun73880 }
  111:
             mike = _closure1_slot3;
             entity = {};
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.bind(report)(golf, zulu);
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun73870_ip = 518; continue _fun73870;
+            _fun73880_ip = 518; continue _fun73880;
  272:
             zulu = _closure1_slot1;
             romeo = _closure1_slot2;

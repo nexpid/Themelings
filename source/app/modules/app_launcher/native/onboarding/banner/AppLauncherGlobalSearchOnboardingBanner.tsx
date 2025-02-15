@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/banner/AppLauncherGlobalSearchOnboardingBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GlobalSearchCoachmark
-        _fun118886: for(var _fun118886_ip = 0; ; ) switch(_fun118886_ip) {
+        _fun118892: for(var _fun118892_ip = 0; ; ) switch(_fun118892_ip) {
  0:
             mike = argFoo;
             entity = mike.markAsDismissed;
@@ -99,10 +99,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[1] = zulu;
             entity = function() {
                 entity = function() {
-                    _fun118888: for(var _fun118888_ip = 0; ; ) switch(_fun118888_ip) {
+                    _fun118894: for(var _fun118894_ip = 0; ; ) switch(_fun118894_ip) {
  0:
                         mike = _closure2_slot1;
-                        if(!mike) { _fun118888_ip = 41; continue _fun118888 }
+                        if(!mike) { _fun118894_ip = 41; continue _fun118894 }
  10:
                         zulu = _closure2_slot0;
                         mike = {};
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = verify.bind(offset)(entity, tango);
             entity = null;
-            if(!zulu) { _fun118886_ip = 336; continue _fun118886 }
+            if(!zulu) { _fun118892_ip = 336; continue _fun118892 }
  110:
             tango = _closure1_slot7;
             romeo = _closure1_slot0;

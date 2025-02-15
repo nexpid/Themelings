@@ -31,7 +31,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'lib/WindowVisibilityUtils.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: isDiscordVisible
-        _fun52521: for(var _fun52521_ip = 0; ; ) switch(_fun52521_ip) {
+        _fun52528: for(var _fun52528_ip = 0; ; ) switch(_fun52528_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getState;
@@ -48,7 +48,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = mike.isInPipMode;
             mike = entity.bind(mike)();
             entity = !zulu;
-            if(!zulu) { _fun52521_ip = 72; continue _fun52521 }
+            if(!zulu) { _fun52528_ip = 72; continue _fun52528 }
  69:
             entity = mike;
  72:

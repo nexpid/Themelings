@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/oauth2/native/OAuth2AuthorizeModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: OAuth2AuthorizeModal
-        _fun73653: for(var _fun73653_ip = 0; ; ) switch(_fun73653_ip) {
+        _fun73663: for(var _fun73663_ip = 0; ; ) switch(_fun73663_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.bind(tango)(mike);
             zulu = report.useAnimatedStyle;
             mike = function() { // Original name: _
-                _fun73654: for(var _fun73654_ip = 0; ; ) switch(_fun73654_ip) {
+                _fun73664: for(var _fun73664_ip = 0; ; ) switch(_fun73664_ip) {
  0:
                     entity = {};
                     zulu = _closure2_slot1;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     tango = mike != zulu;
                     mike = 1;
-                    if(!tango) { _fun73654_ip = 33; continue _fun73654 }
+                    if(!tango) { _fun73664_ip = 33; continue _fun73664 }
  30:
                     mike = zulu;
  33:
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function(argFoo) {
-                _fun73655: for(var _fun73655_ip = 0; ; ) switch(_fun73655_ip) {
+                _fun73665: for(var _fun73665_ip = 0; ; ) switch(_fun73665_ip) {
  0:
                     tango = _closure2_slot1;
                     zulu = tango.set;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = 16;
                     options = options > report;
                     report = 0;
-                    if(!options) { _fun73655_ip = 76; continue _fun73655 }
+                    if(!options) { _fun73665_ip = 76; continue _fun73665 }
  73:
                     report = 1;
  76:
@@ -204,25 +204,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing[update];
             sizing = source.bind(tango)(sizing);
             sizing = sizing.t;
-            if(kilo) { _fun73653_ip = 343; continue _fun73653 }
+            if(kilo) { _fun73663_ip = 343; continue _fun73663 }
  330:
             kilo = sizing.cpT0Cg;
             kilo = result.bind(echo)(kilo);
-            _fun73653_ip = 354; continue _fun73653;
+            _fun73663_ip = 354; continue _fun73663;
  343:
             sizing = sizing.13/7kZ;
             kilo = result.bind(echo)(sizing);
  354:
             oscar['accessibilityLabel'] = kilo;
             backup = function() { // Original name: onPress
-                _fun73656: for(var _fun73656_ip = 0; ; ) switch(_fun73656_ip) {
+                _fun73666: for(var _fun73666_ip = 0; ; ) switch(_fun73666_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = entity.goBackOrCancel;
                     entity = null;
                     zulu = entity == zulu;
                     entity = undefined;
-                    if(zulu) { _fun73656_ip = 38; continue _fun73656 }
+                    if(zulu) { _fun73666_ip = 38; continue _fun73666 }
  24:
                     zulu = _closure2_slot0;
                     mike = zulu.goBackOrCancel;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = _closure1_slot5;
             sizing = _closure1_slot0;
             control = _closure1_slot2;
-            if(backup) { _fun73653_ip = 449; continue _fun73653 }
+            if(backup) { _fun73663_ip = 449; continue _fun73663 }
  390:
             backup = 12;
             backup = control[backup];
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.INTERACTIVE_NORMAL;
             backup['color'] = echo;
             backup = result.bind(tango)(kilo, backup);
-            _fun73653_ip = 506; continue _fun73653;
+            _fun73663_ip = 506; continue _fun73663;
  449:
             kilo = 11;
             kilo = control[kilo];

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/video_calls/useIsStreamFocused.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsStreamFocused
-        _fun75967: for(var _fun75967_ip = 0; ; ) switch(_fun75967_ip) {
+        _fun75977: for(var _fun75977_ip = 0; ; ) switch(_fun75977_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -46,12 +46,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = golf;
             entity = function() {
-                _fun75968: for(var _fun75968_ip = 0; ; ) switch(_fun75968_ip) {
+                _fun75978: for(var _fun75978_ip = 0; ; ) switch(_fun75978_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun75968_ip = 38; continue _fun75968 }
+                    if(!zulu) { _fun75978_ip = 38; continue _fun75978 }
  16:
                     tango = _closure1_slot2;
                     zulu = tango.getSelectedParticipant;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu, entity);
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun75967_ip = 82; continue _fun75967 }
+            if(!entity) { _fun75977_ip = 82; continue _fun75977 }
  73:
             mike = _closure1_slot3;
             entity = mike.bind(tango)(zulu);

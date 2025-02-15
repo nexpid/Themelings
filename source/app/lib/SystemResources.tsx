@@ -69,7 +69,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = 'getStats';
         entity['key'] = mike;
         mike = function() { // Original name: value
-            _fun52951: for(var _fun52951_ip = 0; ; ) switch(_fun52951_ip) {
+            _fun52958: for(var _fun52958_ip = 0; ; ) switch(_fun52958_ip) {
  0:
                 entity = this;
                 zulu = entity.cpuHistogram;
@@ -90,11 +90,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 offset = null;
                 tango = offset == zulu;
                 zulu = undefined;
-                if(tango) { _fun52951_ip = 161; continue _fun52951 }
+                if(tango) { _fun52958_ip = 161; continue _fun52958 }
  87:
                 tango = offset == report;
                 zulu = undefined;
-                if(tango) { _fun52951_ip = 161; continue _fun52951 }
+                if(tango) { _fun52958_ip = 161; continue _fun52958 }
  96:
                 oscar = report.usage;
                 tango = entity.startCPU;
@@ -131,7 +131,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 tango = 95;
                 yankee = yankee[tango];
                 entity['client_performance_cpu_percentile95'] = yankee;
-                if(!(offset == zulu)) { _fun52951_ip = 273; continue _fun52951 }
+                if(!(offset == zulu)) { _fun52958_ip = 273; continue _fun52958 }
  267:
                 zulu = verify.mean;
  273:
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         oscar = 'takeSample';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun52952: for(var _fun52952_ip = 0; ; ) switch(_fun52952_ip) {
+            _fun52959: for(var _fun52959_ip = 0; ; ) switch(_fun52959_ip) {
  0:
                 mike = this;
                 tango = _closure1_slot1;
@@ -183,7 +183,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 zulu = tango.getCurrentMemoryUsageKB;
                 tango = zulu.bind(tango)();
                 zulu = null;
-                if(!(zulu == report)) { _fun52952_ip = 116; continue _fun52952 }
+                if(!(zulu == report)) { _fun52959_ip = 116; continue _fun52959 }
  63:
                 golf = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -191,17 +191,17 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 golf = golf.bind(entity)(oscar);
                 oscar = golf.getCurrentCPUUsagePercent;
                 options = oscar.bind(golf)();
-                if(!(zulu != options)) { _fun52952_ip = 234; continue _fun52952 }
+                if(!(zulu != options)) { _fun52959_ip = 234; continue _fun52959 }
  97:
                 golf = mike.cpuHistogram;
                 oscar = golf.addSample;
                 oscar = oscar.bind(golf)(options);
-                _fun52952_ip = 234; continue _fun52952;
+                _fun52959_ip = 234; continue _fun52959;
  116:
                 oscar = mike.lastCPU;
                 options = zulu != oscar;
                 oscar = true;
-                if(!options) { _fun52952_ip = 225; continue _fun52952 }
+                if(!options) { _fun52959_ip = 225; continue _fun52959 }
  131:
                 verify = report.sampleTime;
                 options = mike.lastCPU;
@@ -209,7 +209,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 yankee = verify - options;
                 oscar = false;
                 options = 1;
-                if(!(yankee >= options)) { _fun52952_ip = 225; continue _fun52952 }
+                if(!(yankee >= options)) { _fun52959_ip = 225; continue _fun52959 }
  162:
                 verify = report.usage;
                 options = mike.lastCPU;
@@ -225,11 +225,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 options = verify.bind(offset)(options, yankee);
                 oscar = true;
  225:
-                if(!oscar) { _fun52952_ip = 234; continue _fun52952 }
+                if(!oscar) { _fun52959_ip = 234; continue _fun52959 }
  228:
                 mike['lastCPU'] = report;
  234:
-                if(!(zulu != tango)) { _fun52952_ip = 255; continue _fun52952 }
+                if(!(zulu != tango)) { _fun52959_ip = 255; continue _fun52959 }
  238:
                 zulu = mike.memoryHistogram;
                 mike = zulu.addSample;

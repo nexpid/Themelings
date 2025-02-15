@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = _closure2_slot0;
                 entity = undefined;
                 mike = function(argFoo) {
-                    _fun76016: for(var _fun76016_ip = 0; ; ) switch(_fun76016_ip) {
+                    _fun76026: for(var _fun76026_ip = 0; ; ) switch(_fun76026_ip) {
  0:
                         tango = argFoo;
                         entity = _closure3_slot1;
@@ -68,9 +68,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                         report = oscar.has;
                         mike = _closure3_slot0;
                         mike = report.bind(oscar)(mike);
-                        if(entity) { _fun76016_ip = 106; continue _fun76016 }
+                        if(entity) { _fun76026_ip = 106; continue _fun76026 }
  33:
-                        if(mike) { _fun76016_ip = 38; continue _fun76016 }
+                        if(mike) { _fun76026_ip = 38; continue _fun76026 }
  36:
                         return tango;
  38:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                         return entity;
  106:
                         entity = tango;
-                        if(mike) { _fun76016_ip = 211; continue _fun76016 }
+                        if(mike) { _fun76026_ip = 211; continue _fun76026 }
  112:
                         mike = {};
                         offset = mike;

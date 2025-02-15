@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/threads/native/showThreadBrowserModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: showThreadBrowserModal
-        _fun79349: for(var _fun79349_ip = 0; ; ) switch(_fun79349_ip) {
+        _fun79359: for(var _fun79359_ip = 0; ; ) switch(_fun79359_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = zulu.bind(tango)();
             zulu = null;
             zulu = zulu != report;
-            if(!zulu) { _fun79349_ip = 76; continue _fun79349 }
+            if(!zulu) { _fun79359_ip = 76; continue _fun79359 }
  66:
             tango = report.isReady;
             zulu = tango.bind(report)();
  76:
-            if(!zulu) { _fun79349_ip = 126; continue _fun79349 }
+            if(!zulu) { _fun79359_ip = 126; continue _fun79359 }
  79:
             tango = report.navigate;
             zulu = {};

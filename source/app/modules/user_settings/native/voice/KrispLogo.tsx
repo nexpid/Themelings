@@ -114,7 +114,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     report = 'modules/user_settings/native/voice/KrispLogo.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: KrispLogo
-        _fun97000: for(var _fun97000_ip = 0; ; ) switch(_fun97000_ip) {
+        _fun97010: for(var _fun97010_ip = 0; ; ) switch(_fun97010_ip) {
  0:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -139,12 +139,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(mike)(zulu);
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
-            if(entity) { _fun97000_ip = 105; continue _fun97000 }
+            if(entity) { _fun97010_ip = 105; continue _fun97010 }
  91:
             entity = 12;
             entity = zulu[entity];
             golf = mike.bind(tango)(entity);
-            _fun97000_ip = 117; continue _fun97000;
+            _fun97010_ip = 117; continue _fun97010;
  105:
             entity = 11;
             entity = zulu[entity];

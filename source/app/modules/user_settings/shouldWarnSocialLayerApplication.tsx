@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_settings/shouldWarnSocialLayerApplication.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isSocialLayerApplication
-        _fun95523: for(var _fun95523_ip = 0; ; ) switch(_fun95523_ip) {
+        _fun95533: for(var _fun95533_ip = 0; ; ) switch(_fun95533_ip) {
  0:
             zulu = argFoo;
             mike = zulu.flags;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun95523_ip = 69; continue _fun95523 }
+            if(!entity) { _fun95533_ip = 69; continue _fun95533 }
  17:
             oscar = _closure1_slot0;
             report = _closure1_slot1;

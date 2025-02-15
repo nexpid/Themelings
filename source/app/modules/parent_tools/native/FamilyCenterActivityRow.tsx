@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: FamilyCenterActivityRowUser
-        _fun95386: for(var _fun95386_ip = 0; ; ) switch(_fun95386_ip) {
+        _fun95396: for(var _fun95396_ip = 0; ; ) switch(_fun95396_ip) {
  0:
             mike = argFoo;
             mike = mike.action;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             source = tango.bind(oscar)(zulu, entity);
             entity = null;
-            if(!(entity != source)) { _fun95386_ip = 543; continue _fun95386 }
+            if(!(entity != source)) { _fun95396_ip = 543; continue _fun95396 }
  134:
             update = _closure1_slot1;
             output = _closure1_slot2;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: FamilyCenterActivityRowGuild
-        _fun95388: for(var _fun95388_ip = 0; ; ) switch(_fun95388_ip) {
+        _fun95398: for(var _fun95398_ip = 0; ; ) switch(_fun95398_ip) {
  0:
             entity = argFoo;
             entity = entity.action;
@@ -178,13 +178,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = 'No text for action type';
             entity = mike.bind(tango)(zulu, entity);
-            if(!(tango !== result)) { _fun95388_ip = 703; continue _fun95388 }
+            if(!(tango !== result)) { _fun95398_ip = 703; continue _fun95398 }
  132:
             mike = result.hasFeature;
             entity = _closure1_slot7;
             entity = entity.VERIFIED;
             echo = mike.bind(result)(entity);
-            if(echo) { _fun95388_ip = 177; continue _fun95388 }
+            if(echo) { _fun95398_ip = 177; continue _fun95398 }
  156:
             mike = result.hasFeature;
             entity = _closure1_slot7;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = sequence.headerAndIconContainer;
             kilo['style'] = offset;
             yankee = null;
-            if(!echo) { _fun95388_ip = 446; continue _fun95388 }
+            if(!echo) { _fun95398_ip = 446; continue _fun95398 }
  370:
             source = _closure1_slot8;
             record = _closure1_slot1;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = foxtrot;
             foxtrot = result.approximateMemberCount;
             offset = null;
-            if(!(tango !== foxtrot)) { _fun95388_ip = 673; continue _fun95388 }
+            if(!(tango !== foxtrot)) { _fun95398_ip = 673; continue _fun95398 }
  562:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -459,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterActivityRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterActivityRow
-        _fun95390: for(var _fun95390_ip = 0; ; ) switch(_fun95390_ip) {
+        _fun95400: for(var _fun95400_ip = 0; ; ) switch(_fun95400_ip) {
  0:
             entity = argFoo;
             offset = entity.action;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(report)(entity);
             entity = mike.isUserAction;
             entity = entity.bind(mike)(offset);
-            if(entity) { _fun95390_ip = 80; continue _fun95390 }
+            if(entity) { _fun95400_ip = 80; continue _fun95400 }
  47:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isGuildAction;
             mike = entity.bind(mike)(offset);
             entity = null;
-            if(!mike) { _fun95390_ip = 169; continue _fun95390 }
+            if(!mike) { _fun95400_ip = 169; continue _fun95400 }
  80:
             tango = _closure1_slot8;
             zulu = _closure1_slot3;
@@ -492,13 +492,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.isUserAction;
             oscar = oscar.bind(options)(offset);
             verify = _closure1_slot8;
-            if(oscar) { _fun95390_ip = 143; continue _fun95390 }
+            if(oscar) { _fun95400_ip = 143; continue _fun95400 }
  125:
             options = _closure1_slot13;
             oscar = {};
             oscar['action'] = offset;
             oscar = verify.bind(report)(options, oscar);
-            _fun95390_ip = 159; continue _fun95390;
+            _fun95400_ip = 159; continue _fun95400;
  143:
             options = _closure1_slot12;
             golf = {};

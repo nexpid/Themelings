@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = offset.bind(tango)(oscar);
         oscar = {};
         foxtrot = function() { // Original name: onPress
-            _fun89107: for(var _fun89107_ip = 0; ; ) switch(_fun89107_ip) {
+            _fun89124: for(var _fun89124_ip = 0; ; ) switch(_fun89124_ip) {
  0:
                 mike = _closure2_slot0;
                 tango = mike.id;
                 entity = mike.getGuildId;
                 zulu = entity.bind(mike)();
                 entity = null;
-                if(!(entity != zulu)) { _fun89107_ip = 65; continue _fun89107 }
+                if(!(entity != zulu)) { _fun89124_ip = 65; continue _fun89124 }
  28:
                 report = _closure1_slot0;
                 mike = _closure1_slot2;

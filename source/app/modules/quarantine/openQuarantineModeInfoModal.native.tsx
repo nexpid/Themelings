@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quarantine/openQuarantineModeInfoModal.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: openQuarantineModeInfoModal
-        _fun61222: for(var _fun61222_ip = 0; ; ) switch(_fun61222_ip) {
+        _fun61225: for(var _fun61225_ip = 0; ; ) switch(_fun61225_ip) {
  0:
             zulu = _closure1_slot3;
             entity = zulu.dismiss;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getBestActiveInput;
             tango = zulu.bind(tango)();
             zulu = null;
-            if(!(zulu != tango)) { _fun61222_ip = 65; continue _fun61222 }
+            if(!(zulu != tango)) { _fun61225_ip = 65; continue _fun61225 }
  55:
             zulu = tango.blur;
             zulu = zulu.bind(tango)();

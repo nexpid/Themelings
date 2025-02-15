@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/global_discovery_servers/GlobalDiscoveryServersSearchExperiment.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsGlobalDiscoveryServersSearchEnabled
-        _fun117964: for(var _fun117964_ip = 0; ; ) switch(_fun117964_ip) {
+        _fun117970: for(var _fun117970_ip = 0; ; ) switch(_fun117970_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun117964_ip = 22; continue _fun117964 }
+            if(!(report === mike)) { _fun117970_ip = 22; continue _fun117970 }
  20:
             report = true;
  22:

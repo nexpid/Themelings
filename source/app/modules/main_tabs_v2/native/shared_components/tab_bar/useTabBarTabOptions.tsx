@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[6] = oscar;
         mike[7] = report;
         entity = function() {
-            _fun118129: for(var _fun118129_ip = 0; ; ) switch(_fun118129_ip) {
+            _fun118135: for(var _fun118135_ip = 0; ; ) switch(_fun118135_ip) {
  0:
                 entity = {};
                 zulu = {};
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.bind(tango)(report);
                 report = oscar.isAndroid;
                 report = report.bind(oscar)();
-                if(!report) { _fun118129_ip = 128; continue _fun118129 }
+                if(!report) { _fun118135_ip = 128; continue _fun118135 }
  73:
                 report = {};
                 oscar = {};

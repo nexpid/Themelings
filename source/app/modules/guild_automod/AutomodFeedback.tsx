@@ -99,39 +99,39 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['RaidAlertType'] = oscar;
     zulu['RaidResolutionType'] = report;
     tango = function(argFoo) { // Original name: getMostImportantRaidResolutionType
-        _fun59642: for(var _fun59642_ip = 0; ; ) switch(_fun59642_ip) {
+        _fun59645: for(var _fun59645_ip = 0; ; ) switch(_fun59645_ip) {
  0:
             tango = argFoo;
             zulu = tango.includes;
             entity = _closure1_slot3;
             entity = entity.LEGITIMATE_ACTIVITY;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun59642_ip = 107; continue _fun59642 }
+            if(entity) { _fun59645_ip = 107; continue _fun59645 }
  29:
             zulu = tango.includes;
             entity = _closure1_slot3;
             entity = entity.DM_SPAM;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun59642_ip = 95; continue _fun59642 }
+            if(entity) { _fun59645_ip = 95; continue _fun59645 }
  52:
             zulu = tango.includes;
             entity = _closure1_slot3;
             entity = entity.JOIN_RAID;
             entity = zulu.bind(tango)(entity);
             zulu = _closure1_slot3;
-            if(entity) { _fun59642_ip = 87; continue _fun59642 }
+            if(entity) { _fun59645_ip = 87; continue _fun59645 }
  79:
             entity = zulu.OTHER;
-            _fun59642_ip = 93; continue _fun59642;
+            _fun59645_ip = 93; continue _fun59645;
  87:
             entity = zulu.JOIN_RAID;
  93:
-            _fun59642_ip = 105; continue _fun59642;
+            _fun59645_ip = 105; continue _fun59645;
  95:
             zulu = _closure1_slot3;
             entity = zulu.DM_SPAM;
  105:
-            _fun59642_ip = 117; continue _fun59642;
+            _fun59645_ip = 117; continue _fun59645;
  107:
             mike = _closure1_slot3;
             entity = mike.LEGITIMATE_ACTIVITY;

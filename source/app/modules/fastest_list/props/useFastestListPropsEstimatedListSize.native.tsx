@@ -42,24 +42,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot1;
         zulu = tango.useState;
         mike = function() {
-            _fun78555: for(var _fun78555_ip = 0; ; ) switch(_fun78555_ip) {
+            _fun78565: for(var _fun78565_ip = 0; ; ) switch(_fun78565_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = 'windowSize';
-                if(!(entity !== zulu)) { _fun78555_ip = 21; continue _fun78555 }
+                if(!(entity !== zulu)) { _fun78565_ip = 21; continue _fun78565 }
  15:
                 entity = _closure2_slot0;
-                _fun78555_ip = 64; continue _fun78555;
+                _fun78565_ip = 64; continue _fun78565;
  21:
                 mike = _closure2_slot1;
                 report = _closure1_slot2;
                 tango = report.get;
                 zulu = 'window';
                 zulu = tango.bind(report)(zulu);
-                if(mike) { _fun78555_ip = 56; continue _fun78555 }
+                if(mike) { _fun78565_ip = 56; continue _fun78565 }
  49:
                 mike = zulu.height;
-                _fun78555_ip = 61; continue _fun78555;
+                _fun78565_ip = 61; continue _fun78565;
  56:
                 mike = zulu.width;
  61:

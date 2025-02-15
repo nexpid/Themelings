@@ -40,19 +40,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun79879: for(var _fun79879_ip = 0; ; ) switch(_fun79879_ip) {
+            _fun79892: for(var _fun79892_ip = 0; ; ) switch(_fun79892_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = null;
                 mike = tango == entity;
                 entity = null;
-                if(mike) { _fun79879_ip = 99; continue _fun79879 }
+                if(mike) { _fun79892_ip = 99; continue _fun79892 }
  18:
                 golf = _closure1_slot3;
                 report = golf.getThreadSettings;
                 mike = _closure2_slot0;
                 mike = report.bind(golf)(mike);
-                if(!(tango == mike)) { _fun79879_ip = 96; continue _fun79879 }
+                if(!(tango == mike)) { _fun79892_ip = 96; continue _fun79892 }
  44:
                 report = _closure1_slot3;
                 tango = report.getThreadDraftWithParentMessageId;
@@ -90,18 +90,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun79881: for(var _fun79881_ip = 0; ; ) switch(_fun79881_ip) {
+            _fun79894: for(var _fun79894_ip = 0; ; ) switch(_fun79894_ip) {
  0:
                 entity = _closure2_slot0;
                 zulu = null;
                 entity = zulu != entity;
-                if(!entity) { _fun79881_ip = 98; continue _fun79881 }
+                if(!entity) { _fun79894_ip = 98; continue _fun79894 }
  16:
                 oscar = _closure1_slot3;
                 report = oscar.getThreadSettings;
                 mike = _closure2_slot0;
                 mike = report.bind(oscar)(mike);
-                if(!(zulu == mike)) { _fun79881_ip = 94; continue _fun79881 }
+                if(!(zulu == mike)) { _fun79894_ip = 94; continue _fun79894 }
  42:
                 oscar = _closure1_slot3;
                 report = oscar.getThreadDraftWithParentMessageId;

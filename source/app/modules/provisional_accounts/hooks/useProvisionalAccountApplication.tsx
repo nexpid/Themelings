@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = options;
         entity = function() {
-            _fun101688: for(var _fun101688_ip = 0; ; ) switch(_fun101688_ip) {
+            _fun101680: for(var _fun101680_ip = 0; ; ) switch(_fun101680_ip) {
  0:
                 zulu = _closure1_slot2;
                 mike = zulu.getGameRelationshipsForUser;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)(entity);
                 zulu = mike.length;
                 entity = 0;
-                if(!(entity === zulu)) { _fun101688_ip = 40; continue _fun101688 }
+                if(!(entity === zulu)) { _fun101680_ip = 40; continue _fun101680 }
  36:
                 zulu = undefined;
                 return zulu;

@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = options;
         zulu[1] = mike;
         mike = function() {
-            _fun81257: for(var _fun81257_ip = 0; ; ) switch(_fun81257_ip) {
+            _fun81269: for(var _fun81269_ip = 0; ; ) switch(_fun81269_ip) {
  0:
                 entity = new Array(0);
                 mike = global;
@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = 0;
                 oscar = zulu < tango;
                 mike = 0;
-                if(!oscar) { _fun81257_ip = 125; continue _fun81257 }
+                if(!oscar) { _fun81269_ip = 125; continue _fun81269 }
  54:
                 golf = new Array(0);
                 oscar = _closure2_slot1;
                 oscar = zulu < oscar;
                 options = 0;
-                if(!oscar) { _fun81257_ip = 108; continue _fun81257 }
+                if(!oscar) { _fun81269_ip = 108; continue _fun81269 }
  71:
                 oscar = _closure2_slot1;
                 verify = mike * oscar;
@@ -52,12 +52,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify[yankee];
                 verify = offset.bind(golf)(verify);
                 options = options + 1;
-                if(options < oscar) { _fun81257_ip = 71; continue _fun81257 }
+                if(options < oscar) { _fun81269_ip = 71; continue _fun81269 }
  108:
                 oscar = entity.push;
                 oscar = oscar.bind(entity)(golf);
                 mike = mike + 1;
-                if(mike < tango) { _fun81257_ip = 54; continue _fun81257 }
+                if(mike < tango) { _fun81269_ip = 54; continue _fun81269 }
  125:
                 return entity;
             }
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = {};
         oscar = golf.map;
         report = function(argFoo, argBar) {
-            _fun81258: for(var _fun81258_ip = 0; ; ) switch(_fun81258_ip) {
+            _fun81270: for(var _fun81270_ip = 0; ; ) switch(_fun81270_ip) {
  0:
                 golf = argFoo;
                 verify = argBar;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = 1;
                 oscar = offset - oscar;
                 oscar = verify < oscar;
-                if(!oscar) { _fun81258_ip = 134; continue _fun81258 }
+                if(!oscar) { _fun81270_ip = 134; continue _fun81270 }
  104:
                 yankee = _closure1_slot5;
                 offset = _closure1_slot4;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/rtc/native/SecureFramesCode.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SecureFramesCode
-        _fun81260: for(var _fun81260_ip = 0; ; ) switch(_fun81260_ip) {
+        _fun81272: for(var _fun81272_ip = 0; ; ) switch(_fun81272_ip) {
  0:
             entity = argFoo;
             romeo = entity.title;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = kilo.code;
             oscar['style'] = verify;
             verify = null;
-            if(!(verify == backup)) { _fun81260_ip = 201; continue _fun81260 }
+            if(!(verify == backup)) { _fun81272_ip = 201; continue _fun81272 }
  173:
             romeo = _closure1_slot5;
             yankee = _closure1_slot3;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.loading;
             verify['style'] = kilo;
             verify = romeo.bind(tango)(yankee, verify);
-            _fun81260_ip = 227; continue _fun81260;
+            _fun81272_ip = 227; continue _fun81272;
  201:
             romeo = _closure1_slot5;
             yankee = _closure1_slot9;

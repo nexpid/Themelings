@@ -26,24 +26,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getCoverImageFromActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getCoverImageFromActivity
-        _fun71680: for(var _fun71680_ip = 0; ; ) switch(_fun71680_ip) {
+        _fun71686: for(var _fun71686_ip = 0; ; ) switch(_fun71686_ip) {
  0:
             zulu = argFoo;
             tango = null;
             mike = tango == zulu;
             entity = null;
-            if(mike) { _fun71680_ip = 119; continue _fun71680 }
+            if(mike) { _fun71686_ip = 119; continue _fun71686 }
  14:
             mike = zulu.assets;
             mike = tango == mike;
             entity = null;
-            if(mike) { _fun71680_ip = 119; continue _fun71680 }
+            if(mike) { _fun71686_ip = 119; continue _fun71686 }
  29:
             mike = zulu.assets;
             mike = mike.large_image;
             mike = tango == mike;
             entity = null;
-            if(mike) { _fun71680_ip = 119; continue _fun71680 }
+            if(mike) { _fun71686_ip = 119; continue _fun71686 }
  50:
             oscar = _closure1_slot0;
             report = _closure1_slot1;

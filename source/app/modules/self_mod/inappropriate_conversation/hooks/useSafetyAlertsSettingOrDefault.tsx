@@ -30,7 +30,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useSafetyAlertsSettingOrDefault.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun79406: for(var _fun79406_ip = 0; ; ) switch(_fun79406_ip) {
+        _fun79416: for(var _fun79416_ip = 0; ; ) switch(_fun79416_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.getCurrentUser;
@@ -46,7 +46,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun79407: for(var _fun79407_ip = 0; ; ) switch(_fun79407_ip) {
+                _fun79417: for(var _fun79417_ip = 0; ; ) switch(_fun79417_ip) {
  0:
                     entity = _closure1_slot2;
                     entity = entity.settings;
@@ -54,17 +54,17 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     entity = null;
                     tango = entity == zulu;
                     mike = undefined;
-                    if(tango) { _fun79407_ip = 50; continue _fun79407 }
+                    if(tango) { _fun79417_ip = 50; continue _fun79417 }
  30:
                     zulu = zulu.inappropriateConversationWarnings;
                     tango = entity == zulu;
                     mike = undefined;
-                    if(tango) { _fun79407_ip = 50; continue _fun79407 }
+                    if(tango) { _fun79417_ip = 50; continue _fun79417 }
  45:
                     mike = zulu.value;
  50:
                     entity = entity == mike;
-                    if(entity) { _fun79407_ip = 60; continue _fun79407 }
+                    if(entity) { _fun79417_ip = 60; continue _fun79417 }
  57:
                     entity = mike;
  60:
@@ -86,19 +86,19 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity['location'] = options;
             entity = tango.bind(golf)(entity);
             tango = !mike;
-            if(tango) { _fun79406_ip = 134; continue _fun79406 }
+            if(tango) { _fun79416_ip = 134; continue _fun79416 }
  131:
             tango = !entity;
  134:
             entity = !tango;
-            if(!tango) { _fun79406_ip = 179; continue _fun79406 }
+            if(!tango) { _fun79416_ip = 179; continue _fun79416 }
  140:
-            if(mike) { _fun79406_ip = 170; continue _fun79406 }
+            if(mike) { _fun79416_ip = 170; continue _fun79416 }
  143:
             tango = null;
             tango = tango == oscar;
             report = undefined;
-            if(tango) { _fun79406_ip = 164; continue _fun79406 }
+            if(tango) { _fun79416_ip = 164; continue _fun79416 }
  154:
             tango = oscar.isStaff;
             report = tango.bind(oscar)();
@@ -106,7 +106,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = true;
             mike = tango === report;
  170:
-            if(!mike) { _fun79406_ip = 176; continue _fun79406 }
+            if(!mike) { _fun79416_ip = 176; continue _fun79416 }
  173:
             mike = zulu;
  176:

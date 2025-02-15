@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceChannelRowItem.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun97286: for(var _fun97286_ip = 0; ; ) switch(_fun97286_ip) {
+    _fun97296: for(var _fun97296_ip = 0; ; ) switch(_fun97296_ip) {
  0:
         report = argBar;
         backup = argBaz;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = romeo.bind(foxtrot)(yankee);
         romeo = null;
         romeo = romeo != yankee;
-        if(!romeo) { _fun97286_ip = 681; continue _fun97286 }
+        if(!romeo) { _fun97296_ip = 681; continue _fun97296 }
  678:
         offset = yankee;
  681:
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceChannelRowItem.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: ChannelRowItem
-            _fun97287: for(var _fun97287_ip = 0; ; ) switch(_fun97287_ip) {
+            _fun97297: for(var _fun97297_ip = 0; ; ) switch(_fun97297_ip) {
  0:
                 entity = argFoo;
                 sizing = entity.animatedStyles;
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = entity.avatar2;
                 result = entity.status;
                 tango = undefined;
-                if(!(result === tango)) { _fun97287_ip = 62; continue _fun97287 }
+                if(!(result === tango)) { _fun97297_ip = 62; continue _fun97297 }
  49:
                 mike = _closure1_slot4;
                 result = mike.ONLINE;
  62:
                 kilo = entity.isUnread;
-                if(!(kilo === tango)) { _fun97287_ip = 74; continue _fun97287 }
+                if(!(kilo === tango)) { _fun97297_ip = 74; continue _fun97297 }
  72:
                 kilo = false;
  74:
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options[0] = verify;
                 verify = {};
                 offset = 0;
-                if(!kilo) { _fun97287_ip = 147; continue _fun97287 }
+                if(!kilo) { _fun97297_ip = 147; continue _fun97297 }
  144:
                 offset = 1;
  147:
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = romeo.channelItemAvatar;
                 oscar['style'] = verify;
                 offset = null;
-                if(!(offset == sequence)) { _fun97287_ip = 292; continue _fun97287 }
+                if(!(offset == sequence)) { _fun97297_ip = 292; continue _fun97297 }
  209:
                 output = _closure1_slot5;
                 foxtrot = _closure1_slot1;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 result = result.LARGE_48;
                 verify['size'] = result;
                 verify = output.bind(tango)(foxtrot, verify);
-                _fun97287_ip = 375; continue _fun97287;
+                _fun97297_ip = 375; continue _fun97297;
  292:
                 result = _closure1_slot5;
                 control = _closure1_slot0;
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = foxtrot.bind(tango)(romeo);
                 foxtrot = romeo.Text;
                 romeo = {'animated': true, 'style': null, 'variant': 'redesign/channel-title/semibold'};
-                if(kilo) { _fun97287_ip = 475; continue _fun97287 }
+                if(kilo) { _fun97297_ip = 475; continue _fun97297 }
  467:
                 source = sizing.textMuted;
-                _fun97287_ip = 481; continue _fun97287;
+                _fun97297_ip = 481; continue _fun97297;
  475:
                 source = sizing.textNormal;
  481:
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify[0] = romeo;
                 romeo = offset != backup;
                 offset = null;
-                if(!romeo) { _fun97287_ip = 671; continue _fun97287 }
+                if(!romeo) { _fun97297_ip = 671; continue _fun97297 }
  598:
                 foxtrot = _closure1_slot5;
                 romeo = _closure1_slot0;
@@ -321,10 +321,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = romeo.bind(tango)(yankee);
                 romeo = yankee.Text;
                 yankee = {'animated': true, 'style': null, 'variant': 'redesign/message-preview/medium', 'lineClamp': 1};
-                if(kilo) { _fun97287_ip = 649; continue _fun97287 }
+                if(kilo) { _fun97297_ip = 649; continue _fun97297 }
  641:
                 kilo = sizing.textMuted;
-                _fun97287_ip = 655; continue _fun97287;
+                _fun97297_ip = 655; continue _fun97297;
  649:
                 kilo = sizing.textNormal;
  655:

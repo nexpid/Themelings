@@ -19,22 +19,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/autocompleter/sortByMatchScore.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: sortByMatchScore
-        _fun61129: for(var _fun61129_ip = 0; ; ) switch(_fun61129_ip) {
+        _fun61132: for(var _fun61132_ip = 0; ; ) switch(_fun61132_ip) {
  0:
             entity = argFoo;
             mike = argBar;
             tango = entity.score;
             zulu = mike.score;
-            if(!(tango === zulu)) { _fun61129_ip = 135; continue _fun61129 }
+            if(!(tango === zulu)) { _fun61132_ip = 135; continue _fun61132 }
  22:
             report = entity.sortable;
             oscar = null;
-            if(!(oscar == report)) { _fun61129_ip = 62; continue _fun61129 }
+            if(!(oscar == report)) { _fun61132_ip = 62; continue _fun61132 }
  34:
             golf = entity.comparator;
             tango = oscar == golf;
             zulu = undefined;
-            if(tango) { _fun61129_ip = 59; continue _fun61129 }
+            if(tango) { _fun61132_ip = 59; continue _fun61132 }
  49:
             tango = golf.toLocaleLowerCase;
             zulu = tango.bind(golf)();
@@ -44,17 +44,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = oscar != report;
             tango = '';
             zulu = tango;
-            if(!golf) { _fun61129_ip = 79; continue _fun61129 }
+            if(!golf) { _fun61132_ip = 79; continue _fun61132 }
  76:
             zulu = report;
  79:
             report = entity.sortable;
-            if(!(oscar == report)) { _fun61129_ip = 117; continue _fun61129 }
+            if(!(oscar == report)) { _fun61132_ip = 117; continue _fun61132 }
  89:
             verify = mike.comparator;
             options = oscar == verify;
             golf = undefined;
-            if(options) { _fun61129_ip = 114; continue _fun61129 }
+            if(options) { _fun61132_ip = 114; continue _fun61132 }
  104:
             options = verify.toLocaleLowerCase;
             golf = options.bind(verify)();
@@ -62,13 +62,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf;
  117:
             oscar = oscar != report;
-            if(!oscar) { _fun61129_ip = 127; continue _fun61129 }
+            if(!oscar) { _fun61132_ip = 127; continue _fun61132 }
  124:
             tango = report;
  127:
-            if(!(!(zulu < tango))) { _fun61129_ip = 158; continue _fun61129 }
+            if(!(!(zulu < tango))) { _fun61132_ip = 158; continue _fun61132 }
  131:
-            if(!(!(zulu > tango))) { _fun61129_ip = 153; continue _fun61129 }
+            if(!(!(zulu > tango))) { _fun61132_ip = 153; continue _fun61132 }
  135:
             mike = mike.score;
             entity = entity.score;

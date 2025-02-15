@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     report = report.bind(verify)(offset, mike);
     mike = {};
-    oscar = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh, argument8) { // Original name: setup
+    oscar = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, argPlugh) { // Original name: setup
         zulu = _closure1_slot0;
         mike = _closure1_slot1;
         entity = 1;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         entity = undefined;
         oscar = zulu.bind(entity)(mike);
         report = oscar.dispatchCommand;
-        tango = new Array(7);
+        tango = new Array(6);
         mike = argBar;
         tango[0] = mike;
         mike = argBaz;
@@ -51,8 +51,6 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango[4] = mike;
         mike = argPlugh;
         tango[5] = mike;
-        mike = argument8;
-        tango[6] = mike;
         zulu = argFoo;
         mike = 'setup';
         mike = report.bind(oscar)(zulu, mike, tango);

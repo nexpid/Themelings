@@ -5,18 +5,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     golf = argPlugh;
     tango = function(argFoo) { // Original name: canChannelUseSoundboard
-        _fun65634: for(var _fun65634_ip = 0; ; ) switch(_fun65634_ip) {
+        _fun65639: for(var _fun65639_ip = 0; ; ) switch(_fun65639_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun65634_ip = 129; continue _fun65634 }
+            if(!(entity != tango)) { _fun65639_ip = 129; continue _fun65639 }
  9:
             mike = _closure1_slot4;
             report = mike.CALLABLE;
             zulu = report.has;
             mike = tango.type;
             mike = zulu.bind(report)(mike);
-            if(mike) { _fun65634_ip = 125; continue _fun65634 }
+            if(mike) { _fun65639_ip = 125; continue _fun65639 }
  40:
             report = _closure1_slot1;
             zulu = report.can;
@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot3;
             entity = entity.GUILD_VOICE;
             entity = tango === entity;
-            if(!entity) { _fun65634_ip = 117; continue _fun65634 }
+            if(!entity) { _fun65639_ip = 117; continue _fun65639 }
  114:
             entity = zulu;
  117:
-            if(!entity) { _fun65634_ip = 123; continue _fun65634 }
+            if(!entity) { _fun65639_ip = 123; continue _fun65639 }
  120:
             entity = mike;
  123:

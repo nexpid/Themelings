@@ -31,14 +31,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/system_dm/navigateToSystemDM.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: navigateToSystemDM
-        _fun124620: for(var _fun124620_ip = 0; ; ) switch(_fun124620_ip) {
+        _fun124616: for(var _fun124616_ip = 0; ; ) switch(_fun124616_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getDMFromUserId;
             mike = _closure1_slot3;
             zulu = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike != zulu)) { _fun124620_ip = 61; continue _fun124620 }
+            if(!(mike != zulu)) { _fun124616_ip = 61; continue _fun124616 }
  28:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

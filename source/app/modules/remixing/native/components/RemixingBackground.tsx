@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/remixing/native/components/RemixingBackground.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84120: for(var _fun84120_ip = 0; ; ) switch(_fun84120_ip) {
+        _fun84136: for(var _fun84136_ip = 0; ; ) switch(_fun84136_ip) {
  0:
             mike = argFoo;
             entity = mike.dominantColors;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['color'] = report;
             output = null;
             report = output != kilo;
-            if(!report) { _fun84120_ip = 409; continue _fun84120 }
+            if(!report) { _fun84136_ip = 409; continue _fun84136 }
  132:
             options = _closure1_slot3;
             backup = _closure1_slot0;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             foxtrot = new Array(2);
             foxtrot[0] = kilo;
             backup = kilo;
-            if(!(output != result)) { _fun84120_ip = 258; continue _fun84120 }
+            if(!(output != result)) { _fun84136_ip = 258; continue _fun84136 }
  255:
             backup = result;
  258:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = new Array(2);
             verify[0] = offset;
             offset = output != sizing;
-            if(!offset) { _fun84120_ip = 395; continue _fun84120 }
+            if(!offset) { _fun84136_ip = 395; continue _fun84136 }
  287:
             foxtrot = _closure1_slot2;
             result = _closure1_slot0;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee['end'] = backup;
             backup = new Array(2);
             backup[0] = kilo;
-            if(!(output != sizing)) { _fun84120_ip = 381; continue _fun84120 }
+            if(!(output != sizing)) { _fun84136_ip = 381; continue _fun84136 }
  378:
             kilo = sizing;
  381:

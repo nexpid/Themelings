@@ -24,13 +24,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isCrunchyrollActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isCrunchyrollActivity
-        _fun80237: for(var _fun80237_ip = 0; ; ) switch(_fun80237_ip) {
+        _fun80249: for(var _fun80249_ip = 0; ; ) switch(_fun80249_ip) {
  0:
             entity = argFoo;
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun80237_ip = 20; continue _fun80237 }
+            if(zulu) { _fun80249_ip = 20; continue _fun80249 }
  14:
             mike = entity.application_id;
  20:

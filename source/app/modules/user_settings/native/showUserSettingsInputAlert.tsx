@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.default;
                 var _closure4_slot0 = mike;
                 entity = function(argFoo) {
-                    _fun94576: for(var _fun94576_ip = 0; ; ) switch(_fun94576_ip) {
+                    _fun94588: for(var _fun94588_ip = 0; ; ) switch(_fun94588_ip) {
  0:
                         tango = _closure1_slot3;
                         zulu = _closure4_slot0;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike[options] = verify;
                         options = golf.confirmColor;
                         golf = null;
-                        if(!(golf == options)) { _fun94576_ip = 208; continue _fun94576 }
+                        if(!(golf == options)) { _fun94588_ip = 208; continue _fun94588 }
  174:
                         golf = _closure1_slot1;
                         options = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = golf.bind(entity)(oscar);
                         oscar = oscar.Colors;
                         golf = oscar.RED;
-                        _fun94576_ip = 218; continue _fun94576;
+                        _fun94588_ip = 218; continue _fun94588;
  208:
                         oscar = _closure2_slot3;
                         golf = oscar.confirmColor;

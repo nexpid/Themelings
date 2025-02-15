@@ -26,7 +26,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/premium/native/MobileTrialUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useShouldShowPremiumTrialUserSettingsAvatarBadge
-        _fun75586: for(var _fun75586_ip = 0; ; ) switch(_fun75586_ip) {
+        _fun75596: for(var _fun75596_ip = 0; ; ) switch(_fun75596_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -48,17 +48,17 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             entity = null;
             report = entity == tango;
-            if(report) { _fun75586_ip = 97; continue _fun75586 }
+            if(report) { _fun75596_ip = 97; continue _fun75596 }
  91:
             zulu = tango.expires_at;
  97:
             zulu = entity != zulu;
             entity = entity != tango;
-            if(!entity) { _fun75586_ip = 111; continue _fun75586 }
+            if(!entity) { _fun75596_ip = 111; continue _fun75596 }
  108:
             entity = !zulu;
  111:
-            if(!entity) { _fun75586_ip = 117; continue _fun75586 }
+            if(!entity) { _fun75596_ip = 117; continue _fun75596 }
  114:
             entity = !mike;
  117:
@@ -67,7 +67,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['useShouldShowPremiumTrialUserSettingsAvatarBadge'] = tango;
     mike = function() { // Original name: usePremiumTrialOfferPremiumType
-        _fun75587: for(var _fun75587_ip = 0; ; ) switch(_fun75587_ip) {
+        _fun75597: for(var _fun75597_ip = 0; ; ) switch(_fun75597_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -80,12 +80,12 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             tango = null;
             oscar = tango == zulu;
             mike = undefined;
-            if(oscar) { _fun75587_ip = 67; continue _fun75587 }
+            if(oscar) { _fun75597_ip = 67; continue _fun75597 }
  46:
             zulu = zulu.subscription_trial;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun75587_ip = 67; continue _fun75587 }
+            if(tango) { _fun75597_ip = 67; continue _fun75597 }
  61:
             mike = zulu.sku_id;
  67:

@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: useStickyHeaderStyles
-        _fun89495: for(var _fun89495_ip = 0; ; ) switch(_fun89495_ip) {
+        _fun89512: for(var _fun89512_ip = 0; ; ) switch(_fun89512_ip) {
  0:
             golf = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = golf;
             verify = undefined;
-            if(!(oscar === verify)) { _fun89495_ip = 20; continue _fun89495 }
+            if(!(oscar === verify)) { _fun89512_ip = 20; continue _fun89512 }
  18:
             oscar = true;
  20:
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.bind(verify)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: l
-                _fun89496: for(var _fun89496_ip = 0; ; ) switch(_fun89496_ip) {
+                _fun89513: for(var _fun89513_ip = 0; ; ) switch(_fun89513_ip) {
  0:
                     entity = _closure2_slot2;
                     mike = {};
@@ -47,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = 0;
                     report = zulu > golf;
                     zulu = 'relative';
-                    if(entity) { _fun89496_ip = 163; continue _fun89496 }
+                    if(entity) { _fun89513_ip = 163; continue _fun89513 }
  38:
                     entity = zulu;
-                    if(!report) { _fun89496_ip = 48; continue _fun89496 }
+                    if(!report) { _fun89513_ip = 48; continue _fun89513 }
  44:
                     entity = 'absolute';
  48:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = yankee.withTiming;
                     options = _closure2_slot1;
                     verify = 0;
-                    if(options) { _fun89496_ip = 109; continue _fun89496 }
+                    if(options) { _fun89513_ip = 109; continue _fun89513 }
  93:
                     romeo = _closure2_slot0;
                     options = romeo.get;
@@ -84,9 +84,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity[0] = oscar;
                     mike['transform'] = entity;
                     entity = mike;
-                    _fun89496_ip = 255; continue _fun89496;
+                    _fun89513_ip = 255; continue _fun89513;
  163:
-                    if(!report) { _fun89496_ip = 170; continue _fun89496 }
+                    if(!report) { _fun89513_ip = 170; continue _fun89513 }
  166:
                     zulu = 'absolute';
  170:
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.withTiming;
                     tango = _closure2_slot1;
                     golf = 0;
-                    if(!tango) { _fun89496_ip = 216; continue _fun89496 }
+                    if(!tango) { _fun89513_ip = 216; continue _fun89513 }
  213:
                     golf = 1;
  216:
@@ -193,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'design/components/Sticky/native/StickyHeader.native.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: StickyHeader
-        _fun89497: for(var _fun89497_ip = 0; ; ) switch(_fun89497_ip) {
+        _fun89514: for(var _fun89514_ip = 0; ; ) switch(_fun89514_ip) {
  0:
             entity = argFoo;
             golf = entity.show;
             tango = undefined;
-            if(!(golf === tango)) { _fun89497_ip = 19; continue _fun89497 }
+            if(!(golf === tango)) { _fun89514_ip = 19; continue _fun89514 }
  17:
             golf = true;
  19:
@@ -234,16 +234,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = golf;
             verify[1] = oscar;
             oscar = function() {
-                _fun89498: for(var _fun89498_ip = 0; ; ) switch(_fun89498_ip) {
+                _fun89515: for(var _fun89515_ip = 0; ; ) switch(_fun89515_ip) {
  0:
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun89498_ip = 29; continue _fun89498 }
+                    if(zulu) { _fun89515_ip = 29; continue _fun89515 }
  12:
                     report = _closure2_slot2;
                     tango = _closure2_slot0;
                     zulu = undefined;
                     zulu = report.bind(zulu)(tango);
-                    _fun89498_ip = 69; continue _fun89498;
+                    _fun89515_ip = 69; continue _fun89515;
  29:
                     zulu = _closure2_slot3;
                     mike = global;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = !golf;
             entity['accessibilityElementsHidden'] = oscar;
             oscar = 'no-hide-descendants';
-            if(!golf) { _fun89497_ip = 290; continue _fun89497 }
+            if(!golf) { _fun89514_ip = 290; continue _fun89514 }
  286:
             oscar = 'auto';
  290:

@@ -34,35 +34,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/emojis/top_emojis/TopEmojisUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: maybeFetchTopEmojisByGuild
-        _fun77908: for(var _fun77908_ip = 0; ; ) switch(_fun77908_ip) {
+        _fun77918: for(var _fun77918_ip = 0; ; ) switch(_fun77918_ip) {
  0:
             zulu = argFoo;
             mike = null;
-            if(!(mike != zulu)) { _fun77908_ip = 135; continue _fun77908 }
+            if(!(mike != zulu)) { _fun77918_ip = 135; continue _fun77918 }
  12:
             report = _closure1_slot2;
             tango = report.getCurrentUser;
             tango = tango.bind(report)();
-            if(!(mike != tango)) { _fun77908_ip = 135; continue _fun77908 }
+            if(!(mike != tango)) { _fun77918_ip = 135; continue _fun77918 }
  32:
             report = _closure1_slot3;
             tango = report.getTopEmojisMetadata;
             tango = tango.bind(report)(zulu);
-            if(!(mike != tango)) { _fun77908_ip = 84; continue _fun77908 }
+            if(!(mike != tango)) { _fun77918_ip = 84; continue _fun77918 }
  53:
             tango = tango.topEmojisTTL;
-            if(!(mike != tango)) { _fun77908_ip = 139; continue _fun77908 }
+            if(!(mike != tango)) { _fun77918_ip = 139; continue _fun77918 }
  63:
             mike = global;
             report = mike.Date;
             mike = report.now;
             mike = mike.bind(report)();
-            if(!(!(mike < tango))) { _fun77908_ip = 139; continue _fun77908 }
+            if(!(!(mike < tango))) { _fun77918_ip = 139; continue _fun77918 }
  84:
             tango = _closure1_slot4;
             mike = tango.getIsFetching;
             mike = mike.bind(tango)(zulu);
-            if(mike) { _fun77908_ip = 135; continue _fun77908 }
+            if(mike) { _fun77918_ip = 135; continue _fun77918 }
  102:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

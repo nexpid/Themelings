@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     mike = function(argFoo) { // Original name: getDurationString
-        _fun56991: for(var _fun56991_ip = 0; ; ) switch(_fun56991_ip) {
+        _fun56994: for(var _fun56994_ip = 0; ; ) switch(_fun56994_ip) {
  0:
             entity = argFoo;
             romeo = entity.seconds;
@@ -16,19 +16,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = undefined;
             mike = entity.bind(report)();
             entity = _closure1_slot3;
-            if(!(!(romeo < entity))) { _fun56991_ip = 461; continue _fun56991 }
+            if(!(!(romeo < entity))) { _fun56994_ip = 461; continue _fun56994 }
  35:
             entity = _closure1_slot4;
-            if(!(!(romeo < entity))) { _fun56991_ip = 384; continue _fun56991 }
+            if(!(!(romeo < entity))) { _fun56994_ip = 384; continue _fun56994 }
  46:
             entity = _closure1_slot5;
-            if(!(!(romeo < entity))) { _fun56991_ip = 307; continue _fun56991 }
+            if(!(!(romeo < entity))) { _fun56994_ip = 307; continue _fun56994 }
  57:
             entity = _closure1_slot6;
-            if(!(!(romeo < entity))) { _fun56991_ip = 230; continue _fun56991 }
+            if(!(!(romeo < entity))) { _fun56994_ip = 230; continue _fun56994 }
  68:
             entity = _closure1_slot7;
-            if(!(!(romeo < entity))) { _fun56991_ip = 153; continue _fun56991 }
+            if(!(!(romeo < entity))) { _fun56994_ip = 153; continue _fun56994 }
  76:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.bind(offset)(options);
             entity['years'] = options;
             entity = oscar.bind(golf)(tango, entity);
-            _fun56991_ip = 228; continue _fun56991;
+            _fun56994_ip = 228; continue _fun56994;
  153:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['months'] = verify;
             entity = golf.bind(options)(oscar, tango);
  228:
-            _fun56991_ip = 305; continue _fun56991;
+            _fun56994_ip = 305; continue _fun56994;
  230:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['days'] = verify;
             entity = golf.bind(options)(oscar, tango);
  305:
-            _fun56991_ip = 382; continue _fun56991;
+            _fun56994_ip = 382; continue _fun56994;
  307:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['hours'] = verify;
             entity = golf.bind(options)(oscar, tango);
  382:
-            _fun56991_ip = 459; continue _fun56991;
+            _fun56994_ip = 459; continue _fun56994;
  384:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['minutes'] = verify;
             entity = golf.bind(options)(oscar, tango);
  459:
-            _fun56991_ip = 512; continue _fun56991;
+            _fun56994_ip = 512; continue _fun56994;
  461:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;

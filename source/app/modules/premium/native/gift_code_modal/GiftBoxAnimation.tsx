@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gift_code_modal/GiftBoxAnimation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftBoxAnimation
-        _fun91649: for(var _fun91649_ip = 0; ; ) switch(_fun91649_ip) {
+        _fun91678: for(var _fun91678_ip = 0; ; ) switch(_fun91678_ip) {
  0:
             entity = argFoo;
             verify = entity.giftStyle;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = oscar.bind(golf)(tango, entity);
             entity = null;
-            if(!(entity != verify)) { _fun91649_ip = 488; continue _fun91649 }
+            if(!(entity != verify)) { _fun91678_ip = 488; continue _fun91678 }
  75:
             golf = _closure1_slot0;
             options = _closure1_slot2;

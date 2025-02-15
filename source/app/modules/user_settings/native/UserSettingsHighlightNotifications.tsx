@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: Row
-        _fun97938: for(var _fun97938_ip = 0; ; ) switch(_fun97938_ip) {
+        _fun97948: for(var _fun97948_ip = 0; ; ) switch(_fun97948_ip) {
  0:
             mike = argFoo;
             yankee = mike.guildId;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = yankee;
             mike = function(argFoo) {
-                _fun97939: for(var _fun97939_ip = 0; ; ) switch(_fun97939_ip) {
+                _fun97949: for(var _fun97949_ip = 0; ; ) switch(_fun97949_ip) {
  0:
                     mike = argFoo;
                     tango = _closure1_slot1;
@@ -33,10 +33,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot0;
                     zulu = {};
                     verify = _closure1_slot7;
-                    if(mike) { _fun97939_ip = 58; continue _fun97939 }
+                    if(mike) { _fun97949_ip = 58; continue _fun97949 }
  50:
                     options = verify.DISABLED;
-                    _fun97939_ip = 64; continue _fun97939;
+                    _fun97949_ip = 64; continue _fun97949;
  58:
                     options = verify.ENABLED;
  64:
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             yankee = entity == golf;
             zulu = undefined;
-            if(yankee) { _fun97938_ip = 162; continue _fun97938 }
+            if(yankee) { _fun97948_ip = 162; continue _fun97948 }
  157:
             zulu = golf.name;
  162:
-            if(!(entity != zulu)) { _fun97938_ip = 307; continue _fun97938 }
+            if(!(entity != zulu)) { _fun97948_ip = 307; continue _fun97948 }
  169:
             foxtrot = golf.name;
-            if(mike) { _fun97938_ip = 191; continue _fun97938 }
+            if(mike) { _fun97948_ip = 191; continue _fun97948 }
  177:
             zulu = _closure1_slot7;
             zulu = zulu.DISABLED;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/UserSettingsHighlightNotifications.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsHighlightNotifications
-        _fun97941: for(var _fun97941_ip = 0; ; ) switch(_fun97941_ip) {
+        _fun97951: for(var _fun97951_ip = 0; ; ) switch(_fun97951_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = entity.length;
             zulu = 0;
             entity = null;
-            if(!(zulu !== tango)) { _fun97941_ip = 147; continue _fun97941 }
+            if(!(zulu !== tango)) { _fun97951_ip = 147; continue _fun97951 }
  105:
             tango = _closure1_slot8;
             zulu = _closure1_slot0;

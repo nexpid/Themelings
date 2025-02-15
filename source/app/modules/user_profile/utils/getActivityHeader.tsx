@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/utils/getActivityHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getActivityHeader
-        _fun80424: for(var _fun80424_ip = 0; ; ) switch(_fun80424_ip) {
+        _fun80436: for(var _fun80436_ip = 0; ; ) switch(_fun80436_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             romeo = tango == zulu;
             offset = undefined;
-            if(romeo) { _fun80424_ip = 87; continue _fun80424 }
+            if(romeo) { _fun80436_ip = 87; continue _fun80436 }
  82:
             offset = zulu.type;
  87:
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['text'] = report;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun80424_ip = 931; continue _fun80424 }
+            if(tango) { _fun80436_ip = 931; continue _fun80436 }
  926:
             mike = zulu.icon;
  931:

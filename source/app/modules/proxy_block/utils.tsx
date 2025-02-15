@@ -24,18 +24,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/proxy_block/utils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isBlockedByProxyErrorCode
-        _fun122867: for(var _fun122867_ip = 0; ; ) switch(_fun122867_ip) {
+        _fun122873: for(var _fun122873_ip = 0; ; ) switch(_fun122873_ip) {
  0:
             mike = argFoo;
             entity = mike.ok;
             entity = !entity;
-            if(!entity) { _fun122867_ip = 53; continue _fun122867 }
+            if(!entity) { _fun122873_ip = 53; continue _fun122873 }
  15:
             mike = mike.body;
             zulu = null;
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun122867_ip = 36; continue _fun122867 }
+            if(tango) { _fun122873_ip = 36; continue _fun122873 }
  31:
             zulu = mike.code;
  36:

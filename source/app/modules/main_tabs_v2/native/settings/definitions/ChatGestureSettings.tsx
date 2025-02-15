@@ -37,15 +37,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun97716: for(var _fun97716_ip = 0; ; ) switch(_fun97716_ip) {
+            _fun97726: for(var _fun97726_ip = 0; ; ) switch(_fun97726_ip) {
  0:
                 entity = _closure1_slot3;
                 entity = entity.swipeToReply;
                 mike = _closure1_slot6;
-                if(entity) { _fun97716_ip = 28; continue _fun97716 }
+                if(entity) { _fun97726_ip = 28; continue _fun97726 }
  20:
                 entity = mike.CHANNEL_DETAILS;
-                _fun97716_ip = 34; continue _fun97716;
+                _fun97726_ip = 34; continue _fun97726;
  28:
                 entity = mike.REPLY;
  34:

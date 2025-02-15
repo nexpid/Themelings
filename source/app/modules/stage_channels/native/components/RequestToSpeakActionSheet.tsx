@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: RequestToSpeakHeader
-        _fun102977: for(var _fun102977_ip = 0; ; ) switch(_fun102977_ip) {
+        _fun102969: for(var _fun102969_ip = 0; ; ) switch(_fun102969_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -75,11 +75,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[echo];
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.t;
-            if(romeo) { _fun102977_ip = 319; continue _fun102977 }
+            if(romeo) { _fun102969_ip = 319; continue _fun102969 }
  306:
             kilo = sizing.laPwJS;
             kilo = output.bind(result)(kilo);
-            _fun102977_ip = 330; continue _fun102977;
+            _fun102969_ip = 330; continue _fun102969;
  319:
             sizing = sizing.JcFI/f;
             kilo = output.bind(result)(sizing);
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: ManageSelfSpeakerButton
-        _fun102979: for(var _fun102979_ip = 0; ; ) switch(_fun102979_ip) {
+        _fun102971: for(var _fun102971_ip = 0; ; ) switch(_fun102971_ip) {
  0:
             entity = argFoo;
             options = entity.channel;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             verify = entity == options;
             entity = undefined;
-            if(verify) { _fun102979_ip = 119; continue _fun102979 }
+            if(verify) { _fun102971_ip = 119; continue _fun102971 }
  114:
             entity = options.id;
  119:
@@ -177,24 +177,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[foxtrot];
             mike = options.bind(tango)(mike);
             mike = mike.t;
-            if(entity) { _fun102979_ip = 222; continue _fun102979 }
+            if(entity) { _fun102971_ip = 222; continue _fun102971 }
  209:
             options = mike.8Joh+v;
             source = zulu.bind(report)(options);
-            _fun102979_ip = 233; continue _fun102979;
+            _fun102971_ip = 233; continue _fun102971;
  222:
             mike = mike.ezLpY2;
             source = zulu.bind(report)(mike);
  233:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
-            if(entity) { _fun102979_ip = 264; continue _fun102979 }
+            if(entity) { _fun102971_ip = 264; continue _fun102971 }
  244:
             entity = 16;
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             control = entity.MicrophoneArrowRightIcon;
-            _fun102979_ip = 282; continue _fun102979;
+            _fun102971_ip = 282; continue _fun102971;
  264:
             entity = 15;
             entity = zulu[entity];
@@ -435,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/components/RequestToSpeakActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RequestToSpeakActionSheet
-        _fun102982: for(var _fun102982_ip = 0; ; ) switch(_fun102982_ip) {
+        _fun102974: for(var _fun102974_ip = 0; ; ) switch(_fun102974_ip) {
  0:
             entity = argFoo;
             verify = entity.channelId;
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = entity;
             entity = null;
             zulu = entity == output;
-            if(zulu) { _fun102982_ip = 506; continue _fun102982 }
+            if(zulu) { _fun102974_ip = 506; continue _fun102974 }
  258:
             tango = _closure1_slot9;
             offset = _closure1_slot0;
@@ -531,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.container;
             verify['style'] = backup;
             romeo = function(argFoo) { // Original name: onLayout
-                _fun102984: for(var _fun102984_ip = 0; ; ) switch(_fun102984_ip) {
+                _fun102976: for(var _fun102976_ip = 0; ; ) switch(_fun102976_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -539,12 +539,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = entity.height;
                     entity = null;
                     entity = entity != mike;
-                    if(!entity) { _fun102984_ip = 39; continue _fun102984 }
+                    if(!entity) { _fun102976_ip = 39; continue _fun102976 }
  28:
                     zulu = _closure2_slot1;
                     entity = zulu !== mike;
  39:
-                    if(!entity) { _fun102984_ip = 63; continue _fun102984 }
+                    if(!entity) { _fun102976_ip = 63; continue _fun102976 }
  42:
                     zulu = _closure2_slot2;
                     entity = 200;

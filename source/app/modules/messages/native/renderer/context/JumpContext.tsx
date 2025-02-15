@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['JumpContext'] = tango;
     mike = function(argFoo) { // Original name: JumpContextProvider
-        _fun69513: for(var _fun69513_ip = 0; ; ) switch(_fun69513_ip) {
+        _fun69519: for(var _fun69519_ip = 0; ; ) switch(_fun69519_ip) {
  0:
             entity = argFoo;
             mike = entity.value;
             tango = undefined;
-            if(!(mike === tango)) { _fun69513_ip = 21; continue _fun69513 }
+            if(!(mike === tango)) { _fun69519_ip = 21; continue _fun69519 }
  14:
             mike = _closure1_slot4;
  21:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(oscar)(mike);
             zulu = oscar.current;
             zulu = mike === zulu;
-            if(zulu) { _fun69513_ip = 86; continue _fun69513 }
+            if(zulu) { _fun69519_ip = 86; continue _fun69519 }
  55:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.current;
             zulu = options.bind(tango)(mike, golf);
  86:
-            if(zulu) { _fun69513_ip = 95; continue _fun69513 }
+            if(zulu) { _fun69519_ip = 95; continue _fun69519 }
  89:
             oscar['current'] = mike;
  95:

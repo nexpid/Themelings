@@ -55,7 +55,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     golf = golf.VOICE;
     mike['parent'] = golf;
     golf = function() { // Original name: useInputModeSettingTrailing
-        _fun97004: for(var _fun97004_ip = 0; ; ) switch(_fun97004_ip) {
+        _fun97014: for(var _fun97014_ip = 0; ; ) switch(_fun97014_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -76,7 +76,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu, entity);
             entity = _closure1_slot3;
             entity = entity.PUSH_TO_TALK;
-            if(!(zulu !== entity)) { _fun97004_ip = 128; continue _fun97004 }
+            if(!(zulu !== entity)) { _fun97014_ip = 128; continue _fun97014 }
  71:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.cHCEOD;
             entity = zulu.bind(tango)(entity);
-            _fun97004_ip = 183; continue _fun97004;
+            _fun97014_ip = 183; continue _fun97014;
  128:
             report = _closure1_slot0;
             golf = _closure1_slot1;

@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/quests/native/QuestDisclosureModal/QuestDisclosureModalInner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: QuestDisclosureModalInner
-        _fun91391: for(var _fun91391_ip = 0; ; ) switch(_fun91391_ip) {
+        _fun91420: for(var _fun91420_ip = 0; ; ) switch(_fun91420_ip) {
  0:
             entity = argFoo;
             golf = entity.isTargetedDisclosure;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['children'] = backup;
             options = romeo.bind(tango)(offset, options);
             report[1] = options;
-            if(!golf) { _fun91391_ip = 574; continue _fun91391 }
+            if(!golf) { _fun91420_ip = 574; continue _fun91420 }
  505:
             romeo = _closure1_slot6;
             offset = _closure1_slot0;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options['style'] = backup;
             backup = kilo.map;
             foxtrot = function(argFoo, argBar) {
-                _fun91392: for(var _fun91392_ip = 0; ; ) switch(_fun91392_ip) {
+                _fun91421: for(var _fun91421_ip = 0; ; ) switch(_fun91421_ip) {
  0:
                     entity = argFoo;
                     report = argBar;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = 1;
                     offset = foxtrot - offset;
                     offset = report === offset;
-                    if(!offset) { _fun91392_ip = 107; continue _fun91392 }
+                    if(!offset) { _fun91421_ip = 107; continue _fun91421 }
  97:
                     yankee = _closure2_slot0;
                     offset = yankee.lastTargetItem;

@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/controls/activities/ActivityShelfItemSummary.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityShelfItemSummary
-        _fun122138: for(var _fun122138_ip = 0; ; ) switch(_fun122138_ip) {
+        _fun122144: for(var _fun122144_ip = 0; ; ) switch(_fun122144_ip) {
  0:
             entity = argFoo;
             offset = entity.channelId;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.applicationName;
             foxtrot = entity.submitting;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun122138_ip = 33; continue _fun122138 }
+            if(!(foxtrot === tango)) { _fun122144_ip = 33; continue _fun122144 }
  31:
             foxtrot = false;
  33:
@@ -168,10 +168,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf);
             options = golf.Text;
             golf = {'variant': 'text-md/semibold', 'style': null, 'lineClamp': 2};
-            if(foxtrot) { _fun122138_ip = 180; continue _fun122138 }
+            if(foxtrot) { _fun122144_ip = 180; continue _fun122144 }
  172:
             sizing = backup.overlayActivityNameText;
-            _fun122138_ip = 186; continue _fun122138;
+            _fun122144_ip = 186; continue _fun122144;
  180:
             sizing = backup.loadingTextColor;
  186:
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[0] = sizing;
             backup[1] = kilo;
             options['style'] = backup;
-            if(!foxtrot) { _fun122138_ip = 316; continue _fun122138 }
+            if(!foxtrot) { _fun122144_ip = 316; continue _fun122144 }
  266:
             sizing = _closure1_slot5;
             kilo = _closure1_slot0;

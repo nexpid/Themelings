@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['truncateMentions'] = golf;
     golf = function(argFoo) { // Original name: fetchRecentMentions
-        _fun85871: for(var _fun85871_ip = 0; ; ) switch(_fun85871_ip) {
+        _fun85888: for(var _fun85888_ip = 0; ; ) switch(_fun85888_ip) {
  0:
             yankee = argFoo;
             offset = arguments[1];
@@ -88,19 +88,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = arguments[4];
             var _closure2_slot0 = yankee;
             entity = undefined;
-            if(!(offset === entity)) { _fun85871_ip = 34; continue _fun85871 }
+            if(!(offset === entity)) { _fun85888_ip = 34; continue _fun85888 }
  27:
             offset = _closure1_slot4;
  34:
-            if(!(verify === entity)) { _fun85871_ip = 40; continue _fun85871 }
+            if(!(verify === entity)) { _fun85888_ip = 40; continue _fun85888 }
  38:
             verify = null;
  40:
-            if(!(options === entity)) { _fun85871_ip = 46; continue _fun85871 }
+            if(!(options === entity)) { _fun85888_ip = 46; continue _fun85888 }
  44:
             options = true;
  46:
-            if(!(golf === entity)) { _fun85871_ip = 52; continue _fun85871 }
+            if(!(golf === entity)) { _fun85888_ip = 52; continue _fun85888 }
  50:
             golf = true;
  52:

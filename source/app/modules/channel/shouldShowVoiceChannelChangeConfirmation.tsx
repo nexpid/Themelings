@@ -40,12 +40,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: shouldShowVoiceChannelChangeConfirmation
-        _fun104592: for(var _fun104592_ip = 0; ; ) switch(_fun104592_ip) {
+        _fun104584: for(var _fun104584_ip = 0; ; ) switch(_fun104584_ip) {
  0:
             oscar = argFoo;
             entity = _closure1_slot1;
             entity = entity.disableVoiceChannelChangeAlert;
-            if(entity) { _fun104592_ip = 196; continue _fun104592 }
+            if(entity) { _fun104584_ip = 196; continue _fun104584 }
  22:
             mike = _closure1_slot0;
             entity = mike.getRemoteSessionId;
@@ -57,12 +57,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(golf)();
             entity = mike.bind(tango)(entity, report);
             tango = null;
-            if(!(tango == entity)) { _fun104592_ip = 192; continue _fun104592 }
+            if(!(tango == entity)) { _fun104584_ip = 192; continue _fun104584 }
  72:
             mike = _closure1_slot4;
             entity = mike.isCurrentClientInVoiceChannel;
             entity = entity.bind(mike)();
-            if(entity) { _fun104592_ip = 93; continue _fun104592 }
+            if(entity) { _fun104584_ip = 93; continue _fun104584 }
  89:
             entity = false;
             return entity;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.isInChannel;
             entity = oscar.id;
             entity = mike.bind(report)(entity);
-            if(entity) { _fun104592_ip = 188; continue _fun104592 }
+            if(entity) { _fun104584_ip = 188; continue _fun104584 }
  116:
             report = _closure1_slot3;
             mike = report.getGuild;
@@ -80,12 +80,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             report = tango == mike;
             entity = undefined;
-            if(report) { _fun104592_ip = 155; continue _fun104592 }
+            if(report) { _fun104584_ip = 155; continue _fun104584 }
  149:
             entity = mike.afkChannelId;
  155:
             entity = tango == entity;
-            if(entity) { _fun104592_ip = 186; continue _fun104592 }
+            if(entity) { _fun104584_ip = 186; continue _fun104584 }
  162:
             tango = _closure1_slot4;
             zulu = tango.isInChannel;

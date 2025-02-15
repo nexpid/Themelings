@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function() {
-        _fun100003: for(var _fun100003_ip = 0; ; ) switch(_fun100003_ip) {
+        _fun100012: for(var _fun100012_ip = 0; ; ) switch(_fun100012_ip) {
  0:
             mike = _closure1_slot10;
             report = undefined;
@@ -243,10 +243,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             backup = zulu.bind(tango)(mike, entity);
             golf = null;
-            if(!(golf == kilo)) { _fun100003_ip = 167; continue _fun100003 }
+            if(!(golf == kilo)) { _fun100012_ip = 167; continue _fun100012 }
  159:
             entity = null;
-            if(!oscar) { _fun100003_ip = 378; continue _fun100003 }
+            if(!oscar) { _fun100012_ip = 378; continue _fun100012 }
  167:
             tango = _closure1_slot9;
             zulu = _closure1_slot4;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.header;
             mike['style'] = options;
             options = null;
-            if(!oscar) { _fun100003_ip = 207; continue _fun100003 }
+            if(!oscar) { _fun100012_ip = 207; continue _fun100012 }
  191:
             offset = _closure1_slot8;
             verify = _closure1_slot11;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = options;
             options = golf != kilo;
             golf = null;
-            if(!options) { _fun100003_ip = 364; continue _fun100003 }
+            if(!options) { _fun100012_ip = 364; continue _fun100012 }
  227:
             offset = _closure1_slot8;
             romeo = _closure1_slot0;

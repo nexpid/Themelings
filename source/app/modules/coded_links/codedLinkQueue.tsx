@@ -37,12 +37,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options = verify.on;
     golf = 'add';
     tango = function() {
-        _fun123955: for(var _fun123955_ip = 0; ; ) switch(_fun123955_ip) {
+        _fun123951: for(var _fun123951_ip = 0; ; ) switch(_fun123951_ip) {
  0:
             mike = _closure1_slot1;
             zulu = mike.size;
             mike = 0;
-            if(!(zulu > mike)) { _fun123955_ip = 48; continue _fun123955 }
+            if(!(zulu > mike)) { _fun123951_ip = 48; continue _fun123951 }
  18:
             tango = _closure1_slot0;
             zulu = tango.warn;

@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = report;
     report = options.memo;
     tango = function(argFoo) { // Original name: VisualEffectViewOverrideOverlay
-        _fun111469: for(var _fun111469_ip = 0; ; ) switch(_fun111469_ip) {
+        _fun111475: for(var _fun111475_ip = 0; ; ) switch(_fun111475_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -343,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = tango.bind(golf)(zulu, entity);
             entity = null;
-            if(!zulu) { _fun111469_ip = 100; continue _fun111469 }
+            if(!zulu) { _fun111475_ip = 100; continue _fun111475 }
  62:
             tango = _closure1_slot6;
             zulu = _closure1_slot10;

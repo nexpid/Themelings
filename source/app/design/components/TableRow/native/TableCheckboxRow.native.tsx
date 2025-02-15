@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/TableRow/native/TableCheckboxRow.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TableCheckboxRow
-        _fun76322: for(var _fun76322_ip = 0; ; ) switch(_fun76322_ip) {
+        _fun76332: for(var _fun76332_ip = 0; ; ) switch(_fun76332_ip) {
  0:
             report = argFoo;
             options = report.checked;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             kilo = report.subLabel;
             romeo = report.disabled;
             tango = undefined;
-            if(!(romeo === tango)) { _fun76322_ip = 39; continue _fun76322 }
+            if(!(romeo === tango)) { _fun76332_ip = 39; continue _fun76332 }
  37:
             romeo = false;
  39:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee = yankee != oscar;
             foxtrot = '';
             romeo = foxtrot;
-            if(!yankee) { _fun76322_ip = 374; continue _fun76322 }
+            if(!yankee) { _fun76332_ip = 374; continue _fun76332 }
  371:
             romeo = oscar;
  374:

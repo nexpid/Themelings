@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = options.bind(verify)(zulu);
         report = oscar.useDerivedValue;
         zulu = function() { // Original name: A
-            _fun103951: for(var _fun103951_ip = 0; ; ) switch(_fun103951_ip) {
+            _fun103943: for(var _fun103943_ip = 0; ; ) switch(_fun103943_ip) {
  0:
                 entity = _closure2_slot1;
-                if(entity) { _fun103951_ip = 16; continue _fun103951 }
+                if(entity) { _fun103943_ip = 16; continue _fun103943 }
  10:
                 entity = _closure2_slot0;
-                _fun103951_ip = 35; continue _fun103951;
+                _fun103943_ip = 35; continue _fun103943;
  16:
                 tango = _closure2_slot2;
                 zulu = 10;

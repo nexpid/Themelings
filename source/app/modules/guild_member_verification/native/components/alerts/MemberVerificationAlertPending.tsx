@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = golf;
         mike[1] = foxtrot;
         entity = function() {
-            _fun88497: for(var _fun88497_ip = 0; ; ) switch(_fun88497_ip) {
+            _fun88514: for(var _fun88514_ip = 0; ; ) switch(_fun88514_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity != mike)) { _fun88497_ip = 23; continue _fun88497 }
+                if(!(entity != mike)) { _fun88514_ip = 23; continue _fun88514 }
  13:
                 mike = _closure2_slot1;
                 entity = undefined;

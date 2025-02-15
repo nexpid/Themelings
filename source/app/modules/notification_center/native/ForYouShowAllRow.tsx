@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ForYouShowAllRow
-        _fun116574: for(var _fun116574_ip = 0; ; ) switch(_fun116574_ip) {
+        _fun116580: for(var _fun116580_ip = 0; ; ) switch(_fun116580_ip) {
  0:
             entity = argFoo;
             vacuum = entity.children;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity.onPress;
             report = entity.panelVariant;
             options = undefined;
-            if(!(report === options)) { _fun116574_ip = 32; continue _fun116574 }
+            if(!(report === options)) { _fun116580_ip = 32; continue _fun116580 }
  30:
             report = false;
  32:
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = papa[config];
             config = context.bind(options)(config);
             config = config.AvatarSizes;
-            if(sequence) { _fun116574_ip = 354; continue _fun116574 }
+            if(sequence) { _fun116580_ip = 354; continue _fun116580 }
  346:
             sequence = config.SMALL;
-            _fun116574_ip = 360; continue _fun116574;
+            _fun116580_ip = 360; continue _fun116580;
  354:
             sequence = config.XSMALL_20;
  360:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun116575: for(var _fun116575_ip = 0; ; ) switch(_fun116575_ip) {
+        _fun116581: for(var _fun116581_ip = 0; ; ) switch(_fun116581_ip) {
  0:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = offset.isAndroid;
             offset = tango.bind(offset)();
             tango = 0;
-            if(!offset) { _fun116575_ip = 212; continue _fun116575 }
+            if(!offset) { _fun116581_ip = 212; continue _fun116581 }
  209:
             tango = verify;
  212:
@@ -328,14 +328,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notification_center/native/ForYouShowAllRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForYouSuggestedFriendShowAllRow
-        _fun116576: for(var _fun116576_ip = 0; ; ) switch(_fun116576_ip) {
+        _fun116582: for(var _fun116582_ip = 0; ; ) switch(_fun116582_ip) {
  0:
             entity = argFoo;
             golf = entity.suggestedFriends;
             var _closure2_slot0 = golf;
             report = entity.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun116576_ip = 29; continue _fun116576 }
+            if(!(report === tango)) { _fun116582_ip = 29; continue _fun116582 }
  27:
             report = false;
  29:
@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.bind(tango)(mike, entity);
                 mike = zulu.map;
                 entity = function(argFoo) {
-                    _fun116579: for(var _fun116579_ip = 0; ; ) switch(_fun116579_ip) {
+                    _fun116585: for(var _fun116585_ip = 0; ; ) switch(_fun116585_ip) {
  0:
                         entity = argFoo;
                         report = _closure1_slot7;
@@ -434,10 +434,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = golf[verify];
                         golf = options.bind(tango)(golf);
                         golf = golf.AvatarSizes;
-                        if(oscar) { _fun116579_ip = 115; continue _fun116579 }
+                        if(oscar) { _fun116585_ip = 115; continue _fun116585 }
  107:
                         oscar = golf.SMALL;
-                        _fun116579_ip = 121; continue _fun116579;
+                        _fun116585_ip = 121; continue _fun116585;
  115:
                         oscar = golf.XSMALL_20;
  121:

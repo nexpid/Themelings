@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.item;
             mike[1] = report;
             entity = function() {
-                _fun99227: for(var _fun99227_ip = 0; ; ) switch(_fun99227_ip) {
+                _fun99237: for(var _fun99237_ip = 0; ; ) switch(_fun99237_ip) {
  0:
                     entity = new Array(0);
                     mike = _closure3_slot0;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = 6;
                     tango = undefined;
                     zulu = 'heading-xxl/bold';
-                    if(!mike) { _fun99227_ip = 226; continue _fun99227 }
+                    if(!mike) { _fun99237_ip = 226; continue _fun99237 }
  54:
                     foxtrot = entity.push;
                     mike = {};
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = foxtrot.bind(entity)(mike);
                     yankee = yankee + 1;
                     mike = _closure3_slot0;
-                    if(yankee < mike) { _fun99227_ip = 54; continue _fun99227 }
+                    if(yankee < mike) { _fun99237_ip = 54; continue _fun99237 }
  226:
                     return entity;
                 }

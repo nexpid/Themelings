@@ -217,14 +217,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = kilo.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: b
-            _fun122498: for(var _fun122498_ip = 0; ; ) switch(_fun122498_ip) {
+            _fun122504: for(var _fun122504_ip = 0; ; ) switch(_fun122504_ip) {
  0:
                 entity = {};
                 tango = _closure2_slot6;
                 mike = tango.get;
                 tango = mike.bind(tango)();
                 mike = '100%';
-                if(!tango) { _fun122498_ip = 49; continue _fun122498 }
+                if(!tango) { _fun122504_ip = 49; continue _fun122504 }
  27:
                 tango = _closure2_slot4;
                 tango = tango.height;

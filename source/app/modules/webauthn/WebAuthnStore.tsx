@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun92750: for(var _fun92750_ip = 0; ; ) switch(_fun92750_ip) {
+        _fun92782: for(var _fun92782_ip = 0; ; ) switch(_fun92782_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun92750_ip = 51; continue _fun92750 }
+            if(entity) { _fun92782_ip = 51; continue _fun92782 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun92750_ip = 92; continue _fun92750;
+            _fun92782_ip = 92; continue _fun92782;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun92750_ip = 71; continue _fun92750 }
+            if(oscar) { _fun92782_ip = 71; continue _fun92782 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun92751: for(var _fun92751_ip = 0; ; ) switch(_fun92751_ip) {
+        _fun92783: for(var _fun92783_ip = 0; ; ) switch(_fun92783_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun92751_ip = 76; continue _fun92751;
+            _fun92783_ip = 76; continue _fun92783;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['MFA_WEBAUTHN_CREDENTIALS_LOADED'] = verify;
     verify = function(argFoo) { // Original name: AUTHENTICATOR_CREATE
-        _fun92761: for(var _fun92761_ip = 0; ; ) switch(_fun92761_ip) {
+        _fun92793: for(var _fun92793_ip = 0; ; ) switch(_fun92793_ip) {
  0:
             entity = argFoo;
             tango = entity.credential;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.AuthenticatorType;
             mike = mike.WEBAUTHN;
             mike = oscar === mike;
-            if(!mike) { _fun92761_ip = 89; continue _fun92761 }
+            if(!mike) { _fun92793_ip = 89; continue _fun92793 }
  64:
             golf = _closure1_slot8;
             oscar = golf.find;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(golf)(report);
             mike = entity === report;
  89:
-            if(!mike) { _fun92761_ip = 125; continue _fun92761 }
+            if(!mike) { _fun92793_ip = 125; continue _fun92793 }
  92:
             verify = _closure1_slot8;
             mike = new Array(1);
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['AUTHENTICATOR_CREATE'] = verify;
     verify = function(argFoo) { // Original name: AUTHENTICATOR_UPDATE
-        _fun92763: for(var _fun92763_ip = 0; ; ) switch(_fun92763_ip) {
+        _fun92795: for(var _fun92795_ip = 0; ; ) switch(_fun92795_ip) {
  0:
             entity = argFoo;
             entity = entity.credential;
@@ -258,18 +258,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(entity)(tango);
             tango = tango.AuthenticatorType;
             tango = tango.WEBAUTHN;
-            if(!(report === tango)) { _fun92763_ip = 86; continue _fun92763 }
+            if(!(report === tango)) { _fun92795_ip = 86; continue _fun92795 }
  61:
             report = _closure1_slot8;
             tango = report.map;
             mike = function(argFoo) {
-                _fun92764: for(var _fun92764_ip = 0; ; ) switch(_fun92764_ip) {
+                _fun92796: for(var _fun92796_ip = 0; ; ) switch(_fun92796_ip) {
  0:
                     entity = argFoo;
                     tango = entity.id;
                     zulu = _closure2_slot0;
                     zulu = zulu.id;
-                    if(!(tango === zulu)) { _fun92764_ip = 28; continue _fun92764 }
+                    if(!(tango === zulu)) { _fun92796_ip = 28; continue _fun92796 }
  24:
                     entity = _closure2_slot0;
  28:
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['AUTHENTICATOR_UPDATE'] = verify;
     tango = function(argFoo) { // Original name: AUTHENTICATOR_DELETE
-        _fun92765: for(var _fun92765_ip = 0; ; ) switch(_fun92765_ip) {
+        _fun92797: for(var _fun92797_ip = 0; ; ) switch(_fun92797_ip) {
  0:
             entity = argFoo;
             entity = entity.credential;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(entity)(tango);
             tango = tango.AuthenticatorType;
             tango = tango.WEBAUTHN;
-            if(!(report === tango)) { _fun92765_ip = 86; continue _fun92765 }
+            if(!(report === tango)) { _fun92797_ip = 86; continue _fun92797 }
  61:
             report = _closure1_slot8;
             tango = report.filter;

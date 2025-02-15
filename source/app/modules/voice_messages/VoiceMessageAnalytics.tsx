@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     report = oscar.bind(golf)(report);
     zulu['VoiceMessageRecordingResult'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: logVoiceMessagePlaybackStarted
-        _fun92018: for(var _fun92018_ip = 0; ; ) switch(_fun92018_ip) {
+        _fun92047: for(var _fun92047_ip = 0; ; ) switch(_fun92047_ip) {
  0:
             offset = argBar;
             verify = argBaz;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = options.min;
             yankee = null;
             oscar = verify;
-            if(!(yankee != offset)) { _fun92018_ip = 86; continue _fun92018 }
+            if(!(yankee != offset)) { _fun92047_ip = 86; continue _fun92047 }
  83:
             oscar = offset;
  86:
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['logVoiceMessagePlaybackStarted'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: logVoiceMessagePlaybackEnded
-        _fun92019: for(var _fun92019_ip = 0; ; ) switch(_fun92019_ip) {
+        _fun92048: for(var _fun92048_ip = 0; ; ) switch(_fun92048_ip) {
  0:
             offset = argBar;
             verify = argBaz;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = options.min;
             yankee = null;
             oscar = verify;
-            if(!(yankee != offset)) { _fun92019_ip = 86; continue _fun92019 }
+            if(!(yankee != offset)) { _fun92048_ip = 86; continue _fun92048 }
  83:
             oscar = offset;
  86:

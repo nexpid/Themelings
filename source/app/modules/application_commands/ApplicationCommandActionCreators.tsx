@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/application_commands/ApplicationCommandActionCreators.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: setActiveCommand
-        _fun68743: for(var _fun68743_ip = 0; ; ) switch(_fun68743_ip) {
+        _fun68749: for(var _fun68749_ip = 0; ; ) switch(_fun68749_ip) {
  0:
             entity = argFoo;
             sizing = entity.channelId;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.source;
             report = entity.commandOrigin;
             entity = null;
-            if(!(entity != kilo)) { _fun68743_ip = 151; continue _fun68743 }
+            if(!(entity != kilo)) { _fun68749_ip = 151; continue _fun68749 }
  76:
             zulu = _closure1_slot1;
             result = _closure1_slot2;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = report.bind(oscar)(entity);
         report = oscar.map;
         entity = function(argFoo) {
-            _fun68746: for(var _fun68746_ip = 0; ; ) switch(_fun68746_ip) {
+            _fun68752: for(var _fun68752_ip = 0; ; ) switch(_fun68752_ip) {
  0:
                 report = argFoo;
                 entity = report[Symbol.iterator];
@@ -158,24 +158,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = undefined;
                 tango = mike === golf;
                 mike = undefined;
-                if(tango) { _fun68746_ip = 27; continue _fun68746 }
+                if(tango) { _fun68752_ip = 27; continue _fun68752 }
  24:
                 mike = zulu;
  27:
                 zulu = undefined;
-                if(tango) { _fun68746_ip = 57; continue _fun68746 }
+                if(tango) { _fun68752_ip = 57; continue _fun68752 }
  32:
                 oscar = report().value;
                 report = entity;
                 report = report === golf;
                 zulu = undefined;
                 tango = report;
-                if(report) { _fun68746_ip = 57; continue _fun68746 }
+                if(report) { _fun68752_ip = 57; continue _fun68752 }
  51:
                 zulu = oscar;
                 tango = report;
  57:
-                if(tango) { _fun68746_ip = 63; continue _fun68746 }
+                if(tango) { _fun68752_ip = 63; continue _fun68752 }
  60:
                 entity.return();
  63:
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['updateApplicationGuildCommandPermissions'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: performAutocomplete
-        _fun68749: for(var _fun68749_ip = 0; ; ) switch(_fun68749_ip) {
+        _fun68755: for(var _fun68755_ip = 0; ; ) switch(_fun68755_ip) {
  0:
             verify = argBar;
             tango = _closure1_slot1;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(report)(zulu);
             var _closure2_slot0 = golf;
             zulu = verify.channel;
-            if(!(offset != zulu)) { _fun68749_ip = 431; continue _fun68749 }
+            if(!(offset != zulu)) { _fun68755_ip = 431; continue _fun68755 }
  126:
             tango = _closure1_slot1;
             report = _closure1_slot2;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.channel;
             zulu = zulu.id;
             zulu = tango.bind(report)(zulu, oscar, yankee);
-            if(!(offset == zulu)) { _fun68749_ip = 431; continue _fun68749 }
+            if(!(offset == zulu)) { _fun68755_ip = 431; continue _fun68755 }
  229:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = verify.guild;
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun68749_ip = 338; continue _fun68749 }
+            if(romeo) { _fun68755_ip = 338; continue _fun68755 }
  333:
             offset = yankee.id;
  338:
@@ -458,11 +458,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['updateRegistry'] = tango;
     mike = function(argFoo, argBar) { // Original name: setAppLauncherActiveCommand
-        _fun68755: for(var _fun68755_ip = 0; ; ) switch(_fun68755_ip) {
+        _fun68761: for(var _fun68761_ip = 0; ; ) switch(_fun68761_ip) {
  0:
             report = argBar;
             entity = null;
-            if(!(entity != report)) { _fun68755_ip = 84; continue _fun68755 }
+            if(!(entity != report)) { _fun68761_ip = 84; continue _fun68761 }
  9:
             zulu = _closure1_slot1;
             golf = _closure1_slot2;

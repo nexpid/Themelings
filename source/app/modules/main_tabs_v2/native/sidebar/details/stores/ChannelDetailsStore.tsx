@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot3;
             mike = undefined;
             entity = function(argFoo) {
-                _fun78685: for(var _fun78685_ip = 0; ; ) switch(_fun78685_ip) {
+                _fun78695: for(var _fun78695_ip = 0; ; ) switch(_fun78695_ip) {
  0:
                     entity = argFoo;
                     tango = entity.states;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     mike = _closure3_slot0;
                     zulu = zulu.bind(tango)(mike);
                     mike = null;
-                    if(!(mike == zulu)) { _fun78685_ip = 45; continue _fun78685 }
+                    if(!(mike == zulu)) { _fun78695_ip = 45; continue _fun78695 }
  32:
                     tango = _closure1_slot4;
                     mike = undefined;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         entity = argBar;
         tango['isSearchActive'] = entity;
         zulu = function(argFoo, argBar) { // Original name: upsertChannelState
-            _fun78688: for(var _fun78688_ip = 0; ; ) switch(_fun78688_ip) {
+            _fun78698: for(var _fun78698_ip = 0; ; ) switch(_fun78698_ip) {
  0:
                 oscar = argFoo;
                 tango = _closure1_slot3;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = zulu.bind(golf)(oscar);
                 report = {};
                 tango = null;
-                if(!(tango == zulu)) { _fun78688_ip = 56; continue _fun78688 }
+                if(!(tango == zulu)) { _fun78698_ip = 56; continue _fun78698 }
  46:
                 options = _closure1_slot4;
                 tango = undefined;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setIsChannelDetailsSearchActive'] = tango;
     tango = function(argFoo) { // Original name: getIsChannelDetailsSearchActive
-        _fun78690: for(var _fun78690_ip = 0; ; ) switch(_fun78690_ip) {
+        _fun78700: for(var _fun78700_ip = 0; ; ) switch(_fun78700_ip) {
  0:
             zulu = _closure1_slot3;
             entity = zulu.getState;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = argFoo;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu == entity)) { _fun78690_ip = 52; continue _fun78690 }
+            if(!(zulu == entity)) { _fun78700_ip = 52; continue _fun78700 }
  42:
             zulu = _closure1_slot4;
             mike = undefined;

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     tango = 'modules/voice_calls/trackVoiceFeedback.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: trackVoiceFeedback
-        _fun123547: for(var _fun123547_ip = 0; ; ) switch(_fun123547_ip) {
+        _fun123552: for(var _fun123552_ip = 0; ; ) switch(_fun123552_ip) {
  0:
             kilo = argFoo;
             zulu = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             verify = null;
             sizing = verify != kilo;
             backup = 'no response';
-            if(!sizing) { _fun123547_ip = 199; continue _fun123547 }
+            if(!sizing) { _fun123552_ip = 199; continue _fun123552 }
  196:
             backup = kilo;
  199:
@@ -105,21 +105,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike['noise_cancellation_enabled'] = yankee;
             backup = verify == foxtrot;
             yankee = undefined;
-            if(backup) { _fun123547_ip = 353; continue _fun123547 }
+            if(backup) { _fun123552_ip = 353; continue _fun123552 }
  348:
             yankee = foxtrot.name;
  353:
             mike['input_device_name'] = yankee;
             foxtrot = verify == romeo;
             yankee = undefined;
-            if(foxtrot) { _fun123547_ip = 372; continue _fun123547 }
+            if(foxtrot) { _fun123552_ip = 372; continue _fun123552 }
  367:
             yankee = romeo.name;
  372:
             mike['output_device_name'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun123547_ip = 393; continue _fun123547 }
+            if(yankee) { _fun123552_ip = 393; continue _fun123552 }
  388:
             verify = offset.name;
  393:

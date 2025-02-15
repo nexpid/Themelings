@@ -36,16 +36,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['LottieType'] = tango;
     tango = function(argFoo) { // Original name: getLottieType
-        _fun87981: for(var _fun87981_ip = 0; ; ) switch(_fun87981_ip) {
+        _fun87998: for(var _fun87998_ip = 0; ; ) switch(_fun87998_ip) {
  0:
             entity = _closure1_slot2;
             zulu = entity.NITROWEEN_STANDARD;
             entity = argFoo;
-            if(!(entity !== zulu)) { _fun87981_ip = 32; continue _fun87981 }
+            if(!(entity !== zulu)) { _fun87998_ip = 32; continue _fun87998 }
  20:
             entity = _closure1_slot3;
             entity = entity.JSON;
-            _fun87981_ip = 42; continue _fun87981;
+            _fun87998_ip = 42; continue _fun87998;
  32:
             mike = _closure1_slot3;
             entity = mike.LOTTIE;
@@ -55,53 +55,53 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getLottieType'] = tango;
     mike = function(argFoo, argBar) { // Original name: getGiftAnimationData
-        _fun87982: for(var _fun87982_ip = 0; ; ) switch(_fun87982_ip) {
+        _fun87999: for(var _fun87999_ip = 0; ; ) switch(_fun87999_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
             mike = _closure1_slot2;
             mike = mike.NITROWEEN_STANDARD;
-            if(!(mike !== zulu)) { _fun87982_ip = 1309; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 1309; continue _fun87999 }
  26:
             mike = _closure1_slot2;
             mike = mike.STANDARD_BOX;
-            if(!(mike !== zulu)) { _fun87982_ip = 1172; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 1172; continue _fun87999 }
  43:
             mike = _closure1_slot2;
             mike = mike.CAKE;
-            if(!(mike !== zulu)) { _fun87982_ip = 1035; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 1035; continue _fun87999 }
  60:
             mike = _closure1_slot2;
             mike = mike.CHEST;
-            if(!(mike !== zulu)) { _fun87982_ip = 898; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 898; continue _fun87999 }
  77:
             mike = _closure1_slot2;
             mike = mike.COFFEE;
-            if(!(mike !== zulu)) { _fun87982_ip = 761; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 761; continue _fun87999 }
  94:
             mike = _closure1_slot2;
             mike = mike.SEASONAL_STANDARD_BOX;
-            if(!(mike !== zulu)) { _fun87982_ip = 624; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 624; continue _fun87999 }
  111:
             mike = _closure1_slot2;
             mike = mike.SEASONAL_CAKE;
-            if(!(mike !== zulu)) { _fun87982_ip = 487; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 487; continue _fun87999 }
  128:
             mike = _closure1_slot2;
             mike = mike.SEASONAL_CHEST;
-            if(!(mike !== zulu)) { _fun87982_ip = 350; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 350; continue _fun87999 }
  145:
             mike = _closure1_slot2;
             mike = mike.SEASONAL_COFFEE;
-            if(!(mike !== zulu)) { _fun87982_ip = 213; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 213; continue _fun87999 }
  159:
             mike = _closure1_slot2;
             mike = mike.SNOWGLOBE;
-            if(!(mike !== zulu)) { _fun87982_ip = 197; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 197; continue _fun87999 }
  173:
             mike = _closure1_slot2;
             mike = mike.BOX;
-            if(!(mike !== zulu)) { _fun87982_ip = 197; continue _fun87982 }
+            if(!(mike !== zulu)) { _fun87999_ip = 197; continue _fun87999 }
  187:
             mike = _closure1_slot2;
             mike = mike.CUP;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 328; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 328; continue _fun87999 }
  251:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 306; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 306; continue _fun87999 }
  284:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 465; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 465; continue _fun87999 }
  388:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 443; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 443; continue _fun87999 }
  421:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 602; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 602; continue _fun87999 }
  525:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 580; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 580; continue _fun87999 }
  558:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 739; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 739; continue _fun87999 }
  662:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 717; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 717; continue _fun87999 }
  695:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 876; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 876; continue _fun87999 }
  799:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 854; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 854; continue _fun87999 }
  832:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 1013; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1013; continue _fun87999 }
  936:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 991; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 991; continue _fun87999 }
  969:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 1150; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1150; continue _fun87999 }
  1073:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 1128; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1128; continue _fun87999 }
  1106:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 1287; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1287; continue _fun87999 }
  1210:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 1265; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1265; continue _fun87999 }
  1243:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -432,7 +432,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.AnimationState;
             mike = mike.IDLE;
-            if(!(mike !== tango)) { _fun87982_ip = 1402; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1402; continue _fun87999 }
  1347:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.AnimationState;
             mike = mike.LOOP;
-            if(!(mike !== tango)) { _fun87982_ip = 1402; continue _fun87982 }
+            if(!(mike !== tango)) { _fun87999_ip = 1402; continue _fun87999 }
  1380:
             tango = _closure1_slot0;
             report = _closure1_slot1;

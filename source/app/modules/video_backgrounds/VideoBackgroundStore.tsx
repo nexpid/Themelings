@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun52772: for(var _fun52772_ip = 0; ; ) switch(_fun52772_ip) {
+        _fun52779: for(var _fun52779_ip = 0; ; ) switch(_fun52779_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot16;
             entity = entity.bind(zulu)();
-            if(entity) { _fun52772_ip = 51; continue _fun52772 }
+            if(entity) { _fun52779_ip = 51; continue _fun52779 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun52772_ip = 92; continue _fun52772;
+            _fun52779_ip = 92; continue _fun52779;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun52772_ip = 71; continue _fun52772 }
+            if(oscar) { _fun52779_ip = 71; continue _fun52779 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot15 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun52773: for(var _fun52773_ip = 0; ; ) switch(_fun52773_ip) {
+        _fun52780: for(var _fun52780_ip = 0; ; ) switch(_fun52780_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun52773_ip = 74; continue _fun52773;
+            _fun52780_ip = 74; continue _fun52780;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -81,16 +81,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: hasVideoBackgroundLive
-        _fun52776: for(var _fun52776_ip = 0; ; ) switch(_fun52776_ip) {
+        _fun52783: for(var _fun52783_ip = 0; ; ) switch(_fun52783_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot10;
             entity = mike.getCurrentUser;
             entity = entity.bind(mike)();
             mike = null;
-            if(!(mike != entity)) { _fun52776_ip = 141; continue _fun52776 }
+            if(!(mike != entity)) { _fun52783_ip = 141; continue _fun52783 }
  25:
-            if(!(mike == zulu)) { _fun52776_ip = 97; continue _fun52776 }
+            if(!(mike == zulu)) { _fun52783_ip = 97; continue _fun52783 }
  29:
             golf = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.settings;
             options = options.voiceAndVideo;
             verify = mike == options;
-            if(verify) { _fun52776_ip = 86; continue _fun52776 }
+            if(verify) { _fun52783_ip = 86; continue _fun52783 }
  80:
             report = options.videoBackgroundFilterDesktop;
  86:
@@ -114,13 +114,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.getVoiceChannelId;
             entity = entity.bind(report)();
             entity = mike != entity;
-            if(!entity) { _fun52776_ip = 132; continue _fun52776 }
+            if(!entity) { _fun52783_ip = 132; continue _fun52783 }
  118:
             report = _closure1_slot8;
             tango = report.isVideoEnabled;
             entity = tango.bind(report)();
  132:
-            if(!entity) { _fun52776_ip = 139; continue _fun52776 }
+            if(!entity) { _fun52783_ip = 139; continue _fun52783 }
  135:
             entity = mike != zulu;
  139:
@@ -132,13 +132,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot17 = entity;
     entity = function() { // Original name: handleSyncedStoresUpdate
-        _fun52777: for(var _fun52777_ip = 0; ; ) switch(_fun52777_ip) {
+        _fun52784: for(var _fun52784_ip = 0; ; ) switch(_fun52784_ip) {
  0:
             mike = _closure1_slot12;
             tango = _closure1_slot9;
             entity = tango.getVoiceChannelId;
             entity = entity.bind(tango)();
-            if(!(mike !== entity)) { _fun52777_ip = 31; continue _fun52777 }
+            if(!(mike !== entity)) { _fun52784_ip = 31; continue _fun52784 }
  25:
             entity = false;
             _closure1_slot13 = entity;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot17;
             entity = undefined;
             mike = mike.bind(entity)();
-            if(!mike) { _fun52777_ip = 50; continue _fun52777 }
+            if(!mike) { _fun52784_ip = 50; continue _fun52784 }
  44:
             mike = true;
             _closure1_slot13 = mike;
@@ -345,14 +345,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['VIDEO_FILTER_ASSET_DELETE_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleSaveLastUsedBackgroundOption
-        _fun52788: for(var _fun52788_ip = 0; ; ) switch(_fun52788_ip) {
+        _fun52795: for(var _fun52795_ip = 0; ; ) switch(_fun52795_ip) {
  0:
             entity = argFoo;
             tango = entity.backgroundOption;
             mike = _closure1_slot17;
             entity = undefined;
             mike = mike.bind(entity)(tango);
-            if(!mike) { _fun52788_ip = 32; continue _fun52788 }
+            if(!mike) { _fun52795_ip = 32; continue _fun52795 }
  26:
             mike = true;
             _closure1_slot13 = mike;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['VIDEO_SAVE_LAST_USED_BACKGROUND_OPTION'] = verify;
     tango = function(argFoo) { // Original name: handleApplyMediaFilterSettings
-        _fun52789: for(var _fun52789_ip = 0; ; ) switch(_fun52789_ip) {
+        _fun52796: for(var _fun52796_ip = 0; ; ) switch(_fun52796_ip) {
  0:
             entity = argFoo;
             tango = entity.settings;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.FilterSettingsKey;
             mike = mike.CAMERA_BACKGROUND_LIVE;
             mike = mike in tango;
-            if(!mike) { _fun52789_ip = 59; continue _fun52789 }
+            if(!mike) { _fun52796_ip = 59; continue _fun52796 }
  53:
             mike = true;
             _closure1_slot11 = mike;

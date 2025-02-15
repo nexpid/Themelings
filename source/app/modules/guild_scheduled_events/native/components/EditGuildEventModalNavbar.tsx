@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/EditGuildEventModalNavbar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditGuildEventModalNavbar
-        _fun76203: for(var _fun76203_ip = 0; ; ) switch(_fun76203_ip) {
+        _fun76213: for(var _fun76213_ip = 0; ; ) switch(_fun76213_ip) {
  0:
             entity = argFoo;
             zulu = entity.screen;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.EditGuildEventScreens;
             entity = entity.CHANNEL_SELECTOR;
-            if(!(entity !== zulu)) { _fun76203_ip = 192; continue _fun76203 }
+            if(!(entity !== zulu)) { _fun76213_ip = 192; continue _fun76213 }
  67:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.EditGuildEventScreens;
             entity = entity.DETAILS;
-            if(!(entity !== zulu)) { _fun76203_ip = 180; continue _fun76203 }
+            if(!(entity !== zulu)) { _fun76213_ip = 180; continue _fun76213 }
  100:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.EditGuildEventScreens;
             entity = entity.PREVIEW;
-            if(!(entity !== zulu)) { _fun76203_ip = 168; continue _fun76203 }
+            if(!(entity !== zulu)) { _fun76213_ip = 168; continue _fun76213 }
  133:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -104,13 +104,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.assertNever;
             entity = entity.bind(mike)(zulu);
             zulu = undefined;
-            _fun76203_ip = 202; continue _fun76203;
+            _fun76213_ip = 202; continue _fun76213;
  168:
             zulu = [3, 3];
-            _fun76203_ip = 202; continue _fun76203;
+            _fun76213_ip = 202; continue _fun76213;
  180:
             zulu = [2, 3];
-            _fun76203_ip = 202; continue _fun76203;
+            _fun76213_ip = 202; continue _fun76213;
  192:
             zulu = [1, 3];
  202:

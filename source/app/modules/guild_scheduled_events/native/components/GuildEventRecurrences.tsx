@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/GuildEventRecurrences.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildEventRecurrences
-        _fun77017: for(var _fun77017_ip = 0; ; ) switch(_fun77017_ip) {
+        _fun77027: for(var _fun77027_ip = 0; ; ) switch(_fun77027_ip) {
  0:
             entity = argFoo;
             report = entity.guildId;
@@ -164,11 +164,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['children'] = yankee;
             options = offset.bind(tango)(verify, options);
             report[1] = options;
-            if(!oscar) { _fun77017_ip = 314; continue _fun77017 }
+            if(!oscar) { _fun77027_ip = 314; continue _fun77027 }
  311:
             oscar = !golf;
  314:
-            if(!oscar) { _fun77017_ip = 437; continue _fun77017 }
+            if(!oscar) { _fun77027_ip = 437; continue _fun77027 }
  317:
             verify = _closure1_slot6;
             yankee = _closure1_slot1;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             golf['text'] = backup;
             foxtrot = function(argFoo) { // Original name: onPress
-                _fun77019: for(var _fun77019_ip = 0; ; ) switch(_fun77019_ip) {
+                _fun77029: for(var _fun77029_ip = 0; ; ) switch(_fun77029_ip) {
  0:
                     mike = argFoo;
                     entity = mike.stopPropagation;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun77019_ip = 51; continue _fun77019 }
+                    if(!(mike != zulu)) { _fun77029_ip = 51; continue _fun77029 }
  41:
                     mike = zulu.scrollToEnd;
                     mike = mike.bind(zulu)();

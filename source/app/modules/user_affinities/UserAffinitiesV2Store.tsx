@@ -1,11 +1,11 @@
-// app/modules/user_affinities/UserAffinitiesStoreV2.tsx
+// app/modules/user_affinities/UserAffinitiesV2Store.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = argBar;
     golf = argBaz;
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun79251: for(var _fun79251_ip = 0; ; ) switch(_fun79251_ip) {
+        _fun79261: for(var _fun79261_ip = 0; ; ) switch(_fun79261_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun79251_ip = 51; continue _fun79251 }
+            if(entity) { _fun79261_ip = 51; continue _fun79261 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun79251_ip = 92; continue _fun79251;
+            _fun79261_ip = 92; continue _fun79261;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun79251_ip = 71; continue _fun79251 }
+            if(oscar) { _fun79261_ip = 71; continue _fun79261 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun79252: for(var _fun79252_ip = 0; ; ) switch(_fun79252_ip) {
+        _fun79262: for(var _fun79262_ip = 0; ; ) switch(_fun79262_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun79252_ip = 76; continue _fun79252;
+            _fun79262_ip = 76; continue _fun79262;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = golf.bind(entity)(mike);
     options = mike.PersistedStore;
     mike = function(argFoo) {
-        tango = function() { // Original name: UserAffinitiesStoreV2
+        tango = function() { // Original name: UserAffinitiesV2Store
             report = this;
             tango = undefined;
             entity = undefined;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun79260: for(var _fun79260_ip = 0; ; ) switch(_fun79260_ip) {
+            _fun79270: for(var _fun79270_ip = 0; ; ) switch(_fun79270_ip) {
  0:
                 mike = argFoo;
                 tango = this;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot5;
                 zulu = report.bind(tango)(zulu);
                 zulu = null;
-                if(!(zulu != mike)) { _fun79260_ip = 72; continue _fun79260 }
+                if(!(zulu != mike)) { _fun79270_ip = 72; continue _fun79270 }
  30:
                 report = _closure1_slot10;
                 zulu = mike.userAffinities;
@@ -238,10 +238,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'shouldFetch';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun79261: for(var _fun79261_ip = 0; ; ) switch(_fun79261_ip) {
+            _fun79271: for(var _fun79271_ip = 0; ; ) switch(_fun79271_ip) {
  0:
                 mike = _closure1_slot8;
-                if(mike) { _fun79261_ip = 51; continue _fun79261 }
+                if(mike) { _fun79271_ip = 51; continue _fun79271 }
  10:
                 mike = global;
                 zulu = mike.Date;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'compare';
         report['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun79265: for(var _fun79265_ip = 0; ; ) switch(_fun79265_ip) {
+            _fun79275: for(var _fun79275_ip = 0; ; ) switch(_fun79275_ip) {
  0:
                 zulu = _closure1_slot7;
                 mike = zulu.get;
@@ -301,13 +301,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = null;
                 mike = tango == entity;
                 oscar = undefined;
-                if(mike) { _fun79265_ip = 37; continue _fun79265 }
+                if(mike) { _fun79275_ip = 37; continue _fun79275 }
  31:
                 oscar = entity.communicationProbability;
  37:
                 golf = tango != oscar;
                 entity = 0;
-                if(!golf) { _fun79265_ip = 49; continue _fun79265 }
+                if(!golf) { _fun79275_ip = 49; continue _fun79275 }
  46:
                 entity = oscar;
  49:
@@ -317,13 +317,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.bind(golf)(report);
                 oscar = tango == report;
                 zulu = undefined;
-                if(oscar) { _fun79265_ip = 81; continue _fun79265 }
+                if(oscar) { _fun79275_ip = 81; continue _fun79275 }
  75:
                 zulu = report.communicationProbability;
  81:
                 tango = tango != zulu;
                 mike = 0;
-                if(!tango) { _fun79265_ip = 93; continue _fun79265 }
+                if(!tango) { _fun79275_ip = 93; continue _fun79275 }
  90:
                 mike = zulu;
  93:
@@ -358,8 +358,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         return entity;
     };
     options = mike.bind(entity)(options);
-    mike = 'UserAffinitiesStoreV2';
+    mike = 'UserAffinitiesV2Store';
     options['displayName'] = mike;
+    mike = 'UserAffinitiesStoreV2';
     options['persistKey'] = mike;
     mike = 8;
     mike = oscar[mike];
@@ -428,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/user_affinities/UserAffinitiesStoreV2.tsx';
+    tango = 'modules/user_affinities/UserAffinitiesV2Store.tsx';
     tango = report.bind(oscar)(tango);
     zulu['default'] = mike;
     return entity;

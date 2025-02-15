@@ -38,11 +38,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun116996: for(var _fun116996_ip = 0; ; ) switch(_fun116996_ip) {
+                _fun117002: for(var _fun117002_ip = 0; ; ) switch(_fun117002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun116996_ip = 466; continue _fun116996 }
+                    if(mike) { _fun117002_ip = 466; continue _fun117002 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.icymiEnabled;
                     zulu = 'customScores';
                     zulu = tango.bind(report)(zulu);
-                    if(!zulu) { _fun116996_ip = 463; continue _fun116996 }
+                    if(!zulu) { _fun117002_ip = 463; continue _fun117002 }
  58: // try_start_0
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = null;
                     offset = options == offset;
                     options = undefined;
-                    if(offset) { _fun116996_ip = 156; continue _fun116996 }
+                    if(offset) { _fun117002_ip = 156; continue _fun117002 }
  133:
                     romeo = _closure2_slot1;
                     yankee = romeo.map;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  191:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun116996_ip = 360; continue _fun116996 }
+                    if(tango) { _fun117002_ip = 360; continue _fun117002 }
  200:
                     report = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['content'] = options;
                     tango = report.bind(golf)(tango);
  358: // try_end0
-                    _fun116996_ip = 463; continue _fun116996;
+                    _fun117002_ip = 463; continue _fun117002;
  360:
                     return zulu;
  363: // catch_target0

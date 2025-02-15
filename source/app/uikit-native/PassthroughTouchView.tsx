@@ -1,6 +1,6 @@
 // app/uikit-native/PassthroughTouchView.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun48590: for(var _fun48590_ip = 0; ; ) switch(_fun48590_ip) {
+    _fun48597: for(var _fun48597_ip = 0; ; ) switch(_fun48597_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = report.bind(entity)(tango);
         tango = options.isAndroid;
         tango = tango.bind(options)();
-        if(tango) { _fun48590_ip = 135; continue _fun48590 }
+        if(tango) { _fun48597_ip = 135; continue _fun48597 }
  122:
         tango = 'PassthroughTouchView';
         tango = golf.bind(entity)(tango);
-        _fun48590_ip = 150; continue _fun48590;
+        _fun48597_ip = 150; continue _fun48597;
  135:
         golf = 4;
         options = oscar[golf];

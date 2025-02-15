@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: PremiumPlanDowngradeToTier0
-        _fun95862: for(var _fun95862_ip = 0; ; ) switch(_fun95862_ip) {
+        _fun95872: for(var _fun95872_ip = 0; ; ) switch(_fun95872_ip) {
  0:
             entity = argFoo;
             mike = entity.analyticsLocations;
@@ -38,10 +38,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar[entity];
             entity = report.bind(tango)(entity);
             entity = entity.unsafe_rawColors;
-            if(zulu) { _fun95862_ip = 135; continue _fun95862 }
+            if(zulu) { _fun95872_ip = 135; continue _fun95872 }
  127:
             offset = entity.PRIMARY_100;
-            _fun95862_ip = 141; continue _fun95862;
+            _fun95872_ip = 141; continue _fun95872;
  135:
             offset = entity.PRIMARY_600;
  141:
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu * golf;
             echo = report.bind(oscar)(zulu);
             foxtrot = mike;
-            if(foxtrot) { _fun95862_ip = 667; continue _fun95862 }
+            if(foxtrot) { _fun95872_ip = 667; continue _fun95872 }
  664:
             foxtrot = entity;
  667:

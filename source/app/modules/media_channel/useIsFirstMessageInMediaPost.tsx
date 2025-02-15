@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     tango = function(argFoo) { // Original name: isFirstMessageInMediaPost
-        _fun71947: for(var _fun71947_ip = 0; ; ) switch(_fun71947_ip) {
+        _fun71953: for(var _fun71953_ip = 0; ; ) switch(_fun71953_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun71947_ip = 37; continue _fun71947 }
+            if(!entity) { _fun71953_ip = 37; continue _fun71953 }
  12:
             report = _closure1_slot5;
             tango = mike.id;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot4 = tango;
     mike = function(argFoo, argBar) { // Original name: isFirstMessageIdInMediaPost
-        _fun71948: for(var _fun71948_ip = 0; ; ) switch(_fun71948_ip) {
+        _fun71954: for(var _fun71954_ip = 0; ; ) switch(_fun71954_ip) {
  0:
             report = argBar;
             zulu = _closure1_slot1;
@@ -38,17 +38,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.castChannelIdAsMessageId;
             zulu = entity.bind(zulu)(report);
             entity = argFoo;
-            if(!(entity === zulu)) { _fun71948_ip = 130; continue _fun71948 }
+            if(!(entity === zulu)) { _fun71954_ip = 130; continue _fun71954 }
  46:
             zulu = _closure1_slot3;
             entity = zulu.getChannel;
             zulu = entity.bind(zulu)(report);
             entity = null;
-            if(!(entity != zulu)) { _fun71948_ip = 126; continue _fun71948 }
+            if(!(entity != zulu)) { _fun71954_ip = 126; continue _fun71954 }
  66:
             report = zulu.isForumPost;
             report = report.bind(zulu)();
-            if(!report) { _fun71948_ip = 126; continue _fun71948 }
+            if(!report) { _fun71954_ip = 126; continue _fun71954 }
  79:
             report = _closure1_slot3;
             tango = report.getChannel;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             entity = entity == zulu;
             mike = undefined;
-            if(entity) { _fun71948_ip = 118; continue _fun71948 }
+            if(entity) { _fun71954_ip = 118; continue _fun71954 }
  108:
             entity = zulu.isMediaChannel;
             mike = entity.bind(zulu)();

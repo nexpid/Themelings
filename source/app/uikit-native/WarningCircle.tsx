@@ -30,22 +30,22 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/WarningCircle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: WarningCircle
-        _fun75790: for(var _fun75790_ip = 0; ; ) switch(_fun75790_ip) {
+        _fun75800: for(var _fun75800_ip = 0; ; ) switch(_fun75800_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.width;
             tango = undefined;
-            if(!(yankee === tango)) { _fun75790_ip = 17; continue _fun75790 }
+            if(!(yankee === tango)) { _fun75800_ip = 17; continue _fun75800 }
  14:
             yankee = 20;
  17:
             offset = zulu.height;
-            if(!(offset === tango)) { _fun75790_ip = 29; continue _fun75790 }
+            if(!(offset === tango)) { _fun75800_ip = 29; continue _fun75800 }
  26:
             offset = 20;
  29:
             golf = zulu.color;
-            if(!(golf === tango)) { _fun75790_ip = 44; continue _fun75790 }
+            if(!(golf === tango)) { _fun75800_ip = 44; continue _fun75800 }
  38:
             golf = 'currentColor';
  44:

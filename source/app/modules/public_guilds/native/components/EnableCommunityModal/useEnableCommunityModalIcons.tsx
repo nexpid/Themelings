@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = 'safetyCheck';
         entity['key'] = mike;
         mike = function() { // Original name: get
-            _fun126668: for(var _fun126668_ip = 0; ; ) switch(_fun126668_ip) {
+            _fun126664: for(var _fun126664_ip = 0; ; ) switch(_fun126664_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -72,12 +72,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.bind(report)(entity);
                 zulu = _closure1_slot0;
                 report = _closure1_slot2;
-                if(entity) { _fun126668_ip = 70; continue _fun126668 }
+                if(entity) { _fun126664_ip = 70; continue _fun126664 }
  56:
                 entity = 7;
                 entity = report[entity];
                 entity = zulu.bind(tango)(entity);
-                _fun126668_ip = 82; continue _fun126668;
+                _fun126664_ip = 82; continue _fun126664;
  70:
                 mike = 6;
                 mike = report[mike];
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'finishingTouches';
         entity['key'] = oscar;
         oscar = function() { // Original name: get
-            _fun126670: for(var _fun126670_ip = 0; ; ) switch(_fun126670_ip) {
+            _fun126666: for(var _fun126666_ip = 0; ; ) switch(_fun126666_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -125,12 +125,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.bind(report)(entity);
                 zulu = _closure1_slot0;
                 report = _closure1_slot2;
-                if(entity) { _fun126670_ip = 70; continue _fun126670 }
+                if(entity) { _fun126666_ip = 70; continue _fun126666 }
  56:
                 entity = 10;
                 entity = report[entity];
                 entity = zulu.bind(tango)(entity);
-                _fun126670_ip = 82; continue _fun126670;
+                _fun126666_ip = 82; continue _fun126666;
  70:
                 mike = 9;
                 mike = report[mike];

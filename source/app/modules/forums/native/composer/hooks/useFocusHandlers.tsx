@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = entity[oscar];
         var _closure2_slot3 = entity;
         entity = function(argFoo) { // Original name: _setOpeningKeyboard
-            _fun87472: for(var _fun87472_ip = 0; ; ) switch(_fun87472_ip) {
+            _fun87489: for(var _fun87489_ip = 0; ; ) switch(_fun87489_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.bind(entity)(mike);
                 mike = zulu.isAndroid;
                 mike = mike.bind(zulu)();
-                if(!mike) { _fun87472_ip = 52; continue _fun87472 }
+                if(!mike) { _fun87489_ip = 52; continue _fun87489 }
  37:
                 zulu = _closure2_slot3;
                 mike = argFoo;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = {};
         entity['setFocusedInput'] = report;
         report = function() { // Original name: focusLastInput
-            _fun87473: for(var _fun87473_ip = 0; ; ) switch(_fun87473_ip) {
+            _fun87490: for(var _fun87490_ip = 0; ; ) switch(_fun87490_ip) {
  0:
                 tango = _closure2_slot4;
                 entity = undefined;
@@ -99,26 +99,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = _closure2_slot2;
                 tango = _closure1_slot4;
                 tango = tango.TITLE;
-                if(!(report !== tango)) { _fun87473_ip = 82; continue _fun87473 }
+                if(!(report !== tango)) { _fun87490_ip = 82; continue _fun87490 }
  37:
                 tango = _closure2_slot2;
                 zulu = _closure1_slot4;
                 zulu = zulu.CONTENT;
-                if(!(tango === zulu)) { _fun87473_ip = 107; continue _fun87473 }
+                if(!(tango === zulu)) { _fun87490_ip = 107; continue _fun87490 }
  55:
                 zulu = _closure2_slot1;
                 tango = zulu.current;
                 zulu = null;
-                if(!(zulu != tango)) { _fun87473_ip = 107; continue _fun87473 }
+                if(!(zulu != tango)) { _fun87490_ip = 107; continue _fun87490 }
  70:
                 zulu = tango.focus;
                 zulu = zulu.bind(tango)();
-                _fun87473_ip = 107; continue _fun87473;
+                _fun87490_ip = 107; continue _fun87490;
  82:
                 mike = _closure2_slot0;
                 zulu = mike.current;
                 mike = null;
-                if(!(mike != zulu)) { _fun87473_ip = 107; continue _fun87473 }
+                if(!(mike != zulu)) { _fun87490_ip = 107; continue _fun87490 }
  97:
                 mike = zulu.focus;
                 mike = mike.bind(zulu)();
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         entity['focusLastInput'] = report;
         tango = function() { // Original name: blurLastInput
-            _fun87475: for(var _fun87475_ip = 0; ; ) switch(_fun87475_ip) {
+            _fun87492: for(var _fun87492_ip = 0; ; ) switch(_fun87492_ip) {
  0:
                 tango = _closure2_slot4;
                 entity = undefined;
@@ -148,26 +148,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = _closure2_slot2;
                 tango = _closure1_slot4;
                 tango = tango.TITLE;
-                if(!(report !== tango)) { _fun87475_ip = 82; continue _fun87475 }
+                if(!(report !== tango)) { _fun87492_ip = 82; continue _fun87492 }
  37:
                 tango = _closure2_slot2;
                 zulu = _closure1_slot4;
                 zulu = zulu.CONTENT;
-                if(!(tango === zulu)) { _fun87475_ip = 107; continue _fun87475 }
+                if(!(tango === zulu)) { _fun87492_ip = 107; continue _fun87492 }
  55:
                 zulu = _closure2_slot1;
                 tango = zulu.current;
                 zulu = null;
-                if(!(zulu != tango)) { _fun87475_ip = 107; continue _fun87475 }
+                if(!(zulu != tango)) { _fun87492_ip = 107; continue _fun87492 }
  70:
                 zulu = tango.blur;
                 zulu = zulu.bind(tango)();
-                _fun87475_ip = 107; continue _fun87475;
+                _fun87492_ip = 107; continue _fun87492;
  82:
                 mike = _closure2_slot0;
                 zulu = mike.current;
                 mike = null;
-                if(!(mike != zulu)) { _fun87475_ip = 107; continue _fun87475 }
+                if(!(mike != zulu)) { _fun87492_ip = 107; continue _fun87492 }
  97:
                 mike = zulu.blur;
                 mike = mike.bind(zulu)();

@@ -40,21 +40,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getClickstreamTrackEvent
-        _fun68718: for(var _fun68718_ip = 0; ; ) switch(_fun68718_ip) {
+        _fun68724: for(var _fun68724_ip = 0; ; ) switch(_fun68724_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
             mike = _closure1_slot2;
             mike = mike.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun68718_ip = 274; continue _fun68718 }
+            if(!(mike !== oscar)) { _fun68724_ip = 274; continue _fun68724 }
  26:
             mike = _closure1_slot2;
             mike = mike.GUILD_VIEWED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun68718_ip = 209; continue _fun68718 }
+            if(!(mike !== oscar)) { _fun68724_ip = 209; continue _fun68724 }
  43:
             mike = _closure1_slot2;
             mike = mike.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(mike !== oscar)) { _fun68718_ip = 109; continue _fun68718 }
+            if(!(mike !== oscar)) { _fun68724_ip = 109; continue _fun68724 }
  57:
             mike = global;
             report = mike.Error;
@@ -112,39 +112,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.channelId;
             entity = _closure1_slot4;
             entity = entity.CHANNEL_BROWSER;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  296:
             entity = _closure1_slot4;
             entity = entity.GUILD_HOME;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  313:
             entity = _closure1_slot4;
             entity = entity.GUILD_SHOP;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  330:
             entity = _closure1_slot4;
             entity = entity.MEMBER_APPLICATIONS;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  347:
             entity = _closure1_slot4;
             entity = entity.ROLE_SUBSCRIPTIONS;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  364:
             entity = _closure1_slot4;
             entity = entity.CUSTOMIZE_COMMUNITY;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  381:
             entity = _closure1_slot4;
             entity = entity.MEMBER_SAFETY;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  398:
             entity = _closure1_slot4;
             entity = entity.GUILD_ONBOARDING;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  415:
             entity = _closure1_slot4;
             entity = entity.GUILD_BOOSTS;
-            if(!(entity !== zulu)) { _fun68718_ip = 538; continue _fun68718 }
+            if(!(entity !== zulu)) { _fun68724_ip = 538; continue _fun68724 }
  429:
             mike = _closure1_slot0;
             entity = mike.getChannel;
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             oscar = entity == report;
             mike = undefined;
-            if(oscar) { _fun68718_ip = 459; continue _fun68718 }
+            if(oscar) { _fun68724_ip = 459; continue _fun68724 }
  454:
             mike = report.type;
  459:
-            if(!(entity == mike)) { _fun68718_ip = 473; continue _fun68718 }
+            if(!(entity == mike)) { _fun68724_ip = 473; continue _fun68724 }
  463:
             entity = _closure1_slot3;
             mike = entity.UNKNOWN;

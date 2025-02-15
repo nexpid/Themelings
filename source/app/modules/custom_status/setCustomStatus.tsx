@@ -8,18 +8,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: determineEmojiType
-        _fun77839: for(var _fun77839_ip = 0; ; ) switch(_fun77839_ip) {
+        _fun77849: for(var _fun77849_ip = 0; ; ) switch(_fun77849_ip) {
  0:
             mike = argFoo;
             zulu = null;
             tango = zulu == mike;
             entity = null;
-            if(tango) { _fun77839_ip = 37; continue _fun77839 }
+            if(tango) { _fun77849_ip = 37; continue _fun77849 }
  14:
             mike = mike.id;
             zulu = zulu != mike;
             mike = 'unicode';
-            if(!zulu) { _fun77839_ip = 34; continue _fun77839 }
+            if(!zulu) { _fun77849_ip = 34; continue _fun77849 }
  30:
             mike = 'custom';
  34:
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     tango = 'modules/custom_status/setCustomStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: setCustomStatus
-        _fun77840: for(var _fun77840_ip = 0; ; ) switch(_fun77840_ip) {
+        _fun77850: for(var _fun77850_ip = 0; ; ) switch(_fun77850_ip) {
  0:
             mike = argFoo;
             foxtrot = argBar;
@@ -66,10 +66,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             offset = entity.bind(mike)();
             entity = offset.length;
             oscar = 0;
-            if(!(!(entity > oscar))) { _fun77840_ip = 86; continue _fun77840 }
+            if(!(!(entity > oscar))) { _fun77850_ip = 86; continue _fun77850 }
  36:
             entity = null;
-            if(!(entity == foxtrot)) { _fun77840_ip = 86; continue _fun77840 }
+            if(!(entity == foxtrot)) { _fun77850_ip = 86; continue _fun77850 }
  42:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = tango > oscar;
             options = '';
             tango = options;
-            if(!oscar) { _fun77840_ip = 147; continue _fun77840 }
+            if(!oscar) { _fun77850_ip = 147; continue _fun77850 }
  144:
             tango = offset;
  147:
@@ -104,12 +104,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = oscar != verify;
             backup = '0';
             tango = backup;
-            if(!golf) { _fun77840_ip = 275; continue _fun77840 }
+            if(!golf) { _fun77850_ip = 275; continue _fun77850 }
  169:
             golf = _closure1_slot3;
             golf = golf.DONT_CLEAR;
             tango = backup;
-            if(!(verify !== golf)) { _fun77840_ip = 275; continue _fun77840 }
+            if(!(verify !== golf)) { _fun77850_ip = 275; continue _fun77850 }
  186:
             golf = global;
             sizing = golf.String;
@@ -135,26 +135,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['expiresAtMs'] = tango;
             golf = oscar != foxtrot;
             tango = backup;
-            if(!golf) { _fun77840_ip = 310; continue _fun77840 }
+            if(!golf) { _fun77850_ip = 310; continue _fun77850 }
  290:
             golf = foxtrot.id;
             golf = oscar != golf;
             tango = backup;
-            if(!golf) { _fun77840_ip = 310; continue _fun77840 }
+            if(!golf) { _fun77850_ip = 310; continue _fun77850 }
  305:
             tango = foxtrot.id;
  310:
             entity['emojiId'] = tango;
             golf = oscar != foxtrot;
             tango = options;
-            if(!golf) { _fun77840_ip = 330; continue _fun77840 }
+            if(!golf) { _fun77850_ip = 330; continue _fun77850 }
  325:
             tango = foxtrot.name;
  330:
             entity['emojiName'] = tango;
             golf = global;
             tango = golf.String;
-            if(!(oscar == report)) { _fun77840_ip = 391; continue _fun77840 }
+            if(!(oscar == report)) { _fun77850_ip = 391; continue _fun77850 }
  347:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = {};
             sizing = oscar != kilo;
             backup = null;
-            if(!sizing) { _fun77840_ip = 457; continue _fun77840 }
+            if(!sizing) { _fun77850_ip = 457; continue _fun77850 }
  452:
             backup = kilo.location;
  457:
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike['text_len'] = offset;
             offset = oscar != verify;
             oscar = null;
-            if(!offset) { _fun77840_ip = 512; continue _fun77840 }
+            if(!offset) { _fun77850_ip = 512; continue _fun77850 }
  496:
             golf = golf.HermesInternal;
             golf = golf.concat;

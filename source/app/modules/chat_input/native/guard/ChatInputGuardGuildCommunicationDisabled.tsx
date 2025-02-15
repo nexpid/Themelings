@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: CommunicationDisabledNoticeForGuild
-        _fun101534: for(var _fun101534_ip = 0; ; ) switch(_fun101534_ip) {
+        _fun101526: for(var _fun101526_ip = 0; ; ) switch(_fun101526_ip) {
  0:
             entity = argFoo;
             entity = entity.guildMember;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(entity);
             zulu = entity.communicationDisabledUntil;
             entity = null;
-            if(!(entity != zulu)) { _fun101534_ip = 90; continue _fun101534 }
+            if(!(entity != zulu)) { _fun101526_ip = 90; continue _fun101526 }
  57:
             entity = global;
             entity = entity.Date;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = zulu;
             entity = new kilo[entity](backup, foxtrot);
             report = entity instanceof Object ? entity : mike;
-            _fun101534_ip = 118; continue _fun101534;
+            _fun101526_ip = 118; continue _fun101526;
  90:
             entity = global;
             entity = entity.Date;

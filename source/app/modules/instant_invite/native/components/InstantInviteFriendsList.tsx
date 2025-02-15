@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = oscar.PressableOpacity;
         oscar = {};
         offset = function() { // Original name: onPress
-            _fun86459: for(var _fun86459_ip = 0; ; ) switch(_fun86459_ip) {
+            _fun86476: for(var _fun86476_ip = 0; ; ) switch(_fun86476_ip) {
  0:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.getRootNavigationRef;
                 report = mike.bind(zulu)();
                 mike = null;
-                if(!(mike != report)) { _fun86459_ip = 114; continue _fun86459 }
+                if(!(mike != report)) { _fun86476_ip = 114; continue _fun86476 }
  67:
                 tango = report.navigate;
                 zulu = {};
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/instant_invite/native/components/InstantInviteFriendsList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InstantInviteFriendsList
-        _fun86461: for(var _fun86461_ip = 0; ; ) switch(_fun86461_ip) {
+        _fun86478: for(var _fun86478_ip = 0; ; ) switch(_fun86478_ip) {
  0:
             entity = argFoo;
             zulu = entity.code;
@@ -322,10 +322,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             foxtrot = options.bind(verify)(zulu, mike);
-            if(entity) { _fun86461_ip = 185; continue _fun86461 }
+            if(entity) { _fun86478_ip = 185; continue _fun86478 }
  179:
             zulu = _closure1_slot4;
-            _fun86461_ip = 211; continue _fun86461;
+            _fun86478_ip = 211; continue _fun86478;
  185:
             mike = _closure1_slot0;
             options = _closure1_slot2;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             romeo = 0;
             verify = yankee;
-            if(!(romeo === foxtrot)) { _fun86461_ip = 232; continue _fun86461 }
+            if(!(romeo === foxtrot)) { _fun86478_ip = 232; continue _fun86478 }
  228:
             verify = offset + yankee;
  232:

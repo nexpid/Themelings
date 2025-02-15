@@ -148,11 +148,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = new Array(1);
         backup[0] = oscar;
         oscar = function() {
-            _fun88177: for(var _fun88177_ip = 0; ; ) switch(_fun88177_ip) {
+            _fun88194: for(var _fun88194_ip = 0; ; ) switch(_fun88194_ip) {
  0:
                 zulu = _closure2_slot5;
                 mike = null;
-                if(!(mike != zulu)) { _fun88177_ip = 23; continue _fun88177 }
+                if(!(mike != zulu)) { _fun88194_ip = 23; continue _fun88194 }
  13:
                 mike = _closure2_slot5;
                 entity = undefined;
@@ -170,14 +170,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         output = oscar.bind(tango)(output);
         zulu = function() {
             entity = function() {
-                _fun88179: for(var _fun88179_ip = 0; ; ) switch(_fun88179_ip) {
+                _fun88196: for(var _fun88196_ip = 0; ; ) switch(_fun88196_ip) {
  0:
                     zulu = _closure2_slot8;
                     entity = null;
                     tango = entity == zulu;
                     zulu = undefined;
                     entity = undefined;
-                    if(tango) { _fun88179_ip = 28; continue _fun88179 }
+                    if(tango) { _fun88196_ip = 28; continue _fun88196 }
  20:
                     mike = _closure2_slot8;
                     entity = mike.bind(zulu)();

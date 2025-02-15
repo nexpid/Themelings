@@ -54,24 +54,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/channel/getConnectionsRoles.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getConnectionsRoles
-        _fun59582: for(var _fun59582_ip = 0; ; ) switch(_fun59582_ip) {
+        _fun59585: for(var _fun59585_ip = 0; ; ) switch(_fun59585_ip) {
  0:
             mike = argFoo;
             tango = null;
-            if(!(tango != mike)) { _fun59582_ip = 143; continue _fun59582 }
+            if(!(tango != mike)) { _fun59585_ip = 143; continue _fun59585 }
  14:
             golf = _closure1_slot3;
             oscar = golf.includes;
             report = mike.type;
             report = oscar.bind(golf)(report);
-            if(!report) { _fun59582_ip = 143; continue _fun59582 }
+            if(!report) { _fun59585_ip = 143; continue _fun59585 }
  39:
             oscar = _closure1_slot2;
             report = oscar.getGuild;
             zulu = mike.guild_id;
             zulu = report.bind(oscar)(zulu);
             var _closure2_slot0 = zulu;
-            if(!(tango != zulu)) { _fun59582_ip = 137; continue _fun59582 }
+            if(!(tango != zulu)) { _fun59585_ip = 137; continue _fun59585 }
  66:
             zulu = global;
             tango = zulu.Object;
@@ -80,13 +80,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(tango)(mike);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun59583: for(var _fun59583_ip = 0; ; ) switch(_fun59583_ip) {
+                _fun59586: for(var _fun59586_ip = 0; ; ) switch(_fun59586_ip) {
  0:
                     zulu = argFoo;
                     mike = zulu.type;
                     entity = 0;
                     entity = entity === mike;
-                    if(!entity) { _fun59583_ip = 92; continue _fun59583 }
+                    if(!entity) { _fun59586_ip = 92; continue _fun59586 }
  17:
                     report = _closure1_slot2;
                     tango = report.getRoles;
@@ -98,18 +98,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = null;
                     oscar = tango == report;
                     mike = undefined;
-                    if(oscar) { _fun59583_ip = 88; continue _fun59583 }
+                    if(oscar) { _fun59586_ip = 88; continue _fun59586 }
  67:
                     report = report.tags;
                     oscar = tango == report;
                     mike = undefined;
-                    if(oscar) { _fun59583_ip = 88; continue _fun59583 }
+                    if(oscar) { _fun59586_ip = 88; continue _fun59586 }
  82:
                     mike = report.guild_connections;
  88:
                     entity = tango === mike;
  92:
-                    if(!entity) { _fun59583_ip = 145; continue _fun59583 }
+                    if(!entity) { _fun59586_ip = 145; continue _fun59586 }
  95:
                     oscar = _closure1_slot0;
                     report = _closure1_slot1;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
-            _fun59582_ip = 141; continue _fun59582;
+            _fun59585_ip = 141; continue _fun59585;
  137:
             entity = new Array(0);
  141:

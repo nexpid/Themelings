@@ -21,13 +21,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_profile/preloadUserBannerImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: preloadUserBannerImage
-        _fun77121: for(var _fun77121_ip = 0; ; ) switch(_fun77121_ip) {
+        _fun77131: for(var _fun77131_ip = 0; ; ) switch(_fun77131_ip) {
  0:
             entity = global;
             mike = entity.Image;
             zulu = 'undefined';
             mike = typeof mike;
-            if(!(zulu !== mike)) { _fun77121_ip = 180; continue _fun77121 }
+            if(!(zulu !== mike)) { _fun77131_ip = 180; continue _fun77131 }
  22:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = argBar;
             report = report.bind(golf)(tango, zulu);
             zulu = null;
-            if(!(zulu != report)) { _fun77121_ip = 180; continue _fun77121 }
+            if(!(zulu != report)) { _fun77131_ip = 180; continue _fun77131 }
  80:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = 480;
             mike['size'] = oscar;
             mike = tango.bind(report)(mike);
-            if(!(zulu != mike)) { _fun77121_ip = 180; continue _fun77121 }
+            if(!(zulu != mike)) { _fun77131_ip = 180; continue _fun77131 }
  148:
             entity = entity.Image;
             zulu = entity.prototype;

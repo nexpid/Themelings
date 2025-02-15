@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/two_way_link/playstation/PlayStationLinkError.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PlayStationLinkError
-        _fun80676: for(var _fun80676_ip = 0; ; ) switch(_fun80676_ip) {
+        _fun80688: for(var _fun80688_ip = 0; ; ) switch(_fun80688_ip) {
  0:
             entity = argFoo;
             oscar = entity.onClose;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = report.bind(golf)(options, mike);
             mike = _closure1_slot3;
             mike = mike.UNDER_MINIMUM_AGE;
-            if(!(zulu !== mike)) { _fun80676_ip = 155; continue _fun80676 }
+            if(!(zulu !== mike)) { _fun80688_ip = 155; continue _fun80688 }
  98:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.qE9nqK;
             golf = zulu.bind(golf)(mike);
-            _fun80676_ip = 210; continue _fun80676;
+            _fun80688_ip = 210; continue _fun80688;
  155:
             verify = _closure1_slot0;
             offset = _closure1_slot1;

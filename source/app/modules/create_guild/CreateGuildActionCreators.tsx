@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz, argCorge, argGrault) {
             entity = function* (argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: ?anon_0_
-                _fun78911: for(var _fun78911_ip = 0; ; ) switch(_fun78911_ip) {
+                _fun78921: for(var _fun78921_ip = 0; ; ) switch(_fun78921_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun78911_ip = 308; continue _fun78911 }
+                    if(mike) { _fun78921_ip = 308; continue _fun78921 }
  10:
                     romeo = argFoo;
                     verify = argBar;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     report['guild_template_code'] = verify;
                     yankee = !yankee;
                     verify = !yankee;
-                    if(!yankee) { _fun78911_ip = 139; continue _fun78911 }
+                    if(!yankee) { _fun78921_ip = 139; continue _fun78921 }
  137:
                     verify = undefined;
  139:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  233:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun78911_ip = 247; continue _fun78911 }
+                    if(zulu) { _fun78921_ip = 247; continue _fun78921 }
  239:
                     zulu = mike.body;
  244: // try_end0

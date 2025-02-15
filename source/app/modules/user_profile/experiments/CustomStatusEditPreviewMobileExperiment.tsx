@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['CustomStatusEditPreviewMobileExperiment'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForCustomStatusEditPreviewMobileExperiment
-        _fun80024: for(var _fun80024_ip = 0; ; ) switch(_fun80024_ip) {
+        _fun80037: for(var _fun80037_ip = 0; ; ) switch(_fun80037_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun80024_ip = 22; continue _fun80024 }
+            if(!(report === mike)) { _fun80037_ip = 22; continue _fun80037 }
  20:
             report = true;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForCustomStatusEditPreviewMobileExperiment'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForCustomStatusEditPreviewMobileExperiment
-        _fun80025: for(var _fun80025_ip = 0; ; ) switch(_fun80025_ip) {
+        _fun80038: for(var _fun80038_ip = 0; ; ) switch(_fun80038_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun80025_ip = 22; continue _fun80025 }
+            if(!(report === mike)) { _fun80038_ip = 22; continue _fun80038 }
  20:
             report = true;
  22:

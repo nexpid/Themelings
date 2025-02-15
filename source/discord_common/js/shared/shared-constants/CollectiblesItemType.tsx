@@ -22,6 +22,10 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike['PROFILE_EFFECT'] = report;
     entity = 'PROFILE_EFFECT';
     mike[report] = entity;
+    report = 2;
+    mike['NAMEPLATE'] = report;
+    entity = 'NAMEPLATE';
+    mike[report] = entity;
     report = 1000;
     mike['BUNDLE'] = report;
     entity = 'BUNDLE';

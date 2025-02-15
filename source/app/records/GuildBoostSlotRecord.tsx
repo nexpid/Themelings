@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun66360: for(var _fun66360_ip = 0; ; ) switch(_fun66360_ip) {
+        _fun66366: for(var _fun66366_ip = 0; ; ) switch(_fun66366_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot3;
@@ -14,11 +14,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot6;
             entity = entity.bind(zulu)();
-            if(entity) { _fun66360_ip = 48; continue _fun66360 }
+            if(entity) { _fun66366_ip = 48; continue _fun66366 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun66360_ip = 86; continue _fun66360;
+            _fun66366_ip = 86; continue _fun66366;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun66361: for(var _fun66361_ip = 0; ; ) switch(_fun66361_ip) {
+        _fun66367: for(var _fun66367_ip = 0; ; ) switch(_fun66367_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun66361_ip = 76; continue _fun66361;
+            _fun66367_ip = 76; continue _fun66367;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -139,13 +139,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'isOnCooldown';
         oscar['key'] = mike;
         mike = function() { // Original name: value
-            _fun66366: for(var _fun66366_ip = 0; ; ) switch(_fun66366_ip) {
+            _fun66372: for(var _fun66372_ip = 0; ; ) switch(_fun66372_ip) {
  0:
                 zulu = this;
                 mike = zulu.cooldownEndsAt;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun66366_ip = 81; continue _fun66366 }
+                if(!entity) { _fun66372_ip = 81; continue _fun66372 }
  18:
                 mike = global;
                 report = mike.Date;
@@ -172,13 +172,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isAvailable';
         oscar['key'] = golf;
         golf = function() { // Original name: value
-            _fun66367: for(var _fun66367_ip = 0; ; ) switch(_fun66367_ip) {
+            _fun66373: for(var _fun66373_ip = 0; ; ) switch(_fun66373_ip) {
  0:
                 zulu = this;
                 mike = zulu.premiumGuildSubscription;
                 entity = null;
                 entity = entity == mike;
-                if(!entity) { _fun66367_ip = 31; continue _fun66367 }
+                if(!entity) { _fun66373_ip = 31; continue _fun66373 }
  18:
                 mike = zulu.isOnCooldown;
                 mike = mike.bind(zulu)();
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'createFromServer';
         oscar['key'] = golf;
         entity = function(argFoo, argBar) { // Original name: value
-            _fun66368: for(var _fun66368_ip = 0; ; ) switch(_fun66368_ip) {
+            _fun66374: for(var _fun66374_ip = 0; ; ) switch(_fun66374_ip) {
  0:
                 mike = argFoo;
                 zulu = _closure2_slot0;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.premium_guild_subscription;
                 tango = null;
                 report = tango != report;
-                if(!report) { _fun66368_ip = 82; continue _fun66368 }
+                if(!report) { _fun66374_ip = 82; continue _fun66374 }
  47:
                 report = {};
                 oscar = mike.premium_guild_subscription;

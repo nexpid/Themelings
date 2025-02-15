@@ -90,11 +90,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['PaymentFlowStartedTriggerPoint'] = tango;
     mike = function(argFoo) { // Original name: trackPaymentFlowStartedAnalyticsAndCTP
-        _fun66261: for(var _fun66261_ip = 0; ; ) switch(_fun66261_ip) {
+        _fun66267: for(var _fun66267_ip = 0; ; ) switch(_fun66267_ip) {
  0:
             golf = arguments[1];
             entity = undefined;
-            if(!(golf === entity)) { _fun66261_ip = 11; continue _fun66261 }
+            if(!(golf === entity)) { _fun66267_ip = 11; continue _fun66267 }
  9:
             golf = {};
  11:

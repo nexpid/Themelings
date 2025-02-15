@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot7 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: init
-        _fun93791: for(var _fun93791_ip = 0; ; ) switch(_fun93791_ip) {
+        _fun93816: for(var _fun93816_ip = 0; ; ) switch(_fun93816_ip) {
  0:
             entity = argFoo;
             zulu = entity.hasModalOpen;
@@ -57,11 +57,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.ProcessArgs;
             tango = report.isDisallowPopupsSet;
             tango = tango.bind(report)();
-            if(tango) { _fun93791_ip = 85; continue _fun93791 }
+            if(tango) { _fun93816_ip = 85; continue _fun93816 }
  69:
             zulu = _closure1_slot3;
             mike = function() {
-                _fun93792: for(var _fun93792_ip = 0; ; ) switch(_fun93792_ip) {
+                _fun93817: for(var _fun93817_ip = 0; ; ) switch(_fun93817_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -70,14 +70,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = undefined;
                     mike = zulu.bind(entity)(mike);
                     mike = mike.bind(entity)();
-                    if(mike) { _fun93792_ip = 420; continue _fun93792 }
+                    if(mike) { _fun93817_ip = 420; continue _fun93817 }
  35:
                     zulu = _closure1_slot5;
                     mike = zulu.getCurrentUser;
                     zulu = mike.bind(zulu)();
                     report = null;
                     mike = report != zulu;
-                    if(!mike) { _fun93792_ip = 143; continue _fun93792 }
+                    if(!mike) { _fun93817_ip = 143; continue _fun93817 }
  57:
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -130,21 +130,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.HUB_BACK_TO_SCHOOL_UPSELL;
                     report = options.bind(verify)(report);
                     report = !report;
-                    if(mike) { _fun93792_ip = 270; continue _fun93792 }
+                    if(mike) { _fun93817_ip = 270; continue _fun93817 }
  259:
                     options = _closure2_slot0;
                     mike = options.bind(entity)();
  270:
-                    if(mike) { _fun93792_ip = 276; continue _fun93792 }
+                    if(mike) { _fun93817_ip = 276; continue _fun93817 }
  273:
                     mike = golf;
  276:
-                    if(mike) { _fun93792_ip = 282; continue _fun93792 }
+                    if(mike) { _fun93817_ip = 282; continue _fun93817 }
  279:
                     mike = !report;
  282:
                     mike = !mike;
-                    if(!mike) { _fun93792_ip = 318; continue _fun93792 }
+                    if(!mike) { _fun93817_ip = 318; continue _fun93817 }
  288:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = golf.backToSchoolEnabled;
                     mike = report.bind(golf)();
  318:
-                    if(!mike) { _fun93792_ip = 420; continue _fun93792 }
+                    if(!mike) { _fun93817_ip = 420; continue _fun93817 }
  321:
                     golf = _closure1_slot1;
                     mike = _closure1_slot2;

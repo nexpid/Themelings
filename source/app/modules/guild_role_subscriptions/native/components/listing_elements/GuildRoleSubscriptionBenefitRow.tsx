@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getEmojiId
-        _fun96952: for(var _fun96952_ip = 0; ; ) switch(_fun96952_ip) {
+        _fun96962: for(var _fun96962_ip = 0; ; ) switch(_fun96962_ip) {
  0:
             mike = argFoo;
             entity = mike.emoji_id;
             zulu = null;
-            if(!(zulu == entity)) { _fun96952_ip = 79; continue _fun96952 }
+            if(!(zulu == entity)) { _fun96962_ip = 79; continue _fun96962 }
  15:
             entity = mike.emoji_name;
             zulu = zulu == entity;
             entity = '';
-            if(zulu) { _fun96952_ip = 77; continue _fun96952 }
+            if(zulu) { _fun96962_ip = 77; continue _fun96962 }
  32:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = false;
             entity = report.bind(oscar)(tango, zulu);
  77:
-            _fun96952_ip = 85; continue _fun96952;
+            _fun96962_ip = 85; continue _fun96962;
  79:
             entity = mike.emoji_id;
  85:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: BenefitRow
-        _fun96953: for(var _fun96953_ip = 0; ; ) switch(_fun96953_ip) {
+        _fun96963: for(var _fun96963_ip = 0; ; ) switch(_fun96963_ip) {
  0:
             entity = argFoo;
             romeo = entity.emojiId;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = null;
             romeo = offset != backup;
-            if(!romeo) { _fun96953_ip = 255; continue _fun96953 }
+            if(!romeo) { _fun96963_ip = 255; continue _fun96963 }
  191:
             foxtrot = _closure1_slot5;
             romeo = _closure1_slot0;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionBenefitRow.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ChannelBenefitRow
-        _fun96954: for(var _fun96954_ip = 0; ; ) switch(_fun96954_ip) {
+        _fun96964: for(var _fun96964_ip = 0; ; ) switch(_fun96964_ip) {
  0:
             mike = argFoo;
             report = mike.benefit;
@@ -225,8 +225,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['children'] = oscar;
             oscar = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != foxtrot)) { _fun96954_ip = 409; continue _fun96954 }
- 222:
+            if(!(entity != foxtrot)) { _fun96964_ip = 413; continue _fun96964 }
+ 226:
             zulu = _closure1_slot6;
             mike = _closure1_slot3;
             entity = {};
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = offset;
             entity['children'] = verify;
             oscar = zulu.bind(tango)(mike, entity);
- 409:
+ 413:
             zulu = _closure1_slot5;
             mike = _closure1_slot9;
             entity = {};

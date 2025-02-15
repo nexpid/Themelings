@@ -50,10 +50,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         mike[1] = report;
         entity = function() {
-            _fun95365: for(var _fun95365_ip = 0; ; ) switch(_fun95365_ip) {
+            _fun95375: for(var _fun95375_ip = 0; ; ) switch(_fun95375_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun95365_ip = 28; continue _fun95365 }
+                if(entity) { _fun95375_ip = 28; continue _fun95375 }
  13:
                 zulu = _closure1_slot3;
                 entity = zulu.getCurrentUser;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = entity.bind(zulu)();
                 zulu = null;
                 entity = undefined;
-                if(!(zulu !== tango)) { _fun95365_ip = 65; continue _fun95365 }
+                if(!(zulu !== tango)) { _fun95375_ip = 65; continue _fun95375 }
  50:
                 zulu = _closure1_slot3;
                 mike = zulu.getUser;
@@ -92,14 +92,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun95367: for(var _fun95367_ip = 0; ; ) switch(_fun95367_ip) {
+            _fun95377: for(var _fun95377_ip = 0; ; ) switch(_fun95377_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.getUser;
                 entity = _closure2_slot0;
                 entity = mike.bind(zulu)(entity);
                 mike = null;
-                if(!(mike == entity)) { _fun95367_ip = 35; continue _fun95367 }
+                if(!(mike == entity)) { _fun95377_ip = 35; continue _fun95377 }
  31:
                 mike = undefined;
                 return mike;

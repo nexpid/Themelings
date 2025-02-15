@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = mike;
     tango = {};
     options = function(argFoo, argBar, argBaz, argCorge) { // Original name: openLazy
-        _fun44740: for(var _fun44740_ip = 0; ; ) switch(_fun44740_ip) {
+        _fun44748: for(var _fun44748_ip = 0; ; ) switch(_fun44748_ip) {
  0:
             report = argFoo;
             mike = argBar;
@@ -106,11 +106,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = global;
             mike = mike.Promise;
             mike = report instanceof mike;
-            if(mike) { _fun44740_ip = 49; continue _fun44740 }
+            if(mike) { _fun44748_ip = 49; continue _fun44748 }
  41:
             mike = undefined;
             zulu = report.bind(mike)();
-            _fun44740_ip = 64; continue _fun44740;
+            _fun44748_ip = 64; continue _fun44748;
  49:
             tango = report.then;
             mike = function(argFoo) {
@@ -122,14 +122,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  64:
             mike = zulu.then;
             entity = function(argFoo) {
-                _fun44742: for(var _fun44742_ip = 0; ; ) switch(_fun44742_ip) {
+                _fun44750: for(var _fun44750_ip = 0; ; ) switch(_fun44750_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(!(entity == mike)) { _fun44742_ip = 17; continue _fun44742 }
+                    if(!(entity == mike)) { _fun44750_ip = 17; continue _fun44750 }
  13:
                     verify = {};
-                    _fun44742_ip = 21; continue _fun44742;
+                    _fun44750_ip = 21; continue _fun44750;
  17:
                     verify = _closure2_slot1;
  21:

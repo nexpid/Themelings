@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/tryInjectMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: tryCreateInjectedMessage
-        _fun90015: for(var _fun90015_ip = 0; ; ) switch(_fun90015_ip) {
+        _fun90032: for(var _fun90032_ip = 0; ; ) switch(_fun90032_ip) {
  0:
             report = argFoo;
             entity = argBar;
@@ -96,18 +96,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.id;
             tango = tango.bind(oscar)(mike);
             mike = report.id;
-            if(!(tango !== mike)) { _fun90015_ip = 471; continue _fun90015 }
+            if(!(tango !== mike)) { _fun90032_ip = 471; continue _fun90032 }
  40:
             mike = report.applicationId;
             offset = null;
             tango = offset == mike;
             mike = null;
-            if(tango) { _fun90015_ip = 488; continue _fun90015 }
+            if(tango) { _fun90032_ip = 488; continue _fun90032 }
  59:
             tango = entity.isDM;
             tango = tango.bind(entity)();
             mike = null;
-            if(!tango) { _fun90015_ip = 488; continue _fun90015 }
+            if(!tango) { _fun90032_ip = 488; continue _fun90032 }
  77:
             tango = report.author;
             oscar = tango.id;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.getId;
             tango = tango.bind(golf)();
             mike = null;
-            if(!(oscar !== tango)) { _fun90015_ip = 488; continue _fun90015 }
+            if(!(oscar !== tango)) { _fun90032_ip = 488; continue _fun90032 }
  111:
             oscar = _closure1_slot0;
             tango = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.recipientFlags;
             oscar = offset != tango;
             golf = 0;
-            if(!oscar) { _fun90015_ip = 157; continue _fun90015 }
+            if(!oscar) { _fun90032_ip = 157; continue _fun90032 }
  154:
             golf = tango;
  157:
@@ -140,14 +140,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.DISMISSED_IN_GAME_MESSAGE_NUX;
             tango = verify.bind(foxtrot)(golf, tango);
             mike = null;
-            if(tango) { _fun90015_ip = 488; continue _fun90015 }
+            if(tango) { _fun90032_ip = 488; continue _fun90032 }
  203:
             verify = _closure1_slot9;
             golf = verify.has;
             tango = entity.id;
             tango = golf.bind(verify)(tango);
             mike = null;
-            if(tango) { _fun90015_ip = 488; continue _fun90015 }
+            if(tango) { _fun90032_ip = 488; continue _fun90032 }
  230:
             verify = _closure1_slot3;
             golf = verify.getApplication;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.bind(verify)(tango);
             golf = offset == tango;
             mike = null;
-            if(golf) { _fun90015_ip = 488; continue _fun90015 }
+            if(golf) { _fun90032_ip = 488; continue _fun90032 }
  262:
             verify = _closure1_slot0;
             golf = _closure1_slot2;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.SOCIAL_LAYER_INTEGRATION;
             tango = verify.bind(foxtrot)(golf, tango);
             mike = null;
-            if(!tango) { _fun90015_ip = 488; continue _fun90015 }
+            if(!tango) { _fun90032_ip = 488; continue _fun90032 }
  314:
             golf = _closure1_slot10;
             tango = entity.id;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = entity.recipientFlags;
             offset = offset != golf;
             romeo = 0;
-            if(!offset) { _fun90015_ip = 395; continue _fun90015 }
+            if(!offset) { _fun90032_ip = 395; continue _fun90032 }
  392:
             romeo = golf;
  395:
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity.id;
             oscar = golf.bind(options)(oscar, verify);
             mike = tango;
-            _fun90015_ip = 488; continue _fun90015;
+            _fun90032_ip = 488; continue _fun90032;
  471:
             tango = _closure1_slot10;
             zulu = entity.id;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  488:
             entity = null;
             zulu = entity != mike;
-            if(!zulu) { _fun90015_ip = 500; continue _fun90015 }
+            if(!zulu) { _fun90032_ip = 500; continue _fun90032 }
  497:
             entity = mike;
  500:

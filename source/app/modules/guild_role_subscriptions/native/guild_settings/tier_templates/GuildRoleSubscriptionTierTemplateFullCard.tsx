@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: BenefitRow
-        _fun127408: for(var _fun127408_ip = 0; ; ) switch(_fun127408_ip) {
+        _fun127404: for(var _fun127404_ip = 0; ; ) switch(_fun127404_ip) {
  0:
             entity = argFoo;
             offset = entity.title;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = null;
             romeo = offset != backup;
-            if(!romeo) { _fun127408_ip = 204; continue _fun127408 }
+            if(!romeo) { _fun127404_ip = 204; continue _fun127404 }
  139:
             foxtrot = _closure1_slot4;
             romeo = _closure1_slot0;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/StampIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun81896: for(var _fun81896_ip = 0; ; ) switch(_fun81896_ip) {
+        _fun81908: for(var _fun81908_ip = 0; ; ) switch(_fun81908_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun81896_ip = 53; continue _fun81896 }
+            if(!(golf === tango)) { _fun81908_ip = 53; continue _fun81908 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/ForumTagFilterActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostTagsActionSheet
-        _fun102109: for(var _fun102109_ip = 0; ; ) switch(_fun102109_ip) {
+        _fun102101: for(var _fun102101_ip = 0; ; ) switch(_fun102101_ip) {
  0:
             entity = argFoo;
             offset = entity.channel;
@@ -125,11 +125,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike[entity];
             var _closure2_slot3 = entity;
             entity = function(argFoo) { // Original name: toggleTag
-                _fun102110: for(var _fun102110_ip = 0; ; ) switch(_fun102110_ip) {
+                _fun102102: for(var _fun102102_ip = 0; ; ) switch(_fun102102_ip) {
  0:
                     golf = argFoo;
                     entity = null;
-                    if(!(entity != golf)) { _fun102110_ip = 270; continue _fun102110 }
+                    if(!(entity != golf)) { _fun102102_ip = 270; continue _fun102102 }
  12:
                     verify = global;
                     tango = verify.Set;
@@ -142,12 +142,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = zulu.has;
                     mike = golf.id;
                     mike = tango.bind(zulu)(mike);
-                    if(mike) { _fun102110_ip = 82; continue _fun102110 }
+                    if(mike) { _fun102102_ip = 82; continue _fun102102 }
  65:
                     tango = zulu.add;
                     mike = golf.id;
                     mike = tango.bind(zulu)(mike);
-                    _fun102110_ip = 97; continue _fun102110;
+                    _fun102102_ip = 97; continue _fun102102;
  82:
                     tango = zulu.delete;
                     mike = golf.id;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = romeo;
             romeo = control.size;
             romeo = romeo > backup;
-            if(!romeo) { _fun102109_ip = 410; continue _fun102109 }
+            if(!romeo) { _fun102101_ip = 410; continue _fun102101 }
  333:
             output = _closure1_slot11;
             kilo = _closure1_slot5;

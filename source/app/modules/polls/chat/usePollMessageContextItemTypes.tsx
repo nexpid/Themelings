@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/polls/chat/usePollMessageContextItemTypes.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: usePollMessageContextItemTypes
-        _fun90841: for(var _fun90841_ip = 0; ; ) switch(_fun90841_ip) {
+        _fun90870: for(var _fun90870_ip = 0; ; ) switch(_fun90870_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -56,10 +56,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.poll;
             mike = tango.isPoll;
             mike = mike.bind(tango)();
-            if(!mike) { _fun90841_ip = 169; continue _fun90841 }
+            if(!mike) { _fun90870_ip = 169; continue _fun90870 }
  79:
             mike = null;
-            if(!(mike != zulu)) { _fun90841_ip = 169; continue _fun90841 }
+            if(!(mike != zulu)) { _fun90870_ip = 169; continue _fun90870 }
  85:
             mike = new Array(0);
             golf = zulu.expiry;
@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(options)();
             zulu = oscar.bind(golf)(zulu);
             zulu = !zulu;
-            if(!zulu) { _fun90841_ip = 144; continue _fun90841 }
+            if(!zulu) { _fun90870_ip = 144; continue _fun90870 }
  129:
             tango = tango.author;
             tango = tango.id;
             zulu = tango === report;
  144:
-            if(!zulu) { _fun90841_ip = 167; continue _fun90841 }
+            if(!zulu) { _fun90870_ip = 167; continue _fun90870 }
  147:
             tango = mike.push;
             zulu = _closure1_slot3;

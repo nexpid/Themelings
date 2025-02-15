@@ -8,19 +8,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: _isChannelEligibleForAppDMs
-        _fun79446: for(var _fun79446_ip = 0; ; ) switch(_fun79446_ip) {
+        _fun79456: for(var _fun79456_ip = 0; ; ) switch(_fun79456_ip) {
  0:
             report = argFoo;
             entity = null;
             mike = entity == report;
             zulu = undefined;
-            if(mike) { _fun79446_ip = 24; continue _fun79446 }
+            if(mike) { _fun79456_ip = 24; continue _fun79456 }
  14:
             mike = report.isDM;
             zulu = mike.bind(report)();
  24:
             mike = true;
-            if(!(mike === zulu)) { _fun79446_ip = 73; continue _fun79446 }
+            if(!(mike === zulu)) { _fun79456_ip = 73; continue _fun79456 }
  30:
             tango = _closure1_slot4;
             zulu = tango.getUser;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)();
             mike = zulu.bind(tango)(mike);
             entity = entity != mike;
-            if(!entity) { _fun79446_ip = 71; continue _fun79446 }
+            if(!entity) { _fun79456_ip = 71; continue _fun79456 }
  65:
             entity = mike.bot;
  71:

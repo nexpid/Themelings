@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: GuildInviteReminderSystemMessageInner
-        _fun72434: for(var _fun72434_ip = 0; ; ) switch(_fun72434_ip) {
+        _fun72440: for(var _fun72440_ip = 0; ; ) switch(_fun72440_ip) {
  0:
             entity = argFoo;
             oscar = entity.row;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             zulu = zulu == report;
             verify = undefined;
-            if(zulu) { _fun72434_ip = 173; continue _fun72434 }
+            if(zulu) { _fun72440_ip = 173; continue _fun72440 }
  162:
             zulu = report.isOwner;
             verify = zulu.bind(report)(golf);
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.channel_id;
             zulu[1] = options;
             mike = function() {
-                _fun72437: for(var _fun72437_ip = 0; ; ) switch(_fun72437_ip) {
+                _fun72443: for(var _fun72443_ip = 0; ; ) switch(_fun72443_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot2;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report[options];
                     report = offset.bind(golf)(report);
                     report = report.t;
-                    if(tango) { _fun72437_ip = 74; continue _fun72437 }
+                    if(tango) { _fun72443_ip = 74; continue _fun72443 }
  61:
                     tango = report.ppUFLy;
                     tango = oscar.bind(verify)(tango);
-                    _fun72437_ip = 85; continue _fun72437;
+                    _fun72443_ip = 85; continue _fun72443;
  74:
                     report = report.Ry1T//;
                     tango = oscar.bind(verify)(report);
@@ -104,11 +104,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report[options];
                     report = offset.bind(golf)(report);
                     report = report.t;
-                    if(tango) { _fun72437_ip = 150; continue _fun72437 }
+                    if(tango) { _fun72443_ip = 150; continue _fun72443 }
  137:
                     tango = report.gRHGFB;
                     tango = oscar.bind(verify)(tango);
-                    _fun72437_ip = 161; continue _fun72437;
+                    _fun72443_ip = 161; continue _fun72443;
  150:
                     report = report.kLfkNj;
                     tango = oscar.bind(verify)(report);
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/GuildInviteReminderSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildInviteReminderSystemMessage
-        _fun72438: for(var _fun72438_ip = 0; ; ) switch(_fun72438_ip) {
+        _fun72444: for(var _fun72444_ip = 0; ; ) switch(_fun72444_ip) {
  0:
             mike = argFoo;
             golf = mike.row;
@@ -253,10 +253,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             options = tango != oscar;
             entity = null;
-            if(!options) { _fun72438_ip = 187; continue _fun72438 }
+            if(!options) { _fun72444_ip = 187; continue _fun72444 }
  157:
             entity = null;
-            if(!zulu) { _fun72438_ip = 187; continue _fun72438 }
+            if(!zulu) { _fun72444_ip = 187; continue _fun72444 }
  162:
             tango = _closure1_slot10;
             zulu = _closure1_slot11;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createGuildInviteReminderSystemMessage
-        _fun72441: for(var _fun72441_ip = 0; ; ) switch(_fun72441_ip) {
+        _fun72447: for(var _fun72447_ip = 0; ; ) switch(_fun72447_ip) {
  0:
             offset = argFoo;
             tango = offset.message;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             zulu = entity != options;
             mike = null;
-            if(!zulu) { _fun72441_ip = 106; continue _fun72441 }
+            if(!zulu) { _fun72447_ip = 106; continue _fun72447 }
  59:
             golf = _closure1_slot6;
             oscar = golf.getGuild;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.bind(golf)(zulu);
             oscar = entity == golf;
             zulu = undefined;
-            if(oscar) { _fun72441_ip = 103; continue _fun72441 }
+            if(oscar) { _fun72447_ip = 103; continue _fun72447 }
  92:
             oscar = golf.isOwner;
             zulu = oscar.bind(golf)(verify);
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu;
  106:
             oscar = entity != mike;
-            if(!oscar) { _fun72441_ip = 116; continue _fun72441 }
+            if(!oscar) { _fun72447_ip = 116; continue _fun72447 }
  113:
             oscar = mike;
  116:
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot9;
             mike = mike.CREATE_INSTANT_INVITE;
             mike = zulu.bind(golf)(mike, options);
-            if(mike) { _fun72441_ip = 147; continue _fun72441 }
+            if(mike) { _fun72447_ip = 147; continue _fun72447 }
  145:
             return entity;
  147:
@@ -326,11 +326,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(options)(entity);
             entity = entity.t;
-            if(oscar) { _fun72441_ip = 209; continue _fun72441 }
+            if(oscar) { _fun72447_ip = 209; continue _fun72447 }
  196:
             golf = entity.ppUFLy;
             golf = mike.bind(zulu)(golf);
-            _fun72441_ip = 220; continue _fun72441;
+            _fun72447_ip = 220; continue _fun72447;
  209:
             entity = entity.Ry1T//;
             golf = mike.bind(zulu)(entity);
@@ -344,11 +344,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = yankee.bind(options)(entity);
             entity = entity.t;
-            if(oscar) { _fun72441_ip = 277; continue _fun72441 }
+            if(oscar) { _fun72447_ip = 277; continue _fun72447 }
  264:
             oscar = entity.gRHGFB;
             oscar = mike.bind(zulu)(oscar);
-            _fun72441_ip = 288; continue _fun72441;
+            _fun72447_ip = 288; continue _fun72447;
  277:
             entity = entity.kLfkNj;
             oscar = mike.bind(zulu)(entity);

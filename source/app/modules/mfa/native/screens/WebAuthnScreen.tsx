@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/mfa/native/screens/WebAuthnScreen.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: WebAuthnScreen
-        _fun98613: for(var _fun98613_ip = 0; ; ) switch(_fun98613_ip) {
+        _fun98623: for(var _fun98623_ip = 0; ; ) switch(_fun98623_ip) {
  0:
             mike = argFoo;
             options = mike.mfaChallenge;
@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = kilo.isAndroid;
             mike = mike.bind(kilo)();
             kilo = _closure1_slot7;
-            if(mike) { _fun98613_ip = 161; continue _fun98613 }
+            if(mike) { _fun98623_ip = 161; continue _fun98623 }
  153:
             mike = kilo.AUTHENTICATE;
-            _fun98613_ip = 167; continue _fun98613;
+            _fun98623_ip = 167; continue _fun98623;
  161:
             mike = kilo.ANDROID_PASSKEY;
  167:
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = tango.bind(report)(zulu);
                 tango = report.catch;
                 zulu = function(argFoo) {
-                    _fun98618: for(var _fun98618_ip = 0; ; ) switch(_fun98618_ip) {
+                    _fun98628: for(var _fun98628_ip = 0; ; ) switch(_fun98628_ip) {
  0:
                         tango = argFoo;
                         report = _closure1_slot0;
@@ -264,11 +264,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = zulu.HTTPResponseError;
                         report = tango instanceof zulu;
                         zulu = _closure2_slot2;
-                        if(report) { _fun98618_ip = 60; continue _fun98618 }
+                        if(report) { _fun98628_ip = 60; continue _fun98628 }
  48:
                         tango = tango.message;
                         tango = zulu.bind(entity)(tango);
-                        _fun98618_ip = 120; continue _fun98618;
+                        _fun98628_ip = 120; continue _fun98628;
  60:
                         oscar = _closure1_slot0;
                         golf = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(oscar);
             oscar = verify.isAndroid;
             oscar = oscar.bind(verify)();
-            if(!oscar) { _fun98613_ip = 513; continue _fun98613 }
+            if(!oscar) { _fun98623_ip = 513; continue _fun98623 }
  482:
             foxtrot = _closure1_slot5;
             offset = _closure1_slot9;

@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/EducationIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79629: for(var _fun79629_ip = 0; ; ) switch(_fun79629_ip) {
+        _fun79639: for(var _fun79639_ip = 0; ; ) switch(_fun79639_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79629_ip = 53; continue _fun79629 }
+            if(!(golf === tango)) { _fun79639_ip = 53; continue _fun79639 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

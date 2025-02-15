@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     golf = golf.APPEARANCE;
     mike['parent'] = golf;
     tango = function() { // Original name: useFontScaleSliderProps
-        _fun97330: for(var _fun97330_ip = 0; ; ) switch(_fun97330_ip) {
+        _fun97340: for(var _fun97340_ip = 0; ; ) switch(_fun97340_ip) {
  0:
             zulu = _closure1_slot3;
             tango = undefined;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = null;
             zulu = zulu != oscar;
             golf = undefined;
-            if(!zulu) { _fun97330_ip = 56; continue _fun97330 }
+            if(!zulu) { _fun97340_ip = 56; continue _fun97340 }
  36:
             oscar = _closure1_slot4;
             tango = oscar.indexOf;

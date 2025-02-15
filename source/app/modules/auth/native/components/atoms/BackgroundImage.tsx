@@ -42,14 +42,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/auth/native/components/atoms/BackgroundImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BackgroundImage
-        _fun78158: for(var _fun78158_ip = 0; ; ) switch(_fun78158_ip) {
+        _fun78168: for(var _fun78168_ip = 0; ; ) switch(_fun78168_ip) {
  0:
             mike = argFoo;
             verify = mike.backgroundImageSource;
             var _closure2_slot0 = verify;
             options = mike.backgroundImageCover;
             tango = undefined;
-            if(!(options === tango)) { _fun78158_ip = 29; continue _fun78158 }
+            if(!(options === tango)) { _fun78168_ip = 29; continue _fun78168 }
  27:
             options = false;
  29:
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = options;
             mike[2] = golf;
             entity = function() {
-                _fun78159: for(var _fun78159_ip = 0; ; ) switch(_fun78159_ip) {
+                _fun78169: for(var _fun78169_ip = 0; ; ) switch(_fun78169_ip) {
  0:
                     entity = {};
                     mike = _closure1_slot6;
@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(2);
                     mike[0] = zulu;
                     report = _closure2_slot1;
-                    if(report) { _fun78159_ip = 47; continue _fun78159 }
+                    if(report) { _fun78169_ip = 47; continue _fun78169 }
  33:
                     report = {};
                     oscar = '100%';
                     report['width'] = oscar;
-                    _fun78159_ip = 57; continue _fun78159;
+                    _fun78169_ip = 57; continue _fun78169;
  47:
                     report = {'width': '100%', 'height': '100%'};
  57:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['style'] = mike;
                     report = _closure2_slot0;
                     mike = null;
-                    if(!(mike == report)) { _fun78159_ip = 151; continue _fun78159 }
+                    if(!(mike == report)) { _fun78169_ip = 151; continue _fun78169 }
  75:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -103,18 +103,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = report.bind(golf)(mike);
                     report = _closure1_slot1;
                     golf = _closure1_slot2;
-                    if(mike) { _fun78159_ip = 137; continue _fun78159 }
+                    if(mike) { _fun78169_ip = 137; continue _fun78169 }
  123:
                     mike = 6;
                     mike = golf[mike];
                     mike = report.bind(oscar)(mike);
-                    _fun78159_ip = 149; continue _fun78159;
+                    _fun78169_ip = 149; continue _fun78169;
  137:
                     tango = 5;
                     tango = golf[tango];
                     mike = report.bind(oscar)(tango);
  149:
-                    _fun78159_ip = 155; continue _fun78159;
+                    _fun78169_ip = 155; continue _fun78169;
  151:
                     mike = _closure2_slot0;
  155:

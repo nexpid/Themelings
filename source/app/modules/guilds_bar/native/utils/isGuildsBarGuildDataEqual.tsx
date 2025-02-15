@@ -19,14 +19,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/guilds_bar/native/utils/isGuildsBarGuildDataEqual.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: isGuildsBarGuildDataEqual
-        _fun114499: for(var _fun114499_ip = 0; ; ) switch(_fun114499_ip) {
+        _fun114505: for(var _fun114505_ip = 0; ; ) switch(_fun114505_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             tango = zulu.icon;
             entity = mike.icon;
             entity = tango === entity;
-            if(!entity) { _fun114499_ip = 39; continue _fun114499 }
+            if(!entity) { _fun114505_ip = 39; continue _fun114505 }
  23:
             zulu = zulu.guildName;
             mike = mike.guildName;

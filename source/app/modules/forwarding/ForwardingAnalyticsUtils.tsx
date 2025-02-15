@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['trackForwardCancel'] = tango;
     tango = function(argFoo) { // Original name: trackForwardSent
-        _fun85903: for(var _fun85903_ip = 0; ; ) switch(_fun85903_ip) {
+        _fun85920: for(var _fun85920_ip = 0; ; ) switch(_fun85920_ip) {
  0:
             entity = argFoo;
             report = entity.channelId;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['any_destination_has_slowmode'] = yankee;
             zulu = options.bind(offset)(golf, zulu);
             zulu = 'message-shortcut';
-            if(!(zulu === tango)) { _fun85903_ip = 316; continue _fun85903 }
+            if(!(zulu === tango)) { _fun85920_ip = 316; continue _fun85920 }
  164:
             tango = _closure1_slot4;
             zulu = tango.getChannel;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             romeo = golf == options;
             golf = undefined;
-            if(romeo) { _fun85903_ip = 263; continue _fun85903 }
+            if(romeo) { _fun85920_ip = 263; continue _fun85920 }
  258:
             golf = options.guild_id;
  263:

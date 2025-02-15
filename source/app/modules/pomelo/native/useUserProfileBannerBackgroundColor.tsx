@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/pomelo/native/useUserProfileBannerBackgroundColor.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useUserProfileBannerBackgroundColor
-        _fun94364: for(var _fun94364_ip = 0; ; ) switch(_fun94364_ip) {
+        _fun94389: for(var _fun94389_ip = 0; ; ) switch(_fun94389_ip) {
  0:
             options = argFoo;
             tango = argBar;
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = zulu.bind(report)(entity);
             zulu = null;
             report = zulu == tango;
-            if(report) { _fun94364_ip = 100; continue _fun94364 }
+            if(report) { _fun94389_ip = 100; continue _fun94389 }
  94:
             mike = tango.primaryColor;
  100:
-            if(!(zulu != mike)) { _fun94364_ip = 107; continue _fun94364 }
+            if(!(zulu != mike)) { _fun94389_ip = 107; continue _fun94389 }
  104:
             entity = mike;
  107:

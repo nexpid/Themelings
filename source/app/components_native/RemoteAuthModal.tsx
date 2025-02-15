@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = kilo;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: RemoteAuthBody
-        _fun95285: for(var _fun95285_ip = 0; ; ) switch(_fun95285_ip) {
+        _fun95295: for(var _fun95295_ip = 0; ; ) switch(_fun95295_ip) {
  0:
             entity = argFoo;
             yankee = entity.remoteAuthFingerprint;
@@ -106,15 +106,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(offset)(zulu, oscar);
             zulu = _closure1_slot14;
             zulu = zulu.LOADING;
-            if(!(zulu !== report)) { _fun95285_ip = 294; continue _fun95285 }
+            if(!(zulu !== report)) { _fun95295_ip = 294; continue _fun95295 }
  170:
             zulu = _closure1_slot14;
             zulu = zulu.LOADED;
-            if(!(zulu !== report)) { _fun95285_ip = 244; continue _fun95285 }
+            if(!(zulu !== report)) { _fun95295_ip = 244; continue _fun95295 }
  184:
             zulu = _closure1_slot14;
             zulu = zulu.SUCCEEDED;
-            if(!(zulu !== report)) { _fun95285_ip = 226; continue _fun95285 }
+            if(!(zulu !== report)) { _fun95295_ip = 226; continue _fun95295 }
  198:
             zulu = _closure1_slot14;
             zulu = zulu.NOT_FOUND;
@@ -130,13 +130,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.bind(tango)(report, zulu);
             return zulu;
  244:
-            if(!(mike == options)) { _fun95285_ip = 266; continue _fun95285 }
+            if(!(mike == options)) { _fun95295_ip = 266; continue _fun95295 }
  248:
             report = _closure1_slot10;
             zulu = _closure1_slot19;
             mike = {};
             mike = report.bind(tango)(zulu, mike);
-            _fun95285_ip = 292; continue _fun95285;
+            _fun95295_ip = 292; continue _fun95295;
  266:
             oscar = _closure1_slot10;
             report = _closure1_slot16;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: ExperimentConnectedRemoteAuthLogin
-        _fun95290: for(var _fun95290_ip = 0; ; ) switch(_fun95290_ip) {
+        _fun95300: for(var _fun95300_ip = 0; ; ) switch(_fun95300_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -174,10 +174,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.bind(oscar)(zulu, mike);
             mike = mike.showDelayedLogin;
             zulu = _closure1_slot10;
-            if(mike) { _fun95290_ip = 77; continue _fun95290 }
+            if(mike) { _fun95300_ip = 77; continue _fun95300 }
  71:
             mike = _closure1_slot17;
-            _fun95290_ip = 97; continue _fun95290;
+            _fun95300_ip = 97; continue _fun95300;
  77:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: RemoteAuthLogin
-        _fun95291: for(var _fun95291_ip = 0; ; ) switch(_fun95291_ip) {
+        _fun95301: for(var _fun95301_ip = 0; ; ) switch(_fun95301_ip) {
  0:
             entity = argFoo;
             mike = entity.handshakeToken;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['text'] = output;
             oscar['onPress'] = sizing;
             offset = !offset;
-            if(!offset) { _fun95291_ip = 702; continue _fun95291 }
+            if(!offset) { _fun95301_ip = 702; continue _fun95301 }
  699:
             offset = !kilo;
  702:

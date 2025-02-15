@@ -17,7 +17,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun99071: for(var _fun99071_ip = 0; ; ) switch(_fun99071_ip) {
+            _fun99081: for(var _fun99081_ip = 0; ; ) switch(_fun99081_ip) {
  0:
                 zulu = _closure1_slot2;
                 entity = zulu.getCurrentBuildOverride;
@@ -27,7 +27,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 oscar = zulu == report;
                 tango = undefined;
                 entity = undefined;
-                if(oscar) { _fun99071_ip = 80; continue _fun99071 }
+                if(oscar) { _fun99081_ip = 80; continue _fun99081 }
  36:
                 oscar = _closure1_slot0;
                 golf = _closure1_slot1;
@@ -38,7 +38,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 mike = report[mike];
                 zulu = zulu == mike;
                 entity = undefined;
-                if(zulu) { _fun99071_ip = 80; continue _fun99071 }
+                if(zulu) { _fun99081_ip = 80; continue _fun99081 }
  75:
                 entity = mike.id;
  80:
@@ -81,7 +81,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     options = options.RefreshIcon;
     mike['IconComponent'] = options;
     options = function() { // Original name: useBuildOverrideActiveDescription
-        _fun99072: for(var _fun99072_ip = 0; ; ) switch(_fun99072_ip) {
+        _fun99082: for(var _fun99082_ip = 0; ; ) switch(_fun99082_ip) {
  0:
             entity = _closure1_slot4;
             report = undefined;
@@ -89,7 +89,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = null;
             zulu = entity != oscar;
             entity = undefined;
-            if(!zulu) { _fun99072_ip = 76; continue _fun99072 }
+            if(!zulu) { _fun99082_ip = 76; continue _fun99082 }
  24:
             tango = _closure1_slot3;
             zulu = _closure1_slot0;
@@ -109,7 +109,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['useDescription'] = options;
     options = function() { // Original name: useHasBuildOverrideActive
-        _fun99073: for(var _fun99073_ip = 0; ; ) switch(_fun99073_ip) {
+        _fun99083: for(var _fun99083_ip = 0; ; ) switch(_fun99083_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -123,7 +123,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = entity.bind(zulu)();
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun99073_ip = 55; continue _fun99073 }
+            if(!entity) { _fun99083_ip = 55; continue _fun99083 }
  52:
             entity = mike;
  55:

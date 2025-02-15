@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseContentCommonData
-        _fun72304: for(var _fun72304_ip = 0; ; ) switch(_fun72304_ip) {
+        _fun72310: for(var _fun72310_ip = 0; ; ) switch(_fun72310_ip) {
  0:
             tango = argBar;
             zulu = _closure1_slot3;
@@ -23,14 +23,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             report = mike == tango;
             entity = undefined;
-            if(report) { _fun72304_ip = 40; continue _fun72304 }
+            if(report) { _fun72310_ip = 40; continue _fun72310 }
  34:
             entity = tango.total_months_subscribed;
  40:
             options = mike != entity;
             oscar = 0;
             report = 0;
-            if(!options) { _fun72304_ip = 54; continue _fun72304 }
+            if(!options) { _fun72310_ip = 54; continue _fun72310 }
  51:
             report = entity;
  54:
@@ -41,12 +41,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['showWithDuration'] = report;
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun72304_ip = 91; continue _fun72304 }
+            if(report) { _fun72310_ip = 91; continue _fun72310 }
  83:
             zulu = tango.is_renewal;
  91:
             mike = mike != zulu;
-            if(!mike) { _fun72304_ip = 101; continue _fun72304 }
+            if(!mike) { _fun72310_ip = 101; continue _fun72310 }
  98:
             mike = zulu;
  101:
@@ -56,18 +56,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageContent
-        _fun72305: for(var _fun72305_ip = 0; ; ) switch(_fun72305_ip) {
+        _fun72311: for(var _fun72311_ip = 0; ; ) switch(_fun72311_ip) {
  0:
             entity = argFoo;
             options = entity.username;
             oscar = entity.usernameOnClickHandler;
             tango = undefined;
-            if(!(oscar === tango)) { _fun72305_ip = 27; continue _fun72305 }
+            if(!(oscar === tango)) { _fun72311_ip = 27; continue _fun72311 }
  20:
             oscar = _closure1_slot10;
  27:
             golf = entity.roleSubscriptionOnClickHandler;
-            if(!(golf === tango)) { _fun72305_ip = 44; continue _fun72305 }
+            if(!(golf === tango)) { _fun72311_ip = 44; continue _fun72311 }
  37:
             golf = _closure1_slot9;
  44:
@@ -86,21 +86,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot[yankee];
             yankee = romeo.bind(tango)(yankee);
             yankee = yankee.t;
-            if(mike) { _fun72305_ip = 140; continue _fun72305 }
+            if(mike) { _fun72311_ip = 140; continue _fun72311 }
  121:
-            if(offset) { _fun72305_ip = 132; continue _fun72305 }
+            if(offset) { _fun72311_ip = 132; continue _fun72311 }
  124:
             mike = yankee.mYjFFx;
-            _fun72305_ip = 138; continue _fun72305;
+            _fun72311_ip = 138; continue _fun72311;
  132:
             mike = yankee.mPTTdn;
  138:
-            _fun72305_ip = 160; continue _fun72305;
+            _fun72311_ip = 160; continue _fun72311;
  140:
-            if(offset) { _fun72305_ip = 151; continue _fun72305 }
+            if(offset) { _fun72311_ip = 151; continue _fun72311 }
  143:
             offset = yankee.eCgb2d;
-            _fun72305_ip = 157; continue _fun72305;
+            _fun72311_ip = 157; continue _fun72311;
  151:
             offset = yankee.Iy66Mz;
  157:
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             offset = oscar == verify;
             options = undefined;
-            if(offset) { _fun72305_ip = 191; continue _fun72305 }
+            if(offset) { _fun72311_ip = 191; continue _fun72311 }
  186:
             options = verify.name;
  191:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['handleGuildNameClick'] = golf;
             oscar = oscar == report;
             tango = undefined;
-            if(oscar) { _fun72305_ip = 218; continue _fun72305 }
+            if(oscar) { _fun72311_ip = 218; continue _fun72311 }
  212:
             tango = report.tier_name;
  218:
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/GuildRoleSubscriptionSystemMessageUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: pickRoleSubscriptionPurchaseSticker
-        _fun72306: for(var _fun72306_ip = 0; ; ) switch(_fun72306_ip) {
+        _fun72312: for(var _fun72312_ip = 0; ; ) switch(_fun72312_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.getCurrentUser;
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike == zulu;
             report = undefined;
             oscar = undefined;
-            if(tango) { _fun72306_ip = 34; continue _fun72306 }
+            if(tango) { _fun72312_ip = 34; continue _fun72312 }
  29:
             oscar = zulu.id;
  34:
             mike = mike != oscar;
             zulu = 0;
-            if(!mike) { _fun72306_ip = 74; continue _fun72306 }
+            if(!mike) { _fun72312_ip = 74; continue _fun72312 }
  43:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -215,15 +215,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['pickRoleSubscriptionPurchaseSticker'] = tango;
     tango = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseStickerCTA
-        _fun72307: for(var _fun72307_ip = 0; ; ) switch(_fun72307_ip) {
+        _fun72313: for(var _fun72313_ip = 0; ; ) switch(_fun72313_ip) {
  0:
             mike = argBar;
-            if(mike) { _fun72307_ip = 21; continue _fun72307 }
+            if(mike) { _fun72313_ip = 21; continue _fun72313 }
  9:
             zulu = _closure1_slot5;
             mike = undefined;
             mike = zulu.bind(mike)();
-            _fun72307_ip = 31; continue _fun72307;
+            _fun72313_ip = 31; continue _fun72313;
  21:
             tango = _closure1_slot6;
             zulu = undefined;
@@ -304,18 +304,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getRoleSubscriptionPurchaseSystemMessageAstFormattedContent'] = tango;
     tango = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageContentMobile
-        _fun72310: for(var _fun72310_ip = 0; ; ) switch(_fun72310_ip) {
+        _fun72316: for(var _fun72316_ip = 0; ; ) switch(_fun72316_ip) {
  0:
             entity = argFoo;
             options = entity.username;
             golf = entity.usernameOnClickHandler;
             verify = undefined;
-            if(!(golf === verify)) { _fun72310_ip = 27; continue _fun72310 }
+            if(!(golf === verify)) { _fun72316_ip = 27; continue _fun72316 }
  20:
             golf = _closure1_slot10;
  27:
             oscar = entity.roleSubscriptionOnClickHandler;
-            if(!(oscar === verify)) { _fun72310_ip = 44; continue _fun72310 }
+            if(!(oscar === verify)) { _fun72316_ip = 44; continue _fun72316 }
  37:
             oscar = _closure1_slot9;
  44:
@@ -333,21 +333,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee[zulu];
             yankee = romeo.bind(verify)(yankee);
             yankee = yankee.t;
-            if(tango) { _fun72310_ip = 138; continue _fun72310 }
+            if(tango) { _fun72316_ip = 138; continue _fun72316 }
  119:
-            if(mike) { _fun72310_ip = 130; continue _fun72310 }
+            if(mike) { _fun72316_ip = 130; continue _fun72316 }
  122:
             tango = yankee.6Z1E+/;
-            _fun72310_ip = 136; continue _fun72310;
+            _fun72316_ip = 136; continue _fun72316;
  130:
             tango = yankee.OxP1ND;
  136:
-            _fun72310_ip = 158; continue _fun72310;
+            _fun72316_ip = 158; continue _fun72316;
  138:
-            if(mike) { _fun72310_ip = 149; continue _fun72310 }
+            if(mike) { _fun72316_ip = 149; continue _fun72316 }
  141:
             mike = yankee.+N9bxs;
-            _fun72310_ip = 155; continue _fun72310;
+            _fun72316_ip = 155; continue _fun72316;
  149:
             mike = yankee.OQ0OU1;
  155:
@@ -363,14 +363,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             backup = yankee == foxtrot;
             romeo = undefined;
-            if(backup) { _fun72310_ip = 204; continue _fun72310 }
+            if(backup) { _fun72316_ip = 204; continue _fun72316 }
  199:
             romeo = foxtrot.name;
  204:
             entity['guildName'] = romeo;
             yankee = yankee == offset;
             verify = undefined;
-            if(yankee) { _fun72310_ip = 224; continue _fun72310 }
+            if(yankee) { _fun72316_ip = 224; continue _fun72316 }
  218:
             verify = offset.tier_name;
  224:
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['isEligibleForRoleSubscriptionPurchaseSystemMessageSettings'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: trackRoleSubscriptionPurchaseMessageTierClick
-        _fun72312: for(var _fun72312_ip = 0; ; ) switch(_fun72312_ip) {
+        _fun72318: for(var _fun72318_ip = 0; ; ) switch(_fun72318_ip) {
  0:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             options = oscar == golf;
             oscar = undefined;
-            if(options) { _fun72312_ip = 79; continue _fun72312 }
+            if(options) { _fun72318_ip = 79; continue _fun72318 }
  74:
             oscar = golf.id;
  79:
@@ -435,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['trackRoleSubscriptionPurchaseMessageTierClick'] = tango;
     mike = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseSystemMessageEventProperties
-        _fun72313: for(var _fun72313_ip = 0; ; ) switch(_fun72313_ip) {
+        _fun72319: for(var _fun72319_ip = 0; ; ) switch(_fun72319_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
@@ -448,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             oscar = tango == report;
             tango = undefined;
-            if(oscar) { _fun72313_ip = 49; continue _fun72313 }
+            if(oscar) { _fun72319_ip = 49; continue _fun72319 }
  44:
             tango = report.id;
  49:

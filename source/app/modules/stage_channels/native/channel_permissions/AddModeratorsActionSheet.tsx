@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/native/channel_permissions/AddModeratorsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AddModeratorsActionSheet
-        _fun120004: for(var _fun120004_ip = 0; ; ) switch(_fun120004_ip) {
+        _fun120010: for(var _fun120010_ip = 0; ; ) switch(_fun120010_ip) {
  0:
             entity = argFoo;
             sizing = entity.channel;
@@ -85,11 +85,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure1_slot3;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun120007: for(var _fun120007_ip = 0; ; ) switch(_fun120007_ip) {
+                        _fun120013: for(var _fun120013_ip = 0; ; ) switch(_fun120013_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun120007_ip = 215; continue _fun120007 }
+                            if(mike) { _fun120013_ip = 215; continue _fun120013 }
  12:
                             mike = undefined;
                             zulu = undefined;
@@ -113,14 +113,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             options = golf.bind(options)(tango);
                             golf = options.map;
                             tango = function(argFoo) {
-                                _fun120009: for(var _fun120009_ip = 0; ; ) switch(_fun120009_ip) {
+                                _fun120015: for(var _fun120015_ip = 0; ; ) switch(_fun120015_ip) {
  0:
                                     entity = argFoo;
                                     mike = entity.row;
                                     tango = mike.rowType;
                                     entity = _closure1_slot8;
                                     entity = entity.ROLE;
-                                    if(!(tango !== entity)) { _fun120009_ip = 119; continue _fun120009 }
+                                    if(!(tango !== entity)) { _fun120015_ip = 119; continue _fun120015 }
  32:
                                     entity = _closure5_slot0;
                                     entity = entity + 1;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                     tango = entity.MEMBER;
                                     entity = _closure2_slot0;
                                     entity = oscar.bind(golf)(report, tango, entity);
-                                    _fun120009_ip = 204; continue _fun120009;
+                                    _fun120015_ip = 204; continue _fun120015;
  119:
                                     tango = _closure5_slot1;
                                     tango = tango + 1;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return zulu;
  133:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                            if(oscar) { _fun120007_ip = 207; continue _fun120007 }
+                            if(oscar) { _fun120013_ip = 207; continue _fun120013 }
  139:
                             options = _closure1_slot0;
                             oscar = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = report.hideActionSheet;
                             tango = tango.bind(report)();
  205: // try_end0
-                            _fun120007_ip = 212; continue _fun120007;
+                            _fun120013_ip = 212; continue _fun120013;
  207:
                             return zulu;
  210: // catch_target0
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun120010: for(var _fun120010_ip = 0; ; ) switch(_fun120010_ip) {
+                _fun120016: for(var _fun120016_ip = 0; ; ) switch(_fun120016_ip) {
  0:
                     zulu = _closure1_slot7;
                     mike = zulu.getGuild;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun120010_ip = 44; continue _fun120010 }
+                    if(report) { _fun120016_ip = 44; continue _fun120016 }
  30:
                     report = _closure2_slot0;
                     tango = report.getGuildId;
@@ -273,11 +273,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity != mike;
             offset = '';
-            if(!tango) { _fun120004_ip = 184; continue _fun120004 }
+            if(!tango) { _fun120010_ip = 184; continue _fun120010 }
  181:
             offset = mike;
  184:
-            if(!(entity != backup)) { _fun120004_ip = 663; continue _fun120004 }
+            if(!(entity != backup)) { _fun120010_ip = 663; continue _fun120010 }
  191:
             mike = global;
             tango = mike.Object;
@@ -314,9 +314,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = update[offset];
             offset = echo.bind(report)(offset);
             offset = offset.Button;
-            if(!options) { _fun120004_ip = 358; continue _fun120004 }
+            if(!options) { _fun120010_ip = 358; continue _fun120010 }
  355:
-            if(kilo) { _fun120004_ip = 441; continue _fun120004 }
+            if(kilo) { _fun120010_ip = 441; continue _fun120010 }
  358:
             options = {};
             echo = 'sm';
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             options['onPress'] = kilo;
-            _fun120004_ip = 521; continue _fun120004;
+            _fun120010_ip = 521; continue _fun120010;
  441:
             kilo = {};
             echo = 'sm';

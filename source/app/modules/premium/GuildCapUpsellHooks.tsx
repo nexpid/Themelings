@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/premium/GuildCapUpsellHooks.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useShouldShowInlineGuildCapUpsell
-        _fun91556: for(var _fun91556_ip = 0; ; ) switch(_fun91556_ip) {
+        _fun91585: for(var _fun91585_ip = 0; ; ) switch(_fun91585_ip) {
  0:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -105,11 +105,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 return entity;
             };
             mike = report.bind(oscar)(tango, mike);
-            if(!entity) { _fun91556_ip = 156; continue _fun91556 }
+            if(!entity) { _fun91585_ip = 156; continue _fun91585 }
  153:
             entity = zulu;
  156:
-            if(!entity) { _fun91556_ip = 162; continue _fun91556 }
+            if(!entity) { _fun91585_ip = 162; continue _fun91585 }
  159:
             entity = mike;
  162:
@@ -134,7 +134,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     zulu['hideInlineGuildCapUpsell'] = tango;
     mike = function() { // Original name: isAtGuildCapAndNonPremium
-        _fun91561: for(var _fun91561_ip = 0; ; ) switch(_fun91561_ip) {
+        _fun91590: for(var _fun91590_ip = 0; ; ) switch(_fun91590_ip) {
  0:
             zulu = _closure1_slot3;
             entity = zulu.getGuildCount;
@@ -152,7 +152,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = report.getCurrentUser;
             mike = mike.bind(report)();
             mike = zulu.bind(tango)(mike);
-            if(!entity) { _fun91561_ip = 77; continue _fun91561 }
+            if(!entity) { _fun91590_ip = 77; continue _fun91590 }
  74:
             entity = !mike;
  77:

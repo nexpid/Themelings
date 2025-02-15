@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/GuildActionRows.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRolesAndChannelsRow
-        _fun115937: for(var _fun115937_ip = 0; ; ) switch(_fun115937_ip) {
+        _fun115943: for(var _fun115943_ip = 0; ; ) switch(_fun115943_ip) {
  0:
             mike = argFoo;
             entity = mike.guild;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = romeo.bind(tango)(report);
             report = report.ChannelModes;
             romeo = report.DEFAULT;
-            if(!options) { _fun115937_ip = 285; continue _fun115937 }
+            if(!options) { _fun115943_ip = 285; continue _fun115943 }
  256:
             foxtrot = _closure1_slot0;
             report = _closure1_slot2;
@@ -193,16 +193,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = report.SELECTED;
  285:
             entity = !entity;
-            if(entity) { _fun115937_ip = 294; continue _fun115937 }
+            if(entity) { _fun115943_ip = 294; continue _fun115943 }
  291:
             entity = zulu;
  294:
-            if(entity) { _fun115937_ip = 300; continue _fun115937 }
+            if(entity) { _fun115943_ip = 300; continue _fun115943 }
  297:
             entity = mike;
  300:
             report = null;
-            if(!entity) { _fun115937_ip = 369; continue _fun115937 }
+            if(!entity) { _fun115943_ip = 369; continue _fun115943 }
  305:
             zulu = _closure1_slot9;
             mike = _closure1_slot4;
@@ -241,11 +241,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf[output];
             golf = offset.bind(tango)(golf);
             offset = golf.t;
-            if(yankee) { _fun115937_ip = 472; continue _fun115937 }
+            if(yankee) { _fun115943_ip = 472; continue _fun115943 }
  459:
             golf = offset.et6wam;
             golf = foxtrot.bind(backup)(golf);
-            _fun115937_ip = 483; continue _fun115937;
+            _fun115943_ip = 483; continue _fun115943;
  472:
             offset = offset.h9mGOD;
             golf = foxtrot.bind(backup)(offset);
@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot[output];
             foxtrot = sizing.bind(tango)(foxtrot);
             foxtrot = foxtrot.t;
-            if(yankee) { _fun115937_ip = 589; continue _fun115937 }
+            if(yankee) { _fun115943_ip = 589; continue _fun115943 }
  576:
             yankee = foxtrot.et6wam;
             yankee = backup.bind(kilo)(yankee);
-            _fun115937_ip = 600; continue _fun115937;
+            _fun115943_ip = 600; continue _fun115943;
  589:
             foxtrot = foxtrot.h9mGOD;
             yankee = backup.bind(kilo)(foxtrot);

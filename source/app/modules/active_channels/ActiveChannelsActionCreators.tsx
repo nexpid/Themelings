@@ -13,16 +13,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun115000: for(var _fun115000_ip = 0; ; ) switch(_fun115000_ip) {
+                _fun115006: for(var _fun115006_ip = 0; ; ) switch(_fun115006_ip) {
  0:
                     StartGenerator();
                     mike = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun115000_ip = 377; continue _fun115000 }
+                    if(zulu) { _fun115006_ip = 377; continue _fun115006 }
  13:
                     golf = argFoo;
                     verify = undefined;
-                    if(!(mike === verify)) { _fun115000_ip = 25; continue _fun115000 }
+                    if(!(mike === verify)) { _fun115006_ip = 25; continue _fun115006 }
  22:
                     mike = 10;
  25:
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun115000_ip = 374; continue _fun115000 }
+                    if(zulu) { _fun115006_ip = 374; continue _fun115006 }
  47:
                     offset = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  181:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(offset) { _fun115000_ip = 285; continue _fun115000 }
+                    if(offset) { _fun115006_ip = 285; continue _fun115006 }
  187:
                     oscar = zulu;
                     offset = zulu.body;
@@ -82,15 +82,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = null;
                     foxtrot = yankee == offset;
                     offset = undefined;
-                    if(foxtrot) { _fun115000_ip = 215; continue _fun115000 }
+                    if(foxtrot) { _fun115006_ip = 215; continue _fun115006 }
  209:
                     offset = romeo.channels;
  215:
                     options = offset;
-                    if(!(yankee == offset)) { _fun115000_ip = 228; continue _fun115000 }
+                    if(!(yankee == offset)) { _fun115006_ip = 228; continue _fun115006 }
  222:
                     romeo = new Array(0);
-                    _fun115000_ip = 231; continue _fun115000;
+                    _fun115006_ip = 231; continue _fun115006;
  228:
                     romeo = options;
  231:

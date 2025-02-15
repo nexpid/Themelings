@@ -46,11 +46,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun94119: for(var _fun94119_ip = 0; ; ) switch(_fun94119_ip) {
+            _fun94144: for(var _fun94144_ip = 0; ; ) switch(_fun94144_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zulu)) { _fun94119_ip = 142; continue _fun94119 }
+                if(!(entity != zulu)) { _fun94144_ip = 142; continue _fun94144 }
  16:
                 entity = {};
                 golf = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = _closure1_slot3;
                 tango = tango.CHANGE_NICKNAME;
                 tango = report.bind(golf)(tango, oscar);
-                if(tango) { _fun94119_ip = 100; continue _fun94119 }
+                if(tango) { _fun94144_ip = 100; continue _fun94144 }
  70:
                 options = _closure1_slot2;
                 golf = options.can;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure2_slot0;
                 mike = tango.bind(report)(zulu, mike);
                 entity['canManageChannels'] = mike;
-                _fun94119_ip = 156; continue _fun94119;
+                _fun94144_ip = 156; continue _fun94144;
  142:
                 entity = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
  156:

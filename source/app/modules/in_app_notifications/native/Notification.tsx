@@ -47,17 +47,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = zulu.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: s
-            _fun86909: for(var _fun86909_ip = 0; ; ) switch(_fun86909_ip) {
+            _fun86926: for(var _fun86926_ip = 0; ; ) switch(_fun86926_ip) {
  0:
                 entity = _closure2_slot0;
                 mike = 'number';
                 entity = typeof entity;
-                if(!(mike !== entity)) { _fun86909_ip = 33; continue _fun86909 }
+                if(!(mike !== entity)) { _fun86926_ip = 33; continue _fun86926 }
  18:
                 mike = _closure2_slot0;
                 entity = mike.get;
                 mike = entity.bind(mike)();
-                _fun86909_ip = 37; continue _fun86909;
+                _fun86926_ip = 37; continue _fun86926;
  33:
                 mike = _closure2_slot0;
  37:
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_notifications/native/Notification.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: Notification
-        _fun86910: for(var _fun86910_ip = 0; ; ) switch(_fun86910_ip) {
+        _fun86927: for(var _fun86927_ip = 0; ; ) switch(_fun86927_ip) {
  0:
             entity = argFoo;
             romeo = entity.icon;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             report = kilo != update;
             oscar = null;
-            if(!report) { _fun86910_ip = 232; continue _fun86910 }
+            if(!report) { _fun86927_ip = 232; continue _fun86927 }
  79:
             options = _closure1_slot7;
             golf = _closure1_slot5;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['style'] = result;
             update = kilo != echo;
             result = null;
-            if(!update) { _fun86910_ip = 341; continue _fun86910 }
+            if(!update) { _fun86927_ip = 341; continue _fun86927 }
  338:
             result = echo;
  341:
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = options.bind(tango)(sizing, romeo);
             romeo = new Array(2);
             romeo[0] = sizing;
-            if(!(kilo == foxtrot)) { _fun86910_ip = 495; continue _fun86910 }
+            if(!(kilo == foxtrot)) { _fun86927_ip = 495; continue _fun86927 }
  449:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['Notification'] = tango;
     mike = function(argFoo) { // Original name: NotificationPressable
-        _fun86911: for(var _fun86911_ip = 0; ; ) switch(_fun86911_ip) {
+        _fun86928: for(var _fun86928_ip = 0; ; ) switch(_fun86928_ip) {
  0:
             mike = argFoo;
             yankee = mike.children;
@@ -523,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = yankee;
             yankee = verify != foxtrot;
-            if(!yankee) { _fun86911_ip = 378; continue _fun86911 }
+            if(!yankee) { _fun86928_ip = 378; continue _fun86928 }
  357:
             romeo = _closure1_slot6;
             yankee = _closure1_slot14;

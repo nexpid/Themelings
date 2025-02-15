@@ -34,16 +34,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun81779: for(var _fun81779_ip = 0; ; ) switch(_fun81779_ip) {
+                _fun81791: for(var _fun81791_ip = 0; ; ) switch(_fun81791_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun81779_ip = 184; continue _fun81779 }
+                    if(mike) { _fun81791_ip = 184; continue _fun81791 }
  10:
                     mike = _closure2_slot2;
                     golf = null;
                     mike = golf != mike;
-                    if(!mike) { _fun81779_ip = 84; continue _fun81779 }
+                    if(!mike) { _fun81791_ip = 84; continue _fun81791 }
  26:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  172:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun81779_ip = 181; continue _fun81779 }
+                    if(tango) { _fun81791_ip = 181; continue _fun81791 }
  178:
                     return zulu;
  181:

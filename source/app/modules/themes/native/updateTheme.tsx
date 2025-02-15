@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/themes/native/updateTheme.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: updateTheme
-        _fun120812: for(var _fun120812_ip = 0; ; ) switch(_fun120812_ip) {
+        _fun120818: for(var _fun120818_ip = 0; ; ) switch(_fun120818_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(entity);
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
-            if(entity) { _fun120812_ip = 63; continue _fun120812 }
+            if(entity) { _fun120818_ip = 63; continue _fun120818 }
  40:
             entity = _closure1_slot3;
             zulu = entity.DCDTheme;
             entity = zulu.updateTheme;
             entity = entity.bind(zulu)(tango);
-            _fun120812_ip = 94; continue _fun120812;
+            _fun120818_ip = 94; continue _fun120818;
  63:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

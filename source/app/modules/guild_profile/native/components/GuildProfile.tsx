@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun114272: for(var _fun114272_ip = 0; ; ) switch(_fun114272_ip) {
+        _fun114278: for(var _fun114278_ip = 0; ; ) switch(_fun114278_ip) {
  0:
             entity = argFoo;
             source = entity.guild;
             golf = entity.expanded;
             tango = undefined;
-            if(!(golf === tango)) { _fun114272_ip = 22; continue _fun114272 }
+            if(!(golf === tango)) { _fun114278_ip = 22; continue _fun114278 }
  20:
             golf = false;
  22:
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.isAndroid;
             foxtrot = yankee.bind(foxtrot)();
             yankee = 0;
-            if(!foxtrot) { _fun114272_ip = 238; continue _fun114272 }
+            if(!foxtrot) { _fun114278_ip = 238; continue _fun114278 }
  235:
             yankee = 16;
  238:

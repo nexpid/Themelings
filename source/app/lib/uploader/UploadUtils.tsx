@@ -21,22 +21,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'lib/uploader/UploadUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: doesImageMatchUpload
-        _fun56954: for(var _fun56954_ip = 0; ; ) switch(_fun56954_ip) {
+        _fun56957: for(var _fun56957_ip = 0; ; ) switch(_fun56957_ip) {
  0:
             tango = argFoo;
             mike = argBar;
             zulu = mike.id;
             entity = tango.uri;
-            if(!(zulu !== entity)) { _fun56954_ip = 168; continue _fun56954 }
- 23:
+            if(!(zulu !== entity)) { _fun56957_ip = 173; continue _fun56957 }
+ 24:
             zulu = mike.id;
             entity = null;
-            if(!(entity != zulu)) { _fun56954_ip = 48; continue _fun56954 }
- 34:
+            if(!(entity != zulu)) { _fun56957_ip = 52; continue _fun56957 }
+ 35:
             report = mike.id;
             zulu = tango.id;
-            if(!(report !== zulu)) { _fun56954_ip = 168; continue _fun56954 }
- 48:
+            if(!(report !== zulu)) { _fun56957_ip = 173; continue _fun56957 }
+ 52:
             zulu = mike.item;
             report = zulu.platform;
             golf = _closure1_slot0;
@@ -47,46 +47,46 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = golf.bind(zulu)(oscar);
             zulu = zulu.UploadPlatform;
             zulu = zulu.REACT_NATIVE;
-            if(!(report !== zulu)) { _fun56954_ip = 103; continue _fun56954 }
- 99:
+            if(!(report !== zulu)) { _fun56957_ip = 107; continue _fun56957 }
+ 103:
             zulu = false;
             return zulu;
- 103:
+ 107:
             mike = mike.item;
             zulu = tango.filename;
             report = mike.originalUri;
             tango = tango.uri;
-            if(!(report !== tango)) { _fun56954_ip = 164; continue _fun56954 }
- 129:
-            if(!(entity != zulu)) { _fun56954_ip = 156; continue _fun56954 }
- 133:
+            if(!(report !== tango)) { _fun56957_ip = 169; continue _fun56957 }
+ 134:
+            if(!(entity != zulu)) { _fun56957_ip = 161; continue _fun56957 }
+ 138:
             mike = mike.originalUri;
-            if(!(entity != mike)) { _fun56954_ip = 156; continue _fun56954 }
- 143:
+            if(!(entity != mike)) { _fun56957_ip = 161; continue _fun56957 }
+ 148:
             entity = mike.includes;
             entity = entity.bind(mike)(zulu);
-            if(entity) { _fun56954_ip = 160; continue _fun56954 }
- 156:
+            if(entity) { _fun56957_ip = 165; continue _fun56957 }
+ 161:
             entity = false;
             return entity;
- 160:
+ 165:
             entity = true;
             return entity;
- 164:
+ 169:
             entity = true;
             return entity;
- 168:
+ 173:
             entity = true;
             return entity;
         }
     };
     zulu['doesImageMatchUpload'] = tango;
     mike = function(argFoo, argBar) { // Original name: calculateProgress
-        _fun56955: for(var _fun56955_ip = 0; ; ) switch(_fun56955_ip) {
+        _fun56958: for(var _fun56958_ip = 0; ; ) switch(_fun56958_ip) {
  0:
             zulu = argBar;
             entity = 0;
-            if(!(entity !== zulu)) { _fun56955_ip = 59; continue _fun56955 }
+            if(!(entity !== zulu)) { _fun56958_ip = 59; continue _fun56958 }
  9:
             mike = global;
             report = mike.Math;

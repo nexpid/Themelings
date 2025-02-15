@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/LightbulbIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun116481: for(var _fun116481_ip = 0; ; ) switch(_fun116481_ip) {
+        _fun116487: for(var _fun116487_ip = 0; ; ) switch(_fun116487_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun116481_ip = 53; continue _fun116481 }
+            if(!(golf === tango)) { _fun116487_ip = 53; continue _fun116487 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

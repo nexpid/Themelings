@@ -21,80 +21,80 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'utils/CurrencyUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getCurrencyFullName
-        _fun98887: for(var _fun98887_ip = 0; ; ) switch(_fun98887_ip) {
+        _fun98897: for(var _fun98897_ip = 0; ; ) switch(_fun98897_ip) {
  0:
             mike = argFoo;
             entity = 'brl';
-            if(!(entity !== mike)) { _fun98887_ip = 1714; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1714; continue _fun98897 }
  16:
             entity = 'pln';
-            if(!(entity !== mike)) { _fun98887_ip = 1653; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1653; continue _fun98897 }
  29:
             entity = 'try';
-            if(!(entity !== mike)) { _fun98887_ip = 1592; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1592; continue _fun98897 }
  40:
             entity = 'usd';
-            if(!(entity !== mike)) { _fun98887_ip = 1531; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1531; continue _fun98897 }
  53:
             entity = 'aud';
-            if(!(entity !== mike)) { _fun98887_ip = 1470; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1470; continue _fun98897 }
  66:
             entity = 'pen';
-            if(!(entity !== mike)) { _fun98887_ip = 1409; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1409; continue _fun98897 }
  79:
             entity = 'php';
-            if(!(entity !== mike)) { _fun98887_ip = 1348; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1348; continue _fun98897 }
  92:
             entity = 'ars';
-            if(!(entity !== mike)) { _fun98887_ip = 1287; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1287; continue _fun98897 }
  103:
             entity = 'cop';
-            if(!(entity !== mike)) { _fun98887_ip = 1226; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1226; continue _fun98897 }
  116:
             entity = 'clr';
-            if(!(entity !== mike)) { _fun98887_ip = 1165; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1165; continue _fun98897 }
  129:
             entity = 'jpy';
-            if(!(entity !== mike)) { _fun98887_ip = 1104; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1104; continue _fun98897 }
  142:
             entity = 'idr';
-            if(!(entity !== mike)) { _fun98887_ip = 1043; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 1043; continue _fun98897 }
  155:
             entity = 'vnd';
-            if(!(entity !== mike)) { _fun98887_ip = 982; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 982; continue _fun98897 }
  168:
             entity = 'thb';
-            if(!(entity !== mike)) { _fun98887_ip = 921; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 921; continue _fun98897 }
  181:
             entity = 'myr';
-            if(!(entity !== mike)) { _fun98887_ip = 860; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 860; continue _fun98897 }
  194:
             entity = 'krw';
-            if(!(entity !== mike)) { _fun98887_ip = 799; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 799; continue _fun98897 }
  207:
             entity = 'mxn';
-            if(!(entity !== mike)) { _fun98887_ip = 738; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 738; continue _fun98897 }
  220:
             entity = 'bgn';
-            if(!(entity !== mike)) { _fun98887_ip = 677; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 677; continue _fun98897 }
  233:
             entity = 'czk';
-            if(!(entity !== mike)) { _fun98887_ip = 616; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 616; continue _fun98897 }
  246:
             entity = 'dkk';
-            if(!(entity !== mike)) { _fun98887_ip = 555; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 555; continue _fun98897 }
  259:
             entity = 'huf';
-            if(!(entity !== mike)) { _fun98887_ip = 494; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 494; continue _fun98897 }
  272:
             entity = 'ron';
-            if(!(entity !== mike)) { _fun98887_ip = 433; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 433; continue _fun98897 }
  285:
             entity = 'sek';
-            if(!(entity !== mike)) { _fun98887_ip = 372; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 372; continue _fun98897 }
  295:
             entity = 'eur';
-            if(!(entity !== mike)) { _fun98887_ip = 311; continue _fun98887 }
+            if(!(entity !== mike)) { _fun98897_ip = 311; continue _fun98897 }
  305:
             entity = '';
             return entity;

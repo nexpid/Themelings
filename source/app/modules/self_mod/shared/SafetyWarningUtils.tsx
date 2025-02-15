@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'modules/self_mod/shared/SafetyWarningUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo, argBar) { // Original name: trackViewedEvent
-        _fun79505: for(var _fun79505_ip = 0; ; ) switch(_fun79505_ip) {
+        _fun79515: for(var _fun79515_ip = 0; ; ) switch(_fun79515_ip) {
  0:
             entity = argBar;
             golf = entity.channelId;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             options = golf != verify;
             golf = undefined;
-            if(!options) { _fun79505_ip = 86; continue _fun79505 }
+            if(!options) { _fun79515_ip = 86; continue _fun79515 }
  73:
             options = global;
             options = options.parseInt;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['trackViewedEvent'] = oscar;
     zulu['ViewNameTypes'] = report;
     report = function(argFoo) { // Original name: trackNamedViewEvent
-        _fun79506: for(var _fun79506_ip = 0; ; ) switch(_fun79506_ip) {
+        _fun79516: for(var _fun79516_ip = 0; ; ) switch(_fun79516_ip) {
  0:
             entity = argFoo;
             offset = entity.channelId;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             yankee = offset != romeo;
             offset = undefined;
-            if(!yankee) { _fun79506_ip = 108; continue _fun79506 }
+            if(!yankee) { _fun79516_ip = 108; continue _fun79516 }
  95:
             yankee = global;
             yankee = yankee.parseInt;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['trackNamedViewEvent'] = report;
     zulu['CtaEventTypes'] = tango;
     tango = function(argFoo) { // Original name: trackCtaEvent
-        _fun79507: for(var _fun79507_ip = 0; ; ) switch(_fun79507_ip) {
+        _fun79517: for(var _fun79517_ip = 0; ; ) switch(_fun79517_ip) {
  0:
             entity = argFoo;
             offset = entity.channelId;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             yankee = offset != romeo;
             offset = undefined;
-            if(!yankee) { _fun79507_ip = 108; continue _fun79507 }
+            if(!yankee) { _fun79517_ip = 108; continue _fun79517 }
  95:
             yankee = global;
             yankee = yankee.parseInt;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['trackCtaEvent'] = tango;
     mike = function() { // Original name: getUserIsTeen
-        _fun79508: for(var _fun79508_ip = 0; ; ) switch(_fun79508_ip) {
+        _fun79518: for(var _fun79518_ip = 0; ; ) switch(_fun79518_ip) {
  0:
             mike = _closure1_slot2;
             entity = mike.getCurrentUser;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun79508_ip = 33; continue _fun79508 }
+            if(zulu) { _fun79518_ip = 33; continue _fun79518 }
  27:
             mike = entity.nsfwAllowed;
  33:

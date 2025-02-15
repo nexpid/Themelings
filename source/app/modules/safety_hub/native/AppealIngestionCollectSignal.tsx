@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = function() { // Original name: onPress
                 zulu = _closure3_slot0;
                 mike = function(argFoo) {
-                    _fun92707: for(var _fun92707_ip = 0; ; ) switch(_fun92707_ip) {
+                    _fun92739: for(var _fun92739_ip = 0; ; ) switch(_fun92739_ip) {
  0:
                         oscar = argFoo;
                         report = _closure1_slot1;
@@ -199,13 +199,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu['signal'] = oscar;
                         zulu = report.bind(golf)(zulu);
                         zulu = _closure2_slot0;
-                        if(!zulu) { _fun92707_ip = 81; continue _fun92707 }
+                        if(!zulu) { _fun92739_ip = 81; continue _fun92739 }
  67:
                         report = _closure1_slot4;
                         report = report.SOMETHING_ELSE;
                         zulu = oscar === report;
  81:
-                        if(!zulu) { _fun92707_ip = 183; continue _fun92707 }
+                        if(!zulu) { _fun92739_ip = 183; continue _fun92739 }
  84:
                         oscar = _closure1_slot1;
                         zulu = _closure1_slot2;

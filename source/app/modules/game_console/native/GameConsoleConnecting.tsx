@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/game_console/native/GameConsoleConnecting.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GameConsoleConnecting
-        _fun104115: for(var _fun104115_ip = 0; ; ) switch(_fun104115_ip) {
+        _fun104107: for(var _fun104107_ip = 0; ; ) switch(_fun104107_ip) {
  0:
             entity = argFoo;
             entity = entity.awaitingRemoteSessionInfo;
@@ -115,15 +115,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = options;
             mike = function() {
-                _fun104117: for(var _fun104117_ip = 0; ; ) switch(_fun104117_ip) {
+                _fun104109: for(var _fun104109_ip = 0; ; ) switch(_fun104109_ip) {
  0:
                     mike = _closure2_slot1;
-                    if(!mike) { _fun104117_ip = 35; continue _fun104117 }
+                    if(!mike) { _fun104109_ip = 35; continue _fun104109 }
  10:
                     entity = _closure2_slot0;
                     mike = entity.current;
                     entity = null;
-                    if(!(entity != mike)) { _fun104117_ip = 35; continue _fun104117 }
+                    if(!(entity != mike)) { _fun104109_ip = 35; continue _fun104109 }
  25:
                     entity = mike.reset;
                     entity = entity.bind(mike)();
@@ -136,15 +136,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.type;
             entity = _closure1_slot8;
             entity = entity.XBOX;
-            if(!(entity !== mike)) { _fun104115_ip = 318; continue _fun104115 }
+            if(!(entity !== mike)) { _fun104107_ip = 318; continue _fun104107 }
  146:
             entity = _closure1_slot8;
             entity = entity.PLAYSTATION;
-            if(!(entity !== mike)) { _fun104115_ip = 242; continue _fun104115 }
+            if(!(entity !== mike)) { _fun104107_ip = 242; continue _fun104107 }
  160:
             entity = _closure1_slot8;
             entity = entity.PLAYSTATION_STAGING;
-            if(!(entity !== mike)) { _fun104115_ip = 242; continue _fun104115 }
+            if(!(entity !== mike)) { _fun104107_ip = 242; continue _fun104107 }
  174:
             zulu = _closure1_slot9;
             mike = _closure1_slot5;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.WHITE_500;
             entity['color'] = report;
             report = zulu.bind(tango)(mike, entity);
-            _fun104115_ip = 392; continue _fun104115;
+            _fun104107_ip = 392; continue _fun104107;
  242:
             zulu = _closure1_slot9;
             mike = _closure1_slot1;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = !options;
             entity['autoPlay'] = offset;
             report = zulu.bind(tango)(mike, entity);
-            _fun104115_ip = 392; continue _fun104115;
+            _fun104107_ip = 392; continue _fun104107;
  318:
             zulu = _closure1_slot9;
             mike = _closure1_slot1;

@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guilds_bar/native/GuildsBarFolderSettingsModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildFolderSettingsModal
-        _fun114307: for(var _fun114307_ip = 0; ; ) switch(_fun114307_ip) {
+        _fun114313: for(var _fun114313_ip = 0; ; ) switch(_fun114313_ip) {
  0:
             entity = argFoo;
             zulu = entity.folderId;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = zulu;
             report = function() {
-                _fun114308: for(var _fun114308_ip = 0; ; ) switch(_fun114308_ip) {
+                _fun114314: for(var _fun114314_ip = 0; ; ) switch(_fun114314_ip) {
  0:
                     tango = _closure1_slot5;
                     zulu = tango.getGuildFolderById;
@@ -172,27 +172,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     golf = report == zulu;
                     oscar = undefined;
-                    if(golf) { _fun114308_ip = 44; continue _fun114308 }
+                    if(golf) { _fun114314_ip = 44; continue _fun114314 }
  38:
                     oscar = zulu.folderName;
  44:
                     golf = report != oscar;
                     oscar = '';
-                    if(!golf) { _fun114308_ip = 61; continue _fun114308 }
+                    if(!golf) { _fun114314_ip = 61; continue _fun114314 }
  55:
                     oscar = zulu.folderName;
  61:
                     entity['initialFolderName'] = oscar;
                     oscar = report == zulu;
                     tango = undefined;
-                    if(oscar) { _fun114308_ip = 81; continue _fun114308 }
+                    if(oscar) { _fun114314_ip = 81; continue _fun114314 }
  75:
                     tango = zulu.folderColor;
  81:
-                    if(!(report == tango)) { _fun114308_ip = 91; continue _fun114308 }
+                    if(!(report == tango)) { _fun114314_ip = 91; continue _fun114314 }
  85:
                     mike = _closure1_slot6;
-                    _fun114308_ip = 97; continue _fun114308;
+                    _fun114314_ip = 97; continue _fun114314;
  91:
                     mike = zulu.folderColor;
  97:
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf[options];
             var _closure2_slot4 = golf;
             verify = offset !== oscar;
-            if(verify) { _fun114307_ip = 195; continue _fun114307 }
+            if(verify) { _fun114313_ip = 195; continue _fun114313 }
  191:
             verify = yankee !== report;
  195:
@@ -257,13 +257,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = report.bind(oscar)();
                     report = oscar.map;
                     mike = function(argFoo) {
-                        _fun114311: for(var _fun114311_ip = 0; ; ) switch(_fun114311_ip) {
+                        _fun114317: for(var _fun114317_ip = 0; ; ) switch(_fun114317_ip) {
  0:
                             tango = argFoo;
                             report = tango.folderId;
                             mike = _closure4_slot0;
                             entity = tango;
-                            if(!(report === mike)) { _fun114311_ip = 64; continue _fun114311 }
+                            if(!(report === mike)) { _fun114317_ip = 64; continue _fun114317 }
  23:
                             mike = {};
                             golf = mike;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = _closure2_slot6;
                 golf = _closure2_slot7;
                 mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getScreens
-                    _fun114314: for(var _fun114314_ip = 0; ; ) switch(_fun114314_ip) {
+                    _fun114320: for(var _fun114320_ip = 0; ; ) switch(_fun114320_ip) {
  0:
                         entity = argFoo;
                         var _closure4_slot0 = entity;
@@ -385,13 +385,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = golf.bind(options)(oscar);
                         zulu['headerLeft'] = oscar;
                         oscar = argBar;
-                        if(oscar) { _fun114314_ip = 135; continue _fun114314 }
+                        if(oscar) { _fun114320_ip = 135; continue _fun114320 }
  126:
                         mike = function() {
                             entity = null;
                             return entity;
                         };
-                        _fun114314_ip = 211; continue _fun114314;
+                        _fun114320_ip = 211; continue _fun114320;
  135:
                         verify = _closure1_slot0;
                         tango = _closure1_slot2;

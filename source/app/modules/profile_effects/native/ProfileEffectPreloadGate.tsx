@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = oscar.effects;
         oscar = golf.map;
         report = function(argFoo, argBar) {
-            _fun79990: for(var _fun79990_ip = 0; ; ) switch(_fun79990_ip) {
+            _fun80003: for(var _fun80003_ip = 0; ; ) switch(_fun80003_ip) {
  0:
                 entity = argFoo;
                 report = _closure1_slot6;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {'opacity': 0, 'position': 'absolute'};
                 oscar['style'] = yankee;
                 yankee = function() { // Original name: onLoad
-                    _fun79991: for(var _fun79991_ip = 0; ; ) switch(_fun79991_ip) {
+                    _fun80004: for(var _fun80004_ip = 0; ; ) switch(_fun80004_ip) {
  0:
                         entity = global;
                         tango = entity.setTimeout;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = zulu.isAndroid;
                         mike = mike.bind(zulu)();
                         zulu = 0;
-                        if(!mike) { _fun79991_ip = 53; continue _fun79991 }
+                        if(!mike) { _fun80004_ip = 53; continue _fun80004 }
  47:
                         zulu = 500;
  53:
@@ -135,8 +135,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = verify.bind(mike)(golf);
                 golf = verify.isAndroid;
                 golf = golf.bind(verify)();
-                if(!golf) { _fun79990_ip = 188; continue _fun79990 }
- 135:
+                if(!golf) { _fun80003_ip = 189; continue _fun80003 }
+ 136:
                 offset = _closure1_slot5;
                 verify = _closure2_slot2;
                 options = {};
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {'opacity': 0, 'height': 0, 'width': 0};
                 options['style'] = yankee;
                 golf = offset.bind(mike)(verify, options);
- 188:
+ 189:
                 oscar[1] = golf;
                 zulu['children'] = oscar;
                 verify = entity.src;

@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: MinimizeActivityButton
-        _fun121394: for(var _fun121394_ip = 0; ; ) switch(_fun121394_ip) {
+        _fun121400: for(var _fun121400_ip = 0; ; ) switch(_fun121400_ip) {
  0:
             mike = argFoo;
             options = mike.activityName;
@@ -69,10 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot7;
             report = undefined;
             oscar = entity.bind(report)();
-            if(!(report !== options)) { _fun121394_ip = 79; continue _fun121394 }
+            if(!(report !== options)) { _fun121400_ip = 79; continue _fun121400 }
  68:
             entity = '';
-            if(!(entity === options)) { _fun121394_ip = 215; continue _fun121394 }
+            if(!(entity === options)) { _fun121400_ip = 215; continue _fun121400 }
  79:
             zulu = _closure1_slot6;
             romeo = _closure1_slot0;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityLabel'] = tango;
             entity['onPress'] = verify;
             entity = zulu.bind(report)(mike, entity);
-            _fun121394_ip = 391; continue _fun121394;
+            _fun121400_ip = 391; continue _fun121400;
  215:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;

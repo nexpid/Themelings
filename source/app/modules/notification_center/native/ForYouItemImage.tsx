@@ -50,11 +50,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = report.bind(entity)(options);
     verify = offset.createStyles;
     options = function(argFoo) {
-        _fun116524: for(var _fun116524_ip = 0; ; ) switch(_fun116524_ip) {
+        _fun116530: for(var _fun116530_ip = 0; ; ) switch(_fun116530_ip) {
  0:
             oscar = argFoo;
             tango = 48;
-            if(!oscar) { _fun116524_ip = 12; continue _fun116524 }
+            if(!oscar) { _fun116530_ip = 12; continue _fun116530 }
  9:
             tango = 32;
  12:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango / zulu;
             mike['borderRadius'] = zulu;
             report = 12;
-            if(!oscar) { _fun116524_ip = 44; continue _fun116524 }
+            if(!oscar) { _fun116530_ip = 44; continue _fun116530 }
  41:
             report = 8;
  44:
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun116525: for(var _fun116525_ip = 0; ; ) switch(_fun116525_ip) {
+        _fun116531: for(var _fun116531_ip = 0; ; ) switch(_fun116531_ip) {
  0:
             entity = argFoo;
             offset = entity.item;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             verify = options == golf;
             report = undefined;
-            if(verify) { _fun116525_ip = 110; continue _fun116525 }
+            if(verify) { _fun116531_ip = 110; continue _fun116531 }
  105:
             report = golf.id;
  110:
@@ -230,12 +230,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[4] = romeo;
             report[5] = yankee;
             zulu = function() {
-                _fun116527: for(var _fun116527_ip = 0; ; ) switch(_fun116527_ip) {
+                _fun116533: for(var _fun116533_ip = 0; ; ) switch(_fun116533_ip) {
  0:
                     mike = _closure2_slot4;
                     entity = null;
                     mike = entity == mike;
-                    if(mike) { _fun116527_ip = 216; continue _fun116527 }
+                    if(mike) { _fun116533_ip = 216; continue _fun116533 }
  19:
                     report = _closure1_slot7;
                     yankee = _closure1_slot0;
@@ -291,10 +291,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset[romeo];
                     offset = yankee.bind(tango)(offset);
                     offset = offset.AvatarSizes;
-                    if(verify) { _fun116527_ip = 175; continue _fun116527 }
+                    if(verify) { _fun116533_ip = 175; continue _fun116533 }
  167:
                     verify = offset.LARGE_48;
-                    _fun116527_ip = 181; continue _fun116527;
+                    _fun116533_ip = 181; continue _fun116533;
  175:
                     verify = offset.REFRESH_MEDIUM_32;
  181:
@@ -311,19 +311,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify = golf.bind(verify)(zulu, report);
             zulu = offset.icon_name;
-            if(!(options == zulu)) { _fun116525_ip = 1719; continue _fun116525 }
+            if(!(options == zulu)) { _fun116531_ip = 1720; continue _fun116531 }
  248:
             zulu = offset.icon_url;
-            if(!(options == zulu)) { _fun116525_ip = 1629; continue _fun116525 }
+            if(!(options == zulu)) { _fun116531_ip = 1629; continue _fun116531 }
  261:
             zulu = options != verify;
             report = verify;
             golf = null;
-            if(zulu) { _fun116525_ip = 1821; continue _fun116525 }
+            if(zulu) { _fun116531_ip = 1822; continue _fun116531 }
  276:
             yankee = offset.type;
             zulu = 'lifecycle_item';
-            if(!(zulu !== yankee)) { _fun116525_ip = 1015; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 1015; continue _fun116531 }
  294:
             romeo = _closure1_slot5;
             yankee = romeo.getGuild;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.MISSED_MESSAGES;
-            if(!(zulu !== yankee)) { _fun116525_ip = 732; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 732; continue _fun116531 }
  357:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.FRIEND_REQUEST_REMINDER;
-            if(!(zulu !== yankee)) { _fun116525_ip = 686; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 686; continue _fun116531 }
  393:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -353,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.GUILD_SCHEDULED_EVENT_STARTED;
-            if(!(zulu !== yankee)) { _fun116525_ip = 629; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 629; continue _fun116531 }
  429:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.TOP_MESSAGES;
-            if(!(zulu !== yankee)) { _fun116525_ip = 629; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 629; continue _fun116531 }
  465:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.MISSED_MESSAGES;
-            if(!(zulu !== yankee)) { _fun116525_ip = 629; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 629; continue _fun116531 }
  501:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.NotificationCenterItems;
             zulu = zulu.TOP_MESSAGES;
-            if(!(zulu !== yankee)) { _fun116525_ip = 580; continue _fun116525 }
+            if(!(zulu !== yankee)) { _fun116531_ip = 580; continue _fun116531 }
  534:
             zulu = {};
             romeo = _closure1_slot1;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.fallbackImage;
             yankee = yankee.color;
             zulu['color'] = yankee;
-            _fun116525_ip = 776; continue _fun116525;
+            _fun116531_ip = 776; continue _fun116531;
  580:
             yankee = {};
             foxtrot = _closure1_slot1;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.color;
             yankee['color'] = romeo;
             zulu = yankee;
-            _fun116525_ip = 776; continue _fun116525;
+            _fun116531_ip = 776; continue _fun116531;
  629:
             yankee = {};
             foxtrot = _closure1_slot1;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = mike.guildGridBackground;
             yankee['backgroundStyle'] = romeo;
             zulu = yankee;
-            _fun116525_ip = 776; continue _fun116525;
+            _fun116531_ip = 776; continue _fun116531;
  686:
             yankee = {};
             foxtrot = _closure1_slot1;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.color;
             yankee['color'] = romeo;
             zulu = yankee;
-            _fun116525_ip = 776; continue _fun116525;
+            _fun116531_ip = 776; continue _fun116531;
  732:
             yankee = {};
             foxtrot = _closure1_slot1;
@@ -450,15 +450,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 11;
             yankee = backup[yankee];
             yankee = foxtrot.bind(tango)(yankee);
-            if(!(romeo === yankee)) { _fun116525_ip = 824; continue _fun116525 }
+            if(!(romeo === yankee)) { _fun116531_ip = 824; continue _fun116531 }
  805:
             romeo = options == kilo;
             yankee = undefined;
-            if(romeo) { _fun116525_ip = 820; continue _fun116525 }
+            if(romeo) { _fun116531_ip = 820; continue _fun116531 }
  814:
             yankee = kilo.acronym;
  820:
-            if(!(options == yankee)) { _fun116525_ip = 876; continue _fun116525 }
+            if(!(options == yankee)) { _fun116531_ip = 876; continue _fun116531 }
  824:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot1;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = zulu.color;
             yankee['color'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
-            _fun116525_ip = 988; continue _fun116525;
+            _fun116531_ip = 988; continue _fun116531;
  876:
             backup = _closure1_slot7;
             foxtrot = _closure1_slot0;
@@ -487,7 +487,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 4;
             output = output > sizing;
             sizing = 'text-lg/normal';
-            if(!output) { _fun116525_ip = 940; continue _fun116525 }
+            if(!output) { _fun116531_ip = 940; continue _fun116531 }
  934:
             sizing = 'text-md/normal';
  940:
@@ -503,13 +503,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(tango)(foxtrot, romeo);
  988:
             zulu = zulu.backgroundStyle;
-            if(!(options == zulu)) { _fun116525_ip = 1004; continue _fun116525 }
+            if(!(options == zulu)) { _fun116531_ip = 1004; continue _fun116531 }
  998:
             zulu = mike.brandBackground;
  1004:
             golf = zulu;
             report = yankee;
-            _fun116525_ip = 1821; continue _fun116525;
+            _fun116531_ip = 1822; continue _fun116531;
  1015:
             yankee = offset.item_enum;
             romeo = _closure1_slot0;
@@ -519,7 +519,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.UPDATE_PROFILE;
-            if(!(yankee !== zulu)) { _fun116525_ip = 1387; continue _fun116525 }
+            if(!(yankee !== zulu)) { _fun116531_ip = 1387; continue _fun116531 }
  1060:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -527,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.FIND_FRIENDS;
-            if(!(yankee !== zulu)) { _fun116525_ip = 1281; continue _fun116525 }
+            if(!(yankee !== zulu)) { _fun116531_ip = 1281; continue _fun116531 }
  1096:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -535,7 +535,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.ADD_FRIEND;
-            if(!(yankee !== zulu)) { _fun116525_ip = 1281; continue _fun116525 }
+            if(!(yankee !== zulu)) { _fun116531_ip = 1281; continue _fun116531 }
  1132:
             romeo = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -543,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.FIRST_MESSAGE;
-            if(!(yankee !== zulu)) { _fun116525_ip = 1215; continue _fun116525 }
+            if(!(yankee !== zulu)) { _fun116531_ip = 1215; continue _fun116531 }
  1165:
             romeo = _closure1_slot7;
             kilo = _closure1_slot1;
@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(foxtrot);
             zulu['source'] = foxtrot;
             yankee = romeo.bind(tango)(yankee, zulu);
-            _fun116525_ip = 1279; continue _fun116525;
+            _fun116531_ip = 1279; continue _fun116531;
  1215:
             foxtrot = _closure1_slot7;
             sizing = _closure1_slot1;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['style'] = kilo;
             yankee = foxtrot.bind(tango)(romeo, zulu);
  1279:
-            _fun116525_ip = 1385; continue _fun116525;
+            _fun116531_ip = 1385; continue _fun116531;
  1281:
             foxtrot = _closure1_slot7;
             sizing = _closure1_slot1;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['color'] = kilo;
             yankee = foxtrot.bind(tango)(romeo, zulu);
  1385:
-            _fun116525_ip = 1435; continue _fun116525;
+            _fun116531_ip = 1435; continue _fun116531;
  1387:
             foxtrot = _closure1_slot7;
             sizing = _closure1_slot1;
@@ -625,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.UPDATE_PROFILE;
-            if(!(romeo !== zulu)) { _fun116525_ip = 1600; continue _fun116525 }
+            if(!(romeo !== zulu)) { _fun116531_ip = 1600; continue _fun116531 }
  1477:
             foxtrot = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -633,7 +633,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.FIND_FRIENDS;
-            if(!(romeo !== zulu)) { _fun116525_ip = 1592; continue _fun116525 }
+            if(!(romeo !== zulu)) { _fun116531_ip = 1592; continue _fun116531 }
  1510:
             foxtrot = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -641,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.ADD_FRIEND;
-            if(!(romeo !== zulu)) { _fun116525_ip = 1592; continue _fun116525 }
+            if(!(romeo !== zulu)) { _fun116531_ip = 1592; continue _fun116531 }
  1543:
             foxtrot = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -649,35 +649,35 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.bind(tango)(zulu);
             zulu = zulu.ItemEnum;
             zulu = zulu.FIRST_MESSAGE;
-            if(!(romeo !== zulu)) { _fun116525_ip = 1584; continue _fun116525 }
+            if(!(romeo !== zulu)) { _fun116531_ip = 1584; continue _fun116531 }
  1576:
             romeo = mike.brandBackground;
-            _fun116525_ip = 1590; continue _fun116525;
+            _fun116531_ip = 1590; continue _fun116531;
  1584:
             romeo = mike.messageBackground;
  1590:
-            _fun116525_ip = 1598; continue _fun116525;
+            _fun116531_ip = 1598; continue _fun116531;
  1592:
             romeo = mike.friendBackground;
  1598:
-            _fun116525_ip = 1606; continue _fun116525;
+            _fun116531_ip = 1606; continue _fun116531;
  1600:
             romeo = mike.profileBackground;
  1606:
             foxtrot = options != romeo;
             zulu = null;
-            if(!foxtrot) { _fun116525_ip = 1618; continue _fun116525 }
+            if(!foxtrot) { _fun116531_ip = 1618; continue _fun116531 }
  1615:
             zulu = romeo;
  1618:
             golf = zulu;
             report = yankee;
-            _fun116525_ip = 1821; continue _fun116525;
+            _fun116531_ip = 1822; continue _fun116531;
  1629:
             zulu = options != verify;
             report = verify;
             golf = null;
-            if(zulu) { _fun116525_ip = 1821; continue _fun116525 }
+            if(zulu) { _fun116531_ip = 1822; continue _fun116531 }
  1644:
             verify = _closure1_slot7;
             options = _closure1_slot1;
@@ -696,8 +696,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['resizeMode'] = yankee;
             report = verify.bind(tango)(options, zulu);
             golf = mike.brandBackground;
-            _fun116525_ip = 1821; continue _fun116525;
- 1719:
+            _fun116531_ip = 1822; continue _fun116531;
+ 1720:
             verify = _closure1_slot7;
             yankee = _closure1_slot1;
             options = _closure1_slot2;
@@ -707,17 +707,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             romeo = offset.icon_name;
             offset = 'icHighlight';
-            if(!(offset !== romeo)) { _fun116525_ip = 1774; continue _fun116525 }
- 1761:
+            if(!(offset !== romeo)) { _fun116531_ip = 1775; continue _fun116531 }
+ 1762:
             romeo = _closure1_slot2;
             offset = 13;
             offset = romeo[offset];
-            _fun116525_ip = 1785; continue _fun116525;
- 1774:
+            _fun116531_ip = 1786; continue _fun116531;
+ 1775:
             foxtrot = _closure1_slot2;
             romeo = 12;
             offset = foxtrot[romeo];
- 1785:
+ 1786:
             offset = yankee.bind(tango)(offset);
             zulu['source'] = offset;
             offset = mike.fallbackImage;
@@ -725,7 +725,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['color'] = offset;
             report = verify.bind(tango)(options, zulu);
             golf = mike.brandBackground;
- 1821:
+ 1822:
             zulu = _closure1_slot7;
             mike = _closure1_slot4;
             entity = {};

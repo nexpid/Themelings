@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: RedesignBottomSheetTitleHeaderBase
-        _fun48769: for(var _fun48769_ip = 0; ; ) switch(_fun48769_ip) {
+        _fun48776: for(var _fun48776_ip = 0; ; ) switch(_fun48776_ip) {
  0:
             entity = argFoo;
             romeo = entity.title;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = verify;
             verify = null;
             yankee = verify != foxtrot;
-            if(!yankee) { _fun48769_ip = 131; continue _fun48769 }
+            if(!yankee) { _fun48776_ip = 131; continue _fun48776 }
  111:
             romeo = _closure1_slot6;
             yankee = _closure1_slot15;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: RedesignBottomSheetTitleHeaderStacked
-        _fun48770: for(var _fun48770_ip = 0; ; ) switch(_fun48770_ip) {
+        _fun48777: for(var _fun48777_ip = 0; ; ) switch(_fun48777_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.title;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = null;
             romeo = offset != backup;
-            if(!romeo) { _fun48770_ip = 276; continue _fun48770 }
+            if(!romeo) { _fun48777_ip = 276; continue _fun48777 }
  256:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot15;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: RedesignBottomSheetTitleHeaderComplex
-        _fun48771: for(var _fun48771_ip = 0; ; ) switch(_fun48771_ip) {
+        _fun48778: for(var _fun48778_ip = 0; ; ) switch(_fun48778_ip) {
  0:
             mike = argFoo;
             echo = mike.title;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot0;
                 entity = undefined;
                 mike = function(argFoo) {
-                    _fun48773: for(var _fun48773_ip = 0; ; ) switch(_fun48773_ip) {
+                    _fun48780: for(var _fun48780_ip = 0; ; ) switch(_fun48780_ip) {
  0:
                         entity = argFoo;
                         mike = global;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = null;
                         report = mike != entity;
                         mike = 0;
-                        if(!report) { _fun48773_ip = 30; continue _fun48773 }
+                        if(!report) { _fun48780_ip = 30; continue _fun48780 }
  27:
                         mike = entity;
  30:
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = output;
             output = null;
             result = output != source;
-            if(!result) { _fun48771_ip = 311; continue _fun48771 }
+            if(!result) { _fun48778_ip = 311; continue _fun48778 }
  291:
             update = _closure1_slot6;
             echo = _closure1_slot15;
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Sheet/native/BottomSheetTitleHeader.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BottomSheetTitleHeader
-        _fun48779: for(var _fun48779_ip = 0; ; ) switch(_fun48779_ip) {
+        _fun48786: for(var _fun48786_ip = 0; ; ) switch(_fun48786_ip) {
  0:
             golf = argFoo;
             offset = golf.leading;
@@ -450,19 +450,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify[report];
             var _closure2_slot0 = report;
             report = null;
-            if(!(report != offset)) { _fun48779_ip = 86; continue _fun48779 }
+            if(!(report != offset)) { _fun48786_ip = 86; continue _fun48786 }
  74:
-            if(!(entity !== offset)) { _fun48779_ip = 86; continue _fun48779 }
+            if(!(entity !== offset)) { _fun48786_ip = 86; continue _fun48786 }
  78:
             verify = '';
-            if(!(verify === offset)) { _fun48779_ip = 130; continue _fun48779 }
+            if(!(verify === offset)) { _fun48786_ip = 130; continue _fun48786 }
  86:
-            if(!(report != tango)) { _fun48779_ip = 102; continue _fun48779 }
+            if(!(report != tango)) { _fun48786_ip = 102; continue _fun48786 }
  90:
-            if(!(entity !== tango)) { _fun48779_ip = 102; continue _fun48779 }
+            if(!(entity !== tango)) { _fun48786_ip = 102; continue _fun48786 }
  94:
             entity = '';
-            if(!(entity === tango)) { _fun48779_ip = 130; continue _fun48779 }
+            if(!(entity === tango)) { _fun48786_ip = 130; continue _fun48786 }
  102:
             report = _closure1_slot6;
             tango = _closure1_slot11;
@@ -471,10 +471,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = golf;
             verify = copyDataProperties(romeo, yankee);
             entity = report.bind(oscar)(tango, entity);
-            _fun48779_ip = 202; continue _fun48779;
+            _fun48786_ip = 202; continue _fun48786;
  130:
             report = _closure1_slot6;
-            if(mike) { _fun48779_ip = 177; continue _fun48779 }
+            if(mike) { _fun48786_ip = 177; continue _fun48786 }
  137:
             tango = _closure1_slot13;
             mike = {};
@@ -496,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 'onTitleTextLayout';
             mike[options] = verify;
             mike = report.bind(oscar)(tango, mike);
-            _fun48779_ip = 199; continue _fun48779;
+            _fun48786_ip = 199; continue _fun48786;
  177:
             tango = _closure1_slot12;
             zulu = {};

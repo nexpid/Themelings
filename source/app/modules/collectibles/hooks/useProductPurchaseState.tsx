@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = report.bind(entity)(tango);
     var _closure1_slot3 = tango;
     tango = function(argFoo, argBar) { // Original name: getProductPurchaseState
-        _fun99645: for(var _fun99645_ip = 0; ; ) switch(_fun99645_ip) {
+        _fun99655: for(var _fun99655_ip = 0; ; ) switch(_fun99655_ip) {
  0:
             tango = argFoo;
             golf = argBar;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report != mike;
             zulu = golf.items;
-            if(!(report == zulu)) { _fun99645_ip = 49; continue _fun99645 }
+            if(!(report == zulu)) { _fun99655_ip = 49; continue _fun99655 }
  45:
             zulu = new Array(0);
  49:
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = verify.bind(oscar)(tango);
             offset = report == golf;
             verify = undefined;
-            if(offset) { _fun99645_ip = 110; continue _fun99645 }
+            if(offset) { _fun99655_ip = 110; continue _fun99655 }
  105:
             verify = golf.type;
  110:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = romeo.bind(oscar)(offset);
             offset = offset.CollectiblesItemType;
             offset = offset.BUNDLE;
-            if(!(offset !== verify)) { _fun99645_ip = 317; continue _fun99645 }
+            if(!(offset !== verify)) { _fun99655_ip = 317; continue _fun99655 }
  149:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = offset.bind(oscar)(options);
             options = options.CollectiblesItemType;
             options = options.VARIANTS_GROUP;
-            if(!(options !== verify)) { _fun99645_ip = 204; continue _fun99645 }
+            if(!(options !== verify)) { _fun99655_ip = 204; continue _fun99655 }
  182:
             options = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
             options['isPurchased'] = mike;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = golf.variants;
             verify = report == yankee;
             options = undefined;
-            if(verify) { _fun99645_ip = 237; continue _fun99645 }
+            if(verify) { _fun99655_ip = 237; continue _fun99655 }
  219:
             offset = yankee.every;
             verify = function(argFoo) {
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = golf.variants;
             golf = report == verify;
             oscar = undefined;
-            if(golf) { _fun99645_ip = 270; continue _fun99645 }
+            if(golf) { _fun99655_ip = 270; continue _fun99655 }
  252:
             golf = verify.some;
             entity = function(argFoo) {
@@ -116,13 +116,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             oscar = golf.bind(verify)(entity);
  270:
-            if(!oscar) { _fun99645_ip = 276; continue _fun99645 }
+            if(!oscar) { _fun99655_ip = 276; continue _fun99655 }
  273:
             oscar = !options;
  276:
             entity = {};
             golf = report != options;
-            if(!golf) { _fun99645_ip = 288; continue _fun99645 }
+            if(!golf) { _fun99655_ip = 288; continue _fun99655 }
  285:
             golf = options;
  288:
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = false;
             entity['isPartiallyOwnedBundle'] = golf;
             report = report != oscar;
-            if(!report) { _fun99645_ip = 310; continue _fun99645 }
+            if(!report) { _fun99655_ip = 310; continue _fun99655 }
  307:
             report = oscar;
  310:
@@ -138,12 +138,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             return entity;
  317:
             entity = {};
-            if(mike) { _fun99645_ip = 353; continue _fun99645 }
+            if(mike) { _fun99655_ip = 353; continue _fun99655 }
  322:
             oscar = zulu.length;
             report = 0;
             report = oscar > report;
-            if(!report) { _fun99645_ip = 350; continue _fun99645 }
+            if(!report) { _fun99655_ip = 350; continue _fun99655 }
  336:
             golf = tango.length;
             oscar = zulu.length;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.length;
             mike = 0;
             mike = report > mike;
-            if(!mike) { _fun99645_ip = 386; continue _fun99645 }
+            if(!mike) { _fun99655_ip = 386; continue _fun99655 }
  372:
             tango = tango.length;
             zulu = zulu.length;

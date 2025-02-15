@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = oscar.RED;
         mike['confirmColor'] = oscar;
         oscar = function() { // Original name: onConfirm
-            _fun99908: for(var _fun99908_ip = 0; ; ) switch(_fun99908_ip) {
+            _fun99917: for(var _fun99917_ip = 0; ; ) switch(_fun99917_ip) {
  0:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -83,10 +83,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = tango.bind(entity)(zulu);
                 tango = zulu.MessageRequestRestrictedGuildIds;
                 zulu = tango.updateSetting;
-                if(mike) { _fun99908_ip = 79; continue _fun99908 }
+                if(mike) { _fun99917_ip = 79; continue _fun99917 }
  73:
                 mike = new Array(0);
-                _fun99908_ip = 123; continue _fun99908;
+                _fun99917_ip = 123; continue _fun99917;
  79:
                 golf = _closure1_slot1;
                 options = _closure1_slot2;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = mike;
     options = function() { // Original name: useIsDisabled
-        _fun99910: for(var _fun99910_ip = 0; ; ) switch(_fun99910_ip) {
+        _fun99919: for(var _fun99919_ip = 0; ; ) switch(_fun99919_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.includes;
             entity = entity.bind(report)(tango);
             zulu = _closure1_slot6;
-            if(!(tango === zulu)) { _fun99910_ip = 98; continue _fun99910 }
+            if(!(tango === zulu)) { _fun99919_ip = 98; continue _fun99919 }
  95:
             entity = mike;
  98:
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     verify = verify.CONTENT_AND_SOCIAL;
     tango['parent'] = verify;
     verify = function() { // Original name: useValue
-        _fun99913: for(var _fun99913_ip = 0; ; ) switch(_fun99913_ip) {
+        _fun99922: for(var _fun99922_ip = 0; ; ) switch(_fun99922_ip) {
  0:
             entity = _closure1_slot4;
             golf = undefined;
@@ -264,10 +264,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(oscar)(report);
             mike = !mike;
             entity = !entity;
-            if(!entity) { _fun99913_ip = 124; continue _fun99913 }
+            if(!entity) { _fun99922_ip = 124; continue _fun99922 }
  110:
             tango = _closure1_slot6;
-            if(!(report === tango)) { _fun99913_ip = 121; continue _fun99913 }
+            if(!(report === tango)) { _fun99922_ip = 121; continue _fun99922 }
  118:
             mike = zulu;
  121:
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango['useValue'] = verify;
     tango['useIsDisabled'] = options;
     report = function(argFoo) { // Original name: onAllowMessageRequestsFromServerMembersValueChange
-        _fun99914: for(var _fun99914_ip = 0; ; ) switch(_fun99914_ip) {
+        _fun99923: for(var _fun99923_ip = 0; ; ) switch(_fun99923_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot0;
@@ -291,12 +291,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.isEligibleForMessageRequestOnByDefault;
             tango = 'onAllowDirectMessagesFromServerMembersValueChange';
             tango = report.bind(oscar)(tango);
-            if(tango) { _fun99914_ip = 191; continue _fun99914 }
+            if(tango) { _fun99923_ip = 191; continue _fun99923 }
  51:
             tango = _closure1_slot3;
             report = tango.bind(entity)();
             tango = _closure1_slot6;
-            if(!(report !== tango)) { _fun99914_ip = 179; continue _fun99914 }
+            if(!(report !== tango)) { _fun99923_ip = 179; continue _fun99923 }
  67:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -305,11 +305,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(entity)(tango);
             tango = oscar.getSanitizedMessageRequestRestrictedGuilds;
             options = tango.bind(oscar)();
-            if(mike) { _fun99914_ip = 112; continue _fun99914 }
+            if(mike) { _fun99923_ip = 112; continue _fun99923 }
  100:
             tango = options.add;
             tango = tango.bind(options)(report);
-            _fun99914_ip = 122; continue _fun99914;
+            _fun99923_ip = 122; continue _fun99923;
  112:
             tango = options.delete;
             tango = tango.bind(options)(report);
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.from;
             tango = tango.bind(golf)(options);
             tango = report.bind(oscar)(tango);
-            _fun99914_ip = 191; continue _fun99914;
+            _fun99923_ip = 191; continue _fun99923;
  179:
             zulu = _closure1_slot8;
             mike = !mike;

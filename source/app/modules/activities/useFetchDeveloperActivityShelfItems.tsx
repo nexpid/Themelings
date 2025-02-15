@@ -74,21 +74,21 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         mike[1] = oscar;
         mike[2] = report;
         entity = function() {
-            _fun118895: for(var _fun118895_ip = 0; ; ) switch(_fun118895_ip) {
+            _fun118901: for(var _fun118901_ip = 0; ; ) switch(_fun118901_ip) {
  0:
                 entity = _closure2_slot0;
-                if(!entity) { _fun118895_ip = 14; continue _fun118895 }
+                if(!entity) { _fun118901_ip = 14; continue _fun118901 }
  10:
                 entity = _closure2_slot1;
  14:
-                if(!entity) { _fun118895_ip = 38; continue _fun118895 }
+                if(!entity) { _fun118901_ip = 38; continue _fun118901 }
  17:
                 zulu = _closure2_slot2;
                 mike = _closure1_slot4;
                 mike = mike.INITIALIZED;
                 entity = zulu === mike;
  38:
-                if(!entity) { _fun118895_ip = 76; continue _fun118895 }
+                if(!entity) { _fun118901_ip = 76; continue _fun118901 }
  41:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;

@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_calls/native/action_sheet/JoinVoiceChannelButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun104478: for(var _fun104478_ip = 0; ; ) switch(_fun104478_ip) {
+        _fun104470: for(var _fun104470_ip = 0; ; ) switch(_fun104470_ip) {
  0:
             zulu = argFoo;
             mike = zulu.channel;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.t;
             golf = golf.eIi3Oj;
             golf = verify.bind(yankee)(golf);
-            if(options) { _fun104478_ip = 217; continue _fun104478 }
+            if(options) { _fun104470_ip = 217; continue _fun104470 }
  153:
             options = golf;
             verify = false;
-            if(!zulu) { _fun104478_ip = 271; continue _fun104478 }
+            if(!zulu) { _fun104470_ip = 271; continue _fun104470 }
  161:
             romeo = _closure1_slot0;
             zulu = _closure1_slot3;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.TVBCKS;
             options = golf.bind(yankee)(zulu);
             verify = true;
-            _fun104478_ip = 271; continue _fun104478;
+            _fun104470_ip = 271; continue _fun104470;
  217:
             romeo = _closure1_slot0;
             zulu = _closure1_slot3;

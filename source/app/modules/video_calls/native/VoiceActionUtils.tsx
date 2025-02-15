@@ -44,24 +44,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['DominantMuteState'] = tango;
     tango = function(argFoo) { // Original name: createMuteHandler
-        _fun103155: for(var _fun103155_ip = 0; ; ) switch(_fun103155_ip) {
+        _fun103147: for(var _fun103147_ip = 0; ; ) switch(_fun103147_ip) {
  0:
             report = argFoo;
             entity = arguments[1];
             golf = undefined;
-            if(!(entity === golf)) { _fun103155_ip = 14; continue _fun103155 }
+            if(!(entity === golf)) { _fun103147_ip = 14; continue _fun103147 }
  12:
             entity = false;
  14:
             mike = _closure1_slot2;
             mike = mike.NONE;
             zulu = report.selfMute;
-            if(!zulu) { _fun103155_ip = 46; continue _fun103155 }
+            if(!zulu) { _fun103147_ip = 46; continue _fun103147 }
  36:
             zulu = _closure1_slot2;
             mike = zulu.SELF_MUTE;
  46:
-            if(entity) { _fun103155_ip = 76; continue _fun103155 }
+            if(entity) { _fun103147_ip = 76; continue _fun103147 }
  49:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -69,12 +69,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar[entity];
             entity = zulu.bind(golf)(entity);
             zulu = entity.handleToggleSelfMute;
-            _fun103155_ip = 80; continue _fun103155;
+            _fun103147_ip = 80; continue _fun103147;
  76:
             zulu = _closure1_slot3;
  80:
             entity = report.suppress;
-            if(!entity) { _fun103155_ip = 124; continue _fun103155 }
+            if(!entity) { _fun103147_ip = 124; continue _fun103147 }
  89:
             oscar = _closure1_slot0;
             options = _closure1_slot1;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.SUPPRESS;
  124:
             entity = report.mute;
-            if(!entity) { _fun103155_ip = 168; continue _fun103155 }
+            if(!entity) { _fun103147_ip = 168; continue _fun103147 }
  133:
             oscar = _closure1_slot0;
             options = _closure1_slot1;
@@ -99,11 +99,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  168:
             entity = {};
             tango = report.selfMute;
-            if(tango) { _fun103155_ip = 185; continue _fun103155 }
+            if(tango) { _fun103147_ip = 185; continue _fun103147 }
  179:
             tango = report.mute;
  185:
-            if(tango) { _fun103155_ip = 194; continue _fun103155 }
+            if(tango) { _fun103147_ip = 194; continue _fun103147 }
  188:
             tango = report.suppress;
  194:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['createMuteHandler'] = tango;
     mike = function(argFoo) { // Original name: createDeafHandler
-        _fun103156: for(var _fun103156_ip = 0; ; ) switch(_fun103156_ip) {
+        _fun103148: for(var _fun103148_ip = 0; ; ) switch(_fun103148_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
             mike = mike.handleToggleSelfDeaf;
             zulu = tango.deaf;
-            if(!zulu) { _fun103156_ip = 65; continue _fun103156 }
+            if(!zulu) { _fun103148_ip = 65; continue _fun103148 }
  42:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  65:
             entity = {};
             zulu = tango.selfDeaf;
-            if(zulu) { _fun103156_ip = 82; continue _fun103156 }
+            if(zulu) { _fun103148_ip = 82; continue _fun103148 }
  76:
             zulu = tango.deaf;
  82:

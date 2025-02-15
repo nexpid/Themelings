@@ -8,20 +8,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = offset;
     entity = function(argFoo, argBar) { // Original name: isStableVoiceStateEqual
-        _fun103372: for(var _fun103372_ip = 0; ; ) switch(_fun103372_ip) {
+        _fun103364: for(var _fun103364_ip = 0; ; ) switch(_fun103364_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             entity = oscar === report;
-            if(entity) { _fun103372_ip = 63; continue _fun103372 }
+            if(entity) { _fun103364_ip = 63; continue _fun103364 }
  13:
             zulu = null;
             mike = zulu != oscar;
-            if(!mike) { _fun103372_ip = 26; continue _fun103372 }
+            if(!mike) { _fun103364_ip = 26; continue _fun103364 }
  22:
             mike = zulu != report;
  26:
-            if(!mike) { _fun103372_ip = 60; continue _fun103372 }
+            if(!mike) { _fun103364_ip = 60; continue _fun103364 }
  29:
             golf = _closure1_slot1;
             tango = _closure1_slot2;
@@ -59,18 +59,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu[1] = golf;
         verify = _closure1_slot7;
         yankee = function() {
-            _fun103374: for(var _fun103374_ip = 0; ; ) switch(_fun103374_ip) {
+            _fun103366: for(var _fun103366_ip = 0; ; ) switch(_fun103366_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zulu)) { _fun103374_ip = 44; continue _fun103374 }
+                if(!(entity != zulu)) { _fun103366_ip = 44; continue _fun103366 }
  13:
                 oscar = _closure1_slot4;
                 report = oscar.getVoiceState;
                 tango = _closure2_slot1;
                 mike = _closure2_slot0;
                 mike = report.bind(oscar)(tango, mike);
-                if(!(entity == mike)) { _fun103374_ip = 48; continue _fun103374 }
+                if(!(entity == mike)) { _fun103366_ip = 48; continue _fun103366 }
  44:
                 entity = undefined;
                 return entity;
@@ -120,13 +120,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun103376: for(var _fun103376_ip = 0; ; ) switch(_fun103376_ip) {
+            _fun103368: for(var _fun103368_ip = 0; ; ) switch(_fun103368_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
                 tango = mike != zulu;
                 zulu = undefined;
-                if(!tango) { _fun103376_ip = 45; continue _fun103376 }
+                if(!tango) { _fun103368_ip = 45; continue _fun103368 }
  18:
                 golf = _closure1_slot4;
                 oscar = golf.getVoiceState;
@@ -135,9 +135,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = oscar.bind(golf)(report, tango);
  45:
                 entity = _closure2_slot0;
-                if(!(mike != entity)) { _fun103376_ip = 139; continue _fun103376 }
+                if(!(mike != entity)) { _fun103368_ip = 139; continue _fun103368 }
  53:
-                if(!(mike != zulu)) { _fun103376_ip = 139; continue _fun103376 }
+                if(!(mike != zulu)) { _fun103368_ip = 139; continue _fun103368 }
  57:
                 oscar = _closure1_slot3;
                 report = oscar.isLocalVideoDisabled;
@@ -147,14 +147,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = zulu.selfVideo;
                 entity['selfVideo'] = oscar;
                 mike = null;
-                if(!report) { _fun103376_ip = 132; continue _fun103376 }
+                if(!report) { _fun103368_ip = 132; continue _fun103368 }
  98:
                 report = _closure1_slot3;
                 tango = report.isLocalVideoAutoDisabled;
                 zulu = zulu.userId;
                 tango = tango.bind(report)(zulu);
                 zulu = 'manual';
-                if(!tango) { _fun103376_ip = 129; continue _fun103376 }
+                if(!tango) { _fun103368_ip = 129; continue _fun103368 }
  125:
                 zulu = 'auto';
  129:
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['VideoIconState'] = oscar;
     zulu['useStableVoiceParticipant'] = report;
     report = function(argFoo, argBar) { // Original name: useMuteDeafenIconState
-        _fun103377: for(var _fun103377_ip = 0; ; ) switch(_fun103377_ip) {
+        _fun103369: for(var _fun103369_ip = 0; ; ) switch(_fun103369_ip) {
  0:
             report = _closure1_slot8;
             tango = undefined;
@@ -238,43 +238,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             report = mike == tango;
             entity = null;
-            if(report) { _fun103377_ip = 140; continue _fun103377 }
+            if(report) { _fun103369_ip = 140; continue _fun103369 }
  32:
             report = tango.deaf;
-            if(report) { _fun103377_ip = 127; continue _fun103377 }
+            if(report) { _fun103369_ip = 127; continue _fun103369 }
  41:
             report = tango.selfDeaf;
-            if(report) { _fun103377_ip = 115; continue _fun103377 }
+            if(report) { _fun103369_ip = 115; continue _fun103369 }
  50:
             report = tango.mute;
-            if(report) { _fun103377_ip = 103; continue _fun103377 }
+            if(report) { _fun103369_ip = 103; continue _fun103369 }
  59:
             report = tango.isLocalMute;
-            if(report) { _fun103377_ip = 91; continue _fun103377 }
+            if(report) { _fun103369_ip = 91; continue _fun103369 }
  68:
             tango = tango.selfMute;
             mike = null;
-            if(!tango) { _fun103377_ip = 89; continue _fun103377 }
+            if(!tango) { _fun103369_ip = 89; continue _fun103369 }
  79:
             tango = _closure1_slot5;
             mike = tango.MUTED;
  89:
-            _fun103377_ip = 101; continue _fun103377;
+            _fun103369_ip = 101; continue _fun103369;
  91:
             tango = _closure1_slot5;
             mike = tango.MUTED_LOCAL;
  101:
-            _fun103377_ip = 113; continue _fun103377;
+            _fun103369_ip = 113; continue _fun103369;
  103:
             tango = _closure1_slot5;
             mike = tango.MUTED_SERVER;
  113:
-            _fun103377_ip = 125; continue _fun103377;
+            _fun103369_ip = 125; continue _fun103369;
  115:
             tango = _closure1_slot5;
             mike = tango.DEAFENED;
  125:
-            _fun103377_ip = 137; continue _fun103377;
+            _fun103369_ip = 137; continue _fun103369;
  127:
             zulu = _closure1_slot5;
             mike = zulu.DEAFENED_SERVER;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useMuteDeafenIconState'] = report;
     zulu['useStableVideoState'] = tango;
     mike = function(argFoo, argBar) { // Original name: useVideoIconState
-        _fun103378: for(var _fun103378_ip = 0; ; ) switch(_fun103378_ip) {
+        _fun103370: for(var _fun103370_ip = 0; ; ) switch(_fun103370_ip) {
  0:
             report = _closure1_slot9;
             zulu = undefined;
@@ -297,28 +297,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             report = mike == zulu;
             entity = null;
-            if(report) { _fun103378_ip = 111; continue _fun103378 }
+            if(report) { _fun103370_ip = 111; continue _fun103370 }
  32:
             report = zulu.selfVideo;
             mike = null;
-            if(!report) { _fun103378_ip = 108; continue _fun103378 }
+            if(!report) { _fun103370_ip = 108; continue _fun103370 }
  43:
             oscar = zulu.localVideoDisabledState;
             report = 'auto';
-            if(!(report !== oscar)) { _fun103378_ip = 95; continue _fun103378 }
+            if(!(report !== oscar)) { _fun103370_ip = 95; continue _fun103370 }
  57:
             report = zulu.localVideoDisabledState;
             zulu = 'manual';
-            if(!(zulu !== report)) { _fun103378_ip = 83; continue _fun103378 }
+            if(!(zulu !== report)) { _fun103370_ip = 83; continue _fun103370 }
  71:
             zulu = _closure1_slot6;
             zulu = zulu.VIDEO_ACTIVE;
-            _fun103378_ip = 93; continue _fun103378;
+            _fun103370_ip = 93; continue _fun103370;
  83:
             report = _closure1_slot6;
             zulu = report.VIDEO_DISABLED_LOCAL;
  93:
-            _fun103378_ip = 105; continue _fun103378;
+            _fun103370_ip = 105; continue _fun103370;
  95:
             tango = _closure1_slot6;
             zulu = tango.VIDEO_DISABLED_LOCAL_AUTO;

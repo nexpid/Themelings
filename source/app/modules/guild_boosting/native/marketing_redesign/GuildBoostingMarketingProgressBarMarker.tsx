@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = options;
     entity = function(argFoo) { // Original name: ProgressBarMarkerInnerContent
-        _fun105155: for(var _fun105155_ip = 0; ; ) switch(_fun105155_ip) {
+        _fun105147: for(var _fun105147_ip = 0; ; ) switch(_fun105147_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot11;
@@ -39,10 +39,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = backup;
             verify[1] = golf;
             oscar = function() {
-                _fun105156: for(var _fun105156_ip = 0; ; ) switch(_fun105156_ip) {
+                _fun105148: for(var _fun105148_ip = 0; ; ) switch(_fun105148_ip) {
  0:
                     mike = _closure2_slot0;
-                    if(!mike) { _fun105156_ip = 79; continue _fun105156 }
+                    if(!mike) { _fun105148_ip = 79; continue _fun105148 }
  10:
                     zulu = _closure2_slot1;
                     mike = zulu.set;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             mike = mike.NONE;
             golf = null;
-            if(!(options !== mike)) { _fun105155_ip = 329; continue _fun105155 }
+            if(!(options !== mike)) { _fun105147_ip = 329; continue _fun105147 }
  219:
             tango = _closure1_slot7;
             zulu = _closure1_slot5;
@@ -100,10 +100,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot10;
             oscar = oscar[options];
             mike['source'] = oscar;
-            if(backup) { _fun105155_ip = 252; continue _fun105155 }
+            if(backup) { _fun105147_ip = 252; continue _fun105147 }
  244:
             options = offset.progressBarMarkerInnerCircleIcon;
-            _fun105155_ip = 258; continue _fun105155;
+            _fun105147_ip = 258; continue _fun105147;
  252:
             options = offset.progressBarMarkerInnerCircleIconUnlocked;
  258:
@@ -116,10 +116,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = result[verify];
             verify = output.bind(report)(verify);
             output = verify.unsafe_rawColors;
-            if(backup) { _fun105155_ip = 304; continue _fun105155 }
+            if(backup) { _fun105147_ip = 304; continue _fun105147 }
  296:
             verify = output.PREMIUM_PERK_PINK;
-            _fun105155_ip = 310; continue _fun105155;
+            _fun105147_ip = 310; continue _fun105147;
  304:
             verify = output.WHITE_100;
  310:
@@ -128,10 +128,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['style'] = oscar;
             golf = tango.bind(report)(zulu, mike);
  329:
-            if(!entity) { _fun105155_ip = 341; continue _fun105155 }
+            if(!entity) { _fun105147_ip = 341; continue _fun105147 }
  332:
             entity = golf;
-            if(backup) { _fun105155_ip = 603; continue _fun105155 }
+            if(backup) { _fun105147_ip = 603; continue _fun105147 }
  341:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;
@@ -151,17 +151,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(3);
             offset[0] = sizing;
             yankee = !yankee;
-            if(!yankee) { _fun105155_ip = 420; continue _fun105155 }
+            if(!yankee) { _fun105147_ip = 420; continue _fun105147 }
  417:
             yankee = backup;
  420:
-            if(!yankee) { _fun105155_ip = 426; continue _fun105155 }
+            if(!yankee) { _fun105147_ip = 426; continue _fun105147 }
  423:
             yankee = kilo;
  426:
             offset[1] = yankee;
             yankee = {};
-            if(backup) { _fun105155_ip = 532; continue _fun105155 }
+            if(backup) { _fun105147_ip = 532; continue _fun105147 }
  435:
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -180,12 +180,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.bind(report)(output);
             output = result.isThemeDark;
             output = output.bind(result)(echo);
-            if(!output) { _fun105155_ip = 524; continue _fun105155 }
+            if(!output) { _fun105147_ip = 524; continue _fun105147 }
  514:
             romeo = 0.5;
  524:
             romeo = kilo.bind(sizing)(backup, romeo);
-            _fun105155_ip = 563; continue _fun105155;
+            _fun105147_ip = 563; continue _fun105147;
  532:
             backup = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     oscar = 'modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingProgressBarMarker.tsx';
     oscar = golf.bind(options)(oscar);
     report = function(argFoo) { // Original name: ProgressBarMarker
-        _fun105158: for(var _fun105158_ip = 0; ; ) switch(_fun105158_ip) {
+        _fun105150: for(var _fun105150_ip = 0; ; ) switch(_fun105150_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot14;
@@ -390,14 +390,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = foxtrot;
             golf[2] = romeo;
             mike = function() {
-                _fun105159: for(var _fun105159_ip = 0; ; ) switch(_fun105159_ip) {
+                _fun105151: for(var _fun105151_ip = 0; ; ) switch(_fun105151_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun105159_ip = 14; continue _fun105159 }
+                    if(!mike) { _fun105151_ip = 14; continue _fun105151 }
  10:
                     mike = _closure2_slot1;
  14:
-                    if(!mike) { _fun105159_ip = 86; continue _fun105159 }
+                    if(!mike) { _fun105151_ip = 86; continue _fun105151 }
  17:
                     zulu = _closure2_slot0;
                     mike = zulu.set;
@@ -469,15 +469,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(3);
             options[0] = foxtrot;
             foxtrot = !verify;
-            if(!foxtrot) { _fun105158_ip = 328; continue _fun105158 }
+            if(!foxtrot) { _fun105150_ip = 328; continue _fun105150 }
  325:
             foxtrot = kilo;
  328:
             options[1] = foxtrot;
             foxtrot = {};
-            if(!romeo) { _fun105158_ip = 343; continue _fun105158 }
+            if(!romeo) { _fun105150_ip = 343; continue _fun105150 }
  337:
-            if(yankee) { _fun105158_ip = 472; continue _fun105158 }
+            if(yankee) { _fun105150_ip = 472; continue _fun105150 }
  343:
             output = _closure1_slot0;
             echo = _closure1_slot2;
@@ -497,18 +497,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = source[output];
             output = result.bind(tango)(output);
             output = output.unsafe_rawColors;
-            if(kilo) { _fun105158_ip = 448; continue _fun105158 }
+            if(kilo) { _fun105150_ip = 448; continue _fun105150 }
  424:
             result = output.PRIMARY_200;
             kilo = 0.4;
             kilo = echo.bind(update)(result, kilo);
-            _fun105158_ip = 470; continue _fun105158;
+            _fun105150_ip = 470; continue _fun105150;
  448:
             result = output.WHITE_500;
             output = 0.4;
             kilo = echo.bind(update)(result, output);
  470:
-            _fun105158_ip = 503; continue _fun105158;
+            _fun105150_ip = 503; continue _fun105150;
  472:
             result = _closure1_slot1;
             echo = _closure1_slot2;
@@ -540,31 +540,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(3);
             verify[0] = romeo;
             romeo = !yankee;
-            if(yankee) { _fun105158_ip = 605; continue _fun105158 }
+            if(yankee) { _fun105150_ip = 605; continue _fun105150 }
  599:
             romeo = backup.progressBarMarkerLabelLocked;
  605:
             verify[1] = romeo;
             romeo = yankee;
-            if(!yankee) { _fun105158_ip = 629; continue _fun105158 }
+            if(!yankee) { _fun105150_ip = 629; continue _fun105150 }
  615:
             foxtrot = _closure1_slot6;
             foxtrot = foxtrot.NONE;
             romeo = sizing !== foxtrot;
  629:
-            if(!romeo) { _fun105158_ip = 638; continue _fun105158 }
+            if(!romeo) { _fun105150_ip = 638; continue _fun105150 }
  632:
             romeo = backup.progressBarMarkerLabelWithIcon;
  638:
             verify[2] = romeo;
             oscar['style'] = verify;
-            if(!yankee) { _fun105158_ip = 663; continue _fun105158 }
+            if(!yankee) { _fun105150_ip = 663; continue _fun105150 }
  649:
             verify = _closure1_slot6;
             verify = verify.NONE;
             yankee = sizing !== verify;
  663:
-            if(!yankee) { _fun105158_ip = 716; continue _fun105158 }
+            if(!yankee) { _fun105150_ip = 716; continue _fun105150 }
  666:
             foxtrot = _closure1_slot7;
             romeo = _closure1_slot5;

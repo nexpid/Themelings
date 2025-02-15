@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceChannelList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelListPreview
-        _fun97283: for(var _fun97283_ip = 0; ; ) switch(_fun97283_ip) {
+        _fun97293: for(var _fun97293_ip = 0; ; ) switch(_fun97293_ip) {
  0:
             entity = argFoo;
             offset = entity.themes;
@@ -109,19 +109,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = romeo;
             entity = function(argFoo) {
-                _fun97284: for(var _fun97284_ip = 0; ; ) switch(_fun97284_ip) {
+                _fun97294: for(var _fun97294_ip = 0; ; ) switch(_fun97294_ip) {
  0:
                     entity = argFoo;
                     report = entity.item;
                     mike = report.kind;
                     entity = 'channel-row';
-                    if(!(entity !== mike)) { _fun97284_ip = 180; continue _fun97284 }
+                    if(!(entity !== mike)) { _fun97294_ip = 180; continue _fun97294 }
  26:
                     entity = 'messages-header';
-                    if(!(entity !== mike)) { _fun97284_ip = 115; continue _fun97284 }
+                    if(!(entity !== mike)) { _fun97294_ip = 115; continue _fun97294 }
  36:
                     entity = 'activity-cards';
-                    if(!(entity !== mike)) { _fun97284_ip = 50; continue _fun97284 }
+                    if(!(entity !== mike)) { _fun97294_ip = 50; continue _fun97294 }
  46:
                     entity = null;
                     return entity;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo.borderStrong;
             oscar[1] = options;
             options = !report;
-            if(!options) { _fun97283_ip = 166; continue _fun97283 }
+            if(!options) { _fun97293_ip = 166; continue _fun97293 }
  160:
             options = romeo.bgBasePrimary;
  166:
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(romeo)(oscar);
             entity['accessibilityLabel'] = oscar;
             oscar = null;
-            if(!report) { _fun97283_ip = 315; continue _fun97283 }
+            if(!report) { _fun97293_ip = 315; continue _fun97293 }
  240:
             romeo = _closure1_slot5;
             options = _closure1_slot4;

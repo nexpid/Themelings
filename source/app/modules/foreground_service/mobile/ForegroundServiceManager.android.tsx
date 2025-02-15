@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun75433: for(var _fun75433_ip = 0; ; ) switch(_fun75433_ip) {
+        _fun75443: for(var _fun75443_ip = 0; ; ) switch(_fun75443_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun75433_ip = 51; continue _fun75433 }
+            if(entity) { _fun75443_ip = 51; continue _fun75443 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun75433_ip = 92; continue _fun75433;
+            _fun75443_ip = 92; continue _fun75443;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun75433_ip = 71; continue _fun75433 }
+            if(oscar) { _fun75443_ip = 71; continue _fun75443 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun75434: for(var _fun75434_ip = 0; ; ) switch(_fun75434_ip) {
+        _fun75444: for(var _fun75444_ip = 0; ; ) switch(_fun75444_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun75434_ip = 76; continue _fun75434;
+            _fun75444_ip = 76; continue _fun75444;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -134,19 +134,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = 1;
             zulu['serviceNotificationIdentifier'] = tango;
             mike = function() {
-                _fun75439: for(var _fun75439_ip = 0; ; ) switch(_fun75439_ip) {
+                _fun75449: for(var _fun75449_ip = 0; ; ) switch(_fun75449_ip) {
  0:
                     mike = _closure3_slot0;
                     mike = mike.serviceNotifications;
                     mike = mike.size;
                     report = 0;
-                    if(!(!(mike > report))) { _fun75439_ip = 51; continue _fun75439 }
+                    if(!(!(mike > report))) { _fun75449_ip = 51; continue _fun75449 }
  24:
                     mike = _closure1_slot7;
                     zulu = mike.ForegroundServiceModule;
                     mike = zulu.stopService;
                     mike = mike.bind(zulu)();
-                    _fun75439_ip = 109; continue _fun75439;
+                    _fun75449_ip = 109; continue _fun75449;
  51:
                     mike = _closure1_slot7;
                     zulu = mike.ForegroundServiceModule;
@@ -225,13 +225,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'updateServiceHandler';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun75444: for(var _fun75444_ip = 0; ; ) switch(_fun75444_ip) {
+            _fun75454: for(var _fun75454_ip = 0; ; ) switch(_fun75454_ip) {
  0:
                 tango = argFoo;
                 report = argBar;
                 mike = this;
                 entity = null;
-                if(!(entity != report)) { _fun75444_ip = 94; continue _fun75444 }
+                if(!(entity != report)) { _fun75454_ip = 94; continue _fun75454 }
  15:
                 zulu = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -243,19 +243,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = golf.get;
                 entity = entity.bind(golf)(tango);
                 entity = zulu.bind(oscar)(entity, report);
-                if(entity) { _fun75444_ip = 139; continue _fun75444 }
+                if(entity) { _fun75454_ip = 139; continue _fun75454 }
  65:
                 zulu = mike.serviceNotifications;
                 entity = zulu.set;
                 entity = entity.bind(zulu)(tango, report);
                 entity = mike.handleChange;
                 entity = entity.bind(mike)();
-                _fun75444_ip = 139; continue _fun75444;
+                _fun75454_ip = 139; continue _fun75454;
  94:
                 zulu = mike.serviceNotifications;
                 entity = zulu.has;
                 entity = entity.bind(zulu)(tango);
-                if(!entity) { _fun75444_ip = 139; continue _fun75444 }
+                if(!entity) { _fun75454_ip = 139; continue _fun75454 }
  113:
                 zulu = mike.serviceNotifications;
                 entity = zulu.delete;

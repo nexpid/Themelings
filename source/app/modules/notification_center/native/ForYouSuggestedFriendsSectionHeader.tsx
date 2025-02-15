@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notification_center/native/ForYouSuggestedFriendsSectionHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForYouSuggestedFriendsSectionHeader
-        _fun116540: for(var _fun116540_ip = 0; ; ) switch(_fun116540_ip) {
+        _fun116546: for(var _fun116546_ip = 0; ; ) switch(_fun116546_ip) {
  0:
             entity = argFoo;
             golf = entity.showDivider;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = verify;
             golf = !golf;
-            if(!golf) { _fun116540_ip = 57; continue _fun116540 }
+            if(!golf) { _fun116546_ip = 57; continue _fun116546 }
  51:
             golf = options.noDivider;
  57:

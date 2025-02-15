@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: deriveMentionType
-        _fun82229: for(var _fun82229_ip = 0; ; ) switch(_fun82229_ip) {
+        _fun82245: for(var _fun82245_ip = 0; ; ) switch(_fun82245_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot6;
             mike = mike.GLOBAL;
-            if(!(mike !== zulu)) { _fun82229_ip = 116; continue _fun82229 }
+            if(!(mike !== zulu)) { _fun82245_ip = 116; continue _fun82245 }
  20:
             mike = _closure1_slot6;
             mike = mike.ROLE;
-            if(!(mike !== zulu)) { _fun82229_ip = 80; continue _fun82229 }
+            if(!(mike !== zulu)) { _fun82245_ip = 80; continue _fun82245 }
  34:
             mike = _closure1_slot6;
             mike = mike.USER;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: createOrUpdateTextComponent
-        _fun82230: for(var _fun82230_ip = 0; ; ) switch(_fun82230_ip) {
+        _fun82246: for(var _fun82246_ip = 0; ; ) switch(_fun82246_ip) {
  0:
             verify = argFoo;
             golf = argBar;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = report.bind(tango)(golf, entity);
             entity = {};
             offset = null;
-            if(!(offset == verify)) { _fun82230_ip = 53; continue _fun82230 }
+            if(!(offset == verify)) { _fun82246_ip = 53; continue _fun82246 }
  45:
             offset = _closure1_slot7;
             verify = offset.bind(tango)();
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar['height'] = golf;
             entity['size'] = oscar;
             entity['textParams'] = report;
-            if(!(tango === zulu)) { _fun82230_ip = 173; continue _fun82230 }
+            if(!(tango === zulu)) { _fun82246_ip = 173; continue _fun82246 }
  169:
             zulu = new Array(0);
  173:
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['addMention'] = tango;
     tango = function(argFoo) { // Original name: updateMentionStyle
-        _fun82237: for(var _fun82237_ip = 0; ; ) switch(_fun82237_ip) {
+        _fun82253: for(var _fun82253_ip = 0; ; ) switch(_fun82253_ip) {
  0:
             oscar = argFoo;
             report = {};
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = golf.bind(entity)(zulu);
             zulu = zulu.MentionStyleOrder;
             zulu = zulu.length;
-            if(!(tango !== zulu)) { _fun82237_ip = 121; continue _fun82237 }
+            if(!(tango !== zulu)) { _fun82253_ip = 121; continue _fun82253 }
  92:
             golf = _closure1_slot0;
             zulu = _closure1_slot3;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = golf.bind(entity)(zulu);
             zulu = zulu.MentionStyleOrder;
             zulu = zulu[tango];
-            _fun82237_ip = 150; continue _fun82237;
+            _fun82253_ip = 150; continue _fun82253;
  121:
             golf = _closure1_slot0;
             tango = _closure1_slot3;
@@ -408,20 +408,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = report.boundingRects;
             zulu = zulu.size;
             verify = 0;
-            if(!(verify !== zulu)) { _fun82237_ip = 504; continue _fun82237 }
+            if(!(verify !== zulu)) { _fun82253_ip = 504; continue _fun82253 }
  176:
             golf = report.boundingRects;
             tango = golf.has;
             zulu = report.style;
             zulu = tango.bind(golf)(zulu);
-            if(!zulu) { _fun82237_ip = 504; continue _fun82237 }
+            if(!zulu) { _fun82253_ip = 504; continue _fun82253 }
  203:
             golf = report.boundingRects;
             tango = golf.get;
             zulu = report.style;
             tango = tango.bind(golf)(zulu);
             golf = null;
-            if(!(golf == tango)) { _fun82237_ip = 271; continue _fun82237 }
+            if(!(golf == tango)) { _fun82253_ip = 271; continue _fun82253 }
  230:
             options = _closure1_slot0;
             offset = _closure1_slot3;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             options = offset.get;
             zulu = oscar.style;
             zulu = options.bind(offset)(zulu);
-            if(!(golf == zulu)) { _fun82237_ip = 337; continue _fun82237 }
+            if(!(golf == zulu)) { _fun82253_ip = 337; continue _fun82253 }
  296:
             options = _closure1_slot0;
             offset = _closure1_slot3;
@@ -856,11 +856,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['redo'] = tango;
     tango = function(argFoo) { // Original name: setNonNitroUpsellShown
-        _fun82250: for(var _fun82250_ip = 0; ; ) switch(_fun82250_ip) {
+        _fun82266: for(var _fun82266_ip = 0; ; ) switch(_fun82266_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun82250_ip = 60; continue _fun82250 }
+            if(!(entity != tango)) { _fun82266_ip = 60; continue _fun82266 }
  9:
             zulu = _closure1_slot1;
             mike = _closure1_slot3;
@@ -881,17 +881,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['setNonNitroUpsellShown'] = tango;
     tango = function(argFoo) { // Original name: languageSupportWarningDismissed
-        _fun82251: for(var _fun82251_ip = 0; ; ) switch(_fun82251_ip) {
+        _fun82267: for(var _fun82267_ip = 0; ; ) switch(_fun82267_ip) {
  0:
             oscar = argFoo;
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun82251_ip = 14; continue _fun82251 }
+            if(!(report === entity)) { _fun82267_ip = 14; continue _fun82267 }
  12:
             report = false;
  14:
             mike = null;
-            if(!(mike != oscar)) { _fun82251_ip = 74; continue _fun82251 }
+            if(!(mike != oscar)) { _fun82267_ip = 74; continue _fun82267 }
  20:
             zulu = _closure1_slot1;
             tango = _closure1_slot3;

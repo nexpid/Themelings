@@ -6,11 +6,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: isGuildEligibleForStageChannels
-        _fun120109: for(var _fun120109_ip = 0; ; ) switch(_fun120109_ip) {
+        _fun120115: for(var _fun120115_ip = 0; ; ) switch(_fun120115_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun120109_ip = 27; continue _fun120109 }
+            if(!(tango === zulu)) { _fun120115_ip = 27; continue _fun120115 }
  9:
             mike = _closure1_slot2;
             entity = new Array(1);
@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             mike = mike === zulu;
             report = undefined;
-            if(mike) { _fun120109_ip = 52; continue _fun120109 }
+            if(mike) { _fun120115_ip = 52; continue _fun120115 }
  49:
             report = tango;
  52:
-            if(mike) { _fun120109_ip = 58; continue _fun120109 }
+            if(mike) { _fun120115_ip = 58; continue _fun120115 }
  55:
             entity.return();
  58:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == oscar;
             entity = undefined;
-            if(tango) { _fun120109_ip = 114; continue _fun120109 }
+            if(tango) { _fun120115_ip = 114; continue _fun120115 }
  90:
             report = oscar.hasFeature;
             tango = _closure1_slot3;

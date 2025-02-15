@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getOptionFromSettingsFiltered
-        _fun52832: for(var _fun52832_ip = 0; ; ) switch(_fun52832_ip) {
+        _fun52839: for(var _fun52839_ip = 0; ; ) switch(_fun52839_ip) {
  0:
             golf = argBar;
             tango = _closure1_slot0;
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(entity);
             entity = tango.isCustomBackgroundOption;
             entity = entity.bind(tango)(zulu);
-            if(!entity) { _fun52832_ip = 107; continue _fun52832 }
+            if(!entity) { _fun52839_ip = 107; continue _fun52839 }
  71:
             tango = _closure1_slot1;
             options = _closure1_slot2;
@@ -35,11 +35,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.canUseCustomBackgrounds;
             tango = entity.bind(tango)(golf);
             entity = null;
-            if(!tango) { _fun52832_ip = 157; continue _fun52832 }
+            if(!tango) { _fun52839_ip = 157; continue _fun52839 }
  107:
             golf = 'number';
             tango = typeof zulu;
-            if(!(golf === tango)) { _fun52832_ip = 151; continue _fun52832 }
+            if(!(golf === tango)) { _fun52839_ip = 151; continue _fun52839 }
  118:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.isDefaultBackgroundOption;
             tango = mike.bind(tango)(zulu);
             mike = null;
-            if(!tango) { _fun52832_ip = 154; continue _fun52832 }
+            if(!tango) { _fun52839_ip = 154; continue _fun52839 }
  151:
             mike = zulu;
  154:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_backgrounds/LastUsedVideoBackgroundOption.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getLastUsedVideoBackgroundOption
-        _fun52833: for(var _fun52833_ip = 0; ; ) switch(_fun52833_ip) {
+        _fun52840: for(var _fun52840_ip = 0; ; ) switch(_fun52840_ip) {
  0:
             tango = _closure1_slot6;
             entity = _closure1_slot4;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike == entity;
             zulu = undefined;
             mike = undefined;
-            if(report) { _fun52833_ip = 42; continue _fun52833 }
+            if(report) { _fun52840_ip = 42; continue _fun52840 }
  36:
             mike = entity.videoBackgroundFilterDesktop;
  42:
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getLastUsedVideoBackgroundOption'] = tango;
     mike = function() { // Original name: useLastUsedVideoBackgroundOption
-        _fun52834: for(var _fun52834_ip = 0; ; ) switch(_fun52834_ip) {
+        _fun52841: for(var _fun52841_ip = 0; ; ) switch(_fun52841_ip) {
  0:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.voiceAndVideo;
             tango = null;
             tango = tango == zulu;
-            if(tango) { _fun52834_ip = 117; continue _fun52834 }
+            if(tango) { _fun52841_ip = 117; continue _fun52841 }
  111:
             oscar = zulu.videoBackgroundFilterDesktop;
  117:
@@ -154,12 +154,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = oscar;
             mike[1] = report;
             entity = function() {
-                _fun52837: for(var _fun52837_ip = 0; ; ) switch(_fun52837_ip) {
+                _fun52844: for(var _fun52844_ip = 0; ; ) switch(_fun52844_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity == zulu;
-                    if(zulu) { _fun52837_ip = 39; continue _fun52837 }
+                    if(zulu) { _fun52844_ip = 39; continue _fun52844 }
  16:
                     report = _closure1_slot6;
                     tango = _closure2_slot1;

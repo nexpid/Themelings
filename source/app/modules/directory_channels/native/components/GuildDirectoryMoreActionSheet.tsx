@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/directory_channels/native/components/GuildDirectoryMoreActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun78822: for(var _fun78822_ip = 0; ; ) switch(_fun78822_ip) {
+        _fun78832: for(var _fun78832_ip = 0; ; ) switch(_fun78832_ip) {
  0:
             entity = argFoo;
             mike = entity.entry;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.ActionSheet;
             entity = {};
             options = null;
-            if(!report) { _fun78822_ip = 252; continue _fun78822 }
+            if(!report) { _fun78832_ip = 252; continue _fun78832 }
  99:
             yankee = _closure1_slot4;
             backup = _closure1_slot0;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = options;
             options = null;
-            if(!verify) { _fun78822_ip = 451; continue _fun78822 }
+            if(!verify) { _fun78832_ip = 451; continue _fun78832 }
  268:
             yankee = _closure1_slot4;
             backup = _closure1_slot0;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  451:
             report[1] = options;
             oscar = null;
-            if(golf) { _fun78822_ip = 632; continue _fun78822 }
+            if(golf) { _fun78832_ip = 632; continue _fun78832 }
  463:
             verify = _closure1_slot4;
             options = _closure1_slot5;

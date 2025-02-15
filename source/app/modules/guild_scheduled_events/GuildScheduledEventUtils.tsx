@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/GuildScheduledEventUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getNextShownUpcomingEventNoticeType
-        _fun76117: for(var _fun76117_ip = 0; ; ) switch(_fun76117_ip) {
+        _fun76127: for(var _fun76127_ip = 0; ; ) switch(_fun76127_ip) {
  0:
             verify = argFoo;
             golf = argBar;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = report.start;
             yankee = report.end;
             yankee = backup.bind(romeo)(foxtrot, yankee);
-            if(yankee) { _fun76117_ip = 237; continue _fun76117 }
+            if(yankee) { _fun76127_ip = 237; continue _fun76127 }
  128:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot1;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.min;
             entity = null;
             backup = yankee;
-            if(!(entity != oscar)) { _fun76117_ip = 187; continue _fun76117 }
+            if(!(entity != oscar)) { _fun76127_ip = 187; continue _fun76127 }
  184:
             backup = oscar;
  187:
@@ -88,11 +88,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(foxtrot)(oscar, options);
             oscar = romeo.isBetween;
             oscar = oscar.bind(romeo)(yankee, verify);
-            if(!oscar) { _fun76117_ip = 235; continue _fun76117 }
+            if(!oscar) { _fun76127_ip = 235; continue _fun76127 }
  216:
-            if(!(entity == golf)) { _fun76117_ip = 235; continue _fun76117 }
+            if(!(entity == golf)) { _fun76127_ip = 235; continue _fun76127 }
  220:
-            if(zulu) { _fun76117_ip = 235; continue _fun76117 }
+            if(zulu) { _fun76127_ip = 235; continue _fun76127 }
  223:
             entity = _closure1_slot2;
             entity = entity.NEW_EVENT;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return tango;
  237:
             entity = null;
-            if(!(entity == golf)) { _fun76117_ip = 255; continue _fun76117 }
+            if(!(entity == golf)) { _fun76127_ip = 255; continue _fun76127 }
  243:
             entity = _closure1_slot2;
             entity = entity.EVENT_STARTING_SOON;
@@ -126,12 +126,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = offset.bind(yankee)(verify, entity);
             report = report.bind(golf)(entity, options);
             entity = undefined;
-            if(oscar) { _fun76117_ip = 368; continue _fun76117 }
+            if(oscar) { _fun76127_ip = 368; continue _fun76127 }
  350:
-            if(!report) { _fun76117_ip = 358; continue _fun76117 }
+            if(!report) { _fun76127_ip = 358; continue _fun76127 }
  353:
             entity = undefined;
-            if(!zulu) { _fun76117_ip = 368; continue _fun76117 }
+            if(!zulu) { _fun76127_ip = 368; continue _fun76127 }
  358:
             mike = _closure1_slot2;
             entity = mike.EVENT_STARTING_SOON;

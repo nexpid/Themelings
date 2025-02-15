@@ -71,7 +71,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function() { // Original name: QuestDockContentExpanded
-        _fun116281: for(var _fun116281_ip = 0; ; ) switch(_fun116281_ip) {
+        _fun116287: for(var _fun116287_ip = 0; ; ) switch(_fun116287_ip) {
  0:
             oscar = _closure1_slot3;
             zulu = oscar.useContext;
@@ -102,7 +102,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = null;
             options = zulu == oscar;
             mike = undefined;
-            if(options) { _fun116281_ip = 142; continue _fun116281 }
+            if(options) { _fun116287_ip = 142; continue _fun116287 }
  136:
             mike = oscar.enrolledAt;
  142:
@@ -115,13 +115,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = backup.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: n
-                _fun116282: for(var _fun116282_ip = 0; ; ) switch(_fun116282_ip) {
+                _fun116288: for(var _fun116288_ip = 0; ; ) switch(_fun116288_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot3;
                     golf = undefined;
                     zulu = undefined;
-                    if(tango) { _fun116282_ip = 23; continue _fun116282 }
+                    if(tango) { _fun116288_ip = 23; continue _fun116288 }
  16:
                     zulu = _closure1_slot6;
  23:
@@ -143,7 +143,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     zulu = _closure1_slot4;
                     oscar = zulu.EXPANDED;
                     zulu = 0;
-                    if(!(offset === oscar)) { _fun116282_ip = 109; continue _fun116282 }
+                    if(!(offset === oscar)) { _fun116288_ip = 109; continue _fun116288 }
  106:
                     zulu = 1;
  109:
@@ -209,7 +209,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report[1] = options;
             entity['style'] = report;
             options = !oscar;
-            if(oscar) { _fun116281_ip = 372; continue _fun116281 }
+            if(oscar) { _fun116287_ip = 372; continue _fun116287 }
  340:
             yankee = _closure1_slot7;
             verify = _closure1_slot1;
@@ -222,7 +222,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  372:
             report = new Array(2);
             report[0] = options;
-            if(!oscar) { _fun116281_ip = 425; continue _fun116281 }
+            if(!oscar) { _fun116287_ip = 425; continue _fun116287 }
  383:
             verify = _closure1_slot7;
             options = _closure1_slot1;

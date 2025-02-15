@@ -46,11 +46,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun119103: for(var _fun119103_ip = 0; ; ) switch(_fun119103_ip) {
+            _fun119109: for(var _fun119109_ip = 0; ; ) switch(_fun119109_ip) {
  0:
                 mike = _closure2_slot1;
                 mike = mike.current;
-                if(!mike) { _fun119103_ip = 37; continue _fun119103 }
+                if(!mike) { _fun119109_ip = 37; continue _fun119109 }
  15:
                 zulu = _closure2_slot1;
                 mike = false;

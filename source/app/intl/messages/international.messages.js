@@ -47,15 +47,6 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         return entity;
     };
     tango['KUFsLi'] = entity;
-    entity = function(argFoo) { // Original name: xi8rEx
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'xi8rEx';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['xi8rEx'] = entity;
     entity = function(argFoo) { // Original name: yQfLwM
         tango = _closure1_slot2;
         zulu = tango.get;
@@ -65,15 +56,6 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         return entity;
     };
     tango['yQfLwM'] = entity;
-    entity = function(argFoo) { // Original name: jM7sUl
-        tango = _closure1_slot2;
-        zulu = tango.get;
-        mike = 'jM7sUl';
-        entity = argFoo;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    tango['jM7sUl'] = entity;
     entity = function(argFoo) { // Original name: QkGMPz
         tango = _closure1_slot2;
         zulu = tango.get;
@@ -83,6 +65,24 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         return entity;
     };
     tango['QkGMPz'] = entity;
+    entity = function(argFoo) { // Original name: jM7sUl
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'jM7sUl';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['jM7sUl'] = entity;
+    entity = function(argFoo) { // Original name: xi8rEx
+        tango = _closure1_slot2;
+        zulu = tango.get;
+        mike = 'xi8rEx';
+        entity = argFoo;
+        entity = zulu.bind(tango)(mike, entity);
+        return entity;
+    };
+    tango['xi8rEx'] = entity;
     entity = function(argFoo) { // Original name: ofazSU
         tango = _closure1_slot2;
         zulu = tango.get;

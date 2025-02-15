@@ -77,17 +77,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = _closure1_slot3;
         report = verify.useCallback;
         zulu = function(argFoo) {
-            _fun123559: for(var _fun123559_ip = 0; ; ) switch(_fun123559_ip) {
+            _fun123564: for(var _fun123564_ip = 0; ; ) switch(_fun123564_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.rating;
                 mike = null;
                 entity = mike != zulu;
-                if(!entity) { _fun123559_ip = 22; continue _fun123559 }
+                if(!entity) { _fun123564_ip = 22; continue _fun123564 }
  18:
                 entity = mike != zulu;
  22:
-                if(!entity) { _fun123559_ip = 60; continue _fun123559 }
+                if(!entity) { _fun123564_ip = 60; continue _fun123564 }
  25:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;

@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot2 = zulu;
         mike = zulu.map;
         entity = function(argFoo, argBar) {
-            _fun78883: for(var _fun78883_ip = 0; ; ) switch(_fun78883_ip) {
+            _fun78893: for(var _fun78893_ip = 0; ; ) switch(_fun78893_ip) {
  0:
                 romeo = argFoo;
                 var _closure3_slot0 = romeo;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 kilo = _closure2_slot0;
                 backup = romeo.value;
                 foxtrot = null;
-                if(!(kilo === backup)) { _fun78883_ip = 174; continue _fun78883 }
+                if(!(kilo === backup)) { _fun78893_ip = 174; continue _fun78893 }
  74:
                 sizing = _closure1_slot4;
                 result = _closure1_slot1;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = oscar.length;
                 oscar = argBar;
                 oscar = oscar !== options;
-                if(!oscar) { _fun78883_ip = 267; continue _fun78883 }
+                if(!oscar) { _fun78893_ip = 267; continue _fun78893 }
  232:
                 verify = _closure1_slot4;
                 options = _closure1_slot0;

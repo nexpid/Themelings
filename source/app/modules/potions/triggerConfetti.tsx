@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = tango;
     tango = function(argFoo, argBar) { // Original name: _shouldConfettiTrigger
-        _fun91158: for(var _fun91158_ip = 0; ; ) switch(_fun91158_ip) {
+        _fun91187: for(var _fun91187_ip = 0; ; ) switch(_fun91187_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -65,10 +65,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.canSeeConfetti;
             entity = _closure1_slot4;
             entity = entity.confettiMode;
-            if(entity) { _fun91158_ip = 138; continue _fun91158 }
+            if(entity) { _fun91187_ip = 138; continue _fun91187 }
  83:
             entity = argBar;
-            if(entity) { _fun91158_ip = 138; continue _fun91158 }
+            if(entity) { _fun91187_ip = 138; continue _fun91187 }
  89:
             entity = {};
             entity['shouldPlay'] = oscar;
@@ -80,9 +80,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.ConfettiTriggerFailureReason;
             zulu = zulu.NotInConfettiMode;
             entity['failureReason'] = zulu;
-            _fun91158_ip = 396; continue _fun91158;
+            _fun91187_ip = 396; continue _fun91187;
  138:
-            if(mike) { _fun91158_ip = 190; continue _fun91158 }
+            if(mike) { _fun91187_ip = 190; continue _fun91187 }
  141:
             mike = {};
             mike['shouldPlay'] = oscar;
@@ -94,11 +94,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.ConfettiTriggerFailureReason;
             zulu = zulu.NotInExperiment;
             mike['failureReason'] = zulu;
-            _fun91158_ip = 393; continue _fun91158;
+            _fun91187_ip = 393; continue _fun91187;
  190:
             zulu = _closure1_slot3;
             zulu = zulu.useReducedMotion;
-            if(zulu) { _fun91158_ip = 343; continue _fun91158 }
+            if(zulu) { _fun91187_ip = 343; continue _fun91187 }
  206:
             tango = _closure1_slot0;
             options = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = argFoo;
             tango = tango.bind(options)(zulu);
             zulu = null;
-            if(!(zulu != tango)) { _fun91158_ip = 294; continue _fun91158 }
+            if(!(zulu != tango)) { _fun91187_ip = 294; continue _fun91187 }
  246:
             zulu = {};
             tango = true;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.ConfettiTriggerFailureReason;
             tango = tango.None;
             zulu['failureReason'] = tango;
-            _fun91158_ip = 341; continue _fun91158;
+            _fun91187_ip = 341; continue _fun91187;
  294:
             tango = {};
             tango['shouldPlay'] = oscar;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['failureReason'] = options;
             zulu = tango;
  341:
-            _fun91158_ip = 390; continue _fun91158;
+            _fun91187_ip = 390; continue _fun91187;
  343:
             tango = {};
             tango['shouldPlay'] = oscar;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = tango;
     tango = function(argFoo) { // Original name: _shouldConfettiTriggerByEmoji
-        _fun91159: for(var _fun91159_ip = 0; ; ) switch(_fun91159_ip) {
+        _fun91188: for(var _fun91188_ip = 0; ; ) switch(_fun91188_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -179,10 +179,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.canSeeConfetti;
             entity = _closure1_slot4;
             entity = entity.confettiMode;
-            if(entity) { _fun91159_ip = 138; continue _fun91159 }
+            if(entity) { _fun91188_ip = 138; continue _fun91188 }
  83:
             entity = argFoo;
-            if(entity) { _fun91159_ip = 138; continue _fun91159 }
+            if(entity) { _fun91188_ip = 138; continue _fun91188 }
  89:
             entity = {};
             entity['shouldPlay'] = oscar;
@@ -194,10 +194,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.ConfettiTriggerFailureReason;
             zulu = zulu.NotInConfettiMode;
             entity['failureReason'] = zulu;
-            _fun91159_ip = 303; continue _fun91159;
+            _fun91188_ip = 303; continue _fun91188;
  138:
             tango = {};
-            if(mike) { _fun91159_ip = 190; continue _fun91159 }
+            if(mike) { _fun91188_ip = 190; continue _fun91188 }
  143:
             tango['shouldPlay'] = oscar;
             zulu = _closure1_slot0;
@@ -209,11 +209,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.NotInExperiment;
             tango['failureReason'] = mike;
             mike = tango;
-            _fun91159_ip = 300; continue _fun91159;
+            _fun91188_ip = 300; continue _fun91188;
  190:
             zulu = _closure1_slot3;
             zulu = zulu.useReducedMotion;
-            if(zulu) { _fun91159_ip = 252; continue _fun91159 }
+            if(zulu) { _fun91188_ip = 252; continue _fun91188 }
  203:
             zulu = true;
             tango['shouldPlay'] = zulu;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.None;
             tango['failureReason'] = zulu;
             zulu = tango;
-            _fun91159_ip = 297; continue _fun91159;
+            _fun91188_ip = 297; continue _fun91188;
  252:
             tango['shouldPlay'] = oscar;
             oscar = _closure1_slot0;
@@ -254,24 +254,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/potions/triggerConfetti.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: _default
-        _fun91160: for(var _fun91160_ip = 0; ; ) switch(_fun91160_ip) {
+        _fun91189: for(var _fun91189_ip = 0; ; ) switch(_fun91189_ip) {
  0:
             golf = argFoo;
             zulu = arguments[1];
             oscar = arguments[2];
             entity = undefined;
-            if(!(zulu === entity)) { _fun91160_ip = 27; continue _fun91160 }
+            if(!(zulu === entity)) { _fun91189_ip = 27; continue _fun91189 }
  17:
             zulu = {'x': 0, 'y': 0, 'w': 0, 'h': 0};
  27:
             var _closure2_slot0 = zulu;
-            if(!(oscar === entity)) { _fun91160_ip = 37; continue _fun91160 }
+            if(!(oscar === entity)) { _fun91189_ip = 37; continue _fun91189 }
  35:
             oscar = false;
  37:
             zulu = _closure1_slot6;
             zulu = zulu.bind(entity)();
-            if(!zulu) { _fun91160_ip = 289; continue _fun91160 }
+            if(!zulu) { _fun91189_ip = 289; continue _fun91189 }
  54:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -283,12 +283,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == zulu;
             tango = undefined;
-            if(options) { _fun91160_ip = 122; continue _fun91160 }
+            if(options) { _fun91189_ip = 122; continue _fun91189 }
  96:
             verify = zulu.emoji;
             options = report == verify;
             tango = undefined;
-            if(options) { _fun91160_ip = 122; continue _fun91160 }
+            if(options) { _fun91189_ip = 122; continue _fun91189 }
  111:
             options = 0;
             options = verify[options];
@@ -314,10 +314,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = backup[romeo];
             romeo = foxtrot.bind(entity)(romeo);
             romeo = romeo.ConfettiTriggerEmojiType;
-            if(yankee) { _fun91160_ip = 222; continue _fun91160 }
+            if(yankee) { _fun91189_ip = 222; continue _fun91189 }
  214:
             yankee = romeo.UserCreated;
-            _fun91160_ip = 228; continue _fun91160;
+            _fun91189_ip = 228; continue _fun91189;
  222:
             yankee = romeo.Unicode;
  228:
@@ -327,11 +327,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = arguments[3];
             oscar['location'] = offset;
             oscar = options.bind(verify)(golf, oscar);
-            if(!tango) { _fun91160_ip = 263; continue _fun91160 }
+            if(!tango) { _fun91189_ip = 263; continue _fun91189 }
  259:
             tango = report != zulu;
  263:
-            if(!tango) { _fun91160_ip = 289; continue _fun91160 }
+            if(!tango) { _fun91189_ip = 289; continue _fun91189 }
  266:
             tango = zulu.emoji;
             zulu = tango.forEach;
@@ -360,23 +360,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) {
-        _fun91162: for(var _fun91162_ip = 0; ; ) switch(_fun91162_ip) {
+        _fun91191: for(var _fun91191_ip = 0; ; ) switch(_fun91191_ip) {
  0:
             oscar = argFoo;
             report = arguments[1];
             tango = arguments[2];
             entity = undefined;
-            if(!(report === entity)) { _fun91162_ip = 25; continue _fun91162 }
+            if(!(report === entity)) { _fun91191_ip = 25; continue _fun91191 }
  15:
             report = {'x': 0, 'y': 0, 'w': 0, 'h': 0};
  25:
-            if(!(tango === entity)) { _fun91162_ip = 31; continue _fun91162 }
+            if(!(tango === entity)) { _fun91191_ip = 31; continue _fun91191 }
  29:
             tango = false;
  31:
             zulu = _closure1_slot6;
             zulu = zulu.bind(entity)();
-            if(!zulu) { _fun91162_ip = 243; continue _fun91162 }
+            if(!zulu) { _fun91191_ip = 243; continue _fun91191 }
  48:
             golf = oscar.id;
             zulu = null;
@@ -400,10 +400,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = backup[romeo];
             romeo = foxtrot.bind(entity)(romeo);
             romeo = romeo.ConfettiTriggerEmojiType;
-            if(yankee) { _fun91162_ip = 154; continue _fun91162 }
+            if(yankee) { _fun91191_ip = 154; continue _fun91191 }
  146:
             yankee = romeo.UserCreated;
-            _fun91162_ip = 160; continue _fun91162;
+            _fun91191_ip = 160; continue _fun91191;
  154:
             yankee = romeo.Unicode;
  160:
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = arguments[3];
             tango['location'] = offset;
             tango = options.bind(verify)(golf, tango);
-            if(!zulu) { _fun91162_ip = 243; continue _fun91162 }
+            if(!zulu) { _fun91191_ip = 243; continue _fun91191 }
  191:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

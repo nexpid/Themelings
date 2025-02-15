@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/NitroWheelIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun75632: for(var _fun75632_ip = 0; ; ) switch(_fun75632_ip) {
+        _fun75642: for(var _fun75642_ip = 0; ; ) switch(_fun75642_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun75632_ip = 53; continue _fun75632 }
+            if(!(golf === tango)) { _fun75642_ip = 53; continue _fun75642 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

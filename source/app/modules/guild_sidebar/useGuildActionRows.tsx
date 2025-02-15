@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_sidebar/useGuildActionRows.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useGuildActionRows
-        _fun116120: for(var _fun116120_ip = 0; ; ) switch(_fun116120_ip) {
+        _fun116126: for(var _fun116126_ip = 0; ; ) switch(_fun116126_ip) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
@@ -145,47 +145,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             echo = update.useGuildPowerupsExperimentEnabled;
             zulu = 'useGuildActionRow';
             zulu = echo.bind(update)(verify, zulu);
-            if(!romeo) { _fun116120_ip = 490; continue _fun116120 }
+            if(!romeo) { _fun116126_ip = 490; continue _fun116126 }
  470:
             update = entity.push;
             echo = _closure1_slot4;
             echo = echo.GUILD_HUB_HEADER_OPTIONS;
             echo = update.bind(entity)(echo);
  490:
-            if(result) { _fun116120_ip = 538; continue _fun116120 }
+            if(result) { _fun116126_ip = 538; continue _fun116126 }
  493:
-            if(!sizing) { _fun116120_ip = 538; continue _fun116120 }
+            if(!sizing) { _fun116126_ip = 538; continue _fun116126 }
  496:
-            if(!output) { _fun116120_ip = 538; continue _fun116120 }
+            if(!output) { _fun116126_ip = 538; continue _fun116126 }
  499:
             output = null;
-            if(!(output != kilo)) { _fun116120_ip = 538; continue _fun116120 }
+            if(!(output != kilo)) { _fun116126_ip = 538; continue _fun116126 }
  505:
             output = kilo.length;
             kilo = 0;
-            if(!(output > kilo)) { _fun116120_ip = 538; continue _fun116120 }
+            if(!(output > kilo)) { _fun116126_ip = 538; continue _fun116126 }
  516:
             output = entity.push;
             kilo = _closure1_slot4;
             kilo = kilo.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
             kilo = output.bind(entity)(kilo);
-            _fun116120_ip = 544; continue _fun116120;
+            _fun116126_ip = 544; continue _fun116126;
  538:
             kilo = verify.premiumProgressBarEnabled;
  544:
             kilo = !romeo;
-            if(!kilo) { _fun116120_ip = 553; continue _fun116120 }
+            if(!kilo) { _fun116126_ip = 553; continue _fun116126 }
  550:
             kilo = sizing;
  553:
-            if(!kilo) { _fun116120_ip = 576; continue _fun116120 }
+            if(!kilo) { _fun116126_ip = 576; continue _fun116126 }
  556:
             sizing = entity.push;
             kilo = _closure1_slot4;
             kilo = kilo.GUILD_HOME;
             kilo = sizing.bind(entity)(kilo);
  576:
-            if(!backup) { _fun116120_ip = 599; continue _fun116120 }
+            if(!backup) { _fun116126_ip = 599; continue _fun116126 }
  579:
             kilo = entity.push;
             backup = _closure1_slot4;
@@ -193,29 +193,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = kilo.bind(entity)(backup);
  599:
             romeo = !romeo;
-            if(!romeo) { _fun116120_ip = 608; continue _fun116120 }
+            if(!romeo) { _fun116126_ip = 608; continue _fun116126 }
  605:
             romeo = report;
  608:
-            if(!romeo) { _fun116120_ip = 614; continue _fun116120 }
+            if(!romeo) { _fun116126_ip = 614; continue _fun116126 }
  611:
             romeo = foxtrot;
  614:
-            if(!romeo) { _fun116120_ip = 637; continue _fun116120 }
+            if(!romeo) { _fun116126_ip = 637; continue _fun116126 }
  617:
             foxtrot = entity.push;
             romeo = _closure1_slot4;
             romeo = romeo.CHANNELS_AND_ROLES;
             romeo = foxtrot.bind(entity)(romeo);
  637:
-            if(!yankee) { _fun116120_ip = 660; continue _fun116120 }
+            if(!yankee) { _fun116126_ip = 660; continue _fun116126 }
  640:
             romeo = entity.push;
             yankee = _closure1_slot4;
             yankee = yankee.GUILD_ROLE_SUBSCRIPTIONS;
             yankee = romeo.bind(entity)(yankee);
  660:
-            if(!options) { _fun116120_ip = 683; continue _fun116120 }
+            if(!options) { _fun116126_ip = 683; continue _fun116126 }
  663:
             yankee = entity.push;
             options = _closure1_slot4;
@@ -223,26 +223,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = yankee.bind(entity)(options);
  683:
             options = !oscar;
-            if(!options) { _fun116120_ip = 692; continue _fun116120 }
+            if(!options) { _fun116126_ip = 692; continue _fun116126 }
  689:
             options = offset;
  692:
-            if(!options) { _fun116120_ip = 715; continue _fun116120 }
+            if(!options) { _fun116126_ip = 715; continue _fun116126 }
  695:
             offset = entity.push;
             options = _closure1_slot4;
             options = options.GUILD_MEMBER_APPLICATIONS;
             options = offset.bind(entity)(options);
  715:
-            if(!tango) { _fun116120_ip = 757; continue _fun116120 }
+            if(!tango) { _fun116126_ip = 757; continue _fun116126 }
  718:
-            if(report) { _fun116120_ip = 724; continue _fun116120 }
+            if(report) { _fun116126_ip = 724; continue _fun116126 }
  721:
             report = golf;
  724:
-            if(report) { _fun116120_ip = 754; continue _fun116120 }
+            if(report) { _fun116126_ip = 754; continue _fun116126 }
  727:
-            if(!oscar) { _fun116120_ip = 751; continue _fun116120 }
+            if(!oscar) { _fun116126_ip = 751; continue _fun116126 }
  730:
             options = verify.hasFeature;
             golf = _closure1_slot5;
@@ -253,14 +253,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  754:
             tango = report;
  757:
-            if(!tango) { _fun116120_ip = 780; continue _fun116120 }
+            if(!tango) { _fun116126_ip = 780; continue _fun116126 }
  760:
             report = entity.push;
             tango = _closure1_slot4;
             tango = tango.GUILD_MOD_DASH_MEMBER_SAFETY;
             tango = report.bind(entity)(tango);
  780:
-            if(!zulu) { _fun116120_ip = 803; continue _fun116120 }
+            if(!zulu) { _fun116126_ip = 803; continue _fun116126 }
  783:
             zulu = entity.push;
             mike = _closure1_slot4;

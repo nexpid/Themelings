@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = report;
     report = function(argFoo) { // Original name: HubEmailConnectionGuildSelectFooter
-        _fun93742: for(var _fun93742_ip = 0; ; ) switch(_fun93742_ip) {
+        _fun93767: for(var _fun93767_ip = 0; ; ) switch(_fun93767_ip) {
  0:
             entity = argFoo;
             backup = entity.errors;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = options;
             romeo = null;
             options = romeo != backup;
-            if(!options) { _fun93742_ip = 299; continue _fun93742 }
+            if(!options) { _fun93767_ip = 299; continue _fun93767 }
  229:
             yankee = _closure1_slot10;
             offset = _closure1_slot0;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['style'] = foxtrot;
             foxtrot = romeo == backup;
             romeo = undefined;
-            if(foxtrot) { _fun93742_ip = 289; continue _fun93742 }
+            if(foxtrot) { _fun93767_ip = 289; continue _fun93767 }
  279:
             foxtrot = backup.getAnyErrorMessage;
             romeo = foxtrot.bind(backup)();
@@ -470,11 +470,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = undefined;
             report = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun93751: for(var _fun93751_ip = 0; ; ) switch(_fun93751_ip) {
+                    _fun93776: for(var _fun93776_ip = 0; ; ) switch(_fun93776_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun93751_ip = 255; continue _fun93751 }
+                        if(mike) { _fun93776_ip = 255; continue _fun93776 }
  10:
                         tango = _closure2_slot5;
                         report = undefined;
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  88:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun93751_ip = 149; continue _fun93751 }
+                        if(oscar) { _fun93776_ip = 149; continue _fun93776 }
  94:
                         options = _closure2_slot4;
                         golf = options.push;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango['guildId'] = verify;
                         tango = golf.bind(options)(oscar, tango);
  147: // try_end0
-                        _fun93751_ip = 226; continue _fun93751;
+                        _fun93776_ip = 226; continue _fun93776;
  149: // try_end1
                         oscar = _closure2_slot7;
                         tango = false;

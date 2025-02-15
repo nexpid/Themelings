@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ImageWarningIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun61981: for(var _fun61981_ip = 0; ; ) switch(_fun61981_ip) {
+        _fun61984: for(var _fun61984_ip = 0; ; ) switch(_fun61984_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun61981_ip = 53; continue _fun61981 }
+            if(!(golf === tango)) { _fun61984_ip = 53; continue _fun61984 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -6,13 +6,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     tango = function(argFoo) { // Original name: getSelectedSpecialNavigationPath
-        _fun102153: for(var _fun102153_ip = 0; ; ) switch(_fun102153_ip) {
+        _fun102145: for(var _fun102145_ip = 0; ; ) switch(_fun102145_ip) {
  0:
             entity = argFoo;
             zulu = entity.pathname;
             mike = _closure1_slot2;
             mike = mike.FRIENDS;
-            if(!(zulu !== mike)) { _fun102153_ip = 30; continue _fun102153 }
+            if(!(zulu !== mike)) { _fun102145_ip = 30; continue _fun102145 }
  26:
             mike = undefined;
             return mike;

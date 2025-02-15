@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['setSystemTheme'] = tango;
     tango = function() { // Original name: setSystemThemeIfNeeded
-        _fun107733: for(var _fun107733_ip = 0; ; ) switch(_fun107733_ip) {
+        _fun107728: for(var _fun107728_ip = 0; ; ) switch(_fun107728_ip) {
  0:
             mike = _closure1_slot2;
             zulu = mike.useSystemTheme;
             mike = _closure1_slot3;
             mike = mike.OFF;
-            if(!(zulu !== mike)) { _fun107733_ip = 62; continue _fun107733 }
+            if(!(zulu !== mike)) { _fun107728_ip = 62; continue _fun107728 }
  27:
             zulu = _closure1_slot4;
             tango = _closure1_slot0;

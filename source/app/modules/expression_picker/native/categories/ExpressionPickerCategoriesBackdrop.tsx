@@ -68,7 +68,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function() { // Original name: EmojiPickerCategoriesBackdrop
-        _fun78528: for(var _fun78528_ip = 0; ; ) switch(_fun78528_ip) {
+        _fun78538: for(var _fun78538_ip = 0; ; ) switch(_fun78538_ip) {
  0:
             entity = _closure1_slot5;
             report = undefined;
@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(zulu)();
             tango = _closure1_slot4;
             zulu = _closure1_slot3;
-            if(entity) { _fun78528_ip = 115; continue _fun78528 }
+            if(entity) { _fun78538_ip = 115; continue _fun78538 }
  53:
             entity = {};
             oscar = golf.backdrop;
@@ -98,7 +98,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(report)(oscar, mike);
             entity['children'] = mike;
             entity = tango.bind(report)(zulu, entity);
-            _fun78528_ip = 151; continue _fun78528;
+            _fun78538_ip = 151; continue _fun78538;
  115:
             mike = {};
             options = golf.backdrop;

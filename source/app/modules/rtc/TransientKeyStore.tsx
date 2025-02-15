@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun81115: for(var _fun81115_ip = 0; ; ) switch(_fun81115_ip) {
+        _fun81127: for(var _fun81127_ip = 0; ; ) switch(_fun81127_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot7;
             entity = entity.bind(zulu)();
-            if(entity) { _fun81115_ip = 51; continue _fun81115 }
+            if(entity) { _fun81127_ip = 51; continue _fun81127 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun81115_ip = 92; continue _fun81115;
+            _fun81127_ip = 92; continue _fun81127;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun81115_ip = 71; continue _fun81115 }
+            if(oscar) { _fun81127_ip = 71; continue _fun81127 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun81116: for(var _fun81116_ip = 0; ; ) switch(_fun81116_ip) {
+        _fun81128: for(var _fun81128_ip = 0; ; ) switch(_fun81128_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun81116_ip = 76; continue _fun81116;
+            _fun81128_ip = 76; continue _fun81128;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isKeyVerified';
         report['key'] = golf;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun81122: for(var _fun81122_ip = 0; ; ) switch(_fun81122_ip) {
+            _fun81134: for(var _fun81134_ip = 0; ; ) switch(_fun81134_ip) {
  0:
                 tango = argBar;
                 zulu = _closure1_slot5;
@@ -158,26 +158,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = argFoo;
                 zulu = mike.bind(zulu)(entity);
                 entity = null;
-                if(!(entity != tango)) { _fun81122_ip = 93; continue _fun81122 }
+                if(!(entity != tango)) { _fun81134_ip = 93; continue _fun81134 }
  29:
-                if(!(entity != zulu)) { _fun81122_ip = 93; continue _fun81122 }
+                if(!(entity != zulu)) { _fun81134_ip = 93; continue _fun81134 }
  33:
                 mike = zulu.length;
                 entity = tango.length;
-                if(!(mike === entity)) { _fun81122_ip = 93; continue _fun81122 }
+                if(!(mike === entity)) { _fun81134_ip = 93; continue _fun81134 }
  47:
                 entity = tango.length;
                 mike = 0;
                 entity = mike < entity;
-                if(!entity) { _fun81122_ip = 85; continue _fun81122 }
+                if(!entity) { _fun81134_ip = 85; continue _fun81134 }
  61:
                 report = tango[mike];
                 entity = zulu[mike];
-                if(!(report === entity)) { _fun81122_ip = 89; continue _fun81122 }
+                if(!(report === entity)) { _fun81134_ip = 89; continue _fun81134 }
  73:
                 mike = mike + 1;
                 entity = tango.length;
-                if(mike < entity) { _fun81122_ip = 61; continue _fun81122 }
+                if(mike < entity) { _fun81134_ip = 61; continue _fun81134 }
  85:
                 entity = true;
                 return entity;

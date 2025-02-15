@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: UnreadBadge
-        _fun121018: for(var _fun121018_ip = 0; ; ) switch(_fun121018_ip) {
+        _fun121024: for(var _fun121024_ip = 0; ; ) switch(_fun121024_ip) {
  0:
             entity = argFoo;
             mike = entity.unread;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.useFontScale;
             sizing = entity.bind(zulu)();
             entity = null;
-            if(!mike) { _fun121018_ip = 326; continue _fun121018 }
+            if(!mike) { _fun121024_ip = 326; continue _fun121024 }
  98:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -87,10 +87,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = verify;
             verify = options.unreadBadge;
-            if(golf) { _fun121018_ip = 138; continue _fun121018 }
+            if(golf) { _fun121024_ip = 138; continue _fun121024 }
  131:
             golf = verify.position;
-            _fun121018_ip = 144; continue _fun121018;
+            _fun121024_ip = 144; continue _fun121024;
  138:
             golf = verify.positionThread;
  144:
@@ -127,9 +127,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.ALL_MESSAGES;
-            if(!(backup === foxtrot)) { _fun121018_ip = 289; continue _fun121018 }
+            if(!(backup === foxtrot)) { _fun121024_ip = 289; continue _fun121024 }
  286:
-            if(!romeo) { _fun121018_ip = 293; continue _fun121018 }
+            if(!romeo) { _fun121024_ip = 293; continue _fun121024 }
  289:
             verify = _closure1_slot4;
  293:

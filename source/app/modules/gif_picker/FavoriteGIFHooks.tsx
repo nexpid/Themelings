@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     tango = function() { // Original name: useFavoriteGIFs
-        _fun84839: for(var _fun84839_ip = 0; ; ) switch(_fun84839_ip) {
+        _fun84855: for(var _fun84855_ip = 0; ; ) switch(_fun84855_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -21,11 +21,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.favoriteGifs;
             zulu = null;
             report = zulu == tango;
-            if(report) { _fun84839_ip = 56; continue _fun84839 }
+            if(report) { _fun84855_ip = 56; continue _fun84855 }
  50:
             entity = tango.gifs;
  56:
-            if(!(zulu == entity)) { _fun84839_ip = 64; continue _fun84839 }
+            if(!(zulu == entity)) { _fun84855_ip = 64; continue _fun84855 }
  60:
             entity = _closure1_slot4;
  64:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(zulu)(entity);
             mike = zulu.map;
             entity = function(argFoo, argBar) {
-                _fun84842: for(var _fun84842_ip = 0; ; ) switch(_fun84842_ip) {
+                _fun84858: for(var _fun84858_ip = 0; ; ) switch(_fun84858_ip) {
  0:
                     mike = argFoo;
                     options = argBar;
@@ -94,13 +94,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = tango == zulu;
                     golf = undefined;
                     zulu = undefined;
-                    if(oscar) { _fun84842_ip = 63; continue _fun84842 }
+                    if(oscar) { _fun84858_ip = 63; continue _fun84858 }
  47:
                     oscar = _closure2_slot0;
                     report = mike.src;
                     zulu = oscar.bind(golf)(report, options);
  63:
-                    if(!(tango == zulu)) { _fun84842_ip = 73; continue _fun84842 }
+                    if(!(tango == zulu)) { _fun84858_ip = 73; continue _fun84858 }
  67:
                     zulu = mike.src;
  73:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useSortedFavoriteGIFs'] = tango;
     tango = function() { // Original name: useShouldShowTooltipOnFavorite
-        _fun84843: for(var _fun84843_ip = 0; ; ) switch(_fun84843_ip) {
+        _fun84859: for(var _fun84859_ip = 0; ; ) switch(_fun84859_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.favoriteGifs;
             entity = null;
             tango = entity == zulu;
-            if(tango) { _fun84843_ip = 56; continue _fun84843 }
+            if(tango) { _fun84859_ip = 56; continue _fun84859 }
  50:
             mike = zulu.hideTooltip;
  56:
             entity = entity != mike;
-            if(!entity) { _fun84843_ip = 66; continue _fun84843 }
+            if(!entity) { _fun84859_ip = 66; continue _fun84859 }
  63:
             entity = mike;
  66:

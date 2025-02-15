@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/restoreEventRecurrence.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: restoreEventRecurrence
-        _fun102896: for(var _fun102896_ip = 0; ; ) switch(_fun102896_ip) {
+        _fun102888: for(var _fun102888_ip = 0; ; ) switch(_fun102888_ip) {
  0:
             entity = argFoo;
             oscar = argBar;
@@ -31,9 +31,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.scheduled_start_time;
             golf = entity.scheduled_end_time;
             entity = null;
-            if(!(entity == options)) { _fun102896_ip = 34; continue _fun102896 }
+            if(!(entity == options)) { _fun102888_ip = 34; continue _fun102888 }
  30:
-            if(!(entity != golf)) { _fun102896_ip = 104; continue _fun102896 }
+            if(!(entity != golf)) { _fun102888_ip = 104; continue _fun102888 }
  34:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = report;
             verify = tango;
             entity = foxtrot[mike](romeo, yankee, offset, verify, options);
-            _fun102896_ip = 141; continue _fun102896;
+            _fun102888_ip = 141; continue _fun102888;
  104:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;

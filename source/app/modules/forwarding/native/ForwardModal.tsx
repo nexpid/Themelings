@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forwarding/native/ForwardModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForwardModal
-        _fun85915: for(var _fun85915_ip = 0; ; ) switch(_fun85915_ip) {
+        _fun85932: for(var _fun85932_ip = 0; ; ) switch(_fun85932_ip) {
  0:
             mike = argFoo;
             report = mike.message;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = source;
             entity = mike.initialSelectedDestinations;
             tango = undefined;
-            if(!(entity === tango)) { _fun85915_ip = 36; continue _fun85915 }
+            if(!(entity === tango)) { _fun85932_ip = 36; continue _fun85932 }
  32:
             entity = new Array(0);
  36:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[0] = romeo;
             output[1] = report;
             options = function() {
-                _fun85917: for(var _fun85917_ip = 0; ; ) switch(_fun85917_ip) {
+                _fun85934: for(var _fun85934_ip = 0; ; ) switch(_fun85934_ip) {
  0:
                     oscar = _closure1_slot9;
                     report = oscar.getMessage;
@@ -237,14 +237,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot6;
                     entity = report.bind(oscar)(tango, entity);
                     tango = null;
-                    if(!(tango == entity)) { _fun85917_ip = 55; continue _fun85917 }
+                    if(!(tango == entity)) { _fun85934_ip = 55; continue _fun85934 }
  36:
                     golf = _closure1_slot10;
                     oscar = golf.getMessage;
                     report = _closure2_slot6;
                     entity = oscar.bind(golf)(report);
  55:
-                    if(!(tango == entity)) { _fun85917_ip = 78; continue _fun85917 }
+                    if(!(tango == entity)) { _fun85934_ip = 78; continue _fun85934 }
  59:
                     tango = _closure1_slot7;
                     zulu = tango.getMessage;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record[1] = report;
             record[2] = output;
             output = function(argFoo) {
-                _fun85919: for(var _fun85919_ip = 0; ; ) switch(_fun85919_ip) {
+                _fun85936: for(var _fun85936_ip = 0; ; ) switch(_fun85936_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure2_slot15;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(entity)(zulu);
                     tango = _closure2_slot16;
                     tango = tango.current;
-                    if(!(zulu !== tango)) { _fun85919_ip = 78; continue _fun85919 }
+                    if(!(zulu !== tango)) { _fun85936_ip = 78; continue _fun85936 }
  30:
                     report = _closure2_slot13;
                     oscar = report.current;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar + tango;
                     report['current'] = tango;
                     tango = '';
-                    if(!(tango !== zulu)) { _fun85919_ip = 78; continue _fun85919 }
+                    if(!(tango !== zulu)) { _fun85936_ip = 78; continue _fun85936 }
  60:
                     oscar = _closure2_slot11;
                     report = _closure2_slot5;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence[2] = papa;
             sequence[3] = options;
             options = function(argFoo) {
-                _fun85920: for(var _fun85920_ip = 0; ; ) switch(_fun85920_ip) {
+                _fun85937: for(var _fun85937_ip = 0; ; ) switch(_fun85937_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure2_slot18;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report['current'] = tango;
                     tango = zulu.length;
                     zulu = 0;
-                    if(!(tango > zulu)) { _fun85920_ip = 81; continue _fun85920 }
+                    if(!(tango > zulu)) { _fun85937_ip = 81; continue _fun85937 }
  50:
                     report = _closure2_slot10;
                     tango = _closure2_slot5;
@@ -446,19 +446,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = control;
             options[1] = golf;
             golf = function(argFoo) {
-                _fun85923: for(var _fun85923_ip = 0; ; ) switch(_fun85923_ip) {
+                _fun85940: for(var _fun85940_ip = 0; ; ) switch(_fun85940_ip) {
  0:
                     entity = _closure2_slot8;
                     tango = null;
                     zulu = tango == entity;
                     report = undefined;
                     entity = undefined;
-                    if(zulu) { _fun85923_ip = 80; continue _fun85923 }
+                    if(zulu) { _fun85940_ip = 80; continue _fun85940 }
  20:
                     zulu = _closure2_slot9;
                     zulu = tango == zulu;
                     entity = undefined;
-                    if(zulu) { _fun85923_ip = 80; continue _fun85923 }
+                    if(zulu) { _fun85940_ip = 80; continue _fun85940 }
  33:
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -481,18 +481,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun85926: for(var _fun85926_ip = 0; ; ) switch(_fun85926_ip) {
+                        _fun85943: for(var _fun85943_ip = 0; ; ) switch(_fun85943_ip) {
  0:
                             StartGenerator();
                             kilo = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun85926_ip = 1016; continue _fun85926 }
+                            if(mike) { _fun85943_ip = 1016; continue _fun85943 }
  15:
                             foxtrot = undefined;
                             var _closure5_slot0 = foxtrot;
                             mike = _closure2_slot8;
                             romeo = null;
-                            if(!(romeo == mike)) { _fun85926_ip = 140; continue _fun85926 }
+                            if(!(romeo == mike)) { _fun85943_ip = 140; continue _fun85943 }
  34:
                             zulu = _closure1_slot1;
                             yankee = _closure1_slot2;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = golf.bind(options)(report);
                             mike['content'] = report;
                             mike = zulu.bind(tango)(mike);
-                            _fun85926_ip = 785; continue _fun85926;
+                            _fun85943_ip = 785; continue _fun85943;
  140:
                             mike = _closure2_slot7;
                             output = true;
@@ -539,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  217:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun85926_ip = 1013; continue _fun85926 }
+                            if(tango) { _fun85943_ip = 1013; continue _fun85943 }
  226:
                             report = mike.filter;
                             options = _closure1_slot0;
@@ -555,7 +555,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = report.bind(foxtrot)(tango);
                             tango = _closure2_slot8;
                             tango = report.bind(foxtrot)(tango, yankee);
-                            if(!tango) { _fun85926_ip = 356; continue _fun85926 }
+                            if(!tango) { _fun85943_ip = 356; continue _fun85943 }
  291:
                             report = zulu.Promise;
                             zulu = report.prototype;
@@ -605,9 +605,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return zulu;
  328:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(tango) { _fun85926_ip = 1010; continue _fun85926 }
+                            if(tango) { _fun85943_ip = 1010; continue _fun85943 }
  337:
-                            if(zulu) { _fun85926_ip = 356; continue _fun85926 }
+                            if(zulu) { _fun85943_ip = 356; continue _fun85943 }
  340:
                             report = _closure2_slot7;
                             tango = false;
@@ -624,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             tango = tango.bind(report)();
                             report = yankee.length;
                             tango = 1;
-                            if(!(tango === report)) { _fun85926_ip = 500; continue _fun85926 }
+                            if(!(tango === report)) { _fun85943_ip = 500; continue _fun85943 }
  398:
                             report = _closure1_slot1;
                             golf = _closure1_slot2;
@@ -642,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return tango;
  445:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                            if(golf) { _fun85926_ip = 1007; continue _fun85926 }
+                            if(golf) { _fun85943_ip = 1007; continue _fun85943 }
  454:
                             options = _closure1_slot0;
                             backup = _closure1_slot2;
@@ -673,7 +673,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return report;
  563:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golf) { _fun85926_ip = 1004; continue _fun85926 }
+                            if(golf) { _fun85943_ip = 1004; continue _fun85943 }
  572:
                             _closure5_slot0 = report;
                             options = report.every;
@@ -691,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             golf = result[golf];
                             options = options.bind(foxtrot)(golf);
                             golf = options.trackForwardSent;
-                            if(backup) { _fun85926_ip = 788; continue _fun85926 }
+                            if(backup) { _fun85943_ip = 788; continue _fun85943 }
  626:
                             backup = {};
                             result = _closure2_slot5;
@@ -700,7 +700,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             backup['messageId'] = result;
                             backup['hasError'] = output;
                             output = romeo != kilo;
-                            if(!output) { _fun85926_ip = 664; continue _fun85926 }
+                            if(!output) { _fun85943_ip = 664; continue _fun85943 }
  656:
                             result = '';
                             output = result !== kilo;
@@ -750,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             backup = false;
                             oscar['hasError'] = backup;
                             romeo = romeo != kilo;
-                            if(!romeo) { _fun85926_ip = 828; continue _fun85926 }
+                            if(!romeo) { _fun85943_ip = 828; continue _fun85943 }
  820:
                             backup = '';
                             romeo = backup !== kilo;
@@ -848,7 +848,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = romeo;
             golf[1] = report;
             report = function() {
-                _fun85934: for(var _fun85934_ip = 0; ; ) switch(_fun85934_ip) {
+                _fun85951: for(var _fun85951_ip = 0; ; ) switch(_fun85951_ip) {
  0:
                     report = _closure1_slot8;
                     tango = report.getChannel;
@@ -858,7 +858,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity == tango;
                     entity = undefined;
                     offset = undefined;
-                    if(report) { _fun85934_ip = 42; continue _fun85934 }
+                    if(report) { _fun85951_ip = 42; continue _fun85951 }
  37:
                     offset = tango.guild_id;
  42:
@@ -909,7 +909,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = mike;
             mike = function() {
-                _fun85935: for(var _fun85935_ip = 0; ; ) switch(_fun85935_ip) {
+                _fun85952: for(var _fun85952_ip = 0; ; ) switch(_fun85952_ip) {
  0:
                     entity = {};
                     tango = _closure1_slot0;
@@ -921,7 +921,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.isAndroid;
                     zulu = mike.bind(zulu)();
                     mike = '100%';
-                    if(!zulu) { _fun85935_ip = 66; continue _fun85935 }
+                    if(!zulu) { _fun85952_ip = 66; continue _fun85952 }
  45:
                     tango = _closure2_slot3;
                     zulu = _closure2_slot4;
@@ -934,7 +934,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             report = report.bind(oscar)(mike, zulu);
             equality = entity;
-            if(!(!(result <= vacuum))) { _fun85915_ip = 1020; continue _fun85915 }
+            if(!(!(result <= vacuum))) { _fun85932_ip = 1020; continue _fun85932 }
  956:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
@@ -950,7 +950,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['count'] = result;
             update = zulu.bind(oscar)(mike, entity);
-            _fun85915_ip = 1075; continue _fun85915;
+            _fun85932_ip = 1075; continue _fun85932;
  1020:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -994,7 +994,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = papa.bind(variable36)(record);
             golf['title'] = record;
             record = function(argFoo) { // Original name: headerTitle
-                _fun85936: for(var _fun85936_ip = 0; ; ) switch(_fun85936_ip) {
+                _fun85953: for(var _fun85953_ip = 0; ; ) switch(_fun85953_ip) {
  0:
                     entity = argFoo;
                     verify = entity.children;
@@ -1020,7 +1020,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = new Array(2);
                     report[0] = oscar;
                     oscar = _closure2_slot19;
-                    if(!oscar) { _fun85936_ip = 225; continue _fun85936 }
+                    if(!oscar) { _fun85953_ip = 225; continue _fun85953 }
  104:
                     verify = _closure1_slot13;
                     yankee = _closure1_slot0;
@@ -1109,7 +1109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = romeo.isIOS;
             romeo = verify.bind(romeo)();
             verify = undefined;
-            if(!romeo) { _fun85915_ip = 1284; continue _fun85915 }
+            if(!romeo) { _fun85932_ip = 1284; continue _fun85932 }
  1282:
             verify = 0;
  1284:
@@ -1154,10 +1154,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['disableSelection'] = context;
             romeo = record.bind(tango)(foxtrot, romeo);
             verify[1] = romeo;
-            if(!offset) { _fun85915_ip = 1475; continue _fun85915 }
+            if(!offset) { _fun85932_ip = 1475; continue _fun85932 }
  1466:
             offset = null;
-            if(!(offset == control)) { _fun85915_ip = 1677; continue _fun85915 }
+            if(!(offset == control)) { _fun85932_ip = 1677; continue _fun85932 }
  1475:
             foxtrot = _closure1_slot13;
             romeo = _closure1_slot0;
@@ -1172,7 +1172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = config.container;
             config = config.backgroundColor;
             offset['floatingBackgroundColor'] = config;
-            if(!(vacuum !== result)) { _fun85915_ip = 1596; continue _fun85915 }
+            if(!(vacuum !== result)) { _fun85932_ip = 1596; continue _fun85932 }
  1535:
             config = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -1187,7 +1187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = {};
             vacuum['count'] = result;
             vacuum = record.bind(context)(config, vacuum);
-            _fun85915_ip = 1648; continue _fun85915;
+            _fun85932_ip = 1648; continue _fun85932;
  1596:
             papa = _closure1_slot0;
             config = _closure1_slot2;
@@ -1203,14 +1203,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1648:
             offset['text'] = vacuum;
             vacuum = undefined;
-            if(sizing) { _fun85915_ip = 1660; continue _fun85915 }
+            if(sizing) { _fun85932_ip = 1660; continue _fun85932 }
  1657:
             vacuum = sequence;
  1660:
             offset['onPress'] = vacuum;
             offset['loading'] = sizing;
             offset = foxtrot.bind(tango)(romeo, offset);
-            _fun85915_ip = 1758; continue _fun85915;
+            _fun85932_ip = 1758; continue _fun85932;
  1677:
             foxtrot = _closure1_slot13;
             romeo = _closure1_slot0;

@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     tango = function() { // Original name: FamilyCenterTeenQRCodeButton
-        _fun95116: for(var _fun95116_ip = 0; ; ) switch(_fun95116_ip) {
+        _fun95126: for(var _fun95126_ip = 0; ; ) switch(_fun95126_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useHasMaxConnections;
             mike = entity.bind(mike)();
             entity = null;
-            if(mike) { _fun95116_ip = 128; continue _fun95116 }
+            if(mike) { _fun95126_ip = 128; continue _fun95126 }
  40:
             tango = _closure1_slot7;
             zulu = _closure1_slot9;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['FamilyCenterTeenQRCodeButton'] = tango;
     mike = function() { // Original name: FamilyCenterParentQRCodeButton
-        _fun95118: for(var _fun95118_ip = 0; ; ) switch(_fun95118_ip) {
+        _fun95128: for(var _fun95128_ip = 0; ; ) switch(_fun95128_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.useHasMaxConnections;
             entity = entity.bind(mike)();
-            if(entity) { _fun95118_ip = 139; continue _fun95118 }
+            if(entity) { _fun95128_ip = 139; continue _fun95128 }
  40:
             entity = function(argFoo) { // Original name: handleQrCodeScanSucess
-                _fun95119: for(var _fun95119_ip = 0; ; ) switch(_fun95119_ip) {
+                _fun95129: for(var _fun95129_ip = 0; ; ) switch(_fun95129_ip) {
  0:
                     mike = _closure1_slot1;
                     entity = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = argFoo;
                     entity = mike.bind(tango)(entity);
                     golf = null;
-                    if(!(golf == entity)) { _fun95119_ip = 69; continue _fun95119 }
+                    if(!(golf == entity)) { _fun95129_ip = 69; continue _fun95129 }
  67:
                     entity = {};
  69:
@@ -213,11 +213,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = entity.pathname;
                     mike = golf != options;
                     entity = null;
-                    if(!mike) { _fun95119_ip = 196; continue _fun95119 }
+                    if(!mike) { _fun95129_ip = 196; continue _fun95129 }
  90:
                     mike = golf != oscar;
                     entity = null;
-                    if(!mike) { _fun95119_ip = 196; continue _fun95119 }
+                    if(!mike) { _fun95129_ip = 196; continue _fun95129 }
  99:
                     tango = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -226,13 +226,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.isDiscordHostname;
                     mike = mike.bind(tango)(options);
                     entity = null;
-                    if(!mike) { _fun95119_ip = 196; continue _fun95119 }
+                    if(!mike) { _fun95129_ip = 196; continue _fun95129 }
  132:
                     tango = oscar.match;
                     mike = _closure1_slot3;
                     tango = tango.bind(oscar)(mike);
                     mike = null;
-                    if(!(golf !== tango)) { _fun95119_ip = 193; continue _fun95119 }
+                    if(!(golf !== tango)) { _fun95129_ip = 193; continue _fun95129 }
  153:
                     tango = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -290,10 +290,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = zulu.bind(tango)(mike);
                 zulu = tango.then;
                 mike = function(argFoo) {
-                    _fun95121: for(var _fun95121_ip = 0; ; ) switch(_fun95121_ip) {
+                    _fun95131: for(var _fun95131_ip = 0; ; ) switch(_fun95131_ip) {
  0:
                         entity = argFoo;
-                        if(!entity) { _fun95121_ip = 98; continue _fun95121 }
+                        if(!entity) { _fun95131_ip = 98; continue _fun95131 }
  6:
                         tango = _closure1_slot1;
                         entity = _closure1_slot2;

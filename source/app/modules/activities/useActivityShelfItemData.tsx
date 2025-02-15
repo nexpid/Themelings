@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun122125: for(var _fun122125_ip = 0; ; ) switch(_fun122125_ip) {
+            _fun122131: for(var _fun122131_ip = 0; ; ) switch(_fun122131_ip) {
  0:
                 zulu = _closure2_slot1;
                 mike = zulu.find;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.bind(zulu)(entity);
                 entity = null;
                 zulu = entity != mike;
-                if(!zulu) { _fun122125_ip = 38; continue _fun122125 }
+                if(!zulu) { _fun122131_ip = 38; continue _fun122131 }
  35:
                 entity = mike;
  38:

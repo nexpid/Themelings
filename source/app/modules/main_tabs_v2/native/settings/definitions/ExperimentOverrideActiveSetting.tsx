@@ -84,7 +84,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['useDescription'] = options;
     options = function() { // Original name: useHasExperimentOverrideActive
-        _fun99067: for(var _fun99067_ip = 0; ; ) switch(_fun99067_ip) {
+        _fun99077: for(var _fun99077_ip = 0; ; ) switch(_fun99077_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = entity.bind(zulu)();
             entity = 0;
             entity = zulu > entity;
-            if(!entity) { _fun99067_ip = 55; continue _fun99067 }
+            if(!entity) { _fun99077_ip = 55; continue _fun99077 }
  52:
             entity = mike;
  55:

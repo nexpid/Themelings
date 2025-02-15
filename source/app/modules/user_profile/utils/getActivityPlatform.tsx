@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/utils/getActivityPlatform.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getActivityPlatform
-        _fun80439: for(var _fun80439_ip = 0; ; ) switch(_fun80439_ip) {
+        _fun80451: for(var _fun80451_ip = 0; ; ) switch(_fun80451_ip) {
  0:
             yankee = argFoo;
             var _closure2_slot0 = yankee;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.bind(tango)(yankee);
             zulu = _closure1_slot0;
             report = _closure1_slot1;
-            if(oscar) { _fun80439_ip = 299; continue _fun80439 }
+            if(oscar) { _fun80451_ip = 299; continue _fun80451 }
  53:
             oscar = 3;
             oscar = report[oscar];
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = oscar.bind(tango)(yankee);
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
-            if(options) { _fun80439_ip = 265; continue _fun80439 }
+            if(options) { _fun80451_ip = 265; continue _fun80451 }
  84:
             options = 4;
             options = golf[options];
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options.bind(tango)(yankee);
             options = _closure1_slot0;
             verify = _closure1_slot1;
-            if(offset) { _fun80439_ip = 231; continue _fun80439 }
+            if(offset) { _fun80451_ip = 231; continue _fun80451 }
  112:
             offset = 5;
             offset = verify[offset];
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = 2;
             yankee = foxtrot[yankee];
             yankee = romeo.bind(tango)(yankee);
-            if(offset) { _fun80439_ip = 209; continue _fun80439 }
+            if(offset) { _fun80451_ip = 209; continue _fun80451 }
  152:
             offset = yankee.find;
             mike = function(argFoo) {
@@ -99,14 +99,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = null;
             romeo = foxtrot != offset;
             mike = null;
-            if(!romeo) { _fun80439_ip = 207; continue _fun80439 }
+            if(!romeo) { _fun80451_ip = 207; continue _fun80451 }
  180:
             kilo = _closure1_slot3;
             backup = kilo.has;
             romeo = offset.type;
             romeo = backup.bind(kilo)(romeo);
             mike = null;
-            if(!romeo) { _fun80439_ip = 207; continue _fun80439 }
+            if(!romeo) { _fun80451_ip = 207; continue _fun80451 }
  204:
             mike = offset;
  207:

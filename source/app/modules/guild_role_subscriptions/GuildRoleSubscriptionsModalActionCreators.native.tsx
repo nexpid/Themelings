@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['showEditBenefitModal'] = tango;
     mike = function(argFoo) { // Original name: showEditEmojisModal
-        _fun127168: for(var _fun127168_ip = 0; ; ) switch(_fun127168_ip) {
+        _fun127164: for(var _fun127164_ip = 0; ; ) switch(_fun127164_ip) {
  0:
             entity = argFoo;
             offset = entity.guildId;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['guildId'] = offset;
             zulu['subscriptionRoleId'] = verify;
             verify = null;
-            if(!(verify == options)) { _fun127168_ip = 142; continue _fun127168 }
+            if(!(verify == options)) { _fun127164_ip = 142; continue _fun127164 }
  114:
             verify = global;
             verify = verify.Set;

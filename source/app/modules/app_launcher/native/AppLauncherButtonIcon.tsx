@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/AppLauncherButtonIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun101237: for(var _fun101237_ip = 0; ; ) switch(_fun101237_ip) {
+        _fun101246: for(var _fun101246_ip = 0; ; ) switch(_fun101246_ip) {
  0:
             zulu = argFoo;
             offset = zulu.style;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = _closure1_slot4;
             report = report.APP_LAUNCHER;
-            if(!(golf !== report)) { _fun101237_ip = 181; continue _fun101237 }
+            if(!(golf !== report)) { _fun101246_ip = 181; continue _fun101246 }
  127:
             options = _closure1_slot5;
             golf = _closure1_slot0;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = verify;
             verify = copyDataProperties(kilo, backup);
             report = options.bind(tango)(golf, report);
-            _fun101237_ip = 262; continue _fun101237;
+            _fun101246_ip = 262; continue _fun101246;
  181:
             options = _closure1_slot5;
             golf = _closure1_slot0;

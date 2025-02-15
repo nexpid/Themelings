@@ -26,12 +26,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot3;
         zulu = function(argFoo, argBar) { // Original name: VoiceDuration
-            _fun53040: for(var _fun53040_ip = 0; ; ) switch(_fun53040_ip) {
+            _fun53047: for(var _fun53047_ip = 0; ; ) switch(_fun53047_ip) {
  0:
                 tango = arguments[2];
                 zulu = this;
                 entity = undefined;
-                if(!(tango === entity)) { _fun53040_ip = 41; continue _fun53040 }
+                if(!(tango === entity)) { _fun53047_ip = 41; continue _fun53047 }
  12:
                 report = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -117,13 +117,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'start';
         entity['key'] = mike;
         mike = function() { // Original name: value
-            _fun53041: for(var _fun53041_ip = 0; ; ) switch(_fun53041_ip) {
+            _fun53048: for(var _fun53048_ip = 0; ; ) switch(_fun53048_ip) {
  0:
                 options = arguments[0];
                 tango = this;
                 var _closure3_slot0 = tango;
                 entity = undefined;
-                if(!(options === entity)) { _fun53041_ip = 20; continue _fun53041 }
+                if(!(options === entity)) { _fun53048_ip = 20; continue _fun53048 }
  18:
                 options = false;
  20:
@@ -158,20 +158,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.BaseConnectionEvent;
                 verify = report.Speaking;
                 report = function(argFoo, argBar) {
-                    _fun53042: for(var _fun53042_ip = 0; ; ) switch(_fun53042_ip) {
+                    _fun53049: for(var _fun53049_ip = 0; ; ) switch(_fun53049_ip) {
  0:
                         oscar = argFoo;
                         tango = argBar;
                         mike = _closure3_slot0;
                         mike = mike.userId;
-                        if(!(mike !== oscar)) { _fun53042_ip = 48; continue _fun53042 }
+                        if(!(mike !== oscar)) { _fun53049_ip = 48; continue _fun53049 }
  22:
                         report = _closure3_slot0;
                         zulu = report.onListening;
                         mike = 0;
                         mike = mike !== tango;
                         mike = zulu.bind(report)(mike, oscar);
-                        _fun53042_ip = 71; continue _fun53042;
+                        _fun53049_ip = 71; continue _fun53049;
  48:
                         zulu = _closure3_slot0;
                         mike = zulu.onSpeaking;
@@ -211,24 +211,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'onSpeaking';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun53044: for(var _fun53044_ip = 0; ; ) switch(_fun53044_ip) {
+            _fun53051: for(var _fun53051_ip = 0; ; ) switch(_fun53051_ip) {
  0:
                 entity = this;
                 zulu = entity.speaking;
                 mike = argFoo;
-                if(mike) { _fun53044_ip = 62; continue _fun53044 }
+                if(mike) { _fun53051_ip = 62; continue _fun53051 }
  15:
                 mike = zulu.stop;
                 mike = mike.bind(zulu)();
                 tango = entity.listening;
                 mike = tango.isRunning;
                 mike = mike.bind(tango)();
-                if(mike) { _fun53044_ip = 86; continue _fun53044 }
+                if(mike) { _fun53051_ip = 86; continue _fun53051 }
  44:
                 tango = entity.participation;
                 mike = tango.stop;
                 mike = mike.bind(tango)();
-                _fun53044_ip = 86; continue _fun53044;
+                _fun53051_ip = 86; continue _fun53051;
  62:
                 mike = zulu.start;
                 mike = mike.bind(zulu)();
@@ -246,24 +246,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'onListening';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun53045: for(var _fun53045_ip = 0; ; ) switch(_fun53045_ip) {
+            _fun53052: for(var _fun53052_ip = 0; ; ) switch(_fun53052_ip) {
  0:
                 tango = argBar;
                 entity = this;
                 zulu = entity.listeningUsers;
                 mike = argFoo;
-                if(mike) { _fun53045_ip = 104; continue _fun53045 }
+                if(mike) { _fun53052_ip = 104; continue _fun53052 }
  18:
                 mike = zulu.delete;
                 mike = mike.bind(zulu)(tango);
-                if(!mike) { _fun53045_ip = 48; continue _fun53045 }
+                if(!mike) { _fun53052_ip = 48; continue _fun53052 }
  31:
                 report = entity.listeningUsers;
                 oscar = report.size;
                 report = 0;
                 mike = report === oscar;
  48:
-                if(!mike) { _fun53045_ip = 144; continue _fun53045 }
+                if(!mike) { _fun53052_ip = 144; continue _fun53052 }
  51:
                 report = entity.listening;
                 mike = report.stop;
@@ -271,12 +271,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = entity.speaking;
                 mike = report.isRunning;
                 mike = mike.bind(report)();
-                if(mike) { _fun53045_ip = 144; continue _fun53045 }
+                if(mike) { _fun53052_ip = 144; continue _fun53052 }
  86:
                 report = entity.participation;
                 mike = report.stop;
                 mike = mike.bind(report)();
-                _fun53045_ip = 144; continue _fun53045;
+                _fun53052_ip = 144; continue _fun53052;
  104:
                 mike = zulu.add;
                 mike = mike.bind(zulu)(tango);
@@ -297,16 +297,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'onMuted';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun53046: for(var _fun53046_ip = 0; ; ) switch(_fun53046_ip) {
+            _fun53053: for(var _fun53053_ip = 0; ; ) switch(_fun53053_ip) {
  0:
                 entity = this;
                 mike = entity.muted;
                 entity = argFoo;
-                if(entity) { _fun53046_ip = 27; continue _fun53046 }
+                if(entity) { _fun53053_ip = 27; continue _fun53053 }
  15:
                 entity = mike.stop;
                 entity = entity.bind(mike)();
-                _fun53046_ip = 36; continue _fun53046;
+                _fun53053_ip = 36; continue _fun53053;
  27:
                 entity = mike.start;
                 entity = entity.bind(mike)();

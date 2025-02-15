@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = 'function getActivityContainerPipStylesSpec_getActivityContainerPIPStylesSpecTsx1({pipWidth:pipWidth,pipHeight:pipHeight,pipOrientationLockState:pipOrientationLockState,isLandscape:isLandscape}){const{OrientationLockState,LANDSCAPE_ACTIVITY_ASPECT_RATIO,roundToNearestPixel}=this.__closure;const nonNullPipOrientationLockState=pipOrientationLockState!==null&&pipOrientationLockState!==void 0?pipOrientationLockState:OrientationLockState.UNLOCKED;const shouldUsePortraitAspectRatio=nonNullPipOrientationLockState===OrientationLockState.PORTRAIT||nonNullPipOrientationLockState===OrientationLockState.UNLOCKED&&!isLandscape;let width=pipWidth;let height=pipHeight;let shouldHorizontallyCenter=false;let shouldVerticallyCenter=false;let marginLeft=0;let marginTop=0;if(shouldUsePortraitAspectRatio){width=pipWidth;height=width*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldVerticallyCenter=true;marginTop=roundToNearestPixel(height/2)*-1;}else{height=pipHeight;width=height*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldHorizontallyCenter=true;marginLeft=roundToNearestPixel(width/2)*-1;}return{width:width,height:height,shouldHorizontallyCenter:shouldHorizontallyCenter,shouldVerticallyCenter:shouldVerticallyCenter,marginLeft:marginLeft,marginTop:marginTop};}';
     tango['code'] = golf;
     mike = function(argFoo) { // Original name: t
-        _fun121357: for(var _fun121357_ip = 0; ; ) switch(_fun121357_ip) {
+        _fun121363: for(var _fun121363_ip = 0; ; ) switch(_fun121363_ip) {
  0:
             entity = argFoo;
             romeo = entity.pipWidth;
@@ -37,20 +37,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.pipOrientationLockState;
             mike = entity.isLandscape;
             entity = null;
-            if(!(entity == tango)) { _fun121357_ip = 46; continue _fun121357 }
+            if(!(entity == tango)) { _fun121363_ip = 46; continue _fun121363 }
  33:
             entity = _closure1_slot2;
             tango = entity.UNLOCKED;
  46:
             zulu = _closure1_slot2;
             zulu = zulu.PORTRAIT;
-            if(!(tango !== zulu)) { _fun121357_ip = 137; continue _fun121357 }
+            if(!(tango !== zulu)) { _fun121363_ip = 137; continue _fun121363 }
  63:
             zulu = _closure1_slot2;
             zulu = zulu.UNLOCKED;
-            if(!(tango === zulu)) { _fun121357_ip = 80; continue _fun121357 }
+            if(!(tango === zulu)) { _fun121363_ip = 80; continue _fun121363 }
  77:
-            if(!mike) { _fun121357_ip = 137; continue _fun121357 }
+            if(!mike) { _fun121363_ip = 137; continue _fun121363 }
  80:
             mike = _closure1_slot3;
             golf = oscar * mike;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = true;
             tango = false;
             mike = 0;
-            _fun121357_ip = 198; continue _fun121357;
+            _fun121363_ip = 198; continue _fun121363;
  137:
             options = _closure1_slot3;
             yankee = romeo * options;

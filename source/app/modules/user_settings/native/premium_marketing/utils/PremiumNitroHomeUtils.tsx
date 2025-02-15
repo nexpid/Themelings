@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/premium_marketing/utils/PremiumNitroHomeUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun95932: for(var _fun95932_ip = 0; ; ) switch(_fun95932_ip) {
+        _fun95942: for(var _fun95942_ip = 0; ; ) switch(_fun95942_ip) {
  0:
             mike = argFoo;
             entity = mike.nativeEvent;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.contentOffset;
             zulu = entity.contentSize;
             entity = mike.current;
-            if(entity) { _fun95932_ip = 122; continue _fun95932 }
+            if(entity) { _fun95942_ip = 122; continue _fun95942 }
  46:
             report = global;
             verify = report.Math;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(golf)(zulu);
             entity = tango < zulu;
  122:
-            if(entity) { _fun95932_ip = 185; continue _fun95932 }
+            if(entity) { _fun95942_ip = 185; continue _fun95942 }
  125:
             report = _closure1_slot0;
             tango = _closure1_slot1;

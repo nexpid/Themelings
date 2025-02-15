@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun109291: for(var _fun109291_ip = 0; ; ) switch(_fun109291_ip) {
+                _fun109297: for(var _fun109297_ip = 0; ; ) switch(_fun109297_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun109291_ip = 60; continue _fun109291 }
+                    if(mike) { _fun109297_ip = 60; continue _fun109297 }
  7:
                     zulu = _closure1_slot4;
                     mike = zulu.isScreenReaderEnabled;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun109291_ip = 57; continue _fun109291 }
+                    if(zulu) { _fun109297_ip = 57; continue _fun109297 }
  34:
                     tango = _closure2_slot0;
                     zulu = tango.updateScreenReaderEnabled;
@@ -212,18 +212,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = tango.addEventListener;
         mike = 'announcementFinished';
         entity = function(argFoo) {
-            _fun109294: for(var _fun109294_ip = 0; ; ) switch(_fun109294_ip) {
+            _fun109300: for(var _fun109300_ip = 0; ; ) switch(_fun109300_ip) {
  0:
                 entity = argFoo;
                 var _closure3_slot0 = entity;
                 zulu = entity.success;
-                if(zulu) { _fun109294_ip = 92; continue _fun109294 }
+                if(zulu) { _fun109300_ip = 92; continue _fun109300 }
  18:
                 oscar = _closure2_slot0;
                 report = oscar.has;
                 tango = entity.announcement;
                 tango = report.bind(oscar)(tango);
-                if(tango) { _fun109294_ip = 92; continue _fun109294 }
+                if(tango) { _fun109300_ip = 92; continue _fun109300 }
  44:
                 report = _closure2_slot0;
                 tango = report.add;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike = 150;
                 mike = report.bind(tango)(zulu, mike);
-                _fun109294_ip = 115; continue _fun109294;
+                _fun109300_ip = 115; continue _fun109300;
  92:
                 zulu = _closure2_slot0;
                 mike = zulu.delete;

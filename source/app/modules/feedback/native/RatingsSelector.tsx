@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['style'] = oscar;
         oscar = golf.map;
         report = function(argFoo) {
-            _fun90699: for(var _fun90699_ip = 0; ; ) switch(_fun90699_ip) {
+            _fun90728: for(var _fun90728_ip = 0; ; ) switch(_fun90728_ip) {
  0:
                 entity = argFoo;
                 report = entity.rating;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = _closure2_slot2;
                 yankee = yankee.rating;
                 oscar['style'] = yankee;
-                if(!offset) { _fun90699_ip = 151; continue _fun90699 }
+                if(!offset) { _fun90728_ip = 151; continue _fun90728 }
  148:
                 options = verify;
  151:

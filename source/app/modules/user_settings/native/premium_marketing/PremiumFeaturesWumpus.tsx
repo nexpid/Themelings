@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/PremiumFeaturesWumpus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumFeaturesWumpus
-        _fun75651: for(var _fun75651_ip = 0; ; ) switch(_fun75651_ip) {
+        _fun75661: for(var _fun75661_ip = 0; ; ) switch(_fun75661_ip) {
  0:
             mike = argFoo;
             backup = mike.premiumType;
@@ -85,21 +85,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = backup;
             mike[1] = oscar;
             entity = function() {
-                _fun75652: for(var _fun75652_ip = 0; ; ) switch(_fun75652_ip) {
+                _fun75662: for(var _fun75662_ip = 0; ; ) switch(_fun75662_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = _closure1_slot3;
                     entity = entity.TIER_0;
-                    if(!(mike !== entity)) { _fun75652_ip = 96; continue _fun75652 }
+                    if(!(mike !== entity)) { _fun75662_ip = 96; continue _fun75662 }
  24:
                     mike = _closure1_slot0;
                     entity = _closure2_slot1;
                     report = _closure1_slot1;
-                    if(entity) { _fun75652_ip = 48; continue _fun75652 }
+                    if(entity) { _fun75662_ip = 48; continue _fun75662 }
  39:
                     entity = 9;
                     entity = report[entity];
-                    _fun75652_ip = 55; continue _fun75652;
+                    _fun75662_ip = 55; continue _fun75662;
  48:
                     tango = 8;
                     entity = report[tango];
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(golf)(tango);
                     entity['wumpusImageSource'] = tango;
                     entity['cloudsImageSource'] = mike;
-                    _fun75652_ip = 165; continue _fun75652;
+                    _fun75662_ip = 165; continue _fun75662;
  96:
                     mike = {};
                     report = _closure1_slot0;
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['wumpusImageSource'] = golf;
                     zulu = _closure2_slot1;
                     golf = _closure1_slot1;
-                    if(zulu) { _fun75652_ip = 145; continue _fun75652 }
+                    if(zulu) { _fun75662_ip = 145; continue _fun75662 }
  136:
                     zulu = 7;
                     zulu = golf[zulu];
-                    _fun75652_ip = 152; continue _fun75652;
+                    _fun75662_ip = 152; continue _fun75662;
  145:
                     oscar = 6;
                     zulu = golf[oscar];
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot3;
             romeo = romeo.TIER_0;
             romeo = backup === romeo;
-            if(!romeo) { _fun75651_ip = 215; continue _fun75651 }
+            if(!romeo) { _fun75661_ip = 215; continue _fun75661 }
  209:
             romeo = foxtrot.wumpusLeft;
  215:

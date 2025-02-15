@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/saveGuildEventRecurrence.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: saveGuildEventRecurrence
-        _fun76201: for(var _fun76201_ip = 0; ; ) switch(_fun76201_ip) {
+        _fun76211: for(var _fun76211_ip = 0; ; ) switch(_fun76211_ip) {
  0:
             zulu = argFoo;
             options = argBar;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.bind(verify)(report, tango);
             tango = null;
             romeo = null;
-            if(report) { _fun76201_ip = 94; continue _fun76201 }
+            if(report) { _fun76211_ip = 94; continue _fun76211 }
  88:
             romeo = yankee.startDate;
  94:
@@ -58,11 +58,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = yankee.endDate;
             report = verify.bind(backup)(golf, report);
             verify = null;
-            if(report) { _fun76201_ip = 146; continue _fun76201 }
+            if(report) { _fun76211_ip = 146; continue _fun76211 }
  140:
             verify = yankee.endDate;
  146:
-            if(!(tango == mike)) { _fun76201_ip = 324; continue _fun76201 }
+            if(!(tango == mike)) { _fun76211_ip = 324; continue _fun76211 }
  153:
             golf = _closure1_slot1;
             backup = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['original_scheduled_start_time'] = report;
             golf = tango == romeo;
             report = undefined;
-            if(golf) { _fun76201_ip = 269; continue _fun76201 }
+            if(golf) { _fun76211_ip = 269; continue _fun76211 }
  259:
             golf = romeo.toISOString;
             report = golf.bind(romeo)();
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['scheduled_start_time'] = report;
             golf = tango == verify;
             report = undefined;
-            if(golf) { _fun76201_ip = 293; continue _fun76201 }
+            if(golf) { _fun76211_ip = 293; continue _fun76211 }
  283:
             golf = verify.toISOString;
             report = golf.bind(verify)();
@@ -121,13 +121,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 1;
             oscar = offset[oscar];
             oscar = golf.bind(entity)(oscar);
-            if(report) { _fun76201_ip = 468; continue _fun76201 }
+            if(report) { _fun76211_ip = 468; continue _fun76211 }
  376:
             golf = oscar.updateGuildEventException;
             report = {};
             yankee = tango == romeo;
             offset = undefined;
-            if(yankee) { _fun76201_ip = 403; continue _fun76201 }
+            if(yankee) { _fun76211_ip = 403; continue _fun76211 }
  393:
             yankee = romeo.toISOString;
             offset = yankee.bind(romeo)();
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['scheduled_start_time'] = offset;
             tango = tango == verify;
             entity = undefined;
-            if(tango) { _fun76201_ip = 427; continue _fun76201 }
+            if(tango) { _fun76211_ip = 427; continue _fun76211 }
  417:
             tango = verify.toISOString;
             entity = tango.bind(verify)();
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = report;
             result = options;
             entity = control[golf](source, update, echo, result, output);
-            _fun76201_ip = 497; continue _fun76201;
+            _fun76211_ip = 497; continue _fun76211;
  468:
             report = oscar.deleteGuildEventException;
             tango = zulu.guild_id;

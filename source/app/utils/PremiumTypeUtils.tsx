@@ -4,16 +4,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     verify = argPlugh;
     report = function(argFoo, argBar) { // Original name: isPremiumAtLeast
-        _fun77447: for(var _fun77447_ip = 0; ; ) switch(_fun77447_ip) {
+        _fun77457: for(var _fun77457_ip = 0; ; ) switch(_fun77457_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             mike = null;
             entity = mike == report;
-            if(entity) { _fun77447_ip = 48; continue _fun77447 }
+            if(entity) { _fun77457_ip = 48; continue _fun77457 }
  15:
             mike = mike != oscar;
-            if(!mike) { _fun77447_ip = 45; continue _fun77447 }
+            if(!mike) { _fun77457_ip = 45; continue _fun77457 }
  22:
             tango = _closure1_slot0;
             tango = tango[oscar];
@@ -28,17 +28,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot1 = report;
     tango = function(argFoo, argBar) { // Original name: isPremium
-        _fun77448: for(var _fun77448_ip = 0; ; ) switch(_fun77448_ip) {
+        _fun77458: for(var _fun77458_ip = 0; ; ) switch(_fun77458_ip) {
  0:
             mike = argFoo;
             tango = null;
             entity = tango != mike;
-            if(!entity) { _fun77448_ip = 22; continue _fun77448 }
+            if(!entity) { _fun77458_ip = 22; continue _fun77458 }
  12:
             zulu = mike.premiumType;
             entity = tango != zulu;
  22:
-            if(!entity) { _fun77448_ip = 49; continue _fun77448 }
+            if(!entity) { _fun77458_ip = 49; continue _fun77458 }
  25:
             report = _closure1_slot1;
             tango = mike.premiumType;
@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         }
     };
     mike = function(argFoo, argBar) { // Original name: isPremiumExactly
-        _fun77449: for(var _fun77449_ip = 0; ; ) switch(_fun77449_ip) {
+        _fun77459: for(var _fun77459_ip = 0; ; ) switch(_fun77459_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun77449_ip = 25; continue _fun77449 }
+            if(!entity) { _fun77459_ip = 25; continue _fun77459 }
  12:
             zulu = mike.premiumType;
             mike = argBar;

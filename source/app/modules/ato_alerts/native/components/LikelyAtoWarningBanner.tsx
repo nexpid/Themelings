@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     mike = function(argFoo) { // Original name: LikelyAtoWarningBanner
-        _fun89648: for(var _fun89648_ip = 0; ; ) switch(_fun89648_ip) {
+        _fun89665: for(var _fun89665_ip = 0; ; ) switch(_fun89665_ip) {
  0:
             entity = argFoo;
             yankee = entity.channelId;
@@ -40,10 +40,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[2] = verify;
             zulu[3] = mike;
             entity = function() {
-                _fun89649: for(var _fun89649_ip = 0; ; ) switch(_fun89649_ip) {
+                _fun89666: for(var _fun89666_ip = 0; ; ) switch(_fun89666_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun89649_ip = 100; continue _fun89649 }
+                    if(!entity) { _fun89666_ip = 100; continue _fun89666 }
  10:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             var _closure2_slot7 = entity;
             entity = null;
-            if(!mike) { _fun89648_ip = 567; continue _fun89648 }
+            if(!mike) { _fun89665_ip = 567; continue _fun89665 }
  241:
             tango = _closure1_slot11;
             zulu = _closure1_slot1;

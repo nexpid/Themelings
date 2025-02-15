@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/StageLockIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun62005: for(var _fun62005_ip = 0; ; ) switch(_fun62005_ip) {
+        _fun62008: for(var _fun62008_ip = 0; ; ) switch(_fun62008_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun62005_ip = 53; continue _fun62005 }
+            if(!(golf === tango)) { _fun62008_ip = 53; continue _fun62008 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

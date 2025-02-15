@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: FamilyCenterActivityBannerButton
-        _fun95111: for(var _fun95111_ip = 0; ; ) switch(_fun95111_ip) {
+        _fun95121: for(var _fun95121_ip = 0; ; ) switch(_fun95121_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
@@ -32,15 +32,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = zulu.useHasMaxConnections;
             tango = entity.bind(zulu)();
             entity = null;
-            if(tango) { _fun95111_ip = 195; continue _fun95111 }
+            if(tango) { _fun95121_ip = 195; continue _fun95121 }
  98:
-            if(!golf) { _fun95111_ip = 117; continue _fun95111 }
+            if(!golf) { _fun95121_ip = 117; continue _fun95121 }
  101:
             tango = mike.length;
             mike = 0;
             mike = tango > mike;
             entity = null;
-            if(mike) { _fun95111_ip = 195; continue _fun95111 }
+            if(mike) { _fun95121_ip = 195; continue _fun95121 }
  117:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -53,10 +53,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = 7;
             oscar = offset[oscar];
             oscar = verify.bind(report)(oscar);
-            if(golf) { _fun95111_ip = 171; continue _fun95111 }
+            if(golf) { _fun95121_ip = 171; continue _fun95121 }
  163:
             golf = oscar.FamilyCenterTeenQRCodeButton;
-            _fun95111_ip = 177; continue _fun95111;
+            _fun95121_ip = 177; continue _fun95121;
  171:
             golf = oscar.FamilyCenterParentQRCodeButton;
  177:
@@ -161,7 +161,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/parent_tools/native/FamilyCenterActivityBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: FamilyCenterActivityBanner
-        _fun95112: for(var _fun95112_ip = 0; ; ) switch(_fun95112_ip) {
+        _fun95122: for(var _fun95122_ip = 0; ; ) switch(_fun95122_ip) {
  0:
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
@@ -239,11 +239,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = _closure1_slot4;
             report = {};
             sizing = _closure1_slot2;
-            if(offset) { _fun95112_ip = 360; continue _fun95112 }
+            if(offset) { _fun95122_ip = 360; continue _fun95122 }
  351:
             offset = 12;
             offset = sizing[offset];
-            _fun95112_ip = 367; continue _fun95112;
+            _fun95122_ip = 367; continue _fun95122;
  360:
             backup = 11;
             offset = sizing[backup];
@@ -282,7 +282,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = offset.bind(tango)(verify, oscar);
             report[2] = oscar;
             oscar = null;
-            if(options) { _fun95112_ip = 546; continue _fun95112 }
+            if(options) { _fun95122_ip = 546; continue _fun95122 }
  530:
             verify = _closure1_slot6;
             options = _closure1_slot10;

@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getBlurAmount
-        _fun47653: for(var _fun47653_ip = 0; ; ) switch(_fun47653_ip) {
+        _fun47660: for(var _fun47660_ip = 0; ; ) switch(_fun47660_ip) {
  0:
             mike = argFoo;
             entity = 'none';
-            if(!(entity !== mike)) { _fun47653_ip = 57; continue _fun47653 }
+            if(!(entity !== mike)) { _fun47660_ip = 57; continue _fun47660 }
  11:
             entity = 'subtle';
-            if(!(entity !== mike)) { _fun47653_ip = 45; continue _fun47653 }
+            if(!(entity !== mike)) { _fun47660_ip = 45; continue _fun47660 }
  21:
             entity = 'strong';
-            if(!(entity !== mike)) { _fun47653_ip = 33; continue _fun47653 }
+            if(!(entity !== mike)) { _fun47660_ip = 33; continue _fun47660 }
  29:
             entity = undefined;
             return entity;
@@ -98,30 +98,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Backdrop/native/Backdrop.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Backdrop
-        _fun47654: for(var _fun47654_ip = 0; ; ) switch(_fun47654_ip) {
+        _fun47661: for(var _fun47661_ip = 0; ; ) switch(_fun47661_ip) {
  0:
             mike = argFoo;
             golf = mike.style;
             update = mike.accessibleDismissStyle;
             report = mike.animatedProps;
             tango = undefined;
-            if(!(report === tango)) { _fun47654_ip = 35; continue _fun47654 }
+            if(!(report === tango)) { _fun47661_ip = 35; continue _fun47661 }
  28:
             report = _closure1_slot7;
  35:
             verify = mike.opaque;
-            if(!(verify === tango)) { _fun47654_ip = 47; continue _fun47654 }
+            if(!(verify === tango)) { _fun47661_ip = 47; continue _fun47661 }
  45:
             verify = false;
  47:
             output = mike.blur;
-            if(!(output === tango)) { _fun47654_ip = 61; continue _fun47654 }
+            if(!(output === tango)) { _fun47661_ip = 61; continue _fun47661 }
  57:
             output = 'none';
  61:
             result = mike.onDismiss;
             romeo = mike.accessibilityLabel;
-            if(!(romeo === tango)) { _fun47654_ip = 134; continue _fun47654 }
+            if(!(romeo === tango)) { _fun47661_ip = 134; continue _fun47661 }
  76:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['animatedProps'] = report;
             report = null;
             oscar = report != result;
-            if(!oscar) { _fun47654_ip = 411; continue _fun47654 }
+            if(!oscar) { _fun47661_ip = 411; continue _fun47661 }
  342:
             options = _closure1_slot5;
             golf = _closure1_slot4;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot5;
             golf = _closure1_slot4;
             oscar = 'none';
-            if(!(oscar === output)) { _fun47654_ip = 493; continue _fun47654 }
+            if(!(oscar === output)) { _fun47661_ip = 493; continue _fun47661 }
  435:
             oscar = {};
             sequence = oscar;
@@ -228,17 +228,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.fill;
             yankee = new Array(2);
             yankee[0] = romeo;
-            if(verify) { _fun47654_ip = 472; continue _fun47654 }
+            if(verify) { _fun47661_ip = 472; continue _fun47661 }
  464:
             verify = foxtrot.backdrop;
-            _fun47654_ip = 478; continue _fun47654;
+            _fun47661_ip = 478; continue _fun47661;
  472:
             verify = foxtrot.backdropOpaque;
  478:
             yankee[1] = verify;
             verify = 'style';
             oscar[verify] = yankee;
-            _fun47654_ip = 614; continue _fun47654;
+            _fun47661_ip = 614; continue _fun47661;
  493:
             verify = {};
             sequence = verify;

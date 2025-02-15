@@ -25,12 +25,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: withTiming
-            _fun47738: for(var _fun47738_ip = 0; ; ) switch(_fun47738_ip) {
+            _fun47745: for(var _fun47745_ip = 0; ; ) switch(_fun47745_ip) {
  0:
                 oscar = argBar;
                 options = arguments[2];
                 report = undefined;
-                if(!(options === report)) { _fun47738_ip = 18; continue _fun47738 }
+                if(!(options === report)) { _fun47745_ip = 18; continue _fun47745 }
  12:
                 options = 'respect-motion-settings';
  18:
@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 tango = report.withTiming;
                 golf = 'animate-always';
                 zulu = oscar;
-                if(!(golf !== options)) { _fun47738_ip = 112; continue _fun47738 }
+                if(!(golf !== options)) { _fun47745_ip = 112; continue _fun47745 }
  92:
                 golf = 'respect-motion-settings';
-                if(!(golf === options)) { _fun47738_ip = 108; continue _fun47738 }
+                if(!(golf === options)) { _fun47745_ip = 108; continue _fun47745 }
  102:
                 zulu = oscar;
-                if(!mike) { _fun47738_ip = 112; continue _fun47738 }
+                if(!mike) { _fun47745_ip = 112; continue _fun47745 }
  108:
                 zulu = _closure1_slot2;
  112:

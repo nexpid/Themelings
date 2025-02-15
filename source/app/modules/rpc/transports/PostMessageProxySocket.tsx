@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun74853: for(var _fun74853_ip = 0; ; ) switch(_fun74853_ip) {
+        _fun74863: for(var _fun74863_ip = 0; ; ) switch(_fun74863_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun74853_ip = 51; continue _fun74853 }
+            if(entity) { _fun74863_ip = 51; continue _fun74863 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun74853_ip = 92; continue _fun74853;
+            _fun74863_ip = 92; continue _fun74863;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun74853_ip = 71; continue _fun74853 }
+            if(oscar) { _fun74863_ip = 71; continue _fun74863 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun74854: for(var _fun74854_ip = 0; ; ) switch(_fun74854_ip) {
+        _fun74864: for(var _fun74864_ip = 0; ; ) switch(_fun74864_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun74854_ip = 76; continue _fun74854;
+            _fun74864_ip = 76; continue _fun74864;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = golf.bind(entity)(tango);
     mike = function(argFoo) {
         tango = function(argFoo) { // Original name: WindowProxySocket
-            _fun74858: for(var _fun74858_ip = 0; ; ) switch(_fun74858_ip) {
+            _fun74868: for(var _fun74868_ip = 0; ; ) switch(_fun74868_ip) {
  0:
                 entity = argFoo;
                 foxtrot = this;
@@ -152,10 +152,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 yankee = romeo.indexOf;
                 romeo = yankee.bind(romeo)(report);
                 yankee = -1;
-                if(!(yankee !== romeo)) { _fun74858_ip = 269; continue _fun74858 }
+                if(!(yankee !== romeo)) { _fun74868_ip = 269; continue _fun74868 }
  145:
                 yankee = 'etf';
-                if(!(yankee !== report)) { _fun74858_ip = 201; continue _fun74858 }
+                if(!(yankee !== report)) { _fun74868_ip = 201; continue _fun74868 }
  155:
                 mike['origin'] = offset;
                 mike['postMessageToRPCClient'] = verify;
@@ -218,13 +218,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'send';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun74859: for(var _fun74859_ip = 0; ; ) switch(_fun74859_ip) {
+            _fun74869: for(var _fun74869_ip = 0; ; ) switch(_fun74869_ip) {
  0:
                 mike = argFoo;
                 report = this;
                 tango = report.onSendingToRPCClient;
                 entity = null;
-                if(!(entity != tango)) { _fun74859_ip = 35; continue _fun74859 }
+                if(!(entity != tango)) { _fun74869_ip = 35; continue _fun74869 }
  18:
                 zulu = tango.call;
                 entity = report.id;
@@ -253,11 +253,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'close';
         report['key'] = golf;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun74860: for(var _fun74860_ip = 0; ; ) switch(_fun74860_ip) {
+            _fun74870: for(var _fun74870_ip = 0; ; ) switch(_fun74870_ip) {
  0:
                 mike = this;
                 entity = mike.closed;
-                if(entity) { _fun74860_ip = 53; continue _fun74860 }
+                if(entity) { _fun74870_ip = 53; continue _fun74870 }
  12:
                 report = mike.postClose;
                 tango = mike.origin;

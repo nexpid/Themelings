@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['TrackExposureLocations'] = report;
     zulu['SettingMode'] = tango;
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getChannelPermissionSpecMap
-        _fun65400: for(var _fun65400_ip = 0; ; ) switch(_fun65400_ip) {
+        _fun65405: for(var _fun65405_ip = 0; ; ) switch(_fun65405_ip) {
  0:
             romeo = argFoo;
             yankee = argBar;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 116; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 116; continue _fun65405 }
  57:
             foxtrot = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.W/A4Qk;
             mike = golf.bind(options)(mike);
-            _fun65400_ip = 173; continue _fun65400;
+            _fun65405_ip = 173; continue _fun65405;
  116:
             kilo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -146,9 +146,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             golf = mike.GUILD_CATEGORY;
-            if(yankee) { _fun65400_ip = 267; continue _fun65400 }
+            if(yankee) { _fun65405_ip = 267; continue _fun65405 }
  190:
-            if(!(oscar !== golf)) { _fun65400_ip = 229; continue _fun65400 }
+            if(!(oscar !== golf)) { _fun65405_ip = 229; continue _fun65405 }
  194:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(mike)(options);
             mike = mike.t;
             mike = mike.M2iEy8;
-            _fun65400_ip = 262; continue _fun65400;
+            _fun65405_ip = 262; continue _fun65405;
  229:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -169,17 +169,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.t;
             mike = options.SzosGh;
  262:
-            _fun65400_ip = 402; continue _fun65400;
+            _fun65405_ip = 402; continue _fun65405;
  267:
-            if(!(golf !== oscar)) { _fun65400_ip = 369; continue _fun65400 }
+            if(!(golf !== oscar)) { _fun65405_ip = 369; continue _fun65405 }
  271:
             golf = _closure1_slot3;
             golf = golf.GUILD_VOICE;
-            if(!(golf !== oscar)) { _fun65400_ip = 334; continue _fun65400 }
+            if(!(golf !== oscar)) { _fun65405_ip = 334; continue _fun65405 }
  285:
             golf = _closure1_slot3;
             golf = golf.GUILD_STAGE_VOICE;
-            if(!(golf !== oscar)) { _fun65400_ip = 334; continue _fun65400 }
+            if(!(golf !== oscar)) { _fun65405_ip = 334; continue _fun65405 }
  299:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(golf)(options);
             golf = golf.t;
             mike = golf.3jG0Bg;
-            _fun65400_ip = 402; continue _fun65400;
+            _fun65405_ip = 402; continue _fun65405;
  334:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(golf)(options);
             golf = golf.t;
             mike = golf.ejL1Wl;
-            _fun65400_ip = 402; continue _fun65400;
+            _fun65405_ip = 402; continue _fun65405;
  369:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_CATEGORY;
-            if(!(oscar !== zulu)) { _fun65400_ip = 516; continue _fun65400 }
+            if(!(oscar !== zulu)) { _fun65405_ip = 516; continue _fun65405 }
  457:
             foxtrot = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.nAw15O;
             zulu = golf.bind(options)(zulu);
-            _fun65400_ip = 573; continue _fun65400;
+            _fun65405_ip = 573; continue _fun65405;
  516:
             kilo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -255,15 +255,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['title'] = zulu;
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_CATEGORY;
-            if(!(zulu !== oscar)) { _fun65400_ip = 727; continue _fun65400 }
+            if(!(zulu !== oscar)) { _fun65405_ip = 727; continue _fun65405 }
  594:
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_VOICE;
-            if(!(zulu !== oscar)) { _fun65400_ip = 692; continue _fun65400 }
+            if(!(zulu !== oscar)) { _fun65405_ip = 692; continue _fun65405 }
  608:
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_STAGE_VOICE;
-            if(!(zulu !== oscar)) { _fun65400_ip = 657; continue _fun65400 }
+            if(!(zulu !== oscar)) { _fun65405_ip = 657; continue _fun65405 }
  622:
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.bind(zulu)(golf);
             zulu = zulu.t;
             zulu = zulu.ydL28v;
-            _fun65400_ip = 760; continue _fun65400;
+            _fun65405_ip = 760; continue _fun65405;
  657:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(golf)(options);
             golf = golf.t;
             zulu = golf.SDX66+;
-            _fun65400_ip = 760; continue _fun65400;
+            _fun65405_ip = 760; continue _fun65405;
  692:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(golf)(options);
             golf = golf.t;
             zulu = golf.+gl2nZ;
-            _fun65400_ip = 760; continue _fun65400;
+            _fun65405_ip = 760; continue _fun65405;
  727:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -329,11 +329,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = foxtrot;
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_CATEGORY;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 950; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 950; continue _fun65405 }
  876:
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_STAGE_VOICE;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 920; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 920; continue _fun65405 }
  890:
             sizing = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = sizing.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.hOMXOj;
-            _fun65400_ip = 978; continue _fun65400;
+            _fun65405_ip = 978; continue _fun65405;
  920:
             output = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(golf)(sizing);
             sizing = sizing.t;
             foxtrot = sizing.hcw4m5;
-            _fun65400_ip = 978; continue _fun65400;
+            _fun65405_ip = 978; continue _fun65405;
  950:
             output = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 1107; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 1107; continue _fun65405 }
  1077:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.CYBZr6;
-            _fun65400_ip = 1135; continue _fun65400;
+            _fun65405_ip = 1135; continue _fun65405;
  1107:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -418,15 +418,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = offset;
             offset = _closure1_slot3;
             offset = offset.GUILD_CATEGORY;
-            if(!(offset !== oscar)) { _fun65400_ip = 1334; continue _fun65400 }
+            if(!(offset !== oscar)) { _fun65405_ip = 1334; continue _fun65405 }
  1246:
             offset = _closure1_slot3;
             offset = offset.GUILD_VOICE;
-            if(!(offset !== oscar)) { _fun65400_ip = 1304; continue _fun65400 }
+            if(!(offset !== oscar)) { _fun65405_ip = 1304; continue _fun65405 }
  1260:
             offset = _closure1_slot3;
             offset = offset.GUILD_STAGE_VOICE;
-            if(!(offset !== oscar)) { _fun65400_ip = 1304; continue _fun65400 }
+            if(!(offset !== oscar)) { _fun65405_ip = 1304; continue _fun65405 }
  1274:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(golf)(offset);
             offset = offset.t;
             offset = offset.q4g2aG;
-            _fun65400_ip = 1362; continue _fun65400;
+            _fun65405_ip = 1362; continue _fun65405;
  1304:
             kilo = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             offset = foxtrot.lUCs1t;
-            _fun65400_ip = 1362; continue _fun65400;
+            _fun65405_ip = 1362; continue _fun65405;
  1334:
             kilo = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -463,13 +463,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.GUILD_THREADS_ONLY;
             mike = offset.has;
             mike = mike.bind(offset)(oscar);
-            if(mike) { _fun65400_ip = 1550; continue _fun65400 }
+            if(mike) { _fun65405_ip = 1550; continue _fun65405 }
  1425:
-            if(!verify) { _fun65400_ip = 1442; continue _fun65400 }
+            if(!verify) { _fun65405_ip = 1442; continue _fun65405 }
  1428:
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 1496; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 1496; continue _fun65405 }
  1442:
             kilo = _closure1_slot0;
             mike = _closure1_slot2;
@@ -482,7 +482,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.T32rkJ;
             mike = offset.bind(foxtrot)(mike);
-            _fun65400_ip = 1548; continue _fun65400;
+            _fun65405_ip = 1548; continue _fun65405;
  1496:
             sizing = _closure1_slot0;
             offset = _closure1_slot2;
@@ -496,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.S1VOwc;
             mike = foxtrot.bind(kilo)(offset);
  1548:
-            _fun65400_ip = 1602; continue _fun65400;
+            _fun65405_ip = 1602; continue _fun65405;
  1550:
             sizing = _closure1_slot0;
             offset = _closure1_slot2;
@@ -513,23 +513,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(mike !== oscar)) { _fun65400_ip = 2003; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 2003; continue _fun65405 }
  1623:
             mike = _closure1_slot3;
             mike = mike.GUILD_FORUM;
-            if(!(mike !== oscar)) { _fun65400_ip = 1908; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 1908; continue _fun65405 }
  1640:
             mike = _closure1_slot3;
             mike = mike.GUILD_MEDIA;
-            if(!(mike !== oscar)) { _fun65400_ip = 1875; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 1875; continue _fun65405 }
  1657:
             mike = _closure1_slot3;
             mike = mike.GUILD_ANNOUNCEMENT;
-            if(!(mike !== oscar)) { _fun65400_ip = 1773; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 1773; continue _fun65405 }
  1671:
             mike = _closure1_slot3;
             mike = mike.GUILD_VOICE;
-            if(!(mike !== oscar)) { _fun65400_ip = 1718; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 1718; continue _fun65405 }
  1685:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.WQ6zpa;
-            _fun65400_ip = 2045; continue _fun65400;
+            _fun65405_ip = 2045; continue _fun65405;
  1718:
             foxtrot = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -548,12 +548,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             sizing = offset == backup;
             offset = undefined;
-            if(sizing) { _fun65400_ip = 1763; continue _fun65400 }
+            if(sizing) { _fun65405_ip = 1763; continue _fun65405 }
  1755:
             offset = backup.sendMessagesDisabled;
  1763:
             mike = foxtrot.bind(kilo)(offset);
-            _fun65400_ip = 2045; continue _fun65400;
+            _fun65405_ip = 2045; continue _fun65405;
  1773:
             foxtrot = _closure1_slot0;
             echo = _closure1_slot2;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             offset['articleURL'] = output;
             mike = kilo.bind(sizing)(foxtrot, offset);
-            _fun65400_ip = 2045; continue _fun65400;
+            _fun65405_ip = 2045; continue _fun65405;
  1875:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -584,17 +584,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(golf)(offset);
             offset = offset.t;
             mike = offset.LG9VAg;
-            _fun65400_ip = 2045; continue _fun65400;
+            _fun65405_ip = 2045; continue _fun65405;
  1908:
             offset = null;
-            if(!(offset != backup)) { _fun65400_ip = 1970; continue _fun65400 }
+            if(!(offset != backup)) { _fun65405_ip = 1970; continue _fun65405 }
  1914:
             offset = backup.createPostsDisabled;
-            if(!offset) { _fun65400_ip = 1970; continue _fun65400 }
+            if(!offset) { _fun65405_ip = 1970; continue _fun65405 }
  1925:
             offset = romeo.isMediaChannel;
             offset = offset.bind(romeo)();
-            if(offset) { _fun65400_ip = 1970; continue _fun65400 }
+            if(offset) { _fun65405_ip = 1970; continue _fun65405 }
  1938:
             romeo = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.bind(golf)(offset);
             offset = romeo.getForumChannelPermissionText;
             offset = offset.bind(romeo)();
-            _fun65400_ip = 1998; continue _fun65400;
+            _fun65405_ip = 1998; continue _fun65405;
  1970:
             foxtrot = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -613,17 +613,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.LG9VAg;
  1998:
             mike = offset;
-            _fun65400_ip = 2045; continue _fun65400;
+            _fun65405_ip = 2045; continue _fun65405;
  2003:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
             offset = offset[options];
             offset = romeo.bind(golf)(offset);
             romeo = offset.t;
-            if(verify) { _fun65400_ip = 2036; continue _fun65400 }
+            if(verify) { _fun65405_ip = 2036; continue _fun65405 }
  2028:
             offset = romeo.qLnFpa;
-            _fun65400_ip = 2042; continue _fun65400;
+            _fun65405_ip = 2042; continue _fun65405;
  2036:
             offset = romeo.IjeLur;
  2042:
@@ -652,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 2186; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 2186; continue _fun65405 }
  2156:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -660,7 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.XFFhAw;
-            _fun65400_ip = 2214; continue _fun65400;
+            _fun65405_ip = 2214; continue _fun65405;
  2186:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -692,7 +692,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['title'] = zulu;
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_CATEGORY;
-            if(!(oscar !== zulu)) { _fun65400_ip = 2355; continue _fun65400 }
+            if(!(oscar !== zulu)) { _fun65405_ip = 2355; continue _fun65405 }
  2325:
             offset = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -700,7 +700,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = offset.bind(golf)(zulu);
             zulu = zulu.t;
             zulu = zulu.WK9r7O;
-            _fun65400_ip = 2383; continue _fun65400;
+            _fun65405_ip = 2383; continue _fun65405;
  2355:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -732,11 +732,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = romeo;
             romeo = _closure1_slot3;
             romeo = romeo.GUILD_CATEGORY;
-            if(!(romeo !== oscar)) { _fun65400_ip = 2568; continue _fun65400 }
+            if(!(romeo !== oscar)) { _fun65405_ip = 2568; continue _fun65405 }
  2494:
             romeo = _closure1_slot3;
             romeo = romeo.GUILD_VOICE;
-            if(!(romeo !== oscar)) { _fun65400_ip = 2538; continue _fun65400 }
+            if(!(romeo !== oscar)) { _fun65405_ip = 2538; continue _fun65405 }
  2508:
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -744,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = kilo.bind(golf)(romeo);
             romeo = romeo.t;
             romeo = romeo.PVjR1d;
-            _fun65400_ip = 2596; continue _fun65400;
+            _fun65405_ip = 2596; continue _fun65405;
  2538:
             sizing = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(golf)(kilo);
             kilo = kilo.t;
             romeo = kilo.xSSbIi;
-            _fun65400_ip = 2596; continue _fun65400;
+            _fun65405_ip = 2596; continue _fun65405;
  2568:
             sizing = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -781,7 +781,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 2725; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 2725; continue _fun65405 }
  2695:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -789,7 +789,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.Qc5vOj;
-            _fun65400_ip = 2753; continue _fun65400;
+            _fun65405_ip = 2753; continue _fun65405;
  2725:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -821,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 2894; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 2894; continue _fun65405 }
  2864:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -829,7 +829,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.VF4fZW;
-            _fun65400_ip = 2922; continue _fun65400;
+            _fun65405_ip = 2922; continue _fun65405;
  2894:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -849,7 +849,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             mike = _closure1_slot3;
             mike = mike.GUILD_STAGE_VOICE;
-            if(!(oscar !== mike)) { _fun65400_ip = 3031; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 3031; continue _fun65405 }
  2977:
             foxtrot = _closure1_slot0;
             mike = _closure1_slot2;
@@ -862,7 +862,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.Y78KGB;
             mike = offset.bind(romeo)(mike);
-            _fun65400_ip = 3083; continue _fun65400;
+            _fun65405_ip = 3083; continue _fun65405;
  3031:
             kilo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -879,11 +879,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 3175; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 3175; continue _fun65405 }
  3101:
             mike = _closure1_slot3;
             mike = mike.GUILD_STAGE_VOICE;
-            if(!(oscar !== mike)) { _fun65400_ip = 3145; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 3145; continue _fun65405 }
  3115:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -891,7 +891,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.6IUSdn;
-            _fun65400_ip = 3173; continue _fun65400;
+            _fun65405_ip = 3173; continue _fun65405;
  3145:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -900,7 +900,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             mike = offset.rZn1oK;
  3173:
-            _fun65400_ip = 3203; continue _fun65400;
+            _fun65405_ip = 3203; continue _fun65405;
  3175:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -932,11 +932,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = offset;
             offset = _closure1_slot3;
             offset = offset.GUILD_CATEGORY;
-            if(!(offset !== oscar)) { _fun65400_ip = 3463; continue _fun65400 }
+            if(!(offset !== oscar)) { _fun65405_ip = 3463; continue _fun65405 }
  3317:
             offset = _closure1_slot3;
             offset = offset.GUILD_ANNOUNCEMENT;
-            if(!(offset !== oscar)) { _fun65400_ip = 3364; continue _fun65400 }
+            if(!(offset !== oscar)) { _fun65405_ip = 3364; continue _fun65405 }
  3331:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -944,7 +944,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(golf)(offset);
             offset = offset.t;
             offset = offset.SeA+Gx;
-            _fun65400_ip = 3491; continue _fun65400;
+            _fun65405_ip = 3491; continue _fun65405;
  3364:
             foxtrot = _closure1_slot0;
             echo = _closure1_slot2;
@@ -967,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             romeo['articleURL'] = output;
             offset = kilo.bind(sizing)(foxtrot, romeo);
-            _fun65400_ip = 3491; continue _fun65400;
+            _fun65405_ip = 3491; continue _fun65405;
  3463:
             foxtrot = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -997,11 +997,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset[options];
             offset = kilo.bind(golf)(offset);
             offset = offset.t;
-            if(mike) { _fun65400_ip = 3605; continue _fun65400 }
+            if(mike) { _fun65405_ip = 3605; continue _fun65405 }
  3592:
             mike = offset.l9ufaW;
             mike = romeo.bind(foxtrot)(mike);
-            _fun65400_ip = 3616; continue _fun65400;
+            _fun65405_ip = 3616; continue _fun65405;
  3605:
             offset = offset.0RQwtr;
             mike = romeo.bind(foxtrot)(offset);
@@ -1009,19 +1009,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(mike !== oscar)) { _fun65400_ip = 3791; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 3791; continue _fun65405 }
  3637:
             mike = _closure1_slot3;
             mike = mike.GUILD_VOICE;
-            if(!(mike !== oscar)) { _fun65400_ip = 3739; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 3739; continue _fun65405 }
  3651:
             mike = _closure1_slot3;
             mike = mike.GUILD_FORUM;
-            if(!(mike !== oscar)) { _fun65400_ip = 3709; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 3709; continue _fun65405 }
  3665:
             mike = _closure1_slot3;
             mike = mike.GUILD_MEDIA;
-            if(!(mike !== oscar)) { _fun65400_ip = 3709; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 3709; continue _fun65405 }
  3679:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1029,7 +1029,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.cuMfHx;
-            _fun65400_ip = 3819; continue _fun65400;
+            _fun65405_ip = 3819; continue _fun65405;
  3709:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1037,7 +1037,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(golf)(offset);
             offset = offset.t;
             mike = offset.RqCc7u;
-            _fun65400_ip = 3819; continue _fun65400;
+            _fun65405_ip = 3819; continue _fun65405;
  3739:
             romeo = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -1048,12 +1048,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             kilo = offset == backup;
             offset = undefined;
-            if(kilo) { _fun65400_ip = 3784; continue _fun65400 }
+            if(kilo) { _fun65405_ip = 3784; continue _fun65405 }
  3776:
             offset = backup.readMessageHistoryDisabled;
  3784:
             mike = romeo.bind(foxtrot)(offset);
-            _fun65400_ip = 3819; continue _fun65400;
+            _fun65405_ip = 3819; continue _fun65405;
  3791:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1085,7 +1085,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 3960; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 3960; continue _fun65405 }
  3930:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1093,7 +1093,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.CpakGx;
-            _fun65400_ip = 3988; continue _fun65400;
+            _fun65405_ip = 3988; continue _fun65405;
  3960:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1125,7 +1125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 4129; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 4129; continue _fun65405 }
  4099:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1133,7 +1133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.ReG3gI;
-            _fun65400_ip = 4157; continue _fun65400;
+            _fun65405_ip = 4157; continue _fun65405;
  4129:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1165,7 +1165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 4298; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 4298; continue _fun65405 }
  4268:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1173,7 +1173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.BhEo9f;
-            _fun65400_ip = 4326; continue _fun65400;
+            _fun65405_ip = 4326; continue _fun65405;
  4298:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1205,7 +1205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 4467; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 4467; continue _fun65405 }
  4437:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -1213,7 +1213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.ckKKIC;
-            _fun65400_ip = 4495; continue _fun65400;
+            _fun65405_ip = 4495; continue _fun65405;
  4467:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1245,7 +1245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['title'] = zulu;
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_CATEGORY;
-            if(!(oscar !== zulu)) { _fun65400_ip = 4636; continue _fun65400 }
+            if(!(oscar !== zulu)) { _fun65405_ip = 4636; continue _fun65405 }
  4606:
             offset = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -1253,7 +1253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = offset.bind(golf)(zulu);
             zulu = zulu.t;
             zulu = zulu.d664Fx;
-            _fun65400_ip = 4664; continue _fun65400;
+            _fun65405_ip = 4664; continue _fun65405;
  4636:
             romeo = _closure1_slot0;
             offset = _closure1_slot2;
@@ -1285,25 +1285,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = foxtrot;
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_CATEGORY;
-            if(yankee) { _fun65400_ip = 4972; continue _fun65400 }
+            if(yankee) { _fun65405_ip = 4972; continue _fun65405 }
  4777:
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 4939; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 4939; continue _fun65405 }
  4784:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 4906; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 4906; continue _fun65405 }
  4798:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 4873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 4873; continue _fun65405 }
  4812:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 4873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 4873; continue _fun65405 }
  4826:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 4873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 4873; continue _fun65405 }
  4840:
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1311,7 +1311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.HvG8ub;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  4873:
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1319,7 +1319,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(golf)(backup);
             backup = backup.t;
             yankee = backup.QU/Rw8;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  4906:
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1327,7 +1327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(golf)(backup);
             backup = backup.t;
             yankee = backup.G9+QiY;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  4939:
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1335,25 +1335,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(golf)(backup);
             backup = backup.t;
             yankee = backup.stA0Hh;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  4972:
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 5125; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 5125; continue _fun65405 }
  4979:
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_STAGE_VOICE;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 5095; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 5095; continue _fun65405 }
  4993:
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_TEXT;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 5065; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 5065; continue _fun65405 }
  5007:
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_FORUM;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 5065; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 5065; continue _fun65405 }
  5021:
             foxtrot = _closure1_slot3;
             foxtrot = foxtrot.GUILD_MEDIA;
-            if(!(foxtrot !== oscar)) { _fun65400_ip = 5065; continue _fun65400 }
+            if(!(foxtrot !== oscar)) { _fun65405_ip = 5065; continue _fun65405 }
  5035:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1361,7 +1361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.j4AyOz;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  5065:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1369,7 +1369,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.LsS8xc;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  5095:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1377,7 +1377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.SOFNhI;
-            _fun65400_ip = 5153; continue _fun65400;
+            _fun65405_ip = 5153; continue _fun65405;
  5125:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1406,23 +1406,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5401; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5401; continue _fun65405 }
  5255:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5371; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5371; continue _fun65405 }
  5269:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5341; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5341; continue _fun65405 }
  5283:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5341; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5341; continue _fun65405 }
  5297:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5341; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5341; continue _fun65405 }
  5311:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1430,7 +1430,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.568E6e;
-            _fun65400_ip = 5429; continue _fun65400;
+            _fun65405_ip = 5429; continue _fun65405;
  5341:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1438,7 +1438,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.+VXsJC;
-            _fun65400_ip = 5429; continue _fun65400;
+            _fun65405_ip = 5429; continue _fun65405;
  5371:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1446,7 +1446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.a8n74+;
-            _fun65400_ip = 5429; continue _fun65400;
+            _fun65405_ip = 5429; continue _fun65405;
  5401:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1475,23 +1475,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5677; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5677; continue _fun65405 }
  5531:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5647; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5647; continue _fun65405 }
  5545:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5647; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5647; continue _fun65405 }
  5559:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5647; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5647; continue _fun65405 }
  5573:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5617; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5617; continue _fun65405 }
  5587:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1499,7 +1499,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.RY8rIS;
-            _fun65400_ip = 5705; continue _fun65400;
+            _fun65405_ip = 5705; continue _fun65405;
  5617:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1507,7 +1507,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.swJcNz;
-            _fun65400_ip = 5705; continue _fun65400;
+            _fun65405_ip = 5705; continue _fun65405;
  5647:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1515,7 +1515,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.AuEQEB;
-            _fun65400_ip = 5705; continue _fun65400;
+            _fun65405_ip = 5705; continue _fun65405;
  5677:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1544,15 +1544,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5892; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5892; continue _fun65405 }
  5804:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5862; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5862; continue _fun65405 }
  5818:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 5862; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 5862; continue _fun65405 }
  5832:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1560,7 +1560,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.qinvMT;
-            _fun65400_ip = 5920; continue _fun65400;
+            _fun65405_ip = 5920; continue _fun65405;
  5862:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1568,7 +1568,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.RyEwlZ;
-            _fun65400_ip = 5920; continue _fun65400;
+            _fun65405_ip = 5920; continue _fun65405;
  5892:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1597,15 +1597,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6107; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6107; continue _fun65405 }
  6019:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6077; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6077; continue _fun65405 }
  6033:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6077; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6077; continue _fun65405 }
  6047:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1613,7 +1613,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.czqMLi;
-            _fun65400_ip = 6135; continue _fun65400;
+            _fun65405_ip = 6135; continue _fun65405;
  6077:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1621,7 +1621,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.qPUPio;
-            _fun65400_ip = 6135; continue _fun65400;
+            _fun65405_ip = 6135; continue _fun65405;
  6107:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1650,19 +1650,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6483; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6483; continue _fun65405 }
  6237:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6384; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6384; continue _fun65405 }
  6254:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6384; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6384; continue _fun65405 }
  6268:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6384; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6384; continue _fun65405 }
  6282:
             foxtrot = _closure1_slot0;
             result = _closure1_slot2;
@@ -1685,7 +1685,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(result)(sizing);
             yankee['helpCenterArticle'] = sizing;
             yankee = backup.bind(kilo)(foxtrot, yankee);
-            _fun65400_ip = 6580; continue _fun65400;
+            _fun65405_ip = 6580; continue _fun65405;
  6384:
             backup = _closure1_slot0;
             echo = _closure1_slot2;
@@ -1708,7 +1708,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             foxtrot['helpCenterArticle'] = output;
             yankee = kilo.bind(sizing)(backup, foxtrot);
-            _fun65400_ip = 6580; continue _fun65400;
+            _fun65405_ip = 6580; continue _fun65405;
  6483:
             backup = _closure1_slot0;
             echo = _closure1_slot2;
@@ -1774,23 +1774,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6933; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6933; continue _fun65405 }
  6787:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6903; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6903; continue _fun65405 }
  6801:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6873; continue _fun65405 }
  6815:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6873; continue _fun65405 }
  6829:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 6873; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 6873; continue _fun65405 }
  6843:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1798,7 +1798,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.s2eihY;
-            _fun65400_ip = 6961; continue _fun65400;
+            _fun65405_ip = 6961; continue _fun65405;
  6873:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1806,7 +1806,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.3GJwsb;
-            _fun65400_ip = 6961; continue _fun65400;
+            _fun65405_ip = 6961; continue _fun65405;
  6903:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1814,7 +1814,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.BJKqsb;
-            _fun65400_ip = 6961; continue _fun65400;
+            _fun65405_ip = 6961; continue _fun65405;
  6933:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1843,19 +1843,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7326; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7326; continue _fun65405 }
  7063:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7220; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7220; continue _fun65405 }
  7080:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7220; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7220; continue _fun65405 }
  7097:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7220; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7220; continue _fun65405 }
  7111:
             echo = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -1879,7 +1879,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(result)(sizing);
             yankee['keybind'] = sizing;
             yankee = backup.bind(kilo)(foxtrot, yankee);
-            _fun65400_ip = 7430; continue _fun65400;
+            _fun65405_ip = 7430; continue _fun65405;
  7220:
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -1903,7 +1903,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             foxtrot['keybind'] = output;
             yankee = kilo.bind(sizing)(backup, foxtrot);
-            _fun65400_ip = 7430; continue _fun65400;
+            _fun65405_ip = 7430; continue _fun65405;
  7326:
             update = _closure1_slot0;
             output = _closure1_slot2;
@@ -1948,23 +1948,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7678; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7678; continue _fun65405 }
  7532:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7648; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7648; continue _fun65405 }
  7546:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7618; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7618; continue _fun65405 }
  7560:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7618; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7618; continue _fun65405 }
  7574:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7618; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7618; continue _fun65405 }
  7588:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -1972,7 +1972,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.LW5C9P;
-            _fun65400_ip = 7706; continue _fun65400;
+            _fun65405_ip = 7706; continue _fun65405;
  7618:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1980,7 +1980,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.KYDG2N;
-            _fun65400_ip = 7706; continue _fun65400;
+            _fun65405_ip = 7706; continue _fun65405;
  7648:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -1988,7 +1988,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.EbvdHx;
-            _fun65400_ip = 7706; continue _fun65400;
+            _fun65405_ip = 7706; continue _fun65405;
  7678:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2017,19 +2017,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7907; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7907; continue _fun65405 }
  7805:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7877; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7877; continue _fun65405 }
  7819:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7877; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7877; continue _fun65405 }
  7833:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 7877; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 7877; continue _fun65405 }
  7847:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -2037,7 +2037,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.UAdIxs;
-            _fun65400_ip = 7935; continue _fun65400;
+            _fun65405_ip = 7935; continue _fun65405;
  7877:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2045,7 +2045,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.d+i1nZ;
-            _fun65400_ip = 7935; continue _fun65400;
+            _fun65405_ip = 7935; continue _fun65405;
  7907:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2074,23 +2074,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['title'] = yankee;
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_CATEGORY;
-            if(!(yankee !== oscar)) { _fun65400_ip = 8183; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 8183; continue _fun65405 }
  8037:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(yankee !== oscar)) { _fun65400_ip = 8153; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 8153; continue _fun65405 }
  8051:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_TEXT;
-            if(!(yankee !== oscar)) { _fun65400_ip = 8123; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 8123; continue _fun65405 }
  8065:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_FORUM;
-            if(!(yankee !== oscar)) { _fun65400_ip = 8123; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 8123; continue _fun65405 }
  8079:
             yankee = _closure1_slot3;
             yankee = yankee.GUILD_MEDIA;
-            if(!(yankee !== oscar)) { _fun65400_ip = 8123; continue _fun65400 }
+            if(!(yankee !== oscar)) { _fun65405_ip = 8123; continue _fun65405 }
  8093:
             foxtrot = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -2098,7 +2098,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(golf)(yankee);
             yankee = yankee.t;
             yankee = yankee.nSD1am;
-            _fun65400_ip = 8211; continue _fun65400;
+            _fun65405_ip = 8211; continue _fun65405;
  8123:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2106,7 +2106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.cbdQy8;
-            _fun65400_ip = 8211; continue _fun65400;
+            _fun65405_ip = 8211; continue _fun65405;
  8153:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2114,7 +2114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(golf)(foxtrot);
             foxtrot = foxtrot.t;
             yankee = foxtrot.bizKz8;
-            _fun65400_ip = 8211; continue _fun65400;
+            _fun65405_ip = 8211; continue _fun65405;
  8183:
             backup = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -2143,7 +2143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 8340; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 8340; continue _fun65405 }
  8310:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2151,7 +2151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.uzlYFB;
-            _fun65400_ip = 8368; continue _fun65400;
+            _fun65405_ip = 8368; continue _fun65405;
  8340:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2173,13 +2173,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.GUILD_THREADS_ONLY;
             mike = offset.has;
             mike = mike.bind(offset)(oscar);
-            if(mike) { _fun65400_ip = 8560; continue _fun65400 }
+            if(mike) { _fun65405_ip = 8560; continue _fun65405 }
  8435:
-            if(!verify) { _fun65400_ip = 8452; continue _fun65400 }
+            if(!verify) { _fun65405_ip = 8452; continue _fun65405 }
  8438:
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 8506; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 8506; continue _fun65405 }
  8452:
             romeo = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2192,7 +2192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.kEqgr6;
             mike = offset.bind(yankee)(mike);
-            _fun65400_ip = 8558; continue _fun65400;
+            _fun65405_ip = 8558; continue _fun65405;
  8506:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2206,7 +2206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.QKe7Q0;
             mike = yankee.bind(romeo)(offset);
  8558:
-            _fun65400_ip = 8612; continue _fun65400;
+            _fun65405_ip = 8612; continue _fun65405;
  8560:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2223,15 +2223,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(mike !== oscar)) { _fun65400_ip = 8718; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 8718; continue _fun65405 }
  8630:
             mike = _closure1_slot3;
             mike = mike.GUILD_FORUM;
-            if(!(mike !== oscar)) { _fun65400_ip = 8688; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 8688; continue _fun65405 }
  8644:
             mike = _closure1_slot3;
             mike = mike.GUILD_MEDIA;
-            if(!(mike !== oscar)) { _fun65400_ip = 8688; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 8688; continue _fun65405 }
  8658:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2239,7 +2239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.yvan0t;
-            _fun65400_ip = 8760; continue _fun65400;
+            _fun65405_ip = 8760; continue _fun65405;
  8688:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2247,17 +2247,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(golf)(offset);
             offset = offset.t;
             mike = offset.XLi/jI;
-            _fun65400_ip = 8760; continue _fun65400;
+            _fun65405_ip = 8760; continue _fun65405;
  8718:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
             offset = offset[options];
             offset = yankee.bind(golf)(offset);
             yankee = offset.t;
-            if(verify) { _fun65400_ip = 8751; continue _fun65400 }
+            if(verify) { _fun65405_ip = 8751; continue _fun65405 }
  8743:
             offset = yankee.YDIQ8P;
-            _fun65400_ip = 8757; continue _fun65400;
+            _fun65405_ip = 8757; continue _fun65405;
  8751:
             offset = yankee.S31soa;
  8757:
@@ -2286,7 +2286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 8901; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 8901; continue _fun65405 }
  8871:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2294,7 +2294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.5SDtGB;
-            _fun65400_ip = 8929; continue _fun65400;
+            _fun65405_ip = 8929; continue _fun65405;
  8901:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2326,7 +2326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 9070; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 9070; continue _fun65405 }
  9040:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2334,7 +2334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.Chg2zc;
-            _fun65400_ip = 9098; continue _fun65400;
+            _fun65405_ip = 9098; continue _fun65405;
  9070:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2356,13 +2356,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.GUILD_THREADS_ONLY;
             mike = offset.has;
             mike = mike.bind(offset)(oscar);
-            if(mike) { _fun65400_ip = 9290; continue _fun65400 }
+            if(mike) { _fun65405_ip = 9290; continue _fun65405 }
  9165:
-            if(!verify) { _fun65400_ip = 9182; continue _fun65400 }
+            if(!verify) { _fun65405_ip = 9182; continue _fun65405 }
  9168:
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 9236; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 9236; continue _fun65405 }
  9182:
             romeo = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2375,7 +2375,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.fTE74u;
             mike = offset.bind(yankee)(mike);
-            _fun65400_ip = 9288; continue _fun65400;
+            _fun65405_ip = 9288; continue _fun65405;
  9236:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2389,7 +2389,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.5QlVGx;
             mike = yankee.bind(romeo)(offset);
  9288:
-            _fun65400_ip = 9342; continue _fun65400;
+            _fun65405_ip = 9342; continue _fun65405;
  9290:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2406,15 +2406,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(mike !== oscar)) { _fun65400_ip = 9448; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 9448; continue _fun65405 }
  9360:
             mike = _closure1_slot3;
             mike = mike.GUILD_FORUM;
-            if(!(mike !== oscar)) { _fun65400_ip = 9418; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 9418; continue _fun65405 }
  9374:
             mike = _closure1_slot3;
             mike = mike.GUILD_MEDIA;
-            if(!(mike !== oscar)) { _fun65400_ip = 9418; continue _fun65400 }
+            if(!(mike !== oscar)) { _fun65405_ip = 9418; continue _fun65405 }
  9388:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2422,7 +2422,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(golf)(mike);
             mike = mike.t;
             mike = mike.xHO6MT;
-            _fun65400_ip = 9490; continue _fun65400;
+            _fun65405_ip = 9490; continue _fun65405;
  9418:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -2430,17 +2430,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(golf)(offset);
             offset = offset.t;
             mike = offset.XTnrPD;
-            _fun65400_ip = 9490; continue _fun65400;
+            _fun65405_ip = 9490; continue _fun65405;
  9448:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
             offset = offset[options];
             offset = yankee.bind(golf)(offset);
             offset = offset.t;
-            if(verify) { _fun65400_ip = 9481; continue _fun65400 }
+            if(verify) { _fun65405_ip = 9481; continue _fun65405 }
  9473:
             verify = offset.VvrChI;
-            _fun65400_ip = 9487; continue _fun65400;
+            _fun65405_ip = 9487; continue _fun65405;
  9481:
             verify = offset.DlIVcH;
  9487:
@@ -2469,7 +2469,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['title'] = mike;
             mike = _closure1_slot3;
             mike = mike.GUILD_CATEGORY;
-            if(!(oscar !== mike)) { _fun65400_ip = 9631; continue _fun65400 }
+            if(!(oscar !== mike)) { _fun65405_ip = 9631; continue _fun65405 }
  9601:
             verify = _closure1_slot0;
             mike = _closure1_slot2;
@@ -2477,7 +2477,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = verify.bind(golf)(mike);
             mike = mike.t;
             mike = mike.4pO/TU;
-            _fun65400_ip = 9659; continue _fun65400;
+            _fun65405_ip = 9659; continue _fun65405;
  9631:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
@@ -2509,7 +2509,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['title'] = tango;
             tango = _closure1_slot3;
             tango = tango.GUILD_CATEGORY;
-            if(!(oscar !== tango)) { _fun65400_ip = 9800; continue _fun65400 }
+            if(!(oscar !== tango)) { _fun65405_ip = 9800; continue _fun65405 }
  9770:
             oscar = _closure1_slot0;
             tango = _closure1_slot2;
@@ -2517,7 +2517,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.bind(golf)(tango);
             tango = tango.t;
             tango = tango.sPoBLS;
-            _fun65400_ip = 9828; continue _fun65400;
+            _fun65405_ip = 9828; continue _fun65405;
  9800:
             verify = _closure1_slot0;
             oscar = _closure1_slot2;

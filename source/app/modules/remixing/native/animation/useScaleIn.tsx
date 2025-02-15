@@ -33,14 +33,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/remixing/native/animation/useScaleIn.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84142: for(var _fun84142_ip = 0; ; ) switch(_fun84142_ip) {
+        _fun84158: for(var _fun84158_ip = 0; ; ) switch(_fun84158_ip) {
  0:
             mike = arguments[1];
             options = arguments[2];
             entity = argFoo;
             var _closure2_slot0 = entity;
             report = undefined;
-            if(!(mike === report)) { _fun84142_ip = 23; continue _fun84142 }
+            if(!(mike === report)) { _fun84158_ip = 23; continue _fun84158 }
  21:
             mike = {};
  23:
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = mike != options;
             mike = 1;
             oscar = mike;
-            if(!yankee) { _fun84142_ip = 144; continue _fun84142 }
+            if(!yankee) { _fun84158_ip = 144; continue _fun84158 }
  141:
             oscar = options;
  144:
@@ -104,12 +104,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.bind(zulu)();
                 tango = report.map;
                 entity = function(argFoo) {
-                    _fun84144: for(var _fun84144_ip = 0; ; ) switch(_fun84144_ip) {
+                    _fun84160: for(var _fun84160_ip = 0; ; ) switch(_fun84160_ip) {
  0:
                         entity = argFoo;
                         mike = 'scale';
                         mike = mike in entity;
-                        if(!mike) { _fun84144_ip = 31; continue _fun84144 }
+                        if(!mike) { _fun84160_ip = 31; continue _fun84160 }
  14:
                         mike = {};
                         zulu = _closure3_slot0;
@@ -150,11 +150,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(entity);
             entity = function() {
                 entity = function() {
-                    _fun84146: for(var _fun84146_ip = 0; ; ) switch(_fun84146_ip) {
+                    _fun84162: for(var _fun84162_ip = 0; ; ) switch(_fun84162_ip) {
  0:
                         zulu = _closure2_slot2;
                         mike = null;
-                        if(!(mike != zulu)) { _fun84146_ip = 27; continue _fun84146 }
+                        if(!(mike != zulu)) { _fun84162_ip = 27; continue _fun84162 }
  13:
                         mike = _closure2_slot2;
                         entity = mike.dispose;
@@ -175,17 +175,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = mike.bind(tango)();
                 report = oscar.map;
                 mike = function(argFoo) {
-                    _fun84148: for(var _fun84148_ip = 0; ; ) switch(_fun84148_ip) {
+                    _fun84164: for(var _fun84164_ip = 0; ; ) switch(_fun84164_ip) {
  0:
                         entity = argFoo;
                         mike = 'scale';
                         mike = mike in entity;
-                        if(!mike) { _fun84148_ip = 39; continue _fun84148 }
+                        if(!mike) { _fun84164_ip = 39; continue _fun84164 }
  14:
                         mike = {};
                         tango = _closure2_slot1;
                         zulu = 0;
-                        if(!tango) { _fun84148_ip = 31; continue _fun84148 }
+                        if(!tango) { _fun84164_ip = 31; continue _fun84164 }
  28:
                         zulu = 1;
  31:

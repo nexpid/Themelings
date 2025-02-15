@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/trackActivityProblem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackActivityProblem
-        _fun123537: for(var _fun123537_ip = 0; ; ) switch(_fun123537_ip) {
+        _fun123542: for(var _fun123542_ip = 0; ; ) switch(_fun123542_ip) {
  0:
             entity = argFoo;
             romeo = entity.problem;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = entity.location;
             options = entity.rating;
             entity = undefined;
-            if(!(options === entity)) { _fun123537_ip = 51; continue _fun123537 }
+            if(!(options === entity)) { _fun123542_ip = 51; continue _fun123542 }
  49:
             options = null;
  51:
@@ -60,14 +60,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = null;
             foxtrot = offset == yankee;
             romeo = undefined;
-            if(foxtrot) { _fun123537_ip = 135; continue _fun123537 }
+            if(foxtrot) { _fun123542_ip = 135; continue _fun123542 }
  130:
             romeo = yankee.id;
  135:
             mike['application_id'] = romeo;
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun123537_ip = 154; continue _fun123537 }
+            if(romeo) { _fun123542_ip = 154; continue _fun123542 }
  149:
             offset = yankee.name;
  154:

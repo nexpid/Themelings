@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/user_profile/native/UserProfileActivityCardBadges.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileActivityCardBadges
-        _fun80368: for(var _fun80368_ip = 0; ; ) switch(_fun80368_ip) {
+        _fun80380: for(var _fun80380_ip = 0; ; ) switch(_fun80380_ip) {
  0:
             entity = argFoo;
             tango = entity.activity;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = options.length;
             zulu = 0;
             entity = null;
-            if(!(zulu !== tango)) { _fun80368_ip = 225; continue _fun80368 }
+            if(!(zulu !== tango)) { _fun80380_ip = 225; continue _fun80380 }
  184:
             tango = _closure1_slot4;
             zulu = _closure1_slot2;

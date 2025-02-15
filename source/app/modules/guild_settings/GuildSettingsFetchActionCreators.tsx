@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun73031: for(var _fun73031_ip = 0; ; ) switch(_fun73031_ip) {
+                _fun73041: for(var _fun73041_ip = 0; ; ) switch(_fun73041_ip) {
  0:
                     StartGenerator();
                     golf = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun73031_ip = 192; continue _fun73031 }
+                    if(mike) { _fun73041_ip = 192; continue _fun73041 }
  13:
                     zulu = _closure1_slot0;
                     report = _closure1_slot2;
@@ -45,12 +45,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  105:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun73031_ip = 189; continue _fun73031 }
+                    if(zulu) { _fun73041_ip = 189; continue _fun73041 }
  111:
                     options = mike.body;
                     report = options.map;
                     zulu = function(argFoo) {
-                        _fun73032: for(var _fun73032_ip = 0; ; ) switch(_fun73032_ip) {
+                        _fun73042: for(var _fun73042_ip = 0; ; ) switch(_fun73042_ip) {
  0:
                             tango = argFoo;
                             entity = {};
@@ -60,13 +60,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             zulu = 'application';
                             report = zulu in tango;
                             mike = undefined;
-                            if(!report) { _fun73032_ip = 67; continue _fun73032 }
+                            if(!report) { _fun73042_ip = 67; continue _fun73042 }
  28:
                             golf = tango.application;
                             report = null;
                             report = report != golf;
                             mike = undefined;
-                            if(!report) { _fun73032_ip = 67; continue _fun73032 }
+                            if(!report) { _fun73042_ip = 67; continue _fun73042 }
  44:
                             options = _closure1_slot4;
                             golf = options.createFromServer;
@@ -77,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             zulu = 'user';
                             report = zulu in tango;
                             mike = undefined;
-                            if(!report) { _fun73032_ip = 133; continue _fun73032 }
+                            if(!report) { _fun73042_ip = 133; continue _fun73042 }
  85:
                             golf = tango.user;
                             report = null;
                             report = report != golf;
                             mike = undefined;
-                            if(!report) { _fun73032_ip = 133; continue _fun73032 }
+                            if(!report) { _fun73042_ip = 133; continue _fun73042 }
  101:
                             oscar = _closure1_slot5;
                             offset = tango.user;

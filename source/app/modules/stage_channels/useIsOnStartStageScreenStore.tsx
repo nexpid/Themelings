@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['default'] = report;
     zulu['setIsOnStartStageScreen'] = tango;
     mike = function(argFoo) { // Original name: useUpdateIsOnStartStageScreenEffect
-        _fun67636: for(var _fun67636_ip = 0; ; ) switch(_fun67636_ip) {
+        _fun67642: for(var _fun67642_ip = 0; ; ) switch(_fun67642_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.id;
             tango = oscar.bind(entity)(tango);
             oscar = report;
-            if(!oscar) { _fun67636_ip = 151; continue _fun67636 }
+            if(!oscar) { _fun67642_ip = 151; continue _fun67642 }
  148:
             oscar = !tango;
  151:
@@ -139,19 +139,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = oscar;
             mike = function() {
-                _fun67639: for(var _fun67639_ip = 0; ; ) switch(_fun67639_ip) {
+                _fun67645: for(var _fun67645_ip = 0; ; ) switch(_fun67645_ip) {
  0:
                     mike = _closure2_slot1;
-                    if(mike) { _fun67639_ip = 30; continue _fun67639 }
+                    if(mike) { _fun67645_ip = 30; continue _fun67645 }
  10:
                     tango = _closure1_slot7;
                     zulu = _closure2_slot2;
                     mike = undefined;
                     mike = tango.bind(mike)(zulu);
-                    _fun67639_ip = 53; continue _fun67639;
+                    _fun67645_ip = 53; continue _fun67645;
  30:
                     entity = _closure2_slot2;
-                    if(entity) { _fun67639_ip = 53; continue _fun67639 }
+                    if(entity) { _fun67645_ip = 53; continue _fun67645 }
  37:
                     zulu = _closure1_slot7;
                     mike = undefined;

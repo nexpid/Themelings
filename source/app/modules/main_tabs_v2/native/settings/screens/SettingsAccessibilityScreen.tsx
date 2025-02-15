@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure2_slot5;
             zulu['enableMobileLinkUnderlineAccessibilitySetting'] = entity;
             mike = function(argFoo) { // Original name: getAccessibilitySettingScreen
-                _fun97495: for(var _fun97495_ip = 0; ; ) switch(_fun97495_ip) {
+                _fun97505: for(var _fun97505_ip = 0; ; ) switch(_fun97505_ip) {
  0:
                     mike = argFoo;
                     zulu = mike.navigation;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu[0] = mike;
                     tango = null;
                     mike = null;
-                    if(!romeo) { _fun97495_ip = 280; continue _fun97495 }
+                    if(!romeo) { _fun97505_ip = 280; continue _fun97505 }
  195:
                     foxtrot = {};
                     backup = _closure1_slot5;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  280:
                     zulu[1] = mike;
                     mike = null;
-                    if(!romeo) { _fun97495_ip = 374; continue _fun97495 }
+                    if(!romeo) { _fun97505_ip = 374; continue _fun97505 }
  289:
                     romeo = {};
                     foxtrot = _closure1_slot5;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  374:
                     zulu[2] = mike;
                     mike = null;
-                    if(!options) { _fun97495_ip = 468; continue _fun97495 }
+                    if(!options) { _fun97505_ip = 468; continue _fun97505 }
  383:
                     options = {};
                     romeo = _closure1_slot5;
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     options = tango != yankee;
-                    if(!options) { _fun97495_ip = 850; continue _fun97495 }
+                    if(!options) { _fun97505_ip = 850; continue _fun97505 }
  825:
                     romeo = _closure1_slot1;
                     foxtrot = _closure1_slot2;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     options = tango != offset;
-                    if(!options) { _fun97495_ip = 916; continue _fun97495 }
+                    if(!options) { _fun97505_ip = 916; continue _fun97505 }
  891:
                     yankee = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     mike['settings'] = options;
                     tango = tango != golf;
-                    if(!tango) { _fun97495_ip = 982; continue _fun97495 }
+                    if(!tango) { _fun97505_ip = 982; continue _fun97505 }
  957:
                     options = _closure1_slot1;
                     verify = _closure1_slot2;

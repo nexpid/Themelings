@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/grid/ForumPostGridFooter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostGridFooter
-        _fun100543: for(var _fun100543_ip = 0; ; ) switch(_fun100543_ip) {
+        _fun100552: for(var _fun100552_ip = 0; ; ) switch(_fun100552_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.thread;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(3);
             report[0] = golf;
-            if(!oscar) { _fun100543_ip = 257; continue _fun100543 }
+            if(!oscar) { _fun100552_ip = 257; continue _fun100552 }
  156:
             verify = _closure1_slot7;
             options = _closure1_slot6;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = oscar;
             oscar = null;
             oscar = oscar != romeo;
-            if(!oscar) { _fun100543_ip = 338; continue _fun100543 }
+            if(!oscar) { _fun100552_ip = 338; continue _fun100552 }
  270:
             verify = _closure1_slot5;
             options = _closure1_slot0;

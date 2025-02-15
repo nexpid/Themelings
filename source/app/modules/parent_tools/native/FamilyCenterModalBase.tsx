@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterModalBase.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterModalBase
-        _fun95164: for(var _fun95164_ip = 0; ; ) switch(_fun95164_ip) {
+        _fun95174: for(var _fun95174_ip = 0; ; ) switch(_fun95174_ip) {
  0:
             entity = argFoo;
             romeo = entity.children;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = yankee;
             yankee = null;
-            if(!(tango !== output)) { _fun95164_ip = 342; continue _fun95164 }
+            if(!(tango !== output)) { _fun95174_ip = 342; continue _fun95174 }
  273:
             backup = _closure1_slot5;
             foxtrot = _closure1_slot3;

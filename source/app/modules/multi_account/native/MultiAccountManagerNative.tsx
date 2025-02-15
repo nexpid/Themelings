@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.bind(entity)(mike);
     mike = {};
     options = function() { // Original name: onSwitchStart
-        _fun124085: for(var _fun124085_ip = 0; ; ) switch(_fun124085_ip) {
+        _fun124081: for(var _fun124081_ip = 0; ; ) switch(_fun124081_ip) {
  0:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar.bind(golf)(report, tango, mike);
             tango = _closure1_slot5;
             mike = null;
-            if(!(mike !== tango)) { _fun124085_ip = 107; continue _fun124085 }
+            if(!(mike !== tango)) { _fun124081_ip = 107; continue _fun124081 }
  90:
             mike = global;
             tango = mike.clearTimeout;
@@ -92,10 +92,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = entity.setTimeout;
         entity = undefined;
         zulu = function() {
-            _fun124088: for(var _fun124088_ip = 0; ; ) switch(_fun124088_ip) {
+            _fun124084: for(var _fun124084_ip = 0; ; ) switch(_fun124084_ip) {
  0:
                 entity = _closure2_slot1;
-                if(!entity) { _fun124088_ip = 56; continue _fun124088 }
+                if(!entity) { _fun124084_ip = 56; continue _fun124084 }
  10:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;

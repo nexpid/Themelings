@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot1 = mike;
         oscar = report.useState;
         zulu = function() {
-            _fun98199: for(var _fun98199_ip = 0; ; ) switch(_fun98199_ip) {
+            _fun98209: for(var _fun98209_ip = 0; ; ) switch(_fun98209_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.bind(tango)(mike, entity);
                 zulu = null;
                 zulu = zulu != mike;
-                if(!zulu) { _fun98199_ip = 64; continue _fun98199 }
+                if(!zulu) { _fun98209_ip = 64; continue _fun98209 }
  61:
                 entity = mike;
  64:
@@ -186,11 +186,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = mike;
         zulu[1] = kilo;
         mike = function() {
-            _fun98200: for(var _fun98200_ip = 0; ; ) switch(_fun98200_ip) {
+            _fun98210: for(var _fun98210_ip = 0; ; ) switch(_fun98210_ip) {
  0:
                 tango = _closure2_slot2;
                 mike = '';
-                if(!(mike === tango)) { _fun98200_ip = 84; continue _fun98200 }
+                if(!(mike === tango)) { _fun98210_ip = 84; continue _fun98210 }
  17:
                 report = _closure2_slot3;
                 tango = _closure2_slot1;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = mike.setTimeout;
                 tango = undefined;
                 zulu = function() {
-                    _fun98201: for(var _fun98201_ip = 0; ; ) switch(_fun98201_ip) {
+                    _fun98211: for(var _fun98211_ip = 0; ; ) switch(_fun98211_ip) {
  0:
  2: // try_start_0
                         mike = global;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = _closure2_slot1;
                         zulu = report.filter;
                         entity = function(argFoo) {
-                            _fun98202: for(var _fun98202_ip = 0; ; ) switch(_fun98202_ip) {
+                            _fun98212: for(var _fun98212_ip = 0; ; ) switch(_fun98212_ip) {
  0:
                                 tango = argFoo;
                                 report = tango.category;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 entity = zulu.bind(report)(entity);
                                 zulu = null;
                                 entity = zulu != entity;
-                                if(entity) { _fun98202_ip = 59; continue _fun98202 }
+                                if(entity) { _fun98212_ip = 59; continue _fun98212 }
  35:
                                 report = tango.message;
                                 tango = report.match;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = 'debug-log-query';
                         entity = mike.bind(zulu)(entity, tango);
  126: // try_end0
-                        _fun98201_ip = 130; continue _fun98201;
+                        _fun98211_ip = 130; continue _fun98211;
  128: // catch_target0
                         CatchBlockStart(arg_register=0);
  130:
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = yankee;
         entity = function(argFoo) {
-            _fun98204: for(var _fun98204_ip = 0; ; ) switch(_fun98204_ip) {
+            _fun98214: for(var _fun98214_ip = 0; ; ) switch(_fun98214_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.item;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = null;
                 romeo = verify != offset;
                 verify = '';
-                if(!romeo) { _fun98204_ip = 177; continue _fun98204 }
+                if(!romeo) { _fun98214_ip = 177; continue _fun98214 }
  174:
                 verify = offset;
  177:

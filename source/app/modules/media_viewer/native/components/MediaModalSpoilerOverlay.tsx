@@ -1,6 +1,6 @@
 // app/modules/media_viewer/native/components/MediaModalSpoilerOverlay.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun102436: for(var _fun102436_ip = 0; ; ) switch(_fun102436_ip) {
+    _fun102428: for(var _fun102428_ip = 0; ; ) switch(_fun102428_ip) {
  0:
         report = argBar;
         kilo = argBaz;
@@ -79,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = oscar[backup];
         backup = kilo.bind(entity)(backup);
         backup = backup.unsafe_rawColors;
-        if(foxtrot) { _fun102436_ip = 358; continue _fun102436 }
+        if(foxtrot) { _fun102428_ip = 358; continue _fun102428 }
  350:
         foxtrot = backup.PRIMARY_600;
-        _fun102436_ip = 364; continue _fun102436;
+        _fun102428_ip = 364; continue _fun102428;
  358:
         foxtrot = backup.PRIMARY_800;
  364:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot8 = tango;
         tango = golf.memo;
         mike = function(argFoo) { // Original name: MediaModalSpoilerOverlay
-            _fun102437: for(var _fun102437_ip = 0; ; ) switch(_fun102437_ip) {
+            _fun102429: for(var _fun102429_ip = 0; ; ) switch(_fun102429_ip) {
  0:
                 entity = argFoo;
                 romeo = entity.style;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = 1;
                 options = zulu[entity];
                 entity = null;
-                if(!mike) { _fun102437_ip = 693; continue _fun102437 }
+                if(!mike) { _fun102429_ip = 693; continue _fun102429 }
  138:
                 tango = _closure1_slot7;
                 golf = _closure1_slot1;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.bind(report)(oscar);
                 oscar = {};
                 yankee = offset.obscure;
-                if(yankee) { _fun102437_ip = 262; continue _fun102437 }
+                if(yankee) { _fun102429_ip = 262; continue _fun102429 }
  226:
                 romeo = _closure1_slot0;
                 foxtrot = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = romeo.isAndroid;
                 romeo = yankee.bind(romeo)();
                 yankee = 'light';
-                if(!romeo) { _fun102437_ip = 266; continue _fun102437 }
+                if(!romeo) { _fun102429_ip = 266; continue _fun102429 }
  262:
                 yankee = 'dark';
  266:
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = yankee.spoilerOverlayContainer;
                 golf['style'] = yankee;
                 offset = offset.obscure;
-                if(offset) { _fun102437_ip = 485; continue _fun102437 }
+                if(offset) { _fun102429_ip = 485; continue _fun102429 }
  340:
                 romeo = _closure1_slot6;
                 yankee = _closure1_slot5;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = romeo.bind(report)(kilo, foxtrot);
                 offset['children'] = foxtrot;
                 offset = romeo.bind(report)(yankee, offset);
-                _fun102437_ip = 669; continue _fun102437;
+                _fun102429_ip = 669; continue _fun102429;
  485:
                 foxtrot = _closure1_slot7;
                 romeo = _closure1_slot5;

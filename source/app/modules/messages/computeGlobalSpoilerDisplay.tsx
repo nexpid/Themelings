@@ -6,16 +6,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo, argBar) { // Original name: computeGlobalSpoilerDisplay
-        _fun69358: for(var _fun69358_ip = 0; ; ) switch(_fun69358_ip) {
+        _fun69364: for(var _fun69364_ip = 0; ; ) switch(_fun69364_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.ALWAYS;
-            if(!(mike !== zulu)) { _fun69358_ip = 53; continue _fun69358 }
+            if(!(mike !== zulu)) { _fun69364_ip = 53; continue _fun69364 }
  20:
             mike = _closure1_slot4;
             mike = mike.IF_MODERATOR;
-            if(!(mike !== zulu)) { _fun69358_ip = 48; continue _fun69358 }
+            if(!(mike !== zulu)) { _fun69364_ip = 48; continue _fun69364 }
  34:
             entity = _closure1_slot4;
             entity = entity.ON_CLICK;

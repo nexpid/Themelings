@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/shared/native/ConfirmBlockUserAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ConfirmBlockUserAlert
-        _fun79593: for(var _fun79593_ip = 0; ; ) switch(_fun79593_ip) {
+        _fun79603: for(var _fun79603_ip = 0; ; ) switch(_fun79603_ip) {
  0:
             mike = argFoo;
             result = mike.userId;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[2] = entity;
             zulu[3] = foxtrot;
             entity = function() {
-                _fun79598: for(var _fun79598_ip = 0; ; ) switch(_fun79598_ip) {
+                _fun79608: for(var _fun79608_ip = 0; ; ) switch(_fun79608_ip) {
  0:
                     zulu = _closure2_slot3;
                     entity = undefined;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(report)(zulu);
                     tango = _closure2_slot4;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun79598_ip = 77; continue _fun79598 }
+                    if(!(zulu != tango)) { _fun79608_ip = 77; continue _fun79608 }
  69:
                     mike = _closure2_slot4;
                     mike = mike.bind(entity)();
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = 'text-md/medium';
             oscar['variant'] = offset;
             offset = null;
-            if(!(offset == yankee)) { _fun79593_ip = 577; continue _fun79593 }
+            if(!(offset == yankee)) { _fun79603_ip = 577; continue _fun79603 }
  518:
             sizing = _closure1_slot0;
             backup = _closure1_slot2;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = echo;
             source = offset != update;
             echo = 'destructive';
-            if(!source) { _fun79593_ip = 719; continue _fun79593 }
+            if(!source) { _fun79603_ip = 719; continue _fun79603 }
  716:
             echo = update;
  719:
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = backup;
             offset = offset != foxtrot;
-            if(!offset) { _fun79593_ip = 843; continue _fun79593 }
+            if(!offset) { _fun79603_ip = 843; continue _fun79603 }
  744:
             foxtrot = _closure1_slot8;
             output = _closure1_slot0;

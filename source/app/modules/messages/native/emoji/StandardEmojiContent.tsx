@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: Emoji
-        _fun84618: for(var _fun84618_ip = 0; ; ) switch(_fun84618_ip) {
+        _fun84634: for(var _fun84634_ip = 0; ; ) switch(_fun84634_ip) {
  0:
             entity = argFoo;
             yankee = entity.surrogate;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify.emojiWrapper;
             entity['style'] = report;
             report = '';
-            if(!(report === offset)) { _fun84618_ip = 184; continue _fun84618 }
+            if(!(report === offset)) { _fun84634_ip = 184; continue _fun84634 }
  123:
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['variant'] = romeo;
             report['children'] = yankee;
             report = options.bind(tango)(golf, report);
-            _fun84618_ip = 245; continue _fun84618;
+            _fun84634_ip = 246; continue _fun84634;
  184:
             options = _closure1_slot6;
             golf = _closure1_slot1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['uri'] = offset;
             oscar['source'] = verify;
             report = options.bind(tango)(golf, oscar);
- 245:
+ 246:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/emoji/StandardEmojiContent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84619: for(var _fun84619_ip = 0; ; ) switch(_fun84619_ip) {
+        _fun84635: for(var _fun84635_ip = 0; ; ) switch(_fun84635_ip) {
  0:
             entity = argFoo;
             sizing = entity.emojiNode;
@@ -276,24 +276,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset[kilo];
             offset = romeo.bind(tango)(offset);
             romeo = offset.t;
-            if(yankee) { _fun84619_ip = 599; continue _fun84619 }
+            if(yankee) { _fun84635_ip = 599; continue _fun84635 }
  586:
             offset = romeo.yZFibW;
             offset = foxtrot.bind(backup)(offset);
-            _fun84619_ip = 610; continue _fun84619;
+            _fun84635_ip = 610; continue _fun84635;
  599:
             romeo = romeo.aBUcp6;
             offset = foxtrot.bind(backup)(romeo);
  610:
             oscar['text'] = offset;
             offset = 'primary';
-            if(!yankee) { _fun84619_ip = 627; continue _fun84619 }
+            if(!yankee) { _fun84635_ip = 627; continue _fun84635 }
  621:
             offset = 'destructive';
  627:
             oscar['variant'] = offset;
             verify = function() { // Original name: onPress
-                _fun84621: for(var _fun84621_ip = 0; ; ) switch(_fun84621_ip) {
+                _fun84637: for(var _fun84637_ip = 0; ; ) switch(_fun84637_ip) {
  0:
                     zulu = _closure2_slot2;
                     report = _closure1_slot0;
@@ -302,12 +302,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango[entity];
                     entity = undefined;
                     tango = report.bind(entity)(tango);
-                    if(zulu) { _fun84621_ip = 52; continue _fun84621 }
+                    if(zulu) { _fun84637_ip = 52; continue _fun84637 }
  35:
                     report = tango.favoriteEmoji;
                     zulu = _closure2_slot1;
                     zulu = report.bind(tango)(zulu);
-                    _fun84621_ip = 67; continue _fun84621;
+                    _fun84637_ip = 67; continue _fun84637;
  52:
                     zulu = tango.unfavoriteEmoji;
                     mike = _closure2_slot1;

@@ -55,18 +55,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = entity.lockKeys;
             zulu = _closure2_slot0;
             mike = function(argFoo, argBar) { // Original name: shouldFreeze
-                _fun117929: for(var _fun117929_ip = 0; ; ) switch(_fun117929_ip) {
+                _fun117935: for(var _fun117935_ip = 0; ; ) switch(_fun117935_ip) {
  0:
                     entity = argFoo;
                     tango = argBar;
                     var _closure4_slot0 = entity;
                     zulu = null;
-                    if(!(zulu == tango)) { _fun117929_ip = 31; continue _fun117929 }
+                    if(!(zulu == tango)) { _fun117935_ip = 31; continue _fun117935 }
  18:
                     zulu = entity.size;
                     entity = 0;
                     entity = zulu > entity;
-                    _fun117929_ip = 49; continue _fun117929;
+                    _fun117935_ip = 49; continue _fun117935;
  31:
                     zulu = tango.some;
                     mike = function(argFoo) {

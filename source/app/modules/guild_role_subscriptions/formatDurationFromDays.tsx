@@ -21,15 +21,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/formatDurationFromDays.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: formatDurationFromDays
-        _fun126807: for(var _fun126807_ip = 0; ; ) switch(_fun126807_ip) {
+        _fun126803: for(var _fun126803_ip = 0; ; ) switch(_fun126803_ip) {
  0:
             golf = argFoo;
             verify = 0;
-            if(!(golf > verify)) { _fun126807_ip = 20; continue _fun126807 }
+            if(!(golf > verify)) { _fun126803_ip = 20; continue _fun126803 }
  9:
             oscar = 7;
             entity = golf % oscar;
-            if(!(entity !== verify)) { _fun126807_ip = 87; continue _fun126807 }
+            if(!(entity !== verify)) { _fun126803_ip = 87; continue _fun126803 }
  20:
             report = _closure1_slot0;
             entity = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             entity['days'] = golf;
             entity = zulu.bind(tango)(mike, entity);
-            _fun126807_ip = 156; continue _fun126807;
+            _fun126803_ip = 156; continue _fun126803;
  87:
             options = _closure1_slot0;
             mike = _closure1_slot1;

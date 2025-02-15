@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/chat_sidebar/GroupDMMoreActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun112693: for(var _fun112693_ip = 0; ; ) switch(_fun112693_ip) {
+        _fun112699: for(var _fun112699_ip = 0; ; ) switch(_fun112699_ip) {
  0:
             mike = argFoo;
             entity = mike.channel;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun112696: for(var _fun112696_ip = 0; ; ) switch(_fun112696_ip) {
+                _fun112702: for(var _fun112702_ip = 0; ; ) switch(_fun112702_ip) {
  0:
                     mike = _closure2_slot2;
                     entity = undefined;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = report.isManaged;
                     mike = mike.bind(report)();
                     options = tango;
-                    if(!mike) { _fun112696_ip = 292; continue _fun112696 }
+                    if(!mike) { _fun112702_ip = 292; continue _fun112702 }
  182:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Group;
             report = {};
             yankee = null;
-            if(!options) { _fun112693_ip = 367; continue _fun112693 }
+            if(!options) { _fun112699_ip = 367; continue _fun112699 }
  217:
             sizing = _closure1_slot7;
             source = _closure1_slot0;
@@ -321,11 +321,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = update.bind(source)(echo);
             yankee['label'] = echo;
             echo = function() { // Original name: onPress
-                _fun112699: for(var _fun112699_ip = 0; ; ) switch(_fun112699_ip) {
+                _fun112705: for(var _fun112705_ip = 0; ; ) switch(_fun112705_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun112699_ip = 27; continue _fun112699 }
+                    if(!(entity != zulu)) { _fun112705_ip = 27; continue _fun112705 }
  13:
                     zulu = _closure2_slot1;
                     entity = zulu.pop;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = sizing.bind(tango)(foxtrot, yankee);
             options[1] = yankee;
             verify = null;
-            if(!offset) { _fun112693_ip = 684; continue _fun112693 }
+            if(!offset) { _fun112699_ip = 684; continue _fun112699 }
  537:
             foxtrot = _closure1_slot7;
             source = _closure1_slot0;

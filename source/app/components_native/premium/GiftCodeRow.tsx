@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun96340: for(var _fun96340_ip = 0; ; ) switch(_fun96340_ip) {
+        _fun96350: for(var _fun96350_ip = 0; ; ) switch(_fun96350_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = _closure1_slot15;
             entity = entity.bind(zulu)();
-            if(entity) { _fun96340_ip = 51; continue _fun96340 }
+            if(entity) { _fun96350_ip = 51; continue _fun96350 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun96340_ip = 92; continue _fun96340;
+            _fun96350_ip = 92; continue _fun96350;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun96340_ip = 71; continue _fun96340 }
+            if(oscar) { _fun96350_ip = 71; continue _fun96350 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun96341: for(var _fun96341_ip = 0; ; ) switch(_fun96341_ip) {
+        _fun96351: for(var _fun96351_ip = 0; ; ) switch(_fun96351_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun96341_ip = 76; continue _fun96341;
+            _fun96351_ip = 76; continue _fun96351;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(oscar, report, entity);
             var _closure3_slot0 = entity;
             mike = function() {
-                _fun96346: for(var _fun96346_ip = 0; ; ) switch(_fun96346_ip) {
+                _fun96356: for(var _fun96356_ip = 0; ; ) switch(_fun96356_ip) {
  0:
                     entity = _closure3_slot0;
                     entity = entity.props;
@@ -214,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = entity.sku;
                     mike = null;
                     entity = mike != report;
-                    if(!entity) { _fun96346_ip = 37; continue _fun96346 }
+                    if(!entity) { _fun96356_ip = 37; continue _fun96356 }
  33:
                     entity = mike != tango;
  37:
-                    if(!entity) { _fun96346_ip = 142; continue _fun96346 }
+                    if(!entity) { _fun96356_ip = 142; continue _fun96356 }
  40:
                     options = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'render';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun96348: for(var _fun96348_ip = 0; ; ) switch(_fun96348_ip) {
+            _fun96358: for(var _fun96358_ip = 0; ; ) switch(_fun96358_ip) {
  0:
                 update = this;
                 var _closure3_slot0 = update;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report[0] = oscar;
                 verify = null;
                 oscar = null;
-                if(!golf) { _fun96348_ip = 90; continue _fun96348 }
+                if(!golf) { _fun96358_ip = 90; continue _fun96358 }
  84:
                 oscar = yankee.firstRow;
  90:
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = echo.expiresAt;
                 yankee = verify != yankee;
                 verify = null;
-                if(!yankee) { _fun96348_ip = 559; continue _fun96348 }
+                if(!yankee) { _fun96358_ip = 559; continue _fun96358 }
  401:
                 romeo = _closure1_slot11;
                 backup = _closure1_slot0;

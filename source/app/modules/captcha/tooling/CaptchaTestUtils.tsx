@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     offset = verify.bind(offset)(tango);
     verify = offset.map;
     tango = function(argFoo) {
-        _fun98726: for(var _fun98726_ip = 0; ; ) switch(_fun98726_ip) {
+        _fun98736: for(var _fun98736_ip = 0; ; ) switch(_fun98736_ip) {
  0:
             report = argFoo;
             entity = report[Symbol.iterator];
@@ -31,24 +31,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = undefined;
             tango = zulu === golf;
             zulu = undefined;
-            if(tango) { _fun98726_ip = 27; continue _fun98726 }
+            if(tango) { _fun98736_ip = 27; continue _fun98736 }
  24:
             zulu = mike;
  27:
             mike = undefined;
-            if(tango) { _fun98726_ip = 57; continue _fun98726 }
+            if(tango) { _fun98736_ip = 57; continue _fun98736 }
  32:
             oscar = report().value;
             report = entity;
             report = report === golf;
             mike = undefined;
             tango = report;
-            if(report) { _fun98726_ip = 57; continue _fun98726 }
+            if(report) { _fun98736_ip = 57; continue _fun98736 }
  51:
             mike = oscar;
             tango = report;
  57:
-            if(tango) { _fun98726_ip = 63; continue _fun98726 }
+            if(tango) { _fun98736_ip = 63; continue _fun98736 }
  60:
             entity.return();
  63:
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     options = options.bind(verify)(report);
     report = options.map;
     mike = function(argFoo) {
-        _fun98728: for(var _fun98728_ip = 0; ; ) switch(_fun98728_ip) {
+        _fun98738: for(var _fun98738_ip = 0; ; ) switch(_fun98738_ip) {
  0:
             report = argFoo;
             entity = report[Symbol.iterator];
@@ -87,24 +87,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = undefined;
             tango = zulu === golf;
             zulu = undefined;
-            if(tango) { _fun98728_ip = 27; continue _fun98728 }
+            if(tango) { _fun98738_ip = 27; continue _fun98738 }
  24:
             zulu = mike;
  27:
             mike = undefined;
-            if(tango) { _fun98728_ip = 57; continue _fun98728 }
+            if(tango) { _fun98738_ip = 57; continue _fun98738 }
  32:
             oscar = report().value;
             report = entity;
             report = report === golf;
             mike = undefined;
             tango = report;
-            if(report) { _fun98728_ip = 57; continue _fun98728 }
+            if(report) { _fun98738_ip = 57; continue _fun98738 }
  51:
             mike = oscar;
             tango = report;
  57:
-            if(tango) { _fun98728_ip = 63; continue _fun98728 }
+            if(tango) { _fun98738_ip = 63; continue _fun98738 }
  60:
             entity.return();
  63:

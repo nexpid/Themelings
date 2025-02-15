@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: LoggedEvent
-        _fun98309: for(var _fun98309_ip = 0; ; ) switch(_fun98309_ip) {
+        _fun98319: for(var _fun98319_ip = 0; ; ) switch(_fun98319_ip) {
  0:
             entity = argFoo;
             romeo = entity.event;
@@ -92,24 +92,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['label'] = romeo;
             romeo = 'name';
             romeo = romeo in output;
-            if(romeo) { _fun98309_ip = 268; continue _fun98309 }
+            if(romeo) { _fun98319_ip = 268; continue _fun98319 }
  225:
             result = output.location;
             romeo = null;
             sizing = romeo == result;
             foxtrot = undefined;
-            if(sizing) { _fun98309_ip = 250; continue _fun98309 }
+            if(sizing) { _fun98319_ip = 250; continue _fun98319 }
  241:
             sizing = result.toString;
             foxtrot = sizing.bind(result)();
  250:
             sizing = romeo != foxtrot;
             romeo = 'N/A';
-            if(!sizing) { _fun98309_ip = 266; continue _fun98309 }
+            if(!sizing) { _fun98319_ip = 266; continue _fun98319 }
  263:
             romeo = foxtrot;
  266:
-            _fun98309_ip = 273; continue _fun98309;
+            _fun98319_ip = 273; continue _fun98319;
  268:
             romeo = output.name;
  273:
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun98309_ip = 944; continue _fun98309 }
+            if(!oscar) { _fun98319_ip = 944; continue _fun98319 }
  317:
             verify = _closure1_slot9;
             options = _closure1_slot5;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = result;
             source = null;
             result = source != context;
-            if(!result) { _fun98309_ip = 554; continue _fun98309 }
+            if(!result) { _fun98319_ip = 554; continue _fun98319 }
  488:
             control = _closure1_slot8;
             update = _closure1_slot11;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = {};
             control = 'Fingerprint';
             result['name'] = control;
-            if(!(source == status)) { _fun98309_ip = 645; continue _fun98309 }
+            if(!(source == status)) { _fun98319_ip = 645; continue _fun98319 }
  582:
             vacuum = _closure1_slot8;
             control = _closure1_slot0;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = kilo.monospace;
             source['style'] = sequence;
             source = vacuum.bind(tango)(control, source);
-            _fun98309_ip = 832; continue _fun98309;
+            _fun98319_ip = 832; continue _fun98319;
  645:
             sequence = _closure1_slot9;
             context = _closure1_slot0;
@@ -221,11 +221,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = kilo.copyContainer;
             control['style'] = record;
             record = function() { // Original name: onPress
-                _fun98312: for(var _fun98312_ip = 0; ; ) switch(_fun98312_ip) {
+                _fun98322: for(var _fun98322_ip = 0; ; ) switch(_fun98322_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun98312_ip = 53; continue _fun98312 }
+                    if(!(mike != zulu)) { _fun98322_ip = 53; continue _fun98322 }
  13:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = kilo.bind(sizing)(output);
             kilo = sizing.map;
             backup = function(argFoo) {
-                _fun98313: for(var _fun98313_ip = 0; ; ) switch(_fun98313_ip) {
+                _fun98323: for(var _fun98323_ip = 0; ; ) switch(_fun98323_ip) {
  0:
                     zulu = argFoo;
                     entity = zulu[Symbol.iterator];
@@ -300,24 +300,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = undefined;
                     mike = mike === report;
                     tango = undefined;
-                    if(mike) { _fun98313_ip = 27; continue _fun98313 }
+                    if(mike) { _fun98323_ip = 27; continue _fun98323 }
  24:
                     tango = oscar;
  27:
                     foxtrot = undefined;
-                    if(mike) { _fun98313_ip = 57; continue _fun98313 }
+                    if(mike) { _fun98323_ip = 57; continue _fun98323 }
  32:
                     oscar = zulu().value;
                     zulu = entity;
                     zulu = zulu === report;
                     foxtrot = undefined;
                     mike = zulu;
-                    if(zulu) { _fun98313_ip = 57; continue _fun98313 }
+                    if(zulu) { _fun98323_ip = 57; continue _fun98323 }
  51:
                     foxtrot = oscar;
                     mike = zulu;
  57:
-                    if(mike) { _fun98313_ip = 63; continue _fun98313 }
+                    if(mike) { _fun98323_ip = 63; continue _fun98323 }
  60:
                     entity.return();
  63:
@@ -350,13 +350,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = options.bind(report)(golf);
                     options = golf.Text;
                     golf = null;
-                    if(!(golf == foxtrot)) { _fun98313_ip = 236; continue _fun98313 }
+                    if(!(golf == foxtrot)) { _fun98323_ip = 236; continue _fun98323 }
  204:
                     golf = {'variant': 'text-sm/semibold', 'color': 'text-muted', 'style': null, 'children': 'null'};
                     offset = _closure2_slot1;
                     offset = offset.monospace;
                     golf['style'] = offset;
-                    _fun98313_ip = 290; continue _fun98313;
+                    _fun98323_ip = 290; continue _fun98323;
  236:
                     offset = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
                     yankee = _closure2_slot1;
@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/devtools/native/components/screens/DevToolsAnalyticsScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DevToolsAnalyticsScreen
-        _fun98314: for(var _fun98314_ip = 0; ; ) switch(_fun98314_ip) {
+        _fun98324: for(var _fun98324_ip = 0; ; ) switch(_fun98324_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -618,7 +618,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo['title'] = control;
             sequence = foxtrot.length;
             control = null;
-            if(!(yankee === sequence)) { _fun98314_ip = 560; continue _fun98314 }
+            if(!(yankee === sequence)) { _fun98324_ip = 560; continue _fun98324 }
  515:
             config = _closure1_slot8;
             sequence = _closure1_slot0;
@@ -645,10 +645,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = foxtrot;
             equality = 0;
             yankee = arraySpread(variable36, quebec, equality);
-            if(offset) { _fun98314_ip = 629; continue _fun98314 }
+            if(offset) { _fun98324_ip = 629; continue _fun98324 }
  624:
             offset = romeo;
-            _fun98314_ip = 639; continue _fun98314;
+            _fun98324_ip = 639; continue _fun98324;
  629:
             yankee = romeo.reverse;
             offset = yankee.bind(romeo)();

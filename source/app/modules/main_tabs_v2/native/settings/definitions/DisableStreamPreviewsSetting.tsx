@@ -77,7 +77,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     options = options.VOICE;
     tango['parent'] = options;
     report = function() { // Original name: useValue
-        _fun99838: for(var _fun99838_ip = 0; ; ) switch(_fun99838_ip) {
+        _fun99847: for(var _fun99847_ip = 0; ; ) switch(_fun99847_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = entity.bind(mike)();
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun99838_ip = 53; continue _fun99838 }
+            if(!entity) { _fun99847_ip = 53; continue _fun99847 }
  50:
             entity = mike;
  53:

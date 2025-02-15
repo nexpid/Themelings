@@ -57,10 +57,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun121190: for(var _fun121190_ip = 0; ; ) switch(_fun121190_ip) {
+            _fun121196: for(var _fun121196_ip = 0; ; ) switch(_fun121196_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun121190_ip = 59; continue _fun121190 }
+                if(entity) { _fun121196_ip = 59; continue _fun121196 }
  10:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;

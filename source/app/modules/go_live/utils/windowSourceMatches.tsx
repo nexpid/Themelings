@@ -19,13 +19,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/go_live/utils/windowSourceMatches.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: windowSourceMatches
-        _fun54242: for(var _fun54242_ip = 0; ; ) switch(_fun54242_ip) {
+        _fun54249: for(var _fun54249_ip = 0; ; ) switch(_fun54249_ip) {
  0:
             tango = argFoo;
             oscar = argBar;
             entity = null;
             entity = entity != oscar;
-            if(!entity) { _fun54242_ip = 50; continue _fun54242 }
+            if(!entity) { _fun54249_ip = 50; continue _fun54249 }
  15:
             zulu = tango.startsWith;
             mike = global;

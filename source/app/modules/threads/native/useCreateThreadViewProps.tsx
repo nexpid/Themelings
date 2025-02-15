@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/threads/native/useCreateThreadViewProps.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCreateThreadViewProps
-        _fun101817: for(var _fun101817_ip = 0; ; ) switch(_fun101817_ip) {
+        _fun101809: for(var _fun101809_ip = 0; ; ) switch(_fun101809_ip) {
  0:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = tango;
             entity = function() {
-                _fun101818: for(var _fun101818_ip = 0; ; ) switch(_fun101818_ip) {
+                _fun101810: for(var _fun101810_ip = 0; ; ) switch(_fun101810_ip) {
  0:
                     zulu = _closure1_slot3;
                     mike = zulu.getChannel;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun101818_ip = 40; continue _fun101818 }
+                    if(report) { _fun101810_ip = 40; continue _fun101810 }
  30:
                     tango = _closure2_slot0;
                     entity = tango.parentChannelId;
@@ -70,11 +70,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report == tango;
             entity = null;
-            if(mike) { _fun101817_ip = 129; continue _fun101817 }
+            if(mike) { _fun101809_ip = 129; continue _fun101809 }
  105:
             mike = report == zulu;
             entity = null;
-            if(mike) { _fun101817_ip = 129; continue _fun101817 }
+            if(mike) { _fun101809_ip = 129; continue _fun101809 }
  114:
             mike = {};
             mike['threadSettingsDraft'] = tango;

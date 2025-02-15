@@ -31,12 +31,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = options.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun47898: for(var _fun47898_ip = 0; ; ) switch(_fun47898_ip) {
+        _fun47905: for(var _fun47905_ip = 0; ; ) switch(_fun47905_ip) {
  0:
             zulu = argFoo;
             offset = zulu.accessibilityViewIsModal;
             tango = undefined;
-            if(!(offset === tango)) { _fun47898_ip = 17; continue _fun47898 }
+            if(!(offset === tango)) { _fun47905_ip = 17; continue _fun47905 }
  15:
             offset = false;
  17:
@@ -52,9 +52,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = zulu;
             romeo = mike;
             report = copyDataProperties(backup, foxtrot, romeo);
-            if(!offset) { _fun47898_ip = 75; continue _fun47898 }
+            if(!offset) { _fun47905_ip = 75; continue _fun47905 }
  71:
-            if(!(golf != oscar)) { _fun47898_ip = 175; continue _fun47898 }
+            if(!(golf != oscar)) { _fun47905_ip = 175; continue _fun47905 }
  75:
             zulu = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['ref'] = offset;
             entity['nativeID'] = verify;
             golf = golf == verify;
-            if(!golf) { _fun47898_ip = 147; continue _fun47898 }
+            if(!golf) { _fun47905_ip = 147; continue _fun47905 }
  144:
             golf = options;
  147:

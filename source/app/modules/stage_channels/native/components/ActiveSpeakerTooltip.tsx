@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun104094: for(var _fun104094_ip = 0; ; ) switch(_fun104094_ip) {
+        _fun104086: for(var _fun104086_ip = 0; ; ) switch(_fun104086_ip) {
  0:
             mike = argFoo;
             kilo = mike.channel;
@@ -167,10 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity[zulu];
             tango = output.length;
             entity = null;
-            if(!(golf !== tango)) { _fun104094_ip = 526; continue _fun104094 }
+            if(!(golf !== tango)) { _fun104086_ip = 526; continue _fun104086 }
  187:
             entity = null;
-            if(!mike) { _fun104094_ip = 526; continue _fun104094 }
+            if(!mike) { _fun104086_ip = 526; continue _fun104086 }
  195:
             tango = _closure1_slot8;
             backup = _closure1_slot0;

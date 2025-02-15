@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/channel_following/native/components/ChannelFollowSuccessAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelFollowSuccessAlert
-        _fun89157: for(var _fun89157_ip = 0; ; ) switch(_fun89157_ip) {
+        _fun89174: for(var _fun89174_ip = 0; ; ) switch(_fun89174_ip) {
  0:
             mike = _closure1_slot9;
             tango = undefined;
@@ -273,10 +273,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.isThemeDark;
             mike = mike.bind(zulu)(oscar);
-            if(mike) { _fun89157_ip = 75; continue _fun89157 }
+            if(mike) { _fun89174_ip = 75; continue _fun89174 }
  69:
             zulu = _closure1_slot6;
-            _fun89157_ip = 79; continue _fun89157;
+            _fun89174_ip = 79; continue _fun89174;
  75:
             zulu = _closure1_slot7;
  79:

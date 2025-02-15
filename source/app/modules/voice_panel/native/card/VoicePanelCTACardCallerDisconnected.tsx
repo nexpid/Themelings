@@ -8,18 +8,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getSourceFromURI
-        _fun122094: for(var _fun122094_ip = 0; ; ) switch(_fun122094_ip) {
+        _fun122100: for(var _fun122100_ip = 0; ; ) switch(_fun122100_ip) {
  0:
             zulu = argFoo;
             tango = 'number';
             mike = typeof zulu;
             entity = zulu;
-            if(!(tango !== mike)) { _fun122094_ip = 26; continue _fun122094 }
+            if(!(tango !== mike)) { _fun122100_ip = 27; continue _fun122100 }
  17:
             mike = {};
             mike['uri'] = zulu;
             entity = mike;
- 26:
+ 27:
             return entity;
         }
     };
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function() { // Original name: VoicePanelCTACardCallerDisconnected
-        _fun122095: for(var _fun122095_ip = 0; ; ) switch(_fun122095_ip) {
+        _fun122101: for(var _fun122101_ip = 0; ; ) switch(_fun122101_ip) {
  0:
             report = _closure1_slot4;
             zulu = report.useContext;
@@ -122,11 +122,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             report = offset == entity;
             zulu = undefined;
-            if(report) { _fun122095_ip = 90; continue _fun122095 }
+            if(report) { _fun122101_ip = 90; continue _fun122101 }
  84:
             zulu = entity.recipients;
  90:
-            if(!(offset == zulu)) { _fun122095_ip = 98; continue _fun122095 }
+            if(!(offset == zulu)) { _fun122101_ip = 98; continue _fun122101 }
  94:
             zulu = new Array(0);
  98:
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = backup;
             oscar[2] = foxtrot;
             mike = function() {
-                _fun122096: for(var _fun122096_ip = 0; ; ) switch(_fun122096_ip) {
+                _fun122102: for(var _fun122102_ip = 0; ; ) switch(_fun122102_ip) {
  0:
                     report = _closure1_slot7;
                     tango = report.getUser;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango == verify;
                     report = undefined;
                     golf = undefined;
-                    if(entity) { _fun122096_ip = 68; continue _fun122096 }
+                    if(entity) { _fun122102_ip = 68; continue _fun122102 }
  53:
                     options = verify.getAvatarURL;
                     entity = 80;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity[0] = golf;
                     golf = tango == oscar;
                     tango = undefined;
-                    if(golf) { _fun122096_ip = 100; continue _fun122096 }
+                    if(golf) { _fun122102_ip = 100; continue _fun122102 }
  85:
                     options = oscar.getAvatarURL;
                     golf = 80;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = sizing.avatarContainer;
             report['style'] = options;
             verify = offset != echo;
-            if(!verify) { _fun122095_ip = 376; continue _fun122095 }
+            if(!verify) { _fun122101_ip = 376; continue _fun122101 }
  290:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot1;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = verify;
             verify = offset != update;
-            if(!verify) { _fun122095_ip = 495; continue _fun122095 }
+            if(!verify) { _fun122101_ip = 495; continue _fun122101 }
  391:
             backup = _closure1_slot8;
             output = _closure1_slot1;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = foxtrot;
             offset = offset != result;
-            if(!offset) { _fun122095_ip = 784; continue _fun122095 }
+            if(!offset) { _fun122101_ip = 784; continue _fun122101 }
  672:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot0;

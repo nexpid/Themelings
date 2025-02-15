@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/banner/BannerBase.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BannerBase
-        _fun118531: for(var _fun118531_ip = 0; ; ) switch(_fun118531_ip) {
+        _fun118537: for(var _fun118537_ip = 0; ; ) switch(_fun118537_ip) {
  0:
             entity = argFoo;
             kilo = entity.image;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = source.bind(tango)(zulu);
             options = verify.useAnimatedStyle;
             zulu = function() { // Original name: _
-                _fun118533: for(var _fun118533_ip = 0; ; ) switch(_fun118533_ip) {
+                _fun118539: for(var _fun118539_ip = 0; ; ) switch(_fun118539_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot1;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = zulu.bind(tango)();
                     verify = 0;
                     zulu = 0;
-                    if(!tango) { _fun118533_ip = 95; continue _fun118533 }
+                    if(!tango) { _fun118539_ip = 95; continue _fun118539 }
  25:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.get;
                     tango = mike.bind(tango)();
                     mike = 30;
-                    if(!tango) { _fun118533_ip = 187; continue _fun118533 }
+                    if(!tango) { _fun118539_ip = 187; continue _fun118539 }
  120:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = verify;
             verify = {};
             echo = result > foxtrot;
-            if(!echo) { _fun118531_ip = 449; continue _fun118531 }
+            if(!echo) { _fun118537_ip = 449; continue _fun118537 }
  446:
             foxtrot = sizing;
  449:
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = options;
             entity['style'] = oscar;
             report = function(argFoo) { // Original name: onLayout
-                _fun118534: for(var _fun118534_ip = 0; ; ) switch(_fun118534_ip) {
+                _fun118540: for(var _fun118540_ip = 0; ; ) switch(_fun118540_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -315,12 +315,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = entity == mike;
                     entity = undefined;
                     tango = undefined;
-                    if(zulu) { _fun118534_ip = 32; continue _fun118534 }
+                    if(zulu) { _fun118540_ip = 32; continue _fun118540 }
  27:
                     tango = mike.height;
  32:
                     mike = 0;
-                    if(!(tango > mike)) { _fun118534_ip = 66; continue _fun118534 }
+                    if(!(tango > mike)) { _fun118540_ip = 66; continue _fun118540 }
  38:
                     zulu = _closure2_slot0;
                     zulu = zulu.bind(entity)(tango);

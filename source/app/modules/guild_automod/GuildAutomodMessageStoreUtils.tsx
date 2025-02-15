@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_automod/GuildAutomodMessageStoreUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun61114: for(var _fun61114_ip = 0; ; ) switch(_fun61114_ip) {
+        _fun61117: for(var _fun61117_ip = 0; ; ) switch(_fun61117_ip) {
  0:
             entity = argFoo;
             zulu = entity.type;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.MessageEmbedTypes;
             entity = entity.AUTO_MODERATION_MESSAGE;
             entity = zulu !== entity;
-            if(!entity) { _fun61114_ip = 84; continue _fun61114 }
+            if(!entity) { _fun61117_ip = 84; continue _fun61117 }
  51:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

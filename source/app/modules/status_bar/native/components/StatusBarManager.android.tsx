@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'popStackEntry';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun73355: for(var _fun73355_ip = 0; ; ) switch(_fun73355_ip) {
+            _fun73365: for(var _fun73365_ip = 0; ; ) switch(_fun73365_ip) {
  0:
                 oscar = argFoo;
                 mike = this;
@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = entity != oscar;
                 entity = -1;
                 report = entity;
-                if(!zulu) { _fun73355_ip = 40; continue _fun73355 }
+                if(!zulu) { _fun73365_ip = 40; continue _fun73365 }
  24:
                 tango = mike.propsStack;
                 zulu = tango.indexOf;
                 report = zulu.bind(tango)(oscar);
  40:
-                if(!(entity !== report)) { _fun73355_ip = 75; continue _fun73355 }
+                if(!(entity !== report)) { _fun73365_ip = 75; continue _fun73365 }
  44:
                 tango = mike.propsStack;
                 zulu = tango.splice;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'replaceStackEntry';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun73356: for(var _fun73356_ip = 0; ; ) switch(_fun73356_ip) {
+            _fun73366: for(var _fun73366_ip = 0; ; ) switch(_fun73366_ip) {
  0:
                 golf = argFoo;
                 mike = argBar;
@@ -115,13 +115,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike != golf;
                 mike = -1;
                 tango = mike;
-                if(!report) { _fun73356_ip = 67; continue _fun73356 }
+                if(!report) { _fun73366_ip = 67; continue _fun73366 }
  51:
                 oscar = zulu.propsStack;
                 report = oscar.indexOf;
                 tango = report.bind(oscar)(golf);
  67:
-                if(!(mike !== tango)) { _fun73356_ip = 81; continue _fun73356 }
+                if(!(mike !== tango)) { _fun73366_ip = 81; continue _fun73366 }
  71:
                 mike = zulu.propsStack;
                 mike[tango] = entity;

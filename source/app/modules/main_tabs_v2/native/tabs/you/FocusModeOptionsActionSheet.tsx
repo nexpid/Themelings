@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/you/FocusModeOptionsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FocusModeOptionsActionSheet
-        _fun116829: for(var _fun116829_ip = 0; ; ) switch(_fun116829_ip) {
+        _fun116835: for(var _fun116835_ip = 0; ; ) switch(_fun116835_ip) {
  0:
             entity = argFoo;
             entity = entity.onSelect;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['title'] = yankee;
             kilo = null;
             yankee = null;
-            if(!options) { _fun116829_ip = 358; continue _fun116829 }
+            if(!options) { _fun116835_ip = 358; continue _fun116835 }
  159:
             foxtrot = _closure1_slot2;
             output = _closure1_slot0;

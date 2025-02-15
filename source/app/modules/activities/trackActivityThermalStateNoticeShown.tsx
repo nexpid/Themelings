@@ -43,7 +43,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/trackActivityThermalStateNoticeShown.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: trackActivityThermalStateNoticeShown
-        _fun103693: for(var _fun103693_ip = 0; ; ) switch(_fun103693_ip) {
+        _fun103685: for(var _fun103685_ip = 0; ; ) switch(_fun103685_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.getVoiceChannelId;
@@ -54,7 +54,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             golf = null;
             entity = golf != yankee;
             mike = null;
-            if(!entity) { _fun103693_ip = 58; continue _fun103693 }
+            if(!entity) { _fun103685_ip = 58; continue _fun103685 }
  43:
             zulu = _closure1_slot5;
             entity = zulu.getSelfEmbeddedActivityForChannel;
@@ -63,13 +63,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = golf == mike;
             entity = undefined;
             verify = undefined;
-            if(zulu) { _fun103693_ip = 75; continue _fun103693 }
+            if(zulu) { _fun103685_ip = 75; continue _fun103685 }
  69:
             verify = mike.compositeInstanceId;
  75:
             zulu = golf == mike;
             offset = undefined;
-            if(zulu) { _fun103693_ip = 89; continue _fun103693 }
+            if(zulu) { _fun103685_ip = 89; continue _fun103685 }
  84:
             offset = mike.applicationId;
  89:
@@ -87,7 +87,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike['activity_session_id'] = verify;
             verify = golf == options;
             golf = undefined;
-            if(verify) { _fun103693_ip = 154; continue _fun103693 }
+            if(verify) { _fun103685_ip = 154; continue _fun103685 }
  149:
             golf = options.guild_id;
  154:

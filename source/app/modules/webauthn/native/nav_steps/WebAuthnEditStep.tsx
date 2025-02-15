@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/nav_steps/WebAuthnEditStep.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditCredentialModal
-        _fun92865: for(var _fun92865_ip = 0; ; ) switch(_fun92865_ip) {
+        _fun92897: for(var _fun92897_ip = 0; ; ) switch(_fun92897_ip) {
  0:
             entity = argFoo;
             verify = entity.credential;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar['onPress'] = romeo;
             romeo = yankee;
-            if(romeo) { _fun92865_ip = 478; continue _fun92865 }
+            if(romeo) { _fun92897_ip = 478; continue _fun92897 }
  474:
             romeo = kilo === foxtrot;
  478:

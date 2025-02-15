@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/MessageUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
-        _fun86614: for(var _fun86614_ip = 0; ; ) switch(_fun86614_ip) {
+        _fun86631: for(var _fun86631_ip = 0; ; ) switch(_fun86631_ip) {
  0:
             mike = _closure1_slot2;
             entity = mike.getCurrentUser;
@@ -43,24 +43,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = mike.bind(zulu)(entity);
             oscar = null;
             entity = oscar != report;
-            if(!entity) { _fun86614_ip = 46; continue _fun86614 }
+            if(!entity) { _fun86631_ip = 46; continue _fun86631 }
  42:
             entity = oscar != golf;
  46:
-            if(!entity) { _fun86614_ip = 118; continue _fun86614 }
+            if(!entity) { _fun86631_ip = 118; continue _fun86631 }
  49:
             mike = golf.isNSFW;
             mike = mike.bind(golf)();
             mike = !mike;
-            if(mike) { _fun86614_ip = 115; continue _fun86614 }
+            if(mike) { _fun86631_ip = 115; continue _fun86631 }
  65:
             zulu = report.nsfwAllowed;
             zulu = oscar != zulu;
-            if(!zulu) { _fun86614_ip = 84; continue _fun86614 }
+            if(!zulu) { _fun86631_ip = 84; continue _fun86631 }
  78:
             zulu = report.nsfwAllowed;
  84:
-            if(!zulu) { _fun86614_ip = 112; continue _fun86614 }
+            if(!zulu) { _fun86631_ip = 112; continue _fun86631 }
  87:
             oscar = _closure1_slot1;
             report = oscar.didAgree;

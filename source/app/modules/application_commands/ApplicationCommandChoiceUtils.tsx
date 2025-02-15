@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     options = argPlugh;
     report = function(argFoo, argBar) { // Original name: findChoiceStringValue
-        _fun70933: for(var _fun70933_ip = 0; ; ) switch(_fun70933_ip) {
+        _fun70939: for(var _fun70939_ip = 0; ; ) switch(_fun70939_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango == oscar;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun70933_ip = 56; continue _fun70933 }
+            if(report) { _fun70939_ip = 56; continue _fun70939 }
  25:
             report = oscar.find;
             zulu = function(argFoo) {
@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             tango = tango == zulu;
             entity = undefined;
-            if(tango) { _fun70933_ip = 56; continue _fun70933 }
+            if(tango) { _fun70939_ip = 56; continue _fun70939 }
  51:
             entity = zulu.value;
  56:
             tango = 'string';
             zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun70933_ip = 69; continue _fun70933 }
+            if(!(tango !== zulu)) { _fun70939_ip = 69; continue _fun70939 }
  67:
             return mike;
  69:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = report;
     tango = function(argFoo, argBar) { // Original name: findChoiceNumberValue
-        _fun70935: for(var _fun70935_ip = 0; ; ) switch(_fun70935_ip) {
+        _fun70941: for(var _fun70941_ip = 0; ; ) switch(_fun70941_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango == oscar;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun70935_ip = 56; continue _fun70935 }
+            if(report) { _fun70941_ip = 56; continue _fun70941 }
  25:
             report = oscar.find;
             zulu = function(argFoo) {
@@ -63,13 +63,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             tango = tango == zulu;
             entity = undefined;
-            if(tango) { _fun70935_ip = 56; continue _fun70935 }
+            if(tango) { _fun70941_ip = 56; continue _fun70941 }
  51:
             entity = zulu.value;
  56:
             tango = 'number';
             zulu = typeof entity;
-            if(!(tango !== zulu)) { _fun70935_ip = 69; continue _fun70935 }
+            if(!(tango !== zulu)) { _fun70941_ip = 69; continue _fun70941 }
  67:
             return mike;
  69:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'modules/application_commands/ApplicationCommandChoiceUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo) { // Original name: toChoiceBooleanValue
-        _fun70937: for(var _fun70937_ip = 0; ; ) switch(_fun70937_ip) {
+        _fun70943: for(var _fun70943_ip = 0; ; ) switch(_fun70943_ip) {
  0:
             tango = argFoo;
             entity = tango.toLowerCase;
@@ -119,9 +119,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot1;
             mike = tango.toLowerCase;
             mike = mike.bind(tango)();
-            if(entity) { _fun70937_ip = 69; continue _fun70937 }
+            if(entity) { _fun70943_ip = 69; continue _fun70943 }
  61:
-            if(!(zulu !== mike)) { _fun70937_ip = 69; continue _fun70937 }
+            if(!(zulu !== mike)) { _fun70943_ip = 69; continue _fun70943 }
  65:
             mike = undefined;
             return mike;

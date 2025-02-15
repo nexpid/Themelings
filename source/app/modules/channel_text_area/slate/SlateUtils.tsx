@@ -2,14 +2,14 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     tango = function(argFoo) { // Original name: toRichValue
-        _fun66917: for(var _fun66917_ip = 0; ; ) switch(_fun66917_ip) {
+        _fun66923: for(var _fun66923_ip = 0; ; ) switch(_fun66923_ip) {
  0:
             tango = argFoo;
             entity = '';
-            if(!(entity === tango)) { _fun66917_ip = 20; continue _fun66917 }
+            if(!(entity === tango)) { _fun66923_ip = 20; continue _fun66923 }
  11:
             entity = _closure1_slot0;
-            _fun66917_ip = 53; continue _fun66917;
+            _fun66923_ip = 53; continue _fun66923;
  20:
             zulu = tango.split;
             mike = '\n';
@@ -105,33 +105,33 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['createState'] = report;
     zulu['toRichValue'] = tango;
     mike = function(argFoo) { // Original name: voidToOptionValue
-        _fun66921: for(var _fun66921_ip = 0; ; ) switch(_fun66921_ip) {
+        _fun66927: for(var _fun66927_ip = 0; ; ) switch(_fun66927_ip) {
  0:
             mike = argFoo;
             offset = mike.type;
             zulu = 'userMention';
-            if(!(zulu !== offset)) { _fun66921_ip = 311; continue _fun66921 }
+            if(!(zulu !== offset)) { _fun66927_ip = 311; continue _fun66927 }
  21:
             tango = 'channelMention';
-            if(!(tango !== offset)) { _fun66921_ip = 294; continue _fun66921 }
+            if(!(tango !== offset)) { _fun66927_ip = 294; continue _fun66927 }
  32:
             report = 'soundboard';
-            if(!(report !== offset)) { _fun66921_ip = 266; continue _fun66921 }
+            if(!(report !== offset)) { _fun66927_ip = 266; continue _fun66927 }
  43:
             oscar = 'roleMention';
-            if(!(oscar !== offset)) { _fun66921_ip = 247; continue _fun66921 }
+            if(!(oscar !== offset)) { _fun66927_ip = 247; continue _fun66927 }
  54:
             golf = 'textMention';
-            if(!(golf !== offset)) { _fun66921_ip = 230; continue _fun66921 }
+            if(!(golf !== offset)) { _fun66927_ip = 230; continue _fun66927 }
  67:
             options = 'emoji';
-            if(!(options !== offset)) { _fun66921_ip = 190; continue _fun66921 }
+            if(!(options !== offset)) { _fun66927_ip = 190; continue _fun66927 }
  75:
             verify = 'customEmoji';
-            if(!(verify !== offset)) { _fun66921_ip = 133; continue _fun66921 }
+            if(!(verify !== offset)) { _fun66927_ip = 133; continue _fun66927 }
  83:
             entity = 'testInlineVoid';
-            if(!(entity !== offset)) { _fun66921_ip = 97; continue _fun66921 }
+            if(!(entity !== offset)) { _fun66927_ip = 97; continue _fun66927 }
  93:
             entity = null;
             return entity;

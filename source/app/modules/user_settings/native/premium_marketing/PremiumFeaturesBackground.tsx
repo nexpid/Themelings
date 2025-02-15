@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/PremiumFeaturesBackground.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumFeaturesBackground
-        _fun64056: for(var _fun64056_ip = 0; ; ) switch(_fun64056_ip) {
+        _fun64061: for(var _fun64061_ip = 0; ; ) switch(_fun64061_ip) {
  0:
             tango = argFoo;
             mike = tango.premiumType;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.bind(tango)();
             entity = _closure1_slot3;
             entity = entity.TIER_0;
-            if(!(mike !== entity)) { _fun64056_ip = 111; continue _fun64056 }
+            if(!(mike !== entity)) { _fun64061_ip = 111; continue _fun64061 }
  77:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.Gradients;
             options = entity.PREMIUM_TIER_2_TRI_COLOR;
-            _fun64056_ip = 143; continue _fun64056;
+            _fun64061_ip = 143; continue _fun64061;
  111:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;

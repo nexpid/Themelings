@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/native/hooks/usePremiumProductPricingString.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: usePremiumProductPricingString
-        _fun87783: for(var _fun87783_ip = 0; ; ) switch(_fun87783_ip) {
+        _fun87800: for(var _fun87800_ip = 0; ; ) switch(_fun87800_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu, entity);
             entity = null;
             tango = entity == zulu;
-            if(tango) { _fun87783_ip = 129; continue _fun87783 }
+            if(tango) { _fun87800_ip = 129; continue _fun87800 }
  123:
             mike = zulu.priceString;
  129:
             zulu = entity != mike;
             entity = '$...';
-            if(!zulu) { _fun87783_ip = 145; continue _fun87783 }
+            if(!zulu) { _fun87800_ip = 145; continue _fun87800 }
  142:
             entity = mike;
  145:

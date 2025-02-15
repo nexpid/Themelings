@@ -19,12 +19,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'utils/StringUtils.tsx';
     mike = oscar.bind(golf)(mike);
     mike = function(argFoo) { // Original name: isNullOrEmpty
-        _fun36775: for(var _fun36775_ip = 0; ; ) switch(_fun36775_ip) {
+        _fun36782: for(var _fun36782_ip = 0; ; ) switch(_fun36782_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity == mike;
-            if(entity) { _fun36775_ip = 23; continue _fun36775 }
+            if(entity) { _fun36782_ip = 23; continue _fun36782 }
  12:
             zulu = mike.length;
             mike = 0;

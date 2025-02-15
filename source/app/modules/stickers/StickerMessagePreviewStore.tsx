@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun56957: for(var _fun56957_ip = 0; ; ) switch(_fun56957_ip) {
+        _fun56960: for(var _fun56960_ip = 0; ; ) switch(_fun56960_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun56957_ip = 51; continue _fun56957 }
+            if(entity) { _fun56960_ip = 51; continue _fun56960 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun56957_ip = 92; continue _fun56957;
+            _fun56960_ip = 92; continue _fun56960;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun56957_ip = 71; continue _fun56957 }
+            if(oscar) { _fun56960_ip = 71; continue _fun56960 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun56958: for(var _fun56958_ip = 0; ; ) switch(_fun56958_ip) {
+        _fun56961: for(var _fun56961_ip = 0; ; ) switch(_fun56961_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun56958_ip = 74; continue _fun56958;
+            _fun56961_ip = 74; continue _fun56961;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -143,15 +143,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'getStickerPreview';
         report['key'] = oscar;
         entity = function(argFoo, argBar) { // Original name: value
-            _fun56963: for(var _fun56963_ip = 0; ; ) switch(_fun56963_ip) {
+            _fun56966: for(var _fun56966_ip = 0; ; ) switch(_fun56966_ip) {
  0:
                 mike = _closure1_slot5;
                 zulu = mike.FirstThreadMessage;
                 mike = argBar;
-                if(!(mike !== zulu)) { _fun56963_ip = 26; continue _fun56963 }
+                if(!(mike !== zulu)) { _fun56966_ip = 26; continue _fun56966 }
  20:
                 mike = _closure1_slot6;
-                _fun56963_ip = 30; continue _fun56963;
+                _fun56966_ip = 30; continue _fun56966;
  26:
                 mike = _closure1_slot7;
  30:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handleAddStickerPreview
-        _fun56964: for(var _fun56964_ip = 0; ; ) switch(_fun56964_ip) {
+        _fun56967: for(var _fun56967_ip = 0; ; ) switch(_fun56967_ip) {
  0:
             entity = argFoo;
             zulu = entity.channelId;
@@ -182,10 +182,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity.draftType;
             mike = _closure1_slot5;
             mike = mike.FirstThreadMessage;
-            if(!(report !== mike)) { _fun56964_ip = 43; continue _fun56964 }
+            if(!(report !== mike)) { _fun56967_ip = 43; continue _fun56967 }
  37:
             mike = _closure1_slot6;
-            _fun56964_ip = 47; continue _fun56964;
+            _fun56967_ip = 47; continue _fun56967;
  43:
             mike = _closure1_slot7;
  47:
@@ -198,23 +198,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['ADD_STICKER_PREVIEW'] = verify;
     verify = function(argFoo) { // Original name: handleClearStickerPreview
-        _fun56965: for(var _fun56965_ip = 0; ; ) switch(_fun56965_ip) {
+        _fun56968: for(var _fun56968_ip = 0; ; ) switch(_fun56968_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
             tango = entity.draftType;
             entity = _closure1_slot5;
             entity = entity.FirstThreadMessage;
-            if(!(tango !== entity)) { _fun56965_ip = 37; continue _fun56965 }
+            if(!(tango !== entity)) { _fun56968_ip = 37; continue _fun56968 }
  31:
             entity = _closure1_slot6;
-            _fun56965_ip = 41; continue _fun56965;
+            _fun56968_ip = 41; continue _fun56968;
  37:
             entity = _closure1_slot7;
  41:
             tango = entity[mike];
             zulu = null;
-            if(!(zulu != tango)) { _fun56965_ip = 55; continue _fun56965 }
+            if(!(zulu != tango)) { _fun56968_ip = 55; continue _fun56968 }
  51:
             entity = delete entity[mike];
  55:

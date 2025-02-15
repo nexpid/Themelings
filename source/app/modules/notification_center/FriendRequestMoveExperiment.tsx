@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: useNumFriendRequestsForBadging
-        _fun114450: for(var _fun114450_ip = 0; ; ) switch(_fun114450_ip) {
+        _fun114456: for(var _fun114456_ip = 0; ; ) switch(_fun114456_ip) {
  0:
             tango = _closure1_slot4;
             zulu = tango.useExperiment;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = entity.localItems;
                 mike = zulu.filter;
                 entity = function(argFoo) {
-                    _fun114452: for(var _fun114452_ip = 0; ; ) switch(_fun114452_ip) {
+                    _fun114458: for(var _fun114458_ip = 0; ; ) switch(_fun114458_ip) {
  0:
                         report = argFoo;
                         mike = report.type;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         entity = entity.NotificationCenterLocalItems;
                         entity = entity.INCOMING_FRIEND_REQUESTS;
                         entity = mike !== entity;
-                        if(!entity) { _fun114452_ip = 90; continue _fun114452 }
+                        if(!entity) { _fun114458_ip = 90; continue _fun114458 }
  52:
                         tango = report.type;
                         oscar = _closure1_slot0;
@@ -106,10 +106,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = mike.INCOMING_GAME_FRIEND_REQUESTS;
                         entity = tango !== mike;
  90:
-                        if(entity) { _fun114452_ip = 121; continue _fun114452 }
+                        if(entity) { _fun114458_ip = 121; continue _fun114458 }
  93:
                         mike = _closure2_slot0;
-                        if(!mike) { _fun114452_ip = 118; continue _fun114452 }
+                        if(!mike) { _fun114458_ip = 118; continue _fun114458 }
  103:
                         tango = _closure1_slot3;
                         zulu = tango.isLocalItemAcked;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = tango.bind(report)(mike, entity);
             entity = 0;
-            if(!zulu) { _fun114450_ip = 113; continue _fun114450 }
+            if(!zulu) { _fun114456_ip = 113; continue _fun114456 }
  110:
             entity = mike;
  113:

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun110133: for(var _fun110133_ip = 0; ; ) switch(_fun110133_ip) {
+        _fun110139: for(var _fun110139_ip = 0; ; ) switch(_fun110139_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun110133_ip = 51; continue _fun110133 }
+            if(entity) { _fun110139_ip = 51; continue _fun110139 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun110133_ip = 92; continue _fun110133;
+            _fun110139_ip = 92; continue _fun110139;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun110133_ip = 71; continue _fun110133 }
+            if(oscar) { _fun110139_ip = 71; continue _fun110139 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun110134: for(var _fun110134_ip = 0; ; ) switch(_fun110134_ip) {
+        _fun110140: for(var _fun110140_ip = 0; ; ) switch(_fun110140_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun110134_ip = 76; continue _fun110134;
+            _fun110140_ip = 76; continue _fun110140;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'handlePostConnectionOpen';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun110141: for(var _fun110141_ip = 0; ; ) switch(_fun110141_ip) {
+            _fun110147: for(var _fun110147_ip = 0; ; ) switch(_fun110147_ip) {
  0:
                 zulu = _closure1_slot8;
                 mike = zulu.get;
@@ -199,10 +199,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = options[oscar];
                 oscar = golf.bind(entity)(oscar);
                 oscar = oscar.CollectiblesMarketingReleaseType;
-                if(report) { _fun110141_ip = 90; continue _fun110141 }
+                if(report) { _fun110147_ip = 90; continue _fun110147 }
  82:
                 report = oscar.PROD;
-                _fun110141_ip = 96; continue _fun110141;
+                _fun110147_ip = 96; continue _fun110147;
  90:
                 report = oscar.BETA;
  96:

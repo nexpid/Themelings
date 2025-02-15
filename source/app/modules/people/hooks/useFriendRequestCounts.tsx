@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: _getIncomingFriendRequestCount
-        _fun114444: for(var _fun114444_ip = 0; ; ) switch(_fun114444_ip) {
+        _fun114450: for(var _fun114450_ip = 0; ; ) switch(_fun114450_ip) {
  0:
             tango = _closure1_slot2;
             zulu = undefined;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.bind(mike)();
             tango = argFoo;
             entity = zulu;
-            if(!tango) { _fun114444_ip = 67; continue _fun114444 }
+            if(!tango) { _fun114450_ip = 67; continue _fun114450 }
  63:
             entity = zulu + mike;
  67:
@@ -116,11 +116,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIncomingFriendRequestCount'] = tango;
     mike = function() { // Original name: getOutgoingFriendRequestCount
-        _fun114448: for(var _fun114448_ip = 0; ; ) switch(_fun114448_ip) {
+        _fun114454: for(var _fun114454_ip = 0; ; ) switch(_fun114454_ip) {
  0:
             tango = arguments[0];
             report = undefined;
-            if(!(tango === report)) { _fun114448_ip = 38; continue _fun114448 }
+            if(!(tango === report)) { _fun114454_ip = 38; continue _fun114454 }
  9:
             mike = global;
             zulu = mike.o;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.getPendingOutgoingCount;
             mike = entity.bind(mike)();
             entity = zulu;
-            if(!tango) { _fun114448_ip = 138; continue _fun114448 }
+            if(!tango) { _fun114454_ip = 138; continue _fun114454 }
  134:
             entity = zulu + mike;
  138:

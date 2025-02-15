@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/oauth2/native/authorizeCallback.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: authorizeCallback
-        _fun73623: for(var _fun73623_ip = 0; ; ) switch(_fun73623_ip) {
+        _fun73633: for(var _fun73633_ip = 0; ; ) switch(_fun73633_ip) {
  0:
             mike = argFoo;
             report = mike.location;
@@ -43,9 +43,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike.guild;
             options = mike.wasDeepLink;
             yankee = null;
-            if(!(yankee == report)) { _fun73623_ip = 123; continue _fun73623 }
+            if(!(yankee == report)) { _fun73633_ip = 123; continue _fun73633 }
  36:
-            if(entity) { _fun73623_ip = 396; continue _fun73623 }
+            if(entity) { _fun73633_ip = 396; continue _fun73633 }
  42:
             tango = _closure1_slot1;
             mike = _closure1_slot2;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = romeo.bind(verify)(offset, mike);
             entity = _closure1_slot4;
             entity = zulu.bind(tango)(mike, verify, entity);
-            _fun73623_ip = 396; continue _fun73623;
+            _fun73633_ip = 396; continue _fun73633;
  123:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -74,14 +74,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(verify)(mike);
             mike = zulu.toURLSafe;
             mike = mike.bind(zulu)(report);
-            if(!(yankee == mike)) { _fun73623_ip = 165; continue _fun73623 }
+            if(!(yankee == mike)) { _fun73633_ip = 165; continue _fun73633 }
  163:
             mike = {};
  165:
             offset = mike.host;
             tango = mike.pathname;
             backup = mike.searchParams;
-            if(!(yankee != offset)) { _fun73623_ip = 266; continue _fun73623 }
+            if(!(yankee != offset)) { _fun73633_ip = 266; continue _fun73633 }
  187:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -89,21 +89,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(verify)(mike);
             mike = zulu.isDiscordHostname;
             mike = mike.bind(zulu)(offset);
-            if(!mike) { _fun73623_ip = 266; continue _fun73623 }
+            if(!mike) { _fun73633_ip = 266; continue _fun73633 }
  218:
-            if(!(yankee != tango)) { _fun73623_ip = 266; continue _fun73623 }
+            if(!(yankee != tango)) { _fun73633_ip = 266; continue _fun73633 }
  222:
             zulu = tango.match;
             mike = _closure1_slot5;
             mike = zulu.bind(tango)(mike);
-            if(!(yankee == mike)) { _fun73623_ip = 570; continue _fun73623 }
+            if(!(yankee == mike)) { _fun73633_ip = 570; continue _fun73633 }
  244:
             zulu = tango.match;
             mike = _closure1_slot6;
             mike = zulu.bind(tango)(mike);
-            if(!(yankee == mike)) { _fun73623_ip = 400; continue _fun73623 }
+            if(!(yankee == mike)) { _fun73633_ip = 400; continue _fun73633 }
  266:
-            if(!options) { _fun73623_ip = 327; continue _fun73623 }
+            if(!options) { _fun73633_ip = 327; continue _fun73633 }
  269:
             tango = _closure1_slot0;
             offset = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(verify)(mike);
             zulu = tango.openURL;
             mike = undefined;
-            if(!options) { _fun73623_ip = 390; continue _fun73623 }
+            if(!options) { _fun73633_ip = 390; continue _fun73633 }
  358:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -158,30 +158,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = {};
             offset = yankee == backup;
             mike = undefined;
-            if(offset) { _fun73623_ip = 503; continue _fun73623 }
+            if(offset) { _fun73633_ip = 503; continue _fun73633 }
  471:
             romeo = backup.get;
             offset = 'error_description';
             romeo = romeo.bind(backup)(offset);
             offset = yankee == romeo;
             mike = undefined;
-            if(offset) { _fun73623_ip = 503; continue _fun73623 }
+            if(offset) { _fun73633_ip = 503; continue _fun73633 }
  494:
             offset = romeo.toString;
             mike = offset.bind(romeo)();
  503:
-            if(!(yankee == mike)) { _fun73623_ip = 551; continue _fun73623 }
+            if(!(yankee == mike)) { _fun73633_ip = 551; continue _fun73633 }
  507:
             romeo = yankee == backup;
             offset = undefined;
-            if(romeo) { _fun73623_ip = 548; continue _fun73623 }
+            if(romeo) { _fun73633_ip = 548; continue _fun73633 }
  516:
             foxtrot = backup.get;
             romeo = 'error';
             romeo = foxtrot.bind(backup)(romeo);
             yankee = yankee == romeo;
             offset = undefined;
-            if(yankee) { _fun73623_ip = 548; continue _fun73623 }
+            if(yankee) { _fun73633_ip = 548; continue _fun73633 }
  539:
             yankee = romeo.toString;
             offset = yankee.bind(romeo)();

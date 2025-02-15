@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['VoiceFilterExperiment'] = tango;
     tango = function(argFoo) { // Original name: isVoiceFiltersEnabled
-        _fun105760: for(var _fun105760_ip = 0; ; ) switch(_fun105760_ip) {
+        _fun105752: for(var _fun105752_ip = 0; ; ) switch(_fun105752_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             entity = entity.enabled;
-            if(!entity) { _fun105760_ip = 86; continue _fun105760 }
+            if(!entity) { _fun105752_ip = 86; continue _fun105752 }
  54:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isVoiceFiltersEnabled'] = tango;
     mike = function(argFoo) { // Original name: useAreVoiceFiltersEnabled
-        _fun105761: for(var _fun105761_ip = 0; ; ) switch(_fun105761_ip) {
+        _fun105753: for(var _fun105753_ip = 0; ; ) switch(_fun105753_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             entity = entity.enabled;
-            if(!entity) { _fun105761_ip = 86; continue _fun105761 }
+            if(!entity) { _fun105753_ip = 86; continue _fun105753 }
  54:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

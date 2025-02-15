@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     mike['useOptions'] = golf;
     golf = function() { // Original name: useDmSpamFilterSettingValue
-        _fun94721: for(var _fun94721_ip = 0; ; ) switch(_fun94721_ip) {
+        _fun94733: for(var _fun94733_ip = 0; ; ) switch(_fun94733_ip) {
  0:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -102,13 +102,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.DmSpamFilterV2;
             mike = mike.DEFAULT_UNSET;
-            if(!(entity === mike)) { _fun94721_ip = 146; continue _fun94721 }
+            if(!(entity === mike)) { _fun94733_ip = 146; continue _fun94733 }
  94:
             tango = _closure1_slot3;
             mike = tango.get;
             mike = mike.bind(tango)(golf);
             tango = null;
-            if(!(tango == mike)) { _fun94721_ip = 143; continue _fun94721 }
+            if(!(tango == mike)) { _fun94733_ip = 143; continue _fun94733 }
  114:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

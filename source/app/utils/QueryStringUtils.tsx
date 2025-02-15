@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'utils/QueryStringUtils.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: getFirstQueryStringValue
-        _fun54497: for(var _fun54497_ip = 0; ; ) switch(_fun54497_ip) {
+        _fun54504: for(var _fun54504_ip = 0; ; ) switch(_fun54504_ip) {
  0:
             zulu = argFoo;
             entity = global;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.isArray;
             mike = entity.bind(mike)(zulu);
             entity = zulu;
-            if(!mike) { _fun54497_ip = 33; continue _fun54497 }
+            if(!mike) { _fun54504_ip = 33; continue _fun54504 }
  27:
             mike = 0;
             entity = zulu[mike];

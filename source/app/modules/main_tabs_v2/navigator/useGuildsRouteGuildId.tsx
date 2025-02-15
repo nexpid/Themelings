@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useGuildsRouteGuildId
-        _fun114064: for(var _fun114064_ip = 0; ; ) switch(_fun114064_ip) {
+        _fun114070: for(var _fun114070_ip = 0; ; ) switch(_fun114070_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -34,7 +34,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = mike.params;
             zulu = null;
             zulu = zulu == mike;
-            if(zulu) { _fun114064_ip = 54; continue _fun114064 }
+            if(zulu) { _fun114070_ip = 54; continue _fun114070 }
  49:
             entity = mike.guildId;
  54:
@@ -43,7 +43,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function() { // Original name: useGuildsRouteGuildAndChannelId
-        _fun114065: for(var _fun114065_ip = 0; ; ) switch(_fun114065_ip) {
+        _fun114071: for(var _fun114071_ip = 0; ; ) switch(_fun114071_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -56,12 +56,12 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             tango = null;
             entity = tango == zulu;
             mike = undefined;
-            if(entity) { _fun114065_ip = 65; continue _fun114065 }
+            if(entity) { _fun114071_ip = 65; continue _fun114071 }
  45:
             entity = zulu.params;
             oscar = tango == entity;
             mike = undefined;
-            if(oscar) { _fun114065_ip = 65; continue _fun114065 }
+            if(oscar) { _fun114071_ip = 65; continue _fun114071 }
  60:
             mike = entity.guildId;
  65:
@@ -69,12 +69,12 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity[0] = mike;
             oscar = tango == zulu;
             mike = undefined;
-            if(oscar) { _fun114065_ip = 102; continue _fun114065 }
+            if(oscar) { _fun114071_ip = 102; continue _fun114071 }
  82:
             zulu = zulu.params;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun114065_ip = 102; continue _fun114065 }
+            if(tango) { _fun114071_ip = 102; continue _fun114071 }
  97:
             mike = zulu.channelId;
  102:

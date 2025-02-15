@@ -27,12 +27,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_automod/SystemRulesUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isDefaultRuleId
-        _fun125426: for(var _fun125426_ip = 0; ; ) switch(_fun125426_ip) {
+        _fun125422: for(var _fun125422_ip = 0; ; ) switch(_fun125422_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun125426_ip = 29; continue _fun125426 }
+            if(!entity) { _fun125422_ip = 29; continue _fun125422 }
  12:
             zulu = _closure1_slot0;
             mike = zulu.has;

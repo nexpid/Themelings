@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot11 = tango;
     golf = options.memo;
     tango = function(argFoo) {
-        _fun98435: for(var _fun98435_ip = 0; ; ) switch(_fun98435_ip) {
+        _fun98445: for(var _fun98445_ip = 0; ; ) switch(_fun98445_ip) {
  0:
             entity = argFoo;
             golf = entity.contents;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.toggleDismissibleContentDismissState;
             offset = null;
-            if(!(offset == golf)) { _fun98435_ip = 111; continue _fun98435 }
+            if(!(offset == golf)) { _fun98445_ip = 111; continue _fun98445 }
  83:
             offset = global;
             offset = offset.Uint8Array;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/devtools/native/components/screens/DevToolsDismissableContentsScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DevToolsDismissableContentsScreen
-        _fun98436: for(var _fun98436_ip = 0; ; ) switch(_fun98436_ip) {
+        _fun98446: for(var _fun98446_ip = 0; ; ) switch(_fun98446_ip) {
  0:
             entity = _closure1_slot11;
             tango = undefined;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot4;
             golf = report.useCallback;
             mike = function(argFoo) {
-                _fun98437: for(var _fun98437_ip = 0; ; ) switch(_fun98437_ip) {
+                _fun98447: for(var _fun98447_ip = 0; ; ) switch(_fun98447_ip) {
  0:
                     romeo = argFoo;
                     mike = new Array(0);
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  68:
                         backup = report;
                         foxtrot = entity;
-                        if(foxtrot) { _fun98437_ip = 120; continue _fun98437 }
+                        if(foxtrot) { _fun98447_ip = 120; continue _fun98447 }
  77:
                         sizing = _closure1_slot1;
                         kilo = _closure1_slot2;
@@ -230,18 +230,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         kilo = kilo.bind(backup)();
                         foxtrot = output.bind(oscar)(sizing, kilo);
  120:
-                        if(!foxtrot) { _fun98437_ip = 145; continue _fun98437 }
+                        if(!foxtrot) { _fun98447_ip = 145; continue _fun98447 }
  123:
                         sizing = tango.isNaN;
                         kilo = tango.Number;
                         kilo = kilo.bind(oscar)(backup);
                         foxtrot = sizing.bind(oscar)(kilo);
  145:
-                        if(!foxtrot) { _fun98437_ip = 59; continue _fun98437 }
+                        if(!foxtrot) { _fun98447_ip = 59; continue _fun98447 }
  148:
                         foxtrot = mike.push;
                         foxtrot = foxtrot.bind(mike)(backup);
-                        _fun98437_ip = 59; continue _fun98437;
+                        _fun98447_ip = 59; continue _fun98447;
                     }
  160:
                     zulu = mike.sort;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(1);
             verify[0] = entity;
             entity = function() {
-                _fun98440: for(var _fun98440_ip = 0; ; ) switch(_fun98440_ip) {
+                _fun98450: for(var _fun98450_ip = 0; ; ) switch(_fun98450_ip) {
  0:
                     entity = _closure1_slot7;
                     entity = entity.settings;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun98440_ip = 36; continue _fun98440 }
+                    if(zulu) { _fun98450_ip = 36; continue _fun98450 }
  30:
                     entity = mike.dismissedContents;
  36:
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(mike, verify);
             report[2] = verify;
             golf = golf.length;
-            if(!(!(golf > options))) { _fun98436_ip = 1152; continue _fun98436 }
+            if(!(!(golf > options))) { _fun98446_ip = 1152; continue _fun98446 }
  975:
             verify = _closure1_slot8;
             options = _closure1_slot10;
@@ -568,7 +568,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = backup.bind(tango)(foxtrot, offset);
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
-            _fun98436_ip = 1277; continue _fun98436;
+            _fun98446_ip = 1277; continue _fun98446;
  1152:
             offset = _closure1_slot8;
             foxtrot = _closure1_slot1;

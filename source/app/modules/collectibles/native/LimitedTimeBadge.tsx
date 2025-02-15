@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/LimitedTimeBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun99716: for(var _fun99716_ip = 0; ; ) switch(_fun99716_ip) {
+        _fun99726: for(var _fun99726_ip = 0; ; ) switch(_fun99726_ip) {
  0:
             mike = argFoo;
             oscar = mike.unpublishedAt;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = echo[report](result, output, sizing, kilo, backup);
             foxtrot = mike.days;
             offset = mike.hours;
-            if(entity) { _fun99716_ip = 380; continue _fun99716 }
+            if(entity) { _fun99726_ip = 380; continue _fun99726 }
  186:
             report = _closure1_slot0;
             entity = _closure1_slot2;
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(zulu)(entity);
             entity = offset + entity;
             mike = 1;
-            if(!(!(foxtrot > mike))) { _fun99716_ip = 375; continue _fun99716 }
+            if(!(!(foxtrot > mike))) { _fun99726_ip = 375; continue _fun99726 }
  300:
-            if(!(foxtrot <= mike)) { _fun99716_ip = 310; continue _fun99716 }
+            if(!(foxtrot <= mike)) { _fun99726_ip = 310; continue _fun99726 }
  304:
             mike = 0;
-            if(!(!(offset > mike))) { _fun99716_ip = 372; continue _fun99716 }
+            if(!(!(offset > mike))) { _fun99726_ip = 372; continue _fun99726 }
  310:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;
@@ -180,15 +180,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  372:
             options = entity;
  375:
-            _fun99716_ip = 598; continue _fun99716;
+            _fun99726_ip = 598; continue _fun99726;
  380:
             entity = 1;
-            if(!(!(foxtrot > entity))) { _fun99716_ip = 532; continue _fun99716 }
+            if(!(!(foxtrot > entity))) { _fun99726_ip = 532; continue _fun99726 }
  390:
-            if(!(foxtrot <= entity)) { _fun99716_ip = 400; continue _fun99716 }
+            if(!(foxtrot <= entity)) { _fun99726_ip = 400; continue _fun99726 }
  394:
             entity = 0;
-            if(!(!(offset > entity))) { _fun99716_ip = 467; continue _fun99716 }
+            if(!(!(offset > entity))) { _fun99726_ip = 467; continue _fun99726 }
  400:
             mike = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 0;
             entity['hours'] = oscar;
             entity = zulu.bind(report)(mike, entity);
-            _fun99716_ip = 530; continue _fun99716;
+            _fun99726_ip = 530; continue _fun99726;
  467:
             zulu = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['hours'] = offset;
             entity = report.bind(oscar)(zulu, mike);
  530:
-            _fun99716_ip = 595; continue _fun99716;
+            _fun99726_ip = 595; continue _fun99726;
  532:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -247,10 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.root;
             report = new Array(2);
             report[0] = oscar;
-            if(yankee) { _fun99716_ip = 633; continue _fun99716 }
+            if(yankee) { _fun99726_ip = 633; continue _fun99726 }
  625:
             oscar = golf.backgroundLightMode;
-            _fun99716_ip = 639; continue _fun99716;
+            _fun99726_ip = 639; continue _fun99726;
  633:
             oscar = golf.backgroundDarkMode;
  639:
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Text;
             report = {};
             offset = 'white';
-            if(!yankee) { _fun99716_ip = 689; continue _fun99716 }
+            if(!yankee) { _fun99726_ip = 689; continue _fun99726 }
  685:
             offset = 'black';
  689:

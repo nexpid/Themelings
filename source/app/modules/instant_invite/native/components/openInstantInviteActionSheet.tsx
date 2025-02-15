@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/instant_invite/native/components/openInstantInviteActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openInstantInviteActionSheet
-        _fun86317: for(var _fun86317_ip = 0; ; ) switch(_fun86317_ip) {
+        _fun86334: for(var _fun86334_ip = 0; ; ) switch(_fun86334_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu, mike);
             verify = golf.vanityURLCode;
             mike = null;
-            if(!(mike == verify)) { _fun86317_ip = 89; continue _fun86317 }
+            if(!(mike == verify)) { _fun86334_ip = 89; continue _fun86334 }
  79:
             mike = golf.channel;
             verify = mike.id;

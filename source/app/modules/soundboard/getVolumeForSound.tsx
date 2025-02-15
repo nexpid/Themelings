@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/soundboard/getVolumeForSound.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getVolumeForSound
-        _fun103548: for(var _fun103548_ip = 0; ; ) switch(_fun103548_ip) {
+        _fun103540: for(var _fun103540_ip = 0; ; ) switch(_fun103540_ip) {
  0:
             report = arguments[1];
             oscar = undefined;
-            if(!(report === oscar)) { _fun103548_ip = 81; continue _fun103548 }
+            if(!(report === oscar)) { _fun103540_ip = 81; continue _fun103540 }
  9:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -43,13 +43,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == zulu;
             mike = undefined;
-            if(tango) { _fun103548_ip = 65; continue _fun103548 }
+            if(tango) { _fun103540_ip = 65; continue _fun103540 }
  59:
             mike = zulu.volume;
  65:
             zulu = entity != mike;
             entity = 100;
-            if(!zulu) { _fun103548_ip = 78; continue _fun103548 }
+            if(!zulu) { _fun103540_ip = 78; continue _fun103540 }
  75:
             entity = mike;
  78:
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getPerceptualSoundboardVolume
-        _fun103549: for(var _fun103549_ip = 0; ; ) switch(_fun103549_ip) {
+        _fun103541: for(var _fun103541_ip = 0; ; ) switch(_fun103541_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity != report;
             mike = 100;
             entity = mike;
-            if(!oscar) { _fun103549_ip = 52; continue _fun103549 }
+            if(!oscar) { _fun103541_ip = 52; continue _fun103541 }
  49:
             entity = report;
  52:

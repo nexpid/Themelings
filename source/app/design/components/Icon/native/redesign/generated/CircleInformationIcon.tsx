@@ -41,18 +41,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CircleInformationIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun56872: for(var _fun56872_ip = 0; ; ) switch(_fun56872_ip) {
+        _fun56875: for(var _fun56875_ip = 0; ; ) switch(_fun56875_ip) {
  0:
             zulu = argFoo;
             offset = zulu.style;
             foxtrot = zulu.secondaryColor;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun56872_ip = 24; continue _fun56872 }
+            if(!(foxtrot === tango)) { _fun56875_ip = 24; continue _fun56875 }
  20:
             foxtrot = 'transparent';
  24:
             yankee = zulu.color;
-            if(!(yankee === tango)) { _fun56872_ip = 67; continue _fun56872 }
+            if(!(yankee === tango)) { _fun56875_ip = 67; continue _fun56875 }
  33:
             mike = _closure1_slot1;
             report = _closure1_slot2;

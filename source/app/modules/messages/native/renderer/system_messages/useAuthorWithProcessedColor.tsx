@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getMessageAuthorWithProcessedColor
-        _fun72225: for(var _fun72225_ip = 0; ; ) switch(_fun72225_ip) {
+        _fun72231: for(var _fun72231_ip = 0; ; ) switch(_fun72231_ip) {
  0:
             mike = _closure1_slot0;
             tango = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike != tango;
             mike = undefined;
-            if(!oscar) { _fun72225_ip = 78; continue _fun72225 }
+            if(!oscar) { _fun72231_ip = 78; continue _fun72231 }
  69:
             zulu = _closure1_slot3;
             mike = zulu.bind(report)(tango);
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMessageAuthorWithProcessedColor'] = tango;
     tango = function(argFoo) { // Original name: useMessageAuthorWithProcessedColor
-        _fun72226: for(var _fun72226_ip = 0; ; ) switch(_fun72226_ip) {
+        _fun72232: for(var _fun72232_ip = 0; ; ) switch(_fun72232_ip) {
  0:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike != tango;
             mike = undefined;
-            if(!oscar) { _fun72226_ip = 72; continue _fun72226 }
+            if(!oscar) { _fun72232_ip = 72; continue _fun72232 }
  63:
             zulu = _closure1_slot3;
             mike = zulu.bind(report)(tango);
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useMessageAuthorWithProcessedColor'] = tango;
     tango = function(argFoo, argBar) { // Original name: getUserAuthorWithProcessedColor
-        _fun72227: for(var _fun72227_ip = 0; ; ) switch(_fun72227_ip) {
+        _fun72233: for(var _fun72233_ip = 0; ; ) switch(_fun72233_ip) {
  0:
             mike = _closure1_slot0;
             tango = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike != tango;
             mike = undefined;
-            if(!oscar) { _fun72227_ip = 82; continue _fun72227 }
+            if(!oscar) { _fun72233_ip = 82; continue _fun72233 }
  73:
             zulu = _closure1_slot3;
             mike = zulu.bind(report)(tango);
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getUserAuthorWithProcessedColor'] = tango;
     mike = function(argFoo, argBar) { // Original name: useUserAuthorWithProcessedColor
-        _fun72228: for(var _fun72228_ip = 0; ; ) switch(_fun72228_ip) {
+        _fun72234: for(var _fun72234_ip = 0; ; ) switch(_fun72234_ip) {
  0:
             mike = _closure1_slot0;
             tango = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike != tango;
             mike = undefined;
-            if(!oscar) { _fun72228_ip = 82; continue _fun72228 }
+            if(!oscar) { _fun72234_ip = 82; continue _fun72234 }
  73:
             zulu = _closure1_slot3;
             mike = zulu.bind(report)(tango);

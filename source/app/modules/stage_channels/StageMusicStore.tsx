@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun102927: for(var _fun102927_ip = 0; ; ) switch(_fun102927_ip) {
+        _fun102919: for(var _fun102919_ip = 0; ; ) switch(_fun102919_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun102927_ip = 51; continue _fun102927 }
+            if(entity) { _fun102919_ip = 51; continue _fun102919 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun102927_ip = 92; continue _fun102927;
+            _fun102919_ip = 92; continue _fun102919;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun102927_ip = 71; continue _fun102927 }
+            if(oscar) { _fun102919_ip = 71; continue _fun102919 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun102928: for(var _fun102928_ip = 0; ; ) switch(_fun102928_ip) {
+        _fun102920: for(var _fun102920_ip = 0; ; ) switch(_fun102920_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun102928_ip = 76; continue _fun102928;
+            _fun102920_ip = 76; continue _fun102920;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -136,11 +136,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun102933: for(var _fun102933_ip = 0; ; ) switch(_fun102933_ip) {
+            _fun102925: for(var _fun102925_ip = 0; ; ) switch(_fun102925_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity != mike)) { _fun102933_ip = 16; continue _fun102933 }
+                if(!(entity != mike)) { _fun102925_ip = 16; continue _fun102925 }
  9:
                 _closure1_slot5 = mike;
  16:

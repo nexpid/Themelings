@@ -67,7 +67,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     golf = golf.CONTENT_AND_SOCIAL;
     mike['parent'] = golf;
     golf = function() { // Original name: useViewNsfwDmCommandsSettingValue
-        _fun94742: for(var _fun94742_ip = 0; ; ) switch(_fun94742_ip) {
+        _fun94754: for(var _fun94754_ip = 0; ; ) switch(_fun94754_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -94,13 +94,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = mike.bind(tango)();
             tango = null;
             tango = tango == entity;
-            if(tango) { _fun94742_ip = 100; continue _fun94742 }
+            if(tango) { _fun94754_ip = 100; continue _fun94754 }
  94:
             zulu = entity.nsfwAllowed;
  100:
             entity = true;
             entity = entity === zulu;
-            if(!entity) { _fun94742_ip = 112; continue _fun94742 }
+            if(!entity) { _fun94754_ip = 112; continue _fun94754 }
  109:
             entity = mike;
  112:
@@ -115,7 +115,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     golf = golf.updateSetting;
     mike['onValueChange'] = golf;
     tango = function() { // Original name: usePredicate
-        _fun94744: for(var _fun94744_ip = 0; ; ) switch(_fun94744_ip) {
+        _fun94756: for(var _fun94756_ip = 0; ; ) switch(_fun94756_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -127,11 +127,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = entity.bind(zulu)();
             entity = null;
             entity = entity == zulu;
-            if(entity) { _fun94744_ip = 47; continue _fun94744 }
+            if(entity) { _fun94756_ip = 47; continue _fun94756 }
  44:
             entity = zulu;
  47:
-            if(!entity) { _fun94744_ip = 79; continue _fun94744 }
+            if(!entity) { _fun94756_ip = 79; continue _fun94756 }
  50:
             zulu = _closure1_slot0;
             report = _closure1_slot1;

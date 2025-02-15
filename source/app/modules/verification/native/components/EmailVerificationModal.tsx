@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/verification/native/components/EmailVerificationModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmailVerificationModal
-        _fun88581: for(var _fun88581_ip = 0; ; ) switch(_fun88581_ip) {
+        _fun88598: for(var _fun88598_ip = 0; ; ) switch(_fun88598_ip) {
  0:
             entity = argFoo;
             report = entity.isChangeEmail;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             golf = zulu == mike;
             verify = undefined;
-            if(golf) { _fun88581_ip = 123; continue _fun88581 }
+            if(golf) { _fun88598_ip = 123; continue _fun88598 }
  117:
             verify = mike.verified;
  123:
             golf = zulu != verify;
-            if(!golf) { _fun88581_ip = 133; continue _fun88581 }
+            if(!golf) { _fun88598_ip = 133; continue _fun88598 }
  130:
             golf = verify;
  133:
@@ -470,28 +470,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             oscar = options.bind(verify)(oscar, golf);
-            if(report) { _fun88581_ip = 297; continue _fun88581 }
+            if(report) { _fun88598_ip = 297; continue _fun88598 }
  266:
             golf = zulu == mike;
             report = undefined;
-            if(golf) { _fun88581_ip = 281; continue _fun88581 }
+            if(golf) { _fun88598_ip = 281; continue _fun88598 }
  275:
             report = mike.email;
  281:
-            if(!(zulu != report)) { _fun88581_ip = 297; continue _fun88581 }
+            if(!(zulu != report)) { _fun88598_ip = 297; continue _fun88598 }
  285:
             report = _closure1_slot7;
             report = report.RESEND_EMAIL;
-            _fun88581_ip = 335; continue _fun88581;
+            _fun88598_ip = 335; continue _fun88598;
  297:
-            if(!(zulu != mike)) { _fun88581_ip = 310; continue _fun88581 }
+            if(!(zulu != mike)) { _fun88598_ip = 310; continue _fun88598 }
  301:
             mike = mike.verified;
-            if(mike) { _fun88581_ip = 322; continue _fun88581 }
+            if(mike) { _fun88598_ip = 322; continue _fun88598 }
  310:
             mike = _closure1_slot7;
             mike = mike.ENTER_EMAIL;
-            _fun88581_ip = 332; continue _fun88581;
+            _fun88598_ip = 332; continue _fun88598;
  322:
             zulu = _closure1_slot7;
             mike = zulu.CONFIRM_EMAIL_CHANGE_START;

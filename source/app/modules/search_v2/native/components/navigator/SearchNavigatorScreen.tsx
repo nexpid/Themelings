@@ -110,16 +110,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.addListener;
             mike = 'transitionEnd';
             entity = function(argFoo) {
-                _fun120401: for(var _fun120401_ip = 0; ; ) switch(_fun120401_ip) {
+                _fun120407: for(var _fun120407_ip = 0; ; ) switch(_fun120407_ip) {
  0:
                     entity = argFoo;
                     entity = entity.data;
                     entity = entity.closing;
-                    if(entity) { _fun120401_ip = 69; continue _fun120401 }
+                    if(entity) { _fun120407_ip = 69; continue _fun120407 }
  17:
                     mike = _closure2_slot3;
                     mike = mike.current;
-                    if(mike) { _fun120401_ip = 69; continue _fun120401 }
+                    if(mike) { _fun120407_ip = 69; continue _fun120407 }
  32:
                     zulu = _closure2_slot3;
                     mike = true;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot2;
                     mike = entity.current;
                     entity = null;
-                    if(!(entity != mike)) { _fun120401_ip = 69; continue _fun120401 }
+                    if(!(entity != mike)) { _fun120407_ip = 69; continue _fun120407 }
  59:
                     entity = mike.focus;
                     entity = entity.bind(mike)();

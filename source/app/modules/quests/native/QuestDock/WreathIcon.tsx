@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestDock/WreathIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: WreathIcon
-        _fun91373: for(var _fun91373_ip = 0; ; ) switch(_fun91373_ip) {
+        _fun91402: for(var _fun91402_ip = 0; ; ) switch(_fun91402_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun91373_ip = 53; continue _fun91373 }
+            if(!(golf === tango)) { _fun91402_ip = 53; continue _fun91402 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

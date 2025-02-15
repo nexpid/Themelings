@@ -34,28 +34,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['redesignChannelListKeyExtractor'] = tango;
     mike = function(argFoo) {
-        _fun116118: for(var _fun116118_ip = 0; ; ) switch(_fun116118_ip) {
+        _fun116124: for(var _fun116124_ip = 0; ; ) switch(_fun116124_ip) {
  0:
             mike = argFoo;
             zulu = mike.kind;
             entity = 'channel';
-            if(!(entity !== zulu)) { _fun116118_ip = 158; continue _fun116118 }
+            if(!(entity !== zulu)) { _fun116124_ip = 158; continue _fun116124 }
  19:
             zulu = mike.kind;
             entity = 'sectionFooterVoice';
-            if(!(entity === zulu)) { _fun116118_ip = 52; continue _fun116118 }
+            if(!(entity === zulu)) { _fun116124_ip = 52; continue _fun116124 }
  34:
             entity = mike.activeVoiceChannels;
             zulu = entity.length;
             entity = 1;
-            if(!(entity !== zulu)) { _fun116118_ip = 115; continue _fun116118 }
+            if(!(entity !== zulu)) { _fun116124_ip = 115; continue _fun116124 }
  52:
             zulu = mike.kind;
             entity = 'sectionHeaderCategory';
-            if(!(entity !== zulu)) { _fun116118_ip = 74; continue _fun116118 }
+            if(!(entity !== zulu)) { _fun116124_ip = 74; continue _fun116124 }
  67:
             entity = mike.kind;
-            _fun116118_ip = 113; continue _fun116118;
+            _fun116124_ip = 113; continue _fun116124;
  74:
             golf = mike.kind;
             oscar = mike.isFirstCategory;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = '-';
             entity = report.bind(tango)(golf, zulu, oscar);
  113:
-            _fun116118_ip = 156; continue _fun116118;
+            _fun116124_ip = 156; continue _fun116124;
  115:
             tango = mike.activeVoiceChannels;
             zulu = 0;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = 'channel-';
             entity = tango.bind(zulu)(report);
  156:
-            _fun116118_ip = 201; continue _fun116118;
+            _fun116124_ip = 201; continue _fun116124;
  158:
             oscar = mike.kind;
             mike = mike.channel;

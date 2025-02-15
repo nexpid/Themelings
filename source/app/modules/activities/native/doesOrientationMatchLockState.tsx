@@ -24,22 +24,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/native/doesOrientationMatchLockState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: doesOrientationMatchLockState
-        _fun75884: for(var _fun75884_ip = 0; ; ) switch(_fun75884_ip) {
+        _fun75894: for(var _fun75894_ip = 0; ; ) switch(_fun75894_ip) {
  0:
             mike = argFoo;
             tango = argBar;
             entity = null;
             entity = entity == tango;
-            if(entity) { _fun75884_ip = 32; continue _fun75884 }
+            if(entity) { _fun75894_ip = 32; continue _fun75894 }
  15:
             zulu = _closure1_slot0;
             zulu = zulu.UNLOCKED;
             entity = tango === zulu;
  32:
-            if(entity) { _fun75884_ip = 61; continue _fun75884 }
+            if(entity) { _fun75894_ip = 61; continue _fun75894 }
  35:
             zulu = !mike;
-            if(!zulu) { _fun75884_ip = 58; continue _fun75884 }
+            if(!zulu) { _fun75894_ip = 58; continue _fun75894 }
  41:
             report = _closure1_slot0;
             report = report.PORTRAIT;
@@ -47,9 +47,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  58:
             entity = zulu;
  61:
-            if(entity) { _fun75884_ip = 87; continue _fun75884 }
+            if(entity) { _fun75894_ip = 87; continue _fun75894 }
  64:
-            if(!mike) { _fun75884_ip = 84; continue _fun75884 }
+            if(!mike) { _fun75894_ip = 84; continue _fun75894 }
  67:
             zulu = _closure1_slot0;
             zulu = zulu.LANDSCAPE;

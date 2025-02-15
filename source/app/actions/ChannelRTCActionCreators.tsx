@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['selectParticipant'] = golf;
     golf = function(argFoo, argBar) { // Original name: updateLayout
-        _fun73188: for(var _fun73188_ip = 0; ; ) switch(_fun73188_ip) {
+        _fun73198: for(var _fun73198_ip = 0; ; ) switch(_fun73198_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
             report = arguments[2];
             entity = undefined;
-            if(!(report === entity)) { _fun73188_ip = 28; continue _fun73188 }
+            if(!(report === entity)) { _fun73198_ip = 28; continue _fun73198 }
  15:
             mike = _closure1_slot3;
             report = mike.APP;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['updateStageVideoLimitBoostUpsellDismissed'] = golf;
     tango = function(argFoo, argBar) { // Original name: updateChatOpen
-        _fun73194: for(var _fun73194_ip = 0; ; ) switch(_fun73194_ip) {
+        _fun73204: for(var _fun73204_ip = 0; ; ) switch(_fun73204_ip) {
  0:
             options = argFoo;
             tango = argBar;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['channelId'] = options;
             report['chatOpen'] = tango;
             report = oscar.bind(golf)(report);
-            if(tango) { _fun73194_ip = 117; continue _fun73194 }
+            if(tango) { _fun73204_ip = 117; continue _fun73204 }
  69:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot5;
             zulu = zulu.FOCUS_CHAT_BUTTON;
             zulu = tango.bind(report)(zulu);
-            _fun73194_ip = 140; continue _fun73194;
+            _fun73204_ip = 140; continue _fun73204;
  117:
             zulu = global;
             tango = zulu.setTimeout;

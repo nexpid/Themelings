@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/native/handleAcceptEventInstantInvite.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: handleAcceptEventInstantInvite
-        _fun90481: for(var _fun90481_ip = 0; ; ) switch(_fun90481_ip) {
+        _fun90498: for(var _fun90498_ip = 0; ; ) switch(_fun90498_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.handleNSFWGuildInvite;
             zulu = zulu.bind(tango)(oscar);
-            if(zulu) { _fun90481_ip = 209; continue _fun90481 }
+            if(zulu) { _fun90498_ip = 209; continue _fun90498 }
  47:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
@@ -47,24 +47,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isGuildScheduledEventInviteEmbed;
             zulu = zulu.bind(tango)(oscar);
-            if(!zulu) { _fun90481_ip = 209; continue _fun90481 }
+            if(!zulu) { _fun90498_ip = 209; continue _fun90498 }
  84:
             zulu = oscar.code;
             tango = null;
-            if(!(tango != zulu)) { _fun90481_ip = 209; continue _fun90481 }
+            if(!(tango != zulu)) { _fun90498_ip = 209; continue _fun90498 }
  95:
             options = _closure1_slot3;
             golf = options.getGuildScheduledEvent;
             verify = oscar.guild_scheduled_event;
             offset = tango == verify;
             zulu = undefined;
-            if(offset) { _fun90481_ip = 125; continue _fun90481 }
+            if(offset) { _fun90498_ip = 125; continue _fun90498 }
  120:
             zulu = verify.id;
  125:
             zulu = golf.bind(options)(zulu);
             var _closure2_slot0 = zulu;
-            if(!(tango != zulu)) { _fun90481_ip = 209; continue _fun90481 }
+            if(!(tango != zulu)) { _fun90498_ip = 209; continue _fun90498 }
  138:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

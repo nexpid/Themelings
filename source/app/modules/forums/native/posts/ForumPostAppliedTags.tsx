@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/ForumPostAppliedTags.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ForumPostAppliedTagPills
-        _fun100532: for(var _fun100532_ip = 0; ; ) switch(_fun100532_ip) {
+        _fun100541: for(var _fun100541_ip = 0; ; ) switch(_fun100541_ip) {
  0:
             entity = argFoo;
             options = entity.appliedTags;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = offset;
             kilo = entity.additionalTagsCount;
             tango = undefined;
-            if(!(kilo === tango)) { _fun100532_ip = 35; continue _fun100532 }
+            if(!(kilo === tango)) { _fun100541_ip = 35; continue _fun100541 }
  33:
             kilo = 0;
  35:
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = 0;
             oscar = kilo > oscar;
-            if(!oscar) { _fun100532_ip = 219; continue _fun100532 }
+            if(!oscar) { _fun100541_ip = 219; continue _fun100541 }
  126:
             verify = _closure1_slot3;
             options = _closure1_slot0;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ForumPostAppliedTagPills'] = tango;
     mike = function(argFoo) { // Original name: ForumPostAppliedTags
-        _fun100534: for(var _fun100534_ip = 0; ; ) switch(_fun100534_ip) {
+        _fun100543: for(var _fun100543_ip = 0; ; ) switch(_fun100543_ip) {
  0:
             entity = argFoo;
             golf = entity.appliedTags;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = backup;
             result = entity.additionalTagsCount;
             tango = undefined;
-            if(!(result === tango)) { _fun100534_ip = 39; continue _fun100534 }
+            if(!(result === tango)) { _fun100543_ip = 39; continue _fun100543 }
  37:
             result = 0;
  39:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = golf.map;
             report = function(argFoo, argBar) {
-                _fun100535: for(var _fun100535_ip = 0; ; ) switch(_fun100535_ip) {
+                _fun100544: for(var _fun100544_ip = 0; ; ) switch(_fun100544_ip) {
  0:
                     report = argFoo;
                     tango = _closure1_slot4;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options - oscar;
                     oscar = argBar;
                     oscar = oscar !== options;
-                    if(!oscar) { _fun100535_ip = 142; continue _fun100535 }
+                    if(!oscar) { _fun100544_ip = 142; continue _fun100544 }
  112:
                     verify = _closure1_slot3;
                     options = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = 0;
             oscar = result > oscar;
-            if(!oscar) { _fun100534_ip = 270; continue _fun100534 }
+            if(!oscar) { _fun100543_ip = 270; continue _fun100543 }
  133:
             verify = _closure1_slot4;
             options = _closure1_slot5;

@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot16 = oscar;
     entity = function(argFoo) { // Original name: getForumPostFirstMessage
-        _fun68572: for(var _fun68572_ip = 0; ; ) switch(_fun68572_ip) {
+        _fun68578: for(var _fun68578_ip = 0; ; ) switch(_fun68578_ip) {
  0:
             zulu = _closure1_slot12;
             mike = zulu.getMessage;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.loaded;
             mike = entity.firstMessage;
             entity = null;
-            if(!zulu) { _fun68572_ip = 41; continue _fun68572 }
+            if(!zulu) { _fun68578_ip = 41; continue _fun68578 }
  38:
             entity = mike;
  41:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot17 = entity;
     entity = function(argFoo) { // Original name: getForumPostUniqueReactionCount
-        _fun68573: for(var _fun68573_ip = 0; ; ) switch(_fun68573_ip) {
+        _fun68579: for(var _fun68579_ip = 0; ; ) switch(_fun68579_ip) {
  0:
             zulu = _closure1_slot17;
             mike = undefined;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == mike;
             entity = 0;
-            if(zulu) { _fun68573_ip = 39; continue _fun68573 }
+            if(zulu) { _fun68579_ip = 39; continue _fun68579 }
  28:
             mike = mike.reactions;
             entity = mike.length;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: getForumPostReactionCount
-        _fun68574: for(var _fun68574_ip = 0; ; ) switch(_fun68574_ip) {
+        _fun68580: for(var _fun68580_ip = 0; ; ) switch(_fun68580_ip) {
  0:
             zulu = _closure1_slot17;
             mike = undefined;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity == mike;
             report = 0;
             entity = 0;
-            if(zulu) { _fun68574_ip = 57; continue _fun68574 }
+            if(zulu) { _fun68580_ip = 57; continue _fun68580 }
  30:
             tango = mike.reactions;
             zulu = tango.reduce;
@@ -86,14 +86,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: getForumPostAppliedTagIds
-        _fun68576: for(var _fun68576_ip = 0; ; ) switch(_fun68576_ip) {
+        _fun68582: for(var _fun68582_ip = 0; ; ) switch(_fun68582_ip) {
  0:
             report = _closure1_slot7;
             tango = report.getChannel;
             mike = argFoo;
             tango = tango.bind(report)(mike);
             mike = null;
-            if(!(mike != tango)) { _fun68576_ip = 171; continue _fun68576 }
+            if(!(mike != tango)) { _fun68582_ip = 171; continue _fun68582 }
  31:
             oscar = _closure1_slot7;
             report = oscar.getChannel;
@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(entity);
             oscar = mike == report;
             options = undefined;
-            if(oscar) { _fun68576_ip = 66; continue _fun68576 }
+            if(oscar) { _fun68582_ip = 66; continue _fun68582 }
  60:
             options = report.availableTags;
  66:
-            if(!(mike != report)) { _fun68576_ip = 165; continue _fun68576 }
+            if(!(mike != report)) { _fun68582_ip = 165; continue _fun68582 }
  70:
-            if(!(mike != options)) { _fun68576_ip = 165; continue _fun68576 }
+            if(!(mike != options)) { _fun68582_ip = 165; continue _fun68582 }
  74:
             report = global;
             golf = report.Set;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.appliedTags;
             tango = mike == report;
             entity = undefined;
-            if(tango) { _fun68576_ip = 155; continue _fun68576 }
+            if(tango) { _fun68582_ip = 155; continue _fun68582 }
  138:
             tango = report.filter;
             zulu = function(argFoo) {
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity = tango.bind(report)(zulu);
  155:
-            if(!(mike == entity)) { _fun68576_ip = 163; continue _fun68576 }
+            if(!(mike == entity)) { _fun68582_ip = 163; continue _fun68582 }
  159:
             entity = new Array(0);
  163:
@@ -154,26 +154,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot20 = entity;
     report = function(argFoo) { // Original name: getForumPostAttachmentMimetypes
-        _fun68579: for(var _fun68579_ip = 0; ; ) switch(_fun68579_ip) {
+        _fun68585: for(var _fun68585_ip = 0; ; ) switch(_fun68585_ip) {
  0:
             zulu = _closure1_slot17;
             mike = undefined;
             entity = argFoo;
             entity = zulu.bind(mike)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun68579_ip = 50; continue _fun68579 }
+            if(!(mike != entity)) { _fun68585_ip = 50; continue _fun68585 }
  23:
             zulu = entity.attachments;
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun68580: for(var _fun68580_ip = 0; ; ) switch(_fun68580_ip) {
+                _fun68586: for(var _fun68586_ip = 0; ; ) switch(_fun68586_ip) {
  0:
                     entity = argFoo;
                     mike = entity.content_type;
                     entity = null;
                     zulu = entity != mike;
                     entity = 'unknown';
-                    if(!zulu) { _fun68580_ip = 25; continue _fun68580 }
+                    if(!zulu) { _fun68586_ip = 25; continue _fun68586 }
  22:
                     entity = mike;
  25:
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             entity = mike.bind(zulu)(entity);
-            _fun68579_ip = 54; continue _fun68579;
+            _fun68585_ip = 54; continue _fun68585;
  50:
             entity = new Array(0);
  54:
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot21 = report;
     tango = function(argFoo) { // Original name: collectForumAnalyticsMetadata
-        _fun68581: for(var _fun68581_ip = 0; ; ) switch(_fun68581_ip) {
+        _fun68587: for(var _fun68587_ip = 0; ; ) switch(_fun68587_ip) {
  0:
             entity = argFoo;
             zulu = entity.channelId;
@@ -201,17 +201,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = null;
             mike = options != zulu;
             entity = null;
-            if(!mike) { _fun68581_ip = 443; continue _fun68581 }
+            if(!mike) { _fun68587_ip = 443; continue _fun68587 }
  45:
             mike = zulu.isForumLikeChannel;
             mike = mike.bind(zulu)();
             entity = null;
-            if(!mike) { _fun68581_ip = 443; continue _fun68581 }
+            if(!mike) { _fun68587_ip = 443; continue _fun68587 }
  63:
             mike = {};
             oscar = zulu.topic;
             oscar = options != oscar;
-            if(!oscar) { _fun68581_ip = 105; continue _fun68581 }
+            if(!oscar) { _fun68587_ip = 105; continue _fun68587 }
  78:
             verify = zulu.topic;
             golf = verify.trim;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options == verify;
             oscar = undefined;
             golf = undefined;
-            if(offset) { _fun68581_ip = 135; continue _fun68581 }
+            if(offset) { _fun68587_ip = 135; continue _fun68587 }
  129:
             golf = verify.emojiId;
  135:
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu.defaultReactionEmoji;
             offset = options == verify;
             golf = undefined;
-            if(offset) { _fun68581_ip = 163; continue _fun68581 }
+            if(offset) { _fun68587_ip = 163; continue _fun68587 }
  157:
             golf = verify.emojiName;
  163:
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = zulu.availableTags;
             verify = options == yankee;
             golf = undefined;
-            if(verify) { _fun68581_ip = 204; continue _fun68581 }
+            if(verify) { _fun68587_ip = 204; continue _fun68587 }
  185:
             offset = yankee.map;
             verify = function(argFoo) {
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             golf = offset.bind(yankee)(verify);
  204:
-            if(!(options == golf)) { _fun68581_ip = 212; continue _fun68581 }
+            if(!(options == golf)) { _fun68587_ip = 212; continue _fun68587 }
  208:
             golf = new Array(0);
  212:
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu.id;
             verify = offset.bind(yankee)(verify);
             mike['forum_channel_sort_order'] = verify;
-            if(!(options == report)) { _fun68581_ip = 367; continue _fun68581 }
+            if(!(options == report)) { _fun68587_ip = 367; continue _fun68587 }
  353:
             verify = _closure1_slot16;
             options = zulu.id;
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     zulu['getForumChannelSessionId'] = oscar;
     oscar = function(argFoo) { // Original name: convertSortOrderToReadableString
-        _fun68583: for(var _fun68583_ip = 0; ; ) switch(_fun68583_ip) {
+        _fun68589: for(var _fun68589_ip = 0; ; ) switch(_fun68589_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.ThreadSortOrder;
             mike = mike.CREATION_DATE;
-            if(!(mike !== report)) { _fun68583_ip = 141; continue _fun68583 }
+            if(!(mike !== report)) { _fun68589_ip = 141; continue _fun68589 }
  44:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -397,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             mike = mike.ThreadSortOrder;
             mike = mike.LATEST_ACTIVITY;
-            if(!(mike !== report)) { _fun68583_ip = 129; continue _fun68583 }
+            if(!(mike !== report)) { _fun68589_ip = 129; continue _fun68589 }
  77:
             mike = global;
             tango = mike.Error;
@@ -434,14 +434,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getForumPostDraftNumAttachments'] = oscar;
     oscar = function(argFoo) { // Original name: getForumPostDraftAppliedTagIds
-        _fun68585: for(var _fun68585_ip = 0; ; ) switch(_fun68585_ip) {
+        _fun68591: for(var _fun68591_ip = 0; ; ) switch(_fun68591_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot7;
             mike = tango.getChannel;
             tango = mike.bind(tango)(oscar);
             mike = null;
-            if(!(mike != tango)) { _fun68585_ip = 232; continue _fun68585 }
+            if(!(mike != tango)) { _fun68591_ip = 232; continue _fun68591 }
  31:
             golf = _closure1_slot7;
             report = golf.getChannel;
@@ -449,24 +449,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(golf)(tango);
             options = mike == report;
             golf = undefined;
-            if(options) { _fun68585_ip = 66; continue _fun68585 }
+            if(options) { _fun68591_ip = 66; continue _fun68591 }
  60:
             golf = report.availableTags;
  66:
-            if(!(mike != report)) { _fun68585_ip = 226; continue _fun68585 }
+            if(!(mike != report)) { _fun68591_ip = 226; continue _fun68591 }
  73:
-            if(!(mike != golf)) { _fun68585_ip = 226; continue _fun68585 }
+            if(!(mike != golf)) { _fun68591_ip = 226; continue _fun68591 }
  80:
             report = _closure1_slot8;
             zulu = report.getThreadSettings;
             zulu = zulu.bind(report)(oscar);
             report = mike == zulu;
             tango = undefined;
-            if(report) { _fun68585_ip = 110; continue _fun68585 }
+            if(report) { _fun68591_ip = 110; continue _fun68591 }
  104:
             tango = zulu.appliedTags;
  110:
-            if(!(mike == tango)) { _fun68585_ip = 142; continue _fun68585 }
+            if(!(mike == tango)) { _fun68591_ip = 142; continue _fun68591 }
  114:
             mike = global;
             mike = mike.Set;
@@ -530,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getForumPostAttachmentMimetypes'] = report;
     zulu['collectForumAnalyticsMetadata'] = tango;
     mike = function(argFoo) { // Original name: collectForumPostAnalyticsMetadata
-        _fun68589: for(var _fun68589_ip = 0; ; ) switch(_fun68589_ip) {
+        _fun68595: for(var _fun68595_ip = 0; ; ) switch(_fun68595_ip) {
  0:
             entity = argFoo;
             romeo = entity.channelId;
@@ -539,11 +539,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.getChannel;
             tango = entity.bind(mike)(romeo);
             entity = null;
-            if(!(entity != tango)) { _fun68589_ip = 693; continue _fun68589 }
+            if(!(entity != tango)) { _fun68595_ip = 693; continue _fun68595 }
  40:
             mike = tango.isForumPost;
             mike = mike.bind(tango)();
-            if(!mike) { _fun68589_ip = 693; continue _fun68589 }
+            if(!mike) { _fun68595_ip = 693; continue _fun68595 }
  56:
             golf = _closure1_slot7;
             zulu = golf.getChannel;
@@ -551,12 +551,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu.bind(golf)(mike);
             zulu = entity != verify;
             mike = null;
-            if(!zulu) { _fun68589_ip = 691; continue _fun68589 }
+            if(!zulu) { _fun68595_ip = 691; continue _fun68595 }
  88:
             zulu = verify.isForumLikeChannel;
             zulu = zulu.bind(verify)();
             mike = null;
-            if(!zulu) { _fun68589_ip = 691; continue _fun68589 }
+            if(!zulu) { _fun68595_ip = 691; continue _fun68595 }
  106:
             zulu = {};
             options = _closure1_slot22;
@@ -581,7 +581,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = tango.threadMetadata;
             verify = entity == golf;
             options = undefined;
-            if(verify) { _fun68589_ip = 215; continue _fun68589 }
+            if(verify) { _fun68595_ip = 215; continue _fun68595 }
  209:
             options = golf.archived;
  215:
@@ -592,12 +592,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = tango.threadMetadata;
             verify = entity == options;
             golf = undefined;
-            if(verify) { _fun68589_ip = 253; continue _fun68589 }
+            if(verify) { _fun68595_ip = 253; continue _fun68595 }
  247:
             golf = options.locked;
  253:
             options = entity != golf;
-            if(!options) { _fun68589_ip = 263; continue _fun68589 }
+            if(!options) { _fun68595_ip = 263; continue _fun68595 }
  260:
             options = golf;
  263:
@@ -606,13 +606,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = tango.threadMetadata;
             verify = entity == options;
             golf = undefined;
-            if(verify) { _fun68589_ip = 295; continue _fun68589 }
+            if(verify) { _fun68595_ip = 295; continue _fun68595 }
  289:
             golf = options.autoArchiveDuration;
  295:
             verify = entity != golf;
             options = 0;
-            if(!verify) { _fun68589_ip = 307; continue _fun68589 }
+            if(!verify) { _fun68595_ip = 307; continue _fun68595 }
  304:
             options = golf;
  307:
@@ -666,7 +666,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.bind(offset)(golf);
             offset = entity == golf;
             options = undefined;
-            if(offset) { _fun68589_ip = 562; continue _fun68589 }
+            if(offset) { _fun68595_ip = 562; continue _fun68595 }
  556:
             options = golf.isNew;
  562:
@@ -681,7 +681,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.bind(verify)(golf);
             verify = entity == golf;
             options = undefined;
-            if(verify) { _fun68589_ip = 621; continue _fun68589 }
+            if(verify) { _fun68595_ip = 621; continue _fun68595 }
  615:
             options = golf.hasUnreads;
  621:

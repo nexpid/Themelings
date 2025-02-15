@@ -24,16 +24,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun33518: for(var _fun33518_ip = 0; ; ) switch(_fun33518_ip) {
+                _fun33525: for(var _fun33525_ip = 0; ; ) switch(_fun33525_ip) {
  0:
                     StartGenerator();
                     tango = argFoo;
                     report = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun33518_ip = 313; continue _fun33518 }
+                    if(mike) { _fun33525_ip = 314; continue _fun33525 }
  16:
                     offset = undefined;
-                    if(!(report === offset)) { _fun33518_ip = 24; continue _fun33518 }
+                    if(!(report === offset)) { _fun33525_ip = 24; continue _fun33525 }
  22:
                     report = true;
  24:
@@ -42,14 +42,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return offset;
  28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun33518_ip = 310; continue _fun33518 }
+                    if(zulu) { _fun33525_ip = 311; continue _fun33525 }
  37:
                     oscar = _closure1_slot6;
                     golf = oscar[tango];
                     oscar = null;
-                    if(!(oscar != golf)) { _fun33518_ip = 60; continue _fun33518 }
+                    if(!(oscar != golf)) { _fun33525_ip = 60; continue _fun33525 }
  54:
-                    if(report) { _fun33518_ip = 299; continue _fun33518 }
+                    if(report) { _fun33525_ip = 300; continue _fun33525 }
  60:
                     golf = _closure1_slot4;
                     report = golf.resolveAssetSource;
@@ -62,15 +62,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf.bind(offset)(report);
                     report = golf.isAndroid;
                     report = report.bind(golf)();
-                    if(report) { _fun33518_ip = 142; continue _fun33518 }
- 112:
+                    if(report) { _fun33525_ip = 143; continue _fun33525 }
+ 113:
                     report = _closure1_slot5;
                     options = report.DCDFileManager;
                     golf = options.readAsset;
                     report = 'utf8';
                     report = golf.bind(options)(yankee, report);
-                    _fun33518_ip = 209; continue _fun33518;
- 142:
+                    _fun33525_ip = 210; continue _fun33525;
+ 143:
                     options = _closure1_slot1;
                     golf = _closure1_slot2;
                     romeo = 33;
@@ -78,8 +78,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = options.bind(offset)(golf);
                     options = oscar == golf;
                     golf = undefined;
-                    if(options) { _fun33518_ip = 206; continue _fun33518 }
- 171:
+                    if(options) { _fun33525_ip = 207; continue _fun33525 }
+ 172:
                     verify = _closure1_slot1;
                     options = _closure1_slot2;
                     options = options[romeo];
@@ -87,20 +87,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = offset.readAsset;
                     options = 'utf8';
                     golf = verify.bind(offset)(yankee, options);
- 206:
+ 207:
                     report = golf;
- 209:
-                    if(!(oscar != report)) { _fun33518_ip = 263; continue _fun33518 }
- 213:
-                    SaveGenerator(address=217);
- 215:
+ 210:
+                    if(!(oscar != report)) { _fun33525_ip = 264; continue _fun33525 }
+ 214:
+                    SaveGenerator(address=218);
+ 216:
                     return report;
- 217:
+ 218:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golf) { _fun33518_ip = 260; continue _fun33518 }
- 223:
-                    if(!(oscar != report)) { _fun33518_ip = 257; continue _fun33518 }
- 227:
+                    if(golf) { _fun33525_ip = 261; continue _fun33525 }
+ 224:
+                    if(!(oscar != report)) { _fun33525_ip = 258; continue _fun33525 }
+ 228:
                     golf = global;
                     options = golf.JSON;
                     golf = options.parse;
@@ -108,11 +108,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = _closure1_slot6;
                     options[tango] = golf;
                     return golf;
- 257:
+ 258:
                     return oscar;
- 260:
+ 261:
                     return report;
- 263:
+ 264:
                     report = global;
                     golf = report.Error;
                     report = golf.prototype;
@@ -122,13 +122,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = new kilo[golf](backup, foxtrot);
                     report = report instanceof Object ? report : oscar;
                     throw report;
- 299:
+ 300:
                     zulu = _closure1_slot6;
                     zulu = zulu[tango];
                     return zulu;
- 310:
+ 311:
                     return mike;
- 313:
+ 314:
                     return entity;
                 }
             };

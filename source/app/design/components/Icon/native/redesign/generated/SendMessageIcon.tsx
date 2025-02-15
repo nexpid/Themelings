@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/SendMessageIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun56847: for(var _fun56847_ip = 0; ; ) switch(_fun56847_ip) {
+        _fun56850: for(var _fun56850_ip = 0; ; ) switch(_fun56850_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun56847_ip = 53; continue _fun56847 }
+            if(!(golf === tango)) { _fun56850_ip = 53; continue _fun56850 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

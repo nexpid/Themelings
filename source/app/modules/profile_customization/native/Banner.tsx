@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/profile_customization/native/Banner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ProfileBanner
-        _fun77399: for(var _fun77399_ip = 0; ; ) switch(_fun77399_ip) {
+        _fun77409: for(var _fun77409_ip = 0; ; ) switch(_fun77409_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -63,12 +63,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee = entity.backgroundColor;
             mike = entity.bannerSafeArea;
             tango = undefined;
-            if(!(mike === tango)) { _fun77399_ip = 33; continue _fun77399 }
+            if(!(mike === tango)) { _fun77409_ip = 33; continue _fun77409 }
  31:
             mike = 0;
  33:
             entity = entity.bannerHeight;
-            if(!(entity === tango)) { _fun77399_ip = 50; continue _fun77399 }
+            if(!(entity === tango)) { _fun77409_ip = 50; continue _fun77409 }
  43:
             entity = _closure1_slot4;
  50:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['style'] = report;
             report = null;
             golf = report != verify;
-            if(!golf) { _fun77399_ip = 181; continue _fun77399 }
+            if(!golf) { _fun77409_ip = 181; continue _fun77409 }
  151:
             options = _closure1_slot5;
             golf = _closure1_slot3;

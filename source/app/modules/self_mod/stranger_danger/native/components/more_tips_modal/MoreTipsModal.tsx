@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: MoreTipsModalScreen
-        _fun89613: for(var _fun89613_ip = 0; ; ) switch(_fun89613_ip) {
+        _fun89630: for(var _fun89630_ip = 0; ; ) switch(_fun89630_ip) {
  0:
             entity = argFoo;
             backup = entity.channelId;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = sizing;
             sizing = null;
             output = sizing != control;
-            if(!output) { _fun89613_ip = 220; continue _fun89613 }
+            if(!output) { _fun89630_ip = 220; continue _fun89630 }
  190:
             update = _closure1_slot8;
             echo = _closure1_slot4;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[2] = romeo;
         zulu[3] = yankee;
         entity = function() {
-            _fun89622: for(var _fun89622_ip = 0; ; ) switch(_fun89622_ip) {
+            _fun89639: for(var _fun89639_ip = 0; ; ) switch(_fun89639_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -391,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = null;
                 verify = golf == verify;
                 golf = undefined;
-                if(verify) { _fun89622_ip = 96; continue _fun89622 }
+                if(verify) { _fun89639_ip = 96; continue _fun89639 }
  87:
                 options = _closure2_slot3;
                 golf = options.type;

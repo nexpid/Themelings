@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike = mike.jsx;
     var _closure1_slot4 = mike;
     mike = {};
-    tango = function(argFoo) { // Original name: showAgeVerification
+    golf = function(argFoo) { // Original name: showAgeVerification
         entity = argFoo;
         var _closure2_slot0 = entity;
         tango = _closure1_slot1;
@@ -43,11 +43,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = _closure1_slot3;
         mike = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun92643: for(var _fun92643_ip = 0; ; ) switch(_fun92643_ip) {
+                _fun92674: for(var _fun92674_ip = 0; ; ) switch(_fun92674_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92643_ip = 88; continue _fun92643 }
+                    if(mike) { _fun92674_ip = 88; continue _fun92674 }
  9:
                     oscar = undefined;
                     var _closure4_slot0 = oscar;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun92643_ip = 85; continue _fun92643 }
+                    if(tango) { _fun92674_ip = 85; continue _fun92674 }
  66:
                     tango = mike.default;
                     _closure4_slot0 = tango;
@@ -93,7 +93,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = zulu.bind(tango)(mike);
         return entity;
     };
-    mike['showAgeVerification'] = tango;
+    mike['showAgeVerification'] = golf;
+    tango = function() { // Original name: showAgeVerificationModal
+        entity = undefined;
+        return entity;
+    };
+    mike['showAgeVerificationModal'] = tango;
     tango = 6;
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);

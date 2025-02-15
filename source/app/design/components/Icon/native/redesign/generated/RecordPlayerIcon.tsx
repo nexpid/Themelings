@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/RecordPlayerIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79745: for(var _fun79745_ip = 0; ; ) switch(_fun79745_ip) {
+        _fun79758: for(var _fun79758_ip = 0; ; ) switch(_fun79758_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79745_ip = 53; continue _fun79745 }
+            if(!(golf === tango)) { _fun79758_ip = 53; continue _fun79758 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

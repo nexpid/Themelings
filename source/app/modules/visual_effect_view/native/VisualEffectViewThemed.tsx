@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) { // Original name: VisualEffectViewThemed
-        _fun78530: for(var _fun78530_ip = 0; ; ) switch(_fun78530_ip) {
+        _fun78540: for(var _fun78540_ip = 0; ; ) switch(_fun78540_ip) {
  0:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.isThemeLight;
             mike = mike.bind(zulu)(report);
             report = 'dark';
-            if(!mike) { _fun78530_ip = 67; continue _fun78530 }
+            if(!mike) { _fun78540_ip = 67; continue _fun78540 }
  63:
             report = 'light';
  67:

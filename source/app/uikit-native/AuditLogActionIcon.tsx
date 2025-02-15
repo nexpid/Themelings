@@ -8,113 +8,113 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getTargetTypeIcon
-        _fun125523: for(var _fun125523_ip = 0; ; ) switch(_fun125523_ip) {
+        _fun125519: for(var _fun125519_ip = 0; ; ) switch(_fun125519_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             mike = _closure1_slot9;
             mike = mike.MESSAGE_DELETE;
-            if(!(tango !== mike)) { _fun125523_ip = 872; continue _fun125523 }
+            if(!(tango !== mike)) { _fun125519_ip = 872; continue _fun125519 }
  26:
             mike = _closure1_slot9;
             mike = mike.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(tango !== mike)) { _fun125523_ip = 848; continue _fun125523 }
+            if(!(tango !== mike)) { _fun125519_ip = 848; continue _fun125519 }
  43:
             mike = _closure1_slot9;
             mike = mike.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(tango !== mike)) { _fun125523_ip = 848; continue _fun125523 }
+            if(!(tango !== mike)) { _fun125519_ip = 848; continue _fun125519 }
  60:
             mike = _closure1_slot9;
             mike = mike.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(tango !== mike)) { _fun125523_ip = 848; continue _fun125523 }
+            if(!(tango !== mike)) { _fun125519_ip = 848; continue _fun125519 }
  77:
             mike = _closure1_slot9;
             mike = mike.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(tango !== mike)) { _fun125523_ip = 848; continue _fun125523 }
+            if(!(tango !== mike)) { _fun125519_ip = 848; continue _fun125519 }
  94:
             mike = _closure1_slot7;
             mike = mike.ALL;
-            if(!(mike !== zulu)) { _fun125523_ip = 824; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 824; continue _fun125519 }
  111:
             mike = _closure1_slot7;
             mike = mike.CHANNEL;
-            if(!(mike !== zulu)) { _fun125523_ip = 800; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 800; continue _fun125519 }
  128:
             mike = _closure1_slot7;
             mike = mike.CHANNEL_OVERWRITE;
-            if(!(mike !== zulu)) { _fun125523_ip = 800; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 800; continue _fun125519 }
  145:
             mike = _closure1_slot7;
             mike = mike.EMOJI;
-            if(!(mike !== zulu)) { _fun125523_ip = 776; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 776; continue _fun125519 }
  162:
             mike = _closure1_slot7;
             mike = mike.GUILD;
-            if(!(mike !== zulu)) { _fun125523_ip = 752; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 752; continue _fun125519 }
  179:
             mike = _closure1_slot7;
             mike = mike.INTEGRATION;
-            if(!(mike !== zulu)) { _fun125523_ip = 728; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 728; continue _fun125519 }
  196:
             mike = _closure1_slot7;
             mike = mike.INVITE;
-            if(!(mike !== zulu)) { _fun125523_ip = 704; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 704; continue _fun125519 }
  213:
             mike = _closure1_slot7;
             mike = mike.ROLE;
-            if(!(mike !== zulu)) { _fun125523_ip = 680; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 680; continue _fun125519 }
  230:
             mike = _closure1_slot7;
             mike = mike.USER;
-            if(!(mike !== zulu)) { _fun125523_ip = 656; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 656; continue _fun125519 }
  247:
             mike = _closure1_slot7;
             mike = mike.WEBHOOK;
-            if(!(mike !== zulu)) { _fun125523_ip = 632; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 632; continue _fun125519 }
  264:
             mike = _closure1_slot7;
             mike = mike.STAGE_INSTANCE;
-            if(!(mike !== zulu)) { _fun125523_ip = 608; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 608; continue _fun125519 }
  281:
             mike = _closure1_slot7;
             mike = mike.GUILD_SCHEDULED_EVENT;
-            if(!(mike !== zulu)) { _fun125523_ip = 584; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 584; continue _fun125519 }
  298:
             mike = _closure1_slot7;
             mike = mike.GUILD_SCHEDULED_EVENT_EXCEPTION;
-            if(!(mike !== zulu)) { _fun125523_ip = 584; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 584; continue _fun125519 }
  315:
             mike = _closure1_slot7;
             mike = mike.THREAD;
-            if(!(mike !== zulu)) { _fun125523_ip = 560; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 560; continue _fun125519 }
  332:
             mike = _closure1_slot7;
             mike = mike.STICKER;
-            if(!(mike !== zulu)) { _fun125523_ip = 536; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 536; continue _fun125519 }
  349:
             mike = _closure1_slot7;
             mike = mike.APPLICATION_COMMAND;
-            if(!(mike !== zulu)) { _fun125523_ip = 512; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 512; continue _fun125519 }
  366:
             mike = _closure1_slot7;
             mike = mike.AUTO_MODERATION_RULE;
-            if(!(mike !== zulu)) { _fun125523_ip = 488; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 488; continue _fun125519 }
  380:
             mike = _closure1_slot7;
             mike = mike.GUILD_SOUNDBOARD;
-            if(!(mike !== zulu)) { _fun125523_ip = 464; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 464; continue _fun125519 }
  394:
             mike = _closure1_slot7;
             mike = mike.ONBOARDING_PROMPT;
-            if(!(mike !== zulu)) { _fun125523_ip = 440; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 440; continue _fun125519 }
  408:
             mike = _closure1_slot7;
             mike = mike.GUILD_ONBOARDING;
-            if(!(mike !== zulu)) { _fun125523_ip = 440; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 440; continue _fun125519 }
  422:
             mike = _closure1_slot7;
             mike = mike.HOME_SETTINGS;
-            if(!(mike !== zulu)) { _fun125523_ip = 440; continue _fun125523 }
+            if(!(mike !== zulu)) { _fun125519_ip = 440; continue _fun125519 }
  436:
             mike = null;
             return mike;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: AuditIcons
-        _fun125524: for(var _fun125524_ip = 0; ; ) switch(_fun125524_ip) {
+        _fun125520: for(var _fun125520_ip = 0; ; ) switch(_fun125520_ip) {
  0:
             entity = argFoo;
             backup = entity.action;
@@ -285,30 +285,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(tango)(backup);
             entity = _closure1_slot8;
             entity = entity.CREATE;
-            if(!(entity !== mike)) { _fun125524_ip = 118; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 118; continue _fun125520 }
  44:
             entity = _closure1_slot8;
             entity = entity.UPDATE;
-            if(!(entity !== mike)) { _fun125524_ip = 96; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 96; continue _fun125520 }
  58:
             entity = _closure1_slot8;
             entity = entity.DELETE;
             verify = null;
-            if(!(entity === mike)) { _fun125524_ip = 138; continue _fun125524 }
+            if(!(entity === mike)) { _fun125520_ip = 138; continue _fun125520 }
  74:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 43;
             entity = zulu[entity];
             verify = mike.bind(tango)(entity);
-            _fun125524_ip = 138; continue _fun125524;
+            _fun125520_ip = 138; continue _fun125520;
  96:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 42;
             entity = zulu[entity];
             verify = mike.bind(tango)(entity);
-            _fun125524_ip = 138; continue _fun125524;
+            _fun125520_ip = 138; continue _fun125520;
  118:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -320,112 +320,112 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(tango)(backup);
             entity = _closure1_slot9;
             entity = entity.MESSAGE_DELETE;
-            if(!(backup !== entity)) { _fun125524_ip = 1142; continue _fun125524 }
+            if(!(backup !== entity)) { _fun125520_ip = 1142; continue _fun125520 }
  164:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(backup !== entity)) { _fun125524_ip = 1114; continue _fun125524 }
+            if(!(backup !== entity)) { _fun125520_ip = 1114; continue _fun125520 }
  181:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(backup !== entity)) { _fun125524_ip = 1114; continue _fun125524 }
+            if(!(backup !== entity)) { _fun125520_ip = 1114; continue _fun125520 }
  198:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(backup !== entity)) { _fun125524_ip = 1114; continue _fun125524 }
+            if(!(backup !== entity)) { _fun125520_ip = 1114; continue _fun125520 }
  215:
             entity = _closure1_slot9;
             entity = entity.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(backup !== entity)) { _fun125524_ip = 1114; continue _fun125524 }
+            if(!(backup !== entity)) { _fun125520_ip = 1114; continue _fun125520 }
  232:
             entity = _closure1_slot7;
             entity = entity.ALL;
-            if(!(entity !== mike)) { _fun125524_ip = 1086; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 1086; continue _fun125520 }
  249:
             entity = _closure1_slot7;
             entity = entity.CHANNEL;
-            if(!(entity !== mike)) { _fun125524_ip = 1058; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 1058; continue _fun125520 }
  266:
             entity = _closure1_slot7;
             entity = entity.CHANNEL_OVERWRITE;
-            if(!(entity !== mike)) { _fun125524_ip = 1058; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 1058; continue _fun125520 }
  283:
             entity = _closure1_slot7;
             entity = entity.EMOJI;
-            if(!(entity !== mike)) { _fun125524_ip = 1030; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 1030; continue _fun125520 }
  300:
             entity = _closure1_slot7;
             entity = entity.GUILD;
-            if(!(entity !== mike)) { _fun125524_ip = 999; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 999; continue _fun125520 }
  317:
             entity = _closure1_slot7;
             entity = entity.INTEGRATION;
-            if(!(entity !== mike)) { _fun125524_ip = 968; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 968; continue _fun125520 }
  334:
             entity = _closure1_slot7;
             entity = entity.INVITE;
-            if(!(entity !== mike)) { _fun125524_ip = 937; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 937; continue _fun125520 }
  351:
             entity = _closure1_slot7;
             entity = entity.ROLE;
-            if(!(entity !== mike)) { _fun125524_ip = 906; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 906; continue _fun125520 }
  368:
             entity = _closure1_slot7;
             entity = entity.USER;
-            if(!(entity !== mike)) { _fun125524_ip = 875; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 875; continue _fun125520 }
  385:
             entity = _closure1_slot7;
             entity = entity.WEBHOOK;
-            if(!(entity !== mike)) { _fun125524_ip = 844; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 844; continue _fun125520 }
  402:
             entity = _closure1_slot7;
             entity = entity.STAGE_INSTANCE;
-            if(!(entity !== mike)) { _fun125524_ip = 813; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 813; continue _fun125520 }
  419:
             entity = _closure1_slot7;
             entity = entity.GUILD_SCHEDULED_EVENT;
-            if(!(entity !== mike)) { _fun125524_ip = 782; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 782; continue _fun125520 }
  436:
             entity = _closure1_slot7;
             entity = entity.GUILD_SCHEDULED_EVENT_EXCEPTION;
-            if(!(entity !== mike)) { _fun125524_ip = 782; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 782; continue _fun125520 }
  453:
             entity = _closure1_slot7;
             entity = entity.THREAD;
-            if(!(entity !== mike)) { _fun125524_ip = 751; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 751; continue _fun125520 }
  470:
             entity = _closure1_slot7;
             entity = entity.STICKER;
-            if(!(entity !== mike)) { _fun125524_ip = 720; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 720; continue _fun125520 }
  487:
             entity = _closure1_slot7;
             entity = entity.APPLICATION_COMMAND;
-            if(!(entity !== mike)) { _fun125524_ip = 689; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 689; continue _fun125520 }
  504:
             entity = _closure1_slot7;
             entity = entity.AUTO_MODERATION_RULE;
-            if(!(entity !== mike)) { _fun125524_ip = 658; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 658; continue _fun125520 }
  521:
             entity = _closure1_slot7;
             entity = entity.GUILD_SOUNDBOARD;
-            if(!(entity !== mike)) { _fun125524_ip = 627; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 627; continue _fun125520 }
  535:
             entity = _closure1_slot7;
             entity = entity.ONBOARDING_PROMPT;
-            if(!(entity !== mike)) { _fun125524_ip = 596; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 596; continue _fun125520 }
  549:
             entity = _closure1_slot7;
             entity = entity.GUILD_ONBOARDING;
-            if(!(entity !== mike)) { _fun125524_ip = 596; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 596; continue _fun125520 }
  563:
             entity = _closure1_slot7;
             entity = entity.HOME_SETTINGS;
-            if(!(entity !== mike)) { _fun125524_ip = 596; continue _fun125524 }
+            if(!(entity !== mike)) { _fun125520_ip = 596; continue _fun125520 }
  577:
             entity = _closure1_slot7;
             entity = entity.GUILD_MEMBER_VERIFICATION;
             yankee = null;
-            if(!(entity === mike)) { _fun125524_ip = 1168; continue _fun125524 }
+            if(!(entity === mike)) { _fun125520_ip = 1168; continue _fun125520 }
  596:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -433,7 +433,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.GroupIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  627:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.SoundboardIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  658:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.WebhookIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  689:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.SlashBoxIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  720:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.StickerIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  751:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.ThreadIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  782:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.CalendarIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  813:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.StageIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  844:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -497,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.WebhookIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  875:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.GroupIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  906:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.FlagIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  937:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -521,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.LinkIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  968:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.PuzzlePieceIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  999:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.CircleInformationIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  1030:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -545,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.ReactionIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  1058:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -553,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.ChannelListIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  1086:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.ListBulletsIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  1114:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             yankee = entity.RobotIcon;
-            _fun125524_ip = 1168; continue _fun125524;
+            _fun125520_ip = 1168; continue _fun125520;
  1142:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -584,7 +584,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = offset.actionImageContainer;
             entity['style'] = report;
             report = null;
-            if(!(report == yankee)) { _fun125524_ip = 1245; continue _fun125524 }
+            if(!(report == yankee)) { _fun125520_ip = 1245; continue _fun125520 }
  1194:
             options = _closure1_slot10;
             golf = _closure1_slot4;
@@ -597,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(tango)(backup, romeo);
             report['source'] = romeo;
             golf = options.bind(tango)(golf, report);
-            _fun125524_ip = 1275; continue _fun125524;
+            _fun125520_ip = 1275; continue _fun125520;
  1245:
             options = _closure1_slot10;
             report = {};

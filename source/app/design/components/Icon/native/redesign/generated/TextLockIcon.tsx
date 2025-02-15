@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/TextLockIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun61977: for(var _fun61977_ip = 0; ; ) switch(_fun61977_ip) {
+        _fun61980: for(var _fun61980_ip = 0; ; ) switch(_fun61980_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun61977_ip = 53; continue _fun61977 }
+            if(!(golf === tango)) { _fun61980_ip = 53; continue _fun61980 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

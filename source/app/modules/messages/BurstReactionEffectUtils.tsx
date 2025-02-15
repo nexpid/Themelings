@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     verify = golf.bind(entity)(mike);
     oscar = verify.memoize;
     mike = function(argFoo) {
-        _fun44568: for(var _fun44568_ip = 0; ; ) switch(_fun44568_ip) {
+        _fun44576: for(var _fun44576_ip = 0; ; ) switch(_fun44576_ip) {
  0:
             oscar = argFoo;
             entity = oscar.length;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = 5;
             tango = 0;
             mike = 0;
-            if(!entity) { _fun44568_ip = 62; continue _fun44568 }
+            if(!entity) { _fun44576_ip = 62; continue _fun44576 }
  24:
             entity = oscar.charCodeAt;
             golf = entity.bind(oscar)(mike);
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike + 1;
             entity = oscar.length;
             zulu = tango;
-            if(mike < entity) { _fun44568_ip = 24; continue _fun44568 }
+            if(mike < entity) { _fun44576_ip = 24; continue _fun44576 }
  62:
             entity = global;
             mike = entity.Math;

@@ -53,33 +53,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure2_slot0;
             mike = options.forEach;
             entity = function(argFoo) {
-                _fun119401: for(var _fun119401_ip = 0; ; ) switch(_fun119401_ip) {
+                _fun119407: for(var _fun119407_ip = 0; ; ) switch(_fun119407_ip) {
  0:
                     entity = argFoo;
                     entity = entity.image;
                     mike = null;
-                    if(!(mike != entity)) { _fun119401_ip = 103; continue _fun119401 }
+                    if(!(mike != entity)) { _fun119407_ip = 103; continue _fun119407 }
  15:
                     zulu = entity.emoji;
-                    if(!(mike == zulu)) { _fun119401_ip = 85; continue _fun119401 }
+                    if(!(mike == zulu)) { _fun119407_ip = 85; continue _fun119407 }
  25:
                     zulu = entity.stickerId;
-                    if(!(mike == zulu)) { _fun119401_ip = 65; continue _fun119401 }
+                    if(!(mike == zulu)) { _fun119407_ip = 65; continue _fun119407 }
  35:
                     entity = entity.mediaAttachmentState;
-                    if(!(mike != entity)) { _fun119401_ip = 103; continue _fun119401 }
+                    if(!(mike != entity)) { _fun119407_ip = 103; continue _fun119407 }
  45:
                     zulu = _closure3_slot0;
                     entity = 1;
                     entity = zulu + entity;
                     _closure3_slot0 = entity;
-                    _fun119401_ip = 103; continue _fun119401;
+                    _fun119407_ip = 103; continue _fun119407;
  65:
                     zulu = _closure3_slot2;
                     entity = 1;
                     entity = zulu + entity;
                     _closure3_slot2 = entity;
-                    _fun119401_ip = 103; continue _fun119401;
+                    _fun119407_ip = 103; continue _fun119407;
  85:
                     zulu = _closure3_slot1;
                     entity = 1;

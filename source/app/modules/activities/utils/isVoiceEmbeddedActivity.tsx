@@ -38,16 +38,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/isVoiceEmbeddedActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isVoiceEmbeddedActivity
-        _fun54083: for(var _fun54083_ip = 0; ; ) switch(_fun54083_ip) {
+        _fun54090: for(var _fun54090_ip = 0; ; ) switch(_fun54090_ip) {
  0:
             tango = arguments[1];
             mike = arguments[2];
             verify = undefined;
-            if(!(tango === verify)) { _fun54083_ip = 19; continue _fun54083 }
+            if(!(tango === verify)) { _fun54090_ip = 19; continue _fun54090 }
  12:
             tango = _closure1_slot3;
  19:
-            if(!(mike === verify)) { _fun54083_ip = 30; continue _fun54083 }
+            if(!(mike === verify)) { _fun54090_ip = 30; continue _fun54090 }
  23:
             mike = _closure1_slot4;
  30:
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = entity.bind(mike)();
             oscar = null;
             entity = oscar != golf;
-            if(!entity) { _fun54083_ip = 194; continue _fun54083 }
+            if(!entity) { _fun54090_ip = 194; continue _fun54090 }
  65:
             zulu = golf.type;
             tango = _closure1_slot0;
@@ -69,17 +69,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.ChannelTypes;
             mike = mike.GUILD_VOICE;
             mike = zulu === mike;
-            if(mike) { _fun54083_ip = 191; continue _fun54083 }
+            if(mike) { _fun54090_ip = 191; continue _fun54090 }
  112:
             zulu = golf.isPrivate;
             zulu = zulu.bind(golf)();
             tango = !zulu;
             zulu = !tango;
-            if(tango) { _fun54083_ip = 188; continue _fun54083 }
+            if(tango) { _fun54090_ip = 188; continue _fun54090 }
  131:
             tango = golf.id;
             tango = tango === options;
-            if(tango) { _fun54083_ip = 185; continue _fun54083 }
+            if(tango) { _fun54090_ip = 185; continue _fun54090 }
  143:
             verify = _closure1_slot5;
             options = verify.getVoiceStatesForChannel;

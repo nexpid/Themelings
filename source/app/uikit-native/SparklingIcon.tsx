@@ -65,19 +65,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/SparklingIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun69265: for(var _fun69265_ip = 0; ; ) switch(_fun69265_ip) {
+        _fun69271: for(var _fun69271_ip = 0; ; ) switch(_fun69271_ip) {
  0:
             zulu = argFoo;
             golf = zulu.wrapperStyle;
             result = zulu.sparklePosition;
             tango = undefined;
-            if(!(result === tango)) { _fun69265_ip = 36; continue _fun69265 }
+            if(!(result === tango)) { _fun69271_ip = 36; continue _fun69271 }
  23:
             entity = _closure1_slot9;
             result = entity.sparklePosition;
  36:
             sizing = zulu.starPosition;
-            if(!(sizing === tango)) { _fun69265_ip = 59; continue _fun69265 }
+            if(!(sizing === tango)) { _fun69271_ip = 59; continue _fun69271 }
  46:
             entity = _closure1_slot9;
             sizing = entity.starPosition;
@@ -208,10 +208,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[5] = zulu;
             foxtrot[6] = output;
             romeo = function() {
-                _fun69268: for(var _fun69268_ip = 0; ; ) switch(_fun69268_ip) {
+                _fun69274: for(var _fun69274_ip = 0; ; ) switch(_fun69274_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun69268_ip = 612; continue _fun69268 }
+                    if(entity) { _fun69274_ip = 632; continue _fun69274 }
  13:
                     zulu = _closure1_slot5;
                     mike = zulu.loop;
@@ -316,13 +316,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.bind(zulu)(entity);
                     entity = mike.start;
                     entity = entity.bind(mike)();
- 612:
+ 632:
                     entity = undefined;
                     return entity;
                 }
             };
             romeo = backup.bind(kilo)(romeo, foxtrot);
-            if(report) { _fun69265_ip = 370; continue _fun69265 }
+            if(report) { _fun69271_ip = 370; continue _fun69271 }
  332:
             output = {};
             output['opacity'] = verify;
@@ -334,11 +334,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['scale'] = yankee;
             options[1] = verify;
             output['transform'] = options;
-            _fun69265_ip = 372; continue _fun69265;
+            _fun69271_ip = 372; continue _fun69271;
  370:
             output = {};
  372:
-            if(report) { _fun69265_ip = 413; continue _fun69265 }
+            if(report) { _fun69271_ip = 413; continue _fun69271 }
  375:
             foxtrot = {};
             foxtrot['opacity'] = mike;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['scale'] = zulu;
             entity[1] = mike;
             foxtrot['transform'] = entity;
-            _fun69265_ip = 415; continue _fun69265;
+            _fun69271_ip = 415; continue _fun69271;
  413:
             foxtrot = {};
  415:

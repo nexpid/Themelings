@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/notifications/FocusModeUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useFocusModeEnabled
-        _fun86628: for(var _fun86628_ip = 0; ; ) switch(_fun86628_ip) {
+        _fun86645: for(var _fun86645_ip = 0; ; ) switch(_fun86645_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.FocusModeExpiresAtSetting;
             mike = zulu.useSetting;
             report = mike.bind(zulu)();
-            if(!entity) { _fun86628_ip = 180; continue _fun86628 }
+            if(!entity) { _fun86645_ip = 180; continue _fun86645 }
  69:
             mike = '0';
             mike = mike === report;
-            if(mike) { _fun86628_ip = 177; continue _fun86628 }
+            if(mike) { _fun86645_ip = 177; continue _fun86645 }
  82:
             zulu = global;
             oscar = zulu.Date;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useFocusModeEnabled'] = tango;
     tango = function() { // Original name: getFocusModeEnabled
-        _fun86629: for(var _fun86629_ip = 0; ; ) switch(_fun86629_ip) {
+        _fun86646: for(var _fun86646_ip = 0; ; ) switch(_fun86646_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -107,12 +107,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.FocusModeExpiresAtSetting;
             mike = zulu.getSetting;
             tango = mike.bind(zulu)();
-            if(!entity) { _fun86629_ip = 75; continue _fun86629 }
+            if(!entity) { _fun86646_ip = 75; continue _fun86646 }
  69:
             mike = null;
             entity = mike != tango;
  75:
-            if(!entity) { _fun86629_ip = 173; continue _fun86629 }
+            if(!entity) { _fun86646_ip = 173; continue _fun86646 }
  78:
             mike = global;
             report = mike.Date;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getFocusModeEnabled'] = tango;
     mike = function(argFoo, argBar) { // Original name: setFocusMode
-        _fun86630: for(var _fun86630_ip = 0; ; ) switch(_fun86630_ip) {
+        _fun86647: for(var _fun86647_ip = 0; ; ) switch(_fun86647_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = mike.INFREQUENT_USER_ACTION;
             golf = 'notifications';
             mike = function(argFoo) {
-                _fun86631: for(var _fun86631_ip = 0; ; ) switch(_fun86631_ip) {
+                _fun86648: for(var _fun86648_ip = 0; ; ) switch(_fun86648_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure1_slot0;
@@ -186,13 +186,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['quietMode'] = mike;
                     oscar = '0';
                     mike = oscar;
-                    if(!tango) { _fun86631_ip = 136; continue _fun86631 }
+                    if(!tango) { _fun86648_ip = 136; continue _fun86648 }
  75:
                     golf = _closure2_slot1;
                     tango = null;
                     tango = tango != golf;
                     mike = oscar;
-                    if(!tango) { _fun86631_ip = 136; continue _fun86631 }
+                    if(!tango) { _fun86648_ip = 136; continue _fun86648 }
  91:
                     tango = global;
                     golf = tango.Date;
@@ -230,16 +230,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             mike = mike.DND;
             mike = golf === mike;
-            if(!mike) { _fun86630_ip = 218; continue _fun86630 }
+            if(!mike) { _fun86647_ip = 218; continue _fun86647 }
  215:
             mike = zulu;
  218:
-            if(!mike) { _fun86630_ip = 227; continue _fun86630 }
+            if(!mike) { _fun86647_ip = 227; continue _fun86647 }
  221:
             zulu = null;
             mike = zulu == tango;
  227:
-            if(!mike) { _fun86630_ip = 479; continue _fun86630 }
+            if(!mike) { _fun86647_ip = 479; continue _fun86647 }
  233:
             zulu = _closure1_slot1;
             offset = _closure1_slot2;

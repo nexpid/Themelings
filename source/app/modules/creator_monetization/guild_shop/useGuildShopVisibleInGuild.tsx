@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useGuildShopVisibleInGuild
-        _fun81451: for(var _fun81451_ip = 0; ; ) switch(_fun81451_ip) {
+        _fun81463: for(var _fun81463_ip = 0; ; ) switch(_fun81463_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = null;
             options = report == tango;
             zulu = undefined;
-            if(options) { _fun81451_ip = 50; continue _fun81451 }
+            if(options) { _fun81463_ip = 50; continue _fun81463 }
  45:
             zulu = tango.id;
  50:
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = golf.useRoleSubscriptionsVisibleInGuild;
             verify = report == tango;
             zulu = undefined;
-            if(verify) { _fun81451_ip = 102; continue _fun81451 }
+            if(verify) { _fun81463_ip = 102; continue _fun81463 }
  97:
             zulu = tango.id;
  102:
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.useShouldHideGuildPurchaseEntryPoints;
             report = report == tango;
             entity = undefined;
-            if(report) { _fun81451_ip = 171; continue _fun81451 }
+            if(report) { _fun81463_ip = 171; continue _fun81463 }
  166:
             entity = tango.id;
  171:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildShopVisibleInGuild'] = tango;
     mike = function(argFoo, argBar) { // Original name: isGuildShopVisibleInGuild
-        _fun81452: for(var _fun81452_ip = 0; ; ) switch(_fun81452_ip) {
+        _fun81464: for(var _fun81464_ip = 0; ; ) switch(_fun81464_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = null;
             tango = report == entity;
             oscar = undefined;
-            if(tango) { _fun81452_ip = 50; continue _fun81452 }
+            if(tango) { _fun81464_ip = 50; continue _fun81464 }
  45:
             oscar = entity.id;
  50:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.areRoleSubscriptionsVisibleInGuild;
             report = report == entity;
             mike = undefined;
-            if(report) { _fun81452_ip = 102; continue _fun81452 }
+            if(report) { _fun81464_ip = 102; continue _fun81464 }
  97:
             mike = entity.id;
  102:

@@ -24,20 +24,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getStreamURL.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getStreamURL
-        _fun80538: for(var _fun80538_ip = 0; ; ) switch(_fun80538_ip) {
+        _fun80550: for(var _fun80550_ip = 0; ; ) switch(_fun80550_ip) {
  0:
             entity = argFoo;
             zulu = null;
-            if(!(zulu != entity)) { _fun80538_ip = 43; continue _fun80538 }
+            if(!(zulu != entity)) { _fun80550_ip = 43; continue _fun80550 }
  9:
             mike = entity.url;
-            if(!(zulu != mike)) { _fun80538_ip = 43; continue _fun80538 }
+            if(!(zulu != mike)) { _fun80550_ip = 43; continue _fun80550 }
  18:
             tango = _closure1_slot0;
             zulu = tango.test;
             mike = entity.url;
             mike = zulu.bind(tango)(mike);
-            if(mike) { _fun80538_ip = 47; continue _fun80538 }
+            if(mike) { _fun80550_ip = 47; continue _fun80550 }
  43:
             mike = undefined;
             return mike;

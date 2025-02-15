@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         zulu = mike.bind(zulu)(tango);
         mike = zulu.map;
         entity = function(argFoo) {
-            _fun69321: for(var _fun69321_ip = 0; ; ) switch(_fun69321_ip) {
+            _fun69327: for(var _fun69327_ip = 0; ; ) switch(_fun69327_ip) {
  0:
                 offset = argFoo;
                 zulu = _closure1_slot0;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 yankee = golf != zulu;
                 report = '';
                 options = report;
-                if(!yankee) { _fun69321_ip = 86; continue _fun69321 }
+                if(!yankee) { _fun69327_ip = 86; continue _fun69327 }
  83:
                 options = zulu;
  86:
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu['isPreview'] = yankee;
                 zulu = options.bind(verify)(offset, zulu);
                 golf = golf != zulu;
-                if(!golf) { _fun69321_ip = 144; continue _fun69321 }
+                if(!golf) { _fun69327_ip = 144; continue _fun69327 }
  141:
                 report = zulu;
  144:
@@ -92,10 +92,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = golf[zulu];
                 zulu = report.bind(oscar)(zulu);
                 zulu = zulu.NativeLottieRenderMode;
-                if(tango) { _fun69321_ip = 211; continue _fun69321 }
+                if(tango) { _fun69327_ip = 211; continue _fun69327 }
  203:
                 tango = zulu.STILL;
-                _fun69321_ip = 217; continue _fun69321;
+                _fun69327_ip = 217; continue _fun69327;
  211:
                 tango = zulu.LOOP;
  217:

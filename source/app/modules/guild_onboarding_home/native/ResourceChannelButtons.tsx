@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding_home/native/ResourceChannelButtons.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ResourceChannelButtons
-        _fun100635: for(var _fun100635_ip = 0; ; ) switch(_fun100635_ip) {
+        _fun100644: for(var _fun100644_ip = 0; ; ) switch(_fun100644_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = mike[entity];
             var _closure2_slot3 = romeo;
             golf = null;
-            if(!(golf == verify)) { _fun100635_ip = 125; continue _fun100635 }
+            if(!(golf == verify)) { _fun100644_ip = 125; continue _fun100644 }
  113:
             mike = golf == romeo;
             entity = null;
-            if(mike) { _fun100635_ip = 445; continue _fun100635 }
+            if(mike) { _fun100644_ip = 445; continue _fun100644 }
  125:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = sizing.wrapper;
             mike['style'] = oscar;
             offset = golf != verify;
-            if(!offset) { _fun100635_ip = 262; continue _fun100635 }
+            if(!offset) { _fun100644_ip = 262; continue _fun100644 }
  152:
             backup = _closure1_slot5;
             output = _closure1_slot1;
@@ -177,11 +177,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = offset;
             verify = golf != verify;
-            if(!verify) { _fun100635_ip = 281; continue _fun100635 }
+            if(!verify) { _fun100644_ip = 281; continue _fun100644 }
  277:
             verify = golf != romeo;
  281:
-            if(!verify) { _fun100635_ip = 310; continue _fun100635 }
+            if(!verify) { _fun100644_ip = 310; continue _fun100644 }
  284:
             backup = _closure1_slot5;
             foxtrot = _closure1_slot4;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  310:
             oscar[1] = verify;
             golf = golf != romeo;
-            if(!golf) { _fun100635_ip = 431; continue _fun100635 }
+            if(!golf) { _fun100644_ip = 431; continue _fun100644 }
  321:
             offset = _closure1_slot5;
             backup = _closure1_slot1;

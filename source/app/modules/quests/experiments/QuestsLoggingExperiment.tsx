@@ -49,11 +49,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/quests/experiments/QuestsLoggingExperiment.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getQuestLogger
-        _fun67139: for(var _fun67139_ip = 0; ; ) switch(_fun67139_ip) {
+        _fun67145: for(var _fun67145_ip = 0; ; ) switch(_fun67145_ip) {
  0:
             entity = arguments[0];
             report = undefined;
-            if(!(entity === report)) { _fun67139_ip = 11; continue _fun67139 }
+            if(!(entity === report)) { _fun67145_ip = 11; continue _fun67145 }
  9:
             entity = {};
  11:
@@ -72,7 +72,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = null;
             oscar = entity == zulu;
             verify = undefined;
-            if(oscar) { _fun67139_ip = 95; continue _fun67139 }
+            if(oscar) { _fun67145_ip = 95; continue _fun67145 }
  78:
             zulu = zulu.config;
             zulu = zulu.messages;
@@ -81,7 +81,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = entity != offset;
             golf = '';
             oscar = golf;
-            if(!zulu) { _fun67139_ip = 131; continue _fun67139 }
+            if(!zulu) { _fun67145_ip = 131; continue _fun67145 }
  109:
             zulu = global;
             zulu = zulu.HermesInternal;
@@ -90,7 +90,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             oscar = options.bind(zulu)(offset);
  131:
             entity = entity != verify;
-            if(!entity) { _fun67139_ip = 165; continue _fun67139 }
+            if(!entity) { _fun67145_ip = 165; continue _fun67145 }
  138:
             entity = global;
             entity = entity.HermesInternal;
@@ -116,50 +116,50 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = new foxtrot[report](romeo, yankee);
             zulu = entity instanceof Object ? entity : zulu;
             entity = {};
-            if(tango) { _fun67139_ip = 247; continue _fun67139 }
+            if(tango) { _fun67145_ip = 247; continue _fun67145 }
  241:
             report = _closure1_slot2;
-            _fun67139_ip = 253; continue _fun67139;
+            _fun67145_ip = 253; continue _fun67145;
  247:
             report = zulu.log;
  253:
             entity['log'] = report;
-            if(tango) { _fun67139_ip = 267; continue _fun67139 }
+            if(tango) { _fun67145_ip = 267; continue _fun67145 }
  261:
             report = _closure1_slot2;
-            _fun67139_ip = 272; continue _fun67139;
+            _fun67145_ip = 272; continue _fun67145;
  267:
             report = zulu.warn;
  272:
             entity['warn'] = report;
-            if(tango) { _fun67139_ip = 285; continue _fun67139 }
+            if(tango) { _fun67145_ip = 285; continue _fun67145 }
  279:
             report = _closure1_slot2;
-            _fun67139_ip = 290; continue _fun67139;
+            _fun67145_ip = 290; continue _fun67145;
  285:
             report = zulu.error;
  290:
             entity['error'] = report;
-            if(tango) { _fun67139_ip = 303; continue _fun67139 }
+            if(tango) { _fun67145_ip = 303; continue _fun67145 }
  297:
             report = _closure1_slot2;
-            _fun67139_ip = 309; continue _fun67139;
+            _fun67145_ip = 309; continue _fun67145;
  303:
             report = zulu.info;
  309:
             entity['info'] = report;
-            if(tango) { _fun67139_ip = 323; continue _fun67139 }
+            if(tango) { _fun67145_ip = 323; continue _fun67145 }
  317:
             report = _closure1_slot2;
-            _fun67139_ip = 329; continue _fun67139;
+            _fun67145_ip = 329; continue _fun67145;
  323:
             report = zulu.verbose;
  329:
             entity['verbose'] = report;
-            if(tango) { _fun67139_ip = 343; continue _fun67139 }
+            if(tango) { _fun67145_ip = 343; continue _fun67145 }
  337:
             mike = _closure1_slot2;
-            _fun67139_ip = 349; continue _fun67139;
+            _fun67145_ip = 349; continue _fun67145;
  343:
             mike = zulu.trace;
  349:

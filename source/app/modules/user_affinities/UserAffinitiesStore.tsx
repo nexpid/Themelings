@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun61041: for(var _fun61041_ip = 0; ; ) switch(_fun61041_ip) {
+        _fun61044: for(var _fun61044_ip = 0; ; ) switch(_fun61044_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun61041_ip = 51; continue _fun61041 }
+            if(entity) { _fun61044_ip = 51; continue _fun61044 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun61041_ip = 92; continue _fun61041;
+            _fun61044_ip = 92; continue _fun61044;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun61041_ip = 71; continue _fun61041 }
+            if(oscar) { _fun61044_ip = 71; continue _fun61044 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun61042: for(var _fun61042_ip = 0; ; ) switch(_fun61042_ip) {
+        _fun61045: for(var _fun61045_ip = 0; ; ) switch(_fun61045_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun61042_ip = 74; continue _fun61042;
+            _fun61045_ip = 74; continue _fun61045;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun61050: for(var _fun61050_ip = 0; ; ) switch(_fun61050_ip) {
+            _fun61053: for(var _fun61053_ip = 0; ; ) switch(_fun61053_ip) {
  0:
                 mike = argFoo;
                 tango = this;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot5;
                 zulu = report.bind(tango)(zulu);
                 zulu = null;
-                if(!(zulu != mike)) { _fun61050_ip = 72; continue _fun61050 }
+                if(!(zulu != mike)) { _fun61053_ip = 72; continue _fun61053 }
  30:
                 report = _closure1_slot9;
                 zulu = mike.userAffinities;
@@ -267,11 +267,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'needsRefresh';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun61051: for(var _fun61051_ip = 0; ; ) switch(_fun61051_ip) {
+            _fun61054: for(var _fun61054_ip = 0; ; ) switch(_fun61054_ip) {
  0:
                 zulu = _closure1_slot6;
                 entity = !zulu;
-                if(zulu) { _fun61051_ip = 54; continue _fun61051 }
+                if(zulu) { _fun61054_ip = 54; continue _fun61054 }
  13:
                 zulu = global;
                 tango = zulu.Date;
@@ -368,14 +368,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     kilo = oscar.bind(entity)(mike);
     mike = {};
     options = function(argFoo) { // Original name: handleLoadUserAffinitiesSuccess
-        _fun61059: for(var _fun61059_ip = 0; ; ) switch(_fun61059_ip) {
+        _fun61062: for(var _fun61062_ip = 0; ; ) switch(_fun61062_ip) {
  0:
             entity = argFoo;
             entity = entity.affinities;
             mike = _closure1_slot9;
             entity = entity.user_affinities;
             tango = null;
-            if(!(tango == entity)) { _fun61059_ip = 32; continue _fun61059 }
+            if(!(tango == entity)) { _fun61062_ip = 32; continue _fun61062 }
  28:
             entity = new Array(0);
  32:

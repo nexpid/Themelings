@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/gateway/GatewayZstdUtils.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: supportsZstd
-        _fun106146: for(var _fun106146_ip = 0; ; ) switch(_fun106146_ip) {
+        _fun106138: for(var _fun106138_ip = 0; ; ) switch(_fun106138_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -38,23 +38,23 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
-            if(entity) { _fun106146_ip = 76; continue _fun106146 }
+            if(entity) { _fun106138_ip = 76; continue _fun106138 }
  37:
             entity = _closure1_slot3;
             report = entity.DCDCompressionManager;
             entity = null;
             oscar = entity == report;
             zulu = undefined;
-            if(oscar) { _fun106146_ip = 64; continue _fun106146 }
+            if(oscar) { _fun106138_ip = 64; continue _fun106138 }
  58:
             zulu = report.supportsZstd;
  64:
             entity = entity != zulu;
-            if(!entity) { _fun106146_ip = 74; continue _fun106146 }
+            if(!entity) { _fun106138_ip = 74; continue _fun106138 }
  71:
             entity = zulu;
  74:
-            _fun106146_ip = 112; continue _fun106146;
+            _fun106138_ip = 112; continue _fun106138;
  76:
             zulu = _closure1_slot1;
             report = _closure1_slot2;

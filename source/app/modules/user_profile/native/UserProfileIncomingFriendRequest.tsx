@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileIncomingFriendRequest.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileIncomingFriendRequest
-        _fun102633: for(var _fun102633_ip = 0; ; ) switch(_fun102633_ip) {
+        _fun102625: for(var _fun102625_ip = 0; ; ) switch(_fun102625_ip) {
  0:
             entity = argFoo;
             output = entity.user;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.guildId;
             backup = entity.isGameRelationship;
             report = undefined;
-            if(!(backup === report)) { _fun102633_ip = 34; continue _fun102633 }
+            if(!(backup === report)) { _fun102625_ip = 34; continue _fun102625 }
  32:
             backup = false;
  34:
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = backup;
             offset[2] = entity;
             options = function() {
-                _fun102634: for(var _fun102634_ip = 0; ; ) switch(_fun102634_ip) {
+                _fun102626: for(var _fun102626_ip = 0; ; ) switch(_fun102626_ip) {
  0:
                     mike = _closure2_slot3;
                     entity = undefined;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     report = _closure2_slot0;
                     tango = 'ACCEPT_FRIEND_REQUEST';
-                    if(!report) { _fun102634_ip = 38; continue _fun102634 }
+                    if(!report) { _fun102626_ip = 38; continue _fun102626 }
  32:
                     tango = 'ACCEPT_GAME_FRIEND_REQUEST';
  38:
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = backup;
             options[2] = entity;
             entity = function() {
-                _fun102635: for(var _fun102635_ip = 0; ; ) switch(_fun102635_ip) {
+                _fun102627: for(var _fun102627_ip = 0; ; ) switch(_fun102627_ip) {
  0:
                     mike = _closure2_slot4;
                     entity = undefined;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     report = _closure2_slot0;
                     tango = 'IGNORE_FRIEND_REQUEST';
-                    if(!report) { _fun102635_ip = 38; continue _fun102635 }
+                    if(!report) { _fun102627_ip = 38; continue _fun102627 }
  32:
                     tango = 'IGNORE_GAME_FRIEND_REQUEST';
  38:
@@ -182,11 +182,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useGetOrFetchApplication;
             update = entity.bind(mike)(zulu);
             _closure2_slot5 = update;
-            if(!control) { _fun102633_ip = 393; continue _fun102633 }
+            if(!control) { _fun102625_ip = 393; continue _fun102625 }
  381:
             mike = echo == update;
             entity = null;
-            if(mike) { _fun102633_ip = 870; continue _fun102633 }
+            if(mike) { _fun102625_ip = 870; continue _fun102625 }
  393:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = romeo.bind(report)(sizing);
             output = sizing.intl;
             sizing = output.format;
-            if(control) { _fun102633_ip = 560; continue _fun102633 }
+            if(control) { _fun102625_ip = 560; continue _fun102625 }
  519:
             oscar = oscar[kilo];
             oscar = romeo.bind(report)(oscar);
@@ -226,17 +226,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = sizing.bind(output)(romeo, oscar);
             yankee['children'] = oscar;
             oscar = yankee;
-            _fun102633_ip = 649; continue _fun102633;
+            _fun102625_ip = 649; continue _fun102625;
  560:
             control = _closure1_slot0;
             romeo = _closure1_slot2;
             romeo = romeo[kilo];
             romeo = control.bind(report)(romeo);
             romeo = romeo.t;
-            if(backup) { _fun102633_ip = 593; continue _fun102633 }
+            if(backup) { _fun102625_ip = 593; continue _fun102625 }
  585:
             backup = romeo.V15uUF;
-            _fun102633_ip = 599; continue _fun102633;
+            _fun102625_ip = 599; continue _fun102625;
  593:
             backup = romeo.syHjLC;
  599:
@@ -244,18 +244,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['username'] = source;
             source = echo == update;
             echo = undefined;
-            if(source) { _fun102633_ip = 619; continue _fun102633 }
+            if(source) { _fun102625_ip = 619; continue _fun102625 }
  614:
             echo = update.name;
  619:
             romeo['applicationName'] = echo;
             result = function() { // Original name: applicationIcon
-                _fun102636: for(var _fun102636_ip = 0; ; ) switch(_fun102636_ip) {
+                _fun102628: for(var _fun102628_ip = 0; ; ) switch(_fun102628_ip) {
  0:
                     zulu = _closure2_slot5;
                     entity = null;
                     zulu = entity == zulu;
-                    if(zulu) { _fun102636_ip = 164; continue _fun102636 }
+                    if(zulu) { _fun102628_ip = 164; continue _fun102628 }
  19:
                     oscar = _closure1_slot5;
                     yankee = _closure1_slot1;

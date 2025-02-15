@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = entity;
     var _closure1_slot3 = verify;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun56253: for(var _fun56253_ip = 0; ; ) switch(_fun56253_ip) {
+        _fun56256: for(var _fun56256_ip = 0; ; ) switch(_fun56256_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot7;
@@ -20,11 +20,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun56253_ip = 48; continue _fun56253 }
+            if(entity) { _fun56256_ip = 48; continue _fun56256 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun56253_ip = 86; continue _fun56253;
+            _fun56256_ip = 86; continue _fun56256;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun56254: for(var _fun56254_ip = 0; ; ) switch(_fun56254_ip) {
+        _fun56257: for(var _fun56257_ip = 0; ; ) switch(_fun56257_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun56254_ip = 74; continue _fun56254;
+            _fun56257_ip = 74; continue _fun56257;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = oscar.EventEmitter;
     oscar = function(argFoo) {
         tango = function(argFoo, argBar) { // Original name: Upload
-            _fun56258: for(var _fun56258_ip = 0; ; ) switch(_fun56258_ip) {
+            _fun56261: for(var _fun56261_ip = 0; ; ) switch(_fun56261_ip) {
  0:
                 zulu = argFoo;
                 oscar = this;
@@ -143,11 +143,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = zulu.platform;
                 report = _closure1_slot9;
                 report = report.REACT_NATIVE;
-                if(!(oscar !== report)) { _fun56258_ip = 241; continue _fun56258 }
+                if(!(oscar !== report)) { _fun56261_ip = 241; continue _fun56261 }
  67:
                 report = zulu.id;
                 oscar = null;
-                if(!(oscar == report)) { _fun56258_ip = 113; continue _fun56258 }
+                if(!(oscar == report)) { _fun56261_ip = 113; continue _fun56261 }
  78:
                 golf = _closure1_slot1;
                 options = _closure1_slot3;
@@ -182,14 +182,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu.file;
                 report = report.type;
                 entity['mimeType'] = report;
-                _fun56258_ip = 422; continue _fun56258;
+                _fun56261_ip = 425; continue _fun56261;
  241:
                 report = zulu.id;
                 oscar = null;
-                if(!(oscar == report)) { _fun56258_ip = 257; continue _fun56258 }
+                if(!(oscar == report)) { _fun56261_ip = 258; continue _fun56261 }
  252:
                 report = zulu.uri;
- 257:
+ 258:
                 entity['id'] = report;
                 oscar = _closure1_slot0;
                 golf = _closure1_slot3;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['waveform'] = report;
                 report = zulu.isRemix;
                 entity['isRemix'] = report;
- 422:
+ 425:
                 report = zulu.isThumbnail;
                 entity['isThumbnail'] = report;
                 zulu = zulu.clip;
@@ -281,13 +281,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['default'] = oscar;
     zulu['UploadPlatform'] = report;
     tango = function(argFoo) { // Original name: isResolvedUpload
-        _fun56261: for(var _fun56261_ip = 0; ; ) switch(_fun56261_ip) {
+        _fun56264: for(var _fun56264_ip = 0; ; ) switch(_fun56264_ip) {
  0:
             mike = argFoo;
             entity = mike.isVideo;
             zulu = undefined;
             entity = zulu !== entity;
-            if(!entity) { _fun56261_ip = 28; continue _fun56261 }
+            if(!entity) { _fun56264_ip = 28; continue _fun56264 }
  18:
             mike = mike.isImage;
             entity = zulu !== mike;

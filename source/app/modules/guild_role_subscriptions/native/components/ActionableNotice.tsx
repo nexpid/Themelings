@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/ActionableNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActionableNotice
-        _fun127351: for(var _fun127351_ip = 0; ; ) switch(_fun127351_ip) {
+        _fun127347: for(var _fun127347_ip = 0; ; ) switch(_fun127347_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.submitting;
             yankee = entity.disabled;
             tango = undefined;
-            if(!(yankee === tango)) { _fun127351_ip = 44; continue _fun127351 }
+            if(!(yankee === tango)) { _fun127347_ip = 44; continue _fun127347 }
  42:
             yankee = false;
  44:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.BRAND;
             oscar['color'] = foxtrot;
             oscar['onPress'] = romeo;
-            if(offset) { _fun127351_ip = 221; continue _fun127351 }
+            if(offset) { _fun127347_ip = 221; continue _fun127347 }
  218:
             offset = yankee;
  221:

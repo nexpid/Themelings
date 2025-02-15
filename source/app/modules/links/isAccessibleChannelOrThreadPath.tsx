@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun81281: for(var _fun81281_ip = 0; ; ) switch(_fun81281_ip) {
+                _fun81293: for(var _fun81293_ip = 0; ; ) switch(_fun81293_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun81281_ip = 749; continue _fun81281 }
+                    if(zulu) { _fun81293_ip = 749; continue _fun81293 }
  13:
                     oscar = mike.guildId;
                     foxtrot = mike.channelId;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return golf;
  29:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun81281_ip = 746; continue _fun81281 }
+                    if(zulu) { _fun81293_ip = 746; continue _fun81293 }
  38:
                     report = _closure1_slot7;
                     tango = report.getGuild;
@@ -37,52 +37,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.getRoles;
                     report = tango.bind(report)(oscar);
                     tango = null;
-                    if(!(tango == verify)) { _fun81281_ip = 87; continue _fun81281 }
+                    if(!(tango == verify)) { _fun81293_ip = 87; continue _fun81293 }
  76:
                     options = _closure1_slot9;
-                    if(!(oscar === options)) { _fun81281_ip = 741; continue _fun81281 }
+                    if(!(oscar === options)) { _fun81293_ip = 741; continue _fun81293 }
  87:
-                    if(!(tango != foxtrot)) { _fun81281_ip = 736; continue _fun81281 }
+                    if(!(tango != foxtrot)) { _fun81293_ip = 736; continue _fun81293 }
  94:
                     options = _closure1_slot10;
                     options = options.bind(golf)(foxtrot);
-                    if(!options) { _fun81281_ip = 293; continue _fun81281 }
+                    if(!options) { _fun81293_ip = 293; continue _fun81293 }
  109:
                     options = _closure1_slot11;
                     options = options.ROLE_SUBSCRIPTIONS;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 701; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 701; continue _fun81293 }
  126:
                     options = _closure1_slot11;
                     options = options.GUILD_SHOP;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 666; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 666; continue _fun81293 }
  143:
                     options = _closure1_slot11;
                     options = options.MEMBER_APPLICATIONS;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 632; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 632; continue _fun81293 }
  160:
                     options = _closure1_slot11;
                     options = options.GUILD_HOME;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 598; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 598; continue _fun81293 }
  177:
                     options = _closure1_slot11;
                     options = options.CHANNEL_BROWSER;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 567; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 567; continue _fun81293 }
  194:
                     options = _closure1_slot11;
                     options = options.GUILD_ONBOARDING;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 549; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 549; continue _fun81293 }
  211:
                     options = _closure1_slot11;
                     options = options.CUSTOMIZE_COMMUNITY;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 518; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 518; continue _fun81293 }
  228:
                     options = _closure1_slot11;
                     options = options.MEMBER_SAFETY;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 484; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 484; continue _fun81293 }
  245:
                     options = _closure1_slot11;
                     options = options.GUILD_BOOSTS;
-                    if(!(options !== foxtrot)) { _fun81281_ip = 443; continue _fun81281 }
+                    if(!(options !== foxtrot)) { _fun81293_ip = 443; continue _fun81293 }
  262:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = options.bind(offset)(foxtrot);
                     options = tango != offset;
                     romeo = offset;
-                    if(options) { _fun81281_ip = 384; continue _fun81281 }
+                    if(options) { _fun81293_ip = 384; continue _fun81293 }
  317:
                     yankee = _closure1_slot1;
                     backup = _closure1_slot2;
@@ -111,18 +111,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return offset;
  352:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(yankee) { _fun81281_ip = 381; continue _fun81281 }
+                    if(yankee) { _fun81293_ip = 381; continue _fun81293 }
  358:
                     backup = _closure1_slot6;
                     yankee = backup.getChannel;
                     yankee = yankee.bind(backup)(foxtrot);
                     options = tango != yankee;
                     romeo = yankee;
-                    _fun81281_ip = 384; continue _fun81281;
+                    _fun81293_ip = 384; continue _fun81293;
  381:
                     return offset;
  384:
-                    if(!options) { _fun81281_ip = 440; continue _fun81281 }
+                    if(!options) { _fun81293_ip = 440; continue _fun81293 }
  387:
                     yankee = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = yankee.bind(golf)(offset);
                     offset = yankee.canViewChannel;
                     offset = offset.bind(yankee)(romeo);
-                    if(offset) { _fun81281_ip = 437; continue _fun81281 }
+                    if(offset) { _fun81293_ip = 437; continue _fun81293 }
  421:
                     romeo = _closure1_slot4;
                     yankee = romeo.isChannelGatedAndVisible;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return options;
  518:
                     options = tango != verify;
-                    if(!options) { _fun81281_ip = 546; continue _fun81281 }
+                    if(!options) { _fun81293_ip = 546; continue _fun81293 }
  525:
                     yankee = verify.hasFeature;
                     offset = _closure1_slot8;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return options;
  567:
                     tango = tango != verify;
-                    if(!tango) { _fun81281_ip = 595; continue _fun81281 }
+                    if(!tango) { _fun81293_ip = 595; continue _fun81293 }
  574:
                     offset = verify.hasFeature;
                     options = _closure1_slot8;

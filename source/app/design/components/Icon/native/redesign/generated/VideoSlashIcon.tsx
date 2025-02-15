@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/VideoSlashIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun80840: for(var _fun80840_ip = 0; ; ) switch(_fun80840_ip) {
+        _fun80852: for(var _fun80852_ip = 0; ; ) switch(_fun80852_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun80840_ip = 53; continue _fun80840 }
+            if(!(golf === tango)) { _fun80852_ip = 53; continue _fun80852 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

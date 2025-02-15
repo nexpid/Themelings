@@ -26,28 +26,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/forwarding/getInlineForwardOptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getInlineForwardOptions
-        _fun100073: for(var _fun100073_ip = 0; ; ) switch(_fun100073_ip) {
+        _fun100082: for(var _fun100082_ip = 0; ; ) switch(_fun100082_ip) {
  0:
             entity = argFoo;
             mike = argBar;
             report = mike.targetKind;
             oscar = mike.embedIndex;
             mike = 'media';
-            if(!(mike !== report)) { _fun100073_ip = 78; continue _fun100073 }
+            if(!(mike !== report)) { _fun100082_ip = 78; continue _fun100082 }
  30:
             mike = 'embed';
-            if(!(mike === report)) { _fun100073_ip = 44; continue _fun100073 }
+            if(!(mike === report)) { _fun100082_ip = 44; continue _fun100082 }
  38:
             mike = null;
-            if(!(mike == oscar)) { _fun100073_ip = 58; continue _fun100073 }
+            if(!(mike == oscar)) { _fun100082_ip = 58; continue _fun100082 }
  44:
             tango = 'shortcut';
             mike = undefined;
-            if(!(tango === report)) { _fun100073_ip = 56; continue _fun100073 }
+            if(!(tango === report)) { _fun100082_ip = 56; continue _fun100082 }
  54:
             mike = {};
  56:
-            _fun100073_ip = 76; continue _fun100073;
+            _fun100082_ip = 76; continue _fun100082;
  58:
             tango = {};
             report = new Array(1);
@@ -61,21 +61,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = null;
             oscar = report == tango;
             golf = undefined;
-            if(oscar) { _fun100073_ip = 100; continue _fun100073 }
+            if(oscar) { _fun100082_ip = 100; continue _fun100082 }
  95:
             golf = tango.type;
  100:
             tango = _closure1_slot2;
             oscar = tango.FORWARD;
             tango = entity;
-            if(!(golf === oscar)) { _fun100073_ip = 149; continue _fun100073 }
+            if(!(golf === oscar)) { _fun100082_ip = 149; continue _fun100082 }
  120:
             oscar = entity.messageSnapshots;
             entity = 0;
             oscar = oscar[entity];
             golf = report == oscar;
             entity = undefined;
-            if(golf) { _fun100073_ip = 146; continue _fun100073 }
+            if(golf) { _fun100082_ip = 146; continue _fun100082 }
  141:
             entity = oscar.message;
  146:
@@ -84,12 +84,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             report = report == tango;
             mike = undefined;
-            if(report) { _fun100073_ip = 200; continue _fun100073 }
+            if(report) { _fun100082_ip = 200; continue _fun100082 }
  160:
             oscar = tango.attachments;
             report = oscar.filter;
             tango = function(argFoo) {
-                _fun100074: for(var _fun100074_ip = 0; ; ) switch(_fun100074_ip) {
+                _fun100083: for(var _fun100083_ip = 0; ; ) switch(_fun100083_ip) {
  0:
                     entity = argFoo;
                     tango = entity.filename;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     zulu = zulu.bind(report)(entity);
                     entity = zulu.isImageFile;
                     entity = entity.bind(zulu)(tango);
-                    if(entity) { _fun100074_ip = 76; continue _fun100074 }
+                    if(entity) { _fun100083_ip = 76; continue _fun100083 }
  48:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;

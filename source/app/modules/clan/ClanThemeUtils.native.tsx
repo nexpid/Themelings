@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: getAccessibleTextColor
-        _fun123753: for(var _fun123753_ip = 0; ; ) switch(_fun123753_ip) {
+        _fun123758: for(var _fun123758_ip = 0; ; ) switch(_fun123758_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = 1000;
             zulu = zulu / entity;
             entity = 128;
-            if(!(!(zulu < entity))) { _fun123753_ip = 166; continue _fun123753 }
+            if(!(!(zulu < entity))) { _fun123758_ip = 166; continue _fun123758 }
  133:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.bind(tango)(entity);
             entity = entity.unsafe_rawColors;
             entity = entity.PRIMARY_860;
-            _fun123753_ip = 197; continue _fun123753;
+            _fun123758_ip = 197; continue _fun123758;
  166:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -90,12 +90,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     tango = function(argFoo, argBar) { // Original name: getAccessibleClanColor
-        _fun123755: for(var _fun123755_ip = 0; ; ) switch(_fun123755_ip) {
+        _fun123760: for(var _fun123760_ip = 0; ; ) switch(_fun123760_ip) {
  0:
             tango = argFoo;
             options = arguments[2];
             zulu = undefined;
-            if(!(options === zulu)) { _fun123755_ip = 46; continue _fun123755 }
+            if(!(options === zulu)) { _fun123760_ip = 46; continue _fun123760 }
  12:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -106,10 +106,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = entity.Text;
  46:
             mike = null;
-            if(!(mike != tango)) { _fun123755_ip = 197; continue _fun123755 }
+            if(!(mike != tango)) { _fun123760_ip = 197; continue _fun123760 }
  55:
             entity = function(argFoo) { // Original name: getClosestBrandPreset
-                _fun123756: for(var _fun123756_ip = 0; ; ) switch(_fun123756_ip) {
+                _fun123761: for(var _fun123761_ip = 0; ; ) switch(_fun123761_ip) {
  0:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = zulu.bind(tango)(mike);
                     zulu = null;
                     zulu = zulu == mike;
-                    if(zulu) { _fun123756_ip = 127; continue _fun123756 }
+                    if(zulu) { _fun123761_ip = 127; continue _fun123761 }
  121:
                     entity = mike.primary;
  127:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity = entity.bind(zulu)(tango);
             verify = tango;
-            if(!(mike != entity)) { _fun123755_ip = 79; continue _fun123755 }
+            if(!(mike != entity)) { _fun123760_ip = 79; continue _fun123760 }
  76:
             verify = entity;
  79:
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['ratio'] = options;
             tango['saturationFactor'] = report;
             tango = oscar.bind(golf)(tango);
-            if(!(mike == tango)) { _fun123755_ip = 199; continue _fun123755 }
+            if(!(mike == tango)) { _fun123760_ip = 199; continue _fun123760 }
  197:
             return zulu;
  199:
@@ -245,14 +245,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getAccessibleTextColor'] = report;
     zulu['getAccessibleClanColor'] = tango;
     mike = function(argFoo, argBar) { // Original name: getClanPrimaryButtonStyles
-        _fun123760: for(var _fun123760_ip = 0; ; ) switch(_fun123760_ip) {
+        _fun123765: for(var _fun123765_ip = 0; ; ) switch(_fun123765_ip) {
  0:
             golf = argFoo;
             entity = null;
             mike = entity != golf;
             tango = undefined;
             zulu = undefined;
-            if(!mike) { _fun123760_ip = 83; continue _fun123760 }
+            if(!mike) { _fun123765_ip = 83; continue _fun123765 }
  16:
             oscar = _closure1_slot7;
             report = _closure1_slot0;
@@ -266,12 +266,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(tango)(golf, mike, report);
             mike = entity != report;
             zulu = undefined;
-            if(!mike) { _fun123760_ip = 83; continue _fun123760 }
+            if(!mike) { _fun123765_ip = 83; continue _fun123765 }
  74:
             mike = report.hex;
             zulu = mike.bind(report)();
  83:
-            if(!(entity == zulu)) { _fun123760_ip = 89; continue _fun123760 }
+            if(!(entity == zulu)) { _fun123765_ip = 89; continue _fun123765 }
  87:
             return tango;
  89:

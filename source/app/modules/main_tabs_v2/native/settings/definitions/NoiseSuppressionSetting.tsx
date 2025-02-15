@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     golf = function(argFoo) { // Original name: onNoiseSuppressionSettingValueChange
-        _fun97102: for(var _fun97102_ip = 0; ; ) switch(_fun97102_ip) {
+        _fun97112: for(var _fun97112_ip = 0; ; ) switch(_fun97112_ip) {
  0:
             tango = _closure1_slot0;
             entity = _closure1_slot1;
@@ -86,10 +86,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(entity)(mike);
             report = mike.NoiseSuppressionOpt;
             mike = argFoo;
-            if(mike) { _fun97102_ip = 68; continue _fun97102 }
+            if(mike) { _fun97112_ip = 68; continue _fun97112 }
  60:
             mike = report.NONE;
-            _fun97102_ip = 74; continue _fun97102;
+            _fun97112_ip = 74; continue _fun97112;
  68:
             mike = report.STANDARD;
  74:

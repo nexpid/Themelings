@@ -34,20 +34,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/useGuildsUserCanStartStageIn.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useChannelsUserCanStartStageIn
-        _fun76262: for(var _fun76262_ip = 0; ; ) switch(_fun76262_ip) {
+        _fun76272: for(var _fun76272_ip = 0; ; ) switch(_fun76272_ip) {
  0:
             zulu = argFoo;
             oscar = null;
             tango = oscar == zulu;
             report = undefined;
             mike = undefined;
-            if(tango) { _fun76262_ip = 23; continue _fun76262 }
+            if(tango) { _fun76272_ip = 23; continue _fun76272 }
  18:
             mike = zulu.id;
  23:
             zulu = oscar != mike;
             oscar = null;
-            if(!zulu) { _fun76262_ip = 35; continue _fun76262 }
+            if(!zulu) { _fun76272_ip = 35; continue _fun76272 }
  32:
             oscar = mike;
  35:
@@ -74,19 +74,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = mike[entity];
                 zulu = tango.reduce;
                 mike = function(argFoo, argBar) {
-                    _fun76264: for(var _fun76264_ip = 0; ; ) switch(_fun76264_ip) {
+                    _fun76274: for(var _fun76274_ip = 0; ; ) switch(_fun76274_ip) {
  0:
                         entity = argFoo;
                         mike = argBar;
                         zulu = mike.channel;
                         tango = zulu.isGuildStageVoice;
                         tango = tango.bind(zulu)();
-                        if(!tango) { _fun76264_ip = 116; continue _fun76264 }
+                        if(!tango) { _fun76274_ip = 116; continue _fun76274 }
  24:
                         golf = mike.channel;
                         oscar = _closure1_slot4;
                         verify = undefined;
-                        if(!(oscar === verify)) { _fun76264_ip = 46; continue _fun76264 }
+                        if(!(oscar === verify)) { _fun76274_ip = 46; continue _fun76274 }
  42:
                         oscar = _closure1_slot4;
  46:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = mike.bind(golf)();
                         report = !mike;
                         mike = !report;
-                        if(report) { _fun76264_ip = 103; continue _fun76264 }
+                        if(report) { _fun76274_ip = 103; continue _fun76274 }
  65:
                         report = oscar.can;
                         options = _closure1_slot0;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = tango.MODERATE_STAGE_CHANNEL_PERMISSIONS;
                         mike = report.bind(oscar)(tango, golf);
  103:
-                        if(!mike) { _fun76264_ip = 116; continue _fun76264 }
+                        if(!mike) { _fun76274_ip = 116; continue _fun76274 }
  106:
                         mike = entity.push;
                         mike = mike.bind(entity)(zulu);

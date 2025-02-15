@@ -7,12 +7,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo, argBar) { // Original name: getForumPostReadStates
-        _fun68702: for(var _fun68702_ip = 0; ; ) switch(_fun68702_ip) {
+        _fun68708: for(var _fun68708_ip = 0; ; ) switch(_fun68708_ip) {
  0:
             zulu = argFoo;
             tango = arguments[2];
             report = undefined;
-            if(!(tango === report)) { _fun68702_ip = 30; continue _fun68702 }
+            if(!(tango === report)) { _fun68708_ip = 30; continue _fun68708 }
  12:
             mike = _closure1_slot4;
             entity = new Array(1);
@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             mike = mike === report;
             report = undefined;
-            if(mike) { _fun68702_ip = 55; continue _fun68702 }
+            if(mike) { _fun68708_ip = 55; continue _fun68708 }
  52:
             report = tango;
  55:
-            if(mike) { _fun68702_ip = 61; continue _fun68702 }
+            if(mike) { _fun68708_ip = 61; continue _fun68708 }
  58:
             entity.return();
  61:
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.isArchivedThread;
             mike = mike.bind(zulu)();
             mike = !mike;
-            if(!mike) { _fun68702_ip = 106; continue _fun68702 }
+            if(!mike) { _fun68708_ip = 106; continue _fun68708 }
  79:
             options = report.isNewForumThread;
             golf = zulu.id;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.isArchivedThread;
             mike = mike.bind(zulu)();
             mike = !mike;
-            if(!mike) { _fun68702_ip = 143; continue _fun68702 }
+            if(!mike) { _fun68708_ip = 143; continue _fun68708 }
  127:
             tango = report.isForumPostUnread;
             zulu = zulu.id;
@@ -134,11 +134,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['getForumPostReadStates'] = tango;
     tango = function(argFoo) { // Original name: getForumPostReadStatesById
-        _fun68704: for(var _fun68704_ip = 0; ; ) switch(_fun68704_ip) {
+        _fun68710: for(var _fun68710_ip = 0; ; ) switch(_fun68710_ip) {
  0:
             mike = arguments[1];
             golf = undefined;
-            if(!(mike === golf)) { _fun68704_ip = 43; continue _fun68704 }
+            if(!(mike === golf)) { _fun68710_ip = 43; continue _fun68710 }
  9:
             tango = _closure1_slot2;
             entity = new Array(3);
@@ -156,37 +156,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             mike = mike === golf;
             zulu = undefined;
-            if(mike) { _fun68704_ip = 68; continue _fun68704 }
+            if(mike) { _fun68710_ip = 68; continue _fun68710 }
  65:
             zulu = tango;
  68:
             tango = undefined;
-            if(mike) { _fun68704_ip = 98; continue _fun68704 }
+            if(mike) { _fun68710_ip = 98; continue _fun68710 }
  73:
             options = report().value;
             oscar = entity;
             oscar = oscar === golf;
             tango = undefined;
             mike = oscar;
-            if(oscar) { _fun68704_ip = 98; continue _fun68704 }
+            if(oscar) { _fun68710_ip = 98; continue _fun68710 }
  92:
             tango = options;
             mike = oscar;
  98:
             options = undefined;
-            if(mike) { _fun68704_ip = 128; continue _fun68704 }
+            if(mike) { _fun68710_ip = 128; continue _fun68710 }
  103:
             oscar = report().value;
             report = entity;
             report = report === golf;
             options = undefined;
             mike = report;
-            if(report) { _fun68704_ip = 128; continue _fun68704 }
+            if(report) { _fun68710_ip = 128; continue _fun68710 }
  122:
             options = oscar;
             mike = report;
  128:
-            if(mike) { _fun68704_ip = 134; continue _fun68704 }
+            if(mike) { _fun68710_ip = 134; continue _fun68710 }
  131:
             entity.return();
  134:
@@ -194,14 +194,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             oscar = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity != oscar)) { _fun68704_ip = 201; continue _fun68704 }
+            if(!(entity != oscar)) { _fun68710_ip = 201; continue _fun68710 }
  153:
             zulu = tango.getGuild;
             mike = oscar.guild_id;
             report = zulu.bind(tango)(mike);
             zulu = entity == report;
             mike = null;
-            if(zulu) { _fun68704_ip = 199; continue _fun68704 }
+            if(zulu) { _fun68710_ip = 199; continue _fun68710 }
  177:
             tango = _closure1_slot8;
             zulu = new Array(1);
@@ -215,12 +215,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getForumPostReadStatesById'] = tango;
     tango = function(argFoo, argBar) { // Original name: getForumTimestampFormatter
-        _fun68705: for(var _fun68705_ip = 0; ; ) switch(_fun68705_ip) {
+        _fun68711: for(var _fun68711_ip = 0; ; ) switch(_fun68711_ip) {
  0:
             mike = _closure1_slot5;
             zulu = mike.POSTED_DURATION_AGO;
             mike = argBar;
-            if(!(mike === zulu)) { _fun68705_ip = 61; continue _fun68705 }
+            if(!(mike === zulu)) { _fun68711_ip = 61; continue _fun68711 }
  20:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.ThreadSortOrder;
             zulu = mike.CREATION_DATE;
             mike = argFoo;
-            if(!(mike !== zulu)) { _fun68705_ip = 65; continue _fun68705 }
+            if(!(mike !== zulu)) { _fun68711_ip = 65; continue _fun68711 }
  61:
             mike = undefined;
             return mike;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getForumTimestampFormatter'] = tango;
     tango = function(argFoo, argBar) { // Original name: canDisplayPostUnreadMessageCount
-        _fun68706: for(var _fun68706_ip = 0; ; ) switch(_fun68706_ip) {
+        _fun68712: for(var _fun68712_ip = 0; ; ) switch(_fun68712_ip) {
  0:
             report = argFoo;
             mike = argBar;
@@ -252,11 +252,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity;
             tango = undefined;
             mike = mike === tango;
-            if(mike) { _fun68706_ip = 28; continue _fun68706 }
+            if(mike) { _fun68712_ip = 28; continue _fun68712 }
  25:
             tango = zulu;
  28:
-            if(mike) { _fun68706_ip = 34; continue _fun68706 }
+            if(mike) { _fun68712_ip = 34; continue _fun68712 }
  31:
             entity.return();
  34:
@@ -268,11 +268,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(tango)(report);
             mike = null;
             mike = mike != tango;
-            if(!entity) { _fun68706_ip = 79; continue _fun68706 }
+            if(!entity) { _fun68712_ip = 79; continue _fun68712 }
  76:
             entity = zulu;
  79:
-            if(!entity) { _fun68706_ip = 85; continue _fun68706 }
+            if(!entity) { _fun68712_ip = 85; continue _fun68712 }
  82:
             entity = mike;
  85:
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['canDisplayPostUnreadMessageCount'] = tango;
     mike = function(argFoo) { // Original name: isForumPostPinned
-        _fun68707: for(var _fun68707_ip = 0; ; ) switch(_fun68707_ip) {
+        _fun68713: for(var _fun68713_ip = 0; ; ) switch(_fun68713_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getChannel;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             zulu = mike == tango;
             mike = undefined;
-            if(zulu) { _fun68707_ip = 52; continue _fun68707 }
+            if(zulu) { _fun68713_ip = 52; continue _fun68713 }
  31:
             zulu = tango.hasFlag;
             entity = _closure1_slot6;

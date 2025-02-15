@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/pomelo/PomeloModalActionCreators.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openPomeloModal
-        _fun94211: for(var _fun94211_ip = 0; ; ) switch(_fun94211_ip) {
+        _fun94236: for(var _fun94236_ip = 0; ; ) switch(_fun94236_ip) {
  0:
             oscar = arguments[1];
             options = undefined;
-            if(!(oscar === options)) { _fun94211_ip = 11; continue _fun94211 }
+            if(!(oscar === options)) { _fun94236_ip = 11; continue _fun94236 }
  9:
             oscar = false;
  11:

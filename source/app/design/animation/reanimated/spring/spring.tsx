@@ -25,12 +25,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: withSpring
-            _fun47894: for(var _fun47894_ip = 0; ; ) switch(_fun47894_ip) {
+            _fun47901: for(var _fun47901_ip = 0; ; ) switch(_fun47901_ip) {
  0:
                 oscar = argBar;
                 options = arguments[2];
                 report = undefined;
-                if(!(options === report)) { _fun47894_ip = 18; continue _fun47894 }
+                if(!(options === report)) { _fun47901_ip = 18; continue _fun47901 }
  12:
                 options = 'respect-motion-settings';
  18:
@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 tango = report.withSpring;
                 golf = 'animate-always';
                 zulu = oscar;
-                if(!(golf !== options)) { _fun47894_ip = 112; continue _fun47894 }
+                if(!(golf !== options)) { _fun47901_ip = 112; continue _fun47901 }
  92:
                 golf = 'respect-motion-settings';
-                if(!(golf === options)) { _fun47894_ip = 108; continue _fun47894 }
+                if(!(golf === options)) { _fun47901_ip = 108; continue _fun47901 }
  102:
                 zulu = oscar;
-                if(!mike) { _fun47894_ip = 112; continue _fun47894 }
+                if(!mike) { _fun47901_ip = 112; continue _fun47901 }
  108:
                 zulu = _closure1_slot2;
  112:

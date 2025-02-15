@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: resolveGuildTemplate
-        _fun65332: for(var _fun65332_ip = 0; ; ) switch(_fun65332_ip) {
+        _fun65337: for(var _fun65337_ip = 0; ; ) switch(_fun65337_ip) {
  0:
             oscar = argFoo;
             var _closure2_slot0 = oscar;
@@ -44,13 +44,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(golf)(mike);
             mike = report.isDispatching;
             mike = mike.bind(report)();
-            if(mike) { _fun65332_ip = 234; continue _fun65332 }
+            if(mike) { _fun65337_ip = 234; continue _fun65337 }
  50:
             report = _closure1_slot5;
             mike = report.get;
             mike = mike.bind(report)(oscar);
             report = null;
-            if(!(report == mike)) { _fun65332_ip = 232; continue _fun65332 }
+            if(!(report == mike)) { _fun65337_ip = 232; continue _fun65337 }
  73:
             report = _closure1_slot1;
             options = _closure1_slot2;

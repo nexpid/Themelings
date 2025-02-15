@@ -19,12 +19,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/replies/didReplyMention.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: didReplyMention
-        _fun69523: for(var _fun69523_ip = 0; ; ) switch(_fun69523_ip) {
+        _fun69529: for(var _fun69529_ip = 0; ; ) switch(_fun69529_ip) {
  0:
             mike = argBar;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun69523_ip = 48; continue _fun69523 }
+            if(!entity) { _fun69529_ip = 48; continue _fun69529 }
  12:
             zulu = argFoo;
             tango = zulu.mentions;

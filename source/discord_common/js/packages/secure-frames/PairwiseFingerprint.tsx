@@ -6,30 +6,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: compareArrays
-        _fun80955: for(var _fun80955_ip = 0; ; ) switch(_fun80955_ip) {
+        _fun80967: for(var _fun80967_ip = 0; ; ) switch(_fun80967_ip) {
  0:
             mike = argFoo;
             zulu = argBar;
             entity = mike.length;
             report = 0;
-            if(!(report < entity)) { _fun80955_ip = 67; continue _fun80955 }
+            if(!(report < entity)) { _fun80967_ip = 67; continue _fun80967 }
  17:
             entity = zulu.length;
             entity = report < entity;
             report = 0;
-            if(!entity) { _fun80955_ip = 67; continue _fun80955 }
+            if(!entity) { _fun80967_ip = 67; continue _fun80967 }
  31:
             oscar = mike[report];
             tango = zulu[report];
             entity = report;
-            if(!(oscar == tango)) { _fun80955_ip = 83; continue _fun80955 }
+            if(!(oscar == tango)) { _fun80967_ip = 83; continue _fun80967 }
  46:
             report = entity + 1;
             tango = mike.length;
-            if(!(report < tango)) { _fun80955_ip = 67; continue _fun80955 }
+            if(!(report < tango)) { _fun80967_ip = 67; continue _fun80967 }
  58:
             tango = zulu.length;
-            if(report < tango) { _fun80955_ip = 31; continue _fun80955 }
+            if(report < tango) { _fun80967_ip = 31; continue _fun80967 }
  67:
             report = mike.length;
             tango = zulu.length;
@@ -49,12 +49,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz, argCorge, argGrault) {
             entity = function* (argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: ?anon_0_
-                _fun80958: for(var _fun80958_ip = 0; ; ) switch(_fun80958_ip) {
+                _fun80970: for(var _fun80970_ip = 0; ; ) switch(_fun80970_ip) {
  0:
                     StartGenerator();
                     foxtrot = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun80958_ip = 325; continue _fun80958 }
+                    if(mike) { _fun80970_ip = 325; continue _fun80970 }
  13:
                     tango = global;
                     options = tango.Promise;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  120:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun80958_ip = 322; continue _fun80958 }
+                    if(report) { _fun80970_ip = 322; continue _fun80970 }
  129:
                     options = mike.sort;
                     report = _closure1_slot5;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return zulu;
  281:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun80958_ip = 319; continue _fun80958 }
+                    if(report) { _fun80970_ip = 319; continue _fun80970 }
  287:
                     tango = tango.Uint8Array;
                     report = tango.prototype;

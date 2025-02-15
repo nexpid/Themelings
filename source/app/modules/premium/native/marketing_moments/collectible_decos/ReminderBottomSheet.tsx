@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/ReminderBottomSheet.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/ReminderBottomSheet.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = argBar;
     yankee = argBaz;
@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/ReminderBottomSheet.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/ReminderBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ReminderBottomSheet
-        _fun120799: for(var _fun120799_ip = 0; ; ) switch(_fun120799_ip) {
+        _fun120805: for(var _fun120805_ip = 0; ; ) switch(_fun120805_ip) {
  0:
             entity = argFoo;
             entity = entity.markAsDismissed;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = control[echo];
             kilo = source.bind(tango)(kilo);
             kilo = kilo.t;
-            if(yankee) { _fun120799_ip = 493; continue _fun120799 }
+            if(yankee) { _fun120805_ip = 493; continue _fun120805 }
  454:
             sizing = kilo.DVBfMD;
             yankee = {};
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             update = update.Q1_2025_MARKETING_SUPPORT_URL;
             yankee['termsLink'] = update;
             yankee = output.bind(result)(sizing, yankee);
-            _fun120799_ip = 530; continue _fun120799;
+            _fun120805_ip = 530; continue _fun120805;
  493:
             sizing = kilo.KCvBj4;
             kilo = {};

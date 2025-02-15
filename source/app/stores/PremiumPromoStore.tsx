@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun107269: for(var _fun107269_ip = 0; ; ) switch(_fun107269_ip) {
+        _fun107262: for(var _fun107262_ip = 0; ; ) switch(_fun107262_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -17,16 +17,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot12;
             entity = entity.bind(zulu)();
-            if(entity) { _fun107269_ip = 51; continue _fun107269 }
+            if(entity) { _fun107262_ip = 51; continue _fun107262 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun107269_ip = 92; continue _fun107269;
+            _fun107262_ip = 92; continue _fun107262;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun107269_ip = 71; continue _fun107269 }
+            if(oscar) { _fun107262_ip = 71; continue _fun107262 }
  67:
             oscar = new Array(0);
  71:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun107270: for(var _fun107270_ip = 0; ; ) switch(_fun107270_ip) {
+        _fun107263: for(var _fun107263_ip = 0; ; ) switch(_fun107263_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun107270_ip = 76; continue _fun107270;
+            _fun107263_ip = 76; continue _fun107263;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     yankee = oscar.bind(entity)(mike);
     mike = {};
     tango = function() { // Original name: updatePremiumPromoEligibility
-        _fun107277: for(var _fun107277_ip = 0; ; ) switch(_fun107277_ip) {
+        _fun107270: for(var _fun107270_ip = 0; ; ) switch(_fun107270_ip) {
  0:
             mike = _closure1_slot10;
             tango = _closure1_slot8;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.length;
             entity = 10;
             entity = tango >= entity;
-            if(!entity) { _fun107277_ip = 112; continue _fun107277 }
+            if(!entity) { _fun107270_ip = 112; continue _fun107270 }
  36:
             oscar = _closure1_slot0;
             report = _closure1_slot1;

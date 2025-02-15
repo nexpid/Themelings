@@ -31,14 +31,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun96550: for(var _fun96550_ip = 0; ; ) switch(_fun96550_ip) {
+        _fun96560: for(var _fun96560_ip = 0; ; ) switch(_fun96560_ip) {
  0:
             entity = argFoo;
             mike = entity.quest;
             var _closure2_slot0 = mike;
             options = entity.showShareLink;
             tango = undefined;
-            if(!(options === tango)) { _fun96550_ip = 29; continue _fun96550 }
+            if(!(options === tango)) { _fun96560_ip = 29; continue _fun96560 }
  27:
             options = false;
  29:
@@ -181,10 +181,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.CircleQuestionIcon;
             backup['IconComponent'] = kilo;
             golf[1] = backup;
-            if(options) { _fun96550_ip = 405; continue _fun96550 }
+            if(options) { _fun96560_ip = 405; continue _fun96560 }
  399:
             options = new Array(0);
-            _fun96550_ip = 508; continue _fun96550;
+            _fun96560_ip = 508; continue _fun96560;
  405:
             backup = {};
             kilo = _closure1_slot0;
@@ -283,10 +283,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(tango)(options);
             options = yankee.isConsoleQuest;
             options = options.bind(yankee)(mike);
-            if(options) { _fun96550_ip = 652; continue _fun96550 }
+            if(options) { _fun96560_ip = 652; continue _fun96560 }
  646:
             options = new Array(0);
-            _fun96550_ip = 713; continue _fun96550;
+            _fun96560_ip = 713; continue _fun96560;
  652:
             romeo = {};
             yankee = 'Start Console Heartbeat';
@@ -339,13 +339,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             verify = verify == oscar;
             offset = undefined;
-            if(verify) { _fun96550_ip = 758; continue _fun96550 }
+            if(verify) { _fun96560_ip = 758; continue _fun96560 }
  753:
             offset = oscar.id;
  758:
             verify = mike.id;
             oscar = undefined;
-            if(!(offset === verify)) { _fun96550_ip = 795; continue _fun96550 }
+            if(!(offset === verify)) { _fun96560_ip = 795; continue _fun96560 }
  769:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(zulu)(options);
             mike = mike.preview;
             oscar = golf;
-            if(!mike) { _fun96550_ip = 838; continue _fun96550 }
+            if(!mike) { _fun96560_ip = 838; continue _fun96560 }
  823:
             mike = new Array(2);
             mike[0] = golf;

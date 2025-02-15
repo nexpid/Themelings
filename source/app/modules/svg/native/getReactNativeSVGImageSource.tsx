@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/svg/native/getReactNativeSVGImageSource.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getReactNativeSVGImageSource
-        _fun62475: for(var _fun62475_ip = 0; ; ) switch(_fun62475_ip) {
+        _fun62480: for(var _fun62480_ip = 0; ; ) switch(_fun62480_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot0;
@@ -33,14 +33,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango.isAndroid;
             tango = entity.bind(tango)();
             entity = zulu;
-            if(!tango) { _fun62475_ip = 70; continue _fun62475 }
+            if(!tango) { _fun62480_ip = 70; continue _fun62480 }
  42:
             tango = global;
             report = tango.Array;
             tango = report.isArray;
             tango = tango.bind(report)(zulu);
             entity = zulu;
-            if(!tango) { _fun62475_ip = 70; continue _fun62475 }
+            if(!tango) { _fun62480_ip = 70; continue _fun62480 }
  66:
             entity = zulu[mike];
  70:

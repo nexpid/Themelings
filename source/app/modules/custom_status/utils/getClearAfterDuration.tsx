@@ -27,12 +27,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/getClearAfterDuration.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getClearAfterDuration
-        _fun77842: for(var _fun77842_ip = 0; ; ) switch(_fun77842_ip) {
+        _fun77852: for(var _fun77852_ip = 0; ; ) switch(_fun77852_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot2;
             zulu = zulu.TODAY;
-            if(!(entity !== zulu)) { _fun77842_ip = 67; continue _fun77842 }
+            if(!(entity !== zulu)) { _fun77852_ip = 67; continue _fun77852 }
  20:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;

@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot11 = tango;
     tango = function(argFoo) { // Original name: SuggestionRow
-        _fun94923: for(var _fun94923_ip = 0; ; ) switch(_fun94923_ip) {
+        _fun94935: for(var _fun94935_ip = 0; ; ) switch(_fun94935_ip) {
  0:
             entity = argFoo;
             backup = entity.start;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot == mike;
             tango = undefined;
             entity = undefined;
-            if(zulu) { _fun94923_ip = 71; continue _fun94923 }
+            if(zulu) { _fun94935_ip = 71; continue _fun94935 }
  66:
             entity = mike.name;
  71:
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = result.suggested_user;
             kilo = zulu.bind(oscar)(mike);
             oscar = kilo;
-            if(!(foxtrot != entity)) { _fun94923_ip = 132; continue _fun94923 }
+            if(!(foxtrot != entity)) { _fun94935_ip = 132; continue _fun94935 }
  118:
             mike = '';
             oscar = kilo;
-            if(!(mike !== entity)) { _fun94923_ip = 132; continue _fun94923 }
+            if(!(mike !== entity)) { _fun94935_ip = 132; continue _fun94935 }
  129:
             oscar = entity;
  132:
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = result.mutual_friends_count;
             offset = foxtrot != offset;
-            if(!offset) { _fun94923_ip = 457; continue _fun94923 }
+            if(!offset) { _fun94935_ip = 457; continue _fun94935 }
  347:
             foxtrot = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -477,14 +477,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[4] = oscar;
         mike[5] = entity;
         entity = function(argFoo) {
-            _fun94931: for(var _fun94931_ip = 0; ; ) switch(_fun94931_ip) {
+            _fun94943: for(var _fun94943_ip = 0; ; ) switch(_fun94943_ip) {
  0:
                 mike = argFoo;
                 entity = mike.item;
                 verify = mike.index;
                 zulu = entity.type;
                 mike = 'header';
-                if(!(mike !== zulu)) { _fun94931_ip = 246; continue _fun94931 }
+                if(!(mike !== zulu)) { _fun94943_ip = 246; continue _fun94943 }
  29:
                 mike = entity.props;
                 foxtrot = mike.friendSuggestion;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.length;
                 verify = verify < golf;
                 golf = null;
-                if(!verify) { _fun94931_ip = 229; continue _fun94931 }
+                if(!verify) { _fun94943_ip = 229; continue _fun94943 }
  170:
                 offset = _closure1_slot8;
                 verify = _closure1_slot0;

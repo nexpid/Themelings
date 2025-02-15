@@ -24,7 +24,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/self_mod/SelfModUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun58504: for(var _fun58504_ip = 0; ; ) switch(_fun58504_ip) {
+        _fun58507: for(var _fun58507_ip = 0; ; ) switch(_fun58507_ip) {
  0:
             mike = _closure1_slot0;
             entity = mike.getCurrentUser;
@@ -32,7 +32,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun58504_ip = 33; continue _fun58504 }
+            if(zulu) { _fun58507_ip = 33; continue _fun58507 }
  27:
             mike = entity.nsfwAllowed;
  33:

@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot7;
             zulu = mike.ALERT;
             mike = function() {
-                _fun111888: for(var _fun111888_ip = 0; ; ) switch(_fun111888_ip) {
+                _fun111894: for(var _fun111894_ip = 0; ; ) switch(_fun111894_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun111888_ip = 23; continue _fun111888 }
+                    if(!(mike != zulu)) { _fun111894_ip = 23; continue _fun111894 }
  13:
                     mike = _closure2_slot0;
                     entity = undefined;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun111889: for(var _fun111889_ip = 0; ; ) switch(_fun111889_ip) {
+            _fun111895: for(var _fun111895_ip = 0; ; ) switch(_fun111895_ip) {
  0:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.bind(zulu)();
                 tango = _closure2_slot0;
                 zulu = null;
-                if(!(zulu != tango)) { _fun111889_ip = 161; continue _fun111889 }
+                if(!(zulu != tango)) { _fun111895_ip = 161; continue _fun111895 }
  150:
                 zulu = _closure2_slot0;
                 mike = true;

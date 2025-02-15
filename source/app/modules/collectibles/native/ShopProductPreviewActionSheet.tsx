@@ -75,14 +75,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/ShopProductPreviewActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShopProductPreviewActionSheet
-        _fun99633: for(var _fun99633_ip = 0; ; ) switch(_fun99633_ip) {
+        _fun99643: for(var _fun99643_ip = 0; ; ) switch(_fun99643_ip) {
  0:
             entity = argFoo;
             control = entity.product;
             var _closure2_slot0 = control;
             mike = entity.analyticsLocations;
             tango = undefined;
-            if(!(mike === tango)) { _fun99633_ip = 31; continue _fun99633 }
+            if(!(mike === tango)) { _fun99643_ip = 31; continue _fun99643 }
  27:
             mike = new Array(0);
  31:
@@ -227,14 +227,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[0] = config;
             foxtrot[1] = options;
             options = function(argFoo) {
-                _fun99637: for(var _fun99637_ip = 0; ; ) switch(_fun99637_ip) {
+                _fun99647: for(var _fun99647_ip = 0; ; ) switch(_fun99647_ip) {
  0:
                     entity = argFoo;
                     mike = entity.nativeEvent;
                     mike = mike.layout;
                     tango = mike.height;
                     zulu = _closure2_slot3;
-                    if(!(tango !== zulu)) { _fun99637_ip = 57; continue _fun99637 }
+                    if(!(tango !== zulu)) { _fun99647_ip = 57; continue _fun99647 }
  30:
                     zulu = _closure2_slot4;
                     entity = entity.nativeEvent;
@@ -255,13 +255,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.bind(tango)(zulu);
             zulu = zulu.CollectiblesItemType;
             zulu = zulu.BUNDLE;
-            if(!(options === zulu)) { _fun99633_ip = 535; continue _fun99633 }
+            if(!(options === zulu)) { _fun99643_ip = 535; continue _fun99643 }
  413:
             zulu = control.bundledProducts;
-            if(!(update == zulu)) { _fun99633_ip = 429; continue _fun99633 }
+            if(!(update == zulu)) { _fun99643_ip = 429; continue _fun99643 }
  423:
             options = new Array(0);
-            _fun99633_ip = 435; continue _fun99633;
+            _fun99643_ip = 435; continue _fun99643;
  429:
             options = control.bundledProducts;
  435:
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = control;
             mike[1] = entity;
             entity = function() {
-                _fun99639: for(var _fun99639_ip = 0; ; ) switch(_fun99639_ip) {
+                _fun99649: for(var _fun99649_ip = 0; ; ) switch(_fun99649_ip) {
  0:
                     entity = _closure2_slot0;
                     tango = entity.type;
@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = report.bind(entity)(zulu);
                     zulu = zulu.CollectiblesItemType;
                     zulu = zulu.BUNDLE;
-                    if(!(tango === zulu)) { _fun99639_ip = 64; continue _fun99639 }
+                    if(!(tango === zulu)) { _fun99649_ip = 64; continue _fun99649 }
  53:
                     zulu = _closure2_slot2;
                     mike = false;
@@ -482,10 +482,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = yankee.bind(tango)(backup, kilo);
             kilo = new Array(3);
             kilo[0] = sequence;
-            if(result) { _fun99633_ip = 1139; continue _fun99633 }
+            if(result) { _fun99643_ip = 1139; continue _fun99643 }
  1094:
             sizing = !sizing;
-            if(!sizing) { _fun99633_ip = 1137; continue _fun99633 }
+            if(!sizing) { _fun99643_ip = 1137; continue _fun99643 }
  1100:
             config = _closure1_slot8;
             sequence = _closure1_slot1;
@@ -497,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['product'] = control;
             sizing = config.bind(tango)(sequence, result);
  1137:
-            _fun99633_ip = 1236; continue _fun99633;
+            _fun99643_ip = 1236; continue _fun99643;
  1139:
             sequence = _closure1_slot8;
             papa = _closure1_slot0;

@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/guild_settings/GuildRoleSubscriptionTierArchiveOrDeleteActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionTierArchiveOrDeleteActionSheet
-        _fun127054: for(var _fun127054_ip = 0; ; ) switch(_fun127054_ip) {
+        _fun127050: for(var _fun127050_ip = 0; ; ) switch(_fun127050_ip) {
  0:
             entity = argFoo;
             report = entity.editStateId;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = source.RED;
             romeo['color'] = source;
             romeo['onPress'] = update;
-            if(result) { _fun127054_ip = 443; continue _fun127054 }
+            if(result) { _fun127050_ip = 443; continue _fun127050 }
  440:
             result = echo;
  443:

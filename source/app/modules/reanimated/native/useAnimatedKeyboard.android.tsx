@@ -39,11 +39,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/reanimated/native/useAnimatedKeyboard.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useAnimatedKeyboard
-        _fun120864: for(var _fun120864_ip = 0; ; ) switch(_fun120864_ip) {
+        _fun120870: for(var _fun120870_ip = 0; ; ) switch(_fun120870_ip) {
  0:
             entity = arguments[0];
             report = undefined;
-            if(!(entity === report)) { _fun120864_ip = 18; continue _fun120864 }
+            if(!(entity === report)) { _fun120870_ip = 18; continue _fun120870 }
  11:
             entity = _closure1_slot5;
  18:
@@ -61,7 +61,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = _closure1_slot4;
             golf = entity.SYSTEM;
             entity = 0;
-            if(!(options !== golf)) { _fun120864_ip = 96; continue _fun120864 }
+            if(!(options !== golf)) { _fun120870_ip = 96; continue _fun120870 }
  86:
             golf = _closure1_slot3;
             entity = golf.customKeyboardHeight;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu[1] = oscar;
             mike = function() {
                 tango = function() { // Original name: handleStoreChange
-                    _fun120866: for(var _fun120866_ip = 0; ; ) switch(_fun120866_ip) {
+                    _fun120872: for(var _fun120872_ip = 0; ; ) switch(_fun120872_ip) {
  0:
                         zulu = _closure1_slot3;
                         oscar = zulu.keyboardType;
@@ -84,14 +84,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         tango = zulu.keyboardHeight;
                         zulu = _closure1_slot4;
                         zulu = zulu.SYSTEM;
-                        if(!(oscar === zulu)) { _fun120866_ip = 48; continue _fun120866 }
+                        if(!(oscar === zulu)) { _fun120872_ip = 48; continue _fun120872 }
  45:
-                        if(entity) { _fun120866_ip = 107; continue _fun120866 }
+                        if(entity) { _fun120872_ip = 107; continue _fun120872 }
  48:
                         entity = _closure1_slot4;
                         entity = entity.SYSTEM;
                         zulu = 0;
-                        if(!(oscar !== entity)) { _fun120866_ip = 105; continue _fun120866 }
+                        if(!(oscar !== entity)) { _fun120872_ip = 105; continue _fun120872 }
  64:
                         golf = _closure1_slot0;
                         oscar = _closure1_slot1;
@@ -104,11 +104,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         entity = entity.bottom;
                         zulu = report + entity;
  105:
-                        _fun120866_ip = 163; continue _fun120866;
+                        _fun120872_ip = 163; continue _fun120872;
  107:
                         report = _closure2_slot0;
                         entity = 0;
-                        if(!report) { _fun120866_ip = 160; continue _fun120866 }
+                        if(!report) { _fun120872_ip = 160; continue _fun120872 }
  119:
                         oscar = _closure1_slot0;
                         report = _closure1_slot1;

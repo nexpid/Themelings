@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsx;
     var _closure1_slot9 = tango;
     tango = function() { // Original name: MessageConfettiCanvas
-        _fun121144: for(var _fun121144_ip = 0; ; ) switch(_fun121144_ip) {
+        _fun121150: for(var _fun121150_ip = 0; ; ) switch(_fun121150_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -86,16 +86,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = entity;
             zulu[1] = mike;
             entity = function() {
-                _fun121145: for(var _fun121145_ip = 0; ; ) switch(_fun121145_ip) {
+                _fun121151: for(var _fun121151_ip = 0; ; ) switch(_fun121151_ip) {
  0:
                     mike = _closure2_slot0;
                     mike = mike.playing;
-                    if(!mike) { _fun121145_ip = 23; continue _fun121145 }
+                    if(!mike) { _fun121151_ip = 23; continue _fun121151 }
  16:
                     zulu = _closure2_slot1;
                     mike = !zulu;
  23:
-                    if(!mike) { _fun121145_ip = 39; continue _fun121145 }
+                    if(!mike) { _fun121151_ip = 39; continue _fun121151 }
  26:
                     zulu = _closure2_slot2;
                     mike = undefined;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(golf)(entity, zulu);
             tango = golf.useMemo;
             zulu = function() {
-                _fun121146: for(var _fun121146_ip = 0; ; ) switch(_fun121146_ip) {
+                _fun121152: for(var _fun121152_ip = 0; ; ) switch(_fun121152_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = mike.isAndroid;
                     mike = entity.bind(mike)();
                     entity = 16.666666666666668;
-                    if(!mike) { _fun121146_ip = 57; continue _fun121146 }
+                    if(!mike) { _fun121152_ip = 57; continue _fun121152 }
  47:
                     entity = 33.333333333333336;
  57:
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             yankee = tango.bind(golf)(zulu, entity);
             entity = null;
-            if(!mike) { _fun121144_ip = 374; continue _fun121144 }
+            if(!mike) { _fun121150_ip = 374; continue _fun121150 }
  204:
             tango = _closure1_slot9;
             zulu = _closure1_slot5;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/potions/components/native/MessageConfettiCanvas.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun121148: for(var _fun121148_ip = 0; ; ) switch(_fun121148_ip) {
+        _fun121154: for(var _fun121154_ip = 0; ; ) switch(_fun121154_ip) {
  0:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -220,10 +220,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(golf)(mike, entity);
             mike = null;
             entity = null;
-            if(!report) { _fun121148_ip = 146; continue _fun121148 }
+            if(!report) { _fun121154_ip = 146; continue _fun121154 }
  93:
             entity = null;
-            if(!tango) { _fun121148_ip = 146; continue _fun121148 }
+            if(!tango) { _fun121154_ip = 146; continue _fun121154 }
  98:
             golf = _closure1_slot7;
             report = golf.get;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(golf)(tango);
             tango = mike == tango;
             mike = null;
-            if(tango) { _fun121148_ip = 143; continue _fun121148 }
+            if(tango) { _fun121154_ip = 143; continue _fun121154 }
  127:
             report = _closure1_slot9;
             tango = _closure1_slot10;

@@ -77,18 +77,18 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         oscar = 'handleFileSystemStoreChanged';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun60979: for(var _fun60979_ip = 0; ; ) switch(_fun60979_ip) {
+            _fun60982: for(var _fun60982_ip = 0; ; ) switch(_fun60982_ip) {
  0:
                 mike = this;
                 entity = _closure1_slot4;
                 entity = entity.isLowDisk;
                 tango = entity;
-                if(!tango) { _fun60979_ip = 32; continue _fun60979 }
+                if(!tango) { _fun60982_ip = 32; continue _fun60982 }
  22:
                 report = mike.isLowDisk;
                 tango = report !== entity;
  32:
-                if(!tango) { _fun60979_ip = 83; continue _fun60979 }
+                if(!tango) { _fun60982_ip = 83; continue _fun60982 }
  35:
                 report = _closure1_slot0;
                 tango = _closure1_slot1;
@@ -99,7 +99,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 zulu = tango.database;
                 tango = zulu.bind(tango)();
                 zulu = null;
-                if(!(zulu != tango)) { _fun60979_ip = 83; continue _fun60979 }
+                if(!(zulu != tango)) { _fun60982_ip = 83; continue _fun60982 }
  73:
                 zulu = tango.incrementalVacuum;
                 zulu = zulu.bind(tango)();

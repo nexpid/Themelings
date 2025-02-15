@@ -7,12 +7,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: canReportRaid
-        _fun114236: for(var _fun114236_ip = 0; ; ) switch(_fun114236_ip) {
+        _fun114242: for(var _fun114242_ip = 0; ; ) switch(_fun114242_ip) {
  0:
             report = argFoo;
             zulu = arguments[1];
             entity = undefined;
-            if(!(zulu === entity)) { _fun114236_ip = 19; continue _fun114236 }
+            if(!(zulu === entity)) { _fun114242_ip = 19; continue _fun114242 }
  12:
             zulu = _closure1_slot2;
  19:
@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.BAN_MEMBERS;
             entity = tango.bind(zulu)(entity, report);
             tango = zulu;
-            if(entity) { _fun114236_ip = 72; continue _fun114236 }
+            if(entity) { _fun114242_ip = 72; continue _fun114242 }
  50:
             oscar = tango.can;
             zulu = _closure1_slot5;
             zulu = zulu.KICK_MEMBERS;
             entity = oscar.bind(tango)(zulu, report);
  72:
-            if(entity) { _fun114236_ip = 97; continue _fun114236 }
+            if(entity) { _fun114242_ip = 97; continue _fun114242 }
  75:
             zulu = tango.can;
             mike = _closure1_slot5;
@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = report;
     tango = function(argFoo) { // Original name: canEnableRaidAlerts
-        _fun114237: for(var _fun114237_ip = 0; ; ) switch(_fun114237_ip) {
+        _fun114243: for(var _fun114243_ip = 0; ; ) switch(_fun114243_ip) {
  0:
             tango = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun114237_ip = 16; continue _fun114237 }
+            if(!(tango === entity)) { _fun114243_ip = 16; continue _fun114243 }
  9:
             tango = _closure1_slot2;
  16:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['canReportRaid'] = report;
     report = function(argFoo) { // Original name: useCanReportRaid
-        _fun114238: for(var _fun114238_ip = 0; ; ) switch(_fun114238_ip) {
+        _fun114244: for(var _fun114244_ip = 0; ; ) switch(_fun114244_ip) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
@@ -123,12 +123,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = verify;
             entity = function() {
-                _fun114240: for(var _fun114240_ip = 0; ; ) switch(_fun114240_ip) {
+                _fun114246: for(var _fun114246_ip = 0; ; ) switch(_fun114246_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun114240_ip = 43; continue _fun114240 }
+                    if(!zulu) { _fun114246_ip = 43; continue _fun114246 }
  16:
                     tango = _closure1_slot3;
                     zulu = tango.getGuildIncident;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf.bind(options)(report, entity, tango);
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun114238_ip = 161; continue _fun114238 }
+            if(!entity) { _fun114244_ip = 161; continue _fun114244 }
  130:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.bind(tango)(report);
  161:
             entity = !entity;
-            if(!entity) { _fun114238_ip = 170; continue _fun114238 }
+            if(!entity) { _fun114244_ip = 170; continue _fun114244 }
  167:
             entity = mike;
  170:
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useCanEnableRaidAlerts'] = tango;
     mike = function(argFoo) { // Original name: useShowMentionRaidLimitUpsell
-        _fun114243: for(var _fun114243_ip = 0; ; ) switch(_fun114243_ip) {
+        _fun114249: for(var _fun114249_ip = 0; ; ) switch(_fun114249_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -207,12 +207,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = golf;
             mike = function() {
-                _fun114244: for(var _fun114244_ip = 0; ; ) switch(_fun114244_ip) {
+                _fun114250: for(var _fun114250_ip = 0; ; ) switch(_fun114250_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot2;
                     mike = undefined;
-                    if(!(zulu === mike)) { _fun114244_ip = 24; continue _fun114244 }
+                    if(!(zulu === mike)) { _fun114250_ip = 24; continue _fun114250 }
  20:
                     zulu = _closure1_slot2;
  24:
@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.useIsMentionRaidExperimentEnabled;
             oscar = null;
             options = oscar == golf;
-            if(options) { _fun114243_ip = 105; continue _fun114243 }
+            if(options) { _fun114249_ip = 105; continue _fun114249 }
  100:
             zulu = golf.id;
  105:
-            if(!(oscar == zulu)) { _fun114243_ip = 113; continue _fun114243 }
+            if(!(oscar == zulu)) { _fun114249_ip = 113; continue _fun114249 }
  109:
             zulu = _closure1_slot4;
  113:
             entity = false;
             entity = tango.bind(report)(zulu, entity);
-            if(!entity) { _fun114243_ip = 127; continue _fun114243 }
+            if(!entity) { _fun114249_ip = 127; continue _fun114249 }
  124:
             entity = mike;
  127:

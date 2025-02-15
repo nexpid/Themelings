@@ -22,7 +22,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         golf = _closure1_slot3;
         oscar = golf.useEffect;
         report = function() {
-            _fun99298: for(var _fun99298_ip = 0; ; ) switch(_fun99298_ip) {
+            _fun99308: for(var _fun99308_ip = 0; ; ) switch(_fun99308_ip) {
  0:
                 mike = _closure2_slot0;
                 tango = _closure1_slot0;
@@ -31,11 +31,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 zulu = zulu[entity];
                 entity = undefined;
                 tango = tango.bind(entity)(zulu);
-                if(mike) { _fun99298_ip = 47; continue _fun99298 }
+                if(mike) { _fun99308_ip = 47; continue _fun99308 }
  35:
                 mike = tango.lockOrientationForiOS;
                 mike = mike.bind(tango)();
-                _fun99298_ip = 67; continue _fun99298;
+                _fun99308_ip = 67; continue _fun99308;
  47:
                 zulu = tango.unlockOrientation;
                 mike = {};
@@ -72,7 +72,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = tango;
     entity = function() { // Original name: Content
-        _fun99301: for(var _fun99301_ip = 0; ; ) switch(_fun99301_ip) {
+        _fun99311: for(var _fun99311_ip = 0; ; ) switch(_fun99311_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -105,7 +105,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             var _closure2_slot2 = yankee;
             offset = mike[zulu];
             result = 'Show tooltip';
-            if(!entity) { _fun99301_ip = 142; continue _fun99301 }
+            if(!entity) { _fun99311_ip = 142; continue _fun99311 }
  136:
             result = 'Hide tooltip';
  142:
@@ -119,14 +119,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike[0] = yankee;
             mike[1] = entity;
             entity = function() {
-                _fun99302: for(var _fun99302_ip = 0; ; ) switch(_fun99302_ip) {
+                _fun99312: for(var _fun99312_ip = 0; ; ) switch(_fun99312_ip) {
  0:
                     entity = {};
                     mike = 'NEW';
                     entity['label'] = mike;
                     tango = _closure2_slot2;
                     zulu = 'top';
-                    if(!tango) { _fun99302_ip = 28; continue _fun99302 }
+                    if(!tango) { _fun99312_ip = 28; continue _fun99312 }
  24:
                     zulu = 'bottom';
  28:

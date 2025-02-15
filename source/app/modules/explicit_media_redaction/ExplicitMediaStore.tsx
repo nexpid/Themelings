@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun58635: for(var _fun58635_ip = 0; ; ) switch(_fun58635_ip) {
+        _fun58638: for(var _fun58638_ip = 0; ; ) switch(_fun58638_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -17,16 +17,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot13;
             entity = entity.bind(zulu)();
-            if(entity) { _fun58635_ip = 51; continue _fun58635 }
+            if(entity) { _fun58638_ip = 51; continue _fun58638 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun58635_ip = 92; continue _fun58635;
+            _fun58638_ip = 92; continue _fun58638;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun58635_ip = 71; continue _fun58635 }
+            if(oscar) { _fun58638_ip = 71; continue _fun58638 }
  67:
             oscar = new Array(0);
  71:
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun58636: for(var _fun58636_ip = 0; ; ) switch(_fun58636_ip) {
+        _fun58639: for(var _fun58639_ip = 0; ; ) switch(_fun58639_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun58636_ip = 74; continue _fun58636;
+            _fun58639_ip = 74; continue _fun58639;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -174,13 +174,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getChannelFpInfo';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun58643: for(var _fun58643_ip = 0; ; ) switch(_fun58643_ip) {
+            _fun58646: for(var _fun58646_ip = 0; ; ) switch(_fun58646_ip) {
  0:
                 zulu = _closure1_slot11;
                 entity = argFoo;
                 entity = zulu[entity];
                 zulu = null;
-                if(!(zulu == entity)) { _fun58643_ip = 24; continue _fun58643 }
+                if(!(zulu == entity)) { _fun58646_ip = 24; continue _fun58646 }
  20:
                 entity = _closure1_slot8;
  24:
@@ -193,18 +193,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'canSubmitFpReport';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun58644: for(var _fun58644_ip = 0; ; ) switch(_fun58644_ip) {
+            _fun58647: for(var _fun58647_ip = 0; ; ) switch(_fun58647_ip) {
  0:
                 mike = _closure1_slot10;
                 entity = argFoo;
                 tango = mike[entity];
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun58644_ip = 84; continue _fun58644 }
+                if(!entity) { _fun58647_ip = 84; continue _fun58647 }
  23:
                 mike = tango.reportSubmit;
                 mike = !mike;
-                if(!mike) { _fun58644_ip = 81; continue _fun58644 }
+                if(!mike) { _fun58647_ip = 81; continue _fun58647 }
  35:
                 golf = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['CONNECTION_OPEN'] = options;
     options = function(argFoo) { // Original name: handleFalsePositiveCreate
-        _fun58648: for(var _fun58648_ip = 0; ; ) switch(_fun58648_ip) {
+        _fun58651: for(var _fun58651_ip = 0; ; ) switch(_fun58651_ip) {
  0:
             entity = argFoo;
             zulu = entity.messageId;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot11;
             options = tango[oscar];
             tango = null;
-            if(!(tango == options)) { _fun58648_ip = 62; continue _fun58648 }
+            if(!(tango == options)) { _fun58651_ip = 62; continue _fun58651 }
  58:
             options = _closure1_slot8;
  62:
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['MESSAGE_EXPLICIT_CONTENT_FP_CREATE'] = options;
     tango = function(argFoo) { // Original name: handleFalsePositiveSubmit
-        _fun58649: for(var _fun58649_ip = 0; ; ) switch(_fun58649_ip) {
+        _fun58652: for(var _fun58652_ip = 0; ; ) switch(_fun58652_ip) {
  0:
             entity = argFoo;
             zulu = entity.messageId;
@@ -308,18 +308,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot11;
             golf = tango[report];
             tango = null;
-            if(!(tango != golf)) { _fun58649_ip = 91; continue _fun58649 }
+            if(!(tango != golf)) { _fun58652_ip = 91; continue _fun58652 }
  36:
             tango = _closure1_slot11;
             oscar = golf.map;
             mike = function(argFoo) {
-                _fun58650: for(var _fun58650_ip = 0; ; ) switch(_fun58650_ip) {
+                _fun58653: for(var _fun58653_ip = 0; ; ) switch(_fun58653_ip) {
  0:
                     zulu = argFoo;
                     tango = zulu.messageId;
                     mike = _closure2_slot0;
                     entity = zulu;
-                    if(!(tango === mike)) { _fun58650_ip = 48; continue _fun58650 }
+                    if(!(tango === mike)) { _fun58653_ip = 48; continue _fun58653 }
  22:
                     mike = {};
                     oscar = mike;

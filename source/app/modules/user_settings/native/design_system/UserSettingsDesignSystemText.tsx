@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         verify = golf.TEXT_VARIANT;
         options = verify.map;
         golf = function(argFoo) {
-            _fun99086: for(var _fun99086_ip = 0; ; ) switch(_fun99086_ip) {
+            _fun99096: for(var _fun99096_ip = 0; ; ) switch(_fun99096_ip) {
  0:
                 oscar = argFoo;
                 mike = 'code';
                 entity = null;
-                if(!(mike !== oscar)) { _fun99086_ip = 95; continue _fun99086 }
+                if(!(mike !== oscar)) { _fun99096_ip = 95; continue _fun99096 }
  13:
                 report = _closure1_slot3;
                 options = _closure1_slot0;

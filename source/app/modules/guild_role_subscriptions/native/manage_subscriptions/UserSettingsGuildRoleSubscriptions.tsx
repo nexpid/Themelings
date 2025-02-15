@@ -63,14 +63,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = function(argFoo) { // Original name: renderSectionHeader
-        _fun96573: for(var _fun96573_ip = 0; ; ) switch(_fun96573_ip) {
+        _fun96583: for(var _fun96583_ip = 0; ; ) switch(_fun96583_ip) {
  0:
             entity = argFoo;
             entity = entity.section;
             tango = entity.key;
             zulu = _closure1_slot7;
             entity = null;
-            if(!(tango === zulu)) { _fun96573_ip = 44; continue _fun96573 }
+            if(!(tango === zulu)) { _fun96583_ip = 44; continue _fun96583 }
  26:
             report = _closure1_slot5;
             tango = _closure1_slot9;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/manage_subscriptions/UserSettingsGuildRoleSubscriptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsGuildRoleSubscriptions
-        _fun96575: for(var _fun96575_ip = 0; ; ) switch(_fun96575_ip) {
+        _fun96585: for(var _fun96585_ip = 0; ; ) switch(_fun96585_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(zulu)(offset);
             entity = entity.loading;
             tango = _closure1_slot5;
-            if(entity) { _fun96575_ip = 256; continue _fun96575 }
+            if(entity) { _fun96585_ip = 256; continue _fun96585 }
  116:
             zulu = _closure1_slot3;
             entity = {};
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(report)(golf, oscar);
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun96575_ip = 284; continue _fun96575;
+            _fun96585_ip = 284; continue _fun96585;
  256:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

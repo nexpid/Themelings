@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/content_inventory/useEntryActivityAndApplication.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useEntryActivityAndApplication
-        _fun80175: for(var _fun80175_ip = 0; ; ) switch(_fun80175_ip) {
+        _fun80187: for(var _fun80187_ip = 0; ; ) switch(_fun80187_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             entity = report == golf;
             zulu = undefined;
-            if(entity) { _fun80175_ip = 97; continue _fun80175 }
+            if(entity) { _fun80187_ip = 97; continue _fun80187 }
  91:
             zulu = golf.application_id;
  97:
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = 'application_id';
             yankee = zulu in yankee;
             zulu = undefined;
-            if(!yankee) { _fun80175_ip = 136; continue _fun80175 }
+            if(!yankee) { _fun80187_ip = 136; continue _fun80187 }
  124:
             options = options.extra;
             zulu = options.application_id;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = new Array(1);
             oscar[0] = verify;
             tango = function() {
-                _fun80177: for(var _fun80177_ip = 0; ; ) switch(_fun80177_ip) {
+                _fun80189: for(var _fun80189_ip = 0; ; ) switch(_fun80189_ip) {
  0:
                     tango = _closure1_slot4;
                     zulu = tango.getEmbeddedActivityForUserId;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     oscar = entity == oscar;
                     entity = undefined;
-                    if(oscar) { _fun80177_ip = 50; continue _fun80177 }
+                    if(oscar) { _fun80189_ip = 50; continue _fun80189 }
  41:
                     report = _closure2_slot1;
                     entity = report.id;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = golf.bind(options)(oscar, tango);
             entity['embeddedActivity'] = tango;
             tango = mike;
-            if(!(report != zulu)) { _fun80175_ip = 244; continue _fun80175 }
+            if(!(report != zulu)) { _fun80187_ip = 244; continue _fun80187 }
  241:
             tango = zulu;
  244:

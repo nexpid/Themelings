@@ -31,10 +31,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = 3;
     mike = oscar[mike];
     mike = report.bind(entity)(mike);
-    verify = mike.HelpdeskArticles;
-    var _closure1_slot4 = verify;
     mike = mike.Consents;
-    var _closure1_slot5 = mike;
+    var _closure1_slot4 = mike;
     mike = {};
     options = options.TOGGLE;
     mike['type'] = options;
@@ -55,33 +53,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         return entity;
     };
     mike['title'] = options;
-    options = function() { // Original name: useDescription
-        mike = _closure1_slot0;
-        verify = _closure1_slot2;
-        entity = 5;
-        zulu = verify[entity];
-        options = undefined;
-        zulu = mike.bind(options)(zulu);
-        tango = zulu.intl;
-        zulu = tango.formatToPlainString;
-        entity = verify[entity];
-        entity = mike.bind(options)(entity);
-        entity = entity.t;
-        mike = entity.igTSGx;
-        entity = {};
-        golf = _closure1_slot1;
-        oscar = 10;
-        oscar = verify[oscar];
-        golf = golf.bind(options)(oscar);
-        oscar = golf.getArticleURL;
-        report = _closure1_slot4;
-        report = report.DATA_PRIVACY_CONTROLS;
-        report = oscar.bind(golf)(report);
-        entity['helpdeskArticle'] = report;
-        entity = zulu.bind(tango)(mike, entity);
-        return entity;
-    };
-    mike['useDescription'] = options;
     golf = golf.DATA_AND_PRIVACY;
     mike['parent'] = golf;
     golf = function() { // Original name: useDataToImproveDiscordSettingValue
@@ -98,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = function() {
             zulu = _closure1_slot3;
             mike = zulu.hasConsented;
-            entity = _closure1_slot5;
+            entity = _closure1_slot4;
             entity = entity.USAGE_STATISTICS;
             entity = mike.bind(zulu)(entity);
             return entity;
@@ -108,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: handleUsageStatisticsChange
-        _fun95012: for(var _fun95012_ip = 0; ; ) switch(_fun95012_ip) {
+        _fun95023: for(var _fun95023_ip = 0; ; ) switch(_fun95023_ip) {
  0:
             zulu = argFoo;
-            if(zulu) { _fun95012_ip = 293; continue _fun95012 }
+            if(zulu) { _fun95023_ip = 293; continue _fun95023 }
  14:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -177,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = undefined;
                 tango = tango.bind(mike)(zulu);
                 zulu = tango.setConsents;
-                entity = _closure1_slot5;
+                entity = _closure1_slot4;
                 entity = entity.USAGE_STATISTICS;
                 mike = new Array(1);
                 mike[0] = entity;
@@ -187,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['onConfirm'] = oscar;
             zulu = tango.bind(report)(zulu);
-            _fun95012_ip = 367; continue _fun95012;
+            _fun95023_ip = 367; continue _fun95023;
  293:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -196,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = undefined;
             report = report.bind(zulu)(tango);
             tango = report.setConsents;
-            mike = _closure1_slot5;
+            mike = _closure1_slot4;
             mike = mike.USAGE_STATISTICS;
             zulu = new Array(1);
             zulu[0] = mike;
@@ -223,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         }
     };
     mike['onValueChange'] = tango;
-    tango = 11;
+    tango = 10;
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;

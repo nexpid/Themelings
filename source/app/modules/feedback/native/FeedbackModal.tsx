@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: FeedbackForm
-        _fun90750: for(var _fun90750_ip = 0; ; ) switch(_fun90750_ip) {
+        _fun90779: for(var _fun90779_ip = 0; ; ) switch(_fun90779_ip) {
  0:
             mike = argFoo;
             entity = mike.result;
@@ -55,12 +55,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = null;
             sequence = sizing == vacuum;
             control = undefined;
-            if(sequence) { _fun90750_ip = 204; continue _fun90750 }
+            if(sequence) { _fun90779_ip = 204; continue _fun90779 }
  199:
             control = vacuum.label;
  204:
             offset['value'] = control;
-            if(!(sizing == options)) { _fun90750_ip = 267; continue _fun90750 }
+            if(!(sizing == options)) { _fun90779_ip = 267; continue _fun90779 }
  212:
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = offset.FormInput;
             offset = {'value': null, 'title': null, 'onChange': null, 'multiline': true, 'numberOfLines': 4, 'autoCorrect': true};
             offset['value'] = output;
-            if(!(sizing == update)) { _fun90750_ip = 435; continue _fun90750 }
+            if(!(sizing == update)) { _fun90779_ip = 435; continue _fun90779 }
  380:
             sequence = _closure1_slot0;
             config = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = kilo.bottomContainer;
             oscar['style'] = offset;
             offset = !verify;
-            if(!offset) { _fun90750_ip = 653; continue _fun90750 }
+            if(!offset) { _fun90779_ip = 653; continue _fun90779 }
  504:
             romeo = _closure1_slot7;
             update = _closure1_slot0;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(tango)(offset);
             offset = {};
             sizing = sizing == output;
-            if(sizing) { _fun90750_ip = 698; continue _fun90750 }
+            if(sizing) { _fun90779_ip = 698; continue _fun90779 }
  694:
             sizing = result === output;
  698:

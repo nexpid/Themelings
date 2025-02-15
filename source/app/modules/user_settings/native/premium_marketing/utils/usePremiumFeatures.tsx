@@ -35,13 +35,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/utils/usePremiumFeatures.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePremiumFeatures
-        _fun75611: for(var _fun75611_ip = 0; ; ) switch(_fun75611_ip) {
+        _fun75621: for(var _fun75621_ip = 0; ; ) switch(_fun75621_ip) {
  0:
             oscar = argFoo;
             report = arguments[1];
             var _closure2_slot0 = oscar;
             golf = undefined;
-            if(!(report === golf)) { _fun75611_ip = 20; continue _fun75611 }
+            if(!(report === golf)) { _fun75621_ip = 20; continue _fun75621 }
  18:
             report = false;
  20:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = oscar;
             mike[2] = report;
             entity = function() {
-                _fun75612: for(var _fun75612_ip = 0; ; ) switch(_fun75612_ip) {
+                _fun75622: for(var _fun75622_ip = 0; ; ) switch(_fun75622_ip) {
  0:
                     zulu = {};
                     tango = _closure1_slot1;
@@ -120,10 +120,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = new Array(7);
                     tango[0] = zulu;
                     mike = _closure2_slot2;
-                    if(mike) { _fun75612_ip = 256; continue _fun75612 }
+                    if(mike) { _fun75622_ip = 256; continue _fun75622 }
  247:
                     mike = new Array(0);
-                    _fun75612_ip = 435; continue _fun75612;
+                    _fun75622_ip = 435; continue _fun75622;
  256:
                     report = {};
                     verify = _closure1_slot1;
@@ -386,18 +386,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango[mike] = zulu;
                     zulu = tango.filter;
                     mike = function(argFoo) {
-                        _fun75613: for(var _fun75613_ip = 0; ; ) switch(_fun75613_ip) {
+                        _fun75623: for(var _fun75623_ip = 0; ; ) switch(_fun75623_ip) {
  0:
                             zulu = argFoo;
                             report = zulu.premiumTypes;
                             tango = report.has;
                             entity = _closure2_slot0;
                             entity = tango.bind(report)(entity);
-                            if(!entity) { _fun75613_ip = 48; continue _fun75613 }
+                            if(!entity) { _fun75623_ip = 48; continue _fun75623 }
  29:
                             mike = _closure2_slot1;
                             mike = !mike;
-                            if(mike) { _fun75613_ip = 45; continue _fun75613 }
+                            if(mike) { _fun75623_ip = 45; continue _fun75623 }
  39:
                             mike = zulu.availableOnFractional;
  45:

@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function() { // Original name: ConnectionsSettingScreen
-        _fun95600: for(var _fun95600_ip = 0; ; ) switch(_fun95600_ip) {
+        _fun95610: for(var _fun95610_ip = 0; ; ) switch(_fun95610_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             oscar = report == zulu;
             report = undefined;
-            if(oscar) { _fun95600_ip = 86; continue _fun95600 }
+            if(oscar) { _fun95610_ip = 86; continue _fun95610 }
  80:
             report = zulu.selectedPlatformType;
  86:

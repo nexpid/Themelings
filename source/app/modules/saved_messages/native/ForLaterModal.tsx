@@ -68,7 +68,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/saved_messages/native/ForLaterModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ForLaterModal
-        _fun88911: for(var _fun88911_ip = 0; ; ) switch(_fun88911_ip) {
+        _fun88928: for(var _fun88928_ip = 0; ; ) switch(_fun88928_ip) {
  0:
             entity = _closure1_slot6;
             tango = undefined;
@@ -133,7 +133,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             verify = offset.isIOS;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun88911_ip = 180; continue _fun88911 }
+            if(!offset) { _fun88928_ip = 180; continue _fun88928 }
  178:
             verify = 0;
  180:

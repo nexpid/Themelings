@@ -56,13 +56,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/screens/search/EmptyState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmptyState
-        _fun118866: for(var _fun118866_ip = 0; ; ) switch(_fun118866_ip) {
+        _fun118872: for(var _fun118872_ip = 0; ; ) switch(_fun118872_ip) {
  0:
             entity = argFoo;
             report = entity.query;
             offset = entity.showsGenericMessage;
             tango = undefined;
-            if(!(offset === tango)) { _fun118866_ip = 22; continue _fun118866 }
+            if(!(offset === tango)) { _fun118872_ip = 22; continue _fun118872 }
  20:
             offset = false;
  22:
@@ -81,11 +81,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(tango)();
             entity = zulu.bind(oscar)(entity);
             oscar = _closure1_slot2;
-            if(entity) { _fun118866_ip = 100; continue _fun118866 }
+            if(entity) { _fun118872_ip = 100; continue _fun118872 }
  91:
             entity = 7;
             entity = oscar[entity];
-            _fun118866_ip = 107; continue _fun118866;
+            _fun118872_ip = 107; continue _fun118872;
  100:
             zulu = 6;
             entity = oscar[zulu];
@@ -137,11 +137,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = kilo[yankee];
             yankee = backup.bind(tango)(yankee);
             yankee = yankee.t;
-            if(offset) { _fun118866_ip = 338; continue _fun118866 }
+            if(offset) { _fun118872_ip = 338; continue _fun118872 }
  325:
             offset = yankee.LSNOYW;
             offset = romeo.bind(foxtrot)(offset);
-            _fun118866_ip = 349; continue _fun118866;
+            _fun118872_ip = 349; continue _fun118872;
  338:
             yankee = yankee.aOkFv7;
             offset = romeo.bind(foxtrot)(yankee);

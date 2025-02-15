@@ -33,19 +33,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_member_verification/MemberVerificationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun61942: for(var _fun61942_ip = 0; ; ) switch(_fun61942_ip) {
+        _fun61945: for(var _fun61945_ip = 0; ; ) switch(_fun61945_ip) {
  0:
             mike = argFoo;
             entity = mike.required;
             zulu = mike.response;
             report = mike.field_type;
-            if(entity) { _fun61942_ip = 28; continue _fun61942 }
+            if(entity) { _fun61945_ip = 28; continue _fun61945 }
  24:
             entity = true;
             return entity;
  28:
             entity = null;
-            if(!(entity != zulu)) { _fun61942_ip = 311; continue _fun61942 }
+            if(!(entity != zulu)) { _fun61945_ip = 311; continue _fun61945 }
  37:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(mike)(tango);
             tango = tango.VerificationFormFieldTypes;
             tango = tango.TERMS;
-            if(!(tango !== report)) { _fun61942_ip = 296; continue _fun61942 }
+            if(!(tango !== report)) { _fun61945_ip = 296; continue _fun61945 }
  81:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(mike)(tango);
             tango = tango.VerificationFormFieldTypes;
             tango = tango.VERIFICATION;
-            if(!(tango !== report)) { _fun61942_ip = 296; continue _fun61942 }
+            if(!(tango !== report)) { _fun61945_ip = 296; continue _fun61945 }
  117:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(mike)(tango);
             tango = tango.VerificationFormFieldTypes;
             tango = tango.TEXT_INPUT;
-            if(!(tango !== report)) { _fun61942_ip = 262; continue _fun61942 }
+            if(!(tango !== report)) { _fun61945_ip = 262; continue _fun61945 }
  150:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(mike)(tango);
             tango = tango.VerificationFormFieldTypes;
             tango = tango.PARAGRAPH;
-            if(!(tango !== report)) { _fun61942_ip = 262; continue _fun61942 }
+            if(!(tango !== report)) { _fun61945_ip = 262; continue _fun61945 }
  183:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(mike)(tango);
             tango = tango.VerificationFormFieldTypes;
             tango = tango.MULTIPLE_CHOICE;
-            if(!(tango !== report)) { _fun61942_ip = 249; continue _fun61942 }
+            if(!(tango !== report)) { _fun61945_ip = 249; continue _fun61945 }
  216:
             tango = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 'string';
             entity = typeof zulu;
             entity = tango === entity;
-            if(!entity) { _fun61942_ip = 294; continue _fun61942 }
+            if(!entity) { _fun61945_ip = 294; continue _fun61945 }
  276:
             tango = zulu.trim;
             report = tango.bind(zulu)();
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['removeInternalFields'] = tango;
     tango = function(argFoo) { // Original name: isAutomaticApprovalFormField
-        _fun61945: for(var _fun61945_ip = 0; ; ) switch(_fun61945_ip) {
+        _fun61948: for(var _fun61948_ip = 0; ; ) switch(_fun61948_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             report = entity == tango;
             entity = undefined;
-            if(report) { _fun61945_ip = 32; continue _fun61945 }
+            if(report) { _fun61948_ip = 32; continue _fun61948 }
  26:
             entity = tango.field_type;
  32:
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isAutomaticApprovalFormField'] = tango;
     tango = function(argFoo) { // Original name: isManualApprovalFormField
-        _fun61946: for(var _fun61946_ip = 0; ; ) switch(_fun61946_ip) {
+        _fun61949: for(var _fun61949_ip = 0; ; ) switch(_fun61949_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot3;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             report = entity == tango;
             entity = undefined;
-            if(report) { _fun61946_ip = 32; continue _fun61946 }
+            if(report) { _fun61949_ip = 32; continue _fun61949 }
  26:
             entity = tango.field_type;
  32:
@@ -183,12 +183,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isManualApprovalFormField'] = tango;
     mike = function(argFoo) { // Original name: guildHasVerificationGate
-        _fun61947: for(var _fun61947_ip = 0; ; ) switch(_fun61947_ip) {
+        _fun61950: for(var _fun61950_ip = 0; ; ) switch(_fun61950_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun61947_ip = 131; continue _fun61947 }
+            if(!entity) { _fun61950_ip = 131; continue _fun61950 }
  12:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -208,11 +208,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = options;
             mike = oscar.bind(golf)(tango, mike);
             mike = mike.enabled;
-            if(mike) { _fun61947_ip = 107; continue _fun61947 }
+            if(mike) { _fun61950_ip = 107; continue _fun61950 }
  93:
             mike = report.hasVerificationGate;
             mike = mike.bind(report)();
-            _fun61947_ip = 128; continue _fun61947;
+            _fun61950_ip = 128; continue _fun61950;
  107:
             tango = report.hasFeature;
             zulu = _closure1_slot4;

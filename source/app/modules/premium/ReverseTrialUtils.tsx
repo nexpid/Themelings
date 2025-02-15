@@ -7,126 +7,136 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
-    entity = function() { // Original name: _shouldShowReverseTrialUpsell
+    entity = function() { // Original name: _shouldShowReverseTrialFollowUpUpsell
         report = undefined;
         entity = undefined;
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun95914: for(var _fun95914_ip = 0; ; ) switch(_fun95914_ip) {
+                _fun95924: for(var _fun95924_ip = 0; ; ) switch(_fun95924_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun95914_ip = 370; continue _fun95914 }
+                    if(mike) { _fun95924_ip = 384; continue _fun95924 }
  10:
                     zulu = _closure1_slot4;
                     mike = zulu.getCurrentUser;
-                    zulu = mike.bind(zulu)();
-                    oscar = _closure1_slot0;
-                    report = _closure1_slot2;
-                    mike = 6;
-                    report = report[mike];
-                    mike = undefined;
-                    oscar = oscar.bind(mike)(report);
-                    report = oscar.isPremium;
-                    report = report.bind(oscar)(zulu);
-                    oscar = null;
-                    zulu = oscar != zulu;
-                    if(!zulu) { _fun95914_ip = 71; continue _fun95914 }
+                    mike = mike.bind(zulu)();
+                    report = _closure1_slot0;
+                    oscar = _closure1_slot2;
+                    zulu = 6;
+                    zulu = oscar[zulu];
+                    golf = undefined;
+                    report = report.bind(golf)(zulu);
+                    zulu = report.isPremium;
+                    oscar = zulu.bind(report)(mike);
+                    report = null;
+                    mike = report == mike;
+                    if(mike) { _fun95924_ip = 71; continue _fun95924 }
  68:
-                    zulu = report;
+                    mike = oscar;
  71:
-                    if(!zulu) { _fun95914_ip = 135; continue _fun95914 }
+                    if(mike) { _fun95924_ip = 86; continue _fun95924 }
  74:
                     zulu = _closure1_slot6;
-                    zulu = zulu.fetchedAllEntitlements;
-                    if(zulu) { _fun95914_ip = 135; continue _fun95914 }
- 87:
-                    golf = _closure1_slot0;
+                    mike = zulu.fetchedEndedEntitlements;
+ 86:
+                    if(mike) { _fun95924_ip = 157; continue _fun95924 }
+ 89:
+                    zulu = _closure1_slot0;
                     options = _closure1_slot2;
-                    zulu = 7;
-                    zulu = options[zulu];
-                    options = golf.bind(mike)(zulu);
-                    golf = options.fetchUserEntitlements;
-                    zulu = {};
-                    verify = _closure1_slot10;
+                    mike = 7;
+                    mike = options[mike];
+                    options = zulu.bind(golf)(mike);
+                    zulu = options.fetchUserEntitlements;
+                    mike = {};
+                    verify = _closure1_slot9;
                     verify = verify.FRACTIONAL_REDEMPTION;
-                    zulu['entitlementType'] = verify;
-                    zulu = golf.bind(options)(zulu);
- 135:
-                    options = _closure1_slot6;
-                    golf = options.getReverseTrialEntitlement;
-                    zulu = true;
-                    zulu = golf.bind(options)(zulu);
-                    if(report) { _fun95914_ip = 367; continue _fun95914 }
- 158:
-                    if(!(oscar != zulu)) { _fun95914_ip = 367; continue _fun95914 }
- 165:
-                    report = zulu.endsAt;
-                    if(!(oscar != report)) { _fun95914_ip = 367; continue _fun95914 }
- 178:
-                    golf = zulu.endsAt;
-                    report = golf.getTime;
-                    options = report.bind(golf)();
-                    report = global;
-                    verify = report.Date;
-                    golf = verify.now;
-                    golf = golf.bind(verify)();
-                    if(!(options < golf)) { _fun95914_ip = 367; continue _fun95914 }
- 218:
-                    options = zulu.endsAt;
-                    golf = options.getTime;
-                    golf = golf.bind(options)();
-                    options = report.Date;
-                    report = options.now;
-                    options = report.bind(options)();
-                    report = _closure1_slot11;
-                    report = options - report;
-                    if(!(!(golf < report))) { _fun95914_ip = 367; continue _fun95914 }
- 261:
-                    report = zulu.sourceType;
-                    zulu = _closure1_slot9;
-                    zulu = zulu.REVERSE_TRIAL;
-                    if(!(report === zulu)) { _fun95914_ip = 367; continue _fun95914 }
- 281:
-                    zulu = argFoo;
-                    if(!(oscar == zulu)) { _fun95914_ip = 328; continue _fun95914 }
- 288:
-                    report = _closure1_slot0;
-                    golf = _closure1_slot2;
-                    zulu = 8;
-                    zulu = golf[zulu];
-                    report = report.bind(mike)(zulu);
-                    zulu = report.fetchUserOffer;
-                    zulu = zulu.bind(report)();
-                    SaveGenerator(address=322);
- 320:
-                    return zulu;
- 322:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun95914_ip = 364; continue _fun95914 }
- 328:
-                    options = _closure1_slot5;
-                    golf = options.getUserTrialOffer;
-                    report = _closure1_slot7;
-                    report = golf.bind(options)(report);
-                    if(!(oscar != report)) { _fun95914_ip = 367; continue _fun95914 }
- 351:
-                    tango = _closure1_slot8;
-                    tango = tango.REVERSE_TRIAL_FOLLOWUP_UPSELL;
-                    return tango;
- 364:
-                    return zulu;
- 367:
+                    mike['entitlementType'] = verify;
+                    verify = false;
+                    mike['excludeEnded'] = verify;
+                    mike = zulu.bind(options)(mike);
+                    SaveGenerator(address=148);
+ 146:
                     return mike;
- 370:
+ 148:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(!zulu) { _fun95924_ip = 157; continue _fun95924 }
+ 154:
+                    return mike;
+ 157:
+                    options = _closure1_slot6;
+                    mike = options.getReverseTrialEntitlement;
+                    zulu = true;
+                    mike = mike.bind(options)(zulu);
+                    if(oscar) { _fun95924_ip = 379; continue _fun95924 }
+ 180:
+                    if(!(report != mike)) { _fun95924_ip = 379; continue _fun95924 }
+ 187:
+                    oscar = mike.endsAt;
+                    if(!(report != oscar)) { _fun95924_ip = 379; continue _fun95924 }
+ 200:
+                    options = mike.endsAt;
+                    oscar = options.getTime;
+                    verify = oscar.bind(options)();
+                    oscar = global;
+                    offset = oscar.Date;
+                    options = offset.now;
+                    options = options.bind(offset)();
+                    if(!(verify < options)) { _fun95924_ip = 379; continue _fun95924 }
+ 240:
+                    verify = mike.endsAt;
+                    options = verify.getTime;
+                    options = options.bind(verify)();
+                    verify = oscar.Date;
+                    oscar = verify.now;
+                    verify = oscar.bind(verify)();
+                    oscar = _closure1_slot10;
+                    oscar = verify - oscar;
+                    if(!(!(options < oscar))) { _fun95924_ip = 379; continue _fun95924 }
+ 283:
+                    oscar = mike.sourceType;
+                    mike = _closure1_slot8;
+                    mike = mike.REVERSE_TRIAL;
+                    if(!(oscar === mike)) { _fun95924_ip = 379; continue _fun95924 }
+ 303:
+                    mike = argFoo;
+                    if(!(report == mike)) { _fun95924_ip = 350; continue _fun95924 }
+ 310:
+                    oscar = _closure1_slot0;
+                    options = _closure1_slot2;
+                    mike = 8;
+                    mike = options[mike];
+                    oscar = oscar.bind(golf)(mike);
+                    mike = oscar.fetchUserOffer;
+                    mike = mike.bind(oscar)();
+                    SaveGenerator(address=344);
+ 342:
+                    return mike;
+ 344:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                    if(oscar) { _fun95924_ip = 376; continue _fun95924 }
+ 350:
+                    golf = _closure1_slot5;
+                    oscar = golf.getUserTrialOffer;
+                    tango = _closure1_slot7;
+                    tango = oscar.bind(golf)(tango);
+                    if(!(report != tango)) { _fun95924_ip = 379; continue _fun95924 }
+ 373:
+                    return zulu;
+ 376:
+                    return mike;
+ 379:
+                    mike = false;
+                    return mike;
+ 384:
                     return entity;
                 }
             };
             return entity;
         };
         tango = tango.bind(report)(zulu);
-        _closure1_slot12 = tango;
+        _closure1_slot11 = tango;
         zulu = tango.apply;
         entity = arguments;
         mike = entity;
@@ -134,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = zulu.bind(tango)(entity, mike);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     options = verify.defineProperty;
@@ -163,28 +173,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 4;
     tango = oscar[tango];
     tango = report.bind(entity)(tango);
-    golf = tango.PREMIUM_TIER_2_REVERSE_FOLLOWUP_TRIAL_ID;
-    var _closure1_slot7 = golf;
-    tango = tango.PremiumUpsellTypes;
-    var _closure1_slot8 = tango;
+    tango = tango.PREMIUM_TIER_2_REVERSE_FOLLOWUP_TRIAL_ID;
+    var _closure1_slot7 = tango;
     tango = 5;
     tango = oscar[tango];
     tango = report.bind(entity)(tango);
     golf = tango.EntitlementSourceTypes;
-    var _closure1_slot9 = golf;
+    var _closure1_slot8 = golf;
     tango = tango.EntitlementTypes;
-    var _closure1_slot10 = tango;
+    var _closure1_slot9 = tango;
     tango = 259200000;
-    var _closure1_slot11 = tango;
+    var _closure1_slot10 = tango;
     tango = 11;
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
     tango = 'modules/premium/ReverseTrialUtils.tsx';
     tango = report.bind(oscar)(tango);
-    tango = function() { // Original name: shouldShowReverseTrialUpsell
+    tango = function() { // Original name: shouldShowReverseTrialFollowUpUpsell
         entity = undefined;
-        tango = _closure1_slot12;
+        tango = _closure1_slot11;
         zulu = tango.apply;
         entity = arguments;
         mike = entity;
@@ -192,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = zulu.bind(tango)(entity, mike);
         return entity;
     };
-    zulu['shouldShowReverseTrialUpsell'] = tango;
+    zulu['shouldShowReverseTrialFollowUpUpsell'] = tango;
     mike = function() { // Original name: useIsInReverseTrial
         mike = function() { // Original name: useGetActiveReverseTrialEntitlement
             report = _closure1_slot0;
@@ -232,12 +240,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar[zulu];
             zulu = report.bind(tango)(zulu);
             mike = function() {
-                _fun95920: for(var _fun95920_ip = 0; ; ) switch(_fun95920_ip) {
+                _fun95930: for(var _fun95930_ip = 0; ; ) switch(_fun95930_ip) {
  0:
                     zulu = _closure3_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun95920_ip = 56; continue _fun95920 }
+                    if(!entity) { _fun95930_ip = 56; continue _fun95930 }
  16:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -249,11 +257,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = _closure3_slot0;
                     entity = zulu.bind(tango)(mike);
  56:
-                    if(!entity) { _fun95920_ip = 125; continue _fun95920 }
+                    if(!entity) { _fun95930_ip = 125; continue _fun95930 }
  59:
                     entity = _closure1_slot6;
                     entity = entity.fetchedAllEntitlements;
-                    if(entity) { _fun95920_ip = 125; continue _fun95920 }
+                    if(entity) { _fun95930_ip = 125; continue _fun95930 }
  75:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -263,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.bind(entity)(mike);
                     mike = zulu.fetchUserEntitlements;
                     entity = {};
-                    tango = _closure1_slot10;
+                    tango = _closure1_slot9;
                     tango = tango.FRACTIONAL_REDEMPTION;
                     entity['entitlementType'] = tango;
                     entity = mike.bind(zulu)(entity);

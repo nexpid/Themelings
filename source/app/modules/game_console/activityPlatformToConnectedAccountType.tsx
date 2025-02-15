@@ -26,20 +26,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/game_console/activityPlatformToConnectedAccountType.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: activityPlatformToConnectedAccountType
-        _fun104260: for(var _fun104260_ip = 0; ; ) switch(_fun104260_ip) {
+        _fun104252: for(var _fun104252_ip = 0; ; ) switch(_fun104252_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot0;
             mike = mike.PS4;
-            if(!(mike !== zulu)) { _fun104260_ip = 64; continue _fun104260 }
+            if(!(mike !== zulu)) { _fun104252_ip = 64; continue _fun104252 }
  20:
             mike = _closure1_slot0;
             mike = mike.PS5;
-            if(!(mike !== zulu)) { _fun104260_ip = 64; continue _fun104260 }
+            if(!(mike !== zulu)) { _fun104252_ip = 64; continue _fun104252 }
  34:
             mike = _closure1_slot0;
             mike = mike.XBOX;
-            if(!(mike !== zulu)) { _fun104260_ip = 52; continue _fun104260 }
+            if(!(mike !== zulu)) { _fun104252_ip = 52; continue _fun104252 }
  48:
             mike = undefined;
             return mike;

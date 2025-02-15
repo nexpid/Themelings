@@ -8,16 +8,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: getContainerStyles
-        _fun119417: for(var _fun119417_ip = 0; ; ) switch(_fun119417_ip) {
+        _fun119423: for(var _fun119423_ip = 0; ; ) switch(_fun119423_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot5;
             entity = entity.RED;
-            if(!(entity !== zulu)) { _fun119417_ip = 104; continue _fun119417 }
+            if(!(entity !== zulu)) { _fun119423_ip = 104; continue _fun119423 }
  20:
             entity = _closure1_slot5;
             entity = entity.YELLOW;
-            if(!(entity !== zulu)) { _fun119417_ip = 38; continue _fun119417 }
+            if(!(entity !== zulu)) { _fun119423_ip = 38; continue _fun119423 }
  34:
             entity = undefined;
             return entity;
@@ -59,16 +59,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: getTextColor
-        _fun119418: for(var _fun119418_ip = 0; ; ) switch(_fun119418_ip) {
+        _fun119424: for(var _fun119424_ip = 0; ; ) switch(_fun119424_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot5;
             mike = mike.RED;
-            if(!(mike !== zulu)) { _fun119418_ip = 73; continue _fun119418 }
+            if(!(mike !== zulu)) { _fun119424_ip = 73; continue _fun119424 }
  20:
             mike = _closure1_slot5;
             mike = mike.YELLOW;
-            if(!(mike !== zulu)) { _fun119418_ip = 38; continue _fun119418 }
+            if(!(mike !== zulu)) { _fun119424_ip = 38; continue _fun119424 }
  34:
             mike = undefined;
             return mike;

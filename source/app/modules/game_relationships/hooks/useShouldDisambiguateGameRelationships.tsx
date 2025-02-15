@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_relationships/hooks/useShouldDisambiguateGameRelationships.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldDisambiguateGameRelationships
-        _fun116513: for(var _fun116513_ip = 0; ; ) switch(_fun116513_ip) {
+        _fun116519: for(var _fun116519_ip = 0; ; ) switch(_fun116519_ip) {
  0:
             entity = argFoo;
             options = entity.location;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = tango.bind(report)(zulu, mike);
-            if(!entity) { _fun116513_ip = 100; continue _fun116513 }
+            if(!entity) { _fun116519_ip = 100; continue _fun116519 }
  97:
             entity = mike;
  100:

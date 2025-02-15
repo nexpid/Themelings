@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/DiscoverabilityLanding.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DiscoverabilityLanding
-        _fun94023: for(var _fun94023_ip = 0; ; ) switch(_fun94023_ip) {
+        _fun94048: for(var _fun94048_ip = 0; ; ) switch(_fun94048_ip) {
  0:
             entity = _closure1_slot9;
             tango = undefined;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = echo.bind(tango)(sizing);
             sizing = sizing.toggleDiscoverabilityForUser;
             options['onPress'] = sizing;
-            if(backup) { _fun94023_ip = 667; continue _fun94023 }
+            if(backup) { _fun94048_ip = 667; continue _fun94048 }
  664:
             backup = kilo;
  667:

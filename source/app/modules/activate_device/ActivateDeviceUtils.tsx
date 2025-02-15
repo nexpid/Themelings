@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activate_device/ActivateDeviceUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: clientIdToActivateDevicePlatform
-        _fun107500: for(var _fun107500_ip = 0; ; ) switch(_fun107500_ip) {
+        _fun107493: for(var _fun107493_ip = 0; ; ) switch(_fun107493_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = zulu.bind(report)(entity);
             entity = entity.ConsoleOAuthApplications;
             entity = entity.PLAYSTATION_APPLICATION_ID;
-            if(!(tango !== entity)) { _fun107500_ip = 91; continue _fun107500 }
+            if(!(tango !== entity)) { _fun107493_ip = 91; continue _fun107493 }
  44:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -46,11 +46,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.ConsoleOAuthApplications;
             zulu = entity.PLAYSTATION_STAGING_APPLICATION_ID;
             entity = null;
-            if(!(tango === zulu)) { _fun107500_ip = 101; continue _fun107500 }
+            if(!(tango === zulu)) { _fun107493_ip = 101; continue _fun107493 }
  79:
             zulu = _closure1_slot2;
             entity = zulu.PLAYSTATION_STAGING;
-            _fun107500_ip = 101; continue _fun107500;
+            _fun107493_ip = 101; continue _fun107493;
  91:
             mike = _closure1_slot2;
             entity = mike.PLAYSTATION;

@@ -34,19 +34,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/isListeningOnSpotify.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isListeningOnSpotify
-        _fun68481: for(var _fun68481_ip = 0; ; ) switch(_fun68481_ip) {
+        _fun68487: for(var _fun68487_ip = 0; ; ) switch(_fun68487_ip) {
  0:
             mike = argFoo;
             tango = null;
             entity = tango != mike;
-            if(!entity) { _fun68481_ip = 34; continue _fun68481 }
+            if(!entity) { _fun68487_ip = 34; continue _fun68487 }
  12:
             report = mike.type;
             zulu = _closure1_slot2;
             zulu = zulu.LISTENING;
             entity = report === zulu;
  34:
-            if(!entity) { _fun68481_ip = 96; continue _fun68481 }
+            if(!entity) { _fun68487_ip = 96; continue _fun68487 }
  37:
             report = mike.name;
             options = _closure1_slot0;
@@ -62,18 +62,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.name;
             entity = report === zulu;
  96:
-            if(!entity) { _fun68481_ip = 109; continue _fun68481 }
+            if(!entity) { _fun68487_ip = 109; continue _fun68487 }
  99:
             zulu = mike.party;
             entity = tango != zulu;
  109:
-            if(!entity) { _fun68481_ip = 127; continue _fun68481 }
+            if(!entity) { _fun68487_ip = 127; continue _fun68487 }
  112:
             zulu = mike.party;
             zulu = zulu.id;
             entity = tango != zulu;
  127:
-            if(!entity) { _fun68481_ip = 155; continue _fun68481 }
+            if(!entity) { _fun68487_ip = 155; continue _fun68487 }
  130:
             tango = _closure1_slot4;
             mike = mike.party;

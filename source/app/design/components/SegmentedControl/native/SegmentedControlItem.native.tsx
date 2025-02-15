@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(golf);
     options = verify.createStyles;
     golf = function(argFoo) {
-        _fun76979: for(var _fun76979_ip = 0; ; ) switch(_fun76979_ip) {
+        _fun76989: for(var _fun76989_ip = 0; ; ) switch(_fun76989_ip) {
  0:
             entity = {};
             mike = {};
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = 8;
             oscar = 'experimental_Small';
             report = argFoo;
-            if(!(oscar === report)) { _fun76979_ip = 63; continue _fun76979 }
+            if(!(oscar === report)) { _fun76989_ip = 63; continue _fun76989 }
  60:
             zulu = tango;
  63:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/SegmentedControl/native/SegmentedControlItem.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SegmentedControlItem
-        _fun76980: for(var _fun76980_ip = 0; ; ) switch(_fun76980_ip) {
+        _fun76990: for(var _fun76990_ip = 0; ; ) switch(_fun76990_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.label;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = offset.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: T
-                _fun76982: for(var _fun76982_ip = 0; ; ) switch(_fun76982_ip) {
+                _fun76992: for(var _fun76992_ip = 0; ; ) switch(_fun76992_ip) {
  0:
                     mike = _closure2_slot3;
                     oscar = mike.inactive;
@@ -171,19 +171,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = verify.get;
                     mike = mike.bind(verify)();
                     mike = golf.bind(options)(mike);
-                    if(!(report !== zulu)) { _fun76982_ip = 111; continue _fun76982 }
+                    if(!(report !== zulu)) { _fun76992_ip = 111; continue _fun76992 }
  80:
-                    if(tango) { _fun76982_ip = 99; continue _fun76982 }
+                    if(tango) { _fun76992_ip = 99; continue _fun76992 }
  83:
-                    if(!(mike === zulu)) { _fun76982_ip = 121; continue _fun76982 }
+                    if(!(mike === zulu)) { _fun76992_ip = 121; continue _fun76992 }
  87:
                     mike = _closure2_slot3;
                     oscar = mike.active;
-                    _fun76982_ip = 121; continue _fun76982;
+                    _fun76992_ip = 121; continue _fun76992;
  99:
                     mike = _closure2_slot3;
                     oscar = mike.inactive;
-                    _fun76982_ip = 121; continue _fun76982;
+                    _fun76992_ip = 121; continue _fun76992;
  111:
                     entity = _closure2_slot3;
                     oscar = entity.pressed;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['style'] = romeo;
             foxtrot = 'experimental_Large';
             romeo = undefined;
-            if(!(foxtrot === backup)) { _fun76980_ip = 397; continue _fun76980 }
+            if(!(foxtrot === backup)) { _fun76990_ip = 397; continue _fun76990 }
  387:
             romeo = 1.5;
  397:

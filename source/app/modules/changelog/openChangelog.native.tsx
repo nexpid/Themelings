@@ -28,16 +28,16 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/changelog/openChangelog.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: openChangelog
-        _fun123251: for(var _fun123251_ip = 0; ; ) switch(_fun123251_ip) {
+        _fun123256: for(var _fun123256_ip = 0; ; ) switch(_fun123256_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun123251_ip = 11; continue _fun123251 }
+            if(!(mike === entity)) { _fun123256_ip = 11; continue _fun123256 }
  9:
             mike = false;
  11:
             mike = !mike;
-            if(!mike) { _fun123251_ip = 50; continue _fun123251 }
+            if(!mike) { _fun123256_ip = 50; continue _fun123256 }
  17:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = tango.isModalOpen;
             mike = zulu.bind(tango)();
  50:
-            if(mike) { _fun123251_ip = 129; continue _fun123251 }
+            if(mike) { _fun123256_ip = 129; continue _fun123256 }
  53:
             report = _closure1_slot1;
             zulu = _closure1_slot2;

@@ -65,7 +65,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun94459: for(var _fun94459_ip = 0; ; ) switch(_fun94459_ip) {
+            _fun94484: for(var _fun94484_ip = 0; ; ) switch(_fun94484_ip) {
  0:
                 mike = _closure1_slot2;
                 entity = mike.getCurrentUser;
@@ -73,7 +73,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun94459_ip = 33; continue _fun94459 }
+                if(zulu) { _fun94484_ip = 33; continue _fun94484 }
  27:
                 entity = mike.globalName;
  33:

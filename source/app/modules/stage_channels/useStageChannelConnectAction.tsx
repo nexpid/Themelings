@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/stage_channels/useStageChannelConnectAction.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: useStageChannelConnectAction
-        _fun76142: for(var _fun76142_ip = 0; ; ) switch(_fun76142_ip) {
+        _fun76152: for(var _fun76152_ip = 0; ; ) switch(_fun76152_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -48,13 +48,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = true;
             entity = tango.bind(report)(oscar, entity);
             entity = entity.moderator;
-            if(zulu) { _fun76142_ip = 76; continue _fun76142 }
+            if(zulu) { _fun76152_ip = 76; continue _fun76152 }
  61:
-            if(!entity) { _fun76142_ip = 76; continue _fun76142 }
+            if(!entity) { _fun76152_ip = 76; continue _fun76152 }
  64:
             entity = _closure1_slot2;
             entity = entity.START_EVENT;
-            _fun76142_ip = 86; continue _fun76142;
+            _fun76152_ip = 86; continue _fun76152;
  76:
             mike = _closure1_slot2;
             entity = mike.NORMAL;

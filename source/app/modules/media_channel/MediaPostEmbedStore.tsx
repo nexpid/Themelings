@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun71985: for(var _fun71985_ip = 0; ; ) switch(_fun71985_ip) {
+        _fun71991: for(var _fun71991_ip = 0; ; ) switch(_fun71991_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun71985_ip = 51; continue _fun71985 }
+            if(entity) { _fun71991_ip = 51; continue _fun71991 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun71985_ip = 92; continue _fun71985;
+            _fun71991_ip = 92; continue _fun71991;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun71985_ip = 71; continue _fun71985 }
+            if(oscar) { _fun71991_ip = 71; continue _fun71991 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun71986: for(var _fun71986_ip = 0; ; ) switch(_fun71986_ip) {
+        _fun71992: for(var _fun71992_ip = 0; ; ) switch(_fun71992_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun71986_ip = 76; continue _fun71986;
+            _fun71992_ip = 76; continue _fun71992;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -151,11 +151,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'getMediaPostEmbed';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun71991: for(var _fun71991_ip = 0; ; ) switch(_fun71991_ip) {
+            _fun71997: for(var _fun71997_ip = 0; ; ) switch(_fun71997_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity == mike)) { _fun71991_ip = 13; continue _fun71991 }
+                if(!(entity == mike)) { _fun71997_ip = 13; continue _fun71997 }
  9:
                 entity = undefined;
                 return entity;
@@ -172,13 +172,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getEmbedFetchState';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun71992: for(var _fun71992_ip = 0; ; ) switch(_fun71992_ip) {
+            _fun71998: for(var _fun71998_ip = 0; ; ) switch(_fun71998_ip) {
  0:
                 zulu = _closure1_slot7;
                 entity = argFoo;
                 entity = zulu[entity];
                 zulu = null;
-                if(!(zulu == entity)) { _fun71992_ip = 30; continue _fun71992 }
+                if(!(zulu == entity)) { _fun71998_ip = 30; continue _fun71998 }
  20:
                 mike = _closure1_slot5;
                 entity = mike.NOT_FETCHED;
@@ -257,11 +257,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['MEDIA_POST_EMBED_FETCH_FAILURE'] = verify;
     report = function(argFoo) { // Original name: handleLogout
-        _fun71998: for(var _fun71998_ip = 0; ; ) switch(_fun71998_ip) {
+        _fun72004: for(var _fun72004_ip = 0; ; ) switch(_fun72004_ip) {
  0:
             entity = argFoo;
             entity = entity.isSwitchingAccount;
-            if(entity) { _fun71998_ip = 27; continue _fun71998 }
+            if(entity) { _fun72004_ip = 27; continue _fun72004 }
  12:
             entity = {};
             _closure1_slot6 = entity;

@@ -24,24 +24,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isOnPlayStation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isOnPlayStation
-        _fun80291: for(var _fun80291_ip = 0; ; ) switch(_fun80291_ip) {
+        _fun80303: for(var _fun80303_ip = 0; ; ) switch(_fun80303_ip) {
  0:
             tango = argFoo;
             report = null;
             entity = report == tango;
             oscar = undefined;
-            if(entity) { _fun80291_ip = 20; continue _fun80291 }
+            if(entity) { _fun80303_ip = 20; continue _fun80303 }
  14:
             oscar = tango.platform;
  20:
             entity = _closure1_slot0;
             entity = entity.PS4;
             entity = oscar === entity;
-            if(entity) { _fun80291_ip = 69; continue _fun80291 }
+            if(entity) { _fun80303_ip = 69; continue _fun80303 }
  40:
             report = report == tango;
             zulu = undefined;
-            if(report) { _fun80291_ip = 55; continue _fun80291 }
+            if(report) { _fun80303_ip = 55; continue _fun80303 }
  49:
             zulu = tango.platform;
  55:

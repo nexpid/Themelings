@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun115123: for(var _fun115123_ip = 0; ; ) switch(_fun115123_ip) {
+                _fun115129: for(var _fun115129_ip = 0; ; ) switch(_fun115129_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun115123_ip = 430; continue _fun115123 }
+                    if(zulu) { _fun115129_ip = 430; continue _fun115129 }
  13:
                     golf = mike.assetsToLoad;
                     offset = mike.drawImage;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun115123_ip = 427; continue _fun115123 }
+                    if(zulu) { _fun115129_ip = 427; continue _fun115129 }
  46:
                     tango = _closure1_slot0;
                     options = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  84:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun115123_ip = 424; continue _fun115123 }
+                    if(tango) { _fun115129_ip = 424; continue _fun115129 }
  93:
                     tango = zulu.loadFonts;
                     tango = tango.bind(zulu)();
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  109:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun115123_ip = 421; continue _fun115123 }
+                    if(golf) { _fun115129_ip = 421; continue _fun115129 }
  118:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = 1000;
                     romeo = yankee.bind(romeo)(options, options);
                     options = null;
-                    if(!(options != romeo)) { _fun115123_ip = 385; continue _fun115123 }
+                    if(!(options != romeo)) { _fun115129_ip = 385; continue _fun115129 }
  211:
                     yankee = options == romeo;
                     options = undefined;
-                    if(yankee) { _fun115123_ip = 230; continue _fun115123 }
+                    if(yankee) { _fun115129_ip = 230; continue _fun115129 }
  220:
                     yankee = romeo.getCanvas;
                     options = yankee.bind(romeo)();

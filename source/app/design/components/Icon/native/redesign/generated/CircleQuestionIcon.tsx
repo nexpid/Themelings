@@ -41,18 +41,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CircleQuestionIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91376: for(var _fun91376_ip = 0; ; ) switch(_fun91376_ip) {
+        _fun91405: for(var _fun91405_ip = 0; ; ) switch(_fun91405_ip) {
  0:
             zulu = argFoo;
             offset = zulu.style;
             foxtrot = zulu.secondaryColor;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun91376_ip = 24; continue _fun91376 }
+            if(!(foxtrot === tango)) { _fun91405_ip = 24; continue _fun91405 }
  20:
             foxtrot = 'transparent';
  24:
             yankee = zulu.color;
-            if(!(yankee === tango)) { _fun91376_ip = 67; continue _fun91376 }
+            if(!(yankee === tango)) { _fun91405_ip = 67; continue _fun91405 }
  33:
             mike = _closure1_slot1;
             report = _closure1_slot2;

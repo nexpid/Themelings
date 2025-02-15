@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/useCustomStatusActivityForUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCustomStatusActivityForUser
-        _fun77777: for(var _fun77777_ip = 0; ; ) switch(_fun77777_ip) {
+        _fun77787: for(var _fun77787_ip = 0; ; ) switch(_fun77787_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = report.bind(oscar)(tango, entity);
-            if(!zulu) { _fun77777_ip = 131; continue _fun77777 }
+            if(!zulu) { _fun77787_ip = 131; continue _fun77787 }
  128:
             entity = mike;
  131:

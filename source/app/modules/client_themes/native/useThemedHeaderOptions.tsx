@@ -70,10 +70,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun118320: for(var _fun118320_ip = 0; ; ) switch(_fun118320_ip) {
+            _fun118326: for(var _fun118326_ip = 0; ; ) switch(_fun118326_ip) {
  0:
                 entity = _closure2_slot0;
-                if(entity) { _fun118320_ip = 19; continue _fun118320 }
+                if(entity) { _fun118326_ip = 19; continue _fun118326 }
  13:
                 entity = _closure1_slot5;
                 return entity;
@@ -86,7 +86,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 report = report.bind(oscar)(tango);
                 tango = report.isIOS;
                 tango = tango.bind(report)();
-                if(tango) { _fun118320_ip = 82; continue _fun118320 }
+                if(tango) { _fun118326_ip = 82; continue _fun118326 }
  54:
                 tango = {};
                 report = _closure1_slot6;
@@ -100,7 +100,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = 50;
                 report = report > tango;
                 tango = 0;
-                if(!report) { _fun118320_ip = 101; continue _fun118320 }
+                if(!report) { _fun118326_ip = 101; continue _fun118326 }
  98:
                 tango = entity;
  101:
@@ -112,7 +112,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 entity = report.isIpadOS;
                 entity = entity.bind(report)();
                 report = 44;
-                if(!entity) { _fun118320_ip = 140; continue _fun118320 }
+                if(!entity) { _fun118326_ip = 140; continue _fun118326 }
  137:
                 report = 46;
  140:

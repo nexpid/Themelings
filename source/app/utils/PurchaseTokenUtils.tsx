@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function() { // Original name: getPurchaseToken
-        _fun56037: for(var _fun56037_ip = 0; ; ) switch(_fun56037_ip) {
+        _fun56040: for(var _fun56040_ip = 0; ; ) switch(_fun56040_ip) {
  0:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -20,14 +20,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot3;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun56037_ip = 78; continue _fun56037 }
+            if(!(mike != entity)) { _fun56040_ip = 78; continue _fun56040 }
  51:
             zulu = entity.expires;
             mike = global;
             tango = mike.Date;
             mike = tango.now;
             mike = mike.bind(tango)();
-            if(!(!(zulu >= mike))) { _fun56037_ip = 177; continue _fun56037 }
+            if(!(!(zulu >= mike))) { _fun56040_ip = 177; continue _fun56040 }
  78:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun56040: for(var _fun56040_ip = 0; ; ) switch(_fun56040_ip) {
+                _fun56043: for(var _fun56043_ip = 0; ; ) switch(_fun56043_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun56040_ip = 220; continue _fun56040 }
+                    if(mike) { _fun56043_ip = 220; continue _fun56043 }
  10:
                     zulu = global;
                     oscar = zulu.Uint8Array;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  130:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun56040_ip = 217; continue _fun56040 }
+                    if(tango) { _fun56043_ip = 217; continue _fun56043 }
  136:
                     tango = zulu.btoa;
                     golf = zulu.String;

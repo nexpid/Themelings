@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot17 = tango;
     tango = function(argFoo) { // Original name: GuildTemplatesJoinFooter
-        _fun93491: for(var _fun93491_ip = 0; ; ) switch(_fun93491_ip) {
+        _fun93516: for(var _fun93516_ip = 0; ; ) switch(_fun93516_ip) {
  0:
             entity = argFoo;
             zulu = entity.trigger;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.bottom;
             mike = _closure1_slot10;
             mike = mike.NUF;
-            if(!(zulu !== mike)) { _fun93491_ip = 168; continue _fun93491 }
+            if(!(zulu !== mike)) { _fun93516_ip = 168; continue _fun93516 }
  111:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.riOUtL;
             romeo = zulu.bind(report)(mike);
-            _fun93491_ip = 223; continue _fun93491;
+            _fun93516_ip = 223; continue _fun93516;
  168:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -328,17 +328,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['style'] = foxtrot;
             options['text'] = romeo;
             yankee = function() { // Original name: onPress
-                _fun93493: for(var _fun93493_ip = 0; ; ) switch(_fun93493_ip) {
+                _fun93518: for(var _fun93518_ip = 0; ; ) switch(_fun93518_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot10;
                     zulu = zulu.NUF;
-                    if(!(tango !== zulu)) { _fun93493_ip = 107; continue _fun93493 }
+                    if(!(tango !== zulu)) { _fun93518_ip = 107; continue _fun93518 }
  24:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot10;
                     zulu = zulu.IN_APP;
-                    if(!(tango === zulu)) { _fun93493_ip = 203; continue _fun93493 }
+                    if(!(tango === zulu)) { _fun93518_ip = 203; continue _fun93518 }
  45:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = golf.CREATE_JOIN_GUILD_MODAL;
                     zulu['location_section'] = golf;
                     zulu = report.bind(oscar)(tango, zulu);
-                    _fun93493_ip = 203; continue _fun93493;
+                    _fun93518_ip = 203; continue _fun93518;
  107:
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -438,17 +438,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[1] = golf;
         zulu[2] = mike;
         mike = function() {
-            _fun93495: for(var _fun93495_ip = 0; ; ) switch(_fun93495_ip) {
+            _fun93520: for(var _fun93520_ip = 0; ; ) switch(_fun93520_ip) {
  0:
                 tango = _closure2_slot0;
                 zulu = _closure1_slot10;
                 zulu = zulu.NUF;
-                if(!(tango !== zulu)) { _fun93495_ip = 129; continue _fun93495 }
+                if(!(tango !== zulu)) { _fun93520_ip = 129; continue _fun93520 }
  24:
                 tango = _closure2_slot0;
                 zulu = _closure1_slot10;
                 zulu = zulu.IN_APP;
-                if(!(tango === zulu)) { _fun93495_ip = 209; continue _fun93495 }
+                if(!(tango === zulu)) { _fun93520_ip = 209; continue _fun93520 }
  45:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -466,13 +466,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = null;
                 options = golf != options;
                 golf = 'Guild List';
-                if(!options) { _fun93495_ip = 117; continue _fun93495 }
+                if(!options) { _fun93520_ip = 117; continue _fun93520 }
  113:
                 golf = _closure2_slot1;
  117:
                 zulu['source'] = golf;
                 zulu = report.bind(oscar)(tango, zulu);
-                _fun93495_ip = 209; continue _fun93495;
+                _fun93520_ip = 209; continue _fun93520;
  129:
                 report = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -483,11 +483,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = report.trackNUFStep;
                 oscar = _closure2_slot2;
                 zulu = null;
-                if(!(zulu == oscar)) { _fun93495_ip = 179; continue _fun93495 }
+                if(!(zulu == oscar)) { _fun93520_ip = 179; continue _fun93520 }
  167:
                 zulu = _closure1_slot11;
                 zulu = zulu.STEP_REGISTRATION;
-                _fun93495_ip = 183; continue _fun93495;
+                _fun93520_ip = 183; continue _fun93520;
  179:
                 zulu = _closure2_slot2;
  183:
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         mike = oscar.bind(report)(mike, zulu);
         update = function(argFoo) { // Original name: onGuildTemplatePress
-            _fun93496: for(var _fun93496_ip = 0; ; ) switch(_fun93496_ip) {
+            _fun93521: for(var _fun93521_ip = 0; ; ) switch(_fun93521_ip) {
  0:
                 report = argFoo;
                 golf = _closure2_slot3;
@@ -518,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = oscar.bind(golf)(tango, mike);
                 mike = _closure1_slot10;
                 mike = mike.IN_APP;
-                if(!(zulu === mike)) { _fun93496_ip = 119; continue _fun93496 }
+                if(!(zulu === mike)) { _fun93521_ip = 119; continue _fun93521 }
  64:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;

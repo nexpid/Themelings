@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: wrapURL
-        _fun43928: for(var _fun43928_ip = 0; ; ) switch(_fun43928_ip) {
+        _fun43936: for(var _fun43936_ip = 0; ; ) switch(_fun43936_ip) {
  0:
             mike = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun43928_ip = 16; continue _fun43928 }
+            if(!(mike === entity)) { _fun43936_ip = 16; continue _fun43936 }
  9:
             mike = _closure1_slot5;
  16:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['getCommunityURL'] = options;
     options = function(argFoo) { // Original name: getSubmitRequestURL
-        _fun43935: for(var _fun43935_ip = 0; ; ) switch(_fun43935_ip) {
+        _fun43943: for(var _fun43943_ip = 0; ; ) switch(_fun43943_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot7;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(entity);
             tango = null;
             entity = zulu;
-            if(!(tango != oscar)) { _fun43935_ip = 144; continue _fun43935 }
+            if(!(tango != oscar)) { _fun43943_ip = 144; continue _fun43943 }
  107:
             tango = mike.encodeURIComponent;
             report = tango.bind(report)(oscar);

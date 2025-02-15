@@ -44,18 +44,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun98893: for(var _fun98893_ip = 0; ; ) switch(_fun98893_ip) {
+            _fun98903: for(var _fun98903_ip = 0; ; ) switch(_fun98903_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = null;
                 mike = tango == entity;
                 entity = null;
-                if(mike) { _fun98893_ip = 85; continue _fun98893 }
+                if(mike) { _fun98903_ip = 85; continue _fun98903 }
  18:
                 mike = _closure2_slot1;
                 mike = tango == mike;
                 entity = null;
-                if(mike) { _fun98893_ip = 85; continue _fun98893 }
+                if(mike) { _fun98903_ip = 85; continue _fun98903 }
  31:
                 mike = {};
                 oscar = _closure1_slot0;

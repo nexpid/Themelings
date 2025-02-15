@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_icons/native/AppIconsCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppIconsCoachmarkActionSheet
-        _fun120771: for(var _fun120771_ip = 0; ; ) switch(_fun120771_ip) {
+        _fun120777: for(var _fun120777_ip = 0; ; ) switch(_fun120777_ip) {
  0:
             entity = argFoo;
             entity = entity.markAsDismissed;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun120773: for(var _fun120773_ip = 0; ; ) switch(_fun120773_ip) {
+                _fun120779: for(var _fun120779_ip = 0; ; ) switch(_fun120779_ip) {
  0:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.bind(tango)();
                     report = _closure2_slot0;
                     tango = null;
-                    if(!(tango != report)) { _fun120773_ip = 67; continue _fun120773 }
+                    if(!(tango != report)) { _fun120779_ip = 67; continue _fun120779 }
  48:
                     zulu = _closure2_slot0;
                     mike = _closure1_slot7;
@@ -252,11 +252,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing[result];
             sizing = update.bind(tango)(sizing);
             sizing = sizing.t;
-            if(backup) { _fun120771_ip = 546; continue _fun120771 }
+            if(backup) { _fun120777_ip = 546; continue _fun120777 }
  533:
             backup = sizing.D0XzaW;
             backup = output.bind(echo)(backup);
-            _fun120771_ip = 557; continue _fun120771;
+            _fun120777_ip = 557; continue _fun120777;
  546:
             sizing = sizing.IgchKC;
             backup = output.bind(echo)(sizing);
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = echo.bind(update)(sizing);
             verify['text'] = sizing;
             kilo = function() { // Original name: onPress
-                _fun120775: for(var _fun120775_ip = 0; ; ) switch(_fun120775_ip) {
+                _fun120781: for(var _fun120781_ip = 0; ; ) switch(_fun120781_ip) {
  0:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.bind(tango)();
                     report = _closure2_slot0;
                     tango = null;
-                    if(!(tango != report)) { _fun120775_ip = 67; continue _fun120775 }
+                    if(!(tango != report)) { _fun120781_ip = 67; continue _fun120781 }
  48:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot7;

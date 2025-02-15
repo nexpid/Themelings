@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/settings/renderer/hooks/useAutoScrollToSetting.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useAutoScrollToSearchResultSetting
-        _fun99973: for(var _fun99973_ip = 0; ; ) switch(_fun99973_ip) {
+        _fun99982: for(var _fun99982_ip = 0; ; ) switch(_fun99982_ip) {
  0:
             options = argFoo;
             offset = argBar;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = null;
             tango = tango == oscar;
             verify = false;
-            if(tango) { _fun99973_ip = 180; continue _fun99973 }
+            if(tango) { _fun99982_ip = 180; continue _fun99982 }
  78:
             report = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = _closure1_slot5;
             tango = tango.ROUTE;
             verify = false;
-            if(!(report !== tango)) { _fun99973_ip = 180; continue _fun99973 }
+            if(!(report !== tango)) { _fun99982_ip = 180; continue _fun99982 }
  129:
             report = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee = tango.bind(report)(oscar, offset);
             tango = 0;
             tango = tango !== yankee;
-            if(!tango) { _fun99973_ip = 177; continue _fun99973 }
+            if(!tango) { _fun99982_ip = 177; continue _fun99982 }
  170:
             report = 1;
             tango = report !== yankee;
@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 tango = report.addListener;
                 zulu = 'transitionEnd';
                 mike = function() {
-                    _fun99975: for(var _fun99975_ip = 0; ; ) switch(_fun99975_ip) {
+                    _fun99984: for(var _fun99984_ip = 0; ; ) switch(_fun99984_ip) {
  0:
                         entity = _closure2_slot4;
-                        if(!entity) { _fun99975_ip = 124; continue _fun99975 }
+                        if(!entity) { _fun99984_ip = 124; continue _fun99984 }
  10:
                         tango = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -120,19 +120,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         mike = _closure2_slot1;
                         report = report.bind(oscar)(tango, mike);
                         oscar = null;
-                        if(!(oscar != report)) { _fun99975_ip = 128; continue _fun99975 }
+                        if(!(oscar != report)) { _fun99984_ip = 128; continue _fun99984 }
  61:
                         mike = _closure2_slot0;
                         mike = oscar == mike;
                         tango = undefined;
-                        if(mike) { _fun99975_ip = 90; continue _fun99975 }
+                        if(mike) { _fun99984_ip = 90; continue _fun99984 }
  74:
                         zulu = _closure2_slot0;
                         zulu = zulu.current;
                         mike = oscar == zulu;
                         tango = zulu;
  90:
-                        if(mike) { _fun99975_ip = 124; continue _fun99975 }
+                        if(mike) { _fun99984_ip = 124; continue _fun99984 }
  93:
                         zulu = tango.scrollToIndex;
                         mike = {'index': null, 'animated': false, 'viewOffset': 300};

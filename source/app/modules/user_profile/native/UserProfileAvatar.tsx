@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileAvatar
-        _fun77403: for(var _fun77403_ip = 0; ; ) switch(_fun77403_ip) {
+        _fun77413: for(var _fun77413_ip = 0; ; ) switch(_fun77413_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.backgroundColor;
             offset = zulu.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun77403_ip = 26; continue _fun77403 }
+            if(!(offset === tango)) { _fun77413_ip = 26; continue _fun77413 }
  19:
             offset = _closure1_slot3;
  26:

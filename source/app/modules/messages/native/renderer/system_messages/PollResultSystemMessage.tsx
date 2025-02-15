@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/system_messages/PollResultSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createPollResultSystemMessage
-        _fun72574: for(var _fun72574_ip = 0; ; ) switch(_fun72574_ip) {
+        _fun72580: for(var _fun72580_ip = 0; ; ) switch(_fun72580_ip) {
  0:
             oscar = argFoo;
             mike = _closure1_slot1;
@@ -53,11 +53,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity[tango];
             golf = mike.bind(report)(entity);
             entity = null;
-            if(!(entity != golf)) { _fun72574_ip = 1050; continue _fun72574 }
+            if(!(entity != golf)) { _fun72580_ip = 1050; continue _fun72580 }
  59:
             mike = oscar.message;
             mike = mike.messageReference;
-            if(!(entity != mike)) { _fun72574_ip = 1048; continue _fun72574 }
+            if(!(entity != mike)) { _fun72580_ip = 1048; continue _fun72580 }
  77:
             verify = oscar.message;
             romeo = oscar.roleStyle;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['colorString'] = yankee;
             foxtrot = 'username';
             options = null;
-            if(!(foxtrot === romeo)) { _fun72574_ip = 182; continue _fun72574 }
+            if(!(foxtrot === romeo)) { _fun72580_ip = 182; continue _fun72580 }
  179:
             options = yankee;
  182:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['roleColor'] = yankee;
             options = 'dot';
             options = options === romeo;
-            if(!options) { _fun72574_ip = 207; continue _fun72574 }
+            if(!options) { _fun72580_ip = 207; continue _fun72580 }
  203:
             options = entity != yankee;
  207:
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['medium'] = options;
             offset['titleOnClick'] = mike;
             mike = golf.totalVotes;
-            if(!(tango !== mike)) { _fun72574_ip = 900; continue _fun72574 }
+            if(!(tango !== mike)) { _fun72580_ip = 900; continue _fun72580 }
  314:
             mike = global;
             verify = mike.Math;
@@ -130,14 +130,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = '%';
             romeo = options.bind(tango)(verify, mike);
             mike = golf.victorAnswerId;
-            if(!(entity != mike)) { _fun72574_ip = 820; continue _fun72574 }
+            if(!(entity != mike)) { _fun72580_ip = 820; continue _fun72580 }
  393:
             foxtrot = new Array(0);
             kilo = golf.victorEmoji;
-            if(!(entity != kilo)) { _fun72574_ip = 673; continue _fun72574 }
+            if(!(entity != kilo)) { _fun72580_ip = 673; continue _fun72580 }
  410:
             mike = kilo.id;
-            if(!(entity == mike)) { _fun72574_ip = 497; continue _fun72574 }
+            if(!(entity == mike)) { _fun72580_ip = 497; continue _fun72580 }
  419:
             tango = foxtrot.push;
             mike = {};
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.name;
             mike['surrogate'] = options;
             mike = tango.bind(foxtrot)(mike);
-            _fun72574_ip = 649; continue _fun72574;
+            _fun72580_ip = 649; continue _fun72580;
  497:
             tango = foxtrot.push;
             mike = {};
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = 'percentage';
             mike[verify] = romeo;
             tango = golf.bind(options)(tango, mike);
-            _fun72574_ip = 1003; continue _fun72574;
+            _fun72580_ip = 1003; continue _fun72580;
  820:
             golf = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = 'percentage';
             mike[yankee] = romeo;
             tango = options.bind(verify)(golf, mike);
-            _fun72574_ip = 1003; continue _fun72574;
+            _fun72580_ip = 1003; continue _fun72580;
  900:
             golf = _closure1_slot0;
             yankee = _closure1_slot2;

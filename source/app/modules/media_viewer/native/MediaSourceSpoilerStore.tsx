@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['useMediaSourceSpoilerStore'] = tango;
     tango = function(argFoo) { // Original name: removeSpoiler
-        _fun85395: for(var _fun85395_ip = 0; ; ) switch(_fun85395_ip) {
+        _fun85412: for(var _fun85412_ip = 0; ; ) switch(_fun85412_ip) {
  0:
             mike = global;
             report = mike.Set;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = report.delete;
             zulu = argFoo;
             zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun85395_ip = 113; continue _fun85395 }
+            if(!zulu) { _fun85412_ip = 113; continue _fun85412 }
  73:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['addSpoiler'] = tango;
     tango = function(argFoo) { // Original name: toggleSpoiler
-        _fun85399: for(var _fun85399_ip = 0; ; ) switch(_fun85399_ip) {
+        _fun85416: for(var _fun85416_ip = 0; ; ) switch(_fun85416_ip) {
  0:
             report = argFoo;
             entity = global;
@@ -136,11 +136,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = tango;
             zulu = tango.has;
             zulu = zulu.bind(tango)(report);
-            if(zulu) { _fun85399_ip = 85; continue _fun85399 }
+            if(zulu) { _fun85416_ip = 85; continue _fun85416 }
  73:
             zulu = tango.add;
             zulu = zulu.bind(tango)(report);
-            _fun85399_ip = 95; continue _fun85399;
+            _fun85416_ip = 95; continue _fun85416;
  85:
             zulu = tango.delete;
             zulu = zulu.bind(tango)(report);

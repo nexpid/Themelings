@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     tango = function(argFoo, argBar) { // Original name: onConnectToConsole
-        _fun103388: for(var _fun103388_ip = 0; ; ) switch(_fun103388_ip) {
+        _fun103380: for(var _fun103380_ip = 0; ; ) switch(_fun103380_ip) {
  0:
             mike = argBar;
             golf = _closure1_slot0;
@@ -25,10 +25,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.DONUT_MOBILE_NUX;
             zulu = report.bind(oscar)(zulu);
             zulu = mike.twoWayLink;
-            if(!zulu) { _fun103388_ip = 123; continue _fun103388 }
+            if(!zulu) { _fun103380_ip = 123; continue _fun103380 }
  72:
             zulu = mike.revoked;
-            if(zulu) { _fun103388_ip = 123; continue _fun103388 }
+            if(zulu) { _fun103380_ip = 123; continue _fun103380 }
  81:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -44,15 +44,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.type;
             zulu = _closure1_slot5;
             zulu = zulu.XBOX;
-            if(!(zulu !== report)) { _fun103388_ip = 229; continue _fun103388 }
+            if(!(zulu !== report)) { _fun103380_ip = 229; continue _fun103380 }
  142:
             zulu = _closure1_slot5;
             zulu = zulu.PLAYSTATION;
-            if(!(zulu !== report)) { _fun103388_ip = 172; continue _fun103388 }
+            if(!(zulu !== report)) { _fun103380_ip = 172; continue _fun103380 }
  156:
             zulu = _closure1_slot5;
             zulu = zulu.PLAYSTATION_STAGING;
-            if(!(zulu !== report)) { _fun103388_ip = 172; continue _fun103388 }
+            if(!(zulu !== report)) { _fun103380_ip = 172; continue _fun103380 }
  170:
             return tango;
  172:

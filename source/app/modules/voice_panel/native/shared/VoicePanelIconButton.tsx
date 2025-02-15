@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun121825: for(var _fun121825_ip = 0; ; ) switch(_fun121825_ip) {
+        _fun121831: for(var _fun121831_ip = 0; ; ) switch(_fun121831_ip) {
  0:
             zulu = argFoo;
             romeo = zulu.style;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[offset] = yankee;
             offset = verify != golf;
             verify = 'secondary-overlay';
-            if(!offset) { _fun121825_ip = 164; continue _fun121825 }
+            if(!offset) { _fun121831_ip = 164; continue _fun121831 }
  161:
             verify = golf;
  164:

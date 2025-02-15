@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ClydeIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun77727: for(var _fun77727_ip = 0; ; ) switch(_fun77727_ip) {
+        _fun77737: for(var _fun77737_ip = 0; ; ) switch(_fun77737_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun77727_ip = 53; continue _fun77727 }
+            if(!(golf === tango)) { _fun77737_ip = 53; continue _fun77737 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

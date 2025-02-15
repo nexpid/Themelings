@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/voice/redesign/NewUserSettingsVoiceOutputOptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: NewUserSettingsVoiceOutputOptions
-        _fun103108: for(var _fun103108_ip = 0; ; ) switch(_fun103108_ip) {
+        _fun103100: for(var _fun103100_ip = 0; ; ) switch(_fun103100_ip) {
  0:
             entity = _closure1_slot11;
             tango = undefined;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot6;
             report[1] = zulu;
             zulu = function() {
-                _fun103110: for(var _fun103110_ip = 0; ; ) switch(_fun103110_ip) {
+                _fun103102: for(var _fun103102_ip = 0; ; ) switch(_fun103102_ip) {
  0:
                     mike = _closure1_slot5;
                     entity = mike.getLastActiveStream;
@@ -107,14 +107,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     tango = report != mike;
                     entity = null;
-                    if(!tango) { _fun103110_ip = 57; continue _fun103110 }
+                    if(!tango) { _fun103102_ip = 57; continue _fun103102 }
  28:
                     tango = mike.ownerId;
                     oscar = _closure1_slot6;
                     zulu = oscar.getId;
                     zulu = zulu.bind(oscar)();
                     entity = null;
-                    if(!(tango !== zulu)) { _fun103110_ip = 57; continue _fun103110 }
+                    if(!(tango !== zulu)) { _fun103102_ip = 57; continue _fun103102 }
  54:
                     entity = mike;
  57:
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun103111: for(var _fun103111_ip = 0; ; ) switch(_fun103111_ip) {
+                _fun103103: for(var _fun103103_ip = 0; ; ) switch(_fun103103_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
                     mike = entity != mike;
                     entity = 0;
-                    if(!mike) { _fun103111_ip = 57; continue _fun103111 }
+                    if(!mike) { _fun103103_ip = 57; continue _fun103103 }
  18:
                     report = _closure1_slot7;
                     tango = report.getLocalVolume;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = null;
             oscar = oscar != options;
-            if(!oscar) { _fun103108_ip = 579; continue _fun103108 }
+            if(!oscar) { _fun103100_ip = 579; continue _fun103100 }
  435:
             verify = _closure1_slot9;
             echo = _closure1_slot0;

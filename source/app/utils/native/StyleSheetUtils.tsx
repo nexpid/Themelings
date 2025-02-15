@@ -11,27 +11,27 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = report.bind(oscar)(zulu, entity, mike);
     mike = {};
     entity = function(argFoo, argBar) { // Original name: getStyleProp
-        _fun48648: for(var _fun48648_ip = 0; ; ) switch(_fun48648_ip) {
+        _fun48655: for(var _fun48655_ip = 0; ; ) switch(_fun48655_ip) {
  0:
             options = argFoo;
             golf = argBar;
             oscar = null;
-            if(!(oscar != golf)) { _fun48648_ip = 110; continue _fun48648 }
+            if(!(oscar != golf)) { _fun48655_ip = 110; continue _fun48655 }
  12:
             entity = '';
-            if(!(entity !== golf)) { _fun48648_ip = 110; continue _fun48648 }
+            if(!(entity !== golf)) { _fun48655_ip = 110; continue _fun48655 }
  20:
             entity = global;
             mike = entity.Array;
             entity = mike.isArray;
             entity = entity.bind(mike)(options);
-            if(entity) { _fun48648_ip = 62; continue _fun48648 }
+            if(entity) { _fun48655_ip = 62; continue _fun48655 }
  41:
-            if(!(oscar != options)) { _fun48648_ip = 110; continue _fun48648 }
+            if(!(oscar != options)) { _fun48655_ip = 110; continue _fun48655 }
  45:
             mike = 'object';
             entity = typeof options;
-            if(!(mike === entity)) { _fun48648_ip = 110; continue _fun48648 }
+            if(!(mike === entity)) { _fun48655_ip = 110; continue _fun48655 }
  56:
             entity = options[golf];
             return entity;
@@ -41,15 +41,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = mike - entity;
             tango = 0;
             mike = undefined;
-            if(!(report >= tango)) { _fun48648_ip = 110; continue _fun48648 }
+            if(!(report >= tango)) { _fun48655_ip = 110; continue _fun48655 }
  85:
             verify = _closure1_slot0;
             entity = options[report];
             entity = verify.bind(mike)(entity, golf);
-            if(!(oscar == entity)) { _fun48648_ip = 114; continue _fun48648 }
+            if(!(oscar == entity)) { _fun48655_ip = 114; continue _fun48655 }
  103:
             report = report - 1;
-            if(report >= tango) { _fun48648_ip = 85; continue _fun48648 }
+            if(report >= tango) { _fun48655_ip = 85; continue _fun48655 }
  110:
             mike = undefined;
             return mike;

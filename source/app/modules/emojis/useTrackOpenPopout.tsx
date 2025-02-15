@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = oscar[zulu];
         zulu = report.bind(tango)(zulu);
         mike = function() {
-            _fun84625: for(var _fun84625_ip = 0; ; ) switch(_fun84625_ip) {
+            _fun84641: for(var _fun84641_ip = 0; ; ) switch(_fun84641_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.TrackOpenPopoutUsed;
                 zulu = tango.bind(report)(zulu);
                 zulu = _closure2_slot2;
-                if(zulu) { _fun84625_ip = 164; continue _fun84625 }
+                if(zulu) { _fun84641_ip = 164; continue _fun84641 }
  56:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -112,14 +112,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = null;
                 verify = golf == options;
                 options = undefined;
-                if(verify) { _fun84625_ip = 118; continue _fun84625 }
+                if(verify) { _fun84641_ip = 118; continue _fun84641 }
  108:
                 verify = _closure2_slot0;
                 options = verify.analyticsType;
  118:
                 verify = golf != options;
                 golf = 'Standard Emoji Popout';
-                if(!verify) { _fun84625_ip = 134; continue _fun84625 }
+                if(!verify) { _fun84641_ip = 134; continue _fun84641 }
  131:
                 golf = options;
  134:

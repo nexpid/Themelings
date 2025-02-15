@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Slider/native/Slider.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Slider
-        _fun99456: for(var _fun99456_ip = 0; ; ) switch(_fun99456_ip) {
+        _fun99466: for(var _fun99466_ip = 0; ; ) switch(_fun99466_ip) {
  0:
             tango = argFoo;
             output = tango.startIcon;
@@ -111,11 +111,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = kilo;
             mike[1] = options;
             entity = function(argFoo) {
-                _fun99457: for(var _fun99457_ip = 0; ; ) switch(_fun99457_ip) {
+                _fun99467: for(var _fun99467_ip = 0; ; ) switch(_fun99467_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun99457_ip = 71; continue _fun99457 }
+                    if(!(zulu != mike)) { _fun99467_ip = 71; continue _fun99467 }
  13:
                     report = _closure1_slot0;
                     options = _closure1_slot2;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.bind(report)(mike);
  71:
                     mike = _closure2_slot0;
-                    if(!(zulu != mike)) { _fun99457_ip = 93; continue _fun99457 }
+                    if(!(zulu != mike)) { _fun99467_ip = 93; continue _fun99467 }
  79:
                     zulu = _closure2_slot0;
                     mike = undefined;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = oscar != output;
             options = null;
-            if(!report) { _fun99456_ip = 184; continue _fun99456 }
+            if(!report) { _fun99466_ip = 184; continue _fun99466 }
  154:
             romeo = _closure1_slot5;
             verify = _closure1_slot4;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = options;
             options = oscar != offset;
             oscar = null;
-            if(!options) { _fun99456_ip = 373; continue _fun99456 }
+            if(!options) { _fun99466_ip = 373; continue _fun99466 }
  343:
             verify = _closure1_slot5;
             options = _closure1_slot4;

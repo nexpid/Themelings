@@ -1,6 +1,6 @@
 // app/modules/clan/native/components/VoiceClanTag.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun115826: for(var _fun115826_ip = 0; ; ) switch(_fun115826_ip) {
+    _fun115832: for(var _fun115832_ip = 0; ; ) switch(_fun115832_ip) {
  0:
         report = argBar;
         kilo = argBaz;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = 10;
-        if(!sizing) { _fun115826_ip = 237; continue _fun115826 }
+        if(!sizing) { _fun115832_ip = 237; continue _fun115832 }
  234:
         backup = 14;
  237:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = kilo.isAndroid;
         backup = backup.bind(kilo)();
         offset = 0;
-        if(!backup) { _fun115826_ip = 315; continue _fun115826 }
+        if(!backup) { _fun115832_ip = 315; continue _fun115832 }
  312:
         offset = foxtrot;
  315:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = report.bind(entity)(yankee);
         yankee = romeo.isAndroid;
         yankee = yankee.bind(romeo)();
-        if(!yankee) { _fun115826_ip = 360; continue _fun115826 }
+        if(!yankee) { _fun115832_ip = 360; continue _fun115832 }
  357:
         offset = 13;
  360:
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/clan/native/components/VoiceClanTag.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: VoiceClanTagChiplet
-            _fun115827: for(var _fun115827_ip = 0; ; ) switch(_fun115827_ip) {
+            _fun115833: for(var _fun115833_ip = 0; ; ) switch(_fun115833_ip) {
  0:
                 mike = argFoo;
                 golf = mike.primaryGuild;
@@ -116,18 +116,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 var _closure2_slot0 = verify;
                 control = mike.badgeSize;
                 report = undefined;
-                if(!(control === report)) { _fun115827_ip = 45; continue _fun115827 }
+                if(!(control === report)) { _fun115833_ip = 45; continue _fun115833 }
  32:
                 zulu = _closure1_slot5;
                 control = zulu.SIZE_12;
  45:
                 update = mike.textVariant;
-                if(!(update === report)) { _fun115827_ip = 61; continue _fun115827 }
+                if(!(update === report)) { _fun115833_ip = 61; continue _fun115833 }
  55:
                 update = 'text-xs/semibold';
  61:
                 echo = mike.textColor;
-                if(!(echo === report)) { _fun115827_ip = 77; continue _fun115827 }
+                if(!(echo === report)) { _fun115833_ip = 77; continue _fun115833 }
  71:
                 echo = 'text-normal';
  77:
@@ -157,11 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 tango = entity == zulu;
                 mike = undefined;
-                if(tango) { _fun115827_ip = 176; continue _fun115827 }
+                if(tango) { _fun115833_ip = 176; continue _fun115833 }
  170:
                 mike = zulu.primaryGuild;
  176:
-                if(!(entity != mike)) { _fun115827_ip = 183; continue _fun115827 }
+                if(!(entity != mike)) { _fun115833_ip = 183; continue _fun115833 }
  180:
                 golf = mike;
  183:
@@ -175,9 +175,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = zulu.tag;
                 golf = zulu.badge;
                 tango = zulu.guildId;
-                if(!(entity != tango)) { _fun115827_ip = 524; continue _fun115827 }
+                if(!(entity != tango)) { _fun115833_ip = 525; continue _fun115833 }
  237:
-                if(!(entity != sizing)) { _fun115827_ip = 524; continue _fun115827 }
+                if(!(entity != sizing)) { _fun115833_ip = 525; continue _fun115833 }
  244:
                 kilo = _closure1_slot0;
                 source = _closure1_slot1;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['children'] = oscar;
                 mike = tango.bind(report)(zulu, mike);
                 return mike;
- 524:
+ 525:
                 return entity;
             }
         };

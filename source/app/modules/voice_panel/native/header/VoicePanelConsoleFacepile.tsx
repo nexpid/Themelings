@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: getConsoleInfo
-        _fun121930: for(var _fun121930_ip = 0; ; ) switch(_fun121930_ip) {
+        _fun121936: for(var _fun121936_ip = 0; ; ) switch(_fun121936_ip) {
  0:
             zulu = argFoo;
             tango = zulu.type;
             entity = _closure1_slot4;
             entity = entity.XBOX;
-            if(!(entity !== tango)) { _fun121930_ip = 218; continue _fun121930 }
+            if(!(entity !== tango)) { _fun121936_ip = 218; continue _fun121936 }
  28:
             entity = _closure1_slot4;
             entity = entity.PLAYSTATION;
-            if(!(entity !== tango)) { _fun121930_ip = 46; continue _fun121930 }
+            if(!(entity !== tango)) { _fun121936_ip = 46; continue _fun121936 }
  42:
             entity = null;
             return entity;

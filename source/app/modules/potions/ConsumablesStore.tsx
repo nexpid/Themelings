@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun91164: for(var _fun91164_ip = 0; ; ) switch(_fun91164_ip) {
+        _fun91193: for(var _fun91193_ip = 0; ; ) switch(_fun91193_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot18;
             entity = entity.bind(zulu)();
-            if(entity) { _fun91164_ip = 51; continue _fun91164 }
+            if(entity) { _fun91193_ip = 51; continue _fun91193 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun91164_ip = 92; continue _fun91164;
+            _fun91193_ip = 92; continue _fun91193;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun91164_ip = 71; continue _fun91164 }
+            if(oscar) { _fun91193_ip = 71; continue _fun91193 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot17 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun91165: for(var _fun91165_ip = 0; ; ) switch(_fun91165_ip) {
+        _fun91194: for(var _fun91194_ip = 0; ; ) switch(_fun91194_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun91165_ip = 76; continue _fun91165;
+            _fun91194_ip = 76; continue _fun91194;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['CONSUMABLES_CLEAR_ERROR'] = verify;
     verify = function(argFoo) { // Original name: CONSUMABLES_ENTITLEMENT_FETCH_COMPLETED
-        _fun91184: for(var _fun91184_ip = 0; ; ) switch(_fun91184_ip) {
+        _fun91213: for(var _fun91213_ip = 0; ; ) switch(_fun91213_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot10;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(oscar)(tango, zulu);
             tango = entity.numPotions;
             zulu = null;
-            if(!(zulu != tango)) { _fun91184_ip = 92; continue _fun91184 }
+            if(!(zulu != tango)) { _fun91213_ip = 92; continue _fun91213 }
  65:
             tango = _closure1_slot13;
             zulu = tango.set;
@@ -383,13 +383,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['CONSUMABLES_ENTITLEMENT_FETCH_COMPLETED'] = verify;
     verify = function(argFoo) { // Original name: SKU_PURCHASE_SUCCESS
-        _fun91185: for(var _fun91185_ip = 0; ; ) switch(_fun91185_ip) {
+        _fun91214: for(var _fun91214_ip = 0; ; ) switch(_fun91214_ip) {
  0:
             mike = argFoo;
             entity = mike.entitlements;
             zulu = entity.length;
             entity = 1;
-            if(!(entity === zulu)) { _fun91185_ip = 119; continue _fun91185 }
+            if(!(entity === zulu)) { _fun91214_ip = 119; continue _fun91214 }
  21:
             zulu = mike.entitlements;
             entity = 0;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.has;
             zulu = oscar.sku_id;
             zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun91185_ip = 119; continue _fun91185 }
+            if(!zulu) { _fun91214_ip = 119; continue _fun91214 }
  83:
             tango = _closure1_slot12;
             zulu = tango.set;

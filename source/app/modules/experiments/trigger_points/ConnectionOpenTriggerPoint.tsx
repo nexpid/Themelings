@@ -21,7 +21,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     options = oscar[tango];
     options = report.bind(entity)(options);
     options = options.VanillaExperiment;
-    verify = new Array(52);
+    verify = new Array(53);
     verify[0] = options;
     options = oscar[tango];
     options = report.bind(entity)(options);
@@ -268,6 +268,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     verify[51] = tango;
     tango = 47;
     tango = oscar[tango];
+    tango = golf.bind(entity)(tango);
+    verify[52] = tango;
+    tango = 48;
+    tango = oscar[tango];
     tango = report.bind(entity)(tango);
     options = tango.CommonTriggerPointConfiguration;
     yankee = mike.CONNECTION_OPEN;
@@ -281,7 +285,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     offset = mike;
     mike = new foxtrot[options](romeo, yankee, offset, verify);
     mike = mike instanceof Object ? mike : tango;
-    tango = 48;
+    tango = 49;
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;

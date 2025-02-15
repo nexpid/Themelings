@@ -396,11 +396,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = _closure1_slot3;
         romeo = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun91368: for(var _fun91368_ip = 0; ; ) switch(_fun91368_ip) {
+                _fun91397: for(var _fun91397_ip = 0; ; ) switch(_fun91397_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun91368_ip = 242; continue _fun91368 }
+                    if(mike) { _fun91397_ip = 242; continue _fun91397 }
  10:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  200:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun91368_ip = 239; continue _fun91368 }
+                    if(report) { _fun91397_ip = 239; continue _fun91397 }
  206:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;

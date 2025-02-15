@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forwarding/native/ForwardMessageFooter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForwardMessageFooter
-        _fun102173: for(var _fun102173_ip = 0; ; ) switch(_fun102173_ip) {
+        _fun102165: for(var _fun102165_ip = 0; ; ) switch(_fun102165_ip) {
  0:
             entity = argFoo;
             record = entity.message;
@@ -184,12 +184,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = context.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun102173_ip = 515; continue _fun102173 }
+            if(!entity) { _fun102165_ip = 515; continue _fun102165 }
  411:
             entity = sizing.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun102173_ip = 515; continue _fun102173 }
+            if(!entity) { _fun102165_ip = 515; continue _fun102165 }
  425:
             mike = _closure1_slot0;
             echo = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             options = undefined;
-            if(!verify) { _fun102173_ip = 597; continue _fun102173 }
+            if(!verify) { _fun102165_ip = 597; continue _fun102165 }
  546:
             vacuum = _closure1_slot7;
             echo = _closure1_slot0;
@@ -247,10 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = !source;
             options['disabled'] = source;
             source = undefined;
-            if(update) { _fun102173_ip = 661; continue _fun102173 }
- 658:
+            if(update) { _fun102165_ip = 665; continue _fun102165 }
+ 662:
             source = offset;
- 661:
+ 665:
             options['onPress'] = source;
             options['loading'] = update;
             options = echo.bind(tango)(verify, options);

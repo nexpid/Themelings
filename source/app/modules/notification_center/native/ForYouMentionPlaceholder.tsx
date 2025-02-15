@@ -155,12 +155,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = zulu.bind(tango)(mike);
         zulu = oscar.useAnimatedStyle;
         mike = function() { // Original name: y
-            _fun116444: for(var _fun116444_ip = 0; ; ) switch(_fun116444_ip) {
+            _fun116450: for(var _fun116450_ip = 0; ; ) switch(_fun116450_ip) {
  0:
                 entity = {};
                 tango = _closure2_slot1;
                 mike = 0.7;
-                if(tango) { _fun116444_ip = 35; continue _fun116444 }
+                if(tango) { _fun116450_ip = 35; continue _fun116450 }
  22:
                 tango = _closure2_slot2;
                 zulu = tango.get;

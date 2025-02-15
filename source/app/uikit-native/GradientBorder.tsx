@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     mike = function(argFoo) { // Original name: GradientBorder
-        _fun93314: for(var _fun93314_ip = 0; ; ) switch(_fun93314_ip) {
+        _fun93339: for(var _fun93339_ip = 0; ; ) switch(_fun93339_ip) {
  0:
             oscar = argFoo;
             offset = oscar.children;
@@ -16,12 +16,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar.style;
             foxtrot = oscar.borderWidth;
             report = undefined;
-            if(!(foxtrot === report)) { _fun93314_ip = 34; continue _fun93314 }
+            if(!(foxtrot === report)) { _fun93339_ip = 34; continue _fun93339 }
  31:
             foxtrot = 1;
  34:
             romeo = oscar.borderRadius;
-            if(!(romeo === report)) { _fun93314_ip = 84; continue _fun93314 }
+            if(!(romeo === report)) { _fun93339_ip = 84; continue _fun93339 }
  43:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.END;
             mike = zulu != offset;
             entity = null;
-            if(!mike) { _fun93314_ip = 420; continue _fun93314 }
+            if(!mike) { _fun93339_ip = 420; continue _fun93339 }
  155:
             tango = _closure1_slot3;
             mike = tango.isValidElement;
             mike = mike.bind(tango)(offset);
             entity = null;
-            if(!mike) { _fun93314_ip = 420; continue _fun93314 }
+            if(!mike) { _fun93339_ip = 420; continue _fun93339 }
  181:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = copyDataProperties(echo, result);
             options = offset.type;
             golf = _closure1_slot4;
-            if(!(options === golf)) { _fun93314_ip = 371; continue _fun93314 }
+            if(!(options === golf)) { _fun93339_ip = 371; continue _fun93339 }
  264:
             golf = _closure1_slot3;
             options = golf.Children;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = 'style';
             golf[backup] = kilo;
             golf = options.bind(verify)(yankee, golf);
-            _fun93314_ip = 405; continue _fun93314;
+            _fun93339_ip = 405; continue _fun93339;
  371:
             verify = _closure1_slot7;
             options = _closure1_slot4;

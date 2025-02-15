@@ -58,14 +58,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[2] = golf;
         zulu[3] = oscar;
         mike = function(argFoo) {
-            _fun118849: for(var _fun118849_ip = 0; ; ) switch(_fun118849_ip) {
+            _fun118855: for(var _fun118855_ip = 0; ; ) switch(_fun118855_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.viewableItems;
                 mike = _closure2_slot5;
                 tango = mike.current;
                 mike = _closure2_slot2;
-                if(!(tango !== mike)) { _fun118849_ip = 55; continue _fun118849 }
+                if(!(tango !== mike)) { _fun118855_ip = 55; continue _fun118855 }
  29:
                 tango = _closure2_slot5;
                 mike = _closure2_slot2;
@@ -76,23 +76,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  55:
                 mike = zulu.forEach;
                 entity = function(argFoo) {
-                    _fun118850: for(var _fun118850_ip = 0; ; ) switch(_fun118850_ip) {
+                    _fun118856: for(var _fun118856_ip = 0; ; ) switch(_fun118856_ip) {
  0:
                         oscar = argFoo;
                         entity = oscar.isViewable;
-                        if(!entity) { _fun118850_ip = 266; continue _fun118850 }
+                        if(!entity) { _fun118856_ip = 266; continue _fun118856 }
  15:
                         mike = _closure2_slot0;
                         entity = oscar.item;
                         yankee = undefined;
                         zulu = mike.bind(yankee)(entity);
                         mike = null;
-                        if(!(mike != zulu)) { _fun118850_ip = 266; continue _fun118850 }
+                        if(!(mike != zulu)) { _fun118856_ip = 266; continue _fun118856 }
  43:
                         entity = _closure2_slot4;
                         entity = entity.current;
                         entity = entity[zulu];
-                        if(!(mike == entity)) { _fun118850_ip = 266; continue _fun118850 }
+                        if(!(mike == entity)) { _fun118856_ip = 266; continue _fun118856 }
  63:
                         entity = _closure2_slot4;
                         mike = entity.current;

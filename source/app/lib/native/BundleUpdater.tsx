@@ -271,13 +271,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'prepareOtaMetricForDatadog';
         entity['key'] = oscar;
         mike = function(argFoo) { // Original name: value
-            _fun70386: for(var _fun70386_ip = 0; ; ) switch(_fun70386_ip) {
+            _fun70392: for(var _fun70392_ip = 0; ; ) switch(_fun70392_ip) {
  0:
                 zulu = argFoo;
                 tango = arguments[1];
                 var _closure3_slot0 = zulu;
                 entity = undefined;
-                if(!(tango === entity)) { _fun70386_ip = 22; continue _fun70386 }
+                if(!(tango === entity)) { _fun70392_ip = 22; continue _fun70392 }
  18:
                 tango = new Array(0);
  22:

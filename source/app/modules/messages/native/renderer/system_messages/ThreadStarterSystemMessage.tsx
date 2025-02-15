@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/ThreadStarterSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ThreadStarterSystemMessage
-        _fun72449: for(var _fun72449_ip = 0; ; ) switch(_fun72449_ip) {
+        _fun72455: for(var _fun72455_ip = 0; ; ) switch(_fun72455_ip) {
  0:
             mike = argFoo;
             golf = mike.row;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot4;
             mike = entity.LOADED;
             entity = null;
-            if(!(zulu !== mike)) { _fun72449_ip = 263; continue _fun72449 }
+            if(!(zulu !== mike)) { _fun72455_ip = 263; continue _fun72455 }
  171:
             tango = _closure1_slot6;
             zulu = _closure1_slot1;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createThreadStarterSystemMessage
-        _fun72451: for(var _fun72451_ip = 0; ; ) switch(_fun72451_ip) {
+        _fun72457: for(var _fun72457_ip = 0; ; ) switch(_fun72457_ip) {
  0:
             report = argFoo;
             entity = report.message;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot4;
             mike = entity.LOADED;
             entity = null;
-            if(!(oscar !== mike)) { _fun72451_ip = 216; continue _fun72451 }
+            if(!(oscar !== mike)) { _fun72457_ip = 216; continue _fun72457 }
  124:
             mike = {};
             offset = _closure1_slot0;

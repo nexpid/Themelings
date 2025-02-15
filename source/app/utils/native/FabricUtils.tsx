@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'utils/native/FabricUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: isFabric
-        _fun48586: for(var _fun48586_ip = 0; ; ) switch(_fun48586_ip) {
+        _fun48593: for(var _fun48593_ip = 0; ; ) switch(_fun48593_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -34,7 +34,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
             mike = undefined;
-            if(!entity) { _fun48586_ip = 103; continue _fun48586 }
+            if(!entity) { _fun48593_ip = 103; continue _fun48593 }
  38:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -44,7 +44,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = null;
             oscar = tango == zulu;
             zulu = undefined;
-            if(oscar) { _fun48586_ip = 96; continue _fun48586 }
+            if(oscar) { _fun48593_ip = 96; continue _fun48593 }
  69:
             oscar = _closure1_slot1;
             report = _closure1_slot2;
@@ -56,7 +56,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = tango != zulu;
             mike = zulu;
  103:
-            if(!entity) { _fun48586_ip = 109; continue _fun48586 }
+            if(!entity) { _fun48593_ip = 109; continue _fun48593 }
  106:
             entity = mike;
  109:

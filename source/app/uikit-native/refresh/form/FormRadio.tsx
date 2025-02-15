@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormRadio.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormRadio
-        _fun48686: for(var _fun48686_ip = 0; ; ) switch(_fun48686_ip) {
+        _fun48693: for(var _fun48693_ip = 0; ; ) switch(_fun48693_ip) {
  0:
             entity = argFoo;
             report = entity.selected;
@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = _closure1_slot0;
             options = _closure1_slot1;
-            if(report) { _fun48686_ip = 62; continue _fun48686 }
+            if(report) { _fun48693_ip = 62; continue _fun48693 }
  53:
             report = 5;
             report = options[report];
-            _fun48686_ip = 69; continue _fun48686;
+            _fun48693_ip = 69; continue _fun48693;
  62:
             golf = 4;
             report = options[golf];

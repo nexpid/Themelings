@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun75145: for(var _fun75145_ip = 0; ; ) switch(_fun75145_ip) {
+        _fun75155: for(var _fun75155_ip = 0; ; ) switch(_fun75155_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot7;
             entity = entity.bind(zulu)();
-            if(entity) { _fun75145_ip = 51; continue _fun75145 }
+            if(entity) { _fun75155_ip = 51; continue _fun75155 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun75145_ip = 92; continue _fun75145;
+            _fun75155_ip = 92; continue _fun75155;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun75145_ip = 71; continue _fun75145 }
+            if(oscar) { _fun75155_ip = 71; continue _fun75155 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun75146: for(var _fun75146_ip = 0; ; ) switch(_fun75146_ip) {
+        _fun75156: for(var _fun75156_ip = 0; ; ) switch(_fun75156_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun75146_ip = 76; continue _fun75146;
+            _fun75156_ip = 76; continue _fun75156;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun75151: for(var _fun75151_ip = 0; ; ) switch(_fun75151_ip) {
+            _fun75161: for(var _fun75161_ip = 0; ; ) switch(_fun75161_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity == mike)) { _fun75151_ip = 11; continue _fun75151 }
+                if(!(entity == mike)) { _fun75161_ip = 11; continue _fun75161 }
  9:
                 mike = {};
  11:

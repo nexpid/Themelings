@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_automod/native/AutomodUserProfileQuarantineAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AutomodUserProfileQuarantineAlert
-        _fun91998: for(var _fun91998_ip = 0; ; ) switch(_fun91998_ip) {
+        _fun92027: for(var _fun92027_ip = 0; ; ) switch(_fun92027_ip) {
  0:
             tango = argFoo;
             yankee = tango.guildId;
@@ -169,13 +169,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = romeo.bind(backup)(offset, mike, zulu);
             offset = options == zulu;
             mike = undefined;
-            if(offset) { _fun91998_ip = 222; continue _fun91998 }
+            if(offset) { _fun92027_ip = 222; continue _fun92027 }
  217:
             mike = zulu.name;
  222:
             zulu = options != mike;
             source = '';
-            if(!zulu) { _fun91998_ip = 236; continue _fun91998 }
+            if(!zulu) { _fun92027_ip = 236; continue _fun92027 }
  233:
             source = mike;
  236:
@@ -200,11 +200,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[output];
             mike = romeo.bind(tango)(mike);
             mike = mike.t;
-            if(offset) { _fun91998_ip = 347; continue _fun91998 }
+            if(offset) { _fun92027_ip = 347; continue _fun92027 }
  334:
             offset = mike.QRN+Sk;
             romeo = zulu.bind(golf)(offset);
-            _fun91998_ip = 358; continue _fun91998;
+            _fun92027_ip = 358; continue _fun92027;
  347:
             mike = mike.SpDXIy;
             romeo = zulu.bind(golf)(mike);
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot2 = entity;
             entity = 1;
             golf = mike[entity];
-            if(golf) { _fun91998_ip = 535; continue _fun91998 }
+            if(golf) { _fun92027_ip = 535; continue _fun92027 }
  483:
             offset = _closure1_slot0;
             entity = _closure1_slot2;
@@ -261,11 +261,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[output];
             entity = offset.bind(tango)(entity);
             entity = entity.t;
-            if(golf) { _fun91998_ip = 592; continue _fun91998 }
+            if(golf) { _fun92027_ip = 592; continue _fun92027 }
  579:
             golf = entity.WikgZ2;
             golf = mike.bind(zulu)(golf);
-            _fun91998_ip = 603; continue _fun91998;
+            _fun92027_ip = 603; continue _fun92027;
  592:
             entity = entity./PGQf3;
             golf = mike.bind(zulu)(entity);
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[offset] = yankee;
             offset = options == oscar;
             options = undefined;
-            if(offset) { _fun91998_ip = 750; continue _fun91998 }
+            if(offset) { _fun92027_ip = 750; continue _fun92027 }
  744:
             options = oscar.onClose;
  750:

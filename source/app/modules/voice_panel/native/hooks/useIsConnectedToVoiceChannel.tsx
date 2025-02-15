@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot2;
         mike[2] = report;
         entity = function() {
-            _fun121402: for(var _fun121402_ip = 0; ; ) switch(_fun121402_ip) {
+            _fun121408: for(var _fun121408_ip = 0; ; ) switch(_fun121408_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.getChannelId;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = _closure2_slot0;
                 tango = null;
                 report = mike;
-                if(!(tango != oscar)) { _fun121402_ip = 37; continue _fun121402 }
+                if(!(tango != oscar)) { _fun121408_ip = 37; continue _fun121408 }
  33:
                 report = _closure2_slot0;
  37:
-                if(!(report === mike)) { _fun121402_ip = 128; continue _fun121402 }
+                if(!(report === mike)) { _fun121408_ip = 128; continue _fun121408 }
  41:
                 tango = _closure1_slot4;
                 zulu = tango.isInChannel;
@@ -76,18 +76,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = oscar.getId;
                 mike = mike.bind(oscar)();
                 mike = zulu.bind(tango)(report, mike);
-                if(mike) { _fun121402_ip = 124; continue _fun121402 }
+                if(mike) { _fun121408_ip = 124; continue _fun121408 }
  74:
                 zulu = _closure1_slot3;
                 mike = zulu.getState;
                 mike = mike.bind(zulu)();
                 zulu = _closure1_slot5;
                 zulu = zulu.DISCONNECTED;
-                if(!(zulu !== mike)) { _fun121402_ip = 120; continue _fun121402 }
+                if(!(zulu !== mike)) { _fun121408_ip = 120; continue _fun121408 }
  102:
                 entity = _closure1_slot5;
                 entity = entity.NO_ROUTE;
-                if(!(entity !== mike)) { _fun121402_ip = 120; continue _fun121402 }
+                if(!(entity !== mike)) { _fun121408_ip = 120; continue _fun121408 }
  116:
                 entity = true;
                 return entity;

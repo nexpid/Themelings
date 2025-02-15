@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/FacebookNeutralIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun79362: for(var _fun79362_ip = 0; ; ) switch(_fun79362_ip) {
+        _fun79372: for(var _fun79372_ip = 0; ; ) switch(_fun79372_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun79362_ip = 53; continue _fun79362 }
+            if(!(golf === tango)) { _fun79372_ip = 53; continue _fun79372 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

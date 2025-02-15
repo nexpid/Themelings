@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/quests/native/QuestRewardTile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: QuestRewardTile
-        _fun96543: for(var _fun96543_ip = 0; ; ) switch(_fun96543_ip) {
+        _fun96553: for(var _fun96553_ip = 0; ; ) switch(_fun96553_ip) {
  0:
             zulu = argFoo;
             mike = zulu.quest;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu.style;
             yankee = zulu.paused;
             tango = undefined;
-            if(!(yankee === tango)) { _fun96543_ip = 44; continue _fun96543 }
+            if(!(yankee === tango)) { _fun96553_ip = 44; continue _fun96553 }
  42:
             yankee = false;
  44:
@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun96546: for(var _fun96546_ip = 0; ; ) switch(_fun96546_ip) {
+                _fun96556: for(var _fun96556_ip = 0; ; ) switch(_fun96556_ip) {
  0:
                     mike = _closure2_slot1;
                     mike = mike.isAnimated;
-                    if(mike) { _fun96546_ip = 22; continue _fun96546 }
+                    if(mike) { _fun96556_ip = 22; continue _fun96556 }
  18:
                     mike = undefined;
                     return mike;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report[2] = golf;
             entity['style'] = report;
             report = backup.isAnimated;
-            if(report) { _fun96543_ip = 352; continue _fun96543 }
+            if(report) { _fun96553_ip = 353; continue _fun96553 }
  290:
             options = _closure1_slot10;
             golf = _closure1_slot1;
@@ -226,8 +226,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = foxtrot.image;
             report['style'] = romeo;
             report = options.bind(tango)(golf, report);
-            _fun96543_ip = 505; continue _fun96543;
- 352:
+            _fun96553_ip = 507; continue _fun96553;
+ 353:
             output = backup.url;
             sizing = output.replace;
             golf = _closure1_slot0;
@@ -254,21 +254,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 'cover';
             oscar['resizeMode'] = romeo;
             verify = !verify;
-            if(verify) { _fun96543_ip = 472; continue _fun96543 }
- 469:
+            if(verify) { _fun96553_ip = 474; continue _fun96553 }
+ 471:
             verify = yankee;
- 472:
-            if(verify) { _fun96543_ip = 478; continue _fun96543 }
- 475:
+ 474:
+            if(verify) { _fun96553_ip = 480; continue _fun96553 }
+ 477:
             verify = offset;
- 478:
+ 480:
             oscar['paused'] = verify;
             verify = 'mix';
             oscar['mixWithOthers'] = verify;
             verify = true;
             oscar['muted'] = verify;
             report = options.bind(tango)(golf, oscar);
- 505:
+ 507:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useTrackNavigatorScreenImpression
-        _fun111338: for(var _fun111338_ip = 0; ; ) switch(_fun111338_ip) {
+        _fun111344: for(var _fun111344_ip = 0; ; ) switch(_fun111344_ip) {
  0:
             entity = argFoo;
             report = entity.impressionName;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'function';
             entity = typeof zulu;
             tango = zulu;
-            if(!(mike === entity)) { _fun111338_ip = 45; continue _fun111338 }
+            if(!(mike === entity)) { _fun111344_ip = 45; continue _fun111344 }
  29:
             entity = argBar;
             mike = entity.params;

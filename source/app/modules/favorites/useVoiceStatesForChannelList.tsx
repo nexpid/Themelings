@@ -58,11 +58,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun113789: for(var _fun113789_ip = 0; ; ) switch(_fun113789_ip) {
+            _fun113795: for(var _fun113795_ip = 0; ; ) switch(_fun113795_ip) {
  0:
                 tango = _closure2_slot0;
                 zulu = _closure1_slot5;
-                if(!(tango === zulu)) { _fun113789_ip = 100; continue _fun113789 }
+                if(!(tango === zulu)) { _fun113795_ip = 100; continue _fun113795 }
  18:
                 tango = _closure1_slot4;
                 zulu = tango.getFavoriteChannels;
@@ -78,13 +78,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = _closure1_slot2;
                     offset = romeo.getChannel;
                     foxtrot = offset.bind(romeo)(yankee);
-                    if(tango == foxtrot) { _fun113789_ip = 47; continue _fun113789 }
+                    if(tango == foxtrot) { _fun113795_ip = 47; continue _fun113795 }
  77:
                     romeo = _closure1_slot3;
                     offset = romeo.getVoiceStatesForChannel;
                     offset = offset.bind(romeo)(foxtrot);
                     zulu[yankee] = offset;
-                    _fun113789_ip = 47; continue _fun113789;
+                    _fun113795_ip = 47; continue _fun113795;
                 }
  98:
                 return zulu;

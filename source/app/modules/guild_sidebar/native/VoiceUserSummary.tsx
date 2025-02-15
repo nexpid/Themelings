@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = report;
     report = options.memo;
     tango = function(argFoo) {
-        _fun115796: for(var _fun115796_ip = 0; ; ) switch(_fun115796_ip) {
+        _fun115802: for(var _fun115802_ip = 0; ; ) switch(_fun115802_ip) {
  0:
             entity = argFoo;
             yankee = entity.users;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.bind(tango)();
             sizing = null;
-            if(!entity) { _fun115796_ip = 91; continue _fun115796 }
+            if(!entity) { _fun115802_ip = 91; continue _fun115802 }
  85:
             sizing = kilo.transparentBorder;
  91:
@@ -115,10 +115,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot5;
             mike = _closure1_slot3;
             entity = {};
-            if(golf) { _fun115796_ip = 141; continue _fun115796 }
+            if(golf) { _fun115802_ip = 141; continue _fun115802 }
  134:
             romeo = kilo.container;
-            _fun115796_ip = 147; continue _fun115796;
+            _fun115802_ip = 147; continue _fun115802;
  141:
             romeo = kilo.containerNoPadding;
  147:
@@ -127,9 +127,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             entity['style'] = golf;
             golf = _closure1_slot4;
-            if(!oscar) { _fun115796_ip = 173; continue _fun115796 }
+            if(!oscar) { _fun115802_ip = 173; continue _fun115802 }
  170:
-            if(report) { _fun115796_ip = 201; continue _fun115796 }
+            if(report) { _fun115802_ip = 201; continue _fun115802 }
  173:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options[report];
             report = oscar.bind(tango)(report);
             oscar = report.VoiceNormalIcon;
-            _fun115796_ip = 227; continue _fun115796;
+            _fun115802_ip = 227; continue _fun115802;
  201:
             options = _closure1_slot0;
             romeo = _closure1_slot2;

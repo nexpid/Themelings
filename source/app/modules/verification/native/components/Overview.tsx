@@ -184,13 +184,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure2_slot1;
             report = oscar.map;
             entity = function(argFoo) {
-                _fun124763: for(var _fun124763_ip = 0; ; ) switch(_fun124763_ip) {
+                _fun124759: for(var _fun124759_ip = 0; ; ) switch(_fun124759_ip) {
  0:
                     report = argFoo;
                     var _closure4_slot0 = report;
                     entity = _closure1_slot10;
                     entity = entity.CAPTCHA;
-                    if(!(report !== entity)) { _fun124763_ip = 118; continue _fun124763 }
+                    if(!(report !== entity)) { _fun124759_ip = 118; continue _fun124759 }
  26:
                     tango = _closure1_slot11;
                     verify = _closure1_slot1;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options.bind(verify)(report);
                     entity['text'] = options;
                     options = function() { // Original name: onPress
-                        _fun124766: for(var _fun124766_ip = 0; ; ) switch(_fun124766_ip) {
+                        _fun124762: for(var _fun124762_ip = 0; ; ) switch(_fun124762_ip) {
  0:
                             entity = _closure1_slot9;
                             zulu = entity.ADD_PHONE;
@@ -218,21 +218,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             entity = _closure1_slot10;
                             entity = entity.EMAIL_OR_PHONE;
                             entity = report !== entity;
-                            if(!entity) { _fun124766_ip = 55; continue _fun124766 }
+                            if(!entity) { _fun124762_ip = 55; continue _fun124762 }
  37:
                             oscar = _closure4_slot0;
                             report = _closure1_slot10;
                             report = report.EMAIL;
                             entity = oscar !== report;
  55:
-                            if(!entity) { _fun124766_ip = 76; continue _fun124766 }
+                            if(!entity) { _fun124762_ip = 76; continue _fun124762 }
  58:
                             report = _closure4_slot0;
                             tango = _closure1_slot10;
                             tango = tango.REVERIFY_EMAIL;
                             entity = report !== tango;
  76:
-                            if(entity) { _fun124766_ip = 168; continue _fun124766 }
+                            if(entity) { _fun124762_ip = 168; continue _fun124762 }
  79:
                             report = _closure1_slot0;
                             tango = _closure1_slot2;
@@ -247,15 +247,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = tango.bind(report)();
                             tango = null;
                             oscar = tango == report;
-                            if(oscar) { _fun124766_ip = 139; continue _fun124766 }
+                            if(oscar) { _fun124762_ip = 139; continue _fun124762 }
  133:
                             entity = report.email;
  139:
-                            if(!(tango == entity)) { _fun124766_ip = 155; continue _fun124766 }
+                            if(!(tango == entity)) { _fun124762_ip = 155; continue _fun124762 }
  143:
                             entity = _closure1_slot9;
                             entity = entity.ENTER_EMAIL;
-                            _fun124766_ip = 165; continue _fun124766;
+                            _fun124762_ip = 165; continue _fun124762;
  155:
                             mike = _closure1_slot9;
                             entity = mike.RESEND_EMAIL;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     entity['onPress'] = options;
                     entity = tango.bind(zulu)(mike, entity, report);
-                    _fun124763_ip = 218; continue _fun124763;
+                    _fun124759_ip = 218; continue _fun124759;
  118:
                     report = _closure1_slot11;
                     zulu = _closure1_slot1;

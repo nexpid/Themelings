@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/AppealIngestionSpeedBump.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppealIngestionSpeedBump
-        _fun92686: for(var _fun92686_ip = 0; ; ) switch(_fun92686_ip) {
+        _fun92718: for(var _fun92718_ip = 0; ; ) switch(_fun92718_ip) {
  0:
             entity = argFoo;
             yankee = entity.isCoppa;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = zulu.bind(tango)(entity);
             zulu = report.useSafetyHubClassification;
             entity = null;
-            if(!(entity == mike)) { _fun92686_ip = 112; continue _fun92686 }
+            if(!(entity == mike)) { _fun92718_ip = 112; continue _fun92718 }
  108:
             mike = _closure1_slot7;
  112:
@@ -113,24 +113,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = echo.classification;
             report = entity == zulu;
             mike = undefined;
-            if(report) { _fun92686_ip = 178; continue _fun92686 }
+            if(report) { _fun92718_ip = 178; continue _fun92718 }
  172:
             mike = zulu.explainer_link;
  178:
             zulu = entity != mike;
             sizing = '';
-            if(!zulu) { _fun92686_ip = 192; continue _fun92686 }
+            if(!zulu) { _fun92718_ip = 192; continue _fun92718 }
  189:
             sizing = mike;
  192:
             mike = echo.classification;
             zulu = entity == mike;
             update = undefined;
-            if(zulu) { _fun92686_ip = 213; continue _fun92686 }
+            if(zulu) { _fun92718_ip = 213; continue _fun92718 }
  207:
             update = mike.flagged_content;
  213:
-            if(!(entity == update)) { _fun92686_ip = 221; continue _fun92686 }
+            if(!(entity == update)) { _fun92718_ip = 221; continue _fun92718 }
  217:
             update = new Array(0);
  221:
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = update.length;
             options = 0;
             foxtrot = foxtrot > options;
-            if(!foxtrot) { _fun92686_ip = 455; continue _fun92686 }
+            if(!foxtrot) { _fun92718_ip = 455; continue _fun92718 }
  418:
             result = _closure1_slot8;
             backup = _closure1_slot1;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = result.bind(tango)(backup, foxtrot);
             options[1] = foxtrot;
             foxtrot = yankee;
-            if(!foxtrot) { _fun92686_ip = 625; continue _fun92686 }
+            if(!foxtrot) { _fun92718_ip = 625; continue _fun92718 }
  516:
             echo = _closure1_slot8;
             result = _closure1_slot1;
@@ -239,11 +239,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = echo.bind(tango)(result, backup);
  625:
             options[2] = foxtrot;
-            if(!romeo) { _fun92686_ip = 635; continue _fun92686 }
+            if(!romeo) { _fun92718_ip = 635; continue _fun92718 }
  632:
             romeo = !yankee;
  635:
-            if(!romeo) { _fun92686_ip = 747; continue _fun92686 }
+            if(!romeo) { _fun92718_ip = 747; continue _fun92718 }
  638:
             result = _closure1_slot8;
             backup = _closure1_slot1;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  747:
             options[3] = romeo;
             yankee = !yankee;
-            if(!yankee) { _fun92686_ip = 856; continue _fun92686 }
+            if(!yankee) { _fun92718_ip = 856; continue _fun92718 }
  757:
             backup = _closure1_slot8;
             foxtrot = _closure1_slot1;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(tango)(foxtrot, romeo);
  856:
             options[4] = yankee;
-            if(!verify) { _fun92686_ip = 962; continue _fun92686 }
+            if(!verify) { _fun92718_ip = 962; continue _fun92718 }
  863:
             romeo = _closure1_slot8;
             backup = _closure1_slot0;

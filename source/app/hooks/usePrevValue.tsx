@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'hooks/usePrevValue.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePrevValue
-        _fun77029: for(var _fun77029_ip = 0; ; ) switch(_fun77029_ip) {
+        _fun77039: for(var _fun77039_ip = 0; ; ) switch(_fun77039_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot0;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = oscar.is;
             tango = mike.current;
             tango = report.bind(oscar)(zulu, tango);
-            if(tango) { _fun77029_ip = 69; continue _fun77029 }
+            if(tango) { _fun77039_ip = 69; continue _fun77039 }
  52:
             tango = mike.current;
             entity['current'] = tango;

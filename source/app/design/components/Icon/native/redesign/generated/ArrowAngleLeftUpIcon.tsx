@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/ArrowAngleLeftUpIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91140: for(var _fun91140_ip = 0; ; ) switch(_fun91140_ip) {
+        _fun91169: for(var _fun91169_ip = 0; ; ) switch(_fun91169_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun91140_ip = 53; continue _fun91140 }
+            if(!(golf === tango)) { _fun91169_ip = 53; continue _fun91169 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

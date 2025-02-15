@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/shouldRemoveSelfMention.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: shouldRemoveSelfMention
-        _fun60627: for(var _fun60627_ip = 0; ; ) switch(_fun60627_ip) {
+        _fun60630: for(var _fun60630_ip = 0; ; ) switch(_fun60630_ip) {
  0:
             mike = argFoo;
             entity = _closure1_slot0;
@@ -33,13 +33,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.type;
             entity = zulu.bind(tango)(entity);
             entity = !entity;
-            if(!entity) { _fun60627_ip = 66; continue _fun60627 }
+            if(!entity) { _fun60630_ip = 66; continue _fun60630 }
  37:
             mike = mike.author;
             zulu = null;
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun60627_ip = 59; continue _fun60627 }
+            if(tango) { _fun60630_ip = 59; continue _fun60630 }
  54:
             zulu = mike.id;
  59:

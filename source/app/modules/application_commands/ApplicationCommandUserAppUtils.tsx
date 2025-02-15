@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/application_commands/ApplicationCommandUserAppUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getEphemeralReasonMessage
-        _fun69550: for(var _fun69550_ip = 0; ; ) switch(_fun69550_ip) {
+        _fun69556: for(var _fun69556_ip = 0; ; ) switch(_fun69556_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.FEATURE_LIMITED;
-            if(!(mike !== zulu)) { _fun69550_ip = 1681; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1681; continue _fun69556 }
  46:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.GUILD_FEATURE_LIMITED;
-            if(!(mike !== zulu)) { _fun69550_ip = 1624; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1624; continue _fun69556 }
  82:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.USER_FEATURE_LIMITED;
-            if(!(mike !== zulu)) { _fun69550_ip = 1567; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1567; continue _fun69556 }
  118:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.SLOWMODE;
-            if(!(mike !== zulu)) { _fun69550_ip = 1510; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1510; continue _fun69556 }
  154:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.RATE_LIMIT;
-            if(!(mike !== zulu)) { _fun69550_ip = 1453; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1453; continue _fun69556 }
  190:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_MESSAGE_USER;
-            if(!(mike !== zulu)) { _fun69550_ip = 1396; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1396; continue _fun69556 }
  226:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.USER_VERIFICATION_LEVEL;
-            if(!(mike !== zulu)) { _fun69550_ip = 1339; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1339; continue _fun69556 }
  262:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_UNARCHIVE_THREAD;
-            if(!(mike !== zulu)) { _fun69550_ip = 1282; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1282; continue _fun69556 }
  298:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_JOIN_THREAD;
-            if(!(mike !== zulu)) { _fun69550_ip = 1225; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1225; continue _fun69556 }
  334:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.MISSING_PERMISSIONS;
-            if(!(mike !== zulu)) { _fun69550_ip = 1168; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1168; continue _fun69556 }
  370:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_SEND_ATTACHMENTS;
-            if(!(mike !== zulu)) { _fun69550_ip = 1111; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1111; continue _fun69556 }
  406:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_SEND_EMBEDS;
-            if(!(mike !== zulu)) { _fun69550_ip = 1054; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 1054; continue _fun69556 }
  442:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_SEND_STICKERS;
-            if(!(mike !== zulu)) { _fun69550_ip = 997; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 997; continue _fun69556 }
  478:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.AUTOMOD_BLOCKED;
-            if(!(mike !== zulu)) { _fun69550_ip = 940; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 940; continue _fun69556 }
  514:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.HARMFUL_LINK;
-            if(!(mike !== zulu)) { _fun69550_ip = 883; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 883; continue _fun69556 }
  550:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_USE_COMMAND;
-            if(!(mike !== zulu)) { _fun69550_ip = 826; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 826; continue _fun69556 }
  586:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.BETA_GUILD_SIZE;
-            if(!(mike !== zulu)) { _fun69550_ip = 769; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 769; continue _fun69556 }
  622:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.EphemeralMessageReason;
             mike = mike.CANNOT_USE_EXTERNAL_APPS;
-            if(!(mike !== zulu)) { _fun69550_ip = 712; continue _fun69550 }
+            if(!(mike !== zulu)) { _fun69556_ip = 712; continue _fun69556 }
  655:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;

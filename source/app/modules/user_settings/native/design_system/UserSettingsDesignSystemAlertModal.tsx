@@ -12,11 +12,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun99214: for(var _fun99214_ip = 0; ; ) switch(_fun99214_ip) {
+                _fun99224: for(var _fun99224_ip = 0; ; ) switch(_fun99224_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun99214_ip = 62; continue _fun99214 }
+                    if(mike) { _fun99224_ip = 62; continue _fun99224 }
  7:
                     mike = global;
                     tango = mike.Promise;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  48:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun99214_ip = 59; continue _fun99214 }
+                    if(zulu) { _fun99224_ip = 59; continue _fun99224 }
  54:
                     zulu = undefined;
                     return zulu;

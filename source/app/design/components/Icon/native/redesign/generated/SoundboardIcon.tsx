@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/SoundboardIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun80837: for(var _fun80837_ip = 0; ; ) switch(_fun80837_ip) {
+        _fun80849: for(var _fun80849_ip = 0; ; ) switch(_fun80849_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun80837_ip = 53; continue _fun80837 }
+            if(!(golf === tango)) { _fun80849_ip = 53; continue _fun80849 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

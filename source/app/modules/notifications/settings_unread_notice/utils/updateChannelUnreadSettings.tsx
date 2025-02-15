@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/notifications/settings_unread_notice/utils/updateChannelUnreadSettings.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: updateChannelUnreadSettings
-        _fun89682: for(var _fun89682_ip = 0; ; ) switch(_fun89682_ip) {
+        _fun89699: for(var _fun89699_ip = 0; ; ) switch(_fun89699_ip) {
  0:
             options = argFoo;
             golf = argBar;
@@ -72,11 +72,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = offset.unreads;
             mike = _closure1_slot6;
             mike = mike.UNREADS_ALL_MESSAGES;
-            if(!(yankee !== mike)) { _fun89682_ip = 140; continue _fun89682 }
+            if(!(yankee !== mike)) { _fun89699_ip = 140; continue _fun89699 }
  128:
             mike = _closure1_slot5;
             mike = mike.ONLY_MENTIONS;
-            _fun89682_ip = 150; continue _fun89682;
+            _fun89699_ip = 150; continue _fun89699;
  140:
             yankee = _closure1_slot5;
             mike = yankee.ALL_MESSAGES;

@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = zulu.prototype;
         mike = Object.create(entity, {constructor: {value: zulu}});
         tango = function(argFoo) {
-            _fun127876: for(var _fun127876_ip = 0; ; ) switch(_fun127876_ip) {
+            _fun127872: for(var _fun127872_ip = 0; ; ) switch(_fun127872_ip) {
  0:
                 report = argFoo;
                 var _closure3_slot0 = report;
@@ -45,11 +45,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(entity)(tango);
                 tango = oscar.isAndroid;
                 tango = tango.bind(oscar)();
-                if(tango) { _fun127876_ip = 55; continue _fun127876 }
+                if(tango) { _fun127872_ip = 55; continue _fun127872 }
  46:
                 tango = true;
                 tango = report.bind(entity)(tango);
-                _fun127876_ip = 93; continue _fun127876;
+                _fun127872_ip = 93; continue _fun127872;
  55:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     var _closure4_slot0 = tango;
                     tango = oscar.map;
                     zulu = function(argFoo) {
-                        _fun127878: for(var _fun127878_ip = 0; ; ) switch(_fun127878_ip) {
+                        _fun127874: for(var _fun127874_ip = 0; ; ) switch(_fun127874_ip) {
  0:
                             report = argFoo;
                             entity = _closure4_slot0;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             entity = null;
                             zulu = entity != zulu;
                             entity = '';
-                            if(!zulu) { _fun127878_ip = 58; continue _fun127878 }
+                            if(!zulu) { _fun127874_ip = 59; continue _fun127874 }
  27:
                             tango = _closure1_slot3;
                             zulu = tango.resolveAssetSource;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             mike = mike[report];
                             mike = zulu.bind(tango)(mike);
                             entity = mike.uri;
- 58:
+ 59:
                             return entity;
                         }
                     };

@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'getForwardInfo';
         entity['key'] = report;
         mike = function() { // Original name: value
-            _fun72195: for(var _fun72195_ip = 0; ; ) switch(_fun72195_ip) {
+            _fun72201: for(var _fun72201_ip = 0; ; ) switch(_fun72201_ip) {
  0:
                 romeo = arguments[0];
                 kilo = arguments[1];
@@ -123,27 +123,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 output = arguments[5];
                 entity = this;
                 golf = undefined;
-                if(!(romeo === golf)) { _fun72195_ip = 34; continue _fun72195 }
+                if(!(romeo === golf)) { _fun72201_ip = 34; continue _fun72201 }
  27:
                 romeo = _closure1_slot6;
  34:
-                if(!(kilo === golf)) { _fun72195_ip = 45; continue _fun72195 }
+                if(!(kilo === golf)) { _fun72201_ip = 45; continue _fun72201 }
  38:
                 kilo = _closure1_slot10;
  45:
-                if(!(backup === golf)) { _fun72195_ip = 56; continue _fun72195 }
+                if(!(backup === golf)) { _fun72201_ip = 56; continue _fun72201 }
  49:
                 backup = _closure1_slot9;
  56:
-                if(!(yankee === golf)) { _fun72195_ip = 67; continue _fun72195 }
+                if(!(yankee === golf)) { _fun72201_ip = 67; continue _fun72201 }
  60:
                 yankee = _closure1_slot8;
  67:
-                if(!(verify === golf)) { _fun72195_ip = 78; continue _fun72195 }
+                if(!(verify === golf)) { _fun72201_ip = 78; continue _fun72201 }
  71:
                 verify = _closure1_slot7;
  78:
-                if(!(output === golf)) { _fun72195_ip = 89; continue _fun72195 }
+                if(!(output === golf)) { _fun72201_ip = 89; continue _fun72201 }
  82:
                 output = _closure1_slot5;
  89:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar['location'] = sizing;
                 oscar = offset.bind(foxtrot)(oscar);
                 oscar = oscar.showForwardBreadcrumb;
-                if(oscar) { _fun72195_ip = 233; continue _fun72195 }
+                if(oscar) { _fun72201_ip = 233; continue _fun72201 }
  219:
                 oscar = {};
                 oscar['snapshotIndex'] = tango;
@@ -195,35 +195,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.channel_id;
                 report = report.bind(romeo)(entity);
                 entity = null;
-                if(!(entity != report)) { _fun72195_ip = 331; continue _fun72195 }
+                if(!(entity != report)) { _fun72201_ip = 331; continue _fun72201 }
  302:
                 foxtrot = report.guild_id;
                 sizing = options.messageReference;
                 result = entity == sizing;
                 offset = undefined;
-                if(result) { _fun72195_ip = 327; continue _fun72195 }
+                if(result) { _fun72201_ip = 327; continue _fun72201 }
  322:
                 offset = sizing.guild_id;
  327:
-                if(!(foxtrot !== offset)) { _fun72195_ip = 443; continue _fun72195 }
+                if(!(foxtrot !== offset)) { _fun72201_ip = 443; continue _fun72201 }
  331:
                 offset = options.messageReference;
                 sizing = entity == offset;
                 foxtrot = undefined;
-                if(sizing) { _fun72195_ip = 351; continue _fun72195 }
+                if(sizing) { _fun72201_ip = 351; continue _fun72201 }
  346:
                 foxtrot = offset.guild_id;
  351:
-                if(!(entity != foxtrot)) { _fun72195_ip = 429; continue _fun72195 }
+                if(!(entity != foxtrot)) { _fun72201_ip = 429; continue _fun72201 }
  355:
                 offset = verify.getGuild;
                 sizing = offset.bind(verify)(foxtrot);
-                if(!(entity == sizing)) { _fun72195_ip = 379; continue _fun72195 }
+                if(!(entity == sizing)) { _fun72201_ip = 379; continue _fun72201 }
  369:
                 offset = output.getGuild;
                 sizing = offset.bind(output)(foxtrot);
  379:
-                if(!(entity != sizing)) { _fun72195_ip = 412; continue _fun72195 }
+                if(!(entity != sizing)) { _fun72201_ip = 412; continue _fun72201 }
  383:
                 offset = {};
                 offset['snapshotIndex'] = tango;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 foxtrot = foxtrot.bind(golf)(sizing, oscar);
                 offset['footerInfo'] = foxtrot;
                 offset['useOldIcon'] = zulu;
-                _fun72195_ip = 427; continue _fun72195;
+                _fun72201_ip = 427; continue _fun72201;
  412:
                 foxtrot = {};
                 foxtrot['snapshotIndex'] = tango;
@@ -249,17 +249,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 foxtrot = options.messageReference;
                 sizing = entity == foxtrot;
                 options = undefined;
-                if(sizing) { _fun72195_ip = 468; continue _fun72195 }
+                if(sizing) { _fun72201_ip = 468; continue _fun72201 }
  463:
                 options = foxtrot.channel_id;
  468:
                 foxtrot = offset.bind(romeo)(options);
-                if(!(entity != foxtrot)) { _fun72195_ip = 654; continue _fun72195 }
+                if(!(entity != foxtrot)) { _fun72201_ip = 654; continue _fun72201 }
  480:
                 offset = yankee.can;
                 options = foxtrot.accessPermissions;
                 options = offset.bind(yankee)(options, foxtrot);
-                if(options) { _fun72195_ip = 515; continue _fun72195 }
+                if(options) { _fun72201_ip = 515; continue _fun72201 }
  501:
                 options = {};
                 options['snapshotIndex'] = tango;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = verify.getGuild;
                 report = report.guild_id;
                 report = options.bind(verify)(report);
-                if(!(entity != report)) { _fun72195_ip = 702; continue _fun72195 }
+                if(!(entity != report)) { _fun72201_ip = 702; continue _fun72201 }
  673:
                 entity = {};
                 entity['snapshotIndex'] = tango;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(golf)(report, oscar);
                 entity['footerInfo'] = mike;
                 entity['useOldIcon'] = zulu;
-                _fun72195_ip = 717; continue _fun72195;
+                _fun72201_ip = 717; continue _fun72201;
  702:
                 mike = {};
                 mike['snapshotIndex'] = tango;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['MessageForward'] = tango;
     mike = function(argFoo) { // Original name: maybeCreateSingleForwardForMessage
-        _fun72196: for(var _fun72196_ip = 0; ; ) switch(_fun72196_ip) {
+        _fun72202: for(var _fun72202_ip = 0; ; ) switch(_fun72202_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot1;
@@ -349,13 +349,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             zulu = tango.bind(mike)(zulu);
             zulu = zulu.bind(mike)(report);
-            if(!zulu) { _fun72196_ip = 54; continue _fun72196 }
+            if(!zulu) { _fun72202_ip = 54; continue _fun72202 }
  36:
             zulu = report.messageSnapshots;
             tango = 0;
             zulu = zulu[tango];
             oscar = null;
-            if(!(oscar == zulu)) { _fun72196_ip = 56; continue _fun72196 }
+            if(!(oscar == zulu)) { _fun72202_ip = 56; continue _fun72202 }
  54:
             return mike;
  56:

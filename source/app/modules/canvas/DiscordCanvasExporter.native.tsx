@@ -48,22 +48,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'toDataUrl';
         report['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun115194: for(var _fun115194_ip = 0; ; ) switch(_fun115194_ip) {
+            _fun115200: for(var _fun115200_ip = 0; ; ) switch(_fun115200_ip) {
  0:
                 report = argFoo;
                 tango = arguments[2];
                 golf = arguments[3];
                 oscar = undefined;
-                if(!(tango === oscar)) { _fun115194_ip = 18; continue _fun115194 }
+                if(!(tango === oscar)) { _fun115200_ip = 18; continue _fun115200 }
  15:
                 tango = 100;
  18:
                 entity = null;
-                if(!(entity == golf)) { _fun115194_ip = 36; continue _fun115194 }
+                if(!(entity == golf)) { _fun115200_ip = 36; continue _fun115200 }
  24:
                 entity = report.makeImageSnapshot;
                 zulu = entity.bind(report)();
-                _fun115194_ip = 75; continue _fun115194;
+                _fun115200_ip = 75; continue _fun115200;
  36:
                 mike = report.makeImageSnapshot;
                 entity = {'x': 0, 'y': 0};
@@ -95,13 +95,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = undefined;
         golf = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun115196: for(var _fun115196_ip = 0; ; ) switch(_fun115196_ip) {
+                _fun115202: for(var _fun115202_ip = 0; ; ) switch(_fun115202_ip) {
  0:
                     StartGenerator();
                     oscar = argBar;
                     golf = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=9);
-                    if(offset) { _fun115196_ip = 791; continue _fun115196 }
+                    if(offset) { _fun115202_ip = 795; continue _fun115202 }
  16:
                     report = argFoo;
                     options = oscar;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     result = oscar.format;
                     romeo = oscar.fileType;
                     oscar = 'png';
-                    if(!(offset !== romeo)) { _fun115196_ip = 62; continue _fun115196 }
+                    if(!(offset !== romeo)) { _fun115202_ip = 62; continue _fun115202 }
  59:
                     oscar = romeo;
  62:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = options;
                     romeo = oscar.quality;
                     oscar = 1;
-                    if(!(offset !== romeo)) { _fun115196_ip = 84; continue _fun115196 }
+                    if(!(offset !== romeo)) { _fun115202_ip = 84; continue _fun115202 }
  81:
                     oscar = romeo;
  84:
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = kilo.bind(offset)(romeo);
                     romeo = romeo.DiscordCanvasExporterOutputFormats;
                     romeo = romeo.Base64;
-                    if(!(result !== romeo)) { _fun115196_ip = 763; continue _fun115196 }
+                    if(!(result !== romeo)) { _fun115202_ip = 767; continue _fun115202 }
  143:
                     kilo = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = kilo.bind(offset)(romeo);
                     romeo = romeo.DiscordCanvasExporterOutputFormats;
                     romeo = romeo.Blob;
-                    if(!(result !== romeo)) { _fun115196_ip = 704; continue _fun115196 }
+                    if(!(result !== romeo)) { _fun115202_ip = 708; continue _fun115202 }
  179:
                     kilo = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = kilo.bind(offset)(romeo);
                     romeo = romeo.DiscordCanvasExporterOutputFormats;
                     romeo = romeo.File;
-                    if(!(result !== romeo)) { _fun115196_ip = 668; continue _fun115196 }
+                    if(!(result !== romeo)) { _fun115202_ip = 672; continue _fun115202 }
  215:
                     kilo = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = kilo.bind(offset)(romeo);
                     romeo = romeo.DiscordCanvasExporterOutputFormats;
                     romeo = romeo.CloudUpload;
-                    if(!(result !== romeo)) { _fun115196_ip = 307; continue _fun115196 }
+                    if(!(result !== romeo)) { _fun115202_ip = 307; continue _fun115202 }
  248:
                     romeo = global;
                     sizing = romeo.Error;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = romeo.bind(offset)(options);
                     options = romeo.isAndroid;
                     options = options.bind(romeo)();
-                    if(options) { _fun115196_ip = 425; continue _fun115196 }
+                    if(options) { _fun115202_ip = 425; continue _fun115202 }
  369:
                     options = _closure1_slot6;
                     result = options.DCDFileManager;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
                     kilo = romeo;
                     romeo = options;
-                    if(!kilo) { _fun115196_ip = 516; continue _fun115196 }
+                    if(!kilo) { _fun115202_ip = 516; continue _fun115202 }
  422: // try_end0
                     return options;
  425: // try_start_1
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = null;
                     kilo = options == kilo;
                     options = undefined;
-                    if(kilo) { _fun115196_ip = 500; continue _fun115196 }
+                    if(kilo) { _fun115202_ip = 500; continue _fun115202 }
  456:
                     sizing = _closure1_slot1;
                     kilo = _closure1_slot2;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  504:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=12);
                     romeo = options;
-                    if(foxtrot) { _fun115196_ip = 661; continue _fun115196 }
+                    if(foxtrot) { _fun115202_ip = 665; continue _fun115202 }
  516:
                     yankee = romeo;
  519: // try_end1
@@ -283,12 +283,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = new vacuum[foxtrot](control, source, update);
                     verify = verify instanceof Object ? verify : yankee;
                     return verify;
- 661:
+ 665:
                     return options;
- 664: // catch_target0 // catch_target1
+ 668: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=7);
                     throw options;
- 668:
+ 672:
                     options = global;
                     yankee = options.Error;
                     options = yankee.prototype;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = new vacuum[yankee](control, source);
                     options = options instanceof Object ? options : verify;
                     throw options;
- 704:
+ 708:
                     foxtrot = golf.toDataUrl;
                     control = report;
                     source = tango;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = options.dataUrlToBlob;
                     oscar = oscar.bind(options)(verify);
                     return oscar;
- 763:
+ 767:
                     oscar = golf.toDataUrl;
                     control = report;
                     source = tango;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     vacuum = golf;
                     mike = vacuum[oscar](control, source, update, echo, result);
                     return mike;
- 791:
+ 795:
                     return entity;
                 }
             };

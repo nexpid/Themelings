@@ -23,13 +23,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot1;
         zulu = function(argFoo) { // Original name: WorkIdleDeadline
-            _fun106017: for(var _fun106017_ip = 0; ; ) switch(_fun106017_ip) {
+            _fun106009: for(var _fun106009_ip = 0; ; ) switch(_fun106009_ip) {
  0:
                 report = argFoo;
                 tango = arguments[1];
                 zulu = this;
                 entity = undefined;
-                if(!(tango === entity)) { _fun106017_ip = 17; continue _fun106017 }
+                if(!(tango === entity)) { _fun106009_ip = 17; continue _fun106009 }
  15:
                 tango = false;
  17:

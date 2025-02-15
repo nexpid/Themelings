@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = sizing;
     var _closure1_slot2 = verify;
     entity = function() { // Original name: FamilyCenterActivityCardPrefaceText
-        _fun95335: for(var _fun95335_ip = 0; ; ) switch(_fun95335_ip) {
+        _fun95345: for(var _fun95345_ip = 0; ; ) switch(_fun95345_ip) {
  0:
             entity = _closure1_slot12;
             tango = undefined;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = romeo.container;
             entity['style'] = report;
             oscar = null;
-            if(foxtrot) { _fun95335_ip = 348; continue _fun95335 }
+            if(foxtrot) { _fun95345_ip = 348; continue _fun95345 }
  277:
             options = _closure1_slot9;
             sizing = _closure1_slot1;
@@ -108,10 +108,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = offset.length;
             kilo = 1;
             offset = backup;
-            if(!(sizing > kilo)) { _fun95335_ip = 430; continue _fun95335 }
+            if(!(sizing > kilo)) { _fun95345_ip = 430; continue _fun95345 }
  421:
             offset = backup;
-            if(!foxtrot) { _fun95335_ip = 430; continue _fun95335 }
+            if(!foxtrot) { _fun95345_ip = 430; continue _fun95345 }
  427:
             offset = yankee;
  430:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot16 = entity;
     entity = function() { // Original name: FamilyCenterHeaderSubText
-        _fun95337: for(var _fun95337_ip = 0; ; ) switch(_fun95337_ip) {
+        _fun95347: for(var _fun95347_ip = 0; ; ) switch(_fun95347_ip) {
  0:
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -203,13 +203,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(report)(tango);
             tango = oscar.useActivityWindowTimeStamp;
             oscar = tango.bind(oscar)(golf);
-            if(!zulu) { _fun95337_ip = 135; continue _fun95337 }
+            if(!zulu) { _fun95347_ip = 135; continue _fun95347 }
  118:
             zulu = entity.length;
             entity = 1;
             zulu = zulu > entity;
             entity = null;
-            if(zulu) { _fun95337_ip = 188; continue _fun95337 }
+            if(zulu) { _fun95347_ip = 184; continue _fun95347 }
  135:
             tango = _closure1_slot9;
             zulu = _closure1_slot0;
@@ -221,13 +221,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
- 188:
+ 184:
             return entity;
         }
     };
     var _closure1_slot17 = entity;
     report = function(argFoo) { // Original name: FamilyCenterActivityCardAccount
-        _fun95338: for(var _fun95338_ip = 0; ; ) switch(_fun95338_ip) {
+        _fun95348: for(var _fun95348_ip = 0; ; ) switch(_fun95348_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.user;
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[sizing];
             entity = mike.bind(tango)(entity);
             entity = entity.AvatarSizes;
-            if(backup) { _fun95338_ip = 64; continue _fun95338 }
+            if(backup) { _fun95348_ip = 64; continue _fun95348 }
  56:
             kilo = entity.NORMAL;
-            _fun95338_ip = 70; continue _fun95338;
+            _fun95348_ip = 70; continue _fun95348;
  64:
             kilo = entity.SMALL;
  70:
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = yankee;
             yankee = undefined;
-            if(backup) { _fun95338_ip = 232; continue _fun95338 }
+            if(backup) { _fun95348_ip = 232; continue _fun95348 }
  226:
             yankee = romeo.nonSelectorHeader;
  232:
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot18 = report;
     tango = function() { // Original name: FamilyCenterActivityCardHeader
-        _fun95339: for(var _fun95339_ip = 0; ; ) switch(_fun95339_ip) {
+        _fun95349: for(var _fun95349_ip = 0; ; ) switch(_fun95349_ip) {
  0:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -340,13 +340,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.useSelectedTeenUser;
             verify = entity.bind(report)();
             entity = null;
-            if(!(oscar !== verify)) { _fun95339_ip = 166; continue _fun95339 }
+            if(!(oscar !== verify)) { _fun95349_ip = 166; continue _fun95349 }
  94:
-            if(!tango) { _fun95339_ip = 109; continue _fun95339 }
+            if(!tango) { _fun95349_ip = 109; continue _fun95349 }
  97:
             tango = mike.length;
             mike = 1;
-            if(!(mike === tango)) { _fun95339_ip = 147; continue _fun95339 }
+            if(!(mike === tango)) { _fun95349_ip = 147; continue _fun95349 }
  109:
             report = _closure1_slot9;
             tango = _closure1_slot4;
@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.bind(oscar)(options, golf);
             mike['children'] = golf;
             mike = report.bind(oscar)(tango, mike);
-            _fun95339_ip = 163; continue _fun95339;
+            _fun95349_ip = 163; continue _fun95349;
  147:
             report = _closure1_slot9;
             tango = _closure1_slot20;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot19 = tango;
     mike = function() { // Original name: FamilyCenterActivityCardAccountSelect
-        _fun95340: for(var _fun95340_ip = 0; ; ) switch(_fun95340_ip) {
+        _fun95350: for(var _fun95350_ip = 0; ; ) switch(_fun95350_ip) {
  0:
             entity = _closure1_slot14;
             report = undefined;
@@ -476,7 +476,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity, mike);
             var _closure2_slot3 = entity;
             entity = null;
-            if(!(report !== foxtrot)) { _fun95340_ip = 423; continue _fun95340 }
+            if(!(report !== foxtrot)) { _fun95350_ip = 423; continue _fun95350 }
  188:
             tango = _closure1_slot9;
             zulu = _closure1_slot4;
@@ -532,18 +532,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = _closure2_slot3;
                 mike['items'] = options;
                 options = function(argFoo) { // Original name: onItemSelect
-                    _fun95346: for(var _fun95346_ip = 0; ; ) switch(_fun95346_ip) {
+                    _fun95356: for(var _fun95356_ip = 0; ; ) switch(_fun95356_ip) {
  0:
                         mike = argFoo;
                         entity = null;
                         entity = entity != mike;
-                        if(!entity) { _fun95346_ip = 28; continue _fun95346 }
+                        if(!entity) { _fun95356_ip = 28; continue _fun95356 }
  12:
                         zulu = _closure2_slot1;
                         zulu = zulu.id;
                         entity = mike !== zulu;
  28:
-                        if(!entity) { _fun95346_ip = 105; continue _fun95346 }
+                        if(!entity) { _fun95356_ip = 105; continue _fun95356 }
  31:
                         entity = _closure2_slot2;
                         zulu = undefined;
@@ -868,7 +868,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = 'modules/parent_tools/native/FamilyCenterActivityCard.tsx';
     golf = options.bind(verify)(golf);
     oscar = function() { // Original name: FamilyCenterActivityCard
-        _fun95348: for(var _fun95348_ip = 0; ; ) switch(_fun95348_ip) {
+        _fun95358: for(var _fun95358_ip = 0; ; ) switch(_fun95358_ip) {
  0:
             entity = _closure1_slot15;
             tango = undefined;
@@ -896,7 +896,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.useActivityWindowTimeStamp;
             sequence = mike.bind(zulu)(report);
-            if(!(tango !== entity)) { _fun95348_ip = 560; continue _fun95348 }
+            if(!(tango !== entity)) { _fun95358_ip = 560; continue _fun95358 }
  123:
             entity = global;
             zulu = entity.Array;
@@ -957,7 +957,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = output;
             control = update.map;
             output = function(argFoo, argBar) {
-                _fun95349: for(var _fun95349_ip = 0; ; ) switch(_fun95349_ip) {
+                _fun95359: for(var _fun95359_ip = 0; ; ) switch(_fun95359_ip) {
  0:
                     golf = argFoo;
                     report = _closure1_slot9;
@@ -969,11 +969,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike[0] = oscar;
                     verify = 0;
                     oscar = argBar;
-                    if(!(verify !== oscar)) { _fun95349_ip = 58; continue _fun95349 }
+                    if(!(verify !== oscar)) { _fun95359_ip = 58; continue _fun95359 }
  46:
                     oscar = _closure2_slot0;
                     oscar = oscar.other;
-                    _fun95349_ip = 68; continue _fun95349;
+                    _fun95359_ip = 68; continue _fun95359;
  58:
                     options = _closure2_slot0;
                     oscar = options.first;
@@ -1008,7 +1008,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = _closure1_slot9;
             kilo = _closure1_slot4;
             output = {};
-            if(source) { _fun95348_ip = 476; continue _fun95348 }
+            if(source) { _fun95358_ip = 476; continue _fun95358 }
  405:
             source = echo.empty;
             output['style'] = source;
@@ -1022,7 +1022,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = null;
             config = vacuum != sequence;
             vacuum = '';
-            if(!config) { _fun95348_ip = 457; continue _fun95348 }
+            if(!config) { _fun95358_ip = 457; continue _fun95358 }
  454:
             vacuum = sequence;
  457:
@@ -1030,7 +1030,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = control.bind(tango)(source, backup);
             output['children'] = backup;
             backup = output;
-            _fun95348_ip = 510; continue _fun95348;
+            _fun95358_ip = 510; continue _fun95358;
  476:
             echo = echo.activities;
             output['style'] = echo;

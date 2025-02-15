@@ -52,14 +52,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.bind(golf)();
     var _closure1_slot7 = tango;
     tango = function(argFoo, argBar) { // Original name: getRoleIconSource
-        _fun64859: for(var _fun64859_ip = 0; ; ) switch(_fun64859_ip) {
+        _fun64864: for(var _fun64864_ip = 0; ; ) switch(_fun64864_ip) {
  0:
             entity = argFoo;
             golf = argBar;
             romeo = entity.id;
             entity = entity.icon;
             report = null;
-            if(!(report == entity)) { _fun64859_ip = 26; continue _fun64859 }
+            if(!(report == entity)) { _fun64864_ip = 26; continue _fun64864 }
  22:
             mike = undefined;
             return mike;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.startsWith;
             mike = 'data:';
             mike = zulu.bind(entity)(mike);
-            if(mike) { _fun64859_ip = 332; continue _fun64859 }
+            if(mike) { _fun64864_ip = 332; continue _fun64864 }
  49:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(backup)(mike);
             mike = mike.SUPPORTS_WEBP;
             yankee = 'png';
-            if(!mike) { _fun64859_ip = 95; continue _fun64859 }
+            if(!mike) { _fun64864_ip = 95; continue _fun64864 }
  89:
             yankee = 'webp';
  95:
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = '';
             verify = 'quality=lossless';
             options = offset;
-            if(!mike) { _fun64859_ip = 201; continue _fun64859 }
+            if(!mike) { _fun64864_ip = 201; continue _fun64864 }
  115:
             foxtrot = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike + zulu;
             oscar = _closure1_slot7;
             mike = offset;
-            if(oscar) { _fun64859_ip = 195; continue _fun64859 }
+            if(oscar) { _fun64864_ip = 195; continue _fun64864 }
  189:
             mike = '&quality=lossless';
  195:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.window;
             mike = mike.GLOBAL_ENV;
             mike = mike.CDN_HOST;
-            if(!(report == mike)) { _fun64859_ip = 275; continue _fun64859 }
+            if(!(report == mike)) { _fun64864_ip = 275; continue _fun64864 }
  225:
             golf = _closure1_slot6;
             report = _closure1_slot3;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             config = golf;
             control = options;
             mike = record[report](config, sequence, vacuum, control, source);
-            _fun64859_ip = 330; continue _fun64859;
+            _fun64864_ip = 330; continue _fun64864;
  275:
             config = _closure1_slot5;
             zulu = zulu.HermesInternal;
@@ -158,17 +158,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_boosting/RoleIconUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) {
-        _fun64860: for(var _fun64860_ip = 0; ; ) switch(_fun64860_ip) {
+        _fun64865: for(var _fun64865_ip = 0; ; ) switch(_fun64865_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun64860_ip = 134; continue _fun64860 }
+            if(!(entity != golf)) { _fun64865_ip = 134; continue _fun64865 }
  12:
             mike = golf.unicodeEmoji;
             mike = entity != mike;
             zulu = undefined;
             tango = undefined;
-            if(!mike) { _fun64860_ip = 92; continue _fun64860 }
+            if(!mike) { _fun64865_ip = 92; continue _fun64865 }
  29:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['customIconSrc'] = report;
             report = entity != tango;
             zulu = undefined;
-            if(!report) { _fun64860_ip = 127; continue _fun64860 }
+            if(!report) { _fun64865_ip = 127; continue _fun64865 }
  124:
             zulu = tango;
  127:
@@ -230,13 +230,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['replaceRoleIconSourceSize'] = tango;
     tango = function(argFoo) {
-        _fun64862: for(var _fun64862_ip = 0; ; ) switch(_fun64862_ip) {
+        _fun64867: for(var _fun64867_ip = 0; ; ) switch(_fun64867_ip) {
  0:
             report = argFoo;
             zulu = report.startsWith;
             entity = _closure1_slot5;
             entity = zulu.bind(report)(entity);
-            if(entity) { _fun64862_ip = 90; continue _fun64862 }
+            if(entity) { _fun64867_ip = 90; continue _fun64867 }
  24:
             zulu = report.startsWith;
             golf = _closure1_slot6;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = '/roles';
             mike = oscar.bind(tango)(golf, mike);
             mike = zulu.bind(report)(mike);
-            if(!mike) { _fun64862_ip = 87; continue _fun64862 }
+            if(!mike) { _fun64867_ip = 87; continue _fun64867 }
  71:
             tango = report.includes;
             zulu = '/icons/';
@@ -260,23 +260,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isRoleIconAssetUrl'] = tango;
     mike = function(argFoo, argBar) {
-        _fun64863: for(var _fun64863_ip = 0; ; ) switch(_fun64863_ip) {
+        _fun64868: for(var _fun64868_ip = 0; ; ) switch(_fun64868_ip) {
  0:
             zulu = argBar;
             mike = null;
             tango = mike == zulu;
             entity = undefined;
-            if(tango) { _fun64863_ip = 35; continue _fun64863 }
+            if(tango) { _fun64868_ip = 35; continue _fun64868 }
  14:
             zulu = zulu.tags;
             tango = mike == zulu;
             entity = undefined;
-            if(tango) { _fun64863_ip = 35; continue _fun64863 }
+            if(tango) { _fun64868_ip = 35; continue _fun64868 }
  29:
             entity = zulu.subscription_listing_id;
  35:
             entity = mike != entity;
-            if(entity) { _fun64863_ip = 74; continue _fun64863 }
+            if(entity) { _fun64868_ip = 74; continue _fun64868 }
  42:
             mike = argFoo;
             tango = mike.features;

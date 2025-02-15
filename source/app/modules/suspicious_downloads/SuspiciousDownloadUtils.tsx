@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/suspicious_downloads/SuspiciousDownloadUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isSuspiciousDownload
-        _fun104642: for(var _fun104642_ip = 0; ; ) switch(_fun104642_ip) {
+        _fun104634: for(var _fun104634_ip = 0; ; ) switch(_fun104634_ip) {
  0:
             mike = undefined;
             report = undefined;
@@ -80,30 +80,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             backup = backup.bind(kilo)(entity);
             entity = null;
-            if(!(entity == backup)) { _fun104642_ip = 67; continue _fun104642 }
+            if(!(entity == backup)) { _fun104634_ip = 67; continue _fun104634 }
  65:
             backup = {};
  67:
             foxtrot = backup.pathname;
             kilo = backup.hostname;
-            if(!(entity != kilo)) { _fun104642_ip = 397; continue _fun104642 }
+            if(!(entity != kilo)) { _fun104634_ip = 397; continue _fun104634 }
  86:
             backup = _closure1_slot3;
             output = backup[kilo];
-            if(!(entity != output)) { _fun104642_ip = 123; continue _fun104642 }
+            if(!(entity != output)) { _fun104634_ip = 123; continue _fun104634 }
  98:
             backup = foxtrot;
-            if(!(entity != backup)) { _fun104642_ip = 123; continue _fun104642 }
+            if(!(entity != backup)) { _fun104634_ip = 123; continue _fun104634 }
  105:
             kilo = output.test;
             backup = foxtrot;
             backup = kilo.bind(output)(backup);
-            if(backup) { _fun104642_ip = 123; continue _fun104642 }
+            if(backup) { _fun104634_ip = 123; continue _fun104634 }
  121:
             return entity;
  123:
             backup = foxtrot;
-            if(!(entity != backup)) { _fun104642_ip = 395; continue _fun104642 }
+            if(!(entity != backup)) { _fun104634_ip = 395; continue _fun104634 }
  133:
             verify = foxtrot;
  136: // try_start_0
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = backup.decodeURIComponent;
             verify = backup.bind(mike)(foxtrot);
  149: // try_end0
-            _fun104642_ip = 153; continue _fun104642;
+            _fun104634_ip = 153; continue _fun104634;
  151: // catch_target0
             CatchBlockStart(arg_register=12);
  153:
@@ -129,19 +129,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = '..';
             verify = '.';
             foxtrot = '';
-            if(!(romeo >= kilo)) { _fun104642_ip = 279; continue _fun104642 }
+            if(!(romeo >= kilo)) { _fun104634_ip = 279; continue _fun104634 }
  209:
             output = offset;
             romeo = yankee;
             romeo = output[romeo];
             sizing = romeo;
-            if(!(foxtrot !== romeo)) { _fun104642_ip = 246; continue _fun104642 }
+            if(!(foxtrot !== romeo)) { _fun104634_ip = 246; continue _fun104634 }
  226:
             romeo = sizing;
-            if(!(verify !== romeo)) { _fun104642_ip = 246; continue _fun104642 }
+            if(!(verify !== romeo)) { _fun104634_ip = 246; continue _fun104634 }
  233:
             romeo = sizing;
-            if(!(backup === romeo)) { _fun104642_ip = 261; continue _fun104642 }
+            if(!(backup === romeo)) { _fun104634_ip = 261; continue _fun104634 }
  240:
             romeo = options;
             options = romeo + 1;
@@ -149,19 +149,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = yankee;
             romeo = romeo - 1;
             yankee = romeo;
-            if(romeo >= kilo) { _fun104642_ip = 209; continue _fun104642 }
+            if(romeo >= kilo) { _fun104634_ip = 209; continue _fun104634 }
  259:
-            _fun104642_ip = 279; continue _fun104642;
+            _fun104634_ip = 279; continue _fun104634;
  261:
             foxtrot = options;
             romeo = yankee;
-            if(!(!(foxtrot > romeo))) { _fun104642_ip = 279; continue _fun104642 }
+            if(!(!(foxtrot > romeo))) { _fun104634_ip = 279; continue _fun104634 }
  271:
             options = yankee - options;
             golf = offset[options];
  279:
             options = golf;
-            if(!(entity != options)) { _fun104642_ip = 393; continue _fun104642 }
+            if(!(entity != options)) { _fun104634_ip = 393; continue _fun104634 }
  286:
             options = golf;
             golf = options.split;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf;
             options = golf.length;
             golf = 2;
-            if(!(!(options < golf))) { _fun104642_ip = 391; continue _fun104642 }
+            if(!(!(options < golf))) { _fun104634_ip = 391; continue _fun104634 }
  314:
             golf = oscar;
             oscar = golf.pop;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar;
             oscar = entity == oscar;
             mike = undefined;
-            if(oscar) { _fun104642_ip = 352; continue _fun104642 }
+            if(oscar) { _fun104634_ip = 352; continue _fun104634 }
  339:
             oscar = report;
             report = oscar.toLowerCase;
@@ -186,14 +186,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike;
             report = entity != mike;
             mike = null;
-            if(!report) { _fun104642_ip = 389; continue _fun104642 }
+            if(!report) { _fun104634_ip = 389; continue _fun104634 }
  364:
             oscar = _closure1_slot2;
             report = oscar.has;
             tango = zulu;
             tango = report.bind(oscar)(tango);
             mike = null;
-            if(!tango) { _fun104642_ip = 389; continue _fun104642 }
+            if(!tango) { _fun104634_ip = 389; continue _fun104634 }
  386:
             mike = zulu;
  389:

@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'cancelText';
         entity[golf] = options;
         golf = function() { // Original name: onCancel
-            _fun75034: for(var _fun75034_ip = 0; ; ) switch(_fun75034_ip) {
+            _fun75044: for(var _fun75044_ip = 0; ; ) switch(_fun75044_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun75034_ip = 23; continue _fun75034 }
+                if(!(mike != zulu)) { _fun75044_ip = 23; continue _fun75044 }
  13:
                 mike = _closure2_slot0;
                 entity = undefined;

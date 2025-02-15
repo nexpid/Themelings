@@ -42,13 +42,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/VoicePanelAccessibilityView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoicePanelAccessibilityView
-        _fun121758: for(var _fun121758_ip = 0; ; ) switch(_fun121758_ip) {
+        _fun121764: for(var _fun121764_ip = 0; ; ) switch(_fun121764_ip) {
  0:
             zulu = argFoo;
             romeo = zulu.style;
             yankee = zulu.pointerEvents;
             tango = undefined;
-            if(!(yankee === tango)) { _fun121758_ip = 26; continue _fun121758 }
+            if(!(yankee === tango)) { _fun121764_ip = 26; continue _fun121764 }
  20:
             yankee = 'box-none';
  26:
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['style'] = romeo;
             entity['pointerEvents'] = yankee;
             entity['nativeID'] = offset;
-            if(!golf) { _fun121758_ip = 158; continue _fun121758 }
+            if(!golf) { _fun121764_ip = 158; continue _fun121764 }
  139:
             verify = verify.mode;
             options = _closure1_slot2;

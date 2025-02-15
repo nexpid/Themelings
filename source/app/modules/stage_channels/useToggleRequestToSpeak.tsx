@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/useToggleRequestToSpeak.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useToggleRequestToSpeak
-        _fun103009: for(var _fun103009_ip = 0; ; ) switch(_fun103009_ip) {
+        _fun103001: for(var _fun103001_ip = 0; ; ) switch(_fun103001_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.RequestToSpeakStates;
             entity = entity.REQUESTED_TO_SPEAK;
             entity = report === entity;
-            if(entity) { _fun103009_ip = 156; continue _fun103009 }
+            if(entity) { _fun103001_ip = 156; continue _fun103001 }
  123:
             oscar = _closure1_slot0;
             tango = _closure1_slot2;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(2);
             entity[0] = zulu;
             mike = function() {
-                _fun103012: for(var _fun103012_ip = 0; ; ) switch(_fun103012_ip) {
+                _fun103004: for(var _fun103004_ip = 0; ; ) switch(_fun103004_ip) {
  0:
                     report = _closure2_slot1;
                     oscar = _closure1_slot0;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.bind(entity)(tango);
                     tango = tango.RequestToSpeakStates;
                     tango = tango.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
-                    if(!(report !== tango)) { _fun103012_ip = 93; continue _fun103012 }
+                    if(!(report !== tango)) { _fun103004_ip = 93; continue _fun103004 }
  48:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot3;
                     tango = !tango;
                     tango = oscar.bind(golf)(report, tango);
-                    _fun103012_ip = 131; continue _fun103012;
+                    _fun103004_ip = 131; continue _fun103004;
  93:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;

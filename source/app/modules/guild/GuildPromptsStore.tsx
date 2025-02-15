@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun89207: for(var _fun89207_ip = 0; ; ) switch(_fun89207_ip) {
+        _fun89224: for(var _fun89224_ip = 0; ; ) switch(_fun89224_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot7;
             entity = entity.bind(zulu)();
-            if(entity) { _fun89207_ip = 51; continue _fun89207 }
+            if(entity) { _fun89224_ip = 51; continue _fun89224 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun89207_ip = 92; continue _fun89207;
+            _fun89224_ip = 92; continue _fun89224;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun89207_ip = 71; continue _fun89207 }
+            if(oscar) { _fun89224_ip = 71; continue _fun89224 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun89208: for(var _fun89208_ip = 0; ; ) switch(_fun89208_ip) {
+        _fun89225: for(var _fun89225_ip = 0; ; ) switch(_fun89225_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun89208_ip = 76; continue _fun89208;
+            _fun89225_ip = 76; continue _fun89225;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun89213: for(var _fun89213_ip = 0; ; ) switch(_fun89213_ip) {
+            _fun89230: for(var _fun89230_ip = 0; ; ) switch(_fun89230_ip) {
  0:
                 options = argFoo;
                 oscar = options;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = new kilo[verify](backup, foxtrot);
                     verify = verify instanceof Object ? verify : romeo;
                     offset[yankee] = verify;
-                    _fun89213_ip = 19; continue _fun89213;
+                    _fun89230_ip = 19; continue _fun89230;
                 }
  71:
                 entity = undefined;
@@ -168,14 +168,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'hasViewedPrompt';
         report['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun89214: for(var _fun89214_ip = 0; ; ) switch(_fun89214_ip) {
+            _fun89231: for(var _fun89231_ip = 0; ; ) switch(_fun89231_ip) {
  0:
                 mike = _closure1_slot5;
                 entity = argBar;
                 tango = mike[entity];
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun89214_ip = 42; continue _fun89214 }
+                if(!entity) { _fun89231_ip = 42; continue _fun89231 }
  23:
                 zulu = tango.has;
                 mike = argFoo;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     yankee = oscar.bind(entity)(mike);
     mike = {};
     options = function(argFoo) { // Original name: handleGuildPromptViewed
-        _fun89216: for(var _fun89216_ip = 0; ; ) switch(_fun89216_ip) {
+        _fun89233: for(var _fun89233_ip = 0; ; ) switch(_fun89233_ip) {
  0:
             entity = argFoo;
             tango = entity.prompt;
@@ -217,18 +217,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             oscar = entity[zulu];
             entity = null;
-            if(!(entity != oscar)) { _fun89216_ip = 61; continue _fun89216 }
+            if(!(entity != oscar)) { _fun89233_ip = 61; continue _fun89233 }
  31:
             entity = oscar.has;
             entity = entity.bind(oscar)(tango);
             entity = !entity;
-            if(!entity) { _fun89216_ip = 59; continue _fun89216 }
+            if(!entity) { _fun89233_ip = 59; continue _fun89233 }
  47:
             report = oscar.add;
             report = report.bind(oscar)(tango);
             entity = true;
  59:
-            _fun89216_ip = 113; continue _fun89216;
+            _fun89233_ip = 113; continue _fun89233;
  61:
             mike = _closure1_slot5;
             report = global;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_PROMPT_VIEWED'] = options;
     tango = function(argFoo) { // Original name: handleGuildDelete
-        _fun89217: for(var _fun89217_ip = 0; ; ) switch(_fun89217_ip) {
+        _fun89234: for(var _fun89234_ip = 0; ; ) switch(_fun89234_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
@@ -258,12 +258,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango[entity];
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun89217_ip = 42; continue _fun89217 }
+            if(!entity) { _fun89234_ip = 42; continue _fun89234 }
  33:
             tango = mike.unavailable;
             entity = !tango;
  42:
-            if(!entity) { _fun89217_ip = 60; continue _fun89217 }
+            if(!entity) { _fun89234_ip = 60; continue _fun89234 }
  45:
             zulu = _closure1_slot5;
             mike = mike.id;

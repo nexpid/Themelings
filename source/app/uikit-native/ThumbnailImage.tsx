@@ -1,6 +1,6 @@
 // app/uikit-native/ThumbnailImage.tsx
 export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
-    _fun87177: for(var _fun87177_ip = 0; ; ) switch(_fun87177_ip) {
+    _fun87194: for(var _fun87194_ip = 0; ; ) switch(_fun87194_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -33,19 +33,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         verify = report.bind(entity)(golf);
         golf = verify.isFabric;
         golf = golf.bind(verify)();
-        if(golf) { _fun87177_ip = 166; continue _fun87177 }
+        if(golf) { _fun87194_ip = 166; continue _fun87194 }
  129:
         golf = 5;
         golf = oscar[golf];
         verify = report.bind(entity)(golf);
         golf = verify.isAndroid;
         golf = golf.bind(verify)();
-        if(!golf) { _fun87177_ip = 164; continue _fun87177 }
+        if(!golf) { _fun87194_ip = 164; continue _fun87194 }
  153:
         golf = 'DCDLocalImageThumbnail';
         tango = options.bind(entity)(golf);
  164:
-        _fun87177_ip = 183; continue _fun87177;
+        _fun87194_ip = 183; continue _fun87194;
  166:
         golf = 4;
         golf = oscar[golf];

@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/RemixingSVG.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84171: for(var _fun84171_ip = 0; ; ) switch(_fun84171_ip) {
+        _fun84187: for(var _fun84187_ip = 0; ; ) switch(_fun84187_ip) {
  0:
             mike = argFoo;
             echo = mike.id;
@@ -76,11 +76,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = backup.bind(report)(output);
             entity = function() {
                 entity = function() {
-                    _fun84173: for(var _fun84173_ip = 0; ; ) switch(_fun84173_ip) {
+                    _fun84189: for(var _fun84189_ip = 0; ; ) switch(_fun84189_ip) {
  0:
                         zulu = _closure2_slot0;
                         mike = null;
-                        if(!(mike != zulu)) { _fun84173_ip = 27; continue _fun84173 }
+                        if(!(mike != zulu)) { _fun84189_ip = 27; continue _fun84189 }
  13:
                         mike = _closure2_slot0;
                         entity = mike.dispose;
@@ -103,9 +103,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity[zulu];
             entity = null;
             golf = entity == offset;
-            if(golf) { _fun84171_ip = 403; continue _fun84171 }
+            if(golf) { _fun84187_ip = 403; continue _fun84187 }
  212:
-            if(oscar) { _fun84171_ip = 226; continue _fun84171 }
+            if(oscar) { _fun84187_ip = 226; continue _fun84187 }
  215:
             zulu = zulu.bind(report)();
             zulu = true;

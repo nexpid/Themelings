@@ -75,11 +75,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = _closure1_slot3;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun126552: for(var _fun126552_ip = 0; ; ) switch(_fun126552_ip) {
+                _fun126548: for(var _fun126548_ip = 0; ; ) switch(_fun126548_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun126552_ip = 85; continue _fun126552 }
+                    if(mike) { _fun126548_ip = 85; continue _fun126548 }
  7:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun126552_ip = 82; continue _fun126552 }
+                    if(report) { _fun126548_ip = 82; continue _fun126548 }
  70:
                     tango = _closure2_slot4;
                     tango = tango.bind(zulu)(mike);
@@ -170,18 +170,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report['title'] = golf;
         report['value'] = output;
         golf = function(argFoo) { // Original name: onChange
-            _fun126554: for(var _fun126554_ip = 0; ; ) switch(_fun126554_ip) {
+            _fun126550: for(var _fun126550_ip = 0; ; ) switch(_fun126550_ip) {
  0:
                 zulu = argFoo;
                 mike = _closure2_slot2;
                 mike = mike !== zulu;
-                if(!mike) { _fun126554_ip = 27; continue _fun126554 }
+                if(!mike) { _fun126550_ip = 27; continue _fun126550 }
  17:
                 report = _closure2_slot1;
                 tango = null;
                 mike = tango != report;
  27:
-                if(!mike) { _fun126554_ip = 41; continue _fun126554 }
+                if(!mike) { _fun126550_ip = 41; continue _fun126550 }
  30:
                 mike = _closure2_slot3;
                 entity = undefined;
@@ -267,17 +267,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = 'destructive';
         oscar['variant'] = yankee;
         offset = function() { // Original name: onPress
-            _fun126555: for(var _fun126555_ip = 0; ; ) switch(_fun126555_ip) {
+            _fun126551: for(var _fun126551_ip = 0; ; ) switch(_fun126551_ip) {
  0:
                 mike = _closure2_slot1;
                 tango = null;
                 mike = tango != mike;
-                if(!mike) { _fun126555_ip = 24; continue _fun126555 }
+                if(!mike) { _fun126551_ip = 24; continue _fun126551 }
  16:
                 zulu = _closure2_slot2;
                 mike = tango != zulu;
  24:
-                if(!mike) { _fun126555_ip = 94; continue _fun126555 }
+                if(!mike) { _fun126551_ip = 94; continue _fun126551 }
  27:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;

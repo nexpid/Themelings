@@ -32,7 +32,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/tabs/gravity/useICYMITabBadge.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useICYMITabBadge
-        _fun117382: for(var _fun117382_ip = 0; ; ) switch(_fun117382_ip) {
+        _fun117388: for(var _fun117388_ip = 0; ; ) switch(_fun117388_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -81,7 +81,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = tango.GravityUnreadMentionsBadgeVariant;
             tango = tango.RED_BADGE;
             golf = verify === tango;
-            if(!golf) { _fun117382_ip = 182; continue _fun117382 }
+            if(!golf) { _fun117388_ip = 182; continue _fun117388 }
  179:
             golf = zulu;
  182:
@@ -106,7 +106,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = oscar.newUnreadMentionMessages;
             var _closure2_slot4 = offset;
             oscar = romeo;
-            if(!golf) { _fun117382_ip = 294; continue _fun117382 }
+            if(!golf) { _fun117388_ip = 294; continue _fun117388 }
  276:
             golf = tango.length;
             romeo = romeo + golf;
@@ -124,7 +124,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango[3] = verify;
             tango[4] = options;
             entity = function() {
-                _fun117385: for(var _fun117385_ip = 0; ; ) switch(_fun117385_ip) {
+                _fun117391: for(var _fun117391_ip = 0; ; ) switch(_fun117391_ip) {
  0:
                     zulu = _closure2_slot0;
                     report = _closure1_slot0;
@@ -135,30 +135,30 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     entity = report.bind(entity)(tango);
                     entity = entity.GravityUnreadMentionsBadgeVariant;
                     entity = entity.NO_BADGE;
-                    if(!(zulu !== entity)) { _fun117385_ip = 123; continue _fun117385 }
+                    if(!(zulu !== entity)) { _fun117391_ip = 123; continue _fun117391 }
  48:
                     entity = _closure2_slot1;
                     zulu = _closure2_slot2;
-                    if(entity) { _fun117385_ip = 100; continue _fun117385 }
+                    if(entity) { _fun117391_ip = 100; continue _fun117391 }
  59:
                     entity = zulu;
-                    if(zulu) { _fun117385_ip = 80; continue _fun117385 }
+                    if(zulu) { _fun117391_ip = 80; continue _fun117391 }
  65:
                     tango = _closure2_slot3;
                     report = tango.length;
                     tango = 0;
                     entity = report > tango;
  80:
-                    if(entity) { _fun117385_ip = 98; continue _fun117385 }
+                    if(entity) { _fun117391_ip = 98; continue _fun117391 }
  83:
                     tango = _closure2_slot4;
                     report = tango.length;
                     tango = 0;
                     entity = report > tango;
  98:
-                    _fun117385_ip = 121; continue _fun117385;
+                    _fun117391_ip = 121; continue _fun117391;
  100:
-                    if(zulu) { _fun117385_ip = 118; continue _fun117385 }
+                    if(zulu) { _fun117391_ip = 118; continue _fun117391 }
  103:
                     tango = _closure2_slot3;
                     report = tango.length;
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  118:
                     entity = zulu;
  121:
-                    _fun117385_ip = 127; continue _fun117385;
+                    _fun117391_ip = 127; continue _fun117391;
  123:
                     entity = _closure2_slot2;
  127:
@@ -177,14 +177,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = report.bind(golf)(entity, tango);
             entity = {};
             report = 0;
-            if(!zulu) { _fun117382_ip = 360; continue _fun117382 }
+            if(!zulu) { _fun117388_ip = 360; continue _fun117388 }
  357:
             report = oscar;
  360:
             entity['value'] = report;
-            if(mike) { _fun117382_ip = 376; continue _fun117382 }
+            if(mike) { _fun117388_ip = 376; continue _fun117388 }
  367:
-            if(!zulu) { _fun117382_ip = 373; continue _fun117382 }
+            if(!zulu) { _fun117388_ip = 373; continue _fun117388 }
  370:
             zulu = tango;
  373:

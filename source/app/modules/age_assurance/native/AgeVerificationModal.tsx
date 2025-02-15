@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = _closure1_slot3;
         tango = report.useCallback;
         zulu = function(argFoo) {
-            _fun92647: for(var _fun92647_ip = 0; ; ) switch(_fun92647_ip) {
+            _fun92679: for(var _fun92679_ip = 0; ; ) switch(_fun92679_ip) {
  0:
                 tango = argFoo;
                 zulu = tango;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.data;
                 report = 'string';
                 tango = typeof tango;
-                if(!(report === tango)) { _fun92647_ip = 66; continue _fun92647 }
+                if(!(report === tango)) { _fun92679_ip = 66; continue _fun92679 }
  31: // try_start_0
                 tango = global;
                 report = tango.JSON;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.data;
                 mike = tango.bind(report)(zulu);
  60: // try_end0
-                _fun92647_ip = 66; continue _fun92647;
+                _fun92679_ip = 66; continue _fun92679;
  62: // catch_target0
                 CatchBlockStart(arg_register=2);
                 mike = null;
@@ -63,12 +63,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = entity == mike;
                 entity = undefined;
                 zulu = undefined;
-                if(tango) { _fun92647_ip = 82; continue _fun92647 }
+                if(tango) { _fun92679_ip = 82; continue _fun92679 }
  77:
                 zulu = mike.status;
  82:
                 mike = 'AGE_CHECK_COMPLETE';
-                if(!(mike === zulu)) { _fun92647_ip = 125; continue _fun92647 }
+                if(!(mike === zulu)) { _fun92679_ip = 125; continue _fun92679 }
  92:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;

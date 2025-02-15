@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/getXboxURIForChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getXboxURIForChannel
-        _fun103259: for(var _fun103259_ip = 0; ; ) switch(_fun103259_ip) {
+        _fun103251: for(var _fun103251_ip = 0; ; ) switch(_fun103251_ip) {
  0:
             foxtrot = argFoo;
             entity = argBar;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot6;
             zulu = {};
             options = null;
-            if(!(options == oscar)) { _fun103259_ip = 61; continue _fun103259 }
+            if(!(options == oscar)) { _fun103251_ip = 61; continue _fun103251 }
  57:
             oscar = _closure1_slot9;
  61:
@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['channelName'] = golf;
             offset = options == verify;
             golf = undefined;
-            if(offset) { _fun103259_ip = 136; continue _fun103259 }
+            if(offset) { _fun103251_ip = 136; continue _fun103251 }
  131:
             golf = verify.name;
  136:
-            if(!(options == golf)) { _fun103259_ip = 195; continue _fun103259 }
+            if(!(options == golf)) { _fun103251_ip = 195; continue _fun103251 }
  140:
             yankee = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['deafened'] = golf;
             zulu['nonce'] = report;
             zulu = tango.bind(oscar)(zulu);
-            if(entity) { _fun103259_ip = 290; continue _fun103259 }
+            if(entity) { _fun103251_ip = 290; continue _fun103251 }
  247:
             options = _closure1_slot7;
             entity = zulu.toString;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = '';
             entity = '?';
             entity = report.bind(tango)(options, entity, golf);
-            _fun103259_ip = 364; continue _fun103259;
+            _fun103251_ip = 364; continue _fun103251;
  290:
             report = _closure1_slot0;
             golf = _closure1_slot1;

@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/nav_steps/WebAuthnRegisterStep.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: WebAuthnRegisterStep
-        _fun92875: for(var _fun92875_ip = 0; ; ) switch(_fun92875_ip) {
+        _fun92907: for(var _fun92907_ip = 0; ; ) switch(_fun92907_ip) {
  0:
             report = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -233,10 +233,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.isAndroid;
             report = zulu.bind(report)();
             zulu = _closure1_slot10;
-            if(report) { _fun92875_ip = 163; continue _fun92875 }
+            if(report) { _fun92907_ip = 163; continue _fun92907 }
  155:
             offset = zulu.OTHER_AND_ANDROID_NONDISCOVERABLE;
-            _fun92875_ip = 169; continue _fun92875;
+            _fun92907_ip = 169; continue _fun92907;
  163:
             offset = zulu.PASSKEY_CREDENTIAL_MANAGER;
  169:
@@ -334,11 +334,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output[result];
             output = source.bind(tango)(output);
             source = output.t;
-            if(foxtrot) { _fun92875_ip = 510; continue _fun92875 }
+            if(foxtrot) { _fun92907_ip = 510; continue _fun92907 }
  497:
             output = source.Lh5vTU;
             output = control.bind(vacuum)(output);
-            _fun92875_ip = 521; continue _fun92875;
+            _fun92907_ip = 521; continue _fun92907;
  510:
             source = source.aVMiX1;
             output = control.bind(vacuum)(source);
@@ -348,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = verify;
             verify = null;
             verify = verify != echo;
-            if(!verify) { _fun92875_ip = 594; continue _fun92875 }
+            if(!verify) { _fun92907_ip = 594; continue _fun92907 }
  544:
             output = _closure1_slot7;
             sizing = _closure1_slot0;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(tango)(oscar);
             oscar = golf.isAndroid;
             oscar = oscar.bind(golf)();
-            if(!oscar) { _fun92875_ip = 676; continue _fun92875 }
+            if(!oscar) { _fun92907_ip = 676; continue _fun92907 }
  645:
             verify = _closure1_slot7;
             options = _closure1_slot12;
@@ -405,11 +405,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[result];
             backup = kilo.bind(tango)(backup);
             kilo = backup.t;
-            if(foxtrot) { _fun92875_ip = 793; continue _fun92875 }
+            if(foxtrot) { _fun92907_ip = 793; continue _fun92907 }
  780:
             backup = kilo.oibaQU;
             backup = sizing.bind(output)(backup);
-            _fun92875_ip = 804; continue _fun92875;
+            _fun92907_ip = 804; continue _fun92907;
  793:
             kilo = kilo.wePEBA;
             backup = sizing.bind(output)(kilo);

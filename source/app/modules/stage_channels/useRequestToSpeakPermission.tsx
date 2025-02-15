@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stage_channels/useRequestToSpeakPermission.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useRequestToSpeakPermission
-        _fun102986: for(var _fun102986_ip = 0; ; ) switch(_fun102986_ip) {
+        _fun102978: for(var _fun102978_ip = 0; ; ) switch(_fun102978_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
@@ -85,19 +85,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 1;
             entity = oscar[entity];
             var _closure2_slot2 = entity;
-            if(!(tango !== zulu)) { _fun102986_ip = 168; continue _fun102986 }
+            if(!(tango !== zulu)) { _fun102978_ip = 168; continue _fun102978 }
  163:
             entity = entity.bind(report)(tango);
  168:
             entity = new Array(2);
             entity[0] = zulu;
             mike = function(argFoo) {
-                _fun102988: for(var _fun102988_ip = 0; ; ) switch(_fun102988_ip) {
+                _fun102980: for(var _fun102980_ip = 0; ; ) switch(_fun102980_ip) {
  0:
                     report = argFoo;
                     zulu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun102988_ip = 77; continue _fun102988 }
+                    if(!(entity != zulu)) { _fun102980_ip = 77; continue _fun102980 }
  16:
                     entity = _closure2_slot2;
                     oscar = undefined;

@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/ClassificationEvidence.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ClassificationEvidence
-        _fun92564: for(var _fun92564_ip = 0; ; ) switch(_fun92564_ip) {
+        _fun92593: for(var _fun92593_ip = 0; ; ) switch(_fun92593_ip) {
  0:
             entity = argFoo;
             yankee = entity.flaggedContent;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun92564_ip = 249; continue _fun92564 }
+            if(!(mike !== zulu)) { _fun92593_ip = 249; continue _fun92593 }
  38:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;

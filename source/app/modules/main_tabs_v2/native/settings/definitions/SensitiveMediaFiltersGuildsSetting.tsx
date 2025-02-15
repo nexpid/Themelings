@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, argFred, argPlugh
     };
     mike['onPress'] = golf;
     golf = function() { // Original name: useHasObscuredContentGuildsSetting
-        _fun94708: for(var _fun94708_ip = 0; ; ) switch(_fun94708_ip) {
+        _fun94720: for(var _fun94720_ip = 0; ; ) switch(_fun94720_ip) {
  0:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, argFred, argPlugh
             mike = entity.bind(mike)();
             entity = null;
             entity = entity == mike;
-            if(entity) { _fun94708_ip = 41; continue _fun94708 }
+            if(entity) { _fun94720_ip = 41; continue _fun94720 }
  38:
             entity = mike;
  41:

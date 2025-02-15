@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/UserSettingsAuthedAppDeleteWarningModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserSettingsAuthedAppDeleteWarningModal
-        _fun95521: for(var _fun95521_ip = 0; ; ) switch(_fun95521_ip) {
+        _fun95531: for(var _fun95531_ip = 0; ; ) switch(_fun95531_ip) {
  0:
             entity = argFoo;
             offset = entity.application;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity[kilo];
             oscar = zulu.bind(tango)(oscar);
             golf = oscar.intl;
-            if(mike) { _fun95521_ip = 104; continue _fun95521 }
+            if(mike) { _fun95531_ip = 104; continue _fun95531 }
  72:
             verify = golf.string;
             oscar = entity[kilo];
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.t;
             oscar = oscar.DT39Aw;
             yankee = verify.bind(golf)(oscar);
-            _fun95521_ip = 147; continue _fun95521;
+            _fun95531_ip = 147; continue _fun95531;
  104:
             oscar = golf.formatToPlainString;
             entity = entity[kilo];
@@ -83,14 +83,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity[kilo];
             entity = golf.bind(tango)(entity);
             entity = entity.t;
-            if(mike) { _fun95521_ip = 217; continue _fun95521 }
+            if(mike) { _fun95531_ip = 217; continue _fun95531 }
  191:
             golf = entity.QWGvxM;
             mike = {};
             verify = offset.name;
             mike['applicationName'] = verify;
             golf = zulu.bind(oscar)(golf, mike);
-            _fun95521_ip = 241; continue _fun95521;
+            _fun95531_ip = 241; continue _fun95531;
  217:
             mike = entity.inM1Ym;
             entity = {};
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.bind(tango)(oscar);
             oscar = offset.id;
             verify = verify.bind(tango)(oscar);
-            if(!verify) { _fun95521_ip = 381; continue _fun95521 }
+            if(!verify) { _fun95531_ip = 381; continue _fun95531 }
  284:
             backup = _closure1_slot3;
             romeo = _closure1_slot1;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify[foxtrot];
             verify = romeo.bind(tango)(verify);
             verify = verify.bind(tango)(offset);
-            if(!verify) { _fun95521_ip = 524; continue _fun95521 }
+            if(!verify) { _fun95531_ip = 524; continue _fun95531 }
  414:
             foxtrot = _closure1_slot3;
             romeo = _closure1_slot1;

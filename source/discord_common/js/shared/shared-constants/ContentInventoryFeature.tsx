@@ -16,6 +16,8 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike['GAME_PROFILE'] = entity;
     entity = 'recent_activity';
     mike['RECENT_ACTIVITY'] = entity;
+    entity = 'overlay_invites';
+    mike['OVERLAY_INVITES'] = entity;
     tango = argPlugh;
     entity = 0;
     report = tango[entity];

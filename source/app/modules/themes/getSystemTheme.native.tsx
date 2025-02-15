@@ -29,16 +29,16 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/themes/getSystemTheme.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getSystemTheme
-        _fun35681: for(var _fun35681_ip = 0; ; ) switch(_fun35681_ip) {
+        _fun35688: for(var _fun35688_ip = 0; ; ) switch(_fun35688_ip) {
  0:
             zulu = _closure1_slot0;
             mike = zulu.getColorScheme;
             zulu = mike.bind(zulu)();
             mike = 'light';
-            if(!(mike !== zulu)) { _fun35681_ip = 49; continue _fun35681 }
+            if(!(mike !== zulu)) { _fun35688_ip = 49; continue _fun35688 }
  25:
             mike = 'dark';
-            if(!(mike !== zulu)) { _fun35681_ip = 37; continue _fun35681 }
+            if(!(mike !== zulu)) { _fun35688_ip = 37; continue _fun35688 }
  33:
             mike = null;
             return mike;

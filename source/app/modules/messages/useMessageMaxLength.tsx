@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getMaxMessageLength_
-        _fun78312: for(var _fun78312_ip = 0; ; ) switch(_fun78312_ip) {
+        _fun78322: for(var _fun78322_ip = 0; ; ) switch(_fun78322_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot1;
@@ -21,10 +21,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.getCurrentUser;
             entity = entity.bind(report)();
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun78312_ip = 57; continue _fun78312 }
+            if(entity) { _fun78322_ip = 57; continue _fun78322 }
  51:
             entity = _closure1_slot5;
-            _fun78312_ip = 61; continue _fun78312;
+            _fun78322_ip = 61; continue _fun78322;
  57:
             entity = _closure1_slot4;
  61:

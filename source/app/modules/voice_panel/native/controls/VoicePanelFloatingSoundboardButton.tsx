@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun122296: for(var _fun122296_ip = 0; ; ) switch(_fun122296_ip) {
+        _fun122302: for(var _fun122302_ip = 0; ; ) switch(_fun122302_ip) {
  0:
             entity = argFoo;
             zulu = entity.channelId;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.disabled;
             golf = entity.showIndicator;
             entity = null;
-            if(!mike) { _fun122296_ip = 450; continue _fun122296 }
+            if(!mike) { _fun122302_ip = 450; continue _fun122302 }
  103:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['size'] = romeo;
             verify = yankee.bind(report)(offset, verify);
             oscar[1] = verify;
-            if(!golf) { _fun122296_ip = 436; continue _fun122296 }
+            if(!golf) { _fun122302_ip = 436; continue _fun122302 }
  404:
             offset = _closure1_slot4;
             verify = _closure1_slot1;

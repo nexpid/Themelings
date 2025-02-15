@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: HeaderGlassBlur
-        _fun101804: for(var _fun101804_ip = 0; ; ) switch(_fun101804_ip) {
+        _fun101796: for(var _fun101796_ip = 0; ; ) switch(_fun101796_ip) {
  0:
             mike = argFoo;
             options = mike.shown;
@@ -99,18 +99,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = yankee.bind(tango)(zulu);
             report = oscar.useAnimatedStyle;
             zulu = function() { // Original name: k
-                _fun101805: for(var _fun101805_ip = 0; ; ) switch(_fun101805_ip) {
+                _fun101797: for(var _fun101797_ip = 0; ; ) switch(_fun101797_ip) {
  0:
                     entity = {};
                     zulu = _closure2_slot0;
                     mike = zulu.get;
                     zulu = mike.bind(zulu)();
                     mike = 0;
-                    if(!zulu) { _fun101805_ip = 49; continue _fun101805 }
+                    if(!zulu) { _fun101797_ip = 49; continue _fun101797 }
  23:
                     tango = _closure1_slot7;
                     zulu = 1;
-                    if(!tango) { _fun101805_ip = 46; continue _fun101805 }
+                    if(!tango) { _fun101797_ip = 46; continue _fun101797 }
  36:
                     zulu = 0.7;
  46:
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.bind(tango)(mike);
             mike = zulu.useAnimatedProps;
             entity = function() { // Original name: y
-                _fun101806: for(var _fun101806_ip = 0; ; ) switch(_fun101806_ip) {
+                _fun101798: for(var _fun101798_ip = 0; ; ) switch(_fun101798_ip) {
  0:
                     entity = {};
                     tango = _closure1_slot0;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = report.get;
                     report = mike.bind(report)();
                     mike = 0;
-                    if(!report) { _fun101806_ip = 63; continue _fun101806 }
+                    if(!report) { _fun101798_ip = 63; continue _fun101798 }
  53:
                     mike = 0.3;
  63:
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.isThemeDark;
             yankee = verify.bind(yankee)(sizing);
             verify = 'light';
-            if(!yankee) { _fun101804_ip = 327; continue _fun101804 }
+            if(!yankee) { _fun101796_ip = 327; continue _fun101796 }
  323:
             verify = 'dark';
  327:
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.isThemeDark;
             foxtrot = foxtrot.bind(kilo)(sizing);
             backup = _closure1_slot6;
-            if(foxtrot) { _fun101804_ip = 506; continue _fun101804 }
+            if(foxtrot) { _fun101796_ip = 506; continue _fun101796 }
  498:
             foxtrot = backup.strokeAltLight;
-            _fun101804_ip = 512; continue _fun101804;
+            _fun101796_ip = 512; continue _fun101796;
  506:
             foxtrot = backup.strokeAlt;
  512:

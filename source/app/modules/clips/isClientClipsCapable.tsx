@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/clips/isClientClipsCapable.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isClientClipsCapable
-        _fun75556: for(var _fun75556_ip = 0; ; ) switch(_fun75556_ip) {
+        _fun75566: for(var _fun75566_ip = 0; ; ) switch(_fun75566_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot0;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['autoTrackExposure'] = options;
             entity = tango.bind(golf)(mike, entity);
             entity = entity.ignorePlatformRestriction;
-            if(entity) { _fun75556_ip = 143; continue _fun75556 }
+            if(entity) { _fun75566_ip = 143; continue _fun75566 }
  76:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = tango.bind(oscar)(mike);
             mike = tango.isDesktop;
             mike = mike.bind(tango)();
-            if(!mike) { _fun75556_ip = 140; continue _fun75556 }
+            if(!mike) { _fun75566_ip = 140; continue _fun75566 }
  109:
             tango = report.getMediaEngine;
             report = tango.bind(report)();

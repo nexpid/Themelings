@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: StepNode
-        _fun127303: for(var _fun127303_ip = 0; ; ) switch(_fun127303_ip) {
+        _fun127299: for(var _fun127299_ip = 0; ; ) switch(_fun127299_ip) {
  0:
             zulu = argFoo;
             verify = zulu.label;
@@ -28,14 +28,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = offset.bind(tango)(options);
             offset = romeo.useSharedValue;
             options = 0;
-            if(!report) { _fun127303_ip = 86; continue _fun127303 }
+            if(!report) { _fun127299_ip = 86; continue _fun127299 }
  83:
             options = 1;
  86:
             foxtrot = offset.bind(romeo)(options);
             _closure2_slot1 = foxtrot;
             sizing = 0;
-            if(zulu) { _fun127303_ip = 104; continue _fun127303 }
+            if(zulu) { _fun127299_ip = 104; continue _fun127299 }
  100:
             sizing = _closure1_slot7;
  104:
@@ -143,13 +143,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = foxtrot;
             zulu[1] = report;
             mike = function() {
-                _fun127305: for(var _fun127305_ip = 0; ; ) switch(_fun127305_ip) {
+                _fun127301: for(var _fun127301_ip = 0; ; ) switch(_fun127301_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = zulu.set;
                     tango = _closure2_slot0;
                     entity = 0;
-                    if(!tango) { _fun127305_ip = 24; continue _fun127305 }
+                    if(!tango) { _fun127301_ip = 24; continue _fun127301 }
  21:
                     entity = 1;
  24:
@@ -159,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = options.bind(romeo)(mike, zulu);
-            if(entity) { _fun127303_ip = 294; continue _fun127303 }
+            if(entity) { _fun127299_ip = 294; continue _fun127299 }
  283:
-            if(report) { _fun127303_ip = 294; continue _fun127303 }
+            if(report) { _fun127299_ip = 294; continue _fun127299 }
  286:
             options = golf.emptyNode;
-            _fun127303_ip = 300; continue _fun127303;
+            _fun127299_ip = 300; continue _fun127299;
  294:
             options = golf.filledNode;
  300:
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = offset;
             golf[2] = options;
             entity['style'] = golf;
-            if(!report) { _fun127303_ip = 410; continue _fun127303 }
+            if(!report) { _fun127299_ip = 410; continue _fun127299 }
  357:
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[1] = offset;
         zulu[2] = verify;
         mike = function() {
-            _fun127308: for(var _fun127308_ip = 0; ; ) switch(_fun127308_ip) {
+            _fun127304: for(var _fun127304_ip = 0; ; ) switch(_fun127304_ip) {
  0:
                 entity = new Array(0);
                 mike = _closure2_slot1;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = oscar < mike;
                 report = 1;
                 zulu = undefined;
-                if(!mike) { _fun127308_ip = 105; continue _fun127308 }
+                if(!mike) { _fun127304_ip = 105; continue _fun127304 }
  28:
                 yankee = oscar + report;
                 options = entity.push;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = options.bind(entity)(mike);
                 oscar = oscar + 1;
                 mike = _closure2_slot1;
-                if(oscar < mike) { _fun127308_ip = 28; continue _fun127308 }
+                if(oscar < mike) { _fun127304_ip = 28; continue _fun127304 }
  105:
                 return entity;
             }

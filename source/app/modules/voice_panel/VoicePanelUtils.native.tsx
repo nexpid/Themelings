@@ -34,19 +34,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/VoicePanelUtils.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: isVoicePanelEnabled
-        _fun73197: for(var _fun73197_ip = 0; ; ) switch(_fun73197_ip) {
+        _fun73207: for(var _fun73207_ip = 0; ; ) switch(_fun73207_ip) {
  0:
             tango = argFoo;
             entity = null;
             zulu = entity == tango;
             mike = undefined;
-            if(zulu) { _fun73197_ip = 24; continue _fun73197 }
+            if(zulu) { _fun73207_ip = 24; continue _fun73207 }
  14:
             zulu = tango.isGuildStageVoice;
             mike = zulu.bind(tango)();
  24:
             entity = entity == mike;
-            if(entity) { _fun73197_ip = 34; continue _fun73197 }
+            if(entity) { _fun73207_ip = 34; continue _fun73207 }
  31:
             entity = !mike;
  34:
@@ -68,16 +68,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = _closure1_slot3;
         mike[1] = entity;
         entity = function() {
-            _fun73199: for(var _fun73199_ip = 0; ; ) switch(_fun73199_ip) {
+            _fun73209: for(var _fun73209_ip = 0; ; ) switch(_fun73209_ip) {
  0:
                 zulu = _closure1_slot2;
                 tango = _closure1_slot3;
                 mike = undefined;
-                if(!(zulu === mike)) { _fun73199_ip = 21; continue _fun73199 }
+                if(!(zulu === mike)) { _fun73209_ip = 21; continue _fun73209 }
  17:
                 zulu = _closure1_slot2;
  21:
-                if(!(tango === mike)) { _fun73199_ip = 29; continue _fun73199 }
+                if(!(tango === mike)) { _fun73209_ip = 29; continue _fun73209 }
  25:
                 tango = _closure1_slot3;
  29:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike.bind(zulu)(entity);
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun73199_ip = 71; continue _fun73199 }
+                if(!entity) { _fun73209_ip = 71; continue _fun73209 }
  58:
                 mike = zulu.isGuildStageVoice;
                 mike = mike.bind(zulu)();

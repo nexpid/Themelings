@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.WrenchIcon;
     mike['IconComponent'] = golf;
     golf = function(argFoo) { // Original name: handleCreateBugReportSettingToggle
-        _fun99076: for(var _fun99076_ip = 0; ; ) switch(_fun99076_ip) {
+        _fun99086: for(var _fun99086_ip = 0; ; ) switch(_fun99086_ip) {
  0:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.setDeveloperOptionSettings;
             zulu = {};
             golf = argFoo;
-            if(golf) { _fun99076_ip = 82; continue _fun99076 }
+            if(golf) { _fun99086_ip = 82; continue _fun99086 }
  39:
             golf = false;
             zulu['bugReporterEnabled'] = golf;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.terminate;
             golf = true;
             golf = options.bind(verify)(golf);
-            _fun99076_ip = 120; continue _fun99076;
+            _fun99086_ip = 120; continue _fun99086;
  82:
             golf = true;
             zulu['bugReporterEnabled'] = golf;

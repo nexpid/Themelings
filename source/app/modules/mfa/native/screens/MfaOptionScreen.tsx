@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/mfa/native/screens/MfaOptionScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MFAOptionScreen
-        _fun98621: for(var _fun98621_ip = 0; ; ) switch(_fun98621_ip) {
+        _fun98631: for(var _fun98631_ip = 0; ; ) switch(_fun98631_ip) {
  0:
             entity = argFoo;
             source = entity.headerText;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = null;
             oscar = foxtrot == zulu;
             entity = undefined;
-            if(oscar) { _fun98621_ip = 124; continue _fun98621 }
+            if(oscar) { _fun98631_ip = 124; continue _fun98631 }
  119:
             entity = zulu.type;
  124:
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = kilo.mfaContainerHeader;
             oscar['style'] = backup;
             backup = foxtrot != verify;
-            if(!backup) { _fun98621_ip = 208; continue _fun98621 }
+            if(!backup) { _fun98631_ip = 208; continue _fun98631 }
  205:
             backup = verify;
  208:
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = result.bind(tango)(sizing, backup);
             verify[1] = backup;
             backup = foxtrot != control;
-            if(!backup) { _fun98621_ip = 338; continue _fun98621 }
+            if(!backup) { _fun98631_ip = 338; continue _fun98631 }
  288:
             source = _closure1_slot4;
             result = _closure1_slot0;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  338:
             verify[2] = backup;
             foxtrot = foxtrot != echo;
-            if(!foxtrot) { _fun98621_ip = 399; continue _fun98621 }
+            if(!foxtrot) { _fun98631_ip = 399; continue _fun98631 }
  349:
             result = _closure1_slot4;
             sizing = _closure1_slot0;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = {};
             offset = new Array(2);
             offset[0] = romeo;
-            if(!yankee) { _fun98621_ip = 512; continue _fun98621 }
+            if(!yankee) { _fun98631_ip = 512; continue _fun98631 }
  450:
             backup = _closure1_slot4;
             foxtrot = _closure1_slot3;

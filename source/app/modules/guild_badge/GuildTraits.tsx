@@ -4,31 +4,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     options = argPlugh;
     tango = function(argFoo) { // Original name: isPremiumGuild
-        _fun90529: for(var _fun90529_ip = 0; ; ) switch(_fun90529_ip) {
+        _fun90546: for(var _fun90546_ip = 0; ; ) switch(_fun90546_ip) {
  0:
             report = argFoo;
             zulu = null;
             entity = zulu != report;
-            if(!entity) { _fun90529_ip = 94; continue _fun90529 }
+            if(!entity) { _fun90546_ip = 94; continue _fun90546 }
  12:
             mike = _closure1_slot0;
             mike = report instanceof mike;
-            if(mike) { _fun90529_ip = 53; continue _fun90529 }
+            if(mike) { _fun90546_ip = 53; continue _fun90546 }
  26:
             mike = report.premiumSubscriptionCount;
             mike = zulu != mike;
-            if(!mike) { _fun90529_ip = 51; continue _fun90529 }
+            if(!mike) { _fun90546_ip = 51; continue _fun90546 }
  39:
             oscar = report.premiumSubscriptionCount;
             zulu = 0;
             mike = oscar > zulu;
  51:
-            _fun90529_ip = 91; continue _fun90529;
+            _fun90546_ip = 91; continue _fun90546;
  53:
             oscar = report.premiumSubscriberCount;
             zulu = 0;
             zulu = oscar > zulu;
-            if(zulu) { _fun90529_ip = 88; continue _fun90529 }
+            if(zulu) { _fun90546_ip = 88; continue _fun90546 }
  68:
             report = report.premiumTier;
             tango = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['GuildVisibility'] = report;
     report = function(argFoo) { // Original name: getGuildTraits
-        _fun90530: for(var _fun90530_ip = 0; ; ) switch(_fun90530_ip) {
+        _fun90547: for(var _fun90547_ip = 0; ; ) switch(_fun90547_ip) {
  0:
             entity = argFoo;
             mike = global;
@@ -93,17 +93,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot1;
             mike = mike.COMMUNITY;
             mike = zulu.bind(options)(mike);
-            if(!mike) { _fun90530_ip = 86; continue _fun90530 }
+            if(!mike) { _fun90547_ip = 86; continue _fun90547 }
  63:
             zulu = options.has;
             mike = _closure1_slot1;
             mike = mike.DISCOVERABLE;
             mike = zulu.bind(options)(mike);
-            if(mike) { _fun90530_ip = 98; continue _fun90530 }
+            if(mike) { _fun90547_ip = 98; continue _fun90547 }
  86:
             mike = _closure1_slot3;
             report = mike.INVITE_ONLY;
-            _fun90530_ip = 108; continue _fun90530;
+            _fun90547_ip = 108; continue _fun90547;
  98:
             mike = _closure1_slot3;
             report = mike.PUBLIC;
@@ -112,21 +112,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             tango = zulu.bind(mike)(entity);
             zulu = 0;
-            if(!tango) { _fun90530_ip = 166; continue _fun90530 }
+            if(!tango) { _fun90547_ip = 166; continue _fun90547 }
  124:
             golf = _closure1_slot0;
             golf = entity instanceof golf;
-            if(golf) { _fun90530_ip = 143; continue _fun90530 }
+            if(golf) { _fun90547_ip = 143; continue _fun90547 }
  135:
             golf = entity.premiumSubscriptionCount;
-            _fun90530_ip = 149; continue _fun90530;
+            _fun90547_ip = 149; continue _fun90547;
  143:
             golf = entity.premiumSubscriberCount;
  149:
             verify = null;
             verify = verify != golf;
             mike = 0;
-            if(!verify) { _fun90530_ip = 163; continue _fun90530 }
+            if(!verify) { _fun90547_ip = 163; continue _fun90547 }
  160:
             mike = golf;
  163:
@@ -134,11 +134,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  166:
             mike = _closure1_slot0;
             mike = entity instanceof mike;
-            if(mike) { _fun90530_ip = 189; continue _fun90530 }
+            if(mike) { _fun90547_ip = 189; continue _fun90547 }
  177:
             mike = _closure1_slot2;
             mike = mike.NONE;
-            _fun90530_ip = 195; continue _fun90530;
+            _fun90547_ip = 195; continue _fun90547;
  189:
             mike = entity.premiumTier;
  195:
@@ -174,12 +174,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getGuildTraits'] = report;
     zulu['isPremiumGuild'] = tango;
     mike = function(argFoo) { // Original name: isDiscoverableGuild
-        _fun90531: for(var _fun90531_ip = 0; ; ) switch(_fun90531_ip) {
+        _fun90548: for(var _fun90548_ip = 0; ; ) switch(_fun90548_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun90531_ip = 69; continue _fun90531 }
+            if(!entity) { _fun90548_ip = 69; continue _fun90548 }
  12:
             zulu = global;
             tango = zulu.Set;

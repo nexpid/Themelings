@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun113514: for(var _fun113514_ip = 0; ; ) switch(_fun113514_ip) {
+            _fun113520: for(var _fun113520_ip = 0; ; ) switch(_fun113520_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun113514_ip = 49; continue _fun113514 }
+                if(!entity) { _fun113520_ip = 49; continue _fun113520 }
  16:
                 report = _closure1_slot3;
                 tango = report.can;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = report;
     tango = function(argFoo) { // Original name: useInvitesDisabled
-        _fun113515: for(var _fun113515_ip = 0; ; ) switch(_fun113515_ip) {
+        _fun113521: for(var _fun113521_ip = 0; ; ) switch(_fun113521_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -59,12 +59,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = options;
             entity = function() {
-                _fun113516: for(var _fun113516_ip = 0; ; ) switch(_fun113516_ip) {
+                _fun113522: for(var _fun113522_ip = 0; ; ) switch(_fun113522_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun113516_ip = 43; continue _fun113516 }
+                    if(!zulu) { _fun113522_ip = 43; continue _fun113522 }
  16:
                     tango = _closure1_slot2;
                     zulu = tango.getGuildIncident;
@@ -79,23 +79,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             oscar = zulu == golf;
             entity = undefined;
-            if(oscar) { _fun113515_ip = 96; continue _fun113515 }
+            if(oscar) { _fun113521_ip = 96; continue _fun113521 }
  75:
             oscar = golf.hasFeature;
             report = _closure1_slot4;
             report = report.INVITES_DISABLED;
             entity = oscar.bind(golf)(report);
  96:
-            if(entity) { _fun113515_ip = 188; continue _fun113515 }
+            if(entity) { _fun113521_ip = 188; continue _fun113521 }
  99:
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun113515_ip = 114; continue _fun113515 }
+            if(report) { _fun113521_ip = 114; continue _fun113521 }
  108:
             mike = tango.invitesDisabledUntil;
  114:
             mike = zulu != mike;
-            if(!mike) { _fun113515_ip = 185; continue _fun113515 }
+            if(!mike) { _fun113521_ip = 185; continue _fun113521 }
  121:
             zulu = global;
             oscar = zulu.Date;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useInvitesDisabledPermission'] = report;
     zulu['useInvitesDisabled'] = tango;
     mike = function(argFoo) { // Original name: useShouldShowInvitesDisabledNotif
-        _fun113517: for(var _fun113517_ip = 0; ; ) switch(_fun113517_ip) {
+        _fun113523: for(var _fun113523_ip = 0; ; ) switch(_fun113523_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot6;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(zulu)(tango);
             mike = _closure1_slot7;
             mike = mike.bind(zulu)(tango);
-            if(!entity) { _fun113517_ip = 32; continue _fun113517 }
+            if(!entity) { _fun113523_ip = 32; continue _fun113523 }
  29:
             entity = mike;
  32:

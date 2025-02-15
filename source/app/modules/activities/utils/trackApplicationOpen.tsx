@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/trackApplicationOpen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackApplicationOpen
-        _fun73592: for(var _fun73592_ip = 0; ; ) switch(_fun73592_ip) {
+        _fun73602: for(var _fun73602_ip = 0; ; ) switch(_fun73602_ip) {
  0:
             entity = argFoo;
             result = entity.type;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = null;
             backup = romeo != foxtrot;
             romeo = undefined;
-            if(!backup) { _fun73592_ip = 156; continue _fun73592 }
+            if(!backup) { _fun73602_ip = 156; continue _fun73602 }
  153:
             romeo = foxtrot;
  156:

@@ -1,6 +1,6 @@
 // app/components_native/common/NativeAPNGView.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    _fun78221: for(var _fun78221_ip = 0; ; ) switch(_fun78221_ip) {
+    _fun78231: for(var _fun78231_ip = 0; ; ) switch(_fun78231_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -23,11 +23,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         golf = report.bind(entity)(mike);
         mike = golf.isAndroid;
         mike = mike.bind(golf)();
-        if(mike) { _fun78221_ip = 97; continue _fun78221 }
+        if(mike) { _fun78231_ip = 97; continue _fun78231 }
  84:
         mike = 'APNGStickerView';
         mike = tango.bind(entity)(mike);
-        _fun78221_ip = 114; continue _fun78221;
+        _fun78231_ip = 114; continue _fun78231;
  97:
         tango = 2;
         tango = oscar[tango];

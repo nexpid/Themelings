@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun127629: for(var _fun127629_ip = 0; ; ) switch(_fun127629_ip) {
+        _fun127625: for(var _fun127625_ip = 0; ; ) switch(_fun127625_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun127629_ip = 51; continue _fun127629 }
+            if(entity) { _fun127625_ip = 51; continue _fun127625 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun127629_ip = 92; continue _fun127629;
+            _fun127625_ip = 92; continue _fun127625;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun127629_ip = 71; continue _fun127629 }
+            if(oscar) { _fun127625_ip = 71; continue _fun127625 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun127630: for(var _fun127630_ip = 0; ; ) switch(_fun127630_ip) {
+        _fun127626: for(var _fun127626_ip = 0; ; ) switch(_fun127626_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun127630_ip = 76; continue _fun127630;
+            _fun127626_ip = 76; continue _fun127626;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = golf.bind(entity)(tango);
     mike = function(argFoo) {
         zulu = function(argFoo) { // Original name: NativeNotificationsManager
-            _fun127634: for(var _fun127634_ip = 0; ; ) switch(_fun127634_ip) {
+            _fun127630: for(var _fun127630_ip = 0; ; ) switch(_fun127630_ip) {
  0:
                 golf = this;
                 romeo = 0;
@@ -138,16 +138,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = tango.bind(report)(golf, oscar, entity);
                 var _closure3_slot0 = entity;
                 tango = function(argFoo) {
-                    _fun127635: for(var _fun127635_ip = 0; ; ) switch(_fun127635_ip) {
+                    _fun127631: for(var _fun127631_ip = 0; ; ) switch(_fun127631_ip) {
  0:
                         entity = argFoo;
                         zulu = entity.channelId;
                         entity = null;
-                        if(!(entity != zulu)) { _fun127635_ip = 44; continue _fun127635 }
+                        if(!(entity != zulu)) { _fun127631_ip = 44; continue _fun127631 }
  14:
                         mike = _closure1_slot8;
                         mike = mike.DCDNotificationManager;
-                        if(!(entity != mike)) { _fun127635_ip = 44; continue _fun127635 }
+                        if(!(entity != mike)) { _fun127631_ip = 44; continue _fun127631 }
  31:
                         entity = mike.clearNotificationsForChannel;
                         entity = entity.bind(mike)(zulu);
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(report)(zulu);
                 zulu = tango.isIOS;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun127634_ip = 119; continue _fun127634 }
+                if(zulu) { _fun127630_ip = 119; continue _fun127630 }
  110:
                 zulu = function() {
                     mike = _closure3_slot0;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = undefined;
                     return entity;
                 };
-                _fun127634_ip = 126; continue _fun127634;
+                _fun127630_ip = 126; continue _fun127630;
  119:
                 zulu = function() {
                     entity = undefined;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  126:
                 entity['handlePostConnectionOpen'] = zulu;
                 mike = function() {
-                    _fun127638: for(var _fun127638_ip = 0; ; ) switch(_fun127638_ip) {
+                    _fun127634: for(var _fun127634_ip = 0; ; ) switch(_fun127634_ip) {
  0:
                         tango = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = tango.bind(entity)(zulu);
                         zulu = tango.isIOS;
                         zulu = zulu.bind(tango)();
-                        if(zulu) { _fun127638_ip = 215; continue _fun127638 }
+                        if(zulu) { _fun127634_ip = 215; continue _fun127634 }
  41:
                         tango = _closure1_slot1;
                         report = _closure1_slot2;
@@ -217,12 +217,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = zulu.DCDNotificationManager;
                         zulu = zulu.setShowMissedCallNotifications;
                         report = null;
-                        if(!(report != zulu)) { _fun127638_ip = 174; continue _fun127638 }
+                        if(!(report != zulu)) { _fun127634_ip = 174; continue _fun127634 }
  147:
                         zulu = _closure1_slot8;
                         oscar = zulu.DCDNotificationManager;
                         zulu = oscar.setShowMissedCallNotifications;
-                        if(golf) { _fun127638_ip = 169; continue _fun127638 }
+                        if(golf) { _fun127634_ip = 169; continue _fun127634 }
  166:
                         golf = tango;
  169:
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = _closure1_slot8;
                         zulu = zulu.DCDNotificationManager;
                         zulu = zulu.setShowFullscreenCallUI;
-                        if(!(report != zulu)) { _fun127638_ip = 215; continue _fun127638 }
+                        if(!(report != zulu)) { _fun127634_ip = 215; continue _fun127634 }
  194:
                         mike = _closure1_slot8;
                         zulu = mike.DCDNotificationManager;

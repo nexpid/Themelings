@@ -41,18 +41,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/CircleWarningIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun63636: for(var _fun63636_ip = 0; ; ) switch(_fun63636_ip) {
+        _fun63641: for(var _fun63641_ip = 0; ; ) switch(_fun63641_ip) {
  0:
             zulu = argFoo;
             offset = zulu.style;
             foxtrot = zulu.secondaryColor;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun63636_ip = 24; continue _fun63636 }
+            if(!(foxtrot === tango)) { _fun63641_ip = 24; continue _fun63641 }
  20:
             foxtrot = 'transparent';
  24:
             yankee = zulu.color;
-            if(!(yankee === tango)) { _fun63636_ip = 67; continue _fun63636 }
+            if(!(yankee === tango)) { _fun63641_ip = 67; continue _fun63641 }
  33:
             mike = _closure1_slot1;
             report = _closure1_slot2;

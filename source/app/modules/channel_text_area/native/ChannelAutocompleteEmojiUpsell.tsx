@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = oscar.bind(kilo)(zulu, entity);
         zulu = entity.map;
         mike = function(argFoo, argBar) {
-            _fun100828: for(var _fun100828_ip = 0; ; ) switch(_fun100828_ip) {
+            _fun100837: for(var _fun100837_ip = 0; ; ) switch(_fun100837_ip) {
  0:
                 entity = argFoo;
                 report = _closure1_slot5;
@@ -117,10 +117,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = {};
                 offset = entity.id;
                 verify = null;
-                if(!(verify == offset)) { _fun100828_ip = 115; continue _fun100828 }
+                if(!(verify == offset)) { _fun100837_ip = 115; continue _fun100837 }
  108:
                 verify = entity.url;
-                _fun100828_ip = 176; continue _fun100828;
+                _fun100837_ip = 176; continue _fun100837;
  115:
                 yankee = _closure1_slot1;
                 romeo = _closure1_slot2;

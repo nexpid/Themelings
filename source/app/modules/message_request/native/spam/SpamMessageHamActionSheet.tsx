@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/message_request/native/spam/SpamMessageHamActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SpamMessageRequestHamActionSheet
-        _fun101482: for(var _fun101482_ip = 0; ; ) switch(_fun101482_ip) {
+        _fun101474: for(var _fun101474_ip = 0; ; ) switch(_fun101474_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
@@ -288,16 +288,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.button;
             oscar['style'] = yankee;
             yankee = verify;
-            if(verify) { _fun101482_ip = 687; continue _fun101482 }
+            if(verify) { _fun101474_ip = 687; continue _fun101474 }
  684:
             yankee = romeo;
  687:
-            if(yankee) { _fun101482_ip = 693; continue _fun101482 }
+            if(yankee) { _fun101474_ip = 693; continue _fun101474 }
  690:
             yankee = offset;
  693:
             oscar['disabled'] = yankee;
-            if(verify) { _fun101482_ip = 703; continue _fun101482 }
+            if(verify) { _fun101474_ip = 703; continue _fun101474 }
  700:
             verify = offset;
  703:

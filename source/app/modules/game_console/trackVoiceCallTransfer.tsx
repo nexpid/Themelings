@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/trackVoiceCallTransfer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: trackVoiceCallTransfer
-        _fun103225: for(var _fun103225_ip = 0; ; ) switch(_fun103225_ip) {
+        _fun103217: for(var _fun103217_ip = 0; ; ) switch(_fun103217_ip) {
  0:
             golf = argFoo;
             romeo = argBaz;
@@ -56,14 +56,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = null;
             offset = options != romeo;
             verify = 'discord_client';
-            if(!offset) { _fun103225_ip = 102; continue _fun103225 }
+            if(!offset) { _fun103217_ip = 102; continue _fun103217 }
  63:
             yankee = _closure1_slot4;
             offset = yankee.getSessionById;
             yankee = offset.bind(yankee)(romeo);
             romeo = options == yankee;
             offset = undefined;
-            if(romeo) { _fun103225_ip = 99; continue _fun103225 }
+            if(romeo) { _fun103217_ip = 99; continue _fun103217 }
  87:
             yankee = yankee.clientInfo;
             offset = yankee.os;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.bind(offset)(golf);
             offset = options == verify;
             options = undefined;
-            if(offset) { _fun103225_ip = 137; continue _fun103225 }
+            if(offset) { _fun103217_ip = 137; continue _fun103217 }
  132:
             options = verify.guild_id;
  137:

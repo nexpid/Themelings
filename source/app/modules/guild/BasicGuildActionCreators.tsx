@@ -13,31 +13,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun127801: for(var _fun127801_ip = 0; ; ) switch(_fun127801_ip) {
+                _fun127797: for(var _fun127797_ip = 0; ; ) switch(_fun127797_ip) {
  0:
                     StartGenerator();
                     oscar = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun127801_ip = 400; continue _fun127801 }
+                    if(mike) { _fun127797_ip = 400; continue _fun127797 }
  13:
                     zulu = oscar;
                     report = _closure1_slot4;
                     mike = report.getGuild;
                     mike = mike.bind(report)(oscar);
                     report = null;
-                    if(!(report == mike)) { _fun127801_ip = 395; continue _fun127801 }
+                    if(!(report == mike)) { _fun127797_ip = 395; continue _fun127797 }
  42:
                     golf = _closure1_slot5;
                     oscar = golf.getGuildOrStatus;
                     mike = zulu;
                     mike = oscar.bind(golf)(mike);
-                    if(!(report == mike)) { _fun127801_ip = 395; continue _fun127801 }
+                    if(!(report == mike)) { _fun127797_ip = 395; continue _fun127797 }
  69:
                     oscar = _closure1_slot7;
                     report = oscar.has;
                     mike = zulu;
                     mike = report.bind(oscar)(mike);
-                    if(mike) { _fun127801_ip = 395; continue _fun127801 }
+                    if(mike) { _fun127797_ip = 395; continue _fun127797 }
  92:
                     report = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  226:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun127801_ip = 290; continue _fun127801 }
+                    if(report) { _fun127797_ip = 290; continue _fun127797 }
  232:
                     offset = mike.body;
                     options = _closure1_slot1;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['guildInfo'] = offset;
                     report = options.bind(verify)(report);
  288: // try_end0
-                    _fun127801_ip = 358; continue _fun127801;
+                    _fun127797_ip = 358; continue _fun127797;
  290: // try_end1
                     verify = _closure1_slot7;
                     options = verify.delete;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = oscar.delete;
                     mike = zulu;
                     mike = report.bind(oscar)(mike);
-                    _fun127801_ip = 395; continue _fun127801;
+                    _fun127797_ip = 395; continue _fun127797;
  377: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     report = _closure1_slot7;

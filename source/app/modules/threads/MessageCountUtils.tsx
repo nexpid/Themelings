@@ -40,32 +40,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = report;
     tango = function(argFoo, argBar) { // Original name: getMessageCountText
-        _fun69535: for(var _fun69535_ip = 0; ; ) switch(_fun69535_ip) {
+        _fun69541: for(var _fun69541_ip = 0; ; ) switch(_fun69541_ip) {
  0:
             report = argFoo;
             tango = argBar;
             zulu = null;
-            if(!(zulu != report)) { _fun69535_ip = 100; continue _fun69535 }
+            if(!(zulu != report)) { _fun69541_ip = 100; continue _fun69541 }
  12:
             entity = 0;
-            if(!(!(report < entity))) { _fun69535_ip = 100; continue _fun69535 }
+            if(!(!(report < entity))) { _fun69541_ip = 100; continue _fun69541 }
  18:
             oscar = _closure1_slot5;
             entity = undefined;
             entity = oscar.bind(entity)(tango);
-            if(!(zulu != tango)) { _fun69535_ip = 39; continue _fun69535 }
+            if(!(zulu != tango)) { _fun69541_ip = 39; continue _fun69541 }
  36:
-            if(!entity) { _fun69535_ip = 56; continue _fun69535 }
+            if(!entity) { _fun69541_ip = 56; continue _fun69541 }
  39:
             entity = _closure1_slot4;
             zulu = report >= entity;
             entity = '50+';
-            if(zulu) { _fun69535_ip = 98; continue _fun69535 }
+            if(zulu) { _fun69541_ip = 98; continue _fun69541 }
  56:
             mike = _closure1_slot3;
             zulu = report >= mike;
             mike = '100k+';
-            if(zulu) { _fun69535_ip = 95; continue _fun69535 }
+            if(zulu) { _fun69541_ip = 95; continue _fun69541 }
  73:
             zulu = global;
             zulu = zulu.HermesInternal;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = tango;
     oscar = function(argFoo, argBar, argBaz) { // Original name: _formatMessageCountLabel
-        _fun69536: for(var _fun69536_ip = 0; ; ) switch(_fun69536_ip) {
+        _fun69542: for(var _fun69542_ip = 0; ; ) switch(_fun69542_ip) {
  0:
             tango = _closure1_slot6;
             oscar = undefined;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argBaz;
             entity = tango.bind(oscar)(zulu, entity);
             zulu = '0';
-            if(!(zulu !== entity)) { _fun69536_ip = 78; continue _fun69536 }
+            if(!(zulu !== entity)) { _fun69542_ip = 78; continue _fun69542 }
  31:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['count'] = entity;
             entity = argBar;
             entity = tango.bind(report)(entity, zulu);
-            _fun69536_ip = 133; continue _fun69536;
+            _fun69542_ip = 133; continue _fun69542;
  78:
             report = _closure1_slot0;
             golf = _closure1_slot2;

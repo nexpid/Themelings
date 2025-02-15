@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/ChangeAvatarActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChangeAvatarActionSheet
-        _fun93234: for(var _fun93234_ip = 0; ; ) switch(_fun93234_ip) {
+        _fun93259: for(var _fun93259_ip = 0; ; ) switch(_fun93259_ip) {
  0:
             entity = argFoo;
             output = entity.handleUploadAvatarSelect;
@@ -127,12 +127,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = entity.handleEditAvatarDecorationSelect;
             kilo = entity.showAnimatedAvatarUpsell;
             tango = undefined;
-            if(!(kilo === tango)) { _fun93234_ip = 41; continue _fun93234 }
+            if(!(kilo === tango)) { _fun93259_ip = 41; continue _fun93259 }
  39:
             kilo = false;
  41:
             offset = entity.showRemoveAvatar;
-            if(!(offset === tango)) { _fun93234_ip = 53; continue _fun93234 }
+            if(!(offset === tango)) { _fun93259_ip = 53; continue _fun93259 }
  51:
             offset = false;
  53:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.lqaIxM;
             verify = yankee.bind(foxtrot)(verify);
             report['title'] = verify;
-            if(!options) { _fun93234_ip = 283; continue _fun93234 }
+            if(!options) { _fun93259_ip = 283; continue _fun93259 }
  245:
             foxtrot = _closure1_slot6;
             yankee = _closure1_slot0;
@@ -243,11 +243,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = foxtrot;
             foxtrot = null;
             sizing = foxtrot != vacuum;
-            if(!sizing) { _fun93234_ip = 507; continue _fun93234 }
+            if(!sizing) { _fun93259_ip = 507; continue _fun93259 }
  504:
             sizing = !kilo;
  507:
-            if(!sizing) { _fun93234_ip = 597; continue _fun93234 }
+            if(!sizing) { _fun93259_ip = 597; continue _fun93259 }
  510:
             control = _closure1_slot6;
             context = _closure1_slot0;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = control.bind(tango)(update, output);
  597:
             verify[1] = sizing;
-            if(!kilo) { _fun93234_ip = 1049; continue _fun93234 }
+            if(!kilo) { _fun93259_ip = 1049; continue _fun93259 }
  607:
             update = _closure1_slot6;
             output = _closure1_slot8;
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1049:
             verify[2] = kilo;
             foxtrot = foxtrot != result;
-            if(!foxtrot) { _fun93234_ip = 1206; continue _fun93234 }
+            if(!foxtrot) { _fun93259_ip = 1206; continue _fun93259 }
  1063:
             output = _closure1_slot6;
             papa = _closure1_slot0;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = output.bind(tango)(sizing, kilo);
  1206:
             verify[3] = foxtrot;
-            if(!offset) { _fun93234_ip = 1360; continue _fun93234 }
+            if(!offset) { _fun93259_ip = 1360; continue _fun93259 }
  1216:
             foxtrot = _closure1_slot6;
             update = _closure1_slot0;

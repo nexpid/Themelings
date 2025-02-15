@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/creator_monetization/guild_shop/GuildShopExperimentsUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: useIsEligibleForSubscriptionsInGuildShop
-        _fun81442: for(var _fun81442_ip = 0; ; ) switch(_fun81442_ip) {
+        _fun81454: for(var _fun81454_ip = 0; ; ) switch(_fun81454_ip) {
  0:
             report = argBar;
             tango = _closure1_slot0;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.useGuildEligibleForGuildProducts;
             mike = argFoo;
             mike = zulu.bind(tango)(mike, report);
-            if(!entity) { _fun81442_ip = 88; continue _fun81442 }
+            if(!entity) { _fun81454_ip = 88; continue _fun81454 }
  85:
             entity = mike;
  88:
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForSubscriptionsInGuildShop'] = tango;
     tango = function(argFoo, argBar) { // Original name: isEligibleForSubscriptionsInGuildShop
-        _fun81443: for(var _fun81443_ip = 0; ; ) switch(_fun81443_ip) {
+        _fun81455: for(var _fun81455_ip = 0; ; ) switch(_fun81455_ip) {
  0:
             report = argBar;
             tango = _closure1_slot0;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.isGuildEligibleForGuildProducts;
             mike = argFoo;
             mike = zulu.bind(tango)(mike, report);
-            if(!entity) { _fun81443_ip = 88; continue _fun81443 }
+            if(!entity) { _fun81455_ip = 88; continue _fun81455 }
  85:
             entity = mike;
  88:

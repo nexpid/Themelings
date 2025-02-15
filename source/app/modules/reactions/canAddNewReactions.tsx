@@ -33,20 +33,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/reactions/canAddNewReactions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun72700: for(var _fun72700_ip = 0; ; ) switch(_fun72700_ip) {
+        _fun72706: for(var _fun72706_ip = 0; ; ) switch(_fun72706_ip) {
  0:
             zulu = argFoo;
             entity = zulu.getGuildId;
             report = entity.bind(zulu)();
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun72700_ip = 40; continue _fun72700 }
+            if(!entity) { _fun72706_ip = 40; continue _fun72706 }
  22:
             tango = _closure1_slot0;
             mike = tango.canChatInGuild;
             entity = mike.bind(tango)(report);
  40:
-            if(!entity) { _fun72700_ip = 72; continue _fun72700 }
+            if(!entity) { _fun72706_ip = 72; continue _fun72706 }
  43:
             report = _closure1_slot1;
             tango = report.can;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.ADD_REACTIONS;
             entity = tango.bind(report)(mike, zulu);
  72:
-            if(entity) { _fun72700_ip = 85; continue _fun72700 }
+            if(entity) { _fun72706_ip = 85; continue _fun72706 }
  75:
             mike = zulu.isPrivate;
             entity = mike.bind(zulu)();

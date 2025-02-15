@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/AppealIngestionPolicySummary.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppealIngestionPolicySummary
-        _fun92699: for(var _fun92699_ip = 0; ; ) switch(_fun92699_ip) {
+        _fun92731: for(var _fun92731_ip = 0; ; ) switch(_fun92731_ip) {
  0:
             entity = argFoo;
             oscar = entity.classification;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             golf = entity == oscar;
             entity = undefined;
-            if(golf) { _fun92699_ip = 64; continue _fun92699 }
+            if(golf) { _fun92731_ip = 64; continue _fun92731 }
  59:
             entity = oscar.description;
  64:

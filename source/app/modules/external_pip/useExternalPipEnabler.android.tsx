@@ -54,16 +54,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun121216: for(var _fun121216_ip = 0; ; ) switch(_fun121216_ip) {
+            _fun121222: for(var _fun121222_ip = 0; ; ) switch(_fun121222_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getChannelId;
                 golf = zulu.bind(tango)();
                 zulu = null;
-                if(!(zulu != golf)) { _fun121216_ip = 188; continue _fun121216 }
+                if(!(zulu != golf)) { _fun121222_ip = 188; continue _fun121222 }
  28:
                 tango = _closure2_slot0;
-                if(tango) { _fun121216_ip = 188; continue _fun121216 }
+                if(tango) { _fun121222_ip = 188; continue _fun121222 }
  41:
                 report = _closure1_slot2;
                 tango = report.getVideoParticipants;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.length;
                 tango = 0;
                 tango = report > tango;
-                if(tango) { _fun121216_ip = 140; continue _fun121216 }
+                if(tango) { _fun121222_ip = 140; continue _fun121222 }
  87:
                 oscar = _closure1_slot2;
                 report = oscar.getStreamParticipants;

@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileEffectEditButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileEffectEditButton
-        _fun93276: for(var _fun93276_ip = 0; ; ) switch(_fun93276_ip) {
+        _fun93301: for(var _fun93301_ip = 0; ; ) switch(_fun93301_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.displayProfile;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.useMemo;
             sizing = report == oscar;
             backup = undefined;
-            if(sizing) { _fun93276_ip = 136; continue _fun93276 }
+            if(sizing) { _fun93301_ip = 136; continue _fun93301 }
  130:
             backup = oscar.profileEffectId;
  136:
@@ -109,42 +109,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[3] = mike;
             foxtrot = report == golf;
             mike = undefined;
-            if(foxtrot) { _fun93276_ip = 171; continue _fun93276 }
+            if(foxtrot) { _fun93301_ip = 171; continue _fun93301 }
  165:
             mike = golf.profileEffectId;
  171:
             oscar[4] = mike;
             mike = function() {
-                _fun93277: for(var _fun93277_ip = 0; ; ) switch(_fun93277_ip) {
+                _fun93302: for(var _fun93302_ip = 0; ; ) switch(_fun93302_ip) {
  0:
                     entity = _closure2_slot6;
-                    if(entity) { _fun93277_ip = 37; continue _fun93277 }
+                    if(entity) { _fun93302_ip = 37; continue _fun93302 }
  10:
                     mike = _closure2_slot0;
                     entity = null;
                     mike = entity == mike;
                     entity = undefined;
-                    if(mike) { _fun93277_ip = 35; continue _fun93277 }
+                    if(mike) { _fun93302_ip = 35; continue _fun93302 }
  25:
                     mike = _closure2_slot0;
                     entity = mike.profileEffectId;
  35:
-                    _fun93277_ip = 89; continue _fun93277;
+                    _fun93302_ip = 89; continue _fun93302;
  37:
                     mike = _closure2_slot5;
-                    if(!mike) { _fun93277_ip = 54; continue _fun93277 }
+                    if(!mike) { _fun93302_ip = 54; continue _fun93302 }
  44:
                     mike = _closure2_slot2;
                     report = null;
-                    if(!(report !== mike)) { _fun93277_ip = 60; continue _fun93277 }
+                    if(!(report !== mike)) { _fun93302_ip = 60; continue _fun93302 }
  54:
                     mike = _closure2_slot2;
-                    _fun93277_ip = 86; continue _fun93277;
+                    _fun93302_ip = 86; continue _fun93302;
  60:
                     zulu = _closure2_slot4;
                     report = report == zulu;
                     zulu = undefined;
-                    if(report) { _fun93277_ip = 83; continue _fun93277 }
+                    if(report) { _fun93302_ip = 83; continue _fun93302 }
  73:
                     tango = _closure2_slot4;
                     zulu = tango.profileEffectId;
@@ -201,15 +201,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(offset)(entity, oscar);
             options = report == mike;
             entity = undefined;
-            if(options) { _fun93276_ip = 280; continue _fun93276 }
+            if(options) { _fun93301_ip = 280; continue _fun93301 }
  270:
             options = mike.config;
             entity = options.title;
  280:
-            if(zulu) { _fun93276_ip = 347; continue _fun93276 }
+            if(zulu) { _fun93301_ip = 347; continue _fun93301 }
  283:
             options = entity;
-            if(!(report == entity)) { _fun93276_ip = 345; continue _fun93276 }
+            if(!(report == entity)) { _fun93301_ip = 345; continue _fun93301 }
  290:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -224,23 +224,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.PoWNfX;
             options = offset.bind(yankee)(zulu);
  345:
-            _fun93276_ip = 442; continue _fun93276;
+            _fun93301_ip = 442; continue _fun93301;
  347:
             offset = report == mike;
             zulu = undefined;
-            if(offset) { _fun93276_ip = 361; continue _fun93276 }
+            if(offset) { _fun93301_ip = 361; continue _fun93301 }
  356:
             zulu = mike.id;
  361:
             offset = report == golf;
             mike = undefined;
-            if(offset) { _fun93276_ip = 376; continue _fun93276 }
+            if(offset) { _fun93301_ip = 376; continue _fun93301 }
  370:
             mike = golf.profileEffectId;
  376:
-            if(!(zulu !== mike)) { _fun93276_ip = 384; continue _fun93276 }
+            if(!(zulu !== mike)) { _fun93301_ip = 384; continue _fun93301 }
  380:
-            if(!(report == entity)) { _fun93276_ip = 439; continue _fun93276 }
+            if(!(report == entity)) { _fun93301_ip = 439; continue _fun93301 }
  384:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(offset)(golf);
             entity['accessibilityHint'] = golf;
             entity['onPress'] = oscar;
-            if(!(report == foxtrot)) { _fun93276_ip = 654; continue _fun93276 }
+            if(!(report == foxtrot)) { _fun93301_ip = 654; continue _fun93301 }
  591:
             golf = _closure1_slot5;
             offset = _closure1_slot1;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = kilo.noneIcon;
             report['style'] = options;
             report = golf.bind(tango)(oscar, report);
-            _fun93276_ip = 795; continue _fun93276;
+            _fun93301_ip = 795; continue _fun93301;
  654:
             options = _closure1_slot6;
             golf = _closure1_slot4;

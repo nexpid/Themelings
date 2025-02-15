@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterActivityTotal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterActivityTotal
-        _fun95378: for(var _fun95378_ip = 0; ; ) switch(_fun95378_ip) {
+        _fun95388: for(var _fun95388_ip = 0; ; ) switch(_fun95388_ip) {
  0:
             entity = argFoo;
             zulu = entity.displayType;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             entity = foxtrot == mike;
             verify = undefined;
-            if(entity) { _fun95378_ip = 88; continue _fun95378 }
+            if(entity) { _fun95388_ip = 88; continue _fun95388 }
  78:
             entity = mike.tooltipHeader;
             verify = entity.bind(mike)();
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 0;
             entity = romeo > yankee;
             backup = 'text-muted';
-            if(!entity) { _fun95378_ip = 109; continue _fun95378 }
+            if(!entity) { _fun95388_ip = 109; continue _fun95388 }
  103:
             backup = 'text-brand';
  109:
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['color'] = backup;
             foxtrot = foxtrot != romeo;
             yankee = 0;
-            if(!foxtrot) { _fun95378_ip = 203; continue _fun95378 }
+            if(!foxtrot) { _fun95388_ip = 203; continue _fun95388 }
  200:
             yankee = romeo;
  203:

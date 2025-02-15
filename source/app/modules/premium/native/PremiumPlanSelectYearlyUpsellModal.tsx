@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/PremiumPlanSelectYearlyUpsellModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumPlanSelectYearlyUpsellModal
-        _fun96001: for(var _fun96001_ip = 0; ; ) switch(_fun96001_ip) {
+        _fun96011: for(var _fun96011_ip = 0; ; ) switch(_fun96011_ip) {
  0:
             entity = argFoo;
             oscar = entity.onClose;
@@ -186,14 +186,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 1;
             mike = options[mike];
             foxtrot = tango;
-            if(foxtrot) { _fun96001_ip = 222; continue _fun96001 }
+            if(foxtrot) { _fun96011_ip = 222; continue _fun96011 }
  219:
             foxtrot = mike;
  222:
             status = entity.premiumTier;
             entity = null;
             mike = entity == status;
-            if(mike) { _fun96001_ip = 241; continue _fun96001 }
+            if(mike) { _fun96011_ip = 241; continue _fun96011 }
  237:
             mike = entity == sequence;
  241:
@@ -201,10 +201,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot4;
             tango = options.useEffect;
             zulu = function() {
-                _fun96005: for(var _fun96005_ip = 0; ; ) switch(_fun96005_ip) {
+                _fun96015: for(var _fun96015_ip = 0; ; ) switch(_fun96015_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun96005_ip = 20; continue _fun96005 }
+                    if(!mike) { _fun96015_ip = 20; continue _fun96015 }
  10:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             zulu = tango.bind(options)(zulu);
-            if(mike) { _fun96001_ip = 920; continue _fun96001 }
+            if(mike) { _fun96011_ip = 920; continue _fun96011 }
  272:
             update = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             config = entity == sequence;
             vacuum = undefined;
-            if(config) { _fun96001_ip = 737; continue _fun96001 }
+            if(config) { _fun96011_ip = 737; continue _fun96011 }
  731:
             vacuum = sequence.priceString;
  737:

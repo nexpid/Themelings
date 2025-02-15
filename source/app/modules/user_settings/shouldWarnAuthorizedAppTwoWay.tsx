@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     tango = function(argFoo) { // Original name: isAuthorizedAppTwoWay
-        _fun95525: for(var _fun95525_ip = 0; ; ) switch(_fun95525_ip) {
+        _fun95535: for(var _fun95535_ip = 0; ; ) switch(_fun95535_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.ConsoleOAuthApplications;
             entity = entity.XBOX_APPLICATION_ID;
             entity = entity === tango;
-            if(entity) { _fun95525_ip = 85; continue _fun95525 }
+            if(entity) { _fun95535_ip = 85; continue _fun95535 }
  46:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

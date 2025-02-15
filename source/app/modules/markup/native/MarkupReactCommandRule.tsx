@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     tango = function(argFoo) { // Original name: handleTapCommandMention
-        _fun77736: for(var _fun77736_ip = 0; ; ) switch(_fun77736_ip) {
+        _fun77746: for(var _fun77746_ip = 0; ; ) switch(_fun77746_ip) {
  0:
             mike = argFoo;
             zulu = mike.appLauncherNavigator;
@@ -28,14 +28,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             foxtrot = mike == romeo;
             golf = undefined;
-            if(foxtrot) { _fun77736_ip = 93; continue _fun77736 }
+            if(foxtrot) { _fun77746_ip = 93; continue _fun77746 }
  88:
             golf = romeo.guild_id;
  93:
-            if(!(mike == golf)) { _fun77736_ip = 400; continue _fun77736 }
+            if(!(mike == golf)) { _fun77746_ip = 400; continue _fun77746 }
  100:
             golf = '';
-            if(!(golf !== offset)) { _fun77736_ip = 391; continue _fun77736 }
+            if(!(golf !== offset)) { _fun77746_ip = 391; continue _fun77746 }
  111:
             kilo = _closure1_slot1;
             output = _closure1_slot2;
@@ -100,16 +100,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(kilo)(foxtrot);
             golf['body'] = foxtrot;
             golf = offset.bind(romeo)(golf);
-            _fun77736_ip = 689; continue _fun77736;
+            _fun77746_ip = 689; continue _fun77746;
  391:
             tango = tango.bind(verify)();
-            _fun77736_ip = 689; continue _fun77736;
+            _fun77746_ip = 689; continue _fun77746;
  400:
             tango = yankee.includes;
             offset = ' ';
             tango = tango.bind(yankee)(offset);
             golf = options;
-            if(!tango) { _fun77736_ip = 469; continue _fun77736 }
+            if(!tango) { _fun77746_ip = 469; continue _fun77746 }
  420:
             tango = _closure1_slot7;
             options = options + tango;
@@ -124,9 +124,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options + tango;
  469:
             _closure2_slot2 = golf;
-            if(!(mike != zulu)) { _fun77736_ip = 484; continue _fun77736 }
+            if(!(mike != zulu)) { _fun77746_ip = 484; continue _fun77746 }
  477:
-            if(!(mike == report)) { _fun77736_ip = 691; continue _fun77736 }
+            if(!(mike == report)) { _fun77746_ip = 691; continue _fun77746 }
  484:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -135,49 +135,49 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(verify)(tango);
             tango = options.getRootNavigationRef;
             options = tango.bind(options)();
-            if(!(mike != options)) { _fun77736_ip = 636; continue _fun77736 }
+            if(!(mike != options)) { _fun77746_ip = 636; continue _fun77746 }
  518:
             tango = options.getState;
             tango = tango.bind(options)();
             yankee = mike == tango;
             offset = undefined;
-            if(yankee) { _fun77736_ip = 557; continue _fun77736 }
+            if(yankee) { _fun77746_ip = 557; continue _fun77746 }
  537:
             tango = tango.routes;
             yankee = mike == tango;
             offset = undefined;
-            if(yankee) { _fun77736_ip = 557; continue _fun77736 }
+            if(yankee) { _fun77746_ip = 557; continue _fun77746 }
  552:
             offset = tango.length;
  557:
             tango = 1;
-            if(!(offset > tango)) { _fun77736_ip = 636; continue _fun77736 }
+            if(!(offset > tango)) { _fun77746_ip = 636; continue _fun77746 }
  564:
             offset = options.getState;
             yankee = offset.bind(options)();
             romeo = mike == yankee;
             offset = undefined;
-            if(romeo) { _fun77736_ip = 603; continue _fun77736 }
+            if(romeo) { _fun77746_ip = 603; continue _fun77746 }
  583:
             yankee = yankee.routes;
             romeo = mike == yankee;
             offset = undefined;
-            if(romeo) { _fun77736_ip = 603; continue _fun77736 }
+            if(romeo) { _fun77746_ip = 603; continue _fun77746 }
  598:
             offset = yankee.length;
  603:
             yankee = mike != offset;
             mike = 0;
-            if(!yankee) { _fun77736_ip = 615; continue _fun77736 }
+            if(!yankee) { _fun77746_ip = 615; continue _fun77746 }
  612:
             mike = offset;
  615:
-            if(!(mike > tango)) { _fun77736_ip = 636; continue _fun77736 }
+            if(!(mike > tango)) { _fun77746_ip = 636; continue _fun77746 }
  619:
             offset = options.goBack;
             offset = offset.bind(options)();
             mike = mike - 1;
-            if(mike > tango) { _fun77736_ip = 619; continue _fun77736 }
+            if(mike > tango) { _fun77746_ip = 619; continue _fun77746 }
  636:
             tango = _closure1_slot1;
             options = _closure1_slot2;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = tango;
     mike = function(argFoo, argBar) { // Original name: handleLongPressCommandMention
-        _fun77739: for(var _fun77739_ip = 0; ; ) switch(_fun77739_ip) {
+        _fun77749: for(var _fun77749_ip = 0; ; ) switch(_fun77749_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.DeveloperMode;
             zulu = tango.getSetting;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun77739_ip = 251; continue _fun77739 }
+            if(!zulu) { _fun77749_ip = 251; continue _fun77749 }
  152:
             tango = report.push;
             zulu = {};
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = 'text-md/bold';
         entity['variant'] = yankee;
         yankee = function() { // Original name: onPress
-            _fun77743: for(var _fun77743_ip = 0; ; ) switch(_fun77743_ip) {
+            _fun77753: for(var _fun77753_ip = 0; ; ) switch(_fun77753_ip) {
  0:
                 report = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -459,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = {};
                 golf = _closure2_slot1;
                 oscar = undefined;
-                if(!golf) { _fun77743_ip = 63; continue _fun77743 }
+                if(!golf) { _fun77753_ip = 63; continue _fun77753 }
  59:
                 oscar = _closure2_slot2;
  63:
@@ -474,26 +474,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = null;
                 golf = report == options;
                 oscar = undefined;
-                if(golf) { _fun77743_ip = 124; continue _fun77743 }
+                if(golf) { _fun77753_ip = 124; continue _fun77753 }
  114:
                 golf = options.getText;
                 oscar = golf.bind(options)();
  124:
                 golf = report != oscar;
                 report = '';
-                if(!golf) { _fun77743_ip = 138; continue _fun77743 }
+                if(!golf) { _fun77753_ip = 138; continue _fun77753 }
  135:
                 report = oscar;
  138:
                 mike['currentText'] = report;
                 report = function(argFoo) { // Original name: onOpenCustomKeyboard
-                    _fun77744: for(var _fun77744_ip = 0; ; ) switch(_fun77744_ip) {
+                    _fun77754: for(var _fun77754_ip = 0; ; ) switch(_fun77754_ip) {
  0:
                         zulu = _closure3_slot0;
                         entity = null;
                         zulu = entity == zulu;
                         entity = undefined;
-                        if(zulu) { _fun77744_ip = 36; continue _fun77744 }
+                        if(zulu) { _fun77754_ip = 36; continue _fun77754 }
  18:
                         tango = _closure3_slot0;
                         zulu = tango.openCustomKeyboard;
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike['onOpenCustomKeyboard'] = report;
                 tango = function() { // Original name: onSetCommand
-                    _fun77745: for(var _fun77745_ip = 0; ; ) switch(_fun77745_ip) {
+                    _fun77755: for(var _fun77755_ip = 0; ; ) switch(_fun77755_ip) {
  0:
                         tango = _closure1_slot1;
                         report = _closure1_slot2;
@@ -521,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = zulu.bind(tango)();
                         zulu = _closure3_slot0;
                         report = null;
-                        if(!(report != zulu)) { _fun77745_ip = 78; continue _fun77745 }
+                        if(!(report != zulu)) { _fun77755_ip = 78; continue _fun77755 }
  64:
                         oscar = _closure3_slot0;
                         zulu = oscar.openSystemKeyboard;
@@ -530,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = _closure3_slot0;
                         zulu = report == zulu;
                         oscar = undefined;
-                        if(zulu) { _fun77745_ip = 112; continue _fun77745 }
+                        if(zulu) { _fun77755_ip = 112; continue _fun77755 }
  91:
                         golf = _closure3_slot0;
                         tango = golf.getApplicationCommandManager;
@@ -538,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = report == tango;
                         oscar = tango;
  112:
-                        if(zulu) { _fun77745_ip = 179; continue _fun77745 }
+                        if(zulu) { _fun77755_ip = 179; continue _fun77755 }
  115:
                         report = oscar.setPartialCommand;
                         zulu = _closure2_slot0;

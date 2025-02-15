@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/PremiumCountdownTimer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PremiumCountdownTimer
-        _fun105109: for(var _fun105109_ip = 0; ; ) switch(_fun105109_ip) {
+        _fun105101: for(var _fun105101_ip = 0; ; ) switch(_fun105101_ip) {
  0:
             entity = argFoo;
             oscar = entity.endDate;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 0;
             entity = entity > options;
             zulu = 1000;
-            if(!entity) { _fun105109_ip = 104; continue _fun105109 }
+            if(!entity) { _fun105101_ip = 104; continue _fun105101 }
  98:
             zulu = 3600000;
  104:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = tango;
             yankee = result[entity](output, sizing, kilo, backup, foxtrot);
             entity = null;
-            if(tango) { _fun105109_ip = 404; continue _fun105109 }
+            if(tango) { _fun105101_ip = 404; continue _fun105101 }
  149:
             tango = mike.Object;
             mike = tango.values;
@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = tango.bind(oscar)(mike);
             entity = null;
-            if(mike) { _fun105109_ip = 404; continue _fun105109 }
+            if(mike) { _fun105101_ip = 404; continue _fun105101 }
  193:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;
             mike = {};
             oscar = yankee.days;
-            if(!(!(oscar > options))) { _fun105109_ip = 325; continue _fun105109 }
+            if(!(!(oscar > options))) { _fun105101_ip = 325; continue _fun105101 }
  213:
             options = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.bind(report)(romeo);
             oscar['seconds'] = romeo;
             oscar = verify.bind(offset)(options, oscar);
-            _fun105109_ip = 394; continue _fun105109;
+            _fun105101_ip = 394; continue _fun105101;
  325:
             options = _closure1_slot0;
             romeo = _closure1_slot2;

@@ -19,13 +19,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'lib/zipWithNext.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: zipWithNext
-        _fun52409: for(var _fun52409_ip = 0; ; ) switch(_fun52409_ip) {
+        _fun52416: for(var _fun52416_ip = 0; ; ) switch(_fun52416_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
             mike = golf.length;
             entity = 2;
-            if(!(!(mike < entity))) { _fun52409_ip = 82; continue _fun52409 }
+            if(!(!(mike < entity))) { _fun52416_ip = 82; continue _fun52416 }
  18:
             entity = new Array(0);
             mike = 0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 1;
             mike = tango < mike;
             zulu = undefined;
-            if(!mike) { _fun52409_ip = 80; continue _fun52409 }
+            if(!mike) { _fun52416_ip = 80; continue _fun52416 }
  45:
             options = golf[tango];
             verify = entity.push;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango + 1;
             mike = golf.length;
             report = options;
-            if(tango < mike) { _fun52409_ip = 45; continue _fun52409 }
+            if(tango < mike) { _fun52416_ip = 45; continue _fun52416 }
  80:
             return entity;
  82:

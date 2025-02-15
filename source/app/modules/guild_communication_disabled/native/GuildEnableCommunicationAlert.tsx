@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_communication_disabled/native/GuildEnableCommunicationAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildEnableCommunicationAlert
-        _fun81796: for(var _fun81796_ip = 0; ; ) switch(_fun81796_ip) {
+        _fun81808: for(var _fun81808_ip = 0; ; ) switch(_fun81808_ip) {
  0:
             tango = argFoo;
             sequence = tango.guildId;
@@ -153,11 +153,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun81800: for(var _fun81800_ip = 0; ; ) switch(_fun81800_ip) {
+                        _fun81812: for(var _fun81812_ip = 0; ; ) switch(_fun81812_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun81800_ip = 188; continue _fun81800 }
+                            if(mike) { _fun81812_ip = 188; continue _fun81812 }
  10:
                             tango = _closure1_slot1;
                             zulu = _closure1_slot2;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  62:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun81800_ip = 185; continue _fun81800 }
+                            if(tango) { _fun81812_ip = 185; continue _fun81812 }
  68:
                             options = _closure1_slot1;
                             verify = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[options] = verify;
             verify = update == report;
             options = undefined;
-            if(verify) { _fun81796_ip = 334; continue _fun81796 }
+            if(verify) { _fun81808_ip = 334; continue _fun81808 }
  328:
             options = report.onClose;
  334:
@@ -321,19 +321,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = source.bind(control)(sequence, update, vacuum);
             control = update != source;
             update = '';
-            if(!control) { _fun81796_ip = 580; continue _fun81796 }
+            if(!control) { _fun81808_ip = 580; continue _fun81808 }
  577:
             update = source;
  580:
             yankee['username'] = update;
             echo = function() { // Original name: countdown
-                _fun81802: for(var _fun81802_ip = 0; ; ) switch(_fun81802_ip) {
+                _fun81814: for(var _fun81814_ip = 0; ; ) switch(_fun81814_ip) {
  0:
                     mike = _closure2_slot3;
                     entity = null;
                     entity = entity != mike;
                     report = 0;
-                    if(!entity) { _fun81802_ip = 50; continue _fun81802 }
+                    if(!entity) { _fun81814_ip = 50; continue _fun81814 }
  18:
                     entity = global;
                     zulu = entity.Date;

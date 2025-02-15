@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = backup;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: SquareIconButton
-        _fun104510: for(var _fun104510_ip = 0; ; ) switch(_fun104510_ip) {
+        _fun104502: for(var _fun104502_ip = 0; ; ) switch(_fun104502_ip) {
  0:
             mike = argFoo;
             romeo = mike.onPress;
@@ -31,16 +31,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = backup;
             mike[1] = offset;
             entity = function() {
-                _fun104511: for(var _fun104511_ip = 0; ; ) switch(_fun104511_ip) {
+                _fun104503: for(var _fun104503_ip = 0; ; ) switch(_fun104503_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot5;
                     zulu = zulu.MEDIUM_32;
-                    if(!(zulu !== tango)) { _fun104511_ip = 72; continue _fun104511 }
+                    if(!(zulu !== tango)) { _fun104503_ip = 72; continue _fun104503 }
  24:
                     zulu = _closure1_slot5;
                     zulu = zulu.LARGE_40;
-                    if(!(zulu !== tango)) { _fun104511_ip = 60; continue _fun104511 }
+                    if(!(zulu !== tango)) { _fun104503_ip = 60; continue _fun104503 }
  38:
                     mike = _closure1_slot5;
                     mike = mike.SMALL_24;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 'button';
             entity['accessibilityRole'] = sizing;
             sizing = undefined;
-            if(kilo) { _fun104510_ip = 156; continue _fun104510 }
+            if(kilo) { _fun104502_ip = 156; continue _fun104502 }
  153:
             sizing = output;
  156:
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             romeo = _closure1_slot5;
             romeo = romeo.LARGE_40;
-            if(!(backup !== romeo)) { _fun104510_ip = 269; continue _fun104510 }
+            if(!(backup !== romeo)) { _fun104502_ip = 269; continue _fun104502 }
  238:
             backup = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(tango)(romeo);
             romeo = romeo.Sizes;
             romeo = romeo.REFRESH_SMALL_16;
-            _fun104510_ip = 298; continue _fun104510;
+            _fun104502_ip = 298; continue _fun104502;
  269:
             backup = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  298:
             report['size'] = romeo;
             romeo = null;
-            if(verify) { _fun104510_ip = 312; continue _fun104510 }
+            if(verify) { _fun104502_ip = 312; continue _fun104502 }
  307:
             romeo = offset.icon;
  312:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = tango;
     mike = function(argFoo) { // Original name: CircularIconButton
-        _fun104512: for(var _fun104512_ip = 0; ; ) switch(_fun104512_ip) {
+        _fun104504: for(var _fun104504_ip = 0; ; ) switch(_fun104504_ip) {
  0:
             zulu = argFoo;
             verify = zulu.style;
@@ -151,22 +151,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             yankee = _closure1_slot5;
             yankee = yankee.SMALL_24;
-            if(!(yankee !== golf)) { _fun104512_ip = 137; continue _fun104512 }
+            if(!(yankee !== golf)) { _fun104504_ip = 137; continue _fun104504 }
  91:
             yankee = _closure1_slot5;
             yankee = yankee.MEDIUM_32;
-            if(!(yankee !== golf)) { _fun104512_ip = 129; continue _fun104512 }
+            if(!(yankee !== golf)) { _fun104504_ip = 129; continue _fun104504 }
  105:
             offset = _closure1_slot5;
             yankee = offset.LARGE_40;
             offset = undefined;
-            if(!(yankee === golf)) { _fun104512_ip = 143; continue _fun104512 }
+            if(!(yankee === golf)) { _fun104504_ip = 143; continue _fun104504 }
  121:
             offset = options.largeCircular;
-            _fun104512_ip = 143; continue _fun104512;
+            _fun104504_ip = 143; continue _fun104504;
  129:
             offset = options.mediumCircular;
-            _fun104512_ip = 143; continue _fun104512;
+            _fun104504_ip = 143; continue _fun104504;
  137:
             offset = options.smallCircular;
  143:

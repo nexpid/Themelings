@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/threads/ThreadActionUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: doesThreadMembersActionAffectMe
-        _fun44240: for(var _fun44240_ip = 0; ; ) switch(_fun44240_ip) {
+        _fun44248: for(var _fun44248_ip = 0; ; ) switch(_fun44248_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot0;
@@ -33,22 +33,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = options;
             zulu = null;
             entity = zulu != options;
-            if(!entity) { _fun44240_ip = 105; continue _fun44240 }
+            if(!entity) { _fun44248_ip = 105; continue _fun44248 }
  35:
             golf = report.removedMemberIds;
             oscar = zulu == golf;
-            if(oscar) { _fun44240_ip = 61; continue _fun44240 }
+            if(oscar) { _fun44248_ip = 61; continue _fun44248 }
  48:
             mike = golf.includes;
             mike = mike.bind(golf)(options);
             oscar = !mike;
  61:
             mike = !oscar;
-            if(!oscar) { _fun44240_ip = 102; continue _fun44240 }
+            if(!oscar) { _fun44248_ip = 102; continue _fun44248 }
  67:
             oscar = report.addedMembers;
             zulu = zulu == oscar;
-            if(zulu) { _fun44240_ip = 99; continue _fun44240 }
+            if(zulu) { _fun44248_ip = 99; continue _fun44248 }
  80:
             report = oscar.some;
             tango = function(argFoo) {

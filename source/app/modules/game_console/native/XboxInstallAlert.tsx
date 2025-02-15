@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'renderConfirmRightIcon';
         entity[oscar] = golf;
         oscar = function() { // Original name: onConfirm
-            _fun103263: for(var _fun103263_ip = 0; ; ) switch(_fun103263_ip) {
+            _fun103255: for(var _fun103255_ip = 0; ; ) switch(_fun103255_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -156,11 +156,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu.bind(tango)();
                 tango = _closure1_slot3;
                 zulu = tango.openURL;
-                if(report) { _fun103263_ip = 58; continue _fun103263 }
+                if(report) { _fun103255_ip = 58; continue _fun103255 }
  47:
                 report = _closure1_slot5;
                 report = zulu.bind(tango)(report);
-                _fun103263_ip = 67; continue _fun103263;
+                _fun103255_ip = 67; continue _fun103255;
  58:
                 mike = _closure1_slot4;
                 mike = zulu.bind(tango)(mike);

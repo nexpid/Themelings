@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/emoji_picker/native/components/categories/EmojiPickerCategoriesUnicodeShortcutItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmojiPickerCategoriesUnicodeShortcutItem
-        _fun78593: for(var _fun78593_ip = 0; ; ) switch(_fun78593_ip) {
+        _fun78603: for(var _fun78603_ip = 0; ; ) switch(_fun78603_ip) {
  0:
             mike = argFoo;
             backup = mike.blockRef;
@@ -119,12 +119,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot9;
             tango['__initData'] = zulu;
             zulu = function(argFoo, argBar) { // Original name: b
-                _fun78595: for(var _fun78595_ip = 0; ; ) switch(_fun78595_ip) {
+                _fun78605: for(var _fun78605_ip = 0; ; ) switch(_fun78605_ip) {
  0:
                     entity = argFoo;
                     golf = argBar;
                     mike = null;
-                    if(!(mike != entity)) { _fun78595_ip = 147; continue _fun78595 }
+                    if(!(mike != entity)) { _fun78605_ip = 147; continue _fun78605 }
  15:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -135,12 +135,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.cheapWorkletShallowEqual;
                     options = mike != golf;
                     mike = undefined;
-                    if(!options) { _fun78595_ip = 58; continue _fun78595 }
+                    if(!options) { _fun78605_ip = 58; continue _fun78605 }
  55:
                     mike = golf;
  58:
                     mike = tango.bind(oscar)(entity, mike);
-                    if(mike) { _fun78595_ip = 147; continue _fun78595 }
+                    if(mike) { _fun78605_ip = 147; continue _fun78605 }
  67:
                     oscar = _closure2_slot2;
                     tango = _closure1_slot6;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = entity.end;
                     golf = _closure2_slot4;
                     entity = 0;
-                    if(golf) { _fun78595_ip = 100; continue _fun78595 }
+                    if(golf) { _fun78605_ip = 100; continue _fun78605 }
  96:
                     entity = _closure1_slot6;
  100:
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = tango.bind(oscar)(entity, zulu);
             entity = null;
-            if(!mike) { _fun78593_ip = 527; continue _fun78593 }
+            if(!mike) { _fun78603_ip = 527; continue _fun78603 }
  341:
             tango = _closure1_slot7;
             foxtrot = _closure1_slot0;

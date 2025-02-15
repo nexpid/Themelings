@@ -112,12 +112,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['BadgeColors'] = tango;
     mike = function(argFoo) { // Original name: TextBadge
-        _fun62398: for(var _fun62398_ip = 0; ; ) switch(_fun62398_ip) {
+        _fun62403: for(var _fun62403_ip = 0; ; ) switch(_fun62403_ip) {
  0:
             entity = argFoo;
             offset = entity.color;
             tango = undefined;
-            if(!(offset === tango)) { _fun62398_ip = 27; continue _fun62398 }
+            if(!(offset === tango)) { _fun62403_ip = 27; continue _fun62403 }
  14:
             mike = _closure1_slot6;
             offset = mike.DANGER;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: renderCarouselCard
-        _fun94072: for(var _fun94072_ip = 0; ; ) switch(_fun94072_ip) {
+        _fun94097: for(var _fun94097_ip = 0; ; ) switch(_fun94097_ip) {
  0:
             entity = argFoo;
             zulu = entity.item;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.CarouselStep;
             entity = entity.Chat;
-            if(!(entity !== zulu)) { _fun94072_ip = 730; continue _fun94072 }
+            if(!(entity !== zulu)) { _fun94097_ip = 730; continue _fun94097 }
  52:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.CarouselStep;
             entity = entity.Voice;
-            if(!(entity !== zulu)) { _fun94072_ip = 643; continue _fun94072 }
+            if(!(entity !== zulu)) { _fun94097_ip = 643; continue _fun94097 }
  88:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.CarouselStep;
             entity = entity.Camera;
-            if(!(entity !== zulu)) { _fun94072_ip = 553; continue _fun94072 }
+            if(!(entity !== zulu)) { _fun94097_ip = 553; continue _fun94097 }
  124:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.CarouselStep;
             entity = entity.Servers;
-            if(!(entity !== zulu)) { _fun94072_ip = 463; continue _fun94072 }
+            if(!(entity !== zulu)) { _fun94097_ip = 463; continue _fun94097 }
  160:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.CarouselStep;
             entity = entity.Servers2;
-            if(!(entity !== zulu)) { _fun94072_ip = 373; continue _fun94072 }
+            if(!(entity !== zulu)) { _fun94097_ip = 373; continue _fun94097 }
  196:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.CarouselStep;
             mike = entity.Welcome;
             entity = undefined;
-            if(!(mike === zulu)) { _fun94072_ip = 815; continue _fun94072 }
+            if(!(mike === zulu)) { _fun94097_ip = 815; continue _fun94097 }
  234:
             mike = {};
             options = _closure1_slot0;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(tango)(zulu);
             mike['image'] = zulu;
             entity = mike;
-            _fun94072_ip = 815; continue _fun94072;
+            _fun94097_ip = 815; continue _fun94097;
  373:
             mike = {};
             options = _closure1_slot0;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(tango)(zulu);
             mike['image'] = zulu;
             entity = mike;
-            _fun94072_ip = 815; continue _fun94072;
+            _fun94097_ip = 815; continue _fun94097;
  463:
             mike = {};
             options = _closure1_slot0;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(tango)(zulu);
             mike['image'] = zulu;
             entity = mike;
-            _fun94072_ip = 815; continue _fun94072;
+            _fun94097_ip = 815; continue _fun94097;
  553:
             mike = {};
             options = _closure1_slot0;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(tango)(zulu);
             mike['image'] = zulu;
             entity = mike;
-            _fun94072_ip = 815; continue _fun94072;
+            _fun94097_ip = 815; continue _fun94097;
  643:
             mike = {};
             options = _closure1_slot0;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.bind(tango)(zulu);
             mike['image'] = zulu;
             entity = mike;
-            _fun94072_ip = 815; continue _fun94072;
+            _fun94097_ip = 815; continue _fun94097;
  730:
             mike = {};
             options = _closure1_slot0;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = report.bind(entity)(options);
     verify = offset.createStyles;
     options = function(argFoo) {
-        _fun94073: for(var _fun94073_ip = 0; ; ) switch(_fun94073_ip) {
+        _fun94098: for(var _fun94098_ip = 0; ; ) switch(_fun94098_ip) {
  0:
             tango = argFoo;
             entity = {};
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar + report;
             mike['height'] = report;
             oscar = 40;
-            if(!tango) { _fun94073_ip = 49; continue _fun94073 }
+            if(!tango) { _fun94098_ip = 49; continue _fun94098 }
  46:
             oscar = 20;
  49:
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['carousel'] = mike;
             mike = {};
             report = 128;
-            if(!tango) { _fun94073_ip = 77; continue _fun94073 }
+            if(!tango) { _fun94098_ip = 77; continue _fun94098 }
  74:
             report = 82;
  77:
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/value_props/ValuePropsCarousel.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ValuePropsCarousel
-        _fun94074: for(var _fun94074_ip = 0; ; ) switch(_fun94074_ip) {
+        _fun94099: for(var _fun94099_ip = 0; ; ) switch(_fun94099_ip) {
  0:
             entity = argFoo;
             yankee = entity.isLargeVariant;
@@ -389,10 +389,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = foxtrot.carousel;
             golf = new Array(2);
             golf[0] = backup;
-            if(yankee) { _fun94074_ip = 170; continue _fun94074 }
+            if(yankee) { _fun94099_ip = 170; continue _fun94099 }
  166:
             yankee = {};
-            _fun94074_ip = 176; continue _fun94074;
+            _fun94099_ip = 176; continue _fun94099;
  170:
             yankee = foxtrot.largeCarousel;
  176:

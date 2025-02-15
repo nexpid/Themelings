@@ -36,11 +36,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun65328: for(var _fun65328_ip = 0; ; ) switch(_fun65328_ip) {
+                _fun65333: for(var _fun65333_ip = 0; ; ) switch(_fun65333_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun65328_ip = 107; continue _fun65328 }
+                    if(mike) { _fun65333_ip = 107; continue _fun65333 }
  7:
                     golf = _closure1_slot3;
                     oscar = golf.canWithPartialContext;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = _closure2_slot0;
                     tango['guildId'] = options;
                     tango = oscar.bind(golf)(report, tango);
-                    if(!tango) { _fun65328_ip = 99; continue _fun65328 }
+                    if(!tango) { _fun65333_ip = 99; continue _fun65333 }
  52:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun65328_ip = 104; continue _fun65328 }
+                    if(zulu) { _fun65333_ip = 104; continue _fun65333 }
  99:
                     zulu = undefined;
                     return zulu;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: UserListItem
-        _fun99785: for(var _fun99785_ip = 0; ; ) switch(_fun99785_ip) {
+        _fun99795: for(var _fun99795_ip = 0; ; ) switch(_fun99795_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.userId;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             oscar = null;
             oscar = oscar != sizing;
-            if(!oscar) { _fun99785_ip = 364; continue _fun99785 }
+            if(!oscar) { _fun99795_ip = 364; continue _fun99795 }
  295:
             backup = _closure1_slot8;
             foxtrot = _closure1_slot1;
@@ -166,14 +166,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: renderItem
-        _fun99790: for(var _fun99790_ip = 0; ; ) switch(_fun99790_ip) {
+        _fun99800: for(var _fun99800_ip = 0; ; ) switch(_fun99800_ip) {
  0:
             entity = argFoo;
             entity = entity.item;
             tango = entity.type;
             zulu = _closure1_slot11;
             zulu = zulu.USER;
-            if(!(tango !== zulu)) { _fun99790_ip = 34; continue _fun99790 }
+            if(!(tango !== zulu)) { _fun99800_ip = 34; continue _fun99800 }
  30:
             zulu = undefined;
             return zulu;
@@ -197,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: keyExtractor
-        _fun99792: for(var _fun99792_ip = 0; ; ) switch(_fun99792_ip) {
+        _fun99802: for(var _fun99802_ip = 0; ; ) switch(_fun99802_ip) {
  0:
             entity = argFoo;
             zulu = entity.type;
             mike = _closure1_slot11;
             mike = mike.USER;
-            if(!(zulu !== mike)) { _fun99792_ip = 29; continue _fun99792 }
+            if(!(zulu !== mike)) { _fun99802_ip = 29; continue _fun99802 }
  25:
             mike = undefined;
             return mike;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function() { // Original name: SettingsSecureFramesFooter
-        _fun99793: for(var _fun99793_ip = 0; ; ) switch(_fun99793_ip) {
+        _fun99803: for(var _fun99803_ip = 0; ; ) switch(_fun99803_ip) {
  0:
             mike = _closure1_slot10;
             report = undefined;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun99793_ip = 539; continue _fun99793 }
+            if(!(mike !== zulu)) { _fun99803_ip = 539; continue _fun99803 }
  159:
             tango = _closure1_slot9;
             zulu = _closure1_slot4;

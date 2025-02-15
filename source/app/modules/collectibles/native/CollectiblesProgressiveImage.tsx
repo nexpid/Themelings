@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/CollectiblesProgressiveImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CollectiblesProgressiveImage
-        _fun99772: for(var _fun99772_ip = 0; ; ) switch(_fun99772_ip) {
+        _fun99782: for(var _fun99782_ip = 0; ; ) switch(_fun99782_ip) {
  0:
             tango = argFoo;
             foxtrot = tango.source;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = output[report];
             golf = golf.bind(tango)(report);
             report = {};
-            if(!(kilo == offset)) { _fun99772_ip = 147; continue _fun99772 }
+            if(!(kilo == offset)) { _fun99782_ip = 147; continue _fun99782 }
  143:
             offset = new Array(0);
  147:

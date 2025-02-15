@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallSingleController.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun103660: for(var _fun103660_ip = 0; ; ) switch(_fun103660_ip) {
+        _fun103652: for(var _fun103652_ip = 0; ; ) switch(_fun103652_ip) {
  0:
             mike = argFoo;
             golf = mike.selectedParticipant;
@@ -112,19 +112,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.type;
             entity = _closure1_slot7;
             entity = entity.STREAM;
-            if(!(entity !== mike)) { _fun103660_ip = 270; continue _fun103660 }
+            if(!(entity !== mike)) { _fun103652_ip = 270; continue _fun103652 }
  136:
             entity = _closure1_slot7;
             entity = entity.USER;
-            if(!(entity !== mike)) { _fun103660_ip = 227; continue _fun103660 }
+            if(!(entity !== mike)) { _fun103652_ip = 227; continue _fun103652 }
  150:
             entity = _closure1_slot7;
             entity = entity.HIDDEN_STREAM;
-            if(!(entity !== mike)) { _fun103660_ip = 223; continue _fun103660 }
+            if(!(entity !== mike)) { _fun103652_ip = 223; continue _fun103652 }
  164:
             entity = _closure1_slot7;
             entity = entity.ACTIVITY;
-            if(!(entity !== mike)) { _fun103660_ip = 180; continue _fun103660 }
+            if(!(entity !== mike)) { _fun103652_ip = 180; continue _fun103652 }
  178:
             return report;
  180:
@@ -162,16 +162,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(mike)();
             entity = null;
             zulu = entity != zulu;
-            if(!zulu) { _fun103660_ip = 361; continue _fun103660 }
+            if(!zulu) { _fun103652_ip = 361; continue _fun103652 }
  303:
             tango = _closure1_slot8;
             zulu = _closure1_slot1;
-            if(!(verify !== mike)) { _fun103660_ip = 328; continue _fun103660 }
+            if(!(verify !== mike)) { _fun103652_ip = 328; continue _fun103652 }
  315:
             verify = _closure1_slot2;
             mike = 10;
             mike = verify[mike];
-            _fun103660_ip = 339; continue _fun103660;
+            _fun103652_ip = 339; continue _fun103652;
  328:
             verify = _closure1_slot2;
             options = 9;

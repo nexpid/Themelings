@@ -13,205 +13,205 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot2 = entity;
     entity = function(argFoo) { // Original name: sumBytes
-        _fun50686: for(var _fun50686_ip = 0; ; ) switch(_fun50686_ip) {
+        _fun50693: for(var _fun50693_ip = 0; ; ) switch(_fun50693_ip) {
  0:
             oscar = argFoo;
             report = null;
             mike = report == oscar;
             entity = undefined;
-            if(mike) { _fun50686_ip = 20; continue _fun50686 }
+            if(mike) { _fun50693_ip = 20; continue _fun50693 }
  14:
             entity = oscar.headerBytes;
  20:
             tango = report != entity;
             mike = 0;
-            if(!tango) { _fun50686_ip = 32; continue _fun50686 }
+            if(!tango) { _fun50693_ip = 32; continue _fun50693 }
  29:
             mike = entity;
  32:
             entity = report == oscar;
             tango = undefined;
-            if(entity) { _fun50686_ip = 47; continue _fun50686 }
+            if(entity) { _fun50693_ip = 47; continue _fun50693 }
  41:
             tango = oscar.payloadBytes;
  47:
             golf = report != tango;
             entity = 0;
-            if(!golf) { _fun50686_ip = 59; continue _fun50686 }
+            if(!golf) { _fun50693_ip = 59; continue _fun50693 }
  56:
             entity = tango;
  59:
             mike = mike + entity;
             entity = report == oscar;
             tango = undefined;
-            if(entity) { _fun50686_ip = 78; continue _fun50686 }
+            if(entity) { _fun50693_ip = 78; continue _fun50693 }
  72:
             tango = oscar.paddingBytes;
  78:
             golf = report != tango;
             entity = 0;
-            if(!golf) { _fun50686_ip = 90; continue _fun50686 }
+            if(!golf) { _fun50693_ip = 90; continue _fun50693 }
  87:
             entity = tango;
  90:
             mike = mike + entity;
             tango = report == oscar;
             entity = undefined;
-            if(tango) { _fun50686_ip = 124; continue _fun50686 }
+            if(tango) { _fun50693_ip = 124; continue _fun50693 }
  103:
             tango = oscar.fec;
             golf = report == tango;
             entity = undefined;
-            if(golf) { _fun50686_ip = 124; continue _fun50686 }
+            if(golf) { _fun50693_ip = 124; continue _fun50693 }
  118:
             entity = tango.headerBytes;
  124:
             golf = report != entity;
             tango = 0;
-            if(!golf) { _fun50686_ip = 136; continue _fun50686 }
+            if(!golf) { _fun50693_ip = 136; continue _fun50693 }
  133:
             tango = entity;
  136:
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 166; continue _fun50686 }
+            if(entity) { _fun50693_ip = 166; continue _fun50693 }
  145:
             entity = oscar.fec;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 166; continue _fun50686 }
+            if(verify) { _fun50693_ip = 166; continue _fun50693 }
  160:
             golf = entity.payloadBytes;
  166:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 178; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 178; continue _fun50693 }
  175:
             entity = golf;
  178:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 212; continue _fun50686 }
+            if(entity) { _fun50693_ip = 212; continue _fun50693 }
  191:
             entity = oscar.fec;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 212; continue _fun50686 }
+            if(verify) { _fun50693_ip = 212; continue _fun50693 }
  206:
             golf = entity.paddingBytes;
  212:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 224; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 224; continue _fun50693 }
  221:
             entity = golf;
  224:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 258; continue _fun50686 }
+            if(entity) { _fun50693_ip = 258; continue _fun50693 }
  237:
             entity = oscar.retransmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 258; continue _fun50686 }
+            if(verify) { _fun50693_ip = 258; continue _fun50693 }
  252:
             golf = entity.headerBytes;
  258:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 270; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 270; continue _fun50693 }
  267:
             entity = golf;
  270:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 304; continue _fun50686 }
+            if(entity) { _fun50693_ip = 304; continue _fun50693 }
  283:
             entity = oscar.retransmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 304; continue _fun50686 }
+            if(verify) { _fun50693_ip = 304; continue _fun50693 }
  298:
             golf = entity.payloadBytes;
  304:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 316; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 316; continue _fun50693 }
  313:
             entity = golf;
  316:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 350; continue _fun50686 }
+            if(entity) { _fun50693_ip = 350; continue _fun50693 }
  329:
             entity = oscar.retransmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 350; continue _fun50686 }
+            if(verify) { _fun50693_ip = 350; continue _fun50693 }
  344:
             golf = entity.paddingBytes;
  350:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 362; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 362; continue _fun50693 }
  359:
             entity = golf;
  362:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 396; continue _fun50686 }
+            if(entity) { _fun50693_ip = 396; continue _fun50693 }
  375:
             entity = oscar.transmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 396; continue _fun50686 }
+            if(verify) { _fun50693_ip = 396; continue _fun50693 }
  390:
             golf = entity.headerBytes;
  396:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 408; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 408; continue _fun50693 }
  405:
             entity = golf;
  408:
             tango = tango + entity;
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50686_ip = 442; continue _fun50686 }
+            if(entity) { _fun50693_ip = 442; continue _fun50693 }
  421:
             entity = oscar.transmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50686_ip = 442; continue _fun50686 }
+            if(verify) { _fun50693_ip = 442; continue _fun50693 }
  436:
             golf = entity.payloadBytes;
  442:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50686_ip = 454; continue _fun50686 }
+            if(!verify) { _fun50693_ip = 454; continue _fun50693 }
  451:
             entity = golf;
  454:
             entity = tango + entity;
             golf = report == oscar;
             tango = undefined;
-            if(golf) { _fun50686_ip = 488; continue _fun50686 }
+            if(golf) { _fun50693_ip = 488; continue _fun50693 }
  467:
             oscar = oscar.transmitted;
             golf = report == oscar;
             tango = undefined;
-            if(golf) { _fun50686_ip = 488; continue _fun50686 }
+            if(golf) { _fun50693_ip = 488; continue _fun50693 }
  482:
             tango = oscar.paddingBytes;
  488:
             report = report != tango;
             zulu = 0;
-            if(!report) { _fun50686_ip = 500; continue _fun50686 }
+            if(!report) { _fun50693_ip = 500; continue _fun50693 }
  497:
             zulu = tango;
  500:
@@ -222,71 +222,71 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot3 = entity;
     entity = function(argFoo) { // Original name: sumPackets
-        _fun50687: for(var _fun50687_ip = 0; ; ) switch(_fun50687_ip) {
+        _fun50694: for(var _fun50694_ip = 0; ; ) switch(_fun50694_ip) {
  0:
             oscar = argFoo;
             report = null;
             mike = report == oscar;
             entity = undefined;
-            if(mike) { _fun50687_ip = 20; continue _fun50687 }
+            if(mike) { _fun50694_ip = 20; continue _fun50694 }
  14:
             entity = oscar.packets;
  20:
             tango = report != entity;
             mike = 0;
-            if(!tango) { _fun50687_ip = 32; continue _fun50687 }
+            if(!tango) { _fun50694_ip = 32; continue _fun50694 }
  29:
             mike = entity;
  32:
             tango = report == oscar;
             entity = undefined;
-            if(tango) { _fun50687_ip = 62; continue _fun50687 }
+            if(tango) { _fun50694_ip = 62; continue _fun50694 }
  41:
             tango = oscar.fec;
             golf = report == tango;
             entity = undefined;
-            if(golf) { _fun50687_ip = 62; continue _fun50687 }
+            if(golf) { _fun50694_ip = 62; continue _fun50694 }
  56:
             entity = tango.packets;
  62:
             golf = report != entity;
             tango = 0;
-            if(!golf) { _fun50687_ip = 74; continue _fun50687 }
+            if(!golf) { _fun50694_ip = 74; continue _fun50694 }
  71:
             tango = entity;
  74:
             entity = report == oscar;
             golf = undefined;
-            if(entity) { _fun50687_ip = 104; continue _fun50687 }
+            if(entity) { _fun50694_ip = 104; continue _fun50694 }
  83:
             entity = oscar.retransmitted;
             verify = report == entity;
             golf = undefined;
-            if(verify) { _fun50687_ip = 104; continue _fun50687 }
+            if(verify) { _fun50694_ip = 104; continue _fun50694 }
  98:
             golf = entity.packets;
  104:
             verify = report != golf;
             entity = 0;
-            if(!verify) { _fun50687_ip = 116; continue _fun50687 }
+            if(!verify) { _fun50694_ip = 116; continue _fun50694 }
  113:
             entity = golf;
  116:
             entity = tango + entity;
             golf = report == oscar;
             tango = undefined;
-            if(golf) { _fun50687_ip = 150; continue _fun50687 }
+            if(golf) { _fun50694_ip = 150; continue _fun50694 }
  129:
             oscar = oscar.transmitted;
             golf = report == oscar;
             tango = undefined;
-            if(golf) { _fun50687_ip = 150; continue _fun50687 }
+            if(golf) { _fun50694_ip = 150; continue _fun50694 }
  144:
             tango = oscar.packets;
  150:
             report = report != tango;
             zulu = 0;
-            if(!report) { _fun50687_ip = 162; continue _fun50687 }
+            if(!report) { _fun50694_ip = 162; continue _fun50694 }
  159:
             zulu = tango;
  162:
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot4 = entity;
     entity = function(argFoo) { // Original name: transformPlayoutStats
-        _fun50688: for(var _fun50688_ip = 0; ; ) switch(_fun50688_ip) {
+        _fun50695: for(var _fun50695_ip = 0; ; ) switch(_fun50695_ip) {
  0:
             offset = argFoo;
             entity = {};
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = offset[romeo];
                 foxtrot = mike != backup;
                 yankee = null;
-                if(!foxtrot) { _fun50688_ip = 249; continue _fun50688 }
+                if(!foxtrot) { _fun50695_ip = 249; continue _fun50695 }
  60:
                 foxtrot = {};
                 output = tango.Math;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = foxtrot;
  249:
                 entity[romeo] = yankee;
-                _fun50688_ip = 29; continue _fun50688;
+                _fun50695_ip = 29; continue _fun50695;
             }
  258:
             return entity;
@@ -363,19 +363,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot5 = entity;
     entity = function(argFoo, argBar) { // Original name: transformOutboundVideoStats
-        _fun50689: for(var _fun50689_ip = 0; ; ) switch(_fun50689_ip) {
+        _fun50696: for(var _fun50696_ip = 0; ; ) switch(_fun50696_ip) {
  0:
             report = argFoo;
             romeo = argBar;
             tango = report.substreams;
             zulu = tango.find;
             mike = function(argFoo) {
-                _fun50690: for(var _fun50690_ip = 0; ; ) switch(_fun50690_ip) {
+                _fun50697: for(var _fun50697_ip = 0; ; ) switch(_fun50697_ip) {
  0:
                     mike = argFoo;
                     entity = mike.isRTX;
                     entity = !entity;
-                    if(!entity) { _fun50690_ip = 28; continue _fun50690 }
+                    if(!entity) { _fun50697_ip = 28; continue _fun50697 }
  17:
                     mike = mike.isFlexFEC;
                     entity = !mike;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = zulu.bind(tango)(mike);
             tango = null;
-            if(!(tango == zulu)) { _fun50689_ip = 39; continue _fun50689 }
+            if(!(tango == zulu)) { _fun50696_ip = 39; continue _fun50696 }
  35:
             mike = undefined;
             return mike;
@@ -451,13 +451,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.rtcpStats;
             verify = tango == golf;
             options = undefined;
-            if(verify) { _fun50689_ip = 257; continue _fun50689 }
+            if(verify) { _fun50696_ip = 257; continue _fun50696 }
  251:
             options = golf.packetsLost;
  257:
             verify = tango != options;
             golf = 0;
-            if(!verify) { _fun50689_ip = 269; continue _fun50689 }
+            if(!verify) { _fun50696_ip = 269; continue _fun50696 }
  266:
             golf = options;
  269:
@@ -465,13 +465,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.rtcpStats;
             verify = tango == golf;
             options = undefined;
-            if(verify) { _fun50689_ip = 295; continue _fun50689 }
+            if(verify) { _fun50696_ip = 295; continue _fun50696 }
  289:
             options = golf.fractionLost;
  295:
             verify = tango != options;
             golf = 0;
-            if(!verify) { _fun50689_ip = 307; continue _fun50689 }
+            if(!verify) { _fun50696_ip = 307; continue _fun50696 }
  304:
             golf = options;
  307:
@@ -510,13 +510,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.rtcpStats;
             verify = tango == golf;
             options = undefined;
-            if(verify) { _fun50689_ip = 506; continue _fun50689 }
+            if(verify) { _fun50696_ip = 506; continue _fun50696 }
  500:
             options = golf.firPackets;
  506:
             verify = tango != options;
             golf = 0;
-            if(!verify) { _fun50689_ip = 518; continue _fun50689 }
+            if(!verify) { _fun50696_ip = 518; continue _fun50696 }
  515:
             golf = options;
  518:
@@ -524,13 +524,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = zulu.rtcpStats;
             verify = tango == golf;
             options = undefined;
-            if(verify) { _fun50689_ip = 544; continue _fun50689 }
+            if(verify) { _fun50696_ip = 544; continue _fun50696 }
  538:
             options = golf.nackPackets;
  544:
             verify = tango != options;
             golf = 0;
-            if(!verify) { _fun50689_ip = 556; continue _fun50689 }
+            if(!verify) { _fun50696_ip = 556; continue _fun50696 }
  553:
             golf = options;
  556:
@@ -538,13 +538,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu.rtcpStats;
             verify = tango == options;
             golf = undefined;
-            if(verify) { _fun50689_ip = 582; continue _fun50689 }
+            if(verify) { _fun50696_ip = 582; continue _fun50696 }
  576:
             golf = options.pliPackets;
  582:
             options = tango != golf;
             oscar = 0;
-            if(!options) { _fun50689_ip = 594; continue _fun50689 }
+            if(!options) { _fun50696_ip = 594; continue _fun50696 }
  591:
             oscar = golf;
  594:
@@ -566,13 +566,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 701; continue _fun50689 }
+            if(options) { _fun50696_ip = 701; continue _fun50696 }
  693:
             golf = oscar.imageQualityVmaf_v061;
  701:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 713; continue _fun50689 }
+            if(!options) { _fun50696_ip = 713; continue _fun50696 }
  710:
             oscar = golf;
  713:
@@ -580,13 +580,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 741; continue _fun50689 }
+            if(options) { _fun50696_ip = 741; continue _fun50696 }
  733:
             golf = oscar.imageQualityWebrtcPsnrDb;
  741:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 753; continue _fun50689 }
+            if(!options) { _fun50696_ip = 753; continue _fun50696 }
  750:
             oscar = golf;
  753:
@@ -594,13 +594,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 781; continue _fun50689 }
+            if(options) { _fun50696_ip = 781; continue _fun50696 }
  773:
             golf = oscar.decodeErrors;
  781:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 793; continue _fun50689 }
+            if(!options) { _fun50696_ip = 793; continue _fun50696 }
  790:
             oscar = golf;
  793:
@@ -608,13 +608,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 821; continue _fun50689 }
+            if(options) { _fun50696_ip = 821; continue _fun50696 }
  813:
             golf = oscar.decoderReboots;
  821:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 833; continue _fun50689 }
+            if(!options) { _fun50696_ip = 833; continue _fun50696 }
  830:
             oscar = golf;
  833:
@@ -622,13 +622,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 861; continue _fun50689 }
+            if(options) { _fun50696_ip = 861; continue _fun50696 }
  853:
             golf = oscar.scoreErrors;
  861:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 873; continue _fun50689 }
+            if(!options) { _fun50696_ip = 873; continue _fun50696 }
  870:
             oscar = golf;
  873:
@@ -636,13 +636,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 901; continue _fun50689 }
+            if(options) { _fun50696_ip = 901; continue _fun50696 }
  893:
             golf = oscar.frameDrops;
  901:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 913; continue _fun50689 }
+            if(!options) { _fun50696_ip = 913; continue _fun50696 }
  910:
             oscar = golf;
  913:
@@ -650,13 +650,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             options = tango == oscar;
             golf = undefined;
-            if(options) { _fun50689_ip = 941; continue _fun50689 }
+            if(options) { _fun50696_ip = 941; continue _fun50696 }
  933:
             golf = oscar.sizeMismatches;
  941:
             options = tango != golf;
             oscar = undefined;
-            if(!options) { _fun50689_ip = 953; continue _fun50689 }
+            if(!options) { _fun50696_ip = 953; continue _fun50696 }
  950:
             oscar = golf;
  953:
@@ -686,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun50689_ip = 1100; continue _fun50689 }
+            if(golf) { _fun50696_ip = 1100; continue _fun50696 }
  1094:
             report = oscar.freezeCount;
  1100:
@@ -694,7 +694,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun50689_ip = 1126; continue _fun50689 }
+            if(golf) { _fun50696_ip = 1126; continue _fun50696 }
  1120:
             report = oscar.totalFreezesDuration;
  1126:
@@ -702,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.encoderQualityStats;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun50689_ip = 1152; continue _fun50689 }
+            if(golf) { _fun50696_ip = 1152; continue _fun50696 }
  1146:
             report = oscar.totalFramesDuration;
  1152:
@@ -710,7 +710,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.encoderQualityStats;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun50689_ip = 1180; continue _fun50689 }
+            if(tango) { _fun50696_ip = 1180; continue _fun50696 }
  1172:
             mike = zulu.interFrameEntropy;
  1180:
@@ -720,7 +720,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot6 = entity;
     entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: transformInboundVideoStats
-        _fun50693: for(var _fun50693_ip = 0; ; ) switch(_fun50693_ip) {
+        _fun50700: for(var _fun50700_ip = 0; ; ) switch(_fun50700_ip) {
  0:
             tango = argFoo;
             sizing = argBar;
@@ -777,7 +777,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.rtpStats;
             options = mike.packetsLost;
             mike = null;
-            if(!(mike == options)) { _fun50693_ip = 277; continue _fun50693 }
+            if(!(mike == options)) { _fun50700_ip = 277; continue _fun50700 }
  265:
             verify = tango.rtcpStats;
             options = verify.packetsLost;
@@ -823,7 +823,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = tango.networkFramesDropped;
             verify = mike != options;
             golf = 0;
-            if(!verify) { _fun50693_ip = 500; continue _fun50693 }
+            if(!verify) { _fun50700_ip = 500; continue _fun50700 }
  497:
             golf = options;
  500:
@@ -874,10 +874,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['decryptMissingKeyCount'] = golf;
             tango = tango.decryptInvalidNonceCount;
             entity['decryptInvalidNonceCount'] = tango;
-            if(!(mike == oscar)) { _fun50693_ip = 774; continue _fun50693 }
+            if(!(mike == oscar)) { _fun50700_ip = 774; continue _fun50700 }
  770:
             mike = {};
-            _fun50693_ip = 818; continue _fun50693;
+            _fun50700_ip = 818; continue _fun50700;
  774:
             tango = _closure1_slot5;
             zulu = {};
@@ -912,7 +912,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = '../discord_common/js/packages/media-engine/native/transformStats.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: transformStats
-        _fun50694: for(var _fun50694_ip = 0; ; ) switch(_fun50694_ip) {
+        _fun50701: for(var _fun50701_ip = 0; ; ) switch(_fun50701_ip) {
  0:
             tango = argBar;
             verify = argBaz;
@@ -925,7 +925,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = 'string';
             mike = typeof tango;
             entity = tango;
-            if(!(zulu === mike)) { _fun50694_ip = 62; continue _fun50694 }
+            if(!(zulu === mike)) { _fun50701_ip = 62; continue _fun50701 }
  43:
             mike = global;
             zulu = mike.JSON;
@@ -935,19 +935,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(0);
             var _closure2_slot4 = zulu;
             mike = entity.outbound;
-            if(!(oscar != mike)) { _fun50694_ip = 612; continue _fun50694 }
+            if(!(oscar != mike)) { _fun50701_ip = 612; continue _fun50701 }
  83:
             mike = entity.outbound;
             offset = mike.audio;
             golf = mike.video;
             report = mike.videos;
-            if(!(oscar != offset)) { _fun50694_ip = 528; continue _fun50694 }
+            if(!(oscar != offset)) { _fun50701_ip = 528; continue _fun50701 }
  114:
             mike = _closure2_slot3;
             yankee = oscar != mike;
             sizing = 0;
             tango = 0;
-            if(!yankee) { _fun50694_ip = 132; continue _fun50694 }
+            if(!yankee) { _fun50701_ip = 132; continue _fun50701 }
  129:
             tango = mike;
  132:
@@ -1030,19 +1030,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['pttQueueLatencyMicrosSamples'] = offset;
             mike = tango.bind(zulu)(mike);
  528:
-            if(!(oscar == report)) { _fun50694_ip = 597; continue _fun50694 }
+            if(!(oscar == report)) { _fun50701_ip = 597; continue _fun50701 }
  532:
-            if(!(oscar != golf)) { _fun50694_ip = 612; continue _fun50694 }
+            if(!(oscar != golf)) { _fun50701_ip = 612; continue _fun50701 }
  536:
             tango = _closure1_slot6;
             mike = undefined;
             tango = tango.bind(mike)(golf, verify);
-            if(!(oscar != tango)) { _fun50694_ip = 612; continue _fun50694 }
+            if(!(oscar != tango)) { _fun50701_ip = 612; continue _fun50701 }
  555:
             mike = _closure2_slot3;
             verify = oscar != mike;
             golf = 0;
-            if(!verify) { _fun50694_ip = 571; continue _fun50694 }
+            if(!verify) { _fun50701_ip = 571; continue _fun50701 }
  568:
             golf = mike;
  571:
@@ -1051,11 +1051,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot3 = mike;
             mike = zulu.push;
             mike = mike.bind(zulu)(tango);
-            _fun50694_ip = 612; continue _fun50694;
+            _fun50701_ip = 612; continue _fun50701;
  597:
             tango = report.forEach;
             mike = function(argFoo) {
-                _fun50695: for(var _fun50695_ip = 0; ; ) switch(_fun50695_ip) {
+                _fun50702: for(var _fun50702_ip = 0; ; ) switch(_fun50702_ip) {
  0:
                     report = _closure1_slot6;
                     tango = _closure2_slot0;
@@ -1063,12 +1063,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = argFoo;
                     tango = report.bind(entity)(zulu, tango);
                     report = null;
-                    if(!(report != tango)) { _fun50695_ip = 75; continue _fun50695 }
+                    if(!(report != tango)) { _fun50702_ip = 75; continue _fun50702 }
  31:
                     zulu = _closure2_slot3;
                     oscar = report != zulu;
                     report = 0;
-                    if(!oscar) { _fun50695_ip = 47; continue _fun50695 }
+                    if(!oscar) { _fun50702_ip = 47; continue _fun50702 }
  44:
                     report = zulu;
  47:
@@ -1087,12 +1087,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = {};
             var _closure2_slot5 = tango;
             mike = entity.inbound;
-            if(!(oscar != mike)) { _fun50694_ip = 649; continue _fun50694 }
+            if(!(oscar != mike)) { _fun50701_ip = 649; continue _fun50701 }
  628:
             golf = entity.inbound;
             report = golf.forEach;
             mike = function(argFoo) {
-                _fun50696: for(var _fun50696_ip = 0; ; ) switch(_fun50696_ip) {
+                _fun50703: for(var _fun50703_ip = 0; ; ) switch(_fun50703_ip) {
  0:
                     mike = argFoo;
                     tango = mike.id;
@@ -1106,13 +1106,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = new Array(0);
                     oscar[tango] = report;
                     oscar = null;
-                    if(!(oscar != offset)) { _fun50696_ip = 788; continue _fun50696 }
+                    if(!(oscar != offset)) { _fun50703_ip = 788; continue _fun50703 }
  68:
                     report = _closure2_slot2;
                     verify = oscar != report;
                     sizing = 0;
                     options = 0;
-                    if(!verify) { _fun50696_ip = 86; continue _fun50696 }
+                    if(!verify) { _fun50703_ip = 86; continue _fun50703 }
  83:
                     options = report;
  86:
@@ -1233,10 +1233,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report['decryptMissingKeyCount'] = foxtrot;
                     offset = offset.decryptInvalidNonceCount;
                     report['decryptInvalidNonceCount'] = offset;
-                    if(!(oscar == romeo)) { _fun50696_ip = 696; continue _fun50696 }
+                    if(!(oscar == romeo)) { _fun50703_ip = 696; continue _fun50703 }
  692:
                     offset = {};
-                    _fun50696_ip = 773; continue _fun50696;
+                    _fun50703_ip = 773; continue _fun50703;
  696:
                     foxtrot = _closure1_slot5;
                     yankee = {};
@@ -1259,9 +1259,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = copyDataProperties(config, sequence);
                     report = options.bind(verify)(report);
  788:
-                    if(!(oscar == zulu)) { _fun50696_ip = 888; continue _fun50696 }
+                    if(!(oscar == zulu)) { _fun50703_ip = 888; continue _fun50703 }
  792:
-                    if(!(oscar != golf)) { _fun50696_ip = 903; continue _fun50696 }
+                    if(!(oscar != golf)) { _fun50703_ip = 903; continue _fun50703 }
  796:
                     yankee = _closure1_slot7;
                     sequence = _closure2_slot0;
@@ -1271,7 +1271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     config = golf;
                     control = romeo;
                     report = record[yankee](config, sequence, vacuum, control, source);
-                    if(!(oscar != report)) { _fun50696_ip = 903; continue _fun50696 }
+                    if(!(oscar != report)) { _fun50703_ip = 903; continue _fun50703 }
  829:
                     options = _closure1_slot3;
                     golf = golf.rtpStats;
@@ -1279,7 +1279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot2;
                     verify = oscar != options;
                     oscar = 0;
-                    if(!verify) { _fun50696_ip = 860; continue _fun50696 }
+                    if(!verify) { _fun50703_ip = 860; continue _fun50703 }
  857:
                     oscar = options;
  860:
@@ -1289,11 +1289,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = mike[tango];
                     mike = tango.push;
                     mike = mike.bind(tango)(report);
-                    _fun50696_ip = 903; continue _fun50696;
+                    _fun50703_ip = 903; continue _fun50703;
  888:
                     mike = zulu.forEach;
                     entity = function(argFoo) {
-                        _fun50697: for(var _fun50697_ip = 0; ; ) switch(_fun50697_ip) {
+                        _fun50704: for(var _fun50704_ip = 0; ; ) switch(_fun50704_ip) {
  0:
                             oscar = argFoo;
                             verify = _closure1_slot7;
@@ -1305,7 +1305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             foxtrot = oscar;
                             tango = backup[verify](foxtrot, romeo, yankee, offset, verify);
                             report = null;
-                            if(!(report != tango)) { _fun50697_ip = 106; continue _fun50697 }
+                            if(!(report != tango)) { _fun50704_ip = 106; continue _fun50704 }
  45:
                             golf = _closure1_slot3;
                             oscar = oscar.rtpStats;
@@ -1313,7 +1313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             golf = _closure2_slot2;
                             options = report != golf;
                             report = 0;
-                            if(!options) { _fun50697_ip = 76; continue _fun50697 }
+                            if(!options) { _fun50704_ip = 76; continue _fun50704 }
  73:
                             report = golf;
  76:
@@ -1339,7 +1339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.transport;
             report = entity.clips;
             verify = {};
-            if(!(oscar != offset)) { _fun50694_ip = 870; continue _fun50694 }
+            if(!(oscar != offset)) { _fun50701_ip = 870; continue _fun50701 }
  670:
             mike = offset.sendBandwidth;
             verify['availableOutgoingBitrate'] = mike;
@@ -1348,7 +1348,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.decryptionFailures;
             verify['decryptionFailures'] = mike;
             mike = offset.routingFailures;
-            if(!(oscar != mike)) { _fun50694_ip = 730; continue _fun50694 }
+            if(!(oscar != mike)) { _fun50701_ip = 730; continue _fun50701 }
  718:
             mike = offset.routingFailures;
             verify['routingFailures'] = mike;
@@ -1358,7 +1358,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.pacerDelay;
             verify['pacerDelay'] = mike;
             mike = offset.receiverReports;
-            if(!(oscar != mike)) { _fun50694_ip = 776; continue _fun50694 }
+            if(!(oscar != mike)) { _fun50701_ip = 776; continue _fun50701 }
  764:
             mike = offset.receiverReports;
             verify['receiverReports'] = mike;
@@ -1370,7 +1370,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.inboundBitrateEstimate;
             yankee = oscar != golf;
             mike = 0;
-            if(!yankee) { _fun50694_ip = 818; continue _fun50694 }
+            if(!yankee) { _fun50701_ip = 818; continue _fun50701 }
  815:
             mike = golf;
  818:
@@ -1380,23 +1380,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.packetsSent;
             verify['packetsSent'] = mike;
             mike = offset.secureFramesProtocolVersion;
-            if(!(oscar != mike)) { _fun50694_ip = 870; continue _fun50694 }
+            if(!(oscar != mike)) { _fun50701_ip = 870; continue _fun50701 }
  858:
             mike = offset.secureFramesProtocolVersion;
             verify['secureFramesProtocolVersion'] = mike;
  870:
             yankee = oscar == offset;
             golf = undefined;
-            if(yankee) { _fun50694_ip = 885; continue _fun50694 }
+            if(yankee) { _fun50701_ip = 885; continue _fun50701 }
  879:
             golf = offset.bytesReceived;
  885:
             golf = oscar != golf;
-            if(golf) { _fun50694_ip = 932; continue _fun50694 }
+            if(golf) { _fun50701_ip = 932; continue _fun50701 }
  892:
             yankee = _closure2_slot2;
             yankee = oscar != yankee;
-            if(!yankee) { _fun50694_ip = 929; continue _fun50694 }
+            if(!yankee) { _fun50701_ip = 929; continue _fun50701 }
  903:
             romeo = global;
             backup = romeo.Number;
@@ -1407,21 +1407,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  929:
             golf = yankee;
  932:
-            if(!golf) { _fun50694_ip = 976; continue _fun50694 }
+            if(!golf) { _fun50701_ip = 976; continue _fun50701 }
  935:
             golf = oscar == offset;
             yankee = undefined;
-            if(golf) { _fun50694_ip = 950; continue _fun50694 }
+            if(golf) { _fun50701_ip = 950; continue _fun50701 }
  944:
             yankee = offset.bytesReceived;
  950:
-            if(!(oscar == yankee)) { _fun50694_ip = 958; continue _fun50694 }
+            if(!(oscar == yankee)) { _fun50701_ip = 958; continue _fun50701 }
  954:
             yankee = _closure2_slot2;
  958:
             romeo = oscar != yankee;
             golf = undefined;
-            if(!romeo) { _fun50694_ip = 970; continue _fun50694 }
+            if(!romeo) { _fun50701_ip = 970; continue _fun50701 }
  967:
             golf = yankee;
  970:
@@ -1429,16 +1429,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  976:
             yankee = oscar == offset;
             golf = undefined;
-            if(yankee) { _fun50694_ip = 991; continue _fun50694 }
+            if(yankee) { _fun50701_ip = 991; continue _fun50701 }
  985:
             golf = offset.bytesSent;
  991:
             golf = oscar != golf;
-            if(golf) { _fun50694_ip = 1038; continue _fun50694 }
+            if(golf) { _fun50701_ip = 1038; continue _fun50701 }
  998:
             yankee = _closure2_slot3;
             yankee = oscar != yankee;
-            if(!yankee) { _fun50694_ip = 1035; continue _fun50694 }
+            if(!yankee) { _fun50701_ip = 1035; continue _fun50701 }
  1009:
             romeo = global;
             backup = romeo.Number;
@@ -1449,21 +1449,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1035:
             golf = yankee;
  1038:
-            if(!golf) { _fun50694_ip = 1082; continue _fun50694 }
+            if(!golf) { _fun50701_ip = 1082; continue _fun50701 }
  1041:
             yankee = oscar == offset;
             golf = undefined;
-            if(yankee) { _fun50694_ip = 1056; continue _fun50694 }
+            if(yankee) { _fun50701_ip = 1056; continue _fun50701 }
  1050:
             golf = offset.bytesSent;
  1056:
-            if(!(oscar == golf)) { _fun50694_ip = 1064; continue _fun50694 }
+            if(!(oscar == golf)) { _fun50701_ip = 1064; continue _fun50701 }
  1060:
             golf = _closure2_slot3;
  1064:
             options = oscar != golf;
             mike = undefined;
-            if(!options) { _fun50694_ip = 1076; continue _fun50694 }
+            if(!options) { _fun50701_ip = 1076; continue _fun50701 }
  1073:
             mike = golf;
  1076:
@@ -1479,7 +1479,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['screenshare'] = golf;
             golf = oscar != options;
             oscar = null;
-            if(!golf) { _fun50694_ip = 1178; continue _fun50694 }
+            if(!golf) { _fun50701_ip = 1178; continue _fun50701 }
  1129:
             golf = {};
             verify = options.capturedFramesDropped;

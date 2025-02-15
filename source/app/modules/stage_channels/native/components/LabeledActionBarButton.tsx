@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['IconPosition'] = tango;
     mike = function(argFoo) {
-        _fun103265: for(var _fun103265_ip = 0; ; ) switch(_fun103265_ip) {
+        _fun103257: for(var _fun103257_ip = 0; ; ) switch(_fun103257_ip) {
  0:
             zulu = argFoo;
             kilo = zulu.backgroundColor;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = zulu.label;
             result = zulu.iconPosition;
             tango = undefined;
-            if(!(result === tango)) { _fun103265_ip = 59; continue _fun103265 }
+            if(!(result === tango)) { _fun103257_ip = 59; continue _fun103257 }
  46:
             entity = _closure1_slot7;
             result = entity.LEFT;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             golf = sizing != sequence;
             oscar = null;
-            if(!golf) { _fun103265_ip = 145; continue _fun103265 }
+            if(!golf) { _fun103257_ip = 145; continue _fun103257 }
  139:
             oscar = context.containerWithLabel;
  145:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = foxtrot;
             foxtrot = {};
             backup = 1;
-            if(!echo) { _fun103265_ip = 259; continue _fun103265 }
+            if(!echo) { _fun103257_ip = 259; continue _fun103257 }
  249:
             backup = 0.25;
  259:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[1] = foxtrot;
             backup = sizing != kilo;
             foxtrot = null;
-            if(!backup) { _fun103265_ip = 285; continue _fun103265 }
+            if(!backup) { _fun103257_ip = 285; continue _fun103257 }
  276:
             backup = {};
             backup['backgroundColor'] = kilo;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = echo;
             control = sizing != sequence;
             echo = null;
-            if(!control) { _fun103265_ip = 338; continue _fun103265 }
+            if(!control) { _fun103257_ip = 338; continue _fun103257 }
  326:
             control = {};
             vacuum = 16;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = _closure1_slot7;
             kilo = kilo.LEFT;
             echo = result === kilo;
-            if(!echo) { _fun103265_ip = 387; continue _fun103265 }
+            if(!echo) { _fun103257_ip = 387; continue _fun103257 }
  363:
             vacuum = _closure1_slot4;
             control = _closure1_slot2;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = echo;
             echo = sizing != sequence;
             sizing = null;
-            if(!echo) { _fun103265_ip = 499; continue _fun103265 }
+            if(!echo) { _fun103257_ip = 499; continue _fun103257 }
  404:
             vacuum = _closure1_slot4;
             control = _closure1_slot0;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = _closure1_slot7;
             record = record.RIGHT;
             record = result === record;
-            if(!record) { _fun103265_ip = 481; continue _fun103265 }
+            if(!record) { _fun103257_ip = 481; continue _fun103257 }
  475:
             record = context.rightTextMargin;
  481:
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = _closure1_slot7;
             sizing = sizing.RIGHT;
             sizing = result === sizing;
-            if(!sizing) { _fun103265_ip = 544; continue _fun103265 }
+            if(!sizing) { _fun103257_ip = 544; continue _fun103257 }
  520:
             echo = _closure1_slot4;
             result = _closure1_slot2;

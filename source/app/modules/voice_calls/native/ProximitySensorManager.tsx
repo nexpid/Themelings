@@ -1,6 +1,6 @@
 // app/modules/voice_calls/native/ProximitySensorManager.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun124410: for(var _fun124410_ip = 0; ; ) switch(_fun124410_ip) {
+    _fun124406: for(var _fun124406_ip = 0; ; ) switch(_fun124406_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot0 = report;
         var _closure1_slot1 = oscar;
         entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-            _fun124411: for(var _fun124411_ip = 0; ; ) switch(_fun124411_ip) {
+            _fun124407: for(var _fun124407_ip = 0; ; ) switch(_fun124407_ip) {
  0:
                 tango = argFoo;
                 oscar = argBaz;
@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot4;
                 entity = _closure1_slot14;
                 entity = entity.bind(zulu)();
-                if(entity) { _fun124411_ip = 51; continue _fun124411 }
+                if(entity) { _fun124407_ip = 51; continue _fun124407 }
  38:
                 entity = verify.apply;
                 entity = entity.bind(verify)(tango, oscar);
-                _fun124411_ip = 92; continue _fun124411;
+                _fun124407_ip = 92; continue _fun124407;
  51:
                 golf = global;
                 options = golf.Reflect;
                 golf = options.construct;
-                if(oscar) { _fun124411_ip = 71; continue _fun124411 }
+                if(oscar) { _fun124407_ip = 71; continue _fun124407 }
  67:
                 oscar = new Array(0);
  71:
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot13 = entity;
         entity = function() { // Original name: _isNativeReflectConstruct
-            _fun124412: for(var _fun124412_ip = 0; ; ) switch(_fun124412_ip) {
+            _fun124408: for(var _fun124408_ip = 0; ; ) switch(_fun124408_ip) {
  0:
  2: // try_start_0
                 mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = !mike;
                 var _closure2_slot0 = mike;
  72: // try_end0
-                _fun124412_ip = 76; continue _fun124412;
+                _fun124408_ip = 76; continue _fun124408;
  74: // catch_target0
                 CatchBlockStart(arg_register=1);
  76:
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot14 = entity;
         entity = function() { // Original name: handleChange
-            _fun124415: for(var _fun124415_ip = 0; ; ) switch(_fun124415_ip) {
+            _fun124411: for(var _fun124411_ip = 0; ; ) switch(_fun124411_ip) {
  0:
                 mike = _closure1_slot10;
                 entity = mike.getCurrentRouteType;
@@ -107,11 +107,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot11;
                 entity = entity.RECEIVER;
                 entity = options === entity;
-                if(!entity) { _fun124415_ip = 108; continue _fun124415 }
+                if(!entity) { _fun124411_ip = 108; continue _fun124411 }
  105:
                 entity = report;
  108:
-                if(!entity) { _fun124415_ip = 161; continue _fun124415 }
+                if(!entity) { _fun124411_ip = 161; continue _fun124411 }
  111:
                 options = _closure1_slot0;
                 report = _closure1_slot1;
@@ -121,10 +121,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = options.bind(tango)(report);
                 tango = report.isIOS;
                 tango = tango.bind(report)();
-                if(tango) { _fun124415_ip = 158; continue _fun124415 }
+                if(tango) { _fun124411_ip = 158; continue _fun124411 }
  146:
                 report = !golf;
-                if(golf) { _fun124415_ip = 155; continue _fun124415 }
+                if(golf) { _fun124411_ip = 155; continue _fun124411 }
  152:
                 report = !oscar;
  155:
@@ -196,12 +196,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = report.bind(entity)(tango);
         tango = verify.isIOS;
         tango = tango.bind(verify)();
-        if(tango) { _fun124410_ip = 308; continue _fun124410 }
+        if(tango) { _fun124406_ip = 308; continue _fun124406 }
  294:
         tango = 11;
         tango = oscar[tango];
         tango = golf.bind(entity)(tango);
-        _fun124410_ip = 314; continue _fun124410;
+        _fun124406_ip = 314; continue _fun124406;
  308:
         tango = options.ProximitySensorManager;
  314:

@@ -6,36 +6,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: canUnlinkLobbyChannel
-        _fun119881: for(var _fun119881_ip = 0; ; ) switch(_fun119881_ip) {
+        _fun119887: for(var _fun119887_ip = 0; ; ) switch(_fun119887_ip) {
  0:
             oscar = argFoo;
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun119881_ip = 19; continue _fun119881 }
+            if(!(report === entity)) { _fun119887_ip = 19; continue _fun119887 }
  12:
             report = _closure1_slot2;
  19:
             zulu = null;
             entity = zulu != oscar;
-            if(!entity) { _fun119881_ip = 125; continue _fun119881 }
+            if(!entity) { _fun119887_ip = 125; continue _fun119887 }
  28:
             mike = oscar.linkedLobby;
             mike = zulu != mike;
-            if(!mike) { _fun119881_ip = 66; continue _fun119881 }
+            if(!mike) { _fun119887_ip = 66; continue _fun119887 }
  41:
             tango = report.can;
             zulu = _closure1_slot3;
             zulu = zulu.MANAGE_CHANNELS;
             mike = tango.bind(report)(zulu, oscar);
  66:
-            if(!mike) { _fun119881_ip = 94; continue _fun119881 }
+            if(!mike) { _fun119887_ip = 94; continue _fun119887 }
  69:
             tango = report.can;
             zulu = _closure1_slot3;
             zulu = zulu.VIEW_CHANNEL;
             mike = tango.bind(report)(zulu, oscar);
  94:
-            if(!mike) { _fun119881_ip = 122; continue _fun119881 }
+            if(!mike) { _fun119887_ip = 122; continue _fun119887 }
  97:
             tango = report.can;
             zulu = _closure1_slot3;

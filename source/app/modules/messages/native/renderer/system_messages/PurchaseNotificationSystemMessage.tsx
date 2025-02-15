@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/system_messages/PurchaseNotificationSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: PurchaseNotificationSystemMessage
-        _fun72488: for(var _fun72488_ip = 0; ; ) switch(_fun72488_ip) {
+        _fun72494: for(var _fun72494_ip = 0; ; ) switch(_fun72494_ip) {
  0:
             entity = argFoo;
             oscar = entity.row;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = entity == mike;
             report = undefined;
             tango = undefined;
-            if(zulu) { _fun72488_ip = 38; continue _fun72488 }
+            if(zulu) { _fun72494_ip = 38; continue _fun72494 }
  33:
             tango = mike.type;
  38:
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.PurchaseNotificationType;
             zulu = zulu.GUILD_PRODUCT;
             entity = null;
-            if(!(tango === zulu)) { _fun72488_ip = 122; continue _fun72488 }
+            if(!(tango === zulu)) { _fun72494_ip = 122; continue _fun72494 }
  79:
             tango = _closure1_slot2;
             zulu = _closure1_slot0;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createPurchaseNotificationSystemMessage
-        _fun72489: for(var _fun72489_ip = 0; ; ) switch(_fun72489_ip) {
+        _fun72495: for(var _fun72495_ip = 0; ; ) switch(_fun72495_ip) {
  0:
             tango = argFoo;
             entity = tango.message;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = entity == mike;
             report = undefined;
             oscar = undefined;
-            if(zulu) { _fun72489_ip = 32; continue _fun72489 }
+            if(zulu) { _fun72495_ip = 32; continue _fun72495 }
  27:
             oscar = mike.type;
  32:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.PurchaseNotificationType;
             zulu = zulu.GUILD_PRODUCT;
             entity = null;
-            if(!(oscar === zulu)) { _fun72489_ip = 104; continue _fun72489 }
+            if(!(oscar === zulu)) { _fun72495_ip = 104; continue _fun72495 }
  73:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

@@ -26,16 +26,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/settings/getSettingsOverrideReason.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getSettingsOverrideReason
-        _fun97499: for(var _fun97499_ip = 0; ; ) switch(_fun97499_ip) {
+        _fun97509: for(var _fun97509_ip = 0; ; ) switch(_fun97509_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.REDUCED_MOTION;
-            if(!(mike !== zulu)) { _fun97499_ip = 97; continue _fun97499 }
+            if(!(mike !== zulu)) { _fun97509_ip = 97; continue _fun97509 }
  20:
             mike = _closure1_slot2;
             mike = mike.REDUCED_MOTION_STICKERS;
-            if(!(mike !== zulu)) { _fun97499_ip = 38; continue _fun97499 }
+            if(!(mike !== zulu)) { _fun97509_ip = 38; continue _fun97509 }
  34:
             mike = undefined;
             return mike;

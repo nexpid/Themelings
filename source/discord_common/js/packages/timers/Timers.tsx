@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'start';
         entity['key'] = mike;
         mike = function(argFoo, argBar) { // Original name: value
-            _fun52491: for(var _fun52491_ip = 0; ; ) switch(_fun52491_ip) {
+            _fun52498: for(var _fun52498_ip = 0; ; ) switch(_fun52498_ip) {
  0:
                 report = arguments[2];
                 zulu = this;
@@ -43,17 +43,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = argBar;
                 var _closure3_slot1 = entity;
                 entity = undefined;
-                if(!(report === entity)) { _fun52491_ip = 27; continue _fun52491 }
+                if(!(report === entity)) { _fun52498_ip = 27; continue _fun52498 }
  25:
                 report = true;
  27:
                 tango = zulu.isStarted;
                 tango = tango.bind(zulu)();
-                if(!tango) { _fun52491_ip = 43; continue _fun52491 }
+                if(!tango) { _fun52498_ip = 43; continue _fun52498 }
  40:
                 tango = !report;
  43:
-                if(tango) { _fun52491_ip = 89; continue _fun52491 }
+                if(tango) { _fun52498_ip = 89; continue _fun52498 }
  46:
                 tango = zulu.stop;
                 tango = tango.bind(zulu)();
@@ -83,12 +83,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'stop';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun52493: for(var _fun52493_ip = 0; ; ) switch(_fun52493_ip) {
+            _fun52500: for(var _fun52500_ip = 0; ; ) switch(_fun52500_ip) {
  0:
                 mike = this;
                 zulu = mike._ref;
                 entity = null;
-                if(!(entity != zulu)) { _fun52493_ip = 42; continue _fun52493 }
+                if(!(entity != zulu)) { _fun52500_ip = 42; continue _fun52500 }
  15:
                 zulu = global;
                 report = zulu.clearTimeout;
@@ -159,12 +159,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'delay';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun52498: for(var _fun52498_ip = 0; ; ) switch(_fun52498_ip) {
+            _fun52505: for(var _fun52505_ip = 0; ; ) switch(_fun52505_ip) {
  0:
                 oscar = arguments[0];
                 mike = this;
                 entity = undefined;
-                if(!(oscar === entity)) { _fun52498_ip = 14; continue _fun52498 }
+                if(!(oscar === entity)) { _fun52505_ip = 14; continue _fun52505 }
  12:
                 oscar = true;
  14:
@@ -243,12 +243,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'stop';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun52504: for(var _fun52504_ip = 0; ; ) switch(_fun52504_ip) {
+            _fun52511: for(var _fun52511_ip = 0; ; ) switch(_fun52511_ip) {
  0:
                 mike = this;
                 zulu = mike._ref;
                 entity = null;
-                if(!(entity != zulu)) { _fun52504_ip = 42; continue _fun52504 }
+                if(!(entity != zulu)) { _fun52511_ip = 42; continue _fun52511 }
  15:
                 zulu = global;
                 report = zulu.clearInterval;

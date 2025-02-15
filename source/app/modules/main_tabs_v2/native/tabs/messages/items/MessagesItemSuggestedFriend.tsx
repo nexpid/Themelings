@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     report = options.memo;
     tango = function(argFoo) { // Original name: MessagesItemSuggestedFriend
-        _fun114776: for(var _fun114776_ip = 0; ; ) switch(_fun114776_ip) {
+        _fun114782: for(var _fun114782_ip = 0; ; ) switch(_fun114782_ip) {
  0:
             zulu = argFoo;
             mike = zulu.height;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = report.bind(golf)(zulu, mike);
-            if(verify) { _fun114776_ip = 209; continue _fun114776 }
+            if(verify) { _fun114782_ip = 209; continue _fun114782 }
  206:
             verify = mike;
  209:
@@ -232,17 +232,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = backup;
             mike = function() {
-                _fun114781: for(var _fun114781_ip = 0; ; ) switch(_fun114781_ip) {
+                _fun114787: for(var _fun114787_ip = 0; ; ) switch(_fun114787_ip) {
  0:
                     mike = _closure2_slot2;
                     mike = mike.mutualFriendsCount;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun114781_ip = 35; continue _fun114781 }
+                    if(!(zulu != mike)) { _fun114787_ip = 35; continue _fun114787 }
  19:
                     mike = _closure2_slot2;
                     tango = mike.mutualFriendsCount;
                     mike = 0;
-                    if(!(!(tango > mike))) { _fun114781_ip = 82; continue _fun114781 }
+                    if(!(!(tango > mike))) { _fun114787_ip = 82; continue _fun114787 }
  35:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot2;
                     mike = mike.user;
                     oscar = tango.bind(report)(mike);
-                    _fun114781_ip = 159; continue _fun114781;
+                    _fun114787_ip = 159; continue _fun114787;
  82:
                     options = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -276,13 +276,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  159:
                     mike = _closure2_slot2;
                     mike = mike.friendSuggestionName;
-                    if(!(zulu != mike)) { _fun114781_ip = 194; continue _fun114781 }
+                    if(!(zulu != mike)) { _fun114787_ip = 194; continue _fun114787 }
  173:
                     mike = _closure2_slot2;
                     mike = mike.friendSuggestionName;
                     tango = mike.length;
                     mike = 0;
-                    if(!(!(tango > mike))) { _fun114781_ip = 241; continue _fun114781 }
+                    if(!(!(tango > mike))) { _fun114787_ip = 241; continue _fun114787 }
  194:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot2;
                     mike = mike.user;
                     mike = tango.bind(report)(mike);
-                    _fun114781_ip = 251; continue _fun114781;
+                    _fun114787_ip = 251; continue _fun114787;
  241:
                     tango = _closure2_slot2;
                     mike = tango.friendSuggestionName;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu != options;
                     report = '';
                     tango = report;
-                    if(!zulu) { _fun114781_ip = 332; continue _fun114781 }
+                    if(!zulu) { _fun114787_ip = 332; continue _fun114787 }
  308:
                     zulu = global;
                     zulu = zulu.HermesInternal;
@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(tango)(sizing);
             output = sizing.Text;
             sizing = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(!verify) { _fun114776_ip = 570; continue _fun114776 }
- 515:
+            if(!verify) { _fun114782_ip = 566; continue _fun114782 }
+ 511:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
             echo = 12;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.t;
             echo = echo.Kzyxm5;
             result = update.bind(source)(echo);
- 570:
+ 566:
             sizing['children'] = result;
             sizing = zulu.bind(tango)(output, sizing);
             foxtrot[1] = sizing;
@@ -473,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot9;
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot2;
-            if(verify) { _fun114776_ip = 708; continue _fun114776 }
- 613:
+            if(verify) { _fun114782_ip = 704; continue _fun114782 }
+ 609:
             verify = 19;
             verify = foxtrot[verify];
             verify = yankee.bind(tango)(verify);
@@ -493,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = sizing;
             verify['onPress'] = kilo;
             verify = romeo.bind(tango)(offset, verify);
-            _fun114776_ip = 745; continue _fun114776;
- 708:
+            _fun114782_ip = 741; continue _fun114782;
+ 704:
             offset = 20;
             offset = foxtrot[offset];
             offset = yankee.bind(tango)(offset);
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['marginHorizontal'] = backup;
             offset['style'] = foxtrot;
             verify = romeo.bind(tango)(yankee, offset);
- 745:
+ 741:
             options[2] = verify;
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);

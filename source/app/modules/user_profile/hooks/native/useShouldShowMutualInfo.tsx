@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/native/useShouldShowMutualInfo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldShowMutualInfo
-        _fun80055: for(var _fun80055_ip = 0; ; ) switch(_fun80055_ip) {
+        _fun80067: for(var _fun80067_ip = 0; ; ) switch(_fun80067_ip) {
  0:
             entity = argFoo;
             report = entity.user;
@@ -84,29 +84,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['location'] = options;
             entity = oscar.bind(golf)(entity);
-            if(!entity) { _fun80055_ip = 193; continue _fun80055 }
+            if(!entity) { _fun80067_ip = 193; continue _fun80067 }
  190:
             entity = report;
  193:
-            if(!entity) { _fun80055_ip = 218; continue _fun80055 }
+            if(!entity) { _fun80067_ip = 218; continue _fun80067 }
  196:
             report = null;
             report = report == mike;
             zulu = undefined;
-            if(report) { _fun80055_ip = 212; continue _fun80055 }
+            if(report) { _fun80067_ip = 212; continue _fun80067 }
  207:
             zulu = mike.length;
  212:
             mike = 0;
             entity = mike === zulu;
  218:
-            if(!entity) { _fun80055_ip = 241; continue _fun80055 }
+            if(!entity) { _fun80067_ip = 241; continue _fun80067 }
  221:
             mike = null;
             report = mike != tango;
             zulu = 0;
             mike = 0;
-            if(!report) { _fun80055_ip = 237; continue _fun80055 }
+            if(!report) { _fun80067_ip = 237; continue _fun80067 }
  234:
             mike = tango;
  237:

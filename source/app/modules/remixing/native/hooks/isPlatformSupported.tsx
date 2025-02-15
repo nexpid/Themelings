@@ -26,7 +26,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/remixing/native/hooks/isPlatformSupported.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun82032: for(var _fun82032_ip = 0; ; ) switch(_fun82032_ip) {
+        _fun82048: for(var _fun82048_ip = 0; ; ) switch(_fun82048_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -36,7 +36,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             tango = tango.bind(zulu)(mike);
             mike = tango.isIOS;
             mike = mike.bind(tango)();
-            if(!mike) { _fun82032_ip = 68; continue _fun82032 }
+            if(!mike) { _fun82048_ip = 68; continue _fun82048 }
  38:
             mike = global;
             mike = mike.Number;
@@ -44,7 +44,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = entity.Version;
             mike = mike.bind(zulu)(entity);
             entity = 13;
-            if(!(!(mike < entity))) { _fun82032_ip = 72; continue _fun82032 }
+            if(!(!(mike < entity))) { _fun82048_ip = 72; continue _fun82048 }
  68:
             entity = true;
             return entity;

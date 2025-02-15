@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun70849: for(var _fun70849_ip = 0; ; ) switch(_fun70849_ip) {
+        _fun70855: for(var _fun70855_ip = 0; ; ) switch(_fun70855_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun70849_ip = 51; continue _fun70849 }
+            if(entity) { _fun70855_ip = 51; continue _fun70855 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun70849_ip = 92; continue _fun70849;
+            _fun70855_ip = 92; continue _fun70855;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun70849_ip = 71; continue _fun70849 }
+            if(oscar) { _fun70855_ip = 71; continue _fun70855 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun70850: for(var _fun70850_ip = 0; ; ) switch(_fun70850_ip) {
+        _fun70856: for(var _fun70856_ip = 0; ; ) switch(_fun70856_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun70850_ip = 76; continue _fun70850;
+            _fun70856_ip = 76; continue _fun70856;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     yankee = function(argFoo) { // Original name: handleDismiss
-        _fun70853: for(var _fun70853_ip = 0; ; ) switch(_fun70853_ip) {
+        _fun70859: for(var _fun70859_ip = 0; ; ) switch(_fun70859_ip) {
  0:
             entity = argFoo;
             tango = entity.closeReason;
             mike = undefined;
-            if(!(tango === mike)) { _fun70853_ip = 50; continue _fun70853 }
+            if(!(tango === mike)) { _fun70859_ip = 50; continue _fun70859 }
  15:
             zulu = _closure1_slot0;
             report = _closure1_slot1;
@@ -243,11 +243,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'shouldShowPopup';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun70859: for(var _fun70859_ip = 0; ; ) switch(_fun70859_ip) {
+            _fun70865: for(var _fun70865_ip = 0; ; ) switch(_fun70865_ip) {
  0:
                 entity = _closure1_slot7;
                 entity = entity.show;
-                if(!entity) { _fun70859_ip = 64; continue _fun70859 }
+                if(!entity) { _fun70865_ip = 64; continue _fun70865 }
  16:
                 zulu = _closure1_slot7;
                 zulu = zulu.entrypoint;
@@ -270,11 +270,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'shouldShowModal';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun70860: for(var _fun70860_ip = 0; ; ) switch(_fun70860_ip) {
+            _fun70866: for(var _fun70866_ip = 0; ; ) switch(_fun70866_ip) {
  0:
                 entity = _closure1_slot7;
                 entity = entity.show;
-                if(!entity) { _fun70860_ip = 64; continue _fun70860 }
+                if(!entity) { _fun70866_ip = 64; continue _fun70866 }
  16:
                 zulu = _closure1_slot7;
                 zulu = zulu.entrypoint;

@@ -86,21 +86,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo, argBar) {
                 entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                    _fun78906: for(var _fun78906_ip = 0; ; ) switch(_fun78906_ip) {
+                    _fun78916: for(var _fun78916_ip = 0; ; ) switch(_fun78916_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun78906_ip = 271; continue _fun78906 }
+                        if(mike) { _fun78916_ip = 271; continue _fun78916 }
  10:
                         mike = _closure2_slot3;
                         tango = null;
-                        if(!(tango != mike)) { _fun78906_ip = 132; continue _fun78906 }
+                        if(!(tango != mike)) { _fun78916_ip = 132; continue _fun78916 }
  23:
                         mike = _closure2_slot3;
                         verify = mike.name;
                         options = mike.icon;
                         oscar = mike.template;
-                        if(!(tango != oscar)) { _fun78906_ip = 266; continue _fun78906 }
+                        if(!(tango != oscar)) { _fun78916_ip = 266; continue _fun78916 }
  50:
                         offset = _closure1_slot1;
                         report = _closure1_slot2;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  92:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun78906_ip = 263; continue _fun78906 }
+                        if(report) { _fun78916_ip = 263; continue _fun78916 }
  101:
                         zulu = _closure1_slot6;
                         report = zulu.prototype;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         _closure2_slot2 = zulu;
  132:
                         zulu = _closure2_slot2;
-                        if(!(tango != zulu)) { _fun78906_ip = 255; continue _fun78906 }
+                        if(!(tango != zulu)) { _fun78916_ip = 255; continue _fun78916 }
  140:
                         tango = _closure1_slot0;
                         verify = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  249:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun78906_ip = 260; continue _fun78906 }
+                        if(tango) { _fun78916_ip = 260; continue _fun78916 }
  255:
                         tango = undefined;
                         return tango;

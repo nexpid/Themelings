@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: InviteErrorBase
-        _fun93661: for(var _fun93661_ip = 0; ; ) switch(_fun93661_ip) {
+        _fun93686: for(var _fun93686_ip = 0; ; ) switch(_fun93686_ip) {
  0:
             mike = argFoo;
             entity = mike.invite;
@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)();
             mike = report.bind(options)(mike);
             options = _closure1_slot2;
-            if(mike) { _fun93661_ip = 107; continue _fun93661 }
+            if(mike) { _fun93686_ip = 107; continue _fun93686 }
  98:
             mike = 9;
             mike = options[mike];
-            _fun93661_ip = 114; continue _fun93661;
+            _fun93686_ip = 114; continue _fun93686;
  107:
             report = 8;
             mike = options[report];
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             options = kilo == golf;
             mike = undefined;
-            if(options) { _fun93661_ip = 161; continue _fun93661 }
+            if(options) { _fun93686_ip = 161; continue _fun93686 }
  156:
             mike = golf.code;
  161:
@@ -58,15 +58,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.state;
             entity = _closure1_slot7;
             entity = entity.BANNED;
-            if(!(mike !== entity)) { _fun93661_ip = 260; continue _fun93661 }
+            if(!(mike !== entity)) { _fun93686_ip = 260; continue _fun93686 }
  185:
             entity = kilo == sizing;
             yankee = undefined;
-            if(entity) { _fun93661_ip = 199; continue _fun93661 }
+            if(entity) { _fun93686_ip = 199; continue _fun93686 }
  194:
             yankee = sizing.description;
  199:
-            if(!(kilo == yankee)) { _fun93661_ip = 258; continue _fun93661 }
+            if(!(kilo == yankee)) { _fun93686_ip = 258; continue _fun93686 }
  203:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.FWkU6O;
             yankee = mike.bind(zulu)(entity);
  258:
-            _fun93661_ip = 315; continue _fun93661;
+            _fun93686_ip = 315; continue _fun93686;
  260:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -120,11 +120,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['style'] = backup;
             output = kilo == sizing;
             backup = undefined;
-            if(output) { _fun93661_ip = 432; continue _fun93661 }
+            if(output) { _fun93686_ip = 432; continue _fun93686 }
  427:
             backup = sizing.title;
  432:
-            if(!(kilo == backup)) { _fun93661_ip = 491; continue _fun93661 }
+            if(!(kilo == backup)) { _fun93686_ip = 491; continue _fun93686 }
  436:
             result = _closure1_slot0;
             echo = _closure1_slot2;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: InviteDisabledError
-        _fun93663: for(var _fun93663_ip = 0; ; ) switch(_fun93663_ip) {
+        _fun93688: for(var _fun93688_ip = 0; ; ) switch(_fun93688_ip) {
  0:
             mike = argFoo;
             entity = mike.invite;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.bind(report)();
             oscar = entity.guild;
             entity = null;
-            if(!(entity != oscar)) { _fun93663_ip = 655; continue _fun93663 }
+            if(!(entity != oscar)) { _fun93688_ip = 655; continue _fun93688 }
  48:
             update = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -429,17 +429,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/modals/InviteError.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InviteError
-        _fun93665: for(var _fun93665_ip = 0; ; ) switch(_fun93665_ip) {
+        _fun93690: for(var _fun93690_ip = 0; ; ) switch(_fun93690_ip) {
  0:
             mike = argFoo;
             entity = mike.inviteError;
             zulu = null;
-            if(!(zulu != entity)) { _fun93665_ip = 97; continue _fun93665 }
+            if(!(zulu != entity)) { _fun93690_ip = 97; continue _fun93690 }
  15:
             tango = entity.code;
             entity = _closure1_slot5;
             entity = entity.INVITES_DISABLED;
-            if(!(tango !== entity)) { _fun93665_ip = 67; continue _fun93665 }
+            if(!(tango !== entity)) { _fun93690_ip = 67; continue _fun93690 }
  37:
             oscar = _closure1_slot8;
             report = _closure1_slot13;
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = copyDataProperties(options, golf);
             entity = undefined;
             entity = oscar.bind(entity)(report, tango);
-            _fun93665_ip = 95; continue _fun93665;
+            _fun93690_ip = 95; continue _fun93690;
  67:
             oscar = _closure1_slot8;
             report = _closure1_slot14;
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             entity = oscar.bind(zulu)(report, tango);
  95:
-            _fun93665_ip = 128; continue _fun93665;
+            _fun93690_ip = 128; continue _fun93690;
  97:
             report = _closure1_slot8;
             tango = _closure1_slot13;

@@ -86,7 +86,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.ACCOUNT;
     mike['parent'] = tango;
     tango = function() { // Original name: getAccountUsernameSettingCanNavigate
-        _fun94204: for(var _fun94204_ip = 0; ; ) switch(_fun94204_ip) {
+        _fun94229: for(var _fun94229_ip = 0; ; ) switch(_fun94229_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.getCurrentUser;
@@ -105,25 +105,25 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = zulu.getPomeloEligibility;
             zulu = mike.bind(zulu)();
             mike = null;
-            if(!(mike != tango)) { _fun94204_ip = 293; continue _fun94204 }
+            if(!(mike != tango)) { _fun94229_ip = 293; continue _fun94229 }
  79:
             mike = tango.isClaimed;
             mike = mike.bind(tango)();
             mike = !mike;
-            if(!zulu) { _fun94204_ip = 121; continue _fun94204 }
+            if(!zulu) { _fun94229_ip = 121; continue _fun94229 }
  95:
             zulu = tango.isPomelo;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun94204_ip = 121; continue _fun94204 }
+            if(zulu) { _fun94229_ip = 121; continue _fun94229 }
  108:
             zulu = tango.hasVerifiedEmailOrPhone;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun94204_ip = 175; continue _fun94204 }
+            if(!zulu) { _fun94229_ip = 175; continue _fun94229 }
  121:
-            if(mike) { _fun94204_ip = 175; continue _fun94204 }
+            if(mike) { _fun94229_ip = 175; continue _fun94229 }
  124:
             entity = !entity;
-            if(entity) { _fun94204_ip = 173; continue _fun94204 }
+            if(entity) { _fun94229_ip = 173; continue _fun94229 }
  130:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -136,7 +136,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             entity = false;
  173:
-            _fun94204_ip = 291; continue _fun94204;
+            _fun94229_ip = 291; continue _fun94229;
  175:
             golf = _closure1_slot1;
             offset = _closure1_slot2;
@@ -174,7 +174,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['preNavigationAction'] = tango;
     tango = function() { // Original name: useAccountUsernameSettingTrailing
-        _fun94205: for(var _fun94205_ip = 0; ; ) switch(_fun94205_ip) {
+        _fun94230: for(var _fun94230_ip = 0; ; ) switch(_fun94230_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
@@ -212,7 +212,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             };
             yankee = tango.bind(oscar)(zulu, entity);
             entity = yankee;
-            if(!mike) { _fun94205_ip = 292; continue _fun94205 }
+            if(!mike) { _fun94230_ip = 292; continue _fun94230 }
  96:
             tango = _closure1_slot7;
             zulu = _closure1_slot3;
@@ -265,7 +265,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['useTrailing'] = tango;
     tango = function() { // Original name: useAccountUsernameSettingDescription
-        _fun94207: for(var _fun94207_ip = 0; ; ) switch(_fun94207_ip) {
+        _fun94232: for(var _fun94232_ip = 0; ; ) switch(_fun94232_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -278,19 +278,19 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = null;
             tango = entity == zulu;
             oscar = undefined;
-            if(tango) { _fun94207_ip = 67; continue _fun94207 }
+            if(tango) { _fun94232_ip = 67; continue _fun94232 }
  46:
             tango = zulu.nick;
             zulu = entity == tango;
             oscar = undefined;
-            if(zulu) { _fun94207_ip = 67; continue _fun94207 }
+            if(zulu) { _fun94232_ip = 67; continue _fun94232 }
  61:
             zulu = 0;
             oscar = tango[zulu];
  67:
             zulu = entity == oscar;
             entity = null;
-            if(zulu) { _fun94207_ip = 129; continue _fun94207 }
+            if(zulu) { _fun94232_ip = 129; continue _fun94232 }
  76:
             tango = _closure1_slot6;
             zulu = _closure1_slot0;

@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = report;
     report = options.memo;
     tango = function(argFoo) { // Original name: MessagesItemSuggestedFriendsHeader
-        _fun114904: for(var _fun114904_ip = 0; ; ) switch(_fun114904_ip) {
+        _fun114910: for(var _fun114910_ip = 0; ; ) switch(_fun114910_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.stickyAt;
@@ -107,12 +107,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = zulu.bind(tango)(mike);
             zulu = report.useDerivedValue;
             mike = function() { // Original name: x
-                _fun114905: for(var _fun114905_ip = 0; ; ) switch(_fun114905_ip) {
+                _fun114911: for(var _fun114911_ip = 0; ; ) switch(_fun114911_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun114905_ip = 37; continue _fun114905 }
+                    if(!entity) { _fun114911_ip = 37; continue _fun114911 }
  16:
                     tango = _closure2_slot1;
                     zulu = tango.get;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.headerContainer;
             entity['style'] = golf;
             golf = null;
-            if(!report) { _fun114904_ip = 324; continue _fun114904 }
+            if(!report) { _fun114910_ip = 324; continue _fun114910 }
  220:
             offset = _closure1_slot7;
             options = _closure1_slot6;

@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     golf = 'function computeCardBorderRadius_computeCardBorderRadiusTsx1({id:id,mode:mode,focused:focused,isSelf:isSelf}){const{VoicePanelModes,DEFAULT_BORDER_RADIUS_PIP,DEFAULT_BORDER_RADIUS}=this.__closure;if(mode===VoicePanelModes.PANEL){if(focused!=null){if(focused===id){return 0;}else if(isSelf){return DEFAULT_BORDER_RADIUS_PIP;}}return DEFAULT_BORDER_RADIUS;}if(mode===VoicePanelModes.PIP){return DEFAULT_BORDER_RADIUS_PIP;}return DEFAULT_BORDER_RADIUS;}';
     tango['code'] = golf;
     mike = function(argFoo) { // Original name: o
-        _fun122076: for(var _fun122076_ip = 0; ; ) switch(_fun122076_ip) {
+        _fun122082: for(var _fun122082_ip = 0; ; ) switch(_fun122082_ip) {
  0:
             entity = argFoo;
             tango = entity.id;
@@ -34,25 +34,25 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = entity.isSelf;
             report = _closure1_slot0;
             report = report.PANEL;
-            if(!(oscar !== report)) { _fun122076_ip = 68; continue _fun122076 }
+            if(!(oscar !== report)) { _fun122082_ip = 68; continue _fun122082 }
  42:
             report = _closure1_slot0;
             report = report.PIP;
-            if(!(oscar !== report)) { _fun122076_ip = 62; continue _fun122076 }
+            if(!(oscar !== report)) { _fun122082_ip = 62; continue _fun122082 }
  56:
             report = _closure1_slot1;
-            _fun122076_ip = 66; continue _fun122076;
+            _fun122082_ip = 66; continue _fun122082;
  62:
             report = _closure1_slot2;
  66:
             return report;
  68:
             report = null;
-            if(!(report != zulu)) { _fun122076_ip = 81; continue _fun122076 }
+            if(!(report != zulu)) { _fun122082_ip = 81; continue _fun122082 }
  74:
-            if(!(zulu !== tango)) { _fun122076_ip = 93; continue _fun122076 }
+            if(!(zulu !== tango)) { _fun122082_ip = 93; continue _fun122082 }
  78:
-            if(mike) { _fun122076_ip = 87; continue _fun122076 }
+            if(mike) { _fun122082_ip = 87; continue _fun122082 }
  81:
             mike = _closure1_slot1;
             return mike;

@@ -35,7 +35,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/creator_monetization_eligibility/guild_settings/useIsMFAEnabled.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useIsMFAEnabled
-        _fun126800: for(var _fun126800_ip = 0; ; ) switch(_fun126800_ip) {
+        _fun126796: for(var _fun126796_ip = 0; ; ) switch(_fun126796_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = {};
             oscar = null;
             oscar = oscar == tango;
-            if(oscar) { _fun126800_ip = 113; continue _fun126800 }
+            if(oscar) { _fun126796_ip = 113; continue _fun126796 }
  107:
             report = tango.mfaEnabled;
  113:

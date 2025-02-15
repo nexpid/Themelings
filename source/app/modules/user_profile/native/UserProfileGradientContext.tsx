@@ -56,14 +56,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['UserProfileGradientContextProvider'] = tango;
     mike = function() { // Original name: useUserProfileGradientContext
-        _fun77413: for(var _fun77413_ip = 0; ; ) switch(_fun77413_ip) {
+        _fun77423: for(var _fun77423_ip = 0; ; ) switch(_fun77423_ip) {
  0:
             zulu = _closure1_slot0;
             mike = zulu.useContext;
             entity = _closure1_slot2;
             entity = mike.bind(zulu)(entity);
             mike = undefined;
-            if(!(mike !== entity)) { _fun77413_ip = 30; continue _fun77413 }
+            if(!(mike !== entity)) { _fun77423_ip = 30; continue _fun77423 }
  28:
             return entity;
  30:

@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['useSafetyHubClassifications'] = tango;
     tango = function(argFoo) { // Original name: useSafetyHubClassification
-        _fun92510: for(var _fun92510_ip = 0; ; ) switch(_fun92510_ip) {
+        _fun92539: for(var _fun92539_ip = 0; ; ) switch(_fun92539_ip) {
  0:
             backup = argFoo;
             var _closure2_slot0 = backup;
@@ -157,17 +157,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(options)(mike);
             mike = yankee.isGuildClassification;
             mike = mike.bind(yankee)(golf);
-            if(mike) { _fun92510_ip = 256; continue _fun92510 }
+            if(mike) { _fun92539_ip = 256; continue _fun92539 }
  244:
             mike = _closure1_slot6;
             mike = mike.USER;
-            _fun92510_ip = 340; continue _fun92510;
+            _fun92539_ip = 340; continue _fun92539;
  256:
             yankee = golf.guild_metadata;
             romeo = null;
             foxtrot = romeo == yankee;
             romeo = undefined;
-            if(foxtrot) { _fun92510_ip = 279; continue _fun92510 }
+            if(foxtrot) { _fun92539_ip = 279; continue _fun92539 }
  273:
             romeo = yankee.member_type;
  279:
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(options)(yankee);
             yankee = yankee.MemberType;
             yankee = yankee.OWNER;
-            if(!(romeo !== yankee)) { _fun92510_ip = 327; continue _fun92510 }
+            if(!(romeo !== yankee)) { _fun92539_ip = 327; continue _fun92539 }
  315:
             yankee = _closure1_slot6;
             yankee = yankee.GUILD_MEMBER;
-            _fun92510_ip = 337; continue _fun92510;
+            _fun92539_ip = 337; continue _fun92539;
  327:
             romeo = _closure1_slot6;
             yankee = romeo.GUILD_OWNER;
@@ -196,18 +196,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[1] = golf;
             yankee[2] = offset;
             entity = function() {
-                _fun92515: for(var _fun92515_ip = 0; ; ) switch(_fun92515_ip) {
+                _fun92544: for(var _fun92544_ip = 0; ; ) switch(_fun92544_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = undefined;
                     zulu = entity === zulu;
-                    if(!zulu) { _fun92515_ip = 26; continue _fun92515 }
+                    if(!zulu) { _fun92544_ip = 26; continue _fun92544 }
  16:
                     report = _closure2_slot2;
                     tango = null;
                     zulu = tango == report;
  26:
-                    if(!zulu) { _fun92515_ip = 67; continue _fun92515 }
+                    if(!zulu) { _fun92544_ip = 67; continue _fun92544 }
  29:
                     tango = _closure1_slot2;
                     report = _closure1_slot3;
@@ -226,18 +226,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['classification'] = golf;
             entity['classificationRequestState'] = offset;
             entity['isDsaEligible'] = oscar;
-            if(!zulu) { _fun92510_ip = 404; continue _fun92510 }
+            if(!zulu) { _fun92539_ip = 404; continue _fun92539 }
  398:
             oscar = null;
             zulu = oscar != golf;
  404:
-            if(!zulu) { _fun92510_ip = 419; continue _fun92510 }
+            if(!zulu) { _fun92539_ip = 419; continue _fun92539 }
  407:
             offset = golf.appeal_status;
             oscar = null;
             zulu = oscar == offset;
  419:
-            if(!zulu) { _fun92510_ip = 462; continue _fun92510 }
+            if(!zulu) { _fun92539_ip = 462; continue _fun92539 }
  422:
             oscar = _closure1_slot0;
             tango = _closure1_slot3;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.isGuildClassification;
             tango = tango.bind(oscar)(golf);
             tango = !tango;
-            if(tango) { _fun92510_ip = 459; continue _fun92510 }
+            if(tango) { _fun92539_ip = 459; continue _fun92539 }
  456:
             tango = report;
  459:

@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/form_fields/TextInputField.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TextInputField
-        _fun88831: for(var _fun88831_ip = 0; ; ) switch(_fun88831_ip) {
+        _fun88848: for(var _fun88848_ip = 0; ; ) switch(_fun88848_ip) {
  0:
             mike = argFoo;
             entity = mike.field;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             foxtrot = yankee != romeo;
             yankee = '';
-            if(!foxtrot) { _fun88831_ip = 202; continue _fun88831 }
+            if(!foxtrot) { _fun88848_ip = 202; continue _fun88848 }
  199:
             yankee = romeo;
  202:

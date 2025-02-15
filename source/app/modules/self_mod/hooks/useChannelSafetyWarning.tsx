@@ -61,22 +61,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.find;
         entity = function(argFoo) {
-            _fun89546: for(var _fun89546_ip = 0; ; ) switch(_fun89546_ip) {
+            _fun89563: for(var _fun89563_ip = 0; ; ) switch(_fun89563_ip) {
  0:
                 tango = argFoo;
                 entity = tango.dismiss_timestamp;
                 zulu = null;
                 entity = zulu == entity;
-                if(!entity) { _fun89546_ip = 87; continue _fun89546 }
+                if(!entity) { _fun89563_ip = 87; continue _fun89563 }
  18:
                 report = zulu == tango;
                 mike = undefined;
-                if(report) { _fun89546_ip = 33; continue _fun89546 }
+                if(report) { _fun89563_ip = 33; continue _fun89563 }
  27:
                 mike = tango.expiry;
  33:
                 mike = zulu == mike;
-                if(mike) { _fun89546_ip = 84; continue _fun89546 }
+                if(mike) { _fun89563_ip = 84; continue _fun89563 }
  40:
                 zulu = global;
                 oscar = zulu.Date;

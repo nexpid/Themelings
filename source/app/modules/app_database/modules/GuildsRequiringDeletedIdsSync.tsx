@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun60878: for(var _fun60878_ip = 0; ; ) switch(_fun60878_ip) {
+                _fun60881: for(var _fun60881_ip = 0; ; ) switch(_fun60881_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun60878_ip = 153; continue _fun60878 }
+                    if(mike) { _fun60881_ip = 153; continue _fun60881 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = zulu.guildsRequiringDeletedIdsSync;
                     zulu = mike.bind(zulu)();
                     mike = null;
-                    if(!(mike != zulu)) { _fun60878_ip = 122; continue _fun60878 }
+                    if(!(mike != zulu)) { _fun60881_ip = 122; continue _fun60881 }
  51:
                     mike = zulu.getMany;
                     mike = mike.bind(zulu)();
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  65:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun60878_ip = 119; continue _fun60878 }
+                    if(zulu) { _fun60881_ip = 119; continue _fun60881 }
  71:
                     zulu = global;
                     report = zulu.Set;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'handleConnectionOpen';
         report['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun60881: for(var _fun60881_ip = 0; ; ) switch(_fun60881_ip) {
+            _fun60884: for(var _fun60884_ip = 0; ; ) switch(_fun60884_ip) {
  0:
                 mike = argFoo;
                 tango = mike.guilds;
@@ -169,61 +169,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = argFoo;
                     entity = entity.unableToSyncDeletes;
                     return entity;
-                };
-                zulu = zulu.bind(tango)(mike);
-                mike = zulu.map;
-                entity = function(argFoo) {
-                    entity = {};
-                    mike = argFoo;
-                    mike = mike.id;
-                    entity['id'] = mike;
-                    return entity;
-                };
-                zulu = mike.bind(zulu)(entity);
-                mike = zulu.length;
-                entity = 0;
-                if(!(mike > entity)) { _fun60881_ip = 102; continue _fun60881 }
- 52:
-                tango = _closure1_slot0;
-                mike = _closure1_slot1;
-                entity = 3;
-                mike = mike[entity];
-                entity = undefined;
-                tango = tango.bind(entity)(mike);
-                mike = tango.guildsRequiringDeletedIdsSyncTransaction;
-                entity = argBar;
-                mike = mike.bind(tango)(entity);
-                entity = mike.putAll;
-                entity = entity.bind(mike)(zulu);
- 102:
-                entity = undefined;
-                return entity;
-            }
-        };
-        report['value'] = golf;
-        entity[1] = report;
-        report = {};
-        golf = 'handleBackgroundSync';
-        report['key'] = golf;
-        golf = function(argFoo, argBar) { // Original name: value
-            _fun60884: for(var _fun60884_ip = 0; ; ) switch(_fun60884_ip) {
- 0:
-                mike = argFoo;
-                tango = mike.guilds;
-                zulu = tango.filter;
-                mike = function(argFoo) {
-                    _fun60885: for(var _fun60885_ip = 0; ; ) switch(_fun60885_ip) {
- 0:
-                        mike = argFoo;
-                        zulu = mike.data_mode;
-                        entity = 'partial';
-                        entity = entity === zulu;
-                        if(!entity) { _fun60885_ip = 26; continue _fun60885 }
- 20:
-                        entity = mike.unableToSyncDeletes;
- 26:
-                        return entity;
-                    }
                 };
                 zulu = zulu.bind(tango)(mike);
                 mike = zulu.map;
@@ -256,17 +201,72 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             }
         };
         report['value'] = golf;
+        entity[1] = report;
+        report = {};
+        golf = 'handleBackgroundSync';
+        report['key'] = golf;
+        golf = function(argFoo, argBar) { // Original name: value
+            _fun60887: for(var _fun60887_ip = 0; ; ) switch(_fun60887_ip) {
+ 0:
+                mike = argFoo;
+                tango = mike.guilds;
+                zulu = tango.filter;
+                mike = function(argFoo) {
+                    _fun60888: for(var _fun60888_ip = 0; ; ) switch(_fun60888_ip) {
+ 0:
+                        mike = argFoo;
+                        zulu = mike.data_mode;
+                        entity = 'partial';
+                        entity = entity === zulu;
+                        if(!entity) { _fun60888_ip = 26; continue _fun60888 }
+ 20:
+                        entity = mike.unableToSyncDeletes;
+ 26:
+                        return entity;
+                    }
+                };
+                zulu = zulu.bind(tango)(mike);
+                mike = zulu.map;
+                entity = function(argFoo) {
+                    entity = {};
+                    mike = argFoo;
+                    mike = mike.id;
+                    entity['id'] = mike;
+                    return entity;
+                };
+                zulu = mike.bind(zulu)(entity);
+                mike = zulu.length;
+                entity = 0;
+                if(!(mike > entity)) { _fun60887_ip = 102; continue _fun60887 }
+ 52:
+                tango = _closure1_slot0;
+                mike = _closure1_slot1;
+                entity = 3;
+                mike = mike[entity];
+                entity = undefined;
+                tango = tango.bind(entity)(mike);
+                mike = tango.guildsRequiringDeletedIdsSyncTransaction;
+                entity = argBar;
+                mike = mike.bind(tango)(entity);
+                entity = mike.putAll;
+                entity = entity.bind(mike)(zulu);
+ 102:
+                entity = undefined;
+                return entity;
+            }
+        };
+        report['value'] = golf;
         entity[2] = report;
         report = {};
         golf = 'handleGuildCreate';
         report['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun60887: for(var _fun60887_ip = 0; ; ) switch(_fun60887_ip) {
+            _fun60890: for(var _fun60890_ip = 0; ; ) switch(_fun60890_ip) {
  0:
                 entity = argFoo;
                 tango = entity.guild;
                 entity = tango.unableToSyncDeletes;
-                if(!entity) { _fun60887_ip = 78; continue _fun60887 }
+                if(!entity) { _fun60890_ip = 78; continue _fun60890 }
  17:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;

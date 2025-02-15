@@ -96,13 +96,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike['WHITE'] = oscar;
     oscar = verify.forwardRef;
     report = function(argFoo, argBar) {
-        _fun63734: for(var _fun63734_ip = 0; ; ) switch(_fun63734_ip) {
+        _fun63739: for(var _fun63739_ip = 0; ; ) switch(_fun63739_ip) {
  0:
             entity = argFoo;
             report = entity.children;
             offset = entity.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun63734_ip = 32; continue _fun63734 }
+            if(!(offset === tango)) { _fun63739_ip = 32; continue _fun63739 }
  19:
             mike = _closure1_slot4;
             offset = mike.MEDIUM;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = offset;
             offset = null;
-            if(!(offset == options)) { _fun63734_ip = 112; continue _fun63734 }
+            if(!(offset == options)) { _fun63739_ip = 112; continue _fun63739 }
  106:
             options = verify.primary;
  112:

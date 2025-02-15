@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/Emoji.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun62394: for(var _fun62394_ip = 0; ; ) switch(_fun62394_ip) {
+        _fun62399: for(var _fun62399_ip = 0; ; ) switch(_fun62399_ip) {
  0:
             entity = argFoo;
             mike = entity.src;
@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
             romeo = mike;
-            if(!entity) { _fun62394_ip = 117; continue _fun62394 }
+            if(!entity) { _fun62399_ip = 117; continue _fun62399 }
  77:
             entity = null;
             romeo = mike;
-            if(!(entity == romeo)) { _fun62394_ip = 117; continue _fun62394 }
+            if(!(entity == romeo)) { _fun62399_ip = 117; continue _fun62399 }
  86:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -77,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot3;
             entity = {};
             entity['style'] = golf;
-            if(report) { _fun62394_ip = 293; continue _fun62394 }
+            if(report) { _fun62399_ip = 294; continue _fun62399 }
  137:
             report = null;
-            if(!(report != romeo)) { _fun62394_ip = 293; continue _fun62394 }
+            if(!(report != romeo)) { _fun62399_ip = 294; continue _fun62399 }
  146:
             report = '';
-            if(!(report !== romeo)) { _fun62394_ip = 293; continue _fun62394 }
+            if(!(report !== romeo)) { _fun62399_ip = 294; continue _fun62399 }
  157:
             options = _closure1_slot5;
             golf = _closure1_slot1;
@@ -105,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.bind(backup)(yankee);
             backup = _closure1_slot1;
             kilo = _closure1_slot2;
-            if(yankee) { _fun62394_ip = 258; continue _fun62394 }
+            if(yankee) { _fun62399_ip = 258; continue _fun62399 }
  244:
             yankee = 10;
             yankee = kilo[yankee];
             yankee = backup.bind(tango)(yankee);
-            _fun62394_ip = 270; continue _fun62394;
+            _fun62399_ip = 270; continue _fun62399;
  258:
             foxtrot = 9;
             foxtrot = kilo[foxtrot];
@@ -121,8 +121,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['uri'] = romeo;
             report['source'] = yankee;
             report = options.bind(tango)(golf, report);
-            _fun62394_ip = 346; continue _fun62394;
- 293:
+            _fun62399_ip = 347; continue _fun62399;
+ 294:
             options = _closure1_slot5;
             golf = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['allowFontScaling'] = offset;
             oscar['children'] = verify;
             report = options.bind(tango)(golf, oscar);
- 346:
+ 347:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;

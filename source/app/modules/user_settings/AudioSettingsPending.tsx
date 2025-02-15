@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['updatePendingSettings'] = tango;
     mike = function(argFoo) { // Original name: drainPendingAudioSettings
-        _fun105758: for(var _fun105758_ip = 0; ; ) switch(_fun105758_ip) {
+        _fun105750: for(var _fun105750_ip = 0; ; ) switch(_fun105750_ip) {
  0:
             yankee = argFoo;
             verify = _closure1_slot1;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = _closure1_slot1;
                 romeo = romeo[kilo];
                 romeo = yankee.bind(entity)(backup, foxtrot, romeo);
-                _fun105758_ip = 28; continue _fun105758;
+                _fun105750_ip = 28; continue _fun105750;
             }
  84:
             mike = {};

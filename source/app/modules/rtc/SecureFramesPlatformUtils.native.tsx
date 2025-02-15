@@ -68,12 +68,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openSecureFramesStreamVerification'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: openSecureFramesUserVerificationModal
-        _fun80916: for(var _fun80916_ip = 0; ; ) switch(_fun80916_ip) {
+        _fun80928: for(var _fun80928_ip = 0; ; ) switch(_fun80928_ip) {
  0:
             mike = argBaz;
             entity = undefined;
             mike = mike.bind(entity)();
-            if(!mike) { _fun80916_ip = 102; continue _fun80916 }
+            if(!mike) { _fun80928_ip = 102; continue _fun80928 }
  12:
             report = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -102,14 +102,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openSecureFramesUserVerificationModal'] = golf;
     golf = function(argFoo) { // Original name: openSecureFramesUpdateConfirmation
-        _fun80917: for(var _fun80917_ip = 0; ; ) switch(_fun80917_ip) {
+        _fun80929: for(var _fun80929_ip = 0; ; ) switch(_fun80929_ip) {
  0:
             zulu = argFoo;
             offset = zulu.title;
             verify = zulu.subtitle;
             golf = zulu.confirmText;
             entity = undefined;
-            if(!(golf === entity)) { _fun80917_ip = 86; continue _fun80917 }
+            if(!(golf === entity)) { _fun80929_ip = 86; continue _fun80929 }
  28:
             options = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -157,10 +157,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(zulu);
             zulu = tango.then;
             mike = function(argFoo) {
-                _fun80918: for(var _fun80918_ip = 0; ; ) switch(_fun80918_ip) {
+                _fun80930: for(var _fun80930_ip = 0; ; ) switch(_fun80930_ip) {
  0:
                     entity = argFoo;
-                    if(!entity) { _fun80918_ip = 19; continue _fun80918 }
+                    if(!entity) { _fun80930_ip = 19; continue _fun80930 }
  6:
                     mike = _closure2_slot0;
                     entity = undefined;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openSecureFramesUpdateConfirmation'] = golf;
     tango = function(argFoo) { // Original name: handleSecureFramesUserVerificationLink
-        _fun80919: for(var _fun80919_ip = 0; ; ) switch(_fun80919_ip) {
+        _fun80931: for(var _fun80931_ip = 0; ; ) switch(_fun80931_ip) {
  0:
             entity = argFoo;
             offset = entity.userId;
@@ -191,18 +191,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = zulu == tango;
             entity = undefined;
             options = undefined;
-            if(report) { _fun80919_ip = 68; continue _fun80919 }
+            if(report) { _fun80931_ip = 68; continue _fun80931 }
  58:
             report = tango.getGuildId;
             options = report.bind(tango)();
  68:
-            if(!(zulu == options)) { _fun80919_ip = 76; continue _fun80919 }
+            if(!(zulu == options)) { _fun80931_ip = 76; continue _fun80931 }
  72:
             options = _closure1_slot8;
  76:
-            if(!(zulu != verify)) { _fun80919_ip = 87; continue _fun80919 }
+            if(!(zulu != verify)) { _fun80931_ip = 87; continue _fun80931 }
  80:
-            if(!(zulu == tango)) { _fun80919_ip = 228; continue _fun80919 }
+            if(!(zulu == tango)) { _fun80931_ip = 228; continue _fun80931 }
  87:
             tango = _closure1_slot1;
             backup = _closure1_slot2;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = yankee.bind(romeo)(oscar);
             zulu['body'] = oscar;
             zulu = tango.bind(report)(zulu);
-            _fun80919_ip = 351; continue _fun80919;
+            _fun80931_ip = 351; continue _fun80931;
  228:
             report = _closure1_slot1;
             zulu = _closure1_slot2;

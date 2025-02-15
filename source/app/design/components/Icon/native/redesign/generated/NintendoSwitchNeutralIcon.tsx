@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/NintendoSwitchNeutralIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91230: for(var _fun91230_ip = 0; ; ) switch(_fun91230_ip) {
+        _fun91259: for(var _fun91259_ip = 0; ; ) switch(_fun91259_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun91230_ip = 53; continue _fun91230 }
+            if(!(golf === tango)) { _fun91259_ip = 53; continue _fun91259 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

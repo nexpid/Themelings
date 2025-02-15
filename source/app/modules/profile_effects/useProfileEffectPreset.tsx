@@ -60,16 +60,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = golf;
         zulu[1] = oscar;
         mike = function() {
-            _fun77227: for(var _fun77227_ip = 0; ; ) switch(_fun77227_ip) {
+            _fun77237: for(var _fun77237_ip = 0; ; ) switch(_fun77237_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity == zulu;
-                if(entity) { _fun77227_ip = 20; continue _fun77227 }
+                if(entity) { _fun77237_ip = 20; continue _fun77237 }
  16:
                 entity = _closure2_slot1;
  20:
-                if(entity) { _fun77227_ip = 61; continue _fun77227 }
+                if(entity) { _fun77237_ip = 61; continue _fun77237 }
  23:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;

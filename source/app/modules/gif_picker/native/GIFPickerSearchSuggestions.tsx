@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GIFPickerSearchSuggestions
-        _fun84853: for(var _fun84853_ip = 0; ; ) switch(_fun84853_ip) {
+        _fun84869: for(var _fun84869_ip = 0; ; ) switch(_fun84869_ip) {
  0:
             entity = argFoo;
             entity = entity.onClickSuggestion;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun84853_ip = 288; continue _fun84853 }
+            if(!(mike !== zulu)) { _fun84869_ip = 288; continue _fun84869 }
  95:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;

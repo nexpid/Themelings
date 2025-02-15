@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = options.bind(verify)(golf);
     var _closure1_slot10 = golf;
     golf = function(argFoo) { // Original name: GuildBoostingGuildListItem
-        _fun96134: for(var _fun96134_ip = 0; ; ) switch(_fun96134_ip) {
+        _fun96144: for(var _fun96144_ip = 0; ; ) switch(_fun96144_ip) {
  0:
             entity = argFoo;
             entity = entity.guildId;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = zulu.bind(tango)(mike, entity);
             entity = null;
             mike = entity == yankee;
-            if(mike) { _fun96134_ip = 569; continue _fun96134 }
+            if(mike) { _fun96144_ip = 569; continue _fun96144 }
  109:
             tango = _closure1_slot9;
             options = _closure1_slot1;
@@ -253,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/GuildBoostingGuildList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun96137: for(var _fun96137_ip = 0; ; ) switch(_fun96137_ip) {
+        _fun96147: for(var _fun96147_ip = 0; ; ) switch(_fun96147_ip) {
  0:
             entity = argFoo;
             verify = entity.guildCount;
             tango = undefined;
-            if(!(verify === tango)) { _fun96137_ip = 24; continue _fun96137 }
+            if(!(verify === tango)) { _fun96147_ip = 24; continue _fun96147 }
  17:
             verify = _closure1_slot7;
  24:

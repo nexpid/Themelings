@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/MicrophoneIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun80831: for(var _fun80831_ip = 0; ; ) switch(_fun80831_ip) {
+        _fun80843: for(var _fun80843_ip = 0; ; ) switch(_fun80843_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun80831_ip = 53; continue _fun80831 }
+            if(!(golf === tango)) { _fun80843_ip = 53; continue _fun80843 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

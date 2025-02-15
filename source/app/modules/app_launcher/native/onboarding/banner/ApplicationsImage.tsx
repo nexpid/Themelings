@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/app_launcher/native/onboarding/banner/ApplicationsImage.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ApplicationsImage
-        _fun118448: for(var _fun118448_ip = 0; ; ) switch(_fun118448_ip) {
+        _fun118454: for(var _fun118454_ip = 0; ; ) switch(_fun118454_ip) {
  0:
             entity = argFoo;
             golf = entity.firstApplication;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity != golf;
             options = null;
-            if(!mike) { _fun118448_ip = 70; continue _fun118448 }
+            if(!mike) { _fun118454_ip = 70; continue _fun118454 }
  39:
             zulu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  70:
             mike = entity != oscar;
             golf = null;
-            if(!mike) { _fun118448_ip = 110; continue _fun118448 }
+            if(!mike) { _fun118454_ip = 110; continue _fun118454 }
  79:
             zulu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = mike.bind(zulu)(oscar);
  110:
             verify = entity != options;
-            if(!verify) { _fun118448_ip = 163; continue _fun118448 }
+            if(!verify) { _fun118454_ip = 163; continue _fun118454 }
  117:
             oscar = _closure1_slot4;
             zulu = _closure1_slot1;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar.bind(tango)(zulu, mike);
  163:
             oscar = entity != golf;
-            if(!oscar) { _fun118448_ip = 216; continue _fun118448 }
+            if(!oscar) { _fun118454_ip = 216; continue _fun118454 }
  170:
             zulu = _closure1_slot4;
             mike = _closure1_slot1;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: PremiumGiftDurationButton
-        _fun88021: for(var _fun88021_ip = 0; ; ) switch(_fun88021_ip) {
+        _fun88038: for(var _fun88038_ip = 0; ; ) switch(_fun88038_ip) {
  0:
             entity = argFoo;
             oscar = entity.selected;
@@ -29,13 +29,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = entity.bind(tango)();
             zulu = _closure1_slot0;
             report = _closure1_slot2;
-            if(oscar) { _fun88021_ip = 111; continue _fun88021 }
+            if(oscar) { _fun88038_ip = 111; continue _fun88038 }
  91:
             entity = 8;
             entity = report[entity];
             entity = zulu.bind(tango)(entity);
             golf = entity.RowButton;
-            _fun88021_ip = 129; continue _fun88021;
+            _fun88038_ip = 129; continue _fun88038;
  111:
             entity = 7;
             entity = report[entity];
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.YEAR;
             output = null;
             papa = null;
-            if(!(control === entity)) { _fun88021_ip = 178; continue _fun88021 }
+            if(!(control === entity)) { _fun88038_ip = 178; continue _fun88038 }
  147:
             offset = _closure1_slot4;
             entity = global;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = source.container;
             report = new Array(2);
             report[0] = offset;
-            if(!oscar) { _fun88021_ip = 236; continue _fun88021 }
+            if(!oscar) { _fun88038_ip = 236; continue _fun88038 }
  230:
             oscar = source.containerSelected;
  236:
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['variant'] = foxtrot;
             update = _closure1_slot5;
             update = update.MONTH;
-            if(!(control !== update)) { _fun88021_ip = 388; continue _fun88021 }
+            if(!(control !== update)) { _fun88038_ip = 388; continue _fun88038 }
  331:
             sequence = _closure1_slot0;
             config = _closure1_slot2;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = update.t;
             update = update.DRgqMj;
             update = control.bind(vacuum)(update);
-            _fun88021_ip = 443; continue _fun88021;
+            _fun88038_ip = 443; continue _fun88038;
  388:
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(2);
             sizing[0] = result;
             output = output != papa;
-            if(!output) { _fun88021_ip = 616; continue _fun88021 }
+            if(!output) { _fun88038_ip = 616; continue _fun88038 }
  471:
             update = _closure1_slot6;
             echo = _closure1_slot3;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumGiftDuration.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumGiftDuration
-        _fun88023: for(var _fun88023_ip = 0; ; ) switch(_fun88023_ip) {
+        _fun88040: for(var _fun88040_ip = 0; ; ) switch(_fun88040_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = options;
             control = null;
             options = control != source;
-            if(!options) { _fun88023_ip = 434; continue _fun88023 }
+            if(!options) { _fun88040_ip = 434; continue _fun88040 }
  199:
             yankee = _closure1_slot7;
             offset = _closure1_slot3;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = sizing.qGQDio;
             sizing = {};
             update = source.globalName;
-            if(!(control == update)) { _fun88023_ip = 400; continue _fun88023 }
+            if(!(control == update)) { _fun88040_ip = 400; continue _fun88040 }
  395:
             update = source.username;
  400:

@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_member_verification/canReviewGuildMemberApplications.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: canReviewGuildMemberApplications
-        _fun81458: for(var _fun81458_ip = 0; ; ) switch(_fun81458_ip) {
+        _fun81470: for(var _fun81470_ip = 0; ; ) switch(_fun81470_ip) {
  0:
             tango = _closure1_slot2;
             mike = tango.getGuild;
@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike.bind(tango)(entity);
             entity = null;
             entity = entity != oscar;
-            if(!entity) { _fun81458_ip = 82; continue _fun81458 }
+            if(!entity) { _fun81470_ip = 82; continue _fun81470 }
  29:
             tango = oscar.hasFeature;
             mike = _closure1_slot4;
             mike = mike.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             mike = tango.bind(oscar)(mike);
-            if(!mike) { _fun81458_ip = 79; continue _fun81458 }
+            if(!mike) { _fun81470_ip = 79; continue _fun81470 }
  53:
             report = _closure1_slot3;
             tango = report.can;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['canReviewGuildMemberApplications'] = tango;
     mike = function(argFoo) { // Original name: useCanReviewGuildMemberApplications
-        _fun81459: for(var _fun81459_ip = 0; ; ) switch(_fun81459_ip) {
+        _fun81471: for(var _fun81471_ip = 0; ; ) switch(_fun81471_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             entity = entity.KICK_MEMBERS;
             zulu = zulu.bind(oscar)(entity, tango);
-            if(zulu) { _fun81459_ip = 119; continue _fun81459 }
+            if(zulu) { _fun81471_ip = 119; continue _fun81471 }
  93:
             golf = _closure1_slot3;
             oscar = golf.can;
@@ -103,18 +103,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  119:
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun81459_ip = 149; continue _fun81459 }
+            if(!entity) { _fun81471_ip = 149; continue _fun81471 }
  128:
             golf = tango.hasFeature;
             oscar = _closure1_slot4;
             oscar = oscar.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             entity = golf.bind(tango)(oscar);
  149:
-            if(!entity) { _fun81459_ip = 155; continue _fun81459 }
+            if(!entity) { _fun81471_ip = 155; continue _fun81471 }
  152:
             entity = zulu;
  155:
-            if(!entity) { _fun81459_ip = 189; continue _fun81459 }
+            if(!entity) { _fun81471_ip = 189; continue _fun81471 }
  158:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

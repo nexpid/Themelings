@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['LoginHandoffSource'] = tango;
     mike = function(argFoo) { // Original name: getLoginHandoffSourceFromRedirectTo
-        _fun81537: for(var _fun81537_ip = 0; ; ) switch(_fun81537_ip) {
+        _fun81549: for(var _fun81549_ip = 0; ; ) switch(_fun81549_ip) {
  0:
             entity = global;
             zulu = entity.decodeURIComponent;
@@ -55,12 +55,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.tryParseChannelPath;
             zulu = zulu.bind(report)(tango);
             report = null;
-            if(!(report != zulu)) { _fun81537_ip = 77; continue _fun81537 }
+            if(!(report != zulu)) { _fun81549_ip = 77; continue _fun81549 }
  58:
             report = zulu.channelId;
             zulu = _closure1_slot4;
             zulu = zulu.ROLE_SUBSCRIPTIONS;
-            if(!(report !== zulu)) { _fun81537_ip = 127; continue _fun81537 }
+            if(!(report !== zulu)) { _fun81549_ip = 127; continue _fun81549 }
  77:
             golf = _closure1_slot2;
             oscar = golf.SETTINGS;
@@ -69,12 +69,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = 'role-subscriptions';
             zulu = oscar.bind(golf)(report, zulu);
             entity = undefined;
-            if(!(tango === zulu)) { _fun81537_ip = 125; continue _fun81537 }
+            if(!(tango === zulu)) { _fun81549_ip = 125; continue _fun81549 }
  115:
             zulu = _closure1_slot5;
             entity = zulu.ROLE_SUBSCRIPTION_SETTING;
  125:
-            _fun81537_ip = 137; continue _fun81537;
+            _fun81549_ip = 137; continue _fun81549;
  127:
             mike = _closure1_slot5;
             entity = mike.ROLE_SUBSCRIPTION;

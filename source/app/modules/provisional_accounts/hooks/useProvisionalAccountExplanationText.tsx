@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun101684: for(var _fun101684_ip = 0; ; ) switch(_fun101684_ip) {
+            _fun101676: for(var _fun101676_ip = 0; ; ) switch(_fun101676_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity == mike)) { _fun101684_ip = 120; continue _fun101684 }
+                if(!(entity == mike)) { _fun101676_ip = 120; continue _fun101676 }
  13:
                 mike = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = oscar.bind(golf)(report);
                 entity['helpdeskArticle'] = report;
                 entity = zulu.bind(tango)(mike, entity);
-                _fun101684_ip = 239; continue _fun101684;
+                _fun101676_ip = 239; continue _fun101676;
  120:
                 zulu = _closure1_slot0;
                 offset = _closure1_slot2;

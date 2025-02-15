@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_products/GuildProductSystemMessageUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getGuildProductPurchaseSystemMessageContentMobile
-        _fun72322: for(var _fun72322_ip = 0; ; ) switch(_fun72322_ip) {
+        _fun72328: for(var _fun72328_ip = 0; ; ) switch(_fun72328_ip) {
  0:
             entity = argFoo;
             golf = entity.username;
             oscar = entity.usernameOnClickHandler;
             options = undefined;
-            if(!(oscar === options)) { _fun72322_ip = 27; continue _fun72322 }
+            if(!(oscar === options)) { _fun72328_ip = 27; continue _fun72328 }
  20:
             oscar = _closure1_slot2;
  27:

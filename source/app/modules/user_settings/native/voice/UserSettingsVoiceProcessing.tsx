@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: VoiceProcessingOptions
-        _fun97092: for(var _fun97092_ip = 0; ; ) switch(_fun97092_ip) {
+        _fun97102: for(var _fun97102_ip = 0; ; ) switch(_fun97102_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.noiseCancellationSupported;
             romeo = mike.noiseCancellation;
             foxtrot = mike.noiseSuppression;
-            if(entity) { _fun97092_ip = 241; continue _fun97092 }
+            if(entity) { _fun97102_ip = 241; continue _fun97102 }
  82:
             zulu = _closure1_slot6;
             offset = _closure1_slot0;
@@ -196,15 +196,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['subLabel'] = oscar;
             entity['value'] = foxtrot;
             tango = function(argFoo) { // Original name: onValueChange
-                _fun97094: for(var _fun97094_ip = 0; ; ) switch(_fun97094_ip) {
+                _fun97104: for(var _fun97104_ip = 0; ; ) switch(_fun97104_ip) {
  0:
                     zulu = _closure1_slot13;
                     entity = _closure1_slot10;
                     mike = argFoo;
-                    if(mike) { _fun97094_ip = 25; continue _fun97094 }
+                    if(mike) { _fun97104_ip = 25; continue _fun97104 }
  17:
                     mike = entity.NONE;
-                    _fun97094_ip = 31; continue _fun97094;
+                    _fun97104_ip = 31; continue _fun97104;
  25:
                     mike = entity.STANDARD;
  31:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['onValueChange'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun97092_ip = 743; continue _fun97092;
+            _fun97102_ip = 743; continue _fun97102;
  241:
             tango = _closure1_slot8;
             zulu = _closure1_slot7;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             verify['label'] = backup;
             romeo = !romeo;
-            if(!romeo) { _fun97092_ip = 647; continue _fun97092 }
+            if(!romeo) { _fun97102_ip = 647; continue _fun97102 }
  644:
             romeo = !foxtrot;
  647:
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = 'modules/user_settings/native/voice/UserSettingsVoiceProcessing.tsx';
     options = verify.bind(offset)(options);
     golf = function() { // Original name: UserSettingsVoiceProcessing
-        _fun97095: for(var _fun97095_ip = 0; ; ) switch(_fun97095_ip) {
+        _fun97105: for(var _fun97105_ip = 0; ; ) switch(_fun97105_ip) {
  0:
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {};
             verify = foxtrot.bind(tango)(romeo, verify);
             report[6] = verify;
-            if(!oscar) { _fun97095_ip = 702; continue _fun97095 }
+            if(!oscar) { _fun97105_ip = 702; continue _fun97105 }
  554:
             verify = _closure1_slot6;
             kilo = _closure1_slot0;

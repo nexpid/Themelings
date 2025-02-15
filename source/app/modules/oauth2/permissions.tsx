@@ -1164,7 +1164,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.some;
         entity = function(argFoo) {
-            _fun73845: for(var _fun73845_ip = 0; ; ) switch(_fun73845_ip) {
+            _fun73855: for(var _fun73855_ip = 0; ; ) switch(_fun73855_ip) {
  0:
                 tango = argFoo;
                 report = _closure1_slot1;
@@ -1176,7 +1176,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = report.has;
                 entity = _closure2_slot0;
                 entity = zulu.bind(report)(entity, tango);
-                if(!entity) { _fun73845_ip = 66; continue _fun73845 }
+                if(!entity) { _fun73855_ip = 66; continue _fun73855 }
  49:
                 zulu = _closure1_slot4;
                 mike = zulu.includes;
@@ -1191,7 +1191,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['containsDisallowedPermission'] = tango;
     mike = function(argFoo) { // Original name: getPermissionName
-        _fun73846: for(var _fun73846_ip = 0; ; ) switch(_fun73846_ip) {
+        _fun73856: for(var _fun73856_ip = 0; ; ) switch(_fun73856_ip) {
  0:
             tango = argFoo;
             entity = tango.toString;
@@ -1199,7 +1199,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             mike = entity[mike];
             entity = null;
-            if(!(entity != mike)) { _fun73846_ip = 37; continue _fun73846 }
+            if(!(entity != mike)) { _fun73856_ip = 37; continue _fun73856 }
  29:
             entity = undefined;
             entity = mike.bind(entity)();

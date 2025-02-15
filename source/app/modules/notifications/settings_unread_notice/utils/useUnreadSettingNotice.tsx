@@ -105,25 +105,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[2] = mike;
         report[3] = zulu;
         mike = function() {
-            _fun89508: for(var _fun89508_ip = 0; ; ) switch(_fun89508_ip) {
+            _fun89525: for(var _fun89525_ip = 0; ; ) switch(_fun89525_ip) {
  0:
                 report = _closure1_slot5;
                 tango = report.has;
                 mike = _closure2_slot0;
                 mike = mike.type;
                 mike = tango.bind(report)(mike);
-                if(!mike) { _fun89508_ip = 49; continue _fun89508 }
+                if(!mike) { _fun89525_ip = 49; continue _fun89525 }
  32:
                 report = _closure2_slot2;
                 tango = _closure2_slot0;
                 tango = tango.id;
                 mike = report !== tango;
  49:
-                if(!mike) { _fun89508_ip = 56; continue _fun89508 }
+                if(!mike) { _fun89525_ip = 56; continue _fun89525 }
  52:
                 mike = _closure2_slot1;
  56:
-                if(!mike) { _fun89508_ip = 103; continue _fun89508 }
+                if(!mike) { _fun89525_ip = 103; continue _fun89525 }
  59:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.id;
                 mike = tango.bind(report)(zulu);
  103:
-                if(!mike) { _fun89508_ip = 126; continue _fun89508 }
+                if(!mike) { _fun89525_ip = 126; continue _fun89525 }
  106:
                 zulu = _closure2_slot3;
                 entity = _closure2_slot0;

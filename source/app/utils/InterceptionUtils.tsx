@@ -11,13 +11,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = '__esModule';
     entity = report.bind(golf)(zulu, entity, mike);
     mike = function(argFoo) { // Original name: resolveThunk
-        _fun63813: for(var _fun63813_ip = 0; ; ) switch(_fun63813_ip) {
+        _fun63818: for(var _fun63818_ip = 0; ; ) switch(_fun63818_ip) {
  0:
             zulu = argFoo;
             tango = 'function';
             mike = typeof zulu;
             entity = zulu;
-            if(!(tango === mike)) { _fun63813_ip = 23; continue _fun63813 }
+            if(!(tango === mike)) { _fun63818_ip = 23; continue _fun63818 }
  17:
             mike = undefined;
             entity = zulu.bind(mike)();
@@ -33,18 +33,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = report.bind(entity)(golf);
     report = golf.curry;
     tango = function(argFoo, argBar, argBaz) {
-        _fun63814: for(var _fun63814_ip = 0; ; ) switch(_fun63814_ip) {
+        _fun63819: for(var _fun63819_ip = 0; ; ) switch(_fun63819_ip) {
  0:
             tango = argBaz;
             mike = _closure1_slot0;
             zulu = undefined;
             entity = argBar;
             entity = mike.bind(zulu)(entity);
-            if(entity) { _fun63814_ip = 32; continue _fun63814 }
+            if(entity) { _fun63819_ip = 32; continue _fun63819 }
  23:
             entity = {};
             entity = tango.bind(zulu)(entity);
-            _fun63814_ip = 40; continue _fun63814;
+            _fun63819_ip = 40; continue _fun63819;
  32:
             mike = argFoo;
             entity = mike.bind(zulu)(tango);

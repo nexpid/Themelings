@@ -9,22 +9,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getDefaultPermissionsForChannel
-        _fun60227: for(var _fun60227_ip = 0; ; ) switch(_fun60227_ip) {
+        _fun60230: for(var _fun60230_ip = 0; ; ) switch(_fun60230_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike != entity)) { _fun60227_ip = 40; continue _fun60227 }
+            if(!(mike != entity)) { _fun60230_ip = 40; continue _fun60230 }
  9:
             zulu = _closure1_slot5;
             tango = zulu.GUILD_VOCAL;
             zulu = tango.has;
             entity = entity.type;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun60227_ip = 55; continue _fun60227 }
+            if(entity) { _fun60230_ip = 55; continue _fun60230 }
  40:
             entity = _closure1_slot6;
             entity = entity.VIEW_CHANNEL;
-            _fun60227_ip = 109; continue _fun60227;
+            _fun60230_ip = 109; continue _fun60230;
  55:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = _closure1_slot4;
         mike[1] = report;
         entity = function() {
-            _fun60229: for(var _fun60229_ip = 0; ; ) switch(_fun60229_ip) {
+            _fun60232: for(var _fun60232_ip = 0; ; ) switch(_fun60232_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getChannel;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = golf.isChannelGated;
                 entity = _closure2_slot0;
                 entity = zulu.bind(golf)(entity, options);
-                if(entity) { _fun60229_ip = 90; continue _fun60229 }
+                if(entity) { _fun60232_ip = 90; continue _fun60232 }
  58:
                 zulu = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useCanChannelBeDefault'] = tango;
     mike = function(argFoo, argBar) { // Original name: canChannelBeDefault
-        _fun60230: for(var _fun60230_ip = 0; ; ) switch(_fun60230_ip) {
+        _fun60233: for(var _fun60233_ip = 0; ; ) switch(_fun60233_ip) {
  0:
             golf = argBar;
             zulu = _closure1_slot7;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.isChannelGated;
             entity = argFoo;
             entity = zulu.bind(tango)(entity, golf);
-            if(entity) { _fun60230_ip = 99; continue _fun60230 }
+            if(entity) { _fun60233_ip = 99; continue _fun60233 }
  53:
             tango = _closure1_slot1;
             options = _closure1_slot2;

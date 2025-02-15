@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = tango;
     var _closure1_slot2 = options;
     report = function() { // Original name: activityInstanceConnectedParticipants
-        _fun109509: for(var _fun109509_ip = 0; ; ) switch(_fun109509_ip) {
+        _fun109515: for(var _fun109515_ip = 0; ; ) switch(_fun109515_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.getCurrentEmbeddedActivity;
             zulu = zulu.bind(tango)();
             tango = null;
-            if(!(tango != zulu)) { _fun109509_ip = 168; continue _fun109509 }
+            if(!(tango != zulu)) { _fun109515_ip = 168; continue _fun109515 }
  28:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -38,14 +38,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = options.from;
             zulu = zulu.userIds;
             mike = function(argFoo) {
-                _fun109510: for(var _fun109510_ip = 0; ; ) switch(_fun109510_ip) {
+                _fun109516: for(var _fun109516_ip = 0; ; ) switch(_fun109516_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getUser;
                     entity = argFoo;
                     oscar = mike.bind(zulu)(entity);
                     tango = null;
-                    if(!(tango == oscar)) { _fun109510_ip = 31; continue _fun109510 }
+                    if(!(tango == oscar)) { _fun109516_ip = 31; continue _fun109516 }
  27:
                     entity = undefined;
                     return entity;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo = entity;
                     report = copyDataProperties(romeo, yankee);
                     tango = tango != mike;
-                    if(!tango) { _fun109510_ip = 117; continue _fun109510 }
+                    if(!tango) { _fun109516_ip = 117; continue _fun109516 }
  114:
                     zulu = mike;
  117:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['scope'] = tango;
     oscar = function() { // Original name: handler
         entity = function(argFoo) {
-            _fun109512: for(var _fun109512_ip = 0; ; ) switch(_fun109512_ip) {
+            _fun109518: for(var _fun109518_ip = 0; ; ) switch(_fun109518_ip) {
  0:
                 entity = argFoo;
                 oscar = entity.prevState;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(mike)(tango);
                 tango = report.isEqual;
                 tango = tango.bind(report)(entity, oscar);
-                if(tango) { _fun109512_ip = 67; continue _fun109512 }
+                if(tango) { _fun109518_ip = 67; continue _fun109518 }
  62:
                 mike = zulu.bind(mike)(entity);
  67:

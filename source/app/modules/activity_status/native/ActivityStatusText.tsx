@@ -40,14 +40,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/activity_status/native/ActivityStatusText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityStatusText
-        _fun79710: for(var _fun79710_ip = 0; ; ) switch(_fun79710_ip) {
+        _fun79723: for(var _fun79723_ip = 0; ; ) switch(_fun79723_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.children;
             options = zulu.style;
             verify = zulu.variant;
             tango = undefined;
-            if(!(verify === tango)) { _fun79710_ip = 28; continue _fun79710 }
+            if(!(verify === tango)) { _fun79723_ip = 28; continue _fun79723 }
  24:
             verify = 'text-xs/medium';
  28:

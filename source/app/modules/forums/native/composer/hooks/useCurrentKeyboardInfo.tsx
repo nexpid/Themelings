@@ -32,7 +32,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/forums/native/composer/hooks/useCurrentKeyboardInfo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useCurrentKeyboardInfo
-        _fun87404: for(var _fun87404_ip = 0; ; ) switch(_fun87404_ip) {
+        _fun87421: for(var _fun87421_ip = 0; ; ) switch(_fun87421_ip) {
  0:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -73,32 +73,32 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             options = golf.customKeyboardHeight;
             golf = _closure1_slot4;
             golf = golf.SYSTEM;
-            if(!(tango !== golf)) { _fun87404_ip = 182; continue _fun87404 }
+            if(!(tango !== golf)) { _fun87421_ip = 182; continue _fun87421 }
  127:
             golf = _closure1_slot4;
             golf = golf.MEDIA;
             verify = tango === golf;
-            if(verify) { _fun87404_ip = 158; continue _fun87404 }
+            if(verify) { _fun87421_ip = 158; continue _fun87421 }
  144:
             report = _closure1_slot4;
             report = report.EXPRESSION;
             verify = tango === report;
  158:
-            if(!verify) { _fun87404_ip = 167; continue _fun87404 }
+            if(!verify) { _fun87421_ip = 167; continue _fun87421 }
  161:
             report = 0;
             verify = options > report;
  167:
             golf = null;
             report = 0;
-            if(!verify) { _fun87404_ip = 196; continue _fun87404 }
+            if(!verify) { _fun87421_ip = 196; continue _fun87421 }
  174:
             golf = tango;
             report = options;
-            _fun87404_ip = 196; continue _fun87404;
+            _fun87421_ip = 196; continue _fun87421;
  182:
             options = null;
-            if(!mike) { _fun87404_ip = 190; continue _fun87404 }
+            if(!mike) { _fun87421_ip = 190; continue _fun87421 }
  187:
             options = tango;
  190:
@@ -110,7 +110,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             report = null;
             golf = report == golf;
             report = 0;
-            if(!golf) { _fun87404_ip = 217; continue _fun87404 }
+            if(!golf) { _fun87421_ip = 217; continue _fun87421 }
  214:
             report = oscar;
  217:

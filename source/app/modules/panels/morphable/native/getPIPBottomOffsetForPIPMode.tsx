@@ -21,26 +21,26 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     options = "function getPIPBottomOffsetForPIPMode_getPIPBottomOffsetForPIPModeTsx1(screenName){const{DEFAULT_CHANNEL_INPUT_HEIGHT,PIP_WINDOW_OFFSET,PIP_AVOIDANCE_TAB_BAR_HEIGHT}=this.__closure;switch(screenName){case'panels':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'channel':return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;case'messages':case'notifications':case'main_tab':case'guilds':return PIP_AVOIDANCE_TAB_BAR_HEIGHT+PIP_WINDOW_OFFSET;default:return 0;}}";
     report['code'] = options;
     tango = function(argFoo) { // Original name: _
-        _fun120604: for(var _fun120604_ip = 0; ; ) switch(_fun120604_ip) {
+        _fun120610: for(var _fun120610_ip = 0; ; ) switch(_fun120610_ip) {
  0:
             mike = argFoo;
             entity = 'panels';
-            if(!(entity !== mike)) { _fun120604_ip = 75; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 75; continue _fun120610 }
  13:
             entity = 'channel';
-            if(!(entity !== mike)) { _fun120604_ip = 75; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 75; continue _fun120610 }
  21:
             entity = 'messages';
-            if(!(entity !== mike)) { _fun120604_ip = 59; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 59; continue _fun120610 }
  29:
             entity = 'notifications';
-            if(!(entity !== mike)) { _fun120604_ip = 59; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 59; continue _fun120610 }
  37:
             entity = 'main_tab';
-            if(!(entity !== mike)) { _fun120604_ip = 59; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 59; continue _fun120610 }
  47:
             entity = 'guilds';
-            if(!(entity !== mike)) { _fun120604_ip = 59; continue _fun120604 }
+            if(!(entity !== mike)) { _fun120610_ip = 59; continue _fun120610 }
  55:
             entity = 0;
             return entity;

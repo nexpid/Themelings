@@ -71,18 +71,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         mike[1] = report;
         entity = function() {
-            _fun89541: for(var _fun89541_ip = 0; ; ) switch(_fun89541_ip) {
+            _fun89558: for(var _fun89558_ip = 0; ; ) switch(_fun89558_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun89541_ip = 63; continue _fun89541 }
+                if(!entity) { _fun89558_ip = 63; continue _fun89558 }
  16:
                 oscar = _closure1_slot2;
                 report = oscar.isMessageRequest;
                 mike = _closure2_slot0;
                 mike = report.bind(oscar)(mike);
-                if(mike) { _fun89541_ip = 60; continue _fun89541 }
+                if(mike) { _fun89558_ip = 60; continue _fun89558 }
  41:
                 report = _closure1_slot3;
                 tango = report.isSpam;

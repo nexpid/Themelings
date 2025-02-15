@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsMessageUnreadGuildActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsMessageUnreadGuildActionSheet
-        _fun86891: for(var _fun86891_ip = 0; ; ) switch(_fun86891_ip) {
+        _fun86908: for(var _fun86908_ip = 0; ; ) switch(_fun86908_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot4;
             verify = golf.ALL_MESSAGES;
             golf = undefined;
-            if(!(offset === verify)) { _fun86891_ip = 155; continue _fun86891 }
+            if(!(offset === verify)) { _fun86908_ip = 155; continue _fun86908 }
  100:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['disabledMentionOnlyWithReason'] = golf;
             entity['value'] = oscar;
             report = function(argFoo) { // Original name: onChange
-                _fun86892: for(var _fun86892_ip = 0; ; ) switch(_fun86892_ip) {
+                _fun86909: for(var _fun86909_ip = 0; ; ) switch(_fun86909_ip) {
  0:
                     options = argFoo;
                     report = _closure1_slot3;
@@ -117,11 +117,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = offset.withGuildUnreadFlags;
                     golf = _closure1_slot5;
                     golf = golf.ALL_MESSAGES;
-                    if(!(options !== golf)) { _fun86892_ip = 116; continue _fun86892 }
+                    if(!(options !== golf)) { _fun86909_ip = 116; continue _fun86909 }
  104:
                     golf = _closure1_slot6;
                     golf = golf.UNREADS_ONLY_MENTIONS;
-                    _fun86892_ip = 126; continue _fun86892;
+                    _fun86909_ip = 126; continue _fun86909;
  116:
                     romeo = _closure1_slot6;
                     golf = romeo.UNREADS_ALL_MESSAGES;

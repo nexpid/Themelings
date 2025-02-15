@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: SafetyPolicyNoticeEmbedInner
-        _fun72007: for(var _fun72007_ip = 0; ; ) switch(_fun72007_ip) {
+        _fun72013: for(var _fun72013_ip = 0; ; ) switch(_fun72013_ip) {
  0:
             mike = argFoo;
             mike = mike.embed;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu == options;
             report = undefined;
             tango = undefined;
-            if(oscar) { _fun72007_ip = 47; continue _fun72007 }
+            if(oscar) { _fun72013_ip = 47; continue _fun72013 }
  30:
             golf = options.find;
             oscar = function(argFoo) {
@@ -32,26 +32,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  47:
             golf = zulu != tango;
             oscar = undefined;
-            if(!golf) { _fun72007_ip = 59; continue _fun72007 }
+            if(!golf) { _fun72013_ip = 59; continue _fun72013 }
  56:
             oscar = tango;
  59:
             golf = zulu == oscar;
             tango = undefined;
-            if(golf) { _fun72007_ip = 74; continue _fun72007 }
+            if(golf) { _fun72013_ip = 74; continue _fun72013 }
  68:
             tango = oscar.rawValue;
  74:
             golf = zulu != tango;
             oscar = undefined;
-            if(!golf) { _fun72007_ip = 86; continue _fun72007 }
+            if(!golf) { _fun72013_ip = 86; continue _fun72013 }
  83:
             oscar = tango;
  86:
             golf = mike.fields;
             tango = zulu == golf;
             mike = undefined;
-            if(tango) { _fun72007_ip = 118; continue _fun72007 }
+            if(tango) { _fun72013_ip = 118; continue _fun72013 }
  101:
             tango = golf.find;
             entity = function(argFoo) {
@@ -66,18 +66,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  118:
             tango = zulu != mike;
             entity = undefined;
-            if(!tango) { _fun72007_ip = 130; continue _fun72007 }
+            if(!tango) { _fun72013_ip = 130; continue _fun72013 }
  127:
             entity = mike;
  130:
             mike = zulu == entity;
             kilo = undefined;
-            if(mike) { _fun72007_ip = 173; continue _fun72007 }
+            if(mike) { _fun72013_ip = 173; continue _fun72013 }
  139:
             mike = entity.rawValue;
             mike = zulu == mike;
             kilo = undefined;
-            if(mike) { _fun72007_ip = 173; continue _fun72007 }
+            if(mike) { _fun72013_ip = 173; continue _fun72013 }
  154:
             mike = global;
             mike = mike.parseFloat;
@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  173:
             mike = zulu == oscar;
             entity = null;
-            if(mike) { _fun72007_ip = 504; continue _fun72007 }
+            if(mike) { _fun72013_ip = 504; continue _fun72013 }
  185:
             mike = zulu == kilo;
             entity = null;
-            if(mike) { _fun72007_ip = 504; continue _fun72007 }
+            if(mike) { _fun72013_ip = 504; continue _fun72013 }
  197:
             tango = _closure1_slot6;
             zulu = _closure1_slot8;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/embeds/SafetyPolicyNoticeEmbed.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SafetyPolicyNoticeEmbed
-        _fun72011: for(var _fun72011_ip = 0; ; ) switch(_fun72011_ip) {
+        _fun72017: for(var _fun72017_ip = 0; ; ) switch(_fun72017_ip) {
  0:
             entity = argFoo;
             oscar = entity.message;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             mike = options == entity;
             entity = null;
-            if(mike) { _fun72011_ip = 137; continue _fun72011 }
+            if(mike) { _fun72017_ip = 137; continue _fun72017 }
  25:
             mike = oscar.embeds;
             golf = 0;
@@ -244,26 +244,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = options == zulu;
             report = undefined;
             mike = undefined;
-            if(tango) { _fun72011_ip = 54; continue _fun72011 }
+            if(tango) { _fun72017_ip = 54; continue _fun72017 }
  48:
             mike = zulu.fields;
  54:
             mike = options == mike;
             entity = null;
-            if(mike) { _fun72011_ip = 137; continue _fun72011 }
+            if(mike) { _fun72017_ip = 137; continue _fun72017 }
  63:
             mike = oscar.embeds;
             mike = mike[golf];
             zulu = options == mike;
             tango = undefined;
-            if(zulu) { _fun72011_ip = 87; continue _fun72011 }
+            if(zulu) { _fun72017_ip = 87; continue _fun72017 }
  82:
             tango = mike.type;
  87:
             zulu = _closure1_slot4;
             zulu = zulu.SAFETY_POLICY_NOTICE;
             entity = null;
-            if(!(tango === zulu)) { _fun72011_ip = 137; continue _fun72011 }
+            if(!(tango === zulu)) { _fun72017_ip = 137; continue _fun72017 }
  106:
             tango = _closure1_slot6;
             zulu = _closure1_slot9;
@@ -278,12 +278,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createSafetyPolicyNoticeEmbed
-        _fun72012: for(var _fun72012_ip = 0; ; ) switch(_fun72012_ip) {
+        _fun72018: for(var _fun72018_ip = 0; ; ) switch(_fun72018_ip) {
  0:
             mike = argFoo;
             tango = mike.embeds;
             entity = null;
-            if(!(entity != tango)) { _fun72012_ip = 276; continue _fun72012 }
+            if(!(entity != tango)) { _fun72018_ip = 276; continue _fun72018 }
  20:
             report = mike.embeds;
             tango = 0;
@@ -291,30 +291,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity == oscar;
             golf = undefined;
             report = undefined;
-            if(options) { _fun72012_ip = 49; continue _fun72012 }
+            if(options) { _fun72018_ip = 49; continue _fun72018 }
  43:
             report = oscar.fields;
  49:
-            if(!(entity != report)) { _fun72012_ip = 276; continue _fun72012 }
+            if(!(entity != report)) { _fun72018_ip = 276; continue _fun72018 }
  56:
             report = mike.embeds;
             report = report[tango];
             options = entity == report;
             oscar = undefined;
-            if(options) { _fun72012_ip = 80; continue _fun72012 }
+            if(options) { _fun72018_ip = 80; continue _fun72018 }
  75:
             oscar = report.type;
  80:
             report = _closure1_slot4;
             report = report.SAFETY_POLICY_NOTICE;
-            if(!(oscar === report)) { _fun72012_ip = 276; continue _fun72012 }
+            if(!(oscar === report)) { _fun72018_ip = 276; continue _fun72018 }
  100:
             mike = mike.embeds;
             tango = mike[tango];
             options = tango.fields;
             mike = entity == options;
             report = undefined;
-            if(mike) { _fun72012_ip = 142; continue _fun72012 }
+            if(mike) { _fun72018_ip = 142; continue _fun72018 }
  125:
             oscar = options.find;
             mike = function(argFoo) {
@@ -329,26 +329,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  142:
             oscar = entity != report;
             mike = undefined;
-            if(!oscar) { _fun72012_ip = 154; continue _fun72012 }
+            if(!oscar) { _fun72018_ip = 154; continue _fun72018 }
  151:
             mike = report;
  154:
             oscar = entity == mike;
             report = undefined;
-            if(oscar) { _fun72012_ip = 169; continue _fun72012 }
+            if(oscar) { _fun72018_ip = 169; continue _fun72018 }
  163:
             report = mike.rawValue;
  169:
             oscar = entity != report;
             mike = undefined;
-            if(!oscar) { _fun72012_ip = 181; continue _fun72012 }
+            if(!oscar) { _fun72018_ip = 181; continue _fun72018 }
  178:
             mike = report;
  181:
             oscar = tango.fields;
             report = entity == oscar;
             tango = undefined;
-            if(report) { _fun72012_ip = 213; continue _fun72012 }
+            if(report) { _fun72018_ip = 213; continue _fun72018 }
  196:
             report = oscar.find;
             zulu = function(argFoo) {
@@ -363,27 +363,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  213:
             report = entity != tango;
             zulu = undefined;
-            if(!report) { _fun72012_ip = 225; continue _fun72012 }
+            if(!report) { _fun72018_ip = 225; continue _fun72018 }
  222:
             zulu = tango;
  225:
             tango = entity == zulu;
             romeo = undefined;
-            if(tango) { _fun72012_ip = 268; continue _fun72012 }
+            if(tango) { _fun72018_ip = 268; continue _fun72018 }
  234:
             tango = zulu.rawValue;
             tango = entity == tango;
             romeo = undefined;
-            if(tango) { _fun72012_ip = 268; continue _fun72012 }
+            if(tango) { _fun72018_ip = 268; continue _fun72018 }
  249:
             tango = global;
             tango = tango.parseFloat;
             zulu = zulu.rawValue;
             romeo = tango.bind(golf)(zulu);
  268:
-            if(!(entity != mike)) { _fun72012_ip = 276; continue _fun72012 }
+            if(!(entity != mike)) { _fun72018_ip = 276; continue _fun72018 }
  272:
-            if(!(entity == romeo)) { _fun72012_ip = 280; continue _fun72012 }
+            if(!(entity == romeo)) { _fun72018_ip = 280; continue _fun72018 }
  276:
             entity = undefined;
             return entity;

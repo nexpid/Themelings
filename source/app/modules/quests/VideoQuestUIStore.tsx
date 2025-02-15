@@ -6,34 +6,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     entity = function(argFoo) { // Original name: _toPropertyKey
-        _fun67040: for(var _fun67040_ip = 0; ; ) switch(_fun67040_ip) {
+        _fun67046: for(var _fun67046_ip = 0; ; ) switch(_fun67046_ip) {
  0:
             golf = argFoo;
             tango = 'object';
             entity = typeof golf;
             mike = golf;
-            if(!(tango === entity)) { _fun67040_ip = 119; continue _fun67040 }
+            if(!(tango === entity)) { _fun67046_ip = 119; continue _fun67046 }
  17:
             mike = golf;
-            if(!mike) { _fun67040_ip = 119; continue _fun67040 }
+            if(!mike) { _fun67046_ip = 119; continue _fun67046 }
  23:
             entity = global;
             zulu = entity.Symbol;
             zulu = zulu.toPrimitive;
             oscar = golf[zulu];
             report = undefined;
-            if(!(report === oscar)) { _fun67040_ip = 60; continue _fun67040 }
+            if(!(report === oscar)) { _fun67046_ip = 60; continue _fun67046 }
  47:
             zulu = entity.String;
             mike = zulu.bind(report)(golf);
-            _fun67040_ip = 119; continue _fun67040;
+            _fun67046_ip = 119; continue _fun67046;
  60:
             report = oscar.call;
             zulu = 'string';
             report = report.bind(oscar)(golf, zulu);
             zulu = typeof report;
             mike = report;
-            if(!(tango === zulu)) { _fun67040_ip = 119; continue _fun67040 }
+            if(!(tango === zulu)) { _fun67046_ip = 119; continue _fun67046 }
  85:
             tango = entity.TypeError;
             entity = tango.prototype;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = 'symbol';
             zulu = typeof mike;
             entity = mike;
-            if(!(tango !== zulu)) { _fun67040_ip = 136; continue _fun67040 }
+            if(!(tango !== zulu)) { _fun67046_ip = 136; continue _fun67046 }
  133:
             entity = '' + mike;
  136:
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     foxtrot = function() {
         entity = {};
         zulu = function(argFoo) { // Original name: getItem
-            _fun67061: for(var _fun67061_ip = 0; ; ) switch(_fun67061_ip) {
+            _fun67067: for(var _fun67067_ip = 0; ; ) switch(_fun67067_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)(entity);
                 entity = null;
                 zulu = entity != mike;
-                if(!zulu) { _fun67061_ip = 56; continue _fun67061 }
+                if(!zulu) { _fun67067_ip = 56; continue _fun67067 }
  53:
                 entity = mike;
  56:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         entity['setMuted'] = zulu;
         zulu = function(argFoo, argBar, argBaz) { // Original name: setVideoProgress
-            _fun67046: for(var _fun67046_ip = 0; ; ) switch(_fun67046_ip) {
+            _fun67052: for(var _fun67052_ip = 0; ; ) switch(_fun67052_ip) {
  0:
                 tango = argFoo;
                 options = argBar;
@@ -245,13 +245,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = null;
                 oscar = tango == report;
                 zulu = undefined;
-                if(oscar) { _fun67046_ip = 63; continue _fun67046 }
+                if(oscar) { _fun67052_ip = 63; continue _fun67052 }
  57:
                 zulu = report.maxTimestampSec;
  63:
                 tango = tango != zulu;
                 oscar = 0;
-                if(!tango) { _fun67046_ip = 75; continue _fun67046 }
+                if(!tango) { _fun67052_ip = 75; continue _fun67052 }
  72:
                 oscar = zulu;
  75:
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         entity['getVideoProgress'] = zulu;
         zulu = function(argFoo) { // Original name: getVideoProgressState
-            _fun67055: for(var _fun67055_ip = 0; ; ) switch(_fun67055_ip) {
+            _fun67061: for(var _fun67061_ip = 0; ; ) switch(_fun67061_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = undefined;
@@ -386,29 +386,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = argFoo;
                 entity = mike[entity];
                 mike = null;
-                if(!(mike != entity)) { _fun67055_ip = 104; continue _fun67055 }
+                if(!(mike != entity)) { _fun67061_ip = 104; continue _fun67061 }
  32:
                 zulu = entity.timestampSec;
                 mike = 0;
-                if(!(mike !== zulu)) { _fun67055_ip = 89; continue _fun67055 }
+                if(!(mike !== zulu)) { _fun67061_ip = 89; continue _fun67061 }
  44:
                 mike = entity.timestampSec;
                 entity = entity.duration;
-                if(!(!(mike >= entity))) { _fun67055_ip = 74; continue _fun67055 }
+                if(!(!(mike >= entity))) { _fun67061_ip = 74; continue _fun67061 }
  59:
                 entity = _closure1_slot3;
                 entity = entity.IN_PROGRESS;
-                _fun67055_ip = 87; continue _fun67055;
+                _fun67061_ip = 87; continue _fun67061;
  74:
                 mike = _closure1_slot3;
                 entity = mike.COMPLETED;
  87:
-                _fun67055_ip = 102; continue _fun67055;
+                _fun67061_ip = 102; continue _fun67061;
  89:
                 mike = _closure1_slot3;
                 entity = mike.NOT_STARTED;
  102:
-                _fun67055_ip = 117; continue _fun67055;
+                _fun67061_ip = 117; continue _fun67061;
  104:
                 mike = _closure1_slot3;
                 entity = mike.UNKNOWN;

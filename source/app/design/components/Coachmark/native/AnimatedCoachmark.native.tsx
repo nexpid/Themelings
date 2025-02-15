@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsx;
     var _closure1_slot6 = tango;
     tango = function(argFoo, argBar) { // Original name: renderTooltipItem
-        _fun77601: for(var _fun77601_ip = 0; ; ) switch(_fun77601_ip) {
+        _fun77611: for(var _fun77611_ip = 0; ; ) switch(_fun77611_ip) {
  0:
             verify = argFoo;
             offset = argBar;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['pointerEvents'] = report;
             report = null;
             golf = report != verify;
-            if(!golf) { _fun77601_ip = 147; continue _fun77601 }
+            if(!golf) { _fun77611_ip = 147; continue _fun77611 }
  88:
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Coachmark/native/AnimatedCoachmark.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun77602: for(var _fun77602_ip = 0; ; ) switch(_fun77602_ip) {
+        _fun77612: for(var _fun77612_ip = 0; ; ) switch(_fun77612_ip) {
  0:
             report = argFoo;
             romeo = report.visible;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['useReducedMotion'] = golf;
             golf = undefined;
-            if(!verify) { _fun77602_ip = 223; continue _fun77602 }
+            if(!verify) { _fun77612_ip = 223; continue _fun77612 }
  220:
             golf = options;
  223:

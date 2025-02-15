@@ -86,20 +86,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = '_trackAppBackgrounded';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun106037: for(var _fun106037_ip = 0; ; ) switch(_fun106037_ip) {
+            _fun106029: for(var _fun106029_ip = 0; ; ) switch(_fun106029_ip) {
  0:
                 entity = argFoo;
                 mike = this;
                 zulu = mike._isBackgrounded;
-                if(!(zulu !== entity)) { _fun106037_ip = 103; continue _fun106037 }
+                if(!(zulu !== entity)) { _fun106029_ip = 103; continue _fun106029 }
  16:
                 mike['_isBackgrounded'] = entity;
                 entity = mike._isBackgrounded;
-                if(!entity) { _fun106037_ip = 37; continue _fun106037 }
+                if(!entity) { _fun106029_ip = 37; continue _fun106029 }
  31:
                 entity = mike.hasWorkScheduled;
  37:
-                if(!entity) { _fun106037_ip = 103; continue _fun106037 }
+                if(!entity) { _fun106029_ip = 103; continue _fun106029 }
  40:
                 tango = mike.telemetry;
                 zulu = tango.track;
@@ -170,15 +170,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = '_processWorkCallback';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun106041: for(var _fun106041_ip = 0; ; ) switch(_fun106041_ip) {
+            _fun106033: for(var _fun106033_ip = 0; ; ) switch(_fun106033_ip) {
  0:
                 mike = this;
                 zulu = mike._workCallbackFn;
                 entity = null;
-                if(!(entity != zulu)) { _fun106041_ip = 252; continue _fun106041 }
+                if(!(entity != zulu)) { _fun106033_ip = 252; continue _fun106033 }
  18:
                 entity = mike._hasExceededMaxConsecutiveFlushes;
-                if(entity) { _fun106041_ip = 256; continue _fun106041 }
+                if(entity) { _fun106033_ip = 256; continue _fun106033 }
  32:
                 zulu = global;
                 tango = zulu.performance;
@@ -194,24 +194,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(mike)();
                 oscar = tango - report;
                 report = _closure1_slot7;
-                if(!(!(oscar > report))) { _fun106041_ip = 109; continue _fun106041 }
+                if(!(!(oscar > report))) { _fun106033_ip = 109; continue _fun106033 }
  103:
                 report = _closure1_slot6;
-                _fun106041_ip = 113; continue _fun106041;
+                _fun106033_ip = 113; continue _fun106033;
  109:
                 report = _closure1_slot8;
  113:
                 mike['_nextDispatchTimeout'] = report;
                 report = mike._consecutiveFlushesBeforeQueueEmpty;
-                if(entity) { _fun106041_ip = 143; continue _fun106041 }
+                if(entity) { _fun106033_ip = 143; continue _fun106033 }
  128:
                 entity = 1;
                 entity = report + entity;
                 mike['_consecutiveFlushesBeforeQueueEmpty'] = entity;
-                _fun106041_ip = 252; continue _fun106041;
+                _fun106033_ip = 252; continue _fun106033;
  143:
                 entity = 0;
-                if(!(report > entity)) { _fun106041_ip = 238; continue _fun106041 }
+                if(!(report > entity)) { _fun106033_ip = 238; continue _fun106033 }
  149:
                 oscar = mike.telemetry;
                 report = oscar.measure;
@@ -280,14 +280,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'markCriticalWorkScheduled';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun106042: for(var _fun106042_ip = 0; ; ) switch(_fun106042_ip) {
+            _fun106034: for(var _fun106034_ip = 0; ; ) switch(_fun106034_ip) {
  0:
                 mike = this;
                 entity = true;
                 mike['_criticalWorkScheduled'] = entity;
                 zulu = mike._flushIdleHandler;
                 entity = null;
-                if(!(entity != zulu)) { _fun106042_ip = 43; continue _fun106042 }
+                if(!(entity != zulu)) { _fun106034_ip = 43; continue _fun106034 }
  23:
                 entity = mike._clearIdleCallback;
                 entity = entity.bind(mike)();
@@ -304,17 +304,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'toggleRequestIdleCallback';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun106043: for(var _fun106043_ip = 0; ; ) switch(_fun106043_ip) {
+            _fun106035: for(var _fun106035_ip = 0; ; ) switch(_fun106035_ip) {
  0:
                 entity = argFoo;
                 mike = this;
                 mike['_enableRequestIdleCallback'] = entity;
                 entity = !entity;
-                if(!entity) { _fun106043_ip = 24; continue _fun106043 }
+                if(!entity) { _fun106035_ip = 24; continue _fun106035 }
  18:
                 entity = mike.hasWorkScheduled;
  24:
-                if(!entity) { _fun106043_ip = 47; continue _fun106043 }
+                if(!entity) { _fun106035_ip = 47; continue _fun106035 }
  27:
                 entity = mike._clearIdleCallback;
                 entity = entity.bind(mike)();
@@ -341,13 +341,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'hasWorkScheduled';
         entity['key'] = oscar;
         oscar = function() { // Original name: get
-            _fun106045: for(var _fun106045_ip = 0; ; ) switch(_fun106045_ip) {
+            _fun106037: for(var _fun106037_ip = 0; ; ) switch(_fun106037_ip) {
  0:
                 mike = this;
                 entity = mike._flushTimeoutHandler;
                 zulu = null;
                 entity = zulu != entity;
-                if(entity) { _fun106045_ip = 28; continue _fun106045 }
+                if(entity) { _fun106037_ip = 28; continue _fun106037 }
  18:
                 mike = mike._flushIdleHandler;
                 entity = zulu != mike;
@@ -371,12 +371,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'clearWorkTimeout';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun106047: for(var _fun106047_ip = 0; ; ) switch(_fun106047_ip) {
+            _fun106039: for(var _fun106039_ip = 0; ; ) switch(_fun106039_ip) {
  0:
                 mike = this;
                 zulu = mike._flushTimeoutHandler;
                 entity = null;
-                if(!(entity != zulu)) { _fun106047_ip = 42; continue _fun106047 }
+                if(!(entity != zulu)) { _fun106039_ip = 42; continue _fun106039 }
  15:
                 zulu = global;
                 report = zulu.clearTimeout;
@@ -400,20 +400,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'requestWorkTimeout';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun106048: for(var _fun106048_ip = 0; ; ) switch(_fun106048_ip) {
+            _fun106040: for(var _fun106040_ip = 0; ; ) switch(_fun106040_ip) {
  0:
                 tango = arguments[1];
                 zulu = this;
                 var _closure3_slot0 = zulu;
                 entity = undefined;
-                if(!(tango === entity)) { _fun106048_ip = 20; continue _fun106048 }
+                if(!(tango === entity)) { _fun106040_ip = 20; continue _fun106040 }
  18:
                 tango = false;
  20:
                 report = argFoo;
                 zulu['_workCallbackFn'] = report;
                 report = zulu.hasWorkScheduled;
-                if(report) { _fun106048_ip = 200; continue _fun106048 }
+                if(report) { _fun106040_ip = 200; continue _fun106040 }
  41:
                 options = zulu.telemetry;
                 golf = options.time;
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = golf.bind(options)(oscar);
                 golf = zulu._nextDispatchTimeout;
                 oscar = _closure1_slot8;
-                if(!(golf === oscar)) { _fun106048_ip = 152; continue _fun106048 }
+                if(!(golf === oscar)) { _fun106040_ip = 152; continue _fun106040 }
  107:
                 golf = zulu.telemetry;
                 oscar = golf.track;
@@ -439,13 +439,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.LONGER_DISPATCH;
                 report = oscar.bind(golf)(report);
  152:
-                if(tango) { _fun106048_ip = 190; continue _fun106048 }
+                if(tango) { _fun106040_ip = 190; continue _fun106040 }
  155:
                 tango = global;
                 report = tango.setTimeout;
                 tango = zulu._nextDispatchTimeout;
                 mike = function() {
-                    _fun106049: for(var _fun106049_ip = 0; ; ) switch(_fun106049_ip) {
+                    _fun106041: for(var _fun106041_ip = 0; ; ) switch(_fun106041_ip) {
  0:
                         zulu = _closure1_slot1;
                         tango = _closure1_slot2;
@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = golf.bind(oscar)(report, tango);
                         zulu = zulu._isBackgrounded;
                         mike = _closure3_slot0;
-                        if(zulu) { _fun106049_ip = 81; continue _fun106049 }
+                        if(zulu) { _fun106041_ip = 81; continue _fun106041 }
  69:
                         zulu = mike._queueIdleCallback;
                         zulu = zulu.bind(mike)();
@@ -484,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 mike = report.bind(entity)(mike, tango);
                 zulu['_flushTimeoutHandler'] = mike;
-                _fun106048_ip = 200; continue _fun106048;
+                _fun106040_ip = 200; continue _fun106040;
  190:
                 mike = zulu._queueIdleCallback;
                 mike = mike.bind(zulu)();

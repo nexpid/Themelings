@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun123364: for(var _fun123364_ip = 0; ; ) switch(_fun123364_ip) {
+        _fun123369: for(var _fun123369_ip = 0; ; ) switch(_fun123369_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot15;
             entity = entity.bind(zulu)();
-            if(entity) { _fun123364_ip = 51; continue _fun123364 }
+            if(entity) { _fun123369_ip = 51; continue _fun123369 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun123364_ip = 92; continue _fun123364;
+            _fun123369_ip = 92; continue _fun123369;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun123364_ip = 71; continue _fun123364 }
+            if(oscar) { _fun123369_ip = 71; continue _fun123369 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun123365: for(var _fun123365_ip = 0; ; ) switch(_fun123365_ip) {
+        _fun123370: for(var _fun123370_ip = 0; ; ) switch(_fun123370_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun123365_ip = 76; continue _fun123365;
+            _fun123370_ip = 76; continue _fun123370;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['POST_CONNECTION_OPEN'] = tango;
             entity['actions'] = zulu;
             mike = function() {
-                _fun123372: for(var _fun123372_ip = 0; ; ) switch(_fun123372_ip) {
+                _fun123377: for(var _fun123377_ip = 0; ; ) switch(_fun123377_ip) {
  0:
                     report = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -198,22 +198,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.getSetting;
                     oscar = tango.bind(report)();
                     report = null;
-                    if(!(report != oscar)) { _fun123372_ip = 286; continue _fun123372 }
+                    if(!(report != oscar)) { _fun123377_ip = 286; continue _fun123377 }
  52:
                     tango = oscar.expiresAtMs;
-                    if(!(report != tango)) { _fun123372_ip = 78; continue _fun123372 }
+                    if(!(report != tango)) { _fun123377_ip = 78; continue _fun123377 }
  62:
                     options = oscar.expiresAtMs;
                     tango = '0';
-                    if(!(tango === options)) { _fun123372_ip = 108; continue _fun123372 }
+                    if(!(tango === options)) { _fun123377_ip = 108; continue _fun123377 }
  78:
                     tango = _closure1_slot13;
-                    if(!(report != tango)) { _fun123372_ip = 300; continue _fun123372 }
+                    if(!(report != tango)) { _fun123377_ip = 300; continue _fun123377 }
  89:
                     options = _closure1_slot13;
                     tango = options.stop;
                     tango = tango.bind(options)();
-                    _fun123372_ip = 300; continue _fun123372;
+                    _fun123377_ip = 300; continue _fun123377;
  108:
                     tango = global;
                     verify = tango.Date;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.bind(options)();
                     offset = oscar - tango;
                     tango = 0;
-                    if(!(!(offset > tango))) { _fun123372_ip = 259; continue _fun123372 }
+                    if(!(!(offset > tango))) { _fun123377_ip = 259; continue _fun123377 }
  209:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = _closure1_slot13;
                     tango = oscar.stop;
                     tango = tango.bind(oscar)();
-                    _fun123372_ip = 300; continue _fun123372;
+                    _fun123377_ip = 300; continue _fun123377;
  259:
                     verify = _closure1_slot13;
                     options = verify.start;
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     tango = true;
                     tango = options.bind(verify)(offset, oscar, tango);
-                    _fun123372_ip = 300; continue _fun123372;
+                    _fun123377_ip = 300; continue _fun123377;
  286:
                     oscar = _closure1_slot13;
                     tango = oscar.stop;
@@ -280,25 +280,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = tango.StatusExpiresAtSetting;
                     tango = oscar.getSetting;
                     options = tango.bind(oscar)();
-                    if(!(report != options)) { _fun123372_ip = 375; continue _fun123372 }
+                    if(!(report != options)) { _fun123377_ip = 375; continue _fun123377 }
  337:
                     tango = '0';
-                    if(!(tango !== options)) { _fun123372_ip = 375; continue _fun123372 }
+                    if(!(tango !== options)) { _fun123377_ip = 375; continue _fun123377 }
  347:
                     oscar = _closure1_slot8;
                     tango = oscar.getStatus;
                     oscar = tango.bind(oscar)();
                     tango = _closure1_slot10;
                     tango = tango.ONLINE;
-                    if(!(oscar === tango)) { _fun123372_ip = 405; continue _fun123372 }
+                    if(!(oscar === tango)) { _fun123377_ip = 405; continue _fun123377 }
  375:
                     tango = _closure1_slot11;
-                    if(!(report != tango)) { _fun123372_ip = 619; continue _fun123372 }
+                    if(!(report != tango)) { _fun123377_ip = 619; continue _fun123377 }
  386:
                     oscar = _closure1_slot11;
                     tango = oscar.stop;
                     tango = tango.bind(oscar)();
-                    _fun123372_ip = 619; continue _fun123372;
+                    _fun123377_ip = 619; continue _fun123377;
  405:
                     tango = global;
                     verify = tango.Date;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.bind(options)();
                     offset = oscar - tango;
                     tango = 0;
-                    if(!(!(offset > tango))) { _fun123372_ip = 594; continue _fun123372 }
+                    if(!(!(offset > tango))) { _fun123377_ip = 594; continue _fun123377 }
  500:
                     oscar = _closure1_slot1;
                     options = _closure1_slot2;
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = _closure1_slot11;
                     tango = oscar.stop;
                     tango = tango.bind(oscar)();
-                    _fun123372_ip = 619; continue _fun123372;
+                    _fun123377_ip = 619; continue _fun123377;
  594:
                     verify = _closure1_slot11;
                     options = verify.start;
@@ -384,18 +384,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = tango.FocusModeExpiresAtSetting;
                     tango = oscar.getSetting;
                     oscar = tango.bind(oscar)();
-                    if(!(report != oscar)) { _fun123372_ip = 666; continue _fun123372 }
+                    if(!(report != oscar)) { _fun123377_ip = 666; continue _fun123377 }
  656:
                     tango = '0';
-                    if(!(tango === oscar)) { _fun123372_ip = 696; continue _fun123372 }
+                    if(!(tango === oscar)) { _fun123377_ip = 696; continue _fun123377 }
  666:
                     tango = _closure1_slot12;
-                    if(!(report != tango)) { _fun123372_ip = 865; continue _fun123372 }
+                    if(!(report != tango)) { _fun123377_ip = 865; continue _fun123377 }
  677:
                     report = _closure1_slot12;
                     tango = report.stop;
                     tango = tango.bind(report)();
-                    _fun123372_ip = 865; continue _fun123372;
+                    _fun123377_ip = 865; continue _fun123377;
  696:
                     tango = global;
                     golf = tango.Date;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.bind(oscar)();
                     oscar = report - tango;
                     tango = 0;
-                    if(!(!(oscar > tango))) { _fun123372_ip = 840; continue _fun123372 }
+                    if(!(!(oscar > tango))) { _fun123377_ip = 840; continue _fun123377 }
  791:
                     report = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = _closure1_slot12;
                     tango = report.stop;
                     tango = tango.bind(report)();
-                    _fun123372_ip = 865; continue _fun123372;
+                    _fun123377_ip = 865; continue _fun123377;
  840:
                     report = _closure1_slot12;
                     tango = report.start;

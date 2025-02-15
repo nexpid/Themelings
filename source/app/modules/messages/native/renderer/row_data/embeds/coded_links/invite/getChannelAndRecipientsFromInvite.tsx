@@ -24,19 +24,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/getChannelAndRecipientsFromInvite.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelAndRecipientsFromInvite
-        _fun69793: for(var _fun69793_ip = 0; ; ) switch(_fun69793_ip) {
+        _fun69799: for(var _fun69799_ip = 0; ; ) switch(_fun69799_ip) {
  0:
             zulu = argFoo;
             entity = zulu.channel;
             mike = null;
-            if(!(mike != entity)) { _fun69793_ip = 29; continue _fun69793 }
+            if(!(mike != entity)) { _fun69799_ip = 29; continue _fun69799 }
  14:
             entity = zulu.channel;
             entity = entity.recipients;
-            if(!(mike == entity)) { _fun69793_ip = 35; continue _fun69793 }
+            if(!(mike == entity)) { _fun69799_ip = 35; continue _fun69799 }
  29:
             oscar = new Array(0);
-            _fun69793_ip = 55; continue _fun69793;
+            _fun69799_ip = 55; continue _fun69799;
  35:
             entity = zulu.channel;
             tango = entity.recipients;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = zulu.channel;
             tango = mike != tango;
             mike = null;
-            if(!tango) { _fun69793_ip = 113; continue _fun69793 }
+            if(!tango) { _fun69799_ip = 113; continue _fun69799 }
  76:
             report = _closure1_slot0;
             tango = {};

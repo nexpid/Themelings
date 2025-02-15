@@ -45,19 +45,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['isAuthenticated'] = tango;
     mike = function(argFoo) {
-        _fun35715: for(var _fun35715_ip = 0; ; ) switch(_fun35715_ip) {
+        _fun35722: for(var _fun35722_ip = 0; ; ) switch(_fun35722_ip) {
  0:
             report = argFoo;
             zulu = null;
             mike = zulu != report;
             entity = null;
-            if(!mike) { _fun35715_ip = 68; continue _fun35715 }
+            if(!mike) { _fun35722_ip = 68; continue _fun35722 }
  14:
             tango = /^\\/developers/;
             mike = tango.test;
             mike = mike.bind(tango)(report);
             entity = null;
-            if(!mike) { _fun35715_ip = 68; continue _fun35715 }
+            if(!mike) { _fun35722_ip = 68; continue _fun35722 }
  43:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;

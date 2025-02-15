@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: VideoDisabledSvgIcon
-        _fun103368: for(var _fun103368_ip = 0; ; ) switch(_fun103368_ip) {
+        _fun103360: for(var _fun103360_ip = 0; ; ) switch(_fun103360_ip) {
  0:
             golf = argFoo;
             oscar = golf.size;
             tango = undefined;
-            if(!(oscar === tango)) { _fun103368_ip = 49; continue _fun103368 }
+            if(!(oscar === tango)) { _fun103360_ip = 49; continue _fun103360 }
  14:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -47,11 +47,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = mike.bind(zulu)(report);
             mike = entity == oscar;
             backup = undefined;
-            if(mike) { _fun103368_ip = 153; continue _fun103368 }
+            if(mike) { _fun103360_ip = 153; continue _fun103360 }
  147:
             backup = oscar.tintColor;
  153:
-            if(!(entity == backup)) { _fun103368_ip = 169; continue _fun103368 }
+            if(!(entity == backup)) { _fun103360_ip = 169; continue _fun103360 }
  157:
             entity = verify.defaultTint;
             backup = entity.tintColor;
@@ -169,14 +169,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     report = options.memo;
     tango = function(argFoo) {
-        _fun103369: for(var _fun103369_ip = 0; ; ) switch(_fun103369_ip) {
+        _fun103361: for(var _fun103361_ip = 0; ; ) switch(_fun103361_ip) {
  0:
             entity = argFoo;
             oscar = entity.style;
             report = entity.state;
             options = entity.alwaysWhite;
             tango = undefined;
-            if(!(options === tango)) { _fun103369_ip = 27; continue _fun103369 }
+            if(!(options === tango)) { _fun103361_ip = 27; continue _fun103361 }
  25:
             options = false;
  27:
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.MuteDeafenIconState;
             mike = mike.DEAFENED_SERVER;
-            if(!(mike !== report)) { _fun103369_ip = 506; continue _fun103369 }
+            if(!(mike !== report)) { _fun103361_ip = 506; continue _fun103361 }
  77:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.MuteDeafenIconState;
             mike = mike.DEAFENED;
-            if(!(mike !== report)) { _fun103369_ip = 446; continue _fun103369 }
+            if(!(mike !== report)) { _fun103361_ip = 446; continue _fun103361 }
  113:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.MuteDeafenIconState;
             mike = mike.MUTED_SERVER;
-            if(!(mike !== report)) { _fun103369_ip = 371; continue _fun103369 }
+            if(!(mike !== report)) { _fun103361_ip = 371; continue _fun103361 }
  149:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.MuteDeafenIconState;
             mike = mike.MUTED_LOCAL;
-            if(!(mike !== report)) { _fun103369_ip = 311; continue _fun103369 }
+            if(!(mike !== report)) { _fun103361_ip = 311; continue _fun103361 }
  185:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.MuteDeafenIconState;
             mike = mike.MUTED;
-            if(!(mike !== report)) { _fun103369_ip = 251; continue _fun103369 }
+            if(!(mike !== report)) { _fun103361_ip = 251; continue _fun103361 }
  218:
             zulu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = oscar;
             offset = null;
-            if(options) { _fun103369_ip = 422; continue _fun103369 }
+            if(options) { _fun103361_ip = 422; continue _fun103361 }
  416:
             offset = golf.redTint;
  422:
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(options) { _fun103369_ip = 557; continue _fun103369 }
+            if(options) { _fun103361_ip = 557; continue _fun103361 }
  551:
             oscar = golf.redTint;
  557:
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = report.bind(options)(tango);
     report = options.memo;
     mike = function(argFoo) {
-        _fun103370: for(var _fun103370_ip = 0; ; ) switch(_fun103370_ip) {
+        _fun103362: for(var _fun103362_ip = 0; ; ) switch(_fun103362_ip) {
  0:
             zulu = argFoo;
             golf = zulu.state;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.VideoIconState;
             mike = mike.VIDEO_DISABLED_LOCAL_AUTO;
-            if(!(mike !== golf)) { _fun103370_ip = 278; continue _fun103370 }
+            if(!(mike !== golf)) { _fun103362_ip = 278; continue _fun103362 }
  83:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.VideoIconState;
             mike = mike.VIDEO_DISABLED_LOCAL;
-            if(!(mike !== golf)) { _fun103370_ip = 250; continue _fun103370 }
+            if(!(mike !== golf)) { _fun103362_ip = 250; continue _fun103362 }
  119:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             mike = mike.VideoIconState;
             mike = mike.VIDEO_ACTIVE;
-            if(!(mike !== golf)) { _fun103370_ip = 185; continue _fun103370 }
+            if(!(mike !== golf)) { _fun103362_ip = 185; continue _fun103362 }
  152:
             zulu = _closure1_slot0;
             options = _closure1_slot2;

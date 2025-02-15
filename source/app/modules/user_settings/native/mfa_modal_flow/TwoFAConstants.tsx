@@ -19,8 +19,6 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     golf = mike.Object;
     tango = golf.freeze;
     mike = {};
-    verify = options.IOS_TWO_FA_EMAIL_VERIFICATION;
-    mike['EMAIL_VERIFICATION'] = verify;
     verify = options.IOS_TWO_FA_LANDING;
     mike['LANDING'] = verify;
     verify = options.IOS_TWO_FA_SCAN;

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/ConnectedUserLimit.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun115747: for(var _fun115747_ip = 0; ; ) switch(_fun115747_ip) {
+        _fun115753: for(var _fun115753_ip = 0; ; ) switch(_fun115753_ip) {
  0:
             entity = argFoo;
             zulu = entity.channel;
@@ -49,25 +49,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 0;
             report = report > options;
             offset = -1;
-            if(!report) { _fun115747_ip = 83; continue _fun115747 }
+            if(!report) { _fun115753_ip = 83; continue _fun115753 }
  77:
             offset = zulu.userLimit;
  83:
-            if(!mike) { _fun115747_ip = 90; continue _fun115747 }
+            if(!mike) { _fun115753_ip = 90; continue _fun115753 }
  86:
             mike = yankee > options;
  90:
             oscar = offset;
             report = false;
-            if(!mike) { _fun115747_ip = 141; continue _fun115747 }
+            if(!mike) { _fun115753_ip = 141; continue _fun115753 }
  98:
             mike = offset < options;
-            if(mike) { _fun115747_ip = 109; continue _fun115747 }
+            if(mike) { _fun115753_ip = 109; continue _fun115753 }
  105:
             mike = yankee < offset;
  109:
             zulu = yankee;
-            if(!(offset > options)) { _fun115747_ip = 135; continue _fun115747 }
+            if(!(offset > options)) { _fun115753_ip = 135; continue _fun115753 }
  116:
             options = global;
             verify = options.Math;

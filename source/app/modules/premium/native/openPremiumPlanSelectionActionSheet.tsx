@@ -23,11 +23,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/native/openPremiumPlanSelectionActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: _default
-        _fun75669: for(var _fun75669_ip = 0; ; ) switch(_fun75669_ip) {
+        _fun75679: for(var _fun75679_ip = 0; ; ) switch(_fun75679_ip) {
  0:
             golf = argBar;
             entity = null;
-            if(!(entity == golf)) { _fun75669_ip = 43; continue _fun75669 }
+            if(!(entity == golf)) { _fun75679_ip = 43; continue _fun75679 }
  9:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;

@@ -13,19 +13,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun68846: for(var _fun68846_ip = 0; ; ) switch(_fun68846_ip) {
+                _fun68852: for(var _fun68852_ip = 0; ; ) switch(_fun68852_ip) {
  0:
                     StartGenerator();
                     mike = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun68846_ip = 209; continue _fun68846 }
+                    if(zulu) { _fun68852_ip = 209; continue _fun68852 }
  13:
                     romeo = argFoo;
                     tango = argBar;
                     yankee = mike.onSubmit;
                     mike = mike.isEligibleForFeedback;
                     zulu = undefined;
-                    if(!(mike === zulu)) { _fun68846_ip = 39; continue _fun68846 }
+                    if(!(mike === zulu)) { _fun68852_ip = 39; continue _fun68852 }
  37:
                     mike = true;
  39:
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  46:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun68846_ip = 206; continue _fun68846 }
+                    if(report) { _fun68852_ip = 206; continue _fun68852 }
  55: // try_start_0
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  97:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun68846_ip = 198; continue _fun68846 }
+                    if(oscar) { _fun68852_ip = 198; continue _fun68852 }
  103:
                     options = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = _closure1_slot4;
                     report = options.bind(verify)(golf, oscar, report);
  196: // try_end0
-                    _fun68846_ip = 203; continue _fun68846;
+                    _fun68852_ip = 203; continue _fun68852;
  198:
                     return tango;
  201: // catch_target0

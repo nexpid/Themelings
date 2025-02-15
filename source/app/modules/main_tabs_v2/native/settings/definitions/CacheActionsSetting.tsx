@@ -107,11 +107,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         result = _closure1_slot3;
         kilo = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun98245: for(var _fun98245_ip = 0; ; ) switch(_fun98245_ip) {
+                _fun98255: for(var _fun98255_ip = 0; ; ) switch(_fun98255_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun98245_ip = 122; continue _fun98245 }
+                    if(mike) { _fun98255_ip = 122; continue _fun98255 }
  7:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  46:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun98245_ip = 119; continue _fun98245 }
+                    if(report) { _fun98255_ip = 119; continue _fun98255 }
  52:
                     report = _closure1_slot8;
                     options = _closure1_slot0;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['onPress'] = options;
     golf = function() { // Original name: useCacheActionsPredicate
-        _fun98249: for(var _fun98249_ip = 0; ; ) switch(_fun98249_ip) {
+        _fun98259: for(var _fun98259_ip = 0; ; ) switch(_fun98259_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.DeveloperMode;
             entity = zulu.useSetting;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun98249_ip = 91; continue _fun98249 }
+            if(!entity) { _fun98259_ip = 91; continue _fun98259 }
  88:
             entity = mike;
  91:

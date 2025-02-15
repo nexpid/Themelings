@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChannelTitle
-        _fun121022: for(var _fun121022_ip = 0; ; ) switch(_fun121022_ip) {
+        _fun121028: for(var _fun121028_ip = 0; ; ) switch(_fun121028_ip) {
  0:
             entity = argFoo;
             oscar = entity.title;
@@ -87,30 +87,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[3] = yankee;
             zulu[4] = offset;
             mike = function() {
-                _fun121023: for(var _fun121023_ip = 0; ; ) switch(_fun121023_ip) {
+                _fun121029: for(var _fun121029_ip = 0; ; ) switch(_fun121029_ip) {
  0:
                     mike = _closure2_slot4;
                     mike = mike.normal;
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun121023_ip = 70; continue _fun121023 }
+                    if(zulu) { _fun121029_ip = 70; continue _fun121029 }
  20:
                     zulu = _closure2_slot1;
-                    if(!zulu) { _fun121023_ip = 48; continue _fun121023 }
+                    if(!zulu) { _fun121029_ip = 48; continue _fun121029 }
  27:
                     report = _closure2_slot2;
                     tango = _closure1_slot4;
                     tango = tango.ALL_MESSAGES;
                     zulu = report === tango;
  48:
-                    if(zulu) { _fun121023_ip = 55; continue _fun121023 }
+                    if(zulu) { _fun121029_ip = 55; continue _fun121029 }
  51:
                     zulu = _closure2_slot3;
  55:
-                    if(!zulu) { _fun121023_ip = 80; continue _fun121023 }
+                    if(!zulu) { _fun121029_ip = 80; continue _fun121029 }
  58:
                     zulu = _closure2_slot4;
                     mike = zulu.unreadOrConnected;
-                    _fun121023_ip = 80; continue _fun121023;
+                    _fun121029_ip = 80; continue _fun121029;
  70:
                     entity = _closure2_slot4;
                     mike = entity.muted;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = report != oscar;
             report = '';
-            if(!golf) { _fun121022_ip = 218; continue _fun121022 }
+            if(!golf) { _fun121028_ip = 218; continue _fun121028 }
  215:
             report = oscar;
  218:

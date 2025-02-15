@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/chat/native/ChatViewKeyboardAccessories.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ChatViewKeyboardCloser
-        _fun89469: for(var _fun89469_ip = 0; ; ) switch(_fun89469_ip) {
+        _fun89486: for(var _fun89486_ip = 0; ; ) switch(_fun89486_ip) {
  0:
             entity = argFoo;
             zulu = entity.channelId;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['style'] = oscar;
             oscar = 'auto';
-            if(!golf) { _fun89469_ip = 112; continue _fun89469 }
+            if(!golf) { _fun89486_ip = 112; continue _fun89486 }
  108:
             oscar = 'none';
  112:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[0] = foxtrot;
         report[1] = romeo;
         zulu = function() {
-            _fun89473: for(var _fun89473_ip = 0; ; ) switch(_fun89473_ip) {
+            _fun89490: for(var _fun89490_ip = 0; ; ) switch(_fun89490_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.bind(entity)(mike);
                 mike = zulu.isAndroid;
                 mike = mike.bind(zulu)();
-                if(mike) { _fun89473_ip = 81; continue _fun89473 }
+                if(mike) { _fun89490_ip = 81; continue _fun89490 }
  37:
                 mike = {};
                 zulu = global;

@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsMessageNotificationGuildActionSheet
-        _fun86871: for(var _fun86871_ip = 0; ; ) switch(_fun86871_ip) {
+        _fun86888: for(var _fun86888_ip = 0; ; ) switch(_fun86888_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot4;
             options = oscar.ALL_MESSAGES;
             oscar = undefined;
-            if(!(offset !== options)) { _fun86871_ip = 187; continue _fun86871 }
+            if(!(offset !== options)) { _fun86888_ip = 187; continue _fun86888 }
  116:
             options = _closure1_slot5;
             options = options.ALL_MESSAGES;
             oscar = undefined;
-            if(!(verify !== options)) { _fun86871_ip = 187; continue _fun86871 }
+            if(!(verify !== options)) { _fun86888_ip = 187; continue _fun86888 }
  132:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  187:
             entity['allMessagesSubLabel'] = oscar;
             report = function(argFoo) { // Original name: onChange
-                _fun86872: for(var _fun86872_ip = 0; ; ) switch(_fun86872_ip) {
+                _fun86889: for(var _fun86889_ip = 0; ; ) switch(_fun86889_ip) {
  0:
                     options = argFoo;
                     oscar = {};
@@ -109,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure1_slot4;
                     entity = entity.ALL_MESSAGES;
                     entity = options === entity;
-                    if(!entity) { _fun86872_ip = 51; continue _fun86872 }
+                    if(!entity) { _fun86889_ip = 51; continue _fun86889 }
  30:
                     tango = _closure2_slot1;
                     zulu = _closure1_slot5;
                     zulu = zulu.ALL_MESSAGES;
                     entity = tango !== zulu;
  51:
-                    if(!entity) { _fun86872_ip = 131; continue _fun86872 }
+                    if(!entity) { _fun86889_ip = 131; continue _fun86889 }
  54:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;

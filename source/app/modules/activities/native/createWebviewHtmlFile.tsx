@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun75941: for(var _fun75941_ip = 0; ; ) switch(_fun75941_ip) {
+                _fun75951: for(var _fun75951_ip = 0; ; ) switch(_fun75951_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun75941_ip = 334; continue _fun75941 }
+                    if(zulu) { _fun75951_ip = 334; continue _fun75951 }
  13:
                     foxtrot = mike.iFrameUri;
                     romeo = mike.iFrameSandboxAttributes;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun75941_ip = 331; continue _fun75941 }
+                    if(zulu) { _fun75951_ip = 331; continue _fun75951 }
  62:
                     options = 'discord_activity_data/activity.html';
                     report = _closure1_slot7;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(oscar)(tango);
                     tango = report.isAndroid;
                     tango = tango.bind(report)();
-                    if(tango) { _fun75941_ip = 197; continue _fun75941 }
+                    if(tango) { _fun75951_ip = 197; continue _fun75951 }
  139:
                     tango = _closure1_slot4;
                     romeo = tango.DCDFileManager;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     verify = report;
                     report = tango;
-                    if(!verify) { _fun75941_ip = 287; continue _fun75941 }
+                    if(!verify) { _fun75951_ip = 287; continue _fun75951 }
  194: // try_end0
                     return tango;
  197: // try_start_1
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = null;
                     verify = tango == verify;
                     tango = undefined;
-                    if(verify) { _fun75941_ip = 274; continue _fun75941 }
+                    if(verify) { _fun75951_ip = 274; continue _fun75951 }
  228:
                     offset = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  278:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
                     report = tango;
-                    if(golf) { _fun75941_ip = 290; continue _fun75941 }
+                    if(golf) { _fun75951_ip = 290; continue _fun75951 }
  287: // try_end1
                     return report;
  290:
@@ -157,14 +157,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.NativeModules;
     var _closure1_slot4 = tango;
     tango = function(argFoo) { // Original name: safeAreaInitJs
-        _fun75942: for(var _fun75942_ip = 0; ; ) switch(_fun75942_ip) {
+        _fun75952: for(var _fun75952_ip = 0; ; ) switch(_fun75952_ip) {
  0:
             mike = argFoo;
             entity = mike.insets;
             kilo = mike.iframeWindowVarName;
             backup = mike.isIframeLoadedVarName;
             mike = null;
-            if(!(mike == entity)) { _fun75942_ip = 37; continue _fun75942 }
+            if(!(mike == entity)) { _fun75952_ip = 37; continue _fun75952 }
  27:
             entity = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
  37:
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = tango;
     tango = function(argFoo) { // Original name: generateWebviewHtml
-        _fun75944: for(var _fun75944_ip = 0; ; ) switch(_fun75944_ip) {
+        _fun75954: for(var _fun75954_ip = 0; ; ) switch(_fun75954_ip) {
  0:
             entity = argFoo;
             romeo = entity.iFrameUri;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(tango)();
             verify = '';
             options = verify;
-            if(!mike) { _fun75944_ip = 167; continue _fun75944 }
+            if(!mike) { _fun75954_ip = 167; continue _fun75954 }
  77:
             tango = _closure1_slot5;
             mike = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  167:
             entity = null;
             entity = entity != golf;
-            if(!entity) { _fun75944_ip = 249; continue _fun75944 }
+            if(!entity) { _fun75954_ip = 249; continue _fun75954 }
  176:
             entity = global;
             mike = entity.HermesInternal;

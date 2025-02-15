@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/usePendingAvatarSettings.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePendingAvatarSettings
-        _fun63946: for(var _fun63946_ip = 0; ; ) switch(_fun63946_ip) {
+        _fun63951: for(var _fun63951_ip = 0; ; ) switch(_fun63951_ip) {
  0:
             mike = argFoo;
             oscar = mike.isTryItOut;
@@ -78,18 +78,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun63948: for(var _fun63948_ip = 0; ; ) switch(_fun63948_ip) {
+                _fun63953: for(var _fun63953_ip = 0; ; ) switch(_fun63953_ip) {
  0:
                     entity = _closure2_slot1;
                     tango = null;
                     zulu = tango != entity;
                     entity = null;
-                    if(!zulu) { _fun63948_ip = 63; continue _fun63948 }
+                    if(!zulu) { _fun63953_ip = 63; continue _fun63953 }
  18:
                     zulu = _closure2_slot2;
                     zulu = tango != zulu;
                     entity = null;
-                    if(!zulu) { _fun63948_ip = 63; continue _fun63948 }
+                    if(!zulu) { _fun63953_ip = 63; continue _fun63953 }
  31:
                     report = _closure1_slot5;
                     tango = report.getMember;
@@ -103,15 +103,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike = tango.bind(verify)(zulu, mike);
             tango = null;
-            if(!(tango == mike)) { _fun63946_ip = 151; continue _fun63946 }
+            if(!(tango == mike)) { _fun63951_ip = 151; continue _fun63951 }
  134:
             verify = tango == options;
             zulu = undefined;
-            if(verify) { _fun63946_ip = 149; continue _fun63946 }
+            if(verify) { _fun63951_ip = 149; continue _fun63951 }
  143:
             zulu = options.avatarDecoration;
  149:
-            _fun63946_ip = 157; continue _fun63946;
+            _fun63951_ip = 157; continue _fun63951;
  151:
             zulu = mike.avatarDecoration;
  157:
@@ -132,26 +132,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             verify[1] = mike;
             mike = function() {
-                _fun63949: for(var _fun63949_ip = 0; ; ) switch(_fun63949_ip) {
+                _fun63954: for(var _fun63954_ip = 0; ; ) switch(_fun63954_ip) {
  0:
                     entity = {};
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun63949_ip = 60; continue _fun63949 }
+                    if(zulu) { _fun63954_ip = 60; continue _fun63954 }
  12:
                     tango = _closure2_slot1;
                     zulu = null;
-                    if(!(zulu == tango)) { _fun63949_ip = 41; continue _fun63949 }
+                    if(!(zulu == tango)) { _fun63954_ip = 41; continue _fun63954 }
  22:
                     tango = _closure1_slot6;
                     zulu = tango.getPendingAvatar;
                     zulu = zulu.bind(tango)();
-                    _fun63949_ip = 58; continue _fun63949;
+                    _fun63954_ip = 58; continue _fun63954;
  41:
                     report = _closure1_slot4;
                     tango = report.getPendingAvatar;
                     zulu = tango.bind(report)();
  58:
-                    _fun63949_ip = 79; continue _fun63949;
+                    _fun63954_ip = 79; continue _fun63954;
  60:
                     report = _closure1_slot6;
                     tango = report.getTryItOutAvatar;
@@ -159,22 +159,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  79:
                     entity['pendingAvatar'] = zulu;
                     zulu = _closure2_slot0;
-                    if(zulu) { _fun63949_ip = 139; continue _fun63949 }
+                    if(zulu) { _fun63954_ip = 139; continue _fun63954 }
  91:
                     tango = _closure2_slot1;
                     zulu = null;
-                    if(!(zulu == tango)) { _fun63949_ip = 120; continue _fun63949 }
+                    if(!(zulu == tango)) { _fun63954_ip = 120; continue _fun63954 }
  101:
                     tango = _closure1_slot6;
                     zulu = tango.getPendingAvatarDecoration;
                     zulu = zulu.bind(tango)();
-                    _fun63949_ip = 137; continue _fun63949;
+                    _fun63954_ip = 137; continue _fun63954;
  120:
                     report = _closure1_slot4;
                     tango = report.getPendingAvatarDecoration;
                     zulu = tango.bind(report)();
  137:
-                    _fun63949_ip = 158; continue _fun63949;
+                    _fun63954_ip = 158; continue _fun63954;
  139:
                     report = _closure1_slot6;
                     tango = report.getTryItOutAvatarDecoration;
@@ -183,13 +183,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity['pendingAvatarDecoration'] = zulu;
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike == zulu)) { _fun63949_ip = 198; continue _fun63949 }
+                    if(!(mike == zulu)) { _fun63954_ip = 198; continue _fun63954 }
  173:
                     zulu = _closure1_slot6;
                     mike = zulu.getErrors;
                     mike = mike.bind(zulu)();
                     mike = mike.avatarDecoration;
-                    _fun63949_ip = 221; continue _fun63949;
+                    _fun63954_ip = 221; continue _fun63954;
  198:
                     tango = _closure1_slot4;
                     zulu = tango.getErrors;
@@ -207,14 +207,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = _closure1_slot3;
             backup = tango == options;
             tango = undefined;
-            if(backup) { _fun63946_ip = 273; continue _fun63946 }
+            if(backup) { _fun63951_ip = 273; continue _fun63951 }
  267:
             tango = options.avatar;
  273:
             options = new Array(1);
             options[0] = tango;
             tango = function(argFoo) {
-                _fun63950: for(var _fun63950_ip = 0; ; ) switch(_fun63950_ip) {
+                _fun63955: for(var _fun63955_ip = 0; ; ) switch(_fun63955_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = _closure2_slot2;
                     report = null;
                     report = report == oscar;
-                    if(report) { _fun63950_ip = 57; continue _fun63950 }
+                    if(report) { _fun63955_ip = 57; continue _fun63955 }
  47:
                     entity = _closure2_slot2;
                     mike = entity.avatar;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango[0] = foxtrot;
             tango[1] = romeo;
             entity = function(argFoo) {
-                _fun63951: for(var _fun63951_ip = 0; ; ) switch(_fun63951_ip) {
+                _fun63956: for(var _fun63956_ip = 0; ; ) switch(_fun63956_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure1_slot0;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure2_slot1;
                     tango = report.bind(oscar)(tango, zulu);
                     tango = null;
-                    if(!(tango != zulu)) { _fun63951_ip = 62; continue _fun63951 }
+                    if(!(tango != zulu)) { _fun63956_ip = 62; continue _fun63956 }
  53:
                     mike = _closure2_slot3;
                     mike = mike.bind(entity)(zulu);
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['pendingAvatar'] = offset;
             entity['pendingAvatarDecoration'] = verify;
-            if(!oscar) { _fun63946_ip = 360; continue _fun63946 }
+            if(!oscar) { _fun63951_ip = 360; continue _fun63951 }
  334:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify.setTryItOutAvatar;
  360:
             entity['setPendingAvatar'] = options;
-            if(!oscar) { _fun63946_ip = 394; continue _fun63946 }
+            if(!oscar) { _fun63951_ip = 394; continue _fun63951 }
  368:
             oscar = _closure1_slot0;
             options = _closure1_slot2;

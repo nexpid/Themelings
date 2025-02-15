@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/Collapsible.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Collapsible
-        _fun75805: for(var _fun75805_ip = 0; ; ) switch(_fun75805_ip) {
+        _fun75815: for(var _fun75815_ip = 0; ; ) switch(_fun75815_ip) {
  0:
             zulu = argFoo;
             kilo = zulu.children;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = sizing;
             yankee = null;
             golf = update;
-            if(!(yankee != mike)) { _fun75805_ip = 122; continue _fun75805 }
+            if(!(yankee != mike)) { _fun75815_ip = 122; continue _fun75815 }
  119:
             golf = mike;
  122:
@@ -123,11 +123,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(1);
             verify[0] = zulu;
             mike = function(argFoo) {
-                _fun75806: for(var _fun75806_ip = 0; ; ) switch(_fun75806_ip) {
+                _fun75816: for(var _fun75816_ip = 0; ; ) switch(_fun75816_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = 0;
-                    if(!(mike === zulu)) { _fun75806_ip = 43; continue _fun75806 }
+                    if(!(mike === zulu)) { _fun75816_ip = 43; continue _fun75816 }
  13:
                     zulu = _closure2_slot3;
                     entity = argFoo;
@@ -146,11 +146,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(1);
             offset[0] = report;
             mike = function(argFoo) {
-                _fun75807: for(var _fun75807_ip = 0; ; ) switch(_fun75807_ip) {
+                _fun75817: for(var _fun75817_ip = 0; ; ) switch(_fun75817_ip) {
  0:
                     zulu = _closure2_slot4;
                     mike = 0;
-                    if(!(mike === zulu)) { _fun75807_ip = 43; continue _fun75807 }
+                    if(!(mike === zulu)) { _fun75817_ip = 43; continue _fun75817 }
  13:
                     zulu = _closure2_slot5;
                     entity = argFoo;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             foxtrot = foxtrot.bind(output)(mike, offset);
             mike = 0;
-            if(!golf) { _fun75805_ip = 254; continue _fun75805 }
+            if(!golf) { _fun75815_ip = 254; continue _fun75815 }
  251:
             mike = report;
  254:
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = update;
             yankee = null;
-            if(!(result > echo)) { _fun75805_ip = 468; continue _fun75805 }
+            if(!(result > echo)) { _fun75815_ip = 468; continue _fun75815 }
  465:
             yankee = output;
  468:

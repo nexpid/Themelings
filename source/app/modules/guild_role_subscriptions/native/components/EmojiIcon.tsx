@@ -32,25 +32,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/EmojiIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmojiIcon
-        _fun96947: for(var _fun96947_ip = 0; ; ) switch(_fun96947_ip) {
+        _fun96957: for(var _fun96957_ip = 0; ; ) switch(_fun96957_ip) {
  0:
             entity = argFoo;
             golf = entity.guildId;
             report = entity.id;
             offset = entity.size;
             oscar = undefined;
-            if(!(offset === oscar)) { _fun96947_ip = 27; continue _fun96947 }
+            if(!(offset === oscar)) { _fun96957_ip = 27; continue _fun96957 }
  24:
             offset = 20;
  27:
             tango = entity.useFallbackIcon;
-            if(!(tango === oscar)) { _fun96947_ip = 41; continue _fun96947 }
+            if(!(tango === oscar)) { _fun96957_ip = 41; continue _fun96957 }
  39:
             tango = true;
  41:
             romeo = entity.fontSize;
             verify = entity.lineHeight;
-            if(!(verify === oscar)) { _fun96947_ip = 64; continue _fun96947 }
+            if(!(verify === oscar)) { _fun96957_ip = 64; continue _fun96957 }
  57:
             mike = 4;
             verify = offset + mike;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useEmojiById;
             foxtrot = entity.bind(mike)(golf, report);
             mike = null;
-            if(!(mike != foxtrot)) { _fun96947_ip = 319; continue _fun96947 }
+            if(!(mike != foxtrot)) { _fun96957_ip = 319; continue _fun96957 }
  113:
             golf = _closure1_slot3;
             report = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['fastImageStyle'] = options;
             options = {};
             yankee = offset;
-            if(!(mike != romeo)) { _fun96947_ip = 170; continue _fun96947 }
+            if(!(mike != romeo)) { _fun96957_ip = 170; continue _fun96957 }
  167:
             yankee = romeo;
  170:
@@ -88,29 +88,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['lineHeight'] = verify;
             entity['textEmojiStyle'] = options;
             options = foxtrot.id;
-            if(!(mike == options)) { _fun96947_ip = 224; continue _fun96947 }
+            if(!(mike == options)) { _fun96957_ip = 224; continue _fun96957 }
  194:
             verify = foxtrot.surrogates;
-            if(!(mike == verify)) { _fun96947_ip = 208; continue _fun96947 }
+            if(!(mike == verify)) { _fun96957_ip = 208; continue _fun96957 }
  203:
             verify = foxtrot.name;
  208:
             yankee = mike != verify;
             options = '';
-            if(!yankee) { _fun96947_ip = 222; continue _fun96947 }
+            if(!yankee) { _fun96957_ip = 222; continue _fun96957 }
  219:
             options = verify;
  222:
-            _fun96947_ip = 229; continue _fun96947;
+            _fun96957_ip = 229; continue _fun96957;
  224:
             options = foxtrot.name;
  229:
             entity['name'] = options;
             options = foxtrot.id;
-            if(!(mike == options)) { _fun96947_ip = 249; continue _fun96947 }
+            if(!(mike == options)) { _fun96957_ip = 249; continue _fun96957 }
  242:
             options = foxtrot.url;
-            _fun96947_ip = 306; continue _fun96947;
+            _fun96957_ip = 306; continue _fun96957;
  249:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -128,10 +128,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  306:
             entity['src'] = options;
             entity = golf.bind(oscar)(report, entity);
-            _fun96947_ip = 398; continue _fun96947;
+            _fun96957_ip = 398; continue _fun96957;
  319:
             mike = null;
-            if(!tango) { _fun96947_ip = 395; continue _fun96947 }
+            if(!tango) { _fun96957_ip = 395; continue _fun96957 }
  324:
             report = _closure1_slot3;
             options = _closure1_slot1;

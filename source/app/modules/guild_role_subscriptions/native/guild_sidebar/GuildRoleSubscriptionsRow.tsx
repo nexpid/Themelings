@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/guild_sidebar/GuildRoleSubscriptionsRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionsRow
-        _fun115926: for(var _fun115926_ip = 0; ; ) switch(_fun115926_ip) {
+        _fun115932: for(var _fun115932_ip = 0; ; ) switch(_fun115932_ip) {
  0:
             zulu = argFoo;
             mike = zulu.guild;
@@ -143,10 +143,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[report];
             entity = mike.bind(tango)(entity);
             entity = entity.ChannelModes;
-            if(romeo) { _fun115926_ip = 131; continue _fun115926 }
+            if(romeo) { _fun115932_ip = 131; continue _fun115932 }
  123:
             golf = entity.DEFAULT;
-            _fun115926_ip = 137; continue _fun115926;
+            _fun115932_ip = 137; continue _fun115932;
  131:
             golf = entity.SELECTED;
  137:

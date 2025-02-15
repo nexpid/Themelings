@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/launchpad/native/shared/renderChannelItem.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: renderChannelItem
-        _fun121086: for(var _fun121086_ip = 0; ; ) switch(_fun121086_ip) {
+        _fun121092: for(var _fun121092_ip = 0; ; ) switch(_fun121092_ip) {
  0:
             entity = argFoo;
             oscar = entity.channel;
@@ -150,28 +150,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = entity.mentionBadge;
             source = entity.locked;
             tango = undefined;
-            if(!(source === tango)) { _fun121086_ip = 40; continue _fun121086 }
+            if(!(source === tango)) { _fun121092_ip = 40; continue _fun121092 }
  38:
             source = false;
  40:
             config = entity.unread;
-            if(!(config === tango)) { _fun121086_ip = 52; continue _fun121086 }
+            if(!(config === tango)) { _fun121092_ip = 52; continue _fun121092 }
  50:
             config = false;
  52:
             sequence = entity.resolvedUnreadSetting;
-            if(!(sequence === tango)) { _fun121086_ip = 75; continue _fun121086 }
+            if(!(sequence === tango)) { _fun121092_ip = 75; continue _fun121092 }
  62:
             mike = _closure1_slot5;
             sequence = mike.ONLY_MENTIONS;
  75:
             echo = entity.live;
-            if(!(echo === tango)) { _fun121086_ip = 87; continue _fun121086 }
+            if(!(echo === tango)) { _fun121092_ip = 87; continue _fun121092 }
  85:
             echo = false;
  87:
             vacuum = entity.muted;
-            if(!(vacuum === tango)) { _fun121086_ip = 99; continue _fun121086 }
+            if(!(vacuum === tango)) { _fun121092_ip = 99; continue _fun121092 }
  97:
             vacuum = false;
  99:
@@ -182,22 +182,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = entity.channelName;
             report = entity.fontScale;
             sizing = entity.isSubscriptionGated;
-            if(!(sizing === tango)) { _fun121086_ip = 146; continue _fun121086 }
+            if(!(sizing === tango)) { _fun121092_ip = 146; continue _fun121092 }
  144:
             sizing = false;
  146:
             backup = entity.needSubscriptionToAccess;
-            if(!(backup === tango)) { _fun121086_ip = 158; continue _fun121086 }
+            if(!(backup === tango)) { _fun121092_ip = 158; continue _fun121092 }
  156:
             backup = false;
  158:
             verify = null;
             entity = verify == zulu;
             control = null;
-            if(entity) { _fun121086_ip = 208; continue _fun121086 }
+            if(entity) { _fun121092_ip = 208; continue _fun121092 }
  169:
             control = null;
-            if(vacuum) { _fun121086_ip = 208; continue _fun121086 }
+            if(vacuum) { _fun121092_ip = 208; continue _fun121092 }
  174:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
@@ -247,13 +247,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = oscar.isGroupDM;
             target = target.bind(oscar)();
             lima = _closure1_slot6;
-            if(target) { _fun121086_ip = 414; continue _fun121086 }
+            if(target) { _fun121092_ip = 414; continue _fun121092 }
  396:
             status = _closure1_slot10;
             target = {};
             target['channel'] = oscar;
             target = lima.bind(tango)(status, target);
-            _fun121086_ip = 461; continue _fun121086;
+            _fun121092_ip = 461; continue _fun121092;
  414:
             sierra = _closure1_slot1;
             equality = _closure1_slot2;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = papa[yankee];
             romeo = romeo.bind(tango)(yankee);
             yankee = {};
-            if(!(verify == context)) { _fun121086_ip = 506; continue _fun121086 }
+            if(!(verify == context)) { _fun121092_ip = 506; continue _fun121092 }
  501:
             context = oscar.name;
  506:
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[2] = yankee;
             yankee = verify != foxtrot;
             verify = null;
-            if(!yankee) { _fun121086_ip = 623; continue _fun121086 }
+            if(!yankee) { _fun121092_ip = 623; continue _fun121092 }
  592:
             romeo = _closure1_slot6;
             yankee = _closure1_slot3;

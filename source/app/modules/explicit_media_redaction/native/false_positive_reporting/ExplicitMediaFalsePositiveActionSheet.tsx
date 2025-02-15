@@ -40,34 +40,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsxs;
     var _closure1_slot8 = tango;
     tango = function(argFoo) { // Original name: ExplicitMediaFalsePositivePreviewEmbed
-        _fun87441: for(var _fun87441_ip = 0; ; ) switch(_fun87441_ip) {
+        _fun87458: for(var _fun87458_ip = 0; ; ) switch(_fun87458_ip) {
  0:
             entity = argFoo;
             entity = entity.embed;
             mike = entity.video;
             report = undefined;
-            if(!(report !== mike)) { _fun87441_ip = 36; continue _fun87441 }
+            if(!(report !== mike)) { _fun87458_ip = 36; continue _fun87458 }
  21:
             zulu = entity.type;
             mike = 'gifv';
-            if(!(mike === zulu)) { _fun87441_ip = 60; continue _fun87441 }
+            if(!(mike === zulu)) { _fun87458_ip = 60; continue _fun87458 }
  36:
             mike = entity.thumbnail;
             zulu = null;
             zulu = zulu == mike;
             oscar = undefined;
-            if(zulu) { _fun87441_ip = 58; continue _fun87441 }
+            if(zulu) { _fun87458_ip = 58; continue _fun87458 }
  53:
             oscar = mike.url;
  58:
-            _fun87441_ip = 71; continue _fun87441;
+            _fun87458_ip = 71; continue _fun87458;
  60:
             entity = entity.video;
             oscar = entity.url;
  71:
             entity = null;
             mike = entity == oscar;
-            if(mike) { _fun87441_ip = 103; continue _fun87441 }
+            if(mike) { _fun87458_ip = 103; continue _fun87458 }
  80:
             tango = _closure1_slot7;
             zulu = _closure1_slot11;
@@ -80,14 +80,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = tango;
     tango = function(argFoo) { // Original name: ExplicitMediaFalsePositivePreviewAttachment
-        _fun87442: for(var _fun87442_ip = 0; ; ) switch(_fun87442_ip) {
+        _fun87459: for(var _fun87459_ip = 0; ; ) switch(_fun87459_ip) {
  0:
             entity = argFoo;
             entity = entity.attachment;
             mike = entity.url;
             entity = null;
             zulu = entity == mike;
-            if(zulu) { _fun87442_ip = 48; continue _fun87442 }
+            if(zulu) { _fun87459_ip = 48; continue _fun87459 }
  23:
             report = _closure1_slot7;
             tango = _closure1_slot11;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = tango;
     tango = function(argFoo) { // Original name: ExplicitMediaFalsePositivePreview
-        _fun87443: for(var _fun87443_ip = 0; ; ) switch(_fun87443_ip) {
+        _fun87460: for(var _fun87460_ip = 0; ; ) switch(_fun87460_ip) {
  0:
             entity = argFoo;
             offset = entity.url;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             entity['style'] = golf;
             options = _closure1_slot7;
-            if(report) { _fun87443_ip = 149; continue _fun87443 }
+            if(report) { _fun87460_ip = 150; continue _fun87460 }
  97:
             golf = _closure1_slot5;
             report = {};
@@ -139,8 +139,8 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['uri'] = offset;
             report['source'] = yankee;
             report = options.bind(tango)(golf, report);
-            _fun87443_ip = 213; continue _fun87443;
- 149:
+            _fun87460_ip = 215; continue _fun87460;
+ 150:
             golf = _closure1_slot1;
             yankee = _closure1_slot2;
             oscar = 4;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['uri'] = offset;
             oscar['source'] = verify;
             report = options.bind(tango)(golf, oscar);
- 213:
+ 215:
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
             return entity;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['handleError'] = tango;
     mike = function(argFoo) { // Original name: ExplicitMediaFalsePositiveActionSheet
-        _fun87446: for(var _fun87446_ip = 0; ; ) switch(_fun87446_ip) {
+        _fun87463: for(var _fun87463_ip = 0; ; ) switch(_fun87463_ip) {
  0:
             zulu = argFoo;
             options = zulu.channelId;
@@ -393,11 +393,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[2] = oscar;
             zulu[3] = mike;
             mike = function() {
-                _fun87448: for(var _fun87448_ip = 0; ; ) switch(_fun87448_ip) {
+                _fun87465: for(var _fun87465_ip = 0; ; ) switch(_fun87465_ip) {
  0:
                     mike = _closure2_slot2;
                     entity = null;
-                    if(!(entity != mike)) { _fun87448_ip = 23; continue _fun87448 }
+                    if(!(entity != mike)) { _fun87465_ip = 23; continue _fun87465 }
  13:
                     mike = _closure2_slot2;
                     entity = undefined;
@@ -518,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = yankee;
             yankee = null;
             backup = yankee != vacuum;
-            if(!backup) { _fun87446_ip = 477; continue _fun87446 }
+            if(!backup) { _fun87463_ip = 477; continue _fun87463 }
  456:
             control = _closure1_slot7;
             output = _closure1_slot10;
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  477:
             offset[2] = backup;
             yankee = yankee != update;
-            if(!yankee) { _fun87446_ip = 509; continue _fun87446 }
+            if(!yankee) { _fun87463_ip = 509; continue _fun87463 }
  488:
             output = _closure1_slot7;
             kilo = _closure1_slot9;

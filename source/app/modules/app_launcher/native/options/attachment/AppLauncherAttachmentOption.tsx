@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/attachment/AppLauncherAttachmentOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherAttachmentOption
-        _fun119206: for(var _fun119206_ip = 0; ; ) switch(_fun119206_ip) {
+        _fun119212: for(var _fun119212_ip = 0; ; ) switch(_fun119212_ip) {
  0:
             zulu = argFoo;
             verify = zulu.option;
@@ -204,30 +204,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             mike = golf == yankee;
             kilo = undefined;
-            if(mike) { _fun119206_ip = 220; continue _fun119206 }
+            if(mike) { _fun119212_ip = 220; continue _fun119212 }
  214:
             kilo = yankee.filename;
  220:
             mike = new Array(1);
             mike[0] = kilo;
             entity = function() {
-                _fun119211: for(var _fun119211_ip = 0; ; ) switch(_fun119211_ip) {
+                _fun119217: for(var _fun119217_ip = 0; ; ) switch(_fun119217_ip) {
  0:
                     entity = _closure2_slot3;
                     tango = null;
                     report = tango == entity;
                     entity = undefined;
                     zulu = undefined;
-                    if(report) { _fun119211_ip = 30; continue _fun119211 }
+                    if(report) { _fun119217_ip = 30; continue _fun119217 }
  20:
                     report = _closure2_slot3;
                     zulu = report.filename;
  30:
-                    if(!(tango != zulu)) { _fun119211_ip = 71; continue _fun119211 }
+                    if(!(tango != zulu)) { _fun119217_ip = 71; continue _fun119217 }
  34:
                     zulu = _closure2_slot4;
                     zulu = zulu.current;
-                    if(!(tango != zulu)) { _fun119211_ip = 71; continue _fun119211 }
+                    if(!(tango != zulu)) { _fun119217_ip = 71; continue _fun119217 }
  47:
                     tango = _closure2_slot4;
                     zulu = tango.current;
@@ -253,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['selected'] = verify;
             offset = golf != yankee;
             verify = undefined;
-            if(!offset) { _fun119206_ip = 305; continue _fun119206 }
+            if(!offset) { _fun119212_ip = 305; continue _fun119212 }
  299:
             verify = yankee.filename;
  305:
             entity['selectedItemName'] = verify;
-            if(!(golf != yankee)) { _fun119206_ip = 361; continue _fun119206 }
+            if(!(golf != yankee)) { _fun119212_ip = 361; continue _fun119212 }
  314:
             golf = yankee.item;
             verify = golf.platform;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(tango)(golf);
             golf = golf.UploadPlatform;
             golf = golf.REACT_NATIVE;
-            if(!(verify !== golf)) { _fun119206_ip = 443; continue _fun119206 }
+            if(!(verify !== golf)) { _fun119212_ip = 443; continue _fun119212 }
  361:
             offset = _closure1_slot7;
             verify = _closure1_slot4;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(tango)(foxtrot, romeo);
             golf['children'] = romeo;
             golf = offset.bind(tango)(verify, golf);
-            _fun119206_ip = 495; continue _fun119206;
+            _fun119212_ip = 497; continue _fun119212;
  443:
             offset = _closure1_slot7;
             verify = _closure1_slot9;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.isVideo;
             options['isVideo'] = yankee;
             golf = offset.bind(tango)(verify, options);
- 495:
+ 497:
             entity['leading'] = golf;
             entity['onPress'] = oscar;
             entity['autoFocus'] = report;

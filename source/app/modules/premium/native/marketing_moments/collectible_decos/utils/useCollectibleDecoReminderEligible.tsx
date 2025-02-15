@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/utils/useCollectibleDecoReminderEligible.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/utils/useCollectibleDecoReminderEligible.tsx
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     golf = argBar;
     zulu = argFred;
@@ -47,12 +47,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = undefined;
     options = golf.bind(entity)(oscar);
     golf = options.fileFinishedImporting;
-    oscar = 'modules/premium/native/marketingMoments/collectibleDecos/utils/useCollectibleDecoReminderEligible.tsx';
+    oscar = 'modules/premium/native/marketing_moments/collectible_decos/utils/useCollectibleDecoReminderEligible.tsx';
     oscar = golf.bind(options)(oscar);
     zulu['REMINDER_WINDOW_START_DATETIME_UTC'] = report;
     zulu['REMINDER_WINDOW_END_DATETIME_UTC'] = tango;
     mike = function(argFoo) {
-        _fun120804: for(var _fun120804_ip = 0; ; ) switch(_fun120804_ip) {
+        _fun120810: for(var _fun120810_ip = 0; ; ) switch(_fun120810_ip) {
  0:
             entity = argFoo;
             report = entity.location;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.enabled;
-            if(entity) { _fun120804_ip = 67; continue _fun120804 }
+            if(entity) { _fun120810_ip = 67; continue _fun120810 }
  63:
             entity = false;
             return entity;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity instanceof Object ? entity : zulu;
             entity = _closure1_slot2;
             entity = zulu >= entity;
-            if(!entity) { _fun120804_ip = 114; continue _fun120804 }
+            if(!entity) { _fun120810_ip = 114; continue _fun120810 }
  106:
             mike = _closure1_slot3;
             entity = zulu < mike;

@@ -27,19 +27,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: openLazy
-        _fun53195: for(var _fun53195_ip = 0; ; ) switch(_fun53195_ip) {
+        _fun53202: for(var _fun53202_ip = 0; ; ) switch(_fun53202_ip) {
  0:
             tango = argFoo;
             zulu = tango.importer;
             report = tango.hideActionSheet;
             mike = undefined;
-            if(!(report === mike)) { _fun53195_ip = 25; continue _fun53195 }
+            if(!(report === mike)) { _fun53202_ip = 25; continue _fun53202 }
  23:
             report = true;
  25:
             var _closure2_slot0 = report;
             tango = tango.isDismissable;
-            if(!(tango === mike)) { _fun53195_ip = 41; continue _fun53195 }
+            if(!(tango === mike)) { _fun53202_ip = 41; continue _fun53202 }
  39:
             tango = false;
  41:
@@ -47,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(mike)();
             mike = zulu.then;
             entity = function(argFoo) {
-                _fun53196: for(var _fun53196_ip = 0; ; ) switch(_fun53196_ip) {
+                _fun53203: for(var _fun53203_ip = 0; ; ) switch(_fun53203_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(!entity) { _fun53196_ip = 45; continue _fun53196 }
+                    if(!entity) { _fun53203_ip = 45; continue _fun53203 }
  10:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['close'] = golf;
     golf = function(argFoo) { // Original name: show
-        _fun53198: for(var _fun53198_ip = 0; ; ) switch(_fun53198_ip) {
+        _fun53205: for(var _fun53205_ip = 0; ; ) switch(_fun53205_ip) {
  0:
             options = argFoo;
             tango = this;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.isDismissable;
             mike = options.confirmText;
             entity = undefined;
-            if(!(mike === entity)) { _fun53198_ip = 90; continue _fun53198 }
+            if(!(mike === entity)) { _fun53205_ip = 90; continue _fun53205 }
  32:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;

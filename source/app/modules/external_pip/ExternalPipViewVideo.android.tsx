@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = sizing;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ExternalPipViewVideoUnavailable
-        _fun121222: for(var _fun121222_ip = 0; ; ) switch(_fun121222_ip) {
+        _fun121228: for(var _fun121228_ip = 0; ; ) switch(_fun121228_ip) {
  0:
             entity = argFoo;
             verify = entity.wasStream;
@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot10;
             golf = _closure1_slot0;
             romeo = _closure1_slot2;
-            if(verify) { _fun121222_ip = 85; continue _fun121222 }
+            if(verify) { _fun121228_ip = 85; continue _fun121228 }
  57:
             report = 10;
             report = romeo[report];
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.CircleInformationIcon;
             report = {};
             oscar = options.bind(tango)(oscar, report);
-            _fun121222_ip = 121; continue _fun121222;
+            _fun121228_ip = 121; continue _fun121228;
  85:
             report = 9;
             report = romeo[report];
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup[offset];
             romeo = yankee.bind(tango)(romeo);
             foxtrot = romeo.intl;
-            if(verify) { _fun121222_ip = 244; continue _fun121222 }
+            if(verify) { _fun121228_ip = 244; continue _fun121228 }
  212:
             romeo = foxtrot.string;
             verify = backup[offset];
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.Nzo5n5;
             verify = romeo.bind(foxtrot)(verify);
-            _fun121222_ip = 278; continue _fun121222;
+            _fun121228_ip = 278; continue _fun121228;
  244:
             romeo = foxtrot.formatToMarkdownString;
             offset = backup[offset];
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: ExternalPipViewVideoUser
-        _fun121223: for(var _fun121223_ip = 0; ; ) switch(_fun121223_ip) {
+        _fun121229: for(var _fun121229_ip = 0; ; ) switch(_fun121229_ip) {
  0:
             mike = argFoo;
             zulu = mike.userId;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = golf;
             entity = function() {
-                _fun121225: for(var _fun121225_ip = 0; ; ) switch(_fun121225_ip) {
+                _fun121231: for(var _fun121231_ip = 0; ; ) switch(_fun121231_ip) {
  0:
                     zulu = _closure1_slot7;
                     mike = zulu.getChannel;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun121225_ip = 40; continue _fun121225 }
+                    if(zulu) { _fun121231_ip = 40; continue _fun121231 }
  35:
                     entity = mike.guild_id;
  40:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = null;
             oscar = report != backup;
-            if(!oscar) { _fun121223_ip = 249; continue _fun121223 }
+            if(!oscar) { _fun121229_ip = 249; continue _fun121229 }
  159:
             options = _closure1_slot10;
             golf = _closure1_slot1;
@@ -177,18 +177,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: ExternalPipViewVideoStream
-        _fun121226: for(var _fun121226_ip = 0; ; ) switch(_fun121226_ip) {
+        _fun121232: for(var _fun121232_ip = 0; ; ) switch(_fun121232_ip) {
  0:
             mike = argFoo;
             romeo = mike.streamId;
             mike = function(argFoo) { // Original name: useStreamReady
-                _fun121227: for(var _fun121227_ip = 0; ; ) switch(_fun121227_ip) {
+                _fun121233: for(var _fun121233_ip = 0; ; ) switch(_fun121233_ip) {
  0:
                     mike = argFoo;
                     var _closure3_slot0 = mike;
                     yankee = undefined;
                     options = undefined;
-                    if(!(options === options)) { _fun121227_ip = 23; continue _fun121227 }
+                    if(!(options === options)) { _fun121233_ip = 23; continue _fun121233 }
  17:
                     options = 300;
  23:
@@ -235,11 +235,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report[0] = tango;
                     report[1] = options;
                     entity = function() {
-                        _fun121229: for(var _fun121229_ip = 0; ; ) switch(_fun121229_ip) {
+                        _fun121235: for(var _fun121235_ip = 0; ; ) switch(_fun121235_ip) {
  0:
                             tango = _closure3_slot2;
                             zulu = null;
-                            if(!(zulu != tango)) { _fun121229_ip = 30; continue _fun121229 }
+                            if(!(zulu != tango)) { _fun121235_ip = 30; continue _fun121235 }
  15:
                             report = _closure3_slot4;
                             zulu = undefined;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = backup;
             mike[1] = oscar;
             entity = function() {
-                _fun121232: for(var _fun121232_ip = 0; ; ) switch(_fun121232_ip) {
+                _fun121238: for(var _fun121238_ip = 0; ; ) switch(_fun121238_ip) {
  0:
                     entity = _closure2_slot1;
                     mike = entity.video;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = null;
                     tango = zulu == tango;
                     zulu = 1;
-                    if(!tango) { _fun121232_ip = 41; continue _fun121232 }
+                    if(!tango) { _fun121238_ip = 41; continue _fun121238 }
  39:
                     zulu = 0;
  41:
@@ -345,10 +345,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             verify = options == oscar;
             oscar = null;
-            if(!verify) { _fun121226_ip = 294; continue _fun121226 }
+            if(!verify) { _fun121232_ip = 294; continue _fun121232 }
  221:
             oscar = null;
-            if(!golf) { _fun121226_ip = 294; continue _fun121226 }
+            if(!golf) { _fun121232_ip = 294; continue _fun121232 }
  226:
             verify = _closure1_slot10;
             options = _closure1_slot6;
@@ -556,7 +556,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot13 = tango;
     tango = golf.memo;
     mike = function() { // Original name: ExternalPipViewVideo
-        _fun121233: for(var _fun121233_ip = 0; ; ) switch(_fun121233_ip) {
+        _fun121239: for(var _fun121239_ip = 0; ; ) switch(_fun121239_ip) {
  0:
             entity = _closure1_slot13;
             tango = undefined;
@@ -578,9 +578,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.container;
             entity['style'] = report;
             report = null;
-            if(!(report == verify)) { _fun121233_ip = 180; continue _fun121233 }
+            if(!(report == verify)) { _fun121239_ip = 180; continue _fun121239 }
  91:
-            if(!(report == foxtrot)) { _fun121233_ip = 149; continue _fun121233 }
+            if(!(report == foxtrot)) { _fun121239_ip = 149; continue _fun121239 }
  95:
             options = _closure1_slot10;
             golf = _closure1_slot14;
@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = _closure1_slot9;
             offset = offset.STREAM;
             offset = kilo === offset;
-            if(offset) { _fun121233_ip = 136; continue _fun121233 }
+            if(offset) { _fun121239_ip = 136; continue _fun121239 }
  122:
             backup = _closure1_slot9;
             backup = backup.HIDDEN_STREAM;
@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  136:
             report['wasStream'] = offset;
             report = options.bind(tango)(golf, report);
-            _fun121233_ip = 178; continue _fun121233;
+            _fun121239_ip = 178; continue _fun121239;
  149:
             offset = _closure1_slot10;
             options = _closure1_slot15;
@@ -606,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['speaking'] = yankee;
             report = offset.bind(tango)(options, golf);
  178:
-            _fun121233_ip = 201; continue _fun121233;
+            _fun121239_ip = 201; continue _fun121239;
  180:
             options = _closure1_slot10;
             golf = _closure1_slot16;

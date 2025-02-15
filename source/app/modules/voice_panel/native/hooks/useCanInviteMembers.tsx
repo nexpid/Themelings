@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun121794: for(var _fun121794_ip = 0; ; ) switch(_fun121794_ip) {
+            _fun121800: for(var _fun121800_ip = 0; ; ) switch(_fun121800_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getChannel;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = zulu.bind(tango)(entity);
                 entity = null;
                 entity = entity != report;
-                if(!entity) { _fun121794_ip = 59; continue _fun121794 }
+                if(!entity) { _fun121800_ip = 59; continue _fun121800 }
  33:
                 oscar = _closure1_slot3;
                 tango = oscar.can;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.CONNECT;
                 entity = tango.bind(oscar)(zulu, report);
  59:
-                if(!entity) { _fun121794_ip = 88; continue _fun121794 }
+                if(!entity) { _fun121800_ip = 88; continue _fun121800 }
  62:
                 tango = _closure1_slot3;
                 zulu = tango.can;

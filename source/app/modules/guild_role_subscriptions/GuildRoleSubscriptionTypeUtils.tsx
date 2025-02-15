@@ -31,12 +31,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/GuildRoleSubscriptionTypeUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getBenefitKey
-        _fun96858: for(var _fun96858_ip = 0; ; ) switch(_fun96858_ip) {
+        _fun96868: for(var _fun96868_ip = 0; ; ) switch(_fun96868_ip) {
  0:
             mike = argFoo;
             entity = 'roles';
             entity = entity in mike;
-            if(entity) { _fun96858_ip = 73; continue _fun96858 }
+            if(entity) { _fun96868_ip = 73; continue _fun96868 }
  14:
             kilo = mike.ref_type;
             foxtrot = mike.emoji_id;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             romeo = entity;
             offset = entity;
             entity = sizing[tango](kilo, backup, foxtrot, romeo, yankee, offset, verify, options);
-            _fun96858_ip = 102; continue _fun96858;
+            _fun96868_ip = 102; continue _fun96868;
  73:
             tango = mike.id;
             mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getBenefitKey'] = tango;
     tango = function(argFoo) { // Original name: formatPlanInterval
-        _fun96859: for(var _fun96859_ip = 0; ; ) switch(_fun96859_ip) {
+        _fun96869: for(var _fun96869_ip = 0; ; ) switch(_fun96869_ip) {
  0:
             entity = argFoo;
             verify = entity.interval;
@@ -80,16 +80,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.format;
             mike = _closure1_slot3;
             mike = mike.DAY;
-            if(!(mike !== verify)) { _fun96859_ip = 154; continue _fun96859 }
+            if(!(mike !== verify)) { _fun96869_ip = 154; continue _fun96869 }
  64:
             mike = _closure1_slot3;
             mike = mike.MONTH;
-            if(!(mike !== verify)) { _fun96859_ip = 124; continue _fun96859 }
+            if(!(mike !== verify)) { _fun96869_ip = 124; continue _fun96869 }
  78:
             mike = _closure1_slot3;
             oscar = mike.YEAR;
             mike = undefined;
-            if(!(oscar === verify)) { _fun96859_ip = 182; continue _fun96859 }
+            if(!(oscar === verify)) { _fun96869_ip = 182; continue _fun96869 }
  94:
             verify = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = verify.bind(golf)(oscar);
             oscar = oscar.t;
             mike = oscar.cuSp8f;
-            _fun96859_ip = 182; continue _fun96859;
+            _fun96869_ip = 182; continue _fun96869;
  124:
             verify = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = verify.bind(golf)(oscar);
             oscar = oscar.t;
             mike = oscar.zuN54+;
-            _fun96859_ip = 182; continue _fun96859;
+            _fun96869_ip = 182; continue _fun96869;
  154:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -122,22 +122,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['formatPlanInterval'] = tango;
     tango = function(argFoo) { // Original name: formatPlanIntervalDuration
-        _fun96860: for(var _fun96860_ip = 0; ; ) switch(_fun96860_ip) {
+        _fun96870: for(var _fun96870_ip = 0; ; ) switch(_fun96870_ip) {
  0:
             entity = argFoo;
             zulu = entity.interval;
             golf = entity.interval_count;
             entity = _closure1_slot3;
             entity = entity.DAY;
-            if(!(entity !== zulu)) { _fun96860_ip = 201; continue _fun96860 }
+            if(!(entity !== zulu)) { _fun96870_ip = 201; continue _fun96870 }
  35:
             entity = _closure1_slot3;
             entity = entity.MONTH;
-            if(!(entity !== zulu)) { _fun96860_ip = 134; continue _fun96860 }
+            if(!(entity !== zulu)) { _fun96870_ip = 134; continue _fun96870 }
  49:
             entity = _closure1_slot3;
             entity = entity.YEAR;
-            if(!(entity !== zulu)) { _fun96860_ip = 67; continue _fun96860 }
+            if(!(entity !== zulu)) { _fun96870_ip = 67; continue _fun96870 }
  63:
             entity = undefined;
             return entity;
@@ -177,11 +177,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             return entity;
  201:
             zulu = 0;
-            if(!(golf > zulu)) { _fun96860_ip = 218; continue _fun96860 }
+            if(!(golf > zulu)) { _fun96870_ip = 218; continue _fun96870 }
  207:
             oscar = 7;
             entity = golf % oscar;
-            if(!(entity !== zulu)) { _fun96860_ip = 285; continue _fun96860 }
+            if(!(entity !== zulu)) { _fun96870_ip = 285; continue _fun96870 }
  218:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             entity['days'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun96860_ip = 354; continue _fun96860;
+            _fun96870_ip = 354; continue _fun96870;
  285:
             options = _closure1_slot0;
             verify = _closure1_slot1;

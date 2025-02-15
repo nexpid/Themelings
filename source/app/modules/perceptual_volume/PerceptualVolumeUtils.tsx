@@ -22,17 +22,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/perceptual_volume/PerceptualVolumeUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: perceptualToAmplitude
-        _fun52745: for(var _fun52745_ip = 0; ; ) switch(_fun52745_ip) {
+        _fun52752: for(var _fun52752_ip = 0; ; ) switch(_fun52752_ip) {
  0:
             mike = argFoo;
             zulu = arguments[1];
             report = undefined;
-            if(!(zulu === report)) { _fun52745_ip = 15; continue _fun52745 }
+            if(!(zulu === report)) { _fun52752_ip = 15; continue _fun52752 }
  12:
             zulu = 100;
  15:
             entity = 0;
-            if(!(entity !== mike)) { _fun52745_ip = 176; continue _fun52745 }
+            if(!(entity !== mike)) { _fun52752_ip = 176; continue _fun52752 }
  24:
             golf = mike / zulu;
             tango = _closure1_slot0;
@@ -45,16 +45,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['location'] = oscar;
             tango = tango.bind(report)(mike);
             mike = 1;
-            if(!(golf < mike)) { _fun52745_ip = 86; continue _fun52745 }
+            if(!(golf < mike)) { _fun52752_ip = 86; continue _fun52752 }
  76:
             report = tango.gamma;
-            if(!(!(report >= entity))) { _fun52745_ip = 144; continue _fun52745 }
+            if(!(!(report >= entity))) { _fun52752_ip = 144; continue _fun52752 }
  86:
             report = golf - mike;
-            if(!(!(golf > mike))) { _fun52745_ip = 102; continue _fun52745 }
+            if(!(!(golf > mike))) { _fun52752_ip = 102; continue _fun52752 }
  94:
             mike = tango.attenuationRange;
-            _fun52745_ip = 108; continue _fun52745;
+            _fun52752_ip = 108; continue _fun52752;
  102:
             mike = tango.boostRange;
  108:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 20;
             mike = verify / mike;
             mike = oscar.bind(options)(report, mike);
-            _fun52745_ip = 170; continue _fun52745;
+            _fun52752_ip = 170; continue _fun52752;
  144:
             report = global;
             oscar = report.Math;
@@ -82,17 +82,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['perceptualToAmplitude'] = tango;
     mike = function(argFoo) { // Original name: amplitudeToPerceptual
-        _fun52746: for(var _fun52746_ip = 0; ; ) switch(_fun52746_ip) {
+        _fun52753: for(var _fun52753_ip = 0; ; ) switch(_fun52753_ip) {
  0:
             mike = argFoo;
             zulu = arguments[1];
             report = undefined;
-            if(!(zulu === report)) { _fun52746_ip = 15; continue _fun52746 }
+            if(!(zulu === report)) { _fun52753_ip = 15; continue _fun52753 }
  12:
             zulu = 100;
  15:
             entity = 0;
-            if(!(entity !== mike)) { _fun52746_ip = 176; continue _fun52746 }
+            if(!(entity !== mike)) { _fun52753_ip = 176; continue _fun52753 }
  24:
             golf = mike / zulu;
             tango = _closure1_slot0;
@@ -105,10 +105,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['location'] = oscar;
             tango = tango.bind(report)(mike);
             options = 1;
-            if(!(golf < options)) { _fun52746_ip = 86; continue _fun52746 }
+            if(!(golf < options)) { _fun52753_ip = 86; continue _fun52753 }
  76:
             mike = tango.gamma;
-            if(!(!(mike >= entity))) { _fun52746_ip = 140; continue _fun52746 }
+            if(!(!(mike >= entity))) { _fun52753_ip = 140; continue _fun52753 }
  86:
             mike = global;
             report = mike.Math;
@@ -116,16 +116,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = mike.bind(report)(golf);
             mike = 20;
             report = mike * report;
-            if(!(!(report > entity))) { _fun52746_ip = 124; continue _fun52746 }
+            if(!(!(report > entity))) { _fun52753_ip = 124; continue _fun52753 }
  116:
             mike = tango.attenuationRange;
-            _fun52746_ip = 130; continue _fun52746;
+            _fun52753_ip = 130; continue _fun52753;
  124:
             mike = tango.boostRange;
  130:
             mike = report / mike;
             mike = mike + options;
-            _fun52746_ip = 170; continue _fun52746;
+            _fun52753_ip = 170; continue _fun52753;
  140:
             report = global;
             oscar = report.Math;

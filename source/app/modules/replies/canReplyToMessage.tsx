@@ -7,32 +7,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: hasReplyPermission
-        _fun72671: for(var _fun72671_ip = 0; ; ) switch(_fun72671_ip) {
+        _fun72677: for(var _fun72677_ip = 0; ; ) switch(_fun72677_ip) {
  0:
             zulu = argFoo;
             report = argBaz;
             entity = zulu.isPrivate;
             entity = entity.bind(zulu)();
-            if(entity) { _fun72671_ip = 71; continue _fun72671 }
+            if(entity) { _fun72677_ip = 71; continue _fun72677 }
  19:
             tango = report.can;
             entity = _closure1_slot7;
             entity = entity.SEND_MESSAGES;
             entity = tango.bind(report)(entity, zulu);
-            if(!entity) { _fun72671_ip = 69; continue _fun72671 }
+            if(!entity) { _fun72677_ip = 69; continue _fun72677 }
  47:
             tango = report.can;
             mike = _closure1_slot7;
             mike = mike.READ_MESSAGE_HISTORY;
             entity = tango.bind(report)(mike, zulu);
  69:
-            _fun72671_ip = 84; continue _fun72671;
+            _fun72677_ip = 84; continue _fun72677;
  71:
             mike = zulu.isSystemDM;
             mike = mike.bind(zulu)();
             entity = !mike;
  84:
-            if(!entity) { _fun72671_ip = 142; continue _fun72671 }
+            if(!entity) { _fun72677_ip = 142; continue _fun72677 }
  87:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: _canReplyToMessage
-        _fun72672: for(var _fun72672_ip = 0; ; ) switch(_fun72672_ip) {
+        _fun72678: for(var _fun72678_ip = 0; ; ) switch(_fun72678_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
@@ -69,24 +69,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = oscar.isArchivedThread;
             mike = mike.bind(oscar)();
             mike = !mike;
-            if(mike) { _fun72672_ip = 74; continue _fun72672 }
+            if(mike) { _fun72678_ip = 74; continue _fun72678 }
  71:
             mike = report;
  74:
-            if(!entity) { _fun72672_ip = 80; continue _fun72672 }
+            if(!entity) { _fun72678_ip = 80; continue _fun72678 }
  77:
             entity = tango;
  80:
-            if(!entity) { _fun72672_ip = 86; continue _fun72672 }
+            if(!entity) { _fun72678_ip = 86; continue _fun72678 }
  83:
             entity = !zulu;
  86:
-            if(!entity) { _fun72672_ip = 95; continue _fun72672 }
+            if(!entity) { _fun72678_ip = 95; continue _fun72678 }
  89:
             zulu = argCorge;
             entity = !zulu;
  95:
-            if(!entity) { _fun72672_ip = 101; continue _fun72672 }
+            if(!entity) { _fun72678_ip = 101; continue _fun72678 }
  98:
             entity = mike;
  101:
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     tango = 'modules/replies/canReplyToMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: useCanReplyToMessage
-        _fun72673: for(var _fun72673_ip = 0; ; ) switch(_fun72673_ip) {
+        _fun72679: for(var _fun72679_ip = 0; ; ) switch(_fun72679_ip) {
  0:
             options = argFoo;
             golf = argBar;
@@ -155,14 +155,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             verify = null;
             zulu = verify == options;
             yankee = undefined;
-            if(zulu) { _fun72673_ip = 91; continue _fun72673 }
+            if(zulu) { _fun72679_ip = 91; continue _fun72679 }
  81:
             zulu = options.getGuildId;
             yankee = zulu.bind(options)();
  91:
             romeo = verify != yankee;
             zulu = undefined;
-            if(!romeo) { _fun72673_ip = 103; continue _fun72673 }
+            if(!romeo) { _fun72679_ip = 103; continue _fun72679 }
  100:
             zulu = yankee;
  103:
@@ -182,17 +182,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = new Array(1);
             zulu[0] = romeo;
             entity = function() {
-                _fun72674: for(var _fun72674_ip = 0; ; ) switch(_fun72674_ip) {
+                _fun72680: for(var _fun72680_ip = 0; ; ) switch(_fun72680_ip) {
  0:
                     entity = _closure2_slot0;
                     tango = null;
                     entity = tango != entity;
-                    if(!entity) { _fun72674_ip = 24; continue _fun72674 }
+                    if(!entity) { _fun72680_ip = 24; continue _fun72680 }
  16:
                     mike = _closure2_slot1;
                     entity = tango != mike;
  24:
-                    if(!entity) { _fun72674_ip = 55; continue _fun72674 }
+                    if(!entity) { _fun72680_ip = 55; continue _fun72680 }
  27:
                     oscar = _closure1_slot8;
                     report = _closure2_slot0;
@@ -206,11 +206,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             };
             zulu = offset.bind(yankee)(zulu, entity);
             entity = verify != options;
-            if(!entity) { _fun72673_ip = 189; continue _fun72673 }
+            if(!entity) { _fun72679_ip = 189; continue _fun72679 }
  185:
             entity = verify != golf;
  189:
-            if(!entity) { _fun72673_ip = 217; continue _fun72673 }
+            if(!entity) { _fun72679_ip = 217; continue _fun72679 }
  192:
             mike = _closure1_slot9;
             result = undefined;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['useCanReplyToMessage'] = tango;
     mike = function(argFoo, argBar) { // Original name: canReplyToMessage
-        _fun72675: for(var _fun72675_ip = 0; ; ) switch(_fun72675_ip) {
+        _fun72681: for(var _fun72681_ip = 0; ; ) switch(_fun72681_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = null;
             romeo = mike == yankee;
             options = undefined;
-            if(romeo) { _fun72675_ip = 104; continue _fun72675 }
+            if(romeo) { _fun72681_ip = 104; continue _fun72681 }
  99:
             options = yankee.id;
  104:
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             yankee = yankee.bind(golf)();
             romeo = mike != yankee;
             mike = undefined;
-            if(!romeo) { _fun72675_ip = 126; continue _fun72675 }
+            if(!romeo) { _fun72681_ip = 126; continue _fun72681 }
  123:
             mike = yankee;
  126:

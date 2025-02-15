@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/RetryIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun80418: for(var _fun80418_ip = 0; ; ) switch(_fun80418_ip) {
+        _fun80430: for(var _fun80430_ip = 0; ; ) switch(_fun80430_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun80418_ip = 53; continue _fun80418 }
+            if(!(golf === tango)) { _fun80430_ip = 53; continue _fun80430 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

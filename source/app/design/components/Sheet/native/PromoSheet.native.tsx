@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Sheet/native/PromoSheet.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PromoSheet
-        _fun48757: for(var _fun48757_ip = 0; ; ) switch(_fun48757_ip) {
+        _fun48764: for(var _fun48764_ip = 0; ; ) switch(_fun48764_ip) {
  0:
             zulu = argFoo;
             source = zulu.title;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report['spacing'] = options;
             options = backup != sizing;
             yankee = null;
-            if(!options) { _fun48757_ip = 205; continue _fun48757 }
+            if(!options) { _fun48764_ip = 205; continue _fun48764 }
  175:
             foxtrot = _closure1_slot3;
             romeo = _closure1_slot2;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             foxtrot[0] = sizing;
             sizing = backup != result;
             backup = null;
-            if(!sizing) { _fun48757_ip = 368; continue _fun48757 }
+            if(!sizing) { _fun48764_ip = 368; continue _fun48764 }
  313:
             output = _closure1_slot3;
             sizing = _closure1_slot0;

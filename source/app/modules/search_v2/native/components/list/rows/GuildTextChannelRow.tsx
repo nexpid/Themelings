@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GuildTextChannelRow
-        _fun113544: for(var _fun113544_ip = 0; ; ) switch(_fun113544_ip) {
+        _fun113550: for(var _fun113550_ip = 0; ; ) switch(_fun113550_ip) {
  0:
             report = argFoo;
             options = report.channel;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = options.guild_id;
             var _closure2_slot3 = romeo;
             entity = zulu != verify;
-            if(!entity) { _fun113544_ip = 137; continue _fun113544 }
+            if(!entity) { _fun113550_ip = 137; continue _fun113550 }
  103:
             oscar = _closure1_slot1;
             offset = _closure1_slot2;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = romeo;
             oscar[2] = zulu;
             zulu = function() {
-                _fun113545: for(var _fun113545_ip = 0; ; ) switch(_fun113545_ip) {
+                _fun113551: for(var _fun113551_ip = 0; ; ) switch(_fun113551_ip) {
  0:
                     mike = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = _closure2_slot4;
                     oscar = null;
                     golf = oscar != golf;
-                    if(!golf) { _fun113545_ip = 84; continue _fun113545 }
+                    if(!golf) { _fun113551_ip = 84; continue _fun113551 }
  49:
                     options = _closure1_slot0;
                     offset = _closure1_slot2;

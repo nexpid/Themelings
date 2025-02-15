@@ -124,17 +124,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot[3] = output;
         foxtrot[4] = yankee;
         yankee = function() {
-            _fun84348: for(var _fun84348_ip = 0; ; ) switch(_fun84348_ip) {
+            _fun84364: for(var _fun84364_ip = 0; ; ) switch(_fun84364_ip) {
  0:
                 mike = _closure2_slot0;
-                if(mike) { _fun84348_ip = 30; continue _fun84348 }
+                if(mike) { _fun84364_ip = 30; continue _fun84364 }
  10:
                 mike = _closure2_slot6;
                 zulu = undefined;
                 mike = mike.bind(zulu)();
                 mike = _closure2_slot7;
                 mike = mike.bind(zulu)();
-                _fun84348_ip = 48; continue _fun84348;
+                _fun84364_ip = 48; continue _fun84364;
  30:
                 zulu = _closure2_slot8;
                 mike = undefined;
@@ -170,25 +170,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = romeo.bind(tango)(yankee);
         offset = function() {
             entity = function() {
-                _fun84351: for(var _fun84351_ip = 0; ; ) switch(_fun84351_ip) {
+                _fun84367: for(var _fun84367_ip = 0; ; ) switch(_fun84367_ip) {
  0:
                     mike = _closure2_slot1;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun84351_ip = 27; continue _fun84351 }
+                    if(!(zulu != mike)) { _fun84367_ip = 27; continue _fun84367 }
  13:
                     tango = _closure2_slot1;
                     mike = tango.dispose;
                     mike = mike.bind(tango)();
  27:
                     mike = _closure2_slot2;
-                    if(!(zulu != mike)) { _fun84351_ip = 49; continue _fun84351 }
+                    if(!(zulu != mike)) { _fun84367_ip = 49; continue _fun84367 }
  35:
                     tango = _closure2_slot2;
                     mike = tango.dispose;
                     mike = mike.bind(tango)();
  49:
                     mike = _closure2_slot3;
-                    if(!(zulu != mike)) { _fun84351_ip = 71; continue _fun84351 }
+                    if(!(zulu != mike)) { _fun84367_ip = 71; continue _fun84367 }
  57:
                     mike = _closure2_slot3;
                     entity = mike.dispose;

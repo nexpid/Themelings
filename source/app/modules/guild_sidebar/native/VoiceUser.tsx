@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/VoiceUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoiceUserConnected
-        _fun115807: for(var _fun115807_ip = 0; ; ) switch(_fun115807_ip) {
+        _fun115813: for(var _fun115813_ip = 0; ; ) switch(_fun115813_ip) {
  0:
             entity = argFoo;
             romeo = entity.channel;
@@ -95,10 +95,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(1);
             yankee[0] = offset;
             offset = function() {
-                _fun115808: for(var _fun115808_ip = 0; ; ) switch(_fun115808_ip) {
+                _fun115814: for(var _fun115814_ip = 0; ; ) switch(_fun115814_ip) {
  0:
                     entity = _closure2_slot3;
-                    if(entity) { _fun115808_ip = 59; continue _fun115808 }
+                    if(entity) { _fun115814_ip = 59; continue _fun115814 }
  10:
                     entity = {'localMute': null, 'localDeaf': false, 'localVideo': false};
                     tango = _closure1_slot7;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.id;
                     mike = zulu.bind(tango)(mike);
                     entity['localMute'] = mike;
-                    _fun115808_ip = 98; continue _fun115808;
+                    _fun115814_ip = 98; continue _fun115814;
  59:
                     mike = {'localMute': false, 'localDeaf': false};
                     tango = _closure1_slot7;
@@ -147,13 +147,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(1);
             yankee[0] = offset;
             offset = function() {
-                _fun115810: for(var _fun115810_ip = 0; ; ) switch(_fun115810_ip) {
+                _fun115816: for(var _fun115816_ip = 0; ; ) switch(_fun115816_ip) {
  0:
                     entity = _closure2_slot2;
                     tango = null;
                     report = tango != entity;
                     entity = undefined;
-                    if(!report) { _fun115810_ip = 64; continue _fun115810 }
+                    if(!report) { _fun115816_ip = 64; continue _fun115816 }
  18:
                     oscar = _closure1_slot8;
                     report = oscar.getSessionById;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = report.bind(oscar)(zulu);
                     tango = tango == zulu;
                     mike = undefined;
-                    if(tango) { _fun115810_ip = 61; continue _fun115810 }
+                    if(tango) { _fun115816_ip = 61; continue _fun115816 }
  49:
                     zulu = zulu.clientInfo;
                     mike = zulu.os;
@@ -196,11 +196,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = config.bind(record)(yankee, oscar, verify);
             verify = null;
             yankee = verify != options;
-            if(!yankee) { _fun115807_ip = 334; continue _fun115807 }
+            if(!yankee) { _fun115813_ip = 334; continue _fun115813 }
  331:
             yankee = report;
  334:
-            if(!yankee) { _fun115807_ip = 355; continue _fun115807 }
+            if(!yankee) { _fun115813_ip = 355; continue _fun115813 }
  337:
             config = _closure1_slot6;
             report = config.getSessionId;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['member'] = sequence;
             entity['user'] = vacuum;
             entity['collapsed'] = control;
-            if(update) { _fun115807_ip = 515; continue _fun115807 }
+            if(update) { _fun115813_ip = 515; continue _fun115813 }
  512:
             update = source;
  515:
@@ -279,14 +279,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['mute'] = result;
             entity['deaf'] = output;
             entity['localMute'] = sizing;
-            if(foxtrot) { _fun115807_ip = 546; continue _fun115807 }
+            if(foxtrot) { _fun115813_ip = 546; continue _fun115813 }
  543:
             foxtrot = kilo;
  546:
             entity['video'] = foxtrot;
             kilo = verify == backup;
             foxtrot = undefined;
-            if(kilo) { _fun115807_ip = 565; continue _fun115807 }
+            if(kilo) { _fun115813_ip = 565; continue _fun115813 }
  560:
             foxtrot = backup.channelId;
  565:
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['stream'] = romeo;
             entity['platform'] = offset;
             offset = verify == offset;
-            if(!offset) { _fun115807_ip = 594; continue _fun115807 }
+            if(!offset) { _fun115813_ip = 594; continue _fun115813 }
  591:
             offset = yankee;
  594:

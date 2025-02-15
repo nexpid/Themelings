@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = backup;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun66241: for(var _fun66241_ip = 0; ; ) switch(_fun66241_ip) {
+        _fun66247: for(var _fun66247_ip = 0; ; ) switch(_fun66247_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = _closure1_slot18;
             entity = entity.bind(zulu)();
-            if(entity) { _fun66241_ip = 51; continue _fun66241 }
+            if(entity) { _fun66247_ip = 51; continue _fun66247 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun66241_ip = 92; continue _fun66241;
+            _fun66247_ip = 92; continue _fun66247;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun66241_ip = 71; continue _fun66241 }
+            if(oscar) { _fun66247_ip = 71; continue _fun66247 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot17 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun66242: for(var _fun66242_ip = 0; ; ) switch(_fun66242_ip) {
+        _fun66248: for(var _fun66248_ip = 0; ; ) switch(_fun66248_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun66242_ip = 76; continue _fun66242;
+            _fun66248_ip = 76; continue _fun66248;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     foxtrot = report.bind(entity)(offset);
     yankee = foxtrot.experimental_createToken;
     offset = function(argFoo) {
-        _fun66245: for(var _fun66245_ip = 0; ; ) switch(_fun66245_ip) {
+        _fun66251: for(var _fun66251_ip = 0; ; ) switch(_fun66251_ip) {
  0:
             entity = argFoo;
             tango = entity.theme;
@@ -170,12 +170,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf[mike];
             mike = zulu.bind(oscar)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun66245_ip = 119; continue _fun66245 }
+            if(entity) { _fun66251_ip = 119; continue _fun66251 }
  95:
             zulu = mike.BRAND_500;
             entity = 0.2;
             entity = tango.bind(report)(zulu, entity);
-            _fun66245_ip = 141; continue _fun66245;
+            _fun66251_ip = 141; continue _fun66251;
  119:
             zulu = mike.WHITE_500;
             mike = 0.5;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'getContainerStyle';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun66252: for(var _fun66252_ip = 0; ; ) switch(_fun66252_ip) {
+            _fun66258: for(var _fun66258_ip = 0; ; ) switch(_fun66258_ip) {
  0:
                 mike = this;
                 entity = _closure1_slot13;
@@ -353,10 +353,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = golf[entity];
                 entity = tango.bind(oscar)(entity);
                 entity = entity.unsafe_rawColors;
-                if(zulu) { _fun66252_ip = 102; continue _fun66252 }
+                if(zulu) { _fun66258_ip = 102; continue _fun66258 }
  94:
                 golf = entity.BRAND_500;
-                _fun66252_ip = 108; continue _fun66252;
+                _fun66258_ip = 108; continue _fun66258;
  102:
                 golf = entity.WHITE_500;
  108:

@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike = report.bind(entity)(mike);
     var _closure1_slot4 = mike;
     mike = function(argFoo, argBar) { // Original name: getHighestHoistedRole
-        _fun57417: for(var _fun57417_ip = 0; ; ) switch(_fun57417_ip) {
+        _fun57420: for(var _fun57420_ip = 0; ; ) switch(_fun57420_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             mike = arguments[2];
             golf = undefined;
-            if(!(mike === golf)) { _fun57417_ip = 41; continue _fun57417 }
+            if(!(mike === golf)) { _fun57420_ip = 41; continue _fun57420 }
  15:
             tango = _closure1_slot4;
             entity = new Array(2);
@@ -48,42 +48,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity;
             mike = mike === golf;
             zulu = undefined;
-            if(mike) { _fun57417_ip = 66; continue _fun57417 }
+            if(mike) { _fun57420_ip = 66; continue _fun57420 }
  63:
             zulu = tango;
  66:
             tango = undefined;
-            if(mike) { _fun57417_ip = 96; continue _fun57417 }
+            if(mike) { _fun57420_ip = 96; continue _fun57420 }
  71:
             verify = options().value;
             options = entity;
             options = options === golf;
             tango = undefined;
             mike = options;
-            if(options) { _fun57417_ip = 96; continue _fun57417 }
+            if(options) { _fun57420_ip = 96; continue _fun57420 }
  90:
             tango = verify;
             mike = options;
  96:
-            if(mike) { _fun57417_ip = 102; continue _fun57417 }
+            if(mike) { _fun57420_ip = 102; continue _fun57420 }
  99:
             entity.return();
  102:
             entity = null;
-            if(!(entity != oscar)) { _fun57417_ip = 191; continue _fun57417 }
+            if(!(entity != oscar)) { _fun57420_ip = 191; continue _fun57420 }
  108:
-            if(!(entity != report)) { _fun57417_ip = 191; continue _fun57417 }
+            if(!(entity != report)) { _fun57420_ip = 191; continue _fun57420 }
  112:
             mike = zulu.getGuild;
             oscar = mike.bind(zulu)(oscar);
-            if(!(entity != oscar)) { _fun57417_ip = 189; continue _fun57417 }
+            if(!(entity != oscar)) { _fun57420_ip = 189; continue _fun57420 }
  126:
             zulu = tango.getMember;
             mike = oscar.id;
             report = zulu.bind(tango)(mike, report);
             zulu = entity == report;
             mike = null;
-            if(zulu) { _fun57417_ip = 187; continue _fun57417 }
+            if(zulu) { _fun57420_ip = 187; continue _fun57420 }
  152:
             tango = _closure1_slot1;
             options = _closure1_slot2;

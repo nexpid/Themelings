@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/oauth2/native/BotPermissions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BotPermissions
-        _fun73914: for(var _fun73914_ip = 0; ; ) switch(_fun73914_ip) {
+        _fun73924: for(var _fun73924_ip = 0; ; ) switch(_fun73924_ip) {
  0:
             zulu = argFoo;
             control = zulu.application;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = backup.length;
             golf = oscar > golf;
             oscar = null;
-            if(!golf) { _fun73914_ip = 729; continue _fun73914 }
+            if(!golf) { _fun73924_ip = 729; continue _fun73924 }
  532:
             verify = _closure1_slot7;
             options = _closure1_slot5;

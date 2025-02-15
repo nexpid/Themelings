@@ -1,6 +1,6 @@
 // app/modules/hangouts/native/NativeHangoutsUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun124143: for(var _fun124143_ip = 0; ; ) switch(_fun124143_ip) {
+    _fun124139: for(var _fun124139_ip = 0; ; ) switch(_fun124139_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = report.bind(entity)(golf);
         golf = verify.isIOS;
         golf = golf.bind(verify)();
-        if(!golf) { _fun124143_ip = 163; continue _fun124143 }
+        if(!golf) { _fun124139_ip = 163; continue _fun124139 }
  112:
         romeo = tango.DCDLockscreenWidgetManager;
         golf = options.prototype;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = 'modules/hangouts/native/NativeHangoutsUtils.tsx';
         tango = report.bind(oscar)(tango);
         tango = function(argFoo, argBar) { // Original name: preloadAsset
-            _fun124145: for(var _fun124145_ip = 0; ; ) switch(_fun124145_ip) {
+            _fun124141: for(var _fun124141_ip = 0; ; ) switch(_fun124141_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isIOS;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun124145_ip = 68; continue _fun124145 }
+                if(!zulu) { _fun124141_ip = 68; continue _fun124141 }
  38:
                 mike = _closure1_slot3;
                 report = mike.DCDLockscreenWidgetManager;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['preloadAsset'] = tango;
         tango = function() { // Original name: hasActivity
-            _fun124146: for(var _fun124146_ip = 0; ; ) switch(_fun124146_ip) {
+            _fun124142: for(var _fun124142_ip = 0; ; ) switch(_fun124142_ip) {
  0:
                 report = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.isIOS;
                 tango = mike.bind(tango)();
                 mike = global;
-                if(tango) { _fun124146_ip = 75; continue _fun124146 }
+                if(tango) { _fun124142_ip = 75; continue _fun124142 }
  42:
                 oscar = mike.Promise;
                 report = oscar.resolve;
@@ -120,19 +120,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = _closure2_slot0;
                     mike = zulu.hasActivity;
                     entity = function(argFoo, argBar, argBaz) {
-                        _fun124148: for(var _fun124148_ip = 0; ; ) switch(_fun124148_ip) {
+                        _fun124144: for(var _fun124144_ip = 0; ; ) switch(_fun124144_ip) {
  0:
                             zulu = _closure3_slot0;
                             mike = null;
                             entity = argFoo;
-                            if(!(mike == entity)) { _fun124148_ip = 36; continue _fun124148 }
+                            if(!(mike == entity)) { _fun124144_ip = 36; continue _fun124144 }
  16:
                             mike = {};
                             entity = argBar;
                             mike['hasActivity'] = entity;
                             entity = argBaz;
                             mike['hasActiveActivity'] = entity;
-                            _fun124148_ip = 50; continue _fun124148;
+                            _fun124144_ip = 50; continue _fun124144;
  36:
                             mike = {'hasActivity': false, 'hasActiveActivity': false};
  50:
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['hasActivity'] = tango;
         tango = function() { // Original name: stopHangoutActivity
-            _fun124149: for(var _fun124149_ip = 0; ; ) switch(_fun124149_ip) {
+            _fun124145: for(var _fun124145_ip = 0; ; ) switch(_fun124145_ip) {
  0:
                 tango = arguments[0];
                 entity = undefined;
-                if(!(tango === entity)) { _fun124149_ip = 11; continue _fun124149 }
+                if(!(tango === entity)) { _fun124145_ip = 11; continue _fun124145 }
  9:
                 tango = 0;
  11:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(zulu);
                 zulu = report.isIOS;
                 zulu = zulu.bind(report)();
-                if(!zulu) { _fun124149_ip = 70; continue _fun124149 }
+                if(!zulu) { _fun124145_ip = 70; continue _fun124145 }
  47:
                 mike = _closure1_slot3;
                 zulu = mike.DCDLockscreenWidgetManager;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['stopHangoutActivity'] = tango;
         tango = function(argFoo) { // Original name: startHangoutActivity
-            _fun124150: for(var _fun124150_ip = 0; ; ) switch(_fun124150_ip) {
+            _fun124146: for(var _fun124146_ip = 0; ; ) switch(_fun124146_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isIOS;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun124150_ip = 83; continue _fun124150 }
+                if(!zulu) { _fun124146_ip = 83; continue _fun124146 }
  38:
                 mike = _closure1_slot3;
                 tango = mike.DCDLockscreenWidgetManager;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['startHangoutActivity'] = tango;
         mike = function() { // Original name: activitiesAllowed
-            _fun124151: for(var _fun124151_ip = 0; ; ) switch(_fun124151_ip) {
+            _fun124147: for(var _fun124147_ip = 0; ; ) switch(_fun124147_ip) {
  0:
                 report = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.isIOS;
                 tango = mike.bind(tango)();
                 mike = global;
-                if(tango) { _fun124151_ip = 65; continue _fun124151 }
+                if(tango) { _fun124147_ip = 65; continue _fun124147 }
  42:
                 oscar = mike.Promise;
                 report = oscar.reject;
@@ -239,17 +239,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = _closure2_slot0;
                     mike = zulu.activitiesAllowed;
                     entity = function(argFoo, argBar) {
-                        _fun124153: for(var _fun124153_ip = 0; ; ) switch(_fun124153_ip) {
+                        _fun124149: for(var _fun124149_ip = 0; ; ) switch(_fun124149_ip) {
  0:
                             zulu = argFoo;
                             entity = null;
-                            if(!(entity == zulu)) { _fun124153_ip = 28; continue _fun124153 }
+                            if(!(entity == zulu)) { _fun124149_ip = 28; continue _fun124149 }
  9:
                             tango = _closure3_slot0;
                             mike = undefined;
                             entity = argBar;
                             entity = tango.bind(mike)(entity);
-                            _fun124153_ip = 42; continue _fun124153;
+                            _fun124149_ip = 42; continue _fun124149;
  28:
                             mike = _closure3_slot1;
                             entity = undefined;

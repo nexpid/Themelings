@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/burst_reactions/SuperReactionLocalImageAnimation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SuperReactionLocalImageAnimation
-        _fun77962: for(var _fun77962_ip = 0; ; ) switch(_fun77962_ip) {
+        _fun77972: for(var _fun77972_ip = 0; ; ) switch(_fun77972_ip) {
  0:
             tango = argFoo;
             options = tango.localImageSource;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['localImageSource'] = options;
             golf = tango.bind(golf)(zulu);
             zulu = entity == golf;
-            if(zulu) { _fun77962_ip = 152; continue _fun77962 }
+            if(zulu) { _fun77972_ip = 152; continue _fun77972 }
  99:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;

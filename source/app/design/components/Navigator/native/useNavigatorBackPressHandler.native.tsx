@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu = tango.useFocusEffect;
         oscar = golf.useCallback;
         report = function() {
-            _fun61608: for(var _fun61608_ip = 0; ; ) switch(_fun61608_ip) {
+            _fun61611: for(var _fun61611_ip = 0; ; ) switch(_fun61611_ip) {
  0:
                 report = _closure1_slot0;
                 tango = _closure1_slot1;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = report.bind(entity)(tango);
                 tango = report.isIOS;
                 tango = tango.bind(report)();
-                if(tango) { _fun61608_ip = 78; continue _fun61608 }
+                if(tango) { _fun61611_ip = 78; continue _fun61611 }
  40:
                 oscar = _closure1_slot3;
                 report = oscar.addEventListener;

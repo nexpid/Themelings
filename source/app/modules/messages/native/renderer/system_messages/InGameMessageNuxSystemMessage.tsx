@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/system_messages/InGameMessageNuxSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createInGameMessageNuxSystemMessage
-        _fun72583: for(var _fun72583_ip = 0; ; ) switch(_fun72583_ip) {
+        _fun72589: for(var _fun72589_ip = 0; ; ) switch(_fun72589_ip) {
  0:
             report = argFoo;
             zulu = report.message;
@@ -51,12 +51,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             yankee = entity != offset;
             mike = '';
-            if(!yankee) { _fun72583_ip = 81; continue _fun72583 }
+            if(!yankee) { _fun72589_ip = 81; continue _fun72589 }
  78:
             mike = offset;
  81:
             mike = oscar.bind(golf)(mike);
-            if(!(entity != mike)) { _fun72583_ip = 355; continue _fun72583 }
+            if(!(entity != mike)) { _fun72589_ip = 355; continue _fun72589 }
  93:
             offset = {};
             yankee = _closure1_slot0;

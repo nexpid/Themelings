@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.GiftIcon;
     mike['IconComponent'] = tango;
     tango = function() { // Original name: canNavigateToPaymentSetting
-        _fun96148: for(var _fun96148_ip = 0; ; ) switch(_fun96148_ip) {
+        _fun96158: for(var _fun96158_ip = 0; ; ) switch(_fun96158_ip) {
  0:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(report, entity);
             entity = entity.paymentsBlocked;
             entity = !entity;
-            if(entity) { _fun96148_ip = 96; continue _fun96148 }
+            if(entity) { _fun96158_ip = 96; continue _fun96158 }
  70:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

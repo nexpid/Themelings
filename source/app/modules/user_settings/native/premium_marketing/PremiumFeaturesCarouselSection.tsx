@@ -193,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[3] = entity;
             mike = zulu.filter;
             entity = function(argFoo) {
-                _fun98773: for(var _fun98773_ip = 0; ; ) switch(_fun98773_ip) {
+                _fun98783: for(var _fun98783_ip = 0; ; ) switch(_fun98783_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     entity = entity == zulu;
-                    if(entity) { _fun98773_ip = 39; continue _fun98773 }
+                    if(entity) { _fun98783_ip = 39; continue _fun98783 }
  16:
                     zulu = argFoo;
                     tango = zulu.premiumTypes;
@@ -438,18 +438,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = golf;
         mike[2] = entity;
         entity = function() {
-            _fun98777: for(var _fun98777_ip = 0; ; ) switch(_fun98777_ip) {
+            _fun98787: for(var _fun98787_ip = 0; ; ) switch(_fun98787_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = _closure2_slot1;
                 tango = mike.length;
                 mike = 1;
                 mike = tango - mike;
-                if(!(zulu === mike)) { _fun98777_ip = 47; continue _fun98777 }
+                if(!(zulu === mike)) { _fun98787_ip = 47; continue _fun98787 }
  27:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun98777_ip = 47; continue _fun98777 }
+                if(!(mike != zulu)) { _fun98787_ip = 47; continue _fun98787 }
  37:
                 mike = _closure2_slot0;
                 entity = undefined;
@@ -574,10 +574,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = verify;
         mike[1] = options;
         entity = function() {
-            _fun98781: for(var _fun98781_ip = 0; ; ) switch(_fun98781_ip) {
+            _fun98791: for(var _fun98791_ip = 0; ; ) switch(_fun98791_ip) {
  0:
                 mike = _closure2_slot1;
-                if(mike) { _fun98781_ip = 78; continue _fun98781 }
+                if(mike) { _fun98791_ip = 78; continue _fun98791 }
  10:
                 report = _closure1_slot1;
                 tango = _closure1_slot2;

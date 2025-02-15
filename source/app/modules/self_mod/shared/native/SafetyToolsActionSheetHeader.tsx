@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/shared/native/SafetyToolsActionSheetHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SafetyToolsActionSheetHeader
-        _fun79579: for(var _fun79579_ip = 0; ; ) switch(_fun79579_ip) {
+        _fun79589: for(var _fun79589_ip = 0; ; ) switch(_fun79589_ip) {
  0:
             zulu = argFoo;
             verify = zulu.title;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = golf;
             golf = null;
             golf = golf != options;
-            if(!golf) { _fun79579_ip = 186; continue _fun79579 }
+            if(!golf) { _fun79589_ip = 186; continue _fun79589 }
  183:
             golf = report;
  186:

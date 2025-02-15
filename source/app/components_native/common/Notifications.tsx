@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'components_native/common/Notifications.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: Notifications
-        _fun86522: for(var _fun86522_ip = 0; ; ) switch(_fun86522_ip) {
+        _fun86539: for(var _fun86539_ip = 0; ; ) switch(_fun86539_ip) {
  0:
             mike = _closure1_slot0;
             tango = _closure1_slot2;
@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike, entity);
             entity = null;
             tango = entity == mike;
-            if(tango) { _fun86522_ip = 109; continue _fun86522 }
+            if(tango) { _fun86539_ip = 109; continue _fun86539 }
  66:
             report = _closure1_slot4;
             tango = _closure1_slot1;

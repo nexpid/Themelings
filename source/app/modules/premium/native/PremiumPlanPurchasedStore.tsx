@@ -67,13 +67,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setInitiatedPurchaseFromNewFlow'] = tango;
     tango = function() { // Original name: setPaymentSuccess
-        _fun65910: for(var _fun65910_ip = 0; ; ) switch(_fun65910_ip) {
+        _fun65916: for(var _fun65916_ip = 0; ; ) switch(_fun65916_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getState;
             mike = mike.bind(zulu)();
             mike = mike.initiatedPurchaseFromNewFlow;
-            if(!mike) { _fun65910_ip = 105; continue _fun65910 }
+            if(!mike) { _fun65916_ip = 105; continue _fun65916 }
  26:
             zulu = _closure1_slot2;
             mike = zulu.getState;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             tango = report.bind(oscar)(tango);
             tango = null;
-            if(!(tango != mike)) { _fun65910_ip = 105; continue _fun65910 }
+            if(!(tango != mike)) { _fun65916_ip = 105; continue _fun65916 }
  100:
             entity = mike.bind(entity)(zulu);
  105:
@@ -108,18 +108,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setPaymentSuccess'] = tango;
     tango = function(argFoo) { // Original name: showOldPaymentFlowSuccess
-        _fun65912: for(var _fun65912_ip = 0; ; ) switch(_fun65912_ip) {
+        _fun65918: for(var _fun65918_ip = 0; ; ) switch(_fun65918_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getState;
             mike = mike.bind(zulu)();
             mike = mike.initiatedPurchaseFromNewFlow;
-            if(mike) { _fun65912_ip = 37; continue _fun65912 }
+            if(mike) { _fun65918_ip = 37; continue _fun65918 }
  26:
             zulu = argFoo;
             mike = undefined;
             mike = zulu.bind(mike)();
-            _fun65912_ip = 79; continue _fun65912;
+            _fun65918_ip = 79; continue _fun65918;
  37:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['showOldPaymentFlowSuccess'] = tango;
     mike = function() { // Original name: reset
-        _fun65914: for(var _fun65914_ip = 0; ; ) switch(_fun65914_ip) {
+        _fun65920: for(var _fun65920_ip = 0; ; ) switch(_fun65920_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getState;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.isPaymentSuccess;
             tango = zulu.onPaymentDismiss;
             zulu = null;
-            if(!(zulu != tango)) { _fun65914_ip = 60; continue _fun65914 }
+            if(!(zulu != tango)) { _fun65920_ip = 60; continue _fun65920 }
  41:
             zulu = {};
             zulu['productId'] = report;

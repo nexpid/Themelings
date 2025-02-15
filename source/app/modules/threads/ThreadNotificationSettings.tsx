@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: computeThreadNotificationSetting
-        _fun72856: for(var _fun72856_ip = 0; ; ) switch(_fun72856_ip) {
+        _fun72862: for(var _fun72862_ip = 0; ; ) switch(_fun72862_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot4;
@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.id;
             golf = tango.bind(report)(mike);
             mike = null;
-            if(!(mike != golf)) { _fun72856_ip = 366; continue _fun72856 }
+            if(!(mike != golf)) { _fun72862_ip = 366; continue _fun72862 }
  34:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot5;
             tango = tango.ALL_MESSAGES;
             tango = report.bind(verify)(golf, tango);
-            if(tango) { _fun72856_ip = 354; continue _fun72856 }
+            if(tango) { _fun72862_ip = 354; continue _fun72862 }
  84:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot5;
             tango = tango.ONLY_MENTIONS;
             tango = report.bind(verify)(golf, tango);
-            if(tango) { _fun72856_ip = 342; continue _fun72856 }
+            if(tango) { _fun72862_ip = 342; continue _fun72862 }
  129:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -47,40 +47,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot5;
             tango = tango.NO_MESSAGES;
             tango = report.bind(oscar)(golf, tango);
-            if(tango) { _fun72856_ip = 330; continue _fun72856 }
+            if(tango) { _fun72862_ip = 330; continue _fun72862 }
  174:
             report = _closure1_slot2;
             tango = report.getChannel;
             zulu = zulu.parent_id;
             tango = tango.bind(report)(zulu);
-            if(!(mike != tango)) { _fun72856_ip = 318; continue _fun72856 }
+            if(!(mike != tango)) { _fun72862_ip = 318; continue _fun72862 }
  198:
             oscar = _closure1_slot3;
             report = oscar.isGuildOrCategoryOrChannelMuted;
             zulu = tango.guild_id;
             mike = tango.id;
             mike = report.bind(oscar)(zulu, mike);
-            if(mike) { _fun72856_ip = 306; continue _fun72856 }
+            if(mike) { _fun72862_ip = 306; continue _fun72862 }
  227:
             zulu = _closure1_slot3;
             mike = zulu.resolvedMessageNotifications;
             zulu = mike.bind(zulu)(tango);
             mike = _closure1_slot6;
             mike = mike.NO_MESSAGES;
-            if(!(zulu !== mike)) { _fun72856_ip = 294; continue _fun72856 }
+            if(!(zulu !== mike)) { _fun72862_ip = 294; continue _fun72862 }
  256:
             mike = _closure1_slot6;
             mike = mike.ONLY_MENTIONS;
-            if(!(zulu !== mike)) { _fun72856_ip = 282; continue _fun72856 }
+            if(!(zulu !== mike)) { _fun72862_ip = 282; continue _fun72862 }
  270:
             mike = _closure1_slot5;
             mike = mike.ALL_MESSAGES;
-            _fun72856_ip = 292; continue _fun72856;
+            _fun72862_ip = 292; continue _fun72862;
  282:
             zulu = _closure1_slot5;
             mike = zulu.ONLY_MENTIONS;
  292:
-            _fun72856_ip = 304; continue _fun72856;
+            _fun72862_ip = 304; continue _fun72862;
  294:
             zulu = _closure1_slot5;
             mike = zulu.NO_MESSAGES;

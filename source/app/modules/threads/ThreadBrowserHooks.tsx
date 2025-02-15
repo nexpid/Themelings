@@ -395,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useActiveGuildThreads'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: useArchivedThreads
-        _fun102090: for(var _fun102090_ip = 0; ; ) switch(_fun102090_ip) {
+        _fun102082: for(var _fun102082_ip = 0; ; ) switch(_fun102082_ip) {
  0:
             entity = argFoo;
             output = argBar;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[2] = foxtrot;
             backup[3] = mike;
             mike = function() {
-                _fun102092: for(var _fun102092_ip = 0; ; ) switch(_fun102092_ip) {
+                _fun102084: for(var _fun102084_ip = 0; ; ) switch(_fun102084_ip) {
  0:
                     oscar = _closure1_slot6;
                     report = oscar.can;
@@ -454,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = entity.READ_MESSAGE_HISTORY;
                     zulu = _closure2_slot0;
                     zulu = report.bind(oscar)(tango, zulu);
-                    if(!zulu) { _fun102092_ip = 100; continue _fun102092 }
+                    if(!zulu) { _fun102084_ip = 100; continue _fun102084 }
  39:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -501,10 +501,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[2] = foxtrot;
             backup[3] = tango;
             foxtrot = function() {
-                _fun102094: for(var _fun102094_ip = 0; ; ) switch(_fun102094_ip) {
+                _fun102086: for(var _fun102086_ip = 0; ; ) switch(_fun102086_ip) {
  0:
                     mike = _closure2_slot4;
-                    if(!mike) { _fun102094_ip = 23; continue _fun102094 }
+                    if(!mike) { _fun102086_ip = 23; continue _fun102086 }
  10:
                     mike = _closure2_slot6;
                     entity = mike.current;
@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = mike.bind(zulu)(entity);
                 mike = zulu.filter;
                 entity = function(argFoo) {
-                    _fun102097: for(var _fun102097_ip = 0; ; ) switch(_fun102097_ip) {
+                    _fun102089: for(var _fun102089_ip = 0; ; ) switch(_fun102089_ip) {
  0:
                         tango = _closure1_slot5;
                         zulu = tango.getChannel;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = zulu.bind(tango)(entity);
                         entity = null;
                         entity = entity != report;
-                        if(!entity) { _fun102097_ip = 55; continue _fun102097 }
+                        if(!entity) { _fun102089_ip = 55; continue _fun102089 }
  29:
                         tango = _closure1_slot6;
                         zulu = tango.can;
@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(verify)(golf, oscar);
             entity['threadIds'] = oscar;
             entity['canLoadMore'] = report;
-            if(zulu) { _fun102090_ip = 348; continue _fun102090 }
+            if(zulu) { _fun102082_ip = 348; continue _fun102082 }
  345:
             zulu = tango;
  348:

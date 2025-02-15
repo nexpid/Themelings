@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun104567: for(var _fun104567_ip = 0; ; ) switch(_fun104567_ip) {
+        _fun104559: for(var _fun104559_ip = 0; ; ) switch(_fun104559_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun104567_ip = 51; continue _fun104567 }
+            if(entity) { _fun104559_ip = 51; continue _fun104559 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun104567_ip = 92; continue _fun104567;
+            _fun104559_ip = 92; continue _fun104559;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun104567_ip = 71; continue _fun104567 }
+            if(oscar) { _fun104559_ip = 71; continue _fun104559 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun104568: for(var _fun104568_ip = 0; ; ) switch(_fun104568_ip) {
+        _fun104560: for(var _fun104560_ip = 0; ; ) switch(_fun104560_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun104568_ip = 76; continue _fun104568;
+            _fun104560_ip = 76; continue _fun104560;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -139,33 +139,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.bind(tango)(oscar, report, entity);
             var _closure3_slot0 = entity;
             zulu = function(argFoo) {
-                _fun104573: for(var _fun104573_ip = 0; ; ) switch(_fun104573_ip) {
+                _fun104565: for(var _fun104565_ip = 0; ; ) switch(_fun104565_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.channelId;
                     tango = entity.guildId;
                     mike = null;
-                    if(!(mike != zulu)) { _fun104573_ip = 53; continue _fun104573 }
+                    if(!(mike != zulu)) { _fun104565_ip = 53; continue _fun104565 }
  19:
                     report = _closure1_slot8;
                     entity = report.getChannel;
                     report = entity.bind(report)(zulu);
-                    if(!(mike != report)) { _fun104573_ip = 113; continue _fun104573 }
+                    if(!(mike != report)) { _fun104565_ip = 113; continue _fun104565 }
  40:
                     entity = report.isGuildStageVoice;
                     entity = entity.bind(report)();
-                    if(entity) { _fun104573_ip = 113; continue _fun104573 }
+                    if(entity) { _fun104565_ip = 113; continue _fun104565 }
  53:
                     oscar = _closure3_slot0;
                     report = oscar.terminate;
                     report = report.bind(oscar)();
                     report = mike == zulu;
                     zulu = null;
-                    if(report) { _fun104573_ip = 94; continue _fun104573 }
+                    if(report) { _fun104565_ip = 94; continue _fun104565 }
  79:
                     report = mike != tango;
                     mike = null;
-                    if(!report) { _fun104573_ip = 91; continue _fun104573 }
+                    if(!report) { _fun104565_ip = 91; continue _fun104565 }
  88:
                     mike = tango;
  91:

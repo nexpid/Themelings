@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun91564: for(var _fun91564_ip = 0; ; ) switch(_fun91564_ip) {
+        _fun91593: for(var _fun91593_ip = 0; ; ) switch(_fun91593_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun91564_ip = 51; continue _fun91564 }
+            if(entity) { _fun91593_ip = 51; continue _fun91593 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun91564_ip = 92; continue _fun91564;
+            _fun91593_ip = 92; continue _fun91593;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun91564_ip = 71; continue _fun91564 }
+            if(oscar) { _fun91593_ip = 71; continue _fun91593 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun91565: for(var _fun91565_ip = 0; ; ) switch(_fun91565_ip) {
+        _fun91594: for(var _fun91594_ip = 0; ; ) switch(_fun91594_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun91565_ip = 76; continue _fun91565;
+            _fun91594_ip = 76; continue _fun91594;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -150,18 +150,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun91570: for(var _fun91570_ip = 0; ; ) switch(_fun91570_ip) {
+            _fun91599: for(var _fun91599_ip = 0; ; ) switch(_fun91599_ip) {
  0:
                 entity = argFoo;
                 zulu = null;
-                if(!(zulu != entity)) { _fun91570_ip = 98; continue _fun91570 }
+                if(!(zulu != entity)) { _fun91599_ip = 98; continue _fun91599 }
  9:
                 mike = global;
                 oscar = mike.Array;
                 report = oscar.isArray;
                 tango = entity.hiddenHotspots;
                 tango = report.bind(oscar)(tango);
-                if(!tango) { _fun91570_ip = 75; continue _fun91570 }
+                if(!tango) { _fun91599_ip = 75; continue _fun91599 }
  36:
                 report = mike.Set;
                 golf = entity.hiddenHotspots;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 _closure1_slot8 = tango;
  75:
                 mike = entity.hotspotOverrides;
-                if(!(zulu != mike)) { _fun91570_ip = 98; continue _fun91570 }
+                if(!(zulu != mike)) { _fun91599_ip = 98; continue _fun91599 }
  85:
                 mike = entity.hotspotOverrides;
                 _closure1_slot9 = mike;
@@ -189,24 +189,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'hasHotspot';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun91571: for(var _fun91571_ip = 0; ; ) switch(_fun91571_ip) {
+            _fun91600: for(var _fun91600_ip = 0; ; ) switch(_fun91600_ip) {
  0:
                 oscar = argFoo;
                 entity = arguments[1];
                 golf = undefined;
-                if(!(entity === golf)) { _fun91571_ip = 14; continue _fun91571 }
+                if(!(entity === golf)) { _fun91600_ip = 14; continue _fun91600 }
  12:
                 entity = false;
  14:
                 zulu = !entity;
-                if(!zulu) { _fun91571_ip = 31; continue _fun91571 }
+                if(!zulu) { _fun91600_ip = 31; continue _fun91600 }
  20:
                 entity = _closure1_slot9;
                 zulu = entity[oscar];
  31:
                 entity = _closure1_slot7;
                 entity = !entity;
-                if(!entity) { _fun91571_ip = 112; continue _fun91571 }
+                if(!entity) { _fun91600_ip = 112; continue _fun91600 }
  44:
                 report = _closure1_slot0;
                 options = _closure1_slot1;
@@ -217,9 +217,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report.isDisallowPopupsSet;
                 mike = mike.bind(report)();
                 mike = !mike;
-                if(!mike) { _fun91571_ip = 109; continue _fun91571 }
+                if(!mike) { _fun91600_ip = 109; continue _fun91600 }
  86:
-                if(zulu) { _fun91571_ip = 106; continue _fun91571 }
+                if(zulu) { _fun91600_ip = 106; continue _fun91600 }
  89:
                 report = _closure1_slot8;
                 tango = report.has;
@@ -281,12 +281,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options['persistKey'] = mike;
     mike = new Array(1);
     verify = function(argFoo) {
-        _fun91575: for(var _fun91575_ip = 0; ; ) switch(_fun91575_ip) {
+        _fun91604: for(var _fun91604_ip = 0; ; ) switch(_fun91604_ip) {
  0:
             mike = argFoo;
             entity = {};
             zulu = null;
-            if(!(zulu == mike)) { _fun91575_ip = 15; continue _fun91575 }
+            if(!(zulu == mike)) { _fun91604_ip = 15; continue _fun91604 }
  11:
             mike = new Array(0);
  15:
@@ -318,14 +318,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['OVERLAY_INITIALIZE'] = verify;
     verify = function(argFoo) { // Original name: handleHotspotHide
-        _fun91577: for(var _fun91577_ip = 0; ; ) switch(_fun91577_ip) {
+        _fun91606: for(var _fun91606_ip = 0; ; ) switch(_fun91606_ip) {
  0:
             entity = argFoo;
             zulu = entity.location;
             tango = _closure1_slot8;
             mike = tango.has;
             mike = mike.bind(tango)(zulu);
-            if(mike) { _fun91577_ip = 46; continue _fun91577 }
+            if(mike) { _fun91606_ip = 46; continue _fun91606 }
  28:
             mike = _closure1_slot8;
             entity = mike.add;
@@ -349,14 +349,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['HOTSPOT_OVERRIDE_SET'] = verify;
     tango = function(argFoo) { // Original name: handleClearHotspotOverride
-        _fun91579: for(var _fun91579_ip = 0; ; ) switch(_fun91579_ip) {
+        _fun91608: for(var _fun91608_ip = 0; ; ) switch(_fun91608_ip) {
  0:
             entity = argFoo;
             mike = entity.location;
             zulu = _closure1_slot9;
             tango = zulu[mike];
             zulu = null;
-            if(!(zulu != tango)) { _fun91579_ip = 37; continue _fun91579 }
+            if(!(zulu != tango)) { _fun91608_ip = 37; continue _fun91608 }
  25:
             entity = _closure1_slot9;
             entity = delete entity[mike];

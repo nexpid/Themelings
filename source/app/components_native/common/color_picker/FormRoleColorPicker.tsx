@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/common/color_picker/FormRoleColorPicker.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormRoleColorPicker
-        _fun114320: for(var _fun114320_ip = 0; ; ) switch(_fun114320_ip) {
+        _fun114326: for(var _fun114326_ip = 0; ; ) switch(_fun114326_ip) {
  0:
             mike = argFoo;
             verify = mike.color;
             tango = undefined;
-            if(!(verify === tango)) { _fun114320_ip = 23; continue _fun114320 }
+            if(!(verify === tango)) { _fun114326_ip = 23; continue _fun114326 }
  16:
             verify = _closure1_slot4;
  23:
             var _closure2_slot0 = verify;
             oscar = mike.disabled;
-            if(!(oscar === tango)) { _fun114320_ip = 38; continue _fun114320 }
+            if(!(oscar === tango)) { _fun114326_ip = 38; continue _fun114326 }
  36:
             oscar = false;
  38:

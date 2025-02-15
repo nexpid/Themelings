@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/creator_monetization_eligibility/guild_settings/useCreatorMonetizationEligibilityItems.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCreatorMonetizationEligibilityItems
-        _fun126793: for(var _fun126793_ip = 0; ; ) switch(_fun126793_ip) {
+        _fun126789: for(var _fun126789_ip = 0; ; ) switch(_fun126789_ip) {
  0:
             yankee = argFoo;
             mike = arguments[1];
             var _closure2_slot0 = yankee;
             oscar = undefined;
-            if(!(mike === oscar)) { _fun126793_ip = 20; continue _fun126793 }
+            if(!(mike === oscar)) { _fun126789_ip = 20; continue _fun126789 }
  18:
             mike = {};
  20:
@@ -73,26 +73,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot3;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun126795: for(var _fun126795_ip = 0; ; ) switch(_fun126795_ip) {
+                    _fun126791: for(var _fun126791_ip = 0; ; ) switch(_fun126791_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun126795_ip = 174; continue _fun126795 }
+                        if(mike) { _fun126791_ip = 174; continue _fun126791 }
  10:
                         zulu = _closure2_slot4;
-                        if(zulu) { _fun126795_ip = 81; continue _fun126795 }
+                        if(zulu) { _fun126791_ip = 81; continue _fun126791 }
  20:
                         zulu = _closure2_slot2;
                         oscar = null;
                         tango = oscar == zulu;
                         zulu = undefined;
-                        if(tango) { _fun126795_ip = 68; continue _fun126795 }
+                        if(tango) { _fun126791_ip = 68; continue _fun126791 }
  35:
                         tango = _closure2_slot2;
                         tango = tango.onEnableMFAClick;
                         tango = oscar == tango;
                         zulu = undefined;
-                        if(tango) { _fun126795_ip = 68; continue _fun126795 }
+                        if(tango) { _fun126791_ip = 68; continue _fun126791 }
  54:
                         report = _closure2_slot2;
                         tango = report.onEnableMFAClick;
@@ -103,24 +103,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  72:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(!tango) { _fun126795_ip = 149; continue _fun126795 }
+                        if(!tango) { _fun126791_ip = 149; continue _fun126791 }
  78:
                         return zulu;
  81:
                         zulu = _closure2_slot5;
-                        if(zulu) { _fun126795_ip = 149; continue _fun126795 }
+                        if(zulu) { _fun126791_ip = 149; continue _fun126791 }
  88:
                         zulu = _closure2_slot2;
                         oscar = null;
                         tango = oscar == zulu;
                         zulu = undefined;
-                        if(tango) { _fun126795_ip = 136; continue _fun126795 }
+                        if(tango) { _fun126791_ip = 136; continue _fun126791 }
  103:
                         tango = _closure2_slot2;
                         tango = tango.onRequireModeratorMFAClick;
                         tango = oscar == tango;
                         zulu = undefined;
-                        if(tango) { _fun126795_ip = 136; continue _fun126795 }
+                        if(tango) { _fun126791_ip = 136; continue _fun126791 }
  122:
                         report = _closure2_slot2;
                         tango = report.onRequireModeratorMFAClick;
@@ -131,13 +131,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  140:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(!tango) { _fun126795_ip = 149; continue _fun126795 }
+                        if(!tango) { _fun126791_ip = 149; continue _fun126791 }
  146:
                         return zulu;
  149:
                         tango = _closure2_slot1;
                         zulu = null;
-                        if(!(zulu != tango)) { _fun126795_ip = 169; continue _fun126795 }
+                        if(!(zulu != tango)) { _fun126791_ip = 169; continue _fun126791 }
  159:
                         zulu = _closure2_slot1;
                         mike = undefined;
@@ -177,11 +177,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[5] = oscar;
             mike[6] = report;
             entity = function() {
-                _fun126796: for(var _fun126796_ip = 0; ; ) switch(_fun126796_ip) {
+                _fun126792: for(var _fun126792_ip = 0; ; ) switch(_fun126792_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun126796_ip = 2122; continue _fun126796 }
+                    if(!(entity != mike)) { _fun126792_ip = 2122; continue _fun126792 }
  18:
                     mike = _closure2_slot0;
                     kilo = mike.minimumOwnerAgeInYears;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.noRecentViolations;
                     report['checked'] = mike;
                     mike = undefined;
-                    if(!oscar) { _fun126796_ip = 332; continue _fun126796 }
+                    if(!oscar) { _fun126792_ip = 332; continue _fun126792 }
  280:
                     romeo = _closure1_slot0;
                     options = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  332:
                     report['actionLabel'] = mike;
                     mike = undefined;
-                    if(!oscar) { _fun126796_ip = 349; continue _fun126796 }
+                    if(!oscar) { _fun126792_ip = 349; continue _fun126792 }
  342:
                     mike = function() {
                         tango = _closure1_slot1;
@@ -276,13 +276,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(1);
                     mike[0] = report;
                     report = entity != kilo;
-                    if(!report) { _fun126796_ip = 383; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 383; continue _fun126792 }
  369:
                     oscar = _closure2_slot0;
                     oscar = oscar.meetsOwnerAgeRequirement;
                     report = entity != oscar;
  383:
-                    if(!report) { _fun126796_ip = 588; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 588; continue _fun126792 }
  389:
                     oscar = mike.push;
                     report = {};
@@ -328,13 +328,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.bind(mike)(report);
  588:
                     report = entity != foxtrot;
-                    if(!report) { _fun126796_ip = 609; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 609; continue _fun126792 }
  595:
                     oscar = _closure2_slot0;
                     oscar = oscar.hasSufficientMembers;
                     report = entity != oscar;
  609:
-                    if(!report) { _fun126796_ip = 814; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 814; continue _fun126792 }
  615:
                     oscar = mike.push;
                     report = {};
@@ -382,13 +382,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot0;
                     report = report.minimumAgeInDays;
                     report = entity != report;
-                    if(!report) { _fun126796_ip = 845; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 845; continue _fun126792 }
  831:
                     oscar = _closure2_slot0;
                     oscar = oscar.meetsServerAgeRequirement;
                     report = entity != oscar;
  845:
-                    if(!report) { _fun126796_ip = 1079; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 1079; continue _fun126792 }
  851:
                     oscar = mike.push;
                     report = {};
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1079:
                     report = _closure2_slot0;
                     report = report.weeklyCommunicators;
-                    if(!(entity != report)) { _fun126796_ip = 1287; continue _fun126796 }
+                    if(!(entity != report)) { _fun126792_ip = 1287; continue _fun126792 }
  1096:
                     oscar = mike.push;
                     report = {};
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1287:
                     report = _closure2_slot0;
                     report = report.hasMemberRetention;
-                    if(!(entity != report)) { _fun126796_ip = 1495; continue _fun126796 }
+                    if(!(entity != report)) { _fun126792_ip = 1495; continue _fun126792 }
  1304:
                     oscar = mike.push;
                     report = {};
@@ -570,22 +570,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['checked'] = verify;
                     oscar = options.bind(mike)(oscar);
                     report = report.hasEnabled2FA;
-                    if(!(entity != report)) { _fun126796_ip = 2092; continue _fun126796 }
+                    if(!(entity != report)) { _fun126792_ip = 2092; continue _fun126792 }
  1699:
                     report = _closure2_slot0;
                     report = report.hasEnabled2FA;
                     options = !report;
-                    if(!options) { _fun126796_ip = 1722; continue _fun126796 }
+                    if(!options) { _fun126792_ip = 1722; continue _fun126792 }
  1715:
                     report = _closure2_slot4;
                     options = !report;
  1722:
-                    if(!options) { _fun126796_ip = 1752; continue _fun126796 }
+                    if(!options) { _fun126792_ip = 1752; continue _fun126792 }
  1725:
                     report = _closure2_slot2;
                     oscar = entity == report;
                     report = undefined;
-                    if(oscar) { _fun126796_ip = 1748; continue _fun126796 }
+                    if(oscar) { _fun126792_ip = 1748; continue _fun126792 }
  1738:
                     oscar = _closure2_slot2;
                     report = oscar.onEnableMFAClick;
@@ -595,24 +595,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot0;
                     report = report.hasEnabled2FA;
                     report = !report;
-                    if(!report) { _fun126796_ip = 1775; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 1775; continue _fun126792 }
  1768:
                     oscar = _closure2_slot5;
                     report = !oscar;
  1775:
-                    if(!report) { _fun126796_ip = 1805; continue _fun126796 }
+                    if(!report) { _fun126792_ip = 1805; continue _fun126792 }
  1778:
                     oscar = _closure2_slot2;
                     verify = entity == oscar;
                     oscar = undefined;
-                    if(verify) { _fun126796_ip = 1801; continue _fun126796 }
+                    if(verify) { _fun126792_ip = 1801; continue _fun126792 }
  1791:
                     verify = _closure2_slot2;
                     oscar = verify.onRequireModeratorMFAClick;
  1801:
                     report = entity != oscar;
  1805:
-                    if(options) { _fun126796_ip = 1811; continue _fun126796 }
+                    if(options) { _fun126792_ip = 1811; continue _fun126792 }
  1808:
                     options = report;
  1811:
@@ -659,7 +659,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.hasEnabled2FA;
                     report['checked'] = verify;
                     verify = undefined;
-                    if(!options) { _fun126796_ip = 2068; continue _fun126796 }
+                    if(!options) { _fun126792_ip = 2068; continue _fun126792 }
  2016:
                     foxtrot = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  2068:
                     report['actionLabel'] = verify;
                     golf = undefined;
-                    if(!options) { _fun126796_ip = 2082; continue _fun126796 }
+                    if(!options) { _fun126792_ip = 2082; continue _fun126792 }
  2078:
                     golf = _closure2_slot6;
  2082:
@@ -684,16 +684,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  2092:
                     report = _closure2_slot3;
                     tango = true;
-                    if(!(tango === report)) { _fun126796_ip = 2120; continue _fun126796 }
+                    if(!(tango === report)) { _fun126792_ip = 2120; continue _fun126792 }
  2102:
                     tango = mike.sort;
                     zulu = function(argFoo) {
-                        _fun126798: for(var _fun126798_ip = 0; ; ) switch(_fun126798_ip) {
+                        _fun126794: for(var _fun126794_ip = 0; ; ) switch(_fun126794_ip) {
  0:
                             entity = argFoo;
                             mike = entity.checked;
                             entity = -1;
-                            if(!mike) { _fun126798_ip = 20; continue _fun126798 }
+                            if(!mike) { _fun126794_ip = 20; continue _fun126794 }
  18:
                             entity = 0;
  20:

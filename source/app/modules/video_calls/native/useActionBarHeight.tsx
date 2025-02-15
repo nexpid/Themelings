@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'modules/video_calls/native/useActionBarHeight.tsx';
     oscar = golf.bind(options)(oscar);
     report = function(argFoo) { // Original name: _default
-        _fun73505: for(var _fun73505_ip = 0; ; ) switch(_fun73505_ip) {
+        _fun73515: for(var _fun73515_ip = 0; ; ) switch(_fun73515_ip) {
  0:
             zulu = argFoo;
             oscar = _closure1_slot0;
@@ -81,17 +81,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             report = oscar.bind(golf)(report, mike);
             mike = 88;
-            if(!tango) { _fun73505_ip = 114; continue _fun73505 }
+            if(!tango) { _fun73515_ip = 114; continue _fun73515 }
  110:
             mike = _closure1_slot6;
  114:
             entity = _closure1_slot5;
             mike = mike + entity;
             entity = 0;
-            if(!report) { _fun73505_ip = 135; continue _fun73505 }
+            if(!report) { _fun73515_ip = 135; continue _fun73515 }
  127:
             entity = 0;
-            if(!zulu) { _fun73505_ip = 135; continue _fun73505 }
+            if(!zulu) { _fun73515_ip = 135; continue _fun73515 }
  132:
             entity = 56;
  135:

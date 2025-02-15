@@ -43,13 +43,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = 'modules/routing/native/useBackPressHandler.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: useBackPressHandler
-        _fun56678: for(var _fun56678_ip = 0; ; ) switch(_fun56678_ip) {
+        _fun56681: for(var _fun56681_ip = 0; ; ) switch(_fun56681_ip) {
  0:
             tango = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = tango;
             entity = undefined;
-            if(!(oscar === entity)) { _fun56678_ip = 20; continue _fun56678 }
+            if(!(oscar === entity)) { _fun56681_ip = 20; continue _fun56681 }
  18:
             oscar = true;
  20:
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = oscar;
             mike = function() {
-                _fun56680: for(var _fun56680_ip = 0; ; ) switch(_fun56680_ip) {
+                _fun56683: for(var _fun56683_ip = 0; ; ) switch(_fun56683_ip) {
  0:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -82,10 +82,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     report = report.bind(entity)(tango);
                     tango = report.isIOS;
                     tango = tango.bind(report)();
-                    if(tango) { _fun56680_ip = 88; continue _fun56680 }
+                    if(tango) { _fun56683_ip = 88; continue _fun56683 }
  40:
                     tango = _closure2_slot1;
-                    if(!tango) { _fun56680_ip = 88; continue _fun56680 }
+                    if(!tango) { _fun56683_ip = 88; continue _fun56683 }
  50:
                     oscar = _closure1_slot3;
                     report = oscar.addEventListener;

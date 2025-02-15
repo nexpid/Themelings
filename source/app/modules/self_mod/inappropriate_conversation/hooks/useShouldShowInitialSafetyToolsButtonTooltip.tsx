@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useShouldShowInitialSafetyToolsButtonTooltip.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldShowInitialSafetyToolsButtonTooltip
-        _fun79491: for(var _fun79491_ip = 0; ; ) switch(_fun79491_ip) {
+        _fun79501: for(var _fun79501_ip = 0; ; ) switch(_fun79501_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike, entity);
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun79491_ip = 99; continue _fun79491 }
+            if(!entity) { _fun79501_ip = 99; continue _fun79501 }
  96:
             entity = !mike;
  99:

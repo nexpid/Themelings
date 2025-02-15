@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/go_live/useFetchStreamPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: useFetchStreamPreview
-        _fun80758: for(var _fun80758_ip = 0; ; ) switch(_fun80758_ip) {
+        _fun80770: for(var _fun80770_ip = 0; ; ) switch(_fun80770_ip) {
  0:
             yankee = argFoo;
             romeo = argBar;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = offset;
             entity = null;
             report = entity == romeo;
-            if(report) { _fun80758_ip = 36; continue _fun80758 }
+            if(report) { _fun80770_ip = 36; continue _fun80770 }
  32:
             report = entity == offset;
  36:
@@ -89,12 +89,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = entity;
             entity = function() {
-                _fun80760: for(var _fun80760_ip = 0; ; ) switch(_fun80760_ip) {
+                _fun80772: for(var _fun80772_ip = 0; ; ) switch(_fun80772_ip) {
  0:
                     zulu = _closure2_slot4;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun80760_ip = 49; continue _fun80760 }
+                    if(!entity) { _fun80772_ip = 49; continue _fun80772 }
  16:
                     report = _closure1_slot5;
                     tango = report.canBasicChannel;
@@ -129,12 +129,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = mike;
             mike = function() {
-                _fun80762: for(var _fun80762_ip = 0; ; ) switch(_fun80762_ip) {
+                _fun80774: for(var _fun80774_ip = 0; ; ) switch(_fun80774_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot3;
                     mike = !tango;
-                    if(tango) { _fun80762_ip = 47; continue _fun80762 }
+                    if(tango) { _fun80774_ip = 47; continue _fun80774 }
  15:
                     options = _closure1_slot3;
                     golf = options.shouldFetchPreview;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['shouldFetchPreview'] = mike;
                     tango = _closure2_slot3;
                     mike = null;
-                    if(tango) { _fun80762_ip = 93; continue _fun80762 }
+                    if(tango) { _fun80774_ip = 93; continue _fun80774 }
  61:
                     options = _closure1_slot3;
                     golf = options.getPreviewURL;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['previewUrl'] = mike;
                     tango = _closure2_slot3;
                     mike = !tango;
-                    if(tango) { _fun80762_ip = 142; continue _fun80762 }
+                    if(tango) { _fun80774_ip = 142; continue _fun80774 }
  108:
                     golf = _closure1_slot3;
                     oscar = golf.getIsPreviewLoading;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot5 = foxtrot;
             tango = mike.previewUrl;
             mike = mike.isLoading;
-            if(entity) { _fun80758_ip = 245; continue _fun80758 }
+            if(entity) { _fun80770_ip = 245; continue _fun80770 }
  242:
             entity = options;
  245:
@@ -191,19 +191,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[4] = report;
             golf[5] = entity;
             oscar = function() {
-                _fun80763: for(var _fun80763_ip = 0; ; ) switch(_fun80763_ip) {
+                _fun80775: for(var _fun80775_ip = 0; ; ) switch(_fun80775_ip) {
  0:
                     mike = _closure2_slot5;
-                    if(!mike) { _fun80763_ip = 17; continue _fun80763 }
+                    if(!mike) { _fun80775_ip = 17; continue _fun80775 }
  10:
                     zulu = _closure2_slot3;
                     mike = !zulu;
  17:
-                    if(!mike) { _fun80763_ip = 24; continue _fun80763 }
+                    if(!mike) { _fun80775_ip = 24; continue _fun80775 }
  20:
                     mike = _closure2_slot6;
  24:
-                    if(!mike) { _fun80763_ip = 77; continue _fun80763 }
+                    if(!mike) { _fun80775_ip = 77; continue _fun80775 }
  27:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -222,14 +222,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             oscar = options.bind(verify)(oscar, golf);
-            if(report) { _fun80758_ip = 319; continue _fun80758 }
+            if(report) { _fun80770_ip = 319; continue _fun80770 }
  302:
-            if(!entity) { _fun80758_ip = 319; continue _fun80758 }
+            if(!entity) { _fun80770_ip = 319; continue _fun80770 }
  305:
             entity = {};
             entity['previewUrl'] = tango;
             entity['isLoading'] = mike;
-            _fun80758_ip = 336; continue _fun80758;
+            _fun80770_ip = 336; continue _fun80770;
  319:
             mike = {};
             mike['previewUrl'] = zulu;

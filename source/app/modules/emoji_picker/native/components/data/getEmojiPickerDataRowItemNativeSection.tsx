@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/emoji_picker/native/components/data/getEmojiPickerDataRowItemNativeSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getEmojiPickerDataRowItemNativeSection
-        _fun78359: for(var _fun78359_ip = 0; ; ) switch(_fun78359_ip) {
+        _fun78369: for(var _fun78369_ip = 0; ; ) switch(_fun78369_ip) {
  0:
             entity = argFoo;
             oscar = entity.label;
@@ -30,17 +30,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = entity.emojisDisabled;
             mike = entity.isSectionNitroLocked;
             verify = undefined;
-            if(!(mike === verify)) { _fun78359_ip = 39; continue _fun78359 }
+            if(!(mike === verify)) { _fun78369_ip = 39; continue _fun78369 }
  37:
             mike = false;
  39:
-            if(mike) { _fun78359_ip = 62; continue _fun78359 }
+            if(mike) { _fun78369_ip = 62; continue _fun78369 }
  42:
             entity = global;
             zulu = entity.Array;
             entity = zulu.from;
             zulu = entity.bind(zulu)(golf);
-            _fun78359_ip = 66; continue _fun78359;
+            _fun78369_ip = 66; continue _fun78369;
  62:
             zulu = new Array(0);
  66:

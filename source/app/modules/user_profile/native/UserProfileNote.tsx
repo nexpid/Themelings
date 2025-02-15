@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileNote.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileNote
-        _fun81921: for(var _fun81921_ip = 0; ; ) switch(_fun81921_ip) {
+        _fun81933: for(var _fun81933_ip = 0; ; ) switch(_fun81933_ip) {
  0:
             entity = argFoo;
             mike = entity.userId;
@@ -75,20 +75,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.note;
             oscar = null;
             options = oscar != romeo;
-            if(!options) { _fun81921_ip = 126; continue _fun81921 }
+            if(!options) { _fun81933_ip = 126; continue _fun81933 }
  118:
             entity = '';
             options = entity !== romeo;
  126:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
-            if(options) { _fun81921_ip = 157; continue _fun81921 }
+            if(options) { _fun81933_ip = 157; continue _fun81933 }
  137:
             entity = 6;
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             foxtrot = entity.PaperPlusIcon;
-            _fun81921_ip = 175; continue _fun81921;
+            _fun81933_ip = 175; continue _fun81933;
  157:
             entity = 5;
             entity = zulu[entity];
@@ -104,61 +104,76 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             golf = 'UserProfileNote';
             entity['location'] = golf;
-            golf = mike.bind(zulu)(entity);
+            entity = mike.bind(zulu)(entity);
             yankee = _closure1_slot0;
-            entity = _closure1_slot2;
-            result = 8;
-            mike = entity[result];
+            mike = _closure1_slot2;
+            sizing = 8;
+            zulu = mike[sizing];
+            zulu = yankee.bind(tango)(zulu);
+            golf = zulu.intl;
+            zulu = golf.string;
+            mike = mike[sizing];
             mike = yankee.bind(tango)(mike);
-            zulu = mike.intl;
-            mike = zulu.string;
-            entity = entity[result];
-            entity = yankee.bind(tango)(entity);
-            entity = entity.t;
-            if(golf) { _fun81921_ip = 278; continue _fun81921 }
+            mike = mike.t;
+            if(entity) { _fun81933_ip = 278; continue _fun81933 }
  265:
-            golf = entity.PbMNh4;
-            yankee = mike.bind(zulu)(golf);
-            _fun81921_ip = 289; continue _fun81921;
+            yankee = mike.PbMNh4;
+            yankee = zulu.bind(golf)(yankee);
+            _fun81933_ip = 289; continue _fun81933;
  278:
-            entity = entity.mQKv+v;
-            yankee = mike.bind(zulu)(entity);
+            mike = mike.mQKv+v;
+            yankee = zulu.bind(golf)(mike);
  289:
+            golf = _closure1_slot0;
+            mike = _closure1_slot2;
+            zulu = mike[sizing];
+            zulu = golf.bind(tango)(zulu);
+            kilo = zulu.intl;
+            zulu = kilo.string;
+            mike = mike[sizing];
+            mike = golf.bind(tango)(mike);
+            mike = mike.t;
+            if(options) { _fun81933_ip = 362; continue _fun81933 }
+ 333:
+            if(entity) { _fun81933_ip = 349; continue _fun81933 }
+ 336:
+            golf = mike.Dglxra;
+            golf = zulu.bind(kilo)(golf);
+            _fun81933_ip = 360; continue _fun81933;
+ 349:
+            sizing = mike.1ZZttr;
+            golf = zulu.bind(kilo)(sizing);
+ 360:
+            _fun81933_ip = 392; continue _fun81933;
+ 362:
+            if(entity) { _fun81933_ip = 378; continue _fun81933 }
+ 365:
+            entity = mike.sHHsOD;
+            entity = zulu.bind(kilo)(entity);
+            _fun81933_ip = 389; continue _fun81933;
+ 378:
+            mike = mike.gs+qcH;
+            entity = zulu.bind(kilo)(mike);
+ 389:
+            golf = entity;
+ 392:
             zulu = _closure1_slot3;
             mike = _closure1_slot0;
-            golf = _closure1_slot2;
+            kilo = _closure1_slot2;
             entity = 9;
-            entity = golf[entity];
+            entity = kilo[entity];
             entity = mike.bind(tango)(entity);
             mike = entity.PressableOpacity;
             entity = {};
-            golf = 'button';
-            entity['accessibilityRole'] = golf;
-            kilo = _closure1_slot0;
-            golf = _closure1_slot2;
-            sizing = golf[result];
-            sizing = kilo.bind(tango)(sizing);
-            output = sizing.intl;
-            sizing = output.string;
-            golf = golf[result];
-            golf = kilo.bind(tango)(golf);
-            kilo = golf.t;
-            if(options) { _fun81921_ip = 386; continue _fun81921 }
- 373:
-            golf = kilo.Dglxra;
-            golf = sizing.bind(output)(golf);
-            _fun81921_ip = 397; continue _fun81921;
- 386:
-            kilo = kilo.sHHsOD;
-            golf = sizing.bind(output)(kilo);
- 397:
+            kilo = 'button';
+            entity['accessibilityRole'] = kilo;
             entity['accessibilityHint'] = golf;
             golf = oscar != romeo;
             oscar = undefined;
-            if(!golf) { _fun81921_ip = 414; continue _fun81921 }
- 411:
+            if(!golf) { _fun81933_ip = 449; continue _fun81933 }
+ 446:
             oscar = romeo;
- 414:
+ 449:
             entity['accessibilityLabel'] = oscar;
             report = function() { // Original name: onPress
                 zulu = _closure1_slot1;
@@ -204,21 +219,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = yankee;
             yankee = !options;
-            if(options) { _fun81921_ip = 493; continue _fun81921 }
- 482:
+            if(options) { _fun81933_ip = 528; continue _fun81933 }
+ 517:
             backup = {};
             kilo = 0;
             backup['marginBottom'] = kilo;
             yankee = backup;
- 493:
+ 528:
             offset[1] = yankee;
             report['titleStyle'] = offset;
             yankee = _closure1_slot3;
             offset = {'size': 'xs', 'color': 'interactive-normal'};
             offset = yankee.bind(tango)(foxtrot, offset);
             report['titleIcon'] = offset;
-            if(!options) { _fun81921_ip = 587; continue _fun81921 }
- 534:
+            if(!options) { _fun81933_ip = 622; continue _fun81933 }
+ 569:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -229,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {'variant': 'text-md/normal', 'color': 'text-normal'};
             verify['children'] = romeo;
             options = yankee.bind(tango)(offset, verify);
- 587:
+ 622:
             report['children'] = options;
             report = golf.bind(tango)(oscar, report);
             entity['children'] = report;

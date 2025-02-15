@@ -6,24 +6,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: eligible
-        _fun94195: for(var _fun94195_ip = 0; ; ) switch(_fun94195_ip) {
+        _fun94220: for(var _fun94220_ip = 0; ; ) switch(_fun94220_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun94195_ip = 25; continue _fun94195 }
+            if(!entity) { _fun94220_ip = 25; continue _fun94220 }
  12:
             mike = zulu.isPomelo;
             mike = mike.bind(zulu)();
             entity = !mike;
  25:
-            if(!entity) { _fun94195_ip = 59; continue _fun94195 }
+            if(!entity) { _fun94220_ip = 59; continue _fun94220 }
  28:
             mike = zulu.hasVerifiedEmailOrPhone;
             mike = mike.bind(zulu)();
             zulu = !mike;
             mike = !zulu;
-            if(zulu) { _fun94195_ip = 56; continue _fun94195 }
+            if(zulu) { _fun94220_ip = 56; continue _fun94220 }
  47:
             zulu = argBar;
             zulu = !zulu;

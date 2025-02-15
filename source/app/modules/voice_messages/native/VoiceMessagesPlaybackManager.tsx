@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = offset;
     var _closure1_slot2 = verify;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun110101: for(var _fun110101_ip = 0; ; ) switch(_fun110101_ip) {
+        _fun110107: for(var _fun110107_ip = 0; ; ) switch(_fun110107_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot15;
             entity = entity.bind(zulu)();
-            if(entity) { _fun110101_ip = 51; continue _fun110101 }
+            if(entity) { _fun110107_ip = 51; continue _fun110107 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun110101_ip = 92; continue _fun110101;
+            _fun110107_ip = 92; continue _fun110107;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun110101_ip = 71; continue _fun110101 }
+            if(oscar) { _fun110107_ip = 71; continue _fun110107 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun110102: for(var _fun110102_ip = 0; ; ) switch(_fun110102_ip) {
+        _fun110108: for(var _fun110108_ip = 0; ; ) switch(_fun110108_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun110102_ip = 76; continue _fun110102;
+            _fun110108_ip = 76; continue _fun110108;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot15 = entity;
     report = function(argFoo) { // Original name: pauseCurrentAudioPlayer
-        _fun110105: for(var _fun110105_ip = 0; ; ) switch(_fun110105_ip) {
+        _fun110111: for(var _fun110111_ip = 0; ; ) switch(_fun110111_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -93,16 +93,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(zulu);
             zulu = report.isAndroid;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun110105_ip = 69; continue _fun110105 }
+            if(zulu) { _fun110111_ip = 69; continue _fun110111 }
  40:
             zulu = _closure1_slot10;
             report = zulu.DCDAudioPlayerManager;
             zulu = null;
-            if(!(zulu != report)) { _fun110105_ip = 100; continue _fun110105 }
+            if(!(zulu != report)) { _fun110111_ip = 100; continue _fun110111 }
  56:
             zulu = report.pauseCurrentPlayer;
             zulu = zulu.bind(report)(tango);
-            _fun110105_ip = 100; continue _fun110105;
+            _fun110111_ip = 100; continue _fun110111;
  69:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot16 = report;
     tango = function() { // Original name: playCurrentAudioPlayer
-        _fun110106: for(var _fun110106_ip = 0; ; ) switch(_fun110106_ip) {
+        _fun110112: for(var _fun110112_ip = 0; ; ) switch(_fun110112_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -127,16 +127,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun110106_ip = 65; continue _fun110106 }
+            if(zulu) { _fun110112_ip = 65; continue _fun110112 }
  37:
             zulu = _closure1_slot10;
             tango = zulu.DCDAudioPlayerManager;
             zulu = null;
-            if(!(zulu != tango)) { _fun110106_ip = 95; continue _fun110106 }
+            if(!(zulu != tango)) { _fun110112_ip = 95; continue _fun110112 }
  53:
             zulu = tango.maybePlayCurrentPlayer;
             zulu = zulu.bind(tango)();
-            _fun110106_ip = 95; continue _fun110106;
+            _fun110112_ip = 95; continue _fun110112;
  65:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot17 = tango;
     mike = function(argFoo) { // Original name: handleVoiceMessageDeleted
-        _fun110107: for(var _fun110107_ip = 0; ; ) switch(_fun110107_ip) {
+        _fun110113: for(var _fun110113_ip = 0; ; ) switch(_fun110113_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -162,16 +162,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(zulu);
             zulu = report.isAndroid;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun110107_ip = 69; continue _fun110107 }
+            if(zulu) { _fun110113_ip = 69; continue _fun110113 }
  40:
             zulu = _closure1_slot10;
             report = zulu.DCDAudioPlayerManager;
             zulu = null;
-            if(!(zulu != report)) { _fun110107_ip = 100; continue _fun110107 }
+            if(!(zulu != report)) { _fun110113_ip = 100; continue _fun110113 }
  56:
             zulu = report.handleVoiceMessageDeleted;
             zulu = zulu.bind(report)(tango);
-            _fun110107_ip = 100; continue _fun110107;
+            _fun110113_ip = 100; continue _fun110113;
  69:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu instanceof Object ? zulu : tango;
             entity['backgroundPlaybackBridgeEventEmitter'] = zulu;
             zulu = function(argFoo) {
-                _fun110110: for(var _fun110110_ip = 0; ; ) switch(_fun110110_ip) {
+                _fun110116: for(var _fun110116_ip = 0; ; ) switch(_fun110116_ip) {
  0:
                     mike = argFoo;
                     report = _closure1_slot0;
@@ -281,14 +281,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(entity)(tango);
                     tango = report.isAndroid;
                     tango = tango.bind(report)();
-                    if(tango) { _fun110110_ip = 69; continue _fun110110 }
+                    if(tango) { _fun110116_ip = 69; continue _fun110116 }
  40:
                     tango = _closure1_slot10;
                     oscar = tango.DCDAccessibilityManager;
                     report = oscar.handleSetPrefersReducedMotion;
                     tango = mike.prefersReducedMotion;
                     tango = report.bind(oscar)(tango);
-                    _fun110110_ip = 106; continue _fun110110;
+                    _fun110116_ip = 106; continue _fun110116;
  69:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleSetPrefersReducedMotion'] = zulu;
             zulu = function(argFoo) {
-                _fun110111: for(var _fun110111_ip = 0; ; ) switch(_fun110111_ip) {
+                _fun110117: for(var _fun110117_ip = 0; ; ) switch(_fun110117_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.id;
@@ -315,14 +315,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = tango === mike;
                     tango = null;
                     mike = tango != report;
-                    if(!mike) { _fun110111_ip = 46; continue _fun110111 }
+                    if(!mike) { _fun110117_ip = 46; continue _fun110117 }
  43:
                     mike = report;
  46:
-                    if(!mike) { _fun110111_ip = 68; continue _fun110111 }
+                    if(!mike) { _fun110117_ip = 68; continue _fun110117 }
  49:
                     mike = _closure1_slot18;
-                    if(!(tango != mike)) { _fun110111_ip = 68; continue _fun110111 }
+                    if(!(tango != mike)) { _fun110117_ip = 68; continue _fun110117 }
  57:
                     mike = _closure1_slot18;
                     entity = undefined;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleLogout'] = zulu;
             zulu = function() {
-                _fun110113: for(var _fun110113_ip = 0; ; ) switch(_fun110113_ip) {
+                _fun110119: for(var _fun110119_ip = 0; ; ) switch(_fun110119_ip) {
  0:
                     report = _closure3_slot0;
                     oscar = _closure1_slot0;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = _closure1_slot10;
                     tango = zulu.DCDBackgroundPlaybackBridge;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun110113_ip = 121; continue _fun110113 }
+                    if(!(zulu != tango)) { _fun110119_ip = 121; continue _fun110119 }
  98:
                     zulu = tango.setBackgroundPlaybackEnabled;
                     mike = _closure3_slot0;
@@ -393,34 +393,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['handleWillConfigureNowPlaying'] = zulu;
             mike = function(argFoo) {
-                _fun110115: for(var _fun110115_ip = 0; ; ) switch(_fun110115_ip) {
+                _fun110121: for(var _fun110121_ip = 0; ; ) switch(_fun110121_ip) {
  0:
                     entity = argFoo;
                     entity = entity.state;
                     zulu = _closure3_slot0;
                     zulu = zulu.isBackgroundPlaybackEnabled;
-                    if(zulu) { _fun110115_ip = 97; continue _fun110115 }
+                    if(zulu) { _fun110121_ip = 97; continue _fun110121 }
  24:
                     mike = _closure3_slot0;
                     zulu = mike.appState;
                     mike['appState'] = entity;
                     mike = 'active';
-                    if(!(mike === entity)) { _fun110115_ip = 52; continue _fun110115 }
+                    if(!(mike === entity)) { _fun110121_ip = 52; continue _fun110121 }
  48:
-                    if(!(mike === zulu)) { _fun110115_ip = 84; continue _fun110115 }
+                    if(!(mike === zulu)) { _fun110121_ip = 84; continue _fun110121 }
  52:
                     entity = mike !== entity;
-                    if(!entity) { _fun110115_ip = 63; continue _fun110115 }
+                    if(!entity) { _fun110121_ip = 63; continue _fun110121 }
  59:
                     entity = mike === zulu;
  63:
-                    if(!entity) { _fun110115_ip = 97; continue _fun110115 }
+                    if(!entity) { _fun110121_ip = 97; continue _fun110121 }
  66:
                     zulu = _closure1_slot16;
                     mike = undefined;
                     entity = true;
                     entity = zulu.bind(mike)(entity);
-                    _fun110115_ip = 97; continue _fun110115;
+                    _fun110121_ip = 97; continue _fun110121;
  84:
                     mike = _closure1_slot17;
                     entity = undefined;

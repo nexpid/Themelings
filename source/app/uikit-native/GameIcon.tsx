@@ -7,14 +7,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = backup;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: GameIcon
-        _fun86974: for(var _fun86974_ip = 0; ; ) switch(_fun86974_ip) {
+        _fun86991: for(var _fun86991_ip = 0; ; ) switch(_fun86991_ip) {
  0:
             entity = argFoo;
             romeo = entity.game;
             oscar = entity.skuId;
             offset = entity.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun86974_ip = 39; continue _fun86974 }
+            if(!(offset === tango)) { _fun86991_ip = 39; continue _fun86991 }
  26:
             mike = _closure1_slot6;
             offset = mike.NORMAL;
@@ -48,38 +48,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity != oscar;
             options = undefined;
-            if(!mike) { _fun86974_ip = 306; continue _fun86974 }
+            if(!mike) { _fun86991_ip = 306; continue _fun86991 }
  181:
             mike = _closure1_slot4;
             mike = mike.TIER_0;
-            if(!(mike !== oscar)) { _fun86974_ip = 283; continue _fun86974 }
+            if(!(mike !== oscar)) { _fun86991_ip = 283; continue _fun86991 }
  195:
             mike = _closure1_slot4;
             mike = mike.TIER_1;
-            if(!(mike !== oscar)) { _fun86974_ip = 261; continue _fun86974 }
+            if(!(mike !== oscar)) { _fun86991_ip = 261; continue _fun86991 }
  209:
             mike = _closure1_slot4;
             mike = mike.TIER_2;
-            if(!(mike !== oscar)) { _fun86974_ip = 239; continue _fun86974 }
+            if(!(mike !== oscar)) { _fun86991_ip = 239; continue _fun86991 }
  223:
             mike = _closure1_slot4;
             zulu = mike.LEGACY;
             mike = null;
-            if(!(zulu === oscar)) { _fun86974_ip = 303; continue _fun86974 }
+            if(!(zulu === oscar)) { _fun86991_ip = 303; continue _fun86991 }
  239:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
             zulu = 8;
             zulu = foxtrot[zulu];
             mike = oscar.bind(tango)(zulu);
-            _fun86974_ip = 303; continue _fun86974;
+            _fun86991_ip = 303; continue _fun86991;
  261:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
             zulu = 7;
             zulu = foxtrot[zulu];
             mike = oscar.bind(tango)(zulu);
-            _fun86974_ip = 303; continue _fun86974;
+            _fun86991_ip = 303; continue _fun86991;
  283:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
@@ -90,11 +90,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = mike;
  306:
             mike = entity != romeo;
-            if(!mike) { _fun86974_ip = 317; continue _fun86974 }
+            if(!mike) { _fun86991_ip = 317; continue _fun86991 }
  313:
             mike = entity == options;
  317:
-            if(!mike) { _fun86974_ip = 348; continue _fun86974 }
+            if(!mike) { _fun86991_ip = 349; continue _fun86991 }
  320:
             mike = {};
             oscar = romeo.getIconURL;
@@ -103,9 +103,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.bind(romeo)(zulu);
             mike['uri'] = zulu;
             options = mike;
- 348:
-            if(!(entity == options)) { _fun86974_ip = 388; continue _fun86974 }
- 352:
+ 349:
+            if(!(entity == options)) { _fun86991_ip = 389; continue _fun86991 }
+ 353:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
             entity = 9;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.push;
             mike = golf.placeholder;
             mike = zulu.bind(yankee)(mike);
- 388:
+ 389:
             zulu = _closure1_slot5;
             mike = _closure1_slot3;
             entity = {};

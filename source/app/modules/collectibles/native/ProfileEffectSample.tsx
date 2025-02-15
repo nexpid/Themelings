@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/collectibles/native/ProfileEffectSample.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun99603: for(var _fun99603_ip = 0; ; ) switch(_fun99603_ip) {
+        _fun99613: for(var _fun99613_ip = 0; ; ) switch(_fun99613_ip) {
  0:
             entity = argFoo;
             verify = entity.item;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = foxtrot.profileEffectContainer;
             report = new Array(2);
             report[0] = options;
-            if(!golf) { _fun99603_ip = 78; continue _fun99603 }
+            if(!golf) { _fun99613_ip = 78; continue _fun99613 }
  72:
             golf = foxtrot.purchasedProfileEffect;
  78:
@@ -104,28 +104,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['style'] = foxtrot;
             foxtrot = 'contain';
             report['resizeMode'] = foxtrot;
-            if(yankee) { _fun99603_ip = 179; continue _fun99603 }
+            if(yankee) { _fun99613_ip = 179; continue _fun99613 }
  118:
             yankee = _closure1_slot0;
             backup = _closure1_slot1;
-            if(offset) { _fun99603_ip = 150; continue _fun99603 }
+            if(offset) { _fun99613_ip = 150; continue _fun99613 }
  129:
-            if(romeo) { _fun99603_ip = 141; continue _fun99603 }
+            if(romeo) { _fun99613_ip = 141; continue _fun99613 }
  132:
             offset = 7;
             offset = backup[offset];
-            _fun99603_ip = 148; continue _fun99603;
+            _fun99613_ip = 148; continue _fun99613;
  141:
             foxtrot = 6;
             offset = backup[foxtrot];
  148:
-            _fun99603_ip = 172; continue _fun99603;
+            _fun99613_ip = 172; continue _fun99613;
  150:
-            if(romeo) { _fun99603_ip = 162; continue _fun99603 }
+            if(romeo) { _fun99613_ip = 162; continue _fun99613 }
  153:
             romeo = 5;
             romeo = backup[romeo];
-            _fun99603_ip = 169; continue _fun99603;
+            _fun99613_ip = 169; continue _fun99613;
  162:
             foxtrot = 4;
             romeo = backup[foxtrot];
@@ -133,13 +133,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = romeo;
  172:
             offset = yankee.bind(tango)(offset);
-            _fun99603_ip = 194; continue _fun99603;
+            _fun99613_ip = 195; continue _fun99613;
  179:
             yankee = {};
             romeo = 'https://cdn.discordapp.com/assets/content/e8398a26cc845c96d8a6863af4a0384e41bf2ed1d028ab3280e24c72eb115a0e.png';
             yankee['uri'] = romeo;
             offset = yankee;
- 194:
+ 195:
             report['source'] = offset;
             golf = options.bind(tango)(golf, report);
             report = new Array(2);

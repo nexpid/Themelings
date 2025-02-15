@@ -11,11 +11,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz, argCorge, argGrault) {
             entity = function* (argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: ?anon_0_
-                _fun67682: for(var _fun67682_ip = 0; ; ) switch(_fun67682_ip) {
+                _fun67688: for(var _fun67688_ip = 0; ; ) switch(_fun67688_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun67682_ip = 141; continue _fun67682 }
+                    if(mike) { _fun67688_ip = 141; continue _fun67688 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  124:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun67682_ip = 138; continue _fun67682 }
+                    if(zulu) { _fun67688_ip = 138; continue _fun67688 }
  130:
                     zulu = mike.body;
                     return zulu;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun67685: for(var _fun67685_ip = 0; ; ) switch(_fun67685_ip) {
+                _fun67691: for(var _fun67691_ip = 0; ; ) switch(_fun67691_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun67685_ip = 121; continue _fun67685 }
+                    if(mike) { _fun67691_ip = 121; continue _fun67691 }
  7:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  104:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun67685_ip = 118; continue _fun67685 }
+                    if(zulu) { _fun67691_ip = 118; continue _fun67691 }
  110:
                     zulu = mike.body;
                     return zulu;

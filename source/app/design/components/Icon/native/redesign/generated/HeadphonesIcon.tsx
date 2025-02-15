@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Icon/native/redesign/generated/HeadphonesIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun81905: for(var _fun81905_ip = 0; ; ) switch(_fun81905_ip) {
+        _fun81917: for(var _fun81917_ip = 0; ; ) switch(_fun81917_ip) {
  0:
             zulu = argFoo;
             oscar = zulu.style;
             golf = zulu.color;
             tango = undefined;
-            if(!(golf === tango)) { _fun81905_ip = 53; continue _fun81905 }
+            if(!(golf === tango)) { _fun81917_ip = 53; continue _fun81917 }
  19:
             mike = _closure1_slot1;
             report = _closure1_slot2;

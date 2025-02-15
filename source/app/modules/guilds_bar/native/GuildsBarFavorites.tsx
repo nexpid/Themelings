@@ -54,7 +54,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function() { // Original name: GuildsBarFavorites
-        _fun114476: for(var _fun114476_ip = 0; ; ) switch(_fun114476_ip) {
+        _fun114482: for(var _fun114482_ip = 0; ; ) switch(_fun114482_ip) {
  0:
             oscar = _closure1_slot0;
             verify = _closure1_slot2;
@@ -144,10 +144,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = offset[options];
             options = verify.bind(tango)(options);
             options = options.colors;
-            if(golf) { _fun114476_ip = 355; continue _fun114476 }
+            if(golf) { _fun114482_ip = 355; continue _fun114482 }
  347:
             golf = options.INTERACTIVE_NORMAL;
-            _fun114476_ip = 361; continue _fun114476;
+            _fun114482_ip = 361; continue _fun114482;
  355:
             golf = options.WHITE;
  361:

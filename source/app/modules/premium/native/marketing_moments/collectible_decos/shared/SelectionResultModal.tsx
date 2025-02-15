@@ -1,4 +1,4 @@
-// app/modules/premium/native/marketingMoments/collectibleDecos/shared/SelectionResultModal.tsx
+// app/modules/premium/native/marketing_moments/collectible_decos/shared/SelectionResultModal.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
     report = argBar;
     romeo = argBaz;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = oscar[tango];
     oscar = report.bind(entity)(tango);
     report = oscar.fileFinishedImporting;
-    tango = 'modules/premium/native/marketingMoments/collectibleDecos/shared/SelectionResultModal.tsx';
+    tango = 'modules/premium/native/marketing_moments/collectible_decos/shared/SelectionResultModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SelectionResultModal
         entity = argFoo;

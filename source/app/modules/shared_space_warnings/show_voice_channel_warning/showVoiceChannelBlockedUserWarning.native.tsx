@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/shared_space_warnings/show_voice_channel_warning/showVoiceChannelBlockedUserWarning.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: showVoiceChannelBlockedUserWarning
-        _fun107117: for(var _fun107117_ip = 0; ; ) switch(_fun107117_ip) {
+        _fun107110: for(var _fun107110_ip = 0; ; ) switch(_fun107110_ip) {
  0:
             options = argFoo;
             verify = argBar;
@@ -54,11 +54,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(entity)(mike);
             mike = mike.AppStates;
             mike = mike.ACTIVE;
-            if(!(zulu !== mike)) { _fun107117_ip = 74; continue _fun107117 }
+            if(!(zulu !== mike)) { _fun107110_ip = 74; continue _fun107110 }
  61:
             mike = _closure1_slot4;
             mike = mike.bind(entity)();
-            _fun107117_ip = 234; continue _fun107117;
+            _fun107110_ip = 234; continue _fun107110;
  74:
             mike = _closure1_slot5;
             mike = mike.bind(entity)();

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getSocialPermissions
-        _fun99852: for(var _fun99852_ip = 0; ; ) switch(_fun99852_ip) {
+        _fun99861: for(var _fun99861_ip = 0; ; ) switch(_fun99861_ip) {
  0:
             entity = argFoo;
             tango = entity.allServersSelected;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(golf)(entity);
             mike['label'] = entity;
             entity = oscar;
-            if(tango) { _fun99852_ip = 179; continue _fun99852 }
+            if(tango) { _fun99861_ip = 179; continue _fun99861 }
  127:
             tango = new Array(0);
             output = 0;

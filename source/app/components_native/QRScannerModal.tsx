@@ -1,6 +1,6 @@
 // app/components_native/QRScannerModal.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun95275: for(var _fun95275_ip = 0; ; ) switch(_fun95275_ip) {
+    _fun95285: for(var _fun95285_ip = 0; ; ) switch(_fun95285_ip) {
  0:
         report = argBar;
         verify = argBaz;
@@ -57,11 +57,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = report.bind(entity)(tango);
         tango = options.isAndroid;
         tango = tango.bind(options)();
-        if(tango) { _fun95275_ip = 241; continue _fun95275 }
+        if(tango) { _fun95285_ip = 241; continue _fun95285 }
  228:
         tango = 'DCDQRScanner';
         tango = golf.bind(entity)(tango);
-        _fun95275_ip = 253; continue _fun95275;
+        _fun95285_ip = 253; continue _fun95285;
  241:
         golf = 7;
         golf = oscar[golf];
@@ -124,13 +124,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'components_native/QRScannerModal.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: QRScannerModal
-            _fun95277: for(var _fun95277_ip = 0; ; ) switch(_fun95277_ip) {
+            _fun95287: for(var _fun95287_ip = 0; ; ) switch(_fun95287_ip) {
  0:
                 entity = argFoo;
                 mike = entity.showHelp;
                 tango = undefined;
                 verify = tango !== mike;
-                if(!verify) { _fun95277_ip = 23; continue _fun95277 }
+                if(!verify) { _fun95287_ip = 23; continue _fun95287 }
  20:
                 verify = mike;
  23:
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report['flex'] = oscar;
                 entity['style'] = report;
                 offset = _closure1_slot8;
-                if(golf) { _fun95277_ip = 214; continue _fun95277 }
+                if(golf) { _fun95287_ip = 214; continue _fun95287 }
  165:
                 oscar = _closure1_slot11;
                 report = {};
@@ -202,14 +202,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = 'none';
                 report['pointerEvents'] = yankee;
                 options = function(argFoo) { // Original name: onQRCodeFound
-                    _fun95281: for(var _fun95281_ip = 0; ; ) switch(_fun95281_ip) {
+                    _fun95291: for(var _fun95291_ip = 0; ; ) switch(_fun95291_ip) {
  0:
                         entity = argFoo;
                         mike = entity.nativeEvent;
                         zulu = mike.status;
                         mike = _closure1_slot13;
                         mike = mike.SUCCEEDED;
-                        if(!(mike !== zulu)) { _fun95281_ip = 186; continue _fun95281 }
+                        if(!(mike !== zulu)) { _fun95291_ip = 186; continue _fun95291 }
  33:
                         mike = _closure1_slot13;
                         mike = mike.FAILED;
@@ -244,11 +244,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = golf.bind(options)(oscar);
                         mike['title'] = oscar;
                         mike = zulu.bind(tango)(mike);
-                        _fun95281_ip = 381; continue _fun95281;
+                        _fun95291_ip = 381; continue _fun95291;
  186:
                         tango = _closure2_slot0;
                         zulu = undefined;
-                        if(!(zulu === tango)) { _fun95281_ip = 619; continue _fun95281 }
+                        if(!(zulu === tango)) { _fun95291_ip = 619; continue _fun95291 }
  202:
                         oscar = _closure1_slot1;
                         golf = _closure1_slot2;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.result;
                         oscar = oscar.bind(golf)(tango);
                         tango = null;
-                        if(!(tango == oscar)) { _fun95281_ip = 252; continue _fun95281 }
+                        if(!(tango == oscar)) { _fun95291_ip = 252; continue _fun95291 }
  250:
                         oscar = {};
  252:
@@ -273,19 +273,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = golf.bind(zulu)(oscar);
                         oscar = golf.findRemoteAuthFingerprint;
                         options = oscar.bind(golf)(options, verify);
-                        if(!(tango == options)) { _fun95281_ip = 523; continue _fun95281 }
+                        if(!(tango == options)) { _fun95291_ip = 523; continue _fun95291 }
  303:
                         golf = tango == verify;
                         oscar = undefined;
-                        if(golf) { _fun95281_ip = 327; continue _fun95281 }
+                        if(golf) { _fun95291_ip = 327; continue _fun95291 }
  312:
                         offset = verify.match;
                         golf = _closure1_slot7;
                         oscar = offset.bind(verify)(golf);
  327:
-                        if(!(tango != oscar)) { _fun95281_ip = 335; continue _fun95281 }
+                        if(!(tango != oscar)) { _fun95291_ip = 335; continue _fun95291 }
  331:
-                        if(!(tango == verify)) { _fun95281_ip = 415; continue _fun95281 }
+                        if(!(tango == verify)) { _fun95291_ip = 415; continue _fun95291 }
  335:
                         oscar = _closure1_slot1;
                         golf = _closure1_slot2;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 report['onQRCodeFound'] = options;
                 oscar = offset.bind(tango)(oscar, report);
-                _fun95277_ip = 262; continue _fun95277;
+                _fun95287_ip = 262; continue _fun95287;
  214:
                 options = _closure1_slot5;
                 report = {};
@@ -425,10 +425,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = offset.bind(tango)(options, oscar);
                 report[1] = oscar;
                 oscar = null;
-                if(!verify) { _fun95277_ip = 609; continue _fun95277 }
+                if(!verify) { _fun95287_ip = 609; continue _fun95287 }
  447:
                 oscar = null;
-                if(golf) { _fun95277_ip = 609; continue _fun95277 }
+                if(golf) { _fun95287_ip = 609; continue _fun95287 }
  455:
                 verify = _closure1_slot8;
                 options = _closure1_slot5;

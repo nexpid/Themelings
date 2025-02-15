@@ -397,13 +397,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report[tango] = verify;
     var _closure1_slot5 = report;
     tango = function(argFoo, argBar) { // Original name: convertToMajorCurrencyUnits
-        _fun41441: for(var _fun41441_ip = 0; ; ) switch(_fun41441_ip) {
+        _fun41449: for(var _fun41449_ip = 0; ; ) switch(_fun41449_ip) {
  0:
             tango = argBar;
             mike = _closure1_slot5;
             report = mike[tango];
             mike = null;
-            if(!(mike != report)) { _fun41441_ip = 98; continue _fun41441 }
+            if(!(mike != report)) { _fun41449_ip = 98; continue _fun41449 }
  20:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -447,23 +447,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = '../discord_common/js/shared/utils/PriceUtils.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo, argBar, argBaz) {
-        _fun41442: for(var _fun41442_ip = 0; ; ) switch(_fun41442_ip) {
+        _fun41450: for(var _fun41450_ip = 0; ; ) switch(_fun41450_ip) {
  0:
             mike = argFoo;
             golf = argBar;
             tango = arguments[3];
             oscar = undefined;
-            if(!(tango === oscar)) { _fun41442_ip = 17; continue _fun41442 }
+            if(!(tango === oscar)) { _fun41450_ip = 17; continue _fun41450 }
  15:
             tango = {};
  17:
             entity = _closure1_slot4;
             entity = entity.DISCORD_ORB;
-            if(!(golf !== entity)) { _fun41442_ip = 137; continue _fun41442 }
+            if(!(golf !== entity)) { _fun41450_ip = 137; continue _fun41450 }
  34:
             entity = tango.convertToMajorUnits;
             options = oscar === entity;
-            if(options) { _fun41442_ip = 50; continue _fun41442 }
+            if(options) { _fun41450_ip = 50; continue _fun41450 }
  47:
             options = entity;
  50:
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(verify)(entity, zulu);
             zulu = tango.format;
             entity = mike;
-            if(!options) { _fun41442_ip = 130; continue _fun41442 }
+            if(!options) { _fun41450_ip = 130; continue _fun41450 }
  120:
             report = _closure1_slot6;
             entity = report.bind(oscar)(mike, golf);
@@ -500,13 +500,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['CurrencyExponents'] = report;
     zulu['convertToMajorCurrencyUnits'] = tango;
     mike = function(argFoo, argBar) {
-        _fun41443: for(var _fun41443_ip = 0; ; ) switch(_fun41443_ip) {
+        _fun41451: for(var _fun41451_ip = 0; ; ) switch(_fun41451_ip) {
  0:
             tango = argBar;
             mike = _closure1_slot5;
             report = mike[tango];
             mike = null;
-            if(!(mike != report)) { _fun41443_ip = 98; continue _fun41443 }
+            if(!(mike != report)) { _fun41451_ip = 98; continue _fun41451 }
  20:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

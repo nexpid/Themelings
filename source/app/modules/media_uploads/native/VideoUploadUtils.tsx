@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     tango = function(argFoo, argBar) { // Original name: calculateTargetDimensions
-        _fun56886: for(var _fun56886_ip = 0; ; ) switch(_fun56886_ip) {
+        _fun56889: for(var _fun56889_ip = 0; ; ) switch(_fun56889_ip) {
  0:
             entity = argFoo;
             options = argBar;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = zulu / mike;
             tango = entity.width;
             zulu = entity.height;
-            if(!(!(tango > zulu))) { _fun56886_ip = 86; continue _fun56886 }
+            if(!(!(tango > zulu))) { _fun56889_ip = 86; continue _fun56889 }
  34:
             zulu = global;
             oscar = zulu.Math;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = report.bind(oscar)(zulu);
             golf = tango;
             tango = zulu;
-            _fun56886_ip = 133; continue _fun56886;
+            _fun56889_ip = 133; continue _fun56889;
  86:
             zulu = global;
             oscar = zulu.Math;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = golf % mike;
             report = 0;
             zulu = golf;
-            if(!(oscar !== report)) { _fun56886_ip = 158; continue _fun56886 }
+            if(!(oscar !== report)) { _fun56889_ip = 158; continue _fun56889 }
  151:
             oscar = 1;
             zulu = golf + oscar;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['width'] = zulu;
             zulu = tango % mike;
             mike = tango;
-            if(!(zulu !== report)) { _fun56886_ip = 180; continue _fun56886 }
+            if(!(zulu !== report)) { _fun56889_ip = 180; continue _fun56889 }
  173:
             zulu = 1;
             mike = tango + zulu;
@@ -177,28 +177,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     report = report instanceof Object ? report : golf;
     oscar['VERY_HIGH'] = report;
     report = function(argFoo) {
-        _fun56890: for(var _fun56890_ip = 0; ; ) switch(_fun56890_ip) {
+        _fun56893: for(var _fun56893_ip = 0; ; ) switch(_fun56893_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot5;
             mike = mike.VERY_LOW;
-            if(!(mike !== report)) { _fun56890_ip = 182; continue _fun56890 }
+            if(!(mike !== report)) { _fun56893_ip = 182; continue _fun56893 }
  23:
             mike = _closure1_slot5;
             mike = mike.LOW;
-            if(!(mike !== report)) { _fun56890_ip = 170; continue _fun56890 }
+            if(!(mike !== report)) { _fun56893_ip = 170; continue _fun56893 }
  40:
             mike = _closure1_slot5;
             mike = mike.MEDIUM;
-            if(!(mike !== report)) { _fun56890_ip = 158; continue _fun56890 }
+            if(!(mike !== report)) { _fun56893_ip = 158; continue _fun56893 }
  54:
             mike = _closure1_slot5;
             mike = mike.HIGH;
-            if(!(mike !== report)) { _fun56890_ip = 146; continue _fun56890 }
+            if(!(mike !== report)) { _fun56893_ip = 146; continue _fun56893 }
  68:
             mike = _closure1_slot5;
             mike = mike.VERY_HIGH;
-            if(!(mike !== report)) { _fun56890_ip = 134; continue _fun56890 }
+            if(!(mike !== report)) { _fun56893_ip = 134; continue _fun56893 }
  82:
             mike = global;
             tango = mike.Error;
@@ -252,11 +252,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     zulu['VideoQualityTarget'] = oscar;
     zulu['DEFAULT_VIDEO_ENCODING_CONFIG'] = report;
     report = function(argFoo) { // Original name: calculateKeyFrameInterval
-        _fun56891: for(var _fun56891_ip = 0; ; ) switch(_fun56891_ip) {
+        _fun56894: for(var _fun56894_ip = 0; ; ) switch(_fun56894_ip) {
  0:
             entity = 2;
             mike = argFoo;
-            if(!mike) { _fun56891_ip = 12; continue _fun56891 }
+            if(!mike) { _fun56894_ip = 12; continue _fun56894 }
  9:
             entity = 3;
  12:
@@ -266,18 +266,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     zulu['calculateKeyFrameInterval'] = report;
     zulu['calculateTargetDimensions'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: canSkipVideoTranscode
-        _fun56892: for(var _fun56892_ip = 0; ; ) switch(_fun56892_ip) {
+        _fun56895: for(var _fun56895_ip = 0; ; ) switch(_fun56895_ip) {
  0:
             entity = argFoo;
             mike = argBar;
             report = argBaz;
             tango = argCorge;
             zulu = null;
-            if(!(zulu != report)) { _fun56892_ip = 29; continue _fun56892 }
+            if(!(zulu != report)) { _fun56895_ip = 29; continue _fun56895 }
  18:
-            if(!(zulu != tango)) { _fun56892_ip = 29; continue _fun56892 }
+            if(!(zulu != tango)) { _fun56895_ip = 29; continue _fun56895 }
  22:
-            if(!(!(report > tango))) { _fun56892_ip = 194; continue _fun56892 }
+            if(!(!(report > tango))) { _fun56895_ip = 194; continue _fun56895 }
  29:
             oscar = _closure1_slot7;
             report = entity.targetResolution;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = oscar.bind(options)(report);
             report = tango.width;
             report = golf <= report;
-            if(!report) { _fun56892_ip = 115; continue _fun56892 }
+            if(!report) { _fun56895_ip = 115; continue _fun56895 }
  106:
             tango = tango.height;
             report = oscar <= tango;
@@ -303,16 +303,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity = entity.targetBitrate;
             tango = tango <= entity;
             entity = !report;
-            if(!report) { _fun56892_ip = 140; continue _fun56892 }
+            if(!report) { _fun56895_ip = 140; continue _fun56895 }
  137:
             entity = !tango;
  140:
-            if(entity) { _fun56892_ip = 152; continue _fun56892 }
+            if(entity) { _fun56895_ip = 152; continue _fun56895 }
  143:
             tango = mike.format;
             entity = zulu == tango;
  152:
-            if(entity) { _fun56892_ip = 189; continue _fun56892 }
+            if(entity) { _fun56895_ip = 189; continue _fun56895 }
  155:
             report = mike.format;
             tango = report.match;
@@ -329,19 +329,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['canSkipVideoTranscode'] = tango;
     tango = function(argFoo) { // Original name: logSourceMetadata
-        _fun56893: for(var _fun56893_ip = 0; ; ) switch(_fun56893_ip) {
+        _fun56896: for(var _fun56896_ip = 0; ; ) switch(_fun56896_ip) {
  0:
             tango = argFoo;
             entity = tango.format;
             mike = null;
             entity = mike != entity;
             options = 'unknown';
-            if(!entity) { _fun56893_ip = 56; continue _fun56893 }
+            if(!entity) { _fun56896_ip = 56; continue _fun56896 }
  21:
             zulu = tango.format;
             entity = {'hvc1': 'hvc1 (HEVC)', 'avc1': 'avc1 (H.264)'};
             entity = entity[zulu];
-            if(!(mike == entity)) { _fun56893_ip = 53; continue _fun56893 }
+            if(!(mike == entity)) { _fun56896_ip = 53; continue _fun56896 }
  48:
             entity = tango.format;
  53:
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = oscar.info;
             zulu = tango.isHDRContent;
             golf = 'No';
-            if(!zulu) { _fun56893_ip = 283; continue _fun56893 }
+            if(!zulu) { _fun56896_ip = 283; continue _fun56896 }
  277:
             golf = 'Yes';
  283:
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['logSourceMetadata'] = tango;
     tango = function(argFoo) { // Original name: logEncoderSettings
-        _fun56894: for(var _fun56894_ip = 0; ; ) switch(_fun56894_ip) {
+        _fun56897: for(var _fun56897_ip = 0; ; ) switch(_fun56897_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot6;
@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = options == report;
             entity = undefined;
             offset = undefined;
-            if(zulu) { _fun56894_ip = 61; continue _fun56894 }
+            if(zulu) { _fun56897_ip = 61; continue _fun56897 }
  52:
             zulu = report.toString;
             offset = zulu.bind(report)();
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = mike.videoQuality;
             verify = options == zulu;
             yankee = undefined;
-            if(verify) { _fun56894_ip = 121; continue _fun56894 }
+            if(verify) { _fun56897_ip = 121; continue _fun56897 }
  115:
             yankee = zulu.targetResolution;
  121:
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             zulu = mike.videoQuality;
             options = options == zulu;
             verify = undefined;
-            if(options) { _fun56894_ip = 184; continue _fun56894 }
+            if(options) { _fun56897_ip = 184; continue _fun56897 }
  178:
             verify = zulu.targetBitrate;
  184:
@@ -490,11 +490,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = mike.skipVideoTranscode;
             tango = _closure1_slot6;
             zulu = tango.info;
-            if(golf) { _fun56894_ip = 610; continue _fun56894 }
+            if(golf) { _fun56897_ip = 610; continue _fun56897 }
  261:
             golf = mike.useHEVC;
             options = 'avc1 (H.264)';
-            if(!golf) { _fun56894_ip = 282; continue _fun56894 }
+            if(!golf) { _fun56897_ip = 282; continue _fun56897 }
  276:
             options = 'hvc1 (HEVC)';
  282:
@@ -538,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             options = mike.createHDR;
             golf = 'No';
             yankee = golf;
-            if(!options) { _fun56894_ip = 514; continue _fun56894 }
+            if(!options) { _fun56897_ip = 514; continue _fun56897 }
  508:
             yankee = 'Yes';
  514:
@@ -555,14 +555,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = options.bind(oscar)(report);
             report = oscar.info;
             mike = mike.hevcIsSupported;
-            if(!mike) { _fun56894_ip = 593; continue _fun56894 }
+            if(!mike) { _fun56897_ip = 593; continue _fun56897 }
  587:
             golf = 'Yes';
  593:
             mike = '- HEVC Supported: ';
             mike = mike + golf;
             mike = report.bind(oscar)(mike);
-            _fun56894_ip = 621; continue _fun56894;
+            _fun56897_ip = 621; continue _fun56897;
  610:
             mike = '- Skip Video Transcode: Yes';
             mike = zulu.bind(tango)(mike);
@@ -572,14 +572,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['logEncoderSettings'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: calculateOptimalBitrate
-        _fun56895: for(var _fun56895_ip = 0; ; ) switch(_fun56895_ip) {
+        _fun56898: for(var _fun56898_ip = 0; ; ) switch(_fun56898_ip) {
  0:
             entity = argGrault;
             mike = argFoo;
             tango = mike.bitRate;
             mike = null;
             report = tango;
-            if(!(mike !== entity)) { _fun56895_ip = 173; continue _fun56895 }
+            if(!(mike !== entity)) { _fun56898_ip = 173; continue _fun56898 }
  24:
             oscar = entity.thermalState;
             golf = _closure1_slot0;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = mike.ThermalState;
             mike = mike.SERIOUS;
             mike = oscar !== mike;
-            if(!mike) { _fun56895_ip = 113; continue _fun56895 }
+            if(!mike) { _fun56898_ip = 113; continue _fun56898 }
  74:
             oscar = entity.thermalState;
             golf = _closure1_slot0;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = oscar !== zulu;
  113:
             zulu = tango;
-            if(mike) { _fun56895_ip = 133; continue _fun56895 }
+            if(mike) { _fun56898_ip = 133; continue _fun56898 }
  119:
             mike = 0.8;
             zulu = tango * mike;
@@ -611,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             tango = entity.batteryLevel;
             mike = 0.3;
             entity = zulu;
-            if(!(tango < mike)) { _fun56895_ip = 170; continue _fun56895 }
+            if(!(tango < mike)) { _fun56898_ip = 170; continue _fun56898 }
  156:
             mike = 0.9;
             entity = zulu * mike;
@@ -635,21 +635,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['calculateOptimalBitrate'] = tango;
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: shouldUseHEVC
-        _fun56896: for(var _fun56896_ip = 0; ; ) switch(_fun56896_ip) {
+        _fun56899: for(var _fun56899_ip = 0; ; ) switch(_fun56899_ip) {
  0:
             entity = argBar;
             mike = !entity;
-            if(mike) { _fun56896_ip = 15; continue _fun56896 }
+            if(mike) { _fun56899_ip = 15; continue _fun56899 }
  9:
             entity = argBaz;
             mike = !entity;
  15:
             entity = !mike;
-            if(mike) { _fun56896_ip = 48; continue _fun56896 }
+            if(mike) { _fun56899_ip = 48; continue _fun56899 }
  21:
             mike = argCorge;
             mike = !mike;
-            if(mike) { _fun56896_ip = 45; continue _fun56896 }
+            if(mike) { _fun56899_ip = 45; continue _fun56899 }
  30:
             zulu = argFoo;
             tango = zulu.rotationDegrees;

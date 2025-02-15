@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = mike;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: roundIfClose
-            _fun94189: for(var _fun94189_ip = 0; ; ) switch(_fun94189_ip) {
+            _fun94214: for(var _fun94214_ip = 0; ; ) switch(_fun94214_ip) {
  0:
                 tango = argFoo;
                 report = argBar;
@@ -26,16 +26,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = tango - entity;
                 entity = 1;
                 entity = entity - report;
-                if(!(!(zulu >= entity))) { _fun94189_ip = 66; continue _fun94189 }
+                if(!(!(zulu >= entity))) { _fun94214_ip = 66; continue _fun94214 }
  40:
                 entity = tango;
-                if(!(zulu <= report)) { _fun94189_ip = 64; continue _fun94189 }
+                if(!(zulu <= report)) { _fun94214_ip = 64; continue _fun94214 }
  47:
                 report = mike.Math;
                 zulu = report.floor;
                 entity = zulu.bind(report)(tango);
  64:
-                _fun94189_ip = 83; continue _fun94189;
+                _fun94214_ip = 83; continue _fun94214;
  66:
                 zulu = mike.Math;
                 mike = zulu.ceil;

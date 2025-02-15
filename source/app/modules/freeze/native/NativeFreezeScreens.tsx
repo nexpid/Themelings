@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/freeze/native/NativeFreezeScreens.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NativeFreezeScreens
-        _fun114688: for(var _fun114688_ip = 0; ; ) switch(_fun114688_ip) {
+        _fun114694: for(var _fun114694_ip = 0; ; ) switch(_fun114694_ip) {
  0:
             entity = argFoo;
             options = entity.children;
@@ -56,31 +56,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = offset;
             golf = entity.detachInactiveScreens;
             tango = undefined;
-            if(!(golf === tango)) { _fun114688_ip = 34; continue _fun114688 }
+            if(!(golf === tango)) { _fun114694_ip = 34; continue _fun114694 }
  32:
             golf = true;
  34:
             var _closure2_slot1 = golf;
             mike = entity.lazy;
-            if(!(mike === tango)) { _fun114688_ip = 50; continue _fun114688 }
+            if(!(mike === tango)) { _fun114694_ip = 50; continue _fun114694 }
  48:
             mike = true;
  50:
             var _closure2_slot2 = mike;
             mike = entity.unmountOnBlur;
-            if(!(mike === tango)) { _fun114688_ip = 66; continue _fun114688 }
+            if(!(mike === tango)) { _fun114694_ip = 66; continue _fun114694 }
  64:
             mike = false;
  66:
             var _closure2_slot3 = mike;
             mike = entity.freezeOnBlur;
-            if(!(mike === tango)) { _fun114688_ip = 82; continue _fun114688 }
+            if(!(mike === tango)) { _fun114694_ip = 82; continue _fun114694 }
  80:
             mike = true;
  82:
             var _closure2_slot4 = mike;
             entity = entity.preloadIndices;
-            if(!(entity === tango)) { _fun114688_ip = 102; continue _fun114688 }
+            if(!(entity === tango)) { _fun114694_ip = 102; continue _fun114694 }
  98:
             entity = new Array(0);
  102:
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(tango)(entity);
             yankee = 0;
             mike = offset >= yankee;
-            if(!mike) { _fun114688_ip = 175; continue _fun114688 }
+            if(!mike) { _fun114694_ip = 175; continue _fun114694 }
  142:
             entity = global;
             verify = entity.Array;
             entity = verify.isArray;
             verify = entity.bind(verify)(options);
             entity = 1;
-            if(!verify) { _fun114688_ip = 171; continue _fun114688 }
+            if(!verify) { _fun114694_ip = 171; continue _fun114694 }
  166:
             entity = options.length;
  171:
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity[verify];
             entity = zulu.includes;
             entity = entity.bind(zulu)(offset);
-            if(entity) { _fun114688_ip = 280; continue _fun114688 }
+            if(entity) { _fun114694_ip = 280; continue _fun114694 }
  250:
             entity = new Array(1);
             backup = entity;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.isArray;
             oscar = oscar.bind(golf)(options);
             golf = options;
-            if(oscar) { _fun114688_ip = 372; continue _fun114688 }
+            if(oscar) { _fun114694_ip = 372; continue _fun114694 }
  361:
             oscar = new Array(1);
             oscar[0] = options;
@@ -160,39 +160,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  372:
             oscar = golf.map;
             report = function(argFoo, argBar) {
-                _fun114689: for(var _fun114689_ip = 0; ; ) switch(_fun114689_ip) {
+                _fun114695: for(var _fun114695_ip = 0; ; ) switch(_fun114695_ip) {
  0:
                     report = argBar;
                     entity = _closure2_slot0;
                     romeo = entity === report;
                     entity = _closure2_slot3;
-                    if(!entity) { _fun114689_ip = 28; continue _fun114689 }
+                    if(!entity) { _fun114695_ip = 28; continue _fun114695 }
  21:
-                    if(romeo) { _fun114689_ip = 28; continue _fun114689 }
+                    if(romeo) { _fun114695_ip = 28; continue _fun114695 }
  24:
                     entity = null;
                     return entity;
  28:
                     entity = _closure2_slot2;
-                    if(!entity) { _fun114689_ip = 76; continue _fun114689 }
+                    if(!entity) { _fun114695_ip = 76; continue _fun114695 }
  35:
                     mike = _closure2_slot6;
                     entity = mike.includes;
                     entity = entity.bind(mike)(report);
-                    if(entity) { _fun114689_ip = 76; continue _fun114689 }
+                    if(entity) { _fun114695_ip = 76; continue _fun114695 }
  52:
-                    if(romeo) { _fun114689_ip = 76; continue _fun114689 }
+                    if(romeo) { _fun114695_ip = 76; continue _fun114695 }
  55:
                     mike = _closure2_slot5;
                     entity = mike.includes;
                     entity = entity.bind(mike)(report);
-                    if(entity) { _fun114689_ip = 76; continue _fun114689 }
+                    if(entity) { _fun114695_ip = 76; continue _fun114695 }
  72:
                     entity = null;
                     return entity;
  76:
                     golf = 0;
-                    if(!romeo) { _fun114689_ip = 84; continue _fun114689 }
+                    if(!romeo) { _fun114695_ip = 84; continue _fun114695 }
  81:
                     golf = 2;
  84:
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options[0] = verify;
                     verify = {};
                     offset = -1;
-                    if(!romeo) { _fun114689_ip = 152; continue _fun114689 }
+                    if(!romeo) { _fun114695_ip = 152; continue _fun114695 }
  150:
                     offset = 0;
  152:

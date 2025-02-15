@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     mike = function(argFoo) { // Original name: StrangerDangerWarningBanner
-        _fun89589: for(var _fun89589_ip = 0; ; ) switch(_fun89589_ip) {
+        _fun89606: for(var _fun89606_ip = 0; ; ) switch(_fun89606_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.channelId;
@@ -162,12 +162,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = argBar;
                 var _closure3_slot1 = mike;
                 entity = function() {
-                    _fun89596: for(var _fun89596_ip = 0; ; ) switch(_fun89596_ip) {
+                    _fun89613: for(var _fun89613_ip = 0; ; ) switch(_fun89613_ip) {
  0:
                         mike = _closure2_slot4;
                         zulu = _closure1_slot1;
                         verify = _closure1_slot2;
-                        if(mike) { _fun89596_ip = 67; continue _fun89596 }
+                        if(mike) { _fun89613_ip = 67; continue _fun89613 }
  23:
                         mike = 18;
                         tango = verify[mike];
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         };
                         mike['importer'] = golf;
                         mike = tango.bind(report)(mike);
-                        _fun89596_ip = 224; continue _fun89596;
+                        _fun89613_ip = 224; continue _fun89613;
  67:
                         mike = 14;
                         mike = verify[mike];
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['onpress'] = report;
             report = new Array(1);
             report[0] = offset;
-            if(oscar) { _fun89589_ip = 698; continue _fun89589 }
+            if(oscar) { _fun89606_ip = 698; continue _fun89606 }
  564:
             oscar = {};
             offset = _closure1_slot0;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['onpress'] = golf;
             golf = new Array(1);
             golf[0] = oscar;
-            _fun89589_ip = 702; continue _fun89589;
+            _fun89606_ip = 702; continue _fun89606;
  698:
             golf = new Array(0);
  702:

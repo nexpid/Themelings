@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationBannerForChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useInappropriateConversationBannerForChannel
-        _fun89548: for(var _fun89548_ip = 0; ; ) switch(_fun89548_ip) {
+        _fun89565: for(var _fun89565_ip = 0; ; ) switch(_fun89565_ip) {
  0:
             options = argFoo;
             golf = _closure1_slot0;
@@ -57,30 +57,30 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = _closure1_slot2;
             mike = mike.INAPPROPRIATE_CONVERSATION_TIER_2;
             mike = oscar.bind(golf)(options, mike);
-            if(!tango) { _fun89548_ip = 169; continue _fun89548 }
+            if(!tango) { _fun89565_ip = 169; continue _fun89565 }
  130:
-            if(!zulu) { _fun89548_ip = 169; continue _fun89548 }
+            if(!zulu) { _fun89565_ip = 169; continue _fun89565 }
  133:
             tango = report.length;
             zulu = 0;
-            if(!(zulu !== tango)) { _fun89548_ip = 169; continue _fun89548 }
+            if(!(zulu !== tango)) { _fun89565_ip = 169; continue _fun89565 }
  144:
             tango = report.some;
             zulu = function(argFoo) {
-                _fun89549: for(var _fun89549_ip = 0; ; ) switch(_fun89549_ip) {
+                _fun89566: for(var _fun89566_ip = 0; ; ) switch(_fun89566_ip) {
  0:
                     zulu = argFoo;
                     tango = zulu.type;
                     entity = _closure1_slot2;
                     entity = entity.INAPPROPRIATE_CONVERSATION_TIER_1;
                     entity = tango === entity;
-                    if(entity) { _fun89549_ip = 65; continue _fun89549 }
+                    if(entity) { _fun89566_ip = 65; continue _fun89566 }
  28:
                     tango = zulu.type;
                     mike = _closure1_slot2;
                     mike = mike.INAPPROPRIATE_CONVERSATION_TIER_2;
                     mike = tango === mike;
-                    if(!mike) { _fun89549_ip = 62; continue _fun89549 }
+                    if(!mike) { _fun89566_ip = 62; continue _fun89566 }
  50:
                     tango = zulu.dismiss_timestamp;
                     zulu = null;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 }
             };
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun89548_ip = 169; continue _fun89548 }
+            if(zulu) { _fun89565_ip = 169; continue _fun89565 }
  167:
             return mike;
  169:

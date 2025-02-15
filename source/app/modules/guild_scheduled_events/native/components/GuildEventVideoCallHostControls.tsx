@@ -101,11 +101,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = romeo;
         mike[2] = golf;
         entity = function() {
-            _fun104271: for(var _fun104271_ip = 0; ; ) switch(_fun104271_ip) {
+            _fun104263: for(var _fun104263_ip = 0; ; ) switch(_fun104263_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = null;
-                if(!(mike != zulu)) { _fun104271_ip = 94; continue _fun104271 }
+                if(!(mike != zulu)) { _fun104263_ip = 94; continue _fun104263 }
  13:
                 oscar = _closure1_slot1;
                 report = _closure1_slot2;

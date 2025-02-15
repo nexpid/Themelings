@@ -1,6 +1,6 @@
 // app/modules/visual_effect_view/native/VisualEffectViewTarget.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun116672: for(var _fun116672_ip = 0; ; ) switch(_fun116672_ip) {
+    _fun116678: for(var _fun116678_ip = 0; ; ) switch(_fun116678_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         golf = report.bind(entity)(tango);
         tango = golf.isAndroid;
         tango = tango.bind(golf)();
-        if(!tango) { _fun116672_ip = 98; continue _fun116672 }
+        if(!tango) { _fun116678_ip = 98; continue _fun116678 }
  83:
         tango = 2;
         golf = oscar[tango];

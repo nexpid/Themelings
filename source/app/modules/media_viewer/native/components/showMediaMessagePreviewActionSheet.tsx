@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: showMediaMessagePreviewActionSheet
-        _fun102408: for(var _fun102408_ip = 0; ; ) switch(_fun102408_ip) {
+        _fun102400: for(var _fun102400_ip = 0; ; ) switch(_fun102400_ip) {
  0:
             mike = argFoo;
             report = mike.channelId;
@@ -41,16 +41,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.getChannel;
             options = mike.bind(tango)(report);
             mike = null;
-            if(!(mike != options)) { _fun102408_ip = 176; continue _fun102408 }
+            if(!(mike != options)) { _fun102400_ip = 176; continue _fun102400 }
  45:
-            if(!(mike != golf)) { _fun102408_ip = 176; continue _fun102408 }
+            if(!(mike != golf)) { _fun102400_ip = 176; continue _fun102400 }
  52:
             oscar = _closure1_slot4;
             report = oscar.getUser;
             tango = golf.author;
             tango = tango.id;
             oscar = report.bind(oscar)(tango);
-            if(!(mike != oscar)) { _fun102408_ip = 176; continue _fun102408 }
+            if(!(mike != oscar)) { _fun102400_ip = 176; continue _fun102400 }
  82:
             report = _closure1_slot1;
             mike = _closure1_slot2;

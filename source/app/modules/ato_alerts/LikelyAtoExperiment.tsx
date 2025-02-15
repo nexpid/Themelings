@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['LikelyAtoExperiment'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForLikelyAtoWarning
-        _fun89660: for(var _fun89660_ip = 0; ; ) switch(_fun89660_ip) {
+        _fun89677: for(var _fun89677_ip = 0; ; ) switch(_fun89677_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun89660_ip = 22; continue _fun89660 }
+            if(!(report === mike)) { _fun89677_ip = 22; continue _fun89677 }
  20:
             report = true;
  22:

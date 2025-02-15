@@ -41,13 +41,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun99670: for(var _fun99670_ip = 0; ; ) switch(_fun99670_ip) {
+            _fun99680: for(var _fun99680_ip = 0; ; ) switch(_fun99680_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 zulu = entity == zulu;
                 entity = '';
-                if(zulu) { _fun99670_ip = 58; continue _fun99670 }
+                if(zulu) { _fun99680_ip = 58; continue _fun99680 }
  20:
                 tango = _closure1_slot2;
                 zulu = tango.getNicknames;

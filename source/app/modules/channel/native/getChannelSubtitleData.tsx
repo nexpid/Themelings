@@ -21,24 +21,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/channel/native/getChannelSubtitleData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelSubtitleData
-        _fun113398: for(var _fun113398_ip = 0; ; ) switch(_fun113398_ip) {
+        _fun113404: for(var _fun113404_ip = 0; ; ) switch(_fun113404_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun113398_ip = 186; continue _fun113398 }
+            if(!(entity != zulu)) { _fun113404_ip = 186; continue _fun113404 }
  12:
             tango = zulu.type;
             mike = 'embedded-activities';
-            if(!(mike !== tango)) { _fun113398_ip = 163; continue _fun113398 }
+            if(!(mike !== tango)) { _fun113404_ip = 163; continue _fun113404 }
  30:
             mike = 'event';
-            if(!(mike !== tango)) { _fun113398_ip = 163; continue _fun113398 }
+            if(!(mike !== tango)) { _fun113404_ip = 163; continue _fun113404 }
  41:
             mike = 'go-live';
-            if(!(mike !== tango)) { _fun113398_ip = 86; continue _fun113398 }
+            if(!(mike !== tango)) { _fun113404_ip = 86; continue _fun113404 }
  51:
             mike = 'voice';
-            if(!(mike !== tango)) { _fun113398_ip = 63; continue _fun113398 }
+            if(!(mike !== tango)) { _fun113404_ip = 63; continue _fun113404 }
  59:
             mike = undefined;
             return mike;

@@ -13,15 +13,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun92776: for(var _fun92776_ip = 0; ; ) switch(_fun92776_ip) {
+                _fun92808: for(var _fun92808_ip = 0; ; ) switch(_fun92808_ip) {
  0:
                     StartGenerator();
                     golf = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92776_ip = 142; continue _fun92776 }
+                    if(mike) { _fun92808_ip = 142; continue _fun92808 }
  13:
                     oscar = undefined;
-                    if(!(golf === oscar)) { _fun92776_ip = 38; continue _fun92776 }
+                    if(!(golf === oscar)) { _fun92808_ip = 38; continue _fun92808 }
  19:
                     mike = _closure1_slot4;
                     mike = mike.DCDSecurityKeyManager;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return oscar;
  42:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun92776_ip = 139; continue _fun92776 }
+                    if(zulu) { _fun92808_ip = 139; continue _fun92808 }
  48:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  85:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun92776_ip = 136; continue _fun92776 }
+                    if(tango) { _fun92808_ip = 136; continue _fun92808 }
  91:
                     options = zulu.ticket;
                     tango = zulu.challenge;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  119:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun92776_ip = 133; continue _fun92776 }
+                    if(oscar) { _fun92808_ip = 133; continue _fun92808 }
  125:
                     report['credential'] = tango;
                     return report;
@@ -87,12 +87,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = entity;
     tango = function(argFoo) { // Original name: registerSecurityKey
-        _fun92777: for(var _fun92777_ip = 0; ; ) switch(_fun92777_ip) {
+        _fun92809: for(var _fun92809_ip = 0; ; ) switch(_fun92809_ip) {
  0:
             mike = argFoo;
             report = arguments[1];
             zulu = undefined;
-            if(!(report === zulu)) { _fun92777_ip = 33; continue _fun92777 }
+            if(!(report === zulu)) { _fun92809_ip = 33; continue _fun92809 }
  14:
             tango = _closure1_slot4;
             tango = tango.DCDSecurityKeyManager;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot0 = golf;
             oscar = mike.setRegistering;
             _closure2_slot1 = oscar;
-            if(!(zulu !== golf)) { _fun92777_ip = 80; continue _fun92777 }
+            if(!(zulu !== golf)) { _fun92809_ip = 80; continue _fun92809 }
  71:
             mike = '';
             mike = golf.bind(zulu)(mike);
@@ -127,12 +127,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.bind(zulu)(tango);
             zulu = tango.catch;
             mike = function(argFoo) {
-                _fun92779: for(var _fun92779_ip = 0; ; ) switch(_fun92779_ip) {
+                _fun92811: for(var _fun92811_ip = 0; ; ) switch(_fun92811_ip) {
  0:
                     entity = argFoo;
                     zulu = _closure2_slot0;
                     tango = undefined;
-                    if(!(tango !== zulu)) { _fun92779_ip = 85; continue _fun92779 }
+                    if(!(tango !== zulu)) { _fun92811_ip = 85; continue _fun92811 }
  16:
                     zulu = _closure2_slot0;
                     golf = _closure1_slot0;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = mike;
     mike = {};
     offset = function() { // Original name: get hasAndroidPasskeySupport
-        _fun92784: for(var _fun92784_ip = 0; ; ) switch(_fun92784_ip) {
+        _fun92816: for(var _fun92816_ip = 0; ; ) switch(_fun92816_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -248,19 +248,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(oscar)(entity);
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
-            if(!entity) { _fun92784_ip = 81; continue _fun92784 }
+            if(!entity) { _fun92816_ip = 81; continue _fun92816 }
  37:
             mike = _closure1_slot4;
             zulu = null;
             report = zulu == mike;
             mike = undefined;
-            if(report) { _fun92784_ip = 77; continue _fun92784 }
+            if(report) { _fun92816_ip = 77; continue _fun92816 }
  52:
             tango = _closure1_slot4;
             tango = tango.DCDSecurityKeyManager;
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun92784_ip = 77; continue _fun92784 }
+            if(report) { _fun92816_ip = 77; continue _fun92816 }
  71:
             mike = tango.registerPasskey;
  77:
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = 'hasAndroidPasskeySupport';
     Object.defineProperty(mike, verify, {get: offset, set: entity, enumerable: true});
     verify = function(argFoo) { // Original name: getScreens
-        _fun92785: for(var _fun92785_ip = 0; ; ) switch(_fun92785_ip) {
+        _fun92817: for(var _fun92817_ip = 0; ; ) switch(_fun92817_ip) {
  0:
             entity = argFoo;
             golf = entity.isModal;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike['render'] = oscar;
             oscar = undefined;
-            if(!golf) { _fun92785_ip = 192; continue _fun92785 }
+            if(!golf) { _fun92817_ip = 192; continue _fun92817 }
  139:
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = offset.bind(yankee)(oscar);
             mike['title'] = oscar;
             oscar = undefined;
-            if(!golf) { _fun92785_ip = 486; continue _fun92785 }
+            if(!golf) { _fun92817_ip = 486; continue _fun92817 }
  433:
             offset = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -495,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['registerAndroidDevicePasskey'] = options;
     golf = function(argFoo) { // Original name: registerPasskey
-        _fun92793: for(var _fun92793_ip = 0; ; ) switch(_fun92793_ip) {
+        _fun92825: for(var _fun92825_ip = 0; ; ) switch(_fun92825_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -506,11 +506,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(zulu)(entity);
             entity = report.isAndroid;
             entity = entity.bind(report)();
-            if(entity) { _fun92793_ip = 51; continue _fun92793 }
+            if(entity) { _fun92825_ip = 51; continue _fun92825 }
  40:
             entity = _closure1_slot8;
             entity = entity.bind(zulu)(tango);
-            _fun92793_ip = 60; continue _fun92793;
+            _fun92825_ip = 60; continue _fun92825;
  51:
             mike = _closure1_slot10;
             entity = mike.bind(zulu)(tango);

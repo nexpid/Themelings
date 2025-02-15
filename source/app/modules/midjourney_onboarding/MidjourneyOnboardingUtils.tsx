@@ -7,17 +7,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: isMidjourneyOnboardingFlow
-        _fun107453: for(var _fun107453_ip = 0; ; ) switch(_fun107453_ip) {
+        _fun107446: for(var _fun107446_ip = 0; ; ) switch(_fun107446_ip) {
  0:
             entity = arguments[1];
             tango = undefined;
-            if(!(entity === tango)) { _fun107453_ip = 11; continue _fun107453 }
+            if(!(entity === tango)) { _fun107446_ip = 11; continue _fun107446 }
  9:
             entity = {};
  11:
             report = entity.guildStore;
             zulu = null;
-            if(!(zulu == report)) { _fun107453_ip = 30; continue _fun107453 }
+            if(!(zulu == report)) { _fun107446_ip = 30; continue _fun107446 }
  23:
             report = _closure1_slot2;
  30:
@@ -26,14 +26,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(report)(entity);
             zulu = zulu == entity;
             golf = undefined;
-            if(zulu) { _fun107453_ip = 62; continue _fun107453 }
+            if(zulu) { _fun107446_ip = 62; continue _fun107446 }
  56:
             golf = entity.joinedAt;
  62:
             oscar = global;
             zulu = oscar.Date;
             zulu = golf instanceof zulu;
-            if(!zulu) { _fun107453_ip = 120; continue _fun107453 }
+            if(!zulu) { _fun107446_ip = 120; continue _fun107446 }
  77:
             golf = oscar.Date;
             oscar = golf.now;
@@ -49,11 +49,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity.bind(report)();
             entity = 1;
             entity = entity === report;
-            if(!entity) { _fun107453_ip = 143; continue _fun107453 }
+            if(!entity) { _fun107446_ip = 143; continue _fun107446 }
  140:
             entity = zulu;
  143:
-            if(!entity) { _fun107453_ip = 180; continue _fun107453 }
+            if(!entity) { _fun107446_ip = 180; continue _fun107446 }
  146:
             zulu = _closure1_slot0;
             report = _closure1_slot1;
@@ -131,19 +131,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsMidjourneyOnboardingFlow'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForMidjourneyRedirect
-        _fun107456: for(var _fun107456_ip = 0; ; ) switch(_fun107456_ip) {
+        _fun107449: for(var _fun107449_ip = 0; ; ) switch(_fun107449_ip) {
  0:
             mike = argFoo;
             entity = mike.isDM;
             entity = entity.bind(mike)();
-            if(!entity) { _fun107456_ip = 34; continue _fun107456 }
+            if(!entity) { _fun107449_ip = 34; continue _fun107449 }
  16:
             zulu = mike.rawRecipients;
             tango = zulu.length;
             zulu = 1;
             entity = zulu === tango;
  34:
-            if(!entity) { _fun107456_ip = 65; continue _fun107456 }
+            if(!entity) { _fun107449_ip = 65; continue _fun107449 }
  37:
             zulu = mike.rawRecipients;
             mike = 0;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = zulu === mike;
  65:
-            if(!entity) { _fun107456_ip = 86; continue _fun107456 }
+            if(!entity) { _fun107449_ip = 86; continue _fun107449 }
  68:
             tango = _closure1_slot7;
             zulu = undefined;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = zulu.prototype;
         mike = Object.create(mike, {constructor: {value: zulu}});
         tango = function(argFoo, argBar) {
-            _fun107458: for(var _fun107458_ip = 0; ; ) switch(_fun107458_ip) {
+            _fun107451: for(var _fun107451_ip = 0; ; ) switch(_fun107451_ip) {
  0:
                 zulu = argFoo;
                 var _closure3_slot0 = zulu;
@@ -181,11 +181,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report.getGuildId;
                 report = mike.bind(report)();
                 mike = _closure2_slot0;
-                if(!(report === mike)) { _fun107458_ip = 52; continue _fun107458 }
+                if(!(report === mike)) { _fun107451_ip = 52; continue _fun107451 }
  44:
                 mike = undefined;
                 mike = zulu.bind(mike)();
-                _fun107458_ip = 122; continue _fun107458;
+                _fun107451_ip = 122; continue _fun107451;
  52:
                 mike = global;
                 oscar = mike.setTimeout;
@@ -202,13 +202,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = oscar.bind(report)(zulu, mike);
                 var _closure3_slot2 = mike;
                 zulu = function() { // Original name: handleSelectedGuildUpdate
-                    _fun107460: for(var _fun107460_ip = 0; ; ) switch(_fun107460_ip) {
+                    _fun107453: for(var _fun107453_ip = 0; ; ) switch(_fun107453_ip) {
  0:
                         mike = _closure1_slot3;
                         entity = mike.getGuildId;
                         mike = entity.bind(mike)();
                         entity = _closure2_slot0;
-                        if(!(mike === entity)) { _fun107460_ip = 49; continue _fun107460 }
+                        if(!(mike === entity)) { _fun107453_ip = 49; continue _fun107453 }
  28:
                         zulu = _closure3_slot4;
                         mike = undefined;

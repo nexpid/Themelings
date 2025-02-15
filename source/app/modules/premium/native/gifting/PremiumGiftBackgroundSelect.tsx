@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumGiftBackgroundSelect.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumGiftBackgroundSelect
-        _fun87957: for(var _fun87957_ip = 0; ; ) switch(_fun87957_ip) {
+        _fun87974: for(var _fun87974_ip = 0; ; ) switch(_fun87974_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = backup.bind(tango)(entity);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: C
-                _fun87960: for(var _fun87960_ip = 0; ; ) switch(_fun87960_ip) {
+                _fun87977: for(var _fun87977_ip = 0; ; ) switch(_fun87977_ip) {
  0:
                     entity = {};
                     zulu = _closure1_slot0;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.get;
                     mike = mike.bind(zulu)();
                     zulu = 0;
-                    if(!mike) { _fun87960_ip = 56; continue _fun87960 }
+                    if(!mike) { _fun87977_ip = 56; continue _fun87977 }
  53:
                     zulu = 1;
  56:
@@ -225,11 +225,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot9;
             oscar = {};
             kilo = function(argFoo) { // Original name: onContentSizeChange
-                _fun87961: for(var _fun87961_ip = 0; ; ) switch(_fun87961_ip) {
+                _fun87978: for(var _fun87978_ip = 0; ; ) switch(_fun87978_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike == zulu)) { _fun87961_ip = 27; continue _fun87961 }
+                    if(!(mike == zulu)) { _fun87978_ip = 27; continue _fun87978 }
  13:
                     zulu = _closure2_slot3;
                     mike = undefined;
@@ -246,11 +246,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = sizing;
             sizing = null;
             sizing = sizing != output;
-            if(!sizing) { _fun87957_ip = 447; continue _fun87957 }
+            if(!sizing) { _fun87974_ip = 447; continue _fun87974 }
  443:
             sizing = output < echo;
  447:
-            if(!sizing) { _fun87957_ip = 459; continue _fun87957 }
+            if(!sizing) { _fun87974_ip = 459; continue _fun87974 }
  450:
             output = {};
             output['flex'] = result;

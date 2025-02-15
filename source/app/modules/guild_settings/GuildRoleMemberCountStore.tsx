@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun62366: for(var _fun62366_ip = 0; ; ) switch(_fun62366_ip) {
+        _fun62371: for(var _fun62371_ip = 0; ; ) switch(_fun62371_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun62366_ip = 51; continue _fun62366 }
+            if(entity) { _fun62371_ip = 51; continue _fun62371 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun62366_ip = 92; continue _fun62366;
+            _fun62371_ip = 92; continue _fun62371;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun62366_ip = 71; continue _fun62366 }
+            if(oscar) { _fun62371_ip = 71; continue _fun62371 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun62367: for(var _fun62367_ip = 0; ; ) switch(_fun62367_ip) {
+        _fun62372: for(var _fun62372_ip = 0; ; ) switch(_fun62372_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun62367_ip = 74; continue _fun62367;
+            _fun62372_ip = 74; continue _fun62372;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'getRoleMemberCount';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun62372: for(var _fun62372_ip = 0; ; ) switch(_fun62372_ip) {
+            _fun62377: for(var _fun62377_ip = 0; ; ) switch(_fun62377_ip) {
  0:
                 zulu = argFoo;
                 entity = null;
                 mike = entity != zulu;
-                if(!mike) { _fun62372_ip = 23; continue _fun62372 }
+                if(!mike) { _fun62377_ip = 23; continue _fun62377 }
  12:
                 mike = _closure1_slot5;
                 entity = mike[zulu];
@@ -157,16 +157,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'shouldFetch';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun62373: for(var _fun62373_ip = 0; ; ) switch(_fun62373_ip) {
+            _fun62378: for(var _fun62378_ip = 0; ; ) switch(_fun62378_ip) {
  0:
                 zulu = argFoo;
                 entity = null;
-                if(!(entity != zulu)) { _fun62373_ip = 60; continue _fun62373 }
+                if(!(entity != zulu)) { _fun62378_ip = 60; continue _fun62378 }
  9:
                 mike = _closure1_slot6;
                 zulu = mike[zulu];
                 entity = entity == zulu;
-                if(entity) { _fun62373_ip = 58; continue _fun62373 }
+                if(entity) { _fun62378_ip = 58; continue _fun62378 }
  27:
                 mike = global;
                 tango = mike.Date;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_ROLE_MEMBER_COUNT_FETCH_SUCCESS'] = options;
     options = function(argFoo) { // Original name: handleGuildRoleMemberCountUpdate
-        _fun62375: for(var _fun62375_ip = 0; ; ) switch(_fun62375_ip) {
+        _fun62380: for(var _fun62380_ip = 0; ; ) switch(_fun62380_ip) {
  0:
             entity = argFoo;
             tango = entity.guildId;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             entity = entity[tango];
             tango = null;
-            if(!(tango != entity)) { _fun62375_ip = 44; continue _fun62375 }
+            if(!(tango != entity)) { _fun62380_ip = 44; continue _fun62380 }
  36:
             entity[zulu] = mike;
             entity = undefined;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_ROLE_MEMBER_COUNT_UPDATE'] = options;
     options = function(argFoo) { // Original name: handleGuildRoleMemberBulkAdd
-        _fun62376: for(var _fun62376_ip = 0; ; ) switch(_fun62376_ip) {
+        _fun62381: for(var _fun62381_ip = 0; ; ) switch(_fun62381_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             mike = entity[mike];
             tango = null;
-            if(!(tango != mike)) { _fun62376_ip = 88; continue _fun62376 }
+            if(!(tango != mike)) { _fun62381_ip = 88; continue _fun62381 }
  37:
             entity = mike[zulu];
-            if(!(tango != entity)) { _fun62376_ip = 84; continue _fun62376 }
+            if(!(tango != entity)) { _fun62381_ip = 84; continue _fun62381 }
  45:
             entity = global;
             tango = entity.Object;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_ROLE_MEMBER_BULK_ADD'] = options;
     options = function(argFoo) { // Original name: handleGuildRoleMemberAdd
-        _fun62377: for(var _fun62377_ip = 0; ; ) switch(_fun62377_ip) {
+        _fun62382: for(var _fun62382_ip = 0; ; ) switch(_fun62382_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity[mike];
             zulu = null;
             entity = zulu != tango;
-            if(!entity) { _fun62377_ip = 65; continue _fun62377 }
+            if(!entity) { _fun62382_ip = 65; continue _fun62382 }
  34:
             mike = tango[report];
             mike = zulu != mike;
-            if(!mike) { _fun62377_ip = 62; continue _fun62377 }
+            if(!mike) { _fun62382_ip = 62; continue _fun62382 }
  45:
             oscar = tango[report];
             zulu = 1;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_ROLE_MEMBER_ADD'] = options;
     options = function(argFoo) { // Original name: handleGuildRoleMemberRemove
-        _fun62378: for(var _fun62378_ip = 0; ; ) switch(_fun62378_ip) {
+        _fun62383: for(var _fun62383_ip = 0; ; ) switch(_fun62383_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -303,11 +303,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity[mike];
             zulu = null;
             entity = zulu != tango;
-            if(!entity) { _fun62378_ip = 86; continue _fun62378 }
+            if(!entity) { _fun62383_ip = 86; continue _fun62383 }
  34:
             mike = tango[report];
             mike = zulu != mike;
-            if(!mike) { _fun62378_ip = 83; continue _fun62378 }
+            if(!mike) { _fun62383_ip = 83; continue _fun62383 }
  45:
             zulu = global;
             options = zulu.Math;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_ROLE_MEMBER_REMOVE'] = options;
     options = function(argFoo) { // Original name: handleGuildRoleCreate
-        _fun62379: for(var _fun62379_ip = 0; ; ) switch(_fun62379_ip) {
+        _fun62384: for(var _fun62384_ip = 0; ; ) switch(_fun62384_ip) {
  0:
             entity = argFoo;
             zulu = entity.guildId;
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot5;
             report = tango[zulu];
             tango = null;
-            if(!(tango == report)) { _fun62379_ip = 41; continue _fun62379 }
+            if(!(tango == report)) { _fun62384_ip = 41; continue _fun62384 }
  31:
             report = _closure1_slot5;
             tango = {};

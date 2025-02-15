@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = oscar;
         mike[1] = report;
         entity = function(argFoo) {
-            _fun63955: for(var _fun63955_ip = 0; ; ) switch(_fun63955_ip) {
+            _fun63960: for(var _fun63960_ip = 0; ; ) switch(_fun63960_ip) {
  0:
                 entity = argFoo;
                 backup = entity.type;
@@ -128,10 +128,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = offset.isPremiumCollectiblesProduct;
                 golf = golf.bind(offset)(options);
                 verify = _closure1_slot7;
-                if(golf) { _fun63955_ip = 240; continue _fun63955 }
+                if(golf) { _fun63960_ip = 240; continue _fun63960 }
  232:
                 golf = verify.PREMIUM_STANDARD;
-                _fun63955_ip = 246; continue _fun63955;
+                _fun63960_ip = 246; continue _fun63960;
  240:
                 golf = verify.FREE;
  246:
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = null;
                 verify = golf == options;
                 golf = undefined;
-                if(verify) { _fun63955_ip = 267; continue _fun63955 }
+                if(verify) { _fun63960_ip = 267; continue _fun63960 }
  262:
                 golf = options.name;
  267:

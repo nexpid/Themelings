@@ -35,13 +35,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['SPRING_CONFIG'] = tango;
     mike = function(argFoo) { // Original name: useIOSPressEffects
-        _fun48650: for(var _fun48650_ip = 0; ; ) switch(_fun48650_ip) {
+        _fun48657: for(var _fun48657_ip = 0; ; ) switch(_fun48657_ip) {
  0:
             mike = argFoo;
             verify = arguments[1];
             var _closure2_slot0 = mike;
             foxtrot = undefined;
-            if(!(verify === foxtrot)) { _fun48650_ip = 20; continue _fun48650 }
+            if(!(verify === foxtrot)) { _fun48657_ip = 20; continue _fun48657 }
  18:
             verify = false;
  20:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = report;
             mike = function() {
-                _fun48652: for(var _fun48652_ip = 0; ; ) switch(_fun48652_ip) {
+                _fun48659: for(var _fun48659_ip = 0; ; ) switch(_fun48659_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.bind(entity)(mike);
                     entity = mike.isIOS;
                     entity = entity.bind(mike)();
-                    if(!entity) { _fun48652_ip = 58; continue _fun48652 }
+                    if(!entity) { _fun48659_ip = 58; continue _fun48659 }
  38:
                     tango = _closure2_slot4;
                     zulu = tango.set;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = report;
             mike = function() {
-                _fun48653: for(var _fun48653_ip = 0; ; ) switch(_fun48653_ip) {
+                _fun48660: for(var _fun48660_ip = 0; ; ) switch(_fun48660_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.bind(entity)(mike);
                     entity = mike.isIOS;
                     entity = entity.bind(mike)();
-                    if(!entity) { _fun48653_ip = 57; continue _fun48653 }
+                    if(!entity) { _fun48660_ip = 57; continue _fun48660 }
  38:
                     tango = _closure2_slot4;
                     zulu = tango.set;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = romeo.bind(foxtrot)(mike);
             mike = oscar.useAnimatedStyle;
             entity = function() { // Original name: S
-                _fun48654: for(var _fun48654_ip = 0; ; ) switch(_fun48654_ip) {
+                _fun48661: for(var _fun48661_ip = 0; ; ) switch(_fun48661_ip) {
  0:
                     mike = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = oscar.bind(golf)(mike, entity);
                     entity = _closure2_slot1;
                     golf = {};
-                    if(entity) { _fun48654_ip = 151; continue _fun48654 }
+                    if(entity) { _fun48661_ip = 151; continue _fun48661 }
  127:
                     mike = {};
                     mike['scale'] = oscar;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity[0] = mike;
                     golf['transform'] = entity;
                     entity = golf;
-                    _fun48654_ip = 264; continue _fun48654;
+                    _fun48661_ip = 264; continue _fun48661;
  151:
                     mike = {};
                     golf['scale'] = oscar;

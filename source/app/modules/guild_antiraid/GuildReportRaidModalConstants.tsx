@@ -48,28 +48,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['ReportRaidTypes'] = report;
     zulu['REPORT_RAID_OPTIONS'] = tango;
     mike = function(argFoo) {
-        _fun114268: for(var _fun114268_ip = 0; ; ) switch(_fun114268_ip) {
+        _fun114274: for(var _fun114274_ip = 0; ; ) switch(_fun114274_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot2;
             mike = mike.DM_SPAM;
-            if(!(mike !== zulu)) { _fun114268_ip = 321; continue _fun114268 }
+            if(!(mike !== zulu)) { _fun114274_ip = 321; continue _fun114274 }
  23:
             mike = _closure1_slot2;
             mike = mike.MENTION_SPAM;
-            if(!(mike !== zulu)) { _fun114268_ip = 263; continue _fun114268 }
+            if(!(mike !== zulu)) { _fun114274_ip = 263; continue _fun114274 }
  40:
             mike = _closure1_slot2;
             mike = mike.MESSAGE_SPAM;
-            if(!(mike !== zulu)) { _fun114268_ip = 205; continue _fun114268 }
+            if(!(mike !== zulu)) { _fun114274_ip = 205; continue _fun114274 }
  57:
             mike = _closure1_slot2;
             mike = mike.SETTINGS_SPAM;
-            if(!(mike !== zulu)) { _fun114268_ip = 147; continue _fun114268 }
+            if(!(mike !== zulu)) { _fun114274_ip = 147; continue _fun114274 }
  71:
             mike = _closure1_slot2;
             mike = mike.SUSPICIOUS_USERS;
-            if(!(mike !== zulu)) { _fun114268_ip = 89; continue _fun114268 }
+            if(!(mike !== zulu)) { _fun114274_ip = 89; continue _fun114274 }
  85:
             mike = null;
             return mike;

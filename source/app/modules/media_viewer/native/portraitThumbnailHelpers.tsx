@@ -15,18 +15,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = mike;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: lerpVarWidthThumbnailScrollBounds
-            _fun85476: for(var _fun85476_ip = 0; ; ) switch(_fun85476_ip) {
+            _fun85493: for(var _fun85493_ip = 0; ; ) switch(_fun85493_ip) {
  0:
                 zulu = argFoo;
                 mike = argBar;
                 tango = zulu.length;
                 entity = 0;
-                if(!(entity !== tango)) { _fun85476_ip = 156; continue _fun85476 }
+                if(!(entity !== tango)) { _fun85493_ip = 156; continue _fun85493 }
  20:
-                if(!(!(mike < entity))) { _fun85476_ip = 154; continue _fun85476 }
+                if(!(!(mike < entity))) { _fun85493_ip = 154; continue _fun85493 }
  27:
                 tango = zulu.length;
-                if(!(mike >= tango)) { _fun85476_ip = 41; continue _fun85476 }
+                if(!(mike >= tango)) { _fun85493_ip = 41; continue _fun85493 }
  36:
                 mike = zulu.length;
  41:
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 golf = tango.bind(report)(mike);
                 report = mike - golf;
                 mike = zulu.length;
-                if(!(!(golf >= mike))) { _fun85476_ip = 130; continue _fun85476 }
+                if(!(!(golf >= mike))) { _fun85493_ip = 130; continue _fun85493 }
  73:
                 mike = zulu[golf];
                 tango = mike.scrollStart;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 oscar = 1;
                 options = mike - oscar;
                 mike = tango;
-                if(!(golf < options)) { _fun85476_ip = 116; continue _fun85476 }
+                if(!(golf < options)) { _fun85493_ip = 116; continue _fun85493 }
  102:
                 oscar = golf + oscar;
                 oscar = zulu[oscar];

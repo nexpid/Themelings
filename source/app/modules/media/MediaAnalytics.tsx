@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     tango = 'modules/media/MediaAnalytics.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred) { // Original name: logMediaAttachmentPlaybackStarted
-        _fun92022: for(var _fun92022_ip = 0; ; ) switch(_fun92022_ip) {
+        _fun92051: for(var _fun92051_ip = 0; ; ) switch(_fun92051_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = options.min;
             yankee = null;
             oscar = verify;
-            if(!(yankee != offset)) { _fun92022_ip = 147; continue _fun92022 }
+            if(!(yankee != offset)) { _fun92051_ip = 147; continue _fun92051 }
  144:
             oscar = offset;
  147:
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     zulu['logMediaAttachmentPlaybackStarted'] = tango;
     mike = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred) { // Original name: logMediaAttachmentPlaybackEnded
-        _fun92023: for(var _fun92023_ip = 0; ; ) switch(_fun92023_ip) {
+        _fun92052: for(var _fun92052_ip = 0; ; ) switch(_fun92052_ip) {
  0:
             offset = argBar;
             verify = argBaz;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = options.min;
             yankee = null;
             oscar = verify;
-            if(!(yankee != offset)) { _fun92023_ip = 86; continue _fun92023 }
+            if(!(yankee != offset)) { _fun92052_ip = 86; continue _fun92052 }
  83:
             oscar = offset;
  86:

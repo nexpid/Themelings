@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: customScoreToIndex
-        _fun116978: for(var _fun116978_ip = 0; ; ) switch(_fun116978_ip) {
+        _fun116984: for(var _fun116984_ip = 0; ; ) switch(_fun116984_ip) {
  0:
             mike = argFoo;
             oscar = _closure1_slot0;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.bind(tango)(zulu);
             zulu = zulu.ICYMICustomScore;
             zulu = zulu.LESS;
-            if(!(zulu !== mike)) { _fun116978_ip = 87; continue _fun116978 }
+            if(!(zulu !== mike)) { _fun116984_ip = 87; continue _fun116984 }
  44:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.ICYMICustomScore;
             entity = entity.MORE;
-            if(!(entity !== mike)) { _fun116978_ip = 82; continue _fun116978 }
+            if(!(entity !== mike)) { _fun116984_ip = 82; continue _fun116984 }
  77:
             entity = 1;
             return entity;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: ContentSettingsControl
-        _fun116979: for(var _fun116979_ip = 0; ; ) switch(_fun116979_ip) {
+        _fun116985: for(var _fun116985_ip = 0; ; ) switch(_fun116985_ip) {
  0:
             entity = argFoo;
             zulu = entity.initialValue;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = oscar.LESS;
             oscar = null;
             sizing = null;
-            if(!(verify === result)) { _fun116979_ip = 241; continue _fun116979 }
+            if(!(verify === result)) { _fun116985_ip = 241; continue _fun116985 }
  235:
             sizing = kilo.iconSelected;
  241:
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.ICYMICustomScore;
             echo = result.DEFAULT;
             result = null;
-            if(!(verify === echo)) { _fun116979_ip = 421; continue _fun116979 }
+            if(!(verify === echo)) { _fun116985_ip = 421; continue _fun116985 }
  415:
             result = kilo.iconSelected;
  421:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.ICYMICustomScore;
             sizing = backup.MORE;
             backup = null;
-            if(!(verify === sizing)) { _fun116979_ip = 597; continue _fun116979 }
+            if(!(verify === sizing)) { _fun116985_ip = 597; continue _fun116985 }
  591:
             backup = kilo.iconSelected;
  597:
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['pageWidth'] = yankee;
             offset = function(argFoo) { // Original name: onSetActiveIndex
-                _fun116980: for(var _fun116980_ip = 0; ; ) switch(_fun116980_ip) {
+                _fun116986: for(var _fun116986_ip = 0; ; ) switch(_fun116986_ip) {
  0:
                     oscar = argFoo;
                     tango = _closure1_slot0;
@@ -214,10 +214,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.ICYMICustomScore;
                     zulu = zulu.DEFAULT;
                     tango = 0;
-                    if(!(tango !== oscar)) { _fun116980_ip = 84; continue _fun116980 }
+                    if(!(tango !== oscar)) { _fun116986_ip = 84; continue _fun116986 }
  46:
                     tango = 2;
-                    if(!(tango === oscar)) { _fun116980_ip = 113; continue _fun116980 }
+                    if(!(tango === oscar)) { _fun116986_ip = 113; continue _fun116986 }
  53:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.bind(entity)(tango);
                     tango = tango.ICYMICustomScore;
                     zulu = tango.MORE;
-                    _fun116980_ip = 113; continue _fun116980;
+                    _fun116986_ip = 113; continue _fun116986;
  84:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = {};
             oscar = null;
-            if(!golf) { _fun116979_ip = 727; continue _fun116979 }
+            if(!golf) { _fun116985_ip = 727; continue _fun116985 }
  708:
             verify = {};
             offset = 0.7;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  727:
             entity['style'] = oscar;
             oscar = 'auto';
-            if(!golf) { _fun116979_ip = 742; continue _fun116979 }
+            if(!golf) { _fun116985_ip = 742; continue _fun116985 }
  738:
             oscar = 'none';
  742:
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/gravity/custom_scores/ICYMIContentSettingControl.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildScoreSettings
-        _fun116981: for(var _fun116981_ip = 0; ; ) switch(_fun116981_ip) {
+        _fun116987: for(var _fun116987_ip = 0; ; ) switch(_fun116987_ip) {
  0:
             mike = argFoo;
             source = mike.guild;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = oscar;
             mike = function(argFoo) {
-                _fun116983: for(var _fun116983_ip = 0; ; ) switch(_fun116983_ip) {
+                _fun116989: for(var _fun116989_ip = 0; ; ) switch(_fun116989_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -440,11 +440,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar.bind(entity)(report);
                     oscar = report.ICYMICustomScore;
                     report = argFoo;
-                    if(report) { _fun116983_ip = 104; continue _fun116983 }
+                    if(report) { _fun116989_ip = 104; continue _fun116989 }
  91:
                     report = oscar.MUTED;
                     report = golf.bind(options)(report);
-                    _fun116983_ip = 115; continue _fun116983;
+                    _fun116989_ip = 115; continue _fun116989;
  104:
                     oscar = oscar.DEFAULT;
                     report = golf.bind(options)(oscar);
@@ -461,11 +461,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = update;
             mike[1] = oscar;
             entity = function(argFoo) {
-                _fun116984: for(var _fun116984_ip = 0; ; ) switch(_fun116984_ip) {
+                _fun116990: for(var _fun116990_ip = 0; ; ) switch(_fun116990_ip) {
  0:
                     oscar = argFoo;
                     entity = _closure2_slot1;
-                    if(!(entity !== oscar)) { _fun116984_ip = 92; continue _fun116984 }
+                    if(!(entity !== oscar)) { _fun116990_ip = 92; continue _fun116990 }
  14:
                     mike = _closure1_slot1;
                     options = _closure1_slot2;
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(tango)(verify, options);
             report[1] = options;
             options = null;
-            if(echo) { _fun116981_ip = 472; continue _fun116981 }
+            if(echo) { _fun116987_ip = 472; continue _fun116987 }
  416:
             romeo = _closure1_slot8;
             yankee = _closure1_slot5;
@@ -558,7 +558,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot5;
             options = {};
             verify = echo;
-            if(!verify) { _fun116981_ip = 498; continue _fun116981 }
+            if(!verify) { _fun116987_ip = 498; continue _fun116987 }
  492:
             verify = offset.muted;
  498:
@@ -617,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['GuildScoreSettings'] = tango;
     mike = function(argFoo) { // Original name: ChannelScoreSettings
-        _fun116985: for(var _fun116985_ip = 0; ; ) switch(_fun116985_ip) {
+        _fun116991: for(var _fun116991_ip = 0; ; ) switch(_fun116991_ip) {
  0:
             zulu = argFoo;
             mike = zulu.guild;
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot7;
             offset[1] = report;
             report = function() {
-                _fun116986: for(var _fun116986_ip = 0; ; ) switch(_fun116986_ip) {
+                _fun116992: for(var _fun116992_ip = 0; ; ) switch(_fun116992_ip) {
  0:
                     oscar = _closure1_slot6;
                     report = oscar.getCustomChannelScore;
@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = golf.bind(report)(tango);
                     tango = tango.ICYMICustomScore;
                     tango = tango.UNKNOWN;
-                    if(!(entity === tango)) { _fun116986_ip = 135; continue _fun116986 }
+                    if(!(entity === tango)) { _fun116992_ip = 135; continue _fun116992 }
  68:
                     options = _closure1_slot7;
                     golf = options.isChannelMuted;
@@ -666,10 +666,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu[oscar];
                     zulu = tango.bind(report)(zulu);
                     zulu = zulu.ICYMICustomScore;
-                    if(mike) { _fun116986_ip = 126; continue _fun116986 }
+                    if(mike) { _fun116992_ip = 126; continue _fun116992 }
  118:
                     mike = zulu.DEFAULT;
-                    _fun116986_ip = 132; continue _fun116986;
+                    _fun116992_ip = 132; continue _fun116992;
  126:
                     mike = zulu.MUTED;
  132:
@@ -721,11 +721,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = oscar;
             zulu[2] = options;
             mike = function(argFoo) {
-                _fun116988: for(var _fun116988_ip = 0; ; ) switch(_fun116988_ip) {
+                _fun116994: for(var _fun116994_ip = 0; ; ) switch(_fun116994_ip) {
  0:
                     golf = argFoo;
                     entity = _closure2_slot2;
-                    if(!(entity !== golf)) { _fun116988_ip = 115; continue _fun116988 }
+                    if(!(entity !== golf)) { _fun116994_ip = 115; continue _fun116994 }
  14:
                     mike = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -763,7 +763,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = options;
             mike[1] = oscar;
             entity = function(argFoo) {
-                _fun116989: for(var _fun116989_ip = 0; ; ) switch(_fun116989_ip) {
+                _fun116995: for(var _fun116995_ip = 0; ; ) switch(_fun116995_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -788,11 +788,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = golf.bind(entity)(report);
                     golf = report.ICYMICustomScore;
                     report = argFoo;
-                    if(report) { _fun116989_ip = 114; continue _fun116989 }
+                    if(report) { _fun116995_ip = 114; continue _fun116995 }
  101:
                     report = golf.MUTED;
                     report = options.bind(verify)(report);
-                    _fun116989_ip = 125; continue _fun116989;
+                    _fun116995_ip = 125; continue _fun116995;
  114:
                     golf = golf.DEFAULT;
                     report = options.bind(verify)(golf);
@@ -851,7 +851,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.bind(tango)(verify, options);
             report[1] = options;
             options = null;
-            if(source) { _fun116985_ip = 585; continue _fun116985 }
+            if(source) { _fun116991_ip = 585; continue _fun116991 }
  525:
             romeo = _closure1_slot8;
             yankee = _closure1_slot5;
@@ -873,7 +873,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot5;
             options = {};
             verify = source;
-            if(!verify) { _fun116985_ip = 611; continue _fun116985 }
+            if(!verify) { _fun116991_ip = 611; continue _fun116991 }
  605:
             verify = offset.muted;
  611:

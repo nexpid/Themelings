@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_relationships/settings/useIsAllowGameFriendDMsSettingVisible.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsAllowGameFriendDMsSettingVisible
-        _fun99934: for(var _fun99934_ip = 0; ; ) switch(_fun99934_ip) {
+        _fun99943: for(var _fun99943_ip = 0; ; ) switch(_fun99943_ip) {
  0:
             entity = argFoo;
             report = entity.location;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun99934_ip = 100; continue _fun99934 }
+            if(!entity) { _fun99943_ip = 100; continue _fun99943 }
  97:
             entity = mike;
  100:

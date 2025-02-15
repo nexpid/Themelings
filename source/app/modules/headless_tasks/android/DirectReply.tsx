@@ -59,12 +59,12 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
                     zulu = _closure1_slot2;
                     mike = function* (argFoo) {
                         entity = function* (argFoo) { // Original name: ?anon_0_
-                            _fun128113: for(var _fun128113_ip = 0; ; ) switch(_fun128113_ip) {
+                            _fun128109: for(var _fun128109_ip = 0; ; ) switch(_fun128109_ip) {
  0:
                                 StartGenerator();
                                 verify = argFoo;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(mike) { _fun128113_ip = 243; continue _fun128113 }
+                                if(mike) { _fun128109_ip = 243; continue _fun128109 }
  13:
                                 report = _closure1_slot0;
                                 zulu = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
                                 return mike;
  114:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun128113_ip = 240; continue _fun128113 }
+                                if(report) { _fun128109_ip = 240; continue _fun128109 }
  120:
                                 options = _closure1_slot4;
                                 golf = options.log;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, argGrault, __, argPlugh) {
                                 report = 'Sent message, ok:';
                                 report = golf.bind(options)(report, oscar);
                                 report = mike.ok;
-                                if(!report) { _fun128113_ip = 223; continue _fun128113 }
+                                if(!report) { _fun128109_ip = 223; continue _fun128109 }
  157:
                                 tango = _closure1_slot3;
                                 oscar = tango.PushNotificationAndroid;

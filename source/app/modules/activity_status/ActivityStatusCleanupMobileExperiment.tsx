@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activity_status/ActivityStatusCleanupMobileExperiment.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun79671: for(var _fun79671_ip = 0; ; ) switch(_fun79671_ip) {
+        _fun79681: for(var _fun79681_ip = 0; ; ) switch(_fun79681_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun79671_ip = 22; continue _fun79671 }
+            if(!(report === mike)) { _fun79681_ip = 22; continue _fun79681 }
  20:
             report = true;
  22:
@@ -59,13 +59,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getActivityStatusCleanupMobileExperiment'] = tango;
     mike = function(argFoo) {
-        _fun79672: for(var _fun79672_ip = 0; ; ) switch(_fun79672_ip) {
+        _fun79682: for(var _fun79682_ip = 0; ; ) switch(_fun79682_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun79672_ip = 22; continue _fun79672 }
+            if(!(report === mike)) { _fun79682_ip = 22; continue _fun79682 }
  20:
             report = true;
  22:

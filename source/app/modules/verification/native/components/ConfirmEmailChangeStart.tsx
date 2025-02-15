@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/verification/native/components/ConfirmEmailChangeStart.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ConfirmEmailChangeStart
-        _fun88641: for(var _fun88641_ip = 0; ; ) switch(_fun88641_ip) {
+        _fun88658: for(var _fun88658_ip = 0; ; ) switch(_fun88658_ip) {
  0:
             entity = _closure1_slot12;
             report = undefined;
@@ -119,11 +119,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun88644: for(var _fun88644_ip = 0; ; ) switch(_fun88644_ip) {
+                    _fun88661: for(var _fun88661_ip = 0; ; ) switch(_fun88661_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun88644_ip = 279; continue _fun88644 }
+                        if(mike) { _fun88661_ip = 279; continue _fun88661 }
  10:
                         report = undefined;
                         golf = undefined;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  65:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun88644_ip = 122; continue _fun88644 }
+                        if(oscar) { _fun88661_ip = 122; continue _fun88661 }
  71:
                         options = _closure2_slot1;
                         oscar = options.push;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.CONFIRM_EMAIL_CHANGE_CODE;
                         tango = oscar.bind(options)(tango);
  117: // try_end0
-                        _fun88644_ip = 250; continue _fun88644;
+                        _fun88661_ip = 250; continue _fun88661;
  122: // try_end1
                         oscar = _closure2_slot2;
                         tango = false;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = tango.bind(oscar)();
                         golf = oscar;
                         tango = null;
-                        if(!(tango != oscar)) { _fun88644_ip = 250; continue _fun88644 }
+                        if(!(tango != oscar)) { _fun88661_ip = 250; continue _fun88661 }
  203:
                         tango = _closure1_slot1;
                         oscar = _closure1_slot2;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[0] = oscar;
             kilo = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != golf)) { _fun88641_ip = 643; continue _fun88641 }
+            if(!(entity != golf)) { _fun88658_ip = 643; continue _fun88658 }
  185:
             echo = _closure1_slot0;
             update = _closure1_slot2;
