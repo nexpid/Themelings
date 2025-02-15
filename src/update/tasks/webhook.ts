@@ -1,62 +1,96 @@
+import { basename as _basename } from "node:path";
 import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
 import { cuteVersion, version } from "../shared";
-import { maxChangesThreshold, maxCodeChangesThreshold } from "../util";
+import { maxChangesThreshold } from "../util";
 
-const cap = (arr: string[], stuff: string, threshold = maxChangesThreshold) =>
-	arr.length > threshold
-		? [
-				...arr.slice(0, threshold),
-				`(+${arr.length - threshold} ${stuff}${
-					arr.length - threshold > 1 ? "s" : ""
-				})`,
-			]
-		: arr;
+function basename(path: string) {
+	return `... ${_basename(path)}`;
+}
 
-const formatDiff = (diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) => {
+function findInHierarchy(a: string, b: string) {
+	const aArc = a.split("/");
+	const bArc = b.split("/");
+
+	let divergence = 0;
+	while (
+		divergence < aArc.length &&
+		divergence < bArc.length &&
+		aArc[divergence] === bArc[divergence]
+	) {
+		divergence++;
+	}
+
+	const aParts = aArc.slice(divergence).join("/");
+	const bParts = bArc.slice(divergence).join("/");
+
+	return [`... ${aParts}`, `... ${bParts}`];
+}
+
+function cap(arr: string[], stuff: string, threshold = maxChangesThreshold) {
+	if (arr.length > threshold)
+		return [
+			...arr.slice(0, threshold),
+			`(+${arr.length - threshold} ${stuff}${
+				arr.length - threshold > 1 ? "s" : ""
+			})`,
+		];
+	return arr;
+}
+
+function makeFooter(diffs: Map<any, any>, name: string) {
+	return `${diffs.size} ${name} change${diffs.size !== 1 ? "s" : ""} total`;
+}
+
+function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 	const entries = [...diffs.entries()].map(([k, v]) => ({
 		name: k,
 		...v,
 	})) as any[];
 
-	const threshold = isCode ? maxCodeChangesThreshold : maxChangesThreshold;
 	const sections = {
 		Added: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Added)
+				.sort((a, b) => a.name.localeCompare(b.name))
 				.map((x) =>
-					isCode ? `+ ${x.name} (${x.size})` : `+ ${x.name}: ${x.cur}`,
+					isCode
+						? `+ ${basename(x.name)} (${x.size})`
+						: `+ ${x.name}: ${x.cur}`,
 				),
 			"addition",
-			threshold,
 		),
 		Changed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Changed)
+				.sort((a, b) => a.name.localeCompare(b.name))
 				.map((x) =>
 					isCode
-						? `${x.sizeDiff[0] === "+" ? "-" : "+"} ${x.name} (${x.sizeDiff})`
+						? `${x.sizeDiff[0] === "+" ? "-" : "+"} ${basename(x.name)} (${x.sizeDiff})`
 						: `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`,
 				),
 			"change",
-			threshold,
 		),
 		Renamed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Renamed)
-				.map((x) =>
-					isCode ? `- ${x.oldFile}\n+ ${x.name}` : `- ${x.old}\n+ ${x.name}`,
-				),
+				.map((x) => {
+					if (isCode) {
+						const parts = findInHierarchy(x.oldFile, x.name);
+						return `- ${parts[0]}\n+ ${parts[1]}`;
+					}
+					return `- ${x.old}\n+ ${x.name}`;
+				}),
 			"rename",
-			threshold,
 		),
 		Removed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Removed)
-				.map((x) => (isCode ? `- ${x.file} (${x.size})` : `- ${x.name}`)),
+				.map((x) =>
+					isCode ? `- ${basename(x.name)} (${x.size})` : `- ${x.name}`,
+				),
 			"removal",
-			threshold,
 		),
 	};
 
@@ -66,18 +100,18 @@ const formatDiff = (diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) => {
 			([title, body]) => `**${title}**\n\`\`\`diff\n${body.join("\n")}\`\`\``,
 		)
 		.join("\n");
-};
+}
 
-const triggerWebhook = async (
+async function triggerWebhook(
 	webhook: string,
 	{
 		role,
 		embeds,
 	}: {
 		role?: string;
-		embeds: { title: string; body: string; image?: Canvas }[];
+		embeds: { title: string; body: string; image?: Canvas; footer?: string }[];
 	},
-) => {
+) {
 	const images = embeds.filter((x) => x.image).map((x) => x.image);
 
 	const formData = new FormData();
@@ -95,7 +129,7 @@ const triggerWebhook = async (
 		"payload_json",
 		JSON.stringify({
 			content: role ? `<@&${role}>` : null,
-			embeds: embeds.map(({ title, body, image }) => ({
+			embeds: embeds.map(({ title, body, image, footer }) => ({
 				title,
 				description: body,
 				color: null,
@@ -104,6 +138,9 @@ const triggerWebhook = async (
 				},
 				image: image && {
 					url: `attachment://${images.indexOf(image)}.png`,
+				},
+				footer: footer && {
+					text: footer,
 				},
 			})),
 			allowed_mentions:
@@ -122,7 +159,7 @@ const triggerWebhook = async (
 				.map((x) => x.title)
 				.join(", ")}: ${await res.text()}`,
 		);
-};
+}
 
 export async function webhook(diffs: OutDiffs) {
 	if (diffs.raw?.size || diffs.semantic?.size)
@@ -135,6 +172,7 @@ export async function webhook(diffs: OutDiffs) {
 								title: "Raw colors",
 								body: formatDiff(diffs.raw),
 								image: await draw(convertDiffs(diffs.raw, true)),
+								footer: makeFooter(diffs.raw, "raw color"),
 							},
 						]
 					: []),
@@ -144,6 +182,7 @@ export async function webhook(diffs: OutDiffs) {
 								title: "Semantic colors",
 								body: formatDiff(diffs.semantic),
 								image: await draw(convertDiffs(diffs.semantic, true)),
+								footer: makeFooter(diffs.semantic, "semantic color"),
 							},
 						]
 					: []),
@@ -158,6 +197,7 @@ export async function webhook(diffs: OutDiffs) {
 					title: "Icons",
 					body: formatDiff(diffs.icons),
 					image: await draw(convertDiffs(diffs.icons)),
+					footer: makeFooter(diffs.icons, "icon"),
 				},
 			],
 		});
@@ -166,8 +206,9 @@ export async function webhook(diffs: OutDiffs) {
 			role: "1233861867059941387",
 			embeds: [
 				{
-					title: "Icons",
+					title: "Code",
 					body: formatDiff(diffs.code, true),
+					footer: makeFooter(diffs.code, "code"),
 				},
 			],
 		});
