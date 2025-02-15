@@ -8,30 +8,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = golf;
     mike = function() { // Original name: getBotLabel
-        _fun73956: for(var _fun73956_ip = 0; ; ) switch(_fun73956_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[0];
             oscar = undefined;
-            if(!(zulu === oscar)) { _fun73956_ip = 22; continue _fun73956 }
+            if(!(zulu === oscar)) { _fun00002_ip = 22; continue _fun00001 }
  9:
             entity = _closure1_slot4;
             zulu = entity.BOT;
  22:
             entity = _closure1_slot4;
             entity = entity.SYSTEM_DM;
-            if(!(entity !== zulu)) { _fun73956_ip = 274; continue _fun73956 }
+            if(!(entity !== zulu)) { _fun00002_ip = 274; continue _fun00001 }
  42:
             entity = _closure1_slot4;
             entity = entity.OFFICIAL;
-            if(!(entity !== zulu)) { _fun73956_ip = 274; continue _fun73956 }
+            if(!(entity !== zulu)) { _fun00002_ip = 274; continue _fun00001 }
  59:
             entity = _closure1_slot4;
             entity = entity.SERVER;
-            if(!(entity !== zulu)) { _fun73956_ip = 217; continue _fun73956 }
+            if(!(entity !== zulu)) { _fun00002_ip = 217; continue _fun00001 }
  76:
             entity = _closure1_slot4;
             entity = entity.AI;
-            if(!(entity !== zulu)) { _fun73956_ip = 160; continue _fun73956 }
+            if(!(entity !== zulu)) { _fun00002_ip = 160; continue _fun00001 }
  90:
             entity = _closure1_slot4;
             entity = entity.BOT;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.9RNkeH;
             entity = zulu.bind(tango)(entity);
-            _fun73956_ip = 329; continue _fun73956;
+            _fun00002_ip = 329; continue _fun00001;
  160:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.pLTJZG;
             entity = tango.bind(report)(zulu);
-            _fun73956_ip = 329; continue _fun73956;
+            _fun00002_ip = 329; continue _fun00001;
  217:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.PuJGuL;
             entity = tango.bind(report)(zulu);
-            _fun73956_ip = 329; continue _fun73956;
+            _fun00002_ip = 329; continue _fun00001;
  274:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -195,17 +195,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = verify.bind(offset)(options);
     var _closure1_slot7 = options;
     tango = function(argFoo) { // Original name: BotTag
-        _fun73957: for(var _fun73957_ip = 0; ; ) switch(_fun73957_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.invertColor;
             tango = undefined;
-            if(!(entity === tango)) { _fun73957_ip = 19; continue _fun73957 }
+            if(!(entity === tango)) { _fun00004_ip = 19; continue _fun00003 }
  17:
             entity = false;
  19:
             zulu = mike.type;
-            if(!(zulu === tango)) { _fun73957_ip = 41; continue _fun73957 }
+            if(!(zulu === tango)) { _fun00004_ip = 41; continue _fun00003 }
  28:
             report = _closure1_slot4;
             zulu = report.BOT;
@@ -219,25 +219,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot4;
             report = report.OFFICIAL;
             report = zulu === report;
-            if(report) { _fun73957_ip = 103; continue _fun73957 }
+            if(report) { _fun00004_ip = 103; continue _fun00003 }
  89:
             golf = _closure1_slot4;
             golf = golf.SYSTEM_DM;
             report = zulu === golf;
  103:
-            if(report) { _fun73957_ip = 120; continue _fun73957 }
+            if(report) { _fun00004_ip = 120; continue _fun00003 }
  106:
             golf = _closure1_slot4;
             golf = golf.AI;
             report = zulu === golf;
  120:
-            if(mike) { _fun73957_ip = 126; continue _fun73957 }
+            if(mike) { _fun00004_ip = 126; continue _fun00003 }
  123:
             mike = report;
  126:
             options = null;
             golf = null;
-            if(!mike) { _fun73957_ip = 210; continue _fun73957 }
+            if(!mike) { _fun00004_ip = 210; continue _fun00003 }
  133:
             yankee = _closure1_slot5;
             report = _closure1_slot0;
@@ -260,29 +260,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  210:
             mike = _closure1_slot4;
             mike = mike.AI;
-            if(!(zulu !== mike)) { _fun73957_ip = 243; continue _fun73957 }
+            if(!(zulu !== mike)) { _fun00004_ip = 243; continue _fun00003 }
  224:
-            if(entity) { _fun73957_ip = 235; continue _fun73957 }
+            if(entity) { _fun00004_ip = 235; continue _fun00003 }
  227:
             foxtrot = offset.tagNormal;
-            _fun73957_ip = 241; continue _fun73957;
+            _fun00004_ip = 241; continue _fun00003;
  235:
             foxtrot = offset.tagInverted;
  241:
-            _fun73957_ip = 249; continue _fun73957;
+            _fun00004_ip = 249; continue _fun00003;
  243:
             foxtrot = offset.tagAI;
  249:
-            if(entity) { _fun73957_ip = 260; continue _fun73957 }
+            if(entity) { _fun00004_ip = 260; continue _fun00003 }
  252:
             yankee = offset.tagTextNormal;
-            _fun73957_ip = 266; continue _fun73957;
+            _fun00004_ip = 266; continue _fun00003;
  260:
             yankee = offset.tagTextInverted;
  266:
             entity = options != golf;
             options = null;
-            if(!entity) { _fun73957_ip = 281; continue _fun73957 }
+            if(!entity) { _fun00004_ip = 281; continue _fun00003 }
  275:
             options = offset.verifiedTagLeftPadding;
  281:

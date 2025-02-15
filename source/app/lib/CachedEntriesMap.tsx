@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'set';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun54047: for(var _fun54047_ip = 0; ; ) switch(_fun54047_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 tango = argBar;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike.data;
                 entity = zulu.get;
                 entity = entity.bind(zulu)(report);
-                if(!(entity !== tango)) { _fun54047_ip = 59; continue _fun54047 }
+                if(!(entity !== tango)) { _fun00002_ip = 59; continue _fun00001 }
  28:
                 zulu = mike.data;
                 entity = zulu.set;
@@ -188,14 +188,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'delete';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun54048: for(var _fun54048_ip = 0; ; ) switch(_fun54048_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = this;
                 tango = zulu.data;
                 mike = tango.delete;
                 entity = argFoo;
                 entity = mike.bind(tango)(entity);
-                if(!entity) { _fun54048_ip = 39; continue _fun54048 }
+                if(!entity) { _fun00004_ip = 39; continue _fun00003 }
  24:
                 mike = zulu.version;
                 mike = mike + 1;
@@ -210,13 +210,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'clear';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun54049: for(var _fun54049_ip = 0; ; ) switch(_fun54049_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = this;
                 entity = mike.data;
                 zulu = entity.size;
                 entity = 0;
-                if(!(entity !== zulu)) { _fun54049_ip = 49; continue _fun54049 }
+                if(!(entity !== zulu)) { _fun00006_ip = 49; continue _fun00005 }
  19:
                 zulu = mike.data;
                 entity = zulu.clear;

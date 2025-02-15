@@ -17,7 +17,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun97943: for(var _fun97943_ip = 0; ; ) switch(_fun97943_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = global;
                 zulu = entity.Object;
@@ -29,14 +29,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 tango = entity == mike;
                 zulu = undefined;
-                if(tango) { _fun97943_ip = 51; continue _fun97943 }
+                if(tango) { _fun00002_ip = 51; continue _fun00001 }
  46:
                 zulu = mike.length;
  51:
                 tango = entity != zulu;
                 mike = 0;
                 entity = 0;
-                if(!tango) { _fun97943_ip = 65; continue _fun97943 }
+                if(!tango) { _fun00002_ip = 65; continue _fun00001 }
  62:
                 entity = zulu;
  65:

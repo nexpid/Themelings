@@ -25,10 +25,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot4 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: prepareUpdate
-        _fun127824: for(var _fun127824_ip = 0; ; ) switch(_fun127824_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            if(!entity) { _fun127824_ip = 268; continue _fun127824 }
+            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
  9:
             zulu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -98,10 +98,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['prepareUpdate'] = golf;
     tango = function() { // Original name: deferUpdate
-        _fun127826: for(var _fun127826_ip = 0; ; ) switch(_fun127826_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot4;
-            if(!mike) { _fun127826_ip = 36; continue _fun127826 }
+            if(!mike) { _fun00004_ip = 36; continue _fun00003 }
  10:
             mike = false;
             _closure1_slot4 = mike;

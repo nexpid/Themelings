@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_badge/useUpgradeToGuildBadgeV2.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useUpgradeToGuildBadgeV2
-        _fun90567: for(var _fun90567_ip = 0; ; ) switch(_fun90567_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun90567_ip = 83; continue _fun90567 }
+            if(!(entity != golf)) { _fun00002_ip = 83; continue _fun00001 }
  9:
             report = _closure1_slot0;
             oscar = _closure1_slot1;

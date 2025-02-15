@@ -6,11 +6,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     mike = function(argFoo) { // Original name: questCosponsorMetadataFromServer
-        _fun67268: for(var _fun67268_ip = 0; ; ) switch(_fun67268_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun67268_ip = 13; continue _fun67268 }
+            if(!(entity == mike)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             entity = undefined;
             return entity;

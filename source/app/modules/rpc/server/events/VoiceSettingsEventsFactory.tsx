@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu['scope'] = golf;
         golf = function() { // Original name: handler
             entity = function(argFoo) {
-                _fun109932: for(var _fun109932_ip = 0; ; ) switch(_fun109932_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     oscar = entity.prevState;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(mike)(tango);
                     tango = report.isEqual;
                     tango = tango.bind(report)(entity, oscar);
-                    if(tango) { _fun109932_ip = 70; continue _fun109932 }
+                    if(tango) { _fun00002_ip = 70; continue _fun00001 }
  65:
                     mike = zulu.bind(mike)(entity);
  70:
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.socket;
             var _closure3_slot0 = mike;
             entity = function(argFoo) {
-                _fun109934: for(var _fun109934_ip = 0; ; ) switch(_fun109934_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = mike.prevState;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.application;
                     report = zulu.id;
                     zulu = null;
-                    if(!(zulu != report)) { _fun109934_ip = 110; continue _fun109934 }
+                    if(!(zulu != report)) { _fun00004_ip = 110; continue _fun00003 }
  37:
                     report = _closure2_slot1;
                     mike = _closure3_slot0;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(zulu)(report);
                     report = oscar.isEqual;
                     report = report.bind(oscar)(mike, entity);
-                    if(report) { _fun109934_ip = 108; continue _fun109934 }
+                    if(report) { _fun00004_ip = 108; continue _fun00003 }
  103:
                     zulu = tango.bind(zulu)(mike);
  108:

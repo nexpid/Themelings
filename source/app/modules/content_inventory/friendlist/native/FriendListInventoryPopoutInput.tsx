@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = golf;
     golf = options.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun115097: for(var _fun115097_ip = 0; ; ) switch(_fun115097_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.user;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = mike;
             yankee = entity.disabled;
             tango = undefined;
-            if(!(yankee === tango)) { _fun115097_ip = 33; continue _fun115097 }
+            if(!(yankee === tango)) { _fun00002_ip = 33; continue _fun00001 }
  31:
             yankee = false;
  33:
@@ -125,11 +125,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = foxtrot.bind(tango)(entity);
             mike = zulu.useDerivedValue;
             entity = function() { // Original name: C
-                _fun115099: for(var _fun115099_ip = 0; ; ) switch(_fun115099_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = 0;
-                    if(!mike) { _fun115099_ip = 18; continue _fun115099 }
+                    if(!mike) { _fun00004_ip = 18; continue _fun00003 }
  12:
                     entity = -84;
  18:

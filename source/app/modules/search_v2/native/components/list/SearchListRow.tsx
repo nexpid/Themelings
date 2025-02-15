@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun113356: for(var _fun113356_ip = 0; ; ) switch(_fun113356_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.containerStyle;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.header;
             control = entity.accessible;
             tango = undefined;
-            if(!(control === tango)) { _fun113356_ip = 73; continue _fun113356 }
+            if(!(control === tango)) { _fun00002_ip = 73; continue _fun00001 }
  71:
             control = true;
  73:
             source = entity.accessibilityRole;
-            if(!(source === tango)) { _fun113356_ip = 86; continue _fun113356 }
+            if(!(source === tango)) { _fun00002_ip = 86; continue _fun00001 }
  82:
             source = 'button';
  86:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             yankee = oscar != zulu;
             entity = 0;
-            if(!yankee) { _fun113356_ip = 130; continue _fun113356 }
+            if(!yankee) { _fun00002_ip = 130; continue _fun00001 }
  127:
             entity = zulu;
  130:
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = 'string';
             kilo = typeof update;
             output = update;
-            if(!(result === kilo)) { _fun113356_ip = 409; continue _fun113356 }
+            if(!(result === kilo)) { _fun00002_ip = 409; continue _fun00001 }
  347:
             echo = _closure1_slot5;
             result = _closure1_slot0;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu.bind(tango)(verify, options);
             report[1] = options;
             oscar = oscar != offset;
-            if(!oscar) { _fun113356_ip = 498; continue _fun113356 }
+            if(!oscar) { _fun00002_ip = 498; continue _fun00001 }
  460:
             verify = _closure1_slot5;
             options = _closure1_slot3;

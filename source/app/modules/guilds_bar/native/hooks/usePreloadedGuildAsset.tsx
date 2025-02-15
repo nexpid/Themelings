@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: usePreloadedGuildAsset
-        _fun114549: for(var _fun114549_ip = 0; ; ) switch(_fun114549_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             options = argBar;
@@ -77,31 +77,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = options.bind(golf)(tango);
             tango = tango.bind(golf)(report);
             report = tango.guildId;
-            if(!(oscar === report)) { _fun114549_ip = 161; continue _fun114549 }
+            if(!(oscar === report)) { _fun00002_ip = 161; continue _fun00001 }
  155:
             entity = tango.asset;
  161:
             tango = _closure1_slot3;
             zulu = tango.useEffect;
             mike = function() {
-                _fun114552: for(var _fun114552_ip = 0; ; ) switch(_fun114552_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = _closure2_slot4;
                     mike = mike.current;
                     mike = mike.guildId;
-                    if(!(zulu === mike)) { _fun114552_ip = 171; continue _fun114552 }
+                    if(!(zulu === mike)) { _fun00004_ip = 171; continue _fun00003 }
  28:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun114552_ip = 171; continue _fun114552 }
+                    if(!(mike != zulu)) { _fun00004_ip = 171; continue _fun00003 }
  41:
                     zulu = _closure2_slot1;
                     mike = _closure2_slot4;
                     mike = mike.current;
                     mike = mike.icon;
                     mike = zulu !== mike;
-                    if(!mike) { _fun114552_ip = 89; continue _fun114552 }
+                    if(!mike) { _fun00004_ip = 89; continue _fun00003 }
  66:
                     tango = _closure2_slot1;
                     zulu = _closure2_slot4;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.preloading;
                     mike = tango !== zulu;
  89:
-                    if(!mike) { _fun114552_ip = 231; continue _fun114552 }
+                    if(!mike) { _fun00004_ip = 231; continue _fun00003 }
  95:
                     mike = _closure2_slot4;
                     mike = mike.current;
@@ -125,14 +125,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = mike.bind(zulu)(tango);
                     zulu = tango.then;
                     mike = function() {
-                        _fun114553: for(var _fun114553_ip = 0; ; ) switch(_fun114553_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             mike = _closure2_slot4;
                             mike = mike.current;
                             zulu = mike.guildId;
                             mike = _closure2_slot0;
                             mike = zulu === mike;
-                            if(!mike) { _fun114553_ip = 51; continue _fun114553 }
+                            if(!mike) { _fun00006_ip = 51; continue _fun00005 }
  28:
                             zulu = _closure2_slot4;
                             zulu = zulu.current;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = _closure2_slot1;
                             mike = tango === zulu;
  51:
-                            if(!mike) { _fun114553_ip = 101; continue _fun114553 }
+                            if(!mike) { _fun00006_ip = 101; continue _fun00005 }
  54:
                             mike = _closure2_slot4;
                             tango = mike.current;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         }
                     };
                     mike = zulu.bind(tango)(mike);
-                    _fun114552_ip = 231; continue _fun114552;
+                    _fun00004_ip = 231; continue _fun00003;
  171:
                     mike = _closure2_slot4;
                     tango = mike.current;

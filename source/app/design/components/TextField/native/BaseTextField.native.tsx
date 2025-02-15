@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun63684: for(var _fun63684_ip = 0; ; ) switch(_fun63684_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -57,16 +57,16 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             foxtrot = mike.focusProps;
             options = mike.isFocused;
             mike = report.enableAndroidSanitizedInputWorkaround;
-            if(!mike) { _fun63684_ip = 291; continue _fun63684 }
+            if(!mike) { _fun00002_ip = 291; continue _fun00001 }
  124:
             verify = report.secureTextEntry;
             oscar = report.keyboardType;
             backup = report.autoComplete;
-            if(!(verify === tango)) { _fun63684_ip = 148; continue _fun63684 }
+            if(!(verify === tango)) { _fun00002_ip = 148; continue _fun00001 }
  146:
             verify = false;
  148:
-            if(!(oscar === tango)) { _fun63684_ip = 156; continue _fun63684 }
+            if(!(oscar === tango)) { _fun00002_ip = 156; continue _fun00001 }
  152:
             oscar = 'default';
  156:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = kilo.isAndroid;
             kilo = zulu.bind(kilo)();
             zulu = 'off';
-            if(kilo) { _fun63684_ip = 197; continue _fun63684 }
+            if(kilo) { _fun00002_ip = 197; continue _fun00001 }
  194:
             zulu = backup;
  197:
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.bind(backup)();
             backup = !zulu;
             zulu = !backup;
-            if(!backup) { _fun63684_ip = 240; continue _fun63684 }
+            if(!backup) { _fun00002_ip = 240; continue _fun00001 }
  237:
             zulu = verify;
  240:
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = verify.isAndroid;
             verify = zulu.bind(verify)();
             zulu = 'visible-password';
-            if(verify) { _fun63684_ip = 283; continue _fun63684 }
+            if(verify) { _fun00002_ip = 283; continue _fun00001 }
  280:
             zulu = oscar;
  283:

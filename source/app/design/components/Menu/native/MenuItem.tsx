@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun48605: for(var _fun48605_ip = 0; ; ) switch(_fun48605_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.label;
@@ -47,13 +47,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.iconSource;
             verify = entity.showIconFirst;
             tango = undefined;
-            if(!(verify === tango)) { _fun48605_ip = 36; continue _fun48605 }
+            if(!(verify === tango)) { _fun00002_ip = 36; continue _fun00001 }
  34:
             verify = false;
  36:
             backup = entity.style;
             foxtrot = entity.disabled;
-            if(!(foxtrot === tango)) { _fun48605_ip = 52; continue _fun48605 }
+            if(!(foxtrot === tango)) { _fun00002_ip = 52; continue _fun00001 }
  50:
             foxtrot = false;
  52:
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.menuClose;
             _closure2_slot1 = entity;
             romeo = null;
-            if(!(romeo == zulu)) { _fun48605_ip = 190; continue _fun48605 }
+            if(!(romeo == zulu)) { _fun00002_ip = 190; continue _fun00001 }
  133:
             entity = romeo != oscar;
             options = null;
-            if(!entity) { _fun48605_ip = 188; continue _fun48605 }
+            if(!entity) { _fun00002_ip = 188; continue _fun00001 }
  142:
             kilo = _closure1_slot4;
             mike = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = sizing;
             options = kilo.bind(tango)(mike, entity);
  188:
-            _fun48605_ip = 210; continue _fun48605;
+            _fun00002_ip = 210; continue _fun00001;
  190:
             mike = _closure1_slot4;
             entity = {};
@@ -115,20 +115,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['disabled'] = foxtrot;
             backup = romeo != oscar;
             foxtrot = null;
-            if(!backup) { _fun48605_ip = 278; continue _fun48605 }
+            if(!backup) { _fun00002_ip = 278; continue _fun00001 }
  270:
             foxtrot = null;
-            if(!verify) { _fun48605_ip = 278; continue _fun48605 }
+            if(!verify) { _fun00002_ip = 278; continue _fun00001 }
  275:
             foxtrot = options;
  278:
             entity['leading'] = foxtrot;
             foxtrot = romeo == oscar;
             oscar = null;
-            if(foxtrot) { _fun48605_ip = 300; continue _fun48605 }
+            if(foxtrot) { _fun00002_ip = 300; continue _fun00001 }
  292:
             oscar = null;
-            if(verify) { _fun48605_ip = 300; continue _fun48605 }
+            if(verify) { _fun00002_ip = 300; continue _fun00001 }
  297:
             oscar = options;
  300:
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'string';
             options = typeof yankee;
             oscar = yankee;
-            if(!(verify === options)) { _fun48605_ip = 365; continue _fun48605 }
+            if(!(verify === options)) { _fun00002_ip = 365; continue _fun00001 }
  319:
             verify = _closure1_slot4;
             options = _closure1_slot1;

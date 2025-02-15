@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/TableRow/native/TableRadioRow.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TableRadioRow
-        _fun63769: for(var _fun63769_ip = 0; ; ) switch(_fun63769_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = report.value;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             backup = report.subLabel;
             yankee = report.disabled;
             tango = undefined;
-            if(!(yankee === tango)) { _fun63769_ip = 38; continue _fun63769 }
+            if(!(yankee === tango)) { _fun00002_ip = 38; continue _fun00001 }
  36:
             yankee = false;
  38:
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = zulu.selectedValue;
             zulu = zulu.onSelect;
             _closure2_slot2 = zulu;
-            if(!(offset == options)) { _fun63769_ip = 169; continue _fun63769 }
+            if(!(offset == options)) { _fun00002_ip = 169; continue _fun00001 }
  165:
             options = entity === mike;
  169:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = offset != golf;
             romeo = '';
             yankee = romeo;
-            if(!offset) { _fun63769_ip = 353; continue _fun63769 }
+            if(!offset) { _fun00002_ip = 353; continue _fun00001 }
  350:
             yankee = golf;
  353:
@@ -131,11 +131,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = 'accessibilityHint';
             entity[golf] = verify;
             golf = function(argFoo) { // Original name: onPress
-                _fun63770: for(var _fun63770_ip = 0; ; ) switch(_fun63770_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun63770_ip = 27; continue _fun63770 }
+                    if(!(mike != zulu)) { _fun00004_ip = 27; continue _fun00003 }
  13:
                     tango = _closure2_slot1;
                     zulu = undefined;

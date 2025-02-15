@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot3;
         zulu = function() { // Original name: Logger
-            _fun106: for(var _fun106_ip = 0; ; ) switch(_fun106_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = arguments[0];
                 zulu = this;
                 var _closure3_slot0 = zulu;
                 entity = undefined;
-                if(!(mike === entity)) { _fun106_ip = 22; continue _fun106 }
+                if(!(mike === entity)) { _fun00002_ip = 22; continue _fun00001 }
  18:
                 mike = 'default';
  22:
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = _closure2_slot0;
                 report = oscar.bind(entity)(zulu, report);
                 report = function(argFoo, argBar) {
-                    _fun107: for(var _fun107_ip = 0; ; ) switch(_fun107_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         oscar = argFoo;
                         foxtrot = 1;
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = undefined;
                         verify = apply(foxtrot, romeo, yankee);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun107_ip = 152; continue _fun107 }
+                        if(!options) { _fun00004_ip = 152; continue _fun00003 }
  88:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun107_ip = 152; continue _fun107 }
+                        if(!(options != verify)) { _fun00004_ip = 152; continue _fun00003 }
  98:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['logDangerously'] = report;
                 report = function(argFoo, argBar) {
-                    _fun108: for(var _fun108_ip = 0; ; ) switch(_fun108_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         oscar = argFoo;
                         options = 1;
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = undefined;
                         verify = apply(backup, foxtrot, romeo);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun108_ip = 215; continue _fun108 }
+                        if(!options) { _fun00006_ip = 215; continue _fun00005 }
  151:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun108_ip = 215; continue _fun108 }
+                        if(!(options != verify)) { _fun00006_ip = 215; continue _fun00005 }
  161:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['log'] = report;
                 report = function(argFoo, argBar) {
-                    _fun109: for(var _fun109_ip = 0; ; ) switch(_fun109_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         oscar = argFoo;
                         foxtrot = 1;
@@ -193,11 +193,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = undefined;
                         verify = apply(foxtrot, romeo, yankee);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun109_ip = 152; continue _fun109 }
+                        if(!options) { _fun00008_ip = 152; continue _fun00007 }
  88:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun109_ip = 152; continue _fun109 }
+                        if(!(options != verify)) { _fun00008_ip = 152; continue _fun00007 }
  98:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['verboseDangerously'] = report;
                 report = function(argFoo, argBar) {
-                    _fun110: for(var _fun110_ip = 0; ; ) switch(_fun110_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         oscar = argFoo;
                         options = 1;
@@ -261,11 +261,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = undefined;
                         verify = apply(backup, foxtrot, romeo);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun110_ip = 215; continue _fun110 }
+                        if(!options) { _fun00010_ip = 215; continue _fun00009 }
  151:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun110_ip = 215; continue _fun110 }
+                        if(!(options != verify)) { _fun00010_ip = 215; continue _fun00009 }
  161:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['verbose'] = report;
                 report = function(argFoo, argBar) {
-                    _fun111: for(var _fun111_ip = 0; ; ) switch(_fun111_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         oscar = argFoo;
                         options = 1;
@@ -329,11 +329,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = undefined;
                         verify = apply(backup, foxtrot, romeo);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun111_ip = 215; continue _fun111 }
+                        if(!options) { _fun00012_ip = 215; continue _fun00011 }
  151:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun111_ip = 215; continue _fun111 }
+                        if(!(options != verify)) { _fun00012_ip = 215; continue _fun00011 }
  161:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['info'] = report;
                 report = function(argFoo, argBar) {
-                    _fun112: for(var _fun112_ip = 0; ; ) switch(_fun112_ip) {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                         oscar = argFoo;
                         options = 1;
@@ -397,11 +397,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = undefined;
                         verify = apply(backup, foxtrot, romeo);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun112_ip = 215; continue _fun112 }
+                        if(!options) { _fun00014_ip = 215; continue _fun00013 }
  151:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun112_ip = 215; continue _fun112 }
+                        if(!(options != verify)) { _fun00014_ip = 215; continue _fun00013 }
  161:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['warn'] = report;
                 report = function(argFoo, argBar) {
-                    _fun113: for(var _fun113_ip = 0; ; ) switch(_fun113_ip) {
+                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                         oscar = argFoo;
                         options = 1;
@@ -465,11 +465,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         romeo = undefined;
                         verify = apply(backup, foxtrot, romeo);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun113_ip = 215; continue _fun113 }
+                        if(!options) { _fun00016_ip = 215; continue _fun00015 }
  151:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun113_ip = 215; continue _fun113 }
+                        if(!(options != verify)) { _fun00016_ip = 215; continue _fun00015 }
  161:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['error'] = report;
                 report = function(argFoo, argBar) {
-                    _fun114: for(var _fun114_ip = 0; ; ) switch(_fun114_ip) {
+                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                         oscar = argFoo;
                         foxtrot = 1;
@@ -516,11 +516,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = undefined;
                         verify = apply(foxtrot, romeo, yankee);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun114_ip = 152; continue _fun114 }
+                        if(!options) { _fun00018_ip = 152; continue _fun00017 }
  88:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun114_ip = 152; continue _fun114 }
+                        if(!(options != verify)) { _fun00018_ip = 152; continue _fun00017 }
  98:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['time'] = report;
                 tango = function(argFoo, argBar) {
-                    _fun116: for(var _fun116_ip = 0; ; ) switch(_fun116_ip) {
+                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                         oscar = argFoo;
                         foxtrot = 1;
@@ -586,11 +586,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = undefined;
                         verify = apply(foxtrot, romeo, yankee);
                         options = options.nativeLoggerEnabled;
-                        if(!options) { _fun116_ip = 154; continue _fun116 }
+                        if(!options) { _fun00020_ip = 154; continue _fun00019 }
  90:
                         verify = _closure1_slot5;
                         options = null;
-                        if(!(options != verify)) { _fun116_ip = 154; continue _fun116 }
+                        if(!(options != verify)) { _fun00020_ip = 154; continue _fun00019 }
  100:
                         zulu = _closure1_slot5;
                         mike = _closure3_slot0;

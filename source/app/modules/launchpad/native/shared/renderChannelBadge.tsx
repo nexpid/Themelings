@@ -32,17 +32,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/launchpad/native/shared/renderChannelBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: renderChannelBadge
-        _fun121031: for(var _fun121031_ip = 0; ; ) switch(_fun121031_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.newChannel;
             report = undefined;
-            if(!(entity === report)) { _fun121031_ip = 17; continue _fun121031 }
+            if(!(entity === report)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             entity = false;
  17:
             golf = mike.mentionCount;
-            if(!(golf === report)) { _fun121031_ip = 29; continue _fun121031 }
+            if(!(golf === report)) { _fun00002_ip = 29; continue _fun00001 }
  27:
             golf = 0;
  29:
@@ -52,31 +52,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.eventsMentionCount;
             backup = mike.locale;
             zulu = null;
-            if(!(zulu != golf)) { _fun121031_ip = 73; continue _fun121031 }
+            if(!(zulu != golf)) { _fun00002_ip = 73; continue _fun00001 }
  64:
             mike = 0;
-            if(!(!(golf > mike))) { _fun121031_ip = 404; continue _fun121031 }
+            if(!(!(golf > mike))) { _fun00002_ip = 404; continue _fun00001 }
  73:
-            if(entity) { _fun121031_ip = 367; continue _fun121031 }
+            if(entity) { _fun00002_ip = 367; continue _fun00001 }
  79:
-            if(!(zulu != kilo)) { _fun121031_ip = 92; continue _fun121031 }
+            if(!(zulu != kilo)) { _fun00002_ip = 92; continue _fun00001 }
  83:
             entity = 0;
-            if(!(!(kilo > entity))) { _fun121031_ip = 231; continue _fun121031 }
+            if(!(!(kilo > entity))) { _fun00002_ip = 231; continue _fun00001 }
  92:
-            if(!(zulu != options)) { _fun121031_ip = 102; continue _fun121031 }
+            if(!(zulu != options)) { _fun00002_ip = 102; continue _fun00001 }
  96:
             entity = 0;
-            if(!(!(options > entity))) { _fun121031_ip = 170; continue _fun121031 }
+            if(!(!(options > entity))) { _fun00002_ip = 170; continue _fun00001 }
  102:
             mike = zulu != verify;
             entity = null;
-            if(!mike) { _fun121031_ip = 168; continue _fun121031 }
+            if(!mike) { _fun00002_ip = 168; continue _fun00001 }
  111:
             mike = 0;
             mike = verify > mike;
             entity = null;
-            if(!mike) { _fun121031_ip = 168; continue _fun121031 }
+            if(!mike) { _fun00002_ip = 168; continue _fun00001 }
  122:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['eventsMentionBadge'] = verify;
             entity = tango.bind(report)(zulu, mike);
  168:
-            _fun121031_ip = 226; continue _fun121031;
+            _fun00002_ip = 226; continue _fun00001;
  170:
             tango = _closure1_slot3;
             zulu = _closure1_slot0;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
  226:
-            _fun121031_ip = 365; continue _fun121031;
+            _fun00002_ip = 365; continue _fun00001;
  231:
             tango = _closure1_slot3;
             foxtrot = _closure1_slot0;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
  365:
-            _fun121031_ip = 402; continue _fun121031;
+            _fun00002_ip = 402; continue _fun00001;
  367:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             entity = tango.bind(report)(zulu, mike);
  402:
-            _fun121031_ip = 448; continue _fun121031;
+            _fun00002_ip = 448; continue _fun00001;
  404:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;

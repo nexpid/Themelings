@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun110127: for(var _fun110127_ip = 0; ; ) switch(_fun110127_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun110127_ip = 51; continue _fun110127 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun110127_ip = 92; continue _fun110127;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun110127_ip = 71; continue _fun110127 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun110128: for(var _fun110128_ip = 0; ; ) switch(_fun110128_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun110128_ip = 76; continue _fun110128;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function() { // Original name: fetchDehydratedData
-        _fun110131: for(var _fun110131_ip = 0; ; ) switch(_fun110131_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot1;
             mike = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(tango)();
             tango = _closure1_slot9;
             mike = null;
-            if(!(mike != tango)) { _fun110131_ip = 62; continue _fun110131 }
+            if(!(mike != tango)) { _fun00006_ip = 62; continue _fun00005 }
  45:
             mike = global;
             tango = mike.clearTimeout;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'handlePostConnectionOpen';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun110137: for(var _fun110137_ip = 0; ; ) switch(_fun110137_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zulu = _closure1_slot12;
                 entity = undefined;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = {'location': 'GravityManager', 'autoTrackExposure': false};
                 zulu = report.bind(golf)(zulu);
                 zulu = zulu.enabled;
-                if(!zulu) { _fun110137_ip = 181; continue _fun110137 }
+                if(!zulu) { _fun00008_ip = 181; continue _fun00007 }
  133:
                 report = _closure1_slot0;
                 golf = _closure1_slot2;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.getICYMIStatuswithMediaEnabled;
                 zulu = {'location': 'GravityManager', 'autoTrackExposure': false};
                 zulu = report.bind(oscar)(zulu);
-                if(!zulu) { _fun110137_ip = 253; continue _fun110137 }
+                if(!zulu) { _fun00008_ip = 253; continue _fun00007 }
  226:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;

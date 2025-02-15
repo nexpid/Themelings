@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: MessagesWrapperHeader
-        _fun89520: for(var _fun89520_ip = 0; ; ) switch(_fun89520_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.channel;
@@ -76,28 +76,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu.bind(tango)(mike);
             mike = yankee.isForumPost;
             mike = mike.bind(yankee)();
-            if(mike) { _fun89520_ip = 581; continue _fun89520 }
+            if(mike) { _fun00002_ip = 581; continue _fun00001 }
  165:
             mike = null;
-            if(!(mike != golf)) { _fun89520_ip = 187; continue _fun89520 }
+            if(!(mike != golf)) { _fun00002_ip = 187; continue _fun00001 }
  171:
             zulu = yankee.isDM;
             zulu = zulu.bind(yankee)();
-            if(zulu) { _fun89520_ip = 513; continue _fun89520 }
+            if(zulu) { _fun00002_ip = 513; continue _fun00001 }
  187:
-            if(!(mike != options)) { _fun89520_ip = 207; continue _fun89520 }
+            if(!(mike != options)) { _fun00002_ip = 207; continue _fun00001 }
  191:
             zulu = yankee.isDM;
             zulu = zulu.bind(yankee)();
-            if(zulu) { _fun89520_ip = 445; continue _fun89520 }
+            if(zulu) { _fun00002_ip = 445; continue _fun00001 }
  207:
-            if(!(mike != verify)) { _fun89520_ip = 227; continue _fun89520 }
+            if(!(mike != verify)) { _fun00002_ip = 227; continue _fun00001 }
  211:
             mike = yankee.isDM;
             mike = mike.bind(yankee)();
-            if(mike) { _fun89520_ip = 377; continue _fun89520 }
+            if(mike) { _fun00002_ip = 377; continue _fun00001 }
  227:
-            if(entity) { _fun89520_ip = 273; continue _fun89520 }
+            if(entity) { _fun00002_ip = 273; continue _fun00001 }
  230:
             zulu = _closure1_slot4;
             mike = _closure1_slot1;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['channel'] = yankee;
             entity['handleScrollToNewMessages'] = offset;
             entity = zulu.bind(report)(mike, entity);
-            _fun89520_ip = 375; continue _fun89520;
+            _fun00002_ip = 375; continue _fun00001;
  273:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = romeo;
             entity = tango.bind(report)(zulu, mike);
  375:
-            _fun89520_ip = 443; continue _fun89520;
+            _fun00002_ip = 443; continue _fun00001;
  377:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['senderId'] = verify;
             entity = tango.bind(report)(zulu, mike);
  443:
-            _fun89520_ip = 511; continue _fun89520;
+            _fun00002_ip = 511; continue _fun00001;
  445:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['senderId'] = options;
             entity = tango.bind(report)(zulu, mike);
  511:
-            _fun89520_ip = 579; continue _fun89520;
+            _fun00002_ip = 579; continue _fun00001;
  513:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['senderId'] = golf;
             entity = tango.bind(report)(zulu, mike);
  579:
-            _fun89520_ip = 678; continue _fun89520;
+            _fun00002_ip = 678; continue _fun00001;
  581:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;

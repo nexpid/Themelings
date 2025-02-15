@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: ChannelSubtitle
-        _fun113401: for(var _fun113401_ip = 0; ; ) switch(_fun113401_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.muted;
@@ -25,12 +25,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = tango.getChannelSubtitleData;
             backup = entity.bind(tango)(golf);
             entity = null;
-            if(!(entity != backup)) { _fun113401_ip = 255; continue _fun113401 }
+            if(!(entity != backup)) { _fun00002_ip = 255; continue _fun00001 }
  88:
             golf = backup.type;
             tango = 'voice';
             verify = tango === golf;
-            if(!verify) { _fun113401_ip = 107; continue _fun113401 }
+            if(!verify) { _fun00002_ip = 107; continue _fun00001 }
  104:
             verify = zulu;
  107:
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             backup = backup.subtitle;
             oscar['content'] = backup;
             backup = entity != yankee;
-            if(!backup) { _fun113401_ip = 188; continue _fun113401 }
+            if(!backup) { _fun00002_ip = 188; continue _fun00001 }
  185:
             backup = yankee;
  188:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar['guildId'] = romeo;
             oscar['layout'] = offset;
             offset = 'text-muted';
-            if(!yankee) { _fun113401_ip = 221; continue _fun113401 }
+            if(!yankee) { _fun00002_ip = 221; continue _fun00001 }
  215:
             offset = 'interactive-muted';
  221:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelSubtitle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: renderChannelSubtitle
-        _fun113402: for(var _fun113402_ip = 0; ; ) switch(_fun113402_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             options = entity.subtitle;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             romeo = entity.guildId;
             verify = entity.connected;
             entity = null;
-            if(!(entity != options)) { _fun113402_ip = 283; continue _fun113402 }
+            if(!(entity != options)) { _fun00004_ip = 283; continue _fun00003 }
  46:
             golf = {};
             tango = _closure1_slot0;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = mike.variant;
             golf['variant'] = mike;
             mike = 'text-muted';
-            if(!offset) { _fun113402_ip = 119; continue _fun113402 }
+            if(!offset) { _fun00004_ip = 119; continue _fun00003 }
  113:
             mike = 'interactive-muted';
  119:
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = 1.75;
             golf['maxFontSizeMultiplier'] = mike;
             mike = {};
-            if(offset) { _fun113402_ip = 155; continue _fun113402 }
+            if(offset) { _fun00004_ip = 155; continue _fun00003 }
  151:
             tango = _closure1_slot2;
  155:
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf['style'] = mike;
             tango = 'string';
             mike = typeof options;
-            if(!(tango !== mike)) { _fun113402_ip = 225; continue _fun113402 }
+            if(!(tango !== mike)) { _fun00004_ip = 225; continue _fun00003 }
  174:
             report = _closure1_slot3;
             tango = _closure1_slot4;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike['connected'] = verify;
             mike['textProps'] = golf;
             mike = report.bind(oscar)(tango, mike);
-            _fun113402_ip = 281; continue _fun113402;
+            _fun00004_ip = 281; continue _fun00003;
  225:
             report = _closure1_slot3;
             tango = _closure1_slot0;

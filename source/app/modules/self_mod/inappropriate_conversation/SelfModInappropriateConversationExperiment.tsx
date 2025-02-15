@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['InappropriateConversationExperiment'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForInappropriateConversationWarning
-        _fun79413: for(var _fun79413_ip = 0; ; ) switch(_fun79413_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun79413_ip = 22; continue _fun79413 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = false;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForInappropriateConversationWarning'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForInappropriateConversationWarning
-        _fun79414: for(var _fun79414_ip = 0; ; ) switch(_fun79414_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun79414_ip = 22; continue _fun79414 }
+            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = false;
  22:

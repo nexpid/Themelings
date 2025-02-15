@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/getActivityChannelId.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getActivityChannelId
-        _fun80546: for(var _fun80546_ip = 0; ; ) switch(_fun80546_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.channelId;
@@ -46,33 +46,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu == options;
             entity = undefined;
             verify = undefined;
-            if(mike) { _fun80546_ip = 55; continue _fun80546 }
+            if(mike) { _fun00002_ip = 55; continue _fun00001 }
  49:
             verify = options.session_id;
  55:
             mike = oscar;
-            if(!(zulu != verify)) { _fun80546_ip = 134; continue _fun80546 }
+            if(!(zulu != verify)) { _fun00002_ip = 134; continue _fun00001 }
  62:
-            if(!(zulu != report)) { _fun80546_ip = 86; continue _fun80546 }
+            if(!(zulu != report)) { _fun00002_ip = 86; continue _fun00001 }
  66:
             verify = _closure1_slot0;
             report = report.type;
             report = verify.bind(entity)(report);
             mike = oscar;
-            if(report) { _fun80546_ip = 134; continue _fun80546 }
+            if(report) { _fun00002_ip = 134; continue _fun00001 }
  86:
             oscar = _closure1_slot2;
             report = oscar.getVoiceStateForSession;
             verify = zulu == options;
             tango = undefined;
-            if(verify) { _fun80546_ip = 111; continue _fun80546 }
+            if(verify) { _fun00002_ip = 111; continue _fun00001 }
  105:
             tango = options.session_id;
  111:
             report = report.bind(oscar)(golf, tango);
             oscar = zulu == report;
             tango = undefined;
-            if(oscar) { _fun80546_ip = 131; continue _fun80546 }
+            if(oscar) { _fun00002_ip = 131; continue _fun00001 }
  126:
             tango = report.channelId;
  131:
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  134:
             zulu = zulu != mike;
             entity = undefined;
-            if(!zulu) { _fun80546_ip = 146; continue _fun80546 }
+            if(!zulu) { _fun00002_ip = 146; continue _fun00001 }
  143:
             entity = mike;
  146:

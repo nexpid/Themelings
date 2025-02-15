@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: SimplifiedInstructions
-        _fun116290: for(var _fun116290_ip = 0; ; ) switch(_fun116290_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.quest;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             yankee = null;
             oscar = yankee != source;
-            if(!oscar) { _fun116290_ip = 459; continue _fun116290 }
+            if(!oscar) { _fun00002_ip = 459; continue _fun00001 }
  266:
             verify = _closure1_slot11;
             options = _closure1_slot10;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = foxtrot;
             yankee = yankee != kilo;
-            if(!yankee) { _fun116290_ip = 445; continue _fun116290 }
+            if(!yankee) { _fun00002_ip = 445; continue _fun00001 }
  395:
             backup = _closure1_slot9;
             foxtrot = _closure1_slot0;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function() { // Original name: QuestDockUnenrolledBody
-        _fun116293: for(var _fun116293_ip = 0; ; ) switch(_fun116293_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = _closure1_slot3;
             zulu = report.useContext;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing.bind(tango)(romeo);
             romeo = {'paused': null, 'height': 80, 'width': 80};
             source = !foxtrot;
-            if(source) { _fun116293_ip = 356; continue _fun116293 }
+            if(source) { _fun00004_ip = 356; continue _fun00003 }
  353:
             source = !control;
  356:
@@ -428,10 +428,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = new Array(2);
             control[0] = sequence;
             config = _closure1_slot9;
-            if(vacuum) { _fun116293_ip = 557; continue _fun116293 }
+            if(vacuum) { _fun00004_ip = 557; continue _fun00003 }
  551:
             sequence = _closure1_slot14;
-            _fun116293_ip = 561; continue _fun116293;
+            _fun00004_ip = 561; continue _fun00003;
  557:
             sequence = _closure1_slot13;
  561:

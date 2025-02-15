@@ -60,12 +60,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setChannelId'] = tango;
     tango = function(argFoo) { // Original name: setGuildId
-        _fun92093: for(var _fun92093_ip = 0; ; ) switch(_fun92093_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
             tango = null;
-            if(!(tango != options)) { _fun92093_ip = 76; continue _fun92093 }
+            if(!(tango != options)) { _fun00002_ip = 76; continue _fun00001 }
  15:
             mike = global;
             oscar = mike.Object;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = report.bind(oscar)(zulu);
             var _closure2_slot1 = zulu;
-            if(!(tango == zulu)) { _fun92093_ip = 121; continue _fun92093 }
+            if(!(tango == zulu)) { _fun00002_ip = 121; continue _fun00001 }
  76:
             report = _closure1_slot0;
             tango = _closure1_slot1;

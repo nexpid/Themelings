@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/reactions/ForumPostReactions.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: MaxForumPostReactions
-        _fun89577: for(var _fun89577_ip = 0; ; ) switch(_fun89577_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.thread;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(report)(yankee);
             golf = entity.disableReactionCreates;
             foxtrot = 28;
-            if(!golf) { _fun89577_ip = 105; continue _fun89577 }
+            if(!golf) { _fun00002_ip = 105; continue _fun00001 }
  103:
             foxtrot = 0;
  105:
@@ -107,10 +107,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = entity.additionalReactionCount;
             entity = foxtrot.length;
             verify = 0;
-            if(!(verify === entity)) { _fun89577_ip = 200; continue _fun89577 }
+            if(!(verify === entity)) { _fun00002_ip = 200; continue _fun00001 }
  192:
             entity = null;
-            if(golf) { _fun89577_ip = 397; continue _fun89577 }
+            if(golf) { _fun00002_ip = 397; continue _fun00001 }
  200:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['style'] = offset;
             offset = foxtrot.map;
             oscar = function(argFoo) {
-                _fun89578: for(var _fun89578_ip = 0; ; ) switch(_fun89578_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscar = argFoo;
                     report = _closure1_slot4;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = oscar.emoji;
                     entity = entity.id;
                     golf = null;
-                    if(!(golf == entity)) { _fun89578_ip = 123; continue _fun89578 }
+                    if(!(golf == entity)) { _fun00004_ip = 123; continue _fun00003 }
  112:
                     oscar = oscar.emoji;
                     entity = oscar.name;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = offset;
             verify = kilo > verify;
-            if(!verify) { _fun89577_ip = 320; continue _fun89577 }
+            if(!verify) { _fun00002_ip = 320; continue _fun00001 }
  263:
             backup = _closure1_slot4;
             foxtrot = _closure1_slot0;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  320:
             oscar[1] = verify;
             golf = !golf;
-            if(!golf) { _fun89577_ip = 383; continue _fun89577 }
+            if(!golf) { _fun00002_ip = 383; continue _fun00001 }
  330:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['MaxForumPostReactions'] = tango;
     tango = function(argFoo) { // Original name: ForumPostActionBarReactions
-        _fun89579: for(var _fun89579_ip = 0; ; ) switch(_fun89579_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             yankee = entity.thread;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = false;
             entity['sorted'] = tango;
             tango = 2;
-            if(!golf) { _fun89579_ip = 140; continue _fun89579 }
+            if(!golf) { _fun00006_ip = 140; continue _fun00005 }
  137:
             tango = 3;
  140:
@@ -246,10 +246,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = entity.additionalNonUniqueReactionCount;
             entity = backup.length;
             verify = 0;
-            if(!(verify === entity)) { _fun89579_ip = 180; continue _fun89579 }
+            if(!(verify === entity)) { _fun00006_ip = 180; continue _fun00005 }
  172:
             entity = null;
-            if(golf) { _fun89579_ip = 413; continue _fun89579 }
+            if(golf) { _fun00006_ip = 413; continue _fun00005 }
  180:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['style'] = offset;
             offset = backup.map;
             oscar = function(argFoo) {
-                _fun89580: for(var _fun89580_ip = 0; ; ) switch(_fun89580_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     oscar = argFoo;
                     report = _closure1_slot4;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = oscar.emoji;
                     entity = entity.id;
                     golf = null;
-                    if(!(golf == entity)) { _fun89580_ip = 123; continue _fun89580 }
+                    if(!(golf == entity)) { _fun00008_ip = 123; continue _fun00007 }
  112:
                     oscar = oscar.emoji;
                     entity = oscar.name;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = offset;
             verify = sizing > verify;
-            if(!verify) { _fun89579_ip = 318; continue _fun89579 }
+            if(!verify) { _fun00006_ip = 318; continue _fun00005 }
  243:
             kilo = _closure1_slot4;
             backup = _closure1_slot0;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  318:
             oscar[1] = verify;
             golf = !golf;
-            if(!golf) { _fun89579_ip = 399; continue _fun89579 }
+            if(!golf) { _fun00006_ip = 399; continue _fun00005 }
  328:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ForumPostActionBarReactions'] = tango;
     mike = function(argFoo) { // Original name: MostCommonForumPostReaction
-        _fun89581: for(var _fun89581_ip = 0; ; ) switch(_fun89581_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             verify = entity.thread;
@@ -382,19 +382,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 0;
             options = report[entity];
             entity = null;
-            if(!(entity != options)) { _fun89581_ip = 232; continue _fun89581 }
+            if(!(entity != options)) { _fun00010_ip = 232; continue _fun00009 }
  133:
-            if(tango) { _fun89581_ip = 232; continue _fun89581 }
+            if(tango) { _fun00010_ip = 232; continue _fun00009 }
  136:
             tango = options.me;
-            if(tango) { _fun89581_ip = 151; continue _fun89581 }
+            if(tango) { _fun00010_ip = 151; continue _fun00009 }
  145:
             tango = options.me_burst;
  151:
-            if(!mike) { _fun89581_ip = 159; continue _fun89581 }
+            if(!mike) { _fun00010_ip = 159; continue _fun00009 }
  154:
             mike = null;
-            if(!tango) { _fun89581_ip = 230; continue _fun89581 }
+            if(!tango) { _fun00010_ip = 230; continue _fun00009 }
  159:
             report = _closure1_slot4;
             tango = _closure1_slot0;

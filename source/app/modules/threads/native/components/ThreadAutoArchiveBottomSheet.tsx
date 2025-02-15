@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun119854: for(var _fun119854_ip = 0; ; ) switch(_fun119854_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.title;
@@ -60,12 +60,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = mike.bind(zulu)();
             mike = null;
             mike = mike != yankee;
-            if(!mike) { _fun119854_ip = 99; continue _fun119854 }
+            if(!mike) { _fun00002_ip = 99; continue _fun00001 }
  89:
             zulu = yankee.isForumPost;
             mike = zulu.bind(yankee)();
  99:
-            if(!mike) { _fun119854_ip = 123; continue _fun119854 }
+            if(!mike) { _fun00002_ip = 123; continue _fun00001 }
  102:
             offset = yankee.hasFlag;
             zulu = _closure1_slot3;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityLabel'] = oscar;
             oscar = golf.map;
             report = function(argFoo, argBar, argBaz) {
-                _fun119855: for(var _fun119855_ip = 0; ; ) switch(_fun119855_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     options = argFoo;
                     var _closure3_slot0 = options;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = verify - oscar;
                     verify = argBar;
                     oscar = null;
-                    if(!(verify !== offset)) { _fun119855_ip = 196; continue _fun119855 }
+                    if(!(verify !== offset)) { _fun00004_ip = 196; continue _fun00003 }
  161:
                     offset = _closure1_slot4;
                     verify = _closure1_slot0;

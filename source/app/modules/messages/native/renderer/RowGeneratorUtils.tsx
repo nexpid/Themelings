@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     yankee = golf.bind(entity)(mike);
     offset = yankee.memoize;
     mike = function(argFoo) {
-        _fun69164: for(var _fun69164_ip = 0; ; ) switch(_fun69164_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot1;
@@ -62,10 +62,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(oscar)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun69164_ip = 139; continue _fun69164 }
+            if(mike) { _fun00002_ip = 139; continue _fun00001 }
  131:
             kilo = entity.PRIMARY_500;
-            _fun69164_ip = 145; continue _fun69164;
+            _fun00002_ip = 145; continue _fun00001;
  139:
             kilo = entity.WHITE_500;
  145:
@@ -80,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(oscar)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun69164_ip = 206; continue _fun69164 }
+            if(mike) { _fun00002_ip = 206; continue _fun00001 }
  198:
             backup = entity.PRIMARY_400;
-            _fun69164_ip = 212; continue _fun69164;
+            _fun00002_ip = 212; continue _fun00001;
  206:
             backup = entity.PRIMARY_200;
  212:
@@ -98,10 +98,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(oscar)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun69164_ip = 273; continue _fun69164 }
+            if(mike) { _fun00002_ip = 273; continue _fun00001 }
  265:
             foxtrot = entity.PRIMARY_400;
-            _fun69164_ip = 279; continue _fun69164;
+            _fun00002_ip = 279; continue _fun00001;
  273:
             foxtrot = entity.PRIMARY_500;
  279:
@@ -112,10 +112,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isThemeDark;
             mike = entity.bind(mike)(tango);
             entity = _closure1_slot4;
-            if(mike) { _fun69164_ip = 322; continue _fun69164 }
+            if(mike) { _fun00002_ip = 322; continue _fun00001 }
  314:
             romeo = entity.light;
-            _fun69164_ip = 328; continue _fun69164;
+            _fun00002_ip = 328; continue _fun00001;
  322:
             romeo = entity.dark;
  328:
@@ -130,10 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(oscar)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun69164_ip = 389; continue _fun69164 }
+            if(mike) { _fun00002_ip = 389; continue _fun00001 }
  381:
             yankee = entity.PRIMARY_400;
-            _fun69164_ip = 395; continue _fun69164;
+            _fun00002_ip = 395; continue _fun00001;
  389:
             yankee = entity.WHITE_500;
  395:
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             entity = golf.bind(oscar)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun69164_ip = 456; continue _fun69164 }
+            if(mike) { _fun00002_ip = 456; continue _fun00001 }
  448:
             options = entity.PRIMARY_400;
-            _fun69164_ip = 462; continue _fun69164;
+            _fun00002_ip = 462; continue _fun00001;
  456:
             options = entity.WHITE_500;
  462:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isThemeDark;
             entity = entity.bind(mike)(tango);
             report = undefined;
-            if(entity) { _fun69164_ip = 561; continue _fun69164 }
+            if(entity) { _fun00002_ip = 561; continue _fun00001 }
  495:
             tango = _closure1_slot0;
             entity = _closure1_slot2;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(options);
             entity['closeTintColor'] = mike;
             mike = undefined;
-            if(!(mike !== report)) { _fun69164_ip = 834; continue _fun69164 }
+            if(!(mike !== report)) { _fun00002_ip = 834; continue _fun00001 }
  806:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot8 = mike;
         mike = zulu.map;
         entity = function(argFoo) {
-            _fun69166: for(var _fun69166_ip = 0; ; ) switch(_fun69166_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 oscar = argFoo;
                 report = oscar.name;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = '';
                 golf = 0;
                 zulu = tango;
-                if(!(golf !== entity)) { _fun69166_ip = 98; continue _fun69166 }
+                if(!(golf !== entity)) { _fun00004_ip = 98; continue _fun00003 }
  27:
                 options = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -359,15 +359,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = null;
                 report = zulu != tango;
                 zulu = 0;
-                if(!report) { _fun69166_ip = 148; continue _fun69166 }
+                if(!report) { _fun00004_ip = 148; continue _fun00003 }
  145:
                 zulu = tango;
  148:
                 report = zulu;
-                if(!(entity > golf)) { _fun69166_ip = 165; continue _fun69166 }
+                if(!(entity > golf)) { _fun00004_ip = 165; continue _fun00003 }
  155:
                 report = zulu;
-                if(!(golf === report)) { _fun69166_ip = 165; continue _fun69166 }
+                if(!(golf === report)) { _fun00004_ip = 165; continue _fun00003 }
  162:
                 report = entity;
  165:
@@ -399,18 +399,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure2_slot3;
                 entity['progressTrackColor'] = oscar;
                 tango = tango === report;
-                if(tango) { _fun69166_ip = 300; continue _fun69166 }
+                if(tango) { _fun00004_ip = 300; continue _fun00003 }
  294:
                 report = _closure2_slot4;
-                _fun69166_ip = 304; continue _fun69166;
+                _fun00004_ip = 304; continue _fun00003;
  300:
                 report = _closure2_slot6;
  304:
                 entity['progressStartColor'] = report;
-                if(tango) { _fun69166_ip = 318; continue _fun69166 }
+                if(tango) { _fun00004_ip = 318; continue _fun00003 }
  312:
                 tango = _closure2_slot5;
-                _fun69166_ip = 322; continue _fun69166;
+                _fun00004_ip = 322; continue _fun00003;
  318:
                 tango = _closure2_slot6;
  322:
@@ -419,7 +419,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = 'borderColor';
                 tango = tango in report;
                 zulu = undefined;
-                if(!tango) { _fun69166_ip = 354; continue _fun69166 }
+                if(!tango) { _fun00004_ip = 354; continue _fun00003 }
  344:
                 tango = _closure2_slot0;
                 zulu = tango.borderColor;
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     report['createUploadProgressEmbed'] = verify;
     verify = function(argFoo, argBar, argBaz, argCorge) { // Original name: getImageSrc
-        _fun69167: for(var _fun69167_ip = 0; ; ) switch(_fun69167_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = argFoo;
             entity = argCorge;
@@ -445,21 +445,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = '.webp';
             mike = zulu.bind(oscar)(mike);
             mike = !mike;
-            if(!mike) { _fun69167_ip = 49; continue _fun69167 }
+            if(!mike) { _fun00006_ip = 49; continue _fun00005 }
  29:
             tango = oscar.endsWith;
             zulu = '.avif';
             zulu = tango.bind(oscar)(zulu);
             mike = !zulu;
  49:
-            if(mike) { _fun69167_ip = 75; continue _fun69167 }
+            if(mike) { _fun00006_ip = 75; continue _fun00005 }
  52:
             report = _closure1_slot7;
             tango = report.has;
             zulu = 'webp';
             mike = tango.bind(report)(zulu);
  75:
-            if(mike) { _fun69167_ip = 80; continue _fun69167 }
+            if(mike) { _fun00006_ip = 80; continue _fun00005 }
  78:
             entity = true;
  80:
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = tango.bind(mike)(zulu);
             tango = report.getMobileOptimizedSrc;
             zulu = null;
-            if(!entity) { _fun69167_ip = 122; continue _fun69167 }
+            if(!entity) { _fun00006_ip = 122; continue _fun00005 }
  116:
             zulu = 'png';
  122:
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     report['getImageSrc'] = verify;
     verify = function(argFoo) { // Original name: createBackgroundHighlight
-        _fun69168: for(var _fun69168_ip = 0; ; ) switch(_fun69168_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = entity.message;
@@ -496,12 +496,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot6;
             entity = undefined;
             zulu = zulu.bind(entity)(golf);
-            if(oscar) { _fun69168_ip = 178; continue _fun69168 }
+            if(oscar) { _fun00008_ip = 178; continue _fun00007 }
  46:
-            if(tango) { _fun69168_ip = 150; continue _fun69168 }
+            if(tango) { _fun00008_ip = 150; continue _fun00007 }
  49:
             tango = report.mentioned;
-            if(tango) { _fun69168_ip = 122; continue _fun69168 }
+            if(tango) { _fun00008_ip = 122; continue _fun00007 }
  58:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.hasEphemeralAppearance;
             mike = mike.bind(tango)(report);
             entity = undefined;
-            if(!mike) { _fun69168_ip = 120; continue _fun69168 }
+            if(!mike) { _fun00008_ip = 120; continue _fun00007 }
  94:
             mike = {};
             tango = zulu.ephemeralBackgroundColor;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['gutterColor'] = tango;
             entity = mike;
  120:
-            _fun69168_ip = 148; continue _fun69168;
+            _fun00008_ip = 148; continue _fun00007;
  122:
             mike = {};
             tango = zulu.mentionedBackgroundColor;
@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['gutterColor'] = tango;
             entity = mike;
  148:
-            _fun69168_ip = 176; continue _fun69168;
+            _fun00008_ip = 176; continue _fun00007;
  150:
             mike = {};
             tango = zulu.automodBlockedBackgroundColor;
@@ -538,7 +538,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['gutterColor'] = tango;
             entity = mike;
  176:
-            _fun69168_ip = 193; continue _fun69168;
+            _fun00008_ip = 193; continue _fun00007;
  178:
             mike = {};
             zulu = zulu.editingColor;
@@ -550,20 +550,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     report['createBackgroundHighlight'] = verify;
     oscar = function(argFoo, argBar) { // Original name: createSwipeActions
-        _fun69169: for(var _fun69169_ip = 0; ; ) switch(_fun69169_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = _closure1_slot3;
             entity = argFoo;
-            if(entity) { _fun69169_ip = 21; continue _fun69169 }
+            if(entity) { _fun00010_ip = 21; continue _fun00009 }
  13:
             entity = zulu.NONE;
-            _fun69169_ip = 44; continue _fun69169;
+            _fun00010_ip = 44; continue _fun00009;
  21:
             mike = argBar;
-            if(mike) { _fun69169_ip = 35; continue _fun69169 }
+            if(mike) { _fun00010_ip = 35; continue _fun00009 }
  27:
             mike = zulu.REPLY;
-            _fun69169_ip = 41; continue _fun69169;
+            _fun00010_ip = 41; continue _fun00009;
  35:
             mike = zulu.REPLY_EDIT;
  41:

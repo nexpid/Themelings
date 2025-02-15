@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = oscar.bind(entity)(mike);
     report = options.createStyles;
     mike = function() {
-        _fun117771: for(var _fun117771_ip = 0; ; ) switch(_fun117771_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
             mike = {};
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(report)(golf);
             golf = options.isAndroid;
             golf = golf.bind(options)();
-            if(!golf) { _fun117771_ip = 153; continue _fun117771 }
+            if(!golf) { _fun00002_ip = 153; continue _fun00001 }
  147:
             tango = -1;
  153:
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/main_tabs_v2/native/tabs/gravity/content_inventory/ContentInventoryEntryContainer.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ContentInventoryEntryContainer
-        _fun117772: for(var _fun117772_ip = 0; ; ) switch(_fun117772_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.contentId;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.children;
             foxtrot = entity.renderForScreenshot;
             report = undefined;
-            if(!(foxtrot === report)) { _fun117772_ip = 43; continue _fun117772 }
+            if(!(foxtrot === report)) { _fun00004_ip = 43; continue _fun00003 }
  41:
             foxtrot = false;
  43:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = zulu.bind(tango)(mike, entity);
             entity = null;
             mike = entity == kilo;
-            if(mike) { _fun117772_ip = 500; continue _fun117772 }
+            if(mike) { _fun00004_ip = 500; continue _fun00003 }
  136:
             tango = _closure1_slot7;
             golf = _closure1_slot0;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = source.container;
             yankee = new Array(2);
             yankee[0] = backup;
-            if(!foxtrot) { _fun117772_ip = 250; continue _fun117772 }
+            if(!foxtrot) { _fun00004_ip = 250; continue _fun00003 }
  244:
             foxtrot = source.screenshotContainer;
  250:

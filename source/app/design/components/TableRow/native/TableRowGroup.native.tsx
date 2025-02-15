@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['TableRowGroupTitle'] = tango;
     mike = function(argFoo) { // Original name: TableRowGroup
-        _fun63725: for(var _fun63725_ip = 0; ; ) switch(_fun63725_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             report = zulu.children;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.hasIcons;
             backup = zulu.accessibilityRole;
             tango = undefined;
-            if(!(backup === tango)) { _fun63725_ip = 41; continue _fun63725 }
+            if(!(backup === tango)) { _fun00002_ip = 41; continue _fun00001 }
  37:
             backup = 'none';
  41:
@@ -117,23 +117,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.Children;
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun63726: for(var _fun63726_ip = 0; ; ) switch(_fun63726_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     options = argFoo;
                     zulu = null;
                     mike = zulu == options;
                     entity = null;
-                    if(mike) { _fun63726_ip = 218; continue _fun63726 }
+                    if(mike) { _fun00004_ip = 218; continue _fun00003 }
  17:
                     mike = _closure2_slot0;
                     mike = zulu == mike;
-                    if(!mike) { _fun63726_ip = 49; continue _fun63726 }
+                    if(!mike) { _fun00004_ip = 49; continue _fun00003 }
  31:
                     report = _closure1_slot2;
                     tango = report.isValidElement;
                     mike = tango.bind(report)(options);
  49:
-                    if(!mike) { _fun63726_ip = 92; continue _fun63726 }
+                    if(!mike) { _fun00004_ip = 92; continue _fun00003 }
  52:
                     report = options.type;
                     golf = _closure1_slot0;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.TableRow;
                     mike = report === tango;
  92:
-                    if(!mike) { _fun63726_ip = 113; continue _fun63726 }
+                    if(!mike) { _fun00004_ip = 113; continue _fun00003 }
  95:
                     mike = options.props;
                     mike = mike.icon;
@@ -153,12 +153,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     _closure2_slot0 = mike;
  113:
                     mike = _closure2_slot1;
-                    if(mike) { _fun63726_ip = 131; continue _fun63726 }
+                    if(mike) { _fun00004_ip = 131; continue _fun00003 }
  120:
                     mike = true;
                     _closure2_slot1 = mike;
                     mike = options;
-                    _fun63726_ip = 215; continue _fun63726;
+                    _fun00004_ip = 215; continue _fun00003;
  131:
                     oscar = _closure1_slot6;
                     report = _closure1_slot5;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['style'] = options;
             offset = null;
             yankee = offset != echo;
-            if(!yankee) { _fun63725_ip = 193; continue _fun63725 }
+            if(!yankee) { _fun00002_ip = 193; continue _fun00001 }
  173:
             output = _closure1_slot4;
             sizing = _closure1_slot8;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(3);
             options[0] = yankee;
             offset = offset != result;
-            if(!offset) { _fun63725_ip = 270; continue _fun63725 }
+            if(!offset) { _fun00002_ip = 270; continue _fun00001 }
  208:
             output = _closure1_slot4;
             sizing = _closure1_slot0;

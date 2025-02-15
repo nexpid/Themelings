@@ -460,15 +460,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun44537: for(var _fun44537_ip = 0; ; ) switch(_fun44537_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     tango = arguments[3];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun44537_ip = 144; continue _fun44537 }
+                    if(mike) { _fun00002_ip = 144; continue _fun00001 }
  13:
                     golf = undefined;
-                    if(!(tango === golf)) { _fun44537_ip = 21; continue _fun44537 }
+                    if(!(tango === golf)) { _fun00002_ip = 21; continue _fun00001 }
  19:
                     tango = false;
  21:
@@ -477,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return golf;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun44537_ip = 141; continue _fun44537 }
+                    if(zulu) { _fun00002_ip = 141; continue _fun00001 }
  31:
                     oscar = _closure1_slot0;
                     options = _closure1_slot1;
@@ -494,10 +494,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = argBaz;
                     report = yankee.bind(offset)(verify, options, report);
                     report = oscar.bind(golf)(report);
-                    if(tango) { _fun44537_ip = 107; continue _fun44537 }
+                    if(tango) { _fun00002_ip = 107; continue _fun00001 }
  101:
                     tango = _closure1_slot4;
-                    _fun44537_ip = 111; continue _fun44537;
+                    _fun00002_ip = 111; continue _fun00001;
  107:
                     tango = _closure1_slot3;
  111:

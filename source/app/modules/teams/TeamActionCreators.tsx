@@ -21,11 +21,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     var _closure1_slot2 = mike;
     mike = {};
     tango = function() { // Original name: fetchTeams
-        _fun126937: for(var _fun126937_ip = 0; ; ) switch(_fun126937_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             zulu = undefined;
-            if(!(report === zulu)) { _fun126937_ip = 11; continue _fun126937 }
+            if(!(report === zulu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             report = false;
  11:

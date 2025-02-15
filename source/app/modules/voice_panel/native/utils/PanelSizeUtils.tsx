@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot1 = tango;
     tango = function() {
         entity = function(argFoo) { // Original name: getMaxPanelWidth
-            _fun121580: for(var _fun121580_ip = 0; ; ) switch(_fun121580_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 tango = entity.windowWidth;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = oscar.Math;
                 mike = zulu.min;
                 entity = tango;
-                if(golf) { _fun121580_ip = 78; continue _fun121580 }
+                if(golf) { _fun00002_ip = 78; continue _fun00001 }
  46:
                 options = oscar.Math;
                 golf = options.min;

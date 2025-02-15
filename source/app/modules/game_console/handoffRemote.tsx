@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/handoffRemote.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: handoffRemote
-        _fun103636: for(var _fun103636_ip = 0; ; ) switch(_fun103636_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             report = argBar;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             mike = tango != entity;
             oscar = '';
-            if(!mike) { _fun103636_ip = 28; continue _fun103636 }
+            if(!mike) { _fun00002_ip = 28; continue _fun00001 }
  25:
             oscar = entity;
  28:
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.disconnectRemote;
             golf = golf.bind(options)();
             golf = oscar;
-            if(!(tango == report)) { _fun103636_ip = 95; continue _fun103636 }
+            if(!(tango == report)) { _fun00002_ip = 95; continue _fun00001 }
  90:
             report = zulu.channelId;
  95:
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = _closure1_slot3;
             tango = options.isSelfMute;
             tango = tango.bind(options)();
-            if(!(oscar !== tango)) { _fun103636_ip = 185; continue _fun103636 }
+            if(!(oscar !== tango)) { _fun00002_ip = 185; continue _fun00001 }
  155:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot3;
             zulu = oscar.isSelfDeaf;
             zulu = zulu.bind(oscar)();
-            if(!(tango !== zulu)) { _fun103636_ip = 239; continue _fun103636 }
+            if(!(tango !== zulu)) { _fun00002_ip = 239; continue _fun00001 }
  209:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;

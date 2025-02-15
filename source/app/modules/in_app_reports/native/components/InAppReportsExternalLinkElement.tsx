@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot6 = tango;
     tango = function(argFoo) { // Original name: ExternalLinkItem
-        _fun73061: for(var _fun73061_ip = 0; ; ) switch(_fun73061_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.data;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.bind(report)();
             kilo = null;
             entity = null;
-            if(!mike) { _fun73061_ip = 420; continue _fun73061 }
+            if(!mike) { _fun00002_ip = 420; continue _fun00001 }
  64:
             tango = _closure1_slot4;
             romeo = _closure1_slot0;
@@ -150,11 +150,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = romeo;
             backup = kilo != output;
             romeo = null;
-            if(!backup) { _fun73061_ip = 286; continue _fun73061 }
+            if(!backup) { _fun00002_ip = 286; continue _fun00001 }
  226:
             backup = '';
             romeo = null;
-            if(!(backup !== output)) { _fun73061_ip = 286; continue _fun73061 }
+            if(!(backup !== output)) { _fun00002_ip = 286; continue _fun00001 }
  236:
             sizing = _closure1_slot4;
             kilo = _closure1_slot0;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsExternalLinkElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ExternalLinksElement
-        _fun73063: for(var _fun73063_ip = 0; ; ) switch(_fun73063_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             verify = entity.elements;
@@ -216,11 +216,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = undefined;
             romeo = entity.bind(report)();
             entity = null;
-            if(!(entity != verify)) { _fun73063_ip = 281; continue _fun73063 }
+            if(!(entity != verify)) { _fun00004_ip = 281; continue _fun00003 }
  33:
             zulu = verify.length;
             mike = 0;
-            if(!(mike !== zulu)) { _fun73063_ip = 281; continue _fun73063 }
+            if(!(mike !== zulu)) { _fun00004_ip = 281; continue _fun00003 }
  47:
             zulu = verify.find;
             mike = function(argFoo) {
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = zulu.bind(verify)(mike);
-            if(!(entity != mike)) { _fun73063_ip = 281; continue _fun73063 }
+            if(!(entity != mike)) { _fun00004_ip = 281; continue _fun00003 }
  71:
             zulu = verify.some;
             mike = function(argFoo) {
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.linksContainer;
             mike['style'] = offset;
             options = !options;
-            if(!options) { _fun73063_ip = 240; continue _fun73063 }
+            if(!options) { _fun00004_ip = 240; continue _fun00003 }
  118:
             yankee = _closure1_slot4;
             kilo = _closure1_slot0;

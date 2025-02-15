@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/SubscriptionAccountHoldNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun95910: for(var _fun95910_ip = 0; ; ) switch(_fun95910_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             update = entity.subscription;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot5;
             mike = entity.ACCOUNT_HOLD;
             entity = null;
-            if(!(zulu === mike)) { _fun95910_ip = 460; continue _fun95910 }
+            if(!(zulu === mike)) { _fun00002_ip = 460; continue _fun00001 }
  52:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;

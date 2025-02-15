@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/validateOpenInviteDialog.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: validateOpenInviteDialog
-        _fun109836: for(var _fun109836_ip = 0; ; ) switch(_fun109836_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -46,14 +46,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             zulu = mike.bind(tango)();
             mike = null;
-            if(!(mike != zulu)) { _fun109836_ip = 308; continue _fun109836 }
+            if(!(mike != zulu)) { _fun00002_ip = 308; continue _fun00001 }
  38:
             golf = _closure1_slot3;
             oscar = golf.getGuild;
             report = zulu.getGuildId;
             report = report.bind(zulu)();
             report = oscar.bind(golf)(report);
-            if(!(mike != report)) { _fun109836_ip = 212; continue _fun109836 }
+            if(!(mike != report)) { _fun00002_ip = 212; continue _fun00001 }
  69:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             oscar = golf.canViewInviteModal;
             mike = _closure1_slot4;
             mike = oscar.bind(golf)(mike, report, zulu);
-            if(mike) { _fun109836_ip = 200; continue _fun109836 }
+            if(mike) { _fun00002_ip = 200; continue _fun00001 }
  109:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;

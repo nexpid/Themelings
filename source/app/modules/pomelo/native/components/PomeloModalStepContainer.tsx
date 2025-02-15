@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun94254: for(var _fun94254_ip = 0; ; ) switch(_fun94254_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.action;
@@ -83,17 +83,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.infoText;
             foxtrot = entity.absoluteBottom;
             tango = undefined;
-            if(!(foxtrot === tango)) { _fun94254_ip = 34; continue _fun94254 }
+            if(!(foxtrot === tango)) { _fun00002_ip = 34; continue _fun00001 }
  32:
             foxtrot = false;
  34:
             offset = entity.hasNavbar;
-            if(!(offset === tango)) { _fun94254_ip = 46; continue _fun94254 }
+            if(!(offset === tango)) { _fun00002_ip = 46; continue _fun00001 }
  44:
             offset = true;
  46:
             verify = entity.fixActionButtonsToBottom;
-            if(!(verify === tango)) { _fun94254_ip = 58; continue _fun94254 }
+            if(!(verify === tango)) { _fun00002_ip = 58; continue _fun00001 }
  56:
             verify = false;
  58:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             entity = oscar != golf;
             output = null;
-            if(!entity) { _fun94254_ip = 207; continue _fun94254 }
+            if(!entity) { _fun00002_ip = 207; continue _fun00001 }
  142:
             zulu = _closure1_slot5;
             mike = _closure1_slot0;
@@ -142,20 +142,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = yankee;
             result = {};
             echo = 0;
-            if(!report) { _fun94254_ip = 241; continue _fun94254 }
+            if(!report) { _fun00002_ip = 241; continue _fun00001 }
  238:
             echo = 16;
  241:
             result['paddingBottom'] = echo;
             echo = 0;
-            if(!verify) { _fun94254_ip = 254; continue _fun94254 }
+            if(!verify) { _fun00002_ip = 254; continue _fun00001 }
  251:
             echo = 16;
  254:
             result['paddingHorizontal'] = echo;
             golf[1] = result;
             result = null;
-            if(!verify) { _fun94254_ip = 273; continue _fun94254 }
+            if(!verify) { _fun00002_ip = 273; continue _fun00001 }
  267:
             result = romeo.shadow;
  273:
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = output;
             golf[1] = sizing;
             sizing = oscar != options;
-            if(!sizing) { _fun94254_ip = 326; continue _fun94254 }
+            if(!sizing) { _fun00002_ip = 326; continue _fun00001 }
  300:
             echo = _closure1_slot5;
             result = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = report;
             sizing = copyDataProperties(vacuum, control);
             yankee = 0;
-            if(!offset) { _fun94254_ip = 434; continue _fun94254 }
+            if(!offset) { _fun00002_ip = 434; continue _fun00001 }
  408:
             sizing = _closure1_slot0;
             output = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['ref'] = romeo;
             romeo = new Array(3);
             romeo[0] = kilo;
-            if(!foxtrot) { _fun94254_ip = 528; continue _fun94254 }
+            if(!foxtrot) { _fun00002_ip = 528; continue _fun00001 }
  499:
             sizing = _closure1_slot5;
             kilo = _closure1_slot2;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  528:
             romeo[1] = foxtrot;
             foxtrot = null;
-            if(!(options !== verify)) { _fun94254_ip = 541; continue _fun94254 }
+            if(!(options !== verify)) { _fun00002_ip = 541; continue _fun00001 }
  538:
             foxtrot = golf;
  541:
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = offset;
             oscar = null;
-            if(!(options === verify)) { _fun94254_ip = 572; continue _fun94254 }
+            if(!(options === verify)) { _fun00002_ip = 572; continue _fun00001 }
  569:
             oscar = golf;
  572:

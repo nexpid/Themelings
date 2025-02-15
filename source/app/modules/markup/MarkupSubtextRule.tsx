@@ -30,21 +30,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = ['-'];
     mike['requiredFirstCharacters'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: match
-        _fun61899: for(var _fun61899_ip = 0; ; ) switch(_fun61899_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBaz;
             entity = null;
-            if(!(entity != oscar)) { _fun61899_ip = 44; continue _fun61899 }
+            if(!(entity != oscar)) { _fun00002_ip = 44; continue _fun00001 }
  9:
             mike = '';
-            if(!(mike !== oscar)) { _fun61899_ip = 44; continue _fun61899 }
+            if(!(mike !== oscar)) { _fun00002_ip = 44; continue _fun00001 }
  17:
             zulu = oscar.match;
             mike = _closure1_slot2;
             mike = zulu.bind(oscar)(mike);
             mike = entity != mike;
             entity = null;
-            if(!mike) { _fun61899_ip = 96; continue _fun61899 }
+            if(!mike) { _fun00002_ip = 96; continue _fun00001 }
  44:
             tango = _closure1_slot0;
             report = _closure1_slot1;

@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/HideSelfStreamAndVideoConfirmDialog.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HideSelfStreamAndVideoConfirmDialog
-        _fun103604: for(var _fun103604_ip = 0; ; ) switch(_fun103604_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = tango.type;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = entity.bind(tango)();
             entity = _closure1_slot4;
             entity = entity.STREAM;
-            if(!(mike !== entity)) { _fun103604_ip = 132; continue _fun103604 }
+            if(!(mike !== entity)) { _fun00002_ip = 132; continue _fun00001 }
  75:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.xzxhZW;
             yankee = zulu.bind(verify)(entity);
-            _fun103604_ip = 187; continue _fun103604;
+            _fun00002_ip = 187; continue _fun00001;
  132:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  187:
             entity = _closure1_slot4;
             entity = entity.STREAM;
-            if(!(mike !== entity)) { _fun103604_ip = 258; continue _fun103604 }
+            if(!(mike !== entity)) { _fun00002_ip = 258; continue _fun00001 }
  201:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.oU1p9P;
             output = mike.bind(zulu)(entity);
-            _fun103604_ip = 313; continue _fun103604;
+            _fun00002_ip = 313; continue _fun00001;
  258:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[verify] = offset;
             verify = golf == report;
             golf = undefined;
-            if(verify) { _fun103604_ip = 448; continue _fun103604 }
+            if(verify) { _fun00002_ip = 448; continue _fun00001 }
  442:
             golf = report.onClose;
  448:

@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = _closure1_slot4;
         oscar[1] = zulu;
         zulu = function() {
-            _fun102571: for(var _fun102571_ip = 0; ; ) switch(_fun102571_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot3;
                 tango = report.isFriend;
                 entity = _closure2_slot0;
                 entity = tango.bind(report)(entity);
-                if(entity) { _fun102571_ip = 67; continue _fun102571 }
+                if(entity) { _fun00002_ip = 67; continue _fun00001 }
  28:
                 tango = _closure1_slot4;
                 zulu = tango.getUser;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = null;
                 tango = mike == zulu;
                 mike = undefined;
-                if(tango) { _fun102571_ip = 64; continue _fun102571 }
+                if(tango) { _fun00002_ip = 64; continue _fun00001 }
  58:
                 mike = zulu.isProvisional;
  64:
@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = oscar;
         mike[2] = report;
         entity = function() {
-            _fun102572: for(var _fun102572_ip = 0; ; ) switch(_fun102572_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot3;
-                if(!mike) { _fun102572_ip = 42; continue _fun102572 }
+                if(!mike) { _fun00004_ip = 42; continue _fun00003 }
  10:
                 mike = _closure2_slot1;
-                if(mike) { _fun102572_ip = 42; continue _fun102572 }
+                if(mike) { _fun00004_ip = 42; continue _fun00003 }
  17:
                 zulu = _closure2_slot2;
                 mike = zulu.map;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = mike.bind(zulu)(entity);
-                _fun102572_ip = 49; continue _fun102572;
+                _fun00004_ip = 49; continue _fun00003;
  42:
                 entity = _closure1_slot5;
  49:

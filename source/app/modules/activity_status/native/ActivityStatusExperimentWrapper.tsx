@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activity_status/native/ActivityStatusExperimentWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityStatusExperimentWrapper
-        _fun79679: for(var _fun79679_ip = 0; ; ) switch(_fun79679_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             options = zulu.location;
@@ -63,9 +63,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['location'] = options;
             zulu = tango.bind(golf)(zulu);
             golf = zulu.voiceActivityStatusEnabled;
-            if(entity) { _fun79679_ip = 164; continue _fun79679 }
+            if(entity) { _fun00002_ip = 164; continue _fun00001 }
  117:
-            if(golf) { _fun79679_ip = 164; continue _fun79679 }
+            if(golf) { _fun00002_ip = 164; continue _fun00001 }
  120:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = oscar;
             options = copyDataProperties(foxtrot, romeo);
             entity = tango.bind(report)(zulu, entity);
-            _fun79679_ip = 211; continue _fun79679;
+            _fun00002_ip = 211; continue _fun00001;
  164:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;

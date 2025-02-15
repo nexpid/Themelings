@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/share_sheet/ShareSheetAttachments.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShareSheetAttachments
-        _fun128008: for(var _fun128008_ip = 0; ; ) switch(_fun128008_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.attachments;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 0;
             zulu = zulu > entity;
             entity = null;
-            if(!zulu) { _fun128008_ip = 119; continue _fun128008 }
+            if(!zulu) { _fun00002_ip = 119; continue _fun00001 }
  54:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;

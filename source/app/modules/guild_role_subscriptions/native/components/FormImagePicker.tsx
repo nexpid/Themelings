@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun127006: for(var _fun127006_ip = 0; ; ) switch(_fun127006_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun127006_ip = 83; continue _fun127006 }
+                    if(mike) { _fun00002_ip = 83; continue _fun00001 }
  7:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -44,10 +44,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun127006_ip = 80; continue _fun127006 }
+                    if(tango) { _fun00002_ip = 80; continue _fun00001 }
  56:
                     tango = null;
-                    if(!(tango != mike)) { _fun127006_ip = 77; continue _fun127006 }
+                    if(!(tango != mike)) { _fun00002_ip = 77; continue _fun00001 }
  62:
                     report = {};
                     report['uri'] = mike;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     mike = function(argFoo) { // Original name: ImagePickerIcon
-        _fun127007: for(var _fun127007_ip = 0; ; ) switch(_fun127007_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             echo = mike.style;
@@ -91,26 +91,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot3 = entity;
             golf = mike.disabled;
             tango = undefined;
-            if(!(golf === tango)) { _fun127007_ip = 80; continue _fun127007 }
+            if(!(golf === tango)) { _fun00004_ip = 80; continue _fun00003 }
  78:
             golf = false;
  80:
             mike = _closure1_slot8;
             romeo = mike.bind(tango)();
             foxtrot = 'center';
-            if(!(foxtrot !== output)) { _fun127007_ip = 107; continue _fun127007 }
+            if(!(foxtrot !== output)) { _fun00004_ip = 107; continue _fun00003 }
  99:
             update = romeo.image;
-            _fun127007_ip = 113; continue _fun127007;
+            _fun00004_ip = 113; continue _fun00003;
  107:
             update = romeo.imageCentered;
  113:
             mike = _closure1_slot9;
             mike = mike.CIRCLE;
-            if(!(zulu !== mike)) { _fun127007_ip = 135; continue _fun127007 }
+            if(!(zulu !== mike)) { _fun00004_ip = 135; continue _fun00003 }
  127:
             result = romeo.imageSquircle;
-            _fun127007_ip = 141; continue _fun127007;
+            _fun00004_ip = 141; continue _fun00003;
  135:
             result = romeo.imageCircle;
  141:
@@ -120,19 +120,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = options;
             mike[1] = entity;
             entity = function() {
-                _fun127008: for(var _fun127008_ip = 0; ; ) switch(_fun127008_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = null;
                     tango = zulu == entity;
                     verify = undefined;
                     entity = undefined;
-                    if(tango) { _fun127008_ip = 30; continue _fun127008 }
+                    if(tango) { _fun00006_ip = 30; continue _fun00005 }
  20:
                     tango = _closure2_slot0;
                     entity = tango.uri;
  30:
-                    if(!(zulu == entity)) { _fun127008_ip = 36; continue _fun127008 }
+                    if(!(zulu == entity)) { _fun00006_ip = 36; continue _fun00005 }
  34:
                     return verify;
  36:
@@ -141,10 +141,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.startsWith;
                     entity = 'data:';
                     entity = tango.bind(report)(entity);
-                    if(entity) { _fun127008_ip = 181; continue _fun127008 }
+                    if(entity) { _fun00006_ip = 181; continue _fun00005 }
  66:
                     entity = _closure2_slot3;
-                    if(!(zulu != entity)) { _fun127008_ip = 181; continue _fun127008 }
+                    if(!(zulu != entity)) { _fun00006_ip = 181; continue _fun00005 }
  74:
                     zulu = _closure2_slot0;
                     tango = zulu.uri;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = report.bind(entity)(oscar);
                     entity = tango + entity;
                     zulu['uri'] = entity;
-                    _fun127008_ip = 191; continue _fun127008;
+                    _fun00006_ip = 191; continue _fun00005;
  181:
                     mike = _closure2_slot0;
                     entity = mike.uri;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = romeo.imageContainerEmpty;
             report[2] = oscar;
             oscar = golf;
-            if(!oscar) { _fun127007_ip = 325; continue _fun127007 }
+            if(!oscar) { _fun00004_ip = 325; continue _fun00003 }
  320:
             oscar = romeo.disabled;
  325:
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = verify[report];
             verify = oscar.bind(tango)(report);
             oscar = null;
-            if(!(oscar == options)) { _fun127007_ip = 404; continue _fun127007 }
+            if(!(oscar == options)) { _fun00004_ip = 404; continue _fun00003 }
  371:
             report = {};
             report['resizeMode'] = foxtrot;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = source[foxtrot];
             foxtrot = kilo.bind(tango)(foxtrot);
             report['source'] = foxtrot;
-            _fun127007_ip = 459; continue _fun127007;
+            _fun00004_ip = 459; continue _fun00003;
  404:
             foxtrot = {};
             kilo = new Array(3);
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = kilo;
             result = oscar != output;
             kilo = 'cover';
-            if(!result) { _fun127007_ip = 440; continue _fun127007 }
+            if(!result) { _fun00004_ip = 440; continue _fun00003 }
  437:
             kilo = output;
  440:
@@ -266,11 +266,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = verify;
             oscar = oscar != options;
-            if(!oscar) { _fun127007_ip = 483; continue _fun127007 }
+            if(!oscar) { _fun00004_ip = 483; continue _fun00003 }
  480:
             oscar = !golf;
  483:
-            if(!oscar) { _fun127007_ip = 627; continue _fun127007 }
+            if(!oscar) { _fun00004_ip = 627; continue _fun00003 }
  489:
             verify = _closure1_slot6;
             options = _closure1_slot5;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = romeo.editImageIcon;
             offset = new Array(2);
             offset[0] = foxtrot;
-            if(!yankee) { _fun127007_ip = 522; continue _fun127007 }
+            if(!yankee) { _fun00004_ip = 522; continue _fun00003 }
  516:
             yankee = romeo.standaloneIcon;
  522:
@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     oscar = 'modules/guild_role_subscriptions/native/components/FormImagePicker.tsx';
     oscar = golf.bind(options)(oscar);
     report = function(argFoo) { // Original name: FormImagePicker
-        _fun127010: for(var _fun127010_ip = 0; ; ) switch(_fun127010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             output = tango.description;
@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot8;
             tango = undefined;
             result = mike.bind(tango)();
-            if(!(entity != yankee)) { _fun127010_ip = 152; continue _fun127010 }
+            if(!(entity != yankee)) { _fun00008_ip = 152; continue _fun00007 }
  95:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.0KOidn;
             control = mike.bind(zulu)(entity);
-            _fun127010_ip = 207; continue _fun127010;
+            _fun00008_ip = 207; continue _fun00007;
  152:
             report = _closure1_slot0;
             golf = _closure1_slot2;

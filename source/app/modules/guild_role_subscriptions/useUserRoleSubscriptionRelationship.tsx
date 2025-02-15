@@ -6,11 +6,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function() { // Original name: getUserRoleSubscriptionRelationship
-        _fun96575: for(var _fun96575_ip = 0; ; ) switch(_fun96575_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun96575_ip = 29; continue _fun96575 }
+            if(!(report === entity)) { _fun00002_ip = 29; continue _fun00001 }
  11:
             tango = _closure1_slot2;
             zulu = new Array(1);
@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango;
             report = zulu === entity;
             zulu = undefined;
-            if(report) { _fun96575_ip = 54; continue _fun96575 }
+            if(report) { _fun00002_ip = 54; continue _fun00001 }
  51:
             zulu = oscar;
  54:
             var _closure2_slot0 = zulu;
-            if(report) { _fun96575_ip = 64; continue _fun96575 }
+            if(report) { _fun00002_ip = 64; continue _fun00001 }
  61:
             tango.return();
  64:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _closure2_slot1 = zulu;
             tango = entity.forEach;
             zulu = function(argFoo) {
-                _fun96576: for(var _fun96576_ip = 0; ; ) switch(_fun96576_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = tango.getUserSubscriptionRoles;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = zulu.bind(tango)(entity);
                     zulu = entity.size;
                     entity = 0;
-                    if(!(zulu > entity)) { _fun96576_ip = 38; continue _fun96576 }
+                    if(!(zulu > entity)) { _fun00004_ip = 38; continue _fun00003 }
  32:
                     entity = true;
                     _closure2_slot1 = entity;
@@ -59,20 +59,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu = tango.bind(entity)(zulu);
             mike = _closure2_slot1;
-            if(mike) { _fun96575_ip = 151; continue _fun96575 }
+            if(mike) { _fun00002_ip = 151; continue _fun00001 }
  110:
             mike = entity.size;
             entity = 0;
-            if(!(entity !== mike)) { _fun96575_ip = 136; continue _fun96575 }
+            if(!(entity !== mike)) { _fun00002_ip = 136; continue _fun00001 }
  121:
             entity = _closure1_slot3;
             entity = entity.IN_SUBSCRIPTION_SERVER;
-            _fun96575_ip = 149; continue _fun96575;
+            _fun00002_ip = 149; continue _fun00001;
  136:
             mike = _closure1_slot3;
             entity = mike.NONE;
  149:
-            _fun96575_ip = 164; continue _fun96575;
+            _fun00002_ip = 164; continue _fun00001;
  151:
             mike = _closure1_slot3;
             entity = mike.SUBSCRIBED;

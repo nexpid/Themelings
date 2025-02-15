@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = 'function calculateContentCenterOffset_calculateContentCenterOffsetTsx1({contentHeight:contentHeight,windowHeight:windowHeight,safeArea:safeArea}){const{EDGE_GUTTER,roundToNearestPixel}=this.__closure;const safeAreaTop=Math.max(safeArea.top,EDGE_GUTTER);const safeAreaBottom=Math.max(safeArea.bottom,EDGE_GUTTER);if(windowHeight<=contentHeight){return safeAreaTop;}return Math.max(safeAreaTop,safeAreaTop+roundToNearestPixel((windowHeight-safeAreaTop-safeAreaBottom-contentHeight)/2));}';
     tango['code'] = golf;
     mike = function(argFoo) { // Original name: t
-        _fun122084: for(var _fun122084_ip = 0; ; ) switch(_fun122084_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.contentHeight;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bottom;
             verify = tango.bind(golf)(entity, verify);
             entity = report;
-            if(!(!(mike <= options))) { _fun122084_ip = 148; continue _fun122084 }
+            if(!(!(mike <= options))) { _fun00002_ip = 148; continue _fun00001 }
  81:
             tango = zulu.Math;
             zulu = tango.max;

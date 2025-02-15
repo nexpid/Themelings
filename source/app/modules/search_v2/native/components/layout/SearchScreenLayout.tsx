@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: SearchFreezeContainer
-        _fun112969: for(var _fun112969_ip = 0; ; ) switch(_fun112969_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.visible;
@@ -32,10 +32,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             offset = new Array(2);
             offset[0] = yankee;
-            if(verify) { _fun112969_ip = 102; continue _fun112969 }
+            if(verify) { _fun00002_ip = 102; continue _fun00001 }
  94:
             yankee = romeo.hidden;
-            _fun112969_ip = 108; continue _fun112969;
+            _fun00002_ip = 108; continue _fun00001;
  102:
             yankee = romeo.visible;
  108:

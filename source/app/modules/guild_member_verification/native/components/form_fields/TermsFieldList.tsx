@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[0] = golf;
         golf = options.map;
         oscar = function(argFoo, argBar) {
-            _fun61720: for(var _fun61720_ip = 0; ; ) switch(_fun61720_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 verify = argFoo;
                 options = argBar;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike[0] = offset;
                 backup = 0;
                 offset = null;
-                if(!(backup === options)) { _fun61720_ip = 73; continue _fun61720 }
+                if(!(backup === options)) { _fun00002_ip = 73; continue _fun00001 }
  63:
                 backup = _closure2_slot2;
                 offset = backup.firstItem;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = 1;
                 kilo = offset - backup;
                 offset = null;
-                if(!(options === kilo)) { _fun61720_ip = 109; continue _fun61720 }
+                if(!(options === kilo)) { _fun00002_ip = 109; continue _fun00001 }
  99:
                 kilo = _closure2_slot2;
                 offset = kilo.lastItem;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = foxtrot.length;
                 foxtrot = foxtrot - backup;
                 yankee = null;
-                if(!(options !== foxtrot)) { _fun61720_ip = 251; continue _fun61720 }
+                if(!(options !== foxtrot)) { _fun00002_ip = 251; continue _fun00001 }
  219:
                 backup = _closure1_slot5;
                 foxtrot = _closure1_slot1;

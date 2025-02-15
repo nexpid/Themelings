@@ -30,57 +30,57 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot3 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: EmojiPickerCategoryIcon
-        _fun78507: for(var _fun78507_ip = 0; ; ) switch(_fun78507_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.id;
             mike = _closure1_slot2;
             mike = mike.TOP_GUILD_EMOJI;
-            if(!(mike !== zulu)) { _fun78507_ip = 681; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 681; continue _fun00001 }
  28:
             mike = _closure1_slot2;
             mike = mike.FAVORITES;
-            if(!(mike !== zulu)) { _fun78507_ip = 639; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 639; continue _fun00001 }
  45:
             mike = _closure1_slot2;
             mike = mike.RECENT;
-            if(!(mike !== zulu)) { _fun78507_ip = 597; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 597; continue _fun00001 }
  62:
             mike = _closure1_slot2;
             mike = mike.PEOPLE;
-            if(!(mike !== zulu)) { _fun78507_ip = 555; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 555; continue _fun00001 }
  79:
             mike = _closure1_slot2;
             mike = mike.NATURE;
-            if(!(mike !== zulu)) { _fun78507_ip = 513; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 513; continue _fun00001 }
  96:
             mike = _closure1_slot2;
             mike = mike.FOOD;
-            if(!(mike !== zulu)) { _fun78507_ip = 471; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 471; continue _fun00001 }
  113:
             mike = _closure1_slot2;
             mike = mike.ACTIVITY;
-            if(!(mike !== zulu)) { _fun78507_ip = 429; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 429; continue _fun00001 }
  130:
             mike = _closure1_slot2;
             mike = mike.TRAVEL;
-            if(!(mike !== zulu)) { _fun78507_ip = 387; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 387; continue _fun00001 }
  147:
             mike = _closure1_slot2;
             mike = mike.OBJECTS;
-            if(!(mike !== zulu)) { _fun78507_ip = 345; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 345; continue _fun00001 }
  164:
             mike = _closure1_slot2;
             mike = mike.SYMBOLS;
-            if(!(mike !== zulu)) { _fun78507_ip = 303; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 303; continue _fun00001 }
  181:
             mike = _closure1_slot2;
             mike = mike.FLAGS;
-            if(!(mike !== zulu)) { _fun78507_ip = 261; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 261; continue _fun00001 }
  195:
             mike = _closure1_slot2;
             mike = mike.CUSTOM;
-            if(!(mike !== zulu)) { _fun78507_ip = 219; continue _fun78507 }
+            if(!(mike !== zulu)) { _fun00002_ip = 219; continue _fun00001 }
  209:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_UPSELL;

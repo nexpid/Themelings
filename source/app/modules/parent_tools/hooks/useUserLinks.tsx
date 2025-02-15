@@ -33,12 +33,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = golf.bind(options)(verify);
         options = verify.filter;
         golf = function(argFoo) {
-            _fun95084: for(var _fun95084_ip = 0; ; ) switch(_fun95084_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun95084_ip = 29; continue _fun95084 }
+                if(!entity) { _fun00002_ip = 29; continue _fun00001 }
  12:
                 zulu = mike.link_status;
                 mike = _closure2_slot0;
@@ -77,14 +77,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = options.bind(verify)(golf);
         options = verify.map;
         golf = function(argFoo) {
-            _fun95086: for(var _fun95086_ip = 0; ; ) switch(_fun95086_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 mike = entity.user_id;
                 entity = null;
                 zulu = entity != mike;
                 entity = undefined;
-                if(!zulu) { _fun95086_ip = 23; continue _fun95086 }
+                if(!zulu) { _fun00004_ip = 23; continue _fun00003 }
  20:
                 entity = mike;
  23:
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['useUserForLinkStatus'] = tango;
     tango = function() { // Original name: useUserQRLinkUrl
-        _fun95091: for(var _fun95091_ip = 0; ; ) switch(_fun95091_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -207,11 +207,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             oscar = golf == tango;
             entity = null;
-            if(oscar) { _fun95091_ip = 131; continue _fun95091 }
+            if(oscar) { _fun00006_ip = 131; continue _fun00005 }
  107:
             oscar = golf == mike;
             entity = null;
-            if(oscar) { _fun95091_ip = 131; continue _fun95091 }
+            if(oscar) { _fun00006_ip = 131; continue _fun00005 }
  116:
             zulu = _closure1_slot6;
             mike = mike.id;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useUserQRLinkUrl'] = tango;
     tango = function() { // Original name: useHasMaxConnections
-        _fun95094: for(var _fun95094_ip = 0; ; ) switch(_fun95094_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -235,10 +235,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot10;
             entity = entity.ACTIVE;
             entity = tango.bind(report)(entity);
-            if(mike) { _fun95094_ip = 57; continue _fun95094 }
+            if(mike) { _fun00008_ip = 57; continue _fun00007 }
  51:
             mike = _closure1_slot8;
-            _fun95094_ip = 61; continue _fun95094;
+            _fun00008_ip = 61; continue _fun00007;
  57:
             mike = _closure1_slot7;
  61:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useHasMaxConnections'] = tango;
     tango = function() { // Original name: usePendingRequestCount
-        _fun95095: for(var _fun95095_ip = 0; ; ) switch(_fun95095_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == zulu;
             entity = 0;
-            if(zulu) { _fun95095_ip = 151; continue _fun95095 }
+            if(zulu) { _fun00010_ip = 151; continue _fun00009 }
  111:
             zulu = global;
             tango = zulu.Object;
@@ -293,19 +293,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(report);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun95098: for(var _fun95098_ip = 0; ; ) switch(_fun95098_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     mike = argFoo;
                     entity = null;
                     entity = entity != mike;
-                    if(!entity) { _fun95098_ip = 35; continue _fun95098 }
+                    if(!entity) { _fun00012_ip = 35; continue _fun00011 }
  12:
                     tango = mike.link_status;
                     zulu = _closure1_slot10;
                     zulu = zulu.PENDING;
                     entity = tango === zulu;
  35:
-                    if(!entity) { _fun95098_ip = 62; continue _fun95098 }
+                    if(!entity) { _fun00012_ip = 62; continue _fun00011 }
  38:
                     zulu = _closure2_slot0;
                     zulu = zulu.id;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['usePendingRequestCount'] = tango;
     tango = function() { // Original name: useAcceptedRequestsCount
-        _fun95099: for(var _fun95099_ip = 0; ; ) switch(_fun95099_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == zulu;
             entity = 0;
-            if(zulu) { _fun95099_ip = 147; continue _fun95099 }
+            if(zulu) { _fun00014_ip = 147; continue _fun00013 }
  107:
             zulu = global;
             tango = zulu.Object;
@@ -366,12 +366,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(report);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun95102: for(var _fun95102_ip = 0; ; ) switch(_fun95102_ip) {
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     mike = argFoo;
                     entity = null;
                     entity = entity != mike;
-                    if(!entity) { _fun95102_ip = 35; continue _fun95102 }
+                    if(!entity) { _fun00016_ip = 35; continue _fun00015 }
  12:
                     zulu = mike.link_status;
                     mike = _closure1_slot10;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useAcceptedRequestsCount'] = tango;
     tango = function(argFoo) { // Original name: useActivityWindowTimeStamp
-        _fun95103: for(var _fun95103_ip = 0; ; ) switch(_fun95103_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -410,12 +410,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = entity;
             entity = function() {
-                _fun95104: for(var _fun95104_ip = 0; ; ) switch(_fun95104_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
                     mike = entity == mike;
-                    if(mike) { _fun95104_ip = 35; continue _fun95104 }
+                    if(mike) { _fun00020_ip = 35; continue _fun00019 }
  16:
                     zulu = _closure1_slot4;
                     mike = zulu.getRangeStartTimestamp;
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = oscar.bind(golf)(tango, entity);
             entity = null;
             tango = entity == golf;
-            if(tango) { _fun95103_ip = 183; continue _fun95103 }
+            if(tango) { _fun00018_ip = 183; continue _fun00017 }
  99:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useActivityWindowTimeStamp'] = tango;
     mike = function(argFoo, argBar) { // Original name: useLinkTimestampText
-        _fun95106: for(var _fun95106_ip = 0; ; ) switch(_fun95106_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu.bind(report)(mike, entity);
             entity = null;
             mike = entity != golf;
-            if(!mike) { _fun95106_ip = 151; continue _fun95106 }
+            if(!mike) { _fun00022_ip = 151; continue _fun00021 }
  73:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -496,10 +496,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot10;
             golf = mike.PENDING;
             mike = argBar;
-            if(!(mike !== golf)) { _fun95106_ip = 141; continue _fun95106 }
+            if(!(mike !== golf)) { _fun00022_ip = 141; continue _fun00021 }
  135:
             mike = _closure1_slot5;
-            _fun95106_ip = 145; continue _fun95106;
+            _fun00022_ip = 145; continue _fun00021;
  141:
             mike = _closure1_slot9;
  145:

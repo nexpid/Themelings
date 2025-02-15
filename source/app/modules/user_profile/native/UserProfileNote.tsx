@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileNote.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileNote
-        _fun81933: for(var _fun81933_ip = 0; ; ) switch(_fun81933_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.userId;
@@ -75,20 +75,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.note;
             oscar = null;
             options = oscar != romeo;
-            if(!options) { _fun81933_ip = 126; continue _fun81933 }
+            if(!options) { _fun00002_ip = 126; continue _fun00001 }
  118:
             entity = '';
             options = entity !== romeo;
  126:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
-            if(options) { _fun81933_ip = 157; continue _fun81933 }
+            if(options) { _fun00002_ip = 157; continue _fun00001 }
  137:
             entity = 6;
             entity = zulu[entity];
             entity = mike.bind(tango)(entity);
             foxtrot = entity.PaperPlusIcon;
-            _fun81933_ip = 175; continue _fun81933;
+            _fun00002_ip = 175; continue _fun00001;
  157:
             entity = 5;
             entity = zulu[entity];
@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[sizing];
             mike = yankee.bind(tango)(mike);
             mike = mike.t;
-            if(entity) { _fun81933_ip = 278; continue _fun81933 }
+            if(entity) { _fun00002_ip = 278; continue _fun00001 }
  265:
             yankee = mike.PbMNh4;
             yankee = zulu.bind(golf)(yankee);
-            _fun81933_ip = 289; continue _fun81933;
+            _fun00002_ip = 289; continue _fun00001;
  278:
             mike = mike.mQKv+v;
             yankee = zulu.bind(golf)(mike);
@@ -133,24 +133,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[sizing];
             mike = golf.bind(tango)(mike);
             mike = mike.t;
-            if(options) { _fun81933_ip = 362; continue _fun81933 }
+            if(options) { _fun00002_ip = 362; continue _fun00001 }
  333:
-            if(entity) { _fun81933_ip = 349; continue _fun81933 }
+            if(entity) { _fun00002_ip = 349; continue _fun00001 }
  336:
             golf = mike.Dglxra;
             golf = zulu.bind(kilo)(golf);
-            _fun81933_ip = 360; continue _fun81933;
+            _fun00002_ip = 360; continue _fun00001;
  349:
             sizing = mike.1ZZttr;
             golf = zulu.bind(kilo)(sizing);
  360:
-            _fun81933_ip = 392; continue _fun81933;
+            _fun00002_ip = 392; continue _fun00001;
  362:
-            if(entity) { _fun81933_ip = 378; continue _fun81933 }
+            if(entity) { _fun00002_ip = 378; continue _fun00001 }
  365:
             entity = mike.sHHsOD;
             entity = zulu.bind(kilo)(entity);
-            _fun81933_ip = 389; continue _fun81933;
+            _fun00002_ip = 389; continue _fun00001;
  378:
             mike = mike.gs+qcH;
             entity = zulu.bind(kilo)(mike);
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityHint'] = golf;
             golf = oscar != romeo;
             oscar = undefined;
-            if(!golf) { _fun81933_ip = 449; continue _fun81933 }
+            if(!golf) { _fun00002_ip = 449; continue _fun00001 }
  446:
             oscar = romeo;
  449:
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = new Array(2);
             offset[0] = yankee;
             yankee = !options;
-            if(options) { _fun81933_ip = 528; continue _fun81933 }
+            if(options) { _fun00002_ip = 528; continue _fun00001 }
  517:
             backup = {};
             kilo = 0;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {'size': 'xs', 'color': 'interactive-normal'};
             offset = yankee.bind(tango)(foxtrot, offset);
             report['titleIcon'] = offset;
-            if(!options) { _fun81933_ip = 622; continue _fun81933 }
+            if(!options) { _fun00002_ip = 622; continue _fun00001 }
  569:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;

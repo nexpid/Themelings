@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/native/useUploadAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useUploadAvatar
-        _fun93253: for(var _fun93253_ip = 0; ; ) switch(_fun93253_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.isTryItOut;
             tango = undefined;
-            if(!(oscar === tango)) { _fun93253_ip = 19; continue _fun93253 }
+            if(!(oscar === tango)) { _fun00002_ip = 19; continue _fun00001 }
  17:
             oscar = false;
  19:
@@ -123,11 +123,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun93257: for(var _fun93257_ip = 0; ; ) switch(_fun93257_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun93257_ip = 304; continue _fun93257 }
+                        if(mike) { _fun00004_ip = 304; continue _fun00003 }
  10:
                         tango = _closure1_slot1;
                         report = _closure1_slot2;
@@ -148,13 +148,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  76:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun93257_ip = 301; continue _fun93257 }
+                        if(tango) { _fun00004_ip = 301; continue _fun00003 }
  85:
                         offset = null;
-                        if(!(offset != mike)) { _fun93257_ip = 298; continue _fun93257 }
+                        if(!(offset != mike)) { _fun00004_ip = 298; continue _fun00003 }
  94:
                         tango = _closure2_slot0;
-                        if(tango) { _fun93257_ip = 139; continue _fun93257 }
+                        if(tango) { _fun00004_ip = 139; continue _fun00003 }
  104:
                         golf = _closure1_slot1;
                         options = _closure1_slot2;
@@ -178,18 +178,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = new kilo[romeo](backup, foxtrot, romeo);
                         report = report instanceof Object ? report : options;
                         report = golf.bind(mike)(report);
-                        if(!(offset != report)) { _fun93257_ip = 211; continue _fun93257 }
+                        if(!(offset != report)) { _fun00004_ip = 211; continue _fun00003 }
  198:
-                        if(tango) { _fun93257_ip = 211; continue _fun93257 }
+                        if(tango) { _fun00004_ip = 211; continue _fun00003 }
  201:
                         tango = _closure2_slot3;
                         tango = tango.bind(zulu)();
-                        _fun93257_ip = 298; continue _fun93257;
+                        _fun00004_ip = 298; continue _fun00003;
  211:
                         tango = _closure2_slot0;
                         report = _closure1_slot0;
                         oscar = _closure1_slot2;
-                        if(tango) { _fun93257_ip = 275; continue _fun93257 }
+                        if(tango) { _fun00004_ip = 275; continue _fun00003 }
  226:
                         tango = 11;
                         tango = oscar[tango];
@@ -198,13 +198,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = _closure2_slot2;
                         offset = offset == tango;
                         tango = undefined;
-                        if(offset) { _fun93257_ip = 267; continue _fun93257 }
+                        if(offset) { _fun00004_ip = 267; continue _fun00003 }
  257:
                         verify = _closure2_slot2;
                         tango = verify.avatar;
  267:
                         tango = golf.bind(options)(mike, tango);
-                        _fun93257_ip = 298; continue _fun93257;
+                        _fun00004_ip = 298; continue _fun00003;
  275:
                         tango = 10;
                         tango = oscar[tango];

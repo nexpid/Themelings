@@ -28,14 +28,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/debug/serializePushNotifcationLogs.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: serializePushNotificationLogs
-        _fun87138: for(var _fun87138_ip = 0; ; ) switch(_fun87138_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             var _closure2_slot0 = mike;
             tango = zulu.length;
             mike = 0;
-            if(!(mike !== tango)) { _fun87138_ip = 242; continue _fun87138 }
+            if(!(mike !== tango)) { _fun00002_ip = 242; continue _fun00001 }
  26:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = mike != verify;
             golf = '';
             oscar = golf;
-            if(!tango) { _fun87138_ip = 140; continue _fun87138 }
+            if(!tango) { _fun00002_ip = 140; continue _fun00001 }
  116:
             tango = global;
             tango = tango.HermesInternal;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  140:
             mike = mike != options;
             report = golf;
-            if(!mike) { _fun87138_ip = 174; continue _fun87138 }
+            if(!mike) { _fun00002_ip = 174; continue _fun00001 }
  150:
             mike = global;
             mike = mike.HermesInternal;
@@ -77,17 +77,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  174:
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun87139: for(var _fun87139_ip = 0; ; ) switch(_fun87139_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = mike.silent;
                     verify = 'Displayed';
-                    if(!entity) { _fun87139_ip = 24; continue _fun87139 }
+                    if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  18:
                     verify = 'Silent';
  24:
                     entity = _closure2_slot0;
-                    if(entity) { _fun87139_ip = 76; continue _fun87139 }
+                    if(entity) { _fun00004_ip = 76; continue _fun00003 }
  34:
                     oscar = mike.title;
                     report = mike.content;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     zulu = '';
                     entity = ' - ';
                     options = tango.bind(zulu)(oscar, entity, report);
-                    _fun87139_ip = 116; continue _fun87139;
+                    _fun00004_ip = 116; continue _fun00003;
  76:
                     oscar = mike.channelId;
                     report = mike.messageId;

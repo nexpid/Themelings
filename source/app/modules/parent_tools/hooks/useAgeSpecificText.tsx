@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/parent_tools/hooks/useAgeSpecificText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) {
-        _fun95282: for(var _fun95282_ip = 0; ; ) switch(_fun95282_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = argBar;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = undefined;
             zulu = report.bind(tango)(zulu);
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun95282_ip = 40; continue _fun95282 }
+            if(!zulu) { _fun00002_ip = 40; continue _fun00001 }
  37:
             entity = mike;
  40:

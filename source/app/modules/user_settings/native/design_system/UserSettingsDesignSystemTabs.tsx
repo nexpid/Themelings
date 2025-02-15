@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/design_system/UserSettingsDesignSystemTabs.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsDesignSystemTabs
-        _fun99244: for(var _fun99244_ip = 0; ; ) switch(_fun99244_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot4;
             entity = oscar.useState;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike[1] = oscar;
                 mike[2] = report;
                 entity = function() {
-                    _fun99246: for(var _fun99246_ip = 0; ; ) switch(_fun99246_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = new Array(0);
                         mike = _closure3_slot0;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = 'heading-xxl/bold';
                         tango = 100;
                         zulu = 'Item ';
-                        if(!mike) { _fun99246_ip = 279; continue _fun99246 }
+                        if(!mike) { _fun00004_ip = 279; continue _fun00003 }
  57:
                         backup = entity.push;
                         mike = {};
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike['label'] = kilo;
                         sizing = _closure3_slot1;
                         kilo = undefined;
-                        if(!sizing) { _fun99246_ip = 134; continue _fun99246 }
+                        if(!sizing) { _fun00004_ip = 134; continue _fun00003 }
  97:
                         result = offset.Math;
                         output = result.floor;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = backup.bind(entity)(mike);
                         romeo = romeo + 1;
                         mike = _closure3_slot0;
-                        if(romeo < mike) { _fun99246_ip = 57; continue _fun99246 }
+                        if(romeo < mike) { _fun00004_ip = 57; continue _fun00003 }
  279:
                         return entity;
                     }
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = backup;
             backup = echo;
-            if(!backup) { _fun99244_ip = 479; continue _fun99244 }
+            if(!backup) { _fun00002_ip = 479; continue _fun00001 }
  439:
             update = _closure1_slot9;
             output = _closure1_slot1;

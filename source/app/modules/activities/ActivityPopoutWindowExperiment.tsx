@@ -51,7 +51,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     tango = function() { // Original name: getIsActivityPopoutOverlayEnabled
-        _fun106652: for(var _fun106652_ip = 0; ; ) switch(_fun106652_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.enableOverlayInActivityPopoutWindow;
-            if(!entity) { _fun106652_ip = 87; continue _fun106652 }
+            if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  84:
             entity = mike;
  87:
@@ -79,7 +79,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['getIsActivityPopoutOverlayEnabled'] = tango;
     tango = function() { // Original name: useIsActivityPopoutOverlayEnabled
-        _fun106653: for(var _fun106653_ip = 0; ; ) switch(_fun106653_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.enableOverlayInActivityPopoutWindow;
-            if(!entity) { _fun106653_ip = 87; continue _fun106653 }
+            if(!entity) { _fun00004_ip = 87; continue _fun00003 }
  84:
             entity = mike;
  87:

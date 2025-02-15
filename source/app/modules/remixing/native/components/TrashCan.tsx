@@ -68,14 +68,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = romeo.bind(tango)(mike);
         zulu = golf.useAnimatedStyle;
         mike = function() { // Original name: E
-            _fun84299: for(var _fun84299_ip = 0; ; ) switch(_fun84299_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {'position': 'absolute', 'top': null, 'display': 'flex'};
                 zulu = _closure2_slot2;
                 entity['top'] = zulu;
                 zulu = _closure2_slot0;
                 mike = 0;
-                if(!zulu) { _fun84299_ip = 39; continue _fun84299 }
+                if(!zulu) { _fun00002_ip = 39; continue _fun00001 }
  36:
                 mike = 1;
  39:
@@ -130,14 +130,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = romeo.bind(tango)(mike);
         zulu = options.useAnimatedStyle;
         mike = function() { // Original name: n
-            _fun84300: for(var _fun84300_ip = 0; ; ) switch(_fun84300_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = {};
                 zulu = _closure2_slot1;
                 mike = zulu.get;
                 zulu = mike.bind(zulu)();
                 mike = 'none';
-                if(!zulu) { _fun84300_ip = 29; continue _fun84300 }
+                if(!zulu) { _fun00004_ip = 29; continue _fun00003 }
  25:
                 mike = 'flex';
  29:
@@ -237,14 +237,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = romeo.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: R
-            _fun84301: for(var _fun84301_ip = 0; ; ) switch(_fun84301_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = {'display': null, 'backgroundColor': 'rgba(100, 100, 100, 0.5)', 'position': 'absolute'};
                 zulu = _closure2_slot1;
                 mike = zulu.get;
                 zulu = mike.bind(zulu)();
                 mike = 'flex';
-                if(!zulu) { _fun84301_ip = 41; continue _fun84301 }
+                if(!zulu) { _fun00006_ip = 41; continue _fun00005 }
  37:
                 mike = 'none';
  41:

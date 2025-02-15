@@ -68,13 +68,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot4;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun122841: for(var _fun122841_ip = 0; ; ) switch(_fun122841_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
                     zulu = _closure2_slot0;
                     mike = null;
                     entity = report;
-                    if(!(mike != zulu)) { _fun122841_ip = 105; continue _fun122841 }
+                    if(!(mike != zulu)) { _fun00002_ip = 105; continue _fun00001 }
  19:
                     zulu = _closure2_slot0;
                     mike = report.captchaServeVolume;
@@ -86,12 +86,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = copyDataProperties(offset, verify);
                     oscar = _closure2_slot0;
                     golf = 1;
-                    if(mike) { _fun122841_ip = 75; continue _fun122841 }
+                    if(mike) { _fun00002_ip = 75; continue _fun00001 }
  60:
                     tango[oscar] = golf;
                     zulu['captchaServeVolume'] = tango;
                     mike = zulu;
-                    _fun122841_ip = 102; continue _fun122841;
+                    _fun00002_ip = 102; continue _fun00001;
  75:
                     report = report.captchaServeVolume;
                     report = report[oscar];
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['incrementCaptchaServeVolume'] = tango;
     mike = function() { // Original name: flushCaptchaServeVolume
-        _fun122842: for(var _fun122842_ip = 0; ; ) switch(_fun122842_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             foxtrot = global;
             tango = foxtrot.Object;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = 'user_flow:';
             oscar = true;
             report = 0;
-            if(!zulu) { _fun122842_ip = 207; continue _fun122842 }
+            if(!zulu) { _fun00004_ip = 207; continue _fun00003 }
  83:
             backup = romeo[report];
             zulu = _closure1_slot3;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = backup.bind(kilo)(zulu, sizing, oscar);
             report = report + 1;
             zulu = romeo.length;
-            if(report < zulu) { _fun122842_ip = 83; continue _fun122842 }
+            if(report < zulu) { _fun00004_ip = 83; continue _fun00003 }
  207:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;

@@ -6,15 +6,15 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo, argBar) { // Original name: useInputClearButtonConfig
-        _fun63666: for(var _fun63666_ip = 0; ; ) switch(_fun63666_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             entity = argFoo;
             entity = entity.isClearable;
-            if(!entity) { _fun63666_ip = 24; continue _fun63666 }
+            if(!entity) { _fun00002_ip = 24; continue _fun00001 }
  15:
             entity = zulu.hasValue;
-            if(entity) { _fun63666_ip = 28; continue _fun63666 }
+            if(entity) { _fun00002_ip = 28; continue _fun00001 }
  24:
             entity = undefined;
             return entity;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = 'design/components/Input/native/useInputClearButton.native.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) { // Original name: useInputClearButton
-        _fun63667: for(var _fun63667_ip = 0; ; ) switch(_fun63667_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = _closure1_slot4;
             report = undefined;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = tango.bind(report)(zulu, entity);
             entity = null;
             zulu = entity != oscar;
-            if(!zulu) { _fun63667_ip = 73; continue _fun63667 }
+            if(!zulu) { _fun00004_ip = 73; continue _fun00003 }
  30:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;

@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = offset.bind(yankee)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: S
-            _fun122314: for(var _fun122314_ip = 0; ; ) switch(_fun122314_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 zulu = {};
@@ -90,13 +90,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = _closure2_slot2;
                 report = verify.get;
                 report = report.bind(verify)();
-                if(report) { _fun122314_ip = 177; continue _fun122314 }
+                if(report) { _fun00002_ip = 177; continue _fun00001 }
  110:
                 verify = _closure2_slot0;
                 report = verify.get;
                 report = report.bind(verify)();
                 report = report.hidden;
-                if(!report) { _fun122314_ip = 177; continue _fun122314 }
+                if(!report) { _fun00002_ip = 177; continue _fun00001 }
  132:
                 verify = _closure2_slot0;
                 report = verify.get;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = offset.get;
                 report = report.bind(offset)();
                 report = verify + report;
-                _fun122314_ip = 195; continue _fun122314;
+                _fun00002_ip = 195; continue _fun00001;
  177:
                 verify = _closure2_slot0;
                 options = verify.get;

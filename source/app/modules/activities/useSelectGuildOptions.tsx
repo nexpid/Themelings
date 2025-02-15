@@ -43,11 +43,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/useSelectGuildOptions.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: getActivityGuildSuggestion
-        _fun92114: for(var _fun92114_ip = 0; ; ) switch(_fun92114_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun92114_ip = 21; continue _fun92114 }
+            if(!(mike === entity)) { _fun00002_ip = 21; continue _fun00001 }
  9:
             zulu = {};
             tango = false;
@@ -62,20 +62,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.getChannel;
             mike = mike.bind(report)(oscar);
             report = null;
-            if(!(report != mike)) { _fun92114_ip = 73; continue _fun92114 }
+            if(!(report != mike)) { _fun00002_ip = 73; continue _fun00001 }
  64:
             oscar = mike.guild_id;
-            if(!(report == oscar)) { _fun92114_ip = 125; continue _fun92114 }
+            if(!(report == oscar)) { _fun00002_ip = 125; continue _fun00001 }
  73:
-            if(!(report != mike)) { _fun92114_ip = 82; continue _fun92114 }
+            if(!(report != mike)) { _fun00002_ip = 82; continue _fun00001 }
  77:
             entity = undefined;
-            if(zulu) { _fun92114_ip = 123; continue _fun92114 }
+            if(zulu) { _fun00002_ip = 123; continue _fun00001 }
  82:
             oscar = _closure1_slot5;
             zulu = oscar.getLastSelectedGuildId;
             zulu = zulu.bind(oscar)();
-            if(!(report == zulu)) { _fun92114_ip = 120; continue _fun92114 }
+            if(!(report == zulu)) { _fun00002_ip = 120; continue _fun00001 }
  100:
             report = _closure1_slot6;
             tango = report.getFlattenedGuildIds;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  120:
             entity = zulu;
  123:
-            _fun92114_ip = 130; continue _fun92114;
+            _fun00002_ip = 130; continue _fun00001;
  125:
             entity = mike.guild_id;
  130:

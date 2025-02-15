@@ -49,7 +49,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         entity = _closure1_slot4;
         zulu[2] = entity;
         mike = function() {
-            _fun103156: for(var _fun103156_ip = 0; ; ) switch(_fun103156_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot2;
                 mike = zulu.getId;
@@ -63,7 +63,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 zulu = entity != mike;
                 entity = undefined;
-                if(!zulu) { _fun103156_ip = 61; continue _fun103156 }
+                if(!zulu) { _fun00002_ip = 61; continue _fun00001 }
  58:
                 entity = mike;
  61:

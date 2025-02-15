@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo) {
-        _fun97241: for(var _fun97241_ip = 0; ; ) switch(_fun97241_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = report.internal;
             offset = yankee.resolveSemanticColor;
             verify = _closure1_slot5;
-            if(zulu) { _fun97241_ip = 116; continue _fun97241 }
+            if(zulu) { _fun00002_ip = 116; continue _fun00001 }
  82:
             foxtrot = verify.LIGHT;
             report = options[golf];
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.colors;
             report = report.INTERACTIVE_NORMAL;
             report = offset.bind(yankee)(foxtrot, report);
-            _fun97241_ip = 148; continue _fun97241;
+            _fun00002_ip = 148; continue _fun00001;
  116:
             verify = verify.DARKER;
             options = options[golf];
@@ -135,10 +135,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango[golf];
             tango = report.bind(oscar)(tango);
             tango = tango.colors;
-            if(zulu) { _fun97241_ip = 200; continue _fun97241 }
+            if(zulu) { _fun00002_ip = 200; continue _fun00001 }
  192:
             zulu = tango.BLACK;
-            _fun97241_ip = 206; continue _fun97241;
+            _fun00002_ip = 206; continue _fun00001;
  200:
             zulu = tango.WHITE;
  206:
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango instanceof Object ? tango : golf;
     var _closure1_slot11 = tango;
     tango = function(argFoo) { // Original name: GradientThemeBackground
-        _fun97242: for(var _fun97242_ip = 0; ; ) switch(_fun97242_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.item;
@@ -204,11 +204,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = !golf;
-            if(!oscar) { _fun97242_ip = 120; continue _fun97242 }
+            if(!oscar) { _fun00004_ip = 120; continue _fun00003 }
  117:
             oscar = verify;
  120:
-            if(!oscar) { _fun97242_ip = 142; continue _fun97242 }
+            if(!oscar) { _fun00004_ip = 142; continue _fun00003 }
  123:
             offset = {};
             backup = 0.5;
@@ -235,10 +235,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['gradientOverride'] = foxtrot;
             foxtrot = true;
             report['mix'] = foxtrot;
-            if(yankee) { _fun97242_ip = 231; continue _fun97242 }
+            if(yankee) { _fun00004_ip = 231; continue _fun00003 }
  225:
             yankee = _closure1_slot11;
-            _fun97242_ip = 235; continue _fun97242;
+            _fun00004_ip = 235; continue _fun00003;
  231:
             yankee = _closure1_slot10;
  235:
@@ -247,10 +247,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!verify) { _fun97242_ip = 398; continue _fun97242 }
+            if(!verify) { _fun00004_ip = 398; continue _fun00003 }
  262:
             offset = _closure1_slot6;
-            if(golf) { _fun97242_ip = 325; continue _fun97242 }
+            if(golf) { _fun00004_ip = 325; continue _fun00003 }
  269:
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = romeo.lock;
             golf['style'] = yankee;
             golf = offset.bind(tango)(verify, golf);
-            _fun97242_ip = 395; continue _fun97242;
+            _fun00004_ip = 395; continue _fun00003;
  325:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = tango;
     tango = function(argFoo) { // Original name: DefaultThemeBackground
-        _fun97243: for(var _fun97243_ip = 0; ; ) switch(_fun97243_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.item;
@@ -316,14 +316,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(oscar)(mike, entity);
             mike = report.theme;
             golf = 'system';
-            if(!(golf !== mike)) { _fun97243_ip = 87; continue _fun97243 }
+            if(!(golf !== mike)) { _fun00006_ip = 87; continue _fun00005 }
  79:
             oscar = report.theme;
-            _fun97243_ip = 114; continue _fun97243;
+            _fun00006_ip = 114; continue _fun00005;
  87:
             mike = _closure1_slot5;
             mike = mike.DARK;
-            if(!(entity === mike)) { _fun97243_ip = 111; continue _fun97243 }
+            if(!(entity === mike)) { _fun00006_ip = 111; continue _fun00005 }
  101:
             mike = _closure1_slot5;
             entity = mike.DARKER;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = report.theme;
             report = null;
-            if(!(golf === oscar)) { _fun97243_ip = 402; continue _fun97243 }
+            if(!(golf === oscar)) { _fun00006_ip = 402; continue _fun00005 }
  331:
             options = _closure1_slot6;
             golf = _closure1_slot3;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceThemeSelectorItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ThemeSelectorItem
-        _fun97245: for(var _fun97245_ip = 0; ; ) switch(_fun97245_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             golf = entity.themePreset;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.bind(tango)();
             mike = golf.colors;
             entity = null;
-            if(!(entity != mike)) { _fun97245_ip = 83; continue _fun97245 }
+            if(!(entity != mike)) { _fun00008_ip = 83; continue _fun00007 }
  56:
             zulu = _closure1_slot6;
             mike = _closure1_slot12;
@@ -425,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isPreview'] = oscar;
             entity['item'] = golf;
             romeo = zulu.bind(tango)(mike, entity);
-            _fun97245_ip = 103; continue _fun97245;
+            _fun00008_ip = 103; continue _fun00007;
  83:
             zulu = _closure1_slot6;
             mike = _closure1_slot13;
@@ -462,11 +462,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['style'] = options;
             options = new Array(2);
             options[0] = romeo;
-            if(!verify) { _fun97245_ip = 232; continue _fun97245 }
+            if(!verify) { _fun00008_ip = 232; continue _fun00007 }
  229:
             verify = !yankee;
  232:
-            if(!verify) { _fun97245_ip = 261; continue _fun97245 }
+            if(!verify) { _fun00008_ip = 261; continue _fun00007 }
  235:
             romeo = _closure1_slot6;
             yankee = _closure1_slot3;

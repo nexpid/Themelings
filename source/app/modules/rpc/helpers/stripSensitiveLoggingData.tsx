@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/stripSensitiveLoggingData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: stripSensitiveLoggingData
-        _fun74131: for(var _fun74131_ip = 0; ; ) switch(_fun74131_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = {};
             options = argFoo;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = 'object';
             entity = typeof entity;
             entity = mike === entity;
-            if(!entity) { _fun74131_ip = 49; continue _fun74131 }
+            if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  32:
             zulu = report.cmd;
             tango = 'string';
@@ -42,22 +42,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango === zulu;
  49:
             tango = report;
-            if(!entity) { _fun74131_ip = 163; continue _fun74131 }
+            if(!entity) { _fun00002_ip = 163; continue _fun00001 }
  55:
             zulu = report.cmd;
             oscar = _closure1_slot0;
             oscar = oscar.AUTHENTICATE;
-            if(!(oscar !== zulu)) { _fun74131_ip = 106; continue _fun74131 }
+            if(!(oscar !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
  78:
             entity = _closure1_slot0;
             entity = entity.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(entity !== zulu)) { _fun74131_ip = 106; continue _fun74131 }
+            if(!(entity !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
  92:
             entity = {};
             verify = entity;
             options = report;
             zulu = copyDataProperties(verify, options);
-            _fun74131_ip = 160; continue _fun74131;
+            _fun00002_ip = 160; continue _fun00001;
  106:
             zulu = {};
             verify = zulu;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango.data;
             entity = typeof entity;
             mike = mike === entity;
-            if(!mike) { _fun74131_ip = 195; continue _fun74131 }
+            if(!mike) { _fun00002_ip = 195; continue _fun00001 }
  178:
             entity = tango.cmd;
             zulu = 'string';
@@ -87,22 +87,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu === entity;
  195:
             entity = tango;
-            if(!mike) { _fun74131_ip = 308; continue _fun74131 }
+            if(!mike) { _fun00002_ip = 308; continue _fun00001 }
  201:
             zulu = tango.cmd;
             report = _closure1_slot0;
             report = report.AUTHENTICATE;
-            if(!(report !== zulu)) { _fun74131_ip = 252; continue _fun74131 }
+            if(!(report !== zulu)) { _fun00002_ip = 252; continue _fun00001 }
  224:
             mike = _closure1_slot0;
             mike = mike.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(mike !== zulu)) { _fun74131_ip = 252; continue _fun74131 }
+            if(!(mike !== zulu)) { _fun00002_ip = 252; continue _fun00001 }
  238:
             mike = {};
             verify = mike;
             options = tango;
             zulu = copyDataProperties(verify, options);
-            _fun74131_ip = 305; continue _fun74131;
+            _fun00002_ip = 305; continue _fun00001;
  252:
             zulu = {};
             verify = zulu;

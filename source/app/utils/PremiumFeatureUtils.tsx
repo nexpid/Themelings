@@ -6,24 +6,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getUserMaxFileSize
-        _fun78331: for(var _fun78331_ip = 0; ; ) switch(_fun78331_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = null;
-            if(!(tango != zulu)) { _fun78331_ip = 127; continue _fun78331 }
+            if(!(tango != zulu)) { _fun00002_ip = 127; continue _fun00001 }
  9:
             report = _closure1_slot2;
             entity = report.getPremiumTypeOverride;
             report = entity.bind(report)();
             entity = zulu.isStaff;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun78331_ip = 47; continue _fun78331 }
+            if(!entity) { _fun00002_ip = 47; continue _fun00001 }
  39:
             entity = _closure1_slot6;
-            if(!(report !== entity)) { _fun78331_ip = 121; continue _fun78331 }
+            if(!(report !== entity)) { _fun00002_ip = 121; continue _fun00001 }
  47:
             entity = zulu.premiumType;
-            if(!(tango != entity)) { _fun78331_ip = 93; continue _fun78331 }
+            if(!(tango != entity)) { _fun00002_ip = 93; continue _fun00001 }
  57:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -33,17 +33,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(entity)(tango);
             entity = tango.isPremium;
             entity = entity.bind(tango)(zulu);
-            if(entity) { _fun78331_ip = 99; continue _fun78331 }
+            if(entity) { _fun00002_ip = 99; continue _fun00001 }
  93:
             entity = _closure1_slot3;
-            _fun78331_ip = 119; continue _fun78331;
+            _fun00002_ip = 119; continue _fun00001;
  99:
             tango = _closure1_slot5;
             zulu = zulu.premiumType;
             zulu = tango[zulu];
             entity = zulu.fileSize;
  119:
-            _fun78331_ip = 125; continue _fun78331;
+            _fun00002_ip = 125; continue _fun00001;
  121:
             entity = _closure1_slot4;
  125:

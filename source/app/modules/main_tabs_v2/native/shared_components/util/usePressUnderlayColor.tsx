@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/shared_components/util/usePressUnderlayColor.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePressUnderlayColor
-        _fun113483: for(var _fun113483_ip = 0; ; ) switch(_fun113483_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             options = _closure1_slot1;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             entity = zulu == oscar;
             report = undefined;
-            if(entity) { _fun113483_ip = 115; continue _fun113483 }
+            if(entity) { _fun00002_ip = 115; continue _fun00001 }
  93:
             offset = oscar.slice;
             entity = oscar.length;
@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = offset.bind(oscar)(entity, verify);
  115:
             entity = options;
-            if(!(zulu != report)) { _fun113483_ip = 193; continue _fun113483 }
+            if(!(zulu != report)) { _fun00002_ip = 193; continue _fun00001 }
  122:
             zulu = _closure1_slot3;
             entity = options;
-            if(!(oscar !== zulu)) { _fun113483_ip = 193; continue _fun113483 }
+            if(!(oscar !== zulu)) { _fun00002_ip = 193; continue _fun00001 }
  133:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.hexWithOpacity;
             mike = 0.08;
             oscar = 'dark';
-            if(!(oscar === golf)) { _fun113483_ip = 187; continue _fun113483 }
+            if(!(oscar === golf)) { _fun00002_ip = 187; continue _fun00001 }
  177:
             mike = 0.12;
  187:

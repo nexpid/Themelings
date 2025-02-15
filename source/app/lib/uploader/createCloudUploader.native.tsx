@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'lib/uploader/createCloudUploader.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createCloudUploader
-        _fun117903: for(var _fun117903_ip = 0; ; ) switch(_fun117903_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = arguments[1];
             tango = undefined;
-            if(!(oscar === tango)) { _fun117903_ip = 15; continue _fun117903 }
+            if(!(oscar === tango)) { _fun00002_ip = 15; continue _fun00001 }
  9:
             oscar = 'POST';
  15:
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             mike = mike != entity;
             tango = '';
-            if(!mike) { _fun117903_ip = 68; continue _fun117903 }
+            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
  65:
             tango = entity;
  68:

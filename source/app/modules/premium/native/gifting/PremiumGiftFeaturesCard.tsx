@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo) {
-        _fun87797: for(var _fun87797_ip = 0; ; ) switch(_fun87797_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = {};
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['featureText'] = mike;
             mike = {'position': 'absolute', 'top': 22, 'right': null, 'height': null, 'zIndex': 2};
             zulu = 10;
-            if(!tango) { _fun87797_ip = 578; continue _fun87797 }
+            if(!tango) { _fun00002_ip = 578; continue _fun00001 }
  575:
             zulu = 20;
  578:
             mike['right'] = zulu;
             zulu = 64;
-            if(!tango) { _fun87797_ip = 593; continue _fun87797 }
+            if(!tango) { _fun00002_ip = 593; continue _fun00001 }
  590:
             zulu = 80;
  593:
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['backgroundColor'] = zulu;
             zulu = 33;
             oscar = zulu;
-            if(!tango) { _fun87797_ip = 643; continue _fun87797 }
+            if(!tango) { _fun00002_ip = 643; continue _fun00001 }
  640:
             oscar = 41;
  643:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.colors;
             report = report.BUTTON_OUTLINE_POSITIVE_BORDER;
             mike['backgroundColor'] = report;
-            if(!tango) { _fun87797_ip = 704; continue _fun87797 }
+            if(!tango) { _fun00002_ip = 704; continue _fun00001 }
  701:
             zulu = 41;
  704:
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: PremiumGiftFeaturesCard
-        _fun87798: for(var _fun87798_ip = 0; ; ) switch(_fun87798_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             kilo = tango.premiumType;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             control = entity.bind(tango)();
             zulu = result != output;
-            if(!zulu) { _fun87798_ip = 108; continue _fun87798 }
+            if(!zulu) { _fun00004_ip = 108; continue _fun00003 }
  96:
             oscar = output.length;
             entity = 1;
@@ -285,11 +285,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar[entity];
             entity = zulu.bind(tango)(entity);
             offset = entity.bind(tango)(kilo);
-            if(!offset) { _fun87798_ip = 215; continue _fun87798 }
+            if(!offset) { _fun00004_ip = 215; continue _fun00003 }
  211:
             offset = result != output;
  215:
-            if(!offset) { _fun87798_ip = 227; continue _fun87798 }
+            if(!offset) { _fun00004_ip = 227; continue _fun00003 }
  218:
             entity = output.length;
             offset = entity > mike;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = options;
             oscar[1] = golf;
             golf = offset;
-            if(!offset) { _fun87798_ip = 288; continue _fun87798 }
+            if(!offset) { _fun00004_ip = 288; continue _fun00003 }
  282:
             golf = yankee.promotional;
  288:
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = entity;
             context = report;
             report = copyDataProperties(papa, context);
-            if(offset) { _fun87798_ip = 351; continue _fun87798 }
+            if(offset) { _fun00004_ip = 351; continue _fun00003 }
  309:
             golf = _closure1_slot7;
             oscar = _closure1_slot1;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             report['premiumType'] = kilo;
             report = golf.bind(tango)(oscar, report);
-            _fun87798_ip = 699; continue _fun87798;
+            _fun00004_ip = 699; continue _fun00003;
  351:
             options = _closure1_slot9;
             golf = _closure1_slot8;
@@ -345,17 +345,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[0] = sizing;
             echo = result == control;
             sizing = undefined;
-            if(echo) { _fun87798_ip = 436; continue _fun87798 }
+            if(echo) { _fun00004_ip = 436; continue _fun00003 }
  415:
             echo = control.planSelection;
             update = result == echo;
             sizing = undefined;
-            if(update) { _fun87798_ip = 436; continue _fun87798 }
+            if(update) { _fun00004_ip = 436; continue _fun00003 }
  430:
             sizing = echo.getBackgroundImageUrl;
  436:
             sizing = result != sizing;
-            if(!sizing) { _fun87798_ip = 521; continue _fun87798 }
+            if(!sizing) { _fun00004_ip = 521; continue _fun00003 }
  443:
             update = _closure1_slot7;
             echo = _closure1_slot1;
@@ -387,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['claimableRewards'] = output;
             source = output.length;
             update = 1;
-            if(!(update !== source)) { _fun87798_ip = 602; continue _fun87798 }
+            if(!(update !== source)) { _fun00004_ip = 602; continue _fun00003 }
  568:
             source = _closure1_slot0;
             control = _closure1_slot2;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = source.bind(tango)(update);
             update = update.AvatarSizes;
             update = update.XLARGE;
-            _fun87798_ip = 634; continue _fun87798;
+            _fun00004_ip = 634; continue _fun00003;
  602:
             control = _closure1_slot0;
             config = _closure1_slot2;
@@ -433,14 +433,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = sizing;
             sizing = offset;
-            if(!offset) { _fun87798_ip = 782; continue _fun87798 }
+            if(!offset) { _fun00004_ip = 782; continue _fun00003 }
  753:
             result = output.length;
             output = 1;
-            if(!(output !== result)) { _fun87798_ip = 773; continue _fun87798 }
+            if(!(output !== result)) { _fun00004_ip = 773; continue _fun00003 }
  765:
             output = yankee.promotionalLogo;
-            _fun87798_ip = 779; continue _fun87798;
+            _fun00004_ip = 779; continue _fun00003;
  773:
             output = yankee.promotionalLogoSingleLine;
  779:
@@ -521,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = yankee.button;
             verify = new Array(2);
             verify[0] = foxtrot;
-            if(!offset) { _fun87798_ip = 1154; continue _fun87798 }
+            if(!offset) { _fun00004_ip = 1154; continue _fun00003 }
  1148:
             offset = yankee.promotionalButton;
  1154:
@@ -539,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['variant'] = foxtrot;
             foxtrot = _closure1_slot4;
             foxtrot = foxtrot.TIER_0;
-            if(!(kilo !== foxtrot)) { _fun87798_ip = 1272; continue _fun87798 }
+            if(!(kilo !== foxtrot)) { _fun00004_ip = 1272; continue _fun00003 }
  1218:
             output = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -552,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.Ve9Ge3;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun87798_ip = 1324; continue _fun87798;
+            _fun00004_ip = 1324; continue _fun00003;
  1272:
             output = _closure1_slot0;
             backup = _closure1_slot2;

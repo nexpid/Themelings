@@ -26,23 +26,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/markup/StaticRouteRendering.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun61889: for(var _fun61889_ip = 0; ; ) switch(_fun61889_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = 'home';
-            if(!(entity !== mike)) { _fun61889_ip = 250; continue _fun61889 }
+            if(!(entity !== mike)) { _fun00002_ip = 250; continue _fun00001 }
  14:
             entity = 'guide';
-            if(!(entity !== mike)) { _fun61889_ip = 250; continue _fun61889 }
+            if(!(entity !== mike)) { _fun00002_ip = 250; continue _fun00001 }
  27:
             entity = 'browse';
-            if(!(entity !== mike)) { _fun61889_ip = 188; continue _fun61889 }
+            if(!(entity !== mike)) { _fun00002_ip = 188; continue _fun00001 }
  40:
             entity = 'customize';
-            if(!(entity !== mike)) { _fun61889_ip = 126; continue _fun61889 }
+            if(!(entity !== mike)) { _fun00002_ip = 126; continue _fun00001 }
  50:
             entity = 'linked-roles';
-            if(!(entity !== mike)) { _fun61889_ip = 64; continue _fun61889 }
+            if(!(entity !== mike)) { _fun00002_ip = 64; continue _fun00001 }
  60:
             entity = null;
             return entity;
@@ -110,18 +110,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['staticRouteToTranslation'] = tango;
     mike = function(argFoo, argBar, argBaz) {
-        _fun61890: for(var _fun61890_ip = 0; ; ) switch(_fun61890_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argBaz;
             mike = 'linked-roles';
             entity = argFoo;
-            if(!(mike !== entity)) { _fun61890_ip = 20; continue _fun61890 }
+            if(!(mike !== entity)) { _fun00004_ip = 20; continue _fun00003 }
  16:
             entity = null;
             return entity;
  20:
             entity = null;
-            if(!(entity != report)) { _fun61890_ip = 91; continue _fun61890 }
+            if(!(entity != report)) { _fun00004_ip = 91; continue _fun00003 }
  26:
             tango = _closure1_slot2;
             zulu = tango.getRole;
@@ -129,17 +129,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(report, mike);
             tango = entity == zulu;
             mike = null;
-            if(tango) { _fun61890_ip = 89; continue _fun61890 }
+            if(tango) { _fun00004_ip = 89; continue _fun00003 }
  57:
             report = zulu.tags;
             oscar = entity == report;
             tango = undefined;
-            if(oscar) { _fun61890_ip = 78; continue _fun61890 }
+            if(oscar) { _fun00004_ip = 78; continue _fun00003 }
  72:
             tango = report.guild_connections;
  78:
             mike = null;
-            if(!(mike === tango)) { _fun61890_ip = 89; continue _fun61890 }
+            if(!(mike === tango)) { _fun00004_ip = 89; continue _fun00003 }
  84:
             mike = zulu.name;
  89:

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/interaction/InteractionData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InteractionData
-        _fun71711: for(var _fun71711_ip = 0; ; ) switch(_fun71711_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.message;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo.interaction;
             oscar = null;
             oscar = oscar != options;
-            if(!oscar) { _fun71711_ip = 201; continue _fun71711 }
+            if(!oscar) { _fun00002_ip = 201; continue _fun00001 }
  154:
             foxtrot = _closure1_slot4;
             verify = _closure1_slot1;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = yankee.length;
             oscar = 0;
             oscar = options > oscar;
-            if(!oscar) { _fun71711_ip = 265; continue _fun71711 }
+            if(!oscar) { _fun00002_ip = 265; continue _fun00001 }
  219:
             verify = _closure1_slot4;
             options = _closure1_slot1;

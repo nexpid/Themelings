@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/mfa_modal_flow/TwoFASetupScan.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TwoFASetupScan
-        _fun94559: for(var _fun94559_ip = 0; ; ) switch(_fun94559_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             source = mike.totpSecret;
@@ -212,11 +212,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[result];
             backup = output.bind(tango)(backup);
             backup = backup.t;
-            if(foxtrot) { _fun94559_ip = 600; continue _fun94559 }
+            if(foxtrot) { _fun00002_ip = 600; continue _fun00001 }
  587:
             foxtrot = backup.OpuAlJ;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun94559_ip = 611; continue _fun94559;
+            _fun00002_ip = 611; continue _fun00001;
  600:
             backup = backup.mGZ66O;
             foxtrot = kilo.bind(sizing)(backup);

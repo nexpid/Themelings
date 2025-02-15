@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/inappropriate_conversation/native/components/TakeActionScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TakeActionButtons
-        _fun123338: for(var _fun123338_ip = 0; ; ) switch(_fun123338_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             control = entity.senderId;
@@ -268,18 +268,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun123343: for(var _fun123343_ip = 0; ; ) switch(_fun123343_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun123343_ip = 216; continue _fun123343 }
+                        if(zulu) { _fun00004_ip = 216; continue _fun00003 }
  12:
                         golf = _closure1_slot10;
                         oscar = golf.getUser;
                         report = _closure2_slot0;
                         oscar = oscar.bind(golf)(report);
                         report = null;
-                        if(!(report != oscar)) { _fun123343_ip = 208; continue _fun123343 }
+                        if(!(report != oscar)) { _fun00004_ip = 208; continue _fun00003 }
  46:
                         golf = _closure2_slot6;
                         report = undefined;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  114:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun123343_ip = 213; continue _fun123343 }
+                        if(oscar) { _fun00004_ip = 213; continue _fun00003 }
  120:
                         golf = _closure2_slot6;
                         oscar = false;
@@ -432,18 +432,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[kilo];
             backup = source.bind(tango)(backup);
             source = backup.t;
-            if(update) { _fun123338_ip = 535; continue _fun123338 }
+            if(update) { _fun00002_ip = 535; continue _fun00001 }
  522:
             backup = source.VTIBaG;
             backup = control.bind(vacuum)(backup);
-            _fun123338_ip = 546; continue _fun123338;
+            _fun00002_ip = 546; continue _fun00001;
  535:
             source = source.Hro409;
             backup = control.bind(vacuum)(source);
  546:
             report['text'] = backup;
             backup = true;
-            if(!update) { _fun123338_ip = 560; continue _fun123338 }
+            if(!update) { _fun00002_ip = 560; continue _fun00001 }
  557:
             foxtrot = result;
  560:
@@ -474,11 +474,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output[kilo];
             output = source.bind(tango)(output);
             output = output.t;
-            if(sizing) { _fun123338_ip = 705; continue _fun123338 }
+            if(sizing) { _fun00002_ip = 705; continue _fun00001 }
  692:
             sizing = output.7fHyEx;
             sizing = result.bind(update)(sizing);
-            _fun123338_ip = 716; continue _fun123338;
+            _fun00002_ip = 716; continue _fun00001;
  705:
             output = output.QvwOJy;
             sizing = result.bind(update)(output);
@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['onPress'] = backup;
             verify = foxtrot.bind(tango)(yankee, verify);
             report[1] = verify;
-            if(options) { _fun123338_ip = 1186; continue _fun123338 }
+            if(options) { _fun00002_ip = 1186; continue _fun00001 }
  752:
             verify = _closure1_slot18;
             options = _closure1_slot8;
@@ -520,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result[kilo];
             sizing = source.bind(tango)(sizing);
             sizing = sizing.t;
-            if(oscar) { _fun123338_ip = 1027; continue _fun123338 }
+            if(oscar) { _fun00002_ip = 1027; continue _fun00001 }
  874:
             oscar = sizing.65XQam;
             oscar = update.bind(control)(oscar);
@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = vacuum;
             yankee['children'] = oscar;
             oscar = yankee;
-            _fun123338_ip = 1175; continue _fun123338;
+            _fun00002_ip = 1175; continue _fun00001;
  1027:
             sizing = sizing.HQ2nKi;
             sizing = update.bind(control)(sizing);
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = yankee;
  1175:
             oscar = verify.bind(tango)(options, oscar);
-            _fun123338_ip = 1316; continue _fun123338;
+            _fun00002_ip = 1316; continue _fun00001;
  1186:
             verify = _closure1_slot17;
             backup = _closure1_slot0;

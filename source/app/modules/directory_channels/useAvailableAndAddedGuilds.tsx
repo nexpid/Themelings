@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure3_slot0 = entity;
             zulu = tango.forEach;
             mike = function(argFoo) {
-                _fun78903: for(var _fun78903_ip = 0; ; ) switch(_fun78903_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     tango = _closure1_slot7;
                     zulu = tango.getGuild;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.bind(tango)(entity);
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun78903_ip = 55; continue _fun78903 }
+                    if(!entity) { _fun00002_ip = 55; continue _fun00001 }
  29:
                     report = _closure1_slot8;
                     tango = report.can;
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.ADMINISTRATOR;
                     entity = tango.bind(report)(mike, zulu);
  55:
-                    if(!entity) { _fun78903_ip = 74; continue _fun78903 }
+                    if(!entity) { _fun00002_ip = 74; continue _fun00001 }
  58:
                     tango = zulu.id;
                     mike = _closure2_slot0;
                     entity = tango !== mike;
  74:
-                    if(!entity) { _fun78903_ip = 94; continue _fun78903 }
+                    if(!entity) { _fun00002_ip = 94; continue _fun00001 }
  77:
                     mike = _closure3_slot0;
                     entity = mike.push;
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun78906: for(var _fun78906_ip = 0; ; ) switch(_fun78906_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun78906_ip = 112; continue _fun78906 }
+                        if(mike) { _fun00004_ip = 112; continue _fun00003 }
  7:
                         report = _closure2_slot2;
                         zulu = undefined;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  89:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun78906_ip = 109; continue _fun78906 }
+                        if(report) { _fun00004_ip = 109; continue _fun00003 }
  95:
                         report = _closure2_slot2;
                         tango = false;
@@ -218,12 +218,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure2_slot4;
             mike = zulu.filter;
             entity = function(argFoo) {
-                _fun78909: for(var _fun78909_ip = 0; ; ) switch(_fun78909_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot3;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun78909_ip = 38; continue _fun78909 }
+                    if(!entity) { _fun00006_ip = 38; continue _fun00005 }
  16:
                     tango = _closure2_slot3;
                     zulu = tango.has;
@@ -248,13 +248,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure2_slot4;
             mike = zulu.filter;
             entity = function(argFoo) {
-                _fun78911: for(var _fun78911_ip = 0; ; ) switch(_fun78911_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot3;
                     entity = null;
                     zulu = entity == zulu;
                     entity = undefined;
-                    if(zulu) { _fun78911_ip = 40; continue _fun78911 }
+                    if(zulu) { _fun00008_ip = 40; continue _fun00007 }
  18:
                     tango = _closure2_slot3;
                     zulu = tango.has;

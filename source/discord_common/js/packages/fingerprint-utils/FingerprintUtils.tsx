@@ -30,12 +30,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['extractId'] = tango;
     mike = function(argFoo) { // Original name: maybeExtractId
-        _fun6350: for(var _fun6350_ip = 0; ; ) switch(_fun6350_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = null;
             mike = entity == tango;
-            if(mike) { _fun6350_ip = 26; continue _fun6350 }
+            if(mike) { _fun00002_ip = 26; continue _fun00001 }
  12:
             zulu = _closure1_slot0;
             mike = undefined;

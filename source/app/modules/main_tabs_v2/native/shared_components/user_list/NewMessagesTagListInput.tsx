@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/shared_components/user_list/NewMessagesTagListInput.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun113111: for(var _fun113111_ip = 0; ; ) switch(_fun113111_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         sizing = report.bind(entity)(kilo);
         kilo = sizing.isAndroid;
         kilo = kilo.bind(sizing)();
-        if(!kilo) { _fun113111_ip = 292; continue _fun113111 }
+        if(!kilo) { _fun00002_ip = 292; continue _fun00001 }
  289:
         foxtrot = backup;
  292:
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot7 = tango;
         tango = golf.memo;
         mike = function(argFoo) { // Original name: NewMessagesTagListInput
-            _fun113112: for(var _fun113112_ip = 0; ; ) switch(_fun113112_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 romeo = mike.autoFocus;
@@ -110,14 +110,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = new Array(1);
                 mike[0] = entity;
                 entity = function() {
-                    _fun113113: for(var _fun113113_ip = 0; ; ) switch(_fun113113_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot1;
                         mike = null;
-                        if(!(mike == zulu)) { _fun113113_ip = 19; continue _fun113113 }
+                        if(!(mike == zulu)) { _fun00006_ip = 19; continue _fun00005 }
  13:
                         tango = new Array(0);
-                        _fun113113_ip = 23; continue _fun113113;
+                        _fun00006_ip = 23; continue _fun00005;
  19:
                         tango = _closure2_slot1;
  23:
@@ -160,13 +160,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = true;
                 report['focusOnAdd'] = romeo;
                 romeo = null;
-                if(kilo) { _fun113112_ip = 403; continue _fun113112 }
+                if(kilo) { _fun00004_ip = 403; continue _fun00003 }
  176:
                 output = options.length;
                 kilo = 0;
                 kilo = output > kilo;
                 romeo = null;
-                if(!kilo) { _fun113112_ip = 403; continue _fun113112 }
+                if(!kilo) { _fun00004_ip = 403; continue _fun00003 }
  195:
                 output = _closure1_slot6;
                 sizing = _closure1_slot0;
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update = sequence[update];
                 update = source.bind(tango)(update);
                 source = update.t;
-                if(result) { _fun113112_ip = 295; continue _fun113112 }
+                if(result) { _fun00004_ip = 295; continue _fun00003 }
  282:
                 update = source.fTcQm5;
                 update = control.bind(vacuum)(update);
-                _fun113112_ip = 306; continue _fun113112;
+                _fun00004_ip = 306; continue _fun00003;
  295:
                 source = source.4wv+DA;
                 update = control.bind(vacuum)(source);
@@ -204,13 +204,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update = _closure1_slot6;
                 source = _closure1_slot0;
                 control = _closure1_slot2;
-                if(result) { _fun113112_ip = 359; continue _fun113112 }
+                if(result) { _fun00004_ip = 359; continue _fun00003 }
  339:
                 result = 13;
                 result = control[result];
                 result = source.bind(tango)(result);
                 echo = result.CirclePlusIcon;
-                _fun113112_ip = 377; continue _fun113112;
+                _fun00004_ip = 377; continue _fun00003;
  359:
                 result = 12;
                 result = control[result];
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report['onChangeText'] = backup;
                 report['onFocus'] = yankee;
                 offset = function(argFoo) { // Original name: onRemove
-                    _fun113114: for(var _fun113114_ip = 0; ; ) switch(_fun113114_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         zulu = _closure2_slot2;
                         entity = argFoo;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = golf.id;
                         zulu = tango.bind(report)(zulu);
                         tango = null;
-                        if(!(tango != zulu)) { _fun113114_ip = 150; continue _fun113114 }
+                        if(!(tango != zulu)) { _fun00008_ip = 150; continue _fun00007 }
  43:
                         mike = _closure2_slot0;
                         options = undefined;

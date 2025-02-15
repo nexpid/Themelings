@@ -19,19 +19,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/activities/isActivityParticipantValidGuildMember.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: isActivityParticipantValidGuildMember
-        _fun37437: for(var _fun37437_ip = 0; ; ) switch(_fun37437_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.member;
             tango = null;
             entity = tango != entity;
-            if(!entity) { _fun37437_ip = 34; continue _fun37437 }
+            if(!entity) { _fun00002_ip = 34; continue _fun00001 }
  18:
             zulu = mike.member;
             zulu = zulu.joined_at;
             entity = tango != zulu;
  34:
-            if(!entity) { _fun37437_ip = 61; continue _fun37437 }
+            if(!entity) { _fun00002_ip = 61; continue _fun00001 }
  37:
             mike = mike.member;
             mike = mike.user;

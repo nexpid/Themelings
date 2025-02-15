@@ -89,11 +89,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun98693: for(var _fun98693_ip = 0; ; ) switch(_fun98693_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun98693_ip = 151; continue _fun98693 }
+                        if(mike) { _fun00002_ip = 151; continue _fun00001 }
  10:
                         mike = undefined;
                         oscar = undefined;
@@ -117,9 +117,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  73:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golf) { _fun98693_ip = 81; continue _fun98693 }
+                        if(golf) { _fun00002_ip = 81; continue _fun00001 }
  79: // try_end0
-                        _fun98693_ip = 137; continue _fun98693;
+                        _fun00002_ip = 137; continue _fun00001;
  81:
                         return report;
  84: // catch_target0
@@ -130,15 +130,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = golf;
                         offset = options == golf;
                         golf = undefined;
-                        if(offset) { _fun98693_ip = 115; continue _fun98693 }
+                        if(offset) { _fun00002_ip = 115; continue _fun00001 }
  110:
                         golf = verify.message;
  115:
                         oscar = golf;
-                        if(!(options == golf)) { _fun98693_ip = 129; continue _fun98693 }
+                        if(!(options == golf)) { _fun00002_ip = 129; continue _fun00001 }
  122:
                         tango = tango.message;
-                        _fun98693_ip = 132; continue _fun98693;
+                        _fun00002_ip = 132; continue _fun00001;
  129:
                         tango = oscar;
  132:

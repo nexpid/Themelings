@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/fractional/native/BoostingCountDownPill.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BoostingCountDownPill
-        _fun96086: for(var _fun96086_ip = 0; ; ) switch(_fun96086_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             output = entity.fpDurationText;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = 0.7;
             entity['activeOpacity'] = report;
             report = undefined;
-            if(options) { _fun96086_ip = 67; continue _fun96086 }
+            if(options) { _fun00002_ip = 67; continue _fun00001 }
  63:
             report = _closure1_slot8;
  67:
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify[1] = offset;
             report['style'] = verify;
             verify = !options;
-            if(!verify) { _fun96086_ip = 206; continue _fun96086 }
+            if(!verify) { _fun00002_ip = 206; continue _fun00001 }
  109:
             yankee = _closure1_slot5;
             offset = _closure1_slot4;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = null;
             output = kilo != output;
             kilo = undefined;
-            if(output) { _fun96086_ip = 290; continue _fun96086 }
+            if(output) { _fun00002_ip = 290; continue _fun00001 }
  284:
             kilo = sizing.fpUnavailableTextNoCountdown;
  290:

@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/GdmActivityBookmarkActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GdmActivityBookmarkActionSheet
-        _fun92056: for(var _fun92056_ip = 0; ; ) switch(_fun92056_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             result = entity.activityItem;
@@ -105,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             echo = kilo == result;
             backup = undefined;
-            if(echo) { _fun92056_ip = 234; continue _fun92056 }
+            if(echo) { _fun00002_ip = 234; continue _fun00001 }
  224:
             result = result.application;
             backup = result.name;
  234:
-            if(!(kilo == backup)) { _fun92056_ip = 290; continue _fun92056 }
+            if(!(kilo == backup)) { _fun00002_ip = 290; continue _fun00001 }
  238:
             update = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -214,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = _closure1_slot3;
             sizing = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun92059: for(var _fun92059_ip = 0; ; ) switch(_fun92059_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun92059_ip = 119; continue _fun92059 }
+                        if(mike) { _fun00004_ip = 119; continue _fun00003 }
  7:
                         tango = _closure1_slot1;
                         zulu = _closure1_slot2;
@@ -238,9 +238,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  69:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun92059_ip = 116; continue _fun92059 }
+                        if(oscar) { _fun00004_ip = 116; continue _fun00003 }
  75:
-                        if(!mike) { _fun92059_ip = 113; continue _fun92059 }
+                        if(!mike) { _fun00004_ip = 113; continue _fun00003 }
  78:
                         oscar = _closure1_slot0;
                         golf = _closure1_slot2;

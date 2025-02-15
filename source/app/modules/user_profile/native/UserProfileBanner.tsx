@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileBanner
-        _fun79931: for(var _fun79931_ip = 0; ; ) switch(_fun79931_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.user;
@@ -99,13 +99,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = zulu;
             zulu = mike.bannerSafeArea;
             tango = undefined;
-            if(!(zulu === tango)) { _fun79931_ip = 47; continue _fun79931 }
+            if(!(zulu === tango)) { _fun00002_ip = 47; continue _fun00001 }
  45:
             zulu = 0;
  47:
             var _closure2_slot3 = zulu;
             zulu = mike.bannerHeight;
-            if(!(zulu === tango)) { _fun79931_ip = 68; continue _fun79931 }
+            if(!(zulu === tango)) { _fun00002_ip = 68; continue _fun00001 }
  61:
             zulu = _closure1_slot6;
  68:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.pendingThemeColors;
             var _closure2_slot6 = zulu;
             report = mike.disableInteraction;
-            if(!(report === tango)) { _fun79931_ip = 116; continue _fun79931 }
+            if(!(report === tango)) { _fun00002_ip = 116; continue _fun00001 }
  114:
             report = false;
  116:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar[zulu];
             _closure2_slot8 = zulu;
             offset = golf;
-            if(offset) { _fun79931_ip = 242; continue _fun79931 }
+            if(offset) { _fun00002_ip = 242; continue _fun00001 }
  239:
             offset = mike;
  242:
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             sizing = entity == foxtrot;
             kilo = undefined;
-            if(sizing) { _fun79931_ip = 294; continue _fun79931 }
+            if(sizing) { _fun00002_ip = 294; continue _fun00001 }
  289:
             kilo = foxtrot.guildId;
  294:
@@ -175,11 +175,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['displayProfile'] = foxtrot;
             mike = zulu.bind(oscar)(mike);
             _closure2_slot10 = mike;
-            if(!(tango === verify)) { _fun79931_ip = 360; continue _fun79931 }
+            if(!(tango === verify)) { _fun00002_ip = 360; continue _fun00001 }
  321:
             mike = entity == foxtrot;
             zulu = undefined;
-            if(mike) { _fun79931_ip = 358; continue _fun79931 }
+            if(mike) { _fun00002_ip = 358; continue _fun00001 }
  330:
             oscar = foxtrot.getBannerURL;
             mike = {};
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['size'] = options;
             zulu = oscar.bind(foxtrot)(mike);
  358:
-            _fun79931_ip = 391; continue _fun79931;
+            _fun00002_ip = 391; continue _fun00001;
  360:
             oscar = entity == foxtrot;
             mike = undefined;
-            if(oscar) { _fun79931_ip = 388; continue _fun79931 }
+            if(oscar) { _fun00002_ip = 388; continue _fun00001 }
  369:
             options = foxtrot.getPreviewBanner;
             oscar = 600;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  391:
             mike = entity != zulu;
             entity = null;
-            if(!mike) { _fun79931_ip = 431; continue _fun79931 }
+            if(!mike) { _fun00002_ip = 431; continue _fun00001 }
  400:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isAnimatedImageURL;
             options = entity.bind(mike)(zulu);
             oscar = function() { // Original name: renderBanner
-                _fun79932: for(var _fun79932_ip = 0; ; ) switch(_fun79932_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot7;
                     mike = _closure1_slot1;
@@ -239,29 +239,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = null;
                     options = golf == oscar;
                     oscar = undefined;
-                    if(options) { _fun79932_ip = 76; continue _fun79932 }
+                    if(options) { _fun00004_ip = 76; continue _fun00003 }
  66:
                     verify = _closure2_slot6;
                     options = 0;
                     oscar = verify[options];
  76:
-                    if(!(golf == oscar)) { _fun79932_ip = 84; continue _fun79932 }
+                    if(!(golf == oscar)) { _fun00004_ip = 84; continue _fun00003 }
  80:
                     oscar = _closure2_slot5;
  84:
-                    if(!(golf == oscar)) { _fun79932_ip = 114; continue _fun79932 }
+                    if(!(golf == oscar)) { _fun00004_ip = 114; continue _fun00003 }
  88:
                     options = _closure2_slot1;
                     verify = golf == options;
                     options = undefined;
-                    if(verify) { _fun79932_ip = 111; continue _fun79932 }
+                    if(verify) { _fun00004_ip = 111; continue _fun00003 }
  101:
                     verify = _closure2_slot1;
                     options = verify.primaryColor;
  111:
                     oscar = options;
  114:
-                    if(!(golf == oscar)) { _fun79932_ip = 122; continue _fun79932 }
+                    if(!(golf == oscar)) { _fun00004_ip = 122; continue _fun00003 }
  118:
                     oscar = _closure2_slot10;
  122:
@@ -288,11 +288,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             verify = backup.bannerContainer;
             entity['style'] = verify;
-            if(!options) { _fun79931_ip = 754; continue _fun79931 }
+            if(!options) { _fun00002_ip = 754; continue _fun00001 }
  499:
-            if(golf) { _fun79931_ip = 754; continue _fun79931 }
+            if(golf) { _fun00002_ip = 754; continue _fun00001 }
  505:
-            if(report) { _fun79931_ip = 754; continue _fun79931 }
+            if(report) { _fun00002_ip = 754; continue _fun00001 }
  511:
             options = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = romeo;
             offset = !offset;
-            if(!offset) { _fun79931_ip = 738; continue _fun79931 }
+            if(!offset) { _fun00002_ip = 738; continue _fun00001 }
  631:
             foxtrot = _closure1_slot7;
             result = _closure1_slot0;
@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = offset;
             report['children'] = verify;
             report = options.bind(tango)(golf, report);
-            _fun79931_ip = 758; continue _fun79931;
+            _fun00002_ip = 758; continue _fun00001;
  754:
             report = oscar.bind(tango)();
  758:

@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: TwoFASetupModalScreen
-        _fun94548: for(var _fun94548_ip = 0; ; ) switch(_fun94548_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.children;
@@ -333,22 +333,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = options;
             mike[1] = kilo;
             entity = function() {
-                _fun94549: for(var _fun94549_ip = 0; ; ) switch(_fun94549_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot1;
                     zulu = _closure1_slot5;
                     zulu = zulu.LANDING;
-                    if(!(tango !== zulu)) { _fun94549_ip = 149; continue _fun94549 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 149; continue _fun00003 }
  27:
                     tango = _closure2_slot1;
                     zulu = _closure1_slot5;
                     zulu = zulu.SCAN;
-                    if(!(tango !== zulu)) { _fun94549_ip = 123; continue _fun94549 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 123; continue _fun00003 }
  45:
                     tango = _closure2_slot1;
                     zulu = _closure1_slot5;
                     zulu = zulu.ENTER_CODE;
-                    if(!(tango !== zulu)) { _fun94549_ip = 97; continue _fun94549 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 97; continue _fun00003 }
  63:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -358,21 +358,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(zulu)(tango);
                     zulu = tango.close;
                     zulu = zulu.bind(tango)();
-                    _fun94549_ip = 173; continue _fun94549;
+                    _fun00004_ip = 173; continue _fun00003;
  97:
                     report = _closure2_slot0;
                     tango = report.push;
                     zulu = _closure1_slot5;
                     zulu = zulu.SUCCESS;
                     zulu = tango.bind(report)(zulu);
-                    _fun94549_ip = 173; continue _fun94549;
+                    _fun00004_ip = 173; continue _fun00003;
  123:
                     report = _closure2_slot0;
                     tango = report.push;
                     zulu = _closure1_slot5;
                     zulu = zulu.ENTER_CODE;
                     zulu = tango.bind(report)(zulu);
-                    _fun94549_ip = 173; continue _fun94549;
+                    _fun00004_ip = 173; continue _fun00003;
  149:
                     zulu = _closure2_slot0;
                     mike = zulu.push;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun94548_ip = 426; continue _fun94548 }
+            if(!oscar) { _fun00002_ip = 426; continue _fun00001 }
  195:
             verify = _closure1_slot6;
             options = _closure1_slot0;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['textStyle'] = foxtrot;
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.SUCCESS;
-            if(!(kilo !== foxtrot)) { _fun94548_ip = 351; continue _fun94548 }
+            if(!(kilo !== foxtrot)) { _fun00002_ip = 351; continue _fun00001 }
  294:
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.t;
             foxtrot = foxtrot.XiOHRU;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun94548_ip = 406; continue _fun94548;
+            _fun00002_ip = 406; continue _fun00001;
  351:
             output = _closure1_slot0;
             result = _closure1_slot2;

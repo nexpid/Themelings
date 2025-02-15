@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/two_way_link/TwoWayLinkLanding.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TwoWayLinkLanding
-        _fun80584: for(var _fun80584_ip = 0; ; ) switch(_fun80584_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.platformType;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun80585: for(var _fun80585_ip = 0; ; ) switch(_fun80585_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot5;
                     zulu = tango.getAccount;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(mike, entity);
                     zulu = mike == entity;
                     mike = undefined;
-                    if(zulu) { _fun80585_ip = 43; continue _fun80585 }
+                    if(zulu) { _fun00004_ip = 43; continue _fun00003 }
  37:
                     mike = entity.twoWayLink;
  43:
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = verify;
             verify = null;
             source = verify != control;
-            if(!source) { _fun80584_ip = 234; continue _fun80584 }
+            if(!source) { _fun00002_ip = 234; continue _fun00001 }
  231:
             source = control;
  234:
@@ -157,10 +157,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = yankee.title;
             romeo['style'] = control;
             control = sequence;
-            if(!config) { _fun80584_ip = 324; continue _fun80584 }
+            if(!config) { _fun00002_ip = 324; continue _fun00001 }
  314:
             control = sequence;
-            if(!(verify != vacuum)) { _fun80584_ip = 324; continue _fun80584 }
+            if(!(verify != vacuum)) { _fun00002_ip = 324; continue _fun00001 }
  321:
             control = vacuum;
  324:
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = offset;
             offset = verify != echo;
             verify = null;
-            if(!offset) { _fun80584_ip = 593; continue _fun80584 }
+            if(!offset) { _fun00002_ip = 593; continue _fun00001 }
  475:
             backup = _closure1_slot6;
             sizing = _closure1_slot0;

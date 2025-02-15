@@ -31,13 +31,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/video_calls/native/components/usePipDimensions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePipDimensions
-        _fun73484: for(var _fun73484_ip = 0; ; ) switch(_fun73484_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.channelId;
             oscar = mike.forcedOrientation;
             tango = undefined;
-            if(!(oscar === tango)) { _fun73484_ip = 24; continue _fun73484 }
+            if(!(oscar === tango)) { _fun00002_ip = 24; continue _fun00001 }
  22:
             oscar = null;
  24:
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike[2] = oscar;
             mike[3] = report;
             entity = function() {
-                _fun73485: for(var _fun73485_ip = 0; ; ) switch(_fun73485_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = _closure2_slot3;
@@ -84,10 +84,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     mike = mike.OrientationType;
                     mike = mike.LANDSCAPE;
                     report = report === mike;
-                    if(report) { _fun73485_ip = 109; continue _fun73485 }
+                    if(report) { _fun00004_ip = 109; continue _fun00003 }
  63:
                     mike = tango;
-                    if(!tango) { _fun73485_ip = 106; continue _fun73485 }
+                    if(!tango) { _fun00004_ip = 106; continue _fun00003 }
  69:
                     oscar = _closure2_slot0;
                     golf = _closure1_slot0;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     oscar = _closure2_slot1;
                     mike = 96;
                     zulu = mike;
-                    if(oscar) { _fun73485_ip = 413; continue _fun73485 }
+                    if(oscar) { _fun00004_ip = 413; continue _fun00003 }
  125:
-                    if(tango) { _fun73485_ip = 196; continue _fun73485 }
+                    if(tango) { _fun00004_ip = 196; continue _fun00003 }
  128:
-                    if(report) { _fun73485_ip = 196; continue _fun73485 }
+                    if(report) { _fun00004_ip = 196; continue _fun00003 }
  131:
                     oscar = global;
                     verify = oscar.Math;
@@ -120,11 +120,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     golf = 0.5625;
                     mike = oscar * golf;
                     zulu = oscar;
-                    _fun73485_ip = 413; continue _fun73485;
+                    _fun00004_ip = 413; continue _fun00003;
  196:
-                    if(tango) { _fun73485_ip = 267; continue _fun73485 }
+                    if(tango) { _fun00004_ip = 267; continue _fun00003 }
  199:
-                    if(!report) { _fun73485_ip = 267; continue _fun73485 }
+                    if(!report) { _fun00004_ip = 267; continue _fun00003 }
  202:
                     oscar = global;
                     verify = oscar.Math;
@@ -137,19 +137,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     oscar = 0.5625;
                     zulu = golf * oscar;
                     mike = golf;
-                    _fun73485_ip = 413; continue _fun73485;
+                    _fun00004_ip = 413; continue _fun00003;
  267:
-                    if(!tango) { _fun73485_ip = 273; continue _fun73485 }
+                    if(!tango) { _fun00004_ip = 273; continue _fun00003 }
  270:
-                    if(report) { _fun73485_ip = 353; continue _fun73485 }
+                    if(report) { _fun00004_ip = 353; continue _fun00003 }
  273:
-                    if(!tango) { _fun73485_ip = 279; continue _fun73485 }
+                    if(!tango) { _fun00004_ip = 279; continue _fun00003 }
  276:
                     tango = !report;
  279:
                     mike = 1;
                     zulu = mike;
-                    if(!tango) { _fun73485_ip = 413; continue _fun73485 }
+                    if(!tango) { _fun00004_ip = 413; continue _fun00003 }
  291:
                     tango = global;
                     golf = tango.Math;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     report = 0.5625;
                     mike = tango * report;
                     zulu = tango;
-                    _fun73485_ip = 413; continue _fun73485;
+                    _fun00004_ip = 413; continue _fun00003;
  353:
                     tango = global;
                     oscar = tango.Math;

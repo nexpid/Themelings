@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = entity.onBack;
         var _closure2_slot2 = entity;
         offset = function() { // Original name: handleClose
-            _fun81969: for(var _fun81969_ip = 0; ; ) switch(_fun81969_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.bind(zulu)();
                 tango = _closure2_slot2;
                 zulu = null;
-                if(!(zulu != tango)) { _fun81969_ip = 56; continue _fun81969 }
+                if(!(zulu != tango)) { _fun00002_ip = 56; continue _fun00001 }
  48:
                 mike = _closure2_slot2;
                 mike = mike.bind(entity)();

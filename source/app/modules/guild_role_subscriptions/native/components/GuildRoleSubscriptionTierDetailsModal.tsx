@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = report;
     var _closure1_slot3 = golf;
     entity = function() { // Original name: Content
-        _fun127288: for(var _fun127288_ip = 0; ; ) switch(_fun127288_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot1;
             foxtrot = _closure1_slot3;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             entity = offset != mike;
             target = null;
-            if(!entity) { _fun127288_ip = 260; continue _fun127288 }
+            if(!entity) { _fun00002_ip = 260; continue _fun00001 }
  250:
             entity = {};
             entity['uri'] = mike;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(mike)(zulu);
             zulu = offset == mike;
             entity = undefined;
-            if(zulu) { _fun127288_ip = 306; continue _fun127288 }
+            if(zulu) { _fun00002_ip = 306; continue _fun00001 }
  300:
             entity = mike.published;
  306:
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = kilo[oscar];
             golf = golf.bind(tango)(oscar);
             oscar = {};
-            if(foxtrot) { _fun127288_ip = 1140; continue _fun127288 }
+            if(foxtrot) { _fun00002_ip = 1140; continue _fun00001 }
  1137:
             foxtrot = backup;
  1140:
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['guildId'] = romeo;
             romeo = offset != yankee;
             offset = null;
-            if(!romeo) { _fun127288_ip = 1160; continue _fun127288 }
+            if(!romeo) { _fun00002_ip = 1160; continue _fun00001 }
  1157:
             offset = yankee;
  1160:
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionTierDetailsModal.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GuildRoleSubscriptionTierDetailsModal
-        _fun127291: for(var _fun127291_ip = 0; ; ) switch(_fun127291_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot0;
             yankee = _closure1_slot3;
@@ -399,17 +399,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[zulu];
             oscar = oscar.length;
             oscar = oscar > zulu;
-            if(!oscar) { _fun127291_ip = 207; continue _fun127291 }
+            if(!oscar) { _fun00004_ip = 207; continue _fun00003 }
  201:
             golf = null;
             oscar = golf != options;
  207:
-            if(!oscar) { _fun127291_ip = 219; continue _fun127291 }
+            if(!oscar) { _fun00004_ip = 219; continue _fun00003 }
  210:
             entity = entity.length;
             oscar = entity > zulu;
  219:
-            if(!oscar) { _fun127291_ip = 228; continue _fun127291 }
+            if(!oscar) { _fun00004_ip = 228; continue _fun00003 }
  222:
             entity = null;
             oscar = entity != mike;

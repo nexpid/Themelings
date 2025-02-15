@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionEmojiGallery.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmojiGallery
-        _fun96953: for(var _fun96953_ip = 0; ; ) switch(_fun96953_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.emojiIds;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = mike;
             mike = entity.maxPerRow;
             tango = undefined;
-            if(!(mike === tango)) { _fun96953_ip = 35; continue _fun96953 }
+            if(!(mike === tango)) { _fun00002_ip = 35; continue _fun00001 }
  32:
             mike = 9;
  35:

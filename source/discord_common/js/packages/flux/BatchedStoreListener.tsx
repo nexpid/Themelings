@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = undefined;
             tango = report.bind(entity)(zulu, tango);
             mike = function() {
-                _fun6980: for(var _fun6980_ip = 0; ; ) switch(_fun6980_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = mike.bind(zulu)();
                     tango = _closure3_slot0;
                     tango = tango.storeVersionHandled;
-                    if(!(tango !== zulu)) { _fun6980_ip = 72; continue _fun6980 }
+                    if(!(tango !== zulu)) { _fun00002_ip = 72; continue _fun00001 }
  52:
                     mike = _closure3_slot0;
                     tango = mike.changeCallback;
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.stores;
             mike = zulu.forEach;
             entity = function(argFoo, argBar) {
-                _fun6982: for(var _fun6982_ip = 0; ; ) switch(_fun6982_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     entity = null;
-                    if(!(entity != zulu)) { _fun6982_ip = 37; continue _fun6982 }
+                    if(!(entity != zulu)) { _fun00004_ip = 37; continue _fun00003 }
  9:
                     mike = zulu.addReactChangeListener;
                     entity = _closure3_slot0;

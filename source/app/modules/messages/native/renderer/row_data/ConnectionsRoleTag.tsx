@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/ConnectionsRoleTag.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ConnectionsRoleTag
-        _fun71701: for(var _fun71701_ip = 0; ; ) switch(_fun71701_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.message;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = golf;
             mike = function() {
-                _fun71702: for(var _fun71702_ip = 0; ; ) switch(_fun71702_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot5;
                     mike = zulu.getGuild;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == tango;
                     entity = undefined;
-                    if(report) { _fun71702_ip = 49; continue _fun71702 }
+                    if(report) { _fun00004_ip = 49; continue _fun00003 }
  44:
                     entity = tango.guild_id;
  49:
@@ -111,10 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = golf;
             verify = output[zulu](sizing, kilo, backup, foxtrot, romeo);
             entity = null;
-            if(!(entity != verify)) { _fun71701_ip = 370; continue _fun71701 }
+            if(!(entity != verify)) { _fun00002_ip = 370; continue _fun00001 }
  146:
             options = verify.colorString;
-            if(!(entity == options)) { _fun71701_ip = 191; continue _fun71701 }
+            if(!(entity == options)) { _fun00002_ip = 191; continue _fun00001 }
  156:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getDarkness;
             zulu = mike.bind(zulu)(offset);
             mike = 0.3;
-            if(!(zulu < mike)) { _fun71701_ip = 311; continue _fun71701 }
+            if(!(zulu < mike)) { _fun00002_ip = 311; continue _fun00001 }
  283:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -172,12 +172,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createConnectionsRoleTag
-        _fun71703: for(var _fun71703_ip = 0; ; ) switch(_fun71703_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = argFoo;
             report = oscar.colorString;
             entity = null;
-            if(!(entity == report)) { _fun71703_ip = 55; continue _fun71703 }
+            if(!(entity == report)) { _fun00006_ip = 55; continue _fun00005 }
  15:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf.getDarkness;
             golf = entity.bind(golf)(verify);
             entity = 0.3;
-            if(!(golf < entity)) { _fun71703_ip = 180; continue _fun71703 }
+            if(!(golf < entity)) { _fun00006_ip = 180; continue _fun00005 }
  152:
             golf = _closure1_slot1;
             entity = _closure1_slot2;

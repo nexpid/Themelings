@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.some;
             entity = function(argFoo) {
-                _fun99527: for(var _fun99527_ip = 0; ; ) switch(_fun99527_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     mike = entity.items;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity.id;
                     zulu = null;
                     entity = zulu != report;
-                    if(!entity) { _fun99527_ip = 51; continue _fun99527 }
+                    if(!entity) { _fun00002_ip = 51; continue _fun00001 }
  29:
                     tango = _closure1_slot4;
                     mike = tango.getProfileEffectById;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: isValidClipboardCode
-        _fun98639: for(var _fun98639_ip = 0; ; ) switch(_fun98639_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = tango.length;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(entity)(zulu);
             entity = entity.TOTP_CODE_LENGTH;
             entity = mike === entity;
-            if(!entity) { _fun98639_ip = 70; continue _fun98639 }
+            if(!entity) { _fun00002_ip = 70; continue _fun00001 }
  46:
             zulu = /^\d+$/;
             mike = zulu.test;
@@ -101,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun98643: for(var _fun98643_ip = 0; ; ) switch(_fun98643_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         report = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun98643_ip = 215; continue _fun98643 }
+                        if(mike) { _fun00004_ip = 215; continue _fun00003 }
  13:
                         options = report;
                         mike = undefined;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = yankee[report];
                         report = offset.bind(mike)(report);
                         report = report.TOTP_CODE_LENGTH;
-                        if(!(golf === report)) { _fun98643_ip = 212; continue _fun98643 }
+                        if(!(golf === report)) { _fun00004_ip = 212; continue _fun00003 }
  75:
                         report = _closure2_slot4;
                         report = report.bind(mike)(mike);
@@ -140,9 +140,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  123:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(golf) { _fun98643_ip = 131; continue _fun98643 }
+                        if(golf) { _fun00004_ip = 131; continue _fun00003 }
  129: // try_end0
-                        _fun98643_ip = 201; continue _fun98643;
+                        _fun00004_ip = 201; continue _fun00003;
  131:
                         return report;
  134: // catch_target0
@@ -152,22 +152,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = null;
                         offset = options == golf;
                         golf = undefined;
-                        if(offset) { _fun98643_ip = 179; continue _fun98643 }
+                        if(offset) { _fun00004_ip = 179; continue _fun00003 }
  154:
                         offset = tango;
                         offset = offset.body;
                         verify = offset;
                         offset = options == offset;
                         golf = undefined;
-                        if(offset) { _fun98643_ip = 179; continue _fun98643 }
+                        if(offset) { _fun00004_ip = 179; continue _fun00003 }
  174:
                         golf = verify.message;
  179:
                         oscar = golf;
-                        if(!(options == golf)) { _fun98643_ip = 193; continue _fun98643 }
+                        if(!(options == golf)) { _fun00004_ip = 193; continue _fun00003 }
  186:
                         tango = tango.message;
-                        _fun98643_ip = 196; continue _fun98643;
+                        _fun00004_ip = 196; continue _fun00003;
  193:
                         tango = oscar;
  196:

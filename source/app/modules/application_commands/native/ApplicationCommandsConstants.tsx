@@ -1,6 +1,6 @@
 // app/modules/application_commands/native/ApplicationCommandsConstants.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    _fun85223: for(var _fun85223_ip = 0; ; ) switch(_fun85223_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -20,7 +20,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         mike = tango.isAndroid;
         tango = mike.bind(tango)();
         mike = 56;
-        if(!tango) { _fun85223_ip = 72; continue _fun85223 }
+        if(!tango) { _fun00002_ip = 72; continue _fun00001 }
  69:
         mike = 64;
  72:

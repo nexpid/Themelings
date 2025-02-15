@@ -47,17 +47,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = tango.addListener;
             mike = 'beforeRemove';
             entity = function() {
-                _fun81725: for(var _fun81725_ip = 0; ; ) switch(_fun81725_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure2_slot2;
                     mike = mike.current;
-                    if(mike) { _fun81725_ip = 25; continue _fun81725 }
+                    if(mike) { _fun00002_ip = 25; continue _fun00001 }
  15:
                     tango = _closure2_slot0;
                     zulu = null;
                     mike = zulu == tango;
  25:
-                    if(mike) { _fun81725_ip = 38; continue _fun81725 }
+                    if(mike) { _fun00002_ip = 38; continue _fun00001 }
  28:
                     mike = _closure2_slot0;
                     entity = undefined;

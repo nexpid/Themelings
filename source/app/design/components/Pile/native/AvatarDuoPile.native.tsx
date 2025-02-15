@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Pile/native/AvatarDuoPile.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AvatarDuoPile
-        _fun99418: for(var _fun99418_ip = 0; ; ) switch(_fun99418_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             verify = zulu.size;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = {'aria-label': null, 'shape': null, 'size': null, 'gap': 4, 'depthX': 0.5, 'depthY': 0.5};
             golf = 'aria-label';
             golf = golf in options;
-            if(golf) { _fun99418_ip = 138; continue _fun99418 }
+            if(golf) { _fun00002_ip = 138; continue _fun00001 }
  100:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = yankee.getListSummaryLabel;
             golf = options.names;
             golf = offset.bind(yankee)(golf);
-            _fun99418_ip = 144; continue _fun99418;
+            _fun00002_ip = 144; continue _fun00001;
  138:
             golf = options.aria-label;
  144:
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             options = options.bind(zulu)(golf);
             golf = options.isArray;
             golf = golf.bind(options)(verify);
-            if(golf) { _fun99418_ip = 245; continue _fun99418 }
+            if(golf) { _fun00002_ip = 245; continue _fun00001 }
  213:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = golf.bind(zulu)(oscar);
             oscar = oscar.AVATAR_SIZE_MAP;
             oscar = oscar[verify];
-            _fun99418_ip = 264; continue _fun99418;
+            _fun00002_ip = 264; continue _fun00001;
  245:
             options = verify.map;
             golf = function(argFoo) {

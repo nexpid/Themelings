@@ -1,6 +1,6 @@
 // app/modules/visual_effect_view/native/overrides/VEVOOSlider.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun111482: for(var _fun111482_ip = 0; ; ) switch(_fun111482_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         foxtrot = argBaz;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = report.bind(entity)(romeo);
         romeo = backup.isAndroid;
         romeo = romeo.bind(backup)();
-        if(!romeo) { _fun111482_ip = 163; continue _fun111482 }
+        if(!romeo) { _fun00002_ip = 163; continue _fun00001 }
  140:
         romeo = 4;
         romeo = oscar[romeo];
@@ -52,13 +52,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot4 = tango;
         tango = golf.memo;
         mike = function(argFoo) { // Original name: VEVOOSlider
-            _fun111483: for(var _fun111483_ip = 0; ; ) switch(_fun111483_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 verify = entity.disabled;
                 foxtrot = entity.disabledOpacity;
                 tango = undefined;
-                if(!(foxtrot === tango)) { _fun111483_ip = 22; continue _fun111483 }
+                if(!(foxtrot === tango)) { _fun00004_ip = 22; continue _fun00003 }
  20:
                 foxtrot = false;
  22:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = {};
                 golf = 1;
                 romeo = golf;
-                if(!foxtrot) { _fun111483_ip = 106; continue _fun111483 }
+                if(!foxtrot) { _fun00004_ip = 106; continue _fun00003 }
  96:
                 romeo = 0.5;
  106:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = null;
                 offset = options != verify;
                 options = undefined;
-                if(!offset) { _fun111483_ip = 141; continue _fun111483 }
+                if(!offset) { _fun00004_ip = 141; continue _fun00003 }
  138:
                 options = verify;
  141:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = oscar.isAndroid;
                 oscar = report.bind(oscar)();
                 report = undefined;
-                if(!oscar) { _fun111483_ip = 262; continue _fun111483 }
+                if(!oscar) { _fun00004_ip = 262; continue _fun00003 }
  253:
                 report = function() {
                     entity = true;

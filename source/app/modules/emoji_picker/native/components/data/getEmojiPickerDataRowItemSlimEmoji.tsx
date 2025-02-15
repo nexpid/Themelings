@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         report = mike.emojis;
         tango = report.map;
         zulu = function(argFoo) {
-            _fun78379: for(var _fun78379_ip = 0; ; ) switch(_fun78379_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 zulu = mike.type;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = report.bind(entity)(tango);
                 entity = entity.EmojiTypes;
                 entity = entity.UNICODE;
-                if(!(zulu !== entity)) { _fun78379_ip = 225; continue _fun78379 }
+                if(!(zulu !== entity)) { _fun00002_ip = 225; continue _fun00001 }
  52:
                 entity = _closure2_slot0;
                 tango = entity.emojisDisabled;
@@ -56,21 +56,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = mike.id;
                 entity = zulu.bind(tango)(entity);
                 zulu = mike.animated;
-                if(!zulu) { _fun78379_ip = 92; continue _fun78379 }
+                if(!zulu) { _fun00002_ip = 92; continue _fun00001 }
  89:
-                if(entity) { _fun78379_ip = 189; continue _fun78379 }
+                if(entity) { _fun00002_ip = 189; continue _fun00001 }
  92:
                 zulu = mike.animated;
-                if(zulu) { _fun78379_ip = 157; continue _fun78379 }
+                if(zulu) { _fun00002_ip = 157; continue _fun00001 }
  101:
-                if(entity) { _fun78379_ip = 126; continue _fun78379 }
+                if(entity) { _fun00002_ip = 126; continue _fun00001 }
  104:
                 entity = {};
                 zulu = mike.id;
                 entity['id'] = zulu;
                 zulu = mike.name;
                 entity['name'] = zulu;
-                _fun78379_ip = 155; continue _fun78379;
+                _fun00002_ip = 155; continue _fun00001;
  126:
                 zulu = {};
                 tango = mike.id;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu['disabled'] = tango;
                 entity = zulu;
  155:
-                _fun78379_ip = 187; continue _fun78379;
+                _fun00002_ip = 187; continue _fun00001;
  157:
                 zulu = {};
                 tango = mike.id;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu['animated'] = tango;
                 entity = zulu;
  187:
-                _fun78379_ip = 223; continue _fun78379;
+                _fun00002_ip = 223; continue _fun00001;
  189:
                 zulu = {};
                 tango = mike.id;

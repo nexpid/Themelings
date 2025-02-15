@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/native/screens/home/SubmittingOverlay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SubmittingOverlay
-        _fun118534: for(var _fun118534_ip = 0; ; ) switch(_fun118534_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.submitting;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = foxtrot.bind(tango)(zulu);
             zulu = options.useAnimatedStyle;
             mike = function() { // Original name: o
-                _fun118535: for(var _fun118535_ip = 0; ; ) switch(_fun118535_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     tango = _closure1_slot0;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = oscar.withSpring;
                     zulu = _closure2_slot0;
                     tango = 0;
-                    if(!zulu) { _fun118535_ip = 47; continue _fun118535 }
+                    if(!zulu) { _fun00004_ip = 47; continue _fun00003 }
  44:
                     tango = 1;
  47:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf[1] = verify;
             golf[2] = options;
             entity['style'] = golf;
-            if(!report) { _fun118534_ip = 257; continue _fun118534 }
+            if(!report) { _fun00002_ip = 257; continue _fun00001 }
  207:
             options = _closure1_slot3;
             golf = _closure1_slot0;

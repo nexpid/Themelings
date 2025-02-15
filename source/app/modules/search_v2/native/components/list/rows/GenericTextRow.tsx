@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GenericTextRow
-        _fun113659: for(var _fun113659_ip = 0; ; ) switch(_fun113659_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             kilo = mike.text;
@@ -70,11 +70,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot2;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun113661: for(var _fun113661_ip = 0; ; ) switch(_fun113661_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun113661_ip = 41; continue _fun113661 }
+                        if(mike) { _fun00004_ip = 41; continue _fun00003 }
  7:
                         tango = _closure2_slot1;
                         mike = _closure2_slot0;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  29:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun113661_ip = 38; continue _fun113661 }
+                        if(tango) { _fun00004_ip = 38; continue _fun00003 }
  35:
                         return zulu;
  38:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             offset = null;
             offset = offset != foxtrot;
-            if(!offset) { _fun113659_ip = 242; continue _fun113659 }
+            if(!offset) { _fun00002_ip = 242; continue _fun00001 }
  218:
             romeo = _closure1_slot5;
             yankee = {'size': 'sm', 'color': 'header-primary'};

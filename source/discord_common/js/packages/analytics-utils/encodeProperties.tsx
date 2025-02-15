@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = '../discord_common/js/packages/analytics-utils/encodeProperties.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: encodeProperties
-        _fun7159: for(var _fun7159_ip = 0; ; ) switch(_fun7159_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
  3: // try_start_0

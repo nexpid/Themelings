@@ -8,35 +8,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot0;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun80964: for(var _fun80964_ip = 0; ; ) switch(_fun80964_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     offset = argFoo;
                     tango = argBar;
                     oscar = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun80964_ip = 379; continue _fun80964 }
+                    if(mike) { _fun00002_ip = 379; continue _fun00001 }
  19:
                     verify = 0;
-                    if(!(verify === offset)) { _fun80964_ip = 343; continue _fun80964 }
+                    if(!(verify === offset)) { _fun00002_ip = 343; continue _fun00001 }
  28:
                     mike = tango.byteLength;
-                    if(!(verify !== mike)) { _fun80964_ip = 307; continue _fun80964 }
+                    if(!(verify !== mike)) { _fun00002_ip = 307; continue _fun00001 }
  41:
                     mike = oscar.length;
-                    if(!(verify !== mike)) { _fun80964_ip = 271; continue _fun80964 }
+                    if(!(verify !== mike)) { _fun00002_ip = 271; continue _fun00001 }
  53:
                     mike = global;
                     report = mike.BigInt;
                     zulu = undefined;
                     golf = report.bind(zulu)(oscar);
                     zulu = 0n;
-                    if(!(!(golf < zulu))) { _fun80964_ip = 237; continue _fun80964 }
+                    if(!(!(golf < zulu))) { _fun00002_ip = 237; continue _fun00001 }
  79:
                     foxtrot = 2n;
                     romeo = 64n;
                     zulu = exponentiationOperator(foxtrot, romeo);
-                    if(!(!(golf >= zulu))) { _fun80964_ip = 237; continue _fun80964 }
+                    if(!(!(golf >= zulu))) { _fun00002_ip = 237; continue _fun00001 }
  98:
                     oscar = mike.Uint8Array;
                     report = _closure1_slot1;

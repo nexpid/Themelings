@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/notification_center/useNotificationCenterItemAcked.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) {
-        _fun116484: for(var _fun116484_ip = 0; ; ) switch(_fun116484_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             var _closure2_slot0 = oscar;
@@ -50,9 +50,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(golf)(mike, entity);
             entity = oscar.forceUnacked;
             entity = !entity;
-            if(!entity) { _fun116484_ip = 117; continue _fun116484 }
+            if(!entity) { _fun00002_ip = 117; continue _fun00001 }
  76:
-            if(mike) { _fun116484_ip = 114; continue _fun116484 }
+            if(mike) { _fun00002_ip = 114; continue _fun00001 }
  79:
             tango = _closure1_slot0;
             golf = _closure1_slot1;

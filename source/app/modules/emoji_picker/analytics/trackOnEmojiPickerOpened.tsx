@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: trackOnEmojiPickerOpened
-        _fun78139: for(var _fun78139_ip = 0; ; ) switch(_fun78139_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.intention;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar == output;
             entity = undefined;
             tango = undefined;
-            if(mike) { _fun78139_ip = 89; continue _fun78139 }
+            if(mike) { _fun00002_ip = 89; continue _fun00001 }
  79:
             mike = output.getGuildId;
             tango = mike.bind(output)();
@@ -59,20 +59,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             report['location'] = kilo;
             report = romeo.bind(backup)(report);
-            if(zulu) { _fun78139_ip = 227; continue _fun78139 }
+            if(zulu) { _fun00002_ip = 227; continue _fun00001 }
  224:
-            if(!mike) { _fun78139_ip = 241; continue _fun78139 }
+            if(!mike) { _fun00002_ip = 241; continue _fun00001 }
  227:
             report = _closure1_slot8;
             report = report.REACTION;
-            if(!(verify !== report)) { _fun78139_ip = 268; continue _fun78139 }
+            if(!(verify !== report)) { _fun00002_ip = 268; continue _fun00001 }
  241:
             report = _closure1_slot4;
             report = report.emojiFrecencyWithoutFetchingLatest;
             romeo = report.frequently;
             report = romeo.slice;
             romeo = report.bind(romeo)();
-            _fun78139_ip = 293; continue _fun78139;
+            _fun00002_ip = 293; continue _fun00001;
  268:
             report = _closure1_slot4;
             report = report.emojiReactionFrecencyWithoutFetchingLatest;
@@ -80,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = backup.slice;
             romeo = report.bind(backup)();
  293:
-            if(!(oscar == output)) { _fun78139_ip = 303; continue _fun78139 }
+            if(!(oscar == output)) { _fun00002_ip = 303; continue _fun00001 }
  297:
             control = new Array(0);
-            _fun78139_ip = 334; continue _fun78139;
+            _fun00002_ip = 334; continue _fun00001;
  303:
             kilo = _closure1_slot4;
             backup = kilo.getDisambiguatedEmojiContext;
@@ -92,18 +92,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = backup.bind(kilo)(report);
             control = report.favoriteEmojisWithoutFetchingLatest;
  334:
-            if(zulu) { _fun78139_ip = 340; continue _fun78139 }
+            if(zulu) { _fun00002_ip = 340; continue _fun00001 }
  337:
-            if(!mike) { _fun78139_ip = 354; continue _fun78139 }
+            if(!mike) { _fun00002_ip = 354; continue _fun00001 }
  340:
             mike = _closure1_slot8;
             mike = mike.REACTION;
-            if(!(verify !== mike)) { _fun78139_ip = 372; continue _fun78139 }
+            if(!(verify !== mike)) { _fun00002_ip = 372; continue _fun00001 }
  354:
             mike = _closure1_slot4;
             mike = mike.emojiFrecencyWithoutFetchingLatest;
             zulu = mike.numFrequentlyItems;
-            _fun78139_ip = 388; continue _fun78139;
+            _fun00002_ip = 388; continue _fun00001;
  372:
             mike = _closure1_slot4;
             mike = mike.emojiReactionFrecencyWithoutFetchingLatest;
@@ -112,10 +112,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.slice;
             report = 0;
             result = mike.bind(romeo)(report, zulu);
-            if(!(oscar == tango)) { _fun78139_ip = 411; continue _fun78139 }
+            if(!(oscar == tango)) { _fun00002_ip = 411; continue _fun00001 }
  405:
             backup = new Array(0);
-            _fun78139_ip = 426; continue _fun78139;
+            _fun00002_ip = 426; continue _fun00001;
  411:
             zulu = _closure1_slot4;
             mike = zulu.getGuildEmoji;
@@ -125,14 +125,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getDisambiguatedEmojiContext;
             romeo = oscar == output;
             mike = undefined;
-            if(romeo) { _fun78139_ip = 455; continue _fun78139 }
+            if(romeo) { _fun00002_ip = 455; continue _fun00001 }
  445:
             romeo = output.getGuildId;
             mike = romeo.bind(output)();
  455:
             mike = zulu.bind(tango)(mike);
             tango = mike.groupedCustomEmojis;
-            if(!(oscar == tango)) { _fun78139_ip = 472; continue _fun78139 }
+            if(!(oscar == tango)) { _fun00002_ip = 472; continue _fun00001 }
  470:
             tango = {};
  472:
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             kilo = oscar == output;
             report = undefined;
-            if(kilo) { _fun78139_ip = 556; continue _fun78139 }
+            if(kilo) { _fun00002_ip = 556; continue _fun00001 }
  546:
             kilo = output.getGuildId;
             report = kilo.bind(output)();
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.trackWithMetadata;
             mike = _closure1_slot8;
             mike = mike.REACTION;
-            if(!(verify !== mike)) { _fun78139_ip = 690; continue _fun78139 }
+            if(!(verify !== mike)) { _fun00002_ip = 690; continue _fun00001 }
  678:
             mike = _closure1_slot7;
             zulu = mike.EXPRESSION_PICKER_OPENED;
-            _fun78139_ip = 700; continue _fun78139;
+            _fun00002_ip = 700; continue _fun00001;
  690:
             mike = _closure1_slot7;
             zulu = mike.REACTION_PICKER_OPENED;
@@ -208,13 +208,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['num_expressions_favorites'] = sizing;
             output = control.filter;
             sizing = function(argFoo) {
-                _fun78141: for(var _fun78141_ip = 0; ; ) switch(_fun78141_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun78141_ip = 20; continue _fun78141 }
+                    if(zulu) { _fun00004_ip = 20; continue _fun00003 }
  14:
                     entity = mike.animated;
  20:
@@ -249,13 +249,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['num_expressions_frecent'] = output;
             source = result.filter;
             output = function(argFoo) {
-                _fun78143: for(var _fun78143_ip = 0; ; ) switch(_fun78143_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun78143_ip = 20; continue _fun78143 }
+                    if(zulu) { _fun00006_ip = 20; continue _fun00005 }
  14:
                     entity = mike.animated;
  20:
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot8;
             golf = golf.REACTION;
             golf = verify === golf;
-            if(!golf) { _fun78139_ip = 1081; continue _fun78139 }
+            if(!golf) { _fun00002_ip = 1081; continue _fun00001 }
  1071:
             verify = {};
             verify['is_burst'] = offset;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = golf;
             golf = copyDataProperties(sequence, vacuum);
             oscar = oscar != options;
-            if(!oscar) { _fun78139_ip = 1108; continue _fun78139 }
+            if(!oscar) { _fun00002_ip = 1108; continue _fun00001 }
  1098:
             golf = {};
             golf['location_object'] = options;
@@ -391,14 +391,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot0 = mike;
         zulu = tango.useEffect;
         mike = function() {
-            _fun78148: for(var _fun78148_ip = 0; ; ) switch(_fun78148_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = _closure2_slot0;
                 mike = mike.current;
                 tango = mike.intention;
                 zulu = _closure1_slot8;
                 zulu = zulu.REACTION;
-                if(!(tango === zulu)) { _fun78148_ip = 55; continue _fun78148 }
+                if(!(tango === zulu)) { _fun00008_ip = 55; continue _fun00007 }
  35:
                 zulu = _closure1_slot10;
                 entity = _closure2_slot0;

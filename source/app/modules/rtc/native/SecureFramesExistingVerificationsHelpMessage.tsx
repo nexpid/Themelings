@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/rtc/native/SecureFramesExistingVerificationsHelpMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SecureFramesExistingVerificationsHelpMessage
-        _fun81261: for(var _fun81261_ip = 0; ; ) switch(_fun81261_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = mike.bind(zulu)(entity);
             mike = 0;
             entity = null;
-            if(!(mike !== romeo)) { _fun81261_ip = 242; continue _fun81261 }
+            if(!(mike !== romeo)) { _fun00002_ip = 242; continue _fun00001 }
  85:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;

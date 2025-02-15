@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Modal/native/ModalScreen.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ModalScreen
-        _fun99385: for(var _fun99385_ip = 0; ; ) switch(_fun99385_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.backgroundColor;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = golf;
             golf = null;
             golf = golf != verify;
-            if(!golf) { _fun99385_ip = 145; continue _fun99385 }
+            if(!golf) { _fun00002_ip = 145; continue _fun00001 }
  136:
             options = {};
             options['backgroundColor'] = verify;

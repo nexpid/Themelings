@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/changelog/useChangelogIdFromChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useChangelogIdFromChannel
-        _fun101416: for(var _fun101416_ip = 0; ; ) switch(_fun101416_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(zulu, mike);
             zulu = null;
             zulu = zulu == mike;
-            if(zulu) { _fun101416_ip = 79; continue _fun101416 }
+            if(zulu) { _fun00002_ip = 79; continue _fun00001 }
  73:
             entity = mike.changelogId;
  79:

@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: openBurstReactionFirstSendActionSheet
-        _fun44744: for(var _fun44744_ip = 0; ; ) switch(_fun44744_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.channelId;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.DismissibleContent;
             zulu = zulu.SUPER_REACTIONS_FIRST_SENT;
             zulu = options.bind(yankee)(zulu);
-            if(zulu) { _fun44744_ip = 239; continue _fun44744 }
+            if(zulu) { _fun00002_ip = 239; continue _fun00001 }
  111:
             options = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['emoji'] = report;
             zulu = 'BurstReactionFirstSendActionSheet';
             zulu = verify.bind(offset)(options, zulu, tango);
-            _fun44744_ip = 294; continue _fun44744;
+            _fun00002_ip = 294; continue _fun00001;
  239:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

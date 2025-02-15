@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.then;
         entity = function(argFoo) {
-            _fun109642: for(var _fun109642_ip = 0; ; ) switch(_fun109642_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 entity = report[Symbol.iterator];
@@ -94,24 +94,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = undefined;
                 tango = zulu === golf;
                 zulu = undefined;
-                if(tango) { _fun109642_ip = 27; continue _fun109642 }
+                if(tango) { _fun00002_ip = 27; continue _fun00001 }
  24:
                 zulu = mike;
  27:
                 mike = undefined;
-                if(tango) { _fun109642_ip = 57; continue _fun109642 }
+                if(tango) { _fun00002_ip = 57; continue _fun00001 }
  32:
                 oscar = report().value;
                 report = entity;
                 report = report === golf;
                 mike = undefined;
                 tango = report;
-                if(report) { _fun109642_ip = 57; continue _fun109642 }
+                if(report) { _fun00002_ip = 57; continue _fun00001 }
  51:
                 mike = oscar;
                 tango = report;
  57:
-                if(tango) { _fun109642_ip = 63; continue _fun109642 }
+                if(tango) { _fun00002_ip = 63; continue _fun00001 }
  60:
                 entity.return();
  63:

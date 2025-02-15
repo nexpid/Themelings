@@ -23,11 +23,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = backup.id;
         mike[1] = options;
         entity = function() {
-            _fun113897: for(var _fun113897_ip = 0; ; ) switch(_fun113897_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity == mike)) { _fun113897_ip = 17; continue _fun113897 }
+                if(!(entity == mike)) { _fun00002_ip = 17; continue _fun00001 }
  13:
                 entity = undefined;
                 return entity;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun113899: for(var _fun113899_ip = 0; ; ) switch(_fun113899_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = mike.threadId;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = tango.bind(verify)(zulu, entity);
             entity = null;
             zulu = entity == verify;
-            if(zulu) { _fun113899_ip = 127; continue _fun113899 }
+            if(zulu) { _fun00004_ip = 127; continue _fun00003 }
  94:
             tango = _closure1_slot5;
             zulu = _closure1_slot7;

@@ -41,11 +41,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/connectivity/native/useGlobalStatusIndicatorState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun103687: for(var _fun103687_ip = 0; ; ) switch(_fun103687_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             options = undefined;
-            if(!(mike === options)) { _fun103687_ip = 13; continue _fun103687 }
+            if(!(mike === options)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             mike = false;
  13:
@@ -96,7 +96,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango[0] = backup;
             tango[1] = oscar;
             zulu = function() {
-                _fun103689: for(var _fun103689_ip = 0; ; ) switch(_fun103689_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot3;
                     zulu = tango.getChannel;
@@ -105,12 +105,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == tango;
                     entity = undefined;
-                    if(zulu) { _fun103689_ip = 45; continue _fun103689 }
+                    if(zulu) { _fun00004_ip = 45; continue _fun00003 }
  35:
                     zulu = tango.isGuildStageVoice;
                     entity = zulu.bind(tango)();
  45:
-                    if(!entity) { _fun103689_ip = 55; continue _fun103689 }
+                    if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  48:
                     mike = _closure2_slot1;
                     entity = !mike;
@@ -132,7 +132,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             yankee = romeo.useOpenModalKey;
             romeo = yankee.bind(romeo)();
             yankee = golf != offset;
-            if(!yankee) { _fun103687_ip = 308; continue _fun103687 }
+            if(!yankee) { _fun00002_ip = 308; continue _fun00001 }
  260:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -141,7 +141,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             backup = backup.bind(options)(foxtrot);
             foxtrot = backup.getVoiceChannelKey;
             offset = offset.channelId;
-            if(!(golf == offset)) { _fun103687_ip = 299; continue _fun103687 }
+            if(!(golf == offset)) { _fun00002_ip = 299; continue _fun00001 }
  295:
             offset = _closure1_slot6;
  299:
@@ -176,24 +176,24 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             offset = romeo.showWhenParticipantOnScreen;
             yankee = romeo.isConnectedToStageChannel;
             romeo = romeo.isInvitedToSpeak;
-            if(mike) { _fun103687_ip = 486; continue _fun103687 }
+            if(mike) { _fun00002_ip = 486; continue _fun00001 }
  444:
             golf = !golf;
-            if(!golf) { _fun103687_ip = 462; continue _fun103687 }
+            if(!golf) { _fun00002_ip = 462; continue _fun00001 }
  450:
             yankee = !yankee;
-            if(yankee) { _fun103687_ip = 459; continue _fun103687 }
+            if(yankee) { _fun00002_ip = 459; continue _fun00001 }
  456:
             yankee = !romeo;
  459:
             golf = yankee;
  462:
-            if(!golf) { _fun103687_ip = 483; continue _fun103687 }
+            if(!golf) { _fun00002_ip = 483; continue _fun00001 }
  465:
             options = !options;
-            if(options) { _fun103687_ip = 480; continue _fun103687 }
+            if(options) { _fun00002_ip = 480; continue _fun00001 }
  471:
-            if(!verify) { _fun103687_ip = 477; continue _fun103687 }
+            if(!verify) { _fun00002_ip = 477; continue _fun00001 }
  474:
             verify = !offset;
  477:
@@ -204,23 +204,23 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = golf;
  486:
             mike = !mike;
-            if(!mike) { _fun103687_ip = 495; continue _fun103687 }
+            if(!mike) { _fun00002_ip = 495; continue _fun00001 }
  492:
-            if(oscar) { _fun103687_ip = 504; continue _fun103687 }
+            if(oscar) { _fun00002_ip = 504; continue _fun00001 }
  495:
             report = 0;
-            if(!mike) { _fun103687_ip = 504; continue _fun103687 }
+            if(!mike) { _fun00002_ip = 504; continue _fun00001 }
  500:
             report = _closure1_slot5;
  504:
             entity = {};
             entity['height'] = report;
             entity['isVisible'] = mike;
-            if(!mike) { _fun103687_ip = 521; continue _fun103687 }
+            if(!mike) { _fun00002_ip = 521; continue _fun00001 }
  518:
             mike = tango;
  521:
-            if(!mike) { _fun103687_ip = 527; continue _fun103687 }
+            if(!mike) { _fun00002_ip = 527; continue _fun00001 }
  524:
             mike = !zulu;
  527:

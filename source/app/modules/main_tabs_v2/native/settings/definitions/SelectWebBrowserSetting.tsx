@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     mike['onValueChange'] = golf;
     tango = function() { // Original name: useWebBrowserSettingOptions
-        _fun97740: for(var _fun97740_ip = 0; ; ) switch(_fun97740_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.bind(oscar)(zulu);
             zulu = report.isAndroid;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun97740_ip = 247; continue _fun97740 }
+            if(zulu) { _fun00002_ip = 247; continue _fun00001 }
  154:
             report = entity.push;
             zulu = {};
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu['value'] = options;
             zulu = report.bind(entity)(zulu);
  247:
-            if(!mike) { _fun97740_ip = 396; continue _fun97740 }
+            if(!mike) { _fun00002_ip = 396; continue _fun00001 }
  253:
             zulu = entity.push;
             mike = {};
@@ -151,11 +151,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = options[romeo];
             options = yankee.bind(oscar)(options);
             options = options.t;
-            if(report) { _fun97740_ip = 343; continue _fun97740 }
+            if(report) { _fun00002_ip = 343; continue _fun00001 }
  330:
             report = options.FfjVVl;
             report = verify.bind(offset)(report);
-            _fun97740_ip = 354; continue _fun97740;
+            _fun00002_ip = 354; continue _fun00001;
  343:
             options = options.kEfv8/;
             report = verify.bind(offset)(options);

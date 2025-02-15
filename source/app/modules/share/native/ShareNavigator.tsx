@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/share/native/ShareNavigator.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShareNavigator
-        _fun120539: for(var _fun120539_ip = 0; ; ) switch(_fun120539_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = _closure1_slot6;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             report = mike == zulu;
             verify = undefined;
-            if(report) { _fun120539_ip = 79; continue _fun120539 }
+            if(report) { _fun00002_ip = 79; continue _fun00001 }
  73:
             verify = zulu.params;
  79:
-            if(!(mike == verify)) { _fun120539_ip = 89; continue _fun120539 }
+            if(!(mike == verify)) { _fun00002_ip = 89; continue _fun00001 }
  83:
             verify = entity.sharedContent;
  89:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure3_slot0;
                     entity['navigation'] = report;
                     report = function() { // Original name: onPress
-                        _fun120543: for(var _fun120543_ip = 0; ; ) switch(_fun120543_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             tango = _closure1_slot0;
                             zulu = _closure1_slot2;
@@ -148,13 +148,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = tango.bind(entity)(zulu);
                             entity = zulu.isAndroid;
                             entity = entity.bind(zulu)();
-                            if(entity) { _fun120543_ip = 61; continue _fun120543 }
+                            if(entity) { _fun00004_ip = 61; continue _fun00003 }
  37:
                             tango = _closure3_slot0;
                             zulu = tango.navigate;
                             entity = 'root';
                             entity = zulu.bind(tango)(entity);
-                            _fun120543_ip = 75; continue _fun120543;
+                            _fun00004_ip = 75; continue _fun00003;
  61:
                             zulu = _closure1_slot3;
                             mike = zulu.exitApp;

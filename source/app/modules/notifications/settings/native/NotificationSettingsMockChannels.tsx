@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsMockChannels.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsMockChannels
-        _fun86903: for(var _fun86903_ip = 0; ; ) switch(_fun86903_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot7;
             tango = undefined;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = argFoo;
             zulu = zulu.unreadSetting;
             mike = mike.ALL_MESSAGES;
-            if(!(zulu === mike)) { _fun86903_ip = 299; continue _fun86903 }
+            if(!(zulu === mike)) { _fun00002_ip = 299; continue _fun00001 }
  276:
             mike = 1;
             zulu = golf[mike];
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = golf.map;
             report = function(argFoo) {
-                _fun86904: for(var _fun86904_ip = 0; ; ) switch(_fun86904_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     report = _closure1_slot6;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = _closure1_slot4;
                     foxtrot = romeo.ONLY_MENTIONS;
                     romeo = undefined;
-                    if(!(backup === foxtrot)) { _fun86904_ip = 182; continue _fun86904 }
+                    if(!(backup === foxtrot)) { _fun00004_ip = 182; continue _fun00003 }
  176:
                     romeo = 'text-muted';
  182:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = _closure1_slot4;
                     foxtrot = romeo.ONLY_MENTIONS;
                     romeo = undefined;
-                    if(!(backup === foxtrot)) { _fun86904_ip = 277; continue _fun86904 }
+                    if(!(backup === foxtrot)) { _fun00004_ip = 277; continue _fun00003 }
  271:
                     romeo = 'text-muted';
  277:
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = {};
                     yankee = entity.badged;
                     offset = 0;
-                    if(!yankee) { _fun86904_ip = 358; continue _fun86904 }
+                    if(!yankee) { _fun00004_ip = 358; continue _fun00003 }
  355:
                     offset = 1;
  358:

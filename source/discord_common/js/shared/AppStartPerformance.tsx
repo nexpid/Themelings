@@ -1,6 +1,6 @@
 // discord_common/js/shared/AppStartPerformance.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun246: for(var _fun246_ip = 0; ; ) switch(_fun246_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argFoo;
         options = argBaz;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot3 = golf;
         golf = oscar.__getTotalRequireTime;
         oscar = null;
-        if(!(oscar != golf)) { _fun246_ip = 118; continue _fun246 }
+        if(!(oscar != golf)) { _fun00002_ip = 118; continue _fun00001 }
  111:
         oscar = function() {
             mike = _closure1_slot0;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(mike)();
             return entity;
         };
-        _fun246_ip = 123; continue _fun246;
+        _fun00002_ip = 123; continue _fun00001;
  118:
         oscar = function() {
             entity = 0;
@@ -96,18 +96,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 'isTracing';
             report['key'] = mike;
             mike = function() { // Original name: get
-                _fun251: for(var _fun251_ip = 0; ; ) switch(_fun251_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = this;
                     entity = _closure1_slot5;
                     mike = !entity;
-                    if(!entity) { _fun251_ip = 25; continue _fun251 }
+                    if(!entity) { _fun00004_ip = 25; continue _fun00003 }
  16:
                     entity = tango.isTracing_;
                     mike = !entity;
  25:
                     entity = !mike;
-                    if(mike) { _fun251_ip = 77; continue _fun251 }
+                    if(mike) { _fun00004_ip = 77; continue _fun00003 }
  31:
                     mike = global;
                     zulu = mike.Date;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.endTime_;
                     zulu = zulu > mike;
                     mike = !zulu;
-                    if(!zulu) { _fun251_ip = 74; continue _fun251 }
+                    if(!zulu) { _fun00004_ip = 74; continue _fun00003 }
  64:
                     zulu = false;
                     tango['isTracing_'] = zulu;
@@ -154,11 +154,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'resumeTracing';
             report['key'] = golf;
             golf = function() { // Original name: value
-                _fun254: for(var _fun254_ip = 0; ; ) switch(_fun254_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = this;
                     entity = mike.isTracing;
-                    if(entity) { _fun254_ip = 110; continue _fun254 }
+                    if(entity) { _fun00006_ip = 110; continue _fun00005 }
  12:
                     tango = mike.logGroups;
                     zulu = tango.unshift;
@@ -199,11 +199,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'mark';
             report['key'] = golf;
             golf = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun255: for(var _fun255_ip = 0; ; ) switch(_fun255_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = this;
                     entity = mike.isTracing;
-                    if(!entity) { _fun255_ip = 117; continue _fun255 }
+                    if(!entity) { _fun00008_ip = 117; continue _fun00007 }
  12:
                     tango = mike.logs;
                     zulu = tango.push;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'markAndLog';
             report['key'] = golf;
             golf = function(argFoo, argBar, argBaz, argCorge) { // Original name: value
-                _fun256: for(var _fun256_ip = 0; ; ) switch(_fun256_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zulu = argFoo;
                     report = argBaz;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.log;
                     entity = entity.bind(zulu)(report);
                     entity = mike.isTracing;
-                    if(!entity) { _fun256_ip = 111; continue _fun256 }
+                    if(!entity) { _fun00010_ip = 111; continue _fun00009 }
  29:
                     tango = mike.logs;
                     zulu = tango.push;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'addImportLogDetail';
             report['key'] = golf;
             golf = function() { // Original name: value
-                _fun257: for(var _fun257_ip = 0; ; ) switch(_fun257_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     zulu = this;
                     mike = _closure1_slot4;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = zulu.lastImportDuration;
                     report = mike - tango;
                     tango = 25;
-                    if(!(report > tango)) { _fun257_ip = 84; continue _fun257 }
+                    if(!(report > tango)) { _fun00012_ip = 84; continue _fun00011 }
  33:
                     oscar = zulu.addDetail;
                     tango = global;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'markWithDelta';
             report['key'] = golf;
             golf = function(argFoo, argBar) { // Original name: value
-                _fun258: for(var _fun258_ip = 0; ; ) switch(_fun258_ip) {
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     oscar = this;
                     mike = oscar.logs;
@@ -323,12 +323,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = golf != mike;
                     entity = undefined;
                     tango = undefined;
-                    if(!zulu) { _fun258_ip = 92; continue _fun258 }
+                    if(!zulu) { _fun00014_ip = 92; continue _fun00013 }
  50:
                     zulu = mike.timestamp;
                     zulu = golf != zulu;
                     tango = undefined;
-                    if(!zulu) { _fun258_ip = 92; continue _fun258 }
+                    if(!zulu) { _fun00014_ip = 92; continue _fun00013 }
  65:
                     zulu = global;
                     golf = zulu.Date;
@@ -349,12 +349,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'markAt';
             report['key'] = golf;
             golf = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun259: for(var _fun259_ip = 0; ; ) switch(_fun259_ip) {
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     options = argBaz;
                     golf = this;
                     entity = golf.isTracing;
-                    if(!entity) { _fun259_ip = 178; continue _fun259 }
+                    if(!entity) { _fun00016_ip = 178; continue _fun00015 }
  18:
                     entity = golf.logs;
                     entity = entity.length;
@@ -363,21 +363,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     mike = 0;
                     tango = 0;
-                    if(!entity) { _fun259_ip = 92; continue _fun259 }
+                    if(!entity) { _fun00016_ip = 92; continue _fun00015 }
  44:
                     entity = golf.logs;
                     entity = entity[mike];
                     entity = entity.timestamp;
-                    if(!(oscar != entity)) { _fun259_ip = 71; continue _fun259 }
+                    if(!(oscar != entity)) { _fun00016_ip = 71; continue _fun00015 }
  64:
                     tango = mike;
-                    if(!(!(entity > options))) { _fun259_ip = 92; continue _fun259 }
+                    if(!(!(entity > options))) { _fun00016_ip = 92; continue _fun00015 }
  71:
                     mike = mike + 1;
                     entity = golf.logs;
                     entity = entity.length;
                     tango = mike;
-                    if(tango < entity) { _fun259_ip = 44; continue _fun259 }
+                    if(tango < entity) { _fun00016_ip = 44; continue _fun00015 }
  92:
                     zulu = golf.logs;
                     mike = zulu.splice;
@@ -391,13 +391,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = golf[tango];
                     verify = oscar == options;
                     golf = undefined;
-                    if(verify) { _fun259_ip = 152; continue _fun259 }
+                    if(verify) { _fun00016_ip = 152; continue _fun00015 }
  146:
                     golf = options.prefix;
  152:
                     options = oscar != golf;
                     oscar = '';
-                    if(!options) { _fun259_ip = 166; continue _fun259 }
+                    if(!options) { _fun00016_ip = 166; continue _fun00015 }
  163:
                     oscar = golf;
  166:
@@ -414,11 +414,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'addDetail';
             report['key'] = golf;
             golf = function(argFoo, argBar) { // Original name: value
-                _fun260: for(var _fun260_ip = 0; ; ) switch(_fun260_ip) {
+                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     tango = this;
                     entity = tango.isTracing;
-                    if(!entity) { _fun260_ip = 121; continue _fun260 }
+                    if(!entity) { _fun00018_ip = 121; continue _fun00017 }
  12:
                     zulu = tango.logs;
                     mike = zulu.push;
@@ -454,14 +454,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'time';
             report['key'] = golf;
             golf = function(argFoo, argBar, argBaz) { // Original name: value
-                _fun261: for(var _fun261_ip = 0; ; ) switch(_fun261_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     oscar = argFoo;
                     options = argBar;
                     tango = argBaz;
                     report = this;
                     entity = report.isTracing;
-                    if(entity) { _fun261_ip = 29; continue _fun261 }
+                    if(entity) { _fun00020_ip = 29; continue _fun00019 }
  21:
                     entity = undefined;
                     entity = tango.bind(entity)();
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = undefined;
             golf = function* (argFoo, argBar, argBaz) {
                 entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                    _fun263: for(var _fun263_ip = 0; ; ) switch(_fun263_ip) {
+                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                         StartGenerator();
                         golf = argFoo;
@@ -515,10 +515,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = argBaz;
                         oscar = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun263_ip = 167; continue _fun263 }
+                        if(mike) { _fun00022_ip = 167; continue _fun00021 }
  22:
                         mike = oscar.isTracing;
-                        if(mike) { _fun263_ip = 40; continue _fun263 }
+                        if(mike) { _fun00022_ip = 40; continue _fun00021 }
  31:
                         mike = undefined;
                         mike = tango.bind(mike)();
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  101:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun263_ip = 164; continue _fun263 }
+                        if(tango) { _fun00022_ip = 164; continue _fun00021 }
  107:
                         options = zulu.Date;
                         tango = options.now;

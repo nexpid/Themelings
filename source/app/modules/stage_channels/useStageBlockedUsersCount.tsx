@@ -41,13 +41,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun67735: for(var _fun67735_ip = 0; ; ) switch(_fun67735_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
                 mike = entity != mike;
                 entity = 0;
-                if(!mike) { _fun67735_ip = 75; continue _fun67735 }
+                if(!mike) { _fun00002_ip = 75; continue _fun00001 }
  18:
                 report = _closure1_slot2;
                 tango = report.getParticipantCount;
@@ -85,13 +85,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun67737: for(var _fun67737_ip = 0; ; ) switch(_fun67737_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
                 mike = entity != mike;
                 entity = 0;
-                if(!mike) { _fun67737_ip = 75; continue _fun67737 }
+                if(!mike) { _fun00004_ip = 75; continue _fun00003 }
  18:
                 report = _closure1_slot2;
                 tango = report.getParticipantCount;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useStageIgnoredUsersCount'] = tango;
     tango = function(argFoo) { // Original name: getStageBlockedUsersCount
-        _fun67738: for(var _fun67738_ip = 0; ; ) switch(_fun67738_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getParticipantCount;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity != mike;
             entity = 0;
-            if(!zulu) { _fun67738_ip = 70; continue _fun67738 }
+            if(!zulu) { _fun00006_ip = 70; continue _fun00005 }
  67:
             entity = mike;
  70:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getStageBlockedUsersCount'] = tango;
     tango = function(argFoo) { // Original name: getStageIgnoredUsersCount
-        _fun67739: for(var _fun67739_ip = 0; ; ) switch(_fun67739_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getParticipantCount;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity != mike;
             entity = 0;
-            if(!zulu) { _fun67739_ip = 70; continue _fun67739 }
+            if(!zulu) { _fun00008_ip = 70; continue _fun00007 }
  67:
             entity = mike;
  70:

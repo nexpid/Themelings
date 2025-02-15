@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_profile/native/components/v2/GuildProfileActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildProfileActionSheet
-        _fun90612: for(var _fun90612_ip = 0; ; ) switch(_fun90612_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.guildId;
@@ -144,15 +144,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = foxtrot.bind(backup)(mike, golf);
-            if(entity) { _fun90612_ip = 424; continue _fun90612 }
+            if(entity) { _fun00002_ip = 424; continue _fun00001 }
  285:
             entity = null;
-            if(!(entity == oscar)) { _fun90612_ip = 299; continue _fun90612 }
+            if(!(entity == oscar)) { _fun00002_ip = 299; continue _fun00001 }
  291:
             mike = _closure1_slot7;
-            if(!(zulu !== mike)) { _fun90612_ip = 388; continue _fun90612 }
+            if(!(zulu !== mike)) { _fun00002_ip = 388; continue _fun00001 }
  299:
-            if(!(entity != oscar)) { _fun90612_ip = 347; continue _fun90612 }
+            if(!(entity != oscar)) { _fun00002_ip = 347; continue _fun00001 }
  303:
             zulu = _closure1_slot8;
             mike = _closure1_slot1;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['guildProfile'] = oscar;
             golf = zulu.bind(tango)(mike, entity);
             entity = false;
-            _fun90612_ip = 480; continue _fun90612;
+            _fun00002_ip = 480; continue _fun00001;
  347:
             oscar = _closure1_slot8;
             zulu = _closure1_slot1;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['onRetry'] = romeo;
             golf = oscar.bind(tango)(zulu, mike);
             entity = true;
-            _fun90612_ip = 480; continue _fun90612;
+            _fun00002_ip = 480; continue _fun00001;
  388:
             oscar = _closure1_slot8;
             zulu = _closure1_slot1;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             golf = oscar.bind(tango)(zulu, mike);
             entity = true;
-            _fun90612_ip = 480; continue _fun90612;
+            _fun00002_ip = 480; continue _fun00001;
  424:
             oscar = _closure1_slot8;
             zulu = _closure1_slot4;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = false;
  480:
             oscar = undefined;
-            if(!entity) { _fun90612_ip = 615; continue _fun90612 }
+            if(!entity) { _fun00002_ip = 615; continue _fun00001 }
  488:
             zulu = _closure1_slot8;
             mike = _closure1_slot4;

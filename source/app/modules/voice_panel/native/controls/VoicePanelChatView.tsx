@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar) { // Original name: updateChatOpen
-        _fun101713: for(var _fun101713_ip = 0; ; ) switch(_fun101713_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = argBar;
@@ -18,12 +18,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[entity];
             entity = undefined;
             golf = oscar.bind(entity)(zulu);
-            if(tango) { _fun101713_ip = 52; continue _fun101713 }
+            if(tango) { _fun00002_ip = 52; continue _fun00001 }
  34:
             oscar = golf.disableAutomaticAck;
             zulu = '';
             zulu = oscar.bind(golf)(report, zulu);
-            _fun101713_ip = 68; continue _fun101713;
+            _fun00002_ip = 68; continue _fun00001;
  52:
             oscar = golf.enableAutomaticAck;
             zulu = '';
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot11 = report;
     report = options.memo;
     tango = function(argFoo) { // Original name: VoicePanelChatView
-        _fun101718: for(var _fun101718_ip = 0; ; ) switch(_fun101718_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             oscar = mike.shown;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = sizing;
             zulu[1] = kilo;
             mike = function() {
-                _fun101719: for(var _fun101719_ip = 0; ; ) switch(_fun101719_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -266,10 +266,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.preload;
                     oscar = _closure2_slot2;
                     report = null;
-                    if(!(report == oscar)) { _fun101719_ip = 50; continue _fun101719 }
+                    if(!(report == oscar)) { _fun00006_ip = 50; continue _fun00005 }
  44:
                     mike = _closure1_slot5;
-                    _fun101719_ip = 54; continue _fun101719;
+                    _fun00006_ip = 54; continue _fun00005;
  50:
                     mike = _closure2_slot2;
  54:
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = kilo;
             mike[1] = oscar;
             entity = function() {
-                _fun101721: for(var _fun101721_ip = 0; ; ) switch(_fun101721_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure1_slot12;
                     mike = _closure2_slot3;
@@ -302,22 +302,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot1;
                     zulu = mike.current;
                     mike = null;
-                    if(report) { _fun101721_ip = 79; continue _fun101721 }
+                    if(report) { _fun00008_ip = 79; continue _fun00007 }
  40:
-                    if(!(mike != zulu)) { _fun101721_ip = 54; continue _fun101721 }
+                    if(!(mike != zulu)) { _fun00008_ip = 54; continue _fun00007 }
  44:
                     report = zulu.chatInputTrackerUnregister;
                     report = report.bind(zulu)();
  54:
                     tango = _closure2_slot1;
                     report = tango.current;
-                    if(!(mike != report)) { _fun101721_ip = 93; continue _fun101721 }
+                    if(!(mike != report)) { _fun00008_ip = 93; continue _fun00007 }
  67:
                     tango = report.blur;
                     tango = tango.bind(report)();
-                    _fun101721_ip = 93; continue _fun101721;
+                    _fun00008_ip = 93; continue _fun00007;
  79:
-                    if(!(mike != zulu)) { _fun101721_ip = 93; continue _fun101721 }
+                    if(!(mike != zulu)) { _fun00008_ip = 93; continue _fun00007 }
  83:
                     mike = zulu.chatInputTrackerRegister;
                     mike = mike.bind(zulu)();
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = offset.bind(tango)(options);
             options = {'disableGradient': true, 'alwaysRespectKeyboard': false, 'setNoExtractUI': false};
             offset = true;
-            if(!(output == sizing)) { _fun101718_ip = 288; continue _fun101718 }
+            if(!(output == sizing)) { _fun00004_ip = 288; continue _fun00003 }
  284:
             sizing = _closure1_slot5;
  288:

@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_engine/trackVideoToggle.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) { // Original name: trackVideoToggle
-        _fun105430: for(var _fun105430_ip = 0; ; ) switch(_fun105430_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             backup = oscar == verify;
             verify = undefined;
-            if(backup) { _fun105430_ip = 140; continue _fun105430 }
+            if(backup) { _fun00002_ip = 140; continue _fun00001 }
  132:
             backup = _closure1_slot2;
             verify = backup.bind(entity)();
@@ -67,26 +67,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = _closure1_slot3;
             backup = oscar == verify;
             verify = undefined;
-            if(backup) { _fun105430_ip = 166; continue _fun105430 }
+            if(backup) { _fun00002_ip = 166; continue _fun00001 }
  158:
             foxtrot = _closure1_slot3;
             verify = foxtrot.bind(entity)();
  166:
             mike['media_session_id'] = verify;
             verify = null;
-            if(!options) { _fun105430_ip = 179; continue _fun105430 }
+            if(!options) { _fun00002_ip = 179; continue _fun00001 }
  176:
             verify = romeo;
  179:
             mike['video_health_manager_window_length'] = verify;
             verify = null;
-            if(!options) { _fun105430_ip = 194; continue _fun105430 }
+            if(!options) { _fun00002_ip = 194; continue _fun00001 }
  191:
             verify = yankee;
  194:
             mike['video_health_manager_poor_fps_ratio'] = verify;
             verify = null;
-            if(!options) { _fun105430_ip = 209; continue _fun105430 }
+            if(!options) { _fun00002_ip = 209; continue _fun00001 }
  206:
             verify = offset;
  209:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = argBaz;
             mike['is_video_shown'] = verify;
             oscar = null;
-            if(!options) { _fun105430_ip = 234; continue _fun105430 }
+            if(!options) { _fun00002_ip = 234; continue _fun00001 }
  231:
             oscar = golf;
  234:

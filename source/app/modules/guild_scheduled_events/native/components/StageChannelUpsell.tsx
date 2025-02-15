@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/StageChannelUpsell.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: StageChannelUpsell
-        _fun76404: for(var _fun76404_ip = 0; ; ) switch(_fun76404_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = zulu[entity];
             var _closure2_slot2 = yankee;
             entity = null;
-            if(mike) { _fun76404_ip = 723; continue _fun76404 }
+            if(mike) { _fun00002_ip = 723; continue _fun00001 }
  83:
             tango = _closure1_slot11;
             zulu = _closure1_slot5;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = offset.GUILD_STAGE_VOICE;
                 oscar['channelType'] = offset;
                 offset = function(argFoo) { // Original name: onChannelCreated
-                    _fun76407: for(var _fun76407_ip = 0; ; ) switch(_fun76407_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure1_slot6;
                         mike = {};
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = undefined;
                         zulu = zulu.bind(entity)(mike);
                         mike = null;
-                        if(!(mike != zulu)) { _fun76407_ip = 55; continue _fun76407 }
+                        if(!(mike != zulu)) { _fun00004_ip = 55; continue _fun00003 }
  43:
                         mike = _closure2_slot1;
                         mike = mike.bind(entity)(zulu);

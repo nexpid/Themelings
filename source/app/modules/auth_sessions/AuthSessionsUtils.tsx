@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun95566: for(var _fun95566_ip = 0; ; ) switch(_fun95566_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 verify = _closure2_slot0;
                 mike = new Array(0);
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 tango = oscar != zulu;
                 zulu = null;
-                if(!tango) { _fun95566_ip = 102; continue _fun95566 }
+                if(!tango) { _fun00002_ip = 102; continue _fun00001 }
  56:
                 golf = mike.findIndex;
                 tango = function(argFoo) {
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.bind(mike)(tango);
                 tango = golf >= report;
                 zulu = null;
-                if(!tango) { _fun95566_ip = 102; continue _fun95566 }
+                if(!tango) { _fun00002_ip = 102; continue _fun00001 }
  83:
                 oscar = mike.splice;
                 tango = 1;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useAuthSessions'] = tango;
     mike = function(argFoo) { // Original name: formatDate
-        _fun95569: for(var _fun95569_ip = 0; ; ) switch(_fun95569_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = global;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity / mike;
             mike = entity / mike;
             entity = 1;
-            if(!(!(mike < entity))) { _fun95569_ip = 103; continue _fun95569 }
+            if(!(!(mike < entity))) { _fun00004_ip = 103; continue _fun00003 }
  61:
             tango = _closure1_slot1;
             mike = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(mike)(zulu);
             entity = mike.fromNow;
             entity = entity.bind(mike)();
-            _fun95569_ip = 163; continue _fun95569;
+            _fun00004_ip = 163; continue _fun00003;
  103:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

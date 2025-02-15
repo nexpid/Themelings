@@ -46,18 +46,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun96865: for(var _fun96865_ip = 0; ; ) switch(_fun96865_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 report = null;
                 zulu = report != entity;
                 entity = undefined;
-                if(!zulu) { _fun96865_ip = 64; continue _fun96865 }
+                if(!zulu) { _fun00002_ip = 64; continue _fun00001 }
  18:
                 zulu = _closure2_slot1;
                 zulu = report != zulu;
                 entity = undefined;
-                if(!zulu) { _fun96865_ip = 64; continue _fun96865 }
+                if(!zulu) { _fun00002_ip = 64; continue _fun00001 }
  31:
                 report = _closure1_slot2;
                 tango = report.getRole;

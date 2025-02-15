@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     mike = function(argFoo) { // Original name: formatExpirationLabel
-        _fun72091: for(var _fun72091_ip = 0; ; ) switch(_fun72091_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             tango = _closure1_slot1;
@@ -18,18 +18,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = undefined;
             zulu = tango.bind(entity)(zulu);
             report = zulu.bind(entity)();
-            if(!(!(options <= report))) { _fun72091_ip = 286; continue _fun72091 }
+            if(!(!(options <= report))) { _fun00002_ip = 286; continue _fun00001 }
  38:
             tango = options.diff;
             zulu = 'days';
             oscar = tango.bind(options)(report, zulu);
             golf = 1;
-            if(!(!(oscar > golf))) { _fun72091_ip = 224; continue _fun72091 }
+            if(!(!(oscar > golf))) { _fun00002_ip = 224; continue _fun00001 }
  64:
             tango = options.diff;
             zulu = 'hours';
             verify = tango.bind(options)(report, zulu);
-            if(!(!(verify > golf))) { _fun72091_ip = 162; continue _fun72091 }
+            if(!(!(verify > golf))) { _fun00002_ip = 162; continue _fun00001 }
  84:
             tango = options.diff;
             zulu = 'minutes';
@@ -99,11 +99,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/polls/chat/useFormattedExpirationLabel.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: useFormattedExpirationLabel
-        _fun72092: for(var _fun72092_ip = 0; ; ) switch(_fun72092_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity == zulu)) { _fun72092_ip = 13; continue _fun72092 }
+            if(!(entity == zulu)) { _fun00004_ip = 13; continue _fun00003 }
  9:
             entity = undefined;
             return entity;

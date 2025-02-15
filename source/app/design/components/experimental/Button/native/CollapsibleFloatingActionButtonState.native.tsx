@@ -45,14 +45,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['useCollapsibleFloatingActionButtonState'] = tango;
     mike = function(argFoo) { // Original name: useCollapsibleFloatingActionButtonScroll
-        _fun76266: for(var _fun76266_ip = 0; ; ) switch(_fun76266_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = arguments[1];
             entity = argFoo;
             report = entity.collapseText;
             var _closure2_slot0 = report;
             oscar = undefined;
-            if(!(golf === oscar)) { _fun76266_ip = 26; continue _fun76266 }
+            if(!(golf === oscar)) { _fun00002_ip = 26; continue _fun00001 }
  24:
             golf = 0;
  26:
@@ -69,12 +69,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = _closure1_slot2;
             zulu = tango.useCallback;
             mike = function(argFoo) { // Original name: s
-                _fun76267: for(var _fun76267_ip = 0; ; ) switch(_fun76267_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
                     mike = null;
-                    if(!(mike != entity)) { _fun76267_ip = 173; continue _fun76267 }
+                    if(!(mike != entity)) { _fun00004_ip = 173; continue _fun00003 }
  17:
                     mike = entity.contentOffset;
                     zulu = mike.y;
@@ -83,34 +83,34 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     entity = entity.layoutMeasurement;
                     mike = entity.height;
                     report = _closure2_slot1;
-                    if(!(!(zulu < report))) { _fun76267_ip = 173; continue _fun76267 }
+                    if(!(!(zulu < report))) { _fun00004_ip = 173; continue _fun00003 }
  61:
                     mike = zulu + mike;
-                    if(!(!(mike > tango))) { _fun76267_ip = 173; continue _fun76267 }
+                    if(!(!(mike > tango))) { _fun00004_ip = 173; continue _fun00003 }
  69:
                     tango = _closure2_slot2;
                     mike = tango.get;
                     mike = mike.bind(tango)();
                     golf = zulu - mike;
                     tango = 10;
-                    if(!(!(zulu < tango))) { _fun76267_ip = 143; continue _fun76267 }
+                    if(!(!(zulu < tango))) { _fun00004_ip = 143; continue _fun00003 }
  93:
                     mike = global;
                     report = mike.Math;
                     mike = report.abs;
                     mike = mike.bind(report)(golf);
-                    if(!(mike > tango)) { _fun76267_ip = 159; continue _fun76267 }
+                    if(!(mike > tango)) { _fun00004_ip = 159; continue _fun00003 }
  116:
                     report = _closure2_slot0;
                     tango = report.set;
                     mike = 1;
                     oscar = 0;
-                    if(!(golf < oscar)) { _fun76267_ip = 136; continue _fun76267 }
+                    if(!(golf < oscar)) { _fun00004_ip = 136; continue _fun00003 }
  134:
                     mike = 0;
  136:
                     mike = tango.bind(report)(mike);
-                    _fun76267_ip = 159; continue _fun76267;
+                    _fun00004_ip = 159; continue _fun00003;
  143:
                     report = _closure2_slot0;
                     tango = report.set;

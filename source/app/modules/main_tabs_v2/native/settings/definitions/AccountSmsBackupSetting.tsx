@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     tango = function() { // Original name: useAccountSMSBackupSettingDescription
-        _fun94622: for(var _fun94622_ip = 0; ; ) switch(_fun94622_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(oscar)(zulu, entity);
             entity = null;
             zulu = entity == tango;
-            if(zulu) { _fun94622_ip = 97; continue _fun94622 }
+            if(zulu) { _fun00002_ip = 97; continue _fun00001 }
  66:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -79,18 +79,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = report.bind(entity)(mike);
     yankee = romeo.debounce;
     offset = function(argFoo) { // Original name: toggleSMS
-        _fun94624: for(var _fun94624_ip = 0; ; ) switch(_fun94624_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.mfaSMSEnabled;
             entity = entity.user;
-            if(mike) { _fun94624_ip = 339; continue _fun94624 }
+            if(mike) { _fun00004_ip = 339; continue _fun00003 }
  20:
             mike = null;
-            if(!(mike != entity)) { _fun94624_ip = 36; continue _fun94624 }
+            if(!(mike != entity)) { _fun00004_ip = 36; continue _fun00003 }
  26:
             entity = entity.phone;
-            if(!(mike == entity)) { _fun94624_ip = 148; continue _fun94624 }
+            if(!(mike == entity)) { _fun00004_ip = 148; continue _fun00003 }
  36:
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['reason'] = oscar;
             entity = _closure1_slot5;
             entity = tango.bind(report)(zulu, mike, entity);
-            _fun94624_ip = 525; continue _fun94624;
+            _fun00004_ip = 525; continue _fun00003;
  148:
             options = _closure1_slot0;
             report = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report[entity];
             entity = tango.bind(zulu)(entity);
             entity = entity.bind(zulu)(mike);
-            _fun94624_ip = 525; continue _fun94624;
+            _fun00004_ip = 525; continue _fun00003;
  339:
             options = _closure1_slot0;
             report = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useIsDisabled'] = options;
     options = function() { // Original name: useAccountSMSBackupSettingToggleValue
-        _fun94627: for(var _fun94627_ip = 0; ; ) switch(_fun94627_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(tango, entity);
             entity = null;
             tango = entity == report;
-            if(tango) { _fun94627_ip = 87; continue _fun94627 }
+            if(tango) { _fun00006_ip = 87; continue _fun00005 }
  66:
             tango = report.hasFlag;
             zulu = _closure1_slot4;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(zulu);
  87:
             entity = entity != mike;
-            if(!entity) { _fun94627_ip = 97; continue _fun94627 }
+            if(!entity) { _fun00006_ip = 97; continue _fun00005 }
  94:
             entity = mike;
  97:
@@ -280,13 +280,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = options;
     golf = function(argFoo) { // Original name: onAccountSMSBackupSettingTogglePress
-        _fun94629: for(var _fun94629_ip = 0; ; ) switch(_fun94629_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = _closure1_slot3;
             entity = zulu.getCurrentUser;
             entity = entity.bind(zulu)();
             zulu = null;
-            if(!(zulu != entity)) { _fun94629_ip = 50; continue _fun94629 }
+            if(!(zulu != entity)) { _fun00008_ip = 50; continue _fun00007 }
  22:
             zulu = _closure1_slot6;
             mike = {};

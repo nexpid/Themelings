@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['validation'] = verify;
     options = function(argFoo) { // Original name: handler
-        _fun109637: for(var _fun109637_ip = 0; ; ) switch(_fun109637_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.socket;
@@ -93,39 +93,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = ' - ';
             tango = oscar.bind(tango)(golf, zulu, options);
             zulu = 'log';
-            if(!(zulu !== report)) { _fun109637_ip = 214; continue _fun109637 }
+            if(!(zulu !== report)) { _fun00002_ip = 214; continue _fun00001 }
  116:
             zulu = 'warn';
-            if(!(zulu !== report)) { _fun109637_ip = 198; continue _fun109637 }
+            if(!(zulu !== report)) { _fun00002_ip = 198; continue _fun00001 }
  124:
             zulu = 'debug';
-            if(!(zulu !== report)) { _fun109637_ip = 181; continue _fun109637 }
+            if(!(zulu !== report)) { _fun00002_ip = 181; continue _fun00001 }
  132:
             zulu = 'info';
-            if(!(zulu !== report)) { _fun109637_ip = 164; continue _fun109637 }
+            if(!(zulu !== report)) { _fun00002_ip = 164; continue _fun00001 }
  140:
             zulu = 'error';
-            if(!(zulu === report)) { _fun109637_ip = 229; continue _fun109637 }
+            if(!(zulu === report)) { _fun00002_ip = 229; continue _fun00001 }
  148:
             report = _closure1_slot3;
             zulu = report.error;
             zulu = zulu.bind(report)(tango);
-            _fun109637_ip = 229; continue _fun109637;
+            _fun00002_ip = 229; continue _fun00001;
  164:
             report = _closure1_slot3;
             zulu = report.info;
             zulu = zulu.bind(report)(tango);
-            _fun109637_ip = 229; continue _fun109637;
+            _fun00002_ip = 229; continue _fun00001;
  181:
             report = _closure1_slot3;
             zulu = report.verbose;
             zulu = zulu.bind(report)(tango);
-            _fun109637_ip = 229; continue _fun109637;
+            _fun00002_ip = 229; continue _fun00001;
  198:
             report = _closure1_slot3;
             zulu = report.warn;
             zulu = zulu.bind(report)(tango);
-            _fun109637_ip = 229; continue _fun109637;
+            _fun00002_ip = 229; continue _fun00001;
  214:
             zulu = _closure1_slot3;
             mike = zulu.log;

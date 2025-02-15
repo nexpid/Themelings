@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/chat/native/useChatWidth.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useChatWidth
-        _fun69753: for(var _fun69753_ip = 0; ; ) switch(_fun69753_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot1;
@@ -46,13 +46,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.useDrawerWidth;
             zulu = entity.bind(zulu)();
             entity = null;
-            if(!(entity != oscar)) { _fun69753_ip = 97; continue _fun69753 }
+            if(!(entity != oscar)) { _fun00002_ip = 97; continue _fun00001 }
  90:
             entity = tango;
-            if(!(mike === oscar)) { _fun69753_ip = 110; continue _fun69753 }
+            if(!(mike === oscar)) { _fun00002_ip = 110; continue _fun00001 }
  97:
             mike = tango;
-            if(!report) { _fun69753_ip = 107; continue _fun69753 }
+            if(!report) { _fun00002_ip = 107; continue _fun00001 }
  103:
             mike = tango - zulu;
  107:
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getChatWidth
-        _fun69754: for(var _fun69754_ip = 0; ; ) switch(_fun69754_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot0;
@@ -82,13 +82,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(tango)();
             tango = entity.width;
             entity = null;
-            if(!(entity != golf)) { _fun69754_ip = 83; continue _fun69754 }
+            if(!(entity != golf)) { _fun00004_ip = 83; continue _fun00003 }
  76:
             entity = tango;
-            if(!(mike === golf)) { _fun69754_ip = 126; continue _fun69754 }
+            if(!(mike === golf)) { _fun00004_ip = 126; continue _fun00003 }
  83:
             mike = tango;
-            if(!report) { _fun69754_ip = 123; continue _fun69754 }
+            if(!report) { _fun00004_ip = 123; continue _fun00003 }
  89:
             report = _closure1_slot0;
             golf = _closure1_slot2;

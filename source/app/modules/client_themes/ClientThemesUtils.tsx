@@ -39,16 +39,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/client_themes/ClientThemesUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getThemeForColor
-        _fun35725: for(var _fun35725_ip = 0; ; ) switch(_fun35725_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.l;
             entity = 0.3;
-            if(!(!(mike <= entity))) { _fun35725_ip = 37; continue _fun35725 }
+            if(!(!(mike <= entity))) { _fun00002_ip = 37; continue _fun00001 }
  22:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
-            _fun35725_ip = 50; continue _fun35725;
+            _fun00002_ip = 50; continue _fun00001;
  37:
             mike = _closure1_slot2;
             entity = mike.DARK;
@@ -104,28 +104,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getMobileThemesPresets'] = tango;
     mike = function(argFoo, argBar) { // Original name: areThemesEqualForGradientThemes
-        _fun35729: for(var _fun35729_ip = 0; ; ) switch(_fun35729_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             entity = oscar === report;
-            if(entity) { _fun35729_ip = 87; continue _fun35729 }
+            if(entity) { _fun00004_ip = 87; continue _fun00003 }
  13:
             mike = _closure1_slot2;
             mike = mike.DARK;
             mike = oscar === mike;
-            if(!mike) { _fun35729_ip = 47; continue _fun35729 }
+            if(!mike) { _fun00004_ip = 47; continue _fun00003 }
  33:
             zulu = _closure1_slot2;
             zulu = zulu.DARKER;
             mike = report === zulu;
  47:
-            if(mike) { _fun35729_ip = 84; continue _fun35729 }
+            if(mike) { _fun00004_ip = 84; continue _fun00003 }
  50:
             zulu = _closure1_slot2;
             zulu = zulu.DARKER;
             zulu = oscar === zulu;
-            if(!zulu) { _fun35729_ip = 81; continue _fun35729 }
+            if(!zulu) { _fun00004_ip = 81; continue _fun00003 }
  67:
             tango = _closure1_slot2;
             tango = tango.DARK;

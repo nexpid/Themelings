@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function() { // Original name: SettingBlocklistManager
-        _fun116618: for(var _fun116618_ip = 0; ; ) switch(_fun116618_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot4;
             tango = report.getField;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 1;
             entity = null;
             report = 0;
-            if(!tango) { _fun116618_ip = 227; continue _fun116618 }
+            if(!tango) { _fun00002_ip = 227; continue _fun00001 }
  113:
             kilo = offset[report];
             tango = _closure1_slot2;
@@ -69,49 +69,49 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = tango.usePredicate;
             output = entity == sizing;
             tango = undefined;
-            if(output) { _fun116618_ip = 154; continue _fun116618 }
+            if(output) { _fun00002_ip = 154; continue _fun00001 }
  150:
             tango = sizing.bind(yankee)();
  154:
             sizing = options === tango;
-            if(!sizing) { _fun116618_ip = 186; continue _fun116618 }
+            if(!sizing) { _fun00002_ip = 186; continue _fun00001 }
  161:
             tango = backup.has;
             tango = tango.bind(backup)(kilo);
-            if(tango) { _fun116618_ip = 186; continue _fun116618 }
+            if(tango) { _fun00002_ip = 186; continue _fun00001 }
  174:
             tango = foxtrot.push;
             tango = tango.bind(foxtrot)(kilo);
-            _fun116618_ip = 215; continue _fun116618;
+            _fun00002_ip = 215; continue _fun00001;
  186:
             tango = !sizing;
-            if(sizing) { _fun116618_ip = 202; continue _fun116618 }
+            if(sizing) { _fun00002_ip = 202; continue _fun00001 }
  192:
             sizing = backup.has;
             tango = sizing.bind(backup)(kilo);
  202:
-            if(!tango) { _fun116618_ip = 215; continue _fun116618 }
+            if(!tango) { _fun00002_ip = 215; continue _fun00001 }
  205:
             tango = romeo.push;
             tango = tango.bind(romeo)(kilo);
  215:
             report = report + 1;
             tango = offset.length;
-            if(report < tango) { _fun116618_ip = 113; continue _fun116618 }
+            if(report < tango) { _fun00002_ip = 113; continue _fun00001 }
  227:
             tango = _closure1_slot3;
             zulu = tango.useEffect;
             mike = function() {
-                _fun116619: for(var _fun116619_ip = 0; ; ) switch(_fun116619_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     zulu = zulu.length;
                     tango = 0;
-                    if(!(!(zulu > tango))) { _fun116619_ip = 33; continue _fun116619 }
+                    if(!(!(zulu > tango))) { _fun00004_ip = 33; continue _fun00003 }
  20:
                     zulu = _closure2_slot1;
                     zulu = zulu.length;
-                    if(!(zulu > tango)) { _fun116619_ip = 147; continue _fun116619 }
+                    if(!(zulu > tango)) { _fun00004_ip = 147; continue _fun00003 }
  33:
                     zulu = _closure1_slot4;
                     report = zulu.getField;

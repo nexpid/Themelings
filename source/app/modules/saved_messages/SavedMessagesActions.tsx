@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun89007: for(var _fun89007_ip = 0; ; ) switch(_fun89007_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     options = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun89007_ip = 173; continue _fun89007 }
+                    if(mike) { _fun00002_ip = 173; continue _fun00001 }
  13:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -47,10 +47,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  113:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun89007_ip = 170; continue _fun89007 }
+                    if(tango) { _fun00002_ip = 170; continue _fun00001 }
  119:
                     tango = mike.ok;
-                    if(tango) { _fun89007_ip = 131; continue _fun89007 }
+                    if(tango) { _fun00002_ip = 131; continue _fun00001 }
  128:
                     return report;
  131:
@@ -87,12 +87,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun89010: for(var _fun89010_ip = 0; ; ) switch(_fun89010_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     oscar = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun89010_ip = 119; continue _fun89010 }
+                    if(mike) { _fun00004_ip = 119; continue _fun00003 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -117,10 +117,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun89010_ip = 116; continue _fun89010 }
+                    if(tango) { _fun00004_ip = 116; continue _fun00003 }
  99:
                     tango = mike.ok;
-                    if(tango) { _fun89010_ip = 111; continue _fun89010 }
+                    if(tango) { _fun00004_ip = 111; continue _fun00003 }
  108:
                     return zulu;
  111:
@@ -150,16 +150,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun89013: for(var _fun89013_ip = 0; ; ) switch(_fun89013_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun89013_ip = 201; continue _fun89013 }
+                    if(mike) { _fun00006_ip = 201; continue _fun00005 }
  10:
                     zulu = _closure1_slot4;
                     mike = zulu.getIsStale;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun89013_ip = 51; continue _fun89013 }
+                    if(mike) { _fun00006_ip = 51; continue _fun00005 }
  30:
                     mike = global;
                     zulu = mike.Promise;
@@ -187,20 +187,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  114:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun89013_ip = 198; continue _fun89013 }
+                    if(report) { _fun00006_ip = 198; continue _fun00005 }
  120:
                     report = mike.body;
                     golf = report.results;
                     oscar = golf.map;
                     report = function(argFoo) {
-                        _fun89014: for(var _fun89014_ip = 0; ; ) switch(_fun89014_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             mike = argFoo;
                             entity = {};
                             tango = mike.message;
                             zulu = null;
                             tango = zulu != tango;
-                            if(!tango) { _fun89014_ip = 60; continue _fun89014 }
+                            if(!tango) { _fun00008_ip = 60; continue _fun00007 }
  19:
                             oscar = _closure1_slot0;
                             report = _closure1_slot2;

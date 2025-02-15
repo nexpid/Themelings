@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: SystemNotificationsSubLabel
-        _fun97745: for(var _fun97745_ip = 0; ; ) switch(_fun97745_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot10;
             report = undefined;
@@ -25,16 +25,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             entity = mike.hasAndroidNotificationChannels;
             oscar = entity.bind(mike)();
-            if(oscar) { _fun97745_ip = 76; continue _fun97745 }
+            if(oscar) { _fun00002_ip = 76; continue _fun00001 }
  68:
             entity = null;
-            if(!golf) { _fun97745_ip = 516; continue _fun97745 }
+            if(!golf) { _fun00002_ip = 516; continue _fun00001 }
  76:
             tango = _closure1_slot8;
             zulu = _closure1_slot9;
             mike = {};
             options = oscar;
-            if(!options) { _fun97745_ip = 188; continue _fun97745 }
+            if(!options) { _fun00002_ip = 188; continue _fun00001 }
  92:
             offset = _closure1_slot7;
             backup = _closure1_slot0;
@@ -59,7 +59,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  188:
             oscar = new Array(2);
             oscar[0] = options;
-            if(!golf) { _fun97745_ip = 502; continue _fun97745 }
+            if(!golf) { _fun00002_ip = 502; continue _fun00001 }
  202:
             offset = _closure1_slot7;
             verify = _closure1_slot4;

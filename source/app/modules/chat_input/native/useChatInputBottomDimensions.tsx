@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun101873: for(var _fun101873_ip = 0; ; ) switch(_fun101873_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure1_slot3;
                 mike = entity.keyboardType;
@@ -58,7 +58,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = entity.SYSTEM;
                 report = mike === entity;
                 entity = {};
-                if(report) { _fun101873_ip = 92; continue _fun101873 }
+                if(report) { _fun00002_ip = 92; continue _fun00001 }
  32:
                 mike = _closure1_slot3;
                 tango = mike.customKeyboardHeight;
@@ -71,12 +71,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 mike = oscar.isIOS;
                 oscar = mike.bind(oscar)();
                 mike = 0;
-                if(oscar) { _fun101873_ip = 86; continue _fun101873 }
+                if(oscar) { _fun00002_ip = 86; continue _fun00001 }
  79:
                 mike = _closure2_slot0;
  86:
                 mike = tango + mike;
-                _fun101873_ip = 142; continue _fun101873;
+                _fun00002_ip = 142; continue _fun00001;
  92:
                 golf = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 tango = oscar.isIOS;
                 oscar = tango.bind(oscar)();
                 tango = 0;
-                if(!oscar) { _fun101873_ip = 139; continue _fun101873 }
+                if(!oscar) { _fun00002_ip = 139; continue _fun00001 }
  129:
                 oscar = _closure1_slot3;
                 tango = oscar.keyboardHeight;
@@ -96,12 +96,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
  142:
                 entity['keyboardHeight'] = mike;
                 mike = 0;
-                if(!report) { _fun101873_ip = 174; continue _fun101873 }
+                if(!report) { _fun00002_ip = 174; continue _fun00001 }
  152:
                 zulu = _closure1_slot3;
                 zulu = zulu.keyboardOpen;
                 mike = 0;
-                if(zulu) { _fun101873_ip = 174; continue _fun101873 }
+                if(zulu) { _fun00002_ip = 174; continue _fun00001 }
  167:
                 mike = _closure2_slot0;
  174:

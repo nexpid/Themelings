@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['resetImperatively'] = tango;
     tango = function(argFoo) { // Original name: initializeImperatively
-        _fun127180: for(var _fun127180_ip = 0; ; ) switch(_fun127180_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = _closure1_slot3;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.bind(entity)();
             tango = mike.description;
             report = null;
-            if(!(report != tango)) { _fun127180_ip = 83; continue _fun127180 }
+            if(!(report != tango)) { _fun00002_ip = 83; continue _fun00001 }
  73:
             tango = mike.description;
             tango = verify.bind(entity)(tango);
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = mike.name;
             tango = oscar.bind(entity)(tango);
             tango = mike.ref_id;
-            if(!(report != tango)) { _fun127180_ip = 136; continue _fun127180 }
+            if(!(report != tango)) { _fun00002_ip = 136; continue _fun00001 }
  125:
             mike = mike.ref_id;
             mike = zulu.bind(entity)(mike);

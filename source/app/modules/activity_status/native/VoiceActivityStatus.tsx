@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activity_status/native/VoiceActivityStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoiceActivityStatus
-        _fun79727: for(var _fun79727_ip = 0; ; ) switch(_fun79727_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channel;
@@ -59,27 +59,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.maxFontSizeMultiplier;
             oscar = entity.hideIcon;
             report = undefined;
-            if(!(oscar === report)) { _fun79727_ip = 40; continue _fun79727 }
+            if(!(oscar === report)) { _fun00002_ip = 40; continue _fun00001 }
  38:
             oscar = false;
  40:
             golf = entity.hideText;
-            if(!(golf === report)) { _fun79727_ip = 52; continue _fun79727 }
+            if(!(golf === report)) { _fun00002_ip = 52; continue _fun00001 }
  50:
             golf = false;
  52:
             entity = _closure1_slot6;
             kilo = entity.bind(report)();
-            if(!oscar) { _fun79727_ip = 74; continue _fun79727 }
+            if(!oscar) { _fun00002_ip = 74; continue _fun00001 }
  66:
             entity = null;
-            if(golf) { _fun79727_ip = 457; continue _fun79727 }
+            if(golf) { _fun00002_ip = 457; continue _fun00001 }
  74:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;
             mike = {};
             options = !oscar;
-            if(!options) { _fun79727_ip = 161; continue _fun79727 }
+            if(!options) { _fun00002_ip = 161; continue _fun00001 }
  90:
             yankee = _closure1_slot3;
             offset = _closure1_slot1;
@@ -99,15 +99,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(2);
             oscar[0] = options;
             golf = !golf;
-            if(!golf) { _fun79727_ip = 443; continue _fun79727 }
+            if(!golf) { _fun00002_ip = 443; continue _fun00001 }
  178:
             options = verify.isDM;
             options = options.bind(verify)();
-            if(options) { _fun79727_ip = 344; continue _fun79727 }
+            if(options) { _fun00002_ip = 344; continue _fun00001 }
  194:
             options = verify.isGroupDM;
             options = options.bind(verify)();
-            if(options) { _fun79727_ip = 344; continue _fun79727 }
+            if(options) { _fun00002_ip = 344; continue _fun00001 }
  210:
             options = verify.isGuildStageVoice;
             options = options.bind(verify)();
@@ -129,20 +129,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = echo[kilo];
             kilo = result.bind(report)(kilo);
             kilo = kilo.t;
-            if(options) { _fun79727_ip = 321; continue _fun79727 }
+            if(options) { _fun00002_ip = 321; continue _fun00001 }
  298:
             options = kilo.msxteH;
             options = sizing.bind(output)(options);
             verify['children'] = options;
             options = yankee.bind(report)(offset, verify);
-            _fun79727_ip = 342; continue _fun79727;
+            _fun00002_ip = 342; continue _fun00001;
  321:
             kilo = kilo.QygGCA;
             kilo = sizing.bind(output)(kilo);
             verify['children'] = kilo;
             options = yankee.bind(report)(offset, verify);
  342:
-            _fun79727_ip = 440; continue _fun79727;
+            _fun00002_ip = 440; continue _fun00001;
  344:
             yankee = _closure1_slot3;
             offset = _closure1_slot1;

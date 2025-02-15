@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChatInputGuardSpamMessageRequest
-        _fun101490: for(var _fun101490_ip = 0; ; ) switch(_fun101490_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.channel;
@@ -131,11 +131,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.markAsNotSpam;
             var _closure2_slot4 = entity;
             oscar = verify;
-            if(verify) { _fun101490_ip = 261; continue _fun101490 }
+            if(verify) { _fun00002_ip = 261; continue _fun00001 }
  258:
             oscar = report;
  261:
-            if(oscar) { _fun101490_ip = 267; continue _fun101490 }
+            if(oscar) { _fun00002_ip = 267; continue _fun00001 }
  264:
             oscar = offset;
  267:
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['buttonPrimaryOnPress'] = yankee;
             entity['buttonPrimaryDisabled'] = oscar;
-            if(verify) { _fun101490_ip = 479; continue _fun101490 }
+            if(verify) { _fun00002_ip = 479; continue _fun00001 }
  476:
             verify = offset;
  479:

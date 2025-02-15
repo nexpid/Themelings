@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun127607: for(var _fun127607_ip = 0; ; ) switch(_fun127607_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun127607_ip = 51; continue _fun127607 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun127607_ip = 92; continue _fun127607;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun127607_ip = 71; continue _fun127607 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun127608: for(var _fun127608_ip = 0; ; ) switch(_fun127608_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun127608_ip = 76; continue _fun127608;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'onChange';
         report['key'] = oscar;
         entity = function() { // Original name: value
-            _fun127613: for(var _fun127613_ip = 0; ; ) switch(_fun127613_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = _closure1_slot8;
                 mike = mike.hasLoadedExperiments;
-                if(!mike) { _fun127613_ip = 200; continue _fun127613 }
+                if(!mike) { _fun00006_ip = 200; continue _fun00005 }
  19:
                 mike = _closure1_slot9;
                 report = mike.useMobileChatCustomRenderer;
@@ -190,9 +190,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = golf.bind(options)(oscar, mike);
                 mike = oscar.canUseRenderer;
                 oscar = oscar.forceUseRenderer;
-                if(!oscar) { _fun127613_ip = 150; continue _fun127613 }
+                if(!oscar) { _fun00006_ip = 150; continue _fun00005 }
  105:
-                if(report) { _fun127613_ip = 150; continue _fun127613 }
+                if(report) { _fun00006_ip = 150; continue _fun00005 }
  108:
                 golf = _closure1_slot1;
                 options = _closure1_slot2;
@@ -204,14 +204,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 verify = true;
                 oscar['useMobileChatCustomRenderer'] = verify;
                 oscar = golf.bind(options)(oscar);
-                _fun127613_ip = 200; continue _fun127613;
+                _fun00006_ip = 200; continue _fun00005;
  150:
                 mike = !mike;
-                if(!mike) { _fun127613_ip = 159; continue _fun127613 }
+                if(!mike) { _fun00006_ip = 159; continue _fun00005 }
  156:
                 mike = report;
  159:
-                if(!mike) { _fun127613_ip = 200; continue _fun127613 }
+                if(!mike) { _fun00006_ip = 200; continue _fun00005 }
  162:
                 mike = _closure1_slot1;
                 report = _closure1_slot2;

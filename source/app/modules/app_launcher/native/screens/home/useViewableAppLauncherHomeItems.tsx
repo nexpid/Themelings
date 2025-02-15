@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.viewableItems;
             mike = zulu.forEach;
             entity = function(argFoo) {
-                _fun118769: for(var _fun118769_ip = 0; ; ) switch(_fun118769_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     golf = entity.item;
@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.AppLauncherHomeListItemType;
                     mike = mike.SHELF_ITEM;
                     mike = zulu !== mike;
-                    if(mike) { _fun118769_ip = 73; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 73; continue _fun00001 }
  57:
                     tango = _closure2_slot0;
                     zulu = tango.get;
                     mike = zulu.bind(tango)();
  73:
-                    if(mike) { _fun118769_ip = 95; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 95; continue _fun00001 }
  76:
                     tango = _closure2_slot0;
                     zulu = tango.set;
@@ -97,13 +97,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.AppLauncherHomeListItemType;
                     mike = mike.LEARN_MORE;
                     mike = zulu !== mike;
-                    if(mike) { _fun118769_ip = 152; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 152; continue _fun00001 }
  136:
                     tango = _closure2_slot1;
                     zulu = tango.get;
                     mike = zulu.bind(tango)();
  152:
-                    if(mike) { _fun118769_ip = 174; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 174; continue _fun00001 }
  155:
                     tango = _closure2_slot1;
                     zulu = tango.set;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.AppLauncherHomeListItemType;
                     mike = mike.RECOMMENDATION_SECTION_HEADER;
                     mike = zulu !== mike;
-                    if(!mike) { _fun118769_ip = 253; continue _fun118769 }
+                    if(!mike) { _fun00002_ip = 253; continue _fun00001 }
  215:
                     tango = golf.type;
                     report = _closure1_slot0;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.SECTION_HEADER;
                     mike = tango !== zulu;
  253:
-                    if(mike) { _fun118769_ip = 284; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 284; continue _fun00001 }
  256:
                     zulu = _closure2_slot2;
                     tango = zulu.current;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = null;
                     mike = zulu != tango;
  284:
-                    if(mike) { _fun118769_ip = 458; continue _fun118769 }
+                    if(mike) { _fun00002_ip = 458; continue _fun00001 }
  290:
                     mike = _closure2_slot2;
                     tango = mike.current;

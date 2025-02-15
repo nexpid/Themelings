@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/forwarding/maybeCreateMessageRecordFromSnapshot.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: maybeCreateMessageRecordFromSnapshot
-        _fun90988: for(var _fun90988_ip = 0; ; ) switch(_fun90988_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBar;
             report = null;
-            if(!(report == oscar)) { _fun90988_ip = 57; continue _fun90988 }
+            if(!(report == oscar)) { _fun00002_ip = 57; continue _fun00001 }
  12:
             golf = _closure1_slot0;
             entity = _closure1_slot1;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = undefined;
             mike = golf.bind(entity)(mike);
             mike = mike.bind(entity)(tango);
-            if(!mike) { _fun90988_ip = 54; continue _fun90988 }
+            if(!mike) { _fun00002_ip = 54; continue _fun00001 }
  44:
             mike = tango.messageSnapshots;
             entity = mike[zulu];
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity;
  57:
             entity = tango;
-            if(!(report != oscar)) { _fun90988_ip = 248; continue _fun90988 }
+            if(!(report != oscar)) { _fun00002_ip = 248; continue _fun00001 }
  67:
             zulu = tango.merge;
             mike = {};

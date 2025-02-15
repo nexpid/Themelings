@@ -17,12 +17,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = mike;
     mike = function() {
         entity = function(argFoo) { // Original name: isTimingConfig
-            _fun112010: for(var _fun112010_ip = 0; ; ) switch(_fun112010_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 zulu = null;
                 entity = zulu != mike;
-                if(!entity) { _fun112010_ip = 21; continue _fun112010 }
+                if(!entity) { _fun00002_ip = 21; continue _fun00001 }
  12:
                 mike = mike.duration;
                 entity = zulu != mike;

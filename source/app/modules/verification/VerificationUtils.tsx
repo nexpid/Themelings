@@ -75,29 +75,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot5 = mike;
     mike = {};
     golf = function(argFoo, argBar) { // Original name: isPhoneReverification
-        _fun88651: for(var _fun88651_ip = 0; ; ) switch(_fun88651_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
             entity = undefined;
             entity = entity !== zulu;
-            if(!entity) { _fun88651_ip = 25; continue _fun88651 }
+            if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  15:
             mike = zulu.isPhoneVerified;
             entity = mike.bind(zulu)();
  25:
-            if(!entity) { _fun88651_ip = 82; continue _fun88651 }
+            if(!entity) { _fun00002_ip = 82; continue _fun00001 }
  28:
             mike = _closure1_slot3;
             mike = mike.REQUIRE_REVERIFIED_PHONE;
             mike = tango === mike;
-            if(mike) { _fun88651_ip = 62; continue _fun88651 }
+            if(mike) { _fun00002_ip = 62; continue _fun00001 }
  48:
             report = _closure1_slot3;
             report = report.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             mike = tango === report;
  62:
-            if(mike) { _fun88651_ip = 79; continue _fun88651 }
+            if(mike) { _fun00002_ip = 79; continue _fun00001 }
  65:
             zulu = _closure1_slot3;
             zulu = zulu.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
@@ -110,19 +110,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['isPhoneReverification'] = golf;
     golf = function(argFoo) { // Original name: isEmailReverification
-        _fun88652: for(var _fun88652_ip = 0; ; ) switch(_fun88652_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot3;
             entity = entity.REQUIRE_REVERIFIED_EMAIL;
             entity = zulu === entity;
-            if(entity) { _fun88652_ip = 37; continue _fun88652 }
+            if(entity) { _fun00004_ip = 37; continue _fun00003 }
  23:
             tango = _closure1_slot3;
             tango = tango.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             entity = zulu === tango;
  37:
-            if(entity) { _fun88652_ip = 54; continue _fun88652 }
+            if(entity) { _fun00004_ip = 54; continue _fun00003 }
  40:
             mike = _closure1_slot3;
             mike = mike.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
@@ -133,19 +133,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['isEmailReverification'] = golf;
     golf = function(argFoo) { // Original name: getVerificationTypes
-        _fun88653: for(var _fun88653_ip = 0; ; ) switch(_fun88653_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity != mike)) { _fun88653_ip = 33; continue _fun88653 }
+            if(!(entity != mike)) { _fun00006_ip = 33; continue _fun00005 }
  9:
             zulu = 'symbol';
             entity = typeof mike;
-            if(!(zulu !== entity)) { _fun88653_ip = 33; continue _fun88653 }
+            if(!(zulu !== entity)) { _fun00006_ip = 33; continue _fun00005 }
  20:
             entity = _closure1_slot5;
             entity = entity[mike];
-            _fun88653_ip = 37; continue _fun88653;
+            _fun00006_ip = 37; continue _fun00005;
  33:
             entity = new Array(0);
  37:
@@ -154,24 +154,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['getVerificationTypes'] = golf;
     golf = function(argFoo) { // Original name: getButtonTitle
-        _fun88654: for(var _fun88654_ip = 0; ; ) switch(_fun88654_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.EMAIL;
-            if(!(mike !== zulu)) { _fun88654_ip = 307; continue _fun88654 }
+            if(!(mike !== zulu)) { _fun00008_ip = 307; continue _fun00007 }
  23:
             mike = _closure1_slot4;
             mike = mike.PHONE;
-            if(!(mike !== zulu)) { _fun88654_ip = 248; continue _fun88654 }
+            if(!(mike !== zulu)) { _fun00008_ip = 248; continue _fun00007 }
  40:
             mike = _closure1_slot4;
             mike = mike.REVERIFY_EMAIL;
-            if(!(mike !== zulu)) { _fun88654_ip = 189; continue _fun88654 }
+            if(!(mike !== zulu)) { _fun00008_ip = 189; continue _fun00007 }
  57:
             mike = _closure1_slot4;
             mike = mike.REVERIFY_PHONE;
-            if(!(mike !== zulu)) { _fun88654_ip = 130; continue _fun88654 }
+            if(!(mike !== zulu)) { _fun00008_ip = 130; continue _fun00007 }
  71:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

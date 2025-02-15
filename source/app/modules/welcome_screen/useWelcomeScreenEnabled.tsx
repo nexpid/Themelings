@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot5;
         mike[2] = report;
         entity = function() {
-            _fun89267: for(var _fun89267_ip = 0; ; ) switch(_fun89267_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot4;
                 tango = report.getGuild;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = oscar == report;
                 tango = undefined;
                 golf = undefined;
-                if(mike) { _fun89267_ip = 58; continue _fun89267 }
+                if(mike) { _fun00002_ip = 58; continue _fun00001 }
  37:
                 options = report.hasFeature;
                 mike = _closure1_slot6;
@@ -81,13 +81,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = options.bind(report)(mike);
  58:
                 mike = true;
-                if(!(mike === golf)) { _fun89267_ip = 88; continue _fun89267 }
+                if(!(mike === golf)) { _fun00002_ip = 88; continue _fun00001 }
  64:
                 golf = report.hasFeature;
                 mike = _closure1_slot6;
                 mike = mike.COMMUNITY;
                 mike = golf.bind(report)(mike);
-                if(mike) { _fun89267_ip = 92; continue _fun89267 }
+                if(mike) { _fun00002_ip = 92; continue _fun00001 }
  88:
                 mike = false;
                 return mike;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot6;
                 mike = mike.GUILD_SERVER_GUIDE;
                 mike = golf.bind(report)(mike);
-                if(mike) { _fun89267_ip = 205; continue _fun89267 }
+                if(mike) { _fun00002_ip = 205; continue _fun00001 }
  116:
                 options = _closure1_slot3;
                 mike = options.getChannel;
@@ -107,18 +107,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure2_slot1;
                 entity = options.bind(verify)(entity);
                 entity = golf === entity;
-                if(!entity) { _fun89267_ip = 164; continue _fun89267 }
+                if(!entity) { _fun00002_ip = 164; continue _fun00001 }
  160:
                 entity = oscar != mike;
  164:
-                if(!entity) { _fun89267_ip = 186; continue _fun89267 }
+                if(!entity) { _fun00002_ip = 186; continue _fun00001 }
  167:
                 oscar = mike.getGuildId;
                 oscar = oscar.bind(mike)();
                 report = report.id;
                 entity = oscar === report;
  186:
-                if(!entity) { _fun89267_ip = 203; continue _fun89267 }
+                if(!entity) { _fun00002_ip = 203; continue _fun00001 }
  189:
                 zulu = _closure1_slot2;
                 mike = mike.type;

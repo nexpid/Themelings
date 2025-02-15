@@ -6,18 +6,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     mike = function(argFoo) { // Original name: getThreadLastActivityTime
-        _fun58259: for(var _fun58259_ip = 0; ; ) switch(_fun58259_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.threadMetadata;
             zulu = null;
-            if(!(zulu != mike)) { _fun58259_ip = 175; continue _fun58259 }
+            if(!(zulu != mike)) { _fun00002_ip = 175; continue _fun00001 }
  18:
             oscar = _closure1_slot2;
             report = oscar.lastMessageId;
             tango = entity.id;
             report = report.bind(oscar)(tango);
-            if(!(zulu == report)) { _fun58259_ip = 50; continue _fun58259 }
+            if(!(zulu == report)) { _fun00002_ip = 50; continue _fun00001 }
  45:
             report = entity.id;
  50:
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.archiveTimestamp;
             mike = zulu != mike;
             zulu = 0;
-            if(!mike) { _fun58259_ip = 154; continue _fun58259 }
+            if(!mike) { _fun00002_ip = 154; continue _fun00001 }
  104:
             mike = global;
             report = mike.Date;
@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/threads/getThreadAutoArchiveTimeOnce.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: getThreadAutoArchiveTimeOnce
-        _fun58260: for(var _fun58260_ip = 0; ; ) switch(_fun58260_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = tango.threadMetadata;
             entity = null;
-            if(!(entity != mike)) { _fun58260_ip = 83; continue _fun58260 }
+            if(!(entity != mike)) { _fun00004_ip = 83; continue _fun00003 }
  15:
             entity = tango.threadMetadata;
             report = entity.autoArchiveDuration;

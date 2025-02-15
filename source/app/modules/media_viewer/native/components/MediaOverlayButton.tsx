@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_viewer/native/components/MediaOverlayButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun102252: for(var _fun102252_ip = 0; ; ) switch(_fun102252_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.accessibilityLabel;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(3);
             options[0] = sizing;
             sizing = undefined;
-            if(!golf) { _fun102252_ip = 142; continue _fun102252 }
+            if(!golf) { _fun00002_ip = 142; continue _fun00001 }
  132:
             output = _closure1_slot4;
             sizing = output.withLabel;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = options;
             entity['disabled'] = oscar;
             oscar = null;
-            if(!golf) { _fun102252_ip = 166; continue _fun102252 }
+            if(!golf) { _fun00002_ip = 166; continue _fun00001 }
  163:
             oscar = report;
  166:
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = kilo;
             oscar['style'] = backup;
             oscar['source'] = foxtrot;
-            if(!(romeo == offset)) { _fun102252_ip = 264; continue _fun102252 }
+            if(!(romeo == offset)) { _fun00002_ip = 264; continue _fun00001 }
  233:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot1;

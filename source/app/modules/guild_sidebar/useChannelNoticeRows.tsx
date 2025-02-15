@@ -90,12 +90,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf[1] = zulu;
         golf[2] = oscar;
         zulu = function() {
-            _fun116131: for(var _fun116131_ip = 0; ; ) switch(_fun116131_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot4;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun116131_ip = 43; continue _fun116131 }
+                if(!entity) { _fun00002_ip = 43; continue _fun00001 }
  16:
                 zulu = _closure2_slot0;
                 tango = zulu.mfaLevel;
@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.ELEVATED;
                 entity = tango === zulu;
  43:
-                if(!entity) { _fun116131_ip = 59; continue _fun116131 }
+                if(!entity) { _fun00002_ip = 59; continue _fun00001 }
  46:
                 zulu = _closure2_slot4;
                 zulu = zulu.mfaEnabled;
                 entity = !zulu;
  59:
-                if(!entity) { _fun116131_ip = 84; continue _fun116131 }
+                if(!entity) { _fun00002_ip = 84; continue _fun00001 }
  62:
                 tango = _closure1_slot4;
                 zulu = tango.hasElevatedPermissions;
@@ -135,13 +135,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[2] = oscar;
         mike[3] = report;
         entity = function() {
-            _fun116132: for(var _fun116132_ip = 0; ; ) switch(_fun116132_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot1;
-                if(entity) { _fun116132_ip = 16; continue _fun116132 }
+                if(entity) { _fun00004_ip = 16; continue _fun00003 }
  10:
                 entity = new Array(0);
-                _fun116132_ip = 40; continue _fun116132;
+                _fun00004_ip = 40; continue _fun00003;
  16:
                 zulu = _closure1_slot6;
                 tango = zulu.SPACER;
@@ -150,16 +150,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu;
  40:
                 zulu = _closure2_slot3;
-                if(zulu) { _fun116132_ip = 79; continue _fun116132 }
+                if(zulu) { _fun00004_ip = 79; continue _fun00003 }
  47:
                 zulu = _closure2_slot5;
-                if(!zulu) { _fun116132_ip = 102; continue _fun116132 }
+                if(!zulu) { _fun00004_ip = 102; continue _fun00003 }
  54:
                 tango = entity.push;
                 zulu = _closure1_slot6;
                 zulu = zulu.MFA_WARNING;
                 zulu = tango.bind(entity)(zulu);
-                _fun116132_ip = 102; continue _fun116132;
+                _fun00004_ip = 102; continue _fun00003;
  79:
                 tango = entity.push;
                 zulu = _closure1_slot6;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.bind(entity)(zulu);
  102:
                 mike = _closure2_slot6;
-                if(!mike) { _fun116132_ip = 132; continue _fun116132 }
+                if(!mike) { _fun00004_ip = 132; continue _fun00003 }
  109:
                 zulu = entity.push;
                 mike = _closure1_slot6;

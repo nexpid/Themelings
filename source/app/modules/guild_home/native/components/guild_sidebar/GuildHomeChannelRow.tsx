@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_home/native/components/guild_sidebar/GuildHomeChannelRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildHomeChannelRow
-        _fun115940: for(var _fun115940_ip = 0; ; ) switch(_fun115940_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.guild;
@@ -103,10 +103,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[report];
             entity = mike.bind(tango)(entity);
             entity = entity.ChannelModes;
-            if(yankee) { _fun115940_ip = 105; continue _fun115940 }
+            if(yankee) { _fun00002_ip = 105; continue _fun00001 }
  97:
             golf = entity.DEFAULT;
-            _fun115940_ip = 111; continue _fun115940;
+            _fun00002_ip = 111; continue _fun00001;
  105:
             golf = entity.SELECTED;
  111:

@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = 'modules/voice_calls/getVoiceFeedbackReasons.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: getVoiceFeedbackReasons
-        _fun123548: for(var _fun123548_ip = 0; ; ) switch(_fun123548_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = {};
             options = _closure1_slot0;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu['value'] = tango;
             entity[6] = zulu;
             zulu = argFoo;
-            if(!zulu) { _fun123548_ip = 615; continue _fun123548 }
+            if(!zulu) { _fun00002_ip = 615; continue _fun00001 }
  526:
             tango = entity.push;
             zulu = {};

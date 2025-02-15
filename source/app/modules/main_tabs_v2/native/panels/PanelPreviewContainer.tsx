@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = foxtrot.bind(tango)(mike);
         zulu = options.useAnimatedStyle;
         mike = function() { // Original name: p
-            _fun112270: for(var _fun112270_ip = 0; ; ) switch(_fun112270_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = mike.get;
@@ -93,13 +93,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = mike > entity;
                 entity = {};
                 mike = 'flex';
-                if(!tango) { _fun112270_ip = 44; continue _fun112270 }
+                if(!tango) { _fun00002_ip = 44; continue _fun00001 }
  40:
                 mike = 'none';
  44:
                 entity['display'] = mike;
                 mike = 0;
-                if(tango) { _fun112270_ip = 81; continue _fun112270 }
+                if(tango) { _fun00002_ip = 81; continue _fun00001 }
  53:
                 report = _closure2_slot0;
                 tango = report.get;
@@ -140,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = offset;
         mike[1] = backup;
         entity = function() {
-            _fun112272: for(var _fun112272_ip = 0; ; ) switch(_fun112272_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = null;
-                if(!(mike != zulu)) { _fun112272_ip = 28; continue _fun112272 }
+                if(!(mike != zulu)) { _fun00004_ip = 28; continue _fun00003 }
  13:
                 zulu = _closure2_slot2;
                 mike = _closure2_slot3;

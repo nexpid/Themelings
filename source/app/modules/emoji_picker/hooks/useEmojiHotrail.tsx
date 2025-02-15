@@ -4,14 +4,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     zulu = argFred;
     golf = argPlugh;
     mike = function(argFoo) { // Original name: getEmojiHotrail
-        _fun77932: for(var _fun77932_ip = 0; ; ) switch(_fun77932_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.topEmojis;
             tango = entity.newlyAddedEmojis;
             mike = entity.rowSize;
             entity = undefined;
-            if(!(mike === entity)) { _fun77932_ip = 34; continue _fun77932 }
+            if(!(mike === entity)) { _fun00002_ip = 34; continue _fun00001 }
  27:
             mike = _closure1_slot1;
  34:

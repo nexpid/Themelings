@@ -80,13 +80,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = 'displayDescription';
     Object.defineProperty(tango, golf, {get: options, set: entity, enumerable: true});
     golf = function(argFoo) { // Original name: predicate
-        _fun71361: for(var _fun71361_ip = 0; ; ) switch(_fun71361_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.channel;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun71361_ip = 27; continue _fun71361 }
+            if(!entity) { _fun00002_ip = 27; continue _fun00001 }
  17:
             mike = zulu.isGroupDM;
             entity = mike.bind(zulu)();
@@ -96,13 +96,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['predicate'] = golf;
     mike = function(argFoo, argBar) { // Original name: execute
-        _fun71362: for(var _fun71362_ip = 0; ; ) switch(_fun71362_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argBar;
             report = entity.channel;
             var _closure2_slot0 = report;
             entity = null;
-            if(!(entity != report)) { _fun71362_ip = 455; continue _fun71362 }
+            if(!(entity != report)) { _fun00004_ip = 455; continue _fun00003 }
  23:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.isManaged;
             entity = entity.bind(report)();
             options = zulu;
-            if(!entity) { _fun71362_ip = 300; continue _fun71362 }
+            if(!entity) { _fun00004_ip = 300; continue _fun00003 }
  190:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(golf)(report);
             entity['cancelText'] = report;
             tango = function() { // Original name: onConfirm
-                _fun71363: for(var _fun71363_ip = 0; ; ) switch(_fun71363_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0: // try_start_0
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.id;
                     entity = mike.bind(zulu)(entity);
  48: // try_end0
-                    _fun71363_ip = 152; continue _fun71363;
+                    _fun00006_ip = 152; continue _fun00005;
  50: // catch_target0
                     CatchBlockStart(arg_register=0);
                     zulu = _closure1_slot1;

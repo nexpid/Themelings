@@ -21,11 +21,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getItemSubtitleForMaxPlayers.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getItemSubtitleForMaxPlayers
-        _fun70535: for(var _fun70535_ip = 0; ; ) switch(_fun70535_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             options = 0;
-            if(!(!(oscar > options))) { _fun70535_ip = 68; continue _fun70535 }
+            if(!(!(oscar > options))) { _fun00002_ip = 68; continue _fun00001 }
  9:
             report = _closure1_slot0;
             entity = _closure1_slot1;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.s1vQIC;
             entity = mike.bind(zulu)(entity);
-            _fun70535_ip = 132; continue _fun70535;
+            _fun00002_ip = 132; continue _fun00001;
  68:
             golf = _closure1_slot0;
             mike = _closure1_slot1;
@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     tango = function(argFoo) { // Original name: getItemSubtitleForMaxPlayersShort
-        _fun70536: for(var _fun70536_ip = 0; ; ) switch(_fun70536_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             golf = 0;
-            if(!(!(tango > golf))) { _fun70536_ip = 68; continue _fun70536 }
+            if(!(!(tango > golf))) { _fun00004_ip = 68; continue _fun00003 }
  9:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.zMNEiI;
             entity = mike.bind(zulu)(entity);
-            _fun70536_ip = 92; continue _fun70536;
+            _fun00004_ip = 92; continue _fun00003;
  68:
             mike = global;
             mike = mike.HermesInternal;
@@ -92,11 +92,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getItemSubtitleForMaxPlayersShort'] = tango;
     mike = function(argFoo) { // Original name: getItemSubtitleForMaxPlayersShorter
-        _fun70537: for(var _fun70537_ip = 0; ; ) switch(_fun70537_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             golf = 0;
-            if(!(!(tango > golf))) { _fun70537_ip = 68; continue _fun70537 }
+            if(!(!(tango > golf))) { _fun00006_ip = 68; continue _fun00005 }
  9:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.zMNEiI;
             entity = mike.bind(zulu)(entity);
-            _fun70537_ip = 92; continue _fun70537;
+            _fun00006_ip = 92; continue _fun00005;
  68:
             mike = global;
             mike = mike.HermesInternal;

@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/native/marketing_moments/collectible_decos/utils/openPaymentModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun105104: for(var _fun105104_ip = 0; ; ) switch(_fun105104_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.markAsDismissed;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar.hideActionSheet;
             mike = mike.bind(oscar)();
             mike = null;
-            if(!(mike != zulu)) { _fun105104_ip = 71; continue _fun105104 }
+            if(!(mike != zulu)) { _fun00002_ip = 71; continue _fun00001 }
  56:
             mike = _closure1_slot5;
             mike = mike.PRIMARY;

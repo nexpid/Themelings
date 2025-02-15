@@ -1,6 +1,6 @@
 // app/modules/system_date_format/SystemDateFormatter.native.tsx
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    _fun43498: for(var _fun43498_ip = 0; ; ) switch(_fun43498_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         tango = argFoo;
         report = argBar;
@@ -21,28 +21,28 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         mike = mike.NativeModules;
         golf = tango.__DiscordCreateDateFormatter;
         options = null;
-        if(!(options == golf)) { _fun43498_ip = 138; continue _fun43498 }
+        if(!(options == golf)) { _fun00002_ip = 138; continue _fun00001 }
  75:
         offset = mike.DateFormatUtils;
         mike = options == offset;
         golf = undefined;
-        if(mike) { _fun43498_ip = 117; continue _fun43498 }
+        if(mike) { _fun00002_ip = 117; continue _fun00001 }
  92:
         mike = offset.activate;
         mike = options == mike;
         golf = undefined;
-        if(mike) { _fun43498_ip = 117; continue _fun43498 }
+        if(mike) { _fun00002_ip = 117; continue _fun00001 }
  107:
         mike = offset.activate;
         golf = mike.bind(offset)();
  117:
         mike = undefined;
-        if(!(verify === golf)) { _fun43498_ip = 144; continue _fun43498 }
+        if(!(verify === golf)) { _fun00002_ip = 144; continue _fun00001 }
  123:
         golf = tango.__DiscordCreateDateFormatter;
         golf = options != golf;
         mike = undefined;
-        if(!golf) { _fun43498_ip = 144; continue _fun43498 }
+        if(!golf) { _fun00002_ip = 144; continue _fun00001 }
  138:
         mike = tango.__DiscordCreateDateFormatter;
  144:

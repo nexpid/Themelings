@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot8 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: updateActivity
-        _fun74999: for(var _fun74999_ip = 0; ; ) switch(_fun74999_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             sizing = zulu.applicationId;
@@ -47,38 +47,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             foxtrot = zulu.shareActivity;
             kilo = zulu.token;
             entity = undefined;
-            if(!(kilo === entity)) { _fun74999_ip = 44; continue _fun74999 }
+            if(!(kilo === entity)) { _fun00002_ip = 44; continue _fun00001 }
  42:
             kilo = null;
  44:
             backup = zulu.duration;
-            if(!(backup === entity)) { _fun74999_ip = 55; continue _fun74999 }
+            if(!(backup === entity)) { _fun00002_ip = 55; continue _fun00001 }
  53:
             backup = 0;
  55:
             var _closure2_slot2 = backup;
             yankee = zulu.closed;
-            if(!(yankee === entity)) { _fun74999_ip = 71; continue _fun74999 }
+            if(!(yankee === entity)) { _fun00002_ip = 71; continue _fun00001 }
  69:
             yankee = false;
  71:
             offset = zulu.exePath;
-            if(!(offset === entity)) { _fun74999_ip = 83; continue _fun74999 }
+            if(!(offset === entity)) { _fun00002_ip = 83; continue _fun00001 }
  81:
             offset = null;
  83:
             verify = zulu.voiceChannelId;
-            if(!(verify === entity)) { _fun74999_ip = 95; continue _fun74999 }
+            if(!(verify === entity)) { _fun00002_ip = 95; continue _fun00001 }
  93:
             verify = null;
  95:
             options = zulu.sessionId;
-            if(!(options === entity)) { _fun74999_ip = 107; continue _fun74999 }
+            if(!(options === entity)) { _fun00002_ip = 107; continue _fun00001 }
  105:
             options = null;
  107:
             golf = zulu.mediaSessionId;
-            if(!(golf === entity)) { _fun74999_ip = 119; continue _fun74999 }
+            if(!(golf === entity)) { _fun00002_ip = 119; continue _fun00001 }
  117:
             golf = null;
  119:
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     mike['updateActivity'] = golf;
     golf = function(argFoo) { // Original name: sendActivityInvite
-        _fun75003: for(var _fun75003_ip = 0; ; ) switch(_fun75003_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             report = mike.channelId;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = mike.bind(zulu)(report);
             var _closure2_slot2 = mike;
             zulu = null;
-            if(!(zulu != mike)) { _fun75003_ip = 205; continue _fun75003 }
+            if(!(zulu != mike)) { _fun00004_ip = 205; continue _fun00003 }
  69:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = options.parse;
             romeo = zulu != yankee;
             report = '';
-            if(!romeo) { _fun75003_ip = 111; continue _fun75003 }
+            if(!romeo) { _fun00004_ip = 111; continue _fun00003 }
  108:
             report = yankee;
  111:
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = output[oscar](sizing, kilo, backup, foxtrot, romeo);
             tango = report.then;
             mike = function(argFoo) {
-                _fun75004: for(var _fun75004_ip = 0; ; ) switch(_fun75004_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     golf = argFoo;
                     zulu = _closure1_slot1;
@@ -249,11 +249,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     verify = oscar.type;
                     oscar = _closure1_slot6;
                     oscar = oscar.LISTENING;
-                    if(!(verify !== oscar)) { _fun75004_ip = 92; continue _fun75004 }
+                    if(!(verify !== oscar)) { _fun00006_ip = 92; continue _fun00005 }
  80:
                     oscar = _closure1_slot8;
                     oscar = oscar.APPLICATION;
-                    _fun75004_ip = 102; continue _fun75004;
+                    _fun00006_ip = 102; continue _fun00005;
  92:
                     options = _closure1_slot8;
                     oscar = options.SPOTIFY;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     mike['channel_id'] = oscar;
                     oscar = null;
                     options = oscar != golf;
-                    if(!options) { _fun75004_ip = 168; continue _fun75004 }
+                    if(!options) { _fun00006_ip = 168; continue _fun00005 }
  158:
                     golf = golf.body;
                     oscar = golf.id;
@@ -362,22 +362,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun75010: for(var _fun75010_ip = 0; ; ) switch(_fun75010_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun75010_ip = 173; continue _fun75010 }
+                    if(mike) { _fun00008_ip = 173; continue _fun00007 }
  10:
                     report = {};
                     mike = _closure2_slot3;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun75010_ip = 35; continue _fun75010 }
+                    if(!(zulu != mike)) { _fun00008_ip = 35; continue _fun00007 }
  25:
                     mike = _closure2_slot3;
                     report['channel_id'] = mike;
  35:
                     mike = _closure2_slot4;
-                    if(!(zulu != mike)) { _fun75010_ip = 53; continue _fun75010 }
+                    if(!(zulu != mike)) { _fun00008_ip = 53; continue _fun00007 }
  43:
                     mike = _closure2_slot4;
                     report['message_id'] = mike;
@@ -409,7 +409,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  150:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun75010_ip = 170; continue _fun75010 }
+                    if(zulu) { _fun00008_ip = 170; continue _fun00007 }
  156:
                     zulu = mike.body;
                     zulu = zulu.secret;
@@ -434,11 +434,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun75013: for(var _fun75013_ip = 0; ; ) switch(_fun75013_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun75013_ip = 139; continue _fun75013 }
+                    if(mike) { _fun00010_ip = 139; continue _fun00009 }
  10:
                     tango = _closure2_slot0;
                     zulu = tango.map;
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return mike;
  122:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun75013_ip = 136; continue _fun75013 }
+                    if(zulu) { _fun00010_ip = 136; continue _fun00009 }
  128:
                     zulu = mike.body;
                     return zulu;

@@ -70,11 +70,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['removePunctuation'] = report;
     tango = function(argFoo) {
-        _fun56976: for(var _fun56976_ip = 0; ; ) switch(_fun56976_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun56976_ip = 49; continue _fun56976 }
+            if(!(entity != zulu)) { _fun00002_ip = 49; continue _fun00001 }
  9:
             mike = _closure1_slot5;
             entity = undefined;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.split;
             entity = ' ';
             entity = mike.bind(zulu)(entity);
-            _fun56976_ip = 53; continue _fun56976;
+            _fun00002_ip = 53; continue _fun00001;
  49:
             entity = new Array(0);
  53:

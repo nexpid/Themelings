@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['update'] = report;
     report = function(argFoo) { // Original name: setUploads
-        _fun70961: for(var _fun70961_ip = 0; ; ) switch(_fun70961_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.uploads;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['type'] = options;
             mike['channelId'] = oscar;
             oscar = verify;
-            if(!golf) { _fun70961_ip = 96; continue _fun70961 }
+            if(!golf) { _fun00002_ip = 96; continue _fun00001 }
  77:
             options = verify.map;
             golf = function(argFoo) {

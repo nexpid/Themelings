@@ -53,13 +53,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/screens/search/SearchBarBottomBorder.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: usePinnedSearchBarBottomBorder
-        _fun118795: for(var _fun118795_ip = 0; ; ) switch(_fun118795_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.key;
             romeo = mike.triggerScrollHeight;
             report = undefined;
-            if(!(romeo === report)) { _fun118795_ip = 25; continue _fun118795 }
+            if(!(romeo === report)) { _fun00002_ip = 25; continue _fun00001 }
  22:
             romeo = 1;
  25:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(report)(options);
             options = offset.useAnimatedStyle;
             entity = function() { // Original name: u
-                _fun118798: for(var _fun118798_ip = 0; ; ) switch(_fun118798_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     tango = _closure1_slot0;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot0;
                     oscar = oscar > zulu;
                     zulu = 0;
-                    if(!oscar) { _fun118798_ip = 64; continue _fun118798 }
+                    if(!oscar) { _fun00004_ip = 64; continue _fun00003 }
  61:
                     zulu = 1;
  64:

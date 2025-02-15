@@ -9,25 +9,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     offset = function(argFoo) { // Original name: isDiscordHostname
-        _fun36880: for(var _fun36880_ip = 0; ; ) switch(_fun36880_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             zulu = arguments[1];
             entity = undefined;
-            if(!(zulu === entity)) { _fun36880_ip = 14; continue _fun36880 }
+            if(!(zulu === entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             zulu = false;
  14:
             entity = null;
             entity = entity != golf;
-            if(!entity) { _fun36880_ip = 76; continue _fun36880 }
+            if(!entity) { _fun00002_ip = 76; continue _fun00001 }
  23:
             report = _closure1_slot4;
             mike = report.test;
             mike = mike.bind(report)(golf);
-            if(mike) { _fun36880_ip = 73; continue _fun36880 }
+            if(mike) { _fun00002_ip = 73; continue _fun00001 }
  43:
-            if(!zulu) { _fun36880_ip = 70; continue _fun36880 }
+            if(!zulu) { _fun00002_ip = 70; continue _fun00001 }
  46:
             oscar = _closure1_slot5;
             report = oscar.has;
@@ -44,12 +44,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot6 = offset;
     verify = function(argFoo) { // Original name: isDiscordProtocol
-        _fun36881: for(var _fun36881_ip = 0; ; ) switch(_fun36881_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun36881_ip = 22; continue _fun36881 }
+            if(!entity) { _fun00004_ip = 22; continue _fun00003 }
  12:
             mike = 'discord:';
             entity = mike === zulu;
@@ -59,17 +59,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = verify;
     options = function(argFoo) { // Original name: isDiscordUrl
-        _fun36882: for(var _fun36882_ip = 0; ; ) switch(_fun36882_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = argFoo;
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun36882_ip = 14; continue _fun36882 }
+            if(!(tango === zulu)) { _fun00006_ip = 14; continue _fun00005 }
  12:
             tango = false;
  14:
             report = null;
-            if(!(report != golf)) { _fun36882_ip = 86; continue _fun36882 }
+            if(!(report != golf)) { _fun00006_ip = 86; continue _fun00005 }
  20:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -80,15 +80,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = mike.bind(oscar)(golf);
             golf = report == oscar;
             mike = undefined;
-            if(golf) { _fun36882_ip = 69; continue _fun36882 }
+            if(golf) { _fun00006_ip = 69; continue _fun00005 }
  63:
             mike = oscar.hostname;
  69:
-            if(!(report != mike)) { _fun36882_ip = 86; continue _fun36882 }
+            if(!(report != mike)) { _fun00006_ip = 86; continue _fun00005 }
  73:
             entity = _closure1_slot6;
             entity = entity.bind(zulu)(mike, tango);
-            if(entity) { _fun36882_ip = 90; continue _fun36882 }
+            if(entity) { _fun00006_ip = 90; continue _fun00005 }
  86:
             entity = false;
             return entity;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = options;
     golf = function(argFoo) { // Original name: isDiscordUri
-        _fun36883: for(var _fun36883_ip = 0; ; ) switch(_fun36883_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             oscar = argFoo;
             entity = null;
             entity = entity != oscar;
-            if(!entity) { _fun36883_ip = 63; continue _fun36883 }
+            if(!entity) { _fun00008_ip = 63; continue _fun00007 }
  12:
             tango = _closure1_slot7;
             report = _closure1_slot1;
@@ -185,17 +185,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike['URL_REGEX'] = yankee;
     mike['isDiscordHostname'] = offset;
     offset = function(argFoo, argBar) { // Original name: isDiscordLocalhost
-        _fun36884: for(var _fun36884_ip = 0; ; ) switch(_fun36884_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = argFoo;
             tango = null;
             entity = tango != zulu;
-            if(!entity) { _fun36884_ip = 19; continue _fun36884 }
+            if(!entity) { _fun00010_ip = 19; continue _fun00009 }
  12:
             mike = argBar;
             entity = tango != mike;
  19:
-            if(!entity) { _fun36884_ip = 45; continue _fun36884 }
+            if(!entity) { _fun00010_ip = 45; continue _fun00009 }
  22:
             mike = global;
             mike = mike.window;
@@ -211,12 +211,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike['isDiscordUrl'] = options;
     mike['isDiscordUri'] = golf;
     golf = function(argFoo) { // Original name: isDiscordCdnUrl
-        _fun36885: for(var _fun36885_ip = 0; ; ) switch(_fun36885_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun36885_ip = 78; continue _fun36885 }
+            if(!entity) { _fun00012_ip = 78; continue _fun00011 }
  12:
             report = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -238,13 +238,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['isDiscordCdnUrl'] = golf;
     golf = function(argFoo) { // Original name: isDiscordUrlOrUri
-        _fun36886: for(var _fun36886_ip = 0; ; ) switch(_fun36886_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot8;
             zulu = undefined;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun36886_ip = 29; continue _fun36886 }
+            if(entity) { _fun00014_ip = 29; continue _fun00013 }
  20:
             mike = _closure1_slot9;
             entity = mike.bind(zulu)(tango);
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['isDiscordUrlOrUri'] = golf;
     golf = function(argFoo) { // Original name: isAppRoute
-        _fun36887: for(var _fun36887_ip = 0; ; ) switch(_fun36887_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             mike = argFoo;
             entity = mike.toLowerCase;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.startsWith;
             entity = '/channels/';
             entity = mike.bind(tango)(entity);
-            if(entity) { _fun36887_ip = 57; continue _fun36887 }
+            if(entity) { _fun00016_ip = 57; continue _fun00015 }
  33:
             zulu = tango.startsWith;
             mike = _closure1_slot3;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['formatSearch'] = golf;
     golf = function(argFoo) { // Original name: safeParseWithQuery
-        _fun36891: for(var _fun36891_ip = 0; ; ) switch(_fun36891_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['safeParseWithQuery'] = golf;
     golf = function(argFoo, argBar) { // Original name: toURLSafe
-        _fun36892: for(var _fun36892_ip = 0; ; ) switch(_fun36892_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             mike = argFoo;
             entity = argBar;

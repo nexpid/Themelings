@@ -21,19 +21,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guilds_bar/native/utils/getGuildsBarGuildIconSource.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getGuildIconSource
-        _fun114503: for(var _fun114503_ip = 0; ; ) switch(_fun114503_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = null;
             mike = zulu != report;
-            if(!mike) { _fun114503_ip = 21; continue _fun114503 }
+            if(!mike) { _fun00002_ip = 21; continue _fun00001 }
  12:
             entity = report.icon;
             mike = zulu != entity;
  21:
             oscar = undefined;
             entity = undefined;
-            if(!mike) { _fun114503_ip = 78; continue _fun114503 }
+            if(!mike) { _fun00002_ip = 78; continue _fun00001 }
  28:
             tango = report.getIconSource;
             zulu = _closure1_slot0;

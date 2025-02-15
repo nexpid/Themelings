@@ -28,16 +28,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'components_native/chat/isAlertOrActionSheetOpen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isAlertOrActionSheetOpen
-        _fun89504: for(var _fun89504_ip = 0; ; ) switch(_fun89504_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[1];
             tango = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun89504_ip = 19; continue _fun89504 }
+            if(!(mike === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             mike = _closure1_slot0;
  19:
-            if(!(tango === entity)) { _fun89504_ip = 30; continue _fun89504 }
+            if(!(tango === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
             tango = _closure1_slot1;
  30:
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.getAlert;
             mike = mike.bind(tango)();
             mike = zulu != mike;
-            if(entity) { _fun89504_ip = 66; continue _fun89504 }
+            if(entity) { _fun00002_ip = 66; continue _fun00001 }
  63:
             entity = mike;
  66:

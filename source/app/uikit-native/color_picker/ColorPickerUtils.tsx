@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = entity;
     tango = function() {
         entity = function(argFoo) { // Original name: normalizeValue
-            _fun93160: for(var _fun93160_ip = 0; ; ) switch(_fun93160_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 entity = 0;
                 mike = zulu < entity;
-                if(mike) { _fun93160_ip = 28; continue _fun93160 }
+                if(mike) { _fun00002_ip = 28; continue _fun00001 }
  12:
                 mike = 1;
                 tango = zulu > mike;
-                if(tango) { _fun93160_ip = 25; continue _fun93160 }
+                if(tango) { _fun00002_ip = 25; continue _fun00001 }
  22:
                 mike = zulu;
  25:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot1 = tango;
     tango = function() {
         entity = function(argFoo) { // Original name: hsvToRgbWorklet
-            _fun93162: for(var _fun93162_ip = 0; ; ) switch(_fun93162_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 mike = entity.h;
@@ -76,49 +76,49 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 oscar = golf * oscar;
                 offset = tango % report;
                 report = 0;
-                if(!(report !== offset)) { _fun93162_ip = 200; continue _fun93162 }
+                if(!(report !== offset)) { _fun00004_ip = 200; continue _fun00003 }
  107:
-                if(!(entity !== offset)) { _fun93162_ip = 189; continue _fun93162 }
+                if(!(entity !== offset)) { _fun00004_ip = 189; continue _fun00003 }
  111:
                 entity = 2;
-                if(!(entity !== offset)) { _fun93162_ip = 178; continue _fun93162 }
+                if(!(entity !== offset)) { _fun00004_ip = 178; continue _fun00003 }
  118:
                 entity = 3;
-                if(!(entity !== offset)) { _fun93162_ip = 167; continue _fun93162 }
+                if(!(entity !== offset)) { _fun00004_ip = 167; continue _fun00003 }
  125:
                 entity = 4;
-                if(!(entity !== offset)) { _fun93162_ip = 156; continue _fun93162 }
+                if(!(entity !== offset)) { _fun00004_ip = 156; continue _fun00003 }
  132:
                 verify = 5;
                 entity = 0;
                 tango = 0;
                 report = 0;
-                if(!(verify === offset)) { _fun93162_ip = 209; continue _fun93162 }
+                if(!(verify === offset)) { _fun00004_ip = 209; continue _fun00003 }
  145:
                 entity = golf;
                 tango = mike;
                 report = options;
-                _fun93162_ip = 209; continue _fun93162;
+                _fun00004_ip = 209; continue _fun00003;
  156:
                 entity = oscar;
                 tango = mike;
                 report = golf;
-                _fun93162_ip = 209; continue _fun93162;
+                _fun00004_ip = 209; continue _fun00003;
  167:
                 entity = mike;
                 tango = options;
                 report = golf;
-                _fun93162_ip = 209; continue _fun93162;
+                _fun00004_ip = 209; continue _fun00003;
  178:
                 entity = mike;
                 tango = golf;
                 report = oscar;
-                _fun93162_ip = 209; continue _fun93162;
+                _fun00004_ip = 209; continue _fun00003;
  189:
                 entity = options;
                 tango = golf;
                 report = mike;
-                _fun93162_ip = 209; continue _fun93162;
+                _fun00004_ip = 209; continue _fun00003;
  200:
                 entity = golf;
                 tango = oscar;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot2 = oscar;
     mike = function() {
         entity = function(argFoo) { // Original name: hslToRgbWorklet
-            _fun93164: for(var _fun93164_ip = 0; ; ) switch(_fun93164_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.h;
@@ -191,65 +191,65 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = options;
                 tango = report;
                 mike = 0;
-                if(!(offset !== yankee)) { _fun93164_ip = 286; continue _fun93164 }
+                if(!(offset !== yankee)) { _fun00006_ip = 286; continue _fun00005 }
  130:
-                if(!(golf <= yankee)) { _fun93164_ip = 152; continue _fun93164 }
+                if(!(golf <= yankee)) { _fun00006_ip = 152; continue _fun00005 }
  134:
                 romeo = yankee < verify;
                 entity = options;
                 tango = report;
                 mike = 0;
-                if(romeo) { _fun93164_ip = 286; continue _fun93164 }
+                if(romeo) { _fun00006_ip = 286; continue _fun00005 }
  152:
-                if(!(verify <= yankee)) { _fun93164_ip = 174; continue _fun93164 }
+                if(!(verify <= yankee)) { _fun00006_ip = 174; continue _fun00005 }
  156:
                 verify = 120;
                 verify = yankee < verify;
                 entity = report;
                 tango = options;
                 mike = 0;
-                if(verify) { _fun93164_ip = 286; continue _fun93164 }
+                if(verify) { _fun00006_ip = 286; continue _fun00005 }
  174:
                 verify = 120;
-                if(!(verify <= yankee)) { _fun93164_ip = 199; continue _fun93164 }
+                if(!(verify <= yankee)) { _fun00006_ip = 199; continue _fun00005 }
  181:
                 verify = 180;
                 verify = yankee < verify;
                 entity = 0;
                 tango = options;
                 mike = report;
-                if(verify) { _fun93164_ip = 286; continue _fun93164 }
+                if(verify) { _fun00006_ip = 286; continue _fun00005 }
  199:
                 verify = 180;
-                if(!(verify <= yankee)) { _fun93164_ip = 224; continue _fun93164 }
+                if(!(verify <= yankee)) { _fun00006_ip = 224; continue _fun00005 }
  206:
                 verify = 240;
                 verify = yankee < verify;
                 entity = 0;
                 tango = report;
                 mike = options;
-                if(verify) { _fun93164_ip = 286; continue _fun93164 }
+                if(verify) { _fun00006_ip = 286; continue _fun00005 }
  224:
                 verify = 240;
-                if(!(verify <= yankee)) { _fun93164_ip = 252; continue _fun93164 }
+                if(!(verify <= yankee)) { _fun00006_ip = 252; continue _fun00005 }
  231:
                 verify = 300;
                 verify = yankee < verify;
                 entity = report;
                 tango = 0;
                 mike = options;
-                if(verify) { _fun93164_ip = 286; continue _fun93164 }
+                if(verify) { _fun00006_ip = 286; continue _fun00005 }
  252:
                 verify = 300;
                 verify = verify <= yankee;
-                if(!verify) { _fun93164_ip = 269; continue _fun93164 }
+                if(!verify) { _fun00006_ip = 269; continue _fun00005 }
  265:
                 verify = yankee < offset;
  269:
                 entity = 0;
                 tango = 0;
                 mike = 0;
-                if(!verify) { _fun93164_ip = 286; continue _fun93164 }
+                if(!verify) { _fun00006_ip = 286; continue _fun00005 }
  278:
                 entity = options;
                 tango = 0;

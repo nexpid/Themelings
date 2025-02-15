@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/instant_invite/useInviteApplicationBypassInfo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useInviteApplicationBypassInfo
-        _fun127523: for(var _fun127523_ip = 0; ; ) switch(_fun127523_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -65,28 +65,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options.useMemberVerificationRolloutEnabled;
             zulu = null;
             entity = zulu == report;
-            if(entity) { _fun127523_ip = 105; continue _fun127523 }
+            if(entity) { _fun00002_ip = 105; continue _fun00001 }
  100:
             oscar = report.id;
  105:
             entity = 'AdvancedInstantInvite';
             entity = golf.bind(options)(oscar, entity);
-            if(!entity) { _fun127523_ip = 124; continue _fun127523 }
+            if(!entity) { _fun00002_ip = 124; continue _fun00001 }
  120:
             entity = zulu != report;
  124:
-            if(!entity) { _fun127523_ip = 148; continue _fun127523 }
+            if(!entity) { _fun00002_ip = 148; continue _fun00001 }
  127:
             golf = report.hasFeature;
             oscar = _closure1_slot3;
             oscar = oscar.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             entity = golf.bind(report)(oscar);
  148:
-            if(!entity) { _fun127523_ip = 155; continue _fun127523 }
+            if(!entity) { _fun00002_ip = 155; continue _fun00001 }
  151:
             entity = zulu != report;
  155:
-            if(!entity) { _fun127523_ip = 179; continue _fun127523 }
+            if(!entity) { _fun00002_ip = 179; continue _fun00001 }
  158:
             zulu = report.hasFeature;
             mike = _closure1_slot3;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !report;
             entity = {};
             zulu = mike;
-            if(report) { _fun127523_ip = 196; continue _fun127523 }
+            if(report) { _fun00002_ip = 196; continue _fun00001 }
  193:
             zulu = tango;
  196:

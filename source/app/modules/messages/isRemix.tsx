@@ -26,17 +26,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/isRemix.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun69390: for(var _fun69390_ip = 0; ; ) switch(_fun69390_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = null;
             zulu = tango == mike;
-            if(zulu) { _fun69390_ip = 22; continue _fun69390 }
+            if(zulu) { _fun00002_ip = 22; continue _fun00001 }
  12:
             entity = mike.attachments;
             zulu = tango == entity;
  22:
-            if(zulu) { _fun69390_ip = 43; continue _fun69390 }
+            if(zulu) { _fun00002_ip = 43; continue _fun00001 }
  25:
             entity = mike.attachments;
             tango = entity.length;
@@ -44,18 +44,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango < entity;
  43:
             entity = !zulu;
-            if(zulu) { _fun69390_ip = 75; continue _fun69390 }
+            if(zulu) { _fun00002_ip = 75; continue _fun00001 }
  49:
             tango = mike.attachments;
             zulu = tango.some;
             mike = function(argFoo) {
-                _fun69391: for(var _fun69391_ip = 0; ; ) switch(_fun69391_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     mike = zulu.flags;
                     entity = null;
                     entity = entity != mike;
-                    if(!entity) { _fun69391_ip = 69; continue _fun69391 }
+                    if(!entity) { _fun00004_ip = 69; continue _fun00003 }
  17:
                     oscar = _closure1_slot0;
                     report = _closure1_slot1;

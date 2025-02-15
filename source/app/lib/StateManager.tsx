@@ -25,12 +25,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot3;
         zulu = function() { // Original name: StateManager
-            _fun106298: for(var _fun106298_ip = 0; ; ) switch(_fun106298_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = arguments[0];
                 zulu = this;
                 entity = undefined;
-                if(!(mike === entity)) { _fun106298_ip = 14; continue _fun106298 }
+                if(!(mike === entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
                 mike = true;
  14:
@@ -104,17 +104,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'update';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun106303: for(var _fun106303_ip = 0; ; ) switch(_fun106303_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 oscar = arguments[0];
                 entity = arguments[1];
                 tango = this;
                 report = undefined;
-                if(!(oscar === report)) { _fun106303_ip = 17; continue _fun106303 }
+                if(!(oscar === report)) { _fun00004_ip = 17; continue _fun00003 }
  15:
                 oscar = {};
  17:
-                if(!(entity === report)) { _fun106303_ip = 23; continue _fun106303 }
+                if(!(entity === report)) { _fun00004_ip = 23; continue _fun00003 }
  21:
                 entity = false;
  23:
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 romeo = oscar;
                 oscar = copyDataProperties(foxtrot, romeo);
                 mike = zulu.bind(tango)(mike);
-                if(entity) { _fun106303_ip = 173; continue _fun106303 }
+                if(entity) { _fun00004_ip = 173; continue _fun00003 }
  63:
                 entity = global;
                 zulu = entity.Object;
@@ -137,11 +137,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = 0;
                 entity = golf < entity;
                 zulu = 2;
-                if(!entity) { _fun106303_ip = 221; continue _fun106303 }
+                if(!entity) { _fun00004_ip = 221; continue _fun00003 }
  101:
                 verify = options[golf];
                 entity = tango.dirty;
-                if(entity) { _fun106303_ip = 153; continue _fun106303 }
+                if(entity) { _fun00004_ip = 153; continue _fun00003 }
  114:
                 yankee = _closure1_slot0;
                 offset = _closure1_slot1;
@@ -156,9 +156,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango['dirty'] = entity;
                 golf = golf + 1;
                 entity = options.length;
-                if(golf < entity) { _fun106303_ip = 101; continue _fun106303 }
+                if(golf < entity) { _fun00004_ip = 101; continue _fun00003 }
  171:
-                _fun106303_ip = 221; continue _fun106303;
+                _fun00004_ip = 221; continue _fun00003;
  173:
                 zulu = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -172,23 +172,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango['dirty'] = entity;
  221:
                 entity = tango.dirty;
-                if(!entity) { _fun106303_ip = 242; continue _fun106303 }
+                if(!entity) { _fun00004_ip = 242; continue _fun00003 }
  230:
                 zulu = tango.shouldCommit;
                 entity = zulu.bind(tango)();
  242:
                 zulu = entity;
-                if(zulu) { _fun106303_ip = 254; continue _fun106303 }
+                if(zulu) { _fun00004_ip = 254; continue _fun00003 }
  248:
                 zulu = tango.alwaysUpdateState;
  254:
-                if(!zulu) { _fun106303_ip = 263; continue _fun106303 }
+                if(!zulu) { _fun00004_ip = 263; continue _fun00003 }
  257:
                 tango['state'] = mike;
  263:
                 mike = !entity;
                 entity = !mike;
-                if(mike) { _fun106303_ip = 298; continue _fun106303 }
+                if(mike) { _fun00004_ip = 298; continue _fun00003 }
  272:
                 mike = false;
                 tango['dirty'] = mike;

@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['forEach'] = oscar;
     oscar = function(argFoo, argBar) { // Original name: forEachKey
-        _fun277: for(var _fun277_ip = 0; ; ) switch(_fun277_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argBar;
             report = argFoo;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  25:
                 options = mike;
                 options = golf.bind(entity)(options);
-                _fun277_ip = 16; continue _fun277;
+                _fun00002_ip = 16; continue _fun00001;
             }
  35:
             return entity;

@@ -108,11 +108,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo, argBar) {
                 entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                    _fun76906: for(var _fun76906_ip = 0; ; ) switch(_fun76906_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun76906_ip = 180; continue _fun76906 }
+                        if(mike) { _fun00002_ip = 180; continue _fun00001 }
  10:
                         report = argFoo;
                         golf = argBar;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  20: // try_start_0
                         options = _closure2_slot1;
                         tango = golf;
-                        if(!(options === tango)) { _fun76906_ip = 63; continue _fun76906 }
+                        if(!(options === tango)) { _fun00002_ip = 63; continue _fun00001 }
  34:
                         offset = _closure1_slot5;
                         verify = offset.getChannel;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = verify.bind(offset)(options);
                         zulu = verify;
                         options = null;
-                        if(!(options == verify)) { _fun76906_ip = 125; continue _fun76906 }
+                        if(!(options == verify)) { _fun00002_ip = 125; continue _fun00001 }
  63:
                         oscar = _closure2_slot2;
                         options = golf;
@@ -146,9 +146,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  114:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                        if(oscar) { _fun76906_ip = 122; continue _fun76906 }
+                        if(oscar) { _fun00002_ip = 122; continue _fun00001 }
  120: // try_end0
-                        _fun76906_ip = 177; continue _fun76906;
+                        _fun00002_ip = 177; continue _fun00001;
  122:
                         return report;
  125: // try_start_1

@@ -101,15 +101,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[3] = golf;
         zulu[4] = oscar;
         mike = function() {
-            _fun81257: for(var _fun81257_ip = 0; ; ) switch(_fun81257_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot4;
-                if(!zulu) { _fun81257_ip = 27; continue _fun81257 }
+                if(!zulu) { _fun00002_ip = 27; continue _fun00001 }
  12:
                 zulu = _closure2_slot5;
                 tango = zulu.current;
                 zulu = null;
-                if(!(zulu != tango)) { _fun81257_ip = 61; continue _fun81257 }
+                if(!(zulu != tango)) { _fun00002_ip = 61; continue _fun00001 }
  27:
                 zulu = global;
                 oscar = zulu.clearTimeout;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = oscar.bind(zulu)(report);
                 zulu = null;
                 tango['current'] = zulu;
-                _fun81257_ip = 100; continue _fun81257;
+                _fun00002_ip = 100; continue _fun00001;
  61:
                 tango = _closure2_slot5;
                 zulu = global;

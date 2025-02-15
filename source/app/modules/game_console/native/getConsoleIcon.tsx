@@ -54,17 +54,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getConsoleIconForVoicePlatform
-        _fun103385: for(var _fun103385_ip = 0; ; ) switch(_fun103385_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot2;
             entity = entity.XBOX;
-            if(!(tango !== entity)) { _fun103385_ip = 60; continue _fun103385 }
+            if(!(tango !== entity)) { _fun00002_ip = 60; continue _fun00001 }
  20:
             entity = _closure1_slot2;
             zulu = entity.PLAYSTATION;
             entity = null;
-            if(!(tango === zulu)) { _fun103385_ip = 58; continue _fun103385 }
+            if(!(tango === zulu)) { _fun00002_ip = 58; continue _fun00001 }
  36:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = undefined;
             entity = report.bind(zulu)(tango);
  58:
-            _fun103385_ip = 82; continue _fun103385;
+            _fun00002_ip = 82; continue _fun00001;
  60:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

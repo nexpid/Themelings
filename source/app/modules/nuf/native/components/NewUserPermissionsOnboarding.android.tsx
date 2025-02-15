@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/NewUserPermissionsOnboarding.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NewUserPermissionsOnboarding
-        _fun94916: for(var _fun94916_ip = 0; ; ) switch(_fun94916_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             record = entity.title;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = entity.loading;
             output = entity.showSkip;
             tango = undefined;
-            if(!(output === tango)) { _fun94916_ip = 45; continue _fun94916 }
+            if(!(output === tango)) { _fun00002_ip = 45; continue _fun00001 }
  43:
             output = true;
  45:
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = new Array(2);
             echo[0] = update;
             update = output;
-            if(!output) { _fun94916_ip = 305; continue _fun94916 }
+            if(!output) { _fun00002_ip = 305; continue _fun00001 }
  299:
             update = offset.primaryButtonContainer;
  305:
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['children'] = echo;
             result = options.bind(tango)(golf, result);
             sizing[2] = result;
-            if(!output) { _fun94916_ip = 576; continue _fun94916 }
+            if(!output) { _fun00002_ip = 576; continue _fun00001 }
  450:
             update = _closure1_slot4;
             echo = _closure1_slot2;

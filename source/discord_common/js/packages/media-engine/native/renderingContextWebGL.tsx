@@ -89,12 +89,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'render';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun50299: for(var _fun50299_ip = 0; ; ) switch(_fun50299_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = this;
                 zulu = null;
-                if(!(zulu != mike)) { _fun50299_ip = 487; continue _fun50299 }
+                if(!(zulu != mike)) { _fun00002_ip = 487; continue _fun00001 }
  15:
                 oscar = mike.width;
                 zulu = mike.height;
@@ -197,12 +197,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'create';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun50300: for(var _fun50300_ip = 0; ; ) switch(_fun50300_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 romeo = argFoo;
                 report = this;
                 entity = null;
-                if(!(entity != romeo)) { _fun50300_ip = 412; continue _fun50300 }
+                if(!(entity != romeo)) { _fun00004_ip = 412; continue _fun00003 }
  15:
                 tango = report.createShader;
                 zulu = romeo.VERTEX_SHADER;
@@ -212,13 +212,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = romeo.FRAGMENT_SHADER;
                 mike = '\nprecision mediump float;\n\nvarying vec2 out_texcoord;\nuniform sampler2D texture;\n\nvoid main() {\n   gl_FragColor = texture2D(texture, out_texcoord);\n}\n';
                 zulu = oscar.bind(report)(romeo, zulu, mike);
-                if(!(entity != tango)) { _fun50300_ip = 410; continue _fun50300 }
+                if(!(entity != tango)) { _fun00004_ip = 410; continue _fun00003 }
  76:
-                if(!(entity != zulu)) { _fun50300_ip = 410; continue _fun50300 }
+                if(!(entity != zulu)) { _fun00004_ip = 410; continue _fun00003 }
  83:
                 mike = report.createProgram;
                 yankee = mike.bind(report)(romeo, tango, zulu);
-                if(!(entity != yankee)) { _fun50300_ip = 408; continue _fun50300 }
+                if(!(entity != yankee)) { _fun00004_ip = 408; continue _fun00003 }
  103:
                 zulu = romeo.getAttribLocation;
                 mike = 'position';
@@ -227,9 +227,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = 'texcoord';
                 verify = zulu.bind(romeo)(yankee, mike);
                 mike = -1;
-                if(!(mike !== offset)) { _fun50300_ip = 406; continue _fun50300 }
+                if(!(mike !== offset)) { _fun00004_ip = 406; continue _fun00003 }
  150:
-                if(!(mike !== verify)) { _fun50300_ip = 406; continue _fun50300 }
+                if(!(mike !== verify)) { _fun00004_ip = 406; continue _fun00003 }
  157:
                 zulu = romeo.getUniformLocation;
                 mike = 'transform';
@@ -237,13 +237,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = romeo.getUniformLocation;
                 mike = 'texture';
                 golf = zulu.bind(romeo)(yankee, mike);
-                if(!(entity != options)) { _fun50300_ip = 404; continue _fun50300 }
+                if(!(entity != options)) { _fun00004_ip = 404; continue _fun00003 }
  196:
-                if(!(entity != golf)) { _fun50300_ip = 404; continue _fun50300 }
+                if(!(entity != golf)) { _fun00004_ip = 404; continue _fun00003 }
  203:
                 mike = romeo.createBuffer;
                 oscar = mike.bind(romeo)();
-                if(!(entity != oscar)) { _fun50300_ip = 402; continue _fun50300 }
+                if(!(entity != oscar)) { _fun00004_ip = 402; continue _fun00003 }
  222:
                 zulu = romeo.bindBuffer;
                 mike = romeo.ARRAY_BUFFER;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = mike.bind(romeo)();
                 zulu = entity == tango;
                 mike = null;
-                if(zulu) { _fun50300_ip = 400; continue _fun50300 }
+                if(zulu) { _fun00004_ip = 400; continue _fun00003 }
  328:
                 report = _closure2_slot0;
                 zulu = {};
@@ -305,14 +305,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'createShader';
         entity['key'] = golf;
         golf = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun50301: for(var _fun50301_ip = 0; ; ) switch(_fun50301_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 mike = tango.createShader;
                 entity = argBar;
                 mike = mike.bind(tango)(entity);
                 entity = null;
-                if(!(entity != mike)) { _fun50301_ip = 153; continue _fun50301 }
+                if(!(entity != mike)) { _fun00006_ip = 153; continue _fun00005 }
  26:
                 report = tango.shaderSource;
                 zulu = argBaz;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.getShaderParameter;
                 zulu = tango.COMPILE_STATUS;
                 zulu = report.bind(tango)(mike, zulu);
-                if(zulu) { _fun50301_ip = 151; continue _fun50301 }
+                if(zulu) { _fun00006_ip = 151; continue _fun00005 }
  81:
                 golf = _closure1_slot2;
                 oscar = golf.warn;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.bind(golf)(report);
                 report = tango.getShaderInfoLog;
                 oscar = report.bind(tango)(mike);
-                if(!(entity != oscar)) { _fun50301_ip = 136; continue _fun50301 }
+                if(!(entity != oscar)) { _fun00006_ip = 136; continue _fun00005 }
  121:
                 report = _closure1_slot2;
                 zulu = report.log;
@@ -351,19 +351,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'createProgram';
         entity['key'] = golf;
         oscar = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun50302: for(var _fun50302_ip = 0; ; ) switch(_fun50302_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 tango = argFoo;
                 oscar = argBar;
                 report = argBaz;
                 entity = null;
-                if(!(entity != oscar)) { _fun50302_ip = 178; continue _fun50302 }
+                if(!(entity != oscar)) { _fun00008_ip = 178; continue _fun00007 }
  18:
-                if(!(entity != report)) { _fun50302_ip = 178; continue _fun50302 }
+                if(!(entity != report)) { _fun00008_ip = 178; continue _fun00007 }
  25:
                 mike = tango.createProgram;
                 mike = mike.bind(tango)();
-                if(!(entity != mike)) { _fun50302_ip = 176; continue _fun50302 }
+                if(!(entity != mike)) { _fun00008_ip = 176; continue _fun00007 }
  42:
                 zulu = tango.attachShader;
                 zulu = zulu.bind(tango)(mike, oscar);
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.getProgramParameter;
                 zulu = tango.LINK_STATUS;
                 zulu = report.bind(tango)(mike, zulu);
-                if(zulu) { _fun50302_ip = 174; continue _fun50302 }
+                if(zulu) { _fun00008_ip = 174; continue _fun00007 }
  104:
                 golf = _closure1_slot2;
                 oscar = golf.warn;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.bind(golf)(report);
                 report = tango.getProgramInfoLog;
                 oscar = report.bind(tango)(mike);
-                if(!(entity != oscar)) { _fun50302_ip = 159; continue _fun50302 }
+                if(!(entity != oscar)) { _fun00008_ip = 159; continue _fun00007 }
  144:
                 report = _closure1_slot2;
                 zulu = report.log;
@@ -414,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = '../discord_common/js/packages/media-engine/native/renderingContextWebGL.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: initRenderingContextWebGL
-        _fun50303: for(var _fun50303_ip = 0; ; ) switch(_fun50303_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = argFoo;
             mike = zulu.getContext;
@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(zulu)(entity);
             entity = null;
             mike = entity == tango;
-            if(mike) { _fun50303_ip = 46; continue _fun50303 }
+            if(mike) { _fun00010_ip = 46; continue _fun00009 }
  29:
             zulu = _closure1_slot3;
             mike = zulu.create;

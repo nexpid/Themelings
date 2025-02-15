@@ -5,12 +5,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     options = argPlugh;
     report = function(argFoo) { // Original name: isRestrictedFromShowingGuildPurchaseEntryPoints
-        _fun44007: for(var _fun44007_ip = 0; ; ) switch(_fun44007_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun44007_ip = 35; continue _fun44007 }
+            if(!entity) { _fun00002_ip = 35; continue _fun00001 }
  12:
             zulu = tango.includes;
             mike = _closure1_slot3;
@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = report;
     tango = function(argFoo) { // Original name: isRestrictedFromUpdatingCreatorMonetizationSettings
-        _fun44008: for(var _fun44008_ip = 0; ; ) switch(_fun44008_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun44008_ip = 35; continue _fun44008 }
+            if(!entity) { _fun00004_ip = 35; continue _fun00003 }
  12:
             zulu = tango.includes;
             mike = _closure1_slot3;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['isRestrictedFromShowingGuildPurchaseEntryPoints'] = report;
     report = function(argFoo) { // Original name: shouldHideGuildPurchaseEntryPoints
-        _fun44009: for(var _fun44009_ip = 0; ; ) switch(_fun44009_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun44009_ip = 121; continue _fun44009 }
+            if(!(entity != golf)) { _fun00006_ip = 121; continue _fun00005 }
  9:
             tango = _closure1_slot0;
             zulu = tango.getMonetizationRestrictionsFetchState;
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu.bind(oscar)(golf);
             zulu = _closure1_slot1;
             zulu = zulu.FETCHED;
-            if(!(report !== zulu)) { _fun44009_ip = 108; continue _fun44009 }
+            if(!(report !== zulu)) { _fun00006_ip = 108; continue _fun00005 }
  66:
             report = entity == golf;
             zulu = undefined;
-            if(report) { _fun44009_ip = 96; continue _fun44009 }
+            if(report) { _fun00006_ip = 96; continue _fun00005 }
  75:
             oscar = golf.hasFeature;
             report = _closure1_slot4;
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report);
  96:
             entity = entity == zulu;
-            if(entity) { _fun44009_ip = 106; continue _fun44009 }
+            if(entity) { _fun00006_ip = 106; continue _fun00005 }
  103:
             entity = zulu;
  106:
-            _fun44009_ip = 119; continue _fun44009;
+            _fun00006_ip = 119; continue _fun00005;
  108:
             zulu = _closure1_slot5;
             mike = undefined;
@@ -124,11 +124,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['shouldHideGuildPurchaseEntryPoints'] = report;
     zulu['isRestrictedFromUpdatingCreatorMonetizationSettings'] = tango;
     tango = function(argFoo) { // Original name: shouldRestrictUpdatingCreatorMonetizationSettings
-        _fun44010: for(var _fun44010_ip = 0; ; ) switch(_fun44010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun44010_ip = 121; continue _fun44010 }
+            if(!(entity != golf)) { _fun00008_ip = 121; continue _fun00007 }
  9:
             tango = _closure1_slot0;
             zulu = tango.getMonetizationRestrictionsFetchState;
@@ -140,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu.bind(oscar)(golf);
             zulu = _closure1_slot1;
             zulu = zulu.FETCHED;
-            if(!(report !== zulu)) { _fun44010_ip = 108; continue _fun44010 }
+            if(!(report !== zulu)) { _fun00008_ip = 108; continue _fun00007 }
  66:
             report = entity == golf;
             zulu = undefined;
-            if(report) { _fun44010_ip = 96; continue _fun44010 }
+            if(report) { _fun00008_ip = 96; continue _fun00007 }
  75:
             oscar = golf.hasFeature;
             report = _closure1_slot4;
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report);
  96:
             entity = entity == zulu;
-            if(entity) { _fun44010_ip = 106; continue _fun44010 }
+            if(entity) { _fun00008_ip = 106; continue _fun00007 }
  103:
             entity = zulu;
  106:
-            _fun44010_ip = 119; continue _fun44010;
+            _fun00008_ip = 119; continue _fun00007;
  108:
             zulu = _closure1_slot6;
             mike = undefined;
@@ -170,12 +170,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['shouldRestrictUpdatingCreatorMonetizationSettings'] = tango;
     mike = function(argFoo) { // Original name: isRestrictedFromMonetizationReapplication
-        _fun44011: for(var _fun44011_ip = 0; ; ) switch(_fun44011_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun44011_ip = 35; continue _fun44011 }
+            if(!entity) { _fun00010_ip = 35; continue _fun00009 }
  12:
             zulu = tango.includes;
             mike = _closure1_slot3;

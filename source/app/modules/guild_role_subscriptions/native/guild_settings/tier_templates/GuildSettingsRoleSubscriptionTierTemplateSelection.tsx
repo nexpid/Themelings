@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = golf;
     var _closure1_slot3 = oscar;
     entity = function(argFoo) { // Original name: TierTemplatesRenderer
-        _fun127377: for(var _fun127377_ip = 0; ; ) switch(_fun127377_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.templates;
@@ -27,19 +27,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(tango);
             zulu = zulu.tiers;
             var _closure2_slot2 = zulu;
-            if(entity) { _fun127377_ip = 330; continue _fun127377 }
+            if(entity) { _fun00002_ip = 330; continue _fun00001 }
  79:
             golf = null;
-            if(!(golf == options)) { _fun127377_ip = 256; continue _fun127377 }
+            if(!(golf == options)) { _fun00002_ip = 256; continue _fun00001 }
  88:
             zulu = golf == offset;
             entity = null;
-            if(zulu) { _fun127377_ip = 254; continue _fun127377 }
+            if(zulu) { _fun00002_ip = 254; continue _fun00001 }
  100:
             tango = offset.length;
             zulu = 0;
             entity = null;
-            if(!(zulu !== tango)) { _fun127377_ip = 254; continue _fun127377 }
+            if(!(zulu !== tango)) { _fun00002_ip = 254; continue _fun00001 }
  116:
             golf = _closure1_slot14;
             tango = _closure1_slot9;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['renderItem'] = verify;
             entity = golf.bind(report)(tango, zulu);
  254:
-            _fun127377_ip = 328; continue _fun127377;
+            _fun00002_ip = 328; continue _fun00001;
  256:
             golf = _closure1_slot15;
             tango = _closure1_slot0;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['children'] = options;
             entity = golf.bind(report)(tango, zulu);
  328:
-            _fun127377_ip = 361; continue _fun127377;
+            _fun00002_ip = 361; continue _fun00001;
  330:
             tango = _closure1_slot14;
             zulu = _closure1_slot6;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: GuildSettingsRoleSubscriptionTierTemplateSelectionComponent
-        _fun127381: for(var _fun127381_ip = 0; ; ) switch(_fun127381_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.guildId;
@@ -187,11 +187,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.useGroupListingsFetchContext;
             sizing = zulu.bind(oscar)();
             zulu = null;
-            if(!(zulu == romeo)) { _fun127381_ip = 185; continue _fun127381 }
+            if(!(zulu == romeo)) { _fun00004_ip = 185; continue _fun00003 }
  168:
             oscar = zulu == report;
             zulu = undefined;
-            if(oscar) { _fun127381_ip = 182; continue _fun127381 }
+            if(oscar) { _fun00004_ip = 182; continue _fun00003 }
  177:
             zulu = report.id;
  182:
@@ -242,19 +242,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = foxtrot;
             zulu[2] = output;
             mike = function() {
-                _fun127383: for(var _fun127383_ip = 0; ; ) switch(_fun127383_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
                     mike = mike != zulu;
-                    if(!mike) { _fun127383_ip = 31; continue _fun127383 }
+                    if(!mike) { _fun00006_ip = 31; continue _fun00005 }
  16:
                     zulu = _closure2_slot2;
                     tango = zulu.length;
                     zulu = 0;
                     mike = zulu !== tango;
  31:
-                    if(mike) { _fun127383_ip = 49; continue _fun127383 }
+                    if(mike) { _fun00006_ip = 49; continue _fun00005 }
  34:
                     zulu = _closure2_slot4;
                     mike = _closure2_slot0;
@@ -555,7 +555,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['size'] = control;
             yankee = source.bind(tango)(result, yankee);
             options[3] = yankee;
-            if(!offset) { _fun127381_ip = 1054; continue _fun127381 }
+            if(!offset) { _fun00004_ip = 1054; continue _fun00003 }
  941:
             source = _closure1_slot14;
             vacuum = _closure1_slot0;
@@ -597,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = _closure1_slot18;
             verify = {};
             verify['templates'] = output;
-            if(kilo) { _fun127381_ip = 1116; continue _fun127381 }
+            if(kilo) { _fun00004_ip = 1116; continue _fun00003 }
  1113:
             kilo = !sizing;
  1116:

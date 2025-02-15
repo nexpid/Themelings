@@ -32,14 +32,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/edit_state/EditStateContextProvider.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useEditStateContext
-        _fun127075: for(var _fun127075_ip = 0; ; ) switch(_fun127075_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = zulu.useContext;
             entity = _closure1_slot2;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun127075_ip = 30; continue _fun127075 }
+            if(!(mike != entity)) { _fun00002_ip = 30; continue _fun00001 }
  28:
             return entity;
  30:

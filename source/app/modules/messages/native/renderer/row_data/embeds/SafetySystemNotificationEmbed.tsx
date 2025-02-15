@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getIconType
-        _fun72170: for(var _fun72170_ip = 0; ; ) switch(_fun72170_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             tango = 'danger';
             mike = argFoo;
-            if(!(tango !== mike)) { _fun72170_ip = 31; continue _fun72170 }
+            if(!(tango !== mike)) { _fun00002_ip = 31; continue _fun00001 }
  18:
             tango = _closure1_slot2;
             mike = 6;
             mike = tango[mike];
-            _fun72170_ip = 42; continue _fun72170;
+            _fun00002_ip = 42; continue _fun00001;
  31:
             tango = _closure1_slot2;
             entity = 5;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: SafetySystemNotificationEmbedInner
-        _fun72171: for(var _fun72171_ip = 0; ; ) switch(_fun72171_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             zulu = entity.embed;
@@ -46,20 +46,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             mike = oscar == options;
             entity = null;
-            if(mike) { _fun72171_ip = 559; continue _fun72171 }
+            if(mike) { _fun00004_ip = 559; continue _fun00003 }
  59:
             mike = options.ctas;
             mike = oscar != mike;
             verify = undefined;
             golf = undefined;
-            if(!mike) { _fun72171_ip = 232; continue _fun72171 }
+            if(!mike) { _fun00004_ip = 232; continue _fun00003 }
  79:
             mike = options.ctas;
             tango = 0;
             mike = mike[tango];
             mike = oscar != mike;
             zulu = undefined;
-            if(!mike) { _fun72171_ip = 152; continue _fun72171 }
+            if(!mike) { _fun00004_ip = 152; continue _fun00003 }
  100:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[offset];
             tango = oscar != mike;
             mike = undefined;
-            if(!tango) { _fun72171_ip = 226; continue _fun72171 }
+            if(!tango) { _fun00004_ip = 226; continue _fun00003 }
  174:
             yankee = _closure1_slot0;
             tango = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = options.timestamp;
             output = oscar != sizing;
             backup = 0;
-            if(!output) { _fun72171_ip = 383; continue _fun72171 }
+            if(!output) { _fun00004_ip = 383; continue _fun00003 }
  380:
             backup = sizing;
  383:
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = options.body;
             romeo = oscar != yankee;
             offset = '';
-            if(!romeo) { _fun72171_ip = 423; continue _fun72171 }
+            if(!romeo) { _fun00004_ip = 423; continue _fun00003 }
  420:
             offset = yankee;
  423:
@@ -146,42 +146,42 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['footerTheme'] = options;
             offset = oscar == verify;
             options = undefined;
-            if(offset) { _fun72171_ip = 453; continue _fun72171 }
+            if(offset) { _fun00004_ip = 453; continue _fun00003 }
  448:
             options = verify.type;
  453:
             mike['primaryCtaType'] = options;
             offset = oscar == verify;
             options = undefined;
-            if(offset) { _fun72171_ip = 472; continue _fun72171 }
+            if(offset) { _fun00004_ip = 472; continue _fun00003 }
  467:
             options = verify.text;
  472:
             mike['primaryCtaText'] = options;
             offset = oscar == verify;
             options = undefined;
-            if(offset) { _fun72171_ip = 491; continue _fun72171 }
+            if(offset) { _fun00004_ip = 491; continue _fun00003 }
  486:
             options = verify.key;
  491:
             mike['primaryCtaKey'] = options;
             verify = oscar == golf;
             options = undefined;
-            if(verify) { _fun72171_ip = 510; continue _fun72171 }
+            if(verify) { _fun00004_ip = 510; continue _fun00003 }
  505:
             options = golf.type;
  510:
             mike['secondaryCtaType'] = options;
             verify = oscar == golf;
             options = undefined;
-            if(verify) { _fun72171_ip = 529; continue _fun72171 }
+            if(verify) { _fun00004_ip = 529; continue _fun00003 }
  524:
             options = golf.text;
  529:
             mike['secondaryCtaText'] = options;
             options = oscar == golf;
             oscar = undefined;
-            if(options) { _fun72171_ip = 548; continue _fun72171 }
+            if(options) { _fun00004_ip = 548; continue _fun00003 }
  543:
             oscar = golf.key;
  548:
@@ -253,19 +253,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/embeds/SafetySystemNotificationEmbed.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SafetySystemNotificationEmbed
-        _fun72173: for(var _fun72173_ip = 0; ; ) switch(_fun72173_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             oscar = entity.message;
             options = null;
             mike = options == oscar;
             entity = null;
-            if(mike) { _fun72173_ip = 149; continue _fun72173 }
+            if(mike) { _fun00006_ip = 149; continue _fun00005 }
  22:
             mike = oscar.embeds;
             mike = options == mike;
             entity = null;
-            if(mike) { _fun72173_ip = 149; continue _fun72173 }
+            if(mike) { _fun00006_ip = 149; continue _fun00005 }
  37:
             mike = oscar.embeds;
             golf = 0;
@@ -273,26 +273,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = options == zulu;
             report = undefined;
             mike = undefined;
-            if(tango) { _fun72173_ip = 66; continue _fun72173 }
+            if(tango) { _fun00006_ip = 66; continue _fun00005 }
  60:
             mike = zulu.fields;
  66:
             mike = options == mike;
             entity = null;
-            if(mike) { _fun72173_ip = 149; continue _fun72173 }
+            if(mike) { _fun00006_ip = 149; continue _fun00005 }
  75:
             mike = oscar.embeds;
             mike = mike[golf];
             zulu = options == mike;
             tango = undefined;
-            if(zulu) { _fun72173_ip = 99; continue _fun72173 }
+            if(zulu) { _fun00006_ip = 99; continue _fun00005 }
  94:
             tango = mike.type;
  99:
             zulu = _closure1_slot4;
             zulu = zulu.SAFETY_SYSTEM_NOTIFICATION;
             entity = null;
-            if(!(tango === zulu)) { _fun72173_ip = 149; continue _fun72173 }
+            if(!(tango === zulu)) { _fun00006_ip = 149; continue _fun00005 }
  118:
             tango = _closure1_slot5;
             zulu = _closure1_slot9;
@@ -307,14 +307,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createSafetySystemNotificationEmbed
-        _fun72174: for(var _fun72174_ip = 0; ; ) switch(_fun72174_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             report = null;
-            if(!(report != tango)) { _fun72174_ip = 128; continue _fun72174 }
+            if(!(report != tango)) { _fun00008_ip = 128; continue _fun00007 }
  9:
             entity = tango.embeds;
-            if(!(report != entity)) { _fun72174_ip = 128; continue _fun72174 }
+            if(!(report != entity)) { _fun00008_ip = 128; continue _fun00007 }
  19:
             entity = tango.embeds;
             foxtrot = 0;
@@ -322,23 +322,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report == mike;
             zulu = undefined;
             entity = undefined;
-            if(oscar) { _fun72174_ip = 48; continue _fun72174 }
+            if(oscar) { _fun00008_ip = 48; continue _fun00007 }
  42:
             entity = mike.fields;
  48:
-            if(!(report != entity)) { _fun72174_ip = 128; continue _fun72174 }
+            if(!(report != entity)) { _fun00008_ip = 128; continue _fun00007 }
  52:
             entity = tango.embeds;
             entity = entity[foxtrot];
             oscar = report == entity;
             mike = undefined;
-            if(oscar) { _fun72174_ip = 76; continue _fun72174 }
+            if(oscar) { _fun00008_ip = 76; continue _fun00007 }
  71:
             mike = entity.type;
  76:
             entity = _closure1_slot4;
             entity = entity.SAFETY_SYSTEM_NOTIFICATION;
-            if(!(mike === entity)) { _fun72174_ip = 128; continue _fun72174 }
+            if(!(mike === entity)) { _fun00008_ip = 128; continue _fun00007 }
  93:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(entity);
             entity = mike.parseMessageForProps;
             mike = entity.bind(mike)(tango);
-            if(!(report == mike)) { _fun72174_ip = 132; continue _fun72174 }
+            if(!(report == mike)) { _fun00008_ip = 132; continue _fun00007 }
  128:
             entity = undefined;
             return entity;
@@ -356,13 +356,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report != entity;
             golf = undefined;
             tango = undefined;
-            if(!entity) { _fun72174_ip = 303; continue _fun72174 }
+            if(!entity) { _fun00008_ip = 303; continue _fun00007 }
  152:
             entity = mike.ctas;
             entity = entity[foxtrot];
             entity = report != entity;
             oscar = undefined;
-            if(!entity) { _fun72174_ip = 223; continue _fun72174 }
+            if(!entity) { _fun00008_ip = 223; continue _fun00007 }
  171:
             options = _closure1_slot0;
             entity = _closure1_slot2;
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[verify];
             options = report != entity;
             entity = undefined;
-            if(!options) { _fun72174_ip = 297; continue _fun72174 }
+            if(!options) { _fun00008_ip = 297; continue _fun00007 }
  245:
             offset = _closure1_slot0;
             options = _closure1_slot2;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = report != verify;
             oscar = '';
             options = oscar;
-            if(!offset) { _fun72174_ip = 327; continue _fun72174 }
+            if(!offset) { _fun00008_ip = 327; continue _fun00007 }
  324:
             options = verify;
  327:
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = mike.timestamp;
             kilo = report != backup;
             foxtrot = 0;
-            if(!kilo) { _fun72174_ip = 463; continue _fun72174 }
+            if(!kilo) { _fun00008_ip = 463; continue _fun00007 }
  460:
             foxtrot = backup;
  463:
@@ -444,49 +444,49 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['subtitleText'] = options;
             options = mike.body;
             verify = report != options;
-            if(!verify) { _fun72174_ip = 499; continue _fun72174 }
+            if(!verify) { _fun00008_ip = 499; continue _fun00007 }
  496:
             oscar = options;
  499:
             entity['descriptionText'] = oscar;
             options = report == golf;
             oscar = undefined;
-            if(options) { _fun72174_ip = 518; continue _fun72174 }
+            if(options) { _fun00008_ip = 518; continue _fun00007 }
  513:
             oscar = golf.text;
  518:
             entity['primaryCtaText'] = oscar;
             options = report == golf;
             oscar = undefined;
-            if(options) { _fun72174_ip = 537; continue _fun72174 }
+            if(options) { _fun00008_ip = 537; continue _fun00007 }
  532:
             oscar = golf.type;
  537:
             entity['primaryCtaType'] = oscar;
             options = report == golf;
             oscar = undefined;
-            if(options) { _fun72174_ip = 556; continue _fun72174 }
+            if(options) { _fun00008_ip = 556; continue _fun00007 }
  551:
             oscar = golf.key;
  556:
             entity['primaryCtaKey'] = oscar;
             golf = report == tango;
             oscar = undefined;
-            if(golf) { _fun72174_ip = 575; continue _fun72174 }
+            if(golf) { _fun00008_ip = 575; continue _fun00007 }
  570:
             oscar = tango.text;
  575:
             entity['secondaryCtaText'] = oscar;
             golf = report == tango;
             oscar = undefined;
-            if(golf) { _fun72174_ip = 594; continue _fun72174 }
+            if(golf) { _fun00008_ip = 594; continue _fun00007 }
  589:
             oscar = tango.type;
  594:
             entity['secondaryCtaType'] = oscar;
             report = report == tango;
             zulu = undefined;
-            if(report) { _fun72174_ip = 613; continue _fun72174 }
+            if(report) { _fun00008_ip = 613; continue _fun00007 }
  608:
             zulu = tango.key;
  613:

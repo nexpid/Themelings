@@ -32,12 +32,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormCheckmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RowCheckmark
-        _fun48703: for(var _fun48703_ip = 0; ; ) switch(_fun48703_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.selected;
             entity = null;
-            if(!mike) { _fun48703_ip = 88; continue _fun48703 }
+            if(!mike) { _fun00002_ip = 88; continue _fun00001 }
  14:
             report = _closure1_slot3;
             zulu = _closure1_slot0;

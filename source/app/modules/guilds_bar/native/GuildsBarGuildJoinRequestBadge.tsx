@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guilds_bar/native/GuildsBarGuildJoinRequestBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildsBarGuildJoinRequestBadge
-        _fun114418: for(var _fun114418_ip = 0; ; ) switch(_fun114418_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.style;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.REJECTED;
-            if(!(entity !== mike)) { _fun114418_ip = 233; continue _fun114418 }
+            if(!(entity !== mike)) { _fun00002_ip = 233; continue _fun00001 }
  66:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.SUBMITTED;
-            if(!(entity !== mike)) { _fun114418_ip = 211; continue _fun114418 }
+            if(!(entity !== mike)) { _fun00002_ip = 211; continue _fun00001 }
  99:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.STARTED;
-            if(!(entity !== mike)) { _fun114418_ip = 189; continue _fun114418 }
+            if(!(entity !== mike)) { _fun00002_ip = 189; continue _fun00001 }
  132:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -99,28 +99,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.APPROVED;
             verify = null;
-            if(!(entity === mike)) { _fun114418_ip = 253; continue _fun114418 }
+            if(!(entity === mike)) { _fun00002_ip = 253; continue _fun00001 }
  167:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 10;
             entity = zulu[entity];
             verify = mike.bind(report)(entity);
-            _fun114418_ip = 253; continue _fun114418;
+            _fun00002_ip = 253; continue _fun00001;
  189:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 9;
             entity = zulu[entity];
             verify = mike.bind(report)(entity);
-            _fun114418_ip = 253; continue _fun114418;
+            _fun00002_ip = 253; continue _fun00001;
  211:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 8;
             entity = zulu[entity];
             verify = mike.bind(report)(entity);
-            _fun114418_ip = 253; continue _fun114418;
+            _fun00002_ip = 253; continue _fun00001;
  233:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  253:
             entity = null;
             mike = entity == verify;
-            if(mike) { _fun114418_ip = 355; continue _fun114418 }
+            if(mike) { _fun00002_ip = 355; continue _fun00001 }
  262:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;

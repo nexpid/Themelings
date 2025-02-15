@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/EditUserProfileAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditUserProfileAvatar
-        _fun93242: for(var _fun93242_ip = 0; ; ) switch(_fun93242_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             control = mike.user;
@@ -66,18 +66,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.editIconStyle;
             romeo = mike.disableStatus;
             tango = undefined;
-            if(!(romeo === tango)) { _fun93242_ip = 58; continue _fun93242 }
+            if(!(romeo === tango)) { _fun00002_ip = 58; continue _fun00001 }
  56:
             romeo = true;
  58:
             golf = mike.isTryItOut;
-            if(!(golf === tango)) { _fun93242_ip = 70; continue _fun93242 }
+            if(!(golf === tango)) { _fun00002_ip = 70; continue _fun00001 }
  68:
             golf = false;
  70:
             var _closure2_slot1 = golf;
             zulu = mike.autoStartEditFlow;
-            if(!(zulu === tango)) { _fun93242_ip = 86; continue _fun93242 }
+            if(!(zulu === tango)) { _fun00002_ip = 86; continue _fun00001 }
  84:
             zulu = false;
  86:
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.canUseAnimatedAvatar;
             mike = mike.bind(report)(control);
             result = !mike;
-            if(!result) { _fun93242_ip = 304; continue _fun93242 }
+            if(!result) { _fun00002_ip = 304; continue _fun00001 }
  301:
             result = !golf;
  304:
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = mike.setPendingAvatar;
             _closure2_slot6 = record;
             report = options;
-            if(!(tango === report)) { _fun93242_ip = 384; continue _fun93242 }
+            if(!(tango === report)) { _fun00002_ip = 384; continue _fun00001 }
  378:
             report = control.avatarDecoration;
  384:
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = _closure2_slot8;
                 zulu['handleUploadAvatarSelect'] = offset;
                 offset = function() { // Original name: handleUploadGIFAvatarSelect
-                    _fun93245: for(var _fun93245_ip = 0; ; ) switch(_fun93245_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure1_slot1;
                         options = _closure1_slot2;
@@ -244,10 +244,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = golf[verify];
                         golf = options.bind(entity)(golf);
                         golf = golf.GIFSelectionContext;
-                        if(mike) { _fun93245_ip = 164; continue _fun93245 }
+                        if(mike) { _fun00004_ip = 164; continue _fun00003 }
  156:
                         mike = golf.PROFILE_EDIT;
-                        _fun93245_ip = 170; continue _fun93245;
+                        _fun00004_ip = 170; continue _fun00003;
  164:
                         mike = golf.PROFILE_TRY_IT_OUT;
  170:
@@ -301,16 +301,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = zulu;
             report[2] = oscar;
             zulu = function() {
-                _fun93247: for(var _fun93247_ip = 0; ; ) switch(_fun93247_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun93247_ip = 22; continue _fun93247 }
+                    if(!mike) { _fun00006_ip = 22; continue _fun00005 }
  10:
                     zulu = _closure2_slot10;
                     zulu = zulu.current;
                     mike = !zulu;
  22:
-                    if(!mike) { _fun93247_ip = 47; continue _fun93247 }
+                    if(!mike) { _fun00006_ip = 47; continue _fun00005 }
  25:
                     zulu = _closure2_slot10;
                     mike = true;
@@ -460,14 +460,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = sizing.bind(output)(oscar);
             entity['accessibilityLabel'] = oscar;
             oscar = romeo;
-            if(!golf) { _fun93242_ip = 919; continue _fun93242 }
+            if(!golf) { _fun00002_ip = 919; continue _fun00001 }
  862:
             golf = null;
             oscar = romeo;
-            if(!(golf == options)) { _fun93242_ip = 919; continue _fun93242 }
+            if(!(golf == options)) { _fun00002_ip = 919; continue _fun00001 }
  871:
             oscar = romeo;
-            if(report) { _fun93242_ip = 919; continue _fun93242 }
+            if(report) { _fun00002_ip = 919; continue _fun00001 }
  877:
             options = _closure1_slot5;
             golf = _closure1_slot1;
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.AvatarSizes;
             offset = verify.EDIT_AVATAR_DECORATION;
             verify = 'xs';
-            if(!(yankee === offset)) { _fun93242_ip = 1015; continue _fun93242 }
+            if(!(yankee === offset)) { _fun00002_ip = 1015; continue _fun00001 }
  1011:
             verify = 'sm';
  1015:

@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsTextLineElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TextLineElement
-        _fun68988: for(var _fun68988_ip = 0; ; ) switch(_fun68988_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.element;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             options = zulu.bind(tango)(mike);
-            if(entity) { _fun68988_ip = 152; continue _fun68988 }
+            if(entity) { _fun00002_ip = 152; continue _fun00001 }
  148:
             entity = null;
             return entity;
@@ -173,11 +173,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun68992: for(var _fun68992_ip = 0; ; ) switch(_fun68992_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun68992_ip = 169; continue _fun68992 }
+                            if(mike) { _fun00004_ip = 169; continue _fun00003 }
  10:
                             report = _closure2_slot0;
                             golf = _closure2_slot1;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = null;
                             report = mike != golf;
                             mike = '';
-                            if(!report) { _fun68992_ip = 93; continue _fun68992 }
+                            if(!report) { _fun00004_ip = 93; continue _fun00003 }
  58:
                             oscar = tango.encodeURIComponent;
                             report = undefined;
@@ -208,9 +208,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  119:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun68992_ip = 166; continue _fun68992 }
+                            if(tango) { _fun00004_ip = 166; continue _fun00003 }
  125:
-                            if(!mike) { _fun68992_ip = 161; continue _fun68992 }
+                            if(!mike) { _fun00004_ip = 161; continue _fun00003 }
  128:
                             oscar = _closure1_slot1;
                             tango = _closure1_slot3;
@@ -246,10 +246,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             foxtrot = entity.bind(tango)();
-            if(kilo) { _fun68988_ip = 170; continue _fun68988 }
+            if(kilo) { _fun00002_ip = 170; continue _fun00001 }
  166:
             output = {};
-            _fun68988_ip = 176; continue _fun68988;
+            _fun00002_ip = 176; continue _fun00001;
  170:
             output = backup.smsNumberContainerSuccess;
  176:
@@ -319,11 +319,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = sizing[result];
             sizing = control.bind(tango)(sizing);
             sizing = sizing.t;
-            if(kilo) { _fun68988_ip = 481; continue _fun68988 }
+            if(kilo) { _fun00002_ip = 481; continue _fun00001 }
  468:
             kilo = sizing.OpuAlJ;
             kilo = update.bind(source)(kilo);
-            _fun68988_ip = 492; continue _fun68988;
+            _fun00002_ip = 492; continue _fun00001;
  481:
             sizing = sizing.t5VZ8/;
             kilo = update.bind(source)(sizing);

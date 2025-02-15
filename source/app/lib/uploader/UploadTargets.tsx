@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'getMaxFileSize';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun56922: for(var _fun56922_ip = 0; ; ) switch(_fun56922_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot6;
                 zulu = tango.getBasicChannel;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.maxFileSize;
                 report = null;
                 report = report == tango;
-                if(report) { _fun56922_ip = 63; continue _fun56922 }
+                if(report) { _fun00002_ip = 63; continue _fun00001 }
  58:
                 entity = tango.guild_id;
  63:
@@ -160,16 +160,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['UploadTargets'] = tango;
     mike = function(argFoo) { // Original name: getUploadTarget
-        _fun56926: for(var _fun56926_ip = 0; ; ) switch(_fun56926_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot10;
             mike = mike.GUILD_PRODUCT_ATTACHMENT;
-            if(!(mike !== zulu)) { _fun56926_ip = 114; continue _fun56926 }
+            if(!(mike !== zulu)) { _fun00004_ip = 114; continue _fun00003 }
  20:
             mike = _closure1_slot10;
             mike = mike.GRAVITY_ATTACHMENT;
-            if(!(mike !== zulu)) { _fun56926_ip = 70; continue _fun56926 }
+            if(!(mike !== zulu)) { _fun00004_ip = 70; continue _fun00003 }
  34:
             mike = _closure1_slot10;
             mike = mike.MESSAGE_ATTACHMENT;

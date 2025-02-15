@@ -1,6 +1,6 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceGradientBackground.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun97264: for(var _fun97264_ip = 0; ; ) switch(_fun97264_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         options = argBaz;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = yankee.bind(romeo)(offset);
         yankee = null;
         yankee = yankee != offset;
-        if(!yankee) { _fun97264_ip = 178; continue _fun97264 }
+        if(!yankee) { _fun00002_ip = 178; continue _fun00001 }
  175:
         verify = offset;
  178:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = oscar;
             zulu[2] = mike;
             mike = function() {
-                _fun97268: for(var _fun97268_ip = 0; ; ) switch(_fun97268_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -102,14 +102,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot1;
                     options = _closure2_slot0;
                     zulu = undefined;
-                    if(!options) { _fun97268_ip = 57; continue _fun97268 }
+                    if(!options) { _fun00004_ip = 57; continue _fun00003 }
  47:
                     options = _closure1_slot5;
                     zulu = options.BACKGROUND_GRADIENT_DARK_OPACITY;
  57:
                     options = _closure2_slot0;
                     mike = undefined;
-                    if(!options) { _fun97268_ip = 76; continue _fun97268 }
+                    if(!options) { _fun00004_ip = 76; continue _fun00003 }
  66:
                     golf = _closure1_slot5;
                     mike = golf.BACKGROUND_GRADIENT_LIGHT_OPACITY;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = tango.bind(golf)(mike, zulu);
             mike = function(argFoo) { // Original name: useThemeStateTracker
-                _fun97266: for(var _fun97266_ip = 0; ; ) switch(_fun97266_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     options = argFoo;
                     zulu = _closure1_slot0;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = mike.bind(zulu)();
                     zulu = options.theme;
                     mike = 'system';
-                    if(!(mike === zulu)) { _fun97266_ip = 57; continue _fun97266 }
+                    if(!(mike === zulu)) { _fun00006_ip = 57; continue _fun00005 }
  54:
                     options = golf;
  57:
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(tango)(mike);
             mike = zulu.useAnimatedProps;
             entity = function() { // Original name: P
-                _fun97270: for(var _fun97270_ip = 0; ; ) switch(_fun97270_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot5;
                     entity = zulu.get;
@@ -252,9 +252,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = entity.width;
                     tango = entity.height;
                     golf = 0;
-                    if(!(golf !== options)) { _fun97270_ip = 349; continue _fun97270 }
+                    if(!(golf !== options)) { _fun00008_ip = 349; continue _fun00007 }
  37:
-                    if(!(golf !== tango)) { _fun97270_ip = 349; continue _fun97270 }
+                    if(!(golf !== tango)) { _fun00008_ip = 349; continue _fun00007 }
  44:
                     zulu = _closure2_slot3;
                     entity = zulu.get;
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = {};
                     verify = report.map;
                     zulu = function(argFoo, argBar) {
-                        _fun97271: for(var _fun97271_ip = 0; ; ) switch(_fun97271_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             options = argBar;
                             report = _closure1_slot0;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             entity = null;
                             zulu = entity != mike;
                             entity = 0;
-                            if(!zulu) { _fun97271_ip = 142; continue _fun97271 }
+                            if(!zulu) { _fun00010_ip = 142; continue _fun00009 }
  139:
                             entity = mike;
  142:

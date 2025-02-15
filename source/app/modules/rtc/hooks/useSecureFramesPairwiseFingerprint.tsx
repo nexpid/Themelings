@@ -163,19 +163,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo, argBar, argBaz, argCorge) {
                 entity = function* (argFoo, argBar, argBaz, argCorge) { // Original name: ?anon_0_
-                    _fun80951: for(var _fun80951_ip = 0; ; ) switch(_fun80951_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         oscar = argBaz;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun80951_ip = 233; continue _fun80951 }
+                        if(mike) { _fun00002_ip = 233; continue _fun00001 }
  13:
                         report = _closure1_slot7;
                         tango = report.supports;
                         zulu = _closure1_slot10;
                         zulu = zulu.MLS_PAIRWISE_FINGERPRINTS;
                         zulu = tango.bind(report)(zulu);
-                        if(zulu) { _fun80951_ip = 182; continue _fun80951 }
+                        if(zulu) { _fun00002_ip = 182; continue _fun00001 }
  47:
                         tango = _closure1_slot0;
                         report = _closure1_slot2;
@@ -210,11 +210,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  159:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tango) { _fun80951_ip = 179; continue _fun80951 }
+                        if(tango) { _fun00002_ip = 179; continue _fun00001 }
  165:
                         tango = _closure2_slot8;
                         tango = tango.bind(report)(zulu);
-                        _fun80951_ip = 228; continue _fun80951;
+                        _fun00002_ip = 228; continue _fun00001;
  179:
                         return zulu;
  182:
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = tango.getRTCConnection;
                         report = zulu.bind(tango)();
                         zulu = null;
-                        if(!(zulu != report)) { _fun80951_ip = 228; continue _fun80951 }
+                        if(!(zulu != report)) { _fun00002_ip = 228; continue _fun00001 }
  202:
                         tango = report.getMLSPairwiseFingerprint;
                         zulu = _closure1_slot9;
@@ -280,23 +280,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[3] = mike;
         zulu[4] = report;
         mike = function() {
-            _fun80954: for(var _fun80954_ip = 0; ; ) switch(_fun80954_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot6;
                 report = null;
                 zulu = report != zulu;
-                if(!zulu) { _fun80954_ip = 26; continue _fun80954 }
+                if(!zulu) { _fun00004_ip = 26; continue _fun00003 }
  18:
                 tango = _closure2_slot7;
                 zulu = report != tango;
  26:
-                if(!zulu) { _fun80954_ip = 42; continue _fun80954 }
+                if(!zulu) { _fun00004_ip = 42; continue _fun00003 }
  29:
                 tango = _closure2_slot10;
                 tango = tango.current;
                 zulu = report == tango;
  42:
-                if(!zulu) { _fun80954_ip = 91; continue _fun80954 }
+                if(!zulu) { _fun00004_ip = 91; continue _fun00003 }
  45:
                 tango = _closure2_slot5;
                 golf = undefined;
@@ -323,11 +323,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.current;
                 var _closure3_slot0 = mike;
                 entity = function() {
-                    _fun80956: for(var _fun80956_ip = 0; ; ) switch(_fun80956_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure3_slot0;
                         mike = null;
-                        if(!(mike != zulu)) { _fun80956_ip = 32; continue _fun80956 }
+                        if(!(mike != zulu)) { _fun00006_ip = 32; continue _fun00005 }
  13:
                         mike = global;
                         zulu = mike.clearTimeout;

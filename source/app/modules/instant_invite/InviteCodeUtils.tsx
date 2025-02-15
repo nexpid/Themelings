@@ -8,14 +8,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: generateInviteKeyFromExtraData
-        _fun54499: for(var _fun54499_ip = 0; ; ) switch(_fun54499_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.baseCode;
             golf = entity.guildScheduledEventId;
             mike = null;
             entity = options;
-            if(!(mike != golf)) { _fun54499_ip = 66; continue _fun54499 }
+            if(!(mike != golf)) { _fun00002_ip = 66; continue _fun00001 }
  24:
             yankee = _closure1_slot4;
             mike = global;
@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/instant_invite/InviteCodeUtils.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo, argBar) { // Original name: generateInviteKeyFromUrlParams
-        _fun54500: for(var _fun54500_ip = 0; ; ) switch(_fun54500_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             golf = argBar;
             mike = null;
-            if(!(mike != golf)) { _fun54500_ip = 164; continue _fun54500 }
+            if(!(mike != golf)) { _fun00004_ip = 164; continue _fun00003 }
  15:
             tango = undefined;
             zulu = undefined;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = report.bind(golf)(mike);
             report = '?';
             mike = golf;
-            if(!(report === oscar)) { _fun54500_ip = 57; continue _fun54500 }
+            if(!(report === oscar)) { _fun00004_ip = 57; continue _fun00003 }
  43:
             oscar = golf.substring;
             report = 1;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(report)(mike);
  129: // try_end0
             report = mike;
-            _fun54500_ip = 138; continue _fun54500;
+            _fun00004_ip = 138; continue _fun00003;
  134: // catch_target0
             CatchBlockStart(arg_register=1);
             report = undefined;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['generateInviteKeyFromUrlParams'] = report;
     zulu['generateInviteKeyFromExtraData'] = tango;
     tango = function(argFoo) { // Original name: parseExtraDataFromInviteKey
-        _fun54501: for(var _fun54501_ip = 0; ; ) switch(_fun54501_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             mike = zulu.split;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = 1;
             oscar = tango[entity];
             tango = null;
-            if(!(tango != oscar)) { _fun54501_ip = 128; continue _fun54501 }
+            if(!(tango != oscar)) { _fun00006_ip = 128; continue _fun00005 }
  54:
             report = _closure1_slot1;
             tango = _closure1_slot2;

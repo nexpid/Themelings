@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_dms/useIsAppDM.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useISAppDM
-        _fun80127: for(var _fun80127_ip = 0; ; ) switch(_fun80127_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.context;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.type;
             tango = 'channel';
             mike = undefined;
-            if(!(tango === oscar)) { _fun80127_ip = 36; continue _fun80127 }
+            if(!(tango === oscar)) { _fun00002_ip = 36; continue _fun00001 }
  31:
             mike = zulu.channel;
  36:
@@ -50,18 +50,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = report;
             entity = function() {
-                _fun80128: for(var _fun80128_ip = 0; ; ) switch(_fun80128_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = null;
                     entity = zulu != entity;
-                    if(!entity) { _fun80128_ip = 30; continue _fun80128 }
+                    if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  16:
                     report = _closure2_slot0;
                     tango = report.isDM;
                     entity = tango.bind(report)();
  30:
-                    if(!entity) { _fun80128_ip = 55; continue _fun80128 }
+                    if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  33:
                     tango = _closure2_slot0;
                     tango = tango.recipients;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = 1;
                     entity = tango === report;
  55:
-                    if(!entity) { _fun80128_ip = 113; continue _fun80128 }
+                    if(!entity) { _fun00004_ip = 113; continue _fun00003 }
  58:
                     report = _closure1_slot2;
                     tango = report.getUser;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = tango.bind(report)(mike);
                     tango = zulu == mike;
                     zulu = undefined;
-                    if(tango) { _fun80128_ip = 107; continue _fun80128 }
+                    if(tango) { _fun00004_ip = 107; continue _fun00003 }
  101:
                     zulu = mike.bot;
  107:

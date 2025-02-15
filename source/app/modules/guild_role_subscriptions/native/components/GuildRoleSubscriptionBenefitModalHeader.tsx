@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionBenefitModalHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionBenefitModalHeader
-        _fun127225: for(var _fun127225_ip = 0; ; ) switch(_fun127225_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sequence = entity.title;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = new Array(2);
             romeo[0] = sizing;
             foxtrot = !foxtrot;
-            if(!foxtrot) { _fun127225_ip = 555; continue _fun127225 }
+            if(!foxtrot) { _fun00002_ip = 555; continue _fun00001 }
  549:
             foxtrot = backup.disabledButton;
  555:

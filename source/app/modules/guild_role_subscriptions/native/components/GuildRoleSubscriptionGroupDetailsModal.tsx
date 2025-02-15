@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionGroupDetailsModal.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GuildRoleSubscriptionTierDetailsModal
-        _fun126967: for(var _fun126967_ip = 0; ; ) switch(_fun126967_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             verify = _closure1_slot5;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity[zulu];
             entity = offset.length;
             oscar = entity > mike;
-            if(!oscar) { _fun126967_ip = 90; continue _fun126967 }
+            if(!oscar) { _fun00002_ip = 90; continue _fun00001 }
  84:
             entity = null;
             oscar = entity != romeo;

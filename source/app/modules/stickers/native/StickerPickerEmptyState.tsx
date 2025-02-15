@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot13 = tango;
     tango = function(argFoo) { // Original name: EmptyStateSticker
-        _fun85078: for(var _fun85078_ip = 0; ; ) switch(_fun85078_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.sticker;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             golf = entity == oscar;
             entity = undefined;
-            if(golf) { _fun85078_ip = 106; continue _fun85078 }
+            if(golf) { _fun00002_ip = 106; continue _fun00001 }
  101:
             entity = oscar.id;
  106:
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar['style'] = golf;
         yankee = kilo.map;
         golf = function(argFoo) {
-            _fun85084: for(var _fun85084_ip = 0; ; ) switch(_fun85084_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 oscar = argFoo;
                 var _closure3_slot0 = oscar;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 golf = entity == oscar;
                 entity = undefined;
-                if(golf) { _fun85084_ip = 137; continue _fun85084 }
+                if(golf) { _fun00004_ip = 137; continue _fun00003 }
  132:
                 entity = oscar.id;
  137:

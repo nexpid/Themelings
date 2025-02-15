@@ -98,10 +98,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = yankee;
         mike[2] = foxtrot;
         entity = function() {
-            _fun126960: for(var _fun126960_ip = 0; ; ) switch(_fun126960_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
-                if(mike) { _fun126960_ip = 324; continue _fun126960 }
+                if(mike) { _fun00002_ip = 324; continue _fun00001 }
  13:
                 zulu = _closure1_slot1;
                 output = _closure1_slot2;

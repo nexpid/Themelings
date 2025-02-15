@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/billing/native/BlockedPaymentsCountryDisplay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: BlockedPaymentsCountryDisplay
-        _fun66202: for(var _fun66202_ip = 0; ; ) switch(_fun66202_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -157,12 +157,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             verify = verify.bind(yankee)(romeo);
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
-            if(verify) { _fun66202_ip = 338; continue _fun66202 }
+            if(verify) { _fun00002_ip = 338; continue _fun00001 }
  324:
             verify = 12;
             verify = romeo[verify];
             verify = yankee.bind(tango)(verify);
-            _fun66202_ip = 350; continue _fun66202;
+            _fun00002_ip = 350; continue _fun00001;
  338:
             offset = 11;
             offset = romeo[offset];

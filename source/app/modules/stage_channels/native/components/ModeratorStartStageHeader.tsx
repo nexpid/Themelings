@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun104084: for(var _fun104084_ip = 0; ; ) switch(_fun104084_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channel;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             mike = mike == entity;
             golf = undefined;
-            if(mike) { _fun104084_ip = 68; continue _fun104084 }
+            if(mike) { _fun00002_ip = 68; continue _fun00001 }
  62:
             golf = entity.speaker;
  68:
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['channel'] = verify;
             options = romeo.bind(tango)(yankee, options);
             report[1] = options;
-            if(!golf) { _fun104084_ip = 226; continue _fun104084 }
+            if(!golf) { _fun00002_ip = 226; continue _fun00001 }
  182:
             romeo = _closure1_slot4;
             yankee = _closure1_slot0;

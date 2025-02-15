@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = _closure1_slot10;
         offset = yankee.map;
         verify = function(argFoo, argBar) {
-            _fun105290: for(var _fun105290_ip = 0; ; ) switch(_fun105290_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 romeo = argFoo;
                 report = argBar;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = new Array(2);
                 foxtrot[0] = backup;
                 backup = golf;
-                if(!golf) { _fun105290_ip = 110; continue _fun105290 }
+                if(!golf) { _fun00002_ip = 110; continue _fun00001 }
  100:
                 kilo = _closure2_slot0;
                 backup = kilo.questionWrapperExpanded;
@@ -375,12 +375,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot2;
                     mike = undefined;
                     entity = function(argFoo) {
-                        _fun105292: for(var _fun105292_ip = 0; ; ) switch(_fun105292_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             tango = _closure3_slot0;
                             zulu = argFoo;
                             entity = null;
-                            if(!(zulu !== tango)) { _fun105292_ip = 20; continue _fun105292 }
+                            if(!(zulu !== tango)) { _fun00004_ip = 20; continue _fun00003 }
  16:
                             entity = _closure3_slot0;
  20:
@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = offset.Text;
                 offset = {};
                 sizing = 'interactive-normal';
-                if(!golf) { _fun105290_ip = 175; continue _fun105290 }
+                if(!golf) { _fun00002_ip = 175; continue _fun00001 }
  169:
                 sizing = 'interactive-active';
  175:
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 output = new Array(2);
                 output[0] = result;
                 result = golf;
-                if(!golf) { _fun105290_ip = 303; continue _fun105290 }
+                if(!golf) { _fun00002_ip = 303; continue _fun00001 }
  293:
                 echo = _closure2_slot0;
                 result = echo.questionIconExpanded;
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = tango.bind(entity)(verify, oscar);
                 oscar = new Array(2);
                 oscar[0] = verify;
-                if(!golf) { _fun105290_ip = 418; continue _fun105290 }
+                if(!golf) { _fun00002_ip = 418; continue _fun00001 }
  342:
                 offset = _closure1_slot7;
                 verify = _closure1_slot0;

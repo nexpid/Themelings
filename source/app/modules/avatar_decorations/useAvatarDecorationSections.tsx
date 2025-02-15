@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[2] = oscar;
         mike[3] = report;
         entity = function() {
-            _fun63979: for(var _fun63979_ip = 0; ; ) switch(_fun63979_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 yankee = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = new Array(0);
                 tango['premium_preview'] = mike;
                 mike = function(argFoo, argBar) {
-                    _fun63980: for(var _fun63980_ip = 0; ; ) switch(_fun63980_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
                         tango = argBar;
@@ -171,27 +171,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = verify.isPremiumCollectiblesPurchase;
                         report = report.bind(verify)(options);
                         verify = report;
-                        if(!verify) { _fun63980_ip = 88; continue _fun63980 }
+                        if(!verify) { _fun00004_ip = 88; continue _fun00003 }
  71:
                         offset = entity.premium_purchase;
                         yankee = offset.length;
                         offset = 0;
                         verify = offset === yankee;
  88:
-                        if(!verify) { _fun63980_ip = 113; continue _fun63980 }
+                        if(!verify) { _fun00004_ip = 113; continue _fun00003 }
  91:
                         verify = entity.premium_preview;
                         entity['premium_purchase'] = verify;
                         verify = new Array(0);
                         entity['premium_preview'] = verify;
  113:
-                        if(report) { _fun63980_ip = 262; continue _fun63980 }
+                        if(report) { _fun00004_ip = 262; continue _fun00003 }
  119:
                         report = null;
-                        if(!(report == options)) { _fun63980_ip = 244; continue _fun63980 }
+                        if(!(report == options)) { _fun00004_ip = 244; continue _fun00003 }
  125:
                         report = _closure2_slot0;
-                        if(report) { _fun63980_ip = 226; continue _fun63980 }
+                        if(report) { _fun00004_ip = 226; continue _fun00003 }
  132:
                         report = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -203,31 +203,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = tango.skuId;
                         mike = oscar.bind(golf)(mike);
                         mike = zulu.bind(report)(mike);
-                        if(!mike) { _fun63980_ip = 226; continue _fun63980 }
+                        if(!mike) { _fun00004_ip = 226; continue _fun00003 }
  183:
                         mike = entity.premium_purchase;
                         zulu = mike.length;
                         mike = 0;
-                        if(!(!(zulu > mike))) { _fun63980_ip = 208; continue _fun63980 }
+                        if(!(!(zulu > mike))) { _fun00004_ip = 208; continue _fun00003 }
  200:
                         zulu = entity.premium_preview;
-                        _fun63980_ip = 214; continue _fun63980;
+                        _fun00004_ip = 214; continue _fun00003;
  208:
                         zulu = entity.premium_purchase;
  214:
                         mike = zulu.push;
                         mike = mike.bind(zulu)(tango);
-                        _fun63980_ip = 278; continue _fun63980;
+                        _fun00004_ip = 278; continue _fun00003;
  226:
                         zulu = entity.preview;
                         mike = zulu.push;
                         mike = mike.bind(zulu)(tango);
-                        _fun63980_ip = 278; continue _fun63980;
+                        _fun00004_ip = 278; continue _fun00003;
  244:
                         zulu = entity.purchase;
                         mike = zulu.push;
                         mike = mike.bind(zulu)(tango);
-                        _fun63980_ip = 278; continue _fun63980;
+                        _fun00004_ip = 278; continue _fun00003;
  262:
                         zulu = entity.premium_purchase;
                         mike = zulu.push;
@@ -270,11 +270,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = oscar.premium_purchase;
                 tango = tango.length;
                 golf = 0;
-                if(!(!(tango > golf))) { _fun63979_ip = 259; continue _fun63979 }
+                if(!(!(tango > golf))) { _fun00002_ip = 259; continue _fun00001 }
  247:
                 tango = _closure1_slot8;
                 tango = tango.PREMIUM_PREVIEW;
-                _fun63979_ip = 269; continue _fun63979;
+                _fun00002_ip = 269; continue _fun00001;
  259:
                 yankee = _closure1_slot8;
                 tango = yankee.PREMIUM_PURCHASE;
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['section'] = tango;
                 tango = oscar.premium_purchase;
                 tango = tango.length;
-                if(!(!(tango > golf))) { _fun63979_ip = 296; continue _fun63979 }
+                if(!(!(tango > golf))) { _fun00002_ip = 296; continue _fun00001 }
  288:
                 tango = oscar.premium_preview;
-                _fun63979_ip = 302; continue _fun63979;
+                _fun00002_ip = 302; continue _fun00001;
  296:
                 tango = oscar.premium_purchase;
  302:

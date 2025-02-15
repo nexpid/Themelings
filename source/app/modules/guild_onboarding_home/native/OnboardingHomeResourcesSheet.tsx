@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = {};
         options = verify.map;
         golf = function(argFoo) {
-            _fun112170: for(var _fun112170_ip = 0; ; ) switch(_fun112170_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 var _closure3_slot0 = entity;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = null;
                 zulu = golf != mike;
                 romeo = undefined;
-                if(!zulu) { _fun112170_ip = 59; continue _fun112170 }
+                if(!zulu) { _fun00002_ip = 59; continue _fun00001 }
  56:
                 romeo = mike;
  59:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['label'] = options;
                 options = golf != romeo;
                 golf = undefined;
-                if(!options) { _fun112170_ip = 170; continue _fun112170 }
+                if(!options) { _fun00002_ip = 170; continue _fun00001 }
  109:
                 offset = _closure1_slot5;
                 verify = _closure1_slot1;

@@ -49,19 +49,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'domainMigrationFailed';
     zulu['DOMAIN_MIGRATION_FAILED_KEY'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: sendPostMessage
-        _fun62331: for(var _fun62331_ip = 0; ; ) switch(_fun62331_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argBar;
             entity = _closure1_slot0;
             mike = entity.MIGRATION_SOURCE_DOMAIN;
             entity = argBaz;
-            if(!(entity !== mike)) { _fun62331_ip = 45; continue _fun62331 }
+            if(!(entity !== mike)) { _fun00002_ip = 45; continue _fun00001 }
  23:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
             zulu = entity.MIGRATION_SOURCE_ORIGIN;
-            _fun62331_ip = 65; continue _fun62331;
+            _fun00002_ip = 65; continue _fun00001;
  45:
             entity = global;
             entity = entity.window;
@@ -79,19 +79,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['sendPostMessage'] = tango;
     mike = function(argFoo, argBar) { // Original name: extractMessage
-        _fun62332: for(var _fun62332_ip = 0; ; ) switch(_fun62332_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot0;
             mike = entity.MIGRATION_SOURCE_DOMAIN;
             entity = argBar;
-            if(!(entity !== mike)) { _fun62332_ip = 45; continue _fun62332 }
+            if(!(entity !== mike)) { _fun00004_ip = 45; continue _fun00003 }
  23:
             entity = global;
             entity = entity.window;
             entity = entity.GLOBAL_ENV;
             mike = entity.MIGRATION_SOURCE_ORIGIN;
-            _fun62332_ip = 65; continue _fun62332;
+            _fun00004_ip = 65; continue _fun00003;
  45:
             entity = global;
             entity = entity.window;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  65:
             entity = zulu.origin;
             tango = entity === mike;
-            if(!tango) { _fun62332_ip = 95; continue _fun62332 }
+            if(!tango) { _fun00004_ip = 95; continue _fun00003 }
  78:
             entity = zulu.data;
             mike = entity.domainMigrationEvent;
@@ -109,12 +109,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  95:
             mike = null;
             entity = null;
-            if(!tango) { _fun62332_ip = 125; continue _fun62332 }
+            if(!tango) { _fun00004_ip = 125; continue _fun00003 }
  102:
             zulu = zulu.data;
             tango = mike == zulu;
             mike = undefined;
-            if(tango) { _fun62332_ip = 122; continue _fun62332 }
+            if(tango) { _fun00004_ip = 122; continue _fun00003 }
  116:
             mike = zulu.domainMigrationEvent;
  122:

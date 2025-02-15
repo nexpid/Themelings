@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = '../discord_common/js/packages/media-engine/native/renderingContext2D.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: initRenderingContext2D
-        _fun50305: for(var _fun50305_ip = 0; ; ) switch(_fun50305_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = tango.getContext;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             var _closure2_slot0 = mike;
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun50305_ip = 50; continue _fun50305 }
+            if(mike) { _fun00002_ip = 50; continue _fun00001 }
  35:
             mike = {};
             zulu = function(argFoo) { // Original name: render

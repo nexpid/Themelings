@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['overrideSurvey'] = tango;
     tango = function(argFoo, argBar) { // Original name: surveyHide
-        _fun98956: for(var _fun98956_ip = 0; ; ) switch(_fun98956_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = zulu.bind(entity)(mike);
             tango = report.track;
             mike = _closure1_slot5;
-            if(oscar) { _fun98956_ip = 120; continue _fun98956 }
+            if(oscar) { _fun00002_ip = 120; continue _fun00001 }
  89:
             verify = mike.APP_NOTICE_PRIMARY_CTA_OPENED;
             zulu = {};
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = offset.SURVEY;
             zulu['notice_type'] = offset;
             zulu = tango.bind(report)(verify, zulu);
-            _fun98956_ip = 161; continue _fun98956;
+            _fun00002_ip = 161; continue _fun00001;
  120:
             zulu = mike.APP_NOTICE_CLOSED;
             mike = {};
@@ -104,17 +104,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['surveyHide'] = tango;
     tango = function(argFoo, argBar) { // Original name: surveyFetch
-        _fun98957: for(var _fun98957_ip = 0; ; ) switch(_fun98957_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = argBar;
             report = {};
             zulu = null;
-            if(!(zulu != tango)) { _fun98957_ip = 24; continue _fun98957 }
+            if(!(zulu != tango)) { _fun00004_ip = 24; continue _fun00003 }
  16:
             report['survey_override'] = tango;
  24:
-            if(!(zulu != mike)) { _fun98957_ip = 36; continue _fun98957 }
+            if(!(zulu != mike)) { _fun00004_ip = 36; continue _fun00003 }
  28:
             report['disable_auto_seen'] = mike;
  36:
@@ -139,19 +139,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.USER_SURVEY_FETCH;
             report['event'] = oscar;
             oscar = function(argFoo) { // Original name: properties
-                _fun98958: for(var _fun98958_ip = 0; ; ) switch(_fun98958_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     oscar = null;
                     mike = oscar == entity;
                     tango = undefined;
                     report = undefined;
-                    if(mike) { _fun98958_ip = 36; continue _fun98958 }
+                    if(mike) { _fun00006_ip = 36; continue _fun00005 }
  16:
                     entity = entity.body;
                     mike = oscar == entity;
                     report = undefined;
-                    if(mike) { _fun98958_ip = 36; continue _fun98958 }
+                    if(mike) { _fun00006_ip = 36; continue _fun00005 }
  30:
                     report = entity.survey;
  36:
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = {};
                     oscar = oscar == report;
                     tango = undefined;
-                    if(oscar) { _fun98958_ip = 81; continue _fun98958 }
+                    if(oscar) { _fun00006_ip = 81; continue _fun00005 }
  76:
                     tango = report.key;
  81:
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(mike);
             zulu = tango.then;
             mike = function(argFoo) {
-                _fun98959: for(var _fun98959_ip = 0; ; ) switch(_fun98959_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     oscar = argFoo;
                     zulu = _closure1_slot1;
@@ -196,12 +196,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = null;
                     options = golf == oscar;
                     report = undefined;
-                    if(options) { _fun98959_ip = 76; continue _fun98959 }
+                    if(options) { _fun00008_ip = 76; continue _fun00007 }
  56:
                     oscar = oscar.body;
                     golf = golf == oscar;
                     report = undefined;
-                    if(golf) { _fun98959_ip = 76; continue _fun98959 }
+                    if(golf) { _fun00008_ip = 76; continue _fun00007 }
  70:
                     report = oscar.survey;
  76:
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['surveyFetch'] = tango;
     mike = function(argFoo) { // Original name: surveySeen
-        _fun98961: for(var _fun98961_ip = 0; ; ) switch(_fun98961_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             offset = argFoo;
             var _closure2_slot0 = offset;
@@ -236,9 +236,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.getLastSeenTimestamp;
             mike = entity.bind(mike)();
             entity = null;
-            if(!(entity !== mike)) { _fun98961_ip = 71; continue _fun98961 }
+            if(!(entity !== mike)) { _fun00010_ip = 71; continue _fun00009 }
  34:
-            if(!(entity != mike)) { _fun98961_ip = 67; continue _fun98961 }
+            if(!(entity != mike)) { _fun00010_ip = 67; continue _fun00009 }
  38:
             entity = global;
             zulu = entity.Date;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(zulu)();
             mike = entity - mike;
             entity = _closure1_slot4;
-            if(!(!(mike >= entity))) { _fun98961_ip = 71; continue _fun98961 }
+            if(!(!(mike >= entity))) { _fun00010_ip = 71; continue _fun00009 }
  67:
             entity = undefined;
             return entity;

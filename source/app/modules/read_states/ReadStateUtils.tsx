@@ -35,14 +35,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/read_states/ReadStateUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getHasImportantUnread
-        _fun79194: for(var _fun79194_ip = 0; ; ) switch(_fun79194_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot2;
             zulu = tango.hasUnread;
             entity = report.id;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun79194_ip = 58; continue _fun79194 }
+            if(!entity) { _fun00002_ip = 58; continue _fun00001 }
  29:
             tango = _closure1_slot3;
             zulu = tango.resolveUnreadSetting;
@@ -71,14 +71,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         mike[1] = report;
         entity = function() {
-            _fun79196: for(var _fun79196_ip = 0; ; ) switch(_fun79196_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = _closure1_slot2;
                 tango = report.hasUnread;
                 entity = _closure2_slot0;
                 entity = entity.id;
                 entity = tango.bind(report)(entity);
-                if(!entity) { _fun79196_ip = 66; continue _fun79196 }
+                if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  33:
                 report = _closure1_slot3;
                 tango = report.resolveUnreadSetting;

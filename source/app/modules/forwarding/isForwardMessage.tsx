@@ -24,14 +24,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/forwarding/isForwardMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: isForwardMessage
-        _fun61121: for(var _fun61121_ip = 0; ; ) switch(_fun61121_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.messageReference;
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun61121_ip = 25; continue _fun61121 }
+            if(zulu) { _fun00002_ip = 25; continue _fun00001 }
  20:
             mike = entity.type;
  25:
@@ -43,14 +43,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: isForwardServerMessage
-        _fun61122: for(var _fun61122_ip = 0; ; ) switch(_fun61122_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             entity = entity.message_reference;
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun61122_ip = 25; continue _fun61122 }
+            if(zulu) { _fun00004_ip = 25; continue _fun00003 }
  20:
             mike = entity.type;
  25:

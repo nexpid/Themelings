@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_messages/downsampleWaveform.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: downsampleWaveform
-        _fun101381: for(var _fun101381_ip = 0; ; ) switch(_fun101381_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = argBar;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'Waveform smaller than samples';
             mike = tango.bind(report)(zulu, mike);
             mike = entity.length;
-            if(!(mike !== verify)) { _fun101381_ip = 230; continue _fun101381 }
+            if(!(mike !== verify)) { _fun00002_ip = 230; continue _fun00001 }
  63:
             mike = entity.length;
             golf = mike / verify;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = global;
             report = 1;
             tango = 0;
-            if(!zulu) { _fun101381_ip = 228; continue _fun101381 }
+            if(!zulu) { _fun00002_ip = 228; continue _fun00001 }
  98:
             yankee = oscar.Math;
             offset = yankee.round;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = tango < offset;
             romeo = 0;
             zulu = 0;
-            if(!yankee) { _fun101381_ip = 203; continue _fun101381 }
+            if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
  138:
             yankee = entity.length;
             yankee = tango < yankee;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = 0;
             romeo = 0;
             zulu = 0;
-            if(!yankee) { _fun101381_ip = 203; continue _fun101381 }
+            if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
  158:
             yankee = entity[tango];
             sizing = backup + yankee;
@@ -74,21 +74,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango + 1;
             romeo = sizing;
             zulu = kilo;
-            if(!(tango < offset)) { _fun101381_ip = 203; continue _fun101381 }
+            if(!(tango < offset)) { _fun00002_ip = 203; continue _fun00001 }
  182:
             yankee = entity.length;
             backup = sizing;
             foxtrot = kilo;
             romeo = backup;
             zulu = foxtrot;
-            if(tango < yankee) { _fun101381_ip = 158; continue _fun101381 }
+            if(tango < yankee) { _fun00002_ip = 158; continue _fun00001 }
  203:
             yankee = mike.length;
             zulu = romeo / zulu;
             mike[yankee] = zulu;
             zulu = mike.length;
             tango = offset;
-            if(zulu < verify) { _fun101381_ip = 98; continue _fun101381 }
+            if(zulu < verify) { _fun00002_ip = 98; continue _fun00001 }
  228:
             return mike;
  230:

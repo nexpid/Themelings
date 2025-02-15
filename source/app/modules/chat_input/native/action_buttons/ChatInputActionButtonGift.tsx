@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChatInputActionButtonGift
-        _fun101263: for(var _fun101263_ip = 0; ; ) switch(_fun101263_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.disabled;
@@ -98,41 +98,41 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = control != oscar;
             zulu = 0;
             mike = 0;
-            if(!options) { _fun101263_ip = 165; continue _fun101263 }
+            if(!options) { _fun00002_ip = 165; continue _fun00001 }
  159:
             mike = oscar.dismissibleContentVersion;
  165:
             _closure2_slot2 = mike;
             options = control == oscar;
             output = undefined;
-            if(options) { _fun101263_ip = 201; continue _fun101263 }
+            if(options) { _fun00002_ip = 201; continue _fun00001 }
  178:
             options = oscar.chatGiftIcon;
             verify = control == options;
             output = undefined;
-            if(verify) { _fun101263_ip = 201; continue _fun101263 }
+            if(verify) { _fun00002_ip = 201; continue _fun00001 }
  193:
             output = options.giftBoxAnimation;
  201:
             options = control == oscar;
             result = undefined;
-            if(options) { _fun101263_ip = 231; continue _fun101263 }
+            if(options) { _fun00002_ip = 231; continue _fun00001 }
  210:
             oscar = oscar.chatGiftIcon;
             options = control == oscar;
             result = undefined;
-            if(options) { _fun101263_ip = 231; continue _fun101263 }
+            if(options) { _fun00002_ip = 231; continue _fun00001 }
  225:
             result = oscar.trinketsAnimation;
  231:
             oscar = control != output;
             options = control != result;
-            if(!options) { _fun101263_ip = 245; continue _fun101263 }
+            if(!options) { _fun00002_ip = 245; continue _fun00001 }
  242:
             options = !oscar;
  245:
             vacuum = oscar;
-            if(oscar) { _fun101263_ip = 254; continue _fun101263 }
+            if(oscar) { _fun00002_ip = 254; continue _fun00001 }
  251:
             vacuum = options;
  254:
@@ -149,17 +149,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 1;
             backup = backup[verify];
             _closure2_slot5 = backup;
-            if(!vacuum) { _fun101263_ip = 312; continue _fun101263 }
+            if(!vacuum) { _fun00002_ip = 312; continue _fun00001 }
  309:
             vacuum = !offset;
  312:
             source = _closure1_slot4;
             update = source.useCallback;
             backup = function(argFoo) {
-                _fun101265: for(var _fun101265_ip = 0; ; ) switch(_fun101265_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
-                    if(entity) { _fun101265_ip = 22; continue _fun101265 }
+                    if(entity) { _fun00004_ip = 22; continue _fun00003 }
  6:
                     zulu = _closure2_slot5;
                     mike = undefined;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = update.bind(tango)(backup);
             update = source.useSelectedVersionedDismissibleContent;
             control = null;
-            if(!vacuum) { _fun101263_ip = 401; continue _fun101263 }
+            if(!vacuum) { _fun00002_ip = 401; continue _fun00001 }
  369:
             sequence = _closure1_slot0;
             config = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = backup.GIFTING_PROMOTION_ICON;
  401:
             backup = 0;
-            if(!vacuum) { _fun101263_ip = 409; continue _fun101263 }
+            if(!vacuum) { _fun00002_ip = 409; continue _fun00001 }
  406:
             backup = mike;
  409:
@@ -214,12 +214,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.GIFTING_PROMOTION_ICON;
             backup = zulu === mike;
             _closure2_slot7 = backup;
-            if(!oscar) { _fun101263_ip = 494; continue _fun101263 }
+            if(!oscar) { _fun00002_ip = 494; continue _fun00001 }
  491:
             oscar = backup;
  494:
             _closure2_slot8 = oscar;
-            if(!options) { _fun101263_ip = 504; continue _fun101263 }
+            if(!options) { _fun00002_ip = 504; continue _fun00001 }
  501:
             options = backup;
  504:
@@ -232,18 +232,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = options;
             mike[3] = entity;
             entity = function() {
-                _fun101266: for(var _fun101266_ip = 0; ; ) switch(_fun101266_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun101266_ip = 14; continue _fun101266 }
+                    if(!entity) { _fun00006_ip = 14; continue _fun00005 }
  10:
                     entity = _closure2_slot8;
  14:
-                    if(entity) { _fun101266_ip = 21; continue _fun101266 }
+                    if(entity) { _fun00006_ip = 21; continue _fun00005 }
  17:
                     entity = _closure2_slot9;
  21:
-                    if(!entity) { _fun101266_ip = 55; continue _fun101266 }
+                    if(!entity) { _fun00006_ip = 55; continue _fun00005 }
  24:
                     entity = global;
                     tango = entity.setTimeout;
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = {};
             entity['style'] = report;
-            if(!options) { _fun101263_ip = 627; continue _fun101263 }
+            if(!options) { _fun00002_ip = 627; continue _fun00001 }
  567:
             backup = _closure1_slot9;
             verify = _closure1_slot0;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = options;
             verify = _closure1_slot9;
-            if(oscar) { _fun101263_ip = 780; continue _fun101263 }
+            if(oscar) { _fun00002_ip = 780; continue _fun00001 }
  645:
             options = _closure1_slot1;
             result = _closure1_slot2;
@@ -315,19 +315,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.GiftIcon;
             oscar['IconComponent'] = foxtrot;
             foxtrot = function(argFoo) { // Original name: onPress
-                _fun101269: for(var _fun101269_ip = 0; ; ) switch(_fun101269_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure2_slot7;
-                    if(mike) { _fun101269_ip = 24; continue _fun101269 }
+                    if(mike) { _fun00008_ip = 24; continue _fun00007 }
  10:
                     zulu = _closure2_slot3;
-                    if(!zulu) { _fun101269_ip = 21; continue _fun101269 }
+                    if(!zulu) { _fun00008_ip = 21; continue _fun00007 }
  17:
                     zulu = _closure2_slot4;
  21:
                     mike = zulu;
  24:
-                    if(!mike) { _fun101269_ip = 110; continue _fun101269 }
+                    if(!mike) { _fun00008_ip = 110; continue _fun00007 }
  27:
                     tango = _closure1_slot0;
                     options = _closure1_slot2;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar['onPress'] = foxtrot;
             oscar = verify.bind(tango)(options, oscar);
-            _fun101263_ip = 942; continue _fun101263;
+            _fun00002_ip = 942; continue _fun00001;
  780:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;

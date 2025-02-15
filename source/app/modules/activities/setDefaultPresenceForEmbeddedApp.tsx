@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun109522: for(var _fun109522_ip = 0; ; ) switch(_fun109522_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun109522_ip = 412; continue _fun109522 }
+                    if(zulu) { _fun00002_ip = 412; continue _fun00001 }
  13:
                     report = mike.applicationId;
                     options = mike.socketId;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun109522_ip = 409; continue _fun109522 }
+                    if(tango) { _fun00002_ip = 409; continue _fun00001 }
  39:
                     golf = _closure1_slot7;
                     oscar = golf.getCurrentEmbeddedActivity;
@@ -36,17 +36,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = null;
                     verify = offset == oscar;
                     golf = undefined;
-                    if(verify) { _fun109522_ip = 72; continue _fun109522 }
+                    if(verify) { _fun00002_ip = 72; continue _fun00001 }
  67:
                     golf = oscar.applicationId;
  72:
-                    if(!(golf === report)) { _fun109522_ip = 406; continue _fun109522 }
+                    if(!(golf === report)) { _fun00002_ip = 406; continue _fun00001 }
  79:
                     oscar = oscar.compositeInstanceId;
                     verify = _closure1_slot4;
                     golf = verify.getApplication;
                     verify = golf.bind(verify)(report);
-                    if(!(offset == verify)) { _fun109522_ip = 165; continue _fun109522 }
+                    if(!(offset == verify)) { _fun00002_ip = 165; continue _fun00001 }
  104:
                     romeo = _closure1_slot5;
                     yankee = romeo.createFromServer;
@@ -62,10 +62,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return golf;
  149:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=12);
-                    if(foxtrot) { _fun109522_ip = 162; continue _fun109522 }
+                    if(foxtrot) { _fun00002_ip = 162; continue _fun00001 }
  155:
                     verify = yankee.bind(romeo)(golf);
-                    _fun109522_ip = 165; continue _fun109522;
+                    _fun00002_ip = 165; continue _fun00001;
  162:
                     return golf;
  165:
@@ -76,11 +76,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = yankee.bind(zulu)(golf);
                     golf = yankee.isContextlessActivitiesEnabledForApp;
                     golf = golf.bind(yankee)(verify);
-                    if(!golf) { _fun109522_ip = 406; continue _fun109522 }
+                    if(!golf) { _fun00002_ip = 406; continue _fun00001 }
  202:
-                    if(!(offset != oscar)) { _fun109522_ip = 406; continue _fun109522 }
+                    if(!(offset != oscar)) { _fun00002_ip = 406; continue _fun00001 }
  209:
-                    if(!(offset != verify)) { _fun109522_ip = 406; continue _fun109522 }
+                    if(!(offset != verify)) { _fun00002_ip = 406; continue _fun00001 }
  216:
                     yankee = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = _closure1_slot8;
                     golf = golf.EMBEDDED;
                     golf = romeo.bind(foxtrot)(yankee, golf);
-                    if(!golf) { _fun109522_ip = 406; continue _fun109522 }
+                    if(!golf) { _fun00002_ip = 406; continue _fun00001 }
  269:
                     golf = {};
                     yankee = 0;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     yankee = yankee.bind(romeo)();
                     romeo = offset != yankee;
                     offset = undefined;
-                    if(!romeo) { _fun109522_ip = 303; continue _fun109522 }
+                    if(!romeo) { _fun00002_ip = 303; continue _fun00001 }
  300:
                     offset = yankee;
  303:

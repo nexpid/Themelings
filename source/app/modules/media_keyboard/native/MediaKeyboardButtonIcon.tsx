@@ -45,11 +45,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_keyboard/native/MediaKeyboardButtonIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun101126: for(var _fun101126_ip = 0; ; ) switch(_fun101126_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun101126_ip = 286; continue _fun101126 }
+            if(!(mike != entity)) { _fun00002_ip = 286; continue _fun00001 }
  14:
             sizing = {};
             report = undefined;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = golf.bind(report)(oscar);
             oscar = offset.useAnimatedStyle;
             tango = function() { // Original name: u
-                _fun101128: for(var _fun101128_ip = 0; ; ) switch(_fun101128_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     zulu = {};
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure1_slot4;
                     golf = tango.MEDIA;
                     tango = '0deg';
-                    if(!(verify === golf)) { _fun101128_ip = 67; continue _fun101128 }
+                    if(!(verify === golf)) { _fun00004_ip = 67; continue _fun00003 }
  61:
                     tango = '45deg';
  67:

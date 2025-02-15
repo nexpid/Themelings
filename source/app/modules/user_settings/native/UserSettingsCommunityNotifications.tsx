@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/UserSettingsCommunityNotifications.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsCommunityNotifications
-        _fun97934: for(var _fun97934_ip = 0; ; ) switch(_fun97934_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = options.length;
             zulu = 0;
             entity = null;
-            if(!(zulu !== tango)) { _fun97934_ip = 159; continue _fun97934 }
+            if(!(zulu !== tango)) { _fun00002_ip = 159; continue _fun00001 }
  100:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;

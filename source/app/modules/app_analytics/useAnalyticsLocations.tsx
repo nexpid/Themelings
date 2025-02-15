@@ -7,13 +7,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = report;
     var _closure1_slot1 = golf;
     entity = function(argFoo, argBar) { // Original name: mergeLocations
-        _fun63968: for(var _fun63968_ip = 0; ; ) switch(_fun63968_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = argBar;
             mike = report.length;
             zulu = 0;
-            if(!(zulu !== mike)) { _fun63968_ip = 81; continue _fun63968 }
+            if(!(zulu !== mike)) { _fun00002_ip = 81; continue _fun00001 }
  17:
             oscar = _closure1_slot0;
             tango = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/app_analytics/useAnalyticsLocations.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: useAnalyticsLocations
-        _fun63969: for(var _fun63969_ip = 0; ; ) switch(_fun63969_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = 0;
             romeo = 0;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = verify;
             report[1] = options;
             entity = function() {
-                _fun63972: for(var _fun63972_ip = 0; ; ) switch(_fun63972_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot0;
                     zulu = _closure2_slot1;
                     zulu = report.bind(entity)(tango, zulu);
-                    if(zulu) { _fun63972_ip = 58; continue _fun63972 }
+                    if(zulu) { _fun00006_ip = 58; continue _fun00005 }
  45:
                     zulu = _closure2_slot2;
                     mike = _closure2_slot0;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[mike];
             mike = null;
             tango = mike != zulu;
-            if(!tango) { _fun63969_ip = 205; continue _fun63969 }
+            if(!tango) { _fun00004_ip = 205; continue _fun00003 }
  202:
             mike = zulu;
  205:

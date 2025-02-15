@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/native/components/GuildEventUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) {
-        _fun70190: for(var _fun70190_ip = 0; ; ) switch(_fun70190_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argBar;
             zulu = _closure1_slot0;
@@ -36,11 +36,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             zulu = zulu.bind(report)(entity);
             entity = null;
-            if(!(entity == zulu)) { _fun70190_ip = 111; continue _fun70190 }
+            if(!(entity == zulu)) { _fun00002_ip = 111; continue _fun00001 }
  47:
             zulu = entity != golf;
             entity = null;
-            if(!zulu) { _fun70190_ip = 109; continue _fun70190 }
+            if(!zulu) { _fun00002_ip = 109; continue _fun00001 }
  56:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar[zulu];
             oscar = report.bind(tango)(zulu);
             zulu = argBaz;
-            if(zulu) { _fun70190_ip = 95; continue _fun70190 }
+            if(zulu) { _fun00002_ip = 95; continue _fun00001 }
  82:
             zulu = oscar.getSimpleChannelIcon;
             zulu = zulu.bind(oscar)(golf);
-            _fun70190_ip = 106; continue _fun70190;
+            _fun00002_ip = 106; continue _fun00001;
  95:
             report = oscar.getChannelIcon;
             zulu = report.bind(oscar)(golf);
  106:
             entity = zulu;
  109:
-            _fun70190_ip = 131; continue _fun70190;
+            _fun00002_ip = 131; continue _fun00001;
  111:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getEventLocationIconSource'] = tango;
     mike = function(argFoo, argBar, argBaz) {
-        _fun70191: for(var _fun70191_ip = 0; ; ) switch(_fun70191_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             options = argBar;
             zulu = _closure1_slot0;
@@ -85,11 +85,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             entity = zulu.bind(report)(entity);
             oscar = null;
-            if(!(oscar == entity)) { _fun70191_ip = 120; continue _fun70191 }
+            if(!(oscar == entity)) { _fun00004_ip = 120; continue _fun00003 }
  47:
             zulu = oscar != options;
             entity = null;
-            if(!zulu) { _fun70191_ip = 118; continue _fun70191 }
+            if(!zulu) { _fun00004_ip = 118; continue _fun00003 }
  56:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -97,22 +97,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf[zulu];
             golf = report.bind(tango)(zulu);
             zulu = argBaz;
-            if(zulu) { _fun70191_ip = 95; continue _fun70191 }
+            if(zulu) { _fun00004_ip = 95; continue _fun00003 }
  82:
             zulu = golf.getSimpleChannelIconComponent;
             zulu = zulu.bind(golf)(options);
-            _fun70191_ip = 106; continue _fun70191;
+            _fun00004_ip = 106; continue _fun00003;
  95:
             report = golf.getChannelIconComponent;
             zulu = report.bind(golf)(options);
  106:
             report = oscar != zulu;
             entity = null;
-            if(!report) { _fun70191_ip = 118; continue _fun70191 }
+            if(!report) { _fun00004_ip = 118; continue _fun00003 }
  115:
             entity = zulu;
  118:
-            _fun70191_ip = 146; continue _fun70191;
+            _fun00004_ip = 146; continue _fun00003;
  120:
             zulu = _closure1_slot0;
             report = _closure1_slot2;

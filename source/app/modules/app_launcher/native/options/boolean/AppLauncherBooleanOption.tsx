@@ -70,19 +70,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot3;
         zulu = oscar.useState;
         mike = function() {
-            _fun119226: for(var _fun119226_ip = 0; ; ) switch(_fun119226_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun119226_ip = 33; continue _fun119226 }
+                if(!entity) { _fun00002_ip = 33; continue _fun00001 }
  16:
                 zulu = _closure2_slot0;
                 tango = zulu.type;
                 zulu = 'text';
                 entity = zulu === tango;
  33:
-                if(!entity) { _fun119226_ip = 53; continue _fun119226 }
+                if(!entity) { _fun00002_ip = 53; continue _fun00001 }
  36:
                 mike = _closure2_slot0;
                 zulu = mike.text;

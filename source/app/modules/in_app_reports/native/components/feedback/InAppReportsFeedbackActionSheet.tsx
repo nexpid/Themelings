@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         entity['trackOpen'] = oscar;
         report = function(argFoo) { // Original name: trackReport
-            _fun123556: for(var _fun123556_ip = 0; ; ) switch(_fun123556_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 tango = mike.rating;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = null;
                 mike = zulu != entity;
                 golf = null;
-                if(!mike) { _fun123556_ip = 43; continue _fun123556 }
+                if(!mike) { _fun00002_ip = 43; continue _fun00001 }
  38:
                 golf = entity.value;
  43:
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report['problem'] = golf;
                 offset = zulu != verify;
                 golf = '';
-                if(!offset) { _fun123556_ip = 94; continue _fun123556 }
+                if(!offset) { _fun00002_ip = 94; continue _fun00001 }
  91:
                 golf = verify;
  94:
@@ -154,13 +154,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure2_slot1;
                 report['reportType'] = golf;
                 golf = zulu != options;
-                if(!golf) { _fun123556_ip = 130; continue _fun123556 }
+                if(!golf) { _fun00002_ip = 130; continue _fun00001 }
  127:
                 golf = options;
  130:
                 report['dontShowAgain'] = golf;
                 report = oscar.bind(entity)(report);
-                if(!(zulu != tango)) { _fun123556_ip = 174; continue _fun123556 }
+                if(!(zulu != tango)) { _fun00002_ip = 174; continue _fun00001 }
  144:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;

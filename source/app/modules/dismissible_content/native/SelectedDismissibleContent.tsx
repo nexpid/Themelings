@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     tango = function(argFoo, argBar) { // Original name: useSelectedDismissibleContent
-        _fun77532: for(var _fun77532_ip = 0; ; ) switch(_fun77532_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[2];
             oscar = undefined;
-            if(!(report === oscar)) { _fun77532_ip = 11; continue _fun77532 }
+            if(!(report === oscar)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             report = false;
  11:
@@ -114,11 +114,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useSelectedDismissibleContent'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: useSelectedVersionedDismissibleContent
-        _fun77533: for(var _fun77533_ip = 0; ; ) switch(_fun77533_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[3];
             oscar = undefined;
-            if(!(report === oscar)) { _fun77533_ip = 11; continue _fun77533 }
+            if(!(report === oscar)) { _fun00004_ip = 11; continue _fun00003 }
  9:
             report = false;
  11:
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useSelectedVersionedDismissibleContent'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: useSelectedTimeRecurringDismissibleContent
-        _fun77534: for(var _fun77534_ip = 0; ; ) switch(_fun77534_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = arguments[3];
             oscar = undefined;
-            if(!(report === oscar)) { _fun77534_ip = 11; continue _fun77534 }
+            if(!(report === oscar)) { _fun00006_ip = 11; continue _fun00005 }
  9:
             report = false;
  11:

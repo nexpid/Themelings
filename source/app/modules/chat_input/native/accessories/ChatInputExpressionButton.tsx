@@ -55,13 +55,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun101303: for(var _fun101303_ip = 0; ; ) switch(_fun101303_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.style;
             verify = mike.active;
             tango = undefined;
-            if(!(verify === tango)) { _fun101303_ip = 24; continue _fun101303 }
+            if(!(verify === tango)) { _fun00002_ip = 24; continue _fun00001 }
  22:
             verify = false;
  24:
@@ -89,13 +89,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = options;
             mike[1] = golf;
             entity = function() {
-                _fun101305: for(var _fun101305_ip = 0; ; ) switch(_fun101305_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     tango = _closure2_slot1;
                     entity = undefined;
                     mike = undefined;
-                    if(!tango) { _fun101305_ip = 31; continue _fun101305 }
+                    if(!tango) { _fun00004_ip = 31; continue _fun00003 }
  18:
                     tango = _closure1_slot4;
                     mike = tango.STICKER;
@@ -142,18 +142,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.expressionButtonIcon;
             report['style'] = yankee;
             offset = _closure1_slot2;
-            if(verify) { _fun101303_ip = 305; continue _fun101303 }
+            if(verify) { _fun00002_ip = 305; continue _fun00001 }
  284:
-            if(golf) { _fun101303_ip = 296; continue _fun101303 }
+            if(golf) { _fun00002_ip = 296; continue _fun00001 }
  287:
             golf = 11;
             golf = offset[golf];
-            _fun101303_ip = 303; continue _fun101303;
+            _fun00002_ip = 303; continue _fun00001;
  296:
             verify = 10;
             golf = offset[verify];
  303:
-            _fun101303_ip = 312; continue _fun101303;
+            _fun00002_ip = 312; continue _fun00001;
  305:
             verify = 9;
             golf = offset[verify];

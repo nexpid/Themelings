@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     golf = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun57771: for(var _fun57771_ip = 0; ; ) switch(_fun57771_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot3;
@@ -15,11 +15,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun57771_ip = 48; continue _fun57771 }
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun57771_ip = 86; continue _fun57771;
+            _fun00002_ip = 86; continue _fun00001;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun57772: for(var _fun57772_ip = 0; ; ) switch(_fun57772_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun57772_ip = 74; continue _fun57772;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -153,29 +153,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'fromType';
         entity['key'] = oscar;
         mike = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun57777: for(var _fun57777_ip = 0; ; ) switch(_fun57777_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 zulu = argBar;
                 entity = _closure1_slot6;
                 entity = entity.SHOP;
-                if(!(entity !== tango)) { _fun57777_ip = 401; continue _fun57777 }
+                if(!(entity !== tango)) { _fun00006_ip = 401; continue _fun00005 }
  26:
                 entity = _closure1_slot6;
                 entity = entity.NITRO_HOME;
-                if(!(entity !== tango)) { _fun57777_ip = 338; continue _fun57777 }
+                if(!(entity !== tango)) { _fun00006_ip = 338; continue _fun00005 }
  43:
                 entity = _closure1_slot6;
                 entity = entity.QUEST_HOME;
-                if(!(entity !== tango)) { _fun57777_ip = 275; continue _fun57777 }
+                if(!(entity !== tango)) { _fun00006_ip = 275; continue _fun00005 }
  60:
                 entity = _closure1_slot6;
                 entity = entity.APPS_HOME;
-                if(!(entity !== tango)) { _fun57777_ip = 212; continue _fun57777 }
+                if(!(entity !== tango)) { _fun00006_ip = 212; continue _fun00005 }
  77:
                 entity = _closure1_slot6;
                 entity = entity.SETTINGS;
-                if(!(entity !== tango)) { _fun57777_ip = 127; continue _fun57777 }
+                if(!(entity !== tango)) { _fun00006_ip = 127; continue _fun00005 }
  91:
                 entity = global;
                 report = entity.Error;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = _closure2_slot0;
                 entity = {};
                 report = null;
-                if(!(report == zulu)) { _fun57777_ip = 161; continue _fun57777 }
+                if(!(report == zulu)) { _fun00006_ip = 161; continue _fun00005 }
  142:
                 golf = _closure1_slot5;
                 oscar = golf.SETTINGS;

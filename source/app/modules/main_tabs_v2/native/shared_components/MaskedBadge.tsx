@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/MaskedBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MaskedBadge
-        _fun78654: for(var _fun78654_ip = 0; ; ) switch(_fun78654_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.backgroundColor;
@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset = options.bind(offset)(entity, tango);
             entity = 0;
-            if(!(!(golf > entity))) { _fun78654_ip = 154; continue _fun78654 }
+            if(!(!(golf > entity))) { _fun00002_ip = 154; continue _fun00001 }
  96:
             entity = null;
-            if(!zulu) { _fun78654_ip = 152; continue _fun78654 }
+            if(!zulu) { _fun00002_ip = 152; continue _fun00001 }
  101:
             options = _closure1_slot4;
             tango = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['style'] = foxtrot;
             entity = options.bind(report)(tango, zulu);
  152:
-            _fun78654_ip = 272; continue _fun78654;
+            _fun00002_ip = 272; continue _fun00001;
  154:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(3);
             options[0] = offset;
             offset = null;
-            if(!romeo) { _fun78654_ip = 245; continue _fun78654 }
+            if(!romeo) { _fun00002_ip = 245; continue _fun00001 }
  239:
             offset = yankee.lowPriorityBadge;
  245:

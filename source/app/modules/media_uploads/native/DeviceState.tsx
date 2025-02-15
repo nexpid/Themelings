@@ -9,11 +9,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot0;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun56903: for(var _fun56903_ip = 0; ; ) switch(_fun56903_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun56903_ip = 81; continue _fun56903 }
+                    if(mike) { _fun00002_ip = 81; continue _fun00001 }
  7: // try_start_0
                     mike = _closure1_slot1;
                     zulu = mike.MediaManager;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun56903_ip = 45; continue _fun56903 }
+                    if(zulu) { _fun00002_ip = 45; continue _fun00001 }
  42: // try_end0
                     return mike;
  45:
@@ -108,17 +108,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getDeviceState'] = tango;
     mike = function(argFoo) { // Original name: logDeviceState
-        _fun56905: for(var _fun56905_ip = 0; ; ) switch(_fun56905_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike === entity)) { _fun56905_ip = 38; continue _fun56905 }
+            if(!(mike === entity)) { _fun00004_ip = 38; continue _fun00003 }
  9:
             tango = _closure1_slot3;
             zulu = tango.info;
             mike = 'Device state not available';
             mike = zulu.bind(tango)(mike);
-            _fun56905_ip = 204; continue _fun56905;
+            _fun00004_ip = 204; continue _fun00003;
  38:
             report = _closure1_slot3;
             tango = report.info;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.info;
             entity = entity.isLowPowerMode;
             tango = 'Disabled';
-            if(!entity) { _fun56905_ip = 189; continue _fun56905 }
+            if(!entity) { _fun00004_ip = 189; continue _fun00003 }
  185:
             tango = 'Enabled';
  189:

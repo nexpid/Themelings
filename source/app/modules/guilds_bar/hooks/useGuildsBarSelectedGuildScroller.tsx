@@ -37,18 +37,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = report;
         entity = function() {
             tango = function() { // Original name: handleSelectedGuildChange
-                _fun114676: for(var _fun114676_ip = 0; ; ) switch(_fun114676_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure1_slot1;
                     entity = mike.getGuildId;
                     entity = entity.bind(mike)();
                     mike = _closure3_slot0;
-                    if(!(entity !== mike)) { _fun114676_ip = 75; continue _fun114676 }
+                    if(!(entity !== mike)) { _fun00002_ip = 75; continue _fun00001 }
  28:
                     tango = null;
                     report = tango != entity;
                     mike = null;
-                    if(!report) { _fun114676_ip = 42; continue _fun114676 }
+                    if(!report) { _fun00002_ip = 42; continue _fun00001 }
  39:
                     mike = entity;
  42:
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot0;
                     mike = tango != entity;
                     tango = null;
-                    if(!mike) { _fun114676_ip = 65; continue _fun114676 }
+                    if(!mike) { _fun00002_ip = 65; continue _fun00001 }
  62:
                     tango = entity;
  65:

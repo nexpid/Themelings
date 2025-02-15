@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = false;
     golf['trailing'] = mike;
     oscar = function(argFoo) {
-        _fun104599: for(var _fun104599_ip = 0; ; ) switch(_fun104599_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getInvite;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             golf = report != oscar;
             report = undefined;
-            if(!golf) { _fun104599_ip = 70; continue _fun104599 }
+            if(!golf) { _fun00002_ip = 70; continue _fun00001 }
  67:
             report = oscar;
  70:

@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun96875: for(var _fun96875_ip = 0; ; ) switch(_fun96875_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.map;
                 entity = function(argFoo) {
-                    _fun96876: for(var _fun96876_ip = 0; ; ) switch(_fun96876_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = argFoo;
                         entity = {};
@@ -56,11 +56,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         report = zulu.interval;
                         tango = _closure1_slot4;
                         tango = tango.DAY;
-                        if(!(report === tango)) { _fun96876_ip = 45; continue _fun96876 }
+                        if(!(report === tango)) { _fun00004_ip = 45; continue _fun00003 }
  32:
                         report = zulu.interval_count;
                         tango = 7;
-                        if(!(tango !== report)) { _fun96876_ip = 80; continue _fun96876 }
+                        if(!(tango !== report)) { _fun00004_ip = 80; continue _fun00003 }
  45:
                         oscar = _closure1_slot0;
                         report = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         report = oscar.bind(tango)(report);
                         tango = report.formatPlanIntervalDuration;
                         tango = tango.bind(report)(zulu);
-                        _fun96876_ip = 170; continue _fun96876;
+                        _fun00004_ip = 170; continue _fun00003;
  80:
                         yankee = _closure1_slot0;
                         romeo = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         mike = _closure1_slot4;
                         mike = mike.DAY;
                         mike = tango === mike;
-                        if(!mike) { _fun96876_ip = 210; continue _fun96876 }
+                        if(!mike) { _fun00004_ip = 210; continue _fun00003 }
  197:
                         tango = zulu.interval_count;
                         zulu = 7;
@@ -111,20 +111,20 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = mike.bind(zulu)(entity);
                 report = _closure2_slot0;
                 entity = null;
-                if(!(entity == report)) { _fun96875_ip = 45; continue _fun96875 }
+                if(!(entity == report)) { _fun00002_ip = 45; continue _fun00001 }
  39:
                 mike = _closure2_slot0;
-                _fun96875_ip = 79; continue _fun96875;
+                _fun00002_ip = 79; continue _fun00001;
  45:
                 report = zulu.find;
                 tango = function(argFoo) {
-                    _fun96877: for(var _fun96877_ip = 0; ; ) switch(_fun96877_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         mike = argFoo;
                         zulu = mike.value;
                         entity = null;
                         entity = entity != zulu;
-                        if(!entity) { _fun96877_ip = 45; continue _fun96877 }
+                        if(!entity) { _fun00006_ip = 45; continue _fun00005 }
  17:
                         zulu = mike.value;
                         tango = zulu.interval;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                         zulu = zulu.interval;
                         entity = tango === zulu;
  45:
-                        if(!entity) { _fun96877_ip = 76; continue _fun96877 }
+                        if(!entity) { _fun00006_ip = 76; continue _fun00005 }
  48:
                         mike = mike.value;
                         zulu = mike.interval_count;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 tango = report.bind(zulu)(tango);
                 report = entity == tango;
                 entity = undefined;
-                if(report) { _fun96875_ip = 76; continue _fun96875 }
+                if(report) { _fun00002_ip = 76; continue _fun00001 }
  71:
                 entity = tango.value;
  76:

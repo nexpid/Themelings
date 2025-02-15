@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/form_fields/UserVerification.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserVerification
-        _fun88583: for(var _fun88583_ip = 0; ; ) switch(_fun88583_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             output = entity.verification;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = entity.bind(report)();
             zulu = mike.platform;
             entity = null;
-            if(!(entity != zulu)) { _fun88583_ip = 500; continue _fun88583 }
+            if(!(entity != zulu)) { _fun00002_ip = 500; continue _fun00001 }
  43:
             romeo = mike.platform;
             tango = _closure1_slot5;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.UserVerificationFieldPlatforms;
             oscar = oscar.PHONE;
             golf = romeo === oscar;
-            if(!golf) { _fun88583_ip = 190; continue _fun88583 }
+            if(!golf) { _fun00002_ip = 190; continue _fun00001 }
  98:
             verify = _closure1_slot3;
             options = _closure1_slot1;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(report)(offset);
             offset = offset.UserVerificationFieldPlatforms;
             offset = offset.PHONE;
-            if(!(romeo !== offset)) { _fun88583_ip = 419; continue _fun88583 }
+            if(!(romeo !== offset)) { _fun00002_ip = 419; continue _fun00001 }
  362:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.Vgv9io;
             offset = romeo.bind(foxtrot)(offset);
-            _fun88583_ip = 474; continue _fun88583;
+            _fun00002_ip = 474; continue _fun00001;
  419:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;

@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_settings/AudioSettingsUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: snapVolumeToDefault
-        _fun52747: for(var _fun52747_ip = 0; ; ) switch(_fun52747_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.MediaEngineContextTypes;
             report = mike.STREAM;
             mike = argBar;
-            if(!(mike !== report)) { _fun52747_ip = 81; continue _fun52747 }
+            if(!(mike !== report)) { _fun00002_ip = 81; continue _fun00001 }
  47:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = report.bind(verify)(mike);
             mike = mike.AudioSettingsDefaultVolumes;
             mike = mike.USER;
-            _fun52747_ip = 113; continue _fun52747;
+            _fun00002_ip = 113; continue _fun00001;
  81:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(options)(entity);
             zulu = golf - zulu;
             zulu = report.bind(oscar)(zulu);
-            if(!(zulu < tango)) { _fun52747_ip = 194; continue _fun52747 }
+            if(!(zulu < tango)) { _fun00002_ip = 194; continue _fun00001 }
  191:
             entity = mike;
  194:
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['snapVolumeToDefault'] = tango;
     mike = function(argFoo) { // Original name: coerceAudioContextForProto
-        _fun52748: for(var _fun52748_ip = 0; ; ) switch(_fun52748_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.MediaEngineContextTypes;
             zulu = zulu.DEFAULT;
-            if(!(zulu !== tango)) { _fun52748_ip = 91; continue _fun52748 }
+            if(!(zulu !== tango)) { _fun00004_ip = 91; continue _fun00003 }
  44:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.MediaEngineContextTypes;
             zulu = zulu.STREAM;
-            if(!(zulu !== tango)) { _fun52748_ip = 79; continue _fun52748 }
+            if(!(zulu !== tango)) { _fun00004_ip = 79; continue _fun00003 }
  77:
             return mike;
  79:

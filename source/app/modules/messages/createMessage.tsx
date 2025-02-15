@@ -70,19 +70,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/messages/createMessage.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: createMessage
-        _fun71515: for(var _fun71515_ip = 0; ; ) switch(_fun71515_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             foxtrot = verify.channelId;
             backup = verify.content;
             options = verify.tts;
             echo = undefined;
-            if(!(options === echo)) { _fun71515_ip = 27; continue _fun71515 }
+            if(!(options === echo)) { _fun00002_ip = 27; continue _fun00001 }
  25:
             options = false;
  27:
             kilo = verify.type;
-            if(!(kilo === echo)) { _fun71515_ip = 49; continue _fun71515 }
+            if(!(kilo === echo)) { _fun00002_ip = 49; continue _fun00001 }
  36:
             entity = _closure1_slot8;
             kilo = entity.DEFAULT;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = new Array(0);
             yankee = _closure1_slot8;
             yankee = yankee.REPLY;
-            if(!(kilo === yankee)) { _fun71515_ip = 249; continue _fun71515 }
+            if(!(kilo === yankee)) { _fun00002_ip = 249; continue _fun00001 }
  125:
             output = _closure1_slot1;
             result = _closure1_slot2;
@@ -110,23 +110,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             result = yankee != golf;
             output = 'Replies must have a message reference';
             output = update.bind(echo)(result, output);
-            if(!(yankee != entity)) { _fun71515_ip = 176; continue _fun71515 }
+            if(!(yankee != entity)) { _fun00002_ip = 176; continue _fun00001 }
  167:
             entity = entity.replied_user;
-            if(!entity) { _fun71515_ip = 249; continue _fun71515 }
+            if(!entity) { _fun00002_ip = 249; continue _fun00001 }
  176:
             output = _closure1_slot3;
             entity = output.getMessageByReference;
             entity = entity.bind(output)(golf);
             yankee = yankee == entity;
             output = undefined;
-            if(yankee) { _fun71515_ip = 205; continue _fun71515 }
+            if(yankee) { _fun00002_ip = 205; continue _fun00001 }
  200:
             output = entity.state;
  205:
             yankee = _closure1_slot4;
             yankee = yankee.LOADED;
-            if(!(output === yankee)) { _fun71515_ip = 249; continue _fun71515 }
+            if(!(output === yankee)) { _fun00002_ip = 249; continue _fun00001 }
  219:
             yankee = romeo.push;
             output = _closure1_slot12;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = yankee.bind(romeo)(entity);
  249:
             output = null;
-            if(!(output == sizing)) { _fun71515_ip = 268; continue _fun71515 }
+            if(!(output == sizing)) { _fun00002_ip = 268; continue _fun00001 }
  255:
             yankee = _closure1_slot6;
             entity = yankee.getCurrentUser;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot5;
             entity = sizing instanceof entity;
             yankee = sizing;
-            if(!entity) { _fun71515_ip = 291; continue _fun71515 }
+            if(!entity) { _fun00002_ip = 291; continue _fun00001 }
  282:
             entity = _closure1_slot12;
             yankee = entity.bind(echo)(sizing);
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = result.bind(echo)(sizing, entity);
             entity = {};
             sizing = report;
-            if(!(output == sizing)) { _fun71515_ip = 366; continue _fun71515 }
+            if(!(output == sizing)) { _fun00002_ip = 366; continue _fun00001 }
  336:
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = romeo.toISOString;
             yankee = yankee.bind(romeo)();
             entity['timestamp'] = yankee;
-            if(verify) { _fun71515_ip = 496; continue _fun71515 }
+            if(verify) { _fun00002_ip = 496; continue _fun00001 }
  486:
             offset = _closure1_slot7;
             verify = offset.SENDING;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['default'] = report;
     zulu['userRecordToServer'] = tango;
     mike = function(argFoo) { // Original name: createBotMessage
-        _fun71516: for(var _fun71516_ip = 0; ; ) switch(_fun71516_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = entity.messageId;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.loggingName;
             entity = {};
             report = null;
-            if(!(report == tango)) { _fun71516_ip = 73; continue _fun71516 }
+            if(!(report == tango)) { _fun00004_ip = 73; continue _fun00003 }
  38:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['author'] = oscar;
             oscar = new Array(0);
             entity['attachments'] = oscar;
-            if(!(report == zulu)) { _fun71516_ip = 168; continue _fun71516 }
+            if(!(report == zulu)) { _fun00004_ip = 168; continue _fun00003 }
  164:
             zulu = new Array(0);
  168:

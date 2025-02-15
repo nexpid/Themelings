@@ -1,6 +1,6 @@
 // app/modules/native_permissions/NativePermissionUtils.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun56451: for(var _fun56451_ip = 0; ; ) switch(_fun56451_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         tango = argBar;
         zulu = argFred;
@@ -26,13 +26,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         oscar = mike.ProcessArgs;
         mike = oscar.isDiscordTestSet;
         mike = mike.bind(oscar)();
-        if(mike) { _fun56451_ip = 117; continue _fun56451 }
+        if(mike) { _fun00002_ip = 117; continue _fun00001 }
  98:
         mike = 3;
         mike = report[mike];
         mike = tango.bind(entity)(mike);
         mike = mike.default;
-        _fun56451_ip = 134; continue _fun56451;
+        _fun00002_ip = 134; continue _fun00001;
  117:
         oscar = 2;
         oscar = report[oscar];

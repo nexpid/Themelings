@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/native/useUserProfileBannerHeight.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useUserProfileBannerHeight
-        _fun77261: for(var _fun77261_ip = 0; ; ) switch(_fun77261_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot0;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = mike.width;
             mike = null;
             tango = report;
-            if(!(mike != oscar)) { _fun77261_ip = 49; continue _fun77261 }
+            if(!(mike != oscar)) { _fun00002_ip = 49; continue _fun00001 }
  30:
             mike = global;
             zulu = mike.Math;

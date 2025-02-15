@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun96960: for(var _fun96960_ip = 0; ; ) switch(_fun96960_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity != mike)) { _fun96960_ip = 71; continue _fun96960 }
+                if(!(entity != mike)) { _fun00002_ip = 71; continue _fun00001 }
  13:
                 report = _closure1_slot2;
                 tango = report.getDisambiguatedEmojiContext;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = report.getById;
                 mike = _closure2_slot1;
                 mike = tango.bind(report)(mike);
-                if(!(entity == mike)) { _fun96960_ip = 69; continue _fun96960 }
+                if(!(entity == mike)) { _fun00002_ip = 69; continue _fun00001 }
  54:
                 tango = report.getByName;
                 zulu = _closure2_slot1;

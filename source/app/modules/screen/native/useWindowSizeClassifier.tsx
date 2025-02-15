@@ -8,31 +8,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     entity = function(argFoo) { // Original name: calculateFromWidth
-        _fun54361: for(var _fun54361_ip = 0; ; ) switch(_fun54361_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot3;
-            if(!(!(zulu <= entity))) { _fun54361_ip = 66; continue _fun54361 }
+            if(!(!(zulu <= entity))) { _fun00002_ip = 66; continue _fun00001 }
  14:
             entity = _closure1_slot4;
-            if(!(!(zulu <= entity))) { _fun54361_ip = 54; continue _fun54361 }
+            if(!(!(zulu <= entity))) { _fun00002_ip = 54; continue _fun00001 }
  22:
             entity = _closure1_slot5;
-            if(!(!(zulu <= entity))) { _fun54361_ip = 42; continue _fun54361 }
+            if(!(!(zulu <= entity))) { _fun00002_ip = 42; continue _fun00001 }
  30:
             entity = _closure1_slot6;
             entity = entity.XLARGE;
-            _fun54361_ip = 52; continue _fun54361;
+            _fun00002_ip = 52; continue _fun00001;
  42:
             zulu = _closure1_slot6;
             entity = zulu.LARGE;
  52:
-            _fun54361_ip = 64; continue _fun54361;
+            _fun00002_ip = 64; continue _fun00001;
  54:
             zulu = _closure1_slot6;
             entity = zulu.NORMAL;
  64:
-            _fun54361_ip = 76; continue _fun54361;
+            _fun00002_ip = 76; continue _fun00001;
  66:
             mike = _closure1_slot6;
             entity = mike.SMALL;

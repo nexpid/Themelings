@@ -1,6 +1,6 @@
 // app/components_native/media/ZoomLayout.android.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun75224: for(var _fun75224_ip = 0; ; ) switch(_fun75224_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         zulu = argFred;
@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = oscar.bind(entity)(mike);
         mike = verify.isFabric;
         mike = mike.bind(verify)();
-        if(mike) { _fun75224_ip = 136; continue _fun75224 }
+        if(mike) { _fun00002_ip = 136; continue _fun00001 }
  123:
         mike = 'DCDZoomLayoutAndroid';
         mike = report.bind(entity)(mike);
-        _fun75224_ip = 153; continue _fun75224;
+        _fun00002_ip = 153; continue _fun00001;
  136:
         report = 4;
         report = golf[report];

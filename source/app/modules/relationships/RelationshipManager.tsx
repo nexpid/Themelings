@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun124428: for(var _fun124428_ip = 0; ; ) switch(_fun124428_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun124428_ip = 51; continue _fun124428 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun124428_ip = 92; continue _fun124428;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun124428_ip = 71; continue _fun124428 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun124429: for(var _fun124429_ip = 0; ; ) switch(_fun124429_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun124429_ip = 76; continue _fun124429;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: handleRelationshipAdd
-        _fun124432: for(var _fun124432_ip = 0; ; ) switch(_fun124432_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = entity.relationship;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'RelationshipManager.handleRelationshipAdd';
             tango['location'] = golf;
             report = report.bind(oscar)(tango);
-            if(!report) { _fun124432_ip = 66; continue _fun124432 }
+            if(!report) { _fun00006_ip = 66; continue _fun00005 }
  60:
             report = mike.userIgnored;
  66:
@@ -106,11 +106,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot8;
             tango = tango.PENDING_INCOMING;
             tango = oscar !== tango;
-            if(tango) { _fun124432_ip = 91; continue _fun124432 }
+            if(tango) { _fun00006_ip = 91; continue _fun00005 }
  88:
             tango = report;
  91:
-            if(tango) { _fun124432_ip = 230; continue _fun124432 }
+            if(tango) { _fun00006_ip = 230; continue _fun00005 }
  97:
             options = _closure1_slot0;
             report = _closure1_slot2;

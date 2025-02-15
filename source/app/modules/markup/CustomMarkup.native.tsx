@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     oscar = function(argFoo) { // Original name: createRules
-        _fun53234: for(var _fun53234_ip = 0; ; ) switch(_fun53234_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun53234_ip = 11; continue _fun53234 }
+            if(!(tango === zulu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             tango = {};
  11:
@@ -297,16 +297,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     zulu['createRules'] = oscar;
     oscar = function() { // Original name: getParser
-        _fun53237: for(var _fun53237_ip = 0; ; ) switch(_fun53237_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = arguments[0];
             report = arguments[1];
             tango = undefined;
-            if(!(oscar === tango)) { _fun53237_ip = 14; continue _fun53237 }
+            if(!(oscar === tango)) { _fun00004_ip = 14; continue _fun00003 }
  12:
             oscar = {};
  14:
-            if(!(report === tango)) { _fun53237_ip = 20; continue _fun53237 }
+            if(!(report === tango)) { _fun00004_ip = 20; continue _fun00003 }
  18:
             report = {};
  20:
@@ -325,16 +325,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getParser'] = oscar;
     zulu['createNotifCenterV2MessagePreviewRules'] = report;
     report = function() { // Original name: getNotifCenterV2MessagePreviewParser
-        _fun53238: for(var _fun53238_ip = 0; ; ) switch(_fun53238_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = arguments[0];
             oscar = arguments[1];
             report = undefined;
-            if(!(golf === report)) { _fun53238_ip = 14; continue _fun53238 }
+            if(!(golf === report)) { _fun00006_ip = 14; continue _fun00005 }
  12:
             golf = {};
  14:
-            if(!(oscar === report)) { _fun53238_ip = 20; continue _fun53238 }
+            if(!(oscar === report)) { _fun00006_ip = 20; continue _fun00005 }
  18:
             oscar = {};
  20:

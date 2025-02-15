@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useShouldShowSafetyToolsButtonTooltipForChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useSafetyToolsButtonTooltipForChannel
-        _fun79493: for(var _fun79493_ip = 0; ; ) switch(_fun79493_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot0;
@@ -63,9 +63,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.useShouldShowInitialSafetyToolsButtonTooltip;
             mike = mike.bind(tango)(golf);
             tango = null;
-            if(!(tango != report)) { _fun79493_ip = 397; continue _fun79493 }
+            if(!(tango != report)) { _fun00002_ip = 397; continue _fun00001 }
  96:
-            if(mike) { _fun79493_ip = 397; continue _fun79493 }
+            if(mike) { _fun00002_ip = 397; continue _fun00001 }
  102:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(entity)(mike);
             mike = report.shouldShowTakeoverForWarnings;
             mike = mike.bind(report)(oscar);
-            if(mike) { _fun79493_ip = 397; continue _fun79493 }
+            if(mike) { _fun00002_ip = 397; continue _fun00001 }
  139:
             report = oscar.some;
             mike = function(argFoo) {
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = golf.bind(oscar)(report);
             golf = options.sort;
             report = function(argFoo, argBar) {
-                _fun79496: for(var _fun79496_ip = 0; ; ) switch(_fun79496_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argBar;
                     mike = entity.dismiss_timestamp;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.dismiss_timestamp;
                     mike = mike < entity;
                     entity = 1;
-                    if(!mike) { _fun79496_ip = 34; continue _fun79496 }
+                    if(!mike) { _fun00004_ip = 34; continue _fun00003 }
  28:
                     entity = -1;
  34:
@@ -115,19 +115,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = golf.bind(options)(report);
             options = golf.length;
             report = 1;
-            if(!(!(options < report))) { _fun79493_ip = 397; continue _fun79493 }
+            if(!(!(options < report))) { _fun00002_ip = 397; continue _fun00001 }
  207:
             report = 0;
             report = golf[report];
             yankee = report.dismiss_timestamp;
             golf = mike;
-            if(!(golf === entity)) { _fun79493_ip = 228; continue _fun79493 }
+            if(!(golf === entity)) { _fun00002_ip = 228; continue _fun00001 }
  226:
             golf = false;
  228:
             report = tango == yankee;
             mike = true;
-            if(report) { _fun79493_ip = 335; continue _fun79493 }
+            if(report) { _fun00002_ip = 335; continue _fun00001 }
  237:
             report = global;
             options = report.Date;
@@ -139,10 +139,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options instanceof Object ? options : offset;
             options = offset.getTime;
             options = options.bind(offset)();
-            if(golf) { _fun79493_ip = 287; continue _fun79493 }
+            if(golf) { _fun00002_ip = 287; continue _fun00001 }
  281:
             golf = _closure1_slot4;
-            _fun79493_ip = 291; continue _fun79493;
+            _fun00002_ip = 291; continue _fun00001;
  287:
             golf = _closure1_slot3;
  291:
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(options)();
             mike = report >= golf;
  335:
-            if(!mike) { _fun79493_ip = 397; continue _fun79493 }
+            if(!mike) { _fun00002_ip = 397; continue _fun00001 }
  338:
             report = oscar.filter;
             mike = function(argFoo) {
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = oscar.bind(report)(mike);
-            if(!(tango == mike)) { _fun79493_ip = 395; continue _fun79493 }
+            if(!(tango == mike)) { _fun00002_ip = 395; continue _fun00001 }
  377:
             tango = report.findLast;
             zulu = function(argFoo) {

@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: ThreadEmbedMissingMessage
-        _fun69533: for(var _fun69533_ip = 0; ; ) switch(_fun69533_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.title;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['archived'] = golf;
             entity = undefined;
             report = undefined;
-            if(!golf) { _fun69533_ip = 112; continue _fun69533 }
+            if(!golf) { _fun00002_ip = 112; continue _fun00001 }
  65:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function(argFoo) { // Original name: ThreadEmbedBuilder
-        _fun69534: for(var _fun69534_ip = 0; ; ) switch(_fun69534_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             yankee = mike.messageId;
@@ -177,10 +177,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.id;
             oscar = oscar.bind(options)(verify, mike);
             mike = null;
-            if(!(mike != verify)) { _fun69534_ip = 142; continue _fun69534 }
+            if(!(mike != verify)) { _fun00004_ip = 142; continue _fun00003 }
  136:
             options = 0;
-            if(!(!(verify > options))) { _fun69534_ip = 236; continue _fun69534 }
+            if(!(!(verify > options))) { _fun00004_ip = 236; continue _fun00003 }
  142:
             offset = _closure1_slot9;
             verify = _closure1_slot12;
@@ -206,12 +206,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return options;
  236:
             zulu = zulu.threadMetadata;
-            if(!(mike != zulu)) { _fun69534_ip = 258; continue _fun69534 }
+            if(!(mike != zulu)) { _fun00004_ip = 258; continue _fun00003 }
  246:
             zulu = zulu.archived;
-            if(zulu) { _fun69534_ip = 609; continue _fun69534 }
+            if(zulu) { _fun00004_ip = 609; continue _fun00003 }
  258:
-            if(!(mike != entity)) { _fun69534_ip = 515; continue _fun69534 }
+            if(!(mike != entity)) { _fun00004_ip = 515; continue _fun00003 }
  265:
             zulu = entity.type;
             options = _closure1_slot0;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options.bind(tango)(mike);
             mike = mike.MessageTypes;
             mike = mike.CHANNEL_NAME_CHANGE;
-            if(!(zulu !== mike)) { _fun69534_ip = 515; continue _fun69534 }
+            if(!(zulu !== mike)) { _fun00004_ip = 515; continue _fun00003 }
  309:
             zulu = entity.type;
             options = _closure1_slot0;
@@ -230,13 +230,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options.bind(tango)(mike);
             mike = mike.MessageTypes;
             mike = mike.THREAD_STARTER_MESSAGE;
-            if(!(zulu !== mike)) { _fun69534_ip = 515; continue _fun69534 }
+            if(!(zulu !== mike)) { _fun00004_ip = 515; continue _fun00003 }
  350:
             mike = entity.blocked;
-            if(mike) { _fun69534_ip = 399; continue _fun69534 }
+            if(mike) { _fun00004_ip = 399; continue _fun00003 }
  359:
             mike = entity.ignored;
-            if(mike) { _fun69534_ip = 399; continue _fun69534 }
+            if(mike) { _fun00004_ip = 399; continue _fun00003 }
  368:
             options = _closure1_slot9;
             zulu = _closure1_slot11;
@@ -258,11 +258,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = offset[entity];
             entity = verify.bind(tango)(entity);
             entity = entity.t;
-            if(options) { _fun69534_ip = 465; continue _fun69534 }
+            if(options) { _fun00004_ip = 465; continue _fun00003 }
  452:
             options = entity.G7p6v7;
             options = mike.bind(zulu)(options);
-            _fun69534_ip = 476; continue _fun69534;
+            _fun00004_ip = 476; continue _fun00003;
  465:
             entity = entity.XAkOo6;
             options = mike.bind(zulu)(entity);
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/ThreadEmbed.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ThreadEmbed
-        _fun69536: for(var _fun69536_ip = 0; ; ) switch(_fun69536_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             golf = mike.message;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(options)(tango, entity, zulu);
             entity = null;
             zulu = entity == oscar;
-            if(zulu) { _fun69536_ip = 121; continue _fun69536 }
+            if(zulu) { _fun00006_ip = 121; continue _fun00005 }
  92:
             tango = _closure1_slot9;
             zulu = _closure1_slot13;

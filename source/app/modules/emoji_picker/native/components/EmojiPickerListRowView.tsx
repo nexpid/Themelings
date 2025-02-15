@@ -1,6 +1,6 @@
 // app/modules/emoji_picker/native/components/EmojiPickerListRowView.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun78396: for(var _fun78396_ip = 0; ; ) switch(_fun78396_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         golf = report.bind(entity)(tango);
         tango = golf.isAndroid;
         tango = tango.bind(golf)();
-        if(!tango) { _fun78396_ip = 98; continue _fun78396 }
+        if(!tango) { _fun00002_ip = 98; continue _fun00001 }
  83:
         tango = 2;
         golf = oscar[tango];

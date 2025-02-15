@@ -15,11 +15,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         tango = _closure1_slot4;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun98046: for(var _fun98046_ip = 0; ; ) switch(_fun98046_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun98046_ip = 270; continue _fun98046 }
+                    if(mike) { _fun00002_ip = 270; continue _fun00001 }
  10:
                     golf = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     verify = 0;
                     verify = offset > verify;
                     output = 'N/A';
-                    if(!verify) { _fun98046_ip = 127; continue _fun98046 }
+                    if(!verify) { _fun00002_ip = 127; continue _fun00001 }
  121:
                     output = options.Manifest;
  127:
@@ -80,7 +80,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return mike;
  253:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun98046_ip = 267; continue _fun98046 }
+                    if(oscar) { _fun00002_ip = 267; continue _fun00001 }
  259:
                     tango = tango.bind(report)(mike);
                     return zulu;

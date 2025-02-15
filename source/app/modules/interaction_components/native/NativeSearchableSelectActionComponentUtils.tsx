@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo, argBar) { // Original name: getChannelIconData
-        _fun71834: for(var _fun71834_ip = 0; ; ) switch(_fun71834_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = report.type;
             entity = _closure1_slot6;
             entity = entity.GUILD_CATEGORY;
-            if(!(zulu !== entity)) { _fun71834_ip = 64; continue _fun71834 }
+            if(!(zulu !== entity)) { _fun00002_ip = 64; continue _fun00001 }
  25:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.getChannelIconWithGuild;
             entity = argBar;
             entity = zulu.bind(tango)(report, entity);
-            _fun71834_ip = 86; continue _fun71834;
+            _fun00002_ip = 86; continue _fun00001;
  64:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure2_slot1 = zulu;
         zulu = tango.map;
         mike = function(argFoo) {
-            _fun71836: for(var _fun71836_ip = 0; ; ) switch(_fun71836_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = argFoo;
                 mike = tango.type;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = oscar.bind(report)(entity);
                 entity = entity.SelectOptionType;
                 entity = entity.USER;
-                if(!(entity !== mike)) { _fun71836_ip = 725; continue _fun71836 }
+                if(!(entity !== mike)) { _fun00004_ip = 725; continue _fun00003 }
  52:
                 oscar = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = oscar.bind(report)(entity);
                 entity = entity.SelectOptionType;
                 entity = entity.ROLE;
-                if(!(entity !== mike)) { _fun71836_ip = 309; continue _fun71836 }
+                if(!(entity !== mike)) { _fun00004_ip = 309; continue _fun00003 }
  88:
                 oscar = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = oscar.bind(report)(entity);
                 entity = entity.SelectOptionType;
                 entity = entity.CHANNEL;
-                if(!(entity !== mike)) { _fun71836_ip = 125; continue _fun71836 }
+                if(!(entity !== mike)) { _fun00004_ip = 125; continue _fun00003 }
  121:
                 entity = null;
                 return entity;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 yankee = mike.bind(oscar)(entity);
                 mike = null;
                 entity = tango;
-                if(!(mike != yankee)) { _fun71836_ip = 307; continue _fun71836 }
+                if(!(mike != yankee)) { _fun00004_ip = 307; continue _fun00003 }
  163:
                 mike = {};
                 sizing = mike;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 offset = null;
                 entity = offset != options;
                 golf = null;
-                if(!entity) { _fun71836_ip = 353; continue _fun71836 }
+                if(!entity) { _fun00004_ip = 353; continue _fun00003 }
  327:
                 verify = _closure1_slot4;
                 oscar = verify.getRole;
@@ -172,10 +172,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = oscar.bind(verify)(mike, entity);
  353:
                 entity = tango;
-                if(!(offset != golf)) { _fun71836_ip = 723; continue _fun71836 }
+                if(!(offset != golf)) { _fun00004_ip = 723; continue _fun00003 }
  363:
                 entity = tango;
-                if(!(offset != options)) { _fun71836_ip = 723; continue _fun71836 }
+                if(!(offset != options)) { _fun00004_ip = 723; continue _fun00003 }
  373:
                 oscar = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = oscar.canGuildUseRoleIcons;
                 oscar = mike.bind(oscar)(options, golf);
                 mike = null;
-                if(!oscar) { _fun71836_ip = 438; continue _fun71836 }
+                if(!oscar) { _fun00004_ip = 438; continue _fun00003 }
  410:
                 options = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -194,13 +194,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = options.getRoleIconData;
                 mike = oscar.bind(options)(golf);
  438:
-                if(!(offset != mike)) { _fun71836_ip = 468; continue _fun71836 }
+                if(!(offset != mike)) { _fun00004_ip = 468; continue _fun00003 }
  442:
                 options = mike.customIconSrc;
                 oscar = mike.unicodeEmoji;
-                if(!(offset == oscar)) { _fun71836_ip = 649; continue _fun71836 }
+                if(!(offset == oscar)) { _fun00004_ip = 649; continue _fun00003 }
  461:
-                if(!(offset == options)) { _fun71836_ip = 623; continue _fun71836 }
+                if(!(offset == options)) { _fun00004_ip = 623; continue _fun00003 }
  468:
                 mike = {};
                 sizing = mike;
@@ -221,10 +221,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 verify = 'iconSrc';
                 mike[verify] = yankee;
                 verify = golf.colorString;
-                if(!(offset == verify)) { _fun71836_ip = 558; continue _fun71836 }
+                if(!(offset == verify)) { _fun00004_ip = 558; continue _fun00003 }
  552:
                 verify = _closure1_slot7;
-                _fun71836_ip = 595; continue _fun71836;
+                _fun00004_ip = 595; continue _fun00003;
  558:
                 yankee = _closure1_slot0;
                 romeo = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = 'iconColor';
                 mike[golf] = verify;
                 entity = mike;
-                _fun71836_ip = 723; continue _fun71836;
+                _fun00004_ip = 723; continue _fun00003;
  623:
                 mike = {};
                 sizing = mike;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = 'iconSrc';
                 mike[golf] = options;
                 entity = mike;
-                _fun71836_ip = 723; continue _fun71836;
+                _fun00004_ip = 723; continue _fun00003;
  649:
                 mike = {};
                 sizing = mike;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = mike.bind(oscar)(entity);
                 mike = null;
                 entity = tango;
-                if(!(mike != golf)) { _fun71836_ip = 836; continue _fun71836 }
+                if(!(mike != golf)) { _fun00004_ip = 836; continue _fun00003 }
  761:
                 mike = {};
                 sizing = mike;

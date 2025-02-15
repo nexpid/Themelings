@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = mike.bind(zulu)(entity);
         mike = zulu.then;
         entity = function(argFoo) {
-            _fun87136: for(var _fun87136_ip = 0; ; ) switch(_fun87136_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = global;
                 zulu = entity.JSON;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = mike.bind(zulu)(entity);
                 entity = entity.pushNotifications;
                 mike = null;
-                if(!(mike == entity)) { _fun87136_ip = 40; continue _fun87136 }
+                if(!(mike == entity)) { _fun00002_ip = 40; continue _fun00001 }
  36:
                 entity = new Array(0);
  40:

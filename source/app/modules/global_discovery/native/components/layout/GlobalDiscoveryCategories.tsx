@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         oscar = oscar.start;
         mike[3] = oscar;
         entity = function() {
-            _fun117986: for(var _fun117986_ip = 0; ; ) switch(_fun117986_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = undefined;
-                if(!entity) { _fun117986_ip = 21; continue _fun117986 }
+                if(!entity) { _fun00002_ip = 21; continue _fun00001 }
  12:
                 entity = _closure2_slot2;
                 tango = entity.start;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity[0] = tango;
                 tango = _closure2_slot1;
                 mike = undefined;
-                if(!tango) { _fun117986_ip = 47; continue _fun117986 }
+                if(!tango) { _fun00002_ip = 47; continue _fun00001 }
  38:
                 zulu = _closure2_slot2;
                 mike = zulu.end;

@@ -24,13 +24,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/connections/FederatedSocialUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: validateHandle
-        _fun80762: for(var _fun80762_ip = 0; ; ) switch(_fun80762_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot0;
             mike = entity.MASTODON;
             entity = argBar;
-            if(!(entity === mike)) { _fun80762_ip = 47; continue _fun80762 }
+            if(!(entity === mike)) { _fun00002_ip = 47; continue _fun00001 }
  23:
             mike = /^@?[a-z0-9_]+([.-]+[a-z0-9_]+)*@[^@]+\.[^.@]{2,}$/i;
             entity = mike.test;
@@ -44,18 +44,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['validateHandle'] = tango;
     mike = function(argFoo) { // Original name: getExampleHandle
-        _fun80763: for(var _fun80763_ip = 0; ; ) switch(_fun80763_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot0;
             zulu = entity.MASTODON;
             entity = '@example@mastodon.social';
-            if(!(tango !== zulu)) { _fun80763_ip = 55; continue _fun80763 }
+            if(!(tango !== zulu)) { _fun00004_ip = 55; continue _fun00003 }
  26:
             mike = _closure1_slot0;
             zulu = mike.BLUESKY;
             mike = 'clyde@example.com';
-            if(!(tango === zulu)) { _fun80763_ip = 52; continue _fun80763 }
+            if(!(tango === zulu)) { _fun00004_ip = 52; continue _fun00003 }
  46:
             mike = 'example.bsky.social';
  52:

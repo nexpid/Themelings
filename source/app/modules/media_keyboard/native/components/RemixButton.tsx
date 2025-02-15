@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_keyboard/native/components/RemixButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88234: for(var _fun88234_ip = 0; ; ) switch(_fun88234_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channelId;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity == mike;
             golf = undefined;
-            if(tango) { _fun88234_ip = 49; continue _fun88234 }
+            if(tango) { _fun00002_ip = 49; continue _fun00001 }
  44:
             golf = mike.item;
  49:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = verify;
             zulu = function() {
-                _fun88235: for(var _fun88235_ip = 0; ; ) switch(_fun88235_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot0;
                     zulu = zulu.bind(tango)(mike);
                     mike = null;
-                    if(!(mike != zulu)) { _fun88235_ip = 59; continue _fun88235 }
+                    if(!(mike != zulu)) { _fun00004_ip = 59; continue _fun00003 }
  49:
                     mike = zulu.closeCustomKeyboard;
                     mike = mike.bind(zulu)();
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = offset.bind(report)(zulu);
             golf = zulu.bind(report)(verify, golf, tango);
             entity = null;
-            if(!mike) { _fun88234_ip = 285; continue _fun88234 }
+            if(!mike) { _fun00002_ip = 285; continue _fun00001 }
  132:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;

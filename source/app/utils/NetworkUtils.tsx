@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         entity = zulu.prototype;
         mike = Object.create(entity, {constructor: {value: zulu}});
         tango = function(argFoo) {
-            _fun36546: for(var _fun36546_ip = 0; ; ) switch(_fun36546_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 golf = _closure1_slot0;
@@ -43,13 +43,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 golf = report.default;
                 report = golf.isOnline;
                 report = report.bind(golf)();
-                if(report) { _fun36546_ip = 118; continue _fun36546 }
+                if(report) { _fun00002_ip = 118; continue _fun00001 }
  47:
                 golf = _closure1_slot2;
                 report = golf.push;
                 report = report.bind(golf)(mike);
                 report = _closure1_slot3;
-                if(report) { _fun36546_ip = 116; continue _fun36546 }
+                if(report) { _fun00002_ip = 116; continue _fun00001 }
  68:
                 report = true;
                 _closure1_slot3 = report;

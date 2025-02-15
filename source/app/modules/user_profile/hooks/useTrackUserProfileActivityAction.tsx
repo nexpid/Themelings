@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/useTrackUserProfileActivityAction.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useTrackUserProfileActivityAction
-        _fun80454: for(var _fun80454_ip = 0; ; ) switch(_fun80454_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.user;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)();
             report = report.analyticsLocations;
             golf = null;
-            if(!(golf != zulu)) { _fun80454_ip = 166; continue _fun80454 }
+            if(!(golf != zulu)) { _fun00002_ip = 166; continue _fun00001 }
  163:
             report = zulu;
  166:

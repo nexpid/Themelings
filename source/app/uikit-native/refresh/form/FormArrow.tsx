@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormArrow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun48691: for(var _fun48691_ip = 0; ; ) switch(_fun48691_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.label;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = undefined;
             foxtrot = entity.bind(report)();
             entity = null;
-            if(!(entity == offset)) { _fun48691_ip = 131; continue _fun48691 }
+            if(!(entity == offset)) { _fun00002_ip = 131; continue _fun00001 }
  32:
             zulu = _closure1_slot4;
             oscar = _closure1_slot1;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.MEDIUM;
             entity['size'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun48691_ip = 308; continue _fun48691;
+            _fun00002_ip = 308; continue _fun00001;
  131:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;

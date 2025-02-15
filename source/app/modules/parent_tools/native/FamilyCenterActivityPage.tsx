@@ -72,7 +72,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/parent_tools/native/FamilyCenterActivityPage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: FamilyCenterActivityPage
-        _fun95119: for(var _fun95119_ip = 0; ; ) switch(_fun95119_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -93,7 +93,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity['style'] = oscar;
             oscar = report.length;
             report = 0;
-            if(!(report !== oscar)) { _fun95119_ip = 121; continue _fun95119 }
+            if(!(report !== oscar)) { _fun00002_ip = 121; continue _fun00001 }
  84:
             golf = _closure1_slot5;
             oscar = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = oscar.bind(tango)(report);
             report = {};
             report = golf.bind(tango)(oscar, report);
-            _fun95119_ip = 265; continue _fun95119;
+            _fun00002_ip = 265; continue _fun00001;
  121:
             options = _closure1_slot7;
             golf = _closure1_slot6;

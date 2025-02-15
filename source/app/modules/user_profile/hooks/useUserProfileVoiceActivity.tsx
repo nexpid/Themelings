@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/useUserProfileVoiceActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useUserProfileVoiceActivity
-        _fun80808: for(var _fun80808_ip = 0; ; ) switch(_fun80808_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.userId;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             report = mike == zulu;
             mike = undefined;
-            if(report) { _fun80808_ip = 102; continue _fun80808 }
+            if(report) { _fun00002_ip = 102; continue _fun00001 }
  97:
             mike = zulu.id;
  102:
@@ -72,14 +72,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = _closure1_slot4;
             mike[1] = golf;
             entity = function() {
-                _fun80809: for(var _fun80809_ip = 0; ; ) switch(_fun80809_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
-                    if(!(entity != zulu)) { _fun80809_ip = 21; continue _fun80809 }
+                    if(!(entity != zulu)) { _fun00004_ip = 21; continue _fun00003 }
  13:
                     zulu = _closure2_slot1;
-                    if(!(entity == zulu)) { _fun80809_ip = 25; continue _fun80809 }
+                    if(!(entity == zulu)) { _fun00004_ip = 25; continue _fun00003 }
  21:
                     zulu = undefined;
                     return zulu;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.findActivity;
                     zulu = _closure2_slot0;
                     mike = function(argFoo) {
-                        _fun80810: for(var _fun80810_ip = 0; ; ) switch(_fun80810_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             zulu = argFoo;
                             report = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             mike = undefined;
                             tango = report.bind(mike)(tango);
                             tango = tango.bind(mike)(zulu);
-                            if(tango) { _fun80810_ip = 40; continue _fun80810 }
+                            if(tango) { _fun00006_ip = 40; continue _fun00005 }
  36:
                             tango = false;
                             return tango;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             tango = null;
                             tango = tango == zulu;
                             mike = undefined;
-                            if(tango) { _fun80810_ip = 85; continue _fun80810 }
+                            if(tango) { _fun00006_ip = 85; continue _fun00005 }
  80:
                             mike = zulu.channelId;
  85:
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = tango.bind(report)(zulu, mike);
                     zulu = entity != mike;
                     entity = undefined;
-                    if(!zulu) { _fun80809_ip = 69; continue _fun80809 }
+                    if(!zulu) { _fun00004_ip = 69; continue _fun00003 }
  66:
                     entity = mike;
  69:

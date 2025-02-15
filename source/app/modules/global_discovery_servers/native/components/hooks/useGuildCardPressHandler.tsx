@@ -62,19 +62,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo, argBar) {
                 entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                    _fun117993: for(var _fun117993_ip = 0; ; ) switch(_fun117993_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         offset = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun117993_ip = 314; continue _fun117993 }
+                        if(mike) { _fun00002_ip = 314; continue _fun00001 }
  13:
                         zulu = _closure1_slot4;
                         mike = zulu.lurkingGuildIds;
                         mike = mike.bind(zulu)();
                         zulu = mike.length;
                         mike = 0;
-                        if(!(zulu > mike)) { _fun117993_ip = 86; continue _fun117993 }
+                        if(!(zulu > mike)) { _fun00002_ip = 86; continue _fun00001 }
  41:
                         tango = _closure1_slot0;
                         zulu = _closure1_slot1;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  77:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun117993_ip = 311; continue _fun117993 }
+                        if(zulu) { _fun00002_ip = 311; continue _fun00001 }
  86:
                         oscar = _closure1_slot0;
                         tango = _closure1_slot1;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return zulu;
  187:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(oscar) { _fun117993_ip = 308; continue _fun117993 }
+                        if(oscar) { _fun00002_ip = 308; continue _fun00001 }
  193:
                         golf = _closure1_slot5;
                         oscar = golf.getId;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         golf = _closure1_slot6;
                         oscar = golf.isMember;
                         verify = oscar.bind(golf)(offset, yankee);
-                        if(!verify) { _fun117993_ip = 245; continue _fun117993 }
+                        if(!verify) { _fun00002_ip = 245; continue _fun00001 }
  226:
                         golf = _closure1_slot6;
                         oscar = golf.isGuestOrLurker;

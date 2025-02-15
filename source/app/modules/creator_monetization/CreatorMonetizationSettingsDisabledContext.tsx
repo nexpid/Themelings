@@ -35,14 +35,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     tango = function() { // Original name: useCreatorMonetizationSettingsDisabled
-        _fun126927: for(var _fun126927_ip = 0; ; ) switch(_fun126927_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.useContext;
             entity = _closure1_slot4;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun126927_ip = 30; continue _fun126927 }
+            if(!(mike != entity)) { _fun00002_ip = 30; continue _fun00001 }
  28:
             return entity;
  30:

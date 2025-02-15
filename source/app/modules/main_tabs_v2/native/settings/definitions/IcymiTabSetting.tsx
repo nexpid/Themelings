@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     golf = function(argFoo) { // Original name: onICYMISettingValueChange
-        _fun98037: for(var _fun98037_ip = 0; ; ) switch(_fun98037_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'icymi_tab_toggle';
             tango['home_session_id'] = options;
             options = 'show';
-            if(!mike) { _fun98037_ip = 67; continue _fun98037 }
+            if(!mike) { _fun00002_ip = 67; continue _fun00001 }
  63:
             options = 'hide';
  67:

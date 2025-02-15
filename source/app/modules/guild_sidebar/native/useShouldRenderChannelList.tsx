@@ -64,7 +64,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = new Array(1);
         zulu[0] = entity;
         mike = function() {
-            _fun116135: for(var _fun116135_ip = 0; ; ) switch(_fun116135_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 verify = function() { // Original name: allowRender
                     zulu = true;
@@ -76,12 +76,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 };
                 var _closure3_slot0 = verify;
                 golf = function() { // Original name: handleGatewayChange
-                    _fun116137: for(var _fun116137_ip = 0; ; ) switch(_fun116137_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         mike = _closure1_slot5;
                         entity = mike.isConnected;
                         entity = entity.bind(mike)();
-                        if(!entity) { _fun116137_ip = 33; continue _fun116137 }
+                        if(!entity) { _fun00004_ip = 33; continue _fun00003 }
  20:
                         mike = _closure3_slot0;
                         entity = undefined;
@@ -93,13 +93,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 };
                 var _closure3_slot1 = golf;
                 oscar = function() { // Original name: handleCacheChange
-                    _fun116138: for(var _fun116138_ip = 0; ; ) switch(_fun116138_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         mike = _closure1_slot4;
                         entity = mike.getLazyCacheStatus;
                         mike = entity.bind(mike)();
                         entity = 'cache-loaded';
-                        if(!(entity === mike)) { _fun116138_ip = 40; continue _fun116138 }
+                        if(!(entity === mike)) { _fun00006_ip = 40; continue _fun00005 }
  27:
                         mike = _closure3_slot0;
                         entity = undefined;
@@ -111,7 +111,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 };
                 var _closure3_slot2 = oscar;
                 report = function() { // Original name: handleNavigationChange
-                    _fun116139: for(var _fun116139_ip = 0; ; ) switch(_fun116139_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         zulu = _closure1_slot0;
                         oscar = _closure1_slot1;
@@ -128,13 +128,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         zulu = null;
                         oscar = zulu == golf;
                         mike = undefined;
-                        if(oscar) { _fun116139_ip = 74; continue _fun116139 }
+                        if(oscar) { _fun00008_ip = 74; continue _fun00007 }
  64:
                         oscar = golf.getCurrentRoute;
                         mike = oscar.bind(golf)();
  74:
                         mike = tango.bind(report)(mike);
-                        if(!(zulu != mike)) { _fun116139_ip = 94; continue _fun116139 }
+                        if(!(zulu != mike)) { _fun00008_ip = 94; continue _fun00007 }
  83:
                         mike = _closure3_slot0;
                         mike = mike.bind(entity)();
@@ -144,7 +144,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 };
                 var _closure3_slot3 = report;
                 mike = _closure2_slot0;
-                if(mike) { _fun116135_ip = 195; continue _fun116135 }
+                if(mike) { _fun00002_ip = 195; continue _fun00001 }
  59:
                 tango = _closure1_slot5;
                 zulu = tango.addReactChangeListener;
@@ -169,14 +169,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 mike = zulu.getRootNavigationRef;
                 tango = mike.bind(zulu)();
                 mike = null;
-                if(!(mike != tango)) { _fun116135_ip = 186; continue _fun116135 }
+                if(!(mike != tango)) { _fun00002_ip = 186; continue _fun00001 }
  170:
                 zulu = tango.addListener;
                 mike = 'state';
                 mike = zulu.bind(tango)(mike, report);
  186:
                 entity = function() {
-                    _fun116140: for(var _fun116140_ip = 0; ; ) switch(_fun116140_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         report = _closure1_slot5;
                         tango = report.removeReactChangeListener;
@@ -204,7 +204,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         zulu = tango.getRootNavigationRef;
                         report = zulu.bind(tango)();
                         zulu = null;
-                        if(!(zulu != report)) { _fun116140_ip = 146; continue _fun116140 }
+                        if(!(zulu != report)) { _fun00010_ip = 146; continue _fun00009 }
  126:
                         tango = report.removeListener;
                         zulu = _closure3_slot3;

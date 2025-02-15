@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ProfilePreviewButton
-        _fun93120: for(var _fun93120_ip = 0; ; ) switch(_fun93120_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.userId;
@@ -39,11 +39,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = offset;
             zulu[2] = verify;
             entity = function() {
-                _fun93121: for(var _fun93121_ip = 0; ; ) switch(_fun93121_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun93121_ip = 93; continue _fun93121 }
+                    if(!(entity != mike)) { _fun00004_ip = 93; continue _fun00003 }
  13:
                     mike = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(golf)(entity, zulu);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun93120_ip = 346; continue _fun93120 }
+            if(mike) { _fun00002_ip = 346; continue _fun00001 }
  146:
             tango = _closure1_slot5;
             romeo = _closure1_slot0;
@@ -124,14 +124,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: EditButton
-        _fun93122: for(var _fun93122_ip = 0; ; ) switch(_fun93122_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             offset = entity.onPress;
             yankee = entity.accessibilityLabel;
             verify = entity.disabled;
             tango = undefined;
-            if(!(verify === tango)) { _fun93122_ip = 26; continue _fun93122 }
+            if(!(verify === tango)) { _fun00006_ip = 26; continue _fun00005 }
  24:
             verify = false;
  26:
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileEditBannerButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileEditBannerButton
-        _fun93123: for(var _fun93123_ip = 0; ; ) switch(_fun93123_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             kilo = entity.user;
@@ -253,14 +253,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.showProfilePreviewButton;
             oscar = entity.showEditButton;
             tango = undefined;
-            if(!(oscar === tango)) { _fun93123_ip = 64; continue _fun93123 }
+            if(!(oscar === tango)) { _fun00008_ip = 64; continue _fun00007 }
  62:
             oscar = true;
  64:
             romeo = entity.onPressEdit;
             yankee = entity.editButtonAccessibilityLabel;
             offset = entity.editDisabled;
-            if(!(offset === tango)) { _fun93123_ip = 88; continue _fun93123 }
+            if(!(offset === tango)) { _fun00008_ip = 88; continue _fun00007 }
  86:
             offset = false;
  88:
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.bind(tango)(verify, report);
             report = new Array(3);
             report[0] = verify;
-            if(!options) { _fun93123_ip = 241; continue _fun93123 }
+            if(!options) { _fun00008_ip = 241; continue _fun00007 }
  216:
             backup = _closure1_slot5;
             foxtrot = _closure1_slot8;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = backup.bind(tango)(foxtrot, verify);
  241:
             report[1] = options;
-            if(!oscar) { _fun93123_ip = 276; continue _fun93123 }
+            if(!oscar) { _fun00008_ip = 276; continue _fun00007 }
  248:
             verify = _closure1_slot5;
             options = _closure1_slot9;

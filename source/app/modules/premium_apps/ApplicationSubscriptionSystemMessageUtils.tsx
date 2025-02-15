@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getApplicationSubscriptionSystemMessageASTContent
-        _fun72330: for(var _fun72330_ip = 0; ; ) switch(_fun72330_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.application;
             options = entity.username;
             oscar = entity.usernameOnClick;
             entity = null;
-            if(!(entity == golf)) { _fun72330_ip = 99; continue _fun72330 }
+            if(!(entity == golf)) { _fun00002_ip = 99; continue _fun00001 }
  25:
             report = _closure1_slot0;
             verify = _closure1_slot1;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['username'] = options;
             entity['usernameOnClick'] = oscar;
             entity = zulu.bind(tango)(mike, entity);
-            _fun72330_ip = 181; continue _fun72330;
+            _fun00002_ip = 181; continue _fun00001;
  99:
             verify = _closure1_slot0;
             offset = _closure1_slot1;

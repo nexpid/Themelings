@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/alerts/MemberVerificationAlertIncomplete.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationAlertIncomplete
-        _fun88538: for(var _fun88538_ip = 0; ; ) switch(_fun88538_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             yankee = report.guildId;
@@ -87,11 +87,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = yankee;
             golf[1] = offset;
             zulu = function() {
-                _fun88540: for(var _fun88540_ip = 0; ; ) switch(_fun88540_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun88540_ip = 23; continue _fun88540 }
+                    if(!(entity != zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                     zulu = _closure2_slot1;
                     entity = undefined;
@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = yankee;
             zulu[1] = offset;
             entity = function() {
-                _fun88541: for(var _fun88541_ip = 0; ; ) switch(_fun88541_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(!(entity != mike)) { _fun88541_ip = 23; continue _fun88541 }
+                    if(!(entity != mike)) { _fun00006_ip = 23; continue _fun00005 }
  13:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = golf.bind(options)(entity, zulu);
             zulu = mike == verify;
             entity = undefined;
-            if(zulu) { _fun88538_ip = 194; continue _fun88538 }
+            if(zulu) { _fun00002_ip = 194; continue _fun00001 }
  189:
             entity = verify.name;
  194:
-            if(!(mike == entity)) { _fun88538_ip = 255; continue _fun88538 }
+            if(!(mike == entity)) { _fun00002_ip = 255; continue _fun00001 }
  198:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.0sTyER;
             golf = mike.bind(zulu)(entity);
-            _fun88538_ip = 323; continue _fun88538;
+            _fun00002_ip = 323; continue _fun00001;
  255:
             mike = _closure1_slot0;
             offset = _closure1_slot2;

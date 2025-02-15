@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: EmojiPickerListComponentEmpty
-        _fun78410: for(var _fun78410_ip = 0; ; ) switch(_fun78410_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.inActionSheet;
@@ -70,10 +70,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.useSearchEmptySource;
             verify = mike.bind(zulu)();
-            if(entity) { _fun78410_ip = 61; continue _fun78410 }
+            if(entity) { _fun00002_ip = 61; continue _fun00001 }
  55:
             zulu = _closure1_slot3;
-            _fun78410_ip = 87; continue _fun78410;
+            _fun00002_ip = 87; continue _fun00001;
  61:
             mike = _closure1_slot0;
             report = _closure1_slot2;

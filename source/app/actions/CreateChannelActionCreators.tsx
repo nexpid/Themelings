@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: createChannel
-        _fun76672: for(var _fun76672_ip = 0; ; ) switch(_fun76672_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.guildId;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.name;
             tango = mike.permissionOverwrites;
             options = undefined;
-            if(!(tango === options)) { _fun76672_ip = 40; continue _fun76672 }
+            if(!(tango === options)) { _fun00002_ip = 40; continue _fun00001 }
  36:
             tango = new Array(0);
  40:
@@ -71,34 +71,34 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['permission_overwrites'] = tango;
             tango = null;
             foxtrot = tango != romeo;
-            if(!foxtrot) { _fun76672_ip = 151; continue _fun76672 }
+            if(!foxtrot) { _fun00002_ip = 151; continue _fun00001 }
  143:
             backup = _closure1_slot4;
             foxtrot = romeo !== backup;
  151:
-            if(!foxtrot) { _fun76672_ip = 160; continue _fun76672 }
+            if(!foxtrot) { _fun00002_ip = 160; continue _fun00001 }
  154:
             report['bitrate'] = romeo;
  160:
             romeo = tango != offset;
-            if(!romeo) { _fun76672_ip = 173; continue _fun76672 }
+            if(!romeo) { _fun00002_ip = 173; continue _fun00001 }
  167:
             foxtrot = 0;
             romeo = offset > foxtrot;
  173:
-            if(!romeo) { _fun76672_ip = 182; continue _fun76672 }
+            if(!romeo) { _fun00002_ip = 182; continue _fun00001 }
  176:
             report['user_limit'] = offset;
  182:
-            if(!(tango != golf)) { _fun76672_ip = 192; continue _fun76672 }
+            if(!(tango != golf)) { _fun00002_ip = 192; continue _fun00001 }
  186:
             report['parent_id'] = golf;
  192:
             golf = _closure1_slot5;
             golf = golf.GUILD_STORE;
-            if(!(verify === golf)) { _fun76672_ip = 225; continue _fun76672 }
+            if(!(verify === golf)) { _fun00002_ip = 225; continue _fun00001 }
  206:
-            if(!(tango != zulu)) { _fun76672_ip = 373; continue _fun76672 }
+            if(!(tango != zulu)) { _fun00002_ip = 373; continue _fun00001 }
  213:
             report['sku_id'] = zulu;
             report['branch_id'] = mike;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.CHANNEL_CREATE;
             report['event'] = oscar;
             oscar = function(argFoo) { // Original name: properties
-                _fun76673: for(var _fun76673_ip = 0; ; ) switch(_fun76673_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     mike = _closure1_slot0;
@@ -145,24 +145,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     options = oscar == report;
                     tango = undefined;
-                    if(options) { _fun76673_ip = 89; continue _fun76673 }
+                    if(options) { _fun00004_ip = 89; continue _fun00003 }
  70:
                     options = report.body;
                     verify = oscar == options;
                     tango = undefined;
-                    if(verify) { _fun76673_ip = 89; continue _fun76673 }
+                    if(verify) { _fun00004_ip = 89; continue _fun00003 }
  84:
                     tango = options.id;
  89:
                     entity['channel_id'] = tango;
                     options = oscar == report;
                     tango = undefined;
-                    if(options) { _fun76673_ip = 121; continue _fun76673 }
+                    if(options) { _fun00004_ip = 121; continue _fun00003 }
  102:
                     report = report.body;
                     oscar = oscar == report;
                     tango = undefined;
-                    if(oscar) { _fun76673_ip = 121; continue _fun76673 }
+                    if(oscar) { _fun00004_ip = 121; continue _fun00003 }
  116:
                     tango = report.type;
  121:
@@ -178,14 +178,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(tango)(mike);
             zulu = tango.then;
             mike = function(argFoo) {
-                _fun76674: for(var _fun76674_ip = 0; ; ) switch(_fun76674_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     oscar = _closure1_slot3;
                     report = oscar.isOptInEnabled;
                     tango = _closure2_slot0;
                     tango = report.bind(oscar)(tango);
-                    if(!tango) { _fun76674_ip = 130; continue _fun76674 }
+                    if(!tango) { _fun00006_ip = 130; continue _fun00005 }
  31:
                     report = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = report.CHANNEL_CREATE;
         tango['event'] = report;
         report = function(argFoo) { // Original name: properties
-            _fun76677: for(var _fun76677_ip = 0; ; ) switch(_fun76677_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 report = argFoo;
                 mike = _closure1_slot0;
@@ -305,24 +305,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 options = oscar == report;
                 tango = undefined;
-                if(options) { _fun76677_ip = 73; continue _fun76677 }
+                if(options) { _fun00008_ip = 73; continue _fun00007 }
  54:
                 options = report.body;
                 verify = oscar == options;
                 tango = undefined;
-                if(verify) { _fun76677_ip = 73; continue _fun76677 }
+                if(verify) { _fun00008_ip = 73; continue _fun00007 }
  68:
                 tango = options.id;
  73:
                 entity['channel_id'] = tango;
                 options = oscar == report;
                 tango = undefined;
-                if(options) { _fun76677_ip = 105; continue _fun76677 }
+                if(options) { _fun00008_ip = 105; continue _fun00007 }
  86:
                 report = report.body;
                 oscar = oscar == report;
                 tango = undefined;
-                if(oscar) { _fun76677_ip = 105; continue _fun76677 }
+                if(oscar) { _fun00008_ip = 105; continue _fun00007 }
  100:
                 tango = report.type;
  105:

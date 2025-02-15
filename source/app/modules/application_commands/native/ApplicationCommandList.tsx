@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/application_commands/native/ApplicationCommandList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun100955: for(var _fun100955_ip = 0; ; ) switch(_fun100955_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.style;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = backup;
             options[1] = report;
             report = function(argFoo) {
-                _fun100956: for(var _fun100956_ip = 0; ; ) switch(_fun100956_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     verify = entity.item;
@@ -115,13 +115,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = report.bind(tango)(mike);
                     mike = mike.ApplicationCommandInputType;
                     mike = mike.PLACEHOLDER;
-                    if(!(zulu !== mike)) { _fun100956_ip = 178; continue _fun100956 }
+                    if(!(zulu !== mike)) { _fun00004_ip = 178; continue _fun00003 }
  70:
                     report = _closure2_slot3;
                     zulu = null;
                     zulu = zulu == report;
                     options = undefined;
-                    if(zulu) { _fun100956_ip = 109; continue _fun100956 }
+                    if(zulu) { _fun00004_ip = 109; continue _fun00003 }
  88:
                     report = _closure2_slot3;
                     zulu = report.find;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             report = report == verify;
             backup = undefined;
-            if(report) { _fun100955_ip = 279; continue _fun100955 }
+            if(report) { _fun00002_ip = 279; continue _fun00001 }
  274:
             backup = verify.length;
  279:
@@ -184,25 +184,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = backup;
             report[1] = zulu;
             zulu = function() {
-                _fun100959: for(var _fun100959_ip = 0; ; ) switch(_fun100959_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(!(entity != mike)) { _fun100959_ip = 58; continue _fun100959 }
+                    if(!(entity != mike)) { _fun00006_ip = 58; continue _fun00005 }
  13:
                     zulu = _closure2_slot1;
                     mike = _closure2_slot2;
                     oscar = entity == mike;
                     mike = undefined;
                     tango = undefined;
-                    if(oscar) { _fun100959_ip = 41; continue _fun100959 }
+                    if(oscar) { _fun00006_ip = 41; continue _fun00005 }
  32:
                     report = _closure2_slot2;
                     tango = report.length;
  41:
                     report = entity != tango;
                     entity = 0;
-                    if(!report) { _fun100959_ip = 53; continue _fun100959 }
+                    if(!report) { _fun00006_ip = 53; continue _fun00005 }
  50:
                     entity = tango;
  53:
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function(argFoo) {
-                _fun100960: for(var _fun100960_ip = 0; ; ) switch(_fun100960_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.nativeEvent;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = entity.height;
                     entity = _closure1_slot7;
                     entity = zulu - entity;
-                    if(!(mike >= entity)) { _fun100960_ip = 73; continue _fun100960 }
+                    if(!(mike >= entity)) { _fun00008_ip = 73; continue _fun00007 }
  60:
                     mike = _closure2_slot4;
                     entity = undefined;

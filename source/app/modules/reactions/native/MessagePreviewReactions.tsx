@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/reactions/native/MessagePreviewReactions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88428: for(var _fun88428_ip = 0; ; ) switch(_fun88428_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.channelId;
@@ -60,17 +60,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = new Array(1);
                 mike[0] = oscar;
                 entity = function() {
-                    _fun88430: for(var _fun88430_ip = 0; ; ) switch(_fun88430_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         tango = _closure1_slot3;
                         zulu = tango.getMessage;
                         mike = _closure3_slot0;
                         mike = zulu.bind(tango)(mike);
                         zulu = null;
-                        if(!(zulu == mike)) { _fun88430_ip = 37; continue _fun88430 }
+                        if(!(zulu == mike)) { _fun00004_ip = 37; continue _fun00003 }
  31:
                         entity = _closure1_slot5;
-                        _fun88430_ip = 43; continue _fun88430;
+                        _fun00004_ip = 43; continue _fun00003;
  37:
                         entity = mike.reactions;
  43:
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['value'] = report;
             golf = verify.length;
             report = 0;
-            if(!(!(golf > report))) { _fun88428_ip = 167; continue _fun88428 }
+            if(!(!(golf > report))) { _fun00002_ip = 167; continue _fun00001 }
  127:
             options = _closure1_slot4;
             golf = _closure1_slot0;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.MessageReactionsEmpty;
             report = {};
             report = options.bind(tango)(golf, report);
-            _fun88428_ip = 223; continue _fun88428;
+            _fun00002_ip = 223; continue _fun00001;
  167:
             options = _closure1_slot4;
             golf = _closure1_slot0;

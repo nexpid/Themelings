@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/modals/JoinServer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: JoinServer
-        _fun93569: for(var _fun93569_ip = 0; ; ) switch(_fun93569_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             control = entity.error;
@@ -251,10 +251,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo.bind(tango)(options);
             options = options.spacing;
             options = options.PX_16;
-            if(offset) { _fun93569_ip = 273; continue _fun93569 }
+            if(offset) { _fun00002_ip = 273; continue _fun00001 }
  267:
             golf = golf + options;
-            _fun93569_ip = 276; continue _fun93569;
+            _fun00002_ip = 276; continue _fun00001;
  273:
             golf = options;
  276:
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot7;
             options = verify <= options;
             verify = null;
-            if(options) { _fun93569_ip = 556; continue _fun93569 }
+            if(options) { _fun00002_ip = 556; continue _fun00001 }
  316:
             romeo = _closure1_slot10;
             offset = _closure1_slot11;

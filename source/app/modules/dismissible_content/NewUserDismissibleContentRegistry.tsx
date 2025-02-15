@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/dismissible_content/NewUserDismissibleContentRegistry.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useNewUserDismissibleContent
-        _fun38274: for(var _fun38274_ip = 0; ; ) switch(_fun38274_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
@@ -199,12 +199,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(options)(report, zulu);
             oscar = zulu.userId;
             zulu = zulu.newUserMinAgeRequiredOverridden;
-            if(zulu) { _fun38274_ip = 144; continue _fun38274 }
+            if(zulu) { _fun00002_ip = 144; continue _fun00001 }
  81:
             zulu = null;
             report = zulu != oscar;
             zulu = 0;
-            if(!report) { _fun38274_ip = 123; continue _fun38274 }
+            if(!report) { _fun00002_ip = 123; continue _fun00001 }
  92:
             report = _closure1_slot1;
             options = _closure1_slot2;
@@ -217,13 +217,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             zulu = entity.filter;
             mike = function(argFoo) {
-                _fun38276: for(var _fun38276_ip = 0; ; ) switch(_fun38276_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot5;
                     mike = argFoo;
                     mike = zulu[mike];
                     zulu = null;
-                    if(!(zulu == mike)) { _fun38276_ip = 24; continue _fun38276 }
+                    if(!(zulu == mike)) { _fun00004_ip = 24; continue _fun00003 }
  20:
                     mike = _closure1_slot6;
  24:
@@ -240,12 +240,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useNewUserDismissibleContent'] = tango;
     mike = function(argFoo) { // Original name: disableNewUserDismissibleContent
-        _fun38277: for(var _fun38277_ip = 0; ; ) switch(_fun38277_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = _closure1_slot4;
             entity = entity.newUserMinAgeRequiredOverridden;
             entity = !entity;
-            if(!entity) { _fun38277_ip = 114; continue _fun38277 }
+            if(!entity) { _fun00006_ip = 114; continue _fun00005 }
  19:
             zulu = _closure1_slot3;
             mike = zulu.getId;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             mike = report != mike;
             zulu = 0;
-            if(!mike) { _fun38277_ip = 91; continue _fun38277 }
+            if(!mike) { _fun00006_ip = 91; continue _fun00005 }
  44:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot5;
             mike = argFoo;
             mike = oscar[mike];
-            if(!(report == mike)) { _fun38277_ip = 110; continue _fun38277 }
+            if(!(report == mike)) { _fun00006_ip = 110; continue _fun00005 }
  106:
             mike = _closure1_slot6;
  110:

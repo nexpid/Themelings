@@ -20,20 +20,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = entity;
     mike = function(argFoo) { // Original name: getBannerText
-        _fun88711: for(var _fun88711_ip = 0; ; ) switch(_fun88711_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = null;
             tango = mike == zulu;
             entity = null;
-            if(tango) { _fun88711_ip = 282; continue _fun88711 }
+            if(tango) { _fun00002_ip = 282; continue _fun00001 }
  17:
             tango = zulu.email;
-            if(!(mike != tango)) { _fun88711_ip = 161; continue _fun88711 }
+            if(!(mike != tango)) { _fun00002_ip = 161; continue _fun00001 }
  30:
             zulu = zulu.verified;
             mike = null;
-            if(zulu) { _fun88711_ip = 159; continue _fun88711 }
+            if(zulu) { _fun00002_ip = 159; continue _fun00001 }
  41:
             zulu = {};
             options = _closure1_slot0;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['button'] = tango;
             mike = zulu;
  159:
-            _fun88711_ip = 279; continue _fun88711;
+            _fun00002_ip = 279; continue _fun00001;
  161:
             zulu = {};
             options = _closure1_slot0;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/user_settings/native/UserSettingsAccountUnverifiedHeader.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: UserSettingsAccountUnverifiedHeader
-        _fun88712: for(var _fun88712_ip = 0; ; ) switch(_fun88712_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot6;
             report = undefined;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.bind(report)(entity);
             entity = null;
             mike = entity == offset;
-            if(mike) { _fun88712_ip = 280; continue _fun88712 }
+            if(mike) { _fun00004_ip = 280; continue _fun00003 }
  86:
             tango = _closure1_slot5;
             options = _closure1_slot0;

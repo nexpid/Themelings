@@ -26,28 +26,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: getChatInputSendButtonItemKey
-        _fun101316: for(var _fun101316_ip = 0; ; ) switch(_fun101316_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.isOnCooldown;
             tango = entity.sendVoiceMessageEnabled;
             entity = entity.sendEnabled;
             zulu = _closure1_slot8;
-            if(tango) { _fun101316_ip = 50; continue _fun101316 }
+            if(tango) { _fun00002_ip = 50; continue _fun00001 }
  31:
-            if(entity) { _fun101316_ip = 42; continue _fun101316 }
+            if(entity) { _fun00002_ip = 42; continue _fun00001 }
  34:
             entity = zulu.BUTTON_SEND_DISABLED;
-            _fun101316_ip = 48; continue _fun101316;
+            _fun00002_ip = 48; continue _fun00001;
  42:
             entity = zulu.BUTTON_SEND;
  48:
-            _fun101316_ip = 70; continue _fun101316;
+            _fun00002_ip = 70; continue _fun00001;
  50:
-            if(mike) { _fun101316_ip = 61; continue _fun101316 }
+            if(mike) { _fun00002_ip = 61; continue _fun00001 }
  53:
             mike = zulu.BUTTON_SEND_VOICE_MESSAGE;
-            _fun101316_ip = 67; continue _fun101316;
+            _fun00002_ip = 67; continue _fun00001;
  61:
             mike = zulu.BUTTON_SEND_VOICE_MESSAGE_DISABLED;
  67:
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     options = golf.memo;
     tango = function(argFoo) {
-        _fun101317: for(var _fun101317_ip = 0; ; ) switch(_fun101317_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.onSendMessage;
@@ -158,11 +158,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['state'] = report;
             report = _closure1_slot8;
             report = report.BUTTON_SEND_VOICE_MESSAGE;
-            if(!(golf !== report)) { _fun101317_ip = 276; continue _fun101317 }
+            if(!(golf !== report)) { _fun00004_ip = 276; continue _fun00003 }
  107:
             report = _closure1_slot8;
             report = report.BUTTON_SEND_VOICE_MESSAGE_DISABLED;
-            if(!(golf !== report)) { _fun101317_ip = 276; continue _fun101317 }
+            if(!(golf !== report)) { _fun00004_ip = 276; continue _fun00003 }
  124:
             options = _closure1_slot7;
             golf = _closure1_slot1;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = !yankee;
             report['disabled'] = yankee;
             report = options.bind(tango)(golf, report);
-            _fun101317_ip = 316; continue _fun101317;
+            _fun00004_ip = 316; continue _fun00003;
  276:
             options = _closure1_slot7;
             golf = _closure1_slot1;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun101318: for(var _fun101318_ip = 0; ; ) switch(_fun101318_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             zulu = tango.channel;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = offset;
             golf = tango.requireTextContent;
             tango = undefined;
-            if(!(golf === tango)) { _fun101318_ip = 62; continue _fun101318 }
+            if(!(golf === tango)) { _fun00006_ip = 62; continue _fun00005 }
  60:
             golf = false;
  62:
@@ -277,24 +277,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = kilo.bind(sizing)(backup, verify, yankee);
             _closure2_slot3 = yankee;
             verify = !yankee;
-            if(verify) { _fun101318_ip = 214; continue _fun101318 }
+            if(verify) { _fun00006_ip = 214; continue _fun00005 }
  211:
             verify = foxtrot;
  214:
-            if(!verify) { _fun101318_ip = 232; continue _fun101318 }
+            if(!verify) { _fun00006_ip = 232; continue _fun00005 }
  217:
-            if(oscar) { _fun101318_ip = 223; continue _fun101318 }
+            if(oscar) { _fun00006_ip = 223; continue _fun00005 }
  220:
             oscar = romeo;
  223:
-            if(oscar) { _fun101318_ip = 229; continue _fun101318 }
+            if(oscar) { _fun00006_ip = 229; continue _fun00005 }
  226:
             oscar = !golf;
  229:
             verify = oscar;
  232:
             _closure2_slot4 = verify;
-            if(!mike) { _fun101318_ip = 242; continue _fun101318 }
+            if(!mike) { _fun00006_ip = 242; continue _fun00005 }
  239:
             mike = !verify;
  242:

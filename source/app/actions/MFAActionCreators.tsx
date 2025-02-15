@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun92964: for(var _fun92964_ip = 0; ; ) switch(_fun92964_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92964_ip = 116; continue _fun92964 }
+                    if(mike) { _fun00002_ip = 116; continue _fun00001 }
  7:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  99:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun92964_ip = 113; continue _fun92964 }
+                    if(zulu) { _fun00002_ip = 113; continue _fun00001 }
  105:
                     zulu = mike.body;
                     return zulu;
@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['sendMFABackupCodesVerificationKeyEmail'] = golf;
     golf = function(argFoo, argBar) { // Original name: confirmViewBackupCodes
-        _fun92974: for(var _fun92974_ip = 0; ; ) switch(_fun92974_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             options = argFoo;
             oscar = argBar;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(zulu)();
             golf = mike.viewNonce;
             mike = mike.regenerateNonce;
-            if(!oscar) { _fun92974_ip = 49; continue _fun92974 }
+            if(!oscar) { _fun00004_ip = 49; continue _fun00003 }
  46:
             golf = mike;
  49:

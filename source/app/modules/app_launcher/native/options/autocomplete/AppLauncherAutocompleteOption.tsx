@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/autocomplete/AppLauncherAutocompleteOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherAutocompleteOption
-        _fun119178: for(var _fun119178_ip = 0; ; ) switch(_fun119178_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.style;
@@ -110,21 +110,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot4;
             zulu = tango.useState;
             mike = function() {
-                _fun119179: for(var _fun119179_ip = 0; ; ) switch(_fun119179_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot7;
                     entity = null;
-                    if(!(entity != zulu)) { _fun119179_ip = 47; continue _fun119179 }
+                    if(!(entity != zulu)) { _fun00004_ip = 47; continue _fun00003 }
  13:
                     entity = _closure2_slot7;
                     zulu = entity.type;
                     entity = 'text';
-                    if(!(entity === zulu)) { _fun119179_ip = 47; continue _fun119179 }
+                    if(!(entity === zulu)) { _fun00004_ip = 47; continue _fun00003 }
  30:
                     entity = _closure2_slot7;
                     zulu = entity.text;
                     entity = '';
-                    if(!(entity === zulu)) { _fun119179_ip = 51; continue _fun119179 }
+                    if(!(entity === zulu)) { _fun00004_ip = 51; continue _fun00003 }
  47:
                     entity = undefined;
                     return entity;
@@ -154,11 +154,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             options = mike.bind(tango)();
             oscar = function() { // Original name: onPress
-                _fun119180: for(var _fun119180_ip = 0; ; ) switch(_fun119180_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot2;
                     entity = null;
-                    if(!(entity != zulu)) { _fun119180_ip = 23; continue _fun119180 }
+                    if(!(entity != zulu)) { _fun00006_ip = 23; continue _fun00005 }
  13:
                     zulu = _closure2_slot2;
                     entity = undefined;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = options.container;
             oscar = new Array(3);
             oscar[0] = yankee;
-            if(!offset) { _fun119178_ip = 258; continue _fun119178 }
+            if(!offset) { _fun00002_ip = 258; continue _fun00001 }
  252:
             offset = options.hasError;
  258:
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             offset = options != verify;
             options = ' ';
-            if(!offset) { _fun119178_ip = 339; continue _fun119178 }
+            if(!offset) { _fun00002_ip = 339; continue _fun00001 }
  334:
             options = verify.displayName;
  339:

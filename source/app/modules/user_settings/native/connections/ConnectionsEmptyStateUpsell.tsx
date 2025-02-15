@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: EmptyStateCard
-        _fun95625: for(var _fun95625_ip = 0; ; ) switch(_fun95625_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.platform;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[3] = foxtrot;
             zulu[4] = yankee;
             entity = function() {
-                _fun95627: for(var _fun95627_ip = 0; ; ) switch(_fun95627_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.makeSource;
                     golf = _closure2_slot2;
                     report = null;
-                    if(!(report == golf)) { _fun95627_ip = 107; continue _fun95627 }
+                    if(!(report == golf)) { _fun00004_ip = 107; continue _fun00003 }
  44:
                     report = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -100,14 +100,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = report.bind(oscar)(entity);
                     report = _closure2_slot0;
                     report = report.icon;
-                    if(entity) { _fun95627_ip = 99; continue _fun95627 }
+                    if(entity) { _fun00004_ip = 99; continue _fun00003 }
  91:
                     entity = report.lightPNG;
-                    _fun95627_ip = 105; continue _fun95627;
+                    _fun00004_ip = 105; continue _fun00003;
  99:
                     entity = report.darkPNG;
  105:
-                    _fun95627_ip = 122; continue _fun95627;
+                    _fun00004_ip = 122; continue _fun00003;
  107:
                     tango = _closure2_slot0;
                     tango = tango.icon;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = offset.color;
             offset = null;
             offset = offset != foxtrot;
-            if(!offset) { _fun95625_ip = 295; continue _fun95625 }
+            if(!offset) { _fun00002_ip = 295; continue _fun00001 }
  286:
             foxtrot = {};
             foxtrot['backgroundColor'] = backup;

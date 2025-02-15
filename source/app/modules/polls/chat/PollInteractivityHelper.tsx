@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: PollReferenceInflater
-        _fun72030: for(var _fun72030_ip = 0; ; ) switch(_fun72030_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.message;
@@ -51,10 +51,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = oscar.id;
             zulu[2] = yankee;
             mike = function() {
-                _fun72032: for(var _fun72032_ip = 0; ; ) switch(_fun72032_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun72032_ip = 70; continue _fun72032 }
+                    if(entity) { _fun00004_ip = 70; continue _fun00003 }
  10:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot7;
             mike = entity.Provider;
             entity = {};
-            if(!(options != golf)) { _fun72030_ip = 178; continue _fun72030 }
+            if(!(options != golf)) { _fun00002_ip = 178; continue _fun00001 }
  175:
             oscar = golf;
  178:
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/polls/chat/PollInteractivityHelper.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: PollInteractivityHelper
-        _fun72033: for(var _fun72033_ip = 0; ; ) switch(_fun72033_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             golf = entity.message;
@@ -142,14 +142,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isPollMessageDirectlyInteractive;
             entity = entity.bind(zulu)(golf);
             tango = _closure1_slot5;
-            if(entity) { _fun72033_ip = 78; continue _fun72033 }
+            if(entity) { _fun00006_ip = 78; continue _fun00005 }
  56:
             zulu = _closure1_slot8;
             entity = {};
             entity['message'] = golf;
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun72033_ip = 94; continue _fun72033;
+            _fun00006_ip = 94; continue _fun00005;
  78:
             zulu = _closure1_slot6;
             mike = {};
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: useInteractivePollMessage
-        _fun72034: for(var _fun72034_ip = 0; ; ) switch(_fun72034_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot3;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot7;
             tango = tango.bind(report)(mike);
             mike = null;
-            if(!(mike != tango)) { _fun72034_ip = 34; continue _fun72034 }
+            if(!(mike != tango)) { _fun00008_ip = 34; continue _fun00007 }
  31:
             entity = tango;
  34:

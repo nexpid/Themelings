@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun65642: for(var _fun65642_ip = 0; ; ) switch(_fun65642_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             offset = zulu.onClose;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot3;
             yankee = _closure1_slot0;
             foxtrot = _closure1_slot1;
-            if(report) { _fun65642_ip = 295; continue _fun65642 }
+            if(report) { _fun00002_ip = 295; continue _fun00001 }
  196:
             report = 10;
             report = foxtrot[report];
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.bind(sizing)(backup);
             report['children'] = backup;
             report = romeo.bind(tango)(golf, report);
-            _fun65642_ip = 331; continue _fun65642;
+            _fun00002_ip = 331; continue _fun00001;
  295:
             golf = 9;
             golf = foxtrot[golf];
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = yankee.isAndroid;
             report = report.bind(yankee)();
             yankee = null;
-            if(!report) { _fun65642_ip = 394; continue _fun65642 }
+            if(!report) { _fun00002_ip = 394; continue _fun00001 }
  391:
             yankee = golf;
  394:
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.isAndroid;
             options = options.bind(verify)();
             oscar = null;
-            if(options) { _fun65642_ip = 536; continue _fun65642 }
+            if(options) { _fun00002_ip = 536; continue _fun00001 }
  533:
             oscar = golf;
  536:

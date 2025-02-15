@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo, argBar, argBaz) { // Original name: getStickerAssetUrl
-        _fun85073: for(var _fun85073_ip = 0; ; ) switch(_fun85073_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             options = argBar;
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(report)(mike);
             mike = mike.StickerFormat;
             mike = mike.LOTTIE;
-            if(!(zulu !== mike)) { _fun85073_ip = 209; continue _fun85073 }
+            if(!(zulu !== mike)) { _fun00002_ip = 209; continue _fun00001 }
  59:
             zulu = tango.format_type;
             oscar = _closure1_slot0;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(report)(mike);
             mike = mike.StickerFormat;
             mike = mike.APNG;
-            if(!(zulu !== mike)) { _fun85073_ip = 161; continue _fun85073 }
+            if(!(zulu !== mike)) { _fun00002_ip = 161; continue _fun00001 }
  98:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(offset)(options);
             mike['size'] = golf;
             mike = zulu.bind(oscar)(tango, mike);
-            _fun85073_ip = 207; continue _fun85073;
+            _fun00002_ip = 207; continue _fun00001;
  161:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['size'] = options;
             mike = oscar.bind(golf)(tango, zulu);
  207:
-            _fun85073_ip = 240; continue _fun85073;
+            _fun00002_ip = 240; continue _fun00001;
  209:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             zulu = entity != mike;
             entity = '';
-            if(!zulu) { _fun85073_ip = 256; continue _fun85073 }
+            if(!zulu) { _fun00002_ip = 256; continue _fun00001 }
  253:
             entity = mike;
  256:
@@ -116,24 +116,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/stickers/native/Sticker.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: _default
-        _fun85074: for(var _fun85074_ip = 0; ; ) switch(_fun85074_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             offset = entity.sticker;
             verify = entity.size;
             report = entity.animated;
             tango = undefined;
-            if(!(report === tango)) { _fun85074_ip = 28; continue _fun85074 }
+            if(!(report === tango)) { _fun00004_ip = 28; continue _fun00003 }
  26:
             report = true;
  28:
             entity = entity.opaque;
-            if(!(entity === tango)) { _fun85074_ip = 40; continue _fun85074 }
+            if(!(entity === tango)) { _fun00004_ip = 40; continue _fun00003 }
  38:
             entity = true;
  40:
             golf = 0.3;
-            if(!entity) { _fun85074_ip = 56; continue _fun85074 }
+            if(!entity) { _fun00004_ip = 56; continue _fun00003 }
  53:
             golf = 1;
  56:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.LOTTIE;
-            if(!(mike !== entity)) { _fun85074_ip = 494; continue _fun85074 }
+            if(!(mike !== entity)) { _fun00004_ip = 494; continue _fun00003 }
  115:
             mike = offset.format_type;
             zulu = _closure1_slot0;
@@ -156,11 +156,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.StickerFormat;
             entity = entity.APNG;
-            if(!(mike === entity)) { _fun85074_ip = 343; continue _fun85074 }
+            if(!(mike === entity)) { _fun00004_ip = 343; continue _fun00003 }
  157:
             entity = 'type';
             entity = entity in offset;
-            if(!entity) { _fun85074_ip = 205; continue _fun85074 }
+            if(!entity) { _fun00004_ip = 205; continue _fun00003 }
  168:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.isGuildSticker;
             entity = entity.bind(mike)(offset);
-            if(!entity) { _fun85074_ip = 343; continue _fun85074 }
+            if(!entity) { _fun00004_ip = 343; continue _fun00003 }
  205:
             options = {};
             entity = {};
@@ -230,12 +230,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo.bind(foxtrot)(options);
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
-            if(options) { _fun85074_ip = 458; continue _fun85074 }
+            if(options) { _fun00004_ip = 458; continue _fun00003 }
  444:
             options = 11;
             options = backup[options];
             options = foxtrot.bind(tango)(options);
-            _fun85074_ip = 470; continue _fun85074;
+            _fun00004_ip = 470; continue _fun00003;
  458:
             romeo = 10;
             romeo = backup[romeo];
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             romeo = offset != yankee;
             offset = '';
-            if(!romeo) { _fun85074_ip = 545; continue _fun85074 }
+            if(!romeo) { _fun00004_ip = 545; continue _fun00003 }
  542:
             offset = yankee;
  545:
@@ -273,10 +273,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar[options];
             oscar = golf.bind(tango)(oscar);
             oscar = oscar.NativeLottieRenderMode;
-            if(report) { _fun85074_ip = 596; continue _fun85074 }
+            if(report) { _fun00004_ip = 596; continue _fun00003 }
  588:
             report = oscar.STILL;
-            _fun85074_ip = 602; continue _fun85074;
+            _fun00004_ip = 602; continue _fun00003;
  596:
             report = oscar.LOOP;
  602:

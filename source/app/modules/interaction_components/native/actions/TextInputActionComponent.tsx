@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/interaction_components/native/actions/TextInputActionComponent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TextInputActionComponent
-        _fun123846: for(var _fun123846_ip = 0; ; ) switch(_fun123846_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot5;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             yankee = mike != romeo;
             report = '';
-            if(!yankee) { _fun123846_ip = 85; continue _fun123846 }
+            if(!yankee) { _fun00002_ip = 85; continue _fun00001 }
  82:
             report = romeo;
  85:
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.useComponentState;
             yankee = mike != romeo;
             mike = undefined;
-            if(!yankee) { _fun123846_ip = 168; continue _fun123846 }
+            if(!yankee) { _fun00002_ip = 168; continue _fun00001 }
  155:
             yankee = {};
             yankee['type'] = update;
@@ -128,20 +128,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = update;
             zulu[1] = mike;
             mike = function() {
-                _fun123847: for(var _fun123847_ip = 0; ; ) switch(_fun123847_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot2;
                     entity = null;
                     zulu = entity == zulu;
                     entity = undefined;
                     tango = undefined;
-                    if(zulu) { _fun123847_ip = 29; continue _fun123847 }
+                    if(zulu) { _fun00004_ip = 29; continue _fun00003 }
  20:
                     zulu = _closure2_slot2;
                     tango = zulu.type;
  29:
                     zulu = _closure2_slot0;
-                    if(!(tango === zulu)) { _fun123847_ip = 55; continue _fun123847 }
+                    if(!(tango === zulu)) { _fun00004_ip = 55; continue _fun00003 }
  37:
                     zulu = _closure2_slot1;
                     mike = _closure2_slot2;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.bind(tango)(verify);
             verify = verify.TextInputComponentStyle;
             verify = verify.PARAGRAPH;
-            if(!(offset === verify)) { _fun123846_ip = 460; continue _fun123846 }
+            if(!(offset === verify)) { _fun00002_ip = 460; continue _fun00001 }
  457:
             oscar = 4;
  460:

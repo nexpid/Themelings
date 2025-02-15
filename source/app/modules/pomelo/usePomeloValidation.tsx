@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.AnalyticEvents;
     var _closure1_slot6 = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: usePomeloFormValidation
-        _fun94365: for(var _fun94365_ip = 0; ; ) switch(_fun94365_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = arguments[3];
             zulu = argBar;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = argBaz;
             var _closure2_slot1 = zulu;
             report = undefined;
-            if(!(entity === report)) { _fun94365_ip = 28; continue _fun94365 }
+            if(!(entity === report)) { _fun00002_ip = 28; continue _fun00001 }
  25:
             entity = 2;
  28:
@@ -88,12 +88,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot3;
             zulu = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun94368: for(var _fun94368_ip = 0; ; ) switch(_fun94368_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         mike = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zulu) { _fun94368_ip = 526; continue _fun94368 }
+                        if(zulu) { _fun00004_ip = 526; continue _fun00003 }
  13:
                         golf = mike;
                         zulu = undefined;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = undefined;
                         verify = mike.length;
                         options = _closure2_slot2;
-                        if(!(!(verify < options))) { _fun94368_ip = 363; continue _fun94368 }
+                        if(!(!(verify < options))) { _fun00004_ip = 363; continue _fun00003 }
  41: // try_start_0 // try_start_1
                         verify = _closure2_slot4;
                         options = true;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return golf;
  65:
                         ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                        if(options) { _fun94368_ip = 85; continue _fun94368 }
+                        if(options) { _fun00004_ip = 85; continue _fun00003 }
  71: // try_end0 // try_end1
                         verify = _closure2_slot4;
                         options = false;
@@ -142,23 +142,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = golf;
                         verify = golf.status;
                         golf = null;
-                        if(!(golf != verify)) { _fun94368_ip = 226; continue _fun94368 }
+                        if(!(golf != verify)) { _fun00004_ip = 226; continue _fun00003 }
  170:
                         verify = oscar;
                         offset = verify.status;
                         verify = 400;
-                        if(!(offset >= verify)) { _fun94368_ip = 226; continue _fun94368 }
+                        if(!(offset >= verify)) { _fun00004_ip = 226; continue _fun00003 }
  188:
                         verify = oscar;
                         offset = verify.status;
                         verify = 500;
-                        if(!(offset < verify)) { _fun94368_ip = 226; continue _fun94368 }
+                        if(!(offset < verify)) { _fun00004_ip = 226; continue _fun00003 }
  206:
                         verify = oscar;
                         oscar = verify.getAnyErrorMessage;
                         oscar = oscar.bind(verify)();
                         report = oscar;
-                        if(!(golf == oscar)) { _fun94368_ip = 283; continue _fun94368 }
+                        if(!(golf == oscar)) { _fun00004_ip = 283; continue _fun00003 }
  226:
                         offset = _closure1_slot0;
                         yankee = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = oscar.t;
                         oscar = oscar.ye0Rzs;
                         oscar = golf.bind(verify)(oscar);
-                        _fun94368_ip = 286; continue _fun94368;
+                        _fun00004_ip = 286; continue _fun00003;
  283:
                         oscar = report;
  286:

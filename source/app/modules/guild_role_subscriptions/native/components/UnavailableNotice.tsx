@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/UnavailableNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UnavailableNotice
-        _fun112050: for(var _fun112050_ip = 0; ; ) switch(_fun112050_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.title;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = romeo.joinCtaTitle;
             kilo = new Array(2);
             kilo[0] = output;
-            if(!sizing) { _fun112050_ip = 195; continue _fun112050 }
+            if(!sizing) { _fun00002_ip = 195; continue _fun00001 }
  189:
             sizing = romeo.brightTitle;
  195:

@@ -41,23 +41,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getRoleSubscriptionPlanId'] = tango;
     mike = function(argFoo) { // Original name: getRoleSubscriptionMutationPlanId
-        _fun96691: for(var _fun96691_ip = 0; ; ) switch(_fun96691_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = null;
             report = tango == mike;
             entity = undefined;
             zulu = undefined;
-            if(report) { _fun96691_ip = 37; continue _fun96691 }
+            if(report) { _fun00002_ip = 37; continue _fun00001 }
  16:
             mike = mike.renewalMutations;
             report = tango == mike;
             zulu = undefined;
-            if(report) { _fun96691_ip = 37; continue _fun96691 }
+            if(report) { _fun00002_ip = 37; continue _fun00001 }
  31:
             zulu = mike.items;
  37:
-            if(!(tango == zulu)) { _fun96691_ip = 43; continue _fun96691 }
+            if(!(tango == zulu)) { _fun00002_ip = 43; continue _fun00001 }
  41:
             return entity;
  43:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf.bind(entity)(oscar, report);
             tango = tango == zulu;
             entity = undefined;
-            if(tango) { _fun96691_ip = 108; continue _fun96691 }
+            if(tango) { _fun00002_ip = 108; continue _fun00001 }
  98:
             mike = zulu[mike];
             entity = mike.planId;

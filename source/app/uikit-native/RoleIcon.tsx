@@ -35,14 +35,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'uikit-native/RoleIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RoleIcon
-        _fun64870: for(var _fun64870_ip = 0; ; ) switch(_fun64870_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.source;
             options = entity.unicodeEmoji;
             mike = entity.size;
             report = undefined;
-            if(!(mike === report)) { _fun64870_ip = 28; continue _fun64870 }
+            if(!(mike === report)) { _fun00002_ip = 28; continue _fun00001 }
  25:
             mike = 20;
  28:
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['fontSize'] = mike;
             oscar['unicodeEmojiRoleIcon'] = entity;
             entity = null;
-            if(!(entity == golf)) { _fun64870_ip = 172; continue _fun64870 }
+            if(!(entity == golf)) { _fun00002_ip = 172; continue _fun00001 }
  76:
             mike = entity != options;
             entity = null;
-            if(!mike) { _fun64870_ip = 170; continue _fun64870 }
+            if(!mike) { _fun00002_ip = 170; continue _fun00001 }
  85:
             tango = _closure1_slot3;
             zulu = _closure1_slot0;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike['children'] = options;
             entity = tango.bind(report)(zulu, mike);
  170:
-            _fun64870_ip = 205; continue _fun64870;
+            _fun00002_ip = 205; continue _fun00001;
  172:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;

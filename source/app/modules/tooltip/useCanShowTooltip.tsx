@@ -32,19 +32,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/tooltip/useCanShowTooltip.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun103829: for(var _fun103829_ip = 0; ; ) switch(_fun103829_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             golf = arguments[1];
             options = arguments[2];
             var _closure2_slot0 = oscar;
             report = undefined;
-            if(!(golf === report)) { _fun103829_ip = 23; continue _fun103829 }
+            if(!(golf === report)) { _fun00002_ip = 23; continue _fun00001 }
  21:
             golf = false;
  23:
             var _closure2_slot1 = golf;
-            if(!(options === report)) { _fun103829_ip = 33; continue _fun103829 }
+            if(!(options === report)) { _fun00002_ip = 33; continue _fun00001 }
  31:
             options = true;
  33:
@@ -59,13 +59,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = entity;
             entity = function() {
-                _fun103830: for(var _fun103830_ip = 0; ; ) switch(_fun103830_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot4;
                     zulu = tango.canShowTooltip;
                     entity = _closure2_slot0;
                     entity = zulu.bind(tango)(entity);
-                    if(!entity) { _fun103830_ip = 32; continue _fun103830 }
+                    if(!entity) { _fun00004_ip = 32; continue _fun00003 }
  28:
                     entity = _closure2_slot2;
  32:
@@ -80,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = golf;
             zulu[2] = oscar;
             mike = function() {
-                _fun103831: for(var _fun103831_ip = 0; ; ) switch(_fun103831_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun103831_ip = 55; continue _fun103831 }
+                    if(!mike) { _fun00006_ip = 55; continue _fun00005 }
  10:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;

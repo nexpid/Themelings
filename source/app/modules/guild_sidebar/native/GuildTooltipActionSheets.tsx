@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: GuildTooltipActionSheets
-        _fun115960: for(var _fun115960_ip = 0; ; ) switch(_fun115960_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(tango)(zulu);
             zulu = options.useCanSeeNUFChannelsForGuild;
             zulu = zulu.bind(options)(mike);
-            if(!entity) { _fun115960_ip = 73; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 73; continue _fun00001 }
  70:
             entity = zulu;
  73:
-            if(!entity) { _fun115960_ip = 118; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 118; continue _fun00001 }
  76:
             zulu = golf.push;
             options = _closure1_slot0;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.useCanSeeCreatorMonetizationOnboardingV2Upsell;
             entity = entity.bind(zulu)(mike);
-            if(!entity) { _fun115960_ip = 194; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 194; continue _fun00001 }
  152:
             zulu = golf.push;
             options = _closure1_slot0;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = options[entity];
             entity = zulu.bind(tango)(entity);
             entity = entity.bind(tango)(mike);
-            if(!entity) { _fun115960_ip = 264; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 264; continue _fun00001 }
  222:
             zulu = golf.push;
             options = _closure1_slot0;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.useCanUseRoleSubscriptionIAP;
             entity = entity.bind(zulu)(mike);
-            if(!entity) { _fun115960_ip = 340; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 340; continue _fun00001 }
  298:
             zulu = golf.push;
             options = _closure1_slot0;
@@ -115,10 +115,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(zulu);
             zulu = verify.useIsSafetyConsumerEducationBlockMuteBucket;
             zulu = zulu.bind(verify)();
-            if(!entity) { _fun115960_ip = 516; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 516; continue _fun00001 }
  429:
             entity = 1;
-            if(!(entity !== zulu)) { _fun115960_ip = 477; continue _fun115960 }
+            if(!(entity !== zulu)) { _fun00002_ip = 477; continue _fun00001 }
  436:
             zulu = golf.push;
             verify = _closure1_slot0;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.DismissibleContent;
             entity = entity.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
             entity = zulu.bind(golf)(entity);
-            _fun115960_ip = 516; continue _fun115960;
+            _fun00002_ip = 516; continue _fun00001;
  477:
             zulu = golf.push;
             verify = _closure1_slot0;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = verify[entity];
             entity = zulu.bind(tango)(entity);
             entity = entity.bind(tango)(mike);
-            if(!entity) { _fun115960_ip = 583; continue _fun115960 }
+            if(!entity) { _fun00002_ip = 583; continue _fun00001 }
  544:
             mike = golf.push;
             zulu = _closure1_slot0;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.GUILD_HEADER_TOOLTIPS;
             entity['groupName'] = oscar;
             report = function(argFoo) { // Original name: children
-                _fun115961: for(var _fun115961_ip = 0; ; ) switch(_fun115961_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     mike = entity.visibleContent;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.GUILD_HEADER_ROLE_SUBSCRIPTION_UPSELL;
-                    if(!(entity !== mike)) { _fun115961_ip = 831; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 831; continue _fun00003 }
  65:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.GUILD_ROLE_SUBSCRIPTION_IAP_UPSELL;
-                    if(!(entity !== mike)) { _fun115961_ip = 757; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 757; continue _fun00003 }
  101:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.ACTIVITIES_MOBILE_NUX;
-                    if(!(entity !== mike)) { _fun115961_ip = 659; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 659; continue _fun00003 }
  137:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.CREATOR_MONETIZATION_ONBOARDING_V2_UPSELL;
-                    if(!(entity !== mike)) { _fun115961_ip = 585; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 585; continue _fun00003 }
  173:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
-                    if(!(entity !== mike)) { _fun115961_ip = 522; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 522; continue _fun00003 }
  209:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
-                    if(!(entity !== mike)) { _fun115961_ip = 459; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 459; continue _fun00003 }
  245:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.SERVER_SUBSCRIPTION_TIER_TEMPLATE_UPSELL;
-                    if(!(entity !== mike)) { _fun115961_ip = 385; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 385; continue _fun00003 }
  278:
                     zulu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.NUX_GUILD_CHANNEL_EXPLAINER;
-                    if(!(entity !== mike)) { _fun115961_ip = 315; continue _fun115961 }
+                    if(!(entity !== mike)) { _fun00004_ip = 315; continue _fun00003 }
  311:
                     entity = null;
                     return entity;
@@ -559,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_sidebar/native/GuildTooltipActionSheets.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GuildTooltipActionSheetsGuard
-        _fun115972: for(var _fun115972_ip = 0; ; ) switch(_fun115972_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = _closure1_slot4;
             tango = golf.useState;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             entity = oscar.bind(golf)(tango, entity);
             entity = null;
-            if(!zulu) { _fun115972_ip = 106; continue _fun115972 }
+            if(!zulu) { _fun00006_ip = 106; continue _fun00005 }
  80:
             tango = _closure1_slot6;
             zulu = _closure1_slot17;

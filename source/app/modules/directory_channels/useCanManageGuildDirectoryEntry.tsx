@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/directory_channels/useCanManageGuildDirectoryEntry.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useCanManageGuildDirectoryEntry
-        _fun78764: for(var _fun78764_ip = 0; ; ) switch(_fun78764_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -113,12 +113,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['isEntryAdmin'] = mike;
             tango = mike;
-            if(mike) { _fun78764_ip = 201; continue _fun78764 }
+            if(mike) { _fun00002_ip = 201; continue _fun00001 }
  198:
             tango = zulu;
  201:
             entity['canEdit'] = tango;
-            if(mike) { _fun78764_ip = 212; continue _fun78764 }
+            if(mike) { _fun00002_ip = 212; continue _fun00001 }
  209:
             mike = zulu;
  212:

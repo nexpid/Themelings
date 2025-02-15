@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = backup.bind(kilo)(foxtrot);
         golf['headerLeft'] = foxtrot;
         foxtrot = function(argFoo, argBar) { // Original name: render
-            _fun88719: for(var _fun88719_ip = 0; ; ) switch(_fun88719_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 golf = argFoo;
                 var _closure3_slot0 = golf;
@@ -94,11 +94,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 verify = oscar == golf;
                 options = undefined;
-                if(verify) { _fun88719_ip = 74; continue _fun88719 }
+                if(verify) { _fun00002_ip = 74; continue _fun00001 }
  68:
                 options = golf.reason;
  74:
-                if(!(oscar == options)) { _fun88719_ip = 91; continue _fun88719 }
+                if(!(oscar == options)) { _fun00002_ip = 91; continue _fun00001 }
  78:
                 golf = _closure2_slot0;
                 options = golf.reason;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = true;
                         entity['hideUnverifiedBanner'] = oscar;
                         oscar = function(argFoo) { // Original name: onSubmit
-                            _fun88722: for(var _fun88722_ip = 0; ; ) switch(_fun88722_ip) {
+                            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                                 zulu = _closure1_slot1;
                                 mike = _closure1_slot2;
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 golf = _closure3_slot0;
                                 entity = null;
                                 golf = entity == golf;
-                                if(golf) { _fun88722_ip = 64; continue _fun88722 }
+                                if(golf) { _fun00004_ip = 64; continue _fun00003 }
  54:
                                 oscar = _closure3_slot0;
                                 mike = oscar.reason;
  64:
-                                if(!(entity == mike)) { _fun88722_ip = 81; continue _fun88722 }
+                                if(!(entity == mike)) { _fun00004_ip = 81; continue _fun00003 }
  68:
                                 entity = _closure2_slot0;
                                 mike = entity.reason;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure2_slot0;
                 golf = golf.allowDeletePhone;
                 oscar = null;
-                if(!golf) { _fun88719_ip = 141; continue _fun88719 }
+                if(!golf) { _fun00002_ip = 141; continue _fun00001 }
  134:
                 oscar = function() {
                     tango = _closure3_slot1;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = true;
                     entity['hideUnverifiedBanner'] = oscar;
                     oscar = function(argFoo) { // Original name: onSubmit
-                        _fun88725: for(var _fun88725_ip = 0; ; ) switch(_fun88725_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             zulu = _closure1_slot1;
                             mike = _closure1_slot2;
@@ -202,12 +202,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = _closure3_slot0;
                             entity = null;
                             oscar = entity == oscar;
-                            if(oscar) { _fun88725_ip = 57; continue _fun88725 }
+                            if(oscar) { _fun00006_ip = 57; continue _fun00005 }
  47:
                             report = _closure3_slot0;
                             mike = report.reason;
  57:
-                            if(!(entity == mike)) { _fun88725_ip = 74; continue _fun88725 }
+                            if(!(entity == mike)) { _fun00006_ip = 74; continue _fun00005 }
  61:
                             entity = _closure2_slot0;
                             mike = entity.reason;
@@ -287,11 +287,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = undefined;
                 golf = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun88730: for(var _fun88730_ip = 0; ; ) switch(_fun88730_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                            if(zulu) { _fun88730_ip = 92; continue _fun88730 }
+                            if(zulu) { _fun00008_ip = 92; continue _fun00007 }
  7:
                             mike = argFoo;
  10: // try_start_0
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  75:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zulu) { _fun88730_ip = 84; continue _fun88730 }
+                            if(zulu) { _fun00008_ip = 84; continue _fun00007 }
  81: // try_end0
                             return mike;
  84:

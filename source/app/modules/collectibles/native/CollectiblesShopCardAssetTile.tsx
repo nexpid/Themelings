@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = options.bind(verify)(tango);
     var _closure1_slot8 = tango;
     tango = function(argFoo) { // Original name: PurchasedAssetOverlay
-        _fun99605: for(var _fun99605_ip = 0; ; ) switch(_fun99605_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.condensed;
@@ -112,10 +112,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.overlayContainer;
             oscar = new Array(2);
             oscar[0] = verify;
-            if(golf) { _fun99605_ip = 63; continue _fun99605 }
+            if(golf) { _fun00002_ip = 63; continue _fun00001 }
  55:
             golf = options.overlaySize;
-            _fun99605_ip = 69; continue _fun99605;
+            _fun00002_ip = 69; continue _fun00001;
  63:
             golf = options.condensedOverlaySize;
  69:
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'lg';
             report['size'] = verify;
             verify = 'black';
-            if(!offset) { _fun99605_ip = 128; continue _fun99605 }
+            if(!offset) { _fun00002_ip = 128; continue _fun00001 }
  124:
             verify = 'white';
  128:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = tango;
     tango = function(argFoo) { // Original name: Asset
-        _fun99606: for(var _fun99606_ip = 0; ; ) switch(_fun99606_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.product;
@@ -170,12 +170,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.bind(tango)(zulu);
             zulu = zulu.CollectiblesItemType;
             zulu = zulu.BUNDLE;
-            if(!(offset === zulu)) { _fun99606_ip = 121; continue _fun99606 }
+            if(!(offset === zulu)) { _fun00004_ip = 121; continue _fun00003 }
  108:
             zulu = null;
-            if(!(zulu != options)) { _fun99606_ip = 121; continue _fun99606 }
+            if(!(zulu != options)) { _fun00004_ip = 121; continue _fun00003 }
  114:
-            if(!(zulu == golf)) { _fun99606_ip = 330; continue _fun99606 }
+            if(!(zulu == golf)) { _fun00004_ip = 330; continue _fun00003 }
  121:
             offset = _closure1_slot3;
             zulu = mike.items;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(tango)(mike);
             mike = mike.CollectiblesItemType;
             mike = mike.AVATAR_DECORATION;
-            if(!(mike !== zulu)) { _fun99606_ip = 274; continue _fun99606 }
+            if(!(mike !== zulu)) { _fun00004_ip = 274; continue _fun00003 }
  184:
             offset = _closure1_slot0;
             mike = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(tango)(mike);
             mike = mike.CollectiblesItemType;
             mike = mike.PROFILE_EFFECT;
-            if(!(mike !== zulu)) { _fun99606_ip = 221; continue _fun99606 }
+            if(!(mike !== zulu)) { _fun00004_ip = 221; continue _fun00003 }
  217:
             mike = null;
             return mike;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['isPurchased'] = verify;
             mike['item'] = yankee;
             yankee = 120;
-            if(!oscar) { _fun99606_ip = 318; continue _fun99606 }
+            if(!oscar) { _fun00004_ip = 318; continue _fun00003 }
  315:
             yankee = 75;
  318:
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = tango;
     tango = function(argFoo) { // Original name: CondensedAssetTile
-        _fun99607: for(var _fun99607_ip = 0; ; ) switch(_fun99607_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             golf = entity.isDarkTheme;
@@ -269,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = verify;
             verify = options.condensedAssetContainer;
             oscar[1] = verify;
-            if(golf) { _fun99607_ip = 72; continue _fun99607 }
+            if(golf) { _fun00006_ip = 72; continue _fun00005 }
  64:
             golf = options.assetContainerLightBackground;
-            _fun99607_ip = 78; continue _fun99607;
+            _fun00006_ip = 78; continue _fun00005;
  72:
             golf = options.assetContainerDarkBackground;
  78:
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = tango;
     tango = function(argFoo) { // Original name: RegularAssetTile
-        _fun99608: for(var _fun99608_ip = 0; ; ) switch(_fun99608_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             entity = mike.product;
@@ -306,10 +306,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.assetContainer;
             oscar = new Array(4);
             oscar[0] = offset;
-            if(golf) { _fun99608_ip = 93; continue _fun99608 }
+            if(golf) { _fun00008_ip = 93; continue _fun00007 }
  85:
             golf = yankee.assetContainerLightBackground;
-            _fun99608_ip = 99; continue _fun99608;
+            _fun00008_ip = 99; continue _fun00007;
  93:
             golf = yankee.assetContainerDarkBackground;
  99:
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.CollectiblesItemType;
             golf = golf.PROFILE_EFFECT;
             golf = romeo === golf;
-            if(!golf) { _fun99608_ip = 153; continue _fun99608 }
+            if(!golf) { _fun00008_ip = 153; continue _fun00007 }
  147:
             golf = yankee.profileEffectAssetContainer;
  153:
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.AVATAR_DECORATION;
             options = '100%';
             verify = options;
-            if(!(yankee === offset)) { _fun99608_ip = 209; continue _fun99608 }
+            if(!(yankee === offset)) { _fun00008_ip = 209; continue _fun00007 }
  206:
             verify = 140;
  209:
@@ -354,14 +354,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun99609: for(var _fun99609_ip = 0; ; ) switch(_fun99609_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             mike = argFoo;
             backup = mike.product;
             foxtrot = mike.isDarkTheme;
             entity = mike.condensed;
             mike = mike.isPurchased;
-            if(entity) { _fun99609_ip = 159; continue _fun99609 }
+            if(entity) { _fun00010_ip = 159; continue _fun00009 }
  36:
             report = _closure1_slot6;
             tango = _closure1_slot12;
@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['product'] = backup;
             zulu['isDarkTheme'] = foxtrot;
             entity = mike;
-            if(!mike) { _fun99609_ip = 92; continue _fun99609 }
+            if(!mike) { _fun00010_ip = 92; continue _fun00009 }
  62:
             verify = _closure1_slot5;
             options = _closure1_slot9;
@@ -395,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = golf;
             zulu['children'] = oscar;
             entity = report.bind(entity)(tango, zulu);
-            _fun99609_ip = 297; continue _fun99609;
+            _fun00010_ip = 297; continue _fun00009;
  159:
             report = _closure1_slot5;
             tango = _closure1_slot7;
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['product'] = backup;
             oscar['isDarkTheme'] = foxtrot;
             yankee = mike;
-            if(!yankee) { _fun99609_ip = 225; continue _fun99609 }
+            if(!yankee) { _fun00010_ip = 225; continue _fun00009 }
  195:
             sizing = _closure1_slot5;
             kilo = _closure1_slot9;

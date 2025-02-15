@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['VoiceActivityNotificationUserExperiment'] = report;
     zulu['VoiceActivityNotificationGuildExperiment'] = tango;
     tango = function(argFoo) { // Original name: useVoiceActivityNotificationSettingsExperiment
-        _fun86800: for(var _fun86800_ip = 0; ; ) switch(_fun86800_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             verify = _closure1_slot3;
@@ -78,12 +78,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = null;
             offset = oscar == report;
             zulu = undefined;
-            if(offset) { _fun86800_ip = 47; continue _fun86800 }
+            if(offset) { _fun00002_ip = 47; continue _fun00001 }
  37:
             offset = report.getGuildId;
             zulu = offset.bind(report)();
  47:
-            if(!(oscar == zulu)) { _fun86800_ip = 55; continue _fun86800 }
+            if(!(oscar == zulu)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             zulu = _closure1_slot1;
  55:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = {};
             offset = oscar == report;
             yankee = undefined;
-            if(offset) { _fun86800_ip = 75; continue _fun86800 }
+            if(offset) { _fun00002_ip = 75; continue _fun00001 }
  70:
             yankee = report.type;
  75:
@@ -110,14 +110,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = {};
             offset = oscar == report;
             yankee = undefined;
-            if(offset) { _fun86800_ip = 145; continue _fun86800 }
+            if(offset) { _fun00002_ip = 145; continue _fun00001 }
  140:
             yankee = report.type;
  145:
             offset = _closure1_slot0;
             offset = offset.GUILD_VOICE;
             offset = yankee !== offset;
-            if(offset) { _fun86800_ip = 165; continue _fun86800 }
+            if(offset) { _fun00002_ip = 165; continue _fun00001 }
  162:
             offset = !zulu;
  165:
@@ -128,18 +128,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.enabled;
             oscar = oscar == report;
             tango = undefined;
-            if(oscar) { _fun86800_ip = 202; continue _fun86800 }
+            if(oscar) { _fun00002_ip = 202; continue _fun00001 }
  197:
             tango = report.type;
  202:
             entity = _closure1_slot0;
             entity = entity.GUILD_VOICE;
             entity = tango === entity;
-            if(!entity) { _fun86800_ip = 222; continue _fun86800 }
+            if(!entity) { _fun00002_ip = 222; continue _fun00001 }
  219:
             entity = zulu;
  222:
-            if(!entity) { _fun86800_ip = 228; continue _fun86800 }
+            if(!entity) { _fun00002_ip = 228; continue _fun00001 }
  225:
             entity = mike;
  228:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useVoiceActivityNotificationSettingsExperiment'] = tango;
     mike = function(argFoo) { // Original name: hasVoiceChannelActivityNotifsEnabled
-        _fun86801: for(var _fun86801_ip = 0; ; ) switch(_fun86801_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             options = argFoo;
             zulu = _closure1_slot3;
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = null;
             golf = oscar == options;
             tango = undefined;
-            if(golf) { _fun86801_ip = 39; continue _fun86801 }
+            if(golf) { _fun00004_ip = 39; continue _fun00003 }
  29:
             golf = options.getGuildId;
             tango = golf.bind(options)();
  39:
-            if(!(oscar == tango)) { _fun86801_ip = 47; continue _fun86801 }
+            if(!(oscar == tango)) { _fun00004_ip = 47; continue _fun00003 }
  43:
             tango = _closure1_slot1;
  47:

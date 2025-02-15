@@ -13,11 +13,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun98748: for(var _fun98748_ip = 0; ; ) switch(_fun98748_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun98748_ip = 138; continue _fun98748 }
+                    if(mike) { _fun00002_ip = 138; continue _fun00001 }
  10: // try_start_0
                     tango = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     mike = null;
                     tango = mike == tango;
                     mike = undefined;
-                    if(tango) { _fun98748_ip = 75; continue _fun98748 }
+                    if(tango) { _fun00002_ip = 75; continue _fun00001 }
  46:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -42,9 +42,9 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     return mike;
  79:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun98748_ip = 87; continue _fun98748 }
+                    if(zulu) { _fun00002_ip = 87; continue _fun00001 }
  85: // try_end0
-                    _fun98748_ip = 133; continue _fun98748;
+                    _fun00002_ip = 133; continue _fun00001;
  87:
                     return mike;
  90: // catch_target0
@@ -112,7 +112,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/feedback/native/requestReviewModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: requestReviewModal
-        _fun98749: for(var _fun98749_ip = 0; ; ) switch(_fun98749_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -122,13 +122,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun98749_ip = 61; continue _fun98749 }
+            if(zulu) { _fun00004_ip = 61; continue _fun00003 }
  37:
             mike = _closure1_slot4;
             zulu = mike.AppStoreManager;
             mike = zulu.requestReview;
             mike = mike.bind(zulu)();
-            _fun98749_ip = 74; continue _fun98749;
+            _fun00004_ip = 74; continue _fun00003;
  61:
             mike = function() { // Original name: showAndroidRatingRequest
                 entity = undefined;

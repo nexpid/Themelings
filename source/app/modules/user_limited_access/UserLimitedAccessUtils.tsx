@@ -24,29 +24,29 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user_limited_access/UserLimitedAccessUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: isLimitedAccessErrorCode
-        _fun72798: for(var _fun72798_ip = 0; ; ) switch(_fun72798_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             entity = 400;
             entity = tango >= entity;
-            if(!entity) { _fun72798_ip = 29; continue _fun72798 }
+            if(!entity) { _fun00002_ip = 29; continue _fun00001 }
  19:
             mike = 500;
             entity = tango < mike;
  29:
-            if(!entity) { _fun72798_ip = 38; continue _fun72798 }
+            if(!entity) { _fun00002_ip = 38; continue _fun00001 }
  32:
             mike = null;
             entity = mike != zulu;
  38:
-            if(!entity) { _fun72798_ip = 58; continue _fun72798 }
+            if(!entity) { _fun00002_ip = 58; continue _fun00001 }
  41:
             mike = _closure1_slot0;
             mike = mike.USER_LIMITED_ACCESS_DEFAULT;
             entity = zulu >= mike;
  58:
-            if(!entity) { _fun72798_ip = 78; continue _fun72798 }
+            if(!entity) { _fun00002_ip = 78; continue _fun00001 }
  61:
             mike = _closure1_slot0;
             mike = mike.USER_LIMITED_ACCESS_MAX;

@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/messages/native/renderer/rows/Loading.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: Loading
-        _fun72714: for(var _fun72714_ip = 0; ; ) switch(_fun72714_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.row;
@@ -87,11 +87,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = golf;
             zulu = _closure1_slot4;
             zulu = zulu.LOAD_BEFORE;
-            if(!(options !== zulu)) { _fun72714_ip = 110; continue _fun72714 }
+            if(!(options !== zulu)) { _fun00002_ip = 110; continue _fun00001 }
  98:
             zulu = _closure1_slot6;
             yankee = zulu.LOAD_MORE_AFTER;
-            _fun72714_ip = 120; continue _fun72714;
+            _fun00002_ip = 120; continue _fun00001;
  110:
             zulu = _closure1_slot6;
             yankee = zulu.LOAD_MORE_BEFORE;
@@ -129,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['id'] = options;
             entity['button'] = oscar;
-            if(report) { _fun72714_ip = 214; continue _fun72714 }
+            if(report) { _fun00002_ip = 214; continue _fun00001 }
  206:
             oscar = golf.loadButtonColor;
-            _fun72714_ip = 220; continue _fun72714;
+            _fun00002_ip = 220; continue _fun00001;
  214:
             oscar = golf.loadingColor;
  220:
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['default'] = report;
     zulu['resolveBaseColors'] = tango;
     mike = function(argFoo, argBar) { // Original name: generateLoadingRowData
-        _fun72716: for(var _fun72716_ip = 0; ; ) switch(_fun72716_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = entity.rowType;
@@ -158,11 +158,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.bind(report)(entity);
             entity = _closure1_slot4;
             entity = entity.LOAD_BEFORE;
-            if(!(tango !== entity)) { _fun72716_ip = 69; continue _fun72716 }
+            if(!(tango !== entity)) { _fun00004_ip = 69; continue _fun00003 }
  57:
             entity = _closure1_slot6;
             options = entity.LOAD_MORE_AFTER;
-            _fun72716_ip = 79; continue _fun72716;
+            _fun00004_ip = 79; continue _fun00003;
  69:
             entity = _closure1_slot6;
             options = entity.LOAD_MORE_BEFORE;
@@ -182,10 +182,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['cornerRadius'] = golf;
             tango['text'] = oscar;
             entity['button'] = tango;
-            if(mike) { _fun72716_ip = 149; continue _fun72716 }
+            if(mike) { _fun00004_ip = 149; continue _fun00003 }
  141:
             tango = report.loadButtonColor;
-            _fun72716_ip = 155; continue _fun72716;
+            _fun00004_ip = 155; continue _fun00003;
  149:
             tango = report.loadingColor;
  155:

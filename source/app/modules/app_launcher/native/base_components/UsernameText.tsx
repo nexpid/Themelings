@@ -38,19 +38,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/native/base_components/UsernameText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UsernameText
-        _fun119262: for(var _fun119262_ip = 0; ; ) switch(_fun119262_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.user;
             oscar = entity.guildId;
             zulu = entity.variant;
             tango = undefined;
-            if(!(zulu === tango)) { _fun119262_ip = 28; continue _fun119262 }
+            if(!(zulu === tango)) { _fun00002_ip = 28; continue _fun00001 }
  24:
             zulu = 'text-md/medium';
  28:
             entity = entity.color;
-            if(!(entity === tango)) { _fun119262_ip = 43; continue _fun119262 }
+            if(!(entity === tango)) { _fun00002_ip = 43; continue _fun00001 }
  37:
             entity = 'text-normal';
  43:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = null;
             yankee = zulu.bind(report)(oscar, entity, mike);
             report = entity != yankee;
-            if(!report) { _fun119262_ip = 111; continue _fun119262 }
+            if(!report) { _fun00002_ip = 111; continue _fun00001 }
  98:
             entity = mike.toString;
             entity = entity.bind(mike)();
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  111:
             entity = mike.isPomelo;
             entity = entity.bind(mike)();
-            if(entity) { _fun119262_ip = 257; continue _fun119262 }
+            if(entity) { _fun00002_ip = 257; continue _fun00001 }
  127:
             oscar = _closure1_slot2;
             zulu = _closure1_slot3;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf[1] = options;
             entity['children'] = golf;
             romeo = oscar.bind(tango)(zulu, entity);
-            _fun119262_ip = 266; continue _fun119262;
+            _fun00002_ip = 266; continue _fun00001;
  257:
             entity = mike.toString;
             romeo = entity.bind(mike)();
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             sizing = foxtrot;
             oscar = copyDataProperties(output, sizing);
             oscar = romeo;
-            if(!report) { _fun119262_ip = 442; continue _fun119262 }
+            if(!report) { _fun00002_ip = 442; continue _fun00001 }
  316:
             options = _closure1_slot2;
             golf = _closure1_slot3;

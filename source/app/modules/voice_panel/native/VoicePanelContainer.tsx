@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun121413: for(var _fun121413_ip = 0; ; ) switch(_fun121413_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot4;
                 mike = zulu.getChannel;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun121413_ip = 45; continue _fun121413 }
+                if(zulu) { _fun00002_ip = 45; continue _fun00001 }
  40:
                 entity = mike.guild_id;
  45:

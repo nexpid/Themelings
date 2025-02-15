@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/pomelo/useUsernameStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun94479: for(var _fun94479_ip = 0; ; ) switch(_fun94479_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             offset = arguments[1];
@@ -39,15 +39,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = arguments[3];
             var _closure2_slot0 = golf;
             verify = undefined;
-            if(!(offset === verify)) { _fun94479_ip = 26; continue _fun94479 }
+            if(!(offset === verify)) { _fun00002_ip = 26; continue _fun00001 }
  24:
             offset = true;
  26:
-            if(!(options === verify)) { _fun94479_ip = 32; continue _fun94479 }
+            if(!(options === verify)) { _fun00002_ip = 32; continue _fun00001 }
  30:
             options = false;
  32:
-            if(!(oscar === verify)) { _fun94479_ip = 38; continue _fun94479 }
+            if(!(oscar === verify)) { _fun00002_ip = 38; continue _fun00001 }
  36:
             oscar = undefined;
  38:
@@ -78,25 +78,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = golf;
             zulu[2] = oscar;
             mike = function() {
-                _fun94480: for(var _fun94480_ip = 0; ; ) switch(_fun94480_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = '';
-                    if(!(mike !== zulu)) { _fun94480_ip = 54; continue _fun94480 }
+                    if(!(mike !== zulu)) { _fun00004_ip = 54; continue _fun00003 }
  15:
                     zulu = _closure2_slot0;
                     mike = _closure2_slot1;
-                    if(!(zulu !== mike)) { _fun94480_ip = 54; continue _fun94480 }
+                    if(!(zulu !== mike)) { _fun00004_ip = 54; continue _fun00003 }
  27:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike != zulu)) { _fun94480_ip = 65; continue _fun94480 }
+                    if(!(mike != zulu)) { _fun00004_ip = 65; continue _fun00003 }
  37:
                     tango = _closure2_slot3;
                     zulu = _closure2_slot2;
                     mike = undefined;
                     mike = tango.bind(mike)(zulu);
-                    _fun94480_ip = 65; continue _fun94480;
+                    _fun00004_ip = 65; continue _fun00003;
  54:
                     mike = _closure2_slot3;
                     entity = undefined;

@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/ForumDisplaySettingsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumDisplaySettingsActionSheet
-        _fun102091: for(var _fun102091_ip = 0; ; ) switch(_fun102091_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -204,21 +204,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = source;
             mike[2] = romeo;
             entity = function() {
-                _fun102093: for(var _fun102093_ip = 0; ; ) switch(_fun102093_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot7;
                     tango = _closure2_slot3;
                     entity = null;
                     tango = entity == tango;
                     entity = undefined;
-                    if(tango) { _fun102093_ip = 36; continue _fun102093 }
+                    if(tango) { _fun00004_ip = 36; continue _fun00003 }
  22:
                     report = _closure2_slot3;
                     tango = report.getDefaultSortOrder;
                     entity = tango.bind(report)();
  36:
                     entity = zulu === entity;
-                    if(!entity) { _fun102093_ip = 65; continue _fun102093 }
+                    if(!entity) { _fun00004_ip = 65; continue _fun00003 }
  43:
                     zulu = _closure2_slot9;
                     tango = _closure2_slot3;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = zulu.bind(tango)(entity, mike);
             entity = null;
             mike = entity == yankee;
-            if(mike) { _fun102091_ip = 1455; continue _fun102091 }
+            if(mike) { _fun00002_ip = 1455; continue _fun00001 }
  262:
             tango = _closure1_slot8;
             echo = _closure1_slot0;
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = offset;
             offset = yankee.isForumChannel;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun102091_ip = 1188; continue _fun102091 }
+            if(!offset) { _fun00002_ip = 1188; continue _fun00001 }
  797:
             backup = _closure1_slot10;
             romeo = _closure1_slot9;
@@ -530,11 +530,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = source.bind(sequence)(update);
             foxtrot['text'] = update;
             update = function() { // Original name: onPress
-                _fun102098: for(var _fun102098_ip = 0; ; ) switch(_fun102098_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot4;
                     mike = _closure2_slot7;
-                    if(!(zulu !== mike)) { _fun102098_ip = 84; continue _fun102098 }
+                    if(!(zulu !== mike)) { _fun00006_ip = 84; continue _fun00005 }
  15:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -555,7 +555,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  84:
                     zulu = _closure2_slot5;
                     mike = _closure2_slot9;
-                    if(!(zulu !== mike)) { _fun102098_ip = 165; continue _fun102098 }
+                    if(!(zulu !== mike)) { _fun00006_ip = 165; continue _fun00005 }
  96:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;

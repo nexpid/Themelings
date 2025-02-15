@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/ShinyButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShinyButton
-        _fun57445: for(var _fun57445_ip = 0; ; ) switch(_fun57445_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             verify = oscar.style;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = entity;
             entity = oscar.shineDisabled;
             tango = undefined;
-            if(!(entity === tango)) { _fun57445_ip = 43; continue _fun57445 }
+            if(!(entity === tango)) { _fun00002_ip = 43; continue _fun00001 }
  41:
             entity = false;
  43:
@@ -149,11 +149,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(tango)(mike);
             zulu = yankee.useAnimatedStyle;
             mike = function() { // Original name: T
-                _fun57448: for(var _fun57448_ip = 0; ; ) switch(_fun57448_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot6;
                     entity = null;
-                    if(!(entity != zulu)) { _fun57448_ip = 218; continue _fun57448 }
+                    if(!(entity != zulu)) { _fun00004_ip = 218; continue _fun00003 }
  16:
                     entity = {};
                     zulu = {};
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(1);
                     mike[0] = zulu;
                     entity['transform'] = mike;
-                    _fun57448_ip = 248; continue _fun57448;
+                    _fun00004_ip = 248; continue _fun00003;
  218:
                     mike = {};
                     tango = {};
@@ -263,23 +263,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'disabled';
             entity[oscar] = golf;
             oscar = function() { // Original name: renderShine
-                _fun57449: for(var _fun57449_ip = 0; ; ) switch(_fun57449_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(mike) { _fun57449_ip = 244; continue _fun57449 }
+                    if(mike) { _fun00006_ip = 244; continue _fun00005 }
  15:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(mike) { _fun57449_ip = 244; continue _fun57449 }
+                    if(mike) { _fun00006_ip = 244; continue _fun00005 }
  27:
                     mike = _closure2_slot8;
                     entity = null;
-                    if(mike) { _fun57449_ip = 244; continue _fun57449 }
+                    if(mike) { _fun00006_ip = 244; continue _fun00005 }
  39:
                     mike = _closure2_slot2;
                     entity = null;
-                    if(mike) { _fun57449_ip = 244; continue _fun57449 }
+                    if(mike) { _fun00006_ip = 244; continue _fun00005 }
  51:
                     report = _closure1_slot6;
                     verify = _closure1_slot1;

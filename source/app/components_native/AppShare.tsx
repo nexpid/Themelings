@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/AppShare.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppShare
-        _fun127923: for(var _fun127923_ip = 0; ; ) switch(_fun127923_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argFoo;
             var _closure2_slot0 = romeo;
@@ -117,14 +117,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = mike.attachments;
                 zulu = tango.map;
                 mike = function(argFoo) {
-                    _fun127925: for(var _fun127925_ip = 0; ; ) switch(_fun127925_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
                         mike = entity.mimeType;
                         entity = null;
                         zulu = entity != mike;
                         entity = 'unknown';
-                        if(!zulu) { _fun127925_ip = 25; continue _fun127925 }
+                        if(!zulu) { _fun00004_ip = 25; continue _fun00003 }
  22:
                         entity = mike;
  25:
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'old-share';
             entity['appEntryKey'] = golf;
             verify = _closure1_slot5;
-            if(report) { _fun127923_ip = 140; continue _fun127923 }
+            if(report) { _fun00002_ip = 140; continue _fun00001 }
  104:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.SceneLoadingIndicator;
             report = {};
             golf = verify.bind(tango)(golf, report);
-            _fun127923_ip = 207; continue _fun127923;
+            _fun00002_ip = 207; continue _fun00001;
  140:
             options = _closure1_slot3;
             report = {};

@@ -79,14 +79,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionTierConfirmationModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionTierConfirmationModal
-        _fun127262: for(var _fun127262_ip = 0; ; ) switch(_fun127262_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             result = report.onDone;
             var _closure2_slot0 = result;
             golf = report.isForGroupSetupModal;
             tango = undefined;
-            if(!(golf === tango)) { _fun127262_ip = 29; continue _fun127262 }
+            if(!(golf === tango)) { _fun00002_ip = 29; continue _fun00001 }
  27:
             golf = false;
  29:
@@ -140,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun127264: for(var _fun127264_ip = 0; ; ) switch(_fun127264_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun127264_ip = 89; continue _fun127264 }
+                        if(mike) { _fun00004_ip = 89; continue _fun00003 }
  7: // try_start_0
                         tango = _closure2_slot1;
                         report = undefined;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  35:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun127264_ip = 55; continue _fun127264 }
+                        if(tango) { _fun00004_ip = 55; continue _fun00003 }
  41: // try_end0
                         oscar = _closure2_slot1;
                         tango = false;
@@ -220,13 +220,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             lima = entity;
             sierra = oscar;
             oscar = copyDataProperties(lima, sierra);
-            if(!golf) { _fun127262_ip = 802; continue _fun127262 }
+            if(!golf) { _fun00002_ip = 802; continue _fun00001 }
  417:
             yankee = _closure1_slot10;
             options = _closure1_slot9;
             oscar = {};
             foxtrot = romeo != record;
-            if(!foxtrot) { _fun127262_ip = 631; continue _fun127262 }
+            if(!foxtrot) { _fun00002_ip = 631; continue _fun00001 }
  437:
             result = _closure1_slot10;
             kilo = _closure1_slot9;

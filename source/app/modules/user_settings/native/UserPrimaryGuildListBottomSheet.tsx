@@ -1,6 +1,6 @@
 // app/modules/user_settings/native/UserPrimaryGuildListBottomSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun93316: for(var _fun93316_ip = 0; ; ) switch(_fun93316_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = kilo.isAndroid;
         kilo = foxtrot.bind(kilo)();
         foxtrot = 18;
-        if(!kilo) { _fun93316_ip = 411; continue _fun93316 }
+        if(!kilo) { _fun00002_ip = 411; continue _fun00001 }
  408:
         foxtrot = backup;
  411:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot9 = golf;
         options = verify.memo;
         golf = function(argFoo) {
-            _fun93317: for(var _fun93317_ip = 0; ; ) switch(_fun93317_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 offset = entity.item;
@@ -134,12 +134,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = null;
                 entity = options == offset;
                 sizing = undefined;
-                if(entity) { _fun93317_ip = 64; continue _fun93317 }
+                if(entity) { _fun00004_ip = 64; continue _fun00003 }
  58:
                 sizing = offset.profile;
  64:
                 kilo = options != offset;
-                if(!kilo) { _fun93317_ip = 134; continue _fun93317 }
+                if(!kilo) { _fun00004_ip = 134; continue _fun00003 }
  71:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = offset.id;
                 entity = options == sizing;
                 mike = undefined;
-                if(entity) { _fun93317_ip = 117; continue _fun93317 }
+                if(entity) { _fun00004_ip = 117; continue _fun00003 }
  111:
                 mike = sizing.badge;
  117:
@@ -167,25 +167,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = entity.FormRow;
                 entity = {};
                 report = function() { // Original name: onPress
-                    _fun93318: for(var _fun93318_ip = 0; ; ) switch(_fun93318_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot2;
                         tango = _closure2_slot1;
                         entity = null;
                         mike = null;
-                        if(tango) { _fun93318_ip = 55; continue _fun93318 }
+                        if(tango) { _fun00006_ip = 55; continue _fun00005 }
  18:
                         tango = _closure2_slot0;
                         oscar = entity == tango;
                         tango = undefined;
-                        if(oscar) { _fun93318_ip = 40; continue _fun93318 }
+                        if(oscar) { _fun00006_ip = 40; continue _fun00005 }
  31:
                         report = _closure2_slot0;
                         tango = report.id;
  40:
                         report = entity != tango;
                         entity = null;
-                        if(!report) { _fun93318_ip = 52; continue _fun93318 }
+                        if(!report) { _fun00006_ip = 52; continue _fun00005 }
  49:
                         entity = tango;
  52:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     }
                 };
                 entity['onPress'] = report;
-                if(!(options == offset)) { _fun93317_ip = 238; continue _fun93317 }
+                if(!(options == offset)) { _fun00004_ip = 238; continue _fun00003 }
  181:
                 yankee = _closure1_slot0;
                 backup = _closure1_slot2;
@@ -218,14 +218,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report.t;
                 report = report.PoWNfX;
                 report = oscar.bind(golf)(report);
-                _fun93317_ip = 243; continue _fun93317;
+                _fun00004_ip = 243; continue _fun00003;
  238:
                 report = offset.name;
  243:
                 entity['label'] = report;
                 oscar = options != offset;
                 report = null;
-                if(!oscar) { _fun93317_ip = 331; continue _fun93317 }
+                if(!oscar) { _fun00004_ip = 331; continue _fun00003 }
  256:
                 yankee = _closure1_slot7;
                 golf = _closure1_slot1;
@@ -246,10 +246,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = yankee.bind(tango)(golf, oscar);
  331:
                 entity['leading'] = report;
-                if(romeo) { _fun93317_ip = 346; continue _fun93317 }
+                if(romeo) { _fun00004_ip = 346; continue _fun00003 }
  339:
                 report = output.container;
-                _fun93317_ip = 352; continue _fun93317;
+                _fun00004_ip = 352; continue _fun00003;
  346:
                 report = output.containerPressed;
  352:
@@ -260,11 +260,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = output.itemTrailingStyle;
                 report['style'] = yankee;
                 offset = options != offset;
-                if(!offset) { _fun93317_ip = 388; continue _fun93317 }
+                if(!offset) { _fun00004_ip = 388; continue _fun00003 }
  384:
                 offset = options != sizing;
  388:
-                if(!offset) { _fun93317_ip = 502; continue _fun93317 }
+                if(!offset) { _fun00004_ip = 502; continue _fun00003 }
  391:
                 backup = _closure1_slot7;
                 yankee = _closure1_slot0;
@@ -457,13 +457,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['paddingBottom'] = offset;
             report['contentContainerStyle'] = verify;
             verify = function(argFoo) { // Original name: keyExtractor
-                _fun93324: for(var _fun93324_ip = 0; ; ) switch(_fun93324_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = argFoo;
                     entity = null;
                     zulu = entity != mike;
                     entity = 'none-guild-type';
-                    if(!zulu) { _fun93324_ip = 23; continue _fun93324 }
+                    if(!zulu) { _fun00008_ip = 23; continue _fun00007 }
  18:
                     entity = mike.id;
  23:
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             report['keyExtractor'] = verify;
             options = function(argFoo) { // Original name: renderItem
-                _fun93325: for(var _fun93325_ip = 0; ; ) switch(_fun93325_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
                     options = entity.item;
@@ -485,14 +485,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = oscar == entity;
                     entity = undefined;
                     golf = undefined;
-                    if(verify) { _fun93325_ip = 54; continue _fun93325 }
+                    if(verify) { _fun00010_ip = 54; continue _fun00009 }
  45:
                     verify = _closure2_slot1;
                     golf = verify.id;
  54:
                     verify = oscar == options;
                     oscar = undefined;
-                    if(verify) { _fun93325_ip = 68; continue _fun93325 }
+                    if(verify) { _fun00010_ip = 68; continue _fun00009 }
  63:
                     oscar = options.id;
  68:

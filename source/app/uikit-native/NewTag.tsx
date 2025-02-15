@@ -67,29 +67,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/NewTag.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NewTag
-        _fun76913: for(var _fun76913_ip = 0; ; ) switch(_fun76913_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             foxtrot = tango.containerStyle;
             offset = tango.textStyle;
             sizing = tango.variant;
             report = undefined;
-            if(!(sizing === report)) { _fun76913_ip = 32; continue _fun76913 }
+            if(!(sizing === report)) { _fun00002_ip = 32; continue _fun00001 }
  26:
             sizing = 'heading-sm/semibold';
  32:
             kilo = tango.color;
-            if(!(kilo === report)) { _fun76913_ip = 47; continue _fun76913 }
+            if(!(kilo === report)) { _fun00002_ip = 47; continue _fun00001 }
  41:
             kilo = 'always-white';
  47:
             entity = tango.gradient;
-            if(!(entity === report)) { _fun76913_ip = 59; continue _fun76913 }
+            if(!(entity === report)) { _fun00002_ip = 59; continue _fun00001 }
  57:
             entity = false;
  59:
             verify = tango.borderRadius;
-            if(!(verify === report)) { _fun76913_ip = 102; continue _fun76913 }
+            if(!(verify === report)) { _fun00002_ip = 102; continue _fun00001 }
  68:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.sm;
  102:
             oscar = tango.colors;
-            if(!(oscar === report)) { _fun76913_ip = 180; continue _fun76913 }
+            if(!(oscar === report)) { _fun00002_ip = 180; continue _fun00001 }
  111:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             yankee = mike.bind(report)();
             tango = _closure1_slot5;
-            if(entity) { _fun76913_ip = 413; continue _fun76913 }
+            if(entity) { _fun00002_ip = 413; continue _fun00001 }
  236:
             mike = _closure1_slot3;
             entity = {};
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.bind(report)(golf, zulu);
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun76913_ip = 679; continue _fun76913;
+            _fun00002_ip = 679; continue _fun00001;
  413:
             output = _closure1_slot1;
             backup = _closure1_slot2;

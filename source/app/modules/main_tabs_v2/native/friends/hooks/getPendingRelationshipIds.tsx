@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/friends/hooks/getPendingRelationshipIds.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: getPendingRelationshipIds
-        _fun114900: for(var _fun114900_ip = 0; ; ) switch(_fun114900_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             oscar = undefined;
-            if(!(report === oscar)) { _fun114900_ip = 13; continue _fun114900 }
+            if(!(report === oscar)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             report = {};
  13:
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options.bind(verify)(report);
             verify = offset.filter;
             options = function(argFoo) {
-                _fun114901: for(var _fun114901_ip = 0; ; ) switch(_fun114901_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     entity = _closure2_slot0;
@@ -58,12 +58,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = _closure1_slot3;
                     entity = entity.PENDING_INCOMING;
                     entity = mike === entity;
-                    if(!entity) { _fun114901_ip = 70; continue _fun114901 }
+                    if(!entity) { _fun00004_ip = 70; continue _fun00003 }
  34:
                     tango = _closure1_slot2;
                     mike = tango.isSpam;
                     mike = mike.bind(tango)(report);
-                    if(mike) { _fun114901_ip = 67; continue _fun114901 }
+                    if(mike) { _fun00004_ip = 67; continue _fun00003 }
  52:
                     tango = _closure1_slot2;
                     zulu = tango.isIgnored;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = options.bind(verify)(report);
             verify = offset.filter;
             options = function(argFoo) {
-                _fun114903: for(var _fun114903_ip = 0; ; ) switch(_fun114903_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = argFoo;
                     entity = _closure2_slot0;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = _closure1_slot3;
                     entity = entity.PENDING_INCOMING;
                     entity = zulu === entity;
-                    if(!entity) { _fun114903_ip = 49; continue _fun114903 }
+                    if(!entity) { _fun00006_ip = 49; continue _fun00005 }
  34:
                     zulu = _closure1_slot2;
                     mike = zulu.isSpam;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.bind(tango)(report);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun114904: for(var _fun114904_ip = 0; ; ) switch(_fun114904_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = argFoo;
                     entity = _closure2_slot0;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = _closure1_slot3;
                     entity = entity.PENDING_INCOMING;
                     entity = zulu === entity;
-                    if(!entity) { _fun114904_ip = 49; continue _fun114904 }
+                    if(!entity) { _fun00008_ip = 49; continue _fun00007 }
  34:
                     zulu = _closure1_slot2;
                     mike = zulu.isIgnored;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = zulu.bind(tango)();
         zulu = tango.forEach;
         mike = function(argFoo) {
-            _fun114906: for(var _fun114906_ip = 0; ; ) switch(_fun114906_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.id;
@@ -176,13 +176,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure1_slot3;
                 entity = entity.PENDING_INCOMING;
                 entity = mike !== entity;
-                if(entity) { _fun114906_ip = 50; continue _fun114906 }
+                if(entity) { _fun00010_ip = 50; continue _fun00009 }
  33:
                 tango = _closure2_slot1;
                 mike = tango.has;
                 entity = mike.bind(tango)(zulu);
  50:
-                if(entity) { _fun114906_ip = 84; continue _fun114906 }
+                if(entity) { _fun00010_ip = 84; continue _fun00009 }
  53:
                 tango = _closure2_slot1;
                 mike = tango.add;
@@ -209,23 +209,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = tango.bind(report)();
         tango = report.forEach;
         entity = function(argFoo) {
-            _fun114908: for(var _fun114908_ip = 0; ; ) switch(_fun114908_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 zulu = argFoo;
                 tango = zulu.type;
                 mike = _closure1_slot3;
                 mike = mike.PENDING_INCOMING;
-                if(!(tango !== mike)) { _fun114908_ip = 63; continue _fun114908 }
+                if(!(tango !== mike)) { _fun00012_ip = 63; continue _fun00011 }
  25:
                 mike = zulu.type;
                 entity = _closure1_slot3;
                 entity = entity.PENDING_OUTGOING;
-                if(!(mike === entity)) { _fun114908_ip = 80; continue _fun114908 }
+                if(!(mike === entity)) { _fun00012_ip = 80; continue _fun00011 }
  44:
                 mike = _closure2_slot1;
                 entity = mike.push;
                 entity = entity.bind(mike)(zulu);
-                _fun114908_ip = 80; continue _fun114908;
+                _fun00012_ip = 80; continue _fun00011;
  63:
                 mike = _closure2_slot0;
                 entity = mike.push;

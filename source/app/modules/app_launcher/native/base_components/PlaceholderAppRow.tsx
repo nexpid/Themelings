@@ -84,17 +84,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/base_components/PlaceholderAppRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PlaceholderAppRow
-        _fun118774: for(var _fun118774_ip = 0; ; ) switch(_fun118774_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.isFirstRow;
             tango = undefined;
-            if(!(oscar === tango)) { _fun118774_ip = 17; continue _fun118774 }
+            if(!(oscar === tango)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             oscar = false;
  17:
             report = entity.isLastRow;
-            if(!(report === tango)) { _fun118774_ip = 29; continue _fun118774 }
+            if(!(report === tango)) { _fun00002_ip = 29; continue _fun00001 }
  27:
             report = false;
  29:

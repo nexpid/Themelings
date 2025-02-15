@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileCard.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: UserProfileCard
-        _fun77771: for(var _fun77771_ip = 0; ; ) switch(_fun77771_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             backup = zulu.title;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = entity;
             golf = copyDataProperties(echo, result);
             golf = oscar != backup;
-            if(!golf) { _fun77771_ip = 263; continue _fun77771 }
+            if(!golf) { _fun00002_ip = 263; continue _fun00001 }
  146:
             verify = _closure1_slot7;
             options = _closure1_slot4;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     tango = function(argFoo) { // Original name: UserProfileFormRow
-        _fun77772: for(var _fun77772_ip = 0; ; ) switch(_fun77772_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             result = mike.label;
@@ -194,19 +194,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = mike.labelColor;
             romeo = mike.arrow;
             tango = undefined;
-            if(!(romeo === tango)) { _fun77772_ip = 63; continue _fun77772 }
+            if(!(romeo === tango)) { _fun00004_ip = 63; continue _fun00003 }
  61:
             romeo = false;
  63:
             mike = _closure1_slot9;
             yankee = mike.bind(tango)();
             output = undefined;
-            if(!entity) { _fun77772_ip = 85; continue _fun77772 }
+            if(!entity) { _fun00004_ip = 85; continue _fun00003 }
  79:
             output = 'text-danger';
  85:
             echo = 'header-primary';
-            if(!entity) { _fun77772_ip = 100; continue _fun77772 }
+            if(!entity) { _fun00004_ip = 100; continue _fun00003 }
  94:
             echo = 'text-danger';
  100:
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'text-md/semibold';
             foxtrot['variant'] = oscar;
             oscar = null;
-            if(!(oscar != update)) { _fun77772_ip = 250; continue _fun77772 }
+            if(!(oscar != update)) { _fun00004_ip = 250; continue _fun00003 }
  247:
             echo = update;
  250:
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(backup, foxtrot);
             verify[1] = foxtrot;
             foxtrot = oscar != sizing;
-            if(!foxtrot) { _fun77772_ip = 309; continue _fun77772 }
+            if(!foxtrot) { _fun00004_ip = 309; continue _fun00003 }
  285:
             kilo = _closure1_slot6;
             backup = {};
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(sizing, backup);
  309:
             verify[2] = foxtrot;
-            if(!romeo) { _fun77772_ip = 362; continue _fun77772 }
+            if(!romeo) { _fun00004_ip = 362; continue _fun00003 }
  316:
             kilo = _closure1_slot6;
             backup = _closure1_slot0;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = options;
             oscar = oscar != offset;
-            if(!oscar) { _fun77772_ip = 421; continue _fun77772 }
+            if(!oscar) { _fun00004_ip = 421; continue _fun00003 }
  391:
             verify = _closure1_slot6;
             options = _closure1_slot4;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = entity.Children;
         report = oscar.map;
         entity = function(argFoo, argBar) {
-            _fun77774: for(var _fun77774_ip = 0; ; ) switch(_fun77774_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 report = argBar;
                 tango = _closure1_slot7;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = {};
                 golf = 0;
                 oscar = null;
-                if(!(golf !== report)) { _fun77774_ip = 47; continue _fun77774 }
+                if(!(golf !== report)) { _fun00006_ip = 47; continue _fun00005 }
  29:
                 verify = _closure1_slot6;
                 options = _closure1_slot10;

@@ -55,13 +55,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = argBar;
             zulu['sinkWants'] = report;
             report = function(argFoo, argBar) {
-                _fun50791: for(var _fun50791_ip = 0; ; ) switch(_fun50791_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure3_slot0;
                     mike = mike.connection;
                     zulu = mike.userId;
                     mike = argFoo;
-                    if(!(mike === zulu)) { _fun50791_ip = 60; continue _fun50791 }
+                    if(!(mike === zulu)) { _fun00002_ip = 60; continue _fun00001 }
  25:
                     zulu = _closure3_slot0;
                     mike = zulu.userSpeakingChange;
@@ -77,13 +77,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['handleSpeaking'] = report;
             tango = function(argFoo) {
-                _fun50792: for(var _fun50792_ip = 0; ; ) switch(_fun50792_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure3_slot0;
                     zulu = mike.connection;
                     mike = zulu.hasDesktopSource;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun50792_ip = 65; continue _fun50792 }
+                    if(mike) { _fun00004_ip = 65; continue _fun00003 }
  26:
                     mike = _closure3_slot0;
                     entity = mike.destroyFramerateScaleFactorTimers;
@@ -143,42 +143,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'userSpeakingChange';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun50794: for(var _fun50794_ip = 0; ; ) switch(_fun50794_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = this;
                 var _closure3_slot0 = mike;
                 tango = mike.connection;
                 zulu = tango.hasDesktopSource;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun50794_ip = 119; continue _fun50794 }
+                if(zulu) { _fun00006_ip = 119; continue _fun00005 }
  28:
                 zulu = mike.destroyFramerateScaleFactorTimers;
                 zulu = zulu.bind(mike)();
                 zulu = argFoo;
-                if(zulu) { _fun50794_ip = 85; continue _fun50794 }
+                if(zulu) { _fun00006_ip = 85; continue _fun00005 }
  44:
                 zulu = mike.sinkWants;
                 zulu = zulu.isMuted;
-                if(!zulu) { _fun50794_ip = 119; continue _fun50794 }
+                if(!zulu) { _fun00006_ip = 119; continue _fun00005 }
  59:
                 tango = mike.sinkWants;
                 zulu = false;
                 tango['isMuted'] = zulu;
                 zulu = mike.updateRemoteWantsFramerate;
                 zulu = zulu.bind(mike)();
-                _fun50794_ip = 119; continue _fun50794;
+                _fun00006_ip = 119; continue _fun00005;
  85:
                 zulu = global;
                 report = zulu.setTimeout;
                 tango = _closure1_slot5;
                 zulu = undefined;
                 entity = function() {
-                    _fun50795: for(var _fun50795_ip = 0; ; ) switch(_fun50795_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         mike = _closure3_slot0;
                         mike = mike.connection;
                         mike = mike.destroyed;
-                        if(mike) { _fun50795_ip = 111; continue _fun50795 }
+                        if(mike) { _fun00008_ip = 111; continue _fun00007 }
  22:
                         tango = _closure1_slot6;
                         zulu = tango.info;
@@ -216,13 +216,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'destroyFramerateScaleFactorTimers';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun50796: for(var _fun50796_ip = 0; ; ) switch(_fun50796_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 mike = this;
                 entity = mike.framerateReductionTimeout;
                 zulu = 'number';
                 entity = typeof entity;
-                if(!(zulu === entity)) { _fun50796_ip = 47; continue _fun50796 }
+                if(!(zulu === entity)) { _fun00010_ip = 47; continue _fun00009 }
  20:
                 entity = global;
                 tango = entity.clearTimeout;

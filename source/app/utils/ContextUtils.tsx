@@ -30,14 +30,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: createDefinedContext
         zulu = function() { // Original name: useContext
-            _fun87780: for(var _fun87780_ip = 0; ; ) switch(_fun87780_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = zulu.useContext;
                 entity = _closure2_slot0;
                 entity = mike.bind(zulu)(entity);
                 mike = null;
-                if(!(mike != entity)) { _fun87780_ip = 33; continue _fun87780 }
+                if(!(mike != entity)) { _fun00002_ip = 33; continue _fun00001 }
  31:
                 return entity;
  33:

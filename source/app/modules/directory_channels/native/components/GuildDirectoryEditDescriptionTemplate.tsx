@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/directory_channels/native/components/GuildDirectoryEditDescriptionTemplate.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun78881: for(var _fun78881_ip = 0; ; ) switch(_fun78881_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.onSubmit;
@@ -149,11 +149,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             options = kilo == entity;
             golf = undefined;
-            if(options) { _fun78881_ip = 155; continue _fun78881 }
+            if(options) { _fun00002_ip = 155; continue _fun00001 }
  149:
             golf = entity.primaryCategoryId;
  155:
-            if(!(kilo != golf)) { _fun78881_ip = 162; continue _fun78881 }
+            if(!(kilo != golf)) { _fun00002_ip = 162; continue _fun00001 }
  159:
             mike = golf;
  162:
@@ -171,13 +171,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.useState;
             yankee = kilo == entity;
             options = undefined;
-            if(yankee) { _fun78881_ip = 224; continue _fun78881 }
+            if(yankee) { _fun00002_ip = 224; continue _fun00001 }
  219:
             options = entity.description;
  224:
             yankee = kilo != options;
             entity = '';
-            if(!yankee) { _fun78881_ip = 238; continue _fun78881 }
+            if(!yankee) { _fun00002_ip = 238; continue _fun00001 }
  235:
             entity = options;
  238:
@@ -215,15 +215,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun78886: for(var _fun78886_ip = 0; ; ) switch(_fun78886_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun78886_ip = 172; continue _fun78886 }
+                            if(mike) { _fun00004_ip = 172; continue _fun00003 }
  10:
                             zulu = _closure2_slot2;
                             mike = null;
-                            if(!(mike !== zulu)) { _fun78886_ip = 169; continue _fun78886 }
+                            if(!(mike !== zulu)) { _fun00004_ip = 169; continue _fun00003 }
  26:
                             report = _closure2_slot5;
                             oscar = undefined;
@@ -239,9 +239,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return zulu;
  61:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(report) { _fun78886_ip = 69; continue _fun78886 }
+                            if(report) { _fun00004_ip = 69; continue _fun00003 }
  67: // try_end0
-                            _fun78886_ip = 140; continue _fun78886;
+                            _fun00004_ip = 140; continue _fun00003;
  69: // try_end1
                             golf = _closure2_slot5;
                             report = false;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['returnKeyType'] = echo;
             source = kilo == control;
             echo = undefined;
-            if(source) { _fun78881_ip = 668; continue _fun78881 }
+            if(source) { _fun00002_ip = 668; continue _fun00001 }
  658:
             source = control.getAnyErrorMessage;
             echo = source.bind(control)();
@@ -468,12 +468,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = sequence[golf];
             golf = options.bind(tango)(golf);
             options = golf.Text;
-            if(!(kilo != vacuum)) { _fun78881_ip = 1027; continue _fun78881 }
+            if(!(kilo != vacuum)) { _fun00002_ip = 1027; continue _fun00001 }
  1002:
             golf = {'variant': 'text-md/medium', 'color': 'header-primary'};
             vacuum = vacuum.label;
             golf['children'] = vacuum;
-            _fun78881_ip = 1096; continue _fun78881;
+            _fun00002_ip = 1096; continue _fun00001;
  1027:
             vacuum = {'variant': 'text-md/medium', 'color': 'text-muted'};
             context = _closure1_slot0;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             foxtrot = foxtrot.length;
             foxtrot = sizing === foxtrot;
-            if(foxtrot) { _fun78881_ip = 1216; continue _fun78881 }
+            if(foxtrot) { _fun00002_ip = 1216; continue _fun00001 }
  1212:
             foxtrot = kilo == backup;
  1216:

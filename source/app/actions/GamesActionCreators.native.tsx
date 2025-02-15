@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['launch'] = golf;
     golf = function(argFoo) { // Original name: join
-        _fun80296: for(var _fun80296_ip = 0; ; ) switch(_fun80296_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = this;
@@ -110,12 +110,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(yankee)(mike);
             report = null;
             mike = report != golf;
-            if(!mike) { _fun80296_ip = 116; continue _fun80296 }
+            if(!mike) { _fun00002_ip = 116; continue _fun00001 }
  112:
             mike = report != zulu;
  116:
             report = undefined;
-            if(!mike) { _fun80296_ip = 142; continue _fun80296 }
+            if(!mike) { _fun00002_ip = 142; continue _fun00001 }
  121:
             mike = {};
             mike['channel_id'] = golf;

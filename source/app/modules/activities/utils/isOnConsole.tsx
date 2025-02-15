@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/isOnConsole.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isOnConsole
-        _fun80765: for(var _fun80765_ip = 0; ; ) switch(_fun80765_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = undefined;
             entity = report.bind(zulu)(entity);
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun80765_ip = 60; continue _fun80765 }
+            if(entity) { _fun00002_ip = 60; continue _fun00001 }
  35:
             report = _closure1_slot0;
             oscar = _closure1_slot1;

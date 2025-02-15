@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot3;
         tango = oscar.useCallback;
         zulu = function() {
-            _fun104906: for(var _fun104906_ip = 0; ; ) switch(_fun104906_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.getRootNavigationRef;
                 tango = mike.bind(zulu)();
                 mike = null;
-                if(!(mike != tango)) { _fun104906_ip = 73; continue _fun104906 }
+                if(!(mike != tango)) { _fun00002_ip = 73; continue _fun00001 }
  41:
                 mike = tango.isReady;
                 mike = mike.bind(tango)();
-                if(!mike) { _fun104906_ip = 73; continue _fun104906 }
+                if(!mike) { _fun00002_ip = 73; continue _fun00001 }
  54:
                 zulu = tango.navigate;
                 mike = 'you-modal';
@@ -84,14 +84,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = new Array(1);
         options[0] = zulu;
         oscar = function() {
-            _fun104907: for(var _fun104907_ip = 0; ; ) switch(_fun104907_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure1_slot4;
                 entity = mike.getCurrentUser;
                 mike = entity.bind(mike)();
                 entity = null;
                 zulu = entity != mike;
-                if(!zulu) { _fun104907_ip = 28; continue _fun104907 }
+                if(!zulu) { _fun00004_ip = 28; continue _fun00003 }
  25:
                 entity = mike;
  28:

@@ -49,13 +49,13 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     options = options.BugIcon;
     mike['IconComponent'] = options;
     golf = function() { // Original name: handleBugReporterSettingPress
-        _fun99030: for(var _fun99030_ip = 0; ; ) switch(_fun99030_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.getState;
             entity = entity.bind(mike)();
             entity = entity.isReportOpen;
-            if(entity) { _fun99030_ip = 104; continue _fun99030 }
+            if(entity) { _fun00002_ip = 104; continue _fun00001 }
  26:
             mike = _closure1_slot3;
             oscar = undefined;

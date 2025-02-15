@@ -63,17 +63,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu[1] = golf;
         zulu[2] = oscar;
         mike = function() {
-            _fun70289: for(var _fun70289_ip = 0; ; ) switch(_fun70289_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 golf = null;
                 entity = golf != entity;
-                if(!entity) { _fun70289_ip = 24; continue _fun70289 }
+                if(!entity) { _fun00002_ip = 24; continue _fun00001 }
  16:
                 mike = _closure2_slot1;
                 entity = golf != mike;
  24:
-                if(!entity) { _fun70289_ip = 102; continue _fun70289 }
+                if(!entity) { _fun00002_ip = 102; continue _fun00001 }
  27:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure2_slot0;
                 mike = _closure2_slot1;
                 entity = _closure2_slot2;
-                if(!(golf == entity)) { _fun70289_ip = 80; continue _fun70289 }
+                if(!(golf == entity)) { _fun00002_ip = 80; continue _fun00001 }
  74:
                 entity = new Array(0);
-                _fun70289_ip = 95; continue _fun70289;
+                _fun00002_ip = 95; continue _fun00001;
  80:
                 golf = _closure2_slot2;
                 oscar = new Array(1);

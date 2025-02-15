@@ -13,23 +13,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun41933: for(var _fun41933_ip = 0; ; ) switch(_fun41933_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun41933_ip = 115; continue _fun41933 }
+                    if(zulu) { _fun00002_ip = 115; continue _fun00001 }
  10:
                     report = null;
                     tango = report != mike;
                     zulu = null;
-                    if(!tango) { _fun41933_ip = 109; continue _fun41933 }
+                    if(!tango) { _fun00002_ip = 109; continue _fun00001 }
  21:
                     oscar = mike.paymentGateway;
                     tango = _closure1_slot4;
                     tango = tango.BRAINTREE;
                     zulu = null;
-                    if(!(oscar === tango)) { _fun41933_ip = 109; continue _fun41933 }
+                    if(!(oscar === tango)) { _fun00002_ip = 109; continue _fun00001 }
  46:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun41933_ip = 112; continue _fun41933 }
+                    if(tango) { _fun00002_ip = 112; continue _fun00001 }
  88:
                     tango = report != mike;
                     zulu = null;
-                    if(!tango) { _fun41933_ip = 109; continue _fun41933 }
+                    if(!tango) { _fun00002_ip = 109; continue _fun00001 }
  97:
                     tango = {};
                     tango['braintree_device_data'] = mike;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['createGatewayCheckoutContext'] = tango;
     tango = function(argFoo, argBar) { // Original name: captureBillingException
-        _fun41936: for(var _fun41936_ip = 0; ; ) switch(_fun41936_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argBar;
             zulu = _closure1_slot1;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             options = mike == golf;
             mike = undefined;
-            if(options) { _fun41936_ip = 65; continue _fun41936 }
+            if(options) { _fun00004_ip = 65; continue _fun00003 }
  59:
             mike = golf.tags;
  65:
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['captureBillingException'] = tango;
     tango = function(argFoo, argBar) { // Original name: captureBillingMessage
-        _fun41937: for(var _fun41937_ip = 0; ; ) switch(_fun41937_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = argBar;
             zulu = _closure1_slot1;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             options = mike == golf;
             mike = undefined;
-            if(options) { _fun41937_ip = 65; continue _fun41937 }
+            if(options) { _fun00006_ip = 65; continue _fun00005 }
  59:
             mike = golf.tags;
  65:
@@ -205,61 +205,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['captureBillingMessage'] = tango;
     mike = function(argFoo, argBar) { // Original name: calculateStandardizedUnits
-        _fun41938: for(var _fun41938_ip = 0; ; ) switch(_fun41938_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
             entity = 'P1M';
             entity = entity === zulu;
             report = entity;
-            if(!entity) { _fun41938_ip = 32; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 32; continue _fun00007 }
  22:
             mike = 'P1Y';
             report = mike === tango;
  32:
             mike = true;
-            if(!(report !== mike)) { _fun41938_ip = 177; continue _fun41938 }
+            if(!(report !== mike)) { _fun00008_ip = 177; continue _fun00007 }
  41:
             report = entity;
-            if(!entity) { _fun41938_ip = 57; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 57; continue _fun00007 }
  47:
             oscar = 'P6M';
             report = oscar === tango;
  57:
-            if(!(report !== mike)) { _fun41938_ip = 172; continue _fun41938 }
+            if(!(report !== mike)) { _fun00008_ip = 172; continue _fun00007 }
  61:
-            if(!entity) { _fun41938_ip = 74; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 74; continue _fun00007 }
  64:
             report = 'P3M';
             entity = report === tango;
  74:
-            if(!(entity !== mike)) { _fun41938_ip = 167; continue _fun41938 }
+            if(!(entity !== mike)) { _fun00008_ip = 167; continue _fun00007 }
  78:
             entity = 'P3M';
             entity = entity === zulu;
             report = entity;
-            if(!entity) { _fun41938_ip = 104; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 104; continue _fun00007 }
  94:
             oscar = 'P1Y';
             report = oscar === tango;
  104:
-            if(!(report !== mike)) { _fun41938_ip = 162; continue _fun41938 }
+            if(!(report !== mike)) { _fun00008_ip = 162; continue _fun00007 }
  108:
-            if(!entity) { _fun41938_ip = 121; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 121; continue _fun00007 }
  111:
             report = 'P6M';
             entity = report === tango;
  121:
-            if(!(entity !== mike)) { _fun41938_ip = 157; continue _fun41938 }
+            if(!(entity !== mike)) { _fun00008_ip = 157; continue _fun00007 }
  125:
             entity = 'P6M';
             entity = entity === zulu;
-            if(!entity) { _fun41938_ip = 148; continue _fun41938 }
+            if(!entity) { _fun00008_ip = 148; continue _fun00007 }
  138:
             zulu = 'P1Y';
             entity = zulu === tango;
  148:
-            if(!(entity !== mike)) { _fun41938_ip = 157; continue _fun41938 }
+            if(!(entity !== mike)) { _fun00008_ip = 157; continue _fun00007 }
  152:
             entity = 1;
             return entity;

@@ -69,7 +69,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         tango = new Array(1);
         tango[0] = golf;
         zulu = function() {
-            _fun99866: for(var _fun99866_ip = 0; ; ) switch(_fun99866_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot9;
                 mike = zulu.getFlattenedGuildIds;
@@ -80,12 +80,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = report.includes;
                 mike = _closure2_slot0;
                 mike = tango.bind(report)(mike);
-                if(!mike) { _fun99866_ip = 53; continue _fun99866 }
+                if(!mike) { _fun00002_ip = 53; continue _fun00001 }
  47:
                 tango = null;
                 mike = tango != zulu;
  53:
-                if(!mike) { _fun99866_ip = 74; continue _fun99866 }
+                if(!mike) { _fun00002_ip = 74; continue _fun00001 }
  56:
                 report = _closure1_slot5;
                 tango = undefined;
@@ -93,7 +93,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = _closure1_slot6;
                 mike = report === tango;
  74:
-                if(!mike) { _fun99866_ip = 88; continue _fun99866 }
+                if(!mike) { _fun00002_ip = 88; continue _fun00001 }
  77:
                 mike = _closure1_slot7;
                 entity = undefined;

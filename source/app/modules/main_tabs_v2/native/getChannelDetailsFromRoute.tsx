@@ -21,12 +21,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/getChannelDetailsFromRoute.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelDetailsFromRoute
-        _fun110178: for(var _fun110178_ip = 0; ; ) switch(_fun110178_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = arguments[1];
             tango = undefined;
-            if(!(zulu === tango)) { _fun110178_ip = 14; continue _fun110178 }
+            if(!(zulu === tango)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             zulu = false;
  14:
@@ -38,9 +38,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar.coerceChannelRoute;
             mike = mike.bind(oscar)(report);
             oscar = null;
-            if(!(oscar == mike)) { _fun110178_ip = 173; continue _fun110178 }
+            if(!(oscar == mike)) { _fun00002_ip = 173; continue _fun00001 }
  53:
-            if(zulu) { _fun110178_ip = 70; continue _fun110178 }
+            if(zulu) { _fun00002_ip = 70; continue _fun00001 }
  56:
             zulu = new Array(2);
             zulu[0] = tango;
@@ -53,17 +53,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)(entity);
             entity = zulu.coerceGuildsRoute;
             report = entity.bind(zulu)(report);
-            if(!(oscar == report)) { _fun110178_ip = 116; continue _fun110178 }
+            if(!(oscar == report)) { _fun00002_ip = 116; continue _fun00001 }
  102:
             entity = new Array(2);
             entity[0] = tango;
             entity[1] = tango;
-            _fun110178_ip = 171; continue _fun110178;
+            _fun00002_ip = 171; continue _fun00001;
  116:
             zulu = report.params;
             options = oscar == zulu;
             golf = undefined;
-            if(options) { _fun110178_ip = 136; continue _fun110178 }
+            if(options) { _fun00002_ip = 136; continue _fun00001 }
  131:
             golf = zulu.guildId;
  136:
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report.params;
             oscar = oscar == report;
             tango = undefined;
-            if(oscar) { _fun110178_ip = 164; continue _fun110178 }
+            if(oscar) { _fun00002_ip = 164; continue _fun00001 }
  159:
             tango = report.channelId;
  164:

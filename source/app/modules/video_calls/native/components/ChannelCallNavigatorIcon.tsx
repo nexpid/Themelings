@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallNavigatorIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun102992: for(var _fun102992_ip = 0; ; ) switch(_fun102992_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.onPress;
@@ -114,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.disabled;
             backup = entity.theme;
             tango = undefined;
-            if(!(backup === tango)) { _fun102992_ip = 56; continue _fun102992 }
+            if(!(backup === tango)) { _fun00002_ip = 56; continue _fun00001 }
  52:
             backup = 'dark';
  56:
             offset = entity.disableBackground;
-            if(!(offset === tango)) { _fun102992_ip = 68; continue _fun102992 }
+            if(!(offset === tango)) { _fun00002_ip = 68; continue _fun00001 }
  66:
             offset = true;
  68:
@@ -147,11 +147,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = sizing.pressable;
             report['style'] = yankee;
             options = function() { // Original name: onPress
-                _fun102993: for(var _fun102993_ip = 0; ; ) switch(_fun102993_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot5;
                     mike = null;
-                    if(!(mike != zulu)) { _fun102993_ip = 23; continue _fun102993 }
+                    if(!(mike != zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                     mike = _closure1_slot5;
                     entity = undefined;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(3);
             yankee[0] = echo;
             yankee[1] = output;
-            if(!foxtrot) { _fun102992_ip = 207; continue _fun102992 }
+            if(!foxtrot) { _fun00002_ip = 207; continue _fun00001 }
  202:
             foxtrot = sizing.disabled;
  207:
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = yankee.bind(foxtrot)(backup);
             yankee = null;
             foxtrot = null;
-            if(!backup) { _fun102992_ip = 313; continue _fun102992 }
+            if(!backup) { _fun00002_ip = 313; continue _fun00001 }
  253:
             foxtrot = null;
-            if(offset) { _fun102992_ip = 313; continue _fun102992 }
+            if(offset) { _fun00002_ip = 313; continue _fun00001 }
  258:
             output = _closure1_slot6;
             backup = _closure1_slot1;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  313:
             offset = new Array(3);
             offset[0] = foxtrot;
-            if(!(yankee == result)) { _fun102992_ip = 403; continue _fun102992 }
+            if(!(yankee == result)) { _fun00002_ip = 403; continue _fun00001 }
  325:
             output = _closure1_slot6;
             update = _closure1_slot1;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.SMALL_20;
             foxtrot['size'] = echo;
             foxtrot = output.bind(tango)(backup, foxtrot);
-            _fun102992_ip = 438; continue _fun102992;
+            _fun00002_ip = 438; continue _fun00001;
  403:
             output = _closure1_slot6;
             backup = {};
@@ -237,12 +237,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  438:
             offset[1] = foxtrot;
             yankee = yankee != kilo;
-            if(!yankee) { _fun102992_ip = 455; continue _fun102992 }
+            if(!yankee) { _fun00002_ip = 455; continue _fun00001 }
  449:
             foxtrot = 0;
             yankee = kilo > foxtrot;
  455:
-            if(!yankee) { _fun102992_ip = 509; continue _fun102992 }
+            if(!yankee) { _fun00002_ip = 509; continue _fun00001 }
  458:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot0;

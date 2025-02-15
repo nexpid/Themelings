@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/shared/native/SafetyToolsActionSheetWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SafetyToolsActionSheetWrapper
-        _fun79585: for(var _fun79585_ip = 0; ; ) switch(_fun79585_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.headerTitle;
@@ -75,11 +75,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = mike;
             zulu[1] = kilo;
             entity = function() {
-                _fun79587: for(var _fun79587_ip = 0; ; ) switch(_fun79587_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike == zulu)) { _fun79587_ip = 23; continue _fun79587 }
+                    if(!(mike == zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                     mike = _closure2_slot1;
                     entity = undefined;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(options)(entity, zulu);
             entity = null;
             mike = entity != mike;
-            if(!mike) { _fun79585_ip = 267; continue _fun79585 }
+            if(!mike) { _fun00002_ip = 267; continue _fun00001 }
  161:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;

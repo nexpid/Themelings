@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: Content
-        _fun127279: for(var _fun127279_ip = 0; ; ) switch(_fun127279_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot1;
             golf = _closure1_slot3;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = foxtrot;
             entity = function() {
-                _fun127280: for(var _fun127280_ip = 0; ; ) switch(_fun127280_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot3;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot1;
                     entity = mike.bind(zulu)(entity);
                     mike = null;
-                    if(!(mike == entity)) { _fun127280_ip = 51; continue _fun127280 }
+                    if(!(mike == entity)) { _fun00004_ip = 51; continue _fun00003 }
  49:
                     entity = {};
  51:
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             entity = entity != mike;
             source = undefined;
-            if(!entity) { _fun127279_ip = 243; continue _fun127279 }
+            if(!entity) { _fun00002_ip = 243; continue _fun00001 }
  233:
             entity = {};
             entity['uri'] = mike;

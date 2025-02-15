@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/ForumPostMessageContent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostMessageContent
-        _fun100600: for(var _fun100600_ip = 0; ; ) switch(_fun100600_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.messageContent;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.textStyle;
             oscar = entity.lineClamp;
             tango = undefined;
-            if(!(oscar === tango)) { _fun100600_ip = 53; continue _fun100600 }
+            if(!(oscar === tango)) { _fun00002_ip = 53; continue _fun00001 }
  50:
             oscar = 2;
  53:
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['variant'] = verify;
             verify = 'text-muted';
-            if(!offset) { _fun100600_ip = 163; continue _fun100600 }
+            if(!offset) { _fun00002_ip = 163; continue _fun00001 }
  157:
             verify = 'text-normal';
  163:

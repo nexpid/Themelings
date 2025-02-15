@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'put';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun59048: for(var _fun59048_ip = 0; ; ) switch(_fun59048_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 entity = this;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = entity.items;
                 zulu = mike.size;
                 mike = entity.limit;
-                if(!(!(zulu > mike))) { _fun59048_ip = 67; continue _fun59048 }
+                if(!(!(zulu > mike))) { _fun00002_ip = 67; continue _fun00001 }
  63:
                 mike = undefined;
                 return mike;

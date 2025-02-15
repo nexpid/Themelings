@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/screens/application_view/app/FrecencyCommandsSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FrecencyCommandsSection
-        _fun119012: for(var _fun119012_ip = 0; ; ) switch(_fun119012_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.context;
@@ -101,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = oscar;
             mike[1] = entity;
             entity = function() {
-                _fun119013: for(var _fun119013_ip = 0; ; ) switch(_fun119013_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot6;
                     mike = entity.length;
                     entity = 0;
-                    if(!(entity !== mike)) { _fun119013_ip = 118; continue _fun119013 }
+                    if(!(entity !== mike)) { _fun00004_ip = 118; continue _fun00003 }
  18:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun119012_ip = 364; continue _fun119012 }
+            if(!(mike !== zulu)) { _fun00002_ip = 364; continue _fun00001 }
  185:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;

@@ -1,6 +1,6 @@
 // app/modules/safe_area/SafeAreaConstants.native.tsx
 export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
-    _fun44797: for(var _fun44797_ip = 0; ; ) switch(_fun44797_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -25,13 +25,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         golf = null;
         foxtrot = golf == offset;
         verify = undefined;
-        if(foxtrot) { _fun44797_ip = 95; continue _fun44797 }
+        if(foxtrot) { _fun00002_ip = 95; continue _fun00001 }
  90:
         verify = offset.top;
  95:
         foxtrot = golf != verify;
         offset = 0;
-        if(!foxtrot) { _fun44797_ip = 107; continue _fun44797 }
+        if(!foxtrot) { _fun00002_ip = 107; continue _fun00001 }
  104:
         offset = verify;
  107:
@@ -44,13 +44,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         verify = options.DCDSafeAreaManager;
         yankee = golf == verify;
         offset = undefined;
-        if(yankee) { _fun44797_ip = 155; continue _fun44797 }
+        if(yankee) { _fun00002_ip = 155; continue _fun00001 }
  150:
         offset = verify.left;
  155:
         yankee = golf != offset;
         verify = 0;
-        if(!yankee) { _fun44797_ip = 167; continue _fun44797 }
+        if(!yankee) { _fun00002_ip = 167; continue _fun00001 }
  164:
         verify = offset;
  167:
@@ -58,13 +58,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         verify = options.DCDSafeAreaManager;
         yankee = golf == verify;
         offset = undefined;
-        if(yankee) { _fun44797_ip = 191; continue _fun44797 }
+        if(yankee) { _fun00002_ip = 191; continue _fun00001 }
  186:
         offset = verify.right;
  191:
         yankee = golf != offset;
         verify = 0;
-        if(!yankee) { _fun44797_ip = 203; continue _fun44797 }
+        if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
  200:
         verify = offset;
  203:
@@ -72,13 +72,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         verify = options.DCDSafeAreaManager;
         offset = golf == verify;
         options = undefined;
-        if(offset) { _fun44797_ip = 227; continue _fun44797 }
+        if(offset) { _fun00002_ip = 227; continue _fun00001 }
  222:
         options = verify.bottom;
  227:
         verify = golf != options;
         golf = 0;
-        if(!verify) { _fun44797_ip = 239; continue _fun44797 }
+        if(!verify) { _fun00002_ip = 239; continue _fun00001 }
  236:
         golf = options;
  239:

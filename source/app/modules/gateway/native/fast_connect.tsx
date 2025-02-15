@@ -10,22 +10,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = entity;
     var _closure1_slot3 = golf;
     tango = function() { // Original name: createFastConnectSocket
-        _fun1076: for(var _fun1076_ip = 0; ; ) switch(_fun1076_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             entity = entity.window;
             mike = entity.WebSocket;
             entity = null;
-            if(!(entity == mike)) { _fun1076_ip = 46; continue _fun1076 }
+            if(!(entity == mike)) { _fun00002_ip = 46; continue _fun00001 }
  20:
             zulu = _closure1_slot6;
             mike = zulu.log;
             entity = 'Skipping fast_connect because `window.WebSocket` does not exist.';
             entity = mike.bind(zulu)(entity);
-            _fun1076_ip = 59; continue _fun1076;
+            _fun00002_ip = 59; continue _fun00001;
  46:
             mike = function() { // Original name: newWebSocket
-                _fun1077: for(var _fun1077_ip = 0; ; ) switch(_fun1077_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot0;
                     entity = _closure1_slot3;
@@ -35,12 +35,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(entity)(mike);
                     mike = tango.isAndroid;
                     mike = mike.bind(tango)();
-                    if(mike) { _fun1077_ip = 57; continue _fun1077 }
+                    if(mike) { _fun00004_ip = 57; continue _fun00003 }
  39:
                     mike = _closure1_slot4;
                     mike = mike.DCDCompressionManager;
                     options = mike.supportsZstd;
-                    _fun1077_ip = 93; continue _fun1077;
+                    _fun00004_ip = 93; continue _fun00003;
  57:
                     tango = _closure1_slot1;
                     oscar = _closure1_slot3;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = mike.supportsZstd;
  93:
                     foxtrot = 'zlib-stream';
-                    if(!options) { _fun1077_ip = 108; continue _fun1077 }
+                    if(!options) { _fun00004_ip = 108; continue _fun00003 }
  102:
                     foxtrot = 'zstd-stream';
  108:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = verify.bind(entity)(oscar);
                     oscar = tango.isNaN;
                     oscar = oscar.bind(entity)(verify);
-                    if(oscar) { _fun1077_ip = 569; continue _fun1077 }
+                    if(oscar) { _fun00004_ip = 569; continue _fun00003 }
  283:
                     offset = _closure1_slot0;
                     oscar = _closure1_slot3;
@@ -98,15 +98,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset.bind(entity)(oscar);
                     oscar = offset.isAndroid;
                     oscar = oscar.bind(offset)();
-                    if(options) { _fun1077_ip = 371; continue _fun1077 }
+                    if(options) { _fun00004_ip = 371; continue _fun00003 }
  312:
-                    if(oscar) { _fun1077_ip = 338; continue _fun1077 }
+                    if(oscar) { _fun00004_ip = 338; continue _fun00003 }
  315:
                     options = _closure1_slot4;
                     offset = options.DCDCompressionManager;
                     options = offset.enableZlibStreamSupport;
                     options = options.bind(offset)(verify);
-                    _fun1077_ip = 431; continue _fun1077;
+                    _fun00004_ip = 431; continue _fun00003;
  338:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot3;
@@ -115,16 +115,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset.bind(entity)(options);
                     options = offset.enableZlibStreamSupport;
                     options = options.bind(offset)(verify);
-                    _fun1077_ip = 431; continue _fun1077;
+                    _fun00004_ip = 431; continue _fun00003;
  371:
-                    if(oscar) { _fun1077_ip = 400; continue _fun1077 }
+                    if(oscar) { _fun00004_ip = 400; continue _fun00003 }
  374:
                     oscar = _closure1_slot4;
                     offset = oscar.DCDCompressionManager;
                     options = offset.enableZstdStreamSupport;
                     oscar = 0;
                     oscar = options.bind(offset)(verify, oscar);
-                    _fun1077_ip = 431; continue _fun1077;
+                    _fun00004_ip = 431; continue _fun00003;
  400:
                     options = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = '🌐';
                     tango = 'Fastconnect socket created';
                     tango = oscar.bind(golf)(report, tango);
-                    _fun1077_ip = 597; continue _fun1077;
+                    _fun00004_ip = 597; continue _fun00003;
  569:
                     report = _closure1_slot6;
                     tango = report.log;
@@ -284,13 +284,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['createFastConnectSocket'] = tango;
     tango = function() { // Original name: closeFastConnectSocket
-        _fun1081: for(var _fun1081_ip = 0; ; ) switch(_fun1081_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = global;
             mike = entity.window;
             zulu = mike._ws;
             mike = null;
-            if(!(mike != zulu)) { _fun1081_ip = 60; continue _fun1081 }
+            if(!(mike != zulu)) { _fun00006_ip = 60; continue _fun00005 }
  20:
             zulu = entity.window;
             zulu = zulu._ws;
@@ -306,19 +306,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['closeFastConnectSocket'] = tango;
     mike = function() { // Original name: identifyWebSocket
-        _fun1082: for(var _fun1082_ip = 0; ; ) switch(_fun1082_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = global;
             entity = entity.window;
             mike = entity._ws;
             entity = null;
-            if(!(entity == mike)) { _fun1082_ip = 46; continue _fun1082 }
+            if(!(entity == mike)) { _fun00008_ip = 46; continue _fun00007 }
  20:
             zulu = _closure1_slot6;
             mike = zulu.log;
             entity = 'Skipping identifyWebSocket because socket is null';
             entity = mike.bind(zulu)(entity);
-            _fun1082_ip = 95; continue _fun1082;
+            _fun00008_ip = 95; continue _fun00007;
  46:
             zulu = _closure1_slot1;
             mike = _closure1_slot3;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.beginFastConnect;
             mike = zulu.measure;
             entity = function() {
-                _fun1083: for(var _fun1083_ip = 0; ; ) switch(_fun1083_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot3;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = mike.loadFastConnectNativeModule;
                     zulu = tango.measure;
                     mike = function() {
-                        _fun1084: for(var _fun1084_ip = 0; ; ) switch(_fun1084_ip) {
+                        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                             zulu = _closure1_slot0;
                             tango = _closure1_slot3;
@@ -350,12 +350,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = zulu.bind(tango)(entity);
                             entity = zulu.isAndroid;
                             entity = entity.bind(zulu)();
-                            if(entity) { _fun1084_ip = 55; continue _fun1084 }
+                            if(entity) { _fun00012_ip = 55; continue _fun00011 }
  37:
                             entity = _closure1_slot4;
                             entity = entity.DCDFastConnectManager;
                             entity = entity.token;
-                            _fun1084_ip = 106; continue _fun1084;
+                            _fun00012_ip = 106; continue _fun00011;
  55:
                             zulu = _closure1_slot1;
                             report = _closure1_slot3;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = mike.token;
                             mike = null;
                             tango = mike != zulu;
-                            if(!tango) { _fun1084_ip = 103; continue _fun1084 }
+                            if(!tango) { _fun00012_ip = 103; continue _fun00011 }
  100:
                             mike = zulu;
  103:
@@ -378,16 +378,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     oscar = zulu.bind(tango)(mike);
                     verify = null;
-                    if(!(verify != oscar)) { _fun1083_ip = 63; continue _fun1083 }
+                    if(!(verify != oscar)) { _fun00010_ip = 63; continue _fun00009 }
  55:
                     mike = '';
-                    if(!(mike === oscar)) { _fun1083_ip = 89; continue _fun1083 }
+                    if(!(mike === oscar)) { _fun00010_ip = 89; continue _fun00009 }
  63:
                     tango = _closure1_slot6;
                     zulu = tango.log;
                     mike = 'Skipping fast_connect because we could not find a token to connect with.';
                     mike = zulu.bind(tango)(mike);
-                    _fun1083_ip = 571; continue _fun1083;
+                    _fun00010_ip = 571; continue _fun00009;
  89:
                     tango = global;
                     mike = tango.window;
@@ -402,12 +402,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = golf.bind(entity)(mike);
                     mike = golf.isAndroid;
                     mike = mike.bind(golf)();
-                    if(mike) { _fun1083_ip = 169; continue _fun1083 }
+                    if(mike) { _fun00010_ip = 169; continue _fun00009 }
  152:
                     mike = _closure1_slot4;
                     mike = mike.DCDFastConnectManager;
                     mike = mike.userId;
-                    _fun1083_ip = 204; continue _fun1083;
+                    _fun00010_ip = 204; continue _fun00009;
  169:
                     options = _closure1_slot1;
                     yankee = _closure1_slot3;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  204:
                     golf = verify != mike;
                     yankee = null;
-                    if(!golf) { _fun1083_ip = 216; continue _fun1083 }
+                    if(!golf) { _fun00010_ip = 216; continue _fun00009 }
  213:
                     yankee = mike;
  216:
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = golf.bind(entity)(oscar);
                     oscar = golf.isAndroid;
                     oscar = oscar.bind(golf)();
-                    if(oscar) { _fun1083_ip = 430; continue _fun1083 }
+                    if(oscar) { _fun00010_ip = 430; continue _fun00009 }
  354:
                     oscar = _closure1_slot4;
                     romeo = oscar.DCDFastConnectManager;
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = foxtrot.isCacheEnabled;
                     foxtrot = oscar.bind(foxtrot)();
                     oscar = null;
-                    if(!foxtrot) { _fun1083_ip = 409; continue _fun1083 }
+                    if(!foxtrot) { _fun00010_ip = 409; continue _fun00009 }
  405:
                     oscar = _closure1_slot5;
  409:
@@ -479,18 +479,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     output = report;
                     sizing = oscar;
                     oscar = update[golf](echo, result, output, sizing, kilo);
-                    _fun1083_ip = 551; continue _fun1083;
+                    _fun00010_ip = 551; continue _fun00009;
  430:
                     golf = verify == yankee;
                     oscar = undefined;
-                    if(golf) { _fun1083_ip = 448; continue _fun1083 }
+                    if(golf) { _fun00010_ip = 448; continue _fun00009 }
  439:
                     golf = yankee.toString;
                     oscar = golf.bind(yankee)();
  448:
                     golf = verify != oscar;
                     verify = null;
-                    if(!golf) { _fun1083_ip = 460; continue _fun1083 }
+                    if(!golf) { _fun00010_ip = 460; continue _fun00009 }
  457:
                     verify = oscar;
  460:
@@ -509,7 +509,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = yankee.isCacheEnabled;
                     yankee = tango.bind(yankee)();
                     tango = undefined;
-                    if(!yankee) { _fun1083_ip = 532; continue _fun1083 }
+                    if(!yankee) { _fun00010_ip = 532; continue _fun00009 }
  528:
                     tango = _closure1_slot5;
  532:

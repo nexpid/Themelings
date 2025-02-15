@@ -7,12 +7,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: canReportRaid
-        _fun114242: for(var _fun114242_ip = 0; ; ) switch(_fun114242_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = arguments[1];
             entity = undefined;
-            if(!(zulu === entity)) { _fun114242_ip = 19; continue _fun114242 }
+            if(!(zulu === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             zulu = _closure1_slot2;
  19:
@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.BAN_MEMBERS;
             entity = tango.bind(zulu)(entity, report);
             tango = zulu;
-            if(entity) { _fun114242_ip = 72; continue _fun114242 }
+            if(entity) { _fun00002_ip = 72; continue _fun00001 }
  50:
             oscar = tango.can;
             zulu = _closure1_slot5;
             zulu = zulu.KICK_MEMBERS;
             entity = oscar.bind(tango)(zulu, report);
  72:
-            if(entity) { _fun114242_ip = 97; continue _fun114242 }
+            if(entity) { _fun00002_ip = 97; continue _fun00001 }
  75:
             zulu = tango.can;
             mike = _closure1_slot5;
@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = report;
     tango = function(argFoo) { // Original name: canEnableRaidAlerts
-        _fun114243: for(var _fun114243_ip = 0; ; ) switch(_fun114243_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun114243_ip = 16; continue _fun114243 }
+            if(!(tango === entity)) { _fun00004_ip = 16; continue _fun00003 }
  9:
             tango = _closure1_slot2;
  16:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['canReportRaid'] = report;
     report = function(argFoo) { // Original name: useCanReportRaid
-        _fun114244: for(var _fun114244_ip = 0; ; ) switch(_fun114244_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
@@ -123,12 +123,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = verify;
             entity = function() {
-                _fun114246: for(var _fun114246_ip = 0; ; ) switch(_fun114246_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun114246_ip = 43; continue _fun114246 }
+                    if(!zulu) { _fun00008_ip = 43; continue _fun00007 }
  16:
                     tango = _closure1_slot3;
                     zulu = tango.getGuildIncident;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = golf.bind(options)(report, entity, tango);
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun114244_ip = 161; continue _fun114244 }
+            if(!entity) { _fun00006_ip = 161; continue _fun00005 }
  130:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.bind(tango)(report);
  161:
             entity = !entity;
-            if(!entity) { _fun114244_ip = 170; continue _fun114244 }
+            if(!entity) { _fun00006_ip = 170; continue _fun00005 }
  167:
             entity = mike;
  170:
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useCanEnableRaidAlerts'] = tango;
     mike = function(argFoo) { // Original name: useShowMentionRaidLimitUpsell
-        _fun114249: for(var _fun114249_ip = 0; ; ) switch(_fun114249_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -207,12 +207,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = golf;
             mike = function() {
-                _fun114250: for(var _fun114250_ip = 0; ; ) switch(_fun114250_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = _closure1_slot2;
                     mike = undefined;
-                    if(!(zulu === mike)) { _fun114250_ip = 24; continue _fun114250 }
+                    if(!(zulu === mike)) { _fun00012_ip = 24; continue _fun00011 }
  20:
                     zulu = _closure1_slot2;
  24:
@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.useIsMentionRaidExperimentEnabled;
             oscar = null;
             options = oscar == golf;
-            if(options) { _fun114249_ip = 105; continue _fun114249 }
+            if(options) { _fun00010_ip = 105; continue _fun00009 }
  100:
             zulu = golf.id;
  105:
-            if(!(oscar == zulu)) { _fun114249_ip = 113; continue _fun114249 }
+            if(!(oscar == zulu)) { _fun00010_ip = 113; continue _fun00009 }
  109:
             zulu = _closure1_slot4;
  113:
             entity = false;
             entity = tango.bind(report)(zulu, entity);
-            if(!entity) { _fun114249_ip = 127; continue _fun114249 }
+            if(!entity) { _fun00010_ip = 127; continue _fun00009 }
  124:
             entity = mike;
  127:

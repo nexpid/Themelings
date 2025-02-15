@@ -31,12 +31,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun98477: for(var _fun98477_ip = 0; ; ) switch(_fun98477_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         oscar = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun98477_ip = 71; continue _fun98477 }
+                        if(mike) { _fun00002_ip = 71; continue _fun00001 }
  10:
                         mike = _closure1_slot8;
                         zulu = undefined;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  28:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun98477_ip = 68; continue _fun98477 }
+                        if(report) { _fun00002_ip = 68; continue _fun00001 }
  34:
                         report = _closure1_slot1;
                         golf = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: LocaleInfo
-        _fun98479: for(var _fun98479_ip = 0; ; ) switch(_fun98479_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.bind(tango)(romeo, verify);
             oscar['trailing'] = verify;
             verify = 'Locale data does not match';
-            if(!(yankee === offset)) { _fun98479_ip = 575; continue _fun98479 }
+            if(!(yankee === offset)) { _fun00004_ip = 575; continue _fun00003 }
  569:
             verify = 'Locale data matches current locale';
  575:

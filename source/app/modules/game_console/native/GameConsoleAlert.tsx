@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/game_console/native/GameConsoleAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SelfDismissibleAlertBody
-        _fun103213: for(var _fun103213_ip = 0; ; ) switch(_fun103213_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.body;
@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = verify;
             zulu[1] = options;
             entity = function() {
-                _fun103215: for(var _fun103215_ip = 0; ; ) switch(_fun103215_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun103215_ip = 23; continue _fun103215 }
+                    if(!(mike != zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                     mike = _closure2_slot0;
                     entity = undefined;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = tango.bind(golf)(entity, zulu);
             entity = null;
-            if(!(entity != yankee)) { _fun103213_ip = 324; continue _fun103213 }
+            if(!(entity != yankee)) { _fun00002_ip = 324; continue _fun00001 }
  136:
             tango = _closure1_slot7;
             zulu = _closure1_slot3;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = options;
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun103213_ip = 344; continue _fun103213;
+            _fun00002_ip = 344; continue _fun00001;
  324:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;

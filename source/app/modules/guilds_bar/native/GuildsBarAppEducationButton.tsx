@@ -24,11 +24,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun114621: for(var _fun114621_ip = 0; ; ) switch(_fun114621_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun114621_ip = 153; continue _fun114621 }
+                    if(mike) { _fun00002_ip = 153; continue _fun00001 }
  10:
                     golf = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return mike;
  57:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun114621_ip = 150; continue _fun114621 }
+                    if(zulu) { _fun00002_ip = 150; continue _fun00001 }
  63:
                     options = mike.default;
                     golf = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     return zulu;
  107:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun114621_ip = 147; continue _fun114621 }
+                    if(report) { _fun00002_ip = 147; continue _fun00001 }
  113:
                     report = zulu.openInAppEducationActionSheet;
                     golf = options.acknowledgeTooltip;

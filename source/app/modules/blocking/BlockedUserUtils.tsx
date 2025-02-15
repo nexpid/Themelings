@@ -55,18 +55,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.filter;
         entity = function(argFoo) {
-            _fun114530: for(var _fun114530_ip = 0; ; ) switch(_fun114530_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 tango = _closure2_slot0;
                 entity = null;
-                if(!(entity == tango)) { _fun114530_ip = 41; continue _fun114530 }
+                if(!(entity == tango)) { _fun00002_ip = 41; continue _fun00001 }
  16:
                 report = _closure1_slot3;
                 tango = report.isBlockedOrIgnored;
                 entity = mike.id;
                 entity = tango.bind(report)(entity);
-                _fun114530_ip = 60; continue _fun114530;
+                _fun00002_ip = 60; continue _fun00001;
  41:
                 tango = _closure2_slot0;
                 zulu = tango.includes;
@@ -87,17 +87,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure2_slot0 = mike;
         mike = zulu.filter;
         entity = function(argFoo) {
-            _fun114532: for(var _fun114532_ip = 0; ; ) switch(_fun114532_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = argFoo;
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity == zulu)) { _fun114532_ip = 36; continue _fun114532 }
+                if(!(entity == zulu)) { _fun00004_ip = 36; continue _fun00003 }
  16:
                 zulu = _closure1_slot3;
                 entity = zulu.isBlockedOrIgnored;
                 entity = entity.bind(zulu)(tango);
-                _fun114532_ip = 50; continue _fun114532;
+                _fun00004_ip = 50; continue _fun00003;
  36:
                 zulu = _closure2_slot0;
                 mike = zulu.includes;
@@ -133,17 +133,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure2_slot0 = mike;
         mike = zulu.some;
         entity = function(argFoo) {
-            _fun114536: for(var _fun114536_ip = 0; ; ) switch(_fun114536_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity == zulu)) { _fun114536_ip = 36; continue _fun114536 }
+                if(!(entity == zulu)) { _fun00006_ip = 36; continue _fun00005 }
  16:
                 zulu = _closure1_slot3;
                 entity = zulu.isBlockedOrIgnored;
                 entity = entity.bind(zulu)(tango);
-                _fun114536_ip = 50; continue _fun114536;
+                _fun00006_ip = 50; continue _fun00005;
  36:
                 zulu = _closure2_slot0;
                 mike = zulu.includes;

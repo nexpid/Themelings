@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = oscar;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: getEmbeddedActivityJoinability
-        _fun71620: for(var _fun71620_ip = 0; ; ) switch(_fun71620_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             romeo = zulu.userId;
@@ -22,33 +22,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu.PermissionStore;
             oscar = zulu.GuildStore;
             zulu = null;
-            if(!(zulu != romeo)) { _fun71620_ip = 599; continue _fun71620 }
+            if(!(zulu != romeo)) { _fun00002_ip = 599; continue _fun00001 }
  69:
             backup = zulu == entity;
             offset = undefined;
             report = undefined;
-            if(backup) { _fun71620_ip = 86; continue _fun71620 }
+            if(backup) { _fun00002_ip = 86; continue _fun00001 }
  80:
             report = entity.nsfwAllowed;
  86:
             entity = false;
-            if(!(entity === report)) { _fun71620_ip = 131; continue _fun71620 }
+            if(!(entity === report)) { _fun00002_ip = 131; continue _fun00001 }
  92:
             entity = zulu == yankee;
             report = undefined;
-            if(entity) { _fun71620_ip = 122; continue _fun71620 }
+            if(entity) { _fun00002_ip = 122; continue _fun00001 }
  101:
             entity = yankee.embeddedActivityConfig;
             backup = zulu == entity;
             report = undefined;
-            if(backup) { _fun71620_ip = 122; continue _fun71620 }
+            if(backup) { _fun00002_ip = 122; continue _fun00001 }
  116:
             report = entity.requires_age_gate;
  122:
             entity = true;
-            if(!(entity !== report)) { _fun71620_ip = 584; continue _fun71620 }
+            if(!(entity !== report)) { _fun00002_ip = 584; continue _fun00001 }
  131:
-            if(mike) { _fun71620_ip = 149; continue _fun71620 }
+            if(mike) { _fun00002_ip = 149; continue _fun00001 }
  137:
             mike = _closure1_slot9;
             mike = mike.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
@@ -61,65 +61,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(offset)(mike);
             backup = zulu == yankee;
             mike = undefined;
-            if(backup) { _fun71620_ip = 199; continue _fun71620 }
+            if(backup) { _fun00002_ip = 199; continue _fun00001 }
  178:
             yankee = yankee.embeddedActivityConfig;
             backup = zulu == yankee;
             mike = undefined;
-            if(backup) { _fun71620_ip = 199; continue _fun71620 }
+            if(backup) { _fun00002_ip = 199; continue _fun00001 }
  193:
             mike = yankee.supported_platforms;
  199:
             mike = report.bind(offset)(mike);
-            if(mike) { _fun71620_ip = 219; continue _fun71620 }
+            if(mike) { _fun00002_ip = 219; continue _fun00001 }
  207:
             mike = _closure1_slot9;
             mike = mike.ACTIVITY_NOT_SUPPORTED_ON_OS;
             return mike;
  219:
             report = golf;
-            if(!(zulu == report)) { _fun71620_ip = 270; continue _fun71620 }
+            if(!(zulu == report)) { _fun00002_ip = 270; continue _fun00001 }
  226:
             yankee = options.getVoiceStateForSession;
             backup = zulu == foxtrot;
             mike = undefined;
-            if(backup) { _fun71620_ip = 247; continue _fun71620 }
+            if(backup) { _fun00002_ip = 247; continue _fun00001 }
  241:
             mike = foxtrot.session_id;
  247:
             yankee = yankee.bind(options)(romeo, mike);
             romeo = zulu == yankee;
             mike = undefined;
-            if(romeo) { _fun71620_ip = 267; continue _fun71620 }
+            if(romeo) { _fun00002_ip = 267; continue _fun00001 }
  262:
             mike = yankee.channelId;
  267:
             report = mike;
  270:
-            if(!(zulu != report)) { _fun71620_ip = 572; continue _fun71620 }
+            if(!(zulu != report)) { _fun00002_ip = 572; continue _fun00001 }
  277:
             mike = tango.getChannel;
             golf = mike.bind(tango)(golf);
-            if(!(zulu != golf)) { _fun71620_ip = 560; continue _fun71620 }
+            if(!(zulu != golf)) { _fun00002_ip = 560; continue _fun00001 }
  294:
             mike = golf.isPrivate;
             mike = mike.bind(golf)();
-            if(mike) { _fun71620_ip = 548; continue _fun71620 }
+            if(mike) { _fun00002_ip = 548; continue _fun00001 }
  310:
             mike = golf.getGuildId;
             tango = mike.bind(golf)();
-            if(!(zulu != tango)) { _fun71620_ip = 536; continue _fun71620 }
+            if(!(zulu != tango)) { _fun00002_ip = 536; continue _fun00001 }
  327:
             mike = oscar.getGuild;
             mike = mike.bind(oscar)(tango);
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun71620_ip = 352; continue _fun71620 }
+            if(tango) { _fun00002_ip = 352; continue _fun00001 }
  346:
             zulu = mike.afkChannelId;
  352:
             mike = golf.id;
-            if(!(zulu !== mike)) { _fun71620_ip = 524; continue _fun71620 }
+            if(!(zulu !== mike)) { _fun00002_ip = 524; continue _fun00001 }
  364:
             zulu = options.getCurrentClientVoiceChannelId;
             mike = golf.getGuildId;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot8;
             oscar = oscar.USE_EMBEDDED_ACTIVITIES;
             oscar = options.bind(verify)(oscar, golf);
-            if(oscar) { _fun71620_ip = 477; continue _fun71620 }
+            if(oscar) { _fun00002_ip = 477; continue _fun00001 }
  465:
             oscar = _closure1_slot9;
             oscar = oscar.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
@@ -148,13 +148,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  477:
             oscar = golf.isVocal;
             oscar = oscar.bind(golf)();
-            if(!oscar) { _fun71620_ip = 548; continue _fun71620 }
+            if(!oscar) { _fun00002_ip = 548; continue _fun00001 }
  490:
-            if(!(tango !== report)) { _fun71620_ip = 548; continue _fun71620 }
+            if(!(tango !== report)) { _fun00002_ip = 548; continue _fun00001 }
  494:
-            if(zulu) { _fun71620_ip = 512; continue _fun71620 }
+            if(zulu) { _fun00002_ip = 512; continue _fun00001 }
  497:
-            if(mike) { _fun71620_ip = 548; continue _fun71620 }
+            if(mike) { _fun00002_ip = 548; continue _fun00001 }
  500:
             mike = _closure1_slot9;
             mike = mike.NO_CHANNEL_CONNECT_PERMISSION;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['default'] = report;
     zulu['EmbeddedActivityJoinability'] = tango;
     mike = function(argFoo) { // Original name: useEmbeddedActivityJoinability
-        _fun71621: for(var _fun71621_ip = 0; ; ) switch(_fun71621_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             oscar = mike.userId;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             options = zulu != verify;
             zulu = undefined;
-            if(!options) { _fun71621_ip = 95; continue _fun71621 }
+            if(!options) { _fun00004_ip = 95; continue _fun00003 }
  92:
             zulu = verify;
  95:

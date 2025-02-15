@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     report = options.memo;
     mike = function(argFoo) { // Original name: QuestDockGestureContextProviderInner
-        _fun91345: for(var _fun91345_ip = 0; ; ) switch(_fun91345_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot3;
             golf = oscar.useMemo;
@@ -152,10 +152,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.questDockSoftDismissedAt;
             report = yankee.bind(romeo)(report);
             yankee = _closure1_slot5;
-            if(report) { _fun91345_ip = 369; continue _fun91345 }
+            if(report) { _fun00002_ip = 369; continue _fun00001 }
  361:
             report = yankee.COLLAPSED;
-            _fun91345_ip = 375; continue _fun91345;
+            _fun00002_ip = 375; continue _fun00001;
  369:
             report = yankee.SOFT_DISMISSED;
  375:

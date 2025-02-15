@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/expression_picker/native/useExpressionPickerInsets.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useExpressionPickerInsets
-        _fun84758: for(var _fun84758_ip = 0; ; ) switch(_fun84758_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.hasCategories;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.bind(verify)(zulu, golf);
             entity['safeAreaStyle'] = zulu;
             zulu = 0;
-            if(!oscar) { _fun84758_ip = 133; continue _fun84758 }
+            if(!oscar) { _fun00002_ip = 133; continue _fun00001 }
  129:
             zulu = _closure1_slot3;
  133:

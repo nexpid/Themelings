@@ -54,7 +54,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     golf = golf.ClydeIcon;
     mike['IconComponent'] = golf;
     tango = function() { // Original name: useAppVersionSettingTrailing
-        _fun98172: for(var _fun98172_ip = 0; ; ) switch(_fun98172_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             verify = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             report = zulu.concat;
             tango = '';
             zulu = ' (';
-            if(entity) { _fun98172_ip = 199; continue _fun98172 }
+            if(entity) { _fun00002_ip = 199; continue _fun00001 }
  172:
             yankee = ') - ';
             kilo = tango;
@@ -101,7 +101,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             romeo = mike;
             offset = golf;
             entity = kilo[report](backup, foxtrot, romeo, yankee, offset, verify);
-            _fun98172_ip = 219; continue _fun98172;
+            _fun00002_ip = 219; continue _fun00001;
  199:
             yankee = ')';
             kilo = tango;

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/devtools/native/components/screens/DevToolsProfilingUseStateFromStores.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DevToolsProfilingUseStateFromStores
-        _fun98522: for(var _fun98522_ip = 0; ; ) switch(_fun98522_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot3;
             report = mike.useState;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = offset.bind(tango)(verify, report);
             report = new Array(2);
             report[0] = verify;
-            if(!options) { _fun98522_ip = 1356; continue _fun98522 }
+            if(!options) { _fun00002_ip = 1356; continue _fun00001 }
  553:
             verify = _closure1_slot6;
             sequence = _closure1_slot0;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = record.bind(papa)();
             source['defaultValue'] = record;
             record = function(argFoo) { // Original name: onChange
-                _fun98529: for(var _fun98529_ip = 0; ; ) switch(_fun98529_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = global;
                     tango = mike.Number;
@@ -277,19 +277,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(entity)(zulu);
                     mike = mike.isNaN;
                     mike = mike.bind(entity)(zulu);
-                    if(mike) { _fun98529_ip = 56; continue _fun98529 }
+                    if(mike) { _fun00004_ip = 56; continue _fun00003 }
  32:
                     mike = 1000;
-                    if(!(zulu > mike)) { _fun98529_ip = 56; continue _fun98529 }
+                    if(!(zulu > mike)) { _fun00004_ip = 56; continue _fun00003 }
  42:
                     mike = _closure2_slot2;
                     mike = mike.bind(entity)(zulu);
-                    _fun98529_ip = 91; continue _fun98529;
+                    _fun00004_ip = 91; continue _fun00003;
  56:
                     mike = _closure2_slot9;
                     tango = mike.current;
                     mike = null;
-                    if(!(mike != tango)) { _fun98529_ip = 91; continue _fun98529 }
+                    if(!(mike != tango)) { _fun00004_ip = 91; continue _fun00003 }
  74:
                     zulu = tango.setText;
                     mike = '60000';

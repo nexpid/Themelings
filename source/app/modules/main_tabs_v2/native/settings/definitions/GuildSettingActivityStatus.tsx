@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: onValueChange
-        _fun99928: for(var _fun99928_ip = 0; ; ) switch(_fun99928_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot2;
             entity = undefined;
@@ -101,11 +101,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.getSanitizedActivityRestrictedGuilds;
             oscar = zulu.bind(report)();
             zulu = argFoo;
-            if(zulu) { _fun99928_ip = 61; continue _fun99928 }
+            if(zulu) { _fun00002_ip = 61; continue _fun00001 }
  49:
             zulu = oscar.add;
             zulu = zulu.bind(oscar)(tango);
-            _fun99928_ip = 71; continue _fun99928;
+            _fun00002_ip = 71; continue _fun00001;
  61:
             zulu = oscar.delete;
             zulu = zulu.bind(oscar)(tango);

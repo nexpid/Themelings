@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/native/NotificationSurveyResponseActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSurveyResponseActionSheet
-        _fun90788: for(var _fun90788_ip = 0; ; ) switch(_fun90788_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.header;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             report = null;
             oscar = report != verify;
-            if(!oscar) { _fun90788_ip = 143; continue _fun90788 }
+            if(!oscar) { _fun00002_ip = 143; continue _fun00001 }
  62:
             options = _closure1_slot6;
             offset = _closure1_slot0;

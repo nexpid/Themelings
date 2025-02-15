@@ -77,25 +77,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = mike;
         report = copyDataProperties(verify, options);
         zulu = function(argFoo, argBar, argBaz) { // Original name: react
-            _fun6171: for(var _fun6171_ip = 0; ; ) switch(_fun6171_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = argBaz;
                 zulu = {};
                 tango = mike.context;
                 oscar = null;
-                if(!(oscar != tango)) { _fun6171_ip = 78; continue _fun6171 }
+                if(!(oscar != tango)) { _fun00002_ip = 78; continue _fun00001 }
  19:
                 report = mike.context;
                 tango = mike.target;
                 tango = report[tango];
-                if(!tango) { _fun6171_ip = 46; continue _fun6171 }
+                if(!tango) { _fun00002_ip = 46; continue _fun00001 }
  37:
                 report = tango.onClick;
-                if(report) { _fun6171_ip = 54; continue _fun6171 }
+                if(report) { _fun00002_ip = 54; continue _fun00001 }
  46:
                 zulu['onClick'] = tango;
-                _fun6171_ip = 78; continue _fun6171;
+                _fun00002_ip = 78; continue _fun00001;
  54:
                 report = tango.onClick;
                 zulu['onClick'] = report;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu['onContextMenu'] = tango;
  78:
                 tango = zulu.onClick;
-                if(!(oscar == tango)) { _fun6171_ip = 158; continue _fun6171 }
+                if(!(oscar == tango)) { _fun00002_ip = 158; continue _fun00001 }
  88:
                 golf = _closure1_slot0;
                 report = _closure1_slot1;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = mike.target;
                 report = golf.bind(options)(report);
                 oscar = oscar != report;
-                if(!oscar) { _fun6171_ip = 140; continue _fun6171 }
+                if(!oscar) { _fun00002_ip = 140; continue _fun00001 }
  137:
                 tango = report;
  140:

@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsChannel
-        _fun86813: for(var _fun86813_ip = 0; ; ) switch(_fun86813_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             output = argFoo;
             var _closure2_slot0 = output;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot3;
             oscar = options.useLayoutEffect;
             zulu = function() {
-                _fun86814: for(var _fun86814_ip = 0; ; ) switch(_fun86814_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure2_slot3;
                     zulu = report.setOptions;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.bind(report)(mike);
                     mike = _closure2_slot0;
                     mike = mike.inGuildContext;
-                    if(!mike) { _fun86814_ip = 155; continue _fun86814 }
+                    if(!mike) { _fun00004_ip = 155; continue _fun00003 }
  90:
                     zulu = _closure2_slot3;
                     mike = zulu.setOptions;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['margin'] = result;
             report['style'] = options;
             offset = kilo.muted;
-            if(!offset) { _fun86813_ip = 459; continue _fun86813 }
+            if(!offset) { _fun00002_ip = 459; continue _fun00001 }
  328:
             romeo = _closure1_slot6;
             source = _closure1_slot0;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = output.channel;
             offset = yankee.isForumLikeChannel;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun86813_ip = 691; continue _fun86813 }
+            if(!offset) { _fun00002_ip = 691; continue _fun00001 }
  637:
             backup = _closure1_slot6;
             romeo = _closure1_slot0;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[4] = offset;
             verify = verify.inherited;
             verify = !verify;
-            if(!verify) { _fun86813_ip = 834; continue _fun86813 }
+            if(!verify) { _fun00002_ip = 834; continue _fun00001 }
  710:
             romeo = _closure1_slot6;
             yankee = _closure1_slot4;

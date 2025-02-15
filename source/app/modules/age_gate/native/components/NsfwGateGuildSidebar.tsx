@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/age_gate/native/components/NsfwGateGuildSidebar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun116204: for(var _fun116204_ip = 0; ; ) switch(_fun116204_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.style;
@@ -129,17 +129,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = options;
             mike[2] = oscar;
             entity = function() {
-                _fun116206: for(var _fun116206_ip = 0; ; ) switch(_fun116206_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
                     zulu = null;
                     entity = zulu != entity;
-                    if(!entity) { _fun116206_ip = 24; continue _fun116206 }
+                    if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     mike = _closure2_slot1;
                     entity = zulu != mike;
  24:
-                    if(!entity) { _fun116206_ip = 190; continue _fun116206 }
+                    if(!entity) { _fun00004_ip = 190; continue _fun00003 }
  30:
                     mike = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = options.bind(offset)(yankee, golf);
                     entity['is_member'] = golf;
                     oscar = oscar.nsfwAllowed;
-                    if(!oscar) { _fun116206_ip = 165; continue _fun116206 }
+                    if(!oscar) { _fun00004_ip = 165; continue _fun00003 }
  129:
                     options = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity, mike);
             entity = null;
             mike = entity == options;
-            if(mike) { _fun116204_ip = 485; continue _fun116204 }
+            if(mike) { _fun00002_ip = 485; continue _fun00001 }
  153:
             tango = _closure1_slot13;
             zulu = _closure1_slot4;

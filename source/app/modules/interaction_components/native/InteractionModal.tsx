@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: InteractionModal
-        _fun123820: for(var _fun123820_ip = 0; ; ) switch(_fun123820_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             backup = argFoo;
             entity = _closure1_slot9;
@@ -147,11 +147,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = null;
             kilo = echo != context;
             result = null;
-            if(!kilo) { _fun123820_ip = 709; continue _fun123820 }
+            if(!kilo) { _fun00002_ip = 709; continue _fun00001 }
  604:
             kilo = '';
             result = null;
-            if(!(kilo !== context)) { _fun123820_ip = 709; continue _fun123820 }
+            if(!(kilo !== context)) { _fun00002_ip = 709; continue _fun00001 }
  614:
             vacuum = _closure1_slot6;
             echo = _closure1_slot3;

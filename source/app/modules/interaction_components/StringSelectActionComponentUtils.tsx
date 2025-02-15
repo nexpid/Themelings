@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/interaction_components/StringSelectActionComponentUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getInitialStringSelectOptions
-        _fun71820: for(var _fun71820_ip = 0; ; ) switch(_fun71820_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = _closure1_slot2;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = report == mike;
             golf = undefined;
             report = undefined;
-            if(oscar) { _fun71820_ip = 50; continue _fun71820 }
+            if(oscar) { _fun00002_ip = 50; continue _fun00001 }
  45:
             report = mike.type;
  50:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(golf)(tango);
             tango = tango.ComponentType;
             tango = tango.STRING_SELECT;
-            if(!(report !== tango)) { _fun71820_ip = 127; continue _fun71820 }
+            if(!(report !== tango)) { _fun00002_ip = 127; continue _fun00001 }
  86:
             report = zulu.options;
             tango = report.filter;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = zulu.bind(tango)(entity);
-            _fun71820_ip = 132; continue _fun71820;
+            _fun00002_ip = 132; continue _fun00001;
  127:
             entity = mike.values;
  132:

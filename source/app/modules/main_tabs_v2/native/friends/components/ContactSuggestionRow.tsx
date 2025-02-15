@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/components/ContactSuggestionRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ContactSuggestionRow
-        _fun119598: for(var _fun119598_ip = 0; ; ) switch(_fun119598_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             yankee = oscar.suggestedFriend;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             var _closure2_slot4 = tango;
             report = yankee.friendSuggestionName;
-            if(!(echo != report)) { _fun119598_ip = 109; continue _fun119598 }
+            if(!(echo != report)) { _fun00002_ip = 109; continue _fun00001 }
  94:
             report = yankee.friendSuggestionName;
             report = report.length;
-            if(!(!(report > mike))) { _fun119598_ip = 150; continue _fun119598 }
+            if(!(!(report > mike))) { _fun00002_ip = 150; continue _fun00001 }
  109:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.getName;
             report = yankee.user;
             foxtrot = oscar.bind(options)(report);
-            _fun119598_ip = 156; continue _fun119598;
+            _fun00002_ip = 156; continue _fun00001;
  150:
             foxtrot = yankee.friendSuggestionName;
  156:
@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = new Array(1);
             backup[0] = zulu;
             zulu = function() {
-                _fun119600: for(var _fun119600_ip = 0; ; ) switch(_fun119600_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun119600_ip = 100; continue _fun119600 }
+                    if(entity) { _fun00004_ip = 100; continue _fun00003 }
  10:
                     mike = {};
                     zulu = _closure1_slot10;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['label'] = entity;
                     entity = new Array(1);
                     entity[0] = mike;
-                    _fun119600_ip = 104; continue _fun119600;
+                    _fun00004_ip = 104; continue _fun00003;
  100:
                     entity = new Array(0);
  104:
@@ -175,14 +175,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = yankee.user;
             zulu[2] = entity;
             entity = function(argFoo) {
-                _fun119602: for(var _fun119602_ip = 0; ; ) switch(_fun119602_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
                     zulu = entity.actionName;
                     entity = _closure1_slot10;
                     entity = entity.ADD;
-                    if(!(zulu !== entity)) { _fun119602_ip = 35; continue _fun119602 }
+                    if(!(zulu !== entity)) { _fun00006_ip = 35; continue _fun00005 }
  31:
                     entity = undefined;
                     return entity;
@@ -210,16 +210,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = oscar.bind(romeo)(entity, zulu);
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun119598_ip = 351; continue _fun119598 }
+            if(zulu) { _fun00002_ip = 351; continue _fun00001 }
  345:
             entity = yankee.mutualFriendsCount;
  351:
             romeo = echo != entity;
-            if(!romeo) { _fun119598_ip = 377; continue _fun119598 }
+            if(!romeo) { _fun00002_ip = 377; continue _fun00001 }
  358:
             zulu = echo == yankee;
             entity = undefined;
-            if(zulu) { _fun119598_ip = 373; continue _fun119598 }
+            if(zulu) { _fun00002_ip = 373; continue _fun00001 }
  367:
             entity = yankee.mutualFriendsCount;
  373:
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = mike.getSuggestedContactNameForSuggestion;
             output = entity.bind(mike)(foxtrot, yankee);
-            if(!(echo == output)) { _fun119598_ip = 451; continue _fun119598 }
+            if(!(echo == output)) { _fun00002_ip = 451; continue _fun00001 }
  413:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getUserTag;
             entity = yankee.user;
             oscar = mike.bind(zulu)(entity);
-            _fun119598_ip = 517; continue _fun119598;
+            _fun00002_ip = 517; continue _fun00001;
  451:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['actioned'] = offset;
             backup['label'] = oscar;
             oscar = undefined;
-            if(!romeo) { _fun119598_ip = 755; continue _fun119598 }
+            if(!romeo) { _fun00002_ip = 755; continue _fun00001 }
  678:
             sizing = _closure1_slot0;
             update = _closure1_slot2;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             update = echo == yankee;
             echo = undefined;
-            if(update) { _fun119598_ip = 745; continue _fun119598 }
+            if(update) { _fun00002_ip = 745; continue _fun00001 }
  739:
             echo = yankee.mutualFriendsCount;
  745:
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['user'] = yankee;
             report['added'] = offset;
             verify = function(argFoo) { // Original name: onAddSuggestion
-                _fun119603: for(var _fun119603_ip = 0; ; ) switch(_fun119603_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure1_slot1;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot3;
                     options = options.location;
                     offset = null;
-                    if(!(offset == options)) { _fun119603_ip = 97; continue _fun119603 }
+                    if(!(offset == options)) { _fun00008_ip = 97; continue _fun00007 }
  87:
                     verify = _closure1_slot6;
                     options = verify.ADD_FRIENDS_MODAL;

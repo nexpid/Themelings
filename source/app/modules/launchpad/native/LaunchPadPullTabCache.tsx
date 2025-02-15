@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = verify;
     oscar = function() { // Original name: getLaunchPadPullTabPositionCached
-        _fun120832: for(var _fun120832_ip = 0; ; ) switch(_fun120832_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot6;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu == entity)) { _fun120832_ip = 55; continue _fun120832 }
+            if(!(zulu == entity)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             entity = _closure1_slot4;
  55:
@@ -45,11 +45,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = report;
     mike = function() { // Original name: setLaunchPadPullTabExclusionRect
-        _fun120834: for(var _fun120834_ip = 0; ; ) switch(_fun120834_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[0];
             entity = undefined;
-            if(!(report === entity)) { _fun120834_ip = 20; continue _fun120834 }
+            if(!(report === entity)) { _fun00004_ip = 20; continue _fun00003 }
  9:
             mike = _closure1_slot9;
             report = mike.bind(entity)();
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun120834_ip = 300; continue _fun120834 }
+            if(!zulu) { _fun00004_ip = 300; continue _fun00003 }
  58:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -84,45 +84,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = null;
             offset = options == verify;
             zulu = undefined;
-            if(offset) { _fun120834_ip = 153; continue _fun120834 }
+            if(offset) { _fun00004_ip = 153; continue _fun00003 }
  148:
             zulu = verify.left;
  153:
             zulu = zulu === golf;
-            if(!zulu) { _fun120834_ip = 182; continue _fun120834 }
+            if(!zulu) { _fun00004_ip = 182; continue _fun00003 }
  160:
             offset = _closure1_slot8;
             yankee = options == offset;
             verify = undefined;
-            if(yankee) { _fun120834_ip = 178; continue _fun120834 }
+            if(yankee) { _fun00004_ip = 178; continue _fun00003 }
  173:
             verify = offset.right;
  178:
             zulu = verify === oscar;
  182:
-            if(!zulu) { _fun120834_ip = 207; continue _fun120834 }
+            if(!zulu) { _fun00004_ip = 207; continue _fun00003 }
  185:
             offset = _closure1_slot8;
             yankee = options == offset;
             verify = undefined;
-            if(yankee) { _fun120834_ip = 203; continue _fun120834 }
+            if(yankee) { _fun00004_ip = 203; continue _fun00003 }
  198:
             verify = offset.top;
  203:
             zulu = verify === report;
  207:
-            if(!zulu) { _fun120834_ip = 232; continue _fun120834 }
+            if(!zulu) { _fun00004_ip = 232; continue _fun00003 }
  210:
             verify = _closure1_slot8;
             offset = options == verify;
             options = undefined;
-            if(offset) { _fun120834_ip = 228; continue _fun120834 }
+            if(offset) { _fun00004_ip = 228; continue _fun00003 }
  223:
             options = verify.bottom;
  228:
             zulu = options === tango;
  232:
-            if(zulu) { _fun120834_ip = 300; continue _fun120834 }
+            if(zulu) { _fun00004_ip = 300; continue _fun00003 }
  235:
             zulu = {};
             zulu['left'] = golf;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['persistLaunchPadPullTabPosition'] = report;
     tango = function() { // Original name: clearLaunchPadPullTabExclusionRect
-        _fun120837: for(var _fun120837_ip = 0; ; ) switch(_fun120837_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -210,13 +210,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun120837_ip = 47; continue _fun120837 }
+            if(!zulu) { _fun00006_ip = 47; continue _fun00005 }
  37:
             report = _closure1_slot8;
             tango = null;
             zulu = tango != report;
  47:
-            if(!zulu) { _fun120837_ip = 89; continue _fun120837 }
+            if(!zulu) { _fun00006_ip = 89; continue _fun00005 }
  50:
             _closure1_slot8 = entity;
             zulu = _closure1_slot1;

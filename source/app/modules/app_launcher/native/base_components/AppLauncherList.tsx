@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     report = options.forwardRef;
     tango = function(argFoo, argBar) {
-        _fun113439: for(var _fun113439_ip = 0; ; ) switch(_fun113439_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             golf = argBar;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['estimatedItemSize'] = options;
             options = report.scrollerRef;
             verify = null;
-            if(!(verify != options)) { _fun113439_ip = 200; continue _fun113439 }
+            if(!(verify != options)) { _fun00002_ip = 200; continue _fun00001 }
  197:
             golf = options;
  200:

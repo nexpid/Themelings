@@ -89,7 +89,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/useAllowedChatOverlays.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useAllowedChatOverlays
-        _fun89602: for(var _fun89602_ip = 0; ; ) switch(_fun89602_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -127,12 +127,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = null;
             options = tango == entity;
             tango = undefined;
-            if(options) { _fun89602_ip = 126; continue _fun89602 }
+            if(options) { _fun00002_ip = 126; continue _fun00001 }
  121:
             tango = entity.location;
  126:
             report = report.bind(golf)(tango);
-            if(!(oscar !== entity)) { _fun89602_ip = 178; continue _fun89602 }
+            if(!(oscar !== entity)) { _fun00002_ip = 178; continue _fun00001 }
  135:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -141,11 +141,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = tango.bind(oscar)(entity);
             entity = _closure1_slot4;
             entity = tango.bind(oscar)(report, entity);
-            if(entity) { _fun89602_ip = 178; continue _fun89602 }
+            if(entity) { _fun00002_ip = 178; continue _fun00001 }
  168:
             entity = _closure1_slot5;
             entity = entity[zulu];
-            _fun89602_ip = 190; continue _fun89602;
+            _fun00002_ip = 190; continue _fun00001;
  178:
             mike = _closure1_slot5;
             entity = mike.no_text_activity;

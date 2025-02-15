@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.UserCircleIcon;
     mike['IconComponent'] = tango;
     tango = function() { // Original name: useAccountSettingTrailing
-        _fun94217: for(var _fun94217_ip = 0; ; ) switch(_fun94217_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -68,7 +68,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = zulu.useIsEligibleForPomelo;
             zulu = entity.bind(zulu)();
             entity = null;
-            if(!zulu) { _fun94217_ip = 144; continue _fun94217 }
+            if(!zulu) { _fun00002_ip = 144; continue _fun00001 }
  40:
             tango = _closure1_slot3;
             golf = _closure1_slot1;

@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/chat_sidebar/CustomizeGroupDMActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun112708: for(var _fun112708_ip = 0; ; ) switch(_fun112708_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.channelId;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity != zulu;
             mike = '';
-            if(!tango) { _fun112708_ip = 130; continue _fun112708 }
+            if(!tango) { _fun00002_ip = 130; continue _fun00001 }
  127:
             mike = zulu;
  130:
@@ -130,18 +130,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[2] = mike;
             zulu[3] = foxtrot;
             mike = function() {
-                _fun112710: for(var _fun112710_ip = 0; ; ) switch(_fun112710_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
                     mike = mike != zulu;
-                    if(!mike) { _fun112710_ip = 28; continue _fun112710 }
+                    if(!mike) { _fun00004_ip = 28; continue _fun00003 }
  16:
                     tango = _closure2_slot2;
                     zulu = _closure2_slot3;
                     mike = tango !== zulu;
  28:
-                    if(!mike) { _fun112710_ip = 76; continue _fun112710 }
+                    if(!mike) { _fun00004_ip = 76; continue _fun00003 }
  31:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot4 = oscar;
             mike = entity == result;
             entity = null;
-            if(mike) { _fun112708_ip = 615; continue _fun112708 }
+            if(mike) { _fun00002_ip = 615; continue _fun00001 }
  232:
             tango = _closure1_slot8;
             yankee = _closure1_slot0;

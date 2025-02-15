@@ -155,14 +155,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = oscar;
         mike[2] = entity;
         entity = function(argFoo) {
-            _fun120787: for(var _fun120787_ip = 0; ; ) switch(_fun120787_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = mike.nativeEvent;
                 entity = entity.layout;
                 tango = entity.height;
                 zulu = _closure2_slot2;
-                if(!(tango !== zulu)) { _fun120787_ip = 65; continue _fun120787 }
+                if(!(tango !== zulu)) { _fun00002_ip = 65; continue _fun00001 }
  30:
                 zulu = _closure2_slot3;
                 mike = mike.nativeEvent;

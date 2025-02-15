@@ -80,14 +80,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot3 = entity;
         oscar = entity.reduce;
         report = function(argFoo, argBar, argBaz) {
-            _fun77230: for(var _fun77230_ip = 0; ; ) switch(_fun77230_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 mike = argBaz;
                 zulu = argBar;
                 tango = zulu.id;
                 zulu = _closure2_slot0;
-                if(!(tango === zulu)) { _fun77230_ip = 28; continue _fun77230 }
+                if(!(tango === zulu)) { _fun00002_ip = 28; continue _fun00001 }
  25:
                 entity = mike;
  28:
@@ -144,18 +144,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         entity['increment'] = report;
         tango = function() { // Original name: decrement
-            _fun77233: for(var _fun77233_ip = 0; ; ) switch(_fun77233_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot5;
                 mike = entity.current;
                 entity = 0;
-                if(!(entity !== mike)) { _fun77233_ip = 36; continue _fun77233 }
+                if(!(entity !== mike)) { _fun00004_ip = 36; continue _fun00003 }
  18:
                 entity = _closure2_slot5;
                 mike = entity.current;
                 entity = 1;
                 tango = mike - entity;
-                _fun77233_ip = 52; continue _fun77233;
+                _fun00004_ip = 52; continue _fun00003;
  36:
                 entity = _closure2_slot3;
                 mike = entity.length;

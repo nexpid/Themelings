@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/screens/SuggestedFriendsScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: SuggestedFriendsScreen
-        _fun119614: for(var _fun119614_ip = 0; ; ) switch(_fun119614_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot9;
             tango = undefined;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[2] = romeo;
             options[3] = zulu;
             zulu = function(argFoo, argBar) {
-                _fun119617: for(var _fun119617_ip = 0; ; ) switch(_fun119617_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = argBar;
                     var _closure3_slot0 = tango;
@@ -160,16 +160,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     options = oscar == zulu;
                     report = undefined;
-                    if(options) { _fun119617_ip = 41; continue _fun119617 }
+                    if(options) { _fun00004_ip = 41; continue _fun00003 }
  35:
                     report = zulu.mutualFriendsCount;
  41:
                     report = oscar != report;
-                    if(!report) { _fun119617_ip = 69; continue _fun119617 }
+                    if(!report) { _fun00004_ip = 69; continue _fun00003 }
  48:
                     oscar = oscar == zulu;
                     golf = undefined;
-                    if(oscar) { _fun119617_ip = 63; continue _fun119617 }
+                    if(oscar) { _fun00004_ip = 63; continue _fun00003 }
  57:
                     golf = zulu.mutualFriendsCount;
  63:
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = 'custom';
                     entity['type'] = tango;
                     tango = 'contactSuggestionNoMutualCount';
-                    if(!report) { _fun119617_ip = 118; continue _fun119617 }
+                    if(!report) { _fun00004_ip = 118; continue _fun00003 }
  112:
                     tango = 'contactSuggestionMutualCount';
  118:
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = verify;
             yankee = kilo.length;
             verify = 0;
-            if(!(verify === yankee)) { _fun119614_ip = 444; continue _fun119614 }
+            if(!(verify === yankee)) { _fun00002_ip = 444; continue _fun00001 }
  324:
             romeo = _closure1_slot7;
             yankee = _closure1_slot4;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = romeo.bind(tango)(output, sizing);
             verify['children'] = sizing;
             verify = romeo.bind(tango)(yankee, verify);
-            _fun119614_ip = 510; continue _fun119614;
+            _fun00002_ip = 510; continue _fun00001;
  444:
             romeo = _closure1_slot7;
             yankee = _closure1_slot0;

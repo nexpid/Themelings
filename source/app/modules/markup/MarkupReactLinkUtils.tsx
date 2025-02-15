@@ -21,13 +21,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/markup/MarkupReactLinkUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isLinkTrusted
-        _fun90484: for(var _fun90484_ip = 0; ; ) switch(_fun90484_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = oscar.target;
             verify = null;
             entity = verify != entity;
-            if(!entity) { _fun90484_ip = 125; continue _fun90484 }
+            if(!entity) { _fun00002_ip = 125; continue _fun00001 }
  18:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -38,11 +38,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = report.isLinkTrusted;
             zulu = oscar.target;
             golf = oscar.title;
-            if(!(verify != golf)) { _fun90484_ip = 76; continue _fun90484 }
+            if(!(verify != golf)) { _fun00002_ip = 76; continue _fun00001 }
  63:
             verify = oscar.title;
             golf = '';
-            if(!(golf === verify)) { _fun90484_ip = 114; continue _fun90484 }
+            if(!(golf === verify)) { _fun00002_ip = 114; continue _fun00001 }
  76:
             golf = _closure1_slot0;
             verify = _closure1_slot1;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = options.astToString;
             mike = oscar.content;
             mike = golf.bind(options)(mike);
-            _fun90484_ip = 119; continue _fun90484;
+            _fun00002_ip = 119; continue _fun00001;
  114:
             mike = oscar.title;
  119:

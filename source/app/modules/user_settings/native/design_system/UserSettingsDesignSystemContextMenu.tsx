@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = zulu.bind(tango)(mike);
         mike = zulu.map;
         entity = function(argFoo, argBar) {
-            _fun99263: for(var _fun99263_ip = 0; ; ) switch(_fun99263_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = argBar;
                 entity = {};
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = 1;
                 zulu = zulu - mike;
                 mike = 'default';
-                if(!(tango === zulu)) { _fun99263_ip = 83; continue _fun99263 }
+                if(!(tango === zulu)) { _fun00002_ip = 83; continue _fun00001 }
  77:
                 mike = 'destructive';
  83:
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: DemoContextMenu
-        _fun99265: for(var _fun99265_ip = 0; ; ) switch(_fun99265_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.label;
@@ -79,24 +79,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = mike.align;
             yankee = mike.triggerOnLongPress;
             tango = undefined;
-            if(!(yankee === tango)) { _fun99265_ip = 34; continue _fun99265 }
+            if(!(yankee === tango)) { _fun00004_ip = 34; continue _fun00003 }
  32:
             yankee = false;
  34:
             offset = mike.count;
-            if(!(offset === tango)) { _fun99265_ip = 46; continue _fun99265 }
+            if(!(offset === tango)) { _fun00004_ip = 46; continue _fun00003 }
  43:
             offset = 3;
  46:
             var _closure2_slot1 = offset;
             entity = mike.sections;
-            if(!(entity === tango)) { _fun99265_ip = 63; continue _fun99265 }
+            if(!(entity === tango)) { _fun00004_ip = 63; continue _fun00003 }
  60:
             entity = 1;
  63:
             var _closure2_slot2 = entity;
             golf = mike.alignButton;
-            if(!(golf === tango)) { _fun99265_ip = 83; continue _fun99265 }
+            if(!(golf === tango)) { _fun00004_ip = 83; continue _fun00003 }
  77:
             golf = 'flex-start';
  83:
@@ -106,17 +106,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = offset;
             mike[1] = entity;
             entity = function() {
-                _fun99266: for(var _fun99266_ip = 0; ; ) switch(_fun99266_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
                     entity = 1;
-                    if(!(!(mike > entity))) { _fun99266_ip = 34; continue _fun99266 }
+                    if(!(!(mike > entity))) { _fun00006_ip = 34; continue _fun00005 }
  14:
                     zulu = _closure1_slot10;
                     mike = _closure2_slot1;
                     entity = undefined;
                     entity = zulu.bind(entity)(mike);
-                    _fun99266_ip = 81; continue _fun99266;
+                    _fun00006_ip = 81; continue _fun00005;
  34:
                     mike = global;
                     tango = mike.Array;

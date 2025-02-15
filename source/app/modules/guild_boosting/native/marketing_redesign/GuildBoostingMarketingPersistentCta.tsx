@@ -134,14 +134,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = foxtrot.bind(tango)(zulu);
         zulu = report.useAnimatedStyle;
         mike = function() { // Original name: _
-            _fun65765: for(var _fun65765_ip = 0; ; ) switch(_fun65765_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 tango = {};
                 report = _closure2_slot1;
                 verify = -120;
                 mike = verify;
-                if(report) { _fun65765_ip = 76; continue _fun65765 }
+                if(report) { _fun00002_ip = 76; continue _fun00001 }
  23:
                 options = _closure1_slot0;
                 golf = _closure1_slot2;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = options.withSpring;
                 offset = _closure2_slot0;
                 oscar = 120;
-                if(!offset) { _fun65765_ip = 66; continue _fun65765 }
+                if(!offset) { _fun00002_ip = 66; continue _fun00001 }
  63:
                 oscar = verify;
  66:
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = report.withSpring;
                 oscar = _closure2_slot0;
                 zulu = 0;
-                if(!oscar) { _fun65765_ip = 135; continue _fun65765 }
+                if(!oscar) { _fun00002_ip = 135; continue _fun00001 }
  132:
                 zulu = 1;
  135:

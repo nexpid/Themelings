@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChannelsEmpty
-        _fun116047: for(var _fun116047_ip = 0; ; ) switch(_fun116047_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.guild;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             report = control.wrapper;
             entity['style'] = report;
-            if(!oscar) { _fun116047_ip = 361; continue _fun116047 }
+            if(!oscar) { _fun00002_ip = 361; continue _fun00001 }
  191:
             options = _closure1_slot8;
             golf = _closure1_slot4;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['children'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             verify[2] = yankee;
-            if(!offset) { _fun116047_ip = 806; continue _fun116047 }
+            if(!offset) { _fun00002_ip = 806; continue _fun00001 }
  660:
             foxtrot = _closure1_slot8;
             romeo = _closure1_slot4;

@@ -59,7 +59,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.ACCOUNT;
     mike['parent'] = tango;
     tango = function() { // Original name: accountCanUseWebAuthnView
-        _fun94632: for(var _fun94632_ip = 0; ; ) switch(_fun94632_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.getCurrentUser;
@@ -68,16 +68,16 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = entity == zulu;
             verify = undefined;
             mike = undefined;
-            if(tango) { _fun94632_ip = 35; continue _fun94632 }
+            if(tango) { _fun00002_ip = 35; continue _fun00001 }
  29:
             mike = zulu.verified;
  35:
             entity = entity != mike;
-            if(!entity) { _fun94632_ip = 45; continue _fun94632 }
+            if(!entity) { _fun00002_ip = 45; continue _fun00001 }
  42:
             entity = mike;
  45:
-            if(entity) { _fun94632_ip = 187; continue _fun94632 }
+            if(entity) { _fun00002_ip = 187; continue _fun00001 }
  51:
             zulu = _closure1_slot1;
             offset = _closure1_slot2;
@@ -115,12 +115,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['preNavigationAction'] = tango;
     tango = function() { // Original name: useAccountSecurityKeysSettingTrailing
-        _fun94633: for(var _fun94633_ip = 0; ; ) switch(_fun94633_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.hasFetchedCredentials;
             mike = mike.bind(zulu)();
-            if(mike) { _fun94633_ip = 52; continue _fun94633 }
+            if(mike) { _fun00004_ip = 52; continue _fun00003 }
  20:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;

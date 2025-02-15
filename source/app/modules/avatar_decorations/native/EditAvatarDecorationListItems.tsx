@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = report.bind(options)(tango);
     var _closure1_slot8 = tango;
     tango = function(argFoo) { // Original name: EditAvatarDecorationListItem
-        _fun64049: for(var _fun64049_ip = 0; ; ) switch(_fun64049_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.size;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.accessibilityLabel;
             options = entity.accessibilityRole;
             tango = undefined;
-            if(!(options === tango)) { _fun64049_ip = 61; continue _fun64049 }
+            if(!(options === tango)) { _fun00002_ip = 61; continue _fun00001 }
  57:
             options = 'button';
  61:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(4);
             options[0] = offset;
             offset = null;
-            if(!foxtrot) { _fun64049_ip = 177; continue _fun64049 }
+            if(!foxtrot) { _fun00002_ip = 177; continue _fun00001 }
  171:
             offset = romeo.selected;
  177:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['EditAvatarDecorationListItem'] = tango;
     tango = function(argFoo) {
-        _fun64051: for(var _fun64051_ip = 0; ; ) switch(_fun64051_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             verify = argFoo;
             entity = _closure1_slot8;
@@ -219,11 +219,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = backup[offset];
             offset = foxtrot.bind(tango)(offset);
             offset = offset.t;
-            if(verify) { _fun64051_ip = 238; continue _fun64051 }
+            if(verify) { _fun00004_ip = 238; continue _fun00003 }
  225:
             verify = offset.PoWNfX;
             verify = yankee.bind(romeo)(verify);
-            _fun64051_ip = 249; continue _fun64051;
+            _fun00004_ip = 249; continue _fun00003;
  238:
             offset = offset.GsW4/v;
             verify = yankee.bind(romeo)(offset);
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['EditAvatarDecorationShopItem'] = tango;
     mike = function(argFoo) {
-        _fun64053: for(var _fun64053_ip = 0; ; ) switch(_fun64053_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             backup = tango.avatarDecoration;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot8;
             yankee = zulu.bind(tango)();
             report = entity == verify;
-            if(report) { _fun64053_ip = 245; continue _fun64053 }
+            if(report) { _fun00006_ip = 245; continue _fun00005 }
  208:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isPremiumCollectiblesPurchase;
             entity = entity.bind(zulu)(verify);
-            if(!entity) { _fun64053_ip = 242; continue _fun64053 }
+            if(!entity) { _fun00006_ip = 242; continue _fun00005 }
  239:
             entity = !mike;
  242:
@@ -397,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = verify;
             oscar[1] = options;
-            if(!report) { _fun64053_ip = 405; continue _fun64053 }
+            if(!report) { _fun00006_ip = 405; continue _fun00005 }
  344:
             verify = _closure1_slot6;
             options = _closure1_slot0;

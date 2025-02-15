@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun48896: for(var _fun48896_ip = 0; ; ) switch(_fun48896_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun48896_ip = 51; continue _fun48896 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun48896_ip = 92; continue _fun48896;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun48896_ip = 71; continue _fun48896 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun48897: for(var _fun48897_ip = 0; ; ) switch(_fun48897_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun48897_ip = 74; continue _fun48897;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -144,16 +144,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun48902: for(var _fun48902_ip = 0; ; ) switch(_fun48902_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = arguments[0];
                 entity = undefined;
-                if(!(zulu === entity)) { _fun48902_ip = 16; continue _fun48902 }
+                if(!(zulu === entity)) { _fun00006_ip = 16; continue _fun00005 }
  9:
                 zulu = _closure1_slot8;
  16:
                 mike = null;
-                if(!(mike == zulu)) { _fun48902_ip = 29; continue _fun48902 }
+                if(!(mike == zulu)) { _fun00006_ip = 29; continue _fun00005 }
  22:
                 zulu = _closure1_slot8;
  29:
@@ -168,12 +168,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'defaultRoute';
         report['key'] = golf;
         golf = function() { // Original name: get
-            _fun48903: for(var _fun48903_ip = 0; ; ) switch(_fun48903_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = _closure1_slot9;
                 entity = entity.lastViewedPath;
                 zulu = null;
-                if(!(zulu == entity)) { _fun48903_ip = 29; continue _fun48903 }
+                if(!(zulu == entity)) { _fun00008_ip = 29; continue _fun00007 }
  19:
                 mike = _closure1_slot7;
                 entity = mike.ME;
@@ -187,12 +187,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'lastNonVoiceRoute';
         report['key'] = golf;
         golf = function() { // Original name: get
-            _fun48904: for(var _fun48904_ip = 0; ; ) switch(_fun48904_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot9;
                 entity = entity.lastViewedNonVoicePath;
                 zulu = null;
-                if(!(zulu == entity)) { _fun48904_ip = 29; continue _fun48904 }
+                if(!(zulu == entity)) { _fun00010_ip = 29; continue _fun00009 }
  19:
                 mike = _closure1_slot7;
                 entity = mike.ME;

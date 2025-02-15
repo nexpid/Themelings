@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/channel_list_v2/native/useChannelListWidth.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useChannelListWidth
-        _fun91361: for(var _fun91361_ip = 0; ; ) switch(_fun91361_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity.DM_WIDTH;
             mike = mike - entity;
             entity = 0;
-            if(!tango) { _fun91361_ip = 92; continue _fun91361 }
+            if(!tango) { _fun00002_ip = 92; continue _fun00001 }
  88:
             entity = _closure1_slot3;
  92:
@@ -60,7 +60,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function() { // Original name: getChannelListWidth
-        _fun91362: for(var _fun91362_ip = 0; ; ) switch(_fun91362_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity.DM_WIDTH;
             mike = mike - entity;
             entity = 0;
-            if(!tango) { _fun91362_ip = 94; continue _fun91362 }
+            if(!tango) { _fun00004_ip = 94; continue _fun00003 }
  90:
             entity = _closure1_slot3;
  94:

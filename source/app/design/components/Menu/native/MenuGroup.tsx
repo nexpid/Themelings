@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun48602: for(var _fun48602_ip = 0; ; ) switch(_fun48602_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = argBar;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             report = report !== options;
             options = !report;
-            if(report) { _fun48602_ip = 87; continue _fun48602 }
+            if(report) { _fun00002_ip = 87; continue _fun00001 }
  61:
             yankee = _closure1_slot2;
             offset = _closure1_slot1;
@@ -89,19 +89,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = golf.Children;
             golf = options.map;
             oscar = function(argFoo, argBar) {
-                _fun48603: for(var _fun48603_ip = 0; ; ) switch(_fun48603_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     zulu = 0;
                     mike = argBar;
                     entity = report;
-                    if(!(zulu === mike)) { _fun48603_ip = 68; continue _fun48603 }
+                    if(!(zulu === mike)) { _fun00004_ip = 68; continue _fun00003 }
  15:
                     tango = _closure1_slot0;
                     zulu = tango.isValidElement;
                     zulu = zulu.bind(tango)(report);
                     entity = report;
-                    if(!zulu) { _fun48603_ip = 68; continue _fun48603 }
+                    if(!zulu) { _fun00004_ip = 68; continue _fun00003 }
  39:
                     tango = _closure1_slot0;
                     zulu = tango.cloneElement;

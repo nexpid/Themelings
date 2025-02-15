@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/devtools/native/components/screens/DevToolsProfilingScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DevToolsProfilingScreen
-        _fun98517: for(var _fun98517_ip = 0; ; ) switch(_fun98517_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.useState;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             verify = 16;
             report['spacing'] = verify;
-            if(options) { _fun98517_ip = 429; continue _fun98517 }
+            if(options) { _fun00002_ip = 429; continue _fun00001 }
  208:
             yankee = _closure1_slot6;
             vacuum = _closure1_slot0;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(tango)(foxtrot, romeo);
             options['children'] = romeo;
             verify = yankee.bind(tango)(verify, options);
-            _fun98517_ip = 592; continue _fun98517;
+            _fun00002_ip = 592; continue _fun00001;
  429:
             romeo = _closure1_slot8;
             yankee = _closure1_slot7;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = yankee.isAndroid;
             yankee = verify.bind(yankee)();
             verify = null;
-            if(!yankee) { _fun98517_ip = 684; continue _fun98517 }
+            if(!yankee) { _fun00002_ip = 684; continue _fun00001 }
  668:
             romeo = _closure1_slot6;
             yankee = _closure1_slot10;

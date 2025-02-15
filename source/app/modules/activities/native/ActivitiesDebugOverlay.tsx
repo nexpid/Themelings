@@ -64,7 +64,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/activities/native/ActivitiesDebugOverlay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ActivitiesDebugOverlay
-        _fun104340: for(var _fun104340_ip = 0; ; ) switch(_fun104340_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             entity = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.UNHANDLED;
             offset = '';
             yankee = 'always-white';
-            if(!(entity !== zulu)) { _fun104340_ip = 258; continue _fun104340 }
+            if(!(entity !== zulu)) { _fun00002_ip = 258; continue _fun00001 }
  71:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -90,7 +90,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.NOMINAL;
             offset = 'nominal';
             yankee = 'text-positive';
-            if(!(entity !== zulu)) { _fun104340_ip = 258; continue _fun104340 }
+            if(!(entity !== zulu)) { _fun00002_ip = 258; continue _fun00001 }
  119:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.FAIR;
             offset = 'fair';
             yankee = 'text-warning';
-            if(!(entity !== zulu)) { _fun104340_ip = 258; continue _fun104340 }
+            if(!(entity !== zulu)) { _fun00002_ip = 258; continue _fun00001 }
  164:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -111,7 +111,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = 'serious';
             entity = 'text-danger';
             yankee = entity;
-            if(!(mike !== zulu)) { _fun104340_ip = 258; continue _fun104340 }
+            if(!(mike !== zulu)) { _fun00002_ip = 258; continue _fun00001 }
  212:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -121,7 +121,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.CRITICAL;
             offset = undefined;
             yankee = undefined;
-            if(!(mike === zulu)) { _fun104340_ip = 258; continue _fun104340 }
+            if(!(mike === zulu)) { _fun00002_ip = 258; continue _fun00001 }
  249:
             offset = 'critical';
             yankee = entity;

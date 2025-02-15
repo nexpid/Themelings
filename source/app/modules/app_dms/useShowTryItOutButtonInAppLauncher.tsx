@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_dms/useShowTryItOutButtonInAppLauncher.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShowTryItOutButtonInAppLauncher
-        _fun119010: for(var _fun119010_ip = 0; ; ) switch(_fun119010_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.context;
@@ -48,12 +48,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = {};
             mike['context'] = oscar;
             mike = zulu.bind(report)(mike);
-            if(!entity) { _fun119010_ip = 105; continue _fun119010 }
+            if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  99:
             zulu = null;
             entity = zulu != tango;
  105:
-            if(!entity) { _fun119010_ip = 111; continue _fun119010 }
+            if(!entity) { _fun00002_ip = 111; continue _fun00001 }
  108:
             entity = !mike;
  111:

@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz, argCorge, argGrault) {
             entity = function* (argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: ?anon_0_
-                _fun65754: for(var _fun65754_ip = 0; ; ) switch(_fun65754_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     kilo = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun65754_ip = 498; continue _fun65754 }
+                    if(mike) { _fun00002_ip = 498; continue _fun00001 }
  13:
                     oscar = kilo;
                     romeo = argBar;
@@ -61,25 +61,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     report = {};
                     foxtrot = romeo;
                     offset = null;
-                    if(!(offset != foxtrot)) { _fun65754_ip = 141; continue _fun65754 }
+                    if(!(offset != foxtrot)) { _fun00002_ip = 141; continue _fun00001 }
  132:
                     foxtrot = report;
                     foxtrot['country_code'] = romeo;
  141:
                     romeo = yankee;
-                    if(!(offset != romeo)) { _fun65754_ip = 157; continue _fun65754 }
+                    if(!(offset != romeo)) { _fun00002_ip = 157; continue _fun00001 }
  148:
                     romeo = report;
                     romeo['payment_source_id'] = yankee;
  157:
                     yankee = verify;
-                    if(!(offset != yankee)) { _fun65754_ip = 173; continue _fun65754 }
+                    if(!(offset != yankee)) { _fun00002_ip = 173; continue _fun00001 }
  164:
                     yankee = report;
                     yankee['include_unpublished'] = verify;
  173:
                     verify = golf;
-                    if(!(offset != verify)) { _fun65754_ip = 191; continue _fun65754 }
+                    if(!(offset != verify)) { _fun00002_ip = 191; continue _fun00001 }
  180:
                     verify = report;
                     verify['revenue_surface'] = golf;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     golf['query'] = report;
                     report = _closure1_slot4;
                     report = report.ipCountryCodeLoaded;
-                    if(report) { _fun65754_ip = 256; continue _fun65754 }
+                    if(report) { _fun00002_ip = 256; continue _fun00001 }
  213:
                     golf = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return report;
  247:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(!golf) { _fun65754_ip = 256; continue _fun65754 }
+                    if(!golf) { _fun00002_ip = 256; continue _fun00001 }
  253: // try_end0
                     return report;
  256: // try_start_1
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     return zulu;
  295:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun65754_ip = 361; continue _fun65754 }
+                    if(report) { _fun00002_ip = 361; continue _fun00001 }
  301:
                     golf = _closure1_slot1;
                     report = _closure1_slot2;

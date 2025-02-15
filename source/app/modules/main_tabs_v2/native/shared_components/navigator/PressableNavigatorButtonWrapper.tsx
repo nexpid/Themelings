@@ -55,13 +55,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PressableNavigatorButtonWrapper
-        _fun78651: for(var _fun78651_ip = 0; ; ) switch(_fun78651_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.children;
             oscar = entity.isModal;
             tango = undefined;
-            if(!(oscar === tango)) { _fun78651_ip = 22; continue _fun78651 }
+            if(!(oscar === tango)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             oscar = false;
  22:
@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             options = false;
             entity['collapsable'] = options;
-            if(oscar) { _fun78651_ip = 61; continue _fun78651 }
+            if(oscar) { _fun00002_ip = 61; continue _fun00001 }
  53:
             oscar = golf.buttonWrapper;
-            _fun78651_ip = 67; continue _fun78651;
+            _fun00002_ip = 67; continue _fun00001;
  61:
             oscar = golf.buttonWrapperModal;
  67:

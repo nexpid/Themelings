@@ -62,19 +62,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = mike;
     report = options.forwardRef;
     tango = function(argFoo, argBar) {
-        _fun48619: for(var _fun48619_ip = 0; ; ) switch(_fun48619_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.style;
             golf = entity.children;
             offset = entity.keyboardShouldPersistTaps;
             tango = undefined;
-            if(!(offset === tango)) { _fun48619_ip = 31; continue _fun48619 }
+            if(!(offset === tango)) { _fun00002_ip = 31; continue _fun00001 }
  25:
             offset = 'never';
  31:
             verify = entity.alwaysBounceVertical;
-            if(!(verify === tango)) { _fun48619_ip = 43; continue _fun48619 }
+            if(!(verify === tango)) { _fun00002_ip = 43; continue _fun00001 }
  41:
             verify = true;
  43:
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(3);
             foxtrot[0] = sizing;
             foxtrot[1] = kilo;
-            if(!backup) { _fun48619_ip = 198; continue _fun48619 }
+            if(!backup) { _fun00002_ip = 198; continue _fun00001 }
  192:
             backup = yankee.redesign;
  198:

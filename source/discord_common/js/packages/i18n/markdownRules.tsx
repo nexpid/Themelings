@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     verify = offset.bind(yankee)(verify);
     golf['match'] = verify;
     verify = function(argFoo, argBar, argBaz) { // Original name: parse
-        _fun6166: for(var _fun6166_ip = 0; ; ) switch(_fun6166_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBaz;
             mike = entity.unsafeContext;
@@ -143,12 +143,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = 'string';
             entity = typeof tango;
             mike = tango;
-            if(!(zulu !== entity)) { _fun6166_ip = 62; continue _fun6166 }
+            if(!(zulu !== entity)) { _fun00002_ip = 62; continue _fun00001 }
  37:
             entity = null;
             zulu = entity != tango;
             entity = '';
-            if(!zulu) { _fun6166_ip = 59; continue _fun6166 }
+            if(!zulu) { _fun00002_ip = 59; continue _fun00001 }
  50:
             zulu = tango.toString;
             entity = zulu.bind(tango)();

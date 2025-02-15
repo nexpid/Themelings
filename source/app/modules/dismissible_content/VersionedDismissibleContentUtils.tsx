@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/dismissible_content/VersionedDismissibleContentUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getVersionedDismissibleContentCurrentVersion
-        _fun38279: for(var _fun38279_ip = 0; ; ) switch(_fun38279_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-            if(!(zulu !== tango)) { _fun38279_ip = 211; continue _fun38279 }
+            if(!(zulu !== tango)) { _fun00002_ip = 211; continue _fun00001 }
  47:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.GIFTING_PROMOTION_ICON;
-            if(!(zulu !== tango)) { _fun38279_ip = 183; continue _fun38279 }
+            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
  80:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
-            if(!(zulu !== tango)) { _fun38279_ip = 183; continue _fun38279 }
+            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
  113:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            if(!(zulu !== tango)) { _fun38279_ip = 183; continue _fun38279 }
+            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
  146:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.GIFTING_PROMOTION_REMINDER;
-            if(!(zulu !== tango)) { _fun38279_ip = 183; continue _fun38279 }
+            if(!(zulu !== tango)) { _fun00002_ip = 183; continue _fun00001 }
  179:
             zulu = 0;
             return zulu;
@@ -95,13 +95,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == zulu;
             mike = undefined;
-            if(tango) { _fun38279_ip = 275; continue _fun38279 }
+            if(tango) { _fun00002_ip = 275; continue _fun00001 }
  269:
             mike = zulu.version;
  275:
             zulu = entity != mike;
             entity = 0;
-            if(!zulu) { _fun38279_ip = 287; continue _fun38279 }
+            if(!zulu) { _fun00002_ip = 287; continue _fun00001 }
  284:
             entity = mike;
  287:

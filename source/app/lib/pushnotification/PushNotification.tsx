@@ -1,6 +1,6 @@
 // app/lib/pushnotification/PushNotification.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun75474: for(var _fun75474_ip = 0; ; ) switch(_fun75474_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -10,17 +10,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot1 = entity;
         var _closure1_slot2 = oscar;
         entity = function(argFoo) { // Original name: createNotification
-            _fun75475: for(var _fun75475_ip = 0; ; ) switch(_fun75475_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 var _closure2_slot0 = mike;
                 entity = null;
                 mike = entity == mike;
-                if(mike) { _fun75475_ip = 119; continue _fun75475 }
+                if(mike) { _fun00004_ip = 119; continue _fun00003 }
  18:
                 mike = {};
                 tango = function() { // Original name: getData
-                    _fun75476: for(var _fun75476_ip = 0; ; ) switch(_fun75476_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = {};
                         zulu = _closure2_slot0;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = zulu.message;
                         zulu = null;
                         tango = zulu != tango;
-                        if(!tango) { _fun75476_ip = 61; continue _fun75476 }
+                        if(!tango) { _fun00006_ip = 61; continue _fun00005 }
  33:
                         tango = global;
                         report = tango.JSON;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot3 = options;
         mike = null;
         options = mike != options;
-        if(!options) { _fun75474_ip = 139; continue _fun75474 }
+        if(!options) { _fun00002_ip = 139; continue _fun00001 }
  113:
         romeo = golf.PushNotificationAndroid;
         options = verify.prototype;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         var _closure1_slot4 = mike;
         mike = {};
         golf = function() { // Original name: getInitialNotification
-            _fun75484: for(var _fun75484_ip = 0; ; ) switch(_fun75484_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(zulu)(mike);
                 mike = tango.isAndroid;
                 mike = mike.bind(tango)();
-                if(mike) { _fun75484_ip = 69; continue _fun75484 }
+                if(mike) { _fun00008_ip = 69; continue _fun00007 }
  37:
                 mike = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)(entity);
                 entity = mike.getInitialNotification;
                 entity = entity.bind(mike)();
-                _fun75484_ip = 106; continue _fun75484;
+                _fun00008_ip = 106; continue _fun00007;
  69:
                 mike = global;
                 tango = mike.Promise;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['getInitialNotification'] = golf;
         golf = function(argFoo, argBar) { // Original name: setCurrentUser
-            _fun75487: for(var _fun75487_ip = 0; ; ) switch(_fun75487_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75487_ip = 59; continue _fun75487 }
+                if(!zulu) { _fun00010_ip = 59; continue _fun00009 }
  37:
                 report = _closure1_slot3;
                 tango = report.setCurrentUser;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['setCurrentUser'] = golf;
         golf = function() { // Original name: clearPushNotificationLogs
-            _fun75488: for(var _fun75488_ip = 0; ; ) switch(_fun75488_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75488_ip = 74; continue _fun75488 }
+                if(!zulu) { _fun00012_ip = 74; continue _fun00011 }
  37:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['clearPushNotificationLogs'] = golf;
         golf = function(argFoo) { // Original name: setApplicationIconBadgeNumber
-            _fun75489: for(var _fun75489_ip = 0; ; ) switch(_fun75489_ip) {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75489_ip = 71; continue _fun75489 }
+                if(zulu) { _fun00014_ip = 71; continue _fun00013 }
  37:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['setApplicationIconBadgeNumber'] = golf;
         golf = function() { // Original name: clearAllNotifications
-            _fun75490: for(var _fun75490_ip = 0; ; ) switch(_fun75490_ip) {
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75490_ip = 72; continue _fun75490 }
+                if(zulu) { _fun00016_ip = 72; continue _fun00015 }
  37:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = report.setApplicationIconBadgeNumber;
                 zulu = 0;
                 zulu = tango.bind(report)(zulu);
-                _fun75490_ip = 86; continue _fun75490;
+                _fun00016_ip = 86; continue _fun00015;
  72:
                 zulu = _closure1_slot3;
                 mike = zulu.clearAllNotifications;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['clearAllNotifications'] = golf;
         golf = function(argFoo) { // Original name: presentLocalNotification
-            _fun75491: for(var _fun75491_ip = 0; ; ) switch(_fun75491_ip) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                 tango = argFoo;
                 report = _closure1_slot0;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(zulu);
                 zulu = report.isAndroid;
                 zulu = zulu.bind(report)();
-                if(zulu) { _fun75491_ip = 73; continue _fun75491 }
+                if(zulu) { _fun00018_ip = 73; continue _fun00017 }
  40:
                 report = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(zulu);
                 zulu = report.presentLocalNotification;
                 zulu = zulu.bind(report)(tango);
-                _fun75491_ip = 88; continue _fun75491;
+                _fun00018_ip = 88; continue _fun00017;
  73:
                 zulu = _closure1_slot3;
                 mike = zulu.presentLocalNotification;
@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['presentLocalNotification'] = golf;
         golf = function(argFoo) { // Original name: scheduleLocalNotification
-            _fun75492: for(var _fun75492_ip = 0; ; ) switch(_fun75492_ip) {
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75492_ip = 71; continue _fun75492 }
+                if(zulu) { _fun00020_ip = 71; continue _fun00019 }
  37:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['scheduleLocalNotification'] = golf;
         golf = function(argFoo) { // Original name: getScheduledLocalNotifications
-            _fun75493: for(var _fun75493_ip = 0; ; ) switch(_fun75493_ip) {
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75493_ip = 71; continue _fun75493 }
+                if(zulu) { _fun00022_ip = 71; continue _fun00021 }
  37:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -412,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['getScheduledLocalNotifications'] = golf;
         golf = function(argFoo) { // Original name: cancelLocalNotifications
-            _fun75494: for(var _fun75494_ip = 0; ; ) switch(_fun75494_ip) {
+            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75494_ip = 71; continue _fun75494 }
+                if(zulu) { _fun00024_ip = 71; continue _fun00023 }
  37:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['cancelLocalNotifications'] = golf;
         golf = function() { // Original name: cancelAllLocalNotifications
-            _fun75495: for(var _fun75495_ip = 0; ; ) switch(_fun75495_ip) {
+            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -448,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun75495_ip = 67; continue _fun75495 }
+                if(zulu) { _fun00026_ip = 67; continue _fun00025 }
  37:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['cancelAllLocalNotifications'] = golf;
         golf = function(argFoo) { // Original name: checkPermissions
-            _fun75496: for(var _fun75496_ip = 0; ; ) switch(_fun75496_ip) {
+            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 zulu = argFoo;
                 report = _closure1_slot0;
@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(tango);
                 tango = report.isAndroid;
                 tango = tango.bind(report)();
-                if(tango) { _fun75496_ip = 73; continue _fun75496 }
+                if(tango) { _fun00028_ip = 73; continue _fun00027 }
  40:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;
@@ -483,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(mike);
                 mike = tango.checkPermissions;
                 mike = mike.bind(tango)(zulu);
-                _fun75496_ip = 80; continue _fun75496;
+                _fun00028_ip = 80; continue _fun00027;
  73:
                 mike = {};
                 mike = zulu.bind(entity)(mike);
@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['checkPermissions'] = golf;
         golf = function(argFoo) { // Original name: requestPermissions
-            _fun75497: for(var _fun75497_ip = 0; ; ) switch(_fun75497_ip) {
+            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(zulu)(mike);
                 mike = tango.isAndroid;
                 mike = mike.bind(tango)();
-                if(mike) { _fun75497_ip = 73; continue _fun75497 }
+                if(mike) { _fun00030_ip = 73; continue _fun00029 }
  37:
                 mike = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = zulu.requestPermissions;
                 entity = argFoo;
                 entity = mike.bind(zulu)(entity);
-                _fun75497_ip = 110; continue _fun75497;
+                _fun00030_ip = 110; continue _fun00029;
  73:
                 mike = global;
                 tango = mike.Promise;
@@ -546,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['openNotificationSettings'] = golf;
         golf = function(argFoo, argBar) { // Original name: addNotificationEventListener
-            _fun75500: for(var _fun75500_ip = 0; ; ) switch(_fun75500_ip) {
+            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
                 tango = argFoo;
                 golf = argBar;
@@ -559,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(entity)(report);
                 report = oscar.isAndroid;
                 report = report.bind(oscar)();
-                if(report) { _fun75500_ip = 83; continue _fun75500 }
+                if(report) { _fun00032_ip = 83; continue _fun00031 }
  49:
                 oscar = _closure1_slot1;
                 options = _closure1_slot2;
@@ -568,22 +568,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(entity)(report);
                 report = oscar.addEventListener;
                 report = report.bind(oscar)(tango, golf);
-                _fun75500_ip = 162; continue _fun75500;
+                _fun00032_ip = 162; continue _fun00031;
  83:
                 options = 'notification';
-                if(!(options === tango)) { _fun75500_ip = 114; continue _fun75500 }
+                if(!(options === tango)) { _fun00032_ip = 114; continue _fun00031 }
  91:
                 golf = _closure1_slot4;
                 oscar = golf.addListener;
                 report = function(argFoo) {
-                    _fun75501: for(var _fun75501_ip = 0; ; ) switch(_fun75501_ip) {
+                    _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                         zulu = _closure1_slot5;
                         entity = undefined;
                         mike = argFoo;
                         zulu = zulu.bind(entity)(mike);
                         mike = null;
-                        if(!(mike != zulu)) { _fun75501_ip = 35; continue _fun75501 }
+                        if(!(mike != zulu)) { _fun00034_ip = 35; continue _fun00033 }
  23:
                         mike = _closure2_slot0;
                         mike = mike.bind(entity)(zulu);
@@ -594,19 +594,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.bind(golf)(options, report);
  114:
                 golf = 'localNotification';
-                if(!(golf === tango)) { _fun75500_ip = 147; continue _fun75500 }
+                if(!(golf === tango)) { _fun00032_ip = 147; continue _fun00031 }
  124:
                 oscar = _closure1_slot4;
                 report = oscar.addListener;
                 zulu = function(argFoo) {
-                    _fun75502: for(var _fun75502_ip = 0; ; ) switch(_fun75502_ip) {
+                    _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                         zulu = _closure1_slot5;
                         entity = undefined;
                         mike = argFoo;
                         zulu = zulu.bind(entity)(mike);
                         mike = null;
-                        if(!(mike != zulu)) { _fun75502_ip = 35; continue _fun75502 }
+                        if(!(mike != zulu)) { _fun00036_ip = 35; continue _fun00035 }
  23:
                         mike = _closure2_slot0;
                         mike = mike.bind(entity)(zulu);
@@ -625,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['addNotificationEventListener'] = golf;
         golf = function(argFoo) { // Original name: addRegisterEventListener
-            _fun75503: for(var _fun75503_ip = 0; ; ) switch(_fun75503_ip) {
+            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                 golf = argFoo;
                 var _closure2_slot0 = golf;
@@ -637,7 +637,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(entity)(tango);
                 tango = report.isAndroid;
                 tango = tango.bind(report)();
-                if(tango) { _fun75503_ip = 84; continue _fun75503 }
+                if(tango) { _fun00038_ip = 84; continue _fun00037 }
  46:
                 report = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = oscar.addEventListener;
                 tango = 'register';
                 tango = report.bind(oscar)(tango, golf);
-                _fun75503_ip = 126; continue _fun75503;
+                _fun00038_ip = 126; continue _fun00037;
  84:
                 oscar = _closure1_slot4;
                 report = oscar.addListener;
@@ -675,7 +675,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.prototype;
             mike = Object.create(entity, {constructor: {value: zulu}});
             tango = function(argFoo) {
-                _fun75506: for(var _fun75506_ip = 0; ; ) switch(_fun75506_ip) {
+                _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -687,11 +687,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(entity)(tango);
                     tango = oscar.isAndroid;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun75506_ip = 55; continue _fun75506 }
+                    if(tango) { _fun00040_ip = 55; continue _fun00039 }
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun75506_ip = 86; continue _fun75506;
+                    _fun00040_ip = 86; continue _fun00039;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getSoundsEnabled;
@@ -721,7 +721,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.prototype;
             mike = Object.create(entity, {constructor: {value: zulu}});
             tango = function(argFoo) {
-                _fun75509: for(var _fun75509_ip = 0; ; ) switch(_fun75509_ip) {
+                _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -733,11 +733,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(entity)(tango);
                     tango = oscar.isAndroid;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun75509_ip = 55; continue _fun75509 }
+                    if(tango) { _fun00042_ip = 55; continue _fun00041 }
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun75509_ip = 86; continue _fun75509;
+                    _fun00042_ip = 86; continue _fun00041;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getVibrationsEnabled;
@@ -767,7 +767,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.prototype;
             mike = Object.create(entity, {constructor: {value: zulu}});
             tango = function(argFoo) {
-                _fun75512: for(var _fun75512_ip = 0; ; ) switch(_fun75512_ip) {
+                _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -779,11 +779,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(entity)(tango);
                     tango = oscar.isAndroid;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun75512_ip = 55; continue _fun75512 }
+                    if(tango) { _fun00044_ip = 55; continue _fun00043 }
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun75512_ip = 86; continue _fun75512;
+                    _fun00044_ip = 86; continue _fun00043;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.getLightsEnabled;
@@ -808,7 +808,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['getLightsEnabled'] = golf;
         golf = function(argFoo) { // Original name: setSoundsEnabled
-            _fun75514: for(var _fun75514_ip = 0; ; ) switch(_fun75514_ip) {
+            _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -818,7 +818,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75514_ip = 55; continue _fun75514 }
+                if(!zulu) { _fun00046_ip = 55; continue _fun00045 }
  37:
                 tango = _closure1_slot3;
                 zulu = tango.setSoundsEnabled;
@@ -830,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['setSoundsEnabled'] = golf;
         golf = function(argFoo) { // Original name: setVibrationsEnabled
-            _fun75515: for(var _fun75515_ip = 0; ; ) switch(_fun75515_ip) {
+            _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -840,7 +840,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75515_ip = 55; continue _fun75515 }
+                if(!zulu) { _fun00048_ip = 55; continue _fun00047 }
  37:
                 tango = _closure1_slot3;
                 zulu = tango.setVibrationsEnabled;
@@ -852,7 +852,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['setVibrationsEnabled'] = golf;
         golf = function(argFoo) { // Original name: setLightsEnabled
-            _fun75516: for(var _fun75516_ip = 0; ; ) switch(_fun75516_ip) {
+            _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -862,7 +862,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75516_ip = 55; continue _fun75516 }
+                if(!zulu) { _fun00050_ip = 55; continue _fun00049 }
  37:
                 tango = _closure1_slot3;
                 zulu = tango.setLightsEnabled;
@@ -874,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         mike['setLightsEnabled'] = golf;
         golf = function(argFoo) { // Original name: setAndroidNotifyEveryTime
-            _fun75517: for(var _fun75517_ip = 0; ; ) switch(_fun75517_ip) {
+            _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -884,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.isAndroid;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun75517_ip = 57; continue _fun75517 }
+                if(!zulu) { _fun00052_ip = 57; continue _fun00051 }
  37:
                 tango = _closure1_slot3;
                 zulu = tango.setNotifyEveryTime;
@@ -901,7 +901,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.prototype;
             mike = Object.create(entity, {constructor: {value: zulu}});
             tango = function(argFoo) {
-                _fun75519: for(var _fun75519_ip = 0; ; ) switch(_fun75519_ip) {
+                _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -913,11 +913,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(entity)(tango);
                     tango = oscar.isAndroid;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun75519_ip = 55; continue _fun75519 }
+                    if(tango) { _fun00054_ip = 55; continue _fun00053 }
  46:
                     tango = false;
                     tango = report.bind(entity)(tango);
-                    _fun75519_ip = 88; continue _fun75519;
+                    _fun00054_ip = 88; continue _fun00053;
  55:
                     tango = _closure1_slot3;
                     zulu = tango.shouldNotifyEveryTime;

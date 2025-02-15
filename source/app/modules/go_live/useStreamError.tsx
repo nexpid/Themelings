@@ -78,30 +78,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[1] = golf;
         mike[2] = oscar;
         entity = function() {
-            _fun75246: for(var _fun75246_ip = 0; ; ) switch(_fun75246_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot2;
                 entity = null;
-                if(!(entity != zulu)) { _fun75246_ip = 186; continue _fun75246 }
+                if(!(entity != zulu)) { _fun00002_ip = 186; continue _fun00001 }
  16:
                 report = _closure2_slot2;
                 oscar = _closure1_slot4;
                 tango = oscar.getId;
                 tango = tango.bind(oscar)();
                 yankee = report === tango;
-                if(yankee) { _fun75246_ip = 74; continue _fun75246 }
+                if(yankee) { _fun00002_ip = 74; continue _fun00001 }
  44:
                 golf = _closure1_slot3;
                 oscar = golf.getActiveStreamForUser;
                 report = _closure2_slot2;
                 tango = _closure2_slot1;
                 tango = oscar.bind(golf)(report, tango);
-                if(!(entity == tango)) { _fun75246_ip = 74; continue _fun75246 }
+                if(!(entity == tango)) { _fun00002_ip = 74; continue _fun00001 }
  72:
                 return entity;
  74:
                 golf = yankee;
-                if(!golf) { _fun75246_ip = 109; continue _fun75246 }
+                if(!golf) { _fun00002_ip = 109; continue _fun00001 }
  80:
                 oscar = _closure1_slot5;
                 report = oscar.getHookError;

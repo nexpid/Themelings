@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/LayoutUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GappedList
-        _fun84751: for(var _fun84751_ip = 0; ; ) switch(_fun84751_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.children;
             mike = entity.gap;
             tango = undefined;
-            if(!(mike === tango)) { _fun84751_ip = 25; continue _fun84751 }
+            if(!(mike === tango)) { _fun00002_ip = 25; continue _fun00001 }
  22:
             mike = 4;
  25:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar.Children;
             oscar = golf.map;
             report = function(argFoo, argBar) {
-                _fun84753: for(var _fun84753_ip = 0; ; ) switch(_fun84753_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot5;
                     zulu = _closure1_slot4;
@@ -87,11 +87,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options - report;
                     report = argBar;
                     report = report !== options;
-                    if(!report) { _fun84753_ip = 120; continue _fun84753 }
+                    if(!report) { _fun00004_ip = 120; continue _fun00003 }
  53:
                     verify = _closure2_slot1;
                     options = null;
-                    if(!(options == verify)) { _fun84753_ip = 107; continue _fun84753 }
+                    if(!(options == verify)) { _fun00004_ip = 107; continue _fun00003 }
  63:
                     offset = _closure1_slot3;
                     options = _closure1_slot0;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee = _closure2_slot0;
                     oscar['size'] = yankee;
                     oscar = offset.bind(verify)(options, oscar);
-                    _fun84753_ip = 117; continue _fun84753;
+                    _fun00004_ip = 117; continue _fun00003;
  107:
                     options = _closure2_slot1;
                     golf = undefined;

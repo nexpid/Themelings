@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/links/getLocalizedLink.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getLocalizedLink
-        _fun43948: for(var _fun43948_ip = 0; ; ) switch(_fun43948_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -35,10 +35,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.toLowerCase;
             mike = entity.bind(mike)();
             entity = mike in zulu;
-            if(entity) { _fun43948_ip = 62; continue _fun43948 }
+            if(entity) { _fun00002_ip = 62; continue _fun00001 }
  55:
             entity = zulu.default;
-            _fun43948_ip = 66; continue _fun43948;
+            _fun00002_ip = 66; continue _fun00001;
  62:
             entity = zulu[mike];
  66:

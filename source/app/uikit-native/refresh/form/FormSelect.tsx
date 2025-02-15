@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: OptionButton
-        _fun63730: for(var _fun63730_ip = 0; ; ) switch(_fun63730_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.item;
@@ -25,11 +25,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = verify;
             zulu[1] = offset;
             mike = function() {
-                _fun63731: for(var _fun63731_ip = 0; ; ) switch(_fun63731_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun63731_ip = 28; continue _fun63731 }
+                    if(!(mike != zulu)) { _fun00004_ip = 28; continue _fun00003 }
  13:
                     zulu = _closure2_slot1;
                     mike = _closure2_slot0;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             offset = verify.descriptiveLabel;
             options = null;
-            if(!(options == offset)) { _fun63730_ip = 117; continue _fun63730 }
+            if(!(options == offset)) { _fun00002_ip = 117; continue _fun00001 }
  112:
             offset = verify.label;
  117:
@@ -69,16 +69,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(2);
             golf[0] = verify;
             options = null;
-            if(!report) { _fun63730_ip = 189; continue _fun63730 }
+            if(!report) { _fun00002_ip = 189; continue _fun00001 }
  183:
             options = oscar.buttonSelected;
  189:
             golf[1] = options;
             entity['style'] = golf;
-            if(report) { _fun63730_ip = 207; continue _fun63730 }
+            if(report) { _fun00002_ip = 207; continue _fun00001 }
  200:
             report = oscar.label;
-            _fun63730_ip = 213; continue _fun63730;
+            _fun00002_ip = 213; continue _fun00001;
  207:
             report = oscar.labelSelected;
  213:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormSelect.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSelect
-        _fun63733: for(var _fun63733_ip = 0; ; ) switch(_fun63733_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             sizing = entity.label;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = null;
             oscar = report != sizing;
-            if(!oscar) { _fun63733_ip = 156; continue _fun63733 }
+            if(!oscar) { _fun00006_ip = 156; continue _fun00005 }
  82:
             options = _closure1_slot6;
             golf = _closure1_slot0;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = report === entity;
                 mike['selected'] = entity;
                 entity = function(argFoo) { // Original name: onPress
-                    _fun63735: for(var _fun63735_ip = 0; ; ) switch(_fun63735_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
                         tango = entity.value;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = entity == zulu;
                         zulu = undefined;
                         entity = undefined;
-                        if(report) { _fun63735_ip = 37; continue _fun63735 }
+                        if(report) { _fun00008_ip = 37; continue _fun00007 }
  28:
                         mike = _closure2_slot1;
                         entity = mike.bind(zulu)(tango);

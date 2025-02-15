@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['validation'] = verify;
     options = function(argFoo) { // Original name: handler
-        _fun109566: for(var _fun109566_ip = 0; ; ) switch(_fun109566_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.socket;
@@ -61,12 +61,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.transport;
             zulu = _closure1_slot2;
             zulu = zulu.POST_MESSAGE;
-            if(!(tango === zulu)) { _fun109566_ip = 232; continue _fun109566 }
+            if(!(tango === zulu)) { _fun00002_ip = 232; continue _fun00001 }
  47:
             zulu = entity.application;
             tango = zulu.id;
             zulu = null;
-            if(!(zulu != tango)) { _fun109566_ip = 162; continue _fun109566 }
+            if(!(zulu != tango)) { _fun00002_ip = 162; continue _fun00001 }
  63:
             report = _closure1_slot0;
             tango = _closure1_slot1;

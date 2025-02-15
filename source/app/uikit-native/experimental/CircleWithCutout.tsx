@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     oscar = 'uikit-native/experimental/CircleWithCutout.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo) { // Original name: CircleWithCutout
-        _fun73528: for(var _fun73528_ip = 0; ; ) switch(_fun73528_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.circleRadius;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['r'] = yankee;
             oscar['fill'] = verify;
             verify = undefined;
-            if(!offset) { _fun73528_ip = 319; continue _fun73528 }
+            if(!offset) { _fun00002_ip = 319; continue _fun00001 }
  313:
             verify = 'url(#mask)';
  319:

@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/navigateToLastChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: navigateToLastChannel
-        _fun77763: for(var _fun77763_ip = 0; ; ) switch(_fun77763_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
@@ -40,18 +40,18 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             report = tango.bind(report)(mike);
             mike = null;
             tango = mike != report;
-            if(!tango) { _fun77763_ip = 88; continue _fun77763 }
+            if(!tango) { _fun00002_ip = 88; continue _fun00001 }
  64:
             golf = report.params;
             options = mike == golf;
             oscar = undefined;
-            if(options) { _fun77763_ip = 84; continue _fun77763 }
+            if(options) { _fun00002_ip = 84; continue _fun00001 }
  79:
             oscar = golf.channelId;
  84:
             tango = mike != oscar;
  88:
-            if(!tango) { _fun77763_ip = 142; continue _fun77763 }
+            if(!tango) { _fun00002_ip = 142; continue _fun00001 }
  91:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             report = report.params;
             oscar = mike == report;
             mike = undefined;
-            if(oscar) { _fun77763_ip = 137; continue _fun77763 }
+            if(oscar) { _fun00002_ip = 137; continue _fun00001 }
  132:
             mike = report.channelId;
  137:

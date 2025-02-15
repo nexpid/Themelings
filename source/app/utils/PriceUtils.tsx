@@ -6,18 +6,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     report = function(argFoo, argBar, argBaz) { // Original name: formatPrice
-        _fun41444: for(var _fun41444_ip = 0; ; ) switch(_fun41444_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBaz;
             entity = null;
             mike = entity == oscar;
             zulu = undefined;
             report = undefined;
-            if(mike) { _fun41444_ip = 24; continue _fun41444 }
+            if(mike) { _fun00002_ip = 24; continue _fun00001 }
  16:
             report = oscar.localeOverride;
  24:
-            if(!(entity == report)) { _fun41444_ip = 40; continue _fun41444 }
+            if(!(entity == report)) { _fun00002_ip = 40; continue _fun00001 }
  28:
             entity = _closure1_slot2;
             report = entity.locale;
@@ -39,28 +39,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot4 = report;
     tango = function(argFoo, argBar, argBaz) { // Original name: formatRate
-        _fun41445: for(var _fun41445_ip = 0; ; ) switch(_fun41445_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             options = argBar;
             golf = argBaz;
             mike = _closure1_slot3;
             mike = mike.YEAR;
-            if(!(options !== mike)) { _fun41445_ip = 273; continue _fun41445 }
+            if(!(options !== mike)) { _fun00004_ip = 273; continue _fun00003 }
  29:
             mike = _closure1_slot3;
             mike = mike.MONTH;
-            if(!(options === mike)) { _fun41445_ip = 53; continue _fun41445 }
+            if(!(options === mike)) { _fun00004_ip = 53; continue _fun00003 }
  43:
             mike = 1;
-            if(!(mike !== golf)) { _fun41445_ip = 206; continue _fun41445 }
+            if(!(mike !== golf)) { _fun00004_ip = 206; continue _fun00003 }
  53:
             mike = _closure1_slot3;
             mike = mike.MONTH;
-            if(!(options === mike)) { _fun41445_ip = 74; continue _fun41445 }
+            if(!(options === mike)) { _fun00004_ip = 74; continue _fun00003 }
  67:
             mike = 1;
-            if(!(!(golf > mike))) { _fun41445_ip = 134; continue _fun41445 }
+            if(!(!(golf > mike))) { _fun00004_ip = 134; continue _fun00003 }
  74:
             mike = global;
             tango = mike.Error;
@@ -171,15 +171,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['formatPercent'] = tango;
     mike = function(argFoo) { // Original name: formatSubscriptionPlanRate
-        _fun41447: for(var _fun41447_ip = 0; ; ) switch(_fun41447_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = 'interval_count';
             mike = mike in entity;
-            if(mike) { _fun41447_ip = 22; continue _fun41447 }
+            if(mike) { _fun00006_ip = 22; continue _fun00005 }
  14:
             report = entity.intervalCount;
-            _fun41447_ip = 28; continue _fun41447;
+            _fun00006_ip = 28; continue _fun00005;
  22:
             report = entity.interval_count;
  28:

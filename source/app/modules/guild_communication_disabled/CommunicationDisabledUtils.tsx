@@ -2,12 +2,12 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     tango = function(argFoo) { // Original name: isCommunicationDisabled
-        _fun43964: for(var _fun43964_ip = 0; ; ) switch(_fun43964_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun43964_ip = 73; continue _fun43964 }
+            if(!entity) { _fun00002_ip = 73; continue _fun00001 }
  12:
             mike = global;
             zulu = mike.Date;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['isCommunicationDisabled'] = tango;
     mike = function(argFoo) { // Original name: isMemberCommunicationDisabled
-        _fun43965: for(var _fun43965_ip = 0; ; ) switch(_fun43965_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = entity == tango;
             mike = undefined;
             entity = undefined;
-            if(report) { _fun43965_ip = 29; continue _fun43965 }
+            if(report) { _fun00004_ip = 29; continue _fun00003 }
  23:
             entity = tango.communicationDisabledUntil;
  29:

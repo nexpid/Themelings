@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = new Array(1);
         offset[0] = verify;
         verify = function() {
-            _fun94430: for(var _fun94430_ip = 0; ; ) switch(_fun94430_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot2;
                 zulu = mike.current;
                 mike = null;
-                if(!(mike != zulu)) { _fun94430_ip = 31; continue _fun94430 }
+                if(!(mike != zulu)) { _fun00002_ip = 31; continue _fun00001 }
  18:
                 mike = _closure2_slot2;
                 entity = mike.current;
@@ -155,10 +155,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = _closure2_slot0;
                 golf['duration'] = report;
                 oscar = function(argFoo) { // Original name: t
-                    _fun94435: for(var _fun94435_ip = 0; ; ) switch(_fun94435_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
-                        if(!entity) { _fun94435_ip = 52; continue _fun94435 }
+                        if(!entity) { _fun00004_ip = 52; continue _fun00003 }
  6:
                         zulu = _closure1_slot0;
                         mike = _closure1_slot2;

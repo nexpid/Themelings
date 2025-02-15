@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/action_sheet/native/components/PublishModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PublishModal
-        _fun90920: for(var _fun90920_ip = 0; ; ) switch(_fun90920_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -83,21 +83,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = zulu[mike];
             entity = 1;
             entity = zulu[entity];
-            if(entity) { _fun90920_ip = 326; continue _fun90920 }
+            if(entity) { _fun00002_ip = 326; continue _fun00001 }
  78:
             backup = null;
             zulu = backup == kilo;
             entity = undefined;
-            if(zulu) { _fun90920_ip = 95; continue _fun90920 }
+            if(zulu) { _fun00002_ip = 95; continue _fun00001 }
  89:
             entity = kilo.guildsFollowing;
  95:
             golf = backup != entity;
-            if(!golf) { _fun90920_ip = 121; continue _fun90920 }
+            if(!golf) { _fun00002_ip = 121; continue _fun00001 }
  102:
             zulu = backup == kilo;
             entity = undefined;
-            if(zulu) { _fun90920_ip = 117; continue _fun90920 }
+            if(zulu) { _fun00002_ip = 117; continue _fun00001 }
  111:
             entity = kilo.guildsFollowing;
  117:
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing[offset];
             romeo = yankee.bind(tango)(romeo);
             foxtrot = romeo.intl;
-            if(golf) { _fun90920_ip = 246; continue _fun90920 }
+            if(golf) { _fun00002_ip = 246; continue _fun00001 }
  207:
             romeo = foxtrot.string;
             golf = sizing[offset];
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = romeo.bind(foxtrot)(golf);
             verify['children'] = golf;
             golf = verify;
-            _fun90920_ip = 308; continue _fun90920;
+            _fun00002_ip = 308; continue _fun00001;
  246:
             romeo = foxtrot.format;
             offset = sizing[offset];
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             sizing = backup == kilo;
             backup = undefined;
-            if(sizing) { _fun90920_ip = 288; continue _fun90920 }
+            if(sizing) { _fun00002_ip = 288; continue _fun00001 }
  282:
             backup = kilo.guildsFollowing;
  288:

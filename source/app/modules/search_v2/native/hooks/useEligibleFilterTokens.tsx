@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = report.type;
         mike[1] = report;
         entity = function() {
-            _fun112865: for(var _fun112865_ip = 0; ; ) switch(_fun112865_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = new Array(0);
                 mike = _closure2_slot1;
-                if(mike) { _fun112865_ip = 57; continue _fun112865 }
+                if(mike) { _fun00002_ip = 57; continue _fun00001 }
  14:
                 report = entity.push;
                 tango = _closure1_slot4;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = tango.type;
                 tango = _closure1_slot5;
                 tango = tango.GUILD;
-                if(!(report === tango)) { _fun112865_ip = 123; continue _fun112865 }
+                if(!(report === tango)) { _fun00002_ip = 123; continue _fun00001 }
  103:
                 report = entity.push;
                 tango = _closure1_slot4;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = zulu.type;
                 zulu = _closure1_slot5;
                 zulu = zulu.GUILD_CHANNEL;
-                if(!(tango === zulu)) { _fun112865_ip = 166; continue _fun112865 }
+                if(!(tango === zulu)) { _fun00002_ip = 166; continue _fun00001 }
  146:
                 tango = entity.push;
                 zulu = _closure1_slot4;

@@ -15,19 +15,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = entity;
     tango = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: getHorizontalOrVerticalStartPoint
-            _fun97288: for(var _fun97288_ip = 0; ; ) switch(_fun97288_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 entity = argBar;
                 zulu = argBaz;
                 mike = 0;
-                if(!(mike !== report)) { _fun97288_ip = 99; continue _fun97288 }
+                if(!(mike !== report)) { _fun00002_ip = 99; continue _fun00001 }
  15:
                 tango = 90;
-                if(!(tango !== report)) { _fun97288_ip = 73; continue _fun97288 }
+                if(!(tango !== report)) { _fun00002_ip = 73; continue _fun00001 }
  22:
                 tango = 180;
-                if(!(tango !== report)) { _fun97288_ip = 52; continue _fun97288 }
+                if(!(tango !== report)) { _fun00002_ip = 52; continue _fun00001 }
  29:
                 tango = 2;
                 report = zulu / tango;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot2 = tango;
     tango = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: getStartCornerToIntersect
-            _fun97290: for(var _fun97290_ip = 0; ; ) switch(_fun97290_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 entity = argBar;
@@ -84,26 +84,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = argBaz;
                 zulu = entity / zulu;
                 entity = 90;
-                if(!(!(mike < entity))) { _fun97290_ip = 98; continue _fun97290 }
+                if(!(!(mike < entity))) { _fun00004_ip = 98; continue _fun00003 }
  27:
                 entity = 180;
-                if(!(!(mike < entity))) { _fun97290_ip = 78; continue _fun97290 }
+                if(!(!(mike < entity))) { _fun00004_ip = 78; continue _fun00003 }
  34:
                 entity = 270;
-                if(!(!(mike < entity))) { _fun97290_ip = 61; continue _fun97290 }
+                if(!(!(mike < entity))) { _fun00004_ip = 61; continue _fun00003 }
  44:
                 entity = new Array(2);
                 mike = -tango;
                 entity[0] = mike;
                 entity[1] = zulu;
-                _fun97290_ip = 76; continue _fun97290;
+                _fun00004_ip = 76; continue _fun00003;
  61:
                 mike = new Array(2);
                 mike[0] = tango;
                 mike[1] = zulu;
                 entity = mike;
  76:
-                _fun97290_ip = 96; continue _fun97290;
+                _fun00004_ip = 96; continue _fun00003;
  78:
                 mike = new Array(2);
                 mike[0] = tango;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike[1] = report;
                 entity = mike;
  96:
-                _fun97290_ip = 119; continue _fun97290;
+                _fun00004_ip = 119; continue _fun00003;
  98:
                 mike = new Array(2);
                 tango = -tango;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'function getGradientStartPoint_getGradientStartPontTsx3(angle,width,height){const{getHorizontalOrVerticalStartPoint,getStartCornerToIntersect}=this.__closure;angle=angle%360;if(angle<0){angle+=360;}if(angle%90===0){return getHorizontalOrVerticalStartPoint(angle,width,height);}const slope=Math.tan(angle*Math.PI/180);const perpendicularSlope=-1/slope;const startCorner=getStartCornerToIntersect(angle,width,height);const b=startCorner[1]-perpendicularSlope*startCorner[0];const startX=b/(slope-perpendicularSlope);const startY=slope*startX;return[startX,startY];}';
     tango['code'] = report;
     mike = function(argFoo, argBar, argBaz) { // Original name: t
-        _fun97291: for(var _fun97291_ip = 0; ; ) switch(_fun97291_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argBar;
             tango = argBaz;
@@ -146,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity % mike;
             options = 0;
             zulu = entity;
-            if(!(zulu < options)) { _fun97291_ip = 32; continue _fun97291 }
+            if(!(zulu < options)) { _fun00006_ip = 32; continue _fun00005 }
  28:
             zulu = entity + mike;
  32:
             entity = 90;
             entity = zulu % entity;
-            if(!(entity !== options)) { _fun97291_ip = 156; continue _fun97291 }
+            if(!(entity !== options)) { _fun00006_ip = 156; continue _fun00005 }
  43:
             entity = global;
             oscar = entity.Math;

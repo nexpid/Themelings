@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/user_settings/native/premium_marketing/PremiumFeaturesCards.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: _default
-        _fun75584: for(var _fun75584_ip = 0; ; ) switch(_fun75584_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = mike;
             zulu = entity.order;
             tango = undefined;
-            if(!(zulu === tango)) { _fun75584_ip = 64; continue _fun75584 }
+            if(!(zulu === tango)) { _fun00002_ip = 64; continue _fun00001 }
  51:
             entity = _closure1_slot6;
             zulu = entity.TIER_0_LEADING;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot3 = report;
             mike = _closure1_slot6;
             mike = mike.TIER_2_LEADING;
-            if(!(mike !== zulu)) { _fun75584_ip = 141; continue _fun75584 }
+            if(!(mike !== zulu)) { _fun00002_ip = 141; continue _fun00001 }
  101:
             mike = _closure1_slot6;
             mike = mike.TIER_0_LEADING;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = zulu;
             mike = mike.TIER_2;
             options[1] = mike;
-            _fun75584_ip = 172; continue _fun75584;
+            _fun00002_ip = 172; continue _fun00001;
  141:
             zulu = _closure1_slot3;
             verify = zulu.TIER_2;
@@ -120,11 +120,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = report == options;
             report = undefined;
-            if(golf) { _fun75584_ip = 235; continue _fun75584 }
+            if(golf) { _fun00002_ip = 235; continue _fun00001 }
  218:
             golf = options.map;
             oscar = function(argFoo, argBar) {
-                _fun75585: for(var _fun75585_ip = 0; ; ) switch(_fun75585_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     tango = _closure1_slot4;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = argBar;
                     options = golf < options;
                     golf = undefined;
-                    if(!options) { _fun75585_ip = 80; continue _fun75585 }
+                    if(!options) { _fun00004_ip = 80; continue _fun00003 }
  70:
                     options = _closure2_slot3;
                     golf = options.cardWithMargin;

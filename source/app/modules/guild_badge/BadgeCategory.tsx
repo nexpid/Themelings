@@ -55,26 +55,26 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['BadgeCategory'] = tango;
     mike = function(argFoo) { // Original name: getBadgeCategory
-        _fun90544: for(var _fun90544_ip = 0; ; ) switch(_fun90544_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.staff;
-            if(mike) { _fun90544_ip = 222; continue _fun90544 }
+            if(mike) { _fun00002_ip = 222; continue _fun00001 }
  15:
             mike = entity.verified;
-            if(!mike) { _fun90544_ip = 36; continue _fun90544 }
+            if(!mike) { _fun00002_ip = 36; continue _fun00001 }
  24:
             mike = entity.partnered;
-            if(mike) { _fun90544_ip = 207; continue _fun90544 }
+            if(mike) { _fun00002_ip = 207; continue _fun00001 }
  36:
             mike = entity.verified;
-            if(mike) { _fun90544_ip = 192; continue _fun90544 }
+            if(mike) { _fun00002_ip = 192; continue _fun00001 }
  48:
             mike = entity.partnered;
-            if(mike) { _fun90544_ip = 177; continue _fun90544 }
+            if(mike) { _fun00002_ip = 177; continue _fun00001 }
  57:
             mike = entity.community;
-            if(!mike) { _fun90544_ip = 112; continue _fun90544 }
+            if(!mike) { _fun00002_ip = 112; continue _fun00001 }
  66:
             tango = entity.visibility;
             oscar = _closure1_slot0;
@@ -85,46 +85,46 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(zulu)(report);
             zulu = zulu.GuildVisibility;
             zulu = zulu.PUBLIC;
-            if(!(tango !== zulu)) { _fun90544_ip = 165; continue _fun90544 }
+            if(!(tango !== zulu)) { _fun00002_ip = 165; continue _fun00001 }
  112:
             tango = entity.clan;
-            if(tango) { _fun90544_ip = 153; continue _fun90544 }
+            if(tango) { _fun00002_ip = 153; continue _fun00001 }
  124:
             entity = entity.community;
             tango = _closure1_slot2;
-            if(entity) { _fun90544_ip = 145; continue _fun90544 }
+            if(entity) { _fun00002_ip = 145; continue _fun00001 }
  137:
             entity = tango.NONE;
-            _fun90544_ip = 151; continue _fun90544;
+            _fun00002_ip = 151; continue _fun00001;
  145:
             entity = tango.COMMUNITY;
  151:
-            _fun90544_ip = 163; continue _fun90544;
+            _fun00002_ip = 163; continue _fun00001;
  153:
             zulu = _closure1_slot2;
             entity = zulu.CLAN;
  163:
-            _fun90544_ip = 175; continue _fun90544;
+            _fun00002_ip = 175; continue _fun00001;
  165:
             mike = _closure1_slot2;
             entity = mike.DISCOVERABLE;
  175:
-            _fun90544_ip = 190; continue _fun90544;
+            _fun00002_ip = 190; continue _fun00001;
  177:
             mike = _closure1_slot2;
             entity = mike.PARTNERED;
  190:
-            _fun90544_ip = 205; continue _fun90544;
+            _fun00002_ip = 205; continue _fun00001;
  192:
             mike = _closure1_slot2;
             entity = mike.VERIFIED;
  205:
-            _fun90544_ip = 220; continue _fun90544;
+            _fun00002_ip = 220; continue _fun00001;
  207:
             mike = _closure1_slot2;
             entity = mike.VERIFIED_AND_PARTNERED;
  220:
-            _fun90544_ip = 235; continue _fun90544;
+            _fun00002_ip = 235; continue _fun00001;
  222:
             mike = _closure1_slot2;
             entity = mike.STAFF;

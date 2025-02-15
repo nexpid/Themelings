@@ -57,11 +57,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/fastest_list/FastestListExperiment.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: isFastestListEnabled
-        _fun78554: for(var _fun78554_ip = 0; ; ) switch(_fun78554_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[0];
             entity = undefined;
-            if(!(zulu === entity)) { _fun78554_ip = 22; continue _fun78554 }
+            if(!(zulu === entity)) { _fun00002_ip = 22; continue _fun00001 }
  9:
             entity = {};
             mike = 'isFastestListEnabled';

@@ -1,6 +1,6 @@
 // app/design/components/Icon/native/ClipView.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun62476: for(var _fun62476_ip = 0; ; ) switch(_fun62476_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         golf = argBar;
         oscar = argBaz;
@@ -29,11 +29,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         verify = golf.bind(entity)(tango);
         tango = verify.isAndroid;
         tango = tango.bind(verify)();
-        if(tango) { _fun62476_ip = 124; continue _fun62476 }
+        if(tango) { _fun00002_ip = 124; continue _fun00001 }
  111:
         tango = 'ClipView';
         report = report.bind(entity)(tango);
-        _fun62476_ip = 136; continue _fun62476;
+        _fun00002_ip = 136; continue _fun00001;
  124:
         tango = 2;
         tango = options[tango];

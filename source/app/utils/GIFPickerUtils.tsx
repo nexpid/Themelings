@@ -24,22 +24,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/GIFPickerUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: calculateAnalyticsMetadata
-        _fun84827: for(var _fun84827_ip = 0; ; ) switch(_fun84827_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBar;
             entity = argBaz;
             zulu = null;
-            if(!(zulu == oscar)) { _fun84827_ip = 16; continue _fun84827 }
+            if(!(zulu == oscar)) { _fun00002_ip = 16; continue _fun00001 }
  12:
             mike = {};
-            _fun84827_ip = 29; continue _fun84827;
+            _fun00002_ip = 29; continue _fun00001;
  16:
             tango = {};
             report = 1;
             tango[oscar] = report;
             mike = tango;
  29:
-            if(!(zulu == entity)) { _fun84827_ip = 35; continue _fun84827 }
+            if(!(zulu == entity)) { _fun00002_ip = 35; continue _fun00001 }
  33:
             entity = {};
  35:
@@ -58,11 +58,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu != golf;
             options = 1;
             oscar = options;
-            if(!verify) { _fun84827_ip = 147; continue _fun84827 }
+            if(!verify) { _fun00002_ip = 147; continue _fun00001 }
  110:
             verify = zulu != yankee;
             oscar = options;
-            if(!verify) { _fun84827_ip = 147; continue _fun84827 }
+            if(!verify) { _fun00002_ip = 147; continue _fun00001 }
  120:
             verify = global;
             offset = verify.Math;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['total_results'] = report;
             report = zulu != tango;
             zulu = null;
-            if(!report) { _fun84827_ip = 169; continue _fun84827 }
+            if(!report) { _fun00002_ip = 169; continue _fun00001 }
  166:
             zulu = tango;
  169:

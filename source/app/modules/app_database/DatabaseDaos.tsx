@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = report;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun37767: for(var _fun37767_ip = 0; ; ) switch(_fun37767_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun37767_ip = 51; continue _fun37767 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun37767_ip = 92; continue _fun37767;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun37767_ip = 71; continue _fun37767 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun37768: for(var _fun37768_ip = 0; ; ) switch(_fun37768_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun37768_ip = 74; continue _fun37768;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -85,11 +85,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = argFoo;
         var _closure2_slot0 = mike;
         entity = function(argFoo) {
-            _fun37772: for(var _fun37772_ip = 0; ; ) switch(_fun37772_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 entity = null;
-                if(!(entity == tango)) { _fun37772_ip = 59; continue _fun37772 }
+                if(!(entity == tango)) { _fun00006_ip = 59; continue _fun00005 }
  9:
                 oscar = _closure1_slot1;
                 report = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  59:
                 mike = entity == tango;
                 entity = null;
-                if(mike) { _fun37772_ip = 82; continue _fun37772 }
+                if(mike) { _fun00006_ip = 82; continue _fun00005 }
  68:
                 zulu = _closure2_slot0;
                 mike = undefined;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.bind(report)(golf, oscar, entity);
             var _closure3_slot0 = entity;
             tango = function(argFoo) {
-                _fun37775: for(var _fun37775_ip = 0; ; ) switch(_fun37775_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = argFoo;
                     report = _closure1_slot1;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = report.bind(entity)(mike);
                     entity = mike.database;
                     report = null;
-                    if(!(report == zulu)) { _fun37775_ip = 54; continue _fun37775 }
+                    if(!(report == zulu)) { _fun00008_ip = 54; continue _fun00007 }
  40:
                     report = _closure1_slot8;
                     tango = report.getId;

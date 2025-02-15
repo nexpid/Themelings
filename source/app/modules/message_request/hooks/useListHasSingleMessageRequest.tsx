@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/message_request/hooks/useListHasSingleMessageRequest.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: useListHasSingleMessageRequest
-        _fun120486: for(var _fun120486_ip = 0; ; ) switch(_fun120486_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -74,16 +74,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf[0] = offset;
             golf[1] = zulu;
             report = function() {
-                _fun120488: for(var _fun120488_ip = 0; ; ) switch(_fun120488_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun120488_ip = 22; continue _fun120488 }
+                    if(!mike) { _fun00004_ip = 22; continue _fun00003 }
  10:
                     zulu = _closure2_slot3;
                     zulu = zulu.current;
                     mike = !zulu;
  22:
-                    if(!mike) { _fun120488_ip = 51; continue _fun120488 }
+                    if(!mike) { _fun00004_ip = 51; continue _fun00003 }
  25:
                     zulu = _closure2_slot3;
                     mike = true;
@@ -104,7 +104,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(tango)(mike);
             mike = 1;
             entity = entity <= mike;
-            if(!entity) { _fun120486_ip = 184; continue _fun120486 }
+            if(!entity) { _fun00002_ip = 184; continue _fun00001 }
  180:
             entity = mike === zulu;
  184:
@@ -113,7 +113,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     };
     zulu['useListHasSingleMessageRequest'] = tango;
     mike = function() { // Original name: useListHasSingleSpamMessageRequest
-        _fun120489: for(var _fun120489_ip = 0; ; ) switch(_fun120489_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             options = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -151,16 +151,16 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf[0] = offset;
             golf[1] = zulu;
             report = function() {
-                _fun120491: for(var _fun120491_ip = 0; ; ) switch(_fun120491_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun120491_ip = 22; continue _fun120491 }
+                    if(!mike) { _fun00008_ip = 22; continue _fun00007 }
  10:
                     zulu = _closure2_slot3;
                     zulu = zulu.current;
                     mike = !zulu;
  22:
-                    if(!mike) { _fun120491_ip = 51; continue _fun120491 }
+                    if(!mike) { _fun00008_ip = 51; continue _fun00007 }
  25:
                     zulu = _closure2_slot3;
                     mike = true;
@@ -181,7 +181,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(tango)(mike);
             mike = 1;
             entity = entity <= mike;
-            if(!entity) { _fun120489_ip = 184; continue _fun120489 }
+            if(!entity) { _fun00006_ip = 184; continue _fun00005 }
  180:
             entity = mike === zulu;
  184:

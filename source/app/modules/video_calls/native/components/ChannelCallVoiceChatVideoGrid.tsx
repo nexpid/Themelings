@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/video_calls/native/components/ChannelCallVoiceChatVideoGrid.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelCallVoiceChatVideoGrid
-        _fun104197: for(var _fun104197_ip = 0; ; ) switch(_fun104197_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun104197_ip = 46; continue _fun104197 }
+            if(!(mike != entity)) { _fun00002_ip = 46; continue _fun00001 }
  9:
             entity = global;
             tango = entity.Error;

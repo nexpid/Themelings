@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/rtc/native/SecureFramesVerificationBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SecureFramesVerificationBottomSheet
-        _fun81278: for(var _fun81278_ip = 0; ; ) switch(_fun81278_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             sequence = mike.title;
@@ -148,11 +148,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = kilo;
             zulu[1] = mike;
             mike = function() {
-                _fun81279: for(var _fun81279_ip = 0; ; ) switch(_fun81279_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun81279_ip = 75; continue _fun81279 }
+                    if(!(mike != zulu)) { _fun00004_ip = 75; continue _fun00003 }
  13:
                     tango = _closure2_slot1;
                     zulu = tango.join;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             offset['title'] = output;
             sizing = sizing != kilo;
-            if(!sizing) { _fun81278_ip = 838; continue _fun81278 }
+            if(!sizing) { _fun00002_ip = 838; continue _fun00001 }
  801:
             echo = _closure1_slot8;
             result = _closure1_slot1;

@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: FamilyCenterLinkingInstructionsRow
-        _fun95414: for(var _fun95414_ip = 0; ; ) switch(_fun95414_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             output = entity.header;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = offset;
             offset = null;
-            if(kilo) { _fun95414_ip = 183; continue _fun95414 }
+            if(kilo) { _fun00002_ip = 183; continue _fun00001 }
  177:
             offset = yankee.gap;
  183:
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterLinkingBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: FamilyCenterLinkingBanner
-        _fun95415: for(var _fun95415_ip = 0; ; ) switch(_fun95415_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot7;
             tango = undefined;
@@ -449,10 +449,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.bind(tango)(verify, options);
             report[1] = options;
             options = _closure1_slot5;
-            if(golf) { _fun95415_ip = 511; continue _fun95415 }
+            if(golf) { _fun00004_ip = 511; continue _fun00003 }
  505:
             golf = _closure1_slot11;
-            _fun95415_ip = 515; continue _fun95415;
+            _fun00004_ip = 515; continue _fun00003;
  511:
             golf = _closure1_slot10;
  515:

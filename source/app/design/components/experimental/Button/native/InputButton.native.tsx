@@ -61,19 +61,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun76251: for(var _fun76251_ip = 0; ; ) switch(_fun76251_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = oscar.size;
             result = 'lg';
             tango = undefined;
-            if(!(tango !== entity)) { _fun76251_ip = 21; continue _fun76251 }
+            if(!(tango !== entity)) { _fun00002_ip = 21; continue _fun00001 }
  18:
             result = entity;
  21:
             entity = oscar.isRound;
             romeo = tango !== entity;
-            if(!romeo) { _fun76251_ip = 37; continue _fun76251 }
+            if(!romeo) { _fun00002_ip = 37; continue _fun00001 }
  34:
             romeo = entity;
  37:
@@ -83,14 +83,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.iconPosition;
             entity = 'start';
             sizing = entity;
-            if(!(tango !== mike)) { _fun76251_ip = 72; continue _fun76251 }
+            if(!(tango !== mike)) { _fun00002_ip = 72; continue _fun00001 }
  69:
             sizing = mike;
  72:
             backup = oscar.accessibilityLabel;
             golf = oscar.accessibilityValue;
             yankee = oscar.maxFontSizeMultiplier;
-            if(!(tango === yankee)) { _fun76251_ip = 122; continue _fun76251 }
+            if(!(tango === yankee)) { _fun00002_ip = 122; continue _fun00001 }
  93:
             zulu = _closure1_slot0;
             report = _closure1_slot1;
@@ -117,19 +117,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             kilo = mike.bind(tango)();
             offset = null;
-            if(!(offset == output)) { _fun76251_ip = 208; continue _fun76251 }
+            if(!(offset == output)) { _fun00002_ip = 208; continue _fun00001 }
  204:
             foxtrot = {};
-            _fun76251_ip = 258; continue _fun76251;
+            _fun00002_ip = 258; continue _fun00001;
  208:
             mike = {};
-            if(entity) { _fun76251_ip = 235; continue _fun76251 }
+            if(entity) { _fun00002_ip = 235; continue _fun00001 }
  213:
             entity = romeo.trailingIcon;
             entity = entity.paddingStart;
             mike['paddingEnd'] = entity;
             entity = mike;
-            _fun76251_ip = 255; continue _fun76251;
+            _fun00002_ip = 255; continue _fun00001;
  235:
             zulu = romeo.leadingIcon;
             zulu = zulu.paddingEnd;
@@ -168,11 +168,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[1] = oscar;
             oscar = 'pillStyle';
             entity[oscar] = sizing;
-            if(!(offset == backup)) { _fun76251_ip = 411; continue _fun76251 }
+            if(!(offset == backup)) { _fun00002_ip = 411; continue _fun00001 }
  390:
             sizing = offset == options;
             oscar = undefined;
-            if(sizing) { _fun76251_ip = 408; continue _fun76251 }
+            if(sizing) { _fun00002_ip = 408; continue _fun00001 }
  399:
             sizing = options.toString;
             oscar = sizing.bind(options)();
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  411:
             oscar = 'accessibilityLabel';
             entity[oscar] = backup;
-            if(!(offset == golf)) { _fun76251_ip = 433; continue _fun76251 }
+            if(!(offset == golf)) { _fun00002_ip = 433; continue _fun00001 }
  424:
             oscar = {};
             oscar['text'] = verify;
@@ -197,10 +197,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = backup;
             backup = kilo.buttonText;
             romeo[1] = backup;
-            if(!(offset == verify)) { _fun76251_ip = 487; continue _fun76251 }
+            if(!(offset == verify)) { _fun00002_ip = 487; continue _fun00001 }
  479:
             backup = kilo.buttonTextPlaceholder;
-            _fun76251_ip = 493; continue _fun76251;
+            _fun00002_ip = 493; continue _fun00001;
  487:
             backup = kilo.buttonTextValue;
  493:
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = 1;
             report['numberOfLines'] = romeo;
             report['maxFontSizeMultiplier'] = yankee;
-            if(!(offset != verify)) { _fun76251_ip = 525; continue _fun76251 }
+            if(!(offset != verify)) { _fun00002_ip = 525; continue _fun00001 }
  522:
             options = verify;
  525:

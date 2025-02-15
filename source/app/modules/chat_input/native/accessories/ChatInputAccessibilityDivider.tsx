@@ -32,7 +32,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function() {
-        _fun100610: for(var _fun100610_ip = 0; ; ) switch(_fun100610_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             entity = mike.useIsScreenReaderEnabled;
             mike = entity.bind(mike)();
             entity = null;
-            if(!mike) { _fun100610_ip = 204; continue _fun100610 }
+            if(!mike) { _fun00002_ip = 204; continue _fun00001 }
  43:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             mike = tango.isAndroid;
             mike = mike.bind(tango)();
             entity = null;
-            if(mike) { _fun100610_ip = 204; continue _fun100610 }
+            if(mike) { _fun00002_ip = 204; continue _fun00001 }
  80:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;

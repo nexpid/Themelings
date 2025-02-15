@@ -28,7 +28,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'experiments/SwipeToReplyExperiment.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useIsMessageSwipeActionsEnabled
-        _fun89315: for(var _fun89315_ip = 0; ; ) switch(_fun89315_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = mike.useIsSwipeToMemberListAllowed;
             mike = entity.bind(mike)();
             entity = !zulu;
-            if(zulu) { _fun89315_ip = 78; continue _fun89315 }
+            if(zulu) { _fun00002_ip = 78; continue _fun00001 }
  75:
             entity = !mike;
  78:

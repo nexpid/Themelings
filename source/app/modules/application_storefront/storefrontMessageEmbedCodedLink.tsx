@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['makeStorefrontSKUCodedLink'] = tango;
     mike = function(argFoo) { // Original name: parseStorefrontSkuCodedLink
-        _fun54636: for(var _fun54636_ip = 0; ; ) switch(_fun54636_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.split;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(zulu)(entity);
             entity = tango.length;
             zulu = 2;
-            if(!(zulu === entity)) { _fun54636_ip = 70; continue _fun54636 }
+            if(!(zulu === entity)) { _fun00002_ip = 70; continue _fun00001 }
  29:
             mike = _closure1_slot0;
             entity = undefined;

@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         entity['isSelected'] = tango;
         tango = function(argFoo, argBar) { // Original name: onPressOptionItem
-            _fun91890: for(var _fun91890_ip = 0; ; ) switch(_fun91890_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argBar;
                 var _closure3_slot0 = report;
@@ -187,12 +187,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.bind(oscar)(zulu);
                 var _closure3_slot1 = zulu;
                 tango = _closure2_slot11;
-                if(tango) { _fun91890_ip = 136; continue _fun91890 }
+                if(tango) { _fun00002_ip = 136; continue _fun00001 }
  42:
                 oscar = _closure2_slot12;
                 tango = global;
                 tango = tango.Map;
-                if(zulu) { _fun91890_ip = 107; continue _fun91890 }
+                if(zulu) { _fun00002_ip = 107; continue _fun00001 }
  57:
                 options = report.value;
                 golf = new Array(2);
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = report;
                 report = new offset[tango](verify, options);
                 report = report instanceof Object ? report : golf;
-                _fun91890_ip = 127; continue _fun91890;
+                _fun00002_ip = 127; continue _fun00001;
  107:
                 golf = tango.prototype;
                 golf = Object.create(golf, {constructor: {value: tango}});
@@ -216,10 +216,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  127:
                 tango = undefined;
                 tango = oscar.bind(tango)(report);
-                _fun91890_ip = 186; continue _fun91890;
+                _fun00002_ip = 186; continue _fun00001;
  136:
                 zulu = !zulu;
-                if(!zulu) { _fun91890_ip = 165; continue _fun91890 }
+                if(!zulu) { _fun00002_ip = 165; continue _fun00001 }
  142:
                 tango = _closure2_slot9;
                 report = tango.size;
@@ -227,12 +227,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.maxValues;
                 zulu = report >= tango;
  165:
-                if(zulu) { _fun91890_ip = 186; continue _fun91890 }
+                if(zulu) { _fun00002_ip = 186; continue _fun00001 }
  168:
                 zulu = _closure2_slot10;
                 mike = undefined;
                 entity = function(argFoo) {
-                    _fun91891: for(var _fun91891_ip = 0; ; ) switch(_fun91891_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = global;
                         zulu = entity.Map;
@@ -243,13 +243,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = new options[zulu](golf, oscar);
                         entity = entity instanceof Object ? entity : mike;
                         zulu = _closure3_slot1;
-                        if(zulu) { _fun91891_ip = 63; continue _fun91891 }
+                        if(zulu) { _fun00004_ip = 63; continue _fun00003 }
  41:
                         report = entity.set;
                         tango = _closure3_slot0;
                         zulu = tango.value;
                         zulu = report.bind(entity)(zulu, tango);
-                        _fun91891_ip = 82; continue _fun91891;
+                        _fun00004_ip = 82; continue _fun00003;
  63:
                         zulu = entity.delete;
                         mike = _closure3_slot0;

@@ -44,11 +44,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/profile_customization/useOpenProfileSettings.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useOpenProfileSettings
-        _fun102564: for(var _fun102564_ip = 0; ; ) switch(_fun102564_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             tango = undefined;
-            if(!(mike === tango)) { _fun102564_ip = 13; continue _fun102564 }
+            if(!(mike === tango)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             mike = {};
  13:
@@ -78,11 +78,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike[4] = oscar;
             mike[5] = report;
             entity = function() {
-                _fun102565: for(var _fun102565_ip = 0; ; ) switch(_fun102565_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     golf = null;
-                    if(!(golf != entity)) { _fun102565_ip = 72; continue _fun102565 }
+                    if(!(golf != entity)) { _fun00004_ip = 72; continue _fun00003 }
  13:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -93,10 +93,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     zulu = report.initGuildIdentitySettings;
                     mike = _closure2_slot0;
                     entity = _closure2_slot2;
-                    if(!(golf == entity)) { _fun102565_ip = 62; continue _fun102565 }
+                    if(!(golf == entity)) { _fun00004_ip = 62; continue _fun00003 }
  56:
                     entity = _closure2_slot3;
-                    _fun102565_ip = 66; continue _fun102565;
+                    _fun00004_ip = 66; continue _fun00003;
  62:
                     entity = _closure2_slot2;
  66:
@@ -114,11 +114,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     report = report.PROFILE_CUSTOMIZATION;
                     mike['screen'] = report;
                     report = _closure2_slot0;
-                    if(!(golf == report)) { _fun102565_ip = 140; continue _fun102565 }
+                    if(!(golf == report)) { _fun00004_ip = 140; continue _fun00003 }
  128:
                     report = _closure1_slot5;
                     report = report.USER_PROFILE;
-                    _fun102565_ip = 150; continue _fun102565;
+                    _fun00004_ip = 150; continue _fun00003;
  140:
                     oscar = _closure1_slot5;
                     report = oscar.GUILD;

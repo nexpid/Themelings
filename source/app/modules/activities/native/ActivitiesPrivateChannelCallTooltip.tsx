@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/ActivitiesPrivateChannelCallTooltip.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivitiesPrivateChannelCallTooltip
-        _fun102150: for(var _fun102150_ip = 0; ; ) switch(_fun102150_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.onClosePress;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = oscar.bind(golf)(zulu, entity);
             options = 4;
-            if(!entity) { _fun102150_ip = 78; continue _fun102150 }
+            if(!entity) { _fun00002_ip = 78; continue _fun00001 }
  76:
             options = 0;
  78:

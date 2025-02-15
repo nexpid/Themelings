@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_channel/useCanSetThumbnail.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useCanSetThumbnail
-        _fun85270: for(var _fun85270_ip = 0; ; ) switch(_fun85270_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             zulu = argFoo;
@@ -52,16 +52,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             report = tango == oscar;
             entity = undefined;
-            if(report) { _fun85270_ip = 88; continue _fun85270 }
+            if(report) { _fun00002_ip = 88; continue _fun00001 }
  78:
             report = oscar.isMediaChannel;
             entity = report.bind(oscar)();
  88:
-            if(!entity) { _fun85270_ip = 112; continue _fun85270 }
+            if(!entity) { _fun00002_ip = 112; continue _fun00001 }
  91:
             tango = tango == mike;
             zulu = undefined;
-            if(tango) { _fun85270_ip = 106; continue _fun85270 }
+            if(tango) { _fun00002_ip = 106; continue _fun00001 }
  100:
             zulu = mike.isImage;
  106:

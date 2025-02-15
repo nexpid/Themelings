@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_calls/native/action_sheet/NUFKrispActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun103618: for(var _fun103618_ip = 0; ; ) switch(_fun103618_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.callback;
@@ -127,12 +127,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(report);
             zulu = _closure1_slot1;
             report = _closure1_slot2;
-            if(mike) { _fun103618_ip = 189; continue _fun103618 }
+            if(mike) { _fun00002_ip = 189; continue _fun00001 }
  175:
             mike = 10;
             mike = report[mike];
             sizing = zulu.bind(tango)(mike);
-            _fun103618_ip = 201; continue _fun103618;
+            _fun00002_ip = 201; continue _fun00001;
  189:
             mike = 9;
             mike = report[mike];
@@ -144,17 +144,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = oscar;
             mike[1] = entity;
             entity = function() {
-                _fun103621: for(var _fun103621_ip = 0; ; ) switch(_fun103621_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = 'NUF_KRISP_ACTIONSHEET';
                     mike = zulu === mike;
-                    if(mike) { _fun103621_ip = 29; continue _fun103621 }
+                    if(mike) { _fun00004_ip = 29; continue _fun00003 }
  20:
                     zulu = _closure2_slot2;
                     mike = zulu.current;
  29:
-                    if(mike) { _fun103621_ip = 54; continue _fun103621 }
+                    if(mike) { _fun00004_ip = 54; continue _fun00003 }
  32:
                     zulu = _closure2_slot0;
                     mike = undefined;

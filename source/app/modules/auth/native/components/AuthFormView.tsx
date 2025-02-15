@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/auth/native/components/AuthFormView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AuthFormView
-        _fun111618: for(var _fun111618_ip = 0; ; ) switch(_fun111618_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.children;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             yankee = foxtrot != update;
             kilo = null;
-            if(!yankee) { _fun111618_ip = 298; continue _fun111618 }
+            if(!yankee) { _fun00002_ip = 298; continue _fun00001 }
  262:
             echo = _closure1_slot5;
             sizing = _closure1_slot1;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = kilo;
             kilo = foxtrot != output;
             foxtrot = null;
-            if(!kilo) { _fun111618_ip = 380; continue _fun111618 }
+            if(!kilo) { _fun00002_ip = 380; continue _fun00001 }
  315:
             sizing = _closure1_slot5;
             kilo = _closure1_slot0;

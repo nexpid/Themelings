@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/burst_reactions/SuperReactionUpsellActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SuperReactionCoachmarkActionSheet
-        _fun77959: for(var _fun77959_ip = 0; ; ) switch(_fun77959_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.onDismiss;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup = tango.bind(golf)(entity, zulu);
             entity = null;
-            if(mike) { _fun77959_ip = 506; continue _fun77959 }
+            if(mike) { _fun00002_ip = 506; continue _fun00001 }
  190:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;

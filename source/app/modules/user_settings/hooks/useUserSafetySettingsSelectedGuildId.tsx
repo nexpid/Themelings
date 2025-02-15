@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     zulu['useAllServersOptionSelected'] = tango;
     mike = function() {
-        _fun99892: for(var _fun99892_ip = 0; ; ) switch(_fun99892_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot6;
             mike = undefined;
@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             report = report.bind(oscar)(tango, entity);
             entity = null;
             tango = entity == report;
-            if(tango) { _fun99892_ip = 99; continue _fun99892 }
+            if(tango) { _fun00002_ip = 99; continue _fun00001 }
  78:
             tango = report.hasFeature;
             zulu = _closure1_slot5;
@@ -90,7 +90,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(zulu);
  99:
             entity = entity != mike;
-            if(!entity) { _fun99892_ip = 109; continue _fun99892 }
+            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
  106:
             entity = mike;
  109:

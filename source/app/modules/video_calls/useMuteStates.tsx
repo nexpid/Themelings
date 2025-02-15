@@ -7,40 +7,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getMuteStates
-        _fun65553: for(var _fun65553_ip = 0; ; ) switch(_fun65553_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channel;
             romeo = entity.authenticationStore;
             zulu = undefined;
-            if(!(romeo === zulu)) { _fun65553_ip = 27; continue _fun65553 }
+            if(!(romeo === zulu)) { _fun00002_ip = 27; continue _fun00001 }
  20:
             romeo = _closure1_slot3;
  27:
             yankee = entity.voiceStateStore;
-            if(!(yankee === zulu)) { _fun65553_ip = 44; continue _fun65553 }
+            if(!(yankee === zulu)) { _fun00002_ip = 44; continue _fun00001 }
  37:
             yankee = _closure1_slot6;
  44:
             oscar = entity.mediaEngineStore;
-            if(!(oscar === zulu)) { _fun65553_ip = 61; continue _fun65553 }
+            if(!(oscar === zulu)) { _fun00002_ip = 61; continue _fun00001 }
  54:
             oscar = _closure1_slot4;
  61:
             options = entity.permissionStore;
-            if(!(options === zulu)) { _fun65553_ip = 78; continue _fun65553 }
+            if(!(options === zulu)) { _fun00002_ip = 78; continue _fun00001 }
  71:
             options = _closure1_slot5;
  78:
             golf = entity.impersonateStore;
-            if(!(golf === zulu)) { _fun65553_ip = 95; continue _fun65553 }
+            if(!(golf === zulu)) { _fun00002_ip = 95; continue _fun00001 }
  88:
             golf = _closure1_slot2;
  95:
             mike = null;
             entity = mike != verify;
             tango = null;
-            if(!entity) { _fun65553_ip = 138; continue _fun65553 }
+            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  106:
             offset = yankee.getVoiceState;
             entity = verify.getGuildId;
@@ -51,21 +51,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  138:
             entity = oscar.isSelfMute;
             report = entity.bind(oscar)();
-            if(report) { _fun65553_ip = 161; continue _fun65553 }
+            if(report) { _fun00002_ip = 161; continue _fun00001 }
  151:
             entity = oscar.isSelfMutedTemporarily;
             report = entity.bind(oscar)();
  161:
             entity = mike == verify;
             oscar = undefined;
-            if(entity) { _fun65553_ip = 180; continue _fun65553 }
+            if(entity) { _fun00002_ip = 180; continue _fun00001 }
  170:
             entity = verify.getGuildId;
             oscar = entity.bind(verify)();
  180:
             entity = golf.isViewingRoles;
             oscar = entity.bind(golf)(oscar);
-            if(!oscar) { _fun65553_ip = 222; continue _fun65553 }
+            if(!oscar) { _fun00002_ip = 222; continue _fun00001 }
  194:
             golf = options.can;
             entity = _closure1_slot7;
@@ -77,23 +77,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['selfMute'] = report;
             golf = mike == tango;
             report = undefined;
-            if(golf) { _fun65553_ip = 244; continue _fun65553 }
+            if(golf) { _fun00002_ip = 244; continue _fun00001 }
  238:
             report = tango.suppress;
  244:
-            if(report) { _fun65553_ip = 250; continue _fun65553 }
+            if(report) { _fun00002_ip = 250; continue _fun00001 }
  247:
             report = oscar;
  250:
             entity['suppress'] = report;
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun65553_ip = 270; continue _fun65553 }
+            if(report) { _fun00002_ip = 270; continue _fun00001 }
  264:
             zulu = tango.mute;
  270:
             mike = mike != zulu;
-            if(!mike) { _fun65553_ip = 280; continue _fun65553 }
+            if(!mike) { _fun00002_ip = 280; continue _fun00001 }
  277:
             mike = zulu;
  280:

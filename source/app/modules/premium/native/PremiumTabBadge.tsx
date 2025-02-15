@@ -98,7 +98,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/premium/native/PremiumTabBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumTabBadge
-        _fun95734: for(var _fun95734_ip = 0; ; ) switch(_fun95734_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot11;
             tango = undefined;
@@ -126,7 +126,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.MOBILE_NITRO_HOME_SETTINGS_BADGE;
             entity = oscar.bind(golf)(entity);
             entity = !entity;
-            if(!entity) { _fun95734_ip = 121; continue _fun95734 }
+            if(!entity) { _fun00002_ip = 121; continue _fun00001 }
  118:
             entity = zulu;
  121:
@@ -149,7 +149,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             options = null;
             golf = options == oscar;
             foxtrot = undefined;
-            if(golf) { _fun95734_ip = 190; continue _fun95734 }
+            if(golf) { _fun00002_ip = 190; continue _fun00001 }
  184:
             foxtrot = oscar.trialId;
  190:
@@ -166,9 +166,9 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf = golf[result];
             romeo = romeo.bind(tango)(golf);
             golf = romeo.useSelectedDismissibleContent;
-            if(!(foxtrot === oscar)) { _fun95734_ip = 293; continue _fun95734 }
+            if(!(foxtrot === oscar)) { _fun00002_ip = 293; continue _fun00001 }
  251:
-            if(entity) { _fun95734_ip = 293; continue _fun95734 }
+            if(entity) { _fun00002_ip = 293; continue _fun00001 }
  254:
             foxtrot = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -178,7 +178,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot = oscar.REFERRAL_TRIAL_MOBILE_NITRO_HOME_BADGE;
             oscar = new Array(1);
             oscar[0] = foxtrot;
-            _fun95734_ip = 297; continue _fun95734;
+            _fun00002_ip = 297; continue _fun00001;
  293:
             oscar = new Array(0);
  297:
@@ -196,11 +196,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot = foxtrot[result];
             kilo = kilo.bind(tango)(foxtrot);
             foxtrot = kilo.useSelectedDismissibleContent;
-            if(!output) { _fun95734_ip = 403; continue _fun95734 }
+            if(!output) { _fun00002_ip = 403; continue _fun00001 }
  358:
-            if(entity) { _fun95734_ip = 403; continue _fun95734 }
+            if(entity) { _fun00002_ip = 403; continue _fun00001 }
  361:
-            if(!zulu) { _fun95734_ip = 403; continue _fun95734 }
+            if(!zulu) { _fun00002_ip = 403; continue _fun00001 }
  364:
             output = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -210,7 +210,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             output = zulu.WHATS_NEW_TENURE_BADGE_REWARD;
             zulu = new Array(1);
             zulu[0] = output;
-            _fun95734_ip = 407; continue _fun95734;
+            _fun00002_ip = 407; continue _fun00001;
  403:
             zulu = new Array(0);
  407:
@@ -225,7 +225,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = romeo.bind(tango)(zulu);
             zulu = zulu.DismissibleContent;
             zulu = zulu.REFERRAL_TRIAL_MOBILE_NITRO_HOME_BADGE;
-            if(!(golf !== zulu)) { _fun95734_ip = 557; continue _fun95734 }
+            if(!(golf !== zulu)) { _fun00002_ip = 557; continue _fun00001 }
  465:
             golf = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -234,7 +234,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = zulu.DismissibleContent;
             zulu = zulu.WHATS_NEW_TENURE_BADGE_REWARD;
             foxtrot = null;
-            if(!(oscar === zulu)) { _fun95734_ip = 612; continue _fun95734 }
+            if(!(oscar === zulu)) { _fun00002_ip = 612; continue _fun00001 }
  500:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -248,7 +248,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = zulu.t;
             zulu = zulu.jyYgZ2;
             foxtrot = oscar.bind(golf)(zulu);
-            _fun95734_ip = 612; continue _fun95734;
+            _fun00002_ip = 612; continue _fun00001;
  557:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -263,13 +263,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = zulu.uO4bXl;
             foxtrot = oscar.bind(golf)(zulu);
  612:
-            if(entity) { _fun95734_ip = 1439; continue _fun95734 }
+            if(entity) { _fun00002_ip = 1439; continue _fun00001 }
  618:
-            if(!(options == mike)) { _fun95734_ip = 842; continue _fun95734 }
+            if(!(options == mike)) { _fun00002_ip = 842; continue _fun00001 }
  625:
             zulu = options != foxtrot;
             entity = null;
-            if(!zulu) { _fun95734_ip = 840; continue _fun95734 }
+            if(!zulu) { _fun00002_ip = 840; continue _fun00001 }
  637:
             golf = _closure1_slot8;
             oscar = _closure1_slot1;
@@ -308,7 +308,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             backup = kilo.isAndroid;
             kilo = backup.bind(kilo)();
             backup = undefined;
-            if(!kilo) { _fun95734_ip = 816; continue _fun95734 }
+            if(!kilo) { _fun00002_ip = 816; continue _fun00001 }
  811:
             backup = yankee.text;
  816:
@@ -322,7 +322,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
  842:
             entity = options == mike;
             golf = undefined;
-            if(entity) { _fun95734_ip = 857; continue _fun95734 }
+            if(entity) { _fun00002_ip = 857; continue _fun00001 }
  851:
             golf = mike.subscription_trial;
  857:
@@ -334,14 +334,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = {};
             offset = options == golf;
             oscar = undefined;
-            if(offset) { _fun95734_ip = 897; continue _fun95734 }
+            if(offset) { _fun00002_ip = 897; continue _fun00001 }
  891:
             oscar = golf.interval;
  897:
             entity['intervalType'] = oscar;
             offset = options == golf;
             oscar = undefined;
-            if(offset) { _fun95734_ip = 917; continue _fun95734 }
+            if(offset) { _fun00002_ip = 917; continue _fun00001 }
  911:
             oscar = golf.interval_count;
  917:
@@ -349,11 +349,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             backup = zulu.bind(report)(entity);
             zulu = options == mike;
             entity = undefined;
-            if(zulu) { _fun95734_ip = 942; continue _fun95734 }
+            if(zulu) { _fun00002_ip = 942; continue _fun00001 }
  936:
             entity = mike.expires_at;
  942:
-            if(!(options == entity)) { _fun95734_ip = 1229; continue _fun95734 }
+            if(!(options == entity)) { _fun00002_ip = 1229; continue _fun00001 }
  949:
             zulu = _closure1_slot8;
             mike = _closure1_slot9;
@@ -368,13 +368,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report['style'] = offset;
             offset = options == golf;
             options = undefined;
-            if(offset) { _fun95734_ip = 1005; continue _fun95734 }
+            if(offset) { _fun00002_ip = 1005; continue _fun00001 }
  999:
             options = golf.sku_id;
  1005:
             golf = _closure1_slot7;
             golf = golf.TIER_0;
-            if(!(options !== golf)) { _fun95734_ip = 1053; continue _fun95734 }
+            if(!(options !== golf)) { _fun00002_ip = 1053; continue _fun00001 }
  1019:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -383,7 +383,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf = options.bind(tango)(golf);
             golf = golf.Gradients;
             golf = golf.PREMIUM_TIER_2;
-            _fun95734_ip = 1085; continue _fun95734;
+            _fun00002_ip = 1085; continue _fun00001;
  1053:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = zulu.bind(tango)(oscar, report);
             entity['children'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun95734_ip = 1437; continue _fun95734;
+            _fun00002_ip = 1437; continue _fun00001;
  1229:
             report = _closure1_slot8;
             zulu = _closure1_slot9;
@@ -511,7 +511,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = romeo.isAndroid;
             romeo = offset.bind(romeo)();
             offset = undefined;
-            if(!romeo) { _fun95734_ip = 1624; continue _fun95734 }
+            if(!romeo) { _fun00002_ip = 1624; continue _fun00001 }
  1619:
             offset = yankee.text;
  1624:

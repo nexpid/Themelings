@@ -7,27 +7,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: isPremiumTier2Entitlement
-        _fun66385: for(var _fun66385_ip = 0; ; ) switch(_fun66385_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = report.type;
             entity = _closure1_slot13;
             entity = entity.PURCHASE;
             entity = zulu === entity;
-            if(!entity) { _fun66385_ip = 48; continue _fun66385 }
+            if(!entity) { _fun00002_ip = 48; continue _fun00001 }
  28:
             tango = report.skuId;
             zulu = _closure1_slot6;
             zulu = zulu.TIER_2;
             entity = tango === zulu;
  48:
-            if(!entity) { _fun66385_ip = 64; continue _fun66385 }
+            if(!entity) { _fun00002_ip = 64; continue _fun00001 }
  51:
             tango = report.applicationId;
             zulu = _closure1_slot5;
             entity = tango === zulu;
  64:
-            if(!entity) { _fun66385_ip = 85; continue _fun66385 }
+            if(!entity) { _fun00002_ip = 85; continue _fun00001 }
  67:
             tango = report.isValid;
             zulu = _closure1_slot3;
@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot14 = report;
     tango = function(argFoo, argBar) { // Original name: getTenureRewardEntitlement
-        _fun66386: for(var _fun66386_ip = 0; ; ) switch(_fun66386_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argBar;
             mike = argFoo;
             var _closure2_slot0 = mike;
             mike = null;
-            if(!(mike == tango)) { _fun66386_ip = 22; continue _fun66386 }
+            if(!(mike == tango)) { _fun00004_ip = 22; continue _fun00003 }
  18:
             mike = undefined;
             return mike;
@@ -56,27 +56,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.bind(zulu)(tango);
             mike = zulu.find;
             entity = function(argFoo) {
-                _fun66387: for(var _fun66387_ip = 0; ; ) switch(_fun66387_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = argFoo;
                     zulu = report.type;
                     entity = _closure1_slot13;
                     entity = entity.PREMIUM_PURCHASE;
                     entity = zulu === entity;
-                    if(!entity) { _fun66387_ip = 51; continue _fun66387 }
+                    if(!entity) { _fun00006_ip = 51; continue _fun00005 }
  28:
                     oscar = _closure2_slot0;
                     tango = oscar.includes;
                     zulu = report.skuId;
                     entity = tango.bind(oscar)(zulu);
  51:
-                    if(!entity) { _fun66387_ip = 67; continue _fun66387 }
+                    if(!entity) { _fun00006_ip = 67; continue _fun00005 }
  54:
                     tango = report.applicationId;
                     zulu = _closure1_slot5;
                     entity = tango === zulu;
  67:
-                    if(!entity) { _fun66387_ip = 88; continue _fun66387 }
+                    if(!entity) { _fun00006_ip = 88; continue _fun00005 }
  70:
                     tango = report.isValid;
                     zulu = _closure1_slot3;
@@ -147,27 +147,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['isPremiumTier2Entitlement'] = report;
     report = function(argFoo) { // Original name: isValidTenureRewardEntitlement
-        _fun66388: for(var _fun66388_ip = 0; ; ) switch(_fun66388_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             zulu = report.type;
             entity = _closure1_slot13;
             entity = entity.PREMIUM_PURCHASE;
             entity = zulu === entity;
-            if(!entity) { _fun66388_ip = 48; continue _fun66388 }
+            if(!entity) { _fun00008_ip = 48; continue _fun00007 }
  28:
             oscar = _closure1_slot7;
             tango = oscar.has;
             zulu = report.skuId;
             entity = tango.bind(oscar)(zulu);
  48:
-            if(!entity) { _fun66388_ip = 64; continue _fun66388 }
+            if(!entity) { _fun00008_ip = 64; continue _fun00007 }
  51:
             tango = report.applicationId;
             zulu = _closure1_slot5;
             entity = tango === zulu;
  64:
-            if(!entity) { _fun66388_ip = 85; continue _fun66388 }
+            if(!entity) { _fun00008_ip = 85; continue _fun00007 }
  67:
             tango = report.isValid;
             zulu = _closure1_slot3;
@@ -179,26 +179,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isValidTenureRewardEntitlement'] = report;
     report = function(argFoo) { // Original name: isValidTenureRewardEntitlementForAvatarDeco
-        _fun66389: for(var _fun66389_ip = 0; ; ) switch(_fun66389_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = argFoo;
             zulu = report.type;
             entity = _closure1_slot13;
             entity = entity.FREE_PURCHASE;
             entity = zulu === entity;
-            if(!entity) { _fun66389_ip = 42; continue _fun66389 }
+            if(!entity) { _fun00010_ip = 42; continue _fun00009 }
  28:
             tango = report.skuId;
             zulu = _closure1_slot11;
             entity = tango === zulu;
  42:
-            if(!entity) { _fun66389_ip = 58; continue _fun66389 }
+            if(!entity) { _fun00010_ip = 58; continue _fun00009 }
  45:
             tango = report.applicationId;
             zulu = _closure1_slot12;
             entity = tango === zulu;
  58:
-            if(!entity) { _fun66389_ip = 79; continue _fun66389 }
+            if(!entity) { _fun00010_ip = 79; continue _fun00009 }
  61:
             tango = report.isValid;
             zulu = _closure1_slot3;
@@ -210,11 +210,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isValidTenureRewardEntitlementForAvatarDeco'] = report;
     report = function(argFoo) { // Original name: getPremiumTier2Entitlement
-        _fun66390: for(var _fun66390_ip = 0; ; ) switch(_fun66390_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity == zulu)) { _fun66390_ip = 13; continue _fun66390 }
+            if(!(entity == zulu)) { _fun00012_ip = 13; continue _fun00011 }
  9:
             entity = undefined;
             return entity;
@@ -238,13 +238,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getPremiumTier2Entitlement'] = report;
     zulu['getTenureRewardEntitlement'] = tango;
     tango = function(argFoo, argBar) { // Original name: getAvatarDecoEntitlment
-        _fun66392: for(var _fun66392_ip = 0; ; ) switch(_fun66392_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             tango = argBar;
             mike = argFoo;
             var _closure2_slot0 = mike;
             mike = null;
-            if(!(mike == tango)) { _fun66392_ip = 22; continue _fun66392 }
+            if(!(mike == tango)) { _fun00014_ip = 22; continue _fun00013 }
  18:
             mike = undefined;
             return mike;
@@ -255,26 +255,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.bind(zulu)(tango);
             mike = zulu.find;
             entity = function(argFoo) {
-                _fun66393: for(var _fun66393_ip = 0; ; ) switch(_fun66393_ip) {
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     report = argFoo;
                     zulu = report.type;
                     entity = _closure1_slot13;
                     entity = entity.FREE_PURCHASE;
                     entity = zulu === entity;
-                    if(!entity) { _fun66393_ip = 45; continue _fun66393 }
+                    if(!entity) { _fun00016_ip = 45; continue _fun00015 }
  28:
                     tango = report.skuId;
                     zulu = _closure2_slot0;
                     entity = tango === zulu;
  45:
-                    if(!entity) { _fun66393_ip = 61; continue _fun66393 }
+                    if(!entity) { _fun00016_ip = 61; continue _fun00015 }
  48:
                     tango = report.applicationId;
                     zulu = _closure1_slot12;
                     entity = tango === zulu;
  61:
-                    if(!entity) { _fun66393_ip = 82; continue _fun66393 }
+                    if(!entity) { _fun00016_ip = 82; continue _fun00015 }
  64:
                     tango = report.isValid;
                     zulu = _closure1_slot3;
@@ -290,17 +290,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getAvatarDecoEntitlment'] = tango;
     tango = function(argFoo, argBar) { // Original name: isAvatarDecoApplied
-        _fun66394: for(var _fun66394_ip = 0; ; ) switch(_fun66394_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             mike = argBar;
             zulu = null;
             entity = zulu != mike;
-            if(!entity) { _fun66394_ip = 40; continue _fun66394 }
+            if(!entity) { _fun00018_ip = 40; continue _fun00017 }
  12:
             mike = mike.avatarDecoration;
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun66394_ip = 33; continue _fun66394 }
+            if(tango) { _fun00018_ip = 33; continue _fun00017 }
  27:
             zulu = mike.skuId;
  33:
@@ -329,13 +329,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getGuildBoostSlotTenureRewardEntitlement'] = tango;
     tango = function(argFoo) { // Original name: isUserTenureRewardStatusActive
-        _fun66396: for(var _fun66396_ip = 0; ; ) switch(_fun66396_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             mike = argFoo;
             entity = mike.redeemable_at;
             zulu = null;
             entity = zulu != entity;
-            if(!entity) { _fun66396_ip = 30; continue _fun66396 }
+            if(!entity) { _fun00020_ip = 30; continue _fun00019 }
  20:
             mike = mike.next_tenure_reward_id;
             entity = zulu != mike;
@@ -345,16 +345,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isUserTenureRewardStatusActive'] = tango;
     tango = function(argFoo) { // Original name: getTenureRewardBadgeDescription
-        _fun66397: for(var _fun66397_ip = 0; ; ) switch(_fun66397_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot9;
             mike = mike.PENDING;
-            if(!(mike !== zulu)) { _fun66397_ip = 107; continue _fun66397 }
+            if(!(mike !== zulu)) { _fun00022_ip = 107; continue _fun00021 }
  20:
             mike = _closure1_slot9;
             mike = mike.REDEEMABLE;
-            if(!(mike !== zulu)) { _fun66397_ip = 48; continue _fun66397 }
+            if(!(mike !== zulu)) { _fun00022_ip = 48; continue _fun00021 }
  34:
             mike = _closure1_slot9;
             mike = mike.REDEEMED;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getTenureRewardBadgeDescription'] = tango;
     tango = function() { // Original name: getTenureRewardStatus
-        _fun66398: for(var _fun66398_ip = 0; ; ) switch(_fun66398_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             tango = _closure1_slot4;
             zulu = tango.getTenureRewardStatusForRewardId;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.FREE_AVATAR_DECO_1_MONTH;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu == entity)) { _fun66398_ip = 59; continue _fun66398 }
+            if(!(zulu == entity)) { _fun00024_ip = 59; continue _fun00023 }
  34:
             oscar = _closure1_slot4;
             report = oscar.getTenureRewardStatusForRewardId;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.FREE_GUILD_BOOST_1_MONTH;
             entity = report.bind(oscar)(tango);
  59:
-            if(!(zulu == entity)) { _fun66398_ip = 88; continue _fun66398 }
+            if(!(zulu == entity)) { _fun00024_ip = 88; continue _fun00023 }
  63:
             tango = _closure1_slot4;
             zulu = tango.getTenureRewardStatusForRewardId;
@@ -423,26 +423,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getTenureRewardStatus'] = tango;
     mike = function(argFoo) { // Original name: getNitroRewardType
-        _fun66399: for(var _fun66399_ip = 0; ; ) switch(_fun66399_ip) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot8;
             entity = entity.FREE_AVATAR_DECO_1_MONTH;
-            if(!(tango !== entity)) { _fun66399_ip = 62; continue _fun66399 }
+            if(!(tango !== entity)) { _fun00026_ip = 62; continue _fun00025 }
  20:
             entity = _closure1_slot8;
             entity = entity.FREE_GUILD_BOOST_1_MONTH;
-            if(!(tango !== entity)) { _fun66399_ip = 50; continue _fun66399 }
+            if(!(tango !== entity)) { _fun00026_ip = 50; continue _fun00025 }
  34:
             entity = _closure1_slot8;
             zulu = entity.FREE_GUILD_BOOST_3_MONTHS;
             entity = undefined;
-            if(!(tango === zulu)) { _fun66399_ip = 60; continue _fun66399 }
+            if(!(tango === zulu)) { _fun00026_ip = 60; continue _fun00025 }
  50:
             zulu = _closure1_slot10;
             entity = zulu.SERVER_BOOST;
  60:
-            _fun66399_ip = 72; continue _fun66399;
+            _fun00026_ip = 72; continue _fun00025;
  62:
             mike = _closure1_slot10;
             entity = mike.AVATAR_DECO;

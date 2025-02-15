@@ -1,6 +1,6 @@
 // app/modules/messages/native/MessageGameIconActionSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun91807: for(var _fun91807_ip = 0; ; ) switch(_fun91807_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         foxtrot = argBaz;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = backup.isAndroid;
         backup = romeo.bind(backup)();
         romeo = 0;
-        if(!backup) { _fun91807_ip = 234; continue _fun91807 }
+        if(!backup) { _fun00002_ip = 234; continue _fun00001 }
  231:
         romeo = 16;
  234:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/messages/native/MessageGameIconActionSheet.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: _default
-            _fun91808: for(var _fun91808_ip = 0; ; ) switch(_fun91808_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 zulu = mike.applicationId;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = null;
                 mike = backup == sequence;
                 entity = null;
-                if(mike) { _fun91808_ip = 620; continue _fun91808 }
+                if(mike) { _fun00004_ip = 620; continue _fun00003 }
  97:
                 tango = _closure1_slot6;
                 zulu = _closure1_slot0;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = {};
                 sizing = backup == sequence;
                 kilo = undefined;
-                if(sizing) { _fun91808_ip = 230; continue _fun91808 }
+                if(sizing) { _fun00004_ip = 230; continue _fun00003 }
  216:
                 echo = sequence.getIconURL;
                 sizing = 56;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  230:
                 sizing = backup != kilo;
                 backup = '';
-                if(!sizing) { _fun91808_ip = 244; continue _fun91808 }
+                if(!sizing) { _fun00004_ip = 244; continue _fun00003 }
  241:
                 backup = kilo;
  244:

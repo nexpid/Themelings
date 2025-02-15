@@ -6,18 +6,18 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function() { // Original name: handleLimitedPickerPress
-        _fun88295: for(var _fun88295_ip = 0; ; ) switch(_fun88295_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot3;
             mike = entity.NativePermissionManager;
             tango = null;
             entity = tango == mike;
-            if(entity) { _fun88295_ip = 32; continue _fun88295 }
+            if(entity) { _fun00002_ip = 32; continue _fun00001 }
  22:
             zulu = mike.presentLimitedLibraryPicker;
             entity = tango == zulu;
  32:
-            if(entity) { _fun88295_ip = 45; continue _fun88295 }
+            if(entity) { _fun00002_ip = 45; continue _fun00001 }
  35:
             entity = mike.presentLimitedLibraryPicker;
             entity = entity.bind(mike)();
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/media_keyboard/native/components/MediaKeyboardLimitedPickerNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MediaKeyboardLimitedPickerNotice
-        _fun88296: for(var _fun88296_ip = 0; ; ) switch(_fun88296_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             options = mike.onHeightChange;
@@ -97,11 +97,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = options;
             entity = function(argFoo) {
-                _fun88297: for(var _fun88297_ip = 0; ; ) switch(_fun88297_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun88297_ip = 43; continue _fun88297 }
+                    if(!(mike != zulu)) { _fun00006_ip = 43; continue _fun00005 }
  13:
                     zulu = _closure2_slot0;
                     entity = argFoo;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = null;
             options = golf != options;
             golf = undefined;
-            if(!options) { _fun88296_ip = 98; continue _fun88296 }
+            if(!options) { _fun00004_ip = 98; continue _fun00003 }
  92:
             golf = verify.absoluteContainer;
  98:

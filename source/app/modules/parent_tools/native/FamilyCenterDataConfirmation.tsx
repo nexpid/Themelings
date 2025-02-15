@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = options.bind(verify)(golf);
     var _closure1_slot7 = golf;
     golf = function(argFoo) { // Original name: Row
-        _fun95277: for(var _fun95277_ip = 0; ; ) switch(_fun95277_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.header;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!backup) { _fun95277_ip = 88; continue _fun95277 }
+            if(!backup) { _fun00002_ip = 88; continue _fun00001 }
  82:
             oscar = output.primary;
  88:
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = kilo;
             offset = null;
-            if(!backup) { _fun95277_ip = 131; continue _fun95277 }
+            if(!backup) { _fun00002_ip = 131; continue _fun00001 }
  125:
             offset = output.iconContainerAccent;
  131:
@@ -173,10 +173,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = result[backup];
             backup = kilo.bind(tango)(backup);
             backup = backup.colors;
-            if(romeo) { _fun95277_ip = 181; continue _fun95277 }
+            if(romeo) { _fun00002_ip = 181; continue _fun00001 }
  173:
             romeo = backup.STATUS_POSITIVE;
-            _fun95277_ip = 187; continue _fun95277;
+            _fun00002_ip = 187; continue _fun00001;
  181:
             romeo = backup.STATUS_DANGER;
  187:
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterDataConfirmation.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterDataConfirmation
-        _fun95278: for(var _fun95278_ip = 0; ; ) switch(_fun95278_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.source;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(zulu)(entity);
             control = 'text-xxs/bold';
             mike = 'activity-page';
-            if(!(mike === romeo)) { _fun95278_ip = 86; continue _fun95278 }
+            if(!(mike === romeo)) { _fun00004_ip = 86; continue _fun00003 }
  80:
             control = 'eyebrow';
  86:
@@ -454,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['source'] = romeo;
             update[2] = mike;
             tango = _closure1_slot6;
-            if(entity) { _fun95278_ip = 1662; continue _fun95278 }
+            if(entity) { _fun00004_ip = 1662; continue _fun00003 }
  989:
             mike = _closure1_slot4;
             entity = {};
@@ -604,7 +604,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[5] = oscar;
             entity['children'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun95278_ip = 1894; continue _fun95278;
+            _fun00004_ip = 1894; continue _fun00003;
  1662:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -684,7 +684,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = yankee;
             yankee = romeo.map;
             offset = function(argFoo) {
-                _fun95280: for(var _fun95280_ip = 0; ; ) switch(_fun95280_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     report = entity.header;
@@ -710,7 +710,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = {};
                     offset = 'default';
                     yankee = true;
-                    if(!(yankee === romeo)) { _fun95280_ip = 115; continue _fun95280 }
+                    if(!(yankee === romeo)) { _fun00006_ip = 115; continue _fun00005 }
  109:
                     offset = 'status-dnd';
  115:

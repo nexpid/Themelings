@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/auth/getAuthenticationErrorsFromAPIError.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getAuthenticationErrorsFromAPIError
-        _fun108314: for(var _fun108314_ip = 0; ; ) switch(_fun108314_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = {};
@@ -27,12 +27,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['error_code'] = mike;
             mike = report.errors;
             zulu = null;
-            if(!(zulu == mike)) { _fun108314_ip = 63; continue _fun108314 }
+            if(!(zulu == mike)) { _fun00002_ip = 63; continue _fun00001 }
  28:
             mike = report.message;
             entity['message'] = mike;
             mike = report.retryAfter;
-            if(!(zulu != mike)) { _fun108314_ip = 61; continue _fun108314 }
+            if(!(zulu != mike)) { _fun00002_ip = 61; continue _fun00001 }
  49:
             mike = report.retryAfter;
             entity['retry_after'] = mike;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.length;
             zulu = 0;
             mike = zulu < mike;
-            if(!mike) { _fun108314_ip = 140; continue _fun108314 }
+            if(!mike) { _fun00002_ip = 140; continue _fun00001 }
  101:
             oscar = tango[zulu];
             mike = report.getFirstFieldErrorMessage;
@@ -57,14 +57,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity[oscar] = mike;
             zulu = zulu + 1;
             mike = tango.length;
-            if(zulu < mike) { _fun108314_ip = 101; continue _fun108314 }
+            if(zulu < mike) { _fun00002_ip = 101; continue _fun00001 }
  140:
             return entity;
         }
     };
     zulu['getAuthenticationErrorsFromAPIError'] = tango;
     mike = function(argFoo) { // Original name: getAuthenticationErrorsFromV6OrEarlierAPIError
-        _fun108315: for(var _fun108315_ip = 0; ; ) switch(_fun108315_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = global;
@@ -74,14 +74,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike);
             zulu = mike.length;
             mike = 0;
-            if(!(!(zulu > mike))) { _fun108315_ip = 75; continue _fun108315 }
+            if(!(!(zulu > mike))) { _fun00004_ip = 75; continue _fun00003 }
  38:
             mike = {};
             zulu = entity.message;
             mike['message'] = zulu;
             tango = entity.retryAfter;
             zulu = null;
-            if(!(zulu != tango)) { _fun108315_ip = 73; continue _fun108315 }
+            if(!(zulu != tango)) { _fun00004_ip = 73; continue _fun00003 }
  61:
             zulu = entity.retryAfter;
             mike['retry_after'] = zulu;

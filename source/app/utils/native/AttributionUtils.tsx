@@ -1,6 +1,6 @@
 // app/utils/native/AttributionUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun109169: for(var _fun109169_ip = 0; ; ) switch(_fun109169_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = options.isAndroid;
         options = mike.bind(options)();
         mike = 'c5d61fi6aark';
-        if(!options) { _fun109169_ip = 116; continue _fun109169 }
+        if(!options) { _fun00002_ip = 116; continue _fun00001 }
  110:
         mike = 'd8fcx8xdmrr4';
  116:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         options = verify.isAndroid;
         verify = options.bind(verify)();
         options = 'ymrsnx';
-        if(!verify) { _fun109169_ip = 155; continue _fun109169 }
+        if(!verify) { _fun00002_ip = 155; continue _fun00001 }
  149:
         options = 'ctt5aq';
  155:
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = options.isAndroid;
         options = golf.bind(options)();
         golf = 'o3436p';
-        if(!options) { _fun109169_ip = 193; continue _fun109169 }
+        if(!options) { _fun00002_ip = 193; continue _fun00001 }
  187:
         golf = 'ebn8ke';
  193:
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango instanceof Object ? tango : oscar;
             golf = tango.setAttributionCallbackListener;
             oscar = function(argFoo) {
-                _fun109171: for(var _fun109171_ip = 0; ; ) switch(_fun109171_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     entity = null;
-                    if(!(entity != report)) { _fun109171_ip = 165; continue _fun109171 }
+                    if(!(entity != report)) { _fun00004_ip = 165; continue _fun00003 }
  12:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;

@@ -582,17 +582,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['DrawingColors'] = oscar;
     zulu['DRAWING_TOOL_COLOR_PRESETS'] = report;
     tango = function(argFoo) { // Original name: hexToDrawingColor
-        _fun84103: for(var _fun84103_ip = 0; ; ) switch(_fun84103_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot2;
             entity = argFoo;
             zulu = zulu[entity];
             entity = null;
-            if(!(entity != zulu)) { _fun84103_ip = 28; continue _fun84103 }
+            if(!(entity != zulu)) { _fun00002_ip = 28; continue _fun00001 }
  20:
             entity = undefined;
             entity = zulu.bind(entity)();
-            _fun84103_ip = 84; continue _fun84103;
+            _fun00002_ip = 84; continue _fun00001;
  28:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;

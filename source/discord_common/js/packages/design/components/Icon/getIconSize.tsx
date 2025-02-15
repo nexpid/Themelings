@@ -22,11 +22,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = '../discord_common/js/packages/design/components/Icon/getIconSize.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: getIconSize
-        _fun116339: for(var _fun116339_ip = 0; ; ) switch(_fun116339_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = 'custom';
-            if(!(entity !== mike)) { _fun116339_ip = 34; continue _fun116339 }
+            if(!(entity !== mike)) { _fun00002_ip = 34; continue _fun00001 }
  11:
             entity = _closure1_slot0;
             mike = entity[mike];

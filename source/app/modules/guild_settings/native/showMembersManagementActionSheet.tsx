@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_settings/native/showMembersManagementActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: showMembersManagementActionSheet
-        _fun126529: for(var _fun126529_ip = 0; ; ) switch(_fun126529_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.guild;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.KICK_MEMBERS;
             zulu = offset.bind(romeo)(verify, zulu);
             zulu = tango.bind(golf)(zulu, options);
-            if(!zulu) { _fun126529_ip = 268; continue _fun126529 }
+            if(!zulu) { _fun00002_ip = 268; continue _fun00001 }
  182:
             tango = report.push;
             zulu = {};
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getMembersManagementActions
-        _fun126532: for(var _fun126532_ip = 0; ; ) switch(_fun126532_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             golf = entity.guild;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.KICK_MEMBERS;
             mike = yankee.bind(romeo)(options, mike);
             mike = zulu.bind(oscar)(mike, golf);
-            if(!mike) { _fun126532_ip = 271; continue _fun126532 }
+            if(!mike) { _fun00004_ip = 271; continue _fun00003 }
  182:
             zulu = entity.push;
             mike = {};

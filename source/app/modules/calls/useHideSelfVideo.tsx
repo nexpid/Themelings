@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/calls/useHideSelfVideo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useHideSelfVideo
-        _fun103629: for(var _fun103629_ip = 0; ; ) switch(_fun103629_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             zulu = arguments[1];
             verify = undefined;
-            if(!(zulu === verify)) { _fun103629_ip = 27; continue _fun103629 }
+            if(!(zulu === verify)) { _fun00002_ip = 27; continue _fun00001 }
  14:
             entity = _closure1_slot6;
             zulu = entity.DEFAULT;
@@ -106,11 +106,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = options.bind(verify)(golf, zulu, tango);
             tango = null;
             tango = tango == oscar;
-            if(tango) { _fun103629_ip = 192; continue _fun103629 }
+            if(tango) { _fun00002_ip = 192; continue _fun00001 }
  188:
             tango = oscar === report;
  192:
-            if(!tango) { _fun103629_ip = 198; continue _fun103629 }
+            if(!tango) { _fun00002_ip = 198; continue _fun00001 }
  195:
             tango = entity;
  198:
@@ -118,14 +118,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity[0] = tango;
             entity[1] = zulu;
             mike = function(argFoo) {
-                _fun103633: for(var _fun103633_ip = 0; ; ) switch(_fun103633_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot5;
                     zulu = argFoo;
-                    if(zulu) { _fun103633_ip = 21; continue _fun103633 }
+                    if(zulu) { _fun00004_ip = 21; continue _fun00003 }
  13:
                     oscar = mike.MANUAL_ENABLED;
-                    _fun103633_ip = 27; continue _fun103633;
+                    _fun00004_ip = 27; continue _fun00003;
  21:
                     oscar = mike.DISABLED;
  27:

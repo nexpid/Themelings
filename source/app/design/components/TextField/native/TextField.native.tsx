@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot2 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun63664: for(var _fun63664_ip = 0; ; ) switch(_fun63664_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             zulu = _closure1_slot0;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = null;
             mike = mike != zulu;
             golf = undefined;
-            if(!mike) { _fun63664_ip = 121; continue _fun63664 }
+            if(!mike) { _fun00002_ip = 121; continue _fun00001 }
  95:
             mike = {};
             oscar = zulu.content;

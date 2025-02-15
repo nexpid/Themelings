@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun71941: for(var _fun71941_ip = 0; ; ) switch(_fun71941_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot13;
             entity = entity.bind(zulu)();
-            if(entity) { _fun71941_ip = 51; continue _fun71941 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun71941_ip = 92; continue _fun71941;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun71941_ip = 71; continue _fun71941 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun71942: for(var _fun71942_ip = 0; ; ) switch(_fun71942_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun71942_ip = 76; continue _fun71942;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -189,11 +189,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['CONNECTION_OPEN'] = verify;
     verify = function(argFoo) { // Original name: handleMessageCreate
-        _fun71949: for(var _fun71949_ip = 0; ; ) switch(_fun71949_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = entity.isPushNotification;
-            if(mike) { _fun71949_ip = 231; continue _fun71949 }
+            if(mike) { _fun00006_ip = 231; continue _fun00005 }
  15:
             mike = entity.message;
             report = _closure1_slot9;
@@ -204,11 +204,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = report == options;
             oscar = undefined;
             zulu = undefined;
-            if(verify) { _fun71949_ip = 61; continue _fun71949 }
+            if(verify) { _fun00006_ip = 61; continue _fun00005 }
  56:
             zulu = options.id;
  61:
-            if(!(golf === zulu)) { _fun71949_ip = 231; continue _fun71949 }
+            if(!(golf === zulu)) { _fun00006_ip = 231; continue _fun00005 }
  68:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -219,23 +219,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = mike.id;
             zulu = mike.channel_id;
             zulu = options.bind(verify)(golf, zulu);
-            if(!zulu) { _fun71949_ip = 231; continue _fun71949 }
+            if(!zulu) { _fun00006_ip = 231; continue _fun00005 }
  113:
             golf = _closure1_slot10;
             zulu = golf.getChannel;
             mike = mike.channel_id;
             mike = zulu.bind(golf)(mike);
-            if(!(report != mike)) { _fun71949_ip = 231; continue _fun71949 }
+            if(!(report != mike)) { _fun00006_ip = 231; continue _fun00005 }
  136:
             zulu = mike.parent_id;
-            if(!(report != zulu)) { _fun71949_ip = 231; continue _fun71949 }
+            if(!(report != zulu)) { _fun00006_ip = 231; continue _fun00005 }
  146:
             golf = _closure1_slot8;
             report = golf.isChannelGated;
             zulu = mike.guild_id;
             mike = mike.parent_id;
             mike = report.bind(golf)(zulu, mike);
-            if(!mike) { _fun71949_ip = 231; continue _fun71949 }
+            if(!mike) { _fun00006_ip = 231; continue _fun00005 }
  176:
             zulu = _closure1_slot11;
             mike = zulu.add;

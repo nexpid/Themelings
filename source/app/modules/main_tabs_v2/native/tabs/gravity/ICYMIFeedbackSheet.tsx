@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = ['other'];
         entity['feedbackReasons'] = oscar;
         report = function(argFoo) { // Original name: trackReport
-            _fun117157: for(var _fun117157_ip = 0; ; ) switch(_fun117157_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 oscar = argFoo;
                 tango = _closure1_slot1;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = null;
                 options = golf != options;
                 golf = undefined;
-                if(!options) { _fun117157_ip = 129; continue _fun117157 }
+                if(!options) { _fun00002_ip = 129; continue _fun00001 }
  107:
                 options = oscar.reason;
                 verify = options.value;

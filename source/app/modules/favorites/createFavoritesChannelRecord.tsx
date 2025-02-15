@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = 'modules/favorites/createFavoritesChannelRecord.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar, argBaz) { // Original name: createFavoritesChannelRecord
-        _fun44087: for(var _fun44087_ip = 0; ; ) switch(_fun44087_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             zulu = argBaz;
@@ -35,20 +35,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['position_'] = zulu;
             zulu = mike.nickname;
             tango = null;
-            if(!(tango != zulu)) { _fun44087_ip = 77; continue _fun44087 }
+            if(!(tango != zulu)) { _fun00002_ip = 77; continue _fun00001 }
  65:
             zulu = mike.nickname;
             entity['name'] = zulu;
  77:
             zulu = mike.parentId;
             zulu = tango != zulu;
-            if(!zulu) { _fun44087_ip = 103; continue _fun44087 }
+            if(!zulu) { _fun00002_ip = 103; continue _fun00001 }
  90:
             report = mike.parentId;
             tango = argFoo;
             zulu = report in tango;
  103:
-            if(!zulu) { _fun44087_ip = 118; continue _fun44087 }
+            if(!zulu) { _fun00002_ip = 118; continue _fun00001 }
  106:
             mike = mike.parentId;
             entity['parent_id'] = mike;

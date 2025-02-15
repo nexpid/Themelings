@@ -234,17 +234,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = options.bind(tango)(zulu);
         zulu = yankee.useAnimatedStyle;
         mike = function() { // Original name: h
-            _fun77252: for(var _fun77252_ip = 0; ; ) switch(_fun77252_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 report = _closure1_slot8;
                 zulu = _closure2_slot0;
-                if(report) { _fun77252_ip = 59; continue _fun77252 }
+                if(report) { _fun00002_ip = 59; continue _fun00001 }
  19:
-                if(zulu) { _fun77252_ip = 28; continue _fun77252 }
+                if(zulu) { _fun00002_ip = 28; continue _fun00001 }
  22:
                 report = _closure1_slot6;
-                _fun77252_ip = 32; continue _fun77252;
+                _fun00002_ip = 32; continue _fun00001;
  28:
                 report = _closure1_slot5;
  32:
@@ -252,19 +252,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = report * tango;
                 oscar = _closure2_slot0;
                 tango = 46;
-                if(!oscar) { _fun77252_ip = 53; continue _fun77252 }
+                if(!oscar) { _fun00002_ip = 53; continue _fun00001 }
  50:
                 tango = 72;
  53:
                 tango = report + tango;
-                _fun77252_ip = 89; continue _fun77252;
+                _fun00002_ip = 89; continue _fun00001;
  59:
-                if(zulu) { _fun77252_ip = 75; continue _fun77252 }
+                if(zulu) { _fun00002_ip = 75; continue _fun00001 }
  62:
                 report = _closure2_slot1;
                 zulu = 24;
                 zulu = report + zulu;
-                _fun77252_ip = 86; continue _fun77252;
+                _fun00002_ip = 86; continue _fun00001;
  75:
                 oscar = _closure2_slot2;
                 report = 24;

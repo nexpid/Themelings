@@ -48,12 +48,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot0 = mike;
         mike = zulu.map;
         entity = function(argFoo) {
-            _fun72572: for(var _fun72572_ip = 0; ; ) switch(_fun72572_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 tango = mike.fields;
                 entity = null;
-                if(!(entity == tango)) { _fun72572_ip = 19; continue _fun72572 }
+                if(!(entity == tango)) { _fun00002_ip = 19; continue _fun00001 }
  15:
                 tango = new Array(0);
  19:

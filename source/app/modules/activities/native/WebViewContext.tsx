@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = options;
         entity = function(argFoo) {
-            _fun75945: for(var _fun75945_ip = 0; ; ) switch(_fun75945_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
-                if(!entity) { _fun75945_ip = 26; continue _fun75945 }
+                if(!entity) { _fun00002_ip = 26; continue _fun00001 }
  6:
                 zulu = _closure2_slot0;
                 mike = entity._nativeTag;

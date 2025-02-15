@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/PremiumSubscriptionUpsell.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun96151: for(var _fun96151_ip = 0; ; ) switch(_fun96151_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.onLearnMorePremium;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.canUsePremiumGuildMemberProfile;
             mike = entity.bind(mike)(yankee);
             entity = null;
-            if(mike) { _fun96151_ip = 1248; continue _fun96151 }
+            if(mike) { _fun00002_ip = 1248; continue _fun00001 }
  114:
             tango = _closure1_slot9;
             zulu = _closure1_slot3;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.bind(report)(verify);
             verify = offset.isPremium;
             verify = verify.bind(offset)(yankee);
-            if(verify) { _fun96151_ip = 403; continue _fun96151 }
+            if(verify) { _fun00002_ip = 403; continue _fun00001 }
  287:
             yankee = _closure1_slot9;
             output = _closure1_slot0;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(sizing)(romeo);
             verify['children'] = romeo;
             offset = yankee.bind(report)(offset, verify);
-            _fun96151_ip = 652; continue _fun96151;
+            _fun00002_ip = 652; continue _fun00001;
  403:
             romeo = _closure1_slot11;
             yankee = _closure1_slot10;

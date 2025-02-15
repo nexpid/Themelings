@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/BuyButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun99696: for(var _fun99696_ip = 0; ; ) switch(_fun99696_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.product;
@@ -166,13 +166,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['product'] = entity;
             verify = backup.bind(sizing)(verify);
             verify = verify.handleClaim;
-            if(romeo) { _fun99696_ip = 1035; continue _fun99696 }
+            if(romeo) { _fun00002_ip = 1035; continue _fun00001 }
  370:
-            if(!zulu) { _fun99696_ip = 440; continue _fun99696 }
+            if(!zulu) { _fun00002_ip = 440; continue _fun00001 }
  373:
-            if(mike) { _fun99696_ip = 440; continue _fun99696 }
+            if(mike) { _fun00002_ip = 440; continue _fun00001 }
  376:
-            if(yankee) { _fun99696_ip = 440; continue _fun99696 }
+            if(yankee) { _fun00002_ip = 440; continue _fun00001 }
  379:
             sizing = _closure1_slot6;
             backup = _closure1_slot0;
@@ -212,11 +212,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(tango)(backup, romeo);
             return romeo;
  440:
-            if(yankee) { _fun99696_ip = 927; continue _fun99696 }
+            if(yankee) { _fun00002_ip = 927; continue _fun00001 }
  446:
-            if(!zulu) { _fun99696_ip = 455; continue _fun99696 }
+            if(!zulu) { _fun00002_ip = 455; continue _fun00001 }
  449:
-            if(mike) { _fun99696_ip = 927; continue _fun99696 }
+            if(mike) { _fun00002_ip = 927; continue _fun00001 }
  455:
             zulu = entity.type;
             romeo = _closure1_slot0;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.bind(tango)(mike);
             mike = mike.CollectiblesItemType;
             mike = mike.PROFILE_EFFECT;
-            if(!(zulu !== mike)) { _fun99696_ip = 651; continue _fun99696 }
+            if(!(zulu !== mike)) { _fun00002_ip = 651; continue _fun00001 }
  499:
             mike = entity.type;
             zulu = _closure1_slot0;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity);
             entity = entity.CollectiblesItemType;
             entity = entity.BUNDLE;
-            if(!(mike !== entity)) { _fun99696_ip = 594; continue _fun99696 }
+            if(!(mike !== entity)) { _fun00002_ip = 594; continue _fun00001 }
  537:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.AQ0Ven;
             echo = mike.bind(zulu)(entity);
-            _fun99696_ip = 649; continue _fun99696;
+            _fun00002_ip = 649; continue _fun00001;
  594:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.V1AWw8;
             echo = mike.bind(zulu)(entity);
  649:
-            _fun99696_ip = 706; continue _fun99696;
+            _fun00002_ip = 706; continue _fun00001;
  651:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;

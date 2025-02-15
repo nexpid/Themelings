@@ -64,12 +64,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['StickyContext'] = tango;
     mike = function(argFoo) { // Original name: StickyWrapper
-        _fun89506: for(var _fun89506_ip = 0; ; ) switch(_fun89506_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.initiallyShowHeader;
             tango = undefined;
-            if(!(offset === tango)) { _fun89506_ip = 19; continue _fun89506 }
+            if(!(offset === tango)) { _fun00002_ip = 19; continue _fun00001 }
  17:
             offset = true;
  19:
@@ -122,14 +122,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = options.bind(tango)(zulu);
             options = yankee.useAnimatedStyle;
             zulu = function() { // Original name: u
-                _fun89509: for(var _fun89509_ip = 0; ; ) switch(_fun89509_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {'position': 'relative', 'height': '100%', 'width': '100%'};
                     tango = _closure2_slot0;
                     mike = tango.get;
                     tango = mike.bind(tango)();
                     mike = 0;
-                    if(!tango) { _fun89509_ip = 48; continue _fun89509 }
+                    if(!tango) { _fun00004_ip = 48; continue _fun00003 }
  35:
                     tango = _closure2_slot2;
                     zulu = tango.get;

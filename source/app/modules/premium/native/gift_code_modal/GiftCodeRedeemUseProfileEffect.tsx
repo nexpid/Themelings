@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gift_code_modal/GiftCodeRedeemUseProfileEffect.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftCodeRedeemUseProfileEffect
-        _fun91736: for(var _fun91736_ip = 0; ; ) switch(_fun91736_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             report = mike.profileEffect;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             report = mike == zulu;
             mike = undefined;
-            if(report) { _fun91736_ip = 195; continue _fun91736 }
+            if(report) { _fun00002_ip = 195; continue _fun00001 }
  189:
             mike = zulu.profileEffectId;
  195:
@@ -126,20 +126,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot5;
             zulu = report.useEffect;
             mike = function() {
-                _fun91737: for(var _fun91737_ip = 0; ; ) switch(_fun91737_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     report = null;
                     zulu = report == entity;
                     entity = undefined;
                     tango = undefined;
-                    if(zulu) { _fun91737_ip = 29; continue _fun91737 }
+                    if(zulu) { _fun00004_ip = 29; continue _fun00003 }
  20:
                     zulu = _closure2_slot0;
                     tango = zulu.id;
  29:
                     zulu = _closure2_slot2;
-                    if(!(tango !== zulu)) { _fun91737_ip = 98; continue _fun91737 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 98; continue _fun00003 }
  37:
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot0;
                     oscar = report != oscar;
                     report = null;
-                    if(!oscar) { _fun91737_ip = 88; continue _fun91737 }
+                    if(!oscar) { _fun00004_ip = 88; continue _fun00003 }
  79:
                     oscar = _closure2_slot0;
                     report = oscar.id;
@@ -167,11 +167,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun91740: for(var _fun91740_ip = 0; ; ) switch(_fun91740_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun91740_ip = 69; continue _fun91740 }
+                            if(mike) { _fun00006_ip = 69; continue _fun00005 }
  7:
                             mike = _closure2_slot1;
                             zulu = undefined;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  24:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun91740_ip = 66; continue _fun91740 }
+                            if(tango) { _fun00006_ip = 66; continue _fun00005 }
  30:
                             report = _closure1_slot1;
                             oscar = _closure1_slot2;

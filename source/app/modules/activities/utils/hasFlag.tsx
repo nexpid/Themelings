@@ -24,23 +24,23 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/hasFlag.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: hasFlag
-        _fun79751: for(var _fun79751_ip = 0; ; ) switch(_fun79751_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
             entity = _closure1_slot0;
             entity = entity.INSTANCE;
             entity = tango !== entity;
-            if(!entity) { _fun79751_ip = 74; continue _fun79751 }
+            if(!entity) { _fun00002_ip = 74; continue _fun00001 }
  26:
             oscar = null;
             mike = oscar != zulu;
-            if(!mike) { _fun79751_ip = 44; continue _fun79751 }
+            if(!mike) { _fun00002_ip = 44; continue _fun00001 }
  35:
             report = zulu.flags;
             mike = oscar != report;
  44:
-            if(!mike) { _fun79751_ip = 71; continue _fun79751 }
+            if(!mike) { _fun00002_ip = 71; continue _fun00001 }
  47:
             report = global;
             report = report.Boolean;

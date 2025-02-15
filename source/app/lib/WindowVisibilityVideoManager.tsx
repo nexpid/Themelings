@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun52517: for(var _fun52517_ip = 0; ; ) switch(_fun52517_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot6;
@@ -18,11 +18,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun52517_ip = 48; continue _fun52517 }
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun52517_ip = 86; continue _fun52517;
+            _fun00002_ip = 86; continue _fun00001;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun52518: for(var _fun52518_ip = 0; ; ) switch(_fun52518_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun52518_ip = 74; continue _fun52518;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar * golf;
             entity['HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS'] = oscar;
             mike = function() {
-                _fun52523: for(var _fun52523_ip = 0; ; ) switch(_fun52523_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure3_slot0;
                     report = entity.discordVisible;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = undefined;
                     mike = oscar.bind(entity)(mike);
                     mike = mike.bind(entity)();
-                    if(!(report !== mike)) { _fun52523_ip = 176; continue _fun52523 }
+                    if(!(report !== mike)) { _fun00006_ip = 176; continue _fun00005 }
  49:
                     mike = _closure3_slot0;
                     oscar = _closure1_slot1;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike.discordVisible;
                     tango = _closure3_slot0;
                     zulu = tango.disableVideoTimer;
-                    if(mike) { _fun52523_ip = 153; continue _fun52523 }
+                    if(mike) { _fun00006_ip = 153; continue _fun00005 }
  127:
                     oscar = zulu.start;
                     report = tango.HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     mike = oscar.bind(zulu)(report, mike);
-                    _fun52523_ip = 176; continue _fun52523;
+                    _fun00006_ip = 176; continue _fun00005;
  153:
                     mike = zulu.stop;
                     mike = mike.bind(zulu)();
@@ -255,13 +255,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'setIncomingVideoEnabled';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun52526: for(var _fun52526_ip = 0; ; ) switch(_fun52526_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = argFoo;
                 tango = this;
                 entity = tango.incomingVideoEnabled;
                 tango['incomingVideoEnabled'] = mike;
-                if(!(entity !== mike)) { _fun52526_ip = 99; continue _fun52526 }
+                if(!(entity !== mike)) { _fun00008_ip = 99; continue _fun00007 }
  22:
                 zulu = tango.logger;
                 mike = zulu.info;

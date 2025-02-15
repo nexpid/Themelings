@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         report = mike[zulu];
         tango = report.map;
         mike = function(argFoo) {
-            _fun66852: for(var _fun66852_ip = 0; ; ) switch(_fun66852_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 mike = entity[Symbol.iterator];
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = mike;
                 entity = undefined;
                 zulu = zulu === entity;
-                if(zulu) { _fun66852_ip = 25; continue _fun66852 }
+                if(zulu) { _fun00002_ip = 25; continue _fun00001 }
  22:
                 entity = tango;
  25:
-                if(zulu) { _fun66852_ip = 31; continue _fun66852 }
+                if(zulu) { _fun00002_ip = 31; continue _fun00001 }
  28:
                 mike.return();
  31:
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         report = mike[zulu];
         tango = report.map;
         mike = function(argFoo) {
-            _fun66854: for(var _fun66854_ip = 0; ; ) switch(_fun66854_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = argFoo;
                 mike = tango[Symbol.iterator];
@@ -244,19 +244,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 oscar = undefined;
                 zulu = entity === oscar;
                 entity = undefined;
-                if(zulu) { _fun66854_ip = 49; continue _fun66854 }
+                if(zulu) { _fun00004_ip = 49; continue _fun00003 }
  24:
                 report = tango().value;
                 tango = mike;
                 tango = tango === oscar;
                 entity = undefined;
                 zulu = tango;
-                if(tango) { _fun66854_ip = 49; continue _fun66854 }
+                if(tango) { _fun00004_ip = 49; continue _fun00003 }
  43:
                 entity = report;
                 zulu = tango;
  49:
-                if(zulu) { _fun66854_ip = 55; continue _fun66854 }
+                if(zulu) { _fun00004_ip = 55; continue _fun00003 }
  52:
                 mike.return();
  55:

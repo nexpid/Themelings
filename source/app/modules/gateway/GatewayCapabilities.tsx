@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/gateway/GatewayCapabilities.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getClientCapabilities
-        _fun7249: for(var _fun7249_ip = 0; ; ) switch(_fun7249_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -32,7 +32,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = mike.isChannelMetadataObfuscationEnabled;
             mike = entity.bind(mike)();
             entity = 30719;
-            if(!mike) { _fun7249_ip = 49; continue _fun7249 }
+            if(!mike) { _fun00002_ip = 49; continue _fun00001 }
  43:
             entity = 63487;
  49:

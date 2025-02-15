@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getAccessibilityLabel
-        _fun99682: for(var _fun99682_ip = 0; ; ) switch(_fun99682_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = zulu.bot;
             report = '';
             tango = report;
-            if(!entity) { _fun99682_ip = 105; continue _fun99682 }
+            if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  19:
             entity = zulu.isSystemUser;
             oscar = entity.bind(zulu)();
@@ -25,10 +25,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = undefined;
             mike = verify.bind(golf)(mike);
             mike = mike.Types;
-            if(oscar) { _fun99682_ip = 71; continue _fun99682 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  63:
             oscar = mike.BOT;
-            _fun99682_ip = 77; continue _fun99682;
+            _fun00002_ip = 77; continue _fun00001;
  71:
             oscar = mike.SYSTEM_DM;
  77:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/DefaultName.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DefaultName
-        _fun99683: for(var _fun99683_ip = 0; ; ) switch(_fun99683_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             yankee = report.user;
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.overrideDiscriminator;
             entity = report.forcePomelo;
             tango = undefined;
-            if(!(entity === tango)) { _fun99683_ip = 62; continue _fun99683 }
+            if(!(entity === tango)) { _fun00004_ip = 62; continue _fun00003 }
  60:
             entity = false;
  62:
             control = report.lineClamp;
             context = report.textVariant;
-            if(!(context === tango)) { _fun99683_ip = 84; continue _fun99683 }
+            if(!(context === tango)) { _fun00004_ip = 84; continue _fun00003 }
  78:
             context = 'heading-xl/extrabold';
  84:
@@ -144,12 +144,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = report.bind(tango)();
             report = yankee.hasAvatarForGuild;
             foxtrot = report.bind(yankee)(options);
-            if(foxtrot) { _fun99683_ip = 118; continue _fun99683 }
+            if(foxtrot) { _fun00004_ip = 118; continue _fun00003 }
  115:
             foxtrot = mike;
  118:
             vacuum = '';
-            if(!foxtrot) { _fun99683_ip = 143; continue _fun99683 }
+            if(!foxtrot) { _fun00004_ip = 143; continue _fun00003 }
  125:
             oscar = '\xa0';
             report = oscar.repeat;
@@ -160,17 +160,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(yankee)();
             verify = null;
             record = null;
-            if(mike) { _fun99683_ip = 212; continue _fun99683 }
+            if(mike) { _fun00004_ip = 212; continue _fun00003 }
  160:
             record = null;
-            if(entity) { _fun99683_ip = 212; continue _fun99683 }
+            if(entity) { _fun00004_ip = 212; continue _fun00003 }
  165:
             entity = yankee.isClyde;
             entity = entity.bind(yankee)();
             record = null;
-            if(entity) { _fun99683_ip = 212; continue _fun99683 }
+            if(entity) { _fun00004_ip = 212; continue _fun00003 }
  180:
-            if(!(verify == zulu)) { _fun99683_ip = 190; continue _fun99683 }
+            if(!(verify == zulu)) { _fun00004_ip = 190; continue _fun00003 }
  184:
             zulu = yankee.discriminator;
  190:
@@ -189,11 +189,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = entity.BOT;
             entity = yankee.isSystemUser;
             entity = entity.bind(yankee)();
-            if(entity) { _fun99683_ip = 301; continue _fun99683 }
+            if(entity) { _fun00004_ip = 301; continue _fun00003 }
  257:
             entity = yankee.isClyde;
             entity = entity.bind(yankee)();
-            if(!entity) { _fun99683_ip = 330; continue _fun99683 }
+            if(!entity) { _fun00004_ip = 330; continue _fun00003 }
  270:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.Types;
             result = entity.AI;
-            _fun99683_ip = 330; continue _fun99683;
+            _fun00004_ip = 330; continue _fun00003;
  301:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['accessibilityLabel'] = kilo;
             report['accessibilityHint'] = backup;
             backup = null;
-            if(!foxtrot) { _fun99683_ip = 508; continue _fun99683 }
+            if(!foxtrot) { _fun00004_ip = 508; continue _fun00003 }
  422:
             sizing = _closure1_slot4;
             kilo = _closure1_slot1;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = new Array(2);
             output[0] = update;
             update = null;
-            if(source) { _fun99683_ip = 744; continue _fun99683 }
+            if(source) { _fun00004_ip = 744; continue _fun00003 }
  631:
             vacuum = _closure1_slot5;
             control = _closure1_slot0;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = {'variant': 'heading-xl/medium', 'color': 'header-secondary'};
             sequence = new Array(2);
             sequence[0] = record;
-            if(!config) { _fun99683_ip = 730; continue _fun99683 }
+            if(!config) { _fun00004_ip = 730; continue _fun00003 }
  682:
             papa = _closure1_slot4;
             status = _closure1_slot1;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[1] = backup;
             kilo = yankee.bot;
             backup = null;
-            if(!kilo) { _fun99683_ip = 831; continue _fun99683 }
+            if(!kilo) { _fun00004_ip = 831; continue _fun00003 }
  773:
             output = _closure1_slot4;
             sizing = _closure1_slot1;
@@ -342,15 +342,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!romeo) { _fun99683_ip = 922; continue _fun99683 }
+            if(!romeo) { _fun00004_ip = 922; continue _fun00003 }
  858:
             options = verify == options;
             oscar = null;
-            if(!options) { _fun99683_ip = 922; continue _fun99683 }
+            if(!options) { _fun00004_ip = 922; continue _fun00003 }
  867:
             options = verify != yankee;
             oscar = null;
-            if(!options) { _fun99683_ip = 922; continue _fun99683 }
+            if(!options) { _fun00004_ip = 922; continue _fun00003 }
  876:
             verify = _closure1_slot4;
             options = _closure1_slot1;

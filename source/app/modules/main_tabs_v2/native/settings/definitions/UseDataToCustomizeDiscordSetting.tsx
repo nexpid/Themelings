@@ -79,10 +79,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: handlePersonalizationChange
-        _fun95038: for(var _fun95038_ip = 0; ; ) switch(_fun95038_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
-            if(zulu) { _fun95038_ip = 293; continue _fun95038 }
+            if(zulu) { _fun00002_ip = 293; continue _fun00001 }
  14:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['onConfirm'] = oscar;
             zulu = tango.bind(report)(zulu);
-            _fun95038_ip = 367; continue _fun95038;
+            _fun00002_ip = 367; continue _fun00001;
  293:
             report = _closure1_slot0;
             tango = _closure1_slot2;

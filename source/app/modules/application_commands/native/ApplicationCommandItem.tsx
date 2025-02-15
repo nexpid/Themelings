@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/application_commands/native/ApplicationCommandItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun100952: for(var _fun100952_ip = 0; ; ) switch(_fun100952_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             echo = mike.command;
@@ -84,12 +84,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = offset;
             golf = mike.showIcon;
             tango = undefined;
-            if(!(golf === tango)) { _fun100952_ip = 39; continue _fun100952 }
+            if(!(golf === tango)) { _fun00002_ip = 39; continue _fun00001 }
  37:
             golf = true;
  39:
             romeo = mike.highlighted;
-            if(!(romeo === tango)) { _fun100952_ip = 51; continue _fun100952 }
+            if(!(romeo === tango)) { _fun00002_ip = 51; continue _fun00001 }
  49:
             romeo = false;
  51:
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             result = verify == offset;
             output = undefined;
-            if(result) { _fun100952_ip = 184; continue _fun100952 }
+            if(result) { _fun00002_ip = 184; continue _fun00001 }
  179:
             output = offset.name;
  184:
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = yankee.applicationCommandItem;
             control = options;
             backup = copyDataProperties(control, source);
-            if(romeo) { _fun100952_ip = 244; continue _fun100952 }
+            if(romeo) { _fun00002_ip = 244; continue _fun00001 }
  240:
             romeo = {};
-            _fun100952_ip = 250; continue _fun100952;
+            _fun00002_ip = 250; continue _fun00001;
  244:
             romeo = yankee.highlightedApplicationCommandItem;
  250:
@@ -162,11 +162,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = 'button';
             entity['accessibilityRole'] = options;
             entity['onPress'] = report;
-            if(!golf) { _fun100952_ip = 283; continue _fun100952 }
+            if(!golf) { _fun00002_ip = 283; continue _fun00001 }
  279:
             golf = verify != foxtrot;
  283:
-            if(!golf) { _fun100952_ip = 332; continue _fun100952 }
+            if(!golf) { _fun00002_ip = 332; continue _fun00001 }
  286:
             romeo = _closure1_slot5;
             options = _closure1_slot1;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['style'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun100952_ip = 548; continue _fun100952 }
+            if(yankee) { _fun00002_ip = 548; continue _fun00001 }
  543:
             verify = offset.name;
  548:

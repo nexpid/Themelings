@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/UserSettingsStartupTimings.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsStartupTimings
-        _fun98222: for(var _fun98222_ip = 0; ; ) switch(_fun98222_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.extraProperties;
             mike = mike.time_first_native_message_render_end;
             zulu = null;
-            if(!(zulu == mike)) { _fun98222_ip = 446; continue _fun98222 }
+            if(!(zulu == mike)) { _fun00002_ip = 446; continue _fun00001 }
  413:
             offset = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -254,11 +254,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot2;
             zulu = zulu[entity];
             zulu = golf.bind(tango)(zulu);
-            if(mike) { _fun98222_ip = 516; continue _fun98222 }
+            if(mike) { _fun00002_ip = 516; continue _fun00001 }
  503:
             mike = zulu.ready;
             mike = mike.end;
-            _fun98222_ip = 528; continue _fun98222;
+            _fun00002_ip = 528; continue _fun00001;
  516:
             zulu = zulu.renderLatestMessages;
             mike = zulu.time;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             var _closure2_slot13 = entity;
             entity = function(argFoo) { // Original name: renderTTi
-                _fun98225: for(var _fun98225_ip = 0; ; ) switch(_fun98225_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscar = argFoo;
                     tango = _closure1_slot7;
@@ -320,12 +320,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity == oscar;
                     golf = '';
                     entity = golf;
-                    if(report) { _fun98225_ip = 72; continue _fun98225 }
+                    if(report) { _fun00004_ip = 72; continue _fun00003 }
  42:
                     report = 0;
                     report = oscar <= report;
                     entity = golf;
-                    if(report) { _fun98225_ip = 72; continue _fun98225 }
+                    if(report) { _fun00004_ip = 72; continue _fun00003 }
  54:
                     report = 1000;
                     oscar = oscar / report;

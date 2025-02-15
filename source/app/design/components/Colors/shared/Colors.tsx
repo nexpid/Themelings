@@ -58,18 +58,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['WCAGContrastRatios'] = tango;
     tango = function(argFoo) { // Original name: getContrastingColor
-        _fun35580: for(var _fun35580_ip = 0; ; ) switch(_fun35580_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             mike = arguments[1];
             zulu = undefined;
-            if(!(mike === zulu)) { _fun35580_ip = 14; continue _fun35580 }
+            if(!(mike === zulu)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             mike = {};
  14:
             foxtrot = mike.contrastRatio;
             golf = null;
-            if(!(golf == foxtrot)) { _fun35580_ip = 39; continue _fun35580 }
+            if(!(golf == foxtrot)) { _fun00002_ip = 39; continue _fun00001 }
  26:
             entity = _closure1_slot3;
             foxtrot = entity.NonText;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.tolerance;
             tango = golf != entity;
             romeo = 3;
-            if(!tango) { _fun35580_ip = 60; continue _fun35580 }
+            if(!tango) { _fun00002_ip = 60; continue _fun00001 }
  57:
             romeo = entity;
  60:
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(zulu)(tango);
             report = mike.base;
             mike = oscar;
-            if(!(golf != report)) { _fun35580_ip = 99; continue _fun35580 }
+            if(!(golf != report)) { _fun00002_ip = 99; continue _fun00001 }
  96:
             mike = report;
  99:
@@ -111,25 +111,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = report < foxtrot;
             mike = foxtrot + romeo;
             kilo = report > mike;
-            if(backup) { _fun35580_ip = 186; continue _fun35580 }
+            if(backup) { _fun00002_ip = 186; continue _fun00001 }
  180:
             mike = oscar;
-            if(!kilo) { _fun35580_ip = 279; continue _fun35580 }
+            if(!kilo) { _fun00002_ip = 279; continue _fun00001 }
  186:
             tango = oscar.luminance;
             tango = tango.bind(oscar)();
             tango = tango > verify;
-            if(!kilo) { _fun35580_ip = 206; continue _fun35580 }
+            if(!kilo) { _fun00002_ip = 206; continue _fun00001 }
  203:
-            if(tango) { _fun35580_ip = 224; continue _fun35580 }
+            if(tango) { _fun00002_ip = 224; continue _fun00001 }
  206:
-            if(!backup) { _fun35580_ip = 212; continue _fun35580 }
+            if(!backup) { _fun00002_ip = 212; continue _fun00001 }
  209:
-            if(!tango) { _fun35580_ip = 224; continue _fun35580 }
+            if(!tango) { _fun00002_ip = 224; continue _fun00001 }
  212:
             tango = oscar.brighten;
             backup = tango.bind(oscar)();
-            _fun35580_ip = 234; continue _fun35580;
+            _fun00002_ip = 234; continue _fun00001;
  224:
             tango = oscar.darken;
             backup = tango.bind(oscar)();
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = tango - 1;
             oscar = backup;
             mike = oscar;
-            if(tango > golf) { _fun35580_ip = 165; continue _fun35580 }
+            if(tango > golf) { _fun00002_ip = 165; continue _fun00001 }
  279:
             entity = _closure1_slot4;
             entity = entity.bind(zulu)(mike);

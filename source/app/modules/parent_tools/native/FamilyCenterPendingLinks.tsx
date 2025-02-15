@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: FamilyCenterPendingLinkRow
-        _fun95441: for(var _fun95441_ip = 0; ; ) switch(_fun95441_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.otherUser;
@@ -28,19 +28,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.useHasMaxConnections;
             offset = mike.bind(zulu)();
-            if(!(tango !== oscar)) { _fun95441_ip = 903; continue _fun95441 }
+            if(!(tango !== oscar)) { _fun00002_ip = 903; continue _fun00001 }
  85:
             report = _closure1_slot5;
             zulu = _closure1_slot7;
             mike = {};
-            if(golf) { _fun95441_ip = 620; continue _fun95441 }
+            if(golf) { _fun00002_ip = 620; continue _fun00001 }
  101:
             verify = _closure1_slot6;
             options = _closure1_slot7;
             golf = {};
             update = null;
             foxtrot = null;
-            if(offset) { _fun95441_ip = 366; continue _fun95441 }
+            if(offset) { _fun00002_ip = 366; continue _fun00001 }
  121:
             kilo = _closure1_slot5;
             output = _closure1_slot0;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = {};
             control = update == oscar;
             source = undefined;
-            if(control) { _fun95441_ip = 223; continue _fun95441 }
+            if(control) { _fun00002_ip = 223; continue _fun00001 }
  214:
             control = oscar.toString;
             source = control.bind(oscar)();
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = {};
             source = update == oscar;
             update = undefined;
-            if(source) { _fun95441_ip = 476; continue _fun95441 }
+            if(source) { _fun00002_ip = 476; continue _fun00001 }
  467:
             source = oscar.toString;
             update = source.bind(oscar)();
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = foxtrot;
             golf['children'] = offset;
             golf = verify.bind(tango)(options, golf);
-            _fun95441_ip = 849; continue _fun95441;
+            _fun00002_ip = 849; continue _fun00001;
  620:
             offset = _closure1_slot5;
             backup = _closure1_slot0;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = null;
             result = output == oscar;
             output = undefined;
-            if(result) { _fun95441_ip = 724; continue _fun95441 }
+            if(result) { _fun00002_ip = 724; continue _fun00001 }
  715:
             result = oscar.toString;
             output = result.bind(oscar)();
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterPendingLinks.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: FamilyCenterPendingLinks
-        _fun95445: for(var _fun95445_ip = 0; ; ) switch(_fun95445_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
@@ -453,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = yankee.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun95445_ip = 358; continue _fun95445 }
+            if(!(mike !== zulu)) { _fun00004_ip = 358; continue _fun00003 }
  209:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;

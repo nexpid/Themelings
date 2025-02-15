@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ForumPostUsername
-        _fun100488: for(var _fun100488_ip = 0; ; ) switch(_fun100488_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.thread;
@@ -36,10 +36,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.ForumLayout;
             mike = mike.GRID;
-            if(!(zulu !== mike)) { _fun100488_ip = 140; continue _fun100488 }
+            if(!(zulu !== mike)) { _fun00002_ip = 140; continue _fun00001 }
  134:
             oscar = _closure1_slot9;
-            _fun100488_ip = 144; continue _fun100488;
+            _fun00002_ip = 144; continue _fun00001;
  140:
             oscar = _closure1_slot8;
  144:
@@ -70,31 +70,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify = tango.bind(oscar)(zulu, mike);
             mike = 'username';
-            if(!(mike === verify)) { _fun100488_ip = 256; continue _fun100488 }
+            if(!(mike === verify)) { _fun00002_ip = 256; continue _fun00001 }
  250:
             mike = null;
-            if(!(mike == echo)) { _fun100488_ip = 260; continue _fun100488 }
+            if(!(mike == echo)) { _fun00002_ip = 260; continue _fun00001 }
  256:
             kilo = {};
-            _fun100488_ip = 269; continue _fun100488;
+            _fun00002_ip = 269; continue _fun00001;
  260:
             mike = {};
             mike['color'] = echo;
             kilo = mike;
  269:
-            if(entity) { _fun100488_ip = 290; continue _fun100488 }
+            if(entity) { _fun00002_ip = 290; continue _fun00001 }
  272:
             sizing = {};
             entity = 0.8;
             sizing['opacity'] = entity;
-            _fun100488_ip = 292; continue _fun100488;
+            _fun00002_ip = 292; continue _fun00001;
  290:
             sizing = {};
  292:
             oscar = null;
             mike = oscar == romeo;
             entity = null;
-            if(mike) { _fun100488_ip = 587; continue _fun100488 }
+            if(mike) { _fun00002_ip = 587; continue _fun00001 }
  306:
             tango = _closure1_slot7;
             zulu = _closure1_slot3;
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['accessibilityRole'] = options;
             options = 'dot';
             options = options === verify;
-            if(!options) { _fun100488_ip = 379; continue _fun100488 }
+            if(!options) { _fun00002_ip = 379; continue _fun00001 }
  375:
             options = oscar != echo;
  379:
-            if(!options) { _fun100488_ip = 474; continue _fun100488 }
+            if(!options) { _fun00002_ip = 474; continue _fun00001 }
  382:
             offset = _closure1_slot6;
             verify = _closure1_slot3;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/ForumPostUsername.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ForumPostAuthor
-        _fun100490: for(var _fun100490_ip = 0; ; ) switch(_fun100490_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.thread;
@@ -253,15 +253,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             yankee = entity == tango;
             romeo = undefined;
-            if(yankee) { _fun100490_ip = 103; continue _fun100490 }
+            if(yankee) { _fun00004_ip = 103; continue _fun00003 }
  97:
             romeo = tango.nick;
  103:
-            if(!(entity == romeo)) { _fun100490_ip = 124; continue _fun100490 }
+            if(!(entity == romeo)) { _fun00004_ip = 124; continue _fun00003 }
  107:
             backup = entity == zulu;
             yankee = undefined;
-            if(backup) { _fun100490_ip = 121; continue _fun100490 }
+            if(backup) { _fun00004_ip = 121; continue _fun00003 }
  116:
             yankee = zulu.username;
  121:
@@ -269,13 +269,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  124:
             backup = entity == tango;
             yankee = undefined;
-            if(backup) { _fun100490_ip = 139; continue _fun100490 }
+            if(backup) { _fun00004_ip = 139; continue _fun00003 }
  133:
             yankee = tango.colorString;
  139:
             zulu = entity == zulu;
             entity = null;
-            if(zulu) { _fun100490_ip = 204; continue _fun100490 }
+            if(zulu) { _fun00004_ip = 204; continue _fun00003 }
  148:
             tango = _closure1_slot6;
             zulu = _closure1_slot11;

@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/auth/native/experiment/isDateValidDateOfBirth.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isDateValidDateOfBirth
-        _fun111854: for(var _fun111854_ip = 0; ; ) switch(_fun111854_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun111854_ip = 63; continue _fun111854 }
+            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
  12:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

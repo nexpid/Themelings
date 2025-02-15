@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: getComponentPropsForScreen
-        _fun127078: for(var _fun127078_ip = 0; ; ) switch(_fun127078_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             entity = argBar;
@@ -29,12 +29,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar.bind(tango)(report, entity);
             entity = mike.getRuntimeProps;
             entity = zulu == entity;
-            if(entity) { _fun127078_ip = 94; continue _fun127078 }
+            if(entity) { _fun00002_ip = 94; continue _fun00001 }
  84:
             entity = mike.getRuntimeProps;
             tango = entity.bind(mike)();
  94:
-            if(!(zulu == tango)) { _fun127078_ip = 100; continue _fun127078 }
+            if(!(zulu == tango)) { _fun00002_ip = 100; continue _fun00001 }
  98:
             tango = {};
  100:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = tango;
             tango = copyDataProperties(offset, verify);
             mike = mike.extraProps;
-            if(!(zulu == mike)) { _fun127078_ip = 146; continue _fun127078 }
+            if(!(zulu == mike)) { _fun00002_ip = 146; continue _fun00001 }
  142:
             mike = new Array(0);
  146:
@@ -61,15 +61,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function(argFoo, argBar) { // Original name: getScreenPropsForScene
-        _fun127079: for(var _fun127079_ip = 0; ; ) switch(_fun127079_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argBar;
             mike = null;
-            if(!(mike != zulu)) { _fun127079_ip = 24; continue _fun127079 }
+            if(!(mike != zulu)) { _fun00004_ip = 24; continue _fun00003 }
  9:
             entity = argFoo;
             entity = zulu[entity];
-            if(!(mike == entity)) { _fun127079_ip = 22; continue _fun127079 }
+            if(!(mike == entity)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             entity = {};
  22:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot14 = entity;
     entity = function(argFoo, argBar) { // Original name: buildInitialRouteStack
-        _fun127083: for(var _fun127083_ip = 0; ; ) switch(_fun127083_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             oscar = argBar;
@@ -131,24 +131,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 'At least one step must be provided to RoleTierEditScenesModal';
             mike = report.bind(golf)(tango, mike);
             mike = null;
-            if(!(mike != oscar)) { _fun127083_ip = 116; continue _fun127083 }
+            if(!(mike != oscar)) { _fun00006_ip = 116; continue _fun00005 }
  60:
             mike = new Array(0);
             tango = zulu.length;
             tango = entity < tango;
             report = 0;
-            if(!tango) { _fun127083_ip = 114; continue _fun127083 }
+            if(!tango) { _fun00006_ip = 114; continue _fun00005 }
  78:
             tango = zulu[report];
             options = mike.push;
             golf = {};
             golf['name'] = tango;
             golf = options.bind(mike)(golf);
-            if(!(tango !== oscar)) { _fun127083_ip = 114; continue _fun127083 }
+            if(!(tango !== oscar)) { _fun00006_ip = 114; continue _fun00005 }
  102:
             report = report + 1;
             tango = zulu.length;
-            if(report < tango) { _fun127083_ip = 78; continue _fun127083 }
+            if(report < tango) { _fun00006_ip = 78; continue _fun00005 }
  114:
             return mike;
  116:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function(argFoo, argBar) { // Original name: orderify
-        _fun127084: for(var _fun127084_ip = 0; ; ) switch(_fun127084_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike + entity;
             mike = 'string';
             entity = typeof zulu;
-            if(!(mike !== entity)) { _fun127084_ip = 47; continue _fun127084 }
+            if(!(mike !== entity)) { _fun00008_ip = 47; continue _fun00007 }
  24:
             entity = {};
             oscar = entity;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = copyDataProperties(oscar, report);
             mike = 'stepNumber';
             entity[mike] = tango;
-            _fun127084_ip = 62; continue _fun127084;
+            _fun00008_ip = 62; continue _fun00007;
  47:
             mike = {};
             mike['stepNumber'] = tango;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot16 = entity;
     entity = function(argFoo, argBar) { // Original name: buildScreenMap
-        _fun127085: for(var _fun127085_ip = 0; ; ) switch(_fun127085_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tango = argFoo;
             backup = tango.steps;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = 'nextStep';
             verify = 'stepsCount';
             options = 1;
-            if(!mike) { _fun127085_ip = 230; continue _fun127085 }
+            if(!mike) { _fun00010_ip = 230; continue _fun00009 }
  146:
             mike = romeo[golf];
             kilo = mike.scene;
@@ -239,13 +239,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = romeo[mike];
             output = foxtrot == sizing;
             mike = undefined;
-            if(output) { _fun127085_ip = 179; continue _fun127085 }
+            if(output) { _fun00010_ip = 179; continue _fun00009 }
  173:
             mike = sizing.scene;
  179:
             output = foxtrot != mike;
             sizing = null;
-            if(!output) { _fun127085_ip = 191; continue _fun127085 }
+            if(!output) { _fun00010_ip = 191; continue _fun00009 }
  188:
             sizing = mike;
  191:
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[kilo] = mike;
             golf = golf + 1;
             mike = backup.length;
-            if(golf < mike) { _fun127085_ip = 146; continue _fun127085 }
+            if(golf < mike) { _fun00010_ip = 146; continue _fun00009 }
  230:
             mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getScreens
                 foxtrot = argBaz;
@@ -670,11 +670,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = options.bind(report)(mike, zulu);
         var _closure2_slot8 = mike;
         mike = function(argFoo) { // Original name: handleClose
-            _fun127098: for(var _fun127098_ip = 0; ; ) switch(_fun127098_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 zulu = _closure2_slot3;
                 entity = null;
-                if(!(entity != zulu)) { _fun127098_ip = 27; continue _fun127098 }
+                if(!(entity != zulu)) { _fun00012_ip = 27; continue _fun00011 }
  13:
                 tango = _closure2_slot3;
                 zulu = undefined;
@@ -697,13 +697,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure2_slot2;
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun127100: for(var _fun127100_ip = 0; ; ) switch(_fun127100_ip) {
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     mike = argFoo;
                     tango = 'string';
                     zulu = typeof mike;
                     entity = mike;
-                    if(!(tango !== zulu)) { _fun127100_ip = 23; continue _fun127100 }
+                    if(!(tango !== zulu)) { _fun00014_ip = 23; continue _fun00013 }
  17:
                     entity = mike.scene;
  23:
@@ -749,14 +749,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report['screens'] = result;
         report['initialRouteStack'] = output;
         sizing = function(argFoo) { // Original name: onWillFocus
-            _fun127102: for(var _fun127102_ip = 0; ; ) switch(_fun127102_ip) {
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 entity = argFoo;
                 entity = entity.route;
                 report = entity.name;
                 var _closure3_slot0 = report;
                 entity = null;
-                if(!(entity != report)) { _fun127102_ip = 77; continue _fun127102 }
+                if(!(entity != report)) { _fun00016_ip = 77; continue _fun00015 }
  26:
                 tango = _closure2_slot5;
                 zulu = undefined;
@@ -771,7 +771,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 mike = tango.bind(report)(mike);
                 tango = 0;
-                if(!(mike >= tango)) { _fun127102_ip = 77; continue _fun127102 }
+                if(!(mike >= tango)) { _fun00016_ip = 77; continue _fun00015 }
  68:
                 entity = _closure2_slot7;
                 entity = entity.bind(zulu)(mike);

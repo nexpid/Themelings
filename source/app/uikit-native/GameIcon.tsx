@@ -7,14 +7,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = backup;
     var _closure1_slot1 = options;
     report = function(argFoo) { // Original name: GameIcon
-        _fun86991: for(var _fun86991_ip = 0; ; ) switch(_fun86991_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.game;
             oscar = entity.skuId;
             offset = entity.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun86991_ip = 39; continue _fun86991 }
+            if(!(offset === tango)) { _fun00002_ip = 39; continue _fun00001 }
  26:
             mike = _closure1_slot6;
             offset = mike.NORMAL;
@@ -48,38 +48,38 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity != oscar;
             options = undefined;
-            if(!mike) { _fun86991_ip = 306; continue _fun86991 }
+            if(!mike) { _fun00002_ip = 306; continue _fun00001 }
  181:
             mike = _closure1_slot4;
             mike = mike.TIER_0;
-            if(!(mike !== oscar)) { _fun86991_ip = 283; continue _fun86991 }
+            if(!(mike !== oscar)) { _fun00002_ip = 283; continue _fun00001 }
  195:
             mike = _closure1_slot4;
             mike = mike.TIER_1;
-            if(!(mike !== oscar)) { _fun86991_ip = 261; continue _fun86991 }
+            if(!(mike !== oscar)) { _fun00002_ip = 261; continue _fun00001 }
  209:
             mike = _closure1_slot4;
             mike = mike.TIER_2;
-            if(!(mike !== oscar)) { _fun86991_ip = 239; continue _fun86991 }
+            if(!(mike !== oscar)) { _fun00002_ip = 239; continue _fun00001 }
  223:
             mike = _closure1_slot4;
             zulu = mike.LEGACY;
             mike = null;
-            if(!(zulu === oscar)) { _fun86991_ip = 303; continue _fun86991 }
+            if(!(zulu === oscar)) { _fun00002_ip = 303; continue _fun00001 }
  239:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
             zulu = 8;
             zulu = foxtrot[zulu];
             mike = oscar.bind(tango)(zulu);
-            _fun86991_ip = 303; continue _fun86991;
+            _fun00002_ip = 303; continue _fun00001;
  261:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
             zulu = 7;
             zulu = foxtrot[zulu];
             mike = oscar.bind(tango)(zulu);
-            _fun86991_ip = 303; continue _fun86991;
+            _fun00002_ip = 303; continue _fun00001;
  283:
             oscar = _closure1_slot0;
             foxtrot = _closure1_slot1;
@@ -90,11 +90,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = mike;
  306:
             mike = entity != romeo;
-            if(!mike) { _fun86991_ip = 317; continue _fun86991 }
+            if(!mike) { _fun00002_ip = 317; continue _fun00001 }
  313:
             mike = entity == options;
  317:
-            if(!mike) { _fun86991_ip = 349; continue _fun86991 }
+            if(!mike) { _fun00002_ip = 349; continue _fun00001 }
  320:
             mike = {};
             oscar = romeo.getIconURL;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['uri'] = zulu;
             options = mike;
  349:
-            if(!(entity == options)) { _fun86991_ip = 389; continue _fun86991 }
+            if(!(entity == options)) { _fun00002_ip = 389; continue _fun00001 }
  353:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;

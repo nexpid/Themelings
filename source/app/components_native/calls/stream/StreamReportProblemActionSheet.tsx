@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = offset[zulu];
         oscar = report.bind(tango)(zulu);
         zulu = function() {
-            _fun103609: for(var _fun103609_ip = 0; ; ) switch(_fun103609_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -99,21 +99,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = null;
                 verify = oscar != golf;
                 options = null;
-                if(!verify) { _fun103609_ip = 118; continue _fun103609 }
+                if(!verify) { _fun00002_ip = 118; continue _fun00001 }
  113:
                 options = golf.id;
  118:
                 mike['application_id'] = options;
                 verify = oscar != golf;
                 options = null;
-                if(!verify) { _fun103609_ip = 137; continue _fun103609 }
+                if(!verify) { _fun00002_ip = 137; continue _fun00001 }
  132:
                 options = golf.name;
  137:
                 mike['application_name'] = options;
                 options = oscar != golf;
                 oscar = null;
-                if(!options) { _fun103609_ip = 156; continue _fun103609 }
+                if(!options) { _fun00002_ip = 156; continue _fun00001 }
  151:
                 oscar = golf.id;
  156:

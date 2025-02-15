@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = verify;
     oscar = function(argFoo) { // Original name: handleOutOfSuperReactions
-        _fun88326: for(var _fun88326_ip = 0; ; ) switch(_fun88326_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot6;
             entity = mike.getCurrentUser;
             tango = entity.bind(mike)();
             entity = null;
-            if(!(entity == tango)) { _fun88326_ip = 26; continue _fun88326 }
+            if(!(entity == tango)) { _fun00002_ip = 26; continue _fun00001 }
  22:
             entity = undefined;
             return entity;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.isPremium;
             mike = entity.bind(mike)(tango);
             entity = undefined;
-            if(mike) { _fun88326_ip = 147; continue _fun88326 }
+            if(mike) { _fun00002_ip = 147; continue _fun00001 }
  64:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     zulu['handleOutOfSuperReactions'] = oscar;
     oscar = function(argFoo, argBar) { // Original name: handleAddNewReactions
-        _fun88327: for(var _fun88327_ip = 0; ; ) switch(_fun88327_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             verify = argFoo;
             report = arguments[2];
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argBar;
             var _closure2_slot1 = entity;
             entity = undefined;
-            if(!(report === entity)) { _fun88327_ip = 63; continue _fun88327 }
+            if(!(report === entity)) { _fun00004_ip = 63; continue _fun00003 }
  28:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             oscar = mike == zulu;
             tango = undefined;
-            if(oscar) { _fun88327_ip = 84; continue _fun88327 }
+            if(oscar) { _fun00004_ip = 84; continue _fun00003 }
  78:
             tango = zulu.burst;
  84:
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot6;
             zulu = tango.getCurrentUser;
             oscar = zulu.bind(tango)();
-            if(!(mike != oscar)) { _fun88327_ip = 360; continue _fun88327 }
+            if(!(mike != oscar)) { _fun00004_ip = 360; continue _fun00003 }
  113:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -180,11 +180,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.isPremium;
             oscar = zulu.bind(tango)(oscar);
             zulu = options;
-            if(!zulu) { _fun88327_ip = 153; continue _fun88327 }
+            if(!zulu) { _fun00004_ip = 153; continue _fun00003 }
  150:
             zulu = !oscar;
  153:
-            if(!zulu) { _fun88327_ip = 164; continue _fun88327 }
+            if(!zulu) { _fun00004_ip = 164; continue _fun00003 }
  156:
             zulu = _closure1_slot11;
             zulu = zulu.bind(entity)();
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = yankee.getBestActiveInputForChannelId;
             zulu = verify.id;
             zulu = tango.bind(yankee)(zulu);
-            if(!(mike != zulu)) { _fun88327_ip = 214; continue _fun88327 }
+            if(!(mike != zulu)) { _fun00004_ip = 214; continue _fun00003 }
  204:
             mike = zulu.closeCustomKeyboard;
             mike = mike.bind(zulu)();
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.openEmojiPickerActionSheet;
             mike = {};
             offset = function(argFoo, argBar) { // Original name: onPressEmoji
-                _fun88328: for(var _fun88328_ip = 0; ; ) switch(_fun88328_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     offset = argFoo;
                     mike = _closure2_slot0;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = argBar;
                     tango['burst'] = entity;
                     mike = null;
-                    if(!(mike != offset)) { _fun88328_ip = 195; continue _fun88328 }
+                    if(!(mike != offset)) { _fun00006_ip = 195; continue _fun00005 }
  42:
                     verify = _closure1_slot0;
                     options = _closure1_slot2;
@@ -232,11 +232,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = verify.toReactionEmoji;
                     zulu = zulu.bind(verify)(offset);
                     mike = mike != tango;
-                    if(!mike) { _fun88328_ip = 91; continue _fun88328 }
+                    if(!mike) { _fun00006_ip = 91; continue _fun00005 }
  85:
                     mike = tango.burst;
  91:
-                    if(mike) { _fun88328_ip = 147; continue _fun88328 }
+                    if(mike) { _fun00006_ip = 147; continue _fun00005 }
  94:
                     verify = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -274,9 +274,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = _closure1_slot10;
             verify = verify.REACTION;
             mike['pickerIntention'] = verify;
-            if(!options) { _fun88327_ip = 279; continue _fun88327 }
+            if(!options) { _fun00004_ip = 279; continue _fun00003 }
  276:
-            if(oscar) { _fun88327_ip = 313; continue _fun88327 }
+            if(oscar) { _fun00004_ip = 313; continue _fun00003 }
  279:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options.bind(entity)(oscar);
             oscar = oscar.ReactionTypes;
             oscar = oscar.NORMAL;
-            _fun88327_ip = 345; continue _fun88327;
+            _fun00004_ip = 345; continue _fun00003;
  313:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -304,14 +304,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['handleAddNewReactions'] = oscar;
     oscar = function(argFoo) { // Original name: handleViewReactions
-        _fun88329: for(var _fun88329_ip = 0; ; ) switch(_fun88329_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             verify = report.messageId;
             options = report.channelId;
             backup = report.location;
             entity = undefined;
-            if(!(backup === entity)) { _fun88329_ip = 26; continue _fun88329 }
+            if(!(backup === entity)) { _fun00008_ip = 26; continue _fun00007 }
  24:
             backup = {};
  26:
@@ -329,46 +329,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = _closure1_slot3;
             report = oscar.getChannel;
             oscar = report.bind(oscar)(options);
-            if(!(zulu != oscar)) { _fun88329_ip = 105; continue _fun88329 }
+            if(!(zulu != oscar)) { _fun00008_ip = 105; continue _fun00007 }
  92:
             report = oscar.isPrivate;
             report = report.bind(oscar)();
-            if(report) { _fun88329_ip = 117; continue _fun88329 }
+            if(report) { _fun00008_ip = 117; continue _fun00007 }
  105:
             report = _closure1_slot8;
             sizing = report.GUILD_CHANNEL;
-            _fun88329_ip = 127; continue _fun88329;
+            _fun00008_ip = 127; continue _fun00007;
  117:
             report = _closure1_slot8;
             sizing = report.DM_CHANNEL;
  127:
-            if(!(zulu != oscar)) { _fun88329_ip = 144; continue _fun88329 }
+            if(!(zulu != oscar)) { _fun00008_ip = 144; continue _fun00007 }
  131:
             report = oscar.isForumLikeChannel;
             report = report.bind(oscar)();
-            if(report) { _fun88329_ip = 173; continue _fun88329 }
+            if(report) { _fun00008_ip = 173; continue _fun00007 }
  144:
-            if(!(zulu != oscar)) { _fun88329_ip = 161; continue _fun88329 }
+            if(!(zulu != oscar)) { _fun00008_ip = 161; continue _fun00007 }
  148:
             report = oscar.isForumPost;
             report = report.bind(oscar)();
-            if(report) { _fun88329_ip = 173; continue _fun88329 }
+            if(report) { _fun00008_ip = 173; continue _fun00007 }
  161:
             report = _closure1_slot9;
             kilo = report.CHANNEL;
-            _fun88329_ip = 183; continue _fun88329;
+            _fun00008_ip = 183; continue _fun00007;
  173:
             report = _closure1_slot9;
             kilo = report.FORUM_CHANNEL_POST;
  183:
-            if(!(zulu == foxtrot)) { _fun88329_ip = 228; continue _fun88329 }
+            if(!(zulu == foxtrot)) { _fun00008_ip = 228; continue _fun00007 }
  187:
             oscar = _closure1_slot4;
             report = oscar.getMessage;
             oscar = report.bind(oscar)(options, verify);
             zulu = zulu == oscar;
             report = undefined;
-            if(zulu) { _fun88329_ip = 222; continue _fun88329 }
+            if(zulu) { _fun00008_ip = 222; continue _fun00007 }
  212:
             zulu = oscar.isPoll;
             report = zulu.bind(oscar)();

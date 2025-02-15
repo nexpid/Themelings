@@ -26,7 +26,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/launchpad/native/useLaunchPadType.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useLaunchPadType
-        _fun89318: for(var _fun89318_ip = 0; ; ) switch(_fun89318_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -42,7 +42,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.LaunchPadMode;
             zulu = zulu.LAUNCH_PAD_DISABLED;
-            if(!(zulu !== tango)) { _fun89318_ip = 209; continue _fun89318 }
+            if(!(zulu !== tango)) { _fun00002_ip = 209; continue _fun00001 }
  72:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -50,7 +50,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.LaunchPadMode;
             zulu = zulu.LAUNCH_PAD_GESTURE_FULL_SCREEN;
-            if(!(zulu !== tango)) { _fun89318_ip = 197; continue _fun89318 }
+            if(!(zulu !== tango)) { _fun00002_ip = 197; continue _fun00001 }
  105:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -58,7 +58,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.LaunchPadMode;
             zulu = zulu.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
-            if(!(zulu !== tango)) { _fun89318_ip = 185; continue _fun89318 }
+            if(!(zulu !== tango)) { _fun00002_ip = 185; continue _fun00001 }
  138:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = report.bind(mike)(zulu);
             zulu = zulu.LaunchPadMode;
             zulu = zulu.LAUNCH_PAD_PULL_TAB;
-            if(!(zulu !== tango)) { _fun89318_ip = 173; continue _fun89318 }
+            if(!(zulu !== tango)) { _fun00002_ip = 173; continue _fun00001 }
  171:
             return mike;
  173:

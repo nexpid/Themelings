@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = oscar.bind(entity)(report);
     options = verify.createStyles;
     report = function() {
-        _fun99776: for(var _fun99776_ip = 0; ; ) switch(_fun99776_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = arguments[0];
             options = undefined;
-            if(!(golf === options)) { _fun99776_ip = 12; continue _fun99776 }
+            if(!(golf === options)) { _fun00002_ip = 12; continue _fun00001 }
  9:
             golf = 2;
  12:

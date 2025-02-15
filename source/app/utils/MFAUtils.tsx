@@ -1,6 +1,6 @@
 // app/utils/MFAUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun92844: for(var _fun92844_ip = 0; ; ) switch(_fun92844_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         options = argBar;
         zulu = argFred;
@@ -32,16 +32,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         offset = golf == oscar;
         entity = undefined;
         yankee = undefined;
-        if(offset) { _fun92844_ip = 90; continue _fun92844 }
+        if(offset) { _fun00002_ip = 90; continue _fun00001 }
  84:
         yankee = oscar.crypto;
  90:
-        if(!(golf == yankee)) { _fun92844_ip = 118; continue _fun92844 }
+        if(!(golf == yankee)) { _fun00002_ip = 118; continue _fun00001 }
  94:
         offset = report.window;
         romeo = golf == offset;
         oscar = undefined;
-        if(romeo) { _fun92844_ip = 115; continue _fun92844 }
+        if(romeo) { _fun00002_ip = 115; continue _fun00001 }
  109:
         oscar = offset.msCrypto;
  115:
@@ -52,12 +52,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'Uint8Array';
         report = report in oscar;
         oscar = golf != yankee;
-        if(!oscar) { _fun92844_ip = 151; continue _fun92844 }
+        if(!oscar) { _fun00002_ip = 151; continue _fun00001 }
  143:
         offset = 'getRandomValues';
         oscar = offset in yankee;
  151:
-        if(!oscar) { _fun92844_ip = 157; continue _fun92844 }
+        if(!oscar) { _fun00002_ip = 157; continue _fun00001 }
  154:
         oscar = report;
  157:
@@ -115,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu['generateTotpSecret'] = report;
         zulu['encodeTotpSecret'] = tango;
         mike = function(argFoo, argBar) { // Original name: encodeTotpSecretAsUrl
-            _fun92847: for(var _fun92847_ip = 0; ; ) switch(_fun92847_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = arguments[2];
                 zulu = undefined;
-                if(!(tango === zulu)) { _fun92847_ip = 15; continue _fun92847 }
+                if(!(tango === zulu)) { _fun00004_ip = 15; continue _fun00003 }
  9:
                 tango = 'Discord';
  15:

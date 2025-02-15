@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.NOTIFICATIONS;
     mike['parent'] = golf;
     golf = function() { // Original name: useInAppNotificationsSettingValue
-        _fun97889: for(var _fun97889_ip = 0; ; ) switch(_fun97889_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.useSetting;
             mike = mike.bind(zulu)();
             entity = !entity;
-            if(!entity) { _fun97889_ip = 75; continue _fun97889 }
+            if(!entity) { _fun00002_ip = 75; continue _fun00001 }
  72:
             entity = mike;
  75:
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['onValueChange'] = golf;
     tango = function() { // Original name: useInAppNotificationsDescription
-        _fun97891: for(var _fun97891_ip = 0; ; ) switch(_fun97891_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.useFocusModeEnabled;
             zulu = entity.bind(zulu)();
             entity = undefined;
-            if(!zulu) { _fun97891_ip = 95; continue _fun97891 }
+            if(!zulu) { _fun00004_ip = 95; continue _fun00003 }
  40:
             report = _closure1_slot0;
             golf = _closure1_slot2;

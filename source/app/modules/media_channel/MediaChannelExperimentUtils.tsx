@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['GuildMediaExperiment'] = report;
     report = function(argFoo) { // Original name: useGuildEligibleForMediaChannels
-        _fun72006: for(var _fun72006_ip = 0; ; ) switch(_fun72006_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             golf = _closure1_slot1;
@@ -68,11 +68,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = null;
             verify = zulu == tango;
             mike = undefined;
-            if(verify) { _fun72006_ip = 34; continue _fun72006 }
+            if(verify) { _fun00002_ip = 34; continue _fun00001 }
  29:
             mike = tango.id;
  34:
-            if(!(zulu == mike)) { _fun72006_ip = 42; continue _fun72006 }
+            if(!(zulu == mike)) { _fun00002_ip = 42; continue _fun00001 }
  38:
             mike = _closure1_slot0;
  42:
@@ -86,12 +86,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.enabled;
             report = zulu == tango;
             entity = undefined;
-            if(report) { _fun72006_ip = 90; continue _fun72006 }
+            if(report) { _fun00002_ip = 90; continue _fun00001 }
  85:
             entity = tango.id;
  90:
             entity = zulu != entity;
-            if(!entity) { _fun72006_ip = 100; continue _fun72006 }
+            if(!entity) { _fun00002_ip = 100; continue _fun00001 }
  97:
             entity = mike;
  100:

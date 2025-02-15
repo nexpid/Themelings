@@ -29,17 +29,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_store/getAnalyticsDataForSKU.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getAnalyticsDataForSKU
-        _fun56047: for(var _fun56047_ip = 0; ; ) switch(_fun56047_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             entity = arguments[1];
             oscar = arguments[2];
             mike = undefined;
-            if(!(entity === mike)) { _fun56047_ip = 17; continue _fun56047 }
+            if(!(entity === mike)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             entity = false;
  17:
-            if(!(oscar === mike)) { _fun56047_ip = 23; continue _fun56047 }
+            if(!(oscar === mike)) { _fun00002_ip = 23; continue _fun00001 }
  21:
             oscar = true;
  23:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['application_id'] = zulu;
             yankee = mike != options;
             zulu = null;
-            if(!yankee) { _fun56047_ip = 118; continue _fun56047 }
+            if(!yankee) { _fun00002_ip = 118; continue _fun00001 }
  113:
             zulu = options.name;
  118:
@@ -71,32 +71,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['store_title'] = zulu;
             options = golf.premium;
             zulu = 'distribution';
-            if(!options) { _fun56047_ip = 150; continue _fun56047 }
+            if(!options) { _fun00002_ip = 150; continue _fun00001 }
  146:
             zulu = 'premium';
  150:
             tango['distribution_type'] = zulu;
             zulu = null;
-            if(!oscar) { _fun56047_ip = 227; continue _fun56047 }
+            if(!oscar) { _fun00002_ip = 227; continue _fun00001 }
  162:
             oscar = {};
             yankee = mike != verify;
             options = null;
-            if(!yankee) { _fun56047_ip = 179; continue _fun56047 }
+            if(!yankee) { _fun00002_ip = 179; continue _fun00001 }
  173:
             options = verify.amount;
  179:
             oscar['price'] = options;
             yankee = mike != offset;
             options = null;
-            if(!yankee) { _fun56047_ip = 199; continue _fun56047 }
+            if(!yankee) { _fun00002_ip = 199; continue _fun00001 }
  193:
             options = offset.amount;
  199:
             oscar['regular_price'] = options;
             offset = mike != verify;
             options = null;
-            if(!offset) { _fun56047_ip = 219; continue _fun56047 }
+            if(!offset) { _fun00002_ip = 219; continue _fun00001 }
  213:
             options = verify.currency;
  219:
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar;
  227:
             mike = null;
-            if(!entity) { _fun56047_ip = 556; continue _fun56047 }
+            if(!entity) { _fun00002_ip = 556; continue _fun00001 }
  235:
             entity = {};
             options = golf.hasFeature;

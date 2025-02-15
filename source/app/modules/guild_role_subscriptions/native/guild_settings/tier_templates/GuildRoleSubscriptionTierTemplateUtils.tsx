@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/native/guild_settings/tier_templates/GuildRoleSubscriptionTierTemplateUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelIcon
-        _fun127416: for(var _fun127416_ip = 0; ; ) switch(_fun127416_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_TEXT;
-            if(!(mike !== tango)) { _fun127416_ip = 331; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 331; continue _fun00001 }
  46:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_VOICE;
-            if(!(mike !== tango)) { _fun127416_ip = 309; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 309; continue _fun00001 }
  82:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_STAGE_VOICE;
-            if(!(mike !== tango)) { _fun127416_ip = 287; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 287; continue _fun00001 }
  118:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_FORUM;
-            if(!(mike !== tango)) { _fun127416_ip = 265; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 265; continue _fun00001 }
  151:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_MEDIA;
-            if(!(mike !== tango)) { _fun127416_ip = 243; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 243; continue _fun00001 }
  184:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(zulu)(mike);
             mike = mike.ChannelTypes;
             mike = mike.GUILD_ANNOUNCEMENT;
-            if(!(mike !== tango)) { _fun127416_ip = 221; continue _fun127416 }
+            if(!(mike !== tango)) { _fun00002_ip = 221; continue _fun00001 }
  217:
             mike = null;
             return mike;

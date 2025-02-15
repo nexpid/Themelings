@@ -24,20 +24,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/validateScope.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: validateScope
-        _fun109804: for(var _fun109804_ip = 0; ; ) switch(_fun109804_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             var _closure2_slot0 = zulu;
             entity = null;
-            if(!(entity != mike)) { _fun109804_ip = 188; continue _fun109804 }
+            if(!(entity != mike)) { _fun00002_ip = 188; continue _fun00001 }
  21:
             tango = typeof mike;
             entity = 'string';
-            if(!(entity !== tango)) { _fun109804_ip = 176; continue _fun109804 }
+            if(!(entity !== tango)) { _fun00002_ip = 176; continue _fun00001 }
  35:
             entity = 'object';
-            if(!(entity === tango)) { _fun109804_ip = 172; continue _fun109804 }
+            if(!(entity === tango)) { _fun00002_ip = 172; continue _fun00001 }
  46:
             entity = _closure1_slot0;
             tango = entity.ANY;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.isArray;
             entity = entity.bind(oscar)(verify);
             oscar = !entity;
-            if(oscar) { _fun109804_ip = 118; continue _fun109804 }
+            if(oscar) { _fun00002_ip = 118; continue _fun00001 }
  97:
             options = verify.some;
             entity = function(argFoo) {
@@ -63,13 +63,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = !entity;
  118:
             entity = !oscar;
-            if(!oscar) { _fun109804_ip = 170; continue _fun109804 }
+            if(!oscar) { _fun00002_ip = 170; continue _fun00001 }
  124:
             oscar = tango.Array;
             tango = oscar.isArray;
             tango = tango.bind(oscar)(golf);
             tango = !tango;
-            if(tango) { _fun109804_ip = 167; continue _fun109804 }
+            if(tango) { _fun00002_ip = 167; continue _fun00001 }
  146:
             oscar = golf.every;
             report = function(argFoo) {

@@ -128,20 +128,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot15 = report;
     report = options.memo;
     tango = function(argFoo) {
-        _fun73447: for(var _fun73447_ip = 0; ; ) switch(_fun73447_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.children;
             oscar = entity.style;
             result = entity.containerOffsets;
             tango = undefined;
-            if(!(result === tango)) { _fun73447_ip = 37; continue _fun73447 }
+            if(!(result === tango)) { _fun00002_ip = 37; continue _fun00001 }
  27:
             result = {'top': 0, 'bottom': 0};
  37:
             var _closure2_slot0 = result;
             mike = entity.preferredPosition;
-            if(!(mike === tango)) { _fun73447_ip = 64; continue _fun73447 }
+            if(!(mike === tango)) { _fun00002_ip = 64; continue _fun00001 }
  51:
             mike = _closure1_slot9;
             mike = mike.TOP_LEFT;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report = !offset;
             entity['snapToCorners'] = report;
             report = undefined;
-            if(!offset) { _fun73447_ip = 563; continue _fun73447 }
+            if(!offset) { _fun00002_ip = 563; continue _fun00001 }
  559:
             report = _closure1_slot8;
  563:
@@ -325,12 +325,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report['style'] = sizing;
             report['pointerEvents'] = options;
             golf = function() { // Original name: onLayout
-                _fun73451: for(var _fun73451_ip = 0; ; ) switch(_fun73451_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun73451_ip = 47; continue _fun73451 }
+                    if(!(mike != zulu)) { _fun00004_ip = 47; continue _fun00003 }
  18:
                     entity = _closure2_slot3;
                     zulu = entity.current;
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             foxtrot = sizing.isIOS;
             sizing = foxtrot.bind(sizing)();
             foxtrot = undefined;
-            if(!sizing) { _fun73447_ip = 792; continue _fun73447 }
+            if(!sizing) { _fun00002_ip = 792; continue _fun00001 }
  786:
             foxtrot = kilo.elevationShadow;
  792:

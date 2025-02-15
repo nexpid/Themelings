@@ -40,14 +40,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = zulu.alerts;
         tango = report.forEach;
         zulu = function(argFoo) {
-            _fun56580: for(var _fun56580_ip = 0; ; ) switch(_fun56580_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 mike = zulu.onDismiss;
                 entity = null;
                 mike = entity == mike;
                 entity = undefined;
-                if(mike) { _fun56580_ip = 30; continue _fun56580 }
+                if(mike) { _fun00002_ip = 30; continue _fun00001 }
  20:
                 mike = zulu.onDismiss;
                 entity = mike.bind(zulu)();
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = tango.bind(entity)(zulu);
         zulu = tango.batchUpdates;
         mike = function() {
-            _fun56583: for(var _fun56583_ip = 0; ; ) switch(_fun56583_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getState;
@@ -104,12 +104,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(report)(zulu);
                 oscar = null;
                 zulu = oscar == tango;
-                if(zulu) { _fun56583_ip = 59; continue _fun56583 }
+                if(zulu) { _fun00004_ip = 59; continue _fun00003 }
  49:
                 report = tango.onDismiss;
                 zulu = oscar == report;
  59:
-                if(zulu) { _fun56583_ip = 72; continue _fun56583 }
+                if(zulu) { _fun00004_ip = 72; continue _fun00003 }
  62:
                 zulu = tango.onDismiss;
                 zulu = zulu.bind(tango)();

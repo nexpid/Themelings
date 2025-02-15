@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/chat/JumpToPresentButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: JumpToPresentButton
-        _fun101706: for(var _fun101706_ip = 0; ; ) switch(_fun101706_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.channelId;
@@ -131,11 +131,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             verify = yankee.bind(backup)(verify, offset);
-            if(tango) { _fun101706_ip = 352; continue _fun101706 }
+            if(tango) { _fun00002_ip = 352; continue _fun00001 }
  233:
-            if(mike) { _fun101706_ip = 352; continue _fun101706 }
+            if(mike) { _fun00002_ip = 352; continue _fun00001 }
  236:
-            if(!entity) { _fun101706_ip = 352; continue _fun101706 }
+            if(!entity) { _fun00002_ip = 352; continue _fun00001 }
  239:
             tango = _closure1_slot5;
             mike = _closure1_slot4;
@@ -164,13 +164,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = tango.bind(oscar)(yankee, offset);
             entity['children'] = offset;
             entity = tango.bind(oscar)(mike, entity);
-            _fun101706_ip = 440; continue _fun101706;
+            _fun00002_ip = 440; continue _fun00001;
  352:
             mike = null;
-            if(!report) { _fun101706_ip = 437; continue _fun101706 }
+            if(!report) { _fun00002_ip = 437; continue _fun00001 }
  357:
             mike = null;
-            if(!zulu) { _fun101706_ip = 437; continue _fun101706 }
+            if(!zulu) { _fun00002_ip = 437; continue _fun00001 }
  362:
             report = _closure1_slot5;
             tango = _closure1_slot4;

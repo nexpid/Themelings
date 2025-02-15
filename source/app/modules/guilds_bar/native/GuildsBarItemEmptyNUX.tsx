@@ -200,7 +200,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = offset.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: o
-            _fun114595: for(var _fun114595_ip = 0; ; ) switch(_fun114595_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 report = _closure1_slot0;
@@ -211,10 +211,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 oscar = report.bind(zulu)(tango);
                 report = oscar.withSpring;
                 tango = _closure2_slot0;
-                if(tango) { _fun114595_ip = 48; continue _fun114595 }
+                if(tango) { _fun00002_ip = 48; continue _fun00001 }
  42:
                 tango = _closure2_slot3;
-                _fun114595_ip = 52; continue _fun114595;
+                _fun00002_ip = 52; continue _fun00001;
  48:
                 tango = _closure2_slot4;
  52:

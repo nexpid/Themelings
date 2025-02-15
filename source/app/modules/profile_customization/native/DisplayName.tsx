@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getAccessibilityLabel
-        _fun99673: for(var _fun99673_ip = 0; ; ) switch(_fun99673_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = zulu.bot;
             golf = '';
             oscar = golf;
-            if(!entity) { _fun99673_ip = 105; continue _fun99673 }
+            if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  19:
             entity = zulu.isSystemUser;
             tango = entity.bind(zulu)();
@@ -25,10 +25,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = undefined;
             mike = verify.bind(report)(mike);
             mike = mike.Types;
-            if(tango) { _fun99673_ip = 71; continue _fun99673 }
+            if(tango) { _fun00002_ip = 71; continue _fun00001 }
  63:
             tango = mike.BOT;
-            _fun99673_ip = 77; continue _fun99673;
+            _fun00002_ip = 77; continue _fun00001;
  71:
             tango = mike.SYSTEM_DM;
  77:
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/DisplayName.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DisplayName
-        _fun99674: for(var _fun99674_ip = 0; ; ) switch(_fun99674_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             backup = mike.user;
@@ -142,12 +142,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = mike.error;
             vacuum = mike.lineClamp;
             tango = undefined;
-            if(!(vacuum === tango)) { _fun99674_ip = 68; continue _fun99674 }
+            if(!(vacuum === tango)) { _fun00004_ip = 68; continue _fun00003 }
  65:
             vacuum = 2;
  68:
             output = mike.textVariant;
-            if(!(output === tango)) { _fun99674_ip = 84; continue _fun99674 }
+            if(!(output === tango)) { _fun00004_ip = 84; continue _fun00003 }
  78:
             output = 'heading-xl/extrabold';
  84:
@@ -156,13 +156,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.bind(tango)();
             mike = backup.hasAvatarForGuild;
             echo = mike.bind(backup)(yankee);
-            if(echo) { _fun99674_ip = 118; continue _fun99674 }
+            if(echo) { _fun00004_ip = 118; continue _fun00003 }
  115:
             echo = entity;
  118:
             control = '';
             sequence = control;
-            if(!echo) { _fun99674_ip = 146; continue _fun99674 }
+            if(!echo) { _fun00004_ip = 146; continue _fun00003 }
  128:
             zulu = '\xa0';
             mike = zulu.repeat;
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = entity.BOT;
             entity = backup.isSystemUser;
             entity = entity.bind(backup)();
-            if(entity) { _fun99674_ip = 235; continue _fun99674 }
+            if(entity) { _fun00004_ip = 235; continue _fun00003 }
  191:
             entity = backup.isClyde;
             entity = entity.bind(backup)();
-            if(!entity) { _fun99674_ip = 264; continue _fun99674 }
+            if(!entity) { _fun00004_ip = 264; continue _fun00003 }
  204:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.Types;
             record = entity.AI;
-            _fun99674_ip = 264; continue _fun99674;
+            _fun00004_ip = 264; continue _fun00003;
  235:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['color'] = output;
             output = new Array(2);
             output[0] = source;
-            if(!result) { _fun99674_ip = 455; continue _fun99674 }
+            if(!result) { _fun00004_ip = 455; continue _fun00003 }
  407:
             target = _closure1_slot4;
             sierra = _closure1_slot1;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = backup.bot;
             romeo = null;
             output = null;
-            if(!result) { _fun99674_ip = 548; continue _fun99674 }
+            if(!result) { _fun00004_ip = 548; continue _fun00003 }
  490:
             config = _closure1_slot4;
             source = _closure1_slot1;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(3);
             options[0] = verify;
             verify = null;
-            if(sizing) { _fun99674_ip = 885; continue _fun99674 }
+            if(sizing) { _fun00004_ip = 885; continue _fun00003 }
  578:
             result = _closure1_slot5;
             output = _closure1_slot3;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = foxtrot.subNameContainer;
             sizing['style'] = source;
             source = null;
-            if(!echo) { _fun99674_ip = 689; continue _fun99674 }
+            if(!echo) { _fun00004_ip = 689; continue _fun00003 }
  603:
             record = _closure1_slot4;
             config = _closure1_slot1;
@@ -313,10 +313,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo[0] = source;
             config = romeo != context;
             source = null;
-            if(!config) { _fun99674_ip = 772; continue _fun99674 }
+            if(!config) { _fun00004_ip = 772; continue _fun00003 }
  706:
             source = null;
-            if(!(control !== context)) { _fun99674_ip = 772; continue _fun99674 }
+            if(!(control !== context)) { _fun00004_ip = 772; continue _fun00003 }
  712:
             record = _closure1_slot4;
             config = _closure1_slot0;
@@ -356,15 +356,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  885:
             options[1] = verify;
             verify = null;
-            if(!kilo) { _fun99674_ip = 958; continue _fun99674 }
+            if(!kilo) { _fun00004_ip = 958; continue _fun00003 }
  894:
             yankee = romeo == yankee;
             verify = null;
-            if(!yankee) { _fun99674_ip = 958; continue _fun99674 }
+            if(!yankee) { _fun00004_ip = 958; continue _fun00003 }
  903:
             yankee = romeo != backup;
             verify = null;
-            if(!yankee) { _fun99674_ip = 958; continue _fun99674 }
+            if(!yankee) { _fun00004_ip = 958; continue _fun00003 }
  912:
             romeo = _closure1_slot4;
             yankee = _closure1_slot1;

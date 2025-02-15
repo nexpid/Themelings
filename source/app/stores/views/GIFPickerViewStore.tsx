@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun84776: for(var _fun84776_ip = 0; ; ) switch(_fun84776_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot19;
             entity = entity.bind(zulu)();
-            if(entity) { _fun84776_ip = 51; continue _fun84776 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun84776_ip = 92; continue _fun84776;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun84776_ip = 71; continue _fun84776 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot18 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun84777: for(var _fun84777_ip = 0; ; ) switch(_fun84777_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun84777_ip = 76; continue _fun84777;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -81,56 +81,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: isVideoFormat
-        _fun84780: for(var _fun84780_ip = 0; ; ) switch(_fun84780_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             zulu = _closure1_slot9;
             zulu = zulu.FIXED_HEIGHT_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  23:
             zulu = _closure1_slot9;
             zulu = zulu.FIXED_HEIGHT_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  40:
             zulu = _closure1_slot9;
             zulu = zulu.FIXED_WIDTH_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  57:
             zulu = _closure1_slot9;
             zulu = zulu.FIXED_WIDTH_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  71:
             zulu = _closure1_slot9;
             zulu = zulu.DOWNSIZED_SMALL_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  85:
             zulu = _closure1_slot9;
             zulu = zulu.ORIGINAL_MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  99:
             zulu = _closure1_slot8;
             zulu = zulu.MP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  113:
             zulu = _closure1_slot8;
             zulu = zulu.TINYMP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  127:
             zulu = _closure1_slot8;
             zulu = zulu.NANOMP4;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  141:
             zulu = _closure1_slot8;
             zulu = zulu.WEBM;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  155:
             zulu = _closure1_slot8;
             zulu = zulu.TINYWEBM;
-            if(!(zulu !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(zulu !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  169:
             entity = _closure1_slot8;
             entity = entity.NANOWEBM;
-            if(!(entity !== mike)) { _fun84780_ip = 187; continue _fun84780 }
+            if(!(entity !== mike)) { _fun00006_ip = 187; continue _fun00005 }
  183:
             entity = false;
             return entity;
@@ -308,13 +308,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GIF_PICKER_INITIALIZE'] = verify;
     verify = function(argFoo) { // Original name: handleQuery
-        _fun84792: for(var _fun84792_ip = 0; ; ) switch(_fun84792_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             zulu = entity.query;
             _closure1_slot11 = zulu;
             entity = '';
-            if(!(entity === zulu)) { _fun84792_ip = 43; continue _fun84792 }
+            if(!(entity === zulu)) { _fun00008_ip = 43; continue _fun00007 }
  23:
             _closure1_slot12 = entity;
             entity = new Array(0);
@@ -328,19 +328,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GIF_PICKER_QUERY'] = verify;
     verify = function(argFoo) { // Original name: handleQuerySuccess
-        _fun84793: for(var _fun84793_ip = 0; ; ) switch(_fun84793_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             mike = entity.query;
             zulu = null;
-            if(!(zulu != mike)) { _fun84793_ip = 29; continue _fun84793 }
+            if(!(zulu != mike)) { _fun00010_ip = 29; continue _fun00009 }
  14:
             tango = _closure1_slot11;
             mike = _closure1_slot12;
-            if(!(tango !== mike)) { _fun84793_ip = 86; continue _fun84793 }
+            if(!(tango !== mike)) { _fun00010_ip = 86; continue _fun00009 }
  29:
             mike = entity.query;
-            if(!(zulu != mike)) { _fun84793_ip = 50; continue _fun84793 }
+            if(!(zulu != mike)) { _fun00010_ip = 50; continue _fun00009 }
  38:
             zulu = entity.query;
             _closure1_slot12 = zulu;
@@ -348,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.items;
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun84794: for(var _fun84794_ip = 0; ; ) switch(_fun84794_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
                     golf = entity.width;
@@ -374,10 +374,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = oscar[zulu];
                     zulu = tango.bind(report)(zulu);
                     zulu = zulu.GIFType;
-                    if(mike) { _fun84794_ip = 122; continue _fun84794 }
+                    if(mike) { _fun00012_ip = 122; continue _fun00011 }
  114:
                     mike = zulu.IMAGE;
-                    _fun84794_ip = 128; continue _fun84794;
+                    _fun00012_ip = 128; continue _fun00011;
  122:
                     mike = zulu.VIDEO;
  128:
@@ -396,12 +396,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GIF_PICKER_QUERY_SUCCESS'] = verify;
     verify = function(argFoo) { // Original name: handleQueryFailure
-        _fun84795: for(var _fun84795_ip = 0; ; ) switch(_fun84795_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             entity = entity.query;
             mike = null;
-            if(!(mike != entity)) { _fun84795_ip = 33; continue _fun84795 }
+            if(!(mike != entity)) { _fun00014_ip = 33; continue _fun00013 }
  14:
             _closure1_slot12 = entity;
             entity = new Array(0);
@@ -415,16 +415,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GIF_PICKER_QUERY_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleTrendingFetchSuccess
-        _fun84796: for(var _fun84796_ip = 0; ; ) switch(_fun84796_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             report = entity.trendingCategories;
             zulu = entity.trendingGIFPreview;
             mike = null;
-            if(!(mike == zulu)) { _fun84796_ip = 30; continue _fun84796 }
+            if(!(mike == zulu)) { _fun00016_ip = 30; continue _fun00015 }
  21:
             zulu = new Array(0);
-            _fun84796_ip = 166; continue _fun84796;
+            _fun00016_ip = 166; continue _fun00015;
  30:
             mike = {};
             oscar = _closure1_slot7;

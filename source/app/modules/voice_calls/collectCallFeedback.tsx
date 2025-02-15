@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_calls/collectCallFeedback.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: collectCallFeedback
-        _fun105394: for(var _fun105394_ip = 0; ; ) switch(_fun105394_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot7;
@@ -58,15 +58,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(report)(mike);
             report = null;
             zulu = argBar;
-            if(!(report == zulu)) { _fun105394_ip = 51; continue _fun105394 }
+            if(!(report == zulu)) { _fun00002_ip = 51; continue _fun00001 }
  43:
-            if(!(report != mike)) { _fun105394_ip = 51; continue _fun105394 }
+            if(!(report != mike)) { _fun00002_ip = 51; continue _fun00001 }
  47:
-            if(!(report == oscar)) { _fun105394_ip = 62; continue _fun105394 }
+            if(!(report == oscar)) { _fun00002_ip = 62; continue _fun00001 }
  51:
             mike = undefined;
             mike = tango.bind(mike)();
-            _fun105394_ip = 525; continue _fun105394;
+            _fun00002_ip = 525; continue _fun00001;
  62:
             mike = {};
             zulu = oscar.id;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(zulu)();
             tango = _closure1_slot3;
             tango = tango.hasUsedBackgroundInCall;
-            if(tango) { _fun105394_ip = 281; continue _fun105394 }
+            if(tango) { _fun00002_ip = 281; continue _fun00001 }
  229:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['type'] = options;
             tango['analyticsData'] = mike;
             tango = oscar.bind(golf)(tango);
-            _fun105394_ip = 525; continue _fun105394;
+            _fun00002_ip = 525; continue _fun00001;
  281:
             tango = {};
             foxtrot = tango;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf[oscar];
             golf = report == oscar;
             report = undefined;
-            if(golf) { _fun105394_ip = 381; continue _fun105394 }
+            if(golf) { _fun00002_ip = 381; continue _fun00001 }
  376:
             report = oscar.name;
  381:

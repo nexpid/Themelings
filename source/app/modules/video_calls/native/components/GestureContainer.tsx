@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu['__initData'] = options;
         offset['onActive'] = zulu;
         zulu = function(argFoo) { // Original name: Y
-            _fun103642: for(var _fun103642_ip = 0; ; ) switch(_fun103642_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 mike = entity.velocityY;
@@ -205,10 +205,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.get;
                 zulu = entity.bind(zulu)();
                 entity = _closure2_slot2;
-                if(!(!(zulu >= entity))) { _fun103642_ip = 119; continue _fun103642 }
+                if(!(!(zulu >= entity))) { _fun00002_ip = 119; continue _fun00001 }
  52:
                 entity = 500;
-                if(!(!(mike >= entity))) { _fun103642_ip = 119; continue _fun103642 }
+                if(!(!(mike >= entity))) { _fun00002_ip = 119; continue _fun00001 }
  62:
                 zulu = _closure2_slot0;
                 mike = zulu.set;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = 0;
                 entity = report.bind(oscar)(entity, options);
                 entity = mike.bind(zulu)(entity);
-                _fun103642_ip = 274; continue _fun103642;
+                _fun00002_ip = 274; continue _fun00001;
  119:
                 zulu = _closure2_slot0;
                 mike = zulu.set;
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu['__initData'] = options;
         offset['onActive'] = zulu;
         zulu = function(argFoo) { // Original name: A
-            _fun103649: for(var _fun103649_ip = 0; ; ) switch(_fun103649_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.velocityY;
@@ -509,10 +509,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = tango.get;
                 tango = mike.bind(tango)();
                 mike = 1;
-                if(!(mike !== tango)) { _fun103649_ip = 131; continue _fun103649 }
+                if(!(mike !== tango)) { _fun00004_ip = 131; continue _fun00003 }
  32:
                 mike = 500;
-                if(!(!(zulu > mike))) { _fun103649_ip = 131; continue _fun103649 }
+                if(!(!(zulu > mike))) { _fun00004_ip = 131; continue _fun00003 }
  42:
                 zulu = _closure2_slot1;
                 mike = zulu.set;
@@ -534,7 +534,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = 0;
                 entity = report.bind(oscar)(entity, tango);
                 entity = mike.bind(zulu)(entity);
-                _fun103649_ip = 192; continue _fun103649;
+                _fun00004_ip = 192; continue _fun00003;
  131:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot2;

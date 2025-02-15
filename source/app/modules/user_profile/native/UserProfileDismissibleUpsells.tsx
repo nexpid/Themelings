@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar[0] = golf;
         entity['contentTypes'] = oscar;
         report = function(argFoo) { // Original name: children
-            _fun102664: for(var _fun102664_ip = 0; ; ) switch(_fun102664_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.visibleContent;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = entity.DismissibleContent;
                 mike = entity.USER_PROFILE_PREMIUM_AND_SHOP_ENTRY_POINTS;
                 entity = null;
-                if(!(zulu === mike)) { _fun102664_ip = 880; continue _fun102664 }
+                if(!(zulu === mike)) { _fun00002_ip = 880; continue _fun00001 }
  67:
                 tango = _closure1_slot8;
                 golf = _closure1_slot1;
@@ -302,10 +302,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 target = verify;
                 offset = copyDataProperties(target, papa);
                 offset = _closure2_slot2;
-                if(offset) { _fun102664_ip = 205; continue _fun102664 }
+                if(offset) { _fun00002_ip = 205; continue _fun00001 }
  201:
                 offset = {};
-                _fun102664_ip = 215; continue _fun102664;
+                _fun00002_ip = 215; continue _fun00001;
  205:
                 yankee = _closure2_slot3;
                 offset = yankee.customProfileThemeUpsellContainer;
@@ -394,21 +394,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 echo = echo[config];
                 echo = sequence.bind(report)(echo);
                 echo = echo.t;
-                if(sizing) { _fun102664_ip = 570; continue _fun102664 }
+                if(sizing) { _fun00002_ip = 570; continue _fun00001 }
  557:
                 sizing = echo.x6rkDg;
                 sizing = update.bind(control)(sizing);
-                _fun102664_ip = 581; continue _fun102664;
+                _fun00002_ip = 581; continue _fun00001;
  570:
                 echo = echo.0Q61kJ;
                 sizing = update.bind(control)(echo);
  581:
                 result['text'] = sizing;
                 sizing = _closure2_slot5;
-                if(sizing) { _fun102664_ip = 600; continue _fun102664 }
+                if(sizing) { _fun00002_ip = 600; continue _fun00001 }
  594:
                 sizing = _closure2_slot7;
-                _fun102664_ip = 604; continue _fun102664;
+                _fun00002_ip = 604; continue _fun00001;
  600:
                 sizing = _closure2_slot8;
  604:

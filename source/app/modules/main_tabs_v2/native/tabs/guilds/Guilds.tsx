@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: OldGuilds
-        _fun114064: for(var _fun114064_ip = 0; ; ) switch(_fun114064_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -33,14 +33,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike[0] = options;
             mike[1] = golf;
             entity = function() {
-                _fun114065: for(var _fun114065_ip = 0; ; ) switch(_fun114065_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot0;
                     mike = null;
                     report = mike != tango;
                     tango = null;
-                    if(!report) { _fun114065_ip = 24; continue _fun114065 }
+                    if(!report) { _fun00004_ip = 24; continue _fun00003 }
  20:
                     tango = _closure2_slot0;
  24:
@@ -48,7 +48,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     tango = _closure2_slot1;
                     tango = mike != tango;
                     mike = null;
-                    if(!tango) { _fun114065_ip = 45; continue _fun114065 }
+                    if(!tango) { _fun00004_ip = 45; continue _fun00003 }
  41:
                     mike = _closure2_slot1;
  45:
@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = {};
             offset = options.isChatBesideChannelList;
             options = undefined;
-            if(!offset) { _fun114064_ip = 209; continue _fun114064 }
+            if(!offset) { _fun00002_ip = 209; continue _fun00001 }
  206:
             options = verify;
  209:

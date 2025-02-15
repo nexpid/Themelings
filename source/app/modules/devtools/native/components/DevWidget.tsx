@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango['code'] = golf;
     var _closure1_slot14 = tango;
     tango = function(argFoo) { // Original name: DraggableContainer
-        _fun111457: for(var _fun111457_ip = 0; ; ) switch(_fun111457_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.x;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot3 = vacuum;
             source = entity.dragBoundsPadding;
             tango = undefined;
-            if(!(source === tango)) { _fun111457_ip = 57; continue _fun111457 }
+            if(!(source === tango)) { _fun00002_ip = 57; continue _fun00001 }
  55:
             source = 0;
  57:

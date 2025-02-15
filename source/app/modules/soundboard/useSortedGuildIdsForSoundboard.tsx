@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/soundboard/useSortedGuildIdsForSoundboard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useSortedGuildIdsForSoundboard
-        _fun103472: for(var _fun103472_ip = 0; ; ) switch(_fun103472_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             options = argBar;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             oscar = zulu == tango;
             golf = undefined;
-            if(oscar) { _fun103472_ip = 91; continue _fun103472 }
+            if(oscar) { _fun00002_ip = 91; continue _fun00001 }
  86:
             golf = tango.guild_id;
  91:
-            if(!(zulu == golf)) { _fun103472_ip = 99; continue _fun103472 }
+            if(!(zulu == golf)) { _fun00002_ip = 99; continue _fun00001 }
  95:
             golf = _closure1_slot7;
  99:
@@ -109,18 +109,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = new Array(1);
             tango[0] = zulu;
             zulu = function() {
-                _fun103475: for(var _fun103475_ip = 0; ; ) switch(_fun103475_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     tango = null;
                     entity = tango == entity;
-                    if(entity) { _fun103475_ip = 29; continue _fun103475 }
+                    if(entity) { _fun00004_ip = 29; continue _fun00003 }
  16:
                     zulu = _closure2_slot0;
                     zulu = zulu.guild_id;
                     entity = tango == zulu;
  29:
-                    if(entity) { _fun103475_ip = 65; continue _fun103475 }
+                    if(entity) { _fun00004_ip = 65; continue _fun00003 }
  32:
                     report = _closure1_slot4;
                     tango = report.can;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = oscar;
             mike[4] = report;
             entity = function() {
-                _fun103476: for(var _fun103476_ip = 0; ; ) switch(_fun103476_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -154,13 +154,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.canUseSoundboardEverywhere;
                     entity = _closure2_slot2;
                     entity = zulu.bind(tango)(entity);
-                    if(entity) { _fun103476_ip = 53; continue _fun103476 }
+                    if(entity) { _fun00006_ip = 53; continue _fun00005 }
  46:
                     entity = _closure2_slot1;
-                    if(entity) { _fun103476_ip = 60; continue _fun103476 }
+                    if(entity) { _fun00006_ip = 60; continue _fun00005 }
  53:
                     entity = _closure2_slot5;
-                    if(entity) { _fun103476_ip = 74; continue _fun103476 }
+                    if(entity) { _fun00006_ip = 74; continue _fun00005 }
  60:
                     zulu = _closure2_slot3;
                     entity = new Array(1);
@@ -171,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = '';
                     zulu = entity !== zulu;
                     oscar = _closure2_slot4;
-                    if(zulu) { _fun103476_ip = 98; continue _fun103476 }
+                    if(zulu) { _fun00006_ip = 98; continue _fun00005 }
  93:
                     entity = oscar;
-                    _fun103476_ip = 117; continue _fun103476;
+                    _fun00006_ip = 117; continue _fun00005;
  98:
                     report = oscar.filter;
                     tango = function(argFoo) {
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     entity = report.bind(oscar)(tango);
  117:
-                    if(!zulu) { _fun103476_ip = 135; continue _fun103476 }
+                    if(!zulu) { _fun00006_ip = 135; continue _fun00005 }
  120:
                     zulu = entity.unshift;
                     mike = _closure2_slot3;

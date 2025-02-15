@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: FamilyCenterActivitySectionHeader
-        _fun95390: for(var _fun95390_ip = 0; ; ) switch(_fun95390_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.displayType;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             mike = oscar == options;
             foxtrot = undefined;
-            if(mike) { _fun95390_ip = 114; continue _fun95390 }
+            if(mike) { _fun00002_ip = 114; continue _fun00001 }
  98:
             mike = options.sectionHeader;
             entity = entity.length;
@@ -51,20 +51,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.bind(zulu)(entity);
             mike = oscar == options;
             entity = undefined;
-            if(mike) { _fun95390_ip = 172; continue _fun95390 }
+            if(mike) { _fun00002_ip = 172; continue _fun00001 }
  166:
             entity = options.sectionDescription;
  172:
             offset = null;
-            if(!(tango !== entity)) { _fun95390_ip = 212; continue _fun95390 }
+            if(!(tango !== entity)) { _fun00002_ip = 212; continue _fun00001 }
  178:
             mike = oscar == options;
             entity = undefined;
-            if(mike) { _fun95390_ip = 209; continue _fun95390 }
+            if(mike) { _fun00002_ip = 209; continue _fun00001 }
  187:
             zulu = options.sectionDescription;
             mike = oscar != verify;
-            if(!mike) { _fun95390_ip = 203; continue _fun95390 }
+            if(!mike) { _fun00002_ip = 203; continue _fun00001 }
  200:
             mike = verify;
  203:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = options;
             oscar = null;
-            if(!(oscar !== offset)) { _fun95390_ip = 353; continue _fun95390 }
+            if(!(oscar !== offset)) { _fun00002_ip = 353; continue _fun00001 }
  298:
             verify = _closure1_slot9;
             options = _closure1_slot0;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterActivitySection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterActivitySection
-        _fun95391: for(var _fun95391_ip = 0; ; ) switch(_fun95391_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.displayType;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             romeo = verify.bind(yankee)(zulu, report);
             entity = entity.length;
-            if(!(mike !== entity)) { _fun95391_ip = 647; continue _fun95391 }
+            if(!(mike !== entity)) { _fun00004_ip = 647; continue _fun00003 }
  221:
             mike = _closure1_slot0;
             verify = _closure1_slot2;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.length;
             golf = oscar < golf;
             oscar = null;
-            if(!golf) { _fun95391_ip = 631; continue _fun95391 }
+            if(!golf) { _fun00004_ip = 631; continue _fun00003 }
  402:
             verify = _closure1_slot9;
             options = _closure1_slot6;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = output.loadMoreContainer;
             golf['style'] = yankee;
             foxtrot = _closure1_slot9;
-            if(offset) { _fun95391_ip = 555; continue _fun95391 }
+            if(offset) { _fun00004_ip = 555; continue _fun00003 }
  432:
             kilo = _closure1_slot0;
             echo = _closure1_slot2;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(tango)(kilo, romeo);
             offset['children'] = romeo;
             offset = foxtrot.bind(tango)(yankee, offset);
-            _fun95391_ip = 621; continue _fun95391;
+            _fun00004_ip = 621; continue _fun00003;
  555:
             romeo = _closure1_slot6;
             yankee = {};

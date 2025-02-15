@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun118447: for(var _fun118447_ip = 0; ; ) switch(_fun118447_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.context;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.bind(zulu)(entity);
             entity = null;
             mike = entity != options;
-            if(!mike) { _fun118447_ip = 170; continue _fun118447 }
+            if(!mike) { _fun00002_ip = 170; continue _fun00001 }
  82:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;

@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/color_picker/HSVColorPicker.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HSVColorPicker
-        _fun93166: for(var _fun93166_ip = 0; ; ) switch(_fun93166_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.hue;
@@ -96,17 +96,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             romeo = null;
             output = offset;
-            if(!(romeo != yankee)) { _fun93166_ip = 166; continue _fun93166 }
+            if(!(romeo != yankee)) { _fun00002_ip = 166; continue _fun00001 }
  163:
             output = yankee;
  166:
             report['hue'] = output;
-            if(!(romeo != sizing)) { _fun93166_ip = 178; continue _fun93166 }
+            if(!(romeo != sizing)) { _fun00002_ip = 178; continue _fun00001 }
  175:
             kilo = sizing;
  178:
             report['saturation'] = kilo;
-            if(!(romeo != backup)) { _fun93166_ip = 190; continue _fun93166 }
+            if(!(romeo != backup)) { _fun00002_ip = 190; continue _fun00001 }
  187:
             foxtrot = backup;
  190:
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = foxtrot[oscar];
             golf = golf.bind(tango)(oscar);
             oscar = {};
-            if(!(romeo != yankee)) { _fun93166_ip = 246; continue _fun93166 }
+            if(!(romeo != yankee)) { _fun00002_ip = 246; continue _fun00001 }
  243:
             offset = yankee;
  246:

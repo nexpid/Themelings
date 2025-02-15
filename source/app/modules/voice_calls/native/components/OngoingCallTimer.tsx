@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_calls/native/components/OngoingCallTimer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun104148: for(var _fun104148_ip = 0; ; ) switch(_fun104148_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.style;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = verify;
             mike = function() {
-                _fun104149: for(var _fun104149_ip = 0; ; ) switch(_fun104149_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot3;
                     mike = zulu.getCall;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun104149_ip = 41; continue _fun104149 }
+                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
  36:
                     entity = mike.messageId;
  41:
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             mike = mike != golf;
             report = 0;
-            if(!mike) { _fun104148_ip = 125; continue _fun104148 }
+            if(!mike) { _fun00002_ip = 125; continue _fun00001 }
  94:
             zulu = _closure1_slot1;
             options = _closure1_slot2;

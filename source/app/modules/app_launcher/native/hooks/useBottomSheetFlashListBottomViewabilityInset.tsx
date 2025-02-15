@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(entity)(mike);
             zulu = tango.debounce;
             mike = function(argFoo) {
-                _fun118802: for(var _fun118802_ip = 0; ; ) switch(_fun118802_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure2_slot3;
                     mike = argFoo;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure2_slot1;
                     mike = entity.current;
                     entity = null;
-                    if(!(entity != mike)) { _fun118802_ip = 41; continue _fun118802 }
+                    if(!(entity != mike)) { _fun00002_ip = 41; continue _fun00001 }
  31:
                     entity = mike.updateViewableItems;
                     entity = entity.bind(mike)();
@@ -124,13 +124,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = _closure1_slot5;
         tango['__initData'] = options;
         entity = function(argFoo) { // Original name: u
-            _fun118804: for(var _fun118804_ip = 0; ; ) switch(_fun118804_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 mike = null;
                 mike = mike != entity;
                 zulu = 0;
-                if(!mike) { _fun118804_ip = 17; continue _fun118804 }
+                if(!mike) { _fun00004_ip = 17; continue _fun00003 }
  14:
                 zulu = entity;
  17:

@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/rtc/native/SecureFramesUserVerificationBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SecureFramesUserVerificationBottomSheet
-        _fun81551: for(var _fun81551_ip = 0; ; ) switch(_fun81551_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             kilo = mike.userId;
@@ -207,56 +207,56 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[6] = update;
             oscar[7] = zulu;
             zulu = function() {
-                _fun81554: for(var _fun81554_ip = 0; ; ) switch(_fun81554_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(!(entity != mike)) { _fun81554_ip = 20; continue _fun81554 }
+                    if(!(entity != mike)) { _fun00004_ip = 20; continue _fun00003 }
  13:
                     entity = _closure2_slot9;
-                    if(entity) { _fun81554_ip = 38; continue _fun81554 }
+                    if(entity) { _fun00004_ip = 38; continue _fun00003 }
  20:
                     entity = _closure1_slot9;
                     entity = entity.CURRENT_USER_DISCONNECTED;
-                    _fun81554_ip = 175; continue _fun81554;
+                    _fun00004_ip = 175; continue _fun00003;
  38:
                     mike = _closure2_slot10;
-                    if(mike) { _fun81554_ip = 60; continue _fun81554 }
+                    if(mike) { _fun00004_ip = 60; continue _fun00003 }
  45:
                     mike = _closure1_slot9;
                     mike = mike.OTHER_USER_DISCONNECTED;
-                    _fun81554_ip = 172; continue _fun81554;
+                    _fun00004_ip = 172; continue _fun00003;
  60:
                     zulu = _closure2_slot6;
-                    if(zulu) { _fun81554_ip = 82; continue _fun81554 }
+                    if(zulu) { _fun00004_ip = 82; continue _fun00003 }
  67:
                     zulu = _closure1_slot9;
                     zulu = zulu.UNABLE_TO_VERIFY;
-                    _fun81554_ip = 169; continue _fun81554;
+                    _fun00004_ip = 169; continue _fun00003;
  82:
                     report = _closure2_slot7;
-                    if(report) { _fun81554_ip = 153; continue _fun81554 }
+                    if(report) { _fun00004_ip = 153; continue _fun00003 }
  89:
                     report = _closure2_slot11;
-                    if(report) { _fun81554_ip = 138; continue _fun81554 }
+                    if(report) { _fun00004_ip = 138; continue _fun00003 }
  96:
                     report = _closure2_slot2;
                     tango = _closure2_slot5;
-                    if(!(report === tango)) { _fun81554_ip = 123; continue _fun81554 }
+                    if(!(report === tango)) { _fun00004_ip = 123; continue _fun00003 }
  108:
                     tango = _closure1_slot9;
                     tango = tango.MATCH;
-                    _fun81554_ip = 136; continue _fun81554;
+                    _fun00004_ip = 136; continue _fun00003;
  123:
                     report = _closure1_slot9;
                     tango = report.FINGERPRINT_MISMATCH;
  136:
-                    _fun81554_ip = 151; continue _fun81554;
+                    _fun00004_ip = 151; continue _fun00003;
  138:
                     report = _closure1_slot9;
                     tango = report.OTHER_USER_INCONSISTENT_KEYS;
  151:
-                    _fun81554_ip = 166; continue _fun81554;
+                    _fun00004_ip = 166; continue _fun00003;
  153:
                     report = _closure1_slot9;
                     tango = report.OTHER_USER_ALREADY_VERIFIED;
@@ -340,16 +340,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = source;
             zulu[2] = kilo;
             mike = function() {
-                _fun81558: for(var _fun81558_ip = 0; ; ) switch(_fun81558_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot12;
                     entity = _closure1_slot9;
                     entity = entity.OTHER_USER_ALREADY_VERIFIED;
-                    if(!(entity !== mike)) { _fun81558_ip = 109; continue _fun81558 }
+                    if(!(entity !== mike)) { _fun00006_ip = 109; continue _fun00005 }
  24:
                     entity = _closure1_slot9;
                     entity = entity.MATCH;
-                    if(!(entity !== mike)) { _fun81558_ip = 109; continue _fun81558 }
+                    if(!(entity !== mike)) { _fun00006_ip = 109; continue _fun00005 }
  38:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -381,16 +381,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = romeo.icon;
             zulu[1] = mike;
             mike = function() {
-                _fun81559: for(var _fun81559_ip = 0; ; ) switch(_fun81559_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure2_slot12;
                     entity = _closure1_slot9;
                     entity = entity.OTHER_USER_ALREADY_VERIFIED;
-                    if(!(entity !== mike)) { _fun81559_ip = 124; continue _fun81559 }
+                    if(!(entity !== mike)) { _fun00008_ip = 124; continue _fun00007 }
  24:
                     entity = _closure1_slot9;
                     entity = entity.MATCH;
-                    if(!(entity !== mike)) { _fun81559_ip = 124; continue _fun81559 }
+                    if(!(entity !== mike)) { _fun00008_ip = 124; continue _fun00007 }
  38:
                     tango = _closure1_slot13;
                     mike = _closure1_slot0;
@@ -460,17 +460,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = oscar;
             mike[4] = kilo;
             entity = function() {
-                _fun81561: for(var _fun81561_ip = 0; ; ) switch(_fun81561_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = _closure2_slot1;
                     zulu = null;
                     entity = zulu != entity;
-                    if(!entity) { _fun81561_ip = 24; continue _fun81561 }
+                    if(!entity) { _fun00010_ip = 24; continue _fun00009 }
  16:
                     mike = _closure2_slot4;
                     entity = zulu != mike;
  24:
-                    if(!entity) { _fun81561_ip = 249; continue _fun81561 }
+                    if(!entity) { _fun00010_ip = 249; continue _fun00009 }
  30:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -561,11 +561,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             vacuum = romeo.iconContainer;
             options['style'] = vacuum;
-            if(result) { _fun81551_ip = 863; continue _fun81551 }
+            if(result) { _fun00002_ip = 863; continue _fun00001 }
  856:
-            if(echo) { _fun81551_ip = 863; continue _fun81551 }
+            if(echo) { _fun00002_ip = 863; continue _fun00001 }
  859:
-            if(!(offset == sizing)) { _fun81551_ip = 879; continue _fun81551 }
+            if(!(offset == sizing)) { _fun00002_ip = 879; continue _fun00001 }
  863:
             echo = _closure1_slot13;
             sizing = _closure1_slot5;
@@ -635,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.0tvNAg;
             echo = control.bind(vacuum)(echo);
             romeo['text'] = echo;
-            if(result) { _fun81551_ip = 1193; continue _fun81551 }
+            if(result) { _fun00002_ip = 1193; continue _fun00001 }
  1179:
             echo = _closure1_slot9;
             echo = echo.MATCH;

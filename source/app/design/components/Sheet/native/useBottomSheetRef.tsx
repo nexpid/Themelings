@@ -33,12 +33,12 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = zulu;
         entity = function() {
-            _fun63966: for(var _fun63966_ip = 0; ; ) switch(_fun63966_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 mike = entity.current;
                 entity = null;
-                if(!(entity != mike)) { _fun63966_ip = 28; continue _fun63966 }
+                if(!(entity != mike)) { _fun00002_ip = 28; continue _fun00001 }
  18:
                 entity = mike.closeActionSheet;
                 entity = entity.bind(mike)();

@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: NonUserBotProfileContent
-        _fun77254: for(var _fun77254_ip = 0; ; ) switch(_fun77254_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             control = entity.user;
@@ -82,13 +82,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity == echo;
             zulu = undefined;
-            if(mike) { _fun77254_ip = 130; continue _fun77254 }
+            if(mike) { _fun00002_ip = 130; continue _fun00001 }
  125:
             zulu = echo.guild_id;
  130:
             golf = entity == echo;
             mike = undefined;
-            if(golf) { _fun77254_ip = 144; continue _fun77254 }
+            if(golf) { _fun00002_ip = 144; continue _fun00001 }
  139:
             mike = echo.id;
  144:
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.gradientFallbackBackground;
             romeo = mike.avatarBackground;
             update = mike.containerBackground;
-            if(!(entity != control)) { _fun77254_ip = 912; continue _fun77254 }
+            if(!(entity != control)) { _fun00002_ip = 912; continue _fun00001 }
  343:
             context = function() { // Original name: handleCopyUsername
                 tango = _closure2_slot0;
@@ -185,13 +185,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['user'] = control;
             sequence = entity == source;
             config = undefined;
-            if(sequence) { _fun77254_ip = 461; continue _fun77254 }
+            if(sequence) { _fun00002_ip = 461; continue _fun00001 }
  456:
             config = source.guildId;
  461:
             papa = entity != config;
             sequence = undefined;
-            if(!papa) { _fun77254_ip = 473; continue _fun77254 }
+            if(!papa) { _fun00002_ip = 473; continue _fun00001 }
  470:
             sequence = config;
  473:
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['user'] = control;
             target = entity == echo;
             papa = undefined;
-            if(target) { _fun77254_ip = 642; continue _fun77254 }
+            if(target) { _fun00002_ip = 642; continue _fun00001 }
  637:
             papa = echo.guild_id;
  642:
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing['displayName'] = vacuum;
             papa = entity == source;
             vacuum = undefined;
-            if(papa) { _fun77254_ip = 665; continue _fun77254 }
+            if(papa) { _fun00002_ip = 665; continue _fun00001 }
  659:
             vacuum = source.pronouns;
  665:

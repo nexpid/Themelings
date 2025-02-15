@@ -1,6 +1,6 @@
 // app/modules/messages/native/emoji/MessageEmojiActionSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun84627: for(var _fun84627_ip = 0; ; ) switch(_fun84627_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = foxtrot.isAndroid;
         foxtrot = yankee.bind(foxtrot)();
         yankee = 0;
-        if(!foxtrot) { _fun84627_ip = 194; continue _fun84627 }
+        if(!foxtrot) { _fun00002_ip = 194; continue _fun00001 }
  191:
         yankee = romeo;
  194:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         var _closure1_slot7 = tango;
         tango = function(argFoo) { // Original name: MessageCustomEmojiActionSheet
-            _fun84630: for(var _fun84630_ip = 0; ; ) switch(_fun84630_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 kilo = entity.emojiNode;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = entity.hasJoinedEmojiSourceGuild;
                 yankee = entity.emoji;
                 entity = entity.isFetching;
-                if(entity) { _fun84630_ip = 287; continue _fun84630 }
+                if(entity) { _fun00004_ip = 287; continue _fun00003 }
  113:
                 mike = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -215,21 +215,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/messages/native/emoji/MessageEmojiActionSheet.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: _default
-            _fun84632: for(var _fun84632_ip = 0; ; ) switch(_fun84632_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 mike = entity.emojiNode;
                 entity = 'surrogate';
                 entity = entity in mike;
                 report = _closure1_slot5;
-                if(entity) { _fun84632_ip = 48; continue _fun84632 }
+                if(entity) { _fun00006_ip = 48; continue _fun00005 }
  27:
                 oscar = _closure1_slot8;
                 tango = {};
                 tango['emojiNode'] = mike;
                 entity = undefined;
                 entity = report.bind(entity)(oscar, tango);
-                _fun84632_ip = 67; continue _fun84632;
+                _fun00006_ip = 67; continue _fun00005;
  48:
                 tango = _closure1_slot7;
                 zulu = {};

@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[2] = result;
         mike[3] = vacuum;
         entity = function() {
-            _fun95434: for(var _fun95434_ip = 0; ; ) switch(_fun95434_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot8;
                 zulu = _closure1_slot7;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = {};
                 verify = _closure2_slot2;
                 verify = !verify;
-                if(verify) { _fun95434_ip = 58; continue _fun95434 }
+                if(verify) { _fun00002_ip = 58; continue _fun00001 }
  54:
                 verify = _closure2_slot5;
  58:

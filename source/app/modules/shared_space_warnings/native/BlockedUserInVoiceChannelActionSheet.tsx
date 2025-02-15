@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/shared_space_warnings/native/BlockedUserInVoiceChannelActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BlockedUserInVoiceChannelActionSheet
-        _fun107112: for(var _fun107112_ip = 0; ; ) switch(_fun107112_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
             backup = romeo.centerText;
             offset['style'] = backup;
-            if(sizing) { _fun107112_ip = 599; continue _fun107112 }
+            if(sizing) { _fun00002_ip = 599; continue _fun00001 }
  458:
             output = _closure1_slot13;
             kilo = _closure1_slot12;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source[2] = control;
             backup['children'] = source;
             backup = output.bind(tango)(kilo, backup);
-            _fun107112_ip = 654; continue _fun107112;
+            _fun00002_ip = 654; continue _fun00001;
  599:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -406,10 +406,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.bind(tango)(foxtrot);
             kilo = foxtrot.TableRow;
             foxtrot = {};
-            if(!sizing) { _fun107112_ip = 799; continue _fun107112 }
+            if(!sizing) { _fun00002_ip = 799; continue _fun00001 }
  793:
             sequence = null;
-            if(!(sequence == record)) { _fun107112_ip = 839; continue _fun107112 }
+            if(!(sequence == record)) { _fun00002_ip = 839; continue _fun00001 }
  799:
             control = _closure1_slot14;
             source = _closure1_slot0;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = result.UserIcon;
             result = {};
             result = control.bind(tango)(source, result);
-            _fun107112_ip = 922; continue _fun107112;
+            _fun00002_ip = 922; continue _fun00001;
  839:
             vacuum = _closure1_slot14;
             control = _closure1_slot1;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source['user'] = record;
             context = sequence == config;
             sequence = undefined;
-            if(context) { _fun107112_ip = 912; continue _fun107112 }
+            if(context) { _fun00002_ip = 912; continue _fun00001 }
  907:
             sequence = config.guild_id;
  912:
@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = null;
             context = config == record;
             config = undefined;
-            if(context) { _fun107112_ip = 994; continue _fun107112 }
+            if(context) { _fun00002_ip = 994; continue _fun00001 }
  989:
             config = record.username;
  994:
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = 'lg';
             romeo['size'] = control;
             control = function() { // Original name: onPress
-                _fun107118: for(var _fun107118_ip = 0; ; ) switch(_fun107118_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -541,10 +541,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot0;
                     mike['channel_id'] = options;
                     options = _closure2_slot2;
-                    if(options) { _fun107118_ip = 124; continue _fun107118 }
+                    if(options) { _fun00004_ip = 124; continue _fun00003 }
  118:
                     options = new Array(0);
-                    _fun107118_ip = 139; continue _fun107118;
+                    _fun00004_ip = 139; continue _fun00003;
  124:
                     offset = _closure2_slot1;
                     verify = new Array(1);
@@ -553,12 +553,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  139:
                     mike['blocked_user_ids'] = options;
                     options = _closure2_slot2;
-                    if(options) { _fun107118_ip = 165; continue _fun107118 }
+                    if(options) { _fun00004_ip = 165; continue _fun00003 }
  151:
                     options = _closure2_slot1;
                     golf = new Array(1);
                     golf[0] = options;
-                    _fun107118_ip = 169; continue _fun107118;
+                    _fun00004_ip = 169; continue _fun00003;
  165:
                     golf = new Array(0);
  169:
@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = foxtrot.Button;
             foxtrot = {'size': 'lg', 'variant': 'secondary'};
             update = function() { // Original name: onPress
-                _fun107119: for(var _fun107119_ip = 0; ; ) switch(_fun107119_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -614,10 +614,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['action'] = verify;
                     mike['channel_id'] = options;
                     options = _closure2_slot2;
-                    if(options) { _fun107119_ip = 111; continue _fun107119 }
+                    if(options) { _fun00006_ip = 111; continue _fun00005 }
  105:
                     options = new Array(0);
-                    _fun107119_ip = 126; continue _fun107119;
+                    _fun00006_ip = 126; continue _fun00005;
  111:
                     offset = _closure2_slot1;
                     verify = new Array(1);
@@ -626,12 +626,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  126:
                     mike['blocked_user_ids'] = options;
                     options = _closure2_slot2;
-                    if(options) { _fun107119_ip = 152; continue _fun107119 }
+                    if(options) { _fun00006_ip = 152; continue _fun00005 }
  138:
                     options = _closure2_slot1;
                     golf = new Array(1);
                     golf[0] = options;
-                    _fun107119_ip = 156; continue _fun107119;
+                    _fun00006_ip = 156; continue _fun00005;
  152:
                     golf = new Array(0);
  156:
@@ -653,10 +653,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo[source];
             echo = update.bind(tango)(echo);
             echo = echo.t;
-            if(sizing) { _fun107112_ip = 1367; continue _fun107112 }
+            if(sizing) { _fun00002_ip = 1367; continue _fun00001 }
  1359:
             sizing = echo.Z+/hfX;
-            _fun107112_ip = 1373; continue _fun107112;
+            _fun00002_ip = 1373; continue _fun00001;
  1367:
             sizing = echo.bCcJSU;
  1373:

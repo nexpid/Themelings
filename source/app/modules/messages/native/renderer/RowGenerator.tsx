@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'generate';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun69013: for(var _fun69013_ip = 0; ; ) switch(_fun69013_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 tango = this;
@@ -94,46 +94,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = tango.options;
                 zulu = entity.forcedTheme;
                 entity = null;
-                if(!(entity == zulu)) { _fun69013_ip = 42; continue _fun69013 }
+                if(!(entity == zulu)) { _fun00002_ip = 42; continue _fun00001 }
  29:
                 entity = _closure1_slot5;
                 zulu = entity.theme;
  42:
                 mike = _closure1_slot6;
                 mike = mike.BLOCKED_GROUP;
-                if(!(mike !== options)) { _fun69013_ip = 377; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 377; continue _fun00001 }
  62:
                 mike = _closure1_slot6;
                 mike = mike.IGNORED_GROUP;
-                if(!(mike !== options)) { _fun69013_ip = 377; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 377; continue _fun00001 }
  79:
                 mike = _closure1_slot6;
                 mike = mike.MESSAGE;
-                if(!(mike !== options)) { _fun69013_ip = 335; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 335; continue _fun00001 }
  96:
                 mike = _closure1_slot6;
                 mike = mike.UPLOAD_PROGRESS;
-                if(!(mike !== options)) { _fun69013_ip = 293; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 293; continue _fun00001 }
  113:
                 mike = _closure1_slot7;
                 mike = mike.DAY;
-                if(!(mike !== options)) { _fun69013_ip = 257; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 257; continue _fun00001 }
  130:
                 mike = _closure1_slot7;
                 mike = mike.UNREAD;
-                if(!(mike !== options)) { _fun69013_ip = 257; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 257; continue _fun00001 }
  144:
                 mike = _closure1_slot7;
                 mike = mike.SUMMARY;
-                if(!(mike !== options)) { _fun69013_ip = 257; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 257; continue _fun00001 }
  158:
                 mike = _closure1_slot8;
                 mike = mike.LOAD_BEFORE;
-                if(!(mike !== options)) { _fun69013_ip = 221; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 221; continue _fun00001 }
  172:
                 mike = _closure1_slot8;
                 mike = mike.LOAD_AFTER;
-                if(!(mike !== options)) { _fun69013_ip = 221; continue _fun69013 }
+                if(!(mike !== options)) { _fun00002_ip = 221; continue _fun00001 }
  186:
                 golf = _closure1_slot0;
                 oscar = _closure1_slot2;

@@ -1,6 +1,6 @@
 // app/modules/icons/native/Share.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun70180: for(var _fun70180_ip = 0; ; ) switch(_fun70180_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -20,12 +20,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         tango = report.bind(entity)(mike);
         mike = tango.isIOS;
         mike = mike.bind(tango)();
-        if(mike) { _fun70180_ip = 84; continue _fun70180 }
+        if(mike) { _fun00002_ip = 84; continue _fun00001 }
  70:
         mike = 2;
         mike = oscar[mike];
         mike = golf.bind(entity)(mike);
-        _fun70180_ip = 96; continue _fun70180;
+        _fun00002_ip = 96; continue _fun00001;
  84:
         tango = 1;
         tango = oscar[tango];

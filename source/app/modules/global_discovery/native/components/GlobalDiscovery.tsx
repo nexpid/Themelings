@@ -8,16 +8,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getGlobalDiscoveryTabComponent
-        _fun117947: for(var _fun117947_ip = 0; ; ) switch(_fun117947_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot8;
             mike = mike.SERVERS;
-            if(!(mike !== report)) { _fun117947_ip = 122; continue _fun117947 }
+            if(!(mike !== report)) { _fun00002_ip = 122; continue _fun00001 }
  20:
             mike = _closure1_slot8;
             mike = mike.QUESTS;
-            if(!(mike !== report)) { _fun117947_ip = 86; continue _fun117947 }
+            if(!(mike !== report)) { _fun00002_ip = 86; continue _fun00001 }
  34:
             mike = global;
             tango = mike.Error;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = _closure1_slot3;
         zulu = report.useCallback;
         mike = function(argFoo) {
-            _fun117953: for(var _fun117953_ip = 0; ; ) switch(_fun117953_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure1_slot7;
                 mike = argFoo;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = report.getField;
                 mike = 'selectedTab';
                 mike = zulu.bind(report)(mike);
-                if(!(tango !== mike)) { _fun117953_ip = 59; continue _fun117953 }
+                if(!(tango !== mike)) { _fun00004_ip = 59; continue _fun00003 }
  37:
                 zulu = _closure1_slot6;
                 mike = zulu.setState;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.debounce;
     golf = function(argFoo) {
-        _fun117954: for(var _fun117954_ip = 0; ; ) switch(_fun117954_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             oscar = _closure1_slot0;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(golf)(mike);
             mike = _closure1_slot8;
             mike = mike.SERVERS;
-            if(!(zulu === mike)) { _fun117954_ip = 99; continue _fun117954 }
+            if(!(zulu === mike)) { _fun00006_ip = 99; continue _fun00005 }
  60:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;

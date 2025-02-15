@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useFetchCollectiblesAndProfileEffects
-        _fun91743: for(var _fun91743_ip = 0; ; ) switch(_fun91743_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -98,17 +98,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             entity = yankee.bind(romeo)(offset, entity);
             entity = {};
-            if(golf) { _fun91743_ip = 182; continue _fun91743 }
+            if(golf) { _fun00002_ip = 182; continue _fun00001 }
  179:
             golf = verify;
  182:
             entity['isFetching'] = golf;
             golf = null;
-            if(!(golf != options)) { _fun91743_ip = 196; continue _fun91743 }
+            if(!(golf != options)) { _fun00002_ip = 196; continue _fun00001 }
  193:
             oscar = options;
  196:
-            if(!(golf != oscar)) { _fun91743_ip = 203; continue _fun91743 }
+            if(!(golf != oscar)) { _fun00002_ip = 203; continue _fun00001 }
  200:
             report = oscar;
  203:

@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: FamilyCenterMaxConnectionsBlurb
-        _fun95405: for(var _fun95405_ip = 0; ; ) switch(_fun95405_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot9;
             report = undefined;
@@ -25,10 +25,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = tango[entity];
             entity = zulu.bind(report)(entity);
             entity = entity.bind(report)();
-            if(entity) { _fun95405_ip = 72; continue _fun95405 }
+            if(entity) { _fun00002_ip = 72; continue _fun00001 }
  66:
             romeo = _closure1_slot5;
-            _fun95405_ip = 76; continue _fun95405;
+            _fun00002_ip = 76; continue _fun00001;
  72:
             romeo = _closure1_slot4;
  76:
@@ -63,7 +63,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = offset.bind(yankee)(verify, entity);
             verify = tango.bind(options)(zulu, entity);
             entity = null;
-            if(!mike) { _fun95405_ip = 302; continue _fun95405 }
+            if(!mike) { _fun00002_ip = 302; continue _fun00001 }
  220:
             tango = _closure1_slot7;
             zulu = _closure1_slot3;
@@ -176,7 +176,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     var _closure1_slot10 = golf;
     golf = function() { // Original name: FamilyCenterHelpLineInfo
-        _fun95406: for(var _fun95406_ip = 0; ; ) switch(_fun95406_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot10;
             report = undefined;
@@ -254,7 +254,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             };
             offset = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity !== offset)) { _fun95406_ip = 375; continue _fun95406 }
+            if(!(entity !== offset)) { _fun00004_ip = 375; continue _fun00003 }
  180:
             tango = _closure1_slot8;
             zulu = _closure1_slot3;

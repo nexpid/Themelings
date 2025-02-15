@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/launchpad/native/LaunchPadContainer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: LaunchPadContainer
-        _fun120820: for(var _fun120820_ip = 0; ; ) switch(_fun120820_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.children;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot5;
             foxtrot = yankee.DISABLED;
             yankee = undefined;
-            if(!(update !== foxtrot)) { _fun120820_ip = 512; continue _fun120820 }
+            if(!(update !== foxtrot)) { _fun00002_ip = 512; continue _fun00001 }
  450:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot1;

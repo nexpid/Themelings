@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/HeaderAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HeaderAvatar
-        _fun63983: for(var _fun63983_ip = 0; ; ) switch(_fun63983_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             result = mike.user;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = mike.accessibilityLabel;
             entity = mike.size;
             report = undefined;
-            if(!(entity === report)) { _fun63983_ip = 112; continue _fun63983 }
+            if(!(entity === report)) { _fun00002_ip = 112; continue _fun00001 }
  77:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.XXLARGE;
  112:
             offset = mike.animate;
-            if(!(offset === report)) { _fun63983_ip = 124; continue _fun63983 }
+            if(!(offset === report)) { _fun00002_ip = 124; continue _fun00001 }
  122:
             offset = true;
  124:
@@ -167,12 +167,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = new Array(1);
             echo[0] = tango;
             tango = function() {
-                _fun63987: for(var _fun63987_ip = 0; ; ) switch(_fun63987_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun63987_ip = 43; continue _fun63987 }
+                    if(!zulu) { _fun00004_ip = 43; continue _fun00003 }
  16:
                     report = _closure1_slot4;
                     tango = report.getMember;
@@ -188,23 +188,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 10;
             tango = source[tango];
             tango = echo.bind(report)(tango);
-            if(!(report === oscar)) { _fun63983_ip = 379; continue _fun63983 }
+            if(!(report === oscar)) { _fun00002_ip = 379; continue _fun00001 }
  329:
             echo = null;
             control = echo == update;
             source = undefined;
-            if(control) { _fun63983_ip = 346; continue _fun63983 }
+            if(control) { _fun00002_ip = 346; continue _fun00001 }
  340:
             source = update.avatarDecoration;
  346:
-            if(!(echo == source)) { _fun63983_ip = 358; continue _fun63983 }
+            if(!(echo == source)) { _fun00002_ip = 358; continue _fun00001 }
  350:
             result = result.avatarDecoration;
-            _fun63983_ip = 376; continue _fun63983;
+            _fun00002_ip = 376; continue _fun00001;
  358:
             source = echo == update;
             echo = undefined;
-            if(source) { _fun63983_ip = 373; continue _fun63983 }
+            if(source) { _fun00002_ip = 373; continue _fun00001 }
  367:
             echo = update.avatarDecoration;
  373:
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['size'] = entity;
             entity = null;
             kilo = null;
-            if(output) { _fun63983_ip = 405; continue _fun63983 }
+            if(output) { _fun00002_ip = 405; continue _fun00001 }
  402:
             kilo = sizing;
  405:
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(report)(romeo);
             romeo = romeo.bind(report)(foxtrot);
             tango['streaming'] = romeo;
-            if(!offset) { _fun63983_ip = 468; continue _fun63983 }
+            if(!offset) { _fun00002_ip = 468; continue _fun00001 }
  465:
             offset = !yankee;
  468:
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['avatarDecoration'] = oscar;
             _closure2_slot5 = tango;
             oscar = function(argFoo) { // Original name: renderAvatar
-                _fun63988: for(var _fun63988_ip = 0; ; ) switch(_fun63988_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     golf = argFoo;
                     tango = _closure1_slot7;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = undefined;
                     mike = mike.bind(zulu)(entity);
                     entity = _closure2_slot2;
-                    if(!(zulu === entity)) { _fun63988_ip = 78; continue _fun63988 }
+                    if(!(zulu === entity)) { _fun00006_ip = 78; continue _fun00005 }
  43:
                     entity = {};
                     report = _closure2_slot0;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sizing = _closure2_slot5;
                     output = entity;
                     report = copyDataProperties(output, sizing);
-                    _fun63988_ip = 151; continue _fun63988;
+                    _fun00006_ip = 151; continue _fun00005;
  78:
                     report = {};
                     verify = _closure1_slot0;
@@ -291,10 +291,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 }
             };
-            if(!(entity == options)) { _fun63983_ip = 498; continue _fun63983 }
+            if(!(entity == options)) { _fun00002_ip = 498; continue _fun00001 }
  491:
             entity = oscar.bind(report)(verify);
-            _fun63983_ip = 569; continue _fun63983;
+            _fun00002_ip = 569; continue _fun00001;
  498:
             tango = _closure1_slot7;
             zulu = _closure1_slot0;

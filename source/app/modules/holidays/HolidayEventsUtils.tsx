@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = mike;
     var _closure1_slot1 = tango;
     oscar = function() { // Original name: isEligible
-        _fun123783: for(var _fun123783_ip = 0; ; ) switch(_fun123783_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot4;
             tango = undefined;
             entity = entity.bind(tango)();
-            if(!entity) { _fun123783_ip = 79; continue _fun123783 }
+            if(!entity) { _fun00002_ip = 79; continue _fun00001 }
  16:
             zulu = _closure1_slot0;
             report = _closure1_slot1;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot2 = oscar;
     report = function() { // Original name: useIsEligible
-        _fun123784: for(var _fun123784_ip = 0; ; ) switch(_fun123784_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.enabled;
             entity = _closure1_slot4;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun123784_ip = 82; continue _fun123784 }
+            if(!entity) { _fun00004_ip = 82; continue _fun00003 }
  79:
             entity = mike;
  82:
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = report;
     mike = function() { // Original name: isHolidayHappening
-        _fun123785: for(var _fun123785_ip = 0; ; ) switch(_fun123785_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = global;
             mike = entity.Date;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.startTimeMs;
             entity = zulu >= entity;
-            if(!entity) { _fun123785_ip = 81; continue _fun123785 }
+            if(!entity) { _fun00006_ip = 81; continue _fun00005 }
  54:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -118,14 +118,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['subscribe'] = golf;
     mike['isEligible'] = oscar;
     oscar = function() { // Original name: useHolidaySoundpack
-        _fun123787: for(var _fun123787_ip = 0; ; ) switch(_fun123787_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = _closure1_slot3;
             report = undefined;
             mike = entity.bind(report)();
             tango = null;
             entity = null;
-            if(!mike) { _fun123787_ip = 135; continue _fun123787 }
+            if(!mike) { _fun00008_ip = 135; continue _fun00007 }
  20:
             golf = _closure1_slot0;
             mike = _closure1_slot1;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = golf.bind(report)(mike);
             mike = mike.soundpack;
             entity = null;
-            if(!mike) { _fun123787_ip = 135; continue _fun123787 }
+            if(!mike) { _fun00008_ip = 135; continue _fun00007 }
  50:
             golf = _closure1_slot0;
             mike = _closure1_slot1;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.soundpackLabel;
             mike = tango != mike;
             entity = null;
-            if(!mike) { _fun123787_ip = 135; continue _fun123787 }
+            if(!mike) { _fun00008_ip = 135; continue _fun00007 }
  82:
             mike = {};
             tango = _closure1_slot0;
@@ -164,13 +164,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['useHolidaySoundpack'] = oscar;
     mike['useIsEligible'] = report;
     report = function() { // Original name: getAppSpinnerSources
-        _fun123788: for(var _fun123788_ip = 0; ; ) switch(_fun123788_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = _closure1_slot4;
             tango = undefined;
             zulu = entity.bind(tango)();
             entity = null;
-            if(!zulu) { _fun123788_ip = 43; continue _fun123788 }
+            if(!zulu) { _fun00010_ip = 43; continue _fun00009 }
  18:
             zulu = _closure1_slot0;
             report = _closure1_slot1;
@@ -184,14 +184,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['getAppSpinnerSources'] = report;
     report = function() { // Original name: getLoadingTips
-        _fun123789: for(var _fun123789_ip = 0; ; ) switch(_fun123789_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = _closure1_slot4;
             report = undefined;
             mike = entity.bind(report)();
             tango = null;
             entity = null;
-            if(!mike) { _fun123789_ip = 84; continue _fun123789 }
+            if(!mike) { _fun00012_ip = 84; continue _fun00011 }
  20:
             golf = _closure1_slot0;
             mike = _closure1_slot1;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.getLoadingTips;
             tango = tango == mike;
             mike = undefined;
-            if(tango) { _fun123789_ip = 81; continue _fun123789 }
+            if(tango) { _fun00012_ip = 81; continue _fun00011 }
  54:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -217,13 +217,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['getLoadingTips'] = report;
     entity = function() { // Original name: getHolidaySoundpack
-        _fun123790: for(var _fun123790_ip = 0; ; ) switch(_fun123790_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = _closure1_slot2;
             tango = undefined;
             zulu = entity.bind(tango)();
             entity = null;
-            if(!zulu) { _fun123790_ip = 71; continue _fun123790 }
+            if(!zulu) { _fun00014_ip = 71; continue _fun00013 }
  18:
             golf = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.bind(tango)(zulu);
             zulu = zulu.soundpack;
             entity = null;
-            if(!zulu) { _fun123790_ip = 71; continue _fun123790 }
+            if(!zulu) { _fun00014_ip = 71; continue _fun00013 }
  48:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

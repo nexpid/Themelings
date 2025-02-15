@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun97895: for(var _fun97895_ip = 0; ; ) switch(_fun97895_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun97895_ip = 224; continue _fun97895 }
+                    if(mike) { _fun00002_ip = 224; continue _fun00001 }
  10:
                     mike = _closure1_slot4;
                     tango = mike.NativePermissionManager;
@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun97895_ip = 221; continue _fun97895 }
+                    if(tango) { _fun00002_ip = 221; continue _fun00001 }
  46:
                     tango = _closure1_slot6;
                     tango = tango.UNDETERMINED;
-                    if(!(mike !== tango)) { _fun97895_ip = 174; continue _fun97895 }
+                    if(!(mike !== tango)) { _fun00002_ip = 174; continue _fun00001 }
  60:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = _closure1_slot6;
                     offset = verify.AUTHORIZED;
                     verify = 0;
-                    if(!(mike === offset)) { _fun97895_ip = 129; continue _fun97895 }
+                    if(!(mike === offset)) { _fun00002_ip = 129; continue _fun00001 }
  126:
                     verify = 1;
  129:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(oscar)(tango);
                     tango = report.openNotificationSettings;
                     tango = tango.bind(report)();
-                    _fun97895_ip = 216; continue _fun97895;
+                    _fun00002_ip = 216; continue _fun00001;
  174:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.bind(zulu)(tango);
                     tango = report.requestPermission;
                     zulu = function(argFoo) {
-                        _fun97896: for(var _fun97896_ip = 0; ; ) switch(_fun97896_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             zulu = argFoo;
                             report = _closure1_slot1;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             tango['action_location'] = options;
                             tango['permission_granted'] = zulu;
                             tango = oscar.bind(golf)(report, tango);
-                            if(zulu) { _fun97896_ip = 119; continue _fun97896 }
+                            if(zulu) { _fun00004_ip = 119; continue _fun00003 }
  89:
                             zulu = _closure1_slot1;
                             tango = _closure1_slot2;

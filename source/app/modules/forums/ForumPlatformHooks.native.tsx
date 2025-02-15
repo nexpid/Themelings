@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = options;
         zulu = function() {
-            _fun102108: for(var _fun102108_ip = 0; ; ) switch(_fun102108_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -48,11 +48,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = tango.getRootNavigationRef;
                 report = mike.bind(tango)();
                 mike = null;
-                if(!(mike != report)) { _fun102108_ip = 151; continue _fun102108 }
+                if(!(mike != report)) { _fun00002_ip = 151; continue _fun00001 }
  41:
                 tango = report.isReady;
                 tango = tango.bind(report)();
-                if(!tango) { _fun102108_ip = 151; continue _fun102108 }
+                if(!tango) { _fun00002_ip = 151; continue _fun00001 }
  54:
                 tango = report.getCurrentRoute;
                 report = tango.bind(report)();
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.coerceChannelRoute;
                 zulu = zulu.bind(tango)(report);
                 tango = mike != zulu;
-                if(!tango) { _fun102108_ip = 124; continue _fun102108 }
+                if(!tango) { _fun00002_ip = 124; continue _fun00001 }
  102:
                 zulu = zulu.params;
                 report = zulu.channelId;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  124:
                 zulu = _closure2_slot2;
                 zulu = zulu.current;
-                if(!(mike != zulu)) { _fun102108_ip = 151; continue _fun102108 }
+                if(!(mike != zulu)) { _fun00002_ip = 151; continue _fun00001 }
  140:
                 mike = zulu.handleReactNavigationFocus;
                 mike = mike.bind(zulu)(tango);
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot3 = oscar;
         tango = report.useEffect;
         zulu = function() {
-            _fun102109: for(var _fun102109_ip = 0; ; ) switch(_fun102109_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -97,11 +97,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu.bind(tango)();
                 var _closure3_slot0 = report;
                 zulu = null;
-                if(!(zulu != report)) { _fun102109_ip = 60; continue _fun102109 }
+                if(!(zulu != report)) { _fun00004_ip = 60; continue _fun00003 }
  47:
                 zulu = report.isReady;
                 zulu = zulu.bind(report)();
-                if(zulu) { _fun102109_ip = 62; continue _fun102109 }
+                if(zulu) { _fun00004_ip = 62; continue _fun00003 }
  60:
                 return mike;
  62:
@@ -153,12 +153,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure2_slot3;
             entity = entity.bind(mike)();
             entity = function() {
-                _fun102112: for(var _fun102112_ip = 0; ; ) switch(_fun102112_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
                     tango = mike.current;
                     mike = null;
-                    if(!(mike != tango)) { _fun102112_ip = 28; continue _fun102112 }
+                    if(!(mike != tango)) { _fun00006_ip = 28; continue _fun00005 }
  18:
                     zulu = tango.terminate;
                     zulu = zulu.bind(tango)();

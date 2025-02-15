@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setVoiceMessageAnimationState'] = tango;
     tango = function(argFoo) { // Original name: addVoiceMessageWave
-        _fun100263: for(var _fun100263_ip = 0; ; ) switch(_fun100263_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot5;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)();
             options = zulu.currWaveHeight;
             zulu = null;
-            if(!(zulu != options)) { _fun100263_ip = 120; continue _fun100263 }
+            if(!(zulu != options)) { _fun00002_ip = 120; continue _fun00001 }
  70:
             tango = options.set;
             offset = _closure1_slot0;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['hideVoiceMessagesTooltip'] = tango;
     tango = function() { // Original name: resetVoiceMessageState
-        _fun100269: for(var _fun100269_ip = 0; ; ) switch(_fun100269_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)();
             tango = zulu.currWaveHeight;
             zulu = null;
-            if(!(zulu != tango)) { _fun100269_ip = 113; continue _fun100269 }
+            if(!(zulu != tango)) { _fun00004_ip = 113; continue _fun00003 }
  71:
             zulu = tango.set;
             report = _closure1_slot0;

@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     tango = function(argFoo) { // Original name: DeprecatedLayoutAnimation
-        _fun65306: for(var _fun65306_ip = 0; ; ) switch(_fun65306_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.useReducedMotion;
-            if(mike) { _fun65306_ip = 50; continue _fun65306 }
+            if(mike) { _fun00002_ip = 50; continue _fun00001 }
  19:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -22,15 +22,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.isAndroid;
             mike = tango.bind(report)();
  50:
-            if(mike) { _fun65306_ip = 90; continue _fun65306 }
+            if(mike) { _fun00002_ip = 90; continue _fun00001 }
  53:
             mike = null;
-            if(!(mike == zulu)) { _fun65306_ip = 75; continue _fun65306 }
+            if(!(mike == zulu)) { _fun00002_ip = 75; continue _fun00001 }
  59:
             tango = _closure1_slot3;
             mike = tango.easeInEaseOut;
             mike = mike.bind(tango)();
-            _fun65306_ip = 90; continue _fun65306;
+            _fun00002_ip = 90; continue _fun00001;
  75:
             mike = _closure1_slot3;
             entity = mike.configureNext;
@@ -80,16 +80,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['CONFIG_GUILD_FOLDER_SCALEXY'] = report;
     zulu['DeprecatedLayoutAnimation'] = tango;
     mike = function(argFoo) { // Original name: DeprecatedLayoutAnimationKeyboard
-        _fun65307: for(var _fun65307_ip = 0; ; ) switch(_fun65307_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             mike = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun65307_ip = 14; continue _fun65307 }
+            if(!(mike === entity)) { _fun00004_ip = 14; continue _fun00003 }
  12:
             mike = false;
  14:
-            if(!mike) { _fun65307_ip = 75; continue _fun65307 }
+            if(!mike) { _fun00004_ip = 75; continue _fun00003 }
  17:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun65307_ip = 75; continue _fun65307 }
+            if(zulu) { _fun00004_ip = 75; continue _fun00003 }
  52:
             tango = _closure1_slot2;
             zulu = tango.scheduleLayoutAnimation;

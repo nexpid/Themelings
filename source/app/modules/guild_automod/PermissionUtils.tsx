@@ -31,16 +31,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = tango.Permissions;
     var _closure1_slot5 = tango;
     tango = function(argFoo) { // Original name: getHasAutomodAccess
-        _fun120119: for(var _fun120119_ip = 0; ; ) switch(_fun120119_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[1];
             report = arguments[2];
             entity = undefined;
-            if(!(zulu === entity)) { _fun120119_ip = 19; continue _fun120119 }
+            if(!(zulu === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             zulu = _closure1_slot2;
  19:
-            if(!(report === entity)) { _fun120119_ip = 30; continue _fun120119 }
+            if(!(report === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
             report = _closure1_slot3;
  30:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(zulu)(entity);
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun120119_ip = 77; continue _fun120119 }
+            if(!entity) { _fun00002_ip = 77; continue _fun00001 }
  52:
             zulu = report.can;
             mike = _closure1_slot5;
@@ -67,12 +67,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_automod/PermissionUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: canCurrentUserManageMessageFilters
-        _fun120120: for(var _fun120120_ip = 0; ; ) switch(_fun120120_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun120120_ip = 26; continue _fun120120 }
+            if(!entity) { _fun00004_ip = 26; continue _fun00003 }
  12:
             zulu = _closure1_slot6;
             mike = undefined;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun120125: for(var _fun120125_ip = 0; ; ) switch(_fun120125_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getGuild;
@@ -145,14 +145,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = null;
                 zulu = entity == tango;
                 entity = undefined;
-                if(zulu) { _fun120125_ip = 56; continue _fun120125 }
+                if(zulu) { _fun00006_ip = 56; continue _fun00005 }
  35:
                 zulu = tango.hasFeature;
                 mike = _closure1_slot4;
                 mike = mike.COMMUNITY;
                 entity = zulu.bind(tango)(mike);
  56:
-                if(entity) { _fun120125_ip = 61; continue _fun120125 }
+                if(entity) { _fun00006_ip = 61; continue _fun00005 }
  59:
                 entity = false;
  61:

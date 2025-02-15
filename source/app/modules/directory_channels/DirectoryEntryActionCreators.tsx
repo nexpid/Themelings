@@ -11,11 +11,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun76369: for(var _fun76369_ip = 0; ; ) switch(_fun76369_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun76369_ip = 119; continue _fun76369 }
+                    if(mike) { _fun00002_ip = 119; continue _fun00001 }
  7:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun76369_ip = 116; continue _fun76369 }
+                    if(zulu) { _fun00002_ip = 116; continue _fun00001 }
  108:
                     zulu = mike.body;
                     return zulu;

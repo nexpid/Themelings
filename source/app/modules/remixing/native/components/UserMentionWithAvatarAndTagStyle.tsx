@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun84210: for(var _fun84210_ip = 0; ; ) switch(_fun84210_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.id;
@@ -67,11 +67,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = entity;
             offset = config[mike](sequence, vacuum, control, source, update);
             mike = 30;
-            if(!(!(entity < mike))) { _fun84210_ip = 165; continue _fun84210 }
+            if(!(!(entity < mike))) { _fun00002_ip = 165; continue _fun00001 }
  156:
             mike = 10;
             echo = entity / mike;
-            _fun84210_ip = 175; continue _fun84210;
+            _fun00002_ip = 175; continue _fun00001;
  165:
             mike = -entity;
             entity = 10;

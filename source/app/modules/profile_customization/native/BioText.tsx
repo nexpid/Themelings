@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/BioText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BioText
-        _fun77733: for(var _fun77733_ip = 0; ; ) switch(_fun77733_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             options = zulu.placeholder;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.userId;
             output = zulu.textVariant;
             report = undefined;
-            if(!(output === report)) { _fun77733_ip = 54; continue _fun77733 }
+            if(!(output === report)) { _fun00002_ip = 54; continue _fun00001 }
  48:
             output = 'text-md/normal';
  54:
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.length;
             entity = 0;
             sizing = entity === zulu;
-            if(!sizing) { _fun77733_ip = 137; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 137; continue _fun00001 }
  109:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -179,13 +179,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango[entity];
             entity = zulu.bind(report)(entity);
             entity = entity.bind(report)(mike);
-            if(entity) { _fun77733_ip = 266; continue _fun77733 }
+            if(entity) { _fun00002_ip = 266; continue _fun00001 }
  165:
-            if(!sizing) { _fun77733_ip = 177; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 177; continue _fun00001 }
  168:
             entity = null;
             mike = entity == options;
-            if(mike) { _fun77733_ip = 261; continue _fun77733 }
+            if(mike) { _fun00002_ip = 261; continue _fun00001 }
  177:
             tango = _closure1_slot8;
             zulu = _closure1_slot0;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             mike['variant'] = output;
             verify = 'text-normal';
-            if(!sizing) { _fun77733_ip = 227; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 227; continue _fun00001 }
  221:
             verify = 'text-muted';
  227:
@@ -205,14 +205,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['lineClamp'] = romeo;
             verify = yankee.text;
             mike['style'] = verify;
-            if(!sizing) { _fun77733_ip = 251; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 251; continue _fun00001 }
  248:
             oscar = options;
  251:
             mike['children'] = oscar;
             entity = tango.bind(report)(zulu, mike);
  261:
-            _fun77733_ip = 591; continue _fun77733;
+            _fun00002_ip = 591; continue _fun00001;
  266:
             tango = _closure1_slot7;
             zulu = _closure1_slot9;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['variant'] = output;
             foxtrot = 'text-normal';
             oscar = foxtrot;
-            if(!sizing) { _fun77733_ip = 325; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 325; continue _fun00001 }
  319:
             oscar = 'text-muted';
  325:
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.Text;
             options = {};
             options['variant'] = output;
-            if(!sizing) { _fun77733_ip = 472; continue _fun77733 }
+            if(!sizing) { _fun00002_ip = 472; continue _fun00001 }
  466:
             foxtrot = 'text-muted';
  472:

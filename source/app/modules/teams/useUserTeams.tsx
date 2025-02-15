@@ -35,11 +35,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/teams/useUserTeams.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun126930: for(var _fun126930_ip = 0; ; ) switch(_fun126930_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             report = undefined;
-            if(!(mike === report)) { _fun126930_ip = 13; continue _fun126930 }
+            if(!(mike === report)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             mike = {};
  13:
@@ -74,11 +74,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun126933: for(var _fun126933_ip = 0; ; ) switch(_fun126933_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun126933_ip = 102; continue _fun126933 }
+                            if(mike) { _fun00004_ip = 102; continue _fun00003 }
  7:
                             tango = _closure2_slot2;
                             mike = undefined;
@@ -97,13 +97,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                             return tango;
  61:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                            if(report) { _fun126933_ip = 83; continue _fun126933 }
+                            if(report) { _fun00004_ip = 83; continue _fun00003 }
  67:
                             oscar = _closure2_slot1;
                             report = tango.body;
                             report = oscar.bind(mike)(report);
  81: // try_end0
-                            _fun126933_ip = 88; continue _fun126933;
+                            _fun00004_ip = 88; continue _fun00003;
  83:
                             return tango;
  86: // catch_target0
@@ -142,15 +142,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = options;
             entity = function() {
-                _fun126935: for(var _fun126935_ip = 0; ; ) switch(_fun126935_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot4;
                     mike = mike.current;
-                    if(mike) { _fun126935_ip = 19; continue _fun126935 }
+                    if(mike) { _fun00006_ip = 19; continue _fun00005 }
  15:
                     mike = _closure2_slot0;
  19:
-                    if(!mike) { _fun126935_ip = 44; continue _fun126935 }
+                    if(!mike) { _fun00006_ip = 44; continue _fun00005 }
  22:
                     zulu = _closure2_slot4;
                     mike = false;

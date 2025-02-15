@@ -46,11 +46,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun113528: for(var _fun113528_ip = 0; ; ) switch(_fun113528_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zulu)) { _fun113528_ip = 76; continue _fun113528 }
+                if(!(entity != zulu)) { _fun00002_ip = 76; continue _fun00001 }
  13:
                 report = _closure1_slot2;
                 tango = report.getGuild;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.bind(report)(mike);
                 tango = entity == report;
                 mike = undefined;
-                if(tango) { _fun113528_ip = 64; continue _fun113528 }
+                if(tango) { _fun00002_ip = 64; continue _fun00001 }
  43:
                 tango = report.hasFeature;
                 zulu = _closure1_slot3;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.bind(report)(zulu);
  64:
                 entity = entity != mike;
-                if(!entity) { _fun113528_ip = 74; continue _fun113528 }
+                if(!entity) { _fun00002_ip = 74; continue _fun00001 }
  71:
                 entity = mike;
  74:

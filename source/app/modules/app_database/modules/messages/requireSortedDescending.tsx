@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_database/modules/messages/requireSortedDescending.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: requireSortedDescending
-        _fun58462: for(var _fun58462_ip = 0; ; ) switch(_fun58462_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             tango = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = verify.length;
             zulu = 2;
             zulu = oscar <= zulu;
-            if(zulu) { _fun58462_ip = 105; continue _fun58462 }
+            if(zulu) { _fun00002_ip = 105; continue _fun00001 }
  42:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;

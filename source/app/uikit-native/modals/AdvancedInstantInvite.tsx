@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/modals/AdvancedInstantInvite.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AdvancedInstantInvite
-        _fun127520: for(var _fun127520_ip = 0; ; ) switch(_fun127520_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.channel;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             entity = verify != golf;
             equality = null;
-            if(!entity) { _fun127520_ip = 138; continue _fun127520 }
+            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  102:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  138:
             entity = verify != golf;
             output = ' ';
-            if(!entity) { _fun127520_ip = 195; continue _fun127520 }
+            if(!entity) { _fun00002_ip = 195; continue _fun00001 }
  149:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = golf.bind(tango)(kilo, yankee);
             options[1] = yankee;
             yankee = null;
-            if(romeo) { _fun127520_ip = 1017; continue _fun127520 }
+            if(romeo) { _fun00002_ip = 1017; continue _fun00001 }
  795:
             sizing = _closure1_slot7;
             kilo = _closure1_slot8;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1017:
             options[2] = yankee;
             verify = null;
-            if(!offset) { _fun127520_ip = 1306; continue _fun127520 }
+            if(!offset) { _fun00002_ip = 1306; continue _fun00001 }
  1029:
             romeo = _closure1_slot7;
             yankee = _closure1_slot8;

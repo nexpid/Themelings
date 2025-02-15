@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun105318: for(var _fun105318_ip = 0; ; ) switch(_fun105318_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot13;
             entity = entity.bind(zulu)();
-            if(entity) { _fun105318_ip = 51; continue _fun105318 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun105318_ip = 92; continue _fun105318;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun105318_ip = 71; continue _fun105318 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun105319: for(var _fun105319_ip = 0; ; ) switch(_fun105319_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun105319_ip = 76; continue _fun105319;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -150,14 +150,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'getAppliedGuildBoostsForGuild';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun105325: for(var _fun105325_ip = 0; ; ) switch(_fun105325_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = argFoo;
                 entity = _closure1_slot5;
                 tango = entity[zulu];
                 entity = null;
                 tango = entity != tango;
-                if(!tango) { _fun105325_ip = 37; continue _fun105325 }
+                if(!tango) { _fun00006_ip = 37; continue _fun00005 }
  23:
                 mike = _closure1_slot5;
                 mike = mike[zulu];
@@ -173,14 +173,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getLastFetchedAtForGuild';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun105326: for(var _fun105326_ip = 0; ; ) switch(_fun105326_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zulu = argFoo;
                 entity = _closure1_slot5;
                 tango = entity[zulu];
                 entity = null;
                 tango = entity != tango;
-                if(!tango) { _fun105326_ip = 37; continue _fun105326 }
+                if(!tango) { _fun00008_ip = 37; continue _fun00007 }
  23:
                 mike = _closure1_slot5;
                 mike = mike[zulu];

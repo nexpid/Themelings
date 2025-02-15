@@ -123,7 +123,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['TIERED_TENURE_BADGE_IMAGES'] = tango;
     mike = function() { // Original name: TieredTenureBadgePerkCard
-        _fun104914: for(var _fun104914_ip = 0; ; ) switch(_fun104914_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -168,28 +168,28 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = null;
             offset = entity == kilo;
             verify = undefined;
-            if(offset) { _fun104914_ip = 174; continue _fun104914 }
+            if(offset) { _fun00002_ip = 174; continue _fun00001 }
  169:
             verify = kilo.id;
  174:
             tango[1] = verify;
             zulu = function() {
-                _fun104916: for(var _fun104916_ip = 0; ; ) switch(_fun104916_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
                     options = null;
-                    if(!(options != entity)) { _fun104916_ip = 227; continue _fun104916 }
+                    if(!(options != entity)) { _fun00004_ip = 227; continue _fun00003 }
  16:
                     entity = _closure2_slot0;
                     mike = options == entity;
                     golf = undefined;
                     entity = undefined;
-                    if(mike) { _fun104916_ip = 40; continue _fun104916 }
+                    if(mike) { _fun00004_ip = 40; continue _fun00003 }
  31:
                     mike = _closure2_slot0;
                     entity = mike.id;
  40:
-                    if(!(options != entity)) { _fun104916_ip = 117; continue _fun104916 }
+                    if(!(options != entity)) { _fun00004_ip = 117; continue _fun00003 }
  44:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     report = _closure2_slot0;
                     options = options == report;
                     report = undefined;
-                    if(options) { _fun104916_ip = 106; continue _fun104916 }
+                    if(options) { _fun00004_ip = 106; continue _fun00003 }
  97:
                     options = _closure2_slot0;
                     report = options.id;
@@ -242,13 +242,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 }
             };
             options = oscar.bind(options)(zulu, tango);
-            if(!(entity != kilo)) { _fun104914_ip = 1349; continue _fun104914 }
+            if(!(entity != kilo)) { _fun00002_ip = 1349; continue _fun00001 }
  198:
-            if(!mike) { _fun104914_ip = 1349; continue _fun104914 }
+            if(!mike) { _fun00002_ip = 1349; continue _fun00001 }
  204:
             zulu = kilo.badgeVersion;
             mike = 2;
-            if(!(mike === zulu)) { _fun104914_ip = 1349; continue _fun104914 }
+            if(!(mike === zulu)) { _fun00002_ip = 1349; continue _fun00001 }
  220:
             zulu = kilo.id;
             mike = _closure1_slot9;
@@ -260,7 +260,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.TieredTenureBadgeStatus;
             mike = mike.UPCOMING;
-            if(!(zulu !== mike)) { _fun104914_ip = 328; continue _fun104914 }
+            if(!(zulu !== mike)) { _fun00002_ip = 328; continue _fun00001 }
  271:
             oscar = _closure1_slot0;
             offset = _closure1_slot2;
@@ -274,7 +274,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.jyYgZ2;
             oscar = zulu.bind(tango)(mike);
-            _fun104914_ip = 383; continue _fun104914;
+            _fun00002_ip = 383; continue _fun00001;
  328:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -292,7 +292,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = entity != update;
             romeo = verify;
             echo = null;
-            if(!mike) { _fun104914_ip = 765; continue _fun104914 }
+            if(!mike) { _fun00002_ip = 765; continue _fun00001 }
  398:
             zulu = kilo.status;
             tango = _closure1_slot0;
@@ -301,7 +301,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             mike = mike.TieredTenureBadgeStatus;
             mike = mike.EARNED;
-            if(!(zulu !== mike)) { _fun104914_ip = 662; continue _fun104914 }
+            if(!(zulu !== mike)) { _fun00002_ip = 662; continue _fun00001 }
  439:
             offset = kilo.status;
             zulu = _closure1_slot0;
@@ -312,7 +312,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = mike.UPCOMING;
             zulu = verify;
             mike = null;
-            if(!(offset === tango)) { _fun104914_ip = 660; continue _fun104914 }
+            if(!(offset === tango)) { _fun00002_ip = 660; continue _fun00001 }
  485:
             source = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -354,7 +354,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = foxtrot[offset];
             zulu = yankee.bind(report)(offset);
  660:
-            _fun104914_ip = 759; continue _fun104914;
+            _fun00002_ip = 759; continue _fun00001;
  662:
             offset = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -429,7 +429,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = new Array(2);
             offset[0] = yankee;
             yankee = entity != echo;
-            if(!yankee) { _fun104914_ip = 1043; continue _fun104914 }
+            if(!yankee) { _fun00002_ip = 1043; continue _fun00001 }
  993:
             result = _closure1_slot7;
             sizing = _closure1_slot0;
@@ -495,7 +495,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot = foxtrot.TieredTenureBadgeStatus;
             foxtrot = foxtrot.UPCOMING;
             foxtrot = kilo === foxtrot;
-            if(!foxtrot) { _fun104914_ip = 1296; continue _fun104914 }
+            if(!foxtrot) { _fun00002_ip = 1296; continue _fun00001 }
  1290:
             foxtrot = backup.upcomingBadge;
  1296:

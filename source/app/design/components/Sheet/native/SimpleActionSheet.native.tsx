@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     mike = function(argFoo) { // Original name: SimpleActionSheet
-        _fun77353: for(var _fun77353_ip = 0; ; ) switch(_fun77353_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.hideActionSheet;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = {};
             romeo = null;
             golf = romeo != sizing;
-            if(!golf) { _fun77353_ip = 210; continue _fun77353 }
+            if(!golf) { _fun00002_ip = 210; continue _fun00001 }
  74:
             offset = _closure1_slot2;
             options = _closure1_slot0;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             foxtrot = sizing.onClose;
             foxtrot = romeo != foxtrot;
             romeo = null;
-            if(!foxtrot) { _fun77353_ip = 199; continue _fun77353 }
+            if(!foxtrot) { _fun00002_ip = 199; continue _fun00001 }
  151:
             kilo = _closure1_slot2;
             backup = _closure1_slot0;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = {};
             offset = yankee.map;
             verify = function(argFoo, argBar) {
-                _fun77354: for(var _fun77354_ip = 0; ; ) switch(_fun77354_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     oscar = mike.label;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     golf = offset.bind(tango)(verify, golf);
                     mike['icon'] = golf;
                     golf = 'default';
-                    if(!options) { _fun77354_ip = 130; continue _fun77354 }
+                    if(!options) { _fun00004_ip = 130; continue _fun00003 }
  126:
                     golf = 'danger';
  130:

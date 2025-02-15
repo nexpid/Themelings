@@ -101,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'onSpinnerStarted';
         entity['key'] = mike;
         mike = function() { // Original name: value
-            _fun75222: for(var _fun75222_ip = 0; ; ) switch(_fun75222_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = this;
                 zulu = mike.spinnerVisibleStart;
                 entity = null;
-                if(!(entity == zulu)) { _fun75222_ip = 55; continue _fun75222 }
+                if(!(entity == zulu)) { _fun00002_ip = 55; continue _fun00001 }
  15:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -129,14 +129,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'trackSpinnerDuration';
         entity['key'] = oscar;
         report = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun75223: for(var _fun75223_ip = 0; ; ) switch(_fun75223_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 offset = argFoo;
                 golf = argBaz;
                 entity = this;
                 mike = entity.spinnerVisibleStart;
                 zulu = null;
-                if(!(zulu != mike)) { _fun75223_ip = 569; continue _fun75223 }
+                if(!(zulu != mike)) { _fun00004_ip = 569; continue _fun00003 }
  24:
                 tango = _closure1_slot11;
                 mike = tango.get;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = zulu != tango;
                 mike = 0;
                 report = 0;
-                if(!options) { _fun75223_ip = 55; continue _fun75223 }
+                if(!options) { _fun00004_ip = 55; continue _fun00003 }
  52:
                 report = tango;
  55:
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = entity.spinnerVisibleStart;
                 options = golf - report;
                 entity['spinnerVisibleStart'] = zulu;
-                if(!(!(options < mike))) { _fun75223_ip = 506; continue _fun75223 }
+                if(!(!(options < mike))) { _fun00004_ip = 506; continue _fun00003 }
  131:
                 golf = entity.logger;
                 report = golf.info;
@@ -194,27 +194,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.bind(report)(yankee);
                 mike = zulu != report;
                 golf = null;
-                if(!mike) { _fun75223_ip = 338; continue _fun75223 }
+                if(!mike) { _fun00004_ip = 338; continue _fun00003 }
  262:
                 mike = report.isGuildVoice;
                 mike = mike.bind(report)();
                 golf = 'guild_voice';
-                if(mike) { _fun75223_ip = 338; continue _fun75223 }
+                if(mike) { _fun00004_ip = 338; continue _fun00003 }
  281:
                 mike = report.isGuildStageVoice;
                 mike = mike.bind(report)();
                 golf = 'is_stage_channel';
-                if(mike) { _fun75223_ip = 338; continue _fun75223 }
+                if(mike) { _fun00004_ip = 338; continue _fun00003 }
  300:
                 mike = report.isDM;
                 mike = mike.bind(report)();
                 golf = 'dm';
-                if(mike) { _fun75223_ip = 338; continue _fun75223 }
+                if(mike) { _fun00004_ip = 338; continue _fun00003 }
  317:
                 mike = report.isGroupDM;
                 mike = mike.bind(report)();
                 golf = null;
-                if(!mike) { _fun75223_ip = 338; continue _fun75223 }
+                if(!mike) { _fun00004_ip = 338; continue _fun00003 }
  332:
                 golf = 'group_dm';
  338:
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = oscar.bind(golf)();
                 mike['service_provider'] = oscar;
                 mike = tango.bind(report)(zulu, mike);
-                _fun75223_ip = 569; continue _fun75223;
+                _fun00004_ip = 569; continue _fun00003;
  506:
                 zulu = entity.logger;
                 mike = zulu.warn;

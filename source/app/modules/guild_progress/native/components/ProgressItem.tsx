@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_progress/native/components/ProgressItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ProgressItem
-        _fun93471: for(var _fun93471_ip = 0; ; ) switch(_fun93471_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.title;
@@ -92,17 +92,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = romeo;
             mike[3] = golf;
             entity = function() {
-                _fun93472: for(var _fun93472_ip = 0; ; ) switch(_fun93472_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun93472_ip = 24; continue _fun93472 }
+                    if(!mike) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     zulu = _closure2_slot2;
                     mike = tango != zulu;
  24:
-                    if(!mike) { _fun93472_ip = 104; continue _fun93472 }
+                    if(!mike) { _fun00004_ip = 104; continue _fun00003 }
  27:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = backup;
             backup = undefined;
-            if(!sizing) { _fun93471_ip = 209; continue _fun93471 }
+            if(!sizing) { _fun00002_ip = 209; continue _fun00001 }
  203:
             backup = kilo.formCTAFullWidth;
  209:
@@ -161,13 +161,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             offset = golf == verify;
             options = undefined;
-            if(offset) { _fun93471_ip = 255; continue _fun93471 }
+            if(offset) { _fun00002_ip = 255; continue _fun00001 }
  251:
             options = verify.bind(tango)();
  255:
             verify = golf != options;
             golf = null;
-            if(!verify) { _fun93471_ip = 267; continue _fun93471 }
+            if(!verify) { _fun00002_ip = 267; continue _fun00001 }
  264:
             golf = options;
  267:

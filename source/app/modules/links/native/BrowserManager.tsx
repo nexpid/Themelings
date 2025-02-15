@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     offset = golf.bind(entity)(oscar);
     verify = offset.create;
     oscar = function() {
-        _fun73653: for(var _fun73653_ip = 0; ; ) switch(_fun73653_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
             tango = _closure1_slot0;
@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(mike);
             mike = tango.isAndroid;
             mike = mike.bind(tango)();
-            if(mike) { _fun73653_ip = 51; continue _fun73653 }
+            if(mike) { _fun00002_ip = 51; continue _fun00001 }
  39:
             mike = _closure1_slot4;
             mike = mike.isChromeInstalled;
-            _fun73653_ip = 87; continue _fun73653;
+            _fun00002_ip = 87; continue _fun00001;
  51:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(mike);
             mike = tango.isAndroid;
             mike = mike.bind(tango)();
-            if(mike) { _fun73653_ip = 133; continue _fun73653 }
+            if(mike) { _fun00002_ip = 133; continue _fun00001 }
  121:
             mike = _closure1_slot4;
             mike = mike.selectedBrowser;
-            _fun73653_ip = 169; continue _fun73653;
+            _fun00002_ip = 169; continue _fun00001;
  133:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -131,12 +131,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useBrowserManagerSelectedBrowser'] = report;
     zulu['getBrowserManagerSelectedBrowser'] = tango;
     tango = function(argFoo) { // Original name: browserManagerOpenUrl
-        _fun73658: for(var _fun73658_ip = 0; ; ) switch(_fun73658_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             golf = arguments[1];
             tango = undefined;
-            if(!(golf === tango)) { _fun73658_ip = 23; continue _fun73658 }
+            if(!(golf === tango)) { _fun00004_ip = 23; continue _fun00003 }
  12:
             entity = _closure1_slot7;
             golf = entity.bind(tango)();
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(tango)(mike);
             mike = mike.WebBrowserType;
             mike = mike.SAFARI;
-            if(!(golf !== mike)) { _fun73658_ip = 400; continue _fun73658 }
+            if(!(golf !== mike)) { _fun00004_ip = 400; continue _fun00003 }
  65:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -156,11 +156,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(tango)(mike);
             mike = mike.WebBrowserType;
             mike = mike.CHROME;
-            if(!(golf === mike)) { _fun73658_ip = 112; continue _fun73658 }
+            if(!(golf === mike)) { _fun00004_ip = 112; continue _fun00003 }
  98:
             mike = _closure1_slot6;
             mike = mike.bind(tango)();
-            if(!mike) { _fun73658_ip = 400; continue _fun73658 }
+            if(!mike) { _fun00004_ip = 400; continue _fun00003 }
  112:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(tango)(mike);
             mike = mike.WebBrowserType;
             mike = mike.IN_APP;
-            if(!(golf !== mike)) { _fun73658_ip = 318; continue _fun73658 }
+            if(!(golf !== mike)) { _fun00004_ip = 318; continue _fun00003 }
  148:
             report = _closure1_slot0;
             mike = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(tango)(mike);
             mike = mike.WebBrowserType;
             mike = mike.CHROME;
-            if(!(golf !== mike)) { _fun73658_ip = 233; continue _fun73658 }
+            if(!(golf !== mike)) { _fun00004_ip = 233; continue _fun00003 }
  181:
             mike = global;
             oscar = mike.Error;
@@ -198,13 +198,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun73658_ip = 285; continue _fun73658 }
+            if(mike) { _fun00004_ip = 285; continue _fun00003 }
  265:
             oscar = _closure1_slot4;
             report = oscar.openInChromeURL;
             mike = true;
             mike = report.bind(oscar)(zulu, mike);
-            _fun73658_ip = 316; continue _fun73658;
+            _fun00004_ip = 316; continue _fun00003;
  285:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -223,12 +223,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(tango)(mike);
             mike = report.isAndroid;
             mike = mike.bind(report)();
-            if(mike) { _fun73658_ip = 367; continue _fun73658 }
+            if(mike) { _fun00004_ip = 367; continue _fun00003 }
  350:
             report = _closure1_slot4;
             mike = report.openInAppURL;
             mike = mike.bind(report)(zulu);
-            _fun73658_ip = 398; continue _fun73658;
+            _fun00004_ip = 398; continue _fun00003;
  367:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['browserManagerOpenUrl'] = tango;
     tango = function(argFoo) { // Original name: browserManagerSelectBrowser
-        _fun73659: for(var _fun73659_ip = 0; ; ) switch(_fun73659_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -267,13 +267,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun73659_ip = 66; continue _fun73659 }
+            if(zulu) { _fun00006_ip = 66; continue _fun00005 }
  40:
             zulu = _closure1_slot3;
             tango = zulu.BrowserManager;
             zulu = tango.selectBrowser;
             zulu = zulu.bind(tango)(report);
-            _fun73659_ip = 346; continue _fun73659;
+            _fun00006_ip = 346; continue _fun00005;
  66:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(entity)(zulu);
             zulu = zulu.WebBrowserType;
             zulu = zulu.SAFARI;
-            if(!(zulu !== report)) { _fun73659_ip = 290; continue _fun73659 }
+            if(!(zulu !== report)) { _fun00006_ip = 290; continue _fun00005 }
  105:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(entity)(zulu);
             zulu = zulu.WebBrowserType;
             zulu = zulu.IN_APP;
-            if(!(zulu !== report)) { _fun73659_ip = 232; continue _fun73659 }
+            if(!(zulu !== report)) { _fun00006_ip = 232; continue _fun00005 }
  138:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(entity)(zulu);
             zulu = zulu.WebBrowserType;
             zulu = zulu.CHROME;
-            if(!(zulu === report)) { _fun73659_ip = 346; continue _fun73659 }
+            if(!(zulu === report)) { _fun00006_ip = 346; continue _fun00005 }
  174:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.BrowserType;
             zulu = zulu.CHROME;
             zulu = tango.bind(oscar)(zulu);
-            _fun73659_ip = 346; continue _fun73659;
+            _fun00006_ip = 346; continue _fun00005;
  232:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.BrowserType;
             zulu = zulu.IN_APP;
             zulu = tango.bind(oscar)(zulu);
-            _fun73659_ip = 346; continue _fun73659;
+            _fun00006_ip = 346; continue _fun00005;
  290:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['browserManagerSelectBrowser'] = tango;
     mike = function() { // Original name: browserManagerCloseBrowser
-        _fun73660: for(var _fun73660_ip = 0; ; ) switch(_fun73660_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun73660_ip = 59; continue _fun73660 }
+            if(zulu) { _fun00008_ip = 59; continue _fun00007 }
  37:
             mike = _closure1_slot3;
             zulu = mike.BrowserManager;

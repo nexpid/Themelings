@@ -24,7 +24,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'utils/getDevicePixelRatio.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getDevicePixelRatio
-        _fun36629: for(var _fun36629_ip = 0; ; ) switch(_fun36629_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             entity = mike.get;
@@ -32,7 +32,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = null;
             zulu = entity != mike;
             entity = 1;
-            if(!zulu) { _fun36629_ip = 31; continue _fun36629 }
+            if(!zulu) { _fun00002_ip = 31; continue _fun00001 }
  28:
             entity = mike;
  31:

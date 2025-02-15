@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gifting/PremiumGiftSuccess.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumGiftSuccess
-        _fun88075: for(var _fun88075_ip = 0; ; ) switch(_fun88075_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.useGiftingPromotionRewardCollectiblePurchase;
             romeo = entity == verify;
             oscar = undefined;
-            if(romeo) { _fun88075_ip = 152; continue _fun88075 }
+            if(romeo) { _fun00002_ip = 152; continue _fun00001 }
  146:
             oscar = verify.skuId;
  152:
@@ -173,22 +173,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = foxtrot;
             golf[1] = oscar;
             zulu = function() {
-                _fun88076: for(var _fun88076_ip = 0; ; ) switch(_fun88076_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun88076_ip = 30; continue _fun88076 }
+                    if(!mike) { _fun00004_ip = 30; continue _fun00003 }
  16:
                     zulu = _closure2_slot0;
                     zulu = zulu.reminderNotice;
                     mike = tango != zulu;
  30:
-                    if(!mike) { _fun88076_ip = 37; continue _fun88076 }
+                    if(!mike) { _fun00004_ip = 37; continue _fun00003 }
  33:
                     mike = _closure2_slot1;
  37:
-                    if(!mike) { _fun88076_ip = 129; continue _fun88076 }
+                    if(!mike) { _fun00004_ip = 129; continue _fun00003 }
  40:
                     golf = _closure1_slot0;
                     options = _closure1_slot2;
@@ -217,16 +217,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(romeo)(zulu, golf);
             zulu = entity != options;
             golf = undefined;
-            if(!zulu) { _fun88075_ip = 319; continue _fun88075 }
+            if(!zulu) { _fun00002_ip = 319; continue _fun00001 }
  248:
             zulu = entity != oscar;
             golf = undefined;
-            if(!zulu) { _fun88075_ip = 319; continue _fun88075 }
+            if(!zulu) { _fun00002_ip = 319; continue _fun00001 }
  257:
             zulu = oscar.rewardAssetIdMap;
             zulu = entity != zulu;
             golf = undefined;
-            if(!zulu) { _fun88075_ip = 319; continue _fun88075 }
+            if(!zulu) { _fun00002_ip = 319; continue _fun00001 }
  272:
             romeo = _closure1_slot3;
             verify = options.items;
@@ -239,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.skuId;
             golf = oscar.bind(verify)(zulu);
  319:
-            if(!(entity != mike)) { _fun88075_ip = 357; continue _fun88075 }
+            if(!(entity != mike)) { _fun00002_ip = 357; continue _fun00001 }
  323:
             verify = _closure1_slot7;
             oscar = _closure1_slot1;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(tango)(zulu);
             zulu = {};
             oscar = verify.bind(tango)(oscar, zulu);
-            _fun88075_ip = 394; continue _fun88075;
+            _fun00002_ip = 394; continue _fun00001;
  357:
             romeo = _closure1_slot7;
             verify = _closure1_slot1;
@@ -261,11 +261,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['giftCodeRecord'] = yankee;
             oscar = romeo.bind(tango)(verify, zulu);
  394:
-            if(!(entity != options)) { _fun88075_ip = 402; continue _fun88075 }
+            if(!(entity != options)) { _fun00002_ip = 402; continue _fun00001 }
  398:
-            if(!(entity == golf)) { _fun88075_ip = 491; continue _fun88075 }
+            if(!(entity == golf)) { _fun00002_ip = 491; continue _fun00001 }
  402:
-            if(!(entity != mike)) { _fun88075_ip = 446; continue _fun88075 }
+            if(!(entity != mike)) { _fun00002_ip = 446; continue _fun00001 }
  406:
             zulu = _closure1_slot7;
             mike = _closure1_slot0;
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.PremiumGiftDMSuccessActions;
             entity = {};
             verify = zulu.bind(tango)(mike, entity);
-            _fun88075_ip = 489; continue _fun88075;
+            _fun00002_ip = 489; continue _fun00001;
  446:
             zulu = _closure1_slot7;
             mike = _closure1_slot0;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['giftCodeRecord'] = yankee;
             verify = zulu.bind(tango)(mike, entity);
  489:
-            _fun88075_ip = 533; continue _fun88075;
+            _fun00002_ip = 533; continue _fun00001;
  491:
             zulu = _closure1_slot7;
             mike = _closure1_slot1;

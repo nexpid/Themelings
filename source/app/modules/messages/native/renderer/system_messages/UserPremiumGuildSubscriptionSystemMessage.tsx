@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = report.id;
         options[3] = report;
         report = function() {
-            _fun72357: for(var _fun72357_ip = 0; ; ) switch(_fun72357_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 mike = 'bindUserMenu';
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = null;
                 tango = 'username';
                 zulu = null;
-                if(!(tango === oscar)) { _fun72357_ip = 57; continue _fun72357 }
+                if(!(tango === oscar)) { _fun00002_ip = 57; continue _fun00001 }
  53:
                 zulu = _closure2_slot5;
  57:
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = _closure2_slot0;
                 zulu = 'dot';
                 zulu = zulu === tango;
-                if(!zulu) { _fun72357_ip = 94; continue _fun72357 }
+                if(!zulu) { _fun00002_ip = 94; continue _fun00001 }
  86:
                 tango = _closure2_slot5;
                 zulu = report != tango;
@@ -132,11 +132,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[1] = yankee;
         report[2] = offset;
         zulu = function() {
-            _fun72358: for(var _fun72358_ip = 0; ; ) switch(_fun72358_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot3;
                 entity = 1;
-                if(!(!(mike > entity))) { _fun72358_ip = 97; continue _fun72358 }
+                if(!(!(mike > entity))) { _fun00004_ip = 97; continue _fun00003 }
  14:
                 report = _closure1_slot0;
                 golf = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = _closure2_slot6;
                 entity['usernameOnClick'] = report;
                 entity = zulu.bind(tango)(mike, entity);
-                _fun72358_ip = 187; continue _fun72358;
+                _fun00004_ip = 187; continue _fun00003;
  97:
                 golf = _closure1_slot0;
                 options = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createUserPremiumGuildSubscriptionSystemMessage
-        _fun72359: for(var _fun72359_ip = 0; ; ) switch(_fun72359_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             romeo = tango.message;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = entity.colorString;
             entity = {};
             report = 1;
-            if(!(!(offset > report))) { _fun72359_ip = 262; continue _fun72359 }
+            if(!(!(offset > report))) { _fun00006_ip = 262; continue _fun00005 }
  101:
             oscar = _closure1_slot0;
             verify = _closure1_slot2;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = null;
             result = 'username';
             backup = null;
-            if(!(result === sizing)) { _fun72359_ip = 199; continue _fun72359 }
+            if(!(result === sizing)) { _fun00006_ip = 199; continue _fun00005 }
  196:
             backup = kilo;
  199:
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['roleColor'] = kilo;
             backup = 'dot';
             backup = backup === sizing;
-            if(!backup) { _fun72359_ip = 224; continue _fun72359 }
+            if(!backup) { _fun00006_ip = 224; continue _fun00005 }
  220:
             backup = output != kilo;
  224:
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['medium'] = backup;
             report['usernameOnClick'] = verify;
             report = golf.bind(options)(oscar, report);
-            _fun72359_ip = 423; continue _fun72359;
+            _fun00006_ip = 423; continue _fun00005;
  262:
             golf = _closure1_slot0;
             backup = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = null;
             output = 'username';
             foxtrot = null;
-            if(!(output === sizing)) { _fun72359_ip = 360; continue _fun72359 }
+            if(!(output === sizing)) { _fun00006_ip = 360; continue _fun00005 }
  357:
             foxtrot = kilo;
  360:
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['roleColor'] = kilo;
             foxtrot = 'dot';
             foxtrot = foxtrot === sizing;
-            if(!foxtrot) { _fun72359_ip = 385; continue _fun72359 }
+            if(!foxtrot) { _fun00006_ip = 385; continue _fun00005 }
  381:
             foxtrot = backup != kilo;
  385:

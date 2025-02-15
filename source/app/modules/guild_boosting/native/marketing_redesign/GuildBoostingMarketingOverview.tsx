@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingOverview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildBoostingMarketingOverview
-        _fun65669: for(var _fun65669_ip = 0; ; ) switch(_fun65669_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = _closure1_slot12;
@@ -161,13 +161,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             sizing = entity == foxtrot;
             zulu = undefined;
-            if(sizing) { _fun65669_ip = 327; continue _fun65669 }
+            if(sizing) { _fun00002_ip = 327; continue _fun00001 }
  322:
             zulu = foxtrot.name;
  327:
             tango[2] = zulu;
             zulu = function() {
-                _fun65672: for(var _fun65672_ip = 0; ; ) switch(_fun65672_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot3;
                     mike = zulu.setOptions;
@@ -177,19 +177,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = oscar == tango;
                     golf = '';
                     tango = golf;
-                    if(!report) { _fun65672_ip = 70; continue _fun65672 }
+                    if(!report) { _fun00004_ip = 70; continue _fun00003 }
  35:
                     report = _closure2_slot2;
                     verify = oscar == report;
                     report = undefined;
-                    if(verify) { _fun65672_ip = 57; continue _fun65672 }
+                    if(verify) { _fun00004_ip = 57; continue _fun00003 }
  48:
                     options = _closure2_slot2;
                     report = options.name;
  57:
                     oscar = oscar != report;
                     tango = golf;
-                    if(!oscar) { _fun65672_ip = 70; continue _fun65672 }
+                    if(!oscar) { _fun00004_ip = 70; continue _fun00003 }
  67:
                     tango = report;
  70:
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(oscar)(zulu, mike);
             mike = entity == foxtrot;
             entity = null;
-            if(mike) { _fun65669_ip = 731; continue _fun65669 }
+            if(mike) { _fun00002_ip = 731; continue _fun00001 }
  416:
             tango = _closure1_slot10;
             zulu = _closure1_slot11;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.wrapper;
             oscar['contentContainerStyle'] = options;
             options = function(argFoo) { // Original name: onScroll
-                _fun65677: for(var _fun65677_ip = 0; ; ) switch(_fun65677_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot8;
                     zulu = zulu.current;
                     zulu = !zulu;
-                    if(!zulu) { _fun65677_ip = 102; continue _fun65677 }
+                    if(!zulu) { _fun00006_ip = 102; continue _fun00005 }
  44:
                     oscar = report.height;
                     report = mike.y;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar - tango;
                     zulu = report >= tango;
  102:
-                    if(!zulu) { _fun65677_ip = 201; continue _fun65677 }
+                    if(!zulu) { _fun00006_ip = 201; continue _fun00005 }
  105:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;

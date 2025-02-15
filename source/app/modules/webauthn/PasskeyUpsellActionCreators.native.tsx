@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = golf.bind(options)(zulu, mike, oscar);
     mike = {};
     oscar = function() { // Original name: openPasskeyUpsell
-        _fun92855: for(var _fun92855_ip = 0; ; ) switch(_fun92855_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = this;
             verify = _closure1_slot0;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.DismissibleContent;
             report = report.PASSWORDLESS_UPSELL;
             report = oscar.bind(options)(report);
-            if(report) { _fun92855_ip = 201; continue _fun92855 }
+            if(report) { _fun00002_ip = 201; continue _fun00001 }
  68:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             report = oscar.bind(options)(report);
-            if(!report) { _fun92855_ip = 201; continue _fun92855 }
+            if(!report) { _fun00002_ip = 201; continue _fun00001 }
  142:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;

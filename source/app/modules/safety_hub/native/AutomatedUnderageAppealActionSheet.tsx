@@ -241,11 +241,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun92666: for(var _fun92666_ip = 0; ; ) switch(_fun92666_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun92666_ip = 23; continue _fun92666 }
+                if(!(mike != zulu)) { _fun00002_ip = 23; continue _fun00001 }
  13:
                 mike = _closure2_slot0;
                 entity = undefined;
@@ -291,11 +291,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = entity;
         entity = function() {
-            _fun92668: for(var _fun92668_ip = 0; ; ) switch(_fun92668_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot2;
                 entity = '';
-                if(!(entity !== mike)) { _fun92668_ip = 98; continue _fun92668 }
+                if(!(entity !== mike)) { _fun00004_ip = 98; continue _fun00003 }
  15:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;

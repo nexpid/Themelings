@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/media-engine/webrtc/ActiveSinks.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: registerActiveSink
-        _fun50935: for(var _fun50935_ip = 0; ; ) switch(_fun50935_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot0;
@@ -32,14 +32,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = report != oscar;
             mike = 0;
             tango = 0;
-            if(!golf) { _fun50935_ip = 30; continue _fun50935 }
+            if(!golf) { _fun00002_ip = 30; continue _fun00001 }
  27:
             tango = oscar;
  30:
-            if(!(mike === tango)) { _fun50935_ip = 56; continue _fun50935 }
+            if(!(mike === tango)) { _fun00002_ip = 56; continue _fun00001 }
  34:
             mike = _closure1_slot1;
-            if(!(report != mike)) { _fun50935_ip = 56; continue _fun50935 }
+            if(!(report != mike)) { _fun00002_ip = 56; continue _fun00001 }
  42:
             oscar = _closure1_slot1;
             report = undefined;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['registerActiveSink'] = tango;
     tango = function(argFoo) { // Original name: unregisterActiveSink
-        _fun50936: for(var _fun50936_ip = 0; ; ) switch(_fun50936_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike[tango] = zulu;
             zulu = mike[tango];
             mike = 0;
-            if(!(mike === zulu)) { _fun50936_ip = 55; continue _fun50936 }
+            if(!(mike === zulu)) { _fun00004_ip = 55; continue _fun00003 }
  31:
             zulu = _closure1_slot1;
             mike = null;
-            if(!(mike != zulu)) { _fun50936_ip = 55; continue _fun50936 }
+            if(!(mike != zulu)) { _fun00004_ip = 55; continue _fun00003 }
  41:
             zulu = _closure1_slot1;
             mike = undefined;
@@ -82,12 +82,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['unregisterActiveSink'] = tango;
     mike = function(argFoo) { // Original name: setActiveSinksChangeCallback
-        _fun50937: for(var _fun50937_ip = 0; ; ) switch(_fun50937_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = null;
             zulu = mike != entity;
-            if(!zulu) { _fun50937_ip = 15; continue _fun50937 }
+            if(!zulu) { _fun00006_ip = 15; continue _fun00005 }
  12:
             mike = entity;
  15:

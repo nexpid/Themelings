@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot3;
         mike[1] = report;
         entity = function() {
-            _fun79395: for(var _fun79395_ip = 0; ; ) switch(_fun79395_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getChannel;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = zulu.bind(tango)(entity);
                 entity = null;
                 entity = entity != report;
-                if(!entity) { _fun79395_ip = 59; continue _fun79395 }
+                if(!entity) { _fun00002_ip = 59; continue _fun00001 }
  33:
                 tango = _closure1_slot3;
                 zulu = tango.can;

@@ -88,17 +88,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = verify.bind(tango)(zulu);
         yankee = zulu.isVersionEqual;
         foxtrot = function() {
-            _fun113799: for(var _fun113799_ip = 0; ; ) switch(_fun113799_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure2_slot0;
                 tango = _closure1_slot8;
-                if(!(report !== tango)) { _fun113799_ip = 41; continue _fun113799 }
+                if(!(report !== tango)) { _fun00002_ip = 41; continue _fun00001 }
  20:
                 report = _closure1_slot7;
                 tango = report.getChannels;
                 zulu = _closure2_slot0;
                 report = tango.bind(report)(zulu);
-                _fun113799_ip = 153; continue _fun113799;
+                _fun00002_ip = 153; continue _fun00001;
  41:
                 tango = _closure1_slot1;
                 options = _closure1_slot2;

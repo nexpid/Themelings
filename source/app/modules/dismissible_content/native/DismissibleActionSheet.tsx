@@ -82,18 +82,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = report;
         entity = function() {
             entity = function() {
-                _fun87647: for(var _fun87647_ip = 0; ; ) switch(_fun87647_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = mike.hideSheetOnUnmount;
                     mike = null;
                     mike = mike != zulu;
-                    if(!mike) { _fun87647_ip = 32; continue _fun87647 }
+                    if(!mike) { _fun00002_ip = 32; continue _fun00001 }
  22:
                     zulu = _closure2_slot0;
                     mike = zulu.hideSheetOnUnmount;
  32:
-                    if(!mike) { _fun87647_ip = 81; continue _fun87647 }
+                    if(!mike) { _fun00002_ip = 81; continue _fun00001 }
  35:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;

@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function() { // Original name: VEVOOPropBlurAmount
-        _fun111479: for(var _fun111479_ip = 0; ; ) switch(_fun111479_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot8;
             tango = undefined;
@@ -81,11 +81,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.bind(options)(kilo);
             zulu = options.useCallback;
             mike = function(argFoo) {
-                _fun111480: for(var _fun111480_ip = 0; ; ) switch(_fun111480_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     entity = null;
-                    if(!(entity != report)) { _fun111480_ip = 23; continue _fun111480 }
+                    if(!(entity != report)) { _fun00004_ip = 23; continue _fun00003 }
  9:
                     mike = _closure2_slot2;
                     entity = undefined;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             romeo = yankee == kilo;
             options = undefined;
-            if(romeo) { _fun111479_ip = 200; continue _fun111479 }
+            if(romeo) { _fun00002_ip = 200; continue _fun00001 }
  186:
             backup = kilo.toFixed;
             romeo = 3;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  200:
             yankee = yankee != options;
             romeo = '';
-            if(!yankee) { _fun111479_ip = 214; continue _fun111479 }
+            if(!yankee) { _fun00002_ip = 214; continue _fun00001 }
  211:
             romeo = options;
  214:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             golf['value'] = report;
             foxtrot = function(argFoo) { // Original name: onValueChange
-                _fun111481: for(var _fun111481_ip = 0; ; ) switch(_fun111481_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = argFoo;
                     mike = _closure2_slot0;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.bind(entity)(report);
                     zulu = _closure2_slot3;
                     mike = undefined;
-                    if(!report) { _fun111481_ip = 30; continue _fun111481 }
+                    if(!report) { _fun00006_ip = 30; continue _fun00005 }
  26:
                     mike = _closure2_slot1;
  30:

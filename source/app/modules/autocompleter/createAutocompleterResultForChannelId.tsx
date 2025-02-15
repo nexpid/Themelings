@@ -44,21 +44,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/autocompleter/createAutocompleterResultForChannelId.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createAutocompleterResultForChannelId
-        _fun79192: for(var _fun79192_ip = 0; ; ) switch(_fun79192_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[1];
             report = arguments[2];
             tango = arguments[3];
             options = undefined;
-            if(!(zulu === options)) { _fun79192_ip = 22; continue _fun79192 }
+            if(!(zulu === options)) { _fun00002_ip = 22; continue _fun00001 }
  15:
             zulu = _closure1_slot2;
  22:
-            if(!(report === options)) { _fun79192_ip = 33; continue _fun79192 }
+            if(!(report === options)) { _fun00002_ip = 33; continue _fun00001 }
  26:
             report = _closure1_slot4;
  33:
-            if(!(tango === options)) { _fun79192_ip = 44; continue _fun79192 }
+            if(!(tango === options)) { _fun00002_ip = 44; continue _fun00001 }
  37:
             tango = _closure1_slot3;
  44:
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             golf = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity != golf)) { _fun79192_ip = 339; continue _fun79192 }
+            if(!(entity != golf)) { _fun00002_ip = 339; continue _fun00001 }
  66:
             zulu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -78,19 +78,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.type;
             mike = _closure1_slot6;
             mike = mike.DM;
-            if(!(mike !== zulu)) { _fun79192_ip = 271; continue _fun79192 }
+            if(!(mike !== zulu)) { _fun00002_ip = 271; continue _fun00001 }
  124:
             mike = _closure1_slot6;
             mike = mike.GROUP_DM;
-            if(!(mike !== zulu)) { _fun79192_ip = 236; continue _fun79192 }
+            if(!(mike !== zulu)) { _fun00002_ip = 236; continue _fun00001 }
  138:
             mike = _closure1_slot6;
             mike = mike.GUILD_VOICE;
-            if(!(mike !== zulu)) { _fun79192_ip = 201; continue _fun79192 }
+            if(!(mike !== zulu)) { _fun00002_ip = 201; continue _fun00001 }
  152:
             mike = _closure1_slot6;
             mike = mike.GUILD_STAGE_VOICE;
-            if(!(mike !== zulu)) { _fun79192_ip = 201; continue _fun79192 }
+            if(!(mike !== zulu)) { _fun00002_ip = 201; continue _fun00001 }
  166:
             mike = {};
             zulu = _closure1_slot5;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = zulu.bind(report)(mike);
             zulu = entity == report;
             mike = null;
-            if(zulu) { _fun79192_ip = 337; continue _fun79192 }
+            if(zulu) { _fun00002_ip = 337; continue _fun00001 }
  301:
             zulu = {};
             oscar = _closure1_slot5;

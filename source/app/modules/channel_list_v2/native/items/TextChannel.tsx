@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun115702: for(var _fun115702_ip = 0; ; ) switch(_fun115702_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             source = zulu.channel;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify = oscar.bind(golf)(entity, zulu);
             status = romeo;
-            if(!status) { _fun115702_ip = 290; continue _fun115702 }
+            if(!status) { _fun00002_ip = 290; continue _fun00001 }
  287:
             status = !echo;
  290:
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isRulesChannel'] = mike;
             oscar = entity.channel;
             entity = entity.isRulesChannel;
-            if(entity) { _fun115702_ip = 479; continue _fun115702 }
+            if(entity) { _fun00002_ip = 479; continue _fun00001 }
  407:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isRulesChannel'] = golf;
             report = zulu.bind(report)(oscar, entity);
             oscar = mike;
-            _fun115702_ip = 521; continue _fun115702;
+            _fun00002_ip = 521; continue _fun00001;
  479:
             mike = _closure1_slot1;
             golf = _closure1_slot2;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.ChannelModes;
             offset = offset.SELECTED;
             offset = equality === offset;
-            if(!offset) { _fun115702_ip = 802; continue _fun115702 }
+            if(!offset) { _fun00002_ip = 802; continue _fun00001 }
  796:
             offset = sequence.selected;
  802:
@@ -383,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.ChannelModes;
             options = options.SELECTED;
             verify = equality === options;
-            if(!verify) { _fun115702_ip = 938; continue _fun115702 }
+            if(!verify) { _fun00002_ip = 938; continue _fun00001 }
  912:
             yankee = _closure1_slot10;
             offset = _closure1_slot4;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = kilo;
             kilo = null;
             control = kilo != sierra;
-            if(!control) { _fun115702_ip = 985; continue _fun115702 }
+            if(!control) { _fun00002_ip = 985; continue _fun00001 }
  979:
             control = sequence.rowWithSubtitle;
  985:
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = new Array(3);
             romeo[0] = backup;
             backup = record;
-            if(!(kilo != sierra)) { _fun115702_ip = 1160; continue _fun115702 }
+            if(!(kilo != sierra)) { _fun00002_ip = 1160; continue _fun00001 }
  1011:
             vacuum = _closure1_slot11;
             control = _closure1_slot4;

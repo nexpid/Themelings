@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: DropdownOptionRow
-        _fun62405: for(var _fun62405_ip = 0; ; ) switch(_fun62405_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.option;
@@ -30,20 +30,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = report;
             report = function() {
-                _fun62406: for(var _fun62406_ip = 0; ; ) switch(_fun62406_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     mike = entity.emoji;
                     oscar = null;
                     zulu = oscar == mike;
                     entity = undefined;
-                    if(zulu) { _fun62406_ip = 29; continue _fun62406 }
+                    if(zulu) { _fun00004_ip = 29; continue _fun00003 }
  24:
                     entity = mike.id;
  29:
                     mike = oscar != entity;
                     entity = null;
-                    if(!mike) { _fun62406_ip = 80; continue _fun62406 }
+                    if(!mike) { _fun00004_ip = 80; continue _fun00003 }
  38:
                     zulu = _closure1_slot5;
                     mike = zulu.getUsableCustomEmojiById;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.emoji;
                     oscar = oscar == report;
                     tango = undefined;
-                    if(oscar) { _fun62406_ip = 75; continue _fun62406 }
+                    if(oscar) { _fun00004_ip = 75; continue _fun00003 }
  70:
                     tango = report.id;
  75:
@@ -85,22 +85,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             verify = zulu == golf;
             oscar = undefined;
-            if(verify) { _fun62405_ip = 175; continue _fun62405 }
+            if(verify) { _fun00002_ip = 175; continue _fun00001 }
  170:
             oscar = golf.id;
  175:
-            if(!(zulu == oscar)) { _fun62405_ip = 211; continue _fun62405 }
+            if(!(zulu == oscar)) { _fun00002_ip = 211; continue _fun00001 }
  179:
             golf = backup.emoji;
             verify = zulu == golf;
             oscar = undefined;
-            if(verify) { _fun62405_ip = 199; continue _fun62405 }
+            if(verify) { _fun00002_ip = 199; continue _fun00001 }
  194:
             oscar = golf.name;
  199:
             oscar = zulu != oscar;
             golf = null;
-            if(!oscar) { _fun62405_ip = 412; continue _fun62405 }
+            if(!oscar) { _fun00002_ip = 412; continue _fun00001 }
  211:
             yankee = _closure1_slot8;
             verify = _closure1_slot4;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['fastImageStyle'] = sizing;
             output = zulu != update;
             sizing = undefined;
-            if(!output) { _fun62405_ip = 353; continue _fun62405 }
+            if(!output) { _fun00002_ip = 353; continue _fun00001 }
  292:
             result = _closure1_slot1;
             echo = _closure1_slot2;
@@ -141,13 +141,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = backup.emoji;
             result = zulu == sizing;
             output = undefined;
-            if(result) { _fun62405_ip = 378; continue _fun62405 }
+            if(result) { _fun00002_ip = 378; continue _fun00001 }
  373:
             output = sizing.name;
  378:
             result = zulu != output;
             sizing = '';
-            if(!result) { _fun62405_ip = 392; continue _fun62405 }
+            if(!result) { _fun00002_ip = 392; continue _fun00001 }
  389:
             sizing = output;
  392:
@@ -157,11 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = yankee.bind(tango)(verify, oscar);
  412:
             oscar = null;
-            if(!mike) { _fun62405_ip = 559; continue _fun62405 }
+            if(!mike) { _fun00002_ip = 559; continue _fun00001 }
  420:
             mike = backup.isUnseen;
             oscar = null;
-            if(!mike) { _fun62405_ip = 559; continue _fun62405 }
+            if(!mike) { _fun00002_ip = 559; continue _fun00001 }
  434:
             verify = _closure1_slot8;
             kilo = _closure1_slot0;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding/native/DropdownOptionsActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DropdownOptionsActionSheet
-        _fun62408: for(var _fun62408_ip = 0; ; ) switch(_fun62408_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new Array(0);
             kilo = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != update)) { _fun62408_ip = 591; continue _fun62408 }
+            if(!(entity != update)) { _fun00006_ip = 591; continue _fun00005 }
  201:
             tango = _closure1_slot8;
             output = _closure1_slot0;

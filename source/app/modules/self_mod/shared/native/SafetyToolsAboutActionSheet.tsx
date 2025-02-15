@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = result;
         entity = function() {
-            _fun79652: for(var _fun79652_ip = 0; ; ) switch(_fun79652_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot4;
-                if(zulu) { _fun79652_ip = 98; continue _fun79652 }
+                if(zulu) { _fun00002_ip = 98; continue _fun00001 }
  12:
                 tango = _closure2_slot5;
                 report = undefined;

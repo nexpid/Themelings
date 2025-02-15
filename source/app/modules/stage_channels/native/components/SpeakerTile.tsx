@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = tango.bind(report)(mike);
     var _closure1_slot10 = report;
     tango = function(argFoo, argBar) { // Original name: getSizeStyle
-        _fun103980: for(var _fun103980_ip = 0; ; ) switch(_fun103980_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = golf.bind(report)(tango);
             tango = tango.StageTileSize;
             tango = tango.FULL;
-            if(!(tango !== zulu)) { _fun103980_ip = 96; continue _fun103980 }
+            if(!(tango !== zulu)) { _fun00002_ip = 96; continue _fun00001 }
  47:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(mike);
             mike = mike.StageTileSize;
             mike = mike.HALF;
-            if(!(mike !== zulu)) { _fun103980_ip = 88; continue _fun103980 }
+            if(!(mike !== zulu)) { _fun00002_ip = 88; continue _fun00001 }
  80:
             mike = entity.third;
             return mike;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = tango;
     mike = function(argFoo, argBar) { // Original name: getTileWidthStyle
-        _fun103981: for(var _fun103981_ip = 0; ; ) switch(_fun103981_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -169,12 +169,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.StageTileSize;
             mike = entity.THIRD;
             entity = argFoo;
-            if(!(entity !== mike)) { _fun103981_ip = 55; continue _fun103981 }
+            if(!(entity !== mike)) { _fun00004_ip = 55; continue _fun00003 }
  44:
             entity = {};
             mike = 1;
             entity['flex'] = mike;
-            _fun103981_ip = 82; continue _fun103981;
+            _fun00004_ip = 82; continue _fun00003;
  55:
             mike = {};
             tango = argBar;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = mike;
     options = function(argFoo, argBar) { // Original name: getImageBackgroundStyle
-        _fun103982: for(var _fun103982_ip = 0; ; ) switch(_fun103982_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argBar;
             tango = _closure1_slot0;
@@ -202,12 +202,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.StageTileSize;
             zulu = entity.THIRD;
             entity = argFoo;
-            if(!(entity !== zulu)) { _fun103982_ip = 63; continue _fun103982 }
+            if(!(entity !== zulu)) { _fun00006_ip = 63; continue _fun00005 }
  47:
             zulu = mike.imageBackground;
             entity = new Array(1);
             entity[0] = zulu;
-            _fun103982_ip = 94; continue _fun103982;
+            _fun00006_ip = 94; continue _fun00005;
  63:
             zulu = mike.imageBackground;
             mike = new Array(2);
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot13 = options;
     options = yankee.memo;
     golf = function(argFoo) {
-        _fun103983: for(var _fun103983_ip = 0; ; ) switch(_fun103983_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             sizing = zulu.channel;
@@ -294,15 +294,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = zulu.bind(tango)(entity, mike);
             entity = null;
-            if(!(entity != foxtrot)) { _fun103983_ip = 1065; continue _fun103983 }
+            if(!(entity != foxtrot)) { _fun00008_ip = 1065; continue _fun00007 }
  202:
             zulu = foxtrot.type;
             mike = _closure1_slot7;
             mike = mike.USER;
-            if(!(zulu === mike)) { _fun103983_ip = 1065; continue _fun103983 }
+            if(!(zulu === mike)) { _fun00008_ip = 1065; continue _fun00007 }
  224:
             romeo = echo;
-            if(echo) { _fun103983_ip = 233; continue _fun103983 }
+            if(echo) { _fun00008_ip = 233; continue _fun00007 }
  230:
             romeo = result;
  233:
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['size'] = update;
             options['isStageCall'] = foxtrot;
             foxtrot = romeo;
-            if(!romeo) { _fun103983_ip = 550; continue _fun103983 }
+            if(!romeo) { _fun00008_ip = 550; continue _fun00007 }
  531:
             update = {};
             source = 0.5;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = {};
             offset = kilo.nameplateContainer;
             golf['style'] = offset;
-            if(!romeo) { _fun103983_ip = 962; continue _fun103983 }
+            if(!romeo) { _fun00008_ip = 962; continue _fun00007 }
  718:
             sizing = _closure1_slot9;
             foxtrot = _closure1_slot5;
@@ -427,13 +427,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = new Array(2);
             output[0] = update;
             update = null;
-            if(!echo) { _fun103983_ip = 753; continue _fun103983 }
+            if(!echo) { _fun00008_ip = 753; continue _fun00007 }
  747:
             update = kilo.blocked;
  753:
             output[1] = update;
             offset['style'] = output;
-            if(!echo) { _fun103983_ip = 864; continue _fun103983 }
+            if(!echo) { _fun00008_ip = 864; continue _fun00007 }
  764:
             source = _closure1_slot8;
             vacuum = _closure1_slot1;
@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  864:
             output = new Array(2);
             output[0] = echo;
-            if(!result) { _fun103983_ip = 948; continue _fun103983 }
+            if(!result) { _fun00008_ip = 948; continue _fun00007 }
  875:
             source = _closure1_slot8;
             vacuum = _closure1_slot1;

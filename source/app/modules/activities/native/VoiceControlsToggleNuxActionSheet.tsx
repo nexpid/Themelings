@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/VoiceControlsToggleNuxActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoiceControlsToggleActionSheet
-        _fun103705: for(var _fun103705_ip = 0; ; ) switch(_fun103705_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.markAsDismissed;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee = report.bind(oscar)(zulu, mike);
             output = 1.5;
-            if(!entity) { _fun103705_ip = 171; continue _fun103705 }
+            if(!entity) { _fun00002_ip = 171; continue _fun00001 }
  161:
             output = 2.0875;
  171:
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = sizing.contentContainer;
             report['style'] = options;
             options = function(argFoo) { // Original name: onLayout
-                _fun103708: for(var _fun103708_ip = 0; ; ) switch(_fun103708_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot1;
                     entity = _closure2_slot2;
                     mike = tango;
-                    if(!entity) { _fun103708_ip = 43; continue _fun103708 }
+                    if(!entity) { _fun00004_ip = 43; continue _fun00003 }
  36:
                     entity = 2;
                     mike = tango / entity;

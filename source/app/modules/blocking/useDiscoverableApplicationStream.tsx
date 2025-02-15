@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/blocking/useDiscoverableApplicationStream.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useDiscoverableApplicationStream
-        _fun79696: for(var _fun79696_ip = 0; ; ) switch(_fun79696_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             offset = argBar;
@@ -71,15 +71,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = new Array(1);
             yankee[0] = tango;
             tango = function() {
-                _fun79697: for(var _fun79697_ip = 0; ; ) switch(_fun79697_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
-                    if(!(entity == zulu)) { _fun79697_ip = 28; continue _fun79697 }
+                    if(!(entity == zulu)) { _fun00004_ip = 28; continue _fun00003 }
  13:
                     entity = _closure1_slot7;
                     entity = entity.NONE;
-                    _fun79697_ip = 50; continue _fun79697;
+                    _fun00004_ip = 50; continue _fun00003;
  28:
                     tango = _closure1_slot5;
                     zulu = tango.getRelationshipType;
@@ -101,11 +101,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar[0] = romeo;
             oscar[1] = verify;
             mike = function() {
-                _fun79698: for(var _fun79698_ip = 0; ; ) switch(_fun79698_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun79698_ip = 80; continue _fun79698 }
+                    if(!(entity != mike)) { _fun00006_ip = 80; continue _fun00005 }
  13:
                     zulu = _closure1_slot4;
                     mike = zulu.getAnyStreamForUser;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = {};
                     oscar = _closure2_slot2;
                     zulu = mike;
-                    if(!oscar) { _fun79698_ip = 68; continue _fun79698 }
+                    if(!oscar) { _fun00006_ip = 68; continue _fun00005 }
  47:
                     oscar = _closure1_slot4;
                     report = oscar.getAnyDiscoverableStreamForUser;
@@ -143,16 +143,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar[5] = offset;
             oscar[6] = verify;
             report = function() {
-                _fun79699: for(var _fun79699_ip = 0; ; ) switch(_fun79699_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun79699_ip = 20; continue _fun79699 }
+                    if(!entity) { _fun00008_ip = 20; continue _fun00007 }
  10:
                     zulu = _closure2_slot6;
                     mike = null;
                     entity = mike != zulu;
  20:
-                    if(!entity) { _fun79699_ip = 247; continue _fun79699 }
+                    if(!entity) { _fun00008_ip = 247; continue _fun00007 }
  26:
                     mike = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = golf.discoverable;
                     golf = null;
                     golf = golf == verify;
-                    if(golf) { _fun79699_ip = 108; continue _fun79699 }
+                    if(golf) { _fun00008_ip = 108; continue _fun00007 }
  105:
                     golf = verify;
  108:
@@ -180,20 +180,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = _closure2_slot5;
                     entity['relationship_type'] = golf;
                     golf = _closure2_slot2;
-                    if(!golf) { _fun79699_ip = 145; continue _fun79699 }
+                    if(!golf) { _fun00008_ip = 145; continue _fun00007 }
  129:
                     golf = _closure2_slot6;
                     verify = golf.discoverable;
                     golf = false;
-                    if(!(golf !== verify)) { _fun79699_ip = 204; continue _fun79699 }
+                    if(!(golf !== verify)) { _fun00008_ip = 204; continue _fun00007 }
  145:
                     golf = _closure2_slot3;
-                    if(!golf) { _fun79699_ip = 170; continue _fun79699 }
+                    if(!golf) { _fun00008_ip = 170; continue _fun00007 }
  152:
                     golf = _closure2_slot5;
                     report = _closure1_slot7;
                     report = report.BLOCKED;
-                    if(!(golf !== report)) { _fun79699_ip = 204; continue _fun79699 }
+                    if(!(golf !== report)) { _fun00008_ip = 204; continue _fun00007 }
  170:
                     golf = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = golf.bind(options)(report);
                     report = report.BlockingVoiceStateTreatments;
                     report = report.SHOW;
-                    _fun79699_ip = 236; continue _fun79699;
+                    _fun00008_ip = 236; continue _fun00007;
  204:
                     golf = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -220,12 +220,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             report = golf.bind(options)(report, oscar);
-            if(!zulu) { _fun79696_ip = 265; continue _fun79696 }
+            if(!zulu) { _fun00002_ip = 265; continue _fun00001 }
  249:
             entity = _closure1_slot7;
             zulu = entity.BLOCKED;
             entity = null;
-            if(!(tango !== zulu)) { _fun79696_ip = 268; continue _fun79696 }
+            if(!(tango !== zulu)) { _fun00002_ip = 268; continue _fun00001 }
  265:
             entity = mike;
  268:

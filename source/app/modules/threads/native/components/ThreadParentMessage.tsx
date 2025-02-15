@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/threads/native/components/ThreadParentMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ThreadChannelStarterMessage
-        _fun112239: for(var _fun112239_ip = 0; ; ) switch(_fun112239_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -87,14 +87,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             mike = entity == options;
             zulu = undefined;
-            if(mike) { _fun112239_ip = 103; continue _fun112239 }
+            if(mike) { _fun00002_ip = 103; continue _fun00001 }
  98:
             zulu = options.state;
  103:
             mike = _closure1_slot4;
             mike = mike.LOADED;
             entity = null;
-            if(!(zulu === mike)) { _fun112239_ip = 229; continue _fun112239 }
+            if(!(zulu === mike)) { _fun00002_ip = 229; continue _fun00001 }
  119:
             tango = _closure1_slot6;
             zulu = _closure1_slot0;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ThreadChannelStarterMessage'] = tango;
     mike = function(argFoo) { // Original name: ThreadCreationStarterMessage
-        _fun112242: for(var _fun112242_ip = 0; ; ) switch(_fun112242_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = mike.messageId;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(tango)(mike, entity);
             entity = null;
             mike = entity == oscar;
-            if(mike) { _fun112242_ip = 132; continue _fun112242 }
+            if(mike) { _fun00004_ip = 132; continue _fun00003 }
  87:
             tango = _closure1_slot6;
             zulu = _closure1_slot1;

@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Input/native/Input.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Input
-        _fun63636: for(var _fun63636_ip = 0; ; ) switch(_fun63636_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = _closure1_slot5;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             report = oscar != kilo;
             options = null;
-            if(!report) { _fun63636_ip = 130; continue _fun63636 }
+            if(!report) { _fun00002_ip = 130; continue _fun00001 }
  68:
             romeo = _closure1_slot3;
             verify = _closure1_slot0;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = options;
             verify = oscar != backup;
             options = null;
-            if(!verify) { _fun63636_ip = 243; continue _fun63636 }
+            if(!verify) { _fun00002_ip = 243; continue _fun00001 }
  181:
             foxtrot = _closure1_slot3;
             romeo = _closure1_slot0;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = options;
             options = oscar != offset;
             oscar = null;
-            if(!options) { _fun63636_ip = 307; continue _fun63636 }
+            if(!options) { _fun00002_ip = 307; continue _fun00001 }
  256:
             verify = _closure1_slot3;
             options = _closure1_slot0;

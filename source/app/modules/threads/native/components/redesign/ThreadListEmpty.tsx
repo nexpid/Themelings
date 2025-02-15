@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun113920: for(var _fun113920_ip = 0; ; ) switch(_fun113920_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.onCreateThreadPress;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = oscar;
             oscar = null;
             oscar = oscar != yankee;
-            if(!oscar) { _fun113920_ip = 448; continue _fun113920 }
+            if(!oscar) { _fun00002_ip = 448; continue _fun00001 }
  358:
             verify = _closure1_slot4;
             foxtrot = _closure1_slot0;

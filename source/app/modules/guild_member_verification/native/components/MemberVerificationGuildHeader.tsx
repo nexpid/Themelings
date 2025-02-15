@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/MemberVerificationGuildHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationGuildHeader
-        _fun88546: for(var _fun88546_ip = 0; ; ) switch(_fun88546_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             source = mike.guild;
@@ -141,14 +141,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike.bind(tango)();
             zulu = source.banner;
             mike = null;
-            if(!(mike == zulu)) { _fun88546_ip = 73; continue _fun88546 }
+            if(!(mike == zulu)) { _fun00002_ip = 73; continue _fun00001 }
  51:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
             mike = 7;
             mike = report[mike];
             result = zulu.bind(tango)(mike);
-            _fun88546_ip = 104; continue _fun88546;
+            _fun00002_ip = 104; continue _fun00001;
  73:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -444,14 +444,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[sizing];
             kilo = output.bind(tango)(kilo);
             output = kilo.t;
-            if(yankee) { _fun88546_ip = 935; continue _fun88546 }
+            if(yankee) { _fun00002_ip = 935; continue _fun00001 }
  909:
             result = output.VnxBOD;
             kilo = {};
             control = source.name;
             kilo['guildName'] = control;
             kilo = echo.bind(update)(result, kilo);
-            _fun88546_ip = 959; continue _fun88546;
+            _fun00002_ip = 959; continue _fun00001;
  935:
             result = output.cgX47e;
             output = {};
@@ -480,11 +480,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo[sizing];
             romeo = kilo.bind(tango)(romeo);
             romeo = romeo.t;
-            if(yankee) { _fun88546_ip = 1082; continue _fun88546 }
+            if(yankee) { _fun00002_ip = 1082; continue _fun00001 }
  1069:
             yankee = romeo.7D3C5u;
             yankee = foxtrot.bind(backup)(yankee);
-            _fun88546_ip = 1093; continue _fun88546;
+            _fun00002_ip = 1093; continue _fun00001;
  1082:
             romeo = romeo.3smSPD;
             yankee = foxtrot.bind(backup)(romeo);

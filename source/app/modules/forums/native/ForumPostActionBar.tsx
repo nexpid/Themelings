@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/ForumPostActionBar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun89570: for(var _fun89570_ip = 0; ; ) switch(_fun89570_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             update = entity.channel;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = null;
             oscar = report != result;
-            if(!oscar) { _fun89570_ip = 409; continue _fun89570 }
+            if(!oscar) { _fun00002_ip = 409; continue _fun00001 }
  306:
             options = _closure1_slot9;
             golf = _closure1_slot5;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = control[sizing];
             echo = config.bind(tango)(echo);
             echo = echo.t;
-            if(verify) { _fun89570_ip = 733; continue _fun89570 }
+            if(verify) { _fun00002_ip = 733; continue _fun00001 }
  545:
             verify = echo.DjZ+6O;
             verify = update.bind(source)(verify);
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = vacuum;
             backup['children'] = verify;
             verify = backup;
-            _fun89570_ip = 928; continue _fun89570;
+            _fun00002_ip = 928; continue _fun00001;
  733:
             echo = echo.G3ooHB;
             echo = update.bind(source)(echo);
@@ -415,13 +415,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[1] = output;
             offset['style'] = sizing;
             foxtrot = function() { // Original name: onPress
-                _fun89575: for(var _fun89575_ip = 0; ; ) switch(_fun89575_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = zulu.getGuildId;
                     report = mike.bind(zulu)();
                     mike = null;
-                    if(!(mike != report)) { _fun89575_ip = 86; continue _fun89575 }
+                    if(!(mike != report)) { _fun00004_ip = 86; continue _fun00003 }
  23:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;

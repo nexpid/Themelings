@@ -28,17 +28,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/labs/LabFeatureActions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: toggleLabFeature
-        _fun98040: for(var _fun98040_ip = 0; ; ) switch(_fun98040_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             mike = arguments[1];
             entity = undefined;
-            if(!(mike === entity)) { _fun98040_ip = 19; continue _fun98040 }
+            if(!(mike === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             mike = _closure1_slot3;
  19:
             report = mike.enabled;
-            if(!(report === entity)) { _fun98040_ip = 48; continue _fun98040 }
+            if(!(report === entity)) { _fun00002_ip = 48; continue _fun00001 }
  28:
             zulu = _closure1_slot2;
             mike = zulu.get;

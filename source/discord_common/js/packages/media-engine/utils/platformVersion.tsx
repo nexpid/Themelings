@@ -19,14 +19,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     mike = '../discord_common/js/packages/media-engine/utils/platformVersion.tsx';
     mike = tango.bind(report)(mike);
     mike = function() { // Original name: platformVersion
-        _fun50920: for(var _fun50920_ip = 0; ; ) switch(_fun50920_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = global;
             zulu = mike.platform;
             tango = 'undefined';
             zulu = typeof zulu;
             entity = 0;
-            if(!(tango !== zulu)) { _fun50920_ip = 77; continue _fun50920 }
+            if(!(tango !== zulu)) { _fun00002_ip = 77; continue _fun00001 }
  21:
             report = mike.parseInt;
             oscar = mike.platform;
@@ -34,13 +34,13 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             golf = zulu == oscar;
             tango = undefined;
             mike = undefined;
-            if(golf) { _fun50920_ip = 52; continue _fun50920 }
+            if(golf) { _fun00002_ip = 52; continue _fun00001 }
  46:
             mike = oscar.version;
  52:
             oscar = zulu != mike;
             zulu = '0';
-            if(!oscar) { _fun50920_ip = 68; continue _fun50920 }
+            if(!oscar) { _fun00002_ip = 68; continue _fun00001 }
  65:
             zulu = mike;
  68:

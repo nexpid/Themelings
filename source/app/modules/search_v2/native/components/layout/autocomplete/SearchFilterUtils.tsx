@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getSearchTokenText
-        _fun112844: for(var _fun112844_ip = 0; ; ) switch(_fun112844_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot1;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(entity)(mike);
             tango = mike[zulu];
             mike = null;
-            if(!(mike == tango)) { _fun112844_ip = 82; continue _fun112844 }
+            if(!(mike == tango)) { _fun00002_ip = 82; continue _fun00001 }
  38:
             verify = _closure1_slot0;
             report = _closure1_slot2;
@@ -34,11 +34,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  82:
             report = mike == tango;
             entity = undefined;
-            if(report) { _fun112844_ip = 96; continue _fun112844 }
+            if(report) { _fun00002_ip = 96; continue _fun00001 }
  91:
             entity = tango.key;
  96:
-            if(!(mike == entity)) { _fun112844_ip = 109; continue _fun112844 }
+            if(!(mike == entity)) { _fun00002_ip = 109; continue _fun00001 }
  100:
             mike = zulu.toString;
             entity = mike.bind(zulu)();
@@ -88,36 +88,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/search_v2/native/components/layout/autocomplete/SearchFilterUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getSearchTokenLabel
-        _fun112845: for(var _fun112845_ip = 0; ; ) switch(_fun112845_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot10;
             mike = mike.FILTER_FROM;
-            if(!(mike !== report)) { _fun112845_ip = 528; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 528; continue _fun00003 }
  23:
             mike = _closure1_slot10;
             mike = mike.FILTER_HAS;
-            if(!(mike !== report)) { _fun112845_ip = 469; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 469; continue _fun00003 }
  40:
             mike = _closure1_slot10;
             mike = mike.FILTER_MENTIONS;
-            if(!(mike !== report)) { _fun112845_ip = 410; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 410; continue _fun00003 }
  57:
             mike = _closure1_slot10;
             mike = mike.FILTER_IN;
-            if(!(mike !== report)) { _fun112845_ip = 351; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 351; continue _fun00003 }
  74:
             mike = _closure1_slot10;
             mike = mike.FILTER_ON;
-            if(!(mike !== report)) { _fun112845_ip = 292; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 292; continue _fun00003 }
  91:
             mike = _closure1_slot10;
             mike = mike.FILTER_BEFORE;
-            if(!(mike !== report)) { _fun112845_ip = 233; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 233; continue _fun00003 }
  108:
             mike = _closure1_slot10;
             mike = mike.FILTER_AFTER;
-            if(!(mike !== report)) { _fun112845_ip = 174; continue _fun112845 }
+            if(!(mike !== report)) { _fun00004_ip = 174; continue _fun00003 }
  122:
             mike = global;
             tango = mike.Error;
@@ -240,36 +240,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSearchTokenLabel'] = tango;
     tango = function(argFoo) { // Original name: getSearchTokenSubLabel
-        _fun112846: for(var _fun112846_ip = 0; ; ) switch(_fun112846_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot10;
             mike = mike.FILTER_FROM;
-            if(!(mike !== report)) { _fun112846_ip = 528; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 528; continue _fun00005 }
  23:
             mike = _closure1_slot10;
             mike = mike.FILTER_HAS;
-            if(!(mike !== report)) { _fun112846_ip = 469; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 469; continue _fun00005 }
  40:
             mike = _closure1_slot10;
             mike = mike.FILTER_IN;
-            if(!(mike !== report)) { _fun112846_ip = 410; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 410; continue _fun00005 }
  57:
             mike = _closure1_slot10;
             mike = mike.FILTER_MENTIONS;
-            if(!(mike !== report)) { _fun112846_ip = 351; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 351; continue _fun00005 }
  74:
             mike = _closure1_slot10;
             mike = mike.FILTER_ON;
-            if(!(mike !== report)) { _fun112846_ip = 292; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 292; continue _fun00005 }
  91:
             mike = _closure1_slot10;
             mike = mike.FILTER_BEFORE;
-            if(!(mike !== report)) { _fun112846_ip = 233; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 233; continue _fun00005 }
  108:
             mike = _closure1_slot10;
             mike = mike.FILTER_AFTER;
-            if(!(mike !== report)) { _fun112846_ip = 174; continue _fun112846 }
+            if(!(mike !== report)) { _fun00006_ip = 174; continue _fun00005 }
  122:
             mike = global;
             tango = mike.Error;
@@ -392,36 +392,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSearchTokenSubLabel'] = tango;
     tango = function(argFoo) { // Original name: getSearchTokenIcon
-        _fun112847: for(var _fun112847_ip = 0; ; ) switch(_fun112847_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot10;
             mike = mike.FILTER_FROM;
-            if(!(mike !== report)) { _fun112847_ip = 351; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 351; continue _fun00007 }
  23:
             mike = _closure1_slot10;
             mike = mike.FILTER_HAS;
-            if(!(mike !== report)) { _fun112847_ip = 321; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 321; continue _fun00007 }
  40:
             mike = _closure1_slot10;
             mike = mike.FILTER_IN;
-            if(!(mike !== report)) { _fun112847_ip = 291; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 291; continue _fun00007 }
  57:
             mike = _closure1_slot10;
             mike = mike.FILTER_MENTIONS;
-            if(!(mike !== report)) { _fun112847_ip = 261; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 261; continue _fun00007 }
  74:
             mike = _closure1_slot10;
             mike = mike.FILTER_ON;
-            if(!(mike !== report)) { _fun112847_ip = 231; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 231; continue _fun00007 }
  91:
             mike = _closure1_slot10;
             mike = mike.FILTER_BEFORE;
-            if(!(mike !== report)) { _fun112847_ip = 201; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 201; continue _fun00007 }
  105:
             mike = _closure1_slot10;
             mike = mike.FILTER_AFTER;
-            if(!(mike !== report)) { _fun112847_ip = 171; continue _fun112847 }
+            if(!(mike !== report)) { _fun00008_ip = 171; continue _fun00007 }
  119:
             mike = global;
             tango = mike.Error;
@@ -502,7 +502,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getSearchTokenIcon'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: getSearchTokenPressHandler
-        _fun112848: for(var _fun112848_ip = 0; ; ) switch(_fun112848_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = argBar;
             mike = argFoo;
@@ -512,31 +512,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot2 = mike;
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_FROM;
-            if(!(zulu !== report)) { _fun112848_ip = 191; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 191; continue _fun00009 }
  43:
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_IN;
-            if(!(zulu !== report)) { _fun112848_ip = 191; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 191; continue _fun00009 }
  60:
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_HAS;
-            if(!(zulu !== report)) { _fun112848_ip = 191; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 191; continue _fun00009 }
  74:
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_MENTIONS;
-            if(!(zulu !== report)) { _fun112848_ip = 191; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 191; continue _fun00009 }
  88:
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_ON;
-            if(!(zulu !== report)) { _fun112848_ip = 182; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 182; continue _fun00009 }
  102:
             zulu = _closure1_slot10;
             zulu = zulu.FILTER_BEFORE;
-            if(!(zulu !== report)) { _fun112848_ip = 182; continue _fun112848 }
+            if(!(zulu !== report)) { _fun00010_ip = 182; continue _fun00009 }
  116:
             mike = _closure1_slot10;
             mike = mike.FILTER_AFTER;
-            if(!(mike !== report)) { _fun112848_ip = 182; continue _fun112848 }
+            if(!(mike !== report)) { _fun00010_ip = 182; continue _fun00009 }
  130:
             mike = global;
             tango = mike.Error;
@@ -699,13 +699,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = tango.bind(report)(zulu);
         zulu = tango.forEach;
         mike = function(argFoo) {
-            _fun112855: for(var _fun112855_ip = 0; ; ) switch(_fun112855_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 report = argFoo;
                 zulu = _closure1_slot8;
                 mike = zulu.test;
                 mike = mike.bind(zulu)(report);
-                if(!mike) { _fun112855_ip = 164; continue _fun112855 }
+                if(!mike) { _fun00012_ip = 164; continue _fun00011 }
  26:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -716,7 +716,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity[report];
                 tango = entity.plainText;
                 entity = null;
-                if(!(entity != tango)) { _fun112855_ip = 164; continue _fun112855 }
+                if(!(entity != tango)) { _fun00012_ip = 164; continue _fun00011 }
  64:
                 entity = global;
                 zulu = entity.RegExp;
@@ -733,7 +733,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = oscar.test;
                 mike = _closure2_slot0;
                 mike = zulu.bind(oscar)(mike);
-                if(!mike) { _fun112855_ip = 164; continue _fun112855 }
+                if(!mike) { _fun00012_ip = 164; continue _fun00011 }
  139:
                 zulu = _closure2_slot1;
                 mike = zulu.push;

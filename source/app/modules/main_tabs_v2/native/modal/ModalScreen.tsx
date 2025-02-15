@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/modal/ModalScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Modal
-        _fun120415: for(var _fun120415_ip = 0; ; ) switch(_fun120415_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.route;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = tango;
             oscar = report.props;
             romeo = null;
-            if(!(romeo == oscar)) { _fun120415_ip = 46; continue _fun120415 }
+            if(!(romeo == oscar)) { _fun00002_ip = 46; continue _fun00001 }
  44:
             oscar = {};
  46:
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = report.callbacks;
             verify = romeo == options;
             mike = undefined;
-            if(verify) { _fun120415_ip = 195; continue _fun120415 }
+            if(verify) { _fun00002_ip = 195; continue _fun00001 }
  189:
             mike = options.onExited;
  195:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot5;
             zulu = oscar.useEffect;
             mike = function() {
-                _fun120417: for(var _fun120417_ip = 0; ; ) switch(_fun120417_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = _closure2_slot0;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = entity == tango;
                     entity = undefined;
                     mike = undefined;
-                    if(report) { _fun120417_ip = 36; continue _fun120417 }
+                    if(report) { _fun00004_ip = 36; continue _fun00003 }
  30:
                     mike = tango.onExited;
  36:
@@ -140,14 +140,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = oscar.useEffect;
             zulu = function() {
                 entity = function() {
-                    _fun120419: for(var _fun120419_ip = 0; ; ) switch(_fun120419_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = _closure2_slot1;
                         zulu = entity.current;
                         entity = null;
                         zulu = entity == zulu;
                         entity = undefined;
-                        if(zulu) { _fun120419_ip = 36; continue _fun120419 }
+                        if(zulu) { _fun00006_ip = 36; continue _fun00005 }
  23:
                         zulu = _closure2_slot1;
                         mike = zulu.current;
@@ -182,10 +182,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.absoluteFill;
             entity['style'] = oscar;
             oscar = report.closable;
-            if(oscar) { _fun120415_ip = 309; continue _fun120415 }
+            if(oscar) { _fun00002_ip = 309; continue _fun00001 }
  303:
             oscar = _closure1_slot8;
-            _fun120415_ip = 335; continue _fun120415;
+            _fun00002_ip = 335; continue _fun00001;
  309:
             verify = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(tango)(oscar);
             oscar = options.isIOS;
             oscar = oscar.bind(options)();
-            if(!oscar) { _fun120415_ip = 487; continue _fun120415 }
+            if(!oscar) { _fun00002_ip = 487; continue _fun00001 }
  442:
             verify = _closure1_slot9;
             options = _closure1_slot0;

@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: getDefaultInviteExpiration
-        _fun86301: for(var _fun86301_ip = 0; ; ) switch(_fun86301_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.guild;
             mike = entity.experimentConfig;
             entity = null;
-            if(!(entity == mike)) { _fun86301_ip = 98; continue _fun86301 }
+            if(!(entity == mike)) { _fun00002_ip = 98; continue _fun00001 }
  20:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.getCurrentConfig;
             zulu = {};
             verify = entity == golf;
-            if(verify) { _fun86301_ip = 71; continue _fun86301 }
+            if(verify) { _fun00002_ip = 71; continue _fun00001 }
  66:
             oscar = golf.id;
  71:
-            if(!(entity == oscar)) { _fun86301_ip = 79; continue _fun86301 }
+            if(!(entity == oscar)) { _fun00002_ip = 79; continue _fun00001 }
  75:
             oscar = _closure1_slot4;
  79:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity == golf;
             tango = undefined;
             zulu = undefined;
-            if(report) { _fun86301_ip = 139; continue _fun86301 }
+            if(report) { _fun00002_ip = 139; continue _fun00001 }
  115:
             oscar = golf.hasFeature;
             report = _closure1_slot5;
@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report);
  139:
             report = true;
-            if(!(report !== zulu)) { _fun86301_ip = 189; continue _fun86301 }
+            if(!(report !== zulu)) { _fun00002_ip = 189; continue _fun00001 }
  145:
             entity = entity == golf;
             zulu = undefined;
-            if(entity) { _fun86301_ip = 178; continue _fun86301 }
+            if(entity) { _fun00002_ip = 178; continue _fun00001 }
  154:
             oscar = golf.hasFeature;
             entity = _closure1_slot5;
@@ -63,10 +63,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(golf)(entity);
  178:
             entity = undefined;
-            if(!(report === zulu)) { _fun86301_ip = 223; continue _fun86301 }
+            if(!(report === zulu)) { _fun00002_ip = 223; continue _fun00001 }
  184:
             entity = undefined;
-            if(!mike) { _fun86301_ip = 223; continue _fun86301 }
+            if(!mike) { _fun00002_ip = 223; continue _fun00001 }
  189:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/communities/invites_behavior/useDefaultInviteExpiration.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: useDefaultInviteExpiration
-        _fun86302: for(var _fun86302_ip = 0; ; ) switch(_fun86302_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             zulu = entity.guildId;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = {};
             entity = null;
             verify = zulu;
-            if(!(entity == verify)) { _fun86302_ip = 66; continue _fun86302 }
+            if(!(entity == verify)) { _fun00004_ip = 66; continue _fun00003 }
  62:
             verify = _closure1_slot4;
  66:
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             oscar = options.bind(verify)(golf, oscar);
             entity = entity != zulu;
-            if(!entity) { _fun86302_ip = 162; continue _fun86302 }
+            if(!entity) { _fun00004_ip = 162; continue _fun00003 }
  142:
             zulu = _closure1_slot6;
             mike = {};

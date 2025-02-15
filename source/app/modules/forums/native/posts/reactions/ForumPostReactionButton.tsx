@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = backup;
     var _closure1_slot2 = options;
     tango = function(argFoo) { // Original name: BurstReactionButton
-        _fun87250: for(var _fun87250_ip = 0; ; ) switch(_fun87250_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.colors;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = mike != zulu;
             echo = '';
             foxtrot = echo;
-            if(!output) { _fun87250_ip = 213; continue _fun87250 }
+            if(!output) { _fun00002_ip = 213; continue _fun00001 }
  120:
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -45,39 +45,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = source.hex2rgb;
             output = mike == zulu;
             result = undefined;
-            if(output) { _fun87250_ip = 160; continue _fun87250 }
+            if(output) { _fun00002_ip = 160; continue _fun00001 }
  155:
             result = zulu.backgroundColor;
  160:
             output = mike == zulu;
             control = undefined;
-            if(output) { _fun87250_ip = 174; continue _fun87250 }
+            if(output) { _fun00002_ip = 174; continue _fun00001 }
  169:
             control = zulu.opacity;
  174:
             vacuum = mike != control;
             output = 0.15;
-            if(!vacuum) { _fun87250_ip = 194; continue _fun87250 }
+            if(!vacuum) { _fun00002_ip = 194; continue _fun00001 }
  191:
             output = control;
  194:
             output = update.bind(source)(result, output);
             result = mike != output;
             foxtrot = echo;
-            if(!result) { _fun87250_ip = 213; continue _fun87250 }
+            if(!result) { _fun00002_ip = 213; continue _fun00001 }
  210:
             foxtrot = output;
  213:
             kilo['backgroundColor'] = foxtrot;
             output = mike == zulu;
             foxtrot = undefined;
-            if(output) { _fun87250_ip = 231; continue _fun87250 }
+            if(output) { _fun00002_ip = 231; continue _fun00001 }
  226:
             foxtrot = zulu.backgroundColor;
  231:
             kilo['borderColor'] = foxtrot;
             foxtrot = 0;
-            if(!backup) { _fun87250_ip = 245; continue _fun87250 }
+            if(!backup) { _fun00002_ip = 245; continue _fun00001 }
  241:
             foxtrot = _closure1_slot7;
  245:
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {};
             backup = mike == zulu;
             mike = undefined;
-            if(backup) { _fun87250_ip = 267; continue _fun87250 }
+            if(backup) { _fun00002_ip = 267; continue _fun00001 }
  261:
             mike = zulu.accentColor;
  267:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = tango;
     mike = function(argFoo) { // Original name: ReactionButton
-        _fun87251: for(var _fun87251_ip = 0; ; ) switch(_fun87251_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             verify = entity.emoji;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = entity.accessible;
             report = entity.disabled;
             tango = undefined;
-            if(!(report === tango)) { _fun87251_ip = 80; continue _fun87251 }
+            if(!(report === tango)) { _fun00004_ip = 80; continue _fun00003 }
  78:
             report = false;
  80:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             entity = oscar != entity;
             romeo = undefined;
-            if(!entity) { _fun87251_ip = 167; continue _fun87251 }
+            if(!entity) { _fun00004_ip = 167; continue _fun00003 }
  107:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             echo = verify.id;
             entity['id'] = echo;
-            if(!result) { _fun87251_ip = 153; continue _fun87251 }
+            if(!result) { _fun00004_ip = 153; continue _fun00003 }
  147:
             result = verify.animated;
  153:
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = mike.bind(zulu)(entity);
  167:
             source = undefined;
-            if(!update) { _fun87251_ip = 178; continue _fun87251 }
+            if(!update) { _fun00004_ip = 178; continue _fun00003 }
  172:
             source = yankee.selected;
  178:
@@ -210,12 +210,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = golf;
             oscar = oscar != backup;
-            if(!oscar) { _fun87251_ip = 378; continue _fun87251 }
+            if(!oscar) { _fun00004_ip = 378; continue _fun00003 }
  372:
             golf = 0;
             oscar = backup > golf;
  378:
-            if(!oscar) { _fun87251_ip = 457; continue _fun87251 }
+            if(!oscar) { _fun00004_ip = 457; continue _fun00003 }
  381:
             verify = _closure1_slot6;
             options = _closure1_slot4;
@@ -393,14 +393,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['AdditionalReactionCount'] = oscar;
     oscar = function(argFoo) { // Original name: AddReactionButton
-        _fun87253: for(var _fun87253_ip = 0; ; ) switch(_fun87253_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             oscar = entity.threadId;
             verify = entity.containerStyle;
             mike = entity.reactionType;
             tango = undefined;
-            if(!(mike === tango)) { _fun87253_ip = 62; continue _fun87253 }
+            if(!(mike === tango)) { _fun00006_ip = 62; continue _fun00005 }
  27:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['AddReactionButton'] = oscar;
     report = function(argFoo) { // Original name: ForumPostReactionButton
-        _fun87254: for(var _fun87254_ip = 0; ; ) switch(_fun87254_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             romeo = entity.thread;
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = output;
             options = entity.emojiSize;
             report = undefined;
-            if(!(options === report)) { _fun87254_ip = 64; continue _fun87254 }
+            if(!(options === report)) { _fun00008_ip = 64; continue _fun00007 }
  61:
             options = 14;
  64:
@@ -551,13 +551,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             yankee = backup.bind(kilo)(tango, yankee);
             backup = !zulu;
-            if(backup) { _fun87254_ip = 294; continue _fun87254 }
+            if(backup) { _fun00008_ip = 294; continue _fun00007 }
  291:
             backup = !entity;
  294:
             zulu = foxtrot.burst_count;
             entity = 0;
-            if(!(!(zulu > entity))) { _fun87254_ip = 394; continue _fun87254 }
+            if(!(!(zulu > entity))) { _fun00008_ip = 394; continue _fun00007 }
  306:
             tango = _closure1_slot6;
             zulu = _closure1_slot10;
@@ -577,7 +577,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['animate'] = golf;
             entity['animateCount'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun87254_ip = 501; continue _fun87254;
+            _fun00008_ip = 501; continue _fun00007;
  394:
             tango = _closure1_slot6;
             zulu = _closure1_slot9;
@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['selected'] = backup;
             backup = foxtrot.burst_colors;
             kilo = null;
-            if(!(kilo == backup)) { _fun87254_ip = 447; continue _fun87254 }
+            if(!(kilo == backup)) { _fun00008_ip = 447; continue _fun00007 }
  443:
             backup = new Array(0);
  447:

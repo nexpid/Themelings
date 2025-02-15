@@ -26,12 +26,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot6 = oscar;
     report = function(argFoo, argBar) { // Original name: getStreamerActivity
-        _fun75571: for(var _fun75571_ip = 0; ; ) switch(_fun75571_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
             zulu = entity != mike;
-            if(!zulu) { _fun75571_ip = 36; continue _fun75571 }
+            if(!zulu) { _fun00002_ip = 36; continue _fun00001 }
  12:
             report = _closure1_slot6;
             tango = mike.ownerId;
@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = report;
     tango = function(argFoo, argBar) { // Original name: getStreamerApplication
-        _fun75572: for(var _fun75572_ip = 0; ; ) switch(_fun75572_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = null;
-            if(!(entity != report)) { _fun75572_ip = 62; continue _fun75572 }
+            if(!(entity != report)) { _fun00004_ip = 62; continue _fun00003 }
  9:
             tango = _closure1_slot7;
             zulu = undefined;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(zulu)(report, mike);
             zulu = entity == tango;
             mike = null;
-            if(zulu) { _fun75572_ip = 60; continue _fun75572 }
+            if(zulu) { _fun00004_ip = 60; continue _fun00003 }
  36:
             zulu = {};
             report = tango.application_id;
@@ -72,20 +72,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = tango;
     entity = function(argFoo, argBar) { // Original name: streamApplicationEqualityCheck
-        _fun75573: for(var _fun75573_ip = 0; ; ) switch(_fun75573_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             entity = oscar === report;
-            if(entity) { _fun75573_ip = 63; continue _fun75573 }
+            if(entity) { _fun00006_ip = 63; continue _fun00005 }
  13:
             zulu = null;
             mike = zulu != oscar;
-            if(!mike) { _fun75573_ip = 26; continue _fun75573 }
+            if(!mike) { _fun00006_ip = 26; continue _fun00005 }
  22:
             mike = zulu != report;
  26:
-            if(!mike) { _fun75573_ip = 60; continue _fun75573 }
+            if(!mike) { _fun00006_ip = 60; continue _fun00005 }
  29:
             golf = _closure1_slot1;
             tango = _closure1_slot2;

@@ -41,7 +41,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.ROUTE;
     mike['type'] = tango;
     tango = function() { // Original name: getPremiumSettingTitle
-        _fun95729: for(var _fun95729_ip = 0; ; ) switch(_fun95729_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -67,11 +67,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = golf[mike];
             mike = report.bind(oscar)(mike);
             mike = mike.t;
-            if(entity) { _fun95729_ip = 124; continue _fun95729 }
+            if(entity) { _fun00002_ip = 124; continue _fun00001 }
  111:
             entity = mike.8x0jKS;
             entity = zulu.bind(tango)(entity);
-            _fun95729_ip = 135; continue _fun95729;
+            _fun00002_ip = 135; continue _fun00001;
  124:
             mike = mike.8jmdOD;
             entity = zulu.bind(tango)(mike);
@@ -88,7 +88,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.NitroWheelIcon;
     mike['IconComponent'] = tango;
     tango = function() { // Original name: canNavigateToPaymentSetting
-        _fun95730: for(var _fun95730_ip = 0; ; ) switch(_fun95730_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -106,7 +106,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = oscar.bind(golf)(report, entity);
             entity = entity.paymentsBlocked;
             entity = !entity;
-            if(entity) { _fun95730_ip = 96; continue _fun95730 }
+            if(entity) { _fun00004_ip = 96; continue _fun00003 }
  70:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

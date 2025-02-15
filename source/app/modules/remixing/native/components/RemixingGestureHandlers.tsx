@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     options = verify.memo;
     golf = function(argFoo) {
-        _fun84229: for(var _fun84229_ip = 0; ; ) switch(_fun84229_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             options = tango.components;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity == options;
             entity = undefined;
             report = undefined;
-            if(golf) { _fun84229_ip = 80; continue _fun84229 }
+            if(golf) { _fun00002_ip = 80; continue _fun00001 }
  63:
             golf = options.map;
             oscar = function(argFoo) {
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu;
                 entity = copyDataProperties(report, tango);
                 mike = function(argFoo) { // Original name: renderGestureHandler
-                    _fun84231: for(var _fun84231_ip = 0; ; ) switch(_fun84231_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         report = argFoo;
                         oscar = report.component;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.BACKDROP;
-                        if(!(mike !== zulu)) { _fun84231_ip = 662; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 662; continue _fun00003 }
  139:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.RECTANGLE;
-                        if(!(mike !== zulu)) { _fun84231_ip = 588; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 588; continue _fun00003 }
  175:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.IMAGE;
-                        if(!(mike !== zulu)) { _fun84231_ip = 588; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 588; continue _fun00003 }
  211:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.SVG;
-                        if(!(mike !== zulu)) { _fun84231_ip = 588; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 588; continue _fun00003 }
  247:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.MENTION_GLOBAL;
-                        if(!(mike !== zulu)) { _fun84231_ip = 588; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 588; continue _fun00003 }
  283:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.MENTION_ROLE;
-                        if(!(mike !== zulu)) { _fun84231_ip = 588; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 588; continue _fun00003 }
  319:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.MENTION_USER;
-                        if(!(mike !== zulu)) { _fun84231_ip = 482; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 482; continue _fun00003 }
  355:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = golf.bind(tango)(mike);
                         mike = mike.RemixElement;
                         mike = mike.TEXT;
-                        if(!(mike !== zulu)) { _fun84231_ip = 392; continue _fun84231 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 392; continue _fun00003 }
  388:
                         mike = null;
                         return mike;

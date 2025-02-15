@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = offset;
     var _closure1_slot2 = options;
     entity = function(argFoo, argBar, argBaz) { // Original name: _prepareMessageRequestBodyCloud
-        _fun56912: for(var _fun56912_ip = 0; ; ) switch(_fun56912_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = argBar;
@@ -37,9 +37,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = zulu.bind(tango)(entity);
             entity = null;
-            if(!(entity != oscar)) { _fun56912_ip = 44; continue _fun56912 }
+            if(!(entity != oscar)) { _fun00002_ip = 44; continue _fun00001 }
  40:
-            if(!(entity == mike)) { _fun56912_ip = 67; continue _fun56912 }
+            if(!(entity == mike)) { _fun00002_ip = 67; continue _fun00001 }
  44:
             entity = {};
             backup = entity;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = copyDataProperties(backup, foxtrot);
             zulu = 'attachments';
             entity[zulu] = offset;
-            _fun56912_ip = 164; continue _fun56912;
+            _fun00002_ip = 164; continue _fun00001;
  67:
             report = {};
             backup = report;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot6 = entity;
     oscar = function(argFoo) { // Original name: prepareMessageRequestHeaders
-        _fun56914: for(var _fun56914_ip = 0; ; ) switch(_fun56914_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = {};
             mike = argFoo;
@@ -100,14 +100,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getSuperPropertiesBase64;
             tango = zulu.bind(tango)();
             zulu = null;
-            if(!(zulu != tango)) { _fun56914_ip = 94; continue _fun56914 }
+            if(!(zulu != tango)) { _fun00004_ip = 94; continue _fun00003 }
  88:
             entity['X-Super-Properties'] = tango;
  94:
             tango = _closure1_slot4;
             mike = tango.getFingerprint;
             mike = mike.bind(tango)();
-            if(!(zulu != mike)) { _fun56914_ip = 118; continue _fun56914 }
+            if(!(zulu != mike)) { _fun00004_ip = 118; continue _fun00003 }
  112:
             entity['X-Fingerprint'] = mike;
  118:

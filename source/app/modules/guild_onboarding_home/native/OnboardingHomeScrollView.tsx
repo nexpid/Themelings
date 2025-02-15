@@ -52,13 +52,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding_home/native/OnboardingHomeScrollView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: OnboardingHomeScrollView
-        _fun112139: for(var _fun112139_ip = 0; ; ) switch(_fun112139_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.guildId;
             mike = entity.headerOffset;
             tango = undefined;
-            if(!(mike === tango)) { _fun112139_ip = 26; continue _fun112139 }
+            if(!(mike === tango)) { _fun00002_ip = 26; continue _fun00001 }
  24:
             mike = 0;
  26:
@@ -108,18 +108,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = zulu;
             zulu = function() {
-                _fun112141: for(var _fun112141_ip = 0; ; ) switch(_fun112141_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = null;
                     mike = mike == zulu;
-                    if(mike) { _fun112141_ip = 30; continue _fun112141 }
+                    if(mike) { _fun00004_ip = 30; continue _fun00003 }
  21:
                     zulu = _closure2_slot5;
                     mike = zulu.current;
  30:
-                    if(mike) { _fun112141_ip = 63; continue _fun112141 }
+                    if(mike) { _fun00004_ip = 63; continue _fun00003 }
  33:
                     mike = _closure2_slot3;
                     tango = mike.current;

@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/referral_program/hooks/useReferralProgramSubheaderText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun105036: for(var _fun105036_ip = 0; ; ) switch(_fun105036_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.numNewSelected;
@@ -59,11 +59,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = verify.bind(oscar)(golf, zulu);
             verify = options - report;
             zulu = 0;
-            if(!(zulu !== options)) { _fun105036_ip = 395; continue _fun105036 }
+            if(!(zulu !== options)) { _fun00002_ip = 395; continue _fun00001 }
  119:
-            if(!(zulu === report)) { _fun105036_ip = 194; continue _fun105036 }
+            if(!(zulu === report)) { _fun00002_ip = 194; continue _fun00001 }
  123:
-            if(entity) { _fun105036_ip = 194; continue _fun105036 }
+            if(entity) { _fun00002_ip = 194; continue _fun00001 }
  126:
             report = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -79,11 +79,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['numReferrals'] = options;
             entity = golf.bind(offset)(report, entity);
-            _fun105036_ip = 393; continue _fun105036;
+            _fun00002_ip = 393; continue _fun00001;
  194:
-            if(!(tango !== verify)) { _fun105036_ip = 335; continue _fun105036 }
+            if(!(tango !== verify)) { _fun00002_ip = 335; continue _fun00001 }
  201:
-            if(!(!(verify > zulu))) { _fun105036_ip = 270; continue _fun105036 }
+            if(!(!(verify > zulu))) { _fun00002_ip = 270; continue _fun00001 }
  205:
             tango = _closure1_slot0;
             offset = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = {};
             zulu['numReferrals'] = options;
             zulu = report.bind(golf)(tango, zulu);
-            _fun105036_ip = 333; continue _fun105036;
+            _fun00002_ip = 333; continue _fun00001;
  270:
             report = _closure1_slot0;
             offset = _closure1_slot2;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['numFriends'] = verify;
             zulu = golf.bind(options)(report, tango);
  333:
-            _fun105036_ip = 390; continue _fun105036;
+            _fun00002_ip = 390; continue _fun00001;
  335:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  390:
             entity = zulu;
  393:
-            _fun105036_ip = 450; continue _fun105036;
+            _fun00002_ip = 450; continue _fun00001;
  395:
             report = _closure1_slot0;
             golf = _closure1_slot2;

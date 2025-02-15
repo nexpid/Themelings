@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'getForumChannelSessionId';
         entity['key'] = report;
         mike = function(argFoo) { // Original name: value
-            _fun68684: for(var _fun68684_ip = 0; ; ) switch(_fun68684_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = argFoo;
                 entity = this;
                 zulu = entity.session;
                 mike = null;
-                if(!(mike == zulu)) { _fun68684_ip = 38; continue _fun68684 }
+                if(!(mike == zulu)) { _fun00002_ip = 38; continue _fun00001 }
  18:
                 zulu = _closure1_slot4;
                 mike = undefined;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  38:
                 mike = entity.session;
                 mike = mike.channelId;
-                if(!(mike !== tango)) { _fun68684_ip = 73; continue _fun68684 }
+                if(!(mike !== tango)) { _fun00002_ip = 73; continue _fun00001 }
  53:
                 zulu = _closure1_slot4;
                 mike = undefined;

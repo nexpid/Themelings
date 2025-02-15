@@ -38,14 +38,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['GuildSettingsFoundationExperiment'] = tango;
     tango = function(argFoo) { // Original name: getIsGuildSettingsFoundationExperimentEnabled
-        _fun73036: for(var _fun73036_ip = 0; ; ) switch(_fun73036_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.guildId;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun73036_ip = 27; continue _fun73036 }
+            if(!(report === mike)) { _fun00002_ip = 27; continue _fun00001 }
  25:
             report = true;
  27:
@@ -63,14 +63,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getIsGuildSettingsFoundationExperimentEnabled'] = tango;
     mike = function(argFoo) { // Original name: useIsGuildSettingsFoundationExperimentEnabled
-        _fun73037: for(var _fun73037_ip = 0; ; ) switch(_fun73037_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             oscar = mike.guildId;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun73037_ip = 27; continue _fun73037 }
+            if(!(report === mike)) { _fun00004_ip = 27; continue _fun00003 }
  25:
             report = true;
  27:

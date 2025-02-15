@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun102864: for(var _fun102864_ip = 0; ; ) switch(_fun102864_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun102864_ip = 49; continue _fun102864 }
+                if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  16:
                 report = _closure1_slot3;
                 tango = report.can;
@@ -72,14 +72,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useCanSendStageStartNotification'] = tango;
     mike = function(argFoo) { // Original name: useDefaultSendStartStageNotificationToggle
-        _fun102865: for(var _fun102865_ip = 0; ; ) switch(_fun102865_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = null;
             tango = mike == entity;
             golf = undefined;
             options = undefined;
-            if(tango) { _fun102865_ip = 23; continue _fun102865 }
+            if(tango) { _fun00004_ip = 23; continue _fun00003 }
  18:
             options = entity.guild_id;
  23:
@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             tango = oscar.bind(golf)(report, zulu, tango);
             entity = mike == entity;
-            if(entity) { _fun102865_ip = 116; continue _fun102865 }
+            if(entity) { _fun00004_ip = 116; continue _fun00003 }
  96:
             mike = mike == tango;
-            if(mike) { _fun102865_ip = 113; continue _fun102865 }
+            if(mike) { _fun00004_ip = 113; continue _fun00003 }
  103:
             zulu = 50000;
             mike = tango > zulu;

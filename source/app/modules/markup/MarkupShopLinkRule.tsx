@@ -37,14 +37,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options = ['h'];
     tango['requiredFirstCharacters'] = options;
     options = function(argFoo) { // Original name: match
-        _fun61854: for(var _fun61854_ip = 0; ; ) switch(_fun61854_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             mike = tango.exec;
             entity = argFoo;
             entity = mike.bind(tango)(entity);
             mike = null;
-            if(!(mike != entity)) { _fun61854_ip = 71; continue _fun61854 }
+            if(!(mike != entity)) { _fun00002_ip = 71; continue _fun00001 }
  27:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.getCollectiblesShopLinkMentionEnabled;
             zulu = 'MarkupShopLinkRule';
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun61854_ip = 71; continue _fun61854 }
+            if(zulu) { _fun00002_ip = 71; continue _fun00001 }
  69:
             return mike;
  71:

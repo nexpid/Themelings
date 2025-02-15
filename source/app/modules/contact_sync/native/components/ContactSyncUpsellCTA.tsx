@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = entity.FormCTA;
         entity = {};
         yankee = function() { // Original name: onPress
-            _fun107438: for(var _fun107438_ip = 0; ; ) switch(_fun107438_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = options != mike;
                 mike = 'Friends List Upsell';
                 yankee = mike;
-                if(!romeo) { _fun107438_ip = 87; continue _fun107438 }
+                if(!romeo) { _fun00002_ip = 87; continue _fun00001 }
  83:
                 yankee = _closure2_slot0;
  87:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = {};
                 golf = _closure2_slot0;
                 golf = options != golf;
-                if(!golf) { _fun107438_ip = 145; continue _fun107438 }
+                if(!golf) { _fun00002_ip = 145; continue _fun00001 }
  141:
                 mike = _closure2_slot0;
  145:

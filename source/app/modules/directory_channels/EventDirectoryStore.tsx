@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun76089: for(var _fun76089_ip = 0; ; ) switch(_fun76089_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot16;
             entity = entity.bind(zulu)();
-            if(entity) { _fun76089_ip = 51; continue _fun76089 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun76089_ip = 92; continue _fun76089;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun76089_ip = 71; continue _fun76089 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot15 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun76090: for(var _fun76090_ip = 0; ; ) switch(_fun76090_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun76090_ip = 76; continue _fun76090;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getEventDirectoryEntries';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun76097: for(var _fun76097_ip = 0; ; ) switch(_fun76097_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity == mike)) { _fun76097_ip = 13; continue _fun76097 }
+                if(!(entity == mike)) { _fun00006_ip = 13; continue _fun00005 }
  9:
                 entity = undefined;
                 return entity;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getCachedGuildByEventId';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun76098: for(var _fun76098_ip = 0; ; ) switch(_fun76098_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = _closure1_slot13;
                 entity = argFoo;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = null;
                 zulu = entity != mike;
                 entity = undefined;
-                if(!zulu) { _fun76098_ip = 28; continue _fun76098 }
+                if(!zulu) { _fun00008_ip = 28; continue _fun00007 }
  25:
                 entity = mike;
  28:
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getCachedGuildScheduledEventById';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun76099: for(var _fun76099_ip = 0; ; ) switch(_fun76099_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 mike = _closure1_slot12;
                 entity = argFoo;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = null;
                 zulu = entity != mike;
                 entity = undefined;
-                if(!zulu) { _fun76099_ip = 28; continue _fun76099 }
+                if(!zulu) { _fun00010_ip = 28; continue _fun00009 }
  25:
                 entity = mike;
  28:

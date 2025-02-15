@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun76215: for(var _fun76215_ip = 0; ; ) switch(_fun76215_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.children;
@@ -146,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(3);
             golf[0] = verify;
             verify = !backup;
-            if(!verify) { _fun76215_ip = 222; continue _fun76215 }
+            if(!verify) { _fun00002_ip = 222; continue _fun00001 }
  216:
             verify = sizing.paddedContainer;
  222:
             golf[1] = verify;
             verify = !backup;
-            if(!verify) { _fun76215_ip = 249; continue _fun76215 }
+            if(!verify) { _fun00002_ip = 249; continue _fun00001 }
  232:
             offset = {};
             kilo = 16;
@@ -189,13 +189,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(3);
             foxtrot[0] = kilo;
             kilo = !backup;
-            if(!kilo) { _fun76215_ip = 375; continue _fun76215 }
+            if(!kilo) { _fun00002_ip = 375; continue _fun00001 }
  369:
             kilo = sizing.paddedContainer;
  375:
             foxtrot[1] = kilo;
             backup = !backup;
-            if(!backup) { _fun76215_ip = 402; continue _fun76215 }
+            if(!backup) { _fun00002_ip = 402; continue _fun00001 }
  385:
             kilo = {};
             sizing = 16;

@@ -6,14 +6,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     tango = function() { // Original name: useAndroidMessageNotificationsSettingValue
-        _fun97907: for(var _fun97907_ip = 0; ; ) switch(_fun97907_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot2;
             entity = undefined;
             mike = mike.bind(entity)();
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun97907_ip = 25; continue _fun97907 }
+            if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  22:
             entity = mike;
  25:
@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
         }
     };
     mike = function() { // Original name: useHasAndroidMessageNotificationsSetting
-        _fun97908: for(var _fun97908_ip = 0; ; ) switch(_fun97908_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot2;
             tango = undefined;
@@ -33,7 +33,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = mike.bind(tango)(entity);
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
-            if(!entity) { _fun97908_ip = 51; continue _fun97908 }
+            if(!entity) { _fun00004_ip = 51; continue _fun00003 }
  45:
             mike = null;
             entity = mike != zulu;

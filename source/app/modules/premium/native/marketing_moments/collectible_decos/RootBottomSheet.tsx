@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/native/marketing_moments/collectible_decos/RootBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RootBottomSheet
-        _fun120800: for(var _fun120800_ip = 0; ; ) switch(_fun120800_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.markAsDismissed;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             output = vacuum[sizing];
             output = control.bind(tango)(output);
             output = output.t;
-            if(kilo) { _fun120800_ip = 502; continue _fun120800 }
+            if(kilo) { _fun00002_ip = 502; continue _fun00001 }
  463:
             result = output.DVBfMD;
             kilo = {};
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = source.Q1_2025_MARKETING_SUPPORT_URL;
             kilo['termsLink'] = source;
             kilo = echo.bind(update)(result, kilo);
-            _fun120800_ip = 539; continue _fun120800;
+            _fun00002_ip = 539; continue _fun00001;
  502:
             result = output.KCvBj4;
             output = {};

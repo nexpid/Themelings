@@ -8,19 +8,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: createRequestToSpeakEphemeralIndication
-        _fun72523: for(var _fun72523_ip = 0; ; ) switch(_fun72523_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argFoo;
             mike = romeo.hasFlag;
             entity = _closure1_slot9;
             entity = entity.EPHEMERAL;
             entity = mike.bind(romeo)(entity);
-            if(!entity) { _fun72523_ip = 49; continue _fun72523 }
+            if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  30:
             mike = romeo.type;
             entity = _closure1_slot10;
             entity = entity.STAGE_RAISE_HAND;
-            if(!(mike !== entity)) { _fun72523_ip = 53; continue _fun72523 }
+            if(!(mike !== entity)) { _fun00002_ip = 53; continue _fun00001 }
  49:
             entity = undefined;
             return entity;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/StageRaiseHandSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: StageRaiseHandSystemMessage
-        _fun72524: for(var _fun72524_ip = 0; ; ) switch(_fun72524_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             verify = mike.row;
@@ -235,18 +235,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             zulu = options == report;
             kilo = undefined;
-            if(zulu) { _fun72524_ip = 416; continue _fun72524 }
+            if(zulu) { _fun00004_ip = 416; continue _fun00003 }
  395:
             zulu = report.voiceState;
             output = options == zulu;
             kilo = undefined;
-            if(output) { _fun72524_ip = 416; continue _fun72524 }
+            if(output) { _fun00004_ip = 416; continue _fun00003 }
  410:
             kilo = zulu.requestToSpeakTimestamp;
  416:
             output = options != kilo;
             zulu = 0;
-            if(!output) { _fun72524_ip = 428; continue _fun72524 }
+            if(!output) { _fun00004_ip = 428; continue _fun00003 }
  425:
             zulu = kilo;
  428:
@@ -259,11 +259,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = kilo.toISOString;
             zulu = zulu.bind(kilo)();
             zulu = backup === zulu;
-            if(!golf) { _fun72524_ip = 519; continue _fun72524 }
+            if(!golf) { _fun00004_ip = 519; continue _fun00003 }
  468:
             backup = options == report;
             options = undefined;
-            if(backup) { _fun72524_ip = 483; continue _fun72524 }
+            if(backup) { _fun00004_ip = 483; continue _fun00003 }
  477:
             options = report.rtsState;
  483:
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.REQUESTED_TO_SPEAK;
             golf = options === report;
  519:
-            if(!golf) { _fun72524_ip = 525; continue _fun72524 }
+            if(!golf) { _fun00004_ip = 525; continue _fun00003 }
  522:
             golf = zulu;
  525:
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.id;
             zulu[4] = mike;
             mike = function() {
-                _fun72529: for(var _fun72529_ip = 0; ; ) switch(_fun72529_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = _closure2_slot0;
                     options = 'username';
                     golf = null;
-                    if(!(options === verify)) { _fun72529_ip = 112; continue _fun72529 }
+                    if(!(options === verify)) { _fun00006_ip = 112; continue _fun00005 }
  108:
                     golf = _closure2_slot4;
  112:
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createStageRaiseHandSystemMessage
-        _fun72531: for(var _fun72531_ip = 0; ; ) switch(_fun72531_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             golf = tango.message;
@@ -424,18 +424,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             entity = foxtrot == report;
             verify = undefined;
-            if(entity) { _fun72531_ip = 253; continue _fun72531 }
+            if(entity) { _fun00008_ip = 253; continue _fun00007 }
  232:
             entity = report.voiceState;
             yankee = foxtrot == entity;
             verify = undefined;
-            if(yankee) { _fun72531_ip = 253; continue _fun72531 }
+            if(yankee) { _fun00008_ip = 253; continue _fun00007 }
  247:
             verify = entity.requestToSpeakTimestamp;
  253:
             yankee = foxtrot != verify;
             entity = 0;
-            if(!yankee) { _fun72531_ip = 265; continue _fun72531 }
+            if(!yankee) { _fun00008_ip = 265; continue _fun00007 }
  262:
             entity = verify;
  265:
@@ -448,11 +448,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = verify.toISOString;
             entity = entity.bind(verify)();
             entity = options === entity;
-            if(!oscar) { _fun72531_ip = 356; continue _fun72531 }
+            if(!oscar) { _fun00008_ip = 356; continue _fun00007 }
  305:
             verify = foxtrot == report;
             options = undefined;
-            if(verify) { _fun72531_ip = 320; continue _fun72531 }
+            if(verify) { _fun00008_ip = 320; continue _fun00007 }
  314:
             options = report.rtsState;
  320:
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.REQUESTED_TO_SPEAK;
             oscar = options === report;
  356:
-            if(!oscar) { _fun72531_ip = 362; continue _fun72531 }
+            if(!oscar) { _fun00008_ip = 362; continue _fun00007 }
  359:
             oscar = entity;
  362:
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['userId'] = kilo;
             kilo = 'username';
             foxtrot = null;
-            if(!(kilo === sizing)) { _fun72531_ip = 455; continue _fun72531 }
+            if(!(kilo === sizing)) { _fun00008_ip = 455; continue _fun00007 }
  452:
             foxtrot = backup;
  455:

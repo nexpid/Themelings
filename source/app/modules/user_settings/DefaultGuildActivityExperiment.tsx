@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['DefaultGuildActivityExperiment'] = report;
     zulu['DefaultGuildActivityExperimentNewUsers'] = tango;
     tango = function(argFoo) {
-        _fun35522: for(var _fun35522_ip = 0; ; ) switch(_fun35522_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot0;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = report.bind(golf)(tango, entity);
             entity = entity.enabled;
-            if(entity) { _fun35522_ip = 79; continue _fun35522 }
+            if(entity) { _fun00002_ip = 79; continue _fun00001 }
  45:
             report = _closure1_slot1;
             tango = report.getCurrentConfig;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForDefaultGuildActivity'] = tango;
     mike = function(argFoo) {
-        _fun35523: for(var _fun35523_ip = 0; ; ) switch(_fun35523_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot0;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             mike = mike.enabled;
-            if(entity) { _fun35523_ip = 82; continue _fun35523 }
+            if(entity) { _fun00004_ip = 82; continue _fun00003 }
  79:
             entity = mike;
  82:

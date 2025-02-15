@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChannelUnreadBadge
-        _fun114756: for(var _fun114756_ip = 0; ; ) switch(_fun114756_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.unread;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.launchpad;
             kilo = entity.panelVariant;
             report = undefined;
-            if(!(kilo === report)) { _fun114756_ip = 53; continue _fun114756 }
+            if(!(kilo === report)) { _fun00002_ip = 53; continue _fun00001 }
  51:
             kilo = false;
  53:
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.useFontScale;
             sizing = entity.bind(zulu)();
             entity = null;
-            if(!mike) { _fun114756_ip = 366; continue _fun114756 }
+            if(!mike) { _fun00002_ip = 366; continue _fun00001 }
  126:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -94,16 +94,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(4);
             oscar[0] = offset;
             offset = undefined;
-            if(!kilo) { _fun114756_ip = 161; continue _fun114756 }
+            if(!kilo) { _fun00002_ip = 161; continue _fun00001 }
  155:
             offset = foxtrot.unreadBadgePanel;
  161:
             oscar[1] = offset;
             offset = golf.unreadBadge;
-            if(verify) { _fun114756_ip = 181; continue _fun114756 }
+            if(verify) { _fun00002_ip = 181; continue _fun00001 }
  174:
             verify = offset.position;
-            _fun114756_ip = 187; continue _fun114756;
+            _fun00002_ip = 187; continue _fun00001;
  181:
             verify = offset.positionThread;
  187:
@@ -138,9 +138,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             foxtrot = _closure1_slot5;
             foxtrot = foxtrot.ALL_MESSAGES;
-            if(!(backup === foxtrot)) { _fun114756_ip = 329; continue _fun114756 }
+            if(!(backup === foxtrot)) { _fun00002_ip = 329; continue _fun00001 }
  326:
-            if(!romeo) { _fun114756_ip = 333; continue _fun114756 }
+            if(!romeo) { _fun00002_ip = 333; continue _fun00001 }
  329:
             verify = _closure1_slot4;
  333:

@@ -108,13 +108,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: VoiceOrStageSummaryRow
-        _fun121127: for(var _fun121127_ip = 0; ; ) switch(_fun121127_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.users;
             oscar = entity.max;
             tango = undefined;
-            if(!(oscar === tango)) { _fun121127_ip = 25; continue _fun121127 }
+            if(!(oscar === tango)) { _fun00002_ip = 25; continue _fun00001 }
  22:
             oscar = 5;
  25:
@@ -159,20 +159,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = oscar;
             oscar = yankee.map;
             report = function(argFoo, argBar) {
-                _fun121128: for(var _fun121128_ip = 0; ; ) switch(_fun121128_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     options = argBar;
                     entity = _closure2_slot0;
-                    if(!(!(options >= entity))) { _fun121128_ip = 384; continue _fun121128 }
+                    if(!(!(options >= entity))) { _fun00004_ip = 384; continue _fun00003 }
  17:
                     entity = _closure2_slot0;
                     romeo = 1;
                     entity = entity - romeo;
-                    if(!(options === entity)) { _fun121128_ip = 45; continue _fun121128 }
+                    if(!(options === entity)) { _fun00004_ip = 45; continue _fun00003 }
  32:
                     entity = _closure2_slot3;
                     golf = 0;
-                    if(!(!(entity > golf))) { _fun121128_ip = 194; continue _fun121128 }
+                    if(!(!(entity > golf))) { _fun00004_ip = 194; continue _fun00003 }
  45:
                     tango = _closure1_slot4;
                     zulu = _closure1_slot3;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report[0] = oscar;
                     oscar = 0;
                     oscar = oscar !== options;
-                    if(!oscar) { _fun121128_ip = 101; continue _fun121128 }
+                    if(!oscar) { _fun00004_ip = 101; continue _fun00003 }
  85:
                     verify = {};
                     offset = -12;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = verify.bind(entity)(oscar, report);
                     mike['children'] = report;
                     entity = tango.bind(entity)(zulu, mike, options);
-                    _fun121128_ip = 382; continue _fun121128;
+                    _fun00004_ip = 382; continue _fun00003;
  194:
                     oscar = _closure1_slot4;
                     report = _closure1_slot3;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(2);
                     mike[0] = verify;
                     golf = golf !== options;
-                    if(!golf) { _fun121128_ip = 248; continue _fun121128 }
+                    if(!golf) { _fun00004_ip = 248; continue _fun00003 }
  232:
                     options = {};
                     verify = -12;
@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = null;
             oscar = oscar != output;
-            if(!oscar) { _fun121127_ip = 227; continue _fun121127 }
+            if(!oscar) { _fun00002_ip = 227; continue _fun00001 }
  223:
             oscar = output > romeo;
  227:
-            if(!oscar) { _fun121127_ip = 508; continue _fun121127 }
+            if(!oscar) { _fun00002_ip = 508; continue _fun00001 }
  233:
             verify = _closure1_slot4;
             options = _closure1_slot3;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[0] = foxtrot;
             yankee = yankee.length;
             yankee = yankee > romeo;
-            if(!yankee) { _fun121127_ip = 285; continue _fun121127 }
+            if(!yankee) { _fun00002_ip = 285; continue _fun00001 }
  269:
             romeo = {};
             foxtrot = -12;

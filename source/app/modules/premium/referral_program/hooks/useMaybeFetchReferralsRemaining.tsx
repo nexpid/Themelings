@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/referral_program/hooks/useMaybeFetchReferralsRemaining.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun104949: for(var _fun104949_ip = 0; ; ) switch(_fun104949_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = arguments[1];
             entity = undefined;
-            if(!(oscar === entity)) { _fun104949_ip = 13; continue _fun104949 }
+            if(!(oscar === entity)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             oscar = false;
  13:
@@ -83,19 +83,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = argFoo;
             golf = options.bind(verify)(golf);
             golf = golf.eligibleToFetch;
-            if(!golf) { _fun104949_ip = 176; continue _fun104949 }
+            if(!golf) { _fun00002_ip = 176; continue _fun00001 }
  153:
             options = null;
             options = options == yankee;
             verify = undefined;
-            if(options) { _fun104949_ip = 170; continue _fun104949 }
+            if(options) { _fun00002_ip = 170; continue _fun00001 }
  164:
             verify = yankee.verified;
  170:
             options = true;
             golf = options === verify;
  176:
-            if(!golf) { _fun104949_ip = 221; continue _fun104949 }
+            if(!golf) { _fun00002_ip = 221; continue _fun00001 }
  179:
             verify = _closure1_slot0;
             offset = _closure1_slot1;
@@ -107,11 +107,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.TIER_2;
             golf = verify.bind(offset)(yankee, options);
  221:
-            if(!golf) { _fun104949_ip = 227; continue _fun104949 }
+            if(!golf) { _fun00002_ip = 227; continue _fun00001 }
  224:
             golf = !report;
  227:
-            if(!golf) { _fun104949_ip = 233; continue _fun104949 }
+            if(!golf) { _fun00002_ip = 233; continue _fun00001 }
  230:
             golf = !tango;
  233:
@@ -122,15 +122,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = oscar;
             mike = function() {
-                _fun104951: for(var _fun104951_ip = 0; ; ) switch(_fun104951_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun104951_ip = 17; continue _fun104951 }
+                    if(!entity) { _fun00004_ip = 17; continue _fun00003 }
  10:
                     mike = _closure2_slot0;
                     entity = !mike;
  17:
-                    if(!entity) { _fun104951_ip = 37; continue _fun104951 }
+                    if(!entity) { _fun00004_ip = 37; continue _fun00003 }
  20:
                     mike = _closure1_slot4;
                     entity = mike.checkAndFetchReferralsRemaining;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: BadgedSettingsIcon
-        _fun116712: for(var _fun116712_ip = 0; ; ) switch(_fun116712_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             output = entity.color;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             oscar = foxtrot.container;
             entity['style'] = oscar;
-            if(report) { _fun116712_ip = 104; continue _fun116712 }
+            if(report) { _fun00002_ip = 104; continue _fun00001 }
  49:
             golf = _closure1_slot4;
             oscar = _closure1_slot0;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['size'] = options;
             report['color'] = output;
             report = golf.bind(tango)(oscar, report);
-            _fun116712_ip = 261; continue _fun116712;
+            _fun00002_ip = 261; continue _fun00001;
  104:
             options = _closure1_slot5;
             golf = _closure1_slot3;

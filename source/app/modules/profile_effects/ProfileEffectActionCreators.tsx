@@ -59,15 +59,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun77104: for(var _fun77104_ip = 0; ; ) switch(_fun77104_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     tango = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun77104_ip = 415; continue _fun77104 }
+                    if(mike) { _fun00002_ip = 415; continue _fun00001 }
  13:
                     zulu = undefined;
-                    if(!(tango === zulu)) { _fun77104_ip = 21; continue _fun77104 }
+                    if(!(tango === zulu)) { _fun00002_ip = 21; continue _fun00001 }
  19:
                     tango = false;
  21:
@@ -77,23 +77,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscar) { _fun77104_ip = 412; continue _fun77104 }
+                    if(oscar) { _fun00002_ip = 412; continue _fun00001 }
  36:
-                    if(tango) { _fun77104_ip = 62; continue _fun77104 }
+                    if(tango) { _fun00002_ip = 62; continue _fun00001 }
  39:
                     oscar = _closure1_slot4;
                     tango = oscar.hasFetched;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun77104_ip = 409; continue _fun77104 }
+                    if(tango) { _fun00002_ip = 409; continue _fun00001 }
  62:
                     tango = _closure1_slot4;
                     tango = tango.isFetching;
-                    if(tango) { _fun77104_ip = 409; continue _fun77104 }
+                    if(tango) { _fun00002_ip = 409; continue _fun00001 }
  81:
                     oscar = _closure1_slot4;
                     tango = oscar.canFetch;
                     tango = tango.bind(oscar)();
-                    if(!tango) { _fun77104_ip = 409; continue _fun77104 }
+                    if(!tango) { _fun00002_ip = 409; continue _fun00001 }
  103:
                     golf = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -125,14 +125,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  206:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun77104_ip = 299; continue _fun77104 }
+                    if(golf) { _fun00002_ip = 299; continue _fun00001 }
  212:
                     verify = tango.body;
                     report = verify;
                     golf = null;
                     golf = golf == verify;
                     verify = undefined;
-                    if(golf) { _fun77104_ip = 239; continue _fun77104 }
+                    if(golf) { _fun00002_ip = 239; continue _fun00001 }
  231:
                     verify = report.profile_effect_configs;
  239:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['profileEffects'] = offset;
                     report = golf.bind(verify)(report);
  297: // try_end0
-                    _fun77104_ip = 409; continue _fun77104;
+                    _fun00002_ip = 409; continue _fun00001;
  299:
                     return tango;
  302: // catch_target0

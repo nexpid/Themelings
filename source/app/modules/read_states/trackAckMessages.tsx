@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/read_states/trackAckMessages.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackAckMessages
-        _fun105413: for(var _fun105413_ip = 0; ; ) switch(_fun105413_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             mike = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = null;
             options = golf == verify;
             golf = undefined;
-            if(options) { _fun105413_ip = 85; continue _fun105413 }
+            if(options) { _fun00002_ip = 85; continue _fun00001 }
  75:
             options = verify.getGuildId;
             golf = options.bind(verify)();

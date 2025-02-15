@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/native/base_components/EntityBorderAppIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EntityBorderAppIcon
-        _fun118515: for(var _fun118515_ip = 0; ; ) switch(_fun118515_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.iconSource;
@@ -77,12 +77,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = entity.iconStyle;
             zulu = entity.iconSize;
             tango = undefined;
-            if(!(zulu === tango)) { _fun118515_ip = 36; continue _fun118515 }
+            if(!(zulu === tango)) { _fun00002_ip = 36; continue _fun00001 }
  33:
             zulu = 32;
  36:
             mike = entity.iconBorderRadius;
-            if(!(mike === tango)) { _fun118515_ip = 53; continue _fun118515 }
+            if(!(mike === tango)) { _fun00002_ip = 53; continue _fun00001 }
  46:
             mike = _closure1_slot4;
  53:

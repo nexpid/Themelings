@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo) {
-        _fun87805: for(var _fun87805_ip = 0; ; ) switch(_fun87805_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = {};
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = oscar < report;
             tango = '50%';
             zulu = tango;
-            if(!golf) { _fun87805_ip = 138; continue _fun87805 }
+            if(!golf) { _fun00002_ip = 138; continue _fun00001 }
  132:
             zulu = '60%';
  138:
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['promotionalHeader'] = mike;
             mike = {};
             report = oscar < report;
-            if(!report) { _fun87805_ip = 171; continue _fun87805 }
+            if(!report) { _fun00002_ip = 171; continue _fun00001 }
  165:
             tango = '60%';
  171:
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: PremiumGiftPlanSelectPromotionalBanner
-        _fun87806: for(var _fun87806_ip = 0; ; ) switch(_fun87806_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             entity = entity.claimableRewards;
@@ -110,41 +110,41 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             mike = verify == entity;
             golf = undefined;
-            if(mike) { _fun87806_ip = 84; continue _fun87806 }
+            if(mike) { _fun00004_ip = 84; continue _fun00003 }
  63:
             mike = entity.planSelection;
             zulu = verify == mike;
             golf = undefined;
-            if(zulu) { _fun87806_ip = 84; continue _fun87806 }
+            if(zulu) { _fun00004_ip = 84; continue _fun00003 }
  78:
             golf = mike.gradient;
  84:
             mike = verify == entity;
             kilo = undefined;
-            if(mike) { _fun87806_ip = 118; continue _fun87806 }
+            if(mike) { _fun00004_ip = 118; continue _fun00003 }
  93:
             zulu = entity.planSelection;
             mike = verify == zulu;
             kilo = undefined;
-            if(mike) { _fun87806_ip = 118; continue _fun87806 }
+            if(mike) { _fun00004_ip = 118; continue _fun00003 }
  108:
             mike = zulu.heading;
             kilo = mike.bind(zulu)();
  118:
             zulu = verify == entity;
             mike = undefined;
-            if(zulu) { _fun87806_ip = 148; continue _fun87806 }
+            if(zulu) { _fun00004_ip = 148; continue _fun00003 }
  127:
             zulu = entity.planSelection;
             tango = verify == zulu;
             mike = undefined;
-            if(tango) { _fun87806_ip = 148; continue _fun87806 }
+            if(tango) { _fun00004_ip = 148; continue _fun00003 }
  142:
             mike = zulu.subheading;
  148:
             mike = verify != mike;
             yankee = undefined;
-            if(!mike) { _fun87806_ip = 174; continue _fun87806 }
+            if(!mike) { _fun00004_ip = 174; continue _fun00003 }
  157:
             mike = entity.planSelection;
             entity = mike.subheading;
@@ -152,11 +152,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  174:
             mike = verify != golf;
             entity = null;
-            if(!mike) { _fun87806_ip = 432; continue _fun87806 }
+            if(!mike) { _fun00004_ip = 432; continue _fun00003 }
  186:
             mike = verify != kilo;
             entity = null;
-            if(!mike) { _fun87806_ip = 432; continue _fun87806 }
+            if(!mike) { _fun00004_ip = 432; continue _fun00003 }
  198:
             tango = _closure1_slot5;
             zulu = _closure1_slot1;
@@ -190,11 +190,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = golf;
             golf = 1;
             golf = offset > golf;
-            if(!golf) { _fun87806_ip = 353; continue _fun87806 }
+            if(!golf) { _fun00004_ip = 353; continue _fun00003 }
  349:
             golf = verify != yankee;
  353:
-            if(!golf) { _fun87806_ip = 418; continue _fun87806 }
+            if(!golf) { _fun00004_ip = 418; continue _fun00003 }
  356:
             offset = _closure1_slot4;
             verify = _closure1_slot0;

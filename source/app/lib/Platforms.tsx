@@ -1269,13 +1269,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot4 = mike;
     golf = options.forEach;
     mike = function(argFoo) {
-        _fun59330: for(var _fun59330_ip = 0; ; ) switch(_fun59330_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
             zulu = mike.domains;
             mike = null;
-            if(!(mike != zulu)) { _fun59330_ip = 36; continue _fun59330 }
+            if(!(mike != zulu)) { _fun00002_ip = 36; continue _fun00001 }
  21:
             mike = zulu.forEach;
             entity = function(argFoo) {
@@ -1295,14 +1295,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = golf.bind(options)(mike);
     mike = {};
     golf = function(argFoo) { // Original name: get
-        _fun59332: for(var _fun59332_ip = 0; ; ) switch(_fun59332_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot3;
             entity = argFoo;
             mike = mike[entity];
             entity = null;
             zulu = entity != mike;
-            if(!zulu) { _fun59332_ip = 26; continue _fun59332 }
+            if(!zulu) { _fun00004_ip = 26; continue _fun00003 }
  23:
             entity = mike;
  26:
@@ -1311,7 +1311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['get'] = golf;
     golf = function(argFoo) { // Original name: getByUrl
-        _fun59333: for(var _fun59333_ip = 0; ; ) switch(_fun59333_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -1323,7 +1323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = argFoo;
             mike = tango.bind(report)(mike);
             tango = null;
-            if(!(tango == mike)) { _fun59333_ip = 47; continue _fun59333 }
+            if(!(tango == mike)) { _fun00006_ip = 47; continue _fun00005 }
  45:
             return zulu;
  47:
@@ -1332,7 +1332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'www.';
             zulu = zulu.bind(report)(mike);
             mike = report;
-            if(!zulu) { _fun59333_ip = 89; continue _fun59333 }
+            if(!zulu) { _fun00006_ip = 89; continue _fun00005 }
  76:
             tango = report.slice;
             zulu = 4;

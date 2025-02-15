@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'design/tokens/native/useToken.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useToken
-        _fun47682: for(var _fun47682_ip = 0; ; ) switch(_fun47682_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             foxtrot = argFoo;
             romeo = argBar;
@@ -71,12 +71,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.useThemeContext;
             backup = entity.bind(mike)();
             report = null;
-            if(!(report == romeo)) { _fun47682_ip = 53; continue _fun47682 }
+            if(!(report == romeo)) { _fun00002_ip = 53; continue _fun00001 }
  47:
             romeo = backup.theme;
  53:
             entity = foxtrot;
-            if(!(report != entity)) { _fun47682_ip = 475; continue _fun47682 }
+            if(!(report != entity)) { _fun00002_ip = 475; continue _fun00001 }
  63:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.isSemanticColor;
             mike = mike.bind(zulu)(foxtrot);
             offset = foxtrot;
-            if(!mike) { _fun47682_ip = 139; continue _fun47682 }
+            if(!mike) { _fun00002_ip = 139; continue _fun00001 }
  105:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -112,11 +112,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.get;
             offset = mike.bind(zulu)(oscar);
             zulu = offset;
-            if(!(report == offset)) { _fun47682_ip = 445; continue _fun47682 }
+            if(!(report == offset)) { _fun00002_ip = 445; continue _fun00001 }
  205:
             verify = 'string';
             mike = typeof foxtrot;
-            if(!(verify !== mike)) { _fun47682_ip = 324; continue _fun47682 }
+            if(!(verify !== mike)) { _fun00002_ip = 324; continue _fun00001 }
  216:
             verify = _closure1_slot1;
             mike = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = verify.isSemanticColor;
             mike = mike.bind(verify)(foxtrot);
             zulu = offset;
-            if(!mike) { _fun47682_ip = 445; continue _fun47682 }
+            if(!mike) { _fun00002_ip = 445; continue _fun00001 }
  259:
             verify = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -141,17 +141,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = kilo.getSemanticColorContextFromThemeContext;
             mike = mike.bind(kilo)(backup);
             zulu = verify.bind(yankee)(romeo, foxtrot, mike);
-            _fun47682_ip = 445; continue _fun47682;
+            _fun00002_ip = 445; continue _fun00001;
  324:
             yankee = foxtrot[options];
             verify = '#';
             mike = foxtrot;
-            if(!(verify !== yankee)) { _fun47682_ip = 472; continue _fun47682 }
+            if(!(verify !== yankee)) { _fun00002_ip = 472; continue _fun00001 }
  342:
             verify = _closure1_slot4;
             verify = foxtrot in verify;
             zulu = offset;
-            if(!verify) { _fun47682_ip = 445; continue _fun47682 }
+            if(!verify) { _fun00002_ip = 445; continue _fun00001 }
  356:
             verify = _closure1_slot1;
             kilo = _closure1_slot2;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  445:
             report = report != zulu;
             mike = undefined;
-            if(!report) { _fun47682_ip = 472; continue _fun47682 }
+            if(!report) { _fun00002_ip = 472; continue _fun00001 }
  454:
             report = _closure1_slot3;
             tango = report.set;

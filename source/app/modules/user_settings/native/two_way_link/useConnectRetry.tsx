@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun80638: for(var _fun80638_ip = 0; ; ) switch(_fun80638_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = zulu.getState;
@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 };
                 tango = tango.bind(entity)(zulu);
                 zulu = 0;
-                if(!(!(tango >= zulu))) { _fun80638_ip = 65; continue _fun80638 }
+                if(!(!(tango >= zulu))) { _fun00002_ip = 65; continue _fun00001 }
  49:
                 report = _closure2_slot0;
                 zulu = report.popToTop;
                 zulu = zulu.bind(report)();
-                _fun80638_ip = 96; continue _fun80638;
+                _fun00002_ip = 96; continue _fun00001;
  65:
                 zulu = _closure2_slot0;
                 mike = zulu.pop;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: ActivityActionOverlay
-        _fun122152: for(var _fun122152_ip = 0; ; ) switch(_fun122152_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.action;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.ActivityAction;
             entity = entity.JOIN;
-            if(!(entity !== golf)) { _fun122152_ip = 173; continue _fun122152 }
+            if(!(entity !== golf)) { _fun00002_ip = 173; continue _fun00001 }
  136:
             mike = _closure1_slot0;
             entity = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             entity = entity.ActivityAction;
             entity = entity.LEAVE;
-            if(!(entity !== golf)) { _fun122152_ip = 173; continue _fun122152 }
+            if(!(entity !== golf)) { _fun00002_ip = 173; continue _fun00001 }
  169:
             entity = null;
             return entity;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.ActivityAction;
             report = report.LEAVE;
             golf = golf === report;
-            if(!golf) { _fun122152_ip = 261; continue _fun122152 }
+            if(!golf) { _fun00002_ip = 261; continue _fun00001 }
  219:
             romeo = _closure1_slot7;
             options = _closure1_slot1;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = foxtrot.type;
             backup = 'channel';
             romeo = undefined;
-            if(!(backup === kilo)) { _fun122152_ip = 320; continue _fun122152 }
+            if(!(backup === kilo)) { _fun00002_ip = 320; continue _fun00001 }
  310:
             foxtrot = foxtrot.channel;
             romeo = foxtrot.id;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: ParticipantsText
-        _fun122153: for(var _fun122153_ip = 0; ; ) switch(_fun122153_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.action;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             golf = offset == result;
             entity = undefined;
-            if(golf) { _fun122153_ip = 108; continue _fun122153 }
+            if(golf) { _fun00004_ip = 108; continue _fun00003 }
  102:
             golf = 0;
             entity = result[golf];
@@ -183,11 +183,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = backup.bind(tango)(verify);
             verify = verify.ActivityAction;
             verify = verify.START;
-            if(!(romeo !== verify)) { _fun122153_ip = 421; continue _fun122153 }
+            if(!(romeo !== verify)) { _fun00004_ip = 421; continue _fun00003 }
  332:
             romeo = result.length;
             verify = output;
-            if(!(!(romeo <= echo))) { _fun122153_ip = 419; continue _fun122153 }
+            if(!(!(romeo <= echo))) { _fun00004_ip = 419; continue _fun00003 }
  344:
             backup = _closure1_slot0;
             update = _closure1_slot2;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['username'] = output;
             verify = kilo.bind(sizing)(backup, romeo);
  419:
-            _fun122153_ip = 475; continue _fun122153;
+            _fun00004_ip = 475; continue _fun00003;
  421:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.maxParticipants;
             backup = offset != foxtrot;
             offset = 0;
-            if(!backup) { _fun122153_ip = 470; continue _fun122153 }
+            if(!backup) { _fun00004_ip = 470; continue _fun00003 }
  467:
             offset = foxtrot;
  470:
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/controls/activities/ActivityShelfItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityShelfItem
-        _fun122154: for(var _fun122154_ip = 0; ; ) switch(_fun122154_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             zulu = mike.itemDimensions;
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = mike.onActivityItemSelected;
             mike = mike.disableBadges;
             tango = undefined;
-            if(!(mike === tango)) { _fun122154_ip = 57; continue _fun122154 }
+            if(!(mike === tango)) { _fun00006_ip = 57; continue _fun00005 }
  55:
             mike = false;
  57:
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             report = 'channel';
             backup = null;
-            if(!(report === oscar)) { _fun122154_ip = 94; continue _fun122154 }
+            if(!(report === oscar)) { _fun00006_ip = 94; continue _fun00005 }
  89:
             backup = context.channel;
  94:
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['names'] = options;
             target = oscar.bind(tango)(zulu);
             result = !mike;
-            if(!result) { _fun122154_ip = 419; continue _fun122154 }
+            if(!result) { _fun00006_ip = 419; continue _fun00005 }
  344:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;
@@ -483,10 +483,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = foxtrot;
             mike[1] = result;
             entity = function() {
-                _fun122155: for(var _fun122155_ip = 0; ; ) switch(_fun122155_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun122155_ip = 77; continue _fun122155 }
+                    if(!entity) { _fun00008_ip = 77; continue _fun00007 }
  10:
                     oscar = _closure1_slot4;
                     report = oscar.inDevModeForApplication;
@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.application;
                     mike = mike.id;
                     mike = report.bind(oscar)(mike);
-                    if(mike) { _fun122155_ip = 74; continue _fun122155 }
+                    if(mike) { _fun00008_ip = 74; continue _fun00007 }
  45:
                     report = _closure1_slot5;
                     tango = report.inTestModeForApplication;
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = lima.bind(tango)(sierra);
             sierra = sierra.ActivityAction;
             sierra = sierra.START;
-            if(!(romeo === sierra)) { _fun122154_ip = 741; continue _fun122154 }
+            if(!(romeo === sierra)) { _fun00006_ip = 741; continue _fun00005 }
  738:
             target = status;
  741:
@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(3);
             foxtrot[0] = kilo;
             kilo = null;
-            if(!result) { _fun122154_ip = 881; continue _fun122154 }
+            if(!result) { _fun00006_ip = 881; continue _fun00005 }
  844:
             update = _closure1_slot7;
             echo = _closure1_slot1;
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  881:
             foxtrot[1] = kilo;
             kilo = null;
-            if(!output) { _fun122154_ip = 1016; continue _fun122154 }
+            if(!output) { _fun00006_ip = 1016; continue _fun00005 }
  893:
             result = _closure1_slot7;
             sequence = _closure1_slot1;
@@ -646,7 +646,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.ActivityAction;
             oscar = oscar.START;
             oscar = romeo === oscar;
-            if(!oscar) { _fun122154_ip = 1152; continue _fun122154 }
+            if(!oscar) { _fun00006_ip = 1152; continue _fun00005 }
  1074:
             verify = _closure1_slot7;
             options = _closure1_slot12;
@@ -654,21 +654,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['action'] = romeo;
             foxtrot = yankee == backup;
             romeo = undefined;
-            if(foxtrot) { _fun122154_ip = 1102; continue _fun122154 }
+            if(foxtrot) { _fun00006_ip = 1102; continue _fun00005 }
  1097:
             romeo = backup.id;
  1102:
             golf['channelId'] = romeo;
             foxtrot = yankee == backup;
             romeo = undefined;
-            if(foxtrot) { _fun122154_ip = 1125; continue _fun122154 }
+            if(foxtrot) { _fun00006_ip = 1125; continue _fun00005 }
  1115:
             foxtrot = backup.getGuildId;
             romeo = foxtrot.bind(backup)();
  1125:
             foxtrot = yankee != romeo;
             yankee = undefined;
-            if(!foxtrot) { _fun122154_ip = 1137; continue _fun122154 }
+            if(!foxtrot) { _fun00006_ip = 1137; continue _fun00005 }
  1134:
             yankee = romeo;
  1137:

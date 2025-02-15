@@ -1,6 +1,6 @@
 // app/modules/hotspot/index.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun91591: for(var _fun91591_ip = 0; ; ) switch(_fun91591_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         yankee = argBar;
         zulu = argFred;
@@ -35,7 +35,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             foxtrot = tango;
             romeo = verify[foxtrot];
             zulu[foxtrot] = romeo;
-            _fun91591_ip = 108; continue _fun91591;
+            _fun00002_ip = 108; continue _fun00001;
         }
  130:
         report = 3;
@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             romeo = yankee.bind(entity)(romeo);
             romeo = romeo[foxtrot];
             zulu[foxtrot] = romeo;
-            _fun91591_ip = 150; continue _fun91591;
+            _fun00002_ip = 150; continue _fun00001;
         }
  181:
         zulu['HotspotStore'] = mike;

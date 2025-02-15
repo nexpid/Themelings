@@ -8,31 +8,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = options;
     entity = function(argFoo) { // Original name: startOfDay
-        _fun43461: for(var _fun43461_ip = 0; ; ) switch(_fun43461_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = arguments[1];
             zulu = undefined;
-            if(!(mike === zulu)) { _fun43461_ip = 14; continue _fun43461 }
+            if(!(mike === zulu)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             mike = true;
  14:
             report = typeof entity;
             zulu = 'string';
             zulu = zulu === report;
-            if(zulu) { _fun43461_ip = 36; continue _fun43461 }
+            if(zulu) { _fun00002_ip = 36; continue _fun00001 }
  28:
             tango = 'number';
             zulu = tango === report;
  36:
-            if(zulu) { _fun43461_ip = 51; continue _fun43461 }
+            if(zulu) { _fun00002_ip = 51; continue _fun00001 }
  39:
             tango = global;
             tango = tango.Date;
             zulu = entity instanceof tango;
  51:
             report = entity;
-            if(zulu) { _fun43461_ip = 115; continue _fun43461 }
+            if(zulu) { _fun00002_ip = 115; continue _fun00001 }
  57:
             oscar = _closure1_slot3;
             tango = oscar.error;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.getTime;
             zulu = zulu.bind(tango)();
             report = zulu;
-            if(mike) { _fun43461_ip = 187; continue _fun43461 }
+            if(mike) { _fun00002_ip = 187; continue _fun00001 }
  162:
             mike = tango.getTimezoneOffset;
             tango = mike.bind(tango)();
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = report;
     tango = function(argFoo, argBar) { // Original name: dateFormat
-        _fun43463: for(var _fun43463_ip = 0; ; ) switch(_fun43463_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             options = argBar;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             mike = mike[golf];
             report = null;
-            if(!(report == mike)) { _fun43463_ip = 152; continue _fun43463 }
+            if(!(report == mike)) { _fun00004_ip = 152; continue _fun00003 }
  116:
             oscar = _closure1_slot6;
             verify = _closure1_slot1;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = tango;
     entity = function(argFoo) { // Original name: toMoment
-        _fun43464: for(var _fun43464_ip = 0; ; ) switch(_fun43464_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot1;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report.isMoment;
             report = entity.bind(report)(tango);
             entity = tango;
-            if(report) { _fun43464_ip = 67; continue _fun43464 }
+            if(report) { _fun00006_ip = 67; continue _fun00005 }
  45:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: toDate
-        _fun43465: for(var _fun43465_ip = 0; ; ) switch(_fun43465_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot1;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.isMoment;
             mike = entity.bind(mike)(zulu);
             entity = zulu;
-            if(!mike) { _fun43465_ip = 55; continue _fun43465 }
+            if(!mike) { _fun00008_ip = 55; continue _fun00007 }
  45:
             mike = zulu.toDate;
             entity = mike.bind(zulu)();
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['differenceInCalendarDays'] = report;
     report = function(argFoo, argBar) { // Original name: isSameHourMoment
-        _fun43467: for(var _fun43467_ip = 0; ; ) switch(_fun43467_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             entity = 3600000;
             entity = mike <= entity;
-            if(!entity) { _fun43467_ip = 92; continue _fun43467 }
+            if(!entity) { _fun00010_ip = 92; continue _fun00009 }
  68:
             mike = zulu.getHours;
             zulu = mike.bind(zulu)();
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isSameHourMoment'] = report;
     report = function(argFoo, argBar) { // Original name: isSameDay
-        _fun43468: for(var _fun43468_ip = 0; ; ) switch(_fun43468_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             entity = _closure1_slot5;
             entity = mike <= entity;
-            if(!entity) { _fun43468_ip = 73; continue _fun43468 }
+            if(!entity) { _fun00012_ip = 73; continue _fun00011 }
  49:
             mike = zulu.getDate;
             zulu = mike.bind(zulu)();
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['isWithinInterval'] = report;
     zulu['dateFormat'] = tango;
     tango = function(argFoo) { // Original name: calendarFormat
-        _fun43470: for(var _fun43470_ip = 0; ; ) switch(_fun43470_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot1;
@@ -349,22 +349,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(options)();
             oscar = oscar.bind(tango)(zulu, entity);
             entity = -1;
-            if(!(!(oscar < entity))) { _fun43470_ip = 175; continue _fun43470 }
+            if(!(!(oscar < entity))) { _fun00014_ip = 175; continue _fun00013 }
  90:
             entity = 0;
             entity = oscar < entity;
             golf = 'lastDay';
-            if(entity) { _fun43470_ip = 141; continue _fun43470 }
+            if(entity) { _fun00014_ip = 141; continue _fun00013 }
  103:
             entity = 1;
             zulu = oscar < entity;
             entity = 'sameDay';
-            if(zulu) { _fun43470_ip = 138; continue _fun43470 }
+            if(zulu) { _fun00014_ip = 138; continue _fun00013 }
  117:
             zulu = 2;
             oscar = oscar < zulu;
             zulu = 'sameElse';
-            if(!oscar) { _fun43470_ip = 135; continue _fun43470 }
+            if(!oscar) { _fun00014_ip = 135; continue _fun00013 }
  131:
             zulu = 'nextDay';
  135:
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(tango)(report);
             entity = oscar.bind(verify)(golf, entity, options);
             entity = zulu.bind(tango)(report, entity);
-            _fun43470_ip = 191; continue _fun43470;
+            _fun00014_ip = 191; continue _fun00013;
  175:
             zulu = _closure1_slot10;
             mike = 'L LT';
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['calendarFormat'] = tango;
     tango = function(argFoo) { // Original name: calendarFormatCompact
-        _fun43471: for(var _fun43471_ip = 0; ; ) switch(_fun43471_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot1;
@@ -412,19 +412,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot10;
             entity = 'LT';
             report = 0;
-            if(!(report !== golf)) { _fun43471_ip = 158; continue _fun43471 }
+            if(!(report !== golf)) { _fun00016_ip = 158; continue _fun00015 }
  94:
             report = -1;
-            if(!(report !== golf)) { _fun43471_ip = 129; continue _fun43471 }
+            if(!(report !== golf)) { _fun00016_ip = 129; continue _fun00015 }
  104:
             report = -7;
             golf = golf > report;
             report = 'L';
-            if(!golf) { _fun43471_ip = 127; continue _fun43471 }
+            if(!golf) { _fun00016_ip = 127; continue _fun00015 }
  121:
             report = 'dddd';
  127:
-            _fun43471_ip = 155; continue _fun43471;
+            _fun00016_ip = 155; continue _fun00015;
  129:
             options = offset.calendar;
             oscar = _closure1_slot11;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['calendarFormatCompact'] = tango;
     tango = function(argFoo) { // Original name: accessibilityLabelCalendarFormat
-        _fun43472: for(var _fun43472_ip = 0; ; ) switch(_fun43472_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot1;
@@ -465,22 +465,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = foxtrot < entity;
             oscar = 'sameElse';
             options = oscar;
-            if(entity) { _fun43472_ip = 153; continue _fun43472 }
+            if(entity) { _fun00018_ip = 153; continue _fun00017 }
  100:
             entity = 0;
             golf = foxtrot < entity;
             entity = 'lastDay';
-            if(golf) { _fun43472_ip = 150; continue _fun43472 }
+            if(golf) { _fun00018_ip = 150; continue _fun00017 }
  113:
             golf = 1;
             yankee = foxtrot < golf;
             golf = 'sameDay';
-            if(yankee) { _fun43472_ip = 147; continue _fun43472 }
+            if(yankee) { _fun00018_ip = 147; continue _fun00017 }
  127:
             yankee = 2;
             foxtrot = foxtrot < yankee;
             yankee = oscar;
-            if(!foxtrot) { _fun43472_ip = 144; continue _fun43472 }
+            if(!foxtrot) { _fun00018_ip = 144; continue _fun00017 }
  140:
             yankee = 'nextDay';
  144:
@@ -491,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = entity;
  153:
             entity = 'LLL';
-            if(!(oscar !== options)) { _fun43472_ip = 210; continue _fun43472 }
+            if(!(oscar !== options)) { _fun00018_ip = 210; continue _fun00017 }
  161:
             golf = verify.calendar;
             yankee = _closure1_slot1;
@@ -510,13 +510,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['accessibilityLabelCalendarFormat'] = tango;
     tango = function(argFoo, argBar) { // Original name: diffAsUnits
-        _fun43473: for(var _fun43473_ip = 0; ; ) switch(_fun43473_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             oscar = argFoo;
             golf = argBar;
             zulu = arguments[2];
             report = undefined;
-            if(!(zulu === report)) { _fun43473_ip = 19; continue _fun43473 }
+            if(!(zulu === report)) { _fun00020_ip = 19; continue _fun00019 }
  17:
             zulu = false;
  19:
@@ -524,15 +524,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot1 = report;
             entity = {'days': 0, 'hours': 0, 'minutes': 0};
             tango = 0;
-            if(!zulu) { _fun43473_ip = 45; continue _fun43473 }
+            if(!zulu) { _fun00020_ip = 45; continue _fun00019 }
  42:
             tango = 1;
  45:
             entity['seconds'] = tango;
             _closure2_slot0 = entity;
-            if(!(!(oscar > golf))) { _fun43473_ip = 157; continue _fun43473 }
+            if(!(!(oscar > golf))) { _fun00020_ip = 157; continue _fun00019 }
  58:
-            if(!zulu) { _fun43473_ip = 99; continue _fun43473 }
+            if(!zulu) { _fun00020_ip = 99; continue _fun00019 }
  61:
             zulu = global;
             tango = zulu.Number;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = options + tango;
             zulu = zulu.Number;
             zulu = zulu.bind(report)(golf);
-            if(!(!(tango > zulu))) { _fun43473_ip = 155; continue _fun43473 }
+            if(!(!(tango > zulu))) { _fun00020_ip = 155; continue _fun00019 }
  99:
             zulu = global;
             tango = zulu.Number;
@@ -583,16 +583,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['diffAsUnits'] = tango;
     mike = function(argFoo, argBar) { // Original name: unitsAsStrings
-        _fun43475: for(var _fun43475_ip = 0; ; ) switch(_fun43475_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             oscar = argFoo;
             mike = argBar;
             entity = oscar.days;
             zulu = 0;
-            if(!(!(entity > zulu))) { _fun43475_ip = 188; continue _fun43475 }
+            if(!(!(entity > zulu))) { _fun00022_ip = 188; continue _fun00021 }
  21:
             entity = oscar.hours;
-            if(!(!(entity > zulu))) { _fun43475_ip = 115; continue _fun43475 }
+            if(!(!(entity > zulu))) { _fun00022_ip = 115; continue _fun00021 }
  31:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = verify.bind(offset)(golf, options);
             entity['minutes'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun43475_ip = 186; continue _fun43475;
+            _fun00022_ip = 186; continue _fun00021;
  115:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -630,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['minutes'] = options;
             entity = report.bind(golf)(tango, zulu);
  186:
-            _fun43475_ip = 259; continue _fun43475;
+            _fun00022_ip = 259; continue _fun00021;
  188:
             report = _closure1_slot0;
             tango = _closure1_slot2;

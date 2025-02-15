@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_mod_dash_member_safety/SortUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getSortValueForMember
-        _fun59286: for(var _fun59286_ip = 0; ; ) switch(_fun59286_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             report = argBar;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = options.bind(tango)(oscar);
             oscar = oscar.OrderBy;
             oscar = oscar.ORDER_BY_GUILD_JOINED_AT_ASC;
-            if(!(oscar !== report)) { _fun59286_ip = 230; continue _fun59286 }
+            if(!(oscar !== report)) { _fun00002_ip = 230; continue _fun00001 }
  78:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = options.bind(tango)(oscar);
             oscar = oscar.OrderBy;
             oscar = oscar.ORDER_BY_GUILD_JOINED_AT_DESC;
-            if(!(oscar !== report)) { _fun59286_ip = 225; continue _fun59286 }
+            if(!(oscar !== report)) { _fun00002_ip = 225; continue _fun00001 }
  111:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = options.bind(tango)(oscar);
             oscar = oscar.OrderBy;
             oscar = oscar.ORDER_BY_USER_ID_ASC;
-            if(!(oscar !== report)) { _fun59286_ip = 205; continue _fun59286 }
+            if(!(oscar !== report)) { _fun00002_ip = 205; continue _fun00001 }
  144:
             oscar = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(tango)(zulu);
             zulu = zulu.OrderBy;
             zulu = zulu.ORDER_BY_USER_ID_DESC;
-            if(!(zulu !== report)) { _fun59286_ip = 182; continue _fun59286 }
+            if(!(zulu !== report)) { _fun00002_ip = 182; continue _fun00001 }
  177:
             zulu = -entity;
             return zulu;

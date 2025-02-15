@@ -1,6 +1,6 @@
 // app/design/components/experimental/Pressables/native/AnimatedPressableHighlight.native.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun48644: for(var _fun48644_ip = 0; ; ) switch(_fun48644_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = report.bind(entity)(mike);
         mike = golf.isAndroid;
         mike = mike.bind(golf)();
-        if(mike) { _fun48644_ip = 197; continue _fun48644 }
+        if(mike) { _fun00002_ip = 197; continue _fun00001 }
  190:
         mike = function(argFoo) { // Original name: AnimatedPressableHighlightiOS
             zulu = argFoo;
@@ -94,10 +94,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(mike, entity);
             return entity;
         };
-        _fun48644_ip = 202; continue _fun48644;
+        _fun00002_ip = 202; continue _fun00001;
  197:
         mike = function(argFoo) { // Original name: AnimatedPressableHighlightAndroid
-            _fun48645: for(var _fun48645_ip = 0; ; ) switch(_fun48645_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = argFoo;
                 oscar = tango.children;
@@ -132,13 +132,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = report.androidRippleConfig;
                 yankee = verify == offset;
                 verify = undefined;
-                if(yankee) { _fun48645_ip = 142; continue _fun48645 }
+                if(yankee) { _fun00004_ip = 142; continue _fun00003 }
  136:
                 verify = offset.cornerRadius;
  142:
                 zulu[1] = verify;
                 mike = function() {
-                    _fun48646: for(var _fun48646_ip = 0; ; ) switch(_fun48646_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = {};
                         zulu = _closure2_slot1;
@@ -148,13 +148,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = null;
                         report = mike == tango;
                         zulu = undefined;
-                        if(report) { _fun48646_ip = 40; continue _fun48646 }
+                        if(report) { _fun00006_ip = 40; continue _fun00005 }
  34:
                         zulu = tango.cornerRadius;
  40:
                         tango = mike != zulu;
                         mike = 12;
-                        if(!tango) { _fun48646_ip = 53; continue _fun48646 }
+                        if(!tango) { _fun00006_ip = 53; continue _fun00005 }
  50:
                         mike = zulu;
  53:

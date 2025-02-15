@@ -46,12 +46,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = _closure2_slot0;
                 mike = undefined;
                 entity = function(argFoo) {
-                    _fun44804: for(var _fun44804_ip = 0; ; ) switch(_fun44804_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         entity = argFoo;
                         tango = entity.screenReaderEnabled;
                         mike = _closure3_slot0;
-                        if(!(tango !== mike)) { _fun44804_ip = 34; continue _fun44804 }
+                        if(!(tango !== mike)) { _fun00002_ip = 34; continue _fun00001 }
  20:
                         mike = {};
                         zulu = _closure3_slot0;

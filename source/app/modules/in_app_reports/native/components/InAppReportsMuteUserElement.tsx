@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsMuteUserElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MuteUserElement
-        _fun72841: for(var _fun72841_ip = 0; ; ) switch(_fun72841_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.user;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = entity;
             tango[1] = mike;
             entity = function() {
-                _fun72843: for(var _fun72843_ip = 0; ; ) switch(_fun72843_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = null;
                     oscar = golf == zulu;
                     zulu = undefined;
-                    if(oscar) { _fun72843_ip = 58; continue _fun72843 }
+                    if(oscar) { _fun00004_ip = 58; continue _fun00003 }
  49:
                     oscar = _closure2_slot4;
                     zulu = oscar.guild_id;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot4;
                     oscar = golf == oscar;
                     mike = undefined;
-                    if(oscar) { _fun72843_ip = 80; continue _fun72843 }
+                    if(oscar) { _fun00004_ip = 80; continue _fun00003 }
  71:
                     oscar = _closure2_slot4;
                     mike = oscar.id;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.useState;
             entity = null;
             tango = entity != verify;
-            if(!tango) { _fun72841_ip = 208; continue _fun72841 }
+            if(!tango) { _fun00002_ip = 208; continue _fun00001 }
  205:
             tango = verify;
  208:
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(options)(zulu, tango);
             mike = entity == mike;
             entity = null;
-            if(mike) { _fun72841_ip = 533; continue _fun72841 }
+            if(mike) { _fun00002_ip = 533; continue _fun00001 }
  297:
             tango = _closure1_slot8;
             zulu = _closure1_slot1;

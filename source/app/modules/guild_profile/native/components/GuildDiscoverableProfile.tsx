@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot17 = tango;
     tango = function(argFoo) { // Original name: UnavailableGuild
-        _fun90503: for(var _fun90503_ip = 0; ; ) switch(_fun90503_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.screenWidth;
@@ -113,19 +113,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.theme;
             entity = _closure1_slot13;
             entity = entity.DARK;
-            if(!(entity !== mike)) { _fun90503_ip = 110; continue _fun90503 }
+            if(!(entity !== mike)) { _fun00002_ip = 110; continue _fun00001 }
  72:
             entity = _closure1_slot13;
             entity = entity.LIGHT;
             oscar = undefined;
-            if(!(entity === mike)) { _fun90503_ip = 130; continue _fun90503 }
+            if(!(entity === mike)) { _fun00002_ip = 130; continue _fun00001 }
  88:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
             entity = 7;
             entity = zulu[entity];
             oscar = mike.bind(tango)(entity);
-            _fun90503_ip = 130; continue _fun90503;
+            _fun00002_ip = 130; continue _fun00001;
  110:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot21 = tango;
     tango = function(argFoo) { // Original name: GuildProfileActionSheet
-        _fun90510: for(var _fun90510_ip = 0; ; ) switch(_fun90510_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             offset = entity.guildId;
@@ -472,20 +472,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot20;
             zulu = {};
             tango = options.bind(report)(tango, zulu);
-            if(entity) { _fun90510_ip = 168; continue _fun90510 }
+            if(entity) { _fun00004_ip = 168; continue _fun00003 }
  144:
             entity = null;
-            if(!(entity == golf)) { _fun90510_ip = 168; continue _fun90510 }
+            if(!(entity == golf)) { _fun00004_ip = 168; continue _fun00003 }
  150:
             options = _closure1_slot14;
             zulu = _closure1_slot21;
             entity = {};
             entity = options.bind(report)(zulu, entity);
-            _fun90510_ip = 201; continue _fun90510;
+            _fun00004_ip = 201; continue _fun00003;
  168:
             zulu = null;
             entity = tango;
-            if(!(zulu != golf)) { _fun90510_ip = 201; continue _fun90510 }
+            if(!(zulu != golf)) { _fun00004_ip = 201; continue _fun00003 }
  177:
             tango = _closure1_slot14;
             zulu = _closure1_slot19;
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_profile/native/components/GuildDiscoverableProfile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun90513: for(var _fun90513_ip = 0; ; ) switch(_fun90513_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             oscar = entity.guildId;
@@ -519,14 +519,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.useNewGuildProfileExperiment;
             entity = entity.bind(zulu)();
             tango = _closure1_slot14;
-            if(entity) { _fun90513_ip = 77; continue _fun90513 }
+            if(entity) { _fun00006_ip = 77; continue _fun00005 }
  55:
             zulu = _closure1_slot22;
             entity = {};
             entity['guildId'] = oscar;
             entity['channelId'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun90513_ip = 109; continue _fun90513;
+            _fun00006_ip = 109; continue _fun00005;
  77:
             zulu = _closure1_slot1;
             golf = _closure1_slot2;

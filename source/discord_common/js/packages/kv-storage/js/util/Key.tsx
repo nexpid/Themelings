@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/kv-storage/js/util/Key.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: combineKey
-        _fun37883: for(var _fun37883_ip = 0; ; ) switch(_fun37883_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             report = argBar;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = mike.Array;
             entity = zulu.isArray;
             entity = entity.bind(zulu)(report);
-            if(entity) { _fun37883_ip = 57; continue _fun37883 }
+            if(entity) { _fun00002_ip = 57; continue _fun00001 }
  27:
             entity = new Array(1);
             options = 0;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity[tango] = report;
             zulu = 1;
             zulu = tango + zulu;
-            _fun37883_ip = 86; continue _fun37883;
+            _fun00002_ip = 86; continue _fun00001;
  57:
             zulu = new Array(0);
             options = 0;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  86:
             tango = entity.length;
             zulu = 1;
-            if(!(tango >= zulu)) { _fun37883_ip = 137; continue _fun37883 }
+            if(!(tango >= zulu)) { _fun00002_ip = 137; continue _fun00001 }
  98:
             tango = entity.length;
             oscar = _closure1_slot0;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = undefined;
             zulu = oscar.bind(zulu)(report);
             zulu = zulu.MAXIMUM_KEY_BITS;
-            if(!(!(tango <= zulu))) { _fun37883_ip = 217; continue _fun37883 }
+            if(!(!(tango <= zulu))) { _fun00002_ip = 217; continue _fun00001 }
  137:
             tango = mike.Error;
             golf = entity.length;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['combineKey'] = tango;
     mike = function(argFoo, argBar) { // Original name: combineKeyPrefix
-        _fun37884: for(var _fun37884_ip = 0; ; ) switch(_fun37884_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             report = argBar;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = mike.Array;
             entity = zulu.isArray;
             entity = entity.bind(zulu)(report);
-            if(entity) { _fun37884_ip = 57; continue _fun37884 }
+            if(entity) { _fun00004_ip = 57; continue _fun00003 }
  27:
             entity = new Array(1);
             options = 0;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity[tango] = report;
             zulu = 1;
             zulu = tango + zulu;
-            _fun37884_ip = 86; continue _fun37884;
+            _fun00004_ip = 86; continue _fun00003;
  57:
             zulu = new Array(0);
             options = 0;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = undefined;
             zulu = oscar.bind(zulu)(report);
             zulu = zulu.MAXIMUM_KEY_BITS;
-            if(!(!(tango <= zulu))) { _fun37884_ip = 205; continue _fun37884 }
+            if(!(!(tango <= zulu))) { _fun00004_ip = 205; continue _fun00003 }
  125:
             tango = mike.Error;
             golf = entity.length;

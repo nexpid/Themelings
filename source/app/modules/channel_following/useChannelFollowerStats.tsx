@@ -85,11 +85,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango[1] = zulu;
         tango[2] = mike;
         entity = function() {
-            _fun90924: for(var _fun90924_ip = 0; ; ) switch(_fun90924_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot3;
                 zulu = null;
-                if(!(zulu != mike)) { _fun90924_ip = 55; continue _fun90924 }
+                if(!(zulu != mike)) { _fun00002_ip = 55; continue _fun00001 }
  13:
                 mike = global;
                 tango = mike.Date;
@@ -99,10 +99,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.lastFetched;
                 tango = tango - mike;
                 mike = _closure1_slot6;
-                if(!(tango > mike)) { _fun90924_ip = 115; continue _fun90924 }
+                if(!(tango > mike)) { _fun00002_ip = 115; continue _fun00001 }
  55:
                 mike = _closure2_slot1;
-                if(mike) { _fun90924_ip = 115; continue _fun90924 }
+                if(mike) { _fun00002_ip = 115; continue _fun00001 }
  62:
                 tango = _closure2_slot2;
                 report = undefined;
@@ -116,15 +116,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = report.fetchChannelFollowerStats;
                 mike = _closure2_slot0;
                 mike = tango.bind(report)(mike);
-                _fun90924_ip = 146; continue _fun90924;
+                _fun00002_ip = 146; continue _fun00001;
  115:
                 mike = _closure2_slot3;
                 mike = zulu != mike;
-                if(!mike) { _fun90924_ip = 130; continue _fun90924 }
+                if(!mike) { _fun00002_ip = 130; continue _fun00001 }
  126:
                 mike = _closure2_slot1;
  130:
-                if(!mike) { _fun90924_ip = 146; continue _fun90924 }
+                if(!mike) { _fun00002_ip = 146; continue _fun00001 }
  133:
                 zulu = _closure2_slot2;
                 mike = undefined;

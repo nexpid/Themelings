@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forwarding/native/ForwardMessageFooter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForwardMessageFooter
-        _fun102165: for(var _fun102165_ip = 0; ; ) switch(_fun102165_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             record = entity.message;
@@ -184,12 +184,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = context.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun102165_ip = 515; continue _fun102165 }
+            if(!entity) { _fun00002_ip = 515; continue _fun00001 }
  411:
             entity = sizing.length;
             entity = entity > mike;
             oscar = undefined;
-            if(!entity) { _fun102165_ip = 515; continue _fun102165 }
+            if(!entity) { _fun00002_ip = 515; continue _fun00001 }
  425:
             mike = _closure1_slot0;
             echo = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             options = undefined;
-            if(!verify) { _fun102165_ip = 597; continue _fun102165 }
+            if(!verify) { _fun00002_ip = 597; continue _fun00001 }
  546:
             vacuum = _closure1_slot7;
             echo = _closure1_slot0;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = !source;
             options['disabled'] = source;
             source = undefined;
-            if(update) { _fun102165_ip = 665; continue _fun102165 }
+            if(update) { _fun00002_ip = 665; continue _fun00001 }
  662:
             source = offset;
  665:

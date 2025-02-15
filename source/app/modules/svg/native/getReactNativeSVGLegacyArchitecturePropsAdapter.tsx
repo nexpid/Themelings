@@ -22,12 +22,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     golf = report.bind(entity)(tango);
     tango = golf.createAnimatedPropAdapter;
     mike = function(argFoo) { // Original name: p
-        _fun101870: for(var _fun101870_ip = 0; ; ) switch(_fun101870_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.fill;
             zulu = null;
-            if(!(zulu != entity)) { _fun101870_ip = 73; continue _fun101870 }
+            if(!(zulu != entity)) { _fun00002_ip = 73; continue _fun00001 }
  15:
             entity = {};
             report = 0;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['fill'] = entity;
  73:
             entity = mike.rx;
-            if(!(zulu != entity)) { _fun101870_ip = 117; continue _fun101870 }
+            if(!(zulu != entity)) { _fun00002_ip = 117; continue _fun00001 }
  83:
             report = mike.rx;
             entity = global;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['rx'] = entity;
  117:
             entity = mike.ry;
-            if(!(zulu != entity)) { _fun101870_ip = 161; continue _fun101870 }
+            if(!(zulu != entity)) { _fun00002_ip = 161; continue _fun00001 }
  127:
             report = mike.ry;
             entity = global;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['ry'] = entity;
  161:
             entity = mike.cx;
-            if(!(zulu != entity)) { _fun101870_ip = 205; continue _fun101870 }
+            if(!(zulu != entity)) { _fun00002_ip = 205; continue _fun00001 }
  171:
             report = mike.cx;
             entity = global;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['cx'] = entity;
  205:
             entity = mike.cy;
-            if(!(zulu != entity)) { _fun101870_ip = 249; continue _fun101870 }
+            if(!(zulu != entity)) { _fun00002_ip = 249; continue _fun00001 }
  215:
             tango = mike.cy;
             entity = global;

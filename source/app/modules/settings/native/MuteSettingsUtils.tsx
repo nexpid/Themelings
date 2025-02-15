@@ -61,17 +61,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/settings/native/MuteSettingsUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: getMuteSettingLabel
-        _fun72847: for(var _fun72847_ip = 0; ; ) switch(_fun72847_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = null;
-            if(!(mike == tango)) { _fun72847_ip = 86; continue _fun72847 }
+            if(!(mike == tango)) { _fun00002_ip = 86; continue _fun00001 }
  9:
             entity = argBar;
             mike = mike != entity;
             golf = undefined;
             entity = undefined;
-            if(!mike) { _fun72847_ip = 81; continue _fun72847 }
+            if(!mike) { _fun00002_ip = 81; continue _fun00001 }
  23:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -86,20 +86,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.mvxGkp;
             entity = zulu.bind(report)(mike);
  81:
-            _fun72847_ip = 403; continue _fun72847;
+            _fun00002_ip = 403; continue _fun00001;
  86:
             mike = tango.isPrivate;
             mike = mike.bind(tango)();
-            if(mike) { _fun72847_ip = 343; continue _fun72847 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  105:
             report = tango.type;
             mike = _closure1_slot10;
             mike = mike.GUILD_CATEGORY;
-            if(!(report !== mike)) { _fun72847_ip = 284; continue _fun72847 }
+            if(!(report !== mike)) { _fun00002_ip = 284; continue _fun00001 }
  127:
             mike = tango.isForumPost;
             mike = mike.bind(tango)();
-            if(mike) { _fun72847_ip = 225; continue _fun72847 }
+            if(mike) { _fun00002_ip = 225; continue _fun00001 }
  140:
             mike = tango.isThread;
             mike = mike.bind(tango)();
@@ -114,16 +114,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = verify[tango];
             tango = options.bind(golf)(tango);
             tango = tango.t;
-            if(mike) { _fun72847_ip = 212; continue _fun72847 }
+            if(mike) { _fun00002_ip = 212; continue _fun00001 }
  199:
             mike = tango.OsNx19;
             mike = report.bind(oscar)(mike);
-            _fun72847_ip = 223; continue _fun72847;
+            _fun00002_ip = 223; continue _fun00001;
  212:
             tango = tango.wR+Fur;
             mike = report.bind(oscar)(tango);
  223:
-            _fun72847_ip = 282; continue _fun72847;
+            _fun00002_ip = 282; continue _fun00001;
  225:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.lbN8m5;
             mike = report.bind(oscar)(tango);
  282:
-            _fun72847_ip = 341; continue _fun72847;
+            _fun00002_ip = 341; continue _fun00001;
  284:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.Z33kY2;
             mike = report.bind(oscar)(tango);
  341:
-            _fun72847_ip = 400; continue _fun72847;
+            _fun00002_ip = 400; continue _fun00001;
  343:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -178,20 +178,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMuteSettingLabel'] = tango;
     tango = function(argFoo, argBar) { // Original name: getMuteSettingSublabel
-        _fun72848: for(var _fun72848_ip = 0; ; ) switch(_fun72848_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             mike = argBar;
             entity = null;
-            if(!(entity == golf)) { _fun72848_ip = 28; continue _fun72848 }
+            if(!(entity == golf)) { _fun00004_ip = 28; continue _fun00003 }
  12:
             zulu = entity != mike;
             entity = undefined;
-            if(!zulu) { _fun72848_ip = 26; continue _fun72848 }
+            if(!zulu) { _fun00004_ip = 26; continue _fun00003 }
  21:
             entity = mike.name;
  26:
-            _fun72848_ip = 79; continue _fun72848;
+            _fun00004_ip = 79; continue _fun00003;
  28:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -212,14 +212,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMuteSettingSublabel'] = tango;
     tango = function(argFoo) { // Original name: handleNotificationSettingsPress
-        _fun72849: for(var _fun72849_ip = 0; ; ) switch(_fun72849_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot4;
             zulu = tango.getChannel;
             mike = argFoo;
             zulu = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike != zulu)) { _fun72849_ip = 173; continue _fun72849 }
+            if(!(mike != zulu)) { _fun00006_ip = 173; continue _fun00005 }
  29:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)();
             mike = zulu.isThread;
             mike = mike.bind(zulu)();
-            if(mike) { _fun72849_ip = 142; continue _fun72849 }
+            if(mike) { _fun00006_ip = 142; continue _fun00005 }
  74:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.open;
             mike = zulu.id;
             mike = report.bind(oscar)(mike);
-            _fun72849_ip = 173; continue _fun72849;
+            _fun00006_ip = 173; continue _fun00005;
  142:
             mike = _closure1_slot0;
             report = _closure1_slot2;
@@ -263,20 +263,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['handleNotificationSettingsPress'] = tango;
     tango = function(argFoo, argBar) { // Original name: handleUnmutePress
-        _fun72850: for(var _fun72850_ip = 0; ; ) switch(_fun72850_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = _closure1_slot4;
             zulu = tango.getChannel;
             mike = argFoo;
             tango = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike != tango)) { _fun72850_ip = 160; continue _fun72850 }
+            if(!(mike != tango)) { _fun00008_ip = 160; continue _fun00007 }
  29:
             mike = tango.isThread;
             report = mike.bind(tango)();
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
-            if(report) { _fun72850_ip = 125; continue _fun72850 }
+            if(report) { _fun00008_ip = 125; continue _fun00007 }
  50:
             report = 14;
             report = mike[report];
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = {'muted': false, 'mute_config': null};
             backup = verify;
             entity = backup[options](foxtrot, romeo, yankee, offset, verify);
-            _fun72850_ip = 160; continue _fun72850;
+            _fun00008_ip = 160; continue _fun00007;
  125:
             entity = 13;
             mike = mike[entity];
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['handleUnmutePress'] = tango;
     tango = function(argFoo) { // Original name: handleMuteSettingPress
-        _fun72851: for(var _fun72851_ip = 0; ; ) switch(_fun72851_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             oscar = entity.channelId;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = true;
             mike['muted'] = entity;
             entity = 0;
-            if(!(options > entity)) { _fun72851_ip = 107; continue _fun72851 }
+            if(!(options > entity)) { _fun00010_ip = 107; continue _fun00009 }
  40:
             entity = {};
             golf = _closure1_slot1;
@@ -348,11 +348,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.getGuild;
             tango = tango.bind(oscar)(offset);
             oscar = null;
-            if(!(oscar == zulu)) { _fun72851_ip = 348; continue _fun72851 }
+            if(!(oscar == zulu)) { _fun00010_ip = 348; continue _fun00009 }
  147:
-            if(!(oscar == report)) { _fun72851_ip = 231; continue _fun72851 }
+            if(!(oscar == report)) { _fun00010_ip = 231; continue _fun00009 }
  151:
-            if(!(oscar != tango)) { _fun72851_ip = 355; continue _fun72851 }
+            if(!(oscar != tango)) { _fun00010_ip = 355; continue _fun00009 }
  158:
             golf = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -369,13 +369,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.NotificationLabels;
             tango = tango.Muted;
             tango = golf.bind(options)(oscar, mike, tango);
-            _fun72851_ip = 355; continue _fun72851;
+            _fun00010_ip = 355; continue _fun00009;
  231:
             tango = report.isThread;
             golf = tango.bind(report)();
             oscar = _closure1_slot1;
             tango = _closure1_slot2;
-            if(golf) { _fun72851_ip = 320; continue _fun72851 }
+            if(golf) { _fun00010_ip = 320; continue _fun00009 }
  252:
             golf = 14;
             golf = tango[golf];
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             sizing = offset;
             backup = mike;
             entity = output[options](sizing, kilo, backup, foxtrot, romeo);
-            _fun72851_ip = 355; continue _fun72851;
+            _fun00010_ip = 355; continue _fun00009;
  320:
             entity = 13;
             tango = tango[entity];
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.bind(entity)(tango);
             entity = tango.setNotificationSettings;
             entity = entity.bind(tango)(report, mike);
-            _fun72851_ip = 355; continue _fun72851;
+            _fun00010_ip = 355; continue _fun00009;
  348:
             entity = undefined;
             entity = zulu.bind(entity)(mike);
@@ -412,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['handleMuteSettingPress'] = tango;
     tango = function(argFoo) { // Original name: getMuteSettings
-        _fun72852: for(var _fun72852_ip = 0; ; ) switch(_fun72852_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.getChannel;
@@ -425,13 +425,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = undefined;
             zulu = undefined;
             mike = undefined;
-            if(!options) { _fun72852_ip = 196; continue _fun72852 }
+            if(!options) { _fun00012_ip = 196; continue _fun00011 }
  42:
             options = entity.getGuildId;
             romeo = options.bind(entity)();
             options = entity.isThread;
             options = options.bind(entity)();
-            if(options) { _fun72852_ip = 111; continue _fun72852 }
+            if(options) { _fun00012_ip = 111; continue _fun00011 }
  65:
             yankee = _closure1_slot7;
             verify = yankee.getChannelMuteConfig;
@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = offset.bind(yankee)(romeo, options);
             offset = verify;
             verify = options;
-            _fun72852_ip = 147; continue _fun72852;
+            _fun00012_ip = 147; continue _fun00011;
  111:
             backup = _closure1_slot3;
             yankee = backup.getMuteConfig;
@@ -474,20 +474,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMuteSettings'] = tango;
     tango = function(argFoo) { // Original name: getMessageNotificationsText
-        _fun72853: for(var _fun72853_ip = 0; ; ) switch(_fun72853_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot12;
             mike = mike.ALL_MESSAGES;
-            if(!(mike !== zulu)) { _fun72853_ip = 173; continue _fun72853 }
+            if(!(mike !== zulu)) { _fun00014_ip = 173; continue _fun00013 }
  23:
             mike = _closure1_slot12;
             mike = mike.ONLY_MENTIONS;
-            if(!(mike !== zulu)) { _fun72853_ip = 114; continue _fun72853 }
+            if(!(mike !== zulu)) { _fun00014_ip = 114; continue _fun00013 }
  37:
             mike = _closure1_slot12;
             mike = mike.NO_MESSAGES;
-            if(!(mike !== zulu)) { _fun72853_ip = 55; continue _fun72853 }
+            if(!(mike !== zulu)) { _fun00014_ip = 55; continue _fun00013 }
  51:
             mike = null;
             return mike;

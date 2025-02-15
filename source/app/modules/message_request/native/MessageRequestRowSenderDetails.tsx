@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/message_request/native/MessageRequestRowSenderDetails.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MessageRequestRowSenderDetails
-        _fun120445: for(var _fun120445_ip = 0; ; ) switch(_fun120445_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.channel;
@@ -118,18 +118,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = golf;
             entity = function() {
-                _fun120446: for(var _fun120446_ip = 0; ; ) switch(_fun120446_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun120446_ip = 83; continue _fun120446 }
+                    if(!(entity != mike)) { _fun00004_ip = 83; continue _fun00003 }
  13:
                     oscar = _closure1_slot4;
                     report = oscar.getNickname;
                     mike = _closure2_slot0;
                     mike = mike.id;
                     mike = report.bind(oscar)(mike);
-                    if(!(entity == mike)) { _fun120446_ip = 81; continue _fun120446 }
+                    if(!(entity == mike)) { _fun00004_ip = 81; continue _fun00003 }
  44:
                     oscar = _closure1_slot1;
                     report = _closure1_slot2;
@@ -182,13 +182,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = romeo[options];
             verify = verify.bind(tango)(options);
             output = null;
-            if(!(output == sequence)) { _fun120445_ip = 258; continue _fun120445 }
+            if(!(output == sequence)) { _fun00002_ip = 258; continue _fun00001 }
  239:
             options = {};
             romeo = backup.avatar;
             options['avatarStyle'] = romeo;
             options['source'] = yankee;
-            _fun120445_ip = 309; continue _fun120445;
+            _fun00002_ip = 309; continue _fun00001;
  258:
             yankee = {};
             romeo = backup.avatar;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['disablePlaceholder'] = romeo;
             kilo = output == sequence;
             romeo = undefined;
-            if(kilo) { _fun120445_ip = 301; continue _fun120445 }
+            if(kilo) { _fun00002_ip = 301; continue _fun00001 }
  295:
             romeo = sequence.avatarDecoration;
  301:
@@ -236,17 +236,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = backup.username;
             kilo['style'] = control;
             control = echo;
-            if(!(output == control)) { _fun120445_ip = 479; continue _fun120445 }
+            if(!(output == control)) { _fun00002_ip = 479; continue _fun00001 }
  462:
             config = output == sequence;
             vacuum = undefined;
-            if(config) { _fun120445_ip = 476; continue _fun120445 }
+            if(config) { _fun00002_ip = 476; continue _fun00001 }
  471:
             vacuum = sequence.username;
  476:
             control = vacuum;
  479:
-            if(!(output == control)) { _fun120445_ip = 538; continue _fun120445 }
+            if(!(output == control)) { _fun00002_ip = 538; continue _fun00001 }
  483:
             context = _closure1_slot0;
             papa = _closure1_slot2;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = new Array(2);
             kilo[0] = update;
             output = output != echo;
-            if(!output) { _fun120445_ip = 646; continue _fun120445 }
+            if(!output) { _fun00002_ip = 646; continue _fun00001 }
  563:
             source = _closure1_slot6;
             vacuum = _closure1_slot0;

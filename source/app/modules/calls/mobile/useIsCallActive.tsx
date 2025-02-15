@@ -7,28 +7,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo, argBar) { // Original name: checkIsCallActive
-        _fun72271: for(var _fun72271_ip = 0; ; ) switch(_fun72271_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot2;
             zulu = report.isCallActive;
             entity = argBar;
             entity = zulu.bind(report)(tango, entity);
-            if(!entity) { _fun72271_ip = 63; continue _fun72271 }
+            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
  28:
             zulu = _closure1_slot3;
             mike = zulu.getParticipants;
             tango = mike.bind(zulu)(tango);
             zulu = tango.some;
             mike = function(argFoo) {
-                _fun72272: for(var _fun72272_ip = 0; ; ) switch(_fun72272_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     zulu = mike.type;
                     entity = _closure1_slot4;
                     entity = entity.USER;
                     entity = zulu === entity;
-                    if(!entity) { _fun72272_ip = 37; continue _fun72272 }
+                    if(!entity) { _fun00004_ip = 37; continue _fun00003 }
  28:
                     mike = mike.ringing;
                     entity = !mike;
@@ -124,12 +124,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun72276: for(var _fun72276_ip = 0; ; ) switch(_fun72276_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun72276_ip = 39; continue _fun72276 }
+                if(!entity) { _fun00006_ip = 39; continue _fun00005 }
  16:
                 report = _closure1_slot5;
                 tango = _closure2_slot0;

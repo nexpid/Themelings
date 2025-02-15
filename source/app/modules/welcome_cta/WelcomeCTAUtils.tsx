@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/welcome_cta/WelcomeCTAUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: pickHelloSticker
-        _fun72350: for(var _fun72350_ip = 0; ; ) switch(_fun72350_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getCurrentUser;
@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike == zulu;
             oscar = undefined;
             report = undefined;
-            if(tango) { _fun72350_ip = 34; continue _fun72350 }
+            if(tango) { _fun00002_ip = 34; continue _fun00001 }
  29:
             report = zulu.id;
  34:
             mike = mike != report;
             zulu = 0;
-            if(!mike) { _fun72350_ip = 74; continue _fun72350 }
+            if(!mike) { _fun00002_ip = 74; continue _fun00001 }
  43:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['pickHelloSticker'] = tango;
     tango = function(argFoo) {
-        _fun72351: for(var _fun72351_ip = 0; ; ) switch(_fun72351_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getCurrentUser;
@@ -79,13 +79,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike == zulu;
             report = undefined;
             oscar = undefined;
-            if(tango) { _fun72351_ip = 34; continue _fun72351 }
+            if(tango) { _fun00004_ip = 34; continue _fun00003 }
  29:
             oscar = zulu.id;
  34:
             mike = mike != oscar;
             zulu = 0;
-            if(!mike) { _fun72351_ip = 74; continue _fun72351 }
+            if(!mike) { _fun00004_ip = 74; continue _fun00003 }
  43:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['pickWelcomeSticker'] = tango;
     mike = function(argFoo, argBar, argBaz) {
-        _fun72352: for(var _fun72352_ip = 0; ; ) switch(_fun72352_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             verify = argFoo;
             golf = argBar;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             options = oscar == golf;
             oscar = undefined;
-            if(options) { _fun72352_ip = 180; continue _fun72352 }
+            if(options) { _fun00006_ip = 180; continue _fun00005 }
  175:
             oscar = golf.id;
  180:

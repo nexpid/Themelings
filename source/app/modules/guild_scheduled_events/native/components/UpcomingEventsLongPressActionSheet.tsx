@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/UpcomingEventsLongPressActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UpcomingEventsLongPressActionSheet
-        _fun113536: for(var _fun113536_ip = 0; ; ) switch(_fun113536_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.guildId;
@@ -212,11 +212,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = sizing.bind(tango)(offset);
             offset = {};
             echo = _closure1_slot2;
-            if(foxtrot) { _fun113536_ip = 518; continue _fun113536 }
+            if(foxtrot) { _fun00002_ip = 518; continue _fun00001 }
  509:
             romeo = 18;
             romeo = echo[romeo];
-            _fun113536_ip = 525; continue _fun113536;
+            _fun00002_ip = 525; continue _fun00001;
  518:
             output = 17;
             romeo = echo[output];
@@ -241,11 +241,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup[result];
             backup = output.bind(tango)(backup);
             backup = backup.t;
-            if(foxtrot) { _fun113536_ip = 631; continue _fun113536 }
+            if(foxtrot) { _fun00002_ip = 631; continue _fun00001 }
  618:
             foxtrot = backup.ONG3Y2;
             foxtrot = kilo.bind(sizing)(foxtrot);
-            _fun113536_ip = 642; continue _fun113536;
+            _fun00002_ip = 642; continue _fun00001;
  631:
             backup = backup.COiLo6;
             foxtrot = kilo.bind(sizing)(backup);

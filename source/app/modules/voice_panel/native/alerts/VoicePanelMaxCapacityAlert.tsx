@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = options;
         entity = function() {
-            _fun122382: for(var _fun122382_ip = 0; ; ) switch(_fun122382_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.getChannel;
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 tango = entity == zulu;
                 mike = undefined;
-                if(tango) { _fun122382_ip = 41; continue _fun122382 }
+                if(tango) { _fun00002_ip = 41; continue _fun00001 }
  35:
                 mike = zulu.userLimit;
  41:
                 zulu = entity != mike;
                 entity = 0;
-                if(!zulu) { _fun122382_ip = 53; continue _fun122382 }
+                if(!zulu) { _fun00002_ip = 53; continue _fun00001 }
  50:
                 entity = mike;
  53:

@@ -21,26 +21,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/ProfileCustomizationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useEditBannerSource
-        _fun63993: for(var _fun63993_ip = 0; ; ) switch(_fun63993_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.displayProfile;
             zulu = entity.pendingBanner;
             oscar = null;
-            if(!(oscar == zulu)) { _fun63993_ip = 213; continue _fun63993 }
+            if(!(oscar == zulu)) { _fun00002_ip = 213; continue _fun00001 }
  24:
-            if(!(oscar === zulu)) { _fun63993_ip = 45; continue _fun63993 }
+            if(!(oscar === zulu)) { _fun00002_ip = 45; continue _fun00001 }
  28:
-            if(!(oscar != options)) { _fun63993_ip = 122; continue _fun63993 }
+            if(!(oscar != options)) { _fun00002_ip = 122; continue _fun00001 }
  32:
             entity = options.isUsingGuildMemberBanner;
             entity = entity.bind(options)();
-            if(!entity) { _fun63993_ip = 122; continue _fun63993 }
+            if(!entity) { _fun00002_ip = 122; continue _fun00001 }
  45:
             entity = oscar == options;
             golf = undefined;
             report = undefined;
-            if(entity) { _fun63993_ip = 77; continue _fun63993 }
+            if(entity) { _fun00002_ip = 77; continue _fun00001 }
  56:
             tango = options.getPreviewBanner;
             mike = true;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  77:
             mike = oscar != report;
             entity = null;
-            if(!mike) { _fun63993_ip = 120; continue _fun63993 }
+            if(!mike) { _fun00002_ip = 120; continue _fun00001 }
  86:
             tango = _closure1_slot0;
             verify = _closure1_slot1;
@@ -64,13 +64,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar == options;
             mike = undefined;
             entity = undefined;
-            if(tango) { _fun63993_ip = 138; continue _fun63993 }
+            if(tango) { _fun00002_ip = 138; continue _fun00001 }
  133:
             entity = options.guildId;
  138:
             tango = oscar != entity;
             entity = null;
-            if(!tango) { _fun63993_ip = 211; continue _fun63993 }
+            if(!tango) { _fun00002_ip = 211; continue _fun00001 }
  147:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.makeSource;
             oscar = oscar == options;
             mike = undefined;
-            if(oscar) { _fun63993_ip = 206; continue _fun63993 }
+            if(oscar) { _fun00002_ip = 206; continue _fun00001 }
  185:
             golf = options.getBannerURL;
             oscar = {'size': 600, 'canAnimate': true};
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useEditBannerSource'] = tango;
     tango = function(argFoo) { // Original name: useUserProfileBannerBackgroundColor
-        _fun63994: for(var _fun63994_ip = 0; ; ) switch(_fun63994_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             golf = mike.user;
@@ -113,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == golf;
             verify = null;
-            if(mike) { _fun63994_ip = 121; continue _fun63994 }
+            if(mike) { _fun00004_ip = 121; continue _fun00003 }
  36:
-            if(!(zulu != entity)) { _fun63994_ip = 103; continue _fun63994 }
+            if(!(zulu != entity)) { _fun00004_ip = 103; continue _fun00003 }
  40:
-            if(!(zulu == entity)) { _fun63994_ip = 101; continue _fun63994 }
+            if(!(zulu == entity)) { _fun00004_ip = 101; continue _fun00003 }
  44:
             options = _closure1_slot0;
             report = _closure1_slot1;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[offset] = zulu;
             entity = report.bind(options)(mike);
  101:
-            _fun63994_ip = 118; continue _fun63994;
+            _fun00004_ip = 118; continue _fun00003;
  103:
             report = golf.getAvatarURL;
             mike = 80;
@@ -160,11 +160,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(golf)(verify, options);
             entity = report.bind(oscar)(entity);
             report = zulu == tango;
-            if(report) { _fun63994_ip = 213; continue _fun63994 }
+            if(report) { _fun00004_ip = 213; continue _fun00003 }
  207:
             mike = tango.primaryColor;
  213:
-            if(!(zulu != mike)) { _fun63994_ip = 220; continue _fun63994 }
+            if(!(zulu != mike)) { _fun00004_ip = 220; continue _fun00003 }
  217:
             entity = mike;
  220:
@@ -173,17 +173,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useUserProfileBannerBackgroundColor'] = tango;
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: getAvatarSource
-        _fun63995: for(var _fun63995_ip = 0; ; ) switch(_fun63995_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             verify = argFoo;
             tango = argBaz;
             yankee = null;
             mike = yankee == verify;
             entity = null;
-            if(mike) { _fun63995_ip = 178; continue _fun63995 }
+            if(mike) { _fun00006_ip = 178; continue _fun00005 }
  20:
             report = undefined;
-            if(!(report !== tango)) { _fun63995_ip = 117; continue _fun63995 }
+            if(!(report !== tango)) { _fun00006_ip = 117; continue _fun00005 }
  26:
             zulu = _closure1_slot0;
             golf = _closure1_slot1;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf[mike];
             zulu = zulu.bind(report)(mike);
             mike = zulu.memoizedImageSource;
-            if(!(yankee == tango)) { _fun63995_ip = 110; continue _fun63995 }
+            if(!(yankee == tango)) { _fun00006_ip = 110; continue _fun00005 }
  58:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = golf.bind(options)(oscar);
  110:
             mike = mike.bind(zulu)(tango);
-            _fun63995_ip = 175; continue _fun63995;
+            _fun00006_ip = 175; continue _fun00005;
  117:
             tango = _closure1_slot0;
             oscar = _closure1_slot1;

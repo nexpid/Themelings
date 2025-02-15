@@ -94,20 +94,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun78365: for(var _fun78365_ip = 0; ; ) switch(_fun78365_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure1_slot4;
                 zulu = entity.loadState;
                 entity = _closure1_slot5;
                 entity = entity.Loaded;
                 entity = zulu === entity;
-                if(entity) { _fun78365_ip = 44; continue _fun78365 }
+                if(entity) { _fun00002_ip = 44; continue _fun00001 }
  30:
                 mike = _closure1_slot5;
                 mike = mike.MaybeLoaded;
                 entity = zulu === mike;
  44:
-                if(entity) { _fun78365_ip = 57; continue _fun78365 }
+                if(entity) { _fun00002_ip = 57; continue _fun00001 }
  47:
                 mike = _closure2_slot2;
                 entity = !mike;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure2_slot0;
             zulu = tango.forEach;
             mike = function(argFoo, argBar) {
-                _fun78367: for(var _fun78367_ip = 0; ; ) switch(_fun78367_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = argFoo;
                     golf = argBar;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = !options;
                     zulu = !entity;
                     mike = zulu;
-                    if(!options) { _fun78367_ip = 69; continue _fun78367 }
+                    if(!options) { _fun00004_ip = 69; continue _fun00003 }
  30:
                     report = _closure2_slot0;
                     entity = 1;
@@ -167,13 +167,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     verify = entity == report;
                     entity = undefined;
-                    if(verify) { _fun78367_ip = 65; continue _fun78367 }
+                    if(verify) { _fun00004_ip = 65; continue _fun00003 }
  59:
                     entity = report.isSectionNitroLocked;
  65:
                     mike = oscar !== entity;
  69:
-                    if(!options) { _fun78367_ip = 111; continue _fun78367 }
+                    if(!options) { _fun00004_ip = 111; continue _fun00003 }
  72:
                     report = _closure2_slot0;
                     entity = 1;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     golf = entity == report;
                     entity = undefined;
-                    if(golf) { _fun78367_ip = 107; continue _fun78367 }
+                    if(golf) { _fun00004_ip = 107; continue _fun00003 }
  101:
                     entity = report.isSectionNitroLocked;
  107:
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = tango.type;
                     report = _closure1_slot7;
                     report = report.NATIVE_SECTION;
-                    if(!(golf === report)) { _fun78367_ip = 184; continue _fun78367 }
+                    if(!(golf === report)) { _fun00004_ip = 184; continue _fun00003 }
  133:
                     verify = _closure3_slot0;
                     golf = verify.push;
@@ -203,9 +203,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = yankee.bind(offset)(report);
                     report = report.bind(offset)(tango, mike, zulu);
                     report = golf.bind(verify)(report);
-                    _fun78367_ip = 867; continue _fun78367;
+                    _fun00004_ip = 867; continue _fun00003;
  184:
-                    if(!mike) { _fun78367_ip = 259; continue _fun78367 }
+                    if(!mike) { _fun00004_ip = 259; continue _fun00003 }
  187:
                     golf = _closure3_slot0;
                     report = golf.push;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  259:
                     report = tango.label;
                     mike = null;
-                    if(!(mike != report)) { _fun78367_ip = 349; continue _fun78367 }
+                    if(!(mike != report)) { _fun00004_ip = 349; continue _fun00003 }
  270:
                     mike = _closure3_slot0;
                     verify = mike.push;
@@ -259,20 +259,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = 8;
                     report = undefined;
                     golf = 0;
-                    if(!foxtrot) { _fun78367_ip = 718; continue _fun78367 }
+                    if(!foxtrot) { _fun00004_ip = 718; continue _fun00003 }
  412:
                     foxtrot = _closure2_slot2;
-                    if(foxtrot) { _fun78367_ip = 581; continue _fun78367 }
+                    if(foxtrot) { _fun00004_ip = 581; continue _fun00003 }
  422:
                     backup = tango.type;
                     foxtrot = _closure1_slot7;
                     foxtrot = foxtrot.EMOJI;
-                    if(!(backup !== foxtrot)) { _fun78367_ip = 503; continue _fun78367 }
+                    if(!(backup !== foxtrot)) { _fun00004_ip = 503; continue _fun00003 }
  441:
                     backup = tango.type;
                     foxtrot = _closure1_slot7;
                     foxtrot = foxtrot.NSFW;
-                    if(!(backup === foxtrot)) { _fun78367_ip = 708; continue _fun78367 }
+                    if(!(backup === foxtrot)) { _fun00004_ip = 708; continue _fun00003 }
  463:
                     kilo = _closure3_slot0;
                     backup = kilo.push;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot['type'] = sizing;
                     foxtrot['isSectionNitroLocked'] = options;
                     foxtrot = backup.bind(kilo)(foxtrot);
-                    _fun78367_ip = 708; continue _fun78367;
+                    _fun00004_ip = 708; continue _fun00003;
  503:
                     kilo = _closure3_slot0;
                     backup = kilo.push;
@@ -299,28 +299,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot['footer'] = sizing;
                     foxtrot['isSectionNitroLocked'] = options;
                     foxtrot = backup.bind(kilo)(foxtrot);
-                    _fun78367_ip = 708; continue _fun78367;
+                    _fun00004_ip = 708; continue _fun00003;
  581:
                     foxtrot = offset === golf;
-                    if(!foxtrot) { _fun78367_ip = 607; continue _fun78367 }
+                    if(!foxtrot) { _fun00004_ip = 607; continue _fun00003 }
  588:
                     kilo = tango.type;
                     backup = _closure1_slot7;
                     backup = backup.EMOJI;
                     foxtrot = kilo === backup;
  607:
-                    if(!foxtrot) { _fun78367_ip = 708; continue _fun78367 }
+                    if(!foxtrot) { _fun00004_ip = 708; continue _fun00003 }
  610:
                     backup = _closure3_slot1;
                     foxtrot = backup.hasSearchData;
-                    if(foxtrot) { _fun78367_ip = 643; continue _fun78367 }
+                    if(foxtrot) { _fun00004_ip = 643; continue _fun00003 }
  623:
                     sizing = tango.footer;
                     kilo = _closure1_slot6;
                     kilo = kilo.SEARCH_RESULTS;
                     foxtrot = sizing === kilo;
  643:
-                    if(foxtrot) { _fun78367_ip = 666; continue _fun78367 }
+                    if(foxtrot) { _fun00004_ip = 666; continue _fun00003 }
  646:
                     sizing = tango.footer;
                     kilo = _closure1_slot6;
@@ -338,12 +338,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = backup.bind(kilo)(foxtrot);
  708:
                     golf = golf + 1;
-                    if(golf < yankee) { _fun78367_ip = 412; continue _fun78367 }
+                    if(golf < yankee) { _fun00004_ip = 412; continue _fun00003 }
  718:
                     golf = tango.footer;
                     tango = _closure1_slot6;
                     tango = tango.PREMIUM_UPSELL;
-                    if(!(golf === tango)) { _fun78367_ip = 797; continue _fun78367 }
+                    if(!(golf === tango)) { _fun00004_ip = 797; continue _fun00003 }
  738:
                     tango = _closure3_slot1;
                     tango['hasSearchUpsell'] = oscar;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['isSectionNitroLocked'] = options;
                     tango = oscar.bind(golf)(tango);
  797:
-                    if(!zulu) { _fun78367_ip = 867; continue _fun78367 }
+                    if(!zulu) { _fun00004_ip = 867; continue _fun00003 }
  800:
                     zulu = _closure3_slot0;
                     mike = zulu.push;

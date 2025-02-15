@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/NewThreadSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: NewThreadSystemMessage
-        _fun72449: for(var _fun72449_ip = 0; ; ) switch(_fun72449_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.row;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             golf = zulu == report;
             verify = undefined;
-            if(golf) { _fun72449_ip = 157; continue _fun72449 }
+            if(golf) { _fun00002_ip = 157; continue _fun00001 }
  152:
             verify = report.channel_id;
  157:
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = backup.bind(kilo)(options, report, golf);
             golf = zulu == report;
             options = undefined;
-            if(golf) { _fun72449_ip = 231; continue _fun72449 }
+            if(golf) { _fun00002_ip = 231; continue _fun00001 }
  226:
             options = report.name;
  231:
-            if(!(zulu == options)) { _fun72449_ip = 240; continue _fun72449 }
+            if(!(zulu == options)) { _fun00002_ip = 240; continue _fun00001 }
  235:
             options = romeo.content;
  240:
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[5] = verify;
             zulu[6] = options;
             mike = function() {
-                _fun72452: for(var _fun72452_ip = 0; ; ) switch(_fun72452_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = null;
                     options = 'username';
                     golf = null;
-                    if(!(options === offset)) { _fun72452_ip = 130; continue _fun72452 }
+                    if(!(options === offset)) { _fun00004_ip = 130; continue _fun00003 }
  126:
                     golf = _closure2_slot3;
  130:
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot0;
                     golf = 'dot';
                     golf = golf === options;
-                    if(!golf) { _fun72452_ip = 167; continue _fun72452 }
+                    if(!golf) { _fun00004_ip = 167; continue _fun00003 }
  159:
                     options = _closure2_slot3;
                     golf = verify != options;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createNewThreadSystemMessage
-        _fun72453: for(var _fun72453_ip = 0; ; ) switch(_fun72453_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             yankee = tango.message;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             options = offset == golf;
             entity = undefined;
-            if(options) { _fun72453_ip = 93; continue _fun72453 }
+            if(options) { _fun00006_ip = 93; continue _fun00005 }
  88:
             entity = golf.channel_id;
  93:
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['colorString'] = backup;
             sizing = 'username';
             foxtrot = null;
-            if(!(sizing === kilo)) { _fun72453_ip = 203; continue _fun72453 }
+            if(!(sizing === kilo)) { _fun00006_ip = 203; continue _fun00005 }
  200:
             foxtrot = backup;
  203:
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['roleColor'] = backup;
             foxtrot = 'dot';
             foxtrot = foxtrot === kilo;
-            if(!foxtrot) { _fun72453_ip = 228; continue _fun72453 }
+            if(!foxtrot) { _fun00006_ip = 228; continue _fun00005 }
  224:
             foxtrot = offset != backup;
  228:
@@ -275,11 +275,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['actorHook'] = verify;
             foxtrot = offset == romeo;
             verify = undefined;
-            if(foxtrot) { _fun72453_ip = 269; continue _fun72453 }
+            if(foxtrot) { _fun00006_ip = 269; continue _fun00005 }
  264:
             verify = romeo.name;
  269:
-            if(!(offset == verify)) { _fun72453_ip = 278; continue _fun72453 }
+            if(!(offset == verify)) { _fun00006_ip = 278; continue _fun00005 }
  273:
             verify = yankee.content;
  278:
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.messageReference;
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun72453_ip = 317; continue _fun72453 }
+            if(romeo) { _fun00006_ip = 317; continue _fun00005 }
  312:
             offset = yankee.channel_id;
  317:

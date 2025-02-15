@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = golf;
     options = verify.memo;
     golf = function(argFoo) {
-        _fun88060: for(var _fun88060_ip = 0; ; ) switch(_fun88060_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             kilo = mike.reward;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun88060_ip = 138; continue _fun88060 }
+            if(romeo) { _fun00002_ip = 138; continue _fun00001 }
  133:
             offset = yankee.name;
  138:
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = golf.bind(offset)(entity, mike);
             mike = _closure1_slot5;
             entity = {};
-            if(!report) { _fun88060_ip = 396; continue _fun88060 }
+            if(!report) { _fun00002_ip = 396; continue _fun00001 }
  390:
             report = oscar.selectedRow;
  396:
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/gifting/native/views/promotions/SeasonalGiftingSKUSelectBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SeasonalGiftingSKUSelectBottomSheet
-        _fun88062: for(var _fun88062_ip = 0; ; ) switch(_fun88062_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = mike.defaultHighlightedReward;
@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = entity;
             mike[1] = result;
             entity = function() {
-                _fun88063: for(var _fun88063_ip = 0; ; ) switch(_fun88063_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun88063_ip = 28; continue _fun88063 }
+                    if(!(mike != zulu)) { _fun00006_ip = 28; continue _fun00005 }
  13:
                     zulu = _closure2_slot0;
                     mike = _closure2_slot1;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             echo = kilo == result;
             kilo = undefined;
-            if(echo) { _fun88062_ip = 389; continue _fun88062 }
+            if(echo) { _fun00004_ip = 389; continue _fun00003 }
  383:
             kilo = result.assetId;
  389:
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['style'] = kilo;
             kilo = output.map;
             backup = function(argFoo, argBar) {
-                _fun88065: for(var _fun88065_ip = 0; ; ) switch(_fun88065_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     report = _closure1_slot6;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = mike == golf;
                     mike = undefined;
                     options = undefined;
-                    if(golf) { _fun88065_ip = 51; continue _fun88065 }
+                    if(golf) { _fun00008_ip = 51; continue _fun00007 }
  41:
                     golf = _closure2_slot1;
                     options = golf.skuId;

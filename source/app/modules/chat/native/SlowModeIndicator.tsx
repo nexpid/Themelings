@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = yankee;
         mike[1] = options;
         entity = function() {
-            _fun100642: for(var _fun100642_ip = 0; ; ) switch(_fun100642_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 offset = _closure1_slot1;
                 options = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = offset.bind(yankee)(options);
                 options = options.Millis;
                 options = options.HOUR;
-                if(!(!(verify >= options))) { _fun100642_ip = 335; continue _fun100642 }
+                if(!(!(verify >= options))) { _fun00002_ip = 335; continue _fun00001 }
  164:
                 verify = _closure2_slot3;
                 offset = _closure1_slot1;
@@ -136,15 +136,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = offset.bind(yankee)(options);
                 options = options.Millis;
                 options = options.MINUTE;
-                if(!(!(verify >= options))) { _fun100642_ip = 301; continue _fun100642 }
+                if(!(!(verify >= options))) { _fun00002_ip = 301; continue _fun00001 }
  201:
                 verify = _closure2_slot3;
                 options = 0;
-                if(!(!(verify > options))) { _fun100642_ip = 277; continue _fun100642 }
+                if(!(!(verify > options))) { _fun00002_ip = 277; continue _fun00001 }
  211:
                 options = _closure2_slot1;
                 entity = null;
-                if(options) { _fun100642_ip = 275; continue _fun100642 }
+                if(options) { _fun00002_ip = 275; continue _fun00001 }
  220:
                 offset = _closure1_slot0;
                 romeo = _closure1_slot2;
@@ -159,14 +159,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.Icu3bW;
                 entity = options.bind(verify)(zulu);
  275:
-                _fun100642_ip = 299; continue _fun100642;
+                _fun00002_ip = 299; continue _fun00001;
  277:
                 zulu = mike.HermesInternal;
                 options = zulu.concat;
                 zulu = '0:';
                 entity = options.bind(zulu)(report);
  299:
-                _fun100642_ip = 333; continue _fun100642;
+                _fun00002_ip = 333; continue _fun00001;
  301:
                 zulu = tango.minutes;
                 verify = zulu.bind(tango)();
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = ':';
                 entity = options.bind(golf)(verify, zulu, report);
  333:
-                _fun100642_ip = 379; continue _fun100642;
+                _fun00002_ip = 379; continue _fun00001;
  335:
                 zulu = tango.hours;
                 echo = zulu.bind(tango)();

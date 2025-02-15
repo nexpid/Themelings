@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     options = golf.memo;
     tango = function(argFoo) {
-        _fun118780: for(var _fun118780_ip = 0; ; ) switch(_fun118780_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.applicationId;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = options;
             zulu[1] = golf;
             entity = function() {
-                _fun118781: for(var _fun118781_ip = 0; ; ) switch(_fun118781_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     mike = {};
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     zulu = mike != zulu;
                     mike = undefined;
-                    if(!zulu) { _fun118781_ip = 123; continue _fun118781 }
+                    if(!zulu) { _fun00004_ip = 123; continue _fun00003 }
  104:
                     zulu = {};
                     tango = _closure2_slot1;
@@ -129,14 +129,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.imageStyle;
             oscar = entity.imageSource;
             entity = null;
-            if(!(entity == oscar)) { _fun118780_ip = 177; continue _fun118780 }
+            if(!(entity == oscar)) { _fun00002_ip = 177; continue _fun00001 }
  155:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;
             entity = {};
             entity['style'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun118780_ip = 226; continue _fun118780;
+            _fun00002_ip = 226; continue _fun00001;
  177:
             tango = _closure1_slot8;
             zulu = _closure1_slot1;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     options = golf.memo;
     tango = function(argFoo) {
-        _fun118782: for(var _fun118782_ip = 0; ; ) switch(_fun118782_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             golf = entity.applicationBot;
@@ -171,11 +171,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             oscar = zulu == golf;
             entity = undefined;
-            if(oscar) { _fun118782_ip = 50; continue _fun118782 }
+            if(oscar) { _fun00006_ip = 50; continue _fun00005 }
  45:
             entity = golf.id;
  50:
-            if(!(zulu == entity)) { _fun118782_ip = 58; continue _fun118782 }
+            if(!(zulu == entity)) { _fun00006_ip = 58; continue _fun00005 }
  54:
             entity = _closure1_slot7;
  58:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot11 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: RecommendationBanner
-        _fun118783: for(var _fun118783_ip = 0; ; ) switch(_fun118783_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             mike = entity.applicationEmbedded;
@@ -234,12 +234,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = 'number';
             entity = typeof yankee;
             zulu = yankee;
-            if(!(romeo !== entity)) { _fun118783_ip = 144; continue _fun118783 }
+            if(!(romeo !== entity)) { _fun00008_ip = 144; continue _fun00007 }
  124:
             entity = null;
             romeo = entity == yankee;
             entity = undefined;
-            if(romeo) { _fun118783_ip = 141; continue _fun118783 }
+            if(romeo) { _fun00008_ip = 141; continue _fun00007 }
  135:
             entity = yankee.uri;
  141:
@@ -248,11 +248,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = '';
             yankee = tango.bind(report)(zulu, entity);
             entity = null;
-            if(!(entity == verify)) { _fun118783_ip = 240; continue _fun118783 }
+            if(!(entity == verify)) { _fun00008_ip = 240; continue _fun00007 }
  160:
-            if(mike) { _fun118783_ip = 218; continue _fun118783 }
+            if(mike) { _fun00008_ip = 218; continue _fun00007 }
  163:
-            if(!(entity == offset)) { _fun118783_ip = 195; continue _fun118783 }
+            if(!(entity == offset)) { _fun00008_ip = 195; continue _fun00007 }
  167:
             zulu = _closure1_slot8;
             mike = _closure1_slot4;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['backgroundColor'] = yankee;
             entity['style'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun118783_ip = 216; continue _fun118783;
+            _fun00008_ip = 216; continue _fun00007;
  195:
             tango = _closure1_slot8;
             zulu = _closure1_slot11;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['applicationBot'] = offset;
             entity = tango.bind(report)(zulu, mike);
  216:
-            _fun118783_ip = 238; continue _fun118783;
+            _fun00008_ip = 238; continue _fun00007;
  218:
             tango = _closure1_slot8;
             zulu = _closure1_slot10;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['applicationId'] = golf;
             entity = tango.bind(report)(zulu, mike);
  238:
-            _fun118783_ip = 328; continue _fun118783;
+            _fun00008_ip = 328; continue _fun00007;
  240:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;

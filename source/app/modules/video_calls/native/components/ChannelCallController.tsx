@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsx;
     var _closure1_slot5 = tango;
     tango = function(argFoo) { // Original name: ChannelPrivateVoiceCallController
-        _fun104113: for(var _fun104113_ip = 0; ; ) switch(_fun104113_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.channel;
@@ -45,16 +45,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(report)(oscar);
             zulu = oscar.isPrivate;
             zulu = zulu.bind(oscar)();
-            if(!zulu) { _fun104113_ip = 54; continue _fun104113 }
+            if(!zulu) { _fun00002_ip = 54; continue _fun00001 }
  51:
-            if(entity) { _fun104113_ip = 76; continue _fun104113 }
+            if(entity) { _fun00002_ip = 76; continue _fun00001 }
  54:
             tango = _closure1_slot5;
             zulu = _closure1_slot7;
             entity = {};
             entity['channel'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun104113_ip = 112; continue _fun104113;
+            _fun00002_ip = 112; continue _fun00001;
  76:
             tango = _closure1_slot5;
             zulu = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot6 = tango;
     tango = function(argFoo) { // Original name: ChannelCallController
-        _fun104114: for(var _fun104114_ip = 0; ; ) switch(_fun104114_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             golf = entity.channel;
@@ -83,14 +83,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             oscar = entity.bind(report)(golf);
             entity = null;
-            if(!(entity == oscar)) { _fun104114_ip = 66; continue _fun104114 }
+            if(!(entity == oscar)) { _fun00004_ip = 66; continue _fun00003 }
  44:
             tango = _closure1_slot5;
             zulu = _closure1_slot8;
             entity = {};
             entity['channel'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun104114_ip = 113; continue _fun104114;
+            _fun00004_ip = 113; continue _fun00003;
  66:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -164,13 +164,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallController.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun104117: for(var _fun104117_ip = 0; ; ) switch(_fun104117_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
             entity = null;
             zulu = entity == mike;
-            if(zulu) { _fun104117_ip = 42; continue _fun104117 }
+            if(zulu) { _fun00006_ip = 42; continue _fun00005 }
  17:
             report = _closure1_slot5;
             tango = _closure1_slot6;

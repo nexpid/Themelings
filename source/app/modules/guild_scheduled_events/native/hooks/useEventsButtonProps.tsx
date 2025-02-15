@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/hooks/useEventsButtonProps.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useEventsButtonProps
-        _fun113530: for(var _fun113530_ip = 0; ; ) switch(_fun113530_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(1);
             oscar[0] = report;
             zulu = function() {
-                _fun113533: for(var _fun113533_ip = 0; ; ) switch(_fun113533_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.bind(oscar)(entity);
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
-                    if(entity) { _fun113533_ip = 88; continue _fun113533 }
+                    if(entity) { _fun00004_ip = 88; continue _fun00003 }
  59:
                     entity = 8;
                     entity = oscar[entity];
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = golf.openGuildEventListActionSheet;
                     entity = _closure2_slot0;
                     entity = zulu.bind(golf)(entity);
-                    _fun113533_ip = 120; continue _fun113533;
+                    _fun00004_ip = 120; continue _fun00003;
  88:
                     zulu = 7;
                     zulu = oscar[zulu];
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(verify)(mike, report);
             oscar = foxtrot.length;
             report = 0;
-            if(!(!(oscar > report))) { _fun113530_ip = 285; continue _fun113530 }
+            if(!(!(oscar > report))) { _fun00002_ip = 285; continue _fun00001 }
  228:
             yankee = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.t;
             report = report.tlopTE;
             report = oscar.bind(verify)(report);
-            _fun113530_ip = 353; continue _fun113530;
+            _fun00002_ip = 353; continue _fun00001;
  285:
             verify = _closure1_slot0;
             backup = _closure1_slot2;
@@ -216,11 +216,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.ChannelModes;
             oscar = oscar.DEFAULT;
             verify = options;
-            if(!verify) { _fun113530_ip = 394; continue _fun113530 }
+            if(!verify) { _fun00002_ip = 394; continue _fun00001 }
  391:
             verify = !tango;
  394:
-            if(!verify) { _fun113530_ip = 426; continue _fun113530 }
+            if(!verify) { _fun00002_ip = 426; continue _fun00001 }
  397:
             verify = _closure1_slot0;
             entity = _closure1_slot2;

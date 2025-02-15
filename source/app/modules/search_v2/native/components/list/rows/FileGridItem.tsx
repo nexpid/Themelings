@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: getAttachmentIcon
-        _fun113646: for(var _fun113646_ip = 0; ; ) switch(_fun113646_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(entity);
             entity = zulu.isImageFile;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun113646_ip = 168; continue _fun113646 }
+            if(entity) { _fun00002_ip = 168; continue _fun00001 }
  45:
             zulu = _closure1_slot0;
             entity = _closure1_slot1;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot8;
             tango = _closure1_slot0;
             golf = _closure1_slot1;
-            if(entity) { _fun113646_ip = 128; continue _fun113646 }
+            if(entity) { _fun00002_ip = 128; continue _fun00001 }
  88:
             entity = 10;
             entity = golf[entity];
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.FileIcon;
             entity = {'size': 'lg', 'color': 'interactive-normal'};
             entity = oscar.bind(report)(zulu, entity);
-            _fun113646_ip = 166; continue _fun113646;
+            _fun00002_ip = 166; continue _fun00001;
  128:
             zulu = 9;
             zulu = golf[zulu];
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {'size': 'lg', 'color': 'interactive-normal'};
             entity = oscar.bind(report)(tango, zulu);
  166:
-            _fun113646_ip = 218; continue _fun113646;
+            _fun00002_ip = 218; continue _fun00001;
  168:
             tango = _closure1_slot8;
             zulu = _closure1_slot0;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: FileGridItem
-        _fun113647: for(var _fun113647_ip = 0; ; ) switch(_fun113647_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.data;
@@ -167,13 +167,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             backup = zulu == verify;
             zulu = undefined;
-            if(backup) { _fun113647_ip = 167; continue _fun113647 }
+            if(backup) { _fun00004_ip = 167; continue _fun00003 }
  162:
             zulu = verify.guild_id;
  167:
             report[1] = zulu;
             zulu = function() {
-                _fun113649: for(var _fun113649_ip = 0; ; ) switch(_fun113649_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = entity.author;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun113649_ip = 43; continue _fun113649 }
+                    if(report) { _fun00006_ip = 43; continue _fun00005 }
  34:
                     tango = _closure2_slot5;
                     entity = tango.guild_id;
@@ -222,17 +222,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.icon;
             mike[3] = options;
             entity = function() {
-                _fun113651: for(var _fun113651_ip = 0; ; ) switch(_fun113651_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot0;
                     mike = entity.type;
                     entity = _closure1_slot7;
                     entity = entity.ATTACHMENT;
-                    if(!(entity !== mike)) { _fun113651_ip = 116; continue _fun113651 }
+                    if(!(entity !== mike)) { _fun00008_ip = 116; continue _fun00007 }
  29:
                     entity = _closure1_slot7;
                     entity = entity.SOUND;
-                    if(!(entity !== mike)) { _fun113651_ip = 47; continue _fun113651 }
+                    if(!(entity !== mike)) { _fun00008_ip = 47; continue _fun00007 }
  43:
                     entity = undefined;
                     return entity;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = 0;
             kilo = output > backup;
             backup = undefined;
-            if(!kilo) { _fun113647_ip = 446; continue _fun113647 }
+            if(!kilo) { _fun00004_ip = 446; continue _fun00003 }
  415:
             sizing = _closure1_slot0;
             result = _closure1_slot1;

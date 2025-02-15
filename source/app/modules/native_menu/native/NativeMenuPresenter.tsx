@@ -41,7 +41,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/native_menu/native/NativeMenuPresenter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: MenuContainer
-        _fun120628: for(var _fun120628_ip = 0; ; ) switch(_fun120628_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             options = _closure1_slot2;
@@ -74,12 +74,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = new Array(1);
             report[0] = entity;
             zulu = function() {
-                _fun120630: for(var _fun120630_ip = 0; ; ) switch(_fun120630_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun120630_ip = 56; continue _fun120630 }
+                    if(!entity) { _fun00004_ip = 56; continue _fun00003 }
  16:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -103,13 +103,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = _closure1_slot6;
             mike = _closure1_slot5;
             report = null;
-            if(!(report != entity)) { _fun120628_ip = 147; continue _fun120628 }
+            if(!(report != entity)) { _fun00002_ip = 147; continue _fun00001 }
  143:
-            if(!(report == oscar)) { _fun120628_ip = 155; continue _fun120628 }
+            if(!(report == oscar)) { _fun00002_ip = 155; continue _fun00001 }
  147:
             entity = {};
             entity['children'] = report;
-            _fun120628_ip = 164; continue _fun120628;
+            _fun00002_ip = 164; continue _fun00001;
  155:
             report = {};
             report['children'] = oscar;

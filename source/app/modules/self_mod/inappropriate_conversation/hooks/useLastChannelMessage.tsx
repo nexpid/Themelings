@@ -39,14 +39,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun79559: for(var _fun79559_ip = 0; ; ) switch(_fun79559_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot2;
                 tango = report.getLastNonCurrentUserMessage;
                 entity = _closure2_slot0;
                 entity = tango.bind(report)(entity);
                 tango = null;
-                if(!(tango == entity)) { _fun79559_ip = 52; continue _fun79559 }
+                if(!(tango == entity)) { _fun00002_ip = 52; continue _fun00001 }
  33:
                 tango = _closure1_slot2;
                 zulu = tango.getLastMessage;

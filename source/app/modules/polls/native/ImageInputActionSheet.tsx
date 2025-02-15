@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/polls/native/ImageInputActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ImageInputAnswerActionSheet
-        _fun119453: for(var _fun119453_ip = 0; ; ) switch(_fun119453_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.channelId;
@@ -102,12 +102,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = entity.upload;
             offset = null;
             foxtrot = offset != kilo;
-            if(foxtrot) { _fun119453_ip = 176; continue _fun119453 }
+            if(foxtrot) { _fun00002_ip = 176; continue _fun00001 }
  151:
             mike = result.image;
             zulu = offset == mike;
             entity = undefined;
-            if(zulu) { _fun119453_ip = 172; continue _fun119453 }
+            if(zulu) { _fun00002_ip = 172; continue _fun00001 }
  166:
             entity = mike.emoji;
  172:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = true;
             entity['startExpanded'] = report;
             oscar = foxtrot;
-            if(!oscar) { _fun119453_ip = 429; continue _fun119453 }
+            if(!oscar) { _fun00002_ip = 429; continue _fun00001 }
  254:
             options = _closure1_slot7;
             golf = _closure1_slot4;
@@ -172,12 +172,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result.image;
             echo = offset == result;
             update = undefined;
-            if(echo) { _fun119453_ip = 382; continue _fun119453 }
+            if(echo) { _fun00002_ip = 382; continue _fun00001 }
  362:
             result = result.emoji;
             echo = offset == result;
             update = undefined;
-            if(echo) { _fun119453_ip = 382; continue _fun119453 }
+            if(echo) { _fun00002_ip = 382; continue _fun00001 }
  377:
             update = result.name;
  382:
@@ -229,11 +229,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result[echo];
             result = update.bind(tango)(result);
             update = result.t;
-            if(foxtrot) { _fun119453_ip = 598; continue _fun119453 }
+            if(foxtrot) { _fun00002_ip = 598; continue _fun00001 }
  585:
             result = update.dzcU1d;
             result = source.bind(control)(result);
-            _fun119453_ip = 609; continue _fun119453;
+            _fun00002_ip = 609; continue _fun00001;
  598:
             update = update.CZeRhY;
             result = source.bind(control)(update);
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[0] = sizing;
             sizing = offset != kilo;
             kilo = null;
-            if(!sizing) { _fun119453_ip = 741; continue _fun119453 }
+            if(!sizing) { _fun00002_ip = 741; continue _fun00001 }
  647:
             result = _closure1_slot6;
             vacuum = _closure1_slot0;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  741:
             verify[1] = kilo;
             offset = null;
-            if(!foxtrot) { _fun119453_ip = 844; continue _fun119453 }
+            if(!foxtrot) { _fun00002_ip = 844; continue _fun00001 }
  750:
             foxtrot = _closure1_slot6;
             result = _closure1_slot0;

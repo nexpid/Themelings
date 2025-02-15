@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/feedback/native/FeedbackForm.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FeedbackForm
-        _fun90711: for(var _fun90711_ip = 0; ; ) switch(_fun90711_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = zulu.showDoNotShowAgainCheckbox;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[1] = echo;
             sizing[2] = mike;
             mike = function() {
-                _fun90712: for(var _fun90712_ip = 0; ; ) switch(_fun90712_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot5;
                     zulu = _closure2_slot0;
                     zulu = oscar.bind(golf)(report, zulu);
-                    if(zulu) { _fun90712_ip = 100; continue _fun90712 }
+                    if(zulu) { _fun00004_ip = 100; continue _fun00003 }
  51:
                     zulu = _closure2_slot6;
                     report = _closure1_slot0;
@@ -178,13 +178,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = sizing;
             mike[1] = entity;
             entity = function() {
-                _fun90714: for(var _fun90714_ip = 0; ; ) switch(_fun90714_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot7;
                     zulu = entity.doNotShowAgain;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun90714_ip = 25; continue _fun90714 }
+                    if(!entity) { _fun00006_ip = 25; continue _fun00005 }
  22:
                     entity = zulu;
  25:
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.bind(zulu)(entity);
             mike = zulu.map;
             entity = function(argFoo, argBar) {
-                _fun90716: for(var _fun90716_ip = 0; ; ) switch(_fun90716_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     foxtrot = argFoo;
                     report = argBar;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = 0;
                     oscar = report > oscar;
                     golf = null;
-                    if(!oscar) { _fun90716_ip = 81; continue _fun90716 }
+                    if(!oscar) { _fun00008_ip = 81; continue _fun00007 }
  41:
                     yankee = _closure1_slot6;
                     options = _closure1_slot0;
@@ -291,13 +291,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = null;
             entity = kilo != entity;
             oscar = null;
-            if(!entity) { _fun90711_ip = 530; continue _fun90711 }
+            if(!entity) { _fun00002_ip = 530; continue _fun00001 }
  352:
             mike = sizing.rating;
             entity = _closure1_slot5;
             entity = entity.GOOD;
             oscar = null;
-            if(!(mike !== entity)) { _fun90711_ip = 530; continue _fun90711 }
+            if(!(mike !== entity)) { _fun00002_ip = 530; continue _fun00001 }
  377:
             zulu = _closure1_slot7;
             entity = _closure1_slot4;
@@ -338,7 +338,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             report = kilo != backup;
             options = null;
-            if(!report) { _fun90711_ip = 619; continue _fun90711 }
+            if(!report) { _fun00002_ip = 619; continue _fun00001 }
  554:
             yankee = _closure1_slot6;
             verify = _closure1_slot0;
@@ -365,19 +365,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = sizing.rating;
             echo = kilo != result;
             backup = null;
-            if(!echo) { _fun90711_ip = 671; continue _fun90711 }
+            if(!echo) { _fun00002_ip = 671; continue _fun00001 }
  668:
             backup = result;
  671:
             options['selectedRating'] = backup;
             foxtrot = function(argFoo) { // Original name: onChangeRating
-                _fun90718: for(var _fun90718_ip = 0; ; ) switch(_fun90718_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
                     entity = _closure1_slot5;
                     entity = entity.GOOD;
                     tango = null;
-                    if(!(report !== entity)) { _fun90718_ip = 35; continue _fun90718 }
+                    if(!(report !== entity)) { _fun00010_ip = 35; continue _fun00009 }
  22:
                     entity = _closure2_slot7;
                     tango = entity.reason;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = options;
             report[2] = oscar;
             oscar = null;
-            if(!golf) { _fun90711_ip = 913; continue _fun90711 }
+            if(!golf) { _fun00002_ip = 913; continue _fun00001 }
  710:
             verify = _closure1_slot6;
             backup = _closure1_slot0;
@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = {};
             sizing = sizing.doNotShowAgain;
             kilo = kilo != sizing;
-            if(!kilo) { _fun90711_ip = 791; continue _fun90711 }
+            if(!kilo) { _fun00002_ip = 791; continue _fun00001 }
  788:
             kilo = sizing;
  791:

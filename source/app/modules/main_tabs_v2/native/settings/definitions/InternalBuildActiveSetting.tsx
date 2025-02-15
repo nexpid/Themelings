@@ -37,7 +37,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     };
     mike['useDescription'] = golf;
     tango = function() { // Original name: useHasCheckNativeUpdateSetting
-        _fun99038: for(var _fun99038_ip = 0; ; ) switch(_fun99038_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -49,7 +49,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = mike.bind(zulu)();
             entity = _closure1_slot2;
             entity = entity.hasUpdatesConfigured;
-            if(!entity) { _fun99038_ip = 51; continue _fun99038 }
+            if(!entity) { _fun00002_ip = 51; continue _fun00001 }
  48:
             entity = mike;
  51:

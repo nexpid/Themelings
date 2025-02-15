@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Pile/native/GuildIconPile.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildIconPile
-        _fun80095: for(var _fun80095_ip = 0; ; ) switch(_fun80095_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.size;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = 40;
             verify = foxtrot <= report;
             report = romeo;
-            if(!verify) { _fun80095_ip = 181; continue _fun80095 }
+            if(!verify) { _fun00002_ip = 181; continue _fun00001 }
  178:
             report = options;
  181:
@@ -87,11 +87,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report[0] = oscar;
             oscar = null;
             oscar = oscar != yankee;
-            if(!oscar) { _fun80095_ip = 222; continue _fun80095 }
+            if(!oscar) { _fun00002_ip = 222; continue _fun00001 }
  218:
             oscar = offset < yankee;
  222:
-            if(!oscar) { _fun80095_ip = 283; continue _fun80095 }
+            if(!oscar) { _fun00002_ip = 283; continue _fun00001 }
  225:
             verify = _closure1_slot3;
             options = _closure1_slot0;

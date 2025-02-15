@@ -8,10 +8,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar) { // Original name: computeTabletDrawerWidth
-        _fun69756: for(var _fun69756_ip = 0; ; ) switch(_fun69756_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
-            if(entity) { _fun69756_ip = 45; continue _fun69756 }
+            if(entity) { _fun00002_ip = 45; continue _fun00001 }
  9:
             entity = global;
             report = entity.Math;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             entity = entity - oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun69756_ip = 49; continue _fun69756;
+            _fun00002_ip = 49; continue _fun00001;
  45:
             entity = _closure1_slot3;
  49:
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['DRAWER_LEFT_WIDTH_MIN'] = tango;
     tango = function() { // Original name: getDrawerWidth
-        _fun69757: for(var _fun69757_ip = 0; ; ) switch(_fun69757_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity.isChatBesideChannelList;
             zulu = entity.isChatLockedOpen;
             entity = tango;
-            if(!oscar) { _fun69757_ip = 90; continue _fun69757 }
+            if(!oscar) { _fun00004_ip = 90; continue _fun00003 }
  80:
             mike = _closure1_slot6;
             entity = mike.bind(report)(tango, zulu);
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getDrawerWidth'] = tango;
     mike = function() { // Original name: useDrawerWidth
-        _fun69758: for(var _fun69758_ip = 0; ; ) switch(_fun69758_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity.isChatBesideChannelList;
             zulu = entity.isChatLockedOpen;
             entity = tango;
-            if(!oscar) { _fun69758_ip = 78; continue _fun69758 }
+            if(!oscar) { _fun00006_ip = 78; continue _fun00005 }
  68:
             mike = _closure1_slot6;
             entity = mike.bind(report)(tango, zulu);

@@ -107,13 +107,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GuildsBarItemIconPresable
-        _fun114604: for(var _fun114604_ip = 0; ; ) switch(_fun114604_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.iconSource;
             update = mike.desaturated;
             tango = undefined;
-            if(!(update === tango)) { _fun114604_ip = 25; continue _fun114604 }
+            if(!(update === tango)) { _fun00002_ip = 25; continue _fun00001 }
  23:
             update = false;
  25:
@@ -171,19 +171,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = result.bind(tango)(zulu);
             golf = backup.useAnimatedStyle;
             zulu = function() { // Original name: b
-                _fun114607: for(var _fun114607_ip = 0; ; ) switch(_fun114607_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot2;
                     entity = null;
                     mike = entity == mike;
                     golf = undefined;
                     report = undefined;
-                    if(mike) { _fun114607_ip = 29; continue _fun114607 }
+                    if(mike) { _fun00004_ip = 29; continue _fun00003 }
  20:
                     mike = _closure2_slot2;
                     report = mike.backgroundColor;
  29:
-                    if(!(entity == report)) { _fun114607_ip = 47; continue _fun114607 }
+                    if(!(entity == report)) { _fun00004_ip = 47; continue _fun00003 }
  33:
                     entity = _closure2_slot1;
                     entity = entity.icon;
@@ -199,15 +199,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = _closure2_slot3;
                     oscar = verify.get;
                     oscar = oscar.bind(verify)();
-                    if(!oscar) { _fun114607_ip = 131; continue _fun114607 }
+                    if(!oscar) { _fun00004_ip = 131; continue _fun00003 }
  93:
                     oscar = _closure2_slot0;
                     options = _closure2_slot1;
-                    if(oscar) { _fun114607_ip = 117; continue _fun114607 }
+                    if(oscar) { _fun00004_ip = 117; continue _fun00003 }
  104:
                     oscar = options.iconColorActive;
                     oscar = oscar.color;
-                    _fun114607_ip = 128; continue _fun114607;
+                    _fun00004_ip = 128; continue _fun00003;
  117:
                     options = options.iconColorDesaturated;
                     oscar = options.color;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = result.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: I
-                _fun114608: for(var _fun114608_ip = 0; ; ) switch(_fun114608_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = {};
                     zulu = _closure1_slot0;
@@ -263,20 +263,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = _closure2_slot3;
                     zulu = golf.get;
                     zulu = zulu.bind(golf)();
-                    if(zulu) { _fun114608_ip = 88; continue _fun114608 }
+                    if(zulu) { _fun00006_ip = 88; continue _fun00005 }
  51:
                     zulu = _closure2_slot0;
                     golf = _closure2_slot1;
-                    if(zulu) { _fun114608_ip = 75; continue _fun114608 }
+                    if(zulu) { _fun00006_ip = 75; continue _fun00005 }
  62:
                     zulu = golf.iconColorActive;
                     zulu = zulu.color;
-                    _fun114608_ip = 86; continue _fun114608;
+                    _fun00006_ip = 86; continue _fun00005;
  75:
                     golf = golf.iconColorDesaturated;
                     zulu = golf.color;
  86:
-                    _fun114608_ip = 103; continue _fun114608;
+                    _fun00006_ip = 103; continue _fun00005;
  88:
                     golf = _closure2_slot1;
                     golf = golf.iconColor;
@@ -290,10 +290,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = 9;
                     oscar = verify[oscar];
                     oscar = golf.bind(options)(oscar);
-                    if(mike) { _fun114608_ip = 147; continue _fun114608 }
+                    if(mike) { _fun00006_ip = 147; continue _fun00005 }
  139:
                     mike = oscar.timingStandard;
-                    _fun114608_ip = 153; continue _fun114608;
+                    _fun00006_ip = 153; continue _fun00005;
  147:
                     mike = oscar.timingNone;
  153:

@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsUserPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserPreview
-        _fun72738: for(var _fun72738_ip = 0; ; ) switch(_fun72738_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.user;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = foxtrot.globalName;
             verify = null;
             yankee = verify != yankee;
-            if(!yankee) { _fun72738_ip = 393; continue _fun72738 }
+            if(!yankee) { _fun00002_ip = 393; continue _fun00001 }
  337:
             kilo = _closure1_slot4;
             romeo = _closure1_slot0;

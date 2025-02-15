@@ -13,13 +13,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun88691: for(var _fun88691_ip = 0; ; ) switch(_fun88691_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     oscar = argBar;
                     options = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun88691_ip = 552; continue _fun88691 }
+                    if(mike) { _fun00002_ip = 552; continue _fun00001 }
  16:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -38,20 +38,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun88691_ip = 549; continue _fun88691 }
+                    if(zulu) { _fun00002_ip = 549; continue _fun00001 }
  78:
                     zulu = mike.ok;
-                    if(zulu) { _fun88691_ip = 546; continue _fun88691 }
+                    if(zulu) { _fun00002_ip = 546; continue _fun00001 }
  90:
                     golf = mike.body;
                     zulu = null;
                     verify = zulu == golf;
                     tango = undefined;
-                    if(verify) { _fun88691_ip = 111; continue _fun88691 }
+                    if(verify) { _fun00002_ip = 111; continue _fun00001 }
  106:
                     tango = golf.username;
  111:
-                    if(!(zulu != tango)) { _fun88691_ip = 145; continue _fun88691 }
+                    if(!(zulu != tango)) { _fun00002_ip = 145; continue _fun00001 }
  115:
                     golf = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -64,20 +64,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = mike.body;
                     verify = zulu == golf;
                     tango = undefined;
-                    if(verify) { _fun88691_ip = 165; continue _fun88691 }
+                    if(verify) { _fun00002_ip = 165; continue _fun00001 }
  159:
                     tango = golf.email;
  165:
-                    if(!(zulu == tango)) { _fun88691_ip = 375; continue _fun88691 }
+                    if(!(zulu == tango)) { _fun00002_ip = 375; continue _fun00001 }
  172:
                     golf = mike.body;
                     verify = zulu == golf;
                     tango = undefined;
-                    if(verify) { _fun88691_ip = 192; continue _fun88691 }
+                    if(verify) { _fun00002_ip = 192; continue _fun00001 }
  186:
                     tango = golf.email_token;
  192:
-                    if(!(zulu != tango)) { _fun88691_ip = 546; continue _fun88691 }
+                    if(!(zulu != tango)) { _fun00002_ip = 546; continue _fun00001 }
  199:
                     verify = _closure1_slot4;
                     tango = _closure1_slot5;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.CONFIRM_EMAIL_CHANGE_CODE;
                     tango = options.bind(offset)(tango);
                     golf = -1;
-                    if(!(golf === tango)) { _fun88691_ip = 348; continue _fun88691 }
+                    if(!(golf === tango)) { _fun00002_ip = 348; continue _fun00001 }
  304:
                     yankee = oscar.replace;
                     romeo = _closure1_slot0;
@@ -110,14 +110,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = golf.VerificationModalScenes;
                     golf = golf.CONFIRM_EMAIL_CHANGE_CODE;
                     golf = yankee.bind(oscar)(golf);
-                    _fun88691_ip = 546; continue _fun88691;
+                    _fun00002_ip = 546; continue _fun00001;
  348:
                     golf = oscar.pop;
                     verify = verify - tango;
                     tango = 1;
                     tango = verify - tango;
                     tango = golf.bind(oscar)(tango);
-                    _fun88691_ip = 546; continue _fun88691;
+                    _fun00002_ip = 546; continue _fun00001;
  375:
                     verify = _closure1_slot4;
                     tango = _closure1_slot5;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.ENTER_EMAIL;
                     tango = options.bind(offset)(tango);
                     options = -1;
-                    if(!(options === tango)) { _fun88691_ip = 521; continue _fun88691 }
+                    if(!(options === tango)) { _fun00002_ip = 521; continue _fun00001 }
  480:
                     options = oscar.replace;
                     verify = _closure1_slot0;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = report.VerificationModalScenes;
                     report = report.ENTER_EMAIL;
                     report = options.bind(oscar)(report);
-                    _fun88691_ip = 543; continue _fun88691;
+                    _fun00002_ip = 543; continue _fun00001;
  521:
                     report = oscar.pop;
                     golf = golf - tango;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['finishChangeEmailFlow'] = tango;
     mike = function(argFoo, argBar) { // Original name: finishVerifyEmailFlow
-        _fun88694: for(var _fun88694_ip = 0; ; ) switch(_fun88694_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             entity = tango.getState;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = argBar;
             mike = mike.bind(entity)(oscar);
             oscar = -1;
-            if(!(oscar === mike)) { _fun88694_ip = 120; continue _fun88694 }
+            if(!(oscar === mike)) { _fun00004_ip = 120; continue _fun00003 }
  79:
             oscar = tango.replace;
             golf = _closure1_slot0;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.VerificationModalScenes;
             zulu = zulu.RESEND_EMAIL;
             zulu = oscar.bind(tango)(zulu);
-            _fun88694_ip = 135; continue _fun88694;
+            _fun00004_ip = 135; continue _fun00003;
  120:
             zulu = tango.pop;
             mike = report - mike;

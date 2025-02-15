@@ -120,7 +120,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/two_way_link/xbox/XboxLinkSuccess.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: XboxLinkDiscordSuccess
-        _fun80623: for(var _fun80623_ip = 0; ; ) switch(_fun80623_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot15;
             tango = undefined;
@@ -163,10 +163,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = backup;
             mike = function() {
-                _fun80625: for(var _fun80625_ip = 0; ; ) switch(_fun80625_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun80625_ip = 77; continue _fun80625 }
+                    if(entity) { _fun00004_ip = 77; continue _fun00003 }
  10:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -178,11 +178,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     tango = mike.bind(zulu)();
                     zulu = _closure1_slot7;
                     mike = zulu.openURL;
-                    if(tango) { _fun80625_ip = 68; continue _fun80625 }
+                    if(tango) { _fun00004_ip = 68; continue _fun00003 }
  57:
                     tango = _closure1_slot11;
                     tango = mike.bind(zulu)(tango);
-                    _fun80625_ip = 77; continue _fun80625;
+                    _fun00004_ip = 77; continue _fun00003;
  68:
                     entity = _closure1_slot10;
                     entity = mike.bind(zulu)(entity);
@@ -305,11 +305,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             update = update[result];
             update = source.bind(tango)(update);
             source = update.t;
-            if(backup) { _fun80623_ip = 656; continue _fun80623 }
+            if(backup) { _fun00002_ip = 656; continue _fun00001 }
  643:
             update = source.12Kx2t;
             update = control.bind(vacuum)(update);
-            _fun80623_ip = 667; continue _fun80623;
+            _fun00002_ip = 667; continue _fun00001;
  656:
             source = source.zcKE8f;
             update = control.bind(vacuum)(source);
@@ -318,7 +318,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             kilo = output.bind(tango)(sizing, kilo);
             romeo[1] = kilo;
             output = _closure1_slot13;
-            if(backup) { _fun80623_ip = 783; continue _fun80623 }
+            if(backup) { _fun00002_ip = 783; continue _fun00001 }
  688:
             update = _closure1_slot1;
             source = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             sizing = echo.icon;
             backup['style'] = sizing;
             backup = output.bind(tango)(kilo, backup);
-            _fun80623_ip = 828; continue _fun80623;
+            _fun00002_ip = 828; continue _fun00001;
  783:
             sizing = _closure1_slot5;
             kilo = {};

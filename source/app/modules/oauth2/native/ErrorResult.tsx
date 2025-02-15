@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/oauth2/native/ErrorResult.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ErrorResult
-        _fun73635: for(var _fun73635_ip = 0; ; ) switch(_fun73635_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.error;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'text-md/medium';
             yankee['variant'] = oscar;
             oscar = null;
-            if(!(oscar == backup)) { _fun73635_ip = 241; continue _fun73635 }
+            if(!(oscar == backup)) { _fun00002_ip = 241; continue _fun00001 }
  186:
             result = _closure1_slot0;
             echo = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = verify;
             oscar = null;
-            if(options) { _fun73635_ip = 388; continue _fun73635 }
+            if(options) { _fun00002_ip = 388; continue _fun00001 }
  278:
             verify = _closure1_slot5;
             foxtrot = _closure1_slot0;

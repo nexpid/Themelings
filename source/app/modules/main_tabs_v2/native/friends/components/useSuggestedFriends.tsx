@@ -41,11 +41,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/components/useSuggestedFriends.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useSuggestedFriends
-        _fun114812: for(var _fun114812_ip = 0; ; ) switch(_fun114812_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = null;
-            if(!(tango == mike)) { _fun114812_ip = 13; continue _fun114812 }
+            if(!(tango == mike)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             mike = {};
  13:
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 1;
             report = options[report];
             tango = tango == golf;
-            if(tango) { _fun114812_ip = 137; continue _fun114812 }
+            if(tango) { _fun00002_ip = 137; continue _fun00001 }
  134:
             tango = golf;
  137:
@@ -93,10 +93,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = mike;
             zulu[2] = tango;
             entity = function() {
-                _fun114814: for(var _fun114814_ip = 0; ; ) switch(_fun114814_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot2;
-                    if(zulu) { _fun114814_ip = 18; continue _fun114814 }
+                    if(zulu) { _fun00004_ip = 18; continue _fun00003 }
  12:
                     zulu = new Array(0);
                     return zulu;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot0;
                     zulu = tango.map;
                     mike = function(argFoo) {
-                        _fun114816: for(var _fun114816_ip = 0; ; ) switch(_fun114816_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             mike = argFoo;
                             entity = {};
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = null;
                             report = zulu != tango;
                             zulu = undefined;
-                            if(!report) { _fun114816_ip = 33; continue _fun114816 }
+                            if(!report) { _fun00006_ip = 33; continue _fun00005 }
  30:
                             zulu = tango;
  33:
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['added'] = oscar;
             entity['setAdded'] = report;
             entity['friendSuggestions'] = zulu;
-            if(tango) { _fun114812_ip = 206; continue _fun114812 }
+            if(tango) { _fun00002_ip = 206; continue _fun00001 }
  199:
             mike = mike.length;
-            _fun114812_ip = 211; continue _fun114812;
+            _fun00002_ip = 211; continue _fun00001;
  206:
             mike = zulu.length;
  211:

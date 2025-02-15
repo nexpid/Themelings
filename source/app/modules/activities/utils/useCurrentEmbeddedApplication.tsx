@@ -26,16 +26,16 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/useCurrentEmbeddedApplication.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useCurrentEmbeddedApplication
-        _fun75874: for(var _fun75874_ip = 0; ; ) switch(_fun75874_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun75874_ip = 11; continue _fun75874 }
+            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             mike = {};
  11:
             golf = mike.fetchesApplication;
-            if(!(golf === entity)) { _fun75874_ip = 23; continue _fun75874 }
+            if(!(golf === entity)) { _fun00002_ip = 23; continue _fun00001 }
  21:
             golf = true;
  23:
@@ -49,12 +49,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = options[zulu];
             oscar = oscar.bind(entity)(zulu);
             zulu = null;
-            if(!(zulu != tango)) { _fun75874_ip = 83; continue _fun75874 }
+            if(!(zulu != tango)) { _fun00002_ip = 83; continue _fun00001 }
  68:
             options = tango.applicationId;
             tango = new Array(1);
             tango[0] = options;
-            _fun75874_ip = 87; continue _fun75874;
+            _fun00002_ip = 87; continue _fun00001;
  83:
             tango = new Array(0);
  87:
@@ -65,7 +65,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = tango[mike];
             zulu = zulu != mike;
             entity = undefined;
-            if(!zulu) { _fun75874_ip = 121; continue _fun75874 }
+            if(!zulu) { _fun00002_ip = 121; continue _fun00001 }
  118:
             entity = mike;
  121:

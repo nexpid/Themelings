@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = mike;
     report = options.memo;
     tango = function(argFoo) {
-        _fun93140: for(var _fun93140_ip = 0; ; ) switch(_fun93140_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.color;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity.style;
             golf = entity.selected;
             report = undefined;
-            if(!(golf === report)) { _fun93140_ip = 33; continue _fun93140 }
+            if(!(golf === report)) { _fun00002_ip = 33; continue _fun00001 }
  31:
             golf = false;
  33:
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)(backup);
             romeo = mike.v;
             oscar = null;
-            if(!(oscar == entity)) { _fun93140_ip = 318; continue _fun93140 }
+            if(!(oscar == entity)) { _fun00002_ip = 318; continue _fun00001 }
  91:
             zulu = _closure1_slot4;
             mike = _closure1_slot3;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[2] = offset;
             entity['style'] = tango;
             tango = null;
-            if(!golf) { _fun93140_ip = 303; continue _fun93140 }
+            if(!golf) { _fun00002_ip = 303; continue _fun00001 }
  173:
             sizing = _closure1_slot4;
             result = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(report)(output);
             offset['source'] = output;
             output = 0.5;
-            if(!(!(romeo < output))) { _fun93140_ip = 262; continue _fun93140 }
+            if(!(!(romeo < output))) { _fun00002_ip = 262; continue _fun00001 }
  229:
             result = _closure1_slot1;
             echo = _closure1_slot2;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(report)(output);
             output = output.unsafe_rawColors;
             output = output.BLACK_500;
-            _fun93140_ip = 293; continue _fun93140;
+            _fun00002_ip = 293; continue _fun00001;
  262:
             echo = _closure1_slot1;
             update = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  303:
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun93140_ip = 635; continue _fun93140;
+            _fun00002_ip = 635; continue _fun00001;
  318:
             tango = _closure1_slot4;
             foxtrot = _closure1_slot0;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[2] = verify;
             mike['style'] = options;
             oscar = null;
-            if(!golf) { _fun93140_ip = 625; continue _fun93140 }
+            if(!golf) { _fun00002_ip = 625; continue _fun00001 }
  495:
             verify = _closure1_slot4;
             foxtrot = _closure1_slot1;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.bind(report)(offset);
             golf['source'] = offset;
             offset = 0.5;
-            if(!(!(romeo < offset))) { _fun93140_ip = 584; continue _fun93140 }
+            if(!(!(romeo < offset))) { _fun00002_ip = 584; continue _fun00001 }
  551:
             romeo = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = romeo.bind(report)(offset);
             offset = offset.unsafe_rawColors;
             offset = offset.BLACK_500;
-            _fun93140_ip = 615; continue _fun93140;
+            _fun00002_ip = 615; continue _fun00001;
  584:
             romeo = _closure1_slot1;
             foxtrot = _closure1_slot2;

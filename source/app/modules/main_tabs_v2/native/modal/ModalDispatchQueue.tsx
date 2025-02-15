@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'flush';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun57471: for(var _fun57471_ip = 0; ; ) switch(_fun57471_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = this;
                 entity = report.queue;
@@ -60,18 +60,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = 0;
                 entity = undefined;
                 zulu = null;
-                if(!(mike > tango)) { _fun57471_ip = 63; continue _fun57471 }
+                if(!(mike > tango)) { _fun00002_ip = 63; continue _fun00001 }
  24:
                 oscar = report.queue;
                 mike = oscar.shift;
                 mike = mike.bind(oscar)();
-                if(!(zulu != mike)) { _fun57471_ip = 48; continue _fun57471 }
+                if(!(zulu != mike)) { _fun00002_ip = 48; continue _fun00001 }
  44:
                 mike = mike.bind(entity)();
  48:
                 mike = report.queue;
                 mike = mike.length;
-                if(mike > tango) { _fun57471_ip = 24; continue _fun57471 }
+                if(mike > tango) { _fun00002_ip = 24; continue _fun00001 }
  63:
                 return entity;
             }

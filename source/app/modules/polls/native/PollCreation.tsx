@@ -1,6 +1,6 @@
 // app/modules/polls/native/PollCreation.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun119346: for(var _fun119346_ip = 0; ; ) switch(_fun119346_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         };
         var _closure1_slot15 = entity;
         entity = function(argFoo) { // Original name: AddAnswerButton
-            _fun119348: for(var _fun119348_ip = 0; ; ) switch(_fun119348_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 verify = entity.onPress;
@@ -101,10 +101,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = _closure1_slot13;
                 tango = undefined;
                 options = entity.bind(tango)();
-                if(report) { _fun119348_ip = 38; continue _fun119348 }
+                if(report) { _fun00004_ip = 38; continue _fun00003 }
  30:
                 golf = options.addAnswerButtonImageOnly;
-                _fun119348_ip = 44; continue _fun119348;
+                _fun00004_ip = 44; continue _fun00003;
  38:
                 golf = options.addAnswerButtonDefault;
  44:
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = oscar.B2UvmZ;
                 oscar = golf.bind(verify)(oscar);
                 entity['accessibilityLabel'] = oscar;
-                if(report) { _fun119348_ip = 251; continue _fun119348 }
+                if(report) { _fun00004_ip = 251; continue _fun00003 }
  216:
                 golf = _closure1_slot10;
                 oscar = _closure1_slot5;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report['style'] = options;
                 report['children'] = yankee;
                 report = golf.bind(tango)(oscar, report);
-                _fun119348_ip = 376; continue _fun119348;
+                _fun00004_ip = 376; continue _fun00003;
  251:
                 options = _closure1_slot12;
                 golf = _closure1_slot11;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = 8;
-        if(!sizing) { _fun119346_ip = 509; continue _fun119346 }
+        if(!sizing) { _fun00002_ip = 509; continue _fun00001 }
  506:
         backup = kilo;
  509:
@@ -441,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot13 = tango;
         golf = options.forwardRef;
         tango = function(argFoo, argBar) {
-            _fun119351: for(var _fun119351_ip = 0; ; ) switch(_fun119351_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 report = entity.onChange;
@@ -497,7 +497,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = null;
                 offset = verify != options;
                 verify = 'default';
-                if(!offset) { _fun119351_ip = 250; continue _fun119351 }
+                if(!offset) { _fun00006_ip = 250; continue _fun00005 }
  246:
                 verify = 'error';
  250:
@@ -527,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/polls/native/PollCreation.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: PollCreation
-            _fun119352: for(var _fun119352_ip = 0; ; ) switch(_fun119352_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.channel;
@@ -638,7 +638,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = variable37.bind(tango)(entity);
                 mike = zulu.useNavigatorBackPressHandler;
                 entity = function() {
-                    _fun119355: for(var _fun119355_ip = 0; ; ) switch(_fun119355_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         tango = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = _closure2_slot1;
                         tango = _closure2_slot3;
                         tango = golf.bind(options)(oscar, report, tango);
-                        if(tango) { _fun119355_ip = 123; continue _fun119355 }
+                        if(tango) { _fun00010_ip = 123; continue _fun00009 }
  56:
                         report = _closure1_slot0;
                         oscar = _closure1_slot2;
@@ -668,7 +668,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = 'poll-creation-unsaved-changes';
                         entity = report.bind(oscar)(entity, tango);
                         entity = true;
-                        _fun119355_ip = 133; continue _fun119355;
+                        _fun00010_ip = 133; continue _fun00009;
  123:
                         mike = _closure2_slot13;
                         mike = mike.bind(zulu)();
@@ -697,11 +697,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike[0] = target;
                 mike[1] = sierra;
                 entity = function() {
-                    _fun119357: for(var _fun119357_ip = 0; ; ) switch(_fun119357_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         zulu = _closure2_slot12;
                         mike = null;
-                        if(!(mike != zulu)) { _fun119357_ip = 56; continue _fun119357 }
+                        if(!(mike != zulu)) { _fun00012_ip = 56; continue _fun00011 }
  13:
                         mike = global;
                         tango = mike.Object;
@@ -761,7 +761,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 equality = variable38.bind(variable39)(equality);
                 yankee['accessibilityLabel'] = equality;
                 equality = function() { // Original name: onPress
-                    _fun119358: for(var _fun119358_ip = 0; ; ) switch(_fun119358_ip) {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                         tango = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -774,7 +774,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         report = _closure2_slot1;
                         tango = _closure2_slot3;
                         tango = golf.bind(options)(oscar, report, tango);
-                        if(tango) { _fun119358_ip = 121; continue _fun119358 }
+                        if(tango) { _fun00014_ip = 121; continue _fun00013 }
  56:
                         report = _closure1_slot0;
                         oscar = _closure1_slot2;
@@ -790,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = golf.bind(entity)(tango, zulu);
                         zulu = 'poll-creation-unsaved-changes';
                         zulu = report.bind(oscar)(zulu, tango);
-                        _fun119358_ip = 129; continue _fun119358;
+                        _fun00014_ip = 129; continue _fun00013;
  121:
                         mike = _closure2_slot14;
                         mike = mike.bind(entity)();
@@ -866,7 +866,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify['contentContainerStyle'] = backup;
                 record = null;
                 update = record != quebec;
-                if(!update) { _fun119352_ip = 1072; continue _fun119352 }
+                if(!update) { _fun00008_ip = 1072; continue _fun00007 }
  1017:
                 vacuum = _closure1_slot10;
                 source = _closure1_slot1;
@@ -877,7 +877,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = {};
                 equality = record == quebec;
                 whiskey = undefined;
-                if(equality) { _fun119352_ip = 1062; continue _fun119352 }
+                if(equality) { _fun00008_ip = 1062; continue _fun00007 }
  1052:
                 equality = quebec.getAnyErrorMessage;
                 whiskey = equality.bind(quebec)();
@@ -899,14 +899,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update['onSubmitEditing'] = sierra;
                 sierra = record == target;
                 record = undefined;
-                if(sierra) { _fun119352_ip = 1140; continue _fun119352 }
+                if(sierra) { _fun00008_ip = 1140; continue _fun00007 }
  1134:
                 record = target.question;
  1140:
                 update['error'] = record;
                 update = vacuum.bind(tango)(source, update);
                 backup[1] = update;
-                if(!kilo) { _fun119352_ip = 1199; continue _fun119352 }
+                if(!kilo) { _fun00008_ip = 1199; continue _fun00007 }
  1157:
                 vacuum = _closure1_slot10;
                 source = _closure1_slot1;
@@ -934,7 +934,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 config = config.PollLayoutTypes;
                 config = config.IMAGE_ONLY_ANSWERS;
                 config = status === config;
-                if(!config) { _fun119352_ip = 1272; continue _fun119352 }
+                if(!config) { _fun00008_ip = 1272; continue _fun00007 }
  1266:
                 config = romeo.imageOnlyContainer;
  1272:
@@ -967,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 vacuum[0] = config;
                 record = context.map;
                 config = function(argFoo, argBar) {
-                    _fun119359: for(var _fun119359_ip = 0; ; ) switch(_fun119359_ip) {
+                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                         entity = argFoo;
                         report = _closure1_slot10;
@@ -1012,7 +1012,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = null;
                         verify = oscar == verify;
                         oscar = undefined;
-                        if(verify) { _fun119359_ip = 222; continue _fun119359 }
+                        if(verify) { _fun00016_ip = 222; continue _fun00015 }
  192:
                         options = _closure2_slot12;
                         verify = entity.localCreationAnswerId;
@@ -1029,7 +1029,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 config = record.bind(context)(config);
                 vacuum[1] = config;
-                if(!sequence) { _fun119352_ip = 1475; continue _fun119352 }
+                if(!sequence) { _fun00008_ip = 1475; continue _fun00007 }
  1417:
                 context = _closure1_slot10;
                 record = _closure1_slot16;

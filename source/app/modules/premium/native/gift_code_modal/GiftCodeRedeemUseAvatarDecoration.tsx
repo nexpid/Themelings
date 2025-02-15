@@ -127,11 +127,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun91712: for(var _fun91712_ip = 0; ; ) switch(_fun91712_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun91712_ip = 69; continue _fun91712 }
+                        if(mike) { _fun00002_ip = 69; continue _fun00001 }
  7:
                         mike = _closure2_slot1;
                         zulu = undefined;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  24:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun91712_ip = 66; continue _fun91712 }
+                        if(tango) { _fun00002_ip = 66; continue _fun00001 }
  30:
                         report = _closure1_slot1;
                         oscar = _closure1_slot2;
@@ -180,11 +180,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = control;
         mike[2] = golf;
         entity = function() {
-            _fun91714: for(var _fun91714_ip = 0; ; ) switch(_fun91714_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = _closure2_slot2;
-                if(!(zulu !== mike)) { _fun91714_ip = 56; continue _fun91714 }
+                if(!(zulu !== mike)) { _fun00004_ip = 56; continue _fun00003 }
  15:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;

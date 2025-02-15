@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/AvatarDecorationSample.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88148: for(var _fun88148_ip = 0; ; ) switch(_fun88148_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.item;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = new Array(2);
             sizing[0] = output;
             output = offset;
-            if(!offset) { _fun88148_ip = 166; continue _fun88148 }
+            if(!offset) { _fun00002_ip = 166; continue _fun00001 }
  160:
             output = yankee.purchased;
  166:
@@ -121,16 +121,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = 'contain';
             report['resizeMode'] = sizing;
             sizing = null;
-            if(!(sizing == options)) { _fun88148_ip = 233; continue _fun88148 }
+            if(!(sizing == options)) { _fun00002_ip = 233; continue _fun00001 }
  189:
-            if(kilo) { _fun88148_ip = 214; continue _fun88148 }
+            if(kilo) { _fun00002_ip = 214; continue _fun00001 }
  192:
             sizing = _closure1_slot1;
             output = _closure1_slot2;
             kilo = 6;
             kilo = output[kilo];
             kilo = sizing.bind(tango)(kilo);
-            _fun88148_ip = 230; continue _fun88148;
+            _fun00002_ip = 230; continue _fun00001;
  214:
             sizing = {};
             output = 'https://cdn.discordapp.com/assets/content/8f769ddb3458f312150ee607633a4c76a6e7008320394b955596e7ac8e1c20df.png';
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot5;
             golf = _closure1_slot4;
             oscar = {};
-            if(!offset) { _fun88148_ip = 270; continue _fun88148 }
+            if(!offset) { _fun00002_ip = 270; continue _fun00001 }
  264:
             offset = yankee.purchased;
  270:

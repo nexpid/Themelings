@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'traceEvent';
         entity['key'] = mike;
         mike = function(argFoo, argBar) { // Original name: value
-            _fun52616: for(var _fun52616_ip = 0; ; ) switch(_fun52616_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 tango = argBar;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report._report;
                 oscar = tango.type;
                 entity = 'soundshare_state_transition';
-                if(!(entity !== oscar)) { _fun52616_ip = 64; continue _fun52616 }
+                if(!(entity !== oscar)) { _fun00002_ip = 64; continue _fun00001 }
  30:
                 options = tango.type;
                 entity = global;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = '';
                 entity = '_count';
                 golf = golf.bind(oscar)(options, entity);
-                _fun52616_ip = 113; continue _fun52616;
+                _fun00002_ip = 113; continue _fun00001;
  64:
                 oscar = tango.newState;
                 entity = ['detached', 'waiting', 'attached', 'started', 'playing', 'silence'];
@@ -76,16 +76,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  113:
                 oscar = mike[golf];
                 entity = undefined;
-                if(!(entity === oscar)) { _fun52616_ip = 140; continue _fun52616 }
+                if(!(entity === oscar)) { _fun00002_ip = 140; continue _fun00001 }
  123:
                 oscar = mike.soundshare_unknown_event_count;
                 oscar = oscar + 1;
                 mike['soundshare_unknown_event_count'] = oscar;
-                _fun52616_ip = 165; continue _fun52616;
+                _fun00002_ip = 165; continue _fun00001;
  140:
                 options = mike[golf];
                 oscar = 32767;
-                if(!(options < oscar)) { _fun52616_ip = 165; continue _fun52616 }
+                if(!(options < oscar)) { _fun00002_ip = 165; continue _fun00001 }
  154:
                 oscar = mike[golf];
                 oscar = oscar + 1;
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  165:
                 oscar = 'pid';
                 oscar = oscar in tango;
-                if(!oscar) { _fun52616_ip = 234; continue _fun52616 }
+                if(!oscar) { _fun00002_ip = 234; continue _fun00001 }
  176:
                 golf = mike.soundshare_first_pid;
                 oscar = 0;
-                if(!(oscar === golf)) { _fun52616_ip = 200; continue _fun52616 }
+                if(!(oscar === golf)) { _fun00002_ip = 200; continue _fun00001 }
  188:
                 oscar = tango.pid;
                 mike['soundshare_first_pid'] = oscar;
@@ -110,10 +110,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = report.bind(oscar)(tango);
  234:
                 report = null;
-                if(!(report != zulu)) { _fun52616_ip = 262; continue _fun52616 }
+                if(!(report != zulu)) { _fun00002_ip = 262; continue _fun00001 }
  240:
                 tango = mike.soundshare_first_session;
-                if(!(report == tango)) { _fun52616_ip = 256; continue _fun52616 }
+                if(!(report == tango)) { _fun00002_ip = 256; continue _fun00001 }
  250:
                 mike['soundshare_first_session'] = zulu;
  256:

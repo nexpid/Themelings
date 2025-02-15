@@ -1,6 +1,6 @@
 // app/modules/messages/native/emoji/ExpressionGuildDetails.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun84729: for(var _fun84729_ip = 0; ; ) switch(_fun84729_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = tango.bind(yankee)();
         tango = 16;
         yankee = tango;
-        if(!foxtrot) { _fun84729_ip = 236; continue _fun84729 }
+        if(!foxtrot) { _fun00002_ip = 236; continue _fun00001 }
  233:
         yankee = 12;
  236:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = options.bind(verify)(golf);
         var _closure1_slot8 = golf;
         mike = function(argFoo) { // Original name: ExpressionGuildDetails
-            _fun84730: for(var _fun84730_ip = 0; ; ) switch(_fun84730_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 kilo = entity.guild;
@@ -130,9 +130,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 status = entity.bind(mike)(kilo);
                 entity = status.isDiscoverable;
                 romeo = entity.bind(status)();
-                if(romeo) { _fun84730_ip = 182; continue _fun84730 }
+                if(romeo) { _fun00004_ip = 182; continue _fun00003 }
  74:
-                if(update) { _fun84730_ip = 182; continue _fun84730 }
+                if(update) { _fun00004_ip = 182; continue _fun00003 }
  77:
                 mike = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['style'] = oscar;
                 entity['source'] = report;
                 options = zulu.bind(tango)(mike, entity);
-                _fun84730_ip = 264; continue _fun84730;
+                _fun00004_ip = 264; continue _fun00003;
  182:
                 zulu = _closure1_slot5;
                 mike = _closure1_slot1;
@@ -243,11 +243,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = {};
                 foxtrot = record.guildDescriptionSection;
                 offset['style'] = foxtrot;
-                if(!romeo) { _fun84730_ip = 562; continue _fun84730 }
+                if(!romeo) { _fun00004_ip = 562; continue _fun00003 }
  550:
                 foxtrot = status.presenceCount;
                 romeo = null;
-                if(!(romeo == foxtrot)) { _fun84730_ip = 664; continue _fun84730 }
+                if(!(romeo == foxtrot)) { _fun00004_ip = 664; continue _fun00003 }
  562:
                 backup = _closure1_slot5;
                 control = _closure1_slot0;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 kilo = sizing.bind(source)(kilo);
                 romeo['children'] = kilo;
                 romeo = backup.bind(tango)(foxtrot, romeo);
-                _fun84730_ip = 1102; continue _fun84730;
+                _fun00004_ip = 1102; continue _fun00003;
  664:
                 kilo = _closure1_slot7;
                 backup = _closure1_slot6;
@@ -303,9 +303,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 source['style'] = context;
                 source = vacuum.bind(tango)(control, source);
                 sizing[1] = source;
-                if(update) { _fun84730_ip = 994; continue _fun84730 }
+                if(update) { _fun00004_ip = 994; continue _fun00003 }
  825:
-                if(output) { _fun84730_ip = 994; continue _fun84730 }
+                if(output) { _fun00004_ip = 994; continue _fun00003 }
  831:
                 source = _closure1_slot5;
                 update = _closure1_slot6;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 control = source.bind(tango)(vacuum, control);
                 output['children'] = control;
                 output = source.bind(tango)(update, output);
-                _fun84730_ip = 1088; continue _fun84730;
+                _fun00004_ip = 1088; continue _fun00003;
  994:
                 update = _closure1_slot5;
                 sequence = _closure1_slot0;

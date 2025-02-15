@@ -7,44 +7,44 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = entity;
     var _closure1_slot1 = verify;
     tango = function(argFoo) { // Original name: getIconSize
-        _fun48608: for(var _fun48608_ip = 0; ; ) switch(_fun48608_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = _closure1_slot4;
             zulu = zulu.EXTRA_SMALL_10;
-            if(!(zulu !== mike)) { _fun48608_ip = 181; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 181; continue _fun00001 }
  23:
             zulu = _closure1_slot4;
             zulu = zulu.EXTRA_SMALL;
-            if(!(zulu !== mike)) { _fun48608_ip = 176; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 176; continue _fun00001 }
  40:
             zulu = _closure1_slot4;
             zulu = zulu.SMALL;
-            if(!(zulu !== mike)) { _fun48608_ip = 171; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 171; continue _fun00001 }
  54:
             zulu = _closure1_slot4;
             zulu = zulu.SMALL_14;
-            if(!(zulu !== mike)) { _fun48608_ip = 166; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 166; continue _fun00001 }
  68:
             zulu = _closure1_slot4;
             zulu = zulu.SMALL_20;
-            if(!(zulu !== mike)) { _fun48608_ip = 161; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 161; continue _fun00001 }
  82:
             zulu = _closure1_slot4;
             zulu = zulu.MEDIUM;
-            if(!(zulu !== mike)) { _fun48608_ip = 156; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 156; continue _fun00001 }
  96:
             zulu = _closure1_slot4;
             zulu = zulu.LARGE;
-            if(!(zulu !== mike)) { _fun48608_ip = 151; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 151; continue _fun00001 }
  110:
             zulu = _closure1_slot4;
             zulu = zulu.REFRESH_SMALL_16;
-            if(!(zulu !== mike)) { _fun48608_ip = 146; continue _fun48608 }
+            if(!(zulu !== mike)) { _fun00002_ip = 146; continue _fun00001 }
  124:
             entity = _closure1_slot4;
             entity = entity.CUSTOM;
-            if(!(entity !== mike)) { _fun48608_ip = 142; continue _fun48608 }
+            if(!(entity !== mike)) { _fun00002_ip = 142; continue _fun00001 }
  138:
             entity = undefined;
             return entity;
@@ -160,26 +160,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = offset.memo;
     yankee = offset.forwardRef;
     oscar = function(argFoo, argBar) {
-        _fun48611: for(var _fun48611_ip = 0; ; ) switch(_fun48611_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             yankee = entity.source;
             zulu = entity.color;
             mike = entity.disableColor;
             tango = undefined;
-            if(!(mike === tango)) { _fun48611_ip = 27; continue _fun48611 }
+            if(!(mike === tango)) { _fun00004_ip = 27; continue _fun00003 }
  25:
             mike = false;
  27:
             offset = entity.size;
-            if(!(offset === tango)) { _fun48611_ip = 49; continue _fun48611 }
+            if(!(offset === tango)) { _fun00004_ip = 49; continue _fun00003 }
  36:
             report = _closure1_slot4;
             offset = report.MEDIUM;
  49:
             options = entity.style;
             romeo = entity.resizeMode;
-            if(!(romeo === tango)) { _fun48611_ip = 68; continue _fun48611 }
+            if(!(romeo === tango)) { _fun00004_ip = 68; continue _fun00003 }
  64:
             romeo = 'cover';
  68:
@@ -188,13 +188,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = _closure1_slot5;
             entity = entity.bind(tango)(offset);
             verify = undefined;
-            if(mike) { _fun48611_ip = 123; continue _fun48611 }
+            if(mike) { _fun00004_ip = 123; continue _fun00003 }
  96:
             mike = null;
-            if(!(mike == zulu)) { _fun48611_ip = 110; continue _fun48611 }
+            if(!(mike == zulu)) { _fun00004_ip = 110; continue _fun00003 }
  102:
             entity = entity.iconColor;
-            _fun48611_ip = 120; continue _fun48611;
+            _fun00004_ip = 120; continue _fun00003;
  110:
             mike = {};
             mike['tintColor'] = zulu;

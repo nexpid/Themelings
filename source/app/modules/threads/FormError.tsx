@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     entity = function(argFoo, argBar) { // Original name: formSubmitError
-        _fun112232: for(var _fun112232_ip = 0; ; ) switch(_fun112232_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             entity = {};
@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['type'] = mike;
             mike = null;
             tango = mike != zulu;
-            if(!tango) { _fun112232_ip = 24; continue _fun112232 }
+            if(!tango) { _fun00002_ip = 24; continue _fun00001 }
  21:
             mike = zulu;
  24:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['makeEmptyMessageError'] = tango;
     tango = function(argFoo, argBar) { // Original name: makeAutomodViolationError
-        _fun112236: for(var _fun112236_ip = 0; ; ) switch(_fun112236_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argBar;
             tango = _closure1_slot3;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = null;
             options = report == entity;
             report = undefined;
-            if(options) { _fun112236_ip = 64; continue _fun112236 }
+            if(options) { _fun00004_ip = 64; continue _fun00003 }
  59:
             report = entity.id;
  64:
@@ -126,22 +126,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['makeAutomodViolationError'] = tango;
     mike = function(argFoo, argBar) { // Original name: renderError
-        _fun112237: for(var _fun112237_ip = 0; ; ) switch(_fun112237_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
             mike = null;
             report = mike == zulu;
             entity = null;
-            if(report) { _fun112237_ip = 99; continue _fun112237 }
+            if(report) { _fun00006_ip = 99; continue _fun00005 }
  17:
             oscar = zulu.type;
             report = _closure1_slot2;
             report = report.EmptyContent;
-            if(!(oscar === report)) { _fun112237_ip = 79; continue _fun112237 }
+            if(!(oscar === report)) { _fun00006_ip = 79; continue _fun00005 }
  39:
             report = tango.content;
-            if(!(mike != report)) { _fun112237_ip = 79; continue _fun112237 }
+            if(!(mike != report)) { _fun00006_ip = 79; continue _fun00005 }
  48:
             report = tango.content;
             tango = report.trim;
@@ -150,12 +150,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 0;
             tango = report > tango;
             entity = null;
-            if(tango) { _fun112237_ip = 99; continue _fun112237 }
+            if(tango) { _fun00006_ip = 99; continue _fun00005 }
  79:
             zulu = zulu.message;
             tango = mike != zulu;
             mike = null;
-            if(!tango) { _fun112237_ip = 96; continue _fun112237 }
+            if(!tango) { _fun00006_ip = 96; continue _fun00005 }
  93:
             mike = zulu;
  96:

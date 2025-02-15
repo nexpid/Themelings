@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     golf = options.forwardRef;
     tango = function(argFoo, argBar) {
-        _fun48791: for(var _fun48791_ip = 0; ; ) switch(_fun48791_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.sheetKey;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar.isAndroid;
             oscar = report.bind(oscar)();
             report = foxtrot;
-            if(!oscar) { _fun48791_ip = 520; continue _fun48791 }
+            if(!oscar) { _fun00002_ip = 520; continue _fun00001 }
  382:
             options = _closure1_slot9;
             golf = _closure1_slot5;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Sheet/native/ActionSheetPresenter.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ActionSheetPresenter
-        _fun48799: for(var _fun48799_ip = 0; ; ) switch(_fun48799_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             golf = mike == report;
             mike = undefined;
-            if(golf) { _fun48799_ip = 94; continue _fun48799 }
+            if(golf) { _fun00004_ip = 94; continue _fun00003 }
  89:
             mike = report.key;
  94:
@@ -280,12 +280,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(1);
             report[0] = mike;
             mike = function() {
-                _fun48801: for(var _fun48801_ip = 0; ; ) switch(_fun48801_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun48801_ip = 56; continue _fun48801 }
+                    if(!entity) { _fun00006_ip = 56; continue _fun00005 }
  16:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;

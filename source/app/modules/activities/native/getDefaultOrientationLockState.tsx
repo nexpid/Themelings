@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = report;
     mike = function(argFoo) { // Original name: getDefaultOrientationLockState
-        _fun75879: for(var _fun75879_ip = 0; ; ) switch(_fun75879_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = null;
-            if(!(tango == zulu)) { _fun75879_ip = 13; continue _fun75879 }
+            if(!(tango == zulu)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             entity = undefined;
             return entity;
@@ -27,17 +27,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(report)();
             zulu = zulu.embeddedActivityConfig;
             tango = tango == zulu;
-            if(entity) { _fun75879_ip = 74; continue _fun75879 }
+            if(entity) { _fun00002_ip = 74; continue _fun00001 }
  61:
             entity = undefined;
-            if(tango) { _fun75879_ip = 72; continue _fun75879 }
+            if(tango) { _fun00002_ip = 72; continue _fun00001 }
  66:
             entity = zulu.default_orientation_lock_state;
  72:
-            _fun75879_ip = 88; continue _fun75879;
+            _fun00002_ip = 88; continue _fun00001;
  74:
             mike = undefined;
-            if(tango) { _fun75879_ip = 85; continue _fun75879 }
+            if(tango) { _fun00002_ip = 85; continue _fun00001 }
  79:
             mike = zulu.tablet_default_orientation_lock_state;
  85:
@@ -63,18 +63,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/activities/native/getDefaultOrientationLockState.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) { // Original name: setOrientationLockState
-        _fun75880: for(var _fun75880_ip = 0; ; ) switch(_fun75880_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             tango = argBar;
             entity = null;
-            if(!(entity == tango)) { _fun75880_ip = 26; continue _fun75880 }
+            if(!(entity == tango)) { _fun00004_ip = 26; continue _fun00003 }
  12:
             zulu = _closure1_slot3;
             mike = undefined;
             tango = zulu.bind(mike)(report);
  26:
-            if(!(entity != tango)) { _fun75880_ip = 90; continue _fun75880 }
+            if(!(entity != tango)) { _fun00004_ip = 90; continue _fun00003 }
  30:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;

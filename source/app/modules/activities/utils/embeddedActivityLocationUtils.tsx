@@ -19,11 +19,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/embeddedActivityLocationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getEmbeddedActivityLocationChannelId
-        _fun43967: for(var _fun43967_ip = 0; ; ) switch(_fun43967_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun43967_ip = 13; continue _fun43967 }
+            if(!(entity == mike)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             entity = undefined;
             return entity;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = 'channel_id';
             zulu = entity in mike;
             entity = undefined;
-            if(!zulu) { _fun43967_ip = 31; continue _fun43967 }
+            if(!zulu) { _fun00002_ip = 31; continue _fun00001 }
  26:
             entity = mike.channel_id;
  31:
@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getEmbeddedActivityLocationChannelId'] = tango;
     tango = function(argFoo) { // Original name: getEmbeddedActivityLocationGuildId
-        _fun43968: for(var _fun43968_ip = 0; ; ) switch(_fun43968_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun43968_ip = 13; continue _fun43968 }
+            if(!(entity == mike)) { _fun00004_ip = 13; continue _fun00003 }
  9:
             entity = undefined;
             return entity;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = 'guild_id';
             zulu = entity in mike;
             entity = undefined;
-            if(!zulu) { _fun43968_ip = 31; continue _fun43968 }
+            if(!zulu) { _fun00004_ip = 31; continue _fun00003 }
  26:
             entity = mike.guild_id;
  31:
@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getEmbeddedActivityLocationGuildId'] = tango;
     tango = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingChannelId
-        _fun43969: for(var _fun43969_ip = 0; ; ) switch(_fun43969_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun43969_ip = 13; continue _fun43969 }
+            if(!(entity == mike)) { _fun00006_ip = 13; continue _fun00005 }
  9:
             entity = undefined;
             return entity;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = 'starting_channel_id';
             zulu = entity in mike;
             entity = undefined;
-            if(!zulu) { _fun43969_ip = 36; continue _fun43969 }
+            if(!zulu) { _fun00006_ip = 36; continue _fun00005 }
  28:
             entity = mike.starting_channel_id;
  36:
@@ -82,11 +82,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getEmbeddedActivityLocationStartingChannelId'] = tango;
     mike = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
-        _fun43970: for(var _fun43970_ip = 0; ; ) switch(_fun43970_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(entity == mike)) { _fun43970_ip = 13; continue _fun43970 }
+            if(!(entity == mike)) { _fun00008_ip = 13; continue _fun00007 }
  9:
             entity = undefined;
             return entity;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = 'starting_guild_id';
             zulu = entity in mike;
             entity = undefined;
-            if(!zulu) { _fun43970_ip = 36; continue _fun43970 }
+            if(!zulu) { _fun00008_ip = 36; continue _fun00007 }
  28:
             entity = mike.starting_guild_id;
  36:

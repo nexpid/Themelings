@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = tango.bind(report)(zulu);
         entity['icon'] = zulu;
         mike = function() { // Original name: onPress
-            _fun103592: for(var _fun103592_ip = 0; ; ) switch(_fun103592_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = report.getVideoStats;
                 zulu = zulu.bind(report)(options);
                 report = null;
-                if(!(report == zulu)) { _fun103592_ip = 66; continue _fun103592 }
+                if(!(report == zulu)) { _fun00002_ip = 66; continue _fun00001 }
  64:
                 zulu = {};
  66:
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['reportStreamIssue'] = tango;
     tango = function(argFoo, argBar, argBaz) {
-        _fun103593: for(var _fun103593_ip = 0; ; ) switch(_fun103593_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             oscar = argBar;
@@ -337,9 +337,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             zulu = null;
-            if(!(zulu == oscar)) { _fun103593_ip = 49; continue _fun103593 }
+            if(!(zulu == oscar)) { _fun00004_ip = 49; continue _fun00003 }
  36:
-            if(!(zulu != report)) { _fun103593_ip = 56; continue _fun103593 }
+            if(!(zulu != report)) { _fun00004_ip = 56; continue _fun00003 }
  40:
             mike = function() { // Original name: onPress
                 tango = _closure1_slot0;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = tango.bind(report)(zulu, mike, entity);
                 return entity;
             };
-            _fun103593_ip = 56; continue _fun103593;
+            _fun00004_ip = 56; continue _fun00003;
  49:
             mike = function() { // Original name: onPress
                 tango = _closure1_slot0;
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  56:
             zulu = tango.isPrivate;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun103593_ip = 76; continue _fun103593 }
+            if(!zulu) { _fun00004_ip = 76; continue _fun00003 }
  69:
             mike = function() { // Original name: onPress
                 tango = _closure1_slot0;
@@ -485,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = zulu.bind(tango)(mike);
         entity['icon'] = mike;
         mike = function() { // Original name: onPress
-            _fun103601: for(var _fun103601_ip = 0; ; ) switch(_fun103601_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike[0] = oscar;
                 mike = zulu.bind(tango)(mike);
                 zulu = '';
-                if(!(zulu !== mike)) { _fun103601_ip = 102; continue _fun103601 }
+                if(!(zulu !== mike)) { _fun00006_ip = 102; continue _fun00005 }
  56:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -511,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu['message'] = mike;
                 mike = 'Activity Logs';
                 mike = tango.bind(oscar)(zulu, mike);
-                _fun103601_ip = 200; continue _fun103601;
+                _fun00006_ip = 200; continue _fun00005;
  102:
                 zulu = _closure1_slot1;
                 verify = _closure1_slot2;

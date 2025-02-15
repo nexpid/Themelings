@@ -1,6 +1,6 @@
 // discord_common/js/packages/performance-utils/index.js
 module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
-    _fun7082: for(var _fun7082_ip = 0; ; ) switch(_fun7082_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         entity = argFoo;
         romeo = argBar;
@@ -30,7 +30,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         offset = verify.Date;
         romeo = offset.now;
         offset = null;
-        if(!(offset == romeo)) { _fun7082_ip = 114; continue _fun7082 }
+        if(!(offset == romeo)) { _fun00002_ip = 114; continue _fun00001 }
  95:
         romeo = verify.Date;
         offset = function() {
@@ -47,7 +47,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         };
         romeo['now'] = offset;
  114: // try_end0
-        _fun7082_ip = 118; continue _fun7082;
+        _fun00002_ip = 118; continue _fun00001;
  116: // catch_target0
         CatchBlockStart(arg_register=9);
  118:
@@ -59,17 +59,17 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         foxtrot = offset.navigationStart;
         romeo = foxtrot;
         offset = null;
-        if(!(offset == foxtrot)) { _fun7082_ip = 170; continue _fun7082 }
+        if(!(offset == foxtrot)) { _fun00002_ip = 170; continue _fun00001 }
  150:
         offset = yankee;
         foxtrot = offset.performance;
         offset = foxtrot.now;
         offset = offset.bind(foxtrot)();
-        _fun7082_ip = 173; continue _fun7082;
+        _fun00002_ip = 173; continue _fun00001;
  170:
         offset = romeo;
  173: // try_end1
-        _fun7082_ip = 192; continue _fun7082;
+        _fun00002_ip = 192; continue _fun00001;
  175: // catch_target1
         CatchBlockStart(arg_register=11);
         foxtrot = verify.Date;
@@ -84,13 +84,13 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         romeo = yankee.timeOrigin;
         offset = romeo;
         yankee = null;
-        if(!(yankee == romeo)) { _fun7082_ip = 223; continue _fun7082 }
+        if(!(yankee == romeo)) { _fun00002_ip = 223; continue _fun00001 }
  221:
-        _fun7082_ip = 226; continue _fun7082;
+        _fun00002_ip = 226; continue _fun00001;
  223:
         options = offset;
  226: // try_end2
-        _fun7082_ip = 245; continue _fun7082;
+        _fun00002_ip = 245; continue _fun00001;
  228: // catch_target2
         CatchBlockStart(arg_register=9);
         offset = verify.Date;
@@ -102,7 +102,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         options = options.performance;
         options = options.timing;
         verify = null;
-        if(!(verify == options)) { _fun7082_ip = 298; continue _fun7082 }
+        if(!(verify == options)) { _fun00002_ip = 298; continue _fun00001 }
  269: // try_start_3
         options = zulu;
         offset = options.performance;
@@ -111,21 +111,21 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         options['navigationStart'] = yankee;
         offset['timing'] = options;
  294: // try_end3
-        _fun7082_ip = 298; continue _fun7082;
+        _fun00002_ip = 298; continue _fun00001;
  296: // catch_target3
         CatchBlockStart(arg_register=7);
  298:
         options = zulu;
         options = options.performance;
         options = options.timeOrigin;
-        if(!(verify == options)) { _fun7082_ip = 339; continue _fun7082 }
+        if(!(verify == options)) { _fun00002_ip = 339; continue _fun00001 }
  317: // try_start_4
         options = zulu;
         verify = options.performance;
         options = tango;
         verify['timeOrigin'] = options;
  335: // try_end4
-        _fun7082_ip = 339; continue _fun7082;
+        _fun00002_ip = 339; continue _fun00001;
  337: // catch_target4
         CatchBlockStart(arg_register=7);
  339:

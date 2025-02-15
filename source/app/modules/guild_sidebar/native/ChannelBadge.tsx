@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/ChannelBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelBadge
-        _fun115744: for(var _fun115744_ip = 0; ; ) switch(_fun115744_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             verify = mike.mentionCount;
@@ -82,28 +82,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup = offset.bind(yankee)(tango, zulu);
             zulu = null;
-            if(!(zulu != verify)) { _fun115744_ip = 113; continue _fun115744 }
+            if(!(zulu != verify)) { _fun00002_ip = 113; continue _fun00001 }
  104:
             tango = 0;
-            if(!(!(verify > tango))) { _fun115744_ip = 324; continue _fun115744 }
+            if(!(!(verify > tango))) { _fun00002_ip = 324; continue _fun00001 }
  113:
-            if(entity) { _fun115744_ip = 264; continue _fun115744 }
+            if(entity) { _fun00002_ip = 264; continue _fun00001 }
  119:
             tango = zulu != mike;
             entity = null;
-            if(!tango) { _fun115744_ip = 262; continue _fun115744 }
+            if(!tango) { _fun00002_ip = 262; continue _fun00001 }
  131:
             entity = null;
-            if(mike) { _fun115744_ip = 262; continue _fun115744 }
+            if(mike) { _fun00002_ip = 262; continue _fun00001 }
  139:
             mike = zulu != kilo;
             entity = null;
-            if(!mike) { _fun115744_ip = 262; continue _fun115744 }
+            if(!mike) { _fun00002_ip = 262; continue _fun00001 }
  148:
             mike = 0;
             mike = kilo > mike;
             entity = null;
-            if(!mike) { _fun115744_ip = 262; continue _fun115744 }
+            if(!mike) { _fun00002_ip = 262; continue _fun00001 }
  159:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = offset;
             entity = tango.bind(report)(zulu, mike);
  262:
-            _fun115744_ip = 322; continue _fun115744;
+            _fun00002_ip = 322; continue _fun00001;
  264:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = offset;
             entity = tango.bind(report)(zulu, mike);
  322:
-            _fun115744_ip = 392; continue _fun115744;
+            _fun00002_ip = 392; continue _fun00001;
  324:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;

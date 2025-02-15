@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/hooks/useFilterAndSortToOnlyFrecentCommands.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useFilterAndSortToOnlyFrecentCommands
-        _fun119016: for(var _fun119016_ip = 0; ; ) switch(_fun119016_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             offset = zulu.context;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = mike;
             report = zulu.limit;
             options = undefined;
-            if(!(report === options)) { _fun119016_ip = 37; continue _fun119016 }
+            if(!(report === options)) { _fun00002_ip = 37; continue _fun00001 }
  32:
             report = mike.length;
  37:

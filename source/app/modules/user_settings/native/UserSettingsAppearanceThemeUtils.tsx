@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = 'modules/user_settings/native/UserSettingsAppearanceThemeUtils.tsx';
     golf = options.bind(verify)(golf);
     golf = function(argFoo, argBar, argBaz) {
-        _fun97210: for(var _fun97210_ip = 0; ; ) switch(_fun97210_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot6;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isSynced'] = zulu;
             tango = report.colors;
             zulu = null;
-            if(!(zulu != tango)) { _fun97210_ip = 77; continue _fun97210 }
+            if(!(zulu != tango)) { _fun00002_ip = 77; continue _fun00001 }
  38:
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.BackgroundGradientPresetId;
             tango = report.id;
             tango = golf[tango];
-            _fun97210_ip = 107; continue _fun97210;
+            _fun00002_ip = 107; continue _fun00001;
  77:
             verify = report.theme;
             golf = global;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.theme;
             entity = _closure1_slot4;
             entity = entity.MIDNIGHT;
-            if(!(oscar === entity)) { _fun97210_ip = 180; continue _fun97210 }
+            if(!(oscar === entity)) { _fun00002_ip = 180; continue _fun00001 }
  147:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -138,10 +138,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  180:
             oscar = report.theme;
             entity = 'system';
-            if(!(entity !== oscar)) { _fun97210_ip = 287; continue _fun97210 }
+            if(!(entity !== oscar)) { _fun00002_ip = 287; continue _fun00001 }
  194:
             entity = report.colors;
-            if(!(zulu != entity)) { _fun97210_ip = 287; continue _fun97210 }
+            if(!(zulu != entity)) { _fun00002_ip = 287; continue _fun00001 }
  203:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = report.theme;
             entity['theme'] = golf;
             entity = zulu.bind(oscar)(entity);
-            _fun97210_ip = 353; continue _fun97210;
+            _fun00002_ip = 353; continue _fun00001;
  287:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -187,17 +187,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['STANDARD_BACKGROUND_THEME_BUFFER'] = report;
     zulu['PRESET_ID_TO_CAROUSEL_INDEX_MAP'] = tango;
     mike = function(argFoo, argBar, argBaz, argCorge) {
-        _fun97211: for(var _fun97211_ip = 0; ; ) switch(_fun97211_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = argBaz;
             report = argCorge;
             zulu = null;
-            if(!(zulu == entity)) { _fun97211_ip = 66; continue _fun97211 }
+            if(!(zulu == entity)) { _fun00004_ip = 66; continue _fun00003 }
  17:
             zulu = 'system';
             oscar = argBar;
-            if(oscar) { _fun97211_ip = 30; continue _fun97211 }
+            if(oscar) { _fun00004_ip = 30; continue _fun00003 }
  27:
             zulu = report;
  30:
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = 0;
             tango = zulu >= mike;
-            if(!tango) { _fun97211_ip = 64; continue _fun97211 }
+            if(!tango) { _fun00004_ip = 64; continue _fun00003 }
  61:
             mike = zulu;
  64:

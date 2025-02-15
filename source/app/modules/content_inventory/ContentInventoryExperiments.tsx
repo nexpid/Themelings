@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['MemberlistRankerExperiment'] = golf;
     zulu['HotwheelsActivityFeedMlModelV2Experiment'] = oscar;
     oscar = function(argFoo) { // Original name: isEligibleForContentInventoryV1
-        _fun106672: for(var _fun106672_ip = 0; ; ) switch(_fun106672_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.getICYMIExperiment;
             mike = false;
             mike = zulu.bind(tango)(report, mike);
-            if(entity) { _fun106672_ip = 84; continue _fun106672 }
+            if(entity) { _fun00002_ip = 84; continue _fun00001 }
  81:
             entity = mike;
  84:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForContentInventoryV1'] = oscar;
     oscar = function(argFoo) { // Original name: isEligibleForImpressionCapping
-        _fun106673: for(var _fun106673_ip = 0; ; ) switch(_fun106673_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = _closure1_slot2;
             tango = report.getCurrentConfig;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike, entity);
             entity = mike.enabled;
             mike = mike.impressionCappingEnabled;
-            if(!entity) { _fun106673_ip = 55; continue _fun106673 }
+            if(!entity) { _fun00004_ip = 55; continue _fun00003 }
  51:
             entity = zulu === mike;
  55:

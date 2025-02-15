@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/fastest_list/props/useFastestListPropsScrollReporting.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useFastestListPropsScrollReporting
-        _fun78581: for(var _fun78581_ip = 0; ; ) switch(_fun78581_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             verify = argBar;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = undefined;
             entity = 'animatedScrollPosition';
             offset = undefined;
-            if(!(entity === mike)) { _fun78581_ip = 38; continue _fun78581 }
+            if(!(entity === mike)) { _fun00002_ip = 38; continue _fun00001 }
  32:
             offset = zulu.scrollPosition;
  38:
@@ -47,21 +47,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = report.useAnimatedScrollHandler;
             mike = {};
             oscar = function(argFoo) { // Original name: n
-                _fun78582: for(var _fun78582_ip = 0; ; ) switch(_fun78582_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun78582_ip = 55; continue _fun78582 }
+                    if(!(mike != zulu)) { _fun00004_ip = 55; continue _fun00003 }
  13:
                     zulu = _closure2_slot1;
                     mike = zulu.set;
                     entity = _closure2_slot0;
                     tango = argFoo;
                     tango = tango.contentOffset;
-                    if(entity) { _fun78582_ip = 45; continue _fun78582 }
+                    if(entity) { _fun00004_ip = 45; continue _fun00003 }
  38:
                     entity = tango.y;
-                    _fun78582_ip = 50; continue _fun78582;
+                    _fun00004_ip = 50; continue _fun00003;
  45:
                     entity = tango.x;
  50:
@@ -82,10 +82,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['onScroll'] = oscar;
             mike = tango.bind(report)(mike);
             tango = zulu.scrollReporting;
-            if(!(entity !== tango)) { _fun78581_ip = 205; continue _fun78581 }
+            if(!(entity !== tango)) { _fun00002_ip = 205; continue _fun00001 }
  143:
             entity = 'animatedCallbacks';
-            if(!(entity !== tango)) { _fun78581_ip = 190; continue _fun78581 }
+            if(!(entity !== tango)) { _fun00002_ip = 190; continue _fun00001 }
  153:
             entity = {};
             tango = zulu.onScroll;

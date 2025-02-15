@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot17 = report;
     tango = function() { // Original name: FamilyCenterModalRequestSuccess
-        _fun95260: for(var _fun95260_ip = 0; ; ) switch(_fun95260_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot15;
             tango = undefined;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             report = zulu.bind(report)(entity, mike);
             sizing = null;
-            if(!(sizing === output)) { _fun95260_ip = 215; continue _fun95260 }
+            if(!(sizing === output)) { _fun00002_ip = 215; continue _fun00001 }
  185:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -454,7 +454,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = {};
             result = sizing == output;
             sizing = undefined;
-            if(result) { _fun95260_ip = 597; continue _fun95260 }
+            if(result) { _fun00002_ip = 597; continue _fun00001 }
  591:
             sizing = output.email;
  597:
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot18 = tango;
     mike = function(argFoo) { // Original name: FamilyCenterModalRequestError
-        _fun95264: for(var _fun95264_ip = 0; ; ) switch(_fun95264_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = mike.failureCode;
@@ -585,7 +585,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             verify = mike != options;
             golf = undefined;
-            if(!verify) { _fun95264_ip = 260; continue _fun95264 }
+            if(!verify) { _fun00004_ip = 260; continue _fun00003 }
  257:
             golf = options;
  260:
@@ -593,7 +593,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.email;
             golf = mike != oscar;
             mike = undefined;
-            if(!golf) { _fun95264_ip = 283; continue _fun95264 }
+            if(!golf) { _fun00004_ip = 283; continue _fun00003 }
  280:
             mike = oscar;
  283:
@@ -633,10 +633,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = foxtrot.iconContainer;
             output = new Array(2);
             output[0] = source;
-            if(!(echo !== update)) { _fun95264_ip = 445; continue _fun95264 }
+            if(!(echo !== update)) { _fun00004_ip = 445; continue _fun00003 }
  437:
             update = foxtrot.negative;
-            _fun95264_ip = 451; continue _fun95264;
+            _fun00004_ip = 451; continue _fun00003;
  445:
             update = foxtrot.positive;
  451:
@@ -644,7 +644,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup['style'] = output;
             output = _closure1_slot9;
             output = output.CHECK;
-            if(!(echo !== output)) { _fun95264_ip = 533; continue _fun95264 }
+            if(!(echo !== output)) { _fun00004_ip = 533; continue _fun00003 }
  473:
             update = _closure1_slot10;
             control = _closure1_slot1;
@@ -660,7 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = '#FFF';
             output['color'] = source;
             output = update.bind(tango)(echo, output);
-            _fun95264_ip = 591; continue _fun95264;
+            _fun00004_ip = 591; continue _fun00003;
  533:
             source = _closure1_slot10;
             vacuum = _closure1_slot1;
@@ -936,7 +936,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = 'modules/parent_tools/native/FamilyCenterModalRequest.tsx';
     options = verify.bind(offset)(options);
     golf = function(argFoo) { // Original name: FamilyCenterRequestModal
-        _fun95268: for(var _fun95268_ip = 0; ; ) switch(_fun95268_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             verify = mike.userId;
@@ -1041,10 +1041,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.Navigator;
             entity = {};
             options = _closure1_slot13;
-            if(golf) { _fun95268_ip = 130; continue _fun95268 }
+            if(golf) { _fun00006_ip = 130; continue _fun00005 }
  122:
             golf = options.TEEN_SCAN;
-            _fun95268_ip = 136; continue _fun95268;
+            _fun00006_ip = 136; continue _fun00005;
  130:
             golf = options.REQUEST;
  136:

@@ -87,14 +87,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = report;
                     report = copyDataProperties(golf, oscar);
                     report = function() { // Original name: onCancel
-                        _fun80911: for(var _fun80911_ip = 0; ; ) switch(_fun80911_ip) {
+                        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                             mike = _closure5_slot0;
                             entity = mike.onClose;
                             entity = entity.bind(mike)();
                             zulu = _closure2_slot1;
                             mike = null;
-                            if(!(mike != zulu)) { _fun80911_ip = 40; continue _fun80911 }
+                            if(!(mike != zulu)) { _fun00002_ip = 40; continue _fun00001 }
  30:
                             mike = _closure2_slot1;
                             entity = undefined;

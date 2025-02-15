@@ -49,19 +49,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activity_status/native/ActivityEmoji.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityEmoji
-        _fun79764: for(var _fun79764_ip = 0; ; ) switch(_fun79764_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.emoji;
             oscar = entity.style;
             zulu = entity.withPlaceholder;
             report = undefined;
-            if(!(zulu === report)) { _fun79764_ip = 28; continue _fun79764 }
+            if(!(zulu === report)) { _fun00002_ip = 28; continue _fun00001 }
  26:
             zulu = false;
  28:
             yankee = entity.animate;
-            if(!(yankee === report)) { _fun79764_ip = 40; continue _fun79764 }
+            if(!(yankee === report)) { _fun00002_ip = 40; continue _fun00001 }
  38:
             yankee = true;
  40:
@@ -73,10 +73,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity != golf;
             romeo = undefined;
-            if(!tango) { _fun79764_ip = 94; continue _fun79764 }
+            if(!tango) { _fun00002_ip = 94; continue _fun00001 }
  77:
             tango = golf.width;
-            if(!(entity == tango)) { _fun79764_ip = 91; continue _fun79764 }
+            if(!(entity == tango)) { _fun00002_ip = 91; continue _fun00001 }
  86:
             tango = golf.height;
  91:
@@ -90,19 +90,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.AnimateEmoji;
             tango = golf.useSetting;
             foxtrot = tango.bind(golf)();
-            if(!(entity != verify)) { _fun79764_ip = 416; continue _fun79764 }
+            if(!(entity != verify)) { _fun00002_ip = 416; continue _fun00001 }
  137:
             tango = verify.id;
-            if(!(entity != tango)) { _fun79764_ip = 334; continue _fun79764 }
+            if(!(entity != tango)) { _fun00002_ip = 334; continue _fun00001 }
  149:
             tango = global;
             options = tango.Boolean;
             golf = verify.animated;
-            if(!golf) { _fun79764_ip = 169; continue _fun79764 }
+            if(!golf) { _fun00002_ip = 169; continue _fun00001 }
  166:
             golf = foxtrot;
  169:
-            if(!golf) { _fun79764_ip = 175; continue _fun79764 }
+            if(!golf) { _fun00002_ip = 175; continue _fun00001 }
  172:
             golf = yankee;
  175:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return tango;
  416:
             entity = null;
-            if(!zulu) { _fun79764_ip = 471; continue _fun79764 }
+            if(!zulu) { _fun00002_ip = 471; continue _fun00001 }
  421:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;

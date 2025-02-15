@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsSettingsUpsellsElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SettingsUpsellElement
-        _fun73051: for(var _fun73051_ip = 0; ; ) switch(_fun73051_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.settingsUpsells;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             foxtrot = entity == yankee;
             mike = undefined;
-            if(foxtrot) { _fun73051_ip = 155; continue _fun73051 }
+            if(foxtrot) { _fun00002_ip = 155; continue _fun00001 }
  150:
             mike = yankee.type;
  155:
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = echo.length;
             mike = 0;
             entity = null;
-            if(!(mike !== zulu)) { _fun73051_ip = 504; continue _fun73051 }
+            if(!(mike !== zulu)) { _fun00002_ip = 504; continue _fun00001 }
  214:
             tango = _closure1_slot10;
             zulu = _closure1_slot5;

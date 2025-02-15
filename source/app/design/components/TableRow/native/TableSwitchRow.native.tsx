@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/TableRow/native/TableSwitchRow.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TableSwitchRow
-        _fun63748: for(var _fun63748_ip = 0; ; ) switch(_fun63748_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             offset = report.value;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = report.subLabel;
             options = report.disabled;
             tango = undefined;
-            if(!(options === tango)) { _fun63748_ip = 48; continue _fun63748 }
+            if(!(options === tango)) { _fun00002_ip = 48; continue _fun00001 }
  46:
             options = false;
  48:
@@ -71,14 +71,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = golf.isAndroid;
             golf = zulu.bind(golf)();
             verify = function() { // Original name: handleOnPress
-                _fun63749: for(var _fun63749_ip = 0; ; ) switch(_fun63749_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     zulu = entity == zulu;
                     tango = undefined;
                     entity = undefined;
-                    if(zulu) { _fun63749_ip = 36; continue _fun63749 }
+                    if(zulu) { _fun00004_ip = 36; continue _fun00003 }
  20:
                     zulu = _closure2_slot1;
                     mike = _closure2_slot0;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup != romeo;
             sizing = '';
             kilo = sizing;
-            if(!backup) { _fun63748_ip = 376; continue _fun63748 }
+            if(!backup) { _fun00002_ip = 376; continue _fun00001 }
  373:
             kilo = romeo;
  376:
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = 'accessibilityHint';
             entity[romeo] = foxtrot;
             romeo = undefined;
-            if(!golf) { _fun63748_ip = 428; continue _fun63748 }
+            if(!golf) { _fun00002_ip = 428; continue _fun00001 }
  425:
             romeo = verify;
  428:
@@ -179,11 +179,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = global;
                 zulu = mike.setTimeout;
                 mike = function() {
-                    _fun63752: for(var _fun63752_ip = 0; ; ) switch(_fun63752_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot1;
                         mike = null;
-                        if(!(mike != zulu)) { _fun63752_ip = 31; continue _fun63752 }
+                        if(!(mike != zulu)) { _fun00006_ip = 31; continue _fun00005 }
  13:
                         zulu = _closure2_slot1;
                         entity = _closure2_slot0;

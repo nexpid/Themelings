@@ -99,7 +99,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     mike['onApply'] = golf;
     tango = function() { // Original name: predicate
-        _fun68977: for(var _fun68977_ip = 0; ; ) switch(_fun68977_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -112,7 +112,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             oscar = 'iar_settings_upsells';
             entity['location'] = oscar;
             entity = zulu.bind(report)(entity);
-            if(!entity) { _fun68977_ip = 84; continue _fun68977 }
+            if(!entity) { _fun00002_ip = 84; continue _fun00001 }
  51:
             zulu = _closure1_slot0;
             report = _closure1_slot1;

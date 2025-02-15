@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/remixing/native/hooks/useCanRemixUploadItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: _default
-        _fun82040: for(var _fun82040_ip = 0; ; ) switch(_fun82040_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argFoo;
             tango = argBar;
@@ -58,26 +58,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             entity = zulu == tango;
             romeo = undefined;
-            if(entity) { _fun82040_ip = 103; continue _fun82040 }
+            if(entity) { _fun00002_ip = 103; continue _fun00001 }
  98:
             romeo = tango.width;
  103:
             foxtrot = zulu != romeo;
             yankee = 0;
-            if(!foxtrot) { _fun82040_ip = 115; continue _fun82040 }
+            if(!foxtrot) { _fun00002_ip = 115; continue _fun00001 }
  112:
             yankee = romeo;
  115:
             mike['width'] = yankee;
             romeo = zulu == tango;
             yankee = undefined;
-            if(romeo) { _fun82040_ip = 133; continue _fun82040 }
+            if(romeo) { _fun00002_ip = 133; continue _fun00001 }
  128:
             yankee = tango.height;
  133:
             romeo = zulu != yankee;
             entity = 0;
-            if(!romeo) { _fun82040_ip = 145; continue _fun82040 }
+            if(!romeo) { _fun00002_ip = 145; continue _fun00001 }
  142:
             entity = yankee;
  145:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CHAT_INPUT;
             entity = golf.bind(verify)(offset, mike, entity);
             mike = zulu != tango;
-            if(!mike) { _fun82040_ip = 240; continue _fun82040 }
+            if(!mike) { _fun00002_ip = 240; continue _fun00001 }
  189:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
@@ -103,17 +103,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.mimeType;
             mike = options.bind(verify)(golf, oscar, tango);
  240:
-            if(!entity) { _fun82040_ip = 263; continue _fun82040 }
+            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
  243:
             zulu = zulu != report;
-            if(!zulu) { _fun82040_ip = 260; continue _fun82040 }
+            if(!zulu) { _fun00002_ip = 260; continue _fun00001 }
  250:
             tango = report.isForumLikeChannel;
             zulu = tango.bind(report)();
  260:
             entity = !zulu;
  263:
-            if(!entity) { _fun82040_ip = 269; continue _fun82040 }
+            if(!entity) { _fun00002_ip = 269; continue _fun00001 }
  266:
             entity = mike;
  269:

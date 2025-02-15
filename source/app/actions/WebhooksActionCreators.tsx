@@ -176,13 +176,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['fetchForChannel'] = golf;
     golf = function(argFoo, argBar, argBaz) { // Original name: create
-        _fun120226: for(var _fun120226_ip = 0; ; ) switch(_fun120226_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBaz;
             mike = argFoo;
             var _closure2_slot0 = mike;
             mike = null;
-            if(!(mike == oscar)) { _fun120226_ip = 77; continue _fun120226 }
+            if(!(mike == oscar)) { _fun00002_ip = 77; continue _fun00001 }
  18:
             zulu = _closure1_slot4;
             report = _closure1_slot1;

@@ -31,14 +31,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useBottomVoiceControlsSheetWidth
-        _fun73524: for(var _fun73524_ip = 0; ; ) switch(_fun73524_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             entity = undefined;
             entity = zulu.bind(entity)();
             entity = entity.width;
             zulu = _closure1_slot2;
-            if(!(entity > zulu)) { _fun73524_ip = 30; continue _fun73524 }
+            if(!(entity > zulu)) { _fun00002_ip = 30; continue _fun00001 }
  26:
             entity = _closure1_slot1;
  30:

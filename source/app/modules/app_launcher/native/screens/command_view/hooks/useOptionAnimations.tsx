@@ -317,19 +317,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = tango[zulu];
         entity['EnteringAnimation'] = zulu;
         mike = function(argFoo) { // Original name: registerAnimationCompleteCallback
-            _fun119129: for(var _fun119129_ip = 0; ; ) switch(_fun119129_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 tango = _closure2_slot0;
                 zulu = tango.get;
                 zulu = zulu.bind(tango)();
-                if(zulu) { _fun119129_ip = 43; continue _fun119129 }
+                if(zulu) { _fun00002_ip = 43; continue _fun00001 }
  22:
                 entity = _closure2_slot1;
                 zulu = entity.current;
                 entity = zulu.push;
                 entity = entity.bind(zulu)(mike);
-                _fun119129_ip = 49; continue _fun119129;
+                _fun00002_ip = 49; continue _fun00001;
  43:
                 entity = undefined;
                 entity = mike.bind(entity)();

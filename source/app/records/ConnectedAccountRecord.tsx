@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun59512: for(var _fun59512_ip = 0; ; ) switch(_fun59512_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot3;
@@ -14,11 +14,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot6;
             entity = entity.bind(zulu)();
-            if(entity) { _fun59512_ip = 48; continue _fun59512 }
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun59512_ip = 86; continue _fun59512;
+            _fun00002_ip = 86; continue _fun00001;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun59513: for(var _fun59513_ip = 0; ; ) switch(_fun59513_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun59513_ip = 74; continue _fun59513;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar.bind(entity)(tango);
     mike = function(argFoo) {
         tango = function(argFoo) { // Original name: ConnectedAccountRecord
-            _fun59517: for(var _fun59517_ip = 0; ; ) switch(_fun59517_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = argFoo;
                 report = this;
@@ -124,61 +124,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = mike.name;
                 entity['name'] = zulu;
                 zulu = mike.revoked;
-                if(zulu) { _fun59517_ip = 82; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 82; continue _fun00005 }
  80:
                 zulu = false;
  82:
                 entity['revoked'] = zulu;
                 zulu = mike.integrations;
-                if(zulu) { _fun59517_ip = 101; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 101; continue _fun00005 }
  97:
                 zulu = new Array(0);
  101:
                 entity['integrations'] = zulu;
                 zulu = mike.visibility;
-                if(zulu) { _fun59517_ip = 118; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 118; continue _fun00005 }
  116:
                 zulu = 0;
  118:
                 entity['visibility'] = zulu;
                 zulu = mike.friend_sync;
-                if(zulu) { _fun59517_ip = 135; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 135; continue _fun00005 }
  133:
                 zulu = false;
  135:
                 entity['friendSync'] = zulu;
                 zulu = mike.show_activity;
-                if(zulu) { _fun59517_ip = 152; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 152; continue _fun00005 }
  150:
                 zulu = false;
  152:
                 entity['showActivity'] = zulu;
                 zulu = mike.verified;
-                if(zulu) { _fun59517_ip = 169; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 169; continue _fun00005 }
  167:
                 zulu = false;
  169:
                 entity['verified'] = zulu;
                 zulu = mike.access_token;
-                if(zulu) { _fun59517_ip = 186; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 186; continue _fun00005 }
  184:
                 zulu = null;
  186:
                 entity['accessToken'] = zulu;
                 zulu = mike.two_way_link;
-                if(zulu) { _fun59517_ip = 205; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 205; continue _fun00005 }
  203:
                 zulu = false;
  205:
                 entity['twoWayLink'] = zulu;
                 zulu = mike.metadata;
-                if(zulu) { _fun59517_ip = 222; continue _fun59517 }
+                if(zulu) { _fun00006_ip = 222; continue _fun00005 }
  220:
                 zulu = null;
  222:
                 entity['metadata'] = zulu;
                 mike = mike.metadata_visibility;
-                if(mike) { _fun59517_ip = 239; continue _fun59517 }
+                if(mike) { _fun00006_ip = 239; continue _fun00005 }
  237:
                 mike = 0;
  239:

@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/useTrackRoleSubscriptionUpsellAnalytics.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useTrackRoleSubscriptionUpsellAnalytics
-        _fun112065: for(var _fun112065_ip = 0; ; ) switch(_fun112065_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.guildId;
@@ -79,20 +79,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = tango;
             tango = function() {
-                _fun112066: for(var _fun112066_ip = 0; ; ) switch(_fun112066_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot3;
                     mike = null;
-                    if(!(mike == zulu)) { _fun112066_ip = 19; continue _fun112066 }
+                    if(!(mike == zulu)) { _fun00004_ip = 19; continue _fun00003 }
  13:
                     zulu = new Array(0);
-                    _fun112066_ip = 23; continue _fun112066;
+                    _fun00004_ip = 23; continue _fun00003;
  19:
                     zulu = _closure2_slot3;
  23:
                     mike = zulu.filter;
                     entity = function(argFoo) {
-                        _fun112067: for(var _fun112067_ip = 0; ; ) switch(_fun112067_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             zulu = _closure1_slot4;
                             mike = zulu.getSubscriptionListing;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = null;
                             zulu = mike == entity;
                             mike = undefined;
-                            if(zulu) { _fun112067_ip = 38; continue _fun112067 }
+                            if(zulu) { _fun00006_ip = 38; continue _fun00005 }
  32:
                             mike = entity.published;
  38:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(entity)(tango);
             tango = foxtrot.getLastRouteChangeSourceLocationStack;
             tango = tango.bind(foxtrot)();
-            if(!(oscar == tango)) { _fun112065_ip = 232; continue _fun112065 }
+            if(!(oscar == tango)) { _fun00002_ip = 232; continue _fun00001 }
  228:
             tango = new Array(0);
  232:
@@ -146,28 +146,28 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[5] = golf;
             zulu[6] = oscar;
             mike = function() {
-                _fun112068: for(var _fun112068_ip = 0; ; ) switch(_fun112068_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun112068_ip = 20; continue _fun112068 }
+                    if(!entity) { _fun00008_ip = 20; continue _fun00007 }
  10:
                     zulu = _closure2_slot1;
                     mike = null;
                     entity = mike != zulu;
  20:
-                    if(!entity) { _fun112068_ip = 33; continue _fun112068 }
+                    if(!entity) { _fun00008_ip = 33; continue _fun00007 }
  23:
                     zulu = _closure2_slot6;
                     mike = null;
                     entity = mike != zulu;
  33:
-                    if(!entity) { _fun112068_ip = 48; continue _fun112068 }
+                    if(!entity) { _fun00008_ip = 48; continue _fun00007 }
  36:
                     mike = _closure2_slot8;
                     mike = mike.current;
                     entity = !mike;
  48:
-                    if(!entity) { _fun112068_ip = 200; continue _fun112068 }
+                    if(!entity) { _fun00008_ip = 200; continue _fun00007 }
  54:
                     mike = _closure2_slot8;
                     entity = true;

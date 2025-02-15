@@ -7,29 +7,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getDeafStates
-        _fun103572: for(var _fun103572_ip = 0; ; ) switch(_fun103572_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             options = arguments[1];
             oscar = arguments[2];
             verify = arguments[3];
             zulu = undefined;
-            if(!(options === zulu)) { _fun103572_ip = 25; continue _fun103572 }
+            if(!(options === zulu)) { _fun00002_ip = 25; continue _fun00001 }
  18:
             options = _closure1_slot4;
  25:
-            if(!(oscar === zulu)) { _fun103572_ip = 36; continue _fun103572 }
+            if(!(oscar === zulu)) { _fun00002_ip = 36; continue _fun00001 }
  29:
             oscar = _closure1_slot3;
  36:
-            if(!(verify === zulu)) { _fun103572_ip = 47; continue _fun103572 }
+            if(!(verify === zulu)) { _fun00002_ip = 47; continue _fun00001 }
  40:
             verify = _closure1_slot2;
  47:
             mike = null;
             entity = mike != report;
             tango = null;
-            if(!entity) { _fun103572_ip = 90; continue _fun103572 }
+            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  58:
             golf = options.getVoiceState;
             entity = report.getGuildId;
@@ -44,12 +44,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['selfDeaf'] = report;
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun103572_ip = 122; continue _fun103572 }
+            if(report) { _fun00002_ip = 122; continue _fun00001 }
  116:
             zulu = tango.deaf;
  122:
             mike = mike != zulu;
-            if(!mike) { _fun103572_ip = 132; continue _fun103572 }
+            if(!mike) { _fun00002_ip = 132; continue _fun00001 }
  129:
             mike = zulu;
  132:

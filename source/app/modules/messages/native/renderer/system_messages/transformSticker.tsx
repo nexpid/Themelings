@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: transform
-        _fun72345: for(var _fun72345_ip = 0; ; ) switch(_fun72345_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argFoo;
             tango = argBar;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = golf != mike;
             report = '';
             zulu = report;
-            if(!oscar) { _fun72345_ip = 42; continue _fun72345 }
+            if(!oscar) { _fun00002_ip = 42; continue _fun00001 }
  39:
             zulu = mike;
  42:
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu['isPreview'] = yankee;
             zulu = options.bind(verify)(offset, zulu);
             golf = golf != zulu;
-            if(!golf) { _fun72345_ip = 108; continue _fun72345 }
+            if(!golf) { _fun00002_ip = 108; continue _fun00001 }
  105:
             report = zulu;
  108:
@@ -49,10 +49,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = golf[zulu];
             zulu = report.bind(oscar)(zulu);
             zulu = zulu.NativeLottieRenderMode;
-            if(tango) { _fun72345_ip = 154; continue _fun72345 }
+            if(tango) { _fun00002_ip = 154; continue _fun00001 }
  146:
             tango = zulu.STILL;
-            _fun72345_ip = 160; continue _fun72345;
+            _fun00002_ip = 160; continue _fun00001;
  154:
             tango = zulu.LOOP;
  160:
@@ -141,12 +141,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike[1] = oscar;
         mike[2] = report;
         entity = function() {
-            _fun72347: for(var _fun72347_ip = 0; ; ) switch(_fun72347_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot1;
                 report = undefined;
                 entity = undefined;
-                if(!zulu) { _fun72347_ip = 35; continue _fun72347 }
+                if(!zulu) { _fun00004_ip = 35; continue _fun00003 }
  14:
                 tango = _closure1_slot4;
                 zulu = _closure2_slot0;

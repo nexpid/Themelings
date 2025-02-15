@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useDescription'] = golf;
     tango = function() { // Original name: useIsSyncThemeAcrossClientsDisabled
-        _fun97335: for(var _fun97335_ip = 0; ; ) switch(_fun97335_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -158,27 +158,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             report = entity != golf;
             zulu = null;
-            if(!report) { _fun97335_ip = 160; continue _fun97335 }
+            if(!report) { _fun00002_ip = 160; continue _fun00001 }
  129:
             verify = entity == oscar;
             report = undefined;
-            if(verify) { _fun97335_ip = 157; continue _fun97335 }
+            if(verify) { _fun00002_ip = 157; continue _fun00001 }
  138:
             oscar = oscar[golf];
             golf = entity == oscar;
             report = undefined;
-            if(golf) { _fun97335_ip = 157; continue _fun97335 }
+            if(golf) { _fun00002_ip = 157; continue _fun00001 }
  151:
             report = oscar.theme;
  157:
             zulu = report;
  160:
-            if(!(entity == zulu)) { _fun97335_ip = 180; continue _fun97335 }
+            if(!(entity == zulu)) { _fun00002_ip = 180; continue _fun00001 }
  164:
             entity = _closure1_slot6;
             entity = entity.MIDNIGHT;
             entity = tango === entity;
-            _fun97335_ip = 194; continue _fun97335;
+            _fun00002_ip = 194; continue _fun00001;
  180:
             mike = _closure1_slot6;
             mike = mike.MIDNIGHT;

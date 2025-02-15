@@ -1,6 +1,6 @@
 // app/uikit-native/BlockingGestureView.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun65311: for(var _fun65311_ip = 0; ; ) switch(_fun65311_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         golf = report.bind(entity)(tango);
         tango = golf.isAndroid;
         tango = tango.bind(golf)();
-        if(!tango) { _fun65311_ip = 98; continue _fun65311 }
+        if(!tango) { _fun00002_ip = 98; continue _fun00001 }
  83:
         tango = 2;
         golf = oscar[tango];

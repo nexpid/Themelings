@@ -32,24 +32,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/base_components/RecommendationAppRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RecommendationAppRow
-        _fun118785: for(var _fun118785_ip = 0; ; ) switch(_fun118785_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.application;
             options = entity.onPress;
             golf = entity.isFirstRow;
             tango = undefined;
-            if(!(golf === tango)) { _fun118785_ip = 27; continue _fun118785 }
+            if(!(golf === tango)) { _fun00002_ip = 27; continue _fun00001 }
  25:
             golf = false;
  27:
             oscar = entity.isLastRow;
-            if(!(oscar === tango)) { _fun118785_ip = 39; continue _fun118785 }
+            if(!(oscar === tango)) { _fun00002_ip = 39; continue _fun00001 }
  37:
             oscar = false;
  39:
             report = entity.showsPromoted;
-            if(!(report === tango)) { _fun118785_ip = 51; continue _fun118785 }
+            if(!(report === tango)) { _fun00002_ip = 51; continue _fun00001 }
  49:
             report = false;
  51:

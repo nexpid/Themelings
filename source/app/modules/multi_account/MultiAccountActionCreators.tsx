@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun93667: for(var _fun93667_ip = 0; ; ) switch(_fun93667_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun93667_ip = 531; continue _fun93667 }
+                        if(mike) { _fun00002_ip = 531; continue _fun00001 }
  10:
                         mike = argFoo;
                         oscar = mike.id;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return report;
  28:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun93667_ip = 528; continue _fun93667 }
+                        if(zulu) { _fun00002_ip = 528; continue _fun00001 }
  37:
                         golf = _closure1_slot2;
                         verify = _closure1_slot3;
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = golf.bind(verify)(tango);
                         backup = tango;
                         offset = null;
-                        if(!(offset != tango)) { _fun93667_ip = 94; continue _fun93667 }
+                        if(!(offset != tango)) { _fun00002_ip = 94; continue _fun00001 }
  83:
                         golf = backup;
                         tango = '';
-                        if(!(tango === golf)) { _fun93667_ip = 148; continue _fun93667 }
+                        if(!(tango === golf)) { _fun00002_ip = 148; continue _fun00001 }
  94:
                         golf = _closure1_slot1;
                         verify = _closure1_slot3;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         yankee = oscar;
                         tango['userId'] = yankee;
                         tango = golf.bind(verify)(tango);
-                        _fun93667_ip = 397; continue _fun93667;
+                        _fun00002_ip = 397; continue _fun00001;
  148:
                         verify = _closure1_slot1;
                         tango = _closure1_slot3;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return tango;
  278:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                        if(verify) { _fun93667_ip = 400; continue _fun93667 }
+                        if(verify) { _fun00002_ip = 400; continue _fun00001 }
  284:
                         foxtrot = tango;
  287: // try_end0
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         sizing = _closure2_slot0;
                         kilo = oscar;
                         backup = 'USER_UPDATE';
-                        if(!(sizing === kilo)) { _fun93667_ip = 333; continue _fun93667 }
+                        if(!(sizing === kilo)) { _fun00002_ip = 333; continue _fun00001 }
  329:
                         backup = 'CURRENT_USER_UPDATE';
  333:
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = verify;
                         verify = offset == verify;
                         yankee = undefined;
-                        if(verify) { _fun93667_ip = 425; continue _fun93667 }
+                        if(verify) { _fun00002_ip = 425; continue _fun00001 }
  417:
                         verify = options;
                         yankee = verify.status;
@@ -199,12 +199,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         verify = 401;
                         verify = verify === yankee;
                         tango = verify;
-                        if(verify) { _fun93667_ip = 468; continue _fun93667 }
+                        if(verify) { _fun00002_ip = 468; continue _fun00001 }
  441:
                         verify = options;
                         offset = offset == verify;
                         verify = undefined;
-                        if(offset) { _fun93667_ip = 458; continue _fun93667 }
+                        if(offset) { _fun00002_ip = 458; continue _fun00001 }
  453:
                         verify = options.status;
  458:
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = report.dispatch;
                         zulu = {};
                         golf = 'MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS';
-                        if(!options) { _fun93667_ip = 510; continue _fun93667 }
+                        if(!options) { _fun00002_ip = 510; continue _fun00001 }
  504:
                         golf = 'MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE';
  510:
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['validateMultiAccountTokens'] = tango;
     tango = function(argFoo, argBar) { // Original name: switchAccount
-        _fun93669: for(var _fun93669_ip = 0; ; ) switch(_fun93669_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             options = argBar;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.getToken;
             golf = entity.bind(tango)(oscar);
             entity = null;
-            if(!(entity != golf)) { _fun93669_ip = 131; continue _fun93669 }
+            if(!(entity != golf)) { _fun00004_ip = 131; continue _fun00003 }
  97:
             tango = _closure1_slot1;
             verify = _closure1_slot3;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(entity);
             entity = tango.switchAccountToken;
             entity = entity.bind(tango)(golf, options);
-            _fun93669_ip = 214; continue _fun93669;
+            _fun00004_ip = 214; continue _fun00003;
  131:
             options = _closure1_slot8;
             golf = options.log;

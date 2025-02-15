@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_limited_access/openGuildLimitedAccessInfoModal.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openGuildLimitedAccessInfoModal
-        _fun54251: for(var _fun54251_ip = 0; ; ) switch(_fun54251_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getBestActiveInput;
             tango = zulu.bind(tango)();
             zulu = null;
-            if(!(zulu != tango)) { _fun54251_ip = 74; continue _fun54251 }
+            if(!(zulu != tango)) { _fun00002_ip = 74; continue _fun00001 }
  64:
             zulu = tango.blur;
             zulu = zulu.bind(tango)();

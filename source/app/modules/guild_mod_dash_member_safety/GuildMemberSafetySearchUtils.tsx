@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         var _closure2_slot1 = zulu;
         tango = report.forEach;
         entity = function(argFoo) {
-            _fun59667: for(var _fun59667_ip = 0; ; ) switch(_fun59667_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = argFoo;
                 zulu = _closure1_slot0;
@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = zulu.bind(entity)(mike);
                 mike = zulu.isSnowflake;
                 zulu = mike.bind(zulu)(tango);
-                if(zulu) { _fun59667_ip = 60; continue _fun59667 }
+                if(zulu) { _fun00002_ip = 60; continue _fun00001 }
  44:
                 report = _closure2_slot1;
                 zulu = report.push;
                 zulu = zulu.bind(report)(tango);
-                _fun59667_ip = 74; continue _fun59667;
+                _fun00002_ip = 74; continue _fun00001;
  60:
                 zulu = _closure2_slot0;
                 mike = zulu.push;

@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options[1] = verify;
         offset = yankee.map;
         verify = function(argFoo) {
-            _fun91984: for(var _fun91984_ip = 0; ; ) switch(_fun91984_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 yankee = entity.text;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = function() { // Original name: onPress
                     zulu = _closure3_slot0;
                     mike = function(argFoo) { // Original name: onCheckboxChange
-                        _fun91986: for(var _fun91986_ip = 0; ; ) switch(_fun91986_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             report = argFoo;
                             var _closure5_slot0 = report;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = tango.includes;
                             mike = mike.bind(tango)(report);
                             zulu = _closure2_slot4;
-                            if(mike) { _fun91986_ip = 42; continue _fun91986 }
+                            if(mike) { _fun00004_ip = 42; continue _fun00003 }
  33:
                             mike = function(argFoo) {
                                 entity = new Array(1);
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 mike = zulu + mike;
                                 return entity;
                             };
-                            _fun91986_ip = 49; continue _fun91986;
+                            _fun00004_ip = 49; continue _fun00003;
  42:
                             mike = function(argFoo) {
                                 zulu = argFoo;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.RaidResolutionType;
                 golf = golf.OTHER;
                 golf = report === golf;
-                if(!golf) { _fun91984_ip = 244; continue _fun91984 }
+                if(!golf) { _fun00002_ip = 244; continue _fun00001 }
  201:
                 offset = _closure2_slot3;
                 verify = offset.includes;
@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = options.OTHER;
                 golf = verify.bind(offset)(options);
  244:
-                if(!golf) { _fun91984_ip = 404; continue _fun91984 }
+                if(!golf) { _fun00002_ip = 404; continue _fun00001 }
  250:
                 offset = _closure1_slot7;
                 verify = _closure1_slot5;

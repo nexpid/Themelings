@@ -120,18 +120,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[1] = golf;
         mike[2] = oscar;
         entity = function() {
-            _fun80509: for(var _fun80509_ip = 0; ; ) switch(_fun80509_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot3;
-                if(!zulu) { _fun80509_ip = 27; continue _fun80509 }
+                if(!zulu) { _fun00002_ip = 27; continue _fun00001 }
  12:
                 zulu = _closure2_slot2;
                 tango = zulu.size;
                 zulu = 0;
-                if(!(!(tango > zulu))) { _fun80509_ip = 33; continue _fun80509 }
+                if(!(!(tango > zulu))) { _fun00002_ip = 33; continue _fun00001 }
  27:
                 tango = _closure2_slot1;
-                _fun80509_ip = 86; continue _fun80509;
+                _fun00002_ip = 86; continue _fun00001;
  33:
                 oscar = _closure1_slot0;
                 report = _closure1_slot1;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = golf.orderBy;
                 report = _closure2_slot1;
                 zulu = function(argFoo) {
-                    _fun80510: for(var _fun80510_ip = 0; ; ) switch(_fun80510_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure2_slot2;
                         mike = zulu.get;
@@ -151,13 +151,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         entity = null;
                         tango = entity == zulu;
                         mike = undefined;
-                        if(tango) { _fun80510_ip = 37; continue _fun80510 }
+                        if(tango) { _fun00004_ip = 37; continue _fun00003 }
  31:
                         mike = zulu.affinity;
  37:
                         zulu = entity != mike;
                         entity = 0;
-                        if(!zulu) { _fun80510_ip = 49; continue _fun80510 }
+                        if(!zulu) { _fun00004_ip = 49; continue _fun00003 }
  46:
                         entity = mike;
  49:

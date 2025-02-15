@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/experiments/ExperimentManager.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) { // Original name: trackExposureToExperiment
-        _fun98409: for(var _fun98409_ip = 0; ; ) switch(_fun98409_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBaz;
             tango = _closure1_slot2;
@@ -50,35 +50,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = report == oscar;
             entity = undefined;
             golf = undefined;
-            if(options) { _fun98409_ip = 52; continue _fun98409 }
+            if(options) { _fun00002_ip = 52; continue _fun00001 }
  47:
             golf = oscar.location;
  52:
             mike['location'] = golf;
             options = report == oscar;
             golf = undefined;
-            if(options) { _fun98409_ip = 71; continue _fun98409 }
+            if(options) { _fun00002_ip = 71; continue _fun00001 }
  65:
             golf = oscar.analyticsLocations;
  71:
             mike['location_stack'] = golf;
             options = report == oscar;
             golf = undefined;
-            if(options) { _fun98409_ip = 91; continue _fun98409 }
+            if(options) { _fun00002_ip = 91; continue _fun00001 }
  85:
             golf = oscar.fingerprint;
  91:
             mike['fingerprint'] = golf;
             options = report == oscar;
             golf = undefined;
-            if(options) { _fun98409_ip = 111; continue _fun98409 }
+            if(options) { _fun00002_ip = 111; continue _fun00001 }
  105:
             golf = oscar.excluded;
  111:
             mike['excluded'] = golf;
             golf = report == oscar;
             report = undefined;
-            if(golf) { _fun98409_ip = 131; continue _fun98409 }
+            if(golf) { _fun00002_ip = 131; continue _fun00001 }
  125:
             report = oscar.exposureType;
  131:

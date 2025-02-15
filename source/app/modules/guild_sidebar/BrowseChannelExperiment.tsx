@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['BROWSE_CHANNEL_EXPERIMENT_ID'] = report;
     zulu['BrowseChannelExperiment'] = tango;
     mike = function(argFoo) { // Original name: useShowBrowseChannelsExperiment
-        _fun106643: for(var _fun106643_ip = 0; ; ) switch(_fun106643_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = zulu.useExperiment;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['location'] = tango;
             entity = mike.bind(zulu)(entity);
             entity = entity.alwaysShowDirectory;
-            if(entity) { _fun106643_ip = 43; continue _fun106643 }
+            if(entity) { _fun00002_ip = 43; continue _fun00001 }
  37:
             mike = argFoo;
             entity = !mike;

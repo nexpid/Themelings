@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun115577: for(var _fun115577_ip = 0; ; ) switch(_fun115577_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun115577_ip = 51; continue _fun115577 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun115577_ip = 92; continue _fun115577;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun115577_ip = 71; continue _fun115577 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun115578: for(var _fun115578_ip = 0; ; ) switch(_fun115578_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun115578_ip = 76; continue _fun115578;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -143,17 +143,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun115583: for(var _fun115583_ip = 0; ; ) switch(_fun115583_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = argFoo;
                 tango = null;
                 entity = tango != mike;
-                if(!entity) { _fun115583_ip = 22; continue _fun115583 }
+                if(!entity) { _fun00006_ip = 22; continue _fun00005 }
  12:
                 zulu = mike.hiddenEventsAndStages;
                 entity = tango != zulu;
  22:
-                if(!entity) { _fun115583_ip = 32; continue _fun115583 }
+                if(!entity) { _fun00006_ip = 32; continue _fun00005 }
  25:
                 _closure1_slot6 = mike;
  32:
@@ -168,14 +168,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isLiveChannelNoticeHidden';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun115584: for(var _fun115584_ip = 0; ; ) switch(_fun115584_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
                 golf = entity.eventId;
                 options = entity.stageId;
                 mike = null;
                 zulu = mike == options;
-                if(zulu) { _fun115584_ip = 74; continue _fun115584 }
+                if(zulu) { _fun00008_ip = 74; continue _fun00007 }
  24:
                 entity = _closure1_slot6;
                 report = entity.hiddenEventsAndStages;
@@ -189,10 +189,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = !entity;
  74:
                 entity = !zulu;
-                if(!zulu) { _fun115584_ip = 137; continue _fun115584 }
+                if(!zulu) { _fun00008_ip = 137; continue _fun00007 }
  80:
                 mike = mike != golf;
-                if(!mike) { _fun115584_ip = 134; continue _fun115584 }
+                if(!mike) { _fun00008_ip = 134; continue _fun00007 }
  87:
                 zulu = _closure1_slot6;
                 report = zulu.hiddenEventsAndStages;
@@ -233,15 +233,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handleHideNotice
-        _fun115586: for(var _fun115586_ip = 0; ; ) switch(_fun115586_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             report = entity.eventId;
             oscar = entity.stageId;
             entity = null;
-            if(!(entity == report)) { _fun115586_ip = 74; continue _fun115586 }
+            if(!(entity == report)) { _fun00010_ip = 74; continue _fun00009 }
  21:
-            if(!(entity != oscar)) { _fun115586_ip = 121; continue _fun115586 }
+            if(!(entity != oscar)) { _fun00010_ip = 121; continue _fun00009 }
  25:
             entity = _closure1_slot6;
             zulu = entity.hiddenEventsAndStages;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = 'stage-';
             entity = tango.bind(entity)(oscar);
             entity = mike.bind(zulu)(entity);
-            _fun115586_ip = 121; continue _fun115586;
+            _fun00010_ip = 121; continue _fun00009;
  74:
             entity = _closure1_slot6;
             zulu = entity.hiddenEventsAndStages;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['LIVE_CHANNEL_NOTICE_HIDE'] = verify;
     verify = function(argFoo) { // Original name: handleEventUpdate
-        _fun115587: for(var _fun115587_ip = 0; ; ) switch(_fun115587_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             mike = argFoo;
             report = mike.guildScheduledEvent;
@@ -286,13 +286,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.includes;
             zulu = zulu.bind(tango)(oscar);
             zulu = !zulu;
-            if(zulu) { _fun115587_ip = 117; continue _fun115587 }
+            if(zulu) { _fun00012_ip = 117; continue _fun00011 }
  73:
             oscar = report.status;
             tango = _closure1_slot5;
             tango = tango.CANCELED;
             tango = oscar !== tango;
-            if(!tango) { _fun115587_ip = 114; continue _fun115587 }
+            if(!tango) { _fun00012_ip = 114; continue _fun00011 }
  95:
             oscar = report.status;
             report = _closure1_slot5;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  114:
             zulu = tango;
  117:
-            if(zulu) { _fun115587_ip = 153; continue _fun115587 }
+            if(zulu) { _fun00012_ip = 153; continue _fun00011 }
  120:
             mike = _closure1_slot6;
             tango = mike.hiddenEventsAndStages;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_SCHEDULED_EVENT_UPDATE'] = verify;
     verify = function(argFoo) { // Original name: handleEventDelete
-        _fun115589: for(var _fun115589_ip = 0; ; ) switch(_fun115589_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             mike = argFoo;
             mike = mike.guildScheduledEvent;
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.hiddenEventsAndStages;
             zulu = tango.includes;
             zulu = zulu.bind(tango)(report);
-            if(!zulu) { _fun115589_ip = 103; continue _fun115589 }
+            if(!zulu) { _fun00014_ip = 103; continue _fun00013 }
  70:
             mike = _closure1_slot6;
             tango = mike.hiddenEventsAndStages;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_SCHEDULED_EVENT_DELETE'] = verify;
     tango = function(argFoo) { // Original name: handleStageUpdate
-        _fun115591: for(var _fun115591_ip = 0; ; ) switch(_fun115591_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             mike = argFoo;
             mike = mike.instance;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = zulu.hiddenEventsAndStages;
             zulu = tango.includes;
             zulu = zulu.bind(tango)(report);
-            if(!zulu) { _fun115591_ip = 103; continue _fun115591 }
+            if(!zulu) { _fun00016_ip = 103; continue _fun00015 }
  70:
             mike = _closure1_slot6;
             tango = mike.hiddenEventsAndStages;

@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/SurveyIndication.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SurveyIndication
-        _fun69546: for(var _fun69546_ip = 0; ; ) switch(_fun69546_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.message;
@@ -66,12 +66,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = golf;
             mike[1] = oscar;
             entity = function() {
-                _fun69547: for(var _fun69547_ip = 0; ; ) switch(_fun69547_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = _closure1_slot4;
                     mike = mike.TOP_MESSAGE_PUSH;
-                    if(!(zulu !== mike)) { _fun69547_ip = 59; continue _fun69547 }
+                    if(!(zulu !== mike)) { _fun00004_ip = 59; continue _fun00003 }
  24:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.bind(mike)(zulu);
                     mike = mike.t;
                     tango = mike.46+Iqa;
-                    _fun69547_ip = 92; continue _fun69547;
+                    _fun00004_ip = 92; continue _fun00003;
  59:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -129,12 +129,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(verify)(offset);
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            if(report) { _fun69546_ip = 173; continue _fun69546 }
+            if(report) { _fun00002_ip = 173; continue _fun00001 }
  159:
             report = 7;
             report = offset[report];
             report = verify.bind(tango)(report);
-            _fun69546_ip = 185; continue _fun69546;
+            _fun00002_ip = 185; continue _fun00001;
  173:
             options = 6;
             options = offset[options];
@@ -148,12 +148,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: createSurveyIndication
-        _fun69548: for(var _fun69548_ip = 0; ; ) switch(_fun69548_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             verify = argBaz;
             entity = _closure1_slot4;
             entity = entity.TOP_MESSAGE_PUSH;
-            if(!(verify !== entity)) { _fun69548_ip = 55; continue _fun69548 }
+            if(!(verify !== entity)) { _fun00006_ip = 55; continue _fun00005 }
  20:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(entity)(mike);
             entity = entity.t;
             oscar = entity.46+Iqa;
-            _fun69548_ip = 88; continue _fun69548;
+            _fun00006_ip = 88; continue _fun00005;
  55:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = argFoo;
             options['message'] = offset;
             offset = null;
-            if(!(offset == verify)) { _fun69548_ip = 160; continue _fun69548 }
+            if(!(offset == verify)) { _fun00006_ip = 160; continue _fun00005 }
  150:
             offset = _closure1_slot4;
             verify = offset.TOP_MESSAGE_PUSH;
@@ -213,12 +213,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(options)(mike);
             oscar = _closure1_slot1;
             options = _closure1_slot2;
-            if(mike) { _fun69548_ip = 257; continue _fun69548 }
+            if(mike) { _fun00006_ip = 257; continue _fun00005 }
  243:
             mike = 7;
             mike = options[mike];
             mike = oscar.bind(golf)(mike);
-            _fun69548_ip = 269; continue _fun69548;
+            _fun00006_ip = 269; continue _fun00005;
  257:
             report = 6;
             report = options[report];

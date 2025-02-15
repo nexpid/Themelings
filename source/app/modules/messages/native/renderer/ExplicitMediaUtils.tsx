@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/ExplicitMediaUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) { // Original name: getAttachmentObscurityProps
-        _fun69360: for(var _fun69360_ip = 0; ; ) switch(_fun69360_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = argBar;
@@ -40,20 +40,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = entity.flags;
             mike = entity.content_scan_version;
             options = undefined;
-            if(!(options === mike)) { _fun69360_ip = 52; continue _fun69360 }
+            if(!(options === mike)) { _fun00002_ip = 52; continue _fun00001 }
  32:
             mike = entity.contentScanVersion;
             report = undefined;
-            if(!(report !== mike)) { _fun69360_ip = 50; continue _fun69360 }
+            if(!(report !== mike)) { _fun00002_ip = 50; continue _fun00001 }
  44:
             report = entity.contentScanVersion;
  50:
-            _fun69360_ip = 58; continue _fun69360;
+            _fun00002_ip = 58; continue _fun00001;
  52:
             report = entity.content_scan_version;
  58:
             mike = tango;
-            if(!tango) { _fun69360_ip = 98; continue _fun69360 }
+            if(!tango) { _fun00002_ip = 98; continue _fun00001 }
  64:
             zulu = _closure1_slot0;
             verify = _closure1_slot1;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.bind(zulu)(report);
  98:
             zulu = options !== offset;
-            if(!zulu) { _fun69360_ip = 150; continue _fun69360 }
+            if(!zulu) { _fun00002_ip = 150; continue _fun00001 }
  105:
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CONTAINS_EXPLICIT_MEDIA;
             zulu = report.bind(verify)(offset, entity);
  150:
-            if(!tango) { _fun69360_ip = 185; continue _fun69360 }
+            if(!tango) { _fun00002_ip = 185; continue _fun00001 }
  153:
             verify = _closure1_slot2;
             report = verify.get;
             entity = 'obscure_blur_effect_enabled';
             entity = report.bind(verify)(entity);
-            if(entity) { _fun69360_ip = 182; continue _fun69360 }
+            if(entity) { _fun00002_ip = 182; continue _fun00001 }
  179:
             entity = zulu;
  182:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  185:
             entity = {};
             zulu = oscar;
-            if(!zulu) { _fun69360_ip = 199; continue _fun69360 }
+            if(!zulu) { _fun00002_ip = 199; continue _fun00001 }
  193:
             report = true;
             zulu = report === golf;
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['isSpoiler'] = zulu;
             zulu = '';
             report = zulu;
-            if(!oscar) { _fun69360_ip = 291; continue _fun69360 }
+            if(!oscar) { _fun00002_ip = 291; continue _fun00001 }
  214:
             oscar = true;
             report = zulu;
-            if(!(oscar === golf)) { _fun69360_ip = 291; continue _fun69360 }
+            if(!(oscar === golf)) { _fun00002_ip = 291; continue _fun00001 }
  223:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  291:
             entity['spoiler'] = report;
             entity['obscure'] = tango;
-            if(!tango) { _fun69360_ip = 362; continue _fun69360 }
+            if(!tango) { _fun00002_ip = 362; continue _fun00001 }
  304:
             golf = _closure1_slot0;
             verify = _closure1_slot1;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getAttachmentObscurityProps'] = tango;
     tango = function(argFoo) { // Original name: getUnfurledMediaItemObscurityProps
-        _fun69361: for(var _fun69361_ip = 0; ; ) switch(_fun69361_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             verify = zulu.mediaItem;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.shouldObscureExplicitMedia;
             report = verify.contentScanMetadata;
             mike = !mike;
-            if(!mike) { _fun69361_ip = 81; continue _fun69361 }
+            if(!mike) { _fun00004_ip = 81; continue _fun00003 }
  45:
             options = _closure1_slot0;
             tango = _closure1_slot1;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.isPendingScan;
             mike = zulu.bind(tango)(report);
  81:
-            if(!golf) { _fun69361_ip = 87; continue _fun69361 }
+            if(!golf) { _fun00004_ip = 87; continue _fun00003 }
  84:
             golf = entity;
  87:
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             entity['isSpoiler'] = golf;
             oscar = null;
-            if(!golf) { _fun69361_ip = 233; continue _fun69361 }
+            if(!golf) { _fun00004_ip = 233; continue _fun00003 }
  168:
             yankee = _closure1_slot0;
             romeo = _closure1_slot1;
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['spoilerDescription'] = oscar;
             entity['isObscured'] = report;
             zulu = null;
-            if(!report) { _fun69361_ip = 303; continue _fun69361 }
+            if(!report) { _fun00004_ip = 303; continue _fun00003 }
  248:
             golf = _closure1_slot0;
             verify = _closure1_slot1;

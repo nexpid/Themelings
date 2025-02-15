@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     mike = function(argFoo) { // Original name: InappropriateConversationWarningBanner
-        _fun89683: for(var _fun89683_ip = 0; ; ) switch(_fun89683_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.channelId;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['onpress'] = report;
             report = new Array(1);
             report[0] = verify;
-            if(oscar) { _fun89683_ip = 610; continue _fun89683 }
+            if(oscar) { _fun00002_ip = 610; continue _fun00001 }
  529:
             oscar = {};
             yankee = _closure1_slot0;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['onpress'] = golf;
             golf = new Array(1);
             golf[0] = oscar;
-            _fun89683_ip = 614; continue _fun89683;
+            _fun00002_ip = 614; continue _fun00001;
  610:
             golf = new Array(0);
  614:

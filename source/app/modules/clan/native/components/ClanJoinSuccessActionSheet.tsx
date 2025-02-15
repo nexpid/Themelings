@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/clan/native/components/ClanJoinSuccessActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ClanJoinSuccessActionSheet
-        _fun123754: for(var _fun123754_ip = 0; ; ) switch(_fun123754_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.guildId;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             entity = yankee == config;
             mike = undefined;
-            if(entity) { _fun123754_ip = 193; continue _fun123754 }
+            if(entity) { _fun00002_ip = 193; continue _fun00001 }
  181:
             entity = config.badge;
             mike = entity.imageHash;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.getClanPrimaryButtonStyles;
             options = yankee == config;
             entity = undefined;
-            if(options) { _fun123754_ip = 284; continue _fun123754 }
+            if(options) { _fun00002_ip = 284; continue _fun00001 }
  272:
             options = config.branding;
             entity = options.primaryColor;
@@ -230,19 +230,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = mike.bind(zulu)(entity, backup);
             mike = yankee == romeo;
             entity = undefined;
-            if(mike) { _fun123754_ip = 322; continue _fun123754 }
+            if(mike) { _fun00002_ip = 322; continue _fun00001 }
  299:
             zulu = romeo.backgroundColor;
             mike = yankee == zulu;
             entity = undefined;
-            if(mike) { _fun123754_ip = 322; continue _fun123754 }
+            if(mike) { _fun00002_ip = 322; continue _fun00001 }
  313:
             mike = zulu.toString;
             entity = mike.bind(zulu)();
  322:
             mike = yankee != entity;
             foxtrot = null;
-            if(!mike) { _fun123754_ip = 334; continue _fun123754 }
+            if(!mike) { _fun00002_ip = 334; continue _fun00001 }
  331:
             foxtrot = entity;
  334:
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onDismiss'] = golf;
             entity['ref'] = report;
             golf = yankee != foxtrot;
-            if(!golf) { _fun123754_ip = 463; continue _fun123754 }
+            if(!golf) { _fun00002_ip = 463; continue _fun00001 }
  382:
             offset = _closure1_slot8;
             options = _closure1_slot11;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['textStyle'] = output;
             result = yankee == config;
             output = undefined;
-            if(result) { _fun123754_ip = 577; continue _fun123754 }
+            if(result) { _fun00002_ip = 577; continue _fun00001 }
  572:
             output = config.tag;
  577:
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = {};
             record = yankee == config;
             sequence = undefined;
-            if(record) { _fun123754_ip = 751; continue _fun123754 }
+            if(record) { _fun00002_ip = 751; continue _fun00001 }
  746:
             sequence = config.name;
  751:
@@ -378,14 +378,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = {};
             echo = yankee != romeo;
             result = undefined;
-            if(!echo) { _fun123754_ip = 915; continue _fun123754 }
+            if(!echo) { _fun00002_ip = 915; continue _fun00001 }
  912:
             result = romeo;
  915:
             backup['style'] = result;
             result = yankee != romeo;
             yankee = undefined;
-            if(!result) { _fun123754_ip = 931; continue _fun123754 }
+            if(!result) { _fun00002_ip = 931; continue _fun00001 }
  928:
             yankee = romeo;
  931:

@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun47893: for(var _fun47893_ip = 0; ; ) switch(_fun47893_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             verify = zulu.style;
@@ -95,10 +95,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = options[entity];
             entity = zulu.bind(tango)(entity);
             entity = entity.unsafe_rawColors;
-            if(mike) { _fun47893_ip = 136; continue _fun47893 }
+            if(mike) { _fun00002_ip = 136; continue _fun00001 }
  128:
             offset = entity.PRIMARY_500;
-            _fun47893_ip = 142; continue _fun47893;
+            _fun00002_ip = 142; continue _fun00001;
  136:
             offset = entity.PRIMARY_100;
  142:
@@ -119,10 +119,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.isThemeDark;
             options = options.bind(verify)(yankee);
             verify = _closure1_slot4;
-            if(options) { _fun47893_ip = 224; continue _fun47893 }
+            if(options) { _fun00002_ip = 224; continue _fun00001 }
  216:
             options = verify.LIGHT;
-            _fun47893_ip = 230; continue _fun47893;
+            _fun00002_ip = 230; continue _fun00001;
  224:
             options = verify.DARK;
  230:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.isAndroid;
             options = oscar.bind(options)();
             oscar = offset;
-            if(!options) { _fun47893_ip = 328; continue _fun47893 }
+            if(!options) { _fun00002_ip = 328; continue _fun00001 }
  286:
             options = _closure1_slot0;
             verify = _closure1_slot2;

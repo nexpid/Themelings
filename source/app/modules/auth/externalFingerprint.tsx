@@ -27,12 +27,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/auth/externalFingerprint.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: externalFingerprint
-        _fun127822: for(var _fun127822_ip = 0; ; ) switch(_fun127822_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.isAuthenticated;
             mike = mike.bind(zulu)();
-            if(mike) { _fun127822_ip = 133; continue _fun127822 }
+            if(mike) { _fun00002_ip = 133; continue _fun00001 }
  20:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             tango = mike.fingerprint;
             mike = null;
-            if(!(mike != tango)) { _fun127822_ip = 133; continue _fun127822 }
+            if(!(mike != tango)) { _fun00002_ip = 133; continue _fun00001 }
  88:
             mike = _closure1_slot1;
             report = _closure1_slot2;

@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/polls/useVoteReactors.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useVoteReactors
-        _fun91102: for(var _fun91102_ip = 0; ; ) switch(_fun91102_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.channelId;
@@ -100,13 +100,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = zulu.count_details;
             zulu = null;
             oscar = zulu == report;
-            if(oscar) { _fun91102_ip = 161; continue _fun91102 }
+            if(oscar) { _fun00002_ip = 161; continue _fun00001 }
  155:
             tango = report.vote;
  161:
             report = zulu != tango;
             zulu = 0;
-            if(!report) { _fun91102_ip = 173; continue _fun91102 }
+            if(!report) { _fun00002_ip = 173; continue _fun00001 }
  170:
             zulu = tango;
  173:

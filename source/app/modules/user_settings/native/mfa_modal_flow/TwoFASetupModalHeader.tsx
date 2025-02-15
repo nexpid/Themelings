@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = mike.bind(zulu)(tango);
         mike = zulu.map;
         entity = function(argFoo, argBar) {
-            _fun94553: for(var _fun94553_ip = 0; ; ) switch(_fun94553_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot1;
                 tango = _closure1_slot0;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = argBar;
                 mike = mike + 1;
                 oscar = oscar === mike;
-                if(!oscar) { _fun94553_ip = 61; continue _fun94553 }
+                if(!oscar) { _fun00002_ip = 61; continue _fun00001 }
  51:
                 golf = _closure2_slot1;
                 oscar = golf.filledCircle;

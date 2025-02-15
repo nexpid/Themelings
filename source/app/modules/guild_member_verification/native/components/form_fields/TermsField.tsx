@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/form_fields/TermsField.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TermsField
-        _fun88580: for(var _fun88580_ip = 0; ; ) switch(_fun88580_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.field;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.response;
             mike = null;
             yankee = mike != entity;
-            if(!yankee) { _fun88580_ip = 67; continue _fun88580 }
+            if(!yankee) { _fun00002_ip = 67; continue _fun00001 }
  64:
             yankee = entity;
  67:

@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: InstantInviteSelfMeasurer
-        _fun119933: for(var _fun119933_ip = 0; ; ) switch(_fun119933_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             verify = mike.containerStyle;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = offset;
             options = mike.type;
             tango = undefined;
-            if(!(options === tango)) { _fun119933_ip = 42; continue _fun119933 }
+            if(!(options === tango)) { _fun00002_ip = 42; continue _fun00001 }
  38:
             options = 'height';
  42:
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = offset;
             mike[1] = options;
             entity = function(argFoo) {
-                _fun119934: for(var _fun119934_ip = 0; ; ) switch(_fun119934_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -67,10 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot0;
                     tango = _closure2_slot1;
                     mike = 'height';
-                    if(!(mike !== tango)) { _fun119934_ip = 40; continue _fun119934 }
+                    if(!(mike !== tango)) { _fun00004_ip = 40; continue _fun00003 }
  33:
                     mike = entity.width;
-                    _fun119934_ip = 45; continue _fun119934;
+                    _fun00004_ip = 45; continue _fun00003;
  40:
                     mike = entity.height;
  45:

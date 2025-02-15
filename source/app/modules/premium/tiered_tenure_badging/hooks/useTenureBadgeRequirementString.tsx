@@ -22,73 +22,73 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = mike.TieredTenureBadgeV2;
     var _closure1_slot3 = mike;
     mike = function(argFoo, argBar) { // Original name: getTenureBadgeRequirementString
-        _fun77479: for(var _fun77479_ip = 0; ; ) switch(_fun77479_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             report = argBar;
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_1_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  26:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_3_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  43:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_6_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  60:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_1_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  77:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_3_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  94:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_6_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 420; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  111:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_12_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  128:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_24_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  145:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_36_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  162:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_60_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  179:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_12_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  196:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_24_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  213:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_36_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  227:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_60_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 346; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 346; continue _fun00001 }
  241:
             mike = _closure1_slot2;
             mike = mike.PREMIUM_TENURE_72_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 273; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 273; continue _fun00001 }
  255:
             mike = _closure1_slot3;
             mike = mike.PREMIUM_TENURE_72_MONTH;
-            if(!(mike !== zulu)) { _fun77479_ip = 273; continue _fun77479 }
+            if(!(mike !== zulu)) { _fun00002_ip = 273; continue _fun00001 }
  269:
             mike = null;
             return mike;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = 'modules/premium/tiered_tenure_badging/hooks/useTenureBadgeRequirementString.tsx';
     report = oscar.bind(golf)(report);
     tango = function() {
-        _fun77480: for(var _fun77480_ip = 0; ; ) switch(_fun77480_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = zulu.useTieredTenureBadge;
             oscar = entity.bind(zulu)();
             entity = null;
-            if(!(entity != oscar)) { _fun77480_ip = 95; continue _fun77480 }
+            if(!(entity != oscar)) { _fun00004_ip = 95; continue _fun00003 }
  41:
             tango = _closure1_slot0;
             golf = _closure1_slot1;

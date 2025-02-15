@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/native/ActivityShelfBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivityShelfBadge
-        _fun122157: for(var _fun122157_ip = 0; ; ) switch(_fun122157_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.labelType;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(report)(entity);
             entity = entity.EmbeddedActivityLabelTypes;
             entity = entity.NEW;
-            if(!(zulu !== entity)) { _fun122157_ip = 266; continue _fun122157 }
+            if(!(zulu !== entity)) { _fun00002_ip = 266; continue _fun00001 }
  61:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.EmbeddedActivityLabelTypes;
             mike = entity.UPDATED;
             entity = null;
-            if(!(zulu === mike)) { _fun122157_ip = 261; continue _fun122157 }
+            if(!(zulu === mike)) { _fun00002_ip = 261; continue _fun00001 }
  99:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = golf;
             entity = tango.bind(report)(zulu, mike);
  261:
-            _fun122157_ip = 428; continue _fun122157;
+            _fun00002_ip = 428; continue _fun00001;
  266:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;

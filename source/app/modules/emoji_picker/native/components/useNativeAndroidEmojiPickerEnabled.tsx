@@ -27,7 +27,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/emoji_picker/native/components/useNativeAndroidEmojiPickerEnabled.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useNativeAndroidEmojiPickerEnabled
-        _fun78137: for(var _fun78137_ip = 0; ; ) switch(_fun78137_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -37,7 +37,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(report)(entity);
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun78137_ip = 88; continue _fun78137 }
+            if(!entity) { _fun00002_ip = 88; continue _fun00001 }
  37:
             tango = _closure1_slot1;
             oscar = _closure1_slot2;

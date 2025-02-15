@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/contact_sync/native/components/ContactSyncNameInput.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun94060: for(var _fun94060_ip = 0; ; ) switch(_fun94060_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             vacuum = entity.loading;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = entity.initialName;
             echo = entity.prefilledFromContactBook;
             tango = undefined;
-            if(!(echo === tango)) { _fun94060_ip = 36; continue _fun94060 }
+            if(!(echo === tango)) { _fun00002_ip = 36; continue _fun00001 }
  34:
             echo = false;
  36:
@@ -159,11 +159,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity[source];
             entity = report.bind(tango)(entity);
             entity = entity.t;
-            if(backup) { _fun94060_ip = 231; continue _fun94060 }
+            if(backup) { _fun00002_ip = 231; continue _fun00001 }
  218:
             report = entity.PDTjLC;
             config = mike.bind(zulu)(report);
-            _fun94060_ip = 242; continue _fun94060;
+            _fun00002_ip = 242; continue _fun00001;
  231:
             entity = entity.i4jeWV;
             config = mike.bind(zulu)(entity);
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = foxtrot.flex;
             report = new Array(2);
             report[0] = golf;
-            if(!oscar) { _fun94060_ip = 303; continue _fun94060 }
+            if(!oscar) { _fun00002_ip = 303; continue _fun00001 }
  297:
             oscar = foxtrot.keyboardOpenPadding;
  303:
@@ -218,11 +218,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control[source];
             control = context.bind(tango)(control);
             context = control.t;
-            if(backup) { _fun94060_ip = 468; continue _fun94060 }
+            if(backup) { _fun00002_ip = 468; continue _fun00001 }
  455:
             control = context.sO+NIy;
             control = papa.bind(target)(control);
-            _fun94060_ip = 479; continue _fun94060;
+            _fun00002_ip = 479; continue _fun00001;
  468:
             context = context./OywGR;
             control = papa.bind(target)(context);
@@ -249,11 +249,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = context[source];
             context = papa.bind(tango)(context);
             papa = context.t;
-            if(backup) { _fun94060_ip = 606; continue _fun94060 }
+            if(backup) { _fun00002_ip = 606; continue _fun00001 }
  593:
             context = papa.xI496O;
             context = target.bind(status)(context);
-            _fun94060_ip = 617; continue _fun94060;
+            _fun00002_ip = 617; continue _fun00001;
  606:
             papa = papa.xCHh/v;
             context = target.bind(status)(papa);
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = control.bind(tango)(update, output);
             kilo[3] = output;
             output = null;
-            if(!echo) { _fun94060_ip = 951; continue _fun94060 }
+            if(!echo) { _fun00002_ip = 951; continue _fun00001 }
  845:
             update = _closure1_slot7;
             papa = _closure1_slot0;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = _closure1_slot5;
             kilo = {};
             yankee = backup;
-            if(!yankee) { _fun94060_ip = 995; continue _fun94060 }
+            if(!yankee) { _fun00002_ip = 995; continue _fun00001 }
  989:
             yankee = foxtrot.button;
  995:
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = 'primary';
             echo['variant'] = record;
             record = 'lg';
-            if(!backup) { _fun94060_ip = 1050; continue _fun94060 }
+            if(!backup) { _fun00002_ip = 1050; continue _fun00001 }
  1046:
             record = 'md';
  1050:
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = result.bind(tango)(output, kilo);
             options[1] = kilo;
             offset = null;
-            if(!backup) { _fun94060_ip = 1213; continue _fun94060 }
+            if(!backup) { _fun00002_ip = 1213; continue _fun00001 }
  1111:
             kilo = _closure1_slot7;
             update = _closure1_slot0;
@@ -393,14 +393,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result.bind(echo)(output);
             yankee['text'] = output;
             sizing = function() { // Original name: onPress
-                _fun94063: for(var _fun94063_ip = 0; ; ) switch(_fun94063_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     tango = entity == zulu;
                     zulu = undefined;
                     entity = undefined;
-                    if(tango) { _fun94063_ip = 28; continue _fun94063 }
+                    if(tango) { _fun00004_ip = 28; continue _fun00003 }
  20:
                     mike = _closure2_slot1;
                     entity = mike.bind(zulu)();

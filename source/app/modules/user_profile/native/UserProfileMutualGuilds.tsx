@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileMutualGuilds.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileMutualGuilds
-        _fun80044: for(var _fun80044_ip = 0; ; ) switch(_fun80044_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.user;
@@ -95,14 +95,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.PROFILE_MODAL_MUTUALS;
             entity['location'] = zulu;
             entity = mike.bind(tango)(entity);
-            if(!entity) { _fun80044_ip = 482; continue _fun80044 }
+            if(!entity) { _fun00002_ip = 482; continue _fun00001 }
  142:
             entity = null;
-            if(!(entity != yankee)) { _fun80044_ip = 482; continue _fun80044 }
+            if(!(entity != yankee)) { _fun00002_ip = 482; continue _fun00001 }
  151:
             entity = yankee.length;
             zulu = 0;
-            if(!(zulu !== entity)) { _fun80044_ip = 482; continue _fun80044 }
+            if(!(zulu !== entity)) { _fun00002_ip = 482; continue _fun00001 }
  165:
             mike = yankee.slice;
             entity = 3;

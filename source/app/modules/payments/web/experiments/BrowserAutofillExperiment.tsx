@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['BrowserAutofillExperimentGlobal'] = tango;
     tango = function() { // Original name: inBrowserAutofillExperiment
-        _fun66283: for(var _fun66283_ip = 0; ; ) switch(_fun66283_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = _closure1_slot3;
             report = golf.getCurrentConfig;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = report.bind(golf)(tango, entity);
             tango = entity.enabled;
-            if(tango) { _fun66283_ip = 77; continue _fun66283 }
+            if(tango) { _fun00002_ip = 77; continue _fun00001 }
  48:
             report = _closure1_slot4;
             tango = report.getCurrentConfig;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['inBrowserAutofillExperiment'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: allowDesktopRedirectPurchase
-        _fun66284: for(var _fun66284_ip = 0; ; ) switch(_fun66284_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -108,12 +108,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.bind(entity)(zulu);
             entity = zulu.isDesktop;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun66284_ip = 47; continue _fun66284 }
+            if(!entity) { _fun00004_ip = 47; continue _fun00003 }
  41:
             zulu = null;
             entity = zulu != tango;
  47:
-            if(!entity) { _fun66284_ip = 88; continue _fun66284 }
+            if(!entity) { _fun00004_ip = 88; continue _fun00003 }
  50:
             mike = _closure1_slot2;
             report = mike.TIER_0;
@@ -124,12 +124,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.includes;
             entity = mike.bind(zulu)(tango);
  88:
-            if(!entity) { _fun66284_ip = 97; continue _fun66284 }
+            if(!entity) { _fun00004_ip = 97; continue _fun00003 }
  91:
             mike = argBar;
             entity = !mike;
  97:
-            if(!entity) { _fun66284_ip = 109; continue _fun66284 }
+            if(!entity) { _fun00004_ip = 109; continue _fun00003 }
  100:
             zulu = null;
             mike = argBaz;

@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset[4] = foxtrot;
         offset[5] = yankee;
         oscar = function() {
-            _fun64847: for(var _fun64847_ip = 0; ; ) switch(_fun64847_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 oscar = function(argFoo, argBar, argBaz) { // Original name: i
                     tango = argFoo;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = _closure1_slot8;
                 tango = oscar.bind(report)(options, golf, tango);
                 tango = _closure2_slot0;
-                if(tango) { _fun64847_ip = 224; continue _fun64847 }
+                if(tango) { _fun00002_ip = 224; continue _fun00001 }
  205:
                 tango = _closure2_slot5;
                 zulu = _closure1_slot9;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = verify.bind(tango)(oscar);
         oscar = verify.useAnimatedStyle;
         zulu = function() { // Original name: V
-            _fun64850: for(var _fun64850_ip = 0; ; ) switch(_fun64850_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = {};
                 tango = _closure2_slot4;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['opacity'] = mike;
                 tango = _closure2_slot0;
                 mike = undefined;
-                if(tango) { _fun64850_ip = 62; continue _fun64850 }
+                if(tango) { _fun00004_ip = 62; continue _fun00003 }
  31:
                 tango = {};
                 report = _closure2_slot5;

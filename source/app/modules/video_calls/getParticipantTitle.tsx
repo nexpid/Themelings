@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/video_calls/getParticipantTitle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getParticipantTitle
-        _fun103897: for(var _fun103897_ip = 0; ; ) switch(_fun103897_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = argBar;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity.type;
             report = _closure1_slot4;
             report = report.ACTIVITY;
-            if(!(oscar !== report)) { _fun103897_ip = 221; continue _fun103897 }
+            if(!(oscar !== report)) { _fun00002_ip = 221; continue _fun00001 }
  34:
             verify = _closure1_slot3;
             golf = verify.isGuestOrLurker;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = report == offset;
             options = undefined;
             report = undefined;
-            if(yankee) { _fun103897_ip = 72; continue _fun103897 }
+            if(yankee) { _fun00002_ip = 72; continue _fun00001 }
  67:
             report = offset.id;
  72:
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.user;
             mike = golf.bind(verify)(oscar, mike, entity);
             entity = '';
-            if(!report) { _fun103897_ip = 215; continue _fun103897 }
+            if(!report) { _fun00002_ip = 215; continue _fun00001 }
  138:
             golf = _closure1_slot0;
             verify = _closure1_slot2;
@@ -93,13 +93,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == zulu;
             mike = undefined;
-            if(tango) { _fun103897_ip = 237; continue _fun103897 }
+            if(tango) { _fun00002_ip = 237; continue _fun00001 }
  232:
             mike = zulu.name;
  237:
             zulu = entity != mike;
             entity = null;
-            if(!zulu) { _fun103897_ip = 249; continue _fun103897 }
+            if(!zulu) { _fun00002_ip = 249; continue _fun00001 }
  246:
             entity = mike;
  249:

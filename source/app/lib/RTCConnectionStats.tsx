@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot4;
         zulu = function(argFoo) { // Original name: StateHistory
-            _fun52407: for(var _fun52407_ip = 0; ; ) switch(_fun52407_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = argFoo;
                 zulu = this;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu['current'] = mike;
                 report = new Array(0);
                 zulu['history'] = report;
-                if(!(mike != tango)) { _fun52407_ip = 61; continue _fun52407 }
+                if(!(mike != tango)) { _fun00002_ip = 61; continue _fun00001 }
  50:
                 mike = zulu.update;
                 mike = mike.bind(zulu)(tango);
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'reset';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun52408: for(var _fun52408_ip = 0; ; ) switch(_fun52408_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = argFoo;
                 mike = this;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['current'] = entity;
                 tango = new Array(0);
                 mike['history'] = tango;
-                if(!(entity != zulu)) { _fun52408_ip = 39; continue _fun52408 }
+                if(!(entity != zulu)) { _fun00004_ip = 39; continue _fun00003 }
  28:
                 entity = mike.update;
                 entity = entity.bind(mike)(zulu);
@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'update';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun52409: for(var _fun52409_ip = 0; ; ) switch(_fun52409_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 entity = this;
                 mike = entity.current;
-                if(!(mike !== tango)) { _fun52409_ip = 82; continue _fun52409 }
+                if(!(mike !== tango)) { _fun00006_ip = 82; continue _fun00005 }
  15:
                 entity['current'] = tango;
                 zulu = entity.history;
@@ -114,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'getVoiceConnectionSuccessStats';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun52410: for(var _fun52410_ip = 0; ; ) switch(_fun52410_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 report = arguments[0];
                 zulu = this;
                 tango = undefined;
-                if(!(report === tango)) { _fun52410_ip = 46; continue _fun52410 }
+                if(!(report === tango)) { _fun00008_ip = 46; continue _fun00007 }
  14:
                 oscar = _closure1_slot0;
                 golf = _closure1_slot2;
@@ -145,13 +145,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = tango.sumBy;
                     mike = _closure3_slot0;
                     entity = function(argFoo) {
-                        _fun52412: for(var _fun52412_ip = 0; ; ) switch(_fun52412_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             mike = argFoo;
                             tango = mike.state;
                             zulu = _closure4_slot0;
                             entity = 0;
-                            if(!(tango === zulu)) { _fun52412_ip = 27; continue _fun52412 }
+                            if(!(tango === zulu)) { _fun00010_ip = 27; continue _fun00009 }
  21:
                             entity = mike.durationMs;
  27:
@@ -196,13 +196,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'getStateDurations';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun52413: for(var _fun52413_ip = 0; ; ) switch(_fun52413_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 mike = this;
                 entity = mike.history;
                 zulu = entity.length;
                 entity = 0;
-                if(!(entity !== zulu)) { _fun52413_ip = 134; continue _fun52413 }
+                if(!(entity !== zulu)) { _fun00012_ip = 134; continue _fun00011 }
  20:
                 oscar = _closure1_slot1;
                 golf = _closure1_slot2;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     report = function(argFoo, argBar) { // Original name: transitionToChannel
-        _fun53306: for(var _fun53306_ip = 0; ; ) switch(_fun53306_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBar;
             tango = _closure1_slot3;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argFoo;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu != entity)) { _fun53306_ip = 233; continue _fun53306 }
+            if(!(zulu != entity)) { _fun00002_ip = 233; continue _fun00001 }
  32:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -50,16 +50,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = copyDataProperties(backup, foxtrot);
             golf = verify.bind(offset)(options, golf);
             zulu = zulu != oscar;
-            if(!zulu) { _fun53306_ip = 180; continue _fun53306 }
+            if(!zulu) { _fun00002_ip = 180; continue _fun00001 }
  174:
             zulu = oscar.openTextInVoiceIfVoiceChannel;
  180:
-            if(!zulu) { _fun53306_ip = 193; continue _fun53306 }
+            if(!zulu) { _fun00002_ip = 193; continue _fun00001 }
  183:
             oscar = entity.isGuildVocal;
             zulu = oscar.bind(entity)();
  193:
-            if(!zulu) { _fun53306_ip = 233; continue _fun53306 }
+            if(!zulu) { _fun00002_ip = 233; continue _fun00001 }
  196:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['transitionToThread'] = report;
     zulu['transitionToThreadMessage'] = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: tryTransitionToThreadMessage
-        _fun53309: for(var _fun53309_ip = 0; ; ) switch(_fun53309_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argCorge;
             tango = _closure1_slot3;
@@ -185,13 +185,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = argBar;
             tango = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike == tango)) { _fun53309_ip = 46; continue _fun53309 }
+            if(!(mike == tango)) { _fun00004_ip = 46; continue _fun00003 }
  29:
             oscar = _closure1_slot5;
             zulu = undefined;
             mike = argFoo;
             mike = oscar.bind(zulu)(mike, report);
-            _fun53309_ip = 62; continue _fun53309;
+            _fun00004_ip = 62; continue _fun00003;
  46:
             zulu = _closure1_slot6;
             mike = undefined;
@@ -204,14 +204,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['tryTransitionToThreadMessage'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: transitionToMessage
-        _fun53310: for(var _fun53310_ip = 0; ; ) switch(_fun53310_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.getChannel;
             entity = argFoo;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu != entity)) { _fun53310_ip = 127; continue _fun53310 }
+            if(!(zulu != entity)) { _fun00006_ip = 127; continue _fun00005 }
  26:
             report = _closure1_slot0;
             oscar = _closure1_slot2;

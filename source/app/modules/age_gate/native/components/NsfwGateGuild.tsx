@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = options;
         mike[1] = golf;
         entity = function() {
-            _fun78165: for(var _fun78165_ip = 0; ; ) switch(_fun78165_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = null;
                 offset = verify == golf;
                 golf = undefined;
-                if(offset) { _fun78165_ip = 77; continue _fun78165 }
+                if(offset) { _fun00002_ip = 77; continue _fun00001 }
  68:
                 offset = _closure2_slot1;
                 golf = offset.id;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure2_slot1;
                 foxtrot = verify == golf;
                 golf = undefined;
-                if(foxtrot) { _fun78165_ip = 118; continue _fun78165 }
+                if(foxtrot) { _fun00002_ip = 118; continue _fun00001 }
  109:
                 foxtrot = _closure2_slot1;
                 golf = foxtrot.id;
@@ -184,12 +184,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = _closure2_slot1;
                 verify = verify == golf;
                 golf = undefined;
-                if(verify) { _fun78165_ip = 152; continue _fun78165 }
+                if(verify) { _fun00002_ip = 152; continue _fun00001 }
  142:
                 options = _closure2_slot1;
                 golf = options.nsfwAllowed;
  152:
-                if(!golf) { _fun78165_ip = 191; continue _fun78165 }
+                if(!golf) { _fun00002_ip = 191; continue _fun00001 }
  155:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;

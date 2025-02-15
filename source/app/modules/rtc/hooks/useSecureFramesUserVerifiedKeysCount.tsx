@@ -41,11 +41,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun81264: for(var _fun81264_ip = 0; ; ) switch(_fun81264_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
-                if(!(entity != zulu)) { _fun81264_ip = 83; continue _fun81264 }
+                if(!(entity != zulu)) { _fun00002_ip = 83; continue _fun00001 }
  13:
                 zulu = global;
                 tango = zulu.Uint8Array;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun81265: for(var _fun81265_ip = 0; ; ) switch(_fun81265_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure1_slot3;
                 mike = zulu.getUserVerifiedKeys;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 mike = entity == tango;
                 entity = 0;
-                if(mike) { _fun81265_ip = 78; continue _fun81265 }
+                if(mike) { _fun00004_ip = 78; continue _fun00003 }
  36:
                 mike = global;
                 zulu = mike.Object;

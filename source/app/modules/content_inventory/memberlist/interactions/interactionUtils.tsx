@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     entity = '__esModule';
     entity = golf.bind(options)(zulu, entity, tango);
     tango = function(argFoo) { // Original name: getDescription
-        _fun115210: for(var _fun115210_ip = 0; ; ) switch(_fun115210_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -37,21 +37,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar[zulu];
             zulu = tango.bind(report)(zulu);
             zulu = zulu.t;
-            if(entity) { _fun115210_ip = 106; continue _fun115210 }
+            if(entity) { _fun00002_ip = 106; continue _fun00001 }
  87:
-            if(mike) { _fun115210_ip = 98; continue _fun115210 }
+            if(mike) { _fun00002_ip = 98; continue _fun00001 }
  90:
             entity = zulu.bES+y8;
-            _fun115210_ip = 104; continue _fun115210;
+            _fun00002_ip = 104; continue _fun00001;
  98:
             entity = zulu.lLPKY2;
  104:
-            _fun115210_ip = 126; continue _fun115210;
+            _fun00002_ip = 126; continue _fun00001;
  106:
-            if(mike) { _fun115210_ip = 117; continue _fun115210 }
+            if(mike) { _fun00002_ip = 117; continue _fun00001 }
  109:
             mike = zulu.i7AOz8;
-            _fun115210_ip = 123; continue _fun115210;
+            _fun00002_ip = 123; continue _fun00001;
  117:
             mike = zulu.MHO1AQ;
  123:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getContentAltText'] = report;
     zulu['getDescription'] = tango;
     tango = function(argFoo, argBar, argBaz) {
-        _fun115213: for(var _fun115213_ip = 0; ; ) switch(_fun115213_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             report = argBar;
@@ -133,13 +133,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             offset = oscar == report;
             golf = undefined;
-            if(offset) { _fun115213_ip = 62; continue _fun115213 }
+            if(offset) { _fun00004_ip = 62; continue _fun00003 }
  57:
             golf = report.guild_id;
  62:
             offset = oscar == report;
             oscar = undefined;
-            if(offset) { _fun115213_ip = 76; continue _fun115213 }
+            if(offset) { _fun00004_ip = 76; continue _fun00003 }
  71:
             oscar = report.id;
  76:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['formatCanvasDescription'] = tango;
     mike = function(argFoo) {
-        _fun115214: for(var _fun115214_ip = 0; ; ) switch(_fun115214_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             offset = entity.entry;
@@ -188,10 +188,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity[oscar];
             entity = zulu.bind(golf)(entity);
             entity = entity.t;
-            if(mike) { _fun115214_ip = 98; continue _fun115214 }
+            if(mike) { _fun00006_ip = 98; continue _fun00005 }
  90:
             tango = entity.7j/5mp;
-            _fun115214_ip = 104; continue _fun115214;
+            _fun00006_ip = 104; continue _fun00005;
  98:
             tango = entity.QaUWPT;
  104:
@@ -213,13 +213,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             foxtrot = null;
             verify = foxtrot == romeo;
             kilo = undefined;
-            if(verify) { _fun115214_ip = 189; continue _fun115214 }
+            if(verify) { _fun00006_ip = 189; continue _fun00005 }
  184:
             kilo = romeo.guild_id;
  189:
             verify = foxtrot == romeo;
             backup = undefined;
-            if(verify) { _fun115214_ip = 203; continue _fun115214 }
+            if(verify) { _fun00006_ip = 203; continue _fun00005 }
  198:
             backup = romeo.id;
  203:
@@ -234,13 +234,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.getName;
             backup = foxtrot == romeo;
             options = undefined;
-            if(backup) { _fun115214_ip = 258; continue _fun115214 }
+            if(backup) { _fun00006_ip = 258; continue _fun00005 }
  253:
             options = romeo.guild_id;
  258:
             foxtrot = foxtrot == romeo;
             golf = undefined;
-            if(foxtrot) { _fun115214_ip = 272; continue _fun115214 }
+            if(foxtrot) { _fun00006_ip = 272; continue _fun00005 }
  267:
             golf = romeo.id;
  272:

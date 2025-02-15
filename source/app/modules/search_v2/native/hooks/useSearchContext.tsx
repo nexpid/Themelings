@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = new Array(1);
         tango[0] = zulu;
         zulu = function() {
-            _fun112658: for(var _fun112658_ip = 0; ; ) switch(_fun112658_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot4;
                 mike = zulu.getChannel;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = null;
                 mike = entity == zulu;
                 entity = undefined;
-                if(mike) { _fun112658_ip = 45; continue _fun112658 }
+                if(mike) { _fun00002_ip = 45; continue _fun00001 }
  35:
                 mike = zulu.isThread;
                 entity = mike.bind(zulu)();
@@ -123,14 +123,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = oscar;
         mike[2] = report;
         entity = function() {
-            _fun112659: for(var _fun112659_ip = 0; ; ) switch(_fun112659_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot2;
-                if(entity) { _fun112659_ip = 89; continue _fun112659 }
+                if(entity) { _fun00004_ip = 89; continue _fun00003 }
  10:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(entity != mike)) { _fun112659_ip = 57; continue _fun112659 }
+                if(!(entity != mike)) { _fun00004_ip = 57; continue _fun00003 }
  20:
                 entity = {};
                 mike = _closure1_slot5;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['guildId'] = mike;
                 mike = _closure2_slot0;
                 entity['channelId'] = mike;
-                _fun112659_ip = 87; continue _fun112659;
+                _fun00004_ip = 87; continue _fun00003;
  57:
                 mike = {};
                 tango = _closure1_slot5;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['channelId'] = tango;
                 entity = mike;
  87:
-                _fun112659_ip = 167; continue _fun112659;
+                _fun00004_ip = 167; continue _fun00003;
  89:
                 tango = _closure1_slot1;
                 oscar = _closure1_slot2;

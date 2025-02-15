@@ -57,11 +57,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = false;
     options['trailing'] = tango;
     golf = function() {
-        _fun84116: for(var _fun84116_ip = 0; ; ) switch(_fun84116_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun84116_ip = 13; continue _fun84116 }
+            if(!(mike === entity)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             mike = new Array(0);
  13:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/useLoadFont.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) {
-        _fun84117: for(var _fun84117_ip = 0; ; ) switch(_fun84117_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             yankee = argFoo;
             golf = argBar;
@@ -163,15 +163,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = mike + zulu;
                 tango = undefined;
                 zulu = function() {
-                    _fun84121: for(var _fun84121_ip = 0; ; ) switch(_fun84121_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         mike = _closure2_slot1;
                         report = null;
-                        if(!(report != mike)) { _fun84121_ip = 74; continue _fun84121 }
+                        if(!(report != mike)) { _fun00006_ip = 74; continue _fun00005 }
  13:
                         mike = _closure2_slot2;
                         mike = mike.current;
-                        if(!(report === mike)) { _fun84121_ip = 115; continue _fun84121 }
+                        if(!(report === mike)) { _fun00006_ip = 115; continue _fun00005 }
  26:
                         oscar = _closure1_slot5;
                         zulu = _closure2_slot0;
@@ -179,12 +179,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = oscar.bind(tango)(zulu);
                         zulu = _closure2_slot3;
                         zulu = zulu.current;
-                        if(!(report === zulu)) { _fun84121_ip = 115; continue _fun84121 }
+                        if(!(report === zulu)) { _fun00006_ip = 115; continue _fun00005 }
  57:
                         zulu = _closure1_slot5;
                         mike = '@discordapp/tokens/typography/generated/noto-sans/notosans-700-bold.ttf';
                         mike = zulu.bind(tango)(mike);
-                        _fun84121_ip = 115; continue _fun84121;
+                        _fun00006_ip = 115; continue _fun00005;
  74:
                         zulu = _closure1_slot6;
                         tango = _closure1_slot4;
@@ -217,19 +217,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.useEffect;
             golf = function() {
                 entity = function() {
-                    _fun84124: for(var _fun84124_ip = 0; ; ) switch(_fun84124_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = _closure2_slot2;
                         tango = entity.current;
                         entity = null;
-                        if(!(entity != tango)) { _fun84124_ip = 28; continue _fun84124 }
+                        if(!(entity != tango)) { _fun00008_ip = 28; continue _fun00007 }
  18:
                         zulu = tango.dispose;
                         zulu = zulu.bind(tango)();
  28:
                         mike = _closure2_slot3;
                         mike = mike.current;
-                        if(!(entity != mike)) { _fun84124_ip = 51; continue _fun84124 }
+                        if(!(entity != mike)) { _fun00008_ip = 51; continue _fun00007 }
  41:
                         entity = mike.dispose;
                         entity = entity.bind(mike)();
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(verify)(golf, oscar);
             report['current'] = mike;
             tango['current'] = entity;
-            if(!(zulu !== mike)) { _fun84117_ip = 210; continue _fun84117 }
+            if(!(zulu !== mike)) { _fun00004_ip = 210; continue _fun00003 }
  207:
             entity = mike;
  210:

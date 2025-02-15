@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: FormSwitchRow
-        _fun63741: for(var _fun63741_ip = 0; ; ) switch(_fun63741_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             verify = report.onValueChange;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = offset;
             yankee = report.disabled;
             tango = undefined;
-            if(!(yankee === tango)) { _fun63741_ip = 37; continue _fun63741 }
+            if(!(yankee === tango)) { _fun00002_ip = 37; continue _fun00001 }
  35:
             yankee = false;
  37:
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = report.trailing;
             config = report.numberOfLines;
             options = report.switchProps;
-            if(!(options === tango)) { _fun63741_ip = 78; continue _fun63741 }
+            if(!(options === tango)) { _fun00002_ip = 78; continue _fun00001 }
  76:
             options = {};
  78:
@@ -76,18 +76,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = 'string';
             entity = typeof sequence;
             mike = undefined;
-            if(!(foxtrot === entity)) { _fun63741_ip = 247; continue _fun63741 }
+            if(!(foxtrot === entity)) { _fun00002_ip = 247; continue _fun00001 }
  244:
             mike = sequence;
  247:
             entity = update != mike;
-            if(!entity) { _fun63741_ip = 261; continue _fun63741 }
+            if(!entity) { _fun00002_ip = 261; continue _fun00001 }
  254:
             zulu = typeof sizing;
             entity = foxtrot === zulu;
  261:
             foxtrot = mike;
-            if(!entity) { _fun63741_ip = 293; continue _fun63741 }
+            if(!entity) { _fun00002_ip = 293; continue _fun00001 }
  267:
             entity = global;
             entity = entity.HermesInternal;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = new Array(2);
             echo[0] = control;
             update = update != source;
-            if(!update) { _fun63741_ip = 404; continue _fun63741 }
+            if(!update) { _fun00002_ip = 404; continue _fun00001 }
  401:
             update = source;
  404:
@@ -137,20 +137,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = 'disabled';
             entity[kilo] = yankee;
             kilo = undefined;
-            if(!backup) { _fun63741_ip = 455; continue _fun63741 }
+            if(!backup) { _fun00002_ip = 455; continue _fun00001 }
  450:
             kilo = function() {
-                _fun63743: for(var _fun63743_ip = 0; ; ) switch(_fun63743_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun63743_ip = 24; continue _fun63743 }
+                    if(!mike) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     zulu = _closure2_slot1;
                     mike = tango != zulu;
  24:
-                    if(!mike) { _fun63743_ip = 45; continue _fun63743 }
+                    if(!mike) { _fun00004_ip = 45; continue _fun00003 }
  27:
                     zulu = _closure2_slot0;
                     entity = _closure2_slot1;
@@ -177,11 +177,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = global;
                 zulu = mike.setTimeout;
                 mike = function() {
-                    _fun63745: for(var _fun63745_ip = 0; ; ) switch(_fun63745_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot0;
                         mike = null;
-                        if(!(mike != zulu)) { _fun63745_ip = 31; continue _fun63745 }
+                        if(!(mike != zulu)) { _fun00006_ip = 31; continue _fun00005 }
  13:
                         zulu = _closure2_slot0;
                         entity = _closure2_slot2;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormSwitchRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSwitchRowContainer
-        _fun63746: for(var _fun63746_ip = 0; ; ) switch(_fun63746_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             verify = argFoo;
             zulu = _closure1_slot4;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.RedesignCompatContext;
             entity = mike.bind(zulu)(entity);
             tango = _closure1_slot6;
-            if(entity) { _fun63746_ip = 80; continue _fun63746 }
+            if(entity) { _fun00008_ip = 80; continue _fun00007 }
  56:
             mike = _closure1_slot9;
             entity = {};
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = verify;
             zulu = copyDataProperties(romeo, yankee);
             entity = tango.bind(report)(mike, entity);
-            _fun63746_ip = 174; continue _fun63746;
+            _fun00008_ip = 174; continue _fun00007;
  80:
             zulu = _closure1_slot5;
             mike = {};

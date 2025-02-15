@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     golf = argPlugh;
     tango = function(argFoo) { // Original name: unpackStageChannelParty
-        _fun68438: for(var _fun68438_ip = 0; ; ) switch(_fun68438_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = report;
@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = undefined;
             oscar = undefined;
             entity = null;
-            if(!(entity != report)) { _fun68438_ip = 31; continue _fun68438 }
+            if(!(entity != report)) { _fun00002_ip = 31; continue _fun00001 }
  18:
             report = tango;
             report = report.party;
-            if(!(entity == report)) { _fun68438_ip = 33; continue _fun68438 }
+            if(!(entity == report)) { _fun00002_ip = 33; continue _fun00001 }
  31:
             return mike;
  33:
@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango.size;
  49: // try_start_0
             tango = zulu;
-            if(!(entity != tango)) { _fun68438_ip = 243; continue _fun68438 }
+            if(!(entity != tango)) { _fun00002_ip = 243; continue _fun00001 }
  59:
             options = zulu;
             golf = options.startsWith;
             tango = _closure1_slot7;
             tango = golf.bind(options)(tango);
-            if(!tango) { _fun68438_ip = 243; continue _fun68438 }
+            if(!tango) { _fun00002_ip = 243; continue _fun00001 }
  86:
             golf = zulu;
             tango = golf.split;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/stage_channels/StageChannelRichPresenceUtils.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo, argBar) { // Original name: packStageChannelPartyId
-        _fun68439: for(var _fun68439_ip = 0; ; ) switch(_fun68439_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot1;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.id;
             zulu = tango.bind(report)(oscar, zulu);
             tango = 0;
-            if(!zulu) { _fun68439_ip = 53; continue _fun68439 }
+            if(!zulu) { _fun00004_ip = 53; continue _fun00003 }
  46:
             zulu = _closure1_slot8;
             tango = zulu | 0;
@@ -155,14 +155,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = report.bind(oscar)(zulu);
             zulu = null;
             report = tango;
-            if(!(zulu != golf)) { _fun68439_ip = 159; continue _fun68439 }
+            if(!(zulu != golf)) { _fun00004_ip = 159; continue _fun00003 }
  86:
             oscar = golf.hasFeature;
             zulu = _closure1_slot6;
             zulu = zulu.PARTNERED;
             zulu = oscar.bind(golf)(zulu);
             oscar = tango;
-            if(!zulu) { _fun68439_ip = 121; continue _fun68439 }
+            if(!zulu) { _fun00004_ip = 121; continue _fun00003 }
  113:
             zulu = _closure1_slot9;
             oscar = tango | zulu;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.VERIFIED;
             tango = tango.bind(golf)(zulu);
             zulu = oscar;
-            if(!tango) { _fun68439_ip = 156; continue _fun68439 }
+            if(!tango) { _fun00004_ip = 156; continue _fun00003 }
  148:
             tango = _closure1_slot10;
             zulu = oscar | tango;
@@ -202,13 +202,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['packStageChannelPartyId'] = report;
     zulu['unpackStageChannelParty'] = tango;
     tango = function(argFoo) { // Original name: isStageActivity
-        _fun68440: for(var _fun68440_ip = 0; ; ) switch(_fun68440_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = null;
             zulu = mike == entity;
             mike = undefined;
-            if(zulu) { _fun68440_ip = 20; continue _fun68440 }
+            if(zulu) { _fun00006_ip = 20; continue _fun00005 }
  14:
             mike = entity.application_id;
  20:
@@ -219,14 +219,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isStageActivity'] = tango;
     mike = function(argFoo) { // Original name: shouldShowActivity
-        _fun68441: for(var _fun68441_ip = 0; ; ) switch(_fun68441_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = _closure1_slot11;
             zulu = undefined;
             mike = argFoo;
             zulu = tango.bind(zulu)(mike);
             mike = null;
-            if(!(mike != zulu)) { _fun68441_ip = 48; continue _fun68441 }
+            if(!(mike != zulu)) { _fun00008_ip = 48; continue _fun00007 }
  23:
             tango = zulu.channelId;
             zulu = _closure1_slot2;

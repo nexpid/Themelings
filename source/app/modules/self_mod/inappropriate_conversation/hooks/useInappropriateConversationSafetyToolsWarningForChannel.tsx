@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationSafetyToolsWarningForChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useInappropriateConversationSafetyToolsWarningForChannel
-        _fun79409: for(var _fun79409_ip = 0; ; ) switch(_fun79409_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -45,9 +45,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = options.useInappropriateConversationWarningsForChannel;
             oscar = argFoo;
             oscar = golf.bind(options)(oscar);
-            if(!report) { _fun79409_ip = 129; continue _fun79409 }
+            if(!report) { _fun00002_ip = 129; continue _fun00001 }
  100:
-            if(!tango) { _fun79409_ip = 129; continue _fun79409 }
+            if(!tango) { _fun00002_ip = 129; continue _fun00001 }
  103:
             report = oscar.filter;
             tango = function(argFoo) {
@@ -59,25 +59,25 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             tango = report.bind(oscar)(tango);
             report = tango.length;
-            if(!(mike === report)) { _fun79409_ip = 131; continue _fun79409 }
+            if(!(mike === report)) { _fun00002_ip = 131; continue _fun00001 }
  129:
             return zulu;
  131:
             zulu = tango.sort;
             entity = function(argFoo, argBar) {
-                _fun79411: for(var _fun79411_ip = 0; ; ) switch(_fun79411_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = argBar;
                     tango = mike.type;
                     zulu = entity.type;
-                    if(!(!(tango > zulu))) { _fun79411_ip = 45; continue _fun79411 }
+                    if(!(!(tango > zulu))) { _fun00004_ip = 45; continue _fun00003 }
  20:
                     mike = mike.dismiss_timestamp;
                     entity = entity.dismiss_timestamp;
                     mike = mike < entity;
                     entity = -1;
-                    if(!mike) { _fun79411_ip = 48; continue _fun79411 }
+                    if(!mike) { _fun00004_ip = 48; continue _fun00003 }
  45:
                     entity = 1;
  48:

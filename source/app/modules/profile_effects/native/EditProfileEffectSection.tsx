@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_effects/native/EditProfileEffectSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun91776: for(var _fun91776_ip = 0; ; ) switch(_fun91776_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.selectedProfileEffect;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = foxtrot;
             options[2] = zulu;
             zulu = function() {
-                _fun91779: for(var _fun91779_ip = 0; ; ) switch(_fun91779_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(tango)(entity);
                     mike = _closure2_slot2;
                     mike = mike.items;
-                    if(entity) { _fun91779_ip = 77; continue _fun91779 }
+                    if(entity) { _fun00004_ip = 77; continue _fun00003 }
  56:
                     zulu = mike.filter;
                     entity = function(argFoo) {
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return entity;
                     };
                     entity = zulu.bind(mike)(entity);
-                    _fun91779_ip = 80; continue _fun91779;
+                    _fun00004_ip = 80; continue _fun00003;
  77:
                     entity = mike;
  80:
@@ -220,13 +220,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = null;
             sizing = foxtrot == backup;
             mike = undefined;
-            if(sizing) { _fun91776_ip = 319; continue _fun91776 }
+            if(sizing) { _fun00002_ip = 319; continue _fun00001 }
  313:
             mike = backup.skuId;
  319:
             zulu[1] = mike;
             mike = function() {
-                _fun91784: for(var _fun91784_ip = 0; ; ) switch(_fun91784_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     options = oscar == options;
                     oscar = undefined;
-                    if(options) { _fun91784_ip = 97; continue _fun91784 }
+                    if(options) { _fun00006_ip = 97; continue _fun00005 }
  87:
                     golf = _closure2_slot0;
                     oscar = golf.skuId;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = kilo;
             kilo = foxtrot == backup;
             foxtrot = undefined;
-            if(kilo) { _fun91776_ip = 434; continue _fun91776 }
+            if(kilo) { _fun00002_ip = 434; continue _fun00001 }
  429:
             foxtrot = backup.id;
  434:
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(report)(zulu, mike);
                     mike = zulu.otherwise;
                     entity = function(argFoo) {
-                        _fun91791: for(var _fun91791_ip = 0; ; ) switch(_fun91791_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             entity = argFoo;
                             var _closure5_slot0 = entity;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = mike == zulu;
                             report = undefined;
                             zulu = undefined;
-                            if(mike) { _fun91791_ip = 38; continue _fun91791 }
+                            if(mike) { _fun00008_ip = 38; continue _fun00007 }
  29:
                             mike = _closure2_slot0;
                             zulu = mike.id;

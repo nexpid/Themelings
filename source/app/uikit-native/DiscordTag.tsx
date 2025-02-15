@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/DiscordTag.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DiscordTag
-        _fun77062: for(var _fun77062_ip = 0; ; ) switch(_fun77062_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.user;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = entity.discriminatorStyle;
             options = entity.hideBotTag;
             tango = undefined;
-            if(!(options === tango)) { _fun77062_ip = 46; continue _fun77062 }
+            if(!(options === tango)) { _fun00002_ip = 46; continue _fun00001 }
  44:
             options = false;
  46:
@@ -80,11 +80,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = offset.container;
             entity['style'] = report;
             verify = null;
-            if(!(verify == backup)) { _fun77062_ip = 269; continue _fun77062 }
+            if(!(verify == backup)) { _fun00002_ip = 269; continue _fun00001 }
  85:
             report = verify != yankee;
             oscar = null;
-            if(!report) { _fun77062_ip = 267; continue _fun77062 }
+            if(!report) { _fun00002_ip = 267; continue _fun00001 }
  97:
             foxtrot = _closure1_slot5;
             romeo = _closure1_slot0;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = yankee.isPomelo;
             output = output.bind(yankee)();
             output = !output;
-            if(!output) { _fun77062_ip = 253; continue _fun77062 }
+            if(!output) { _fun00002_ip = 253; continue _fun00001 }
  179:
             update = _closure1_slot5;
             echo = _closure1_slot0;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['children'] = sizing;
             oscar = foxtrot.bind(tango)(romeo, report);
  267:
-            _fun77062_ip = 328; continue _fun77062;
+            _fun00002_ip = 328; continue _fun00001;
  269:
             foxtrot = _closure1_slot4;
             romeo = _closure1_slot0;
@@ -140,16 +140,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = verify == yankee;
             foxtrot = undefined;
-            if(oscar) { _fun77062_ip = 351; continue _fun77062 }
+            if(oscar) { _fun00002_ip = 351; continue _fun00001 }
  345:
             foxtrot = yankee.bot;
  351:
             romeo = true;
             oscar = null;
-            if(!(romeo === foxtrot)) { _fun77062_ip = 421; continue _fun77062 }
+            if(!(romeo === foxtrot)) { _fun00002_ip = 421; continue _fun00001 }
  359:
             oscar = null;
-            if(options) { _fun77062_ip = 421; continue _fun77062 }
+            if(options) { _fun00002_ip = 421; continue _fun00001 }
  364:
             verify = _closure1_slot4;
             options = _closure1_slot1;

@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/app_launcher/hooks/useClickOnHomeActivityOpensAppDetails.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useClickOnHomeActivityOpensAppDetails
-        _fun118772: for(var _fun118772_ip = 0; ; ) switch(_fun118772_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['autoTrackExposure'] = oscar;
             entity = tango.bind(report)(zulu, entity);
             entity = entity.clickOnHomeActivityOpensAppDetail;
-            if(entity) { _fun118772_ip = 100; continue _fun118772 }
+            if(entity) { _fun00002_ip = 100; continue _fun00001 }
  97:
             entity = mike;
  100:

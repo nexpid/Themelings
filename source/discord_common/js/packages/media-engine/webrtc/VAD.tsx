@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot1;
         zulu = function(argFoo, argBar, argBaz) { // Original name: VAD
-            _fun51151: for(var _fun51151_ip = 0; ; ) switch(_fun51151_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 oscar = argFoo;
                 mike = arguments[3];
@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = this;
                 var _closure3_slot0 = zulu;
                 entity = undefined;
-                if(!(mike === entity)) { _fun51151_ip = 34; continue _fun51151 }
+                if(!(mike === entity)) { _fun00002_ip = 34; continue _fun00001 }
  24:
                 mike = 0.1;
  34:
-                if(!(verify === entity)) { _fun51151_ip = 41; continue _fun51151 }
+                if(!(verify === entity)) { _fun00002_ip = 41; continue _fun00001 }
  38:
                 verify = 10;
  41:
@@ -61,25 +61,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = new Array(0);
                 offset = options < verify;
                 oscar = false;
-                if(!offset) { _fun51151_ip = 176; continue _fun51151 }
+                if(!offset) { _fun00002_ip = 176; continue _fun00001 }
  159:
                 offset = mike.push;
                 offset = offset.bind(mike)(oscar);
                 options = options + 1;
-                if(options < verify) { _fun51151_ip = 159; continue _fun51151 }
+                if(options < verify) { _fun00002_ip = 159; continue _fun00001 }
  176:
                 oscar = global;
                 offset = oscar.window;
                 verify = offset.setInterval;
                 options = function() {
-                    _fun51152: for(var _fun51152_ip = 0; ; ) switch(_fun51152_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         mike = _closure3_slot0;
                         zulu = mike.update;
                         zulu = zulu.bind(mike)();
                         report = mike.onProcess;
                         mike = null;
-                        if(!(mike != report)) { _fun51152_ip = 57; continue _fun51152 }
+                        if(!(mike != report)) { _fun00004_ip = 57; continue _fun00003 }
  29:
                         tango = report.call;
                         zulu = _closure3_slot0;
@@ -140,13 +140,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'speaking';
         entity['key'] = oscar;
         oscar = function() { // Original name: get
-            _fun51154: for(var _fun51154_ip = 0; ; ) switch(_fun51154_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = this;
                 zulu = mike.speakingCounter;
                 entity = 0;
                 entity = zulu > entity;
-                if(entity) { _fun51154_ip = 34; continue _fun51154 }
+                if(entity) { _fun00006_ip = 34; continue _fun00005 }
  18:
                 zulu = mike.silentFrames;
                 mike = mike.silenceThreshold;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'update';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun51155: for(var _fun51155_ip = 0; ; ) switch(_fun51155_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = this;
                 zulu = mike.analyser;
@@ -174,29 +174,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = -inf;
                 entity = 0;
                 zulu = report;
-                if(!tango) { _fun51155_ip = 99; continue _fun51155 }
+                if(!tango) { _fun00008_ip = 99; continue _fun00007 }
  58:
                 tango = golf[oscar];
                 tango = tango > report;
-                if(!tango) { _fun51155_ip = 77; continue _fun51155 }
+                if(!tango) { _fun00008_ip = 77; continue _fun00007 }
  69:
                 options = golf[oscar];
                 tango = options < entity;
  77:
-                if(!tango) { _fun51155_ip = 84; continue _fun51155 }
+                if(!tango) { _fun00008_ip = 84; continue _fun00007 }
  80:
                 report = golf[oscar];
  84:
                 oscar = oscar + 1;
                 tango = golf.length;
                 zulu = report;
-                if(oscar < tango) { _fun51155_ip = 58; continue _fun51155 }
+                if(oscar < tango) { _fun00008_ip = 58; continue _fun00007 }
  99:
                 mike['currentVolume'] = zulu;
                 tango = mike.speakingHistory;
                 zulu = mike.speakingHistoryIndex;
                 zulu = tango[zulu];
-                if(!zulu) { _fun51155_ip = 139; continue _fun51155 }
+                if(!zulu) { _fun00008_ip = 139; continue _fun00007 }
  124:
                 zulu = mike.speakingCounter;
                 zulu = zulu - 1;
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = mike.speakingHistory;
                 tango = mike.speakingHistoryIndex;
                 report[tango] = zulu;
-                if(!zulu) { _fun51155_ip = 189; continue _fun51155 }
+                if(!zulu) { _fun00008_ip = 189; continue _fun00007 }
  174:
                 zulu = mike.speakingCounter;
                 zulu = zulu + 1;
@@ -219,17 +219,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['speakingHistoryIndex'] = tango;
                 zulu = mike.speakingHistory;
                 zulu = zulu.length;
-                if(!(tango === zulu)) { _fun51155_ip = 225; continue _fun51155 }
+                if(!(tango === zulu)) { _fun00008_ip = 225; continue _fun00007 }
  219:
                 mike['speakingHistoryIndex'] = entity;
  225:
                 zulu = mike.speakingCounter;
-                if(!(!(zulu > entity))) { _fun51155_ip = 252; continue _fun51155 }
+                if(!(!(zulu > entity))) { _fun00008_ip = 252; continue _fun00007 }
  235:
                 zulu = mike.silentFrames;
                 zulu = zulu + 1;
                 mike['silentFrames'] = zulu;
-                _fun51155_ip = 258; continue _fun51155;
+                _fun00008_ip = 258; continue _fun00007;
  252:
                 mike['silentFrames'] = entity;
  258:

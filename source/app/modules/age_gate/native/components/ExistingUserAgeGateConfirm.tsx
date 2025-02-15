@@ -78,11 +78,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot3;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun123073: for(var _fun123073_ip = 0; ; ) switch(_fun123073_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun123073_ip = 99; continue _fun123073 }
+                        if(mike) { _fun00002_ip = 99; continue _fun00001 }
  7:
                         report = _closure2_slot2;
                         mike = undefined;
@@ -96,16 +96,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return tango;
  35:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun123073_ip = 66; continue _fun123073 }
+                        if(report) { _fun00002_ip = 66; continue _fun00001 }
  41:
                         report = tango.shouldShowError;
-                        if(!report) { _fun123073_ip = 64; continue _fun123073 }
+                        if(!report) { _fun00002_ip = 64; continue _fun00001 }
  50:
                         oscar = _closure2_slot1;
                         report = oscar.pop;
                         report = report.bind(oscar)();
  64: // try_end0
-                        _fun123073_ip = 85; continue _fun123073;
+                        _fun00002_ip = 85; continue _fun00001;
  66:
                         return tango;
  69: // catch_target0

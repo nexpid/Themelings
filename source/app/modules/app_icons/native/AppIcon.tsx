@@ -63,13 +63,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_icons/native/AppIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppIcon
-        _fun97985: for(var _fun97985_ip = 0; ; ) switch(_fun97985_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.id;
             romeo = entity.size;
             tango = undefined;
-            if(!(romeo === tango)) { _fun97985_ip = 22; continue _fun97985 }
+            if(!(romeo === tango)) { _fun00002_ip = 22; continue _fun00001 }
  19:
             romeo = 56;
  22:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isThemeDark;
             entity = entity.bind(mike)(zulu);
             yankee = 1;
-            if(!entity) { _fun97985_ip = 106; continue _fun97985 }
+            if(!entity) { _fun00002_ip = 106; continue _fun00001 }
  104:
             yankee = 0;
  106:

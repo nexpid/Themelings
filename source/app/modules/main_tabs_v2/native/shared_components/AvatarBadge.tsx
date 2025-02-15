@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/AvatarBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AvatarBadge
-        _fun118183: for(var _fun118183_ip = 0; ; ) switch(_fun118183_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.source;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.style;
             golf = entity.size;
             tango = undefined;
-            if(!(golf === tango)) { _fun118183_ip = 65; continue _fun118183 }
+            if(!(golf === tango)) { _fun00002_ip = 65; continue _fun00001 }
  30:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;

@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/PrivateChannelIntegrationSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: PrivateChannelIntegrationSystemMessage
-        _fun72537: for(var _fun72537_ip = 0; ; ) switch(_fun72537_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.row;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             oscar = oscar == romeo;
             foxtrot = undefined;
-            if(oscar) { _fun72537_ip = 167; continue _fun72537 }
+            if(oscar) { _fun00002_ip = 167; continue _fun00001 }
  161:
             foxtrot = romeo.bot;
  167:
@@ -100,13 +100,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.channel_id;
             oscar[1] = zulu;
             zulu = function() {
-                _fun72539: for(var _fun72539_ip = 0; ; ) switch(_fun72539_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot6;
                     entity = null;
                     mike = entity != mike;
                     entity = undefined;
-                    if(!mike) { _fun72539_ip = 67; continue _fun72539 }
+                    if(!mike) { _fun00004_ip = 67; continue _fun00003 }
  18:
                     mike = {};
                     tango = 'bindUserMenu';
@@ -134,16 +134,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[3] = offset;
             zulu[4] = verify;
             mike = function() {
-                _fun72540: for(var _fun72540_ip = 0; ; ) switch(_fun72540_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = _closure1_slot4;
                     mike = mike.PRIVATE_CHANNEL_INTEGRATION_ADDED;
-                    if(!(mike !== zulu)) { _fun72540_ip = 151; continue _fun72540 }
+                    if(!(mike !== zulu)) { _fun00006_ip = 151; continue _fun00005 }
  27:
                     mike = _closure1_slot4;
                     mike = mike.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
-                    if(!(mike !== zulu)) { _fun72540_ip = 80; continue _fun72540 }
+                    if(!(mike !== zulu)) { _fun00006_ip = 80; continue _fun00005 }
  41:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: createPrivateChannelIntegrationSystemMessage
-        _fun72541: for(var _fun72541_ip = 0; ; ) switch(_fun72541_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             oscar = tango.message;
@@ -239,13 +239,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             verify = options == romeo;
             entity = undefined;
-            if(verify) { _fun72541_ip = 116; continue _fun72541 }
+            if(verify) { _fun00008_ip = 116; continue _fun00007 }
  110:
             entity = romeo.bot;
  116:
             entity = options != entity;
             verify = undefined;
-            if(!entity) { _fun72541_ip = 164; continue _fun72541 }
+            if(!entity) { _fun00008_ip = 164; continue _fun00007 }
  125:
             entity = {};
             entity['action'] = golf;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot4;
             oscar = report.PRIVATE_CHANNEL_INTEGRATION_ADDED;
             report = argBar;
-            if(!(report !== oscar)) { _fun72541_ip = 236; continue _fun72541 }
+            if(!(report !== oscar)) { _fun00008_ip = 236; continue _fun00007 }
  183:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['usernameOnClick'] = offset;
             report['applicationNameOnClick'] = verify;
             report = oscar.bind(golf)(report);
-            _fun72541_ip = 287; continue _fun72541;
+            _fun00008_ip = 287; continue _fun00007;
  236:
             golf = _closure1_slot0;
             options = _closure1_slot2;

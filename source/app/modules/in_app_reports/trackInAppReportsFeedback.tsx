@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/in_app_reports/trackInAppReportsFeedback.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: trackInAppReportsFeedback
-        _fun123560: for(var _fun123560_ip = 0; ; ) switch(_fun123560_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.problem;
@@ -35,12 +35,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = mike.reportType;
             verify = mike.reportId;
             entity = undefined;
-            if(!(verify === entity)) { _fun123560_ip = 35; continue _fun123560 }
+            if(!(verify === entity)) { _fun00002_ip = 35; continue _fun00001 }
  33:
             verify = null;
  35:
             options = mike.rating;
-            if(!(options === entity)) { _fun123560_ip = 47; continue _fun123560 }
+            if(!(options === entity)) { _fun00002_ip = 47; continue _fun00001 }
  45:
             options = null;
  47:

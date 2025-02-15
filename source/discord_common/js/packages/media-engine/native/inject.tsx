@@ -2,11 +2,11 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     entity = function() { // Original name: assertInjected
-        _fun49354: for(var _fun49354_ip = 0; ; ) switch(_fun49354_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             entity = null;
-            if(!(entity != mike)) { _fun49354_ip = 17; continue _fun49354 }
+            if(!(entity != mike)) { _fun00002_ip = 17; continue _fun00001 }
  13:
             entity = undefined;
             return entity;
@@ -80,14 +80,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['setProcessPriority'] = tango;
     tango = function() { // Original name: getVoiceEngine
-        _fun49359: for(var _fun49359_ip = 0; ; ) switch(_fun49359_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot3;
             entity = undefined;
             entity = mike.bind(entity)();
             entity = _closure1_slot1;
             mike = null;
-            if(!(mike == entity)) { _fun49359_ip = 44; continue _fun49359 }
+            if(!(mike == entity)) { _fun00004_ip = 44; continue _fun00003 }
  23:
             tango = _closure1_slot0;
             mike = tango.getVoiceEngine;
@@ -100,14 +100,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getVoiceEngine'] = tango;
     mike = function() { // Original name: getVoiceFilters
-        _fun49360: for(var _fun49360_ip = 0; ; ) switch(_fun49360_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = _closure1_slot3;
             entity = undefined;
             entity = mike.bind(entity)();
             entity = _closure1_slot2;
             mike = null;
-            if(!(mike == entity)) { _fun49360_ip = 44; continue _fun49360 }
+            if(!(mike == entity)) { _fun00006_ip = 44; continue _fun00005 }
  23:
             tango = _closure1_slot0;
             mike = tango.getVoiceFilters;

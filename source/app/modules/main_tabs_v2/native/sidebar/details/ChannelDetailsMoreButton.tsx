@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/sidebar/details/ChannelDetailsMoreButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MoreButton
-        _fun112778: for(var _fun112778_ip = 0; ; ) switch(_fun112778_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = mike.channel;
@@ -46,21 +46,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = tango;
             mike[1] = golf;
             entity = function() {
-                _fun112779: for(var _fun112779_ip = 0; ; ) switch(_fun112779_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun112779_ip = 245; continue _fun112779 }
+                    if(!(mike != zulu)) { _fun00004_ip = 245; continue _fun00003 }
  16:
                     zulu = _closure2_slot0;
                     mike = zulu.isDM;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun112779_ip = 152; continue _fun112779 }
+                    if(mike) { _fun00004_ip = 152; continue _fun00003 }
  33:
                     zulu = _closure2_slot0;
                     mike = zulu.isMultiUserDM;
                     mike = mike.bind(zulu)();
-                    if(!mike) { _fun112779_ip = 245; continue _fun112779 }
+                    if(!mike) { _fun00004_ip = 245; continue _fun00003 }
  53:
                     report = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu['navigation'] = mike;
                     mike = 'GroupDMMore';
                     mike = report.bind(oscar)(tango, mike, zulu);
-                    _fun112779_ip = 245; continue _fun112779;
+                    _fun00004_ip = 245; continue _fun00003;
  152:
                     report = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -116,16 +116,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == tango;
             entity = null;
-            if(mike) { _fun112778_ip = 245; continue _fun112778 }
+            if(mike) { _fun00002_ip = 245; continue _fun00001 }
  75:
             mike = tango.isDM;
             mike = mike.bind(tango)();
-            if(mike) { _fun112778_ip = 106; continue _fun112778 }
+            if(mike) { _fun00002_ip = 106; continue _fun00001 }
  88:
             mike = tango.isGroupDM;
             mike = mike.bind(tango)();
             entity = null;
-            if(!mike) { _fun112778_ip = 245; continue _fun112778 }
+            if(!mike) { _fun00002_ip = 245; continue _fun00001 }
  106:
             report = _closure1_slot4;
             offset = _closure1_slot1;

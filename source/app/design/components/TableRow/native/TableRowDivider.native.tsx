@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun48668: for(var _fun48668_ip = 0; ; ) switch(_fun48668_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
             mike = {};
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike['height'] = tango;
             tango = 12;
             oscar = argFoo;
-            if(!oscar) { _fun48668_ip = 60; continue _fun48668 }
+            if(!oscar) { _fun00002_ip = 60; continue _fun00001 }
  56:
             tango = _closure1_slot5;
  60:
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = golf.isAndroid;
             golf = tango.bind(golf)();
             tango = 0;
-            if(!golf) { _fun48668_ip = 113; continue _fun48668 }
+            if(!golf) { _fun00002_ip = 113; continue _fun00001 }
  103:
             golf = _closure1_slot2;
             tango = golf.hairlineWidth;
@@ -104,12 +104,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/TableRow/native/TableRowDivider.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TableRowDivider
-        _fun48669: for(var _fun48669_ip = 0; ; ) switch(_fun48669_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             zulu = entity.adjustSpacingForIcon;
             tango = undefined;
-            if(!(zulu === tango)) { _fun48669_ip = 17; continue _fun48669 }
+            if(!(zulu === tango)) { _fun00004_ip = 17; continue _fun00003 }
  15:
             zulu = false;
  17:

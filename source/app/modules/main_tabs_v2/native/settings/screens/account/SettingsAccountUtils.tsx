@@ -41,7 +41,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun92980: for(var _fun92980_ip = 0; ; ) switch(_fun92980_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure1_slot3;
                 entity = mike.getCurrentUser;
@@ -49,12 +49,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 tango = entity == zulu;
                 mike = undefined;
-                if(tango) { _fun92980_ip = 33; continue _fun92980 }
+                if(tango) { _fun00002_ip = 33; continue _fun00001 }
  27:
                 mike = zulu.mfaEnabled;
  33:
                 entity = entity != mike;
-                if(!entity) { _fun92980_ip = 43; continue _fun92980 }
+                if(!entity) { _fun00002_ip = 43; continue _fun00001 }
  40:
                 entity = mike;
  43:
@@ -98,7 +98,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun92984: for(var _fun92984_ip = 0; ; ) switch(_fun92984_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure1_slot3;
                 entity = mike.getCurrentUser;
@@ -106,12 +106,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 tango = entity == zulu;
                 mike = undefined;
-                if(tango) { _fun92984_ip = 33; continue _fun92984 }
+                if(tango) { _fun00004_ip = 33; continue _fun00003 }
  27:
                 mike = zulu.verified;
  33:
                 entity = entity != mike;
-                if(!entity) { _fun92984_ip = 43; continue _fun92984 }
+                if(!entity) { _fun00004_ip = 43; continue _fun00003 }
  40:
                 entity = mike;
  43:

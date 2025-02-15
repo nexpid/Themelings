@@ -82,14 +82,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu[1] = entity;
         mike = function() {
             entity = function(argFoo) {
-                _fun107569: for(var _fun107569_ip = 0; ; ) switch(_fun107569_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = argFoo;
                     tango = mike.hasFeature;
                     entity = _closure1_slot4;
                     entity = entity.ROLE_SUBSCRIPTIONS_ENABLED;
                     entity = tango.bind(mike)(entity);
-                    if(!entity) { _fun107569_ip = 54; continue _fun107569 }
+                    if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  30:
                     report = mike.hasFeature;
                     tango = _closure1_slot4;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.bind(mike)(tango);
                     entity = !tango;
  54:
-                    if(!entity) { _fun107569_ip = 83; continue _fun107569 }
+                    if(!entity) { _fun00002_ip = 83; continue _fun00001 }
  57:
                     oscar = _closure1_slot3;
                     report = oscar.can;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.ADMINISTRATOR;
                     entity = report.bind(oscar)(tango, mike);
  83:
-                    if(!entity) { _fun107569_ip = 118; continue _fun107569 }
+                    if(!entity) { _fun00002_ip = 118; continue _fun00001 }
  86:
                     oscar = _closure1_slot0;
                     report = _closure1_slot1;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.isUserEligibleForTierTemplates;
                     entity = tango.bind(report)();
  118:
-                    if(!entity) { _fun107569_ip = 159; continue _fun107569 }
+                    if(!entity) { _fun00002_ip = 159; continue _fun00001 }
  121:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;

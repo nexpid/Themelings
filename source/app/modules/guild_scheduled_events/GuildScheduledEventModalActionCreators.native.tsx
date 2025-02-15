@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: openGuildEventDetails
-        _fun76935: for(var _fun76935_ip = 0; ; ) switch(_fun76935_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.eventId;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['onCloseActionSheet'] = offset;
             mike['isHubContext'] = golf;
             golf = null;
-            if(!(golf == options)) { _fun76935_ip = 161; continue _fun76935 }
+            if(!(golf == options)) { _fun00002_ip = 161; continue _fun00001 }
  130:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  161:
             verify = golf != options;
             golf = undefined;
-            if(!verify) { _fun76935_ip = 173; continue _fun76935 }
+            if(!verify) { _fun00002_ip = 173; continue _fun00001 }
  170:
             golf = options;
  173:
@@ -66,13 +66,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun76938: for(var _fun76938_ip = 0; ; ) switch(_fun76938_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     zulu = argFoo;
                     golf = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun76938_ip = 100; continue _fun76938 }
+                    if(mike) { _fun00004_ip = 100; continue _fun00003 }
  13:
                     mike = global;
                     tango = mike.Promise;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun76938_ip = 97; continue _fun76938 }
+                    if(tango) { _fun00004_ip = 97; continue _fun00003 }
  41:
                     report = _closure1_slot6;
                     tango = {};
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options = zulu == golf;
                     zulu = undefined;
                     oscar = undefined;
-                    if(options) { _fun76938_ip = 84; continue _fun76938 }
+                    if(options) { _fun00004_ip = 84; continue _fun00003 }
  78:
                     oscar = golf.recurrenceId;
  84:

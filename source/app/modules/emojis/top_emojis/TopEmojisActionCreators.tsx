@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['fetchTopEmojis'] = tango;
     tango = function(argFoo, argBar) { // Original name: updateNewlyAddedLastSeen
-        _fun77925: for(var _fun77925_ip = 0; ; ) switch(_fun77925_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             report = argBar;
@@ -134,11 +134,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.bind(options)(zulu);
             golf = null;
             zulu = golf != oscar;
-            if(!zulu) { _fun77925_ip = 66; continue _fun77925 }
+            if(!zulu) { _fun00002_ip = 66; continue _fun00001 }
  62:
             zulu = golf != report;
  66:
-            if(!zulu) { _fun77925_ip = 117; continue _fun77925 }
+            if(!zulu) { _fun00002_ip = 117; continue _fun00001 }
  69:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;
@@ -157,17 +157,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['updateNewlyAddedLastSeen'] = tango;
     mike = function(argFoo, argBar) { // Original name: updateNewlyAddedEmojiSeenAcknowledged
-        _fun77926: for(var _fun77926_ip = 0; ; ) switch(_fun77926_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             tango = argBar;
             mike = null;
             entity = mike != report;
-            if(!entity) { _fun77926_ip = 19; continue _fun77926 }
+            if(!entity) { _fun00004_ip = 19; continue _fun00003 }
  15:
             entity = mike != tango;
  19:
-            if(!entity) { _fun77926_ip = 78; continue _fun77926 }
+            if(!entity) { _fun00004_ip = 78; continue _fun00003 }
  22:
             zulu = _closure1_slot1;
             mike = _closure1_slot2;

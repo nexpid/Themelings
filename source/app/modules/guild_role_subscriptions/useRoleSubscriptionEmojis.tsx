@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun127159: for(var _fun127159_ip = 0; ; ) switch(_fun127159_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 mike = null;
-                if(!(mike != zulu)) { _fun127159_ip = 38; continue _fun127159 }
+                if(!(mike != zulu)) { _fun00002_ip = 38; continue _fun00001 }
  13:
                 zulu = _closure2_slot1;
                 mike = zulu.filter;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return entity;
                 };
                 entity = mike.bind(zulu)(entity);
-                _fun127159_ip = 45; continue _fun127159;
+                _fun00002_ip = 45; continue _fun00001;
  38:
                 entity = _closure1_slot4;
  45:

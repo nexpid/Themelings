@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot5 = tango;
     tango = function(argFoo) { // Original name: BlockedUserRow
-        _fun94659: for(var _fun94659_ip = 0; ; ) switch(_fun94659_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.userRecord;
@@ -82,10 +82,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['icon'] = oscar;
             golf = null;
             oscar = golf != verify;
-            if(!oscar) { _fun94659_ip = 180; continue _fun94659 }
+            if(!oscar) { _fun00002_ip = 180; continue _fun00001 }
  162:
             offset = verify.globalName;
-            if(!(golf == offset)) { _fun94659_ip = 177; continue _fun94659 }
+            if(!(golf == offset)) { _fun00002_ip = 177; continue _fun00001 }
  172:
             offset = verify.username;
  177:
@@ -94,17 +94,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['label'] = oscar;
             offset = golf == verify;
             oscar = undefined;
-            if(offset) { _fun94659_ip = 201; continue _fun94659 }
+            if(offset) { _fun00002_ip = 201; continue _fun00001 }
  195:
             oscar = verify.globalName;
  201:
             offset = golf != oscar;
             oscar = undefined;
-            if(!offset) { _fun94659_ip = 227; continue _fun94659 }
+            if(!offset) { _fun00002_ip = 227; continue _fun00001 }
  210:
             offset = golf == verify;
             golf = undefined;
-            if(offset) { _fun94659_ip = 224; continue _fun94659 }
+            if(offset) { _fun00002_ip = 224; continue _fun00001 }
  219:
             golf = verify.username;
  224:
@@ -131,13 +131,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = golf;
             entity['accessibilityActions'] = oscar;
             oscar = function(argFoo) { // Original name: onAccessibilityAction
-                _fun94660: for(var _fun94660_ip = 0; ; ) switch(_fun94660_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
                     mike = entity.actionName;
                     entity = 'unblock';
-                    if(!(entity !== mike)) { _fun94660_ip = 26; continue _fun94660 }
+                    if(!(entity !== mike)) { _fun00004_ip = 26; continue _fun00003 }
  22:
                     entity = undefined;
                     return entity;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/BlockedUserRowV2.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ConnectedBlockedUserRow
-        _fun94663: for(var _fun94663_ip = 0; ; ) switch(_fun94663_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             mike = mike.userId;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(oscar)(zulu, entity);
             entity = null;
             zulu = entity == oscar;
-            if(zulu) { _fun94663_ip = 99; continue _fun94663 }
+            if(zulu) { _fun00006_ip = 99; continue _fun00005 }
  78:
             tango = _closure1_slot4;
             zulu = _closure1_slot6;

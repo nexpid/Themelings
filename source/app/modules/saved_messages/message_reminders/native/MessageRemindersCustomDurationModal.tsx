@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun89092: for(var _fun89092_ip = 0; ; ) switch(_fun89092_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.onClose;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             var _closure2_slot3 = mike;
             mike = function(argFoo) { // Original name: handleOpenDatePicker
-                _fun89094: for(var _fun89094_ip = 0; ; ) switch(_fun89094_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     golf = argFoo;
                     tango = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.dismissGlobalKeyboard;
                     mike = mike.bind(tango)();
                     mike = 'date';
-                    if(!(mike !== golf)) { _fun89094_ip = 103; continue _fun89094 }
+                    if(!(mike !== golf)) { _fun00004_ip = 103; continue _fun00003 }
  46:
                     oscar = _closure1_slot0;
                     options = _closure1_slot3;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.t;
                     mike = mike.GOmEb2;
                     mike = tango.bind(report)(mike);
-                    _fun89094_ip = 158; continue _fun89094;
+                    _fun00004_ip = 158; continue _fun00003;
  103:
                     options = _closure1_slot0;
                     verify = _closure1_slot3;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = foxtrot.isIOS;
             foxtrot = verify.bind(foxtrot)();
             verify = undefined;
-            if(!foxtrot) { _fun89092_ip = 337; continue _fun89092 }
+            if(!foxtrot) { _fun00002_ip = 337; continue _fun00001 }
  335:
             verify = 0;
  337:

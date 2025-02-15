@@ -96,13 +96,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardPlaceholder.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HappeningNowCardPlaceholder
-        _fun115229: for(var _fun115229_ip = 0; ; ) switch(_fun115229_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.fullWidth;
             report = entity.panelVariant;
             tango = undefined;
-            if(!(report === tango)) { _fun115229_ip = 23; continue _fun115229 }
+            if(!(report === tango)) { _fun00002_ip = 23; continue _fun00001 }
  21:
             report = false;
  23:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             oscar = 'medium';
-            if(!golf) { _fun115229_ip = 99; continue _fun115229 }
+            if(!golf) { _fun00002_ip = 99; continue _fun00001 }
  95:
             oscar = 'full';
  99:

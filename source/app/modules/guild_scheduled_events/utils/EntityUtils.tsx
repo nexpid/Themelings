@@ -4,25 +4,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar) { // Original name: _getLocationFromEvent
-        _fun70184: for(var _fun70184_ip = 0; ; ) switch(_fun70184_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             entity = _closure1_slot1;
             zulu = entity.EXTERNAL;
             entity = argFoo;
             zulu = entity === zulu;
-            if(!zulu) { _fun70184_ip = 32; continue _fun70184 }
+            if(!zulu) { _fun00002_ip = 32; continue _fun00001 }
  26:
             entity = null;
             zulu = entity != mike;
  32:
-            if(!zulu) { _fun70184_ip = 43; continue _fun70184 }
+            if(!zulu) { _fun00002_ip = 43; continue _fun00001 }
  35:
             entity = 'location';
             zulu = entity in mike;
  43:
             entity = null;
-            if(!zulu) { _fun70184_ip = 53; continue _fun70184 }
+            if(!zulu) { _fun00002_ip = 53; continue _fun00001 }
  48:
             entity = mike.location;
  53:
@@ -58,20 +58,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/utils/EntityUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getChannelFromEvent
-        _fun70185: for(var _fun70185_ip = 0; ; ) switch(_fun70185_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             report = zulu.entity_type;
             mike = zulu.channel_id;
             entity = _closure1_slot2;
             report = report in entity;
-            if(!report) { _fun70185_ip = 34; continue _fun70185 }
+            if(!report) { _fun00004_ip = 34; continue _fun00003 }
  28:
             entity = null;
             report = entity != mike;
  34:
             entity = undefined;
-            if(!report) { _fun70185_ip = 75; continue _fun70185 }
+            if(!report) { _fun00004_ip = 75; continue _fun00003 }
  39:
             report = _closure1_slot0;
             tango = report.getChannel;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             tango = tango != zulu;
             mike = undefined;
-            if(!tango) { _fun70185_ip = 72; continue _fun70185 }
+            if(!tango) { _fun00004_ip = 72; continue _fun00003 }
  69:
             mike = zulu;
  72:
@@ -111,17 +111,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getLocationFromEventData'] = tango;
     mike = function(argFoo) { // Original name: getChannelTypeFromEntity
-        _fun70188: for(var _fun70188_ip = 0; ; ) switch(_fun70188_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             entity = _closure1_slot1;
             entity = entity.VOICE;
-            if(!(zulu !== entity)) { _fun70188_ip = 36; continue _fun70188 }
+            if(!(zulu !== entity)) { _fun00006_ip = 36; continue _fun00005 }
  20:
             entity = _closure1_slot1;
             tango = entity.STAGE_INSTANCE;
             entity = undefined;
-            if(!(zulu === tango)) { _fun70188_ip = 44; continue _fun70188 }
+            if(!(zulu === tango)) { _fun00006_ip = 44; continue _fun00005 }
  36:
             mike = _closure1_slot2;
             entity = mike[zulu];

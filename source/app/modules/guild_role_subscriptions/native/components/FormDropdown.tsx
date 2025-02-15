@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_role_subscriptions/native/components/FormDropdown.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: FormDropdown
-        _fun107586: for(var _fun107586_ip = 0; ; ) switch(_fun107586_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.disabled;
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             foxtrot = entity.bind(tango)();
             zulu = _closure1_slot3;
-            if(romeo) { _fun107586_ip = 80; continue _fun107586 }
+            if(romeo) { _fun00002_ip = 80; continue _fun00001 }
  74:
             mike = _closure1_slot7;
-            _fun107586_ip = 84; continue _fun107586;
+            _fun00002_ip = 84; continue _fun00001;
  80:
             mike = _closure1_slot6;
  84:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityRole'] = report;
             entity['disabled'] = romeo;
             report = undefined;
-            if(romeo) { _fun107586_ip = 167; continue _fun107586 }
+            if(romeo) { _fun00002_ip = 167; continue _fun00001 }
  164:
             report = verify;
  167:
@@ -193,16 +193,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = romeo;
             romeo = null;
-            if(!(romeo == yankee)) { _fun107586_ip = 238; continue _fun107586 }
+            if(!(romeo == yankee)) { _fun00002_ip = 238; continue _fun00001 }
  230:
             backup = kilo.placeholder;
-            _fun107586_ip = 243; continue _fun107586;
+            _fun00002_ip = 243; continue _fun00001;
  238:
             backup = kilo.text;
  243:
             foxtrot[1] = backup;
             golf['style'] = foxtrot;
-            if(!(romeo != yankee)) { _fun107586_ip = 258; continue _fun107586 }
+            if(!(romeo != yankee)) { _fun00002_ip = 258; continue _fun00001 }
  255:
             offset = yankee;
  258:

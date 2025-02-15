@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = sizing;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: VoicePanelConsoleStatus
-        _fun122306: for(var _fun122306_ip = 0; ; ) switch(_fun122306_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = zulu.wrapperSpecs;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = source.bind(tango)(mike);
             zulu = report.useAnimatedStyle;
             mike = function() { // Original name: y
-                _fun122308: for(var _fun122308_ip = 0; ; ) switch(_fun122308_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     mike = _closure2_slot3;
@@ -111,23 +111,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.get;
                     tango = tango.bind(report)();
                     oscar = 100;
-                    if(!tango) { _fun122308_ip = 126; continue _fun122308 }
+                    if(!tango) { _fun00004_ip = 126; continue _fun00003 }
  124:
                     oscar = 0;
  126:
                     output = _closure1_slot11;
                     tango = function(argFoo) { // Original name: n
-                        _fun122309: for(var _fun122309_ip = 0; ; ) switch(_fun122309_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             entity = argFoo;
-                            if(!entity) { _fun122309_ip = 25; continue _fun122309 }
+                            if(!entity) { _fun00006_ip = 25; continue _fun00005 }
  6:
                             zulu = _closure2_slot4;
                             mike = zulu.get;
                             mike = mike.bind(zulu)();
                             entity = !mike;
  25:
-                            if(!entity) { _fun122309_ip = 74; continue _fun122309 }
+                            if(!entity) { _fun00006_ip = 74; continue _fun00005 }
  28:
                             zulu = _closure1_slot0;
                             mike = _closure1_slot2;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = control.bind(tango)(source, echo);
             result[1] = echo;
             echo = null;
-            if(!update) { _fun122306_ip = 893; continue _fun122306 }
+            if(!update) { _fun00002_ip = 893; continue _fun00001 }
  732:
             control = _closure1_slot7;
             target = _closure1_slot0;

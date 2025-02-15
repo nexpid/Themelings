@@ -13,25 +13,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun80371: for(var _fun80371_ip = 0; ; ) switch(_fun80371_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     offset = argFoo;
                     verify = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun80371_ip = 267; continue _fun80371 }
+                    if(mike) { _fun00002_ip = 267; continue _fun00001 }
  16:
                     mike = offset.metadata;
                     report = null;
-                    if(!(report == mike)) { _fun80371_ip = 264; continue _fun80371 }
+                    if(!(report == mike)) { _fun00002_ip = 264; continue _fun00001 }
  31:
                     tango = _closure1_slot4;
                     zulu = tango.getActivityMetadata;
                     zulu = zulu.bind(tango)(verify);
-                    if(!(report == zulu)) { _fun80371_ip = 261; continue _fun80371 }
+                    if(!(report == zulu)) { _fun00002_ip = 261; continue _fun00001 }
  58:
                     tango = offset.session_id;
-                    if(!(report != tango)) { _fun80371_ip = 225; continue _fun80371 }
+                    if(!(report != tango)) { _fun00002_ip = 225; continue _fun00001 }
  71:
                     report = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  157:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun80371_ip = 222; continue _fun80371 }
+                    if(report) { _fun00002_ip = 222; continue _fun00001 }
  163:
                     report = tango.body;
                     golf = _closure1_slot1;

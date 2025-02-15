@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_limited_access/native/GuildLimitedAccessInfoAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun54369: for(var _fun54369_ip = 0; ; ) switch(_fun54369_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.guildId;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.getGuild;
             options = entity.bind(zulu)(oscar);
             entity = null;
-            if(!(entity != options)) { _fun54369_ip = 188; continue _fun54369 }
+            if(!(entity != options)) { _fun00002_ip = 188; continue _fun00001 }
  114:
             mike = _closure1_slot0;
             entity = _closure1_slot2;

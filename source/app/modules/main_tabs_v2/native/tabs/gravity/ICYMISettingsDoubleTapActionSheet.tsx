@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/tabs/gravity/ICYMISettingsDoubleTapActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ICYMISettingsDoubleTapActionSheet
-        _fun117024: for(var _fun117024_ip = 0; ; ) switch(_fun117024_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['accessibilityLabel'] = yankee;
             offset = offset.doubleTapBehavior;
             yankee = null;
-            if(!(yankee == offset)) { _fun117024_ip = 261; continue _fun117024 }
+            if(!(yankee == offset)) { _fun00002_ip = 261; continue _fun00001 }
  229:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;

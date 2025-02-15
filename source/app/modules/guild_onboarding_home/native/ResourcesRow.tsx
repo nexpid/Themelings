@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding_home/native/ResourcesRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ResourcesRow
-        _fun112159: for(var _fun112159_ip = 0; ; ) switch(_fun112159_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!options) { _fun112159_ip = 307; continue _fun112159 }
+            if(!options) { _fun00002_ip = 307; continue _fun00001 }
  140:
             verify = _closure1_slot5;
             foxtrot = _closure1_slot0;

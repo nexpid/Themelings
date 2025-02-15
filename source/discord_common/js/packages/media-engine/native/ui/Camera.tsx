@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = entity;
     var _closure1_slot1 = oscar;
     mike = function(argFoo) { // Original name: Camera
-        _fun50319: for(var _fun50319_ip = 0; ; ) switch(_fun50319_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.disabled;
@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.width;
             zulu = entity.height;
             report = _closure1_slot2;
-            if(mike) { _fun50319_ip = 85; continue _fun50319 }
+            if(mike) { _fun00002_ip = 85; continue _fun00001 }
  34:
             mike = _closure1_slot0;
             tango = _closure1_slot1;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['height'] = zulu;
             entity['style'] = golf;
             entity = report.bind(tango)(mike, entity);
-            _fun50319_ip = 124; continue _fun50319;
+            _fun00002_ip = 124; continue _fun00001;
  85:
             tango = {};
             mike = 'media-engine-video';

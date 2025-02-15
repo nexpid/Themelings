@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/trackVoiceAndVideoSettingsUpdate.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: trackVoiceAndVideoDebuggingSettingsUpdated
-        _fun50120: for(var _fun50120_ip = 0; ; ) switch(_fun50120_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argBaz;
             zulu = _closure1_slot0;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             oscar = report != options;
             report = undefined;
-            if(!oscar) { _fun50120_ip = 69; continue _fun50120 }
+            if(!oscar) { _fun00002_ip = 69; continue _fun00001 }
  56:
             oscar = global;
             oscar = oscar.String;

@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/voice_panel/native/hooks/useSoundboardConfig.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) { // Original name: useSoundboardConfig
-        _fun121573: for(var _fun121573_ip = 0; ; ) switch(_fun121573_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             tango = argBar;
@@ -80,19 +80,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity.enabled;
             offset = entity.showInHeader;
             entity = {};
-            if(!oscar) { _fun121573_ip = 241; continue _fun121573 }
+            if(!oscar) { _fun00002_ip = 241; continue _fun00001 }
  163:
             options = _closure1_slot5;
             options = options.VOICE_CONTROLS;
             options = tango === options;
-            if(options) { _fun121573_ip = 209; continue _fun121573 }
+            if(options) { _fun00002_ip = 209; continue _fun00001 }
  180:
             yankee = verify;
-            if(!verify) { _fun121573_ip = 189; continue _fun121573 }
+            if(!verify) { _fun00002_ip = 189; continue _fun00001 }
  186:
             yankee = !offset;
  189:
-            if(!yankee) { _fun121573_ip = 206; continue _fun121573 }
+            if(!yankee) { _fun00002_ip = 206; continue _fun00001 }
  192:
             romeo = _closure1_slot5;
             romeo = romeo.FLOATING_BUTTON;
@@ -100,13 +100,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  206:
             options = yankee;
  209:
-            if(options) { _fun121573_ip = 238; continue _fun121573 }
+            if(options) { _fun00002_ip = 238; continue _fun00001 }
  212:
-            if(!verify) { _fun121573_ip = 218; continue _fun121573 }
+            if(!verify) { _fun00002_ip = 218; continue _fun00001 }
  215:
             verify = offset;
  218:
-            if(!verify) { _fun121573_ip = 235; continue _fun121573 }
+            if(!verify) { _fun00002_ip = 235; continue _fun00001 }
  221:
             offset = _closure1_slot5;
             offset = offset.HEADER;
@@ -123,14 +123,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = golf;
             report[1] = tango;
             tango = function() {
-                _fun121574: for(var _fun121574_ip = 0; ; ) switch(_fun121574_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot4;
                     zulu = report.getChannel;
                     mike = _closure2_slot0;
                     report = zulu.bind(report)(mike);
                     mike = null;
-                    if(!(mike != report)) { _fun121574_ip = 78; continue _fun121574 }
+                    if(!(mike != report)) { _fun00004_ip = 78; continue _fun00003 }
  30:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;

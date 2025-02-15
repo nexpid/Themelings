@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/ClassificationDetailModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ClassificationDetailModal
-        _fun92438: for(var _fun92438_ip = 0; ; ) switch(_fun92438_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.classificationId;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = golf;
             yankee = mike.shouldRedirectToAccountStanding;
             tango = undefined;
-            if(!(yankee === tango)) { _fun92438_ip = 38; continue _fun92438 }
+            if(!(yankee === tango)) { _fun00002_ip = 38; continue _fun00001 }
  36:
             yankee = false;
  38:
@@ -90,10 +90,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun92439: for(var _fun92439_ip = 0; ; ) switch(_fun92439_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(entity) { _fun92439_ip = 45; continue _fun92439 }
+                    if(entity) { _fun00004_ip = 45; continue _fun00003 }
  10:
                     zulu = _closure1_slot2;
                     mike = _closure1_slot3;
@@ -179,13 +179,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = _closure4_slot2;
                         entity['source'] = oscar;
                         oscar = function() { // Original name: onClose
-                            _fun92445: for(var _fun92445_ip = 0; ; ) switch(_fun92445_ip) {
+                            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                 zulu = _closure4_slot3;
                                 entity = undefined;
                                 zulu = zulu.bind(entity)();
                                 mike = _closure4_slot1;
-                                if(!mike) { _fun92445_ip = 100; continue _fun92445 }
+                                if(!mike) { _fun00006_ip = 100; continue _fun00005 }
  20:
                                 oscar = _closure1_slot0;
                                 golf = _closure1_slot3;

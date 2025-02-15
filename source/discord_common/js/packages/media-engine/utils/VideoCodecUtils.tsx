@@ -1,6 +1,6 @@
 // discord_common/js/packages/media-engine/utils/VideoCodecUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun50579: for(var _fun50579_ip = 0; ; ) switch(_fun50579_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot1 = entity;
             zulu = tango.forEach;
             mike = function(argFoo) {
-                _fun50581: for(var _fun50581_ip = 0; ; ) switch(_fun50581_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     };
                     tango = zulu.bind(tango)(mike);
                     mike = null;
-                    if(!(mike != tango)) { _fun50581_ip = 103; continue _fun50581 }
+                    if(!(mike != tango)) { _fun00004_ip = 103; continue _fun00003 }
  37:
                     zulu = _closure2_slot1;
                     mike = zulu.push;
@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = tango.codec;
                     entity['name'] = oscar;
                     oscar = tango.encode;
-                    if(!oscar) { _fun50581_ip = 73; continue _fun50581 }
+                    if(!oscar) { _fun00004_ip = 73; continue _fun00003 }
  67:
                     oscar = report.encode;
  73:
                     entity['encode'] = oscar;
                     tango = tango.decode;
-                    if(!tango) { _fun50581_ip = 93; continue _fun50581 }
+                    if(!tango) { _fun00004_ip = 93; continue _fun00003 }
  87:
                     tango = report.decode;
  93:
@@ -62,12 +62,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot1 = entity;
         entity = function(argFoo) { // Original name: codecNameFromPayloadName
-            _fun50583: for(var _fun50583_ip = 0; ; ) switch(_fun50583_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = argFoo;
                 entity = 'AV1';
                 zulu = 'AV1X';
-                if(!(zulu !== mike)) { _fun50583_ip = 20; continue _fun50583 }
+                if(!(zulu !== mike)) { _fun00006_ip = 20; continue _fun00005 }
  17:
                 entity = mike;
  20:
@@ -94,36 +94,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         backup = null;
         offset = backup == tango;
         options = undefined;
-        if(offset) { _fun50579_ip = 140; continue _fun50579 }
+        if(offset) { _fun00002_ip = 140; continue _fun00001 }
  113:
         tango = tango.DiscordNative;
         offset = backup == tango;
         options = undefined;
-        if(offset) { _fun50579_ip = 140; continue _fun50579 }
+        if(offset) { _fun00002_ip = 140; continue _fun00001 }
  128:
         tango = tango.process;
         options = tango.platform;
  140:
         tango = 'darwin';
         tango = tango !== options;
-        if(tango) { _fun50579_ip = 283; continue _fun50579 }
+        if(tango) { _fun00002_ip = 283; continue _fun00001 }
  156:
         options = verify.window;
         yankee = backup == options;
         offset = undefined;
-        if(yankee) { _fun50579_ip = 198; continue _fun50579 }
+        if(yankee) { _fun00002_ip = 198; continue _fun00001 }
  171:
         options = options.DiscordNative;
         yankee = backup == options;
         offset = undefined;
-        if(yankee) { _fun50579_ip = 198; continue _fun50579 }
+        if(yankee) { _fun00002_ip = 198; continue _fun00001 }
  186:
         options = options.os;
         offset = options.arch;
  198:
         options = 'arm64';
         options = options === offset;
-        if(!options) { _fun50579_ip = 280; continue _fun50579 }
+        if(!options) { _fun00002_ip = 280; continue _fun00001 }
  211:
         offset = 1;
         yankee = oscar[offset];
@@ -133,12 +133,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         foxtrot = verify.window;
         kilo = backup == foxtrot;
         verify = undefined;
-        if(kilo) { _fun50579_ip = 274; continue _fun50579 }
+        if(kilo) { _fun00002_ip = 274; continue _fun00001 }
  247:
         foxtrot = foxtrot.DiscordNative;
         backup = backup == foxtrot;
         verify = undefined;
-        if(backup) { _fun50579_ip = 274; continue _fun50579 }
+        if(backup) { _fun00002_ip = 274; continue _fun00001 }
  262:
         foxtrot = foxtrot.os;
         verify = foxtrot.release;
@@ -169,13 +169,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['getExperimentCodecs'] = tango;
         tango = function(argFoo, argBar) { // Original name: filterVideoCodecs
-            _fun50585: for(var _fun50585_ip = 0; ; ) switch(_fun50585_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 oscar = argFoo;
                 tango = _closure1_slot1;
                 zulu = 'string';
                 mike = typeof oscar;
-                if(!(zulu !== mike)) { _fun50585_ip = 40; continue _fun50585 }
+                if(!(zulu !== mike)) { _fun00008_ip = 40; continue _fun00007 }
  23:
                 zulu = oscar.map;
                 mike = function(argFoo) {
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 zulu = zulu.bind(oscar)(mike);
-                _fun50585_ip = 74; continue _fun50585;
+                _fun00008_ip = 74; continue _fun00007;
  40:
                 mike = global;
                 report = mike.JSON;
@@ -219,12 +219,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         zulu['filterVideoCodecs'] = tango;
         mike = function(argFoo) { // Original name: codecNameToPayloadName
-            _fun50588: for(var _fun50588_ip = 0; ; ) switch(_fun50588_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 mike = argFoo;
                 entity = 'AV1X';
                 zulu = 'AV1';
-                if(!(zulu !== mike)) { _fun50588_ip = 20; continue _fun50588 }
+                if(!(zulu !== mike)) { _fun00010_ip = 20; continue _fun00009 }
  17:
                 entity = mike;
  20:

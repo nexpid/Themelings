@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         options = new Array(1);
         options[0] = yankee;
         zulu = function() {
-            _fun79311: for(var _fun79311_ip = 0; ; ) switch(_fun79311_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
                 mike = mike != zulu;
-                if(!mike) { _fun79311_ip = 28; continue _fun79311 }
+                if(!mike) { _fun00002_ip = 28; continue _fun00001 }
  16:
                 tango = _closure2_slot0;
                 zulu = '';
                 mike = zulu !== tango;
  28:
-                if(!mike) { _fun79311_ip = 77; continue _fun79311 }
+                if(!mike) { _fun00002_ip = 77; continue _fun00001 }
  31:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;

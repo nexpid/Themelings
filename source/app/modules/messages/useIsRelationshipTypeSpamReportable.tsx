@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/useIsRelationshipTypeSpamReportable.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsRelationshipTypeSpamReportable
-        _fun101647: for(var _fun101647_ip = 0; ; ) switch(_fun101647_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -58,13 +58,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot3;
             entity = entity.NONE;
             entity = zulu === entity;
-            if(entity) { _fun101647_ip = 104; continue _fun101647 }
+            if(entity) { _fun00002_ip = 104; continue _fun00001 }
  90:
             tango = _closure1_slot3;
             tango = tango.BLOCKED;
             entity = zulu === tango;
  104:
-            if(entity) { _fun101647_ip = 121; continue _fun101647 }
+            if(entity) { _fun00002_ip = 121; continue _fun00001 }
  107:
             mike = _closure1_slot3;
             mike = mike.PENDING_INCOMING;

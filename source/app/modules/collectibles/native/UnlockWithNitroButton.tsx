@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/UnlockWithNitroButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun99721: for(var _fun99721_ip = 0; ; ) switch(_fun99721_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.text;
@@ -76,13 +76,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot3;
             zulu[1] = mike;
             mike = function() {
-                _fun99722: for(var _fun99722_ip = 0; ; ) switch(_fun99722_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot4;
                     zulu = entity.isClaiming;
                     entity = null;
                     entity = entity != zulu;
-                    if(entity) { _fun99722_ip = 71; continue _fun99722 }
+                    if(entity) { _fun00004_ip = 71; continue _fun00003 }
  22:
                     tango = _closure1_slot3;
                     zulu = tango.isPurchasingProduct;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             foxtrot = null;
-            if(!(foxtrot == yankee)) { _fun99721_ip = 141; continue _fun99721 }
+            if(!(foxtrot == yankee)) { _fun00002_ip = 141; continue _fun00001 }
  134:
             yankee = function() {
                 tango = _closure1_slot5;

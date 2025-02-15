@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: QuestDockDragHandle
-        _fun116309: for(var _fun116309_ip = 0; ; ) switch(_fun116309_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             result = mike.isExpanded;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             oscar = zulu == report;
             mike = undefined;
-            if(oscar) { _fun116309_ip = 141; continue _fun116309 }
+            if(oscar) { _fun00002_ip = 141; continue _fun00001 }
  135:
             mike = report.enrolledAt;
  141:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = update.bind(tango)(zulu);
             report = options.useAnimatedStyle;
             zulu = function() { // Original name: M
-                _fun116310: for(var _fun116310_ip = 0; ; ) switch(_fun116310_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     zulu = {};
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = mike.bind(golf)();
                     mike = _closure1_slot5;
                     mike = mike.CLOSED;
-                    if(!(golf !== mike)) { _fun116310_ip = 93; continue _fun116310 }
+                    if(!(golf !== mike)) { _fun00004_ip = 93; continue _fun00003 }
  64:
                     golf = _closure2_slot0;
                     mike = golf.get;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure1_slot5;
                     golf = mike.SOFT_DISMISSED;
                     mike = 0;
-                    if(!(yankee === golf)) { _fun116310_ip = 96; continue _fun116310 }
+                    if(!(yankee === golf)) { _fun00004_ip = 96; continue _fun00003 }
  93:
                     mike = 6;
  96:
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = update.bind(tango)(zulu);
             report = romeo.useAnimatedStyle;
             zulu = function() { // Original name: p
-                _fun116311: for(var _fun116311_ip = 0; ; ) switch(_fun116311_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = {};
                     report = _closure1_slot0;
@@ -214,14 +214,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(zulu)(tango);
                     tango = report.withSpring;
                     oscar = _closure2_slot2;
-                    if(oscar) { _fun116311_ip = 98; continue _fun116311 }
+                    if(oscar) { _fun00006_ip = 98; continue _fun00005 }
  42:
                     golf = _closure2_slot0;
                     oscar = golf.get;
                     golf = oscar.bind(golf)();
                     oscar = _closure1_slot5;
                     oscar = oscar.CLOSED;
-                    if(!(golf !== oscar)) { _fun116311_ip = 98; continue _fun116311 }
+                    if(!(golf !== oscar)) { _fun00006_ip = 98; continue _fun00005 }
  69:
                     oscar = _closure2_slot0;
                     zulu = oscar.get;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure1_slot5;
                     oscar = zulu.SOFT_DISMISSED;
                     zulu = 0;
-                    if(!(golf === oscar)) { _fun116311_ip = 101; continue _fun116311 }
+                    if(!(golf === oscar)) { _fun00006_ip = 101; continue _fun00005 }
  98:
                     zulu = 1;
  101:
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = update.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: C
-                _fun116312: for(var _fun116312_ip = 0; ; ) switch(_fun116312_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = {};
                     report = _closure1_slot0;
@@ -269,14 +269,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(zulu)(tango);
                     tango = report.withSpring;
                     oscar = _closure2_slot2;
-                    if(oscar) { _fun116312_ip = 106; continue _fun116312 }
+                    if(oscar) { _fun00008_ip = 106; continue _fun00007 }
  42:
                     golf = _closure2_slot0;
                     oscar = golf.get;
                     golf = oscar.bind(golf)();
                     oscar = _closure1_slot5;
                     oscar = oscar.CLOSED;
-                    if(!(golf !== oscar)) { _fun116312_ip = 106; continue _fun116312 }
+                    if(!(golf !== oscar)) { _fun00008_ip = 106; continue _fun00007 }
  69:
                     oscar = _closure2_slot0;
                     zulu = oscar.get;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure1_slot5;
                     oscar = zulu.SOFT_DISMISSED;
                     zulu = 0.5;
-                    if(!(golf === oscar)) { _fun116312_ip = 108; continue _fun116312 }
+                    if(!(golf === oscar)) { _fun00008_ip = 108; continue _fun00007 }
  106:
                     zulu = 0;
  108:
@@ -350,11 +350,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = vacuum[echo];
             echo = control.bind(tango)(echo);
             echo = echo.t;
-            if(result) { _fun116309_ip = 655; continue _fun116309 }
+            if(result) { _fun00002_ip = 655; continue _fun00001 }
  642:
             result = echo.Yplnt7;
             result = update.bind(source)(result);
-            _fun116309_ip = 666; continue _fun116309;
+            _fun00002_ip = 666; continue _fun00001;
  655:
             echo = echo.GQ+4bm;
             result = update.bind(source)(echo);

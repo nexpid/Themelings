@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: AccountCreditTier
-        _fun95944: for(var _fun95944_ip = 0; ; ) switch(_fun95944_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             update = entity.planId;
@@ -38,15 +38,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = null;
             entity = sequence != echo;
             config = undefined;
-            if(!entity) { _fun95944_ip = 263; continue _fun95944 }
+            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
  135:
             mike = echo.status;
             entity = _closure1_slot5;
             entity = entity.PAUSED;
-            if(!(mike === entity)) { _fun95944_ip = 164; continue _fun95944 }
+            if(!(mike === entity)) { _fun00002_ip = 164; continue _fun00001 }
  154:
             entity = echo.pauseEndsAt;
-            if(!(sequence == entity)) { _fun95944_ip = 200; continue _fun95944 }
+            if(!(sequence == entity)) { _fun00002_ip = 200; continue _fun00001 }
  164:
             entity = global;
             zulu = entity.Date;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = mike;
             entity = new target[zulu](papa, context);
             zulu = entity instanceof Object ? entity : mike;
-            _fun95944_ip = 234; continue _fun95944;
+            _fun00002_ip = 234; continue _fun00001;
  200:
             entity = global;
             offset = entity.Date;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = oscar;
             oscar = null;
-            if(!options) { _fun95944_ip = 298; continue _fun95944 }
+            if(!options) { _fun00002_ip = 298; continue _fun00001 }
  292:
             oscar = yankee.divider;
  298:
@@ -133,11 +133,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = sizing.bind(tango)(kilo, romeo);
             romeo = new Array(2);
             romeo[0] = kilo;
-            if(!(sequence != echo)) { _fun95944_ip = 538; continue _fun95944 }
+            if(!(sequence != echo)) { _fun00002_ip = 538; continue _fun00001 }
  524:
             sizing = echo.isPurchasedExternally;
             kilo = null;
-            if(sizing) { _fun95944_ip = 748; continue _fun95944 }
+            if(sizing) { _fun00002_ip = 748; continue _fun00001 }
  538:
             result = _closure1_slot6;
             output = _closure1_slot0;
@@ -148,10 +148,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
             source = yankee.subText;
             sizing['style'] = source;
-            if(!(sequence != echo)) { _fun95944_ip = 604; continue _fun95944 }
+            if(!(sequence != echo)) { _fun00002_ip = 604; continue _fun00001 }
  594:
             echo = echo.planId;
-            if(!(echo !== update)) { _fun95944_ip = 666; continue _fun95944 }
+            if(!(echo !== update)) { _fun00002_ip = 666; continue _fun00001 }
  604:
             update = _closure1_slot0;
             echo = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = {};
             echo['planName'] = vacuum;
             echo = source.bind(control)(update, echo);
-            _fun95944_ip = 738; continue _fun95944;
+            _fun00002_ip = 738; continue _fun00001;
  666:
             source = _closure1_slot0;
             update = _closure1_slot2;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = {};
             record = sequence != config;
             sequence = 0;
-            if(!record) { _fun95944_ip = 727; continue _fun95944 }
+            if(!record) { _fun00002_ip = 727; continue _fun00001 }
  724:
             sequence = config;
  727:
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/PremiumAccountCredit.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun95945: for(var _fun95945_ip = 0; ; ) switch(_fun95945_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             offset = entity.currentSubscription;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(mike, entity);
             var _closure2_slot1 = entity;
             entity = null;
-            if(!(entity != golf)) { _fun95945_ip = 677; continue _fun95945 }
+            if(!(entity != golf)) { _fun00004_ip = 677; continue _fun00003 }
  113:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(mike);
             mike = zulu.hasAccountCredit;
             mike = mike.bind(zulu)(golf);
-            if(!mike) { _fun95945_ip = 677; continue _fun95945 }
+            if(!mike) { _fun00004_ip = 677; continue _fun00003 }
  150:
             zulu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(report)(mike);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun95947: for(var _fun95947_ip = 0; ; ) switch(_fun95947_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     entity = mike.subscriptionPlanId;
@@ -378,11 +378,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.consumed;
                     zulu = null;
                     entity = zulu != entity;
-                    if(!entity) { _fun95947_ip = 34; continue _fun95947 }
+                    if(!entity) { _fun00006_ip = 34; continue _fun00005 }
  30:
                     entity = zulu != tango;
  34:
-                    if(!entity) { _fun95947_ip = 40; continue _fun95947 }
+                    if(!entity) { _fun00006_ip = 40; continue _fun00005 }
  37:
                     entity = !mike;
  40:
@@ -500,11 +500,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = golf;
             yankee = entity != offset;
             golf = null;
-            if(!yankee) { _fun95945_ip = 661; continue _fun95945 }
+            if(!yankee) { _fun00004_ip = 661; continue _fun00003 }
  554:
             offset = offset.isPurchasedExternally;
             golf = null;
-            if(!offset) { _fun95945_ip = 661; continue _fun95945 }
+            if(!offset) { _fun00004_ip = 661; continue _fun00003 }
  565:
             offset = _closure1_slot6;
             backup = _closure1_slot0;

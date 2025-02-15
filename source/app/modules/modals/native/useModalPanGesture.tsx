@@ -39,12 +39,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/modals/native/useModalPanGesture.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useModalPanGesture
-        _fun96446: for(var _fun96446_ip = 0; ; ) switch(_fun96446_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.thresholdVelocity;
             options = undefined;
-            if(!(yankee === options)) { _fun96446_ip = 23; continue _fun96446 }
+            if(!(yankee === options)) { _fun00002_ip = 23; continue _fun00001 }
  17:
             yankee = 500;
  23:
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(mike);
             mike = zulu.onEnd;
             entity = function(argFoo) { // Original name: f
-                _fun96449: for(var _fun96449_ip = 0; ; ) switch(_fun96449_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     mike = entity.velocityY;
@@ -164,10 +164,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = zulu.get;
                     zulu = entity.bind(zulu)();
                     entity = _closure2_slot2;
-                    if(!(!(zulu >= entity))) { _fun96449_ip = 117; continue _fun96449 }
+                    if(!(!(zulu >= entity))) { _fun00004_ip = 117; continue _fun00003 }
  52:
                     entity = _closure2_slot0;
-                    if(!(!(mike >= entity))) { _fun96449_ip = 117; continue _fun96449 }
+                    if(!(!(mike >= entity))) { _fun00004_ip = 117; continue _fun00003 }
  60:
                     zulu = _closure2_slot4;
                     mike = zulu.set;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = 0;
                     entity = report.bind(oscar)(entity, options);
                     entity = mike.bind(zulu)(entity);
-                    _fun96449_ip = 271; continue _fun96449;
+                    _fun00004_ip = 271; continue _fun00003;
  117:
                     zulu = _closure2_slot4;
                     mike = zulu.set;

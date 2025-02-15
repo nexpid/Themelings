@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure2_slot0;
             zulu = tango.forEach;
             mike = function(argFoo) {
-                _fun120479: for(var _fun120479_ip = 0; ; ) switch(_fun120479_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     tango = _closure1_slot4;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = report[mike];
                     zulu = zulu.bind(tango)(mike);
                     mike = null;
-                    if(!(mike != zulu)) { _fun120479_ip = 55; continue _fun120479 }
+                    if(!(mike != zulu)) { _fun00002_ip = 55; continue _fun00001 }
  39:
                     mike = _closure3_slot0;
                     entity = entity.id;

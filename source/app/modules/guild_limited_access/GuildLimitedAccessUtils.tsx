@@ -24,24 +24,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_limited_access/GuildLimitedAccessUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: isLimitedAccessErrorCode
-        _fun122871: for(var _fun122871_ip = 0; ; ) switch(_fun122871_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             mike = 403;
             entity = argFoo;
             entity = mike === entity;
-            if(!entity) { _fun122871_ip = 25; continue _fun122871 }
+            if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  19:
             mike = null;
             entity = mike != zulu;
  25:
-            if(!entity) { _fun122871_ip = 45; continue _fun122871 }
+            if(!entity) { _fun00002_ip = 45; continue _fun00001 }
  28:
             mike = _closure1_slot0;
             mike = mike.GUILD_LIMITED_ACCESS_DEFAULT;
             entity = zulu >= mike;
  45:
-            if(!entity) { _fun122871_ip = 65; continue _fun122871 }
+            if(!entity) { _fun00002_ip = 65; continue _fun00001 }
  48:
             mike = _closure1_slot0;
             mike = mike.GUILD_LIMITED_ACCESS_MAX;

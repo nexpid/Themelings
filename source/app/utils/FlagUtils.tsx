@@ -71,17 +71,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['removeFlags'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: setFlag
-        _fun37056: for(var _fun37056_ip = 0; ; ) switch(_fun37056_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = argBar;
             entity = argBaz;
-            if(entity) { _fun37056_ip = 29; continue _fun37056 }
+            if(entity) { _fun00002_ip = 29; continue _fun00001 }
  15:
             zulu = _closure1_slot2;
             entity = undefined;
             entity = zulu.bind(entity)(report, tango);
-            _fun37056_ip = 41; continue _fun37056;
+            _fun00002_ip = 41; continue _fun00001;
  29:
             zulu = _closure1_slot1;
             mike = undefined;
@@ -92,18 +92,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setFlag'] = tango;
     mike = function(argFoo, argBar) { // Original name: toggleFlag
-        _fun37057: for(var _fun37057_ip = 0; ; ) switch(_fun37057_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             tango = argBar;
             entity = _closure1_slot0;
             zulu = undefined;
             entity = entity.bind(zulu)(report, tango);
-            if(entity) { _fun37057_ip = 36; continue _fun37057 }
+            if(entity) { _fun00004_ip = 36; continue _fun00003 }
  24:
             entity = _closure1_slot1;
             entity = entity.bind(zulu)(report, tango);
-            _fun37057_ip = 46; continue _fun37057;
+            _fun00004_ip = 46; continue _fun00003;
  36:
             mike = _closure1_slot2;
             entity = mike.bind(zulu)(report, tango);

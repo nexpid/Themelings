@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/interaction/InteractionComponentStates.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InteractionComponentStates
-        _fun71733: for(var _fun71733_ip = 0; ; ) switch(_fun71733_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.message;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             oscar = oscar == zulu;
             verify = undefined;
-            if(oscar) { _fun71733_ip = 193; continue _fun71733 }
+            if(oscar) { _fun00002_ip = 193; continue _fun00001 }
  188:
             verify = zulu.guild_id;
  193:

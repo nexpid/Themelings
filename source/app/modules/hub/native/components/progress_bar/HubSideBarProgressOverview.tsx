@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/hub/native/components/progress_bar/HubSideBarProgressOverview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HubSidebarProgressOverview
-        _fun115923: for(var _fun115923_ip = 0; ; ) switch(_fun115923_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.guild;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.getNextHubProgressStep;
             oscar = entity.bind(tango)(zulu);
             entity = null;
-            if(!(entity != oscar)) { _fun115923_ip = 388; continue _fun115923 }
+            if(!(entity != oscar)) { _fun00002_ip = 388; continue _fun00001 }
  79:
             foxtrot = zulu.size;
             tango = _closure1_slot0;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getHubProgressTitleForStep;
             options = zulu.bind(tango)(oscar);
             zulu = _closure1_slot4;
-            if(!(!(foxtrot < zulu))) { _fun115923_ip = 177; continue _fun115923 }
+            if(!(!(foxtrot < zulu))) { _fun00002_ip = 177; continue _fun00001 }
  120:
             golf = _closure1_slot0;
             offset = _closure1_slot2;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.t;
             zulu = zulu.+Gyklp;
             golf = tango.bind(oscar)(zulu);
-            _fun115923_ip = 271; continue _fun115923;
+            _fun00002_ip = 271; continue _fun00001;
  177:
             tango = _closure1_slot0;
             yankee = _closure1_slot2;

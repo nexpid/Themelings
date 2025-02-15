@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/useGuildEventRecurrences.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: useGuildEventRecurrences
-        _fun77031: for(var _fun77031_ip = 0; ; ) switch(_fun77031_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             yankee = argFoo;
             zulu = argBar;
@@ -72,12 +72,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot4;
             offset = romeo.useState;
             options = null;
-            if(!(options != verify)) { _fun77031_ip = 126; continue _fun77031 }
+            if(!(options != verify)) { _fun00002_ip = 126; continue _fun00001 }
  122:
-            if(!(options == golf)) { _fun77031_ip = 132; continue _fun77031 }
+            if(!(options == golf)) { _fun00002_ip = 132; continue _fun00001 }
  126:
             tango = new Array(0);
-            _fun77031_ip = 219; continue _fun77031;
+            _fun00002_ip = 219; continue _fun00001;
  132:
             backup = _closure1_slot0;
             result = _closure1_slot2;
@@ -118,17 +118,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[2] = golf;
             offset[3] = report;
             report = function() {
-                _fun77033: for(var _fun77033_ip = 0; ; ) switch(_fun77033_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot4;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun77033_ip = 199; continue _fun77033 }
+                    if(!(zulu != mike)) { _fun00004_ip = 199; continue _fun00003 }
  16:
                     mike = _closure2_slot2;
-                    if(!(zulu != mike)) { _fun77033_ip = 199; continue _fun77033 }
+                    if(!(zulu != mike)) { _fun00004_ip = 199; continue _fun00003 }
  27:
                     mike = _closure2_slot3;
-                    if(!(zulu != mike)) { _fun77033_ip = 199; continue _fun77033 }
+                    if(!(zulu != mike)) { _fun00004_ip = 199; continue _fun00003 }
  38:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot4;
                     tango = _closure2_slot2;
                     tango = oscar.bind(golf)(report, tango);
-                    if(tango) { _fun77033_ip = 199; continue _fun77033 }
+                    if(tango) { _fun00004_ip = 199; continue _fun00003 }
  86:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -179,11 +179,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = zulu;
             report[2] = tango;
             zulu = function() {
-                _fun77034: for(var _fun77034_ip = 0; ; ) switch(_fun77034_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun77034_ip = 82; continue _fun77034 }
+                    if(!(mike != zulu)) { _fun00006_ip = 82; continue _fun00005 }
  13:
                     tango = _closure2_slot5;
                     zulu = tango.map;
@@ -239,33 +239,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = tango;
             options = options == golf;
             entity = undefined;
-            if(options) { _fun77031_ip = 371; continue _fun77031 }
+            if(options) { _fun00002_ip = 371; continue _fun00001 }
  365:
             entity = golf.scheduled_start_time;
  371:
             zulu[2] = entity;
             entity = function() {
-                _fun77036: for(var _fun77036_ip = 0; ; ) switch(_fun77036_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot2;
                     entity = null;
-                    if(!(entity != zulu)) { _fun77036_ip = 216; continue _fun77036 }
+                    if(!(entity != zulu)) { _fun00008_ip = 216; continue _fun00007 }
  16:
                     zulu = _closure2_slot5;
                     tango = zulu.length;
                     zulu = 0;
-                    if(!(zulu !== tango)) { _fun77036_ip = 216; continue _fun77036 }
+                    if(!(zulu !== tango)) { _fun00008_ip = 216; continue _fun00007 }
  34:
                     zulu = _closure2_slot3;
                     tango = entity == zulu;
                     golf = undefined;
                     zulu = undefined;
-                    if(tango) { _fun77036_ip = 59; continue _fun77036 }
+                    if(tango) { _fun00008_ip = 59; continue _fun00007 }
  49:
                     tango = _closure2_slot3;
                     zulu = tango.scheduled_start_time;
  59:
-                    if(!(entity != zulu)) { _fun77036_ip = 216; continue _fun77036 }
+                    if(!(entity != zulu)) { _fun00008_ip = 216; continue _fun00007 }
  66:
                     zulu = global;
                     zulu = zulu.Date;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.after;
                     mike = mike.bind(tango)(report);
                     entity = entity != mike;
-                    if(!entity) { _fun77036_ip = 214; continue _fun77036 }
+                    if(!entity) { _fun00008_ip = 214; continue _fun00007 }
  210:
                     entity = mike <= zulu;
  214:
@@ -313,14 +313,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['recurrenceStartTimes'] = tango;
             entity['canViewMoreRecurrences'] = zulu;
             mike = function() { // Original name: updateRecurrenceStartTimes
-                _fun77037: for(var _fun77037_ip = 0; ; ) switch(_fun77037_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     mike = _closure2_slot2;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun77037_ip = 156; continue _fun77037 }
+                    if(!(zulu != mike)) { _fun00010_ip = 156; continue _fun00009 }
  16:
                     mike = _closure2_slot3;
-                    if(!(zulu != mike)) { _fun77037_ip = 156; continue _fun77037 }
+                    if(!(zulu != mike)) { _fun00010_ip = 156; continue _fun00009 }
  27:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot2;

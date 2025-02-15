@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_scheduled_events/native/components/DeleteEventActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DeleteEventActionSheet
-        _fun102879: for(var _fun102879_ip = 0; ; ) switch(_fun102879_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.eventId;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             oscar = entity == report;
             zulu = undefined;
-            if(oscar) { _fun102879_ip = 185; continue _fun102879 }
+            if(oscar) { _fun00002_ip = 185; continue _fun00001 }
  179:
             zulu = report.recurrence_rule;
  185:
@@ -169,18 +169,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee[echo];
             yankee = output.bind(tango)(yankee);
             output = yankee.t;
-            if(backup) { _fun102879_ip = 353; continue _fun102879 }
+            if(backup) { _fun00002_ip = 353; continue _fun00001 }
  324:
-            if(sizing) { _fun102879_ip = 340; continue _fun102879 }
+            if(sizing) { _fun00002_ip = 340; continue _fun00001 }
  327:
             yankee = output.B9sJLS;
             yankee = result.bind(update)(yankee);
-            _fun102879_ip = 351; continue _fun102879;
+            _fun00002_ip = 351; continue _fun00001;
  340:
             vacuum = output.wr33ra;
             yankee = result.bind(update)(vacuum);
  351:
-            _fun102879_ip = 364; continue _fun102879;
+            _fun00002_ip = 364; continue _fun00001;
  353:
             output = output.tqCll5;
             yankee = result.bind(update)(output);
@@ -211,11 +211,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = output.bind(tango)(yankee, verify);
             options[1] = verify;
             verify = sizing;
-            if(!verify) { _fun102879_ip = 501; continue _fun102879 }
+            if(!verify) { _fun00002_ip = 501; continue _fun00001 }
  498:
             verify = !backup;
  501:
-            if(!verify) { _fun102879_ip = 613; continue _fun102879 }
+            if(!verify) { _fun00002_ip = 613; continue _fun00001 }
  504:
             output = _closure1_slot8;
             update = _closure1_slot0;
@@ -278,9 +278,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.Colors;
             output = output.RED;
             verify['color'] = output;
-            if(!sizing) { _fun102879_ip = 850; continue _fun102879 }
+            if(!sizing) { _fun00002_ip = 850; continue _fun00001 }
  793:
-            if(backup) { _fun102879_ip = 850; continue _fun102879 }
+            if(backup) { _fun00002_ip = 850; continue _fun00001 }
  796:
             result = _closure1_slot0;
             backup = _closure1_slot2;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.t;
             backup = backup.8ZsNv7;
             backup = sizing.bind(output)(backup);
-            _fun102879_ip = 902; continue _fun102879;
+            _fun00002_ip = 902; continue _fun00001;
  850:
             result = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['text'] = backup;
             verify['loading'] = foxtrot;
             romeo = function() { // Original name: onPress
-                _fun102882: for(var _fun102882_ip = 0; ; ) switch(_fun102882_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot4;
                     entity = undefined;
@@ -322,13 +322,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = 13;
                     tango = oscar[tango];
                     options = report.bind(entity)(tango);
-                    if(zulu) { _fun102882_ip = 68; continue _fun102882 }
+                    if(zulu) { _fun00004_ip = 68; continue _fun00003 }
  46:
                     report = options.deleteGuildEvent;
                     tango = _closure2_slot0;
                     zulu = _closure2_slot1;
                     zulu = report.bind(options)(tango, zulu);
-                    _fun102882_ip = 97; continue _fun102882;
+                    _fun00004_ip = 97; continue _fun00003;
  68:
                     golf = options.deleteRecurrence;
                     romeo = _closure2_slot1;

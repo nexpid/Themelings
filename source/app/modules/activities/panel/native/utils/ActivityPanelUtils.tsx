@@ -43,14 +43,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun121289: for(var _fun121289_ip = 0; ; ) switch(_fun121289_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot3;
                 entity = zulu.getConnectedActivityChannelId;
                 tango = entity.bind(zulu)();
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun121289_ip = 54; continue _fun121289 }
+                if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  26:
                 report = _closure1_slot3;
                 zulu = report.getActivityPanelMode;
@@ -59,7 +59,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 zulu = zulu.PANEL;
                 entity = report === zulu;
  54:
-                if(!entity) { _fun121289_ip = 87; continue _fun121289 }
+                if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  57:
                 report = _closure1_slot1;
                 zulu = _closure1_slot2;

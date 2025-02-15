@@ -46,12 +46,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = zulu.bind(entity)(mike);
         zulu = tango.isForegroundServiceRunning;
         mike = function(argFoo) {
-            _fun75431: for(var _fun75431_ip = 0; ; ) switch(_fun75431_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;
                 entity = argFoo;
-                if(entity) { _fun75431_ip = 43; continue _fun75431 }
+                if(entity) { _fun00002_ip = 43; continue _fun00001 }
  17:
                 entity = 5;
                 tango = mike[entity];
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.bind(entity)(tango);
                 entity = tango.showScreenshareDisabledAlert;
                 entity = entity.bind(tango)();
-                _fun75431_ip = 79; continue _fun75431;
+                _fun00002_ip = 79; continue _fun00001;
  43:
                 entity = 4;
                 mike = mike[entity];
@@ -87,13 +87,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = tango;
     oscar = function() { // Original name: handleCloseScreenshare
-        _fun75433: for(var _fun75433_ip = 0; ; ) switch(_fun75433_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.getCurrentUserActiveStream;
             golf = mike.bind(zulu)();
             tango = null;
-            if(!(tango != golf)) { _fun75433_ip = 79; continue _fun75433 }
+            if(!(tango != golf)) { _fun00004_ip = 79; continue _fun00003 }
  23:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun75439: for(var _fun75439_ip = 0; ; ) switch(_fun75439_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure1_slot5;
                 mike = 12;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)();
                 zulu = null;
                 report = zulu != mike;
-                if(!report) { _fun75439_ip = 56; continue _fun75439 }
+                if(!report) { _fun00006_ip = 56; continue _fun00005 }
  37:
                 zulu = mike.state;
                 mike = _closure1_slot4;
@@ -251,14 +251,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = mike.bind(zulu)();
                 zulu = mike.platform;
                 mike = 'android';
-                if(!(mike !== zulu)) { _fun75439_ip = 108; continue _fun75439 }
+                if(!(mike !== zulu)) { _fun00006_ip = 108; continue _fun00005 }
  102:
                 mike = _closure1_slot8;
-                _fun75439_ip = 112; continue _fun75439;
+                _fun00006_ip = 112; continue _fun00005;
  108:
                 mike = _closure1_slot7;
  112:
-                if(golf) { _fun75439_ip = 143; continue _fun75439 }
+                if(golf) { _fun00006_ip = 143; continue _fun00005 }
  115:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -266,10 +266,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = oscar[zulu];
                 zulu = tango.bind(verify)(zulu);
                 zulu = zulu.showMinOSScreenshareRequirementAlert;
-                _fun75439_ip = 191; continue _fun75439;
+                _fun00006_ip = 191; continue _fun00005;
  143:
                 tango = _closure2_slot0;
-                if(tango) { _fun75439_ip = 181; continue _fun75439 }
+                if(tango) { _fun00006_ip = 181; continue _fun00005 }
  153:
                 oscar = _closure1_slot0;
                 options = _closure1_slot2;
@@ -277,20 +277,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = options[tango];
                 tango = oscar.bind(verify)(tango);
                 zulu = tango.showScreenshareDisabledAlert;
-                _fun75439_ip = 191; continue _fun75439;
+                _fun00006_ip = 191; continue _fun00005;
  181:
                 zulu = mike;
-                if(!report) { _fun75439_ip = 191; continue _fun75439 }
+                if(!report) { _fun00006_ip = 191; continue _fun00005 }
  187:
                 zulu = _closure1_slot10;
  191:
                 tango = _closure1_slot1;
                 options = _closure1_slot2;
-                if(report) { _fun75439_ip = 211; continue _fun75439 }
+                if(report) { _fun00006_ip = 211; continue _fun00005 }
  202:
                 mike = 17;
                 mike = options[mike];
-                _fun75439_ip = 218; continue _fun75439;
+                _fun00006_ip = 218; continue _fun00005;
  211:
                 oscar = 16;
                 mike = options[oscar];
@@ -306,18 +306,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = offset[entity];
                 entity = tango.bind(verify)(entity);
                 entity = entity.t;
-                if(report) { _fun75439_ip = 283; continue _fun75439 }
+                if(report) { _fun00006_ip = 283; continue _fun00005 }
  270:
                 tango = entity.fjBNo6;
                 tango = oscar.bind(options)(tango);
-                _fun75439_ip = 294; continue _fun75439;
+                _fun00006_ip = 294; continue _fun00005;
  283:
                 entity = entity.CpkXwc;
                 tango = oscar.bind(options)(entity);
  294:
                 entity = {};
                 oscar = _closure2_slot0;
-                if(!oscar) { _fun75439_ip = 309; continue _fun75439 }
+                if(!oscar) { _fun00006_ip = 309; continue _fun00005 }
  306:
                 oscar = golf;
  309:
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['stopScreenshare'] = report;
     zulu['handleOnboard'] = tango;
     mike = function(argFoo) {
-        _fun75440: for(var _fun75440_ip = 0; ; ) switch(_fun75440_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.StorageKeys;
             zulu = zulu.SCREENSHARE_ONBOARD;
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun75440_ip = 84; continue _fun75440 }
+            if(zulu) { _fun00008_ip = 84; continue _fun00007 }
  77:
             entity = function() {
                 zulu = _closure1_slot11;

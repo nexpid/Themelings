@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['UserProfileBlockeeHideMutualsExperiment'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForUserProfileBlockeeHideMutuals
-        _fun80074: for(var _fun80074_ip = 0; ; ) switch(_fun80074_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun80074_ip = 22; continue _fun80074 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForUserProfileBlockeeHideMutuals'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForUserProfileBlockeeHideMutuals
-        _fun80075: for(var _fun80075_ip = 0; ; ) switch(_fun80075_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun80075_ip = 22; continue _fun80075 }
+            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = true;
  22:

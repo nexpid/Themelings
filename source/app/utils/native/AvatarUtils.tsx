@@ -7,19 +7,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = yankee;
     var _closure1_slot1 = offset;
     tango = function(argFoo) { // Original name: ensureAvatarSource
-        _fun36261: for(var _fun36261_ip = 0; ; ) switch(_fun36261_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = 'number';
             entity = typeof tango;
-            if(!(mike !== entity)) { _fun36261_ip = 38; continue _fun36261 }
+            if(!(mike !== entity)) { _fun00002_ip = 38; continue _fun00001 }
  14:
             entity = global;
             mike = entity.Array;
             entity = mike.isArray;
             mike = entity.bind(mike)(tango);
             entity = tango;
-            if(!mike) { _fun36261_ip = 56; continue _fun36261 }
+            if(!mike) { _fun00002_ip = 56; continue _fun00001 }
  38:
             zulu = _closure1_slot2;
             mike = zulu.resolveAssetSource;

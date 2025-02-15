@@ -9,14 +9,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         zulu = argFoo;
         mike = zulu.map;
         entity = function(argFoo) {
-            _fun82234: for(var _fun82234_ip = 0; ; ) switch(_fun82234_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 mike = entity.mimeType;
                 entity = null;
                 zulu = entity != mike;
                 entity = 'unknown';
-                if(!zulu) { _fun82234_ip = 25; continue _fun82234 }
+                if(!zulu) { _fun00002_ip = 25; continue _fun00001 }
  22:
                 entity = mike;
  25:
@@ -48,15 +48,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = 'modules/messages/logMessageSendFailure.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: logMessageSendFailure
-        _fun82235: for(var _fun82235_ip = 0; ; ) switch(_fun82235_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.fileItems;
             zulu = null;
-            if(!(zulu == entity)) { _fun82235_ip = 21; continue _fun82235 }
+            if(!(zulu == entity)) { _fun00004_ip = 21; continue _fun00003 }
  15:
             oscar = new Array(0);
-            _fun82235_ip = 41; continue _fun82235;
+            _fun00004_ip = 41; continue _fun00003;
  21:
             report = _closure1_slot3;
             tango = mike.fileItems;
@@ -67,14 +67,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = zulu != tango;
             entity = undefined;
             golf = undefined;
-            if(!report) { _fun82235_ip = 61; continue _fun82235 }
+            if(!report) { _fun00004_ip = 61; continue _fun00003 }
  58:
             golf = tango;
  61:
             mike = mike.failureCode;
             zulu = zulu != mike;
             options = undefined;
-            if(!zulu) { _fun82235_ip = 79; continue _fun82235 }
+            if(!zulu) { _fun00004_ip = 79; continue _fun00003 }
  76:
             options = mike;
  79:

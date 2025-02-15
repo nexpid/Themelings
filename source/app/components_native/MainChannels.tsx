@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot9 = tango;
     options = golf.memo;
     tango = function(argFoo) { // Original name: LeftMenuTabsInner
-        _fun114074: for(var _fun114074_ip = 0; ; ) switch(_fun114074_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.maxWidth;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = mike.bind(tango)();
             var _closure2_slot0 = result;
             mike = function() { // Original name: useMainChannelsRouteInfo
-                _fun114075: for(var _fun114075_ip = 0; ; ) switch(_fun114075_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     verify = _closure1_slot3;
                     zulu = verify.useContext;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = options.bind(verify)(report, golf);
                     report = null;
                     report = report != tango;
-                    if(!report) { _fun114075_ip = 113; continue _fun114075 }
+                    if(!report) { _fun00004_ip = 113; continue _fun00003 }
  105:
                     golf = _closure1_slot6;
                     report = tango !== golf;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = entity.bind(oscar)(zulu);
                     entity = {};
                     entity['isGuildSelected'] = report;
-                    if(!report) { _fun114075_ip = 151; continue _fun114075 }
+                    if(!report) { _fun00004_ip = 151; continue _fun00003 }
  148:
                     zulu = tango;
  151:
@@ -166,14 +166,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = result;
             mike[1] = oscar;
             entity = function() {
-                _fun114077: for(var _fun114077_ip = 0; ; ) switch(_fun114077_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot0;
                     mike = entity.side;
                     entity = new Array(2);
                     entity[0] = mike;
                     mike = _closure2_slot1;
-                    if(!mike) { _fun114077_ip = 38; continue _fun114077 }
+                    if(!mike) { _fun00006_ip = 38; continue _fun00005 }
  28:
                     zulu = _closure2_slot0;
                     mike = zulu.sideTablet;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = foxtrot.NativeFreezeScreens;
             foxtrot = {};
             sizing = 0;
-            if(!output) { _fun114074_ip = 381; continue _fun114074 }
+            if(!output) { _fun00002_ip = 381; continue _fun00001 }
  378:
             sizing = 1;
  381:

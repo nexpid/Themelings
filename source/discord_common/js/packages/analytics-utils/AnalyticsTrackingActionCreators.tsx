@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.prototype;
             mike = Object.create(mike, {constructor: {value: zulu}});
             tango = function(argFoo) {
-                _fun7163: for(var _fun7163_ip = 0; ; ) switch(_fun7163_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     tango = _closure2_slot0;
                     zulu = tango.dispatch;
@@ -51,13 +51,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = golf == entity;
                     entity = undefined;
                     options = undefined;
-                    if(report) { _fun7163_ip = 70; continue _fun7163 }
+                    if(report) { _fun00002_ip = 70; continue _fun00001 }
  60:
                     report = _closure3_slot2;
                     options = report.flush;
  70:
                     report = golf != options;
-                    if(!report) { _fun7163_ip = 80; continue _fun7163 }
+                    if(!report) { _fun00002_ip = 80; continue _fun00001 }
  77:
                     report = options;
  80:
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = _closure3_slot2;
                     golf = golf == report;
                     report = undefined;
-                    if(golf) { _fun7163_ip = 108; continue _fun7163 }
+                    if(golf) { _fun00002_ip = 108; continue _fun00001 }
  98:
                     oscar = _closure3_slot2;
                     report = oscar.fingerprint;

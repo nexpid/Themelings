@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.VOICE;
     mike['parent'] = golf;
     golf = function() { // Original name: useNoiseSuppressionKrispSettingValue
-        _fun97088: for(var _fun97088_ip = 0; ; ) switch(_fun97088_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -87,16 +87,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar[mike];
             mike = tango.bind(report)(mike);
             mike = mike.NoiseSuppressionOpt;
-            if(zulu) { _fun97088_ip = 140; continue _fun97088 }
+            if(zulu) { _fun00002_ip = 140; continue _fun00001 }
  121:
-            if(entity) { _fun97088_ip = 132; continue _fun97088 }
+            if(entity) { _fun00002_ip = 132; continue _fun00001 }
  124:
             entity = mike.NONE;
-            _fun97088_ip = 138; continue _fun97088;
+            _fun00002_ip = 138; continue _fun00001;
  132:
             entity = mike.STANDARD;
  138:
-            _fun97088_ip = 146; continue _fun97088;
+            _fun00002_ip = 146; continue _fun00001;
  140:
             entity = mike.KRISP;
  146:

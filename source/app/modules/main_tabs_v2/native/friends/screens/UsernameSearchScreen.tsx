@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/screens/UsernameSearchScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UsernameSearchScreen
-        _fun119608: for(var _fun119608_ip = 0; ; ) switch(_fun119608_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.navigation;
@@ -167,17 +167,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.addListener;
                 mike = 'transitionEnd';
                 entity = function(argFoo) {
-                    _fun119612: for(var _fun119612_ip = 0; ; ) switch(_fun119612_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
                         entity = entity.data;
                         entity = entity.closing;
-                        if(entity) { _fun119612_ip = 45; continue _fun119612 }
+                        if(entity) { _fun00004_ip = 45; continue _fun00003 }
  17:
                         entity = _closure2_slot1;
                         mike = entity.current;
                         entity = null;
-                        if(!(entity != mike)) { _fun119612_ip = 45; continue _fun119612 }
+                        if(!(entity != mike)) { _fun00004_ip = 45; continue _fun00003 }
  35:
                         entity = mike.focus;
                         entity = entity.bind(mike)();
@@ -231,10 +231,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = update.bind(tango)(output);
             output = output.spacing;
             output = output.PX_16;
-            if(echo) { _fun119608_ip = 352; continue _fun119608 }
+            if(echo) { _fun00002_ip = 352; continue _fun00001 }
  346:
             backup = backup + output;
-            _fun119608_ip = 355; continue _fun119608;
+            _fun00002_ip = 355; continue _fun00001;
  352:
             backup = output;
  355:

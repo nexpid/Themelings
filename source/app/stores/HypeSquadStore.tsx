@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun107179: for(var _fun107179_ip = 0; ; ) switch(_fun107179_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun107179_ip = 51; continue _fun107179 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun107179_ip = 92; continue _fun107179;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun107179_ip = 71; continue _fun107179 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun107180: for(var _fun107180_ip = 0; ; ) switch(_fun107180_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun107180_ip = 76; continue _fun107180;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -164,41 +164,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     verify = function() { // Original name: deriveHouseMembershipFromUserFlags
-        _fun107186: for(var _fun107186_ip = 0; ; ) switch(_fun107186_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot5;
             entity = zulu.getCurrentUser;
             tango = entity.bind(zulu)();
             entity = null;
-            if(!(entity != tango)) { _fun107186_ip = 140; continue _fun107186 }
+            if(!(entity != tango)) { _fun00006_ip = 140; continue _fun00005 }
  22:
             zulu = tango.hasFlag;
             entity = _closure1_slot7;
             entity = entity.HYPESQUAD_ONLINE_HOUSE_1;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun107186_ip = 126; continue _fun107186 }
+            if(entity) { _fun00006_ip = 126; continue _fun00005 }
  46:
             zulu = tango.hasFlag;
             entity = _closure1_slot7;
             entity = entity.HYPESQUAD_ONLINE_HOUSE_2;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun107186_ip = 110; continue _fun107186 }
+            if(entity) { _fun00006_ip = 110; continue _fun00005 }
  70:
             zulu = tango.hasFlag;
             entity = _closure1_slot7;
             entity = entity.HYPESQUAD_ONLINE_HOUSE_3;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun107186_ip = 140; continue _fun107186 }
+            if(!entity) { _fun00006_ip = 140; continue _fun00005 }
  94:
             entity = _closure1_slot6;
             entity = entity.HOUSE_3;
             _closure1_slot8 = entity;
-            _fun107186_ip = 140; continue _fun107186;
+            _fun00006_ip = 140; continue _fun00005;
  110:
             entity = _closure1_slot6;
             entity = entity.HOUSE_2;
             _closure1_slot8 = entity;
-            _fun107186_ip = 140; continue _fun107186;
+            _fun00006_ip = 140; continue _fun00005;
  126:
             entity = _closure1_slot6;
             entity = entity.HOUSE_1;

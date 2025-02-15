@@ -78,31 +78,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: useHappeningNowScrollSnapping
-        _fun115055: for(var _fun115055_ip = 0; ; ) switch(_fun115055_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             mike = verify.current;
             options = null;
             zulu = options == mike;
             entity = undefined;
-            if(zulu) { _fun115055_ip = 52; continue _fun115055 }
+            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
  19:
             mike = mike.state;
             zulu = options == mike;
             entity = undefined;
-            if(zulu) { _fun115055_ip = 52; continue _fun115055 }
+            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
  33:
             mike = mike.data;
             zulu = options == mike;
             entity = undefined;
-            if(zulu) { _fun115055_ip = 52; continue _fun115055 }
+            if(zulu) { _fun00002_ip = 52; continue _fun00001 }
  47:
             entity = mike.length;
  52:
             mike = options != entity;
             oscar = 0;
             report = 0;
-            if(!mike) { _fun115055_ip = 66; continue _fun115055 }
+            if(!mike) { _fun00002_ip = 66; continue _fun00001 }
  63:
             report = entity;
  66:
@@ -111,37 +111,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 0;
             zulu = 0;
             mike = undefined;
-            if(!offset) { _fun115055_ip = 191; continue _fun115055 }
+            if(!offset) { _fun00002_ip = 191; continue _fun00001 }
  83:
             offset = options == verify;
             yankee = undefined;
-            if(offset) { _fun115055_ip = 158; continue _fun115055 }
+            if(offset) { _fun00002_ip = 158; continue _fun00001 }
  92:
             offset = verify.current;
             romeo = options == offset;
             mike = offset;
             yankee = undefined;
-            if(romeo) { _fun115055_ip = 158; continue _fun115055 }
+            if(romeo) { _fun00002_ip = 158; continue _fun00001 }
  109:
             romeo = offset.recyclerlistview_unsafe;
             offset = options == romeo;
             mike = romeo;
             yankee = undefined;
-            if(offset) { _fun115055_ip = 158; continue _fun115055 }
+            if(offset) { _fun00002_ip = 158; continue _fun00001 }
  127:
             offset = romeo.getLayout;
             romeo = offset.bind(romeo)(zulu);
             offset = options == romeo;
             mike = romeo;
             yankee = undefined;
-            if(offset) { _fun115055_ip = 158; continue _fun115055 }
+            if(offset) { _fun00002_ip = 158; continue _fun00001 }
  150:
             yankee = romeo.width;
             mike = romeo;
  158:
             romeo = options != yankee;
             offset = 0;
-            if(!romeo) { _fun115055_ip = 170; continue _fun115055 }
+            if(!romeo) { _fun00002_ip = 170; continue _fun00001 }
  167:
             offset = yankee;
  170:
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(entity)(tango);
             tango = tango + offset;
             zulu = zulu + 1;
-            if(zulu < report) { _fun115055_ip = 83; continue _fun115055 }
+            if(zulu < report) { _fun00002_ip = 83; continue _fun00001 }
  191:
             return entity;
         }

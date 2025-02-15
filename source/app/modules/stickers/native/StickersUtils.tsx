@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(tango)(mike);
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun85015: for(var _fun85015_ip = 0; ; ) switch(_fun85015_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     zulu = _closure2_slot2;
@@ -115,30 +115,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.StickerCategoryTypes;
                     entity = entity.GUILD;
                     entity = mike !== entity;
-                    if(entity) { _fun85015_ip = 94; continue _fun85015 }
+                    if(entity) { _fun00002_ip = 94; continue _fun00001 }
  68:
                     oscar = _closure2_slot1;
                     mike = null;
                     mike = mike != oscar;
-                    if(!mike) { _fun85015_ip = 91; continue _fun85015 }
+                    if(!mike) { _fun00002_ip = 91; continue _fun00001 }
  81:
                     report = _closure2_slot1;
                     mike = report.nsfwAllowed;
  91:
                     entity = mike;
  94:
-                    if(entity) { _fun85015_ip = 103; continue _fun85015 }
+                    if(entity) { _fun00002_ip = 103; continue _fun00001 }
  97:
                     mike = null;
                     entity = mike == tango;
  103:
-                    if(entity) { _fun85015_ip = 152; continue _fun85015 }
+                    if(entity) { _fun00002_ip = 152; continue _fun00001 }
  106:
                     report = tango.nsfwLevel;
                     mike = _closure1_slot8;
                     mike = mike.AGE_RESTRICTED;
                     mike = report !== mike;
-                    if(!mike) { _fun85015_ip = 149; continue _fun85015 }
+                    if(!mike) { _fun00002_ip = 149; continue _fun00001 }
  129:
                     tango = tango.nsfwLevel;
                     zulu = _closure1_slot8;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun85016: for(var _fun85016_ip = 0; ; ) switch(_fun85016_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     tango = mike.type;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = oscar.bind(report)(zulu);
                     zulu = zulu.StickerCategoryTypes;
                     zulu = zulu.FAVORITE;
-                    if(!(tango !== zulu)) { _fun85016_ip = 89; continue _fun85016 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 89; continue _fun00003 }
  49:
                     tango = mike.type;
                     oscar = _closure1_slot0;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = oscar.bind(report)(zulu);
                     zulu = zulu.StickerCategoryTypes;
                     zulu = zulu.RECENT;
-                    if(!(tango !== zulu)) { _fun85016_ip = 89; continue _fun85016 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 89; continue _fun00003 }
  87:
                     return mike;
  89:
@@ -187,14 +187,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = oscar.bind(report)(zulu);
                     zulu = zulu.StickerCategoryTypes;
                     zulu = zulu.FAVORITE;
-                    if(!(tango !== zulu)) { _fun85016_ip = 149; continue _fun85016 }
+                    if(!(tango !== zulu)) { _fun00004_ip = 149; continue _fun00003 }
  127:
                     tango = _closure1_slot1;
                     oscar = _closure1_slot2;
                     zulu = 11;
                     zulu = oscar[zulu];
                     zulu = tango.bind(report)(zulu);
-                    _fun85016_ip = 169; continue _fun85016;
+                    _fun00004_ip = 169; continue _fun00003;
  149:
                     tango = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -258,12 +258,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = entity.setTimeout;
         entity = undefined;
         zulu = function() {
-            _fun85020: for(var _fun85020_ip = 0; ; ) switch(_fun85020_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure2_slot0;
                 zulu = entity.current;
                 entity = null;
-                if(!(entity != zulu)) { _fun85020_ip = 64; continue _fun85020 }
+                if(!(entity != zulu)) { _fun00006_ip = 64; continue _fun00005 }
  18:
                 mike = zulu.openCustomKeyboard;
                 entity = {};

@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report['contentContainerStyle'] = options;
         options = verify.map;
         golf = function(argFoo, argBar) {
-            _fun95615: for(var _fun95615_ip = 0; ; ) switch(_fun95615_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 romeo = argBar;
@@ -170,10 +170,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 backup = kilo.isThemeDark;
                 offset = _closure2_slot0;
                 offset = backup.bind(kilo)(offset);
-                if(offset) { _fun95615_ip = 190; continue _fun95615 }
+                if(offset) { _fun00002_ip = 190; continue _fun00001 }
  182:
                 offset = foxtrot.lightPNG;
-                _fun95615_ip = 196; continue _fun95615;
+                _fun00002_ip = 196; continue _fun00001;
  190:
                 offset = foxtrot.darkPNG;
  196:

@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot7 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun101297: for(var _fun101297_ip = 0; ; ) switch(_fun101297_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.keyboardType;
@@ -67,21 +67,21 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = function() { // Original name: imperativeHandle
                     entity = {};
                     mike = function(argFoo) { // Original name: focused
-                        _fun101300: for(var _fun101300_ip = 0; ; ) switch(_fun101300_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             entity = argFoo;
-                            if(!entity) { _fun101300_ip = 30; continue _fun101300 }
+                            if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  6:
                             zulu = _closure2_slot0;
                             mike = _closure1_slot6;
                             mike = mike.SYSTEM;
                             entity = zulu !== mike;
  30:
-                            if(!entity) { _fun101300_ip = 40; continue _fun101300 }
+                            if(!entity) { _fun00004_ip = 40; continue _fun00003 }
  33:
                             entity = _closure2_slot2;
  40:
-                            if(!entity) { _fun101300_ip = 70; continue _fun101300 }
+                            if(!entity) { _fun00004_ip = 70; continue _fun00003 }
  43:
                             zulu = _closure2_slot1;
                             entity = _closure1_slot6;
@@ -117,10 +117,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = _closure1_slot6;
             tango = entity.SYSTEM;
             entity = null;
-            if(!(golf !== tango)) { _fun101297_ip = 208; continue _fun101297 }
+            if(!(golf !== tango)) { _fun00002_ip = 208; continue _fun00001 }
  145:
             entity = null;
-            if(mike) { _fun101297_ip = 208; continue _fun101297 }
+            if(mike) { _fun00002_ip = 208; continue _fun00001 }
  150:
             tango = _closure1_slot7;
             zulu = _closure1_slot4;

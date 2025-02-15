@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/Footer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun105107: for(var _fun105107_ip = 0; ; ) switch(_fun105107_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.style;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             report = entity == zulu;
             yankee = undefined;
-            if(report) { _fun105107_ip = 155; continue _fun105107 }
+            if(report) { _fun00002_ip = 155; continue _fun00001 }
  149:
             yankee = zulu.subscription_trial;
  155:
@@ -151,14 +151,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = {};
             romeo = entity == yankee;
             offset = undefined;
-            if(romeo) { _fun105107_ip = 198; continue _fun105107 }
+            if(romeo) { _fun00002_ip = 198; continue _fun00001 }
  192:
             offset = yankee.interval;
  198:
             zulu['intervalType'] = offset;
             romeo = entity == yankee;
             offset = undefined;
-            if(romeo) { _fun105107_ip = 218; continue _fun105107 }
+            if(romeo) { _fun00002_ip = 218; continue _fun00001 }
  212:
             offset = yankee.interval_count;
  218:
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = verify;
             report[1] = options;
             entity['style'] = report;
-            if(!golf) { _fun105107_ip = 565; continue _fun105107 }
+            if(!golf) { _fun00002_ip = 565; continue _fun00001 }
  273:
             verify = _closure1_slot8;
             options = _closure1_slot7;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = {};
             echo = kilo.button;
             yankee['style'] = echo;
-            if(output) { _fun105107_ip = 486; continue _fun105107 }
+            if(output) { _fun00002_ip = 486; continue _fun00001 }
  434:
             source = _closure1_slot0;
             output = _closure1_slot2;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.buttonText;
             yankee['textStyle'] = kilo;
             backup = function() { // Original name: onPress
-                _fun105108: for(var _fun105108_ip = 0; ; ) switch(_fun105108_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -250,10 +250,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['analyticsLocations'] = report;
                     golf = _closure2_slot2;
                     report = undefined;
-                    if(golf) { _fun105108_ip = 66; continue _fun105108 }
+                    if(golf) { _fun00004_ip = 66; continue _fun00003 }
  59:
                     report = function(argFoo) {
-                        _fun105109: for(var _fun105109_ip = 0; ; ) switch(_fun105109_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             mike = argFoo;
                             entity = mike.additionalPlans;
@@ -264,21 +264,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             entity = entity.length;
                             mike = 0;
                             entity = mike === entity;
-                            if(!entity) { _fun105109_ip = 50; continue _fun105109 }
+                            if(!entity) { _fun00006_ip = 50; continue _fun00005 }
  47:
                             entity = !oscar;
  50:
-                            if(!entity) { _fun105109_ip = 57; continue _fun105109 }
+                            if(!entity) { _fun00006_ip = 57; continue _fun00005 }
  53:
                             entity = mike === report;
  57:
-                            if(!entity) { _fun105109_ip = 77; continue _fun105109 }
+                            if(!entity) { _fun00006_ip = 77; continue _fun00005 }
  60:
                             mike = _closure1_slot4;
                             mike = mike.MONTH;
                             entity = tango === mike;
  77:
-                            if(!entity) { _fun105109_ip = 97; continue _fun105109 }
+                            if(!entity) { _fun00006_ip = 97; continue _fun00005 }
  80:
                             mike = _closure1_slot5;
                             mike = mike.TIER_1;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['predicate'] = report;
                     golf = _closure2_slot2;
                     report = undefined;
-                    if(golf) { _fun105108_ip = 87; continue _fun105108 }
+                    if(golf) { _fun00004_ip = 87; continue _fun00003 }
  80:
                     report = function(argFoo) {
                         entity = argFoo;

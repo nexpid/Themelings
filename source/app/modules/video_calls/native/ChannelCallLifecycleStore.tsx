@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun73418: for(var _fun73418_ip = 0; ; ) switch(_fun73418_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot17;
             entity = entity.bind(zulu)();
-            if(entity) { _fun73418_ip = 51; continue _fun73418 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun73418_ip = 92; continue _fun73418;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun73418_ip = 71; continue _fun73418 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot16 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun73419: for(var _fun73419_ip = 0; ; ) switch(_fun73419_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun73419_ip = 76; continue _fun73419;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -225,10 +225,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isReactingToThermalState';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun73428: for(var _fun73428_ip = 0; ; ) switch(_fun73428_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure1_slot10;
-                if(!entity) { _fun73428_ip = 17; continue _fun73428 }
+                if(!entity) { _fun00006_ip = 17; continue _fun00005 }
  10:
                 mike = _closure1_slot11;
                 entity = !mike;
@@ -276,17 +276,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     output = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handleVoiceChannelSelect
-        _fun73432: for(var _fun73432_ip = 0; ; ) switch(_fun73432_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73432_ip = 68; continue _fun73432 }
+            if(!(mike != entity)) { _fun00008_ip = 68; continue _fun00007 }
  9:
             tango = _closure1_slot7;
             entity = tango.getVoiceChannelId;
             entity = entity.bind(tango)();
             tango = _closure1_slot8;
-            if(!(entity !== tango)) { _fun73432_ip = 60; continue _fun73432 }
+            if(!(entity !== tango)) { _fun00008_ip = 60; continue _fun00007 }
  34:
             tango = false;
             _closure1_slot9 = tango;
@@ -309,11 +309,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['VOICE_CHANNEL_SELECT'] = verify;
     verify = function(argFoo) { // Original name: handleRequestRespondToSeriousThermalState
-        _fun73433: for(var _fun73433_ip = 0; ; ) switch(_fun73433_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73433_ip = 22; continue _fun73433 }
+            if(!(mike != entity)) { _fun00010_ip = 22; continue _fun00009 }
  9:
             entity = true;
             _closure1_slot9 = entity;
@@ -329,11 +329,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['EMBEDDED_ACTIVITY_REQUEST_RESPOND_TO_SERIOUS_THERMAL_STATE'] = verify;
     verify = function(argFoo) { // Original name: handleConsumeReactToSeriousThermalStateRequest
-        _fun73434: for(var _fun73434_ip = 0; ; ) switch(_fun73434_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73434_ip = 22; continue _fun73434 }
+            if(!(mike != entity)) { _fun00012_ip = 22; continue _fun00011 }
  9:
             entity = true;
             _closure1_slot10 = entity;
@@ -349,11 +349,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['EMBEDDED_ACTIVITY_CONSUME_RESPOND_TO_SERIOUS_THERMAL_STATE_REQUEST'] = verify;
     verify = function(argFoo) { // Original name: handleDisregardSeriousThermalState
-        _fun73435: for(var _fun73435_ip = 0; ; ) switch(_fun73435_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73435_ip = 22; continue _fun73435 }
+            if(!(mike != entity)) { _fun00014_ip = 22; continue _fun00013 }
  9:
             entity = true;
             _closure1_slot11 = entity;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['EMBEDDED_ACTIVITY_SET_DEBUG_OVERLAY_VISIBILITY'] = verify;
     verify = function(argFoo) { // Original name: handleVoiceCallOverlayLayoutStateUpdate
-        _fun73437: for(var _fun73437_ip = 0; ; ) switch(_fun73437_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             tango = entity.voiceCallOverlayType;
@@ -395,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = undefined;
             tango = oscar.bind(entity)(tango);
             tango = tango.bind(entity)(mike, report);
-            if(tango) { _fun73437_ip = 74; continue _fun73437 }
+            if(tango) { _fun00016_ip = 74; continue _fun00015 }
  70:
             _closure1_slot14 = mike;
  74:
@@ -412,11 +412,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM'] = verify;
     verify = function(argFoo) { // Original name: handleEmbeddedActivityOpen
-        _fun73439: for(var _fun73439_ip = 0; ; ) switch(_fun73439_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73439_ip = 22; continue _fun73439 }
+            if(!(mike != entity)) { _fun00018_ip = 22; continue _fun00017 }
  9:
             entity = true;
             _closure1_slot15 = entity;
@@ -432,11 +432,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['EMBEDDED_ACTIVITY_OPEN'] = verify;
     tango = function(argFoo) { // Original name: handleStreamWatch
-        _fun73440: for(var _fun73440_ip = 0; ; ) switch(_fun73440_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun73440_ip = 22; continue _fun73440 }
+            if(!(mike != entity)) { _fun00020_ip = 22; continue _fun00019 }
  9:
             entity = true;
             _closure1_slot15 = entity;

@@ -1,6 +1,6 @@
 // app/modules/media_viewer/native/components/MediaSlider.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun85575: for(var _fun85575_ip = 0; ; ) switch(_fun85575_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = kilo.isAndroid;
         kilo = foxtrot.bind(kilo)();
         foxtrot = undefined;
-        if(!kilo) { _fun85575_ip = 233; continue _fun85575 }
+        if(!kilo) { _fun00002_ip = 233; continue _fun00001 }
  230:
         foxtrot = backup;
  233:
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = report.bind(entity)(romeo);
         romeo = foxtrot.isAndroid;
         romeo = romeo.bind(foxtrot)();
-        if(!romeo) { _fun85575_ip = 301; continue _fun85575 }
+        if(!romeo) { _fun00002_ip = 301; continue _fun00001 }
  299:
         offset = 0;
  301:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/media_viewer/native/components/MediaSlider.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: MediaSlider
-            _fun85576: for(var _fun85576_ip = 0; ; ) switch(_fun85576_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 golf = mike.style;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = zulu.bind(entity)(mike);
                     zulu = tango.throttle;
                     mike = function(argFoo) {
-                        _fun85580: for(var _fun85580_ip = 0; ; ) switch(_fun85580_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             report = argFoo;
                             zulu = _closure2_slot6;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             zulu = _closure2_slot7;
                             mike = 'transparent';
                             tango = 1;
-                            if(!(tango === report)) { _fun85580_ip = 96; continue _fun85580 }
+                            if(!(tango === report)) { _fun00006_ip = 96; continue _fun00005 }
  32:
                             report = _closure1_slot1;
                             oscar = _closure1_slot2;
@@ -260,10 +260,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu[0] = entity;
                 zulu[1] = options;
                 mike = function() {
-                    _fun85586: for(var _fun85586_ip = 0; ; ) switch(_fun85586_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         mike = _closure2_slot1;
-                        if(mike) { _fun85586_ip = 37; continue _fun85586 }
+                        if(mike) { _fun00008_ip = 37; continue _fun00007 }
  10:
                         tango = _closure2_slot0;
                         zulu = tango.pause;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = new Array(1);
                 mike[0] = entity;
                 entity = function(argFoo) {
-                    _fun85587: for(var _fun85587_ip = 0; ; ) switch(_fun85587_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         tango = _closure2_slot0;
                         zulu = tango.seek;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = zulu.bind(tango)(mike);
                         mike = _closure2_slot4;
                         mike = mike.current;
-                        if(!mike) { _fun85587_ip = 60; continue _fun85587 }
+                        if(!mike) { _fun00010_ip = 60; continue _fun00009 }
  33:
                         tango = _closure2_slot0;
                         zulu = tango.pause;
@@ -339,21 +339,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = result[offset];
                 offset = yankee.bind(tango)(offset);
                 yankee = offset.t;
-                if(options) { _fun85576_ip = 561; continue _fun85576 }
+                if(options) { _fun00004_ip = 561; continue _fun00003 }
  548:
                 offset = yankee.ZcgDJS;
                 offset = kilo.bind(output)(offset);
-                _fun85576_ip = 572; continue _fun85576;
+                _fun00004_ip = 572; continue _fun00003;
  561:
                 yankee = yankee.RscU7O;
                 offset = kilo.bind(output)(yankee);
  572:
                 report['accessibilityLabel'] = offset;
                 offset = function() { // Original name: onPress
-                    _fun85588: for(var _fun85588_ip = 0; ; ) switch(_fun85588_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         mike = _closure2_slot1;
-                        if(!mike) { _fun85588_ip = 20; continue _fun85588 }
+                        if(!mike) { _fun00012_ip = 20; continue _fun00011 }
  10:
                         zulu = _closure2_slot3;
                         mike = undefined;
@@ -374,13 +374,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = _closure1_slot6;
                 kilo = _closure1_slot0;
                 output = _closure1_slot2;
-                if(options) { _fun85576_ip = 641; continue _fun85576 }
+                if(options) { _fun00004_ip = 641; continue _fun00003 }
  621:
                 options = 12;
                 options = output[options];
                 options = kilo.bind(tango)(options);
                 offset = options.PauseIcon;
-                _fun85576_ip = 659; continue _fun85576;
+                _fun00004_ip = 659; continue _fun00003;
  641:
                 options = 11;
                 options = output[options];

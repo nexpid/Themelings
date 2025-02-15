@@ -28,16 +28,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/avatar_decorations/native/AvatarDecorationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getDecorationSizeForAvatarSize
-        _fun63276: for(var _fun63276_ip = 0; ; ) switch(_fun63276_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = 'number';
             entity = typeof tango;
-            if(!(mike === entity)) { _fun63276_ip = 27; continue _fun63276 }
+            if(!(mike === entity)) { _fun00002_ip = 27; continue _fun00001 }
  14:
             entity = _closure1_slot3;
             entity = tango * entity;
-            _fun63276_ip = 70; continue _fun63276;
+            _fun00002_ip = 70; continue _fun00001;
  27:
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -55,14 +55,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getDecorationSizeForAvatarSize'] = tango;
     tango = function(argFoo, argBar) { // Original name: getDecorationCutoutForAvatarCutout
-        _fun63277: for(var _fun63277_ip = 0; ; ) switch(_fun63277_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             golf = argBar;
             var _closure2_slot0 = golf;
             report = null;
             entity = oscar;
-            if(!(report != entity)) { _fun63277_ip = 153; continue _fun63277 }
+            if(!(report != entity)) { _fun00004_ip = 153; continue _fun00003 }
  24:
             mike = {};
             zulu = oscar.direction;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = oscar.inset;
             verify = report != options;
             zulu = 0;
-            if(!verify) { _fun63277_ip = 66; continue _fun63277 }
+            if(!verify) { _fun00004_ip = 66; continue _fun00003 }
  63:
             zulu = options;
  66:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['imageType'] = golf;
             oscar = oscar.nativeCutouts;
             report = report == oscar;
-            if(report) { _fun63277_ip = 145; continue _fun63277 }
+            if(report) { _fun00004_ip = 145; continue _fun00003 }
  130:
             report = oscar.map;
             tango = function(argFoo) {

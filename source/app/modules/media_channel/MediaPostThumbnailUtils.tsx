@@ -23,30 +23,30 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 4;
     zulu['MAX_THUMBNAIL_COUNT'] = tango;
     tango = function(argFoo) { // Original name: getEmbedPreviewImageUrl
-        _fun54427: for(var _fun54427_ip = 0; ; ) switch(_fun54427_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = null;
-            if(!(zulu != entity)) { _fun54427_ip = 29; continue _fun54427 }
+            if(!(zulu != entity)) { _fun00002_ip = 29; continue _fun00001 }
  9:
             mike = entity.thumbnail;
             tango = entity.image;
-            if(!(zulu == mike)) { _fun54427_ip = 50; continue _fun54427 }
+            if(!(zulu == mike)) { _fun00002_ip = 50; continue _fun00001 }
  25:
-            if(!(zulu == tango)) { _fun54427_ip = 33; continue _fun54427 }
+            if(!(zulu == tango)) { _fun00002_ip = 33; continue _fun00001 }
  29:
             entity = undefined;
             return entity;
  33:
             entity = tango.proxy_url;
-            if(!(zulu == entity)) { _fun54427_ip = 48; continue _fun54427 }
+            if(!(zulu == entity)) { _fun00002_ip = 48; continue _fun00001 }
  43:
             entity = tango.url;
  48:
             return entity;
  50:
             entity = mike.proxy_url;
-            if(!(zulu == entity)) { _fun54427_ip = 65; continue _fun54427 }
+            if(!(zulu == entity)) { _fun00002_ip = 65; continue _fun00001 }
  60:
             entity = mike.url;
  65:
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getEmbedPreviewImageUrl'] = tango;
     tango = function(argFoo) { // Original name: getBackgroundImageUrl
-        _fun54428: for(var _fun54428_ip = 0; ; ) switch(_fun54428_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(zulu)(mike);
             mike = oscar.isAnimatedImageUrl;
             mike = mike.bind(oscar)(report);
-            if(mike) { _fun54428_ip = 75; continue _fun54428 }
+            if(mike) { _fun00004_ip = 75; continue _fun00003 }
  41:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.isVideoUrl;
             mike = entity.bind(mike)(report);
             entity = report;
-            if(!mike) { _fun54428_ip = 104; continue _fun54428 }
+            if(!mike) { _fun00004_ip = 104; continue _fun00003 }
  75:
             mike = global;
             mike = mike.HermesInternal;
@@ -89,11 +89,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getBackgroundImageUrl'] = tango;
     mike = function(argFoo) { // Original name: getThumbnailImage
-        _fun54429: for(var _fun54429_ip = 0; ; ) switch(_fun54429_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike == entity)) { _fun54429_ip = 13; continue _fun54429 }
+            if(!(mike == entity)) { _fun00006_ip = 13; continue _fun00005 }
  9:
             zulu = undefined;
             return zulu;
@@ -101,10 +101,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = entity.url;
             oscar = entity.proxy_url;
             entity = tango;
-            if(!(mike != tango)) { _fun54429_ip = 111; continue _fun54429 }
+            if(!(mike != tango)) { _fun00006_ip = 111; continue _fun00005 }
  31:
             entity = tango;
-            if(!(mike != oscar)) { _fun54429_ip = 111; continue _fun54429 }
+            if(!(mike != oscar)) { _fun00006_ip = 111; continue _fun00005 }
  38:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.isVideoUrl;
             zulu = mike.bind(zulu)(tango);
             mike = oscar;
-            if(!zulu) { _fun54429_ip = 108; continue _fun54429 }
+            if(!zulu) { _fun00006_ip = 108; continue _fun00005 }
  79:
             zulu = global;
             zulu = zulu.HermesInternal;

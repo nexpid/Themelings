@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(mike)(entity);
             mike = zulu.pickBy;
             entity = function(argFoo) {
-                _fun72096: for(var _fun72096_ip = 0; ; ) switch(_fun72096_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     zulu = typeof entity;
                     entity = 'number';
                     entity = entity !== zulu;
-                    if(!entity) { _fun72096_ip = 25; continue _fun72096 }
+                    if(!entity) { _fun00002_ip = 25; continue _fun00001 }
  17:
                     mike = 'boolean';
                     entity = mike !== zulu;
@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(report)(entity);
             mike = tango.pickBy;
             entity = function(argFoo) {
-                _fun72098: for(var _fun72098_ip = 0; ; ) switch(_fun72098_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     zulu = typeof entity;
                     entity = 'number';
                     entity = entity === zulu;
-                    if(entity) { _fun72098_ip = 25; continue _fun72098 }
+                    if(entity) { _fun00004_ip = 25; continue _fun00003 }
  17:
                     mike = 'boolean';
                     entity = mike === zulu;

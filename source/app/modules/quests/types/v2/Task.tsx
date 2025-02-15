@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = '__esModule';
     entity = golf.bind(options)(zulu, entity, oscar);
     entity = function(argFoo) { // Original name: _firstPartyTasksFromServer
-        _fun67271: for(var _fun67271_ip = 0; ; ) switch(_fun67271_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = {};
@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 0;
             mike = tango < mike;
             zulu = null;
-            if(!mike) { _fun67271_ip = 106; continue _fun67271 }
+            if(!mike) { _fun00002_ip = 106; continue _fun00001 }
  39:
             golf = report[tango];
             options = oscar[golf];
-            if(!(zulu != options)) { _fun67271_ip = 94; continue _fun67271 }
+            if(!(zulu != options)) { _fun00002_ip = 94; continue _fun00001 }
  51:
             mike = {};
             verify = options.event_name;
@@ -43,14 +43,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  94:
             tango = tango + 1;
             mike = report.length;
-            if(tango < mike) { _fun67271_ip = 39; continue _fun67271 }
+            if(tango < mike) { _fun00002_ip = 39; continue _fun00001 }
  106:
             return entity;
         }
     };
     var _closure1_slot2 = entity;
     entity = function(argFoo) { // Original name: _thirdPartyTasksFromServer
-        _fun67272: for(var _fun67272_ip = 0; ; ) switch(_fun67272_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             entity = {};
@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 0;
             mike = tango < mike;
             zulu = null;
-            if(!mike) { _fun67272_ip = 109; continue _fun67272 }
+            if(!mike) { _fun00004_ip = 109; continue _fun00003 }
  39:
             golf = report[tango];
             options = oscar[golf];
-            if(!(zulu != options)) { _fun67272_ip = 97; continue _fun67272 }
+            if(!(zulu != options)) { _fun00004_ip = 97; continue _fun00003 }
  51:
             mike = {};
             verify = options.event_name;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
  97:
             tango = tango + 1;
             mike = report.length;
-            if(tango < mike) { _fun67272_ip = 39; continue _fun67272 }
+            if(tango < mike) { _fun00004_ip = 39; continue _fun00003 }
  109:
             return entity;
         }
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/quests/types/v2/Task.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun67273: for(var _fun67273_ip = 0; ; ) switch(_fun67273_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             tango = mike.type;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(report)(entity);
             entity = entity.QuestTaskConfigTypes;
             entity = entity.FIRST_PARTY;
-            if(!(entity !== tango)) { _fun67273_ip = 184; continue _fun67273 }
+            if(!(entity !== tango)) { _fun00006_ip = 184; continue _fun00005 }
  51:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.bind(report)(entity);
             entity = entity.QuestTaskConfigTypes;
             entity = entity.THIRD_PARTY;
-            if(!(entity !== tango)) { _fun67273_ip = 86; continue _fun67273 }
+            if(!(entity !== tango)) { _fun00006_ip = 86; continue _fun00005 }
  84:
             return report;
  86:

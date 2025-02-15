@@ -19,11 +19,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/quests/types/v2/Video.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: questVideoMetadataFromServer
-        _fun67280: for(var _fun67280_ip = 0; ; ) switch(_fun67280_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity == zulu)) { _fun67280_ip = 13; continue _fun67280 }
+            if(!(entity == zulu)) { _fun00002_ip = 13; continue _fun00001 }
  9:
             entity = undefined;
             return entity;

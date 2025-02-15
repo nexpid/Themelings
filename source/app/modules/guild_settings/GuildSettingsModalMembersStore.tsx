@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun81684: for(var _fun81684_ip = 0; ; ) switch(_fun81684_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -16,16 +16,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot13;
             entity = entity.bind(zulu)();
-            if(entity) { _fun81684_ip = 51; continue _fun81684 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun81684_ip = 92; continue _fun81684;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun81684_ip = 71; continue _fun81684 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun81685: for(var _fun81685_ip = 0; ; ) switch(_fun81685_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun81685_ip = 76; continue _fun81685;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     backup = golf.bind(entity)(mike);
     mike = {};
     yankee = function(argFoo) { // Original name: handleStartEditingRoles
-        _fun81698: for(var _fun81698_ip = 0; ; ) switch(_fun81698_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.guildId;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.getMember;
             entity = entity.bind(tango)(report, zulu);
             tango = null;
-            if(!(tango != entity)) { _fun81698_ip = 76; continue _fun81698 }
+            if(!(tango != entity)) { _fun00006_ip = 76; continue _fun00005 }
  38:
             tango = _closure1_slot6;
             tango = tango.OPEN;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike['GUILD_SETTINGS_MODAL_MEMBERS_STOP_EDITING'] = offset;
     mike['GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE_COMPLETE'] = offset;
     offset = function(argFoo) { // Original name: handleToggleRole
-        _fun81699: for(var _fun81699_ip = 0; ; ) switch(_fun81699_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             tango = mike.roleId;
@@ -274,10 +274,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.state;
             oscar = _closure1_slot11;
             report = null;
-            if(!(report != oscar)) { _fun81699_ip = 98; continue _fun81699 }
+            if(!(report != oscar)) { _fun00008_ip = 98; continue _fun00007 }
  33:
             oscar = _closure1_slot11;
-            if(zulu) { _fun81699_ip = 59; continue _fun81699 }
+            if(zulu) { _fun00008_ip = 59; continue _fun00007 }
  40:
             zulu = oscar.filter;
             entity = function(argFoo) {
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = zulu.bind(oscar)(entity);
-            _fun81699_ip = 90; continue _fun81699;
+            _fun00008_ip = 90; continue _fun00007;
  59:
             zulu = new Array(1);
             golf = 0;

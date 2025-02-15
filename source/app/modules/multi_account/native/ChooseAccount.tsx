@@ -142,13 +142,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = entity.multiAccountUsers;
         var _closure2_slot1 = foxtrot;
         entity = function(argFoo) { // Original name: handlePressUser
-            _fun111600: for(var _fun111600_ip = 0; ; ) switch(_fun111600_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 tango = zulu.tokenStatus;
                 mike = _closure1_slot6;
                 mike = mike.INVALID;
-                if(!(tango !== mike)) { _fun111600_ip = 66; continue _fun111600 }
+                if(!(tango !== mike)) { _fun00002_ip = 66; continue _fun00001 }
  26:
                 report = _closure1_slot2;
                 tango = _closure1_slot3;
@@ -186,12 +186,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* (argFoo) {
                 entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun111603: for(var _fun111603_ip = 0; ; ) switch(_fun111603_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         tango = argFoo;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun111603_ip = 468; continue _fun111603 }
+                        if(mike) { _fun00004_ip = 468; continue _fun00003 }
  13:
                         oscar = _closure1_slot1;
                         options = _closure1_slot3;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         options = {};
                         backup = tango.discriminator;
                         foxtrot = '0';
-                        if(!(foxtrot !== backup)) { _fun111603_ip = 199; continue _fun111603 }
+                        if(!(foxtrot !== backup)) { _fun00004_ip = 199; continue _fun00003 }
  158:
                         output = tango.username;
                         sizing = tango.discriminator;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         backup = '';
                         foxtrot = '#';
                         foxtrot = kilo.bind(backup)(output, foxtrot, sizing);
-                        _fun111603_ip = 226; continue _fun111603;
+                        _fun00004_ip = 226; continue _fun00003;
  199:
                         sizing = tango.username;
                         backup = global;
@@ -282,9 +282,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  391:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun111603_ip = 465; continue _fun111603 }
+                        if(oscar) { _fun00004_ip = 465; continue _fun00003 }
  397:
-                        if(!mike) { _fun111603_ip = 462; continue _fun111603 }
+                        if(!mike) { _fun00004_ip = 462; continue _fun00003 }
  400:
                         options = _closure1_slot1;
                         golf = _closure1_slot3;
@@ -539,19 +539,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         kilo = kilo.addAccountLabel;
         romeo['labelStyle'] = kilo;
         backup = function() { // Original name: onPress
-            _fun111611: for(var _fun111611_ip = 0; ; ) switch(_fun111611_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = _closure2_slot1;
                 zulu = mike.length;
                 mike = _closure1_slot7;
-                if(!(!(zulu >= mike))) { _fun111611_ip = 52; continue _fun111611 }
+                if(!(!(zulu >= mike))) { _fun00006_ip = 52; continue _fun00005 }
  23:
                 zulu = _closure2_slot0;
                 mike = zulu.push;
                 entity = _closure1_slot9;
                 entity = entity.LOGIN;
                 entity = mike.bind(zulu)(entity);
-                _fun111611_ip = 209; continue _fun111611;
+                _fun00006_ip = 209; continue _fun00005;
  52:
                 mike = _closure1_slot1;
                 offset = _closure1_slot3;

@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ThemedHeaderBackgroundGradient
-        _fun118243: for(var _fun118243_ip = 0; ; ) switch(_fun118243_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.baseColor;
             tango = undefined;
-            if(!(offset === tango)) { _fun118243_ip = 49; continue _fun118243 }
+            if(!(offset === tango)) { _fun00002_ip = 49; continue _fun00001 }
  15:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.BG_BASE_TERTIARY;
  49:
             oscar = entity.minHeight;
-            if(!(oscar === tango)) { _fun118243_ip = 62; continue _fun118243 }
+            if(!(oscar === tango)) { _fun00002_ip = 62; continue _fun00001 }
  59:
             oscar = 16;
  62:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             zulu = zulu != mike;
             options = 'transparent';
-            if(!zulu) { _fun118243_ip = 166; continue _fun118243 }
+            if(!zulu) { _fun00002_ip = 166; continue _fun00001 }
  163:
             options = mike;
  166:

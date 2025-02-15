@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/PremiumMarketingPage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun105073: for(var _fun105073_ip = 0; ; ) switch(_fun105073_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.userHasSubscription;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = oscar.bind(golf)(mike, report);
             offset = null;
-            if(!(offset == entity)) { _fun105073_ip = 305; continue _fun105073 }
+            if(!(offset == entity)) { _fun00002_ip = 305; continue _fun00001 }
  298:
             entity = function() {
                 mike = _closure2_slot1;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  305:
             _closure2_slot5 = entity;
             vacuum = !foxtrot;
-            if(!vacuum) { _fun105073_ip = 508; continue _fun105073 }
+            if(!vacuum) { _fun00002_ip = 508; continue _fun00001 }
  318:
             report = _closure1_slot9;
             golf = _closure1_slot0;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = report.bind(tango)(mike, entity);
  508:
             backup = offset != zulu;
-            if(!backup) { _fun105073_ip = 546; continue _fun105073 }
+            if(!backup) { _fun00002_ip = 546; continue _fun00001 }
  515:
             mike = _closure1_slot1;
             report = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = oscar;
             oscar = {};
             golf = 0;
-            if(foxtrot) { _fun105073_ip = 665; continue _fun105073 }
+            if(foxtrot) { _fun00002_ip = 665; continue _fun00001 }
  662:
             golf = options;
  665:
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             context = kilo.scrollContainer;
             oscar['contentContainerStyle'] = context;
             record = function(argFoo) { // Original name: onScroll
-                _fun105077: for(var _fun105077_ip = 0; ; ) switch(_fun105077_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.nativeEvent;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = entity.contentOffset;
                     zulu = entity.contentSize;
                     mike = _closure2_slot3;
-                    if(mike) { _fun105077_ip = 59; continue _fun105077 }
+                    if(mike) { _fun00004_ip = 59; continue _fun00003 }
  36:
                     report = report.height;
                     tango = tango.y;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.height;
                     mike = tango < zulu;
  59:
-                    if(mike) { _fun105077_ip = 130; continue _fun105077 }
+                    if(mike) { _fun00004_ip = 130; continue _fun00003 }
  62:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[1] = sizing;
             verify[2] = romeo;
             romeo = null;
-            if(!backup) { _fun105073_ip = 837; continue _fun105073 }
+            if(!backup) { _fun00002_ip = 837; continue _fun00001 }
  782:
             vacuum = _closure1_slot9;
             sizing = _closure1_slot5;
@@ -372,10 +372,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = kilo.accountCreditContainer;
             config = new Array(2);
             config[0] = record;
-            if(foxtrot) { _fun105073_ip = 817; continue _fun105073 }
+            if(foxtrot) { _fun00002_ip = 817; continue _fun00001 }
  809:
             record = kilo.accountCreditContainerWithSpacing;
-            _fun105073_ip = 819; continue _fun105073;
+            _fun00002_ip = 819; continue _fun00001;
  817:
             record = {};
  819:
@@ -392,10 +392,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = vacuum[romeo];
             backup = backup.bind(tango)(romeo);
             romeo = {};
-            if(foxtrot) { _fun105073_ip = 874; continue _fun105073 }
+            if(foxtrot) { _fun00002_ip = 874; continue _fun00001 }
  870:
             sequence = {};
-            _fun105073_ip = 880; continue _fun105073;
+            _fun00002_ip = 880; continue _fun00001;
  874:
             sequence = kilo.sectionWithTopMargin;
  880:
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = sizing.bind(tango)(backup, romeo);
             verify[4] = romeo;
             offset = null;
-            if(yankee) { _fun105073_ip = 977; continue _fun105073 }
+            if(yankee) { _fun00002_ip = 977; continue _fun00001 }
  917:
             backup = _closure1_slot9;
             romeo = _closure1_slot1;

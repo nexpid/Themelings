@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldShowGiftingPromotionDeco
-        _fun87803: for(var _fun87803_ip = 0; ; ) switch(_fun87803_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -40,25 +40,25 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.claimableRewards;
             oscar = entity.premiumType;
             entity = null;
-            if(!(entity == report)) { _fun87803_ip = 72; continue _fun87803 }
+            if(!(entity == report)) { _fun00002_ip = 72; continue _fun00001 }
  56:
             mike = _closure1_slot2;
             mike = mike.TIER_2;
             mike = oscar === mike;
-            _fun87803_ip = 86; continue _fun87803;
+            _fun00002_ip = 86; continue _fun00001;
  72:
             tango = _closure1_slot2;
             tango = tango.TIER_2;
             mike = report === tango;
  86:
             entity = entity != zulu;
-            if(!entity) { _fun87803_ip = 104; continue _fun87803 }
+            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
  93:
             tango = zulu.length;
             zulu = 0;
             entity = tango > zulu;
  104:
-            if(!entity) { _fun87803_ip = 110; continue _fun87803 }
+            if(!entity) { _fun00002_ip = 110; continue _fun00001 }
  107:
             entity = mike;
  110:

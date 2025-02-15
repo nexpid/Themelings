@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69733: for(var _fun69733_ip = 0; ; ) switch(_fun69733_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -71,10 +71,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69733_ip = 81; continue _fun69733 }
+            if(entity) { _fun00002_ip = 81; continue _fun00001 }
  73:
             entity = mike.PRIMARY_400;
-            _fun69733_ip = 87; continue _fun69733;
+            _fun00002_ip = 87; continue _fun00001;
  81:
             entity = mike.PRIMARY_500;
  87:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69734: for(var _fun69734_ip = 0; ; ) switch(_fun69734_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isThemeDark;
             entity = entity.bind(zulu)(report);
-            if(entity) { _fun69734_ip = 119; continue _fun69734 }
+            if(entity) { _fun00004_ip = 119; continue _fun00003 }
  48:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.PRIMARY_500;
             entity = 0.3;
             entity = report.bind(oscar)(zulu, entity);
-            _fun69734_ip = 150; continue _fun69734;
+            _fun00004_ip = 150; continue _fun00003;
  119:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69735: for(var _fun69735_ip = 0; ; ) switch(_fun69735_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -152,10 +152,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69735_ip = 81; continue _fun69735 }
+            if(entity) { _fun00006_ip = 81; continue _fun00005 }
  73:
             entity = mike.PRIMARY_400;
-            _fun69735_ip = 87; continue _fun69735;
+            _fun00006_ip = 87; continue _fun00005;
  81:
             entity = mike.PRIMARY_500;
  87:
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69736: for(var _fun69736_ip = 0; ; ) switch(_fun69736_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -186,10 +186,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69736_ip = 81; continue _fun69736 }
+            if(entity) { _fun00008_ip = 81; continue _fun00007 }
  73:
             entity = mike.PRIMARY_400;
-            _fun69736_ip = 87; continue _fun69736;
+            _fun00008_ip = 87; continue _fun00007;
  81:
             entity = mike.PRIMARY_500;
  87:
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69737: for(var _fun69737_ip = 0; ; ) switch(_fun69737_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -220,10 +220,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69737_ip = 81; continue _fun69737 }
+            if(entity) { _fun00010_ip = 81; continue _fun00009 }
  73:
             entity = mike.PRIMARY_100;
-            _fun69737_ip = 87; continue _fun69737;
+            _fun00010_ip = 87; continue _fun00009;
  81:
             entity = mike.PRIMARY_500;
  87:
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69738: for(var _fun69738_ip = 0; ; ) switch(_fun69738_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             tango = entity.theme;
@@ -259,12 +259,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf[mike];
             mike = zulu.bind(oscar)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69738_ip = 119; continue _fun69738 }
+            if(entity) { _fun00012_ip = 119; continue _fun00011 }
  95:
             zulu = mike.PRIMARY_860;
             entity = 0.08;
             entity = tango.bind(report)(zulu, entity);
-            _fun69738_ip = 141; continue _fun69738;
+            _fun00012_ip = 141; continue _fun00011;
  119:
             zulu = mike.WHITE_500;
             mike = 0.06;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69739: for(var _fun69739_ip = 0; ; ) switch(_fun69739_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -297,10 +297,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report[mike];
             mike = zulu.bind(tango)(mike);
             mike = mike.unsafe_rawColors;
-            if(entity) { _fun69739_ip = 81; continue _fun69739 }
+            if(entity) { _fun00014_ip = 81; continue _fun00013 }
  73:
             entity = mike.PRIMARY_100;
-            _fun69739_ip = 87; continue _fun69739;
+            _fun00014_ip = 87; continue _fun00013;
  81:
             entity = mike.PRIMARY_600;
  87:
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69740: for(var _fun69740_ip = 0; ; ) switch(_fun69740_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isThemeDark;
             zulu = entity.bind(zulu)(report);
             entity = '#666b73';
-            if(zulu) { _fun69740_ip = 85; continue _fun69740 }
+            if(zulu) { _fun00016_ip = 85; continue _fun00015 }
  54:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     offset = oscar.bind(entity)(options);
     verify = offset.experimental_createToken;
     options = function(argFoo) {
-        _fun69741: for(var _fun69741_ip = 0; ; ) switch(_fun69741_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             report = entity.theme;
@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isThemeDark;
             entity = entity.bind(zulu)(report);
-            if(entity) { _fun69741_ip = 119; continue _fun69741 }
+            if(entity) { _fun00018_ip = 119; continue _fun00017 }
  48:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.PRIMARY_200;
             entity = 0.3;
             entity = report.bind(oscar)(zulu, entity);
-            _fun69741_ip = 150; continue _fun69741;
+            _fun00018_ip = 150; continue _fun00017;
  119:
             zulu = _closure1_slot1;
             report = _closure1_slot2;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = oscar.bind(entity)(report);
     options = verify.createNativeStyleProperties;
     report = function(argFoo) {
-        _fun69742: for(var _fun69742_ip = 0; ; ) switch(_fun69742_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             mike = argFoo;
             entity = {};
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['acceptLabelGreenColor'] = tango;
             tango = null;
             report = mike;
-            if(!(tango == mike)) { _fun69742_ip = 133; continue _fun69742 }
+            if(!(tango == mike)) { _fun00020_ip = 133; continue _fun00019 }
  105:
             verify = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['resolvingGradientEnd'] = report;
             report = _closure1_slot11;
             entity['resolvingGradientStart'] = report;
-            if(!(tango == mike)) { _fun69742_ip = 375; continue _fun69742 }
+            if(!(tango == mike)) { _fun00020_ip = 375; continue _fun00019 }
  371:
             mike = _closure1_slot12;
  375:

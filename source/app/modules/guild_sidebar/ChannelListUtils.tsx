@@ -19,25 +19,25 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/guild_sidebar/ChannelListUtils.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: hasStream
-        _fun54416: for(var _fun54416_ip = 0; ; ) switch(_fun54416_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun54416_ip = 62; continue _fun54416 }
+            if(!(entity != zulu)) { _fun00002_ip = 62; continue _fun00001 }
  9:
             entity = zulu.length;
             mike = 0;
             entity = mike < entity;
-            if(!entity) { _fun54416_ip = 54; continue _fun54416 }
+            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  23:
             entity = zulu[mike];
             entity = entity.voiceState;
             entity = entity.selfStream;
-            if(entity) { _fun54416_ip = 58; continue _fun54416 }
+            if(entity) { _fun00002_ip = 58; continue _fun00001 }
  42:
             mike = mike + 1;
             entity = zulu.length;
-            if(mike < entity) { _fun54416_ip = 23; continue _fun54416 }
+            if(mike < entity) { _fun00002_ip = 23; continue _fun00001 }
  54:
             entity = false;
             return entity;

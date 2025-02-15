@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_calls/native/audio_output_selector/showAudioOutputSelector.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: showAudioOutputSelector
-        _fun103329: for(var _fun103329_ip = 0; ; ) switch(_fun103329_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -43,16 +43,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(entity)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(zulu) { _fun103329_ip = 67; continue _fun103329 }
+            if(zulu) { _fun00002_ip = 67; continue _fun00001 }
  37:
             zulu = _closure1_slot3;
             tango = zulu.AudioRoutePicker;
             zulu = null;
-            if(!(zulu != tango)) { _fun103329_ip = 155; continue _fun103329 }
+            if(!(zulu != tango)) { _fun00002_ip = 155; continue _fun00001 }
  53:
             zulu = tango.showAudioPicker;
             zulu = zulu.bind(tango)();
-            _fun103329_ip = 155; continue _fun103329;
+            _fun00002_ip = 155; continue _fun00001;
  67:
             report = _closure1_slot1;
             zulu = _closure1_slot2;

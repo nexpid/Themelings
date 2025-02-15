@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/chat/native/ChatChangesetUpdateTracker.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getAndIncrementChangesetIdForChat
-        _fun89998: for(var _fun89998_ip = 0; ; ) switch(_fun89998_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = null;
             report = zulu != entity;
             zulu = 0;
-            if(!report) { _fun89998_ip = 34; continue _fun89998 }
+            if(!report) { _fun00002_ip = 34; continue _fun00001 }
  31:
             zulu = entity;
  34:
@@ -49,20 +49,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getAndIncrementChangesetIdForChat'] = tango;
     mike = function(argFoo) { // Original name: getChangesetIdForChat
-        _fun89999: for(var _fun89999_ip = 0; ; ) switch(_fun89999_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             tango = null;
             zulu = tango == oscar;
             entity = 0;
-            if(zulu) { _fun89999_ip = 46; continue _fun89999 }
+            if(zulu) { _fun00004_ip = 46; continue _fun00003 }
  14:
             report = _closure1_slot0;
             zulu = report.get;
             zulu = zulu.bind(report)(oscar);
             tango = tango != zulu;
             mike = 0;
-            if(!tango) { _fun89999_ip = 43; continue _fun89999 }
+            if(!tango) { _fun00004_ip = 43; continue _fun00003 }
  40:
             mike = zulu;
  43:

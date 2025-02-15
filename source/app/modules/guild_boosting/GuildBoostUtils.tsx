@@ -22,14 +22,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_boosting/GuildBoostUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getNumIncludedAndTenureRewardPremiumGuildSubscriptionSlots
-        _fun105113: for(var _fun105113_ip = 0; ; ) switch(_fun105113_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = null;
             entity = argBar;
             entity = mike != entity;
             zulu = 0;
             mike = 0;
-            if(!entity) { _fun105113_ip = 19; continue _fun105113 }
+            if(!entity) { _fun00002_ip = 19; continue _fun00001 }
  16:
             mike = 1;
  19:

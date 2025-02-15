@@ -24,30 +24,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/go_live/utils/getSoundshareAnalyticsContext.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getSoundshareAnalyticsContext
-        _fun105446: for(var _fun105446_ip = 0; ; ) switch(_fun105446_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             golf = null;
-            if(!(golf != tango)) { _fun105446_ip = 103; continue _fun105446 }
+            if(!(golf != tango)) { _fun00002_ip = 103; continue _fun00001 }
  9:
             options = tango.sourcePid;
             report = golf != options;
             zulu = undefined;
             mike = undefined;
-            if(!report) { _fun105446_ip = 78; continue _fun105446 }
+            if(!report) { _fun00002_ip = 78; continue _fun00001 }
  26:
             oscar = _closure1_slot0;
             report = oscar.getGameForPID;
             oscar = report.bind(oscar)(options);
             options = golf == oscar;
             report = undefined;
-            if(options) { _fun105446_ip = 58; continue _fun105446 }
+            if(options) { _fun00002_ip = 58; continue _fun00001 }
  53:
             report = oscar.name;
  58:
             golf = golf == oscar;
             entity = undefined;
-            if(golf) { _fun105446_ip = 72; continue _fun105446 }
+            if(golf) { _fun00002_ip = 72; continue _fun00001 }
  67:
             entity = oscar.id;
  72:

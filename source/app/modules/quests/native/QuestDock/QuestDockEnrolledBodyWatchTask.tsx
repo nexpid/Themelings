@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun96452: for(var _fun96452_ip = 0; ; ) switch(_fun96452_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
             mike = {};
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['padding'] = tango;
             options = argFoo;
             tango = undefined;
-            if(!options) { _fun96452_ip = 396; continue _fun96452 }
+            if(!options) { _fun00002_ip = 396; continue _fun00001 }
  394:
             tango = 0;
  396:
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestDock/QuestDockEnrolledBodyWatchTask.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: QuestDockEnrolledBodyWatchTask
-        _fun96453: for(var _fun96453_ip = 0; ; ) switch(_fun96453_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             foxtrot = function() { // Original name: handleClose
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.fullHeight;
             tango = undefined;
             golf = tango !== mike;
-            if(!golf) { _fun96453_ip = 30; continue _fun96453 }
+            if(!golf) { _fun00004_ip = 30; continue _fun00003 }
  27:
             golf = mike;
  30:
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = mike;
             mike = entity.paddingTop;
             options = 0;
-            if(!(tango !== mike)) { _fun96453_ip = 55; continue _fun96453 }
+            if(!(tango !== mike)) { _fun00004_ip = 55; continue _fun00003 }
  52:
             options = mike;
  55:
             entity = entity.paddingBottom;
             offset = 0;
-            if(!(tango !== entity)) { _fun96453_ip = 70; continue _fun96453 }
+            if(!(tango !== entity)) { _fun00004_ip = 70; continue _fun00003 }
  67:
             offset = entity;
  70:
@@ -218,12 +218,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = copyDataProperties(papa, context);
             oscar = yankee.get;
             oscar = oscar.bind(yankee)();
-            if(golf) { _fun96453_ip = 206; continue _fun96453 }
+            if(golf) { _fun00004_ip = 206; continue _fun00003 }
  190:
             golf = oscar.maxContentHeight;
             golf = golf - offset;
             golf = golf - options;
-            _fun96453_ip = 211; continue _fun96453;
+            _fun00004_ip = 211; continue _fun00003;
  206:
             golf = oscar.height;
  211:

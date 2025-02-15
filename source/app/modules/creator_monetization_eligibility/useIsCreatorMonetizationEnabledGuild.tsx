@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: isCreatorMonetizationEnabledGuild
-        _fun72324: for(var _fun72324_ip = 0; ; ) switch(_fun72324_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = report.hasFeature;
@@ -14,13 +14,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.CREATOR_MONETIZABLE_DISABLED;
             entity = mike.bind(report)(entity);
             entity = !entity;
-            if(!entity) { _fun72324_ip = 81; continue _fun72324 }
+            if(!entity) { _fun00002_ip = 81; continue _fun00001 }
  33:
             tango = report.hasFeature;
             mike = _closure1_slot3;
             mike = mike.CREATOR_MONETIZABLE;
             mike = tango.bind(report)(mike);
-            if(mike) { _fun72324_ip = 78; continue _fun72324 }
+            if(mike) { _fun00002_ip = 78; continue _fun00001 }
  57:
             tango = report.hasFeature;
             zulu = _closure1_slot3;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun72326: for(var _fun72326_ip = 0; ; ) switch(_fun72326_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure1_slot2;
                 zulu = tango.getGuild;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.bind(tango)(entity);
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun72326_ip = 44; continue _fun72326 }
+                if(!entity) { _fun00004_ip = 44; continue _fun00003 }
  33:
                 zulu = _closure1_slot4;
                 mike = undefined;

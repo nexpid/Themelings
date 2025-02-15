@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/chat_sidebar/DMMoreActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun112693: for(var _fun112693_ip = 0; ; ) switch(_fun112693_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.channelId;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Group;
             report = {};
             verify = null;
-            if(!options) { _fun112693_ip = 285; continue _fun112693 }
+            if(!options) { _fun00002_ip = 285; continue _fun00001 }
  135:
             yankee = _closure1_slot3;
             result = _closure1_slot0;

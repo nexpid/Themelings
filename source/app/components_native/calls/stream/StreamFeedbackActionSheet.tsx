@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/calls/stream/StreamFeedbackActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: StreamFeedback
-        _fun123531: for(var _fun123531_ip = 0; ; ) switch(_fun123531_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.stream;
@@ -112,11 +112,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options[golf];
             options = yankee.bind(tango)(options);
             options = options.t;
-            if(oscar) { _fun123531_ip = 249; continue _fun123531 }
+            if(oscar) { _fun00002_ip = 249; continue _fun00001 }
  236:
             oscar = options.CqjnLC;
             oscar = verify.bind(offset)(oscar);
-            _fun123531_ip = 260; continue _fun123531;
+            _fun00002_ip = 260; continue _fun00001;
  249:
             options = options.0uxA2d;
             oscar = verify.bind(offset)(options);
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot7;
             report['feedbackReasons'] = zulu;
             zulu = function() { // Original name: trackOpen
-                _fun123533: for(var _fun123533_ip = 0; ; ) switch(_fun123533_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     verify = oscar != options;
                     options = null;
-                    if(!verify) { _fun123533_ip = 94; continue _fun123533 }
+                    if(!verify) { _fun00004_ip = 94; continue _fun00003 }
  85:
                     verify = _closure2_slot2;
                     options = verify.id;
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot2;
                     verify = oscar != options;
                     options = null;
-                    if(!verify) { _fun123533_ip = 121; continue _fun123533 }
+                    if(!verify) { _fun00004_ip = 121; continue _fun00003 }
  112:
                     verify = _closure2_slot2;
                     options = verify.name;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = _closure2_slot2;
                     options = oscar != options;
                     oscar = null;
-                    if(!options) { _fun123533_ip = 148; continue _fun123533 }
+                    if(!options) { _fun00004_ip = 148; continue _fun00003 }
  139:
                     golf = _closure2_slot2;
                     oscar = golf.id;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             report['trackOpen'] = zulu;
             mike = function(argFoo) { // Original name: trackReport
-                _fun123534: for(var _fun123534_ip = 0; ; ) switch(_fun123534_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     tango = mike.rating;
@@ -198,11 +198,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = null;
                     mike = oscar != entity;
                     report = null;
-                    if(!mike) { _fun123534_ip = 37; continue _fun123534 }
+                    if(!mike) { _fun00006_ip = 37; continue _fun00005 }
  32:
                     report = entity.value;
  37:
-                    if(!(oscar != tango)) { _fun123534_ip = 169; continue _fun123534 }
+                    if(!(oscar != tango)) { _fun00006_ip = 169; continue _fun00005 }
  44:
                     verify = _closure1_slot0;
                     options = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['stream'] = options;
                     options = oscar != golf;
                     oscar = '';
-                    if(!options) { _fun123534_ip = 128; continue _fun123534 }
+                    if(!options) { _fun00006_ip = 128; continue _fun00005 }
  125:
                     oscar = golf;
  128:

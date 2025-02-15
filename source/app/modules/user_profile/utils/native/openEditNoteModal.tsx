@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/utils/native/openEditNoteModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openEditNoteModal
-        _fun81966: for(var _fun81966_ip = 0; ; ) switch(_fun81966_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.isAndroid;
             mike = mike.bind(zulu)();
             zulu = undefined;
-            if(!mike) { _fun81966_ip = 104; continue _fun81966 }
+            if(!mike) { _fun00002_ip = 104; continue _fun00001 }
  90:
             mike = {};
             golf = 'modal';

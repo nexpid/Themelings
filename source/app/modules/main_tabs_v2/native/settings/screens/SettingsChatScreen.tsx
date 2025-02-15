@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: VideoUploadQualityNitroUpsell
-        _fun97638: for(var _fun97638_ip = 0; ; ) switch(_fun97638_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = _closure1_slot0;
             verify = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = new Array(2);
             report[0] = golf;
             oscar = !oscar;
-            if(!oscar) { _fun97638_ip = 559; continue _fun97638 }
+            if(!oscar) { _fun00002_ip = 559; continue _fun00001 }
  233:
             verify = _closure1_slot9;
             options = _closure1_slot4;
@@ -521,15 +521,15 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         report[0] = yankee;
         report[1] = offset;
         zulu = function() {
-            _fun97644: for(var _fun97644_ip = 0; ; ) switch(_fun97644_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure2_slot0;
                 entity = null;
-                if(!tango) { _fun97644_ip = 64; continue _fun97644 }
+                if(!tango) { _fun00004_ip = 64; continue _fun00003 }
  12:
                 mike = _closure2_slot1;
                 entity = null;
-                if(mike) { _fun97644_ip = 64; continue _fun97644 }
+                if(mike) { _fun00004_ip = 64; continue _fun00003 }
  21:
                 report = _closure1_slot9;
                 zulu = _closure1_slot0;

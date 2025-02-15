@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot19 = entity;
     entity = function(argFoo) { // Original name: SocialBadge
-        _fun112055: for(var _fun112055_ip = 0; ; ) switch(_fun112055_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.iconSource;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.socialBadge;
             entity['style'] = golf;
             golf = 1;
-            if(!oscar) { _fun112055_ip = 74; continue _fun112055 }
+            if(!oscar) { _fun00002_ip = 74; continue _fun00001 }
  64:
             golf = 0.5;
  74:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['children'] = foxtrot;
             verify = romeo.bind(tango)(yankee, verify);
             report[1] = verify;
-            if(!oscar) { _fun112055_ip = 264; continue _fun112055 }
+            if(!oscar) { _fun00002_ip = 264; continue _fun00001 }
  209:
             verify = _closure1_slot14;
             romeo = _closure1_slot1;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/purchase_page/GuildRoleSubscriptionPurchasePage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildRoleSubscriptionPurchasePage
-        _fun112056: for(var _fun112056_ip = 0; ; ) switch(_fun112056_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.guildId;
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             whiskey = null;
             entity = whiskey == golf;
             verify = undefined;
-            if(entity) { _fun112056_ip = 231; continue _fun112056 }
+            if(entity) { _fun00004_ip = 231; continue _fun00003 }
  226:
             verify = golf.id;
  231:
@@ -366,11 +366,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             source = verify.bind(offset)(entity);
-            if(!(whiskey == mike)) { _fun112056_ip = 279; continue _fun112056 }
+            if(!(whiskey == mike)) { _fun00004_ip = 279; continue _fun00003 }
  267:
             entity = _closure1_slot11;
             offset = entity.ROLE_SUBSCRIPTIONS_TAB;
-            _fun112056_ip = 289; continue _fun112056;
+            _fun00004_ip = 289; continue _fun00003;
  279:
             entity = _closure1_slot11;
             offset = entity.ROLE_SUBSCRIPTION_GATED_CHANNEL;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['guildId'] = romeo;
             foxtrot = whiskey == golf;
             romeo = undefined;
-            if(foxtrot) { _fun112056_ip = 329; continue _fun112056 }
+            if(foxtrot) { _fun00004_ip = 329; continue _fun00003 }
  324:
             romeo = golf.id;
  329:
@@ -426,23 +426,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify = romeo.bind(foxtrot)(yankee, verify);
             romeo = _closure1_slot3;
-            if(verify) { _fun112056_ip = 463; continue _fun112056 }
+            if(verify) { _fun00004_ip = 463; continue _fun00003 }
  454:
             verify = 20;
             verify = romeo[verify];
-            _fun112056_ip = 470; continue _fun112056;
+            _fun00004_ip = 470; continue _fun00003;
  463:
             yankee = 19;
             verify = romeo[yankee];
  470:
             yankee = offset.bind(tango)(verify);
-            if(!options) { _fun112056_ip = 1790; continue _fun112056 }
+            if(!options) { _fun00004_ip = 1790; continue _fun00003 }
  481:
-            if(!(whiskey != zulu)) { _fun112056_ip = 1790; continue _fun112056 }
+            if(!(whiskey != zulu)) { _fun00004_ip = 1790; continue _fun00003 }
  488:
-            if(!(whiskey != status)) { _fun112056_ip = 1790; continue _fun112056 }
+            if(!(whiskey != status)) { _fun00004_ip = 1790; continue _fun00003 }
  495:
-            if(!(whiskey != golf)) { _fun112056_ip = 1790; continue _fun112056 }
+            if(!(whiskey != golf)) { _fun00004_ip = 1790; continue _fun00003 }
  502:
             options = _closure1_slot2;
             verify = _closure1_slot3;
@@ -458,9 +458,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = options.bind(status)(golf);
             lima = zulu.store_page_trailer_url;
             _closure2_slot4 = lima;
-            if(!(whiskey != mike)) { _fun112056_ip = 579; continue _fun112056 }
+            if(!(whiskey != mike)) { _fun00004_ip = 579; continue _fun00003 }
  575:
-            if(!(whiskey == entity)) { _fun112056_ip = 636; continue _fun112056 }
+            if(!(whiskey == entity)) { _fun00004_ip = 636; continue _fun00003 }
  579:
             golf = _closure1_slot0;
             options = _closure1_slot3;
@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.mPHb19;
             sequence = mike.bind(zulu)(entity);
-            _fun112056_ip = 708; continue _fun112056;
+            _fun00004_ip = 708; continue _fun00003;
  636:
             mike = _closure1_slot0;
             options = _closure1_slot3;
@@ -647,11 +647,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = output.bind(tango)(verify, options);
             kilo[3] = options;
             options = sierra;
-            if(sierra) { _fun112056_ip = 1124; continue _fun112056 }
+            if(sierra) { _fun00004_ip = 1124; continue _fun00003 }
  1120:
             options = whiskey != lima;
  1124:
-            if(!options) { _fun112056_ip = 1490; continue _fun112056 }
+            if(!options) { _fun00004_ip = 1490; continue _fun00003 }
  1130:
             control = _closure1_slot15;
             output = _closure1_slot16;
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = {};
             papa['gap'] = equality;
             equality = sierra;
-            if(!equality) { _fun112056_ip = 1333; continue _fun112056 }
+            if(!equality) { _fun00004_ip = 1333; continue _fun00003 }
  1240:
             variable36 = _closure1_slot14;
             quebec = _closure1_slot20;
@@ -707,7 +707,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = new Array(2);
             sierra[0] = equality;
             lima = whiskey != lima;
-            if(!lima) { _fun112056_ip = 1452; continue _fun112056 }
+            if(!lima) { _fun00004_ip = 1452; continue _fun00003 }
  1348:
             quebec = _closure1_slot14;
             equality = _closure1_slot20;

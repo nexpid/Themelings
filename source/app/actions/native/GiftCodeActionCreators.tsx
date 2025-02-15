@@ -23,17 +23,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun69718: for(var _fun69718_ip = 0; ; ) switch(_fun69718_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun69718_ip = 650; continue _fun69718 }
+                    if(zulu) { _fun00002_ip = 650; continue _fun00001 }
  13:
                     backup = mike.code;
                     golf = mike.options;
                     zulu = undefined;
-                    if(!(golf === zulu)) { _fun69718_ip = 36; continue _fun69718 }
+                    if(!(golf === zulu)) { _fun00002_ip = 36; continue _fun00001 }
  29:
                     golf = _closure1_slot6;
  36:
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun69718_ip = 647; continue _fun69718 }
+                    if(tango) { _fun00002_ip = 647; continue _fun00001 }
  69:
                     verify = _closure1_slot1;
                     romeo = _closure1_slot2;
@@ -64,19 +64,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['autoTrackExposure'] = kilo;
                     options = romeo.bind(foxtrot)(verify, options);
                     options = options.paymentsBlocked;
-                    if(options) { _fun69718_ip = 620; continue _fun69718 }
+                    if(options) { _fun00002_ip = 620; continue _fun00001 }
  135:
                     romeo = golf.channelId;
                     options = null;
                     verify = null;
-                    if(!(zulu !== romeo)) { _fun69718_ip = 151; continue _fun69718 }
+                    if(!(zulu !== romeo)) { _fun00002_ip = 151; continue _fun00001 }
  148:
                     verify = romeo;
  151:
                     output = verify;
                     verify = golf.paymentSource;
                     golf = null;
-                    if(!(zulu !== verify)) { _fun69718_ip = 169; continue _fun69718 }
+                    if(!(zulu !== verify)) { _fun00002_ip = 169; continue _fun00001 }
  166:
                     golf = verify;
  169:
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     output = result;
                     echo = options == output;
                     output = undefined;
-                    if(echo) { _fun69718_ip = 297; continue _fun69718 }
+                    if(echo) { _fun00002_ip = 297; continue _fun00001 }
  292:
                     output = result.id;
  297:
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  326:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(romeo) { _fun69718_ip = 457; continue _fun69718 }
+                    if(romeo) { _fun00002_ip = 457; continue _fun00001 }
  335:
                     yankee = verify;
                     foxtrot = _closure1_slot1;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     romeo['type'] = output;
                     romeo = kilo.bind(sizing)(foxtrot, romeo);
                     romeo = offset;
-                    if(!(options != romeo)) { _fun69718_ip = 440; continue _fun69718 }
+                    if(!(options != romeo)) { _fun00002_ip = 440; continue _fun00001 }
  436:
                     offset = offset.bind(zulu)();
  440:
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = {'type': 'gift_accept', 'location': null};
                     golf = offset.bind(yankee)(verify, golf);
                     golf = oscar;
-                    if(!(options != golf)) { _fun69718_ip = 618; continue _fun69718 }
+                    if(!(options != golf)) { _fun00002_ip = 618; continue _fun00001 }
  607:
                     golf = oscar;
                     oscar = report;

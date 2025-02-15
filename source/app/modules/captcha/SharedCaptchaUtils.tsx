@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['CaptchaError'] = tango;
     tango = function(argFoo) { // Original name: extractCaptchaPropsFromResponse
-        _fun122833: for(var _fun122833_ip = 0; ; ) switch(_fun122833_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = zulu.should_serve_invisible;
             tango = null;
             tango = tango != report;
-            if(!tango) { _fun122833_ip = 75; continue _fun122833 }
+            if(!tango) { _fun00002_ip = 75; continue _fun00001 }
  72:
             tango = report;
  75:
@@ -70,12 +70,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['extractCaptchaPropsFromResponse'] = tango;
     mike = function(argFoo) { // Original name: emitCaptchaDistributionMetric
-        _fun122834: for(var _fun122834_ip = 0; ; ) switch(_fun122834_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot2;
             entity = undefined;
             zulu = zulu.bind(entity)();
-            if(!zulu) { _fun122834_ip = 43; continue _fun122834 }
+            if(!zulu) { _fun00004_ip = 43; continue _fun00003 }
  16:
             zulu = global;
             report = zulu.setTimeout;

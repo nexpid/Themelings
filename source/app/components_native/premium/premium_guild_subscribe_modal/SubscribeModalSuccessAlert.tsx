@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/premium_guild_subscribe_modal/SubscribeModalSuccessAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SubscribeModalSuccessAlert
-        _fun105373: for(var _fun105373_ip = 0; ; ) switch(_fun105373_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -226,18 +226,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['nextScene'] = yankee;
             report['loop'] = options;
             golf = function(argFoo) { // Original name: onSceneComplete
-                _fun105376: for(var _fun105376_ip = 0; ; ) switch(_fun105376_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     mike = _closure1_slot12;
                     mike = mike.Scenes;
                     mike = mike.ENTRY;
-                    if(!(mike !== zulu)) { _fun105376_ip = 68; continue _fun105376 }
+                    if(!(mike !== zulu)) { _fun00004_ip = 68; continue _fun00003 }
  26:
                     mike = _closure1_slot12;
                     mike = mike.Scenes;
                     mike = mike.IDLE;
-                    if(!(mike !== zulu)) { _fun105376_ip = 50; continue _fun105376 }
+                    if(!(mike !== zulu)) { _fun00004_ip = 50; continue _fun00003 }
  46:
                     mike = undefined;
                     return mike;
@@ -299,12 +299,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.bind(sizing)(output);
             output = _closure1_slot1;
             result = _closure1_slot2;
-            if(kilo) { _fun105373_ip = 511; continue _fun105373 }
+            if(kilo) { _fun00002_ip = 511; continue _fun00001 }
  497:
             kilo = 19;
             kilo = result[kilo];
             kilo = output.bind(tango)(kilo);
-            _fun105373_ip = 523; continue _fun105373;
+            _fun00002_ip = 523; continue _fun00001;
  511:
             sizing = 18;
             sizing = result[sizing];
@@ -336,7 +336,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = 'text-sm/medium';
             romeo['variant'] = result;
             output = null;
-            if(!(output == vacuum)) { _fun105373_ip = 689; continue _fun105373 }
+            if(!(output == vacuum)) { _fun00002_ip = 689; continue _fun00001 }
  635:
             config = _closure1_slot0;
             output = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = output.t;
             output = output.d81BkZ;
             output = vacuum.bind(sequence)(output);
-            _fun105373_ip = 741; continue _fun105373;
+            _fun00002_ip = 741; continue _fun00001;
  689:
             record = _closure1_slot0;
             vacuum = _closure1_slot2;

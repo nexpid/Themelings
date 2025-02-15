@@ -42,13 +42,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openAddFriendModalDeeplink'] = golf;
     tango = function(argFoo) { // Original name: openAddFriendModal
-        _fun107401: for(var _fun107401_ip = 0; ; ) switch(_fun107401_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot3;
             entity = zulu.getCurrentUser;
             zulu = entity.bind(zulu)();
             entity = null;
-            if(!(entity != zulu)) { _fun107401_ip = 100; continue _fun107401 }
+            if(!(entity != zulu)) { _fun00002_ip = 100; continue _fun00001 }
  22:
             tango = _closure1_slot1;
             entity = _closure1_slot2;

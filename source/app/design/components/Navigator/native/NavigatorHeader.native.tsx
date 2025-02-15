@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = tango;
     entity = function(argFoo) { // Original name: CloseButton
-        _fun61577: for(var _fun61577_ip = 0; ; ) switch(_fun61577_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             options = tango.onPress;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.useNavigation;
             zulu = zulu.bind(oscar)();
             var _closure2_slot1 = zulu;
-            if(!(mike == options)) { _fun61577_ip = 97; continue _fun61577 }
+            if(!(mike == options)) { _fun00002_ip = 97; continue _fun00001 }
  92:
             options = function() {
                 mike = _closure2_slot1;
@@ -158,12 +158,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = mike.bind(tango)(zulu);
         verify = offset.useNavigatorBackPressHandler;
         zulu = function() {
-            _fun61582: for(var _fun61582_ip = 0; ; ) switch(_fun61582_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun61582_ip = 26; continue _fun61582 }
+                if(!entity) { _fun00004_ip = 26; continue _fun00003 }
  16:
                 zulu = _closure2_slot0;
                 mike = undefined;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: HeaderTextButton
-        _fun61584: for(var _fun61584_ip = 0; ; ) switch(_fun61584_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             report = tango.text;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = golf.isAndroid;
             golf = oscar.bind(golf)();
             oscar = undefined;
-            if(!golf) { _fun61584_ip = 210; continue _fun61584 }
+            if(!golf) { _fun00006_ip = 210; continue _fun00005 }
  207:
             oscar = report;
  210:
@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     oscar = golf.bind(options)(oscar);
     zulu['useStyles'] = report;
     report = function(argFoo) { // Original name: NavigatorHeader
-        _fun61586: for(var _fun61586_ip = 0; ; ) switch(_fun61586_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             backup = entity.title;
@@ -415,12 +415,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = null;
             oscar = oscar != offset;
-            if(!oscar) { _fun61586_ip = 164; continue _fun61586 }
+            if(!oscar) { _fun00008_ip = 164; continue _fun00007 }
  156:
             options = '';
             oscar = options !== offset;
  164:
-            if(!oscar) { _fun61586_ip = 229; continue _fun61586 }
+            if(!oscar) { _fun00008_ip = 229; continue _fun00007 }
  167:
             verify = _closure1_slot6;
             options = _closure1_slot0;
@@ -491,11 +491,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun61594: for(var _fun61594_ip = 0; ; ) switch(_fun61594_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun61594_ip = 60; continue _fun61594 }
+                            if(mike) { _fun00010_ip = 60; continue _fun00009 }
  7:
                             mike = _closure2_slot0;
                             zulu = undefined;
@@ -505,13 +505,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  24:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun61594_ip = 57; continue _fun61594 }
+                            if(tango) { _fun00010_ip = 57; continue _fun00009 }
  30:
-                            if(!mike) { _fun61594_ip = 54; continue _fun61594 }
+                            if(!mike) { _fun00010_ip = 54; continue _fun00009 }
  33:
                             oscar = _closure3_slot0;
                             report = null;
-                            if(!(report != oscar)) { _fun61594_ip = 54; continue _fun61594 }
+                            if(!(report != oscar)) { _fun00010_ip = 54; continue _fun00009 }
  46:
                             tango = _closure3_slot0;
                             tango = tango.bind(zulu)();
@@ -555,13 +555,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getHeaderConditionalBackButton'] = tango;
     tango = function(argFoo) { // Original name: getHeaderBackButton
-        _fun61596: for(var _fun61596_ip = 0; ; ) switch(_fun61596_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             mike = arguments[1];
             zulu = argFoo;
             var _closure2_slot0 = zulu;
             zulu = undefined;
-            if(!(mike === zulu)) { _fun61596_ip = 20; continue _fun61596 }
+            if(!(mike === zulu)) { _fun00012_ip = 20; continue _fun00011 }
  18:
             mike = false;
  20:
@@ -584,11 +584,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = mike;
                 report = copyDataProperties(options, golf);
                 report = function() { // Original name: onPress
-                    _fun61598: for(var _fun61598_ip = 0; ; ) switch(_fun61598_ip) {
+                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                         mike = _closure2_slot0;
                         zulu = null;
-                        if(!(zulu != mike)) { _fun61598_ip = 23; continue _fun61598 }
+                        if(!(zulu != mike)) { _fun00014_ip = 23; continue _fun00013 }
  13:
                         tango = _closure2_slot0;
                         mike = undefined;
@@ -596,10 +596,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  23:
                         entity = _closure2_slot1;
                         entity = !entity;
-                        if(!entity) { _fun61598_ip = 54; continue _fun61598 }
+                        if(!entity) { _fun00014_ip = 54; continue _fun00013 }
  33:
                         mike = _closure3_slot0;
-                        if(!(zulu != mike)) { _fun61598_ip = 54; continue _fun61598 }
+                        if(!(zulu != mike)) { _fun00014_ip = 54; continue _fun00013 }
  44:
                         mike = _closure3_slot0;
                         entity = undefined;

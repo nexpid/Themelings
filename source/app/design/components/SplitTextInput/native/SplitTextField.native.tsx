@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot4 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun99302: for(var _fun99302_ip = 0; ; ) switch(_fun99302_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             backup = argFoo;
             zulu = _closure1_slot0;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = null;
             mike = zulu != oscar;
             golf = undefined;
-            if(!mike) { _fun99302_ip = 166; continue _fun99302 }
+            if(!mike) { _fun00002_ip = 166; continue _fun00001 }
  140:
             mike = {};
             options = oscar.content;
@@ -86,14 +86,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = backup.leadingText;
             mike = zulu != mike;
             options = null;
-            if(!mike) { _fun99302_ip = 368; continue _fun99302 }
+            if(!mike) { _fun00002_ip = 368; continue _fun00001 }
  228:
             mike = backup.leadingText;
             offset = mike.length;
             mike = 0;
             mike = offset > mike;
             options = null;
-            if(!mike) { _fun99302_ip = 368; continue _fun99302 }
+            if(!mike) { _fun00002_ip = 368; continue _fun00001 }
  250:
             offset = _closure1_slot4;
             zulu = _closure1_slot3;
@@ -103,12 +103,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             romeo = _closure1_slot2;
             yankee = {};
             kilo = function(argFoo) { // Original name: style
-                _fun99303: for(var _fun99303_ip = 0; ; ) switch(_fun99303_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     entity = entity.pressed;
                     mike = undefined;
-                    if(!entity) { _fun99303_ip = 33; continue _fun99303 }
+                    if(!entity) { _fun00004_ip = 33; continue _fun00003 }
  14:
                     entity = {};
                     zulu = 0.2;

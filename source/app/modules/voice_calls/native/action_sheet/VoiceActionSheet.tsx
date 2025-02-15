@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_calls/native/action_sheet/VoiceActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun104418: for(var _fun104418_ip = 0; ; ) switch(_fun104418_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.channel;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(1);
             verify[0] = yankee;
             zulu = function() {
-                _fun104420: for(var _fun104420_ip = 0; ; ) switch(_fun104420_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.id;
                     zulu = golf.bind(options)(zulu);
                     zulu = report.bind(oscar)(zulu);
-                    if(zulu) { _fun104420_ip = 109; continue _fun104420 }
+                    if(zulu) { _fun00004_ip = 109; continue _fun00003 }
  74:
                     zulu = _closure1_slot1;
                     report = _closure1_slot2;
@@ -151,9 +151,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(tango)(zulu);
             zulu = report.requiresVoiceChannelsOnboard;
             zulu = zulu.bind(report)();
-            if(zulu) { _fun104418_ip = 454; continue _fun104418 }
+            if(zulu) { _fun00002_ip = 454; continue _fun00001 }
  172:
-            if(mike) { _fun104418_ip = 342; continue _fun104418 }
+            if(mike) { _fun00002_ip = 342; continue _fun00001 }
  178:
             report = _closure1_slot6;
             zulu = _closure1_slot0;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.bind(tango)(verify, options);
             mike['children'] = options;
             report = report.bind(tango)(zulu, mike);
-            _fun104418_ip = 452; continue _fun104418;
+            _fun00002_ip = 452; continue _fun00001;
  342:
             options = _closure1_slot7;
             zulu = _closure1_slot0;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['children'] = verify;
             report = options.bind(tango)(zulu, mike);
  452:
-            _fun104418_ip = 524; continue _fun104418;
+            _fun00002_ip = 524; continue _fun00001;
  454:
             options = _closure1_slot6;
             zulu = _closure1_slot0;

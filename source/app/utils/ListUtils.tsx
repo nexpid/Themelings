@@ -21,27 +21,27 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'utils/ListUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getListSummaryLabel
-        _fun80103: for(var _fun80103_ip = 0; ; ) switch(_fun80103_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             yankee = argBar;
             entity = null;
-            if(!(entity == yankee)) { _fun80103_ip = 17; continue _fun80103 }
+            if(!(entity == yankee)) { _fun00002_ip = 17; continue _fun00001 }
  12:
             yankee = options.length;
  17:
             entity = '';
             golf = 0;
-            if(!(golf !== yankee)) { _fun80103_ip = 395; continue _fun80103 }
+            if(!(golf !== yankee)) { _fun00002_ip = 395; continue _fun00001 }
  30:
             verify = 1;
-            if(!(verify !== yankee)) { _fun80103_ip = 323; continue _fun80103 }
+            if(!(verify !== yankee)) { _fun00002_ip = 323; continue _fun00001 }
  40:
             offset = 2;
-            if(!(offset !== yankee)) { _fun80103_ip = 243; continue _fun80103 }
+            if(!(offset !== yankee)) { _fun00002_ip = 243; continue _fun00001 }
  50:
             oscar = 3;
-            if(!(oscar !== yankee)) { _fun80103_ip = 154; continue _fun80103 }
+            if(!(oscar !== yankee)) { _fun00002_ip = 154; continue _fun00001 }
  57:
             romeo = _closure1_slot0;
             mike = _closure1_slot1;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = yankee - oscar;
             mike['count'] = oscar;
             mike = tango.bind(report)(zulu, mike);
-            _fun80103_ip = 241; continue _fun80103;
+            _fun00002_ip = 241; continue _fun00001;
  154:
             yankee = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu['third'] = offset;
             mike = report.bind(oscar)(tango, zulu);
  241:
-            _fun80103_ip = 321; continue _fun80103;
+            _fun00002_ip = 321; continue _fun00001;
  243:
             offset = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu['second'] = verify;
             mike = report.bind(oscar)(tango, zulu);
  321:
-            _fun80103_ip = 392; continue _fun80103;
+            _fun00002_ip = 392; continue _fun00001;
  323:
             verify = _closure1_slot0;
             zulu = _closure1_slot1;

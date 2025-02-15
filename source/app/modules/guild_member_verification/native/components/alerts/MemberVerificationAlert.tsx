@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/alerts/MemberVerificationAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationAlert
-        _fun88516: for(var _fun88516_ip = 0; ; ) switch(_fun88516_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             kilo = zulu.header;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[oscar] = options;
             oscar = golf != sizing;
             options = null;
-            if(!oscar) { _fun88516_ip = 170; continue _fun88516 }
+            if(!oscar) { _fun00002_ip = 170; continue _fun00001 }
  124:
             romeo = _closure1_slot4;
             yankee = _closure1_slot3;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = options;
             options = golf != foxtrot;
             golf = null;
-            if(!options) { _fun88516_ip = 313; continue _fun88516 }
+            if(!options) { _fun00002_ip = 313; continue _fun00001 }
  251:
             romeo = _closure1_slot4;
             yankee = _closure1_slot0;

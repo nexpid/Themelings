@@ -71,11 +71,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun90574: for(var _fun90574_ip = 0; ; ) switch(_fun90574_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot2;
                 mike = 0;
-                if(!(zulu > mike)) { _fun90574_ip = 28; continue _fun90574 }
+                if(!(zulu > mike)) { _fun00002_ip = 28; continue _fun00001 }
  13:
                 zulu = _closure2_slot3;
                 mike = _closure2_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = golf;
             golf = function() {
-                _fun90577: for(var _fun90577_ip = 0; ; ) switch(_fun90577_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getMemberCount;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     zulu = entity != mike;
                     entity = 0;
-                    if(!zulu) { _fun90577_ip = 39; continue _fun90577 }
+                    if(!zulu) { _fun00004_ip = 39; continue _fun00003 }
  36:
                     entity = mike;
  39:
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = golf;
             golf = function() {
-                _fun90580: for(var _fun90580_ip = 0; ; ) switch(_fun90580_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getOnlineCount;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     zulu = entity != mike;
                     entity = 0;
-                    if(!zulu) { _fun90580_ip = 39; continue _fun90580 }
+                    if(!zulu) { _fun00006_ip = 39; continue _fun00005 }
  36:
                     entity = mike;
  39:

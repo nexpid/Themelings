@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterModalQRCode.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: FamilyCenterModalQRCode
-        _fun95133: for(var _fun95133_ip = 0; ; ) switch(_fun95133_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot13;
             tango = undefined;
@@ -229,12 +229,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = mike;
             mike = function() {
-                _fun95136: for(var _fun95136_ip = 0; ; ) switch(_fun95136_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     entity = _closure2_slot4;
                     entity = entity.current;
-                    if(!(mike > entity)) { _fun95136_ip = 55; continue _fun95136 }
+                    if(!(mike > entity)) { _fun00004_ip = 55; continue _fun00003 }
  20:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -254,12 +254,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = echo;
             mike = function() {
-                _fun95137: for(var _fun95137_ip = 0; ; ) switch(_fun95137_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = _closure2_slot2;
                     entity = undefined;
                     tango = function(argFoo) {
-                        _fun95138: for(var _fun95138_ip = 0; ; ) switch(_fun95138_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             zulu = _closure1_slot1;
                             mike = _closure1_slot2;
@@ -273,10 +273,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             entity = {};
                             report = _closure2_slot1;
                             oscar = _closure1_slot6;
-                            if(report) { _fun95138_ip = 64; continue _fun95138 }
+                            if(report) { _fun00008_ip = 64; continue _fun00007 }
  56:
                             report = oscar.RevealQRCode;
-                            _fun95138_ip = 70; continue _fun95138;
+                            _fun00008_ip = 70; continue _fun00007;
  64:
                             report = oscar.HideQRCode;
  70:
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     };
                     tango = report.bind(entity)(tango);
                     zulu = _closure2_slot1;
-                    if(zulu) { _fun95137_ip = 58; continue _fun95137 }
+                    if(zulu) { _fun00006_ip = 58; continue _fun00005 }
  30:
                     zulu = global;
                     tango = zulu.setTimeout;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = foxtrot;
             mike[3] = update;
             entity = function() {
-                _fun95140: for(var _fun95140_ip = 0; ; ) switch(_fun95140_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     tango = _closure1_slot12;
                     zulu = _closure1_slot11;
@@ -365,11 +365,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = offset[verify];
                     offset = output.bind(entity)(offset);
                     offset = offset.t;
-                    if(options) { _fun95140_ip = 213; continue _fun95140 }
+                    if(options) { _fun00010_ip = 213; continue _fun00009 }
  200:
                     options = offset.10dX6e;
                     options = yankee.bind(sizing)(options);
-                    _fun95140_ip = 224; continue _fun95140;
+                    _fun00010_ip = 224; continue _fun00009;
  213:
                     offset = offset.wg2xwc;
                     options = yankee.bind(sizing)(offset);
@@ -550,12 +550,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = {};
             source = 237;
             output['size'] = source;
-            if(!echo) { _fun95133_ip = 952; continue _fun95133 }
+            if(!echo) { _fun00002_ip = 952; continue _fun00001 }
  943:
-            if(kilo) { _fun95133_ip = 952; continue _fun95133 }
+            if(kilo) { _fun00002_ip = 952; continue _fun00001 }
  946:
             kilo = null;
-            if(!(kilo == romeo)) { _fun95133_ip = 956; continue _fun95133 }
+            if(!(kilo == romeo)) { _fun00002_ip = 956; continue _fun00001 }
  952:
             romeo = _closure1_slot7;
  956:

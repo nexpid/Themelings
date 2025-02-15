@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/CutoutableAvatarDecoration.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CutoutableAvatarDecoration
-        _fun64063: for(var _fun64063_ip = 0; ; ) switch(_fun64063_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             yankee = zulu.size;
@@ -80,21 +80,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[3] = offset;
             zulu[4] = verify;
             mike = function() {
-                _fun64065: for(var _fun64065_ip = 0; ; ) switch(_fun64065_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
-                    if(!mike) { _fun64065_ip = 17; continue _fun64065 }
+                    if(!mike) { _fun00004_ip = 17; continue _fun00003 }
  10:
                     entity = _closure2_slot4;
                     mike = !entity;
  17:
-                    if(!mike) { _fun64065_ip = 30; continue _fun64065 }
+                    if(!mike) { _fun00004_ip = 30; continue _fun00003 }
  20:
                     zulu = _closure2_slot1;
                     entity = null;
                     mike = entity != zulu;
  30:
-                    if(!mike) { _fun64065_ip = 79; continue _fun64065 }
+                    if(!mike) { _fun00004_ip = 79; continue _fun00003 }
  33:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -151,11 +151,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             report = zulu == entity;
             entity = null;
-            if(report) { _fun64063_ip = 533; continue _fun64063 }
+            if(report) { _fun00002_ip = 533; continue _fun00001 }
  193:
             report = zulu == yankee;
             entity = null;
-            if(report) { _fun64063_ip = 533; continue _fun64063 }
+            if(report) { _fun00002_ip = 533; continue _fun00001 }
  205:
             oscar = _closure1_slot0;
             verify = _closure1_slot2;
@@ -164,11 +164,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(golf)(report);
             report = oscar.isAndroid;
             report = report.bind(oscar)();
-            if(!report) { _fun64063_ip = 243; continue _fun64063 }
+            if(!report) { _fun00002_ip = 243; continue _fun00001 }
  237:
-            if(mike) { _fun64063_ip = 373; continue _fun64063 }
+            if(mike) { _fun00002_ip = 373; continue _fun00001 }
  243:
-            if(!(zulu == options)) { _fun64063_ip = 289; continue _fun64063 }
+            if(!(zulu == options)) { _fun00002_ip = 289; continue _fun00001 }
  247:
             oscar = _closure1_slot6;
             report = _closure1_slot1;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['source'] = kilo;
             mike['style'] = foxtrot;
             mike = oscar.bind(golf)(report, mike);
-            _fun64063_ip = 368; continue _fun64063;
+            _fun00002_ip = 368; continue _fun00001;
  289:
             verify = _closure1_slot6;
             backup = _closure1_slot1;
@@ -202,9 +202,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['children'] = romeo;
             mike = verify.bind(golf)(oscar, report);
  368:
-            _fun64063_ip = 530; continue _fun64063;
+            _fun00002_ip = 530; continue _fun00001;
  373:
-            if(!(zulu == options)) { _fun64063_ip = 448; continue _fun64063 }
+            if(!(zulu == options)) { _fun00002_ip = 448; continue _fun00001 }
  377:
             oscar = _closure1_slot6;
             report = _closure1_slot4;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar.bind(golf)(romeo, verify);
             zulu['children'] = verify;
             zulu = oscar.bind(golf)(report, zulu);
-            _fun64063_ip = 527; continue _fun64063;
+            _fun00002_ip = 527; continue _fun00001;
  448:
             oscar = _closure1_slot6;
             verify = _closure1_slot1;

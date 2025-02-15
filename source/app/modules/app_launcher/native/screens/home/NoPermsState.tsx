@@ -68,7 +68,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/native/screens/home/NoPermsState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: EmptyState
-        _fun118888: for(var _fun118888_ip = 0; ; ) switch(_fun118888_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot7;
             tango = undefined;
@@ -86,11 +86,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(tango)();
             entity = zulu.bind(oscar)(entity);
             oscar = _closure1_slot2;
-            if(entity) { _fun118888_ip = 80; continue _fun118888 }
+            if(entity) { _fun00002_ip = 80; continue _fun00001 }
  71:
             entity = 8;
             entity = oscar[entity];
-            _fun118888_ip = 87; continue _fun118888;
+            _fun00002_ip = 87; continue _fun00001;
  80:
             zulu = 7;
             entity = oscar[zulu];

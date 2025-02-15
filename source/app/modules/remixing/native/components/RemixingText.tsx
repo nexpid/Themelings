@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/RemixingText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84191: for(var _fun84191_ip = 0; ; ) switch(_fun84191_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = entity.id;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             verify = entity != offset;
             backup = undefined;
-            if(!verify) { _fun84191_ip = 218; continue _fun84191 }
+            if(!verify) { _fun00002_ip = 218; continue _fun00001 }
  194:
             romeo = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = romeo.bind(oscar)(verify);
             backup = verify[offset];
  218:
-            if(!(entity != report)) { _fun84191_ip = 541; continue _fun84191 }
+            if(!(entity != report)) { _fun00002_ip = 541; continue _fun00001 }
  225:
             offset = new Array(0);
             _closure2_slot5 = offset;
@@ -187,12 +187,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = sequence[output](vacuum, control, source, update, echo);
             report = entity == mike;
             zulu = undefined;
-            if(report) { _fun84191_ip = 325; continue _fun84191 }
+            if(report) { _fun00002_ip = 325; continue _fun00001 }
  320:
             zulu = mike.id;
  325:
             mike = null;
-            if(!(zulu !== tango)) { _fun84191_ip = 539; continue _fun84191 }
+            if(!(zulu !== tango)) { _fun00002_ip = 539; continue _fun00001 }
  334:
             report = _closure1_slot5;
             verify = _closure1_slot0;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = verify;
             golf[1] = entity;
             verify = entity != backup;
-            if(!verify) { _fun84191_ip = 504; continue _fun84191 }
+            if(!verify) { _fun00002_ip = 504; continue _fun00001 }
  440:
             foxtrot = _closure1_slot4;
             romeo = _closure1_slot0;

@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsx;
     var _closure1_slot3 = tango;
     tango = function(argFoo, argBar) { // Original name: getScreens
-        _fun77804: for(var _fun77804_ip = 0; ; ) switch(_fun77804_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
             var _closure2_slot0 = entity;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf.bind(verify)(entity);
             oscar = entity.t;
             entity = argFoo;
-            if(entity) { _fun77804_ip = 167; continue _fun77804 }
+            if(entity) { _fun00002_ip = 167; continue _fun00001 }
  68:
             entity = oscar.PwknJC;
             entity = options.bind(yankee)(entity);
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['render'] = entity;
             mike['root'] = zulu;
             entity = mike;
-            _fun77804_ip = 264; continue _fun77804;
+            _fun00002_ip = 264; continue _fun00001;
  167:
             oscar = oscar.Iuzg8f;
             oscar = options.bind(yankee)(oscar);

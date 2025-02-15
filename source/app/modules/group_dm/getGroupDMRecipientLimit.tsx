@@ -31,31 +31,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/group_dm/getGroupDMRecipientLimit.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getGroupDMRecipientLimit
-        _fun118418: for(var _fun118418_ip = 0; ; ) switch(_fun118418_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
             entity = tango.getCurrentUser;
             report = entity.bind(tango)();
             entity = null;
-            if(!(entity != report)) { _fun118418_ip = 38; continue _fun118418 }
+            if(!(entity != report)) { _fun00002_ip = 38; continue _fun00001 }
  25:
             tango = report.isStaff;
             tango = tango.bind(report)();
-            if(tango) { _fun118418_ip = 68; continue _fun118418 }
+            if(tango) { _fun00002_ip = 68; continue _fun00001 }
  38:
-            if(!(entity != zulu)) { _fun118418_ip = 54; continue _fun118418 }
+            if(!(entity != zulu)) { _fun00002_ip = 54; continue _fun00001 }
  42:
             tango = zulu.userLimit;
             entity = 0;
-            if(!(!(tango > entity))) { _fun118418_ip = 60; continue _fun118418 }
+            if(!(!(tango > entity))) { _fun00002_ip = 60; continue _fun00001 }
  54:
             entity = _closure1_slot1;
-            _fun118418_ip = 66; continue _fun118418;
+            _fun00002_ip = 66; continue _fun00001;
  60:
             entity = zulu.userLimit;
  66:
-            _fun118418_ip = 72; continue _fun118418;
+            _fun00002_ip = 72; continue _fun00001;
  68:
             entity = _closure1_slot2;
  72:

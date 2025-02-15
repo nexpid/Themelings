@@ -29,23 +29,23 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isOnXbox.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isOnXbox
-        _fun80301: for(var _fun80301_ip = 0; ; ) switch(_fun80301_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = null;
             entity = report == tango;
             oscar = undefined;
-            if(entity) { _fun80301_ip = 20; continue _fun80301 }
+            if(entity) { _fun00002_ip = 20; continue _fun00001 }
  14:
             oscar = tango.application_id;
  20:
             entity = _closure1_slot0;
             entity = oscar === entity;
-            if(entity) { _fun80301_ip = 63; continue _fun80301 }
+            if(entity) { _fun00002_ip = 63; continue _fun00001 }
  34:
             report = report == tango;
             zulu = undefined;
-            if(report) { _fun80301_ip = 49; continue _fun80301 }
+            if(report) { _fun00002_ip = 49; continue _fun00001 }
  43:
             zulu = tango.platform;
  49:

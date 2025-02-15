@@ -21,12 +21,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/ListingImageUtil.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getSource
-        _fun126956: for(var _fun126956_ip = 0; ; ) switch(_fun126956_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.image_asset;
             mike = null;
-            if(!(mike != zulu)) { _fun126956_ip = 86; continue _fun126956 }
+            if(!(mike != zulu)) { _fun00002_ip = 86; continue _fun00001 }
  15:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             tango = mike != zulu;
             mike = '';
-            if(!tango) { _fun126956_ip = 79; continue _fun126956 }
+            if(!tango) { _fun00002_ip = 79; continue _fun00001 }
  76:
             mike = zulu;
  79:

@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileRemediatedNotice.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: RemediatedUserNotice
-        _fun102634: for(var _fun102634_ip = 0; ; ) switch(_fun102634_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.user;
@@ -126,13 +126,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.isPendingIncoming;
             options = entity.isBlocked;
             golf = entity.isIgnored;
-            if(options) { _fun102634_ip = 140; continue _fun102634 }
+            if(options) { _fun00002_ip = 140; continue _fun00001 }
  124:
             entity = null;
-            if(!golf) { _fun102634_ip = 581; continue _fun102634 }
+            if(!golf) { _fun00002_ip = 581; continue _fun00001 }
  132:
             entity = null;
-            if(mike) { _fun102634_ip = 581; continue _fun102634 }
+            if(mike) { _fun00002_ip = 581; continue _fun00001 }
  140:
             tango = _closure1_slot8;
             zulu = _closure1_slot3;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = offset;
             oscar[2] = verify;
             mike['style'] = oscar;
-            if(!options) { _fun102634_ip = 284; continue _fun102634 }
+            if(!options) { _fun00002_ip = 284; continue _fun00001 }
  184:
             offset = _closure1_slot6;
             kilo = _closure1_slot0;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  284:
             oscar = new Array(2);
             oscar[0] = options;
-            if(!golf) { _fun102634_ip = 567; continue _fun102634 }
+            if(!golf) { _fun00002_ip = 567; continue _fun00001 }
  298:
             offset = _closure1_slot8;
             verify = _closure1_slot7;

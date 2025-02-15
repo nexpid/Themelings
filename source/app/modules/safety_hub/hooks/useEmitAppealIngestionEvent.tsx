@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/hooks/useEmitAppealIngestionEvent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun92724: for(var _fun92724_ip = 0; ; ) switch(_fun92724_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.useSafetyHubClassification;
             oscar = null;
             mike = golf;
-            if(!(oscar == mike)) { _fun92724_ip = 92; continue _fun92724 }
+            if(!(oscar == mike)) { _fun00002_ip = 92; continue _fun00001 }
  88:
             mike = _closure1_slot6;
  92:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[2] = oscar;
             mike[3] = report;
             entity = function(argFoo) {
-                _fun92727: for(var _fun92727_ip = 0; ; ) switch(_fun92727_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = _closure2_slot0;
                     options = null;
                     verify = options != verify;
-                    if(!verify) { _fun92727_ip = 107; continue _fun92727 }
+                    if(!verify) { _fun00004_ip = 107; continue _fun00003 }
  79:
                     verify = global;
                     offset = verify.Number;

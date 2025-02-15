@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
     entity = function(argFoo) { // Original name: useResolvedUserOption
-        _fun69016: for(var _fun69016_ip = 0; ; ) switch(_fun69016_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = arguments[1];
             mike = undefined;
-            if(!(tango === mike)) { _fun69016_ip = 25; continue _fun69016 }
+            if(!(tango === mike)) { _fun00002_ip = 25; continue _fun00001 }
  12:
             entity = _closure1_slot4;
             tango = entity.USER_SETTING;
@@ -20,15 +20,15 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(zulu)();
             report = _closure1_slot4;
             report = report.USER_SETTING;
-            if(!(report !== tango)) { _fun69016_ip = 90; continue _fun69016 }
+            if(!(report !== tango)) { _fun00002_ip = 90; continue _fun00001 }
  52:
             report = _closure1_slot4;
             report = report.FORCE_ENABLE;
-            if(!(report !== tango)) { _fun69016_ip = 86; continue _fun69016 }
+            if(!(report !== tango)) { _fun00002_ip = 86; continue _fun00001 }
  66:
             zulu = _closure1_slot4;
             zulu = zulu.FORCE_DISABLE;
-            if(!(zulu !== tango)) { _fun69016_ip = 82; continue _fun69016 }
+            if(!(zulu !== tango)) { _fun00002_ip = 82; continue _fun00001 }
  80:
             return mike;
  82:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     zulu['RenderMessageOptionsContext'] = report;
     zulu['RenderMessageOptionsOverride'] = tango;
     mike = function(argFoo) { // Original name: RenderMessageOptionsContextProvider
-        _fun69018: for(var _fun69018_ip = 0; ; ) switch(_fun69018_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             report = oscar.children;
@@ -194,133 +194,133 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             target = verify.bind(tango)(options, golf);
             var _closure2_slot5 = target;
             update = oscar.renderCodedLinks;
-            if(!(zulu == update)) { _fun69018_ip = 335; continue _fun69018 }
+            if(!(zulu == update)) { _fun00004_ip = 335; continue _fun00003 }
  325:
             golf = _closure1_slot5;
             update = golf.renderCodedLinks;
  335:
             _closure2_slot6 = update;
             sizing = oscar.renderGiftCode;
-            if(!(zulu == sizing)) { _fun69018_ip = 359; continue _fun69018 }
+            if(!(zulu == sizing)) { _fun00004_ip = 359; continue _fun00003 }
  349:
             golf = _closure1_slot5;
             sizing = golf.renderGiftCode;
  359:
             _closure2_slot7 = sizing;
             backup = oscar.renderShortcuts;
-            if(!(zulu == backup)) { _fun69018_ip = 383; continue _fun69018 }
+            if(!(zulu == backup)) { _fun00004_ip = 383; continue _fun00003 }
  373:
             golf = _closure1_slot5;
             backup = golf.renderShortcuts;
  383:
             _closure2_slot8 = backup;
             sequence = oscar.renderActivityInstanceEmbed;
-            if(!(zulu == sequence)) { _fun69018_ip = 407; continue _fun69018 }
+            if(!(zulu == sequence)) { _fun00004_ip = 407; continue _fun00003 }
  397:
             golf = _closure1_slot5;
             sequence = golf.renderActivityInstanceEmbed;
  407:
             _closure2_slot9 = sequence;
             vacuum = oscar.renderActivityInviteEmbed;
-            if(!(zulu == vacuum)) { _fun69018_ip = 431; continue _fun69018 }
+            if(!(zulu == vacuum)) { _fun00004_ip = 431; continue _fun00003 }
  421:
             golf = _closure1_slot5;
             vacuum = golf.renderActivityInviteEmbed;
  431:
             _closure2_slot10 = vacuum;
             result = oscar.renderComponents;
-            if(!(zulu == result)) { _fun69018_ip = 455; continue _fun69018 }
+            if(!(zulu == result)) { _fun00004_ip = 455; continue _fun00003 }
  445:
             golf = _closure1_slot5;
             result = golf.renderComponents;
  455:
             _closure2_slot11 = result;
             romeo = oscar.renderThreadEmbeds;
-            if(!(zulu == romeo)) { _fun69018_ip = 479; continue _fun69018 }
+            if(!(zulu == romeo)) { _fun00004_ip = 479; continue _fun00003 }
  469:
             golf = _closure1_slot5;
             romeo = golf.renderThreadEmbeds;
  479:
             _closure2_slot12 = romeo;
             foxtrot = oscar.renderReplies;
-            if(!(zulu == foxtrot)) { _fun69018_ip = 503; continue _fun69018 }
+            if(!(zulu == foxtrot)) { _fun00004_ip = 503; continue _fun00003 }
  493:
             golf = _closure1_slot5;
             foxtrot = golf.renderReplies;
  503:
             _closure2_slot13 = foxtrot;
             echo = oscar.renderCommunicationDisabled;
-            if(!(zulu == echo)) { _fun69018_ip = 527; continue _fun69018 }
+            if(!(zulu == echo)) { _fun00004_ip = 527; continue _fun00003 }
  517:
             golf = _closure1_slot5;
             echo = golf.renderCommunicationDisabled;
  527:
             _closure2_slot14 = echo;
             control = oscar.renderAttachments;
-            if(!(zulu == control)) { _fun69018_ip = 551; continue _fun69018 }
+            if(!(zulu == control)) { _fun00004_ip = 551; continue _fun00003 }
  541:
             golf = _closure1_slot5;
             control = golf.renderAttachments;
  551:
             _closure2_slot15 = control;
             source = oscar.renderExecutedCommands;
-            if(!(zulu == source)) { _fun69018_ip = 575; continue _fun69018 }
+            if(!(zulu == source)) { _fun00004_ip = 575; continue _fun00003 }
  565:
             golf = _closure1_slot5;
             source = golf.renderExecutedCommands;
  575:
             _closure2_slot16 = source;
             context = oscar.ignoreMentioned;
-            if(!(zulu == context)) { _fun69018_ip = 599; continue _fun69018 }
+            if(!(zulu == context)) { _fun00004_ip = 599; continue _fun00003 }
  589:
             golf = _closure1_slot5;
             context = golf.ignoreMentioned;
  599:
             _closure2_slot17 = context;
             papa = oscar.ignoreEmbedDescriptionCache;
-            if(!(zulu == papa)) { _fun69018_ip = 623; continue _fun69018 }
+            if(!(zulu == papa)) { _fun00004_ip = 623; continue _fun00003 }
  613:
             golf = _closure1_slot5;
             papa = golf.ignoreEmbedDescriptionCache;
  623:
             _closure2_slot18 = papa;
             status = oscar.forceHideSimpleEmbedContent;
-            if(!(zulu == status)) { _fun69018_ip = 647; continue _fun69018 }
+            if(!(zulu == status)) { _fun00004_ip = 647; continue _fun00003 }
  637:
             golf = _closure1_slot5;
             status = golf.forceHideSimpleEmbedContent;
  647:
             _closure2_slot19 = status;
             sierra = oscar.enableSwipeActions;
-            if(!(zulu == sierra)) { _fun69018_ip = 671; continue _fun69018 }
+            if(!(zulu == sierra)) { _fun00004_ip = 671; continue _fun00003 }
  661:
             golf = _closure1_slot5;
             sierra = golf.enableSwipeActions;
  671:
             _closure2_slot20 = sierra;
             yankee = oscar.renderPolls;
-            if(!(zulu == yankee)) { _fun69018_ip = 695; continue _fun69018 }
+            if(!(zulu == yankee)) { _fun00004_ip = 695; continue _fun00003 }
  685:
             golf = _closure1_slot5;
             yankee = golf.renderPolls;
  695:
             _closure2_slot21 = yankee;
             offset = oscar.renderForumPostActions;
-            if(!(zulu == offset)) { _fun69018_ip = 719; continue _fun69018 }
+            if(!(zulu == offset)) { _fun00004_ip = 719; continue _fun00003 }
  709:
             golf = _closure1_slot5;
             offset = golf.renderForumPostActions;
  719:
             _closure2_slot22 = offset;
             verify = oscar.renderInlineForwardButton;
-            if(!(zulu == verify)) { _fun69018_ip = 743; continue _fun69018 }
+            if(!(zulu == verify)) { _fun00004_ip = 743; continue _fun00003 }
  733:
             golf = _closure1_slot5;
             verify = golf.renderInlineForwardButton;
  743:
             _closure2_slot23 = verify;
             options = oscar.useAlternateEmbedColors;
-            if(!(zulu == options)) { _fun69018_ip = 767; continue _fun69018 }
+            if(!(zulu == options)) { _fun00004_ip = 767; continue _fun00003 }
  757:
             zulu = _closure1_slot5;
             options = zulu.useAlternateEmbedColors;

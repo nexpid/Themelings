@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun106856: for(var _fun106856_ip = 0; ; ) switch(_fun106856_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot15;
             entity = entity.bind(zulu)();
-            if(entity) { _fun106856_ip = 51; continue _fun106856 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun106856_ip = 92; continue _fun106856;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun106856_ip = 71; continue _fun106856 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot14 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun106857: for(var _fun106857_ip = 0; ; ) switch(_fun106857_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun106857_ip = 76; continue _fun106857;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -234,13 +234,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = argFoo;
             zulu = tango.filter;
             mike = function(argFoo) {
-                _fun106868: for(var _fun106868_ip = 0; ; ) switch(_fun106868_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     zulu = mike.userInfo;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun106868_ip = 46; continue _fun106868 }
+                    if(!entity) { _fun00006_ip = 46; continue _fun00005 }
  18:
                     mike = mike.userInfo;
                     zulu = mike.type;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(mike);
             mike = zulu.forEach;
             entity = function(argFoo) {
-                _fun106869: for(var _fun106869_ip = 0; ; ) switch(_fun106869_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.userInfo;
@@ -263,17 +263,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = tango.getGuild;
                     tango = mike.bind(tango)(report);
                     mike = null;
-                    if(!(mike != tango)) { _fun106869_ip = 68; continue _fun106869 }
+                    if(!(mike != tango)) { _fun00008_ip = 68; continue _fun00007 }
  37:
                     tango = _closure1_slot9;
                     mike = tango.canChatInGuild;
                     mike = mike.bind(tango)(report);
-                    if(mike) { _fun106869_ip = 68; continue _fun106869 }
+                    if(mike) { _fun00008_ip = 68; continue _fun00007 }
  55:
                     tango = _closure1_slot16;
                     mike = undefined;
                     mike = tango.bind(mike)(zulu);
-                    _fun106869_ip = 110; continue _fun106869;
+                    _fun00008_ip = 110; continue _fun00007;
  68:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['CONNECTION_OPEN'] = verify;
     verify = function(argFoo) { // Original name: handleGuildVerificationChecked
-        _fun106870: for(var _fun106870_ip = 0; ; ) switch(_fun106870_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             entity = entity.guild;
@@ -308,34 +308,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.getGuild;
             report = entity.bind(mike)(oscar);
             entity = null;
-            if(!(entity != report)) { _fun106870_ip = 439; continue _fun106870 }
+            if(!(entity != report)) { _fun00010_ip = 439; continue _fun00009 }
  39:
             zulu = _closure1_slot9;
             mike = zulu.getCheck;
             mike = mike.bind(zulu)(oscar);
             zulu = mike.canChat;
-            if(zulu) { _fun106870_ip = 435; continue _fun106870 }
+            if(zulu) { _fun00010_ip = 435; continue _fun00009 }
  66:
             oscar = report.verificationLevel;
             zulu = _closure1_slot12;
             zulu = zulu.MEDIUM;
-            if(!(oscar !== zulu)) { _fun106870_ip = 109; continue _fun106870 }
+            if(!(oscar !== zulu)) { _fun00010_ip = 109; continue _fun00009 }
  86:
             oscar = report.verificationLevel;
             zulu = _closure1_slot12;
             zulu = zulu.HIGH;
-            if(!(oscar === zulu)) { _fun106870_ip = 435; continue _fun106870 }
+            if(!(oscar === zulu)) { _fun00010_ip = 435; continue _fun00009 }
  109:
             oscar = report.verificationLevel;
             zulu = _closure1_slot12;
             zulu = zulu.MEDIUM;
-            if(!(zulu !== oscar)) { _fun106870_ip = 180; continue _fun106870 }
+            if(!(zulu !== oscar)) { _fun00010_ip = 180; continue _fun00009 }
  129:
             zulu = _closure1_slot12;
             zulu = zulu.HIGH;
             golf = undefined;
             offset = undefined;
-            if(!(zulu === oscar)) { _fun106870_ip = 213; continue _fun106870 }
+            if(!(zulu === oscar)) { _fun00010_ip = 213; continue _fun00009 }
  147:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.bind(golf)(zulu);
             zulu = mike.memberDeadline;
             offset = oscar.bind(golf)(zulu);
-            _fun106870_ip = 213; continue _fun106870;
+            _fun00010_ip = 213; continue _fun00009;
  180:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.accountDeadline;
             offset = zulu.bind(oscar)(mike);
  213:
-            if(!(entity != offset)) { _fun106870_ip = 435; continue _fun106870 }
+            if(!(entity != offset)) { _fun00010_ip = 435; continue _fun00009 }
  220:
             zulu = offset.isSameOrBefore;
             mike = _closure1_slot1;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.bind(options)();
             entity = 'minute';
             entity = zulu.bind(offset)(mike, entity);
-            if(entity) { _fun106870_ip = 435; continue _fun106870 }
+            if(entity) { _fun00010_ip = 435; continue _fun00009 }
  268:
             oscar = {};
             entity = _closure1_slot10;
@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_CREATE'] = verify;
     verify = function(argFoo) { // Original name: handleGuildDelete
-        _fun106871: for(var _fun106871_ip = 0; ; ) switch(_fun106871_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot13;
             mike = tango.has;
             mike = mike.bind(tango)(zulu);
-            if(!mike) { _fun106871_ip = 64; continue _fun106871 }
+            if(!mike) { _fun00012_ip = 64; continue _fun00011 }
  53:
             mike = _closure1_slot17;
             entity = undefined;

@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/keyword_filter/hooks/useShouldFilterKeywords.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun69351: for(var _fun69351_ip = 0; ; ) switch(_fun69351_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -44,19 +44,19 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             entity = report.bind(oscar)(entity);
             report = !entity;
             entity = !report;
-            if(report) { _fun69351_ip = 123; continue _fun69351 }
+            if(report) { _fun00002_ip = 123; continue _fun00001 }
  96:
-            if(zulu) { _fun69351_ip = 102; continue _fun69351 }
+            if(zulu) { _fun00002_ip = 102; continue _fun00001 }
  99:
             zulu = tango;
  102:
-            if(zulu) { _fun69351_ip = 108; continue _fun69351 }
+            if(zulu) { _fun00002_ip = 108; continue _fun00001 }
  105:
             zulu = mike;
  108:
             mike = null;
             mike = mike != zulu;
-            if(!mike) { _fun69351_ip = 120; continue _fun69351 }
+            if(!mike) { _fun00002_ip = 120; continue _fun00001 }
  117:
             mike = zulu;
  120:

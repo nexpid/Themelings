@@ -8,11 +8,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: BackwardsCompatibleAppIconRows
-        _fun97999: for(var _fun97999_ip = 0; ; ) switch(_fun97999_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun97999_ip = 288; continue _fun97999 }
+            if(!(mike != entity)) { _fun00002_ip = 288; continue _fun00001 }
  14:
             result = {};
             report = undefined;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = entity.icons;
             offset = entity.title;
             entity = function(argFoo) { // Original name: onLongPress
-                _fun98000: for(var _fun98000_ip = 0; ; ) switch(_fun98000_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = entity.DEFAULT;
                     mike = argFoo;
                     entity = null;
-                    if(!(mike === zulu)) { _fun98000_ip = 60; continue _fun98000 }
+                    if(!(mike === zulu)) { _fun00004_ip = 60; continue _fun00003 }
  46:
                     zulu = _closure2_slot2;
                     mike = true;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_icons/native/AppIconRows.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppIconRows
-        _fun98002: for(var _fun98002_ip = 0; ; ) switch(_fun98002_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             romeo = mike.onSelect;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.length;
             mike = 0;
             kilo = zulu > mike;
-            if(!kilo) { _fun98002_ip = 177; continue _fun98002 }
+            if(!kilo) { _fun00006_ip = 177; continue _fun00005 }
  151:
             zulu = verify.filter;
             entity = function(argFoo) {
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot9;
             entity = {};
             oscar = null;
-            if(!kilo) { _fun98002_ip = 287; continue _fun98002 }
+            if(!kilo) { _fun00006_ip = 287; continue _fun00005 }
  192:
             options = _closure1_slot8;
             golf = _closure1_slot12;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot5;
             oscar = {};
             verify = !output;
-            if(!verify) { _fun98002_ip = 317; continue _fun98002 }
+            if(!verify) { _fun00006_ip = 317; continue _fun00005 }
  311:
             verify = offset.bottomUpsellPadding;
  317:
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['icons'] = sizing;
             verify['currentAppIcon'] = foxtrot;
             foxtrot = undefined;
-            if(!kilo) { _fun98002_ip = 406; continue _fun98002 }
+            if(!kilo) { _fun00006_ip = 406; continue _fun00005 }
  351:
             output = _closure1_slot0;
             result = _closure1_slot2;

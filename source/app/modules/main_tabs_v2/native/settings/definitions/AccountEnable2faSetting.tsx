@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options = options.ACCOUNT;
     mike['parent'] = options;
     options = function() { // Original name: onAccountEnable2FASettingPress
-        _fun94527: for(var _fun94527_ip = 0; ; ) switch(_fun94527_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot3;
             entity = mike.getCurrentUser;
@@ -67,13 +67,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu == tango;
             entity = undefined;
             mike = undefined;
-            if(oscar) { _fun94527_ip = 35; continue _fun94527 }
+            if(oscar) { _fun00002_ip = 35; continue _fun00001 }
  29:
             mike = tango.verified;
  35:
-            if(!(zulu != mike)) { _fun94527_ip = 45; continue _fun94527 }
+            if(!(zulu != mike)) { _fun00002_ip = 45; continue _fun00001 }
  39:
-            if(mike) { _fun94527_ip = 183; continue _fun94527 }
+            if(mike) { _fun00002_ip = 183; continue _fun00001 }
  45:
             zulu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(golf)(report);
             mike['body'] = report;
             mike = zulu.bind(tango)(mike);
-            _fun94527_ip = 196; continue _fun94527;
+            _fun00002_ip = 196; continue _fun00001;
  183:
             mike = function() { // Original name: goToAdd2FA
                 mike = null;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu['onSubmit'] = mike;
                 entity = function(argFoo) { // Original name: onError
-                    _fun94530: for(var _fun94530_ip = 0; ; ) switch(_fun94530_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = argFoo;
                         entity = entity.body;
@@ -134,13 +134,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         mike = _closure1_slot4;
                         mike = mike.MFA_INVALID_SECRET;
                         mike = zulu === mike;
-                        if(!mike) { _fun94530_ip = 46; continue _fun94530 }
+                        if(!mike) { _fun00004_ip = 46; continue _fun00003 }
  33:
                         tango = _closure3_slot0;
                         zulu = null;
                         mike = zulu != tango;
  46:
-                        if(!mike) { _fun94530_ip = 118; continue _fun94530 }
+                        if(!mike) { _fun00004_ip = 118; continue _fun00003 }
  49:
                         zulu = _closure1_slot1;
                         tango = _closure1_slot2;

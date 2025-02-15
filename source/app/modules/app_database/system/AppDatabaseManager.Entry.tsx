@@ -53,12 +53,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'load';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun60741: for(var _fun60741_ip = 0; ; ) switch(_fun60741_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = this;
                 zulu = mike.module;
                 entity = null;
-                if(!(entity == zulu)) { _fun60741_ip = 37; continue _fun60741 }
+                if(!(entity == zulu)) { _fun00002_ip = 37; continue _fun00001 }
  15:
                 zulu = mike.definition;
                 entity = zulu.require;
@@ -75,12 +75,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'reset';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun60742: for(var _fun60742_ip = 0; ; ) switch(_fun60742_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = this;
                 mike = entity.module;
                 entity = null;
-                if(!(entity != mike)) { _fun60742_ip = 27; continue _fun60742 }
+                if(!(entity != mike)) { _fun00004_ip = 27; continue _fun00003 }
  15:
                 entity = mike.resetInMemoryState;
                 entity = entity.bind(mike)();
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'execute';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun60743: for(var _fun60743_ip = 0; ; ) switch(_fun60743_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 report = argFoo;
                 mike = this;
@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.bind(mike)();
                 zulu = mike.module;
                 entity = null;
-                if(!(entity != zulu)) { _fun60743_ip = 68; continue _fun60743 }
+                if(!(entity != zulu)) { _fun00006_ip = 68; continue _fun00005 }
  28:
                 mike = mike.module;
                 tango = mike.actions;
                 mike = report.type;
                 zulu = tango[mike];
-                if(!(entity != zulu)) { _fun60743_ip = 68; continue _fun60743 }
+                if(!(entity != zulu)) { _fun00006_ip = 68; continue _fun00005 }
  53:
                 mike = zulu.call;
                 entity = argBar;

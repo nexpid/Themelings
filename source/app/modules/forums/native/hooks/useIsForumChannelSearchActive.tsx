@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/forums/native/hooks/useIsForumChannelSearchActive.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsForumChannelSearchActive
-        _fun79813: for(var _fun79813_ip = 0; ; ) switch(_fun79813_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -48,12 +48,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = golf;
             mike = function() {
-                _fun79814: for(var _fun79814_ip = 0; ; ) switch(_fun79814_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun79814_ip = 38; continue _fun79814 }
+                    if(!zulu) { _fun00004_ip = 38; continue _fun00003 }
  16:
                     tango = _closure1_slot2;
                     zulu = tango.getSearchQuery;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             zulu = report.bind(oscar)(tango, mike, zulu);
-            if(!entity) { _fun79813_ip = 105; continue _fun79813 }
+            if(!entity) { _fun00002_ip = 105; continue _fun00001 }
  99:
             mike = null;
             entity = mike != zulu;

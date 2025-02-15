@@ -8,7 +8,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: KrispLogo
-        _fun97003: for(var _fun97003_ip = 0; ; ) switch(_fun97003_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot11;
             tango = undefined;
@@ -27,12 +27,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(mike)(zulu);
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
-            if(entity) { _fun97003_ip = 89; continue _fun97003 }
+            if(entity) { _fun00002_ip = 89; continue _fun00001 }
  75:
             entity = 10;
             entity = zulu[entity];
             options = mike.bind(tango)(entity);
-            _fun97003_ip = 101; continue _fun97003;
+            _fun00002_ip = 101; continue _fun00001;
  89:
             entity = 9;
             entity = zulu[entity];

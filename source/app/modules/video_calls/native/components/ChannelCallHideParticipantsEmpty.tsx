@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ChannelCallHideParticipantsEmpty.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun104192: for(var _fun104192_ip = 0; ; ) switch(_fun104192_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.channel;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(mike) { _fun104192_ip = 528; continue _fun104192 }
+            if(mike) { _fun00002_ip = 528; continue _fun00001 }
  85:
             tango = _closure1_slot8;
             zulu = _closure1_slot5;

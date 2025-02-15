@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileUpsellCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileUpsellCard
-        _fun93335: for(var _fun93335_ip = 0; ; ) switch(_fun93335_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.style;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['contentContainerStyle'] = options;
             offset = null;
             options = offset != vacuum;
-            if(!options) { _fun93335_ip = 355; continue _fun93335 }
+            if(!options) { _fun00002_ip = 355; continue _fun00001 }
  228:
             sizing = _closure1_slot8;
             yankee = _closure1_slot3;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify['renderIcon'] = romeo;
             romeo = undefined;
-            if(!backup) { _fun93335_ip = 467; continue _fun93335 }
+            if(!backup) { _fun00002_ip = 467; continue _fun00001 }
  460:
             romeo = function() {
                 tango = _closure1_slot7;

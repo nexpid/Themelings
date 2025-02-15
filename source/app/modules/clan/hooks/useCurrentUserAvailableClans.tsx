@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.bind(mike)();
             mike = zulu.filter;
             entity = function(argFoo) {
-                _fun93312: for(var _fun93312_ip = 0; ; ) switch(_fun93312_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = argFoo;
                     report = _closure1_slot0;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = report.bind(mike)(entity);
                     entity = report.isGuildAClan;
                     entity = entity.bind(report)(zulu);
-                    if(!entity) { _fun93312_ip = 83; continue _fun93312 }
+                    if(!entity) { _fun00002_ip = 83; continue _fun00001 }
  42:
                     report = _closure1_slot4;
                     tango = report.getSelfMember;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = null;
                     report = zulu == tango;
                     mike = undefined;
-                    if(report) { _fun93312_ip = 79; continue _fun93312 }
+                    if(report) { _fun00002_ip = 79; continue _fun00001 }
  73:
                     mike = tango.joinedAt;
  79:

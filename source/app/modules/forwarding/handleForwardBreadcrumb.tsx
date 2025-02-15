@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun100079: for(var _fun100079_ip = 0; ; ) switch(_fun100079_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     foxtrot = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun100079_ip = 478; continue _fun100079 }
+                    if(mike) { _fun00002_ip = 478; continue _fun00001 }
  13:
                     mike = undefined;
                     tango = undefined;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = undefined;
                     oscar = foxtrot.messageReference;
                     backup = null;
-                    if(!(backup != oscar)) { _fun100079_ip = 475; continue _fun100079 }
+                    if(!(backup != oscar)) { _fun00002_ip = 475; continue _fun00001 }
  36:
                     oscar = foxtrot.messageReference;
                     tango = oscar.guild_id;
@@ -40,16 +40,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = oscar.bind(golf)(verify);
                     golf = false;
                     report = false;
-                    if(!(backup == oscar)) { _fun100079_ip = 278; continue _fun100079 }
+                    if(!(backup == oscar)) { _fun00002_ip = 278; continue _fun00001 }
  101:
                     oscar = tango;
-                    if(!(backup != oscar)) { _fun100079_ip = 278; continue _fun100079 }
+                    if(!(backup != oscar)) { _fun00002_ip = 278; continue _fun00001 }
  111:
                     yankee = _closure1_slot5;
                     verify = yankee.getGuild;
                     oscar = tango;
                     oscar = verify.bind(yankee)(oscar);
-                    if(!(backup == oscar)) { _fun100079_ip = 278; continue _fun100079 }
+                    if(!(backup == oscar)) { _fun00002_ip = 278; continue _fun00001 }
  135: // try_start_0
                     verify = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  199:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(verify) { _fun100079_ip = 273; continue _fun100079 }
+                    if(verify) { _fun00002_ip = 273; continue _fun00001 }
  205:
                     report = true;
                     yankee = _closure1_slot0;
@@ -86,14 +86,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return verify;
  245:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
-                    if(yankee) { _fun100079_ip = 270; continue _fun100079 }
+                    if(yankee) { _fun00002_ip = 270; continue _fun00001 }
  251:
                     kilo = _closure1_slot4;
                     romeo = kilo.getChannel;
                     yankee = zulu;
                     yankee = romeo.bind(kilo)(yankee);
  268: // try_end0
-                    _fun100079_ip = 278; continue _fun100079;
+                    _fun00002_ip = 278; continue _fun00001;
  270:
                     return verify;
  273:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     kilo = sizing.bind(output)(kilo);
                     sizing = backup == kilo;
                     backup = undefined;
-                    if(sizing) { _fun100079_ip = 349; continue _fun100079 }
+                    if(sizing) { _fun00002_ip = 349; continue _fun00001 }
  344:
                     backup = kilo.guild_id;
  349:
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar['did_lurk'] = report;
                     oscar = yankee.bind(romeo)(verify, oscar);
                     oscar = undefined;
-                    if(!report) { _fun100079_ip = 420; continue _fun100079 }
+                    if(!report) { _fun00002_ip = 420; continue _fun00001 }
  417:
                     oscar = zulu;
  420:

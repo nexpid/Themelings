@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['getAssetUriForEmbed'] = report;
     zulu['SUPPORTED_VIDEO_PARTNERS'] = tango;
     mike = function(argFoo) { // Original name: shouldPlayVideoInline
-        _fun69144: for(var _fun69144_ip = 0; ; ) switch(_fun69144_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             report = entity != tango;
             entity = '';
-            if(!report) { _fun69144_ip = 31; continue _fun69144 }
+            if(!report) { _fun00002_ip = 31; continue _fun00001 }
  28:
             entity = tango;
  31:

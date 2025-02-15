@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remote_auth/native/ExperimentalRemoteAuthLogin.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DelayedRemoteAuthLogin
-        _fun95317: for(var _fun95317_ip = 0; ; ) switch(_fun95317_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.handshakeToken;
@@ -148,11 +148,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = mike.setInterval;
                 tango = undefined;
                 zulu = function() {
-                    _fun95319: for(var _fun95319_ip = 0; ; ) switch(_fun95319_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure2_slot4;
                         mike = 0;
-                        if(!(!(zulu > mike))) { _fun95319_ip = 48; continue _fun95319 }
+                        if(!(!(zulu > mike))) { _fun00004_ip = 48; continue _fun00003 }
  13:
                         zulu = _closure2_slot2;
                         tango = undefined;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = mike.clearInterval;
                         mike = _closure3_slot0;
                         mike = zulu.bind(tango)(mike);
-                        _fun95319_ip = 68; continue _fun95319;
+                        _fun00004_ip = 68; continue _fun00003;
  48:
                         zulu = _closure2_slot5;
                         mike = undefined;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = result[backup];
             output = source.bind(tango)(output);
             update = output.intl;
-            if(offset) { _fun95317_ip = 717; continue _fun95317 }
+            if(offset) { _fun00002_ip = 717; continue _fun00001 }
  669:
             control = update.formatToPlainString;
             output = result[backup];
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = vacuum + sequence;
             output['seconds'] = vacuum;
             output = control.bind(update)(echo, output);
-            _fun95317_ip = 747; continue _fun95317;
+            _fun00002_ip = 747; continue _fun00001;
  717:
             echo = update.string;
             result = result[backup];
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['text'] = output;
             oscar['onPress'] = sizing;
             offset = !offset;
-            if(!offset) { _fun95317_ip = 764; continue _fun95317 }
+            if(!offset) { _fun00002_ip = 764; continue _fun00001 }
  761:
             offset = !kilo;
  764:

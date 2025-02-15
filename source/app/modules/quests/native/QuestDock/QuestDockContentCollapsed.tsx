@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: QuestDockContentCollapsed
-        _fun116265: for(var _fun116265_ip = 0; ; ) switch(_fun116265_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.hideOnExpand;
             tango = undefined;
             yankee = tango === mike;
-            if(yankee) { _fun116265_ip = 23; continue _fun116265 }
+            if(yankee) { _fun00002_ip = 23; continue _fun00001 }
  20:
             yankee = mike;
  23:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             oscar = zulu == report;
             mike = undefined;
-            if(oscar) { _fun116265_ip = 102; continue _fun116265 }
+            if(oscar) { _fun00002_ip = 102; continue _fun00001 }
  96:
             mike = report.enrolledAt;
  102:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = zulu.bind(tango)(report);
             verify = backup.useAnimatedStyle;
             report = function() { // Original name: p
-                _fun116266: for(var _fun116266_ip = 0; ; ) switch(_fun116266_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     report = _closure1_slot0;
@@ -134,11 +134,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = zulu.COLLAPSED;
                     golf = 1;
                     zulu = golf;
-                    if(!(verify !== options)) { _fun116266_ip = 80; continue _fun116266 }
+                    if(!(verify !== options)) { _fun00004_ip = 80; continue _fun00003 }
  68:
                     oscar = _closure2_slot0;
                     zulu = golf;
-                    if(!oscar) { _fun116266_ip = 80; continue _fun116266 }
+                    if(!oscar) { _fun00004_ip = 80; continue _fun00003 }
  78:
                     zulu = 0;
  80:
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(mike);
             mike = zulu.useAnimatedProps;
             entity = function() { // Original name: S
-                _fun116267: for(var _fun116267_ip = 0; ; ) switch(_fun116267_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot1;
@@ -180,11 +180,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = mike.COLLAPSED;
                     tango = 'auto';
                     mike = tango;
-                    if(!(oscar !== report)) { _fun116267_ip = 56; continue _fun116267 }
+                    if(!(oscar !== report)) { _fun00006_ip = 56; continue _fun00005 }
  42:
                     zulu = _closure2_slot0;
                     mike = tango;
-                    if(!zulu) { _fun116267_ip = 56; continue _fun116267 }
+                    if(!zulu) { _fun00006_ip = 56; continue _fun00005 }
  52:
                     mike = 'none';
  56:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = options;
             entity['animatedProps'] = report;
             options = !oscar;
-            if(oscar) { _fun116265_ip = 433; continue _fun116265 }
+            if(oscar) { _fun00002_ip = 433; continue _fun00001 }
  401:
             offset = _closure1_slot6;
             verify = _closure1_slot1;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  433:
             report = new Array(2);
             report[0] = options;
-            if(!oscar) { _fun116265_ip = 476; continue _fun116265 }
+            if(!oscar) { _fun00002_ip = 476; continue _fun00001 }
  444:
             verify = _closure1_slot6;
             options = _closure1_slot1;

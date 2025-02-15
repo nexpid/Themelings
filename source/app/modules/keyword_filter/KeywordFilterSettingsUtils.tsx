@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/keyword_filter/KeywordFilterSettingsUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun60274: for(var _fun60274_ip = 0; ; ) switch(_fun60274_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -34,25 +34,25 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = mike.bind(zulu)();
             tango = zulu.profanity;
             mike = entity !== tango;
-            if(!mike) { _fun60274_ip = 56; continue _fun60274 }
+            if(!mike) { _fun00002_ip = 56; continue _fun00001 }
  53:
             mike = tango;
  56:
             report = zulu.slurs;
             tango = entity !== report;
-            if(!tango) { _fun60274_ip = 72; continue _fun60274 }
+            if(!tango) { _fun00002_ip = 72; continue _fun00001 }
  69:
             tango = report;
  72:
             zulu = zulu.sexualContent;
-            if(mike) { _fun60274_ip = 84; continue _fun60274 }
+            if(mike) { _fun00002_ip = 84; continue _fun00001 }
  81:
             mike = tango;
  84:
-            if(mike) { _fun60274_ip = 100; continue _fun60274 }
+            if(mike) { _fun00002_ip = 100; continue _fun00001 }
  87:
             entity = entity !== zulu;
-            if(!entity) { _fun60274_ip = 97; continue _fun60274 }
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  94:
             entity = zulu;
  97:
@@ -60,7 +60,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
  100:
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun60274_ip = 112; continue _fun60274 }
+            if(!entity) { _fun00002_ip = 112; continue _fun00001 }
  109:
             entity = mike;
  112:

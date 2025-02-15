@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/self_mod/stranger_danger/native/components/more_tips_modal/WasThisHelpfulSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: WasThisHelpfulSection
-        _fun89641: for(var _fun89641_ip = 0; ; ) switch(_fun89641_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.channelId;
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = entity;
             mike = function() {
-                _fun89643: for(var _fun89643_ip = 0; ; ) switch(_fun89643_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot4;
                     mike = null;
                     zulu = mike == zulu;
                     mike = undefined;
-                    if(zulu) { _fun89643_ip = 28; continue _fun89643 }
+                    if(zulu) { _fun00004_ip = 28; continue _fun00003 }
  18:
                     entity = _closure2_slot4;
                     mike = entity.feedback_type;
@@ -197,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = entity;
             mike = function() {
-                _fun89644: for(var _fun89644_ip = 0; ; ) switch(_fun89644_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot4;
                     mike = null;
                     zulu = mike == zulu;
                     mike = undefined;
-                    if(zulu) { _fun89644_ip = 28; continue _fun89644 }
+                    if(zulu) { _fun00006_ip = 28; continue _fun00005 }
  18:
                     entity = _closure2_slot4;
                     mike = entity.feedback_type;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = oscar;
             mike[4] = entity;
             entity = function(argFoo, argBar) {
-                _fun89645: for(var _fun89645_ip = 0; ; ) switch(_fun89645_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = argFoo;
                     zulu = _closure1_slot0;
@@ -245,10 +245,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     zulu = _closure1_slot7;
                     zulu = zulu.UPVOTE;
-                    if(!(tango !== zulu)) { _fun89645_ip = 96; continue _fun89645 }
+                    if(!(tango !== zulu)) { _fun00008_ip = 96; continue _fun00007 }
  90:
                     zulu = _closure1_slot8;
-                    _fun89645_ip = 100; continue _fun89645;
+                    _fun00008_ip = 100; continue _fun00007;
  96:
                     zulu = _closure1_slot10;
  100:
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     golf = report == golf;
                     report = undefined;
-                    if(golf) { _fun89645_ip = 312; continue _fun89645 }
+                    if(golf) { _fun00008_ip = 312; continue _fun00007 }
  303:
                     oscar = _closure2_slot4;
                     report = oscar.type;
@@ -346,10 +346,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = kilo.buttonsBackground;
             offset = new Array(2);
             offset[0] = sizing;
-            if(echo) { _fun89641_ip = 375; continue _fun89641 }
+            if(echo) { _fun00002_ip = 375; continue _fun00001 }
  367:
             sizing = kilo.buttonsBackgroundInactive;
-            _fun89641_ip = 381; continue _fun89641;
+            _fun00002_ip = 381; continue _fun00001;
  375:
             sizing = kilo.buttonsBackgroundActive;
  381:
@@ -399,11 +399,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = control[update];
             update = source.bind(tango)(update);
             offset['source'] = update;
-            if(echo) { _fun89641_ip = 539; continue _fun89641 }
+            if(echo) { _fun00002_ip = 539; continue _fun00001 }
  526:
             echo = kilo.buttonIconInactive;
             echo = echo.color;
-            _fun89641_ip = 550; continue _fun89641;
+            _fun00002_ip = 550; continue _fun00001;
  539:
             update = kilo.buttonIconActive;
             echo = update.color;
@@ -420,10 +420,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = kilo.buttonsBackground;
             output = new Array(2);
             output[0] = result;
-            if(backup) { _fun89641_ip = 613; continue _fun89641 }
+            if(backup) { _fun00002_ip = 613; continue _fun00001 }
  605:
             result = kilo.buttonsBackgroundInactive;
-            _fun89641_ip = 619; continue _fun89641;
+            _fun00002_ip = 619; continue _fun00001;
  613:
             result = kilo.buttonsBackgroundActive;
  619:
@@ -472,11 +472,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result[sizing];
             sizing = output.bind(tango)(sizing);
             yankee['source'] = sizing;
-            if(backup) { _fun89641_ip = 774; continue _fun89641 }
+            if(backup) { _fun00002_ip = 774; continue _fun00001 }
  761:
             backup = kilo.buttonIconInactive;
             backup = backup.color;
-            _fun89641_ip = 785; continue _fun89641;
+            _fun00002_ip = 785; continue _fun00001;
  774:
             kilo = kilo.buttonIconActive;
             backup = kilo.color;

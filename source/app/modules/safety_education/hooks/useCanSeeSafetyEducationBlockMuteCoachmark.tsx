@@ -26,7 +26,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/safety_education/hooks/useCanSeeSafetyEducationBlockMuteCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun116034: for(var _fun116034_ip = 0; ; ) switch(_fun116034_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = tango.bind(oscar)(mike);
             mike = tango.useUserIsInLargeGuilds;
             mike = mike.bind(tango)();
-            if(!entity) { _fun116034_ip = 138; continue _fun116034 }
+            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  104:
             tango = _closure1_slot0;
             golf = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)(report);
             entity = !zulu;
  138:
-            if(!entity) { _fun116034_ip = 144; continue _fun116034 }
+            if(!entity) { _fun00002_ip = 144; continue _fun00001 }
  141:
             entity = mike;
  144:

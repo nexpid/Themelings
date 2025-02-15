@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: getTopAndNewlyAddedEmojis
-        _fun77928: for(var _fun77928_ip = 0; ; ) switch(_fun77928_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.emojiStoreInstance;
             mike = undefined;
-            if(!(report === mike)) { _fun77928_ip = 22; continue _fun77928 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  15:
             report = _closure1_slot2;
  22:
@@ -20,10 +20,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             zulu = _closure1_slot3;
             zulu = zulu.REACTION;
-            if(!(oscar === zulu)) { _fun77928_ip = 58; continue _fun77928 }
+            if(!(oscar === zulu)) { _fun00002_ip = 58; continue _fun00001 }
  52:
             zulu = _closure1_slot4;
-            _fun77928_ip = 71; continue _fun77928;
+            _fun00002_ip = 71; continue _fun00001;
  58:
             golf = report.getTopEmoji;
             zulu = golf.bind(report)(tango);
@@ -31,10 +31,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['topEmojis'] = zulu;
             zulu = _closure1_slot3;
             zulu = zulu.REACTION;
-            if(!(oscar === zulu)) { _fun77928_ip = 96; continue _fun77928 }
+            if(!(oscar === zulu)) { _fun00002_ip = 96; continue _fun00001 }
  90:
             mike = _closure1_slot4;
-            _fun77928_ip = 109; continue _fun77928;
+            _fun00002_ip = 109; continue _fun00001;
  96:
             zulu = report.getNewlyAddedEmoji;
             mike = zulu.bind(report)(tango);

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun104700: for(var _fun104700_ip = 0; ; ) switch(_fun104700_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun104700_ip = 51; continue _fun104700 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun104700_ip = 92; continue _fun104700;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun104700_ip = 71; continue _fun104700 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun104701: for(var _fun104701_ip = 0; ; ) switch(_fun104701_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun104701_ip = 76; continue _fun104701;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -82,14 +82,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: getWindowIdState
-        _fun104704: for(var _fun104704_ip = 0; ; ) switch(_fun104704_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot9;
             mike = zulu.get;
             entity = argFoo;
             entity = mike.bind(zulu)(entity);
             mike = null;
-            if(!(mike == entity)) { _fun104704_ip = 55; continue _fun104704 }
+            if(!(mike == entity)) { _fun00006_ip = 55; continue _fun00005 }
  26:
             mike = {'isElementFullscreen': false, 'focused': false, 'windowSize': null, 'visible': false};
             zulu = {'width': 0, 'height': 0};
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'isFocused';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun104707: for(var _fun104707_ip = 0; ; ) switch(_fun104707_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zulu = arguments[0];
                 mike = undefined;
-                if(!(zulu === mike)) { _fun104707_ip = 42; continue _fun104707 }
+                if(!(zulu === mike)) { _fun00008_ip = 42; continue _fun00007 }
  9:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -192,11 +192,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isVisible';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun104708: for(var _fun104708_ip = 0; ; ) switch(_fun104708_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 zulu = arguments[0];
                 mike = undefined;
-                if(!(zulu === mike)) { _fun104708_ip = 42; continue _fun104708 }
+                if(!(zulu === mike)) { _fun00010_ip = 42; continue _fun00009 }
  9:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -223,11 +223,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot9;
             zulu = tango.forEach;
             mike = function(argFoo, argBar) {
-                _fun104710: for(var _fun104710_ip = 0; ; ) switch(_fun104710_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
                     entity = entity.focused;
-                    if(!entity) { _fun104710_ip = 22; continue _fun104710 }
+                    if(!entity) { _fun00012_ip = 22; continue _fun00011 }
  12:
                     entity = argBar;
                     _closure3_slot0 = entity;
@@ -255,11 +255,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'isElementFullScreen';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun104712: for(var _fun104712_ip = 0; ; ) switch(_fun104712_ip) {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 zulu = arguments[0];
                 mike = undefined;
-                if(!(zulu === mike)) { _fun104712_ip = 42; continue _fun104712 }
+                if(!(zulu === mike)) { _fun00014_ip = 42; continue _fun00013 }
  9:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -281,11 +281,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'windowSize';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun104713: for(var _fun104713_ip = 0; ; ) switch(_fun104713_ip) {
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 zulu = arguments[0];
                 mike = undefined;
-                if(!(zulu === mike)) { _fun104713_ip = 42; continue _fun104713 }
+                if(!(zulu === mike)) { _fun00016_ip = 42; continue _fun00015 }
  9:
                 tango = _closure1_slot0;
                 report = _closure1_slot2;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     foxtrot = golf.bind(entity)(mike);
     mike = {};
     golf = function(argFoo) { // Original name: handleWindowInit
-        _fun104714: for(var _fun104714_ip = 0; ; ) switch(_fun104714_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot1;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['focused'] = zulu;
             tango['visible'] = options;
             tango = oscar.bind(golf)(report, tango);
-            if(!zulu) { _fun104714_ip = 157; continue _fun104714 }
+            if(!zulu) { _fun00018_ip = 157; continue _fun00017 }
  147:
             entity = entity.windowId;
             _closure1_slot8 = entity;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['WINDOW_INIT'] = golf;
     golf = function(argFoo) { // Original name: handleWindowFullscreenChange
-        _fun104715: for(var _fun104715_ip = 0; ; ) switch(_fun104715_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot12;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.isElementFullscreen;
             entity = oscar.isElementFullscreen;
             entity = zulu !== entity;
-            if(!entity) { _fun104715_ip = 92; continue _fun104715 }
+            if(!entity) { _fun00020_ip = 92; continue _fun00019 }
  42:
             report = _closure1_slot9;
             tango = report.set;
@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['WINDOW_FULLSCREEN_CHANGE'] = golf;
     golf = function(argFoo) { // Original name: handleWindowFocus
-        _fun104716: for(var _fun104716_ip = 0; ; ) switch(_fun104716_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot12;
@@ -398,10 +398,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.focused;
             entity = oscar.focused;
             entity = zulu !== entity;
-            if(!entity) { _fun104716_ip = 111; continue _fun104716 }
+            if(!entity) { _fun00022_ip = 111; continue _fun00021 }
  42:
             zulu = oscar.focused;
-            if(!zulu) { _fun104716_ip = 61; continue _fun104716 }
+            if(!zulu) { _fun00022_ip = 61; continue _fun00021 }
  51:
             zulu = oscar.windowId;
             _closure1_slot8 = zulu;
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['WINDOW_FOCUS'] = golf;
     golf = function(argFoo) { // Original name: handleWindowResize
-        _fun104717: for(var _fun104717_ip = 0; ; ) switch(_fun104717_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot12;
@@ -435,14 +435,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.width;
             entity = oscar.width;
             entity = zulu !== entity;
-            if(entity) { _fun104717_ip = 66; continue _fun104717 }
+            if(entity) { _fun00024_ip = 66; continue _fun00023 }
  46:
             zulu = golf.windowSize;
             tango = zulu.height;
             zulu = oscar.height;
             entity = tango !== zulu;
  66:
-            if(!entity) { _fun104717_ip = 133; continue _fun104717 }
+            if(!entity) { _fun00024_ip = 133; continue _fun00023 }
  69:
             report = _closure1_slot9;
             tango = report.set;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['WINDOW_RESIZED'] = golf;
     golf = function(argFoo) { // Original name: handleWindowUnload
-        _fun104718: for(var _fun104718_ip = 0; ; ) switch(_fun104718_ip) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot9;
@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             zulu = _closure1_slot8;
             entity = entity.windowId;
-            if(!(zulu === entity)) { _fun104718_ip = 46; continue _fun104718 }
+            if(!(zulu === entity)) { _fun00026_ip = 46; continue _fun00025 }
  40:
             entity = null;
             _closure1_slot8 = entity;
@@ -486,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['WINDOW_UNLOAD'] = golf;
     golf = function(argFoo) { // Original name: handleWindowVisibilityChange
-        _fun104719: for(var _fun104719_ip = 0; ; ) switch(_fun104719_ip) {
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot12;
@@ -496,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.visible;
             entity = oscar.visible;
             entity = zulu !== entity;
-            if(!entity) { _fun104719_ip = 92; continue _fun104719 }
+            if(!entity) { _fun00028_ip = 92; continue _fun00027 }
  42:
             report = _closure1_slot9;
             tango = report.set;

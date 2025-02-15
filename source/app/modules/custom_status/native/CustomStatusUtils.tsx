@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/custom_status/native/CustomStatusUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun77802: for(var _fun77802_ip = 0; ; ) switch(_fun77802_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.location;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = golf.isAndroid;
             golf = mike.bind(golf)();
             mike = undefined;
-            if(!golf) { _fun77802_ip = 129; continue _fun77802 }
+            if(!golf) { _fun00002_ip = 129; continue _fun00001 }
  115:
             golf = {};
             options = 'modal';

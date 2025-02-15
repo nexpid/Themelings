@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/now_playing/getApplicationIdForActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getApplicationIdForActivity
-        _fun107221: for(var _fun107221_ip = 0; ; ) switch(_fun107221_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             report = _closure1_slot0;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = undefined;
             entity = report.bind(tango)(entity);
             entity = entity.bind(tango)(mike);
-            if(entity) { _fun107221_ip = 182; continue _fun107221 }
+            if(entity) { _fun00002_ip = 182; continue _fun00001 }
  39:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -55,15 +55,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar[entity];
             entity = report.bind(tango)(entity);
             entity = entity.bind(tango)(mike);
-            if(!entity) { _fun107221_ip = 94; continue _fun107221 }
+            if(!entity) { _fun00002_ip = 94; continue _fun00001 }
  67:
             entity = mike.party;
             report = null;
-            if(!(report != entity)) { _fun107221_ip = 94; continue _fun107221 }
+            if(!(report != entity)) { _fun00002_ip = 94; continue _fun00001 }
  79:
             entity = mike.party;
             entity = entity.id;
-            if(!(report == entity)) { _fun107221_ip = 171; continue _fun107221 }
+            if(!(report == entity)) { _fun00002_ip = 171; continue _fun00001 }
  94:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -71,31 +71,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar[entity];
             entity = report.bind(tango)(entity);
             entity = entity.bind(tango)(mike);
-            if(!entity) { _fun107221_ip = 133; continue _fun107221 }
+            if(!entity) { _fun00002_ip = 133; continue _fun00001 }
  122:
             tango = mike.url;
             entity = null;
-            if(!(entity == tango)) { _fun107221_ip = 156; continue _fun107221 }
+            if(!(entity == tango)) { _fun00002_ip = 156; continue _fun00001 }
  133:
             tango = mike.application_id;
             entity = null;
             tango = entity != tango;
-            if(!tango) { _fun107221_ip = 154; continue _fun107221 }
+            if(!tango) { _fun00002_ip = 154; continue _fun00001 }
  148:
             entity = mike.application_id;
  154:
-            _fun107221_ip = 169; continue _fun107221;
+            _fun00002_ip = 169; continue _fun00001;
  156:
             report = _closure1_slot3;
             tango = mike.url;
             entity = report + tango;
  169:
-            _fun107221_ip = 180; continue _fun107221;
+            _fun00002_ip = 180; continue _fun00001;
  171:
             tango = _closure1_slot2;
             entity = tango.id;
  180:
-            _fun107221_ip = 195; continue _fun107221;
+            _fun00002_ip = 195; continue _fun00001;
  182:
             zulu = _closure1_slot4;
             mike = mike.name;

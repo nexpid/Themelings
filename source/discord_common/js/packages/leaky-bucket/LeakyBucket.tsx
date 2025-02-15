@@ -51,17 +51,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.setTimeout;
             entity = undefined;
             zulu = function() {
-                _fun74854: for(var _fun74854_ip = 0; ; ) switch(_fun74854_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure3_slot0;
                     mike = mike._queue;
                     mike = mike.length;
                     zulu = 0;
-                    if(!(mike > zulu)) { _fun74854_ip = 157; continue _fun74854 }
+                    if(!(mike > zulu)) { _fun00002_ip = 157; continue _fun00001 }
  27:
                     mike = _closure3_slot0;
                     mike = mike._tokenCount;
-                    if(!(mike > zulu)) { _fun74854_ip = 157; continue _fun74854 }
+                    if(!(mike > zulu)) { _fun00002_ip = 157; continue _fun00001 }
  41:
                     mike = _closure3_slot0;
                     zulu = mike._tokenCount;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike['_tokenCount'] = zulu;
                     zulu = mike._intervalID;
                     mike = null;
-                    if(!(mike == zulu)) { _fun74854_ip = 113; continue _fun74854 }
+                    if(!(mike == zulu)) { _fun00002_ip = 113; continue _fun00001 }
  72:
                     tango = _closure3_slot0;
                     zulu = global;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = zulu._queue;
                     zulu = tango.shift;
                     zulu = zulu.bind(tango)();
-                    if(!(mike != zulu)) { _fun74854_ip = 143; continue _fun74854 }
+                    if(!(mike != zulu)) { _fun00002_ip = 143; continue _fun00001 }
  137:
                     mike = undefined;
                     mike = zulu.bind(mike)();
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = '_iterate';
         entity['key'] = oscar;
         oscar = function() { // Original name: value
-            _fun74856: for(var _fun74856_ip = 0; ; ) switch(_fun74856_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = this;
                 entity = global;
@@ -128,13 +128,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = mike._tokenCount;
                 zulu = mike._capacity;
                 zulu = tango >= zulu;
-                if(!zulu) { _fun74856_ip = 78; continue _fun74856 }
+                if(!zulu) { _fun00004_ip = 78; continue _fun00003 }
  66:
                 report = mike._intervalID;
                 tango = null;
                 zulu = tango != report;
  78:
-                if(!zulu) { _fun74856_ip = 108; continue _fun74856 }
+                if(!zulu) { _fun00004_ip = 108; continue _fun00003 }
  81:
                 tango = entity.clearInterval;
                 zulu = mike._intervalID;

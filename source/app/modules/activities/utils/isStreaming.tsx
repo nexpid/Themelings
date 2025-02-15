@@ -4,19 +4,19 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo) { // Original name: _isStreaming
-        _fun63990: for(var _fun63990_ip = 0; ; ) switch(_fun63990_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.type;
             entity = _closure1_slot1;
             entity = entity.STREAMING;
             entity = mike === entity;
-            if(!entity) { _fun63990_ip = 64; continue _fun63990 }
+            if(!entity) { _fun00002_ip = 64; continue _fun00001 }
  28:
             report = zulu.url;
             mike = null;
             mike = mike != report;
-            if(!mike) { _fun63990_ip = 61; continue _fun63990 }
+            if(!mike) { _fun00002_ip = 61; continue _fun00001 }
  42:
             report = _closure1_slot0;
             tango = report.test;
@@ -55,23 +55,23 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isStreaming.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isStreaming
-        _fun63991: for(var _fun63991_ip = 0; ; ) switch(_fun63991_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun63991_ip = 67; continue _fun63991 }
+            if(!entity) { _fun00004_ip = 67; continue _fun00003 }
  12:
             mike = global;
             zulu = mike.Array;
             mike = zulu.isArray;
             mike = mike.bind(zulu)(report);
-            if(mike) { _fun63991_ip = 49; continue _fun63991 }
+            if(mike) { _fun00004_ip = 49; continue _fun00003 }
  36:
             tango = _closure1_slot2;
             mike = undefined;
             mike = tango.bind(mike)(report);
-            _fun63991_ip = 64; continue _fun63991;
+            _fun00004_ip = 64; continue _fun00003;
  49:
             tango = report.some;
             zulu = _closure1_slot2;

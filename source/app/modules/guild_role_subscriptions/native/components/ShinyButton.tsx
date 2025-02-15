@@ -97,11 +97,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['loading'] = options;
         entity['disabled'] = golf;
         oscar = function() { // Original name: renderIcon
-            _fun78361: for(var _fun78361_ip = 0; ; ) switch(_fun78361_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(mike) { _fun78361_ip = 132; continue _fun78361 }
+                if(mike) { _fun00002_ip = 132; continue _fun00001 }
  12:
                 report = _closure1_slot2;
                 golf = _closure1_slot0;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = new Array(2);
                 oscar[0] = golf;
                 golf = _closure2_slot1;
-                if(!golf) { _fun78361_ip = 118; continue _fun78361 }
+                if(!golf) { _fun00002_ip = 118; continue _fun00001 }
  109:
                 options = _closure2_slot2;
                 golf = options.disabled;

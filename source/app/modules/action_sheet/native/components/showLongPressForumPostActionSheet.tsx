@@ -23,11 +23,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: showLongPressForumPostActionSheet
-        _fun87291: for(var _fun87291_ip = 0; ; ) switch(_fun87291_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun87291_ip = 37; continue _fun87291 }
+            if(!(mike === entity)) { _fun00002_ip = 37; continue _fun00001 }
  9:
             tango = _closure1_slot1;
             report = _closure1_slot2;

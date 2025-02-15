@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     tango = function(argFoo, argBar, argBaz) { // Original name: useStateFromStores
-        _fun6965: for(var _fun6965_ip = 0; ; ) switch(_fun6965_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             tango = argBar;
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot1 = tango;
             var _closure2_slot2 = yankee;
             report = undefined;
-            if(!(verify === report)) { _fun6965_ip = 39; continue _fun6965 }
+            if(!(verify === report)) { _fun00002_ip = 39; continue _fun00001 }
  32:
             verify = _closure1_slot7;
  39:
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             entity = entity.bind(report)(oscar);
             golf = entity.current;
-            if(!(oscar == golf)) { _fun6965_ip = 110; continue _fun6965 }
+            if(!(oscar == golf)) { _fun00002_ip = 110; continue _fun00001 }
  78:
             golf = {};
             golf['stores'] = options;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _closure2_slot4 = entity;
             options = entity.state;
             _closure2_slot5 = options;
-            if(!(oscar != yankee)) { _fun6965_ip = 176; continue _fun6965 }
+            if(!(oscar != yankee)) { _fun00002_ip = 176; continue _fun00001 }
  132:
             offset = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -62,16 +62,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.prevDeps;
             golf = golf.bind(offset)(yankee, entity);
             entity = options;
-            if(golf) { _fun6965_ip = 206; continue _fun6965 }
+            if(golf) { _fun00002_ip = 206; continue _fun00001 }
  176:
             tango = tango.bind(report)();
             golf = oscar != options;
-            if(!golf) { _fun6965_ip = 193; continue _fun6965 }
+            if(!golf) { _fun00002_ip = 193; continue _fun00001 }
  187:
             golf = verify.bind(report)(options, tango);
  193:
             entity = options;
-            if(golf) { _fun6965_ip = 206; continue _fun6965 }
+            if(golf) { _fun00002_ip = 206; continue _fun00001 }
  199:
             _closure2_slot5 = tango;
             entity = tango;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report.prototype;
                 zulu = Object.create(mike, {constructor: {value: report}});
                 oscar = function() {
-                    _fun6968: for(var _fun6968_ip = 0; ; ) switch(_fun6968_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure2_slot4;
                         entity = zulu.getStateFromStores;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = entity.state;
                         entity = undefined;
                         zulu = report.bind(entity)(zulu, tango);
-                        if(zulu) { _fun6968_ip = 62; continue _fun6968 }
+                        if(zulu) { _fun00004_ip = 62; continue _fun00003 }
  41:
                         zulu = _closure2_slot4;
                         zulu['state'] = tango;

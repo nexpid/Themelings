@@ -65,19 +65,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/SparklingIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun69271: for(var _fun69271_ip = 0; ; ) switch(_fun69271_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = zulu.wrapperStyle;
             result = zulu.sparklePosition;
             tango = undefined;
-            if(!(result === tango)) { _fun69271_ip = 36; continue _fun69271 }
+            if(!(result === tango)) { _fun00002_ip = 36; continue _fun00001 }
  23:
             entity = _closure1_slot9;
             result = entity.sparklePosition;
  36:
             sizing = zulu.starPosition;
-            if(!(sizing === tango)) { _fun69271_ip = 59; continue _fun69271 }
+            if(!(sizing === tango)) { _fun00002_ip = 59; continue _fun00001 }
  46:
             entity = _closure1_slot9;
             sizing = entity.starPosition;
@@ -208,10 +208,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[5] = zulu;
             foxtrot[6] = output;
             romeo = function() {
-                _fun69274: for(var _fun69274_ip = 0; ; ) switch(_fun69274_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
-                    if(entity) { _fun69274_ip = 632; continue _fun69274 }
+                    if(entity) { _fun00004_ip = 632; continue _fun00003 }
  13:
                     zulu = _closure1_slot5;
                     mike = zulu.loop;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             romeo = backup.bind(kilo)(romeo, foxtrot);
-            if(report) { _fun69271_ip = 370; continue _fun69271 }
+            if(report) { _fun00002_ip = 370; continue _fun00001 }
  332:
             output = {};
             output['opacity'] = verify;
@@ -334,11 +334,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['scale'] = yankee;
             options[1] = verify;
             output['transform'] = options;
-            _fun69271_ip = 372; continue _fun69271;
+            _fun00002_ip = 372; continue _fun00001;
  370:
             output = {};
  372:
-            if(report) { _fun69271_ip = 413; continue _fun69271 }
+            if(report) { _fun00002_ip = 413; continue _fun00001 }
  375:
             foxtrot = {};
             foxtrot['opacity'] = mike;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['scale'] = zulu;
             entity[1] = mike;
             foxtrot['transform'] = entity;
-            _fun69271_ip = 415; continue _fun69271;
+            _fun00002_ip = 415; continue _fun00001;
  413:
             foxtrot = {};
  415:

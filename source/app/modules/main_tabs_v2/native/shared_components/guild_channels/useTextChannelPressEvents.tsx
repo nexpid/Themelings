@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun121087: for(var _fun121087_ip = 0; ; ) switch(_fun121087_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot4;
                 tango = report.getChannel;
@@ -83,21 +83,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.parent_id;
                 tango = tango.bind(report)(zulu);
                 zulu = null;
-                if(!(zulu != tango)) { _fun121087_ip = 66; continue _fun121087 }
+                if(!(zulu != tango)) { _fun00002_ip = 66; continue _fun00001 }
  36:
                 zulu = tango.isForumLikeChannel;
                 zulu = zulu.bind(tango)();
-                if(!zulu) { _fun121087_ip = 66; continue _fun121087 }
+                if(!zulu) { _fun00002_ip = 66; continue _fun00001 }
  49:
                 report = _closure2_slot0;
                 zulu = report.isForumPost;
                 zulu = zulu.bind(report)();
-                if(zulu) { _fun121087_ip = 165; continue _fun121087 }
+                if(zulu) { _fun00002_ip = 165; continue _fun00001 }
  66:
                 report = _closure2_slot0;
                 zulu = report.isThread;
                 zulu = zulu.bind(report)();
-                if(zulu) { _fun121087_ip = 127; continue _fun121087 }
+                if(zulu) { _fun00002_ip = 127; continue _fun00001 }
  83:
                 oscar = _closure1_slot0;
                 report = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot0;
                 zulu = zulu.id;
                 zulu = report.bind(oscar)(zulu);
-                _fun121087_ip = 197; continue _fun121087;
+                _fun00002_ip = 197; continue _fun00001;
  127:
                 report = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot0;
                 zulu = zulu.id;
                 zulu = report.bind(oscar)(zulu);
-                _fun121087_ip = 197; continue _fun121087;
+                _fun00002_ip = 197; continue _fun00001;
  165:
                 report = _closure1_slot1;
                 zulu = _closure1_slot2;

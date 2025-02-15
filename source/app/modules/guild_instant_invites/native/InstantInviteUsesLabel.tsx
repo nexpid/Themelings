@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/guild_instant_invites/native/InstantInviteUsesLabel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InstantInviteUsesLabel
-        _fun112774: for(var _fun112774_ip = 0; ; ) switch(_fun112774_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.uses;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = entity.style;
             entity = 0;
             oscar = golf;
-            if(!(entity !== tango)) { _fun112774_ip = 57; continue _fun112774 }
+            if(!(entity !== tango)) { _fun00002_ip = 57; continue _fun00001 }
  29:
             entity = global;
             entity = entity.HermesInternal;

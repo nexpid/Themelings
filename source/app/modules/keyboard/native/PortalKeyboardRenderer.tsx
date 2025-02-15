@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = tango;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: transitionGroupRenderItem
-        _fun118421: for(var _fun118421_ip = 0; ; ) switch(_fun118421_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBaz;
             tango = _closure1_slot0;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.TransitionStates;
             entity = entity.YEETED;
             tango = mike === entity;
-            if(!tango) { _fun118421_ip = 71; continue _fun118421 }
+            if(!tango) { _fun00002_ip = 71; continue _fun00001 }
  47:
             entity = _closure1_slot4;
             report = entity.keyboardType;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.SYSTEM;
             tango = report === entity;
  71:
-            if(!tango) { _fun118421_ip = 103; continue _fun118421 }
+            if(!tango) { _fun00002_ip = 103; continue _fun00001 }
  74:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = entity.bind(report)();
  103:
             entity = null;
-            if(tango) { _fun118421_ip = 163; continue _fun118421 }
+            if(tango) { _fun00002_ip = 163; continue _fun00001 }
  108:
             report = _closure1_slot6;
             tango = _closure1_slot1;
@@ -103,12 +103,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/keyboard/native/PortalKeyboardRenderer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PortalKeyboardRenderer
-        _fun118422: for(var _fun118422_ip = 0; ; ) switch(_fun118422_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             entity = entity.portal;
             tango = undefined;
-            if(!(entity === tango)) { _fun118422_ip = 19; continue _fun118422 }
+            if(!(entity === tango)) { _fun00004_ip = 19; continue _fun00003 }
  17:
             entity = true;
  19:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify.useLayoutEffect;
             report = function() {
                 tango = function() { // Original name: onKeyboardStoreChange
-                    _fun118425: for(var _fun118425_ip = 0; ; ) switch(_fun118425_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         report = _closure1_slot0;
                         entity = _closure1_slot2;
@@ -154,12 +154,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = zulu.keyboardType;
                         zulu = null;
                         zulu = zulu != report;
-                        if(!zulu) { _fun118425_ip = 75; continue _fun118425 }
+                        if(!zulu) { _fun00006_ip = 75; continue _fun00005 }
  66:
                         report = report.type;
                         zulu = oscar !== report;
  75:
-                        if(!zulu) { _fun118425_ip = 105; continue _fun118425 }
+                        if(!zulu) { _fun00006_ip = 105; continue _fun00005 }
  78:
                         zulu = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.length;
             zulu = 0;
             offset = zulu === offset;
-            if(offset) { _fun118422_ip = 182; continue _fun118422 }
+            if(offset) { _fun00004_ip = 182; continue _fun00003 }
  162:
             yankee = options.length;
             zulu = 1;
@@ -222,17 +222,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = offset;
             zulu[1] = verify;
             mike = function() {
-                _fun118427: for(var _fun118427_ip = 0; ; ) switch(_fun118427_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zulu)) { _fun118427_ip = 20; continue _fun118427 }
+                    if(!(entity != zulu)) { _fun00008_ip = 20; continue _fun00007 }
  13:
                     entity = _closure2_slot2;
-                    if(entity) { _fun118427_ip = 29; continue _fun118427 }
+                    if(entity) { _fun00008_ip = 29; continue _fun00007 }
  20:
                     entity = _closure1_slot7;
-                    _fun118427_ip = 44; continue _fun118427;
+                    _fun00008_ip = 44; continue _fun00007;
  29:
                     zulu = _closure2_slot1;
                     mike = new Array(1);
@@ -243,11 +243,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             options = oscar.bind(options)(mike, zulu);
-            if(entity) { _fun118422_ip = 234; continue _fun118422 }
+            if(entity) { _fun00004_ip = 234; continue _fun00003 }
  223:
             entity = _closure1_slot3;
             zulu = entity.Fragment;
-            _fun118422_ip = 257; continue _fun118422;
+            _fun00004_ip = 257; continue _fun00003;
  234:
             mike = _closure1_slot0;
             entity = _closure1_slot2;

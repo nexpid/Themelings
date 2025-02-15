@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['getAvailableActionTypes'] = tango;
     tango = function(argFoo, argBar) { // Original name: validateRuleByTriggerConfigOrThrow
-        _fun125470: for(var _fun125470_ip = 0; ; ) switch(_fun125470_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = argBar;
@@ -509,13 +509,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             var _closure2_slot2 = entity;
             golf = options.filter;
             report = function(argFoo) {
-                _fun125471: for(var _fun125471_ip = 0; ; ) switch(_fun125471_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure2_slot0;
                     entity = zulu.id;
                     entity = tango !== entity;
-                    if(!entity) { _fun125471_ip = 36; continue _fun125471 }
+                    if(!entity) { _fun00004_ip = 36; continue _fun00003 }
  22:
                     zulu = zulu.triggerType;
                     mike = _closure2_slot1;
@@ -527,7 +527,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = golf.bind(options)(report);
             golf = report.length;
             report = entity.perGuildMaxCount;
-            if(!(!(golf > report))) { _fun125470_ip = 193; continue _fun125470 }
+            if(!(!(golf > report))) { _fun00002_ip = 193; continue _fun00001 }
  86:
             report = oscar.some;
             zulu = function(argFoo) {
@@ -541,10 +541,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = report.bind(oscar)(zulu);
-            if(zulu) { _fun125470_ip = 157; continue _fun125470 }
+            if(zulu) { _fun00002_ip = 157; continue _fun00001 }
  107:
             entity = entity.eventType;
-            if(!(mike === entity)) { _fun125470_ip = 121; continue _fun125470 }
+            if(!(mike === entity)) { _fun00002_ip = 121; continue _fun00001 }
  117:
             entity = undefined;
             return entity;
@@ -621,26 +621,26 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 oscar = tango[zulu];
                 report = oscar.filter;
                 tango = function(argFoo) {
-                    _fun125476: for(var _fun125476_ip = 0; ; ) switch(_fun125476_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = argFoo;
                         tango = zulu.type;
                         entity = _closure1_slot3;
                         entity = entity.SERVER_POLICY;
                         entity = tango !== entity;
-                        if(!entity) { _fun125476_ip = 81; continue _fun125476 }
+                        if(!entity) { _fun00006_ip = 81; continue _fun00005 }
  28:
                         tango = zulu.type;
                         mike = _closure1_slot3;
                         mike = mike.USER_PROFILE;
                         tango = tango === mike;
-                        if(!tango) { _fun125476_ip = 60; continue _fun125476 }
+                        if(!tango) { _fun00006_ip = 60; continue _fun00005 }
  50:
                         mike = _closure2_slot0;
                         tango = !mike;
  60:
                         mike = !tango;
-                        if(tango) { _fun125476_ip = 78; continue _fun125476 }
+                        if(tango) { _fun00006_ip = 78; continue _fun00005 }
  66:
                         tango = zulu.perGuildMaxCount;
                         zulu = 0;
@@ -670,7 +670,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['useAvailableTriggerTypes'] = tango;
     mike = function(argFoo, argBar) { // Original name: getDefaultTriggerMetadataForTriggerType
-        _fun125478: for(var _fun125478_ip = 0; ; ) switch(_fun125478_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -684,23 +684,23 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = tango.bind(oscar)(mike);
             tango = _closure1_slot3;
             tango = tango.DEFAULT_KEYWORD_LIST;
-            if(!(tango !== report)) { _fun125478_ip = 180; continue _fun125478 }
+            if(!(tango !== report)) { _fun00008_ip = 180; continue _fun00007 }
  59:
             tango = _closure1_slot3;
             tango = tango.USER_PROFILE;
-            if(!(tango !== report)) { _fun125478_ip = 149; continue _fun125478 }
+            if(!(tango !== report)) { _fun00008_ip = 149; continue _fun00007 }
  73:
             tango = _closure1_slot3;
             tango = tango.KEYWORD;
-            if(!(tango !== report)) { _fun125478_ip = 149; continue _fun125478 }
+            if(!(tango !== report)) { _fun00008_ip = 149; continue _fun00007 }
  87:
             tango = _closure1_slot3;
             tango = tango.MENTION_SPAM;
-            if(!(tango !== report)) { _fun125478_ip = 127; continue _fun125478 }
+            if(!(tango !== report)) { _fun00008_ip = 127; continue _fun00007 }
  101:
             tango = _closure1_slot3;
             tango = tango.ML_SPAM;
-            if(!(tango !== report)) { _fun125478_ip = 125; continue _fun125478 }
+            if(!(tango !== report)) { _fun00008_ip = 125; continue _fun00007 }
  115:
             tango = _closure1_slot3;
             tango = tango.SERVER_POLICY;

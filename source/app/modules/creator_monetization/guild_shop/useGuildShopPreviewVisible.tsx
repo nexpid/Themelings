@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useGuildShopPreviewVisible
-        _fun81466: for(var _fun81466_ip = 0; ; ) switch(_fun81466_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -64,12 +64,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = entity;
             entity = function() {
-                _fun81467: for(var _fun81467_ip = 0; ; ) switch(_fun81467_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun81467_ip = 49; continue _fun81467 }
+                    if(!entity) { _fun00004_ip = 49; continue _fun00003 }
  16:
                     report = _closure1_slot2;
                     tango = report.can;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             oscar = entity == options;
             zulu = undefined;
-            if(oscar) { _fun81466_ip = 169; continue _fun81466 }
+            if(oscar) { _fun00002_ip = 169; continue _fun00001 }
  148:
             yankee = options.hasFeature;
             oscar = _closure1_slot4;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = yankee.bind(options)(oscar);
  169:
             oscar = entity != zulu;
-            if(!oscar) { _fun81466_ip = 179; continue _fun81466 }
+            if(!oscar) { _fun00002_ip = 179; continue _fun00001 }
  176:
             oscar = zulu;
  179:
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = romeo.useGuildEligibleForGuildProducts;
             zulu = entity == options;
             offset = undefined;
-            if(zulu) { _fun81466_ip = 219; continue _fun81466 }
+            if(zulu) { _fun00002_ip = 219; continue _fun00001 }
  214:
             offset = options.id;
  219:
@@ -121,13 +121,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset[2] = verify;
             verify = offset.some;
             report = function(argFoo) {
-                _fun81468: for(var _fun81468_ip = 0; ; ) switch(_fun81468_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
                     zulu = mike == zulu;
                     mike = undefined;
-                    if(zulu) { _fun81468_ip = 36; continue _fun81468 }
+                    if(zulu) { _fun00006_ip = 36; continue _fun00005 }
  18:
                     tango = _closure2_slot0;
                     zulu = tango.hasFeature;
@@ -141,27 +141,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             report = verify.bind(offset)(report);
             entity = entity != options;
-            if(!entity) { _fun81466_ip = 295; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 295; continue _fun00001 }
  292:
             entity = golf;
  295:
-            if(!entity) { _fun81466_ip = 301; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 301; continue _fun00001 }
  298:
             entity = !oscar;
  301:
-            if(!entity) { _fun81466_ip = 307; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 307; continue _fun00001 }
  304:
             entity = report;
  307:
-            if(!entity) { _fun81466_ip = 313; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 313; continue _fun00001 }
  310:
             entity = tango;
  313:
-            if(!entity) { _fun81466_ip = 319; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 319; continue _fun00001 }
  316:
             entity = zulu;
  319:
-            if(!entity) { _fun81466_ip = 325; continue _fun81466 }
+            if(!entity) { _fun00002_ip = 325; continue _fun00001 }
  322:
             entity = !mike;
  325:

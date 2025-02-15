@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['trackMemberApplicationAction'] = tango;
     mike = function(argFoo) { // Original name: trackMemberApplicationInterviewMessage
-        _fun72649: for(var _fun72649_ip = 0; ; ) switch(_fun72649_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.guildId;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = tango == report;
             entity = undefined;
             zulu = undefined;
-            if(options) { _fun72649_ip = 82; continue _fun72649 }
+            if(options) { _fun00002_ip = 82; continue _fun00001 }
  76:
             zulu = report.joinedAt;
  82:

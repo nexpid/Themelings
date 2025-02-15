@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/DiscoverabilityActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: DiscoverabilityActionSheet
-        _fun94053: for(var _fun94053_ip = 0; ; ) switch(_fun94053_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = entity.allowEmail;
             var _closure2_slot1 = backup;
             kilo = update;
-            if(kilo) { _fun94053_ip = 52; continue _fun94053 }
+            if(kilo) { _fun00002_ip = 52; continue _fun00001 }
  49:
             kilo = backup;
  52:

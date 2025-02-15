@@ -55,10 +55,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = golf;
         zulu[1] = oscar;
         mike = function() {
-            _fun101193: for(var _fun101193_ip = 0; ; ) switch(_fun101193_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot1;
-                if(!entity) { _fun101193_ip = 56; continue _fun101193 }
+                if(!entity) { _fun00002_ip = 56; continue _fun00001 }
  10:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot2;

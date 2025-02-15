@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/sidebar/member_list/useSwipeToReplyCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useSwipeToReplyCoachmark
-        _fun112884: for(var _fun112884_ip = 0; ; ) switch(_fun112884_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = argBar;
             var _closure2_slot0 = offset;
@@ -123,10 +123,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.useIsSwipeToMemberListExperimentEnabled;
             entity = 'useSwipeToReplyCoachmark';
             entity = zulu.bind(oscar)(entity);
-            if(entity) { _fun112884_ip = 60; continue _fun112884 }
+            if(entity) { _fun00002_ip = 60; continue _fun00001 }
  54:
             verify = new Array(0);
-            _fun112884_ip = 75; continue _fun112884;
+            _fun00002_ip = 75; continue _fun00001;
  60:
             zulu = _closure1_slot9;
             entity = new Array(1);
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = entity;
             report[3] = verify;
             mike = function() {
-                _fun112886: for(var _fun112886_ip = 0; ; ) switch(_fun112886_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     options = _closure1_slot0;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = 'secondary';
                     entity['buttonVariant'] = zulu;
                     zulu = _closure2_slot0;
-                    if(!zulu) { _fun112886_ip = 213; continue _fun112886 }
+                    if(!zulu) { _fun00004_ip = 213; continue _fun00003 }
  201:
                     report = _closure2_slot1;
                     tango = _closure1_slot9;

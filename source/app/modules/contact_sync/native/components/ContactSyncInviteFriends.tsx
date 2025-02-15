@@ -193,7 +193,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         romeo = foxtrot.bind(backup)(romeo);
         verify['text'] = romeo;
         yankee = function() { // Original name: onPress
-            _fun94951: for(var _fun94951_ip = 0; ; ) switch(_fun94951_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot1;
                 golf = _closure1_slot2;
@@ -228,7 +228,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 golf = null;
                 verify = golf != verify;
                 golf = '';
-                if(!verify) { _fun94951_ip = 187; continue _fun94951 }
+                if(!verify) { _fun00002_ip = 187; continue _fun00001 }
  152:
                 offset = _closure1_slot1;
                 yankee = _closure1_slot2;

@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isGameActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isGameActivity
-        _fun79725: for(var _fun79725_ip = 0; ; ) switch(_fun79725_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun79725_ip = 34; continue _fun79725 }
+            if(!entity) { _fun00002_ip = 34; continue _fun00001 }
  12:
             zulu = mike.type;
             mike = _closure1_slot0;

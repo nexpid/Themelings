@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     report['F'] = tango;
     tango = function(argFoo) { // Original name: R
-        _fun61885: for(var _fun61885_ip = 0; ; ) switch(_fun61885_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = undefined;
@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.fromNow;
             report = verify.bind(offset)();
  222: // try_end0
-            _fun61885_ip = 226; continue _fun61885;
+            _fun00002_ip = 226; continue _fun00001;
  224: // catch_target0
             CatchBlockStart(arg_register=8);
  226:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.relativeTimeThreshold;
             options = verify.bind(offset)(yankee, options);
             mike = report;
-            if(!(golf == report)) { _fun61885_ip = 351; continue _fun61885 }
+            if(!(golf == report)) { _fun00002_ip = 351; continue _fun00001 }
  304:
             report = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(entity);
             entity = zulu.fromNow;
             entity = entity.bind(zulu)();
-            _fun61885_ip = 354; continue _fun61885;
+            _fun00002_ip = 354; continue _fun00001;
  351:
             entity = mike;
  354:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['DEFAULT_TIMESTAMP_FORMAT'] = report;
     zulu['TIMESTAMP_REGEX'] = tango;
     tango = function(argFoo, argBar) { // Original name: parseTimestamp
-        _fun61886: for(var _fun61886_ip = 0; ; ) switch(_fun61886_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
@@ -252,18 +252,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.isValid;
             mike = entity.bind(zulu)();
             entity = null;
-            if(mike) { _fun61886_ip = 94; continue _fun61886 }
+            if(mike) { _fun00004_ip = 94; continue _fun00003 }
  92:
             return entity;
  94:
             options = entity != oscar;
             mike = undefined;
-            if(!options) { _fun61886_ip = 111; continue _fun61886 }
+            if(!options) { _fun00004_ip = 111; continue _fun00003 }
  103:
             options = _closure1_slot3;
             mike = options[oscar];
  111:
-            if(!(entity == mike)) { _fun61886_ip = 125; continue _fun61886 }
+            if(!(entity == mike)) { _fun00004_ip = 125; continue _fun00003 }
  115:
             entity = _closure1_slot3;
             mike = entity.f;
@@ -283,12 +283,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['parseTimestamp'] = tango;
     mike = function(argFoo, argBar) { // Original name: unparseTimestamp
-        _fun61887: for(var _fun61887_ip = 0; ; ) switch(_fun61887_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
             entity = null;
-            if(!(entity == oscar)) { _fun61887_ip = 43; continue _fun61887 }
+            if(!(entity == oscar)) { _fun00006_ip = 43; continue _fun00005 }
  12:
             entity = global;
             entity = entity.HermesInternal;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = '<t:';
             entity = '>';
             entity = zulu.bind(mike)(golf, entity);
-            _fun61887_ip = 80; continue _fun61887;
+            _fun00006_ip = 80; continue _fun00005;
  43:
             mike = global;
             mike = mike.HermesInternal;

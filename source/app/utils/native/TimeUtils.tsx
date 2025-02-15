@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'utils/native/TimeUtils.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: getTimeFormat
-        _fun56910: for(var _fun56910_ip = 0; ; ) switch(_fun56910_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             entity = argFoo;
@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = mike == zulu;
             tango = undefined;
             entity = undefined;
-            if(oscar) { _fun56910_ip = 43; continue _fun56910 }
+            if(oscar) { _fun00002_ip = 43; continue _fun00001 }
  37:
             entity = zulu.padMinutes;
  43:
-            if(!(mike != entity)) { _fun56910_ip = 50; continue _fun56910 }
+            if(!(mike != entity)) { _fun00002_ip = 50; continue _fun00001 }
  47:
-            if(entity) { _fun56910_ip = 123; continue _fun56910 }
+            if(entity) { _fun00002_ip = 123; continue _fun00001 }
  50:
             entity = global;
             mike = entity.String;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = '';
             entity = ':';
             entity = zulu.bind(mike)(golf, entity, oscar);
-            _fun56910_ip = 206; continue _fun56910;
+            _fun00002_ip = 206; continue _fun00001;
  123:
             mike = global;
             zulu = mike.String;

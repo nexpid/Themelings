@@ -20,13 +20,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     entity = 'function updateSharedValueIfChangedNativeTsx2(sharedValue,value){const{runOnUI,updateSharedValueIfChanged}=this.__closure;if(!_WORKLET){runOnUI(updateSharedValueIfChanged)(sharedValue,value);}else{const _sharedValue=sharedValue.get();const newValue={..._sharedValue,...value};for(const key in newValue){if(_sharedValue[key]!==newValue[key]){sharedValue.set(newValue);break;}}}}';
     options['code'] = entity;
     tango = function(argFoo, argBar) { // Original name: u
-        _fun91387: for(var _fun91387_ip = 0; ; ) switch(_fun91387_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
             mike = global;
             mike = mike._WORKLET;
-            if(mike) { _fun91387_ip = 64; continue _fun91387 }
+            if(mike) { _fun00002_ip = 64; continue _fun00001 }
  17:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = _closure1_slot2;
             mike = report.bind(oscar)(mike);
             mike = mike.bind(tango)(zulu, entity);
-            _fun91387_ip = 140; continue _fun91387;
+            _fun00002_ip = 140; continue _fun00001;
  64:
             mike = zulu.get;
             offset = mike.bind(zulu)();
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = report;
                 tango = offset[entity];
                 entity = mike[entity];
-                if(tango === entity) { _fun91387_ip = 106; continue _fun91387 }
+                if(tango === entity) { _fun00002_ip = 106; continue _fun00001 }
  130:
                 entity = zulu.set;
                 entity = entity.bind(zulu)(mike);
@@ -99,13 +99,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot4 = report;
     mike = function() {
         entity = function(argFoo, argBar) { // Original name: u
-            _fun91389: for(var _fun91389_ip = 0; ; ) switch(_fun91389_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = argFoo;
                 tango = argBar;
                 entity = global;
                 entity = entity._WORKLET;
-                if(entity) { _fun91389_ip = 67; continue _fun91389 }
+                if(entity) { _fun00004_ip = 67; continue _fun00003 }
  17:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -117,13 +117,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = _closure2_slot0;
                 entity = zulu.bind(oscar)(entity);
                 entity = entity.bind(mike)(report, tango);
-                _fun91389_ip = 148; continue _fun91389;
+                _fun00004_ip = 148; continue _fun00003;
  67:
                 entity = report.get;
                 zulu = entity.bind(report)();
                 mike = zulu.length;
                 entity = tango.length;
-                if(!(mike !== entity)) { _fun91389_ip = 100; continue _fun91389 }
+                if(!(mike !== entity)) { _fun00004_ip = 100; continue _fun00003 }
  90:
                 entity = report.set;
                 entity = entity.bind(report)(tango);
@@ -131,18 +131,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = tango.length;
                 mike = 0;
                 entity = mike < entity;
-                if(!entity) { _fun91389_ip = 148; continue _fun91389 }
+                if(!entity) { _fun00004_ip = 148; continue _fun00003 }
  114:
                 oscar = zulu[mike];
                 entity = tango[mike];
-                if(!(oscar !== entity)) { _fun91389_ip = 136; continue _fun91389 }
+                if(!(oscar !== entity)) { _fun00004_ip = 136; continue _fun00003 }
  126:
                 entity = report.set;
                 entity = entity.bind(report)(tango);
  136:
                 mike = mike + 1;
                 entity = tango.length;
-                if(mike < entity) { _fun91389_ip = 114; continue _fun91389 }
+                if(mike < entity) { _fun00004_ip = 114; continue _fun00003 }
  148:
                 entity = undefined;
                 return entity;

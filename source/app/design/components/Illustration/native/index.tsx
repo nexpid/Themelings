@@ -21,46 +21,46 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'design/components/Illustration/native/index.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: getIllustrationSource
-        _fun71695: for(var _fun71695_ip = 0; ; ) switch(_fun71695_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = argBar;
             entity = 'light';
-            if(!(entity !== tango)) { _fun71695_ip = 78; continue _fun71695 }
+            if(!(entity !== tango)) { _fun00002_ip = 78; continue _fun00001 }
  14:
             entity = 'darker';
-            if(!(entity !== tango)) { _fun71695_ip = 55; continue _fun71695 }
+            if(!(entity !== tango)) { _fun00002_ip = 55; continue _fun00001 }
  22:
             entity = 'midnight';
             zulu = undefined;
-            if(!(entity === tango)) { _fun71695_ip = 84; continue _fun71695 }
+            if(!(entity === tango)) { _fun00002_ip = 84; continue _fun00001 }
  32:
             entity = mike.midnight;
             tango = null;
-            if(!(tango == entity)) { _fun71695_ip = 50; continue _fun71695 }
+            if(!(tango == entity)) { _fun00002_ip = 50; continue _fun00001 }
  44:
             entity = mike.darker;
  50:
             zulu = entity;
-            _fun71695_ip = 84; continue _fun71695;
+            _fun00002_ip = 84; continue _fun00001;
  55:
             entity = mike.darker;
             tango = null;
-            if(!(tango == entity)) { _fun71695_ip = 73; continue _fun71695 }
+            if(!(tango == entity)) { _fun00002_ip = 73; continue _fun00001 }
  67:
             entity = mike.midnight;
  73:
             zulu = entity;
-            _fun71695_ip = 84; continue _fun71695;
+            _fun00002_ip = 84; continue _fun00001;
  78:
             zulu = mike.light;
  84:
             entity = null;
-            if(!(entity == zulu)) { _fun71695_ip = 102; continue _fun71695 }
+            if(!(entity == zulu)) { _fun00002_ip = 102; continue _fun00001 }
  90:
             entity = mike.dark;
             entity = entity.bind(mike)();
-            _fun71695_ip = 108; continue _fun71695;
+            _fun00002_ip = 108; continue _fun00001;
  102:
             mike = undefined;
             entity = zulu.bind(mike)();

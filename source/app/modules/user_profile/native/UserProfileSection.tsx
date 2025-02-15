@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileSection.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileSection
-        _fun90446: for(var _fun90446_ip = 0; ; ) switch(_fun90446_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             update = zulu.title;
@@ -111,13 +111,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = sizing.contentContainer;
             sequence = yankee;
             zulu = copyDataProperties(sequence, vacuum);
-            if(!(offset != mike)) { _fun90446_ip = 174; continue _fun90446 }
+            if(!(offset != mike)) { _fun00002_ip = 174; continue _fun00001 }
  170:
-            if(!(offset == entity)) { _fun90446_ip = 188; continue _fun90446 }
+            if(!(offset == entity)) { _fun00002_ip = 188; continue _fun00001 }
  174:
             mike = sizing.contentContainer;
             mike = mike.borderColor;
-            _fun90446_ip = 248; continue _fun90446;
+            _fun00002_ip = 248; continue _fun00001;
  188:
             result = _closure1_slot0;
             echo = _closure1_slot1;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = copyDataProperties(sequence, vacuum);
             oscar = offset != update;
             golf = null;
-            if(!oscar) { _fun90446_ip = 438; continue _fun90446 }
+            if(!oscar) { _fun00002_ip = 438; continue _fun00001 }
  310:
             foxtrot = _closure1_slot4;
             options = _closure1_slot2;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = _closure1_slot2;
             report = {};
             offset = null;
-            if(!romeo) { _fun90446_ip = 464; continue _fun90446 }
+            if(!romeo) { _fun00002_ip = 464; continue _fun00001 }
  461:
             offset = yankee;
  464:

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     var _closure1_slot1 = options;
     var _closure1_slot2 = golf;
     mike = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: getSoundmojiFromMessage
-        _fun61859: for(var _fun61859_ip = 0; ; ) switch(_fun61859_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argBar;
             options = argBaz;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['autoTrackExposure'] = golf;
             entity = report.bind(oscar)(mike, entity);
             entity = entity.enabled;
-            if(!entity) { _fun61859_ip = 139; continue _fun61859 }
+            if(!entity) { _fun00002_ip = 139; continue _fun00001 }
  81:
             mike = _closure1_slot3;
             entity = mike.getSoundById;
@@ -42,17 +42,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             mike = argFoo;
             report = report.bind(tango)(entity, mike, verify);
             oscar = null;
-            if(!(oscar != options)) { _fun61859_ip = 136; continue _fun61859 }
+            if(!(oscar != options)) { _fun00002_ip = 136; continue _fun00001 }
  132:
-            if(!(oscar == verify)) { _fun61859_ip = 155; continue _fun61859 }
+            if(!(oscar == verify)) { _fun00002_ip = 155; continue _fun00001 }
  136:
-            if(report) { _fun61859_ip = 141; continue _fun61859 }
+            if(report) { _fun00002_ip = 141; continue _fun00001 }
  139:
             return tango;
  141:
             golf = oscar != entity;
             mike = undefined;
-            if(!golf) { _fun61859_ip = 153; continue _fun61859 }
+            if(!golf) { _fun00002_ip = 153; continue _fun00001 }
  150:
             mike = entity;
  153:
@@ -69,22 +69,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             backup = options;
             foxtrot = offset;
             mike = sizing[golf](kilo, backup, foxtrot, romeo, yankee);
-            if(!report) { _fun61859_ip = 244; continue _fun61859 }
+            if(!report) { _fun00002_ip = 244; continue _fun00001 }
  196:
-            if(!(oscar == mike)) { _fun61859_ip = 244; continue _fun61859 }
+            if(!(oscar == mike)) { _fun00002_ip = 244; continue _fun00001 }
  200:
             golf = _closure1_slot4;
             report = golf.getMessage;
             report = report.bind(golf)(verify, options);
             oscar = oscar == report;
             tango = undefined;
-            if(oscar) { _fun61859_ip = 230; continue _fun61859 }
+            if(oscar) { _fun00002_ip = 230; continue _fun00001 }
  225:
             tango = report.state;
  230:
             zulu = _closure1_slot5;
             zulu = zulu.SENT;
-            if(!(tango === zulu)) { _fun61859_ip = 246; continue _fun61859 }
+            if(!(tango === zulu)) { _fun00002_ip = 246; continue _fun00001 }
  244:
             return mike;
  246:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     report = 'modules/premium/sounds/soundmoji/utils/getSoundmojiASTFromString.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) { // Original name: getSoundmojiASTFromString
-        _fun61860: for(var _fun61860_ip = 0; ; ) switch(_fun61860_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             golf = argBar;
@@ -139,16 +139,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             backup = tango;
             yankee = result[offset](output, sizing, kilo, backup, foxtrot, romeo);
             offset = null;
-            if(!(offset != yankee)) { _fun61860_ip = 268; continue _fun61860 }
+            if(!(offset != yankee)) { _fun00004_ip = 268; continue _fun00003 }
  68:
             oscar = offset == yankee;
             entity = undefined;
-            if(oscar) { _fun61860_ip = 82; continue _fun61860 }
+            if(oscar) { _fun00004_ip = 82; continue _fun00003 }
  77:
             entity = yankee.name;
  82:
             oscar = tango;
-            if(!(offset != entity)) { _fun61860_ip = 92; continue _fun61860 }
+            if(!(offset != entity)) { _fun00004_ip = 92; continue _fun00003 }
  89:
             oscar = entity;
  92:
@@ -164,27 +164,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             entity['content'] = oscar;
             golf = offset == yankee;
             oscar = undefined;
-            if(golf) { _fun61860_ip = 148; continue _fun61860 }
+            if(golf) { _fun00004_ip = 148; continue _fun00003 }
  142:
             oscar = yankee.emojiId;
  148:
             entity['emojiId'] = oscar;
             golf = offset == yankee;
             oscar = undefined;
-            if(golf) { _fun61860_ip = 168; continue _fun61860 }
+            if(golf) { _fun00004_ip = 168; continue _fun00003 }
  162:
             oscar = yankee.emojiName;
  168:
             entity['emojiName'] = oscar;
             golf = offset == yankee;
             oscar = undefined;
-            if(golf) { _fun61860_ip = 188; continue _fun61860 }
+            if(golf) { _fun00004_ip = 188; continue _fun00003 }
  182:
             oscar = yankee.emojiId;
  188:
             golf = offset != oscar;
             oscar = undefined;
-            if(!golf) { _fun61860_ip = 259; continue _fun61860 }
+            if(!golf) { _fun00004_ip = 259; continue _fun00003 }
  197:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = {'id': null, 'animated': false, 'size': 16};
             romeo = offset == yankee;
             offset = undefined;
-            if(romeo) { _fun61860_ip = 248; continue _fun61860 }
+            if(romeo) { _fun00004_ip = 248; continue _fun00003 }
  242:
             offset = yankee.emojiId;
  248:

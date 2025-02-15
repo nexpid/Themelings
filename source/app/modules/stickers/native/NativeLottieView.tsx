@@ -1,6 +1,6 @@
 // app/modules/stickers/native/NativeLottieView.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun69328: for(var _fun69328_ip = 0; ; ) switch(_fun69328_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         report = argBaz;
@@ -39,11 +39,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         romeo = oscar.bind(entity)(mike);
         mike = romeo.isAndroid;
         mike = mike.bind(romeo)();
-        if(mike) { _fun69328_ip = 166; continue _fun69328 }
+        if(mike) { _fun00002_ip = 166; continue _fun00001 }
  153:
         mike = 'NativeLottieNode';
         mike = yankee.bind(entity)(mike);
-        _fun69328_ip = 178; continue _fun69328;
+        _fun00002_ip = 178; continue _fun00001;
  166:
         yankee = 4;
         yankee = golf[yankee];
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'modules/stickers/native/NativeLottieView.tsx';
         report = oscar.bind(golf)(report);
         tango = function(argFoo) { // Original name: _default
-            _fun69329: for(var _fun69329_ip = 0; ; ) switch(_fun69329_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 romeo = entity.asset;
@@ -85,19 +85,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = entity.height;
                 oscar = entity.opacity;
                 tango = undefined;
-                if(!(oscar === tango)) { _fun69329_ip = 40; continue _fun69329 }
+                if(!(oscar === tango)) { _fun00004_ip = 40; continue _fun00003 }
  37:
                 oscar = 1;
  40:
                 offset = entity.renderMode;
-                if(!(offset === tango)) { _fun69329_ip = 63; continue _fun69329 }
+                if(!(offset === tango)) { _fun00004_ip = 63; continue _fun00003 }
  50:
                 zulu = _closure1_slot6;
                 offset = zulu.LOOP;
  63:
                 var _closure2_slot0 = offset;
                 zulu = entity.animating;
-                if(!(zulu === tango)) { _fun69329_ip = 79; continue _fun69329 }
+                if(!(zulu === tango)) { _fun00004_ip = 79; continue _fun00003 }
  77:
                 zulu = true;
  79:
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = new Array(1);
                 zulu[0] = offset;
                 mike = function() {
-                    _fun69331: for(var _fun69331_ip = 0; ; ) switch(_fun69331_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         mike = _closure2_slot3;
                         mike = mike.current;
@@ -156,17 +156,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         tango = mike.animating;
                         mike = '';
                         mike = mike !== options;
-                        if(!mike) { _fun69331_ip = 122; continue _fun69331 }
+                        if(!mike) { _fun00006_ip = 122; continue _fun00005 }
  116:
                         zulu = 0;
                         mike = zulu !== golf;
  122:
-                        if(!mike) { _fun69331_ip = 131; continue _fun69331 }
+                        if(!mike) { _fun00006_ip = 131; continue _fun00005 }
  125:
                         zulu = 0;
                         mike = zulu !== oscar;
  131:
-                        if(!mike) { _fun69331_ip = 181; continue _fun69331 }
+                        if(!mike) { _fun00006_ip = 181; continue _fun00005 }
  134:
                         zulu = _closure1_slot5;
                         mike = zulu.setup;

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = options.bind(verify)(offset);
         verify = offset.map;
         options = function(argFoo) {
-            _fun98909: for(var _fun98909_ip = 0; ; ) switch(_fun98909_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 entity = zulu[Symbol.iterator];
@@ -54,25 +54,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = undefined;
                 mike = mike === report;
                 tango = undefined;
-                if(mike) { _fun98909_ip = 29; continue _fun98909 }
+                if(mike) { _fun00002_ip = 29; continue _fun00001 }
  26:
                 tango = golf;
  29:
                 yankee = undefined;
-                if(mike) { _fun98909_ip = 59; continue _fun98909 }
+                if(mike) { _fun00002_ip = 59; continue _fun00001 }
  34:
                 golf = zulu().value;
                 zulu = entity;
                 zulu = zulu === report;
                 yankee = undefined;
                 mike = zulu;
-                if(zulu) { _fun98909_ip = 59; continue _fun98909 }
+                if(zulu) { _fun00002_ip = 59; continue _fun00001 }
  53:
                 yankee = golf;
                 mike = zulu;
  59:
                 var _closure3_slot0 = yankee;
-                if(mike) { _fun98909_ip = 69; continue _fun98909 }
+                if(mike) { _fun00002_ip = 69; continue _fun00001 }
  66:
                 entity.return();
  69:
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = null;
                 verify = options != yankee;
                 options = 'null';
-                if(!verify) { _fun98909_ip = 140; continue _fun98909 }
+                if(!verify) { _fun00002_ip = 140; continue _fun00001 }
  121:
                 verify = global;
                 offset = verify.JSON;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = verify.bind(report)(options, golf);
                 entity['icon'] = golf;
                 oscar = function() { // Original name: onPress
-                    _fun98910: for(var _fun98910_ip = 0; ; ) switch(_fun98910_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure1_slot0;
                         mike = _closure1_slot3;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = null;
                         oscar = mike != oscar;
                         mike = 'null';
-                        if(!oscar) { _fun98910_ip = 74; continue _fun98910 }
+                        if(!oscar) { _fun00004_ip = 74; continue _fun00003 }
  51:
                         oscar = global;
                         golf = oscar.JSON;
@@ -146,19 +146,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: SurveyOverrideActionSheet
-        _fun98911: for(var _fun98911_ip = 0; ; ) switch(_fun98911_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot5;
             mike = zulu.useState;
             entity = function() {
-                _fun98912: for(var _fun98912_ip = 0; ; ) switch(_fun98912_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure1_slot8;
                     entity = mike.getSurveyOverride;
                     mike = entity.bind(mike)();
                     entity = null;
                     zulu = entity != mike;
-                    if(!zulu) { _fun98912_ip = 31; continue _fun98912 }
+                    if(!zulu) { _fun00008_ip = 31; continue _fun00007 }
  28:
                     entity = mike;
  31:
@@ -212,18 +212,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = '';
             yankee = offset === romeo;
             offset = 'Fetch Survey';
-            if(!yankee) { _fun98911_ip = 237; continue _fun98911 }
+            if(!yankee) { _fun00006_ip = 237; continue _fun00005 }
  231:
             offset = 'Reset Survey Override';
  237:
             oscar['text'] = offset;
             offset = 'destructive';
-            if(yankee) { _fun98911_ip = 270; continue _fun98911 }
+            if(yankee) { _fun00006_ip = 270; continue _fun00005 }
  250:
             yankee = null;
             romeo = yankee == romeo;
             yankee = 'primary';
-            if(!romeo) { _fun98911_ip = 267; continue _fun98911 }
+            if(!romeo) { _fun00006_ip = 267; continue _fun00005 }
  263:
             yankee = 'secondary';
  267:
@@ -231,11 +231,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  270:
             oscar['variant'] = offset;
             verify = function() { // Original name: onPress
-                _fun98913: for(var _fun98913_ip = 0; ; ) switch(_fun98913_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = '';
-                    if(!(mike !== zulu)) { _fun98913_ip = 57; continue _fun98913 }
+                    if(!(mike !== zulu)) { _fun00010_ip = 57; continue _fun00009 }
  15:
                     tango = _closure1_slot2;
                     zulu = _closure1_slot3;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.overrideSurvey;
                     entity = _closure2_slot0;
                     entity = mike.bind(zulu)(entity);
-                    _fun98913_ip = 95; continue _fun98913;
+                    _fun00010_ip = 95; continue _fun00009;
  57:
                     zulu = _closure1_slot2;
                     mike = _closure1_slot3;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: SurveyInfo
-        _fun98914: for(var _fun98914_ip = 0; ; ) switch(_fun98914_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             golf = _closure1_slot0;
             verify = _closure1_slot3;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             foxtrot = verify == yankee;
             romeo = undefined;
-            if(!foxtrot) { _fun98914_ip = 225; continue _fun98914 }
+            if(!foxtrot) { _fun00012_ip = 225; continue _fun00011 }
  219:
             romeo = 'No survey data';
  225:
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['arrow'] = romeo;
             yankee = verify != yankee;
             verify = undefined;
-            if(!yankee) { _fun98914_ip = 255; continue _fun98914 }
+            if(!yankee) { _fun00012_ip = 255; continue _fun00011 }
  248:
             verify = function() {
                 zulu = _closure1_slot1;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function() { // Original name: ChangelogOverrideActionSheet
-        _fun98919: for(var _fun98919_ip = 0; ; ) switch(_fun98919_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             zulu = _closure1_slot5;
             mike = zulu.useState;
@@ -500,18 +500,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = '';
             yankee = offset === romeo;
             offset = 'Fetch Changelog';
-            if(!yankee) { _fun98919_ip = 237; continue _fun98919 }
+            if(!yankee) { _fun00014_ip = 237; continue _fun00013 }
  231:
             offset = 'Reset Changelog Override';
  237:
             oscar['text'] = offset;
             offset = 'destructive';
-            if(yankee) { _fun98919_ip = 270; continue _fun98919 }
+            if(yankee) { _fun00014_ip = 270; continue _fun00013 }
  250:
             yankee = null;
             romeo = yankee == romeo;
             yankee = 'primary';
-            if(!romeo) { _fun98919_ip = 267; continue _fun98919 }
+            if(!romeo) { _fun00014_ip = 267; continue _fun00013 }
  263:
             yankee = 'secondary';
  267:
@@ -519,11 +519,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  270:
             oscar['variant'] = offset;
             verify = function() { // Original name: onPress
-                _fun98921: for(var _fun98921_ip = 0; ; ) switch(_fun98921_ip) {
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = '';
-                    if(!(mike !== zulu)) { _fun98921_ip = 57; continue _fun98921 }
+                    if(!(mike !== zulu)) { _fun00016_ip = 57; continue _fun00015 }
  15:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot3;
@@ -534,7 +534,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.setChangelogOverride;
                     entity = _closure2_slot0;
                     entity = mike.bind(zulu)(entity);
-                    _fun98921_ip = 95; continue _fun98921;
+                    _fun00016_ip = 95; continue _fun00015;
  57:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot3;

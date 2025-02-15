@@ -37,12 +37,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         oscar = report.bind(mike)(tango);
         report = oscar.getHeaderBackButton;
         tango = function() {
-            _fun94955: for(var _fun94955_ip = 0; ; ) switch(_fun94955_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 zulu = mike.navigateToLandingPage;
                 mike = null;
-                if(!(mike == zulu)) { _fun94955_ip = 61; continue _fun94955 }
+                if(!(mike == zulu)) { _fun00002_ip = 61; continue _fun00001 }
  19:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = tango.goBackToLanding;
                 mike = _closure2_slot1;
                 mike = zulu.bind(tango)(mike);
-                _fun94955_ip = 75; continue _fun94955;
+                _fun00002_ip = 75; continue _fun00001;
  61:
                 mike = _closure2_slot0;
                 entity = mike.navigateToLandingPage;

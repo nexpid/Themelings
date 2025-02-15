@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/remixing/native/hooks/useTransforms.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: _default
-        _fun84152: for(var _fun84152_ip = 0; ; ) switch(_fun84152_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
@@ -37,14 +37,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = mike[zulu];
             tango = null;
             tango = tango != report;
-            if(tango) { _fun84152_ip = 75; continue _fun84152 }
+            if(tango) { _fun00002_ip = 75; continue _fun00001 }
  56:
             report = global;
             oscar = report.Object;
             report = oscar.isFrozen;
             tango = report.bind(oscar)(mike);
  75:
-            if(tango) { _fun84152_ip = 82; continue _fun84152 }
+            if(tango) { _fun00002_ip = 82; continue _fun00001 }
  78:
             mike[zulu] = entity;
  82:

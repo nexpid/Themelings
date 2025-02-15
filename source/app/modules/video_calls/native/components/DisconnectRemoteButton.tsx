@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/DisconnectRemoteButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun103259: for(var _fun103259_ip = 0; ; ) switch(_fun103259_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
@@ -79,11 +79,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             verify = _closure1_slot1;
             yankee = _closure1_slot3;
-            if(options) { _fun103259_ip = 140; continue _fun103259 }
+            if(options) { _fun00002_ip = 140; continue _fun00001 }
  131:
             options = 6;
             options = yankee[options];
-            _fun103259_ip = 147; continue _fun103259;
+            _fun00002_ip = 147; continue _fun00001;
  140:
             offset = 5;
             options = yankee[offset];
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityLabel'] = golf;
             entity['isSmallSize'] = oscar;
             report = function() { // Original name: onPress
-                _fun103261: for(var _fun103261_ip = 0; ; ) switch(_fun103261_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike == zulu)) { _fun103261_ip = 50; continue _fun103261 }
+                    if(!(mike == zulu)) { _fun00004_ip = 50; continue _fun00003 }
  13:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot3;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = tango.bind(mike)(zulu);
                     mike = zulu.disconnectRemote;
                     mike = mike.bind(zulu)();
-                    _fun103261_ip = 117; continue _fun103261;
+                    _fun00004_ip = 117; continue _fun00003;
  50:
                     tango = _closure1_slot0;
                     report = _closure1_slot3;

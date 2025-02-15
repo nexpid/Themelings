@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/row_data/embeds/coded_links/GuildTemplateEmbed.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: GuildTemplateEmbed
-        _fun70314: for(var _fun70314_ip = 0; ; ) switch(_fun70314_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.code;
@@ -87,17 +87,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != offset)) { _fun70314_ip = 1074; continue _fun70314 }
+            if(!(entity != offset)) { _fun00002_ip = 1074; continue _fun00001 }
  134:
             zulu = offset.state;
             mike = _closure1_slot5;
             mike = mike.RESOLVING;
-            if(!(zulu !== mike)) { _fun70314_ip = 928; continue _fun70314 }
+            if(!(zulu !== mike)) { _fun00002_ip = 928; continue _fun00001 }
  156:
             zulu = offset.state;
             mike = _closure1_slot5;
             mike = mike.EXPIRED;
-            if(!(zulu !== mike)) { _fun70314_ip = 582; continue _fun70314 }
+            if(!(zulu !== mike)) { _fun00002_ip = 582; continue _fun00001 }
  178:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -245,12 +245,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(romeo)(foxtrot);
             foxtrot = _closure1_slot1;
             backup = _closure1_slot2;
-            if(verify) { _fun70314_ip = 854; continue _fun70314 }
+            if(verify) { _fun00002_ip = 854; continue _fun00001 }
  840:
             verify = 12;
             verify = backup[verify];
             verify = foxtrot.bind(report)(verify);
-            _fun70314_ip = 866; continue _fun70314;
+            _fun00002_ip = 866; continue _fun00001;
  854:
             romeo = 11;
             romeo = backup[romeo];
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: createGuildTemplateEmbed
-        _fun70316: for(var _fun70316_ip = 0; ; ) switch(_fun70316_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             yankee = argBar;
             mike = _closure1_slot1;
@@ -326,17 +326,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = argFoo;
             golf = mike.bind(oscar)(entity);
             entity = null;
-            if(!(entity != golf)) { _fun70316_ip = 941; continue _fun70316 }
+            if(!(entity != golf)) { _fun00004_ip = 941; continue _fun00003 }
  71:
             oscar = golf.state;
             mike = _closure1_slot5;
             mike = mike.RESOLVING;
-            if(!(oscar !== mike)) { _fun70316_ip = 821; continue _fun70316 }
+            if(!(oscar !== mike)) { _fun00004_ip = 821; continue _fun00003 }
  93:
             oscar = golf.state;
             mike = _closure1_slot5;
             mike = mike.EXPIRED;
-            if(!(oscar !== mike)) { _fun70316_ip = 497; continue _fun70316 }
+            if(!(oscar !== mike)) { _fun00004_ip = 497; continue _fun00003 }
  115:
             verify = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -475,12 +475,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(verify)(yankee);
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
-            if(oscar) { _fun70316_ip = 753; continue _fun70316 }
+            if(oscar) { _fun00004_ip = 753; continue _fun00003 }
  739:
             oscar = 12;
             oscar = romeo[oscar];
             oscar = yankee.bind(offset)(oscar);
-            _fun70316_ip = 765; continue _fun70316;
+            _fun00004_ip = 765; continue _fun00003;
  753:
             verify = 11;
             verify = romeo[verify];

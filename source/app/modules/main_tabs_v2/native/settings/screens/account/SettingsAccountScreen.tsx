@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot16 = entity;
     entity = function() { // Original name: AccountTwoFALabel
-        _fun92770: for(var _fun92770_ip = 0; ; ) switch(_fun92770_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -228,14 +228,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = verify;
             zulu[2] = mike;
             mike = function() {
-                _fun92772: for(var _fun92772_ip = 0; ; ) switch(_fun92772_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
-                    if(!entity) { _fun92772_ip = 14; continue _fun92772 }
+                    if(!entity) { _fun00004_ip = 14; continue _fun00003 }
  10:
                     entity = _closure2_slot1;
  14:
-                    if(!entity) { _fun92772_ip = 24; continue _fun92772 }
+                    if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  17:
                     mike = _closure2_slot0;
                     entity = !mike;
@@ -249,10 +249,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun92773: for(var _fun92773_ip = 0; ; ) switch(_fun92773_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(entity) { _fun92773_ip = 45; continue _fun92773 }
+                    if(entity) { _fun00006_ip = 45; continue _fun00005 }
  10:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot13;
             entity = {};
             golf = report;
-            if(!golf) { _fun92770_ip = 218; continue _fun92770 }
+            if(!golf) { _fun00002_ip = 218; continue _fun00001 }
  202:
             verify = _closure1_slot11;
             options = _closure1_slot16;
@@ -544,7 +544,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot15 = report;
     report = options.memo;
     tango = function() {
-        _fun92777: for(var _fun92777_ip = 0; ; ) switch(_fun92777_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = _closure1_slot15;
             tango = undefined;
@@ -646,13 +646,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['items'] = backup;
             entity['pageWidth'] = foxtrot;
             offset = offset.STANDING;
-            if(!(romeo === offset)) { _fun92777_ip = 389; continue _fun92777 }
+            if(!(romeo === offset)) { _fun00008_ip = 389; continue _fun00007 }
  386:
             oscar = golf;
  389:
             entity['defaultIndex'] = oscar;
             report = function(argFoo) { // Original name: onSetActiveIndex
-                _fun92780: for(var _fun92780_ip = 0; ; ) switch(_fun92780_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -666,11 +666,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = {};
                     options = 0;
                     oscar = argFoo;
-                    if(!(options !== oscar)) { _fun92780_ip = 63; continue _fun92780 }
+                    if(!(options !== oscar)) { _fun00010_ip = 63; continue _fun00009 }
  51:
                     oscar = _closure1_slot14;
                     oscar = oscar.STANDING;
-                    _fun92780_ip = 73; continue _fun92780;
+                    _fun00010_ip = 73; continue _fun00009;
  63:
                     golf = _closure1_slot14;
                     oscar = golf.SECURITY;

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/forums/native/posts/ForumPostTimestamp.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostTimestamp
-        _fun100546: for(var _fun100546_ip = 0; ; ) switch(_fun100546_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.textStyle;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = report.useLastActiveTimestamp;
             report = zulu.bind(report)(offset, oscar, verify);
             oscar = 'text-muted';
-            if(!mike) { _fun100546_ip = 108; continue _fun100546 }
+            if(!mike) { _fun00002_ip = 108; continue _fun00001 }
  102:
             oscar = 'header-secondary';
  108:

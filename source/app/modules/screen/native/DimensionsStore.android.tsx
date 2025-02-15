@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getDimensionsStoreState
-        _fun47642: for(var _fun47642_ip = 0; ; ) switch(_fun47642_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = argBar;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             report = oscar == tango;
             tango = undefined;
-            if(report) { _fun47642_ip = 98; continue _fun47642 }
+            if(report) { _fun00002_ip = 98; continue _fun00001 }
  69:
             verify = _closure1_slot1;
             report = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(mike)(tango);
             tango = oscar == tango;
             verify = undefined;
-            if(tango) { _fun47642_ip = 163; continue _fun47642 }
+            if(tango) { _fun00002_ip = 163; continue _fun00001 }
  134:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.getScreenSize;
             verify = tango.bind(report)();
  163:
-            if(!(oscar == verify)) { _fun47642_ip = 185; continue _fun47642 }
+            if(!(oscar == verify)) { _fun00002_ip = 185; continue _fun00001 }
  167:
             report = _closure1_slot3;
             tango = report.get;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango > zulu;
             offset = oscar == entity;
             zulu = undefined;
-            if(offset) { _fun47642_ip = 220; continue _fun47642 }
+            if(offset) { _fun00002_ip = 220; continue _fun00001 }
  214:
             zulu = entity.windowDimensions;
  220:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.height;
             backup = options;
             yankee = verify;
-            if(!(yankee === kilo)) { _fun47642_ip = 256; continue _fun47642 }
+            if(!(yankee === kilo)) { _fun00002_ip = 256; continue _fun00001 }
  250:
             backup = verify;
             yankee = options;
@@ -102,14 +102,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(offset)(golf, yankee);
             offset = oscar == zulu;
             golf = undefined;
-            if(offset) { _fun47642_ip = 352; continue _fun47642 }
+            if(offset) { _fun00002_ip = 352; continue _fun00001 }
  347:
             golf = zulu.width;
  352:
-            if(!(golf === verify)) { _fun47642_ip = 365; continue _fun47642 }
+            if(!(golf === verify)) { _fun00002_ip = 365; continue _fun00001 }
  356:
             golf = zulu.height;
-            if(!(golf !== options)) { _fun47642_ip = 378; continue _fun47642 }
+            if(!(golf !== options)) { _fun00002_ip = 378; continue _fun00001 }
  365:
             golf = {};
             golf['width'] = verify;
@@ -118,17 +118,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  378:
             oscar = oscar == entity;
             mike = undefined;
-            if(oscar) { _fun47642_ip = 393; continue _fun47642 }
+            if(oscar) { _fun00002_ip = 393; continue _fun00001 }
  387:
             mike = entity.windowDimensions;
  393:
-            if(!(mike === zulu)) { _fun47642_ip = 417; continue _fun47642 }
+            if(!(mike === zulu)) { _fun00002_ip = 417; continue _fun00001 }
  397:
             mike = entity.fontScale;
-            if(!(mike === report)) { _fun47642_ip = 417; continue _fun47642 }
+            if(!(mike === report)) { _fun00002_ip = 417; continue _fun00001 }
  407:
             mike = entity.screenIsLandscape;
-            if(!(mike !== tango)) { _fun47642_ip = 437; continue _fun47642 }
+            if(!(mike !== tango)) { _fun00002_ip = 437; continue _fun00001 }
  417:
             mike = {};
             mike['fontScale'] = report;

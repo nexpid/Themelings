@@ -69,14 +69,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: MemberCount
-        _fun79809: for(var _fun79809_ip = 0; ; ) switch(_fun79809_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.type;
             report = entity.count;
             yankee = entity.color;
             offset = null;
-            if(!(offset != report)) { _fun79809_ip = 139; continue _fun79809 }
+            if(!(offset != report)) { _fun00002_ip = 139; continue _fun00001 }
  24:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.intl;
             zulu = tango.format;
             mike = 'online';
-            if(!(mike !== romeo)) { _fun79809_ip = 97; continue _fun79809 }
+            if(!(mike !== romeo)) { _fun00002_ip = 97; continue _fun00001 }
  67:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(golf)(mike);
             mike = mike.t;
             mike = mike.etqpUF;
-            _fun79809_ip = 125; continue _fun79809;
+            _fun00002_ip = 125; continue _fun00001;
  97:
             oscar = _closure1_slot0;
             entity = _closure1_slot1;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['count'] = report;
             verify = zulu.bind(tango)(mike, entity);
-            _fun79809_ip = 245; continue _fun79809;
+            _fun00002_ip = 245; continue _fun00001;
  139:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.intl;
             mike = zulu.string;
             entity = 'online';
-            if(!(entity !== romeo)) { _fun79809_ip = 212; continue _fun79809 }
+            if(!(entity !== romeo)) { _fun00002_ip = 212; continue _fun00001 }
  182:
             report = _closure1_slot0;
             entity = _closure1_slot1;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report.bind(oscar)(entity);
             entity = entity.t;
             entity = entity.5SWsJS;
-            _fun79809_ip = 240; continue _fun79809;
+            _fun00002_ip = 240; continue _fun00001;
  212:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['variant'] = romeo;
             romeo = offset != yankee;
             offset = 'header-secondary';
-            if(!romeo) { _fun79809_ip = 357; continue _fun79809 }
+            if(!romeo) { _fun00002_ip = 357; continue _fun00001 }
  354:
             offset = yankee;
  357:

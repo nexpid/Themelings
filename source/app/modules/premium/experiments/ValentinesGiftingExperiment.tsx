@@ -45,7 +45,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['ValentinesGiftingExperiment'] = tango;
     tango = function() { // Original name: useIsValentinesGiftingActive
-        _fun38330: for(var _fun38330_ip = 0; ; ) switch(_fun38330_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = tango.useExperiment;
@@ -58,7 +58,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike, entity);
             entity = mike.enableGiftingFlow;
             mike = mike.enableCoachmark;
-            if(entity) { _fun38330_ip = 56; continue _fun38330 }
+            if(entity) { _fun00002_ip = 56; continue _fun00001 }
  53:
             entity = mike;
  56:

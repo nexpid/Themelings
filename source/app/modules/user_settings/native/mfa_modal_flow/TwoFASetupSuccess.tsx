@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = zulu.bind(report)(mike);
         zulu = report.useCallback;
         mike = function() {
-            _fun94582: for(var _fun94582_ip = 0; ; ) switch(_fun94582_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot6;
                 entity = zulu.getCurrentUser;
@@ -151,11 +151,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = tango == report;
                 entity = undefined;
                 zulu = undefined;
-                if(golf) { _fun94582_ip = 53; continue _fun94582 }
+                if(golf) { _fun00002_ip = 53; continue _fun00001 }
  47:
                 zulu = report.phone;
  53:
-                if(!(tango == zulu)) { _fun94582_ip = 186; continue _fun94582 }
+                if(!(tango == zulu)) { _fun00002_ip = 186; continue _fun00001 }
  60:
                 tango = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango['reason'] = zulu;
                 zulu = _closure1_slot7;
                 zulu = golf.bind(options)(report, tango, zulu);
-                _fun94582_ip = 239; continue _fun94582;
+                _fun00002_ip = 239; continue _fun00001;
  186:
                 zulu = _closure1_slot1;
                 tango = _closure1_slot2;

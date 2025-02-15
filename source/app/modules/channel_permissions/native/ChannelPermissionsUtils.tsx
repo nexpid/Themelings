@@ -28,12 +28,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel_permissions/native/ChannelPermissionsUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: openAddMembersActionSheet
-        _fun86379: for(var _fun86379_ip = 0; ; ) switch(_fun86379_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             golf = arguments[1];
             entity = undefined;
-            if(!(golf === entity)) { _fun86379_ip = 14; continue _fun86379 }
+            if(!(golf === entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             golf = false;
  14:

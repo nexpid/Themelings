@@ -1,6 +1,6 @@
 // app/modules/autocompleter/index.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun79027: for(var _fun79027_ip = 0; ; ) switch(_fun79027_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         tango = argBaz;
@@ -36,7 +36,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             foxtrot = mike;
             romeo = yankee[foxtrot];
             zulu[foxtrot] = romeo;
-            _fun79027_ip = 114; continue _fun79027;
+            _fun00002_ip = 114; continue _fun00001;
         }
  136:
         mike = 3;

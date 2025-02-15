@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['CtaButtonCallbackTypes'] = tango;
     tango = function(argFoo, argBar) { // Original name: createCtaButton
-        _fun69498: for(var _fun69498_ip = 0; ; ) switch(_fun69498_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = argBar;
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.getFpMessageInfo;
             mike = entity.bind(mike)(tango);
             entity = null;
-            if(!(entity == mike)) { _fun69498_ip = 34; continue _fun69498 }
+            if(!(entity == mike)) { _fun00002_ip = 34; continue _fun00001 }
  30:
             entity = undefined;
             return entity;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['textColor'] = oscar;
             report = report.reportFpBackgroundColor;
             entity['backgroundColor'] = report;
-            if(!tango) { _fun69498_ip = 146; continue _fun69498 }
+            if(!tango) { _fun00002_ip = 146; continue _fun00001 }
  136:
             zulu = _closure1_slot3;
             mike = zulu.MARK_AS_FALSE_POSITIVE;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['createCtaButton'] = tango;
     mike = function(argFoo, argBar) { // Original name: useCtaButton
-        _fun69499: for(var _fun69499_ip = 0; ; ) switch(_fun69499_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             report = argBar;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(mike)(entity);
             entity = tango.useShouldRenderReportFalsePositiveButton;
             entity = entity.bind(tango)(oscar);
-            if(entity) { _fun69499_ip = 47; continue _fun69499 }
+            if(entity) { _fun00004_ip = 47; continue _fun00003 }
  45:
             return mike;
  47:
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.reportFpBackgroundColor;
             entity['backgroundColor'] = report;
             mike = undefined;
-            if(!tango) { _fun69499_ip = 159; continue _fun69499 }
+            if(!tango) { _fun00004_ip = 159; continue _fun00003 }
  149:
             zulu = _closure1_slot3;
             mike = zulu.MARK_AS_FALSE_POSITIVE;

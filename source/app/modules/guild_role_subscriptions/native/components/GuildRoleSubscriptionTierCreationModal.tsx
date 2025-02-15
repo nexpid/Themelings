@@ -92,11 +92,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun127069: for(var _fun127069_ip = 0; ; ) switch(_fun127069_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun127069_ip = 115; continue _fun127069 }
+                        if(mike) { _fun00002_ip = 115; continue _fun00001 }
  7:
                         report = _closure2_slot6;
                         mike = {};
@@ -122,9 +122,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  67:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun127069_ip = 112; continue _fun127069 }
+                        if(report) { _fun00002_ip = 112; continue _fun00001 }
  73:
-                        if(!mike) { _fun127069_ip = 109; continue _fun127069 }
+                        if(!mike) { _fun00002_ip = 109; continue _fun00001 }
  76:
                         oscar = _closure1_slot7;
                         report = oscar.resetImperatively;
@@ -162,11 +162,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = mike;
         mike = function() {
-            _fun127072: for(var _fun127072_ip = 0; ; ) switch(_fun127072_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot7;
                 report = null;
-                if(!(report != mike)) { _fun127072_ip = 122; continue _fun127072 }
+                if(!(report != mike)) { _fun00004_ip = 122; continue _fun00003 }
  13:
                 zulu = _closure1_slot0;
                 oscar = _closure1_slot3;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure2_slot7;
                 entity = oscar.getAnyErrorMessage;
                 entity = entity.bind(oscar)();
-                if(!(report == entity)) { _fun127072_ip = 117; continue _fun127072 }
+                if(!(report == entity)) { _fun00004_ip = 117; continue _fun00003 }
  62:
                 golf = _closure1_slot0;
                 verify = _closure1_slot3;

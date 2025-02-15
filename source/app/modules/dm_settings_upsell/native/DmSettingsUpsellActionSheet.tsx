@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/dm_settings_upsell/native/DmSettingsUpsellActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: DmSettingsUpsellActionSheet
-        _fun123411: for(var _fun123411_ip = 0; ; ) switch(_fun123411_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.guildId;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(entity, mike);
             entity = null;
             mike = entity == source;
-            if(mike) { _fun123411_ip = 1010; continue _fun123411 }
+            if(mike) { _fun00002_ip = 1010; continue _fun00001 }
  123:
             tango = _closure1_slot7;
             foxtrot = _closure1_slot0;

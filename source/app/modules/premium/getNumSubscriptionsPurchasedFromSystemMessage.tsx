@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: getNumSubscriptionsPurchasedFromSystemMessage
-        _fun72361: for(var _fun72361_ip = 0; ; ) switch(_fun72361_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             tango = entity.Number;
@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.bind(zulu)(mike);
             tango = 1;
             entity = tango;
-            if(zulu) { _fun72361_ip = 55; continue _fun72361 }
+            if(zulu) { _fun00002_ip = 55; continue _fun00001 }
  43:
             zulu = 0;
             entity = tango;
-            if(!(zulu !== mike)) { _fun72361_ip = 55; continue _fun72361 }
+            if(!(zulu !== mike)) { _fun00002_ip = 55; continue _fun00001 }
  52:
             entity = mike;
  55:

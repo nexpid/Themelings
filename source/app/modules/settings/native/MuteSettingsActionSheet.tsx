@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: MuteSettingsHint
-        _fun86786: for(var _fun86786_ip = 0; ; ) switch(_fun86786_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.isMuted;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity.guildMessageNotifications;
             golf = entity.showVoiceActivityNotificationOptions;
             tango = undefined;
-            if(!(golf === tango)) { _fun86786_ip = 37; continue _fun86786 }
+            if(!(golf === tango)) { _fun00002_ip = 37; continue _fun00001 }
  35:
             golf = false;
  37:
@@ -24,21 +24,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot13;
             report = report.bind(tango)();
             _closure2_slot0 = report;
-            if(zulu) { _fun86786_ip = 579; continue _fun86786 }
+            if(zulu) { _fun00002_ip = 579; continue _fun00001 }
  62:
-            if(mike) { _fun86786_ip = 450; continue _fun86786 }
+            if(mike) { _fun00002_ip = 450; continue _fun00001 }
  68:
             mike = _closure1_slot9;
             mike = mike.NO_MESSAGES;
-            if(!(verify !== mike)) { _fun86786_ip = 321; continue _fun86786 }
+            if(!(verify !== mike)) { _fun00002_ip = 321; continue _fun00001 }
  85:
             mike = _closure1_slot9;
             mike = mike.ALL_MESSAGES;
-            if(!(verify !== mike)) { _fun86786_ip = 117; continue _fun86786 }
+            if(!(verify !== mike)) { _fun00002_ip = 117; continue _fun00001 }
  99:
             mike = _closure1_slot9;
             mike = mike.ONLY_MENTIONS;
-            if(!(verify !== mike)) { _fun86786_ip = 117; continue _fun86786 }
+            if(!(verify !== mike)) { _fun00002_ip = 117; continue _fun00001 }
  113:
             mike = null;
             return mike;
@@ -53,11 +53,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[foxtrot];
             mike = options.bind(tango)(mike);
             mike = mike.t;
-            if(golf) { _fun86786_ip = 177; continue _fun86786 }
+            if(golf) { _fun00002_ip = 177; continue _fun00001 }
  164:
             golf = mike.mUbulZ;
             golf = zulu.bind(oscar)(golf);
-            _fun86786_ip = 188; continue _fun86786;
+            _fun00002_ip = 188; continue _fun00001;
  177:
             mike = mike.l3yoAQ;
             golf = zulu.bind(oscar)(mike);
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['style'] = options;
             options = _closure1_slot9;
             options = options.ALL_MESSAGES;
-            if(!(verify !== options)) { _fun86786_ip = 309; continue _fun86786 }
+            if(!(verify !== options)) { _fun00002_ip = 309; continue _fun00001 }
  257:
             romeo = _closure1_slot0;
             options = _closure1_slot2;
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/settings/native/MuteSettingsActionSheet.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: MuteSettings
-        _fun86789: for(var _fun86789_ip = 0; ; ) switch(_fun86789_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             report = zulu.guildId;
@@ -484,9 +484,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             result = report.bind(golf)(mike, zulu);
             verify = null;
-            if(!(verify != update)) { _fun86789_ip = 356; continue _fun86789 }
+            if(!(verify != update)) { _fun00004_ip = 356; continue _fun00003 }
  353:
-            if(sizing) { _fun86789_ip = 446; continue _fun86789 }
+            if(sizing) { _fun00004_ip = 446; continue _fun00003 }
  356:
             zulu = _closure1_slot0;
             golf = _closure1_slot2;
@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             options = offset.map;
             golf = function(argFoo, argBar) {
-                _fun86796: for(var _fun86796_ip = 0; ; ) switch(_fun86796_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     romeo = entity.label;
@@ -543,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = options - oscar;
                     oscar = argBar;
                     oscar = oscar !== options;
-                    if(!oscar) { _fun86796_ip = 188; continue _fun86796 }
+                    if(!oscar) { _fun00006_ip = 188; continue _fun00005 }
  139:
                     verify = _closure1_slot10;
                     options = _closure1_slot0;
@@ -566,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(offset)(golf);
             mike['children'] = golf;
             offset = report.bind(tango)(zulu, mike);
-            _fun86789_ip = 802; continue _fun86789;
+            _fun00004_ip = 802; continue _fun00003;
  446:
             report = _closure1_slot11;
             mike = _closure1_slot3;
@@ -643,10 +643,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = update[vacuum];
             update = control.bind(tango)(update);
             update = update.MuteSettingType;
-            if(echo) { _fun86789_ip = 772; continue _fun86789 }
+            if(echo) { _fun00004_ip = 772; continue _fun00003 }
  764:
             echo = update.CHANNEL;
-            _fun86789_ip = 778; continue _fun86789;
+            _fun00004_ip = 778; continue _fun00003;
  772:
             echo = update.DM;
  778:
@@ -701,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = offset;
             offset = true;
             verify = null;
-            if(!(offset === yankee)) { _fun86789_ip = 1288; continue _fun86789 }
+            if(!(offset === yankee)) { _fun00004_ip = 1288; continue _fun00003 }
  950:
             romeo = _closure1_slot10;
             vacuum = _closure1_slot0;
@@ -772,7 +772,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['children'] = source;
             result = update.bind(tango)(echo, result);
             foxtrot['trailing'] = result;
-            if(sizing) { _fun86789_ip = 1268; continue _fun86789 }
+            if(sizing) { _fun00004_ip = 1268; continue _fun00003 }
  1265:
             sizing = output;
  1268:

@@ -79,7 +79,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.DATA_AND_PRIVACY;
     mike['parent'] = tango;
     tango = function() { // Original name: useSecureFramesVerifiedDevicesPredicate
-        _fun99787: for(var _fun99787_ip = 0; ; ) switch(_fun99787_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = function() { // Original name: useSecureFramesPersistentCodesValue
                 tango = _closure1_slot0;
@@ -114,7 +114,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.enabled;
-            if(!entity) { _fun99787_ip = 72; continue _fun99787 }
+            if(!entity) { _fun00002_ip = 72; continue _fun00001 }
  69:
             entity = mike;
  72:

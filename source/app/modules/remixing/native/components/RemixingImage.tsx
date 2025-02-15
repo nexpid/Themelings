@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/RemixingImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84154: for(var _fun84154_ip = 0; ; ) switch(_fun84154_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             update = mike.id;
@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = kilo.bind(report)(result);
             entity = function() {
                 entity = function() {
-                    _fun84156: for(var _fun84156_ip = 0; ; ) switch(_fun84156_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure2_slot0;
                         mike = null;
-                        if(!(mike != zulu)) { _fun84156_ip = 27; continue _fun84156 }
+                        if(!(mike != zulu)) { _fun00004_ip = 27; continue _fun00003 }
  13:
                         mike = _closure2_slot0;
                         entity = mike.dispose;
@@ -105,9 +105,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             golf = offset == romeo;
             entity = null;
-            if(golf) { _fun84154_ip = 430; continue _fun84154 }
+            if(golf) { _fun00002_ip = 430; continue _fun00001 }
  220:
-            if(tango) { _fun84154_ip = 234; continue _fun84154 }
+            if(tango) { _fun00002_ip = 234; continue _fun00001 }
  223:
             tango = true;
             tango = oscar.bind(report)(tango);
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['image'] = romeo;
             romeo = offset != yankee;
             offset = 'contain';
-            if(!romeo) { _fun84154_ip = 373; continue _fun84154 }
+            if(!romeo) { _fun00002_ip = 373; continue _fun00001 }
  370:
             offset = yankee;
  373:

@@ -65,19 +65,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'setTimer';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun44208: for(var _fun44208_ip = 0; ; ) switch(_fun44208_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 zulu = argBar;
                 entity = null;
-                if(!(entity != report)) { _fun44208_ip = 176; continue _fun44208 }
+                if(!(entity != report)) { _fun00002_ip = 176; continue _fun00001 }
  15:
-                if(!(entity != zulu)) { _fun44208_ip = 172; continue _fun44208 }
+                if(!(entity != zulu)) { _fun00002_ip = 172; continue _fun00001 }
  22:
                 mike = zulu.end_time;
                 mike = entity == mike;
                 verify = null;
-                if(mike) { _fun44208_ip = 100; continue _fun44208 }
+                if(mike) { _fun00002_ip = 100; continue _fun00001 }
  37:
                 mike = global;
                 oscar = mike.Date;
@@ -95,11 +95,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 verify = zulu - mike;
  100:
                 entity = entity != verify;
-                if(!entity) { _fun44208_ip = 170; continue _fun44208 }
+                if(!entity) { _fun00002_ip = 170; continue _fun00001 }
  107:
                 golf = 0;
                 mike = verify <= golf;
-                if(mike) { _fun44208_ip = 167; continue _fun44208 }
+                if(mike) { _fun00002_ip = 167; continue _fun00001 }
  116:
                 zulu = this;
                 tango = zulu.timers;
@@ -131,18 +131,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'clearTimer';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun44209: for(var _fun44209_ip = 0; ; ) switch(_fun44209_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 entity = this;
                 zulu = null;
                 zulu = zulu != mike;
-                if(!zulu) { _fun44209_ip = 25; continue _fun44209 }
+                if(!zulu) { _fun00004_ip = 25; continue _fun00003 }
  15:
                 tango = entity.timers;
                 zulu = mike in tango;
  25:
-                if(!zulu) { _fun44209_ip = 63; continue _fun44209 }
+                if(!zulu) { _fun00004_ip = 63; continue _fun00003 }
  28:
                 zulu = global;
                 report = zulu.clearTimeout;
@@ -173,23 +173,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     tango = function(argFoo) { // Original name: computeIsMuted
-        _fun44210: for(var _fun44210_ip = 0; ; ) switch(_fun44210_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             entity = mike.muted;
             tango = mike.mute_config;
             mike = !entity;
             entity = !mike;
-            if(mike) { _fun44210_ip = 113; continue _fun44210 }
+            if(mike) { _fun00006_ip = 113; continue _fun00005 }
  24:
             report = null;
             mike = report == tango;
-            if(mike) { _fun44210_ip = 43; continue _fun44210 }
+            if(mike) { _fun00006_ip = 43; continue _fun00005 }
  33:
             zulu = tango.end_time;
             mike = report == zulu;
  43:
-            if(mike) { _fun44210_ip = 110; continue _fun44210 }
+            if(mike) { _fun00006_ip = 110; continue _fun00005 }
  46:
             zulu = global;
             oscar = zulu.Date;
@@ -214,25 +214,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['computeIsMuted'] = tango;
     mike = function(argFoo) { // Original name: isTemporarilyMuted
-        _fun44211: for(var _fun44211_ip = 0; ; ) switch(_fun44211_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             entity = mike.muted;
             zulu = mike.mute_config;
             mike = !entity;
             entity = !mike;
-            if(mike) { _fun44211_ip = 30; continue _fun44211 }
+            if(mike) { _fun00008_ip = 30; continue _fun00007 }
  24:
             mike = null;
             entity = mike != zulu;
  30:
-            if(!entity) { _fun44211_ip = 45; continue _fun44211 }
+            if(!entity) { _fun00008_ip = 45; continue _fun00007 }
  33:
             tango = zulu.end_time;
             mike = null;
             entity = mike != tango;
  45:
-            if(!entity) { _fun44211_ip = 112; continue _fun44211 }
+            if(!entity) { _fun00008_ip = 112; continue _fun00007 }
  48:
             mike = global;
             report = mike.Date;

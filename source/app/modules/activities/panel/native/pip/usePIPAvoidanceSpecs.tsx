@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = _closure1_slot3;
         zulu['__initData'] = golf;
         mike = function(argFoo, argBar) { // Original name: n
-            _fun121293: for(var _fun121293_ip = 0; ; ) switch(_fun121293_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 golf = argBar;
@@ -98,12 +98,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = null;
                 options = tango != golf;
                 tango = undefined;
-                if(!options) { _fun121293_ip = 51; continue _fun121293 }
+                if(!options) { _fun00002_ip = 51; continue _fun00001 }
  48:
                 tango = golf;
  51:
                 tango = report.bind(oscar)(zulu, tango);
-                if(tango) { _fun121293_ip = 219; continue _fun121293 }
+                if(tango) { _fun00002_ip = 219; continue _fun00001 }
  63:
                 oscar = zulu.keyboardHeight;
                 golf = zulu.safeAreaBottom;

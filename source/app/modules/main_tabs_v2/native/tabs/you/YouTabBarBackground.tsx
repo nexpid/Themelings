@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun118161: for(var _fun118161_ip = 0; ; ) switch(_fun118161_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.theme;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             zulu = tango == entity;
             entity = null;
-            if(zulu) { _fun118161_ip = 112; continue _fun118161 }
+            if(zulu) { _fun00002_ip = 112; continue _fun00001 }
  38:
             zulu = tango == verify;
             entity = null;
-            if(zulu) { _fun118161_ip = 112; continue _fun118161 }
+            if(zulu) { _fun00002_ip = 112; continue _fun00001 }
  47:
             tango = _closure1_slot1;
             zulu = _closure1_slot0;

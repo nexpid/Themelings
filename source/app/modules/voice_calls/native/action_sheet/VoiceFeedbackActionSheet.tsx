@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot5;
         entity['trackOpen'] = oscar;
         report = function(argFoo) { // Original name: trackReport
-            _fun123546: for(var _fun123546_ip = 0; ; ) switch(_fun123546_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 tango = mike.rating;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu != entity;
                 verify = null;
                 options = null;
-                if(!mike) { _fun123546_ip = 44; continue _fun123546 }
+                if(!mike) { _fun00002_ip = 44; continue _fun00001 }
  34:
                 verify = entity.code;
                 options = entity.value;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.bind(entity)(oscar);
                 offset = zulu != report;
                 oscar = '';
-                if(!offset) { _fun123546_ip = 83; continue _fun123546 }
+                if(!offset) { _fun00002_ip = 83; continue _fun00001 }
  80:
                 oscar = report;
  83:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = options;
                 romeo = oscar;
                 report = sizing[golf](kilo, backup, foxtrot, romeo, yankee, offset);
-                if(!(zulu != tango)) { _fun123546_ip = 142; continue _fun123546 }
+                if(!(zulu != tango)) { _fun00002_ip = 142; continue _fun00001 }
  112:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;

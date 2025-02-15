@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['TabsVisibleStore'] = tango;
     tango = function(argFoo) { // Original name: useTabsVisible
-        _fun91352: for(var _fun91352_ip = 0; ; ) switch(_fun91352_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -69,11 +69,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = entity;
             entity = function() {
-                _fun91353: for(var _fun91353_ip = 0; ; ) switch(_fun91353_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot4;
                     entity = entity.keyboardOpen;
-                    if(!entity) { _fun91353_ip = 47; continue _fun91353 }
+                    if(!entity) { _fun00004_ip = 47; continue _fun00003 }
  16:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity = oscar.bind(golf)(tango, entity);
             entity = !entity;
-            if(!entity) { _fun91352_ip = 138; continue _fun91352 }
+            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
  89:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(mike);
             mike = null;
             mike = mike == tango;
-            if(!mike) { _fun91352_ip = 135; continue _fun91352 }
+            if(!mike) { _fun00002_ip = 135; continue _fun00001 }
  132:
             mike = zulu;
  135:
@@ -112,12 +112,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useTabsVisible'] = tango;
     tango = function(argFoo) { // Original name: setTabsHeight
-        _fun91354: for(var _fun91354_ip = 0; ; ) switch(_fun91354_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
             mike = 0;
-            if(!(mike !== zulu)) { _fun91354_ip = 58; continue _fun91354 }
+            if(!(mike !== zulu)) { _fun00006_ip = 58; continue _fun00005 }
  15:
             tango = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -130,12 +130,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot6;
                 mike = zulu.setState;
                 entity = function(argFoo) {
-                    _fun91356: for(var _fun91356_ip = 0; ; ) switch(_fun91356_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
                         tango = _closure2_slot0;
                         mike = entity.tabsHeight;
-                        if(!(tango !== mike)) { _fun91356_ip = 34; continue _fun91356 }
+                        if(!(tango !== mike)) { _fun00008_ip = 34; continue _fun00007 }
  20:
                         mike = {};
                         zulu = _closure2_slot0;
@@ -157,22 +157,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setTabsHeight'] = tango;
     tango = function() { // Original name: useMainTabsHeight
-        _fun91357: for(var _fun91357_ip = 0; ; ) switch(_fun91357_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             mike = arguments[0];
             zulu = undefined;
-            if(!(mike === zulu)) { _fun91357_ip = 21; continue _fun91357 }
+            if(!(mike === zulu)) { _fun00010_ip = 21; continue _fun00009 }
  11:
             mike = {'enabled': true, 'ignoreQuestDock': false};
  21:
             tango = mike.enabled;
-            if(!(tango === zulu)) { _fun91357_ip = 32; continue _fun91357 }
+            if(!(tango === zulu)) { _fun00010_ip = 32; continue _fun00009 }
  30:
             tango = true;
  32:
             var _closure2_slot0 = tango;
             mike = mike.ignoreQuestDock;
-            if(!(mike === zulu)) { _fun91357_ip = 48; continue _fun91357 }
+            if(!(mike === zulu)) { _fun00010_ip = 48; continue _fun00009 }
  46:
             mike = false;
  48:
@@ -188,11 +188,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             _closure2_slot2 = tango;
             mike = _closure1_slot6;
             entity = function(argFoo) {
-                _fun91358: for(var _fun91358_ip = 0; ; ) switch(_fun91358_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = 0;
-                    if(!mike) { _fun91358_ip = 56; continue _fun91358 }
+                    if(!mike) { _fun00012_ip = 56; continue _fun00011 }
  12:
                     tango = _closure1_slot3;
                     zulu = tango.roundToNearestPixel;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike.tabsHeight;
                     golf = _closure2_slot1;
                     report = 0;
-                    if(golf) { _fun91358_ip = 47; continue _fun91358 }
+                    if(golf) { _fun00012_ip = 47; continue _fun00011 }
  43:
                     report = _closure2_slot2;
  47:
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useMainTabsHeight'] = tango;
     mike = function() { // Original name: useMainTabsWidth
-        _fun91359: for(var _fun91359_ip = 0; ; ) switch(_fun91359_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(tango)();
             tango = entity.isChatBesideChannelList;
             entity = '100%';
-            if(!tango) { _fun91359_ip = 68; continue _fun91359 }
+            if(!tango) { _fun00014_ip = 68; continue _fun00013 }
  60:
             mike = _closure1_slot5;
             entity = mike + zulu;

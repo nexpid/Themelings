@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/verification/native/components/ChangeEmailWarning.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChangeEmailWarning
-        _fun88627: for(var _fun88627_ip = 0; ; ) switch(_fun88627_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.changeEmailReason;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = tango.bind(oscar)(entity, zulu);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun88627_ip = 813; continue _fun88627 }
+            if(mike) { _fun00002_ip = 813; continue _fun00001 }
  150:
             tango = _closure1_slot10;
             update = _closure1_slot0;

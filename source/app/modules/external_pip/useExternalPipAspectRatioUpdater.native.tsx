@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = report.bind(oscar)(tango, mike);
             mike = zulu.subscribeFromItem;
             entity = function() {
-                _fun121675: for(var _fun121675_ip = 0; ; ) switch(_fun121675_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = zulu.getTargetDimensions;
@@ -78,13 +78,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure3_slot0;
                     entity = entity.width;
                     entity = tango === entity;
-                    if(!entity) { _fun121675_ip = 69; continue _fun121675 }
+                    if(!entity) { _fun00002_ip = 69; continue _fun00001 }
  56:
                     report = _closure3_slot0;
                     report = report.height;
                     entity = zulu === report;
  69:
-                    if(entity) { _fun121675_ip = 123; continue _fun121675 }
+                    if(entity) { _fun00002_ip = 123; continue _fun00001 }
  72:
                     entity = {};
                     entity['width'] = tango;

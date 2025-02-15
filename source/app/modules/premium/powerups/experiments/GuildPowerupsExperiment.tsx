@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     tango = function(argFoo, argBar) { // Original name: useGuildPowerupsExperimentEnabled
-        _fun81487: for(var _fun81487_ip = 0; ; ) switch(_fun81487_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             oscar = entity == report;
             entity = undefined;
-            if(oscar) { _fun81487_ip = 34; continue _fun81487 }
+            if(oscar) { _fun00002_ip = 34; continue _fun00001 }
  29:
             entity = report.id;
  34:
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildPowerupsExperimentEnabled'] = tango;
     mike = function(argFoo, argBar) { // Original name: getGuildPowerupsExperimentEnabled
-        _fun81488: for(var _fun81488_ip = 0; ; ) switch(_fun81488_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             oscar = entity == report;
             entity = undefined;
-            if(oscar) { _fun81488_ip = 34; continue _fun81488 }
+            if(oscar) { _fun00004_ip = 34; continue _fun00003 }
  29:
             entity = report.id;
  34:

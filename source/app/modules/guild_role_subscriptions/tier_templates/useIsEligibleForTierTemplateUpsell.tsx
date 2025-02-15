@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/tier_templates/useIsEligibleForTierTemplateUpsell.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsEligibleForTierTemplateUpsell
-        _fun116044: for(var _fun116044_ip = 0; ; ) switch(_fun116044_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             entity = zulu == verify;
             oscar = undefined;
-            if(entity) { _fun116044_ip = 138; continue _fun116044 }
+            if(entity) { _fun00002_ip = 138; continue _fun00001 }
  117:
             offset = verify.hasFeature;
             entity = _closure1_slot3;
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  138:
             entity = true;
             entity = entity === oscar;
-            if(!entity) { _fun116044_ip = 183; continue _fun116044 }
+            if(!entity) { _fun00002_ip = 183; continue _fun00001 }
  147:
             zulu = zulu == verify;
             oscar = undefined;
-            if(zulu) { _fun116044_ip = 177; continue _fun116044 }
+            if(zulu) { _fun00002_ip = 177; continue _fun00001 }
  156:
             offset = verify.hasFeature;
             zulu = _closure1_slot3;
@@ -96,15 +96,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.canManageGuildRoleSubscriptions;
             zulu = zulu.bind(oscar)(verify);
             oscar = entity;
-            if(!entity) { _fun116044_ip = 223; continue _fun116044 }
+            if(!entity) { _fun00002_ip = 223; continue _fun00001 }
  220:
             oscar = tango;
  223:
-            if(!oscar) { _fun116044_ip = 229; continue _fun116044 }
+            if(!oscar) { _fun00002_ip = 229; continue _fun00001 }
  226:
             oscar = zulu;
  229:
-            if(!oscar) { _fun116044_ip = 285; continue _fun116044 }
+            if(!oscar) { _fun00002_ip = 285; continue _fun00001 }
  232:
             oscar = _closure1_slot0;
             verify = _closure1_slot1;
@@ -119,15 +119,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['location'] = options;
             report = oscar.bind(golf)(report);
  285:
-            if(!entity) { _fun116044_ip = 291; continue _fun116044 }
+            if(!entity) { _fun00002_ip = 291; continue _fun00001 }
  288:
             entity = tango;
  291:
-            if(!entity) { _fun116044_ip = 297; continue _fun116044 }
+            if(!entity) { _fun00002_ip = 297; continue _fun00001 }
  294:
             entity = zulu;
  297:
-            if(!entity) { _fun116044_ip = 303; continue _fun116044 }
+            if(!entity) { _fun00002_ip = 303; continue _fun00001 }
  300:
             entity = mike;
  303:

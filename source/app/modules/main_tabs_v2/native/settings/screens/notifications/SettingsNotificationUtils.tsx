@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: hasAndroidNotificationChannels
-        _fun97886: for(var _fun97886_ip = 0; ; ) switch(_fun97886_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -31,7 +31,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = zulu.bind(report)(entity);
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun97886_ip = 90; continue _fun97886 }
+            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  36:
             zulu = global;
             tango = zulu.parseInt;

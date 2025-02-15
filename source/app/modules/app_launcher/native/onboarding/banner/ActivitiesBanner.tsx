@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/banner/ActivitiesBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActivitiesBanner
-        _fun118452: for(var _fun118452_ip = 0; ; ) switch(_fun118452_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = entity.guildId;
@@ -71,11 +71,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             tango = zulu == offset;
             entity = null;
-            if(tango) { _fun118452_ip = 246; continue _fun118452 }
+            if(tango) { _fun00002_ip = 246; continue _fun00001 }
  132:
             mike = zulu == mike;
             entity = null;
-            if(mike) { _fun118452_ip = 246; continue _fun118452 }
+            if(mike) { _fun00002_ip = 246; continue _fun00001 }
  141:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;

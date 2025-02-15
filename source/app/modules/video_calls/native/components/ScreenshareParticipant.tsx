@@ -87,14 +87,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = mike;
         zulu[1] = oscar;
         mike = function() {
-            _fun103662: for(var _fun103662_ip = 0; ; ) switch(_fun103662_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
                 zulu = entity == zulu;
                 tango = undefined;
                 entity = undefined;
-                if(zulu) { _fun103662_ip = 33; continue _fun103662 }
+                if(zulu) { _fun00002_ip = 33; continue _fun00001 }
  20:
                 zulu = _closure2_slot1;
                 mike = _closure2_slot0;
@@ -109,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun103663: for(var _fun103663_ip = 0; ; ) switch(_fun103663_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot2;
                 entity = null;
                 zulu = entity == zulu;
                 tango = undefined;
                 entity = undefined;
-                if(zulu) { _fun103663_ip = 33; continue _fun103663 }
+                if(zulu) { _fun00004_ip = 33; continue _fun00003 }
  20:
                 zulu = _closure2_slot2;
                 mike = _closure2_slot0;

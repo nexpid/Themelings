@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot10 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun101309: for(var _fun101309_ip = 0; ; ) switch(_fun101309_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.analyticsLocations;
@@ -149,12 +149,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = offset;
             zulu[2] = verify;
             mike = function() {
-                _fun101313: for(var _fun101313_ip = 0; ; ) switch(_fun101313_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
                     mike = _closure1_slot1;
                     offset = _closure1_slot2;
-                    if(entity) { _fun101313_ip = 95; continue _fun101313 }
+                    if(entity) { _fun00004_ip = 95; continue _fun00003 }
  21:
                     entity = 11;
                     zulu = offset[entity];
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar['type'] = golf;
                     entity['analyticsProperties'] = oscar;
                     entity = zulu.bind(report)(entity);
-                    _fun101313_ip = 199; continue _fun101313;
+                    _fun00004_ip = 199; continue _fun00003;
  95:
                     entity = 12;
                     entity = offset[entity];
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = tango.bind(options)(mike, zulu);
             mike = foxtrot > entity;
             entity = null;
-            if(!mike) { _fun101309_ip = 386; continue _fun101309 }
+            if(!mike) { _fun00002_ip = 386; continue _fun00001 }
  218:
             tango = _closure1_slot9;
             options = _closure1_slot0;

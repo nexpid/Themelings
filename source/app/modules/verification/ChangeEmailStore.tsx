@@ -83,14 +83,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = undefined;
         entity = function(argFoo) {
-            _fun81874: for(var _fun81874_ip = 0; ; ) switch(_fun81874_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.errors;
                 entity = null;
                 mike = entity == zulu;
                 entity = undefined;
-                if(mike) { _fun81874_ip = 31; continue _fun81874 }
+                if(mike) { _fun00002_ip = 31; continue _fun00001 }
  20:
                 mike = _closure2_slot0;
                 entity = zulu[mike];

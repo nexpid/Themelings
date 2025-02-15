@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot7 = tango;
     tango = function(argFoo) { // Original name: BlockedUsersList
-        _fun94643: for(var _fun94643_ip = 0; ; ) switch(_fun94643_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             echo = entity.userIds;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike.analyticsLocations;
             zulu = echo.length;
             mike = 0;
-            if(!(mike !== zulu)) { _fun94643_ip = 420; continue _fun94643 }
+            if(!(mike !== zulu)) { _fun00002_ip = 420; continue _fun00001 }
  85:
             zulu = _closure1_slot5;
             output = _closure1_slot0;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(report)(golf, tango);
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun94643_ip = 530; continue _fun94643;
+            _fun00002_ip = 530; continue _fun00001;
  420:
             tango = _closure1_slot5;
             zulu = _closure1_slot1;

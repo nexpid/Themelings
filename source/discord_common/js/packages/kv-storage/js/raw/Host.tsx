@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.executeAsync;
             mike = 'database_open';
             entity = function(argFoo) {
-                _fun37948: for(var _fun37948_ip = 0; ; ) switch(_fun37948_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -72,13 +72,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = _closure3_slot1;
                     entity = null;
                     golf = entity == golf;
-                    if(golf) { _fun37948_ip = 74; continue _fun37948 }
+                    if(golf) { _fun00002_ip = 74; continue _fun00001 }
  64:
                     oscar = _closure3_slot1;
                     report = oscar.invalidateDisabledHandles;
  74:
                     entity = entity != report;
-                    if(!entity) { _fun37948_ip = 84; continue _fun37948 }
+                    if(!entity) { _fun00002_ip = 84; continue _fun00001 }
  81:
                     entity = report;
  84:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'openSyncUnsafe';
         entity['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun37949: for(var _fun37949_ip = 0; ; ) switch(_fun37949_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argBar;
                 zulu = _closure1_slot0;
@@ -114,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu['database'] = mike;
                 mike = null;
                 golf = mike == entity;
-                if(golf) { _fun37949_ip = 65; continue _fun37949 }
+                if(golf) { _fun00004_ip = 65; continue _fun00003 }
  59:
                 oscar = entity.invalidateDisabledHandles;
  65:
                 entity = mike != oscar;
-                if(!entity) { _fun37949_ip = 75; continue _fun37949 }
+                if(!entity) { _fun00004_ip = 75; continue _fun00003 }
  72:
                 entity = oscar;
  75:
@@ -176,11 +176,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         golf = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun37953: for(var _fun37953_ip = 0; ; ) switch(_fun37953_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun37953_ip = 94; continue _fun37953 }
+                    if(mike) { _fun00006_ip = 94; continue _fun00005 }
  9:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  67:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun37953_ip = 91; continue _fun37953 }
+                    if(tango) { _fun00006_ip = 91; continue _fun00005 }
  73:
                     tango = mike.map;
                     zulu = function(argFoo) {

@@ -60,11 +60,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun89160: for(var _fun89160_ip = 0; ; ) switch(_fun89160_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun89160_ip = 268; continue _fun89160 }
+                    if(mike) { _fun00002_ip = 268; continue _fun00001 }
  10:
                     oscar = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  145:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscar) { _fun89160_ip = 210; continue _fun89160 }
+                    if(oscar) { _fun00002_ip = 210; continue _fun00001 }
  151:
                     golf = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar['channelId'] = verify;
                     oscar = golf.bind(options)(oscar);
  208: // try_end0
-                    _fun89160_ip = 265; continue _fun89160;
+                    _fun00002_ip = 265; continue _fun00001;
  210:
                     return tango;
  213: // catch_target0

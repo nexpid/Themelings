@@ -23,14 +23,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot3 = mike;
     mike = {};
     golf = function(argFoo, argBar) { // Original name: push
-        _fun57455: for(var _fun57455_ip = 0; ; ) switch(_fun57455_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
             entity = arguments[2];
             report = arguments[4];
             tango = undefined;
-            if(!(entity === tango)) { _fun57455_ip = 50; continue _fun57455 }
+            if(!(entity === tango)) { _fun00002_ip = 50; continue _fun00001 }
  18:
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'modal';
             entity = zulu.bind(tango)(mike);
  50:
-            if(!(report === tango)) { _fun57455_ip = 67; continue _fun57455 }
+            if(!(report === tango)) { _fun00002_ip = 67; continue _fun00001 }
  54:
             mike = _closure1_slot3;
             report = mike.APP;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['push'] = golf;
     golf = function(argFoo, argBar) { // Original name: pushLazy
-        _fun57456: for(var _fun57456_ip = 0; ; ) switch(_fun57456_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             entity = arguments[2];
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = argBar;
             var _closure2_slot2 = zulu;
             zulu = undefined;
-            if(!(entity === zulu)) { _fun57456_ip = 64; continue _fun57456 }
+            if(!(entity === zulu)) { _fun00004_ip = 64; continue _fun00003 }
  32:
             report = _closure1_slot1;
             golf = _closure1_slot2;
@@ -116,11 +116,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango.getRootNavigationRef;
             tango = entity.bind(tango)();
             entity = null;
-            if(!(entity != tango)) { _fun57456_ip = 127; continue _fun57456 }
+            if(!(entity != tango)) { _fun00004_ip = 127; continue _fun00003 }
  114:
             entity = tango.isReady;
             entity = entity.bind(tango)();
-            if(entity) { _fun57456_ip = 162; continue _fun57456 }
+            if(entity) { _fun00004_ip = 162; continue _fun00003 }
  127:
             entity = global;
             report = entity.Promise;
@@ -156,15 +156,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango;
             entity = new verify[report](options, golf);
             entity = entity instanceof Object ? entity : tango;
-            _fun57456_ip = 213; continue _fun57456;
+            _fun00004_ip = 213; continue _fun00003;
  162:
             tango = global;
             tango = tango.Promise;
             tango = oscar instanceof tango;
-            if(tango) { _fun57456_ip = 183; continue _fun57456 }
+            if(tango) { _fun00004_ip = 183; continue _fun00003 }
  177:
             tango = oscar.bind(zulu)();
-            _fun57456_ip = 198; continue _fun57456;
+            _fun00004_ip = 198; continue _fun00003;
  183:
             report = oscar.then;
             zulu = function(argFoo) {

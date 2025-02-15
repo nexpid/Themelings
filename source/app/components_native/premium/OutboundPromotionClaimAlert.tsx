@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/OutboundPromotionClaimAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: OutboundPromotionClaimAlert
-        _fun96312: for(var _fun96312_ip = 0; ; ) switch(_fun96312_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.onCancel;
@@ -174,10 +174,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = oscar;
             mike[2] = entity;
             entity = function() {
-                _fun96313: for(var _fun96313_ip = 0; ; ) switch(_fun96313_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot6;
-                    if(zulu) { _fun96313_ip = 92; continue _fun96313 }
+                    if(zulu) { _fun00004_ip = 92; continue _fun00003 }
  12:
                     report = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             entity = zulu.bind(report)(entity, mike);
-            if(!(options == context)) { _fun96312_ip = 239; continue _fun96312 }
+            if(!(options == context)) { _fun00002_ip = 239; continue _fun00001 }
  208:
             zulu = _closure1_slot9;
             mike = _closure1_slot5;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = echo.loading;
             entity['style'] = report;
             report = zulu.bind(tango)(mike, entity);
-            _fun96312_ip = 1013; continue _fun96312;
+            _fun00002_ip = 1013; continue _fun00001;
  239:
             zulu = _closure1_slot10;
             mike = _closure1_slot6;
@@ -302,10 +302,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[0] = sizing;
             sizing = {};
             source = echo.copyInput;
-            if(kilo) { _fun96312_ip = 605; continue _fun96312 }
+            if(kilo) { _fun00002_ip = 605; continue _fun00001 }
  600:
             output = source;
-            _fun96312_ip = 633; continue _fun96312;
+            _fun00002_ip = 633; continue _fun00001;
  605:
             update = {};
             lima = update;
@@ -359,11 +359,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = record[status];
             record = target.bind(tango)(record);
             record = record.t;
-            if(kilo) { _fun96312_ip = 840; continue _fun96312 }
+            if(kilo) { _fun00002_ip = 840; continue _fun00001 }
  827:
             kilo = record.OpuAlJ;
             kilo = context.bind(papa)(kilo);
-            _fun96312_ip = 851; continue _fun96312;
+            _fun00002_ip = 851; continue _fun00001;
  840:
             record = record.t5VZ8/;
             kilo = context.bind(papa)(record);
@@ -482,7 +482,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(entity);
             entity = {};
             entity['onCancel'] = romeo;
-            if(!(options == golf)) { _fun96312_ip = 1377; continue _fun96312 }
+            if(!(options == golf)) { _fun00002_ip = 1377; continue _fun00001 }
  1323:
             sizing = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -495,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.t;
             romeo = romeo.+zx47e;
             romeo = foxtrot.bind(backup)(romeo);
-            _fun96312_ip = 1429; continue _fun96312;
+            _fun00002_ip = 1429; continue _fun00001;
  1377:
             output = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -511,11 +511,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1429:
             entity['confirmText'] = romeo;
             verify = function() { // Original name: onConfirm
-                _fun96318: for(var _fun96318_ip = 0; ; ) switch(_fun96318_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot2;
                     mike = null;
-                    if(!(mike != zulu)) { _fun96318_ip = 85; continue _fun96318 }
+                    if(!(mike != zulu)) { _fun00006_ip = 85; continue _fun00005 }
  13:
                     tango = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -543,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onConfirm'] = verify;
             romeo = options != golf;
             verify = undefined;
-            if(romeo) { _fun96312_ip = 1507; continue _fun96312 }
+            if(romeo) { _fun00002_ip = 1507; continue _fun00001 }
  1455:
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -559,12 +559,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  1507:
             entity['cancelText'] = verify;
             verify = !offset;
-            if(offset) { _fun96312_ip = 1522; continue _fun96312 }
+            if(offset) { _fun00002_ip = 1522; continue _fun00001 }
  1518:
             verify = options == golf;
  1522:
             entity['noDefaultButtons'] = verify;
-            if(!(options != golf)) { _fun96312_ip = 1534; continue _fun96312 }
+            if(!(options != golf)) { _fun00002_ip = 1534; continue _fun00001 }
  1531:
             report = oscar;
  1534:

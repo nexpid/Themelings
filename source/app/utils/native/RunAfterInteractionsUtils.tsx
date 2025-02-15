@@ -6,13 +6,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function(argFoo) { // Original name: runAfterInteractions
-        _fun65293: for(var _fun65293_ip = 0; ; ) switch(_fun65293_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
             entity = argFoo;
             var _closure2_slot0 = entity;
             tango = undefined;
-            if(!(report === tango)) { _fun65293_ip = 24; continue _fun65293 }
+            if(!(report === tango)) { _fun00002_ip = 24; continue _fun00001 }
  18:
             report = 2000;
  24:

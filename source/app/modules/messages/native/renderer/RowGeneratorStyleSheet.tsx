@@ -24,14 +24,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/native/renderer/RowGeneratorStyleSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: processColorOrThrow
-        _fun69028: for(var _fun69028_ip = 0; ; ) switch(_fun69028_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot0;
             entity = undefined;
             entity = mike.bind(entity)(report);
             mike = null;
-            if(!(mike != entity)) { _fun69028_ip = 25; continue _fun69028 }
+            if(!(mike != entity)) { _fun00002_ip = 25; continue _fun00001 }
  23:
             return entity;
  25:

@@ -29,13 +29,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_communication_disabled/useCommunicationDisabledCountdownCleanup.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useCommunicationDisabledCountdownCleanup
-        _fun101528: for(var _fun101528_ip = 0; ; ) switch(_fun101528_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             var _closure2_slot0 = oscar;
             yankee = null;
             entity = oscar;
-            if(!(yankee == entity)) { _fun101528_ip = 20; continue _fun101528 }
+            if(!(yankee == entity)) { _fun00002_ip = 20; continue _fun00001 }
  18:
             entity = {};
  20:
@@ -50,13 +50,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = report[entity];
             report = undefined;
             tango = tango.bind(report)(entity);
-            if(!(yankee == golf)) { _fun101528_ip = 92; continue _fun101528 }
+            if(!(yankee == golf)) { _fun00002_ip = 92; continue _fun00001 }
  73:
             entity = global;
             options = entity.Date;
             entity = options.now;
             entity = entity.bind(options)();
-            _fun101528_ip = 111; continue _fun101528;
+            _fun00002_ip = 111; continue _fun00001;
  92:
             options = global;
             romeo = options.Date;
@@ -77,17 +77,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu[3] = golf;
             zulu[4] = oscar;
             mike = function() {
-                _fun101529: for(var _fun101529_ip = 0; ; ) switch(_fun101529_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     report = null;
-                    if(!(report != zulu)) { _fun101529_ip = 31; continue _fun101529 }
+                    if(!(report != zulu)) { _fun00004_ip = 31; continue _fun00003 }
  15:
                     zulu = _closure2_slot2;
-                    if(!(report != zulu)) { _fun101529_ip = 31; continue _fun101529 }
+                    if(!(report != zulu)) { _fun00004_ip = 31; continue _fun00003 }
  23:
                     zulu = _closure2_slot1;
-                    if(!(report == zulu)) { _fun101529_ip = 57; continue _fun101529 }
+                    if(!(report == zulu)) { _fun00004_ip = 57; continue _fun00003 }
  31:
                     zulu = global;
                     oscar = zulu.clearTimeout;
@@ -100,13 +100,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = _closure2_slot3;
                     zulu = 0;
                     zulu = tango <= zulu;
-                    if(!zulu) { _fun101529_ip = 83; continue _fun101529 }
+                    if(!zulu) { _fun00004_ip = 83; continue _fun00003 }
  70:
                     tango = _closure2_slot4;
                     tango = tango.current;
                     zulu = report == tango;
  83:
-                    if(!zulu) { _fun101529_ip = 125; continue _fun101529 }
+                    if(!zulu) { _fun00004_ip = 125; continue _fun00003 }
  86:
                     zulu = _closure2_slot4;
                     mike = global;
@@ -130,12 +130,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['current'] = mike;
  125:
                     entity = function() {
-                        _fun101531: for(var _fun101531_ip = 0; ; ) switch(_fun101531_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             mike = _closure2_slot4;
                             zulu = mike.current;
                             mike = null;
-                            if(!(mike != zulu)) { _fun101531_ip = 52; continue _fun101531 }
+                            if(!(mike != zulu)) { _fun00006_ip = 52; continue _fun00005 }
  18:
                             zulu = global;
                             report = zulu.clearTimeout;

@@ -73,14 +73,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun76269: for(var _fun76269_ip = 0; ; ) switch(_fun76269_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.onPress;
             yankee = entity.overlay;
             golf = entity.accessibilityLabel;
             tango = undefined;
-            if(!(golf === tango)) { _fun76269_ip = 83; continue _fun76269 }
+            if(!(golf === tango)) { _fun00002_ip = 83; continue _fun00001 }
  25:
             options = _closure1_slot0;
             verify = _closure1_slot2;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             backup = options != yankee;
             yankee = null;
-            if(!backup) { _fun76269_ip = 146; continue _fun76269 }
+            if(!backup) { _fun00002_ip = 146; continue _fun00001 }
  140:
             yankee = romeo.containerOverlay;
  146:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             offset = romeo.handle;
             report['style'] = offset;
-            if(!(options == foxtrot)) { _fun76269_ip = 227; continue _fun76269 }
+            if(!(options == foxtrot)) { _fun00002_ip = 227; continue _fun00001 }
  199:
             yankee = _closure1_slot5;
             offset = _closure1_slot4;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = romeo.bar;
             options['style'] = backup;
             options = yankee.bind(tango)(offset, options);
-            _fun76269_ip = 286; continue _fun76269;
+            _fun00002_ip = 286; continue _fun00001;
  227:
             yankee = _closure1_slot5;
             offset = _closure1_slot1;

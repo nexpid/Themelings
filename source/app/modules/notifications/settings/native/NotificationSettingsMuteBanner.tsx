@@ -130,18 +130,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['NotificationSettingsMuteBanner'] = tango;
     mike = function(argFoo) { // Original name: getMuteBannerSubtitleFromConfig
-        _fun86852: for(var _fun86852_ip = 0; ; ) switch(_fun86852_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             mike = null;
             zulu = mike == options;
             oscar = undefined;
             entity = undefined;
-            if(zulu) { _fun86852_ip = 22; continue _fun86852 }
+            if(zulu) { _fun00002_ip = 22; continue _fun00001 }
  16:
             entity = options.end_time;
  22:
-            if(!(mike != entity)) { _fun86852_ip = 173; continue _fun86852 }
+            if(!(mike != entity)) { _fun00002_ip = 173; continue _fun00001 }
  29:
             golf = _closure1_slot0;
             offset = _closure1_slot1;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.bind(verify)(golf, report);
             entity['endTime'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun86852_ip = 231; continue _fun86852;
+            _fun00002_ip = 231; continue _fun00001;
  173:
             report = _closure1_slot0;
             golf = _closure1_slot1;

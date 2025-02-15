@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     tango = function() { // Original name: getCurrentlyInteractingAppWindowContext
-        _fun62086: for(var _fun62086_ip = 0; ; ) switch(_fun62086_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -19,14 +19,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = null;
             tango = mike == report;
             entity = null;
-            if(tango) { _fun62086_ip = 75; continue _fun62086 }
+            if(tango) { _fun00002_ip = 75; continue _fun00001 }
  46:
             tango = _closure1_slot5;
             zulu = tango.get;
             zulu = zulu.bind(tango)(report);
             tango = mike != zulu;
             mike = null;
-            if(!tango) { _fun62086_ip = 72; continue _fun62086 }
+            if(!tango) { _fun00002_ip = 72; continue _fun00001 }
  69:
             mike = zulu;
  72:
@@ -99,13 +99,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     zulu['default'] = oscar;
     zulu['MainWindowDispatch'] = report;
     report = function(argFoo) { // Original name: getWindowDispatchForElement
-        _fun62087: for(var _fun62087_ip = 0; ; ) switch(_fun62087_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             entity = entity.ownerDocument;
             oscar = entity.defaultView;
             zulu = null;
-            if(!(zulu == oscar)) { _fun62087_ip = 25; continue _fun62087 }
+            if(!(zulu == oscar)) { _fun00004_ip = 25; continue _fun00003 }
  21:
             entity = undefined;
             return entity;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = tango.get;
             mike = mike.bind(tango)(report);
             zulu = zulu == mike;
-            if(zulu) { _fun62087_ip = 88; continue _fun62087 }
+            if(zulu) { _fun00004_ip = 88; continue _fun00003 }
  82:
             entity = mike.windowDispatch;
  88:
@@ -140,14 +140,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['getAppWindowContextValue'] = tango;
     tango = function() { // Original name: getCurrentlyInteractingAppContext
-        _fun62089: for(var _fun62089_ip = 0; ; ) switch(_fun62089_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = _closure1_slot6;
             entity = undefined;
             mike = mike.bind(entity)();
             entity = null;
             zulu = entity != mike;
-            if(!zulu) { _fun62089_ip = 28; continue _fun62089 }
+            if(!zulu) { _fun00006_ip = 28; continue _fun00005 }
  22:
             entity = mike.appContext;
  28:
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = entity.renderWindow;
         report = entity.children;
         entity = function(argFoo, argBar) { // Original name: getWindowContextValue
-            _fun62091: for(var _fun62091_ip = 0; ; ) switch(_fun62091_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 oscar = argBar;
                 mike = _closure1_slot0;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = mike.get;
                 entity = entity.bind(mike)(golf);
                 mike = null;
-                if(!(mike == entity)) { _fun62091_ip = 177; continue _fun62091 }
+                if(!(mike == entity)) { _fun00008_ip = 177; continue _fun00007 }
  65:
                 mike = {};
                 report = argFoo;

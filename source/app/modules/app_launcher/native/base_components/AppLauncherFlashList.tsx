@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot4 = tango;
     report = options.forwardRef;
     tango = function(argFoo, argBar) {
-        _fun113443: for(var _fun113443_ip = 0; ; ) switch(_fun113443_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
@@ -53,11 +53,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 mike = new Array(1);
                 mike[0] = report;
                 entity = function() {
-                    _fun113445: for(var _fun113445_ip = 0; ; ) switch(_fun113445_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         mike = _closure3_slot0;
                         entity = null;
-                        if(!(entity != mike)) { _fun113445_ip = 42; continue _fun113445 }
+                        if(!(entity != mike)) { _fun00004_ip = 42; continue _fun00003 }
  13:
                         zulu = _closure1_slot2;
                         mike = zulu.forwardRef;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                             return entity;
                         };
                         entity = mike.bind(zulu)(entity);
-                        _fun113445_ip = 49; continue _fun113445;
+                        _fun00004_ip = 49; continue _fun00003;
  42:
                         entity = _closure1_slot3;
  49:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.AppLauncherEntrypoint;
             entity = entity.VOICE;
-            if(!(zulu !== entity)) { _fun113443_ip = 330; continue _fun113443 }
+            if(!(zulu !== entity)) { _fun00002_ip = 330; continue _fun00001 }
  98:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['bottomViewabilityInsetRef'] = verify;
             entity['ref'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun113443_ip = 551; continue _fun113443;
+            _fun00002_ip = 551; continue _fun00001;
  330:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;

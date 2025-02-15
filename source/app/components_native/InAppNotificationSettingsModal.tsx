@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = options;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun86730: for(var _fun86730_ip = 0; ; ) switch(_fun86730_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = _closure1_slot21;
             entity = entity.bind(zulu)();
-            if(entity) { _fun86730_ip = 51; continue _fun86730 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun86730_ip = 92; continue _fun86730;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun86730_ip = 71; continue _fun86730 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot20 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun86731: for(var _fun86731_ip = 0; ; ) switch(_fun86731_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun86731_ip = 76; continue _fun86731;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = {};
         mike = {};
         report = function() { // Original name: headerTitle
-            _fun86735: for(var _fun86735_ip = 0; ; ) switch(_fun86735_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 yankee = _closure2_slot0;
                 tango = _closure1_slot16;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['title'] = report;
                 report = null;
                 golf = report != yankee;
-                if(!golf) { _fun86735_ip = 150; continue _fun86735 }
+                if(!golf) { _fun00006_ip = 150; continue _fun00005 }
  104:
                 options = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -251,14 +251,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(tango)(oscar, report, entity);
             var _closure3_slot0 = entity;
             zulu = function() {
-                _fun86739: for(var _fun86739_ip = 0; ; ) switch(_fun86739_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure3_slot0;
                     entity = entity.props;
                     mike = entity.channel;
                     entity = entity.isMuted;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun86739_ip = 134; continue _fun86739 }
+                    if(!(zulu != mike)) { _fun00008_ip = 134; continue _fun00007 }
  29:
                     tango = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -319,14 +319,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = 'renderGroupDMNotificationSettings';
         report['key'] = entity;
         entity = function() { // Original name: value
-            _fun86741: for(var _fun86741_ip = 0; ; ) switch(_fun86741_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 verify = this;
                 entity = verify.props;
                 options = entity.channel;
                 offset = entity.isMuted;
                 entity = null;
-                if(!(entity != options)) { _fun86741_ip = 210; continue _fun86741 }
+                if(!(entity != options)) { _fun00010_ip = 210; continue _fun00009 }
  28:
                 romeo = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -380,14 +380,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'renderTextChannelNotificationSettings';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun86742: for(var _fun86742_ip = 0; ; ) switch(_fun86742_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 entity = this;
                 entity = entity.props;
                 oscar = entity.channel;
                 entity = null;
                 mike = entity == oscar;
-                if(mike) { _fun86742_ip = 68; continue _fun86742 }
+                if(mike) { _fun00012_ip = 68; continue _fun00011 }
  22:
                 report = _closure1_slot16;
                 zulu = _closure1_slot1;
@@ -410,26 +410,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'renderChannelNotificationSettings';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun86743: for(var _fun86743_ip = 0; ; ) switch(_fun86743_ip) {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 zulu = this;
                 entity = zulu.props;
                 mike = entity.channel;
                 entity = null;
-                if(!(entity != mike)) { _fun86743_ip = 99; continue _fun86743 }
+                if(!(entity != mike)) { _fun00014_ip = 99; continue _fun00013 }
  19:
                 tango = mike.type;
                 report = _closure1_slot14;
                 report = report.GROUP_DM;
-                if(!(report !== tango)) { _fun86743_ip = 85; continue _fun86743 }
+                if(!(report !== tango)) { _fun00014_ip = 85; continue _fun00013 }
  41:
                 report = _closure1_slot14;
                 report = report.GUILD_TEXT;
-                if(!(report !== tango)) { _fun86743_ip = 71; continue _fun86743 }
+                if(!(report !== tango)) { _fun00014_ip = 71; continue _fun00013 }
  55:
                 mike = _closure1_slot14;
                 mike = mike.GUILD_ANNOUNCEMENT;
-                if(!(mike !== tango)) { _fun86743_ip = 71; continue _fun86743 }
+                if(!(mike !== tango)) { _fun00014_ip = 71; continue _fun00013 }
  69:
                 return entity;
  71:
@@ -552,21 +552,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = options;
         mike = function() {
-            _fun86746: for(var _fun86746_ip = 0; ; ) switch(_fun86746_ip) {
+            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 zulu = entity != zulu;
                 report = undefined;
                 entity = undefined;
-                if(!zulu) { _fun86746_ip = 81; continue _fun86746 }
+                if(!zulu) { _fun00016_ip = 81; continue _fun00015 }
  20:
                 oscar = _closure1_slot9;
                 tango = _closure2_slot0;
                 tango = tango.type;
                 tango = oscar.bind(report)(tango);
                 entity = undefined;
-                if(!tango) { _fun86746_ip = 81; continue _fun86746 }
+                if(!tango) { _fun00016_ip = 81; continue _fun00015 }
  46:
                 report = _closure1_slot12;
                 tango = report.isChannelMuted;

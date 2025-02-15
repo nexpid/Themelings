@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = 'modules/stage_channels/StageMediaHooks.tsx';
     oscar = golf.bind(options)(oscar);
     oscar = function(argFoo) { // Original name: useStageHasMedia
-        _fun57268: for(var _fun57268_ip = 0; ; ) switch(_fun57268_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = report.bind(oscar)(tango, entity, zulu);
-            if(entity) { _fun57268_ip = 86; continue _fun57268 }
+            if(entity) { _fun00002_ip = 86; continue _fun00001 }
  83:
             entity = mike;
  86:
@@ -156,13 +156,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useStageHasMedia'] = oscar;
     zulu['useStageHasStream'] = report;
     report = function(argFoo) { // Original name: getStageHasMedia
-        _fun57270: for(var _fun57270_ip = 0; ; ) switch(_fun57270_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot6;
             entity = undefined;
             entity = zulu.bind(entity)(tango);
-            if(entity) { _fun57270_ip = 35; continue _fun57270 }
+            if(entity) { _fun00004_ip = 35; continue _fun00003 }
  20:
             zulu = _closure1_slot3;
             mike = zulu.hasVideo;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getStageHasMedia'] = report;
     zulu['getStageHasStream'] = tango;
     tango = function(argFoo) { // Original name: useIsStageVideoEnabled
-        _fun57271: for(var _fun57271_ip = 0; ; ) switch(_fun57271_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -198,18 +198,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(report)(mike, entity);
             mike = null;
             entity = mike != zulu;
-            if(!entity) { _fun57271_ip = 104; continue _fun57271 }
+            if(!entity) { _fun00006_ip = 104; continue _fun00005 }
  71:
             report = mike == zulu;
             tango = undefined;
-            if(report) { _fun57271_ip = 86; continue _fun57271 }
+            if(report) { _fun00006_ip = 86; continue _fun00005 }
  80:
             tango = zulu.maxStageVideoChannelUsers;
  86:
             report = mike != tango;
             zulu = 0;
             mike = 0;
-            if(!report) { _fun57271_ip = 100; continue _fun57271 }
+            if(!report) { _fun00006_ip = 100; continue _fun00005 }
  97:
             mike = tango;
  100:
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsStageVideoEnabled'] = tango;
     mike = function(argFoo) { // Original name: isStageVideoEnabled
-        _fun57273: for(var _fun57273_ip = 0; ; ) switch(_fun57273_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.getGuild;
@@ -228,18 +228,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.bind(zulu)(entity);
             mike = null;
             entity = mike != zulu;
-            if(!entity) { _fun57273_ip = 62; continue _fun57273 }
+            if(!entity) { _fun00008_ip = 62; continue _fun00007 }
  29:
             report = mike == zulu;
             tango = undefined;
-            if(report) { _fun57273_ip = 44; continue _fun57273 }
+            if(report) { _fun00008_ip = 44; continue _fun00007 }
  38:
             tango = zulu.maxStageVideoChannelUsers;
  44:
             report = mike != tango;
             zulu = 0;
             mike = 0;
-            if(!report) { _fun57273_ip = 58; continue _fun57273 }
+            if(!report) { _fun00008_ip = 58; continue _fun00007 }
  55:
             mike = tango;
  58:

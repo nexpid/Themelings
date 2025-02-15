@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getPushNotificationSelectOptions'] = tango;
     mike = function(argFoo) {
-        _fun86880: for(var _fun86880_ip = 0; ; ) switch(_fun86880_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = {};
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['label'] = oscar;
             oscar = null;
             oscar = oscar == report;
-            if(oscar) { _fun86880_ip = 166; continue _fun86880 }
+            if(oscar) { _fun00002_ip = 166; continue _fun00001 }
  160:
             tango = report.notificationSetting;
  166:

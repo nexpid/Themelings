@@ -43,20 +43,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         tango = zulu.bind(tango)(mike);
         zulu = tango.then;
         mike = function(argFoo) {
-            _fun90822: for(var _fun90822_ip = 0; ; ) switch(_fun90822_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = null;
                 tango = entity == mike;
                 report = undefined;
                 zulu = undefined;
-                if(tango) { _fun90822_ip = 21; continue _fun90822 }
+                if(tango) { _fun00002_ip = 21; continue _fun00001 }
  16:
                 zulu = mike.body;
  21:
                 zulu = entity != zulu;
                 entity = null;
-                if(!zulu) { _fun90822_ip = 69; continue _fun90822 }
+                if(!zulu) { _fun00002_ip = 69; continue _fun00001 }
  30:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot1;

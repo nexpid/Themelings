@@ -49,30 +49,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['RowType'] = tango;
     tango = function(argFoo, argBar) { // Original name: generateFlatDirectoryRows
-        _fun101979: for(var _fun101979_ip = 0; ; ) switch(_fun101979_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             mike = argFoo;
-            if(!mike) { _fun101979_ip = 22; continue _fun101979 }
+            if(!mike) { _fun00002_ip = 22; continue _fun00001 }
  11:
             tango = zulu.length;
             mike = 0;
-            if(!(mike !== tango)) { _fun101979_ip = 76; continue _fun101979 }
+            if(!(mike !== tango)) { _fun00002_ip = 76; continue _fun00001 }
  22:
             tango = zulu.length;
             mike = 0;
-            if(!(mike !== tango)) { _fun101979_ip = 70; continue _fun101979 }
+            if(!(mike !== tango)) { _fun00002_ip = 70; continue _fun00001 }
  33:
             tango = zulu.sort;
             mike = function(argFoo, argBar) {
-                _fun101980: for(var _fun101980_ip = 0; ; ) switch(_fun101980_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argBar;
                     zulu = entity.approximateMemberCount;
                     tango = null;
                     report = tango != zulu;
                     entity = 0;
-                    if(!report) { _fun101980_ip = 23; continue _fun101980 }
+                    if(!report) { _fun00004_ip = 23; continue _fun00003 }
  20:
                     entity = zulu;
  23:
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.approximateMemberCount;
                     tango = tango != zulu;
                     mike = 0;
-                    if(!tango) { _fun101980_ip = 44; continue _fun101980 }
+                    if(!tango) { _fun00004_ip = 44; continue _fun00003 }
  41:
                     mike = zulu;
  44:
@@ -100,11 +100,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             entity = mike.bind(zulu)(entity);
-            _fun101979_ip = 74; continue _fun101979;
+            _fun00002_ip = 74; continue _fun00001;
  70:
             entity = new Array(0);
  74:
-            _fun101979_ip = 83; continue _fun101979;
+            _fun00002_ip = 83; continue _fun00001;
  76:
             entity = _closure1_slot4;
  83:
@@ -113,24 +113,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['generateFlatDirectoryRows'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: generateDirectoryRows
-        _fun101982: for(var _fun101982_ip = 0; ; ) switch(_fun101982_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argBar;
             mike = argFoo;
-            if(!mike) { _fun101982_ip = 25; continue _fun101982 }
+            if(!mike) { _fun00006_ip = 25; continue _fun00005 }
  11:
             zulu = tango.length;
             mike = 0;
-            if(!(mike !== zulu)) { _fun101982_ip = 501; continue _fun101982 }
+            if(!(mike !== zulu)) { _fun00006_ip = 501; continue _fun00005 }
  25:
             mike = tango.length;
             oscar = 0;
-            if(!(oscar !== mike)) { _fun101982_ip = 495; continue _fun101982 }
+            if(!(oscar !== mike)) { _fun00006_ip = 495; continue _fun00005 }
  39:
             zulu = _closure1_slot2;
             report = zulu.ALL;
             zulu = argBaz;
-            if(!(zulu === report)) { _fun101982_ip = 443; continue _fun101982 }
+            if(!(zulu === report)) { _fun00006_ip = 443; continue _fun00005 }
  62:
             options = new Array(0);
             report = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             var _closure2_slot0 = zulu;
             zulu = yankee.length;
             golf = options;
-            if(!(zulu > oscar)) { _fun101982_ip = 272; continue _fun101982 }
+            if(!(zulu > oscar)) { _fun00006_ip = 272; continue _fun00005 }
  160:
             report = options.push;
             zulu = {};
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = zulu.bind(report)(options);
             report = verify.length;
             zulu = golf;
-            if(!(report > oscar)) { _fun101982_ip = 441; continue _fun101982 }
+            if(!(report > oscar)) { _fun00006_ip = 441; continue _fun00005 }
  329:
             oscar = golf.push;
             report = {};

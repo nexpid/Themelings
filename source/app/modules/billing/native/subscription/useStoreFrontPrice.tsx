@@ -53,14 +53,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun98895: for(var _fun98895_ip = 0; ; ) switch(_fun98895_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 mike = null;
-                if(!(mike != entity)) { _fun98895_ip = 213; continue _fun98895 }
+                if(!(mike != entity)) { _fun00002_ip = 213; continue _fun00001 }
  16:
                 entity = _closure2_slot1;
-                if(!(mike != entity)) { _fun98895_ip = 196; continue _fun98895 }
+                if(!(mike != entity)) { _fun00002_ip = 196; continue _fun00001 }
  27:
                 options = _closure1_slot0;
                 offset = _closure1_slot1;
@@ -87,29 +87,29 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 entity = golf.bind(options)(oscar, entity);
                 report = report.countryCode;
                 tango = tango.country;
-                if(!(report === tango)) { _fun98895_ip = 181; continue _fun98895 }
+                if(!(report === tango)) { _fun00002_ip = 181; continue _fun00001 }
  153:
-                if(!(mike != entity)) { _fun98895_ip = 169; continue _fun98895 }
+                if(!(mike != entity)) { _fun00002_ip = 169; continue _fun00001 }
  157:
                 mike = _closure1_slot4;
                 mike = mike.PRICE_AVAILABLE;
-                _fun98895_ip = 179; continue _fun98895;
+                _fun00002_ip = 179; continue _fun00001;
  169:
                 tango = _closure1_slot4;
                 mike = tango.COUNTRY_PRICE_UNAVAILABLE;
  179:
-                _fun98895_ip = 191; continue _fun98895;
+                _fun00002_ip = 191; continue _fun00001;
  181:
                 zulu = _closure1_slot4;
                 mike = zulu.MISMATCHING_COUNTRIES;
  191:
                 zulu = entity;
-                _fun98895_ip = 228; continue _fun98895;
+                _fun00002_ip = 228; continue _fun00001;
  196:
                 entity = _closure1_slot4;
                 mike = entity.STOREFRONT_UNAVAILABLE;
                 zulu = undefined;
-                _fun98895_ip = 228; continue _fun98895;
+                _fun00002_ip = 228; continue _fun00001;
  213:
                 entity = _closure1_slot4;
                 mike = entity.SUBSCRIPTION_PLAN_UNAVAILABLE;

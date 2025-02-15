@@ -40,7 +40,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/status_bar/native/components/ThemedStatusBar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun111436: for(var _fun111436_ip = 0; ; ) switch(_fun111436_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -91,27 +91,27 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.bind(report)();
             oscar = 'light-content';
             report = oscar;
-            if(!options) { _fun111436_ip = 208; continue _fun111436 }
+            if(!options) { _fun00002_ip = 208; continue _fun00001 }
  152:
-            if(!options) { _fun111436_ip = 190; continue _fun111436 }
+            if(!options) { _fun00002_ip = 190; continue _fun00001 }
  155:
-            if(zulu) { _fun111436_ip = 190; continue _fun111436 }
+            if(zulu) { _fun00002_ip = 190; continue _fun00001 }
  158:
             zulu = mike.isVisible;
-            if(!zulu) { _fun111436_ip = 176; continue _fun111436 }
+            if(!zulu) { _fun00002_ip = 176; continue _fun00001 }
  167:
             mike = mike.isCustomBackground;
-            if(mike) { _fun111436_ip = 185; continue _fun111436 }
+            if(mike) { _fun00002_ip = 185; continue _fun00001 }
  176:
             mike = 'dark-content';
-            if(!golf) { _fun111436_ip = 188; continue _fun111436 }
+            if(!golf) { _fun00002_ip = 188; continue _fun00001 }
  185:
             mike = oscar;
  188:
-            _fun111436_ip = 205; continue _fun111436;
+            _fun00002_ip = 205; continue _fun00001;
  190:
             zulu = 'dark-content';
-            if(!golf) { _fun111436_ip = 202; continue _fun111436 }
+            if(!golf) { _fun00002_ip = 202; continue _fun00001 }
  199:
             zulu = oscar;
  202:

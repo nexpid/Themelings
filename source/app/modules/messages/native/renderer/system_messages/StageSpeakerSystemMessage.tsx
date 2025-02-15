@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = verify.id;
         zulu[4] = verify;
         mike = function() {
-            _fun72520: for(var _fun72520_ip = 0; ; ) switch(_fun72520_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = _closure1_slot0;
                 oscar = _closure1_slot2;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = _closure2_slot0;
                 options = 'username';
                 golf = null;
-                if(!(options === verify)) { _fun72520_ip = 112; continue _fun72520 }
+                if(!(options === verify)) { _fun00002_ip = 112; continue _fun00001 }
  108:
                 golf = _closure2_slot4;
  112:
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createStageSpeakerSystemMessage
-        _fun72521: for(var _fun72521_ip = 0; ; ) switch(_fun72521_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             offset = tango.message;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['userId'] = yankee;
             foxtrot = 'username';
             yankee = null;
-            if(!(foxtrot === backup)) { _fun72521_ip = 153; continue _fun72521 }
+            if(!(foxtrot === backup)) { _fun00004_ip = 153; continue _fun00003 }
  150:
             yankee = romeo;
  153:

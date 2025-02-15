@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/SystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SystemMessage
-        _fun72221: for(var _fun72221_ip = 0; ; ) switch(_fun72221_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.row;
@@ -47,171 +47,171 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity.type;
             mike = _closure1_slot3;
             mike = mike.RECIPIENT_ADD;
-            if(!(mike !== zulu)) { _fun72221_ip = 2207; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2207; continue _fun00001 }
  39:
             mike = _closure1_slot3;
             mike = mike.RECIPIENT_REMOVE;
-            if(!(mike !== zulu)) { _fun72221_ip = 2166; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2166; continue _fun00001 }
  56:
             mike = _closure1_slot3;
             mike = mike.CALL;
-            if(!(mike !== zulu)) { _fun72221_ip = 2125; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2125; continue _fun00001 }
  73:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_NAME_CHANGE;
-            if(!(mike !== zulu)) { _fun72221_ip = 2084; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2084; continue _fun00001 }
  90:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_ICON_CHANGE;
-            if(!(mike !== zulu)) { _fun72221_ip = 2043; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2043; continue _fun00001 }
  107:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_PINNED_MESSAGE;
-            if(!(mike !== zulu)) { _fun72221_ip = 2002; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 2002; continue _fun00001 }
  124:
             mike = _closure1_slot3;
             mike = mike.USER_JOIN;
-            if(!(mike !== zulu)) { _fun72221_ip = 1961; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1961; continue _fun00001 }
  141:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST;
-            if(!(mike !== zulu)) { _fun72221_ip = 1920; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1920; continue _fun00001 }
  158:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_1;
-            if(!(mike !== zulu)) { _fun72221_ip = 1864; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1864; continue _fun00001 }
  175:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_2;
-            if(!(mike !== zulu)) { _fun72221_ip = 1808; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1808; continue _fun00001 }
  192:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_3;
-            if(!(mike !== zulu)) { _fun72221_ip = 1752; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1752; continue _fun00001 }
  209:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_FOLLOW_ADD;
-            if(!(mike !== zulu)) { _fun72221_ip = 1711; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1711; continue _fun00001 }
  226:
             mike = _closure1_slot3;
             mike = mike.GUILD_STREAM;
-            if(!(mike !== zulu)) { _fun72221_ip = 1670; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1670; continue _fun00001 }
  243:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(mike !== zulu)) { _fun72221_ip = 1615; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1615; continue _fun00001 }
  260:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(mike !== zulu)) { _fun72221_ip = 1615; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1615; continue _fun00001 }
  277:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(mike !== zulu)) { _fun72221_ip = 1615; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1615; continue _fun00001 }
  294:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(mike !== zulu)) { _fun72221_ip = 1615; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1615; continue _fun00001 }
  311:
             mike = _closure1_slot3;
             mike = mike.CHAT_INPUT_COMMAND;
-            if(!(mike !== zulu)) { _fun72221_ip = 1574; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1574; continue _fun00001 }
  328:
             mike = _closure1_slot3;
             mike = mike.CONTEXT_MENU_COMMAND;
-            if(!(mike !== zulu)) { _fun72221_ip = 1574; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1574; continue _fun00001 }
  345:
             mike = _closure1_slot3;
             mike = mike.GUILD_INVITE_REMINDER;
-            if(!(mike !== zulu)) { _fun72221_ip = 1533; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1533; continue _fun00001 }
  362:
             mike = _closure1_slot3;
             mike = mike.THREAD_CREATED;
-            if(!(mike !== zulu)) { _fun72221_ip = 1492; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1492; continue _fun00001 }
  379:
             mike = _closure1_slot3;
             mike = mike.THREAD_STARTER_MESSAGE;
-            if(!(mike !== zulu)) { _fun72221_ip = 1451; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1451; continue _fun00001 }
  396:
             mike = _closure1_slot3;
             mike = mike.AUTO_MODERATION_ACTION;
-            if(!(mike !== zulu)) { _fun72221_ip = 1410; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1410; continue _fun00001 }
  413:
             mike = _closure1_slot3;
             mike = mike.ROLE_SUBSCRIPTION_PURCHASE;
-            if(!(mike !== zulu)) { _fun72221_ip = 1369; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1369; continue _fun00001 }
  430:
             mike = _closure1_slot3;
             mike = mike.PURCHASE_NOTIFICATION;
-            if(!(mike !== zulu)) { _fun72221_ip = 1328; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1328; continue _fun00001 }
  447:
             mike = _closure1_slot3;
             mike = mike.STAGE_START;
-            if(!(mike !== zulu)) { _fun72221_ip = 1287; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1287; continue _fun00001 }
  464:
             mike = _closure1_slot3;
             mike = mike.STAGE_END;
-            if(!(mike !== zulu)) { _fun72221_ip = 1246; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1246; continue _fun00001 }
  481:
             mike = _closure1_slot3;
             mike = mike.STAGE_TOPIC;
-            if(!(mike !== zulu)) { _fun72221_ip = 1205; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1205; continue _fun00001 }
  498:
             mike = _closure1_slot3;
             mike = mike.STAGE_SPEAKER;
-            if(!(mike !== zulu)) { _fun72221_ip = 1164; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1164; continue _fun00001 }
  515:
             mike = _closure1_slot3;
             mike = mike.STAGE_RAISE_HAND;
-            if(!(mike !== zulu)) { _fun72221_ip = 1123; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1123; continue _fun00001 }
  532:
             mike = _closure1_slot3;
             mike = mike.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
-            if(!(mike !== zulu)) { _fun72221_ip = 1082; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1082; continue _fun00001 }
  549:
             mike = _closure1_slot3;
             mike = mike.PRIVATE_CHANNEL_INTEGRATION_ADDED;
-            if(!(mike !== zulu)) { _fun72221_ip = 1027; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1027; continue _fun00001 }
  566:
             mike = _closure1_slot3;
             mike = mike.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
-            if(!(mike !== zulu)) { _fun72221_ip = 1027; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 1027; continue _fun00001 }
  583:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_ALERT_MODE_ENABLED;
-            if(!(mike !== zulu)) { _fun72221_ip = 980; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 980; continue _fun00001 }
  600:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_ALERT_MODE_DISABLED;
-            if(!(mike !== zulu)) { _fun72221_ip = 933; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 933; continue _fun00001 }
  617:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_REPORT_RAID;
-            if(!(mike !== zulu)) { _fun72221_ip = 892; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 892; continue _fun00001 }
  634:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_REPORT_FALSE_ALARM;
-            if(!(mike !== zulu)) { _fun72221_ip = 851; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 851; continue _fun00001 }
  651:
             mike = _closure1_slot3;
             mike = mike.GUILD_DEADCHAT_REVIVE_PROMPT;
-            if(!(mike !== zulu)) { _fun72221_ip = 810; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 810; continue _fun00001 }
  668:
             mike = _closure1_slot3;
             mike = mike.GUILD_GAMING_STATS_PROMPT;
-            if(!(mike !== zulu)) { _fun72221_ip = 769; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 769; continue _fun00001 }
  682:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
-            if(!(mike !== zulu)) { _fun72221_ip = 728; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 728; continue _fun00001 }
  696:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
-            if(!(mike !== zulu)) { _fun72221_ip = 728; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 728; continue _fun00001 }
  710:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
-            if(!(mike !== zulu)) { _fun72221_ip = 728; continue _fun72221 }
+            if(!(mike !== zulu)) { _fun00002_ip = 728; continue _fun00001 }
  724:
             mike = null;
             return mike;
@@ -656,190 +656,190 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createSystemMessageContent
-        _fun72222: for(var _fun72222_ip = 0; ; ) switch(_fun72222_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = zulu.message;
             tango = entity.type;
             mike = _closure1_slot3;
             mike = mike.RECIPIENT_ADD;
-            if(!(mike !== tango)) { _fun72222_ip = 2217; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2217; continue _fun00003 }
  33:
             mike = _closure1_slot3;
             mike = mike.RECIPIENT_REMOVE;
-            if(!(mike !== tango)) { _fun72222_ip = 2182; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2182; continue _fun00003 }
  50:
             mike = _closure1_slot3;
             mike = mike.CALL;
-            if(!(mike !== tango)) { _fun72222_ip = 2147; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2147; continue _fun00003 }
  67:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_NAME_CHANGE;
-            if(!(mike !== tango)) { _fun72222_ip = 2112; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2112; continue _fun00003 }
  84:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_ICON_CHANGE;
-            if(!(mike !== tango)) { _fun72222_ip = 2077; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2077; continue _fun00003 }
  101:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_PINNED_MESSAGE;
-            if(!(mike !== tango)) { _fun72222_ip = 2042; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2042; continue _fun00003 }
  118:
             mike = _closure1_slot3;
             mike = mike.USER_JOIN;
-            if(!(mike !== tango)) { _fun72222_ip = 2007; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 2007; continue _fun00003 }
  135:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST;
-            if(!(mike !== tango)) { _fun72222_ip = 1972; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1972; continue _fun00003 }
  152:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_1;
-            if(!(mike !== tango)) { _fun72222_ip = 1926; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1926; continue _fun00003 }
  169:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_2;
-            if(!(mike !== tango)) { _fun72222_ip = 1880; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1880; continue _fun00003 }
  186:
             mike = _closure1_slot3;
             mike = mike.GUILD_BOOST_TIER_3;
-            if(!(mike !== tango)) { _fun72222_ip = 1834; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1834; continue _fun00003 }
  203:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_FOLLOW_ADD;
-            if(!(mike !== tango)) { _fun72222_ip = 1799; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1799; continue _fun00003 }
  220:
             mike = _closure1_slot3;
             mike = mike.GUILD_STREAM;
-            if(!(mike !== tango)) { _fun72222_ip = 1764; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1764; continue _fun00003 }
  237:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(mike !== tango)) { _fun72222_ip = 1729; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1729; continue _fun00003 }
  254:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(mike !== tango)) { _fun72222_ip = 1694; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1694; continue _fun00003 }
  271:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(mike !== tango)) { _fun72222_ip = 1659; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1659; continue _fun00003 }
  288:
             mike = _closure1_slot3;
             mike = mike.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(mike !== tango)) { _fun72222_ip = 1624; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1624; continue _fun00003 }
  305:
             mike = _closure1_slot3;
             mike = mike.CHAT_INPUT_COMMAND;
-            if(!(mike !== tango)) { _fun72222_ip = 1589; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1589; continue _fun00003 }
  322:
             mike = _closure1_slot3;
             mike = mike.CONTEXT_MENU_COMMAND;
-            if(!(mike !== tango)) { _fun72222_ip = 1589; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1589; continue _fun00003 }
  339:
             mike = _closure1_slot3;
             mike = mike.GUILD_INVITE_REMINDER;
-            if(!(mike !== tango)) { _fun72222_ip = 1554; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1554; continue _fun00003 }
  356:
             mike = _closure1_slot3;
             mike = mike.THREAD_CREATED;
-            if(!(mike !== tango)) { _fun72222_ip = 1519; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1519; continue _fun00003 }
  373:
             mike = _closure1_slot3;
             mike = mike.THREAD_STARTER_MESSAGE;
-            if(!(mike !== tango)) { _fun72222_ip = 1484; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1484; continue _fun00003 }
  390:
             mike = _closure1_slot3;
             mike = mike.AUTO_MODERATION_ACTION;
-            if(!(mike !== tango)) { _fun72222_ip = 1449; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1449; continue _fun00003 }
  407:
             mike = _closure1_slot3;
             mike = mike.ROLE_SUBSCRIPTION_PURCHASE;
-            if(!(mike !== tango)) { _fun72222_ip = 1414; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1414; continue _fun00003 }
  424:
             mike = _closure1_slot3;
             mike = mike.PURCHASE_NOTIFICATION;
-            if(!(mike !== tango)) { _fun72222_ip = 1379; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1379; continue _fun00003 }
  441:
             mike = _closure1_slot3;
             mike = mike.STAGE_START;
-            if(!(mike !== tango)) { _fun72222_ip = 1344; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1344; continue _fun00003 }
  458:
             mike = _closure1_slot3;
             mike = mike.STAGE_END;
-            if(!(mike !== tango)) { _fun72222_ip = 1309; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1309; continue _fun00003 }
  475:
             mike = _closure1_slot3;
             mike = mike.STAGE_TOPIC;
-            if(!(mike !== tango)) { _fun72222_ip = 1274; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1274; continue _fun00003 }
  492:
             mike = _closure1_slot3;
             mike = mike.STAGE_SPEAKER;
-            if(!(mike !== tango)) { _fun72222_ip = 1239; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1239; continue _fun00003 }
  509:
             mike = _closure1_slot3;
             mike = mike.STAGE_RAISE_HAND;
-            if(!(mike !== tango)) { _fun72222_ip = 1204; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1204; continue _fun00003 }
  526:
             mike = _closure1_slot3;
             mike = mike.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
-            if(!(mike !== tango)) { _fun72222_ip = 1169; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1169; continue _fun00003 }
  543:
             mike = _closure1_slot3;
             mike = mike.PRIVATE_CHANNEL_INTEGRATION_ADDED;
-            if(!(mike !== tango)) { _fun72222_ip = 1123; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1123; continue _fun00003 }
  560:
             mike = _closure1_slot3;
             mike = mike.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
-            if(!(mike !== tango)) { _fun72222_ip = 1123; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1123; continue _fun00003 }
  577:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_ALERT_MODE_ENABLED;
-            if(!(mike !== tango)) { _fun72222_ip = 1088; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1088; continue _fun00003 }
  594:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_ALERT_MODE_DISABLED;
-            if(!(mike !== tango)) { _fun72222_ip = 1053; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1053; continue _fun00003 }
  611:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_REPORT_RAID;
-            if(!(mike !== tango)) { _fun72222_ip = 1018; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 1018; continue _fun00003 }
  628:
             mike = _closure1_slot3;
             mike = mike.GUILD_INCIDENT_REPORT_FALSE_ALARM;
-            if(!(mike !== tango)) { _fun72222_ip = 983; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 983; continue _fun00003 }
  645:
             mike = _closure1_slot3;
             mike = mike.GUILD_DEADCHAT_REVIVE_PROMPT;
-            if(!(mike !== tango)) { _fun72222_ip = 948; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 948; continue _fun00003 }
  662:
             mike = _closure1_slot3;
             mike = mike.GUILD_GAMING_STATS_PROMPT;
-            if(!(mike !== tango)) { _fun72222_ip = 913; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 913; continue _fun00003 }
  679:
             mike = _closure1_slot3;
             mike = mike.POLL_RESULT;
-            if(!(mike !== tango)) { _fun72222_ip = 878; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 878; continue _fun00003 }
  696:
             mike = _closure1_slot3;
             mike = mike.CHANNEL_LINKED_TO_LOBBY;
-            if(!(mike !== tango)) { _fun72222_ip = 843; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 843; continue _fun00003 }
  713:
             mike = _closure1_slot3;
             mike = mike.IN_GAME_MESSAGE_NUX;
-            if(!(mike !== tango)) { _fun72222_ip = 808; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 808; continue _fun00003 }
  727:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
-            if(!(mike !== tango)) { _fun72222_ip = 773; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 773; continue _fun00003 }
  741:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
-            if(!(mike !== tango)) { _fun72222_ip = 773; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 773; continue _fun00003 }
  755:
             mike = _closure1_slot3;
             mike = mike.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
-            if(!(mike !== tango)) { _fun72222_ip = 773; continue _fun72222 }
+            if(!(mike !== tango)) { _fun00004_ip = 773; continue _fun00003 }
  769:
             mike = null;
             return mike;

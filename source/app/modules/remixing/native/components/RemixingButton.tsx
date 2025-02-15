@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/RemixingButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84344: for(var _fun84344_ip = 0; ; ) switch(_fun84344_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.accessibilityLabel;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = entity.onLongPress;
             entity = entity.withHaptics;
             tango = undefined;
-            if(!(entity === tango)) { _fun84344_ip = 68; continue _fun84344 }
+            if(!(entity === tango)) { _fun00002_ip = 68; continue _fun00001 }
  66:
             entity = true;
  68:
@@ -76,10 +76,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityRole'] = sizing;
             entity['accessibilityLabel'] = kilo;
             backup = function() { // Original name: onPress
-                _fun84345: for(var _fun84345_ip = 0; ; ) switch(_fun84345_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot1;
-                    if(!mike) { _fun84345_ip = 67; continue _fun84345 }
+                    if(!mike) { _fun00004_ip = 67; continue _fun00003 }
  10:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot2;

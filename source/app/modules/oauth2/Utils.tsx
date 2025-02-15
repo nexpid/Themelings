@@ -21,21 +21,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/oauth2/Utils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getApplicationDetailsText
-        _fun73943: for(var _fun73943_ip = 0; ; ) switch(_fun73943_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = oscar.privacy_policy_url;
             mike = null;
-            if(!(mike != entity)) { _fun73943_ip = 28; continue _fun73943 }
+            if(!(mike != entity)) { _fun00002_ip = 28; continue _fun00001 }
  15:
             entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun73943_ip = 292; continue _fun73943 }
+            if(!(mike == entity)) { _fun00002_ip = 292; continue _fun00001 }
  28:
             entity = oscar.privacy_policy_url;
-            if(!(mike == entity)) { _fun73943_ip = 208; continue _fun73943 }
+            if(!(mike == entity)) { _fun00002_ip = 208; continue _fun00001 }
  41:
             entity = oscar.terms_of_service_url;
-            if(!(mike == entity)) { _fun73943_ip = 124; continue _fun73943 }
+            if(!(mike == entity)) { _fun00002_ip = 124; continue _fun00001 }
  51:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = oscar.name;
             entity['application'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun73943_ip = 206; continue _fun73943;
+            _fun00002_ip = 206; continue _fun00001;
  124:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['termsOfServiceURL'] = golf;
             entity = tango.bind(report)(zulu, mike);
  206:
-            _fun73943_ip = 290; continue _fun73943;
+            _fun00002_ip = 290; continue _fun00001;
  208:
             golf = _closure1_slot0;
             options = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['privacyPolicyURL'] = golf;
             entity = tango.bind(report)(zulu, mike);
  290:
-            _fun73943_ip = 385; continue _fun73943;
+            _fun00002_ip = 385; continue _fun00001;
  292:
             golf = _closure1_slot0;
             options = _closure1_slot1;

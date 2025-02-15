@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun127772: for(var _fun127772_ip = 0; ; ) switch(_fun127772_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun127772_ip = 51; continue _fun127772 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun127772_ip = 92; continue _fun127772;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun127772_ip = 71; continue _fun127772 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun127773: for(var _fun127773_ip = 0; ; ) switch(_fun127773_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun127773_ip = 76; continue _fun127773;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = golf.bind(entity)(tango);
     mike = function(argFoo) {
         zulu = function(argFoo) { // Original name: NativeExperimentBridgeManager
-            _fun127777: for(var _fun127777_ip = 0; ; ) switch(_fun127777_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 golf = this;
                 romeo = 0;
@@ -142,21 +142,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(report)(mike);
                 mike = tango.isIOS;
                 mike = mike.bind(tango)();
-                if(mike) { _fun127777_ip = 102; continue _fun127777 }
+                if(mike) { _fun00006_ip = 102; continue _fun00005 }
  93:
                 mike = function() {
                     entity = undefined;
                     return entity;
                 };
-                _fun127777_ip = 109; continue _fun127777;
+                _fun00006_ip = 109; continue _fun00005;
  102:
                 mike = function() {
-                    _fun127778: for(var _fun127778_ip = 0; ; ) switch(_fun127778_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         mike = _closure1_slot7;
                         report = mike.NSUserDefaultsBridge;
                         mike = null;
-                        if(!(mike != report)) { _fun127778_ip = 77; continue _fun127778 }
+                        if(!(mike != report)) { _fun00008_ip = 77; continue _fun00007 }
  19:
                         tango = report.setShareJumpToAppEnabled;
                         golf = _closure1_slot0;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  77:
                         zulu = _closure1_slot7;
                         report = zulu.NSUserDefaultsBridge;
-                        if(!(mike != report)) { _fun127778_ip = 149; continue _fun127778 }
+                        if(!(mike != report)) { _fun00008_ip = 149; continue _fun00007 }
  91:
                         tango = report.setSwiftMessageViewExperimentEnabled;
                         golf = _closure1_slot0;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  149:
                         zulu = _closure1_slot7;
                         zulu = zulu.NSUserDefaultsBridge;
-                        if(!(mike != zulu)) { _fun127778_ip = 221; continue _fun127778 }
+                        if(!(mike != zulu)) { _fun00008_ip = 221; continue _fun00007 }
  163:
                         mike = zulu.setSwiftMessageCellExperimentEnabled;
                         report = _closure1_slot0;

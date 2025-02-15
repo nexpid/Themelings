@@ -1,6 +1,6 @@
 // app/modules/guild_settings/native/GuildSettingsModalEmoji/EmojiRow.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun125664: for(var _fun125664_ip = 0; ; ) switch(_fun125664_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         output = result.isAndroid;
         result = output.bind(result)();
         output = foxtrot;
-        if(!result) { _fun125664_ip = 331; continue _fun125664 }
+        if(!result) { _fun00002_ip = 331; continue _fun00001 }
  329:
         output = 0;
  331:
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = undefined;
-        if(!sizing) { _fun125664_ip = 429; continue _fun125664 }
+        if(!sizing) { _fun00002_ip = 429; continue _fun00001 }
  427:
         backup = 0;
  429:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/guild_settings/native/GuildSettingsModalEmoji/EmojiRow.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: EmojiRow
-            _fun125665: for(var _fun125665_ip = 0; ; ) switch(_fun125665_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 whiskey = entity.guildId;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 var _closure2_slot1 = equality;
                 backup = entity.disabled;
                 tango = undefined;
-                if(!(backup === tango)) { _fun125665_ip = 37; continue _fun125665 }
+                if(!(backup === tango)) { _fun00004_ip = 37; continue _fun00003 }
  35:
                 backup = false;
  37:
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure1_slot5;
                 report = {};
                 options = backup;
-                if(!options) { _fun125665_ip = 282; continue _fun125665 }
+                if(!options) { _fun00004_ip = 282; continue _fun00003 }
  277:
                 options = source.disabled;
  282:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = output.isAndroid;
                 output = sizing.bind(output)();
                 sizing = undefined;
-                if(output) { _fun125665_ip = 350; continue _fun125665 }
+                if(output) { _fun00004_ip = 350; continue _fun00003 }
  344:
                 sizing = source.rowBg;
  350:
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sequence = null;
                 vacuum = sequence != sierra;
                 echo = null;
-                if(!vacuum) { _fun125665_ip = 586; continue _fun125665 }
+                if(!vacuum) { _fun00004_ip = 586; continue _fun00003 }
  530:
                 target = _closure1_slot10;
                 record = _closure1_slot0;
@@ -357,10 +357,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 vacuum = record.isAndroid;
                 record = vacuum.bind(record)();
                 vacuum = null;
-                if(!record) { _fun125665_ip = 916; continue _fun125665 }
+                if(!record) { _fun00004_ip = 916; continue _fun00003 }
  792:
                 vacuum = null;
-                if(backup) { _fun125665_ip = 916; continue _fun125665 }
+                if(backup) { _fun00004_ip = 916; continue _fun00003 }
  797:
                 context = _closure1_slot10;
                 record = _closure1_slot8;
@@ -440,11 +440,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing['children'] = control;
                 sizing = update.bind(tango)(output, sizing);
                 options['trailing'] = sizing;
-                if(!kilo) { _fun125665_ip = 1086; continue _fun125665 }
+                if(!kilo) { _fun00004_ip = 1086; continue _fun00003 }
  941:
-                if(backup) { _fun125665_ip = 1086; continue _fun125665 }
+                if(backup) { _fun00004_ip = 1086; continue _fun00003 }
  947:
-                if(!foxtrot) { _fun125665_ip = 1086; continue _fun125665 }
+                if(!foxtrot) { _fun00004_ip = 1086; continue _fun00003 }
  953:
                 kilo = _closure1_slot10;
                 backup = _closure1_slot5;
@@ -458,12 +458,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 output = sizing.TextInput;
                 sizing = {'autoCorrect': false, 'numberOfLines': 1, 'returnKeyType': 'done', 'autoCapitalize': 'none', 'autoFocus': true};
                 echo = function() { // Original name: handleNameBlur
-                    _fun125667: for(var _fun125667_ip = 0; ; ) switch(_fun125667_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot2;
                         mike = _closure2_slot1;
                         mike = mike.name;
-                        if(!(zulu !== mike)) { _fun125667_ip = 115; continue _fun125667 }
+                        if(!(zulu !== mike)) { _fun00006_ip = 115; continue _fun00005 }
  20:
                         zulu = _closure1_slot0;
                         options = _closure1_slot2;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = kilo.bind(tango)(output, sizing);
                 foxtrot['children'] = sizing;
                 foxtrot = kilo.bind(tango)(backup, foxtrot);
-                _fun125665_ip = 1289; continue _fun125665;
+                _fun00004_ip = 1289; continue _fun00003;
  1086:
                 sizing = _closure1_slot11;
                 kilo = _closure1_slot5;

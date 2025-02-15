@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/forwarding/ForwardPreviewUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useForwardPreviewContent
-        _fun102192: for(var _fun102192_ip = 0; ; ) switch(_fun102192_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.message;
@@ -40,14 +40,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             oscar = report == zulu;
             tango = undefined;
-            if(oscar) { _fun102192_ip = 56; continue _fun102192 }
+            if(oscar) { _fun00002_ip = 56; continue _fun00001 }
  50:
             tango = zulu.onlyAttachmentIds;
  56:
             _closure2_slot2 = tango;
             golf = report == zulu;
             oscar = undefined;
-            if(golf) { _fun102192_ip = 75; continue _fun102192 }
+            if(golf) { _fun00002_ip = 75; continue _fun00001 }
  69:
             oscar = zulu.onlyEmbedIndices;
  75:
@@ -57,21 +57,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu[options];
             verify = report == golf;
             zulu = undefined;
-            if(verify) { _fun102192_ip = 105; continue _fun102192 }
+            if(verify) { _fun00002_ip = 105; continue _fun00001 }
  100:
             zulu = golf.message;
  105:
-            if(!(report != zulu)) { _fun102192_ip = 112; continue _fun102192 }
+            if(!(report != zulu)) { _fun00002_ip = 112; continue _fun00001 }
  109:
             yankee = zulu;
  112:
             golf = yankee.attachments;
-            if(!(report == tango)) { _fun102192_ip = 132; continue _fun102192 }
+            if(!(report == tango)) { _fun00002_ip = 132; continue _fun00001 }
  122:
-            if(!(report != oscar)) { _fun102192_ip = 155; continue _fun102192 }
+            if(!(report != oscar)) { _fun00002_ip = 155; continue _fun00001 }
  126:
             golf = new Array(0);
-            _fun102192_ip = 155; continue _fun102192;
+            _fun00002_ip = 155; continue _fun00001;
  132:
             offset = yankee.attachments;
             verify = offset.filter;
@@ -96,12 +96,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = new Array(1);
             offset[0] = verify;
             verify = function() {
-                _fun102194: for(var _fun102194_ip = 0; ; ) switch(_fun102194_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun102194_ip = 64; continue _fun102194 }
+                    if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  16:
                     oscar = _closure1_slot0;
                     report = _closure1_slot1;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = report.bind(oscar)(tango, zulu);
                     entity = !zulu;
  64:
-                    if(!entity) { _fun102194_ip = 107; continue _fun102194 }
+                    if(!entity) { _fun00004_ip = 107; continue _fun00003 }
  67:
                     report = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -131,16 +131,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             verify = romeo.bind(foxtrot)(offset, verify);
-            if(verify) { _fun102192_ip = 261; continue _fun102192 }
+            if(verify) { _fun00002_ip = 261; continue _fun00001 }
  215:
             verify = yankee.embeds;
-            if(!(report == oscar)) { _fun102192_ip = 235; continue _fun102192 }
+            if(!(report == oscar)) { _fun00002_ip = 235; continue _fun00001 }
  225:
-            if(!(report != tango)) { _fun102192_ip = 233; continue _fun102192 }
+            if(!(report != tango)) { _fun00002_ip = 233; continue _fun00001 }
  229:
             verify = new Array(0);
  233:
-            _fun102192_ip = 258; continue _fun102192;
+            _fun00002_ip = 258; continue _fun00001;
  235:
             foxtrot = yankee.embeds;
             romeo = foxtrot.filter;
@@ -156,12 +156,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = verify;
  261:
             oscar = report != oscar;
-            if(oscar) { _fun102192_ip = 296; continue _fun102192 }
+            if(oscar) { _fun00002_ip = 296; continue _fun00001 }
  268:
             offset = yankee.content;
             verify = '';
             verify = verify === offset;
-            if(!verify) { _fun102192_ip = 293; continue _fun102192 }
+            if(!verify) { _fun00002_ip = 293; continue _fun00001 }
  284:
             offset = zulu.length;
             verify = offset > options;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = verify;
  296:
             offset = yankee;
-            if(!oscar) { _fun102192_ip = 348; continue _fun102192 }
+            if(!oscar) { _fun00002_ip = 348; continue _fun00001 }
  302:
             verify = yankee.set;
             oscar = zulu.map;
@@ -188,20 +188,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = offset.content;
             oscar = '';
             entity = oscar === entity;
-            if(!entity) { _fun102192_ip = 393; continue _fun102192 }
+            if(!entity) { _fun00002_ip = 393; continue _fun00001 }
  364:
             verify = offset.embeds;
             verify = verify[options];
             yankee = report == verify;
             mike = undefined;
-            if(yankee) { _fun102192_ip = 389; continue _fun102192 }
+            if(yankee) { _fun00002_ip = 389; continue _fun00001 }
  383:
             mike = verify.rawDescription;
  389:
             entity = report != mike;
  393:
             mike = offset;
-            if(!entity) { _fun102192_ip = 430; continue _fun102192 }
+            if(!entity) { _fun00002_ip = 430; continue _fun00001 }
  399:
             verify = offset.set;
             entity = offset.embeds;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['embeds'] = zulu;
             zulu = mike.content;
             zulu = oscar !== zulu;
-            if(!zulu) { _fun102192_ip = 458; continue _fun102192 }
+            if(!zulu) { _fun00002_ip = 458; continue _fun00001 }
  454:
             zulu = report == tango;
  458:

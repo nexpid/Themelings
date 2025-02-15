@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'questType';
         entity['key'] = oscar;
         oscar = function() { // Original name: get
-            _fun67264: for(var _fun67264_ip = 0; ; ) switch(_fun67264_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot1;
@@ -176,10 +176,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = report[mike];
                 mike = zulu.bind(tango)(mike);
                 mike = mike.QuestType;
-                if(entity) { _fun67264_ip = 88; continue _fun67264 }
+                if(entity) { _fun00002_ip = 88; continue _fun00001 }
  80:
                 entity = mike.GAMEPLAY;
-                _fun67264_ip = 94; continue _fun67264;
+                _fun00002_ip = 94; continue _fun00001;
  88:
                 entity = mike.VIDEO;
  94:
@@ -192,12 +192,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'build';
         entity['key'] = oscar;
         mike = function(argFoo) { // Original name: value
-            _fun67265: for(var _fun67265_ip = 0; ; ) switch(_fun67265_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = argFoo;
                 mike = zulu.configVersion;
                 entity = 2;
-                if(!(entity === mike)) { _fun67265_ip = 48; continue _fun67265 }
+                if(!(entity === mike)) { _fun00004_ip = 48; continue _fun00003 }
  16:
                 entity = _closure2_slot0;
                 mike = entity.prototype;

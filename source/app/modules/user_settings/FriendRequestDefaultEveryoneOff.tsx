@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['FriendRequestDefaultEveryoneOff'] = report;
     zulu['FriendRequestDefaultEveryoneOffNewUsers'] = tango;
     tango = function(argFoo) {
-        _fun35516: for(var _fun35516_ip = 0; ; ) switch(_fun35516_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = _closure1_slot0;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.bucket;
             zulu = 2;
             entity = zulu === entity;
-            if(entity) { _fun35516_ip = 92; continue _fun35516 }
+            if(entity) { _fun00002_ip = 92; continue _fun00001 }
  53:
             oscar = _closure1_slot1;
             report = oscar.getCurrentConfig;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForFriendRequestDefaults'] = tango;
     tango = function(argFoo) {
-        _fun35517: for(var _fun35517_ip = 0; ; ) switch(_fun35517_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             oscar = _closure1_slot0;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.bucket;
             zulu = 1;
             entity = zulu === entity;
-            if(entity) { _fun35517_ip = 92; continue _fun35517 }
+            if(entity) { _fun00004_ip = 92; continue _fun00003 }
  53:
             oscar = _closure1_slot1;
             report = oscar.getCurrentConfig;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForFriendRequestAlerts'] = tango;
     tango = function(argFoo) {
-        _fun35518: for(var _fun35518_ip = 0; ; ) switch(_fun35518_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot0;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = mike.bucket;
             mike = 2;
             entity = mike === entity;
-            if(entity) { _fun35518_ip = 92; continue _fun35518 }
+            if(entity) { _fun00006_ip = 92; continue _fun00005 }
  88:
             entity = mike === zulu;
  92:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForFriendRequestDefaults'] = tango;
     mike = function(argFoo) {
-        _fun35519: for(var _fun35519_ip = 0; ; ) switch(_fun35519_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             golf = _closure1_slot0;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = mike.bucket;
             mike = 1;
             entity = mike === entity;
-            if(entity) { _fun35519_ip = 92; continue _fun35519 }
+            if(entity) { _fun00008_ip = 92; continue _fun00007 }
  88:
             entity = mike === zulu;
  92:

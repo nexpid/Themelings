@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/share/native/AvatarWithContext.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AvatarWithContext
-        _fun120576: for(var _fun120576_ip = 0; ; ) switch(_fun120576_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.user;
@@ -86,21 +86,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.bind(report)();
             entity = null;
             verify = romeo;
-            if(!(entity != mike)) { _fun120576_ip = 44; continue _fun120576 }
+            if(!(entity != mike)) { _fun00002_ip = 44; continue _fun00001 }
  41:
             verify = mike;
  44:
-            if(!(entity != verify)) { _fun120576_ip = 416; continue _fun120576 }
+            if(!(entity != verify)) { _fun00002_ip = 416; continue _fun00001 }
  51:
-            if(!(entity != romeo)) { _fun120576_ip = 59; continue _fun120576 }
+            if(!(entity != romeo)) { _fun00002_ip = 59; continue _fun00001 }
  55:
-            if(!(romeo === verify)) { _fun120576_ip = 66; continue _fun120576 }
+            if(!(romeo === verify)) { _fun00002_ip = 66; continue _fun00001 }
  59:
-            if(!(entity != foxtrot)) { _fun120576_ip = 345; continue _fun120576 }
+            if(!(entity != foxtrot)) { _fun00002_ip = 345; continue _fun00001 }
  66:
             mike = entity != romeo;
             offset = undefined;
-            if(!mike) { _fun120576_ip = 188; continue _fun120576 }
+            if(!mike) { _fun00002_ip = 188; continue _fun00001 }
  75:
             tango = _closure1_slot4;
             zulu = _closure1_slot3;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['user'] = romeo;
             backup = entity == foxtrot;
             romeo = undefined;
-            if(backup) { _fun120576_ip = 135; continue _fun120576 }
+            if(backup) { _fun00002_ip = 135; continue _fun00001 }
  130:
             romeo = foxtrot.id;
  135:
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['user'] = verify;
             kilo = entity == foxtrot;
             romeo = undefined;
-            if(kilo) { _fun120576_ip = 248; continue _fun120576 }
+            if(kilo) { _fun00002_ip = 248; continue _fun00001 }
  243:
             romeo = foxtrot.id;
  248:

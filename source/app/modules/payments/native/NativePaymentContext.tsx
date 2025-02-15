@@ -76,19 +76,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify[0] = options;
         verify[1] = foxtrot;
         mike = function() {
-            _fun98852: for(var _fun98852_ip = 0; ; ) switch(_fun98852_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 mike = null;
                 mike = mike == zulu;
-                if(mike) { _fun98852_ip = 40; continue _fun98852 }
+                if(mike) { _fun00002_ip = 40; continue _fun00001 }
  16:
                 report = _closure1_slot4;
                 tango = report.isFetchingForSKUs;
                 zulu = _closure2_slot0;
                 mike = tango.bind(report)(zulu);
  40:
-                if(mike) { _fun98852_ip = 94; continue _fun98852 }
+                if(mike) { _fun00002_ip = 94; continue _fun00001 }
  43:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;

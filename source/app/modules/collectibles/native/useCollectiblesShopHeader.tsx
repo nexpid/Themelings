@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun99538: for(var _fun99538_ip = 0; ; ) switch(_fun99538_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -97,12 +97,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.bind(report)(entity);
                 zulu = _closure1_slot1;
                 report = _closure1_slot2;
-                if(entity) { _fun99538_ip = 68; continue _fun99538 }
+                if(entity) { _fun00002_ip = 68; continue _fun00001 }
  54:
                 entity = 9;
                 entity = report[entity];
                 entity = zulu.bind(tango)(entity);
-                _fun99538_ip = 80; continue _fun99538;
+                _fun00002_ip = 80; continue _fun00001;
  68:
                 mike = 8;
                 mike = report[mike];
@@ -158,11 +158,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/useCollectiblesShopHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun99539: for(var _fun99539_ip = 0; ; ) switch(_fun99539_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = arguments[0];
             entity = undefined;
-            if(!(zulu === entity)) { _fun99539_ip = 13; continue _fun99539 }
+            if(!(zulu === entity)) { _fun00004_ip = 13; continue _fun00003 }
  11:
             zulu = {};
  13:

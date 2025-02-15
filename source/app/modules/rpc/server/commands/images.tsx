@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['validation'] = verify;
     options = function(argFoo) { // Original name: handler
-        _fun109577: for(var _fun109577_ip = 0; ; ) switch(_fun109577_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.args;
@@ -89,24 +89,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity.id;
             romeo = entity.format;
             tango = undefined;
-            if(!(romeo === tango)) { _fun109577_ip = 38; continue _fun109577 }
+            if(!(romeo === tango)) { _fun00002_ip = 38; continue _fun00001 }
  32:
             romeo = 'png';
  38:
             yankee = entity.size;
-            if(!(yankee === tango)) { _fun109577_ip = 50; continue _fun109577 }
+            if(!(yankee === tango)) { _fun00002_ip = 50; continue _fun00001 }
  47:
             yankee = 128;
  50:
             entity = 'user';
             oscar = undefined;
-            if(!(entity === zulu)) { _fun109577_ip = 197; continue _fun109577 }
+            if(!(entity === zulu)) { _fun00002_ip = 197; continue _fun00001 }
  63:
             golf = _closure1_slot3;
             zulu = golf.getUser;
             offset = zulu.bind(golf)(report);
             zulu = null;
-            if(!(zulu != offset)) { _fun109577_ip = 340; continue _fun109577 }
+            if(!(zulu != offset)) { _fun00002_ip = 340; continue _fun00001 }
  90:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.GLOBAL_ENV;
             verify = options.CDN_HOST;
             zulu = zulu != verify;
-            if(!zulu) { _fun109577_ip = 181; continue _fun109577 }
+            if(!zulu) { _fun00002_ip = 181; continue _fun00001 }
  161:
             options = golf.indexOf;
             verify = options.bind(golf)(verify);
@@ -133,13 +133,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = options !== verify;
  181:
             oscar = golf;
-            if(!zulu) { _fun109577_ip = 197; continue _fun109577 }
+            if(!zulu) { _fun00002_ip = 197; continue _fun00001 }
  187:
             zulu = '&_=';
             oscar = golf + zulu;
  197:
             zulu = null;
-            if(!(zulu != oscar)) { _fun109577_ip = 269; continue _fun109577 }
+            if(!(zulu != oscar)) { _fun00002_ip = 269; continue _fun00001 }
  203:
             zulu = global;
             zulu = zulu.fetch;

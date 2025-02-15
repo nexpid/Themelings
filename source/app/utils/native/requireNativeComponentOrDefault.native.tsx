@@ -46,29 +46,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/native/requireNativeComponentOrDefault.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: requireNativeComponentOrDefault
-        _fun47679: for(var _fun47679_ip = 0; ; ) switch(_fun47679_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = entity.componentName;
             oscar = entity.componentFoundInstance;
             zulu = entity.componentMissingFallbackInstance;
             options = undefined;
-            if(!(zulu === options)) { _fun47679_ip = 34; continue _fun47679 }
+            if(!(zulu === options)) { _fun00002_ip = 34; continue _fun00001 }
  27:
             zulu = _closure1_slot2;
  34:
             report = entity.warnWhenMissing;
-            if(!(report === options)) { _fun47679_ip = 46; continue _fun47679 }
+            if(!(report === options)) { _fun00002_ip = 46; continue _fun00001 }
  44:
             report = true;
  46:
             golf = _closure1_slot1;
             entity = golf.hasViewManagerConfig;
             entity = entity.bind(golf)(tango);
-            if(entity) { _fun47679_ip = 121; continue _fun47679 }
+            if(entity) { _fun00002_ip = 121; continue _fun00001 }
  67:
             entity = zulu;
-            if(!report) { _fun47679_ip = 182; continue _fun47679 }
+            if(!report) { _fun00002_ip = 182; continue _fun00001 }
  73:
             verify = _closure1_slot3;
             golf = verify.warn;
@@ -80,17 +80,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = yankee.bind(offset)(tango, report);
             report = golf.bind(verify)(report);
             entity = zulu;
-            _fun47679_ip = 182; continue _fun47679;
+            _fun00002_ip = 182; continue _fun00001;
  121:
             report = _closure1_slot4;
             zulu = report.has;
             zulu = zulu.bind(report)(tango);
-            if(zulu) { _fun47679_ip = 168; continue _fun47679 }
+            if(zulu) { _fun00002_ip = 168; continue _fun00001 }
  138:
             report = _closure1_slot4;
             zulu = report.set;
             golf = null;
-            if(!(golf == oscar)) { _fun47679_ip = 162; continue _fun47679 }
+            if(!(golf == oscar)) { _fun00002_ip = 162; continue _fun00001 }
  153:
             golf = _closure1_slot0;
             oscar = golf.bind(options)(tango);

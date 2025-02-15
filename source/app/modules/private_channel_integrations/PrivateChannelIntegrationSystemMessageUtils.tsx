@@ -30,24 +30,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/private_channel_integrations/PrivateChannelIntegrationSystemMessageUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getPrivateChannelIntegrationAddedSystemMessageContent
-        _fun72332: for(var _fun72332_ip = 0; ; ) switch(_fun72332_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.application;
             romeo = entity.username;
             options = entity.usernameHook;
             verify = undefined;
-            if(!(options === verify)) { _fun72332_ip = 32; continue _fun72332 }
+            if(!(options === verify)) { _fun00002_ip = 32; continue _fun00001 }
  25:
             options = _closure1_slot4;
  32:
             golf = entity.applicationNameHook;
-            if(!(golf === verify)) { _fun72332_ip = 49; continue _fun72332 }
+            if(!(golf === verify)) { _fun00002_ip = 49; continue _fun00001 }
  42:
             golf = _closure1_slot4;
  49:
             entity = null;
-            if(!(entity == yankee)) { _fun72332_ip = 172; continue _fun72332 }
+            if(!(entity == yankee)) { _fun00002_ip = 172; continue _fun00001 }
  55:
             mike = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(offset)(report);
             entity['helpCenterLink'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun72332_ip = 299; continue _fun72332;
+            _fun00002_ip = 299; continue _fun00001;
  172:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -108,24 +108,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getPrivateChannelIntegrationAddedSystemMessageContent'] = tango;
     tango = function(argFoo) { // Original name: getPrivateChannelIntegrationRemovedSystemMessageContent
-        _fun72333: for(var _fun72333_ip = 0; ; ) switch(_fun72333_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             yankee = entity.application;
             romeo = entity.username;
             options = entity.usernameHook;
             verify = undefined;
-            if(!(options === verify)) { _fun72333_ip = 32; continue _fun72333 }
+            if(!(options === verify)) { _fun00004_ip = 32; continue _fun00003 }
  25:
             options = _closure1_slot4;
  32:
             golf = entity.applicationNameHook;
-            if(!(golf === verify)) { _fun72333_ip = 49; continue _fun72333 }
+            if(!(golf === verify)) { _fun00004_ip = 49; continue _fun00003 }
  42:
             golf = _closure1_slot4;
  49:
             entity = null;
-            if(!(entity == yankee)) { _fun72333_ip = 172; continue _fun72333 }
+            if(!(entity == yankee)) { _fun00004_ip = 172; continue _fun00003 }
  55:
             mike = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.bind(offset)(report);
             entity['helpCenterLink'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun72333_ip = 299; continue _fun72333;
+            _fun00004_ip = 299; continue _fun00003;
  172:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getPrivateChannelIntegrationRemovedSystemMessageContent'] = tango;
     tango = function(argFoo) { // Original name: getPrivateChannelIntegrationAddedSystemMessageASTContent
-        _fun72334: for(var _fun72334_ip = 0; ; ) switch(_fun72334_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             romeo = entity.application;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = entity.applicationNameOnClick;
             oscar = entity.medium;
             entity = null;
-            if(!(entity == romeo)) { _fun72334_ip = 171; continue _fun72334 }
+            if(!(entity == romeo)) { _fun00006_ip = 171; continue _fun00005 }
  40:
             mike = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['url'] = golf;
             entity['helpCenterLink'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun72334_ip = 312; continue _fun72334;
+            _fun00006_ip = 312; continue _fun00005;
  171:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getPrivateChannelIntegrationAddedSystemMessageASTContent'] = tango;
     mike = function(argFoo) { // Original name: getPrivateChannelIntegrationRemovedSystemMessageASTContent
-        _fun72335: for(var _fun72335_ip = 0; ; ) switch(_fun72335_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             romeo = entity.application;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = entity.applicationNameOnClick;
             oscar = entity.medium;
             entity = null;
-            if(!(entity == romeo)) { _fun72335_ip = 171; continue _fun72335 }
+            if(!(entity == romeo)) { _fun00008_ip = 171; continue _fun00007 }
  40:
             mike = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['url'] = golf;
             entity['helpCenterLink'] = report;
             entity = zulu.bind(tango)(mike, entity);
-            _fun72335_ip = 312; continue _fun72335;
+            _fun00008_ip = 312; continue _fun00007;
  171:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;

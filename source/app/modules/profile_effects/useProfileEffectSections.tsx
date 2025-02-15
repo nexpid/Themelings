@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(0);
             zulu['preview'] = mike;
             mike = function(argFoo, argBar) {
-                _fun91773: for(var _fun91773_ip = 0; ; ) switch(_fun91773_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     tango = argBar;
@@ -180,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = verify.bind(oscar)(report);
                     report = verify.isPremiumCollectiblesPurchase;
                     report = report.bind(verify)(options);
-                    if(report) { _fun91773_ip = 186; continue _fun91773 }
+                    if(report) { _fun00002_ip = 186; continue _fun00001 }
  68:
                     report = null;
-                    if(!(report == options)) { _fun91773_ip = 168; continue _fun91773 }
+                    if(!(report == options)) { _fun00002_ip = 168; continue _fun00001 }
  74:
                     report = _closure2_slot0;
-                    if(report) { _fun91773_ip = 150; continue _fun91773 }
+                    if(report) { _fun00002_ip = 150; continue _fun00001 }
  81:
                     report = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -198,22 +198,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = tango.skuId;
                     mike = oscar.bind(golf)(mike);
                     mike = zulu.bind(report)(mike);
-                    if(!mike) { _fun91773_ip = 150; continue _fun91773 }
+                    if(!mike) { _fun00002_ip = 150; continue _fun00001 }
  132:
                     zulu = entity.premium_purchase;
                     mike = zulu.push;
                     mike = mike.bind(zulu)(tango);
-                    _fun91773_ip = 202; continue _fun91773;
+                    _fun00002_ip = 202; continue _fun00001;
  150:
                     zulu = entity.preview;
                     mike = zulu.push;
                     mike = mike.bind(zulu)(tango);
-                    _fun91773_ip = 202; continue _fun91773;
+                    _fun00002_ip = 202; continue _fun00001;
  168:
                     zulu = entity.purchase;
                     mike = zulu.push;
                     mike = mike.bind(zulu)(tango);
-                    _fun91773_ip = 202; continue _fun91773;
+                    _fun00002_ip = 202; continue _fun00001;
  186:
                     zulu = entity.premium_purchase;
                     mike = zulu.push;

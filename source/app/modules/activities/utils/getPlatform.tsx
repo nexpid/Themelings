@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getPlatform.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getPlatform
-        _fun54092: for(var _fun54092_ip = 0; ; ) switch(_fun54092_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = 'android';
-            if(!(entity !== mike)) { _fun54092_ip = 95; continue _fun54092 }
+            if(!(entity !== mike)) { _fun00002_ip = 95; continue _fun00001 }
  11:
             entity = 'ios';
-            if(!(entity !== mike)) { _fun54092_ip = 57; continue _fun54092 }
+            if(!(entity !== mike)) { _fun00002_ip = 57; continue _fun00001 }
  19:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

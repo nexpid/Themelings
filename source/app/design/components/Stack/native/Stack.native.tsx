@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo, argBar, argBaz, argCorge) {
-        _fun48766: for(var _fun48766_ip = 0; ; ) switch(_fun48766_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = {};
             mike = {};
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = 'column';
             report = 'horizontal';
             tango = argBar;
-            if(!(report === tango)) { _fun48766_ip = 55; continue _fun48766 }
+            if(!(report === tango)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             zulu = 'row';
  55:
@@ -64,31 +64,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Stack/native/Stack.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Stack
-        _fun48767: for(var _fun48767_ip = 0; ; ) switch(_fun48767_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.spacing;
             verify = 8;
             tango = undefined;
-            if(!(tango !== mike)) { _fun48767_ip = 20; continue _fun48767 }
+            if(!(tango !== mike)) { _fun00004_ip = 20; continue _fun00003 }
  17:
             verify = mike;
  20:
             mike = entity.direction;
             options = 'vertical';
-            if(!(tango !== mike)) { _fun48767_ip = 37; continue _fun48767 }
+            if(!(tango !== mike)) { _fun00004_ip = 37; continue _fun00003 }
  34:
             options = mike;
  37:
             mike = entity.align;
             oscar = 'stretch';
-            if(!(tango !== mike)) { _fun48767_ip = 54; continue _fun48767 }
+            if(!(tango !== mike)) { _fun00004_ip = 54; continue _fun00003 }
  51:
             oscar = mike;
  54:
             mike = entity.justify;
             zulu = 'flex-start';
-            if(!(tango !== mike)) { _fun48767_ip = 73; continue _fun48767 }
+            if(!(tango !== mike)) { _fun00004_ip = 73; continue _fun00003 }
  70:
             zulu = mike;
  73:

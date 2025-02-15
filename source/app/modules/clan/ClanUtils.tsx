@@ -8,17 +8,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: getUserPrimaryGuild
-        _fun72657: for(var _fun72657_ip = 0; ; ) switch(_fun72657_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = null;
-            if(!(entity != zulu)) { _fun72657_ip = 18; continue _fun72657 }
+            if(!(entity != zulu)) { _fun00002_ip = 18; continue _fun00001 }
  9:
             entity = zulu.identityEnabled;
-            if(entity) { _fun72657_ip = 22; continue _fun72657 }
+            if(entity) { _fun00002_ip = 22; continue _fun00001 }
  18:
             entity = {};
-            _fun72657_ip = 57; continue _fun72657;
+            _fun00002_ip = 57; continue _fun00001;
  22:
             mike = {};
             tango = zulu.identityGuildId;
@@ -34,24 +34,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = report;
     tango = function(argFoo, argBar) { // Original name: getClanBadgeUrl
-        _fun72658: for(var _fun72658_ip = 0; ; ) switch(_fun72658_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             yankee = argBar;
             zulu = arguments[2];
             mike = undefined;
-            if(!(zulu === mike)) { _fun72658_ip = 25; continue _fun72658 }
+            if(!(zulu === mike)) { _fun00004_ip = 25; continue _fun00003 }
  12:
             entity = _closure1_slot6;
             zulu = entity.SIZE_12;
  25:
             tango = null;
-            if(!(tango != yankee)) { _fun72658_ip = 55; continue _fun72658 }
+            if(!(tango != yankee)) { _fun00004_ip = 55; continue _fun00003 }
  31:
             entity = global;
             report = entity.window;
             report = report.GLOBAL_ENV;
             offset = report.CDN_HOST;
-            if(!(tango == offset)) { _fun72658_ip = 57; continue _fun72658 }
+            if(!(tango == offset)) { _fun00004_ip = 57; continue _fun00003 }
  55:
             return mike;
  57:
@@ -174,12 +174,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['stableSort'] = oscar;
     zulu['getUserPrimaryGuild'] = report;
     report = function(argFoo) { // Original name: isGuildAClan
-        _fun72661: for(var _fun72661_ip = 0; ; ) switch(_fun72661_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun72661_ip = 36; continue _fun72661 }
+            if(!entity) { _fun00006_ip = 36; continue _fun00005 }
  12:
             zulu = tango.hasFeature;
             mike = _closure1_slot7;
@@ -191,12 +191,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isGuildAClan'] = report;
     report = function(argFoo) { // Original name: userHasAdoptedAnyClanIdentity
-        _fun72662: for(var _fun72662_ip = 0; ; ) switch(_fun72662_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun72662_ip = 24; continue _fun72662 }
+            if(!entity) { _fun00008_ip = 24; continue _fun00007 }
  12:
             mike = mike.identityEnabled;
             mike = !mike;
@@ -207,53 +207,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['userHasAdoptedAnyClanIdentity'] = report;
     report = function(argFoo, argBar) { // Original name: isGuildAdoptedUserClanIdentityChanged
-        _fun72663: for(var _fun72663_ip = 0; ; ) switch(_fun72663_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             oscar = argFoo;
             tango = argBar;
             report = null;
             entity = report != tango;
-            if(!entity) { _fun72663_ip = 135; continue _fun72663 }
+            if(!entity) { _fun00010_ip = 135; continue _fun00009 }
  15:
             zulu = tango.identityGuildId;
             golf = report == oscar;
             mike = undefined;
-            if(golf) { _fun72663_ip = 35; continue _fun72663 }
+            if(golf) { _fun00010_ip = 35; continue _fun00009 }
  30:
             mike = oscar.id;
  35:
             mike = zulu === mike;
-            if(!mike) { _fun72663_ip = 132; continue _fun72663 }
+            if(!mike) { _fun00010_ip = 132; continue _fun00009 }
  42:
             golf = report == oscar;
             zulu = undefined;
-            if(golf) { _fun72663_ip = 71; continue _fun72663 }
+            if(golf) { _fun00010_ip = 71; continue _fun00009 }
  51:
             golf = oscar.profile;
             options = report == golf;
             zulu = undefined;
-            if(options) { _fun72663_ip = 71; continue _fun72663 }
+            if(options) { _fun00010_ip = 71; continue _fun00009 }
  66:
             zulu = golf.tag;
  71:
             zulu = report != zulu;
-            if(!zulu) { _fun72663_ip = 116; continue _fun72663 }
+            if(!zulu) { _fun00010_ip = 116; continue _fun00009 }
  78:
             options = report == oscar;
             golf = undefined;
-            if(options) { _fun72663_ip = 107; continue _fun72663 }
+            if(options) { _fun00010_ip = 107; continue _fun00009 }
  87:
             oscar = oscar.profile;
             options = report == oscar;
             golf = undefined;
-            if(options) { _fun72663_ip = 107; continue _fun72663 }
+            if(options) { _fun00010_ip = 107; continue _fun00009 }
  102:
             golf = oscar.tag;
  107:
             oscar = tango.tag;
             zulu = golf !== oscar;
  116:
-            if(zulu) { _fun72663_ip = 129; continue _fun72663 }
+            if(zulu) { _fun00010_ip = 129; continue _fun00009 }
  119:
             tango = tango.identityEnabled;
             zulu = report == tango;
@@ -267,25 +267,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isGuildAdoptedUserClanIdentityChanged'] = report;
     report = function(argFoo, argBar) { // Original name: isGuildAdoptedUserClanIdentity
-        _fun72664: for(var _fun72664_ip = 0; ; ) switch(_fun72664_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             report = argFoo;
             tango = argBar;
             zulu = null;
             entity = zulu != report;
-            if(!entity) { _fun72664_ip = 19; continue _fun72664 }
+            if(!entity) { _fun00012_ip = 19; continue _fun00011 }
  15:
             entity = zulu != tango;
  19:
-            if(!entity) { _fun72664_ip = 66; continue _fun72664 }
+            if(!entity) { _fun00012_ip = 66; continue _fun00011 }
  22:
             mike = tango.identityGuildId;
             mike = zulu != mike;
-            if(!mike) { _fun72664_ip = 63; continue _fun72664 }
+            if(!mike) { _fun00012_ip = 63; continue _fun00011 }
  35:
             zulu = tango.identityGuildId;
             zulu = zulu === report;
-            if(!zulu) { _fun72664_ip = 60; continue _fun72664 }
+            if(!zulu) { _fun00012_ip = 60; continue _fun00011 }
  48:
             tango = tango.identityEnabled;
             tango = !tango;
@@ -300,27 +300,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isGuildAdoptedUserClanIdentity'] = report;
     report = function(argFoo, argBar) {
-        _fun72665: for(var _fun72665_ip = 0; ; ) switch(_fun72665_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             mike = argFoo;
             backup = argBar;
             zulu = mike.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun72665_ip = 445; continue _fun72665 }
+            if(!(entity !== zulu)) { _fun00014_ip = 445; continue _fun00013 }
  20:
             zulu = mike.length;
             golf = 1;
-            if(!(golf !== zulu)) { _fun72665_ip = 439; continue _fun72665 }
+            if(!(golf !== zulu)) { _fun00014_ip = 439; continue _fun00013 }
  35:
             tango = mike.length;
             zulu = 2;
-            if(!(zulu !== tango)) { _fun72665_ip = 352; continue _fun72665 }
+            if(!(zulu !== tango)) { _fun00014_ip = 352; continue _fun00013 }
  50:
             zulu = null;
-            if(!(zulu != backup)) { _fun72665_ip = 68; continue _fun72665 }
+            if(!(zulu != backup)) { _fun00014_ip = 68; continue _fun00013 }
  56:
             zulu = mike.length;
-            if(!(!(zulu > backup))) { _fun72665_ip = 189; continue _fun72665 }
+            if(!(!(zulu > backup))) { _fun00014_ip = 189; continue _fun00013 }
  68:
             tango = mike.slice;
             zulu = -1;
@@ -415,14 +415,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['formatSelectionList'] = report;
     zulu['getClanBadgeUrl'] = tango;
     tango = function(argFoo, argBar) { // Original name: getClanBadgeUrlFromClan
-        _fun72666: for(var _fun72666_ip = 0; ; ) switch(_fun72666_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             zulu = null;
-            if(!(zulu != entity)) { _fun72666_ip = 19; continue _fun72666 }
+            if(!(zulu != entity)) { _fun00016_ip = 19; continue _fun00015 }
  9:
             mike = entity.identityGuildId;
-            if(!(zulu == mike)) { _fun72666_ip = 23; continue _fun72666 }
+            if(!(zulu == mike)) { _fun00016_ip = 23; continue _fun00015 }
  19:
             mike = undefined;
             return mike;
@@ -438,17 +438,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getClanBadgeUrlFromClan'] = tango;
     tango = function(argFoo, argBar) { // Original name: getClanBannerUrl
-        _fun72667: for(var _fun72667_ip = 0; ; ) switch(_fun72667_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             offset = argBar;
             mike = null;
-            if(!(mike != offset)) { _fun72667_ip = 33; continue _fun72667 }
+            if(!(mike != offset)) { _fun00018_ip = 33; continue _fun00017 }
  9:
             entity = global;
             zulu = entity.window;
             zulu = zulu.GLOBAL_ENV;
             verify = zulu.CDN_HOST;
-            if(!(mike == verify)) { _fun72667_ip = 37; continue _fun72667 }
+            if(!(mike == verify)) { _fun00018_ip = 37; continue _fun00017 }
  33:
             mike = undefined;
             return mike;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getClanBannerUrl'] = tango;
     tango = function(argFoo, argBar) { // Original name: useShouldDisplayClanTag
-        _fun72668: for(var _fun72668_ip = 0; ; ) switch(_fun72668_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             offset = argFoo;
             yankee = argBar;
@@ -519,14 +519,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango[0] = yankee;
             tango[1] = offset;
             zulu = function() {
-                _fun72671: for(var _fun72671_ip = 0; ; ) switch(_fun72671_ip) {
+                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                     mike = _closure2_slot1;
                     entity = null;
-                    if(!(entity != mike)) { _fun72671_ip = 83; continue _fun72671 }
+                    if(!(entity != mike)) { _fun00022_ip = 83; continue _fun00021 }
  13:
                     mike = _closure2_slot0;
-                    if(!(entity != mike)) { _fun72671_ip = 83; continue _fun72671 }
+                    if(!(entity != mike)) { _fun00022_ip = 83; continue _fun00021 }
  21:
                     oscar = _closure1_slot4;
                     report = oscar.getMember;
@@ -551,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == golf;
             mike = undefined;
-            if(options) { _fun72668_ip = 192; continue _fun72668 }
+            if(options) { _fun00020_ip = 192; continue _fun00019 }
  186:
             mike = golf.primaryGuild;
  192:
@@ -559,14 +559,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.tag;
             mike = mike.guildId;
             entity = !entity;
-            if(!entity) { _fun72668_ip = 233; continue _fun72668 }
+            if(!entity) { _fun00020_ip = 233; continue _fun00019 }
  213:
             mike = report != mike;
-            if(!mike) { _fun72668_ip = 224; continue _fun72668 }
+            if(!mike) { _fun00020_ip = 224; continue _fun00019 }
  220:
             mike = report != tango;
  224:
-            if(!mike) { _fun72668_ip = 230; continue _fun72668 }
+            if(!mike) { _fun00020_ip = 230; continue _fun00019 }
  227:
             mike = !zulu;
  230:
@@ -577,13 +577,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useShouldDisplayClanTag'] = tango;
     mike = function(argFoo, argBar) { // Original name: shouldDisplayClanTag
-        _fun72672: for(var _fun72672_ip = 0; ; ) switch(_fun72672_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             options = argFoo;
             golf = argBar;
             entity = _closure1_slot3;
             entity = entity.hideTags;
-            if(entity) { _fun72672_ip = 158; continue _fun72672 }
+            if(entity) { _fun00024_ip = 158; continue _fun00023 }
  25:
             mike = _closure1_slot5;
             entity = mike.getUser;
@@ -593,7 +593,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango == report;
             oscar = undefined;
             entity = undefined;
-            if(verify) { _fun72672_ip = 63; continue _fun72672 }
+            if(verify) { _fun00024_ip = 63; continue _fun00023 }
  57:
             entity = report.primaryGuild;
  63:
@@ -601,18 +601,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.tag;
             entity = entity.guildId;
             entity = tango != entity;
-            if(!entity) { _fun72672_ip = 89; continue _fun72672 }
+            if(!entity) { _fun00024_ip = 89; continue _fun00023 }
  85:
             entity = tango != mike;
  89:
-            if(!entity) { _fun72672_ip = 156; continue _fun72672 }
+            if(!entity) { _fun00024_ip = 156; continue _fun00023 }
  92:
             mike = tango != golf;
-            if(!mike) { _fun72672_ip = 103; continue _fun72672 }
+            if(!mike) { _fun00024_ip = 103; continue _fun00023 }
  99:
             mike = tango != options;
  103:
-            if(!mike) { _fun72672_ip = 153; continue _fun72672 }
+            if(!mike) { _fun00024_ip = 153; continue _fun00023 }
  106:
             report = _closure1_slot0;
             verify = _closure1_slot2;

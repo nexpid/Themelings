@@ -176,12 +176,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         options = golf;
         golf = copyDataProperties(verify, options);
         golf = function() { // Original name: onClick
-            _fun124452: for(var _fun124452_ip = 0; ; ) switch(_fun124452_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 zulu = mike.onClick;
                 mike = null;
-                if(!(mike != zulu)) { _fun124452_ip = 33; continue _fun124452 }
+                if(!(mike != zulu)) { _fun00002_ip = 33; continue _fun00001 }
  19:
                 mike = _closure2_slot0;
                 entity = mike.onClick;

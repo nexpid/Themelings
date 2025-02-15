@@ -19,21 +19,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo) { // Original name: getHumanizedCallDuration
-        _fun72269: for(var _fun72269_ip = 0; ; ) switch(_fun72269_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.call;
             entity = null;
             tango = entity != zulu;
             zulu = null;
-            if(!tango) { _fun72269_ip = 29; continue _fun72269 }
+            if(!tango) { _fun00002_ip = 29; continue _fun00001 }
  19:
             mike = mike.call;
             zulu = mike.duration;
  29:
             mike = entity != zulu;
             entity = null;
-            if(!mike) { _fun72269_ip = 48; continue _fun72269 }
+            if(!mike) { _fun00002_ip = 48; continue _fun00001 }
  38:
             mike = zulu.humanize;
             entity = mike.bind(zulu)();

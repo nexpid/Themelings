@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: GridAvatar
-        _fun64017: for(var _fun64017_ip = 0; ; ) switch(_fun64017_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.size;
@@ -42,12 +42,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = new Array(1);
             backup[0] = oscar;
             oscar = function() {
-                _fun64019: for(var _fun64019_ip = 0; ; ) switch(_fun64019_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun64019_ip = 43; continue _fun64019 }
+                    if(!zulu) { _fun00004_ip = 43; continue _fun00003 }
  16:
                     tango = _closure1_slot5;
                     zulu = tango.getStatus;
@@ -72,16 +72,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             offset = offset.bind(foxtrot)(golf, entity);
             entity = null;
-            if(!(entity != yankee)) { _fun64017_ip = 341; continue _fun64017 }
+            if(!(entity != yankee)) { _fun00002_ip = 341; continue _fun00001 }
  176:
             golf = {};
-            if(!(report === tango)) { _fun64017_ip = 188; continue _fun64017 }
+            if(!(report === tango)) { _fun00002_ip = 188; continue _fun00001 }
  182:
             tango = yankee.avatarDecoration;
  188:
             golf['avatarDecoration'] = tango;
             tango = undefined;
-            if(!verify) { _fun64017_ip = 201; continue _fun64017 }
+            if(!verify) { _fun00002_ip = 201; continue _fun00001 }
  198:
             tango = oscar;
  201:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = 9;
             mike = oscar[mike];
             zulu = zulu.bind(report)(mike);
-            if(!(report === romeo)) { _fun64017_ip = 270; continue _fun64017 }
+            if(!(report === romeo)) { _fun00002_ip = 270; continue _fun00001 }
  248:
             mike = {};
             mike['user'] = yankee;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = mike;
             echo = golf;
             oscar = copyDataProperties(update, echo);
-            _fun64017_ip = 333; continue _fun64017;
+            _fun00002_ip = 333; continue _fun00001;
  270:
             oscar = {};
             verify = _closure1_slot0;

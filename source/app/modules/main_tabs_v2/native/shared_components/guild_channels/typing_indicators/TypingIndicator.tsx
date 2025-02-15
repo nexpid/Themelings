@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun115316: for(var _fun115316_ip = 0; ; ) switch(_fun115316_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -56,10 +56,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report[golf];
             report = options.bind(oscar)(report);
             options = report.unsafe_rawColors;
-            if(zulu) { _fun115316_ip = 112; continue _fun115316 }
+            if(zulu) { _fun00002_ip = 112; continue _fun00001 }
  104:
             report = options.BRAND_500;
-            _fun115316_ip = 118; continue _fun115316;
+            _fun00002_ip = 118; continue _fun00001;
  112:
             report = options.BRAND_200;
  118:
@@ -71,10 +71,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango[golf];
             tango = report.bind(oscar)(tango);
             tango = tango.unsafe_rawColors;
-            if(zulu) { _fun115316_ip = 170; continue _fun115316 }
+            if(zulu) { _fun00002_ip = 170; continue _fun00001 }
  162:
             zulu = tango.WHITE_500;
-            _fun115316_ip = 176; continue _fun115316;
+            _fun00002_ip = 176; continue _fun00001;
  170:
             zulu = tango.BRAND_500;
  176:

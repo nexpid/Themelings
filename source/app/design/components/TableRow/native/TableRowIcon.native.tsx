@@ -190,88 +190,88 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/TableRow/native/TableRowIcon.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TableRowIcon
-        _fun48671: for(var _fun48671_ip = 0; ; ) switch(_fun48671_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.source;
             verify = entity.IconComponent;
             mike = entity.variant;
             report = undefined;
-            if(!(mike === report)) { _fun48671_ip = 29; continue _fun48671 }
+            if(!(mike === report)) { _fun00002_ip = 29; continue _fun00001 }
  25:
             mike = 'default';
  29:
             entity = _closure1_slot7;
             options = entity.bind(report)();
             entity = 'default';
-            if(!(entity !== mike)) { _fun48671_ip = 248; continue _fun48671 }
+            if(!(entity !== mike)) { _fun00002_ip = 248; continue _fun00001 }
  51:
             zulu = 'blurple';
-            if(!(zulu !== mike)) { _fun48671_ip = 240; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 240; continue _fun00001 }
  62:
             zulu = 'boosting-pink';
-            if(!(zulu !== mike)) { _fun48671_ip = 232; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 232; continue _fun00001 }
  75:
             zulu = 'status-online';
-            if(!(zulu !== mike)) { _fun48671_ip = 224; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 224; continue _fun00001 }
  88:
             zulu = 'status-idle';
-            if(!(zulu !== mike)) { _fun48671_ip = 216; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 216; continue _fun00001 }
  98:
             zulu = 'status-dnd';
-            if(!(zulu !== mike)) { _fun48671_ip = 208; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 208; continue _fun00001 }
  108:
             zulu = 'status-offline';
-            if(!(zulu !== mike)) { _fun48671_ip = 200; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 200; continue _fun00001 }
  118:
             zulu = 'xbox';
-            if(!(zulu !== mike)) { _fun48671_ip = 192; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 192; continue _fun00001 }
  126:
             zulu = 'playstation';
-            if(!(zulu !== mike)) { _fun48671_ip = 184; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 184; continue _fun00001 }
  134:
             zulu = 'danger';
-            if(!(zulu !== mike)) { _fun48671_ip = 176; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 176; continue _fun00001 }
  142:
             zulu = 'secondary';
-            if(!(zulu !== mike)) { _fun48671_ip = 168; continue _fun48671 }
+            if(!(zulu !== mike)) { _fun00002_ip = 168; continue _fun00001 }
  150:
             zulu = 'translucent';
             oscar = undefined;
-            if(!(zulu === mike)) { _fun48671_ip = 253; continue _fun48671 }
+            if(!(zulu === mike)) { _fun00002_ip = 253; continue _fun00001 }
  160:
             oscar = options.translucent;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  168:
             oscar = options.secondary;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  176:
             oscar = options.danger;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  184:
             oscar = options.playstation;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  192:
             oscar = options.xbox;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  200:
             oscar = options.statusOffline;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  208:
             oscar = options.statusDND;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  216:
             oscar = options.statusIdle;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  224:
             oscar = options.statusOnline;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  232:
             oscar = options.boostingPink;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  240:
             oscar = options.blurple;
-            _fun48671_ip = 253; continue _fun48671;
+            _fun00002_ip = 253; continue _fun00001;
  248:
             oscar = options.default;
  253:
@@ -286,24 +286,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike[kilo];
             mike = zulu.bind(report)(mike);
             mike = mike.IconSizes;
-            if(entity) { _fun48671_ip = 313; continue _fun48671 }
+            if(entity) { _fun00002_ip = 313; continue _fun00001 }
  305:
             foxtrot = mike.REFRESH_SMALL_16;
-            _fun48671_ip = 319; continue _fun48671;
+            _fun00002_ip = 319; continue _fun00001;
  313:
             foxtrot = mike.MEDIUM;
  319:
             yankee = 'sm';
-            if(!entity) { _fun48671_ip = 330; continue _fun48671 }
+            if(!entity) { _fun00002_ip = 330; continue _fun00001 }
  326:
             yankee = 'md';
  330:
             oscar = null;
-            if(!(oscar == backup)) { _fun48671_ip = 345; continue _fun48671 }
+            if(!(oscar == backup)) { _fun00002_ip = 345; continue _fun00001 }
  336:
             mike = oscar == verify;
             entity = null;
-            if(mike) { _fun48671_ip = 453; continue _fun48671 }
+            if(mike) { _fun00002_ip = 453; continue _fun00001 }
  345:
             tango = _closure1_slot6;
             zulu = _closure1_slot5;
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = sizing;
             options[1] = romeo;
             mike['style'] = options;
-            if(!(oscar == verify)) { _fun48671_ip = 423; continue _fun48671 }
+            if(!(oscar == verify)) { _fun00002_ip = 423; continue _fun00001 }
  380:
             romeo = _closure1_slot6;
             options = _closure1_slot1;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['source'] = backup;
             oscar['size'] = foxtrot;
             oscar = romeo.bind(report)(options, oscar);
-            _fun48671_ip = 443; continue _fun48671;
+            _fun00002_ip = 443; continue _fun00001;
  423:
             options = _closure1_slot6;
             golf = {};

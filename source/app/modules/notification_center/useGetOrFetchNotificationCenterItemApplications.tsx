@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure2_slot0;
             zulu = tango.forEach;
             mike = function(argFoo) {
-                _fun116442: for(var _fun116442_ip = 0; ; ) switch(_fun116442_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.applicationId;
@@ -85,17 +85,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure1_slot3;
                     entity = mike.has;
                     entity = entity.bind(mike)(tango);
-                    if(!entity) { _fun116442_ip = 93; continue _fun116442 }
+                    if(!entity) { _fun00002_ip = 93; continue _fun00001 }
  33:
                     entity = null;
                     entity = entity == zulu;
-                    if(entity) { _fun116442_ip = 59; continue _fun116442 }
+                    if(entity) { _fun00002_ip = 59; continue _fun00001 }
  42:
                     tango = _closure3_slot0;
                     mike = tango.has;
                     entity = mike.bind(tango)(zulu);
  59:
-                    if(entity) { _fun116442_ip = 93; continue _fun116442 }
+                    if(entity) { _fun00002_ip = 93; continue _fun00001 }
  62:
                     tango = _closure3_slot0;
                     mike = tango.add;

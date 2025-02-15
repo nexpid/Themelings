@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['TableRadioGroupContext'] = tango;
     mike = function(argFoo) { // Original name: TableRadioGroup
-        _fun63772: for(var _fun63772_ip = 0; ; ) switch(_fun63772_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.children;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = entity.title;
             verify = entity.hasIcons;
             tango = undefined;
-            if(!(verify === tango)) { _fun63772_ip = 44; continue _fun63772 }
+            if(!(verify === tango)) { _fun00002_ip = 44; continue _fun00001 }
  42:
             verify = true;
  44:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function(argFoo) {
-                _fun63773: for(var _fun63773_ip = 0; ; ) switch(_fun63773_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure2_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(entity)(zulu);
                     report = _closure2_slot0;
                     tango = null;
-                    if(!(tango != report)) { _fun63773_ip = 36; continue _fun63773 }
+                    if(!(tango != report)) { _fun00004_ip = 36; continue _fun00003 }
  27:
                     mike = _closure2_slot0;
                     mike = mike.bind(entity)(zulu);
@@ -139,13 +139,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.Children;
             options = verify.map;
             golf = function(argFoo) {
-                _fun63775: for(var _fun63775_ip = 0; ; ) switch(_fun63775_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     tango = _closure1_slot3;
                     zulu = tango.isValidElement;
                     zulu = zulu.bind(tango)(mike);
-                    if(!zulu) { _fun63775_ip = 61; continue _fun63775 }
+                    if(!zulu) { _fun00006_ip = 61; continue _fun00005 }
  24:
                     zulu = mike.type;
                     report = _closure1_slot0;
@@ -155,11 +155,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = undefined;
                     entity = report.bind(entity)(tango);
                     entity = entity.TableRadioRow;
-                    if(!(zulu !== entity)) { _fun63775_ip = 73; continue _fun63775 }
+                    if(!(zulu !== entity)) { _fun00006_ip = 73; continue _fun00005 }
  61:
                     zulu = _closure2_slot3;
                     entity = null;
-                    if(!zulu) { _fun63775_ip = 76; continue _fun63775 }
+                    if(!zulu) { _fun00006_ip = 76; continue _fun00005 }
  73:
                     entity = mike;
  76:

@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.bind(entity)(report);
     var _closure1_slot3 = tango;
     tango = function(argFoo, argBar) { // Original name: useIsRemixEnabled
-        _fun82043: for(var _fun82043_ip = 0; ; ) switch(_fun82043_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -53,11 +53,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(mike);
             mike = argFoo;
             mike = tango.bind(report)(mike);
-            if(!entity) { _fun82043_ip = 97; continue _fun82043 }
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  94:
             entity = zulu;
  97:
-            if(!entity) { _fun82043_ip = 103; continue _fun82043 }
+            if(!entity) { _fun00002_ip = 103; continue _fun00001 }
  100:
             entity = mike;
  103:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['useIsRemixEnabled'] = tango;
     mike = function(argFoo, argBar, argBaz) {
-        _fun82045: for(var _fun82045_ip = 0; ; ) switch(_fun82045_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argBar;
             var _closure2_slot0 = oscar;
@@ -87,13 +87,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = oscar;
             mike = function() {
-                _fun82046: for(var _fun82046_ip = 0; ; ) switch(_fun82046_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = mike.width;
                     zulu = 6000;
                     entity = entity < zulu;
-                    if(!entity) { _fun82046_ip = 34; continue _fun82046 }
+                    if(!entity) { _fun00006_ip = 34; continue _fun00005 }
  25:
                     mike = mike.height;
                     entity = mike < zulu;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 }
             };
             mike = tango.bind(report)(mike, zulu);
-            if(!entity) { _fun82045_ip = 66; continue _fun82045 }
+            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  63:
             entity = mike;
  66:

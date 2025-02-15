@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/useConsoleConnectedAccountForVoiceUpsell.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useConsoleConnectedAccountForVoiceUpsell
-        _fun104244: for(var _fun104244_ip = 0; ; ) switch(_fun104244_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = verify.bind(offset)(zulu, entity);
             zulu = verify.filter;
             entity = function(argFoo) {
-                _fun104246: for(var _fun104246_ip = 0; ; ) switch(_fun104246_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.type;
@@ -75,12 +75,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = _closure1_slot7;
                     entity = entity.PLAYING;
                     entity = zulu === entity;
-                    if(!entity) { _fun104246_ip = 40; continue _fun104246 }
+                    if(!entity) { _fun00004_ip = 40; continue _fun00003 }
  34:
                     zulu = null;
                     entity = zulu != tango;
  40:
-                    if(!entity) { _fun104246_ip = 57; continue _fun104246 }
+                    if(!entity) { _fun00004_ip = 57; continue _fun00003 }
  43:
                     zulu = _closure1_slot6;
                     mike = zulu.has;
@@ -98,14 +98,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = zulu;
             zulu = function() {
-                _fun104247: for(var _fun104247_ip = 0; ; ) switch(_fun104247_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot5;
                     entity = zulu.getAwaitingRemoteSessionInfo;
                     entity = entity.bind(zulu)();
                     zulu = null;
                     entity = zulu != entity;
-                    if(entity) { _fun104247_ip = 44; continue _fun104247 }
+                    if(entity) { _fun00006_ip = 44; continue _fun00005 }
  26:
                     tango = _closure1_slot5;
                     mike = tango.getRemoteSessionId;
@@ -126,12 +126,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = _closure2_slot0;
                 zulu = tango.map;
                 mike = function(argFoo) {
-                    _fun104249: for(var _fun104249_ip = 0; ; ) switch(_fun104249_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
                         report = entity.platform;
                         entity = null;
-                        if(!(entity != report)) { _fun104249_ip = 72; continue _fun104249 }
+                        if(!(entity != report)) { _fun00008_ip = 72; continue _fun00007 }
  15:
                         oscar = _closure1_slot1;
                         tango = _closure1_slot2;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         report = mike.bind(tango)(report);
                         tango = entity == report;
                         mike = null;
-                        if(tango) { _fun104249_ip = 70; continue _fun104249 }
+                        if(tango) { _fun00008_ip = 70; continue _fun00007 }
  54:
                         tango = _closure1_slot3;
                         zulu = tango.getAccount;
@@ -170,14 +170,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango > entity;
             tango = null;
             entity = null;
-            if(!report) { _fun104244_ip = 191; continue _fun104244 }
+            if(!report) { _fun00002_ip = 191; continue _fun00001 }
  174:
             report = tango != mike;
             entity = null;
-            if(!report) { _fun104244_ip = 191; continue _fun104244 }
+            if(!report) { _fun00002_ip = 191; continue _fun00001 }
  183:
             entity = null;
-            if(zulu) { _fun104244_ip = 191; continue _fun104244 }
+            if(zulu) { _fun00002_ip = 191; continue _fun00001 }
  188:
             entity = mike;
  191:

@@ -23,7 +23,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     mike = 'hours';
     mike = options.bind(verify)(golf, mike);
     tango = function() { // Original name: currentUpdateConfig
-        _fun90492: for(var _fun90492_ip = 0; ; ) switch(_fun90492_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             entity = _closure1_slot1;
@@ -38,7 +38,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = null;
             verify = entity == options;
             oscar = undefined;
-            if(verify) { _fun90492_ip = 60; continue _fun90492 }
+            if(verify) { _fun00002_ip = 60; continue _fun00001 }
  54:
             oscar = options.Build;
  60:
@@ -46,10 +46,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             golf = tango.Number;
             tango = golf.isNaN;
             tango = tango.bind(golf)(oscar);
-            if(tango) { _fun90492_ip = 91; continue _fun90492 }
+            if(tango) { _fun00002_ip = 91; continue _fun00001 }
  85:
             tango = 0;
-            if(!(tango !== oscar)) { _fun90492_ip = 91; continue _fun90492 }
+            if(!(tango !== oscar)) { _fun00002_ip = 91; continue _fun00001 }
  91:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -59,7 +59,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(tango)();
             tango = entity == zulu;
             mike = undefined;
-            if(tango) { _fun90492_ip = 133; continue _fun90492 }
+            if(tango) { _fun00002_ip = 133; continue _fun00001 }
  127:
             mike = zulu.Version;
  133:

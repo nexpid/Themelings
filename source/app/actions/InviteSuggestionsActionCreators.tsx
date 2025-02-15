@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = mike.bind(zulu)();
         mike = zulu.then;
         entity = function() {
-            _fun78958: for(var _fun78958_ip = 0; ; ) switch(_fun78958_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike['type'] = report;
                 golf = _closure2_slot0;
                 oscar = null;
-                if(!(oscar == golf)) { _fun78958_ip = 85; continue _fun78958 }
+                if(!(oscar == golf)) { _fun00002_ip = 85; continue _fun00001 }
  55:
                 oscar = global;
                 oscar = oscar.Set;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 verify = golf;
                 oscar = new verify[oscar](options);
                 oscar = oscar instanceof Object ? oscar : golf;
-                _fun78958_ip = 89; continue _fun78958;
+                _fun00002_ip = 89; continue _fun00001;
  85:
                 oscar = _closure2_slot0;
  89:

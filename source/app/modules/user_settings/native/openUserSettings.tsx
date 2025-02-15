@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/openUserSettings.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun65412: for(var _fun65412_ip = 0; ; ) switch(_fun65412_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot0;
@@ -41,12 +41,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike.bind(zulu)();
             golf = null;
             mike = golf != tango;
-            if(!mike) { _fun65412_ip = 57; continue _fun65412 }
+            if(!mike) { _fun00002_ip = 57; continue _fun00001 }
  47:
             zulu = tango.isReady;
             mike = zulu.bind(tango)();
  57:
-            if(!mike) { _fun65412_ip = 174; continue _fun65412 }
+            if(!mike) { _fun00002_ip = 174; continue _fun00001 }
  60:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = 'USER_SETTINGS_MODAL_INIT';
             mike['type'] = options;
             options = report.screen;
-            if(!(golf == options)) { _fun65412_ip = 115; continue _fun65412 }
+            if(!(golf == options)) { _fun00002_ip = 115; continue _fun00001 }
  105:
             verify = _closure1_slot3;
             options = verify.OVERVIEW;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = report.subsection;
             verify = golf != options;
             golf = null;
-            if(!verify) { _fun65412_ip = 137; continue _fun65412 }
+            if(!verify) { _fun00002_ip = 137; continue _fun00001 }
  134:
             golf = options;
  137:

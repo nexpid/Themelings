@@ -50,16 +50,16 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         zulu[1] = golf;
         zulu[2] = oscar;
         mike = function() {
-            _fun119175: for(var _fun119175_ip = 0; ; ) switch(_fun119175_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
-                if(!mike) { _fun119175_ip = 22; continue _fun119175 }
+                if(!mike) { _fun00002_ip = 22; continue _fun00001 }
  10:
                 zulu = _closure2_slot3;
                 zulu = zulu.current;
                 mike = !zulu;
  22:
-                if(!mike) { _fun119175_ip = 45; continue _fun119175 }
+                if(!mike) { _fun00002_ip = 45; continue _fun00001 }
  25:
                 tango = _closure2_slot2;
                 zulu = undefined;

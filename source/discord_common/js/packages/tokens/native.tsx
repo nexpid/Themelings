@@ -95,14 +95,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = tango.bind(zulu)(report);
         entity['shadowOffset'] = report;
         report = function(argFoo, argBar) {
-            _fun7364: for(var _fun7364_ip = 0; ; ) switch(_fun7364_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = argBar;
-                if(entity) { _fun7364_ip = 17; continue _fun7364 }
+                if(entity) { _fun00002_ip = 17; continue _fun00001 }
  9:
                 entity = mike.shadowColor;
-                _fun7364_ip = 23; continue _fun7364;
+                _fun00002_ip = 23; continue _fun00001;
  17:
                 entity = mike.shadowColorAndroid;
  23:
@@ -144,18 +144,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf['spacing'] = options;
     options = {};
     romeo = function(argFoo) { // Original name: isSemanticColor
-        _fun7368: for(var _fun7368_ip = 0; ; ) switch(_fun7368_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             mike = 'object';
             entity = typeof zulu;
             entity = mike === entity;
-            if(!entity) { _fun7368_ip = 23; continue _fun7368 }
+            if(!entity) { _fun00004_ip = 23; continue _fun00003 }
  17:
             mike = null;
             entity = mike !== zulu;
  23:
-            if(!entity) { _fun7368_ip = 37; continue _fun7368 }
+            if(!entity) { _fun00004_ip = 37; continue _fun00003 }
  26:
             mike = _closure1_slot6;
             entity = mike in zulu;
@@ -172,20 +172,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     options['getSemanticColorName'] = romeo;
     romeo = function(argFoo, argBar, argBaz) { // Original name: resolveSemanticColor
-        _fun7370: for(var _fun7370_ip = 0; ; ) switch(_fun7370_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = argFoo;
             golf = argBaz;
             mike = 'string';
             entity = typeof oscar;
             yankee = oscar;
-            if(!(mike === entity)) { _fun7370_ip = 104; continue _fun7370 }
+            if(!(mike === entity)) { _fun00006_ip = 104; continue _fun00005 }
  20:
             entity = oscar.toUpperCase;
             mike = entity.bind(oscar)();
             zulu = _closure1_slot3;
             zulu = mike in zulu;
-            if(zulu) { _fun7370_ip = 96; continue _fun7370 }
+            if(zulu) { _fun00006_ip = 96; continue _fun00005 }
  44:
             zulu = global;
             report = zulu.Error;
@@ -218,24 +218,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu == golf;
             report = undefined;
             verify = undefined;
-            if(tango) { _fun7370_ip = 172; continue _fun7370 }
+            if(tango) { _fun00006_ip = 172; continue _fun00005 }
  166:
             verify = golf.gradient;
  172:
             romeo = oscar;
             tango = entity;
-            if(!(zulu != verify)) { _fun7370_ip = 442; continue _fun7370 }
+            if(!(zulu != verify)) { _fun00006_ip = 442; continue _fun00005 }
  185:
             verify = 'gradient';
             verify = verify in options;
             romeo = oscar;
             tango = entity;
-            if(!verify) { _fun7370_ip = 442; continue _fun7370 }
+            if(!verify) { _fun00006_ip = 442; continue _fun00005 }
  205:
             verify = options.gradient;
             foxtrot = zulu == golf;
             options = undefined;
-            if(foxtrot) { _fun7370_ip = 232; continue _fun7370 }
+            if(foxtrot) { _fun00006_ip = 232; continue _fun00005 }
  220:
             foxtrot = golf.gradient;
             options = foxtrot.theme;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = verify[options];
             romeo = oscar;
             tango = entity;
-            if(!(zulu != options)) { _fun7370_ip = 442; continue _fun7370 }
+            if(!(zulu != options)) { _fun00006_ip = 442; continue _fun00005 }
  249:
             oscar = _closure1_slot1;
             verify = _closure1_slot2;
@@ -253,18 +253,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options.color;
             entity = _closure1_slot5;
             entity = verify in entity;
-            if(entity) { _fun7370_ip = 316; continue _fun7370 }
+            if(entity) { _fun00006_ip = 316; continue _fun00005 }
  285:
             verify = zulu == golf;
             entity = undefined;
-            if(verify) { _fun7370_ip = 314; continue _fun7370 }
+            if(verify) { _fun00006_ip = 314; continue _fun00005 }
  294:
             verify = golf.gradient;
             foxtrot = verify.colors;
             verify = options.color;
             entity = foxtrot[verify];
  314:
-            _fun7370_ip = 329; continue _fun7370;
+            _fun00006_ip = 329; continue _fun00005;
  316:
             foxtrot = _closure1_slot5;
             verify = options.color;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 'saturation';
             entity = entity in options;
             backup = foxtrot;
-            if(!entity) { _fun7370_ip = 371; continue _fun7370 }
+            if(!entity) { _fun00006_ip = 371; continue _fun00005 }
  348:
             verify = foxtrot.set;
             oscar = options.saturation;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 'lightness';
             entity = entity in options;
             oscar = backup;
-            if(!entity) { _fun7370_ip = 408; continue _fun7370 }
+            if(!entity) { _fun00006_ip = 408; continue _fun00005 }
  385:
             foxtrot = backup.set;
             verify = options.lightness;
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 'opacity';
             verify = entity in options;
             entity = 1;
-            if(!verify) { _fun7370_ip = 436; continue _fun7370 }
+            if(!verify) { _fun00006_ip = 436; continue _fun00005 }
  431:
             entity = options.opacity;
  436:
@@ -305,31 +305,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  442:
             oscar = zulu == golf;
             entity = undefined;
-            if(oscar) { _fun7370_ip = 457; continue _fun7370 }
+            if(oscar) { _fun00006_ip = 457; continue _fun00005 }
  451:
             entity = golf.contrast;
  457:
             options = zulu != entity;
             oscar = 1;
             verify = oscar;
-            if(!options) { _fun7370_ip = 473; continue _fun7370 }
+            if(!options) { _fun00006_ip = 473; continue _fun00005 }
  470:
             verify = entity;
  473:
             options = zulu == golf;
             entity = undefined;
-            if(options) { _fun7370_ip = 488; continue _fun7370 }
+            if(options) { _fun00006_ip = 488; continue _fun00005 }
  482:
             entity = golf.saturation;
  488:
             zulu = zulu != entity;
             golf = oscar;
-            if(!zulu) { _fun7370_ip = 501; continue _fun7370 }
+            if(!zulu) { _fun00006_ip = 501; continue _fun00005 }
  498:
             golf = entity;
  501:
             options = romeo;
-            if(!(golf < oscar)) { _fun7370_ip = 541; continue _fun7370 }
+            if(!(golf < oscar)) { _fun00006_ip = 541; continue _fun00005 }
  508:
             zulu = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.bind(zulu)(romeo, offset, golf);
  541:
             zulu = options;
-            if(!(oscar !== verify)) { _fun7370_ip = 593; continue _fun7370 }
+            if(!(oscar !== verify)) { _fun00006_ip = 593; continue _fun00005 }
  548:
             golf = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = echo[entity](result, output, sizing, kilo, backup);
  593:
             entity = zulu;
-            if(!(oscar !== tango)) { _fun7370_ip = 645; continue _fun7370 }
+            if(!(oscar !== tango)) { _fun00006_ip = 645; continue _fun00005 }
  600:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;

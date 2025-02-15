@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isBlockingVoiceStatesEnabledBlocker'] = oscar;
     oscar = function(argFoo) { // Original name: isEligibleForBlockingVoiceStatesAnalyticsBlocker
-        _fun79702: for(var _fun79702_ip = 0; ; ) switch(_fun79702_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getCurrentConfig;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = 'is_eligible_for_blocking_voice_states_analytics_blocker';
             mike['location'] = report;
             mike = zulu.bind(tango)(mike);
-            if(!entity) { _fun79702_ip = 84; continue _fun79702 }
+            if(!entity) { _fun00002_ip = 84; continue _fun00001 }
  81:
             entity = !mike;
  84:
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForBlockingVoiceStatesAnalyticsBlocker'] = oscar;
     oscar = function(argFoo) { // Original name: useBlockingVoiceStatesConfigForBlocker
-        _fun79703: for(var _fun79703_ip = 0; ; ) switch(_fun79703_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             oscar = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             verify = entity;
             tango = copyDataProperties(verify, options);
             zulu = zulu.analyticsEligible;
-            if(!zulu) { _fun79703_ip = 110; continue _fun79703 }
+            if(!zulu) { _fun00004_ip = 110; continue _fun00003 }
  107:
             zulu = !mike;
  110:
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isBlockingVoiceStatesEnabledBlockee'] = oscar;
     oscar = function(argFoo) { // Original name: isEligibleForBlockingVoiceStatesAnalyticsBlockee
-        _fun79705: for(var _fun79705_ip = 0; ; ) switch(_fun79705_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.getCurrentConfig;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = 'is_eligible_for_blocking_voice_states_analytics_blockee';
             mike['location'] = report;
             mike = zulu.bind(tango)(mike);
-            if(!entity) { _fun79705_ip = 84; continue _fun79705 }
+            if(!entity) { _fun00006_ip = 84; continue _fun00005 }
  81:
             entity = !mike;
  84:
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForBlockingVoiceStatesAnalyticsBlockee'] = oscar;
     oscar = function(argFoo) { // Original name: useIsEligibleForBlockingVoiceStatesAnalyticsBlockee
-        _fun79706: for(var _fun79706_ip = 0; ; ) switch(_fun79706_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
             entity = entity.analyticsEligible;
-            if(!entity) { _fun79706_ip = 84; continue _fun79706 }
+            if(!entity) { _fun00008_ip = 84; continue _fun00007 }
  81:
             entity = !mike;
  84:
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsEligibleForBlockingVoiceStatesAnalyticsBlockee'] = oscar;
     oscar = function(argFoo) { // Original name: useBlockingVoiceStatesConfigForBlockee
-        _fun79707: for(var _fun79707_ip = 0; ; ) switch(_fun79707_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             golf = argFoo;
             oscar = _closure1_slot3;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             verify = entity;
             tango = copyDataProperties(verify, options);
             zulu = zulu.analyticsEligible;
-            if(!zulu) { _fun79707_ip = 110; continue _fun79707 }
+            if(!zulu) { _fun00010_ip = 110; continue _fun00009 }
  107:
             zulu = !mike;
  110:
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useBlockingVoiceStatesConfigForBlockee'] = oscar;
     oscar = function(argFoo) { // Original name: getBlockingVoiceStatesExperimentConfigs
-        _fun79708: for(var _fun79708_ip = 0; ; ) switch(_fun79708_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot3;
@@ -294,11 +294,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             entity['blockeeExperimentEnabled'] = oscar;
             entity['blockerExperimentEnabled'] = report;
-            if(mike) { _fun79708_ip = 133; continue _fun79708 }
+            if(mike) { _fun00012_ip = 133; continue _fun00011 }
  130:
             mike = tango;
  133:
-            if(!mike) { _fun79708_ip = 139; continue _fun79708 }
+            if(!mike) { _fun00012_ip = 139; continue _fun00011 }
  136:
             mike = !zulu;
  139:
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getBlockingVoiceStatesExperimentConfigs'] = oscar;
     report = function(argFoo) { // Original name: useBlockingVoiceStatesExperimentConfigs
-        _fun79709: for(var _fun79709_ip = 0; ; ) switch(_fun79709_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot3;
@@ -339,11 +339,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             entity['blockeeExperimentEnabled'] = oscar;
             entity['blockerExperimentEnabled'] = report;
-            if(mike) { _fun79709_ip = 133; continue _fun79709 }
+            if(mike) { _fun00014_ip = 133; continue _fun00013 }
  130:
             mike = tango;
  133:
-            if(!mike) { _fun79709_ip = 139; continue _fun79709 }
+            if(!mike) { _fun00014_ip = 139; continue _fun00013 }
  136:
             mike = !zulu;
  139:

@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/nuf/native/components/SkipHeaderButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SkipHeaderButton
-        _fun94932: for(var _fun94932_ip = 0; ; ) switch(_fun94932_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = _closure1_slot3;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = golf;
             offset = oscar.insideNavigator;
             golf = undefined;
-            if(!offset) { _fun94932_ip = 89; continue _fun94932 }
+            if(!offset) { _fun00002_ip = 89; continue _fun00001 }
  83:
             golf = verify.insideNavigatorButton;
  89:
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[golf] = options;
             oscar = oscar.label;
             golf = null;
-            if(!(golf == oscar)) { _fun94932_ip = 168; continue _fun94932 }
+            if(!(golf == oscar)) { _fun00002_ip = 168; continue _fun00001 }
  113:
             verify = _closure1_slot0;
             offset = _closure1_slot1;

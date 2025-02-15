@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activity_status/native/PresenceActivityStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PresenceActivityStatus
-        _fun79732: for(var _fun79732_ip = 0; ; ) switch(_fun79732_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             verify = mike.activity;
@@ -54,18 +54,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = mike.maxFontSizeMultiplier;
             report = mike.hideIcon;
             tango = undefined;
-            if(!(report === tango)) { _fun79732_ip = 43; continue _fun79732 }
+            if(!(report === tango)) { _fun00002_ip = 43; continue _fun00001 }
  41:
             report = false;
  43:
             oscar = mike.hideText;
-            if(!(oscar === tango)) { _fun79732_ip = 55; continue _fun79732 }
+            if(!(oscar === tango)) { _fun00002_ip = 55; continue _fun00001 }
  53:
             oscar = false;
  55:
-            if(!report) { _fun79732_ip = 64; continue _fun79732 }
+            if(!report) { _fun00002_ip = 64; continue _fun00001 }
  58:
-            if(oscar) { _fun79732_ip = 479; continue _fun79732 }
+            if(oscar) { _fun00002_ip = 479; continue _fun00001 }
  64:
             zulu = _closure1_slot1;
             foxtrot = _closure1_slot2;
@@ -183,12 +183,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = {};
             options = !report;
-            if(!options) { _fun79732_ip = 361; continue _fun79732 }
+            if(!options) { _fun00002_ip = 361; continue _fun00001 }
  355:
             report = null;
             options = report != kilo;
  361:
-            if(!options) { _fun79732_ip = 404; continue _fun79732 }
+            if(!options) { _fun00002_ip = 404; continue _fun00001 }
  364:
             foxtrot = _closure1_slot4;
             verify = _closure1_slot1;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = options;
             oscar = !oscar;
-            if(!oscar) { _fun79732_ip = 463; continue _fun79732 }
+            if(!oscar) { _fun00002_ip = 463; continue _fun00001 }
  418:
             verify = _closure1_slot4;
             options = _closure1_slot1;

@@ -7,13 +7,13 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = entity;
     var _closure1_slot1 = golf;
     tango = function(argFoo, argBar) { // Original name: isChannelAccessDeniedBy
-        _fun43975: for(var _fun43975_ip = 0; ; ) switch(_fun43975_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             report = argBar;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun43975_ip = 142; continue _fun43975 }
+            if(!entity) { _fun00002_ip = 142; continue _fun00001 }
  18:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = golf.bind(offset)(zulu, mike);
             zulu = !mike;
             mike = !zulu;
-            if(!zulu) { _fun43975_ip = 139; continue _fun43975 }
+            if(!zulu) { _fun00002_ip = 139; continue _fun00001 }
  79:
             zulu = oscar.isGuildVocal;
             zulu = zulu.bind(oscar)();
-            if(!zulu) { _fun43975_ip = 136; continue _fun43975 }
+            if(!zulu) { _fun00002_ip = 136; continue _fun00001 }
  92:
             golf = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -90,19 +90,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     zulu['isAllChannelsRole'] = report;
     zulu['isChannelAccessDeniedBy'] = tango;
     mike = function(argFoo, argBar) { // Original name: isChannelAccessGrantedBy
-        _fun43977: for(var _fun43977_ip = 0; ; ) switch(_fun43977_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             oscar = argBar;
             entity = null;
             entity = entity != oscar;
-            if(!entity) { _fun43977_ip = 167; continue _fun43977 }
+            if(!entity) { _fun00004_ip = 167; continue _fun00003 }
  18:
             mike = _closure1_slot3;
             verify = undefined;
             mike = mike.bind(verify)(golf, oscar);
             mike = !mike;
-            if(!mike) { _fun43977_ip = 164; continue _fun43977 }
+            if(!mike) { _fun00004_ip = 164; continue _fun00003 }
  42:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -116,12 +116,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = options.bind(yankee)(tango, zulu);
             tango = !zulu;
             zulu = !tango;
-            if(tango) { _fun43977_ip = 161; continue _fun43977 }
+            if(tango) { _fun00004_ip = 161; continue _fun00003 }
  98:
             tango = golf.isGuildVocal;
             tango = tango.bind(golf)();
             tango = !tango;
-            if(tango) { _fun43977_ip = 158; continue _fun43977 }
+            if(tango) { _fun00004_ip = 158; continue _fun00003 }
  114:
             options = _closure1_slot0;
             golf = _closure1_slot1;

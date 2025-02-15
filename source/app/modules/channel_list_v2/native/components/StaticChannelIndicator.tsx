@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel_list_v2/native/components/StaticChannelIndicator.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelIndicator
-        _fun86906: for(var _fun86906_ip = 0; ; ) switch(_fun86906_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.unread;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = oscar.useToken;
             entity = _closure1_slot4;
             entity = entity.ALL_MESSAGES;
-            if(!(verify !== entity)) { _fun86906_ip = 106; continue _fun86906 }
+            if(!(verify !== entity)) { _fun00002_ip = 106; continue _fun00001 }
  73:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = verify.bind(report)(entity);
             entity = entity.colors;
             entity = entity.CHANNELS_DEFAULT;
-            _fun86906_ip = 137; continue _fun86906;
+            _fun00002_ip = 137; continue _fun00001;
  106:
             offset = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  137:
             offset = tango.bind(oscar)(entity);
             entity = null;
-            if(!zulu) { _fun86906_ip = 217; continue _fun86906 }
+            if(!zulu) { _fun00002_ip = 217; continue _fun00001 }
  147:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;

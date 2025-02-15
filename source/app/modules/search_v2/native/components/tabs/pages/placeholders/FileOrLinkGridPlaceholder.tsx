@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['pointerEvents'] = oscar;
         oscar = golf.map;
         report = function(argFoo, argBar) {
-            _fun113321: for(var _fun113321_ip = 0; ; ) switch(_fun113321_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 romeo = argFoo;
                 report = argBar;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = 1;
                 golf = verify - golf;
                 golf = report < golf;
-                if(!golf) { _fun113321_ip = 155; continue _fun113321 }
+                if(!golf) { _fun00002_ip = 155; continue _fun00001 }
  117:
                 offset = _closure1_slot8;
                 verify = _closure1_slot0;

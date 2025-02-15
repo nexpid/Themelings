@@ -21,14 +21,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getChannelCopyForEmbeddedActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getChannelCopyForEmbeddedActivity
-        _fun79753: for(var _fun79753_ip = 0; ; ) switch(_fun79753_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike != entity)) { _fun79753_ip = 17; continue _fun79753 }
+            if(!(mike != entity)) { _fun00002_ip = 17; continue _fun00001 }
  9:
             mike = '';
-            if(!(mike === entity)) { _fun79753_ip = 76; continue _fun79753 }
+            if(!(mike === entity)) { _fun00002_ip = 76; continue _fun00001 }
  17:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;

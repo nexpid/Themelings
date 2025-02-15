@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     tango = function() { // Original name: useFetchPurchases
-        _fun38333: for(var _fun38333_ip = 0; ; ) switch(_fun38333_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = arguments[0];
             foxtrot = arguments[1];
             offset = undefined;
-            if(!(romeo === offset)) { _fun38333_ip = 16; continue _fun38333 }
+            if(!(romeo === offset)) { _fun00002_ip = 16; continue _fun00001 }
  14:
             romeo = false;
  16:
@@ -126,24 +126,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options[1] = romeo;
             options[2] = yankee;
             entity = function() {
-                _fun38337: for(var _fun38337_ip = 0; ; ) switch(_fun38337_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = true;
                     entity = entity === mike;
-                    if(!entity) { _fun38337_ip = 25; continue _fun38337 }
+                    if(!entity) { _fun00004_ip = 25; continue _fun00003 }
  16:
                     mike = _closure2_slot5;
                     entity = mike.current;
  25:
-                    if(!entity) { _fun38337_ip = 43; continue _fun38337 }
+                    if(!entity) { _fun00004_ip = 43; continue _fun00003 }
  28:
                     mike = _closure2_slot6;
                     zulu = mike.current;
                     mike = null;
                     entity = mike == zulu;
  43:
-                    if(entity) { _fun38337_ip = 101; continue _fun38337 }
+                    if(entity) { _fun00004_ip = 101; continue _fun00003 }
  46:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -176,14 +176,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = tango;
     report = function(argFoo) { // Original name: useFetchCollectiblesCategoriesAndPurchases
-        _fun38338: for(var _fun38338_ip = 0; ; ) switch(_fun38338_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             options = argFoo;
             entity = null;
             mike = entity == options;
             report = undefined;
             oscar = undefined;
-            if(mike) { _fun38338_ip = 22; continue _fun38338 }
+            if(mike) { _fun00006_ip = 22; continue _fun00005 }
  16:
             oscar = options.paymentGateway;
  22:
@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['paymentGateway'] = oscar;
             golf = entity == options;
             oscar = undefined;
-            if(golf) { _fun38338_ip = 138; continue _fun38338 }
+            if(golf) { _fun00006_ip = 138; continue _fun00005 }
  132:
             oscar = options.noOp;
  138:
@@ -221,13 +221,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot7;
             verify = entity == options;
             mike = undefined;
-            if(verify) { _fun38338_ip = 193; continue _fun38338 }
+            if(verify) { _fun00006_ip = 193; continue _fun00005 }
  185:
             mike = options.stalePurchasesOK;
  193:
             verify = entity == options;
             entity = undefined;
-            if(verify) { _fun38338_ip = 207; continue _fun38338 }
+            if(verify) { _fun00006_ip = 207; continue _fun00005 }
  202:
             entity = options.location;
  207:
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = mike.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun38338_ip = 248; continue _fun38338 }
+            if(yankee) { _fun00006_ip = 248; continue _fun00005 }
  245:
             yankee = verify;
  248:
@@ -301,13 +301,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useGetOrFetchPurchases'] = tango;
     mike = function(argFoo) {
-        _fun38340: for(var _fun38340_ip = 0; ; ) switch(_fun38340_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot8;
             mike = {};
             tango = null;
-            if(!(tango == entity)) { _fun38340_ip = 20; continue _fun38340 }
+            if(!(tango == entity)) { _fun00008_ip = 20; continue _fun00007 }
  18:
             entity = {};
  20:

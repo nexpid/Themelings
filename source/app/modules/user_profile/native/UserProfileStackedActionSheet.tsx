@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileStackedActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: UserProfileStackedActionSheet
-        _fun79923: for(var _fun79923_ip = 0; ; ) switch(_fun79923_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             output = tango.title;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = offset;
             offset = {};
             foxtrot = 'center';
-            if(!yankee) { _fun79923_ip = 146; continue _fun79923 }
+            if(!yankee) { _fun00002_ip = 146; continue _fun00001 }
  140:
             foxtrot = 'space-between';
  146:
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = offset;
             report['style'] = golf;
             golf = yankee;
-            if(!yankee) { _fun79923_ip = 306; continue _fun79923 }
+            if(!yankee) { _fun00002_ip = 306; continue _fun00001 }
  167:
             backup = _closure1_slot4;
             result = _closure1_slot0;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot['children'] = output;
             foxtrot = sizing.bind(tango)(backup, foxtrot);
             offset[1] = foxtrot;
-            if(!yankee) { _fun79923_ip = 400; continue _fun79923 }
+            if(!yankee) { _fun00002_ip = 400; continue _fun00001 }
  374:
             backup = _closure1_slot4;
             foxtrot = _closure1_slot3;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     tango = function(argFoo) { // Original name: UserProfileStackedActionSheetList
-        _fun79924: for(var _fun79924_ip = 0; ; ) switch(_fun79924_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             verify = zulu.data;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = foxtrot.isAndroid;
             romeo = romeo.bind(foxtrot)();
             yankee = 0;
-            if(!romeo) { _fun79924_ip = 196; continue _fun79924 }
+            if(!romeo) { _fun00004_ip = 196; continue _fun00003 }
  193:
             yankee = 16;
  196:
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'contentContainerStyle';
             entity[oscar] = golf;
             oscar = function(argFoo) { // Original name: renderItem
-                _fun79926: for(var _fun79926_ip = 0; ; ) switch(_fun79926_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     entity = mike.item;
@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike['index'] = oscar;
                     entity = 0;
                     tango = entity === oscar;
-                    if(!tango) { _fun79926_ip = 49; continue _fun79926 }
+                    if(!tango) { _fun00006_ip = 49; continue _fun00005 }
  39:
                     entity = _closure2_slot2;
                     tango = entity.firstRow;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = 1;
                     tango = golf - tango;
                     tango = oscar === tango;
-                    if(!tango) { _fun79926_ip = 90; continue _fun79926 }
+                    if(!tango) { _fun00006_ip = 90; continue _fun00005 }
  80:
                     report = _closure2_slot2;
                     tango = report.lastRow;
@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'contentContainerStyle';
         entity[oscar] = golf;
         golf = function(argFoo) { // Original name: renderItem
-            _fun79928: for(var _fun79928_ip = 0; ; ) switch(_fun79928_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = argFoo;
                 entity = mike.item;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity[0] = golf;
                 golf = 0;
                 golf = golf === oscar;
-                if(!golf) { _fun79928_ip = 68; continue _fun79928 }
+                if(!golf) { _fun00008_ip = 68; continue _fun00007 }
  58:
                 options = _closure2_slot1;
                 golf = options.firstRow;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = 1;
                 tango = golf - tango;
                 tango = oscar === tango;
-                if(!tango) { _fun79928_ip = 106; continue _fun79928 }
+                if(!tango) { _fun00008_ip = 106; continue _fun00007 }
  96:
                 report = _closure2_slot1;
                 tango = report.lastRow;

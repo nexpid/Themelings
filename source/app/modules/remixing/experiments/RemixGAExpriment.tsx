@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/remixing/experiments/RemixGAExpriment.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useCanRemix
-        _fun69393: for(var _fun69393_ip = 0; ; ) switch(_fun69393_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             golf = {};
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(zulu)();
             mike = mike.analyticsLocations;
             golf['analyticsLocations'] = mike;
-            if(!report) { _fun69393_ip = 66; continue _fun69393 }
+            if(!report) { _fun00002_ip = 66; continue _fun00001 }
  48:
             mike = {};
             tango = new Array(1);
@@ -145,16 +145,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsRemixANitroPerk'] = tango;
     mike = function() { // Original name: useShouldUpsellRemix
-        _fun69398: for(var _fun69398_ip = 0; ; ) switch(_fun69398_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[0];
             oscar = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun69398_ip = 14; continue _fun69398 }
+            if(!(report === entity)) { _fun00004_ip = 14; continue _fun00003 }
  12:
             report = {};
  14:
-            if(!(oscar === entity)) { _fun69398_ip = 20; continue _fun69398 }
+            if(!(oscar === entity)) { _fun00004_ip = 20; continue _fun00003 }
  18:
             oscar = true;
  20:
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(tango)(mike, entity);
             entity = mike.canRemix;
             entity = !entity;
-            if(!entity) { _fun69398_ip = 81; continue _fun69398 }
+            if(!entity) { _fun00004_ip = 81; continue _fun00003 }
  75:
             entity = mike.isNitroPerk;
  81:

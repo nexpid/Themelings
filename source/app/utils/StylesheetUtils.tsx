@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/StylesheetUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getClass
-        _fun47888: for(var _fun47888_ip = 0; ; ) switch(_fun47888_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = 2;
             zulu = copyRestArgs(oscar);
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             entity = entity[mike];
             mike = null;
-            if(!(mike == entity)) { _fun47888_ip = 69; continue _fun47888 }
+            if(!(mike == entity)) { _fun00002_ip = 69; continue _fun00001 }
  65:
             mike = undefined;
             return mike;

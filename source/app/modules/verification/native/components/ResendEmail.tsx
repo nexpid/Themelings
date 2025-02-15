@@ -80,7 +80,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/verification/native/components/ResendEmail.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: ResendEmail
-        _fun88633: for(var _fun88633_ip = 0; ; ) switch(_fun88633_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot12;
             tango = undefined;
@@ -159,17 +159,17 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun88636: for(var _fun88636_ip = 0; ; ) switch(_fun88636_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot1;
-                    if(!entity) { _fun88636_ip = 25; continue _fun88636 }
+                    if(!entity) { _fun00004_ip = 25; continue _fun00003 }
  10:
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = false;
                     entity = mike === zulu;
  25:
-                    if(!entity) { _fun88636_ip = 63; continue _fun88636 }
+                    if(!entity) { _fun00004_ip = 63; continue _fun00003 }
  28:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -255,7 +255,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             result = foxtrot[kilo];
             result = backup.bind(tango)(result);
             echo = result.intl;
-            if(romeo) { _fun88633_ip = 573; continue _fun88633 }
+            if(romeo) { _fun00002_ip = 573; continue _fun00001 }
  541:
             result = echo.string;
             romeo = foxtrot[kilo];
@@ -263,7 +263,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             romeo = romeo.t;
             romeo = romeo.tSXg8P;
             romeo = result.bind(echo)(romeo);
-            _fun88633_ip = 611; continue _fun88633;
+            _fun00002_ip = 611; continue _fun00001;
  573:
             result = echo.format;
             foxtrot = foxtrot[kilo];
@@ -341,7 +341,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             golf['shrink'] = offset;
             golf = verify.bind(tango)(options, golf);
             report[3] = golf;
-            if(!oscar) { _fun88633_ip = 897; continue _fun88633 }
+            if(!oscar) { _fun00002_ip = 897; continue _fun00001 }
  772:
             verify = _closure1_slot10;
             foxtrot = _closure1_slot1;

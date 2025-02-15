@@ -19,12 +19,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = 'modules/threads/sanitizeThreadName.tsx';
     mike = tango.bind(report)(mike);
     mike = function(argFoo, argBar) { // Original name: sanitizeThreadName
-        _fun71474: for(var _fun71474_ip = 0; ; ) switch(_fun71474_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             entity = zulu;
-            if(!mike) { _fun71474_ip = 22; continue _fun71474 }
+            if(!mike) { _fun00002_ip = 22; continue _fun00001 }
  12:
             mike = zulu.trim;
             entity = mike.bind(zulu)();

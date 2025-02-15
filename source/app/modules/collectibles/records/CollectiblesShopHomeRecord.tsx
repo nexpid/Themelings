@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = tango.shop_blocks;
             oscar = golf.map;
             report = function(argFoo) {
-                _fun38846: for(var _fun38846_ip = 0; ; ) switch(_fun38846_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = argFoo;
                     report = zulu.type;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(mike)(tango);
                     tango = tango.ShopBlockType;
                     tango = tango.HERO;
-                    if(!(tango !== report)) { _fun38846_ip = 204; continue _fun38846 }
+                    if(!(tango !== report)) { _fun00002_ip = 204; continue _fun00001 }
  52:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(mike)(tango);
                     tango = tango.ShopBlockType;
                     tango = tango.FEATURED;
-                    if(!(tango !== report)) { _fun38846_ip = 187; continue _fun38846 }
+                    if(!(tango !== report)) { _fun00002_ip = 187; continue _fun00001 }
  85:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(mike)(tango);
                     tango = tango.ShopBlockType;
                     tango = tango.FEED;
-                    if(!(tango !== report)) { _fun38846_ip = 170; continue _fun38846 }
+                    if(!(tango !== report)) { _fun00002_ip = 170; continue _fun00001 }
  118:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot1;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(mike)(tango);
                     tango = tango.ShopBlockType;
                     tango = tango.WIDE_BANNER;
-                    if(!(tango !== report)) { _fun38846_ip = 153; continue _fun38846 }
+                    if(!(tango !== report)) { _fun00002_ip = 153; continue _fun00001 }
  151:
                     return mike;
  153:

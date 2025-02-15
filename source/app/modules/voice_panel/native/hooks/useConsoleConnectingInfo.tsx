@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/hooks/useConsoleConnectingInfo.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useConsoleConnectingInfo
-        _fun122287: for(var _fun122287_ip = 0; ; ) switch(_fun122287_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             options = oscar == tango;
             mike = undefined;
-            if(options) { _fun122287_ip = 54; continue _fun122287 }
+            if(options) { _fun00002_ip = 54; continue _fun00001 }
  49:
             mike = tango.channelId;
  54:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = verify;
             entity = function() {
-                _fun122289: for(var _fun122289_ip = 0; ; ) switch(_fun122289_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getSessionById;
@@ -81,14 +81,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     oscar = entity == tango;
                     tango = undefined;
-                    if(oscar) { _fun122289_ip = 41; continue _fun122289 }
+                    if(oscar) { _fun00004_ip = 41; continue _fun00003 }
  31:
                     report = _closure2_slot0;
                     tango = report.sessionId;
  41:
                     report = entity != tango;
                     entity = '';
-                    if(!report) { _fun122289_ip = 55; continue _fun122289 }
+                    if(!report) { _fun00004_ip = 55; continue _fun00003 }
  52:
                     entity = tango;
  55:
@@ -99,15 +99,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = tango.bind(options)(mike, entity);
             mike = oscar == offset;
             entity = undefined;
-            if(mike) { _fun122287_ip = 161; continue _fun122287 }
+            if(mike) { _fun00002_ip = 161; continue _fun00001 }
  156:
             entity = offset.type;
  161:
-            if(!(oscar == entity)) { _fun122287_ip = 189; continue _fun122287 }
+            if(!(oscar == entity)) { _fun00002_ip = 189; continue _fun00001 }
  165:
             tango = oscar == verify;
             mike = undefined;
-            if(tango) { _fun122287_ip = 186; continue _fun122287 }
+            if(tango) { _fun00002_ip = 186; continue _fun00001 }
  174:
             tango = verify.clientInfo;
             mike = tango.os;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  189:
             mike = oscar != entity;
             tango = '';
-            if(!mike) { _fun122287_ip = 203; continue _fun122287 }
+            if(!mike) { _fun00002_ip = 203; continue _fun00001 }
  200:
             tango = entity;
  203:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = {};
             romeo = oscar == offset;
             options = undefined;
-            if(romeo) { _fun122287_ip = 244; continue _fun122287 }
+            if(romeo) { _fun00002_ip = 244; continue _fun00001 }
  239:
             options = offset.channelId;
  244:
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['isConnectingToConsole'] = options;
             options = oscar == offset;
             oscar = undefined;
-            if(options) { _fun122287_ip = 267; continue _fun122287 }
+            if(options) { _fun00002_ip = 267; continue _fun00001 }
  262:
             oscar = offset.channelId;
  267:
             oscar = oscar === golf;
-            if(oscar) { _fun122287_ip = 277; continue _fun122287 }
+            if(oscar) { _fun00002_ip = 277; continue _fun00001 }
  274:
             oscar = yankee;
  277:

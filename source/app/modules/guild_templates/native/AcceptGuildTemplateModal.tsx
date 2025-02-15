@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         offset = _closure1_slot4;
         verify = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun91551: for(var _fun91551_ip = 0; ; ) switch(_fun91551_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun91551_ip = 81; continue _fun91551 }
+                    if(mike) { _fun00002_ip = 81; continue _fun00001 }
  7:
                     report = _closure1_slot1;
                     tango = _closure1_slot3;
@@ -125,10 +125,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  51:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun91551_ip = 78; continue _fun91551 }
+                    if(tango) { _fun00002_ip = 78; continue _fun00001 }
  57:
                     tango = null;
-                    if(!(tango != mike)) { _fun91551_ip = 75; continue _fun91551 }
+                    if(!(tango != mike)) { _fun00002_ip = 75; continue _fun00001 }
  63:
                     tango = _closure2_slot5;
                     tango = tango.bind(zulu)(mike);
@@ -145,11 +145,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = offset.bind(tango)(verify);
         report['chooseIcon'] = verify;
         options = function() { // Original name: createServer
-            _fun91552: for(var _fun91552_ip = 0; ; ) switch(_fun91552_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure2_slot1;
                 zulu = null;
-                if(!(zulu != tango)) { _fun91552_ip = 95; continue _fun91552 }
+                if(!(zulu != tango)) { _fun00004_ip = 95; continue _fun00003 }
  15:
                 report = _closure1_slot1;
                 tango = _closure1_slot3;

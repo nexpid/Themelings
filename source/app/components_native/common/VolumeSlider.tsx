@@ -1,6 +1,6 @@
 // app/components_native/common/VolumeSlider.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun80832: for(var _fun80832_ip = 0; ; ) switch(_fun80832_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = verify.isAndroid;
         golf = golf.bind(verify)();
         offset = 16;
-        if(!golf) { _fun80832_ip = 169; continue _fun80832 }
+        if(!golf) { _fun00002_ip = 169; continue _fun00001 }
  167:
         offset = 0;
  169:
@@ -68,13 +68,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'components_native/common/VolumeSlider.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: _default
-            _fun80833: for(var _fun80833_ip = 0; ; ) switch(_fun80833_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 oscar = entity.style;
                 foxtrot = entity.minTrackColor;
                 tango = undefined;
-                if(!(foxtrot === tango)) { _fun80833_ip = 58; continue _fun80833 }
+                if(!(foxtrot === tango)) { _fun00004_ip = 58; continue _fun00003 }
  24:
                 zulu = _closure1_slot1;
                 report = _closure1_slot2;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 foxtrot = mike.BRAND_500;
  58:
                 yankee = entity.maxTrackTintColor;
-                if(!(yankee === tango)) { _fun80833_ip = 102; continue _fun80833 }
+                if(!(yankee === tango)) { _fun00004_ip = 102; continue _fun00003 }
  68:
                 zulu = _closure1_slot1;
                 report = _closure1_slot2;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  102:
                 echo = entity.value;
                 backup = entity.maxVolume;
-                if(!(backup === tango)) { _fun80833_ip = 120; continue _fun80833 }
+                if(!(backup === tango)) { _fun00004_ip = 120; continue _fun00003 }
  117:
                 backup = 200;
  120:
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 oscar['onValueChange'] = yankee;
                 yankee = null;
-                if(!(yankee == offset)) { _fun80833_ip = 429; continue _fun80833 }
+                if(!(yankee == offset)) { _fun00004_ip = 429; continue _fun00003 }
  385:
                 foxtrot = _closure1_slot0;
                 backup = _closure1_slot2;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 yankee = foxtrot.isAndroid;
                 foxtrot = yankee.bind(foxtrot)();
                 yankee = undefined;
-                if(!foxtrot) { _fun80833_ip = 426; continue _fun80833 }
+                if(!foxtrot) { _fun00004_ip = 426; continue _fun00003 }
  419:
                 yankee = function() {
                     entity = true;

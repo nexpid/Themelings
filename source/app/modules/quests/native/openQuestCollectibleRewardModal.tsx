@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: QuestCollectibleRewardModalMessages
-        _fun91286: for(var _fun91286_ip = 0; ; ) switch(_fun91286_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.quest;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             result = control.bind(vacuum)(source, result);
             verify['children'] = result;
             romeo = output.bind(tango)(romeo, verify);
-            if(report) { _fun91286_ip = 377; continue _fun91286 }
+            if(report) { _fun00002_ip = 377; continue _fun00001 }
  299:
             report = new Array(2);
             report[0] = romeo;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report[1] = verify;
             oscar['children'] = report;
             report = options.bind(tango)(golf, oscar);
-            _fun91286_ip = 558; continue _fun91286;
+            _fun00002_ip = 558; continue _fun00001;
  377:
             verify = new Array(4);
             verify[0] = romeo;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/quests/native/openQuestCollectibleRewardModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun91287: for(var _fun91287_ip = 0; ; ) switch(_fun91287_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             golf = entity.quest;
@@ -216,22 +216,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['location'] = verify;
             verify = zulu.bind(options)(mike);
             options = null;
-            if(!(options == oscar)) { _fun91287_ip = 100; continue _fun91287 }
+            if(!(options == oscar)) { _fun00004_ip = 100; continue _fun00003 }
  79:
             zulu = verify.warn;
             mike = 'Product is null';
             mike = zulu.bind(verify)(mike);
-            _fun91287_ip = 272; continue _fun91287;
+            _fun00004_ip = 272; continue _fun00003;
  100:
             mike = {};
             verify = oscar.styles;
             offset = options == verify;
             zulu = undefined;
-            if(offset) { _fun91287_ip = 123; continue _fun91287 }
+            if(offset) { _fun00004_ip = 123; continue _fun00003 }
  117:
             zulu = verify.buttonColors;
  123:
-            if(!(options == zulu)) { _fun91287_ip = 131; continue _fun91287 }
+            if(!(options == zulu)) { _fun00004_ip = 131; continue _fun00003 }
  127:
             zulu = new Array(0);
  131:
@@ -239,11 +239,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = oscar.styles;
             offset = options == verify;
             zulu = undefined;
-            if(offset) { _fun91287_ip = 157; continue _fun91287 }
+            if(offset) { _fun00004_ip = 157; continue _fun00003 }
  151:
             zulu = verify.confettiColors;
  157:
-            if(!(options == zulu)) { _fun91287_ip = 165; continue _fun91287 }
+            if(!(options == zulu)) { _fun00004_ip = 165; continue _fun00003 }
  161:
             zulu = new Array(0);
  165:

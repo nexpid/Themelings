@@ -51,14 +51,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'next';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun59055: for(var _fun59055_ip = 0; ; ) switch(_fun59055_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = this;
                 mike = tango.index;
                 entity = tango.items;
                 entity = entity.length;
                 zulu = 1;
-                if(!(mike < entity)) { _fun59055_ip = 95; continue _fun59055 }
+                if(!(mike < entity)) { _fun00002_ip = 95; continue _fun00001 }
  26:
                 mike = tango.items;
                 entity = tango.index;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = mike.next;
                 entity = entity.bind(mike)();
                 mike = entity.done;
-                if(mike) { _fun59055_ip = 60; continue _fun59055 }
+                if(mike) { _fun00002_ip = 60; continue _fun00001 }
  58:
                 return entity;
  60:
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.index;
                 entity = tango.items;
                 entity = entity.length;
-                if(mike < entity) { _fun59055_ip = 26; continue _fun59055 }
+                if(mike < entity) { _fun00002_ip = 26; continue _fun00001 }
  95:
                 entity = {};
                 mike = true;

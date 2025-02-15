@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Pile/native/AvatarPile.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AvatarPile
-        _fun80524: for(var _fun80524_ip = 0; ; ) switch(_fun80524_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.size;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['size'] = romeo;
             options = 40;
             options = romeo <= options;
-            if(!options) { _fun80524_ip = 178; continue _fun80524 }
+            if(!options) { _fun00002_ip = 178; continue _fun00001 }
  175:
             report = foxtrot;
  178:
@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report[0] = oscar;
             oscar = null;
             oscar = oscar != yankee;
-            if(!oscar) { _fun80524_ip = 219; continue _fun80524 }
+            if(!oscar) { _fun00002_ip = 219; continue _fun00001 }
  215:
             oscar = offset < yankee;
  219:
-            if(!oscar) { _fun80524_ip = 280; continue _fun80524 }
+            if(!oscar) { _fun00002_ip = 280; continue _fun00001 }
  222:
             verify = _closure1_slot3;
             options = _closure1_slot0;

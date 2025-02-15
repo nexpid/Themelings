@@ -1,6 +1,6 @@
 // app/i18n/native/i18nMessagesProvider.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun127864: for(var _fun127864_ip = 0; ; ) switch(_fun127864_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         zulu = argFred;
@@ -25,10 +25,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         options = report.bind(entity)(golf);
         golf = options.isAndroid;
         golf = golf.bind(options)();
-        if(golf) { _fun127864_ip = 104; continue _fun127864 }
+        if(golf) { _fun00002_ip = 104; continue _fun00001 }
  94:
         tango = tango.i18nManager;
-        _fun127864_ip = 119; continue _fun127864;
+        _fun00002_ip = 119; continue _fun00001;
  104:
         golf = 2;
         options = oscar[golf];
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = argFoo;
                     mike = zulu.map;
                     entity = function(argFoo) {
-                        _fun127868: for(var _fun127868_ip = 0; ; ) switch(_fun127868_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             tango = _closure1_slot0;
                             entity = _closure1_slot1;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             entity = null;
                             zulu = entity == tango;
                             entity = '';
-                            if(zulu) { _fun127868_ip = 106; continue _fun127868 }
+                            if(zulu) { _fun00004_ip = 106; continue _fun00003 }
  73:
                             zulu = _closure1_slot0;
                             mike = _closure1_slot1;

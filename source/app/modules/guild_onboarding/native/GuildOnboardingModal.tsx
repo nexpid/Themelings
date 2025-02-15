@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = new Array(1);
         oscar[0] = mike;
         mike = function() {
-            _fun61521: for(var _fun61521_ip = 0; ; ) switch(_fun61521_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getGuild;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = null;
                 zulu = mike == tango;
                 mike = undefined;
-                if(zulu) { _fun61521_ip = 56; continue _fun61521 }
+                if(zulu) { _fun00002_ip = 56; continue _fun00001 }
  35:
                 zulu = tango.hasFeature;
                 entity = _closure1_slot7;
@@ -169,10 +169,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = output;
         zulu[1] = mike;
         mike = function() {
-            _fun61525: for(var _fun61525_ip = 0; ; ) switch(_fun61525_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot6;
-                if(!mike) { _fun61525_ip = 50; continue _fun61525 }
+                if(!mike) { _fun00004_ip = 50; continue _fun00003 }
  10:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = _closure1_slot10;
                 zulu['headerRight'] = report;
                 verify = function(argFoo) { // Original name: render
-                    _fun61528: for(var _fun61528_ip = 0; ; ) switch(_fun61528_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         options = argFoo;
                         tango = _closure1_slot8;
@@ -267,13 +267,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = null;
                         verify = oscar == options;
                         golf = undefined;
-                        if(verify) { _fun61528_ip = 62; continue _fun61528 }
+                        if(verify) { _fun00006_ip = 62; continue _fun00005 }
  56:
                         golf = options.currentPrompt;
  62:
                         options = oscar != golf;
                         oscar = 0;
-                        if(!options) { _fun61528_ip = 74; continue _fun61528 }
+                        if(!options) { _fun00006_ip = 74; continue _fun00005 }
  71:
                         oscar = golf;
  74:

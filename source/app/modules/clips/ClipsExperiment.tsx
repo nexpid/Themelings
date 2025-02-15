@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['ClipsExperiment'] = report;
     zulu['ClipsPremiumEarlyAccessExperiment'] = tango;
     tango = function() { // Original name: areClipsEnabled
-        _fun75560: for(var _fun75560_ip = 0; ; ) switch(_fun75560_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(golf)(entity);
             entity = _closure1_slot2;
             entity = mike.bind(golf)(entity);
-            if(entity) { _fun75560_ip = 41; continue _fun75560 }
+            if(entity) { _fun00002_ip = 41; continue _fun00001 }
  37:
             entity = false;
             return entity;
@@ -126,15 +126,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['autoTrackExposure'] = options;
             mike = oscar.bind(golf)(report, mike);
             mike = mike.enableViewerClipping;
-            if(entity) { _fun75560_ip = 188; continue _fun75560 }
+            if(entity) { _fun00002_ip = 188; continue _fun00001 }
  185:
             entity = tango;
  188:
-            if(entity) { _fun75560_ip = 194; continue _fun75560 }
+            if(entity) { _fun00002_ip = 194; continue _fun00001 }
  191:
             entity = zulu;
  194:
-            if(entity) { _fun75560_ip = 200; continue _fun75560 }
+            if(entity) { _fun00002_ip = 200; continue _fun00001 }
  197:
             entity = mike;
  200:
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['areClipsEnabled'] = tango;
     tango = function() { // Original name: useEnableClips
-        _fun75561: for(var _fun75561_ip = 0; ; ) switch(_fun75561_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             options = _closure1_slot0;
             offset = _closure1_slot1;
@@ -184,19 +184,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['autoTrackExposure'] = verify;
             zulu = golf.bind(options)(oscar, zulu);
             zulu = zulu.enableViewerClipping;
-            if(entity) { _fun75561_ip = 175; continue _fun75561 }
+            if(entity) { _fun00004_ip = 175; continue _fun00003 }
  172:
             entity = report;
  175:
-            if(entity) { _fun75561_ip = 181; continue _fun75561 }
+            if(entity) { _fun00004_ip = 181; continue _fun00003 }
  178:
             entity = tango;
  181:
-            if(entity) { _fun75561_ip = 187; continue _fun75561 }
+            if(entity) { _fun00004_ip = 187; continue _fun00003 }
  184:
             entity = zulu;
  187:
-            if(!entity) { _fun75561_ip = 193; continue _fun75561 }
+            if(!entity) { _fun00004_ip = 193; continue _fun00003 }
  190:
             entity = mike;
  193:
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useEnableClips'] = tango;
     tango = function(argFoo) {
-        _fun75562: for(var _fun75562_ip = 0; ; ) switch(_fun75562_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             oscar = entity.autoTrackExposure;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             zulu['location'] = mike;
             mike = {};
-            if(!oscar) { _fun75562_ip = 73; continue _fun75562 }
+            if(!oscar) { _fun00006_ip = 73; continue _fun00005 }
  70:
             oscar = entity;
  73:
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.enablePremiumEarlyAccessGoLiveRoadblock;
             zulu = !entity;
             entity = !zulu;
-            if(zulu) { _fun75562_ip = 102; continue _fun75562 }
+            if(zulu) { _fun00006_ip = 102; continue _fun00005 }
  99:
             entity = mike;
  102:
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = tango;
     tango = function(argFoo) {
-        _fun75563: for(var _fun75563_ip = 0; ; ) switch(_fun75563_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             oscar = entity.autoTrackExposure;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             zulu['location'] = mike;
             mike = {};
-            if(!oscar) { _fun75563_ip = 73; continue _fun75563 }
+            if(!oscar) { _fun00008_ip = 73; continue _fun00007 }
  70:
             oscar = entity;
  73:
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.enablePremiumEarlyAccessAnnouncementCoachmark;
             zulu = !entity;
             entity = !zulu;
-            if(zulu) { _fun75563_ip = 102; continue _fun75563 }
+            if(zulu) { _fun00008_ip = 102; continue _fun00007 }
  99:
             entity = mike;
  102:

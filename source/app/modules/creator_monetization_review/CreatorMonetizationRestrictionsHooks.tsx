@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.GuildFeatures;
     var _closure1_slot9 = tango;
     tango = function(argFoo) { // Original name: useCreatorMonetizationRestrictions
-        _fun81310: for(var _fun81310_ip = 0; ; ) switch(_fun81310_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
@@ -60,12 +60,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = zulu;
             tango[1] = entity;
             entity = function() {
-                _fun81311: for(var _fun81311_ip = 0; ; ) switch(_fun81311_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
                     entity = entity != mike;
-                    if(!entity) { _fun81311_ip = 44; continue _fun81311 }
+                    if(!entity) { _fun00004_ip = 44; continue _fun00003 }
  16:
                     tango = _closure2_slot0;
                     zulu = tango.hasFeature;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.CREATOR_MONETIZABLE_RESTRICTED;
                     entity = zulu.bind(tango)(mike);
  44:
-                    if(!entity) { _fun81311_ip = 88; continue _fun81311 }
+                    if(!entity) { _fun00004_ip = 88; continue _fun00003 }
  47:
                     oscar = _closure1_slot5;
                     tango = oscar.getMonetizationRestrictionsFetchState;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.NOT_FETCHED;
                     entity = zulu === mike;
  88:
-                    if(!entity) { _fun81311_ip = 148; continue _fun81311 }
+                    if(!entity) { _fun00004_ip = 148; continue _fun00003 }
  91:
                     zulu = _closure1_slot2;
                     mike = _closure1_slot3;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity == zulu;
             entity = undefined;
-            if(tango) { _fun81310_ip = 92; continue _fun81310 }
+            if(tango) { _fun00002_ip = 92; continue _fun00001 }
  87:
             entity = zulu.id;
  92:
@@ -124,21 +124,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(1);
             verify[0] = oscar;
             options = function() {
-                _fun81312: for(var _fun81312_ip = 0; ; ) switch(_fun81312_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = _closure1_slot5;
                     zulu = tango.getMonetizationRestrictions;
                     oscar = _closure2_slot2;
                     mike = null;
-                    if(!(mike == oscar)) { _fun81312_ip = 32; continue _fun81312 }
+                    if(!(mike == oscar)) { _fun00006_ip = 32; continue _fun00005 }
  26:
                     entity = _closure1_slot8;
-                    _fun81312_ip = 36; continue _fun81312;
+                    _fun00006_ip = 36; continue _fun00005;
  32:
                     entity = _closure2_slot2;
  36:
                     entity = zulu.bind(tango)(entity);
-                    if(!(mike == entity)) { _fun81312_ip = 49; continue _fun81312 }
+                    if(!(mike == entity)) { _fun00006_ip = 49; continue _fun00005 }
  45:
                     entity = new Array(0);
  49:
@@ -153,16 +153,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = oscar;
             mike = function() {
-                _fun81313: for(var _fun81313_ip = 0; ; ) switch(_fun81313_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = _closure1_slot5;
                     zulu = tango.getMonetizationRestrictionsFetchState;
                     oscar = _closure2_slot2;
                     mike = null;
-                    if(!(mike == oscar)) { _fun81313_ip = 32; continue _fun81313 }
+                    if(!(mike == oscar)) { _fun00008_ip = 32; continue _fun00007 }
  26:
                     mike = _closure1_slot8;
-                    _fun81313_ip = 36; continue _fun81313;
+                    _fun00008_ip = 36; continue _fun00007;
  32:
                     mike = _closure2_slot2;
  36:
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/creator_monetization_review/CreatorMonetizationRestrictionsHooks.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun81314: for(var _fun81314_ip = 0; ; ) switch(_fun81314_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -218,18 +218,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             tango = report == verify;
             zulu = undefined;
-            if(tango) { _fun81314_ip = 128; continue _fun81314 }
+            if(tango) { _fun00010_ip = 128; continue _fun00009 }
  107:
             options = verify.hasFeature;
             tango = _closure1_slot9;
             tango = tango.CREATOR_MONETIZABLE;
             zulu = options.bind(verify)(tango);
  128:
-            if(zulu) { _fun81314_ip = 164; continue _fun81314 }
+            if(zulu) { _fun00010_ip = 164; continue _fun00009 }
  131:
             options = report == verify;
             tango = undefined;
-            if(options) { _fun81314_ip = 161; continue _fun81314 }
+            if(options) { _fun00010_ip = 161; continue _fun00009 }
  140:
             yankee = verify.hasFeature;
             options = _closure1_slot9;
@@ -239,9 +239,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango;
  164:
             zulu = !zulu;
-            if(zulu) { _fun81314_ip = 252; continue _fun81314 }
+            if(zulu) { _fun00010_ip = 252; continue _fun00009 }
  170:
-            if(mike) { _fun81314_ip = 206; continue _fun81314 }
+            if(mike) { _fun00010_ip = 206; continue _fun00009 }
  173:
             options = _closure1_slot0;
             yankee = _closure1_slot3;
@@ -250,11 +250,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(oscar)(tango);
             tango = options.isRestrictedFromShowingGuildPurchaseEntryPoints;
             tango = tango.bind(options)(offset);
-            _fun81314_ip = 249; continue _fun81314;
+            _fun00010_ip = 249; continue _fun00009;
  206:
             options = report == verify;
             oscar = undefined;
-            if(options) { _fun81314_ip = 236; continue _fun81314 }
+            if(options) { _fun00010_ip = 236; continue _fun00009 }
  215:
             options = verify.hasFeature;
             golf = _closure1_slot9;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = options.bind(verify)(golf);
  236:
             report = report == oscar;
-            if(report) { _fun81314_ip = 246; continue _fun81314 }
+            if(report) { _fun00010_ip = 246; continue _fun00009 }
  243:
             report = oscar;
  246:
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useShouldHideGuildPurchaseEntryPoints'] = tango;
     tango = function(argFoo) {
-        _fun81316: for(var _fun81316_ip = 0; ; ) switch(_fun81316_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             options = argFoo;
             var _closure2_slot0 = options;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(report)(oscar);
             golf = entity.restrictions;
             mike = entity.restrictionsLoading;
-            if(mike) { _fun81316_ip = 130; continue _fun81316 }
+            if(mike) { _fun00012_ip = 130; continue _fun00011 }
  97:
             zulu = _closure1_slot0;
             options = _closure1_slot3;
@@ -314,12 +314,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(report)(entity);
             entity = zulu.isRestrictedFromUpdatingCreatorMonetizationSettings;
             zulu = entity.bind(zulu)(golf);
-            _fun81316_ip = 175; continue _fun81316;
+            _fun00012_ip = 175; continue _fun00011;
  130:
             entity = null;
             golf = entity == oscar;
             report = undefined;
-            if(golf) { _fun81316_ip = 162; continue _fun81316 }
+            if(golf) { _fun00012_ip = 162; continue _fun00011 }
  141:
             options = oscar.hasFeature;
             golf = _closure1_slot9;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.bind(oscar)(golf);
  162:
             entity = entity == report;
-            if(entity) { _fun81316_ip = 172; continue _fun81316 }
+            if(entity) { _fun00012_ip = 172; continue _fun00011 }
  169:
             entity = report;
  172:
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  175:
             entity = null;
             entity = entity == oscar;
-            if(entity) { _fun81316_ip = 208; continue _fun81316 }
+            if(entity) { _fun00012_ip = 208; continue _fun00011 }
  184:
             report = oscar.hasFeature;
             tango = _closure1_slot9;
@@ -346,7 +346,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = !entity;
             entity = {};
             tango = zulu;
-            if(tango) { _fun81316_ip = 222; continue _fun81316 }
+            if(tango) { _fun00012_ip = 222; continue _fun00011 }
  219:
             tango = report;
  222:

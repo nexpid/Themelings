@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: buildBaseEmbedProps
-        _fun70539: for(var _fun70539_ip = 0; ; ) switch(_fun70539_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.titleText;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(oscar)(entity);
             entity = mike.isAndroid;
             entity = entity.bind(mike)();
-            if(entity) { _fun70539_ip = 248; continue _fun70539 }
+            if(entity) { _fun00002_ip = 248; continue _fun00001 }
  207:
             entity = {};
             offset = entity;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[mike] = tango;
             mike = 'subtitle';
             entity[mike] = report;
-            _fun70539_ip = 283; continue _fun70539;
+            _fun00002_ip = 283; continue _fun00001;
  248:
             mike = {};
             offset = mike;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: buildSupportedOnMobileEmbedBodyText
-        _fun70540: for(var _fun70540_ip = 0; ; ) switch(_fun70540_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = entity.quest;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = entity instanceof Object ? entity : zulu;
             entity = zulu.toISOString;
             entity = entity.bind(zulu)();
-            if(!(!(mike < entity))) { _fun70540_ip = 267; continue _fun70540 }
+            if(!(!(mike < entity))) { _fun00004_ip = 267; continue _fun00003 }
  65:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -172,14 +172,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: buildQuestsEmbedProps
-        _fun70542: for(var _fun70542_ip = 0; ; ) switch(_fun70542_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             oscar = mike.questId;
             entity = mike.isEligibleForQuests;
             report = mike.calculateVisibilityPercentages;
             zulu = mike.themeColors;
-            if(entity) { _fun70542_ip = 207; continue _fun70542 }
+            if(entity) { _fun00006_ip = 207; continue _fun00005 }
  36:
             golf = _closure1_slot10;
             mike = {};
@@ -226,22 +226,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.bind(mike)(oscar);
             options = null;
             mike = options == oscar;
-            if(!mike) { _fun70542_ip = 246; continue _fun70542 }
+            if(!mike) { _fun00006_ip = 246; continue _fun00005 }
  236:
             entity = _closure1_slot5;
             mike = entity.isFetchingCurrentQuests;
  246:
-            if(!mike) { _fun70542_ip = 257; continue _fun70542 }
+            if(!mike) { _fun00006_ip = 257; continue _fun00005 }
  249:
             entity = null;
-            if(!report) { _fun70542_ip = 1055; continue _fun70542 }
+            if(!report) { _fun00006_ip = 1055; continue _fun00005 }
  257:
-            if(mike) { _fun70542_ip = 1034; continue _fun70542 }
+            if(mike) { _fun00006_ip = 1034; continue _fun00005 }
  263:
-            if(!(options != oscar)) { _fun70542_ip = 863; continue _fun70542 }
+            if(!(options != oscar)) { _fun00006_ip = 863; continue _fun00005 }
  270:
             mike = null;
-            if(!report) { _fun70542_ip = 858; continue _fun70542 }
+            if(!report) { _fun00006_ip = 858; continue _fun00005 }
  278:
             report = {};
             report['themeColors'] = zulu;
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options == verify;
             backup = undefined;
             report = undefined;
-            if(offset) { _fun70542_ip = 330; continue _fun70542 }
+            if(offset) { _fun00006_ip = 330; continue _fun00005 }
  324:
             report = verify.enrolledAt;
  330:
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = offset.isThemeDark;
             offset = report.bind(offset)(yankee);
             report = _closure1_slot7;
-            if(offset) { _fun70542_ip = 453; continue _fun70542 }
+            if(offset) { _fun00006_ip = 453; continue _fun00005 }
  445:
             output = report.LIGHT;
-            _fun70542_ip = 459; continue _fun70542;
+            _fun00006_ip = 459; continue _fun00005;
  453:
             output = report.DARK;
  459:
@@ -334,9 +334,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sequence = yankee.bind(backup)(offset);
             config = report;
             offset = copyDataProperties(config, sequence);
-            if(verify) { _fun70542_ip = 728; continue _fun70542 }
+            if(verify) { _fun00006_ip = 728; continue _fun00005 }
  671:
-            if(options) { _fun70542_ip = 728; continue _fun70542 }
+            if(options) { _fun00006_ip = 728; continue _fun00005 }
  674:
             romeo = _closure1_slot0;
             verify = _closure1_slot2;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.kUQLMD;
             verify = offset.bind(yankee)(verify);
-            _fun70542_ip = 799; continue _fun70542;
+            _fun00006_ip = 799; continue _fun00005;
  728:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;
@@ -360,11 +360,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset[kilo];
             offset = foxtrot.bind(backup)(offset);
             offset = offset.t;
-            if(options) { _fun70542_ip = 785; continue _fun70542 }
+            if(options) { _fun00006_ip = 785; continue _fun00005 }
  772:
             options = offset.th2+0t;
             options = yankee.bind(romeo)(options);
-            _fun70542_ip = 796; continue _fun70542;
+            _fun00006_ip = 796; continue _fun00005;
  785:
             offset = offset.hvVgAQ;
             options = yankee.bind(romeo)(offset);
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[oscar] = golf;
             mike = report;
  858:
-            _fun70542_ip = 1032; continue _fun70542;
+            _fun00006_ip = 1032; continue _fun00005;
  863:
             golf = _closure1_slot10;
             oscar = {};
@@ -425,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['thumbnailUrl'] = options;
             mike = golf.bind(report)(oscar);
  1032:
-            _fun70542_ip = 1052; continue _fun70542;
+            _fun00006_ip = 1052; continue _fun00005;
  1034:
             report = _closure1_slot10;
             tango = {};
@@ -492,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestsEmbed.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: QuestsEmbed
-        _fun70543: for(var _fun70543_ip = 0; ; ) switch(_fun70543_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             tango = entity.questId;
@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = zulu.bind(report)(entity);
             entity = null;
             zulu = entity != oscar;
-            if(!zulu) { _fun70543_ip = 227; continue _fun70543 }
+            if(!zulu) { _fun00008_ip = 227; continue _fun00007 }
  185:
             tango = _closure1_slot9;
             zulu = _closure1_slot1;

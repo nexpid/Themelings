@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun121040: for(var _fun121040_ip = 0; ; ) switch(_fun121040_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 oscar = _closure1_slot3;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['ackMessageId'] = tango;
                 tango = _closure2_slot1;
                 tango = !tango;
-                if(!tango) { _fun121040_ip = 71; continue _fun121040 }
+                if(!tango) { _fun00002_ip = 71; continue _fun00001 }
  47:
                 golf = _closure1_slot3;
                 oscar = golf.hasUnread;

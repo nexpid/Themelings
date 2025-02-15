@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/native/useIsViewingActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsViewingActivity
-        _fun73487: for(var _fun73487_ip = 0; ; ) switch(_fun73487_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.channelId;
@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = oscar.bind(golf)(report, mike, tango);
-            if(!entity) { _fun73487_ip = 140; continue _fun73487 }
+            if(!entity) { _fun00002_ip = 140; continue _fun00001 }
  137:
             entity = zulu;
  140:
-            if(!entity) { _fun73487_ip = 146; continue _fun73487 }
+            if(!entity) { _fun00002_ip = 146; continue _fun00001 }
  143:
             entity = !mike;
  146:

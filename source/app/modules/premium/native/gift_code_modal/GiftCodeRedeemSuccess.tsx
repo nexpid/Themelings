@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gift_code_modal/GiftCodeRedeemSuccess.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftCodeRedeemSuccess
-        _fun91697: for(var _fun91697_ip = 0; ; ) switch(_fun91697_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.giftCode;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = entity.bind(report)(options);
             backup = null;
             entity = null;
-            if(!report) { _fun91697_ip = 232; continue _fun91697 }
+            if(!report) { _fun00002_ip = 232; continue _fun00001 }
  226:
             entity = options.skuId;
  232:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.product;
             mike = backup == entity;
             verify = undefined;
-            if(mike) { _fun91697_ip = 264; continue _fun91697 }
+            if(mike) { _fun00002_ip = 264; continue _fun00001 }
  252:
             mike = entity.items;
             entity = 0;
@@ -173,9 +173,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['contentContainerStyle'] = golf;
             golf = false;
             report['alwaysBounceVertical'] = golf;
-            if(!(backup == verify)) { _fun91697_ip = 349; continue _fun91697 }
+            if(!(backup == verify)) { _fun00002_ip = 349; continue _fun00001 }
  342:
-            if(!(backup == result)) { _fun91697_ip = 495; continue _fun91697 }
+            if(!(backup == result)) { _fun00002_ip = 495; continue _fun00001 }
  349:
             output = _closure1_slot0;
             update = _closure1_slot2;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.AVATAR_DECORATION;
             kilo['type'] = romeo;
             romeo = function(argFoo) {
-                _fun91699: for(var _fun91699_ip = 0; ; ) switch(_fun91699_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot6;
                     mike = _closure1_slot1;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = null;
                     verify = romeo == oscar;
                     oscar = undefined;
-                    if(verify) { _fun91699_ip = 119; continue _fun91699 }
+                    if(verify) { _fun00004_ip = 119; continue _fun00003 }
  49:
                     yankee = _closure2_slot1;
                     offset = yankee.getAvatarSource;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             romeo = romeo.bind(kilo)(golf);
-            _fun91697_ip = 572; continue _fun91697;
+            _fun00002_ip = 572; continue _fun00001;
  495:
             sizing = _closure1_slot6;
             kilo = _closure1_slot1;
@@ -330,16 +330,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  572:
             golf = new Array(3);
             golf[0] = romeo;
-            if(!(backup != vacuum)) { _fun91697_ip = 861; continue _fun91697 }
+            if(!(backup != vacuum)) { _fun00002_ip = 861; continue _fun00001 }
  587:
             romeo = options.isSubscription;
-            if(!romeo) { _fun91697_ip = 603; continue _fun91697 }
+            if(!romeo) { _fun00002_ip = 603; continue _fun00001 }
  596:
-            if(!(backup == echo)) { _fun91697_ip = 739; continue _fun91697 }
+            if(!(backup == echo)) { _fun00002_ip = 739; continue _fun00001 }
  603:
             kilo = backup != verify;
             romeo = undefined;
-            if(!kilo) { _fun91697_ip = 737; continue _fun91697 }
+            if(!kilo) { _fun00002_ip = 737; continue _fun00001 }
  615:
             output = _closure1_slot6;
             update = _closure1_slot0;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['children'] = result;
             romeo = output.bind(tango)(sizing, kilo);
  737:
-            _fun91697_ip = 859; continue _fun91697;
+            _fun00002_ip = 859; continue _fun00001;
  739:
             output = _closure1_slot6;
             update = _closure1_slot0;
@@ -397,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo['children'] = result;
             romeo = output.bind(tango)(sizing, kilo);
  859:
-            _fun91697_ip = 968; continue _fun91697;
+            _fun00002_ip = 968; continue _fun00001;
  861:
             output = _closure1_slot6;
             control = _closure1_slot0;
@@ -426,9 +426,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  968:
             golf[1] = romeo;
             options = options.isSubscription;
-            if(!options) { _fun91697_ip = 988; continue _fun91697 }
+            if(!options) { _fun00002_ip = 988; continue _fun00001 }
  981:
-            if(!(backup == echo)) { _fun91697_ip = 1184; continue _fun91697 }
+            if(!(backup == echo)) { _fun00002_ip = 1184; continue _fun00001 }
  988:
             kilo = _closure1_slot6;
             source = _closure1_slot0;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = output.bind(result)(sizing);
             options['children'] = sizing;
             options = kilo.bind(tango)(romeo, options);
-            _fun91697_ip = 1265; continue _fun91697;
+            _fun00002_ip = 1265; continue _fun00001;
  1184:
             sizing = _closure1_slot6;
             result = _closure1_slot0;
@@ -553,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = 25;
             offset = offset[romeo];
             offset = kilo.bind(tango)(offset);
-            if(!(backup != verify)) { _fun91697_ip = 1465; continue _fun91697 }
+            if(!(backup != verify)) { _fun00002_ip = 1465; continue _fun00001 }
  1334:
             verify = {};
             result = _closure1_slot0;
@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             verify['onPress'] = yankee;
-            _fun91697_ip = 1605; continue _fun91697;
+            _fun00002_ip = 1605; continue _fun00001;
  1465:
             yankee = {};
             result = _closure1_slot0;

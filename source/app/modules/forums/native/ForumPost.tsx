@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     report = options.memo;
     tango = function(argFoo) {
-        _fun100462: for(var _fun100462_ip = 0; ; ) switch(_fun100462_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.threadId;
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(oscar)(mike);
             mike = tango.useFirstMediaIsEmbed;
             result = mike.bind(tango)(romeo, report);
-            if(!output) { _fun100462_ip = 628; continue _fun100462 }
+            if(!output) { _fun00002_ip = 628; continue _fun00001 }
  329:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -185,11 +185,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(oscar)(mike);
             mike = mike.ForumLayout;
             mike = mike.GRID;
-            if(!(zulu === mike)) { _fun100462_ip = 379; continue _fun100462 }
+            if(!(zulu === mike)) { _fun00002_ip = 379; continue _fun00001 }
  365:
             zulu = backup.length;
             mike = 0;
-            if(!(!(zulu > mike))) { _fun100462_ip = 523; continue _fun100462 }
+            if(!(!(zulu > mike))) { _fun00002_ip = 523; continue _fun00001 }
  379:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = sizing.bind(oscar)(verify, report);
             mike['children'] = report;
             mike = tango.bind(oscar)(zulu, mike);
-            _fun100462_ip = 625; continue _fun100462;
+            _fun00002_ip = 625; continue _fun00001;
  523:
             report = _closure1_slot5;
             tango = _closure1_slot0;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: ForumPostListDisabled
-        _fun100465: for(var _fun100465_ip = 0; ; ) switch(_fun100465_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             golf = entity.style;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['firstMessage'] = romeo;
             mike = zulu.bind(tango)(mike);
             yankee = mike.content;
-            if(!offset) { _fun100465_ip = 353; continue _fun100465 }
+            if(!offset) { _fun00004_ip = 353; continue _fun00003 }
  230:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;

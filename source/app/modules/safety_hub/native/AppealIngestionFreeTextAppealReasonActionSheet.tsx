@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/AppealIngestionFreeTextAppealReasonActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppealIngestionFreeTextAppealReasonActionSheet
-        _fun92743: for(var _fun92743_ip = 0; ; ) switch(_fun92743_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.onSave;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 1;
             result = zulu[entity];
             entity = '';
-            if(!(entity !== mike)) { _fun92743_ip = 193; continue _fun92743 }
+            if(!(entity !== mike)) { _fun00002_ip = 193; continue _fun00001 }
  136:
             report = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.tnE3bW;
             source = mike.bind(zulu)(entity);
-            _fun92743_ip = 248; continue _fun92743;
+            _fun00002_ip = 248; continue _fun00001;
  193:
             report = _closure1_slot0;
             oscar = _closure1_slot2;

@@ -1,6 +1,6 @@
 // app/Dispatcher.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun7350: for(var _fun7350_ip = 0; ; ) switch(_fun7350_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         zulu = argFred;
@@ -41,7 +41,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         verify = report.bind(verify)(offset);
         report = null;
         report = report != verify;
-        if(!report) { _fun7350_ip = 164; continue _fun7350 }
+        if(!report) { _fun00002_ip = 164; continue _fun00001 }
  161:
         report = verify;
  164:

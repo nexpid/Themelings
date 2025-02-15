@@ -1,6 +1,6 @@
 // app/modules/messages/BackgroundTaskManager.native.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun82213: for(var _fun82213_ip = 0; ; ) switch(_fun82213_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         verify = argBar;
         report = argBaz;
@@ -18,11 +18,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun82216: for(var _fun82216_ip = 0; ; ) switch(_fun82216_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun82216_ip = 102; continue _fun82216 }
+                        if(mike) { _fun00004_ip = 102; continue _fun00003 }
  9:
                         tango = _closure1_slot5;
                         var _closure4_slot0 = tango;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  42:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscar) { _fun82216_ip = 81; continue _fun82216 }
+                        if(oscar) { _fun00004_ip = 81; continue _fun00003 }
  48:
                         _closure4_slot0 = mike;
  52: // try_end0
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = oscar.isAndroid;
         report = report.bind(oscar)();
         oscar = -1;
-        if(report) { _fun82213_ip = 146; continue _fun82213 }
+        if(report) { _fun00002_ip = 146; continue _fun00001 }
  134:
         tango = tango.DCDBackgroundTaskManager;
         oscar = tango.backgroundTaskIdentifierInvalid;
  146:
         var _closure1_slot5 = oscar;
         report = function(argFoo) { // Original name: startBackgroundTask
-            _fun82218: for(var _fun82218_ip = 0; ; ) switch(_fun82218_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 zulu = _closure1_slot0;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu.bind(oscar)(mike);
                 mike = zulu.isAndroid;
                 mike = mike.bind(zulu)();
-                if(mike) { _fun82218_ip = 62; continue _fun82218 }
+                if(mike) { _fun00006_ip = 62; continue _fun00005 }
  40:
                 mike = _closure1_slot4;
                 zulu = mike.DCDBackgroundTaskManager;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return mike;
  62:
                 mike = null;
-                if(!(mike != entity)) { _fun82218_ip = 179; continue _fun82218 }
+                if(!(mike != entity)) { _fun00006_ip = 179; continue _fun00005 }
  68:
                 options = entity.title;
                 report = entity.content;
@@ -167,11 +167,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         };
         var _closure1_slot6 = report;
         tango = function(argFoo) { // Original name: endBackgroundTask
-            _fun82220: for(var _fun82220_ip = 0; ; ) switch(_fun82220_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zulu = argFoo;
                 mike = _closure1_slot5;
-                if(!(zulu !== mike)) { _fun82220_ip = 102; continue _fun82220 }
+                if(!(zulu !== mike)) { _fun00008_ip = 102; continue _fun00007 }
  14:
                 report = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = report.bind(tango)(mike);
                 mike = report.isAndroid;
                 mike = mike.bind(report)();
-                if(mike) { _fun82220_ip = 71; continue _fun82220 }
+                if(mike) { _fun00008_ip = 71; continue _fun00007 }
  48:
                 mike = _closure1_slot4;
                 report = mike.DCDBackgroundTaskManager;
                 mike = report.endBackgroundTask;
                 mike = mike.bind(report)(zulu);
-                _fun82220_ip = 102; continue _fun82220;
+                _fun00008_ip = 102; continue _fun00007;
  71:
                 mike = _closure1_slot1;
                 report = _closure1_slot2;

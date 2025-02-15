@@ -29,24 +29,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/getGamePlatform.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getGamePlatform
-        _fun118280: for(var _fun118280_ip = 0; ; ) switch(_fun118280_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = null;
             mike = report == tango;
             entity = null;
-            if(mike) { _fun118280_ip = 125; continue _fun118280 }
+            if(mike) { _fun00002_ip = 125; continue _fun00001 }
  14:
             mike = tango.type;
             mike = report == mike;
             entity = null;
-            if(mike) { _fun118280_ip = 125; continue _fun118280 }
+            if(mike) { _fun00002_ip = 125; continue _fun00001 }
  28:
             oscar = tango.type;
             mike = _closure1_slot2;
             mike = mike.PLAYING;
             entity = null;
-            if(!(oscar === mike)) { _fun118280_ip = 125; continue _fun118280 }
+            if(!(oscar === mike)) { _fun00002_ip = 125; continue _fun00001 }
  52:
             golf = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -55,18 +55,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             mike = golf.bind(oscar)(mike);
             mike = mike.bind(oscar)(tango);
-            if(mike) { _fun118280_ip = 112; continue _fun118280 }
+            if(mike) { _fun00002_ip = 112; continue _fun00001 }
  82:
             mike = tango.platform;
-            if(!(report == mike)) { _fun118280_ip = 104; continue _fun118280 }
+            if(!(report == mike)) { _fun00002_ip = 104; continue _fun00001 }
  92:
             mike = _closure1_slot3;
             mike = mike.DESKTOP;
-            _fun118280_ip = 110; continue _fun118280;
+            _fun00002_ip = 110; continue _fun00001;
  104:
             mike = tango.platform;
  110:
-            _fun118280_ip = 122; continue _fun118280;
+            _fun00002_ip = 122; continue _fun00001;
  112:
             zulu = _closure1_slot3;
             mike = zulu.XBOX;

@@ -23,11 +23,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun96268: for(var _fun96268_ip = 0; ; ) switch(_fun96268_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun96268_ip = 506; continue _fun96268 }
+                    if(mike) { _fun00002_ip = 506; continue _fun00001 }
  12:
                     mike = undefined;
                     offset = undefined;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = undefined;
                     tango = _closure1_slot5;
                     tango = tango.isFetchingActiveOutboundPromotions;
-                    if(tango) { _fun96268_ip = 503; continue _fun96268 }
+                    if(tango) { _fun00002_ip = 503; continue _fun00001 }
  43: // try_start_0
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -63,10 +63,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(romeo)(report, tango);
                     report = tango.previewEnabled;
                     tango = _closure1_slot7;
-                    if(report) { _fun96268_ip = 161; continue _fun96268 }
+                    if(report) { _fun00002_ip = 161; continue _fun00001 }
  153:
                     romeo = tango.OUTBOUND_PROMOTIONS;
-                    _fun96268_ip = 167; continue _fun96268;
+                    _fun00002_ip = 167; continue _fun00001;
  161:
                     romeo = tango.OUTBOUND_PROMOTIONS_PREVIEW;
  167:
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  242:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun96268_ip = 456; continue _fun96268 }
+                    if(report) { _fun00002_ip = 456; continue _fun00001 }
  251:
                     offset = tango.body;
                     report = _closure1_slot5;
                     options = report.consumedInboundPromotionId;
                     report = _closure1_slot5;
                     report = report.hasFetchedConsumedInboundPromotionId;
-                    if(report) { _fun96268_ip = 385; continue _fun96268 }
+                    if(report) { _fun00002_ip = 385; continue _fun00001 }
  279:
                     oscar = _closure1_slot0;
                     romeo = _closure1_slot2;
@@ -115,17 +115,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return report;
  319:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscar) { _fun96268_ip = 382; continue _fun96268 }
+                    if(oscar) { _fun00002_ip = 382; continue _fun00001 }
  325:
                     romeo = report.find;
                     oscar = function(argFoo) {
-                        _fun96269: for(var _fun96269_ip = 0; ; ) switch(_fun96269_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             mike = argFoo;
                             zulu = mike.promotion_id;
                             entity = null;
                             entity = entity != zulu;
-                            if(!entity) { _fun96269_ip = 30; continue _fun96269 }
+                            if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  18:
                             zulu = mike.consumed;
                             mike = true;
@@ -139,19 +139,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = null;
                     backup = oscar == romeo;
                     romeo = undefined;
-                    if(backup) { _fun96268_ip = 362; continue _fun96268 }
+                    if(backup) { _fun00002_ip = 362; continue _fun00001 }
  356:
                     romeo = foxtrot.promotion_id;
  362:
                     yankee = romeo;
                     romeo = oscar != romeo;
                     oscar = null;
-                    if(!romeo) { _fun96268_ip = 377; continue _fun96268 }
+                    if(!romeo) { _fun00002_ip = 377; continue _fun00001 }
  374:
                     oscar = yankee;
  377:
                     options = oscar;
-                    _fun96268_ip = 385; continue _fun96268;
+                    _fun00002_ip = 385; continue _fun00001;
  382: // try_end0
                     return report;
  385: // try_start_1
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report['consumedInboundPromotionId'] = options;
                     report = oscar.bind(golf)(report);
  454: // try_end1
-                    _fun96268_ip = 503; continue _fun96268;
+                    _fun00002_ip = 503; continue _fun00001;
  456:
                     return tango;
  459: // catch_target0 // catch_target1
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     tango = function() { // Original name: dismissOutboundPromotionNotice
-        _fun96271: for(var _fun96271_ip = 0; ; ) switch(_fun96271_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.lastDismissedOutboundPromotionStartDate;
             var _closure2_slot0 = report;
             tango = null;
-            if(!(tango != report)) { _fun96271_ip = 140; continue _fun96271 }
+            if(!(tango != report)) { _fun00006_ip = 140; continue _fun00005 }
  69:
             tango = _closure1_slot0;
             golf = _closure1_slot2;
@@ -285,15 +285,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun96276: for(var _fun96276_ip = 0; ; ) switch(_fun96276_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun96276_ip = 289; continue _fun96276 }
+                    if(mike) { _fun00008_ip = 289; continue _fun00007 }
  10:
                     zulu = _closure1_slot5;
                     zulu = zulu.isFetchingActiveBogoPromotion;
-                    if(zulu) { _fun96276_ip = 284; continue _fun96276 }
+                    if(zulu) { _fun00008_ip = 284; continue _fun00007 }
  31: // try_start_0
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  151:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun96276_ip = 235; continue _fun96276 }
+                    if(report) { _fun00008_ip = 235; continue _fun00007 }
  157:
                     verify = zulu.body;
                     report = _closure1_slot1;
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango['activePromotion'] = golf;
                     tango = report.bind(oscar)(tango);
  233: // try_end0
-                    _fun96276_ip = 284; continue _fun96276;
+                    _fun00008_ip = 284; continue _fun00007;
  235:
                     return zulu;
  238: // catch_target0

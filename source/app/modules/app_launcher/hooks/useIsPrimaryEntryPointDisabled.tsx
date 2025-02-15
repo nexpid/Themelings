@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_launcher/hooks/useIsPrimaryEntryPointDisabled.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsPrimaryEntryPointDisabled
-        _fun119007: for(var _fun119007_ip = 0; ; ) switch(_fun119007_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = zulu.context;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.type;
             zulu = 'channel';
             verify = undefined;
-            if(!(zulu === tango)) { _fun119007_ip = 47; continue _fun119007 }
+            if(!(zulu === tango)) { _fun00002_ip = 47; continue _fun00001 }
  42:
             verify = entity.channel;
  47:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = null;
             options = report == verify;
             zulu = undefined;
-            if(options) { _fun119007_ip = 138; continue _fun119007 }
+            if(options) { _fun00002_ip = 138; continue _fun00001 }
  133:
             zulu = verify.id;
  138:
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.ActivityAction;
             romeo = tango.LEAVE;
             oscar = false;
-            if(!(romeo !== yankee)) { _fun119007_ip = 420; continue _fun119007 }
+            if(!(romeo !== yankee)) { _fun00002_ip = 420; continue _fun00001 }
  184:
             backup = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = backup.bind(golf)(romeo);
             romeo = romeo.ActivityAction;
             romeo = romeo.START;
-            if(!(romeo !== yankee)) { _fun119007_ip = 317; continue _fun119007 }
+            if(!(romeo !== yankee)) { _fun00002_ip = 317; continue _fun00001 }
  217:
             backup = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -108,13 +108,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = romeo.ActivityAction;
             romeo = romeo.JOIN;
             oscar = false;
-            if(!(romeo === yankee)) { _fun119007_ip = 420; continue _fun119007 }
+            if(!(romeo === yankee)) { _fun00002_ip = 420; continue _fun00001 }
  255:
-            if(!(report != verify)) { _fun119007_ip = 272; continue _fun119007 }
+            if(!(report != verify)) { _fun00002_ip = 272; continue _fun00001 }
  259:
             romeo = verify.isGuildVoice;
             romeo = romeo.bind(verify)();
-            if(romeo) { _fun119007_ip = 312; continue _fun119007 }
+            if(romeo) { _fun00002_ip = 312; continue _fun00001 }
  272:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -124,23 +124,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = backup.isActivitiesInTextEnabled;
             romeo = romeo.bind(backup)(verify);
             oscar = false;
-            if(romeo) { _fun119007_ip = 420; continue _fun119007 }
+            if(romeo) { _fun00002_ip = 420; continue _fun00001 }
  308:
             oscar = true;
-            _fun119007_ip = 420; continue _fun119007;
+            _fun00002_ip = 420; continue _fun00001;
  312:
             oscar = !mike;
-            _fun119007_ip = 420; continue _fun119007;
+            _fun00002_ip = 420; continue _fun00001;
  317:
             mike = report == verify;
             oscar = false;
-            if(mike) { _fun119007_ip = 420; continue _fun119007 }
+            if(mike) { _fun00002_ip = 420; continue _fun00001 }
  326:
-            if(!(report != verify)) { _fun119007_ip = 343; continue _fun119007 }
+            if(!(report != verify)) { _fun00002_ip = 343; continue _fun00001 }
  330:
             mike = verify.isGuildVoice;
             mike = mike.bind(verify)();
-            if(mike) { _fun119007_ip = 383; continue _fun119007 }
+            if(mike) { _fun00002_ip = 383; continue _fun00001 }
  343:
             romeo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -150,10 +150,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = romeo.isActivitiesInTextEnabled;
             mike = mike.bind(romeo)(verify);
             oscar = false;
-            if(mike) { _fun119007_ip = 420; continue _fun119007 }
+            if(mike) { _fun00002_ip = 420; continue _fun00001 }
  379:
             oscar = true;
-            _fun119007_ip = 420; continue _fun119007;
+            _fun00002_ip = 420; continue _fun00001;
  383:
             romeo = _closure1_slot0;
             mike = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.EmbeddedActivityLaunchability;
             mike = mike.CAN_LAUNCH;
             oscar = false;
-            if(!(zulu !== mike)) { _fun119007_ip = 420; continue _fun119007 }
+            if(!(zulu !== mike)) { _fun00002_ip = 420; continue _fun00001 }
  418:
             oscar = true;
  420:
@@ -174,14 +174,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = mike.LEAVE;
             mike = undefined;
             zulu = oscar;
-            if(!(yankee !== options)) { _fun119007_ip = 701; continue _fun119007 }
+            if(!(yankee !== options)) { _fun00002_ip = 701; continue _fun00001 }
  461:
             options = _closure1_slot3;
             options = offset instanceof options;
-            if(options) { _fun119007_ip = 480; continue _fun119007 }
+            if(options) { _fun00002_ip = 480; continue _fun00001 }
  472:
             options = offset.embedded_activity_config;
-            _fun119007_ip = 486; continue _fun119007;
+            _fun00002_ip = 486; continue _fun00001;
  480:
             options = offset.embeddedActivityConfig;
  486:
@@ -197,12 +197,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset = romeo.getOS;
             offset = offset.bind(romeo)();
             yankee = yankee.bind(golf)(offset);
-            if(!(report != options)) { _fun119007_ip = 619; continue _fun119007 }
+            if(!(report != options)) { _fun00002_ip = 619; continue _fun00001 }
  541:
             offset = options.supported_platforms;
             options = offset.includes;
             options = options.bind(offset)(yankee);
-            if(options) { _fun119007_ip = 619; continue _fun119007 }
+            if(options) { _fun00002_ip = 619; continue _fun00001 }
  560:
             romeo = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -217,17 +217,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.z2YTgI;
             mike = offset.bind(yankee)(options);
             zulu = false;
-            _fun119007_ip = 701; continue _fun119007;
+            _fun00002_ip = 701; continue _fun00001;
  619:
             tango = report != verify;
-            if(!tango) { _fun119007_ip = 636; continue _fun119007 }
+            if(!tango) { _fun00002_ip = 636; continue _fun00001 }
  626:
             options = verify.isThread;
             tango = options.bind(verify)();
  636:
             mike = undefined;
             zulu = oscar;
-            if(!tango) { _fun119007_ip = 701; continue _fun119007 }
+            if(!tango) { _fun00002_ip = 701; continue _fun00001 }
  644:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -244,11 +244,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = true;
  701:
             tango = zulu;
-            if(!tango) { _fun119007_ip = 711; continue _fun119007 }
+            if(!tango) { _fun00002_ip = 711; continue _fun00001 }
  707:
             tango = report == mike;
  711:
-            if(!tango) { _fun119007_ip = 769; continue _fun119007 }
+            if(!tango) { _fun00002_ip = 769; continue _fun00001 }
  714:
             oscar = _closure1_slot0;
             options = _closure1_slot2;

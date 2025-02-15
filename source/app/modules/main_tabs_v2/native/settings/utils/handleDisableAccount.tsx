@@ -31,16 +31,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/settings/utils/handleDisableAccount.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: handleDisableAccount
-        _fun94688: for(var _fun94688_ip = 0; ; ) switch(_fun94688_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[0];
             entity = undefined;
-            if(!(zulu === entity)) { _fun94688_ip = 13; continue _fun94688 }
+            if(!(zulu === entity)) { _fun00002_ip = 13; continue _fun00001 }
  11:
             zulu = false;
  13:
             tango = function() { // Original name: hasOwnedGuilds
-                _fun94689: for(var _fun94689_ip = 0; ; ) switch(_fun94689_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot3;
                     entity = tango.getGuilds;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     var _closure3_slot1 = tango;
                     entity = null;
                     entity = entity != tango;
-                    if(!entity) { _fun94689_ip = 109; continue _fun94689 }
+                    if(!entity) { _fun00004_ip = 109; continue _fun00003 }
  49:
                     oscar = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -82,9 +82,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             tango = tango.bind(entity)();
-            if(tango) { _fun94688_ip = 87; continue _fun94688 }
+            if(tango) { _fun00002_ip = 87; continue _fun00001 }
  27:
-            if(zulu) { _fun94688_ip = 43; continue _fun94688 }
+            if(zulu) { _fun00002_ip = 43; continue _fun00001 }
  30:
             zulu = function() { // Original name: getDisableAlertProps
                 golf = _closure1_slot0;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             zulu = zulu.bind(entity)();
-            _fun94688_ip = 54; continue _fun94688;
+            _fun00002_ip = 54; continue _fun00001;
  43:
             mike = function() { // Original name: getDeleteAlertProps
                 golf = _closure1_slot0;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report[mike];
             mike = tango.bind(entity)(mike);
             mike = mike.bind(entity)(zulu);
-            _fun94688_ip = 226; continue _fun94688;
+            _fun00002_ip = 226; continue _fun00001;
  87:
             options = _closure1_slot0;
             tango = _closure1_slot2;

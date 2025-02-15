@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/list/ForumPostList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostList
-        _fun100596: for(var _fun100596_ip = 0; ; ) switch(_fun100596_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             source = entity.messageContent;
@@ -107,12 +107,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = vacuum.content;
             report['style'] = golf;
             golf = sizing;
-            if(sizing) { _fun100596_ip = 195; continue _fun100596 }
+            if(sizing) { _fun00002_ip = 195; continue _fun00001 }
  186:
             options = papa.length;
             golf = sequence !== options;
  195:
-            if(!golf) { _fun100596_ip = 345; continue _fun100596 }
+            if(!golf) { _fun00002_ip = 345; continue _fun00001 }
  201:
             kilo = _closure1_slot7;
             backup = _closure1_slot4;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = vacuum.header;
             options['style'] = vacuum;
             vacuum = sizing;
-            if(!vacuum) { _fun100596_ip = 258; continue _fun100596 }
+            if(!vacuum) { _fun00002_ip = 258; continue _fun00001 }
  226:
             record = _closure1_slot6;
             config = _closure1_slot1;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = vacuum;
             vacuum = papa.length;
             vacuum = sequence !== vacuum;
-            if(!vacuum) { _fun100596_ip = 331; continue _fun100596 }
+            if(!vacuum) { _fun00002_ip = 331; continue _fun00001 }
  278:
             record = _closure1_slot6;
             config = _closure1_slot0;

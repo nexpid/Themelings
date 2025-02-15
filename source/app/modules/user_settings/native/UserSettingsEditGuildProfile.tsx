@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/UserSettingsEditGuildProfile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: UserSettingsEditGuildProfile
-        _fun93346: for(var _fun93346_ip = 0; ; ) switch(_fun93346_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot8;
             tango = undefined;
@@ -119,17 +119,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = yankee;
             zulu[1] = golf;
             mike = function() {
-                _fun93348: for(var _fun93348_ip = 0; ; ) switch(_fun93348_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun93348_ip = 24; continue _fun93348 }
+                    if(!mike) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     zulu = _closure2_slot1;
                     mike = tango != zulu;
  24:
-                    if(!mike) { _fun93348_ip = 137; continue _fun93348 }
+                    if(!mike) { _fun00004_ip = 137; continue _fun00003 }
  27:
                     oscar = _closure1_slot0;
                     tango = _closure1_slot2;
@@ -163,9 +163,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = report.bind(oscar)(mike, zulu);
             mike = null;
-            if(!(mike != yankee)) { _fun93346_ip = 436; continue _fun93346 }
+            if(!(mike != yankee)) { _fun00002_ip = 436; continue _fun00001 }
  161:
-            if(!(mike != golf)) { _fun93346_ip = 436; continue _fun93346 }
+            if(!(mike != golf)) { _fun00002_ip = 436; continue _fun00001 }
  168:
             mike = function(argFoo) { // Original name: onSelectGuild
                 mike = _closure2_slot2;

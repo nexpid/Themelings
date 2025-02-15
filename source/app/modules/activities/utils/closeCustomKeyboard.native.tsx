@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/closeCustomKeyboard.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: closeCustomKeyboard
-        _fun74974: for(var _fun74974_ip = 0; ; ) switch(_fun74974_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = argFoo;
             zulu = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike != zulu)) { _fun74974_ip = 54; continue _fun74974 }
+            if(!(mike != zulu)) { _fun00002_ip = 54; continue _fun00001 }
  44:
             mike = zulu.closeCustomKeyboard;
             mike = mike.bind(zulu)();

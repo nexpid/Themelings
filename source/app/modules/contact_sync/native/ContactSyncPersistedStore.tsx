@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     yankee = romeo.asyncGet;
     offset = 'ContactSyncDMListCTADismissed';
     verify = function(argFoo) {
-        _fun94015: for(var _fun94015_ip = 0; ; ) switch(_fun94015_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = global;
             report = tango.Boolean;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = 'contact_sync_dm_list_cta_first_seen_date';
             report = oscar.bind(golf)(report);
             oscar = null;
-            if(!(oscar == report)) { _fun94015_ip = 89; continue _fun94015 }
+            if(!(oscar == report)) { _fun00002_ip = 89; continue _fun00001 }
  74:
             golf = tango.Date;
             oscar = golf.now;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(oscar)();
             report = tango - report;
             tango = 5184000000.0;
-            if(!(report > tango)) { _fun94015_ip = 128; continue _fun94015 }
+            if(!(report > tango)) { _fun00002_ip = 128; continue _fun00001 }
  122:
             tango = true;
             _closure2_slot0 = tango;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['setStoredContacts'] = report;
     report = function() {
-        _fun94019: for(var _fun94019_ip = 0; ; ) switch(_fun94019_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             oscar = entity != zulu;
             entity = '';
-            if(!oscar) { _fun94019_ip = 62; continue _fun94019 }
+            if(!oscar) { _fun00004_ip = 62; continue _fun00003 }
  59:
             entity = zulu;
  62:
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['dismissDMListCTA'] = tango;
     tango = function() { // Original name: setDMListCTAFirstSeenDate
-        _fun94028: for(var _fun94028_ip = 0; ; ) switch(_fun94028_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = _closure1_slot0;
             entity = _closure1_slot2;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.get;
             report = 'contact_sync_dm_list_cta_first_seen_date';
             zulu = zulu.bind(oscar)(report);
-            if(zulu) { _fun94028_ip = 100; continue _fun94028 }
+            if(zulu) { _fun00006_ip = 100; continue _fun00005 }
  49:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;

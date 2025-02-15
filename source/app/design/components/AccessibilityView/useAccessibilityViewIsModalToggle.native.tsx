@@ -27,12 +27,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/AccessibilityView/useAccessibilityViewIsModalToggle.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useAccessibilityViewIsModalToggle
-        _fun47907: for(var _fun47907_ip = 0; ; ) switch(_fun47907_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = zulu.accessibilityViewIsModal;
             entity = undefined;
-            if(!(golf === entity)) { _fun47907_ip = 19; continue _fun47907 }
+            if(!(golf === entity)) { _fun00002_ip = 19; continue _fun00001 }
  17:
             golf = false;
  19:
@@ -50,20 +50,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = golf;
             tango[1] = zulu;
             zulu = function() {
-                _fun47908: for(var _fun47908_ip = 0; ; ) switch(_fun47908_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = arguments[0];
                     entity = undefined;
-                    if(!(mike === entity)) { _fun47908_ip = 16; continue _fun47908 }
+                    if(!(mike === entity)) { _fun00004_ip = 16; continue _fun00003 }
  9:
                     mike = _closure2_slot0;
  16:
-                    if(mike) { _fun47908_ip = 96; continue _fun47908 }
+                    if(mike) { _fun00004_ip = 96; continue _fun00003 }
  22:
                     mike = _closure2_slot2;
                     oscar = mike.current;
                     mike = null;
-                    if(!(mike != oscar)) { _fun47908_ip = 181; continue _fun47908 }
+                    if(!(mike != oscar)) { _fun00004_ip = 181; continue _fun00003 }
  40:
                     mike = _closure2_slot2;
                     mike['current'] = entity;
@@ -76,16 +76,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(1);
                     mike[0] = oscar;
                     mike = tango.bind(report)(mike);
-                    _fun47908_ip = 181; continue _fun47908;
+                    _fun00004_ip = 181; continue _fun00003;
  96:
                     tango = _closure2_slot1;
                     mike = null;
-                    if(!(mike != tango)) { _fun47908_ip = 183; continue _fun47908 }
+                    if(!(mike != tango)) { _fun00004_ip = 183; continue _fun00003 }
  106:
                     mike = _closure2_slot2;
                     tango = mike.current;
                     mike = _closure2_slot1;
-                    if(!(tango !== mike)) { _fun47908_ip = 181; continue _fun47908 }
+                    if(!(tango !== mike)) { _fun00004_ip = 181; continue _fun00003 }
  123:
                     mike = _closure2_slot2;
                     report = _closure2_slot1;

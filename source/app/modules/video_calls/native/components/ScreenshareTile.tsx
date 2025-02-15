@@ -69,17 +69,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/ScreenshareTile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun75092: for(var _fun75092_ip = 0; ; ) switch(_fun75092_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.onSingleTap;
             tango = undefined;
-            if(!(report === tango)) { _fun75092_ip = 22; continue _fun75092 }
+            if(!(report === tango)) { _fun00002_ip = 22; continue _fun00001 }
  15:
             report = _closure1_slot5;
  22:
             zulu = entity.onDoubleTap;
-            if(!(zulu === tango)) { _fun75092_ip = 39; continue _fun75092 }
+            if(!(zulu === tango)) { _fun00002_ip = 39; continue _fun00001 }
  32:
             zulu = _closure1_slot5;
  39:

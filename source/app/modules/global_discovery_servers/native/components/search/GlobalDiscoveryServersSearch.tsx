@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/global_discovery_servers/native/components/search/GlobalDiscoveryServersSearch.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: GlobalDiscoveryServersSearch
-        _fun118052: for(var _fun118052_ip = 0; ; ) switch(_fun118052_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot7;
             tango = undefined;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = _closure1_slot5;
             options = _closure1_slot1;
             offset = _closure1_slot2;
-            if(oscar) { _fun118052_ip = 258; continue _fun118052 }
+            if(oscar) { _fun00002_ip = 258; continue _fun00001 }
  220:
             oscar = 11;
             oscar = offset[oscar];
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.searchResults;
             oscar['contentContainerStyle'] = yankee;
             oscar = verify.bind(tango)(golf, oscar);
-            _fun118052_ip = 278; continue _fun118052;
+            _fun00002_ip = 278; continue _fun00001;
  258:
             golf = 10;
             golf = offset[golf];

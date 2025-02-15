@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = false;
             zulu['isInitialSearchTabs'] = report;
             tango = function(argFoo) {
-                _fun113150: for(var _fun113150_ip = 0; ; ) switch(_fun113150_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     report = entity.isInitialSearchQuery;
@@ -70,17 +70,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = oscar.searchContext;
                     golf = undefined;
                     oscar = options.bind(golf)(oscar);
-                    if(oscar) { _fun113150_ip = 359; continue _fun113150 }
+                    if(oscar) { _fun00002_ip = 359; continue _fun00001 }
  54:
-                    if(report) { _fun113150_ip = 201; continue _fun113150 }
+                    if(report) { _fun00002_ip = 201; continue _fun00001 }
  60:
-                    if(tango) { _fun113150_ip = 142; continue _fun113150 }
+                    if(tango) { _fun00002_ip = 142; continue _fun00001 }
  63:
                     tango = _closure1_slot6;
                     tango = tango.MESSAGES;
                     report = zulu[tango];
                     tango = null;
-                    if(!(tango != report)) { _fun113150_ip = 138; continue _fun113150 }
+                    if(!(tango != report)) { _fun00002_ip = 138; continue _fun00001 }
  83:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = false;
                     oscar['isInitialSearchTabs'] = report;
                     report = tango;
-                    _fun113150_ip = 252; continue _fun113150;
+                    _fun00002_ip = 252; continue _fun00001;
  138:
                     tango = false;
                     return tango;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.isInitialSearchTabs;
                     report = verify.bind(offset)(options, oscar, tango);
                     zulu = null;
-                    _fun113150_ip = 252; continue _fun113150;
+                    _fun00002_ip = 252; continue _fun00001;
  201:
                     oscar = _closure1_slot0;
                     options = _closure1_slot2;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = entity.searchTabs;
                     tango = tango.bind(golf)(entity);
                     entity = false;
-                    if(!(oscar !== tango)) { _fun113150_ip = 331; continue _fun113150 }
+                    if(!(oscar !== tango)) { _fun00002_ip = 331; continue _fun00001 }
  319:
                     tango = _closure3_slot0;
                     tango['searchTabs'] = report;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  331:
                     tango = _closure3_slot0;
                     tango = tango.displayedSearchTabCounts;
-                    if(!(zulu !== tango)) { _fun113150_ip = 357; continue _fun113150 }
+                    if(!(zulu !== tango)) { _fun00002_ip = 357; continue _fun00001 }
  345:
                     mike = _closure3_slot0;
                     mike['displayedSearchTabCounts'] = zulu;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.searchTabs;
             zulu = tango.forEach;
             mike = function(argFoo) {
-                _fun113152: for(var _fun113152_ip = 0; ; ) switch(_fun113152_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscar = argFoo;
                     tango = {};
@@ -214,14 +214,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['page'] = report;
                     report = zulu.displayedSearchTabCounts;
                     zulu = null;
-                    if(!(zulu != report)) { _fun113152_ip = 149; continue _fun113152 }
+                    if(!(zulu != report)) { _fun00004_ip = 149; continue _fun00003 }
  117:
                     report = _closure3_slot0;
                     report = report.displayedSearchTabCounts;
                     report = report[oscar];
                     oscar = zulu != report;
                     zulu = undefined;
-                    if(!oscar) { _fun113152_ip = 143; continue _fun113152 }
+                    if(!oscar) { _fun00004_ip = 143; continue _fun00003 }
  140:
                     zulu = report;
  143:

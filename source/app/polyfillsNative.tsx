@@ -1,6 +1,6 @@
 // app/polyfillsNative.tsx
 export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
-    _fun108336: for(var _fun108336_ip = 0; ; ) switch(_fun108336_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         options = argFoo;
         zulu = argBar;
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         oscar = report.process;
         golf = 'undefined';
         oscar = typeof oscar;
-        if(!(golf === oscar)) { _fun108336_ip = 93; continue _fun108336 }
+        if(!(golf === oscar)) { _fun00002_ip = 93; continue _fun00001 }
  79:
         golf = report.window;
         oscar = {};
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         golf['nextTick'] = oscar;
         golf = options.location;
         oscar = null;
-        if(!(oscar == golf)) { _fun108336_ip = 186; continue _fun108336 }
+        if(!(oscar == golf)) { _fun00002_ip = 186; continue _fun00001 }
  128:
         golf = {};
         verify = 'https:';
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         offset = verify.LOCATION_HOST;
         yankee = oscar != offset;
         verify = 'discord.com';
-        if(!yankee) { _fun108336_ip = 175; continue _fun108336 }
+        if(!yankee) { _fun00002_ip = 175; continue _fun00001 }
  172:
         verify = offset;
  175:
@@ -52,13 +52,13 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         options['location'] = golf;
  186:
         golf = options.self;
-        if(golf) { _fun108336_ip = 201; continue _fun108336 }
+        if(golf) { _fun00002_ip = 201; continue _fun00001 }
  195:
         options['self'] = options;
  201:
         golf = report.window;
         golf = golf.crypto;
-        if(!(oscar == golf)) { _fun108336_ip = 247; continue _fun108336 }
+        if(!(oscar == golf)) { _fun00002_ip = 247; continue _fun00001 }
  217:
         golf = 4;
         golf = tango[golf];
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         verify['crypto'] = golf;
  247:
         golf = options.Buffer;
-        if(!(oscar == golf)) { _fun108336_ip = 281; continue _fun108336 }
+        if(!(oscar == golf)) { _fun00002_ip = 281; continue _fun00001 }
  257:
         golf = 5;
         golf = tango[golf];
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         options['Buffer'] = golf;
  281:
         golf = options.__reanimatedWorkletInit;
-        if(!(oscar == golf)) { _fun108336_ip = 304; continue _fun108336 }
+        if(!(oscar == golf)) { _fun00002_ip = 304; continue _fun00001 }
  291:
         golf = function() {
             entity = undefined;
@@ -102,13 +102,13 @@ export default (function(argFoo, argBar, _, __, ___, ____, argPlugh) {
         mike = report.window;
         mike = mike.TextEncoder;
         mike = oscar != mike;
-        if(!mike) { _fun108336_ip = 380; continue _fun108336 }
+        if(!mike) { _fun00002_ip = 380; continue _fun00001 }
  364:
         report = report.window;
         report = report.TextDecoder;
         mike = oscar != report;
  380:
-        if(mike) { _fun108336_ip = 395; continue _fun108336 }
+        if(mike) { _fun00002_ip = 395; continue _fun00001 }
  383:
         mike = 6;
         mike = tango[mike];

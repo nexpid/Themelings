@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun112781: for(var _fun112781_ip = 0; ; ) switch(_fun112781_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             kilo = mike.channelId;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.setSuggestionsDismissed;
             oscar = mike.showBackButton;
             tango = undefined;
-            if(!(oscar === tango)) { _fun112781_ip = 57; continue _fun112781 }
+            if(!(oscar === tango)) { _fun00002_ip = 57; continue _fun00001 }
  55:
             oscar = true;
  57:
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['setSuggestionsDismissed'] = report;
             foxtrot = null;
             report = null;
-            if(!oscar) { _fun112781_ip = 307; continue _fun112781 }
+            if(!oscar) { _fun00002_ip = 307; continue _fun00001 }
  186:
             options = _closure1_slot5;
             golf = _closure1_slot0;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {};
             backup = 'button';
             oscar['accessibilityRole'] = backup;
-            if(!(foxtrot != romeo)) { _fun112781_ip = 233; continue _fun112781 }
+            if(!(foxtrot != romeo)) { _fun00002_ip = 233; continue _fun00001 }
  230:
             yankee = romeo;
  233:

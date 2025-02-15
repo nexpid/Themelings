@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_progress/native/components/GuildProgressItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildProgressItem
-        _fun101642: for(var _fun101642_ip = 0; ; ) switch(_fun101642_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.guild;
@@ -57,10 +57,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.bind(tango)(entity);
             entity = {};
             verify = function() { // Original name: onPress
-                _fun101643: for(var _fun101643_ip = 0; ; ) switch(_fun101643_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
-                    if(entity) { _fun101643_ip = 55; continue _fun101643 }
+                    if(entity) { _fun00004_ip = 55; continue _fun00003 }
  10:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -105,11 +105,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 0;
             verify = options > report;
             report = undefined;
-            if(!verify) { _fun101642_ip = 208; continue _fun101642 }
+            if(!verify) { _fun00002_ip = 208; continue _fun00001 }
  192:
             golf = options < golf;
             report = undefined;
-            if(!golf) { _fun101642_ip = 208; continue _fun101642 }
+            if(!golf) { _fun00002_ip = 208; continue _fun00001 }
  201:
             report = function() {
                 tango = _closure1_slot3;

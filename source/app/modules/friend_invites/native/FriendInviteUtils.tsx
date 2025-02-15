@@ -101,19 +101,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['revokeAllFriendInvites'] = tango;
     mike = function(argFoo, argBar) { // Original name: acceptFriendInvite
-        _fun123009: for(var _fun123009_ip = 0; ; ) switch(_fun123009_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
             entity = golf.channel;
             mike = null;
-            if(!(mike == entity)) { _fun123009_ip = 219; continue _fun123009 }
+            if(!(mike == entity)) { _fun00002_ip = 219; continue _fun00001 }
  23:
             entity = golf.guild;
-            if(!(mike == entity)) { _fun123009_ip = 219; continue _fun123009 }
+            if(!(mike == entity)) { _fun00002_ip = 219; continue _fun00001 }
  35:
             entity = golf.inviter;
-            if(!(mike != entity)) { _fun123009_ip = 219; continue _fun123009 }
+            if(!(mike != entity)) { _fun00002_ip = 219; continue _fun00001 }
  48:
             report = _closure1_slot4;
             tango = report.isFriend;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.id;
             zulu = tango.bind(report)(zulu);
             report = null;
-            if(!zulu) { _fun123009_ip = 108; continue _fun123009 }
+            if(!zulu) { _fun00002_ip = 108; continue _fun00001 }
  82:
             options = _closure1_slot3;
             tango = options.getDMFromUserId;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.id;
             report = tango.bind(options)(zulu);
  108:
-            if(!(mike == report)) { _fun123009_ip = 178; continue _fun123009 }
+            if(!(mike == report)) { _fun00002_ip = 178; continue _fun00001 }
  112:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = argBar;
             mike['context'] = golf;
             oscar = function() { // Original name: callback
-                _fun123010: for(var _fun123010_ip = 0; ; ) switch(_fun123010_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     offset = null;
                     romeo = offset == yankee;
                     offset = undefined;
-                    if(romeo) { _fun123010_ip = 120; continue _fun123010 }
+                    if(romeo) { _fun00004_ip = 120; continue _fun00003 }
  115:
                     offset = yankee.username;
  120:
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             mike['callback'] = oscar;
             mike = zulu.bind(tango)(mike);
-            _fun123009_ip = 219; continue _fun123009;
+            _fun00002_ip = 219; continue _fun00001;
  178:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;

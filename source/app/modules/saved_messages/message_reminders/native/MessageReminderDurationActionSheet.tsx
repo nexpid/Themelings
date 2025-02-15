@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/saved_messages/message_reminders/native/MessageReminderDurationActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MessageReminderDurationActionSheet
-        _fun89069: for(var _fun89069_ip = 0; ; ) switch(_fun89069_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.createReminder;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             kilo = verify == backup;
             verify = undefined;
-            if(kilo) { _fun89069_ip = 261; continue _fun89069 }
+            if(kilo) { _fun00002_ip = 261; continue _fun00001 }
  249:
             backup = backup.saveData;
             verify = backup.dueAt;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = options.duration;
             zulu[2] = yankee;
             entity = function() {
-                _fun89075: for(var _fun89075_ip = 0; ; ) switch(_fun89075_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     echo = _closure1_slot0;
                     sizing = _closure1_slot2;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = oscar.bind(entity)(zulu);
                     oscar = _closure2_slot1;
                     zulu = null;
-                    if(!(zulu != oscar)) { _fun89075_ip = 499; continue _fun89075 }
+                    if(!(zulu != oscar)) { _fun00004_ip = 499; continue _fun00003 }
  285:
                     zulu = entity.push;
                     oscar = _closure1_slot7;

@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/pomelo/native/components/PomeloModalReminderStep.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PomeloModalReminderStep
-        _fun94449: for(var _fun94449_ip = 0; ; ) switch(_fun94449_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.onCloseModal;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = source[backup];
             verify = echo.bind(tango)(verify);
             output = verify.intl;
-            if(offset) { _fun94449_ip = 521; continue _fun94449 }
+            if(offset) { _fun00002_ip = 521; continue _fun00001 }
  489:
             romeo = output.string;
             verify = source[backup];
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.3C+rbG;
             verify = romeo.bind(output)(verify);
-            _fun94449_ip = 582; continue _fun94449;
+            _fun00002_ip = 582; continue _fun00001;
  521:
             sizing = output.formatToPlainString;
             romeo = source[backup];
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = source[backup];
             romeo = echo.bind(tango)(romeo);
             output = romeo.intl;
-            if(offset) { _fun94449_ip = 730; continue _fun94449 }
+            if(offset) { _fun00002_ip = 730; continue _fun00001 }
  698:
             romeo = output.string;
             offset = source[backup];
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = offset.t;
             offset = offset.TS1L09;
             offset = romeo.bind(output)(offset);
-            _fun94449_ip = 791; continue _fun94449;
+            _fun00002_ip = 791; continue _fun00001;
  730:
             sizing = output.formatToPlainString;
             romeo = source[backup];

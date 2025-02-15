@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun81939: for(var _fun81939_ip = 0; ; ) switch(_fun81939_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun81939_ip = 255; continue _fun81939 }
+                    if(mike) { _fun00002_ip = 255; continue _fun00001 }
  13:
                     oscar = verify;
                     golf = _closure1_slot1;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  140:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun81939_ip = 204; continue _fun81939 }
+                    if(golf) { _fun00002_ip = 204; continue _fun00001 }
  146:
                     offset = tango.body;
                     options = _closure1_slot1;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf['note'] = offset;
                     golf = options.bind(verify)(golf);
  202: // try_end0
-                    _fun81939_ip = 252; continue _fun81939;
+                    _fun00002_ip = 252; continue _fun00001;
  204:
                     return tango;
  207: // catch_target0
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/hooks/useNote.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useNote
-        _fun81940: for(var _fun81940_ip = 0; ; ) switch(_fun81940_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = argFoo;
             var _closure2_slot0 = oscar;
@@ -165,11 +165,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = entity;
             zulu[1] = oscar;
             mike = function() {
-                _fun81942: for(var _fun81942_ip = 0; ; ) switch(_fun81942_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike == zulu)) { _fun81942_ip = 33; continue _fun81942 }
+                    if(!(mike == zulu)) { _fun00006_ip = 33; continue _fun00005 }
  13:
                     zulu = _closure2_slot0;
                     mike = function() { // Original name: fetchNote
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = tango.bind(report)(mike, zulu);
             mike = null;
-            if(!(mike == entity)) { _fun81940_ip = 118; continue _fun81940 }
+            if(!(mike == entity)) { _fun00004_ip = 118; continue _fun00003 }
  108:
             entity = {'loading': true, 'note': null};
  118:

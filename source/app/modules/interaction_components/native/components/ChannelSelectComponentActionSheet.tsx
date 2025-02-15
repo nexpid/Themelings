@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity = {};
         entity['onPressOptionItem'] = romeo;
         romeo = function(argFoo) { // Original name: renderIcon
-            _fun91896: for(var _fun91896_ip = 0; ; ) switch(_fun91896_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot4;
                 mike = tango.getChannel;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = entity.value;
                 golf = mike.bind(tango)(entity);
                 entity = null;
-                if(!(entity != golf)) { _fun91896_ip = 131; continue _fun91896 }
+                if(!(entity != golf)) { _fun00002_ip = 131; continue _fun00001 }
  31:
                 report = _closure1_slot5;
                 tango = report.getGuild;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = tango.getChannelIconData;
                 golf = mike.bind(tango)(golf, report);
                 mike = entity != golf;
-                if(!mike) { _fun91896_ip = 129; continue _fun91896 }
+                if(!mike) { _fun00002_ip = 129; continue _fun00001 }
  93:
                 report = _closure1_slot6;
                 tango = _closure1_slot1;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['submitSelection'] = options;
         entity['onQueryChange'] = golf;
         oscar = function(argFoo) { // Original name: itemAccessibilityLabel
-            _fun91898: for(var _fun91898_ip = 0; ; ) switch(_fun91898_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getChannel;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.value;
                 tango = zulu.bind(tango)(mike);
                 mike = null;
-                if(!(mike == tango)) { _fun91898_ip = 35; continue _fun91898 }
+                if(!(mike == tango)) { _fun00004_ip = 35; continue _fun00003 }
  31:
                 mike = undefined;
                 return mike;

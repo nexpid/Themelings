@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/polls/chat/usePollMessageChatData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: usePollMessageChatData
-        _fun72118: for(var _fun72118_ip = 0; ; ) switch(_fun72118_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             report = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             yankee = tango == verify;
             report = undefined;
-            if(yankee) { _fun72118_ip = 119; continue _fun72118 }
+            if(yankee) { _fun00002_ip = 119; continue _fun00001 }
  113:
             report = verify.expiry;
  119:
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = romeo[report];
             report = yankee.bind(offset)(report);
             report = report.bind(offset)();
-            if(!(tango != zulu)) { _fun72118_ip = 195; continue _fun72118 }
+            if(!(tango != zulu)) { _fun00002_ip = 195; continue _fun00001 }
  192:
             report = zulu;
  195:

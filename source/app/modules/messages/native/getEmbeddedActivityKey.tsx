@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: parseEmbeddedActivityKey
-        _fun89980: for(var _fun89980_ip = 0; ; ) switch(_fun89980_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.split;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = 3;
             mike = mike < entity;
             entity = null;
-            if(mike) { _fun89980_ip = 72; continue _fun89980 }
+            if(mike) { _fun00002_ip = 72; continue _fun00001 }
  34:
             mike = {};
             zulu = 0;

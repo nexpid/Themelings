@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: handleConnectionOpen
-        _fun109377: for(var _fun109377_ip = 0; ; ) switch(_fun109377_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot3;
             entity = tango.getFullState;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = tango[entity];
             tango = entity.editInfo;
             tango = tango.triggeredMigrations;
-            if(!tango) { _fun109377_ip = 110; continue _fun109377 }
+            if(!tango) { _fun00002_ip = 110; continue _fun00001 }
  52:
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.bind(entity)(zulu);
             zulu = zulu.UserSettingsActionCreatorsByType;
             mike = function(argFoo, argBar) {
-                _fun109378: for(var _fun109378_ip = 0; ; ) switch(_fun109378_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     tango = _closure2_slot0;
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike.offlineEditDataVersion;
                     report = null;
                     mike = report != mike;
-                    if(!mike) { _fun109378_ip = 69; continue _fun109378 }
+                    if(!mike) { _fun00004_ip = 69; continue _fun00003 }
  53:
                     tango = tango.editInfo;
                     tango = tango.protoToSave;
                     mike = report != tango;
  69:
-                    if(!mike) { _fun109378_ip = 84; continue _fun109378 }
+                    if(!mike) { _fun00004_ip = 84; continue _fun00003 }
  72:
                     mike = zulu.scheduleSaveFromOfflineEdit;
                     mike = mike.bind(zulu)();
@@ -120,18 +120,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: handleAppStateUpdate
-        _fun109381: for(var _fun109381_ip = 0; ; ) switch(_fun109381_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             zulu = entity.state;
             entity = 'inactive';
             entity = entity !== zulu;
-            if(!entity) { _fun109381_ip = 27; continue _fun109381 }
+            if(!entity) { _fun00006_ip = 27; continue _fun00005 }
  19:
             mike = 'background';
             entity = mike !== zulu;
  27:
-            if(entity) { _fun109381_ip = 97; continue _fun109381 }
+            if(entity) { _fun00006_ip = 97; continue _fun00005 }
  30:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike.bind(report)(entity);
             mike = entity.UserSettingsActionCreatorsByType;
             entity = function(argFoo, argBar) {
-                _fun109382: for(var _fun109382_ip = 0; ; ) switch(_fun109382_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = argFoo;
                     mike = _closure1_slot3;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike.editInfo;
                     tango = mike.timeout;
                     mike = null;
-                    if(!(mike != tango)) { _fun109382_ip = 92; continue _fun109382 }
+                    if(!(mike != tango)) { _fun00008_ip = 92; continue _fun00007 }
  60:
                     report = zulu.logger;
                     tango = report.log;

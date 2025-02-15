@@ -40,13 +40,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = tango.useLayoutEffect;
         mike = function() {
             tango = function() { // Original name: handleThemeUpdate
-                _fun120815: for(var _fun120815_ip = 0; ; ) switch(_fun120815_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure1_slot3;
                     zulu = mike.theme;
                     tango = _closure2_slot0;
                     tango = tango.current;
-                    if(!(zulu !== tango)) { _fun120815_ip = 72; continue _fun120815 }
+                    if(!(zulu !== tango)) { _fun00002_ip = 72; continue _fun00001 }
  29:
                     mike = _closure2_slot0;
                     mike['current'] = zulu;

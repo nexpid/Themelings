@@ -7,17 +7,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: round
-        _fun52935: for(var _fun52935_ip = 0; ; ) switch(_fun52935_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = arguments[1];
             mike = undefined;
-            if(!(entity === mike)) { _fun52935_ip = 14; continue _fun52935 }
+            if(!(entity === mike)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             entity = 0;
  14:
             mike = null;
-            if(!(mike != tango)) { _fun52935_ip = 38; continue _fun52935 }
+            if(!(mike != tango)) { _fun00002_ip = 38; continue _fun00001 }
  20:
             mike = global;
             zulu = mike.Math;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'incrementNetworkStats';
         entity['key'] = oscar;
         report = function(argFoo) { // Original name: value
-            _fun52942: for(var _fun52942_ip = 0; ; ) switch(_fun52942_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 entity = this;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = tango.bind(report)();
                 tango = _closure1_slot6;
                 tango = tango.SLOW_TWO_G;
-                if(!(golf === tango)) { _fun52942_ip = 67; continue _fun52942 }
+                if(!(golf === tango)) { _fun00004_ip = 67; continue _fun00003 }
  57:
                 tango = _closure1_slot6;
                 golf = tango.TWO_G;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = tango.bind(report)();
                 tango = _closure1_slot5;
                 tango = tango.WIMAX;
-                if(!(report === tango)) { _fun52942_ip = 105; continue _fun52942 }
+                if(!(report === tango)) { _fun00004_ip = 105; continue _fun00003 }
  95:
                 zulu = _closure1_slot5;
                 report = zulu.WIFI;

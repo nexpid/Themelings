@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: onReducedMotionSettingValueChange
-        _fun97567: for(var _fun97567_ip = 0; ; ) switch(_fun97567_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.setPrefersReducedMotion;
             mike = 'no-preference';
             report = argFoo;
-            if(!report) { _fun97567_ip = 47; continue _fun97567 }
+            if(!report) { _fun00002_ip = 47; continue _fun00001 }
  43:
             mike = 'reduce';
  47:

@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsLeaveGuildElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: LeaveGuildElement
-        _fun72874: for(var _fun72874_ip = 0; ; ) switch(_fun72874_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.guild;
@@ -85,11 +85,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = entity;
             mike[2] = foxtrot;
             entity = function() {
-                _fun72876: for(var _fun72876_ip = 0; ; ) switch(_fun72876_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!(mike != zulu)) { _fun72876_ip = 113; continue _fun72876 }
+                    if(!(mike != zulu)) { _fun00004_ip = 113; continue _fun00003 }
  13:
                     tango = _closure2_slot1;
                     zulu = undefined;
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             backup = romeo == foxtrot;
             romeo = undefined;
-            if(backup) { _fun72874_ip = 344; continue _fun72874 }
+            if(backup) { _fun00002_ip = 344; continue _fun00001 }
  339:
             romeo = foxtrot.name;
  344:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'danger';
             entity['variant'] = golf;
             oscar = function() { // Original name: onPress
-                _fun72878: for(var _fun72878_ip = 0; ; ) switch(_fun72878_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     romeo = null;
                     foxtrot = romeo == foxtrot;
                     romeo = undefined;
-                    if(foxtrot) { _fun72878_ip = 156; continue _fun72878 }
+                    if(foxtrot) { _fun00006_ip = 156; continue _fun00005 }
  147:
                     foxtrot = _closure2_slot0;
                     romeo = foxtrot.name;

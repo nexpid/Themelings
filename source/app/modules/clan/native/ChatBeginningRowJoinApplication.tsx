@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/clan/native/ChatBeginningRowJoinApplication.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun101685: for(var _fun101685_ip = 0; ; ) switch(_fun101685_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.channelId;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = new Array(1);
             mike[0] = entity;
             entity = function() {
-                _fun101686: for(var _fun101686_ip = 0; ; ) switch(_fun101686_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getUser;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == report;
                     entity = undefined;
-                    if(report) { _fun101686_ip = 40; continue _fun101686 }
+                    if(report) { _fun00004_ip = 40; continue _fun00003 }
  31:
                     tango = _closure2_slot1;
                     entity = tango.userId;
@@ -129,12 +129,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             mike = verify == options;
             entity = null;
-            if(mike) { _fun101685_ip = 514; continue _fun101685 }
+            if(mike) { _fun00002_ip = 514; continue _fun00001 }
  128:
             mike = options.formResponses;
             mike = verify == mike;
             entity = null;
-            if(mike) { _fun101685_ip = 514; continue _fun101685 }
+            if(mike) { _fun00002_ip = 514; continue _fun00001 }
  146:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = backup.container;
             mike['style'] = oscar;
             yankee = verify != echo;
-            if(!yankee) { _fun101685_ip = 328; continue _fun101685 }
+            if(!yankee) { _fun00002_ip = 328; continue _fun00001 }
  175:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot3;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = yankee;
             verify = verify != output;
-            if(!verify) { _fun101685_ip = 456; continue _fun101685 }
+            if(!verify) { _fun00002_ip = 456; continue _fun00001 }
  343:
             romeo = _closure1_slot5;
             backup = _closure1_slot0;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(offset)(options);
             options = verify.map;
             golf = function(argFoo, argBar) {
-                _fun101688: for(var _fun101688_ip = 0; ; ) switch(_fun101688_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     foxtrot = argFoo;
                     mike = foxtrot.field_type;
@@ -239,14 +239,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = zulu.bind(report)(entity);
                     entity = entity.VerificationFormFieldTypes;
                     entity = entity.MULTIPLE_CHOICE;
-                    if(!(mike === entity)) { _fun101688_ip = 62; continue _fun101688 }
+                    if(!(mike === entity)) { _fun00006_ip = 62; continue _fun00005 }
  50:
                     mike = foxtrot.response;
                     entity = null;
-                    if(!(entity == mike)) { _fun101688_ip = 70; continue _fun101688 }
+                    if(!(entity == mike)) { _fun00006_ip = 70; continue _fun00005 }
  62:
                     verify = foxtrot.response;
-                    _fun101688_ip = 86; continue _fun101688;
+                    _fun00006_ip = 86; continue _fun00005;
  70:
                     mike = foxtrot.choices;
                     entity = foxtrot.response;

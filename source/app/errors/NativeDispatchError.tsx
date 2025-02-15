@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = function() {
         tango = _closure1_slot3;
         zulu = function(argFoo) { // Original name: NativeDispatchError
-            _fun55438: for(var _fun55438_ip = 0; ; ) switch(_fun55438_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 zulu = this;
@@ -42,35 +42,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu['raw'] = mike;
                 tango = mike.code;
                 report = null;
-                if(!(report != tango)) { _fun55438_ip = 56; continue _fun55438 }
+                if(!(report != tango)) { _fun00002_ip = 56; continue _fun00001 }
  45:
                 tango = mike.code;
                 zulu['code'] = tango;
  56:
                 tango = mike.uuid;
-                if(!(report != tango)) { _fun55438_ip = 78; continue _fun55438 }
+                if(!(report != tango)) { _fun00002_ip = 78; continue _fun00001 }
  66:
                 tango = mike.uuid;
                 zulu['uuid'] = tango;
  78:
                 tango = mike.application_id;
-                if(!(report != tango)) { _fun55438_ip = 100; continue _fun55438 }
+                if(!(report != tango)) { _fun00002_ip = 100; continue _fun00001 }
  88:
                 tango = mike.application_id;
                 zulu['applicationId'] = tango;
  100:
                 tango = mike.branch_id;
-                if(!(report != tango)) { _fun55438_ip = 122; continue _fun55438 }
+                if(!(report != tango)) { _fun00002_ip = 122; continue _fun00001 }
  110:
                 tango = mike.branch_id;
                 zulu['branchId'] = tango;
  122:
                 tango = mike.context;
-                if(!(report == tango)) { _fun55438_ip = 141; continue _fun55438 }
+                if(!(report == tango)) { _fun00002_ip = 141; continue _fun00001 }
  131:
                 tango = {};
                 zulu['context'] = tango;
-                _fun55438_ip = 152; continue _fun55438;
+                _fun00002_ip = 152; continue _fun00001;
  141:
                 mike = mike.context;
                 zulu['context'] = mike;
@@ -83,71 +83,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = 'displayMessage';
         entity['key'] = report;
         mike = function() { // Original name: get
-            _fun55439: for(var _fun55439_ip = 0; ; ) switch(_fun55439_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = this;
                 zulu = mike.code;
                 entity = null;
-                if(!(entity != zulu)) { _fun55439_ip = 1193; continue _fun55439 }
+                if(!(entity != zulu)) { _fun00004_ip = 1193; continue _fun00003 }
  17:
                 entity = mike.context;
                 golf = entity.path;
                 tango = mike.code;
                 zulu = _closure1_slot4;
                 zulu = zulu.DISK_LOW;
-                if(!(zulu !== tango)) { _fun55439_ip = 1043; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 1043; continue _fun00003 }
  53:
                 zulu = _closure1_slot4;
                 zulu = zulu.POST_INSTALL_FAILED;
-                if(!(zulu !== tango)) { _fun55439_ip = 967; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 967; continue _fun00003 }
  70:
                 zulu = _closure1_slot4;
                 zulu = zulu.FILE_NAME_TOO_LONG;
-                if(!(zulu !== tango)) { _fun55439_ip = 908; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 908; continue _fun00003 }
  87:
                 zulu = _closure1_slot4;
                 zulu = zulu.POST_INSTALL_CANCELLED;
-                if(!(zulu !== tango)) { _fun55439_ip = 849; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 849; continue _fun00003 }
  104:
                 zulu = _closure1_slot4;
                 zulu = zulu.IO_PERMISSION_DENIED;
-                if(!(zulu !== tango)) { _fun55439_ip = 790; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 790; continue _fun00003 }
  121:
                 zulu = _closure1_slot4;
                 zulu = zulu.NO_MANIFESTS;
-                if(!(zulu !== tango)) { _fun55439_ip = 731; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 731; continue _fun00003 }
  138:
                 zulu = _closure1_slot4;
                 zulu = zulu.NOT_ENTITLED;
-                if(!(zulu !== tango)) { _fun55439_ip = 672; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 672; continue _fun00003 }
  155:
                 zulu = _closure1_slot4;
                 zulu = zulu.NOT_DIRECTORY;
-                if(!(zulu !== tango)) { _fun55439_ip = 605; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 605; continue _fun00003 }
  172:
                 zulu = _closure1_slot4;
                 zulu = zulu.DISK_PERMISSION_DENIED;
-                if(!(zulu !== tango)) { _fun55439_ip = 605; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 605; continue _fun00003 }
  189:
                 zulu = _closure1_slot4;
                 zulu = zulu.INVALID_DRIVE;
-                if(!(zulu !== tango)) { _fun55439_ip = 538; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 538; continue _fun00003 }
  206:
                 zulu = _closure1_slot4;
                 zulu = zulu.APPLICATION_LOCK_FAILED;
-                if(!(zulu !== tango)) { _fun55439_ip = 479; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 479; continue _fun00003 }
  223:
                 zulu = _closure1_slot4;
                 zulu = zulu.DISK_FULL;
-                if(!(zulu !== tango)) { _fun55439_ip = 420; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 420; continue _fun00003 }
  240:
                 zulu = _closure1_slot4;
                 zulu = zulu.API_ERROR;
-                if(!(zulu !== tango)) { _fun55439_ip = 361; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 361; continue _fun00003 }
  254:
                 zulu = _closure1_slot4;
                 zulu = zulu.MAX_REQUEST_RETRIES_EXCEEDED;
-                if(!(zulu !== tango)) { _fun55439_ip = 361; continue _fun55439 }
+                if(!(zulu !== tango)) { _fun00004_ip = 361; continue _fun00003 }
  268:
                 options = _closure1_slot0;
                 verify = _closure1_slot1;

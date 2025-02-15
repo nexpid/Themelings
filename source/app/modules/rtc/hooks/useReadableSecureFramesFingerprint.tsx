@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/rtc/hooks/useReadableSecureFramesFingerprint.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useReadableSecureFramesFingerprint
-        _fun81094: for(var _fun81094_ip = 0; ; ) switch(_fun81094_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = mike.fingerprintBase64;
@@ -44,15 +44,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = tango;
             mike[2] = oscar;
             entity = function() {
-                _fun81095: for(var _fun81095_ip = 0; ; ) switch(_fun81095_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
-                    if(!(entity != zulu)) { _fun81095_ip = 217; continue _fun81095 }
+                    if(!(entity != zulu)) { _fun00004_ip = 217; continue _fun00003 }
  16:
                     tango = _closure2_slot0;
                     zulu = '';
-                    if(!(zulu !== tango)) { _fun81095_ip = 217; continue _fun81095 }
+                    if(!(zulu !== tango)) { _fun00004_ip = 217; continue _fun00003 }
  31:
                     golf = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = _closure2_slot2;
                     zulu = _closure2_slot1;
                     report = report.bind(oscar)(golf, tango, zulu);
-                    if(!(entity != report)) { _fun81095_ip = 215; continue _fun81095 }
+                    if(!(entity != report)) { _fun00004_ip = 215; continue _fun00003 }
  112:
                     zulu = global;
                     golf = zulu.RegExp;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = mike.bind(report)(tango);
                     tango = entity == report;
                     mike = null;
-                    if(tango) { _fun81095_ip = 213; continue _fun81095 }
+                    if(tango) { _fun00004_ip = 213; continue _fun00003 }
  197:
                     tango = zulu.Array;
                     zulu = tango.from;
@@ -106,12 +106,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = zulu.bind(report)(entity, mike);
             mike = null;
-            if(!(mike != tango)) { _fun81094_ip = 94; continue _fun81094 }
+            if(!(mike != tango)) { _fun00002_ip = 94; continue _fun00001 }
  82:
             zulu = '';
-            if(!(zulu !== tango)) { _fun81094_ip = 94; continue _fun81094 }
+            if(!(zulu !== tango)) { _fun00002_ip = 94; continue _fun00001 }
  90:
-            if(!(mike != entity)) { _fun81094_ip = 96; continue _fun81094 }
+            if(!(mike != entity)) { _fun00002_ip = 96; continue _fun00001 }
  94:
             return entity;
  96:

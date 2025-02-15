@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = 'fromServer';
         entity['key'] = zulu;
         mike = function(argFoo) { // Original name: value
-            _fun38815: for(var _fun38815_ip = 0; ; ) switch(_fun38815_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 options = argFoo;
                 zulu = _closure2_slot0;
@@ -66,18 +66,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = null;
                 verify = golf == options;
                 entity = undefined;
-                if(verify) { _fun38815_ip = 53; continue _fun38815 }
+                if(verify) { _fun00002_ip = 53; continue _fun00001 }
  47:
                 entity = options.marketings;
  53:
-                if(!(golf == entity)) { _fun38815_ip = 59; continue _fun38815 }
+                if(!(golf == entity)) { _fun00002_ip = 59; continue _fun00001 }
  57:
                 entity = {};
  59:
                 oscar = report.bind(oscar)(entity);
                 report = oscar.map;
                 entity = function(argFoo) {
-                    _fun38816: for(var _fun38816_ip = 0; ; ) switch(_fun38816_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         oscar = argFoo;
                         entity = oscar[Symbol.iterator];
@@ -87,24 +87,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         options = undefined;
                         tango = zulu === options;
                         zulu = undefined;
-                        if(tango) { _fun38816_ip = 29; continue _fun38816 }
+                        if(tango) { _fun00004_ip = 29; continue _fun00003 }
  26:
                         zulu = report;
  29:
                         report = undefined;
-                        if(tango) { _fun38816_ip = 59; continue _fun38816 }
+                        if(tango) { _fun00004_ip = 59; continue _fun00003 }
  34:
                         golf = oscar().value;
                         oscar = entity;
                         oscar = oscar === options;
                         report = undefined;
                         tango = oscar;
-                        if(oscar) { _fun38816_ip = 59; continue _fun38816 }
+                        if(oscar) { _fun00004_ip = 59; continue _fun00003 }
  53:
                         report = golf;
                         tango = oscar;
  59:
-                        if(tango) { _fun38816_ip = 65; continue _fun38816 }
+                        if(tango) { _fun00004_ip = 65; continue _fun00003 }
  62:
                         entity.return();
  65:

@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango.bind(report)(zulu);
             zulu = tango.catch;
             mike = function(argFoo) {
-                _fun94567: for(var _fun94567_ip = 0; ; ) switch(_fun94567_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
                     tango = _closure2_slot4;
                     zulu = report.body;
                     mike = null;
-                    if(!(mike == zulu)) { _fun94567_ip = 83; continue _fun94567 }
+                    if(!(mike == zulu)) { _fun00002_ip = 83; continue _fun00001 }
  21:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.t;
                     zulu = zulu.1u5B+P;
                     zulu = oscar.bind(golf)(zulu);
-                    _fun94567_ip = 93; continue _fun94567;
+                    _fun00002_ip = 93; continue _fun00001;
  83:
                     report = report.body;
                     zulu = report.message;
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['current'] = zulu;
                     zulu = _closure2_slot5;
                     zulu = zulu.current;
-                    if(!(mike != zulu)) { _fun94567_ip = 122; continue _fun94567 }
+                    if(!(mike != zulu)) { _fun00002_ip = 122; continue _fun00001 }
  112:
                     mike = zulu.clear;
                     mike = mike.bind(zulu)();

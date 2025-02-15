@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     mike = function(argFoo) { // Original name: IntlLink
-        _fun34214: for(var _fun34214_ip = 0; ; ) switch(_fun34214_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.target;
@@ -29,20 +29,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.bind(tango)(golf);
             verify = typeof zulu;
             golf = 'string';
-            if(!(golf !== verify)) { _fun34214_ip = 126; continue _fun34214 }
+            if(!(golf !== verify)) { _fun00002_ip = 126; continue _fun00001 }
  92:
             options = 'object';
             golf = zulu;
-            if(!(options === verify)) { _fun34214_ip = 124; continue _fun34214 }
+            if(!(options === verify)) { _fun00002_ip = 124; continue _fun00001 }
  103:
             verify = zulu.onClick;
             options = null;
             golf = zulu;
-            if(!(options != verify)) { _fun34214_ip = 124; continue _fun34214 }
+            if(!(options != verify)) { _fun00002_ip = 124; continue _fun00001 }
  118:
             golf = zulu.onClick;
  124:
-            _fun34214_ip = 131; continue _fun34214;
+            _fun00002_ip = 131; continue _fun00001;
  126:
             golf = function() {
                 report = _closure1_slot1;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     verify = report.bind(entity)(tango);
     options = verify.createStyles;
     tango = function(argFoo) {
-        _fun34216: for(var _fun34216_ip = 0; ; ) switch(_fun34216_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = {};
             mike = {};
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['color'] = zulu;
             zulu = 'none';
             tango = argFoo;
-            if(!tango) { _fun34216_ip = 58; continue _fun34216 }
+            if(!tango) { _fun00004_ip = 58; continue _fun00003 }
  54:
             zulu = 'underline';
  58:

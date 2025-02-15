@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun112786: for(var _fun112786_ip = 0; ; ) switch(_fun112786_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.searchContext;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             result = null;
             oscar = result != echo;
-            if(!oscar) { _fun112786_ip = 84; continue _fun112786 }
+            if(!oscar) { _fun00002_ip = 84; continue _fun00001 }
  78:
             oscar = offset.headerWithBackButton;
  84:
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = new Array(2);
             output[0] = update;
             result = result != echo;
-            if(!result) { _fun112786_ip = 245; continue _fun112786 }
+            if(!result) { _fun00002_ip = 245; continue _fun00001 }
  239:
             result = offset.suggestionsWithBackButton;
  245:

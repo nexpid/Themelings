@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot6 = tango;
     tango = function(argFoo) { // Original name: generateListData
-        _fun85056: for(var _fun85056_ip = 0; ; ) switch(_fun85056_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = new Array(0);
             zulu = _closure1_slot0;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = report.isStickerPackAnimated;
             mike = argFoo;
             mike = zulu.bind(report)(mike);
-            if(!mike) { _fun85056_ip = 125; continue _fun85056 }
+            if(!mike) { _fun00002_ip = 125; continue _fun00001 }
  46:
             zulu = entity.push;
             mike = {};

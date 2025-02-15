@@ -66,14 +66,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = golf[tango];
         tango = oscar.bind(report)(tango);
         entity = function() {
-            _fun94456: for(var _fun94456_ip = 0; ; ) switch(_fun94456_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot4;
                 mike = tango.wasSuggestionsFetched;
                 mike = mike.bind(tango)();
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
-                if(mike) { _fun94456_ip = 84; continue _fun94456 }
+                if(mike) { _fun00002_ip = 84; continue _fun00001 }
  32:
                 mike = 4;
                 report = zulu[mike];
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 mike = report.bind(oscar)(mike);
-                _fun94456_ip = 122; continue _fun94456;
+                _fun00002_ip = 122; continue _fun00001;
  84:
                 mike = 5;
                 zulu = zulu[mike];

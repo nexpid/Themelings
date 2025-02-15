@@ -35,12 +35,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = tango.useEffect;
         mike = function() {
             entity = function() {
-                _fun111673: for(var _fun111673_ip = 0; ; ) switch(_fun111673_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure1_slot3;
                     mike = zulu.isAuthenticated;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun111673_ip = 52; continue _fun111673 }
+                    if(mike) { _fun00002_ip = 52; continue _fun00001 }
  20:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;

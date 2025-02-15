@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = entity;
     options = function() { // Original name: processCallbacks
-        _fun43566: for(var _fun43566_ip = 0; ; ) switch(_fun43566_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot3;
             entity = undefined;
             mike = mike.bind(entity)();
-            if(mike) { _fun43566_ip = 45; continue _fun43566 }
+            if(mike) { _fun00002_ip = 45; continue _fun00001 }
  16:
             report = _closure1_slot2;
             tango = report.forEach;
@@ -95,22 +95,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/gateway/PostConnectionCallbackStore.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: addPostConnectionCallback
-        _fun43570: for(var _fun43570_ip = 0; ; ) switch(_fun43570_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot1;
             mike = tango.isConnectedOrOverlay;
             mike = mike.bind(tango)();
-            if(!mike) { _fun43570_ip = 47; continue _fun43570 }
+            if(!mike) { _fun00004_ip = 47; continue _fun00003 }
  23:
             mike = _closure1_slot3;
             tango = undefined;
             mike = mike.bind(tango)();
-            if(mike) { _fun43570_ip = 47; continue _fun43570 }
+            if(mike) { _fun00004_ip = 47; continue _fun00003 }
  36:
             mike = _closure1_slot4;
             mike = mike.bind(tango)(zulu);
-            _fun43570_ip = 61; continue _fun43570;
+            _fun00004_ip = 61; continue _fun00003;
  47:
             mike = _closure1_slot2;
             entity = mike.push;

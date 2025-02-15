@@ -20,7 +20,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = tango.bind(entity)(report);
     var _closure1_slot2 = tango;
     tango = function() { // Original name: useKeywordFilterSettings
-        _fun69353: for(var _fun69353_ip = 0; ; ) switch(_fun69353_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -33,7 +33,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = new Array(1);
             zulu[0] = entity;
             entity = function() {
-                _fun69354: for(var _fun69354_ip = 0; ; ) switch(_fun69354_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot2;
                     entity = entity.settings;
@@ -41,11 +41,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                     mike = null;
                     tango = mike == zulu;
                     entity = undefined;
-                    if(tango) { _fun69354_ip = 36; continue _fun69354 }
+                    if(tango) { _fun00004_ip = 36; continue _fun00003 }
  30:
                     entity = zulu.keywordFilterSettings;
  36:
-                    if(!(mike == entity)) { _fun69354_ip = 42; continue _fun69354 }
+                    if(!(mike == entity)) { _fun00004_ip = 42; continue _fun00003 }
  40:
                     entity = {};
  42:
@@ -58,7 +58,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             tango = null;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun69353_ip = 82; continue _fun69353 }
+            if(golf) { _fun00002_ip = 82; continue _fun00001 }
  77:
             report = oscar.value;
  82:
@@ -66,7 +66,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             oscar = zulu.sexualContent;
             golf = tango == oscar;
             report = undefined;
-            if(golf) { _fun69353_ip = 107; continue _fun69353 }
+            if(golf) { _fun00002_ip = 107; continue _fun00001 }
  102:
             report = oscar.value;
  107:
@@ -74,7 +74,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = zulu.slurs;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun69353_ip = 132; continue _fun69353 }
+            if(tango) { _fun00002_ip = 132; continue _fun00001 }
  127:
             mike = zulu.value;
  132:
@@ -91,7 +91,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['useKeywordFilterSettings'] = tango;
     mike = function() {
-        _fun69355: for(var _fun69355_ip = 0; ; ) switch(_fun69355_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = _closure1_slot3;
             oscar = undefined;
@@ -111,19 +111,19 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = report.bind(oscar)(entity);
             report = !entity;
             entity = !report;
-            if(report) { _fun69355_ip = 110; continue _fun69355 }
+            if(report) { _fun00006_ip = 110; continue _fun00005 }
  83:
-            if(zulu) { _fun69355_ip = 89; continue _fun69355 }
+            if(zulu) { _fun00006_ip = 89; continue _fun00005 }
  86:
             zulu = tango;
  89:
-            if(zulu) { _fun69355_ip = 95; continue _fun69355 }
+            if(zulu) { _fun00006_ip = 95; continue _fun00005 }
  92:
             zulu = mike;
  95:
             mike = null;
             mike = mike != zulu;
-            if(!mike) { _fun69355_ip = 107; continue _fun69355 }
+            if(!mike) { _fun00006_ip = 107; continue _fun00005 }
  104:
             mike = zulu;
  107:

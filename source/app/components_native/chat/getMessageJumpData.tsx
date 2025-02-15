@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'components_native/chat/getMessageJumpData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getMessageJumpData
-        _fun100122: for(var _fun100122_ip = 0; ; ) switch(_fun100122_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             golf = argBar;
@@ -52,17 +52,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.jumpSequenceId;
             mike = entity.focusTargetId;
             kilo = entity.ready;
-            if(!kilo) { _fun100122_ip = 121; continue _fun100122 }
+            if(!kilo) { _fun00002_ip = 121; continue _fun00001 }
  112:
             verify = entity.cached;
             kilo = !verify;
  121:
-            if(!kilo) { _fun100122_ip = 136; continue _fun100122 }
+            if(!kilo) { _fun00002_ip = 136; continue _fun00001 }
  124:
             verify = foxtrot.messages;
             kilo = verify.cached;
  136:
-            if(kilo) { _fun100122_ip = 155; continue _fun100122 }
+            if(kilo) { _fun00002_ip = 155; continue _fun00001 }
  139:
             sizing = oscar.jumpSequenceId;
             verify = entity.jumpSequenceId;
@@ -70,40 +70,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  155:
             sizing = entity.jumpTargetId;
             verify = null;
-            if(!(verify != sizing)) { _fun100122_ip = 173; continue _fun100122 }
+            if(!(verify != sizing)) { _fun00002_ip = 173; continue _fun00001 }
  167:
-            if(kilo) { _fun100122_ip = 476; continue _fun100122 }
+            if(kilo) { _fun00002_ip = 476; continue _fun00001 }
  173:
             sizing = golf.isAtBottom;
-            if(sizing) { _fun100122_ip = 346; continue _fun100122 }
+            if(sizing) { _fun00002_ip = 346; continue _fun00001 }
  185:
             golf = golf.hasPreviousMessages;
-            if(!golf) { _fun100122_ip = 346; continue _fun100122 }
+            if(!golf) { _fun00002_ip = 346; continue _fun00001 }
  197:
             oscar = oscar.loadingMore;
-            if(oscar) { _fun100122_ip = 346; continue _fun100122 }
+            if(oscar) { _fun00002_ip = 346; continue _fun00001 }
  209:
-            if(!(verify != backup)) { _fun100122_ip = 346; continue _fun100122 }
+            if(!(verify != backup)) { _fun00002_ip = 346; continue _fun00001 }
  216:
-            if(!(verify != report)) { _fun100122_ip = 346; continue _fun100122 }
+            if(!(verify != report)) { _fun00002_ip = 346; continue _fun00001 }
  223:
             oscar = backup.author;
             golf = oscar.id;
             oscar = report.id;
-            if(!(golf !== oscar)) { _fun100122_ip = 277; continue _fun100122 }
+            if(!(golf !== oscar)) { _fun00002_ip = 277; continue _fun00001 }
  243:
             golf = backup.interaction;
             sizing = verify == golf;
             oscar = undefined;
-            if(sizing) { _fun100122_ip = 268; continue _fun100122 }
+            if(sizing) { _fun00002_ip = 268; continue _fun00001 }
  258:
             golf = golf.user;
             oscar = golf.id;
  268:
             report = report.id;
-            if(!(oscar === report)) { _fun100122_ip = 346; continue _fun100122 }
+            if(!(oscar === report)) { _fun00002_ip = 346; continue _fun00001 }
  277:
-            if(!(verify != zulu)) { _fun100122_ip = 329; continue _fun100122 }
+            if(!(verify != zulu)) { _fun00002_ip = 329; continue _fun00001 }
  281:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -115,29 +115,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = backup.id;
             report = oscar.bind(golf)(report, zulu);
             zulu = 0;
-            if(!(report < zulu)) { _fun100122_ip = 346; continue _fun100122 }
+            if(!(report < zulu)) { _fun00002_ip = 346; continue _fun00001 }
  329:
             golf = backup.id;
             oscar = undefined;
             report = offset;
             zulu = false;
-            _fun100122_ip = 532; continue _fun100122;
+            _fun00002_ip = 532; continue _fun00001;
  346:
             sizing = entity.loadingMore;
-            if(sizing) { _fun100122_ip = 388; continue _fun100122 }
+            if(sizing) { _fun00002_ip = 388; continue _fun00001 }
  355:
             sizing = entity.jumpedToPresent;
-            if(!sizing) { _fun100122_ip = 388; continue _fun100122 }
+            if(!sizing) { _fun00002_ip = 388; continue _fun00001 }
  364:
-            if(!kilo) { _fun100122_ip = 388; continue _fun100122 }
+            if(!kilo) { _fun00002_ip = 388; continue _fun00001 }
  367:
-            if(!(verify != backup)) { _fun100122_ip = 388; continue _fun100122 }
+            if(!(verify != backup)) { _fun00002_ip = 388; continue _fun00001 }
  371:
             golf = backup.id;
             zulu = false;
             oscar = undefined;
             report = offset;
-            _fun100122_ip = 532; continue _fun100122;
+            _fun00002_ip = 532; continue _fun00001;
  388:
             backup = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -146,13 +146,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             backup = backup.bind(yankee)(romeo);
             romeo = backup.isAndroid;
             romeo = romeo.bind(backup)();
-            if(!romeo) { _fun100122_ip = 436; continue _fun100122 }
+            if(!romeo) { _fun00002_ip = 436; continue _fun00001 }
  420:
             backup = foxtrot.androidKeyboardHeight;
             foxtrot = options.androidKeyboardHeight;
             romeo = backup < foxtrot;
  436:
-            if(!romeo) { _fun100122_ip = 449; continue _fun100122 }
+            if(!romeo) { _fun00002_ip = 449; continue _fun00001 }
  439:
             foxtrot = options.replyingMessageId;
             romeo = verify != foxtrot;
@@ -161,24 +161,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = undefined;
             oscar = undefined;
             report = offset;
-            if(!romeo) { _fun100122_ip = 532; continue _fun100122 }
+            if(!romeo) { _fun00002_ip = 532; continue _fun00001 }
  461:
             golf = options.replyingMessageId;
             zulu = true;
             oscar = undefined;
             report = offset;
-            _fun100122_ip = 532; continue _fun100122;
+            _fun00002_ip = 532; continue _fun00001;
  476:
             yankee = entity.channelId;
             offset = entity.jumpTargetId;
             options = entity.first;
             options = options.bind(entity)();
-            if(!(yankee === offset)) { _fun100122_ip = 505; continue _fun100122 }
+            if(!(yankee === offset)) { _fun00002_ip = 505; continue _fun00001 }
  501:
-            if(!(verify == options)) { _fun100122_ip = 513; continue _fun100122 }
+            if(!(verify == options)) { _fun00002_ip = 513; continue _fun00001 }
  505:
             verify = entity.jumpTargetId;
-            _fun100122_ip = 518; continue _fun100122;
+            _fun00002_ip = 518; continue _fun00001;
  513:
             verify = options.id;
  518:

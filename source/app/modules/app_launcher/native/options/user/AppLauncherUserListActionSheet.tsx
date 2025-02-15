@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = verify;
         entity = function(argFoo) {
-            _fun119282: for(var _fun119282_ip = 0; ; ) switch(_fun119282_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 golf = argFoo;
                 var _closure3_slot0 = golf;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.isSnowflake;
                 entity = entity.bind(zulu)(golf);
                 tango = _closure1_slot4;
-                if(entity) { _fun119282_ip = 233; continue _fun119282 }
+                if(entity) { _fun00002_ip = 233; continue _fun00001 }
  55:
                 verify = _closure1_slot1;
                 romeo = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = verify.bind(offset)(options);
                 entity['body'] = options;
                 entity = tango.bind(report)(zulu, entity);
-                _fun119282_ip = 261; continue _fun119282;
+                _fun00002_ip = 261; continue _fun00001;
  233:
                 zulu = _closure1_slot6;
                 mike = {};

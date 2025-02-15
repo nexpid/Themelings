@@ -9,11 +9,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot0;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun91134: for(var _fun91134_ip = 0; ; ) switch(_fun91134_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun91134_ip = 78; continue _fun91134 }
+                    if(mike) { _fun00002_ip = 78; continue _fun00001 }
  7:
                     mike = global;
                     zulu = mike.fetch;
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  29:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun91134_ip = 75; continue _fun91134 }
+                    if(zulu) { _fun00002_ip = 75; continue _fun00001 }
  35:
                     zulu = mike.blob;
                     zulu = zulu.bind(mike)();
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  49:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun91134_ip = 72; continue _fun91134 }
+                    if(tango) { _fun00002_ip = 72; continue _fun00001 }
  55:
                     tango = function(argFoo) { // Original name: convertBlobToBase64
                         mike = argFoo;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/polls/PollAttachmentUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: getFileNameFromGifUrl
-        _fun91138: for(var _fun91138_ip = 0; ; ) switch(_fun91138_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = global;
             tango = entity.decodeURIComponent;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             zulu = zulu != mike;
             report = 'temp.gif';
-            if(!zulu) { _fun91138_ip = 60; continue _fun91138 }
+            if(!zulu) { _fun00004_ip = 60; continue _fun00003 }
  57:
             report = mike;
  60:

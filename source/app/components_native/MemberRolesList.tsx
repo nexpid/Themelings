@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/MemberRolesList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberRolesList
-        _fun91975: for(var _fun91975_ip = 0; ; ) switch(_fun91975_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.userRoles;
@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(report)(tango, entity);
             tango = null;
             entity = verify;
-            if(!(tango != zulu)) { _fun91975_ip = 242; continue _fun91975 }
+            if(!(tango != zulu)) { _fun00002_ip = 242; continue _fun00001 }
  112:
             tango = zulu.length;
             zulu = 0;
             entity = verify;
-            if(!(tango > zulu)) { _fun91975_ip = 242; continue _fun91975 }
+            if(!(tango > zulu)) { _fun00002_ip = 242; continue _fun00001 }
  126:
             zulu = global;
             tango = zulu.Object;
@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(oscar)(zulu);
             tango = oscar.sort;
             zulu = function(argFoo, argBar) {
-                _fun91978: for(var _fun91978_ip = 0; ; ) switch(_fun91978_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     tango = entity.tags;
                     mike = null;
                     report = mike == tango;
                     zulu = undefined;
-                    if(report) { _fun91978_ip = 26; continue _fun91978 }
+                    if(report) { _fun00004_ip = 26; continue _fun00003 }
  20:
                     zulu = tango.guild_connections;
  26:
@@ -120,21 +120,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = zulu.tags;
                     tango = mike == zulu;
                     entity = undefined;
-                    if(tango) { _fun91978_ip = 54; continue _fun91978 }
+                    if(tango) { _fun00004_ip = 54; continue _fun00003 }
  48:
                     entity = zulu.guild_connections;
  54:
                     zulu = mike !== entity;
-                    if(!report) { _fun91978_ip = 67; continue _fun91978 }
+                    if(!report) { _fun00004_ip = 67; continue _fun00003 }
  61:
                     entity = 1;
-                    if(!zulu) { _fun91978_ip = 86; continue _fun91978 }
+                    if(!zulu) { _fun00004_ip = 86; continue _fun00003 }
  67:
                     mike = 0;
-                    if(report) { _fun91978_ip = 83; continue _fun91978 }
+                    if(report) { _fun00004_ip = 83; continue _fun00003 }
  72:
                     mike = 0;
-                    if(!zulu) { _fun91978_ip = 83; continue _fun91978 }
+                    if(!zulu) { _fun00004_ip = 83; continue _fun00003 }
  77:
                     mike = -1;
  83:

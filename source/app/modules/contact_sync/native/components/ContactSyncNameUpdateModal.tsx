@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = options.bind(verify)(tango);
     var _closure1_slot10 = tango;
     tango = function() { // Original name: ContactSyncNameInputScreen
-        _fun94983: for(var _fun94983_ip = 0; ; ) switch(_fun94983_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -108,11 +108,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun94986: for(var _fun94986_ip = 0; ; ) switch(_fun94986_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun94986_ip = 233; continue _fun94986 }
+                            if(mike) { _fun00004_ip = 233; continue _fun00003 }
  10:
                             tango = argFoo;
                             oscar = _closure2_slot0;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return tango;
  67:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                            if(oscar) { _fun94986_ip = 97; continue _fun94986 }
+                            if(oscar) { _fun00004_ip = 97; continue _fun00003 }
  73:
                             golf = _closure2_slot0;
                             oscar = false;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = _closure1_slot9;
                             report = report.bind(mike)();
  92: // try_end0
-                            _fun94986_ip = 230; continue _fun94986;
+                            _fun00004_ip = 230; continue _fun00003;
  97:
                             return tango;
  100: // catch_target0
@@ -221,13 +221,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             offset = golf == verify;
             options = undefined;
-            if(offset) { _fun94983_ip = 181; continue _fun94983 }
+            if(offset) { _fun00002_ip = 181; continue _fun00001 }
  176:
             options = verify.name;
  181:
             verify = golf != options;
             golf = '';
-            if(!verify) { _fun94983_ip = 195; continue _fun94983 }
+            if(!verify) { _fun00002_ip = 195; continue _fun00001 }
  192:
             golf = options;
  195:

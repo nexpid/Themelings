@@ -40,25 +40,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/billing/hooks/useFPDurationLeft.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar) { // Original name: useFPDurationLeft
-        _fun95940: for(var _fun95940_ip = 0; ; ) switch(_fun95940_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = argBar;
             mike = _closure1_slot3;
             mike = mike.SHORT_TIME_LEFT;
-            if(!(mike !== golf)) { _fun95940_ip = 418; continue _fun95940 }
+            if(!(mike !== golf)) { _fun00002_ip = 418; continue _fun00001 }
  26:
             mike = _closure1_slot3;
             mike = mike.LONG_TIME_LEFT;
-            if(!(mike !== golf)) { _fun95940_ip = 324; continue _fun95940 }
+            if(!(mike !== golf)) { _fun00002_ip = 324; continue _fun00001 }
  43:
             mike = _closure1_slot3;
             mike = mike.ENDS_IN;
-            if(!(mike !== golf)) { _fun95940_ip = 227; continue _fun95940 }
+            if(!(mike !== golf)) { _fun00002_ip = 227; continue _fun00001 }
  60:
             mike = _closure1_slot3;
             mike = mike.SHORT_TIME;
-            if(!(mike !== golf)) { _fun95940_ip = 133; continue _fun95940 }
+            if(!(mike !== golf)) { _fun00002_ip = 133; continue _fun00001 }
  74:
             mike = global;
             report = mike.Error;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.r77oHR;
             tango['minutes'] = mike;
-            _fun95940_ip = 510; continue _fun95940;
+            _fun00002_ip = 510; continue _fun00001;
  227:
             mike = {};
             golf = _closure1_slot0;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.Z2LX7O;
             mike['minutes'] = report;
             tango = mike;
-            _fun95940_ip = 510; continue _fun95940;
+            _fun00002_ip = 510; continue _fun00001;
  324:
             mike = {};
             golf = _closure1_slot0;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.XSbQZW;
             mike['minutes'] = report;
             tango = mike;
-            _fun95940_ip = 510; continue _fun95940;
+            _fun00002_ip = 510; continue _fun00001;
  418:
             mike = {};
             golf = _closure1_slot0;

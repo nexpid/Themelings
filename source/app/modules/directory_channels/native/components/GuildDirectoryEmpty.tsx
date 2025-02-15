@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/directory_channels/native/components/GuildDirectoryEmpty.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun102011: for(var _fun102011_ip = 0; ; ) switch(_fun102011_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             source = entity.guild;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = verify.bind(tango)(options, oscar);
             report[2] = oscar;
             oscar = null;
-            if(!golf) { _fun102011_ip = 577; continue _fun102011 }
+            if(!golf) { _fun00002_ip = 577; continue _fun00001 }
  452:
             verify = _closure1_slot6;
             output = _closure1_slot0;

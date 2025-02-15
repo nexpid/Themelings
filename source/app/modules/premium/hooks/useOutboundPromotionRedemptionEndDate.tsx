@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun96310: for(var _fun96310_ip = 0; ; ) switch(_fun96310_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = mike.bind(golf)(entity);
                 zulu = tango.dateFormat;
                 entity = _closure2_slot1;
-                if(entity) { _fun96310_ip = 78; continue _fun96310 }
+                if(entity) { _fun00002_ip = 78; continue _fun00001 }
  41:
                 mike = _closure1_slot1;
                 options = _closure1_slot2;
@@ -66,12 +66,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = _closure2_slot0;
                 entity = entity.endDate;
                 mike = mike.bind(golf)(entity);
-                _fun96310_ip = 183; continue _fun96310;
+                _fun00002_ip = 183; continue _fun00001;
  78:
                 entity = _closure2_slot0;
                 options = entity.outboundRedemptionEndDate;
                 entity = null;
-                if(!(entity == options)) { _fun96310_ip = 145; continue _fun96310 }
+                if(!(entity == options)) { _fun00002_ip = 145; continue _fun00001 }
  94:
                 options = _closure1_slot1;
                 verify = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = verify.add;
                 entity = _closure1_slot4;
                 entity = options.bind(verify)(entity);
-                _fun96310_ip = 180; continue _fun96310;
+                _fun00002_ip = 180; continue _fun00001;
  145:
                 options = _closure1_slot1;
                 verify = _closure1_slot2;

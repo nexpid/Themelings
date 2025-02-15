@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = offset;
     tango = function(argFoo) { // Original name: getBaseAnalyticsFields
-        _fun66206: for(var _fun66206_ip = 0; ; ) switch(_fun66206_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -16,21 +16,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = tango == zulu;
             mike = undefined;
             report = undefined;
-            if(oscar) { _fun66206_ip = 23; continue _fun66206 }
+            if(oscar) { _fun00002_ip = 23; continue _fun00001 }
  18:
             report = zulu.id;
  23:
             entity['subscription_id'] = report;
             oscar = tango == zulu;
             report = undefined;
-            if(oscar) { _fun66206_ip = 42; continue _fun66206 }
+            if(oscar) { _fun00002_ip = 42; continue _fun00001 }
  37:
             report = zulu.type;
  42:
             entity['subscription_type'] = report;
             oscar = tango != zulu;
             report = undefined;
-            if(!oscar) { _fun66206_ip = 107; continue _fun66206 }
+            if(!oscar) { _fun00002_ip = 107; continue _fun00001 }
  56:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = oscar.bind(golf)(zulu);
             options = tango == golf;
             oscar = undefined;
-            if(options) { _fun66206_ip = 104; continue _fun66206 }
+            if(options) { _fun00002_ip = 104; continue _fun00001 }
  99:
             oscar = golf.id;
  104:
@@ -50,14 +50,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['subscription_plan_id'] = report;
             oscar = tango == zulu;
             report = undefined;
-            if(oscar) { _fun66206_ip = 127; continue _fun66206 }
+            if(oscar) { _fun00002_ip = 127; continue _fun00001 }
  121:
             report = zulu.paymentGatewayPlanId;
  127:
             entity['subscription_plan_gateway_plan_id'] = report;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun66206_ip = 146; continue _fun66206 }
+            if(tango) { _fun00002_ip = 146; continue _fun00001 }
  141:
             mike = zulu.status;
  146:
@@ -147,13 +147,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     options = verify.bind(offset)(options);
     zulu['PaymentFlowStep'] = golf;
     golf = function(argFoo) { // Original name: getBasePurchaseFlowAnalyticsFields
-        _fun66207: for(var _fun66207_ip = 0; ; ) switch(_fun66207_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             oscar = entity.analyticsLoadId;
             report = entity.isGift;
             mike = undefined;
-            if(!(report === mike)) { _fun66207_ip = 23; continue _fun66207 }
+            if(!(report === mike)) { _fun00004_ip = 23; continue _fun00003 }
  21:
             report = false;
  23:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = null;
             tango = tango == zulu;
             mike = undefined;
-            if(tango) { _fun66207_ip = 117; continue _fun66207 }
+            if(tango) { _fun00004_ip = 117; continue _fun00003 }
  112:
             mike = zulu.section;
  117:

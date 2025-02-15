@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Modal/native/ModalFloatingAction.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ModalFloatingAction
-        _fun99396: for(var _fun99396_ip = 0; ; ) switch(_fun99396_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             golf = tango.isVisible;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.bind(tango)(entity);
             mike = offset.useSharedValue;
             entity = 0;
-            if(!golf) { _fun99396_ip = 108; continue _fun99396 }
+            if(!golf) { _fun00002_ip = 108; continue _fun00001 }
  105:
             entity = 1;
  108:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot[0] = golf;
             foxtrot[1] = output;
             yankee = function() {
-                _fun99397: for(var _fun99397_ip = 0; ; ) switch(_fun99397_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot2;
                     zulu = tango.set;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = options.withSpring;
                     report = _closure2_slot0;
                     oscar = 0;
-                    if(!report) { _fun99397_ip = 54; continue _fun99397 }
+                    if(!report) { _fun00004_ip = 54; continue _fun00003 }
  51:
                     oscar = 1;
  54:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = echo.bind(tango)(yankee);
             yankee = foxtrot.useAnimatedStyle;
             zulu = function() { // Original name: y
-                _fun99398: for(var _fun99398_ip = 0; ; ) switch(_fun99398_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = {};
                     oscar = _closure1_slot0;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = tango.bind(report)();
                     tango = _closure2_slot3;
                     mike = 0;
-                    if(!tango) { _fun99398_ip = 146; continue _fun99398 }
+                    if(!tango) { _fun00006_ip = 146; continue _fun00005 }
  136:
                     mike = 0.999999;
  146:
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = options;
             entity['style'] = report;
             report = 'none';
-            if(!golf) { _fun99396_ip = 388; continue _fun99396 }
+            if(!golf) { _fun00002_ip = 388; continue _fun00001 }
  384:
             report = 'auto';
  388:

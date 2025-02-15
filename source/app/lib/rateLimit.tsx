@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = new Array(0);
         var _closure2_slot4 = entity;
         entity = function(argFoo) { // Original name: wrapper
-            _fun106294: for(var _fun106294_ip = 0; ; ) switch(_fun106294_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = 0;
                 foxtrot = 0;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = mike.bind(oscar)();
                 options = _closure2_slot3;
                 oscar = null;
-                if(!(oscar != options)) { _fun106294_ip = 65; continue _fun106294 }
+                if(!(oscar != options)) { _fun00002_ip = 65; continue _fun00001 }
  44:
                 offset = report.clearTimeout;
                 verify = _closure2_slot3;
@@ -50,26 +50,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  65:
                 oscar = _closure2_slot4;
                 oscar = oscar.length;
-                if(!(oscar > tango)) { _fun106294_ip = 125; continue _fun106294 }
+                if(!(oscar > tango)) { _fun00002_ip = 125; continue _fun00001 }
  78:
                 oscar = _closure2_slot4;
                 oscar = oscar[tango];
-                if(!(oscar <= golf)) { _fun106294_ip = 125; continue _fun106294 }
+                if(!(oscar <= golf)) { _fun00002_ip = 125; continue _fun00001 }
  90:
                 oscar = _closure2_slot4;
                 options = oscar.shift;
                 options = options.bind(oscar)();
                 oscar = oscar.length;
-                if(!(oscar > tango)) { _fun106294_ip = 125; continue _fun106294 }
+                if(!(oscar > tango)) { _fun00002_ip = 125; continue _fun00001 }
  113:
                 oscar = _closure2_slot4;
                 oscar = oscar[tango];
-                if(oscar <= golf) { _fun106294_ip = 90; continue _fun106294 }
+                if(oscar <= golf) { _fun00002_ip = 90; continue _fun00001 }
  125:
                 oscar = _closure2_slot4;
                 options = oscar.length;
                 oscar = _closure2_slot0;
-                if(!(!(options < oscar))) { _fun106294_ip = 181; continue _fun106294 }
+                if(!(!(options < oscar))) { _fun00002_ip = 181; continue _fun00001 }
  142:
                 options = report.setTimeout;
                 report = _closure2_slot4;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 };
                 zulu = options.bind(report)(zulu, oscar);
                 _closure2_slot3 = zulu;
-                _fun106294_ip = 235; continue _fun106294;
+                _fun00002_ip = 235; continue _fun00001;
  181:
                 oscar = _closure2_slot4;
                 report = oscar.push;

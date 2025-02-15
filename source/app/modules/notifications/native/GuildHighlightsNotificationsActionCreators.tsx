@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         };
         mike['onFeedbackShown'] = options;
         golf = function(argFoo) { // Original name: onFeedbackCompleted
-            _fun90689: for(var _fun90689_ip = 0; ; ) switch(_fun90689_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 golf = entity.rating;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 golf = null;
                 verify = golf == options;
                 golf = undefined;
-                if(verify) { _fun90689_ip = 97; continue _fun90689 }
+                if(verify) { _fun00002_ip = 97; continue _fun00001 }
  92:
                 golf = options.value;
  97:

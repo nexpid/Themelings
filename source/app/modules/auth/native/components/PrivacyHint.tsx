@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/auth/native/components/PrivacyHint.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PrivacyHint
-        _fun111856: for(var _fun111856_ip = 0; ; ) switch(_fun111856_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             result = mike.consent;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             report = undefined;
             foxtrot = mike.bind(report)();
-            if(entity) { _fun111856_ip = 187; continue _fun111856 }
+            if(entity) { _fun00002_ip = 187; continue _fun00001 }
  40:
             zulu = _closure1_slot4;
             oscar = _closure1_slot0;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = golf.bind(options)(oscar, tango);
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun111856_ip = 555; continue _fun111856;
+            _fun00002_ip = 555; continue _fun00001;
  187:
             tango = _closure1_slot5;
             zulu = _closure1_slot2;

@@ -20,78 +20,78 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = tango.EPHEMERAL_COLLECTIBLE_EXPIRY_GRACE_PERIOD_IN_MS;
     var _closure1_slot2 = tango;
     report = function(argFoo) { // Original name: parseAvatarDecorationData
-        _fun36636: for(var _fun36636_ip = 0; ; ) switch(_fun36636_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = 'object';
             entity = typeof zulu;
-            if(!(mike === entity)) { _fun36636_ip = 241; continue _fun36636 }
+            if(!(mike === entity)) { _fun00002_ip = 241; continue _fun00001 }
  17:
             entity = null;
-            if(!(entity != zulu)) { _fun36636_ip = 241; continue _fun36636 }
+            if(!(entity != zulu)) { _fun00002_ip = 241; continue _fun00001 }
  26:
             mike = 'asset';
             mike = mike in zulu;
-            if(!mike) { _fun36636_ip = 239; continue _fun36636 }
+            if(!mike) { _fun00002_ip = 239; continue _fun00001 }
  40:
             mike = zulu.asset;
             oscar = 'string';
             mike = typeof mike;
-            if(!(oscar === mike)) { _fun36636_ip = 239; continue _fun36636 }
+            if(!(oscar === mike)) { _fun00002_ip = 239; continue _fun00001 }
  60:
             mike = {};
             tango = zulu.asset;
             mike['asset'] = tango;
             tango = 'sku_id';
             tango = tango in zulu;
-            if(!tango) { _fun36636_ip = 97; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 97; continue _fun00001 }
  84:
             report = zulu.sku_id;
             report = typeof report;
             tango = oscar === report;
  97:
-            if(!tango) { _fun36636_ip = 112; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 112; continue _fun00001 }
  100:
             tango = zulu.sku_id;
             mike['skuId'] = tango;
  112:
             tango = 'skuId';
             tango = tango in zulu;
-            if(!tango) { _fun36636_ip = 136; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 136; continue _fun00001 }
  123:
             report = zulu.skuId;
             report = typeof report;
             tango = oscar === report;
  136:
-            if(!tango) { _fun36636_ip = 151; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 151; continue _fun00001 }
  139:
             tango = zulu.skuId;
             mike['skuId'] = tango;
  151:
             tango = 'expires_at';
             tango = tango in zulu;
-            if(!tango) { _fun36636_ip = 179; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 179; continue _fun00001 }
  162:
             report = zulu.expires_at;
             oscar = 'number';
             report = typeof report;
             tango = oscar === report;
  179:
-            if(!tango) { _fun36636_ip = 194; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 194; continue _fun00001 }
  182:
             tango = zulu.expires_at;
             mike['expiresAt'] = tango;
  194:
             tango = 'expiresAt';
             tango = tango in zulu;
-            if(!tango) { _fun36636_ip = 222; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 222; continue _fun00001 }
  205:
             report = zulu.expiresAt;
             oscar = 'number';
             report = typeof report;
             tango = oscar === report;
  222:
-            if(!tango) { _fun36636_ip = 237; continue _fun36636 }
+            if(!tango) { _fun00002_ip = 237; continue _fun00001 }
  225:
             zulu = zulu.expiresAt;
             mike['expiresAt'] = zulu;
@@ -106,41 +106,41 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot3 = report;
     tango = function(argFoo) { // Original name: isAvatarDecorationExpired
-        _fun36637: for(var _fun36637_ip = 0; ; ) switch(_fun36637_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             tango = null;
             zulu = tango == mike;
             oscar = undefined;
-            if(zulu) { _fun36637_ip = 20; continue _fun36637 }
+            if(zulu) { _fun00004_ip = 20; continue _fun00003 }
  14:
             oscar = mike.skuId;
  20:
             golf = 950400000;
             report = '1251324401459265537';
             zulu = golf;
-            if(!(report !== oscar)) { _fun36637_ip = 74; continue _fun36637 }
+            if(!(report !== oscar)) { _fun00004_ip = 74; continue _fun00003 }
  39:
             report = tango == mike;
             oscar = undefined;
-            if(report) { _fun36637_ip = 54; continue _fun36637 }
+            if(report) { _fun00004_ip = 54; continue _fun00003 }
  48:
             oscar = mike.skuId;
  54:
             report = '1252353273256480818';
             zulu = golf;
-            if(!(report !== oscar)) { _fun36637_ip = 74; continue _fun36637 }
+            if(!(report !== oscar)) { _fun00004_ip = 74; continue _fun00003 }
  67:
             zulu = _closure1_slot2;
  74:
             report = tango == mike;
             entity = undefined;
-            if(report) { _fun36637_ip = 89; continue _fun36637 }
+            if(report) { _fun00004_ip = 89; continue _fun00003 }
  83:
             entity = mike.expiresAt;
  89:
             entity = tango != entity;
-            if(!entity) { _fun36637_ip = 137; continue _fun36637 }
+            if(!entity) { _fun00004_ip = 137; continue _fun00003 }
  96:
             tango = mike.expiresAt;
             mike = 1000;
@@ -177,14 +177,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['parseAvatarDecorationData'] = report;
     zulu['isAvatarDecorationExpired'] = tango;
     tango = function(argFoo, argBar) {
-        _fun36639: for(var _fun36639_ip = 0; ; ) switch(_fun36639_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             mike = argBar;
             entity = null;
-            if(!(entity != zulu)) { _fun36639_ip = 69; continue _fun36639 }
+            if(!(entity != zulu)) { _fun00006_ip = 69; continue _fun00005 }
  12:
-            if(!(entity != mike)) { _fun36639_ip = 69; continue _fun36639 }
+            if(!(entity != mike)) { _fun00006_ip = 69; continue _fun00005 }
  16:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = entity.bind(golf)(zulu);
             entity = entity.bind(golf)(mike);
             entity = report.bind(oscar)(tango, entity);
-            _fun36639_ip = 73; continue _fun36639;
+            _fun00006_ip = 73; continue _fun00005;
  69:
             entity = zulu === mike;
  73:
@@ -206,35 +206,35 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEqualAvatarDecoration'] = tango;
     mike = function(argFoo, argBar) {
-        _fun36640: for(var _fun36640_ip = 0; ; ) switch(_fun36640_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             zulu = null;
             entity = argBar;
             entity = zulu != entity;
-            if(!entity) { _fun36640_ip = 47; continue _fun36640 }
+            if(!entity) { _fun00008_ip = 47; continue _fun00007 }
  15:
             oscar = _closure1_slot4;
             golf = zulu == tango;
             report = undefined;
             mike = undefined;
-            if(golf) { _fun36640_ip = 39; continue _fun36640 }
+            if(golf) { _fun00008_ip = 39; continue _fun00007 }
  33:
             mike = tango.avatarDecoration;
  39:
             mike = oscar.bind(report)(mike);
             entity = !mike;
  47:
-            if(!entity) { _fun36640_ip = 84; continue _fun36640 }
+            if(!entity) { _fun00008_ip = 84; continue _fun00007 }
  50:
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun36640_ip = 80; continue _fun36640 }
+            if(report) { _fun00008_ip = 80; continue _fun00007 }
  59:
             tango = tango.avatarDecoration;
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun36640_ip = 80; continue _fun36640 }
+            if(report) { _fun00008_ip = 80; continue _fun00007 }
  74:
             mike = tango.asset;
  80:

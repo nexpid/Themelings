@@ -32,22 +32,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun113314: for(var _fun113314_ip = 0; ; ) switch(_fun113314_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.tab;
             report = entity.visible;
             mike = _closure1_slot3;
             mike = mike.FILES;
-            if(!(mike !== zulu)) { _fun113314_ip = 148; continue _fun113314 }
+            if(!(mike !== zulu)) { _fun00002_ip = 148; continue _fun00001 }
  32:
             mike = _closure1_slot3;
             mike = mike.LINKS;
-            if(!(mike !== zulu)) { _fun113314_ip = 148; continue _fun113314 }
+            if(!(mike !== zulu)) { _fun00002_ip = 148; continue _fun00001 }
  46:
             mike = _closure1_slot3;
             mike = mike.MEDIA;
-            if(!(mike !== zulu)) { _fun113314_ip = 101; continue _fun113314 }
+            if(!(mike !== zulu)) { _fun00002_ip = 101; continue _fun00001 }
  60:
             oscar = _closure1_slot4;
             zulu = _closure1_slot1;

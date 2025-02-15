@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot2;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun75022: for(var _fun75022_ip = 0; ; ) switch(_fun75022_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     tango = argFoo;
                     report = tango.chatInputContainerHeight;
                     mike = _closure2_slot0;
                     entity = tango;
-                    if(!(report !== mike)) { _fun75022_ip = 51; continue _fun75022 }
+                    if(!(report !== mike)) { _fun00002_ip = 51; continue _fun00001 }
  23:
                     mike = {};
                     golf = mike;
@@ -87,13 +87,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot2;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun75025: for(var _fun75025_ip = 0; ; ) switch(_fun75025_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = argFoo;
                     report = tango.showingAutoComplete;
                     mike = _closure2_slot0;
                     entity = tango;
-                    if(!(report !== mike)) { _fun75025_ip = 51; continue _fun75025 }
+                    if(!(report !== mike)) { _fun00004_ip = 51; continue _fun00003 }
  23:
                     mike = {};
                     golf = mike;
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot2;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun75028: for(var _fun75028_ip = 0; ; ) switch(_fun75028_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = argFoo;
                     report = tango.showingExpressionSuggestions;
                     mike = _closure2_slot0;
                     entity = tango;
-                    if(!(report !== mike)) { _fun75028_ip = 51; continue _fun75028 }
+                    if(!(report !== mike)) { _fun00006_ip = 51; continue _fun00005 }
  23:
                     mike = {};
                     golf = mike;
@@ -171,13 +171,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = _closure1_slot2;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun75031: for(var _fun75031_ip = 0; ; ) switch(_fun75031_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = argFoo;
                     report = tango.shouldShowJumpToPresentButton;
                     mike = _closure2_slot0;
                     entity = tango;
-                    if(!(report !== mike)) { _fun75031_ip = 51; continue _fun75031 }
+                    if(!(report !== mike)) { _fun00008_ip = 51; continue _fun00007 }
  23:
                     mike = {};
                     golf = mike;

@@ -21,17 +21,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot2 = mike;
     mike = {};
     golf = function(argFoo, argBar) { // Original name: announce
-        _fun35527: for(var _fun35527_ip = 0; ; ) switch(_fun35527_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = 'polite';
             entity = argBar;
-            if(!(mike !== entity)) { _fun35527_ip = 36; continue _fun35527 }
+            if(!(mike !== entity)) { _fun00002_ip = 36; continue _fun00001 }
  16:
             mike = _closure1_slot2;
             entity = mike.announceForAccessibility;
             entity = entity.bind(mike)(zulu);
-            _fun35527_ip = 72; continue _fun35527;
+            _fun00002_ip = 72; continue _fun00001;
  36:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

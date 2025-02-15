@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     mike = '__esModule';
     mike = report.bind(oscar)(zulu, mike, tango);
     mike = function(argFoo) { // Original name: stringifyErrors
-        _fun6670: for(var _fun6670_ip = 0; ; ) switch(_fun6670_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -18,33 +18,33 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar == tango;
             zulu = '';
             entity = zulu;
-            if(mike) { _fun6670_ip = 194; continue _fun6670 }
+            if(mike) { _fun00002_ip = 194; continue _fun00001 }
  28:
             options = typeof tango;
             golf = 'string';
             mike = tango;
-            if(!(golf !== options)) { _fun6670_ip = 191; continue _fun6670 }
+            if(!(golf !== options)) { _fun00002_ip = 191; continue _fun00001 }
  45:
-            if(!(oscar != tango)) { _fun6670_ip = 60; continue _fun6670 }
+            if(!(oscar != tango)) { _fun00002_ip = 60; continue _fun00001 }
  49:
             oscar = tango.message;
-            if(oscar) { _fun6670_ip = 183; continue _fun6670 }
+            if(oscar) { _fun00002_ip = 183; continue _fun00001 }
  60:
             oscar = global;
             verify = oscar.Array;
             golf = verify.isArray;
             golf = golf.bind(verify)(tango);
-            if(golf) { _fun6670_ip = 144; continue _fun6670 }
+            if(golf) { _fun00002_ip = 144; continue _fun00001 }
  81:
             golf = 'object';
-            if(!(golf === options)) { _fun6670_ip = 142; continue _fun6670 }
+            if(!(golf === options)) { _fun00002_ip = 142; continue _fun00001 }
  89:
             golf = oscar.Object;
             oscar = golf.keys;
             verify = oscar.bind(golf)(tango);
             options = verify.reduce;
             golf = function(argFoo, argBar) {
-                _fun6672: for(var _fun6672_ip = 0; ; ) switch(_fun6672_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = argFoo;
                     verify = argBar;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = undefined;
                     options = zulu.bind(entity)(mike);
                     entity = tango;
-                    if(!options) { _fun6672_ip = 84; continue _fun6672 }
+                    if(!options) { _fun00004_ip = 84; continue _fun00003 }
  37:
                     zulu = tango.concat;
                     mike = global;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = ', ';
             zulu = golf.bind(options)(oscar);
  142:
-            _fun6670_ip = 181; continue _fun6670;
+            _fun00002_ip = 181; continue _fun00001;
  144:
             golf = tango.reduce;
             oscar = function(argFoo, argBar) {
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = ', ';
             zulu = oscar.bind(golf)(report);
  181:
-            _fun6670_ip = 188; continue _fun6670;
+            _fun00002_ip = 188; continue _fun00001;
  183:
             zulu = tango.message;
  188:

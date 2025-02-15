@@ -37,18 +37,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/renderer/system_messages/SimpleDeadchatPromptSystemMessage.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: SimpleDeadchatPromptSystemMessage
-        _fun72566: for(var _fun72566_ip = 0; ; ) switch(_fun72566_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.row;
             entity = golf.message;
             zulu = entity.content;
             mike = null;
-            if(!(mike != zulu)) { _fun72566_ip = 38; continue _fun72566 }
+            if(!(mike != zulu)) { _fun00002_ip = 38; continue _fun00001 }
  25:
             zulu = entity.content;
             mike = '';
-            if(!(mike === zulu)) { _fun72566_ip = 100; continue _fun72566 }
+            if(!(mike === zulu)) { _fun00002_ip = 100; continue _fun00001 }
  38:
             oscar = _closure1_slot0;
             options = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.t;
             mike = mike.wnn1DQ;
             report = zulu.bind(tango)(mike);
-            _fun72566_ip = 105; continue _fun72566;
+            _fun00002_ip = 105; continue _fun00001;
  100:
             report = entity.content;
  105:
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: createSimpleDeadchatPromptSystemMessage
-        _fun72567: for(var _fun72567_ip = 0; ; ) switch(_fun72567_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = {};
@@ -147,12 +147,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.message;
             report = tango.content;
             tango = null;
-            if(!(tango != report)) { _fun72567_ip = 76; continue _fun72567 }
+            if(!(tango != report)) { _fun00004_ip = 76; continue _fun00003 }
  58:
             report = zulu.message;
             oscar = report.content;
             report = '';
-            if(!(report === oscar)) { _fun72567_ip = 133; continue _fun72567 }
+            if(!(report === oscar)) { _fun00004_ip = 133; continue _fun00003 }
  76:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.t;
             report = report.wnn1DQ;
             report = oscar.bind(options)(report);
-            _fun72567_ip = 143; continue _fun72567;
+            _fun00004_ip = 143; continue _fun00003;
  133:
             zulu = zulu.message;
             report = zulu.content;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar.isAndroid;
             oscar = report.bind(oscar)();
             report = null;
-            if(oscar) { _fun72567_ip = 256; continue _fun72567 }
+            if(oscar) { _fun00004_ip = 256; continue _fun00003 }
  188:
             offset = _closure1_slot3;
             verify = offset.resolveAssetSource;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar.isAndroid;
             report = report.bind(oscar)();
             tango = null;
-            if(report) { _fun72567_ip = 412; continue _fun72567 }
+            if(report) { _fun00004_ip = 412; continue _fun00003 }
  357:
             verify = _closure1_slot0;
             offset = _closure1_slot2;

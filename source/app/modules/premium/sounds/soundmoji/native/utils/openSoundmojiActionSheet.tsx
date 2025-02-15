@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: openSoundmojiActionSheet
-        _fun100086: for(var _fun100086_ip = 0; ; ) switch(_fun100086_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = 'openSoundmojiActionSheet';
             mike['location'] = oscar;
             mike = tango.bind(report)(mike);
-            if(!mike) { _fun100086_ip = 126; continue _fun100086 }
+            if(!mike) { _fun00002_ip = 126; continue _fun00001 }
  50:
             report = _closure1_slot1;
             mike = _closure1_slot2;

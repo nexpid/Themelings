@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/video_calls/native/components/SingleScreenshare.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun103656: for(var _fun103656_ip = 0; ; ) switch(_fun103656_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.participant;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.isGuildStageVoice;
             golf = report.bind(golf)();
             report = undefined;
-            if(!golf) { _fun103656_ip = 133; continue _fun103656 }
+            if(!golf) { _fun00002_ip = 133; continue _fun00001 }
  127:
             report = oscar.stageStreamContainer;
  133:

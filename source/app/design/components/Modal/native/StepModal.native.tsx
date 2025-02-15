@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Modal/native/StepModal.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: StepModal
-        _fun99377: for(var _fun99377_ip = 0; ; ) switch(_fun99377_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             foxtrot = tango.steps;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = golf;
             mike[1] = foxtrot;
             entity = function(argFoo) {
-                _fun99378: for(var _fun99378_ip = 0; ; ) switch(_fun99378_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     tango = zulu.route;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = report == entity;
                     entity = undefined;
                     golf = undefined;
-                    if(options) { _fun99378_ip = 52; continue _fun99378 }
+                    if(options) { _fun00004_ip = 52; continue _fun00003 }
  33:
                     verify = _closure2_slot0;
                     options = verify.indexOf;
@@ -123,13 +123,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  52:
                     options = report != golf;
                     tango = 0;
-                    if(!options) { _fun99378_ip = 64; continue _fun99378 }
+                    if(!options) { _fun00004_ip = 64; continue _fun00003 }
  61:
                     tango = golf;
  64:
                     tango = oscar.bind(entity)(tango);
                     tango = _closure2_slot1;
-                    if(!(report != tango)) { _fun99378_ip = 86; continue _fun99378 }
+                    if(!(report != tango)) { _fun00004_ip = 86; continue _fun00003 }
  77:
                     mike = _closure2_slot1;
                     mike = mike.bind(entity)(zulu);
@@ -190,13 +190,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['currentStep'] = yankee;
             backup = romeo == foxtrot;
             yankee = undefined;
-            if(backup) { _fun99377_ip = 381; continue _fun99377 }
+            if(backup) { _fun00002_ip = 381; continue _fun00001 }
  376:
             yankee = foxtrot.length;
  381:
             romeo = romeo != yankee;
             offset = 0;
-            if(!romeo) { _fun99377_ip = 393; continue _fun99377 }
+            if(!romeo) { _fun00002_ip = 393; continue _fun00001 }
  390:
             offset = yankee;
  393:

@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/feedback/FeedbackUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) {
-        _fun90720: for(var _fun90720_ip = 0; ; ) switch(_fun90720_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
             var _closure2_slot0 = entity;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             report = zulu.bind(entity)(mike);
             mike = -1;
-            if(!(report > mike)) { _fun90720_ip = 104; continue _fun90720 }
+            if(!(report > mike)) { _fun00002_ip = 104; continue _fun00001 }
  75:
             zulu = entity[report];
             tango = entity.splice;

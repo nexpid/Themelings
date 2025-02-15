@@ -28,17 +28,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/getErrorMessageForCommandResult.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getErrorMessageForCommandResult
-        _fun123670: for(var _fun123670_ip = 0; ; ) switch(_fun123670_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             report = argBar;
             oscar = argBaz;
             entity = 'failed';
-            if(!(entity !== report)) { _fun123670_ip = 213; continue _fun123670 }
+            if(!(entity !== report)) { _fun00002_ip = 213; continue _fun00001 }
  22:
             tango = 'n/a';
             entity = null;
-            if(!(tango === report)) { _fun123670_ip = 950; continue _fun123670 }
+            if(!(tango === report)) { _fun00002_ip = 950; continue _fun00001 }
  37:
             golf = oscar.code;
             kilo = mike.platform;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = _closure1_slot3;
             tango = tango.CONSOLE_DEVICE_PASSCODE_UNLOCK_REQUIRED;
             zulu = null;
-            if(!(golf === tango)) { _fun123670_ip = 205; continue _fun123670 }
+            if(!(golf === tango)) { _fun00002_ip = 205; continue _fun00001 }
  75:
             tango = {};
             yankee = _closure1_slot0;
@@ -80,26 +80,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango;
  205:
             entity = zulu;
-            _fun123670_ip = 950; continue _fun123670;
+            _fun00002_ip = 950; continue _fun00001;
  213:
             zulu = oscar.code;
             verify = mike.platform;
             yankee = mike.name;
             mike = _closure1_slot3;
             mike = mike.CONSOLE_DEVICE_COMMUNICATION_RESTRICTED;
-            if(!(mike !== zulu)) { _fun123670_ip = 825; continue _fun123670 }
+            if(!(mike !== zulu)) { _fun00002_ip = 825; continue _fun00001 }
  249:
             mike = _closure1_slot3;
             mike = mike.CONSOLE_DEVICE_INVALID_POWER_MODE;
-            if(!(mike !== zulu)) { _fun123670_ip = 693; continue _fun123670 }
+            if(!(mike !== zulu)) { _fun00002_ip = 693; continue _fun00001 }
  266:
             mike = _closure1_slot3;
             mike = mike.CONSOLE_DEVICE_UNVAILABLE_FROM_OTHER_USERS;
-            if(!(mike !== zulu)) { _fun123670_ip = 558; continue _fun123670 }
+            if(!(mike !== zulu)) { _fun00002_ip = 558; continue _fun00001 }
  283:
             mike = _closure1_slot3;
             mike = mike.CONSOLE_DEVICE_ACCOUNT_LINK_ERROR;
-            if(!(mike !== zulu)) { _fun123670_ip = 424; continue _fun123670 }
+            if(!(mike !== zulu)) { _fun00002_ip = 424; continue _fun00001 }
  300:
             mike = {};
             offset = _closure1_slot0;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['deviceName'] = yankee;
             zulu = golf.bind(options)(report, zulu);
             mike['body'] = zulu;
-            _fun123670_ip = 947; continue _fun123670;
+            _fun00002_ip = 947; continue _fun00001;
  424:
             zulu = {};
             romeo = _closure1_slot0;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = true;
             zulu['isAccountLinkError'] = report;
             mike = zulu;
-            _fun123670_ip = 947; continue _fun123670;
+            _fun00002_ip = 947; continue _fun00001;
  558:
             zulu = {};
             romeo = _closure1_slot0;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = options.bind(offset)(golf, report);
             zulu['body'] = report;
             mike = zulu;
-            _fun123670_ip = 947; continue _fun123670;
+            _fun00002_ip = 947; continue _fun00001;
  693:
             zulu = {};
             romeo = _closure1_slot0;
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = options.bind(offset)(golf, report);
             zulu['body'] = report;
             mike = zulu;
-            _fun123670_ip = 947; continue _fun123670;
+            _fun00002_ip = 947; continue _fun00001;
  825:
             zulu = {};
             offset = _closure1_slot0;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = mike;
  950:
             mike = null;
-            if(!(mike != entity)) { _fun123670_ip = 1066; continue _fun123670 }
+            if(!(mike != entity)) { _fun00002_ip = 1066; continue _fun00001 }
  956:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;

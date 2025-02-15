@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = 'modules/user_profile/native/showUserProfileActionSheet.tsx';
     golf = options.bind(verify)(golf);
     oscar = function(argFoo) { // Original name: showUserProfileActionSheet
-        _fun77067: for(var _fun77067_ip = 0; ; ) switch(_fun77067_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             tango = _closure1_slot0;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             verify = oscar != options;
             oscar = 'UserProfileActionSheet';
-            if(!verify) { _fun77067_ip = 59; continue _fun77067 }
+            if(!verify) { _fun00002_ip = 59; continue _fun00001 }
  56:
             oscar = options;
  59:
@@ -94,10 +94,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu.IgnoreProfileSpeedbumpDisabled;
             zulu = oscar.getSetting;
             zulu = zulu.bind(oscar)();
-            if(!tango) { _fun77067_ip = 435; continue _fun77067 }
+            if(!tango) { _fun00002_ip = 435; continue _fun00001 }
  145:
             tango = golf.ignoreBlockedSpeedBump;
-            if(tango) { _fun77067_ip = 435; continue _fun77067 }
+            if(tango) { _fun00002_ip = 435; continue _fun00001 }
  157:
             options = _closure1_slot3;
             oscar = options.isBlocked;
@@ -106,9 +106,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options.isIgnored;
             tango = golf.userId;
             tango = oscar.bind(options)(tango);
-            if(report) { _fun77067_ip = 294; continue _fun77067 }
+            if(report) { _fun00002_ip = 294; continue _fun00001 }
  196:
-            if(!verify) { _fun77067_ip = 294; continue _fun77067 }
+            if(!verify) { _fun00002_ip = 294; continue _fun00001 }
  199:
             options = _closure1_slot0;
             offset = _closure1_slot2;
@@ -135,17 +135,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = undefined;
             return oscar;
  294:
-            if(!report) { _fun77067_ip = 435; continue _fun77067 }
+            if(!report) { _fun00002_ip = 435; continue _fun00001 }
  300:
-            if(tango) { _fun77067_ip = 309; continue _fun77067 }
+            if(tango) { _fun00002_ip = 309; continue _fun00001 }
  303:
-            if(!verify) { _fun77067_ip = 435; continue _fun77067 }
+            if(!verify) { _fun00002_ip = 435; continue _fun00001 }
  309:
-            if(!report) { _fun77067_ip = 318; continue _fun77067 }
+            if(!report) { _fun00002_ip = 318; continue _fun00001 }
  312:
-            if(!tango) { _fun77067_ip = 318; continue _fun77067 }
+            if(!tango) { _fun00002_ip = 318; continue _fun00001 }
  315:
-            if(zulu) { _fun77067_ip = 435; continue _fun77067 }
+            if(zulu) { _fun00002_ip = 435; continue _fun00001 }
  318:
             tango = _closure1_slot0;
             report = _closure1_slot2;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = golf;
             offset = copyDataProperties(sizing, kilo);
             offset = 'ignore';
-            if(!verify) { _fun77067_ip = 415; continue _fun77067 }
+            if(!verify) { _fun00002_ip = 415; continue _fun00001 }
  411:
             offset = 'block';
  415:

@@ -47,14 +47,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun79916: for(var _fun79916_ip = 0; ; ) switch(_fun79916_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = {};
             mike = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': 323, 'maxHeight': 277, 'borderWidth': null, 'borderColor': null, 'borderRadius': 16};
             zulu = 1;
             tango = zulu;
-            if(!report) { _fun79916_ip = 26; continue _fun79916 }
+            if(!report) { _fun00002_ip = 26; continue _fun00001 }
  24:
             tango = undefined;
  26:
@@ -66,10 +66,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = undefined;
             options = verify.bind(oscar)(options);
             options = options.colors;
-            if(report) { _fun79916_ip = 73; continue _fun79916 }
+            if(report) { _fun00002_ip = 73; continue _fun00001 }
  65:
             report = options.BACKGROUND_FLOATING;
-            _fun79916_ip = 79; continue _fun79916;
+            _fun00002_ip = 79; continue _fun00001;
  73:
             report = options.BORDER_FAINT;
  79:
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/custom_status/native/CustomStatusPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CustomStatusPreview
-        _fun79917: for(var _fun79917_ip = 0; ; ) switch(_fun79917_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             control = mike.user;
@@ -243,16 +243,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output[0] = result;
             result = '';
             echo = result !== config;
-            if(echo) { _fun79917_ip = 472; continue _fun79917 }
+            if(echo) { _fun00004_ip = 472; continue _fun00003 }
  468:
             echo = backup !== record;
  472:
-            if(echo) { _fun79917_ip = 479; continue _fun79917 }
+            if(echo) { _fun00004_ip = 479; continue _fun00003 }
  475:
             echo = result !== sequence;
  479:
             result = !echo;
-            if(echo) { _fun79917_ip = 499; continue _fun79917 }
+            if(echo) { _fun00004_ip = 499; continue _fun00003 }
  485:
             echo = {};
             update = _closure1_slot5;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result['userProfileType'] = control;
             vacuum = backup == kilo;
             control = undefined;
-            if(vacuum) { _fun79917_ip = 642; continue _fun79917 }
+            if(vacuum) { _fun00004_ip = 642; continue _fun00003 }
  636:
             control = kilo.pronouns;
  642:
@@ -308,12 +308,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = verify;
             yankee = backup == kilo;
             verify = undefined;
-            if(yankee) { _fun79917_ip = 712; continue _fun79917 }
+            if(yankee) { _fun00004_ip = 712; continue _fun00003 }
  706:
             verify = kilo.profileEffectId;
  712:
             verify = backup != verify;
-            if(!verify) { _fun79917_ip = 781; continue _fun79917 }
+            if(!verify) { _fun00004_ip = 781; continue _fun00003 }
  719:
             romeo = _closure1_slot7;
             yankee = _closure1_slot1;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = {};
             sizing = backup == kilo;
             backup = undefined;
-            if(sizing) { _fun79917_ip = 760; continue _fun79917 }
+            if(sizing) { _fun00004_ip = 760; continue _fun00003 }
  754:
             backup = kilo.profileEffectId;
  760:

@@ -2,36 +2,36 @@
 export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu = argFred;
     entity = function(argFoo, argBar) { // Original name: isNewLayoutBetter
-        _fun101790: for(var _fun101790_ip = 0; ; ) switch(_fun101790_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = argBar;
             zulu = entity.unusedSpace;
             tango = 0;
-            if(!(tango !== zulu)) { _fun101790_ip = 373; continue _fun101790 }
+            if(!(tango !== zulu)) { _fun00002_ip = 373; continue _fun00001 }
  21:
             report = mike.unusedSpace;
             zulu = entity.unusedSpace;
-            if(!(report !== zulu)) { _fun101790_ip = 373; continue _fun101790 }
+            if(!(report !== zulu)) { _fun00002_ip = 373; continue _fun00001 }
  40:
             zulu = mike.unusedSpace;
-            if(!(tango !== zulu)) { _fun101790_ip = 369; continue _fun101790 }
+            if(!(tango !== zulu)) { _fun00002_ip = 369; continue _fun00001 }
  53:
             report = entity.unusedSpace;
             zulu = inf;
-            if(!(report !== zulu)) { _fun101790_ip = 369; continue _fun101790 }
+            if(!(report !== zulu)) { _fun00002_ip = 369; continue _fun00001 }
  76:
             zulu = entity.unusedSpace;
-            if(!(zulu > tango)) { _fun101790_ip = 99; continue _fun101790 }
+            if(!(zulu > tango)) { _fun00002_ip = 99; continue _fun00001 }
  86:
             zulu = mike.unusedSpace;
-            if(!(!(zulu < tango))) { _fun101790_ip = 365; continue _fun101790 }
+            if(!(!(zulu < tango))) { _fun00002_ip = 365; continue _fun00001 }
  99:
             zulu = mike.unusedSpace;
-            if(!(zulu > tango)) { _fun101790_ip = 122; continue _fun101790 }
+            if(!(zulu > tango)) { _fun00002_ip = 122; continue _fun00001 }
  109:
             zulu = entity.unusedSpace;
-            if(!(!(zulu < tango))) { _fun101790_ip = 361; continue _fun101790 }
+            if(!(!(zulu < tango))) { _fun00002_ip = 361; continue _fun00001 }
  122:
             tango = global;
             oscar = tango.Math;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(options)(report, zulu);
             golf = golf - oscar;
             oscar = 5000;
-            if(!(!(golf < oscar))) { _fun101790_ip = 224; continue _fun101790 }
+            if(!(!(golf < oscar))) { _fun00002_ip = 224; continue _fun00001 }
  218:
             zulu = zulu < report;
             return zulu;
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = report.bind(oscar)(tango, entity);
             mike = mike - entity;
             entity = mike !== zulu;
-            if(!entity) { _fun101790_ip = 359; continue _fun101790 }
+            if(!entity) { _fun00002_ip = 359; continue _fun00001 }
  355:
             entity = zulu < mike;
  359:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/utils/fitCardsInGrid.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: fitCardsInGrid
-        _fun101791: for(var _fun101791_ip = 0; ; ) switch(_fun101791_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             sizing = entity.cardCount;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = romeo;
             entity = undefined;
             mike = tango;
-            if(!output) { _fun101791_ip = 415; continue _fun101791 }
+            if(!output) { _fun00004_ip = 415; continue _fun00003 }
  83:
             output = zulu - romeo;
             output = output * kilo;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             result = sizing / zulu;
             echo = echo.bind(source)(result);
             result = 0;
-            if(!(update > result)) { _fun101791_ip = 133; continue _fun101791 }
+            if(!(update > result)) { _fun00004_ip = 133; continue _fun00003 }
  130:
             result = romeo;
  133:
@@ -173,13 +173,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             output = _closure1_slot0;
             output = output.bind(offset)(control, tango);
             update = tango;
-            if(!output) { _fun101791_ip = 231; continue _fun101791 }
+            if(!output) { _fun00004_ip = 231; continue _fun00003 }
  228:
             update = control;
  231:
             result = control.overscroll;
             output = update;
-            if(!(result < yankee)) { _fun101791_ip = 399; continue _fun101791 }
+            if(!(result < yankee)) { _fun00004_ip = 399; continue _fun00003 }
  247:
             result = control.rows;
             result = result - romeo;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             echo = echo.bind(offset)(result, update);
             output = update;
             entity = result;
-            if(!echo) { _fun101791_ip = 399; continue _fun101791 }
+            if(!echo) { _fun00004_ip = 399; continue _fun00003 }
  393:
             output = result;
             entity = output;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu + 1;
             tango = output;
             mike = tango;
-            if(zulu <= sizing) { _fun101791_ip = 83; continue _fun101791 }
+            if(zulu <= sizing) { _fun00004_ip = 83; continue _fun00003 }
  415:
             entity = {};
             zulu = mike.columns;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     report = function(argFoo) { // Original name: getIsDesktopRefreshEnabled
-        _fun35745: for(var _fun35745_ip = 0; ; ) switch(_fun35745_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot6;
             zulu = tango.getCurrentConfig;
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(zulu)(tango);
             zulu = !entity;
             entity = !zulu;
-            if(zulu) { _fun35745_ip = 65; continue _fun35745 }
+            if(zulu) { _fun00002_ip = 65; continue _fun00001 }
  62:
             entity = !mike;
  65:
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = report;
     tango = function(argFoo) { // Original name: useIsDesktopVisualRefreshEnabled
-        _fun35746: for(var _fun35746_ip = 0; ; ) switch(_fun35746_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscar = _closure1_slot6;
             report = oscar.useExperiment;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(zulu, mike);
             zulu = !entity;
             entity = !zulu;
-            if(zulu) { _fun35746_ip = 116; continue _fun35746 }
+            if(zulu) { _fun00004_ip = 116; continue _fun00003 }
  113:
             entity = !mike;
  116:
@@ -147,14 +147,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = options.bind(verify)(golf);
     zulu['DESKTOP_REFRESH_ENABLED_CACHE_KEY'] = oscar;
     oscar = function(argFoo) { // Original name: getIsDesktopRefreshEnabledCached
-        _fun35748: for(var _fun35748_ip = 0; ; ) switch(_fun35748_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = _closure1_slot2;
             entity = entity.hasLoadedExperiments;
-            if(entity) { _fun35748_ip = 22; continue _fun35748 }
+            if(entity) { _fun00006_ip = 22; continue _fun00005 }
  16:
             entity = _closure1_slot5;
-            _fun35748_ip = 36; continue _fun35748;
+            _fun00006_ip = 36; continue _fun00005;
  22:
             tango = _closure1_slot7;
             zulu = undefined;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getIsDesktopRefreshEnabledCached'] = oscar;
     zulu['getIsDesktopRefreshEnabled'] = report;
     report = function(argFoo) { // Original name: useIsDesktopRefreshChatInputEnabled
-        _fun35749: for(var _fun35749_ip = 0; ; ) switch(_fun35749_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = argFoo;
             tango = _closure1_slot8;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['autoTrackExposure'] = oscar;
             mike = tango.bind(report)(zulu, mike);
             mike = mike.newChatInput;
-            if(!entity) { _fun35749_ip = 60; continue _fun35749 }
+            if(!entity) { _fun00008_ip = 60; continue _fun00007 }
  57:
             entity = mike;
  60:
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['useIsDesktopVisualRefreshExperimentEnabled'] = report;
     zulu['useIsDesktopVisualRefreshEnabled'] = tango;
     tango = function(argFoo) { // Original name: useIsCollapsibleSidebarEnabled
-        _fun35753: for(var _fun35753_ip = 0; ; ) switch(_fun35753_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot8;
@@ -245,7 +245,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.enableCollapsibleSidebar;
             entity = !zulu;
             entity = !entity;
-            if(!zulu) { _fun35753_ip = 66; continue _fun35753 }
+            if(!zulu) { _fun00010_ip = 66; continue _fun00009 }
  63:
             entity = mike;
  66:
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsCollapsibleSidebarEnabled'] = tango;
     mike = function(argFoo) { // Original name: useCanOptOutOfDesktopVisualRefresh
-        _fun35754: for(var _fun35754_ip = 0; ; ) switch(_fun35754_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             tango = _closure1_slot6;
             zulu = tango.getCurrentConfig;
@@ -274,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = entity;
             entity = function() {
-                _fun35755: for(var _fun35755_ip = 0; ; ) switch(_fun35755_ip) {
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.getCurrentUser;
@@ -282,12 +282,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     mike = report == zulu;
                     entity = undefined;
-                    if(mike) { _fun35755_ip = 52; continue _fun35755 }
+                    if(mike) { _fun00014_ip = 52; continue _fun00013 }
  27:
                     mike = zulu.isStaff;
                     mike = report == mike;
                     entity = undefined;
-                    if(mike) { _fun35755_ip = 52; continue _fun35755 }
+                    if(mike) { _fun00014_ip = 52; continue _fun00013 }
  42:
                     mike = zulu.isStaff;
                     entity = mike.bind(zulu)();
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango, entity);
             entity = global;
             entity = entity.Boolean;
-            if(zulu) { _fun35754_ip = 99; continue _fun35754 }
+            if(zulu) { _fun00012_ip = 99; continue _fun00011 }
  96:
             zulu = tango;
  99:

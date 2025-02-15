@@ -38,12 +38,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = _closure2_slot0;
                 entity = undefined;
                 mike = function(argFoo) {
-                    _fun85025: for(var _fun85025_ip = 0; ; ) switch(_fun85025_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         entity = argFoo;
                         tango = entity.packToScrollTo;
                         mike = _closure3_slot0;
-                        if(!(tango !== mike)) { _fun85025_ip = 34; continue _fun85025 }
+                        if(!(tango !== mike)) { _fun00002_ip = 34; continue _fun00001 }
  20:
                         mike = {};
                         zulu = _closure3_slot0;

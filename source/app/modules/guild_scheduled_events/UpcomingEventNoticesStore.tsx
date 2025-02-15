@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun76108: for(var _fun76108_ip = 0; ; ) switch(_fun76108_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot14;
             entity = entity.bind(zulu)();
-            if(entity) { _fun76108_ip = 51; continue _fun76108 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun76108_ip = 92; continue _fun76108;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun76108_ip = 71; continue _fun76108 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun76109: for(var _fun76109_ip = 0; ; ) switch(_fun76109_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun76109_ip = 76; continue _fun76109;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -173,20 +173,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun76115: for(var _fun76115_ip = 0; ; ) switch(_fun76115_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
                 zulu = null;
-                if(!(zulu != entity)) { _fun76115_ip = 44; continue _fun76115 }
+                if(!(zulu != entity)) { _fun00006_ip = 44; continue _fun00005 }
  9:
                 tango = entity.upcomingEventDismissals;
-                if(!(zulu == tango)) { _fun76115_ip = 21; continue _fun76115 }
+                if(!(zulu == tango)) { _fun00006_ip = 21; continue _fun00005 }
  19:
                 tango = {};
  21:
                 _closure1_slot11 = tango;
                 entity = entity.upcomingEventSeenTimestamps;
-                if(!(zulu == entity)) { _fun76115_ip = 40; continue _fun76115 }
+                if(!(zulu == entity)) { _fun00006_ip = 40; continue _fun00005 }
  38:
                 entity = {};
  40:
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['UPCOMING_GUILD_EVENT_NOTICE_HIDE'] = verify;
     verify = function(argFoo) { // Original name: handleEventUpdate
-        _fun76122: for(var _fun76122_ip = 0; ; ) switch(_fun76122_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             entity = entity.guildScheduledEvent;
@@ -290,14 +290,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot9;
             zulu = zulu.CANCELED;
             zulu = tango !== zulu;
-            if(!zulu) { _fun76122_ip = 53; continue _fun76122 }
+            if(!zulu) { _fun00008_ip = 53; continue _fun00007 }
  34:
             report = entity.status;
             tango = _closure1_slot9;
             tango = tango.COMPLETED;
             zulu = report !== tango;
  53:
-            if(zulu) { _fun76122_ip = 72; continue _fun76122 }
+            if(zulu) { _fun00008_ip = 72; continue _fun00007 }
  56:
             zulu = _closure1_slot15;
             mike = entity.id;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['GUILD_SCHEDULED_EVENT_DELETE'] = verify;
     verify = function(argFoo) { // Original name: handleMaybeHideNewEventNotice
-        _fun76124: for(var _fun76124_ip = 0; ; ) switch(_fun76124_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             zulu = entity.userId;
@@ -328,22 +328,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = _closure1_slot7;
             entity = report.getId;
             entity = entity.bind(report)();
-            if(!(zulu === entity)) { _fun76124_ip = 195; continue _fun76124 }
+            if(!(zulu === entity)) { _fun00010_ip = 195; continue _fun00009 }
  38:
             zulu = _closure1_slot8;
             entity = zulu.getGuildScheduledEvent;
             options = entity.bind(zulu)(tango);
             zulu = null;
-            if(!(zulu != options)) { _fun76124_ip = 195; continue _fun76124 }
+            if(!(zulu != options)) { _fun00010_ip = 195; continue _fun00009 }
  62:
             report = options.status;
             entity = _closure1_slot9;
             entity = entity.SCHEDULED;
-            if(!(report === entity)) { _fun76124_ip = 195; continue _fun76124 }
+            if(!(report === entity)) { _fun00010_ip = 195; continue _fun00009 }
  81:
             entity = _closure1_slot11;
             entity = entity[tango];
-            if(!(zulu == entity)) { _fun76124_ip = 195; continue _fun76124 }
+            if(!(zulu == entity)) { _fun00010_ip = 195; continue _fun00009 }
  93:
             entity = _closure1_slot12;
             offset = entity[tango];
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = foxtrot[zulu](romeo, yankee, offset, verify, options);
             entity = _closure1_slot10;
             entity = entity.NEW_EVENT;
-            if(!(zulu === entity)) { _fun76124_ip = 195; continue _fun76124 }
+            if(!(zulu === entity)) { _fun00010_ip = 195; continue _fun00009 }
  157:
             entity = {};
             yankee = _closure1_slot11;

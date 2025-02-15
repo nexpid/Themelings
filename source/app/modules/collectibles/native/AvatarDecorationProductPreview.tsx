@@ -114,7 +114,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/collectibles/native/AvatarDecorationProductPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun99664: for(var _fun99664_ip = 0; ; ) switch(_fun99664_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot8;
             tango = undefined;
@@ -160,7 +160,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = null;
             report = offset == foxtrot;
             mike = undefined;
-            if(report) { _fun99664_ip = 159; continue _fun99664 }
+            if(report) { _fun00002_ip = 159; continue _fun00001 }
  153:
             mike = foxtrot.skuId;
  159:
@@ -210,7 +210,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             report = {};
             backup = offset == yankee;
             offset = undefined;
-            if(backup) { _fun99664_ip = 294; continue _fun99664 }
+            if(backup) { _fun00002_ip = 294; continue _fun00001 }
  289:
             offset = yankee.name;
  294:

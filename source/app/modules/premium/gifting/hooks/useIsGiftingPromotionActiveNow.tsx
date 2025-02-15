@@ -67,10 +67,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[0] = entity;
         zulu[1] = oscar;
         mike = function() {
-            _fun87792: for(var _fun87792_ip = 0; ; ) switch(_fun87792_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot1;
-                if(mike) { _fun87792_ip = 16; continue _fun87792 }
+                if(mike) { _fun00002_ip = 16; continue _fun00001 }
  12:
                 mike = undefined;
                 return mike;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike instanceof Object ? mike : tango;
                 var _closure3_slot0 = mike;
                 mike = function() { // Original name: startTimer
-                    _fun87793: for(var _fun87793_ip = 0; ; ) switch(_fun87793_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = global;
                         tango = entity.Math;
@@ -105,12 +105,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = zulu.bind(tango)(mike, entity);
                         zulu = _closure3_slot0;
                         mike = null;
-                        if(!(mike != zulu)) { _fun87793_ip = 100; continue _fun87793 }
+                        if(!(mike != zulu)) { _fun00004_ip = 100; continue _fun00003 }
  76:
                         zulu = _closure3_slot0;
                         mike = zulu.start;
                         entity = function() {
-                            _fun87794: for(var _fun87794_ip = 0; ; ) switch(_fun87794_ip) {
+                            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                 tango = _closure2_slot0;
                                 zulu = tango.isBefore;
@@ -119,12 +119,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                                 mike = report.now;
                                 mike = mike.bind(report)();
                                 mike = zulu.bind(tango)(mike);
-                                if(mike) { _fun87794_ip = 53; continue _fun87794 }
+                                if(mike) { _fun00006_ip = 53; continue _fun00005 }
  38:
                                 zulu = _closure3_slot1;
                                 mike = undefined;
                                 mike = zulu.bind(mike)();
-                                _fun87794_ip = 66; continue _fun87794;
+                                _fun00006_ip = 66; continue _fun00005;
  53:
                                 zulu = _closure2_slot2;
                                 mike = undefined;

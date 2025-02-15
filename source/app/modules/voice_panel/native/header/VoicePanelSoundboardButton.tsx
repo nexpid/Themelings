@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/voice_panel/native/header/VoicePanelSoundboardButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoicePanelSoundboardButton
-        _fun121945: for(var _fun121945_ip = 0; ; ) switch(_fun121945_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.channelId;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             yankee = entity.disabled;
             golf = entity.showIndicator;
             entity = null;
-            if(!mike) { _fun121945_ip = 308; continue _fun121945 }
+            if(!mike) { _fun00002_ip = 308; continue _fun00001 }
  100:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = offset.bind(report)(verify, oscar);
             oscar = new Array(2);
             oscar[0] = verify;
-            if(!golf) { _fun121945_ip = 294; continue _fun121945 }
+            if(!golf) { _fun00002_ip = 294; continue _fun00001 }
  262:
             offset = _closure1_slot4;
             verify = _closure1_slot1;

@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsMessageUnreadChannelActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsMessageUnreadChannelActionSheet
-        _fun86913: for(var _fun86913_ip = 0; ; ) switch(_fun86913_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot4;
             options = oscar.ALL_MESSAGES;
             oscar = undefined;
-            if(!(verify === options)) { _fun86913_ip = 159; continue _fun86913 }
+            if(!(verify === options)) { _fun00002_ip = 159; continue _fun00001 }
  104:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  159:
             entity['disabledMentionOnlyWithReason'] = oscar;
             report = function(argFoo) { // Original name: onChange
-                _fun86914: for(var _fun86914_ip = 0; ; ) switch(_fun86914_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     verify = argFoo;
                     oscar = _closure1_slot3;
@@ -123,11 +123,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset = yankee.withChannelUnreadFlags;
                     options = _closure1_slot5;
                     options = options.ALL_MESSAGES;
-                    if(!(verify !== options)) { _fun86914_ip = 147; continue _fun86914 }
+                    if(!(verify !== options)) { _fun00004_ip = 147; continue _fun00003 }
  135:
                     options = _closure1_slot6;
                     options = options.UNREADS_ONLY_MENTIONS;
-                    _fun86914_ip = 157; continue _fun86914;
+                    _fun00004_ip = 157; continue _fun00003;
  147:
                     foxtrot = _closure1_slot6;
                     options = foxtrot.UNREADS_ALL_MESSAGES;

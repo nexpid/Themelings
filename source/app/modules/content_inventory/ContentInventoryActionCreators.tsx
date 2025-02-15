@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['onGameProfileOpen'] = tango;
     tango = function(argFoo) { // Original name: onTapContentInventoryEntryEmbed
-        _fun100095: for(var _fun100095_ip = 0; ; ) switch(_fun100095_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.message;
@@ -110,16 +110,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = tango.bind(golf)(entity);
             entity = 'avatar';
             tango = entity === mike;
-            if(tango) { _fun100095_ip = 64; continue _fun100095 }
+            if(tango) { _fun00002_ip = 64; continue _fun00001 }
  53:
             entity = 'username';
-            if(!(entity === mike)) { _fun100095_ip = 220; continue _fun100095 }
+            if(!(entity === mike)) { _fun00002_ip = 220; continue _fun00001 }
  64:
             mike = _closure1_slot6;
             entity = mike.getUser;
             offset = entity.bind(mike)(zulu);
             options = null;
-            if(!(options != offset)) { _fun100095_ip = 220; continue _fun100095 }
+            if(!(options != offset)) { _fun00002_ip = 220; continue _fun00001 }
  88:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['userId'] = offset;
             offset = options == verify;
             options = undefined;
-            if(offset) { _fun100095_ip = 141; continue _fun100095 }
+            if(offset) { _fun00002_ip = 141; continue _fun00001 }
  136:
             options = verify.id;
  141:
@@ -145,12 +145,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = 9;
             report = options[report];
             report = oscar.bind(golf)(report);
-            if(tango) { _fun100095_ip = 193; continue _fun100095 }
+            if(tango) { _fun00002_ip = 193; continue _fun00001 }
  177:
             oscar = report.USERNAME;
             tango = new Array(1);
             tango[0] = oscar;
-            _fun100095_ip = 210; continue _fun100095;
+            _fun00002_ip = 210; continue _fun00001;
  193:
             oscar = report.AVATAR;
             report = new Array(1);

@@ -1,6 +1,6 @@
 // app/components_native/App.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun108865: for(var _fun108865_ip = 0; ; ) switch(_fun108865_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         golf = argBaz;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot7 = tango;
         tango = argFoo;
         tango = tango.__DEV__;
-        if(!tango) { _fun108865_ip = 363; continue _fun108865 }
+        if(!tango) { _fun00002_ip = 363; continue _fun00001 }
  333:
         tango = 20;
         tango = oscar[tango];
@@ -412,10 +412,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = new Array(1);
                 tango[0] = zulu;
                 zulu = function() {
-                    _fun108873: for(var _fun108873_ip = 0; ; ) switch(_fun108873_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = _closure3_slot0;
-                        if(entity) { _fun108873_ip = 14; continue _fun108873 }
+                        if(entity) { _fun00004_ip = 14; continue _fun00003 }
  10:
                         entity = undefined;
                         return entity;
@@ -424,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = zulu.getToken;
                         golf = mike.bind(zulu)();
                         mike = null;
-                        if(!(mike != golf)) { _fun108873_ip = 151; continue _fun108873 }
+                        if(!(mike != golf)) { _fun00004_ip = 151; continue _fun00003 }
  37:
                         zulu = _closure1_slot1;
                         report = _closure1_slot2;
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = zulu.bind(tango)(mike);
                         mike = zulu.isAndroid;
                         mike = mike.bind(zulu)();
-                        if(!mike) { _fun108873_ip = 140; continue _fun108873 }
+                        if(!mike) { _fun00004_ip = 140; continue _fun00003 }
  120:
                         entity = _closure1_slot4;
                         mike = entity.NativePermissionManager;

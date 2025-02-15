@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = report.Permissions;
     var _closure1_slot8 = report;
     golf = function(argFoo) { // Original name: getContextForPermission
-        _fun81476: for(var _fun81476_ip = 0; ; ) switch(_fun81476_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = arguments[1];
             entity = undefined;
-            if(!(tango === entity)) { _fun81476_ip = 35; continue _fun81476 }
+            if(!(tango === entity)) { _fun00002_ip = 35; continue _fun00001 }
  9:
             report = _closure1_slot7;
             mike = new Array(2);
@@ -107,11 +107,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = golf;
     oscar = function(argFoo) { // Original name: canAccessMemberSafetyPage
-        _fun81477: for(var _fun81477_ip = 0; ; ) switch(_fun81477_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun81477_ip = 35; continue _fun81477 }
+            if(!(tango === zulu)) { _fun00004_ip = 35; continue _fun00003 }
  9:
             report = _closure1_slot4;
             entity = new Array(2);
@@ -129,11 +129,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = oscar;
     report = function(argFoo) { // Original name: hasBulkBanningPermissions
-        _fun81478: for(var _fun81478_ip = 0; ; ) switch(_fun81478_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun81478_ip = 35; continue _fun81478 }
+            if(!(tango === zulu)) { _fun00006_ip = 35; continue _fun00005 }
  9:
             report = _closure1_slot4;
             entity = new Array(2);
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['hasBulkBanningPermissions'] = report;
     zulu['useCanAccessMemberSafetyPage'] = tango;
     tango = function(argFoo) { // Original name: useCanAccessBulkBanningFeature
-        _fun81479: for(var _fun81479_ip = 0; ; ) switch(_fun81479_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             golf = argFoo;
             var _closure2_slot0 = golf;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = report.bind(oscar)(tango, mike, zulu);
-            if(!entity) { _fun81479_ip = 96; continue _fun81479 }
+            if(!entity) { _fun00008_ip = 96; continue _fun00007 }
  93:
             entity = mike;
  96:
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun81482: for(var _fun81482_ip = 0; ; ) switch(_fun81482_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getGuild;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = zulu.bind(tango)(entity);
                 entity = null;
                 entity = entity != report;
-                if(!entity) { _fun81482_ip = 59; continue _fun81482 }
+                if(!entity) { _fun00010_ip = 59; continue _fun00009 }
  33:
                 tango = _closure1_slot5;
                 zulu = tango.can;
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = golf;
         mike[2] = oscar;
         entity = function() {
-            _fun81484: for(var _fun81484_ip = 0; ; ) switch(_fun81484_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 report = _closure1_slot4;
                 mike = report.getGuild;
@@ -276,10 +276,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = mike.bind(report)(entity);
                 entity = null;
                 entity = entity != golf;
-                if(!entity) { _fun81484_ip = 74; continue _fun81484 }
+                if(!entity) { _fun00012_ip = 74; continue _fun00011 }
  33:
                 mike = _closure2_slot1;
-                if(!mike) { _fun81484_ip = 71; continue _fun81484 }
+                if(!mike) { _fun00012_ip = 71; continue _fun00011 }
  40:
                 oscar = _closure1_slot5;
                 report = oscar.canManageUser;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useCanBulkBanUser'] = tango;
     mike = function(argFoo, argBar, argBaz) { // Original name: canBulkBanUser
-        _fun81485: for(var _fun81485_ip = 0; ; ) switch(_fun81485_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             mike = argBar;
             report = _closure1_slot4;
@@ -307,9 +307,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(report)(entity);
             entity = null;
             entity = entity != golf;
-            if(!entity) { _fun81485_ip = 68; continue _fun81485 }
+            if(!entity) { _fun00014_ip = 68; continue _fun00013 }
  32:
-            if(!mike) { _fun81485_ip = 65; continue _fun81485 }
+            if(!mike) { _fun00014_ip = 65; continue _fun00013 }
  35:
             oscar = _closure1_slot5;
             report = oscar.canManageUser;

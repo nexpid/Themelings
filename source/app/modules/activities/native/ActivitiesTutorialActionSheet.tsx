@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/activities/native/ActivitiesTutorialActionSheet.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ActivitiesTutorialActionSheet
-        _fun115988: for(var _fun115988_ip = 0; ; ) switch(_fun115988_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.markAsDismissed;
@@ -119,10 +119,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = report.bind(oscar)(zulu, entity);
             entity = _closure1_slot11;
             entity = entity.NUX;
-            if(!(mike !== entity)) { _fun115988_ip = 160; continue _fun115988 }
+            if(!(mike !== entity)) { _fun00002_ip = 160; continue _fun00001 }
  141:
             entity = {'title': '', 'description': '', 'video': '', 'poster': '', 'aspectRatio': 1.7777777777777777};
-            _fun115988_ip = 288; continue _fun115988;
+            _fun00002_ip = 288; continue _fun00001;
  160:
             mike = {'title': null, 'description': null, 'video': 'https://cdn.discordapp.com/assets/activities/platform/mobile_nux_coachmark.mp4', 'poster': 'https://cdn.discordapp.com/assets/activities/platform/mobile_nux_coachmark.jpg', 'aspectRatio': 1.7777777777777777};
             golf = _closure1_slot0;

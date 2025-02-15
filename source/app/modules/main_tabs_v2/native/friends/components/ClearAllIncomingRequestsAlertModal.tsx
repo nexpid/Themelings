@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun119675: for(var _fun119675_ip = 0; ; ) switch(_fun119675_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun119675_ip = 58; continue _fun119675 }
+                    if(mike) { _fun00002_ip = 58; continue _fun00001 }
  7:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  46:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun119675_ip = 55; continue _fun119675 }
+                    if(tango) { _fun00002_ip = 55; continue _fun00001 }
  52:
                     return zulu;
  55:

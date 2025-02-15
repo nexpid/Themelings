@@ -28,18 +28,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PressableNavigatorModalIcon
-        _fun78665: for(var _fun78665_ip = 0; ; ) switch(_fun78665_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.navigation;
             verify = entity.onPress;
             tango = undefined;
-            if(!(verify === tango)) { _fun78665_ip = 26; continue _fun78665 }
+            if(!(verify === tango)) { _fun00002_ip = 26; continue _fun00001 }
  20:
             verify = mike.goBack;
  26:
             offset = entity.type;
-            if(!(offset === tango)) { _fun78665_ip = 39; continue _fun78665 }
+            if(!(offset === tango)) { _fun00002_ip = 39; continue _fun00001 }
  35:
             offset = 'back';
  39:
@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = 'back';
             golf = golf === offset;
             foxtrot = _closure1_slot2;
-            if(golf) { _fun78665_ip = 123; continue _fun78665 }
+            if(golf) { _fun00002_ip = 123; continue _fun00001 }
  114:
             offset = 4;
             offset = foxtrot[offset];
-            _fun78665_ip = 130; continue _fun78665;
+            _fun00002_ip = 130; continue _fun00001;
  123:
             romeo = 3;
             offset = foxtrot[romeo];
@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = romeo[options];
             options = yankee.bind(tango)(options);
             options = options.t;
-            if(golf) { _fun78665_ip = 203; continue _fun78665 }
+            if(golf) { _fun00002_ip = 203; continue _fun00001 }
  190:
             golf = options.cpT0Cg;
             golf = verify.bind(offset)(golf);
-            _fun78665_ip = 214; continue _fun78665;
+            _fun00002_ip = 214; continue _fun00001;
  203:
             options = options.13/7kZ;
             golf = verify.bind(offset)(options);

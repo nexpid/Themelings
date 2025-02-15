@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot7 = entity;
         zulu = oscar.useCallback;
         mike = function(argFoo) {
-            _fun111495: for(var _fun111495_ip = 0; ; ) switch(_fun111495_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 report = argFoo;
                 entity = null;
-                if(!(entity != report)) { _fun111495_ip = 23; continue _fun111495 }
+                if(!(entity != report)) { _fun00002_ip = 23; continue _fun00001 }
  9:
                 mike = _closure2_slot7;
                 entity = undefined;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = {};
         oscar['value'] = kilo;
         offset = function(argFoo) { // Original name: onValueChange
-            _fun111496: for(var _fun111496_ip = 0; ; ) switch(_fun111496_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = argFoo;
                 mike = _closure2_slot5;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.bind(entity)(report);
                 zulu = _closure2_slot8;
                 mike = undefined;
-                if(!report) { _fun111496_ip = 30; continue _fun111496 }
+                if(!report) { _fun00004_ip = 30; continue _fun00003 }
  26:
                 mike = _closure2_slot6;
  30:
@@ -190,12 +190,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = backup === foxtrot;
         options['value'] = foxtrot;
         foxtrot = function() { // Original name: onValueChange
-            _fun111497: for(var _fun111497_ip = 0; ; ) switch(_fun111497_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure2_slot3;
                 entity = _closure2_slot2;
                 mike = 'Dark';
-                if(!(mike === entity)) { _fun111497_ip = 27; continue _fun111497 }
+                if(!(mike === entity)) { _fun00006_ip = 27; continue _fun00005 }
  21:
                 mike = 'Light';
  27:

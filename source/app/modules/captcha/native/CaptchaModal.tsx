@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/captcha/native/CaptchaModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CaptchaModal
-        _fun122820: for(var _fun122820_ip = 0; ; ) switch(_fun122820_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.onCaptchaVerify;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = yankee.Text;
             yankee = {'variant': 'heading-xl/bold', 'accessibilityRole': 'header'};
             output = null;
-            if(!(output == kilo)) { _fun122820_ip = 396; continue _fun122820 }
+            if(!(output == kilo)) { _fun00002_ip = 396; continue _fun00001 }
  341:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(tango)(yankee);
             backup = yankee.Text;
             yankee = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            if(!(output == sizing)) { _fun122820_ip = 509; continue _fun122820 }
+            if(!(output == sizing)) { _fun00002_ip = 509; continue _fun00001 }
  454:
             update = _closure1_slot0;
             source = _closure1_slot2;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = oscar.bind(golf)(report, tango, zulu);
                 tango = report.then;
                 zulu = function(argFoo) {
-                    _fun122823: for(var _fun122823_ip = 0; ; ) switch(_fun122823_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure2_slot9;
                         entity = zulu.getState;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = entity[tango];
                         entity = entity.name;
                         zulu = 'auth';
-                        if(!(zulu === entity)) { _fun122823_ip = 110; continue _fun122823 }
+                        if(!(zulu === entity)) { _fun00004_ip = 110; continue _fun00003 }
  42:
                         oscar = _closure1_slot0;
                         report = _closure1_slot2;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = mike.routes;
                         mike = mike[tango];
                         mike = mike.name;
-                        if(!(zulu === mike)) { _fun122823_ip = 228; continue _fun122823 }
+                        if(!(zulu === mike)) { _fun00004_ip = 228; continue _fun00003 }
  162:
                         zulu = _closure1_slot0;
                         tango = _closure1_slot2;
@@ -278,11 +278,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.bind(report)(zulu);
                 zulu = tango.catch;
                 mike = function(argFoo) {
-                    _fun122824: for(var _fun122824_ip = 0; ; ) switch(_fun122824_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot1;
                         mike = null;
-                        if(!(mike != zulu)) { _fun122824_ip = 27; continue _fun122824 }
+                        if(!(mike != zulu)) { _fun00006_ip = 27; continue _fun00005 }
  13:
                         zulu = _closure2_slot1;
                         mike = undefined;

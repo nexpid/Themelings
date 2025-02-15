@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/in_app_reports/native/components/InAppReportsShieldElement.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShieldElement
-        _fun68985: for(var _fun68985_ip = 0; ; ) switch(_fun68985_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.element;
@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = null;
             zulu = tango == mike;
             entity = null;
-            if(zulu) { _fun68985_ip = 97; continue _fun68985 }
+            if(zulu) { _fun00002_ip = 97; continue _fun00001 }
  33:
             zulu = mike.type;
             mike = 'success';
             entity = null;
-            if(!(mike === zulu)) { _fun68985_ip = 97; continue _fun68985 }
+            if(!(mike === zulu)) { _fun00002_ip = 97; continue _fun00001 }
  48:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;

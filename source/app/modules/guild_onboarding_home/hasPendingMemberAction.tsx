@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_onboarding_home/hasPendingMemberAction.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: hasPendingMemberAction
-        _fun105763: for(var _fun105763_ip = 0; ; ) switch(_fun105763_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot5;
             mike = zulu.getGuild;
@@ -66,11 +66,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(report)(entity);
             oscar = null;
             entity = oscar != zulu;
-            if(!entity) { _fun105763_ip = 50; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 50; continue _fun00001 }
  46:
             entity = oscar != mike;
  50:
-            if(!entity) { _fun105763_ip = 80; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 80; continue _fun00001 }
  53:
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -80,14 +80,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.bind(golf)(report);
             entity = report.bind(golf)(zulu);
  80:
-            if(!entity) { _fun105763_ip = 104; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
  83:
             golf = zulu.hasFeature;
             report = _closure1_slot8;
             report = report.GUILD_SERVER_GUIDE;
             entity = golf.bind(zulu)(report);
  104:
-            if(!entity) { _fun105763_ip = 198; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 198; continue _fun00001 }
  107:
             options = _closure1_slot1;
             golf = _closure1_slot2;
@@ -101,13 +101,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = zulu.id;
             verify = offset.bind(yankee)(verify);
             offset = oscar == verify;
-            if(offset) { _fun105763_ip = 167; continue _fun105763 }
+            if(offset) { _fun00002_ip = 167; continue _fun00001 }
  162:
             report = verify.flags;
  167:
             verify = oscar != report;
             oscar = 0;
-            if(!verify) { _fun105763_ip = 179; continue _fun105763 }
+            if(!verify) { _fun00002_ip = 179; continue _fun00001 }
  176:
             oscar = report;
  179:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = golf.bind(options)(oscar, report);
             entity = !report;
  198:
-            if(!entity) { _fun105763_ip = 229; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 229; continue _fun00001 }
  201:
             options = _closure1_slot6;
             golf = options.hasMemberAction;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.id;
             entity = golf.bind(options)(oscar, report);
  229:
-            if(!entity) { _fun105763_ip = 263; continue _fun105763 }
+            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
  232:
             report = _closure1_slot7;
             tango = report.hasCompletedActionForChannel;

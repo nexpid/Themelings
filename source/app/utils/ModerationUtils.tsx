@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: mapColorToHighlightColor
-        _fun94737: for(var _fun94737_ip = 0; ; ) switch(_fun94737_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot0;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf.unsafe_getRawColor;
             mike = 'PRIMARY_400';
             mike = report.bind(golf)(mike);
-            if(!(mike !== tango)) { _fun94737_ip = 370; continue _fun94737 }
+            if(!(mike !== tango)) { _fun00002_ip = 370; continue _fun00001 }
  50:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf.unsafe_getRawColor;
             mike = 'GREEN_360';
             mike = report.bind(golf)(mike);
-            if(!(mike !== tango)) { _fun94737_ip = 336; continue _fun94737 }
+            if(!(mike !== tango)) { _fun00002_ip = 336; continue _fun00001 }
  89:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf.unsafe_getRawColor;
             mike = 'YELLOW_360';
             mike = report.bind(golf)(mike);
-            if(!(mike !== tango)) { _fun94737_ip = 302; continue _fun94737 }
+            if(!(mike !== tango)) { _fun00002_ip = 302; continue _fun00001 }
  128:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = golf.unsafe_getRawColor;
             mike = 'ORANGE_345';
             mike = report.bind(golf)(mike);
-            if(!(mike !== tango)) { _fun94737_ip = 268; continue _fun94737 }
+            if(!(mike !== tango)) { _fun00002_ip = 268; continue _fun00001 }
  164:
             report = _closure1_slot0;
             mike = _closure1_slot1;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = oscar.unsafe_getRawColor;
             mike = 'RED_400';
             mike = report.bind(oscar)(mike);
-            if(!(mike !== tango)) { _fun94737_ip = 234; continue _fun94737 }
+            if(!(mike !== tango)) { _fun00002_ip = 234; continue _fun00001 }
  200:
             tango = _closure1_slot0;
             report = _closure1_slot1;
@@ -168,16 +168,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['mapOptionToHighlightedRowOptions'] = tango;
     tango = function() { // Original name: generateVerificationLevelOptions
-        _fun94740: for(var _fun94740_ip = 0; ; ) switch(_fun94740_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = arguments[0];
             report = arguments[1];
             oscar = undefined;
-            if(!(zulu === oscar)) { _fun94740_ip = 14; continue _fun94740 }
+            if(!(zulu === oscar)) { _fun00004_ip = 14; continue _fun00003 }
  12:
             zulu = false;
  14:
-            if(!(report === oscar)) { _fun94740_ip = 20; continue _fun94740 }
+            if(!(report === oscar)) { _fun00004_ip = 20; continue _fun00003 }
  18:
             report = false;
  20:
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['value'] = entity;
             mike['disabled'] = zulu;
             entity = null;
-            if(!zulu) { _fun94740_ip = 208; continue _fun94740 }
+            if(!zulu) { _fun00004_ip = 208; continue _fun00003 }
  156:
             verify = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.LOW;
             mike['value'] = zulu;
             zulu = undefined;
-            if(report) { _fun94740_ip = 382; continue _fun94740 }
+            if(report) { _fun00004_ip = 382; continue _fun00003 }
  347:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.MEDIUM;
             mike['value'] = zulu;
             zulu = undefined;
-            if(report) { _fun94740_ip = 568; continue _fun94740 }
+            if(report) { _fun00004_ip = 568; continue _fun00003 }
  533:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.HIGH;
             mike['value'] = zulu;
             zulu = undefined;
-            if(report) { _fun94740_ip = 754; continue _fun94740 }
+            if(report) { _fun00004_ip = 754; continue _fun00003 }
  719:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.VERY_HIGH;
             mike['value'] = zulu;
             zulu = undefined;
-            if(report) { _fun94740_ip = 923; continue _fun94740 }
+            if(report) { _fun00004_ip = 923; continue _fun00003 }
  888:
             report = _closure1_slot0;
             golf = _closure1_slot1;
@@ -400,11 +400,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['generateVerificationLevelOptions'] = tango;
     tango = function() { // Original name: generateContentFilterHighlightedOptions
-        _fun94741: for(var _fun94741_ip = 0; ; ) switch(_fun94741_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = arguments[0];
             report = undefined;
-            if(!(golf === report)) { _fun94741_ip = 11; continue _fun94741 }
+            if(!(golf === report)) { _fun00006_ip = 11; continue _fun00005 }
  9:
             golf = false;
  11:
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['value'] = tango;
             mike['disabled'] = golf;
             options = null;
-            if(!golf) { _fun94741_ip = 347; continue _fun94741 }
+            if(!golf) { _fun00006_ip = 347; continue _fun00005 }
  295:
             foxtrot = _closure1_slot0;
             verify = _closure1_slot1;
@@ -519,7 +519,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['value'] = options;
             mike['disabled'] = golf;
             tango = null;
-            if(!golf) { _fun94741_ip = 566; continue _fun94741 }
+            if(!golf) { _fun00006_ip = 566; continue _fun00005 }
  514:
             offset = _closure1_slot0;
             golf = _closure1_slot1;
@@ -548,11 +548,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['generateContentFilterHighlightedOptions'] = tango;
     tango = function() { // Original name: generateContentFilterOptions
-        _fun94742: for(var _fun94742_ip = 0; ; ) switch(_fun94742_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = arguments[0];
             options = undefined;
-            if(!(report === options)) { _fun94742_ip = 11; continue _fun94742 }
+            if(!(report === options)) { _fun00008_ip = 11; continue _fun00007 }
  9:
             report = false;
  11:
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['value'] = zulu;
             mike['disabled'] = report;
             oscar = null;
-            if(!report) { _fun94742_ip = 316; continue _fun94742 }
+            if(!report) { _fun00008_ip = 316; continue _fun00007 }
  264:
             romeo = _closure1_slot0;
             golf = _closure1_slot1;
@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike['value'] = oscar;
             mike['disabled'] = report;
             zulu = null;
-            if(!report) { _fun94742_ip = 507; continue _fun94742 }
+            if(!report) { _fun00008_ip = 507; continue _fun00007 }
  455:
             golf = _closure1_slot0;
             tango = _closure1_slot1;

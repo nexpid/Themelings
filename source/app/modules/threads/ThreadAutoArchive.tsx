@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['getAutoArchiveOptions'] = report;
     zulu['getAutoArchiveDurations'] = tango;
     tango = function(argFoo) { // Original name: getAutoArchiveDurationText
-        _fun71479: for(var _fun71479_ip = 0; ; ) switch(_fun71479_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -174,11 +174,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             golf = zulu == oscar;
             entity = undefined;
-            if(golf) { _fun71479_ip = 55; continue _fun71479 }
+            if(golf) { _fun00002_ip = 55; continue _fun00001 }
  50:
             entity = oscar.label;
  55:
-            if(!(zulu == entity)) { _fun71479_ip = 104; continue _fun71479 }
+            if(!(zulu == entity)) { _fun00002_ip = 104; continue _fun00001 }
  59:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -196,22 +196,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getAutoArchiveDurationText'] = tango;
     mike = function(argFoo, argBar) { // Original name: getAutoArchiveDuration
-        _fun71481: for(var _fun71481_ip = 0; ; ) switch(_fun71481_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             entity = argBar;
             mike = null;
-            if(!(mike == entity)) { _fun71481_ip = 30; continue _fun71481 }
+            if(!(mike == entity)) { _fun00004_ip = 30; continue _fun00003 }
  12:
             report = mike == tango;
             zulu = undefined;
-            if(report) { _fun71481_ip = 27; continue _fun71481 }
+            if(report) { _fun00004_ip = 27; continue _fun00003 }
  21:
             zulu = tango.defaultAutoArchiveDuration;
  27:
             entity = zulu;
  30:
-            if(!(mike == entity)) { _fun71481_ip = 41; continue _fun71481 }
+            if(!(mike == entity)) { _fun00004_ip = 41; continue _fun00003 }
  34:
             entity = _closure1_slot3;
  41:

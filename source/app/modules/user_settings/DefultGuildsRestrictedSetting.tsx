@@ -21,7 +21,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'modules/user_settings/DefultGuildsRestrictedSetting.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() {
-        _fun99909: for(var _fun99909_ip = 0; ; ) switch(_fun99909_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -44,15 +44,15 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = 'useDefaultGuildsRestricted';
             zulu = zulu.bind(report)(mike);
             mike = null;
-            if(!(mike == entity)) { _fun99909_ip = 125; continue _fun99909 }
+            if(!(mike == entity)) { _fun00002_ip = 125; continue _fun00001 }
  98:
             report = !tango;
             mike = !report;
-            if(!report) { _fun99909_ip = 122; continue _fun99909 }
+            if(!report) { _fun00002_ip = 122; continue _fun00001 }
  107:
             report = !zulu;
             zulu = !report;
-            if(!report) { _fun99909_ip = 119; continue _fun99909 }
+            if(!report) { _fun00002_ip = 119; continue _fun00001 }
  116:
             zulu = tango;
  119:

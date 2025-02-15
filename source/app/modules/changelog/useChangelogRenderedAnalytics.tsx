@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/changelog/useChangelogRenderedAnalytics.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useChangelogRenderedAnalytics
-        _fun101405: for(var _fun101405_ip = 0; ; ) switch(_fun101405_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = verify;
             golf[1] = zulu;
             oscar = function() {
-                _fun101407: for(var _fun101407_ip = 0; ; ) switch(_fun101407_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot6;
                     zulu = tango.getChangelog;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     report = mike != report;
                     mike = '';
-                    if(!report) { _fun101407_ip = 37; continue _fun101407 }
+                    if(!report) { _fun00004_ip = 37; continue _fun00003 }
  33:
                     mike = _closure2_slot1;
  37:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = _closure1_slot3;
             offset = romeo.useRef;
             options = null;
-            if(!golf) { _fun101405_ip = 201; continue _fun101405 }
+            if(!golf) { _fun00002_ip = 201; continue _fun00001 }
  184:
             foxtrot = global;
             backup = foxtrot.Date;
@@ -170,16 +170,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[1] = zulu;
             tango[2] = golf;
             zulu = function() {
-                _fun101411: for(var _fun101411_ip = 0; ; ) switch(_fun101411_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot4;
-                    if(!mike) { _fun101411_ip = 20; continue _fun101411 }
+                    if(!mike) { _fun00006_ip = 20; continue _fun00005 }
  10:
                     tango = _closure2_slot1;
                     zulu = null;
                     mike = zulu != tango;
  20:
-                    if(!mike) { _fun101411_ip = 71; continue _fun101411 }
+                    if(!mike) { _fun00006_ip = 71; continue _fun00005 }
  23:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -203,16 +203,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = golf;
             tango[1] = oscar;
             zulu = function() {
-                _fun101412: for(var _fun101412_ip = 0; ; ) switch(_fun101412_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun101412_ip = 20; continue _fun101412 }
+                    if(!entity) { _fun00008_ip = 20; continue _fun00007 }
  10:
                     zulu = _closure2_slot3;
                     mike = null;
                     entity = mike != zulu;
  20:
-                    if(!entity) { _fun101412_ip = 134; continue _fun101412 }
+                    if(!entity) { _fun00008_ip = 134; continue _fun00007 }
  23:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -253,22 +253,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.current;
                 var _closure3_slot0 = mike;
                 entity = function() {
-                    _fun101414: for(var _fun101414_ip = 0; ; ) switch(_fun101414_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         mike = _closure2_slot4;
-                        if(!mike) { _fun101414_ip = 20; continue _fun101414 }
+                        if(!mike) { _fun00010_ip = 20; continue _fun00009 }
  10:
                         tango = _closure2_slot3;
                         zulu = null;
                         mike = zulu != tango;
  20:
-                        if(!mike) { _fun101414_ip = 36; continue _fun101414 }
+                        if(!mike) { _fun00010_ip = 36; continue _fun00009 }
  23:
                         tango = _closure3_slot0;
                         zulu = null;
                         mike = zulu != tango;
  36:
-                        if(!mike) { _fun101414_ip = 222; continue _fun101414 }
+                        if(!mike) { _fun00010_ip = 222; continue _fun00009 }
  42:
                         report = _closure1_slot1;
                         tango = _closure1_slot2;

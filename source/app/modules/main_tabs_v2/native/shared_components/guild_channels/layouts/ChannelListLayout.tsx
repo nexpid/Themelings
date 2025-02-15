@@ -6,12 +6,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     report = function(argFoo) { // Original name: getLayoutStyles
-        _fun86976: for(var _fun86976_ip = 0; ; ) switch(_fun86976_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = arguments[1];
             zulu = undefined;
-            if(!(mike === zulu)) { _fun86976_ip = 14; continue _fun86976 }
+            if(!(mike === zulu)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             mike = false;
  14:
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = golf.bind(zulu)(tango);
             tango = tango.ChannelListLayoutTypes;
             tango = tango.COZY_DRAWER;
-            if(!(tango !== report)) { _fun86976_ip = 292; continue _fun86976 }
+            if(!(tango !== report)) { _fun00002_ip = 292; continue _fun00001 }
  55:
             golf = _closure1_slot0;
             tango = _closure1_slot1;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = golf.bind(zulu)(tango);
             tango = tango.ChannelListLayoutTypes;
             tango = tango.COZY_DRAWER_SMOL;
-            if(!(tango !== report)) { _fun86976_ip = 264; continue _fun86976 }
+            if(!(tango !== report)) { _fun00002_ip = 264; continue _fun00001 }
  91:
             golf = _closure1_slot0;
             tango = _closure1_slot1;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = golf.bind(zulu)(tango);
             tango = tango.ChannelListLayoutTypes;
             tango = tango.COMPACT;
-            if(!(tango !== report)) { _fun86976_ip = 225; continue _fun86976 }
+            if(!(tango !== report)) { _fun00002_ip = 225; continue _fun00001 }
  124:
             golf = _closure1_slot0;
             tango = _closure1_slot1;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = golf.bind(zulu)(tango);
             tango = tango.ChannelListLayoutTypes;
             tango = tango.MINIMAL;
-            if(!(tango !== report)) { _fun86976_ip = 186; continue _fun86976 }
+            if(!(tango !== report)) { _fun00002_ip = 186; continue _fun00001 }
  157:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 3;
             tango = oscar[tango];
             report = report.bind(zulu)(tango);
-            if(mike) { _fun86976_ip = 217; continue _fun86976 }
+            if(mike) { _fun00002_ip = 217; continue _fun00001 }
  209:
             tango = report.CHANNEL_LIST_STYLES_COZY;
-            _fun86976_ip = 223; continue _fun86976;
+            _fun00002_ip = 223; continue _fun00001;
  217:
             tango = report.CHANNEL_LIST_STYLES_COZY_LAUNCHPAD;
  223:
@@ -74,10 +74,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = 2;
             tango = oscar[tango];
             tango = report.bind(zulu)(tango);
-            if(mike) { _fun86976_ip = 256; continue _fun86976 }
+            if(mike) { _fun00002_ip = 256; continue _fun00001 }
  248:
             mike = tango.CHANNEL_LIST_STYLES_COMPACT;
-            _fun86976_ip = 262; continue _fun86976;
+            _fun00002_ip = 262; continue _fun00001;
  256:
             mike = tango.CHANNEL_LIST_STYLES_COMPACT_LAUNCHPAD;
  262:
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['makeSizeStyle'] = report;
     zulu['isLayoutCompact'] = tango;
     tango = function(argFoo) { // Original name: isLayoutCozy
-        _fun86979: for(var _fun86979_ip = 0; ; ) switch(_fun86979_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.ChannelListLayoutTypes;
             entity = entity.COZY;
             entity = zulu === entity;
-            if(entity) { _fun86979_ip = 79; continue _fun86979 }
+            if(entity) { _fun00004_ip = 79; continue _fun00003 }
  46:
             golf = _closure1_slot0;
             tango = _closure1_slot1;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.COZY_DRAWER;
             entity = zulu === tango;
  79:
-            if(entity) { _fun86979_ip = 115; continue _fun86979 }
+            if(entity) { _fun00004_ip = 115; continue _fun00003 }
  82:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isLayoutCozy'] = tango;
     tango = function(argFoo) { // Original name: useMessagesTabLayout
-        _fun86980: for(var _fun86980_ip = 0; ; ) switch(_fun86980_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = _closure1_slot0;
             tango = _closure1_slot1;
@@ -196,10 +196,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike.bind(report)(entity);
             mike = entity.ChannelListLayoutTypes;
             entity = argFoo;
-            if(entity) { _fun86980_ip = 144; continue _fun86980 }
+            if(entity) { _fun00006_ip = 144; continue _fun00005 }
  72:
             entity = mike.COMPACT;
-            if(!(tango !== entity)) { _fun86980_ip = 113; continue _fun86980 }
+            if(!(tango !== entity)) { _fun00006_ip = 113; continue _fun00005 }
  82:
             tango = _closure1_slot0;
             entity = _closure1_slot1;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.ChannelListLayoutTypes;
             entity = entity.COZY;
-            _fun86980_ip = 142; continue _fun86980;
+            _fun00006_ip = 142; continue _fun00005;
  113:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.ChannelListLayoutTypes;
             entity = zulu.COMPACT;
  142:
-            _fun86980_ip = 150; continue _fun86980;
+            _fun00006_ip = 150; continue _fun00005;
  144:
             entity = mike.COZY_DRAWER_SMOL;
  150:
@@ -225,12 +225,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useMessagesTabLayout'] = tango;
     mike = function(argFoo, argBar) { // Original name: getScaledChannelRowHeight
-        _fun86981: for(var _fun86981_ip = 0; ; ) switch(_fun86981_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argBar;
             entity = arguments[2];
             tango = undefined;
-            if(!(entity === tango)) { _fun86981_ip = 14; continue _fun86981 }
+            if(!(entity === tango)) { _fun00008_ip = 14; continue _fun00007 }
  12:
             entity = false;
  14:
@@ -259,11 +259,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.size;
             options = options.bind(verify)(oscar, zulu);
             oscar = golf.container;
-            if(entity) { _fun86981_ip = 156; continue _fun86981 }
+            if(entity) { _fun00008_ip = 156; continue _fun00007 }
  143:
             zulu = oscar.padding;
             zulu = zulu.paddingVertical;
-            _fun86981_ip = 168; continue _fun86981;
+            _fun00008_ip = 168; continue _fun00007;
  156:
             oscar = oscar.paddingThread;
             zulu = oscar.paddingVertical;
@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar * zulu;
             zulu = options + zulu;
             golf = golf.layout;
-            if(entity) { _fun86981_ip = 202; continue _fun86981 }
+            if(entity) { _fun00008_ip = 202; continue _fun00007 }
  188:
             entity = golf.margin;
             entity = entity.marginVertical;
-            _fun86981_ip = 214; continue _fun86981;
+            _fun00008_ip = 214; continue _fun00007;
  202:
             golf = golf.marginThread;
             entity = golf.marginVertical;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = _closure1_slot3;
             tango = mike.bind(tango)(report);
             mike = 0;
-            if(!tango) { _fun86981_ip = 235; continue _fun86981 }
+            if(!tango) { _fun00008_ip = 235; continue _fun00007 }
  232:
             mike = 4;
  235:

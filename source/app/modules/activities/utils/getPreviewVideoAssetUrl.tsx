@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getPreviewVideoAssetUrl.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getPreviewVideoAssetUrl
-        _fun118532: for(var _fun118532_ip = 0; ; ) switch(_fun118532_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             yankee = argFoo;
             offset = argBar;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.GLOBAL_ENV;
             oscar = entity.API_ENDPOINT;
             entity = null;
-            if(!(entity == verify)) { _fun118532_ip = 112; continue _fun118532 }
+            if(!(entity == verify)) { _fun00002_ip = 112; continue _fun00001 }
  50:
             entity = mike.location;
             report = entity.protocol;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.concat;
             entity = '';
             entity = zulu.bind(entity)(report, oscar, tango);
-            _fun118532_ip = 176; continue _fun118532;
+            _fun00002_ip = 176; continue _fun00001;
  112:
             zulu = mike.location;
             echo = zulu.protocol;

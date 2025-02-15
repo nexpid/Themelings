@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: isLurkingGuildRoute
-        _fun104414: for(var _fun104414_ip = 0; ; ) switch(_fun104414_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
@@ -33,17 +33,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             report = entity == zulu;
             tango = undefined;
-            if(report) { _fun104414_ip = 120; continue _fun104414 }
+            if(report) { _fun00002_ip = 120; continue _fun00001 }
  100:
             zulu = zulu.params;
             report = entity == zulu;
             tango = undefined;
-            if(report) { _fun104414_ip = 120; continue _fun104414 }
+            if(report) { _fun00002_ip = 120; continue _fun00001 }
  115:
             tango = zulu.guildId;
  120:
             entity = entity == tango;
-            if(entity) { _fun104414_ip = 145; continue _fun104414 }
+            if(entity) { _fun00002_ip = 145; continue _fun00001 }
  127:
             zulu = _closure1_slot3;
             mike = zulu.isLurking;
@@ -80,13 +80,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'actions/DefaultRouteActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun104415: for(var _fun104415_ip = 0; ; ) switch(_fun104415_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot5;
             entity = undefined;
             zulu = zulu.bind(entity)(report);
-            if(zulu) { _fun104415_ip = 67; continue _fun104415 }
+            if(zulu) { _fun00004_ip = 67; continue _fun00003 }
  20:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -105,13 +105,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['saveLastRoute'] = tango;
     mike = function(argFoo) {
-        _fun104416: for(var _fun104416_ip = 0; ; ) switch(_fun104416_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot5;
             entity = undefined;
             zulu = zulu.bind(entity)(report);
-            if(zulu) { _fun104416_ip = 67; continue _fun104416 }
+            if(zulu) { _fun00006_ip = 67; continue _fun00005 }
  20:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

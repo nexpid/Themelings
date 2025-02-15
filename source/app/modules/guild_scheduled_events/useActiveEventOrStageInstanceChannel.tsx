@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useActiveEventOrStageInstanceChannel
-        _fun115607: for(var _fun115607_ip = 0; ; ) switch(_fun115607_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -49,12 +49,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar[zulu];
             zulu = null;
             golf = zulu == oscar;
-            if(golf) { _fun115607_ip = 89; continue _fun115607 }
+            if(golf) { _fun00002_ip = 89; continue _fun00001 }
  84:
             entity = oscar.id;
  89:
             entity = tango.bind(report)(entity);
-            if(!(zulu != mike)) { _fun115607_ip = 101; continue _fun115607 }
+            if(!(zulu != mike)) { _fun00002_ip = 101; continue _fun00001 }
  98:
             entity = mike;
  101:

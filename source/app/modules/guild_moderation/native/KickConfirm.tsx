@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot13 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: KickConfirm
-        _fun81881: for(var _fun81881_ip = 0; ; ) switch(_fun81881_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = entity;
             mike[2] = update;
             entity = function() {
-                _fun81885: for(var _fun81885_ip = 0; ; ) switch(_fun81885_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     golf = null;
                     mike = golf != mike;
-                    if(!mike) { _fun81885_ip = 24; continue _fun81885 }
+                    if(!mike) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     zulu = _closure2_slot4;
                     mike = golf != zulu;
  24:
-                    if(!mike) { _fun81885_ip = 174; continue _fun81885 }
+                    if(!mike) { _fun00004_ip = 174; continue _fun00003 }
  30:
                     tango = _closure2_slot6;
                     zulu = undefined;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot3;
                     mike = golf == mike;
                     tango = undefined;
-                    if(mike) { _fun81885_ip = 102; continue _fun81885 }
+                    if(mike) { _fun00004_ip = 102; continue _fun00003 }
  93:
                     mike = _closure2_slot3;
                     tango = mike.id;
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot4;
                     mike = golf == mike;
                     zulu = undefined;
-                    if(mike) { _fun81885_ip = 124; continue _fun81885 }
+                    if(mike) { _fun00004_ip = 124; continue _fun00003 }
  115:
                     mike = _closure2_slot4;
                     zulu = mike.id;
@@ -291,11 +291,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = zulu.bind(tango)(entity, mike);
             mike = offset != update;
             entity = null;
-            if(!mike) { _fun81881_ip = 1294; continue _fun81881 }
+            if(!mike) { _fun00002_ip = 1294; continue _fun00001 }
  340:
             mike = offset != status;
             entity = null;
-            if(!mike) { _fun81881_ip = 1294; continue _fun81881 }
+            if(!mike) { _fun00002_ip = 1294; continue _fun00001 }
  352:
             tango = _closure1_slot10;
             zulu = _closure1_slot7;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[3] = foxtrot;
             romeo = romeo.kickError;
             offset = null;
-            if(!romeo) { _fun81881_ip = 1270; continue _fun81881 }
+            if(!romeo) { _fun00002_ip = 1270; continue _fun00001 }
  1133:
             foxtrot = _closure1_slot10;
             kilo = _closure1_slot0;

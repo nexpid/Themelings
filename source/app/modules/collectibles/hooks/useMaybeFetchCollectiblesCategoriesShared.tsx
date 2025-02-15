@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 600000;
     zulu['COLLECTIBLES_STORE_LISTING_CACHE_DURATION'] = tango;
     mike = function(argFoo, argBar) { // Original name: useMaybeFetchCollectiblesCategoriesShared
-        _fun99484: for(var _fun99484_ip = 0; ; ) switch(_fun99484_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             oscar = argBar;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = null;
             zulu = zulu == verify;
             options = undefined;
-            if(zulu) { _fun99484_ip = 163; continue _fun99484 }
+            if(zulu) { _fun00002_ip = 163; continue _fun00001 }
  157:
             options = verify.includeBundles;
  163:
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = zulu;
             zulu = function() {
-                _fun99486: for(var _fun99486_ip = 0; ; ) switch(_fun99486_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot6;
                     tango = zulu.isFetchingCategories;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = null;
                     golf = report != oscar;
                     tango = 0;
-                    if(!golf) { _fun99486_ip = 64; continue _fun99486 }
+                    if(!golf) { _fun00004_ip = 64; continue _fun00003 }
  61:
                     tango = oscar;
  64:
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.lastSuccessfulFetch;
                     report = report != tango;
                     zulu = 0;
-                    if(!report) { _fun99486_ip = 90; continue _fun99486 }
+                    if(!report) { _fun00004_ip = 90; continue _fun00003 }
  87:
                     zulu = tango;
  90:
@@ -166,13 +166,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             offset[8] = romeo;
             offset[9] = oscar;
             oscar = function() {
-                _fun99487: for(var _fun99487_ip = 0; ; ) switch(_fun99487_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
-                    if(!mike) { _fun99487_ip = 240; continue _fun99487 }
+                    if(!mike) { _fun00006_ip = 240; continue _fun00005 }
  13:
                     mike = _closure2_slot5;
-                    if(mike) { _fun99487_ip = 240; continue _fun99487 }
+                    if(mike) { _fun00006_ip = 240; continue _fun00005 }
  23:
                     zulu = global;
                     tango = zulu.Date;
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = _closure2_slot7;
                     report = undefined;
                     mike = oscar.bind(report)(mike);
-                    if(!mike) { _fun99487_ip = 81; continue _fun99487 }
+                    if(!mike) { _fun00006_ip = 81; continue _fun00005 }
  68:
                     mike = 600000;
-                    if(!(!(tango < mike))) { _fun99487_ip = 240; continue _fun99487 }
+                    if(!(!(tango < mike))) { _fun00006_ip = 240; continue _fun00005 }
  81:
                     tango = {};
                     offset = _closure2_slot0;
@@ -216,11 +216,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = 600000;
                     golf = golf < zulu;
                     zulu = !options;
-                    if(options) { _fun99487_ip = 204; continue _fun99487 }
+                    if(options) { _fun00006_ip = 204; continue _fun00005 }
  201:
                     zulu = golf;
  204:
-                    if(zulu) { _fun99487_ip = 240; continue _fun99487 }
+                    if(zulu) { _fun00006_ip = 240; continue _fun00005 }
  207:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;

@@ -208,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot17 = tango;
     tango = function(argFoo) { // Original name: PerkRow
-        _fun85100: for(var _fun85100_ip = 0; ; ) switch(_fun85100_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.perk;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = golf;
             golf = undefined;
-            if(!options) { _fun85100_ip = 63; continue _fun85100 }
+            if(!options) { _fun00002_ip = 63; continue _fun00001 }
  57:
             golf = verify.lastPerkRow;
  63:
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/stickers/native/StickersPremiumUpsellAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun85101: for(var _fun85101_ip = 0; ; ) switch(_fun85101_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             verify = entity.onClose;
@@ -288,12 +288,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot3;
             zulu = report.useEffect;
             mike = function() {
-                _fun85102: for(var _fun85102_ip = 0; ; ) switch(_fun85102_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot7;
                     mike = zulu.isReady;
                     mike = mike.bind(zulu)();
-                    if(mike) { _fun85102_ip = 62; continue _fun85102 }
+                    if(mike) { _fun00006_ip = 62; continue _fun00005 }
  20:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = null;
             zulu = control == mike;
             vacuum = undefined;
-            if(zulu) { _fun85101_ip = 131; continue _fun85101 }
+            if(zulu) { _fun00004_ip = 131; continue _fun00003 }
  125:
             vacuum = mike.priceString;
  131:
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 580;
             golf = golf <= oscar;
             oscar = null;
-            if(!golf) { _fun85101_ip = 413; continue _fun85101 }
+            if(!golf) { _fun00004_ip = 413; continue _fun00003 }
  407:
             oscar = result.shortHeightAlert;
  413:
@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             sequence = control != vacuum;
             control = '$...';
-            if(!sequence) { _fun85101_ip = 725; continue _fun85101 }
+            if(!sequence) { _fun00004_ip = 725; continue _fun00003 }
  722:
             control = vacuum;
  725:

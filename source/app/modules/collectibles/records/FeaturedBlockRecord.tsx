@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = mike.subblocks;
             tango = report.map;
             mike = function(argFoo) {
-                _fun38853: for(var _fun38853_ip = 0; ; ) switch(_fun38853_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     tango = argFoo;
                     report = tango.type;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.FeaturedSubblockType;
                     zulu = entity.CATEGORY;
                     entity = tango;
-                    if(!(report === zulu)) { _fun38853_ip = 67; continue _fun38853 }
+                    if(!(report === zulu)) { _fun00002_ip = 67; continue _fun00001 }
  52:
                     zulu = _closure1_slot4;
                     mike = zulu.fromServer;

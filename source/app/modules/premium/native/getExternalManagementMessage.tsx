@@ -26,14 +26,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/premium/native/getExternalManagementMessage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getExternalManagementMessage
-        _fun66382: for(var _fun66382_ip = 0; ; ) switch(_fun66382_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             entity = null;
-            if(!(entity != golf)) { _fun66382_ip = 244; continue _fun66382 }
+            if(!(entity != golf)) { _fun00002_ip = 244; continue _fun00001 }
  12:
             mike = golf.isOnPlatformMatchingExternalPaymentGateway;
-            if(mike) { _fun66382_ip = 244; continue _fun66382 }
+            if(mike) { _fun00002_ip = 244; continue _fun00001 }
  24:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -44,15 +44,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.isIOS;
             mike = mike.bind(zulu)();
             verify = 'Android';
-            if(!mike) { _fun66382_ip = 74; continue _fun66382 }
+            if(!mike) { _fun00002_ip = 74; continue _fun00001 }
  68:
             verify = 'iOS';
  74:
             mike = golf.isPurchasedExternally;
-            if(!mike) { _fun66382_ip = 93; continue _fun66382 }
+            if(!mike) { _fun00002_ip = 93; continue _fun00001 }
  83:
             mike = golf.paymentGateway;
-            if(!(entity == mike)) { _fun66382_ip = 158; continue _fun66382 }
+            if(!(entity == mike)) { _fun00002_ip = 158; continue _fun00001 }
  93:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = {};
             mike['mobilePlatform'] = verify;
             mike = tango.bind(report)(zulu, mike);
-            _fun66382_ip = 242; continue _fun66382;
+            _fun00002_ip = 242; continue _fun00001;
  158:
             tango = _closure1_slot0;
             yankee = _closure1_slot1;

@@ -7,21 +7,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     entity = function(argFoo, argBar) { // Original name: getCTAButtonColor
-        _fun63602: for(var _fun63602_ip = 0; ; ) switch(_fun63602_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = argBar;
             tango = _closure1_slot10;
             tango = tango.BRAND;
-            if(!(tango !== zulu)) { _fun63602_ip = 71; continue _fun63602 }
+            if(!(tango !== zulu)) { _fun00002_ip = 71; continue _fun00001 }
  23:
             tango = _closure1_slot10;
             tango = tango.DANGER;
-            if(!(tango !== zulu)) { _fun63602_ip = 63; continue _fun63602 }
+            if(!(tango !== zulu)) { _fun00002_ip = 63; continue _fun00001 }
  37:
             mike = _closure1_slot10;
             mike = mike.WARNING;
-            if(!(mike !== zulu)) { _fun63602_ip = 55; continue _fun63602 }
+            if(!(mike !== zulu)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             mike = undefined;
             return mike;
@@ -38,12 +38,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     tango = function(argFoo) { // Original name: FormCTAButton
-        _fun63603: for(var _fun63603_ip = 0; ; ) switch(_fun63603_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             report = entity.color;
             tango = undefined;
-            if(!(tango === report)) { _fun63603_ip = 27; continue _fun63603 }
+            if(!(tango === report)) { _fun00004_ip = 27; continue _fun00003 }
  14:
             mike = _closure1_slot10;
             report = mike.BRAND;
@@ -51,25 +51,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = entity.label;
             mike = entity.fontSize;
             output = 16;
-            if(!(tango !== mike)) { _fun63603_ip = 48; continue _fun63603 }
+            if(!(tango !== mike)) { _fun00004_ip = 48; continue _fun00003 }
  45:
             output = mike;
  48:
             mike = entity.alignLeft;
             kilo = tango !== mike;
-            if(!kilo) { _fun63603_ip = 64; continue _fun63603 }
+            if(!kilo) { _fun00004_ip = 64; continue _fun00003 }
  61:
             kilo = mike;
  64:
             mike = entity.disabled;
             offset = tango !== mike;
-            if(!offset) { _fun63603_ip = 79; continue _fun63603 }
+            if(!offset) { _fun00004_ip = 79; continue _fun00003 }
  76:
             offset = mike;
  79:
             mike = entity.loading;
             yankee = tango !== mike;
-            if(!yankee) { _fun63603_ip = 95; continue _fun63603 }
+            if(!yankee) { _fun00004_ip = 95; continue _fun00003 }
  92:
             yankee = mike;
  95:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = {};
             sizing['fontSize'] = output;
             backup[2] = sizing;
-            if(!kilo) { _fun63603_ip = 201; continue _fun63603 }
+            if(!kilo) { _fun00004_ip = 201; continue _fun00003 }
  195:
             kilo = golf.alignLeft;
  201:
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = backup;
             entity['children'] = foxtrot;
             foxtrot = zulu.bind(tango)(mike, entity);
-            if(!yankee) { _fun63603_ip = 242; continue _fun63603 }
+            if(!yankee) { _fun00004_ip = 242; continue _fun00003 }
  222:
             zulu = _closure1_slot8;
             mike = _closure1_slot3;
@@ -123,13 +123,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot8;
             mike = _closure1_slot5;
             report = {};
-            if(entity) { _fun63603_ip = 423; continue _fun63603 }
+            if(entity) { _fun00004_ip = 423; continue _fun00003 }
  299:
             backup = golf.sectionBody;
             entity = new Array(3);
             entity[0] = backup;
             backup = offset;
-            if(!offset) { _fun63603_ip = 324; continue _fun63603 }
+            if(!offset) { _fun00004_ip = 324; continue _fun00003 }
  319:
             backup = golf.disabled;
  324:
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = golf.button;
             entity['style'] = kilo;
             kilo = offset;
-            if(offset) { _fun63603_ip = 382; continue _fun63603 }
+            if(offset) { _fun00004_ip = 382; continue _fun00003 }
  379:
             kilo = yankee;
  382:
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = backup.bind(tango)(options, entity);
             report['children'] = entity;
             entity = report;
-            _fun63603_ip = 508; continue _fun63603;
+            _fun00004_ip = 508; continue _fun00003;
  423:
             golf = golf.rowButton;
             report['style'] = golf;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['onPress'] = romeo;
             romeo = false;
             oscar['arrow'] = romeo;
-            if(offset) { _fun63603_ip = 486; continue _fun63603 }
+            if(offset) { _fun00004_ip = 486; continue _fun00003 }
  483:
             offset = yankee;
  486:

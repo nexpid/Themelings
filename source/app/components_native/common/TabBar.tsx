@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot9 = tango;
     tango = function(argFoo) { // Original name: Tab
-        _fun88390: for(var _fun88390_ip = 0; ; ) switch(_fun88390_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.children;
@@ -146,27 +146,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = romeo;
             options[1] = verify;
             romeo = null;
-            if(!backup) { _fun88390_ip = 266; continue _fun88390 }
+            if(!backup) { _fun00002_ip = 266; continue _fun00001 }
  256:
             sizing = _closure1_slot9;
             romeo = sizing.tabSelected;
  266:
             options[2] = romeo;
             romeo = null;
-            if(!yankee) { _fun88390_ip = 285; continue _fun88390 }
+            if(!yankee) { _fun00002_ip = 285; continue _fun00001 }
  275:
             kilo = _closure1_slot9;
             romeo = kilo.tabActive;
  285:
             options[3] = romeo;
             romeo = null;
-            if(!backup) { _fun88390_ip = 297; continue _fun88390 }
+            if(!backup) { _fun00002_ip = 297; continue _fun00001 }
  294:
             romeo = foxtrot;
  297:
             options[4] = romeo;
             verify = null;
-            if(!yankee) { _fun88390_ip = 309; continue _fun88390 }
+            if(!yankee) { _fun00002_ip = 309; continue _fun00001 }
  306:
             verify = offset;
  309:
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/common/TabBar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun88395: for(var _fun88395_ip = 0; ; ) switch(_fun88395_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             verify = mike.initialNumTabsToRender;
@@ -205,12 +205,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = mike.containerStyle;
             golf = mike.hideHorizontalScrollbar;
             tango = undefined;
-            if(!(golf === tango)) { _fun88395_ip = 87; continue _fun88395 }
+            if(!(golf === tango)) { _fun00004_ip = 87; continue _fun00003 }
  85:
             golf = false;
  87:
             backup = mike.scrollToSelectedIndex;
-            if(!(backup === tango)) { _fun88395_ip = 101; continue _fun88395 }
+            if(!(backup === tango)) { _fun00004_ip = 101; continue _fun00003 }
  99:
             backup = false;
  101:
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = mike;
             zulu[1] = yankee;
             mike = function(argFoo) {
-                _fun88397: for(var _fun88397_ip = 0; ; ) switch(_fun88397_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = argFoo;
                     zulu = _closure2_slot4;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot6;
                     tango = mike.current;
                     mike = null;
-                    if(!(mike != tango)) { _fun88397_ip = 49; continue _fun88397 }
+                    if(!(mike != tango)) { _fun00006_ip = 49; continue _fun00005 }
  32:
                     zulu = tango.scrollToIndex;
                     mike = {};
@@ -288,17 +288,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = mike.setTimeout;
                     tango = undefined;
                     zulu = function() {
-                        _fun88401: for(var _fun88401_ip = 0; ; ) switch(_fun88401_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             mike = _closure2_slot7;
                             zulu = mike.current;
                             mike = _closure3_slot1;
-                            if(!(zulu === mike)) { _fun88401_ip = 67; continue _fun88401 }
+                            if(!(zulu === mike)) { _fun00008_ip = 67; continue _fun00007 }
  23:
                             entity = _closure2_slot6;
                             zulu = entity.current;
                             entity = null;
-                            if(!(entity != zulu)) { _fun88401_ip = 67; continue _fun88401 }
+                            if(!(entity != zulu)) { _fun00008_ip = 67; continue _fun00007 }
  38:
                             mike = zulu.scrollToIndex;
                             entity = {};
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[5] = yankee;
             mike[6] = oscar;
             entity = function(argFoo) {
-                _fun88404: for(var _fun88404_ip = 0; ; ) switch(_fun88404_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     mike = argFoo;
                     entity = mike.item;
@@ -371,10 +371,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot3;
                     mike['tabStyleSelected'] = report;
                     report = _closure2_slot5;
-                    if(report) { _fun88404_ip = 86; continue _fun88404 }
+                    if(report) { _fun00010_ip = 86; continue _fun00009 }
  80:
                     report = _closure2_slot4;
-                    _fun88404_ip = 90; continue _fun88404;
+                    _fun00010_ip = 90; continue _fun00009;
  86:
                     report = _closure2_slot8;
  90:

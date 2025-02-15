@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: InstantInviteDetails
-        _fun112767: for(var _fun112767_ip = 0; ; ) switch(_fun112767_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.invite;
@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = backup.channel;
             romeo = mike.bind(zulu)(entity);
             entity = null;
-            if(!(entity == romeo)) { _fun112767_ip = 90; continue _fun112767 }
+            if(!(entity == romeo)) { _fun00002_ip = 90; continue _fun00001 }
  64:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;

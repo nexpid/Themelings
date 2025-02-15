@@ -92,12 +92,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/purchase_page/Elements.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: TruncatedText
-        _fun112084: for(var _fun112084_ip = 0; ; ) switch(_fun112084_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             offset = zulu.lineClamp;
             tango = undefined;
-            if(!(offset === tango)) { _fun112084_ip = 20; continue _fun112084 }
+            if(!(offset === tango)) { _fun00002_ip = 20; continue _fun00001 }
  17:
             offset = 8;
  20:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(zulu)(mike);
             _closure2_slot4 = entity;
             oscar = foxtrot;
-            if(!oscar) { _fun112084_ip = 324; continue _fun112084 }
+            if(!oscar) { _fun00002_ip = 324; continue _fun00001 }
  174:
             zulu = _closure1_slot9;
             mike = _closure1_slot7;
@@ -162,11 +162,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = echo[kilo];
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.t;
-            if(romeo) { _fun112084_ip = 293; continue _fun112084 }
+            if(romeo) { _fun00002_ip = 293; continue _fun00001 }
  280:
             kilo = sizing.Fbrd8P;
             kilo = output.bind(result)(kilo);
-            _fun112084_ip = 304; continue _fun112084;
+            _fun00002_ip = 304; continue _fun00001;
  293:
             sizing = sizing.JQX/PT;
             kilo = output.bind(result)(sizing);
@@ -180,10 +180,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             entity = {};
             options = function() { // Original name: onPress
-                _fun112085: for(var _fun112085_ip = 0; ; ) switch(_fun112085_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
-                    if(!entity) { _fun112085_ip = 30; continue _fun112085 }
+                    if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  10:
                     tango = _closure2_slot1;
                     zulu = undefined;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = options;
             options = 'togglebutton';
             entity['accessibilityRole'] = options;
-            if(!foxtrot) { _fun112084_ip = 368; continue _fun112084 }
+            if(!foxtrot) { _fun00002_ip = 368; continue _fun00001 }
  358:
             golf = 0.8;
  368:
@@ -217,21 +217,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = yankee;
             yankee = copyDataProperties(control, source);
             yankee = undefined;
-            if(!foxtrot) { _fun112084_ip = 427; continue _fun112084 }
+            if(!foxtrot) { _fun00002_ip = 427; continue _fun00001 }
  419:
             yankee = undefined;
-            if(romeo) { _fun112084_ip = 427; continue _fun112084 }
+            if(romeo) { _fun00002_ip = 427; continue _fun00001 }
  424:
             yankee = offset;
  427:
             offset = 'lineClamp';
             report[offset] = yankee;
             offset = function(argFoo) { // Original name: onTextLayout
-                _fun112087: for(var _fun112087_ip = 0; ; ) switch(_fun112087_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot4;
                     mike = mike.current;
-                    if(mike) { _fun112087_ip = 65; continue _fun112087 }
+                    if(mike) { _fun00006_ip = 65; continue _fun00005 }
  15:
                     zulu = _closure2_slot4;
                     mike = true;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ArrowButton'] = tango;
     mike = function(argFoo) { // Original name: useFormattedSubscriptionPlan
-        _fun112090: for(var _fun112090_ip = 0; ; ) switch(_fun112090_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             oscar = _closure1_slot1;
             golf = _closure1_slot3;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             tango = entity == mike;
             entity = 'No Price Available';
-            if(tango) { _fun112090_ip = 273; continue _fun112090 }
+            if(tango) { _fun00008_ip = 273; continue _fun00007 }
  200:
             tango = _closure1_slot0;
             oscar = _closure1_slot3;

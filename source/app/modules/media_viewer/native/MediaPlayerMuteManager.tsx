@@ -103,12 +103,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'terminate';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun85574: for(var _fun85574_ip = 0; ; ) switch(_fun85574_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = this;
                 mike = entity.muteSubscription;
                 entity = null;
-                if(!(entity != mike)) { _fun85574_ip = 25; continue _fun85574 }
+                if(!(entity != mike)) { _fun00002_ip = 25; continue _fun00001 }
  15:
                 entity = mike.remove;
                 entity = entity.bind(mike)();

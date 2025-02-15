@@ -94,14 +94,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_settings/native/MembersFilterActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MembersFilterActionSheet
-        _fun126536: for(var _fun126536_ip = 0; ; ) switch(_fun126536_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guild;
             var _closure2_slot0 = mike;
             zulu = entity.selectedRoleId;
             tango = undefined;
-            if(!(zulu === tango)) { _fun126536_ip = 49; continue _fun126536 }
+            if(!(zulu === tango)) { _fun00002_ip = 49; continue _fun00001 }
  26:
             report = _closure1_slot7;
             mike = report.getProps;
@@ -177,15 +177,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = report;
             oscar[1] = zulu;
             report = function(argFoo) {
-                _fun126540: for(var _fun126540_ip = 0; ; ) switch(_fun126540_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     mike = _closure2_slot1;
-                    if(!(zulu !== mike)) { _fun126540_ip = 115; continue _fun126540 }
+                    if(!(zulu !== mike)) { _fun00004_ip = 115; continue _fun00003 }
  14:
                     tango = _closure2_slot2;
                     mike = null;
-                    if(!(mike == tango)) { _fun126540_ip = 62; continue _fun126540 }
+                    if(!(mike == tango)) { _fun00004_ip = 62; continue _fun00003 }
  24:
                     report = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = report.bind(mike)(tango);
                     mike = tango.selectRole;
                     mike = mike.bind(tango)(zulu);
-                    _fun126540_ip = 73; continue _fun126540;
+                    _fun00004_ip = 73; continue _fun00003;
  62:
                     mike = _closure2_slot2;
                     entity = undefined;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = zulu;
             report[3] = yankee;
             zulu = function(argFoo) {
-                _fun126542: for(var _fun126542_ip = 0; ; ) switch(_fun126542_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     kilo = entity.item;
@@ -267,13 +267,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = _closure2_slot5;
                     romeo = 'dot';
                     foxtrot = romeo === foxtrot;
-                    if(!foxtrot) { _fun126542_ip = 107; continue _fun126542 }
+                    if(!foxtrot) { _fun00006_ip = 107; continue _fun00005 }
  95:
                     sizing = kilo.colorString;
                     romeo = null;
                     foxtrot = romeo != sizing;
  107:
-                    if(!foxtrot) { _fun126542_ip = 173; continue _fun126542 }
+                    if(!foxtrot) { _fun00006_ip = 173; continue _fun00005 }
  110:
                     output = _closure1_slot8;
                     sizing = _closure1_slot0;
@@ -310,12 +310,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     control = null;
                     update = control != echo;
                     echo = null;
-                    if(!update) { _fun126542_ip = 283; continue _fun126542 }
+                    if(!update) { _fun00006_ip = 283; continue _fun00005 }
  254:
                     source = _closure2_slot5;
                     update = 'username';
                     echo = null;
-                    if(!(update === source)) { _fun126542_ip = 283; continue _fun126542 }
+                    if(!(update === source)) { _fun00006_ip = 283; continue _fun00005 }
  268:
                     update = {};
                     source = kilo.colorString;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = offset;
             offset = undefined;
-            if(!romeo) { _fun126536_ip = 589; continue _fun126536 }
+            if(!romeo) { _fun00002_ip = 589; continue _fun00001 }
  583:
             offset = yankee.listViewRedesign;
  589:

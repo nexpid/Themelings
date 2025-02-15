@@ -23,12 +23,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'actions/native/DisplayedInviteActionCreators.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz) { // Original name: showInvite
-        _fun107443: for(var _fun107443_ip = 0; ; ) switch(_fun107443_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             entity = argBaz;
             mike = null;
-            if(!(mike == entity)) { _fun107443_ip = 14; continue _fun107443 }
+            if(!(mike == entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             entity = {};
  14:

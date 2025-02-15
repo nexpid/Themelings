@@ -48,7 +48,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     mike['title'] = tango;
     tango = function() { // Original name: useQuestHomeSettingPredicate
-        _fun96385: for(var _fun96385_ip = 0; ; ) switch(_fun96385_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             report = report.QUEST_HOME_MOBILE;
             entity['location'] = report;
             entity = zulu.bind(tango)(entity);
-            if(!entity) { _fun96385_ip = 93; continue _fun96385 }
+            if(!entity) { _fun00002_ip = 93; continue _fun00001 }
  90:
             entity = !mike;
  93:

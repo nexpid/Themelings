@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/premium/GiftPurchaseButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun96366: for(var _fun96366_ip = 0; ; ) switch(_fun96366_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.style;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = options;
             mike = entity.analyticsLocation;
             tango = undefined;
-            if(!(mike === tango)) { _fun96366_ip = 39; continue _fun96366 }
+            if(!(mike === tango)) { _fun00002_ip = 39; continue _fun00001 }
  37:
             mike = {};
  39:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot4 = mike;
             mike = null;
             mike = mike != zulu;
-            if(!mike) { _fun96366_ip = 269; continue _fun96366 }
+            if(!mike) { _fun00002_ip = 269; continue _fun00001 }
  259:
             zulu = zulu.planId;
             mike = zulu === options;

@@ -21,12 +21,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/getIFrameSandboxAttributes.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getIFrameSandboxAttributes
-        _fun75947: for(var _fun75947_ip = 0; ; ) switch(_fun75947_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.allowPopups;
             zulu = _closure1_slot0;
-            if(!mike) { _fun75947_ip = 68; continue _fun75947 }
+            if(!mike) { _fun00002_ip = 68; continue _fun00001 }
  19:
             oscar = _closure1_slot0;
             entity = new Array(2);

@@ -33,17 +33,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function(argFoo) {
-            _fun78560: for(var _fun78560_ip = 0; ; ) switch(_fun78560_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 options = entity.nativeEvent;
                 entity = _closure2_slot0;
                 verify = entity.current;
                 entity = options.isSectionHeader;
-                if(entity) { _fun78560_ip = 126; continue _fun78560 }
+                if(entity) { _fun00002_ip = 126; continue _fun00001 }
  29:
                 entity = options.isSectionFooter;
-                if(entity) { _fun78560_ip = 76; continue _fun78560 }
+                if(entity) { _fun00002_ip = 76; continue _fun00001 }
  38:
                 tango = verify.renderItem;
                 zulu = options.section;
@@ -52,17 +52,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = null;
                 zulu = zulu != entity;
                 report = undefined;
-                if(!zulu) { _fun78560_ip = 74; continue _fun78560 }
+                if(!zulu) { _fun00002_ip = 74; continue _fun00001 }
  71:
                 report = entity;
  74:
-                _fun78560_ip = 124; continue _fun78560;
+                _fun00002_ip = 124; continue _fun00001;
  76:
                 entity = verify.renderSectionFooter;
                 tango = null;
                 oscar = tango == entity;
                 zulu = undefined;
-                if(oscar) { _fun78560_ip = 109; continue _fun78560 }
+                if(oscar) { _fun00002_ip = 109; continue _fun00001 }
  93:
                 golf = verify.renderSectionFooter;
                 oscar = options.section;
@@ -70,19 +70,19 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  109:
                 tango = tango != zulu;
                 entity = undefined;
-                if(!tango) { _fun78560_ip = 121; continue _fun78560 }
+                if(!tango) { _fun00002_ip = 121; continue _fun00001 }
  118:
                 entity = zulu;
  121:
                 report = entity;
  124:
-                _fun78560_ip = 174; continue _fun78560;
+                _fun00002_ip = 174; continue _fun00001;
  126:
                 entity = verify.renderSectionHeader;
                 tango = null;
                 oscar = tango == entity;
                 zulu = undefined;
-                if(oscar) { _fun78560_ip = 159; continue _fun78560 }
+                if(oscar) { _fun00002_ip = 159; continue _fun00001 }
  143:
                 golf = verify.renderSectionHeader;
                 oscar = options.section;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  159:
                 tango = tango != zulu;
                 entity = undefined;
-                if(!tango) { _fun78560_ip = 171; continue _fun78560 }
+                if(!tango) { _fun00002_ip = 171; continue _fun00001 }
  168:
                 entity = zulu;
  171:
@@ -100,51 +100,51 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = tango == report;
                 entity = undefined;
                 verify = undefined;
-                if(zulu) { _fun78560_ip = 192; continue _fun78560 }
+                if(zulu) { _fun00002_ip = 192; continue _fun00001 }
  187:
                 verify = report.props;
  192:
                 oscar = tango == report;
                 zulu = undefined;
-                if(oscar) { _fun78560_ip = 206; continue _fun78560 }
+                if(oscar) { _fun00002_ip = 206; continue _fun00001 }
  201:
                 zulu = report.type;
  206:
                 offset = 'function';
                 report = typeof zulu;
-                if(!(offset === report)) { _fun78560_ip = 233; continue _fun78560 }
+                if(!(offset === report)) { _fun00002_ip = 233; continue _fun00001 }
  217:
                 report = zulu.name;
                 oscar = report.length;
                 report = 0;
-                if(!(!(oscar > report))) { _fun78560_ip = 284; continue _fun78560 }
+                if(!(!(oscar > report))) { _fun00002_ip = 284; continue _fun00001 }
  233:
                 oscar = tango == zulu;
                 report = undefined;
-                if(oscar) { _fun78560_ip = 247; continue _fun78560 }
+                if(oscar) { _fun00002_ip = 247; continue _fun00001 }
  242:
                 report = zulu.type;
  247:
                 golf = typeof report;
                 oscar = undefined;
-                if(!(offset === golf)) { _fun78560_ip = 282; continue _fun78560 }
+                if(!(offset === golf)) { _fun00002_ip = 282; continue _fun00001 }
  256:
                 golf = report.name;
                 offset = golf.length;
                 golf = 0;
                 golf = offset > golf;
                 oscar = undefined;
-                if(!golf) { _fun78560_ip = 282; continue _fun78560 }
+                if(!golf) { _fun00002_ip = 282; continue _fun00001 }
  277:
                 oscar = report.name;
  282:
-                _fun78560_ip = 289; continue _fun78560;
+                _fun00002_ip = 289; continue _fun00001;
  284:
                 oscar = zulu.name;
  289:
                 report = tango == oscar;
                 zulu = undefined;
-                if(!report) { _fun78560_ip = 330; continue _fun78560 }
+                if(!report) { _fun00002_ip = 330; continue _fun00001 }
  298:
                 report = global;
                 golf = report.Object;
@@ -155,12 +155,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 zulu = golf.bind(verify)(report);
  330:
                 report = options.isSectionHeader;
-                if(report) { _fun78560_ip = 425; continue _fun78560 }
+                if(report) { _fun00002_ip = 425; continue _fun00001 }
  339:
                 golf = options.isSectionFooter;
                 yankee = options.section;
                 report = global;
-                if(golf) { _fun78560_ip = 396; continue _fun78560 }
+                if(golf) { _fun00002_ip = 396; continue _fun00001 }
  355:
                 kilo = options.item;
                 golf = report.HermesInternal;
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 backup = '.';
                 output = yankee;
                 golf = result[romeo](output, sizing, kilo, backup, foxtrot);
-                _fun78560_ip = 423; continue _fun78560;
+                _fun00002_ip = 423; continue _fun00001;
  396:
                 report = report.HermesInternal;
                 offset = report.concat;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report = '.';
                 golf = offset.bind(verify)(yankee, report);
  423:
-                _fun78560_ip = 459; continue _fun78560;
+                _fun00002_ip = 459; continue _fun00001;
  425:
                 yankee = options.section;
                 report = global;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                 report['itemPosition'] = golf;
                 golf = tango != oscar;
                 tango = 'Unknown component.';
-                if(!golf) { _fun78560_ip = 537; continue _fun78560 }
+                if(!golf) { _fun00002_ip = 537; continue _fun00001 }
  534:
                 tango = oscar;
  537:

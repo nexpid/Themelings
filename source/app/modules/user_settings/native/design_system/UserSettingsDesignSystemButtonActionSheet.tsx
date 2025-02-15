@@ -543,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup[1] = foxtrot;
         foxtrot = backup.map;
         romeo = function(argFoo) {
-            _fun99176: for(var _fun99176_ip = 0; ; ) switch(_fun99176_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 foxtrot = argFoo;
                 var _closure3_slot0 = foxtrot;
@@ -569,7 +569,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = true;
                 oscar = oscar === foxtrot;
                 backup = 'Disabled';
-                if(!oscar) { _fun99176_ip = 109; continue _fun99176 }
+                if(!oscar) { _fun00002_ip = 109; continue _fun00001 }
  105:
                 backup = 'Enabled';
  109:
@@ -604,7 +604,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity[1] = golf;
                 zulu['children'] = entity;
                 entity = 'disabled';
-                if(!oscar) { _fun99176_ip = 226; continue _fun99176 }
+                if(!oscar) { _fun00002_ip = 226; continue _fun00001 }
  222:
                 entity = 'enabled';
  226:

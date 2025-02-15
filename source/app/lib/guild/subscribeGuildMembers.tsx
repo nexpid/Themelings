@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun72138: for(var _fun72138_ip = 0; ; ) switch(_fun72138_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun72138_ip = 76; continue _fun72138;
+            _fun00002_ip = 76; continue _fun00001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -101,19 +101,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = argFoo;
         var _closure2_slot0 = mike;
         entity = function(argFoo) {
-            _fun72142: for(var _fun72142_ip = 0; ; ) switch(_fun72142_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = argFoo;
                 var _closure3_slot0 = tango;
                 mike = tango.displayName;
                 zulu = null;
-                if(!(zulu == mike)) { _fun72142_ip = 25; continue _fun72142 }
+                if(!(zulu == mike)) { _fun00004_ip = 25; continue _fun00003 }
  20:
                 mike = tango.name;
  25:
                 zulu = zulu != mike;
                 oscar = 'Component';
-                if(!zulu) { _fun72142_ip = 39; continue _fun72142 }
+                if(!zulu) { _fun00004_ip = 39; continue _fun00003 }
  36:
                 oscar = mike;
  39:
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = oscar.Component;
                 golf = function(argFoo) {
                     tango = function(argFoo) { // Original name: WrappedComponent
-                        _fun72144: for(var _fun72144_ip = 0; ; ) switch(_fun72144_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             tango = argFoo;
                             oscar = this;
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = _closure1_slot7;
                             entity = _closure1_slot12;
                             entity = entity.bind(report)();
-                            if(entity) { _fun72144_ip = 73; continue _fun72144 }
+                            if(entity) { _fun00006_ip = 73; continue _fun00005 }
  60:
                             entity = offset.apply;
                             entity = entity.bind(offset)(oscar, yankee);
-                            _fun72144_ip = 107; continue _fun72144;
+                            _fun00006_ip = 107; continue _fun00005;
  73:
                             golf = global;
                             verify = golf.Reflect;
@@ -193,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = 'componentDidUpdate';
                     report['key'] = entity;
                     entity = function(argFoo) { // Original name: value
-                        _fun72146: for(var _fun72146_ip = 0; ; ) switch(_fun72146_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             zulu = this;
                             oscar = _closure1_slot1;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = zulu.props;
                             mike = argFoo;
                             mike = golf.bind(entity)(oscar, mike);
-                            if(mike) { _fun72146_ip = 221; continue _fun72146 }
+                            if(mike) { _fun00008_ip = 221; continue _fun00007 }
  50:
                             oscar = _closure2_slot0;
                             mike = zulu.props;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = zulu._subscriptions;
                             golf = null;
                             oscar = golf != oscar;
-                            if(!oscar) { _fun72146_ip = 120; continue _fun72146 }
+                            if(!oscar) { _fun00008_ip = 120; continue _fun00007 }
  82:
                             verify = _closure1_slot1;
                             offset = _closure1_slot2;
@@ -224,10 +224,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             options = zulu._subscriptions;
                             oscar = verify.bind(offset)(options, mike);
  120:
-                            if(oscar) { _fun72146_ip = 221; continue _fun72146 }
+                            if(oscar) { _fun00008_ip = 221; continue _fun00007 }
  123:
                             oscar = zulu._subscriptions;
-                            if(!(golf != oscar)) { _fun72146_ip = 177; continue _fun72146 }
+                            if(!(golf != oscar)) { _fun00008_ip = 177; continue _fun00007 }
  133:
                             golf = _closure1_slot1;
                             options = _closure1_slot2;
@@ -283,12 +283,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = 'componentWillUnmount';
                     report['key'] = golf;
                     golf = function() { // Original name: value
-                        _fun72149: for(var _fun72149_ip = 0; ; ) switch(_fun72149_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             entity = this;
                             zulu = entity._subscriptions;
                             mike = null;
-                            if(!(mike != zulu)) { _fun72149_ip = 66; continue _fun72149 }
+                            if(!(mike != zulu)) { _fun00010_ip = 66; continue _fun00009 }
  15:
                             tango = _closure1_slot1;
                             zulu = _closure1_slot2;

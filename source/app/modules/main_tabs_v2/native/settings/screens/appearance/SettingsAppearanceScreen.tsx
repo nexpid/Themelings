@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = _closure1_slot2;
             golf = report.useEffect;
             oscar = function() {
-                _fun97152: for(var _fun97152_ip = 0; ; ) switch(_fun97152_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     tango = tango.bind(entity)(zulu);
                     zulu = tango.isAndroid;
                     zulu = zulu.bind(tango)();
-                    if(!zulu) { _fun97152_ip = 67; continue _fun97152 }
+                    if(!zulu) { _fun00002_ip = 67; continue _fun00001 }
  37:
                     mike = _closure1_slot3;
                     tango = mike.FontModule;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = entity.persistedIsClassicChatFontScaleEnabled;
             tango[4] = zulu;
             zulu = function() {
-                _fun97155: for(var _fun97155_ip = 0; ; ) switch(_fun97155_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -132,24 +132,24 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
                     zulu = zulu.bind(entity)(mike);
                     mike = zulu.isAndroid;
                     mike = mike.bind(zulu)();
-                    if(!mike) { _fun97155_ip = 217; continue _fun97155 }
+                    if(!mike) { _fun00004_ip = 217; continue _fun00003 }
  40:
                     zulu = _closure3_slot0;
                     tango = zulu.persistedFontScale;
                     zulu = zulu.fontScale;
-                    if(!(tango === zulu)) { _fun97155_ip = 107; continue _fun97155 }
+                    if(!(tango === zulu)) { _fun00004_ip = 107; continue _fun00003 }
  63:
                     zulu = _closure3_slot0;
                     tango = zulu.persistedIsClassicChatFontScaleEnabled;
                     zulu = zulu.isClassicChatFontScaleEnabled;
-                    if(!(tango === zulu)) { _fun97155_ip = 107; continue _fun97155 }
+                    if(!(tango === zulu)) { _fun00004_ip = 107; continue _fun00003 }
  83:
                     oscar = _closure3_slot1;
                     tango = oscar.setOptions;
                     zulu = {};
                     zulu['headerRight'] = entity;
                     zulu = tango.bind(oscar)(zulu);
-                    _fun97155_ip = 217; continue _fun97155;
+                    _fun00004_ip = 217; continue _fun00003;
  107:
                     tango = _closure3_slot1;
                     zulu = tango.setOptions;

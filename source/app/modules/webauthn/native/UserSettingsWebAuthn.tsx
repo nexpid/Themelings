@@ -38,20 +38,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/UserSettingsWebAuthn.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserSettingsWebAuthn
-        _fun92803: for(var _fun92803_ip = 0; ; ) switch(_fun92803_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.navigation;
             var _closure2_slot0 = zulu;
             oscar = entity.initialRouteName;
             tango = undefined;
-            if(!(oscar === tango)) { _fun92803_ip = 40; continue _fun92803 }
+            if(!(oscar === tango)) { _fun00002_ip = 40; continue _fun00001 }
  27:
             zulu = _closure1_slot4;
             oscar = zulu.INIT;
  40:
             entity = entity.showNav;
-            if(!(entity === tango)) { _fun92803_ip = 52; continue _fun92803 }
+            if(!(entity === tango)) { _fun00002_ip = 52; continue _fun00001 }
  50:
             entity = false;
  52:

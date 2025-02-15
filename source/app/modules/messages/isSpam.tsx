@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: isSpammer
-        _fun59603: for(var _fun59603_ip = 0; ; ) switch(_fun59603_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             mike = tango.getUser;
@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             tango = entity == report;
             mike = undefined;
-            if(tango) { _fun59603_ip = 53; continue _fun59603 }
+            if(tango) { _fun00002_ip = 53; continue _fun00001 }
  32:
             tango = report.hasFlag;
             zulu = _closure1_slot3;
@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = tango.bind(report)(zulu);
  53:
             entity = entity != mike;
-            if(!entity) { _fun59603_ip = 63; continue _fun59603 }
+            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
  60:
             entity = mike;
  63:
@@ -59,12 +59,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/messages/isSpam.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: isSpamSupported
-        _fun59604: for(var _fun59604_ip = 0; ; ) switch(_fun59604_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = undefined;
             entity = entity !== mike;
-            if(!entity) { _fun59604_ip = 34; continue _fun59604 }
+            if(!entity) { _fun00004_ip = 34; continue _fun00003 }
  12:
             zulu = mike.type;
             mike = _closure1_slot4;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['isSpamSupported'] = report;
     zulu['isSpammer'] = tango;
     mike = function(argFoo) { // Original name: isSpam
-        _fun59605: for(var _fun59605_ip = 0; ; ) switch(_fun59605_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot5;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.id;
             report = undefined;
             entity = zulu.bind(report)(entity);
-            if(!entity) { _fun59605_ip = 65; continue _fun59605 }
+            if(!entity) { _fun00006_ip = 65; continue _fun00005 }
  31:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;

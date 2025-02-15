@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/controls/buttons/VoicePanelConnectButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ConnectButton
-        _fun122368: for(var _fun122368_ip = 0; ; ) switch(_fun122368_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.props;
@@ -80,12 +80,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = options[mike];
             mike = zulu.bind(tango)(mike);
             offset = mike.bind(tango)(yankee);
-            if(!offset) { _fun122368_ip = 143; continue _fun122368 }
+            if(!offset) { _fun00002_ip = 143; continue _fun00001 }
  137:
             mike = null;
             offset = mike != entity;
  143:
-            if(!offset) { _fun122368_ip = 152; continue _fun122368 }
+            if(!offset) { _fun00002_ip = 152; continue _fun00001 }
  146:
             mike = null;
             offset = mike != yankee;
@@ -100,16 +100,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = offset;
             mike[4] = entity;
             entity = function() {
-                _fun122369: for(var _fun122369_ip = 0; ; ) switch(_fun122369_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
-                    if(!entity) { _fun122369_ip = 69; continue _fun122369 }
+                    if(!entity) { _fun00004_ip = 69; continue _fun00003 }
  10:
                     entity = _closure2_slot3;
-                    if(entity) { _fun122369_ip = 69; continue _fun122369 }
+                    if(entity) { _fun00004_ip = 69; continue _fun00003 }
  17:
                     entity = _closure2_slot4;
-                    if(entity) { _fun122369_ip = 69; continue _fun122369 }
+                    if(entity) { _fun00004_ip = 69; continue _fun00003 }
  24:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -120,10 +120,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = zulu.selectVoiceChannel;
                     entity = _closure2_slot0;
                     entity = mike.bind(zulu)(entity);
-                    _fun122369_ip = 364; continue _fun122369;
+                    _fun00004_ip = 364; continue _fun00003;
  69:
                     entity = _closure2_slot2;
-                    if(entity) { _fun122369_ip = 161; continue _fun122369 }
+                    if(entity) { _fun00004_ip = 161; continue _fun00003 }
  76:
                     oscar = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -143,13 +143,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = {};
                     entity = oscar.bind(golf)(report, entity);
                     entity = zulu.bind(tango)(mike, entity);
-                    _fun122369_ip = 364; continue _fun122369;
+                    _fun00004_ip = 364; continue _fun00003;
  161:
                     entity = _closure2_slot3;
-                    if(entity) { _fun122369_ip = 276; continue _fun122369 }
+                    if(entity) { _fun00004_ip = 276; continue _fun00003 }
  168:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun122369_ip = 364; continue _fun122369 }
+                    if(!entity) { _fun00004_ip = 364; continue _fun00003 }
  178:
                     oscar = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['channelId'] = verify;
                     entity = oscar.bind(golf)(report, entity);
                     entity = zulu.bind(tango)(mike, entity);
-                    _fun122369_ip = 364; continue _fun122369;
+                    _fun00004_ip = 364; continue _fun00003;
  276:
                     oscar = _closure1_slot0;
                     verify = _closure1_slot2;

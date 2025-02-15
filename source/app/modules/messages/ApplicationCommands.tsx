@@ -26,14 +26,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/ApplicationCommands.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getApplicationCommand
-        _fun72438: for(var _fun72438_ip = 0; ; ) switch(_fun72438_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot1;
             zulu = tango.exec;
             entity = argFoo;
             report = zulu.bind(tango)(entity);
             entity = null;
-            if(!(entity != report)) { _fun72438_ip = 186; continue _fun72438 }
+            if(!(entity != report)) { _fun00002_ip = 186; continue _fun00001 }
  30:
             tango = _closure1_slot0;
             zulu = undefined;
@@ -49,17 +49,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = zulu[mike];
             zulu = entity == golf;
             mike = null;
-            if(zulu) { _fun72438_ip = 184; continue _fun72438 }
+            if(zulu) { _fun00002_ip = 184; continue _fun00001 }
  81:
             zulu = entity == tango;
             mike = null;
-            if(zulu) { _fun72438_ip = 184; continue _fun72438 }
+            if(zulu) { _fun00002_ip = 184; continue _fun00001 }
  90:
             zulu = {};
             options = entity != oscar;
             report = '';
             offset = report;
-            if(!options) { _fun72438_ip = 128; continue _fun72438 }
+            if(!options) { _fun00002_ip = 128; continue _fun00001 }
  106:
             options = global;
             options = options.HermesInternal;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['name'] = golf;
             zulu['id'] = tango;
             tango = entity != oscar;
-            if(!tango) { _fun72438_ip = 174; continue _fun72438 }
+            if(!tango) { _fun00002_ip = 174; continue _fun00001 }
  170:
             tango = report !== oscar;
  174:

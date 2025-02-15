@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ChatInputImageCarousel
-        _fun101104: for(var _fun101104_ip = 0; ; ) switch(_fun101104_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.canUpload;
@@ -75,16 +75,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[1] = offset;
             zulu[2] = entity;
             entity = function() {
-                _fun101106: for(var _fun101106_ip = 0; ; ) switch(_fun101106_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot2;
                     oscar = null;
                     entity = null;
-                    if(mike) { _fun101106_ip = 87; continue _fun101106 }
+                    if(mike) { _fun00004_ip = 87; continue _fun00003 }
  14:
                     zulu = _closure2_slot0;
                     mike = null;
-                    if(!zulu) { _fun101106_ip = 84; continue _fun101106 }
+                    if(!zulu) { _fun00004_ip = 84; continue _fun00003 }
  23:
                     options = _closure1_slot3;
                     golf = options.getActiveCommand;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = golf.bind(options)(report);
                     report = oscar == report;
                     mike = null;
-                    if(!report) { _fun101106_ip = 84; continue _fun101106 }
+                    if(!report) { _fun00004_ip = 84; continue _fun00003 }
  54:
                     oscar = _closure1_slot5;
                     report = oscar.getUploads;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = options.bind(verify)(tango, entity, zulu);
             entity = null;
             zulu = entity != options;
-            if(!zulu) { _fun101104_ip = 200; continue _fun101104 }
+            if(!zulu) { _fun00002_ip = 200; continue _fun00001 }
  147:
             tango = _closure1_slot6;
             zulu = _closure1_slot1;

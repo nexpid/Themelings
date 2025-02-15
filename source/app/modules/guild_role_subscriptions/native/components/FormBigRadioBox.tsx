@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/FormBigRadioBox.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormBigRadioBox
-        _fun126962: for(var _fun126962_ip = 0; ; ) switch(_fun126962_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             verify = mike.description;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = mike.onPress;
             options = mike.disabled;
             tango = undefined;
-            if(!(options === tango)) { _fun126962_ip = 53; continue _fun126962 }
+            if(!(options === tango)) { _fun00002_ip = 53; continue _fun00001 }
  51:
             options = false;
  53:
@@ -142,13 +142,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(4);
             yankee[0] = kilo;
             kilo = offset;
-            if(!offset) { _fun126962_ip = 153; continue _fun126962 }
+            if(!offset) { _fun00002_ip = 153; continue _fun00001 }
  147:
             kilo = backup.containerSelected;
  153:
             yankee[1] = kilo;
             kilo = options;
-            if(!kilo) { _fun126962_ip = 168; continue _fun126962 }
+            if(!kilo) { _fun00002_ip = 168; continue _fun00001 }
  163:
             kilo = backup.disabled;
  168:
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['accessibilityRole'] = yankee;
             entity['accessibilityState'] = report;
             report = undefined;
-            if(options) { _fun126962_ip = 201; continue _fun126962 }
+            if(options) { _fun00002_ip = 201; continue _fun00001 }
  198:
             report = golf;
  201:
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = backup.iconContainer;
             options = new Array(2);
             options[0] = kilo;
-            if(!offset) { _fun126962_ip = 295; continue _fun126962 }
+            if(!offset) { _fun00002_ip = 295; continue _fun00001 }
  289:
             offset = backup.iconContainerSelected;
  295:

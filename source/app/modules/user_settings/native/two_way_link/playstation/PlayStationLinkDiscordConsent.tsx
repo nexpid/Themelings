@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/two_way_link/playstation/PlayStationLinkDiscordConsent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PlayStationLinkDiscordConsent
-        _fun80680: for(var _fun80680_ip = 0; ; ) switch(_fun80680_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             yankee = mike.callbackCode;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = zulu.bind(report)(entity, mike);
             entity = _closure1_slot4;
             entity = entity.PLAYSTATION_STAGING;
-            if(!(romeo !== entity)) { _fun80680_ip = 166; continue _fun80680 }
+            if(!(romeo !== entity)) { _fun00002_ip = 166; continue _fun00001 }
  132:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = mike.bind(tango)(entity);
             entity = entity.ConsoleOAuthApplications;
             verify = entity.PLAYSTATION_APPLICATION_ID;
-            _fun80680_ip = 198; continue _fun80680;
+            _fun00002_ip = 198; continue _fun00001;
  166:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
  198:
             entity = _closure1_slot4;
             entity = entity.PLAYSTATION_STAGING;
-            if(!(romeo !== entity)) { _fun80680_ip = 246; continue _fun80680 }
+            if(!(romeo !== entity)) { _fun00002_ip = 246; continue _fun00001 }
  212:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = mike.bind(tango)(entity);
             entity = entity.ConsoleAuthorizationRedirectURIs;
             report = entity.PLAYSTATION;
-            _fun80680_ip = 278; continue _fun80680;
+            _fun00002_ip = 278; continue _fun00001;
  246:
             mike = _closure1_slot0;
             zulu = _closure1_slot1;

@@ -220,22 +220,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['presetName'] = tango;
     mike = function(argFoo, argBar) { // Original name: arePresetSettingsUnset
-        _fun86844: for(var _fun86844_ip = 0; ; ) switch(_fun86844_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = argBar;
             mike = null;
             entity = mike != report;
-            if(!entity) { _fun86844_ip = 32; continue _fun86844 }
+            if(!entity) { _fun00002_ip = 32; continue _fun00001 }
  15:
             zulu = _closure1_slot3;
             zulu = zulu.UNSET;
             entity = report !== zulu;
  32:
-            if(entity) { _fun86844_ip = 62; continue _fun86844 }
+            if(entity) { _fun00002_ip = 62; continue _fun00001 }
  35:
             mike = mike != tango;
-            if(!mike) { _fun86844_ip = 59; continue _fun86844 }
+            if(!mike) { _fun00002_ip = 59; continue _fun00001 }
  42:
             zulu = _closure1_slot2;
             zulu = zulu.NULL;

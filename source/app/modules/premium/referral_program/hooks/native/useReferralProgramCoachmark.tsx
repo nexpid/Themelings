@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/referral_program/hooks/native/useReferralProgramCoachmark.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useReferralProgramCoachmark
-        _fun116672: for(var _fun116672_ip = 0; ; ) switch(_fun116672_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             mike = mike.disabled;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar.bind(golf)(report);
             oscar = verify.useIsEligibleSenderForReferralProgram;
             report = tango;
-            if(report) { _fun116672_ip = 105; continue _fun116672 }
+            if(report) { _fun00002_ip = 105; continue _fun00001 }
  102:
             report = mike;
  105:
@@ -127,9 +127,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = verify[tango];
             report = report.bind(golf)(tango);
             tango = report.useSelectedDismissibleContent;
-            if(!oscar) { _fun116672_ip = 186; continue _fun116672 }
+            if(!oscar) { _fun00002_ip = 186; continue _fun00001 }
  144:
-            if(mike) { _fun116672_ip = 186; continue _fun116672 }
+            if(mike) { _fun00002_ip = 186; continue _fun00001 }
  147:
             oscar = _closure1_slot0;
             mike = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = mike.REFERRAL_TRIAL_MOBILE_SENDER_COACHMARK;
             mike = new Array(1);
             mike[0] = oscar;
-            _fun116672_ip = 190; continue _fun116672;
+            _fun00002_ip = 190; continue _fun00001;
  186:
             mike = new Array(0);
  190:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = tango.bind(report)(entity, zulu);
             entity = null;
-            if(!mike) { _fun116672_ip = 310; continue _fun116672 }
+            if(!mike) { _fun00002_ip = 310; continue _fun00001 }
  301:
             mike = {};
             mike['props'] = zulu;

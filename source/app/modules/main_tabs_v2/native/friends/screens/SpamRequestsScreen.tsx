@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/friends/screens/SpamRequestsScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SpamRequestsScreen
-        _fun119678: for(var _fun119678_ip = 0; ; ) switch(_fun119678_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.navigation;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(verify)(mike, golf);
             options = report.length;
             mike = 0;
-            if(!(mike === options)) { _fun119678_ip = 356; continue _fun119678 }
+            if(!(mike === options)) { _fun00002_ip = 356; continue _fun00001 }
  344:
             mike = zulu.goBack;
             mike = mike.bind(zulu)();

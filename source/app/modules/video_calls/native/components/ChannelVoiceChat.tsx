@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun86530: for(var _fun86530_ip = 0; ; ) switch(_fun86530_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.channel;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.channel;
             result = mike.inModal;
             tango = undefined;
-            if(!(result === tango)) { _fun86530_ip = 47; continue _fun86530 }
+            if(!(result === tango)) { _fun00002_ip = 47; continue _fun00001 }
  45:
             result = false;
  47:
@@ -154,11 +154,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             mike = verify == entity;
             control = undefined;
-            if(mike) { _fun86530_ip = 172; continue _fun86530 }
+            if(mike) { _fun00002_ip = 172; continue _fun00001 }
  166:
             control = entity.openVoice;
  172:
-            if(!(verify == control)) { _fun86530_ip = 202; continue _fun86530 }
+            if(!(verify == control)) { _fun00002_ip = 202; continue _fun00001 }
  176:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot4;
             entity = {};
             report = 'no-hide-descendants';
-            if(!sequence) { _fun86530_ip = 292; continue _fun86530 }
+            if(!sequence) { _fun00002_ip = 292; continue _fun00001 }
  286:
             report = 'yes';
  292:
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar['guildId'] = update;
             oscar['channelId'] = echo;
             offset = null;
-            if(result) { _fun86530_ip = 484; continue _fun86530 }
+            if(result) { _fun00002_ip = 484; continue _fun00001 }
  406:
             romeo = _closure1_slot6;
             yankee = _closure1_slot1;
@@ -226,17 +226,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(tango)(verify);
             verify = {};
             sequence = !sequence;
-            if(!sequence) { _fun86530_ip = 440; continue _fun86530 }
+            if(!sequence) { _fun00002_ip = 440; continue _fun00001 }
  438:
             sequence = undefined;
  440:
             verify['hidden'] = sequence;
             verify['animated'] = source;
-            if(kilo) { _fun86530_ip = 467; continue _fun86530 }
+            if(kilo) { _fun00002_ip = 467; continue _fun00001 }
  453:
             kilo = 'dark-content';
             source = 'dark';
-            if(!(source === vacuum)) { _fun86530_ip = 473; continue _fun86530 }
+            if(!(source === vacuum)) { _fun00002_ip = 473; continue _fun00001 }
  467:
             kilo = 'light-content';
  473:
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = {};
             source['height'] = sizing;
             vacuum = undefined;
-            if(!result) { _fun86530_ip = 531; continue _fun86530 }
+            if(!result) { _fun00002_ip = 531; continue _fun00001 }
  527:
             vacuum = 'none';
  531:
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo[0] = source;
             source = {};
             vacuum = undefined;
-            if(!result) { _fun86530_ip = 588; continue _fun86530 }
+            if(!result) { _fun00002_ip = 588; continue _fun00001 }
  584:
             vacuum = 'none';
  588:
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = {};
             kilo['top'] = sizing;
             sizing = undefined;
-            if(!result) { _fun86530_ip = 709; continue _fun86530 }
+            if(!result) { _fun00002_ip = 709; continue _fun00001 }
  705:
             sizing = 'none';
  709:

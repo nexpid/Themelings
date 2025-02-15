@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/shared/VoicePanelStreamPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoicePanelStreamPreview
-        _fun80767: for(var _fun80767_ip = 0; ; ) switch(_fun80767_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             golf = mike.mode;
@@ -113,19 +113,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             mike = offset == options;
             report = undefined;
-            if(mike) { _fun80767_ip = 85; continue _fun80767 }
+            if(mike) { _fun00002_ip = 85; continue _fun00001 }
  80:
             report = options.guildId;
  85:
             mike = offset == options;
             zulu = undefined;
-            if(mike) { _fun80767_ip = 99; continue _fun80767 }
+            if(mike) { _fun00002_ip = 99; continue _fun00001 }
  94:
             zulu = options.channelId;
  99:
             verify = offset == options;
             mike = undefined;
-            if(verify) { _fun80767_ip = 114; continue _fun80767 }
+            if(verify) { _fun00002_ip = 114; continue _fun00001 }
  108:
             mike = options.ownerId;
  114:
@@ -138,11 +138,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = verify.bind(tango)(mike);
             mike = zulu.useAnimatedStyle;
             entity = function() { // Original name: p
-                _fun80768: for(var _fun80768_ip = 0; ; ) switch(_fun80768_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = null;
-                    if(!(entity != mike)) { _fun80768_ip = 87; continue _fun80768 }
+                    if(!(entity != mike)) { _fun00004_ip = 87; continue _fun00003 }
  13:
                     entity = {};
                     oscar = _closure1_slot0;
@@ -157,14 +157,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = zulu.bind(oscar)();
                     zulu = 1;
                     oscar = 'pip';
-                    if(!(oscar === golf)) { _fun80768_ip = 71; continue _fun80768 }
+                    if(!(oscar === golf)) { _fun00004_ip = 71; continue _fun00003 }
  69:
                     zulu = 0;
  71:
                     mike = _closure1_slot7;
                     mike = tango.bind(report)(zulu, mike);
                     entity['opacity'] = mike;
-                    _fun80768_ip = 99; continue _fun80768;
+                    _fun00004_ip = 99; continue _fun00003;
  87:
                     mike = {};
                     zulu = 1;
@@ -206,31 +206,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.Image;
             report = {};
             report['layout'] = backup;
-            if(!(offset == options)) { _fun80767_ip = 329; continue _fun80767 }
+            if(!(offset == options)) { _fun00002_ip = 329; continue _fun00001 }
  307:
             output = _closure1_slot1;
             result = _closure1_slot2;
             kilo = 9;
             kilo = result[kilo];
             kilo = output.bind(tango)(kilo);
-            _fun80767_ip = 339; continue _fun80767;
+            _fun00002_ip = 339; continue _fun00001;
  329:
             output = {};
             output['uri'] = options;
             kilo = output;
  339:
             report['source'] = kilo;
-            if(!(offset == options)) { _fun80767_ip = 355; continue _fun80767 }
+            if(!(offset == options)) { _fun00002_ip = 355; continue _fun00001 }
  347:
             kilo = sizing.streamPreviewImagePlaceholder;
-            _fun80767_ip = 361; continue _fun80767;
+            _fun00002_ip = 361; continue _fun00001;
  355:
             kilo = sizing.streamPreviewImage;
  361:
             report['style'] = kilo;
             offset = offset != options;
             options = 'contain';
-            if(!offset) { _fun80767_ip = 380; continue _fun80767 }
+            if(!offset) { _fun00002_ip = 380; continue _fun00001 }
  376:
             options = 'cover';
  380:

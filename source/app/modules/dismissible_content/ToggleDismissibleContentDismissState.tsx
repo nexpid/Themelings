@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/dismissible_content/ToggleDismissibleContentDismissState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: toggleDismissibleContentDismissState
-        _fun98456: for(var _fun98456_ip = 0; ; ) switch(_fun98456_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = oscar.indexOf;
             entity = entity.bind(oscar)(report);
             oscar = -1;
-            if(!(oscar === entity)) { _fun98456_ip = 125; continue _fun98456 }
+            if(!(oscar === entity)) { _fun00002_ip = 125; continue _fun00001 }
  56:
             golf = _closure1_slot0;
             entity = _closure1_slot1;
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = entity.timeRecurringDismissibleContents;
             entity = golf.indexOf;
             entity = entity.bind(golf)(report);
-            if(!(oscar === entity)) { _fun98456_ip = 111; continue _fun98456 }
+            if(!(oscar === entity)) { _fun00002_ip = 111; continue _fun00001 }
  93:
             oscar = function(argFoo, argBar) { // Original name: toggleSingleUseDismissibleContent
                 report = argFoo;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = {};
                 entity['isDismissed'] = zulu;
                 mike = function() { // Original name: handleToggleDismissState
-                    _fun98462: for(var _fun98462_ip = 0; ; ) switch(_fun98462_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         zulu = _closure3_slot1;
                         report = _closure1_slot0;
@@ -70,12 +70,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                         tango = tango[entity];
                         entity = undefined;
                         tango = report.bind(entity)(tango);
-                        if(zulu) { _fun98462_ip = 52; continue _fun98462 }
+                        if(zulu) { _fun00004_ip = 52; continue _fun00003 }
  35:
                         report = tango.addDismissedContent;
                         zulu = _closure3_slot0;
                         zulu = report.bind(tango)(zulu);
-                        _fun98462_ip = 67; continue _fun98462;
+                        _fun00004_ip = 67; continue _fun00003;
  52:
                         zulu = tango.removeDismissedContent;
                         mike = _closure3_slot0;
@@ -91,10 +91,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             entity = argBar;
             entity = oscar.bind(tango)(report, entity);
-            _fun98456_ip = 123; continue _fun98456;
+            _fun00002_ip = 123; continue _fun00001;
  111:
             oscar = function(argFoo) { // Original name: toggleTimeRecurringDismissibleContent
-                _fun98459: for(var _fun98459_ip = 0; ; ) switch(_fun98459_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = {};
                     entity['isDismissed'] = report;
                     mike = function() { // Original name: handleToggleDismissState
-                        _fun98460: for(var _fun98460_ip = 0; ; ) switch(_fun98460_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             zulu = _closure3_slot1;
                             report = _closure1_slot0;
@@ -121,12 +121,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                             tango = tango[entity];
                             entity = undefined;
                             tango = report.bind(entity)(tango);
-                            if(zulu) { _fun98460_ip = 52; continue _fun98460 }
+                            if(zulu) { _fun00008_ip = 52; continue _fun00007 }
  35:
                             report = tango.addTimeRecurringDismissedContent;
                             zulu = _closure3_slot0;
                             zulu = report.bind(tango)(zulu);
-                            _fun98460_ip = 67; continue _fun98460;
+                            _fun00008_ip = 67; continue _fun00007;
  52:
                             zulu = tango.removeDismissedRecurringContent;
                             mike = _closure3_slot0;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     mike['lastDismissedVersion'] = zulu;
                     report = null;
                     report = report != tango;
-                    if(!report) { _fun98459_ip = 98; continue _fun98459 }
+                    if(!report) { _fun00006_ip = 98; continue _fun00005 }
  95:
                     zulu = tango;
  98:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             entity = oscar.bind(tango)(report);
  123:
-            _fun98456_ip = 169; continue _fun98456;
+            _fun00002_ip = 169; continue _fun00001;
  125:
             oscar = _closure1_slot0;
             golf = _closure1_slot1;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.getVersionedDismissibleContentCurrentVersion;
             zulu = zulu.bind(oscar)(report);
             mike = function(argFoo, argBar) { // Original name: toggleVersionedDismissibleContent
-                _fun98457: for(var _fun98457_ip = 0; ; ) switch(_fun98457_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
                     var _closure3_slot0 = report;
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = {};
                     entity['isDismissed'] = tango;
                     mike = function() { // Original name: handleToggleDismissState
-                        _fun98458: for(var _fun98458_ip = 0; ; ) switch(_fun98458_ip) {
+                        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                             zulu = _closure3_slot2;
                             report = _closure1_slot0;
@@ -190,13 +190,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                             tango = tango[entity];
                             entity = undefined;
                             tango = report.bind(entity)(tango);
-                            if(zulu) { _fun98458_ip = 57; continue _fun98458 }
+                            if(zulu) { _fun00012_ip = 57; continue _fun00011 }
  35:
                             oscar = tango.addVersionedDismissedContent;
                             report = _closure3_slot0;
                             zulu = _closure3_slot1;
                             zulu = oscar.bind(tango)(report, zulu);
-                            _fun98458_ip = 72; continue _fun98458;
+                            _fun00012_ip = 72; continue _fun00011;
  57:
                             zulu = tango.removeDismissedRecurringContent;
                             mike = _closure3_slot0;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     tango = null;
                     oscar = tango != report;
                     tango = undefined;
-                    if(!oscar) { _fun98457_ip = 102; continue _fun98457 }
+                    if(!oscar) { _fun00010_ip = 102; continue _fun00009 }
  99:
                     tango = report;
  102:

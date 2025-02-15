@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/pomelo/native/components/PomeloModalStepHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PomeloModalStepHeader
-        _fun94258: for(var _fun94258_ip = 0; ; ) switch(_fun94258_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.title;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = null;
             verify = oscar != kilo;
             options = null;
-            if(!verify) { _fun94258_ip = 210; continue _fun94258 }
+            if(!verify) { _fun00002_ip = 210; continue _fun00001 }
  150:
             backup = _closure1_slot3;
             foxtrot = _closure1_slot0;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report[1] = options;
             options = oscar != offset;
             oscar = null;
-            if(!options) { _fun94258_ip = 283; continue _fun94258 }
+            if(!options) { _fun00002_ip = 283; continue _fun00001 }
  223:
             verify = _closure1_slot3;
             options = _closure1_slot0;

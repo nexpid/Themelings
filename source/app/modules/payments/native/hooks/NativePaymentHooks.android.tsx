@@ -66,16 +66,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure1_slot3;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun96728: for(var _fun96728_ip = 0; ; ) switch(_fun96728_ip) {
+                        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun96728_ip = 337; continue _fun96728 }
+                            if(mike) { _fun00002_ip = 337; continue _fun00001 }
  10:
                             mike = undefined;
                             oscar = undefined;
                             zulu = _closure2_slot1;
-                            if(!zulu) { _fun96728_ip = 38; continue _fun96728 }
+                            if(!zulu) { _fun00002_ip = 38; continue _fun00001 }
  24:
                             report = _closure2_slot4;
                             zulu = new Array(0);
@@ -92,19 +92,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = report.current;
                             oscar = options.bind(verify)(golf, report);
                             report = _closure2_slot2;
-                            if(report) { _fun96728_ip = 334; continue _fun96728 }
+                            if(report) { _fun00002_ip = 334; continue _fun00001 }
  96:
                             report = _closure2_slot1;
-                            if(report) { _fun96728_ip = 334; continue _fun96728 }
+                            if(report) { _fun00002_ip = 334; continue _fun00001 }
  106:
                             report = _closure2_slot0;
                             report = report.length;
                             golf = 0;
-                            if(!(golf !== report)) { _fun96728_ip = 334; continue _fun96728 }
+                            if(!(golf !== report)) { _fun00002_ip = 334; continue _fun00001 }
  124:
                             report = oscar;
                             report = report.length;
-                            if(!(golf !== report)) { _fun96728_ip = 334; continue _fun96728 }
+                            if(!(golf !== report)) { _fun00002_ip = 334; continue _fun00001 }
  139:
                             golf = _closure2_slot3;
                             report = true;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return report;
  188:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golf) { _fun96728_ip = 262; continue _fun96728 }
+                            if(golf) { _fun00002_ip = 262; continue _fun00001 }
  194:
                             golf = _closure2_slot4;
                             verify = _closure1_slot1;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             oscar = null;
                             oscar = golf.bind(mike)(oscar);
  260: // try_end0
-                            _fun96728_ip = 334; continue _fun96728;
+                            _fun00002_ip = 334; continue _fun00001;
  262:
                             return report;
  265: // catch_target0
@@ -233,11 +233,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         return entity;
     };
     mike = function(argFoo) { // Original name: useCreateSubscription
-        _fun96732: for(var _fun96732_ip = 0; ; ) switch(_fun96732_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun96732_ip = 65; continue _fun96732 }
+            if(!(mike != entity)) { _fun00004_ip = 65; continue _fun00003 }
  9:
             entity = {};
             tango = _closure1_slot7;

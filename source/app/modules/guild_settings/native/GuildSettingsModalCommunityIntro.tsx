@@ -217,12 +217,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = mike;
         mike = function() {
-            _fun126612: for(var _fun126612_ip = 0; ; ) switch(_fun126612_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot3;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun126612_ip = 49; continue _fun126612 }
+                if(!entity) { _fun00002_ip = 49; continue _fun00001 }
  16:
                 report = _closure1_slot8;
                 tango = report.can;
@@ -243,12 +243,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = golf;
         mike[2] = entity;
         entity = function() {
-            _fun126613: for(var _fun126613_ip = 0; ; ) switch(_fun126613_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot3;
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun126613_ip = 49; continue _fun126613 }
+                if(!entity) { _fun00004_ip = 49; continue _fun00003 }
  16:
                 mike = _closure2_slot3;
                 tango = mike.features;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = mike.COMMUNITY;
                 entity = zulu.bind(tango)(mike);
  49:
-                if(!entity) { _fun126613_ip = 133; continue _fun126613 }
+                if(!entity) { _fun00004_ip = 133; continue _fun00003 }
  52:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -390,10 +390,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         update = update.BRAND;
         backup['color'] = update;
         update = function() { // Original name: onPress
-            _fun126615: for(var _fun126615_ip = 0; ; ) switch(_fun126615_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = _closure2_slot4;
-                if(mike) { _fun126615_ip = 47; continue _fun126615 }
+                if(mike) { _fun00006_ip = 47; continue _fun00005 }
  13:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.bind(mike)(zulu);
                 mike = zulu.communityAdminOnly;
                 mike = mike.bind(zulu)();
-                _fun126615_ip = 79; continue _fun126615;
+                _fun00006_ip = 79; continue _fun00005;
  47:
                 zulu = _closure1_slot1;
                 mike = _closure1_slot2;

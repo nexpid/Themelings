@@ -3,12 +3,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo) { // Original name: shouldDisplayCancel
-        _fun104203: for(var _fun104203_ip = 0; ; ) switch(_fun104203_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun104203_ip = 50; continue _fun104203 }
+            if(!entity) { _fun00002_ip = 50; continue _fun00001 }
  12:
             zulu = global;
             tango = zulu.Date;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun104206: for(var _fun104206_ip = 0; ; ) switch(_fun104206_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 report = _closure1_slot3;
                 golf = _closure2_slot0;
@@ -86,9 +86,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar = _closure2_slot1;
                 oscar = oscar.bind(entity)(report);
                 oscar = null;
-                if(!(oscar != golf)) { _fun104206_ip = 112; continue _fun104206 }
+                if(!(oscar != golf)) { _fun00004_ip = 112; continue _fun00003 }
  38:
-                if(report) { _fun104206_ip = 112; continue _fun104206 }
+                if(report) { _fun00004_ip = 112; continue _fun00003 }
  41:
                 oscar = global;
                 report = oscar.setTimeout;

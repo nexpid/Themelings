@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/two_way_link/TwoWayLinkDiscordConsent.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TwoWayLinkDiscordConsent
-        _fun80615: for(var _fun80615_ip = 0; ; ) switch(_fun80615_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             source = mike.callbackCode;
@@ -118,11 +118,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = undefined;
                 mike = function* (argFoo) {
                     entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun80618: for(var _fun80618_ip = 0; ; ) switch(_fun80618_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun80618_ip = 220; continue _fun80618 }
+                            if(mike) { _fun00004_ip = 220; continue _fun00003 }
  10:
                             mike = undefined;
                             tango = undefined;
@@ -149,11 +149,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return report;
  86:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golf) { _fun80618_ip = 97; continue _fun80618 }
+                            if(golf) { _fun00004_ip = 97; continue _fun00003 }
  92:
                             tango = report;
  95: // try_end0
-                            _fun80618_ip = 183; continue _fun80618;
+                            _fun00004_ip = 183; continue _fun00003;
  97:
                             return report;
  100: // catch_target0
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             report = null;
                             golf = report == golf;
                             report = undefined;
-                            if(golf) { _fun80618_ip = 180; continue _fun80618 }
+                            if(golf) { _fun00004_ip = 180; continue _fun00003 }
  175:
                             report = oscar.code;
  180:
@@ -181,11 +181,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  183:
                             report = tango;
                             tango = null;
-                            if(!(tango == report)) { _fun80618_ip = 206; continue _fun80618 }
+                            if(!(tango == report)) { _fun00004_ip = 206; continue _fun00003 }
  192:
                             tango = _closure2_slot4;
                             zulu = tango.bind(mike)(zulu);
-                            _fun80618_ip = 217; continue _fun80618;
+                            _fun00004_ip = 217; continue _fun00003;
  206:
                             zulu = _closure2_slot3;
                             zulu = zulu.bind(mike)();
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['style'] = foxtrot;
             foxtrot = null;
             foxtrot = foxtrot != backup;
-            if(!foxtrot) { _fun80615_ip = 644; continue _fun80615 }
+            if(!foxtrot) { _fun00002_ip = 644; continue _fun00001 }
  508:
             sizing = _closure1_slot9;
             kilo = _closure1_slot6;

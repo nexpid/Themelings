@@ -15,12 +15,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot4;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun103245: for(var _fun103245_ip = 0; ; ) switch(_fun103245_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     options = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun103245_ip = 403; continue _fun103245 }
+                    if(mike) { _fun00002_ip = 403; continue _fun00001 }
  13:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot3;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun103245_ip = 400; continue _fun103245 }
+                    if(zulu) { _fun00002_ip = 400; continue _fun00001 }
  72:
                     tango = _closure1_slot2;
                     zulu = _closure1_slot3;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return zulu;
  106:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tango) { _fun103245_ip = 397; continue _fun103245 }
+                    if(tango) { _fun00002_ip = 397; continue _fun00001 }
  115:
                     report = _closure1_slot2;
                     tango = _closure1_slot3;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun103245_ip = 394; continue _fun103245 }
+                    if(report) { _fun00002_ip = 394; continue _fun00001 }
  155:
                     verify = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return report;
  214:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun103245_ip = 391; continue _fun103245 }
+                    if(offset) { _fun00002_ip = 391; continue _fun00001 }
  223:
                     backup = _closure1_slot1;
                     romeo = _closure1_slot3;
-                    if(report) { _fun103245_ip = 276; continue _fun103245 }
+                    if(report) { _fun00002_ip = 276; continue _fun00001 }
  234:
                     offset = 8;
                     offset = romeo[offset];

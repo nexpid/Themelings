@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     mike['isFeatureSupportedOnPlatform'] = options;
     golf = function(argFoo) { // Original name: getConfig
-        _fun53160: for(var _fun53160_ip = 0; ; ) switch(_fun53160_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = this;
             report = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = tango.bind(report)(mike, entity);
             mike = zulu.isFeatureSupportedOnPlatform;
             mike = mike.bind(zulu)();
-            if(mike) { _fun53160_ip = 65; continue _fun53160 }
+            if(mike) { _fun00002_ip = 65; continue _fun00001 }
  57:
             mike = false;
             entity['featureEnabled'] = mike;

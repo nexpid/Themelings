@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_panel/native/controls/buttons/VoicePanelAnimatedButtonWrapper.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AnimatedButtonWrapper
-        _fun122358: for(var _fun122358_ip = 0; ; ) switch(_fun122358_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.props;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = false;
             echo = foxtrot.bind(backup)(romeo);
             romeo = null;
-            if(!(romeo != zulu)) { _fun122358_ip = 136; continue _fun122358 }
+            if(!(romeo != zulu)) { _fun00002_ip = 136; continue _fun00001 }
  133:
             echo = zulu;
  136:
@@ -125,12 +125,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[2] = kilo;
             romeo[3] = report;
             report = function() {
-                _fun122359: for(var _fun122359_ip = 0; ; ) switch(_fun122359_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = {};
                     tango = _closure2_slot0;
                     report = null;
-                    if(!(report == tango)) { _fun122359_ip = 26; continue _fun122359 }
+                    if(!(report == tango)) { _fun00004_ip = 26; continue _fun00003 }
  17:
                     tango = function() {
                         zulu = _closure2_slot4;
@@ -143,13 +143,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = undefined;
                         return entity;
                     };
-                    _fun122359_ip = 30; continue _fun122359;
+                    _fun00004_ip = 30; continue _fun00003;
  26:
                     tango = _closure2_slot0;
  30:
                     entity['onPressIn'] = tango;
                     tango = _closure2_slot1;
-                    if(!(report == tango)) { _fun122359_ip = 52; continue _fun122359 }
+                    if(!(report == tango)) { _fun00004_ip = 52; continue _fun00003 }
  43:
                     mike = function() {
                         zulu = _closure2_slot4;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         entity = undefined;
                         return entity;
                     };
-                    _fun122359_ip = 56; continue _fun122359;
+                    _fun00004_ip = 56; continue _fun00003;
  52:
                     mike = _closure2_slot1;
  56:
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(1);
             yankee[0] = zulu;
             golf = function() {
-                _fun122362: for(var _fun122362_ip = 0; ; ) switch(_fun122362_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(entity)(mike);
                     mike = tango.isAndroid;
                     mike = mike.bind(tango)();
-                    if(mike) { _fun122362_ip = 153; continue _fun122362 }
+                    if(mike) { _fun00006_ip = 153; continue _fun00005 }
  37:
                     mike = function(argFoo) { // Original name: t
                         tango = argFoo;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(1);
             golf[0] = zulu;
             zulu = function() {
-                _fun122364: for(var _fun122364_ip = 0; ; ) switch(_fun122364_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = tango.bind(entity)(mike);
                     mike = tango.isAndroid;
                     mike = mike.bind(tango)();
-                    if(mike) { _fun122364_ip = 153; continue _fun122364 }
+                    if(mike) { _fun00008_ip = 153; continue _fun00007 }
  37:
                     mike = function(argFoo) { // Original name: t
                         tango = argFoo;

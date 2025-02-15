@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun63929: for(var _fun63929_ip = 0; ; ) switch(_fun63929_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     mike = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tango) { _fun63929_ip = 500; continue _fun63929 }
+                    if(tango) { _fun00002_ip = 500; continue _fun00001 }
  13:
                     foxtrot = argFoo;
                     yankee = mike.nick;
@@ -32,11 +32,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  44:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun63929_ip = 497; continue _fun63929 }
+                    if(tango) { _fun00002_ip = 497; continue _fun00001 }
  53:
                     tango = foxtrot;
                     verify = null;
-                    if(!(verify != tango)) { _fun63929_ip = 461; continue _fun63929 }
+                    if(!(verify != tango)) { _fun00002_ip = 461; continue _fun00001 }
  65:
                     kilo = _closure1_slot1;
                     options = _closure1_slot2;
@@ -53,11 +53,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     options['avatar'] = offset;
                     yankee = verify === backup;
                     offset = null;
-                    if(yankee) { _fun63929_ip = 148; continue _fun63929 }
+                    if(yankee) { _fun00002_ip = 148; continue _fun00001 }
  131:
                     sizing = verify == backup;
                     kilo = undefined;
-                    if(sizing) { _fun63929_ip = 145; continue _fun63929 }
+                    if(sizing) { _fun00002_ip = 145; continue _fun00001 }
  140:
                     kilo = backup.id;
  145:
@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  148:
                     options['avatar_decoration_id'] = offset;
                     offset = null;
-                    if(yankee) { _fun63929_ip = 176; continue _fun63929 }
+                    if(yankee) { _fun00002_ip = 176; continue _fun00001 }
  158:
                     kilo = verify == backup;
                     yankee = undefined;
-                    if(kilo) { _fun63929_ip = 173; continue _fun63929 }
+                    if(kilo) { _fun00002_ip = 173; continue _fun00001 }
  167:
                     yankee = backup.skuId;
  173:
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return options;
  265:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=9);
-                    if(offset) { _fun63929_ip = 356; continue _fun63929 }
+                    if(offset) { _fun00002_ip = 356; continue _fun00001 }
  271:
                     yankee = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -134,12 +134,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = options;
                     offset = verify == options;
                     options = undefined;
-                    if(offset) { _fun63929_ip = 389; continue _fun63929 }
+                    if(offset) { _fun00002_ip = 389; continue _fun00001 }
  381:
                     offset = report;
                     options = offset.username;
  389:
-                    if(!(verify != options)) { _fun63929_ip = 409; continue _fun63929 }
+                    if(!(verify != options)) { _fun00002_ip = 409; continue _fun00001 }
  393:
                     options = report.username;
                     report['nick'] = options;

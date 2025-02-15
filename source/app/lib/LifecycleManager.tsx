@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = 'initialize';
         entity['key'] = mike;
         mike = function(argFoo) { // Original name: value
-            _fun47932: for(var _fun47932_ip = 0; ; ) switch(_fun47932_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = this;
                 options = 0;
                 tango = copyRestArgs(options);
                 entity = zulu.isInitialized;
-                if(entity) { _fun47932_ip = 61; continue _fun47932 }
+                if(entity) { _fun00002_ip = 61; continue _fun00001 }
  18:
                 entity = true;
                 zulu['isInitialized'] = entity;
@@ -69,11 +69,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'terminate';
         entity['key'] = oscar;
         report = function() { // Original name: value
-            _fun47933: for(var _fun47933_ip = 0; ; ) switch(_fun47933_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = this;
                 entity = mike.isInitialized;
-                if(!entity) { _fun47933_ip = 30; continue _fun47933 }
+                if(!entity) { _fun00004_ip = 30; continue _fun00003 }
  12:
                 entity = false;
                 mike['isInitialized'] = entity;

@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/user_settings/native/voice/UserSettingsVoiceInputOptions.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: UserSettingsVoiceInputOptions
-        _fun97021: for(var _fun97021_ip = 0; ; ) switch(_fun97021_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot10;
             tango = undefined;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify['style'] = romeo;
             romeo = _closure1_slot5;
             romeo = romeo.PUSH_TO_TALK;
-            if(!(options !== romeo)) { _fun97021_ip = 357; continue _fun97021 }
+            if(!(options !== romeo)) { _fun00002_ip = 357; continue _fun00001 }
  303:
             source = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.t;
             romeo = romeo.cHCEOD;
             romeo = foxtrot.bind(kilo)(romeo);
-            _fun97021_ip = 409; continue _fun97021;
+            _fun00002_ip = 409; continue _fun00001;
  357:
             control = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot5;
             golf = oscar.PUSH_TO_TALK;
             oscar = null;
-            if(!(options !== golf)) { _fun97021_ip = 798; continue _fun97021 }
+            if(!(options !== golf)) { _fun00002_ip = 798; continue _fun00001 }
  465:
             verify = _closure1_slot9;
             options = _closure1_slot8;

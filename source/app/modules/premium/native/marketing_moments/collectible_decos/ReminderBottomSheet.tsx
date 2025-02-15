@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/premium/native/marketing_moments/collectible_decos/ReminderBottomSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ReminderBottomSheet
-        _fun120805: for(var _fun120805_ip = 0; ; ) switch(_fun120805_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.markAsDismissed;
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = control[echo];
             kilo = source.bind(tango)(kilo);
             kilo = kilo.t;
-            if(yankee) { _fun120805_ip = 493; continue _fun120805 }
+            if(yankee) { _fun00002_ip = 493; continue _fun00001 }
  454:
             sizing = kilo.DVBfMD;
             yankee = {};
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             update = update.Q1_2025_MARKETING_SUPPORT_URL;
             yankee['termsLink'] = update;
             yankee = output.bind(result)(sizing, yankee);
-            _fun120805_ip = 530; continue _fun120805;
+            _fun00002_ip = 530; continue _fun00001;
  493:
             sizing = kilo.KCvBj4;
             kilo = {};

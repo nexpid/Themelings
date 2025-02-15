@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/explicit_media_redaction/native/ExplicitMediaLearnMoreActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ExplicitMediaLearnMoreActionSheet
-        _fun92430: for(var _fun92430_ip = 0; ; ) switch(_fun92430_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.channelId;
@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[source];
             kilo = sizing.bind(tango)(kilo);
             sizing = kilo.t;
-            if(romeo) { _fun92430_ip = 493; continue _fun92430 }
+            if(romeo) { _fun00002_ip = 493; continue _fun00001 }
  480:
             kilo = sizing.i4daNj;
             kilo = output.bind(echo)(kilo);
-            _fun92430_ip = 504; continue _fun92430;
+            _fun00002_ip = 504; continue _fun00001;
  493:
             sizing = sizing.XW3vjo;
             kilo = output.bind(echo)(sizing);
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo[source];
             echo = sequence.bind(tango)(echo);
             echo = echo.t;
-            if(romeo) { _fun92430_ip = 671; continue _fun92430 }
+            if(romeo) { _fun00002_ip = 671; continue _fun00001 }
  640:
             romeo = echo.hvVgAQ;
             romeo = control.bind(vacuum)(romeo);
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             output['onPress'] = romeo;
             romeo = output;
-            _fun92430_ip = 700; continue _fun92430;
+            _fun00002_ip = 700; continue _fun00001;
  671:
             echo = echo.9D+zGR;
             echo = control.bind(vacuum)(echo);

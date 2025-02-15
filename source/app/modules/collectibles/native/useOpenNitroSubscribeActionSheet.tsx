@@ -39,11 +39,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/collectibles/native/useOpenNitroSubscribeActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: _default
-        _fun99693: for(var _fun99693_ip = 0; ; ) switch(_fun99693_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             tango = undefined;
-            if(!(report === tango)) { _fun99693_ip = 24; continue _fun99693 }
+            if(!(report === tango)) { _fun00002_ip = 24; continue _fun00001 }
  11:
             mike = _closure1_slot4;
             report = mike.COLLECTIBLES_SHOP;

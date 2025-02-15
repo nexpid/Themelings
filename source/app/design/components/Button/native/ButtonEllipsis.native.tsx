@@ -159,30 +159,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo, argBar, argBaz) {
-        _fun56765: for(var _fun56765_ip = 0; ; ) switch(_fun56765_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = 'lg';
-            if(!(entity !== mike)) { _fun56765_ip = 56; continue _fun56765 }
+            if(!(entity !== mike)) { _fun00002_ip = 56; continue _fun00001 }
  11:
             entity = 'md';
-            if(!(entity !== mike)) { _fun56765_ip = 48; continue _fun56765 }
+            if(!(entity !== mike)) { _fun00002_ip = 48; continue _fun00001 }
  19:
             entity = 'sm';
-            if(!(entity !== mike)) { _fun56765_ip = 48; continue _fun56765 }
+            if(!(entity !== mike)) { _fun00002_ip = 48; continue _fun00001 }
  27:
             tango = 4;
             entity = 'xs';
             zulu = undefined;
-            if(!(entity === mike)) { _fun56765_ip = 62; continue _fun56765 }
+            if(!(entity === mike)) { _fun00002_ip = 62; continue _fun00001 }
  40:
             zulu = 5;
             tango = 3;
-            _fun56765_ip = 62; continue _fun56765;
+            _fun00002_ip = 62; continue _fun00001;
  48:
             zulu = 6;
             tango = 4;
-            _fun56765_ip = 62; continue _fun56765;
+            _fun00002_ip = 62; continue _fun00001;
  56:
             zulu = 8;
             tango = 4;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 2;
             report = argBar;
             zulu = 0;
-            if(!(oscar !== report)) { _fun56765_ip = 128; continue _fun56765 }
+            if(!(oscar !== report)) { _fun00002_ip = 128; continue _fun00001 }
  125:
             zulu = tango;
  128:

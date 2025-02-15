@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz, argCorge) { // Original name: renderChatInputActionButtonGiftAndThread
-        _fun101249: for(var _fun101249_ip = 0; ; ) switch(_fun101249_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             foxtrot = mike.canStartThreads;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = _closure1_slot6;
             golf = _closure1_slot1;
             result = _closure1_slot2;
-            if(entity) { _fun101249_ip = 155; continue _fun101249 }
+            if(entity) { _fun00002_ip = 155; continue _fun00001 }
  109:
             entity = 9;
             entity = result[entity];
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = backup;
             entity['styleButton'] = verify;
             entity = options.bind(tango)(oscar, entity);
-            _fun101249_ip = 286; continue _fun101249;
+            _fun00002_ip = 286; continue _fun00001;
  155:
             oscar = 6;
             oscar = result[oscar];
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = backup.4WNcpq;
             backup = kilo.bind(sizing)(backup);
             oscar['accessibilityLabel'] = backup;
-            if(romeo) { _fun101249_ip = 230; continue _fun101249 }
+            if(romeo) { _fun00002_ip = 230; continue _fun00001 }
  227:
             romeo = !foxtrot;
  230:
@@ -97,12 +97,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: getChatInputActionButtonGiftAndThreadKey
-        _fun101251: for(var _fun101251_ip = 0; ; ) switch(_fun101251_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.shouldShowThread;
             entity = 'gift';
-            if(!mike) { _fun101251_ip = 20; continue _fun101251 }
+            if(!mike) { _fun00004_ip = 20; continue _fun00003 }
  16:
             entity = 'thread';
  20:

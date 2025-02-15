@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['navigateToGlobalDiscovery'] = tango;
     mike = function() { // Original name: handleGlobalDiscoveryTabPress
-        _fun91447: for(var _fun91447_ip = 0; ; ) switch(_fun91447_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getField;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(mike);
             mike = _closure1_slot3;
             mike = mike.SERVERS;
-            if(!(zulu === mike)) { _fun91447_ip = 68; continue _fun91447 }
+            if(!(zulu === mike)) { _fun00002_ip = 68; continue _fun00001 }
  36:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

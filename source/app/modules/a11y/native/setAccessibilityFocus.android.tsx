@@ -40,30 +40,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/a11y/native/setAccessibilityFocus.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: setAccessibilityFocus
-        _fun48589: for(var _fun48589_ip = 0; ; ) switch(_fun48589_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.ref;
             tango = entity.delay;
             entity = undefined;
-            if(!(tango === entity)) { _fun48589_ip = 24; continue _fun48589 }
+            if(!(tango === entity)) { _fun00002_ip = 24; continue _fun00001 }
  22:
             tango = 0;
  24:
             var _closure2_slot0 = entity;
             report = null;
-            if(!(report != zulu)) { _fun48589_ip = 78; continue _fun48589 }
+            if(!(report != zulu)) { _fun00002_ip = 78; continue _fun00001 }
  34:
             oscar = _closure1_slot4;
             zulu = zulu.current;
             zulu = oscar.bind(entity)(zulu);
             _closure2_slot0 = zulu;
-            if(!(report != zulu)) { _fun48589_ip = 78; continue _fun48589 }
+            if(!(report != zulu)) { _fun00002_ip = 78; continue _fun00001 }
  59:
             zulu = global;
             zulu = zulu.setTimeout;
             mike = function() {
-                _fun48590: for(var _fun48590_ip = 0; ; ) switch(_fun48590_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = tango.bind(entity)(mike);
                     mike = tango.isFabric;
                     tango = mike.bind(tango)();
-                    if(tango) { _fun48590_ip = 96; continue _fun48590 }
+                    if(tango) { _fun00004_ip = 96; continue _fun00003 }
  41:
                     oscar = _closure2_slot0;
                     report = _closure1_slot1;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return entity;
                     };
                     tango = report.bind(oscar)(tango);
-                    _fun48590_ip = 115; continue _fun48590;
+                    _fun00004_ip = 115; continue _fun00003;
  96:
                     tango = _closure1_slot3;
                     zulu = tango.setAccessibilityFocus;

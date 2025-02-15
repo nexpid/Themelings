@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: GuildSettingsRoleSubscriptionEmojisInner
-        _fun127360: for(var _fun127360_ip = 0; ; ) switch(_fun127360_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.guildId;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = zulu.bind(tango)(mike, entity);
             var _closure2_slot1 = offset;
             entity = null;
-            if(!(entity != offset)) { _fun127360_ip = 245; continue _fun127360 }
+            if(!(entity != offset)) { _fun00002_ip = 245; continue _fun00001 }
  104:
             zulu = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = golf.bind(entity)(tango);
     golf = options.memoize;
     tango = function(argFoo, argBar) {
-        _fun127366: for(var _fun127366_ip = 0; ; ) switch(_fun127366_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             tango = argBar;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.bind(zulu)(entity);
             mike = report.length;
             entity = 0;
-            if(!(entity !== mike)) { _fun127366_ip = 201; continue _fun127366 }
+            if(!(entity !== mike)) { _fun00004_ip = 201; continue _fun00003 }
  43:
             zulu = report.map;
             verify = _closure1_slot0;

@@ -52,7 +52,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/app_icons/native/SettingsItemAppIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: SettingsItemAppIcon
-        _fun97963: for(var _fun97963_ip = 0; ; ) switch(_fun97963_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot5;
             report = undefined;
@@ -71,10 +71,10 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = tango.bind(report)(entity);
             entity = entity.FreemiumAppIconIds;
             entity = entity.DEFAULT;
-            if(!(oscar !== entity)) { _fun97963_ip = 140; continue _fun97963 }
+            if(!(oscar !== entity)) { _fun00002_ip = 140; continue _fun00001 }
  80:
             entity = null;
-            if(!(entity != zulu)) { _fun97963_ip = 140; continue _fun97963 }
+            if(!(entity != zulu)) { _fun00002_ip = 140; continue _fun00001 }
  86:
             tango = _closure1_slot4;
             zulu = _closure1_slot1;
@@ -89,7 +89,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = 32;
             entity['size'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun97963_ip = 178; continue _fun97963;
+            _fun00002_ip = 178; continue _fun00001;
  140:
             tango = _closure1_slot4;
             zulu = _closure1_slot0;

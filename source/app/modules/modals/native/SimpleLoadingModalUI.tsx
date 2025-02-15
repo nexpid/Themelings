@@ -61,14 +61,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/modals/native/SimpleLoadingModalUI.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SimpleLoadingModal
-        _fun81530: for(var _fun81530_ip = 0; ; ) switch(_fun81530_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             offset = zulu.operation;
             var _closure2_slot0 = offset;
             mike = zulu.onResolved;
             tango = undefined;
-            if(!(mike === tango)) { _fun81530_ip = 34; continue _fun81530 }
+            if(!(mike === tango)) { _fun00002_ip = 34; continue _fun00001 }
  27:
             mike = function() { // Original name: I
                 entity = undefined;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  34:
             var _closure2_slot1 = mike;
             entity = zulu.onRejected;
-            if(!(entity === tango)) { _fun81530_ip = 55; continue _fun81530 }
+            if(!(entity === tango)) { _fun00002_ip = 55; continue _fun00001 }
  48:
             entity = function() { // Original name: f
                 entity = undefined;
@@ -86,13 +86,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  55:
             var _closure2_slot2 = entity;
             oscar = zulu.cancelable;
-            if(!(oscar === tango)) { _fun81530_ip = 71; continue _fun81530 }
+            if(!(oscar === tango)) { _fun00002_ip = 71; continue _fun00001 }
  69:
             oscar = false;
  71:
             var _closure2_slot3 = oscar;
             zulu = zulu.onDismissed;
-            if(!(zulu === tango)) { _fun81530_ip = 92; continue _fun81530 }
+            if(!(zulu === tango)) { _fun00002_ip = 92; continue _fun00001 }
  85:
             zulu = function() { // Original name: N
                 entity = undefined;
@@ -116,13 +116,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = zulu;
             zulu = function() {
-                _fun81534: for(var _fun81534_ip = 0; ; ) switch(_fun81534_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot5;
                     tango = entity.current;
                     zulu = _closure1_slot8;
                     zulu = zulu.SHOWN;
-                    if(!(tango === zulu)) { _fun81534_ip = 39; continue _fun81534 }
+                    if(!(tango === zulu)) { _fun00004_ip = 39; continue _fun00003 }
  29:
                     tango = _closure2_slot4;
                     zulu = undefined;
@@ -202,19 +202,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot4;
             entity = {'transparent': true, 'animationType': 'none'};
             oscar = function() { // Original name: onShow
-                _fun81540: for(var _fun81540_ip = 0; ; ) switch(_fun81540_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot5;
                     tango = mike.current;
                     zulu = _closure1_slot8;
                     zulu = zulu.DISMISSED;
-                    if(!(tango !== zulu)) { _fun81540_ip = 51; continue _fun81540 }
+                    if(!(tango !== zulu)) { _fun00006_ip = 51; continue _fun00005 }
  29:
                     zulu = _closure2_slot5;
                     mike = _closure1_slot8;
                     mike = mike.SHOWN;
                     zulu['current'] = mike;
-                    _fun81540_ip = 61; continue _fun81540;
+                    _fun00006_ip = 61; continue _fun00005;
  51:
                     mike = _closure2_slot4;
                     entity = undefined;
@@ -226,10 +226,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity['onShow'] = oscar;
             report = function() { // Original name: onRequestClose
-                _fun81541: for(var _fun81541_ip = 0; ; ) switch(_fun81541_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure2_slot3;
-                    if(!mike) { _fun81541_ip = 20; continue _fun81541 }
+                    if(!mike) { _fun00008_ip = 20; continue _fun00007 }
  10:
                     mike = _closure2_slot6;
                     entity = undefined;

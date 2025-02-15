@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/polls/native/EditPollCreationImageAltTextModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EditPollCreationImageAltTextModal
-        _fun119462: for(var _fun119462_ip = 0; ; ) switch(_fun119462_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             options = zulu.channelId;
@@ -135,13 +135,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             offset = mike == options;
             golf = undefined;
-            if(offset) { _fun119462_ip = 133; continue _fun119462 }
+            if(offset) { _fun00002_ip = 133; continue _fun00001 }
  128:
             golf = options.description;
  133:
             options = mike != golf;
             mike = '';
-            if(!options) { _fun119462_ip = 147; continue _fun119462 }
+            if(!options) { _fun00002_ip = 147; continue _fun00001 }
  144:
             mike = golf;
  147:
@@ -160,11 +160,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = oscar;
             mike[1] = config;
             entity = function() {
-                _fun119463: for(var _fun119463_ip = 0; ; ) switch(_fun119463_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = null;
-                    if(!(mike != zulu)) { _fun119463_ip = 28; continue _fun119463 }
+                    if(!(mike != zulu)) { _fun00004_ip = 28; continue _fun00003 }
  13:
                     zulu = _closure2_slot0;
                     mike = _closure2_slot1;

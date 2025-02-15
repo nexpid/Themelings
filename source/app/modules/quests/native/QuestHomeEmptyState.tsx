@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/quests/native/QuestHomeEmptyState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: QuestHomeEmptyState
-        _fun96405: for(var _fun96405_ip = 0; ; ) switch(_fun96405_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.action;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(2);
             golf[0] = options;
             options = null;
-            if(verify) { _fun96405_ip = 543; continue _fun96405 }
+            if(verify) { _fun00002_ip = 543; continue _fun00001 }
  380:
             yankee = _closure1_slot7;
             offset = _closure1_slot8;

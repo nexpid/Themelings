@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_reports/native/components/InAppReportsGuildScheduledEventPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildScheduledEventPreview
-        _fun72743: for(var _fun72743_ip = 0; ; ) switch(_fun72743_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.event;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             echo = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(entity != echo)) { _fun72743_ip = 547; continue _fun72743 }
+            if(!(entity != echo)) { _fun00002_ip = 547; continue _fun00001 }
  87:
             offset = _closure1_slot0;
             backup = _closure1_slot2;

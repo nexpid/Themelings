@@ -28,16 +28,16 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/core/isActionRequired.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: isActionRequired
-        _fun93821: for(var _fun93821_ip = 0; ; ) switch(_fun93821_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[0];
             mike = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun93821_ip = 19; continue _fun93821 }
+            if(!(report === entity)) { _fun00002_ip = 19; continue _fun00001 }
  12:
             report = _closure1_slot0;
  19:
-            if(!(mike === entity)) { _fun93821_ip = 30; continue _fun93821 }
+            if(!(mike === entity)) { _fun00002_ip = 30; continue _fun00001 }
  23:
             mike = _closure1_slot1;
  30:
@@ -45,7 +45,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike = entity.bind(mike)();
             entity = null;
             entity = entity != mike;
-            if(entity) { _fun93821_ip = 88; continue _fun93821 }
+            if(entity) { _fun00002_ip = 88; continue _fun00001 }
  49:
             mike = global;
             tango = mike.Object;

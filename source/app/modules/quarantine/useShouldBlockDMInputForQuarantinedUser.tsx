@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/quarantine/useShouldBlockDMInputForQuarantinedUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: _default
-        _fun101402: for(var _fun101402_ip = 0; ; ) switch(_fun101402_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             verify = argBar;
@@ -67,17 +67,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = golf.bind(options)(report, entity, zulu);
             entity = null;
             entity = entity != oscar;
-            if(!entity) { _fun101402_ip = 144; continue _fun101402 }
+            if(!entity) { _fun00002_ip = 144; continue _fun00001 }
  108:
             report = oscar.hasFlag;
             mike = _closure1_slot3;
             mike = mike.QUARANTINED;
             mike = report.bind(oscar)(mike);
-            if(!mike) { _fun101402_ip = 135; continue _fun101402 }
+            if(!mike) { _fun00002_ip = 135; continue _fun00001 }
  132:
             mike = tango;
  135:
-            if(!mike) { _fun101402_ip = 141; continue _fun101402 }
+            if(!mike) { _fun00002_ip = 141; continue _fun00001 }
  138:
             mike = !zulu;
  141:

@@ -28,22 +28,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/MosaicMediaType.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun72699: for(var _fun72699_ip = 0; ; ) switch(_fun72699_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = 'IMAGE';
             entity = entity === zulu;
-            if(entity) { _fun72699_ip = 22; continue _fun72699 }
+            if(entity) { _fun00002_ip = 22; continue _fun00001 }
  14:
             mike = 'VIDEO';
             entity = mike === zulu;
  22:
-            if(entity) { _fun72699_ip = 35; continue _fun72699 }
+            if(entity) { _fun00002_ip = 35; continue _fun00001 }
  25:
             mike = 'CLIP';
             entity = mike === zulu;
  35:
-            if(entity) { _fun72699_ip = 46; continue _fun72699 }
+            if(entity) { _fun00002_ip = 46; continue _fun00001 }
  38:
             mike = 'VISUAL_PLACEHOLDER';
             entity = mike === zulu;
@@ -53,17 +53,17 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isVisualMedia'] = tango;
     tango = function(argFoo) {
-        _fun72700: for(var _fun72700_ip = 0; ; ) switch(_fun72700_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             entity = 'IMAGE';
             entity = entity === zulu;
-            if(entity) { _fun72700_ip = 22; continue _fun72700 }
+            if(entity) { _fun00004_ip = 22; continue _fun00003 }
  14:
             mike = 'VIDEO';
             entity = mike === zulu;
  22:
-            if(entity) { _fun72700_ip = 33; continue _fun72700 }
+            if(entity) { _fun00004_ip = 33; continue _fun00003 }
  25:
             mike = 'VISUAL_PLACEHOLDER';
             entity = mike === zulu;
@@ -73,43 +73,43 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isGroupableMedia'] = tango;
     tango = function(argFoo, argBar) { // Original name: getMosaicMediaTypeForAttachment
-        _fun72701: for(var _fun72701_ip = 0; ; ) switch(_fun72701_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             options = argFoo;
             entity = argBar;
             oscar = options.filename;
             zulu = options.width;
             mike = options.height;
-            if(!entity) { _fun72701_ip = 45; continue _fun72701 }
+            if(!entity) { _fun00006_ip = 45; continue _fun00005 }
  25:
             verify = null;
-            if(!(verify != zulu)) { _fun72701_ip = 45; continue _fun72701 }
+            if(!(verify != zulu)) { _fun00006_ip = 45; continue _fun00005 }
  31:
             golf = 0;
-            if(!(zulu > golf)) { _fun72701_ip = 45; continue _fun72701 }
+            if(!(zulu > golf)) { _fun00006_ip = 45; continue _fun00005 }
  37:
-            if(!(verify != mike)) { _fun72701_ip = 45; continue _fun72701 }
+            if(!(verify != mike)) { _fun00006_ip = 45; continue _fun00005 }
  41:
-            if(!(!(mike > golf))) { _fun72701_ip = 162; continue _fun72701 }
+            if(!(!(mike > golf))) { _fun00006_ip = 162; continue _fun00005 }
  45:
             zulu = null;
-            if(!(zulu != entity)) { _fun72701_ip = 87; continue _fun72701 }
+            if(!(zulu != entity)) { _fun00006_ip = 87; continue _fun00005 }
  51:
             mike = _closure1_slot3;
             entity = mike.test;
             entity = entity.bind(mike)(oscar);
-            if(!entity) { _fun72701_ip = 87; continue _fun72701 }
+            if(!entity) { _fun00006_ip = 87; continue _fun00005 }
  71:
             entity = options.url;
             mike = zulu != entity;
             entity = 'AUDIO';
-            if(mike) { _fun72701_ip = 157; continue _fun72701 }
+            if(mike) { _fun00006_ip = 157; continue _fun00005 }
  87:
             mike = options.url;
             zulu = zulu != mike;
             tango = 'OTHER';
             mike = tango;
-            if(!zulu) { _fun72701_ip = 154; continue _fun72701 }
+            if(!zulu) { _fun00006_ip = 154; continue _fun00005 }
  106:
             offset = _closure1_slot0;
             report = _closure1_slot1;
@@ -120,13 +120,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.isPlaintextPreviewableFile;
             zulu = zulu.bind(report)(oscar);
             mike = tango;
-            if(!zulu) { _fun72701_ip = 154; continue _fun72701 }
+            if(!zulu) { _fun00006_ip = 154; continue _fun00005 }
  148:
             mike = 'PLAINTEXT_PREVIEW';
  154:
             entity = mike;
  157:
-            _fun72701_ip = 343; continue _fun72701;
+            _fun00006_ip = 343; continue _fun00005;
  162:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.isImageFile;
             zulu = mike.bind(zulu)(oscar);
             mike = 'IMAGE';
-            if(zulu) { _fun72701_ip = 340; continue _fun72701 }
+            if(zulu) { _fun00006_ip = 340; continue _fun00005 }
  208:
             report = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -147,12 +147,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = zulu.bind(report)(oscar);
             oscar = 'INVALID';
             zulu = oscar;
-            if(!report) { _fun72701_ip = 337; continue _fun72701 }
+            if(!report) { _fun00006_ip = 337; continue _fun00005 }
  246:
             report = options.proxy_url;
             report = verify != report;
             zulu = oscar;
-            if(!report) { _fun72701_ip = 337; continue _fun72701 }
+            if(!report) { _fun00006_ip = 337; continue _fun00005 }
  262:
             oscar = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = options.flags;
             verify = verify != options;
             golf = 0;
-            if(!verify) { _fun72701_ip = 305; continue _fun72701 }
+            if(!verify) { _fun00006_ip = 305; continue _fun00005 }
  302:
             golf = options;
  305:
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = tango.IS_CLIP;
             report = report.bind(oscar)(golf, tango);
             tango = 'VIDEO';
-            if(!report) { _fun72701_ip = 334; continue _fun72701 }
+            if(!report) { _fun00006_ip = 334; continue _fun00005 }
  328:
             tango = 'CLIP';
  334:
@@ -186,21 +186,21 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getMosaicMediaTypeForAttachment'] = tango;
     mike = function(argFoo) { // Original name: getMosaicMediaTypeForUnfurledMediaItem
-        _fun72702: for(var _fun72702_ip = 0; ; ) switch(_fun72702_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             zulu = entity.contentType;
             report = entity.width;
             mike = entity.height;
             tango = null;
-            if(!(tango != report)) { _fun72702_ip = 109; continue _fun72702 }
+            if(!(tango != report)) { _fun00008_ip = 109; continue _fun00007 }
  25:
             entity = 0;
-            if(!(report > entity)) { _fun72702_ip = 109; continue _fun72702 }
+            if(!(report > entity)) { _fun00008_ip = 109; continue _fun00007 }
  31:
-            if(!(tango != mike)) { _fun72702_ip = 109; continue _fun72702 }
+            if(!(tango != mike)) { _fun00008_ip = 109; continue _fun00007 }
  35:
-            if(!(mike > entity)) { _fun72702_ip = 109; continue _fun72702 }
+            if(!(mike > entity)) { _fun00008_ip = 109; continue _fun00007 }
  39:
             oscar = _closure1_slot0;
             mike = _closure1_slot1;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(tango)(mike);
             mike = oscar.isImageContentType;
             mike = mike.bind(oscar)(zulu);
-            if(mike) { _fun72702_ip = 121; continue _fun72702 }
+            if(mike) { _fun00008_ip = 121; continue _fun00007 }
  78:
             mike = _closure1_slot0;
             entity = _closure1_slot1;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.bind(tango)(entity);
             entity = mike.isVideoContentType;
             entity = entity.bind(mike)(zulu);
-            if(entity) { _fun72702_ip = 115; continue _fun72702 }
+            if(entity) { _fun00008_ip = 115; continue _fun00007 }
  109:
             entity = 'VISUAL_PLACEHOLDER';
             return entity;

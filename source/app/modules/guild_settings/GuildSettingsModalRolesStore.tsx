@@ -9,7 +9,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun125990: for(var _fun125990_ip = 0; ; ) switch(_fun125990_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -20,16 +20,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot5;
             entity = _closure1_slot20;
             entity = entity.bind(zulu)();
-            if(entity) { _fun125990_ip = 51; continue _fun125990 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun125990_ip = 92; continue _fun125990;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun125990_ip = 71; continue _fun125990 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot19 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun125991: for(var _fun125991_ip = 0; ; ) switch(_fun125991_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun125991_ip = 76; continue _fun125991;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -115,12 +115,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot21 = mike;
     yankee = function(argFoo) { // Original name: handleGuildRoleCreateOrUpdate
-        _fun125997: for(var _fun125997_ip = 0; ; ) switch(_fun125997_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.guildId;
             entity = _closure1_slot11;
-            if(!entity) { _fun125997_ip = 52; continue _fun125997 }
+            if(!entity) { _fun00006_ip = 52; continue _fun00005 }
  18:
             tango = _closure1_slot21;
             zulu = _closure1_slot8;
@@ -136,15 +136,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         }
     };
     offset = function() { // Original name: handleCancelEditingPermissions
-        _fun125998: for(var _fun125998_ip = 0; ; ) switch(_fun125998_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = _closure1_slot17;
             entity = null;
-            if(!(entity != zulu)) { _fun125998_ip = 43; continue _fun125998 }
+            if(!(entity != zulu)) { _fun00008_ip = 43; continue _fun00007 }
  13:
             zulu = _closure1_slot17;
             entity = _closure1_slot16;
-            if(!(zulu !== entity)) { _fun125998_ip = 43; continue _fun125998 }
+            if(!(zulu !== entity)) { _fun00008_ip = 43; continue _fun00007 }
  25:
             entity = _closure1_slot16;
             _closure1_slot17 = entity;
@@ -270,27 +270,27 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = 'getUpdates';
         report['key'] = golf;
         golf = function() { // Original name: value
-            _fun126004: for(var _fun126004_ip = 0; ; ) switch(_fun126004_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot12;
                 mike = null;
-                if(!(mike != entity)) { _fun126004_ip = 165; continue _fun126004 }
+                if(!(mike != entity)) { _fun00010_ip = 165; continue _fun00009 }
  18:
                 entity = _closure1_slot13;
-                if(!(mike != entity)) { _fun126004_ip = 165; continue _fun126004 }
+                if(!(mike != entity)) { _fun00010_ip = 165; continue _fun00009 }
  29:
                 entity = _closure1_slot14;
                 oscar = mike != entity;
                 zulu = undefined;
                 entity = undefined;
-                if(!oscar) { _fun126004_ip = 77; continue _fun126004 }
+                if(!oscar) { _fun00010_ip = 77; continue _fun00009 }
  44:
                 golf = _closure1_slot8;
                 oscar = golf.getRoles;
                 options = _closure1_slot14;
                 verify = mike == options;
                 mike = undefined;
-                if(verify) { _fun126004_ip = 72; continue _fun126004 }
+                if(verify) { _fun00010_ip = 72; continue _fun00009 }
  67:
                 mike = options.id;
  72:
@@ -314,26 +314,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 };
                 entity['idGetter'] = report;
                 tango = function(argFoo) { // Original name: existingPositionGetter
-                    _fun126006: for(var _fun126006_ip = 0; ; ) switch(_fun126006_ip) {
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         tango = argFoo;
                         entity = _closure3_slot0;
                         oscar = null;
                         report = oscar == entity;
                         entity = undefined;
-                        if(report) { _fun126006_ip = 29; continue _fun126006 }
+                        if(report) { _fun00012_ip = 29; continue _fun00011 }
  21:
                         report = _closure3_slot0;
                         entity = report[tango];
  29:
                         report = oscar != entity;
                         entity = -1;
-                        if(!report) { _fun126006_ip = 71; continue _fun126006 }
+                        if(!report) { _fun00012_ip = 71; continue _fun00011 }
  42:
                         report = _closure3_slot0;
                         report = oscar == report;
                         mike = undefined;
-                        if(report) { _fun126006_ip = 68; continue _fun126006 }
+                        if(report) { _fun00012_ip = 68; continue _fun00011 }
  55:
                         zulu = _closure3_slot0;
                         zulu = zulu[tango];
@@ -439,14 +439,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     tango['GUILD_SETTINGS_MODAL_ROLES_STOP_REORDER'] = romeo;
     romeo = function(argFoo) { // Original name: handleUpdateOrder
-        _fun126014: for(var _fun126014_ip = 0; ; ) switch(_fun126014_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             golf = entity.from;
             oscar = entity.to;
             mike = _closure1_slot13;
             entity = null;
-            if(!(entity != mike)) { _fun126014_ip = 71; continue _fun126014 }
+            if(!(entity != mike)) { _fun00014_ip = 71; continue _fun00013 }
  26:
             tango = _closure1_slot0;
             mike = _closure1_slot2;
@@ -468,26 +468,26 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango['GUILD_ROLE_CREATE'] = yankee;
     tango['GUILD_ROLE_UPDATE'] = yankee;
     yankee = function(argFoo) { // Original name: handleGuildRoleDelete
-        _fun126015: for(var _fun126015_ip = 0; ; ) switch(_fun126015_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             oscar = entity.roleId;
             entity = _closure1_slot12;
             tango = null;
             entity = tango != entity;
-            if(!entity) { _fun126015_ip = 33; continue _fun126015 }
+            if(!entity) { _fun00016_ip = 33; continue _fun00015 }
  25:
             mike = _closure1_slot13;
             entity = tango != mike;
  33:
-            if(!entity) { _fun126015_ip = 135; continue _fun126015 }
+            if(!entity) { _fun00016_ip = 135; continue _fun00015 }
  36:
             tango = _closure1_slot13;
             mike = tango.indexOf;
             tango = mike.bind(tango)(oscar);
             mike = -1;
             mike = mike !== tango;
-            if(!mike) { _fun126015_ip = 132; continue _fun126015 }
+            if(!mike) { _fun00016_ip = 132; continue _fun00015 }
  63:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -513,7 +513,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     tango['GUILD_ROLE_DELETE'] = yankee;
     yankee = function(argFoo) { // Original name: handleStartEditingPermissions
-        _fun126016: for(var _fun126016_ip = 0; ; ) switch(_fun126016_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             tango = entity.guildId;
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = tango != entity;
             entity = undefined;
             mike = undefined;
-            if(!report) { _fun126016_ip = 73; continue _fun126016 }
+            if(!report) { _fun00018_ip = 73; continue _fun00017 }
  48:
             golf = _closure1_slot8;
             oscar = golf.getRole;
@@ -535,7 +535,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = oscar.bind(golf)(report, options);
  73:
             _closure1_slot15 = mike;
-            if(!(tango != mike)) { _fun126016_ip = 99; continue _fun126016 }
+            if(!(tango != mike)) { _fun00018_ip = 99; continue _fun00017 }
  81:
             mike = _closure1_slot15;
             mike = mike.permissions;
@@ -566,13 +566,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango['GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_STOP_EDITING'] = yankee;
     tango['GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_CANCEL'] = offset;
     offset = function(argFoo) { // Original name: handleAllowPermission
-        _fun126018: for(var _fun126018_ip = 0; ; ) switch(_fun126018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
             oscar = entity.permission;
             zulu = _closure1_slot17;
             entity = null;
-            if(!(entity != zulu)) { _fun126018_ip = 73; continue _fun126018 }
+            if(!(entity != zulu)) { _fun00020_ip = 73; continue _fun00019 }
  22:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -594,13 +594,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     tango['GUILD_SETTINGS_MODAL_ROLES_PERMISSION_ALLOW'] = offset;
     offset = function(argFoo) { // Original name: handleDenyPermission
-        _fun126019: for(var _fun126019_ip = 0; ; ) switch(_fun126019_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
             oscar = entity.permission;
             zulu = _closure1_slot17;
             entity = null;
-            if(!(entity != zulu)) { _fun126019_ip = 74; continue _fun126019 }
+            if(!(entity != zulu)) { _fun00022_ip = 74; continue _fun00021 }
  22:
             tango = _closure1_slot1;
             zulu = _closure1_slot2;

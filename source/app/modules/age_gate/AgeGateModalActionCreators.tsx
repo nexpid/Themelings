@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['openAgeGateModal'] = tango;
     tango = function(argFoo) { // Original name: closeAgeGateModal
-        _fun95467: for(var _fun95467_ip = 0; ; ) switch(_fun95467_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 return entity;
             };
             mike = zulu.bind(tango)(mike);
-            if(!(entity !== golf)) { _fun95467_ip = 113; continue _fun95467 }
+            if(!(entity !== golf)) { _fun00002_ip = 113; continue _fun00001 }
  52:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: getLengthRemainingTextColor
-        _fun63615: for(var _fun63615_ip = 0; ; ) switch(_fun63615_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             report = argBar;
@@ -15,21 +15,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = mike == oscar;
             zulu = 'text-muted';
             entity = zulu;
-            if(tango) { _fun63615_ip = 75; continue _fun63615 }
+            if(tango) { _fun00002_ip = 75; continue _fun00001 }
  24:
             mike = mike == report;
             entity = zulu;
-            if(mike) { _fun63615_ip = 75; continue _fun63615 }
+            if(mike) { _fun00002_ip = 75; continue _fun00001 }
  34:
             mike = 0;
             tango = report <= mike;
             mike = 'text-danger';
-            if(tango) { _fun63615_ip = 72; continue _fun63615 }
+            if(tango) { _fun00002_ip = 72; continue _fun00001 }
  49:
             tango = 9;
             tango = oscar / tango;
             tango = report < tango;
-            if(!tango) { _fun63615_ip = 69; continue _fun63615 }
+            if(!tango) { _fun00002_ip = 69; continue _fun00001 }
  63:
             zulu = 'text-warning';
  69:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun63616: for(var _fun63616_ip = 0; ; ) switch(_fun63616_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             verify = argFoo;
             zulu = _closure1_slot0;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             mike = oscar != output;
             kilo = undefined;
-            if(!mike) { _fun63616_ip = 181; continue _fun63616 }
+            if(!mike) { _fun00004_ip = 181; continue _fun00003 }
  167:
             entity = entity.value;
             entity = entity.length;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = new Array(2);
             verify[0] = offset;
             oscar = null;
-            if(!(oscar != kilo)) { _fun63616_ip = 503; continue _fun63616 }
+            if(!(oscar != kilo)) { _fun00004_ip = 503; continue _fun00003 }
  412:
             romeo = _closure1_slot3;
             yankee = _closure1_slot2;

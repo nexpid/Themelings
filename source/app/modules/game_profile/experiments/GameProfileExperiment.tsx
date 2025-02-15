@@ -44,11 +44,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['GameProfileRolloutExperiment'] = tango;
     tango = function(argFoo) { // Original name: canSeeGameProfile
-        _fun106640: for(var _fun106640_ip = 0; ; ) switch(_fun106640_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun106640_ip = 11; continue _fun106640 }
+            if(!(report === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             report = true;
  11:
@@ -66,11 +66,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['canSeeGameProfile'] = tango;
     mike = function(argFoo) { // Original name: useCanSeeGameProfile
-        _fun106641: for(var _fun106641_ip = 0; ; ) switch(_fun106641_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun106641_ip = 11; continue _fun106641 }
+            if(!(report === entity)) { _fun00004_ip = 11; continue _fun00003 }
  9:
             report = true;
  11:

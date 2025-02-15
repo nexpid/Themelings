@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = verify;
     var _closure1_slot1 = offset;
     golf = function(argFoo) { // Original name: useIsRavenOnboardingGuild
-        _fun43994: for(var _fun43994_ip = 0; ; ) switch(_fun43994_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = {};
             entity = null;
             mike = tango;
-            if(!(entity == mike)) { _fun43994_ip = 55; continue _fun43994 }
+            if(!(entity == mike)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             mike = _closure1_slot2;
  55:
@@ -47,9 +47,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report, zulu);
             zulu = zulu.enableFastMonetizationOnboardingForUser;
             entity = entity != tango;
-            if(!entity) { _fun43994_ip = 168; continue _fun43994 }
+            if(!entity) { _fun00002_ip = 168; continue _fun00001 }
  159:
-            if(!mike) { _fun43994_ip = 165; continue _fun43994 }
+            if(!mike) { _fun00002_ip = 165; continue _fun00001 }
  162:
             mike = zulu;
  165:
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot4 = golf;
     oscar = function(argFoo) { // Original name: isRavenOnboardingGuild
-        _fun43995: for(var _fun43995_ip = 0; ; ) switch(_fun43995_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = {};
             entity = null;
             verify = tango;
-            if(!(entity == verify)) { _fun43995_ip = 55; continue _fun43995 }
+            if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
  51:
             verify = _closure1_slot2;
  55:
@@ -95,9 +95,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = report.bind(oscar)(zulu);
             zulu = zulu.enableFastMonetizationOnboardingForUser;
             entity = entity != tango;
-            if(!entity) { _fun43995_ip = 148; continue _fun43995 }
+            if(!entity) { _fun00004_ip = 148; continue _fun00003 }
  139:
-            if(!mike) { _fun43995_ip = 145; continue _fun43995 }
+            if(!mike) { _fun00004_ip = 145; continue _fun00003 }
  142:
             mike = zulu;
  145:
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot5 = oscar;
     report = function(argFoo) { // Original name: useIsWhitegloveOnboardingGuild
-        _fun43996: for(var _fun43996_ip = 0; ; ) switch(_fun43996_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -129,13 +129,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun43996_ip = 112; continue _fun43996 }
+            if(!entity) { _fun00006_ip = 112; continue _fun00005 }
  82:
             tango = report.hasFeature;
             mike = _closure1_slot3;
             mike = mike.CREATOR_MONETIZABLE_WHITEGLOVE;
             mike = tango.bind(report)(mike);
-            if(!mike) { _fun43996_ip = 109; continue _fun43996 }
+            if(!mike) { _fun00006_ip = 109; continue _fun00005 }
  106:
             mike = zulu;
  109:
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot6 = report;
     tango = function(argFoo) { // Original name: isWhitegloveOnboardingGuild
-        _fun43997: for(var _fun43997_ip = 0; ; ) switch(_fun43997_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             tango = _closure1_slot0;
@@ -164,13 +164,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun43997_ip = 102; continue _fun43997 }
+            if(!entity) { _fun00008_ip = 102; continue _fun00007 }
  72:
             tango = report.hasFeature;
             mike = _closure1_slot3;
             mike = mike.CREATOR_MONETIZABLE_WHITEGLOVE;
             mike = tango.bind(report)(mike);
-            if(!mike) { _fun43997_ip = 99; continue _fun43997 }
+            if(!mike) { _fun00008_ip = 99; continue _fun00007 }
  96:
             mike = zulu;
  99:
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['useIsWhitegloveOnboardingGuild'] = report;
     zulu['isWhitegloveOnboardingGuild'] = tango;
     tango = function(argFoo) { // Original name: useIsExpeditedOnboardingGuild
-        _fun44000: for(var _fun44000_ip = 0; ; ) switch(_fun44000_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot4;
@@ -255,14 +255,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = entity == tango;
             zulu = undefined;
             entity = undefined;
-            if(oscar) { _fun44000_ip = 28; continue _fun44000 }
+            if(oscar) { _fun00010_ip = 28; continue _fun00009 }
  23:
             entity = tango.id;
  28:
             entity = report.bind(zulu)(entity);
             mike = _closure1_slot6;
             mike = mike.bind(zulu)(tango);
-            if(entity) { _fun44000_ip = 48; continue _fun44000 }
+            if(entity) { _fun00010_ip = 48; continue _fun00009 }
  45:
             entity = mike;
  48:
@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsExpeditedOnboardingGuild'] = tango;
     tango = function(argFoo) { // Original name: isExpeditedMonetizationOnboardingGuild
-        _fun44001: for(var _fun44001_ip = 0; ; ) switch(_fun44001_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot5;
@@ -279,12 +279,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = entity == tango;
             zulu = undefined;
             entity = undefined;
-            if(oscar) { _fun44001_ip = 28; continue _fun44001 }
+            if(oscar) { _fun00012_ip = 28; continue _fun00011 }
  23:
             entity = tango.id;
  28:
             entity = report.bind(zulu)(entity);
-            if(entity) { _fun44001_ip = 45; continue _fun44001 }
+            if(entity) { _fun00012_ip = 45; continue _fun00011 }
  36:
             mike = _closure1_slot7;
             entity = mike.bind(zulu)(tango);
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isExpeditedMonetizationOnboardingGuild'] = tango;
     tango = function(argFoo) { // Original name: useIsMonetizationWaitlistEnabledForGuild
-        _fun44002: for(var _fun44002_ip = 0; ; ) switch(_fun44002_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.useExperiment;
             mike = {};
             oscar = null;
-            if(!(oscar == entity)) { _fun44002_ip = 52; continue _fun44002 }
+            if(!(oscar == entity)) { _fun00014_ip = 52; continue _fun00013 }
  48:
             entity = _closure1_slot2;
  52:
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsMonetizationWaitlistEnabledForGuild'] = tango;
     tango = function(argFoo) { // Original name: isMonetizationWaitlistEnabledForGuild
-        _fun44003: for(var _fun44003_ip = 0; ; ) switch(_fun44003_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.getCurrentConfig;
             entity = {};
             oscar = null;
-            if(!(oscar == tango)) { _fun44003_ip = 52; continue _fun44003 }
+            if(!(oscar == tango)) { _fun00016_ip = 52; continue _fun00015 }
  48:
             tango = _closure1_slot2;
  52:

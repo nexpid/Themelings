@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/game_console/native/getConsoleConnectingText.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getConsoleConnectingText
-        _fun104213: for(var _fun104213_ip = 0; ; ) switch(_fun104213_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             zulu = argBar;
@@ -35,15 +35,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity == zulu;
             golf = undefined;
             oscar = undefined;
-            if(tango) { _fun104213_ip = 27; continue _fun104213 }
+            if(tango) { _fun00002_ip = 27; continue _fun00001 }
  22:
             oscar = zulu.type;
  27:
-            if(!(entity == oscar)) { _fun104213_ip = 55; continue _fun104213 }
+            if(!(entity == oscar)) { _fun00002_ip = 55; continue _fun00001 }
  31:
             options = entity == report;
             tango = undefined;
-            if(options) { _fun104213_ip = 52; continue _fun104213 }
+            if(options) { _fun00002_ip = 52; continue _fun00001 }
  40:
             report = report.clientInfo;
             tango = report.os;
@@ -53,21 +53,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity != zulu;
             entity = _closure1_slot2;
             entity = entity.XBOX;
-            if(!(oscar !== entity)) { _fun104213_ip = 245; continue _fun104213 }
+            if(!(oscar !== entity)) { _fun00002_ip = 245; continue _fun00001 }
  79:
             entity = _closure1_slot2;
             entity = entity.PLAYSTATION;
-            if(!(oscar !== entity)) { _fun104213_ip = 112; continue _fun104213 }
+            if(!(oscar !== entity)) { _fun00002_ip = 112; continue _fun00001 }
  93:
             entity = _closure1_slot2;
             report = entity.PLAYSTATION_STAGING;
             entity = undefined;
-            if(!(oscar === report)) { _fun104213_ip = 240; continue _fun104213 }
+            if(!(oscar === report)) { _fun00002_ip = 240; continue _fun00001 }
  112:
-            if(mike) { _fun104213_ip = 179; continue _fun104213 }
+            if(mike) { _fun00002_ip = 179; continue _fun00001 }
  115:
             report = 'PS5';
-            if(!tango) { _fun104213_ip = 177; continue _fun104213 }
+            if(!tango) { _fun00002_ip = 177; continue _fun00001 }
  122:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = oscar.QCw1oa;
             report = options.bind(verify)(oscar);
  177:
-            _fun104213_ip = 237; continue _fun104213;
+            _fun00002_ip = 237; continue _fun00001;
  179:
             options = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -100,12 +100,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  237:
             entity = report;
  240:
-            _fun104213_ip = 373; continue _fun104213;
+            _fun00002_ip = 373; continue _fun00001;
  245:
-            if(mike) { _fun104213_ip = 312; continue _fun104213 }
+            if(mike) { _fun00002_ip = 312; continue _fun00001 }
  248:
             mike = 'Xbox';
-            if(!tango) { _fun104213_ip = 310; continue _fun104213 }
+            if(!tango) { _fun00002_ip = 310; continue _fun00001 }
  255:
             options = _closure1_slot0;
             verify = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.UjA4HR;
             mike = report.bind(oscar)(tango);
  310:
-            _fun104213_ip = 370; continue _fun104213;
+            _fun00002_ip = 370; continue _fun00001;
  312:
             tango = _closure1_slot0;
             options = _closure1_slot1;

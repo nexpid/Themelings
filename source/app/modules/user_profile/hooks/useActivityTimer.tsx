@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) {
-        _fun80493: for(var _fun80493_ip = 0; ; ) switch(_fun80493_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             mike = global;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = verify / entity;
             golf = golf.bind(options)(entity);
             entity = 0;
-            if(!(entity !== golf)) { _fun80493_ip = 231; continue _fun80493 }
+            if(!(entity !== golf)) { _fun00002_ip = 231; continue _fun00001 }
  178:
             entity = _closure1_slot6;
             yankee = entity.bind(report)(golf);
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = entity;
             foxtrot = entity;
             entity = output[options](sizing, kilo, backup, foxtrot, romeo, yankee);
-            _fun80493_ip = 271; continue _fun80493;
+            _fun00002_ip = 271; continue _fun00001;
  231:
             zulu = _closure1_slot6;
             oscar = zulu.bind(report)(oscar);

@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/takeover_modal/showTakeoverModal.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: showTakeoverModal
-        _fun123312: for(var _fun123312_ip = 0; ; ) switch(_fun123312_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.warningId;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = 'takeover-modal';
             zulu['location'] = oscar;
             zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun123312_ip = 169; continue _fun123312 }
+            if(!zulu) { _fun00002_ip = 169; continue _fun00001 }
  77:
             report = _closure1_slot1;
             zulu = _closure1_slot2;

@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/go_live/utils/transitionToStream.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: transitionToStream
-        _fun75189: for(var _fun75189_ip = 0; ; ) switch(_fun75189_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.getChannel;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.channelId;
             tango = zulu.bind(tango)(mike);
             mike = null;
-            if(!(mike != tango)) { _fun75189_ip = 119; continue _fun75189 }
+            if(!(mike != tango)) { _fun00002_ip = 119; continue _fun00001 }
  31:
             oscar = _closure1_slot1;
             report = _closure1_slot2;

@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu[1] = golf;
         zulu[2] = oscar;
         mike = function(argFoo) {
-            _fun96324: for(var _fun96324_ip = 0; ; ) switch(_fun96324_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = argFoo;
                 zulu = _closure2_slot2;
                 entity = undefined;
                 zulu = zulu.bind(entity)(tango);
                 zulu = _closure2_slot0;
-                if(!(tango !== zulu)) { _fun96324_ip = 53; continue _fun96324 }
+                if(!(tango !== zulu)) { _fun00002_ip = 53; continue _fun00001 }
  25:
                 report = _closure2_slot3;
                 tango = report.start;

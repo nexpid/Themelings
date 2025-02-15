@@ -19,15 +19,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'design/components/Button/native/useToggleButtonProps.native.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar) { // Original name: useToggleButtonProps
-        _fun99152: for(var _fun99152_ip = 0; ; ) switch(_fun99152_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = argBar;
             entity = {};
-            if(mike) { _fun99152_ip = 19; continue _fun99152 }
+            if(mike) { _fun00002_ip = 19; continue _fun00001 }
  11:
             zulu = tango.off;
-            _fun99152_ip = 25; continue _fun99152;
+            _fun00002_ip = 25; continue _fun00001;
  19:
             zulu = tango.on;
  25:
@@ -46,15 +46,15 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useToggleButtonProps'] = tango;
     mike = function(argFoo, argBar) { // Original name: useToggleIconButtonProps
-        _fun99153: for(var _fun99153_ip = 0; ; ) switch(_fun99153_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = argBar;
             entity = {};
-            if(mike) { _fun99153_ip = 19; continue _fun99153 }
+            if(mike) { _fun00004_ip = 19; continue _fun00003 }
  11:
             zulu = tango.off;
-            _fun99153_ip = 25; continue _fun99153;
+            _fun00004_ip = 25; continue _fun00003;
  19:
             zulu = tango.on;
  25:

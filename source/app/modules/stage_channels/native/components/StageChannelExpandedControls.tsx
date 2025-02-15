@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot8 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun103266: for(var _fun103266_ip = 0; ; ) switch(_fun103266_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.channel;
@@ -147,14 +147,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = null;
             options = output == mike;
             golf = undefined;
-            if(options) { _fun103266_ip = 254; continue _fun103266 }
+            if(options) { _fun00002_ip = 254; continue _fun00001 }
  248:
             golf = mike.maxStageVideoChannelUsers;
  254:
             options = output != golf;
             sizing = 0;
             mike = 0;
-            if(!options) { _fun103266_ip = 268; continue _fun103266 }
+            if(!options) { _fun00002_ip = 268; continue _fun00001 }
  265:
             mike = golf;
  268:
@@ -183,11 +183,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = result.bind(tango)(romeo, options);
             options = verify.bind(golf)(options);
             mike = mike > sizing;
-            if(!mike) { _fun103266_ip = 385; continue _fun103266 }
+            if(!mike) { _fun00002_ip = 385; continue _fun00001 }
  382:
             mike = zulu;
  385:
-            if(!mike) { _fun103266_ip = 489; continue _fun103266 }
+            if(!mike) { _fun00002_ip = 489; continue _fun00001 }
  388:
             zulu = golf.push;
             verify = _closure1_slot7;
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['channel'] = offset;
             romeo = echo.length;
             romeo = romeo > sizing;
-            if(!romeo) { _fun103266_ip = 459; continue _fun103266 }
+            if(!romeo) { _fun00002_ip = 459; continue _fun00001 }
  438:
             result = echo.find;
             sizing = function(argFoo) {
@@ -213,10 +213,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = result.bind(echo)(sizing);
             romeo = output == sizing;
  459:
-            if(romeo) { _fun103266_ip = 474; continue _fun103266 }
+            if(romeo) { _fun00002_ip = 474; continue _fun00001 }
  462:
             foxtrot = !foxtrot;
-            if(!foxtrot) { _fun103266_ip = 471; continue _fun103266 }
+            if(!foxtrot) { _fun00002_ip = 471; continue _fun00001 }
  468:
             foxtrot = kilo;
  471:

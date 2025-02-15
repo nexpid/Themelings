@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/onboarding/banner/BotsBanner.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: BotsBanner
-        _fun118546: for(var _fun118546_ip = 0; ; ) switch(_fun118546_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.context;
@@ -60,11 +60,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == yankee;
             entity = null;
-            if(mike) { _fun118546_ip = 242; continue _fun118546 }
+            if(mike) { _fun00002_ip = 242; continue _fun00001 }
  114:
             mike = zulu == offset;
             entity = null;
-            if(mike) { _fun118546_ip = 242; continue _fun118546 }
+            if(mike) { _fun00002_ip = 242; continue _fun00001 }
  123:
             tango = _closure1_slot3;
             zulu = _closure1_slot1;

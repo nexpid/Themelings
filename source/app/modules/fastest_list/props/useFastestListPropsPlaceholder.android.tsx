@@ -6,14 +6,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: createNativePlaceholderConfig
-        _fun78567: for(var _fun78567_ip = 0; ; ) switch(_fun78567_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = null;
             entity = tango == zulu;
             golf = undefined;
             offset = undefined;
-            if(entity) { _fun78567_ip = 21; continue _fun78567 }
+            if(entity) { _fun00002_ip = 21; continue _fun00001 }
  16:
             offset = zulu.type;
  21:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['placeholderFeedShape'] = golf;
             entity['placeholderFeedShapeSize'] = golf;
             mike = offset;
-            if(!(tango == mike)) { _fun78567_ip = 184; continue _fun78567 }
+            if(!(tango == mike)) { _fun00002_ip = 184; continue _fun00001 }
  149:
             oscar = _closure1_slot0;
             options = _closure1_slot1;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['height'] = golf;
             entity['verticalAlignment'] = golf;
             entity['horizontalAlignment'] = golf;
-            if(!(tango != zulu)) { _fun78567_ip = 1113; continue _fun78567 }
+            if(!(tango != zulu)) { _fun00002_ip = 1113; continue _fun00001 }
  216:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = options.bind(golf)(oscar);
             oscar = oscar.FastestListPropsPlaceholderType;
             oscar = oscar.NONE;
-            if(!(oscar !== offset)) { _fun78567_ip = 1111; continue _fun78567 }
+            if(!(oscar !== offset)) { _fun00002_ip = 1111; continue _fun00001 }
  258:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = options.bind(golf)(oscar);
             oscar = oscar.FastestListPropsPlaceholderType;
             oscar = oscar.SHAPE;
-            if(!(oscar !== offset)) { _fun78567_ip = 859; continue _fun78567 }
+            if(!(oscar !== offset)) { _fun00002_ip = 859; continue _fun00001 }
  294:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             oscar = options.bind(golf)(oscar);
             oscar = oscar.FastestListPropsPlaceholderType;
             oscar = oscar.FEED_ITEM;
-            if(!(oscar !== offset)) { _fun78567_ip = 379; continue _fun78567 }
+            if(!(oscar !== offset)) { _fun00002_ip = 379; continue _fun00001 }
  327:
             oscar = global;
             verify = oscar.Error;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.borderRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 396; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 396; continue _fun00001 }
  393:
             options = verify;
  396:
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.borderTopLeftRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 420; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 420; continue _fun00001 }
  417:
             options = verify;
  420:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.borderTopRightRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 444; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 444; continue _fun00001 }
  441:
             options = verify;
  444:
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.borderBottomLeftRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 468; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 468; continue _fun00001 }
  465:
             options = verify;
  468:
@@ -133,14 +133,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.borderBottomRightRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 492; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 492; continue _fun00001 }
  489:
             options = verify;
  492:
             entity['borderBottomRightRadius'] = options;
             verify = zulu.divider;
             options = tango != verify;
-            if(!options) { _fun78567_ip = 514; continue _fun78567 }
+            if(!options) { _fun00002_ip = 514; continue _fun00001 }
  511:
             options = verify;
  514:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             options = zulu.dividerColorHex;
             verify = tango != options;
             options = undefined;
-            if(!verify) { _fun78567_ip = 572; continue _fun78567 }
+            if(!verify) { _fun00002_ip = 572; continue _fun00001 }
  535:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.dividerPaddingLeft;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 596; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 596; continue _fun00001 }
  593:
             options = verify;
  596:
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.dividerPaddingRight;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 620; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 620; continue _fun00001 }
  617:
             options = verify;
  620:
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             options = zulu.backgroundColorHex;
             verify = tango != options;
             options = undefined;
-            if(!verify) { _fun78567_ip = 678; continue _fun78567 }
+            if(!verify) { _fun00002_ip = 678; continue _fun00001 }
  641:
             offset = _closure1_slot0;
             yankee = _closure1_slot1;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.labelSecondarySize;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 757; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 757; continue _fun00001 }
  754:
             options = verify;
  757:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.labelPaddingInnerRatio;
             offset = tango != verify;
             options = 0.4;
-            if(!offset) { _fun78567_ip = 801; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 801; continue _fun00001 }
  798:
             options = verify;
  801:
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             options = zulu.padding;
             verify = tango != options;
             oscar = 0;
-            if(!verify) { _fun78567_ip = 824; continue _fun78567 }
+            if(!verify) { _fun00002_ip = 824; continue _fun00001 }
  821:
             oscar = options;
  824:
@@ -232,12 +232,12 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['placeholderFeedShape'] = oscar;
             oscar = zulu.shapeSize;
             entity['placeholderFeedShapeSize'] = oscar;
-            _fun78567_ip = 1111; continue _fun78567;
+            _fun00002_ip = 1111; continue _fun00001;
  859:
             verify = zulu.borderRadius;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 876; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 876; continue _fun00001 }
  873:
             options = verify;
  876:
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.spaceGap;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 912; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 912; continue _fun00001 }
  909:
             options = verify;
  912:
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             verify = zulu.paddingHorizontal;
             offset = tango != verify;
             options = 0;
-            if(!offset) { _fun78567_ip = 935; continue _fun78567 }
+            if(!offset) { _fun00002_ip = 935; continue _fun00001 }
  932:
             options = verify;
  935:
@@ -263,7 +263,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             options = zulu.paddingVertical;
             verify = tango != options;
             oscar = 0;
-            if(!verify) { _fun78567_ip = 959; continue _fun78567 }
+            if(!verify) { _fun00002_ip = 959; continue _fun00001 }
  956:
             oscar = options;
  959:
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity['placeholderShapeColorRgba'] = report;
             report = zulu.shapeCount;
             oscar = tango != report;
-            if(!oscar) { _fun78567_ip = 1030; continue _fun78567 }
+            if(!oscar) { _fun00002_ip = 1030; continue _fun00001 }
  1027:
             mike = report;
  1030:
@@ -293,14 +293,14 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf = tango != oscar;
             mike = 'center';
             report = mike;
-            if(!golf) { _fun78567_ip = 1081; continue _fun78567 }
+            if(!golf) { _fun00002_ip = 1081; continue _fun00001 }
  1078:
             report = oscar;
  1081:
             entity['verticalAlignment'] = report;
             zulu = zulu.horizonalAlignment;
             tango = tango != zulu;
-            if(!tango) { _fun78567_ip = 1105; continue _fun78567 }
+            if(!tango) { _fun00002_ip = 1105; continue _fun00001 }
  1102:
             mike = zulu;
  1105:
@@ -343,11 +343,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/fastest_list/props/useFastestListPropsPlaceholder.android.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useFastestListPropsPlaceholder
-        _fun78568: for(var _fun78568_ip = 0; ; ) switch(_fun78568_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[0];
             mike = undefined;
-            if(!(report === mike)) { _fun78568_ip = 18; continue _fun78568 }
+            if(!(report === mike)) { _fun00004_ip = 18; continue _fun00003 }
  11:
             report = _closure1_slot3;
  18:

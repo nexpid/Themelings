@@ -8,20 +8,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: getMessageTimestampForChannel
-        _fun120448: for(var _fun120448_ip = 0; ; ) switch(_fun120448_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.lastMessageId;
             mike = entity.message;
             entity = entity.loaded;
-            if(!entity) { _fun120448_ip = 29; continue _fun120448 }
+            if(!entity) { _fun00002_ip = 29; continue _fun00001 }
  23:
             entity = null;
-            if(!(entity == mike)) { _fun120448_ip = 76; continue _fun120448 }
+            if(!(entity == mike)) { _fun00002_ip = 76; continue _fun00001 }
  29:
             entity = null;
             zulu = entity != report;
-            if(!zulu) { _fun120448_ip = 74; continue _fun120448 }
+            if(!zulu) { _fun00002_ip = 74; continue _fun00001 }
  38:
             oscar = _closure1_slot1;
             tango = _closure1_slot2;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.extractTimestamp;
             entity = zulu.bind(tango)(report);
  74:
-            _fun120448_ip = 117; continue _fun120448;
+            _fun00002_ip = 117; continue _fun00001;
  76:
             report = _closure1_slot1;
             tango = _closure1_slot2;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/message_request/hooks/useMessageRequestTimestampText.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useMessageRequestTimestampText
-        _fun120449: for(var _fun120449_ip = 0; ; ) switch(_fun120449_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             report = entity == zulu;
             entity = '';
-            if(report) { _fun120449_ip = 161; continue _fun120449 }
+            if(report) { _fun00004_ip = 161; continue _fun00003 }
  126:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useMessageRequestTimestampText'] = tango;
     mike = function(argFoo) { // Original name: useMessageRequestRelativeTimestampText
-        _fun120451: for(var _fun120451_ip = 0; ; ) switch(_fun120451_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == tango;
             entity = '';
-            if(zulu) { _fun120451_ip = 157; continue _fun120451 }
+            if(zulu) { _fun00006_ip = 157; continue _fun00005 }
  126:
             zulu = _closure1_slot0;
             oscar = _closure1_slot2;

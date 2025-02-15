@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/explicit_media_redaction/native/false_positive_reporting/ExplicitMediaSenderFalsePositiveActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ExplicitMediaObscuredFalsePositiveActionSheet
-        _fun87445: for(var _fun87445_ip = 0; ; ) switch(_fun87445_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.channelId;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.attachments;
             report = zulu.length;
             zulu = 0;
-            if(!(!(report > zulu))) { _fun87445_ip = 256; continue _fun87445 }
+            if(!(!(report > zulu))) { _fun00002_ip = 256; continue _fun00001 }
  226:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

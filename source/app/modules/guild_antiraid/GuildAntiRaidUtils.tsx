@@ -8,13 +8,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = options;
     tango = function(argFoo) { // Original name: hasDetectedRaid
-        _fun72470: for(var _fun72470_ip = 0; ; ) switch(_fun72470_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             mike = golf.raidDetectedAt;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun72470_ip = 90; continue _fun72470 }
+            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
  18:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     oscar = golf.bind(options)(oscar);
     zulu['DATE_CONFIG'] = report;
     report = function(argFoo) { // Original name: hasDetectedActivity
-        _fun72471: for(var _fun72471_ip = 0; ; ) switch(_fun72471_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             options = argFoo;
             entity = options.dmSpamDetectedAt;
             zulu = null;
             entity = zulu != entity;
-            if(!entity) { _fun72471_ip = 90; continue _fun72471 }
+            if(!entity) { _fun00004_ip = 90; continue _fun00003 }
  18:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -86,11 +86,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike.bind(report)();
             entity = tango > mike;
  90:
-            if(entity) { _fun72471_ip = 181; continue _fun72471 }
+            if(entity) { _fun00004_ip = 181; continue _fun00003 }
  93:
             mike = options.raidDetectedAt;
             mike = zulu != mike;
-            if(!mike) { _fun72471_ip = 178; continue _fun72471 }
+            if(!mike) { _fun00004_ip = 178; continue _fun00003 }
  106:
             oscar = _closure1_slot1;
             golf = _closure1_slot2;
@@ -117,13 +117,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['hasDetectedActivity'] = report;
     zulu['hasDetectedRaid'] = tango;
     tango = function(argFoo) { // Original name: hasDetectedDMRaid
-        _fun72472: for(var _fun72472_ip = 0; ; ) switch(_fun72472_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             golf = argFoo;
             mike = golf.dmSpamDetectedAt;
             entity = null;
             entity = entity != mike;
-            if(!entity) { _fun72472_ip = 90; continue _fun72472 }
+            if(!entity) { _fun00006_ip = 90; continue _fun00005 }
  18:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -147,14 +147,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['hasDetectedDMRaid'] = tango;
     tango = function(argFoo) { // Original name: getIncidentAlertType
-        _fun72473: for(var _fun72473_ip = 0; ; ) switch(_fun72473_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             entity = null;
             mike = entity == tango;
             report = undefined;
             entity = undefined;
-            if(mike) { _fun72473_ip = 74; continue _fun72473 }
+            if(mike) { _fun00008_ip = 74; continue _fun00007 }
  16:
             mike = _closure1_slot5;
             mike = mike.bind(report)(tango);
@@ -164,10 +164,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar[zulu];
             zulu = tango.bind(report)(zulu);
             zulu = zulu.GuildIncidentAlertTypes;
-            if(mike) { _fun72473_ip = 65; continue _fun72473 }
+            if(mike) { _fun00008_ip = 65; continue _fun00007 }
  57:
             mike = zulu.DM_RAID;
-            _fun72473_ip = 71; continue _fun72473;
+            _fun00008_ip = 71; continue _fun00007;
  65:
             mike = zulu.JOIN_RAID;
  71:
@@ -178,11 +178,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getIncidentAlertType'] = tango;
     tango = function(argFoo, argBar) { // Original name: getEnabledInterventions
-        _fun72474: for(var _fun72474_ip = 0; ; ) switch(_fun72474_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = new Array(0);
             mike = argFoo;
-            if(!mike) { _fun72474_ip = 57; continue _fun72474 }
+            if(!mike) { _fun00010_ip = 57; continue _fun00009 }
  10:
             zulu = entity.push;
             report = _closure1_slot0;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(entity)(mike);
  57:
             mike = argBar;
-            if(!mike) { _fun72474_ip = 110; continue _fun72474 }
+            if(!mike) { _fun00010_ip = 110; continue _fun00009 }
  63:
             zulu = entity.push;
             report = _closure1_slot0;
@@ -214,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getEnabledInterventions'] = tango;
     tango = function(argFoo, argBar) { // Original name: getDisabledInterventions
-        _fun72475: for(var _fun72475_ip = 0; ; ) switch(_fun72475_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = new Array(0);
             mike = argFoo;
-            if(mike) { _fun72475_ip = 57; continue _fun72475 }
+            if(mike) { _fun00012_ip = 57; continue _fun00011 }
  10:
             zulu = entity.push;
             report = _closure1_slot0;
@@ -232,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.bind(entity)(mike);
  57:
             mike = argBar;
-            if(mike) { _fun72475_ip = 110; continue _fun72475 }
+            if(mike) { _fun00012_ip = 110; continue _fun00011 }
  63:
             zulu = entity.push;
             report = _closure1_slot0;
@@ -250,13 +250,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getDisabledInterventions'] = tango;
     tango = function(argFoo) { // Original name: isUnderLockdown
-        _fun72476: for(var _fun72476_ip = 0; ; ) switch(_fun72476_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             tango = argFoo;
             entity = tango.dmsDisabledUntil;
             zulu = null;
             entity = zulu != entity;
-            if(!entity) { _fun72476_ip = 82; continue _fun72476 }
+            if(!entity) { _fun00014_ip = 82; continue _fun00013 }
  18:
             mike = global;
             golf = mike.Date;
@@ -274,11 +274,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = mike instanceof Object ? mike : oscar;
             entity = report > mike;
  82:
-            if(entity) { _fun72476_ip = 165; continue _fun72476 }
+            if(entity) { _fun00014_ip = 165; continue _fun00013 }
  85:
             mike = tango.invitesDisabledUntil;
             mike = zulu != mike;
-            if(!mike) { _fun72476_ip = 162; continue _fun72476 }
+            if(!mike) { _fun00014_ip = 162; continue _fun00013 }
  98:
             zulu = global;
             oscar = zulu.Date;
@@ -303,18 +303,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isUnderLockdown'] = tango;
     tango = function(argFoo) { // Original name: hasDMsDisabled
-        _fun72477: for(var _fun72477_ip = 0; ; ) switch(_fun72477_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zulu = argFoo;
             mike = null;
             tango = mike == zulu;
             entity = undefined;
-            if(tango) { _fun72477_ip = 20; continue _fun72477 }
+            if(tango) { _fun00016_ip = 20; continue _fun00015 }
  14:
             entity = zulu.dmsDisabledUntil;
  20:
             entity = mike != entity;
-            if(!entity) { _fun72477_ip = 91; continue _fun72477 }
+            if(!entity) { _fun00016_ip = 91; continue _fun00015 }
  27:
             mike = global;
             report = mike.Date;
@@ -337,18 +337,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['hasDMsDisabled'] = tango;
     tango = function(argFoo) { // Original name: hasInvitesDisabled
-        _fun72478: for(var _fun72478_ip = 0; ; ) switch(_fun72478_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             zulu = argFoo;
             mike = null;
             tango = mike == zulu;
             entity = undefined;
-            if(tango) { _fun72478_ip = 20; continue _fun72478 }
+            if(tango) { _fun00018_ip = 20; continue _fun00017 }
  14:
             entity = zulu.invitesDisabledUntil;
  20:
             entity = mike != entity;
-            if(!entity) { _fun72478_ip = 91; continue _fun72478 }
+            if(!entity) { _fun00018_ip = 91; continue _fun00017 }
  27:
             mike = global;
             report = mike.Date;
@@ -371,33 +371,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['hasInvitesDisabled'] = tango;
     mike = function(argFoo, argBar) { // Original name: getSecurityActionDetailsString
-        _fun72479: for(var _fun72479_ip = 0; ; ) switch(_fun72479_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
             golf = argBar;
             romeo = entity.dmsDisabledUntil;
             mike = null;
-            if(!(mike == romeo)) { _fun72479_ip = 24; continue _fun72479 }
+            if(!(mike == romeo)) { _fun00020_ip = 24; continue _fun00019 }
  18:
             romeo = entity.invitesDisabledUntil;
  24:
-            if(!(mike != romeo)) { _fun72479_ip = 512; continue _fun72479 }
+            if(!(mike != romeo)) { _fun00020_ip = 512; continue _fun00019 }
  31:
             zulu = entity.dmsDisabledUntil;
             zulu = mike != zulu;
             entity = entity.invitesDisabledUntil;
             mike = mike != entity;
             tango = zulu;
-            if(!tango) { _fun72479_ip = 60; continue _fun72479 }
+            if(!tango) { _fun00020_ip = 60; continue _fun00019 }
  57:
             tango = mike;
  60:
             entity = true;
-            if(!(tango !== entity)) { _fun72479_ip = 370; continue _fun72479 }
+            if(!(tango !== entity)) { _fun00020_ip = 370; continue _fun00019 }
  69:
-            if(!(zulu !== entity)) { _fun72479_ip = 228; continue _fun72479 }
+            if(!(zulu !== entity)) { _fun00020_ip = 228; continue _fun00019 }
  76:
-            if(!(mike !== entity)) { _fun72479_ip = 86; continue _fun72479 }
+            if(!(mike !== entity)) { _fun00020_ip = 86; continue _fun00019 }
  80:
             entity = '';
             return entity;

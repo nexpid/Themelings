@@ -23,14 +23,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMaybeFetchCollectiblesCategories
-        _fun99479: for(var _fun99479_ip = 0; ; ) switch(_fun99479_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = null;
             mike = oscar == report;
             entity = undefined;
             options = undefined;
-            if(mike) { _fun99479_ip = 22; continue _fun99479 }
+            if(mike) { _fun00002_ip = 22; continue _fun00001 }
  16:
             options = report.paymentGateway;
  22:
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['includeBundles'] = golf;
             oscar = oscar == report;
             entity = undefined;
-            if(oscar) { _fun99479_ip = 138; continue _fun99479 }
+            if(oscar) { _fun00002_ip = 138; continue _fun00001 }
  132:
             entity = report.noOp;
  138:

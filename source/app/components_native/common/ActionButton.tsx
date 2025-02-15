@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'components_native/common/ActionButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActionButton
-        _fun86171: for(var _fun86171_ip = 0; ; ) switch(_fun86171_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             foxtrot = argFoo;
             entity = _closure1_slot6;
@@ -93,14 +93,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = foxtrot.IconComponent;
             mike = foxtrot.type;
             entity = 'neutral';
-            if(!(entity !== mike)) { _fun86171_ip = 63; continue _fun86171 }
+            if(!(entity !== mike)) { _fun00002_ip = 63; continue _fun00001 }
  37:
             entity = golf.actionButtonIconPositive;
             zulu = new Array(2);
             zulu[0] = entity;
             entity = golf.actionButtonContainerPositive;
             zulu[1] = entity;
-            _fun86171_ip = 90; continue _fun86171;
+            _fun00002_ip = 90; continue _fun00001;
  63:
             mike = golf.actionButtonIconNeutral;
             entity = new Array(2);
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[2] = verify;
             report['style'] = golf;
             golf = null;
-            if(!(golf == offset)) { _fun86171_ip = 304; continue _fun86171 }
+            if(!(golf == offset)) { _fun00002_ip = 304; continue _fun00001 }
  225:
             romeo = _closure1_slot5;
             kilo = _closure1_slot1;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['source'] = foxtrot;
             golf['style'] = yankee;
             golf = romeo.bind(tango)(verify, golf);
-            _fun86171_ip = 328; continue _fun86171;
+            _fun00002_ip = 328; continue _fun00001;
  304:
             verify = _closure1_slot5;
             options = {};

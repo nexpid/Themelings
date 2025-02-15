@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['EXPANDED_HEADER_TOTAL_CONSUMED_SPACE_IN_PARENT'] = report;
     zulu['useStyles'] = tango;
     mike = function(argFoo) { // Original name: AppLauncherCommandViewHeader
-        _fun119101: for(var _fun119101_ip = 0; ; ) switch(_fun119101_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             kilo = mike.command;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = mike;
             mike = function() {
-                _fun119102: for(var _fun119102_ip = 0; ; ) switch(_fun119102_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot1;
                     report = null;
                     report = report == oscar;
-                    if(report) { _fun119102_ip = 56; continue _fun119102 }
+                    if(report) { _fun00004_ip = 56; continue _fun00003 }
  47:
                     tango = _closure2_slot1;
                     entity = tango.application;
@@ -371,12 +371,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'number';
             entity = typeof report;
             mike = report;
-            if(!(verify !== entity)) { _fun119101_ip = 487; continue _fun119101 }
+            if(!(verify !== entity)) { _fun00002_ip = 487; continue _fun00001 }
  467:
             entity = null;
             verify = entity == report;
             entity = undefined;
-            if(verify) { _fun119101_ip = 484; continue _fun119101 }
+            if(verify) { _fun00002_ip = 484; continue _fun00001 }
  478:
             entity = report.uri;
  484:
@@ -385,12 +385,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = null;
             verify = backup != options;
             entity = '';
-            if(!verify) { _fun119101_ip = 503; continue _fun119101 }
+            if(!verify) { _fun00002_ip = 503; continue _fun00001 }
  500:
             entity = options;
  503:
             foxtrot = zulu.bind(tango)(mike, entity);
-            if(!(backup == report)) { _fun119101_ip = 559; continue _fun119101 }
+            if(!(backup == report)) { _fun00002_ip = 559; continue _fun00001 }
  513:
             zulu = _closure1_slot6;
             mike = _closure1_slot4;
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[1] = verify;
             entity['style'] = options;
             verify = zulu.bind(tango)(mike, entity);
-            _fun119101_ip = 605; continue _fun119101;
+            _fun00002_ip = 605; continue _fun00001;
  559:
             zulu = _closure1_slot6;
             mike = _closure1_slot1;
@@ -422,11 +422,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = offset.headerContainer;
             report = new Array(2);
             report[0] = options;
-            if(!(backup != kilo)) { _fun119101_ip = 641; continue _fun119101 }
+            if(!(backup != kilo)) { _fun00002_ip = 641; continue _fun00001 }
  633:
             options = {};
             options['backgroundColor'] = foxtrot;
-            _fun119101_ip = 647; continue _fun119101;
+            _fun00002_ip = 647; continue _fun00001;
  641:
             options = offset.loadingHeaderContainer;
  647:
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['style'] = sizing;
             sizing = backup == kilo;
             backup = undefined;
-            if(sizing) { _fun119101_ip = 852; continue _fun119101 }
+            if(sizing) { _fun00002_ip = 852; continue _fun00001 }
  847:
             backup = kilo.displayName;
  852:

@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = _closure2_slot2;
             zulu = report.filter;
             entity = function(argFoo) {
-                _fun76957: for(var _fun76957_ip = 0; ; ) switch(_fun76957_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     mike = _closure3_slot0;
                     entity = argFoo;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = mike[entity];
                     entity = null;
                     entity = entity == mike;
-                    if(entity) { _fun76957_ip = 52; continue _fun76957 }
+                    if(entity) { _fun00002_ip = 52; continue _fun00001 }
  29:
                     zulu = mike.response;
                     mike = _closure1_slot4;
@@ -148,14 +148,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = new Array(0);
             var _closure3_slot2 = entity;
             zulu = function(argFoo) { // Original name: addUserToAllInterested
-                _fun76959: for(var _fun76959_ip = 0; ; ) switch(_fun76959_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     report = _closure3_slot1;
                     tango = report.has;
                     zulu = entity.user_id;
                     zulu = tango.bind(report)(zulu);
-                    if(zulu) { _fun76959_ip = 63; continue _fun76959 }
+                    if(zulu) { _fun00004_ip = 63; continue _fun00003 }
  29:
                     tango = _closure3_slot2;
                     zulu = tango.push;

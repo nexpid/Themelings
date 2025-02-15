@@ -40,39 +40,39 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/custom_status/utils/shouldRenderActivityEmoji.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: shouldRenderActivityEmoji
-        _fun86370: for(var _fun86370_ip = 0; ; ) switch(_fun86370_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.activity;
             oscar = mike.user;
             report = mike.channel;
             mike = null;
-            if(!(mike != oscar)) { _fun86370_ip = 251; continue _fun86370 }
+            if(!(mike != oscar)) { _fun00002_ip = 251; continue _fun00001 }
  28:
             zulu = mike == entity;
             tango = undefined;
             options = undefined;
-            if(zulu) { _fun86370_ip = 44; continue _fun86370 }
+            if(zulu) { _fun00002_ip = 44; continue _fun00001 }
  39:
             options = entity.type;
  44:
             zulu = _closure1_slot5;
             zulu = zulu.CUSTOM_STATUS;
-            if(!(options === zulu)) { _fun86370_ip = 251; continue _fun86370 }
+            if(!(options === zulu)) { _fun00002_ip = 251; continue _fun00001 }
  64:
             zulu = entity.emoji;
-            if(!(mike != zulu)) { _fun86370_ip = 251; continue _fun86370 }
+            if(!(mike != zulu)) { _fun00002_ip = 251; continue _fun00001 }
  77:
             entity = entity.emoji;
             zulu = entity.id;
-            if(!(mike != zulu)) { _fun86370_ip = 247; continue _fun86370 }
+            if(!(mike != zulu)) { _fun00002_ip = 247; continue _fun00001 }
  95:
-            if(!(mike != report)) { _fun86370_ip = 247; continue _fun86370 }
+            if(!(mike != report)) { _fun00002_ip = 247; continue _fun00001 }
  102:
             zulu = _closure1_slot4;
             mike = report.type;
             mike = zulu.bind(tango)(mike);
-            if(!mike) { _fun86370_ip = 247; continue _fun86370 }
+            if(!mike) { _fun00002_ip = 247; continue _fun00001 }
  122:
             zulu = _closure1_slot3;
             mike = zulu.getUsableCustomEmojiById;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['context'] = report;
             mike = zulu.bind(tango)(mike);
             entity = !entity;
-            if(entity) { _fun86370_ip = 245; continue _fun86370 }
+            if(entity) { _fun00002_ip = 245; continue _fun00001 }
  242:
             entity = mike;
  245:

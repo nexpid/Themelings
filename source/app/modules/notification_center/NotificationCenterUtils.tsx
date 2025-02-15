@@ -23,11 +23,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/notification_center/NotificationCenterUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) {
-        _fun56987: for(var _fun56987_ip = 0; ; ) switch(_fun56987_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = arguments[1];
             zulu = undefined;
-            if(!(tango === zulu)) { _fun56987_ip = 11; continue _fun56987 }
+            if(!(tango === zulu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             tango = true;
  11:
@@ -43,10 +43,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = _closure1_slot2;
             report = report[golf];
             report = oscar.bind(zulu)(report);
-            if(tango) { _fun56987_ip = 71; continue _fun56987 }
+            if(tango) { _fun00002_ip = 71; continue _fun00001 }
  63:
             tango = report.getFullFormatter;
-            _fun56987_ip = 77; continue _fun56987;
+            _fun00002_ip = 77; continue _fun00001;
  71:
             tango = report.getAbbreviatedFormatter;
  77:
@@ -57,12 +57,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getRelativeTimestamp'] = tango;
     tango = function(argFoo, argBar) {
-        _fun56988: for(var _fun56988_ip = 0; ; ) switch(_fun56988_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             oscar = argBar;
             entity = zulu.acked;
-            if(entity) { _fun56988_ip = 99; continue _fun56988 }
+            if(entity) { _fun00004_ip = 99; continue _fun00003 }
  15:
             report = _closure1_slot0;
             golf = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = report.bind(golf)(mike);
             mike = mike.NOTIFICATION_CENTER_ACKED_BEFORE_ID_UNSET;
             mike = oscar !== mike;
-            if(!mike) { _fun56988_ip = 96; continue _fun56988 }
+            if(!mike) { _fun00004_ip = 96; continue _fun00003 }
  53:
             report = _closure1_slot1;
             options = _closure1_slot2;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['mobileNativeUpdateAvailableLocalItem'] = tango;
     mike = function(argFoo) {
-        _fun56992: for(var _fun56992_ip = 0; ; ) switch(_fun56992_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             tango = zulu.type;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.NotificationCenterItems;
             entity = entity.RECENT_MENTION;
             entity = tango === entity;
-            if(entity) { _fun56992_ip = 90; continue _fun56992 }
+            if(entity) { _fun00006_ip = 90; continue _fun00005 }
  52:
             zulu = zulu.type;
             tango = _closure1_slot0;

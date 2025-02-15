@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/expression_picker/native/useExpressionPickerTabData.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useExpressionPickerTabData
-        _fun84617: for(var _fun84617_ip = 0; ; ) switch(_fun84617_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.expressionType;
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = 0;
             tango = tango >= zulu;
             report = 0;
-            if(!tango) { _fun84617_ip = 63; continue _fun84617 }
+            if(!tango) { _fun00002_ip = 63; continue _fun00001 }
  49:
             oscar = _closure1_slot3;
             tango = oscar.indexOf;
@@ -166,10 +166,10 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = {};
             entity['expressionPickerSelectedIndex'] = report;
             oscar = tango.length;
-            if(!(!(report < oscar))) { _fun84617_ip = 127; continue _fun84617 }
+            if(!(!(report < oscar))) { _fun00002_ip = 127; continue _fun00001 }
  121:
             zulu = tango[zulu];
-            _fun84617_ip = 131; continue _fun84617;
+            _fun00002_ip = 131; continue _fun00001;
  127:
             zulu = tango[report];
  131:

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     entity = function(argFoo, argBar) { // Original name: getIOSBlurEffect
-        _fun47665: for(var _fun47665_ip = 0; ; ) switch(_fun47665_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -18,23 +18,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = undefined;
             entity = zulu.bind(entity)(mike);
             entity = entity.MODERN_IOS_BLURS_EFFECTS_AVAILABLE;
-            if(!entity) { _fun47665_ip = 48; continue _fun47665 }
+            if(!entity) { _fun00002_ip = 48; continue _fun00001 }
  37:
             mike = 'default';
             entity = argBar;
-            if(!(mike === entity)) { _fun47665_ip = 70; continue _fun47665 }
+            if(!(mike === entity)) { _fun00002_ip = 70; continue _fun00001 }
  48:
             entity = 'UIBlurEffectStyleDark';
             mike = 'light';
-            if(!(mike === tango)) { _fun47665_ip = 68; continue _fun47665 }
+            if(!(mike === tango)) { _fun00002_ip = 68; continue _fun00001 }
  62:
             entity = 'UIBlurEffectStyleLight';
  68:
-            _fun47665_ip = 93; continue _fun47665;
+            _fun00002_ip = 93; continue _fun00001;
  70:
             mike = 'UIBlurEffectStyleSystemUltraThinMaterialDark';
             zulu = 'light';
-            if(!(zulu === tango)) { _fun47665_ip = 90; continue _fun47665 }
+            if(!(zulu === tango)) { _fun00002_ip = 90; continue _fun00001 }
  84:
             mike = 'UIBlurEffectStyleSystemUltraThinMaterialLight';
  90:
@@ -45,16 +45,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo, argBar) { // Original name: getAndroidBlurAmount
-        _fun47666: for(var _fun47666_ip = 0; ; ) switch(_fun47666_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argBar;
             mike = null;
-            if(!(mike == entity)) { _fun47666_ip = 36; continue _fun47666 }
+            if(!(mike == entity)) { _fun00004_ip = 36; continue _fun00003 }
  9:
             mike = 1;
             tango = 'light';
             zulu = argFoo;
-            if(!(tango === zulu)) { _fun47666_ip = 33; continue _fun47666 }
+            if(!(tango === zulu)) { _fun00004_ip = 33; continue _fun00003 }
  23:
             mike = 0.85;
  33:
@@ -65,19 +65,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     mike = function(argFoo) { // Original name: isBlurDisabled
-        _fun47667: for(var _fun47667_ip = 0; ; ) switch(_fun47667_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             tango = entity.android_softwareBlurDisabled;
             report = entity.android_blurTargetViewNativeId;
             entity = _closure1_slot6;
-            if(!entity) { _fun47667_ip = 77; continue _fun47667 }
+            if(!entity) { _fun00006_ip = 77; continue _fun00005 }
  25:
             mike = null;
             mike = mike == report;
-            if(mike) { _fun47667_ip = 74; continue _fun47667 }
+            if(mike) { _fun00006_ip = 74; continue _fun00005 }
  34:
-            if(!tango) { _fun47667_ip = 68; continue _fun47667 }
+            if(!tango) { _fun00006_ip = 68; continue _fun00005 }
  37:
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -133,19 +133,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = report;
     report = options.forwardRef;
     tango = function(argFoo, argBar) { // Original name: VisualEffectView
-        _fun47668: for(var _fun47668_ip = 0; ; ) switch(_fun47668_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             oscar = argFoo;
             options = argBar;
             result = oscar.blurTheme;
             source = oscar.blurStyle;
             report = undefined;
-            if(!(source === report)) { _fun47668_ip = 28; continue _fun47668 }
+            if(!(source === report)) { _fun00008_ip = 28; continue _fun00007 }
  24:
             source = 'default';
  28:
             output = oscar.blurAmount;
-            if(!(output === report)) { _fun47668_ip = 41; continue _fun47668 }
+            if(!(output === report)) { _fun00008_ip = 41; continue _fun00007 }
  38:
             output = 1;
  41:
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar.android_fallbackColor;
             offset = oscar.android_blurTargetViewNativeId;
             tango = oscar.android_softwareBlurDisabled;
-            if(!(tango === report)) { _fun47668_ip = 71; continue _fun47668 }
+            if(!(tango === report)) { _fun00008_ip = 71; continue _fun00007 }
  69:
             tango = false;
  71:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(verify)(zulu, sequence);
             verify = {};
             zulu = 'default';
-            if(!(zulu === vacuum)) { _fun47668_ip = 301; continue _fun47668 }
+            if(!(zulu === vacuum)) { _fun00008_ip = 301; continue _fun00007 }
  298:
             golf = update;
  301:
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = entity;
             verify = foxtrot != sizing;
             entity = undefined;
-            if(!verify) { _fun47668_ip = 335; continue _fun47668 }
+            if(!verify) { _fun00008_ip = 335; continue _fun00007 }
  326:
             verify = {};
             verify['backgroundColor'] = sizing;
@@ -240,14 +240,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.colors;
             verify = verify.LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN;
             verify = kilo.bind(sizing)(verify, result);
-            if(!(zulu !== source)) { _fun47668_ip = 454; continue _fun47668 }
+            if(!(zulu !== source)) { _fun00008_ip = 454; continue _fun00007 }
  437:
             zulu = 'ultra-thin';
             sizing = verify;
-            if(!(zulu !== source)) { _fun47668_ip = 457; continue _fun47668 }
+            if(!(zulu !== source)) { _fun00008_ip = 457; continue _fun00007 }
  450:
             sizing = undefined;
-            _fun47668_ip = 457; continue _fun47668;
+            _fun00008_ip = 457; continue _fun00007;
  454:
             sizing = entity;
  457:
@@ -256,33 +256,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['android_softwareBlurDisabled'] = tango;
             entity['android_blurTargetViewNativeId'] = offset;
             entity = zulu.bind(report)(entity);
-            if(entity) { _fun47668_ip = 698; continue _fun47668 }
+            if(entity) { _fun00008_ip = 698; continue _fun00007 }
  484:
             entity = _closure1_slot6;
             verify = _closure1_slot5;
             tango = _closure1_slot1;
             kilo = _closure1_slot2;
-            if(entity) { _fun47668_ip = 590; continue _fun47668 }
+            if(entity) { _fun00008_ip = 590; continue _fun00007 }
  503:
             entity = 5;
             entity = kilo[entity];
             zulu = tango.bind(report)(entity);
             entity = {};
             entity['ref'] = options;
-            if(!(foxtrot == echo)) { _fun47668_ip = 535; continue _fun47668 }
+            if(!(foxtrot == echo)) { _fun00008_ip = 535; continue _fun00007 }
  525:
             update = _closure1_slot7;
             echo = update.bind(report)(result, source);
  535:
             entity['blurEffectName'] = echo;
             echo = output;
-            if(!(foxtrot != backup)) { _fun47668_ip = 552; continue _fun47668 }
+            if(!(foxtrot != backup)) { _fun00008_ip = 552; continue _fun00007 }
  549:
             echo = backup;
  552:
             entity['blurAmount'] = echo;
             echo = yankee;
-            if(!(foxtrot != romeo)) { _fun47668_ip = 567; continue _fun47668 }
+            if(!(foxtrot != romeo)) { _fun00008_ip = 567; continue _fun00007 }
  564:
             echo = romeo;
  567:
@@ -291,14 +291,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             papa = oscar;
             echo = copyDataProperties(target, papa);
             entity = verify.bind(report)(zulu, entity);
-            _fun47668_ip = 696; continue _fun47668;
+            _fun00008_ip = 696; continue _fun00007;
  590:
             zulu = 8;
             zulu = kilo[zulu];
             tango = tango.bind(report)(zulu);
             zulu = {};
             zulu['ref'] = options;
-            if(!(foxtrot == backup)) { _fun47668_ip = 622; continue _fun47668 }
+            if(!(foxtrot == backup)) { _fun00008_ip = 622; continue _fun00007 }
  612:
             kilo = _closure1_slot8;
             backup = kilo.bind(report)(result, output);
@@ -312,7 +312,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = kilo.hexToRgbaString;
             backup = backup.bind(kilo)(sizing);
             zulu['blurTintIOSParityCompensationRgba'] = backup;
-            if(!(foxtrot != romeo)) { _fun47668_ip = 670; continue _fun47668 }
+            if(!(foxtrot != romeo)) { _fun00008_ip = 670; continue _fun00007 }
  667:
             yankee = romeo;
  670:
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = copyDataProperties(target, papa);
             entity = verify.bind(report)(tango, zulu);
  696:
-            _fun47668_ip = 737; continue _fun47668;
+            _fun00008_ip = 737; continue _fun00007;
  698:
             tango = _closure1_slot5;
             zulu = _closure1_slot3;

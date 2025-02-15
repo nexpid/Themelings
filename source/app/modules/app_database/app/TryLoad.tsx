@@ -11,11 +11,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun38146: for(var _fun38146_ip = 0; ; ) switch(_fun38146_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun38146_ip = 67; continue _fun38146 }
+                    if(zulu) { _fun00002_ip = 67; continue _fun00001 }
  7:
                     mike = argFoo;
  10: // try_start_0
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  23:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun38146_ip = 32; continue _fun38146 }
+                    if(zulu) { _fun00002_ip = 32; continue _fun00001 }
  29: // try_end0
                     return mike;
  32:
@@ -62,11 +62,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot2;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun38149: for(var _fun38149_ip = 0; ; ) switch(_fun38149_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun38149_ip = 234; continue _fun38149 }
+                    if(zulu) { _fun00004_ip = 234; continue _fun00003 }
  10:
                     options = argFoo;
                     mike = argBar;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun38149_ip = 41; continue _fun38149 }
+                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
  38: // try_end0
                     return mike;
  41:
@@ -118,9 +118,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar['action'] = mike;
                     romeo = yankee;
                     mike = null;
-                    if(!(mike == romeo)) { _fun38149_ip = 189; continue _fun38149 }
+                    if(!(mike == romeo)) { _fun00004_ip = 189; continue _fun00003 }
  187:
-                    _fun38149_ip = 192; continue _fun38149;
+                    _fun00004_ip = 192; continue _fun00003;
  189:
                     options = yankee;
  192:
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/app_database/app/TryLoad.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: tryLoad
-        _fun38150: for(var _fun38150_ip = 0; ; ) switch(_fun38150_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['tryLoadAsync'] = tango;
     tango = function(argFoo, argBar, argBaz) { // Original name: tryLoadOrResetCacheGateway
-        _fun38152: for(var _fun38152_ip = 0; ; ) switch(_fun38152_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             golf = argFoo;
             entity = argBar;
@@ -256,9 +256,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report['action'] = entity;
             yankee = offset;
             entity = null;
-            if(!(entity == yankee)) { _fun38152_ip = 165; continue _fun38152 }
+            if(!(entity == yankee)) { _fun00008_ip = 165; continue _fun00007 }
  163:
-            _fun38152_ip = 168; continue _fun38152;
+            _fun00008_ip = 168; continue _fun00007;
  165:
             golf = offset;
  168:

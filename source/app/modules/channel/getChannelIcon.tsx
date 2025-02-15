@@ -36,23 +36,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel/getChannelIcon.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: getChannelIconURL
-        _fun62474: for(var _fun62474_ip = 0; ; ) switch(_fun62474_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = arguments[1];
             report = undefined;
-            if(!(oscar === report)) { _fun62474_ip = 15; continue _fun62474 }
+            if(!(oscar === report)) { _fun00002_ip = 15; continue _fun00001 }
  12:
             oscar = 32;
  15:
             tango = mike.type;
             zulu = _closure1_slot5;
             zulu = zulu.DM;
-            if(!(zulu !== tango)) { _fun62474_ip = 124; continue _fun62474 }
+            if(!(zulu !== tango)) { _fun00002_ip = 124; continue _fun00001 }
  37:
             zulu = _closure1_slot5;
             zulu = zulu.GROUP_DM;
-            if(!(zulu !== tango)) { _fun62474_ip = 53; continue _fun62474 }
+            if(!(zulu !== tango)) { _fun00002_ip = 53; continue _fun00001 }
  51:
             return report;
  53:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = mike[entity];
             entity = null;
             mike = entity == tango;
-            if(mike) { _fun62474_ip = 230; continue _fun62474 }
+            if(mike) { _fun00002_ip = 230; continue _fun00001 }
  214:
             zulu = tango.getAvatarURL;
             mike = arguments[2];
@@ -105,17 +105,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getChannelIconURL'] = tango;
     mike = function(argFoo) { // Original name: getChannelIconSource
-        _fun62475: for(var _fun62475_ip = 0; ; ) switch(_fun62475_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             tango = mike.type;
             zulu = _closure1_slot5;
             zulu = zulu.DM;
-            if(!(zulu !== tango)) { _fun62475_ip = 119; continue _fun62475 }
+            if(!(zulu !== tango)) { _fun00004_ip = 119; continue _fun00003 }
  25:
             zulu = _closure1_slot5;
             zulu = zulu.GROUP_DM;
-            if(!(zulu !== tango)) { _fun62475_ip = 43; continue _fun62475 }
+            if(!(zulu !== tango)) { _fun00004_ip = 43; continue _fun00003 }
  39:
             zulu = undefined;
             return zulu;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike[entity];
             entity = null;
             mike = entity != zulu;
-            if(!mike) { _fun62475_ip = 222; continue _fun62475 }
+            if(!mike) { _fun00004_ip = 222; continue _fun00003 }
  211:
             mike = zulu.getAvatarSource;
             entity = mike.bind(zulu)(tango);

@@ -2,7 +2,7 @@
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     tango = function(argFoo, argBar, argBaz) { // Original name: insertionIndex
-        _fun58464: for(var _fun58464_ip = 0; ; ) switch(_fun58464_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             verify = argFoo;
             options = argBar;
@@ -14,21 +14,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = undefined;
             mike = 0;
             entity = 0;
-            if(!offset) { _fun58464_ip = 74; continue _fun58464 }
+            if(!offset) { _fun00002_ip = 74; continue _fun00001 }
  32:
             offset = mike + oscar;
             yankee = offset >>> tango;
             offset = verify[yankee];
             romeo = golf.bind(zulu)(offset, options);
             offset = yankee;
-            if(!(romeo < report)) { _fun58464_ip = 64; continue _fun58464 }
+            if(!(romeo < report)) { _fun00002_ip = 64; continue _fun00001 }
  57:
             mike = yankee + tango;
             offset = oscar;
  64:
             oscar = offset;
             entity = mike;
-            if(entity < oscar) { _fun58464_ip = 32; continue _fun58464 }
+            if(entity < oscar) { _fun00002_ip = 32; continue _fun00001 }
  74:
             return entity;
         }

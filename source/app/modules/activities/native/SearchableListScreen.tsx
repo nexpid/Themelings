@@ -136,11 +136,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = {};
         report['onChange'] = romeo;
         offset = function() { // Original name: onClose
-            _fun92137: for(var _fun92137_ip = 0; ; ) switch(_fun92137_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun92137_ip = 23; continue _fun92137 }
+                if(!(mike != zulu)) { _fun00002_ip = 23; continue _fun00001 }
  13:
                 zulu = _closure2_slot0;
                 mike = undefined;

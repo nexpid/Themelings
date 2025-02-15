@@ -32,16 +32,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = 'modules/suppress_notifications/parseContentForSuppressNotifications.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: parseContentForSuppressNotifications
-        _fun63513: for(var _fun63513_ip = 0; ; ) switch(_fun63513_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = null;
-            if(!(mike != zulu)) { _fun63513_ip = 90; continue _fun63513 }
+            if(!(mike != zulu)) { _fun00002_ip = 90; continue _fun00001 }
  9:
             tango = zulu.match;
             entity = _closure1_slot0;
             entity = tango.bind(zulu)(entity);
-            if(!(mike != entity)) { _fun63513_ip = 71; continue _fun63513 }
+            if(!(mike != entity)) { _fun00002_ip = 71; continue _fun00001 }
  31:
             entity = new Array(2);
             mike = true;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.trim;
             mike = mike.bind(tango)();
             entity[1] = mike;
-            _fun63513_ip = 88; continue _fun63513;
+            _fun00002_ip = 88; continue _fun00001;
  71:
             mike = new Array(2);
             tango = false;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike[1] = zulu;
             entity = mike;
  88:
-            _fun63513_ip = 111; continue _fun63513;
+            _fun00002_ip = 111; continue _fun00001;
  90:
             mike = new Array(2);
             zulu = false;

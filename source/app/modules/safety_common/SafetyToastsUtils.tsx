@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/safety_common/SafetyToastsUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getSafetyToastTypeContent
-        _fun72825: for(var _fun72825_ip = 0; ; ) switch(_fun72825_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot4;
@@ -57,18 +57,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             tango = mike == offset;
             report = undefined;
-            if(tango) { _fun72825_ip = 85; continue _fun72825 }
+            if(tango) { _fun00002_ip = 85; continue _fun00001 }
  80:
             report = offset.guild_id;
  85:
             yankee = mike == offset;
             tango = undefined;
-            if(yankee) { _fun72825_ip = 99; continue _fun72825 }
+            if(yankee) { _fun00002_ip = 99; continue _fun00001 }
  94:
             tango = offset.id;
  99:
             report = options.bind(verify)(report, tango, golf);
-            if(!(mike == report)) { _fun72825_ip = 141; continue _fun72825 }
+            if(!(mike == report)) { _fun00002_ip = 141; continue _fun00001 }
  110:
             tango = _closure1_slot1;
             options = _closure1_slot2;
@@ -80,35 +80,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  141:
             mike = _closure1_slot5;
             mike = mike.IGNORE_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 772; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 772; continue _fun00001 }
  158:
             mike = _closure1_slot5;
             mike = mike.UNIGNORE_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 708; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 708; continue _fun00001 }
  175:
             mike = _closure1_slot5;
             mike = mike.BLOCK_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 644; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 644; continue _fun00001 }
  192:
             mike = _closure1_slot5;
             mike = mike.UNBLOCK_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 580; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 580; continue _fun00001 }
  209:
             mike = _closure1_slot5;
             mike = mike.MUTE_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 516; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 516; continue _fun00001 }
  226:
             mike = _closure1_slot5;
             mike = mike.UNMUTE_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 452; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 452; continue _fun00001 }
  243:
             mike = _closure1_slot5;
             mike = mike.REPORT_SUCCESS;
-            if(!(mike !== zulu)) { _fun72825_ip = 388; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 388; continue _fun00001 }
  260:
             mike = _closure1_slot5;
             mike = mike.GENERIC_ERROR;
-            if(!(mike !== zulu)) { _fun72825_ip = 331; continue _fun72825 }
+            if(!(mike !== zulu)) { _fun00002_ip = 331; continue _fun00001 }
  274:
             golf = _closure1_slot0;
             options = _closure1_slot2;

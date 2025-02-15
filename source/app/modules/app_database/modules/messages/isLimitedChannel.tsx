@@ -5,7 +5,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     options = argPlugh;
     tango = function(argFoo) { // Original name: isLimitedChannel
-        _fun59063: for(var _fun59063_ip = 0; ; ) switch(_fun59063_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = _closure1_slot1;
@@ -13,33 +13,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             golf = entity == tango;
             zulu = undefined;
-            if(golf) { _fun59063_ip = 32; continue _fun59063 }
+            if(golf) { _fun00002_ip = 32; continue _fun00001 }
  27:
             zulu = tango.guild_id;
  32:
             report = report.bind(oscar)(zulu);
             oscar = entity != report;
             zulu = 0;
-            if(!oscar) { _fun59063_ip = 49; continue _fun59063 }
+            if(!oscar) { _fun00002_ip = 49; continue _fun00001 }
  46:
             zulu = report;
  49:
             entity = entity != tango;
-            if(!entity) { _fun59063_ip = 75; continue _fun59063 }
+            if(!entity) { _fun00002_ip = 75; continue _fun00001 }
  56:
             oscar = tango.type;
             report = _closure1_slot2;
             report = report.DM;
             entity = oscar !== report;
  75:
-            if(!entity) { _fun59063_ip = 97; continue _fun59063 }
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
  78:
             report = tango.type;
             tango = _closure1_slot2;
             tango = tango.GROUP_DM;
             entity = report !== tango;
  97:
-            if(!entity) { _fun59063_ip = 108; continue _fun59063 }
+            if(!entity) { _fun00002_ip = 108; continue _fun00001 }
  100:
             mike = _closure1_slot3;
             entity = zulu >= mike;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['LIMITED_GUILD_MEMBER_THRESHOLD'] = report;
     zulu['isLimitedChannel'] = tango;
     mike = function(argFoo) { // Original name: isLimitedChannelId
-        _fun59064: for(var _fun59064_ip = 0; ; ) switch(_fun59064_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             zulu = _closure1_slot4;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             oscar = entity != report;
             entity = '_';
-            if(!oscar) { _fun59064_ip = 36; continue _fun59064 }
+            if(!oscar) { _fun00004_ip = 36; continue _fun00003 }
  33:
             entity = report;
  36:

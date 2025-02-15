@@ -34,14 +34,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     mike = function() { // Original name: useMessageRendererTheme
-        _fun69030: for(var _fun69030_ip = 0; ; ) switch(_fun69030_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             zulu = tango.useContext;
             entity = _closure1_slot2;
             entity = zulu.bind(tango)(entity);
             zulu = null;
-            if(!(zulu == entity)) { _fun69030_ip = 38; continue _fun69030 }
+            if(!(zulu == entity)) { _fun00002_ip = 38; continue _fun00001 }
  28:
             mike = _closure1_slot1;
             entity = mike.theme;

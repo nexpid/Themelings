@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['GuildSettingsRoleEditSections'] = report;
     zulu['ERROR_KEY_TO_LABEL_FUNC'] = tango;
     mike = function(argFoo) { // Original name: getSettingsErrorMessage
-        _fun126028: for(var _fun126028_ip = 0; ; ) switch(_fun126028_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = global;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.bind(zulu)(tango);
             entity = entity.length;
             zulu = 0;
-            if(!(zulu !== entity)) { _fun126028_ip = 132; continue _fun126028 }
+            if(!(zulu !== entity)) { _fun00002_ip = 132; continue _fun00001 }
  32:
             report = mike.Object;
             entity = report.keys;
@@ -135,16 +135,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = null;
             golf = entity == options;
             oscar = undefined;
-            if(golf) { _fun126028_ip = 88; continue _fun126028 }
+            if(golf) { _fun00002_ip = 88; continue _fun00001 }
  74:
             golf = options.call;
             report = _closure1_slot2;
             oscar = golf.bind(options)(report);
  88:
-            if(!(entity == oscar)) { _fun126028_ip = 98; continue _fun126028 }
+            if(!(entity == oscar)) { _fun00002_ip = 98; continue _fun00001 }
  92:
             entity = tango[zulu];
-            _fun126028_ip = 130; continue _fun126028;
+            _fun00002_ip = 130; continue _fun00001;
  98:
             report = tango[zulu];
             mike = mike.HermesInternal;

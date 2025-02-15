@@ -13,18 +13,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun117099: for(var _fun117099_ip = 0; ; ) switch(_fun117099_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun117099_ip = 202; continue _fun117099 }
+                    if(mike) { _fun00002_ip = 202; continue _fun00001 }
  10:
                     mike = _closure1_slot4;
                     oscar = mike.locale;
                     tango = _closure1_slot5;
                     mike = tango.getFetchedLocale;
                     mike = mike.bind(tango)();
-                    if(!(oscar !== mike)) { _fun117099_ip = 194; continue _fun117099 }
+                    if(!(oscar !== mike)) { _fun00002_ip = 194; continue _fun00001 }
  45:
                     tango = _closure1_slot0;
                     report = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  132:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun117099_ip = 199; continue _fun117099 }
+                    if(tango) { _fun00002_ip = 199; continue _fun00001 }
  138:
                     tango = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -94,11 +94,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun117102: for(var _fun117102_ip = 0; ; ) switch(_fun117102_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun117102_ip = 326; continue _fun117102 }
+                    if(mike) { _fun00004_ip = 326; continue _fun00003 }
  10:
                     golf = argFoo;
  13: // try_start_0
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  91:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun117102_ip = 271; continue _fun117102 }
+                    if(zulu) { _fun00004_ip = 271; continue _fun00003 }
  100:
                     report = mike.body;
                     zulu = {};
@@ -198,11 +198,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun117105: for(var _fun117105_ip = 0; ; ) switch(_fun117105_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun117105_ip = 214; continue _fun117105 }
+                    if(mike) { _fun00006_ip = 214; continue _fun00005 }
  10:
                     report = argFoo;
  13: // try_start_0
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  87:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun117105_ip = 153; continue _fun117105 }
+                    if(tango) { _fun00006_ip = 153; continue _fun00005 }
  93:
                     tango = mike.body;
                     golf = tango.slug;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu['slug'] = golf;
                     zulu = tango.bind(oscar)(zulu);
  151: // try_end0
-                    _fun117105_ip = 209; continue _fun117105;
+                    _fun00006_ip = 209; continue _fun00005;
  153:
                     return mike;
  156: // catch_target0
@@ -286,12 +286,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun117108: for(var _fun117108_ip = 0; ; ) switch(_fun117108_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun117108_ip = 470; continue _fun117108 }
+                    if(zulu) { _fun00008_ip = 470; continue _fun00007 }
  13:
                     golf = mike.guildId;
                     result = mike.primaryCategoryId;
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return oscar;
  78:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun117108_ip = 467; continue _fun117108 }
+                    if(zulu) { _fun00008_ip = 467; continue _fun00007 }
  87: // try_start_0
                     report = _closure1_slot0;
                     options = _closure1_slot2;
@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  218:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun117108_ip = 401; continue _fun117108 }
+                    if(report) { _fun00008_ip = 401; continue _fun00007 }
  227:
                     report = zulu.body;
                     echo = report.primary_category_id;

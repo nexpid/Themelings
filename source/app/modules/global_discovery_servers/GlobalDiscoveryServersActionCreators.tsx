@@ -15,13 +15,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot4;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun118067: for(var _fun118067_ip = 0; ; ) switch(_fun118067_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     vacuum = argFoo;
                     zulu = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun118067_ip = 768; continue _fun118067 }
+                    if(mike) { _fun00002_ip = 768; continue _fun00001 }
  18:
                     verify = vacuum;
                     mike = undefined;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     sequence = _closure1_slot5;
                     output = null;
                     vacuum = null;
-                    if(!(config !== sequence)) { _fun118067_ip = 215; continue _fun118067 }
+                    if(!(config !== sequence)) { _fun00002_ip = 215; continue _fun00001 }
  212:
                     vacuum = options;
  215:
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return offset;
  274:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=17);
-                    if(result) { _fun118067_ip = 542; continue _fun118067 }
+                    if(result) { _fun00002_ip = 542; continue _fun00001 }
  283:
                     foxtrot = offset;
                     result = offset.body;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     result = offset.body;
                     backup = result.total_count;
                     result = tango;
-                    if(!result) { _fun118067_ip = 465; continue _fun118067 }
+                    if(!result) { _fun00002_ip = 465; continue _fun00001 }
  350:
                     result = new Array(0);
                     sizing = result;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     foxtrot = foxtrot.body;
                     foxtrot = foxtrot.categories;
                     romeo = foxtrot;
-                    if(!(output != foxtrot)) { _fun118067_ip = 416; continue _fun118067 }
+                    if(!(output != foxtrot)) { _fun00002_ip = 416; continue _fun00001 }
  379:
                     result = romeo;
                     output = result.slice;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     yankee['total'] = backup;
                     yankee = romeo.bind(foxtrot)(yankee);
  537: // try_end0
-                    _fun118067_ip = 765; continue _fun118067;
+                    _fun00002_ip = 765; continue _fun00001;
  542:
                     return offset;
  545: // catch_target0
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     offset['willRequestRetry'] = foxtrot;
                     offset['isRequestRetry'] = foxtrot;
                     offset = yankee.bind(romeo)(offset);
-                    if(!tango) { _fun118067_ip = 708; continue _fun118067 }
+                    if(!tango) { _fun00002_ip = 708; continue _fun00001 }
  655:
                     offset = _closure1_slot1;
                     tango = _closure1_slot3;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['fetchSearchResults'] = options;
     options = function(argFoo) { // Original name: clearSearchResults
-        _fun118070: for(var _fun118070_ip = 0; ; ) switch(_fun118070_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             golf = argFoo;
             zulu = _closure1_slot1;
@@ -310,11 +310,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = null;
             options = oscar == golf;
             report = undefined;
-            if(options) { _fun118070_ip = 60; continue _fun118070 }
+            if(options) { _fun00004_ip = 60; continue _fun00003 }
  54:
             report = golf.ignoreQueries;
  60:
-            if(!(oscar == report)) { _fun118070_ip = 68; continue _fun118070 }
+            if(!(oscar == report)) { _fun00004_ip = 68; continue _fun00003 }
  64:
             report = new Array(0);
  68:

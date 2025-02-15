@@ -184,7 +184,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu = sizing.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: o
-            _fun116307: for(var _fun116307_ip = 0; ; ) switch(_fun116307_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = {};
                 tango = {};
@@ -201,7 +201,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 zulu = _closure1_slot4;
                 zulu = zulu.COLLAPSED;
                 oscar = 0;
-                if(!(romeo === zulu)) { _fun116307_ip = 80; continue _fun116307 }
+                if(!(romeo === zulu)) { _fun00002_ip = 80; continue _fun00001 }
  66:
                 romeo = _closure1_slot6;
                 zulu = -1;
@@ -224,7 +224,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 verify = _closure1_slot4;
                 verify = verify.COLLAPSED;
                 options = 0;
-                if(!(offset === verify)) { _fun116307_ip = 170; continue _fun116307 }
+                if(!(offset === verify)) { _fun00002_ip = 170; continue _fun00001 }
  156:
                 offset = _closure1_slot6;
                 verify = -1;

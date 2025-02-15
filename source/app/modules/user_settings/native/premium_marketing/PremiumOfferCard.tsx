@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/PremiumOfferCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun105092: for(var _fun105092_ip = 0; ; ) switch(_fun105092_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.style;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(zulu)();
             mike = mike < entity;
             entity = null;
-            if(mike) { _fun105092_ip = 996; continue _fun105092 }
+            if(mike) { _fun00002_ip = 996; continue _fun00001 }
  241:
             tango = _closure1_slot8;
             zulu = _closure1_slot4;
@@ -198,9 +198,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(report)(options);
             options = verify.isAndroid;
             options = options.bind(verify)();
-            if(!options) { _fun105092_ip = 374; continue _fun105092 }
+            if(!options) { _fun00002_ip = 374; continue _fun00001 }
  311:
-            if(sizing) { _fun105092_ip = 374; continue _fun105092 }
+            if(sizing) { _fun00002_ip = 374; continue _fun00001 }
  314:
             offset = _closure1_slot8;
             kilo = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = output.image;
             options['style'] = yankee;
             verify = offset.bind(report)(verify, options);
-            _fun105092_ip = 455; continue _fun105092;
+            _fun00002_ip = 455; continue _fun00001;
  374:
             yankee = _closure1_slot8;
             result = _closure1_slot1;
@@ -227,11 +227,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             kilo = {};
             source = _closure1_slot2;
-            if(sizing) { _fun105092_ip = 418; continue _fun105092 }
+            if(sizing) { _fun00002_ip = 418; continue _fun00001 }
  409:
             sizing = 14;
             sizing = source[sizing];
-            _fun105092_ip = 425; continue _fun105092;
+            _fun00002_ip = 425; continue _fun00001;
  418:
             echo = 16;
             sizing = source[echo];
@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = control[echo];
             kilo = source.bind(report)(kilo);
             kilo = kilo.t;
-            if(foxtrot) { _fun105092_ip = 763; continue _fun105092 }
+            if(foxtrot) { _fun00002_ip = 763; continue _fun00001 }
  724:
             sizing = kilo.DVBfMD;
             foxtrot = {};
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = update.Q1_2025_MARKETING_SUPPORT_URL;
             foxtrot['termsLink'] = update;
             foxtrot = output.bind(result)(sizing, foxtrot);
-            _fun105092_ip = 800; continue _fun105092;
+            _fun00002_ip = 800; continue _fun00001;
  763:
             sizing = kilo.KCvBj4;
             kilo = {};

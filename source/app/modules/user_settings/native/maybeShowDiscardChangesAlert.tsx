@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_settings/native/maybeShowDiscardChangesAlert.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: maybeShowDiscardChangesAlert
-        _fun79896: for(var _fun79896_ip = 0; ; ) switch(_fun79896_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = zulu.hasEdits;
@@ -32,14 +32,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = zulu.onConfirm;
             var _closure2_slot1 = mike;
             zulu = zulu.onHasEdits;
-            if(entity) { _fun79896_ip = 51; continue _fun79896 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  40:
             entity = undefined;
             entity = mike.bind(entity)();
-            _fun79896_ip = 325; continue _fun79896;
+            _fun00002_ip = 325; continue _fun00001;
  51:
             mike = null;
-            if(!(mike != zulu)) { _fun79896_ip = 63; continue _fun79896 }
+            if(!(mike != zulu)) { _fun00002_ip = 63; continue _fun00001 }
  57:
             mike = undefined;
             mike = zulu.bind(mike)();

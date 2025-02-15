@@ -114,10 +114,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify[3] = zulu;
         verify[4] = yankee;
         zulu = function() {
-            _fun67314: for(var _fun67314_ip = 0; ; ) switch(_fun67314_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot5;
-                if(!mike) { _fun67314_ip = 25; continue _fun67314 }
+                if(!mike) { _fun00002_ip = 25; continue _fun00001 }
  10:
                 tango = _closure2_slot1;
                 zulu = _closure2_slot0;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  25:
                 zulu = _closure2_slot4;
                 mike = null;
-                if(!(mike != zulu)) { _fun67314_ip = 45; continue _fun67314 }
+                if(!(mike != zulu)) { _fun00002_ip = 45; continue _fun00001 }
  35:
                 zulu = _closure2_slot4;
                 mike = undefined;
@@ -145,11 +145,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = romeo;
         mike[1] = yankee;
         entity = function() {
-            _fun67315: for(var _fun67315_ip = 0; ; ) switch(_fun67315_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot4;
                 mike = null;
-                if(!(mike != zulu)) { _fun67315_ip = 23; continue _fun67315 }
+                if(!(mike != zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                 zulu = _closure2_slot4;
                 mike = undefined;

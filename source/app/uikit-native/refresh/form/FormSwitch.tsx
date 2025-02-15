@@ -56,19 +56,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormSwitch.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormSwitch
-        _fun63737: for(var _fun63737_ip = 0; ; ) switch(_fun63737_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.value;
             tango = undefined;
             options = tango !== entity;
-            if(!options) { _fun63737_ip = 20; continue _fun63737 }
+            if(!options) { _fun00002_ip = 20; continue _fun00001 }
  17:
             options = entity;
  20:
             entity = mike.disabled;
             verify = tango !== entity;
-            if(!verify) { _fun63737_ip = 35; continue _fun63737 }
+            if(!verify) { _fun00002_ip = 35; continue _fun00001 }
  32:
             verify = entity;
  35:
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = mike.accessibilityHint;
             entity = mike.renderIosBackground;
             backup = tango !== entity;
-            if(!backup) { _fun63737_ip = 85; continue _fun63737 }
+            if(!backup) { _fun00002_ip = 85; continue _fun00001 }
  82:
             backup = entity;
  85:
@@ -94,12 +94,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = zulu.bind(tango)();
             kilo = mike.tintColor;
             mike = null;
-            if(!(mike == kilo)) { _fun63737_ip = 142; continue _fun63737 }
+            if(!(mike == kilo)) { _fun00002_ip = 142; continue _fun00001 }
  132:
             zulu = offset.track;
             kilo = zulu.color;
  142:
-            if(!(mike == foxtrot)) { _fun63737_ip = 213; continue _fun63737 }
+            if(!(mike == foxtrot)) { _fun00002_ip = 213; continue _fun00001 }
  146:
             zulu = _closure1_slot0;
             output = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.isThemeDark;
             mike = mike.bind(zulu)(sizing);
             foxtrot = undefined;
-            if(!mike) { _fun63737_ip = 213; continue _fun63737 }
+            if(!mike) { _fun00002_ip = 213; continue _fun00001 }
  182:
             zulu = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -129,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['trackColor'] = romeo;
             kilo = false;
             romeo = undefined;
-            if(!(kilo === options)) { _fun63737_ip = 261; continue _fun63737 }
+            if(!(kilo === options)) { _fun00002_ip = 261; continue _fun00001 }
  253:
             romeo = undefined;
-            if(!backup) { _fun63737_ip = 261; continue _fun63737 }
+            if(!backup) { _fun00002_ip = 261; continue _fun00001 }
  258:
             romeo = foxtrot;
  261:

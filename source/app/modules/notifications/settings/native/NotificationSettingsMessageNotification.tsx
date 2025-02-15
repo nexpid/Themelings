@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = golf;
     tango = function(argFoo) { // Original name: NotificationSettingsMessageNotification
-        _fun86872: for(var _fun86872_ip = 0; ; ) switch(_fun86872_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             result = argFoo;
             var _closure2_slot0 = result;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
             foxtrot = result.context;
             romeo = 'guild';
-            if(!(romeo !== foxtrot)) { _fun86872_ip = 316; continue _fun86872 }
+            if(!(romeo !== foxtrot)) { _fun00002_ip = 316; continue _fun00001 }
  262:
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.t;
             romeo = romeo.R1j5+/;
             romeo = foxtrot.bind(backup)(romeo);
-            _fun86872_ip = 368; continue _fun86872;
+            _fun00002_ip = 368; continue _fun00001;
  316:
             echo = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -145,13 +145,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = null;
             config = source == sequence;
             control = undefined;
-            if(config) { _fun86872_ip = 577; continue _fun86872 }
+            if(config) { _fun00002_ip = 577; continue _fun00001 }
  572:
             control = sequence.label;
  577:
             sequence = source != control;
             source = 'unset';
-            if(!sequence) { _fun86872_ip = 591; continue _fun86872 }
+            if(!sequence) { _fun00002_ip = 591; continue _fun00001 }
  588:
             source = control;
  591:

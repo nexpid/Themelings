@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         yankee = offset.bind(tango)();
         offset = yankee.map;
         verify = function(argFoo, argBar, argBaz) {
-            _fun72859: for(var _fun72859_ip = 0; ; ) switch(_fun72859_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 golf = entity.setting;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = verify - oscar;
                 verify = argBar;
                 oscar = null;
-                if(!(verify !== offset)) { _fun72859_ip = 175; continue _fun72859 }
+                if(!(verify !== offset)) { _fun00002_ip = 175; continue _fun00001 }
  145:
                 offset = _closure1_slot5;
                 verify = _closure1_slot3;

@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: KeyboardAwareViewInner
-        _fun65300: for(var _fun65300_ip = 0; ; ) switch(_fun65300_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.style;
@@ -15,13 +15,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.pointerEvents;
             romeo = entity.animated;
             tango = undefined;
-            if(!(romeo === tango)) { _fun65300_ip = 39; continue _fun65300 }
+            if(!(romeo === tango)) { _fun00002_ip = 39; continue _fun00001 }
  37:
             romeo = true;
  39:
             var _closure2_slot1 = romeo;
             zulu = entity.keyboardHeightOffset;
-            if(!(zulu === tango)) { _fun65300_ip = 55; continue _fun65300 }
+            if(!(zulu === tango)) { _fun00002_ip = 55; continue _fun00001 }
  53:
             zulu = 0;
  55:
@@ -41,23 +41,23 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = new Array(1);
             golf[0] = zulu;
             zulu = function() {
-                _fun65301: for(var _fun65301_ip = 0; ; ) switch(_fun65301_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot5;
                     zulu = entity.keyboardOpen;
                     entity = _closure1_slot5;
-                    if(zulu) { _fun65301_ip = 54; continue _fun65301 }
+                    if(zulu) { _fun00004_ip = 54; continue _fun00003 }
  20:
                     report = entity.keyboardType;
                     zulu = _closure1_slot6;
                     zulu = zulu.SYSTEM;
                     tango = 0;
-                    if(!(report !== zulu)) { _fun65301_ip = 52; continue _fun65301 }
+                    if(!(report !== zulu)) { _fun00004_ip = 52; continue _fun00003 }
  42:
                     zulu = _closure1_slot5;
                     tango = zulu.customKeyboardHeight;
  52:
-                    _fun65301_ip = 60; continue _fun65301;
+                    _fun00004_ip = 60; continue _fun00003;
  54:
                     tango = entity.keyboardHeight;
  60:
@@ -92,25 +92,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[1] = offset;
             golf[2] = zulu;
             zulu = function() {
-                _fun65302: for(var _fun65302_ip = 0; ; ) switch(_fun65302_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot5;
                     mike = mike.current;
-                    if(mike) { _fun65302_ip = 29; continue _fun65302 }
+                    if(mike) { _fun00006_ip = 29; continue _fun00005 }
  15:
                     zulu = _closure2_slot5;
                     mike = true;
                     zulu['current'] = mike;
-                    _fun65302_ip = 89; continue _fun65302;
+                    _fun00006_ip = 89; continue _fun00005;
  29:
                     mike = _closure2_slot1;
-                    if(!mike) { _fun65302_ip = 46; continue _fun65302 }
+                    if(!mike) { _fun00006_ip = 46; continue _fun00005 }
  36:
                     tango = _closure2_slot4;
                     zulu = 0;
                     mike = tango > zulu;
  46:
-                    if(!mike) { _fun65302_ip = 89; continue _fun65302 }
+                    if(!mike) { _fun00006_ip = 89; continue _fun00005 }
  49:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot1;
@@ -133,11 +133,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = offset;
             zulu[1] = verify;
             mike = function() {
-                _fun65303: for(var _fun65303_ip = 0; ; ) switch(_fun65303_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot0;
                     entity = null;
-                    if(!(entity != zulu)) { _fun65303_ip = 117; continue _fun65303 }
+                    if(!(entity != zulu)) { _fun00008_ip = 117; continue _fun00007 }
  13:
                     tango = _closure1_slot4;
                     zulu = tango.flatten;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = tango.marginBottom;
                     zulu = 'number';
                     entity = typeof entity;
-                    if(!(zulu !== entity)) { _fun65303_ip = 78; continue _fun65303 }
+                    if(!(zulu !== entity)) { _fun00008_ip = 78; continue _fun00007 }
  51:
                     entity = {};
                     golf = entity;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot3;
                     zulu = 'marginBottom';
                     entity[zulu] = report;
-                    _fun65303_ip = 115; continue _fun65303;
+                    _fun00008_ip = 115; continue _fun00007;
  78:
                     zulu = {};
                     golf = zulu;
@@ -226,12 +226,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: KeyboardAwareView
-        _fun65304: for(var _fun65304_ip = 0; ; ) switch(_fun65304_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tango = argFoo;
             entity = tango.disabled;
             report = undefined;
-            if(!(entity === report)) { _fun65304_ip = 46; continue _fun65304 }
+            if(!(entity === report)) { _fun00010_ip = 46; continue _fun00009 }
  14:
             zulu = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = zulu;
             oscar = copyDataProperties(offset, verify, options);
             tango = _closure1_slot7;
-            if(entity) { _fun65304_ip = 103; continue _fun65304 }
+            if(entity) { _fun00010_ip = 103; continue _fun00009 }
  79:
             zulu = _closure1_slot8;
             entity = {};
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = oscar;
             golf = copyDataProperties(offset, verify);
             entity = tango.bind(report)(zulu, entity);
-            _fun65304_ip = 144; continue _fun65304;
+            _fun00010_ip = 144; continue _fun00009;
  103:
             zulu = _closure1_slot3;
             mike = {};

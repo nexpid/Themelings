@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = golf;
     entity = function(argFoo) { // Original name: ContentTimestamp
-        _fun80399: for(var _fun80399_ip = 0; ; ) switch(_fun80399_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.entry;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             verify = golf.bind(options)(tango, zulu);
             tango = _closure1_slot7;
-            if(entity) { _fun80399_ip = 181; continue _fun80399 }
+            if(entity) { _fun00002_ip = 181; continue _fun00001 }
  104:
             options = _closure1_slot0;
             golf = _closure1_slot2;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(options)(oscar, verify);
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun80399_ip = 198; continue _fun80399;
+            _fun00002_ip = 198; continue _fun00001;
  181:
             zulu = _closure1_slot11;
             mike = {};
@@ -292,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['ActiveTimestamp'] = tango;
     tango = function(argFoo) { // Original name: GameTimestampBadge
-        _fun80408: for(var _fun80408_ip = 0; ; ) switch(_fun80408_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             verify = entity.entry;
@@ -312,10 +312,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = report[entity];
             entity = zulu.bind(tango)(entity);
             entity = entity.colors;
-            if(mike) { _fun80408_ip = 89; continue _fun80408 }
+            if(mike) { _fun00004_ip = 89; continue _fun00003 }
  81:
             offset = entity.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun80408_ip = 95; continue _fun80408;
+            _fun00004_ip = 95; continue _fun00003;
  89:
             offset = entity.STATUS_POSITIVE;
  95:
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['GameTimestampBadge'] = tango;
     tango = function(argFoo) { // Original name: MarathonBadge
-        _fun80409: for(var _fun80409_ip = 0; ; ) switch(_fun80409_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -363,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(report)(entity);
             entity = mike.isEntryMarathon;
             entity = entity.bind(mike)(zulu);
-            if(entity) { _fun80409_ip = 52; continue _fun80409 }
+            if(entity) { _fun00006_ip = 52; continue _fun00005 }
  48:
             entity = null;
             return entity;
@@ -380,10 +380,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = golf[entity];
             entity = oscar.bind(report)(entity);
             entity = entity.colors;
-            if(mike) { _fun80409_ip = 116; continue _fun80409 }
+            if(mike) { _fun00006_ip = 116; continue _fun00005 }
  108:
             golf = entity.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun80409_ip = 122; continue _fun80409;
+            _fun00006_ip = 122; continue _fun00005;
  116:
             golf = entity.STATUS_POSITIVE;
  122:
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.text;
             entity = null;
             mike = entity == oscar;
-            if(mike) { _fun80409_ip = 220; continue _fun80409 }
+            if(mike) { _fun00006_ip = 220; continue _fun00005 }
  164:
             tango = _closure1_slot7;
             zulu = _closure1_slot13;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['MarathonBadge'] = tango;
     tango = function(argFoo) { // Original name: NewGameBadge
-        _fun80410: for(var _fun80410_ip = 0; ; ) switch(_fun80410_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.isEntryNew;
             mike = entity.bind(mike)(zulu);
             entity = null;
-            if(!mike) { _fun80410_ip = 183; continue _fun80410 }
+            if(!mike) { _fun00008_ip = 183; continue _fun00007 }
  53:
             tango = _closure1_slot7;
             zulu = _closure1_slot13;
@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['NewGameBadge'] = tango;
     tango = function(argFoo) { // Original name: StreakBadge
-        _fun80411: for(var _fun80411_ip = 0; ; ) switch(_fun80411_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -482,12 +482,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             mike = zulu == romeo;
             entity = null;
-            if(mike) { _fun80411_ip = 212; continue _fun80411 }
+            if(mike) { _fun00010_ip = 212; continue _fun00009 }
  59:
             mike = 2;
             mike = romeo < mike;
             entity = null;
-            if(mike) { _fun80411_ip = 212; continue _fun80411 }
+            if(mike) { _fun00010_ip = 212; continue _fun00009 }
  74:
             tango = _closure1_slot7;
             zulu = _closure1_slot13;
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['StreakBadge'] = tango;
     tango = function(argFoo) { // Original name: TrendingBadge
-        _fun80412: for(var _fun80412_ip = 0; ; ) switch(_fun80412_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = null;
             mike = tango == zulu;
             entity = null;
-            if(mike) { _fun80412_ip = 230; continue _fun80412 }
+            if(mike) { _fun00012_ip = 230; continue _fun00011 }
  59:
             golf = _closure1_slot0;
             options = _closure1_slot2;
@@ -551,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.TrendingType;
             mike = mike.TRENDING_TYPE_UNSPECIFIED;
             entity = null;
-            if(!(zulu !== mike)) { _fun80412_ip = 230; continue _fun80412 }
+            if(!(zulu !== mike)) { _fun00012_ip = 230; continue _fun00011 }
  100:
             tango = _closure1_slot7;
             zulu = _closure1_slot13;
@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['TrendingBadge'] = tango;
     tango = function(argFoo) { // Original name: ResurrectedBadge
-        _fun80413: for(var _fun80413_ip = 0; ; ) switch(_fun80413_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -602,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.bind(mike)(zulu);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun80413_ip = 187; continue _fun80413 }
+            if(mike) { _fun00014_ip = 187; continue _fun00013 }
  57:
             tango = _closure1_slot7;
             zulu = _closure1_slot13;
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['ResurrectedBadge'] = tango;
     tango = function(argFoo) { // Original name: TopGameBadge
-        _fun80414: for(var _fun80414_ip = 0; ; ) switch(_fun80414_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             zulu = entity.entry;
@@ -652,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.getEntryDuration;
             echo = entity.bind(mike)(zulu);
             entity = null;
-            if(!(entity != echo)) { _fun80414_ip = 326; continue _fun80414 }
+            if(!(entity != echo)) { _fun00016_ip = 326; continue _fun00015 }
  54:
             foxtrot = _closure1_slot0;
             options = _closure1_slot2;

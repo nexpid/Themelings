@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['useValue'] = golf;
     tango = function(argFoo) { // Original name: onContactSyncSettingValueChange
-        _fun94791: for(var _fun94791_ip = 0; ; ) switch(_fun94791_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot2;
             zulu = tango.getLocalAccount;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity == zulu;
             entity = undefined;
             report = undefined;
-            if(tango) { _fun94791_ip = 60; continue _fun94791 }
+            if(tango) { _fun00002_ip = 60; continue _fun00001 }
  54:
             report = zulu.phone;
  60:

@@ -45,12 +45,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['default'] = tango;
     mike = function(argFoo, argBar) {
-        _fun107680: for(var _fun107680_ip = 0; ; ) switch(_fun107680_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argBar;
             entity = null;
             mike = entity == zulu;
-            if(mike) { _fun107680_ip = 68; continue _fun107680 }
+            if(mike) { _fun00002_ip = 68; continue _fun00001 }
  12:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = !entity;
  68:
             entity = !mike;
-            if(mike) { _fun107680_ip = 116; continue _fun107680 }
+            if(mike) { _fun00002_ip = 116; continue _fun00001 }
  74:
             report = _closure1_slot3;
             tango = report.getCurrentConfig;

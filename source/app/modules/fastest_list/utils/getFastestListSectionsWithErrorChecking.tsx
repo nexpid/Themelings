@@ -21,20 +21,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getFastestListSectionsWithErrorChecking
-        _fun78579: for(var _fun78579_ip = 0; ; ) switch(_fun78579_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.itemSizes;
             mike = mike.length;
             tango = 1000;
             mike = mike > tango;
-            if(mike) { _fun78579_ip = 42; continue _fun78579 }
+            if(mike) { _fun00002_ip = 42; continue _fun00001 }
  27:
             zulu = entity.itemKeys;
             zulu = zulu.length;
             mike = zulu > tango;
  42:
-            if(!mike) { _fun78579_ip = 147; continue _fun78579 }
+            if(!mike) { _fun00002_ip = 147; continue _fun00001 }
  45:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;

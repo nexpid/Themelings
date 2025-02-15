@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/activities/utils/transitionToActivity.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: transitionToActivity
-        _fun74956: for(var _fun74956_ip = 0; ; ) switch(_fun74956_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argBar;
             tango = _closure1_slot0;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.getEmbeddedActivityLocationChannelId;
             tango = zulu.bind(tango)(golf);
             report = null;
-            if(!(report != tango)) { _fun74956_ip = 310; continue _fun74956 }
+            if(!(report != tango)) { _fun00002_ip = 310; continue _fun00001 }
  48:
             oscar = _closure1_slot0;
             offset = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = verify.bind(entity)(zulu);
             zulu = oscar.bind(options)(zulu);
             zulu = !zulu;
-            if(!zulu) { _fun74956_ip = 126; continue _fun74956 }
+            if(!zulu) { _fun00002_ip = 126; continue _fun00001 }
  101:
             options = _closure1_slot1;
             verify = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = options.bind(entity)(oscar);
             zulu = oscar.bind(entity)(tango);
  126:
-            if(!zulu) { _fun74956_ip = 154; continue _fun74956 }
+            if(!zulu) { _fun00002_ip = 154; continue _fun00001 }
  129:
             oscar = _closure1_slot1;
             options = _closure1_slot2;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = oscar.getSelfEmbeddedActivityForLocation;
             zulu = zulu.bind(oscar)(golf);
             report = report != zulu;
-            if(!report) { _fun74956_ip = 201; continue _fun74956 }
+            if(!report) { _fun00002_ip = 201; continue _fun00001 }
  176:
             golf = _closure1_slot1;
             options = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = golf.bind(entity)(oscar);
             report = oscar.bind(entity)(tango);
  201:
-            if(!report) { _fun74956_ip = 310; continue _fun74956 }
+            if(!report) { _fun00002_ip = 310; continue _fun00001 }
  204:
             report = _closure1_slot1;
             oscar = _closure1_slot2;

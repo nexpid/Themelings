@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: Row
-        _fun127255: for(var _fun127255_ip = 0; ; ) switch(_fun127255_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.icon;
@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = entity.selected;
             options = entity.disabled;
             tango = undefined;
-            if(!(options === tango)) { _fun127255_ip = 37; continue _fun127255 }
+            if(!(options === tango)) { _fun00002_ip = 37; continue _fun00001 }
  35:
             options = false;
  37:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['selected'] = verify;
             entity['accessibilityState'] = golf;
             golf = verify;
-            if(verify) { _fun127255_ip = 117; continue _fun127255 }
+            if(verify) { _fun00002_ip = 117; continue _fun00001 }
  114:
             golf = options;
  117:
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = new Array(2);
             foxtrot[0] = backup;
             backup = verify;
-            if(!backup) { _fun127255_ip = 260; continue _fun127255 }
+            if(!backup) { _fun00002_ip = 260; continue _fun00001 }
  254:
             backup = offset.rowLabelSelected;
  260:
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/AllChannelsSwitch.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AllChannelsSwitch
-        _fun127256: for(var _fun127256_ip = 0; ; ) switch(_fun127256_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.channelAccessFormat;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = entity.style;
             verify = entity.disabled;
             tango = undefined;
-            if(!(verify === tango)) { _fun127256_ip = 39; continue _fun127256 }
+            if(!(verify === tango)) { _fun00004_ip = 39; continue _fun00003 }
  37:
             verify = false;
  39:

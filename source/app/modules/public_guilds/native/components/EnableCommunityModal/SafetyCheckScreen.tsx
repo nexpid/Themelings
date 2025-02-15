@@ -55,10 +55,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsxs;
     var _closure1_slot12 = tango;
     tango = function(argFoo) { // Original name: showRequirementSatisfiedToast
-        _fun126653: for(var _fun126653_ip = 0; ; ) switch(_fun126653_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            if(!entity) { _fun126653_ip = 41; continue _fun126653 }
+            if(!entity) { _fun00002_ip = 41; continue _fun00001 }
  6:
             zulu = _closure1_slot0;
             mike = _closure1_slot2;
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/public_guilds/native/components/EnableCommunityModal/SafetyCheckScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: SafetyCheckScreen
-        _fun126654: for(var _fun126654_ip = 0; ; ) switch(_fun126654_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -117,11 +117,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             oscar = entity == control;
             mike = undefined;
-            if(oscar) { _fun126654_ip = 135; continue _fun126654 }
+            if(oscar) { _fun00004_ip = 135; continue _fun00003 }
  129:
             mike = control.verificationLevel;
  135:
-            if(!(entity == mike)) { _fun126654_ip = 149; continue _fun126654 }
+            if(!(entity == mike)) { _fun00004_ip = 149; continue _fun00003 }
  139:
             oscar = _closure1_slot9;
             mike = oscar.NONE;
@@ -137,11 +137,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = verify.useState;
             romeo = entity == control;
             mike = undefined;
-            if(romeo) { _fun126654_ip = 201; continue _fun126654 }
+            if(romeo) { _fun00004_ip = 201; continue _fun00003 }
  195:
             mike = control.explicitContentFilter;
  201:
-            if(!(entity == mike)) { _fun126654_ip = 215; continue _fun126654 }
+            if(!(entity == mike)) { _fun00004_ip = 215; continue _fun00003 }
  205:
             romeo = _closure1_slot10;
             mike = romeo.ALL_MEMBERS;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot4 = update;
             mike = entity == control;
             entity = null;
-            if(mike) { _fun126654_ip = 1427; continue _fun126654 }
+            if(mike) { _fun00004_ip = 1427; continue _fun00003 }
  286:
             tango = _closure1_slot12;
             golf = _closure1_slot0;
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot10;
             oscar = oscar.ALL_MEMBERS;
             oscar = golf !== oscar;
-            if(oscar) { _fun126654_ip = 387; continue _fun126654 }
+            if(oscar) { _fun00004_ip = 387; continue _fun00003 }
  367:
             verify = control.verificationLevel;
             golf = _closure1_slot9;
@@ -280,18 +280,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo['value'] = record;
             echo['disabled'] = source;
             record = function(argFoo) { // Original name: onValueChange
-                _fun126656: for(var _fun126656_ip = 0; ; ) switch(_fun126656_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
-                    if(!entity) { _fun126656_ip = 36; continue _fun126656 }
+                    if(!entity) { _fun00006_ip = 36; continue _fun00005 }
  6:
                     mike = _closure2_slot0;
                     zulu = mike.verificationLevel;
                     mike = _closure1_slot9;
                     mike = mike.LOW;
-                    if(!(!(zulu < mike))) { _fun126656_ip = 91; continue _fun126656 }
+                    if(!(!(zulu < mike))) { _fun00006_ip = 91; continue _fun00005 }
  36:
-                    if(entity) { _fun126656_ip = 141; continue _fun126656 }
+                    if(entity) { _fun00006_ip = 141; continue _fun00005 }
  39:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot1;
                     entity['verificationLevel'] = report;
                     entity = mike.bind(zulu)(entity);
-                    _fun126656_ip = 141; continue _fun126656;
+                    _fun00006_ip = 141; continue _fun00005;
  91:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             config = romeo.bind(report)(config, echo);
             echo = new Array(2);
             echo[0] = config;
-            if(!source) { _fun126654_ip = 898; continue _fun126654 }
+            if(!source) { _fun00004_ip = 898; continue _fun00003 }
  827:
             context = _closure1_slot11;
             record = _closure1_slot0;
@@ -416,18 +416,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo['value'] = control;
             echo['disabled'] = update;
             control = function(argFoo) { // Original name: onValueChange
-                _fun126658: for(var _fun126658_ip = 0; ; ) switch(_fun126658_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
-                    if(!entity) { _fun126658_ip = 36; continue _fun126658 }
+                    if(!entity) { _fun00008_ip = 36; continue _fun00007 }
  6:
                     mike = _closure2_slot0;
                     zulu = mike.explicitContentFilter;
                     mike = _closure1_slot10;
                     mike = mike.ALL_MEMBERS;
-                    if(!(!(zulu < mike))) { _fun126658_ip = 91; continue _fun126658 }
+                    if(!(!(zulu < mike))) { _fun00008_ip = 91; continue _fun00007 }
  36:
-                    if(entity) { _fun126658_ip = 141; continue _fun126658 }
+                    if(entity) { _fun00008_ip = 141; continue _fun00007 }
  39:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = _closure2_slot2;
                     entity['explicitContentFilter'] = report;
                     entity = mike.bind(zulu)(entity);
-                    _fun126658_ip = 141; continue _fun126658;
+                    _fun00008_ip = 141; continue _fun00007;
  91:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = romeo.bind(report)(source, echo);
             echo = new Array(2);
             echo[0] = source;
-            if(!update) { _fun126654_ip = 1281; continue _fun126654 }
+            if(!update) { _fun00004_ip = 1281; continue _fun00003 }
  1210:
             vacuum = _closure1_slot11;
             control = _closure1_slot0;

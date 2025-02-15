@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/TextLanguageSupportWarning.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: _default
-        _fun84569: for(var _fun84569_ip = 0; ; ) switch(_fun84569_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.text;
@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             yankee = entity == offset;
             golf = undefined;
-            if(yankee) { _fun84569_ip = 148; continue _fun84569 }
+            if(yankee) { _fun00002_ip = 148; continue _fun00001 }
  143:
             golf = offset.id;
  148:
@@ -136,18 +136,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[3] = oscar;
             offset[4] = golf;
             options = function() {
-                _fun84570: for(var _fun84570_ip = 0; ; ) switch(_fun84570_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot1;
                     mike = !mike;
-                    if(!mike) { _fun84570_ip = 28; continue _fun84570 }
+                    if(!mike) { _fun00004_ip = 28; continue _fun00003 }
  13:
                     zulu = _closure2_slot0;
                     tango = zulu.length;
                     zulu = 0;
                     mike = tango > zulu;
  28:
-                    if(!mike) { _fun84570_ip = 120; continue _fun84570 }
+                    if(!mike) { _fun00004_ip = 120; continue _fun00003 }
  31:
                     zulu = _closure2_slot2;
                     tango = undefined;
@@ -227,12 +227,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = _closure1_slot12;
             golf['__initData'] = yankee;
             golf = options.bind(offset)(golf);
-            if(!zulu) { _fun84569_ip = 325; continue _fun84569 }
+            if(!zulu) { _fun00002_ip = 325; continue _fun00001 }
  307:
             zulu = oscar.get;
             zulu = zulu.bind(oscar)();
             entity = null;
-            if(!(tango !== zulu)) { _fun84569_ip = 626; continue _fun84569 }
+            if(!(tango !== zulu)) { _fun00002_ip = 626; continue _fun00001 }
  325:
             tango = _closure1_slot9;
             kilo = _closure1_slot1;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function() {
-        _fun84574: for(var _fun84574_ip = 0; ; ) switch(_fun84574_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             zulu[1] = mike;
             mike = function() {
-                _fun84575: for(var _fun84575_ip = 0; ; ) switch(_fun84575_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure1_slot7;
                     mike = zulu.shouldShowLanguageSupportWarning;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     report = entity == tango;
                     entity = undefined;
-                    if(report) { _fun84575_ip = 44; continue _fun84575 }
+                    if(report) { _fun00008_ip = 44; continue _fun00007 }
  39:
                     entity = tango.id;
  44:
@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = tango.bind(report)(zulu, mike);
             entity = !entity;
-            if(!entity) { _fun84574_ip = 94; continue _fun84574 }
+            if(!entity) { _fun00006_ip = 94; continue _fun00005 }
  91:
             entity = mike;
  94:

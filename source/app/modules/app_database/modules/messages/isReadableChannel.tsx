@@ -5,31 +5,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     golf = argPlugh;
     tango = function(argFoo) { // Original name: isReadableChannel
-        _fun59060: for(var _fun59060_ip = 0; ; ) switch(_fun59060_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             entity = null;
             entity = entity != golf;
-            if(!entity) { _fun59060_ip = 104; continue _fun59060 }
+            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
  12:
             zulu = golf.type;
             mike = _closure1_slot3;
             mike = mike.DM;
             mike = zulu === mike;
-            if(mike) { _fun59060_ip = 56; continue _fun59060 }
+            if(mike) { _fun00002_ip = 56; continue _fun00001 }
  37:
             report = golf.type;
             zulu = _closure1_slot3;
             zulu = zulu.GROUP_DM;
             mike = report === zulu;
  56:
-            if(mike) { _fun59060_ip = 101; continue _fun59060 }
+            if(mike) { _fun00002_ip = 101; continue _fun00001 }
  59:
             oscar = _closure1_slot0;
             report = golf.type;
             zulu = undefined;
             zulu = oscar.bind(zulu)(report);
-            if(!zulu) { _fun59060_ip = 98; continue _fun59060 }
+            if(!zulu) { _fun00002_ip = 98; continue _fun00001 }
  78:
             oscar = _closure1_slot2;
             report = oscar.canBasicChannel;
@@ -84,12 +84,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['isReadableChannel'] = tango;
     mike = function(argFoo) { // Original name: isReadableChannelId
-        _fun59061: for(var _fun59061_ip = 0; ; ) switch(_fun59061_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun59061_ip = 41; continue _fun59061 }
+            if(!entity) { _fun00004_ip = 41; continue _fun00003 }
  12:
             tango = _closure1_slot5;
             zulu = _closure1_slot1;

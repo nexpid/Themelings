@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot13 = tango;
     tango = function(argFoo) { // Original name: ChatInputAppDMLaunchButton
-        _fun100279: for(var _fun100279_ip = 0; ; ) switch(_fun100279_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.context;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['analyticsLocations'] = verify;
             oscar = tango.bind(oscar)(zulu);
             tango = 'primary';
-            if(!mike) { _fun100279_ip = 200; continue _fun100279 }
+            if(!mike) { _fun00002_ip = 200; continue _fun00001 }
  194:
             tango = 'destructive';
  200:
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[0] = offset;
         report[1] = entity;
         entity = function() {
-            _fun100281: for(var _fun100281_ip = 0; ; ) switch(_fun100281_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure1_slot5;
                 entity = mike.appDMChannelsWithFailedLoads;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = entity.id;
                 entity = zulu.bind(tango)(entity);
                 entity = !entity;
-                if(!entity) { _fun100281_ip = 51; continue _fun100281 }
+                if(!entity) { _fun00004_ip = 51; continue _fun00003 }
  47:
                 entity = _closure2_slot2;
  51:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useChatInputAppDMUIEnabled'] = tango;
     mike = function(argFoo) {
-        _fun100283: for(var _fun100283_ip = 0; ; ) switch(_fun100283_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             echo = entity.context;
@@ -313,11 +313,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[2] = control;
             sizing[3] = mike;
             mike = function() {
-                _fun100285: for(var _fun100285_ip = 0; ; ) switch(_fun100285_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure2_slot5;
                     entity = null;
-                    if(!(entity != mike)) { _fun100285_ip = 288; continue _fun100285 }
+                    if(!(entity != mike)) { _fun00008_ip = 288; continue _fun00007 }
  18:
                     zulu = _closure1_slot6;
                     mike = _closure2_slot0;
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango['application'] = options;
                     options = offset.isGuildInstalled;
                     options = !options;
-                    if(!options) { _fun100285_ip = 138; continue _fun100285 }
+                    if(!options) { _fun00008_ip = 138; continue _fun00007 }
  129:
                     offset = offset.isUserInstalled;
                     options = !offset;
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = zulu.bind(tango)(mike);
             zulu = _closure1_slot12;
             mike = _closure1_slot4;
-            if(entity) { _fun100283_ip = 736; continue _fun100283 }
+            if(entity) { _fun00006_ip = 736; continue _fun00005 }
  308:
             entity = null;
-            if(!(entity != output)) { _fun100283_ip = 736; continue _fun100283 }
+            if(!(entity != output)) { _fun00006_ip = 736; continue _fun00005 }
  317:
             entity = {};
             report = offset.container;
@@ -431,13 +431,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['active'] = foxtrot;
             source = _closure1_slot0;
             control = _closure1_slot2;
-            if(yankee) { _fun100283_ip = 396; continue _fun100283 }
+            if(yankee) { _fun00006_ip = 396; continue _fun00005 }
  376:
             kilo = 23;
             kilo = control[kilo];
             kilo = source.bind(tango)(kilo);
             kilo = kilo.BellIcon;
-            _fun100283_ip = 414; continue _fun100283;
+            _fun00006_ip = 414; continue _fun00005;
  396:
             update = 22;
             update = control[update];
@@ -446,12 +446,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  414:
             report['IconComponent'] = kilo;
             kilo = function() { // Original name: onPress
-                _fun100288: for(var _fun100288_ip = 0; ; ) switch(_fun100288_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     tango = _closure2_slot4;
                     mike = _closure1_slot1;
                     verify = _closure1_slot2;
-                    if(tango) { _fun100288_ip = 108; continue _fun100288 }
+                    if(tango) { _fun00010_ip = 108; continue _fun00009 }
  21:
                     tango = 30;
                     tango = verify[tango];
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report['channel'] = tango;
                     tango = 'MessageNotificationChannelActionSheet';
                     tango = golf.bind(options)(oscar, tango, report);
-                    _fun100288_ip = 290; continue _fun100288;
+                    _fun00010_ip = 290; continue _fun00009;
  108:
                     tango = 24;
                     tango = verify[tango];
@@ -562,11 +562,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             update = update[kilo];
             update = vacuum.bind(tango)(update);
             update = update.t;
-            if(yankee) { _fun100283_ip = 490; continue _fun100283 }
+            if(yankee) { _fun00006_ip = 490; continue _fun00005 }
  477:
             yankee = update.+fnDnZ;
             yankee = source.bind(control)(yankee);
-            _fun100283_ip = 501; continue _fun100283;
+            _fun00006_ip = 501; continue _fun00005;
  490:
             update = update.w7c5Vl;
             yankee = source.bind(control)(update);
@@ -632,7 +632,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.bind(tango)(options, golf);
             report[2] = golf;
             entity['children'] = report;
-            _fun100283_ip = 850; continue _fun100283;
+            _fun00006_ip = 850; continue _fun00005;
  736:
             report = {};
             golf = offset.container;

@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/forums/native/posts/ForumPostTitle.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostTitle
-        _fun100550: for(var _fun100550_ip = 0; ; ) switch(_fun100550_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.title;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = undefined;
             golf = zulu.bind(tango)();
             offset = 'text-muted';
-            if(!mike) { _fun100550_ip = 60; continue _fun100550 }
+            if(!mike) { _fun00002_ip = 60; continue _fun00001 }
  54:
             offset = 'header-primary';
  60:

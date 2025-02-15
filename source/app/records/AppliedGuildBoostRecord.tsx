@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun66358: for(var _fun66358_ip = 0; ; ) switch(_fun66358_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot3;
@@ -14,11 +14,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot6;
             entity = entity.bind(zulu)();
-            if(entity) { _fun66358_ip = 48; continue _fun66358 }
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
  35:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, zulu);
-            _fun66358_ip = 86; continue _fun66358;
+            _fun00002_ip = 86; continue _fun00001;
  48:
             oscar = global;
             options = oscar.Reflect;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot5 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun66359: for(var _fun66359_ip = 0; ; ) switch(_fun66359_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun66359_ip = 76; continue _fun66359;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = oscar.bind(entity)(tango);
     mike = function(argFoo) {
         report = function(argFoo) { // Original name: AppliedGuildBoostRecord
-            _fun66363: for(var _fun66363_ip = 0; ; ) switch(_fun66363_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = argFoo;
                 report = this;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = zulu.endsAt;
                 mike = null;
                 tango = mike != tango;
-                if(!tango) { _fun66363_ip = 115; continue _fun66363 }
+                if(!tango) { _fun00006_ip = 115; continue _fun00005 }
  109:
                 mike = zulu.endsAt;
  115:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'createFromServer';
         entity['key'] = oscar;
         mike = function(argFoo) { // Original name: value
-            _fun66364: for(var _fun66364_ip = 0; ; ) switch(_fun66364_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 tango = argFoo;
                 zulu = _closure2_slot0;
@@ -159,10 +159,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['guildId'] = mike;
                 mike = tango.user;
                 golf = null;
-                if(!(golf == mike)) { _fun66364_ip = 49; continue _fun66364 }
+                if(!(golf == mike)) { _fun00008_ip = 49; continue _fun00007 }
  41:
                 mike = tango.user_id;
-                _fun66364_ip = 59; continue _fun66364;
+                _fun00008_ip = 59; continue _fun00007;
  49:
                 report = tango.user;
                 mike = report.id;
@@ -175,12 +175,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango.ends_at;
                 report = golf != mike;
                 mike = null;
-                if(!report) { _fun66364_ip = 148; continue _fun66364 }
+                if(!report) { _fun00008_ip = 148; continue _fun00007 }
  98:
                 oscar = tango.ends_at;
                 report = '';
                 mike = null;
-                if(!(report !== oscar)) { _fun66364_ip = 148; continue _fun66364 }
+                if(!(report !== oscar)) { _fun00008_ip = 148; continue _fun00007 }
  114:
                 report = global;
                 oscar = report.Date;

@@ -43,7 +43,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         entity = _closure1_slot3;
         mike[1] = entity;
         entity = function() {
-            _fun93366: for(var _fun93366_ip = 0; ; ) switch(_fun93366_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot2;
                 mike = zulu.getGuildId;
@@ -56,11 +56,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = 0;
                 entity = zulu[entity];
                 zulu = null;
-                if(!(zulu != tango)) { _fun93366_ip = 56; continue _fun93366 }
+                if(!(zulu != tango)) { _fun00002_ip = 56; continue _fun00001 }
  53:
                 mike = tango;
  56:
-                if(!(zulu != mike)) { _fun93366_ip = 63; continue _fun93366 }
+                if(!(zulu != mike)) { _fun00002_ip = 63; continue _fun00001 }
  60:
                 entity = mike;
  63:

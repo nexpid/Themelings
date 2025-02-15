@@ -21,11 +21,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot2 = mike;
     mike = {};
     golf = function(argFoo, argBar) { // Original name: openURL
-        _fun68996: for(var _fun68996_ip = 0; ; ) switch(_fun68996_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[2];
             entity = undefined;
-            if(!(mike === entity)) { _fun68996_ip = 11; continue _fun68996 }
+            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             mike = true;
  11:

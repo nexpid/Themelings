@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         zulu = zulu.bind(tango)(mike);
         mike = zulu.sort;
         entity = function(argFoo, argBar) {
-            _fun13727: for(var _fun13727_ip = 0; ; ) switch(_fun13727_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.name;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 mike = entity.bind(mike)();
                 tango = zulu < mike;
                 entity = -1;
-                if(tango) { _fun13727_ip = 64; continue _fun13727 }
+                if(tango) { _fun00002_ip = 64; continue _fun00001 }
  49:
                 zulu = zulu > mike;
                 mike = 0;
-                if(!zulu) { _fun13727_ip = 61; continue _fun13727 }
+                if(!zulu) { _fun00002_ip = 61; continue _fun00001 }
  58:
                 mike = 1;
  61:
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['getAvailableLocales'] = report;
     zulu['getLanguages'] = tango;
     mike = function(argFoo, argBar) { // Original name: getNormalizedLocale
-        _fun13728: for(var _fun13728_ip = 0; ; ) switch(_fun13728_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = argBar;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             golf = zulu.bind(oscar)(mike);
             mike = golf.includes;
             mike = mike.bind(golf)(entity);
-            if(mike) { _fun13728_ip = 205; continue _fun13728 }
+            if(mike) { _fun00004_ip = 205; continue _fun00003 }
  67:
             zulu = entity.split;
             mike = '-';
@@ -137,18 +137,18 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = oscar[zulu];
             mike = options.bind(golf)(mike);
             zulu = oscar[zulu];
-            if(mike) { _fun13728_ip = 200; continue _fun13728 }
+            if(mike) { _fun00004_ip = 200; continue _fun00003 }
  108:
             mike = 'zh';
-            if(!(mike === zulu)) { _fun13728_ip = 142; continue _fun13728 }
+            if(!(mike === zulu)) { _fun00004_ip = 142; continue _fun00003 }
  116:
             options = oscar.length;
             mike = 1;
-            if(!(options > mike)) { _fun13728_ip = 142; continue _fun13728 }
+            if(!(options > mike)) { _fun00004_ip = 142; continue _fun00003 }
  128:
             oscar = oscar[mike];
             mike = 'Hant';
-            if(!(mike !== oscar)) { _fun13728_ip = 171; continue _fun13728 }
+            if(!(mike !== oscar)) { _fun00004_ip = 171; continue _fun00003 }
  142:
             oscar = golf.find;
             mike = function(argFoo) {
@@ -166,11 +166,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(golf)(mike);
             options = null;
             mike = tango;
-            if(!(options != oscar)) { _fun13728_ip = 169; continue _fun13728 }
+            if(!(options != oscar)) { _fun00004_ip = 169; continue _fun00003 }
  166:
             mike = oscar;
  169:
-            _fun13728_ip = 198; continue _fun13728;
+            _fun00004_ip = 198; continue _fun00003;
  171:
             oscar = golf.find;
             report = function(argFoo) {
@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             report = oscar.bind(golf)(report);
             oscar = null;
-            if(!(oscar != report)) { _fun13728_ip = 195; continue _fun13728 }
+            if(!(oscar != report)) { _fun00004_ip = 195; continue _fun00003 }
  192:
             tango = report;
  195:
             mike = tango;
  198:
-            _fun13728_ip = 203; continue _fun13728;
+            _fun00004_ip = 203; continue _fun00003;
  200:
             mike = zulu;
  203:

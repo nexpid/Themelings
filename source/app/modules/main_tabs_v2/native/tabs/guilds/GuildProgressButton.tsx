@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = yankee.id;
         zulu[1] = mike;
         mike = function() {
-            _fun115659: for(var _fun115659_ip = 0; ; ) switch(_fun115659_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot1;
-                if(!mike) { _fun115659_ip = 55; continue _fun115659 }
+                if(!mike) { _fun00002_ip = 55; continue _fun00001 }
  10:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -86,10 +86,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = yankee;
         mike[1] = offset;
         entity = function() {
-            _fun115660: for(var _fun115660_ip = 0; ; ) switch(_fun115660_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot1;
-                if(entity) { _fun115660_ip = 55; continue _fun115660 }
+                if(entity) { _fun00004_ip = 55; continue _fun00003 }
  10:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;

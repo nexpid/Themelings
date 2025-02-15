@@ -26,7 +26,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     tango = 'design/components/Navigator/native/useNavigatorShouldCrossfade.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: useNavigatorShouldCrossfade
-        _fun64948: for(var _fun64948_ip = 0; ; ) switch(_fun64948_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot2;
             mike = zulu.useContext;
@@ -46,7 +46,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             tango = report.bind(tango)(zulu);
             zulu = tango.isAndroid;
             zulu = zulu.bind(tango)();
-            if(!zulu) { _fun64948_ip = 90; continue _fun64948 }
+            if(!zulu) { _fun00002_ip = 90; continue _fun00001 }
  87:
             entity = mike;
  90:

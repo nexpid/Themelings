@@ -60,7 +60,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function() { // Original name: YouNavigator
-        _fun116629: for(var _fun116629_ip = 0; ; ) switch(_fun116629_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot6;
             report = undefined;
@@ -86,7 +86,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(report)();
             entity = entity.isChatBesideChannelList;
             tango = _closure1_slot5;
-            if(entity) { _fun116629_ip = 138; continue _fun116629 }
+            if(entity) { _fun00002_ip = 138; continue _fun00001 }
  108:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;
@@ -95,7 +95,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.bind(report)(entity);
             entity = {};
             entity = tango.bind(report)(mike, entity);
-            _fun116629_ip = 209; continue _fun116629;
+            _fun00002_ip = 209; continue _fun00001;
  138:
             zulu = _closure1_slot3;
             mike = {};

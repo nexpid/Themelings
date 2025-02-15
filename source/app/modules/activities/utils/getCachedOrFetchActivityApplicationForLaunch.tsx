@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun73974: for(var _fun73974_ip = 0; ; ) switch(_fun73974_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     offset = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun73974_ip = 295; continue _fun73974 }
+                    if(mike) { _fun00002_ip = 295; continue _fun00001 }
  13:
                     zulu = _closure1_slot4;
                     mike = zulu.getApplication;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = _closure1_slot8;
                     tango = undefined;
                     zulu = zulu.bind(tango)(mike);
-                    if(zulu) { _fun73974_ip = 292; continue _fun73974 }
+                    if(zulu) { _fun00002_ip = 292; continue _fun00001 }
  48:
                     oscar = _closure1_slot6;
                     report = oscar.getChannel;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = null;
                     report = oscar == zulu;
                     verify = undefined;
-                    if(report) { _fun73974_ip = 81; continue _fun73974 }
+                    if(report) { _fun00002_ip = 81; continue _fun00001 }
  76:
                     verify = zulu.guild_id;
  81:
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  122:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun73974_ip = 289; continue _fun73974 }
+                    if(report) { _fun00002_ip = 289; continue _fun00001 }
  131:
                     yankee = zulu.activityConfigs;
                     verify = zulu.applications;
@@ -70,12 +70,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = _closure1_slot8;
                     yankee = oscar == report;
                     golf = undefined;
-                    if(yankee) { _fun73974_ip = 202; continue _fun73974 }
+                    if(yankee) { _fun00002_ip = 202; continue _fun00001 }
  197:
                     golf = report.application;
  202:
                     golf = verify.bind(tango)(golf);
-                    if(golf) { _fun73974_ip = 272; continue _fun73974 }
+                    if(golf) { _fun00002_ip = 272; continue _fun00001 }
  210:
                     verify = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return golf;
  245:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                    if(verify) { _fun73974_ip = 269; continue _fun73974 }
+                    if(verify) { _fun00002_ip = 269; continue _fun00001 }
  251:
                     verify = _closure1_slot5;
                     options = verify.createFromServer;
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  272:
                     oscar = oscar == report;
                     tango = undefined;
-                    if(oscar) { _fun73974_ip = 286; continue _fun73974 }
+                    if(oscar) { _fun00002_ip = 286; continue _fun00001 }
  281:
                     tango = report.application;
  286:
@@ -126,12 +126,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo) { // Original name: isUsableApplicationRecord
-        _fun73975: for(var _fun73975_ip = 0; ; ) switch(_fun73975_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = null;
             entity = zulu != mike;
-            if(!entity) { _fun73975_ip = 22; continue _fun73975 }
+            if(!entity) { _fun00004_ip = 22; continue _fun00003 }
  12:
             mike = mike.embeddedActivityConfig;
             entity = zulu != mike;

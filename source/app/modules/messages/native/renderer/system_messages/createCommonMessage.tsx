@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     verify = report.bind(entity)(golf);
     options = verify.experimental_createToken;
     golf = function(argFoo) {
-        _fun72236: for(var _fun72236_ip = 0; ; ) switch(_fun72236_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = entity.theme;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = zulu.isThemeDark;
             zulu = entity.bind(zulu)(tango);
             entity = 'rgba(201,210,240,0.6)';
-            if(!zulu) { _fun72236_ip = 123; continue _fun72236 }
+            if(!zulu) { _fun00002_ip = 123; continue _fun00001 }
  54:
             tango = _closure1_slot0;
             golf = _closure1_slot2;

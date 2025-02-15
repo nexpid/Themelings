@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = report;
     entity = function(argFoo) { // Original name: SearchListPrivateChannel
-        _fun113638: for(var _fun113638_ip = 0; ; ) switch(_fun113638_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.channel;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot6;
             zulu = _closure1_slot4;
             mike = {};
-            if(entity) { _fun113638_ip = 262; continue _fun113638 }
+            if(entity) { _fun00002_ip = 262; continue _fun00001 }
  72:
             entity = yankee.privateChannelIcon;
             mike['style'] = entity;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[1] = oscar;
             mike['children'] = entity;
             entity = tango.bind(report)(zulu, mike);
-            _fun113638_ip = 448; continue _fun113638;
+            _fun00002_ip = 448; continue _fun00001;
  262:
             oscar = yankee.channel;
             mike['style'] = oscar;
@@ -387,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['SearchListCardThumbnail'] = tango;
     tango = function(argFoo) { // Original name: SearchListCardContent
-        _fun113642: for(var _fun113642_ip = 0; ; ) switch(_fun113642_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             romeo = entity.label;
@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'string';
             report = typeof romeo;
             oscar = romeo;
-            if(!(verify === report)) { _fun113642_ip = 113; continue _fun113642 }
+            if(!(verify === report)) { _fun00004_ip = 113; continue _fun00003 }
  60:
             yankee = _closure1_slot5;
             options = _closure1_slot0;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             options = typeof offset;
             oscar = offset;
-            if(!(verify === options)) { _fun113642_ip = 184; continue _fun113642 }
+            if(!(verify === options)) { _fun00004_ip = 184; continue _fun00003 }
  131:
             verify = _closure1_slot5;
             options = _closure1_slot0;
@@ -454,18 +454,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = options;
         entity = function() {
-            _fun113644: for(var _fun113644_ip = 0; ; ) switch(_fun113644_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = null;
                 mike = tango == entity;
                 entity = null;
-                if(mike) { _fun113644_ip = 99; continue _fun113644 }
+                if(mike) { _fun00006_ip = 99; continue _fun00005 }
  18:
                 report = _closure2_slot0;
                 mike = report.getGuildId;
                 mike = mike.bind(report)();
-                if(!(tango != mike)) { _fun113644_ip = 67; continue _fun113644 }
+                if(!(tango != mike)) { _fun00006_ip = 67; continue _fun00005 }
  36:
                 oscar = _closure1_slot5;
                 report = _closure1_slot10;
@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango['channel'] = mike;
                 mike = undefined;
                 mike = oscar.bind(mike)(report, tango);
-                _fun113644_ip = 96; continue _fun113644;
+                _fun00006_ip = 96; continue _fun00005;
  67:
                 oscar = _closure1_slot5;
                 report = _closure1_slot9;

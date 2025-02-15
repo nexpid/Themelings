@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/collectibles/records/CollectiblesPrices.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getPricesFromServer
-        _fun38460: for(var _fun38460_ip = 0; ; ) switch(_fun38460_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
             mike = null;
-            if(!(mike != tango)) { _fun38460_ip = 54; continue _fun38460 }
+            if(!(mike != tango)) { _fun00002_ip = 54; continue _fun00001 }
  15:
             mike = global;
             zulu = mike.Object;
@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = mike.bind(zulu)(tango);
             zulu = tango.reduce;
             mike = function(argFoo, argBar) {
-                _fun38461: for(var _fun38461_ip = 0; ; ) switch(_fun38461_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     zulu = argBar;
                     report = _closure2_slot0;
                     tango = null;
-                    if(!(tango != report)) { _fun38461_ip = 100; continue _fun38461 }
+                    if(!(tango != report)) { _fun00004_ip = 100; continue _fun00003 }
  19:
                     mike = _closure2_slot0;
                     report = mike[zulu];
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             };
             entity = {};
             entity = zulu.bind(tango)(mike, entity);
-            _fun38460_ip = 56; continue _fun38460;
+            _fun00002_ip = 56; continue _fun00001;
  54:
             entity = {};
  56:

@@ -48,13 +48,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/useMutualGuilds.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMutualGuilds
-        _fun80051: for(var _fun80051_ip = 0; ; ) switch(_fun80051_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             yankee = argFoo;
             romeo = arguments[1];
             var _closure2_slot0 = yankee;
             zulu = undefined;
-            if(!(romeo === zulu)) { _fun80051_ip = 20; continue _fun80051 }
+            if(!(romeo === zulu)) { _fun00002_ip = 20; continue _fun00001 }
  18:
             romeo = false;
  20:
@@ -106,15 +106,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = verify[options];
             verify = verify[foxtrot];
             _closure2_slot3 = verify;
-            if(!romeo) { _fun80051_ip = 184; continue _fun80051 }
+            if(!romeo) { _fun00002_ip = 184; continue _fun00001 }
  180:
             romeo = report == options;
  184:
-            if(!romeo) { _fun80051_ip = 190; continue _fun80051 }
+            if(!romeo) { _fun00002_ip = 190; continue _fun00001 }
  187:
             romeo = !mike;
  190:
-            if(!romeo) { _fun80051_ip = 197; continue _fun80051 }
+            if(!romeo) { _fun00002_ip = 197; continue _fun00001 }
  193:
             romeo = report == offset;
  197:
@@ -125,21 +125,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options[1] = yankee;
             options[2] = golf;
             golf = function() {
-                _fun80053: for(var _fun80053_ip = 0; ; ) switch(_fun80053_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot4;
-                    if(!entity) { _fun80053_ip = 29; continue _fun80053 }
+                    if(!entity) { _fun00004_ip = 29; continue _fun00003 }
  10:
                     entity = function() {
                         tango = _closure1_slot3;
                         zulu = undefined;
                         mike = function* () {
                             entity = function* () { // Original name: ?anon_0_
-                                _fun80056: for(var _fun80056_ip = 0; ; ) switch(_fun80056_ip) {
+                                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(mike) { _fun80056_ip = 155; continue _fun80056 }
+                                    if(mike) { _fun00006_ip = 155; continue _fun00005 }
  10: // try_start_0
                                     zulu = _closure1_slot1;
                                     tango = _closure1_slot2;
@@ -159,9 +159,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                                     return mike;
  71:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(zulu) { _fun80056_ip = 79; continue _fun80056 }
+                                    if(zulu) { _fun00006_ip = 79; continue _fun00005 }
  77: // try_end0
-                                    _fun80056_ip = 150; continue _fun80056;
+                                    _fun00006_ip = 150; continue _fun00005;
  79:
                                     return mike;
  82: // catch_target0
@@ -234,16 +234,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar[0] = offset;
             oscar[1] = verify;
             tango = function() {
-                _fun80059: for(var _fun80059_ip = 0; ; ) switch(_fun80059_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = _closure2_slot1;
                     entity = null;
-                    if(!(entity != tango)) { _fun80059_ip = 131; continue _fun80059 }
+                    if(!(entity != tango)) { _fun00008_ip = 131; continue _fun00007 }
  15:
                     tango = _closure2_slot1;
                     report = tango.length;
                     tango = 2;
-                    if(!(!(report < tango))) { _fun80059_ip = 125; continue _fun80059 }
+                    if(!(!(report < tango))) { _fun00008_ip = 125; continue _fun00007 }
  31:
                     tango = global;
                     oscar = tango.Object;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = oscar.sortBy;
                     tango = _closure2_slot1;
                     zulu = function(argFoo) {
-                        _fun80061: for(var _fun80061_ip = 0; ; ) switch(_fun80061_ip) {
+                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                             entity = argFoo;
                             entity = entity.guild;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             entity = entity.id;
                             entity = mike[entity];
                             mike = null;
-                            if(!(mike == entity)) { _fun80061_ip = 42; continue _fun80061 }
+                            if(!(mike == entity)) { _fun00010_ip = 42; continue _fun00009 }
  30:
                             mike = _closure2_slot5;
                             entity = mike.length;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(zulu)(entity);
             zulu = entity.bind(zulu)(tango);
             entity = {};
-            if(!(report != tango)) { _fun80051_ip = 344; continue _fun80051 }
+            if(!(report != tango)) { _fun00002_ip = 344; continue _fun00001 }
  341:
             zulu = tango;
  344:

@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot5 = tango;
     tango = function(argFoo) { // Original name: Emoji
-        _fun84741: for(var _fun84741_ip = 0; ; ) switch(_fun84741_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             entity = entity.guildEmoji;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             verify = entity.id;
             golf = null;
-            if(!(golf != verify)) { _fun84741_ip = 121; continue _fun84741 }
+            if(!(golf != verify)) { _fun00002_ip = 121; continue _fun00001 }
  59:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = 48;
             golf['size'] = yankee;
             golf = verify.bind(offset)(golf);
-            _fun84741_ip = 157; continue _fun84741;
+            _fun00002_ip = 157; continue _fun00001;
  121:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -115,24 +115,24 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/messages/native/emoji/EmojiGrid.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun84742: for(var _fun84742_ip = 0; ; ) switch(_fun84742_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.expressionSourceGuild;
             zulu = entity.doNotDisplayEmojiIds;
             tango = undefined;
-            if(!(zulu === tango)) { _fun84742_ip = 27; continue _fun84742 }
+            if(!(zulu === tango)) { _fun00004_ip = 27; continue _fun00003 }
  23:
             zulu = new Array(0);
  27:
             var _closure2_slot0 = zulu;
             offset = entity.numberToShow;
-            if(!(offset === tango)) { _fun84742_ip = 46; continue _fun84742 }
+            if(!(offset === tango)) { _fun00004_ip = 46; continue _fun00003 }
  43:
             offset = 10;
  46:
             zulu = entity.maxPerRow;
-            if(!(zulu === tango)) { _fun84742_ip = 59; continue _fun84742 }
+            if(!(zulu === tango)) { _fun00004_ip = 59; continue _fun00003 }
  56:
             zulu = 5;
  59:
@@ -155,11 +155,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             verify = entity == mike;
             yankee = undefined;
-            if(verify) { _fun84742_ip = 141; continue _fun84742 }
+            if(verify) { _fun00004_ip = 141; continue _fun00003 }
  135:
             yankee = mike.emojis;
  141:
-            if(!(entity == yankee)) { _fun84742_ip = 149; continue _fun84742 }
+            if(!(entity == yankee)) { _fun00004_ip = 149; continue _fun00003 }
  145:
             yankee = new Array(0);
  149:

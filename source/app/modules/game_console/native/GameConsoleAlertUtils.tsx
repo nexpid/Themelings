@@ -43,14 +43,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot7 = mike;
     mike = {};
     golf = function(argFoo) { // Original name: maybeShowPTTAlert
-        _fun103207: for(var _fun103207_ip = 0; ; ) switch(_fun103207_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot3;
             zulu = tango.getMode;
             tango = zulu.bind(tango)();
             zulu = _closure1_slot5;
             zulu = zulu.PUSH_TO_TALK;
-            if(!(tango === zulu)) { _fun103207_ip = 355; continue _fun103207 }
+            if(!(tango === zulu)) { _fun00002_ip = 355; continue _fun00001 }
  36:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.DismissibleContent;
             zulu = zulu.CONSOLE_PTT_DISABLE_ALERT;
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun103207_ip = 355; continue _fun103207 }
+            if(zulu) { _fun00002_ip = 355; continue _fun00001 }
  99:
             zulu = {};
             tango = _closure1_slot6;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu[mike];
             var _closure2_slot0 = zulu;
             mike = null;
-            if(!(mike != zulu)) { _fun103207_ip = 335; continue _fun103207 }
+            if(!(mike != zulu)) { _fun00002_ip = 335; continue _fun00001 }
  298:
             mike = global;
             zulu = mike.Promise;
@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = mike;
             entity = new foxtrot[zulu](romeo, yankee);
             entity = entity instanceof Object ? entity : mike;
-            _fun103207_ip = 353; continue _fun103207;
+            _fun00002_ip = 353; continue _fun00001;
  335:
             mike = global;
             zulu = mike.Promise;
@@ -214,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = options.bind(entity)(golf, oscar);
         mike['body'] = oscar;
         report = function() { // Original name: onConfirm
-            _fun103211: for(var _fun103211_ip = 0; ; ) switch(_fun103211_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!(entity != mike)) { _fun103211_ip = 62; continue _fun103211 }
+                if(!(entity != mike)) { _fun00004_ip = 62; continue _fun00003 }
  13:
                 mike = _closure1_slot1;
                 zulu = _closure1_slot2;

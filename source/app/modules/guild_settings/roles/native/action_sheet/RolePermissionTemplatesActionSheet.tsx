@@ -149,17 +149,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = options.bind(tango)(golf);
         golf = {};
         yankee = function(argFoo) { // Original name: onSelect
-            _fun126352: for(var _fun126352_ip = 0; ; ) switch(_fun126352_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 var _closure3_slot0 = zulu;
                 mike = _closure2_slot0;
-                if(mike) { _fun126352_ip = 35; continue _fun126352 }
+                if(mike) { _fun00002_ip = 35; continue _fun00001 }
  19:
                 mike = _closure2_slot2;
                 entity = undefined;
                 entity = mike.bind(entity)(zulu);
-                _fun126352_ip = 305; continue _fun126352;
+                _fun00002_ip = 305; continue _fun00001;
  35:
                 mike = _closure1_slot1;
                 offset = _closure1_slot2;

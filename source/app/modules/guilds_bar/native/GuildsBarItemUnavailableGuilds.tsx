@@ -57,7 +57,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function() { // Original name: GuildsBarItemUnavailableGuilds
-        _fun114586: for(var _fun114586_ip = 0; ; ) switch(_fun114586_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot7;
             report = undefined;
@@ -81,7 +81,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = 0;
             mike = backup <= entity;
             entity = null;
-            if(mike) { _fun114586_ip = 240; continue _fun114586 }
+            if(mike) { _fun00002_ip = 240; continue _fun00001 }
  83:
             tango = _closure1_slot6;
             zulu = _closure1_slot4;

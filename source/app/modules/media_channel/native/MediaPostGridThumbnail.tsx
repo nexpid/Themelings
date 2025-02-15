@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: MediaPostGridThumbnailAndroid
-        _fun100526: for(var _fun100526_ip = 0; ; ) switch(_fun100526_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.shouldSpoiler;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.backgroundImagesource;
             backup = mike.resizeMode;
             mike = null;
-            if(!(mike != entity)) { _fun100526_ip = 223; continue _fun100526 }
+            if(!(mike != entity)) { _fun00002_ip = 223; continue _fun00001 }
  47:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = options;
             mike['children'] = report;
             entity = tango.bind(entity)(zulu, mike);
-            _fun100526_ip = 326; continue _fun100526;
+            _fun00002_ip = 326; continue _fun00001;
  223:
             report = _closure1_slot5;
             tango = _closure1_slot3;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['style'] = golf;
             zulu['source'] = oscar;
             oscar = 0;
-            if(!offset) { _fun100526_ip = 252; continue _fun100526 }
+            if(!offset) { _fun00002_ip = 252; continue _fun00001 }
  249:
             oscar = 10;
  252:
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: MediaPostGridThumbnailIOS
-        _fun100527: for(var _fun100527_ip = 0; ; ) switch(_fun100527_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             yankee = entity.shouldSpoiler;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot6;
             zulu = _closure1_slot7;
             entity = null;
-            if(!(entity != output)) { _fun100527_ip = 249; continue _fun100527 }
+            if(!(entity != output)) { _fun00004_ip = 249; continue _fun00003 }
  58:
             mike = {};
             sizing = _closure1_slot5;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = options.bind(verify)(golf, report);
             entity[2] = report;
             mike['children'] = entity;
-            _fun100527_ip = 361; continue _fun100527;
+            _fun00004_ip = 361; continue _fun00003;
  249:
             entity = {};
             options = _closure1_slot5;
@@ -231,13 +231,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_channel/native/MediaPostGridThumbnail.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MediaPostGridThumbnail
-        _fun100528: for(var _fun100528_ip = 0; ; ) switch(_fun100528_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             zulu = entity.isPortrait;
             mike = true;
             tango = mike === zulu;
-            if(!tango) { _fun100528_ip = 30; continue _fun100528 }
+            if(!tango) { _fun00006_ip = 30; continue _fun00005 }
  18:
             zulu = entity.shouldSpoiler;
             mike = false;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = undefined;
             mike = 'cover';
             zulu = undefined;
-            if(!tango) { _fun100528_ip = 50; continue _fun100528 }
+            if(!tango) { _fun00006_ip = 50; continue _fun00005 }
  41:
             zulu = entity.source;
             mike = 'contain';
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.isAndroid;
             entity = entity.bind(zulu)();
             tango = _closure1_slot5;
-            if(entity) { _fun100528_ip = 143; continue _fun100528 }
+            if(entity) { _fun00006_ip = 143; continue _fun00005 }
  119:
             zulu = _closure1_slot9;
             entity = {};
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = oscar;
             golf = copyDataProperties(verify, options);
             entity = tango.bind(report)(zulu, entity);
-            _fun100528_ip = 165; continue _fun100528;
+            _fun00006_ip = 165; continue _fun00005;
  143:
             zulu = _closure1_slot8;
             mike = {};

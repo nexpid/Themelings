@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/oauth2/native/Header.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Header
-        _fun73954: for(var _fun73954_ip = 0; ; ) switch(_fun73954_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.user;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = null;
             entity = output != zulu;
             echo = undefined;
-            if(!entity) { _fun73954_ip = 128; continue _fun73954 }
+            if(!entity) { _fun00002_ip = 128; continue _fun00001 }
  100:
             mike = _closure1_slot1;
             entity = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[0] = options;
             romeo = output != sizing;
             options = null;
-            if(!romeo) { _fun73954_ip = 579; continue _fun73954 }
+            if(!romeo) { _fun00002_ip = 579; continue _fun00001 }
  471:
             backup = _closure1_slot5;
             foxtrot = _closure1_slot1;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo['style'] = kilo;
             kilo = sizing.public_flags;
             kilo = output != kilo;
-            if(!kilo) { _fun73954_ip = 568; continue _fun73954 }
+            if(!kilo) { _fun00002_ip = 568; continue _fun00001 }
  520:
             result = _closure1_slot0;
             echo = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = {'variant': 'heading-md/normal', 'color': 'header-secondary'};
             yankee = verify.length;
             verify = 0;
-            if(!(!(yankee > verify))) { _fun73954_ip = 705; continue _fun73954 }
+            if(!(!(yankee > verify))) { _fun00002_ip = 705; continue _fun00001 }
  648:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.t;
             verify = verify.X+Fdpq;
             verify = yankee.bind(romeo)(verify);
-            _fun73954_ip = 760; continue _fun73954;
+            _fun00002_ip = 760; continue _fun00001;
  705:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;

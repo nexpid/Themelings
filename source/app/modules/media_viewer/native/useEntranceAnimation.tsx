@@ -183,18 +183,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = options;
         mike[1] = golf;
         entity = function() {
-            _fun102494: for(var _fun102494_ip = 0; ; ) switch(_fun102494_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = mike.get;
                 entity = entity.bind(mike)();
                 options = 1;
-                if(!(options === entity)) { _fun102494_ip = 40; continue _fun102494 }
+                if(!(options === entity)) { _fun00002_ip = 40; continue _fun00001 }
  25:
                 mike = _closure2_slot2;
                 entity = undefined;
                 entity = mike.bind(entity)();
-                _fun102494_ip = 219; continue _fun102494;
+                _fun00002_ip = 219; continue _fun00001;
  40:
                 foxtrot = _closure1_slot0;
                 backup = _closure1_slot1;

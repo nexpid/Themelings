@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptions
-        _fun43979: for(var _fun43979_ip = 0; ; ) switch(_fun43979_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = {};
             entity = null;
             mike = tango;
-            if(!(entity == mike)) { _fun43979_ip = 55; continue _fun43979 }
+            if(!(entity == mike)) { _fun00002_ip = 55; continue _fun00001 }
  51:
             mike = _closure1_slot2;
  55:
@@ -76,9 +76,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report, zulu);
             zulu = zulu.enableRoleSubscriptionsForUser;
             entity = entity != tango;
-            if(!entity) { _fun43979_ip = 168; continue _fun43979 }
+            if(!entity) { _fun00002_ip = 168; continue _fun00001 }
  159:
-            if(!mike) { _fun43979_ip = 165; continue _fun43979 }
+            if(!mike) { _fun00002_ip = 165; continue _fun00001 }
  162:
             mike = zulu;
  165:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildEligibleForRoleSubscriptions'] = tango;
     tango = function(argFoo) { // Original name: isGuildEligibleForRoleSubscriptions
-        _fun43980: for(var _fun43980_ip = 0; ; ) switch(_fun43980_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             mike = _closure1_slot0;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = {};
             entity = null;
             verify = tango;
-            if(!(entity == verify)) { _fun43980_ip = 55; continue _fun43980 }
+            if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
  51:
             verify = _closure1_slot2;
  55:
@@ -127,9 +127,9 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = oscar.bind(golf)(report, zulu);
             zulu = zulu.enableRoleSubscriptionsForUser;
             entity = entity != tango;
-            if(!entity) { _fun43980_ip = 158; continue _fun43980 }
+            if(!entity) { _fun00004_ip = 158; continue _fun00003 }
  149:
-            if(!mike) { _fun43980_ip = 155; continue _fun43980 }
+            if(!mike) { _fun00004_ip = 155; continue _fun00003 }
  152:
             mike = zulu;
  155:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isGuildEligibleForRoleSubscriptions'] = tango;
     tango = function(argFoo) { // Original name: useRoleSubscriptionMaxTiersExperiment
-        _fun43981: for(var _fun43981_ip = 0; ; ) switch(_fun43981_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = zulu.useExperiment;
             entity = {};
             oscar = null;
-            if(!(oscar == tango)) { _fun43981_ip = 52; continue _fun43981 }
+            if(!(oscar == tango)) { _fun00006_ip = 52; continue _fun00005 }
  48:
             tango = _closure1_slot2;
  52:
@@ -166,13 +166,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useRoleSubscriptionMaxTiersExperiment'] = tango;
     tango = function(argFoo) {
-        _fun43982: for(var _fun43982_ip = 0; ; ) switch(_fun43982_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun43982_ip = 41; continue _fun43982 }
+            if(!entity) { _fun00008_ip = 41; continue _fun00007 }
  18:
             tango = _closure1_slot3;
             zulu = tango.some;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['hasEnabledMonetization'] = tango;
     tango = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptionsMobileTeamSetup
-        _fun43984: for(var _fun43984_ip = 0; ; ) switch(_fun43984_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot0;
@@ -205,11 +205,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = null;
             verify = options == tango;
             entity = undefined;
-            if(verify) { _fun43984_ip = 58; continue _fun43984 }
+            if(verify) { _fun00010_ip = 58; continue _fun00009 }
  53:
             entity = tango.id;
  58:
-            if(!(options == entity)) { _fun43984_ip = 66; continue _fun43984 }
+            if(!(options == entity)) { _fun00010_ip = 66; continue _fun00009 }
  62:
             entity = _closure1_slot2;
  66:
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = zulu.bind(report)(mike);
             mike = zulu.useIsExpeditedOnboardingGuild;
             mike = mike.bind(zulu)(tango);
-            if(!entity) { _fun43984_ip = 137; continue _fun43984 }
+            if(!entity) { _fun00010_ip = 137; continue _fun00009 }
  134:
             entity = mike;
  137:
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = tango;
     tango = function(argFoo) { // Original name: isGuildEligibleForTierTemplates
-        _fun43985: for(var _fun43985_ip = 0; ; ) switch(_fun43985_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.getCurrentConfig;
             mike = {};
             oscar = null;
-            if(!(oscar == entity)) { _fun43985_ip = 52; continue _fun43985 }
+            if(!(oscar == entity)) { _fun00012_ip = 52; continue _fun00011 }
  48:
             entity = _closure1_slot2;
  52:
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isGuildEligibleForTierTemplates'] = tango;
     tango = function(argFoo) { // Original name: useGuildEligibleForTierTemplates
-        _fun43986: for(var _fun43986_ip = 0; ; ) switch(_fun43986_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.useExperiment;
             mike = {};
             oscar = null;
-            if(!(oscar == entity)) { _fun43986_ip = 52; continue _fun43986 }
+            if(!(oscar == entity)) { _fun00014_ip = 52; continue _fun00013 }
  48:
             entity = _closure1_slot2;
  52:
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGuildEligibleForTierTemplates'] = tango;
     tango = function(argFoo) { // Original name: useShowCreatorPortalLinkForTierTemplates
-        _fun43987: for(var _fun43987_ip = 0; ; ) switch(_fun43987_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
             tango = _closure1_slot0;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = tango.useExperiment;
             mike = {};
             oscar = null;
-            if(!(oscar == entity)) { _fun43987_ip = 52; continue _fun43987 }
+            if(!(oscar == entity)) { _fun00016_ip = 52; continue _fun00015 }
  48:
             entity = _closure1_slot2;
  52:

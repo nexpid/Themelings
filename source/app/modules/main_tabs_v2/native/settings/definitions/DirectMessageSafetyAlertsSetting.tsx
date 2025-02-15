@@ -62,7 +62,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     golf = golf.updateDmSafetyAlertsSetting;
     mike['onValueChange'] = golf;
     tango = function() { // Original name: useHasDmSafetyAlertsSetting
-        _fun94725: for(var _fun94725_ip = 0; ; ) switch(_fun94725_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = entity.bind(report)();
             entity = null;
             entity = entity == zulu;
-            if(entity) { _fun94725_ip = 41; continue _fun94725 }
+            if(entity) { _fun00002_ip = 41; continue _fun00001 }
  38:
             entity = zulu;
  41:
@@ -95,11 +95,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             mike['location'] = oscar;
             mike = tango.bind(report)(mike);
             entity = !entity;
-            if(!entity) { _fun94725_ip = 122; continue _fun94725 }
+            if(!entity) { _fun00002_ip = 122; continue _fun00001 }
  119:
             entity = zulu;
  122:
-            if(!entity) { _fun94725_ip = 128; continue _fun94725 }
+            if(!entity) { _fun00002_ip = 128; continue _fun00001 }
  125:
             entity = !mike;
  128:

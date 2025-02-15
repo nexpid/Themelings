@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_member_verification/native/components/MemberVerificationFormRenderer.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: MemberVerificationFormRenderer
-        _fun88572: for(var _fun88572_ip = 0; ; ) switch(_fun88572_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.rulesChannelId;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = null;
             golf = report == options;
             report = undefined;
-            if(golf) { _fun88572_ip = 101; continue _fun88572 }
+            if(golf) { _fun00002_ip = 101; continue _fun00001 }
  84:
             golf = options.map;
             oscar = function(argFoo, argBar) {
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = 'verification-field-';
                 tango = mike.bind(entity)(report);
                 zulu = function(argFoo, argBar, argBaz) {
-                    _fun88574: for(var _fun88574_ip = 0; ; ) switch(_fun88574_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         golf = argFoo;
                         report = argBaz;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = options.bind(tango)(mike);
                         mike = mike.VerificationFormFieldTypes;
                         mike = mike.TERMS;
-                        if(!(mike !== zulu)) { _fun88574_ip = 415; continue _fun88574 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 415; continue _fun00003 }
  65:
                         options = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = options.bind(tango)(mike);
                         mike = mike.VerificationFormFieldTypes;
                         mike = mike.VERIFICATION;
-                        if(!(mike !== zulu)) { _fun88574_ip = 363; continue _fun88574 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 363; continue _fun00003 }
  101:
                         options = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = options.bind(tango)(mike);
                         mike = mike.VerificationFormFieldTypes;
                         mike = mike.TEXT_INPUT;
-                        if(!(mike !== zulu)) { _fun88574_ip = 311; continue _fun88574 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 311; continue _fun00003 }
  137:
                         options = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = options.bind(tango)(mike);
                         mike = mike.VerificationFormFieldTypes;
                         mike = mike.PARAGRAPH;
-                        if(!(mike !== zulu)) { _fun88574_ip = 259; continue _fun88574 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 259; continue _fun00003 }
  170:
                         options = _closure1_slot0;
                         mike = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = options.bind(tango)(mike);
                         mike = mike.VerificationFormFieldTypes;
                         mike = mike.MULTIPLE_CHOICE;
-                        if(!(mike !== zulu)) { _fun88574_ip = 207; continue _fun88574 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 207; continue _fun00003 }
  203:
                         mike = null;
                         return mike;

@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: VoiceChannelUserLimit
-        _fun115755: for(var _fun115755_ip = 0; ; ) switch(_fun115755_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.users;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = kilo.left;
             report['style'] = options;
             options = null;
-            if(!golf) { _fun115755_ip = 153; continue _fun115755 }
+            if(!golf) { _fun00002_ip = 153; continue _fun00001 }
  70:
             offset = _closure1_slot4;
             foxtrot = _closure1_slot1;

@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun101482: for(var _fun101482_ip = 0; ; ) switch(_fun101482_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = {};
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['container'] = mike;
             mike = {};
             zulu = undefined;
-            if(!tango) { _fun101482_ip = 111; continue _fun101482 }
+            if(!tango) { _fun00002_ip = 111; continue _fun00001 }
  83:
             verify = _closure1_slot1;
             options = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  111:
             mike['borderRadius'] = zulu;
             zulu = undefined;
-            if(!tango) { _fun101482_ip = 124; continue _fun101482 }
+            if(!tango) { _fun00002_ip = 124; continue _fun00001 }
  120:
             zulu = 'hidden';
  124:
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/chat_input/native/guard/ChatInputGuard.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: ChatInputGuard
-        _fun101483: for(var _fun101483_ip = 0; ; ) switch(_fun101483_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot1;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = mike.bind(tango)(zulu);
             zulu = entity.type;
             mike = 'simple-action';
-            if(!(mike !== zulu)) { _fun101483_ip = 635; continue _fun101483 }
+            if(!(mike !== zulu)) { _fun00004_ip = 635; continue _fun00003 }
  59:
             offset = entity.message;
             backup = entity.subtext;
@@ -233,18 +233,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             offset = options != backup;
             verify = null;
-            if(!offset) { _fun101483_ip = 373; continue _fun101483 }
+            if(!offset) { _fun00004_ip = 373; continue _fun00003 }
  282:
             yankee = 'string';
             offset = typeof backup;
             verify = null;
-            if(!(yankee === offset)) { _fun101483_ip = 373; continue _fun101483 }
+            if(!(yankee === offset)) { _fun00004_ip = 373; continue _fun00003 }
  295:
             yankee = backup.length;
             offset = 0;
             offset = yankee > offset;
             verify = null;
-            if(!offset) { _fun101483_ip = 373; continue _fun101483 }
+            if(!offset) { _fun00004_ip = 373; continue _fun00003 }
  311:
             foxtrot = _closure1_slot6;
             yankee = _closure1_slot0;
@@ -268,10 +268,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.ButtonGroup;
             verify = {};
             foxtrot = source;
-            if(!(options != sequence)) { _fun101483_ip = 533; continue _fun101483 }
+            if(!(options != sequence)) { _fun00004_ip = 533; continue _fun00003 }
  416:
             foxtrot = source;
-            if(!(options != vacuum)) { _fun101483_ip = 533; continue _fun101483 }
+            if(!(options != vacuum)) { _fun00004_ip = 533; continue _fun00003 }
  423:
             sizing = _closure1_slot7;
             update = _closure1_slot0;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf[2] = verify;
             verify = options != romeo;
             options = null;
-            if(!verify) { _fun101483_ip = 619; continue _fun101483 }
+            if(!verify) { _fun00004_ip = 619; continue _fun00003 }
  556:
             yankee = _closure1_slot6;
             offset = _closure1_slot1;
@@ -346,13 +346,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['onPress'] = romeo;
             entity['icon'] = golf;
             backup = null;
-            if(!(backup != kilo)) { _fun101483_ip = 741; continue _fun101483 }
+            if(!(backup != kilo)) { _fun00004_ip = 741; continue _fun00003 }
  737:
-            if(!(backup == romeo)) { _fun101483_ip = 815; continue _fun101483 }
+            if(!(backup == romeo)) { _fun00004_ip = 815; continue _fun00003 }
  741:
             options = backup != sizing;
             golf = null;
-            if(!options) { _fun101483_ip = 813; continue _fun101483 }
+            if(!options) { _fun00004_ip = 813; continue _fun00003 }
  750:
             yankee = _closure1_slot6;
             offset = _closure1_slot1;
@@ -370,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['deadline'] = sizing;
             golf = yankee.bind(tango)(offset, options);
  813:
-            _fun101483_ip = 915; continue _fun101483;
+            _fun00004_ip = 915; continue _fun00003;
  815:
             yankee = _closure1_slot6;
             offset = _closure1_slot0;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.IconButton;
             options = {};
             options['accessibilityLabel'] = kilo;
-            if(!(backup == foxtrot)) { _fun101483_ip = 893; continue _fun101483 }
+            if(!(backup == foxtrot)) { _fun00004_ip = 893; continue _fun00003 }
  855:
             sizing = _closure1_slot6;
             kilo = _closure1_slot0;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: ChatInputGuardContainer
-        _fun101484: for(var _fun101484_ip = 0; ; ) switch(_fun101484_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             offset = entity.children;
@@ -461,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = false;
             entity['collapsable'] = report;
             oscar = null;
-            if(romeo) { _fun101484_ip = 136; continue _fun101484 }
+            if(romeo) { _fun00006_ip = 136; continue _fun00005 }
  110:
             options = _closure1_slot6;
             golf = _closure1_slot5;
@@ -478,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.content;
             oscar['style'] = foxtrot;
             yankee = null;
-            if(!romeo) { _fun101484_ip = 212; continue _fun101484 }
+            if(!romeo) { _fun00006_ip = 212; continue _fun00005 }
  168:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot1;

@@ -46,12 +46,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure2_slot1 = mike;
         mike = zulu.useEffect;
         entity = function() {
-            _fun91562: for(var _fun91562_ip = 0; ; ) switch(_fun91562_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
                 mike = mike != zulu;
-                if(!mike) { _fun91562_ip = 42; continue _fun91562 }
+                if(!mike) { _fun00002_ip = 42; continue _fun00001 }
  16:
                 zulu = _closure2_slot0;
                 tango = zulu.state;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.RESOLVING;
                 mike = tango !== zulu;
  42:
-                if(!mike) { _fun91562_ip = 196; continue _fun91562 }
+                if(!mike) { _fun00002_ip = 196; continue _fun00001 }
  48:
                 mike = _closure2_slot1;
                 tango = mike.current;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = _closure2_slot0;
                 mike = mike.code;
                 mike = zulu.bind(tango)(mike);
-                if(mike) { _fun91562_ip = 196; continue _fun91562 }
+                if(mike) { _fun00002_ip = 196; continue _fun00001 }
  79:
                 mike = _closure2_slot1;
                 zulu = mike.current;

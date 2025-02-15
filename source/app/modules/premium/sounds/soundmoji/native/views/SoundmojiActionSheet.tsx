@@ -1,6 +1,6 @@
 // app/modules/premium/sounds/soundmoji/native/views/SoundmojiActionSheet.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun100087: for(var _fun100087_ip = 0; ; ) switch(_fun100087_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         yankee = argBaz;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = backup.isIOS;
         backup = romeo.bind(backup)();
         romeo = undefined;
-        if(!backup) { _fun100087_ip = 277; continue _fun100087 }
+        if(!backup) { _fun00002_ip = 277; continue _fun00001 }
  274:
         romeo = foxtrot;
  277:
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/premium/sounds/soundmoji/native/views/SoundmojiActionSheet.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: SoundmojiActionSheet
-            _fun100088: for(var _fun100088_ip = 0; ; ) switch(_fun100088_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = argFoo;
                 verify = mike.guildId;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 kilo = null;
                 mike = kilo == output;
                 entity = null;
-                if(mike) { _fun100088_ip = 523; continue _fun100088 }
+                if(mike) { _fun00004_ip = 523; continue _fun00003 }
  111:
                 tango = _closure1_slot5;
                 zulu = _closure1_slot0;
@@ -155,12 +155,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 oscar['style'] = verify;
                 verify = output.emojiId;
                 offset = kilo != verify;
-                if(offset) { _fun100088_ip = 203; continue _fun100088 }
+                if(offset) { _fun00004_ip = 203; continue _fun00003 }
  193:
                 verify = output.emojiName;
                 offset = kilo != verify;
  203:
-                if(!offset) { _fun100088_ip = 310; continue _fun100088 }
+                if(!offset) { _fun00004_ip = 310; continue _fun00003 }
  206:
                 romeo = _closure1_slot5;
                 result = _closure1_slot1;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 sizing = output.emojiName;
                 result = kilo != sizing;
                 kilo = '';
-                if(!result) { _fun100088_ip = 300; continue _fun100088 }
+                if(!result) { _fun00004_ip = 300; continue _fun00003 }
  297:
                 kilo = sizing;
  300:

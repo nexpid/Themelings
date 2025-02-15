@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/native/openChannelCallModalForChannelId.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: openChannelCallModalForChannelId
-        _fun74958: for(var _fun74958_ip = 0; ; ) switch(_fun74958_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             report = _closure1_slot2;
@@ -34,14 +34,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = argFoo;
             zulu = tango.bind(report)(zulu);
             tango = null;
-            if(!(tango != zulu)) { _fun74958_ip = 120; continue _fun74958 }
+            if(!(tango != zulu)) { _fun00002_ip = 120; continue _fun00001 }
  29:
-            if(!mike) { _fun74958_ip = 42; continue _fun74958 }
+            if(!mike) { _fun00002_ip = 42; continue _fun00001 }
  32:
             tango = zulu.isGuildStageVoice;
             mike = tango.bind(zulu)();
  42:
-            if(!mike) { _fun74958_ip = 84; continue _fun74958 }
+            if(!mike) { _fun00002_ip = 84; continue _fun00001 }
  45:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = false;
             mike = tango === report;
  84:
-            if(mike) { _fun74958_ip = 120; continue _fun74958 }
+            if(mike) { _fun00002_ip = 120; continue _fun00001 }
  87:
             tango = _closure1_slot0;
             mike = _closure1_slot1;

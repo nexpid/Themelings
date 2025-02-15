@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/favorites/useGuildIdForChannelRoute.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useGuildIdForChannelRoute
-        _fun53313: for(var _fun53313_ip = 0; ; ) switch(_fun53313_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             report = _closure1_slot0;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity = tango.bind(report)(mike, entity);
             mike = null;
-            if(!(mike == entity)) { _fun53313_ip = 74; continue _fun53313 }
+            if(!(mike == entity)) { _fun00002_ip = 74; continue _fun00001 }
  64:
             mike = zulu.getGuildId;
             entity = mike.bind(zulu)();
@@ -66,38 +66,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getGuildIdForGenericRedirect
-        _fun53315: for(var _fun53315_ip = 0; ; ) switch(_fun53315_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot2;
             entity = tango.getGuildId;
             tango = entity.bind(tango)();
             entity = _closure1_slot4;
-            if(!(tango === entity)) { _fun53315_ip = 106; continue _fun53315 }
+            if(!(tango === entity)) { _fun00004_ip = 106; continue _fun00003 }
  28:
             report = _closure1_slot3;
             tango = report.isFavorite;
             entity = zulu.id;
             entity = tango.bind(report)(entity);
-            if(entity) { _fun53315_ip = 100; continue _fun53315 }
+            if(entity) { _fun00004_ip = 100; continue _fun00003 }
  51:
             entity = zulu.isThread;
             entity = entity.bind(zulu)();
-            if(!entity) { _fun53315_ip = 88; continue _fun53315 }
+            if(!entity) { _fun00004_ip = 88; continue _fun00003 }
  64:
             report = _closure1_slot3;
             tango = report.isFavorite;
             entity = zulu.parent_id;
             entity = tango.bind(report)(entity);
-            if(entity) { _fun53315_ip = 100; continue _fun53315 }
+            if(entity) { _fun00004_ip = 100; continue _fun00003 }
  88:
             entity = zulu.getGuildId;
             entity = entity.bind(zulu)();
-            _fun53315_ip = 104; continue _fun53315;
+            _fun00004_ip = 104; continue _fun00003;
  100:
             entity = _closure1_slot4;
  104:
-            _fun53315_ip = 116; continue _fun53315;
+            _fun00004_ip = 116; continue _fun00003;
  106:
             mike = zulu.getGuildId;
             entity = mike.bind(zulu)();

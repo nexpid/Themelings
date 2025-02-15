@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = argBar;
         var _closure2_slot1 = mike;
         entity = function() {
-            _fun117975: for(var _fun117975_ip = 0; ; ) switch(_fun117975_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -39,9 +39,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = {};
                 zulu['categoryId'] = golf;
                 zulu = options.bind(verify)(zulu);
-                if(zulu) { _fun117975_ip = 155; continue _fun117975 }
+                if(zulu) { _fun00002_ip = 155; continue _fun00001 }
  112:
-                if(tango) { _fun117975_ip = 155; continue _fun117975 }
+                if(tango) { _fun00002_ip = 155; continue _fun00001 }
  115:
                 verify = _closure1_slot1;
                 offset = _closure1_slot2;
@@ -52,18 +52,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = {};
                 options['categoryId'] = golf;
                 options = verify.bind(offset)(options);
-                _fun117975_ip = 218; continue _fun117975;
+                _fun00002_ip = 218; continue _fun00001;
  155:
-                if(!zulu) { _fun117975_ip = 161; continue _fun117975 }
+                if(!zulu) { _fun00002_ip = 161; continue _fun00001 }
  158:
                 zulu = !tango;
  161:
-                if(!zulu) { _fun117975_ip = 170; continue _fun117975 }
+                if(!zulu) { _fun00002_ip = 170; continue _fun00001 }
  164:
                 tango = null;
                 zulu = tango != report;
  170:
-                if(!zulu) { _fun117975_ip = 218; continue _fun117975 }
+                if(!zulu) { _fun00002_ip = 218; continue _fun00001 }
  173:
                 tango = _closure1_slot1;
                 report = _closure1_slot2;

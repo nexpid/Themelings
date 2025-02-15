@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/share/native/ShareSearchInput.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun128012: for(var _fun128012_ip = 0; ; ) switch(_fun128012_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             backup = zulu.backgroundColor;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = verify.placeholderTextColor;
             kilo = foxtrot == sizing;
             foxtrot = undefined;
-            if(kilo) { _fun128012_ip = 163; continue _fun128012 }
+            if(kilo) { _fun00002_ip = 163; continue _fun00001 }
  154:
             kilo = sizing.toString;
             foxtrot = kilo.bind(sizing)();

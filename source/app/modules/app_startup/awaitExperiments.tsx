@@ -50,11 +50,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['beginLoadedExperimentsTimeout'] = tango;
     tango = function() { // Original name: onExperimentsLoaded
-        _fun108311: for(var _fun108311_ip = 0; ; ) switch(_fun108311_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot1;
             mike = null;
-            if(!(mike != zulu)) { _fun108311_ip = 46; continue _fun108311 }
+            if(!(mike != zulu)) { _fun00002_ip = 46; continue _fun00001 }
  13:
             zulu = _closure1_slot0;
             mike = zulu.resolve;

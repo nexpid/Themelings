@@ -12,13 +12,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun97775: for(var _fun97775_ip = 0; ; ) switch(_fun97775_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     verify = argBar;
                     tango = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun97775_ip = 218; continue _fun97775 }
+                    if(mike) { _fun00002_ip = 218; continue _fun00001 }
  18:
                     mike = argFoo;
                     var _closure4_slot0 = mike;
@@ -33,11 +33,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun97775_ip = 215; continue _fun97775 }
+                    if(report) { _fun00002_ip = 215; continue _fun00001 }
  69:
                     report = _closure1_slot8;
                     report = report.DENIED;
-                    if(!(mike !== report)) { _fun97775_ip = 125; continue _fun97775 }
+                    if(!(mike !== report)) { _fun00002_ip = 125; continue _fun00001 }
  83:
                     golf = _closure1_slot0;
                     oscar = _closure1_slot1;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return entity;
                     };
                     zulu = report.bind(oscar)(zulu);
-                    _fun97775_ip = 210; continue _fun97775;
+                    _fun00002_ip = 210; continue _fun00001;
  125:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot1;
@@ -118,11 +118,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun97779: for(var _fun97779_ip = 0; ; ) switch(_fun97779_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun97779_ip = 96; continue _fun97779 }
+                    if(mike) { _fun00004_ip = 96; continue _fun00003 }
  7:
                     mike = _closure1_slot5;
                     tango = mike.NativePermissionManager;
@@ -133,17 +133,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  34:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun97779_ip = 93; continue _fun97779 }
+                    if(tango) { _fun00004_ip = 93; continue _fun00003 }
  40:
                     tango = _closure1_slot8;
                     tango = tango.UNDETERMINED;
-                    if(!(mike === tango)) { _fun97779_ip = 88; continue _fun97779 }
+                    if(!(mike === tango)) { _fun00004_ip = 88; continue _fun00003 }
  54:
                     zulu = _closure1_slot5;
                     report = zulu.DCDProvisionalNotificationUtils;
                     tango = report.registerProvisionalNotification;
                     zulu = function(argFoo) {
-                        _fun97780: for(var _fun97780_ip = 0; ; ) switch(_fun97780_ip) {
+                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             tango = _closure1_slot0;
                             zulu = _closure1_slot1;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike['type'] = oscar;
                             oscar = 'denied';
                             golf = argFoo;
-                            if(!golf) { _fun97780_ip = 68; continue _fun97780 }
+                            if(!golf) { _fun00006_ip = 68; continue _fun00005 }
  64:
                             oscar = 'accepted';
  68:
@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure1_slot3;
                 mike = function* () {
                     entity = function* () { // Original name: ?anon_0_
-                        _fun97786: for(var _fun97786_ip = 0; ; ) switch(_fun97786_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(mike) { _fun97786_ip = 78; continue _fun97786 }
+                            if(mike) { _fun00008_ip = 78; continue _fun00007 }
  7:
                             mike = _closure1_slot5;
                             tango = mike.NativePermissionManager;
@@ -286,11 +286,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             return mike;
  34:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tango) { _fun97786_ip = 75; continue _fun97786 }
+                            if(tango) { _fun00008_ip = 75; continue _fun00007 }
  40:
                             zulu = _closure1_slot8;
                             zulu = zulu.AUTHORIZED;
-                            if(!(mike !== zulu)) { _fun97786_ip = 70; continue _fun97786 }
+                            if(!(mike !== zulu)) { _fun00008_ip = 70; continue _fun00007 }
  54:
                             report = _closure2_slot0;
                             tango = undefined;

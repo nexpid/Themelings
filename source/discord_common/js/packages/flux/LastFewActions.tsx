@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = '../discord_common/js/packages/flux/LastFewActions.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: add
-        _fun6790: for(var _fun6790_ip = 0; ; ) switch(_fun6790_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = _closure1_slot0;
             mike = tango.push;
@@ -30,14 +30,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = _closure1_slot0;
             entity = entity.length;
             mike = 10;
-            if(!(entity > mike)) { _fun6790_ip = 63; continue _fun6790 }
+            if(!(entity > mike)) { _fun00002_ip = 63; continue _fun00001 }
  36:
             tango = _closure1_slot0;
             entity = tango.shift;
             entity = entity.bind(tango)();
             entity = _closure1_slot0;
             entity = entity.length;
-            if(entity > mike) { _fun6790_ip = 36; continue _fun6790 }
+            if(entity > mike) { _fun00002_ip = 36; continue _fun00001 }
  63:
             entity = undefined;
             return entity;

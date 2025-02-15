@@ -1,6 +1,6 @@
 // app/modules/chat_input/native/ChatInputNativeComponent.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun101283: for(var _fun101283_ip = 0; ; ) switch(_fun101283_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         foxtrot = argBaz;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         var _closure1_slot5 = mike;
         tango = verify.forwardRef;
         mike = function(argFoo, argBar) {
-            _fun101284: for(var _fun101284_ip = 0; ; ) switch(_fun101284_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.accessibilityLabel;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 vacuum = entity.editable;
                 source = entity.markAsSpoilerTitle;
                 tango = undefined;
-                if(!(source === tango)) { _fun101284_ip = 96; continue _fun101284 }
+                if(!(source === tango)) { _fun00004_ip = 96; continue _fun00003 }
  38:
                 options = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -126,10 +126,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = context[verify];
                 verify = control.bind(tango)(verify);
                 verify = verify.unsafe_rawColors;
-                if(sequence) { _fun101284_ip = 307; continue _fun101284 }
+                if(sequence) { _fun00004_ip = 307; continue _fun00003 }
  299:
                 control = verify.PRIMARY_500;
-                _fun101284_ip = 313; continue _fun101284;
+                _fun00004_ip = 313; continue _fun00003;
  307:
                 control = verify.WHITE_500;
  313:
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = null;
                 context = verify != context;
                 verify = 0.6;
-                if(!context) { _fun101284_ip = 352; continue _fun101284 }
+                if(!context) { _fun00004_ip = 352; continue _fun00003 }
  342:
                 verify = 0.8;
  352:
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 config = record.isAndroid;
                 config = config.bind(record)();
                 record = undefined;
-                if(config) { _fun101284_ip = 395; continue _fun101284 }
+                if(config) { _fun00004_ip = 395; continue _fun00003 }
  392:
                 record = zulu;
  395:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = config.isAndroid;
                 zulu = zulu.bind(config)();
                 config = undefined;
-                if(zulu) { _fun101284_ip = 429; continue _fun101284 }
+                if(zulu) { _fun00004_ip = 429; continue _fun00003 }
  426:
                 config = mike;
  429:
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = zulu.isAndroid;
                 mike = mike.bind(zulu)();
                 control = 'default';
-                if(!mike) { _fun101284_ip = 464; continue _fun101284 }
+                if(!mike) { _fun00004_ip = 464; continue _fun00003 }
  462:
                 control = undefined;
  464:
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity['children'] = config;
                 entity['editable'] = vacuum;
                 vacuum = 2;
-                if(!sequence) { _fun101284_ip = 496; continue _fun101284 }
+                if(!sequence) { _fun00004_ip = 496; continue _fun00003 }
  493:
                 vacuum = 1;
  496:
@@ -219,11 +219,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = report.bind(entity)(tango);
         tango = verify.isAndroid;
         tango = tango.bind(verify)();
-        if(tango) { _fun101283_ip = 287; continue _fun101283 }
+        if(tango) { _fun00002_ip = 287; continue _fun00001 }
  274:
         tango = 'DCDChatInput';
         tango = options.bind(entity)(tango);
-        _fun101283_ip = 304; continue _fun101283;
+        _fun00002_ip = 304; continue _fun00001;
  287:
         options = 11;
         options = oscar[options];

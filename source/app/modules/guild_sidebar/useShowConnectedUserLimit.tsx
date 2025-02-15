@@ -7,16 +7,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = entity;
     var _closure1_slot1 = golf;
     entity = function(argFoo) { // Original name: formatNumber
-        _fun113495: for(var _fun113495_ip = 0; ; ) switch(_fun113495_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = arguments[1];
             entity = undefined;
-            if(!(zulu === entity)) { _fun113495_ip = 18; continue _fun113495 }
+            if(!(zulu === entity)) { _fun00002_ip = 18; continue _fun00001 }
  12:
             zulu = 1000;
  18:
-            if(!(!(tango >= zulu))) { _fun113495_ip = 58; continue _fun113495 }
+            if(!(!(tango >= zulu))) { _fun00002_ip = 58; continue _fun00001 }
  22:
             mike = tango.toFixed;
             entity = 0;
@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = 2;
             entity = '0';
             entity = report.bind(oscar)(mike, entity);
-            _fun113495_ip = 124; continue _fun113495;
+            _fun00002_ip = 124; continue _fun00001;
  58:
             mike = global;
             golf = mike.Math;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = '';
             zulu = 0;
             tango = report;
-            if(!(golf != zulu)) { _fun113495_ip = 102; continue _fun113495 }
+            if(!(golf != zulu)) { _fun00002_ip = 102; continue _fun00001 }
  98:
             tango = '+';
  102:
@@ -50,14 +50,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot3 = entity;
     tango = function(argFoo) { // Original name: useConnectedUserLimit
-        _fun113496: for(var _fun113496_ip = 0; ; ) switch(_fun113496_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             mike = entity.channel;
             report = entity.video;
             tango = entity.considerMaxStageVoiceUserLimit;
             oscar = undefined;
-            if(!(tango === oscar)) { _fun113496_ip = 30; continue _fun113496 }
+            if(!(tango === oscar)) { _fun00004_ip = 30; continue _fun00003 }
  28:
             tango = true;
  30:
@@ -72,19 +72,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = 0;
             oscar = oscar > entity;
             options = -1;
-            if(!oscar) { _fun113496_ip = 91; continue _fun113496 }
+            if(!oscar) { _fun00004_ip = 91; continue _fun00003 }
  85:
             options = mike.userLimit;
  91:
-            if(!report) { _fun113496_ip = 98; continue _fun113496 }
+            if(!report) { _fun00004_ip = 98; continue _fun00003 }
  94:
             report = verify > entity;
  98:
             mike = options;
-            if(!report) { _fun113496_ip = 133; continue _fun113496 }
+            if(!report) { _fun00004_ip = 133; continue _fun00003 }
  104:
             report = verify;
-            if(!(options > entity)) { _fun113496_ip = 130; continue _fun113496 }
+            if(!(options > entity)) { _fun00004_ip = 130; continue _fun00003 }
  111:
             oscar = global;
             golf = oscar.Math;
@@ -93,11 +93,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  130:
             mike = report;
  133:
-            if(!tango) { _fun113496_ip = 146; continue _fun113496 }
+            if(!tango) { _fun00004_ip = 146; continue _fun00003 }
  136:
             zulu = _closure1_slot2;
             entity = 0;
-            if(!(mike !== zulu)) { _fun113496_ip = 149; continue _fun113496 }
+            if(!(mike !== zulu)) { _fun00004_ip = 149; continue _fun00003 }
  146:
             entity = mike;
  149:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/guild_sidebar/useShowConnectedUserLimit.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: useShowConnectedUserLimit
-        _fun113497: for(var _fun113497_ip = 0; ; ) switch(_fun113497_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             oscar = mike.channel;
@@ -141,11 +141,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(entity)(tango);
             entity = 0;
             entity = tango > entity;
-            if(!entity) { _fun113497_ip = 63; continue _fun113497 }
+            if(!entity) { _fun00006_ip = 63; continue _fun00005 }
  60:
             entity = !zulu;
  63:
-            if(!entity) { _fun113497_ip = 69; continue _fun113497 }
+            if(!entity) { _fun00006_ip = 69; continue _fun00005 }
  66:
             entity = !mike;
  69:
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['default'] = report;
     zulu['useConnectedUserLimit'] = tango;
     mike = function(argFoo) { // Original name: useConnectedUserLimitFormatted
-        _fun113498: for(var _fun113498_ip = 0; ; ) switch(_fun113498_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = entity.channel;
@@ -171,13 +171,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = tango <= entity;
             mike = null;
             entity = null;
-            if(golf) { _fun113498_ip = 118; continue _fun113498 }
+            if(golf) { _fun00008_ip = 118; continue _fun00007 }
  58:
-            if(!(mike == oscar)) { _fun113498_ip = 73; continue _fun113498 }
+            if(!(mike == oscar)) { _fun00008_ip = 73; continue _fun00007 }
  62:
             mike = _closure1_slot3;
             mike = mike.bind(report)(tango);
-            _fun113498_ip = 115; continue _fun113498;
+            _fun00008_ip = 115; continue _fun00007;
  73:
             zulu = _closure1_slot3;
             golf = zulu.bind(report)(oscar);

@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     tango['validation'] = verify;
     options = function(argFoo) { // Original name: handler
-        _fun109679: for(var _fun109679_ip = 0; ; ) switch(_fun109679_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.socket;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.application;
             options = entity.id;
             entity = null;
-            if(!(entity != options)) { _fun109679_ip = 117; continue _fun109679 }
+            if(!(entity != options)) { _fun00002_ip = 117; continue _fun00001 }
  49:
             zulu = _closure1_slot0;
             mike = _closure1_slot1;

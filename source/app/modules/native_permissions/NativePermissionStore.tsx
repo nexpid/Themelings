@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun56496: for(var _fun56496_ip = 0; ; ) switch(_fun56496_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun56496_ip = 51; continue _fun56496 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun56496_ip = 92; continue _fun56496;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun56496_ip = 71; continue _fun56496 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun56497: for(var _fun56497_ip = 0; ; ) switch(_fun56497_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun56497_ip = 74; continue _fun56497;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -166,11 +166,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun56503: for(var _fun56503_ip = 0; ; ) switch(_fun56503_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = argFoo;
                 entity = null;
-                if(!(entity == mike)) { _fun56503_ip = 16; continue _fun56503 }
+                if(!(entity == mike)) { _fun00006_ip = 16; continue _fun00005 }
  9:
                 mike = _closure1_slot9;
  16:
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'hasPermission';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun56505: for(var _fun56505_ip = 0; ; ) switch(_fun56505_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = _closure1_slot9;
                 zulu = entity.permissionStates;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = zulu[entity];
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun56505_ip = 43; continue _fun56505 }
+                if(!entity) { _fun00008_ip = 43; continue _fun00007 }
  29:
                 mike = _closure1_slot7;
                 mike = mike.ACCEPTED;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'handleSetNativePermission';
         report['key'] = golf;
         oscar = function(argFoo) { // Original name: value
-            _fun56506: for(var _fun56506_ip = 0; ; ) switch(_fun56506_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = argFoo;
                 golf = entity.state;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = entity.permissionStates;
                 report = entity[options];
                 entity[options] = golf;
-                if(!(report !== golf)) { _fun56506_ip = 115; continue _fun56506 }
+                if(!(report !== golf)) { _fun00010_ip = 115; continue _fun00009 }
  39:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity['type'] = options;
                 entity['action'] = golf;
                 golf = null;
-                if(!(golf == report)) { _fun56506_ip = 102; continue _fun56506 }
+                if(!(golf == report)) { _fun00010_ip = 102; continue _fun00009 }
  92:
                 oscar = _closure1_slot7;
                 report = oscar.NONE;

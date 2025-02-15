@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = function(argFoo) { // Original name: InputUsername
-        _fun99281: for(var _fun99281_ip = 0; ; ) switch(_fun99281_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             offset = golf.defaultValue;
@@ -51,13 +51,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = entity != offset;
             options = 'default';
             entity = options;
-            if(!tango) { _fun99281_ip = 63; continue _fun99281 }
+            if(!tango) { _fun00002_ip = 63; continue _fun00001 }
  39:
             verify = offset.includes;
             tango = ' ';
             tango = verify.bind(offset)(tango);
             entity = options;
-            if(!tango) { _fun99281_ip = 63; continue _fun99281 }
+            if(!tango) { _fun00002_ip = 63; continue _fun00001 }
  59:
             entity = 'error';
  63:
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[golf] = verify;
             golf = 'error';
             options = undefined;
-            if(!(golf === verify)) { _fun99281_ip = 167; continue _fun99281 }
+            if(!(golf === verify)) { _fun00002_ip = 167; continue _fun00001 }
  161:
             options = "Username can't contain spaces";
  167:
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = 'leadingIcon';
             entity[oscar] = golf;
             oscar = function(argFoo) { // Original name: onChange
-                _fun99282: for(var _fun99282_ip = 0; ; ) switch(_fun99282_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = argFoo;
                     zulu = _closure2_slot0;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = ' ';
                     entity = mike.bind(tango)(entity);
                     mike = 'default';
-                    if(!entity) { _fun99282_ip = 35; continue _fun99282 }
+                    if(!entity) { _fun00004_ip = 35; continue _fun00003 }
  31:
                     mike = 'error';
  35:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: GhostInputUsername
-        _fun99283: for(var _fun99283_ip = 0; ; ) switch(_fun99283_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             oscar = argFoo;
             offset = oscar.defaultValue;
@@ -139,13 +139,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = mike != offset;
             options = 'default';
             mike = options;
-            if(!golf) { _fun99283_ip = 63; continue _fun99283 }
+            if(!golf) { _fun00006_ip = 63; continue _fun00005 }
  39:
             verify = offset.includes;
             golf = ' ';
             golf = verify.bind(offset)(golf);
             mike = options;
-            if(!golf) { _fun99283_ip = 63; continue _fun99283 }
+            if(!golf) { _fun00006_ip = 63; continue _fun00005 }
  59:
             mike = 'error';
  63:
@@ -174,14 +174,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity[oscar] = options;
             oscar = 'error';
             golf = undefined;
-            if(!(oscar === options)) { _fun99283_ip = 167; continue _fun99283 }
+            if(!(oscar === options)) { _fun00006_ip = 167; continue _fun00005 }
  161:
             golf = "Username can't contain spaces";
  167:
             oscar = 'errorMessage';
             entity[oscar] = golf;
             oscar = function(argFoo) { // Original name: onChange
-                _fun99284: for(var _fun99284_ip = 0; ; ) switch(_fun99284_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     tango = argFoo;
                     zulu = _closure2_slot0;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = ' ';
                     entity = mike.bind(tango)(entity);
                     mike = 'default';
-                    if(!entity) { _fun99284_ip = 35; continue _fun99284 }
+                    if(!entity) { _fun00008_ip = 35; continue _fun00007 }
  31:
                     mike = 'error';
  35:
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function() { // Original name: CustomAttachmentExample
-        _fun99287: for(var _fun99287_ip = 0; ; ) switch(_fun99287_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.useState;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['status'] = offset;
             verify = 'error';
             options = undefined;
-            if(!(verify === offset)) { _fun99287_ip = 147; continue _fun99287 }
+            if(!(verify === offset)) { _fun00010_ip = 147; continue _fun00009 }
  141:
             options = "Username can't contain spaces";
  147:
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = oscar.AtIcon;
             entity['trailingIcon'] = oscar;
             report = function(argFoo) { // Original name: onChange
-                _fun99289: for(var _fun99289_ip = 0; ; ) switch(_fun99289_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     report = argFoo;
                     zulu = _closure2_slot1;
@@ -372,7 +372,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = ' ';
                     tango = tango.bind(report)(mike);
                     mike = 'default';
-                    if(!tango) { _fun99289_ip = 46; continue _fun99289 }
+                    if(!tango) { _fun00012_ip = 46; continue _fun00011 }
  42:
                     mike = 'error';
  46:

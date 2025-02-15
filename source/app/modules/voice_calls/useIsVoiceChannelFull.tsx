@@ -87,12 +87,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun103011: for(var _fun103011_ip = 0; ; ) switch(_fun103011_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity == zulu;
-                if(entity) { _fun103011_ip = 52; continue _fun103011 }
+                if(entity) { _fun00002_ip = 52; continue _fun00001 }
  16:
                 report = _closure1_slot3;
                 tango = report.can;

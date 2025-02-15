@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun124618: for(var _fun124618_ip = 0; ; ) switch(_fun124618_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot9;
             entity = entity.bind(zulu)();
-            if(entity) { _fun124618_ip = 51; continue _fun124618 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun124618_ip = 92; continue _fun124618;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun124618_ip = 71; continue _fun124618 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun124619: for(var _fun124619_ip = 0; ; ) switch(_fun124619_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun124619_ip = 76; continue _fun124619;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -187,10 +187,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'ensureTimezoneUpdated';
         report['key'] = golf;
         oscar = function() { // Original name: value
-            _fun124627: for(var _fun124627_ip = 0; ; ) switch(_fun124627_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 mike = _closure1_slot7;
-                if(!mike) { _fun124627_ip = 120; continue _fun124627 }
+                if(!mike) { _fun00006_ip = 120; continue _fun00005 }
  12:
                 mike = false;
                 _closure1_slot7 = mike;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = tango.TimezoneOffset;
                 tango = oscar.getSetting;
                 tango = tango.bind(oscar)();
-                if(!(tango !== report)) { _fun124627_ip = 120; continue _fun124627 }
+                if(!(tango !== report)) { _fun00006_ip = 120; continue _fun00005 }
  102:
                 mike = mike.setImmediate;
                 entity = function() {

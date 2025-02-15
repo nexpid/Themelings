@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/gravity/info_modal/ICYMIInfoScreen.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ICYMIInfoScreen
-        _fun117086: for(var _fun117086_ip = 0; ; ) switch(_fun117086_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.extendedOnboarding;
@@ -198,16 +198,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = _closure1_slot4;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun117088: for(var _fun117088_ip = 0; ; ) switch(_fun117088_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun117088_ip = 183; continue _fun117088 }
+                        if(mike) { _fun00004_ip = 183; continue _fun00003 }
  10:
                         report = _closure2_slot0;
                         golf = _closure1_slot1;
                         tango = _closure1_slot2;
-                        if(report) { _fun117088_ip = 57; continue _fun117088 }
+                        if(report) { _fun00004_ip = 57; continue _fun00003 }
  31:
                         report = 15;
                         oscar = tango[report];
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         oscar = golf.bind(report)(oscar);
                         report = oscar.pop;
                         report = report.bind(oscar)();
-                        _fun117088_ip = 175; continue _fun117088;
+                        _fun00004_ip = 175; continue _fun00003;
  57:
                         report = 13;
                         report = tango[report];
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  143:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zulu) { _fun117088_ip = 180; continue _fun117088 }
+                        if(zulu) { _fun00004_ip = 180; continue _fun00003 }
  149:
                         zulu = global;
                         report = zulu.setTimeout;
@@ -408,14 +408,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = {};
             vacuum = _closure1_slot9;
             vacuum = vacuum.LIGHT;
-            if(!(sequence !== vacuum)) { _fun117086_ip = 611; continue _fun117086 }
+            if(!(sequence !== vacuum)) { _fun00002_ip = 611; continue _fun00001 }
  589:
             sequence = _closure1_slot1;
             config = _closure1_slot2;
             vacuum = 22;
             vacuum = config[vacuum];
             vacuum = sequence.bind(tango)(vacuum);
-            _fun117086_ip = 631; continue _fun117086;
+            _fun00002_ip = 631; continue _fun00001;
  611:
             config = _closure1_slot1;
             record = _closure1_slot2;
@@ -709,11 +709,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot[output];
             foxtrot = sizing.bind(tango)(foxtrot);
             foxtrot = foxtrot.t;
-            if(romeo) { _fun117086_ip = 1867; continue _fun117086 }
+            if(romeo) { _fun00002_ip = 1867; continue _fun00001 }
  1854:
             romeo = foxtrot.+IrDzM;
             romeo = backup.bind(kilo)(romeo);
-            _fun117086_ip = 1878; continue _fun117086;
+            _fun00002_ip = 1878; continue _fun00001;
  1867:
             foxtrot = foxtrot.LhlgY2;
             romeo = backup.bind(kilo)(foxtrot);

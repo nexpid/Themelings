@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: GuildsBarPendingGuildFolder
-        _fun114427: for(var _fun114427_ip = 0; ; ) switch(_fun114427_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.node;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(1);
             options[0] = oscar;
             oscar = function() {
-                _fun114428: for(var _fun114428_ip = 0; ; ) switch(_fun114428_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = zulu.includes;
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = report.getGuildId;
                     entity = entity.bind(report)();
                     report = null;
-                    if(!(report == entity)) { _fun114428_ip = 39; continue _fun114428 }
+                    if(!(report == entity)) { _fun00004_ip = 39; continue _fun00003 }
  35:
                     entity = _closure1_slot5;
  39:
@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.bind(report)(zulu);
                 entity['accessibilityActions'] = zulu;
                 mike = function(argFoo) { // Original name: onAccessibilityAction
-                    _fun114431: for(var _fun114431_ip = 0; ; ) switch(_fun114431_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         mike = argFoo;
                         var _closure4_slot0 = mike;
@@ -132,12 +132,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         mike = mike.bind(zulu)(entity);
                         tango = null;
                         entity = tango == mike;
-                        if(entity) { _fun114431_ip = 51; continue _fun114431 }
+                        if(entity) { _fun00006_ip = 51; continue _fun00005 }
  42:
                         zulu = mike.action;
                         entity = tango == zulu;
  51:
-                        if(entity) { _fun114431_ip = 63; continue _fun114431 }
+                        if(entity) { _fun00006_ip = 63; continue _fun00005 }
  54:
                         entity = mike.action;
                         entity = entity.bind(mike)();
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['config'] = oscar;
             golf = offset.expanded;
             oscar = null;
-            if(!golf) { _fun114427_ip = 468; continue _fun114427 }
+            if(!golf) { _fun00002_ip = 468; continue _fun00001 }
  405:
             verify = _closure1_slot6;
             options = _closure1_slot0;

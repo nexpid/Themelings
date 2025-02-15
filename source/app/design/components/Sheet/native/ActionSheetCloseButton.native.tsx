@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Sheet/native/ActionSheetCloseButton.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActionSheetCloseButton
-        _fun48771: for(var _fun48771_ip = 0; ; ) switch(_fun48771_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.onPress;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             verify = 'overlay';
             golf = undefined;
-            if(!(verify === offset)) { _fun48771_ip = 192; continue _fun48771 }
+            if(!(verify === offset)) { _fun00002_ip = 192; continue _fun00001 }
  161:
             verify = _closure1_slot1;
             offset = _closure1_slot2;

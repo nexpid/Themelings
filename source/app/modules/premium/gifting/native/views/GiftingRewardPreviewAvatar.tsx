@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/gifting/native/views/GiftingRewardPreviewAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftingRewardPreviewAvatar
-        _fun88067: for(var _fun88067_ip = 0; ; ) switch(_fun88067_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             mike = mike != zulu;
             golf = undefined;
-            if(!mike) { _fun88067_ip = 132; continue _fun88067 }
+            if(!mike) { _fun00002_ip = 132; continue _fun00001 }
  116:
             mike = {};
             zulu = report.asset;

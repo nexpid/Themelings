@@ -29,11 +29,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/video_backgrounds/isVideoBackgroundSupported.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: isVideoBackgroundSupported
-        _fun52848: for(var _fun52848_ip = 0; ; ) switch(_fun52848_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun52848_ip = 16; continue _fun52848 }
+            if(!(mike === entity)) { _fun00002_ip = 16; continue _fun00001 }
  9:
             mike = _closure1_slot0;
  16:
@@ -42,7 +42,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             entity = entity.MEDIAPIPE;
             entity = zulu.bind(mike)(entity);
             report = mike;
-            if(!entity) { _fun52848_ip = 85; continue _fun52848 }
+            if(!entity) { _fun00002_ip = 85; continue _fun00001 }
  46:
             mike = global;
             tango = mike.Object;

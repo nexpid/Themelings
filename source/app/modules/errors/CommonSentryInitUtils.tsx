@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         mike['hour'] = zulu;
         var _closure2_slot2 = mike;
         entity = function() {
-            _fun36022: for(var _fun36022_ip = 0; ; ) switch(_fun36022_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = global;
                 zulu = mike.Date;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = _closure2_slot2;
                 entity = entity.minute;
                 entity = entity.slot;
-                if(!(entity !== report)) { _fun36022_ip = 131; continue _fun36022 }
+                if(!(entity !== report)) { _fun00002_ip = 131; continue _fun00001 }
  101:
                 entity = _closure2_slot2;
                 zulu = entity.minute;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 entity = _closure2_slot2;
                 entity = entity.hour;
                 entity = entity.slot;
-                if(!(entity !== tango)) { _fun36022_ip = 181; continue _fun36022 }
+                if(!(entity !== tango)) { _fun00002_ip = 181; continue _fun00001 }
  151:
                 entity = _closure2_slot2;
                 zulu = entity.hour;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = entity.budgetUsed;
                 entity = _closure2_slot0;
                 entity = zulu < entity;
-                if(!entity) { _fun36022_ip = 253; continue _fun36022 }
+                if(!entity) { _fun00002_ip = 253; continue _fun00001 }
  208:
                 zulu = _closure2_slot2;
                 report = zulu.minute;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 zulu = _closure2_slot1;
                 entity = tango < zulu;
  253:
-                if(!entity) { _fun36022_ip = 283; continue _fun36022 }
+                if(!entity) { _fun00002_ip = 283; continue _fun00001 }
  256:
                 mike = _closure2_slot2;
                 zulu = mike.hour;

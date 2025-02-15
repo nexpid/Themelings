@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['FamilyCenterVCJoinExperiment'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForFamilyCenterVCJoin
-        _fun95369: for(var _fun95369_ip = 0; ; ) switch(_fun95369_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun95369_ip = 22; continue _fun95369 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = false;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForFamilyCenterVCJoin'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForFamilyCenterVCJoin
-        _fun95370: for(var _fun95370_ip = 0; ; ) switch(_fun95370_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun95370_ip = 22; continue _fun95370 }
+            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = false;
  22:

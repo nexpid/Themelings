@@ -8,12 +8,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = options;
     tango = function(argFoo, argBar) { // Original name: batchChannelUpdate
-        _fun126143: for(var _fun126143_ip = 0; ; ) switch(_fun126143_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argBar;
             mike = report.length;
             entity = 0;
-            if(!(!(mike <= entity))) { _fun126143_ip = 155; continue _fun126143 }
+            if(!(!(mike <= entity))) { _fun00002_ip = 155; continue _fun00001 }
  17:
             zulu = function() { // Original name: onEnd
                 zulu = _closure1_slot1;
@@ -65,12 +65,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         }
     };
     mike = function(argFoo, argBar) { // Original name: batchRoleUpdate
-        _fun126145: for(var _fun126145_ip = 0; ; ) switch(_fun126145_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argBar;
             mike = report.length;
             entity = 0;
-            if(!(!(mike <= entity))) { _fun126145_ip = 155; continue _fun126145 }
+            if(!(!(mike <= entity))) { _fun00004_ip = 155; continue _fun00003 }
  17:
             zulu = function() { // Original name: onEnd
                 zulu = _closure1_slot1;

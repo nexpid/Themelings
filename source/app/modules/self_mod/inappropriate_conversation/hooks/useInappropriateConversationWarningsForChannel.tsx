@@ -54,14 +54,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = report.bind(oscar)(tango, mike, zulu);
         mike = zulu.filter;
         entity = function(argFoo) {
-            _fun79427: for(var _fun79427_ip = 0; ; ) switch(_fun79427_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argFoo;
                 tango = zulu.type;
                 entity = _closure1_slot3;
                 entity = entity.INAPPROPRIATE_CONVERSATION_TIER_1;
                 entity = tango === entity;
-                if(entity) { _fun79427_ip = 47; continue _fun79427 }
+                if(entity) { _fun00002_ip = 47; continue _fun00001 }
  28:
                 zulu = zulu.type;
                 mike = _closure1_slot3;

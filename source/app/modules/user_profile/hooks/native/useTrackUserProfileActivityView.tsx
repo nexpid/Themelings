@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useTrackUserProfileActivityView
-        _fun80482: for(var _fun80482_ip = 0; ; ) switch(_fun80482_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.userId;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = options[golf];
             var _closure2_slot2 = golf;
             oscar = !oscar;
-            if(!oscar) { _fun80482_ip = 133; continue _fun80482 }
+            if(!oscar) { _fun00002_ip = 133; continue _fun00001 }
  130:
             oscar = !tango;
  133:
@@ -85,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu[0] = oscar;
             zulu[1] = report;
             mike = function() {
-                _fun80484: for(var _fun80484_ip = 0; ; ) switch(_fun80484_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
-                    if(!mike) { _fun80484_ip = 42; continue _fun80484 }
+                    if(!mike) { _fun00004_ip = 42; continue _fun00003 }
  10:
                     tango = _closure2_slot1;
                     mike = {};

@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/pomelo/native/components/PomeloAvatar.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PomeloAvatar
-        _fun94394: for(var _fun94394_ip = 0; ; ) switch(_fun94394_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.user;
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = yankee[report];
             oscar = oscar.bind(tango)(report);
             report = null;
-            if(!(report != golf)) { _fun94394_ip = 199; continue _fun94394 }
+            if(!(report != golf)) { _fun00002_ip = 199; continue _fun00001 }
  147:
             report = {};
             report['source'] = golf;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['size'] = golf;
             golf = !options;
             report['animate'] = golf;
-            _fun94394_ip = 256; continue _fun94394;
+            _fun00002_ip = 256; continue _fun00001;
  199:
             golf = {};
             golf['user'] = offset;

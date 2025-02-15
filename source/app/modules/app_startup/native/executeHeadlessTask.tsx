@@ -15,12 +15,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot4;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun128018: for(var _fun128018_ip = 0; ; ) switch(_fun128018_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     output = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun128018_ip = 1163; continue _fun128018 }
+                    if(mike) { _fun00002_ip = 1163; continue _fun00001 }
  13:
                     kilo = output;
                     offset = argBar;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike[yankee];
                     mike = golf.bind(oscar)(mike);
                     mike = mike.wasEverActive;
-                    if(mike) { _fun128018_ip = 247; continue _fun128018 }
+                    if(mike) { _fun00002_ip = 247; continue _fun00001 }
  216:
                     golf = _closure1_slot1;
                     mike = _closure1_slot3;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure1_slot5;
                     golf = mike.currentState;
                     mike = 'active';
-                    if(!(mike !== golf)) { _fun128018_ip = 318; continue _fun128018 }
+                    if(!(mike !== golf)) { _fun00002_ip = 318; continue _fun00001 }
  265:
                     yankee = tango;
                     golf = yankee.log;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  330:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golf) { _fun128018_ip = 881; continue _fun128018 }
+                    if(golf) { _fun00002_ip = 881; continue _fun00001 }
  339:
                     sizing = tango;
                     yankee = sizing.log;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return golf;
  373:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=10);
-                    if(yankee) { _fun128018_ip = 736; continue _fun128018 }
+                    if(yankee) { _fun00002_ip = 736; continue _fun00001 }
  382:
                     output = tango;
                     sizing = output.log;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return verify;
  415:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(offset) { _fun128018_ip = 591; continue _fun128018 }
+                    if(offset) { _fun00002_ip = 591; continue _fun00001 }
  424:
                     backup = true;
                     sizing = tango;

@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot0 = golf;
     var _closure1_slot1 = options;
     mike = function(argFoo) { // Original name: getJoinOrStartButtonState
-        _fun71603: for(var _fun71603_ip = 0; ; ) switch(_fun71603_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.embeddedActivity;
@@ -31,11 +31,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             tango = tango[golf];
             tango = yankee.bind(oscar)(tango);
             yankee = tango.t;
-            if(options) { _fun71603_ip = 113; continue _fun71603 }
+            if(options) { _fun00002_ip = 113; continue _fun00001 }
  100:
             tango = yankee.sqe0ho;
             tango = foxtrot.bind(backup)(tango);
-            _fun71603_ip = 124; continue _fun71603;
+            _fun00002_ip = 124; continue _fun00001;
  113:
             yankee = yankee.I0v0Qk;
             tango = foxtrot.bind(backup)(yankee);
@@ -49,17 +49,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             yankee = yankee.bind(oscar)(tango);
             tango = yankee.isActivitiesInTextEnabled;
             tango = tango.bind(yankee)(romeo);
-            if(!(entity != offset)) { _fun71603_ip = 191; continue _fun71603 }
+            if(!(entity != offset)) { _fun00002_ip = 191; continue _fun00001 }
  168:
-            if(!(entity != verify)) { _fun71603_ip = 191; continue _fun71603 }
+            if(!(entity != verify)) { _fun00002_ip = 191; continue _fun00001 }
  172:
             offset = offset.launchId;
             verify = verify.launchId;
-            if(!(offset !== verify)) { _fun71603_ip = 1106; continue _fun71603 }
+            if(!(offset !== verify)) { _fun00002_ip = 1106; continue _fun00001 }
  191:
-            if(options) { _fun71603_ip = 1014; continue _fun71603 }
+            if(options) { _fun00002_ip = 1014; continue _fun00001 }
  197:
-            if(!(entity != report)) { _fun71603_ip = 237; continue _fun71603 }
+            if(!(entity != report)) { _fun00002_ip = 237; continue _fun00001 }
  201:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.CAN_JOIN;
-            if(!(report === entity)) { _fun71603_ip = 239; continue _fun71603 }
+            if(!(report === entity)) { _fun00002_ip = 239; continue _fun00001 }
  237:
             return zulu;
  239:
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
-            if(!(entity !== report)) { _fun71603_ip = 928; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 928; continue _fun00001 }
  275:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITY_AGE_GATED;
-            if(!(entity !== report)) { _fun71603_ip = 874; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 874; continue _fun00001 }
  311:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
-            if(!(entity !== report)) { _fun71603_ip = 820; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 820; continue _fun00001 }
  347:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.ACTIVITY_NOT_SUPPORTED_ON_OS;
-            if(!(entity !== report)) { _fun71603_ip = 763; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 763; continue _fun00001 }
  383:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.CHANNEL_FULL;
-            if(!(entity !== report)) { _fun71603_ip = 706; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 706; continue _fun00001 }
  419:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_CHANNEL_CONNECT_PERMISSION;
-            if(!(entity !== report)) { _fun71603_ip = 649; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 649; continue _fun00001 }
  455:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_CHANNEL;
-            if(!(entity !== report)) { _fun71603_ip = 592; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 592; continue _fun00001 }
  488:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_GUILD;
-            if(!(entity !== report)) { _fun71603_ip = 592; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 592; continue _fun00001 }
  521:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = options.bind(oscar)(entity);
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.NO_USER;
-            if(!(entity !== report)) { _fun71603_ip = 592; continue _fun71603 }
+            if(!(entity !== report)) { _fun00002_ip = 592; continue _fun00001 }
  554:
             options = _closure1_slot0;
             entity = _closure1_slot1;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.EmbeddedActivityJoinability;
             entity = entity.IS_AFK_CHANNEL;
             options = undefined;
-            if(!(entity === report)) { _fun71603_ip = 980; continue _fun71603 }
+            if(!(entity === report)) { _fun00002_ip = 980; continue _fun00001 }
  592:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.Etp6uL;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  649:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.w5SApq;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  706:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.rZfiNj;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  763:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.UXoQTk;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  820:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.uGDCc3;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  874:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             entity = entity.t;
             entity = entity.4WuFRE;
             options = report.bind(verify)(entity);
-            _fun71603_ip = 980; continue _fun71603;
+            _fun00002_ip = 980; continue _fun00001;
  928:
             offset = _closure1_slot0;
             entity = _closure1_slot1;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             report = 'disabled';
             entity[report] = options;
             report = undefined;
-            if(tango) { _fun71603_ip = 1095; continue _fun71603 }
+            if(tango) { _fun00002_ip = 1095; continue _fun00001 }
  1043:
             offset = _closure1_slot0;
             tango = _closure1_slot1;

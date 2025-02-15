@@ -84,12 +84,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun100326: for(var _fun100326_ip = 0; ; ) switch(_fun100326_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.active;
             tango = undefined;
-            if(!(yankee === tango)) { _fun100326_ip = 17; continue _fun100326 }
+            if(!(yankee === tango)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             yankee = false;
  17:
@@ -121,11 +121,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing[0] = update;
             sizing[1] = result;
             result = yankee;
-            if(!yankee) { _fun100326_ip = 156; continue _fun100326 }
+            if(!yankee) { _fun00002_ip = 156; continue _fun00001 }
  153:
             result = !verify;
  156:
-            if(!result) { _fun100326_ip = 162; continue _fun100326 }
+            if(!result) { _fun00002_ip = 162; continue _fun00001 }
  159:
             result = echo;
  162:
@@ -151,17 +151,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(4);
             options[0] = foxtrot;
             foxtrot = yankee;
-            if(!yankee) { _fun100326_ip = 258; continue _fun100326 }
+            if(!yankee) { _fun00002_ip = 258; continue _fun00001 }
  252:
             foxtrot = offset.actionButtonIconActive;
  258:
             options[1] = foxtrot;
-            if(!yankee) { _fun100326_ip = 268; continue _fun100326 }
+            if(!yankee) { _fun00002_ip = 268; continue _fun00001 }
  265:
             yankee = romeo;
  268:
             options[2] = yankee;
-            if(!verify) { _fun100326_ip = 281; continue _fun100326 }
+            if(!verify) { _fun00002_ip = 281; continue _fun00001 }
  275:
             verify = offset.actionButtonIconDisabled;
  281:

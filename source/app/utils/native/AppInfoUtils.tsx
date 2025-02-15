@@ -25,11 +25,11 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'utils/native/AppInfoUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: getAppMajorVersion
-        _fun123254: for(var _fun123254_ip = 0; ; ) switch(_fun123254_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             tango = undefined;
-            if(!(tango !== mike)) { _fun123254_ip = 76; continue _fun123254 }
+            if(!(tango !== mike)) { _fun00002_ip = 76; continue _fun00001 }
  13:
             entity = _closure1_slot0;
             zulu = entity.Version;
@@ -39,7 +39,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             zulu = report.length;
             entity = -1;
             mike = 2;
-            if(!(mike === zulu)) { _fun123254_ip = 74; continue _fun123254 }
+            if(!(mike === zulu)) { _fun00002_ip = 74; continue _fun00001 }
  55:
             mike = global;
             zulu = mike.Number;

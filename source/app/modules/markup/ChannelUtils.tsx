@@ -26,13 +26,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/markup/ChannelUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isChannelTypeMentionable
-        _fun61849: for(var _fun61849_ip = 0; ; ) switch(_fun61849_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = _closure1_slot0;
             zulu = undefined;
             entity = entity.bind(zulu)(tango);
-            if(entity) { _fun61849_ip = 29; continue _fun61849 }
+            if(entity) { _fun00002_ip = 29; continue _fun00001 }
  20:
             mike = _closure1_slot1;
             entity = mike.bind(zulu)(tango);

@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/useDispatchOpenActivity.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useDispatchOpenActivity
-        _fun75896: for(var _fun75896_ip = 0; ; ) switch(_fun75896_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.userActivity;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = null;
             zulu = zulu == oscar;
             golf = undefined;
-            if(zulu) { _fun75896_ip = 37; continue _fun75896 }
+            if(zulu) { _fun00002_ip = 37; continue _fun00001 }
  32:
             golf = oscar.applicationId;
  37:
@@ -48,17 +48,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = golf;
             zulu[1] = oscar;
             mike = function() {
-                _fun75897: for(var _fun75897_ip = 0; ; ) switch(_fun75897_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     zulu = null;
                     entity = zulu != entity;
-                    if(!entity) { _fun75897_ip = 24; continue _fun75897 }
+                    if(!entity) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     mike = _closure2_slot1;
                     entity = zulu != mike;
  24:
-                    if(!entity) { _fun75897_ip = 93; continue _fun75897 }
+                    if(!entity) { _fun00004_ip = 93; continue _fun00003 }
  27:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;

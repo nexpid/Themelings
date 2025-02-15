@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/forwarding/native/ForwardingIcon.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForwardingIcon
-        _fun86041: for(var _fun86041_ip = 0; ; ) switch(_fun86041_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot1;
@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = mike.useOldIcon;
             report = _closure1_slot0;
             oscar = _closure1_slot1;
-            if(mike) { _fun86041_ip = 95; continue _fun86041 }
+            if(mike) { _fun00002_ip = 95; continue _fun00001 }
  75:
             mike = 3;
             mike = oscar[mike];
             mike = report.bind(tango)(mike);
             zulu = mike.ChatArrowRightIcon;
-            _fun86041_ip = 113; continue _fun86041;
+            _fun00002_ip = 113; continue _fun00001;
  95:
             mike = 2;
             mike = oscar[mike];

@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/public_guilds/PublicGuildsUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: isPublicSystemMessage
-        _fun69381: for(var _fun69381_ip = 0; ; ) switch(_fun69381_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             report = _closure1_slot1;
@@ -47,19 +47,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             entity = report.bind(mike)(entity);
             entity = entity.bind(mike)(tango);
-            if(!entity) { _fun69381_ip = 55; continue _fun69381 }
+            if(!entity) { _fun00002_ip = 55; continue _fun00001 }
  36:
             mike = tango.messageReference;
             report = mike.guild_id;
             mike = _closure1_slot3;
             entity = report === mike;
  55:
-            if(entity) { _fun69381_ip = 95; continue _fun69381 }
+            if(entity) { _fun00002_ip = 95; continue _fun00001 }
  58:
             report = tango.author;
             mike = null;
             mike = mike != report;
-            if(!mike) { _fun69381_ip = 92; continue _fun69381 }
+            if(!mike) { _fun00002_ip = 92; continue _fun00001 }
  73:
             tango = tango.author;
             tango = tango.id;

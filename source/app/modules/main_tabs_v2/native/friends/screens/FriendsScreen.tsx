@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot[3] = sizing;
         foxtrot[4] = verify;
         verify = function() {
-            _fun118333: for(var _fun118333_ip = 0; ; ) switch(_fun118333_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = new Array(0);
                 zulu = _closure2_slot4;
@@ -262,12 +262,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = zulu + mike;
                 tango = 0;
                 mike = verify > tango;
-                if(mike) { _fun118333_ip = 44; continue _fun118333 }
+                if(mike) { _fun00002_ip = 44; continue _fun00001 }
  36:
                 zulu = _closure2_slot5;
                 mike = zulu > tango;
  44:
-                if(!mike) { _fun118333_ip = 257; continue _fun118333 }
+                if(!mike) { _fun00002_ip = 257; continue _fun00001 }
  50:
                 zulu = entity.push;
                 mike = {};
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot[4] = output;
         foxtrot[5] = sizing;
         golf = function() {
-            _fun118335: for(var _fun118335_ip = 0; ; ) switch(_fun118335_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tango = _closure1_slot7;
                 zulu = _closure1_slot8;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 options = options + entity;
                 sizing = 0;
                 entity = null;
-                if(!(options > sizing)) { _fun118335_ip = 459; continue _fun118335 }
+                if(!(options > sizing)) { _fun00004_ip = 459; continue _fun00003 }
  72:
                 yankee = _closure1_slot7;
                 offset = _closure1_slot4;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 output = _closure2_slot4;
                 kilo = _closure2_slot5;
                 kilo = output + kilo;
-                if(!(!(kilo > sizing))) { _fun118335_ip = 354; continue _fun118335 }
+                if(!(!(kilo > sizing))) { _fun00004_ip = 354; continue _fun00003 }
  288:
                 sizing = _closure1_slot0;
                 kilo = _closure1_slot2;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 update = _closure2_slot6;
                 kilo['spam'] = update;
                 kilo = output.bind(result)(sizing, kilo);
-                _fun118335_ip = 427; continue _fun118335;
+                _fun00004_ip = 427; continue _fun00003;
  354:
                 output = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -441,13 +441,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  427:
                 romeo['subLabel'] = kilo;
                 kilo = function() { // Original name: onPress
-                    _fun118336: for(var _fun118336_ip = 0; ; ) switch(_fun118336_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         zulu = _closure2_slot4;
                         mike = _closure2_slot5;
                         zulu = zulu + mike;
                         mike = 0;
-                        if(!(!(zulu > mike))) { _fun118336_ip = 56; continue _fun118336 }
+                        if(!(!(zulu > mike))) { _fun00006_ip = 56; continue _fun00005 }
  21:
                         report = _closure2_slot0;
                         tango = report.navigate;
@@ -456,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu['screen'] = mike;
                         mike = 'friends';
                         mike = tango.bind(report)(mike, zulu);
-                        _fun118336_ip = 87; continue _fun118336;
+                        _fun00006_ip = 87; continue _fun00005;
  56:
                         tango = _closure2_slot0;
                         zulu = tango.navigate;

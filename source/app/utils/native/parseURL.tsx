@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = /quests\\/(\d+)/;
     var _closure1_slot19 = tango;
     tango = function(argFoo) { // Original name: parseQuery
-        _fun90486: for(var _fun90486_ip = 0; ; ) switch(_fun90486_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
  3: // try_start_0
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = entity.bind(tango)(report);
             tango = report.map;
             entity = function(argFoo) {
-                _fun90487: for(var _fun90487_ip = 0; ; ) switch(_fun90487_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     entity = report[Symbol.iterator];
@@ -89,24 +89,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = undefined;
                     zulu = mike === golf;
                     mike = undefined;
-                    if(zulu) { _fun90487_ip = 27; continue _fun90487 }
+                    if(zulu) { _fun00004_ip = 27; continue _fun00003 }
  24:
                     mike = tango;
  27:
                     tango = undefined;
-                    if(zulu) { _fun90487_ip = 57; continue _fun90487 }
+                    if(zulu) { _fun00004_ip = 57; continue _fun00003 }
  32:
                     oscar = report().value;
                     report = entity;
                     report = report === golf;
                     tango = undefined;
                     zulu = report;
-                    if(report) { _fun90487_ip = 57; continue _fun90487 }
+                    if(report) { _fun00004_ip = 57; continue _fun00003 }
  51:
                     tango = oscar;
                     zulu = report;
  57:
-                    if(zulu) { _fun90487_ip = 63; continue _fun90487 }
+                    if(zulu) { _fun00004_ip = 63; continue _fun00003 }
  60:
                     entity.return();
  63:
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = zulu.isArray;
                     zulu = mike.bind(zulu)(tango);
                     mike = tango;
-                    if(!zulu) { _fun90487_ip = 101; continue _fun90487 }
+                    if(!zulu) { _fun00004_ip = 101; continue _fun00003 }
  95:
                     zulu = 0;
                     mike = tango[zulu];
@@ -144,11 +144,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'utils/native/parseURL.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: parseURL
-        _fun90488: for(var _fun90488_ip = 0; ; ) switch(_fun90488_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             vacuum = arguments[1];
             yankee = undefined;
-            if(!(vacuum === yankee)) { _fun90488_ip = 13; continue _fun90488 }
+            if(!(vacuum === yankee)) { _fun00006_ip = 13; continue _fun00005 }
  11:
             vacuum = false;
  13:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = argFoo;
             sierra = mike.bind(tango)(entity);
             backup = null;
-            if(!(backup != sierra)) { _fun90488_ip = 4465; continue _fun90488 }
+            if(!(backup != sierra)) { _fun00006_ip = 4465; continue _fun00005 }
  63:
             mike = _closure1_slot1;
             tango = _closure1_slot2;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = backup != foxtrot;
             entity = '';
             mike = entity;
-            if(!report) { _fun90488_ip = 138; continue _fun90488 }
+            if(!report) { _fun00006_ip = 138; continue _fun00005 }
  135:
             mike = foxtrot;
  138:
@@ -197,7 +197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(yankee)(oscar);
             oscar = options.findCodedLink;
             oscar = oscar.bind(options)(sierra);
-            if(!(backup != oscar)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(backup != oscar)) { _fun00006_ip = 973; continue _fun00005 }
  216:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.INVITE;
-            if(!(verify !== options)) { _fun90488_ip = 4411; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 4411; continue _fun00005 }
  260:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.TEMPLATE;
-            if(!(verify !== options)) { _fun90488_ip = 4366; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 4366; continue _fun00005 }
  301:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.BUILD_OVERRIDE;
-            if(!(verify !== options)) { _fun90488_ip = 4321; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 4321; continue _fun00005 }
  342:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.MANUAL_BUILD_OVERRIDE;
-            if(!(verify !== options)) { _fun90488_ip = 4321; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 4321; continue _fun00005 }
  383:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.EVENT;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  424:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.CHANNEL_LINK;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  465:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.APP_DIRECTORY_PROFILE;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  506:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.ACTIVITY_BOOKMARK;
-            if(!(verify !== options)) { _fun90488_ip = 914; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 914; continue _fun00005 }
  547:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.EMBEDDED_ACTIVITY_INVITE;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  588:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.GUILD_PRODUCT;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  629:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.SERVER_SHOP;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  670:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.QUESTS_EMBED;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  711:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.APP_DIRECTORY_STOREFRONT;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  752:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -324,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.APP_DIRECTORY_STOREFRONT_SKU;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  793:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.APP_OAUTH2_LINK;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  834:
             verify = oscar.type;
             kilo = _closure1_slot0;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = kilo.bind(yankee)(options);
             options = options.CodedLinkType;
             options = options.COLLECTIBLES_SHOP;
-            if(!(verify !== options)) { _fun90488_ip = 973; continue _fun90488 }
+            if(!(verify !== options)) { _fun00006_ip = 973; continue _fun00005 }
  872:
             options = global;
             verify = options.Error;
@@ -378,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = options.bind(yankee)(sierra);
             offset = verify.length;
             options = 0;
-            if(!(!(offset > options))) { _fun90488_ip = 4277; continue _fun90488 }
+            if(!(!(offset > options))) { _fun00006_ip = 4277; continue _fun00005 }
  1018:
             romeo = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -387,10 +387,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = romeo.bind(yankee)(offset);
             offset = romeo.findRemoteAuthFingerprint;
             offset = offset.bind(romeo)(papa, lima);
-            if(!(backup != offset)) { _fun90488_ip = 1066; continue _fun90488 }
+            if(!(backup != offset)) { _fun00006_ip = 1066; continue _fun00005 }
  1054:
             romeo = offset.length;
-            if(!(!(romeo > options))) { _fun90488_ip = 4237; continue _fun90488 }
+            if(!(!(romeo > options))) { _fun00006_ip = 4237; continue _fun00005 }
  1066:
             kilo = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = kilo.bind(yankee)(romeo);
             romeo = kilo.isDiscordHostname;
             romeo = romeo.bind(kilo)(papa);
-            if(romeo) { _fun90488_ip = 1134; continue _fun90488 }
+            if(romeo) { _fun00006_ip = 1134; continue _fun00005 }
  1100:
             kilo = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -407,9 +407,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = kilo.bind(yankee)(romeo);
             romeo = kilo.isDiscordProtocol;
             romeo = romeo.bind(kilo)(sizing);
-            if(!romeo) { _fun90488_ip = 2805; continue _fun90488 }
+            if(!romeo) { _fun00006_ip = 2805; continue _fun00005 }
  1134:
-            if(!(backup != lima)) { _fun90488_ip = 2805; continue _fun90488 }
+            if(!(backup != lima)) { _fun00006_ip = 2805; continue _fun00005 }
  1141:
             kilo = _closure1_slot0;
             romeo = _closure1_slot2;
@@ -418,30 +418,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             kilo = kilo.bind(yankee)(romeo);
             romeo = kilo.tryParseChannelPath;
             romeo = romeo.bind(kilo)(lima);
-            if(!(backup == romeo)) { _fun90488_ip = 4124; continue _fun90488 }
+            if(!(backup == romeo)) { _fun00006_ip = 4124; continue _fun00005 }
  1179:
             sizing = lima.match;
             kilo = _closure1_slot19;
             output = sizing.bind(lima)(kilo);
-            if(!(backup != output)) { _fun90488_ip = 1213; continue _fun90488 }
+            if(!(backup != output)) { _fun00006_ip = 1213; continue _fun00005 }
  1198:
             kilo = output.length;
             sizing = 1;
-            if(!(!(kilo > sizing))) { _fun90488_ip = 4080; continue _fun90488 }
+            if(!(!(kilo > sizing))) { _fun00006_ip = 4080; continue _fun00005 }
  1213:
             echo = lima.match;
             kilo = _closure1_slot10;
             update = echo.bind(lima)(kilo);
-            if(!(backup != update)) { _fun90488_ip = 1247; continue _fun90488 }
+            if(!(backup != update)) { _fun00006_ip = 1247; continue _fun00005 }
  1232:
             kilo = update.length;
             echo = 1;
-            if(!(!(kilo > echo))) { _fun90488_ip = 4032; continue _fun90488 }
+            if(!(!(kilo > echo))) { _fun00006_ip = 4032; continue _fun00005 }
  1247:
             source = lima.match;
             kilo = _closure1_slot11;
             kilo = source.bind(lima)(kilo);
-            if(!(backup != kilo)) { _fun90488_ip = 1317; continue _fun90488 }
+            if(!(backup != kilo)) { _fun00006_ip = 1317; continue _fun00005 }
  1266:
             source = _closure1_slot0;
             control = _closure1_slot2;
@@ -451,99 +451,99 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = control.parseOAuth2AuthorizeProps;
             config = backup != foxtrot;
             kilo = entity;
-            if(!config) { _fun90488_ip = 1305; continue _fun90488 }
+            if(!config) { _fun00006_ip = 1305; continue _fun00005 }
  1302:
             kilo = foxtrot;
  1305:
             control = source.bind(control)(kilo);
-            if(!(backup == control)) { _fun90488_ip = 3972; continue _fun90488 }
+            if(!(backup == control)) { _fun00006_ip = 3972; continue _fun00005 }
  1317:
             source = lima.match;
             kilo = _closure1_slot9;
             source = source.bind(lima)(kilo);
-            if(!(backup != source)) { _fun90488_ip = 2638; continue _fun90488 }
+            if(!(backup != source)) { _fun00006_ip = 2638; continue _fun00005 }
  1339:
             config = source.length;
             kilo = 1;
-            if(!(config > kilo)) { _fun90488_ip = 2638; continue _fun90488 }
+            if(!(config > kilo)) { _fun00006_ip = 2638; continue _fun00005 }
  1354:
             config = source[kilo];
             kilo = 'composeMessage';
-            if(!(kilo !== config)) { _fun90488_ip = 2612; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2612; continue _fun00005 }
  1371:
             kilo = 'contactSync';
-            if(!(kilo !== config)) { _fun90488_ip = 2591; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2591; continue _fun00005 }
  1384:
             kilo = 'addFriends';
-            if(!(kilo !== config)) { _fun90488_ip = 2570; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2570; continue _fun00005 }
  1397:
             kilo = 'friends';
-            if(!(kilo !== config)) { _fun90488_ip = 2517; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2517; continue _fun00005 }
  1408:
             kilo = 'editProfile';
-            if(!(kilo !== config)) { _fun90488_ip = 2496; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2496; continue _fun00005 }
  1421:
             kilo = 'voiceChannel';
-            if(!(kilo !== config)) { _fun90488_ip = 2402; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2402; continue _fun00005 }
  1432:
             kilo = 'sessionManagement';
-            if(!(kilo !== config)) { _fun90488_ip = 2378; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2378; continue _fun00005 }
  1445:
             kilo = 'home';
-            if(!(kilo !== config)) { _fun90488_ip = 2301; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2301; continue _fun00005 }
  1456:
             kilo = 'icymi';
-            if(!(kilo !== config)) { _fun90488_ip = 2277; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2277; continue _fun00005 }
  1467:
             kilo = 'connections';
-            if(!(kilo !== config)) { _fun90488_ip = 2222; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2222; continue _fun00005 }
  1478:
             kilo = 'family-center';
-            if(!(kilo !== config)) { _fun90488_ip = 2193; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2193; continue _fun00005 }
  1491:
             kilo = 'promo-url';
-            if(!(kilo !== config)) { _fun90488_ip = 2125; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2125; continue _fun00005 }
  1504:
             kilo = 'account-standing';
-            if(!(kilo !== config)) { _fun90488_ip = 2096; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2096; continue _fun00005 }
  1517:
             kilo = 'open-shop';
-            if(!(kilo !== config)) { _fun90488_ip = 2072; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2072; continue _fun00005 }
  1530:
             kilo = 'authorized-apps';
-            if(!(kilo !== config)) { _fun90488_ip = 2048; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 2048; continue _fun00005 }
  1543:
             kilo = 'share';
-            if(!(kilo !== config)) { _fun90488_ip = 1817; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 1817; continue _fun00005 }
  1554:
             kilo = 'dave-protocol-verification';
-            if(!(kilo !== config)) { _fun90488_ip = 1633; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 1633; continue _fun00005 }
  1564:
             kilo = 'gift';
-            if(!(kilo !== config)) { _fun90488_ip = 1609; continue _fun90488 }
+            if(!(kilo !== config)) { _fun00006_ip = 1609; continue _fun00005 }
  1572:
             source = 'store';
             kilo = null;
-            if(!(source === config)) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!(source === config)) { _fun00006_ip = 2631; continue _fun00005 }
  1585:
             source = {};
             config = _closure1_slot7;
             config = config.NITRO_HOME;
             source['type'] = config;
             kilo = source;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  1609:
             source = {};
             config = _closure1_slot7;
             config = config.GIFT;
             source['type'] = config;
             kilo = source;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  1633:
             config = _closure1_slot20;
             record = backup != foxtrot;
             source = entity;
-            if(!record) { _fun90488_ip = 1650; continue _fun90488 }
+            if(!record) { _fun00006_ip = 1650; continue _fun00005 }
  1647:
             source = foxtrot;
  1650:
@@ -552,11 +552,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             config = source.fingerprint;
             source = backup != record;
             kilo = null;
-            if(!source) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!source) { _fun00006_ip = 2631; continue _fun00005 }
  1678:
             source = backup != config;
             kilo = null;
-            if(!source) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!source) { _fun00006_ip = 2631; continue _fun00005 }
  1690:
             status = _closure1_slot0;
             whiskey = _closure1_slot2;
@@ -577,12 +577,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             target['location'] = equality;
             target = status.bind(whiskey)(target);
             target = target.enabled;
-            if(!source) { _fun90488_ip = 1776; continue _fun90488 }
+            if(!source) { _fun00006_ip = 1776; continue _fun00005 }
  1773:
             source = target;
  1776:
             kilo = null;
-            if(!source) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!source) { _fun00006_ip = 2631; continue _fun00005 }
  1784:
             source = {};
             target = _closure1_slot7;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source['userId'] = record;
             source['fingerprint'] = config;
             kilo = source;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  1817:
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -601,12 +601,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = config.isIOS;
             source = source.bind(config)();
             kilo = null;
-            if(!source) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!source) { _fun00006_ip = 2631; continue _fun00005 }
  1855:
             config = _closure1_slot20;
             record = backup != foxtrot;
             source = entity;
-            if(!record) { _fun90488_ip = 1872; continue _fun90488 }
+            if(!record) { _fun00006_ip = 1872; continue _fun00005 }
  1869:
             source = foxtrot;
  1872:
@@ -626,19 +626,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             status = 'string';
             quebec = typeof source;
             config = undefined;
-            if(!(status === quebec)) { _fun90488_ip = 1936; continue _fun90488 }
+            if(!(status === quebec)) { _fun00006_ip = 1936; continue _fun00005 }
  1923:
             whiskey = whiskey.bind(yankee)(source);
             config = undefined;
-            if(!whiskey) { _fun90488_ip = 1936; continue _fun90488 }
+            if(!whiskey) { _fun00006_ip = 1936; continue _fun00005 }
  1933:
             config = source;
  1936:
             source = typeof equality;
-            if(!(status !== source)) { _fun90488_ip = 1947; continue _fun90488 }
+            if(!(status !== source)) { _fun00006_ip = 1947; continue _fun00005 }
  1943:
             whiskey = {};
-            _fun90488_ip = 1966; continue _fun90488;
+            _fun00006_ip = 1966; continue _fun00005;
  1947:
             source = global;
             status = source.JSON;
@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             whiskey = source.bind(status)(whiskey);
             status = whiskey.reduce;
             source = function(argFoo, argBar) {
-                _fun90490: for(var _fun90490_ip = 0; ; ) switch(_fun90490_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     golf = argBar;
@@ -662,36 +662,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = undefined;
                     oscar = zulu === report;
                     zulu = undefined;
-                    if(oscar) { _fun90490_ip = 30; continue _fun90490 }
+                    if(oscar) { _fun00008_ip = 30; continue _fun00007 }
  27:
                     zulu = mike;
  30:
                     mike = undefined;
-                    if(oscar) { _fun90490_ip = 60; continue _fun90490 }
+                    if(oscar) { _fun00008_ip = 60; continue _fun00007 }
  35:
                     options = golf().value;
                     golf = tango;
                     golf = golf === report;
                     mike = undefined;
                     oscar = golf;
-                    if(golf) { _fun90490_ip = 60; continue _fun90490 }
+                    if(golf) { _fun00008_ip = 60; continue _fun00007 }
  54:
                     mike = options;
                     oscar = golf;
  60:
-                    if(oscar) { _fun90490_ip = 66; continue _fun90490 }
+                    if(oscar) { _fun00008_ip = 66; continue _fun00007 }
  63:
                     tango.return();
  66:
                     tango = _closure2_slot0;
                     tango = tango.bind(report)(zulu);
-                    if(!tango) { _fun90490_ip = 92; continue _fun90490 }
+                    if(!tango) { _fun00008_ip = 92; continue _fun00007 }
  81:
                     oscar = 'string';
                     report = typeof mike;
                     tango = oscar === report;
  92:
-                    if(!tango) { _fun90490_ip = 99; continue _fun90490 }
+                    if(!tango) { _fun00008_ip = 99; continue _fun00007 }
  95:
                     entity[zulu] = mike;
  99:
@@ -709,21 +709,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['shareId'] = config;
             golf['attachmentManifest'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2048:
             golf = {};
             source = _closure1_slot7;
             source = source.AUTHORIZED_APPS;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2072:
             golf = {};
             source = _closure1_slot7;
             source = source.SHOP;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2096:
             golf = {};
             source = _closure1_slot7;
@@ -731,19 +731,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = source;
             golf['pathname'] = lima;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2125:
             source = _closure1_slot20;
             config = backup != foxtrot;
             golf = entity;
-            if(!config) { _fun90488_ip = 2142; continue _fun90488 }
+            if(!config) { _fun00006_ip = 2142; continue _fun00005 }
  2139:
             golf = foxtrot;
  2142:
             golf = source.bind(yankee)(golf);
             source = golf.promo_url;
             kilo = null;
-            if(!(yankee !== source)) { _fun90488_ip = 2631; continue _fun90488 }
+            if(!(yankee !== source)) { _fun00006_ip = 2631; continue _fun00005 }
  2164:
             golf = {};
             config = _closure1_slot7;
@@ -751,7 +751,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = config;
             golf['promoUrl'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2193:
             golf = {};
             source = _closure1_slot7;
@@ -759,12 +759,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = source;
             golf['pathname'] = lima;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2222:
             source = _closure1_slot20;
             config = backup != foxtrot;
             golf = entity;
-            if(!config) { _fun90488_ip = 2239; continue _fun90488 }
+            if(!config) { _fun00006_ip = 2239; continue _fun00005 }
  2236:
             golf = foxtrot;
  2239:
@@ -776,19 +776,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = config;
             golf['source'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2277:
             golf = {};
             source = _closure1_slot7;
             source = source.ICYMI;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2301:
             source = _closure1_slot20;
             config = backup != foxtrot;
             golf = entity;
-            if(!config) { _fun90488_ip = 2318; continue _fun90488 }
+            if(!config) { _fun00006_ip = 2318; continue _fun00005 }
  2315:
             golf = foxtrot;
  2318:
@@ -804,19 +804,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['highlightChannelId'] = config;
             golf['highlightMessageId'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2378:
             golf = {};
             source = _closure1_slot7;
             source = source.SESSION_MANAGEMENT;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2402:
             source = _closure1_slot20;
             config = backup != foxtrot;
             golf = entity;
-            if(!config) { _fun90488_ip = 2419; continue _fun90488 }
+            if(!config) { _fun00006_ip = 2419; continue _fun00005 }
  2416:
             golf = foxtrot;
  2419:
@@ -836,19 +836,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['via'] = config;
             golf['action'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2496:
             golf = {};
             source = _closure1_slot7;
             source = source.EDIT_PROFILE;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2517:
             source = _closure1_slot20;
             config = backup != foxtrot;
             golf = entity;
-            if(!config) { _fun90488_ip = 2534; continue _fun90488 }
+            if(!config) { _fun00006_ip = 2534; continue _fun00005 }
  2531:
             golf = foxtrot;
  2534:
@@ -860,21 +860,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = config;
             golf['userId'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2570:
             golf = {};
             source = _closure1_slot7;
             source = source.ADD_FRIENDS;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2591:
             golf = {};
             source = _closure1_slot7;
             source = source.CONTACT_SYNC;
             golf['type'] = source;
             kilo = golf;
-            _fun90488_ip = 2631; continue _fun90488;
+            _fun00006_ip = 2631; continue _fun00005;
  2612:
             golf = {};
             source = _closure1_slot7;
@@ -882,7 +882,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['type'] = source;
             kilo = golf;
  2631:
-            if(!(backup == kilo)) { _fun90488_ip = 3953; continue _fun90488 }
+            if(!(backup == kilo)) { _fun00006_ip = 3953; continue _fun00005 }
  2638:
             source = _closure1_slot0;
             golf = _closure1_slot2;
@@ -890,58 +890,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             source = source.bind(yankee)(golf);
             golf = source.tryParseEventDetailsPath;
             sequence = golf.bind(source)(lima);
-            if(!(backup == sequence)) { _fun90488_ip = 3887; continue _fun90488 }
+            if(!(backup == sequence)) { _fun00006_ip = 3887; continue _fun00005 }
  2673:
             source = lima.match;
             golf = _closure1_slot13;
             golf = source.bind(lima)(golf);
-            if(!(backup == golf)) { _fun90488_ip = 3554; continue _fun90488 }
+            if(!(backup == golf)) { _fun00006_ip = 3554; continue _fun00005 }
  2695:
             source = lima.match;
             golf = _closure1_slot14;
             source = source.bind(lima)(golf);
-            if(!(backup == source)) { _fun90488_ip = 3452; continue _fun90488 }
+            if(!(backup == source)) { _fun00006_ip = 3452; continue _fun00005 }
  2717:
             config = lima.match;
             golf = _closure1_slot15;
             record = config.bind(lima)(golf);
-            if(!(backup == record)) { _fun90488_ip = 3348; continue _fun90488 }
+            if(!(backup == record)) { _fun00006_ip = 3348; continue _fun00005 }
  2739:
             config = lima.match;
             golf = _closure1_slot16;
             config = config.bind(lima)(golf);
-            if(!(backup == config)) { _fun90488_ip = 3219; continue _fun90488 }
+            if(!(backup == config)) { _fun00006_ip = 3219; continue _fun00005 }
  2761:
             target = lima.match;
             golf = _closure1_slot17;
             target = target.bind(lima)(golf);
-            if(!(backup == target)) { _fun90488_ip = 3065; continue _fun90488 }
+            if(!(backup == target)) { _fun00006_ip = 3065; continue _fun00005 }
  2783:
             status = lima.match;
             golf = _closure1_slot18;
             golf = status.bind(lima)(golf);
-            if(!(backup == golf)) { _fun90488_ip = 2984; continue _fun90488 }
+            if(!(backup == golf)) { _fun00006_ip = 2984; continue _fun00005 }
  2805:
             status = backup == papa;
             golf = undefined;
-            if(status) { _fun90488_ip = 2829; continue _fun90488 }
+            if(status) { _fun00006_ip = 2829; continue _fun00005 }
  2814:
             lima = papa.match;
             status = _closure1_slot12;
             golf = lima.bind(papa)(status);
  2829:
-            if(!(backup == golf)) { _fun90488_ip = 2942; continue _fun90488 }
+            if(!(backup == golf)) { _fun00006_ip = 2942; continue _fun00005 }
  2833:
             golf = _closure1_slot8;
             status = backup == golf;
             golf = undefined;
-            if(status) { _fun90488_ip = 2861; continue _fun90488 }
+            if(status) { _fun00006_ip = 2861; continue _fun00005 }
  2846:
             status = _closure1_slot8;
             status = status.url;
             golf = status.host;
  2861:
-            if(!(papa !== golf)) { _fun90488_ip = 2900; continue _fun90488 }
+            if(!(papa !== golf)) { _fun00006_ip = 2900; continue _fun00005 }
  2865:
             golf = {};
             golf['fingerprint'] = mike;
@@ -951,7 +951,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             status = status.NONE;
             papa['type'] = status;
             golf['payload'] = papa;
-            _fun90488_ip = 2940; continue _fun90488;
+            _fun00006_ip = 2940; continue _fun00005;
  2900:
             papa = {};
             papa['fingerprint'] = mike;
@@ -964,7 +964,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             papa['payload'] = status;
             golf = papa;
  2940:
-            _fun90488_ip = 2982; continue _fun90488;
+            _fun00006_ip = 2982; continue _fun00005;
  2942:
             papa = {};
             papa['fingerprint'] = mike;
@@ -984,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             status = golf.decodeURIComponent;
             sierra = backup != foxtrot;
             golf = entity;
-            if(!sierra) { _fun90488_ip = 3009; continue _fun90488 }
+            if(!sierra) { _fun00006_ip = 3009; continue _fun00005 }
  3006:
             golf = foxtrot;
  3009:
@@ -1012,7 +1012,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             papa = _closure1_slot20;
             target = backup != foxtrot;
             golf = entity;
-            if(!target) { _fun90488_ip = 3109; continue _fun90488 }
+            if(!target) { _fun00006_ip = 3109; continue _fun00005 }
  3106:
             golf = foxtrot;
  3109:
@@ -1085,7 +1085,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             record = golf.decodeURIComponent;
             papa = backup != foxtrot;
             golf = entity;
-            if(!papa) { _fun90488_ip = 3397; continue _fun90488 }
+            if(!papa) { _fun00006_ip = 3397; continue _fun00005 }
  3394:
             golf = foxtrot;
  3397:
@@ -1108,7 +1108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             record = golf.decodeURIComponent;
             context = backup != foxtrot;
             golf = entity;
-            if(!context) { _fun90488_ip = 3477; continue _fun90488 }
+            if(!context) { _fun00006_ip = 3477; continue _fun00005 }
  3474:
             golf = foxtrot;
  3477:
@@ -1139,9 +1139,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             context = source.key;
             papa = source.redirect;
             target = source.fingerprint;
-            if(!(backup != context)) { _fun90488_ip = 3759; continue _fun90488 }
+            if(!(backup != context)) { _fun00006_ip = 3759; continue _fun00005 }
  3600:
-            if(!(backup != papa)) { _fun90488_ip = 3759; continue _fun90488 }
+            if(!(backup != papa)) { _fun00006_ip = 3759; continue _fun00005 }
  3607:
             record = golf.URL;
             source = golf.location;
@@ -1158,7 +1158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             variable39 = papa;
             source = new variable40[record](variable39, variable38, variable37);
             record = source instanceof Object ? source : config;
-            if(!(backup != target)) { _fun90488_ip = 3709; continue _fun90488 }
+            if(!(backup != target)) { _fun00006_ip = 3709; continue _fun00005 }
  3687:
             papa = record.searchParams;
             config = papa.append;
@@ -1274,7 +1274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  4124:
             golf = _closure1_slot20;
             kilo = backup != foxtrot;
-            if(!kilo) { _fun90488_ip = 4138; continue _fun90488 }
+            if(!kilo) { _fun00006_ip = 4138; continue _fun00005 }
  4135:
             entity = foxtrot;
  4138:
@@ -1285,11 +1285,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity['attemptId'] = tango;
             golf = {};
             foxtrot = romeo.messageId;
-            if(!(backup == foxtrot)) { _fun90488_ip = 4184; continue _fun90488 }
+            if(!(backup == foxtrot)) { _fun00006_ip = 4184; continue _fun00005 }
  4172:
             foxtrot = _closure1_slot7;
             foxtrot = foxtrot.CHANNEL;
-            _fun90488_ip = 4194; continue _fun90488;
+            _fun00006_ip = 4194; continue _fun00005;
  4184:
             backup = _closure1_slot7;
             foxtrot = backup.MESSAGE;

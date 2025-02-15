@@ -48,18 +48,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/components/FormRoleColorPicker.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormRoleColorPicker
-        _fun127285: for(var _fun127285_ip = 0; ; ) switch(_fun127285_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             verify = mike.color;
             tango = undefined;
-            if(!(verify === tango)) { _fun127285_ip = 23; continue _fun127285 }
+            if(!(verify === tango)) { _fun00002_ip = 23; continue _fun00001 }
  16:
             verify = _closure1_slot4;
  23:
             var _closure2_slot0 = verify;
             oscar = mike.disabled;
-            if(!(oscar === tango)) { _fun127285_ip = 38; continue _fun127285 }
+            if(!(oscar === tango)) { _fun00002_ip = 38; continue _fun00001 }
  36:
             oscar = false;
  38:

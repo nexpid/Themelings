@@ -106,10 +106,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[3] = offset;
         report[4] = tango;
         tango = function() {
-            _fun86395: for(var _fun86395_ip = 0; ; ) switch(_fun86395_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot5;
-                if(entity) { _fun86395_ip = 158; continue _fun86395 }
+                if(entity) { _fun00002_ip = 158; continue _fun00001 }
  13:
                 zulu = _closure1_slot7;
                 mike = zulu.getInitialCounts;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango[0] = options;
         tango[1] = golf;
         entity = function() {
-            _fun86396: for(var _fun86396_ip = 0; ; ) switch(_fun86396_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot6;
                 entity = undefined;
@@ -161,14 +161,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = _closure2_slot2;
                 zulu = _closure1_slot8;
                 zulu = zulu.EMBEDDED_APPLICATION;
-                if(!(tango !== zulu)) { _fun86396_ip = 63; continue _fun86396 }
+                if(!(tango !== zulu)) { _fun00004_ip = 63; continue _fun00003 }
  37:
                 report = _closure1_slot5;
                 tango = report.getMemberIds;
                 zulu = _closure2_slot0;
                 zulu = zulu.guild_id;
                 verify = tango.bind(report)(zulu);
-                _fun86396_ip = 67; continue _fun86396;
+                _fun00004_ip = 67; continue _fun00003;
  63:
                 verify = new Array(0);
  67:

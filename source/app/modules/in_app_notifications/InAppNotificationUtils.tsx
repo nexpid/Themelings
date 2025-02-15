@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/in_app_notifications/InAppNotificationUtils.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: getNotificationTitle
-        _fun86689: for(var _fun86689_ip = 0; ; ) switch(_fun86689_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             tango = argBaz;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             oscar = mike != tango;
             romeo = null;
-            if(!oscar) { _fun86689_ip = 109; continue _fun86689 }
+            if(!oscar) { _fun00002_ip = 109; continue _fun00001 }
  71:
             options = _closure1_slot0;
             oscar = _closure1_slot1;
@@ -77,32 +77,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = report.type;
             report = _closure1_slot5;
             report = report.GROUP_DM;
-            if(!(report !== options)) { _fun86689_ip = 435; continue _fun86689 }
+            if(!(report !== options)) { _fun00002_ip = 435; continue _fun00001 }
  140:
             report = _closure1_slot5;
             report = report.GUILD_TEXT;
-            if(!(report !== options)) { _fun86689_ip = 374; continue _fun86689 }
+            if(!(report !== options)) { _fun00002_ip = 374; continue _fun00001 }
  157:
             report = _closure1_slot5;
             report = report.GUILD_ANNOUNCEMENT;
-            if(!(report !== options)) { _fun86689_ip = 374; continue _fun86689 }
+            if(!(report !== options)) { _fun00002_ip = 374; continue _fun00001 }
  174:
             report = _closure1_slot5;
             report = report.ANNOUNCEMENT_THREAD;
-            if(!(report !== options)) { _fun86689_ip = 222; continue _fun86689 }
+            if(!(report !== options)) { _fun00002_ip = 222; continue _fun00001 }
  188:
             report = _closure1_slot5;
             report = report.PUBLIC_THREAD;
-            if(!(report !== options)) { _fun86689_ip = 222; continue _fun86689 }
+            if(!(report !== options)) { _fun00002_ip = 222; continue _fun00001 }
  202:
             entity = _closure1_slot5;
             report = entity.PRIVATE_THREAD;
             entity = oscar;
-            if(!(report === options)) { _fun86689_ip = 472; continue _fun86689 }
+            if(!(report === options)) { _fun00002_ip = 472; continue _fun00001 }
  222:
-            if(!(mike == tango)) { _fun86689_ip = 323; continue _fun86689 }
+            if(!(mike == tango)) { _fun00002_ip = 323; continue _fun00001 }
  226:
-            if(!(mike == zulu)) { _fun86689_ip = 269; continue _fun86689 }
+            if(!(mike == zulu)) { _fun00002_ip = 269; continue _fun00001 }
  230:
             tango = global;
             tango = tango.HermesInternal;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = oscar;
             output = golf;
             tango = update[verify](echo, result, output, sizing, kilo);
-            _fun86689_ip = 321; continue _fun86689;
+            _fun00002_ip = 321; continue _fun00001;
  269:
             report = zulu.toString;
             kilo = report.bind(zulu)();
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = golf;
             tango = update[yankee](echo, result, output, sizing, kilo, backup, foxtrot);
  321:
-            _fun86689_ip = 369; continue _fun86689;
+            _fun00002_ip = 369; continue _fun00001;
  323:
             report = global;
             report = report.HermesInternal;
@@ -143,10 +143,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = update[yankee](echo, result, output, sizing, kilo, backup, foxtrot);
  369:
             entity = tango;
-            _fun86689_ip = 472; continue _fun86689;
+            _fun00002_ip = 472; continue _fun00001;
  374:
             entity = oscar;
-            if(!(mike != zulu)) { _fun86689_ip = 472; continue _fun86689 }
+            if(!(mike != zulu)) { _fun00002_ip = 472; continue _fun00001 }
  381:
             mike = zulu.toString;
             kilo = mike.bind(zulu)();
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = oscar;
             output = golf;
             entity = update[options](echo, result, output, sizing, kilo, backup, foxtrot);
-            _fun86689_ip = 472; continue _fun86689;
+            _fun00002_ip = 472; continue _fun00001;
  435:
             mike = global;
             mike = mike.HermesInternal;
@@ -177,15 +177,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['getNotificationTitle'] = tango;
     mike = function(argFoo, argBar) { // Original name: isReactionMilestoneNotification
-        _fun86690: for(var _fun86690_ip = 0; ; ) switch(_fun86690_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argBar;
             entity = null;
-            if(!(entity != zulu)) { _fun86690_ip = 88; continue _fun86690 }
+            if(!(entity != zulu)) { _fun00004_ip = 88; continue _fun00003 }
  9:
             mike = _closure1_slot5;
             mike = mike.GUILD_ANNOUNCEMENT;
-            if(!(zulu !== mike)) { _fun86690_ip = 88; continue _fun86690 }
+            if(!(zulu !== mike)) { _fun00004_ip = 88; continue _fun00003 }
  26:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -196,32 +196,32 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.sumBy;
             zulu = argFoo;
             mike = function(argFoo) {
-                _fun86691: for(var _fun86691_ip = 0; ; ) switch(_fun86691_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     report = entity.count_details;
                     tango = null;
                     entity = tango == report;
                     oscar = undefined;
-                    if(entity) { _fun86691_ip = 26; continue _fun86691 }
+                    if(entity) { _fun00006_ip = 26; continue _fun00005 }
  20:
                     oscar = report.burst;
  26:
                     golf = tango != oscar;
                     entity = 0;
-                    if(!golf) { _fun86691_ip = 38; continue _fun86691 }
+                    if(!golf) { _fun00006_ip = 38; continue _fun00005 }
  35:
                     entity = oscar;
  38:
                     oscar = tango == report;
                     zulu = undefined;
-                    if(oscar) { _fun86691_ip = 53; continue _fun86691 }
+                    if(oscar) { _fun00006_ip = 53; continue _fun00005 }
  47:
                     zulu = report.normal;
  53:
                     tango = tango != zulu;
                     mike = 0;
-                    if(!tango) { _fun86691_ip = 65; continue _fun86691 }
+                    if(!tango) { _fun00006_ip = 65; continue _fun00005 }
  62:
                     mike = zulu;
  65:

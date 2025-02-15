@@ -177,14 +177,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         result[0] = update;
         foxtrot['contentTypes'] = result;
         output = function(argFoo) { // Original name: children
-            _fun95695: for(var _fun95695_ip = 0; ; ) switch(_fun95695_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 tango = entity.visibleContent;
                 mike = entity.markAsDismissed;
                 zulu = _closure2_slot0;
                 entity = null;
-                if(!(tango === zulu)) { _fun95695_ip = 54; continue _fun95695 }
+                if(!(tango === zulu)) { _fun00002_ip = 54; continue _fun00001 }
  28:
                 report = _closure1_slot6;
                 tango = _closure1_slot9;

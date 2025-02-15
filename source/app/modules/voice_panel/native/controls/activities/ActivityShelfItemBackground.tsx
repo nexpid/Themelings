@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: ActivityShelfItemBackground
-        _fun122140: for(var _fun122140_ip = 0; ; ) switch(_fun122140_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             romeo = entity.imageBackground;
@@ -77,17 +77,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot0 = zulu;
             tango = romeo.state;
             zulu = 'not-found';
-            if(!(zulu !== tango)) { _fun122140_ip = 304; continue _fun122140 }
+            if(!(zulu !== tango)) { _fun00002_ip = 304; continue _fun00001 }
  100:
-            if(entity) { _fun122140_ip = 304; continue _fun122140 }
+            if(entity) { _fun00002_ip = 304; continue _fun00001 }
  106:
             zulu = romeo.state;
             entity = 'loading';
-            if(!(entity !== zulu)) { _fun122140_ip = 260; continue _fun122140 }
+            if(!(entity !== zulu)) { _fun00002_ip = 260; continue _fun00001 }
  122:
             entity = romeo.url;
             verify = null;
-            if(!(verify != entity)) { _fun122140_ip = 260; continue _fun122140 }
+            if(!(verify != entity)) { _fun00002_ip = 260; continue _fun00001 }
  136:
             tango = _closure1_slot5;
             zulu = _closure1_slot0;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf['accessibilityRole'] = yankee;
             yankee = verify != offset;
             verify = '';
-            if(!yankee) { _fun122140_ip = 238; continue _fun122140 }
+            if(!yankee) { _fun00002_ip = 238; continue _fun00001 }
  235:
             verify = offset;
  238:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = tango.bind(report)(options, golf);
             entity['children'] = golf;
             entity = tango.bind(report)(zulu, entity);
-            _fun122140_ip = 302; continue _fun122140;
+            _fun00002_ip = 302; continue _fun00001;
  260:
             golf = _closure1_slot5;
             tango = _closure1_slot0;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['style'] = options;
             entity = golf.bind(report)(tango, zulu);
  302:
-            _fun122140_ip = 370; continue _fun122140;
+            _fun00002_ip = 370; continue _fun00001;
  304:
             tango = _closure1_slot5;
             golf = _closure1_slot0;

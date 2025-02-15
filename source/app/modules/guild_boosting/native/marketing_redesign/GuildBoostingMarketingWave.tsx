@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingWave.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildBoostingMarketingWave
-        _fun105134: for(var _fun105134_ip = 0; ; ) switch(_fun105134_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot0;
             golf = _closure1_slot2;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             mike = mike != entity;
             golf = undefined;
-            if(!mike) { _fun105134_ip = 77; continue _fun105134 }
+            if(!mike) { _fun00002_ip = 77; continue _fun00001 }
  74:
             golf = entity;
  77:

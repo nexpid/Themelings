@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = report;
     tango = function(argFoo) { // Original name: isActionedApplicationStatus
-        _fun48887: for(var _fun48887_ip = 0; ; ) switch(_fun48887_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             tango = _closure1_slot0;
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.APPROVED;
             entity = zulu === entity;
-            if(entity) { _fun48887_ip = 79; continue _fun48887 }
+            if(entity) { _fun00002_ip = 79; continue _fun00001 }
  46:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isSubmittedApplicationStatus'] = tango;
     tango = function(argFoo) { // Original name: isApprovedAndAcked
-        _fun48889: for(var _fun48889_ip = 0; ; ) switch(_fun48889_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             zulu = mike.applicationStatus;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity.GuildJoinRequestApplicationStatuses;
             entity = entity.APPROVED;
             entity = zulu === entity;
-            if(!entity) { _fun48889_ip = 64; continue _fun48889 }
+            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
  52:
             zulu = mike.lastSeen;
             mike = null;
@@ -87,14 +87,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isApprovedAndAcked'] = tango;
     mike = function(argFoo) { // Original name: isActionedAndNotAcked
-        _fun48890: for(var _fun48890_ip = 0; ; ) switch(_fun48890_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             tango = _closure1_slot2;
             zulu = mike.applicationStatus;
             entity = undefined;
             entity = tango.bind(entity)(zulu);
-            if(!entity) { _fun48890_ip = 38; continue _fun48890 }
+            if(!entity) { _fun00006_ip = 38; continue _fun00005 }
  26:
             zulu = mike.lastSeen;
             mike = null;

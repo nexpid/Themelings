@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: getFastestListVisibleItemsWithErrorChecking
-        _fun78596: for(var _fun78596_ip = 0; ; ) switch(_fun78596_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = argBar;
@@ -29,13 +29,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity.sectionStart;
             zulu = mike.length;
             zulu = tango > zulu;
-            if(zulu) { _fun78596_ip = 42; continue _fun78596 }
+            if(zulu) { _fun00002_ip = 42; continue _fun00001 }
  27:
             report = entity.sectionEnd;
             tango = mike.length;
             zulu = report > tango;
  42:
-            if(!zulu) { _fun78596_ip = 104; continue _fun78596 }
+            if(!zulu) { _fun00002_ip = 104; continue _fun00001 }
  45:
             report = _closure1_slot0;
             tango = _closure1_slot1;
@@ -55,14 +55,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = entity.sectionStart;
             zulu = mike[zulu];
             zulu = tango > zulu;
-            if(zulu) { _fun78596_ip = 147; continue _fun78596 }
+            if(zulu) { _fun00002_ip = 147; continue _fun00001 }
  127:
             report = entity.itemEnd;
             tango = entity.sectionEnd;
             tango = mike[tango];
             zulu = report > tango;
  147:
-            if(!zulu) { _fun78596_ip = 209; continue _fun78596 }
+            if(!zulu) { _fun00002_ip = 209; continue _fun00001 }
  150:
             report = _closure1_slot0;
             tango = _closure1_slot1;

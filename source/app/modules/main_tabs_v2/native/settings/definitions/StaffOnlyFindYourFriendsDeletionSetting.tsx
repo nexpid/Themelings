@@ -54,11 +54,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun94767: for(var _fun94767_ip = 0; ; ) switch(_fun94767_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun94767_ip = 261; continue _fun94767 }
+                    if(mike) { _fun00002_ip = 261; continue _fun00001 }
  10:
                     mike = undefined;
                     golf = undefined;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = report.getState;
                     zulu = zulu.bind(report)();
                     zulu = zulu.isLoading;
-                    if(zulu) { _fun94767_ip = 258; continue _fun94767 }
+                    if(zulu) { _fun00002_ip = 258; continue _fun00001 }
  43:
                     report = _closure1_slot7;
                     zulu = true;
@@ -84,9 +84,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return zulu;
  88:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun94767_ip = 99; continue _fun94767 }
+                    if(report) { _fun00002_ip = 99; continue _fun00001 }
  94: // try_end0
-                    _fun94767_ip = 230; continue _fun94767;
+                    _fun00002_ip = 230; continue _fun00001;
  99: // try_end1
                     oscar = _closure1_slot7;
                     report = false;
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = zulu.bind(report)();
                     golf = report;
                     zulu = null;
-                    if(!(zulu != report)) { _fun94767_ip = 230; continue _fun94767 }
+                    if(!(zulu != report)) { _fun00002_ip = 230; continue _fun00001 }
  183:
                     report = _closure1_slot1;
                     oscar = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = _closure1_slot7;
                     zulu = false;
                     zulu = report.bind(mike)(zulu);
-                    _fun94767_ip = 258; continue _fun94767;
+                    _fun00002_ip = 258; continue _fun00001;
  243: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=2);
                     report = _closure1_slot7;
@@ -226,13 +226,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     golf = golf.useStaffOrDevEnvSettingPredicate;
     mike['usePredicate'] = golf;
     tango = function() { // Original name: useIsFindYourFriendsDeletionTrailing
-        _fun94771: for(var _fun94771_ip = 0; ; ) switch(_fun94771_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
             zulu = entity.bind(report)();
             entity = null;
-            if(!zulu) { _fun94771_ip = 34; continue _fun94771 }
+            if(!zulu) { _fun00004_ip = 34; continue _fun00003 }
  18:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;

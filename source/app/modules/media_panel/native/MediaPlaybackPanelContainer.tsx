@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.memo;
     mike = function() { // Original name: MediaPlaybackPanelContainer
-        _fun122616: for(var _fun122616_ip = 0; ; ) switch(_fun122616_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -37,70 +37,70 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = zulu.bind(report)(entity);
             zulu = tango.useMediaPlayerManagerStore;
             entity = function(argFoo) {
-                _fun122617: for(var _fun122617_ip = 0; ; ) switch(_fun122617_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = mike.showPip;
                     zulu = !entity;
-                    if(zulu) { _fun122617_ip = 24; continue _fun122617 }
+                    if(zulu) { _fun00004_ip = 24; continue _fun00003 }
  15:
                     entity = mike.canAccessMedia;
                     zulu = !entity;
  24:
-                    if(zulu) { _fun122617_ip = 39; continue _fun122617 }
+                    if(zulu) { _fun00004_ip = 39; continue _fun00003 }
  27:
                     tango = mike.activeMediaPlayerSource;
                     entity = null;
                     zulu = entity == tango;
  39:
                     entity = !zulu;
-                    if(zulu) { _fun122617_ip = 188; continue _fun122617 }
+                    if(zulu) { _fun00004_ip = 188; continue _fun00003 }
  48:
                     options = mike.mediaSourceMessage;
                     mike = mike.activeMediaPlayerSource;
                     zulu = null;
                     tango = zulu == mike;
                     golf = undefined;
-                    if(tango) { _fun122617_ip = 77; continue _fun122617 }
+                    if(tango) { _fun00004_ip = 77; continue _fun00003 }
  71:
                     golf = mike.attachmentIndex;
  77:
                     tango = zulu == options;
                     mike = false;
-                    if(tango) { _fun122617_ip = 185; continue _fun122617 }
+                    if(tango) { _fun00004_ip = 185; continue _fun00003 }
  86:
                     tango = zulu == golf;
                     mike = false;
-                    if(tango) { _fun122617_ip = 185; continue _fun122617 }
+                    if(tango) { _fun00004_ip = 185; continue _fun00003 }
  95:
                     tango = zulu == options;
                     report = undefined;
-                    if(tango) { _fun122617_ip = 133; continue _fun122617 }
+                    if(tango) { _fun00004_ip = 133; continue _fun00003 }
  104:
                     tango = options.getContentMessage;
                     tango = tango.bind(options)();
                     options = zulu == tango;
                     report = undefined;
-                    if(options) { _fun122617_ip = 133; continue _fun122617 }
+                    if(options) { _fun00004_ip = 133; continue _fun00003 }
  123:
                     tango = tango.attachments;
                     report = tango[golf];
  133:
                     golf = zulu == report;
                     tango = undefined;
-                    if(golf) { _fun122617_ip = 172; continue _fun122617 }
+                    if(golf) { _fun00004_ip = 172; continue _fun00003 }
  142:
                     golf = report.content_type;
                     report = zulu == golf;
                     tango = undefined;
-                    if(report) { _fun122617_ip = 172; continue _fun122617 }
+                    if(report) { _fun00004_ip = 172; continue _fun00003 }
  157:
                     oscar = golf.startsWith;
                     report = 'audio';
                     tango = oscar.bind(golf)(report);
  172:
                     zulu = zulu != tango;
-                    if(!zulu) { _fun122617_ip = 182; continue _fun122617 }
+                    if(!zulu) { _fun00004_ip = 182; continue _fun00003 }
  179:
                     zulu = tango;
  182:
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             zulu = zulu.bind(tango)(entity);
             entity = null;
-            if(!zulu) { _fun122616_ip = 106; continue _fun122616 }
+            if(!zulu) { _fun00002_ip = 106; continue _fun00001 }
  50:
             tango = _closure1_slot3;
             golf = _closure1_slot1;

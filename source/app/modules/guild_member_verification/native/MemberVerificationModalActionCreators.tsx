@@ -72,15 +72,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['openMemberVerificationModal'] = golf;
     tango = function() { // Original name: closeMemberVerificationModal
-        _fun88436: for(var _fun88436_ip = 0; ; ) switch(_fun88436_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun88436_ip = 11; continue _fun88436 }
+            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             mike = false;
  11:
-            if(mike) { _fun88436_ip = 68; continue _fun88436 }
+            if(mike) { _fun00002_ip = 68; continue _fun00001 }
  14:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;

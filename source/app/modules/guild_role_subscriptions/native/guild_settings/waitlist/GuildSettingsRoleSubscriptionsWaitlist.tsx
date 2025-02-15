@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/guild_settings/waitlist/GuildSettingsRoleSubscriptionsWaitlist.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildSettingsRoleSubscriptionsWaitlist
-        _fun126893: for(var _fun126893_ip = 0; ; ) switch(_fun126893_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.guild;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[0] = update;
             oscar[1] = romeo;
             zulu = function() {
-                _fun126894: for(var _fun126894_ip = 0; ; ) switch(_fun126894_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot0;
                     report = entity.visibility;
@@ -114,12 +114,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = oscar.bind(entity)(tango);
                     tango = tango.GuildRoleSubscriptionSettingsVisibility;
                     tango = tango.NEEDS_COMMUNITY;
-                    if(!(report !== tango)) { _fun126894_ip = 70; continue _fun126894 }
+                    if(!(report !== tango)) { _fun00004_ip = 70; continue _fun00003 }
  54:
                     report = _closure2_slot0;
                     tango = report.onCtaClicked;
                     tango = tango.bind(report)();
-                    _fun126894_ip = 94; continue _fun126894;
+                    _fun00004_ip = 94; continue _fun00003;
  70:
                     tango = _closure2_slot1;
                     zulu = tango.push;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['properties'] = oscar;
             zulu = tango.bind(report)(zulu);
             tango = _closure1_slot7;
-            if(entity) { _fun126893_ip = 723; continue _fun126893 }
+            if(entity) { _fun00002_ip = 723; continue _fun00001 }
  236:
             kilo = _closure1_slot0;
             output = _closure1_slot2;
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = tango.bind(report)(golf, oscar);
             entity['children'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun126893_ip = 751; continue _fun126893;
+            _fun00002_ip = 751; continue _fun00001;
  723:
             zulu = _closure1_slot1;
             oscar = _closure1_slot2;

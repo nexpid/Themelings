@@ -45,16 +45,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = report.bind(tango)(mike);
         mike = zulu.useAnimatedStyle;
         entity = function() { // Original name: w
-            _fun56757: for(var _fun56757_ip = 0; ; ) switch(_fun56757_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!(entity != mike)) { _fun56757_ip = 269; continue _fun56757 }
+                if(!(entity != mike)) { _fun00002_ip = 269; continue _fun00001 }
  16:
                 entity = _closure2_slot1;
                 mike = {};
                 tango = {};
-                if(entity) { _fun56757_ip = 228; continue _fun56757 }
+                if(entity) { _fun00002_ip = 228; continue _fun00001 }
  33:
                 kilo = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity[0] = tango;
                 mike['transform'] = entity;
                 entity = mike;
-                _fun56757_ip = 267; continue _fun56757;
+                _fun00002_ip = 267; continue _fun00001;
  228:
                 report = _closure2_slot0;
                 zulu = _closure1_slot9;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike['transform'] = zulu;
                 entity = mike;
  267:
-                _fun56757_ip = 299; continue _fun56757;
+                _fun00002_ip = 299; continue _fun00001;
  269:
                 mike = {};
                 tango = {};

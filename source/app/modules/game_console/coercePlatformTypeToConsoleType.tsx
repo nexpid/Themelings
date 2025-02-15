@@ -29,20 +29,20 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/game_console/coercePlatformTypeToConsoleType.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: coercePlatformTypeToConsoleType
-        _fun103161: for(var _fun103161_ip = 0; ; ) switch(_fun103161_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot1;
             mike = mike.XBOX;
-            if(!(mike !== zulu)) { _fun103161_ip = 64; continue _fun103161 }
+            if(!(mike !== zulu)) { _fun00002_ip = 64; continue _fun00001 }
  20:
             mike = _closure1_slot1;
             mike = mike.PLAYSTATION;
-            if(!(mike !== zulu)) { _fun103161_ip = 52; continue _fun103161 }
+            if(!(mike !== zulu)) { _fun00002_ip = 52; continue _fun00001 }
  34:
             mike = _closure1_slot1;
             mike = mike.PLAYSTATION_STAGING;
-            if(!(mike !== zulu)) { _fun103161_ip = 52; continue _fun103161 }
+            if(!(mike !== zulu)) { _fun00002_ip = 52; continue _fun00001 }
  48:
             mike = null;
             return mike;
@@ -58,24 +58,24 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['coercePlatformTypeToConsoleType'] = tango;
     mike = function(argFoo, argBar) { // Original name: coerceConsoleTypeToPlatformType
-        _fun103162: for(var _fun103162_ip = 0; ; ) switch(_fun103162_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             report = argBar;
             mike = _closure1_slot0;
             mike = mike.XBOX;
-            if(!(mike !== tango)) { _fun103162_ip = 109; continue _fun103162 }
+            if(!(mike !== tango)) { _fun00004_ip = 109; continue _fun00003 }
  25:
             mike = _closure1_slot0;
             mike = mike.PLAYSTATION;
-            if(!(mike !== tango)) { _fun103162_ip = 43; continue _fun103162 }
+            if(!(mike !== tango)) { _fun00004_ip = 43; continue _fun00003 }
  39:
             mike = null;
             return mike;
  43:
             tango = report.some;
             mike = function(argFoo) {
-                _fun103163: for(var _fun103163_ip = 0; ; ) switch(_fun103163_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.type;
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = _closure1_slot1;
                     entity = entity.PLAYSTATION_STAGING;
                     entity = zulu === entity;
-                    if(!entity) { _fun103163_ip = 37; continue _fun103163 }
+                    if(!entity) { _fun00006_ip = 37; continue _fun00005 }
  34:
                     entity = mike;
  37:
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = tango.bind(report)(mike);
             tango = report.some;
             zulu = function(argFoo) {
-                _fun103164: for(var _fun103164_ip = 0; ; ) switch(_fun103164_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     zulu = entity.type;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                     entity = _closure1_slot1;
                     entity = entity.PLAYSTATION;
                     entity = zulu === entity;
-                    if(!entity) { _fun103164_ip = 37; continue _fun103164 }
+                    if(!entity) { _fun00008_ip = 37; continue _fun00007 }
  34:
                     entity = mike;
  37:
@@ -109,13 +109,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
                 }
             };
             zulu = tango.bind(report)(zulu);
-            if(zulu) { _fun103162_ip = 97; continue _fun103162 }
+            if(zulu) { _fun00004_ip = 97; continue _fun00003 }
  82:
-            if(!mike) { _fun103162_ip = 97; continue _fun103162 }
+            if(!mike) { _fun00004_ip = 97; continue _fun00003 }
  85:
             mike = _closure1_slot1;
             mike = mike.PLAYSTATION_STAGING;
-            _fun103162_ip = 107; continue _fun103162;
+            _fun00004_ip = 107; continue _fun00003;
  97:
             zulu = _closure1_slot1;
             mike = zulu.PLAYSTATION;

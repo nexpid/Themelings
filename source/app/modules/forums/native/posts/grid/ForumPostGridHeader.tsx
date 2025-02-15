@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/grid/ForumPostGridHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostGridHeader
-        _fun100483: for(var _fun100483_ip = 0; ; ) switch(_fun100483_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.thread;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.details;
             report['style'] = yankee;
             yankee = golf;
-            if(!yankee) { _fun100483_ip = 135; continue _fun100483 }
+            if(!yankee) { _fun00002_ip = 135; continue _fun00001 }
  92:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot1;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee['textStyle'] = backup;
             yankee = foxtrot.bind(tango)(romeo, yankee);
             golf[2] = yankee;
-            if(!options) { _fun100483_ip = 293; continue _fun100483 }
+            if(!options) { _fun00002_ip = 293; continue _fun00001 }
  261:
             foxtrot = _closure1_slot6;
             romeo = _closure1_slot1;

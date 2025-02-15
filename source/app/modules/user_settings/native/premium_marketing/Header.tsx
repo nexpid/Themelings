@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/premium_marketing/Header.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun105088: for(var _fun105088_ip = 0; ; ) switch(_fun105088_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.style;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(yankee)(romeo);
             romeo = _closure1_slot1;
             backup = _closure1_slot2;
-            if(verify) { _fun105088_ip = 204; continue _fun105088 }
+            if(verify) { _fun00002_ip = 204; continue _fun00001 }
  190:
             verify = 9;
             verify = backup[verify];
             verify = romeo.bind(tango)(verify);
-            _fun105088_ip = 216; continue _fun105088;
+            _fun00002_ip = 216; continue _fun00001;
  204:
             yankee = 8;
             yankee = backup[yankee];

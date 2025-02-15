@@ -24,14 +24,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/user/isStaffFromRawUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isStaff
-        _fun108317: for(var _fun108317_ip = 0; ; ) switch(_fun108317_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = tango.flags;
             zulu = null;
             mike = zulu != entity;
             report = 0;
-            if(!mike) { _fun108317_ip = 22; continue _fun108317 }
+            if(!mike) { _fun00002_ip = 22; continue _fun00001 }
  19:
             report = entity;
  22:
@@ -40,11 +40,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             mike = report & mike;
             entity = entity.STAFF;
             entity = mike === entity;
-            if(entity) { _fun108317_ip = 71; continue _fun108317 }
+            if(entity) { _fun00002_ip = 71; continue _fun00001 }
  52:
             report = zulu == tango;
             mike = undefined;
-            if(report) { _fun108317_ip = 67; continue _fun108317 }
+            if(report) { _fun00002_ip = 67; continue _fun00001 }
  61:
             mike = tango.personal_connection_id;
  67:

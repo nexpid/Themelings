@@ -26,12 +26,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/getActivityReportOptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getActivityReportOptions
-        _fun123540: for(var _fun123540_ip = 0; ; ) switch(_fun123540_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             mike = arguments[1];
             verify = undefined;
-            if(!(mike === verify)) { _fun123540_ip = 14; continue _fun123540 }
+            if(!(mike === verify)) { _fun00002_ip = 14; continue _fun00001 }
  12:
             mike = false;
  14:
@@ -49,11 +49,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = entity[offset];
             entity = oscar.bind(verify)(entity);
             oscar = entity.t;
-            if(tango) { _fun123540_ip = 93; continue _fun123540 }
+            if(tango) { _fun00002_ip = 93; continue _fun00001 }
  80:
             entity = oscar.aO6OMT;
             entity = golf.bind(options)(entity);
-            _fun123540_ip = 104; continue _fun123540;
+            _fun00002_ip = 104; continue _fun00001;
  93:
             oscar = oscar.uaiF6O;
             entity = golf.bind(options)(oscar);
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar[offset];
             oscar = golf.bind(verify)(oscar);
             golf = oscar.t;
-            if(tango) { _fun123540_ip = 189; continue _fun123540 }
+            if(tango) { _fun00002_ip = 189; continue _fun00001 }
  176:
             oscar = golf.79HFwc;
             oscar = options.bind(yankee)(oscar);
-            _fun123540_ip = 200; continue _fun123540;
+            _fun00002_ip = 200; continue _fun00001;
  189:
             golf = golf./nJOlp;
             oscar = options.bind(yankee)(golf);
@@ -98,11 +98,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar[offset];
             oscar = golf.bind(verify)(oscar);
             golf = oscar.t;
-            if(tango) { _fun123540_ip = 281; continue _fun123540 }
+            if(tango) { _fun00002_ip = 281; continue _fun00001 }
  268:
             oscar = golf.iSv55O;
             oscar = options.bind(yankee)(oscar);
-            _fun123540_ip = 292; continue _fun123540;
+            _fun00002_ip = 292; continue _fun00001;
  281:
             golf = golf./8psS0;
             oscar = options.bind(yankee)(golf);
@@ -122,11 +122,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar[offset];
             oscar = golf.bind(verify)(oscar);
             golf = oscar.t;
-            if(tango) { _fun123540_ip = 373; continue _fun123540 }
+            if(tango) { _fun00002_ip = 373; continue _fun00001 }
  360:
             oscar = golf.GnVff3;
             oscar = options.bind(yankee)(oscar);
-            _fun123540_ip = 384; continue _fun123540;
+            _fun00002_ip = 384; continue _fun00001;
  373:
             golf = golf.7GVmLi;
             oscar = options.bind(yankee)(golf);
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = golf.bind(options)(oscar);
             zulu['label'] = oscar;
             entity[4] = zulu;
-            if(!mike) { _fun123540_ip = 569; continue _fun123540 }
+            if(!mike) { _fun00002_ip = 569; continue _fun00001 }
  471:
             zulu = entity.push;
             mike = {};
@@ -166,11 +166,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             report = report[offset];
             report = options.bind(verify)(report);
             report = report.t;
-            if(tango) { _fun123540_ip = 549; continue _fun123540 }
+            if(tango) { _fun00002_ip = 549; continue _fun00001 }
  536:
             tango = report.XeeDhI;
             tango = oscar.bind(golf)(tango);
-            _fun123540_ip = 560; continue _fun123540;
+            _fun00002_ip = 560; continue _fun00001;
  549:
             report = report.5o1ULy;
             tango = oscar.bind(golf)(report);

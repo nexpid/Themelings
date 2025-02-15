@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot6 = tango;
     mike = function(argFoo) { // Original name: SlideoutButton
-        _fun88381: for(var _fun88381_ip = 0; ; ) switch(_fun88381_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             report = entity.onPress;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.title;
             sizing = entity.height;
             tango = undefined;
-            if(!(sizing === tango)) { _fun88381_ip = 37; continue _fun88381 }
+            if(!(sizing === tango)) { _fun00002_ip = 37; continue _fun00001 }
  34:
             sizing = 60;
  37:

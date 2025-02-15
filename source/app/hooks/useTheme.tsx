@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     var _closure1_slot3 = report;
     mike = function(argFoo) { // Original name: getThemeIndex
-        _fun35742: for(var _fun35742_ip = 0; ; ) switch(_fun35742_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = _closure1_slot2;
             zulu = zulu.DARK;
-            if(!(zulu !== mike)) { _fun35742_ip = 43; continue _fun35742 }
+            if(!(zulu !== mike)) { _fun00002_ip = 43; continue _fun00001 }
  20:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
-            if(!(entity !== mike)) { _fun35742_ip = 38; continue _fun35742 }
+            if(!(entity !== mike)) { _fun00002_ip = 38; continue _fun00001 }
  34:
             entity = undefined;
             return entity;

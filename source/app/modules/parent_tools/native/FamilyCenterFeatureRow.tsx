@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = golf;
     mike = function(argFoo) { // Original name: FamilyCenterFeatureRow
-        _fun95335: for(var _fun95335_ip = 0; ; ) switch(_fun95335_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             backup = entity.icon;
@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = result.iconContainer;
             report['style'] = options;
             options = null;
-            if(!(options == yankee)) { _fun95335_ip = 137; continue _fun95335 }
+            if(!(options == yankee)) { _fun00002_ip = 137; continue _fun00001 }
  82:
             offset = _closure1_slot5;
             verify = _closure1_slot1;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = 'white';
             options['color'] = backup;
             options = offset.bind(tango)(verify, options);
-            _fun95335_ip = 157; continue _fun95335;
+            _fun00002_ip = 157; continue _fun00001;
  137:
             offset = _closure1_slot5;
             verify = {};
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/parent_tools/native/FamilyCenterFeatureRow.tsx';
     report = oscar.bind(golf)(report);
     tango = function() { // Original name: FamilyCenterFeatureRows
-        _fun95336: for(var _fun95336_ip = 0; ; ) switch(_fun95336_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = _closure1_slot8;
             report = undefined;
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['header'] = tango;
             mike['description'] = zulu;
             yankee[2] = mike;
-            if(entity) { _fun95336_ip = 865; continue _fun95336 }
+            if(entity) { _fun00004_ip = 865; continue _fun00003 }
  694:
             zulu = _closure1_slot6;
             mike = _closure1_slot4;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[1] = options;
             entity['children'] = tango;
             entity = zulu.bind(report)(mike, entity);
-            _fun95336_ip = 1002; continue _fun95336;
+            _fun00004_ip = 1002; continue _fun00003;
  865:
             tango = _closure1_slot5;
             zulu = _closure1_slot4;

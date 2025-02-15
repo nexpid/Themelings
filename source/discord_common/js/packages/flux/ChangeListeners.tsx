@@ -58,31 +58,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             zulu['remove'] = tango;
             mike = function(argFoo) {
-                _fun6760: for(var _fun6760_ip = 0; ; ) switch(_fun6760_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = argFoo;
                     tango = arguments[1];
                     var _closure4_slot0 = zulu;
                     entity = undefined;
-                    if(!(tango === entity)) { _fun6760_ip = 20; continue _fun6760 }
+                    if(!(tango === entity)) { _fun00002_ip = 20; continue _fun00001 }
  18:
                     tango = true;
  20:
                     var _closure4_slot1 = entity;
-                    if(!tango) { _fun6760_ip = 37; continue _fun6760 }
+                    if(!tango) { _fun00002_ip = 37; continue _fun00001 }
  27:
                     tango = zulu.bind(entity)();
                     zulu = false;
-                    if(!(zulu !== tango)) { _fun6760_ip = 63; continue _fun6760 }
+                    if(!(zulu !== tango)) { _fun00002_ip = 63; continue _fun00001 }
  37:
                     tango = function() { // Original name: conditionalCallback
-                        _fun6761: for(var _fun6761_ip = 0; ; ) switch(_fun6761_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             zulu = _closure4_slot0;
                             entity = undefined;
                             tango = zulu.bind(entity)();
                             zulu = false;
-                            if(!(zulu === tango)) { _fun6761_ip = 41; continue _fun6761 }
+                            if(!(zulu === tango)) { _fun00004_ip = 41; continue _fun00003 }
  19:
                             tango = _closure3_slot0;
                             zulu = tango.remove;

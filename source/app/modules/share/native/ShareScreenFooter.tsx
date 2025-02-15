@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/share/native/ShareScreenFooter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ShareScreenFooter
-        _fun107664: for(var _fun107664_ip = 0; ; ) switch(_fun107664_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.text;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = !echo;
             golf['disabled'] = echo;
             echo = undefined;
-            if(result) { _fun107664_ip = 194; continue _fun107664 }
+            if(result) { _fun00002_ip = 194; continue _fun00001 }
  191:
             echo = verify;
  194:

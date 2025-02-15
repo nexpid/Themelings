@@ -1,6 +1,6 @@
 // app/uikit-native/LiveTag.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun75095: for(var _fun75095_ip = 0; ; ) switch(_fun75095_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         romeo = argBaz;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = report.bind(entity)(yankee);
         yankee = romeo.isAndroid;
         yankee = yankee.bind(romeo)();
-        if(!yankee) { _fun75095_ip = 259; continue _fun75095 }
+        if(!yankee) { _fun00002_ip = 259; continue _fun00001 }
  253:
         offset = -2;
  259:

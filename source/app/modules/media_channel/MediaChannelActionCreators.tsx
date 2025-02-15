@@ -13,12 +13,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun92142: for(var _fun92142_ip = 0; ; ) switch(_fun92142_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92142_ip = 254; continue _fun92142 }
+                    if(mike) { _fun00002_ip = 254; continue _fun00001 }
  13:
                     oscar = verify;
                     golf = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return tango;
  137:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun92142_ip = 202; continue _fun92142 }
+                    if(golf) { _fun00002_ip = 202; continue _fun00001 }
  143:
                     offset = tango.body;
                     options = _closure1_slot1;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf['mediaPostEmbed'] = offset;
                     golf = options.bind(verify)(golf);
  200: // try_end0
-                    _fun92142_ip = 251; continue _fun92142;
+                    _fun00002_ip = 251; continue _fun00001;
  202:
                     return tango;
  205: // catch_target0
@@ -110,11 +110,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         tango = _closure1_slot3;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun92145: for(var _fun92145_ip = 0; ; ) switch(_fun92145_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun92145_ip = 166; continue _fun92145 }
+                    if(mike) { _fun00004_ip = 166; continue _fun00003 }
  10:
                     oscar = argFoo;
  13: // try_start_0
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  91:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun92145_ip = 105; continue _fun92145 }
+                    if(zulu) { _fun00004_ip = 105; continue _fun00003 }
  97:
                     zulu = mike.body;
  102: // try_end0

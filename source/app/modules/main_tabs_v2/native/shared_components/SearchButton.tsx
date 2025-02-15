@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['SEARCH_BAR_HEIGHT'] = tango;
     mike = function(argFoo) { // Original name: SearchButtonContent
-        _fun112784: for(var _fun112784_ip = 0; ; ) switch(_fun112784_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             options = zulu.panelVariant;
@@ -108,10 +108,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = verify.searchButton;
             golf = new Array(3);
             golf[0] = offset;
-            if(options) { _fun112784_ip = 91; continue _fun112784 }
+            if(options) { _fun00002_ip = 91; continue _fun00001 }
  83:
             options = verify.roundedCorners;
-            _fun112784_ip = 97; continue _fun112784;
+            _fun00002_ip = 97; continue _fun00001;
  91:
             options = verify.roundedCornersAlt;
  97:

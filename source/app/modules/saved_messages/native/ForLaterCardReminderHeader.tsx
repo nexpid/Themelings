@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/saved_messages/native/ForLaterCardReminderHeader.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForLaterCardReminderHeader
-        _fun89104: for(var _fun89104_ip = 0; ; ) switch(_fun89104_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.savedMessage;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             foxtrot = entity == mike;
             yankee = undefined;
-            if(foxtrot) { _fun89104_ip = 85; continue _fun89104 }
+            if(foxtrot) { _fun00002_ip = 85; continue _fun00001 }
  73:
             foxtrot = mike.saveData;
             yankee = foxtrot.dueAt;
@@ -114,10 +114,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.isOverdue;
             mike = mike.saveData;
             mike = mike.dueAt;
-            if(!(entity != mike)) { _fun89104_ip = 401; continue _fun89104 }
+            if(!(entity != mike)) { _fun00002_ip = 401; continue _fun00001 }
  163:
             foxtrot = 'header-primary';
-            if(!zulu) { _fun89104_ip = 178; continue _fun89104 }
+            if(!zulu) { _fun00002_ip = 178; continue _fun00001 }
  172:
             foxtrot = 'text-danger';
  178:
@@ -127,10 +127,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = oscar[mike];
             mike = tango.bind(report)(mike);
             mike = mike.colors;
-            if(zulu) { _fun89104_ip = 214; continue _fun89104 }
+            if(zulu) { _fun00002_ip = 214; continue _fun00001 }
  206:
             sizing = mike.INTERACTIVE_NORMAL;
-            _fun89104_ip = 220; continue _fun89104;
+            _fun00002_ip = 220; continue _fun00001;
  214:
             sizing = mike.TEXT_DANGER;
  220:

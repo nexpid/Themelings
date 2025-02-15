@@ -70,7 +70,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             zulu = tango.addListener;
             mike = 'transitionEnd';
             entity = function() {
-                _fun118929: for(var _fun118929_ip = 0; ; ) switch(_fun118929_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure2_slot1;
                     mike = zulu.getState;
@@ -81,7 +81,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                     zulu = mike.key;
                     mike = _closure2_slot2;
                     mike = mike.key;
-                    if(!(zulu === mike)) { _fun118929_ip = 63; continue _fun118929 }
+                    if(!(zulu === mike)) { _fun00002_ip = 63; continue _fun00001 }
  50:
                     zulu = _closure2_slot0;
                     mike = undefined;

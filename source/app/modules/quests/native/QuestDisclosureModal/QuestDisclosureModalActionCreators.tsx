@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = golf.bind(options)(zulu, mike, oscar);
     mike = {};
     oscar = function(argFoo) { // Original name: showModal
-        _fun91409: for(var _fun91409_ip = 0; ; ) switch(_fun91409_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.quest;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = null;
             options = mike == golf;
             mike = undefined;
-            if(options) { _fun91409_ip = 218; continue _fun91409 }
+            if(options) { _fun00002_ip = 218; continue _fun00001 }
  213:
             mike = golf.name;
  218:

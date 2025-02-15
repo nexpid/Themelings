@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileTextButtonGroup.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileTextButtonGroup
-        _fun80105: for(var _fun80105_ip = 0; ; ) switch(_fun80105_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.primaryButton;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = entity.width;
             mike = null;
             report = offset;
-            if(!(mike != romeo)) { _fun80105_ip = 96; continue _fun80105 }
+            if(!(mike != romeo)) { _fun00002_ip = 96; continue _fun00001 }
  77:
             entity = global;
             tango = entity.Math;
@@ -90,15 +90,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = 12;
             entity = report - entity;
             sizing = entity / tango;
-            if(!(mike == yankee)) { _fun80105_ip = 138; continue _fun80105 }
+            if(!(mike == yankee)) { _fun00002_ip = 138; continue _fun00001 }
  126:
             tango = mike == golf;
             entity = null;
-            if(tango) { _fun80105_ip = 380; continue _fun80105 }
+            if(tango) { _fun00002_ip = 380; continue _fun00001 }
  138:
-            if(!(mike != yankee)) { _fun80105_ip = 336; continue _fun80105 }
+            if(!(mike != yankee)) { _fun00002_ip = 336; continue _fun00001 }
  145:
-            if(!(mike != golf)) { _fun80105_ip = 293; continue _fun80105 }
+            if(!(mike != golf)) { _fun00002_ip = 293; continue _fun00001 }
  152:
             report = _closure1_slot5;
             tango = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset[1] = romeo;
             mike['children'] = offset;
             mike = report.bind(oscar)(tango, mike);
-            _fun80105_ip = 334; continue _fun80105;
+            _fun00002_ip = 334; continue _fun00001;
  293:
             offset = _closure1_slot4;
             report = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango['children'] = yankee;
             mike = offset.bind(oscar)(report, tango);
  334:
-            _fun80105_ip = 377; continue _fun80105;
+            _fun00002_ip = 377; continue _fun00001;
  336:
             report = _closure1_slot4;
             tango = _closure1_slot2;

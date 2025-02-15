@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure2_slot0;
                 entity = undefined;
                 mike = function(argFoo) {
-                    _fun72079: for(var _fun72079_ip = 0; ; ) switch(_fun72079_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         report = argFoo;
                         entity = {};
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         yankee = report == offset;
                         golf = undefined;
                         report = undefined;
-                        if(yankee) { _fun72079_ip = 85; continue _fun72079 }
+                        if(yankee) { _fun00002_ip = 85; continue _fun00001 }
  77:
                         verify = _closure3_slot1;
                         report = offset[verify];
@@ -108,14 +108,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = report.bind(zulu)(mike);
         entity = function(argFoo) {
-            _fun72081: for(var _fun72081_ip = 0; ; ) switch(_fun72081_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 mike = entity.polls;
                 entity = _closure2_slot0;
                 entity = mike[entity];
                 mike = null;
-                if(!(mike == entity)) { _fun72081_ip = 33; continue _fun72081 }
+                if(!(mike == entity)) { _fun00004_ip = 33; continue _fun00003 }
  26:
                 entity = _closure1_slot3;
  33:
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = _closure1_slot4;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun72087: for(var _fun72087_ip = 0; ; ) switch(_fun72087_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     report = entity.polls;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = _closure2_slot0;
                     entity = report[entity];
                     mike = null;
-                    if(!(mike == entity)) { _fun72087_ip = 30; continue _fun72087 }
+                    if(!(mike == entity)) { _fun00006_ip = 30; continue _fun00005 }
  28:
                     entity = {};
  30:
@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['updatePollState'] = tango;
     mike = function(argFoo, argBar) { // Original name: getPollState
-        _fun72089: for(var _fun72089_ip = 0; ; ) switch(_fun72089_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             mike = _closure1_slot4;
             entity = mike.getState;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             mike = entity == zulu;
             entity = undefined;
-            if(mike) { _fun72089_ip = 48; continue _fun72089 }
+            if(mike) { _fun00008_ip = 48; continue _fun00007 }
  41:
             mike = argBar;
             entity = zulu[mike];

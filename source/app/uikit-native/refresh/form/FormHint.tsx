@@ -59,12 +59,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/refresh/form/FormHint.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FormHint
-        _fun63607: for(var _fun63607_ip = 0; ; ) switch(_fun63607_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.inset;
             report = undefined;
-            if(!(verify === report)) { _fun63607_ip = 17; continue _fun63607 }
+            if(!(verify === report)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             verify = false;
  17:
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot3;
             zulu = _closure1_slot0;
             offset = _closure1_slot1;
-            if(entity) { _fun63607_ip = 164; continue _fun63607 }
+            if(entity) { _fun00002_ip = 164; continue _fun00001 }
  94:
             entity = 7;
             entity = offset[entity];
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(3);
             yankee[0] = romeo;
             romeo = !verify;
-            if(!romeo) { _fun63607_ip = 140; continue _fun63607 }
+            if(!romeo) { _fun00002_ip = 140; continue _fun00001 }
  134:
             romeo = golf.horizonatalPadding;
  140:
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = yankee;
             entity['children'] = oscar;
             entity = tango.bind(report)(mike, entity);
-            _fun63607_ip = 229; continue _fun63607;
+            _fun00002_ip = 229; continue _fun00001;
  164:
             mike = 6;
             mike = offset[mike];
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = mike.Text;
             mike = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             verify = !verify;
-            if(!verify) { _fun63607_ip = 203; continue _fun63607 }
+            if(!verify) { _fun00002_ip = 203; continue _fun00001 }
  197:
             verify = golf.redesignHorizontalPadding;
  203:

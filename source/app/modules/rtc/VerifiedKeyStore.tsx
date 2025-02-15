@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun81139: for(var _fun81139_ip = 0; ; ) switch(_fun81139_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot10;
             entity = entity.bind(zulu)();
-            if(entity) { _fun81139_ip = 51; continue _fun81139 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun81139_ip = 92; continue _fun81139;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun81139_ip = 71; continue _fun81139 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun81140: for(var _fun81140_ip = 0; ; ) switch(_fun81140_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun81140_ip = 76; continue _fun81140;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -139,18 +139,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun81145: for(var _fun81145_ip = 0; ; ) switch(_fun81145_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 mike = null;
                 report = mike == tango;
                 entity = undefined;
                 zulu = undefined;
-                if(report) { _fun81145_ip = 22; continue _fun81145 }
+                if(report) { _fun00006_ip = 22; continue _fun00005 }
  16:
                 zulu = tango.users;
  22:
-                if(!(mike == zulu)) { _fun81145_ip = 28; continue _fun81145 }
+                if(!(mike == zulu)) { _fun00006_ip = 28; continue _fun00005 }
  26:
                 zulu = {};
  28:
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'getKeyTrustedAt';
         report['key'] = golf;
         golf = function(argFoo, argBar) { // Original name: value
-            _fun81147: for(var _fun81147_ip = 0; ; ) switch(_fun81147_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = tango[mike];
                 tango = null;
                 tango = tango == mike;
-                if(tango) { _fun81147_ip = 63; continue _fun81147 }
+                if(tango) { _fun00008_ip = 63; continue _fun00007 }
  59:
                 entity = mike[zulu];
  63:
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     romeo = golf.bind(entity)(mike);
     mike = {};
     verify = function(argFoo) { // Original name: handleSecureFramesVerifiedKeyCreate
-        _fun81151: for(var _fun81151_ip = 0; ; ) switch(_fun81151_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             zulu = entity.userId;
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot8;
             tango = mike[zulu];
             mike = null;
-            if(!(mike == tango)) { _fun81151_ip = 32; continue _fun81151 }
+            if(!(mike == tango)) { _fun00010_ip = 32; continue _fun00009 }
  30:
             tango = {};
  32:
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SECURE_FRAMES_VERIFIED_KEY_CREATE'] = verify;
     verify = function(argFoo) { // Original name: handleSecureFramesVerifiedKeyDelete
-        _fun81152: for(var _fun81152_ip = 0; ; ) switch(_fun81152_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             tango = entity.userId;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot8;
             oscar = mike[tango];
             mike = null;
-            if(!(mike != oscar)) { _fun81152_ip = 84; continue _fun81152 }
+            if(!(mike != oscar)) { _fun00012_ip = 84; continue _fun00011 }
  31:
             entity = delete oscar[entity];
             mike = global;
@@ -313,13 +313,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = mike.length;
             report = 0;
             mike = false;
-            if(!(report === oscar)) { _fun81152_ip = 76; continue _fun81152 }
+            if(!(report === oscar)) { _fun00012_ip = 76; continue _fun00011 }
  66:
             zulu = _closure1_slot8;
             zulu = delete zulu[tango];
             mike = true;
  76:
-            if(entity) { _fun81152_ip = 82; continue _fun81152 }
+            if(entity) { _fun00012_ip = 82; continue _fun00011 }
  79:
             entity = mike;
  82:
@@ -331,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SECURE_FRAMES_VERIFIED_KEY_DELETE'] = verify;
     tango = function(argFoo) { // Original name: handleSecureFramesUserVerifiedKeysDelete
-        _fun81153: for(var _fun81153_ip = 0; ; ) switch(_fun81153_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             zulu = entity.userId;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = entity[zulu];
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun81153_ip = 36; continue _fun81153 }
+            if(!entity) { _fun00014_ip = 36; continue _fun00013 }
  28:
             mike = _closure1_slot8;
             entity = delete mike[zulu];

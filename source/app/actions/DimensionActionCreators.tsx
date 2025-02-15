@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         tango = tango.bind(entity)(zulu);
         zulu = tango.wait;
         mike = function() {
-            _fun86096: for(var _fun86096_ip = 0; ; ) switch(_fun86096_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure1_slot0;
                 mike = _closure1_slot1;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 zulu = tango.bind(report)(zulu);
                 tango = _closure2_slot4;
                 zulu = null;
-                if(!(zulu != tango)) { _fun86096_ip = 100; continue _fun86096 }
+                if(!(zulu != tango)) { _fun00002_ip = 100; continue _fun00001 }
  92:
                 mike = _closure2_slot4;
                 mike = mike.bind(entity)();
@@ -69,11 +69,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     };
     mike['updateChannelDimensions'] = report;
     report = function(argFoo, argBar) { // Original name: updateChannelListScroll
-        _fun86097: for(var _fun86097_ip = 0; ; ) switch(_fun86097_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = arguments[2];
             entity = undefined;
-            if(!(report === entity)) { _fun86097_ip = 13; continue _fun86097 }
+            if(!(report === entity)) { _fun00004_ip = 13; continue _fun00003 }
  9:
             report = new Array(0);
  13:

@@ -95,18 +95,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = _closure1_slot3;
         report = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun126714: for(var _fun126714_ip = 0; ; ) switch(_fun126714_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun126714_ip = 233; continue _fun126714 }
+                    if(mike) { _fun00002_ip = 233; continue _fun00001 }
  10:
                     mike = _closure2_slot2;
                     tango = null;
-                    if(!(tango == mike)) { _fun126714_ip = 213; continue _fun126714 }
+                    if(!(tango == mike)) { _fun00002_ip = 213; continue _fun00001 }
  26:
                     mike = _closure2_slot0;
-                    if(!(tango != mike)) { _fun126714_ip = 213; continue _fun126714 }
+                    if(!(tango != mike)) { _fun00002_ip = 213; continue _fun00001 }
  37:
                     mike = _closure2_slot6;
                     report = undefined;
@@ -132,9 +132,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  117:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun126714_ip = 125; continue _fun126714 }
+                    if(tango) { _fun00002_ip = 125; continue _fun00001 }
  123: // try_end0
-                    _fun126714_ip = 202; continue _fun126714;
+                    _fun00002_ip = 202; continue _fun00001;
  125: // try_end1
                     oscar = _closure2_slot3;
                     tango = false;
@@ -187,10 +187,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report[0] = verify;
         report[1] = options;
         entity = function() {
-            _fun126715: for(var _fun126715_ip = 0; ; ) switch(_fun126715_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot5;
-                if(mike) { _fun126715_ip = 20; continue _fun126715 }
+                if(mike) { _fun00004_ip = 20; continue _fun00003 }
  10:
                 mike = _closure2_slot7;
                 entity = undefined;

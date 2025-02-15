@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = verify;
         mike = function(argFoo) {
-            _fun114197: for(var _fun114197_ip = 0; ; ) switch(_fun114197_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -66,12 +66,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = tango.getSanitizedMessageRequestRestrictedGuilds;
                 oscar = zulu.bind(tango)();
                 zulu = argFoo;
-                if(zulu) { _fun114197_ip = 60; continue _fun114197 }
+                if(zulu) { _fun00002_ip = 60; continue _fun00001 }
  41:
                 tango = oscar.add;
                 zulu = _closure2_slot0;
                 zulu = tango.bind(oscar)(zulu);
-                _fun114197_ip = 77; continue _fun114197;
+                _fun00002_ip = 77; continue _fun00001;
  60:
                 tango = oscar.delete;
                 zulu = _closure2_slot0;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/message_request/native/hooks/useMessageRequestPrivacyOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMessageRequestPrivacyOption
-        _fun114198: for(var _fun114198_ip = 0; ; ) switch(_fun114198_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             oscar = entity.guild;
@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             zulu = entity.bind(report)();
             entity = null;
-            if(zulu) { _fun114198_ip = 62; continue _fun114198 }
+            if(zulu) { _fun00004_ip = 62; continue _fun00003 }
  42:
             tango = _closure1_slot4;
             zulu = _closure1_slot5;

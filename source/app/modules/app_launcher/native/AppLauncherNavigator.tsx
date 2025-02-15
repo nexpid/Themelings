@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: AppLauncherNavigator
-        _fun118669: for(var _fun118669_ip = 0; ; ) switch(_fun118669_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.bottomSheetExpandReasonRef;
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source['channelId'] = config;
             sequence = control.APPLICATION_VIEW;
             control = vacuum;
-            if(!(context !== sequence)) { _fun118669_ip = 488; continue _fun118669 }
+            if(!(context !== sequence)) { _fun00002_ip = 488; continue _fun00001 }
  486:
             control = {};
  488:
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = zulu.initialRouteName;
             papa = context.COMMAND_VIEW;
             context = vacuum;
-            if(!(target !== papa)) { _fun118669_ip = 604; continue _fun118669 }
+            if(!(target !== papa)) { _fun00002_ip = 604; continue _fun00001 }
  602:
             context = {};
  604:
@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control['channelId'] = config;
             config = zulu.initialRouteName;
             sequence = sequence.APP_LIST_VIEW;
-            if(!(config !== sequence)) { _fun118669_ip = 713; continue _fun118669 }
+            if(!(config !== sequence)) { _fun00002_ip = 713; continue _fun00001 }
  711:
             vacuum = {};
  713:
@@ -277,13 +277,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = oscar.bind(tango)(report, mike);
             mike = 'customId';
             mike = mike in zulu;
-            if(mike) { _fun118669_ip = 787; continue _fun118669 }
+            if(mike) { _fun00002_ip = 787; continue _fun00001 }
  779:
             oscar = 'referrerId';
             mike = oscar in zulu;
  787:
             offset = null;
-            if(!mike) { _fun118669_ip = 819; continue _fun118669 }
+            if(!mike) { _fun00002_ip = 819; continue _fun00001 }
  792:
             mike = {};
             oscar = zulu.customId;

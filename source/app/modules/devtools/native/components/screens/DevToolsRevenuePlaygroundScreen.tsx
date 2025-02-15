@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         entity['title'] = oscar;
         oscar = golf.map;
         report = function(argFoo) {
-            _fun98762: for(var _fun98762_ip = 0; ; ) switch(_fun98762_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 oscar = argFoo;
                 mike = oscar[Symbol.iterator];
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 romeo = mike;
                 romeo = romeo === options;
                 zulu = romeo;
-                if(romeo) { _fun98762_ip = 34; continue _fun98762 }
+                if(romeo) { _fun00002_ip = 34; continue _fun00001 }
  31:
                 report = golf;
  34:
@@ -143,33 +143,33 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 var _closure3_slot0 = golf;
                 report = undefined;
                 golf = zulu;
-                if(golf) { _fun98762_ip = 72; continue _fun98762 }
+                if(golf) { _fun00002_ip = 72; continue _fun00001 }
  52:
                 golf = oscar().value;
                 romeo = mike;
                 romeo = romeo === options;
                 zulu = romeo;
-                if(romeo) { _fun98762_ip = 72; continue _fun98762 }
+                if(romeo) { _fun00002_ip = 72; continue _fun00001 }
  69:
                 report = golf;
  72:
                 offset = report;
                 report = undefined;
                 golf = zulu;
-                if(golf) { _fun98762_ip = 103; continue _fun98762 }
+                if(golf) { _fun00002_ip = 103; continue _fun00001 }
  83:
                 oscar = oscar().value;
                 golf = mike;
                 golf = golf === options;
                 zulu = golf;
-                if(golf) { _fun98762_ip = 103; continue _fun98762 }
+                if(golf) { _fun00002_ip = 103; continue _fun00001 }
  100:
                 report = oscar;
  103: // try_start_0
                 yankee = report.label;
  108: // try_end0
                 report = zulu;
-                if(report) { _fun98762_ip = 117; continue _fun98762 }
+                if(report) { _fun00002_ip = 117; continue _fun00001 }
  114:
                 mike.return();
  117:
@@ -202,11 +202,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return tango;
  186: // catch_target0
                 CatchBlockStart(arg_register=0);
-                _fun98762_ip = 192; continue _fun98762;
+                _fun00002_ip = 192; continue _fun00001;
  190:
                 CatchBlockStart(arg_register=0);
  192:
-                if(zulu) { _fun98762_ip = 198; continue _fun98762 }
+                if(zulu) { _fun00002_ip = 198; continue _fun00001 }
  195:
                 mike.return();
  198:

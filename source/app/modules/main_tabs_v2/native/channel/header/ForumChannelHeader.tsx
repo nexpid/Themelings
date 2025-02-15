@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun79811: for(var _fun79811_ip = 0; ; ) switch(_fun79811_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.channelId;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.useIsForumChannelSearchActive;
             entity = entity.bind(mike)(offset);
             tango = _closure1_slot4;
-            if(entity) { _fun79811_ip = 152; continue _fun79811 }
+            if(entity) { _fun00002_ip = 152; continue _fun00001 }
  94:
             mike = _closure1_slot1;
             backup = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isNavigationScreen'] = yankee;
             entity['screenIndex'] = zulu;
             entity = tango.bind(report)(mike, entity);
-            _fun79811_ip = 225; continue _fun79811;
+            _fun00002_ip = 225; continue _fun00001;
  152:
             zulu = _closure1_slot3;
             mike = {};

@@ -24,12 +24,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
         mike = false;
         var _closure2_slot2 = mike;
         entity = function(argFoo) {
-            _fun61103: for(var _fun61103_ip = 0; ; ) switch(_fun61103_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 options = 0;
                 mike = copyRestArgs(options);
                 zulu = _closure2_slot2;
-                if(zulu) { _fun61103_ip = 58; continue _fun61103 }
+                if(zulu) { _fun00002_ip = 58; continue _fun00001 }
  16:
                 zulu = true;
                 _closure2_slot2 = zulu;

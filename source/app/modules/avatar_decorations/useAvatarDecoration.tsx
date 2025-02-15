@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/avatar_decorations/useAvatarDecoration.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: useAvatarDecoration
-        _fun80521: for(var _fun80521_ip = 0; ; ) switch(_fun80521_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = golf;
             zulu = function() {
-                _fun80522: for(var _fun80522_ip = 0; ; ) switch(_fun80522_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     zulu = entity != zulu;
-                    if(!zulu) { _fun80522_ip = 48; continue _fun80522 }
+                    if(!zulu) { _fun00004_ip = 48; continue _fun00003 }
  16:
                     report = _closure1_slot2;
                     tango = report.getMember;
@@ -63,11 +63,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango, zulu);
             zulu = null;
             report = zulu == tango;
-            if(report) { _fun80521_ip = 86; continue _fun80521 }
+            if(report) { _fun00002_ip = 86; continue _fun00001 }
  80:
             entity = tango.avatarDecoration;
  86:
-            if(!(zulu == entity)) { _fun80521_ip = 96; continue _fun80521 }
+            if(!(zulu == entity)) { _fun00002_ip = 96; continue _fun00001 }
  90:
             entity = mike.avatarDecoration;
  96:

@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/rpc/helpers/transformUser.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: transformUser
-        _fun74849: for(var _fun74849_ip = 0; ; ) switch(_fun74849_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.id;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity['flags'] = tango;
             tango = null;
             tango = tango != zulu;
-            if(!tango) { _fun74849_ip = 140; continue _fun74849 }
+            if(!tango) { _fun00002_ip = 140; continue _fun00001 }
  137:
             mike = zulu;
  140:

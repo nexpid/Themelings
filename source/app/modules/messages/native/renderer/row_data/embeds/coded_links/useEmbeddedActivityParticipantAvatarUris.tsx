@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = new Array(1);
         report[0] = mike;
         mike = function() {
-            _fun70300: for(var _fun70300_ip = 0; ; ) switch(_fun70300_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = global;
                 zulu = entity.Array;
@@ -54,12 +54,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = null;
                 oscar = tango == entity;
                 entity = undefined;
-                if(oscar) { _fun70300_ip = 41; continue _fun70300 }
+                if(oscar) { _fun00002_ip = 41; continue _fun00001 }
  31:
                 report = _closure2_slot0;
                 entity = report.userIds;
  41:
-                if(!(tango == entity)) { _fun70300_ip = 49; continue _fun70300 }
+                if(!(tango == entity)) { _fun00002_ip = 49; continue _fun00001 }
  45:
                 entity = new Array(0);
  49:
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: getEmbeddedActivityParticipantAvatarUris
-        _fun70305: for(var _fun70305_ip = 0; ; ) switch(_fun70305_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             tango = mike.channelId;
@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot1 = zulu;
             golf = mike.activity;
             oscar = null;
-            if(!(oscar == golf)) { _fun70305_ip = 75; continue _fun70305 }
+            if(!(oscar == golf)) { _fun00004_ip = 75; continue _fun00003 }
  40:
             zulu = _closure1_slot3;
             mike = zulu.getEmbeddedActivitiesForChannel;
@@ -164,18 +164,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = oscar == golf;
             report = undefined;
             mike = undefined;
-            if(options) { _fun70305_ip = 105; continue _fun70305 }
+            if(options) { _fun00004_ip = 105; continue _fun00003 }
  99:
             mike = golf.userIds;
  105:
-            if(!(oscar == mike)) { _fun70305_ip = 113; continue _fun70305 }
+            if(!(oscar == mike)) { _fun00004_ip = 113; continue _fun00003 }
  109:
             mike = new Array(0);
  113:
             zulu = zulu.bind(tango)(mike);
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun70307: for(var _fun70307_ip = 0; ; ) switch(_fun70307_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot4;
                     mike = zulu.getUser;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = null;
                     entity = entity == report;
                     zulu = undefined;
-                    if(entity) { _fun70307_ip = 54; continue _fun70307 }
+                    if(entity) { _fun00006_ip = 54; continue _fun00005 }
  32:
                     tango = report.getAvatarURL;
                     mike = _closure2_slot0;

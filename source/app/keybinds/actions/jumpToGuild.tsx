@@ -1,6 +1,6 @@
 // app/keybinds/actions/jumpToGuild.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
-    _fun105736: for(var _fun105736_ip = 0; ; ) switch(_fun105736_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         options = argBaz;
@@ -57,12 +57,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         foxtrot = foxtrot.bind(offset)(yankee);
         foxtrot = backup.bind(options)(foxtrot);
         yankee = yankee + 1;
-        if(yankee < verify) { _fun105736_ip = 192; continue _fun105736 }
+        if(yankee < verify) { _fun00002_ip = 192; continue _fun00001 }
  225:
         mike['binds'] = options;
         mike['comboKeysBindGlobal'] = report;
         tango = function(argFoo, argBar) { // Original name: action
-            _fun105737: for(var _fun105737_ip = 0; ; ) switch(_fun105737_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = argBar;
                 tango = global;
@@ -76,17 +76,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = 10;
                 report = report.bind(entity)(zulu, oscar);
                 zulu = 0;
-                if(!(zulu === report)) { _fun105737_ip = 52; continue _fun105737 }
+                if(!(zulu === report)) { _fun00004_ip = 52; continue _fun00003 }
  49:
                 report = oscar;
  52:
                 tango = tango.isNaN;
                 tango = tango.bind(entity)(report);
-                if(tango) { _fun105737_ip = 323; continue _fun105737 }
+                if(tango) { _fun00004_ip = 323; continue _fun00003 }
  69:
-                if(!(zulu !== report)) { _fun105737_ip = 323; continue _fun105737 }
+                if(!(zulu !== report)) { _fun00004_ip = 323; continue _fun00003 }
  76:
-                if(!(mike !== report)) { _fun105737_ip = 198; continue _fun105737 }
+                if(!(mike !== report)) { _fun00004_ip = 198; continue _fun00003 }
  80:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot1;
@@ -99,16 +99,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot4;
                 tango = golf.bind(options)(oscar, tango, mike);
                 mike = 2;
-                if(tango) { _fun105737_ip = 158; continue _fun105737 }
+                if(tango) { _fun00004_ip = 158; continue _fun00003 }
  134:
                 oscar = _closure1_slot6;
                 tango = oscar.getFlattenedGuildIds;
                 oscar = tango.bind(oscar)();
                 tango = report - mike;
                 oscar = oscar[tango];
-                _fun105737_ip = 196; continue _fun105737;
+                _fun00004_ip = 196; continue _fun00003;
  158:
-                if(!(mike !== report)) { _fun105737_ip = 189; continue _fun105737 }
+                if(!(mike !== report)) { _fun00004_ip = 189; continue _fun00003 }
  162:
                 tango = _closure1_slot6;
                 mike = tango.getFlattenedGuildIds;
@@ -116,26 +116,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = 3;
                 mike = report - mike;
                 mike = tango[mike];
-                _fun105737_ip = 193; continue _fun105737;
+                _fun00004_ip = 193; continue _fun00003;
  189:
                 mike = _closure1_slot8;
  193:
                 oscar = mike;
  196:
-                _fun105737_ip = 205; continue _fun105737;
+                _fun00004_ip = 205; continue _fun00003;
  198:
                 oscar = _closure1_slot7;
  205:
                 tango = null;
-                if(!(tango != oscar)) { _fun105737_ip = 323; continue _fun105737 }
+                if(!(tango != oscar)) { _fun00004_ip = 323; continue _fun00003 }
  211:
                 zulu = _closure1_slot7;
-                if(!(oscar === zulu)) { _fun105737_ip = 240; continue _fun105737 }
+                if(!(oscar === zulu)) { _fun00004_ip = 240; continue _fun00003 }
  222:
                 report = _closure1_slot5;
                 zulu = report.getGuildId;
                 zulu = zulu.bind(report)();
-                if(!(tango != zulu)) { _fun105737_ip = 273; continue _fun105737 }
+                if(!(tango != zulu)) { _fun00004_ip = 273; continue _fun00003 }
  240:
                 tango = _closure1_slot0;
                 report = _closure1_slot1;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = tango.bind(entity)(zulu);
                 zulu = tango.transitionToGuild;
                 zulu = zulu.bind(tango)(oscar);
-                _fun105737_ip = 319; continue _fun105737;
+                _fun00004_ip = 319; continue _fun00003;
  273:
                 tango = _closure1_slot0;
                 report = _closure1_slot1;

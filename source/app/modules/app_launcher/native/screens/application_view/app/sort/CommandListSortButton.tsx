@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/screens/application_view/app/sort/CommandListSortButton.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: CommandListSortButton
-        _fun119024: for(var _fun119024_ip = 0; ; ) switch(_fun119024_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.sortOrder;
@@ -87,12 +87,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = entity.bind(tango)();
             entity = _closure1_slot4;
             entity = entity.POPULAR;
-            if(!(entity !== mike)) { _fun119024_ip = 125; continue _fun119024 }
+            if(!(entity !== mike)) { _fun00002_ip = 125; continue _fun00001 }
  52:
             entity = _closure1_slot4;
             entity = entity.ALPHABETICAL;
             romeo = undefined;
-            if(!(entity === mike)) { _fun119024_ip = 180; continue _fun119024 }
+            if(!(entity === mike)) { _fun00002_ip = 180; continue _fun00001 }
  68:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.t;
             entity = entity.m8xstr;
             romeo = mike.bind(zulu)(entity);
-            _fun119024_ip = 180; continue _fun119024;
+            _fun00002_ip = 180; continue _fun00001;
  125:
             oscar = _closure1_slot0;
             golf = _closure1_slot2;

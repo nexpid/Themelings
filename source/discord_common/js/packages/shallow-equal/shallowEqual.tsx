@@ -19,19 +19,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = '../discord_common/js/packages/shallow-equal/shallowEqual.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: shallowEqual
-        _fun6974: for(var _fun6974_ip = 0; ; ) switch(_fun6974_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             backup = argFoo;
             foxtrot = argBar;
             romeo = argBaz;
             tango = argCorge;
             entity = backup === foxtrot;
-            if(entity) { _fun6974_ip = 304; continue _fun6974 }
+            if(entity) { _fun00002_ip = 304; continue _fun00001 }
  22:
             zulu = undefined;
-            if(!(zulu !== backup)) { _fun6974_ip = 302; continue _fun6974 }
+            if(!(zulu !== backup)) { _fun00002_ip = 302; continue _fun00001 }
  31:
-            if(!(zulu !== foxtrot)) { _fun6974_ip = 302; continue _fun6974 }
+            if(!(zulu !== foxtrot)) { _fun00002_ip = 302; continue _fun00001 }
  38:
             mike = global;
             oscar = mike.Object;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.bind(golf)(foxtrot);
             options = oscar.length;
             golf = report.length;
-            if(!(options === golf)) { _fun6974_ip = 247; continue _fun6974 }
+            if(!(options === golf)) { _fun00002_ip = 247; continue _fun00001 }
  89:
             golf = new Array(0);
             verify = oscar.length;
@@ -50,35 +50,35 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options < verify;
             verify = null;
             yankee = 0;
-            if(!offset) { _fun6974_ip = 170; continue _fun6974 }
+            if(!offset) { _fun00002_ip = 170; continue _fun00001 }
  111:
             kilo = oscar[yankee];
             sizing = backup[kilo];
             offset = foxtrot[kilo];
-            if(!(sizing !== offset)) { _fun6974_ip = 158; continue _fun6974 }
+            if(!(sizing !== offset)) { _fun00002_ip = 158; continue _fun00001 }
  127:
-            if(!(verify != romeo)) { _fun6974_ip = 144; continue _fun6974 }
+            if(!(verify != romeo)) { _fun00002_ip = 144; continue _fun00001 }
  131:
             offset = romeo.includes;
             offset = offset.bind(romeo)(kilo);
-            if(offset) { _fun6974_ip = 158; continue _fun6974 }
+            if(offset) { _fun00002_ip = 158; continue _fun00001 }
  144:
-            if(!(verify != tango)) { _fun6974_ip = 243; continue _fun6974 }
+            if(!(verify != tango)) { _fun00002_ip = 243; continue _fun00001 }
  148:
             offset = golf.push;
             offset = offset.bind(golf)(kilo);
  158:
             yankee = yankee + 1;
             offset = oscar.length;
-            if(yankee < offset) { _fun6974_ip = 111; continue _fun6974 }
+            if(yankee < offset) { _fun00002_ip = 111; continue _fun00001 }
  170:
             verify = verify != tango;
-            if(!verify) { _fun6974_ip = 186; continue _fun6974 }
+            if(!verify) { _fun00002_ip = 186; continue _fun00001 }
  177:
             offset = golf.length;
             verify = offset > options;
  186:
-            if(!verify) { _fun6974_ip = 232; continue _fun6974 }
+            if(!verify) { _fun00002_ip = 232; continue _fun00001 }
  189:
             offset = golf.join;
             verify = ', ';
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             return golf;
  247:
             golf = null;
-            if(!(golf != tango)) { _fun6974_ip = 298; continue _fun6974 }
+            if(!(golf != tango)) { _fun00002_ip = 298; continue _fun00001 }
  253:
             options = oscar.length;
             golf = report.length;
@@ -119,20 +119,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: areArraysShallowEqual
-        _fun6975: for(var _fun6975_ip = 0; ; ) switch(_fun6975_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tango = argFoo;
             zulu = argBar;
             var _closure2_slot0 = zulu;
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun6975_ip = 35; continue _fun6975 }
+            if(!entity) { _fun00004_ip = 35; continue _fun00003 }
  21:
             report = tango.length;
             zulu = zulu.length;
             entity = report === zulu;
  35:
-            if(!entity) { _fun6975_ip = 57; continue _fun6975 }
+            if(!entity) { _fun00004_ip = 57; continue _fun00003 }
  38:
             zulu = tango.some;
             mike = function(argFoo, argBar) {

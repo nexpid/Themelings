@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['SectionTitle'] = report;
     zulu['Separator'] = tango;
     mike = function(argFoo) { // Original name: Content
-        _fun96945: for(var _fun96945_ip = 0; ; ) switch(_fun96945_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.listingId;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = options;
             verify = oscar > golf;
             options = null;
-            if(!verify) { _fun96945_ip = 604; continue _fun96945 }
+            if(!verify) { _fun00002_ip = 604; continue _fun00001 }
  402:
             yankee = _closure1_slot8;
             offset = _closure1_slot7;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = options;
             verify = target > golf;
             options = null;
-            if(!verify) { _fun96945_ip = 821; continue _fun96945 }
+            if(!verify) { _fun00002_ip = 821; continue _fun00001 }
  620:
             yankee = _closure1_slot8;
             offset = _closure1_slot7;
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = options;
             golf = sequence > golf;
             oscar = null;
-            if(!golf) { _fun96945_ip = 1038; continue _fun96945 }
+            if(!golf) { _fun00002_ip = 1038; continue _fun00001 }
  837:
             verify = _closure1_slot8;
             options = _closure1_slot7;

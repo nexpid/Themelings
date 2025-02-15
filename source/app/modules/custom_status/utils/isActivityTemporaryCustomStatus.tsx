@@ -24,32 +24,32 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/custom_status/utils/isActivityTemporaryCustomStatus.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isActivityTemporaryCustomStatus
-        _fun115024: for(var _fun115024_ip = 0; ; ) switch(_fun115024_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.type;
             entity = _closure1_slot0;
             entity = entity.CUSTOM_STATUS;
             entity = zulu === entity;
-            if(!entity) { _fun115024_ip = 54; continue _fun115024 }
+            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
  28:
             report = mike.timestamps;
             tango = null;
             oscar = tango == report;
             zulu = undefined;
-            if(oscar) { _fun115024_ip = 50; continue _fun115024 }
+            if(oscar) { _fun00002_ip = 50; continue _fun00001 }
  45:
             zulu = report.end;
  50:
             entity = tango != zulu;
  54:
-            if(!entity) { _fun115024_ip = 85; continue _fun115024 }
+            if(!entity) { _fun00002_ip = 85; continue _fun00001 }
  57:
             mike = mike.timestamps;
             zulu = null;
             tango = zulu == mike;
             zulu = undefined;
-            if(tango) { _fun115024_ip = 79; continue _fun115024 }
+            if(tango) { _fun00002_ip = 79; continue _fun00001 }
  74:
             zulu = mike.end;
  79:

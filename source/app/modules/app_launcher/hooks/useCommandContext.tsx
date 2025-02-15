@@ -3,12 +3,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu = argFred;
     oscar = argPlugh;
     tango = function(argFoo) { // Original name: getCommandContext
-        _fun100606: for(var _fun100606_ip = 0; ; ) switch(_fun100606_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.type;
             entity = 'contextless';
-            if(!(entity !== zulu)) { _fun100606_ip = 62; continue _fun100606 }
+            if(!(entity !== zulu)) { _fun00002_ip = 62; continue _fun00001 }
  18:
             entity = {};
             zulu = mike.channel;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.guild_id;
             mike = zulu.bind(tango)(mike);
             entity['guild'] = mike;
-            _fun100606_ip = 77; continue _fun100606;
+            _fun00002_ip = 77; continue _fun00001;
  62:
             mike = {};
             zulu = undefined;

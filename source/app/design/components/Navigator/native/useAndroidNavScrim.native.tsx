@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Navigator/native/useAndroidNavScrim.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useAndroidNavScrim
-        _fun47706: for(var _fun47706_ip = 0; ; ) switch(_fun47706_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = golf.isAndroid;
             tango = tango.bind(golf)();
             golf = 0;
-            if(!tango) { _fun47706_ip = 88; continue _fun47706 }
+            if(!tango) { _fun00002_ip = 88; continue _fun00001 }
  85:
             golf = zulu;
  88:
@@ -87,17 +87,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = oscar;
             mike[2] = report;
             entity = function() {
-                _fun47707: for(var _fun47707_ip = 0; ; ) switch(_fun47707_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot2;
                     mike = 0;
-                    if(!(!(entity > mike))) { _fun47707_ip = 29; continue _fun47707 }
+                    if(!(!(entity > mike))) { _fun00004_ip = 29; continue _fun00003 }
  13:
                     entity = {};
                     entity['scrimHeight'] = mike;
                     mike = undefined;
                     entity['scrim'] = mike;
-                    _fun47707_ip = 113; continue _fun47707;
+                    _fun00004_ip = 113; continue _fun00003;
  29:
                     mike = {};
                     zulu = _closure2_slot2;

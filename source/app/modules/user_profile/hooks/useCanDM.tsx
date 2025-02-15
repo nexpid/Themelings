@@ -73,12 +73,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         options = new Array(1);
         options[0] = golf;
         golf = function() {
-            _fun102768: for(var _fun102768_ip = 0; ; ) switch(_fun102768_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun102768_ip = 38; continue _fun102768 }
+                if(!entity) { _fun00002_ip = 38; continue _fun00001 }
  16:
                 tango = _closure1_slot3;
                 zulu = tango.isLurking;
@@ -108,22 +108,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot2;
         mike[2] = report;
         entity = function() {
-            _fun102769: for(var _fun102769_ip = 0; ; ) switch(_fun102769_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = _closure2_slot2;
                 entity = !entity;
-                if(!entity) { _fun102769_ip = 20; continue _fun102769 }
+                if(!entity) { _fun00004_ip = 20; continue _fun00003 }
  13:
                 zulu = _closure2_slot3;
                 entity = !zulu;
  20:
-                if(!entity) { _fun102769_ip = 95; continue _fun102769 }
+                if(!entity) { _fun00004_ip = 95; continue _fun00003 }
  23:
                 oscar = _closure1_slot6;
                 report = oscar.isFriend;
                 zulu = _closure2_slot0;
                 zulu = report.bind(oscar)(zulu);
-                if(zulu) { _fun102769_ip = 92; continue _fun102769 }
+                if(zulu) { _fun00004_ip = 92; continue _fun00003 }
  48:
                 oscar = _closure1_slot5;
                 report = oscar.memberOf;
@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  92:
                 entity = zulu;
  95:
-                if(entity) { _fun102769_ip = 175; continue _fun102769 }
+                if(entity) { _fun00004_ip = 175; continue _fun00003 }
  98:
                 report = _closure1_slot2;
                 tango = report.getGameFriendsForUser;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 tango = mike.length;
                 mike = 0;
                 mike = tango > mike;
-                if(!mike) { _fun102769_ip = 172; continue _fun102769 }
+                if(!mike) { _fun00004_ip = 172; continue _fun00003 }
  134:
                 report = _closure1_slot0;
                 tango = _closure1_slot1;

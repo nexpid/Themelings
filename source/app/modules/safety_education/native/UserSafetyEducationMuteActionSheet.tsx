@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         options = sizing.contentContainer;
         report['style'] = options;
         options = function(argFoo) { // Original name: onLayout
-            _fun116009: for(var _fun116009_ip = 0; ; ) switch(_fun116009_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
                 entity = entity.nativeEvent;
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = _closure2_slot1;
                 entity = _closure2_slot2;
                 mike = tango;
-                if(!entity) { _fun116009_ip = 43; continue _fun116009 }
+                if(!entity) { _fun00002_ip = 43; continue _fun00001 }
  36:
                 entity = 2;
                 mike = tango / entity;

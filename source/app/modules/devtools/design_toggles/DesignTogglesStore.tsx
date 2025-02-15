@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     oscar = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun60240: for(var _fun60240_ip = 0; ; ) switch(_fun60240_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun60240_ip = 51; continue _fun60240 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun60240_ip = 92; continue _fun60240;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun60240_ip = 71; continue _fun60240 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun60241: for(var _fun60241_ip = 0; ; ) switch(_fun60241_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  70: // try_end0
-            _fun60241_ip = 74; continue _fun60241;
+            _fun00004_ip = 74; continue _fun00003;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'initialize';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun60247: for(var _fun60247_ip = 0; ; ) switch(_fun60247_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 offset = argFoo;
                 options = _closure1_slot5;
@@ -163,25 +163,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = tango;
                     romeo = zulu == offset;
                     yankee = undefined;
-                    if(romeo) { _fun60247_ip = 70; continue _fun60247 }
+                    if(romeo) { _fun00006_ip = 70; continue _fun00005 }
  45:
                     backup = offset.toggleStates;
                     romeo = zulu == backup;
                     mike = backup;
                     yankee = undefined;
-                    if(romeo) { _fun60247_ip = 70; continue _fun60247 }
+                    if(romeo) { _fun00006_ip = 70; continue _fun00005 }
  63:
                     yankee = backup[foxtrot];
                     mike = backup;
  70:
                     romeo = zulu != yankee;
-                    if(!romeo) { _fun60247_ip = 80; continue _fun60247 }
+                    if(!romeo) { _fun00006_ip = 80; continue _fun00005 }
  77:
                     romeo = yankee;
  80:
                     yankee = _closure1_slot6;
                     yankee[foxtrot] = romeo;
-                    _fun60247_ip = 24; continue _fun60247;
+                    _fun00006_ip = 24; continue _fun00005;
                 }
  90:
                 return entity;
@@ -193,14 +193,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         golf = 'get';
         report['key'] = golf;
         golf = function(argFoo) { // Original name: value
-            _fun60248: for(var _fun60248_ip = 0; ; ) switch(_fun60248_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = _closure1_slot6;
                 entity = argFoo;
                 mike = mike[entity];
                 entity = null;
                 entity = entity != mike;
-                if(!entity) { _fun60248_ip = 26; continue _fun60248 }
+                if(!entity) { _fun00008_ip = 26; continue _fun00007 }
  23:
                 entity = mike;
  26:
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = mike.bind(zulu)(entity);
             mike = zulu.map;
             entity = function(argFoo) {
-                _fun60252: for(var _fun60252_ip = 0; ; ) switch(_fun60252_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     report = argFoo;
                     entity = report[Symbol.iterator];
@@ -251,24 +251,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     golf = undefined;
                     tango = zulu === golf;
                     zulu = undefined;
-                    if(tango) { _fun60252_ip = 27; continue _fun60252 }
+                    if(tango) { _fun00010_ip = 27; continue _fun00009 }
  24:
                     zulu = mike;
  27:
                     mike = undefined;
-                    if(tango) { _fun60252_ip = 57; continue _fun60252 }
+                    if(tango) { _fun00010_ip = 57; continue _fun00009 }
  32:
                     oscar = report().value;
                     report = entity;
                     report = report === golf;
                     mike = undefined;
                     tango = report;
-                    if(report) { _fun60252_ip = 57; continue _fun60252 }
+                    if(report) { _fun00010_ip = 57; continue _fun00009 }
  51:
                     mike = oscar;
                     tango = report;
  57:
-                    if(tango) { _fun60252_ip = 63; continue _fun60252 }
+                    if(tango) { _fun00010_ip = 63; continue _fun00009 }
  60:
                     entity.return();
  63:

@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/profile_customization/native/HeaderName.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: HeaderName
-        _fun99669: for(var _fun99669_ip = 0; ; ) switch(_fun99669_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             foxtrot = mike.nameOverride;
@@ -101,18 +101,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             entity = source.bind(control)(kilo, entity, zulu);
             zulu = null;
-            if(!(zulu != foxtrot)) { _fun99669_ip = 205; continue _fun99669 }
+            if(!(zulu != foxtrot)) { _fun00002_ip = 205; continue _fun00001 }
  202:
             entity = foxtrot;
  205:
-            if(!(zulu != entity)) { _fun99669_ip = 233; continue _fun99669 }
+            if(!(zulu != entity)) { _fun00002_ip = 233; continue _fun00001 }
  209:
             foxtrot = entity.trim;
             foxtrot = foxtrot.bind(entity)();
             source = foxtrot.length;
             foxtrot = 0;
             kilo = entity;
-            if(!(!(source > foxtrot))) { _fun99669_ip = 264; continue _fun99669 }
+            if(!(!(source > foxtrot))) { _fun00002_ip = 264; continue _fun00001 }
  233:
             source = _closure1_slot1;
             control = _closure1_slot2;
@@ -166,16 +166,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             foxtrot = source.bind(control)(tango, foxtrot);
-            if(!(zulu != update)) { _fun99669_ip = 345; continue _fun99669 }
+            if(!(zulu != update)) { _fun00002_ip = 345; continue _fun00001 }
  342:
             foxtrot = update;
  345:
             tango = zulu == romeo;
-            if(!tango) { _fun99669_ip = 356; continue _fun99669 }
+            if(!tango) { _fun00002_ip = 356; continue _fun00001 }
  352:
             tango = zulu == update;
  356:
-            if(!tango) { _fun99669_ip = 414; continue _fun99669 }
+            if(!tango) { _fun00002_ip = 414; continue _fun00001 }
  359:
             control = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -192,9 +192,9 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  414:
             tango = sizing.isPomelo;
             tango = tango.bind(sizing)();
-            if(tango) { _fun99669_ip = 522; continue _fun99669 }
+            if(tango) { _fun00002_ip = 522; continue _fun00001 }
  427:
-            if(!(zulu == entity)) { _fun99669_ip = 522; continue _fun99669 }
+            if(!(zulu == entity)) { _fun00002_ip = 522; continue _fun00001 }
  431:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['textVariant'] = golf;
             entity['hideSubname'] = oscar;
             entity = tango.bind(report)(zulu, entity);
-            _fun99669_ip = 610; continue _fun99669;
+            _fun00002_ip = 610; continue _fun00001;
  522:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;

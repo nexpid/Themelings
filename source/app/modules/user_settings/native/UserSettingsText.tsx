@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     options = 'modules/user_settings/native/UserSettingsText.tsx';
     options = verify.bind(offset)(options);
     options = function() { // Original name: UserSettingsText
-        _fun97655: for(var _fun97655_ip = 0; ; ) switch(_fun97655_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = _closure1_slot0;
             report = _closure1_slot2;
@@ -450,10 +450,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             oscar = report.Form;
             report = {};
             verify = null;
-            if(!offset) { _fun97655_ip = 512; continue _fun97655 }
+            if(!offset) { _fun00002_ip = 512; continue _fun00001 }
  491:
             verify = null;
-            if(options) { _fun97655_ip = 512; continue _fun97655 }
+            if(options) { _fun00002_ip = 512; continue _fun00001 }
  496:
             yankee = _closure1_slot14;
             offset = _closure1_slot23;
@@ -779,10 +779,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             sizing = kilo.FormHint;
             kilo = {};
             result = null;
-            if(echo) { _fun97655_ip = 1836; continue _fun97655 }
+            if(echo) { _fun00002_ip = 1836; continue _fun00001 }
  1825:
             echo = function() { // Original name: renderNitroUpsellText
-                _fun97665: for(var _fun97665_ip = 0; ; ) switch(_fun97665_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     options = _closure1_slot14;
                     zulu = _closure1_slot0;
@@ -874,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     entity = zulu.isAndroid;
                     entity = entity.bind(zulu)();
                     tango = _closure1_slot15;
-                    if(entity) { _fun97665_ip = 369; continue _fun97665 }
+                    if(entity) { _fun00004_ip = 369; continue _fun00003 }
  321:
                     zulu = _closure1_slot4;
                     entity = {};
@@ -887,7 +887,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     oscar[2] = golf;
                     entity['children'] = oscar;
                     entity = tango.bind(report)(zulu, entity);
-                    _fun97665_ip = 401; continue _fun97665;
+                    _fun00004_ip = 401; continue _fun00003;
  369:
                     zulu = _closure1_slot16;
                     mike = {};

@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu[1] = verify;
         zulu[2] = mike;
         mike = function() {
-            _fun79600: for(var _fun79600_ip = 0; ; ) switch(_fun79600_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot7;
                 mike = null;
-                if(!(mike != zulu)) { _fun79600_ip = 23; continue _fun79600 }
+                if(!(mike != zulu)) { _fun00002_ip = 23; continue _fun00001 }
  13:
                 zulu = _closure2_slot7;
                 mike = undefined;
@@ -102,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = verify;
         mike[2] = oscar;
         entity = function() {
-            _fun79601: for(var _fun79601_ip = 0; ; ) switch(_fun79601_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot7;
                 mike = null;
-                if(!(mike != zulu)) { _fun79601_ip = 23; continue _fun79601 }
+                if(!(mike != zulu)) { _fun00004_ip = 23; continue _fun00003 }
  13:
                 zulu = _closure2_slot7;
                 mike = undefined;

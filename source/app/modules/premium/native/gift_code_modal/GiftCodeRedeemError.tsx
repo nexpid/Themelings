@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/premium/native/gift_code_modal/GiftCodeRedeemError.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GiftCodeRedeemError
-        _fun91803: for(var _fun91803_ip = 0; ; ) switch(_fun91803_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.message;
@@ -106,12 +106,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = romeo.dark;
             backup = _closure1_slot1;
             sizing = _closure1_slot2;
-            if(romeo) { _fun91803_ip = 154; continue _fun91803 }
+            if(romeo) { _fun00002_ip = 154; continue _fun00001 }
  140:
             romeo = 8;
             romeo = sizing[romeo];
             romeo = backup.bind(tango)(romeo);
-            _fun91803_ip = 166; continue _fun91803;
+            _fun00002_ip = 166; continue _fun00001;
  154:
             foxtrot = 7;
             foxtrot = sizing[foxtrot];

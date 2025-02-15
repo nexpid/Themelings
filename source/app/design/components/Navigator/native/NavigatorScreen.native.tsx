@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     var _closure1_slot2 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun65282: for(var _fun65282_ip = 0; ; ) switch(_fun65282_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.screen;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = zulu.bind(golf)(verify, oscar);
             golf = null;
             zulu = golf != mike;
-            if(!zulu) { _fun65282_ip = 89; continue _fun65282 }
+            if(!zulu) { _fun00002_ip = 89; continue _fun00001 }
  85:
             golf = mike.bind(tango)();
  89:

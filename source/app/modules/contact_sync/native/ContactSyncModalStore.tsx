@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['ContactSyncModes'] = report;
     zulu['useContactSyncModalStore'] = tango;
     tango = function(argFoo) { // Original name: initialize
-        _fun93872: for(var _fun93872_ip = 0; ; ) switch(_fun93872_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = tango == oscar;
             entity = undefined;
             report = undefined;
-            if(golf) { _fun93872_ip = 55; continue _fun93872 }
+            if(golf) { _fun00002_ip = 55; continue _fun00001 }
  50:
             report = oscar.name;
  55:
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)();
             oscar = tango == report;
             tango = undefined;
-            if(oscar) { _fun93872_ip = 87; continue _fun93872 }
+            if(oscar) { _fun00002_ip = 87; continue _fun00001 }
  81:
             tango = report.phone;
  87:
@@ -335,13 +335,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setPhoneToken'] = tango;
     tango = function(argFoo) { // Original name: setName
-        _fun93893: for(var _fun93893_ip = 0; ; ) switch(_fun93893_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = arguments[1];
             entity = argFoo;
             var _closure2_slot0 = entity;
             entity = undefined;
-            if(!(zulu === entity)) { _fun93893_ip = 20; continue _fun93893 }
+            if(!(zulu === entity)) { _fun00004_ip = 20; continue _fun00003 }
  18:
             zulu = false;
  20:
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['setError'] = tango;
     tango = function() { // Original name: useIsOnboarding
-        _fun93902: for(var _fun93902_ip = 0; ; ) switch(_fun93902_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = _closure1_slot7;
             entity = undefined;
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot6;
             entity = entity.ONBOARDING;
             entity = zulu === entity;
-            if(entity) { _fun93902_ip = 49; continue _fun93902 }
+            if(entity) { _fun00006_ip = 49; continue _fun00005 }
  35:
             mike = _closure1_slot6;
             mike = mike.ONBOARDING_INVITE;
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsOnboarding'] = tango;
     mike = function() { // Original name: getIsOnboarding
-        _fun93903: for(var _fun93903_ip = 0; ; ) switch(_fun93903_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zulu = _closure1_slot7;
             entity = zulu.getState;
@@ -469,7 +469,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = _closure1_slot6;
             entity = entity.ONBOARDING;
             entity = zulu === entity;
-            if(entity) { _fun93903_ip = 53; continue _fun93903 }
+            if(entity) { _fun00008_ip = 53; continue _fun00007 }
  39:
             mike = _closure1_slot6;
             mike = mike.ONBOARDING_INVITE;

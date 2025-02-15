@@ -37,13 +37,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/global_discovery/GlobalDiscoveryMobileExperiment.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useIsMobileGlobalDiscoveryEnabled
-        _fun91443: for(var _fun91443_ip = 0; ; ) switch(_fun91443_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun91443_ip = 22; continue _fun91443 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
@@ -60,13 +60,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useIsMobileGlobalDiscoveryEnabled'] = tango;
     mike = function(argFoo) { // Original name: getIsMobileGlobalDiscoveryEnabled
-        _fun91444: for(var _fun91444_ip = 0; ; ) switch(_fun91444_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun91444_ip = 22; continue _fun91444 }
+            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = true;
  22:

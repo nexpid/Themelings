@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationsTiers.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) {
-        _fun102154: for(var _fun102154_ip = 0; ; ) switch(_fun102154_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             report = _closure1_slot0;
@@ -68,27 +68,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = null;
             entity = oscar == options;
             verify = undefined;
-            if(entity) { _fun102154_ip = 145; continue _fun102154 }
+            if(entity) { _fun00002_ip = 145; continue _fun00001 }
  135:
             entity = options.isStaff;
             verify = entity.bind(options)();
  145:
             options = true;
             entity = null;
-            if(!(options === verify)) { _fun102154_ip = 244; continue _fun102154 }
+            if(!(options === verify)) { _fun00002_ip = 244; continue _fun00001 }
  153:
             entity = null;
-            if(!mike) { _fun102154_ip = 244; continue _fun102154 }
+            if(!mike) { _fun00002_ip = 244; continue _fun00001 }
  158:
             mike = golf.isDM;
             mike = mike.bind(golf)();
             entity = null;
-            if(!mike) { _fun102154_ip = 244; continue _fun102154 }
+            if(!mike) { _fun00002_ip = 244; continue _fun00001 }
  173:
             mike = {};
             golf = oscar == report;
             options = undefined;
-            if(golf) { _fun102154_ip = 189; continue _fun102154 }
+            if(golf) { _fun00002_ip = 189; continue _fun00001 }
  184:
             options = report.type;
  189:
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike['isTier1'] = golf;
             oscar = oscar == report;
             tango = undefined;
-            if(oscar) { _fun102154_ip = 222; continue _fun102154 }
+            if(oscar) { _fun00002_ip = 222; continue _fun00001 }
  217:
             tango = report.type;
  222:

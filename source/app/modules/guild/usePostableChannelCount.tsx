@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild/usePostableChannelCount.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useSendMessageChannelCount
-        _fun118276: for(var _fun118276_ip = 0; ; ) switch(_fun118276_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = new Array(1);
             zulu[0] = entity;
             entity = function() {
-                _fun118277: for(var _fun118277_ip = 0; ; ) switch(_fun118277_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot3;
                     zulu = tango.getChannels;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = _closure1_slot4;
                     entity = mike[entity];
                     mike = null;
-                    if(!(mike == entity)) { _fun118277_ip = 43; continue _fun118277 }
+                    if(!(mike == entity)) { _fun00004_ip = 43; continue _fun00003 }
  39:
                     entity = new Array(0);
  43:
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.bind(oscar)(tango, entity, zulu);
             zulu = tango.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun118276_ip = 106; continue _fun118276 }
+            if(!(entity !== zulu)) { _fun00002_ip = 106; continue _fun00001 }
  84:
             zulu = tango.filter;
             mike = function(argFoo) {

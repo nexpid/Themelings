@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/guild_sidebar/VoiceUserNameItem.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: VoiceUserNameItem
-        _fun115828: for(var _fun115828_ip = 0; ; ) switch(_fun115828_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             source = mike.member;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(2);
             report[0] = golf;
             golf = oscar;
-            if(!oscar) { _fun115828_ip = 281; continue _fun115828 }
+            if(!oscar) { _fun00002_ip = 281; continue _fun00001 }
  275:
             golf = romeo.measuringTag;
  281:
@@ -172,11 +172,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             output = null;
             control = output == source;
             update = undefined;
-            if(control) { _fun115828_ip = 355; continue _fun115828 }
+            if(control) { _fun00002_ip = 355; continue _fun00001 }
  349:
             update = source.nick;
  355:
-            if(!(output == update)) { _fun115828_ip = 390; continue _fun115828 }
+            if(!(output == update)) { _fun00002_ip = 390; continue _fun00001 }
  359:
             source = _closure1_slot1;
             control = _closure1_slot2;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  390:
             output = new Array(2);
             output[0] = update;
-            if(!result) { _fun115828_ip = 512; continue _fun115828 }
+            if(!result) { _fun00002_ip = 512; continue _fun00001 }
  401:
             source = _closure1_slot6;
             config = _closure1_slot0;
@@ -217,25 +217,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = sizing.bind(tango)(golf, report);
             report = new Array(2);
             report[0] = golf;
-            if(oscar) { _fun115828_ip = 569; continue _fun115828 }
+            if(oscar) { _fun00002_ip = 569; continue _fun00001 }
  537:
             golf = kilo !== verify;
-            if(!golf) { _fun115828_ip = 548; continue _fun115828 }
+            if(!golf) { _fun00002_ip = 548; continue _fun00001 }
  544:
             golf = kilo !== backup;
  548:
-            if(!golf) { _fun115828_ip = 555; continue _fun115828 }
+            if(!golf) { _fun00002_ip = 555; continue _fun00001 }
  551:
             golf = kilo !== options;
  555:
-            if(!golf) { _fun115828_ip = 566; continue _fun115828 }
+            if(!golf) { _fun00002_ip = 566; continue _fun00001 }
  558:
             options = backup + options;
             golf = verify >= options;
  566:
             oscar = golf;
  569:
-            if(!oscar) { _fun115828_ip = 653; continue _fun115828 }
+            if(!oscar) { _fun00002_ip = 653; continue _fun00001 }
  572:
             verify = _closure1_slot7;
             options = _closure1_slot5;

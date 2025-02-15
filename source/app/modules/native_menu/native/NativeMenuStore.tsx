@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu = argFred;
     report = argPlugh;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun87344: for(var _fun87344_ip = 0; ; ) switch(_fun87344_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -15,16 +15,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot2;
             entity = _closure1_slot8;
             entity = entity.bind(zulu)();
-            if(entity) { _fun87344_ip = 51; continue _fun87344 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun87344_ip = 92; continue _fun87344;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun87344_ip = 71; continue _fun87344 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot7 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun87345: for(var _fun87345_ip = 0; ; ) switch(_fun87345_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun87345_ip = 76; continue _fun87345;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -185,15 +185,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     mike['SHOW_NATIVE_MENU'] = options;
     tango = function(argFoo) { // Original name: handleHideNativeMenu
-        _fun87355: for(var _fun87355_ip = 0; ; ) switch(_fun87355_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             zulu = entity.key;
             mike = null;
-            if(!(mike != zulu)) { _fun87355_ip = 25; continue _fun87355 }
+            if(!(mike != zulu)) { _fun00006_ip = 25; continue _fun00005 }
  14:
             entity = _closure1_slot6;
-            if(!(zulu === entity)) { _fun87355_ip = 40; continue _fun87355 }
+            if(!(zulu === entity)) { _fun00006_ip = 40; continue _fun00005 }
  25:
             _closure1_slot5 = mike;
             _closure1_slot6 = mike;

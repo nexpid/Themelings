@@ -28,14 +28,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/isMessagePinnable.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz) { // Original name: isMessagePinnable
-        _fun90873: for(var _fun90873_ip = 0; ; ) switch(_fun90873_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             zulu = argBaz;
             entity = mike.isSystemDM;
             entity = entity.bind(mike)();
             entity = !entity;
-            if(!entity) { _fun90873_ip = 58; continue _fun90873 }
+            if(!entity) { _fun00002_ip = 58; continue _fun00001 }
  22:
             report = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -47,16 +47,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango);
             entity = !tango;
  58:
-            if(!entity) { _fun90873_ip = 77; continue _fun90873 }
+            if(!entity) { _fun00002_ip = 77; continue _fun00001 }
  61:
-            if(zulu) { _fun90873_ip = 74; continue _fun90873 }
+            if(zulu) { _fun00002_ip = 74; continue _fun00001 }
  64:
             tango = mike.isPrivate;
             zulu = tango.bind(mike)();
  74:
             entity = zulu;
  77:
-            if(!entity) { _fun90873_ip = 116; continue _fun90873 }
+            if(!entity) { _fun00002_ip = 116; continue _fun00001 }
  80:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -67,14 +67,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.getIsActiveChannelOrUnarchivableThread;
             entity = zulu.bind(tango)(mike);
  116:
-            if(!entity) { _fun90873_ip = 141; continue _fun90873 }
+            if(!entity) { _fun00002_ip = 141; continue _fun00001 }
  119:
             tango = mike.type;
             zulu = _closure1_slot3;
             zulu = zulu.GUILD_VOICE;
             entity = tango !== zulu;
  141:
-            if(!entity) { _fun90873_ip = 166; continue _fun90873 }
+            if(!entity) { _fun00002_ip = 166; continue _fun00001 }
  144:
             zulu = mike.type;
             mike = _closure1_slot3;

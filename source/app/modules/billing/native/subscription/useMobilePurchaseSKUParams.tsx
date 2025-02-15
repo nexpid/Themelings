@@ -47,22 +47,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[1] = oscar;
         mike[2] = report;
         entity = function() {
-            _fun98906: for(var _fun98906_ip = 0; ; ) switch(_fun98906_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 tango = null;
                 mike = tango == entity;
                 entity = null;
-                if(mike) { _fun98906_ip = 121; continue _fun98906 }
+                if(mike) { _fun00002_ip = 121; continue _fun00001 }
  18:
                 mike = _closure2_slot1;
                 entity = null;
-                if(!(tango !== mike)) { _fun98906_ip = 121; continue _fun98906 }
+                if(!(tango !== mike)) { _fun00002_ip = 121; continue _fun00001 }
  28:
                 mike = _closure2_slot2;
                 mike = tango == mike;
                 entity = null;
-                if(mike) { _fun98906_ip = 121; continue _fun98906 }
+                if(mike) { _fun00002_ip = 121; continue _fun00001 }
  41:
                 mike = {};
                 oscar = _closure1_slot0;

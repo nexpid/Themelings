@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = tango.bind(report)(zulu);
             tango = report.then;
             zulu = function(argFoo) {
-                _fun91581: for(var _fun91581_ip = 0; ; ) switch(_fun91581_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     entity = argFoo;
                     report = entity.body;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = _closure1_slot3;
                     tango = oscar.isConnected;
                     tango = tango.bind(oscar)();
-                    if(tango) { _fun91581_ip = 143; continue _fun91581 }
+                    if(tango) { _fun00002_ip = 143; continue _fun00001 }
  93:
                     oscar = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -119,12 +119,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = oscar.bind(golf)(tango);
                     tango = _closure3_slot0;
                     tango = tango.bind(entity)(report);
-                    _fun91581_ip = 165; continue _fun91581;
+                    _fun00002_ip = 165; continue _fun00001;
  143:
                     tango = _closure1_slot4;
                     zulu = tango.addConditionalChangeListener;
                     mike = function() {
-                        _fun91582: for(var _fun91582_ip = 0; ; ) switch(_fun91582_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             report = _closure1_slot4;
                             tango = report.getGuild;
@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             zulu = zulu.id;
                             tango = tango.bind(report)(zulu);
                             zulu = null;
-                            if(!(zulu == tango)) { _fun91582_ip = 39; continue _fun91582 }
+                            if(!(zulu == tango)) { _fun00004_ip = 39; continue _fun00003 }
  35:
                             zulu = undefined;
                             return zulu;

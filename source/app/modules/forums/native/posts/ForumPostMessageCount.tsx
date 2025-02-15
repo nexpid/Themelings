@@ -1,6 +1,6 @@
 // app/modules/forums/native/posts/ForumPostMessageCount.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun100576: for(var _fun100576_ip = 0; ; ) switch(_fun100576_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
         kilo = argBaz;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         backup = sizing.isAndroid;
         sizing = backup.bind(sizing)();
         backup = 0;
-        if(!sizing) { _fun100576_ip = 217; continue _fun100576 }
+        if(!sizing) { _fun00002_ip = 217; continue _fun00001 }
  214:
         backup = romeo;
  217:
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         foxtrot = backup.isAndroid;
         foxtrot = foxtrot.bind(backup)();
         yankee = 0;
-        if(!foxtrot) { _fun100576_ip = 284; continue _fun100576 }
+        if(!foxtrot) { _fun00002_ip = 284; continue _fun00001 }
  281:
         yankee = romeo;
  284:
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = 'modules/forums/native/posts/ForumPostMessageCount.tsx';
         tango = report.bind(oscar)(tango);
         mike = function(argFoo) { // Original name: ForumPostMessageCount
-            _fun100577: for(var _fun100577_ip = 0; ; ) switch(_fun100577_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
                 zulu = entity.thread;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = entity.messageCount;
                 backup = entity.unreadCount;
                 foxtrot = 'text-muted';
-                if(!output) { _fun100577_ip = 104; continue _fun100577 }
+                if(!output) { _fun00004_ip = 104; continue _fun00003 }
  98:
                 foxtrot = 'text-normal';
  104:
@@ -152,16 +152,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = {};
                 sizing = 'xs';
                 report['size'] = sizing;
-                if(output) { _fun100577_ip = 244; continue _fun100577 }
+                if(output) { _fun00004_ip = 244; continue _fun00003 }
  236:
                 sizing = romeo.iconRead;
-                _fun100577_ip = 250; continue _fun100577;
+                _fun00004_ip = 250; continue _fun00003;
  244:
                 sizing = romeo.iconUnread;
  250:
                 report['style'] = sizing;
                 sizing = 'interactive-muted';
-                if(!output) { _fun100577_ip = 269; continue _fun100577 }
+                if(!output) { _fun00004_ip = 269; continue _fun00003 }
  263:
                 sizing = 'interactive-normal';
  269:
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = new Array(3);
                 report[0] = options;
                 offset = _closure1_slot4;
-                if(oscar) { _fun100577_ip = 349; continue _fun100577 }
+                if(oscar) { _fun00004_ip = 349; continue _fun00003 }
  294:
                 options = _closure1_slot1;
                 sizing = _closure1_slot2;
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = false;
                 oscar['animate'] = verify;
                 oscar = offset.bind(tango)(options, oscar);
-                _fun100577_ip = 398; continue _fun100577;
+                _fun00004_ip = 398; continue _fun00003;
  349:
                 verify = _closure1_slot0;
                 sizing = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report[1] = oscar;
                 oscar = null;
                 oscar = oscar != backup;
-                if(!oscar) { _fun100577_ip = 550; continue _fun100577 }
+                if(!oscar) { _fun00004_ip = 550; continue _fun00003 }
  414:
                 verify = _closure1_slot5;
                 yankee = _closure1_slot0;

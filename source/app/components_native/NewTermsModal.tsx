@@ -152,7 +152,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'components_native/NewTermsModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: NewTermsModal
-        _fun124809: for(var _fun124809_ip = 0; ; ) switch(_fun124809_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot14;
             report = undefined;
@@ -191,11 +191,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             tango = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun124812: for(var _fun124812_ip = 0; ; ) switch(_fun124812_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun124812_ip = 81; continue _fun124812 }
+                        if(mike) { _fun00004_ip = 81; continue _fun00003 }
  7:
                         report = _closure2_slot1;
                         zulu = undefined;
@@ -213,7 +213,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                         return mike;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun124812_ip = 78; continue _fun124812 }
+                        if(report) { _fun00004_ip = 78; continue _fun00003 }
  66:
                         tango = _closure2_slot1;
                         tango = tango.bind(zulu)(mike);
@@ -254,7 +254,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = oscar.bind(report)(tango, zulu, entity);
             entity = null;
             mike = entity == mike;
-            if(mike) { _fun124809_ip = 1259; continue _fun124809 }
+            if(mike) { _fun00002_ip = 1259; continue _fun00001 }
  264:
             tango = _closure1_slot13;
             zulu = _closure1_slot8;
@@ -426,12 +426,12 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             kilo = {};
             kilo['loading'] = result;
             output = function() { // Original name: onPress
-                _fun124813: for(var _fun124813_ip = 0; ; ) switch(_fun124813_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = _closure1_slot11;
                     mike = mike.AGREEMENTS;
-                    if(!(zulu === mike)) { _fun124813_ip = 34; continue _fun124813 }
+                    if(!(zulu === mike)) { _fun00006_ip = 34; continue _fun00005 }
  24:
                     mike = _closure2_slot2;
                     entity = undefined;

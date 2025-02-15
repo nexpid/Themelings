@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     options = report.bind(entity)(tango);
     golf = options.createStyles;
     tango = function(argFoo) {
-        _fun116548: for(var _fun116548_ip = 0; ; ) switch(_fun116548_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = offset.isAndroid;
             offset = oscar.bind(offset)();
             oscar = 0;
-            if(!offset) { _fun116548_ip = 212; continue _fun116548 }
+            if(!offset) { _fun00002_ip = 212; continue _fun00001 }
  209:
             oscar = verify;
  212:
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notification_center/native/ForYouSuggestedFriendRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForYouSuggestedFriendRow
-        _fun116549: for(var _fun116549_ip = 0; ; ) switch(_fun116549_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             config = entity.suggestedFriend;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = mike;
             tango = entity.panelVariant;
             options = undefined;
-            if(!(tango === options)) { _fun116549_ip = 49; continue _fun116549 }
+            if(!(tango === options)) { _fun00004_ip = 49; continue _fun00003 }
  47:
             tango = false;
  49:
@@ -246,12 +246,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = config.friendSuggestionName;
             zulu = null;
             report = tango;
-            if(!(zulu != mike)) { _fun116549_ip = 285; continue _fun116549 }
+            if(!(zulu != mike)) { _fun00004_ip = 285; continue _fun00003 }
  268:
             mike = config.friendSuggestionName;
             tango = mike.length;
             mike = 0;
-            if(!(!(tango > mike))) { _fun116549_ip = 323; continue _fun116549 }
+            if(!(!(tango > mike))) { _fun00004_ip = 323; continue _fun00003 }
  285:
             tango = _closure1_slot1;
             golf = _closure1_slot2;
@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = golf.getName;
             mike = config.user;
             tango = tango.bind(golf)(mike);
-            _fun116549_ip = 329; continue _fun116549;
+            _fun00004_ip = 329; continue _fun00003;
  323:
             tango = config.friendSuggestionName;
  329:
@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             lima = '';
             papa = tango;
             sierra = lima;
-            if(!mike) { _fun116549_ip = 402; continue _fun116549 }
+            if(!mike) { _fun00004_ip = 402; continue _fun00003 }
  378:
             mike = global;
             mike = mike.HermesInternal;
@@ -285,11 +285,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sierra = tango.bind(mike)(golf);
  402:
             mike = config.mutualFriendsCount;
-            if(!(zulu != mike)) { _fun116549_ip = 424; continue _fun116549 }
+            if(!(zulu != mike)) { _fun00004_ip = 424; continue _fun00003 }
  412:
             zulu = config.mutualFriendsCount;
             mike = 0;
-            if(!(!(zulu > mike))) { _fun116549_ip = 462; continue _fun116549 }
+            if(!(!(zulu > mike))) { _fun00004_ip = 462; continue _fun00003 }
  424:
             zulu = _closure1_slot1;
             tango = _closure1_slot2;
@@ -299,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.getName;
             mike = config.user;
             control = zulu.bind(tango)(mike);
-            _fun116549_ip = 530; continue _fun116549;
+            _fun00004_ip = 530; continue _fun00003;
  462:
             zulu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -352,10 +352,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[0] = sequence;
             mike[1] = entity;
             entity = function() {
-                _fun116554: for(var _fun116554_ip = 0; ; ) switch(_fun116554_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot5;
-                    if(mike) { _fun116554_ip = 26; continue _fun116554 }
+                    if(mike) { _fun00006_ip = 26; continue _fun00005 }
  10:
                     zulu = _closure2_slot4;
                     mike = zulu.set;
@@ -447,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = status.isAndroid;
             status = target.bind(status)();
             target = 0;
-            if(!status) { _fun116549_ip = 1002; continue _fun116549 }
+            if(!status) { _fun00004_ip = 1002; continue _fun00003 }
  996:
             target = -2;
  1002:
@@ -468,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             quebec = variable36.isAndroid;
             quebec = quebec.bind(variable36)();
             equality = 0;
-            if(!quebec) { _fun116549_ip = 1079; continue _fun116549 }
+            if(!quebec) { _fun00004_ip = 1079; continue _fun00003 }
  1076:
             equality = 2;
  1079:
@@ -522,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = control.isLayoutCozy;
             control = source.bind(control)(oscar);
             source = 'sm';
-            if(!control) { _fun116549_ip = 1323; continue _fun116549 }
+            if(!control) { _fun00004_ip = 1323; continue _fun00003 }
  1319:
             source = 'md';
  1323:

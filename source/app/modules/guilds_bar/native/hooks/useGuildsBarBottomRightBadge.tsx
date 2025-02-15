@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guilds_bar/native/hooks/useGuildsBarBottomRightBadge.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useGuildsBarBottomRightBadge
-        _fun114411: for(var _fun114411_ip = 0; ; ) switch(_fun114411_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             oscar = mike.mentionCount;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             var _closure2_slot2 = golf;
             options = mike.shouldShowInvitesDisabled;
             offset = undefined;
-            if(!(options === offset)) { _fun114411_ip = 49; continue _fun114411 }
+            if(!(options === offset)) { _fun00002_ip = 49; continue _fun00001 }
  47:
             options = false;
  49:
@@ -77,14 +77,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = _closure1_slot4;
             verify = tango.useState;
             zulu = function() {
-                _fun114412: for(var _fun114412_ip = 0; ; ) switch(_fun114412_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = 0;
-                    if(!(!(mike > entity))) { _fun114412_ip = 22; continue _fun114412 }
+                    if(!(!(mike > entity))) { _fun00004_ip = 22; continue _fun00003 }
  13:
                     entity = _closure1_slot6;
-                    _fun114412_ip = 29; continue _fun114412;
+                    _fun00004_ip = 29; continue _fun00003;
  22:
                     entity = _closure1_slot5;
  29:
@@ -109,18 +109,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[3] = oscar;
             mike[4] = report;
             entity = function() {
-                _fun114413: for(var _fun114413_ip = 0; ; ) switch(_fun114413_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot0;
                     entity = 0;
-                    if(!(!(mike > entity))) { _fun114413_ip = 280; continue _fun114413 }
+                    if(!(!(mike > entity))) { _fun00006_ip = 280; continue _fun00005 }
  16:
                     entity = _closure2_slot2;
                     mike = null;
-                    if(!(mike == entity)) { _fun114413_ip = 164; continue _fun114413 }
+                    if(!(mike == entity)) { _fun00006_ip = 164; continue _fun00005 }
  29:
                     entity = _closure2_slot3;
-                    if(entity) { _fun114413_ip = 57; continue _fun114413 }
+                    if(entity) { _fun00006_ip = 57; continue _fun00005 }
  36:
                     entity = {};
                     entity['badge'] = mike;
@@ -221,14 +221,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = 'no-hide-descendants';
                     mike['importantForAccessibility'] = golf;
                     golf = function(argFoo) { // Original name: onLayout
-                        _fun114414: for(var _fun114414_ip = 0; ; ) switch(_fun114414_ip) {
+                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                             entity = argFoo;
                             entity = entity.nativeEvent;
                             entity = entity.layout;
                             tango = _closure2_slot4;
                             zulu = entity.width;
-                            if(!(tango !== zulu)) { _fun114414_ip = 46; continue _fun114414 }
+                            if(!(tango !== zulu)) { _fun00008_ip = 46; continue _fun00007 }
  30:
                             zulu = _closure2_slot5;
                             mike = entity.width;

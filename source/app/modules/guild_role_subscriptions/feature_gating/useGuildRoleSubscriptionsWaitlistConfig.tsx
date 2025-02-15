@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useGuildRoleSubscriptionsWaitlistConfig
-        _fun126889: for(var _fun126889_ip = 0; ; ) switch(_fun126889_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             var _closure2_slot0 = tango;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(options)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.NEEDS_COMMUNITY;
-            if(!(entity !== report)) { _fun126889_ip = 245; continue _fun126889 }
+            if(!(entity !== report)) { _fun00002_ip = 245; continue _fun00001 }
  73:
             oscar = _closure1_slot0;
             entity = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = oscar.bind(options)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.WAITLIST_ONLY;
-            if(!(entity !== report)) { _fun126889_ip = 108; continue _fun126889 }
+            if(!(entity !== report)) { _fun00002_ip = 108; continue _fun00001 }
  106:
             return options;
  108:
@@ -126,7 +126,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu != tango;
             entity['ctaClickable'] = zulu;
             mike = function() { // Original name: onCtaClicked
-                _fun126890: for(var _fun126890_ip = 0; ; ) switch(_fun126890_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot1;
                     options = _closure1_slot2;
@@ -145,14 +145,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     tango = report.open;
                     options = zulu == oscar;
                     oscar = undefined;
-                    if(options) { _fun126890_ip = 86; continue _fun126890 }
+                    if(options) { _fun00004_ip = 86; continue _fun00003 }
  77:
                     golf = _closure2_slot0;
                     oscar = golf.id;
  86:
                     golf = zulu != oscar;
                     zulu = '';
-                    if(!golf) { _fun126890_ip = 100; continue _fun126890 }
+                    if(!golf) { _fun00004_ip = 100; continue _fun00003 }
  97:
                     zulu = oscar;
  100:

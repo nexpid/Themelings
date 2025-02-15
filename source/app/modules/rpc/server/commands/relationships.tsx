@@ -82,14 +82,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = report.bind(oscar)(tango);
         tango = report.map;
         zulu = function(argFoo, argBar) {
-            _fun109669: for(var _fun109669_ip = 0; ; ) switch(_fun109669_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot4;
                 zulu = tango.getUser;
                 entity = argBar;
                 verify = zulu.bind(tango)(entity);
                 entity = null;
-                if(!(entity != verify)) { _fun109669_ip = 110; continue _fun109669 }
+                if(!(entity != verify)) { _fun00002_ip = 110; continue _fun00001 }
  27:
                 tango = _closure1_slot0;
                 oscar = _closure1_slot2;

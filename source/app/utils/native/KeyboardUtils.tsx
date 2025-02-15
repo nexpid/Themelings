@@ -24,15 +24,15 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'utils/native/KeyboardUtils.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: dismissKeyboard
-        _fun84134: for(var _fun84134_ip = 0; ; ) switch(_fun84134_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             entity = undefined;
-            if(!(mike === entity)) { _fun84134_ip = 11; continue _fun84134 }
+            if(!(mike === entity)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             mike = true;
  11:
-            if(mike) { _fun84134_ip = 31; continue _fun84134 }
+            if(mike) { _fun00002_ip = 31; continue _fun00001 }
  14:
             zulu = _closure1_slot0;
             mike = zulu.dismiss;

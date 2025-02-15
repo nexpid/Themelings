@@ -1,6 +1,6 @@
 // app/uikit-native/OverlayView.tsx
 export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh) {
-    _fun56590: for(var _fun56590_ip = 0; ; ) switch(_fun56590_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         golf = argBar;
         zulu = argFred;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         report = verify.isIOS;
         verify = report.bind(verify)();
         report = mike;
-        if(!verify) { _fun56590_ip = 157; continue _fun56590 }
+        if(!verify) { _fun00002_ip = 157; continue _fun00001 }
  139:
         verify = 4;
         verify = options[verify];
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         verify = golf.bind(entity)(oscar);
         oscar = verify.isIOS;
         oscar = oscar.bind(verify)();
-        if(!oscar) { _fun56590_ip = 198; continue _fun56590 }
+        if(!oscar) { _fun00002_ip = 198; continue _fun00001 }
  183:
         oscar = 5;
         verify = options[oscar];
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = golf.bind(options)(oscar);
         zulu['default'] = report;
         tango = function(argFoo) { // Original name: TransitionGroupOverlayView
-            _fun56591: for(var _fun56591_ip = 0; ; ) switch(_fun56591_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = argFoo;
                 options = zulu.children;
@@ -80,12 +80,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = zulu.isArray;
                 zulu = entity.bind(zulu)(options);
                 entity = null;
-                if(!zulu) { _fun56591_ip = 138; continue _fun56591 }
+                if(!zulu) { _fun00004_ip = 138; continue _fun00003 }
  54:
                 zulu = options.length;
                 zulu = zulu > report;
                 entity = null;
-                if(!zulu) { _fun56591_ip = 138; continue _fun56591 }
+                if(!zulu) { _fun00004_ip = 138; continue _fun00003 }
  68:
                 report = _closure1_slot2;
                 tango = _closure1_slot3;

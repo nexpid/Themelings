@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: VoiceChatCallScreenHeaderIconInner
-        _fun103124: for(var _fun103124_ip = 0; ; ) switch(_fun103124_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.children;
@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report['accessibilityLabel'] = romeo;
             report['source'] = yankee;
             yankee = null;
-            if(!(yankee == verify)) { _fun103124_ip = 133; continue _fun103124 }
+            if(!(yankee == verify)) { _fun00002_ip = 133; continue _fun00001 }
  107:
             yankee = _closure1_slot1;
             romeo = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/voice_chat/native/components/VoiceChatHeaderIcon.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: VoiceChatHeaderIcon
-        _fun103125: for(var _fun103125_ip = 0; ; ) switch(_fun103125_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             verify = entity.accessibilityLabel;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = romeo.headerButton;
             golf = new Array(2);
             golf[0] = verify;
-            if(!options) { _fun103125_ip = 122; continue _fun103125 }
+            if(!options) { _fun00004_ip = 122; continue _fun00003 }
  116:
             options = romeo.disabledOpacity;
  122:

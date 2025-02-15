@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/webauthn/native/nav_steps/PasskeyUpsellView.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PasskeyUpsellView
-        _fun92827: for(var _fun92827_ip = 0; ; ) switch(_fun92827_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             kilo = _closure1_slot0;
             backup = _closure1_slot2;
@@ -335,11 +335,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo[control];
             kilo = config.bind(tango)(kilo);
             kilo = kilo.t;
-            if(backup) { _fun92827_ip = 554; continue _fun92827 }
+            if(backup) { _fun00002_ip = 554; continue _fun00001 }
  541:
             backup = kilo.d6uxJy;
             backup = vacuum.bind(sequence)(backup);
-            _fun92827_ip = 565; continue _fun92827;
+            _fun00002_ip = 565; continue _fun00001;
  554:
             kilo = kilo.7yxR9v;
             backup = vacuum.bind(sequence)(kilo);
@@ -418,11 +418,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             record = record[control];
             record = status.bind(tango)(record);
             record = record.t;
-            if(config) { _fun92827_ip = 931; continue _fun92827 }
+            if(config) { _fun00002_ip = 931; continue _fun00001 }
  918:
             config = record.uYfqlp;
             config = papa.bind(target)(config);
-            _fun92827_ip = 942; continue _fun92827;
+            _fun00002_ip = 942; continue _fun00001;
  931:
             record = record.U409Iy;
             config = papa.bind(target)(record);
@@ -478,11 +478,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             vacuum = vacuum[control];
             vacuum = sequence.bind(tango)(vacuum);
             sequence = vacuum.t;
-            if(output) { _fun92827_ip = 1195; continue _fun92827 }
+            if(output) { _fun00002_ip = 1195; continue _fun00001 }
  1182:
             vacuum = sequence.NIFmCA;
             vacuum = config.bind(record)(vacuum);
-            _fun92827_ip = 1206; continue _fun92827;
+            _fun00002_ip = 1206; continue _fun00001;
  1195:
             sequence = sequence.wePEBA;
             vacuum = config.bind(record)(sequence);
@@ -537,11 +537,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = result[control];
             result = source.bind(tango)(result);
             result = result.t;
-            if(output) { _fun92827_ip = 1351; continue _fun92827 }
+            if(output) { _fun00002_ip = 1351; continue _fun00001 }
  1338:
             output = result.7J6/nJ;
             output = echo.bind(update)(output);
-            _fun92827_ip = 1362; continue _fun92827;
+            _fun00002_ip = 1362; continue _fun00001;
  1351:
             result = result.wePEBA;
             output = echo.bind(update)(result);

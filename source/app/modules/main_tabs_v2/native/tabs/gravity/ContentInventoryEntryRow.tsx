@@ -36,14 +36,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/tabs/gravity/ContentInventoryEntryRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ContentInventoryEntryRow
-        _fun117731: for(var _fun117731_ip = 0; ; ) switch(_fun117731_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.content;
             var _closure2_slot0 = oscar;
             report = entity.renderForScreenshot;
             tango = undefined;
-            if(!(report === tango)) { _fun117731_ip = 28; continue _fun117731 }
+            if(!(report === tango)) { _fun00002_ip = 28; continue _fun00001 }
  26:
             report = false;
  28:
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 return entity;
             };
             mike = golf.bind(verify)(zulu, mike);
-            if(mike) { _fun117731_ip = 322; continue _fun117731 }
+            if(mike) { _fun00002_ip = 322; continue _fun00001 }
  99:
             zulu = oscar.content_type;
             golf = _closure1_slot0;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(tango)(mike);
             mike = mike.ContentInventoryEntryType;
             mike = mike.TOP_GAME;
-            if(!(mike !== zulu)) { _fun117731_ip = 279; continue _fun117731 }
+            if(!(mike !== zulu)) { _fun00002_ip = 279; continue _fun00001 }
  144:
             golf = _closure1_slot0;
             mike = _closure1_slot2;
@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(tango)(mike);
             mike = mike.ContentInventoryEntryType;
             mike = mike.PLAYED_GAME;
-            if(!(mike !== zulu)) { _fun117731_ip = 279; continue _fun117731 }
+            if(!(mike !== zulu)) { _fun00002_ip = 279; continue _fun00001 }
  177:
             golf = _closure1_slot0;
             mike = _closure1_slot2;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = golf.bind(tango)(mike);
             mike = mike.ContentInventoryEntryType;
             mike = mike.CUSTOM_STATUS;
-            if(!(mike !== zulu)) { _fun117731_ip = 214; continue _fun117731 }
+            if(!(mike !== zulu)) { _fun00002_ip = 214; continue _fun00001 }
  210:
             mike = null;
             return mike;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['renderForScreenshot'] = report;
             verify = null;
             verify = verify != offset;
-            if(!verify) { _fun117731_ip = 261; continue _fun117731 }
+            if(!verify) { _fun00002_ip = 261; continue _fun00001 }
  258:
             verify = offset;
  261:

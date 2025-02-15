@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'getFirstItemByType';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun88141: for(var _fun88141_ip = 0; ; ) switch(_fun88141_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = this;
                 zulu = entity.itemsByTypes;
@@ -94,13 +94,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = argFoo;
                 zulu = mike.bind(zulu)(entity);
                 mike = null;
-                if(!(mike == zulu)) { _fun88141_ip = 32; continue _fun88141 }
+                if(!(mike == zulu)) { _fun00002_ip = 32; continue _fun00001 }
  28:
                 zulu = new Array(0);
  32:
                 entity = 0;
                 entity = zulu[entity];
-                if(!(mike == entity)) { _fun88141_ip = 46; continue _fun88141 }
+                if(!(mike == entity)) { _fun00002_ip = 46; continue _fun00001 }
  42:
                 mike = undefined;
                 return mike;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = new golf[entity](oscar);
             mike = entity instanceof Object ? entity : mike;
             entity = function(argFoo, argBar) {
-                _fun88143: for(var _fun88143_ip = 0; ; ) switch(_fun88143_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     tango = argBar;
@@ -132,14 +132,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = tango.type;
                     zulu = zulu.bind(entity)(mike);
                     mike = null;
-                    if(!(mike == zulu)) { _fun88143_ip = 53; continue _fun88143 }
+                    if(!(mike == zulu)) { _fun00004_ip = 53; continue _fun00003 }
  27:
                     oscar = entity.set;
                     report = tango.type;
                     mike = new Array(1);
                     mike[0] = tango;
                     mike = oscar.bind(entity)(report, mike);
-                    _fun88143_ip = 63; continue _fun88143;
+                    _fun00004_ip = 63; continue _fun00003;
  53:
                     mike = zulu.push;
                     mike = mike.bind(zulu)(tango);

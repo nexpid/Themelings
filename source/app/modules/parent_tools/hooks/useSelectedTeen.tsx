@@ -55,12 +55,12 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun95111: for(var _fun95111_ip = 0; ; ) switch(_fun95111_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure2_slot0;
                 zulu = null;
                 entity = undefined;
-                if(!(zulu !== tango)) { _fun95111_ip = 37; continue _fun95111 }
+                if(!(zulu !== tango)) { _fun00002_ip = 37; continue _fun00001 }
  15:
                 tango = _closure1_slot2;
                 zulu = tango.getUser;

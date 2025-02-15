@@ -6,7 +6,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function() { // Original name: getRedirectPath
-        _fun118296: for(var _fun118296_ip = 0; ; ) switch(_fun118296_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             mike = entity.location;
@@ -15,7 +15,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             entity = entity.search;
             report = mike + entity;
             entity = _closure1_slot3;
-            if(entity) { _fun118296_ip = 78; continue _fun118296 }
+            if(entity) { _fun00002_ip = 78; continue _fun00001 }
  40:
             tango = _closure1_slot0;
             zulu = _closure1_slot1;
@@ -26,7 +26,7 @@ export default (function(_, argBar, __, argCorge, ___, argFred, argPlugh) {
             zulu = tango.getLoginPath;
             entity = false;
             entity = zulu.bind(tango)(report, entity);
-            _fun118296_ip = 88; continue _fun118296;
+            _fun00002_ip = 88; continue _fun00001;
  78:
             mike = _closure1_slot2;
             entity = mike.REGISTER;

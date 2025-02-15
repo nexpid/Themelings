@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun106712: for(var _fun106712_ip = 0; ; ) switch(_fun106712_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -18,16 +18,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot4;
             entity = _closure1_slot11;
             entity = entity.bind(zulu)();
-            if(entity) { _fun106712_ip = 51; continue _fun106712 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun106712_ip = 92; continue _fun106712;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun106712_ip = 71; continue _fun106712 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot10 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun106713: for(var _fun106713_ip = 0; ; ) switch(_fun106713_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun106713_ip = 76; continue _fun106713;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -147,12 +147,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun106718: for(var _fun106718_ip = 0; ; ) switch(_fun106718_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 mike = this;
                 zulu = null;
-                if(!(zulu == tango)) { _fun106718_ip = 19; continue _fun106718 }
+                if(!(zulu == tango)) { _fun00006_ip = 19; continue _fun00005 }
  12:
                 tango = _closure1_slot7;
  19:
@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = _closure1_slot8;
                 report = report.sessions;
                 oscar = report[tango];
-                if(!(zulu == oscar)) { _fun106718_ip = 91; continue _fun106718 }
+                if(!(zulu == oscar)) { _fun00006_ip = 91; continue _fun00005 }
  87:
                 oscar = new Array(0);
  91:
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = report.bind(oscar)(tango);
             tango = report.forEach;
             zulu = function(argFoo) {
-                _fun106721: for(var _fun106721_ip = 0; ; ) switch(_fun106721_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = argFoo;
                     entity = global;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = entity.bind(tango)();
                     mike = mike - entity;
                     entity = 2592000000.0;
-                    if(!(mike < entity)) { _fun106721_ip = 105; continue _fun106721 }
+                    if(!(mike < entity)) { _fun00008_ip = 105; continue _fun00007 }
  77:
                     mike = _closure3_slot0;
                     entity = _closure1_slot8;

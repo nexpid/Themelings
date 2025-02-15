@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
     tango = 'modules/polls/native/useRenderPollAnswerImage.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge, argGrault) { // Original name: useRenderPollAnswerImage
-        _fun119449: for(var _fun119449_ip = 0; ; ) switch(_fun119449_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argBaz;
             offset = argCorge;
@@ -104,12 +104,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             golf = null;
             entity = golf == romeo;
             oscar = undefined;
-            if(entity) { _fun119449_ip = 170; continue _fun119449 }
+            if(entity) { _fun00002_ip = 170; continue _fun00001 }
  150:
             entity = romeo.mediaAttachmentState;
             golf = golf == entity;
             oscar = undefined;
-            if(golf) { _fun119449_ip = 170; continue _fun119449 }
+            if(golf) { _fun00002_ip = 170; continue _fun00001 }
  165:
             oscar = entity.status;
  170:
@@ -133,25 +133,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
             report[4] = verify;
             report[5] = options;
             tango = function() {
-                _fun119451: for(var _fun119451_ip = 0; ; ) switch(_fun119451_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot7;
-                    if(mike) { _fun119451_ip = 379; continue _fun119451 }
+                    if(mike) { _fun00004_ip = 379; continue _fun00003 }
  13:
                     mike = _closure2_slot5;
                     zulu = null;
-                    if(!(zulu == mike)) { _fun119451_ip = 282; continue _fun119451 }
+                    if(!(zulu == mike)) { _fun00004_ip = 282; continue _fun00003 }
  26:
                     mike = _closure2_slot2;
                     tango = zulu == mike;
                     oscar = undefined;
                     mike = undefined;
-                    if(tango) { _fun119451_ip = 51; continue _fun119451 }
+                    if(tango) { _fun00004_ip = 51; continue _fun00003 }
  41:
                     tango = _closure2_slot2;
                     mike = tango.emoji;
  51:
-                    if(!(zulu == mike)) { _fun119451_ip = 57; continue _fun119451 }
+                    if(!(zulu == mike)) { _fun00004_ip = 57; continue _fun00003 }
  55:
                     return oscar;
  57:
@@ -179,16 +179,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     golf = verify.bind(oscar)(golf);
                     golf = golf.EmojiTypes;
                     golf = golf.UNICODE;
-                    if(!(options !== golf)) { _fun119451_ip = 171; continue _fun119451 }
+                    if(!(options !== golf)) { _fun00004_ip = 171; continue _fun00003 }
  164:
                     options = romeo.name;
-                    _fun119451_ip = 176; continue _fun119451;
+                    _fun00004_ip = 176; continue _fun00003;
  171:
                     options = romeo.surrogates;
  176:
                     verify = zulu != options;
                     golf = '';
-                    if(!verify) { _fun119451_ip = 190; continue _fun119451 }
+                    if(!verify) { _fun00004_ip = 190; continue _fun00003 }
  187:
                     golf = options;
  190:
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     golf = romeo.id;
                     options = zulu != golf;
                     golf = undefined;
-                    if(!options) { _fun119451_ip = 269; continue _fun119451 }
+                    if(!options) { _fun00004_ip = 269; continue _fun00003 }
  208:
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -220,10 +220,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                     mike = _closure2_slot5;
                     oscar = mike.item;
                     mike = _closure2_slot3;
-                    if(!(zulu == mike)) { _fun119451_ip = 305; continue _fun119451 }
+                    if(!(zulu == mike)) { _fun00004_ip = 305; continue _fun00003 }
  299:
                     golf = _closure2_slot6;
-                    _fun119451_ip = 309; continue _fun119451;
+                    _fun00004_ip = 309; continue _fun00003;
  305:
                     golf = _closure2_slot3;
  309:

@@ -33,14 +33,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     tango = 'modules/messages/createNonce.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: createNonce
-        _fun70965: for(var _fun70965_ip = 0; ; ) switch(_fun70965_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = global;
             mike = entity.Date;
             entity = mike.now;
             tango = entity.bind(mike)();
             mike = _closure1_slot2;
-            if(!(mike !== tango)) { _fun70965_ip = 46; continue _fun70965 }
+            if(!(mike !== tango)) { _fun00002_ip = 46; continue _fun00001 }
  28:
             zulu = _closure1_slot3;
             mike = zulu.reset;

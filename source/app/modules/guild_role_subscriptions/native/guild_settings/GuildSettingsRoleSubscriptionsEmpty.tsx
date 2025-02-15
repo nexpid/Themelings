@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo) { // Original name: GuildSettingsRoleSubscriptionsEmptyContent
-        _fun126707: for(var _fun126707_ip = 0; ; ) switch(_fun126707_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.guild;
@@ -30,19 +30,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = tango.bind(report)(zulu, entity);
             tango = entity.application;
             entity = entity.loading;
-            if(entity) { _fun126707_ip = 237; continue _fun126707 }
+            if(entity) { _fun00002_ip = 237; continue _fun00001 }
  97:
             zulu = options.hasFeature;
             entity = _closure1_slot4;
             entity = entity.CREATOR_MONETIZABLE;
             entity = zulu.bind(options)(entity);
-            if(entity) { _fun126707_ip = 183; continue _fun126707 }
+            if(entity) { _fun00002_ip = 183; continue _fun00001 }
  121:
             zulu = options.hasFeature;
             entity = _closure1_slot4;
             entity = entity.CREATOR_MONETIZABLE_PROVISIONAL;
             entity = zulu.bind(options)(entity);
-            if(entity) { _fun126707_ip = 183; continue _fun126707 }
+            if(entity) { _fun00002_ip = 183; continue _fun00001 }
  145:
             oscar = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -53,17 +53,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['guild'] = options;
             entity = oscar.bind(report)(zulu, entity);
-            _fun126707_ip = 235; continue _fun126707;
+            _fun00002_ip = 235; continue _fun00001;
  183:
             zulu = null;
-            if(!(zulu != tango)) { _fun126707_ip = 213; continue _fun126707 }
+            if(!(zulu != tango)) { _fun00002_ip = 213; continue _fun00001 }
  189:
             oscar = golf.replace;
             tango = _closure1_slot5;
             tango = tango.ROLE_SUBSCRIPTIONS_TIERS;
             tango = oscar.bind(golf)(tango);
             entity = null;
-            _fun126707_ip = 235; continue _fun126707;
+            _fun00002_ip = 235; continue _fun00001;
  213:
             oscar = golf.replace;
             tango = _closure1_slot5;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = oscar.bind(golf)(tango);
             entity = null;
  235:
-            _fun126707_ip = 269; continue _fun126707;
+            _fun00002_ip = 269; continue _fun00001;
  237:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;
@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_role_subscriptions/native/guild_settings/GuildSettingsRoleSubscriptionsEmpty.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildSettingsRoleSubscriptionsEmpty
-        _fun126708: for(var _fun126708_ip = 0; ; ) switch(_fun126708_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             mike = mike.guildId;
@@ -156,16 +156,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             golf = entity.bind(report)(options);
             entity = null;
-            if(!(entity != options)) { _fun126708_ip = 164; continue _fun126708 }
+            if(!(entity != options)) { _fun00004_ip = 164; continue _fun00003 }
  96:
-            if(!(entity == golf)) { _fun126708_ip = 122; continue _fun126708 }
+            if(!(entity == golf)) { _fun00004_ip = 122; continue _fun00003 }
  100:
             tango = _closure1_slot7;
             zulu = _closure1_slot8;
             entity = {};
             entity['guild'] = options;
             entity = tango.bind(report)(zulu, entity);
-            _fun126708_ip = 162; continue _fun126708;
+            _fun00004_ip = 162; continue _fun00003;
  122:
             oscar = _closure1_slot7;
             tango = _closure1_slot1;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu['config'] = golf;
             entity = oscar.bind(report)(tango, zulu);
  162:
-            _fun126708_ip = 196; continue _fun126708;
+            _fun00004_ip = 196; continue _fun00003;
  164:
             tango = _closure1_slot7;
             zulu = _closure1_slot1;

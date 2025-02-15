@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = golf;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: _callSuper
-        _fun122980: for(var _fun122980_ip = 0; ; ) switch(_fun122980_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             oscar = argBaz;
@@ -19,16 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = _closure1_slot5;
             entity = _closure1_slot13;
             entity = entity.bind(zulu)();
-            if(entity) { _fun122980_ip = 51; continue _fun122980 }
+            if(entity) { _fun00002_ip = 51; continue _fun00001 }
  38:
             entity = verify.apply;
             entity = entity.bind(verify)(tango, oscar);
-            _fun122980_ip = 92; continue _fun122980;
+            _fun00002_ip = 92; continue _fun00001;
  51:
             golf = global;
             options = golf.Reflect;
             golf = options.construct;
-            if(oscar) { _fun122980_ip = 71; continue _fun122980 }
+            if(oscar) { _fun00002_ip = 71; continue _fun00001 }
  67:
             oscar = new Array(0);
  71:
@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot12 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
-        _fun122981: for(var _fun122981_ip = 0; ; ) switch(_fun122981_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
  2: // try_start_0
             mike = global;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = !mike;
             var _closure2_slot0 = mike;
  72: // try_end0
-            _fun122981_ip = 76; continue _fun122981;
+            _fun00004_ip = 76; continue _fun00003;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['REGISTER_SUCCESS'] = tango;
             entity['actions'] = zulu;
             zulu = function(argFoo) {
-                _fun122990: for(var _fun122990_ip = 0; ; ) switch(_fun122990_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = argFoo;
                     tango = entity.code;
@@ -191,10 +191,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = mike.isAuthenticated;
                     entity = entity.bind(mike)();
                     mike = _closure3_slot0;
-                    if(entity) { _fun122990_ip = 49; continue _fun122990 }
+                    if(entity) { _fun00006_ip = 49; continue _fun00005 }
  41:
                     mike['_deferredCode'] = tango;
-                    _fun122990_ip = 61; continue _fun122990;
+                    _fun00006_ip = 61; continue _fun00005;
  49:
                     entity = mike._handleInvite;
                     entity = entity.bind(mike)(tango, zulu);
@@ -223,12 +223,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             };
             entity['_handleClearInvite'] = zulu;
             zulu = function() {
-                _fun122992: for(var _fun122992_ip = 0; ; ) switch(_fun122992_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     mike = _closure3_slot0;
                     zulu = mike._deferredCode;
                     mike = null;
-                    if(!(mike != zulu)) { _fun122992_ip = 46; continue _fun122992 }
+                    if(!(mike != zulu)) { _fun00008_ip = 46; continue _fun00007 }
  19:
                     entity = _closure3_slot0;
                     tango = entity._handleInvite;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = _closure1_slot9;
                 mike = zulu.addConditionalChangeListener;
                 entity = function() {
-                    _fun122994: for(var _fun122994_ip = 0; ; ) switch(_fun122994_ip) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         tango = _closure1_slot9;
                         zulu = tango.getInvite;
@@ -257,27 +257,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         golf = zulu.bind(tango)(entity);
                         verify = null;
                         entity = verify == golf;
-                        if(entity) { _fun122994_ip = 122; continue _fun122994 }
+                        if(entity) { _fun00010_ip = 122; continue _fun00009 }
  34:
                         tango = golf.state;
                         zulu = _closure1_slot11;
                         zulu = zulu.RESOLVED;
                         zulu = tango !== zulu;
-                        if(!zulu) { _fun122994_ip = 75; continue _fun122994 }
+                        if(!zulu) { _fun00010_ip = 75; continue _fun00009 }
  56:
                         report = golf.state;
                         tango = _closure1_slot11;
                         tango = tango.EXPIRED;
                         zulu = report !== tango;
  75:
-                        if(!zulu) { _fun122994_ip = 97; continue _fun122994 }
+                        if(!zulu) { _fun00010_ip = 97; continue _fun00009 }
  78:
                         report = golf.state;
                         tango = _closure1_slot11;
                         tango = tango.BANNED;
                         zulu = report !== tango;
  97:
-                        if(!zulu) { _fun122994_ip = 119; continue _fun122994 }
+                        if(!zulu) { _fun00010_ip = 119; continue _fun00009 }
  100:
                         report = golf.state;
                         tango = _closure1_slot11;
@@ -286,16 +286,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  119:
                         entity = zulu;
  122:
-                        if(entity) { _fun122994_ip = 400; continue _fun122994 }
+                        if(entity) { _fun00010_ip = 400; continue _fun00009 }
  128:
                         zulu = golf.channel;
-                        if(!(verify == zulu)) { _fun122994_ip = 159; continue _fun122994 }
+                        if(!(verify == zulu)) { _fun00010_ip = 159; continue _fun00009 }
  137:
                         zulu = golf.guild;
-                        if(!(verify == zulu)) { _fun122994_ip = 159; continue _fun122994 }
+                        if(!(verify == zulu)) { _fun00010_ip = 159; continue _fun00009 }
  146:
                         zulu = golf.inviter;
-                        if(!(verify == zulu)) { _fun122994_ip = 295; continue _fun122994 }
+                        if(!(verify == zulu)) { _fun00010_ip = 295; continue _fun00009 }
  159:
                         romeo = _closure4_slot0;
                         zulu = _closure3_slot0;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         zulu = _closure1_slot10;
                         zulu = oscar.bind(offset)(report, tango, zulu);
                         entity = false;
-                        _fun122994_ip = 400; continue _fun122994;
+                        _fun00010_ip = 400; continue _fun00009;
  295:
                         report = _closure1_slot0;
                         tango = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         options = _closure4_slot1;
                         verify = verify != options;
                         options = 'Accept Invite';
-                        if(!verify) { _fun122994_ip = 348; continue _fun122994 }
+                        if(!verify) { _fun00010_ip = 348; continue _fun00009 }
  342:
                         options = 'Deep Link';
  348:

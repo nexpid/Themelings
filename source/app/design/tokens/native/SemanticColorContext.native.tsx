@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'design/tokens/native/SemanticColorContext.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: getSemanticColorContextFromThemeContext
-        _fun47684: for(var _fun47684_ip = 0; ; ) switch(_fun47684_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = _closure1_slot0;
@@ -44,14 +44,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.gradient;
             mike = zulu.bind(report)(verify, mike);
             report = null;
-            if(!(report != oscar)) { _fun47684_ip = 321; continue _fun47684 }
+            if(!(report != oscar)) { _fun00002_ip = 321; continue _fun00001 }
  96:
             foxtrot = entity.theme;
             zulu = entity.primaryColor;
             romeo = entity.secondaryColor;
             verify = report == zulu;
             entity = null;
-            if(verify) { _fun47684_ip = 318; continue _fun47684 }
+            if(verify) { _fun00002_ip = 318; continue _fun00001 }
  126:
             yankee = _closure1_slot0;
             kilo = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = kilo[verify];
             yankee = yankee.bind(backup)(verify);
             verify = yankee.int2hex;
-            if(!(report != romeo)) { _fun47684_ip = 178; continue _fun47684 }
+            if(!(report != romeo)) { _fun00002_ip = 178; continue _fun00001 }
  175:
             zulu = romeo;
  178:
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = romeo.isThemeLight;
             romeo = golf.bind(romeo)(foxtrot);
             golf = 'dark';
-            if(!romeo) { _fun47684_ip = 279; continue _fun47684 }
+            if(!romeo) { _fun00002_ip = 279; continue _fun00001 }
  275:
             golf = 'light';
  279:
@@ -107,13 +107,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = report != oscar;
             zulu = 1;
             golf = zulu;
-            if(verify) { _fun47684_ip = 339; continue _fun47684 }
+            if(verify) { _fun00002_ip = 339; continue _fun00001 }
  336:
             golf = options;
  339:
             entity['contrast'] = golf;
             report = report != oscar;
-            if(report) { _fun47684_ip = 354; continue _fun47684 }
+            if(report) { _fun00002_ip = 354; continue _fun00001 }
  351:
             zulu = tango;
  354:

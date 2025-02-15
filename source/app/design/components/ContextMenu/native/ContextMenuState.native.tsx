@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: updateContextMenuState
-            _fun77390: for(var _fun77390_ip = 0; ; ) switch(_fun77390_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 romeo = argFoo;
                 yankee = argBar;
@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = 3;
                 golf = 1;
                 tango = 0;
-                if(!entity) { _fun77390_ip = 146; continue _fun77390 }
+                if(!entity) { _fun00002_ip = 146; continue _fun00001 }
  74:
                 entity = tango + options;
                 foxtrot = offset[entity];
@@ -68,19 +68,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = tango + verify;
                 mike = offset[entity];
                 entity = tango;
-                if(!(yankee >= backup)) { _fun77390_ip = 133; continue _fun77390 }
+                if(!(yankee >= backup)) { _fun00002_ip = 133; continue _fun00001 }
  113:
                 backup = backup + kilo;
-                if(!(yankee <= backup)) { _fun77390_ip = 133; continue _fun77390 }
+                if(!(yankee <= backup)) { _fun00002_ip = 133; continue _fun00001 }
  121:
-                if(!(romeo >= mike)) { _fun77390_ip = 133; continue _fun77390 }
+                if(!(romeo >= mike)) { _fun00002_ip = 133; continue _fun00001 }
  125:
                 mike = mike + foxtrot;
-                if(!(!(romeo <= mike))) { _fun77390_ip = 166; continue _fun77390 }
+                if(!(!(romeo <= mike))) { _fun00002_ip = 166; continue _fun00001 }
  133:
                 tango = entity + oscar;
                 mike = offset.length;
-                if(tango < mike) { _fun77390_ip = 74; continue _fun77390 }
+                if(tango < mike) { _fun00002_ip = 74; continue _fun00001 }
  146:
                 tango = report.set;
                 mike = -1;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = report.get;
                 entity = entity.bind(report)();
                 entity = entity !== tango;
-                if(!entity) { _fun77390_ip = 269; continue _fun77390 }
+                if(!entity) { _fun00002_ip = 269; continue _fun00001 }
  186:
                 mike = report.set;
                 mike = mike.bind(report)(tango);
@@ -192,12 +192,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = _closure1_slot3;
             mike = zulu.setState;
             entity = function(argFoo) {
-                _fun77395: for(var _fun77395_ip = 0; ; ) switch(_fun77395_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     mike = entity.menu;
                     zulu = null;
-                    if(!(zulu != mike)) { _fun77395_ip = 25; continue _fun77395 }
+                    if(!(zulu != mike)) { _fun00004_ip = 25; continue _fun00003 }
  15:
                     mike = {};
                     mike['menu'] = zulu;
@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['useContextMenuState'] = tango;
     mike = function(argFoo) { // Original name: resetContextMenuState
-        _fun77400: for(var _fun77400_ip = 0; ; ) switch(_fun77400_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.activeIndex;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = entity.bind(zulu)();
             mike = entity.length;
             entity = 0;
-            if(!(mike > entity)) { _fun77400_ip = 81; continue _fun77400 }
+            if(!(mike > entity)) { _fun00006_ip = 81; continue _fun00005 }
  67:
             mike = zulu.set;
             entity = new Array(0);

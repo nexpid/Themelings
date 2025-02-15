@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun88457: for(var _fun88457_ip = 0; ; ) switch(_fun88457_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure1_slot3;
                 entity = mike.getCurrentUser;
@@ -35,12 +35,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = null;
                 report = mike == oscar;
                 verify = undefined;
-                if(report) { _fun88457_ip = 69; continue _fun88457 }
+                if(report) { _fun00002_ip = 69; continue _fun00001 }
  63:
                 verify = oscar.verified;
  69:
                 report = mike != verify;
-                if(!report) { _fun88457_ip = 79; continue _fun88457 }
+                if(!report) { _fun00002_ip = 79; continue _fun00001 }
  76:
                 report = verify;
  79:
@@ -53,13 +53,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.PHONE;
                 report = mike == oscar;
                 tango = undefined;
-                if(report) { _fun88457_ip = 132; continue _fun88457 }
+                if(report) { _fun00002_ip = 132; continue _fun00001 }
  122:
                 report = oscar.isPhoneVerified;
                 tango = report.bind(oscar)();
  132:
                 mike = mike != tango;
-                if(!mike) { _fun88457_ip = 142; continue _fun88457 }
+                if(!mike) { _fun00002_ip = 142; continue _fun00001 }
  139:
                 mike = tango;
  142:
@@ -158,14 +158,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun88462: for(var _fun88462_ip = 0; ; ) switch(_fun88462_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot2;
                 mike = mike.current;
                 tango = mike.current;
                 zulu = mike.initial;
                 mike = null;
-                if(!(mike == zulu)) { _fun88462_ip = 48; continue _fun88462 }
+                if(!(mike == zulu)) { _fun00004_ip = 48; continue _fun00003 }
  29:
                 zulu = _closure1_slot5;
                 mike = _closure2_slot0;

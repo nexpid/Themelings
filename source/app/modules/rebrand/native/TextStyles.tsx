@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/rebrand/native/TextStyles.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: createTextStyle
-        _fun54372: for(var _fun54372_ip = 0; ; ) switch(_fun54372_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             zulu = argBar;
@@ -43,29 +43,29 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango[report];
             entity['lineHeight'] = tango;
             tango = null;
-            if(!(tango != zulu)) { _fun54372_ip = 60; continue _fun54372 }
+            if(!(tango != zulu)) { _fun00002_ip = 60; continue _fun00001 }
  54:
             entity['color'] = zulu;
  60:
             report = tango == mike;
             verify = undefined;
-            if(report) { _fun54372_ip = 75; continue _fun54372 }
+            if(report) { _fun00002_ip = 75; continue _fun00001 }
  69:
             verify = mike.uppercase;
  75:
             report = true;
-            if(!(report === verify)) { _fun54372_ip = 154; continue _fun54372 }
+            if(!(report === verify)) { _fun00002_ip = 154; continue _fun00001 }
  81:
             report = 'uppercase';
             entity['textTransform'] = report;
             report = 14;
             report = oscar <= report;
-            if(!report) { _fun54372_ip = 135; continue _fun54372 }
+            if(!report) { _fun00002_ip = 135; continue _fun00001 }
  101:
             oscar = _closure1_slot0;
             oscar = oscar.DISPLAY_EXTRABOLD;
             oscar = options === oscar;
-            if(oscar) { _fun54372_ip = 132; continue _fun54372 }
+            if(oscar) { _fun00002_ip = 132; continue _fun00001 }
  118:
             golf = _closure1_slot0;
             golf = golf.DISPLAY_SEMIBOLD;
@@ -73,18 +73,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  132:
             report = oscar;
  135:
-            if(!report) { _fun54372_ip = 154; continue _fun54372 }
+            if(!report) { _fun00002_ip = 154; continue _fun00001 }
  138:
             report = 0.2;
             entity['letterSpacing'] = report;
  154:
             report = tango == mike;
             zulu = undefined;
-            if(report) { _fun54372_ip = 168; continue _fun54372 }
+            if(report) { _fun00002_ip = 168; continue _fun00001 }
  163:
             zulu = mike.marginBottom;
  168:
-            if(!(tango != zulu)) { _fun54372_ip = 183; continue _fun54372 }
+            if(!(tango != zulu)) { _fun00002_ip = 183; continue _fun00001 }
  172:
             mike = mike.marginBottom;
             entity['marginBottom'] = mike;

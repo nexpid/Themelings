@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = function() {
         entity = function(argFoo, argBar, argBaz) { // Original name: inBoundingBox
-            _fun112662: for(var _fun112662_ip = 0; ; ) switch(_fun112662_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = argBar;
                 report = argBaz;
@@ -42,25 +42,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = mike[entity];
                 entity = null;
                 entity = entity != tango;
-                if(!entity) { _fun112662_ip = 110; continue _fun112662 }
+                if(!entity) { _fun00002_ip = 110; continue _fun00001 }
  30:
                 oscar = zulu.left;
                 mike = tango.absoluteX;
                 mike = oscar < mike;
-                if(!mike) { _fun112662_ip = 63; continue _fun112662 }
+                if(!mike) { _fun00002_ip = 63; continue _fun00001 }
  48:
                 golf = tango.absoluteX;
                 oscar = zulu.right;
                 mike = golf < oscar;
  63:
-                if(!mike) { _fun112662_ip = 85; continue _fun112662 }
+                if(!mike) { _fun00002_ip = 85; continue _fun00001 }
  66:
                 golf = zulu.top;
                 oscar = tango.absoluteY;
                 oscar = oscar + report;
                 mike = golf < oscar;
  85:
-                if(!mike) { _fun112662_ip = 107; continue _fun112662 }
+                if(!mike) { _fun00002_ip = 107; continue _fun00001 }
  88:
                 tango = tango.absoluteY;
                 tango = tango + report;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/search_v2/native/components/layout/autocomplete/useSearchSuggestionsGesture.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useSearchSuggestionsGesture
-        _fun112663: for(var _fun112663_ip = 0; ; ) switch(_fun112663_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             romeo = argFoo;
             var _closure2_slot0 = romeo;
@@ -118,11 +118,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(1);
             report[0] = options;
             zulu = function(argFoo, argBar) {
-                _fun112664: for(var _fun112664_ip = 0; ; ) switch(_fun112664_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = argFoo;
                     entity = argBar;
-                    if(!(mike !== entity)) { _fun112664_ip = 29; continue _fun112664 }
+                    if(!(mike !== entity)) { _fun00006_ip = 29; continue _fun00005 }
  10:
                     zulu = _closure2_slot1;
                     mike = zulu.set;
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.isAndroid;
             oscar = zulu.bind(oscar)();
             zulu = 0;
-            if(!oscar) { _fun112663_ip = 197; continue _fun112663 }
+            if(!oscar) { _fun00004_ip = 197; continue _fun00003 }
  194:
             zulu = report;
  197:
@@ -184,14 +184,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = entity.bind(mike)();
                 mike = zulu.onTouchesDown;
                 entity = function(argFoo) { // Original name: e
-                    _fun112667: for(var _fun112667_ip = 0; ; ) switch(_fun112667_ip) {
+                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         zulu = _closure2_slot2;
                         mike = zulu.get;
                         golf = mike.bind(zulu)();
                         mike = null;
                         mike = mike == golf;
-                        if(mike) { _fun112667_ip = 48; continue _fun112667 }
+                        if(mike) { _fun00008_ip = 48; continue _fun00007 }
  25:
                         oscar = _closure1_slot6;
                         report = _closure2_slot4;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         zulu = argFoo;
                         mike = oscar.bind(tango)(zulu, golf, report);
  48:
-                        if(mike) { _fun112667_ip = 67; continue _fun112667 }
+                        if(mike) { _fun00008_ip = 67; continue _fun00007 }
  51:
                         zulu = _closure2_slot1;
                         mike = zulu.set;

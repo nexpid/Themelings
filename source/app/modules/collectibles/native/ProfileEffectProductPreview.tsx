@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/collectibles/native/ProfileEffectProductPreview.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun99685: for(var _fun99685_ip = 0; ; ) switch(_fun99685_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.product;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = kilo.items;
             entity = entity.length;
             mike = 0;
-            if(!(!(entity <= mike))) { _fun99685_ip = 373; continue _fun99685 }
+            if(!(!(entity <= mike))) { _fun00002_ip = 373; continue _fun00001 }
  116:
             zulu = kilo.type;
             oscar = _closure1_slot0;
@@ -97,11 +97,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar.bind(tango)(entity);
             entity = entity.CollectiblesItemType;
             entity = entity.BUNDLE;
-            if(!(zulu !== entity)) { _fun99685_ip = 169; continue _fun99685 }
+            if(!(zulu !== entity)) { _fun00002_ip = 169; continue _fun00001 }
  157:
             entity = kilo.items;
             golf = entity[mike];
-            _fun99685_ip = 182; continue _fun99685;
+            _fun00002_ip = 182; continue _fun00001;
  169:
             mike = kilo.items;
             entity = 1;

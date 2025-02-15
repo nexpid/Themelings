@@ -65,13 +65,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['isNamedCategorySection'] = tango;
     tango = function(argFoo) { // Original name: isReadableItem
-        _fun115563: for(var _fun115563_ip = 0; ; ) switch(_fun115563_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             zulu = mike.kind;
             entity = 'channel';
             entity = entity === zulu;
-            if(entity) { _fun115563_ip = 32; continue _fun115563 }
+            if(entity) { _fun00002_ip = 32; continue _fun00001 }
  19:
             zulu = mike.kind;
             mike = 'thread';

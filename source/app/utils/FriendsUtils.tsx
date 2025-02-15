@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot1 = verify;
     var _closure1_slot2 = options;
     report = function(argFoo) { // Original name: validateDiscordTag
-        _fun72800: for(var _fun72800_ip = 0; ; ) switch(_fun72800_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argFoo;
             mike = _closure1_slot8;
@@ -16,18 +16,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.bind(mike)(romeo);
             offset = null;
             entity = null;
-            if(mike) { _fun72800_ip = 335; continue _fun72800 }
+            if(mike) { _fun00002_ip = 335; continue _fun00001 }
  30:
             mike = romeo.includes;
             tango = '#';
             mike = mike.bind(romeo)(tango);
-            if(!mike) { _fun72800_ip = 69; continue _fun72800 }
+            if(!mike) { _fun00002_ip = 69; continue _fun00001 }
  47:
             report = _closure1_slot7;
             mike = report.test;
             mike = mike.bind(report)(romeo);
             entity = null;
-            if(mike) { _fun72800_ip = 335; continue _fun72800 }
+            if(mike) { _fun00002_ip = 335; continue _fun00001 }
  69:
             mike = romeo.split;
             tango = mike.bind(romeo)(tango);
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango['query'] = romeo;
             foxtrot = offset != yankee;
             offset = '';
-            if(!foxtrot) { _fun72800_ip = 173; continue _fun72800 }
+            if(!foxtrot) { _fun00002_ip = 173; continue _fun00001 }
  170:
             offset = yankee;
  173:
@@ -95,44 +95,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot9 = report;
     tango = function(argFoo, argBar) { // Original name: humanizeAbortCode
-        _fun72801: for(var _fun72801_ip = 0; ; ) switch(_fun72801_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INCOMING_DISABLED;
-            if(!(mike !== zulu)) { _fun72801_ip = 452; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 452; continue _fun00003 }
  23:
             mike = _closure1_slot4;
             mike = mike.TOO_MANY_FRIENDS;
-            if(!(mike !== zulu)) { _fun72801_ip = 393; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 393; continue _fun00003 }
  40:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_ALREADY_FRIENDS;
-            if(!(mike !== zulu)) { _fun72801_ip = 334; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 334; continue _fun00003 }
  57:
             mike = _closure1_slot4;
             mike = mike.USER_QUARANTINED;
-            if(!(mike !== zulu)) { _fun72801_ip = 275; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 275; continue _fun00003 }
  74:
             mike = _closure1_slot4;
             mike = mike.USER_FRIEND_REQUEST_LIMITED_ACCESS;
-            if(!(mike !== zulu)) { _fun72801_ip = 275; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 275; continue _fun00003 }
  91:
             mike = _closure1_slot4;
             mike = mike.TOO_MANY_BLOCKED_USERS;
-            if(!(mike !== zulu)) { _fun72801_ip = 216; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 216; continue _fun00003 }
  105:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INCOMING_BLOCKED;
-            if(!(mike !== zulu)) { _fun72801_ip = 157; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 157; continue _fun00003 }
  119:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INVALID_SELF;
-            if(!(mike !== zulu)) { _fun72801_ip = 157; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 157; continue _fun00003 }
  133:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INVALUD_USER_BOT;
-            if(!(mike !== zulu)) { _fun72801_ip = 157; continue _fun72801 }
+            if(!(mike !== zulu)) { _fun00004_ip = 157; continue _fun00003 }
  147:
             mike = _closure1_slot4;
             mike = mike.RELATIONSHIP_INVALID_DISCORD_TAG;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['isValidDiscordTag'] = report;
     zulu['humanizeAbortCode'] = tango;
     mike = function(argFoo, argBar) { // Original name: humanizeAbortCodeForA11y
-        _fun72803: for(var _fun72803_ip = 0; ; ) switch(_fun72803_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             options = argBar;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.bind(report)(tango, options);
             zulu = _closure1_slot4;
             zulu = zulu.RELATIONSHIP_INCOMING_DISABLED;
-            if(!(tango === zulu)) { _fun72803_ip = 98; continue _fun72803 }
+            if(!(tango === zulu)) { _fun00006_ip = 98; continue _fun00005 }
  35:
             tango = _closure1_slot0;
             verify = _closure1_slot2;

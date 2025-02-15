@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun104450: for(var _fun104450_ip = 0; ; ) switch(_fun104450_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu = zulu.bind(tango)();
                 report = _closure2_slot0;
                 tango = null;
-                if(!(tango != report)) { _fun104450_ip = 67; continue _fun104450 }
+                if(!(tango != report)) { _fun00002_ip = 67; continue _fun00001 }
  48:
                 zulu = _closure2_slot0;
                 mike = _closure1_slot4;
@@ -79,14 +79,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = entity.BottomSheet;
         entity = {};
         oscar = function() { // Original name: onDismiss
-            _fun104451: for(var _fun104451_ip = 0; ; ) switch(_fun104451_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 zulu = entity == zulu;
                 tango = undefined;
                 entity = undefined;
-                if(zulu) { _fun104451_ip = 42; continue _fun104451 }
+                if(zulu) { _fun00004_ip = 42; continue _fun00003 }
  20:
                 zulu = _closure2_slot0;
                 mike = _closure1_slot4;

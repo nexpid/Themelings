@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/notifications/settings/native/NotificationSettingsChannelPost.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: NotificationSettingsChannelPost
-        _fun86916: for(var _fun86916_ip = 0; ; ) switch(_fun86916_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = backup.bind(kilo)(foxtrot);
             golf['label'] = foxtrot;
             golf['checked'] = romeo;
-            if(offset) { _fun86916_ip = 279; continue _fun86916 }
+            if(offset) { _fun00002_ip = 279; continue _fun00001 }
  276:
             offset = yankee;
  279:

@@ -89,26 +89,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['getMessageAccessibilityActionFromLabel'] = tango;
     mike = function(argFoo, argBar) { // Original name: createMessageAccessibilityActions
-        _fun72675: for(var _fun72675_ip = 0; ; ) switch(_fun72675_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBar;
             entity = null;
             mike = entity == oscar;
             verify = undefined;
             report = undefined;
-            if(mike) { _fun72675_ip = 26; continue _fun72675 }
+            if(mike) { _fun00002_ip = 26; continue _fun00001 }
  16:
             mike = oscar.getGuildId;
             report = mike.bind(oscar)();
  26:
-            if(!(entity != report)) { _fun72675_ip = 402; continue _fun72675 }
+            if(!(entity != report)) { _fun00002_ip = 402; continue _fun00001 }
  33:
-            if(!(entity != oscar)) { _fun72675_ip = 402; continue _fun72675 }
+            if(!(entity != oscar)) { _fun00002_ip = 402; continue _fun00001 }
  40:
             zulu = _closure1_slot2;
             mike = zulu.canChatInGuild;
             mike = mike.bind(zulu)(report);
-            if(!mike) { _fun72675_ip = 87; continue _fun72675 }
+            if(!mike) { _fun00002_ip = 87; continue _fun00001 }
  61:
             golf = _closure1_slot3;
             report = golf.can;
@@ -116,11 +116,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.ADD_REACTIONS;
             mike = report.bind(golf)(zulu, oscar);
  87:
-            if(mike) { _fun72675_ip = 112; continue _fun72675 }
+            if(mike) { _fun00002_ip = 112; continue _fun00001 }
  90:
             zulu = entity == oscar;
             entity = undefined;
-            if(zulu) { _fun72675_ip = 109; continue _fun72675 }
+            if(zulu) { _fun00002_ip = 109; continue _fun00001 }
  99:
             zulu = oscar.isPrivate;
             entity = zulu.bind(oscar)();
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu['name'] = entity;
             entity = new Array(1);
             entity[0] = zulu;
-            if(!mike) { _fun72675_ip = 280; continue _fun72675 }
+            if(!mike) { _fun00002_ip = 280; continue _fun00001 }
  198:
             zulu = entity.push;
             mike = {};
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = report.canReplyToMessage;
             mike = argFoo;
             mike = zulu.bind(report)(oscar, mike);
-            if(!mike) { _fun72675_ip = 400; continue _fun72675 }
+            if(!mike) { _fun00002_ip = 400; continue _fun00001 }
  318:
             zulu = entity.push;
             mike = {};

@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/app_launcher/native/screens/application_view/Header.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: Header
-        _fun118952: for(var _fun118952_ip = 0; ; ) switch(_fun118952_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.application;
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = null;
             mike = options != offset;
             oscar = null;
-            if(!mike) { _fun118952_ip = 153; continue _fun118952 }
+            if(!mike) { _fun00002_ip = 153; continue _fun00001 }
  122:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -236,11 +236,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = 'number';
             mike = typeof oscar;
             zulu = oscar;
-            if(!(verify !== mike)) { _fun118952_ip = 255; continue _fun118952 }
+            if(!(verify !== mike)) { _fun00002_ip = 255; continue _fun00001 }
  237:
             verify = options == oscar;
             mike = undefined;
-            if(verify) { _fun118952_ip = 252; continue _fun118952 }
+            if(verify) { _fun00002_ip = 252; continue _fun00001 }
  246:
             mike = oscar.uri;
  252:
@@ -249,12 +249,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = options != golf;
             control = '';
             mike = control;
-            if(!verify) { _fun118952_ip = 272; continue _fun118952 }
+            if(!verify) { _fun00002_ip = 272; continue _fun00001 }
  269:
             mike = golf;
  272:
             record = report.bind(tango)(zulu, mike);
-            if(!(options == oscar)) { _fun118952_ip = 310; continue _fun118952 }
+            if(!(options == oscar)) { _fun00002_ip = 310; continue _fun00001 }
  282:
             report = _closure1_slot8;
             zulu = _closure1_slot3;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = update.loadingIcon;
             mike['style'] = golf;
             output = report.bind(tango)(zulu, mike);
-            _fun118952_ip = 364; continue _fun118952;
+            _fun00002_ip = 364; continue _fun00001;
  310:
             report = _closure1_slot8;
             zulu = _closure1_slot1;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             config = entity.bind(tango)(mike);
             entity = options != offset;
-            if(!entity) { _fun118952_ip = 459; continue _fun118952 }
+            if(!entity) { _fun00002_ip = 459; continue _fun00001 }
  428:
             mike = _closure1_slot0;
             zulu = _closure1_slot2;
@@ -525,12 +525,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = entity.bind(mike)(offset);
  459:
             entity = options != offset;
-            if(!entity) { _fun118952_ip = 474; continue _fun118952 }
+            if(!entity) { _fun00002_ip = 474; continue _fun00001 }
  466:
             mike = 'flags';
             entity = mike in offset;
  474:
-            if(!entity) { _fun118952_ip = 536; continue _fun118952 }
+            if(!entity) { _fun00002_ip = 536; continue _fun00001 }
  477:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = offset.flags;
             verify = options != mike;
             zulu = 0;
-            if(!verify) { _fun118952_ip = 520; continue _fun118952 }
+            if(!verify) { _fun00002_ip = 520; continue _fun00001 }
  517:
             zulu = mike;
  520:
@@ -662,7 +662,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = oscar;
             golf = options != offset;
             oscar = null;
-            if(!golf) { _fun118952_ip = 1357; continue _fun118952 }
+            if(!golf) { _fun00002_ip = 1357; continue _fun00001 }
  1049:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -672,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = verify.isRealApplication;
             golf = golf.bind(verify)(offset);
             oscar = null;
-            if(!golf) { _fun118952_ip = 1357; continue _fun118952 }
+            if(!golf) { _fun00002_ip = 1357; continue _fun00001 }
  1088:
             verify = _closure1_slot9;
             options = _closure1_slot3;
@@ -690,7 +690,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = update.actionButtonWrapper;
             offset['style'] = result;
             result = function() { // Original name: onPress
-                _fun118961: for(var _fun118961_ip = 0; ; ) switch(_fun118961_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
@@ -719,7 +719,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = 23;
                     oscar = romeo[oscar];
                     options = verify.bind(entity)(oscar);
-                    if(zulu) { _fun118961_ip = 180; continue _fun118961 }
+                    if(zulu) { _fun00004_ip = 180; continue _fun00003 }
  122:
                     oscar = options.getApplicationInstallURL;
                     zulu = {};
@@ -734,7 +734,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     backup = zulu;
                     golf = copyDataProperties(backup, foxtrot);
                     zulu = oscar.bind(options)(zulu);
-                    _fun118961_ip = 235; continue _fun118961;
+                    _fun00004_ip = 235; continue _fun00003;
  180:
                     golf = options.getActivityLaunchURL;
                     oscar = {};
@@ -745,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = null;
                     yankee = verify == yankee;
                     verify = undefined;
-                    if(yankee) { _fun118961_ip = 225; continue _fun118961 }
+                    if(yankee) { _fun00004_ip = 225; continue _fun00003 }
  216:
                     offset = _closure2_slot4;
                     verify = offset.id;

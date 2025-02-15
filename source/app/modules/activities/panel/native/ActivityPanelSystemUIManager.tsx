@@ -41,7 +41,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     var _closure1_slot7 = tango;
     tango = golf.memo;
     mike = function() {
-        _fun121410: for(var _fun121410_ip = 0; ; ) switch(_fun121410_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot3;
             mike = zulu.useContext;
@@ -59,7 +59,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             offset = options === mike;
             entity = entity.isWindowLandscape;
             romeo = !entity;
-            if(romeo) { _fun121410_ip = 80; continue _fun121410 }
+            if(romeo) { _fun00002_ip = 80; continue _fun00001 }
  77:
             romeo = !offset;
  80:
@@ -74,7 +74,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             entity = entity.bind(mike)();
             entity = !entity;
             verify = !entity;
-            if(entity) { _fun121410_ip = 132; continue _fun121410 }
+            if(entity) { _fun00002_ip = 132; continue _fun00001 }
  129:
             verify = offset;
  132:
@@ -82,7 +82,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = _closure1_slot6;
             entity = {};
             golf = null;
-            if(!(options !== report)) { _fun121410_ip = 199; continue _fun121410 }
+            if(!(options !== report)) { _fun00002_ip = 199; continue _fun00001 }
  148:
             yankee = _closure1_slot5;
             options = _closure1_slot1;
@@ -106,7 +106,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             oscar = yankee[oscar];
             golf = golf.bind(tango)(oscar);
             oscar = {};
-            if(!offset) { _fun121410_ip = 239; continue _fun121410 }
+            if(!offset) { _fun00002_ip = 239; continue _fun00001 }
  236:
             offset = !verify;
  239:

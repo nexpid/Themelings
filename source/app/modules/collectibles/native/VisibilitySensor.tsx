@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         zulu = new Array(1);
         zulu[0] = mike;
         mike = function(argFoo, argBar) {
-            _fun99741: for(var _fun99741_ip = 0; ; ) switch(_fun99741_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 var _closure3_slot0 = mike;
@@ -84,25 +84,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                 zulu = _closure2_slot5;
                 tango = zulu.current;
                 zulu = null;
-                if(!(zulu === tango)) { _fun99741_ip = 73; continue _fun99741 }
+                if(!(zulu === tango)) { _fun00002_ip = 73; continue _fun00001 }
  34:
                 mike = _closure2_slot5;
                 zulu = global;
                 report = zulu.setInterval;
                 tango = undefined;
                 zulu = function() {
-                    _fun99742: for(var _fun99742_ip = 0; ; ) switch(_fun99742_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         mike = _closure2_slot1;
                         zulu = mike.current;
                         mike = null;
-                        if(!(mike !== zulu)) { _fun99742_ip = 47; continue _fun99742 }
+                        if(!(mike !== zulu)) { _fun00004_ip = 47; continue _fun00003 }
  18:
                         entity = _closure2_slot1;
                         zulu = entity.current;
                         mike = zulu.measure;
                         entity = function(argFoo, argBar, argBaz, argCorge, argGrault, argFred) {
-                            _fun99743: for(var _fun99743_ip = 0; ; ) switch(_fun99743_ip) {
+                            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                                 tango = argGrault;
                                 report = argFred;
@@ -110,17 +110,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
                                 entity = report + entity;
                                 mike = 0;
                                 zulu = entity > mike;
-                                if(!zulu) { _fun99743_ip = 33; continue _fun99743 }
+                                if(!zulu) { _fun00006_ip = 33; continue _fun00005 }
  22:
                                 entity = _closure3_slot1;
                                 zulu = report < entity;
  33:
-                                if(!zulu) { _fun99743_ip = 47; continue _fun99743 }
+                                if(!zulu) { _fun00006_ip = 47; continue _fun00005 }
  36:
                                 entity = _closure3_slot0;
                                 zulu = tango < entity;
  47:
-                                if(!zulu) { _fun99743_ip = 61; continue _fun99743 }
+                                if(!zulu) { _fun00006_ip = 61; continue _fun00005 }
  50:
                                 entity = argBaz;
                                 entity = tango + entity;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
  61:
                                 mike = _closure2_slot2;
                                 mike = mike.current;
-                                if(!(zulu !== mike)) { _fun99743_ip = 98; continue _fun99743 }
+                                if(!(zulu !== mike)) { _fun00006_ip = 98; continue _fun00005 }
  77:
                                 mike = _closure2_slot2;
                                 mike['current'] = zulu;
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, argGrault, argFred, a
         yankee = yankee.bind(romeo)(mike, zulu);
         var _closure2_slot6 = yankee;
         mike = function() { // Original name: stopWatching
-            _fun99744: for(var _fun99744_ip = 0; ; ) switch(_fun99744_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 mike = _closure2_slot5;
                 zulu = mike.current;
                 mike = null;
-                if(!(mike !== zulu)) { _fun99744_ip = 48; continue _fun99744 }
+                if(!(mike !== zulu)) { _fun00008_ip = 48; continue _fun00007 }
  18:
                 zulu = global;
                 report = zulu.clearInterval;

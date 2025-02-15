@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/attachment/AppLauncherAttachmentOption.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherAttachmentOption
-        _fun119212: for(var _fun119212_ip = 0; ; ) switch(_fun119212_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             verify = zulu.option;
@@ -204,30 +204,30 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = null;
             mike = golf == yankee;
             kilo = undefined;
-            if(mike) { _fun119212_ip = 220; continue _fun119212 }
+            if(mike) { _fun00002_ip = 220; continue _fun00001 }
  214:
             kilo = yankee.filename;
  220:
             mike = new Array(1);
             mike[0] = kilo;
             entity = function() {
-                _fun119217: for(var _fun119217_ip = 0; ; ) switch(_fun119217_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot3;
                     tango = null;
                     report = tango == entity;
                     entity = undefined;
                     zulu = undefined;
-                    if(report) { _fun119217_ip = 30; continue _fun119217 }
+                    if(report) { _fun00004_ip = 30; continue _fun00003 }
  20:
                     report = _closure2_slot3;
                     zulu = report.filename;
  30:
-                    if(!(tango != zulu)) { _fun119217_ip = 71; continue _fun119217 }
+                    if(!(tango != zulu)) { _fun00004_ip = 71; continue _fun00003 }
  34:
                     zulu = _closure2_slot4;
                     zulu = zulu.current;
-                    if(!(tango != zulu)) { _fun119217_ip = 71; continue _fun119217 }
+                    if(!(tango != zulu)) { _fun00004_ip = 71; continue _fun00003 }
  47:
                     tango = _closure2_slot4;
                     zulu = tango.current;
@@ -253,12 +253,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['selected'] = verify;
             offset = golf != yankee;
             verify = undefined;
-            if(!offset) { _fun119212_ip = 305; continue _fun119212 }
+            if(!offset) { _fun00002_ip = 305; continue _fun00001 }
  299:
             verify = yankee.filename;
  305:
             entity['selectedItemName'] = verify;
-            if(!(golf != yankee)) { _fun119212_ip = 361; continue _fun119212 }
+            if(!(golf != yankee)) { _fun00002_ip = 361; continue _fun00001 }
  314:
             golf = yankee.item;
             verify = golf.platform;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = offset.bind(tango)(golf);
             golf = golf.UploadPlatform;
             golf = golf.REACT_NATIVE;
-            if(!(verify !== golf)) { _fun119212_ip = 443; continue _fun119212 }
+            if(!(verify !== golf)) { _fun00002_ip = 443; continue _fun00001 }
  361:
             offset = _closure1_slot7;
             verify = _closure1_slot4;
@@ -287,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.bind(tango)(foxtrot, romeo);
             golf['children'] = romeo;
             golf = offset.bind(tango)(verify, golf);
-            _fun119212_ip = 497; continue _fun119212;
+            _fun00002_ip = 497; continue _fun00001;
  443:
             offset = _closure1_slot7;
             verify = _closure1_slot9;

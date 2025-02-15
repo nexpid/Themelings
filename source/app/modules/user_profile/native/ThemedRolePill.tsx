@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/ThemedRolePill.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ThemedRolePill
-        _fun64856: for(var _fun64856_ip = 0; ; ) switch(_fun64856_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             result = entity.role;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = null;
             zulu = offset == mike;
             entity = undefined;
-            if(zulu) { _fun64856_ip = 126; continue _fun64856 }
+            if(zulu) { _fun00002_ip = 126; continue _fun00001 }
  120:
             entity = mike.rolePillBackgroundColor;
  126:
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = result.name;
             mike = entity.length;
             entity = _closure1_slot5;
-            if(!(mike > entity)) { _fun64856_ip = 297; continue _fun64856 }
+            if(!(mike > entity)) { _fun00002_ip = 297; continue _fun00001 }
  239:
             options = result.name;
             zulu = options.slice;
@@ -176,11 +176,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             _closure2_slot1 = entity;
             romeo = entity;
  297:
-            if(!(offset == source)) { _fun64856_ip = 307; continue _fun64856 }
+            if(!(offset == source)) { _fun00002_ip = 307; continue _fun00001 }
  301:
             source = result.colorString;
  307:
-            if(!(offset == source)) { _fun64856_ip = 322; continue _fun64856 }
+            if(!(offset == source)) { _fun00002_ip = 322; continue _fun00001 }
  311:
             entity = sizing.bubble;
             source = entity.backgroundColor;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = result.tags;
             mike = offset == entity;
             options = undefined;
-            if(mike) { _fun64856_ip = 343; continue _fun64856 }
+            if(mike) { _fun00002_ip = 343; continue _fun00001 }
  337:
             options = entity.guild_connections;
  343:
@@ -200,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = entity.PressableHighlight;
             entity = {};
             oscar = !oscar;
-            if(oscar) { _fun64856_ip = 381; continue _fun64856 }
+            if(oscar) { _fun00002_ip = 381; continue _fun00001 }
  378:
             oscar = golf;
  381:
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee[0] = backup;
             yankee[1] = foxtrot;
             report['style'] = yankee;
-            if(!(tango === options)) { _fun64856_ip = 492; continue _fun64856 }
+            if(!(tango === options)) { _fun00002_ip = 492; continue _fun00001 }
  446:
             foxtrot = _closure1_slot6;
             yankee = _closure1_slot3;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup[1] = update;
             options['style'] = backup;
             yankee = foxtrot.bind(tango)(yankee, options);
-            _fun64856_ip = 594; continue _fun64856;
+            _fun00002_ip = 594; continue _fun00001;
  492:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot1;
@@ -263,13 +263,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options['style'] = update;
             update = result.id;
             options['roleId'] = update;
-            if(!(offset == echo)) { _fun64856_ip = 546; continue _fun64856 }
+            if(!(offset == echo)) { _fun00002_ip = 546; continue _fun00001 }
  542:
             echo = _closure1_slot4;
  546:
             options['guildId'] = echo;
             result = result.colorString;
-            if(!(offset == result)) { _fun64856_ip = 571; continue _fun64856 }
+            if(!(offset == result)) { _fun00002_ip = 571; continue _fun00001 }
  560:
             echo = sizing.bubble;
             result = echo.backgroundColor;
@@ -284,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options[0] = yankee;
             yankee = offset != kilo;
             offset = null;
-            if(!yankee) { _fun64856_ip = 641; continue _fun64856 }
+            if(!yankee) { _fun00002_ip = 641; continue _fun00001 }
  611:
             backup = _closure1_slot6;
             foxtrot = _closure1_slot3;

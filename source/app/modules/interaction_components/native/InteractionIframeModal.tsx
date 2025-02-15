@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/interaction_components/native/InteractionIframeModal.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InteractionIframeModal
-        _fun123855: for(var _fun123855_ip = 0; ; ) switch(_fun123855_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             entity = _closure1_slot11;
@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(tango)(zulu);
             source = null;
             verify = null;
-            if(entity) { _fun123855_ip = 466; continue _fun123855 }
+            if(entity) { _fun00002_ip = 466; continue _fun00001 }
  278:
             zulu = _closure1_slot9;
             mike = _closure1_slot1;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = control.id;
             offset = offset.bind(yankee)(options);
             options = 'origin';
-            if(!offset) { _fun123855_ip = 440; continue _fun123855 }
+            if(!offset) { _fun00002_ip = 440; continue _fun00001 }
  434:
             options = 'no-referrer';
  440:
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = control.bot;
             vacuum = source == control;
             source = undefined;
-            if(vacuum) { _fun123855_ip = 868; continue _fun123855 }
+            if(vacuum) { _fun00002_ip = 868; continue _fun00001 }
  862:
             source = control.verified;
  868:

@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     mike = 'modules/autocompleter/findNextSelectedResult.tsx';
     mike = report.bind(oscar)(mike);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: findNextSelectedResult
-        _fun79190: for(var _fun79190_ip = 0; ; ) switch(_fun79190_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             options = argFoo;
             report = argBar;
@@ -34,36 +34,36 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = argCorge;
             zulu = golf.length;
             entity = 0;
-            if(!(entity !== zulu)) { _fun79190_ip = 171; continue _fun79190 }
+            if(!(entity !== zulu)) { _fun00002_ip = 171; continue _fun00001 }
  26:
             tango = null;
             oscar = report;
-            if(!(tango != mike)) { _fun79190_ip = 44; continue _fun79190 }
+            if(!(tango != mike)) { _fun00002_ip = 44; continue _fun00001 }
  35:
             oscar = mike;
-            if(!(oscar === report)) { _fun79190_ip = 44; continue _fun79190 }
+            if(!(oscar === report)) { _fun00002_ip = 44; continue _fun00001 }
  42:
             return report;
  44:
             mike = _closure1_slot0;
             verify = mike.UP;
             mike = 1;
-            if(!(options === verify)) { _fun79190_ip = 70; continue _fun79190 }
+            if(!(options === verify)) { _fun00002_ip = 70; continue _fun00001 }
  64:
             mike = -1;
  70:
             yankee = report + mike;
             verify = yankee < entity;
-            if(verify) { _fun79190_ip = 135; continue _fun79190 }
+            if(verify) { _fun00002_ip = 135; continue _fun00001 }
  81:
-            if(!(!(yankee >= zulu))) { _fun79190_ip = 135; continue _fun79190 }
+            if(!(!(yankee >= zulu))) { _fun00002_ip = 135; continue _fun00001 }
  85:
             mike = golf[yankee];
             offset = mike.type;
             mike = _closure1_slot1;
             report = mike.HEADER;
             mike = yankee;
-            if(!(offset === report)) { _fun79190_ip = 133; continue _fun79190 }
+            if(!(offset === report)) { _fun00002_ip = 133; continue _fun00001 }
  111:
             offset = _closure1_slot2;
             sizing = undefined;
@@ -73,11 +73,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = oscar;
             mike = sizing[offset](kilo, backup, foxtrot, romeo, yankee);
  133:
-            _fun79190_ip = 169; continue _fun79190;
+            _fun00002_ip = 169; continue _fun00001;
  135:
             report = _closure1_slot2;
             tango = -1;
-            if(!verify) { _fun79190_ip = 151; continue _fun79190 }
+            if(!verify) { _fun00002_ip = 151; continue _fun00001 }
  148:
             tango = zulu;
  151:

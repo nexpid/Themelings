@@ -50,11 +50,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike[0] = golf;
         mike[1] = oscar;
         entity = function() {
-            _fun122147: for(var _fun122147_ip = 0; ; ) switch(_fun122147_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure2_slot1;
                 zulu = null;
-                if(!(zulu != tango)) { _fun122147_ip = 124; continue _fun122147 }
+                if(!(zulu != tango)) { _fun00002_ip = 124; continue _fun00001 }
  15:
                 report = _closure1_slot3;
                 tango = report.getEmbeddedActivitiesForChannel;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 mike = tango.bind(report)(mike);
-                if(!(zulu != mike)) { _fun122147_ip = 118; continue _fun122147 }
+                if(!(zulu != mike)) { _fun00002_ip = 118; continue _fun00001 }
  58:
                 zulu = global;
                 tango = zulu.Array;
@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return entity;
                 };
                 entity = mike.bind(zulu)(entity);
-                _fun122147_ip = 122; continue _fun122147;
+                _fun00002_ip = 122; continue _fun00001;
  118:
                 entity = new Array(0);
  122:

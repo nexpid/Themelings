@@ -52,22 +52,22 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['getMobileStatusContainerRect'] = tango;
     mike = function(argFoo) { // Original name: getStatusTypingDimensions
-        _fun63271: for(var _fun63271_ip = 0; ; ) switch(_fun63271_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot1;
             mike = mike.SMALL;
-            if(!(mike !== zulu)) { _fun63271_ip = 54; continue _fun63271 }
+            if(!(mike !== zulu)) { _fun00002_ip = 54; continue _fun00001 }
  20:
             mike = _closure1_slot1;
             mike = mike.XSMALL;
-            if(!(mike !== zulu)) { _fun63271_ip = 54; continue _fun63271 }
+            if(!(mike !== zulu)) { _fun00002_ip = 54; continue _fun00001 }
  34:
             entity = _closure1_slot1;
             entity = entity.REFRESH_MEDIUM_10;
             oscar = 28;
             mike = 6;
-            if(!(entity === zulu)) { _fun63271_ip = 60; continue _fun63271 }
+            if(!(entity === zulu)) { _fun00002_ip = 60; continue _fun00001 }
  54:
             oscar = 22;
             mike = 4;

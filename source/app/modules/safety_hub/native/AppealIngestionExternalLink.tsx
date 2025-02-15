@@ -101,11 +101,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'button';
         entity['accessibilityRole'] = oscar;
         report = function() { // Original name: onPress
-            _fun92734: for(var _fun92734_ip = 0; ; ) switch(_fun92734_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot1;
                 entity = null;
-                if(!(entity != zulu)) { _fun92734_ip = 23; continue _fun92734 }
+                if(!(entity != zulu)) { _fun00002_ip = 23; continue _fun00001 }
  13:
                 zulu = _closure2_slot1;
                 entity = undefined;

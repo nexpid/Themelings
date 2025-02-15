@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = entity;
     var _closure1_slot2 = golf;
     tango = function(argFoo, argBar, argBaz, argCorge) { // Original name: _canSetVoiceChannelStatus
-        _fun121891: for(var _fun121891_ip = 0; ; ) switch(_fun121891_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
@@ -17,21 +17,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = argCorge;
             var _closure2_slot2 = mike;
             zulu = argBaz;
-            if(zulu) { _fun121891_ip = 38; continue _fun121891 }
+            if(zulu) { _fun00002_ip = 38; continue _fun00001 }
  32:
             zulu = _closure1_slot4;
-            _fun121891_ip = 42; continue _fun121891;
+            _fun00002_ip = 42; continue _fun00001;
  38:
             zulu = _closure1_slot5;
  42:
             mike = zulu.every;
             entity = function(argFoo) {
-                _fun121892: for(var _fun121892_ip = 0; ; ) switch(_fun121892_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = argFoo;
                     zulu = _closure2_slot2;
                     entity = null;
-                    if(!(entity != zulu)) { _fun121892_ip = 77; continue _fun121892 }
+                    if(!(entity != zulu)) { _fun00004_ip = 77; continue _fun00003 }
  16:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     oscar = _closure2_slot0;
                     entity['context'] = oscar;
                     entity = zulu.bind(tango)(entity);
-                    _fun121892_ip = 97; continue _fun121892;
+                    _fun00004_ip = 97; continue _fun00003;
  77:
                     tango = _closure2_slot1;
                     zulu = tango.can;
@@ -99,14 +99,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/calls/useCanSetVoiceChannelStatus.tsx';
     report = oscar.bind(golf)(report);
     report = function(argFoo) { // Original name: useCanSetVoiceChannelStatus
-        _fun121893: for(var _fun121893_ip = 0; ; ) switch(_fun121893_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             options = argFoo;
             golf = arguments[1];
             oscar = arguments[2];
             var _closure2_slot0 = options;
             report = undefined;
-            if(!(golf === report)) { _fun121893_ip = 23; continue _fun121893 }
+            if(!(golf === report)) { _fun00006_ip = 23; continue _fun00005 }
  21:
             golf = false;
  23:
@@ -142,11 +142,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     zulu['default'] = report;
     zulu['_canSetVoiceChannelStatus'] = tango;
     mike = function(argFoo) { // Original name: canSetVoiceChannelStatus
-        _fun121895: for(var _fun121895_ip = 0; ; ) switch(_fun121895_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             oscar = arguments[1];
             report = undefined;
-            if(!(oscar === report)) { _fun121895_ip = 11; continue _fun121895 }
+            if(!(oscar === report)) { _fun00008_ip = 11; continue _fun00007 }
  9:
             oscar = false;
  11:

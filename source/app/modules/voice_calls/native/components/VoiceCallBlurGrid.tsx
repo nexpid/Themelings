@@ -74,22 +74,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = golf.bind(options)(tango);
     var _closure1_slot11 = tango;
     tango = function(argFoo) { // Original name: AvatarRow
-        _fun104163: for(var _fun104163_ip = 0; ; ) switch(_fun104163_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             tango = entity.recipients;
             entity = entity.guildId;
             var _closure2_slot0 = entity;
             entity = null;
-            if(!(entity != tango)) { _fun104163_ip = 95; continue _fun104163 }
+            if(!(entity != tango)) { _fun00002_ip = 95; continue _fun00001 }
  26:
             report = tango.length;
             zulu = 0;
-            if(!(zulu !== report)) { _fun104163_ip = 95; continue _fun104163 }
+            if(!(zulu !== report)) { _fun00002_ip = 95; continue _fun00001 }
  37:
             zulu = tango.map;
             mike = function(argFoo) {
-                _fun104164: for(var _fun104164_ip = 0; ; ) switch(_fun104164_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscar = argFoo;
                     zulu = _closure1_slot8;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = entity.bind(zulu)(oscar);
                     entity = null;
                     zulu = entity == verify;
-                    if(zulu) { _fun104164_ip = 85; continue _fun104164 }
+                    if(zulu) { _fun00004_ip = 85; continue _fun00003 }
  30:
                     report = _closure1_slot9;
                     tango = _closure1_slot4;
@@ -155,21 +155,21 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = verify;
         entity = function() {
-            _fun104166: for(var _fun104166_ip = 0; ; ) switch(_fun104166_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure1_slot7;
                 mike = zulu.getChannel;
                 entity = _closure2_slot0;
                 mike = mike.bind(zulu)(entity);
                 entity = null;
-                if(!(entity != mike)) { _fun104166_ip = 43; continue _fun104166 }
+                if(!(entity != mike)) { _fun00006_ip = 43; continue _fun00005 }
  30:
                 entity = mike.isPrivate;
                 entity = entity.bind(mike)();
-                if(entity) { _fun104166_ip = 49; continue _fun104166 }
+                if(entity) { _fun00006_ip = 49; continue _fun00005 }
  43:
                 entity = new Array(0);
-                _fun104166_ip = 71; continue _fun104166;
+                _fun00006_ip = 71; continue _fun00005;
  49:
                 report = mike.recipients;
                 tango = report.slice;

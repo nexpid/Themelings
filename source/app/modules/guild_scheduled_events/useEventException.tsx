@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: _getEventException
-        _fun70170: for(var _fun70170_ip = 0; ; ) switch(_fun70170_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = argBar;
@@ -14,7 +14,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = null;
             zulu = entity == tango;
             entity = undefined;
-            if(zulu) { _fun70170_ip = 40; continue _fun70170 }
+            if(zulu) { _fun00002_ip = 40; continue _fun00001 }
  23:
             zulu = tango.find;
             mike = function(argFoo) {
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = golf;
         entity = function() {
-            _fun70173: for(var _fun70173_ip = 0; ; ) switch(_fun70173_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zulu = _closure1_slot2;
                 mike = zulu.getGuildScheduledEvent;
@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = null;
                 tango = mike == zulu;
                 entity = undefined;
-                if(tango) { _fun70173_ip = 42; continue _fun70173 }
+                if(tango) { _fun00004_ip = 42; continue _fun00003 }
  36:
                 entity = zulu.guild_scheduled_event_exceptions;
  42:
-                if(!(mike == entity)) { _fun70173_ip = 50; continue _fun70173 }
+                if(!(mike == entity)) { _fun00004_ip = 50; continue _fun00003 }
  46:
                 entity = new Array(0);
  50:
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo, argBar) { // Original name: getEventException
-        _fun70174: for(var _fun70174_ip = 0; ; ) switch(_fun70174_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = _closure1_slot3;
             zulu = _closure1_slot2;
@@ -103,11 +103,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             oscar = entity == report;
             zulu = undefined;
             mike = undefined;
-            if(oscar) { _fun70174_ip = 44; continue _fun70174 }
+            if(oscar) { _fun00006_ip = 44; continue _fun00005 }
  38:
             mike = report.guild_scheduled_event_exceptions;
  44:
-            if(!(entity == mike)) { _fun70174_ip = 52; continue _fun70174 }
+            if(!(entity == mike)) { _fun00006_ip = 52; continue _fun00005 }
  48:
             mike = new Array(0);
  52:

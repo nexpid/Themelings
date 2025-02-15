@@ -52,12 +52,12 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['isLinux'] = tango;
     tango = function() { // Original name: isDesktop
-        _fun5732: for(var _fun5732_ip = 0; ; ) switch(_fun5732_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = _closure1_slot2;
             entity = undefined;
             entity = mike.bind(entity)();
-            if(entity) { _fun5732_ip = 18; continue _fun5732 }
+            if(entity) { _fun00002_ip = 18; continue _fun00001 }
  16:
             entity = false;
  18:
@@ -71,14 +71,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['isWeb'] = tango;
     tango = function() { // Original name: isAndroidChrome
-        _fun5734: for(var _fun5734_ip = 0; ; ) switch(_fun5734_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = global;
             entity = mike.navigator;
             entity = entity.userAgent;
             zulu = null;
             entity = zulu != entity;
-            if(!entity) { _fun5734_ip = 66; continue _fun5734 }
+            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
  23:
             mike = mike.navigator;
             tango = mike.userAgent;
@@ -94,7 +94,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['isAndroidChrome'] = tango;
     tango = function() { // Original name: isAndroidWeb
-        _fun5735: for(var _fun5735_ip = 0; ; ) switch(_fun5735_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = global;
             entity = entity.navigator;
@@ -102,7 +102,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = null;
             zulu = mike == report;
             entity = undefined;
-            if(zulu) { _fun5735_ip = 50; continue _fun5735 }
+            if(zulu) { _fun00006_ip = 50; continue _fun00005 }
  25:
             tango = report.match;
             zulu = /android/i;
@@ -114,7 +114,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['isAndroidWeb'] = tango;
     tango = function() { // Original name: isMacWeb
-        _fun5736: for(var _fun5736_ip = 0; ; ) switch(_fun5736_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = global;
             entity = entity.navigator;
@@ -122,7 +122,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = null;
             zulu = mike == report;
             entity = undefined;
-            if(zulu) { _fun5736_ip = 50; continue _fun5736 }
+            if(zulu) { _fun00008_ip = 50; continue _fun00007 }
  25:
             tango = report.match;
             zulu = /Macintosh/i;
@@ -144,16 +144,16 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['isIOS'] = tango;
     tango = function() { // Original name: getPlatform
-        _fun5739: for(var _fun5739_ip = 0; ; ) switch(_fun5739_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zulu = _closure1_slot2;
             entity = undefined;
             entity = zulu.bind(entity)();
             mike = _closure1_slot0;
-            if(entity) { _fun5739_ip = 28; continue _fun5739 }
+            if(entity) { _fun00010_ip = 28; continue _fun00009 }
  20:
             entity = mike.WEB;
-            _fun5739_ip = 34; continue _fun5739;
+            _fun00010_ip = 34; continue _fun00009;
  28:
             entity = mike.WINDOWS;
  34:
@@ -167,14 +167,14 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     };
     zulu['getPlatformName'] = tango;
     tango = function() { // Original name: getNativePlatform
-        _fun5741: for(var _fun5741_ip = 0; ; ) switch(_fun5741_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zulu = _closure1_slot1;
             mike = 'ios';
-            if(!(mike !== zulu)) { _fun5741_ip = 29; continue _fun5741 }
+            if(!(mike !== zulu)) { _fun00012_ip = 29; continue _fun00011 }
  15:
             mike = 'android';
-            if(!(mike !== zulu)) { _fun5741_ip = 29; continue _fun5741 }
+            if(!(mike !== zulu)) { _fun00012_ip = 29; continue _fun00011 }
  23:
             mike = 'web';
             return mike;

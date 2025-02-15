@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot12 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: StickerPackDetailActionSheet
-        _fun85040: for(var _fun85040_ip = 0; ; ) switch(_fun85040_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             romeo = mike.stickerPack;
@@ -167,12 +167,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             var _closure2_slot9 = zulu;
             offset = function() { // Original name: toggleDisplayingPackDetails
-                _fun85042: for(var _fun85042_ip = 0; ; ) switch(_fun85042_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot6;
                     zulu = entity.current;
                     entity = null;
-                    if(!(entity != zulu)) { _fun85042_ip = 42; continue _fun85042 }
+                    if(!(entity != zulu)) { _fun00004_ip = 42; continue _fun00003 }
  18:
                     entity = global;
                     tango = entity.clearTimeout;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = !zulu;
                     entity = undefined;
                     tango = report.bind(entity)(tango);
-                    if(zulu) { _fun85042_ip = 102; continue _fun85042 }
+                    if(zulu) { _fun00004_ip = 102; continue _fun00003 }
  63:
                     zulu = _closure2_slot6;
                     mike = global;
@@ -219,14 +219,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = report.useEffect;
             zulu = function() {
                 entity = function() {
-                    _fun85046: for(var _fun85046_ip = 0; ; ) switch(_fun85046_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = _closure2_slot8;
                         zulu = entity.current;
                         entity = null;
                         zulu = entity == zulu;
                         entity = undefined;
-                        if(zulu) { _fun85046_ip = 36; continue _fun85046 }
+                        if(zulu) { _fun00006_ip = 36; continue _fun00005 }
  23:
                         zulu = _closure2_slot8;
                         mike = zulu.current;
@@ -289,7 +289,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = sequence.doesStickerPackHavePopoutInformation;
             sequence = source.bind(sequence)(romeo);
             source = undefined;
-            if(!sequence) { _fun85040_ip = 506; continue _fun85040 }
+            if(!sequence) { _fun00002_ip = 506; continue _fun00001 }
  503:
             source = offset;
  506:
@@ -361,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = verify;
             options = options != result;
-            if(!options) { _fun85040_ip = 826; continue _fun85040 }
+            if(!options) { _fun00002_ip = 826; continue _fun00001 }
  719:
             kilo = _closure1_slot9;
             backup = _closure1_slot0;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = kilo.bind(tango)(backup, verify);
  826:
             report[1] = options;
-            if(!oscar) { _fun85040_ip = 882; continue _fun85040 }
+            if(!oscar) { _fun00002_ip = 882; continue _fun00001 }
  833:
             verify = _closure1_slot9;
             options = _closure1_slot1;

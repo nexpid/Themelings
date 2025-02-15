@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/stage_channels/StageChannelHeightHooks.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useGetStageRTCPanelHeight
-        _fun103263: for(var _fun103263_ip = 0; ; ) switch(_fun103263_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -36,11 +36,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(tango)(entity);
             entity = tango.useStageIgnoredUsersCount;
             entity = entity.bind(tango)(report);
-            if(!(!(zulu > mike))) { _fun103263_ip = 72; continue _fun103263 }
+            if(!(!(zulu > mike))) { _fun00002_ip = 72; continue _fun00001 }
  62:
             mike = entity > mike;
             entity = 68;
-            if(!mike) { _fun103263_ip = 75; continue _fun103263 }
+            if(!mike) { _fun00002_ip = 75; continue _fun00001 }
  72:
             entity = 88;
  75:
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['useGetStageRTCPanelHeight'] = tango;
     mike = function(argFoo) { // Original name: useGetActionBarHeight
-        _fun103264: for(var _fun103264_ip = 0; ; ) switch(_fun103264_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             oscar = _closure1_slot0;
@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             tango = oscar.bind(tango)(entity);
             entity = tango.useStageIgnoredUsersCount;
             entity = entity.bind(tango)(report);
-            if(!(!(zulu > mike))) { _fun103264_ip = 72; continue _fun103264 }
+            if(!(!(zulu > mike))) { _fun00004_ip = 72; continue _fun00003 }
  62:
             mike = entity > mike;
             entity = 112;
-            if(!mike) { _fun103264_ip = 75; continue _fun103264 }
+            if(!mike) { _fun00004_ip = 75; continue _fun00003 }
  72:
             entity = 132;
  75:

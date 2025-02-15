@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot13 = entity;
     entity = function(argFoo) { // Original name: BenefitShowCase
-        _fun127394: for(var _fun127394_ip = 0; ; ) switch(_fun127394_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.title;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = 'string';
             report = typeof yankee;
             entity = yankee;
-            if(!(golf === report)) { _fun127394_ip = 95; continue _fun127394 }
+            if(!(golf === report)) { _fun00002_ip = 95; continue _fun00001 }
  40:
             offset = _closure1_slot9;
             golf = _closure1_slot0;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'modules/guild_role_subscriptions/native/guild_settings/tier_templates/GuildRoleSubscriptionTierTemplatePreviewCard.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: GuildRoleSubscriptionTierTemplatePreviewCard
-        _fun127397: for(var _fun127397_ip = 0; ; ) switch(_fun127397_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             yankee = entity.template;
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[2] = entity;
             oscar[3] = romeo;
             entity = function(argFoo, argBar) {
-                _fun127398: for(var _fun127398_ip = 0; ; ) switch(_fun127398_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tango = argFoo;
                     report = _closure1_slot0;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot4;
                     oscar = zulu.bind(entity)(tango);
                     zulu = argBar;
-                    if(!zulu) { _fun127398_ip = 92; continue _fun127398 }
+                    if(!zulu) { _fun00006_ip = 92; continue _fun00005 }
  62:
                     tango = _closure1_slot1;
                     report = _closure1_slot3;
@@ -525,14 +525,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             kilo = entity != backup;
             mike = undefined;
-            if(!kilo) { _fun127397_ip = 279; continue _fun127397 }
+            if(!kilo) { _fun00004_ip = 279; continue _fun00003 }
  276:
             mike = backup;
  279:
             oscar = report.bind(oscar)(romeo, mike, options);
             _closure2_slot6 = oscar;
             entity = entity != oscar;
-            if(!entity) { _fun127397_ip = 306; continue _fun127397 }
+            if(!entity) { _fun00004_ip = 306; continue _fun00003 }
  297:
             mike = oscar.length;
             entity = mike > zulu;
@@ -545,17 +545,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = oscar;
             mike[2] = entity;
             entity = function(argFoo, argBar) {
-                _fun127399: for(var _fun127399_ip = 0; ; ) switch(_fun127399_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     golf = argFoo;
                     mike = _closure2_slot7;
                     oscar = _closure2_slot5;
-                    if(mike) { _fun127399_ip = 30; continue _fun127399 }
+                    if(mike) { _fun00008_ip = 30; continue _fun00007 }
  17:
                     zulu = undefined;
                     mike = argBar;
                     mike = oscar.bind(zulu)(golf, mike);
-                    _fun127399_ip = 129; continue _fun127399;
+                    _fun00008_ip = 129; continue _fun00007;
  30:
                     entity = _closure2_slot6;
                     report = _closure1_slot1;

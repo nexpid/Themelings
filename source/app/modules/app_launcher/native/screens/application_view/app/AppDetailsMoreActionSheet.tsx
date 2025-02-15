@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/screens/application_view/app/AppDetailsMoreActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun118966: for(var _fun118966_ip = 0; ; ) switch(_fun118966_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             zulu = entity.application;
@@ -72,11 +72,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = {};
             verify = null;
             romeo = null;
-            if(!backup) { _fun118966_ip = 254; continue _fun118966 }
+            if(!backup) { _fun00002_ip = 254; continue _fun00001 }
  148:
             options = verify != options;
             romeo = null;
-            if(!options) { _fun118966_ip = 254; continue _fun118966 }
+            if(!options) { _fun00002_ip = 254; continue _fun00001 }
  157:
             kilo = _closure1_slot3;
             echo = _closure1_slot0;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = backup.getSetting;
             romeo = romeo.bind(backup)();
             verify = null;
-            if(!romeo) { _fun118966_ip = 400; continue _fun118966 }
+            if(!romeo) { _fun00002_ip = 400; continue _fun00001 }
  303:
             romeo = _closure1_slot3;
             output = _closure1_slot0;

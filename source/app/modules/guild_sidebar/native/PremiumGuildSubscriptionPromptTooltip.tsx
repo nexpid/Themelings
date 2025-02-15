@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_sidebar/native/PremiumGuildSubscriptionPromptTooltip.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: PremiumGuildSubscriptionPromptTooltip
-        _fun115500: for(var _fun115500_ip = 0; ; ) switch(_fun115500_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             result = entity.bannerHeight;
@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = options.bind(verify)(golf, oscar);
             romeo = 4;
-            if(!oscar) { _fun115500_ip = 205; continue _fun115500 }
+            if(!oscar) { _fun00002_ip = 205; continue _fun00001 }
  203:
             romeo = 0;
  205:
@@ -231,7 +231,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot11;
             golf['__initData'] = oscar;
             oscar = function(argFoo, argBar) { // Original name: T
-                _fun115506: for(var _fun115506_ip = 0; ; ) switch(_fun115506_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argBar;
                     tango = global;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = null;
                     golf = tango != mike;
                     tango = 0;
-                    if(!golf) { _fun115506_ip = 80; continue _fun115506 }
+                    if(!golf) { _fun00004_ip = 80; continue _fun00003 }
  77:
                     tango = mike;
  80:
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike / options;
                     mike = golf + mike;
                     mike = report.bind(oscar)(tango, mike);
-                    if(!(zulu !== mike)) { _fun115506_ip = 157; continue _fun115506 }
+                    if(!(zulu !== mike)) { _fun00004_ip = 157; continue _fun00003 }
  114:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -298,19 +298,19 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = sizing.bind(tango)(oscar);
             golf = options.useAnimatedStyle;
             oscar = function() { // Original name: R
-                _fun115507: for(var _fun115507_ip = 0; ; ) switch(_fun115507_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     mike = _closure2_slot2;
                     entity = mike.get;
                     mike = entity.bind(mike)();
                     entity = _closure2_slot0;
-                    if(!(!(mike <= entity))) { _fun115507_ip = 41; continue _fun115507 }
+                    if(!(!(mike <= entity))) { _fun00006_ip = 41; continue _fun00005 }
  24:
                     zulu = _closure2_slot1;
                     entity = 2;
                     entity = zulu / entity;
                     offset = mike + entity;
-                    _fun115507_ip = 60; continue _fun115507;
+                    _fun00006_ip = 60; continue _fun00005;
  41:
                     mike = _closure2_slot0;
                     zulu = _closure2_slot1;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = oscar.get;
                     oscar = mike.bind(oscar)();
                     mike = offset;
-                    if(!oscar) { _fun115507_ip = 273; continue _fun115507 }
+                    if(!oscar) { _fun00006_ip = 273; continue _fun00005 }
  151:
                     romeo = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -435,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = golf;
             golf = null;
-            if(!offset) { _fun115500_ip = 690; continue _fun115500 }
+            if(!offset) { _fun00002_ip = 690; continue _fun00001 }
  680:
             options = _closure1_slot7;
             golf = options.shortWidthTooltipContainer;
@@ -459,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = yankee;
             verify = null;
-            if(!offset) { _fun115500_ip = 783; continue _fun115500 }
+            if(!offset) { _fun00002_ip = 783; continue _fun00001 }
  773:
             offset = _closure1_slot7;
             verify = offset.shortWidthArrow;
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: PremiumGuildSubscriptionPromptTooltipFlashList
-        _fun115510: for(var _fun115510_ip = 0; ; ) switch(_fun115510_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             zulu = entity.bannerHeight;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             oscar = options.bind(verify)(golf, oscar);
             romeo = 4;
-            if(!oscar) { _fun115510_ip = 198; continue _fun115510 }
+            if(!oscar) { _fun00008_ip = 198; continue _fun00007 }
  196:
             romeo = 0;
  198:
@@ -654,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot8;
             golf['__initData'] = oscar;
             oscar = function(argFoo, argBar) { // Original name: T
-                _fun115516: for(var _fun115516_ip = 0; ; ) switch(_fun115516_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     options = argBar;
                     mike = global;
@@ -672,7 +672,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = null;
                     verify = mike != options;
                     mike = 0;
-                    if(!verify) { _fun115516_ip = 72; continue _fun115516 }
+                    if(!verify) { _fun00010_ip = 72; continue _fun00009 }
  69:
                     mike = options;
  72:
@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot0;
                     mike = mike / golf;
                     mike = report.bind(oscar)(tango, mike);
-                    if(!(zulu !== mike)) { _fun115516_ip = 137; continue _fun115516 }
+                    if(!(zulu !== mike)) { _fun00010_ip = 137; continue _fun00009 }
  94:
                     tango = _closure1_slot0;
                     zulu = _closure1_slot2;
@@ -715,7 +715,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = sizing.bind(tango)(oscar);
             golf = options.useAnimatedStyle;
             oscar = function() { // Original name: R
-                _fun115517: for(var _fun115517_ip = 0; ; ) switch(_fun115517_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = global;
                     report = entity.Math;
@@ -750,7 +750,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = oscar.get;
                     oscar = mike.bind(oscar)();
                     mike = offset;
-                    if(!oscar) { _fun115517_ip = 267; continue _fun115517 }
+                    if(!oscar) { _fun00012_ip = 267; continue _fun00011 }
  145:
                     romeo = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -846,7 +846,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(3);
             report[0] = golf;
             golf = null;
-            if(!offset) { _fun115510_ip = 678; continue _fun115510 }
+            if(!offset) { _fun00008_ip = 678; continue _fun00007 }
  668:
             options = _closure1_slot7;
             golf = options.shortWidthTooltipContainer;
@@ -870,7 +870,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = yankee;
             verify = null;
-            if(!offset) { _fun115510_ip = 771; continue _fun115510 }
+            if(!offset) { _fun00008_ip = 771; continue _fun00007 }
  761:
             offset = _closure1_slot7;
             verify = offset.shortWidthArrow;

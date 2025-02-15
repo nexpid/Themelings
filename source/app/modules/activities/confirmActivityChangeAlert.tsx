@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/activities/confirmActivityChangeAlert.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: confirmActivityChangeModal
-        _fun74040: for(var _fun74040_ip = 0; ; ) switch(_fun74040_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             foxtrot = argFoo;
             yankee = argBar;
@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             kilo = verify == foxtrot;
             romeo = undefined;
-            if(kilo) { _fun74040_ip = 264; continue _fun74040 }
+            if(kilo) { _fun00002_ip = 264; continue _fun00001 }
  259:
             romeo = foxtrot.name;
  264:
-            if(!(verify == romeo)) { _fun74040_ip = 320; continue _fun74040 }
+            if(!(verify == romeo)) { _fun00002_ip = 320; continue _fun00001 }
  268:
             output = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -110,20 +110,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = kilo.isNullOrEmpty;
             sizing = verify == yankee;
             romeo = undefined;
-            if(sizing) { _fun74040_ip = 367; continue _fun74040 }
+            if(sizing) { _fun00002_ip = 367; continue _fun00001 }
  362:
             romeo = yankee.name;
  367:
             romeo = foxtrot.bind(kilo)(romeo);
-            if(romeo) { _fun74040_ip = 391; continue _fun74040 }
+            if(romeo) { _fun00002_ip = 391; continue _fun00001 }
  375:
             romeo = verify == yankee;
             verify = undefined;
-            if(romeo) { _fun74040_ip = 389; continue _fun74040 }
+            if(romeo) { _fun00002_ip = 389; continue _fun00001 }
  384:
             verify = yankee.name;
  389:
-            _fun74040_ip = 443; continue _fun74040;
+            _fun00002_ip = 443; continue _fun00001;
  391:
             foxtrot = _closure1_slot0;
             offset = _closure1_slot2;

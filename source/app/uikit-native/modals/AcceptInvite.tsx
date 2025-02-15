@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: AcceptInviteCardComponent
-        _fun93590: for(var _fun93590_ip = 0; ; ) switch(_fun93590_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             golf = oscar.invite;
@@ -65,14 +65,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = golf;
             report[1] = zulu;
             mike = function() {
-                _fun93591: for(var _fun93591_ip = 0; ; ) switch(_fun93591_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     report = _closure1_slot14;
                     zulu = _closure2_slot0;
                     entity = undefined;
                     zulu = report.bind(entity)(zulu);
                     report = _closure2_slot1;
-                    if(!(zulu !== report)) { _fun93591_ip = 68; continue _fun93591 }
+                    if(!(zulu !== report)) { _fun00004_ip = 68; continue _fun00003 }
  29:
                     report = _closure1_slot0;
                     oscar = _closure1_slot2;
@@ -89,15 +89,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             mike = options.bind(verify)(mike, report);
             mike = null;
-            if(!(mike != golf)) { _fun93590_ip = 272; continue _fun93590 }
+            if(!(mike != golf)) { _fun00002_ip = 272; continue _fun00001 }
  120:
             mike = _closure1_slot13;
             mike = mike.DETAILS;
-            if(!(mike !== zulu)) { _fun93590_ip = 219; continue _fun93590 }
+            if(!(mike !== zulu)) { _fun00002_ip = 219; continue _fun00001 }
  134:
             mike = _closure1_slot13;
             mike = mike.ERROR;
-            if(!(mike !== zulu)) { _fun93590_ip = 166; continue _fun93590 }
+            if(!(mike !== zulu)) { _fun00002_ip = 166; continue _fun00001 }
  148:
             report = _closure1_slot10;
             zulu = _closure1_slot15;
@@ -235,75 +235,75 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango[options] = golf;
     var _closure1_slot13 = tango;
     tango = function(argFoo) { // Original name: getInviteState
-        _fun93592: for(var _fun93592_ip = 0; ; ) switch(_fun93592_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = null;
             tango = report == entity;
             mike = undefined;
             zulu = undefined;
-            if(tango) { _fun93592_ip = 21; continue _fun93592 }
+            if(tango) { _fun00006_ip = 21; continue _fun00005 }
  16:
             zulu = entity.state;
  21:
             zulu = report == zulu;
-            if(!zulu) { _fun93592_ip = 46; continue _fun93592 }
+            if(!zulu) { _fun00006_ip = 46; continue _fun00005 }
  28:
             oscar = report == entity;
             tango = undefined;
-            if(oscar) { _fun93592_ip = 42; continue _fun93592 }
+            if(oscar) { _fun00006_ip = 42; continue _fun00005 }
  37:
             tango = entity.channel;
  42:
             zulu = report == tango;
  46:
-            if(!(report != entity)) { _fun93592_ip = 300; continue _fun93592 }
+            if(!(report != entity)) { _fun00006_ip = 300; continue _fun00005 }
  53:
             tango = entity.state;
-            if(!(report != tango)) { _fun93592_ip = 300; continue _fun93592 }
+            if(!(report != tango)) { _fun00006_ip = 300; continue _fun00005 }
  65:
-            if(zulu) { _fun93592_ip = 300; continue _fun93592 }
+            if(zulu) { _fun00006_ip = 300; continue _fun00005 }
  71:
             report = entity.state;
             zulu = _closure1_slot8;
             zulu = zulu.RESOLVED;
-            if(!(zulu !== report)) { _fun93592_ip = 288; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 288; continue _fun00005 }
  96:
             zulu = _closure1_slot8;
             zulu = zulu.ACCEPTED;
-            if(!(zulu !== report)) { _fun93592_ip = 288; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 288; continue _fun00005 }
  113:
             zulu = _closure1_slot8;
             zulu = zulu.EXPIRED;
-            if(!(zulu !== report)) { _fun93592_ip = 276; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 276; continue _fun00005 }
  130:
             zulu = _closure1_slot8;
             zulu = zulu.BANNED;
-            if(!(zulu !== report)) { _fun93592_ip = 276; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 276; continue _fun00005 }
  147:
             zulu = _closure1_slot8;
             zulu = zulu.ERROR;
-            if(!(zulu !== report)) { _fun93592_ip = 276; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 276; continue _fun00005 }
  161:
             zulu = _closure1_slot8;
             zulu = zulu.RESOLVING;
-            if(!(zulu !== report)) { _fun93592_ip = 264; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 264; continue _fun00005 }
  175:
             zulu = _closure1_slot8;
             zulu = zulu.APP_NOT_OPENED;
-            if(!(zulu !== report)) { _fun93592_ip = 264; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 264; continue _fun00005 }
  189:
             zulu = _closure1_slot8;
             zulu = zulu.APP_OPENED;
-            if(!(zulu !== report)) { _fun93592_ip = 264; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 264; continue _fun00005 }
  203:
             zulu = _closure1_slot8;
             zulu = zulu.APP_OPENING;
-            if(!(zulu !== report)) { _fun93592_ip = 264; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 264; continue _fun00005 }
  217:
             zulu = _closure1_slot8;
             zulu = zulu.ACCEPTING;
-            if(!(zulu !== report)) { _fun93592_ip = 264; continue _fun93592 }
+            if(!(zulu !== report)) { _fun00006_ip = 264; continue _fun00005 }
  231:
             tango = _closure1_slot0;
             oscar = _closure1_slot2;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/modals/AcceptInvite.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AcceptInvite
-        _fun93593: for(var _fun93593_ip = 0; ; ) switch(_fun93593_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             tango = argFoo;
             foxtrot = tango.invite;
@@ -363,18 +363,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = mike.height;
             yankee = mike.width;
             mike = foxtrot;
-            if(!(entity == mike)) { _fun93593_ip = 89; continue _fun93593 }
+            if(!(entity == mike)) { _fun00008_ip = 89; continue _fun00007 }
  87:
             mike = {};
  89:
             oscar = mike.guild;
             zulu = entity == oscar;
             mike = undefined;
-            if(zulu) { _fun93593_ip = 109; continue _fun93593 }
+            if(zulu) { _fun00008_ip = 109; continue _fun00007 }
  103:
             mike = oscar.splash;
  109:
-            if(!(entity != mike)) { _fun93593_ip = 204; continue _fun93593 }
+            if(!(entity != mike)) { _fun00008_ip = 204; continue _fun00007 }
  113:
             zulu = _closure1_slot1;
             options = _closure1_slot2;
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = yankee * oscar;
             mike['size'] = oscar;
             options = zulu.bind(report)(mike);
-            if(!(entity == options)) { _fun93593_ip = 224; continue _fun93593 }
+            if(!(entity == options)) { _fun00008_ip = 224; continue _fun00007 }
  204:
             mike = _closure1_slot1;
             zulu = _closure1_slot2;

@@ -40,13 +40,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = 'modules/voice_panel/native/controls/trackVoicePanelTabOpened.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo, argBar, argBaz) { // Original name: trackVoicePanelTabOpened
-        _fun122277: for(var _fun122277_ip = 0; ; ) switch(_fun122277_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             zulu = _closure1_slot2;
             entity = zulu.hasUnread;
             oscar = entity.bind(zulu)(tango);
-            if(oscar) { _fun122277_ip = 45; continue _fun122277 }
+            if(oscar) { _fun00002_ip = 45; continue _fun00001 }
  24:
             zulu = _closure1_slot2;
             entity = zulu.getMentionCount;

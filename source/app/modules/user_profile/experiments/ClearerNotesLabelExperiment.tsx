@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['ClearerNotesLabelExperiment'] = tango;
     tango = function(argFoo) { // Original name: isEligibleForClearerNotesLabelExperiment
-        _fun81963: for(var _fun81963_ip = 0; ; ) switch(_fun81963_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun81963_ip = 22; continue _fun81963 }
+            if(!(report === mike)) { _fun00002_ip = 22; continue _fun00001 }
  20:
             report = true;
  22:
@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     };
     zulu['isEligibleForClearerNotesLabelExperiment'] = tango;
     mike = function(argFoo) { // Original name: useIsEligibleForClearerNotesLabelExperiment
-        _fun81964: for(var _fun81964_ip = 0; ; ) switch(_fun81964_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = argFoo;
             entity = mike.location;
             report = mike.autoTrackExposure;
             mike = undefined;
-            if(!(report === mike)) { _fun81964_ip = 22; continue _fun81964 }
+            if(!(report === mike)) { _fun00004_ip = 22; continue _fun00003 }
  20:
             report = true;
  22:

@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     mike = mike.RPCCloseCodes;
     var _closure1_slot4 = mike;
     mike = function(argFoo, argBar, argBaz) { // Original name: BaseSocket
-        _fun74872: for(var _fun74872_ip = 0; ; ) switch(_fun74872_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argBar;
             golf = this;
@@ -67,13 +67,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf['authorization'] = tango;
             tango = {'id': null, 'name': null, 'icon': null};
             golf['application'] = tango;
-            if(!(zulu != report)) { _fun74872_ip = 185; continue _fun74872 }
+            if(!(zulu != report)) { _fun00002_ip = 185; continue _fun00001 }
  168:
             zulu = _closure1_slot3;
-            if(!(!(report > zulu))) { _fun74872_ip = 185; continue _fun74872 }
+            if(!(!(report > zulu))) { _fun00002_ip = 185; continue _fun00001 }
  176:
             zulu = 1;
-            if(!(!(report < zulu))) { _fun74872_ip = 185; continue _fun74872 }
+            if(!(!(report < zulu))) { _fun00002_ip = 185; continue _fun00001 }
  183:
             return oscar;
  185:

@@ -7,11 +7,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot0 = entity;
     var _closure1_slot1 = golf;
     mike = function() { // Original name: useThrottledActionHandler
-        _fun76891: for(var _fun76891_ip = 0; ; ) switch(_fun76891_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[0];
             mike = undefined;
-            if(!(zulu === mike)) { _fun76891_ip = 18; continue _fun76891 }
+            if(!(zulu === mike)) { _fun00002_ip = 18; continue _fun00001 }
  11:
             zulu = _closure1_slot4;
  18:
@@ -42,18 +42,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 mike = argFoo;
                 var _closure3_slot0 = mike;
                 entity = function(argFoo) {
-                    _fun76895: for(var _fun76895_ip = 0; ; ) switch(_fun76895_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         mike = _closure3_slot0;
                         tango = null;
                         mike = tango != mike;
-                        if(!mike) { _fun76895_ip = 32; continue _fun76895 }
+                        if(!mike) { _fun00004_ip = 32; continue _fun00003 }
  16:
                         zulu = _closure2_slot1;
                         zulu = zulu.current;
                         mike = tango === zulu;
  32:
-                        if(!mike) { _fun76895_ip = 89; continue _fun76895 }
+                        if(!mike) { _fun00004_ip = 89; continue _fun00003 }
  35:
                         mike = _closure3_slot0;
                         report = undefined;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = 'uikit-native/ThrottledButton.tsx';
     report = oscar.bind(golf)(report);
     tango = function(argFoo) { // Original name: ThrottledButton
-        _fun76897: for(var _fun76897_ip = 0; ; ) switch(_fun76897_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             options = report.onPress;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = report.onPressOut;
             zulu = report.throttleMs;
             tango = undefined;
-            if(!(zulu === tango)) { _fun76897_ip = 39; continue _fun76897 }
+            if(!(zulu === tango)) { _fun00006_ip = 39; continue _fun00005 }
  32:
             zulu = _closure1_slot4;
  39:

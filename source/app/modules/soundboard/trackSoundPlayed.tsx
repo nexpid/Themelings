@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/soundboard/trackSoundPlayed.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar, argBaz, argCorge) { // Original name: trackSoundPlayed
-        _fun65630: for(var _fun65630_ip = 0; ; ) switch(_fun65630_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBaz;
             zulu = _closure1_slot3;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = verify == zulu;
             entity = undefined;
             romeo = undefined;
-            if(mike) { _fun65630_ip = 57; continue _fun65630 }
+            if(mike) { _fun00002_ip = 57; continue _fun00001 }
  47:
             mike = zulu.getGuildId;
             romeo = mike.bind(zulu)();
@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = mike.bind(zulu)();
             zulu = verify == mike;
             options = undefined;
-            if(zulu) { _fun65630_ip = 109; continue _fun65630 }
+            if(zulu) { _fun00002_ip = 109; continue _fun00001 }
  104:
             options = mike.name;
  109:
             mike = oscar.guildId;
             foxtrot = romeo !== mike;
-            if(!foxtrot) { _fun65630_ip = 134; continue _fun65630 }
+            if(!foxtrot) { _fun00002_ip = 134; continue _fun00001 }
  121:
             zulu = oscar.guildId;
             mike = _closure1_slot6;
@@ -98,10 +98,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = oscar.guildId;
             mike = _closure1_slot6;
             golf = 'default';
-            if(!(zulu !== mike)) { _fun65630_ip = 167; continue _fun65630 }
+            if(!(zulu !== mike)) { _fun00002_ip = 167; continue _fun00001 }
  151:
             mike = 'custom';
-            if(!foxtrot) { _fun65630_ip = 164; continue _fun65630 }
+            if(!foxtrot) { _fun00002_ip = 164; continue _fun00001 }
  158:
             mike = 'custom-external';
  164:
@@ -120,10 +120,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = kilo.SOUNDBOARD_PLAY;
             mike['feature_name'] = kilo;
             backup = _closure1_slot9;
-            if(foxtrot) { _fun65630_ip = 234; continue _fun65630 }
+            if(foxtrot) { _fun00002_ip = 234; continue _fun00001 }
  226:
             foxtrot = backup.FREE;
-            _fun65630_ip = 240; continue _fun65630;
+            _fun00002_ip = 240; continue _fun00001;
  234:
             foxtrot = backup.PREMIUM_STANDARD;
  240:
@@ -137,12 +137,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['in_overlay'] = offset;
             mike['application_name'] = options;
             options = oscar.emojiId;
-            if(!(verify == options)) { _fun65630_ip = 307; continue _fun65630 }
+            if(!(verify == options)) { _fun00002_ip = 307; continue _fun00001 }
  292:
             options = oscar.emojiName;
             verify = verify != options;
             options = 0;
-            if(!verify) { _fun65630_ip = 310; continue _fun65630 }
+            if(!verify) { _fun00002_ip = 310; continue _fun00001 }
  307:
             options = 1;
  310:

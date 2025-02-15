@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar, argBaz) { // Original name: getThemedImageSource
-        _fun105348: for(var _fun105348_ip = 0; ; ) switch(_fun105348_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argBar;
             entity = argBaz;
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.isThemeDark;
             zulu = argFoo;
             zulu = tango.bind(report)(zulu);
-            if(!zulu) { _fun105348_ip = 51; continue _fun105348 }
+            if(!zulu) { _fun00002_ip = 51; continue _fun00001 }
  48:
             entity = mike;
  51:
@@ -30,25 +30,25 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo, argBar) { // Original name: getTierIcon
-        _fun105349: for(var _fun105349_ip = 0; ; ) switch(_fun105349_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             zulu = argBar;
             mike = _closure1_slot6;
             mike = mike.NONE;
-            if(!(mike !== zulu)) { _fun105349_ip = 216; continue _fun105349 }
+            if(!(mike !== zulu)) { _fun00004_ip = 216; continue _fun00003 }
  26:
             mike = _closure1_slot6;
             mike = mike.TIER_1;
-            if(!(mike !== zulu)) { _fun105349_ip = 169; continue _fun105349 }
+            if(!(mike !== zulu)) { _fun00004_ip = 169; continue _fun00003 }
  43:
             mike = _closure1_slot6;
             mike = mike.TIER_2;
-            if(!(mike !== zulu)) { _fun105349_ip = 122; continue _fun105349 }
+            if(!(mike !== zulu)) { _fun00004_ip = 122; continue _fun00003 }
  57:
             mike = _closure1_slot6;
             mike = mike.TIER_3;
-            if(!(mike !== zulu)) { _fun105349_ip = 75; continue _fun105349 }
+            if(!(mike !== zulu)) { _fun00004_ip = 75; continue _fun00003 }
  71:
             mike = undefined;
             return mike;

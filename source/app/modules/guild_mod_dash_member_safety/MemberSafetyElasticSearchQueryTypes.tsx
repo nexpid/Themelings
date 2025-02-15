@@ -46,14 +46,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['UNUSUAL_DM_COMPARISON_DELTA'] = tango;
     tango = function(argFoo) { // Original name: createMemberSearchCursor
-        _fun59274: for(var _fun59274_ip = 0; ; ) switch(_fun59274_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.joinedAt;
             zulu = entity.userId;
             entity = null;
             mike = entity == oscar;
-            if(mike) { _fun59274_ip = 81; continue _fun59274 }
+            if(mike) { _fun00002_ip = 81; continue _fun00001 }
  23:
             mike = {};
             tango = global;

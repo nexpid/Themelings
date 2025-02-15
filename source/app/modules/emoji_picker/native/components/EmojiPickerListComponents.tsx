@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = report.bind(options)(tango);
     report = options.memo;
     mike = function(argFoo) {
-        _fun78382: for(var _fun78382_ip = 0; ; ) switch(_fun78382_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.label;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             report = report.section;
             entity['style'] = report;
-            if(!oscar) { _fun78382_ip = 98; continue _fun78382 }
+            if(!oscar) { _fun00002_ip = 98; continue _fun00001 }
  55:
             verify = _closure1_slot4;
             options = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             options = '';
             oscar = null;
-            if(!(options !== offset)) { _fun78382_ip = 169; continue _fun78382 }
+            if(!(options !== offset)) { _fun00002_ip = 169; continue _fun00001 }
  116:
             verify = _closure1_slot4;
             options = _closure1_slot0;

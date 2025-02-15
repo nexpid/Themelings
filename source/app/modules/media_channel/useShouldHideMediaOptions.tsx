@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/media_channel/useShouldHideMediaOptions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useShouldHideMediaOptions
-        _fun90867: for(var _fun90867_ip = 0; ; ) switch(_fun90867_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = golf;
             zulu = function() {
-                _fun90868: for(var _fun90868_ip = 0; ; ) switch(_fun90868_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure1_slot2;
                     zulu = tango.getChannel;
@@ -55,24 +55,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = null;
                     zulu = oscar == report;
                     entity = undefined;
-                    if(zulu) { _fun90868_ip = 41; continue _fun90868 }
+                    if(zulu) { _fun00004_ip = 41; continue _fun00003 }
  35:
                     entity = report.parent_id;
  41:
                     zulu = oscar != entity;
                     entity = null;
-                    if(!zulu) { _fun90868_ip = 94; continue _fun90868 }
+                    if(!zulu) { _fun00004_ip = 94; continue _fun00003 }
  50:
                     zulu = report.isForumPost;
                     zulu = zulu.bind(report)();
                     entity = null;
-                    if(!zulu) { _fun90868_ip = 94; continue _fun90868 }
+                    if(!zulu) { _fun00004_ip = 94; continue _fun00003 }
  65:
                     zulu = _closure1_slot2;
                     mike = zulu.getChannel;
                     oscar = oscar == report;
                     tango = undefined;
-                    if(oscar) { _fun90868_ip = 89; continue _fun90868 }
+                    if(oscar) { _fun00004_ip = 89; continue _fun00003 }
  83:
                     tango = report.parent_id;
  89:
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = report.bind(oscar)(tango, zulu);
             zulu = null;
             zulu = zulu == tango;
-            if(zulu) { _fun90867_ip = 94; continue _fun90867 }
+            if(zulu) { _fun00002_ip = 94; continue _fun00001 }
  73:
             zulu = tango.hasFlag;
             entity = _closure1_slot3;

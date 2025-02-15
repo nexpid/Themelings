@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot6 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun112743: for(var _fun112743_ip = 0; ; ) switch(_fun112743_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             echo = entity.invite;
@@ -153,13 +153,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             result = null;
             sizing = result == kilo;
             backup = undefined;
-            if(sizing) { _fun112743_ip = 365; continue _fun112743 }
+            if(sizing) { _fun00002_ip = 365; continue _fun00001 }
  360:
             backup = kilo.id;
  365:
             kilo = result != backup;
             backup = null;
-            if(!kilo) { _fun112743_ip = 461; continue _fun112743 }
+            if(!kilo) { _fun00002_ip = 461; continue _fun00001 }
  374:
             output = _closure1_slot4;
             sizing = _closure1_slot1;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             source = echo.inviter;
             control = result == source;
             update = undefined;
-            if(control) { _fun112743_ip = 428; continue _fun112743 }
+            if(control) { _fun00002_ip = 428; continue _fun00001 }
  423:
             update = source.id;
  428:
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             echo = echo.guild;
             update = result == echo;
             result = undefined;
-            if(update) { _fun112743_ip = 451; continue _fun112743 }
+            if(update) { _fun00002_ip = 451; continue _fun00001 }
  446:
             result = echo.id;
  451:

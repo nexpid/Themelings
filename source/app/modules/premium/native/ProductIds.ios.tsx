@@ -620,32 +620,32 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     zulu['AppStorePremiumProductIdsToPremiumBundledItems'] = report;
     zulu['TrialIdToProductOfferId'] = tango;
     mike = function(argFoo) { // Original name: getProductIdForGift
-        _fun66195: for(var _fun66195_ip = 0; ; ) switch(_fun66195_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot0;
             mike = mike.PREMIUM_MONTH_TIER_0;
-            if(!(mike !== zulu)) { _fun66195_ip = 192; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 192; continue _fun00001 }
  23:
             mike = _closure1_slot0;
             mike = mike.PREMIUM_YEAR_TIER_0;
-            if(!(mike !== zulu)) { _fun66195_ip = 180; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 180; continue _fun00001 }
  40:
             mike = _closure1_slot0;
             mike = mike.PREMIUM_MONTH_TIER_1;
-            if(!(mike !== zulu)) { _fun66195_ip = 168; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 168; continue _fun00001 }
  54:
             mike = _closure1_slot0;
             mike = mike.PREMIUM_YEAR_TIER_1;
-            if(!(mike !== zulu)) { _fun66195_ip = 156; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 156; continue _fun00001 }
  68:
             mike = _closure1_slot0;
             mike = mike.PREMIUM_MONTH_TIER_2;
-            if(!(mike !== zulu)) { _fun66195_ip = 144; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 144; continue _fun00001 }
  82:
             mike = _closure1_slot0;
             mike = mike.PREMIUM_YEAR_TIER_2;
-            if(!(mike !== zulu)) { _fun66195_ip = 132; continue _fun66195 }
+            if(!(mike !== zulu)) { _fun00002_ip = 132; continue _fun00001 }
  96:
             mike = global;
             tango = mike.Error;

@@ -90,13 +90,13 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
         zulu[0] = golf;
         zulu[1] = oscar;
         mike = function() {
-            _fun118241: for(var _fun118241_ip = 0; ; ) switch(_fun118241_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure2_slot0;
-                if(!mike) { _fun118241_ip = 113; continue _fun118241 }
+                if(!mike) { _fun00002_ip = 113; continue _fun00001 }
  10:
                 entity = _closure2_slot1;
-                if(entity) { _fun118241_ip = 113; continue _fun118241 }
+                if(entity) { _fun00002_ip = 113; continue _fun00001 }
  17:
                 mike = _closure1_slot7;
                 report = mike.promptSeen;
@@ -107,11 +107,11 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 zulu = undefined;
                 mike = oscar.bind(zulu)(mike);
                 mike = mike.shouldRequestNotification;
-                if(!mike) { _fun118241_ip = 66; continue _fun118241 }
+                if(!mike) { _fun00002_ip = 66; continue _fun00001 }
  63:
                 mike = !report;
  66:
-                if(!mike) { _fun118241_ip = 113; continue _fun118241 }
+                if(!mike) { _fun00002_ip = 113; continue _fun00001 }
  69:
                 mike = _closure1_slot1;
                 entity = _closure1_slot2;

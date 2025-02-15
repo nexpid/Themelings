@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'design/components/Tooltip/native/Tooltip.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: Tooltip
-        _fun77586: for(var _fun77586_ip = 0; ; ) switch(_fun77586_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             lima = entity.targetMeasurements;
@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = oscar;
             oscar = {};
             echo = update != echo;
-            if(!echo) { _fun77586_ip = 563; continue _fun77586 }
+            if(!echo) { _fun00002_ip = 563; continue _fun00001 }
  560:
             kilo = result;
  563:
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['style'] = report;
             report = 'bottom';
             oscar = report === options;
-            if(!oscar) { _fun77586_ip = 673; continue _fun77586 }
+            if(!oscar) { _fun00002_ip = 673; continue _fun00001 }
  594:
             backup = _closure1_slot6;
             verify = _closure1_slot1;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = oscar;
             oscar = 'top';
             oscar = oscar === options;
-            if(!oscar) { _fun77586_ip = 887; continue _fun77586 }
+            if(!oscar) { _fun00002_ip = 887; continue _fun00001 }
  808:
             verify = _closure1_slot6;
             options = _closure1_slot1;

@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = -1;
             entity['scrollToTopTimeout'] = mike;
             mike = function() { // Original name: scrollToTop
-                _fun114881: for(var _fun114881_ip = 0; ; ) switch(_fun114881_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = this;
                     report = _closure1_slot0;
@@ -64,37 +64,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = mike.bind(entity)();
                     tango = tango.bind(report)(mike);
                     mike = null;
-                    if(!(mike != tango)) { _fun114881_ip = 143; continue _fun114881 }
+                    if(!(mike != tango)) { _fun00002_ip = 143; continue _fun00001 }
  65:
                     tango = zulu.scrollToTopTimeout;
                     mike = -1;
-                    if(!(mike !== tango)) { _fun114881_ip = 108; continue _fun114881 }
+                    if(!(mike !== tango)) { _fun00002_ip = 108; continue _fun00001 }
  81:
                     tango = global;
                     report = tango.clearTimeout;
                     tango = zulu.scrollToTopTimeout;
                     tango = report.bind(entity)(tango);
                     zulu['scrollToTopTimeout'] = mike;
-                    _fun114881_ip = 143; continue _fun114881;
+                    _fun00002_ip = 143; continue _fun00001;
  108:
                     mike = global;
                     report = mike.setTimeout;
                     tango = function() {
-                        _fun114882: for(var _fun114882_ip = 0; ; ) switch(_fun114882_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             entity = _closure2_slot0;
                             mike = null;
                             tango = mike == entity;
                             entity = undefined;
                             oscar = undefined;
-                            if(tango) { _fun114882_ip = 36; continue _fun114882 }
+                            if(tango) { _fun00004_ip = 36; continue _fun00003 }
  20:
                             report = _closure2_slot0;
                             report = report.current;
                             tango = mike == report;
                             oscar = report;
  36:
-                            if(tango) { _fun114882_ip = 81; continue _fun114882 }
+                            if(tango) { _fun00004_ip = 81; continue _fun00003 }
  39:
                             report = oscar.scrollToLocation;
                             tango = {'section': 0, 'item': 0};
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  81:
                             zulu = _closure2_slot1;
                             tango = zulu.current;
-                            if(!(mike != tango)) { _fun114882_ip = 135; continue _fun114882 }
+                            if(!(mike != tango)) { _fun00004_ip = 135; continue _fun00003 }
  94:
                             zulu = tango.scrollToOffset;
                             mike = {};

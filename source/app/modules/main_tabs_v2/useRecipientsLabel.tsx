@@ -89,31 +89,31 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike[0] = oscar;
         mike[1] = report;
         entity = function() {
-            _fun86185: for(var _fun86185_ip = 0; ; ) switch(_fun86185_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot0;
                 report = entity.name;
                 tango = '';
                 entity = null;
-                if(!(tango !== report)) { _fun86185_ip = 439; continue _fun86185 }
+                if(!(tango !== report)) { _fun00002_ip = 439; continue _fun00001 }
  25:
                 options = _closure2_slot1;
                 zulu = options.length;
                 golf = 0;
                 mike = null;
-                if(!(golf !== zulu)) { _fun86185_ip = 436; continue _fun86185 }
+                if(!(golf !== zulu)) { _fun00002_ip = 436; continue _fun00001 }
  45:
                 zulu = options.length;
                 verify = 1;
-                if(!(verify !== zulu)) { _fun86185_ip = 364; continue _fun86185 }
+                if(!(verify !== zulu)) { _fun00002_ip = 364; continue _fun00001 }
  60:
                 zulu = options.length;
                 yankee = 2;
-                if(!(yankee !== zulu)) { _fun86185_ip = 284; continue _fun86185 }
+                if(!(yankee !== zulu)) { _fun00002_ip = 284; continue _fun00001 }
  75:
                 zulu = options.length;
                 tango = 3;
-                if(!(tango !== zulu)) { _fun86185_ip = 192; continue _fun86185 }
+                if(!(tango !== zulu)) { _fun00002_ip = 192; continue _fun00001 }
  87:
                 zulu = options.length;
                 offset = zulu - tango;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 zulu['third'] = romeo;
                 zulu['count'] = offset;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun86185_ip = 436; continue _fun86185;
+                _fun00002_ip = 436; continue _fun00001;
  192:
                 offset = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 offset = options[yankee];
                 zulu['third'] = offset;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun86185_ip = 436; continue _fun86185;
+                _fun00002_ip = 436; continue _fun00001;
  284:
                 offset = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 verify = options[verify];
                 zulu['second'] = verify;
                 mike = report.bind(oscar)(tango, zulu);
-                _fun86185_ip = 436; continue _fun86185;
+                _fun00002_ip = 436; continue _fun00001;
  364:
                 verify = _closure1_slot0;
                 offset = _closure1_slot2;

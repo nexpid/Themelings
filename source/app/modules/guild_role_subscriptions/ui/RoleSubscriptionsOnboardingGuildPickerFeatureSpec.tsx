@@ -72,13 +72,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         verify = entity.statesWillNeverBeEqual;
         yankee = function() {
             entity = function(argFoo, argBar) {
-                _fun107548: for(var _fun107548_ip = 0; ; ) switch(_fun107548_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
                     mike = report.isOwner;
                     entity = argBar;
                     entity = mike.bind(report)(entity);
-                    if(!entity) { _fun107548_ip = 227; continue _fun107548 }
+                    if(!entity) { _fun00002_ip = 227; continue _fun00001 }
  23:
                     options = _closure1_slot0;
                     verify = _closure1_slot1;

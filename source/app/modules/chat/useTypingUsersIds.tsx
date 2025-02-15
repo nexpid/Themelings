@@ -34,13 +34,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/chat/useTypingUsersIds.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useTypingUserIds
-        _fun100554: for(var _fun100554_ip = 0; ; ) switch(_fun100554_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golf = argFoo;
             oscar = arguments[1];
             var _closure2_slot0 = golf;
             report = undefined;
-            if(!(oscar === report)) { _fun100554_ip = 32; continue _fun100554 }
+            if(!(oscar === report)) { _fun00002_ip = 32; continue _fun00001 }
  18:
             mike = global;
             mike = mike.Number;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike[0] = golf;
             mike[1] = oscar;
             entity = function() {
-                _fun100555: for(var _fun100555_ip = 0; ; ) switch(_fun100555_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot4;
                     entity = mike.getCurrentUser;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     verify = null;
                     mike = verify == entity;
                     options = undefined;
-                    if(mike) { _fun100555_ip = 32; continue _fun100555 }
+                    if(mike) { _fun00004_ip = 32; continue _fun00003 }
  27:
                     options = entity.id;
  32:
@@ -89,26 +89,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         foxtrot = mike;
                         romeo = entity.length;
                         yankee = _closure2_slot1;
-                        if(!(!(romeo >= yankee))) { _fun100555_ip = 162; continue _fun100555 }
+                        if(!(!(romeo >= yankee))) { _fun00004_ip = 162; continue _fun00003 }
  94:
                         romeo = _closure1_slot4;
                         yankee = romeo.getUser;
                         yankee = yankee.bind(romeo)(foxtrot);
-                        if(verify == yankee) { _fun100555_ip = 69; continue _fun100555 }
+                        if(verify == yankee) { _fun00004_ip = 69; continue _fun00003 }
  113:
                         romeo = yankee.id;
-                        if(romeo === options) { _fun100555_ip = 69; continue _fun100555 }
+                        if(romeo === options) { _fun00004_ip = 69; continue _fun00003 }
  122:
                         backup = _closure1_slot2;
                         foxtrot = backup.isBlockedOrIgnored;
                         romeo = yankee.id;
                         romeo = foxtrot.bind(backup)(romeo);
-                        if(romeo) { _fun100555_ip = 69; continue _fun100555 }
+                        if(romeo) { _fun00004_ip = 69; continue _fun00003 }
  145:
                         romeo = entity.push;
                         yankee = yankee.id;
                         yankee = romeo.bind(entity)(yankee);
-                        _fun100555_ip = 69; continue _fun100555;
+                        _fun00004_ip = 69; continue _fun00003;
                     }
  162:
                     return entity;

@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = report;
         entity = function() {
-            _fun75900: for(var _fun75900_ip = 0; ; ) switch(_fun75900_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 tango = _closure1_slot0;
                 zulu = _closure1_slot2;
@@ -25,14 +25,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = tango.bind(zulu)(mike);
                 mike = tango.isAndroid;
                 mike = mike.bind(tango)();
-                if(mike) { _fun75900_ip = 67; continue _fun75900 }
+                if(mike) { _fun00002_ip = 67; continue _fun00001 }
  37:
                 mike = _closure1_slot4;
                 report = mike.ScreenWakeLockManager;
                 tango = report.requestLock;
                 mike = _closure2_slot0;
                 mike = tango.bind(report)(mike);
-                _fun75900_ip = 105; continue _fun75900;
+                _fun00002_ip = 105; continue _fun00001;
  67:
                 mike = _closure1_slot1;
                 tango = _closure1_slot2;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = mike.bind(zulu)(entity);
  105:
                 entity = function() {
-                    _fun75901: for(var _fun75901_ip = 0; ; ) switch(_fun75901_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         tango = _closure1_slot0;
                         zulu = _closure1_slot2;
@@ -54,14 +54,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         tango = tango.bind(entity)(zulu);
                         zulu = tango.isAndroid;
                         zulu = zulu.bind(tango)();
-                        if(zulu) { _fun75901_ip = 67; continue _fun75901 }
+                        if(zulu) { _fun00004_ip = 67; continue _fun00003 }
  37:
                         zulu = _closure1_slot4;
                         report = zulu.ScreenWakeLockManager;
                         tango = report.releaseLock;
                         zulu = _closure2_slot0;
                         zulu = tango.bind(report)(zulu);
-                        _fun75901_ip = 105; continue _fun75901;
+                        _fun00004_ip = 105; continue _fun00003;
  67:
                         zulu = _closure1_slot1;
                         tango = _closure1_slot2;

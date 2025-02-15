@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/messages/useReactionPermissions.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useReactionPermissions
-        _fun88901: for(var _fun88901_ip = 0; ; ) switch(_fun88901_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argFoo;
             var _closure2_slot0 = romeo;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity == romeo;
             oscar = undefined;
             backup = undefined;
-            if(mike) { _fun88901_ip = 27; continue _fun88901 }
+            if(mike) { _fun00002_ip = 27; continue _fun00001 }
  22:
             backup = romeo.guild_id;
  27:
@@ -73,12 +73,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = backup;
             zulu = function() {
-                _fun88902: for(var _fun88902_ip = 0; ; ) switch(_fun88902_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     entity = entity == zulu;
-                    if(entity) { _fun88902_ip = 38; continue _fun88902 }
+                    if(entity) { _fun00004_ip = 38; continue _fun00003 }
  16:
                     tango = _closure1_slot6;
                     zulu = tango.canChatInGuild;
@@ -99,12 +99,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = backup;
             zulu = function() {
-                _fun88903: for(var _fun88903_ip = 0; ; ) switch(_fun88903_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun88903_ip = 38; continue _fun88903 }
+                    if(!entity) { _fun00006_ip = 38; continue _fun00005 }
  16:
                     tango = _closure1_slot4;
                     zulu = tango.isLurking;
@@ -124,12 +124,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             verify = new Array(1);
             verify[0] = backup;
             zulu = function() {
-                _fun88904: for(var _fun88904_ip = 0; ; ) switch(_fun88904_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure2_slot1;
                     entity = null;
                     entity = entity != zulu;
-                    if(!entity) { _fun88904_ip = 38; continue _fun88904 }
+                    if(!entity) { _fun00008_ip = 38; continue _fun00007 }
  16:
                     tango = _closure1_slot5;
                     zulu = tango.isCurrentUserGuest;
@@ -150,10 +150,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf[0] = yankee;
             golf[1] = romeo;
             report = function() {
-                _fun88905: for(var _fun88905_ip = 0; ; ) switch(_fun88905_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = _closure2_slot2;
-                    if(!entity) { _fun88905_ip = 43; continue _fun88905 }
+                    if(!entity) { _fun00010_ip = 43; continue _fun00009 }
  10:
                     report = _closure1_slot7;
                     tango = report.can;
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = options.bind(oscar)(report);
             report = options.useIsActiveChannelOrUnarchivableThread;
             options = report.bind(options)(romeo);
-            if(!(entity != romeo)) { _fun88901_ip = 453; continue _fun88901 }
+            if(!(entity != romeo)) { _fun00002_ip = 453; continue _fun00001 }
  338:
             entity = {};
             report = _closure1_slot1;
@@ -215,7 +215,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = false;
             mike = 'isPendingMember';
             entity[mike] = zulu;
-            _fun88901_ip = 463; continue _fun88901;
+            _fun00002_ip = 463; continue _fun00001;
  453:
             entity = {'disableReactionReads': true, 'disableReactionCreates': true, 'disableReactionUpdates': true, 'isLurking': false, 'isGuest': false, 'isPendingMember': false};
  463:

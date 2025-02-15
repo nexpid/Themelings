@@ -52,14 +52,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/keyboard/native/PortalKeyboardFooterIOS.ios.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: PortalKeyboardFooterIOS
-        _fun77979: for(var _fun77979_ip = 0; ; ) switch(_fun77979_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             kilo = entity.animatedSheetIndex;
             var _closure2_slot0 = kilo;
             golf = entity.portalHostName;
             tango = undefined;
-            if(!(golf === tango)) { _fun77979_ip = 33; continue _fun77979 }
+            if(!(golf === tango)) { _fun00002_ip = 33; continue _fun00001 }
  27:
             golf = 'expression-footer';
  33:
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = oscar.bind(tango)(verify);
             offset = yankee.useAnimatedStyle;
             verify = function() { // Original name: _
-                _fun77980: for(var _fun77980_ip = 0; ; ) switch(_fun77980_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity = mike.get;
                     entity = entity.bind(mike)();
                     mike = 0;
-                    if(!(!(entity >= mike))) { _fun77980_ip = 239; continue _fun77980 }
+                    if(!(!(entity >= mike))) { _fun00004_ip = 239; continue _fun00003 }
  104:
                     entity = {};
                     tango = {};
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new Array(1);
                     mike[0] = tango;
                     entity['transform'] = mike;
-                    _fun77980_ip = 280; continue _fun77980;
+                    _fun00004_ip = 280; continue _fun00003;
  239:
                     mike = {};
                     tango = {};

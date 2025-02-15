@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/voice/redesign/NewUserSettingsVoice.tsx';
     tango = report.bind(oscar)(tango);
     tango = function() { // Original name: NewUserSettingsVoice
-        _fun103088: for(var _fun103088_ip = 0; ; ) switch(_fun103088_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = _closure1_slot7;
             tango = undefined;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(tango)(offset);
             offset = yankee.isAndroid;
             offset = offset.bind(yankee)();
-            if(!offset) { _fun103088_ip = 318; continue _fun103088 }
+            if(!offset) { _fun00002_ip = 318; continue _fun00001 }
  286:
             foxtrot = _closure1_slot5;
             romeo = _closure1_slot1;

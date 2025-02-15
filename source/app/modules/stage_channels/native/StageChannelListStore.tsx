@@ -134,11 +134,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         zulu = new Array(1);
         zulu[0] = oscar;
         mike = function() {
-            _fun103976: for(var _fun103976_ip = 0; ; ) switch(_fun103976_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zulu = _closure2_slot0;
                 mike = null;
-                if(!(mike != zulu)) { _fun103976_ip = 42; continue _fun103976 }
+                if(!(mike != zulu)) { _fun00002_ip = 42; continue _fun00001 }
  13:
                 zulu = _closure2_slot0;
                 mike = zulu.scrollToLocation;

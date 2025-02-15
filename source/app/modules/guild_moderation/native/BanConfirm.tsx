@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot14 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: BanConfirm
-        _fun81897: for(var _fun81897_ip = 0; ; ) switch(_fun81897_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = entity.guildId;
@@ -408,17 +408,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike[1] = update;
             mike[2] = entity;
             entity = function() {
-                _fun81901: for(var _fun81901_ip = 0; ; ) switch(_fun81901_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot3;
                     tango = null;
                     mike = tango != mike;
-                    if(!mike) { _fun81901_ip = 24; continue _fun81901 }
+                    if(!mike) { _fun00004_ip = 24; continue _fun00003 }
  16:
                     zulu = _closure2_slot4;
                     mike = tango != zulu;
  24:
-                    if(!mike) { _fun81901_ip = 170; continue _fun81901 }
+                    if(!mike) { _fun00004_ip = 170; continue _fun00003 }
  30:
                     zulu = _closure2_slot7;
                     report = undefined;
@@ -463,11 +463,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             control = zulu.bind(tango)(entity, mike);
             mike = offset != update;
             entity = null;
-            if(!mike) { _fun81897_ip = 1437; continue _fun81897 }
+            if(!mike) { _fun00002_ip = 1437; continue _fun00001 }
  354:
             mike = offset != sierra;
             entity = null;
-            if(!mike) { _fun81897_ip = 1437; continue _fun81897 }
+            if(!mike) { _fun00002_ip = 1437; continue _fun00001 }
  366:
             tango = _closure1_slot10;
             zulu = _closure1_slot7;
@@ -695,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify[4] = foxtrot;
             romeo = romeo.banError;
             offset = null;
-            if(!romeo) { _fun81897_ip = 1413; continue _fun81897 }
+            if(!romeo) { _fun00002_ip = 1413; continue _fun00001 }
  1276:
             foxtrot = _closure1_slot10;
             kilo = _closure1_slot0;

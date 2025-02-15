@@ -76,7 +76,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
     tango = 'modules/premium/native/gifting/PremiumGiftCustomization.tsx';
     tango = report.bind(oscar)(tango);
     mike = function() { // Original name: PremiumGiftCustomization
-        _fun87969: for(var _fun87969_ip = 0; ; ) switch(_fun87969_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot0;
             report = _closure1_slot2;
@@ -119,14 +119,14 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
                 tango = entity.setTimeout;
                 entity = undefined;
                 zulu = function() {
-                    _fun87971: for(var _fun87971_ip = 0; ; ) switch(_fun87971_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         entity = _closure2_slot2;
                         tango = entity.current;
                         entity = null;
                         mike = entity == tango;
                         entity = undefined;
-                        if(mike) { _fun87971_ip = 51; continue _fun87971 }
+                        if(mike) { _fun00004_ip = 51; continue _fun00003 }
  23:
                         zulu = tango.scrollTo;
                         mike = {};
@@ -146,7 +146,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             sizing = golf.bind(foxtrot)(mike, report);
             mike = _closure1_slot7;
             mike = mike.TIER_2;
-            if(!(zulu !== mike)) { _fun87969_ip = 240; continue _fun87969 }
+            if(!(zulu !== mike)) { _fun00002_ip = 240; continue _fun00001 }
  183:
             golf = _closure1_slot0;
             foxtrot = _closure1_slot2;
@@ -160,7 +160,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             mike = mike.t;
             mike = mike.t9uG/v;
             golf = zulu.bind(report)(mike);
-            _fun87969_ip = 295; continue _fun87969;
+            _fun00002_ip = 295; continue _fun00001;
  240:
             foxtrot = _closure1_slot0;
             backup = _closure1_slot2;
@@ -236,7 +236,7 @@ export default (function(_, argBar, argBaz, argCorge, __, argFred, argPlugh) {
             foxtrot = options.bind(tango)(backup, foxtrot);
             offset[1] = foxtrot;
             yankee = yankee != romeo;
-            if(!yankee) { _fun87969_ip = 495; continue _fun87969 }
+            if(!yankee) { _fun00002_ip = 495; continue _fun00001 }
  453:
             backup = _closure1_slot8;
             foxtrot = _closure1_slot1;

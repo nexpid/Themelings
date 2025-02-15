@@ -62,18 +62,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun114304: for(var _fun114304_ip = 0; ; ) switch(_fun114304_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun114304_ip = 123; continue _fun114304 }
+                        if(mike) { _fun00002_ip = 123; continue _fun00001 }
  7:
                         report = _closure1_slot3;
                         tango = report.getGuildFolderById;
                         mike = _closure2_slot0;
                         tango = tango.bind(report)(mike);
                         mike = null;
-                        if(!(mike != tango)) { _fun114304_ip = 115; continue _fun114304 }
+                        if(!(mike != tango)) { _fun00002_ip = 115; continue _fun00001 }
  38:
                         golf = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  82:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun114304_ip = 120; continue _fun114304 }
+                        if(report) { _fun00002_ip = 120; continue _fun00001 }
  88:
                         report = mike.default;
                         tango = tango.guildIds;
@@ -136,11 +136,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = undefined;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun114307: for(var _fun114307_ip = 0; ; ) switch(_fun114307_ip) {
+                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun114307_ip = 84; continue _fun114307 }
+                        if(mike) { _fun00004_ip = 84; continue _fun00003 }
  7:
                         report = _closure1_slot0;
                         mike = _closure1_slot1;
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                         return mike;
  54:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tango) { _fun114307_ip = 81; continue _fun114307 }
+                        if(tango) { _fun00004_ip = 81; continue _fun00003 }
  60:
                         report = mike.showGuildsBarFolderModal;
                         tango = _closure2_slot0;

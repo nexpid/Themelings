@@ -53,22 +53,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot2 = report;
     report = options.memo;
     tango = function(argFoo) { // Original name: Badge
-        _fun78663: for(var _fun78663_ip = 0; ; ) switch(_fun78663_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.size;
             tango = undefined;
-            if(!(offset === tango)) { _fun78663_ip = 17; continue _fun78663 }
+            if(!(offset === tango)) { _fun00002_ip = 17; continue _fun00001 }
  14:
             offset = 12;
  17:
             mike = entity.maskSize;
-            if(!(mike === tango)) { _fun78663_ip = 30; continue _fun78663 }
+            if(!(mike === tango)) { _fun00002_ip = 30; continue _fun00001 }
  27:
             mike = 4;
  30:
             options = entity.classic;
-            if(!(options === tango)) { _fun78663_ip = 42; continue _fun78663 }
+            if(!(options === tango)) { _fun00002_ip = 42; continue _fun00001 }
  40:
             options = false;
  42:
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = null;
             mike = mike != report;
             romeo = undefined;
-            if(!mike) { _fun78663_ip = 117; continue _fun78663 }
+            if(!mike) { _fun00002_ip = 117; continue _fun00001 }
  92:
             mike = {};
             mike['backgroundColor'] = report;
@@ -103,10 +103,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[2] = yankee;
             entity['style'] = report;
             report = {};
-            if(options) { _fun78663_ip = 166; continue _fun78663 }
+            if(options) { _fun00002_ip = 166; continue _fun00001 }
  158:
             options = oscar.badge;
-            _fun78663_ip = 172; continue _fun78663;
+            _fun00002_ip = 172; continue _fun00001;
  166:
             options = oscar.badgeClassic;
  172:

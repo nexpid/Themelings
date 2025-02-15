@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         golf = offset.useCallback;
         zulu = function(argFoo) {
             zulu = function(argFoo) { // Original name: queryGuilds
-                _fun94115: for(var _fun94115_ip = 0; ; ) switch(_fun94115_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
                     mike = function(argFoo) { // Original name: guildRecordToGuildSearchableSelectOption
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     var _closure4_slot0 = mike;
                     zulu = report.length;
                     mike = 0;
-                    if(!(mike !== zulu)) { _fun94115_ip = 88; continue _fun94115 }
+                    if(!(mike !== zulu)) { _fun00002_ip = 88; continue _fun00001 }
  27:
                     tango = _closure1_slot1;
                     zulu = _closure1_slot2;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = new options[mike](golf);
                     mike = mike instanceof Object ? mike : report;
                     entity = function(argFoo, argBar) {
-                        _fun94117: for(var _fun94117_ip = 0; ; ) switch(_fun94117_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             entity = argFoo;
                             tango = _closure1_slot6;
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                             mike = argBar;
                             report = zulu.bind(tango)(mike);
                             mike = null;
-                            if(!(mike != report)) { _fun94117_ip = 53; continue _fun94117 }
+                            if(!(mike != report)) { _fun00004_ip = 53; continue _fun00003 }
  29:
                             zulu = entity.push;
                             tango = _closure4_slot0;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         romeo = romeo.iconContainer;
         entity['iconContainerStyle'] = romeo;
         romeo = function(argFoo) { // Original name: renderDescription
-            _fun94124: for(var _fun94124_ip = 0; ; ) switch(_fun94124_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 romeo = argFoo;
                 golf = _closure2_slot1;
@@ -321,10 +321,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 entity = romeo.guild;
                 entity = entity.id;
                 verify = mike.bind(zulu)(entity, tango, golf);
-                if(report) { _fun94124_ip = 90; continue _fun94124 }
+                if(report) { _fun00006_ip = 90; continue _fun00005 }
  82:
                 entity = null;
-                if(!(entity == verify)) { _fun94124_ip = 90; continue _fun94124 }
+                if(!(entity == verify)) { _fun00006_ip = 90; continue _fun00005 }
  88:
                 return tango;
  90:
@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = golf.guildIdentity;
                 entity['style'] = golf;
                 golf = report;
-                if(!golf) { _fun94124_ip = 224; continue _fun94124 }
+                if(!golf) { _fun00006_ip = 224; continue _fun00005 }
  120:
                 yankee = _closure1_slot8;
                 options = _closure1_slot1;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 golf = oscar.Text;
                 oscar = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
                 yankee = null;
-                if(!(yankee == verify)) { _fun94124_ip = 290; continue _fun94124 }
+                if(!(yankee == verify)) { _fun00006_ip = 290; continue _fun00005 }
  281:
                 offset = _closure2_slot1;
                 verify = offset.username;

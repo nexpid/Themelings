@@ -13,11 +13,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot4;
         zulu = function* (argFoo) {
             entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun80599: for(var _fun80599_ip = 0; ; ) switch(_fun80599_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun80599_ip = 189; continue _fun80599 }
+                    if(mike) { _fun00002_ip = 189; continue _fun00001 }
  10:
                     zulu = _closure1_slot1;
                     options = _closure1_slot2;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  89:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun80599_ip = 186; continue _fun80599 }
+                    if(zulu) { _fun00002_ip = 186; continue _fun00001 }
  95:
                     zulu = mike.body;
                     zulu = zulu.url;
@@ -58,10 +58,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     tango = options.isAndroid;
                     tango = tango.bind(options)();
                     golf = _closure1_slot8;
-                    if(tango) { _fun80599_ip = 171; continue _fun80599 }
+                    if(tango) { _fun00002_ip = 171; continue _fun00001 }
  163:
                     tango = golf.IN_APP;
-                    _fun80599_ip = 177; continue _fun80599;
+                    _fun00002_ip = 177; continue _fun00001;
  171:
                     tango = golf.CHROME;
  177:
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_settings/native/two_way_link/TwoWayLinkPreConnect.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: TwoWayLinkPreConnect
-        _fun80600: for(var _fun80600_ip = 0; ; ) switch(_fun80600_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = argFoo;
             options = zulu.platformType;
@@ -204,11 +204,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = _closure1_slot4;
             zulu = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun80602: for(var _fun80602_ip = 0; ; ) switch(_fun80602_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun80602_ip = 174; continue _fun80602 }
+                        if(mike) { _fun00006_ip = 174; continue _fun00005 }
  10:
                         zulu = undefined;
                         oscar = undefined;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return tango;
  50:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun80602_ip = 156; continue _fun80602 }
+                        if(report) { _fun00006_ip = 156; continue _fun00005 }
  56:
                         oscar = tango;
  59: // try_end0
@@ -283,14 +283,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu[0] = options;
             zulu[1] = mike;
             mike = function(argFoo) {
-                _fun80604: for(var _fun80604_ip = 0; ; ) switch(_fun80604_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     tango = entity.callbackCode;
                     entity = entity.callbackState;
                     zulu = _closure2_slot4;
                     zulu = zulu.current;
-                    if(!(entity !== zulu)) { _fun80604_ip = 83; continue _fun80604 }
+                    if(!(entity !== zulu)) { _fun00008_ip = 83; continue _fun00007 }
  31:
                     oscar = _closure1_slot11;
                     report = oscar.warn;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = ' link: received mismatching callback state!';
                     zulu = options.bind(golf)(verify, zulu);
                     zulu = report.bind(oscar)(zulu);
-                    _fun80604_ip = 106; continue _fun80604;
+                    _fun00008_ip = 106; continue _fun00007;
  83:
                     zulu = _closure2_slot2;
                     mike = {};
@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo[0] = golf;
             golf = null;
             sizing = golf != result;
-            if(!sizing) { _fun80600_ip = 334; continue _fun80600 }
+            if(!sizing) { _fun00004_ip = 334; continue _fun00003 }
  331:
             sizing = result;
  334:
@@ -396,7 +396,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = sizing.bind(tango)(romeo, offset);
             oscar[2] = offset;
             golf = golf != echo;
-            if(!golf) { _fun80600_ip = 597; continue _fun80600 }
+            if(!golf) { _fun00004_ip = 597; continue _fun00003 }
  480:
             romeo = _closure1_slot9;
             sizing = _closure1_slot0;

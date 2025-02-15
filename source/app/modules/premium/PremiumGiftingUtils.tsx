@@ -36,18 +36,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         zulu = undefined;
         mike = function* (argFoo, argBar) {
             entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun87993: for(var _fun87993_ip = 0; ; ) switch(_fun87993_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     mike = argFoo;
                     oscar = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zulu) { _fun87993_ip = 286; continue _fun87993 }
+                    if(zulu) { _fun00002_ip = 286; continue _fun00001 }
  16:
                     zulu = null;
-                    if(!(zulu != oscar)) { _fun87993_ip = 250; continue _fun87993 }
+                    if(!(zulu != oscar)) { _fun00002_ip = 250; continue _fun00001 }
  25:
-                    if(!(zulu != mike)) { _fun87993_ip = 214; continue _fun87993 }
+                    if(!(zulu != mike)) { _fun00002_ip = 214; continue _fun00001 }
  32:
                     report = _closure1_slot1;
                     golf = _closure1_slot2;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     report = tango.bind(report)(mike);
                     tango = report.then;
                     mike = function(argFoo) {
-                        _fun87994: for(var _fun87994_ip = 0; ; ) switch(_fun87994_ip) {
+                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             tango = _closure1_slot4;
                             zulu = tango.getChannel;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                             tango = mike != entity;
                             zulu = 'PrivateChannel is null';
                             zulu = report.bind(oscar)(tango, zulu);
-                            if(!(mike != entity)) { _fun87994_ip = 66; continue _fun87994 }
+                            if(!(mike != entity)) { _fun00004_ip = 66; continue _fun00003 }
  64:
                             return entity;
  66:
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     return mike;
  96:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tango) { _fun87993_ip = 211; continue _fun87993 }
+                    if(tango) { _fun00002_ip = 211; continue _fun00001 }
  102:
                     report = _closure1_slot0;
                     offset = _closure1_slot2;

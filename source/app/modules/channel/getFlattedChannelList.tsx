@@ -22,13 +22,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/channel/getFlattedChannelList.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo, argBar) { // Original name: getFlattenedChannelList
-        _fun60116: for(var _fun60116_ip = 0; ; ) switch(_fun60116_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[2];
             mike = argBar;
             var _closure2_slot0 = mike;
             report = undefined;
-            if(!(zulu === report)) { _fun60116_ip = 23; continue _fun60116 }
+            if(!(zulu === report)) { _fun00002_ip = 23; continue _fun00001 }
  18:
             zulu = function() { // Original name: l
                 entity = true;
@@ -44,13 +44,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = tango.bind(report)(mike);
             mike = tango.map;
             entity = function(argFoo) {
-                _fun60118: for(var _fun60118_ip = 0; ; ) switch(_fun60118_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = argFoo;
                     entity = mike.channel;
                     zulu = entity.id;
                     entity = 'null';
-                    if(!(entity !== zulu)) { _fun60118_ip = 56; continue _fun60118 }
+                    if(!(entity !== zulu)) { _fun00004_ip = 56; continue _fun00003 }
  21:
                     entity = new Array(2);
                     entity[0] = mike;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = zulu.id;
                     zulu = tango[zulu];
                     entity[1] = zulu;
-                    _fun60118_ip = 77; continue _fun60118;
+                    _fun00004_ip = 77; continue _fun00003;
  56:
                     zulu = _closure2_slot0;
                     mike = mike.channel;

@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = romeo;
     var _closure1_slot2 = oscar;
     entity = function(argFoo, argBar) { // Original name: getGreenTextStyle
-        _fun126817: for(var _fun126817_ip = 0; ; ) switch(_fun126817_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             tango = _closure1_slot0;
@@ -20,10 +20,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = tango.isThemeDark;
             entity = argBar;
             entity = zulu.bind(tango)(entity);
-            if(entity) { _fun126817_ip = 53; continue _fun126817 }
+            if(entity) { _fun00002_ip = 53; continue _fun00001 }
  45:
             entity = mike.greenTextLightMode;
-            _fun126817_ip = 59; continue _fun126817;
+            _fun00002_ip = 59; continue _fun00001;
  53:
             entity = mike.greenTextDarkMode;
  59:
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot8 = entity;
     entity = function() { // Original name: EarningPreview
-        _fun126818: for(var _fun126818_ip = 0; ; ) switch(_fun126818_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             mike = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf.bind(tango)(oscar);
             oscar = golf.isThemeDark;
             oscar = oscar.bind(golf)(update);
-            if(!oscar) { _fun126818_ip = 97; continue _fun126818 }
+            if(!oscar) { _fun00004_ip = 97; continue _fun00003 }
  91:
             oscar = romeo.earningMetricsShadowContainerDarkMode;
  97:
@@ -75,10 +75,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = yankee.bind(tango)(offset);
             offset = yankee.isThemeDark;
             offset = offset.bind(yankee)(update);
-            if(offset) { _fun126818_ip = 178; continue _fun126818 }
+            if(offset) { _fun00004_ip = 178; continue _fun00003 }
  170:
             offset = romeo.earningMetricsLightMode;
-            _fun126818_ip = 184; continue _fun126818;
+            _fun00004_ip = 184; continue _fun00003;
  178:
             offset = romeo.earningMetricsDarkMode;
  184:
@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     var _closure1_slot9 = entity;
     entity = function() { // Original name: ConsistentEarningBenefit
-        _fun126819: for(var _fun126819_ip = 0; ; ) switch(_fun126819_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -221,12 +221,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             foxtrot = foxtrot.bind(backup)(kilo);
             kilo = _closure1_slot1;
             sizing = _closure1_slot2;
-            if(foxtrot) { _fun126819_ip = 289; continue _fun126819 }
+            if(foxtrot) { _fun00006_ip = 289; continue _fun00005 }
  275:
             foxtrot = 13;
             foxtrot = sizing[foxtrot];
             foxtrot = kilo.bind(tango)(foxtrot);
-            _fun126819_ip = 301; continue _fun126819;
+            _fun00006_ip = 301; continue _fun00005;
  289:
             backup = 12;
             backup = sizing[backup];

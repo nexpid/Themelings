@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfileMutuals.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfileMutuals
-        _fun102575: for(var _fun102575_ip = 0; ; ) switch(_fun102575_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.user;
@@ -117,12 +117,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['location'] = options;
             golf = golf.bind(tango)(entity);
             entity = null;
-            if(golf) { _fun102575_ip = 213; continue _fun102575 }
+            if(golf) { _fun00002_ip = 213; continue _fun00001 }
  211:
             return entity;
  213:
             golf = entity != zulu;
-            if(!golf) { _fun102575_ip = 231; continue _fun102575 }
+            if(!golf) { _fun00002_ip = 231; continue _fun00001 }
  220:
             options = zulu.length;
             zulu = 0;
@@ -130,16 +130,16 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  231:
             _closure2_slot7 = golf;
             options = entity != mike;
-            if(!options) { _fun102575_ip = 253; continue _fun102575 }
+            if(!options) { _fun00002_ip = 253; continue _fun00001 }
  242:
             zulu = mike.length;
             mike = 0;
             options = zulu > mike;
  253:
             _closure2_slot8 = options;
-            if(golf) { _fun102575_ip = 265; continue _fun102575 }
+            if(golf) { _fun00002_ip = 265; continue _fun00001 }
  260:
-            if(options) { _fun102575_ip = 265; continue _fun102575 }
+            if(options) { _fun00002_ip = 265; continue _fun00001 }
  263:
             return entity;
  265:
@@ -233,10 +233,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = report.container;
             entity['style'] = report;
             report = function() {
-                _fun102579: for(var _fun102579_ip = 0; ; ) switch(_fun102579_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot7;
-                    if(entity) { _fun102579_ip = 16; continue _fun102579 }
+                    if(entity) { _fun00004_ip = 16; continue _fun00003 }
  12:
                     entity = null;
                     return entity;
@@ -349,11 +349,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = report.bind(tango)();
             report = new Array(3);
             report[0] = verify;
-            if(!golf) { _fun102575_ip = 320; continue _fun102575 }
+            if(!golf) { _fun00002_ip = 320; continue _fun00001 }
  317:
             golf = options;
  320:
-            if(!golf) { _fun102575_ip = 380; continue _fun102575 }
+            if(!golf) { _fun00002_ip = 380; continue _fun00001 }
  323:
             offset = _closure1_slot7;
             verify = _closure1_slot0;
@@ -369,10 +369,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  380:
             report[1] = golf;
             oscar = function() {
-                _fun102584: for(var _fun102584_ip = 0; ; ) switch(_fun102584_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot8;
-                    if(entity) { _fun102584_ip = 16; continue _fun102584 }
+                    if(entity) { _fun00006_ip = 16; continue _fun00005 }
  12:
                     entity = null;
                     return entity;
@@ -414,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     entity['onPress'] = report;
                     report = _closure2_slot7;
                     oscar = !report;
-                    if(report) { _fun102584_ip = 250; continue _fun102584 }
+                    if(report) { _fun00006_ip = 250; continue _fun00005 }
  132:
                     options = _closure1_slot7;
                     backup = _closure1_slot0;

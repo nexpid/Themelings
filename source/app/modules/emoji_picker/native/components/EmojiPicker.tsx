@@ -97,37 +97,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = options.bind(verify)(tango);
     var _closure1_slot12 = tango;
     tango = function(argFoo) { // Original name: onLongPressEmoji
-        _fun84623: for(var _fun84623_ip = 0; ; ) switch(_fun84623_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             entity = zulu.uniqueName;
             tango = null;
-            if(!(tango != entity)) { _fun84623_ip = 29; continue _fun84623 }
+            if(!(tango != entity)) { _fun00002_ip = 29; continue _fun00001 }
  15:
             mike = zulu.uniqueName;
             entity = '';
-            if(!(entity === mike)) { _fun84623_ip = 36; continue _fun84623 }
+            if(!(entity === mike)) { _fun00002_ip = 36; continue _fun00001 }
  29:
             report = zulu.name;
-            _fun84623_ip = 42; continue _fun84623;
+            _fun00002_ip = 42; continue _fun00001;
  36:
             report = zulu.uniqueName;
  42:
             entity = zulu.id;
-            if(!(tango == entity)) { _fun84623_ip = 60; continue _fun84623 }
+            if(!(tango == entity)) { _fun00002_ip = 60; continue _fun00001 }
  51:
             entity = zulu.surrogates;
-            if(!(tango == entity)) { _fun84623_ip = 165; continue _fun84623 }
+            if(!(tango == entity)) { _fun00002_ip = 165; continue _fun00001 }
  60:
             mike = {};
             entity = zulu.id;
             mike['id'] = entity;
             mike['alt'] = report;
             entity = zulu.id;
-            if(!(tango == entity)) { _fun84623_ip = 92; continue _fun84623 }
+            if(!(tango == entity)) { _fun00002_ip = 92; continue _fun00001 }
  85:
             entity = zulu.url;
-            _fun84623_ip = 158; continue _fun84623;
+            _fun00002_ip = 158; continue _fun00001;
  92:
             golf = _closure1_slot1;
             oscar = _closure1_slot2;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = oscar.bind(golf)(tango);
  158:
             mike['src'] = entity;
-            _fun84623_ip = 207; continue _fun84623;
+            _fun00002_ip = 207; continue _fun00001;
  165:
             entity = {};
             zulu = zulu.surrogates;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot13 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: EmojiPicker
-        _fun84624: for(var _fun84624_ip = 0; ; ) switch(_fun84624_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             vacuum = entity.channel;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = entity.onBackspace;
             record = entity.disableLongPress;
             tango = undefined;
-            if(!(record === tango)) { _fun84624_ip = 40; continue _fun84624 }
+            if(!(record === tango)) { _fun00004_ip = 40; continue _fun00003 }
  38:
             record = false;
  40:
@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset['emojis'] = context;
             offset['onPressEmoji'] = sequence;
             sequence = undefined;
-            if(record) { _fun84624_ip = 571; continue _fun84624 }
+            if(record) { _fun00004_ip = 571; continue _fun00003 }
  567:
             sequence = _closure1_slot13;
  571:

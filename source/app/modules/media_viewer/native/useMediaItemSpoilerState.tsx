@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/media_viewer/native/useMediaItemSpoilerState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMediaItemSpoilerState
-        _fun102243: for(var _fun102243_ip = 0; ; ) switch(_fun102243_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             var _closure2_slot0 = entity;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = tango[options];
             golf = golf.bind(oscar)(tango);
             tango = golf.useSharedValue;
-            if(!entity) { _fun102243_ip = 109; continue _fun102243 }
+            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
  106:
             verify = offset;
  109:
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango[0] = entity;
             tango[1] = golf;
             entity = function() {
-                _fun102245: for(var _fun102245_ip = 0; ; ) switch(_fun102245_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot3;
                     zulu = tango.set;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = verify.withTiming;
                     report = _closure2_slot1;
                     golf = 0;
-                    if(!report) { _fun102245_ip = 54; continue _fun102245 }
+                    if(!report) { _fun00004_ip = 54; continue _fun00003 }
  51:
                     golf = 1;
  54:

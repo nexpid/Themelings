@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/main_tabs_v2/native/panels/ChannelScreenAnimatedFrame.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ChannelScreenAnimatedFrame
-        _fun118245: for(var _fun118245_ip = 0; ; ) switch(_fun118245_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             sizing = entity.translateX;
@@ -109,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = options.bind(tango)(golf);
             golf = offset.useAnimatedStyle;
             zulu = function() { // Original name: D
-                _fun118246: for(var _fun118246_ip = 0; ; ) switch(_fun118246_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure2_slot0;
                     mike = zulu.get;
                     zulu = mike.bind(zulu)();
                     mike = _closure2_slot1;
                     oscar = zulu === mike;
-                    if(oscar) { _fun118246_ip = 31; continue _fun118246 }
+                    if(oscar) { _fun00004_ip = 31; continue _fun00003 }
  27:
                     oscar = _closure2_slot2;
  31:
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = zulu.bind(verify)(mike);
                     tango = report.withTiming;
                     zulu = 1;
-                    if(!oscar) { _fun118246_ip = 71; continue _fun118246 }
+                    if(!oscar) { _fun00004_ip = 71; continue _fun00003 }
  69:
                     zulu = 0;
  71:
@@ -146,10 +146,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf = 11;
                     golf = offset[golf];
                     golf = options.bind(verify)(golf);
-                    if(oscar) { _fun118246_ip = 135; continue _fun118246 }
+                    if(oscar) { _fun00004_ip = 135; continue _fun00003 }
  127:
                     oscar = golf.SIDE_PANEL_OPEN_DURATION_MS;
-                    _fun118246_ip = 141; continue _fun118246;
+                    _fun00004_ip = 141; continue _fun00003;
  135:
                     oscar = golf.SIDE_PANEL_CLOSE_DURATION_MS;
  141:
@@ -204,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report = new Array(4);
             report[0] = offset;
             offset = undefined;
-            if(!(romeo === yankee)) { _fun118245_ip = 328; continue _fun118245 }
+            if(!(romeo === yankee)) { _fun00002_ip = 328; continue _fun00001 }
  322:
             offset = verify.midnightContainer;
  328:

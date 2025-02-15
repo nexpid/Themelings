@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/guild_templates/createResolvedGuildTemplate.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: createResolvedGuildTemplate
-        _fun65353: for(var _fun65353_ip = 0; ; ) switch(_fun65353_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = {};
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             zulu = null;
             report = zulu != tango;
             zulu = '';
-            if(!report) { _fun65353_ip = 61; continue _fun65353 }
+            if(!report) { _fun00002_ip = 61; continue _fun00001 }
  58:
             zulu = tango;
  61:

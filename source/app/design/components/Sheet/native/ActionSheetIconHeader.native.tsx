@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'design/components/Sheet/native/ActionSheetIconHeader.native.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ActionSheetIconHeader
-        _fun48789: for(var _fun48789_ip = 0; ; ) switch(_fun48789_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.title;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             golf[0] = options;
             options = null;
             offset = options != romeo;
-            if(!offset) { _fun48789_ip = 199; continue _fun48789 }
+            if(!offset) { _fun00002_ip = 199; continue _fun00001 }
  149:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;

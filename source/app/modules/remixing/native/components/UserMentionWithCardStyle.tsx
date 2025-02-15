@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot4 = tango;
     tango = golf.memo;
     mike = function(argFoo) {
-        _fun84212: for(var _fun84212_ip = 0; ; ) switch(_fun84212_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.id;
@@ -69,22 +69,22 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = null;
             yankee = entity == backup;
             tango = '';
-            if(yankee) { _fun84212_ip = 200; continue _fun84212 }
+            if(yankee) { _fun00002_ip = 200; continue _fun00001 }
  174:
             yankee = backup.globalName;
-            if(!(entity == yankee)) { _fun84212_ip = 191; continue _fun84212 }
+            if(!(entity == yankee)) { _fun00002_ip = 191; continue _fun00001 }
  184:
             yankee = backup.username;
-            _fun84212_ip = 197; continue _fun84212;
+            _fun00002_ip = 197; continue _fun00001;
  191:
             yankee = backup.globalName;
  197:
             tango = yankee;
  200:
             backup = golf.bind(report)(verify, options, tango);
-            if(!(entity != source)) { _fun84212_ip = 775; continue _fun84212 }
+            if(!(entity != source)) { _fun00002_ip = 775; continue _fun00001 }
  214:
-            if(!(entity != foxtrot)) { _fun84212_ip = 775; continue _fun84212 }
+            if(!(entity != foxtrot)) { _fun00002_ip = 775; continue _fun00001 }
  221:
             verify = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -118,15 +118,15 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             target = yankee;
             yankee = whiskey[golf](lima, sierra, status, target, papa);
             golf = tango > options;
-            if(golf) { _fun84212_ip = 370; continue _fun84212 }
+            if(golf) { _fun00002_ip = 370; continue _fun00001 }
  363:
             papa = echo.x;
-            _fun84212_ip = 375; continue _fun84212;
+            _fun00002_ip = 375; continue _fun00001;
  370:
             papa = yankee.x;
  375:
             record = options;
-            if(!golf) { _fun84212_ip = 384; continue _fun84212 }
+            if(!golf) { _fun00002_ip = 384; continue _fun00001 }
  381:
             record = tango;
  384:

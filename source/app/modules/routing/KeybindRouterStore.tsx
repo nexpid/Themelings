@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo) { // Original name: getMatchData
-        _fun110169: for(var _fun110169_ip = 0; ; ) switch(_fun110169_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = _closure1_slot0;
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = mike != zulu;
             golf = '';
             report = golf;
-            if(!entity) { _fun110169_ip = 53; continue _fun110169 }
+            if(!entity) { _fun00002_ip = 53; continue _fun00001 }
  50:
             report = zulu;
  53:
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             offset = kilo.bind(sizing)(backup, yankee, offset);
             entity['path'] = offset;
             entity = oscar.bind(verify)(report, entity);
-            if(!(mike == entity)) { _fun110169_ip = 300; continue _fun110169 }
+            if(!(mike == entity)) { _fun00002_ip = 300; continue _fun00001 }
  165:
             oscar = _closure1_slot0;
             report = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             oscar = oscar.bind(romeo)(report);
             report = oscar.matchPath;
             options = mike != zulu;
-            if(!options) { _fun110169_ip = 198; continue _fun110169 }
+            if(!options) { _fun00002_ip = 198; continue _fun00001 }
  195:
             golf = zulu;
  198:
@@ -72,10 +72,10 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             options = verify.bind(offset)(options);
             zulu['path'] = options;
             oscar = report.bind(oscar)(golf, zulu);
-            if(!(mike == oscar)) { _fun110169_ip = 274; continue _fun110169 }
+            if(!(mike == oscar)) { _fun00002_ip = 274; continue _fun00001 }
  262:
             zulu = {'guildId': null, 'channelId': null};
-            _fun110169_ip = 298; continue _fun110169;
+            _fun00002_ip = 298; continue _fun00001;
  274:
             report = {};
             oscar = oscar.params;
@@ -92,14 +92,14 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
             entity = {};
             oscar = _closure1_slot3;
             tango = null;
-            if(!(report !== oscar)) { _fun110169_ip = 331; continue _fun110169 }
+            if(!(report !== oscar)) { _fun00002_ip = 331; continue _fun00001 }
  328:
             tango = report;
  331:
             entity['guildId'] = tango;
             tango = mike != zulu;
             mike = null;
-            if(!tango) { _fun110169_ip = 347; continue _fun110169 }
+            if(!tango) { _fun00002_ip = 347; continue _fun00001 }
  344:
             mike = zulu;
  347:

@@ -27,17 +27,17 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot3 = tango;
     tango = golf.memo;
     mike = function(argFoo) { // Original name: VoicePanelVisualEffectViewInner
-        _fun122304: for(var _fun122304_ip = 0; ; ) switch(_fun122304_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             golf = entity.matchAppTheme;
             tango = undefined;
-            if(!(golf === tango)) { _fun122304_ip = 17; continue _fun122304 }
+            if(!(golf === tango)) { _fun00002_ip = 17; continue _fun00001 }
  15:
             golf = false;
  17:
             report = 'dark';
-            if(!golf) { _fun122304_ip = 26; continue _fun122304 }
+            if(!golf) { _fun00002_ip = 26; continue _fun00001 }
  24:
             report = undefined;
  26:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = {};
             entity['blurTheme'] = report;
             report = undefined;
-            if(golf) { _fun122304_ip = 124; continue _fun122304 }
+            if(golf) { _fun00002_ip = 124; continue _fun00001 }
  121:
             report = oscar;
  124:

@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/guild_onboarding/useGuildOnboardingAvailable.tsx';
     tango = report.bind(oscar)(tango);
     tango = function(argFoo) { // Original name: useGuildOnboardingAvailable
-        _fun65440: for(var _fun65440_ip = 0; ; ) switch(_fun65440_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             var _closure2_slot0 = report;
@@ -46,18 +46,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = options;
             entity = function() {
-                _fun65441: for(var _fun65441_ip = 0; ; ) switch(_fun65441_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot0;
                     zulu = null;
                     tango = zulu == mike;
                     mike = undefined;
-                    if(tango) { _fun65441_ip = 27; continue _fun65441 }
+                    if(tango) { _fun00004_ip = 27; continue _fun00003 }
  18:
                     tango = _closure2_slot0;
                     mike = tango.id;
  27:
-                    if(!(zulu != mike)) { _fun65441_ip = 82; continue _fun65441 }
+                    if(!(zulu != mike)) { _fun00004_ip = 82; continue _fun00003 }
  31:
                     tango = _closure1_slot2;
                     zulu = tango.isFullServerPreview;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     zulu = tango.isOnboardingEnabled;
                     mike = mike.id;
                     mike = zulu.bind(tango)(mike);
-                    if(!entity) { _fun65441_ip = 80; continue _fun65441 }
+                    if(!entity) { _fun00004_ip = 80; continue _fun00003 }
  77:
                     entity = mike;
  80:
@@ -78,12 +78,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 }
             };
             entity = oscar.bind(golf)(tango, entity);
-            if(entity) { _fun65440_ip = 100; continue _fun65440 }
+            if(entity) { _fun00002_ip = 100; continue _fun00001 }
  65:
             tango = null;
             tango = tango == report;
             mike = undefined;
-            if(tango) { _fun65440_ip = 97; continue _fun65440 }
+            if(tango) { _fun00002_ip = 97; continue _fun00001 }
  76:
             tango = report.hasFeature;
             zulu = _closure1_slot3;
@@ -97,11 +97,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['default'] = tango;
     mike = function(argFoo) { // Original name: isGuildOnboardingAvailable
-        _fun65442: for(var _fun65442_ip = 0; ; ) switch(_fun65442_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tango = argFoo;
             entity = null;
-            if(!(entity != tango)) { _fun65442_ip = 80; continue _fun65442 }
+            if(!(entity != tango)) { _fun00006_ip = 80; continue _fun00005 }
  9:
             oscar = _closure1_slot2;
             zulu = oscar.isFullServerPreview;
@@ -110,11 +110,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report = oscar.isOnboardingEnabled;
             zulu = tango.id;
             zulu = report.bind(oscar)(zulu);
-            if(!entity) { _fun65442_ip = 54; continue _fun65442 }
+            if(!entity) { _fun00006_ip = 54; continue _fun00005 }
  51:
             entity = zulu;
  54:
-            if(entity) { _fun65442_ip = 78; continue _fun65442 }
+            if(entity) { _fun00006_ip = 78; continue _fun00005 }
  57:
             zulu = tango.hasFeature;
             mike = _closure1_slot3;

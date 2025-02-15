@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/search_v2/native/components/list/rows/GroupDMRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GroupDMRow
-        _fun113358: for(var _fun113358_ip = 0; ; ) switch(_fun113358_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             options = entity.channel;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = null;
             mike = yankee != backup;
             options = undefined;
-            if(!mike) { _fun113358_ip = 257; continue _fun113358 }
+            if(!mike) { _fun00002_ip = 257; continue _fun00001 }
  204:
             verify = _closure1_slot4;
             zulu = _closure1_slot0;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             kilo = yankee != offset;
             verify = '';
             backup = verify;
-            if(!kilo) { _fun113358_ip = 306; continue _fun113358 }
+            if(!kilo) { _fun00002_ip = 306; continue _fun00001 }
  303:
             backup = offset;
  306:
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['icon'] = foxtrot;
             entity['onPress'] = romeo;
             yankee = yankee != offset;
-            if(!yankee) { _fun113358_ip = 328; continue _fun113358 }
+            if(!yankee) { _fun00002_ip = 328; continue _fun00001 }
  325:
             verify = offset;
  328:

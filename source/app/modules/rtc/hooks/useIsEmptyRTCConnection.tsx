@@ -7,18 +7,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = oscar;
     entity = function(argFoo, argBar) { // Original name: isEmpty
-        _fun81232: for(var _fun81232_ip = 0; ; ) switch(_fun81232_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
             mike = report.size;
             entity = 0;
             entity = entity === mike;
-            if(entity) { _fun81232_ip = 48; continue _fun81232 }
+            if(entity) { _fun00002_ip = 48; continue _fun00001 }
  17:
             zulu = report.size;
             mike = 1;
             mike = mike === zulu;
-            if(!mike) { _fun81232_ip = 45; continue _fun81232 }
+            if(!mike) { _fun00002_ip = 45; continue _fun00001 }
  32:
             tango = report.has;
             zulu = argBar;
@@ -73,18 +73,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         report = _closure1_slot2;
         mike[1] = report;
         entity = function() {
-            _fun81234: for(var _fun81234_ip = 0; ; ) switch(_fun81234_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!(entity != mike)) { _fun81234_ip = 70; continue _fun81234 }
+                if(!(entity != mike)) { _fun00004_ip = 70; continue _fun00003 }
  13:
                 report = _closure1_slot4;
                 tango = report.getUserIds;
                 zulu = _closure2_slot0;
                 report = tango.bind(report)(zulu);
                 entity = entity == report;
-                if(entity) { _fun81234_ip = 68; continue _fun81234 }
+                if(entity) { _fun00004_ip = 68; continue _fun00003 }
  42:
                 tango = _closure1_slot5;
                 zulu = _closure1_slot2;
@@ -117,14 +117,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         entity = _closure1_slot2;
         mike[1] = entity;
         entity = function() {
-            _fun81236: for(var _fun81236_ip = 0; ; ) switch(_fun81236_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure1_slot3;
                 entity = zulu.getUserIds;
                 report = entity.bind(zulu)();
                 entity = null;
                 entity = entity == report;
-                if(entity) { _fun81236_ip = 52; continue _fun81236 }
+                if(entity) { _fun00006_ip = 52; continue _fun00005 }
  26:
                 tango = _closure1_slot5;
                 zulu = _closure1_slot2;

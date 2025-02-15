@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/quests/native/QuestRewardTile.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: QuestRewardTile
-        _fun96553: for(var _fun96553_ip = 0; ; ) switch(_fun96553_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             mike = zulu.quest;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             golf = zulu.style;
             yankee = zulu.paused;
             tango = undefined;
-            if(!(yankee === tango)) { _fun96553_ip = 44; continue _fun96553 }
+            if(!(yankee === tango)) { _fun00002_ip = 44; continue _fun00001 }
  42:
             yankee = false;
  44:
@@ -163,11 +163,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = new Array(1);
             mike[0] = options;
             entity = function() {
-                _fun96556: for(var _fun96556_ip = 0; ; ) switch(_fun96556_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     mike = _closure2_slot1;
                     mike = mike.isAnimated;
-                    if(mike) { _fun96556_ip = 22; continue _fun96556 }
+                    if(mike) { _fun00004_ip = 22; continue _fun00003 }
  18:
                     mike = undefined;
                     return mike;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             report[2] = golf;
             entity['style'] = report;
             report = backup.isAnimated;
-            if(report) { _fun96553_ip = 353; continue _fun96553 }
+            if(report) { _fun00002_ip = 353; continue _fun00001 }
  290:
             options = _closure1_slot10;
             golf = _closure1_slot1;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = foxtrot.image;
             report['style'] = romeo;
             report = options.bind(tango)(golf, report);
-            _fun96553_ip = 507; continue _fun96553;
+            _fun00002_ip = 507; continue _fun00001;
  353:
             output = backup.url;
             sizing = output.replace;
@@ -254,11 +254,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             romeo = 'cover';
             oscar['resizeMode'] = romeo;
             verify = !verify;
-            if(verify) { _fun96553_ip = 474; continue _fun96553 }
+            if(verify) { _fun00002_ip = 474; continue _fun00001 }
  471:
             verify = yankee;
  474:
-            if(verify) { _fun96553_ip = 480; continue _fun96553 }
+            if(verify) { _fun00002_ip = 480; continue _fun00001 }
  477:
             verify = offset;
  480:

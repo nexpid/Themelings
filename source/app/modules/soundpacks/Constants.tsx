@@ -46,19 +46,19 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
     tango = 'custom_notification_sounds_discodo';
     zulu['CUSTOM_NOTIFICATION_SOUNDS_DISCODO_STORAGE_KEY'] = tango;
     mike = function() { // Original name: getCustomNotificationSoundpackOptions
-        _fun97846: for(var _fun97846_ip = 0; ; ) switch(_fun97846_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = arguments[0];
             verify = undefined;
-            if(!(mike === verify)) { _fun97846_ip = 11; continue _fun97846 }
+            if(!(mike === verify)) { _fun00002_ip = 11; continue _fun00001 }
  9:
             mike = true;
  11:
             entity = new Array(0);
-            if(mike) { _fun97846_ip = 26; continue _fun97846 }
+            if(mike) { _fun00002_ip = 26; continue _fun00001 }
  18:
             zulu = entity;
-            _fun97846_ip = 312; continue _fun97846;
+            _fun00002_ip = 312; continue _fun00001;
  26:
             tango = _closure1_slot0;
             mike = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = 'custom_notification_sounds_discodo';
             golf = false;
             mike = tango.bind(options)(mike, golf);
-            if(!mike) { _fun97846_ip = 117; continue _fun97846 }
+            if(!mike) { _fun00002_ip = 117; continue _fun00001 }
  77:
             tango = entity.push;
             mike = {'value': null, 'label': 'DISCODO', 'description': '๑(◕‿◕)๑', 'requirePremium': true};
@@ -88,7 +88,7 @@ export default (function(_, argBar, __, ___, ____, argFred, argPlugh) {
             mike = 'custom_notification_sounds_asmr';
             mike = tango.bind(oscar)(mike, golf);
             zulu = entity;
-            if(!mike) { _fun97846_ip = 312; continue _fun97846 }
+            if(!mike) { _fun00002_ip = 312; continue _fun00001 }
  166:
             tango = entity.push;
             mike = {};

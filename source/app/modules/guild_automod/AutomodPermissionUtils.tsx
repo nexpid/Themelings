@@ -6,19 +6,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = options;
     var _closure1_slot1 = verify;
     report = function(argFoo) { // Original name: getAutomodQuarantinedProfileFlags
-        _fun44239: for(var _fun44239_ip = 0; ; ) switch(_fun44239_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             var _closure2_slot0 = zulu;
             mike = null;
-            if(!(mike != zulu)) { _fun44239_ip = 73; continue _fun44239 }
+            if(!(mike != zulu)) { _fun00002_ip = 73; continue _fun00001 }
  15:
             mike = global;
             zulu = mike.Set;
             report = _closure1_slot3;
             tango = report.reduce;
             mike = function(argFoo, argBar) {
-                _fun44240: for(var _fun44240_ip = 0; ; ) switch(_fun44240_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
                     zulu = argBar;
@@ -33,12 +33,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = null;
                     golf = mike != golf;
                     mike = 0;
-                    if(!golf) { _fun44240_ip = 59; continue _fun44240 }
+                    if(!golf) { _fun00004_ip = 59; continue _fun00003 }
  55:
                     mike = _closure2_slot0;
  59:
                     mike = tango.bind(report)(mike, zulu);
-                    if(!mike) { _fun44240_ip = 78; continue _fun44240 }
+                    if(!mike) { _fun00004_ip = 78; continue _fun00003 }
  68:
                     mike = entity.push;
                     mike = mike.bind(entity)(zulu);
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             options = mike;
             entity = new options[zulu](golf, oscar);
             entity = entity instanceof Object ? entity : mike;
-            _fun44239_ip = 101; continue _fun44239;
+            _fun00002_ip = 101; continue _fun00001;
  73:
             mike = global;
             mike = mike.Set;
@@ -68,22 +68,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     var _closure1_slot4 = report;
     tango = function(argFoo) { // Original name: hasAutomodQuarantinedProfile
-        _fun44241: for(var _fun44241_ip = 0; ; ) switch(_fun44241_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             mike = argFoo;
             var _closure2_slot0 = mike;
             tango = null;
             entity = tango != mike;
-            if(!entity) { _fun44241_ip = 56; continue _fun44241 }
+            if(!entity) { _fun00006_ip = 56; continue _fun00005 }
  18:
             mike = mike.flags;
             mike = tango != mike;
-            if(!mike) { _fun44241_ip = 53; continue _fun44241 }
+            if(!mike) { _fun00006_ip = 53; continue _fun00005 }
  30:
             report = _closure1_slot3;
             tango = report.some;
             zulu = function(argFoo) {
-                _fun44242: for(var _fun44242_ip = 0; ; ) switch(_fun44242_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     zulu = _closure1_slot0;
                     mike = _closure1_slot1;
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     mike = null;
                     report = mike != entity;
                     mike = 0;
-                    if(!report) { _fun44242_ip = 57; continue _fun44242 }
+                    if(!report) { _fun00008_ip = 57; continue _fun00007 }
  54:
                     mike = entity;
  57:
@@ -149,17 +149,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     zulu['AUTOMOD_QUARANTINED_PROFILE_FLAGS'] = oscar;
     zulu['getAutomodQuarantinedProfileFlags'] = report;
     report = function(argFoo) { // Original name: getAutomodQuarantinedGuildMemberFlags
-        _fun44243: for(var _fun44243_ip = 0; ; ) switch(_fun44243_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             entity = argFoo;
             mike = null;
-            if(!(mike != entity)) { _fun44243_ip = 30; continue _fun44243 }
+            if(!(mike != entity)) { _fun00010_ip = 30; continue _fun00009 }
  9:
             zulu = _closure1_slot4;
             mike = entity.flags;
             entity = undefined;
             entity = zulu.bind(entity)(mike);
-            _fun44243_ip = 58; continue _fun44243;
+            _fun00010_ip = 58; continue _fun00009;
  30:
             mike = global;
             mike = mike.Set;
@@ -190,12 +190,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = oscar;
         entity = function() {
-            _fun44245: for(var _fun44245_ip = 0; ; ) switch(_fun44245_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 zulu = _closure2_slot0;
                 entity = null;
                 entity = entity != zulu;
-                if(!entity) { _fun44245_ip = 49; continue _fun44245 }
+                if(!entity) { _fun00012_ip = 49; continue _fun00011 }
  16:
                 tango = _closure1_slot5;
                 report = _closure1_slot2;

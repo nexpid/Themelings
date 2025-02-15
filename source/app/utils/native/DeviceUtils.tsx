@@ -1,6 +1,6 @@
 // app/utils/native/DeviceUtils.tsx
 export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
-    _fun36023: for(var _fun36023_ip = 0; ; ) switch(_fun36023_ip) {
+    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         oscar = argBar;
         offset = argBaz;
@@ -33,10 +33,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         verify = oscar.bind(entity)(options);
         options = verify.isAndroid;
         options = options.bind(verify)();
-        if(options) { _fun36023_ip = 118; continue _fun36023 }
+        if(options) { _fun00002_ip = 118; continue _fun00001 }
  110:
         report = report.DCDDeviceManager;
-        _fun36023_ip = 163; continue _fun36023;
+        _fun00002_ip = 163; continue _fun00001;
  118:
         verify = 2;
         options = golf[verify];
@@ -44,7 +44,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         options = null;
         yankee = options == yankee;
         options = undefined;
-        if(yankee) { _fun36023_ip = 160; continue _fun36023 }
+        if(yankee) { _fun00002_ip = 160; continue _fun00001 }
  141:
         verify = golf[verify];
         offset = offset.bind(entity)(verify);
@@ -79,19 +79,19 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         };
         zulu['isGestureNavigationEnabled'] = report;
         report = function() { // Original name: isTaskBarEnabled
-            _fun36027: for(var _fun36027_ip = 0; ; ) switch(_fun36027_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure1_slot3;
                 entity = null;
                 tango = entity == mike;
                 mike = undefined;
-                if(tango) { _fun36027_ip = 28; continue _fun36027 }
+                if(tango) { _fun00004_ip = 28; continue _fun00003 }
  18:
                 zulu = _closure1_slot3;
                 mike = zulu.isTaskBarEnabled;
  28:
                 entity = entity != mike;
-                if(!entity) { _fun36027_ip = 38; continue _fun36027 }
+                if(!entity) { _fun00004_ip = 38; continue _fun00003 }
  35:
                 entity = mike;
  38:
@@ -107,7 +107,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         zulu['getSystemVersion'] = report;
         zulu['getDevice'] = tango;
         tango = function() { // Original name: getDeviceInfo
-            _fun36029: for(var _fun36029_ip = 0; ; ) switch(_fun36029_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -119,10 +119,10 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = entity.bind(zulu)();
                 zulu = _closure1_slot6;
                 tango = zulu.bind(tango)();
-                if(entity) { _fun36029_ip = 50; continue _fun36029 }
+                if(entity) { _fun00006_ip = 50; continue _fun00005 }
  45:
                 entity = tango;
-                _fun36029_ip = 82; continue _fun36029;
+                _fun00006_ip = 82; continue _fun00005;
  50:
                 zulu = ' (';
                 zulu = tango + zulu;
@@ -137,7 +137,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         };
         zulu['getDeviceInfo'] = tango;
         tango = function() { // Original name: getDeviceMediaPerformanceClass
-            _fun36030: for(var _fun36030_ip = 0; ; ) switch(_fun36030_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zulu = _closure1_slot0;
                 tango = _closure1_slot2;
@@ -149,11 +149,11 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 zulu = entity.bind(zulu)();
                 oscar = null;
                 entity = null;
-                if(!zulu) { _fun36030_ip = 187; continue _fun36030 }
+                if(!zulu) { _fun00008_ip = 187; continue _fun00007 }
  44:
                 zulu = _closure1_slot4;
                 zulu = oscar == zulu;
-                if(!zulu) { _fun36030_ip = 103; continue _fun36030 }
+                if(!zulu) { _fun00008_ip = 103; continue _fun00007 }
  55:
                 golf = _closure1_slot0;
                 options = _closure1_slot2;
@@ -167,7 +167,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 _closure1_slot4 = tango;
                 zulu = oscar == tango;
  103:
-                if(!zulu) { _fun36030_ip = 183; continue _fun36030 }
+                if(!zulu) { _fun00008_ip = 183; continue _fun00007 }
  106:
                 tango = _closure1_slot1;
                 oscar = _closure1_slot2;
@@ -230,14 +230,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         };
         zulu['getSocName'] = tango;
         tango = function() { // Original name: getRamSize
-            _fun36037: for(var _fun36037_ip = 0; ; ) switch(_fun36037_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 entity = _closure1_slot3;
                 tango = entity.ramSize;
                 zulu = undefined;
                 mike = '';
                 entity = undefined;
-                if(!(mike !== tango)) { _fun36037_ip = 40; continue _fun36037 }
+                if(!(mike !== tango)) { _fun00010_ip = 40; continue _fun00009 }
  27:
                 mike = global;
                 mike = mike.parseFloat;
@@ -248,14 +248,14 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         };
         zulu['getRamSize'] = tango;
         tango = function() { // Original name: getMaxCpuFreq
-            _fun36038: for(var _fun36038_ip = 0; ; ) switch(_fun36038_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 entity = _closure1_slot3;
                 tango = entity.maxCpuFreq;
                 zulu = undefined;
                 mike = '';
                 entity = undefined;
-                if(!(mike !== tango)) { _fun36038_ip = 40; continue _fun36038 }
+                if(!(mike !== tango)) { _fun00012_ip = 40; continue _fun00011 }
  27:
                 mike = global;
                 mike = mike.parseFloat;

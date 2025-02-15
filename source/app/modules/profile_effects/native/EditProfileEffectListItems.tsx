@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = report.bind(options)(tango);
     var _closure1_slot7 = tango;
     tango = function(argFoo) { // Original name: EditProfileEffectListItem
-        _fun91795: for(var _fun91795_ip = 0; ; ) switch(_fun91795_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             yankee = entity.size;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = entity.accessibilityLabel;
             options = entity.accessibilityRole;
             tango = undefined;
-            if(!(options === tango)) { _fun91795_ip = 61; continue _fun91795 }
+            if(!(options === tango)) { _fun00002_ip = 61; continue _fun00001 }
  57:
             options = 'button';
  61:
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(4);
             options[0] = offset;
             offset = null;
-            if(!foxtrot) { _fun91795_ip = 179; continue _fun91795 }
+            if(!foxtrot) { _fun00002_ip = 179; continue _fun00001 }
  173:
             offset = romeo.selected;
  179:
@@ -181,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     report = oscar.bind(golf)(report);
     zulu['EditProfileEffectListItem'] = tango;
     tango = function(argFoo) {
-        _fun91797: for(var _fun91797_ip = 0; ; ) switch(_fun91797_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             verify = argFoo;
             entity = _closure1_slot7;
@@ -233,11 +233,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = backup[offset];
             offset = foxtrot.bind(tango)(offset);
             offset = offset.t;
-            if(verify) { _fun91797_ip = 238; continue _fun91797 }
+            if(verify) { _fun00004_ip = 238; continue _fun00003 }
  225:
             verify = offset.PoWNfX;
             verify = yankee.bind(romeo)(verify);
-            _fun91797_ip = 249; continue _fun91797;
+            _fun00004_ip = 249; continue _fun00003;
  238:
             offset = offset.GJ3Fcn;
             verify = yankee.bind(romeo)(offset);
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     zulu['EditProfileEffectShopItem'] = tango;
     mike = function(argFoo) {
-        _fun91799: for(var _fun91799_ip = 0; ; ) switch(_fun91799_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zulu = argFoo;
             output = zulu.profileEffect;
@@ -380,12 +380,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(report)(entity);
             zulu = verify == entity;
             romeo = undefined;
-            if(zulu) { _fun91799_ip = 245; continue _fun91799 }
+            if(zulu) { _fun00006_ip = 245; continue _fun00005 }
  240:
             romeo = entity.config;
  245:
             report = verify == backup;
-            if(report) { _fun91799_ip = 289; continue _fun91799 }
+            if(report) { _fun00006_ip = 289; continue _fun00005 }
  252:
             zulu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = zulu.bind(tango)(entity);
             entity = zulu.isPremiumCollectiblesPurchase;
             entity = entity.bind(zulu)(backup);
-            if(!entity) { _fun91799_ip = 286; continue _fun91799 }
+            if(!entity) { _fun00006_ip = 286; continue _fun00005 }
  283:
             entity = !mike;
  286:
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['isSelected'] = foxtrot;
             foxtrot = verify == romeo;
             verify = undefined;
-            if(foxtrot) { _fun91799_ip = 318; continue _fun91799 }
+            if(foxtrot) { _fun00006_ip = 318; continue _fun00005 }
  313:
             verify = romeo.accessibilityLabel;
  318:
@@ -449,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar = new Array(3);
             oscar[0] = verify;
             oscar[1] = options;
-            if(!report) { _fun91799_ip = 546; continue _fun91799 }
+            if(!report) { _fun00006_ip = 546; continue _fun00005 }
  493:
             verify = _closure1_slot5;
             options = _closure1_slot0;

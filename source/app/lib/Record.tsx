@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'set';
         entity['key'] = oscar;
         oscar = function(argFoo, argBar) { // Original name: value
-            _fun36202: for(var _fun36202_ip = 0; ; ) switch(_fun36202_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 oscar = argFoo;
                 tango = argBar;
@@ -57,21 +57,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = global;
                 mike = entity.Date;
                 mike = tango instanceof mike;
-                if(!mike) { _fun36202_ip = 68; continue _fun36202 }
+                if(!mike) { _fun00002_ip = 68; continue _fun00001 }
  28:
                 entity = entity.Date;
                 entity = zulu instanceof entity;
-                if(!entity) { _fun36202_ip = 68; continue _fun36202 }
+                if(!entity) { _fun00002_ip = 68; continue _fun00001 }
  41:
                 entity = tango.getTime;
                 report = entity.bind(tango)();
                 entity = zulu.getTime;
                 mike = entity.bind(zulu)();
                 entity = golf;
-                if(!(report !== mike)) { _fun36202_ip = 123; continue _fun36202 }
+                if(!(report !== mike)) { _fun00002_ip = 123; continue _fun00001 }
  68:
                 mike = golf;
-                if(!(zulu !== tango)) { _fun36202_ip = 120; continue _fun36202 }
+                if(!(zulu !== tango)) { _fun00002_ip = 120; continue _fun00001 }
  75:
                 report = golf.constructor;
                 zulu = {};
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'merge';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun36203: for(var _fun36203_ip = 0; ; ) switch(_fun36203_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 foxtrot = argFoo;
                 mike = this;
@@ -118,18 +118,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     backup = foxtrot.hasOwnProperty;
                     backup = backup.bind(foxtrot)(result);
                     oscar = output;
-                    if(!backup) { _fun36203_ip = 32; continue _fun36203 }
+                    if(!backup) { _fun00004_ip = 32; continue _fun00003 }
  70:
                     kilo = mike[result];
                     backup = foxtrot[result];
                     sizing = golf.Date;
                     sizing = backup instanceof sizing;
-                    if(!sizing) { _fun36203_ip = 101; continue _fun36203 }
+                    if(!sizing) { _fun00004_ip = 101; continue _fun00003 }
  91:
                     echo = golf.Date;
                     sizing = kilo instanceof echo;
  101:
-                    if(!sizing) { _fun36203_ip = 128; continue _fun36203 }
+                    if(!sizing) { _fun00004_ip = 128; continue _fun00003 }
  104:
                     echo = backup.getTime;
                     update = echo.bind(backup)();
@@ -140,13 +140,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     oscar = output;
                     report = kilo;
                     entity = backup;
-                    if(sizing) { _fun36203_ip = 32; continue _fun36203 }
+                    if(sizing) { _fun00004_ip = 32; continue _fun00003 }
  140:
                     oscar = output;
-                    if(!(kilo !== backup)) { _fun36203_ip = 180; continue _fun36203 }
+                    if(!(kilo !== backup)) { _fun00004_ip = 180; continue _fun00003 }
  147:
                     sizing = output;
-                    if(!(zulu == output)) { _fun36203_ip = 169; continue _fun36203 }
+                    if(!(zulu == output)) { _fun00004_ip = 169; continue _fun00003 }
  154:
                     output = {};
                     control = output;
@@ -160,11 +160,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
  180:
                     report = kilo;
                     entity = backup;
-                    _fun36203_ip = 32; continue _fun36203;
+                    _fun00004_ip = 32; continue _fun00003;
                 }
  191:
                 entity = mike;
-                if(!(zulu != tango)) { _fun36203_ip = 226; continue _fun36203 }
+                if(!(zulu != tango)) { _fun00004_ip = 226; continue _fun00003 }
  198:
                 mike = mike.constructor;
                 zulu = mike.prototype;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'update';
         entity['key'] = oscar;
         report = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun36204: for(var _fun36204_ip = 0; ; ) switch(_fun36204_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tango = argFoo;
                 entity = argBar;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 zulu = this;
                 report = null;
                 mike = entity;
-                if(!(report == oscar)) { _fun36204_ip = 26; continue _fun36204 }
+                if(!(report == oscar)) { _fun00006_ip = 26; continue _fun00005 }
  21:
                 mike = undefined;
                 oscar = entity;
@@ -200,17 +200,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 entity = _closure2_slot0;
                 entity = verify instanceof entity;
                 report = verify;
-                if(entity) { _fun36204_ip = 117; continue _fun36204 }
+                if(entity) { _fun00006_ip = 117; continue _fun00005 }
  47:
                 entity = global;
                 golf = entity.Array;
                 golf = verify instanceof golf;
-                if(golf) { _fun36204_ip = 95; continue _fun36204 }
+                if(golf) { _fun00006_ip = 95; continue _fun00005 }
  62:
                 entity = entity.Object;
                 golf = verify instanceof entity;
                 entity = verify;
-                if(!golf) { _fun36204_ip = 93; continue _fun36204 }
+                if(!golf) { _fun00006_ip = 93; continue _fun00005 }
  78:
                 golf = {};
                 romeo = golf;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 options = copyDataProperties(romeo, yankee);
                 entity = golf;
  93:
-                _fun36204_ip = 114; continue _fun36204;
+                _fun00006_ip = 114; continue _fun00005;
  95:
                 golf = new Array(0);
                 offset = 0;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 report = entity;
  117:
                 entity = undefined;
-                if(!(entity === report)) { _fun36204_ip = 126; continue _fun36204 }
+                if(!(entity === report)) { _fun00006_ip = 126; continue _fun00005 }
  123:
                 report = mike;
  126:
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'merge';
         entity['key'] = oscar;
         oscar = function(argFoo) { // Original name: value
-            _fun36209: for(var _fun36209_ip = 0; ; ) switch(_fun36209_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 offset = argFoo;
                 mike = this;
@@ -309,26 +309,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     foxtrot = offset.hasOwnProperty;
                     foxtrot = foxtrot.bind(offset)(romeo);
                     entity = yankee;
-                    if(!foxtrot) { _fun36209_ip = 23; continue _fun36209 }
+                    if(!foxtrot) { _fun00008_ip = 23; continue _fun00007 }
  58:
                     backup = offset[romeo];
                     foxtrot = mike[romeo];
                     entity = yankee;
-                    if(foxtrot === backup) { _fun36209_ip = 23; continue _fun36209 }
+                    if(foxtrot === backup) { _fun00008_ip = 23; continue _fun00007 }
  73:
                     entity = yankee;
-                    if(!(zulu == yankee)) { _fun36209_ip = 90; continue _fun36209 }
+                    if(!(zulu == yankee)) { _fun00008_ip = 90; continue _fun00007 }
  80:
                     yankee = mike.toJS;
                     entity = yankee.bind(mike)();
  90:
                     yankee = offset[romeo];
                     entity[romeo] = yankee;
-                    _fun36209_ip = 23; continue _fun36209;
+                    _fun00008_ip = 23; continue _fun00007;
                 }
  100:
                 entity = mike;
-                if(!(zulu != tango)) { _fun36209_ip = 135; continue _fun36209 }
+                if(!(zulu != tango)) { _fun00008_ip = 135; continue _fun00007 }
  107:
                 mike = mike.constructor;
                 zulu = mike.prototype;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
         oscar = 'update';
         entity['key'] = oscar;
         report = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun36210: for(var _fun36210_ip = 0; ; ) switch(_fun36210_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tango = argFoo;
                 entity = argBar;
@@ -356,17 +356,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 mike = _closure1_slot2;
                 mike = options instanceof mike;
                 oscar = options;
-                if(mike) { _fun36210_ip = 100; continue _fun36210 }
+                if(mike) { _fun00010_ip = 100; continue _fun00009 }
  30:
                 mike = global;
                 report = mike.Array;
                 report = options instanceof report;
-                if(report) { _fun36210_ip = 78; continue _fun36210 }
+                if(report) { _fun00010_ip = 78; continue _fun00009 }
  45:
                 mike = mike.Object;
                 report = options instanceof mike;
                 mike = options;
-                if(!report) { _fun36210_ip = 76; continue _fun36210 }
+                if(!report) { _fun00010_ip = 76; continue _fun00009 }
  61:
                 report = {};
                 yankee = report;
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 golf = copyDataProperties(yankee, offset);
                 mike = report;
  76:
-                _fun36210_ip = 97; continue _fun36210;
+                _fun00010_ip = 97; continue _fun00009;
  78:
                 report = new Array(0);
                 verify = 0;
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                 oscar = mike;
  100:
                 report = undefined;
-                if(!(report === oscar)) { _fun36210_ip = 109; continue _fun36210 }
+                if(!(report === oscar)) { _fun00010_ip = 109; continue _fun00009 }
  106:
                 oscar = entity;
  109:

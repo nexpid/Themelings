@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'uikit-native/EmptyState.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: EmptyState
-        _fun76756: for(var _fun76756_ip = 0; ; ) switch(_fun76756_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             mike = _closure1_slot6;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = mike.theme;
             mike = entity.Illustration;
             golf = null;
-            if(!(golf == mike)) { _fun76756_ip = 168; continue _fun76756 }
+            if(!(golf == mike)) { _fun00002_ip = 168; continue _fun00001 }
  64:
             report = _closure1_slot4;
             zulu = _closure1_slot3;
@@ -92,10 +92,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify.bind(tango)(oscar);
             oscar = verify.isThemeLight;
             oscar = oscar.bind(verify)(offset);
-            if(oscar) { _fun76756_ip = 122; continue _fun76756 }
+            if(oscar) { _fun00002_ip = 122; continue _fun00001 }
  114:
             oscar = entity.darkSource;
-            _fun76756_ip = 128; continue _fun76756;
+            _fun00002_ip = 128; continue _fun00001;
  122:
             oscar = entity.lightSource;
  128:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             oscar[1] = verify;
             mike['style'] = oscar;
             verify = report.bind(tango)(zulu, mike);
-            _fun76756_ip = 223; continue _fun76756;
+            _fun00002_ip = 223; continue _fun00001;
  168:
             report = _closure1_slot4;
             zulu = entity.Illustration;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[0] = verify;
             offset = golf != sizing;
             verify = null;
-            if(!offset) { _fun76756_ip = 381; continue _fun76756 }
+            if(!offset) { _fun00002_ip = 381; continue _fun00001 }
  310:
             kilo = _closure1_slot4;
             backup = _closure1_slot0;
@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = verify;
             verify = golf != yankee;
             golf = null;
-            if(!verify) { _fun76756_ip = 465; continue _fun76756 }
+            if(!verify) { _fun00002_ip = 465; continue _fun00001 }
  394:
             offset = _closure1_slot4;
             verify = _closure1_slot0;

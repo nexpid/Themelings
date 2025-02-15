@@ -6,7 +6,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     tango = function(argFoo) { // Original name: useMessageScreenLoadingState
-        _fun112813: for(var _fun112813_ip = 0; ; ) switch(_fun112813_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             offset = mike.searchContext;
@@ -47,14 +47,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = entity.isFetching;
             mike = !mike;
             zulu = !mike;
-            if(mike) { _fun112813_ip = 135; continue _fun112813 }
+            if(mike) { _fun00002_ip = 135; continue _fun00001 }
  132:
             zulu = entity;
  135:
             entity = {};
             entity['isFirstPageLoading'] = mike;
             entity['isNextPageLoading'] = zulu;
-            if(mike) { _fun112813_ip = 153; continue _fun112813 }
+            if(mike) { _fun00002_ip = 153; continue _fun00001 }
  150:
             mike = zulu;
  153:
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     report = oscar.bind(golf)(report);
     zulu['useMessageScreenLoadingState'] = tango;
     tango = function(argFoo) { // Original name: useIsPlaceholderVisible
-        _fun112815: for(var _fun112815_ip = 0; ; ) switch(_fun112815_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
             tango = entity.searchContext;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             entity = undefined;
             entity = zulu.bind(entity)(tango);
             entity = !entity;
-            if(!entity) { _fun112815_ip = 45; continue _fun112815 }
+            if(!entity) { _fun00004_ip = 45; continue _fun00003 }
  34:
             zulu = mike.length;
             mike = 0;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     };
     zulu['useIsPlaceholderVisible'] = tango;
     mike = function(argFoo) { // Original name: useIsSearchSpinnerVisible
-        _fun112816: for(var _fun112816_ip = 0; ; ) switch(_fun112816_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             report = entity.searchContext;
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = zulu.bind(tango)(report);
             mike = _closure1_slot3;
             mike = mike.bind(tango)(report);
-            if(!entity) { _fun112816_ip = 69; continue _fun112816 }
+            if(!entity) { _fun00006_ip = 69; continue _fun00005 }
  66:
             entity = !zulu;
  69:
-            if(!entity) { _fun112816_ip = 75; continue _fun112816 }
+            if(!entity) { _fun00006_ip = 75; continue _fun00005 }
  72:
             entity = !mike;
  75:

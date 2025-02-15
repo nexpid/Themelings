@@ -95,11 +95,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/safety_hub/native/SafetyHubErrorActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: SafetyHubErrorActionSheet
-        _fun100037: for(var _fun100037_ip = 0; ; ) switch(_fun100037_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = null;
-            if(!(mike != entity)) { _fun100037_ip = 432; continue _fun100037 }
+            if(!(mike != entity)) { _fun00002_ip = 432; continue _fun00001 }
  12:
             entity = _closure1_slot7;
             report = undefined;

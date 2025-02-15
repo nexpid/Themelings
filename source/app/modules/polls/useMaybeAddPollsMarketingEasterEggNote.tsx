@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/polls/useMaybeAddPollsMarketingEasterEggNote.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useMaybeAddPollsMarketingEasterEggNote
-        _fun84643: for(var _fun84643_ip = 0; ; ) switch(_fun84643_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             zulu = _closure1_slot0;
@@ -50,10 +50,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu, entity);
             tango = ':pizza:';
             entity = oscar;
-            if(!(tango === oscar)) { _fun84643_ip = 142; continue _fun84643 }
+            if(!(tango === oscar)) { _fun00002_ip = 142; continue _fun00001 }
  73:
             entity = oscar;
-            if(!zulu) { _fun84643_ip = 142; continue _fun84643 }
+            if(!zulu) { _fun00002_ip = 142; continue _fun00001 }
  79:
             zulu = _closure1_slot0;
             options = _closure1_slot1;

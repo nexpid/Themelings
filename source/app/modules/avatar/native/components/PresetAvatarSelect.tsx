@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = foxtrot;
     var _closure1_slot2 = options;
     entity = function(argFoo) { // Original name: DefaultAvatarButton
-        _fun124221: for(var _fun124221_ip = 0; ; ) switch(_fun124221_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             verify = entity.source;
@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = new Array(2);
             yankee[0] = romeo;
             romeo = undefined;
-            if(!offset) { _fun124221_ip = 95; continue _fun124221 }
+            if(!offset) { _fun00002_ip = 95; continue _fun00001 }
  89:
             romeo = options.defaultAvatarSelected;
  95:

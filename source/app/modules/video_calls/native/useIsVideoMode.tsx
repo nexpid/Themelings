@@ -7,7 +7,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
     var _closure1_slot0 = oscar;
     var _closure1_slot1 = golf;
     mike = function() { // Original name: isVideoMode
-        _fun103063: for(var _fun103063_ip = 0; ; ) switch(_fun103063_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = arguments[0];
             golf = arguments[1];
@@ -15,23 +15,23 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             oscar = arguments[3];
             tango = arguments[4];
             entity = undefined;
-            if(!(zulu === entity)) { _fun103063_ip = 28; continue _fun103063 }
+            if(!(zulu === entity)) { _fun00002_ip = 28; continue _fun00001 }
  21:
             zulu = _closure1_slot3;
  28:
-            if(!(golf === entity)) { _fun103063_ip = 39; continue _fun103063 }
+            if(!(golf === entity)) { _fun00002_ip = 39; continue _fun00001 }
  32:
             golf = _closure1_slot5;
  39:
-            if(!(report === entity)) { _fun103063_ip = 50; continue _fun103063 }
+            if(!(report === entity)) { _fun00002_ip = 50; continue _fun00001 }
  43:
             report = _closure1_slot2;
  50:
-            if(!(oscar === entity)) { _fun103063_ip = 61; continue _fun103063 }
+            if(!(oscar === entity)) { _fun00002_ip = 61; continue _fun00001 }
  54:
             oscar = _closure1_slot6;
  61:
-            if(!(tango === entity)) { _fun103063_ip = 72; continue _fun103063 }
+            if(!(tango === entity)) { _fun00002_ip = 72; continue _fun00001 }
  65:
             tango = _closure1_slot4;
  72:
@@ -41,20 +41,20 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
             zulu = mike.bind(zulu)(entity);
             entity = null;
             entity = entity != zulu;
-            if(!entity) { _fun103063_ip = 157; continue _fun103063 }
+            if(!entity) { _fun00002_ip = 157; continue _fun00001 }
  101:
             mike = report.getAllActiveStreams;
             mike = mike.bind(report)();
             report = mike.length;
             mike = 0;
             mike = report > mike;
-            if(mike) { _fun103063_ip = 141; continue _fun103063 }
+            if(mike) { _fun00002_ip = 141; continue _fun00001 }
  125:
             report = oscar.hasVideo;
             zulu = zulu.id;
             mike = report.bind(oscar)(zulu);
  141:
-            if(mike) { _fun103063_ip = 154; continue _fun103063 }
+            if(mike) { _fun00002_ip = 154; continue _fun00001 }
  144:
             zulu = tango.isVideoEnabled;
             mike = zulu.bind(tango)();

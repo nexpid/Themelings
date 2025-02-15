@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/user_profile/native/UserProfilePremiumUpsellCard.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: UserProfilePremiumUpsellCard
-        _fun93331: for(var _fun93331_ip = 0; ; ) switch(_fun93331_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.isTryItOut;
@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = 7;
             zulu = offset[zulu];
             zulu = oscar.bind(tango)(zulu);
-            if(options) { _fun93331_ip = 131; continue _fun93331 }
+            if(options) { _fun00002_ip = 131; continue _fun00001 }
  123:
             oscar = zulu.USER_SETTINGS_USER_PROFILE;
-            _fun93331_ip = 137; continue _fun93331;
+            _fun00002_ip = 137; continue _fun00001;
  131:
             oscar = zulu.USER_SETTINGS_TRY_OUT_PREMIUM;
  137:
@@ -184,11 +184,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = golf[foxtrot];
             golf = offset.bind(tango)(golf);
             offset = golf.t;
-            if(options) { _fun93331_ip = 311; continue _fun93331 }
+            if(options) { _fun00002_ip = 311; continue _fun00001 }
  298:
             golf = offset.PxUx8f;
             golf = yankee.bind(romeo)(golf);
-            _fun93331_ip = 322; continue _fun93331;
+            _fun00002_ip = 322; continue _fun00001;
  311:
             offset = offset.pj0XBA;
             golf = yankee.bind(romeo)(offset);
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['ctaText'] = golf;
             golf = true;
             entity['showLinearGradient'] = golf;
-            if(!options) { _fun93331_ip = 340; continue _fun93331 }
+            if(!options) { _fun00002_ip = 340; continue _fun00001 }
  337:
             report = oscar;
  340:
@@ -218,11 +218,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = verify[foxtrot];
             verify = romeo.bind(tango)(verify);
             verify = verify.t;
-            if(options) { _fun93331_ip = 444; continue _fun93331 }
+            if(options) { _fun00002_ip = 444; continue _fun00001 }
  431:
             options = verify.Tii53d;
             options = offset.bind(yankee)(options);
-            _fun93331_ip = 455; continue _fun93331;
+            _fun00002_ip = 455; continue _fun00001;
  444:
             verify = verify.ZFR9LC;
             options = offset.bind(yankee)(verify);

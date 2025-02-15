@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/parent_tools/native/FamilyCenterAvatarPair.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: FamilyCenterAvatarPair
-        _fun95438: for(var _fun95438_ip = 0; ; ) switch(_fun95438_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             offset = entity.otherUser;
@@ -93,10 +93,10 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             backup = zulu.bind(tango)(mike, entity);
             entity = null;
-            if(!(report !== backup)) { _fun95438_ip = 361; continue _fun95438 }
+            if(!(report !== backup)) { _fun00002_ip = 361; continue _fun00001 }
  95:
             entity = null;
-            if(!(report !== offset)) { _fun95438_ip = 361; continue _fun95438 }
+            if(!(report !== offset)) { _fun00002_ip = 361; continue _fun00001 }
  104:
             tango = _closure1_slot6;
             zulu = _closure1_slot3;

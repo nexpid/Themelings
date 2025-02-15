@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
     tango = 'modules/dismissible_content/useIsDismissibleContentTypeDismissed.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: useIsDismissibleContentTypeDismissed
-        _fun75599: for(var _fun75599_ip = 0; ; ) switch(_fun75599_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argFoo;
             tango = _closure1_slot0;
@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             tango = new Array(1);
             tango[0] = mike;
             mike = function() {
-                _fun75600: for(var _fun75600_ip = 0; ; ) switch(_fun75600_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot2;
                     entity = entity.settings;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
                     entity = null;
                     zulu = entity == mike;
                     entity = undefined;
-                    if(zulu) { _fun75600_ip = 36; continue _fun75600 }
+                    if(zulu) { _fun00004_ip = 36; continue _fun00003 }
  30:
                     entity = mike.dismissedContents;
  36:
@@ -66,11 +66,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFred, argPlugh) {
             mike = entity.length;
             entity = 0;
             entity = entity === mike;
-            if(entity) { _fun75599_ip = 149; continue _fun75599 }
+            if(entity) { _fun00002_ip = 149; continue _fun00001 }
  105:
             mike = null;
             mike = mike != report;
-            if(!mike) { _fun75599_ip = 146; continue _fun75599 }
+            if(!mike) { _fun00002_ip = 146; continue _fun00001 }
  114:
             tango = _closure1_slot0;
             options = _closure1_slot1;

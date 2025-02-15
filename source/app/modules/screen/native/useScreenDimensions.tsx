@@ -66,13 +66,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = tango.bind(report)(zulu, mike);
             var _closure3_slot0 = mike;
             entity = function() {
-                _fun48666: for(var _fun48666_ip = 0; ; ) switch(_fun48666_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zulu = _closure3_slot0;
                     entity = null;
                     zulu = entity == zulu;
                     entity = undefined;
-                    if(zulu) { _fun48666_ip = 32; continue _fun48666 }
+                    if(zulu) { _fun00002_ip = 32; continue _fun00001 }
  18:
                     zulu = _closure3_slot0;
                     mike = zulu.remove;

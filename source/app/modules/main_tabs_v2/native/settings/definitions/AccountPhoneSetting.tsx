@@ -67,7 +67,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
         mike = new Array(1);
         mike[0] = entity;
         entity = function() {
-            _fun94494: for(var _fun94494_ip = 0; ; ) switch(_fun94494_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = _closure1_slot3;
                 entity = mike.getCurrentUser;
@@ -75,7 +75,7 @@ export default (function(_, argBar, argBaz, __, ___, argFred, argPlugh) {
                 entity = null;
                 zulu = entity == mike;
                 entity = undefined;
-                if(zulu) { _fun94494_ip = 33; continue _fun94494 }
+                if(zulu) { _fun00002_ip = 33; continue _fun00001 }
  27:
                 entity = mike.phone;
  33:

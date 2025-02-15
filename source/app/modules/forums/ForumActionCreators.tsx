@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         tango = _closure1_slot3;
         zulu = function* (argFoo, argBar, argBaz) {
             entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun76594: for(var _fun76594_ip = 0; ; ) switch(_fun76594_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun76594_ip = 356; continue _fun76594 }
+                    if(mike) { _fun00002_ip = 356; continue _fun00001 }
  10:
                     verify = argFoo;
                     golf = argBar;
@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return verify;
  35:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(offset) { _fun76594_ip = 44; continue _fun76594 }
+                    if(offset) { _fun00002_ip = 44; continue _fun00001 }
  41: // try_end0
                     return verify;
  44:
@@ -57,37 +57,37 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = null;
                     offset = verify == offset;
                     yankee = undefined;
-                    if(offset) { _fun76594_ip = 76; continue _fun76594 }
+                    if(offset) { _fun00002_ip = 76; continue _fun00001 }
  71:
                     yankee = zulu.code;
  76:
                     offset = _closure1_slot4;
                     offset = offset.NON_MODERATED_TAG_REQUIRED;
-                    if(!(yankee !== offset)) { _fun76594_ip = 312; continue _fun76594 }
+                    if(!(yankee !== offset)) { _fun00002_ip = 312; continue _fun00001 }
  96:
                     offset = options;
                     offset = offset.body;
                     tango = offset;
                     yankee = verify == offset;
                     offset = undefined;
-                    if(yankee) { _fun76594_ip = 121; continue _fun76594 }
+                    if(yankee) { _fun00002_ip = 121; continue _fun00001 }
  116:
                     offset = tango.code;
  121:
                     tango = _closure1_slot4;
                     tango = tango.INVALID_FORM_BODY;
-                    if(!(offset === tango)) { _fun76594_ip = 353; continue _fun76594 }
+                    if(!(offset === tango)) { _fun00002_ip = 353; continue _fun00001 }
  138:
                     options = options.body;
                     report = options;
                     options = verify != options;
                     tango = options;
-                    if(!options) { _fun76594_ip = 168; continue _fun76594 }
+                    if(!options) { _fun00002_ip = 168; continue _fun00001 }
  156:
                     report = report.errors;
                     tango = report.emoji;
  168:
-                    if(!tango) { _fun76594_ip = 353; continue _fun76594 }
+                    if(!tango) { _fun00002_ip = 353; continue _fun00001 }
  174:
                     report = _closure1_slot1;
                     foxtrot = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     verify = offset.bind(yankee)(verify);
                     tango['body'] = verify;
                     tango = report.bind(options)(tango);
-                    _fun76594_ip = 353; continue _fun76594;
+                    _fun00002_ip = 353; continue _fun00001;
  312:
                     tango = _closure1_slot1;
                     report = _closure1_slot2;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['resort'] = golf;
     golf = function(argFoo, argBar) { // Original name: createForumTag
-        _fun76596: for(var _fun76596_ip = 0; ; ) switch(_fun76596_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
             mike = _closure1_slot0;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = report.emojiId;
             golf = null;
             golf = golf != options;
-            if(golf) { _fun76596_ip = 106; continue _fun76596 }
+            if(golf) { _fun00004_ip = 106; continue _fun00003 }
  100:
             oscar = report.emojiName;
  106:
@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['createForumTag'] = golf;
     golf = function(argFoo, argBar) { // Original name: updateForumTag
-        _fun76597: for(var _fun76597_ip = 0; ; ) switch(_fun76597_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             options = argFoo;
             report = _closure1_slot0;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             verify = null;
             offset = verify == offset;
             verify = undefined;
-            if(!offset) { _fun76597_ip = 116; continue _fun76597 }
+            if(!offset) { _fun00006_ip = 116; continue _fun00005 }
  110:
             verify = options.emojiName;
  116:
@@ -356,11 +356,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun76603: for(var _fun76603_ip = 0; ; ) switch(_fun76603_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun76603_ip = 151; continue _fun76603 }
+                    if(mike) { _fun00008_ip = 151; continue _fun00007 }
  10:
                     zulu = _closure1_slot1;
                     tango = _closure1_slot2;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return mike;
  57:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zulu) { _fun76603_ip = 148; continue _fun76603 }
+                    if(zulu) { _fun00008_ip = 148; continue _fun00007 }
  63:
                     tango = _closure1_slot0;
                     options = _closure1_slot2;
@@ -472,11 +472,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     };
     mike['markPostAsUnseen'] = golf;
     golf = function(argFoo) { // Original name: flushSeenItems
-        _fun76607: for(var _fun76607_ip = 0; ; ) switch(_fun76607_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = arguments[1];
             entity = undefined;
-            if(!(report === entity)) { _fun76607_ip = 44; continue _fun76607 }
+            if(!(report === entity)) { _fun00010_ip = 44; continue _fun00009 }
  9:
             zulu = _closure1_slot0;
             tango = _closure1_slot2;
@@ -516,11 +516,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = undefined;
         entity = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun76610: for(var _fun76610_ip = 0; ; ) switch(_fun76610_ip) {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(mike) { _fun76610_ip = 287; continue _fun76610 }
+                    if(mike) { _fun00012_ip = 287; continue _fun00011 }
  10:
                     oscar = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -553,7 +553,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     return tango;
  121:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golf) { _fun76610_ip = 232; continue _fun76610 }
+                    if(golf) { _fun00012_ip = 232; continue _fun00011 }
  127:
                     verify = _closure1_slot0;
                     golf = _closure1_slot2;
@@ -580,7 +580,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     golf['threadIds'] = tango;
                     golf = options.bind(verify)(golf);
  230: // try_end0
-                    _fun76610_ip = 284; continue _fun76610;
+                    _fun00012_ip = 284; continue _fun00011;
  232:
                     return tango;
  235: // catch_target0

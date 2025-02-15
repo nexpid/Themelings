@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     golf = 'CREATE_CHANNEL_MODAL_KEY';
     mike['CREATE_CHANNEL_MODAL_KEY'] = golf;
     golf = function(argFoo, argBar, argBaz, argCorge) { // Original name: open
-        _fun76679: for(var _fun76679_ip = 0; ; ) switch(_fun76679_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             romeo = argFoo;
             verify = argBar;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = this;
             var _closure2_slot0 = mike;
             options = null;
-            if(!(options != verify)) { _fun76679_ip = 175; continue _fun76679 }
+            if(!(options != verify)) { _fun00002_ip = 175; continue _fun00001 }
  30:
             report = _closure1_slot1;
             mike = _closure1_slot2;
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = {};
             foxtrot = options != romeo;
             yankee = undefined;
-            if(!foxtrot) { _fun76679_ip = 109; continue _fun76679 }
+            if(!foxtrot) { _fun00002_ip = 109; continue _fun00001 }
  106:
             yankee = romeo;
  109:
@@ -66,20 +66,20 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['guildId'] = verify;
             yankee = options != offset;
             verify = undefined;
-            if(!yankee) { _fun76679_ip = 130; continue _fun76679 }
+            if(!yankee) { _fun00002_ip = 130; continue _fun00001 }
  127:
             verify = offset;
  130:
             mike['categoryId'] = verify;
             options = options != golf;
             oscar = undefined;
-            if(!options) { _fun76679_ip = 147; continue _fun76679 }
+            if(!options) { _fun00002_ip = 147; continue _fun00001 }
  144:
             oscar = golf;
  147:
             mike['cloneChannelId'] = oscar;
             entity = function(argFoo, argBar) { // Original name: onChannelCreated
-                _fun76680: for(var _fun76680_ip = 0; ; ) switch(_fun76680_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = argFoo;
                     mike = _closure2_slot0;
@@ -91,18 +91,18 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     report = null;
                     mike = argBar;
                     mike = report != mike;
-                    if(!mike) { _fun76680_ip = 53; continue _fun76680 }
+                    if(!mike) { _fun00004_ip = 53; continue _fun00003 }
  49:
                     mike = report != tango;
  53:
-                    if(!mike) { _fun76680_ip = 75; continue _fun76680 }
+                    if(!mike) { _fun00004_ip = 75; continue _fun00003 }
  56:
                     oscar = _closure1_slot3;
                     report = oscar.has;
                     tango = tango.type;
                     mike = report.bind(oscar)(tango);
  75:
-                    if(!mike) { _fun76680_ip = 111; continue _fun76680 }
+                    if(!mike) { _fun00004_ip = 111; continue _fun00003 }
  78:
                     tango = _closure1_slot0;
                     mike = _closure1_slot2;

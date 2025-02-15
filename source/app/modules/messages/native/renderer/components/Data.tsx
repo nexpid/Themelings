@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     };
     zulu['makeKeyedDataComponent'] = tango;
     mike = function(argFoo) { // Original name: DataWithChildren
-        _fun69517: for(var _fun69517_ip = 0; ; ) switch(_fun69517_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             oscar = entity.keyPath;
@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = {};
             zulu['keyPath'] = oscar;
             oscar = null;
-            if(!(oscar == mike)) { _fun69517_ip = 44; continue _fun69517 }
+            if(!(oscar == mike)) { _fun00002_ip = 44; continue _fun00001 }
  40:
             mike = _closure1_slot1;
  44:

@@ -44,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = tango.jsxs;
     var _closure1_slot7 = tango;
     tango = function() { // Original name: createVerticalDottedLine
-        _fun84145: for(var _fun84145_ip = 0; ; ) switch(_fun84145_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.get;
@@ -59,7 +59,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 2;
             zulu = 4;
             mike = 8;
-            if(!(golf < options)) { _fun84145_ip = 146; continue _fun84145 }
+            if(!(golf < options)) { _fun00002_ip = 146; continue _fun00001 }
  56:
             backup = entity.push;
             foxtrot = _closure1_slot0;
@@ -79,14 +79,14 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(kilo)(foxtrot, yankee);
             yankee = romeo.bind(entity)(yankee);
             golf = golf + mike;
-            if(golf < options) { _fun84145_ip = 56; continue _fun84145 }
+            if(golf < options) { _fun00002_ip = 56; continue _fun00001 }
  146:
             return entity;
         }
     };
     var _closure1_slot8 = tango;
     tango = function() { // Original name: createHorizontalDottedLine
-        _fun84146: for(var _fun84146_ip = 0; ; ) switch(_fun84146_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zulu = _closure1_slot4;
             mike = zulu.get;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = 2;
             zulu = 4;
             mike = 8;
-            if(!(golf < verify)) { _fun84146_ip = 146; continue _fun84146 }
+            if(!(golf < verify)) { _fun00004_ip = 146; continue _fun00003 }
  56:
             backup = entity.push;
             foxtrot = _closure1_slot0;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             yankee = backup.bind(kilo)(foxtrot, yankee);
             yankee = romeo.bind(entity)(yankee);
             golf = golf + mike;
-            if(golf < verify) { _fun84146_ip = 56; continue _fun84146 }
+            if(golf < verify) { _fun00004_ip = 56; continue _fun00003 }
  146:
             return entity;
         }
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/remixing/native/components/RemixingGuidelines.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: _default
-        _fun84147: for(var _fun84147_ip = 0; ; ) switch(_fun84147_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             verify = entity.gesturing;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = mike.bind(tango)(entity);
             mike = entity.Group;
             entity = {};
-            if(!verify) { _fun84147_ip = 157; continue _fun84147 }
+            if(!verify) { _fun00006_ip = 157; continue _fun00005 }
  154:
             oscar = options;
  157:

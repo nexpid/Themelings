@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         oscar = 'asBigFlag';
         entity['key'] = oscar;
         mike = function(argFoo) { // Original name: value
-            _fun44255: for(var _fun44255_ip = 0; ; ) switch(_fun44255_ip) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 mike = argFoo;
                 entity = this;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 tango = report.hasOwn;
                 zulu = entity.cache;
                 zulu = tango.bind(report)(zulu, mike);
-                if(zulu) { _fun44255_ip = 81; continue _fun44255 }
+                if(zulu) { _fun00002_ip = 81; continue _fun00001 }
  35:
                 tango = entity.cache;
                 oscar = _closure1_slot0;

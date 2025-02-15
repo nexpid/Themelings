@@ -8,7 +8,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot1 = backup;
     var _closure1_slot2 = verify;
     report = function(argFoo, argBar) { // Original name: getBackgroundForProfile
-        _fun90638: for(var _fun90638_ip = 0; ; ) switch(_fun90638_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscar = argBar;
             entity = new Array(2);
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike = _closure1_slot6;
             tango = mike.DARK;
             mike = argFoo;
-            if(!(mike !== tango)) { _fun90638_ip = 77; continue _fun90638 }
+            if(!(mike !== tango)) { _fun00002_ip = 77; continue _fun00001 }
  31:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = report.darkenColor;
             mike = 0.8;
             mike = tango.bind(report)(oscar, mike);
-            _fun90638_ip = 121; continue _fun90638;
+            _fun00002_ip = 121; continue _fun00001;
  77:
             report = _closure1_slot0;
             tango = _closure1_slot2;
@@ -184,11 +184,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
         mike = new Array(1);
         mike[0] = offset;
         entity = function() {
-            _fun90641: for(var _fun90641_ip = 0; ; ) switch(_fun90641_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 mike = _closure2_slot0;
                 entity = null;
-                if(!(entity != mike)) { _fun90641_ip = 108; continue _fun90641 }
+                if(!(entity != mike)) { _fun00004_ip = 108; continue _fun00003 }
  13:
                 tango = _closure1_slot1;
                 zulu = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                 report = 'number';
                 tango = typeof zulu;
                 mike = null;
-                if(!(report !== tango)) { _fun90641_ip = 106; continue _fun90641 }
+                if(!(report !== tango)) { _fun00004_ip = 106; continue _fun00003 }
  100:
                 mike = zulu.uri;
  106:

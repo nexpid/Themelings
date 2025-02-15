@@ -95,11 +95,11 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = '883060064561299456';
     zulu['HQ_CHANNEL_ID'] = tango;
     tango = function(argFoo) { // Original name: getHubCategories
-        _fun76105: for(var _fun76105_ip = 0; ; ) switch(_fun76105_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             entity = '883060064561299456';
-            if(!(mike !== entity)) { _fun76105_ip = 317; continue _fun76105 }
+            if(!(mike !== entity)) { _fun00002_ip = 317; continue _fun00001 }
  16:
             mike = {};
             tango = _closure1_slot6;
@@ -167,7 +167,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             zulu = tango.bind(report)(zulu);
             mike['label'] = zulu;
             entity[3] = mike;
-            _fun76105_ip = 600; continue _fun76105;
+            _fun00002_ip = 600; continue _fun00001;
  317:
             zulu = {};
             report = _closure1_slot6;

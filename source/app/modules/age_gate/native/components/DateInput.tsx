@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     var _closure1_slot5 = tango;
     tango = golf.forwardRef;
     mike = function(argFoo, argBar) {
-        _fun123064: for(var _fun123064_ip = 0; ; ) switch(_fun123064_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             mike = argFoo;
             options = mike.date;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             tango = undefined;
             var _closure2_slot3 = tango;
             mike = function(argFoo) { // Original name: updateDate
-                _fun123065: for(var _fun123065_ip = 0; ; ) switch(_fun123065_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tango = _closure2_slot1;
                     entity = undefined;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     mike = _closure2_slot3;
                     zulu = mike.current;
                     mike = null;
-                    if(!(mike != zulu)) { _fun123065_ip = 42; continue _fun123065 }
+                    if(!(mike != zulu)) { _fun00004_ip = 42; continue _fun00003 }
  32:
                     mike = zulu.blur;
                     mike = mike.bind(zulu)();
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             };
             var _closure2_slot4 = mike;
             golf = function() { // Original name: openDatePicker
-                _fun123066: for(var _fun123066_ip = 0; ; ) switch(_fun123066_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zulu = _closure1_slot4;
                     entity = zulu.dismiss;
@@ -123,13 +123,13 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     options = null;
                     offset = options == golf;
                     golf = undefined;
-                    if(offset) { _fun123066_ip = 130; continue _fun123066 }
+                    if(offset) { _fun00006_ip = 130; continue _fun00005 }
  116:
                     offset = _closure2_slot0;
                     verify = offset.toDate;
                     golf = verify.bind(offset)();
  130:
-                    if(!(options == golf)) { _fun123066_ip = 142; continue _fun123066 }
+                    if(!(options == golf)) { _fun00006_ip = 142; continue _fun00005 }
  134:
                     options = _closure1_slot7;
                     golf = options.bind(entity)();
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity = zulu.bind(offset)(mike, entity);
             mike = verify == options;
             entity = undefined;
-            if(mike) { _fun123064_ip = 140; continue _fun123064 }
+            if(mike) { _fun00002_ip = 140; continue _fun00001 }
  126:
             zulu = options.format;
             mike = 'L';
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
  140:
             mike = verify != entity;
             options = undefined;
-            if(!mike) { _fun123064_ip = 152; continue _fun123064 }
+            if(!mike) { _fun00002_ip = 152; continue _fun00001 }
  149:
             options = entity;
  152:
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             backup = verify != options;
             yankee = '';
             foxtrot = yankee;
-            if(!backup) { _fun123064_ip = 242; continue _fun123064 }
+            if(!backup) { _fun00002_ip = 242; continue _fun00001 }
  239:
             foxtrot = options;
  242:
@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             entity['editable'] = romeo;
             romeo = true;
             entity['forceAccessibleContainer'] = romeo;
-            if(!(verify != options)) { _fun123064_ip = 332; continue _fun123064 }
+            if(!(verify != options)) { _fun00002_ip = 332; continue _fun00001 }
  329:
             offset = options;
  332:

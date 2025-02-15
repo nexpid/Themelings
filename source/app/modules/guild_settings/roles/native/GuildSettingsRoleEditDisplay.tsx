@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/guild_settings/roles/native/GuildSettingsRoleEditDisplay.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: GuildSettingsRoleEditDisplay
-        _fun126324: for(var _fun126324_ip = 0; ; ) switch(_fun126324_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zulu = argFoo;
             golf = zulu.guild;
@@ -124,12 +124,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = options.id;
             output = verify.bind(offset)(report, zulu);
             sizing = output;
-            if(output) { _fun126324_ip = 146; continue _fun126324 }
+            if(output) { _fun00002_ip = 146; continue _fun00001 }
  143:
             sizing = mike;
  146:
             mike = 0;
-            if(!(mike === variable36)) { _fun126324_ip = 156; continue _fun126324 }
+            if(!(mike === variable36)) { _fun00002_ip = 156; continue _fun00001 }
  152:
             variable36 = _closure1_slot5;
  156:
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             mike['size'] = golf;
             papa = zulu.bind(report)(mike);
             verify = null;
-            if(!(verify == papa)) { _fun126324_ip = 326; continue _fun126324 }
+            if(!(verify == papa)) { _fun00002_ip = 326; continue _fun00001 }
  249:
             report = _closure1_slot8;
             result = _closure1_slot1;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             options = new Array(2);
             options[0] = yankee;
             verify = null;
-            if(!offset) { _fun126324_ip = 1213; continue _fun126324 }
+            if(!offset) { _fun00002_ip = 1213; continue _fun00001 }
  958:
             romeo = _closure1_slot9;
             yankee = _closure1_slot4;
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             romeo = verify.FormSwitchRow;
             verify = {};
             offset = sizing;
-            if(sizing) { _fun126324_ip = 1290; continue _fun126324 }
+            if(sizing) { _fun00002_ip = 1290; continue _fun00001 }
  1287:
             offset = output;
  1290:
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = yankee.bind(tango)(offset);
             yankee = offset.FormSwitchRow;
             offset = {};
-            if(sizing) { _fun126324_ip = 1476; continue _fun126324 }
+            if(sizing) { _fun00002_ip = 1476; continue _fun00001 }
  1473:
             sizing = output;
  1476:

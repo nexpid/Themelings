@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/app_launcher/native/options/AppLauncherCommandOptionActionSheet.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: AppLauncherCommandOptionActionSheet
-        _fun113436: for(var _fun113436_ip = 0; ; ) switch(_fun113436_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = tango.option;
@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             offset = tango.contentContainerStyles;
             yankee = tango.scrollable;
             report = undefined;
-            if(!(yankee === report)) { _fun113436_ip = 36; continue _fun113436 }
+            if(!(yankee === report)) { _fun00002_ip = 36; continue _fun00001 }
  34:
             yankee = true;
  36:
             golf = tango.startExpanded;
-            if(!(golf === report)) { _fun113436_ip = 48; continue _fun113436 }
+            if(!(golf === report)) { _fun00002_ip = 48; continue _fun00001 }
  46:
             golf = true;
  48:
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             sizing = kilo.ActionSheetCloseButton;
             kilo = {};
             output = function() { // Original name: onPress
-                _fun113437: for(var _fun113437_ip = 0; ; ) switch(_fun113437_ip) {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zulu = _closure1_slot1;
                     mike = _closure1_slot2;
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                     zulu = _closure2_slot0;
                     tango = zulu.onDismiss;
                     zulu = null;
-                    if(!(zulu != tango)) { _fun113437_ip = 68; continue _fun113437 }
+                    if(!(zulu != tango)) { _fun00004_ip = 68; continue _fun00003 }
  54:
                     zulu = _closure2_slot0;
                     mike = zulu.onDismiss;

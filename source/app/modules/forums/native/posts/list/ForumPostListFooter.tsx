@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
     tango = 'modules/forums/native/posts/list/ForumPostListFooter.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: ForumPostListFooter
-        _fun100604: for(var _fun100604_ip = 0; ; ) switch(_fun100604_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.thread;
@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             golf = options.bind(tango)(golf, report);
             report = new Array(3);
             report[0] = golf;
-            if(!oscar) { _fun100604_ip = 257; continue _fun100604 }
+            if(!oscar) { _fun00002_ip = 257; continue _fun00001 }
  156:
             verify = _closure1_slot7;
             options = _closure1_slot6;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             report[1] = oscar;
             oscar = null;
             oscar = oscar != romeo;
-            if(!oscar) { _fun100604_ip = 338; continue _fun100604 }
+            if(!oscar) { _fun00002_ip = 338; continue _fun00001 }
  270:
             verify = _closure1_slot5;
             options = _closure1_slot0;

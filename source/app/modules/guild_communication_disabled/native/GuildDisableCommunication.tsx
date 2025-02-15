@@ -315,11 +315,11 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
             zulu = undefined;
             mike = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun81783: for(var _fun81783_ip = 0; ; ) switch(_fun81783_ip) {
+                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(mike) { _fun81783_ip = 295; continue _fun81783 }
+                        if(mike) { _fun00002_ip = 295; continue _fun00001 }
  10:
                         tango = _closure1_slot1;
                         zulu = _closure1_slot2;
@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         return mike;
  94:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun81783_ip = 292; continue _fun81783 }
+                        if(report) { _fun00002_ip = 292; continue _fun00001 }
  103:
                         backup = _closure1_slot1;
                         kilo = _closure1_slot2;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCorge, _, argFred, argPlugh)
                         backup = sizing.bind(output)(kilo, foxtrot, backup);
                         kilo = foxtrot != backup;
                         foxtrot = '';
-                        if(!kilo) { _fun81783_ip = 238; continue _fun81783 }
+                        if(!kilo) { _fun00002_ip = 238; continue _fun00001 }
  235:
                         foxtrot = backup;
  238:

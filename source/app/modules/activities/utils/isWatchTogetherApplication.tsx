@@ -28,12 +28,12 @@ export default (function(argFoo, argBar, _, __, ___, argFred, argPlugh) {
     tango = 'modules/activities/utils/isWatchTogetherApplication.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: isWatchTogetherApplication
-        _fun75090: for(var _fun75090_ip = 0; ; ) switch(_fun75090_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tango = argFoo;
             entity = null;
             entity = entity != tango;
-            if(!entity) { _fun75090_ip = 53; continue _fun75090 }
+            if(!entity) { _fun00002_ip = 53; continue _fun00001 }
  12:
             report = _closure1_slot0;
             zulu = new Array(3);

@@ -30,7 +30,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
     tango = 'modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx';
     tango = report.bind(oscar)(tango);
     mike = function(argFoo) { // Original name: InAppReportsUpsellsTableRow
-        _fun72827: for(var _fun72827_ip = 0; ; ) switch(_fun72827_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
             foxtrot = entity.title;
@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             offset = entity.description;
             report = entity.variant;
             tango = undefined;
-            if(!(report === tango)) { _fun72827_ip = 34; continue _fun72827 }
+            if(!(report === tango)) { _fun00002_ip = 34; continue _fun00001 }
  30:
             report = 'default';
  34:
@@ -54,17 +54,17 @@ export default (function(argFoo, argBar, _, argCorge, __, argFred, argPlugh) {
             mike = entity.TableRow;
             entity = {};
             verify = foxtrot;
-            if(!oscar) { _fun72827_ip = 102; continue _fun72827 }
+            if(!oscar) { _fun00002_ip = 102; continue _fun00001 }
  90:
             romeo = null;
             verify = foxtrot;
-            if(!(romeo != yankee)) { _fun72827_ip = 102; continue _fun72827 }
+            if(!(romeo != yankee)) { _fun00002_ip = 102; continue _fun00001 }
  99:
             verify = yankee;
  102:
             entity['label'] = verify;
             verify = null;
-            if(oscar) { _fun72827_ip = 114; continue _fun72827 }
+            if(oscar) { _fun00002_ip = 114; continue _fun00001 }
  111:
             verify = offset;
  114:
