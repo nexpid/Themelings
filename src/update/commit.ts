@@ -20,7 +20,6 @@ export async function getGitChanged() {
 const gitQueue: Promise<void>[] = [];
 
 export async function commit(files: string[], message: string) {
-	if (process.env.NODE_ENV === "test" && !commitAnyway) return;
 	while (gitQueue[0]) {
 		await gitQueue[0];
 	}
@@ -30,23 +29,29 @@ export async function commit(files: string[], message: string) {
 
 	gitQueue.push(prom);
 
-	// make sure no files are staged
-	await Bun.$`git restore --staged .`
-		.cwd("../data")
-		.nothrow()
-		.quiet()
-		.then(handleShellErr);
-	await getGitChanged();
-	await Bun.$`git add ${{ raw: files.map((x) => Bun.$.escape(x)).join(" ") }}`
-		.cwd("../data")
-		.nothrow()
-		.quiet()
-		.then(handleShellErr);
-	await Bun.$`git commit -m ${message}`
-		.cwd("../data")
-		.nothrow()
-		.quiet()
-		.then((e) => void e);
+	if (process.env.NODE_ENV === "test" && !commitAnyway) {
+		await getGitChanged();
+	} else {
+		// unstage all files
+		await Bun.$`git restore --staged .`
+			.cwd("../data")
+			.nothrow()
+			.quiet()
+			.then(handleShellErr);
+		await getGitChanged();
+		// stage files
+		await Bun.$`git add ${{ raw: files.map((x) => Bun.$.escape(x)).join(" ") }}`
+			.cwd("../data")
+			.nothrow()
+			.quiet()
+			.then(handleShellErr);
+		// commiiiiiit
+		await Bun.$`git commit -m ${message}`
+			.cwd("../data")
+			.nothrow()
+			.quiet()
+			.then((e) => void e);
+	}
 
 	await resolveProm?.();
 	gitQueue.splice(
