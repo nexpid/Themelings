@@ -3,6 +3,7 @@ import { join as _join } from "node:path";
 import { type ShellOutput, revision } from "bun";
 
 export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
+export const maxCodeChangesThreshold = 10;
 
 export function sortObj(obj: Record<string | number | symbol, any>) {
 	return Object.fromEntries(

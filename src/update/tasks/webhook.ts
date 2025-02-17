@@ -3,7 +3,7 @@ import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
 import { cuteVersion, version } from "../shared";
-import { maxChangesThreshold } from "../util";
+import { maxChangesThreshold, maxCodeChangesThreshold } from "../util";
 
 function basename(path: string) {
 	return `... ${_basename(path)}`;
@@ -49,6 +49,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 		...v,
 	})) as any[];
 
+	const threshold = isCode ? maxCodeChangesThreshold : maxChangesThreshold;
 	const sections = {
 		Added: cap(
 			entries
@@ -60,17 +61,24 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 						: `+ ${x.name}: ${x.cur}`,
 				),
 			"addition",
+			threshold,
 		),
 		Changed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Changed)
 				.sort((a, b) => a.name.localeCompare(b.name))
+				.sort((a, b) => {
+					if (!isCode) return 0;
+
+					return Math.abs(b.sizeDiffNum) - Math.abs(a.sizeDiffNum);
+				})
 				.map((x) =>
 					isCode
 						? `${x.sizeDiff[0] === "+" ? "-" : "+"} ${basename(x.name)} (${x.sizeDiff})`
 						: `- ${x.name}: ${x.old}\n+ ${x.name}: ${x.cur}`,
 				),
 			"change",
+			threshold,
 		),
 		Renamed: cap(
 			entries
@@ -83,6 +91,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 					return `- ${x.old}\n+ ${x.name}`;
 				}),
 			"rename",
+			threshold,
 		),
 		Removed: cap(
 			entries
@@ -91,6 +100,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 					isCode ? `- ${basename(x.name)} (${x.size})` : `- ${x.name}`,
 				),
 			"removal",
+			threshold,
 		),
 	};
 

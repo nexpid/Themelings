@@ -38,6 +38,7 @@ export type CodeDiff =
 	| {
 			change: DiffEnum.Changed;
 			sizeDiff: string;
+			sizeDiffNum: number;
 	  }
 	| {
 			change: DiffEnum.Renamed;

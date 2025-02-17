@@ -7,39 +7,39 @@ function getMatchTemplate(letter: string) {
 // plus some random variable names spat out by chat gpt thank you chat gpt
 const variableNames = [
 	"entity",
-	"mike",
-	"zulu",
-	"tango",
+	"michal",
+	"zuuluu",
+	"tangon",
 	"report",
-	"oscar",
-	"golf",
-	"options",
+	"oscard",
+	"golfie",
+	"option",
 	"verify",
 	"offset",
 	"yankee",
-	"romeo",
-	"foxtrot",
+	"romeon",
+	"foxtra",
 	"backup",
-	"kilo",
+	"kiloes",
 	"sizing",
 	"output",
 	"result",
-	"echo",
+	"echoed",
 	"update",
 	"source",
-	"control",
+	"ctrled",
 	"vacuum",
-	"sequence",
+	"sequen",
 	"config",
 	"record",
-	"context",
-	"papa",
+	"cntext",
+	"papara",
 	"target",
 	"status",
 	"sierra",
-	"lima",
-	"whiskey",
-	"equality",
+	"limora",
+	"whisks",
+	"equals",
 	"quebec",
 ];
 const variableMatch = getMatchTemplate("r");
@@ -48,10 +48,10 @@ const argumentNames = [
 	"argFoo",
 	"argBar",
 	"argBaz",
-	"argCorge",
-	"argGrault",
-	"argFred",
-	"argPlugh",
+	"argCor",
+	"argGra",
+	"argFre",
+	"argPlu",
 ];
 const argumentMatch = getMatchTemplate("a");
 
@@ -104,5 +104,8 @@ export function deminify(code: string, path: string) {
 		.replace(/ \/\/ Environment: \w+$/gm, "")
 		.replace(/( \/\/ Orig.+?), environment: \w+$/gm, "$1");
 
-	return `// ${path}\n${extname(path).startsWith(".ts") ? "export default" : "module.exports ="} (${final})();`;
+    return {
+        final,
+        res: `// ${path}\n${extname(path).startsWith(".ts") ? "export default" : "module.exports ="} (${final})();`
+	};
 }

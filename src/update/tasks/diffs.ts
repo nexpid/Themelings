@@ -1,10 +1,10 @@
 import {
-	type CodeDiff,
-	type Diff,
-	DiffEnum,
-	type Icons,
-	type OutDiffs,
-	type SemanticColors,
+    type CodeDiff,
+    type Diff,
+    DiffEnum,
+    type Icons,
+    type OutDiffs,
+    type SemanticColors,
 } from "../../types";
 import { getGitChanged, gitChanged } from "../commit";
 import { diffAnyway, prevFiles } from "../shared";
@@ -286,15 +286,17 @@ const diffCode = async (progress: Progress) => {
 					change: DiffEnum.Added,
 					size: formatBytes(newCode.get(code)!.s, 1),
 				});
-		} else if (newCode.get(code)!.s !== oldCode.get(code)!.s)
+		} else if (newCode.get(code)!.s !== oldCode.get(code)!.s) {
+			const numDiff = newCode.get(code)!.de - oldCode.get(code)!.de;
+			if (Math.abs(numDiff) <= 25) continue;
+
+			const diff = formatBytes(Math.abs(numDiff), 1);
 			changes.set(code, {
 				change: DiffEnum.Changed,
-				sizeDiff: (() => {
-					const numDiff = newCode.get(code)!.de - oldCode.get(code)!.de;
-					const diff = formatBytes(Math.abs(numDiff), 1);
-					return numDiff < 0 ? `-${diff}` : `+${diff}`;
-				})(),
+				sizeDiff: numDiff < 0 ? `-${diff}` : `+${diff}`,
+				sizeDiffNum: numDiff,
 			});
+		}
 	for (const code of oldCode.keys())
 		if (!newCode.has(code) && !renamed.has(code))
 			changes.set(code, {

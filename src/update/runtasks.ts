@@ -61,7 +61,7 @@ export async function runTasks(tempFolder: string) {
 
 			// reset to remote branch (without pulling latest commit)
 			taskProgress.start("preinit_discard");
-			await Bun.$`git reset --hard $(git merge-base HEAD origin/data)`
+			await Bun.$`git reset --hard`
 				.cwd("../data")
 				.nothrow()
 				.quiet()
@@ -173,6 +173,6 @@ export async function runTasks(tempFolder: string) {
 		taskProgress.update("webhook", null);
 	}
 
-	await commit(["version.txt"], `bump app version to ${cuteVersion}`);
+	await commit(["version.txt"], `chore: bump app version to ${cuteVersion}`);
 	await rm("../data/oldicons", { force: true, recursive: true });
 }

@@ -9,7 +9,7 @@ const moduleStartIndentation = " ".repeat(4);
 
 export default async function code(progress: Progress, code: string[]) {
 	progress.start("code_getting");
-	const files = new Map<string, string>();
+	const files = new Map<string, { final: string, res: string }>();
 
 	let moduleStart: number | null = null;
 
@@ -45,12 +45,13 @@ export default async function code(progress: Progress, code: string[]) {
 			if (!moduleEnd)
 				throw `moduleEnd was null for ${start}~${i}; ${code[start]} ~ ${code[i]}`;
 
+            const realPath = join("app", path);
 			files.set(
-				join("app", path),
-				code
+				realPath,
+				deminify(code
 					.slice(start, moduleEnd + 1)
 					.map((line) => line.slice(moduleStartIndentation.length))
-					.join("\n"),
+					.join("\n"), realPath),
 			);
 		}
 	}
@@ -60,7 +61,7 @@ export default async function code(progress: Progress, code: string[]) {
 		[...files.entries()]
 			.map(
 				([file, text]) =>
-					`{ "file": ${JSON.stringify(file)}, "size": ${text.length} }`,
+					`{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`,
 			)
 			.join("\n"),
 	);
@@ -84,7 +85,7 @@ export default async function code(progress: Progress, code: string[]) {
 	);
 
 	for (const [file, text] of files.entries())
-		await Bun.write(join(filePrefix, file), deminify(text, file));
+		await Bun.write(join(filePrefix, file), text.res);
 
 	progress.update("code_remaking", true);
 	progress.start("code_pushing");
